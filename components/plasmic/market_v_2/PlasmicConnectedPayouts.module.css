@@ -1,0 +1,57 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.connectedPayoutAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.connectedStripe:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.svg__aOhP {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+}
+.box__jJiBu {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box__okVi8 {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.connectedPaypal:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.svg__iNlVe {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #327aea /* plasmic-token: EfXZlpq-M */;
+}
+.box___0GTCk {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box__jftdj {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}

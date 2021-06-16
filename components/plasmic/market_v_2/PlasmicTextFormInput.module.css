@@ -1,0 +1,113 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.parent__size__180 {
+  width: 180px;
+}
+.parent__size__270 {
+  width: 270px;
+}
+.parent__size__540 {
+  width: 540px;
+}
+.parent__size__380 {
+  width: 380px;
+}
+.box___9HmTa {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.box__label___9HmTapXfZp {
+  display: none;
+}
+.box__size__180___9HmTaYhe1R {
+  width: 180px;
+}
+.box__size__380___9HmTajPz7F {
+  width: 380px;
+}
+.slotLabelHeadline {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.slotLabelHeadline__size__180 {
+  font-size: 14px;
+}
+.slotLabelHeadline__size__270 {
+  font-size: 12px;
+}
+.box__xIVtn {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.box__size__180__xIVtnYhe1R {
+  width: 100%;
+  min-width: 0;
+}
+.box__size__360__xIVtnIJwg {
+  width: 360px;
+}
+.box__size_medium__xIVtnB5Hz2 {
+  width: 100%;
+  min-width: 0;
+}
+.box__size__380__xIVtnjPz7F {
+  width: 380px;
+}
+.slotInputText__size__180 {
+  font-size: 14px;
+}
+.textbox__peJSr {
+  width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+  border-bottom-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-bottom-width: 2px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-left-width: 1px;
+  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  height: 32px;
+  border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  padding-left: 6px;
+  min-width: 0;
+  flex-shrink: 0;
+  background: #f8f8f8;
+  border-style: solid;
+}

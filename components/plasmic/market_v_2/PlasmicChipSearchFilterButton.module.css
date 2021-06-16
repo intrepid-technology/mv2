@@ -1,0 +1,31 @@
+.buttonTrigger {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 32px;
+  width: auto;
+  position: relative;
+  border-radius: 4px;
+  padding: 2px 6px;
+  background: #ffffff repeat;
+  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.buttonTrigger:hover {
+  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+}
+.buttonTrigger:active {
+  background: #333333;
+  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+}
+.slotText {
+  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  line-height: 1;
+  font-size: 14px;
+}
+.buttonTrigger:hover .slotText {
+  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+}
+.buttonTrigger:active .slotText {
+  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+}

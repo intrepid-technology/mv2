@@ -1,0 +1,319 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  min-width: 0;
+  background: #ffffff;
+}
+.sidebarHeader2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  padding: 2px 0px;
+}
+.sidebarHeader2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.sidebarHeader2 > :global(.__wab_flex-container) > *,
+.sidebarHeader2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 6px;
+}
+.avatarUsernameDisplaynameParent2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.avatarUsernameDisplaynameParent2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.avatarUsernameDisplaynameParent2 > :global(.__wab_flex-container) > *,
+.avatarUsernameDisplaynameParent2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 0px;
+}
+.navbarSwitch:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.userAvatarVerificationBadge2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  top: auto;
+  left: auto;
+}
+.navUserAvatar1822 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.navUserAvatar2422 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.navUserAvatar3222 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img___8OS6 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__lwjqB {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__bZrWs {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__vkh3P {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__iuHa {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__aKa44 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__xb1Q {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__if3Ud {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.box {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  top: auto;
+  left: auto;
+  height: auto;
+  width: auto;
+  margin-left: -10px;
+  margin-bottom: -4px;
+}
+.tagVerification:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonSideBarPartnerSettings {
+  position: relative;
+  left: auto;
+  top: auto;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: auto;
+  display: inline-flex;
+  flex-direction: row;
+  height: auto;
+  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.buttonSideBarPartnerSettings > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.buttonSideBarPartnerSettings > :global(.__wab_flex-container) > *,
+.buttonSideBarPartnerSettings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 4px;
+}
+.usernameProfilename2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: center;
+}
+.usernameProfilename2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.usernameProfilename2 > :global(.__wab_flex-container) > *,
+.usernameProfilename2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 2px;
+}
+.campanyNameParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.companyNameText {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.userDisplayname2 {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+}
+.companyNameDisplay {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: auto;
+  display: inline-block;
+}
+.dropDownUserSettingsTrigger {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.elementSidebarHeaderNotification {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  align-self: flex-start;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-top: -12px;
+  margin-left: -8px;
+  flex-shrink: 0;
+}

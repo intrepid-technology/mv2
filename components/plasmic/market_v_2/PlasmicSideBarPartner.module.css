@@ -1,0 +1,89 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 900px;
+  position: relative;
+  padding: 0px 8px 8px;
+  background: #ffffff;
+  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.headerPanelMainPartner {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.sideBarPartnerHeaderPanelNav:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.sideBarButtonHeader:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.sideBarCommunityStats:global(.__wab_instance) {
+  position: relative;
+}
+.badgeCommunityRating:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.box__mKBgm {
+  position: relative;
+  font-size: 16px;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  line-height: 1;
+}
+.badgeVerification:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tagPartnerB:global(.__wab_instance) {
+  position: relative;
+}
+.sideBarListingStats:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.elementSideBarPartnerMarketPanel:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.elementSideBarPartnerProfilePanel:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.elementSideBarPartnerAccountPanel:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.sideBarFooter:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

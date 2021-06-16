@@ -1,0 +1,274 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+  background: #ffffff;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.box___2OV0G {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 4px;
+  min-width: 0;
+}
+.box___2OV0G > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.box___2OV0G > :global(.__wab_flex-container) > *,
+.box___2OV0G > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 6px;
+}
+.elementHeadline {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.elementUserbadges {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 6px;
+  min-width: 0;
+}
+.elementUserbadges > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.elementUserbadges > :global(.__wab_flex-container) > *,
+.elementUserbadges > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 6px;
+}
+.badgeCommunityRating__tagqX:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.box__lDu72 {
+  position: relative;
+  font-size: 16px;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  line-height: 1;
+}
+.badgeVerification__jz8Ki:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tagMemberC__vBdfP:global(.__wab_instance) {
+  position: relative;
+}
+.elementUserSocialFollowing {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  left: auto;
+  top: auto;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 2px;
+}
+.elementUserSocialFollowing > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.elementUserSocialFollowing > :global(.__wab_flex-container) > *,
+.elementUserSocialFollowing
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 6px;
+}
+.followingParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-self: auto;
+}
+.followingParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.followingParent > :global(.__wab_flex-container) > *,
+.followingParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.followingCountNumber {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-size: 18px;
+  text-align: left;
+}
+.box__ehvI9 {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  font-size: 12px;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.followersParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.followersParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.followersParent > :global(.__wab_flex-container) > *,
+.followersParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.followerCountNumber {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-size: 18px;
+  text-align: left;
+}
+.box__ii48V {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  font-size: 12px;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.elementUserSocialFollowing2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  left: auto;
+  top: auto;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 2px;
+}
+.elementUserSocialFollowing2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.elementUserSocialFollowing2 > :global(.__wab_flex-container) > *,
+.elementUserSocialFollowing2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 6px;
+}
+.followingParent2 {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  align-self: auto;
+}
+.followingParent2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.followingParent2 > :global(.__wab_flex-container) > *,
+.followingParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.followingCountNumber2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-size: 18px;
+  text-align: left;
+}
+.box__xOZjq {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 400;
+}
+.followersParent2 {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.followersParent2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.followersParent2 > :global(.__wab_flex-container) > *,
+.followersParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.followerCountNumber2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-size: 18px;
+  text-align: left;
+}
+.box__qqpfd {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 1;
+  font-size: 12px;
+}

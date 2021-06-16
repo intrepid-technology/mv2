@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg {
+  object-fit: cover;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}

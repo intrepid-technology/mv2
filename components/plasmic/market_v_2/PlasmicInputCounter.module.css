@@ -1,0 +1,84 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.button__kujiS {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg__lKsQp {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.root .svg__lKsQp:hover {
+  color: #999999 /* plasmic-token: zM34FgqJJ */;
+}
+.root .svg__lKsQp:active {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
+.box {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 14px;
+  text-align: center;
+  width: auto;
+  font-weight: 700;
+  display: inline-block;
+  padding: 2px;
+  background: #f8f8f8;
+}
+.button__uAdPd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg__ojz8V {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  flex-shrink: 0;
+}
+.root .svg__ojz8V:active {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
+.root .svg__ojz8V:hover {
+  color: #000000 /* plasmic-token: VLxGX_Tro */;
+}

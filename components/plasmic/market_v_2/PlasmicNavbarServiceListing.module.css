@@ -1,0 +1,62 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 414px;
+  min-height: 80px;
+  position: relative;
+  padding: 20px 40px;
+  background: #ffffff;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+}
+.root__color {
+  background: #000000;
+}
+.logoHeader:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  width: 120px;
+  height: 32px;
+  left: auto;
+  top: auto;
+}
+.slotChildren {
+  font-weight: 600;
+  color: #a385ff /* plasmic-token: rN0ul5_oz */;
+  line-height: 24px;
+  font-size: 18px;
+}
+.slotChildren__color {
+  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+}
+.buttonPrimary:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.box {
+  font-weight: 600;
+}
+.svg__wnWi {
+  width: 20px;
+  height: 20px;
+  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  object-fit: cover;
+}

@@ -1,0 +1,81 @@
+.parent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.parent__border {
+  border-radius: 2px;
+  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.personalLoginConnectionAccounts:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.personalConnectedGoogleAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.svg__hDpDq {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #db4437;
+}
+.box__vyrJr {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box__c84HQ {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box__nsCos {
+  display: block;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  align-self: stretch;
+}
+.personalConnectedFacebookAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.svg__cZ1Tp {
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #327aea;
+}
+.box__zhjMw {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box__eJkr2 {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.box___6Hit6 {
+  display: block;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  align-self: stretch;
+}

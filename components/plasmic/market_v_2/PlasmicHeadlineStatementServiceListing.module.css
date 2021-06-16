@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.box__g9O1R {
+  width: 380px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.box__hF6UG {
+  display: inline-flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.slotChildren {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+}
