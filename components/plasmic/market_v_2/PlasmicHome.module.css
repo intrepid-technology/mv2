@@ -19,6 +19,11 @@
   top: auto;
   flex-shrink: 0;
 }
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .navbarHomeCta:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
 .heroParent {
   display: flex;
   position: relative;

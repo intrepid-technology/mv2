@@ -29,7 +29,7 @@ export const PlasmicNavLink__ArgProps = new Array("children", "target");
 function PlasmicNavLink__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <p.PlasmicLink
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -38,22 +38,22 @@ function PlasmicNavLink__RenderFunc(props) {
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
         [sty.root__color_light]: hasVariant(variants, "color", "light")
       })}
-      component={Link}
-      platform={"nextjs"}
     >
       <p.PlasmicLink
-        data-plasmic-name={"link"}
-        data-plasmic-override={overrides.link}
-        className={classNames(defaultcss.all, sty.link)}
+        className={classNames(defaultcss.all, sty.link__xGvaa)}
         component={Link}
         platform={"nextjs"}
       >
-        <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, sty.box, {
-            [sty.box__color_light]: hasVariant(variants, "color", "light")
+        <p.PlasmicLink
+          className={classNames(defaultcss.all, sty.link___0ET6I, {
+            [sty.link__color_light___0ET6IxgxBo]: hasVariant(
+              variants,
+              "color",
+              "light"
+            )
           })}
+          component={Link}
+          platform={"nextjs"}
         >
           {p.renderPlasmicSlot({
             defaultContents: "click me",
@@ -72,16 +72,14 @@ function PlasmicNavLink__RenderFunc(props) {
               )
             })
           })}
-        </div>
+        </p.PlasmicLink>
       </p.PlasmicLink>
-    </p.PlasmicLink>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "link", "box"],
-  link: ["link", "box"],
-  box: ["box"]
+  root: ["root"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -115,8 +113,6 @@ export const PlasmicNavLink = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    link: makeNodeComponent("link"),
-    box: makeNodeComponent("box"),
     // Metadata about props expected for PlasmicNavLink
     internalVariantProps: PlasmicNavLink__VariantProps,
     internalArgProps: PlasmicNavLink__ArgProps
