@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon98Icon(props) {
+export function StripeLogoIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -31,5 +31,5 @@ export function Icon98Icon(props) {
   );
 }
 
-export default Icon98Icon;
+export default StripeLogoIcon;
 /* prettier-ignore-end */

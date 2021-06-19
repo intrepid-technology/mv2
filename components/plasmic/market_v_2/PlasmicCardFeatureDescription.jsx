@@ -59,7 +59,9 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
-          className={classNames(defaultcss.all, sty.iconParent)}
+          className={classNames(defaultcss.all, sty.iconParent, {
+            [sty.iconParent__size__360]: hasVariant(variants, "size", "_360")
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: (

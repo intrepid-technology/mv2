@@ -18,7 +18,7 @@ import {
 import ElementCheckoutHeadlineTotal from "../../ElementCheckoutHeadlineTotal"; // plasmic-import: YO302UKdvF/component
 import ElementCheckoutSubHeadlineTotal from "../../ElementCheckoutSubHeadlineTotal"; // plasmic-import: ccLKsFE6cR/component
 import ElementCheckoutListItemUnitInterval from "../../ElementCheckoutListItemUnitInterval"; // plasmic-import: HED2s-i8gO9/component
-import TextFormInput from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/component
+import InputTextForm from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/component
 import ElementCheckoutPromotionPercentTotalValue from "../../ElementCheckoutPromotionPercentTotalValue"; // plasmic-import: v-uWcZLOPTn/component
 import ElementCheckoutTotalHeadline from "../../ElementCheckoutTotalHeadline"; // plasmic-import: gmFIW2AzJW/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
@@ -256,21 +256,10 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.checkoutPromotionInput)}
       >
-        <TextFormInput
+        <InputTextForm
           data-plasmic-name={"inputCheckoutPromotion"}
           data-plasmic-override={overrides.inputCheckoutPromotion}
           className={classNames("__wab_instance", sty.inputCheckoutPromotion)}
-          inputText={
-            <input
-              data-plasmic-name={"inputText"}
-              data-plasmic-override={overrides.inputText}
-              className={classNames(defaultcss.input, sty.inputText)}
-              placeholder={"Enter code"}
-              size={1}
-              type={"text"}
-              value={""}
-            />
-          }
           labelHeadline={
             <div
               className={classNames(
@@ -353,7 +342,6 @@ const PlasmicDescendants = {
     "placementHeadline",
     "checkoutPromotionInput",
     "inputCheckoutPromotion",
-    "inputText",
     "elementCheckoutPromotionPercentTotalValue",
     "checkoutTotalButtonBlock",
     "elementCheckoutTotalHeadline",
@@ -384,12 +372,10 @@ const PlasmicDescendants = {
   checkoutPromotionInput: [
     "checkoutPromotionInput",
     "inputCheckoutPromotion",
-    "inputText",
     "elementCheckoutPromotionPercentTotalValue"
   ],
 
-  inputCheckoutPromotion: ["inputCheckoutPromotion", "inputText"],
-  inputText: ["inputText"],
+  inputCheckoutPromotion: ["inputCheckoutPromotion"],
   elementCheckoutPromotionPercentTotalValue: [
     "elementCheckoutPromotionPercentTotalValue"
   ],
@@ -456,7 +442,6 @@ export const PlasmicCheckoutServiceListing = Object.assign(
     placementHeadline: makeNodeComponent("placementHeadline"),
     checkoutPromotionInput: makeNodeComponent("checkoutPromotionInput"),
     inputCheckoutPromotion: makeNodeComponent("inputCheckoutPromotion"),
-    inputText: makeNodeComponent("inputText"),
     elementCheckoutPromotionPercentTotalValue: makeNodeComponent(
       "elementCheckoutPromotionPercentTotalValue"
     ),

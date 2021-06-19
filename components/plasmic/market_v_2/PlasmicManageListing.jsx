@@ -16,7 +16,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
+import Searchbar from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
@@ -232,22 +232,12 @@ function PlasmicManageListing__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(defaultcss.all, sty.box__rgWiD)}
                     >
-                      <SearchbarA
-                        data-plasmic-name={"searchbarA"}
-                        data-plasmic-override={overrides.searchbarA}
-                        className={classNames("__wab_instance", sty.searchbarA)}
+                      <Searchbar
+                        data-plasmic-name={"searchbar"}
+                        data-plasmic-override={overrides.searchbar}
+                        className={classNames("__wab_instance", sty.searchbar)}
                         width={"_360"}
-                      >
-                        <input
-                          data-plasmic-name={"textbox"}
-                          data-plasmic-override={overrides.textbox}
-                          className={classNames(defaultcss.input, sty.textbox)}
-                          placeholder={""}
-                          size={1}
-                          type={"text"}
-                          value={"Filter..."}
-                        />
-                      </SearchbarA>
+                      />
 
                       <p.Stack
                         as={"div"}
@@ -1647,8 +1637,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1722,8 +1711,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1776,8 +1764,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1834,13 +1821,11 @@ const PlasmicDescendants = {
   listingNumber: ["listingNumber"],
   listingSearchFilterParent: [
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "listingSearchFilterDropdownParent"
   ],
 
-  searchbarA: ["searchbarA", "textbox"],
-  textbox: ["textbox"],
+  searchbar: ["searchbar"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
   listingManagementTableColumnParent: [
     "listingManagementTableColumnParent",
@@ -2124,8 +2109,7 @@ export const PlasmicManageListing = Object.assign(
     listingNumberParent: makeNodeComponent("listingNumberParent"),
     listingNumber: makeNodeComponent("listingNumber"),
     listingSearchFilterParent: makeNodeComponent("listingSearchFilterParent"),
-    searchbarA: makeNodeComponent("searchbarA"),
-    textbox: makeNodeComponent("textbox"),
+    searchbar: makeNodeComponent("searchbar"),
     listingSearchFilterDropdownParent: makeNodeComponent(
       "listingSearchFilterDropdownParent"
     ),

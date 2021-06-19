@@ -23,8 +23,6 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardSignUp.module.css"; // plasmic-import: kpT4G-q2jGd/css
 import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic-import: UzRMlTHWYLl/icon
-import Facebook1SvgIcon from "./icons/PlasmicIcon__Facebook1Svg"; // plasmic-import: J85sN8PC4/icon
-import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
 
 export const PlasmicCardSignUp__VariantProps = new Array();
 
@@ -153,24 +151,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-override={overrides.signupFacebookConnection}
           className={classNames("__wab_instance", sty.signupFacebookConnection)}
           company={"facebook"}
-          svg={
-            <Facebook1SvgIcon
-              className={classNames(defaultcss.all, sty.svg__o3H0W)}
-              role={"img"}
-            />
-          }
-          text={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box___0A1MO
-              )}
-            >
-              {"Continue with Facebook"}
-            </div>
-          }
-          width={"_360X48"}
+          originalSizes={"_360X48"}
         />
 
         <ButtonConnectedAccount
@@ -178,24 +159,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-override={overrides.signupGoogleConnection}
           className={classNames("__wab_instance", sty.signupGoogleConnection)}
           company={"google"}
-          svg={
-            <GooglesvgIcon
-              className={classNames(defaultcss.all, sty.svg__sou3Q)}
-              role={"img"}
-            />
-          }
-          text={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__fxkwP
-              )}
-            >
-              {"Continue in with Google"}
-            </div>
-          }
-          width={"_360X48"}
+          originalSizes={"_360X48"}
         />
       </p.Stack>
 

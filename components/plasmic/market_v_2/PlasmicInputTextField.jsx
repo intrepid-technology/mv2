@@ -20,7 +20,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextField.module.css"; // plasmic-import: ATs3nXJ-Tjc/css
 
-export const PlasmicInputTextField__VariantProps = new Array("size");
+export const PlasmicInputTextField__VariantProps = new Array("type", "size");
 
 export const PlasmicInputTextField__ArgProps = new Array();
 
@@ -36,13 +36,20 @@ function PlasmicInputTextField__RenderFunc(props) {
         [sty.root__size__180]: hasVariant(variants, "size", "_180"),
         [sty.root__size__270]: hasVariant(variants, "size", "_270"),
         [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__540]: hasVariant(variants, "size", "_540")
+        [sty.root__size__540]: hasVariant(variants, "size", "_540"),
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
       })}
     >
       <div
         data-plasmic-name={"inputTextParent"}
         data-plasmic-override={overrides.inputTextParent}
         className={classNames(defaultcss.all, sty.inputTextParent, {
+          [sty.inputTextParent__size__160]: hasVariant(
+            variants,
+            "size",
+            "_160"
+          ),
+
           [sty.inputTextParent__size__180]: hasVariant(
             variants,
             "size",
@@ -68,11 +75,17 @@ function PlasmicInputTextField__RenderFunc(props) {
           data-plasmic-name={"textbox"}
           data-plasmic-override={overrides.textbox}
           className={classNames(defaultcss.input, sty.textbox, {
+            [sty.textbox__size__160]: hasVariant(variants, "size", "_160"),
             [sty.textbox__size__180]: hasVariant(variants, "size", "_180"),
             [sty.textbox__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.textbox__size__540]: hasVariant(variants, "size", "_540")
+            [sty.textbox__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.textbox__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            )
           })}
-          placeholder={"Enter a title"}
+          placeholder={"Enter text"}
           size={1}
           type={"text"}
           value={""}

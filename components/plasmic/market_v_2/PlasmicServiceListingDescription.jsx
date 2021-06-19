@@ -21,7 +21,7 @@ import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/compo
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
 import InputTextField from "../../InputTextField"; // plasmic-import: ATs3nXJ-Tjc/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import InputTextRich from "../../InputTextRich"; // plasmic-import: V-SFFoHu_mr/component
+import InputRichTextField from "../../InputTextRich"; // plasmic-import: V-SFFoHu_mr/component
 import ServiceListingProcessCard from "../../ServiceListingProcessCard"; // plasmic-import: 3CifhlTUu0m/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -197,10 +197,10 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <InputTextRich
+              <InputRichTextField
                 className={classNames(
                   "__wab_instance",
-                  sty.inputTextRich__tm58R
+                  sty.inputRichTextField__tm58R
                 )}
                 description={"description"}
                 headline={"headline"}
@@ -278,15 +278,15 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                 </CardQuestionServiceListing>
               </p.Stack>
 
-              <InputTextRich
+              <InputRichTextField
                 className={classNames(
                   "__wab_instance",
-                  sty.inputTextRich__y56Zz
+                  sty.inputRichTextField__y56Zz
                 )}
                 description={"description"}
               >
                 {"Short overview"}
-              </InputTextRich>
+              </InputRichTextField>
 
               <p.Stack
                 as={"div"}

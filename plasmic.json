@@ -926,14 +926,14 @@
         },
         {
           "id": "Hp_zc6XLro",
-          "name": "TextFormInput",
+          "name": "InputTextForm",
           "type": "managed",
           "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTextFormInput.jsx",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputTextForm.jsx",
           "importSpec": {
             "modulePath": "TextFormInput.jsx"
           },
-          "cssFilePath": "plasmic/market_v_2/PlasmicTextFormInput.module.css",
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputTextForm.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -1732,14 +1732,14 @@
         },
         {
           "id": "V-SFFoHu_mr",
-          "name": "InputTextRich",
+          "name": "InputRichTextField",
           "type": "managed",
           "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputTextRich.jsx",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputRichTextField.jsx",
           "importSpec": {
             "modulePath": "InputTextRich.jsx"
           },
-          "cssFilePath": "plasmic/market_v_2/PlasmicInputTextRich.module.css",
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputRichTextField.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -2408,14 +2408,14 @@
         },
         {
           "id": "MorSLptejY",
-          "name": "SearchbarA",
+          "name": "Searchbar",
           "type": "managed",
           "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbarA.jsx",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbar.jsx",
           "importSpec": {
             "modulePath": "SearchbarA.jsx"
           },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbarA.module.css",
+          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbar.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -2968,6 +2968,58 @@
             "modulePath": "CardUserprofile.jsx"
           },
           "cssFilePath": "plasmic/market_v_2/PlasmicCardUserprofile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8Sse2xZ7od",
+          "name": "InputTextPrefix",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputTextPrefix.jsx",
+          "importSpec": {
+            "modulePath": "InputTextPrefix.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputTextPrefix.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "a2XXnCI4Ss",
+          "name": "InputTextPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputTextPrimary.jsx",
+          "importSpec": {
+            "modulePath": "InputTextPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputTextPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "T-WLdey8LU",
+          "name": "InputTextAreaPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputTextAreaPrimary.jsx",
+          "importSpec": {
+            "modulePath": "InputTextAreaPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputTextAreaPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5IWEjDYG1a",
+          "name": "InputPasswordField",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInputPasswordField.jsx",
+          "importSpec": {
+            "modulePath": "InputPasswordField.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicInputPasswordField.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
@@ -3595,8 +3647,8 @@
         },
         {
           "id": "5nOWCV9_g",
-          "name": "Icon98Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon98.jsx"
+          "name": "StripeLogoIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__StripeLogo.jsx"
         },
         {
           "id": "THJhoSUct",

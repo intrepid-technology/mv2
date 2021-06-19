@@ -1,33 +1,45 @@
 .root {
   display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.root:focus-within {
+  outline: none;
+}
+.parent {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   width: 540px;
   height: 32px;
-  position: relative;
+  flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.root__width__360 {
+.parent__width__360 {
   width: 360px;
 }
-.root__width__270 {
+.parent__width__270 {
   width: 270px;
 }
-.root__width__180 {
+.parent__width__180 {
   width: 180px;
 }
-.root__height__36 {
+.parent__height__36 {
   height: 36px;
+  flex-shrink: 0;
 }
-.root__height__40 {
+.parent__height__40 {
   height: 40px;
+  flex-shrink: 0;
 }
-.root:hover {
+.root:hover .parent {
   border-color: #333333 /* plasmic-token: ZGkVH5KID */;
 }
-.root:focus-within {
+.root:focus-within .parent {
   outline: none;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
@@ -44,6 +56,9 @@
   flex-shrink: 0;
   padding: 6px;
   background: #f8f8f8;
+}
+.searchSvgbg__type_secondary {
+  background: #ffffff;
 }
 .searchSvgbg__height__36 {
   width: 32px;
@@ -75,30 +90,7 @@
   height: 16px;
   flex-shrink: 0;
 }
-.searchBox {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  top: auto;
-  left: auto;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-  padding: 0px;
-}
-.searchBox > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-left: calc(0px - 0px);
-  width: calc(100% + 0px);
-}
-.searchBox > :global(.__wab_flex-container) > *,
-.searchBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-left: 0px;
-}
-.box {
+.textboxParent {
   display: flex;
   position: relative;
   width: 100%;
@@ -106,16 +98,25 @@
   min-width: 0;
   min-height: 0;
 }
-.root:focus-within .box {
+.textboxParent__type_primary {
+  background: #f8f8f8 repeat;
+}
+.textboxParent__type_secondary {
+  background: #ffffff repeat;
+}
+.root:focus-within .textboxParent {
   outline: none;
 }
-.textbox__bP0Fo {
+.textbox {
   width: 100%;
   height: 100%;
   padding-left: 8px;
   font-size: 14px;
   min-width: 0;
   min-height: 0;
-  background: #f8f8f8;
+  background: #f8f8f8 repeat;
   border: 2px solid rgba(255, 255, 255, 0.2) /* plasmic-token: FuVdnB9x_ */;
+}
+.textbox__type_secondary {
+  background: #ffffff;
 }

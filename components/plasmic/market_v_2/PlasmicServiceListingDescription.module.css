@@ -82,7 +82,7 @@
 .box__laelq {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -156,7 +156,7 @@
 .box___0B5MK {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -166,7 +166,7 @@
 .box__uc5Jc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.inputTextRich__tm58R:global(.__wab_instance) {
+.inputRichTextField__tm58R:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -248,7 +248,7 @@
 .box__io8Zz {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -261,7 +261,7 @@
 .box__wEkof {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.inputTextRich__y56Zz:global(.__wab_instance) {
+.inputRichTextField__y56Zz:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

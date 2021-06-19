@@ -183,6 +183,11 @@ function PlasmicHome__RenderFunc(props) {
                       />
                     </div>
                   }
+                  size={
+                    hasVariant(globalVariants, "screen", "desktopPrimary")
+                      ? "_360"
+                      : undefined
+                  }
                   text={
                     "We provide what the banks won't: P2P global payments, escrow and special financing for creative businesses. "
                   }
@@ -262,12 +267,16 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                   headline={"Build a remote business"}
                   iconParent={
-                    <div className={classNames(defaultcss.all, sty.box__gtFvM)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__gtFvM)}
+                    >
                       <Icon40Icon
                         className={classNames(defaultcss.all, sty.svg__gsFh8)}
                         role={"img"}
                       />
-                    </div>
+                    </p.Stack>
                   }
                   text={
                     "Find rare talent and work from anywhere. Work revolves around you and your global lifestyle."

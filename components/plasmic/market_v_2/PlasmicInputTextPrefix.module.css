@@ -1,0 +1,63 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 360px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 0px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.pretabParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-left-style: solid;
+  border-left-width: 2px;
+  min-height: 0;
+  padding: 4px;
+  background: #f8f8f8 repeat;
+  border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+}
+.slotLabelHeadline {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.textbox {
+  position: relative;
+  width: 100%;
+  left: auto;
+  top: auto;
+  height: 100%;
+  padding-left: 4px;
+  border-top-right-radius: 2px;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff repeat;
+  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.root:hover .textbox {
+  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+}
+.root:focus-within .textbox {
+  outline: none;
+  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}

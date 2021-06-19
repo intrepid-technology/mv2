@@ -104,7 +104,7 @@
 }
 .slotHeadline {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -112,7 +112,7 @@
 }
 .slotSubHead {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -324,55 +324,15 @@
   font-size: 14px;
   line-height: 1.4;
 }
-.textFormInput__pjy7:global(.__wab_instance) {
+.inputTextForm__pjy7:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.textbox__b15Tn {
-  width: 100%;
+.inputTextForm__qbxL0:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  border-bottom-color: #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-bottom-width: 2px;
-  border-right-width: 1px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
-  height: 32px;
-  padding-left: 4px;
-  border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  min-width: 0;
-  background: #f8f8f8;
-  border-style: solid;
-}
-.textFormInput__qbxL0:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.textbox__iExzA {
-  width: 100%;
-  position: relative;
-  left: auto;
-  top: auto;
-  border-bottom-color: #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-bottom-width: 2px;
-  border-right-width: 1px;
-  border-top-width: 1px;
-  border-left-width: 1px;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
-  height: 32px;
-  padding-left: 4px;
-  border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  min-width: 0;
-  background: #f8f8f8;
-  border-style: solid;
 }
 .textMultiLineA:global(.__wab_instance) {
   position: relative;
@@ -383,46 +343,18 @@
   left: auto;
   top: auto;
 }
-.textFormInput__x0DYe:global(.__wab_instance) {
+.inputTextForm__x0DYe:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.textFormInput__inputType_dropdownText__x0DYEhRwL0:global(.__wab_instance) {
+.inputTextForm__inputType_dropdownText__x0DYEhRwL0:global(.__wab_instance) {
   left: auto;
   top: auto;
 }
 .slotSlotLabel__inputType_dropdownText {
   font-weight: 500;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
-}
-.textbox__mjRv6 {
-  width: 100%;
-  position: relative;
-  left: auto;
-  top: auto;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-top-style: none;
-  border-top-width: 1px;
-  border-left-style: none;
-  border-left-width: 1px;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
-  height: 32px;
-  padding-left: 6px;
-  min-width: 0;
-  background: #f8f8f8;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
-}
-.textbox__inputType_dropdownText__mjRv6HRwL0 {
-  border-right-style: solid;
-  border-top-style: solid;
-  border-left-style: solid;
-  border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-top-right-radius: 2px;
-  border-top-left-radius: 2px;
 }
 .inputTextContainer {
   display: flex;
@@ -710,7 +642,7 @@
 }
 .slotDescription {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -729,9 +661,11 @@
 .buttonPrimary__subDescription:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.svg__th24T {
-  width: 20px;
-  height: 20px;
+.svg__trcY {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }

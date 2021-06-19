@@ -140,7 +140,7 @@
 .box__zEuFv {
   display: block;
   font-size: 10px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -185,11 +185,13 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__x8Wm4 {
-  width: 20px;
-  height: 20px;
+.svg__r4JTp {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
 .recoveryLinkParent {
   display: inline-flex;
@@ -310,18 +312,6 @@
   min-width: 0;
   flex-shrink: 0;
 }
-.svg__z3X5B {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
-}
-.box__hjI84 {
-  font-weight: 500;
-}
 .loginGoogleConnect:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -329,18 +319,6 @@
   width: 100%;
   min-width: 0;
   flex-shrink: 0;
-}
-.svg__jZu35 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
-}
-.box__xHwHy {
-  font-weight: 500;
 }
 .box__yvRI {
   display: block;
@@ -368,7 +346,7 @@
 .signupSubhead {
   display: block;
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -386,9 +364,11 @@
   position: relative;
   flex-shrink: 0;
 }
-.svg__yFgoW {
-  width: 20px;
-  height: 20px;
+.svg__ouns5 {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }

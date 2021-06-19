@@ -18,7 +18,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
-import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
+import Searchbar from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
 import NavbarSave from "../../NavbarSave"; // plasmic-import: -GlpTucHU-/component
 import NavbarBrief from "../../NavbarBrief"; // plasmic-import: WoHRRICUYW/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -118,26 +118,16 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                 hasVariant(variants, "state", "loggedOut")
             })}
           >
-            <SearchbarA
-              data-plasmic-name={"searchbarA"}
-              data-plasmic-override={overrides.searchbarA}
-              className={classNames("__wab_instance", sty.searchbarA, {
-                [sty.searchbarA__user_member_state_loggedOut]:
+            <Searchbar
+              data-plasmic-name={"searchbar"}
+              data-plasmic-override={overrides.searchbar}
+              className={classNames("__wab_instance", sty.searchbar, {
+                [sty.searchbar__user_member_state_loggedOut]:
                   hasVariant(variants, "user", "member") &&
                   hasVariant(variants, "state", "loggedOut")
               })}
               height={"_36"}
-            >
-              <input
-                data-plasmic-name={"textbox"}
-                data-plasmic-override={overrides.textbox}
-                className={classNames(defaultcss.input, sty.textbox)}
-                placeholder={""}
-                size={1}
-                type={"text"}
-                value={"Search the community"}
-              />
-            </SearchbarA>
+            />
           </div>
         ) : null}
 
@@ -416,8 +406,7 @@ const PlasmicDescendants = {
     "navSwitch",
     "navbarLogo",
     "searchBox",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "navbarListButton",
     "navbarListButtonTextParent",
     "navbarListButtonSvg",
@@ -436,8 +425,7 @@ const PlasmicDescendants = {
     "navSwitch",
     "navbarLogo",
     "searchBox",
-    "searchbarA",
-    "textbox",
+    "searchbar",
     "navbarListButton",
     "navbarListButtonTextParent",
     "navbarListButtonSvg",
@@ -453,9 +441,8 @@ const PlasmicDescendants = {
   sidebarHeaderClosed: ["sidebarHeaderClosed", "navSwitch", "navbarLogo"],
   navSwitch: ["navSwitch"],
   navbarLogo: ["navbarLogo"],
-  searchBox: ["searchBox", "searchbarA", "textbox"],
-  searchbarA: ["searchbarA", "textbox"],
-  textbox: ["textbox"],
+  searchBox: ["searchBox", "searchbar"],
+  searchbar: ["searchbar"],
   navbarListButton: [
     "navbarListButton",
     "navbarListButtonTextParent",
@@ -524,8 +511,7 @@ export const PlasmicNavbarInternal = Object.assign(
     navSwitch: makeNodeComponent("navSwitch"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     searchBox: makeNodeComponent("searchBox"),
-    searchbarA: makeNodeComponent("searchbarA"),
-    textbox: makeNodeComponent("textbox"),
+    searchbar: makeNodeComponent("searchbar"),
     navbarListButton: makeNodeComponent("navbarListButton"),
     navbarListButtonTextParent: makeNodeComponent("navbarListButtonTextParent"),
     navbarListButtonSvg: makeNodeComponent("navbarListButtonSvg"),

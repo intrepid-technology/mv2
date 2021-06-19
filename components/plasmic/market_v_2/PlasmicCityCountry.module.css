@@ -30,7 +30,7 @@
 .box__fhleb {
   display: block;
   font-size: 16px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -54,7 +54,7 @@
 .box__l4VOp {
   display: inline-block;
   font-size: 16px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;

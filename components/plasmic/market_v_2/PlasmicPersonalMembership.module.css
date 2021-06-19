@@ -65,11 +65,13 @@
   font-weight: 600;
   font-size: 16px;
 }
-.svg__boifT {
-  width: 20px;
-  height: 20px;
+.svg__aL7N {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
 .svg__ulgiv {
   position: relative;
@@ -110,9 +112,11 @@
   line-height: 1;
   font-weight: 600;
 }
-.svg__m3YQ4 {
-  width: 20px;
-  height: 20px;
+.svg___95EQb {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
