@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAccordion.module.css"; // plasmic-import: azR0jnXzDL/css
-import Icon185Icon from "./icons/PlasmicIcon__Icon185"; // plasmic-import: yu83kfpl6j/icon
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicAccordion__VariantProps = new Array("size");
 
@@ -58,7 +58,7 @@ function PlasmicAccordion__RenderFunc(props) {
 
       <div className={classNames(defaultcss.all, sty.box__mHsMa)}>
         <div className={classNames(defaultcss.all, sty.box__lw9Pw)}>
-          <Icon185Icon
+          <PlusBoldIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(defaultcss.all, sty.svg, {

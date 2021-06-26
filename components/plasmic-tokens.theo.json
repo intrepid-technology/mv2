@@ -711,6 +711,16 @@
       }
     },
     {
+      "name": "ghostBG",
+      "type": "color",
+      "value": "#F8F8FF",
+      "category": "color",
+      "meta": {
+        "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+        "id": "PfXAJ-PoV"
+      }
+    },
+    {
       "name": "lightGrey10",
       "type": "color",
       "value": "#F8F8FF",

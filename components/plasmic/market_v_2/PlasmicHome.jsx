@@ -77,11 +77,13 @@ function PlasmicHome__RenderFunc(props) {
         <meta
           key="og:image"
           property="og:image"
-          content={"/plasmic/market_v_2/images/image26.png"}
+          content={
+            "https://site-assets.plasmic.app/44fc9aa83c8732ce86addb8a529997c8.png"
+          }
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }

@@ -184,23 +184,23 @@
 .box__rlmGz {
   line-height: 1.4;
 }
-.chipDisplay__htcl1:global(.__wab_instance) {
+.chipBadgeDisplay__htcl1:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.svg__uue3 {
+.svg__zAPvI {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg___2BLtp {
+.svg__lkjkU {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__j8G5 {

@@ -1,9 +1,19 @@
-.navBarLogoLink {
-  display: flex;
+.root {
+  display: inline-flex;
+  position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  position: relative;
+  width: auto;
+  height: auto;
+}
+.navBarLogoLinkParent {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
 }
 .img {
   object-fit: cover;
@@ -16,11 +26,27 @@
   height: 16px;
   flex-shrink: 0;
 }
+.img__size__18 {
+  height: 18px;
+  flex-shrink: 0;
+}
 .img__size__24 {
   height: 24px;
   flex-shrink: 0;
 }
 .img__size__32 {
   height: 32px;
+  flex-shrink: 0;
+}
+.img__size__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.img__size__40 {
+  height: 40px;
+  flex-shrink: 0;
+}
+.img__size__48 {
+  height: 48px;
   flex-shrink: 0;
 }

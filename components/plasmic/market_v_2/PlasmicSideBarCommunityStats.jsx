@@ -11,24 +11,23 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import BadgeCommunityRating from "../../BadgeCommunityRating"; // plasmic-import: 0Y8M1lpCIf/component
+import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
+import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/component
+import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import BadgeVerification from "../../BadgeVerification"; // plasmic-import: _M5uzrbjQp/component
-import TagMemberC from "../../TagMemberC"; // plasmic-import: CybzTEvXYq/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSideBarCommunityStats.module.css"; // plasmic-import: JsYhtV8o3HC/css
 
-export const PlasmicSideBarCommunityStats__VariantProps = new Array();
+export const PlasmicSideBarCommunityStats__VariantProps = new Array("user");
 
-export const PlasmicSideBarCommunityStats__ArgProps = new Array(
-  "elementUserbadges",
-  "userTag"
-);
+export const PlasmicSideBarCommunityStats__ArgProps = new Array();
 
 function PlasmicSideBarCommunityStats__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -40,20 +39,38 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__user_member]: hasVariant(variants, "user", "member"),
+        [sty.root__user_partner]: hasVariant(variants, "user", "partner")
+      })}
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"headlineParent"}
+        data-plasmic-override={overrides.headlineParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___2OV0G)}
+        className={classNames(defaultcss.all, sty.headlineParent)}
       >
         <div
-          data-plasmic-name={"elementHeadline"}
-          data-plasmic-override={overrides.elementHeadline}
+          data-plasmic-name={"headlineCommunity"}
+          data-plasmic-override={overrides.headlineCommunity}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.elementHeadline
+            sty.headlineCommunity,
+            {
+              [sty.headlineCommunity__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
+
+              [sty.headlineCommunity__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            }
           )}
         >
           {"Community"}
@@ -64,177 +81,906 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
           data-plasmic-name={"elementUserbadges"}
           data-plasmic-override={overrides.elementUserbadges}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementUserbadges)}
-        >
-          {p.renderPlasmicSlot({
-            defaultContents: (
-              <React.Fragment>
-                <BadgeCommunityRating
-                  className={classNames(
-                    "__wab_instance",
-                    sty.badgeCommunityRating__tagqX
-                  )}
-                />
-
-                <BadgeVerification
-                  className={classNames(
-                    "__wab_instance",
-                    sty.badgeVerification__jz8Ki
-                  )}
-                />
-              </React.Fragment>
-            ),
-
-            value: args.elementUserbadges
+          className={classNames(defaultcss.all, sty.elementUserbadges, {
+            [sty.elementUserbadges__user_partner]: hasVariant(
+              variants,
+              "user",
+              "partner"
+            )
           })}
+        >
+          <RatingDisplayDetail
+            data-plasmic-name={"ratingDisplayDetail"}
+            data-plasmic-override={overrides.ratingDisplayDetail}
+            className={classNames("__wab_instance", sty.ratingDisplayDetail)}
+            size={"_16"}
+          />
 
-          {p.renderPlasmicSlot({
-            defaultContents: (
-              <TagMemberC
-                className={classNames("__wab_instance", sty.tagMemberC__vBdfP)}
-              />
-            ),
+          {(hasVariant(variants, "user", "partner") ? false : true) ? (
+            <TagMemberD
+              data-plasmic-name={"tagMemberD"}
+              data-plasmic-override={overrides.tagMemberD}
+              className={classNames("__wab_instance", sty.tagMemberD, {
+                [sty.tagMemberD__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                ),
 
-            value: args.userTag
-          })}
+                [sty.tagMemberD__user_partner]: hasVariant(
+                  variants,
+                  "user",
+                  "partner"
+                )
+              })}
+            />
+          ) : null}
+          {(hasVariant(variants, "user", "partner") ? true : false) ? (
+            <TagPartnerD
+              data-plasmic-name={"tagPartnerD"}
+              data-plasmic-override={overrides.tagPartnerD}
+              className={classNames("__wab_instance", sty.tagPartnerD, {
+                [sty.tagPartnerD__user_partner]: hasVariant(
+                  variants,
+                  "user",
+                  "partner"
+                )
+              })}
+            />
+          ) : null}
+
+          <BadgeVerification
+            data-plasmic-name={"badgeVerification"}
+            data-plasmic-override={overrides.badgeVerification}
+            className={classNames("__wab_instance", sty.badgeVerification)}
+          />
         </p.Stack>
       </p.Stack>
 
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"elementUserSocialFollowing"}
-        data-plasmic-override={overrides.elementUserSocialFollowing}
-        hasGap={true}
-        className={classNames(defaultcss.all, sty.elementUserSocialFollowing)}
-      >
+      {(
+        hasVariant(variants, "user", "partner")
+          ? false
+          : hasVariant(variants, "user", "member")
+          ? false
+          : true
+      ) ? (
         <p.Stack
           as={"div"}
-          data-plasmic-name={"followingParent"}
-          data-plasmic-override={overrides.followingParent}
+          data-plasmic-name={"elementUserSocialFollowingA"}
+          data-plasmic-override={overrides.elementUserSocialFollowingA}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.followingParent)}
+          className={classNames(
+            defaultcss.all,
+            sty.elementUserSocialFollowingA,
+            {
+              [sty.elementUserSocialFollowingA__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
+
+              [sty.elementUserSocialFollowingA__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            }
+          )}
         >
-          <div
-            data-plasmic-name={"followingCountNumber"}
-            data-plasmic-override={overrides.followingCountNumber}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.followingCountNumber
-            )}
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"followingParent2"}
+            data-plasmic-override={overrides.followingParent2}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.followingParent2, {
+              [sty.followingParent2__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            })}
           >
-            {"-"}
-          </div>
+            <div
+              data-plasmic-name={"followersNumberCount"}
+              data-plasmic-override={overrides.followersNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.followersNumberCount
+              )}
+            >
+              {"-"}
+            </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__ehvI9
-            )}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__xOZjq
+              )}
+            >
+              {"Followers"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"followersParent2"}
+            data-plasmic-override={overrides.followersParent2}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.followersParent2)}
           >
-            {"Members"}
-          </div>
+            <div
+              data-plasmic-name={"followingNumberCount"}
+              data-plasmic-override={overrides.followingNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.followingNumberCount
+              )}
+            >
+              {"-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__qqpfd,
+                {
+                  [sty.box__user_member__qqpfdDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "Teams" : "Following"}
+            </div>
+          </p.Stack>
         </p.Stack>
-
+      ) : null}
+      {(hasVariant(variants, "user", "member") ? true : false) ? (
         <p.Stack
           as={"div"}
-          data-plasmic-name={"followersParent"}
-          data-plasmic-override={overrides.followersParent}
+          data-plasmic-name={"elementMemberSubscriptionsLists"}
+          data-plasmic-override={overrides.elementMemberSubscriptionsLists}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.followersParent)}
+          className={classNames(
+            defaultcss.all,
+            sty.elementMemberSubscriptionsLists,
+            {
+              [sty.elementMemberSubscriptionsLists__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
+
+              [sty.elementMemberSubscriptionsLists__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            }
+          )}
         >
-          <div
-            data-plasmic-name={"followerCountNumber"}
-            data-plasmic-override={overrides.followerCountNumber}
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"memberSubscriptionCountParent"}
+            data-plasmic-override={overrides.memberSubscriptionCountParent}
+            hasGap={true}
             className={classNames(
               defaultcss.all,
-              defaultcss.__wab_text,
-              sty.followerCountNumber
+              sty.memberSubscriptionCountParent,
+              {
+                [sty.memberSubscriptionCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                )
+              }
             )}
           >
-            {"-"}
-          </div>
+            <div
+              data-plasmic-name={"memberSubscriptionNumberCount"}
+              data-plasmic-override={overrides.memberSubscriptionNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberSubscriptionNumberCount,
+                {
+                  [sty.memberSubscriptionNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__ii48V
-            )}
+                  [sty.memberSubscriptionNumberCount__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__ryhCi,
+                {
+                  [sty.box__user_member__ryhCiDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member")
+                ? "Subscriptions"
+                : "Members"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"memberListsCountParent"}
+            data-plasmic-override={overrides.memberListsCountParent}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.memberListsCountParent, {
+              [sty.memberListsCountParent__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            })}
           >
-            {"Partners"}
-          </div>
+            <div
+              data-plasmic-name={"memberListNumberCount"}
+              data-plasmic-override={overrides.memberListNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberListNumberCount,
+                {
+                  [sty.memberListNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__jchUr,
+                {
+                  [sty.box__user_member__jchUrDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "Lists" : "Partners"}
+            </div>
+          </p.Stack>
         </p.Stack>
-      </p.Stack>
-
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"elementUserSocialFollowing2"}
-        data-plasmic-override={overrides.elementUserSocialFollowing2}
-        hasGap={true}
-        className={classNames(defaultcss.all, sty.elementUserSocialFollowing2)}
-      >
+      ) : null}
+      {(hasVariant(variants, "user", "member") ? true : false) ? (
         <p.Stack
           as={"div"}
-          data-plasmic-name={"followingParent2"}
-          data-plasmic-override={overrides.followingParent2}
+          data-plasmic-name={"elementMemberFollowersTeams"}
+          data-plasmic-override={overrides.elementMemberFollowersTeams}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.followingParent2)}
+          className={classNames(
+            defaultcss.all,
+            sty.elementMemberFollowersTeams,
+            {
+              [sty.elementMemberFollowersTeams__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            }
+          )}
         >
-          <div
-            data-plasmic-name={"followingCountNumber2"}
-            data-plasmic-override={overrides.followingCountNumber2}
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"memberFollowersCountParent"}
+            data-plasmic-override={overrides.memberFollowersCountParent}
+            hasGap={true}
             className={classNames(
               defaultcss.all,
-              defaultcss.__wab_text,
-              sty.followingCountNumber2
+              sty.memberFollowersCountParent,
+              {
+                [sty.memberFollowersCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                )
+              }
             )}
           >
-            {"-"}
-          </div>
+            <div
+              data-plasmic-name={"memberfollowersNumberCount"}
+              data-plasmic-override={overrides.memberfollowersNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberfollowersNumberCount,
+                {
+                  [sty.memberfollowersNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+            </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__xOZjq
-            )}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__xrkqa,
+                {
+                  [sty.box__user_member__xrkqaDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {"Followers"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"memberTeamCountParent"}
+            data-plasmic-override={overrides.memberTeamCountParent}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.memberTeamCountParent, {
+              [sty.memberTeamCountParent__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            })}
           >
-            {"Followers"}
-          </div>
+            <div
+              data-plasmic-name={"memberTeamNumberCount"}
+              data-plasmic-override={overrides.memberTeamNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberTeamNumberCount,
+                {
+                  [sty.memberTeamNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__hdk5K,
+                {
+                  [sty.box__user_member__hdk5KDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "Teams" : "Following"}
+            </div>
+          </p.Stack>
         </p.Stack>
-
+      ) : null}
+      {(
+        hasVariant(variants, "user", "partner")
+          ? false
+          : hasVariant(variants, "user", "member")
+          ? false
+          : true
+      ) ? (
         <p.Stack
           as={"div"}
-          data-plasmic-name={"followersParent2"}
-          data-plasmic-override={overrides.followersParent2}
+          data-plasmic-name={"elementUserSocialFollowingB"}
+          data-plasmic-override={overrides.elementUserSocialFollowingB}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.followersParent2)}
-        >
-          <div
-            data-plasmic-name={"followerCountNumber2"}
-            data-plasmic-override={overrides.followerCountNumber2}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.followerCountNumber2
-            )}
-          >
-            {"-"}
-          </div>
+          className={classNames(
+            defaultcss.all,
+            sty.elementUserSocialFollowingB,
+            {
+              [sty.elementUserSocialFollowingB__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
 
-          <div
+              [sty.elementUserSocialFollowingB__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            }
+          )}
+        >
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"followingParent"}
+            data-plasmic-override={overrides.followingParent}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.followingParent)}
+          >
+            <div
+              data-plasmic-name={"memberNumberCount"}
+              data-plasmic-override={overrides.memberNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberNumberCount
+              )}
+            >
+              {"-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__ehvI9,
+                {
+                  [sty.box__user_member__ehvI9DUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member")
+                ? "Subscriptions"
+                : "Members"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"followersParent"}
+            data-plasmic-override={overrides.followersParent}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.followersParent, {
+              [sty.followersParent__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
+
+              [sty.followersParent__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            })}
+          >
+            <div
+              data-plasmic-name={"partnerNumberCount"}
+              data-plasmic-override={overrides.partnerNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerNumberCount
+              )}
+            >
+              {"-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__ii48V,
+                {
+                  [sty.box__user_member__ii48VDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "Lists" : "Partners"}
+            </div>
+          </p.Stack>
+        </p.Stack>
+      ) : null}
+      {(
+        hasVariant(variants, "user", "partner")
+          ? true
+          : hasVariant(variants, "user", "member")
+          ? false
+          : false
+      ) ? (
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"elementPartnerSubscriberReviewsParent"}
+          data-plasmic-override={
+            overrides.elementPartnerSubscriberReviewsParent
+          }
+          hasGap={true}
+          className={classNames(
+            defaultcss.all,
+            sty.elementPartnerSubscriberReviewsParent,
+            {
+              [sty.elementPartnerSubscriberReviewsParent__user_member]:
+                hasVariant(variants, "user", "member"),
+              [sty.elementPartnerSubscriberReviewsParent__user_partner]:
+                hasVariant(variants, "user", "partner")
+            }
+          )}
+        >
+          {(hasVariant(variants, "user", "member") ? false : true) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"partnerSubscriberCountParent"}
+              data-plasmic-override={overrides.partnerSubscriberCountParent}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                sty.partnerSubscriberCountParent,
+                {
+                  [sty.partnerSubscriberCountParent__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerSubscriberCountParent__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              <div
+                data-plasmic-name={"partnerSubscribersNumberCount"}
+                data-plasmic-override={overrides.partnerSubscribersNumberCount}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.partnerSubscribersNumberCount,
+                  {
+                    [sty.partnerSubscribersNumberCount__user_member]:
+                      hasVariant(variants, "user", "member"),
+                    [sty.partnerSubscribersNumberCount__user_partner]:
+                      hasVariant(variants, "user", "partner")
+                  }
+                )}
+              >
+                {hasVariant(variants, "user", "partner") ? "#####" : "-"}
+              </div>
+
+              <div
+                data-plasmic-name={"partnerSubscribersText"}
+                data-plasmic-override={overrides.partnerSubscribersText}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.partnerSubscribersText,
+                  {
+                    [sty.partnerSubscribersText__user_member]: hasVariant(
+                      variants,
+                      "user",
+                      "member"
+                    ),
+
+                    [sty.partnerSubscribersText__user_partner]: hasVariant(
+                      variants,
+                      "user",
+                      "partner"
+                    )
+                  }
+                )}
+              >
+                {hasVariant(variants, "user", "partner")
+                  ? "Subscribers"
+                  : "Followers"}
+              </div>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(variants, "user", "member") ? false : true) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"partnerTeamReviewCountParent"}
+              data-plasmic-override={overrides.partnerTeamReviewCountParent}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                sty.partnerTeamReviewCountParent,
+                {
+                  [sty.partnerTeamReviewCountParent__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerTeamReviewCountParent__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              <div
+                data-plasmic-name={"partnerReviewsNumberCount"}
+                data-plasmic-override={overrides.partnerReviewsNumberCount}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.partnerReviewsNumberCount,
+                  {
+                    [sty.partnerReviewsNumberCount__user_member]: hasVariant(
+                      variants,
+                      "user",
+                      "member"
+                    ),
+
+                    [sty.partnerReviewsNumberCount__user_partner]: hasVariant(
+                      variants,
+                      "user",
+                      "partner"
+                    )
+                  }
+                )}
+              >
+                {hasVariant(variants, "user", "partner") ? "#####" : "-"}
+              </div>
+
+              <div
+                data-plasmic-name={"partnerReviewsText"}
+                data-plasmic-override={overrides.partnerReviewsText}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.partnerReviewsText,
+                  {
+                    [sty.partnerReviewsText__user_member]: hasVariant(
+                      variants,
+                      "user",
+                      "member"
+                    ),
+
+                    [sty.partnerReviewsText__user_partner]: hasVariant(
+                      variants,
+                      "user",
+                      "partner"
+                    )
+                  }
+                )}
+              >
+                {hasVariant(variants, "user", "partner")
+                  ? "Reviews"
+                  : hasVariant(variants, "user", "member")
+                  ? "Teams"
+                  : "Following"}
+              </div>
+            </p.Stack>
+          ) : null}
+        </p.Stack>
+      ) : null}
+      {(
+        hasVariant(variants, "user", "partner")
+          ? true
+          : hasVariant(variants, "user", "member")
+          ? false
+          : false
+      ) ? (
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"elementUserFollowersTeams3"}
+          data-plasmic-override={overrides.elementUserFollowersTeams3}
+          hasGap={true}
+          className={classNames(
+            defaultcss.all,
+            sty.elementUserFollowersTeams3,
+            {
+              [sty.elementUserFollowersTeams3__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
+
+              [sty.elementUserFollowersTeams3__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            }
+          )}
+        >
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"partnerFollowersCountParent"}
+            data-plasmic-override={overrides.partnerFollowersCountParent}
+            hasGap={true}
             className={classNames(
               defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__qqpfd
+              sty.partnerFollowersCountParent,
+              {
+                [sty.partnerFollowersCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                ),
+
+                [sty.partnerFollowersCountParent__user_partner]: hasVariant(
+                  variants,
+                  "user",
+                  "partner"
+                )
+              }
             )}
           >
-            {"Following"}
-          </div>
+            <div
+              data-plasmic-name={"partnerfollowersNumberCount"}
+              data-plasmic-override={overrides.partnerfollowersNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerfollowersNumberCount,
+                {
+                  [sty.partnerfollowersNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerfollowersNumberCount__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner") ? "#####" : "-"}
+            </div>
+
+            <div
+              data-plasmic-name={"partnerFollowersText"}
+              data-plasmic-override={overrides.partnerFollowersText}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerFollowersText,
+                {
+                  [sty.partnerFollowersText__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerFollowersText__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner")
+                ? "Followers"
+                : "Followers"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"partnerFollowingCountParent"}
+            data-plasmic-override={overrides.partnerFollowingCountParent}
+            hasGap={true}
+            className={classNames(
+              defaultcss.all,
+              sty.partnerFollowingCountParent,
+              {
+                [sty.partnerFollowingCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                ),
+
+                [sty.partnerFollowingCountParent__user_partner]: hasVariant(
+                  variants,
+                  "user",
+                  "partner"
+                )
+              }
+            )}
+          >
+            <div
+              data-plasmic-name={"partnerFollowingNumberCount"}
+              data-plasmic-override={overrides.partnerFollowingNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerFollowingNumberCount,
+                {
+                  [sty.partnerFollowingNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerFollowingNumberCount__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner") ? "#####" : "-"}
+            </div>
+
+            <div
+              data-plasmic-name={"partnerFollowingText"}
+              data-plasmic-override={overrides.partnerFollowingText}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerFollowingText,
+                {
+                  [sty.partnerFollowingText__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerFollowingText__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner")
+                ? "Following"
+                : hasVariant(variants, "user", "member")
+                ? "Teams"
+                : "Following"}
+            </div>
+          </p.Stack>
         </p.Stack>
-      </p.Stack>
+      ) : null}
     </p.Stack>
   );
 }
@@ -242,46 +988,180 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "elementHeadline",
+    "headlineParent",
+    "headlineCommunity",
     "elementUserbadges",
-    "elementUserSocialFollowing",
-    "followingParent",
-    "followingCountNumber",
-    "followersParent",
-    "followerCountNumber",
-    "elementUserSocialFollowing2",
+    "ratingDisplayDetail",
+    "tagMemberD",
+    "tagPartnerD",
+    "badgeVerification",
+    "elementUserSocialFollowingA",
     "followingParent2",
-    "followingCountNumber2",
+    "followersNumberCount",
     "followersParent2",
-    "followerCountNumber2"
-  ],
-
-  elementHeadline: ["elementHeadline"],
-  elementUserbadges: ["elementUserbadges"],
-  elementUserSocialFollowing: [
-    "elementUserSocialFollowing",
+    "followingNumberCount",
+    "elementMemberSubscriptionsLists",
+    "memberSubscriptionCountParent",
+    "memberSubscriptionNumberCount",
+    "memberListsCountParent",
+    "memberListNumberCount",
+    "elementMemberFollowersTeams",
+    "memberFollowersCountParent",
+    "memberfollowersNumberCount",
+    "memberTeamCountParent",
+    "memberTeamNumberCount",
+    "elementUserSocialFollowingB",
     "followingParent",
-    "followingCountNumber",
+    "memberNumberCount",
     "followersParent",
-    "followerCountNumber"
+    "partnerNumberCount",
+    "elementPartnerSubscriberReviewsParent",
+    "partnerSubscriberCountParent",
+    "partnerSubscribersNumberCount",
+    "partnerSubscribersText",
+    "partnerTeamReviewCountParent",
+    "partnerReviewsNumberCount",
+    "partnerReviewsText",
+    "elementUserFollowersTeams3",
+    "partnerFollowersCountParent",
+    "partnerfollowersNumberCount",
+    "partnerFollowersText",
+    "partnerFollowingCountParent",
+    "partnerFollowingNumberCount",
+    "partnerFollowingText"
   ],
 
-  followingParent: ["followingParent", "followingCountNumber"],
-  followingCountNumber: ["followingCountNumber"],
-  followersParent: ["followersParent", "followerCountNumber"],
-  followerCountNumber: ["followerCountNumber"],
-  elementUserSocialFollowing2: [
-    "elementUserSocialFollowing2",
+  headlineParent: [
+    "headlineParent",
+    "headlineCommunity",
+    "elementUserbadges",
+    "ratingDisplayDetail",
+    "tagMemberD",
+    "tagPartnerD",
+    "badgeVerification"
+  ],
+
+  headlineCommunity: ["headlineCommunity"],
+  elementUserbadges: [
+    "elementUserbadges",
+    "ratingDisplayDetail",
+    "tagMemberD",
+    "tagPartnerD",
+    "badgeVerification"
+  ],
+
+  ratingDisplayDetail: ["ratingDisplayDetail"],
+  tagMemberD: ["tagMemberD"],
+  tagPartnerD: ["tagPartnerD"],
+  badgeVerification: ["badgeVerification"],
+  elementUserSocialFollowingA: [
+    "elementUserSocialFollowingA",
     "followingParent2",
-    "followingCountNumber2",
+    "followersNumberCount",
     "followersParent2",
-    "followerCountNumber2"
+    "followingNumberCount"
   ],
 
-  followingParent2: ["followingParent2", "followingCountNumber2"],
-  followingCountNumber2: ["followingCountNumber2"],
-  followersParent2: ["followersParent2", "followerCountNumber2"],
-  followerCountNumber2: ["followerCountNumber2"]
+  followingParent2: ["followingParent2", "followersNumberCount"],
+  followersNumberCount: ["followersNumberCount"],
+  followersParent2: ["followersParent2", "followingNumberCount"],
+  followingNumberCount: ["followingNumberCount"],
+  elementMemberSubscriptionsLists: [
+    "elementMemberSubscriptionsLists",
+    "memberSubscriptionCountParent",
+    "memberSubscriptionNumberCount",
+    "memberListsCountParent",
+    "memberListNumberCount"
+  ],
+
+  memberSubscriptionCountParent: [
+    "memberSubscriptionCountParent",
+    "memberSubscriptionNumberCount"
+  ],
+
+  memberSubscriptionNumberCount: ["memberSubscriptionNumberCount"],
+  memberListsCountParent: ["memberListsCountParent", "memberListNumberCount"],
+  memberListNumberCount: ["memberListNumberCount"],
+  elementMemberFollowersTeams: [
+    "elementMemberFollowersTeams",
+    "memberFollowersCountParent",
+    "memberfollowersNumberCount",
+    "memberTeamCountParent",
+    "memberTeamNumberCount"
+  ],
+
+  memberFollowersCountParent: [
+    "memberFollowersCountParent",
+    "memberfollowersNumberCount"
+  ],
+
+  memberfollowersNumberCount: ["memberfollowersNumberCount"],
+  memberTeamCountParent: ["memberTeamCountParent", "memberTeamNumberCount"],
+  memberTeamNumberCount: ["memberTeamNumberCount"],
+  elementUserSocialFollowingB: [
+    "elementUserSocialFollowingB",
+    "followingParent",
+    "memberNumberCount",
+    "followersParent",
+    "partnerNumberCount"
+  ],
+
+  followingParent: ["followingParent", "memberNumberCount"],
+  memberNumberCount: ["memberNumberCount"],
+  followersParent: ["followersParent", "partnerNumberCount"],
+  partnerNumberCount: ["partnerNumberCount"],
+  elementPartnerSubscriberReviewsParent: [
+    "elementPartnerSubscriberReviewsParent",
+    "partnerSubscriberCountParent",
+    "partnerSubscribersNumberCount",
+    "partnerSubscribersText",
+    "partnerTeamReviewCountParent",
+    "partnerReviewsNumberCount",
+    "partnerReviewsText"
+  ],
+
+  partnerSubscriberCountParent: [
+    "partnerSubscriberCountParent",
+    "partnerSubscribersNumberCount",
+    "partnerSubscribersText"
+  ],
+
+  partnerSubscribersNumberCount: ["partnerSubscribersNumberCount"],
+  partnerSubscribersText: ["partnerSubscribersText"],
+  partnerTeamReviewCountParent: [
+    "partnerTeamReviewCountParent",
+    "partnerReviewsNumberCount",
+    "partnerReviewsText"
+  ],
+
+  partnerReviewsNumberCount: ["partnerReviewsNumberCount"],
+  partnerReviewsText: ["partnerReviewsText"],
+  elementUserFollowersTeams3: [
+    "elementUserFollowersTeams3",
+    "partnerFollowersCountParent",
+    "partnerfollowersNumberCount",
+    "partnerFollowersText",
+    "partnerFollowingCountParent",
+    "partnerFollowingNumberCount",
+    "partnerFollowingText"
+  ],
+
+  partnerFollowersCountParent: [
+    "partnerFollowersCountParent",
+    "partnerfollowersNumberCount",
+    "partnerFollowersText"
+  ],
+
+  partnerfollowersNumberCount: ["partnerfollowersNumberCount"],
+  partnerFollowersText: ["partnerFollowersText"],
+  partnerFollowingCountParent: [
+    "partnerFollowingCountParent",
+    "partnerFollowingNumberCount",
+    "partnerFollowingText"
+  ],
+
+  partnerFollowingNumberCount: ["partnerFollowingNumberCount"],
+  partnerFollowingText: ["partnerFollowingText"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -315,21 +1195,89 @@ export const PlasmicSideBarCommunityStats = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    elementHeadline: makeNodeComponent("elementHeadline"),
+    headlineParent: makeNodeComponent("headlineParent"),
+    headlineCommunity: makeNodeComponent("headlineCommunity"),
     elementUserbadges: makeNodeComponent("elementUserbadges"),
-    elementUserSocialFollowing: makeNodeComponent("elementUserSocialFollowing"),
-    followingParent: makeNodeComponent("followingParent"),
-    followingCountNumber: makeNodeComponent("followingCountNumber"),
-    followersParent: makeNodeComponent("followersParent"),
-    followerCountNumber: makeNodeComponent("followerCountNumber"),
-    elementUserSocialFollowing2: makeNodeComponent(
-      "elementUserSocialFollowing2"
+    ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),
+    tagMemberD: makeNodeComponent("tagMemberD"),
+    tagPartnerD: makeNodeComponent("tagPartnerD"),
+    badgeVerification: makeNodeComponent("badgeVerification"),
+    elementUserSocialFollowingA: makeNodeComponent(
+      "elementUserSocialFollowingA"
     ),
 
     followingParent2: makeNodeComponent("followingParent2"),
-    followingCountNumber2: makeNodeComponent("followingCountNumber2"),
+    followersNumberCount: makeNodeComponent("followersNumberCount"),
     followersParent2: makeNodeComponent("followersParent2"),
-    followerCountNumber2: makeNodeComponent("followerCountNumber2"),
+    followingNumberCount: makeNodeComponent("followingNumberCount"),
+    elementMemberSubscriptionsLists: makeNodeComponent(
+      "elementMemberSubscriptionsLists"
+    ),
+
+    memberSubscriptionCountParent: makeNodeComponent(
+      "memberSubscriptionCountParent"
+    ),
+
+    memberSubscriptionNumberCount: makeNodeComponent(
+      "memberSubscriptionNumberCount"
+    ),
+
+    memberListsCountParent: makeNodeComponent("memberListsCountParent"),
+    memberListNumberCount: makeNodeComponent("memberListNumberCount"),
+    elementMemberFollowersTeams: makeNodeComponent(
+      "elementMemberFollowersTeams"
+    ),
+
+    memberFollowersCountParent: makeNodeComponent("memberFollowersCountParent"),
+    memberfollowersNumberCount: makeNodeComponent("memberfollowersNumberCount"),
+    memberTeamCountParent: makeNodeComponent("memberTeamCountParent"),
+    memberTeamNumberCount: makeNodeComponent("memberTeamNumberCount"),
+    elementUserSocialFollowingB: makeNodeComponent(
+      "elementUserSocialFollowingB"
+    ),
+
+    followingParent: makeNodeComponent("followingParent"),
+    memberNumberCount: makeNodeComponent("memberNumberCount"),
+    followersParent: makeNodeComponent("followersParent"),
+    partnerNumberCount: makeNodeComponent("partnerNumberCount"),
+    elementPartnerSubscriberReviewsParent: makeNodeComponent(
+      "elementPartnerSubscriberReviewsParent"
+    ),
+
+    partnerSubscriberCountParent: makeNodeComponent(
+      "partnerSubscriberCountParent"
+    ),
+
+    partnerSubscribersNumberCount: makeNodeComponent(
+      "partnerSubscribersNumberCount"
+    ),
+
+    partnerSubscribersText: makeNodeComponent("partnerSubscribersText"),
+    partnerTeamReviewCountParent: makeNodeComponent(
+      "partnerTeamReviewCountParent"
+    ),
+
+    partnerReviewsNumberCount: makeNodeComponent("partnerReviewsNumberCount"),
+    partnerReviewsText: makeNodeComponent("partnerReviewsText"),
+    elementUserFollowersTeams3: makeNodeComponent("elementUserFollowersTeams3"),
+    partnerFollowersCountParent: makeNodeComponent(
+      "partnerFollowersCountParent"
+    ),
+
+    partnerfollowersNumberCount: makeNodeComponent(
+      "partnerfollowersNumberCount"
+    ),
+
+    partnerFollowersText: makeNodeComponent("partnerFollowersText"),
+    partnerFollowingCountParent: makeNodeComponent(
+      "partnerFollowingCountParent"
+    ),
+
+    partnerFollowingNumberCount: makeNodeComponent(
+      "partnerFollowingNumberCount"
+    ),
+
+    partnerFollowingText: makeNodeComponent("partnerFollowingText"),
     // Metadata about props expected for PlasmicSideBarCommunityStats
     internalVariantProps: PlasmicSideBarCommunityStats__VariantProps,
     internalArgProps: PlasmicSideBarCommunityStats__ArgProps

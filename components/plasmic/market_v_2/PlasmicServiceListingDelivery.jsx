@@ -21,9 +21,9 @@ import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/compo
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
-import RadioCheckbox from "../../RadioCheckbox"; // plasmic-import: TRRmUa9KEQ/component
+import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRmUa9KEQ/component
 import Searchbadge from "../../Searchbadge"; // plasmic-import: DreZnHdEQY/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -49,7 +49,7 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -343,32 +343,32 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__ui9Ss)}
             >
-              <RadioCheckbox
+              <RadioCheckboxCard
                 className={classNames(
                   "__wab_instance",
-                  sty.radioCheckbox__cnO1T
+                  sty.radioCheckboxCard__cnO1T
                 )}
               >
                 {"Client requirement 1"}
-              </RadioCheckbox>
+              </RadioCheckboxCard>
 
-              <RadioCheckbox
+              <RadioCheckboxCard
                 className={classNames(
                   "__wab_instance",
-                  sty.radioCheckbox__sLNwn
+                  sty.radioCheckboxCard__sLNwn
                 )}
               >
                 {"Client requirement 2 "}
-              </RadioCheckbox>
+              </RadioCheckboxCard>
 
-              <RadioCheckbox
+              <RadioCheckboxCard
                 className={classNames(
                   "__wab_instance",
-                  sty.radioCheckbox__tPpQg
+                  sty.radioCheckboxCard__tPpQg
                 )}
               >
                 {"Client requirement 3 "}
-              </RadioCheckbox>
+              </RadioCheckboxCard>
             </p.Stack>
           </p.Stack>
 
@@ -414,10 +414,10 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
               data-plasmic-override={overrides.searchbadge}
               className={classNames("__wab_instance", sty.searchbadge)}
             >
-              <ChipDisplay
-                data-plasmic-name={"chipDisplay"}
-                data-plasmic-override={overrides.chipDisplay}
-                className={classNames("__wab_instance", sty.chipDisplay)}
+              <ChipBadgeDisplay
+                data-plasmic-name={"chipBadgeDisplay"}
+                data-plasmic-override={overrides.chipBadgeDisplay}
+                className={classNames("__wab_instance", sty.chipBadgeDisplay)}
                 type={"ghost"}
               >
                 <div
@@ -429,7 +429,7 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
                 >
                   {"Badge"}
                 </div>
-              </ChipDisplay>
+              </ChipBadgeDisplay>
             </Searchbadge>
           </p.Stack>
 
@@ -457,7 +457,7 @@ const PlasmicDescendants = {
     "questionRequirementBlock",
     "questionFormatBlock",
     "searchbadge",
-    "chipDisplay",
+    "chipBadgeDisplay",
     "footerServiceListing"
   ],
 
@@ -474,9 +474,14 @@ const PlasmicDescendants = {
   questionMeetingBlock: ["questionMeetingBlock"],
   questionRevisionBlock: ["questionRevisionBlock"],
   questionRequirementBlock: ["questionRequirementBlock"],
-  questionFormatBlock: ["questionFormatBlock", "searchbadge", "chipDisplay"],
-  searchbadge: ["searchbadge", "chipDisplay"],
-  chipDisplay: ["chipDisplay"],
+  questionFormatBlock: [
+    "questionFormatBlock",
+    "searchbadge",
+    "chipBadgeDisplay"
+  ],
+
+  searchbadge: ["searchbadge", "chipBadgeDisplay"],
+  chipBadgeDisplay: ["chipBadgeDisplay"],
   footerServiceListing: ["footerServiceListing"]
 };
 
@@ -521,7 +526,7 @@ export const PlasmicServiceListingDelivery = Object.assign(
     questionRequirementBlock: makeNodeComponent("questionRequirementBlock"),
     questionFormatBlock: makeNodeComponent("questionFormatBlock"),
     searchbadge: makeNodeComponent("searchbadge"),
-    chipDisplay: makeNodeComponent("chipDisplay"),
+    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServiceListingDelivery
     internalVariantProps: PlasmicServiceListingDelivery__VariantProps,

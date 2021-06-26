@@ -18,7 +18,7 @@ import {
 } from "@plasmicapp/react-web";
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
-import TagVerification from "../../TagVerification"; // plasmic-import: jKGLXJ6-Gl/component
+import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import: jKGLXJ6-Gl/component
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -53,10 +53,10 @@ function PlasmicCardUserprofile__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
-        data-plasmic-name={"location2"}
-        data-plasmic-override={overrides.location2}
+        data-plasmic-name={"saveButtonContainer"}
+        data-plasmic-override={overrides.saveButtonContainer}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.location2)}
+        className={classNames(defaultcss.all, sty.saveButtonContainer)}
       >
         {(triggers.active_root ? true : true) ? (
           <button
@@ -86,9 +86,9 @@ function PlasmicCardUserprofile__RenderFunc(props) {
               }
               svgIcon18Px={
                 <BookmarkIcon
-                  data-plasmic-name={"svgIcon4"}
-                  data-plasmic-override={overrides.svgIcon4}
-                  className={classNames(defaultcss.all, sty.svgIcon4)}
+                  data-plasmic-name={"svgSave"}
+                  data-plasmic-override={overrides.svgSave}
+                  className={classNames(defaultcss.all, sty.svgSave)}
                   role={"img"}
                 />
               }
@@ -130,9 +130,9 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             </div>
 
             <div className={classNames(defaultcss.all, sty.box__gZTi1)}>
-              <TagVerification
-                data-plasmic-name={"tagVerification"}
-                data-plasmic-override={overrides.tagVerification}
+              <TagBadgeVerification
+                data-plasmic-name={"tagBadgeVerification"}
+                data-plasmic-override={overrides.tagBadgeVerification}
                 size={"_16"}
               />
             </div>
@@ -354,14 +354,14 @@ function PlasmicCardUserprofile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "location2",
+    "saveButtonContainer",
     "saveProfile",
     "iconPrimary",
     "svgIcon",
     "svgIcon3",
-    "svgIcon4",
+    "svgSave",
     "userAvatar",
-    "tagVerification",
+    "tagBadgeVerification",
     "tagPartnerD",
     "ratingDisplayDetail",
     "userStatsParent",
@@ -384,29 +384,22 @@ const PlasmicDescendants = {
     "cityText"
   ],
 
-  location2: [
-    "location2",
+  saveButtonContainer: [
+    "saveButtonContainer",
     "saveProfile",
     "iconPrimary",
     "svgIcon",
     "svgIcon3",
-    "svgIcon4"
+    "svgSave"
   ],
 
-  saveProfile: [
-    "saveProfile",
-    "iconPrimary",
-    "svgIcon",
-    "svgIcon3",
-    "svgIcon4"
-  ],
-
-  iconPrimary: ["iconPrimary", "svgIcon", "svgIcon3", "svgIcon4"],
+  saveProfile: ["saveProfile", "iconPrimary", "svgIcon", "svgIcon3", "svgSave"],
+  iconPrimary: ["iconPrimary", "svgIcon", "svgIcon3", "svgSave"],
   svgIcon: ["svgIcon"],
   svgIcon3: ["svgIcon3"],
-  svgIcon4: ["svgIcon4"],
+  svgSave: ["svgSave"],
   userAvatar: ["userAvatar"],
-  tagVerification: ["tagVerification"],
+  tagBadgeVerification: ["tagBadgeVerification"],
   tagPartnerD: ["tagPartnerD"],
   ratingDisplayDetail: ["ratingDisplayDetail"],
   userStatsParent: [
@@ -503,14 +496,14 @@ export const PlasmicCardUserprofile = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    location2: makeNodeComponent("location2"),
+    saveButtonContainer: makeNodeComponent("saveButtonContainer"),
     saveProfile: makeNodeComponent("saveProfile"),
     iconPrimary: makeNodeComponent("iconPrimary"),
     svgIcon: makeNodeComponent("svgIcon"),
     svgIcon3: makeNodeComponent("svgIcon3"),
-    svgIcon4: makeNodeComponent("svgIcon4"),
+    svgSave: makeNodeComponent("svgSave"),
     userAvatar: makeNodeComponent("userAvatar"),
-    tagVerification: makeNodeComponent("tagVerification"),
+    tagBadgeVerification: makeNodeComponent("tagBadgeVerification"),
     tagPartnerD: makeNodeComponent("tagPartnerD"),
     ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),
     userStatsParent: makeNodeComponent("userStatsParent"),

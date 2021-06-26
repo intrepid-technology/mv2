@@ -15,7 +15,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -56,8 +56,11 @@ function PlasmicSearchbadge__RenderFunc(props) {
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <ChipDisplay
-              className={classNames("__wab_instance", sty.chipDisplay__c7GRb)}
+            <ChipBadgeDisplay
+              className={classNames(
+                "__wab_instance",
+                sty.chipBadgeDisplay__c7GRb
+              )}
               type={"ghost"}
             >
               <div
@@ -69,7 +72,7 @@ function PlasmicSearchbadge__RenderFunc(props) {
               >
                 {"Badge"}
               </div>
-            </ChipDisplay>
+            </ChipBadgeDisplay>
           ),
 
           value: args.children

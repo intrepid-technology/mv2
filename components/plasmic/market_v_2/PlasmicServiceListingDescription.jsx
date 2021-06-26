@@ -48,7 +48,7 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }

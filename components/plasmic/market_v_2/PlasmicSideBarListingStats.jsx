@@ -56,24 +56,32 @@ function PlasmicSideBarListingStats__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"listingStatsParent"}
+        data-plasmic-override={overrides.listingStatsParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__kKsB)}
+        className={classNames(defaultcss.all, sty.listingStatsParent)}
       >
         <p.Stack
           as={"div"}
-          data-plasmic-name={"elementProductListingCount"}
-          data-plasmic-override={overrides.elementProductListingCount}
+          data-plasmic-name={"elementListingCount"}
+          data-plasmic-override={overrides.elementListingCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementProductListingCount)}
+          className={classNames(defaultcss.all, sty.elementListingCount)}
         >
           <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__iCiP
-            )}
+            data-plasmic-name={"listingNumberParent"}
+            data-plasmic-override={overrides.listingNumberParent}
+            className={classNames(defaultcss.all, sty.listingNumberParent)}
           >
-            {"-"}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__iCiP
+              )}
+            >
+              {"XXXXX"}
+            </div>
           </div>
 
           <div
@@ -89,22 +97,25 @@ function PlasmicSideBarListingStats__RenderFunc(props) {
 
         <p.Stack
           as={"div"}
-          data-plasmic-name={"elementServicesListingCount"}
-          data-plasmic-override={overrides.elementServicesListingCount}
+          data-plasmic-name={"elementViewsCount"}
+          data-plasmic-override={overrides.elementViewsCount}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            sty.elementServicesListingCount
-          )}
+          className={classNames(defaultcss.all, sty.elementViewsCount)}
         >
           <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__ocmNw
-            )}
+            data-plasmic-name={"viewsNumberParent"}
+            data-plasmic-override={overrides.viewsNumberParent}
+            className={classNames(defaultcss.all, sty.viewsNumberParent)}
           >
-            {"-"}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__ocmNw
+              )}
+            >
+              {"XXXXX"}
+            </div>
           </div>
 
           <div
@@ -120,19 +131,25 @@ function PlasmicSideBarListingStats__RenderFunc(props) {
 
         <p.Stack
           as={"div"}
-          data-plasmic-name={"elementEventListingCount"}
-          data-plasmic-override={overrides.elementEventListingCount}
+          data-plasmic-name={"elementReactsCount"}
+          data-plasmic-override={overrides.elementReactsCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementEventListingCount)}
+          className={classNames(defaultcss.all, sty.elementReactsCount)}
         >
           <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__agzVt
-            )}
+            data-plasmic-name={"reactsNumberParent"}
+            data-plasmic-override={overrides.reactsNumberParent}
+            className={classNames(defaultcss.all, sty.reactsNumberParent)}
           >
-            {"-"}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__agzVt
+              )}
+            >
+              {"XXXXX"}
+            </div>
           </div>
 
           <div
@@ -148,19 +165,25 @@ function PlasmicSideBarListingStats__RenderFunc(props) {
 
         <p.Stack
           as={"div"}
-          data-plasmic-name={"elementCoursesListingCount"}
-          data-plasmic-override={overrides.elementCoursesListingCount}
+          data-plasmic-name={"elementSavesCount"}
+          data-plasmic-override={overrides.elementSavesCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementCoursesListingCount)}
+          className={classNames(defaultcss.all, sty.elementSavesCount)}
         >
           <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__vsewK
-            )}
+            data-plasmic-name={"savesNumberParent"}
+            data-plasmic-override={overrides.savesNumberParent}
+            className={classNames(defaultcss.all, sty.savesNumberParent)}
           >
-            {"-"}
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__vsewK
+              )}
+            >
+              {"XXXXX"}
+            </div>
           </div>
 
           <div
@@ -182,17 +205,38 @@ const PlasmicDescendants = {
   root: [
     "root",
     "headline",
-    "elementProductListingCount",
-    "elementServicesListingCount",
-    "elementEventListingCount",
-    "elementCoursesListingCount"
+    "listingStatsParent",
+    "elementListingCount",
+    "listingNumberParent",
+    "elementViewsCount",
+    "viewsNumberParent",
+    "elementReactsCount",
+    "reactsNumberParent",
+    "elementSavesCount",
+    "savesNumberParent"
   ],
 
   headline: ["headline"],
-  elementProductListingCount: ["elementProductListingCount"],
-  elementServicesListingCount: ["elementServicesListingCount"],
-  elementEventListingCount: ["elementEventListingCount"],
-  elementCoursesListingCount: ["elementCoursesListingCount"]
+  listingStatsParent: [
+    "listingStatsParent",
+    "elementListingCount",
+    "listingNumberParent",
+    "elementViewsCount",
+    "viewsNumberParent",
+    "elementReactsCount",
+    "reactsNumberParent",
+    "elementSavesCount",
+    "savesNumberParent"
+  ],
+
+  elementListingCount: ["elementListingCount", "listingNumberParent"],
+  listingNumberParent: ["listingNumberParent"],
+  elementViewsCount: ["elementViewsCount", "viewsNumberParent"],
+  viewsNumberParent: ["viewsNumberParent"],
+  elementReactsCount: ["elementReactsCount", "reactsNumberParent"],
+  reactsNumberParent: ["reactsNumberParent"],
+  elementSavesCount: ["elementSavesCount", "savesNumberParent"],
+  savesNumberParent: ["savesNumberParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -227,13 +271,15 @@ export const PlasmicSideBarListingStats = Object.assign(
   {
     // Helper components rendering sub-elements
     headline: makeNodeComponent("headline"),
-    elementProductListingCount: makeNodeComponent("elementProductListingCount"),
-    elementServicesListingCount: makeNodeComponent(
-      "elementServicesListingCount"
-    ),
-
-    elementEventListingCount: makeNodeComponent("elementEventListingCount"),
-    elementCoursesListingCount: makeNodeComponent("elementCoursesListingCount"),
+    listingStatsParent: makeNodeComponent("listingStatsParent"),
+    elementListingCount: makeNodeComponent("elementListingCount"),
+    listingNumberParent: makeNodeComponent("listingNumberParent"),
+    elementViewsCount: makeNodeComponent("elementViewsCount"),
+    viewsNumberParent: makeNodeComponent("viewsNumberParent"),
+    elementReactsCount: makeNodeComponent("elementReactsCount"),
+    reactsNumberParent: makeNodeComponent("reactsNumberParent"),
+    elementSavesCount: makeNodeComponent("elementSavesCount"),
+    savesNumberParent: makeNodeComponent("savesNumberParent"),
     // Metadata about props expected for PlasmicSideBarListingStats
     internalVariantProps: PlasmicSideBarListingStats__VariantProps,
     internalArgProps: PlasmicSideBarListingStats__ArgProps

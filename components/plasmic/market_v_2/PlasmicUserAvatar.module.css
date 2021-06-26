@@ -14,9 +14,17 @@
 .parentRoot__size__24 {
   padding: 2px;
 }
-.avatarparent {
+.badgeParent {
   display: inline-flex;
   position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.avatarparent {
+  display: inline-flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
@@ -236,4 +244,44 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.badge {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  top: auto;
+  left: auto;
+  height: auto;
+  width: auto;
+  margin-left: -8px;
+  margin-bottom: -16px;
+}
+.badge__size__24 {
+  margin-left: -8px;
+  margin-bottom: -16px;
+  left: auto;
+  top: auto;
+  display: none;
+}
+.badge__size__24_verified {
+  display: flex;
+}
+.badge__size__32_verified {
+  margin-bottom: -24px;
+}
+.badge__size__40_verified {
+  margin-bottom: -28px;
+  margin-left: -8px;
+}
+.badge__size__48_verified {
+  margin-bottom: -32px;
+}
+.badge__size__64_verified {
+  margin-bottom: -32px;
+}
+.badge__size__80_verified {
+  margin-bottom: -48px;
+  margin-left: -16px;
 }

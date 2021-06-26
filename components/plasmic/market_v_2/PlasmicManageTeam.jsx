@@ -21,7 +21,7 @@ import InputTextForm from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/c
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import FabButtonA from "../../FabButtonA"; // plasmic-import: o1fXsWwgdW/component
 import Searchbar from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
-import RadioElementA from "../../RadioElementA"; // plasmic-import: 1xw4kmw_5l/component
+import RadioTextInputPrimary from "../../RadioTextInputPrimary"; // plasmic-import: 1xw4kmw_5l/component
 import FabButtonB from "../../FabButtonB"; // plasmic-import: nkuQ1X_r6B/component
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -50,7 +50,7 @@ function PlasmicManageTeam__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -403,12 +403,12 @@ function PlasmicManageTeam__RenderFunc(props) {
                       sty.tableSelectHeaderRow
                     )}
                   >
-                    <RadioElementA
-                      data-plasmic-name={"radioElementA"}
-                      data-plasmic-override={overrides.radioElementA}
+                    <RadioTextInputPrimary
+                      data-plasmic-name={"radioTextInputPrimary"}
+                      data-plasmic-override={overrides.radioTextInputPrimary}
                       className={classNames(
                         "__wab_instance",
-                        sty.radioElementA
+                        sty.radioTextInputPrimary
                       )}
                       itemText={"Select all"}
                     />
@@ -707,7 +707,7 @@ const PlasmicDescendants = {
     "searchbar",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -741,7 +741,7 @@ const PlasmicDescendants = {
     "searchbar",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -774,7 +774,7 @@ const PlasmicDescendants = {
     "searchbar",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -826,7 +826,7 @@ const PlasmicDescendants = {
     "searchbar",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -847,7 +847,7 @@ const PlasmicDescendants = {
   tableSelectColumnParent: [
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -863,8 +863,8 @@ const PlasmicDescendants = {
     "selectFabParent3"
   ],
 
-  tableSelectHeaderRow: ["tableSelectHeaderRow", "radioElementA"],
-  radioElementA: ["radioElementA"],
+  tableSelectHeaderRow: ["tableSelectHeaderRow", "radioTextInputPrimary"],
+  radioTextInputPrimary: ["radioTextInputPrimary"],
   memberAdminRow: [
     "memberAdminRow",
     "userAvatarNameEmailParent",
@@ -969,7 +969,7 @@ export const PlasmicManageTeam = Object.assign(
     searchbar: makeNodeComponent("searchbar"),
     tableSelectColumnParent: makeNodeComponent("tableSelectColumnParent"),
     tableSelectHeaderRow: makeNodeComponent("tableSelectHeaderRow"),
-    radioElementA: makeNodeComponent("radioElementA"),
+    radioTextInputPrimary: makeNodeComponent("radioTextInputPrimary"),
     memberAdminRow: makeNodeComponent("memberAdminRow"),
     userAvatarNameEmailParent: makeNodeComponent("userAvatarNameEmailParent"),
     userInfoParent: makeNodeComponent("userInfoParent"),

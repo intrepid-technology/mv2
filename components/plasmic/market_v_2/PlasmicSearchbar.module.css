@@ -78,6 +78,7 @@
   object-fit: cover;
   height: 16px;
   width: 16px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 .searchSvg__height__36 {
@@ -112,6 +113,7 @@
   height: 100%;
   padding-left: 8px;
   font-size: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
   min-width: 0;
   min-height: 0;
   background: #f8f8f8 repeat;

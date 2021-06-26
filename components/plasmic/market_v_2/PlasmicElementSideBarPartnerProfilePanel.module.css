@@ -37,10 +37,13 @@
   margin-top: 6px;
 }
 .box___8Dh5C {
-  font-size: 12px;
+  font-size: 8px;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 600;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: normal;
 }
 .elementIconListItem__dsDoA:global(.__wab_instance) {
   position: relative;
@@ -48,11 +51,21 @@
   left: auto;
   flex-shrink: 0;
 }
-.svg__kRjbu {
+.box__w3J4U {
+  display: inline-flex;
   position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__j0I4C {
   object-fit: cover;
-  width: 1em;
-  height: 1em;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }
 .elementIconListItem__lqd7E:global(.__wab_instance) {
   position: relative;
@@ -60,11 +73,21 @@
   left: auto;
   flex-shrink: 0;
 }
-.svg__diY9B {
+.box__zzN6S {
+  display: inline-flex;
   position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__reL48 {
   object-fit: cover;
-  width: 1em;
-  height: 1em;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }
 .elementIconListItem__jjVq7:global(.__wab_instance) {
   position: relative;
@@ -72,11 +95,21 @@
   left: auto;
   flex-shrink: 0;
 }
-.svg__wO4Xt {
+.box__uYn32 {
+  display: inline-flex;
   position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__jDd6 {
   object-fit: cover;
-  width: 1em;
-  height: 1em;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }
 .elementIconListItem__f163K:global(.__wab_instance) {
   position: relative;
@@ -84,9 +117,19 @@
   left: auto;
   flex-shrink: 0;
 }
-.svg___8ERCv {
+.box__dpjsj {
+  display: inline-flex;
   position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__x4M1B {
   object-fit: cover;
-  width: 1em;
-  height: 1em;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
 }

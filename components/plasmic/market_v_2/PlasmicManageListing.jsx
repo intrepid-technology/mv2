@@ -23,7 +23,7 @@ import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: 
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import IconTextPrimary from "../../IconTextPrimary"; // plasmic-import: 2XsuG8W9wX/component
-import TagFilter from "../../TagFilter"; // plasmic-import: C8K8aavuz-/component
+import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import ToggleA from "../../ToggleA"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -56,7 +56,7 @@ function PlasmicManageListing__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -832,10 +832,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box___23Kl
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__o4Bx1
+                                sty.tagBadge__o4Bx1
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -875,10 +875,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__stnQq
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__eoLu8
+                                sty.tagBadge__eoLu8
                               )}
                               textBase10Px={"Monthly"}
                             />
@@ -1187,10 +1187,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box___40Sr7
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__mvJ5Z
+                                sty.tagBadge__mvJ5Z
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -1230,10 +1230,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__u6ZmV
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__kdBdh
+                                sty.tagBadge__kdBdh
                               )}
                               textBase10Px={"Monthly"}
                             />
@@ -1526,10 +1526,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__eW7R
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__o1Drz
+                                sty.tagBadge__o1Drz
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -1569,10 +1569,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__s65Il
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__rhf2W
+                                sty.tagBadge__rhf2W
                               )}
                               textBase10Px={"Monthly"}
                             />

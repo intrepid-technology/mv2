@@ -153,17 +153,18 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                 color={
                   hasVariant(variants, "color", "color") ? "light" : undefined
                 }
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___5NqCc
-                  )}
-                >
-                  {"Design"}
-                </div>
-              </NavLink>
+                linkText={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box___5NqCc
+                    )}
+                  >
+                    {"Design"}
+                  </div>
+                }
+              />
             ) : null}
 
             <NavLink
@@ -177,17 +178,18 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "color") ? "light" : undefined
               }
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__zUdj
-                )}
-              >
-                {"Web"}
-              </div>
-            </NavLink>
+              linkText={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__zUdj
+                  )}
+                >
+                  {"Web"}
+                </div>
+              }
+            />
 
             {(
               hasVariant(globalVariants, "screen", "mobileAPrimary")
@@ -205,17 +207,18 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                 color={
                   hasVariant(variants, "color", "color") ? "light" : undefined
                 }
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___5BIZq
-                  )}
-                >
-                  {"Mobile"}
-                </div>
-              </NavLink>
+                linkText={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box___5BIZq
+                    )}
+                  >
+                    {"Mobile"}
+                  </div>
+                }
+              />
             ) : null}
 
             <NavLink
@@ -229,17 +232,18 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "color") ? "light" : undefined
               }
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__s5XHu
-                )}
-              >
-                {"No code"}
-              </div>
-            </NavLink>
+              linkText={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__s5XHu
+                  )}
+                >
+                  {"No code"}
+                </div>
+              }
+            />
           </p.Stack>
         </div>
       ) : null}
@@ -268,24 +272,25 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "color") ? "light" : undefined
               }
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__zfh0N,
-                  {
-                    [sty.box__color__zfh0NBxq9H]: hasVariant(
-                      variants,
-                      "color",
-                      "color"
-                    )
-                  }
-                )}
-              >
-                {"Become a seller"}
-              </div>
-            </NavLink>
+              linkText={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__zfh0N,
+                    {
+                      [sty.box__color__zfh0NBxq9H]: hasVariant(
+                        variants,
+                        "color",
+                        "color"
+                      )
+                    }
+                  )}
+                >
+                  {"Become a seller"}
+                </div>
+              }
+            />
           ) : null}
           {(
             hasVariant(globalVariants, "screen", "mobileAPrimary")

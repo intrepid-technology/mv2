@@ -17,6 +17,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import NavbarSwitch from "../../NavbarSwitch"; // plasmic-import: tmc24NnB44/component
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import Searchbar from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
 import NavbarSave from "../../NavbarSave"; // plasmic-import: -GlpTucHU-/component
@@ -27,7 +28,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarInternal.module.css"; // plasmic-import: BXWgCr5-vns/css
-import Icon161Icon from "./icons/PlasmicIcon__Icon161"; // plasmic-import: EoyDB7Q1N/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJkcBKE/icon
 
@@ -71,27 +71,18 @@ function PlasmicNavbarInternal__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.sidebarHeaderClosed)}
         >
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? false
-              : true
-          ) ? (
-            <button
-              data-plasmic-name={"navSwitch"}
-              data-plasmic-override={overrides.navSwitch}
-              className={classNames(defaultcss.button, sty.navSwitch)}
-            >
-              <Icon161Icon
-                className={classNames(defaultcss.all, sty.svg__f6Jkw)}
-                role={"img"}
-              />
-            </button>
-          ) : null}
+          <NavbarSwitch
+            data-plasmic-name={"navbarSwitch"}
+            data-plasmic-override={overrides.navbarSwitch}
+            className={classNames("__wab_instance", sty.navbarSwitch)}
+            target={"side-bar"}
+          />
 
           <NavbarLogo
             data-plasmic-name={"navbarLogo"}
             data-plasmic-override={overrides.navbarLogo}
             className={classNames("__wab_instance", sty.navbarLogo)}
+            size={"_16"}
           />
         </p.Stack>
 
@@ -284,7 +275,9 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                       )}
                     >
                       <Icon138Icon
-                        className={classNames(defaultcss.all, sty.svg__moMmx)}
+                        data-plasmic-name={"svg"}
+                        data-plasmic-override={overrides.svg}
+                        className={classNames(defaultcss.all, sty.svg)}
                         role={"img"}
                       />
 
@@ -403,7 +396,7 @@ const PlasmicDescendants = {
     "root",
     "parent",
     "sidebarHeaderClosed",
-    "navSwitch",
+    "navbarSwitch",
     "navbarLogo",
     "searchBox",
     "searchbar",
@@ -413,6 +406,7 @@ const PlasmicDescendants = {
     "navbarListButtonText",
     "navbarListButton22",
     "navbarListButtonTextParent22",
+    "svg",
     "navbarListButtonText22",
     "navbarSave",
     "navbarBrief",
@@ -422,7 +416,7 @@ const PlasmicDescendants = {
   parent: [
     "parent",
     "sidebarHeaderClosed",
-    "navSwitch",
+    "navbarSwitch",
     "navbarLogo",
     "searchBox",
     "searchbar",
@@ -432,14 +426,15 @@ const PlasmicDescendants = {
     "navbarListButtonText",
     "navbarListButton22",
     "navbarListButtonTextParent22",
+    "svg",
     "navbarListButtonText22",
     "navbarSave",
     "navbarBrief",
     "userAvatar"
   ],
 
-  sidebarHeaderClosed: ["sidebarHeaderClosed", "navSwitch", "navbarLogo"],
-  navSwitch: ["navSwitch"],
+  sidebarHeaderClosed: ["sidebarHeaderClosed", "navbarSwitch", "navbarLogo"],
+  navbarSwitch: ["navbarSwitch"],
   navbarLogo: ["navbarLogo"],
   searchBox: ["searchBox", "searchbar"],
   searchbar: ["searchbar"],
@@ -461,14 +456,17 @@ const PlasmicDescendants = {
   navbarListButton22: [
     "navbarListButton22",
     "navbarListButtonTextParent22",
+    "svg",
     "navbarListButtonText22"
   ],
 
   navbarListButtonTextParent22: [
     "navbarListButtonTextParent22",
+    "svg",
     "navbarListButtonText22"
   ],
 
+  svg: ["svg"],
   navbarListButtonText22: ["navbarListButtonText22"],
   navbarSave: ["navbarSave"],
   navbarBrief: ["navbarBrief"],
@@ -508,7 +506,7 @@ export const PlasmicNavbarInternal = Object.assign(
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
     sidebarHeaderClosed: makeNodeComponent("sidebarHeaderClosed"),
-    navSwitch: makeNodeComponent("navSwitch"),
+    navbarSwitch: makeNodeComponent("navbarSwitch"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     searchBox: makeNodeComponent("searchBox"),
     searchbar: makeNodeComponent("searchbar"),
@@ -521,6 +519,7 @@ export const PlasmicNavbarInternal = Object.assign(
       "navbarListButtonTextParent22"
     ),
 
+    svg: makeNodeComponent("svg"),
     navbarListButtonText22: makeNodeComponent("navbarListButtonText22"),
     navbarSave: makeNodeComponent("navbarSave"),
     navbarBrief: makeNodeComponent("navbarBrief"),

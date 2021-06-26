@@ -1,22 +1,31 @@
 .root {
-  padding-left: 2px;
-  padding-right: 2px;
-  width: auto;
-  display: inline-flex;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.parent {
+  width: 100%;
+  display: flex;
   flex-direction: row;
   height: auto;
-  position: relative;
+  min-width: 0;
+  padding: 0px;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.root > :global(.__wab_flex-container) {
+.parent > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
-.root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 4px;
 }
 .elementUsernameDisplay {
@@ -24,20 +33,23 @@
   position: relative;
   flex-direction: column;
   align-self: center;
+  width: 100%;
+  height: auto;
+  min-width: 0;
 }
 .elementUsernameDisplay > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: calc(0px - 2px);
-  height: calc(100% + 2px);
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
 }
 .elementUsernameDisplay > :global(.__wab_flex-container) > *,
 .elementUsernameDisplay
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > * {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .elementUserRealNames {
   display: flex;
@@ -58,26 +70,36 @@
   > * {
   margin-left: 2px;
 }
-.firstnameLastname {
+.userfirstName {
   font-size: 14px;
   text-align: left;
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-weight: 600;
 }
-.elemenrtLastname {
+.userLastName {
   font-size: 14px;
   text-align: left;
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-weight: 600;
 }
-.userDisplayname {
+.userDisplaynameParent {
   display: flex;
   position: relative;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
   min-width: 0;
+}
+.atSign {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: auto;
+  display: inline-block;
 }
 .userDisplayNameText {
   font-size: 12px;
@@ -93,7 +115,7 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  width: 1em;
+  width: 14px;
+  height: 14px;
   flex-shrink: 0;
-  height: 1em;
 }

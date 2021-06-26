@@ -58,14 +58,14 @@ function PlasmicCardSignUp__RenderFunc(props) {
             sty.signupEmail
           )}
         >
-          {"First name"}
+          {"Email"}
         </div>
 
         <input
           data-plasmic-name={"email"}
           data-plasmic-override={overrides.email}
           className={classNames(defaultcss.input, sty.email)}
-          placeholder={"Enter your first name"}
+          placeholder={"Enter your email"}
           size={1}
           type={"text"}
           value={""}
@@ -86,14 +86,14 @@ function PlasmicCardSignUp__RenderFunc(props) {
             sty.signupPassword
           )}
         >
-          {"Email"}
+          {"Password"}
         </div>
 
         <input
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
           className={classNames(defaultcss.input, sty.password)}
-          placeholder={"Enter your email address"}
+          placeholder={"Enter your password"}
           size={1}
           type={"text"}
           value={""}
@@ -101,7 +101,9 @@ function PlasmicCardSignUp__RenderFunc(props) {
       </p.Stack>
 
       <ButtonPrimary
-        className={classNames("__wab_instance", sty.buttonPrimary__mNkKi)}
+        data-plasmic-name={"submitButton"}
+        data-plasmic-override={overrides.submitButton}
+        className={classNames("__wab_instance", sty.submitButton)}
         size={"_360"}
       >
         <div
@@ -179,7 +181,9 @@ function PlasmicCardSignUp__RenderFunc(props) {
       </div>
 
       <ButtonPrimary
-        className={classNames("__wab_instance", sty.buttonPrimary__ddkV6)}
+        data-plasmic-name={"buttonPrimary"}
+        data-plasmic-override={overrides.buttonPrimary}
+        className={classNames("__wab_instance", sty.buttonPrimary)}
         size={"_360"}
         type={"outline"}
       >
@@ -252,8 +256,10 @@ const PlasmicDescendants = {
     "email",
     "signupPassword",
     "password",
+    "submitButton",
     "signupFacebookConnection",
     "signupGoogleConnection",
+    "buttonPrimary",
     "signupLegalLinks",
     "signupTos",
     "signupPrivacy"
@@ -263,8 +269,10 @@ const PlasmicDescendants = {
   email: ["email"],
   signupPassword: ["signupPassword"],
   password: ["password"],
+  submitButton: ["submitButton"],
   signupFacebookConnection: ["signupFacebookConnection"],
   signupGoogleConnection: ["signupGoogleConnection"],
+  buttonPrimary: ["buttonPrimary"],
   signupLegalLinks: ["signupLegalLinks", "signupTos", "signupPrivacy"],
   signupTos: ["signupTos"],
   signupPrivacy: ["signupPrivacy"]
@@ -305,8 +313,10 @@ export const PlasmicCardSignUp = Object.assign(
     email: makeNodeComponent("email"),
     signupPassword: makeNodeComponent("signupPassword"),
     password: makeNodeComponent("password"),
+    submitButton: makeNodeComponent("submitButton"),
     signupFacebookConnection: makeNodeComponent("signupFacebookConnection"),
     signupGoogleConnection: makeNodeComponent("signupGoogleConnection"),
+    buttonPrimary: makeNodeComponent("buttonPrimary"),
     signupLegalLinks: makeNodeComponent("signupLegalLinks"),
     signupTos: makeNodeComponent("signupTos"),
     signupPrivacy: makeNodeComponent("signupPrivacy"),

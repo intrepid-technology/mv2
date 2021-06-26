@@ -19,7 +19,7 @@ import {
 import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import TagPartnerC from "../../TagPartnerC"; // plasmic-import: VbmQFgDzT6/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import Accordion from "../../Accordion"; // plasmic-import: azR0jnXzDL/component
 import ServiceProcessCard from "../../ServiceProcessCard"; // plasmic-import: VPPN2nrcs6/component
 import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3bX/component
@@ -55,7 +55,7 @@ function PlasmicServiceDetail__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -267,68 +267,71 @@ function PlasmicServiceDetail__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(defaultcss.all, sty.box__y19Np)}
               >
-                <ChipDisplay
-                  className={classNames("__wab_instance", sty.chipDisplay__jV9)}
+                <ChipBadgeDisplay
+                  className={classNames(
+                    "__wab_instance",
+                    sty.chipBadgeDisplay__jV9
+                  )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"UX Design"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__z31Jf
+                    sty.chipBadgeDisplay__z31Jf
                   )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"Design system"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__zNQiS
+                    sty.chipBadgeDisplay__zNQiS
                   )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"Mobile app"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__uh9Vp
+                    sty.chipBadgeDisplay__uh9Vp
                   )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"Web app"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__coqtM
+                    sty.chipBadgeDisplay__coqtM
                   )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"E-commerce"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__qkcBh
+                    sty.chipBadgeDisplay__qkcBh
                   )}
                   color={"brand"}
                   type={"ghost"}
                 >
                   {"Fashion"}
-                </ChipDisplay>
+                </ChipBadgeDisplay>
               </p.Stack>
 
               <SectionDividerIcon
@@ -708,48 +711,48 @@ function PlasmicServiceDetail__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.box__ttyHw)}
                   >
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__d2MuW
+                        sty.chipBadgeDisplay__d2MuW
                       )}
                     />
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__scZc5
+                        sty.chipBadgeDisplay__scZc5
                       )}
                     >
                       {"Design system"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__eQnOv
+                        sty.chipBadgeDisplay__eQnOv
                       )}
                     >
                       {"Mobile app"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__ptZcb
+                        sty.chipBadgeDisplay__ptZcb
                       )}
                     >
                       {"Web app"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__vlISe
+                        sty.chipBadgeDisplay__vlISe
                       )}
                     >
                       {"E-commerce"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
                   </p.Stack>
                 </div>
               </div>
@@ -779,48 +782,48 @@ function PlasmicServiceDetail__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.box__geArL)}
                   >
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__vLjl
+                        sty.chipBadgeDisplay__vLjl
                       )}
                     />
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__lpjJ
+                        sty.chipBadgeDisplay__lpjJ
                       )}
                     >
                       {"Design system"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__cFnYq
+                        sty.chipBadgeDisplay__cFnYq
                       )}
                     >
                       {"Mobile app"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__yphAv
+                        sty.chipBadgeDisplay__yphAv
                       )}
                     >
                       {"Web app"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
 
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__sedp1
+                        sty.chipBadgeDisplay__sedp1
                       )}
                     >
                       {"E-commerce"}
-                    </ChipDisplay>
+                    </ChipBadgeDisplay>
                   </p.Stack>
                 </div>
               </div>

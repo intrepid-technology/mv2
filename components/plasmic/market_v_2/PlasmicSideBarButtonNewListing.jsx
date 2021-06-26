@@ -23,46 +23,60 @@ import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE6
 
 export const PlasmicSideBarButtonNewListing__VariantProps = new Array();
 
-export const PlasmicSideBarButtonNewListing__ArgProps = new Array();
+export const PlasmicSideBarButtonNewListing__ArgProps = new Array(
+  "target",
+  "trigger"
+);
 
 function PlasmicSideBarButtonNewListing__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <button
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"sideBarCardLink3"}
-        data-plasmic-override={overrides.sideBarCardLink3}
-        hasGap={true}
-        className={classNames(defaultcss.all, sty.sideBarCardLink3)}
+      <button
+        data-plasmic-name={"newListing"}
+        data-plasmic-override={overrides.newListing}
+        className={classNames(defaultcss.button, sty.newListing)}
       >
-        <ListingIcon
-          data-plasmic-name={"svg"}
-          data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg)}
-          role={"img"}
-        />
-
-        <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box)}
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"sideBarCardLink3"}
+          data-plasmic-override={overrides.sideBarCardLink3}
+          hasGap={true}
+          className={classNames(defaultcss.all, sty.sideBarCardLink3)}
         >
-          {"New listing"}
-        </div>
-      </p.Stack>
-    </button>
+          <ListingIcon
+            data-plasmic-name={"svg"}
+            data-plasmic-override={overrides.svg}
+            className={classNames(defaultcss.all, sty.svg)}
+            role={"img"}
+          />
+
+          <div
+            data-plasmic-name={"box"}
+            data-plasmic-override={overrides.box}
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box
+            )}
+          >
+            {"New listing"}
+          </div>
+        </p.Stack>
+      </button>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "sideBarCardLink3", "svg", "box"],
+  root: ["root", "newListing", "sideBarCardLink3", "svg", "box"],
+  newListing: ["newListing", "sideBarCardLink3", "svg", "box"],
   sideBarCardLink3: ["sideBarCardLink3", "svg", "box"],
   svg: ["svg"],
   box: ["box"]
@@ -99,6 +113,7 @@ export const PlasmicSideBarButtonNewListing = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    newListing: makeNodeComponent("newListing"),
     sideBarCardLink3: makeNodeComponent("sideBarCardLink3"),
     svg: makeNodeComponent("svg"),
     box: makeNodeComponent("box"),

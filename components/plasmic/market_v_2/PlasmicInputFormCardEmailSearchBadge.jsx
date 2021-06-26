@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -259,10 +259,10 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
               >
                 {p.renderPlasmicSlot({
                   defaultContents: (
-                    <ChipDisplay
+                    <ChipBadgeDisplay
                       className={classNames(
                         "__wab_instance",
-                        sty.chipDisplay__vsno1
+                        sty.chipBadgeDisplay__vsno1
                       )}
                       color={"brand"}
                       type={"ghost"}

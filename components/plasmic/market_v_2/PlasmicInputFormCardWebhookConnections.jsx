@@ -170,6 +170,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "stripe"
                   : "google"
               }
+              width={"_160"}
             />
 
             <ButtonConnectedAccount
@@ -193,6 +194,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "paypal"
                   : "facebook"
               }
+              width={"_160"}
             />
           </p.Stack>
         </p.Stack>

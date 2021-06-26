@@ -42,6 +42,7 @@ function PlasmicSideBarButtonHeader__RenderFunc(props) {
         data-plasmic-name={"sideBarButtonNewListing"}
         data-plasmic-override={overrides.sideBarButtonNewListing}
         className={classNames("__wab_instance", sty.sideBarButtonNewListing)}
+        trigger={"side-barListingButtonDropdown"}
       />
 
       <SideBarButtonPowerUp

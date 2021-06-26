@@ -18,7 +18,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
-import TagVerification from "../../TagVerification"; // plasmic-import: jKGLXJ6-Gl/component
+import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import: jKGLXJ6-Gl/component
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -73,7 +73,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
 
             value: args.navUserAvatar80
           })}
-          size={"_80"}
+          size={"_64"}
         />
       </p.PlasmicLink>
 
@@ -119,16 +119,17 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             {(
               hasVariant(variants, "attributes", "verification") ? false : true
             ) ? (
-              <TagVerification
-                data-plasmic-name={"tagVerification"}
-                data-plasmic-override={overrides.tagVerification}
-                className={classNames("__wab_instance", sty.tagVerification, {
-                  [sty.tagVerification__attributes_verification]: hasVariant(
-                    variants,
-                    "attributes",
-                    "verification"
-                  )
-                })}
+              <TagBadgeVerification
+                data-plasmic-name={"tagBadgeVerification"}
+                data-plasmic-override={overrides.tagBadgeVerification}
+                className={classNames(
+                  "__wab_instance",
+                  sty.tagBadgeVerification,
+                  {
+                    [sty.tagBadgeVerification__attributes_verification]:
+                      hasVariant(variants, "attributes", "verification")
+                  }
+                )}
                 size={"_14"}
               />
             ) : null}
@@ -444,7 +445,7 @@ const PlasmicDescendants = {
     "link",
     "userAvatar",
     "userInfoParent",
-    "tagVerification",
+    "tagBadgeVerification",
     "verificationCityParent",
     "tagPartnerD",
     "ratingDisplayDetail",
@@ -474,7 +475,7 @@ const PlasmicDescendants = {
   userAvatar: ["userAvatar"],
   userInfoParent: [
     "userInfoParent",
-    "tagVerification",
+    "tagBadgeVerification",
     "verificationCityParent",
     "tagPartnerD",
     "ratingDisplayDetail",
@@ -500,7 +501,7 @@ const PlasmicDescendants = {
     "cityText"
   ],
 
-  tagVerification: ["tagVerification"],
+  tagBadgeVerification: ["tagBadgeVerification"],
   verificationCityParent: [
     "verificationCityParent",
     "tagPartnerD",
@@ -610,7 +611,7 @@ export const PlasmicChipUserProfile = Object.assign(
     link: makeNodeComponent("link"),
     userAvatar: makeNodeComponent("userAvatar"),
     userInfoParent: makeNodeComponent("userInfoParent"),
-    tagVerification: makeNodeComponent("tagVerification"),
+    tagBadgeVerification: makeNodeComponent("tagBadgeVerification"),
     verificationCityParent: makeNodeComponent("verificationCityParent"),
     tagPartnerD: makeNodeComponent("tagPartnerD"),
     ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),

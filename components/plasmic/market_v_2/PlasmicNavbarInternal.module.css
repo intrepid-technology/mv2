@@ -36,7 +36,7 @@
   position: relative;
   left: auto;
   top: auto;
-  padding: 2px 0px;
+  padding: 4px 4px 4px 0px;
 }
 .sidebarHeaderClosed > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -52,27 +52,8 @@
   > * {
   margin-left: 8px;
 }
-.navSwitch {
-  display: inline-flex;
+.navbarSwitch:global(.__wab_instance) {
   position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-  align-self: flex-start;
-  height: auto;
-  width: auto;
-  padding: 0px;
-  border-width: 1px;
-  border-style: none;
-}
-.svg__f6Jkw {
-  object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  width: 32px;
-  height: 32px;
-  flex-shrink: 0;
 }
 .navbarLogo:global(.__wab_instance) {
   position: relative;
@@ -252,7 +233,7 @@
   > * {
   margin-left: 4px;
 }
-.svg__moMmx {
+.svg {
   position: relative;
   object-fit: cover;
   width: 18px;
@@ -278,7 +259,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__dxwG0 {
+.img___9FI2N {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -289,7 +270,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img___4ILfs {
+.img__nRuI {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -300,7 +281,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__yyuwB {
+.img___5Swf {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -311,7 +292,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__guid8 {
+.img__bGtQm {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -322,7 +303,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__qXrdS {
+.img__txMyh {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -333,7 +314,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__ilGtm {
+.img__tb8On {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -344,7 +325,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__p031G {
+.img__bzeUy {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -355,7 +336,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__lqAu {
+.img__fycGj {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -366,7 +347,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img___6Djq {
+.img__rjHyf {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -377,7 +358,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img___8NUy6 {
+.img__nz2G {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -388,7 +369,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__fi4Nd {
+.img__rSuvR {
   position: relative;
   object-fit: cover;
   left: auto;

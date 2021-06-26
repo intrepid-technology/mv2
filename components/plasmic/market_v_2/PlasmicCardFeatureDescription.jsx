@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardFeatureDescription.module.css"; // plasmic-import: g0j2UvLSvh/css
-import Icon185Icon from "./icons/PlasmicIcon__Icon185"; // plasmic-import: yu83kfpl6j/icon
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicCardFeatureDescription__VariantProps = new Array(
   "border",
@@ -66,7 +66,7 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: (
               <div className={classNames(defaultcss.all, sty.box__mdvci)}>
-                <Icon185Icon
+                <PlusBoldIcon
                   className={classNames(defaultcss.all, sty.svg___8Asoz)}
                   role={"img"}
                 />

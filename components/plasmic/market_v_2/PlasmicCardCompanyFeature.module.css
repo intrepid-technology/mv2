@@ -124,7 +124,7 @@
   line-height: 1.4;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.tagFilter:global(.__wab_instance) {
+.tagBadge:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

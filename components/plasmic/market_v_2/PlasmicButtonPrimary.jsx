@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonPrimary.module.css"; // plasmic-import: koVqNkx_82/css
-import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicButtonPrimary__VariantProps = new Array(
   "type",
@@ -445,7 +445,7 @@ function PlasmicButtonPrimary__RenderFunc(props) {
               {(hasVariant(variants, "type", "icon") ? true : true)
                 ? p.renderPlasmicSlot({
                     defaultContents: (
-                      <Icon52Icon
+                      <PlusBoldIcon
                         className={classNames(defaultcss.all, sty.svg__kdTyw)}
                         role={"img"}
                       />

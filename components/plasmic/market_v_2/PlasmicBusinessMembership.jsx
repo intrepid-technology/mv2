@@ -18,7 +18,7 @@ import {
 } from "@plasmicapp/react-web";
 import InputFormCardMembership from "../../InputFormCardMembership"; // plasmic-import: xaA58X6UG1B/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import InputFormCardBasic from "../../InputFormCardBasic"; // plasmic-import: IF5nud1uvm2/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -45,7 +45,7 @@ function PlasmicBusinessMembership__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -77,14 +77,14 @@ function PlasmicBusinessMembership__RenderFunc(props) {
                 data-plasmic-name={"companyAccountMembership"}
                 data-plasmic-override={overrides.companyAccountMembership}
                 badge={
-                  <ChipDisplay
-                    data-plasmic-name={"chipDisplay"}
-                    data-plasmic-override={overrides.chipDisplay}
+                  <ChipBadgeDisplay
+                    data-plasmic-name={"chipBadgeDisplay"}
+                    data-plasmic-override={overrides.chipBadgeDisplay}
                     color={"brand"}
                     type={"ghost"}
                   >
                     {"Creator"}
-                  </ChipDisplay>
+                  </ChipBadgeDisplay>
                 }
                 border={"border"}
                 className={classNames(
@@ -197,14 +197,14 @@ const PlasmicDescendants = {
   root: [
     "root",
     "companyAccountMembership",
-    "chipDisplay",
+    "chipBadgeDisplay",
     "paymentMethod",
     "textLinkUnderlinePrimary",
     "businessDeleteAccount"
   ],
 
-  companyAccountMembership: ["companyAccountMembership", "chipDisplay"],
-  chipDisplay: ["chipDisplay"],
+  companyAccountMembership: ["companyAccountMembership", "chipBadgeDisplay"],
+  chipBadgeDisplay: ["chipBadgeDisplay"],
   paymentMethod: ["paymentMethod", "textLinkUnderlinePrimary"],
   textLinkUnderlinePrimary: ["textLinkUnderlinePrimary"],
   businessDeleteAccount: ["businessDeleteAccount"]
@@ -242,7 +242,7 @@ export const PlasmicBusinessMembership = Object.assign(
   {
     // Helper components rendering sub-elements
     companyAccountMembership: makeNodeComponent("companyAccountMembership"),
-    chipDisplay: makeNodeComponent("chipDisplay"),
+    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
     paymentMethod: makeNodeComponent("paymentMethod"),
     textLinkUnderlinePrimary: makeNodeComponent("textLinkUnderlinePrimary"),
     businessDeleteAccount: makeNodeComponent("businessDeleteAccount"),

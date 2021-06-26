@@ -19,6 +19,11 @@
   height: 14px;
   flex-shrink: 0;
 }
+.svgBg__size__80Px {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
 .svgBg__size__16Px {
   width: 16px;
   height: 16px;
@@ -39,6 +44,11 @@
   height: 32px;
   flex-shrink: 0;
 }
+.svgBg__size__36Px {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
 .svgBg__size__40Px {
   width: 40px;
   height: 40px;
@@ -54,11 +64,6 @@
   height: 64px;
   flex-shrink: 0;
 }
-.svgBg__size__80Px {
-  width: 80px;
-  height: 80px;
-  flex-shrink: 0;
-}
 .parent:hover .slotSvgIcon {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
@@ -66,7 +71,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
   min-width: 0;
   min-height: 0;
 }

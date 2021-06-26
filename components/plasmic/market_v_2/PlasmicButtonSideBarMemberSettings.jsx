@@ -19,100 +19,138 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonSideBarMemberSettings.module.css"; // plasmic-import: x9ks47Cvll/css
-import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
+import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 
 export const PlasmicButtonSideBarMemberSettings__VariantProps = new Array();
 
-export const PlasmicButtonSideBarMemberSettings__ArgProps = new Array();
+export const PlasmicButtonSideBarMemberSettings__ArgProps = new Array(
+  "target",
+  "trigger"
+);
 
 function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <p.Stack
-      as={"button"}
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      hasGap={true}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
-        as={"div"}
-        data-plasmic-name={"elementUsernameDisplay"}
-        data-plasmic-override={overrides.elementUsernameDisplay}
+        as={"button"}
+        data-plasmic-name={"parent"}
+        data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.elementUsernameDisplay)}
+        className={classNames(defaultcss.button, sty.parent)}
       >
         <p.Stack
           as={"div"}
-          data-plasmic-name={"elementUserRealNames"}
-          data-plasmic-override={overrides.elementUserRealNames}
+          data-plasmic-name={"elementUsernameDisplay"}
+          data-plasmic-override={overrides.elementUsernameDisplay}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementUserRealNames)}
+          className={classNames(defaultcss.all, sty.elementUsernameDisplay)}
         >
-          <div
-            data-plasmic-name={"firstnameLastname"}
-            data-plasmic-override={overrides.firstnameLastname}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.firstnameLastname
-            )}
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"elementUserRealNames"}
+            data-plasmic-override={overrides.elementUserRealNames}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.elementUserRealNames)}
           >
-            {"Collin"}
-          </div>
+            <div
+              data-plasmic-name={"userfirstName"}
+              data-plasmic-override={overrides.userfirstName}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.userfirstName
+              )}
+            >
+              {"FirstName"}
+            </div>
+
+            <div
+              data-plasmic-name={"userLastName"}
+              data-plasmic-override={overrides.userLastName}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.userLastName
+              )}
+            >
+              {"LastName"}
+            </div>
+          </p.Stack>
 
           <div
-            data-plasmic-name={"elemenrtLastname"}
-            data-plasmic-override={overrides.elemenrtLastname}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.elemenrtLastname
-            )}
+            data-plasmic-name={"userDisplaynameParent"}
+            data-plasmic-override={overrides.userDisplaynameParent}
+            className={classNames(defaultcss.all, sty.userDisplaynameParent)}
           >
-            {"Thompson"}
+            <div
+              data-plasmic-name={"atSign"}
+              data-plasmic-override={overrides.atSign}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.atSign
+              )}
+            >
+              {"@"}
+            </div>
+
+            <div
+              data-plasmic-name={"userDisplayNameText"}
+              data-plasmic-override={overrides.userDisplayNameText}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.userDisplayNameText
+              )}
+            >
+              {"userDisplayName"}
+            </div>
           </div>
         </p.Stack>
 
-        <div
-          data-plasmic-name={"userDisplayname"}
-          data-plasmic-override={overrides.userDisplayname}
-          className={classNames(defaultcss.all, sty.userDisplayname)}
-        >
-          <div
-            data-plasmic-name={"userDisplayNameText"}
-            data-plasmic-override={overrides.userDisplayNameText}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.userDisplayNameText
-            )}
-          >
-            {"@techronin"}
-          </div>
-        </div>
+        <ChevronDownBIcon
+          data-plasmic-name={"dropDownUserSettingsTrigger"}
+          data-plasmic-override={overrides.dropDownUserSettingsTrigger}
+          className={classNames(
+            defaultcss.all,
+            sty.dropDownUserSettingsTrigger
+          )}
+          role={"img"}
+        />
       </p.Stack>
-
-      <Icon96Icon
-        data-plasmic-name={"dropDownUserSettingsTrigger"}
-        data-plasmic-override={overrides.dropDownUserSettingsTrigger}
-        className={classNames(defaultcss.all, sty.dropDownUserSettingsTrigger)}
-        role={"img"}
-      />
-    </p.Stack>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
   root: [
     "root",
+    "parent",
     "elementUsernameDisplay",
     "elementUserRealNames",
-    "firstnameLastname",
-    "elemenrtLastname",
-    "userDisplayname",
+    "userfirstName",
+    "userLastName",
+    "userDisplaynameParent",
+    "atSign",
+    "userDisplayNameText",
+    "dropDownUserSettingsTrigger"
+  ],
+
+  parent: [
+    "parent",
+    "elementUsernameDisplay",
+    "elementUserRealNames",
+    "userfirstName",
+    "userLastName",
+    "userDisplaynameParent",
+    "atSign",
     "userDisplayNameText",
     "dropDownUserSettingsTrigger"
   ],
@@ -120,21 +158,28 @@ const PlasmicDescendants = {
   elementUsernameDisplay: [
     "elementUsernameDisplay",
     "elementUserRealNames",
-    "firstnameLastname",
-    "elemenrtLastname",
-    "userDisplayname",
+    "userfirstName",
+    "userLastName",
+    "userDisplaynameParent",
+    "atSign",
     "userDisplayNameText"
   ],
 
   elementUserRealNames: [
     "elementUserRealNames",
-    "firstnameLastname",
-    "elemenrtLastname"
+    "userfirstName",
+    "userLastName"
   ],
 
-  firstnameLastname: ["firstnameLastname"],
-  elemenrtLastname: ["elemenrtLastname"],
-  userDisplayname: ["userDisplayname", "userDisplayNameText"],
+  userfirstName: ["userfirstName"],
+  userLastName: ["userLastName"],
+  userDisplaynameParent: [
+    "userDisplaynameParent",
+    "atSign",
+    "userDisplayNameText"
+  ],
+
+  atSign: ["atSign"],
   userDisplayNameText: ["userDisplayNameText"],
   dropDownUserSettingsTrigger: ["dropDownUserSettingsTrigger"]
 };
@@ -170,11 +215,13 @@ export const PlasmicButtonSideBarMemberSettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    parent: makeNodeComponent("parent"),
     elementUsernameDisplay: makeNodeComponent("elementUsernameDisplay"),
     elementUserRealNames: makeNodeComponent("elementUserRealNames"),
-    firstnameLastname: makeNodeComponent("firstnameLastname"),
-    elemenrtLastname: makeNodeComponent("elemenrtLastname"),
-    userDisplayname: makeNodeComponent("userDisplayname"),
+    userfirstName: makeNodeComponent("userfirstName"),
+    userLastName: makeNodeComponent("userLastName"),
+    userDisplaynameParent: makeNodeComponent("userDisplaynameParent"),
+    atSign: makeNodeComponent("atSign"),
     userDisplayNameText: makeNodeComponent("userDisplayNameText"),
     dropDownUserSettingsTrigger: makeNodeComponent(
       "dropDownUserSettingsTrigger"

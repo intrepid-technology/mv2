@@ -24,7 +24,7 @@ import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-impo
 import SectionServiceFeatures from "../../SectionServiceFeatures"; // plasmic-import: Ulc7rzEWW6/component
 import SectionServiceContent from "../../SectionServiceContent"; // plasmic-import: 62pZUpsW52/component
 import Searchbadge from "../../Searchbadge"; // plasmic-import: DreZnHdEQY/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -50,7 +50,7 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -349,10 +349,10 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               <Searchbadge
                 className={classNames("__wab_instance", sty.searchbadge__icJl8)}
               >
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__pz6Zd
+                    sty.chipBadgeDisplay__pz6Zd
                   )}
                   type={"ghost"}
                 >
@@ -365,12 +365,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__eu6JQ
+                    sty.chipBadgeDisplay__eu6JQ
                   )}
                   type={"ghost"}
                 >
@@ -383,12 +383,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__h93Hl
+                    sty.chipBadgeDisplay__h93Hl
                   )}
                   type={"ghost"}
                 >
@@ -401,12 +401,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__y9Mo
+                    sty.chipBadgeDisplay__y9Mo
                   )}
                   type={"ghost"}
                 >
@@ -419,12 +419,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__fenyn
+                    sty.chipBadgeDisplay__fenyn
                   )}
                   type={"ghost"}
                 >
@@ -437,12 +437,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__tsx9I
+                    sty.chipBadgeDisplay__tsx9I
                   )}
                   type={"ghost"}
                 >
@@ -455,7 +455,7 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
               </Searchbadge>
             </p.Stack>
 
@@ -518,10 +518,10 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   sty.searchbadge___0Gt9X
                 )}
               >
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__lmADv
+                    sty.chipBadgeDisplay__lmADv
                   )}
                   type={"ghost"}
                 >
@@ -534,12 +534,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__qZrmk
+                    sty.chipBadgeDisplay__qZrmk
                   )}
                   type={"ghost"}
                 >
@@ -552,12 +552,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__nbmqT
+                    sty.chipBadgeDisplay__nbmqT
                   )}
                   type={"ghost"}
                 >
@@ -570,12 +570,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__ul2Kn
+                    sty.chipBadgeDisplay__ul2Kn
                   )}
                   type={"ghost"}
                 >
@@ -588,12 +588,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay___4OWSg
+                    sty.chipBadgeDisplay___4OWSg
                   )}
                   type={"ghost"}
                 >
@@ -606,12 +606,12 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
 
-                <ChipDisplay
+                <ChipBadgeDisplay
                   className={classNames(
                     "__wab_instance",
-                    sty.chipDisplay__uimjw
+                    sty.chipBadgeDisplay__uimjw
                   )}
                   type={"ghost"}
                 >
@@ -624,7 +624,7 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                   >
                     {"Badge"}
                   </div>
-                </ChipDisplay>
+                </ChipBadgeDisplay>
               </Searchbadge>
             </p.Stack>
 

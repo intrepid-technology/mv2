@@ -63,24 +63,24 @@
   margin-left: 8px;
   margin-top: 8px;
 }
-.chipDisplay__c7GRb:global(.__wab_instance) {
+.chipBadgeDisplay__c7GRb:global(.__wab_instance) {
   position: relative;
 }
 .box__ryVaq {
   text-transform: lowercase;
 }
-.svg__azJrk {
+.svg__uhutF {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__qnI9M {
+.svg__j4Hm3 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__nhVtj {

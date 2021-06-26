@@ -353,6 +353,15 @@
 .box__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
+.radioCheckboxCard__cnO1T:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.radioCheckboxCard__sLNwn:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.radioCheckboxCard__tPpQg:global(.__wab_instance) {
+  flex-shrink: 0;
+}
 .questionFormatBlock {
   display: inline-flex;
   position: absolute;
@@ -399,24 +408,24 @@
   left: auto;
   top: auto;
 }
-.chipDisplay:global(.__wab_instance) {
+.chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
 }
 .box__gkwVx {
   text-transform: lowercase;
 }
-.svg__iOix7 {
+.svg__yq3F9 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__djjeX {
+.svg__vfEz1 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2VpXz {
