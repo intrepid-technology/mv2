@@ -69,7 +69,7 @@
 }
 .slotHeadline {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -77,7 +77,7 @@
 }
 .slotSubHead {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -286,23 +286,23 @@
   > * {
   margin-left: 12px;
 }
-.chipDisplay__vsno1:global(.__wab_instance) {
+.chipBadgeDisplay__vsno1:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.svg__jRxpy {
+.svg__o0O1 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__t1Bpg {
+.svg__epYV {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__bMtyJ {
@@ -344,7 +344,7 @@
 }
 .slotDescription {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -366,9 +366,11 @@
 .buttonPrimary__subDescription_button__t9MyPvZm3B9VcG1:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.svg___6PzL {
-  width: 20px;
-  height: 20px;
+.svg__pK5P {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }

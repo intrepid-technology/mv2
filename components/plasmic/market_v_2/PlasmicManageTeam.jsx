@@ -17,11 +17,11 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import TextFormInput from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/component
+import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import FabButtonA from "../../FabButtonA"; // plasmic-import: o1fXsWwgdW/component
-import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
-import RadioElementA from "../../RadioElementA"; // plasmic-import: 1xw4kmw_5l/component
+import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
+import RadioTextInputPrimary from "../../RadioTextInputPrimary"; // plasmic-import: 1xw4kmw_5l/component
 import FabButtonB from "../../FabButtonB"; // plasmic-import: nkuQ1X_r6B/component
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -50,7 +50,7 @@ function PlasmicManageTeam__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -204,22 +204,11 @@ function PlasmicManageTeam__RenderFunc(props) {
                     sty.inviteMemberHeadlinePrimary
                   )}
                 >
-                  <TextFormInput
+                  <InputTextForm
                     className={classNames(
                       "__wab_instance",
-                      sty.textFormInput__jwAf
+                      sty.inputTextForm__jwAf
                     )}
-                    inputText={
-                      <input
-                        data-plasmic-name={"inputText"}
-                        data-plasmic-override={overrides.inputText}
-                        className={classNames(defaultcss.input, sty.inputText)}
-                        placeholder={"email@example.com"}
-                        size={1}
-                        type={"text"}
-                        value={""}
-                      />
-                    }
                     labelHeadline={
                       <div
                         className={classNames(
@@ -272,22 +261,11 @@ function PlasmicManageTeam__RenderFunc(props) {
                     sty.inviteMemberSecondary
                   )}
                 >
-                  <TextFormInput
+                  <InputTextForm
                     className={classNames(
                       "__wab_instance",
-                      sty.textFormInput___8O2AA
+                      sty.inputTextForm___8O2AA
                     )}
-                    inputText={
-                      <input
-                        data-plasmic-name={"inputText2"}
-                        data-plasmic-override={overrides.inputText2}
-                        className={classNames(defaultcss.input, sty.inputText2)}
-                        placeholder={"email@example.com"}
-                        size={1}
-                        type={"text"}
-                        value={""}
-                      />
-                    }
                     label={"label"}
                     labelHeadline={
                       <div
@@ -371,22 +349,15 @@ function PlasmicManageTeam__RenderFunc(props) {
                     sty.searchFilterDateParent
                   )}
                 >
-                  <SearchbarA
-                    data-plasmic-name={"searchbarA"}
-                    data-plasmic-override={overrides.searchbarA}
-                    className={classNames("__wab_instance", sty.searchbarA)}
+                  <SearchbarPrimary
+                    data-plasmic-name={"searchbarPrimary"}
+                    data-plasmic-override={overrides.searchbarPrimary}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.searchbarPrimary
+                    )}
                     width={"_360"}
-                  >
-                    <input
-                      data-plasmic-name={"textbox"}
-                      data-plasmic-override={overrides.textbox}
-                      className={classNames(defaultcss.input, sty.textbox)}
-                      placeholder={""}
-                      size={1}
-                      type={"text"}
-                      value={"Filter..."}
-                    />
-                  </SearchbarA>
+                  />
 
                   <ButtonFormDropdownSelect
                     className={classNames(
@@ -435,12 +406,12 @@ function PlasmicManageTeam__RenderFunc(props) {
                       sty.tableSelectHeaderRow
                     )}
                   >
-                    <RadioElementA
-                      data-plasmic-name={"radioElementA"}
-                      data-plasmic-override={overrides.radioElementA}
+                    <RadioTextInputPrimary
+                      data-plasmic-name={"radioTextInputPrimary"}
+                      data-plasmic-override={overrides.radioTextInputPrimary}
                       className={classNames(
                         "__wab_instance",
-                        sty.radioElementA
+                        sty.radioTextInputPrimary
                       )}
                       itemText={"Select all"}
                     />
@@ -732,17 +703,14 @@ const PlasmicDescendants = {
     "subheadText",
     "tableAddTeamMemberParent",
     "inviteMemberHeadlinePrimary",
-    "inputText",
     "inviteMemberSecondary",
-    "inputText2",
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -769,17 +737,14 @@ const PlasmicDescendants = {
     "subheadText",
     "tableAddTeamMemberParent",
     "inviteMemberHeadlinePrimary",
-    "inputText",
     "inviteMemberSecondary",
-    "inputText2",
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -805,17 +770,14 @@ const PlasmicDescendants = {
     "subheadText",
     "tableAddTeamMemberParent",
     "inviteMemberHeadlinePrimary",
-    "inputText",
     "inviteMemberSecondary",
-    "inputText2",
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -854,25 +816,20 @@ const PlasmicDescendants = {
   tableAddTeamMemberParent: [
     "tableAddTeamMemberParent",
     "inviteMemberHeadlinePrimary",
-    "inputText",
     "inviteMemberSecondary",
-    "inputText2",
     "fabButtonA"
   ],
 
-  inviteMemberHeadlinePrimary: ["inviteMemberHeadlinePrimary", "inputText"],
-  inputText: ["inputText"],
-  inviteMemberSecondary: ["inviteMemberSecondary", "inputText2"],
-  inputText2: ["inputText2"],
+  inviteMemberHeadlinePrimary: ["inviteMemberHeadlinePrimary"],
+  inviteMemberSecondary: ["inviteMemberSecondary"],
   fabButtonA: ["fabButtonA"],
   tableTeamMemberEditParent: [
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -888,13 +845,12 @@ const PlasmicDescendants = {
     "selectFabParent3"
   ],
 
-  searchFilterDateParent: ["searchFilterDateParent", "searchbarA", "textbox"],
-  searchbarA: ["searchbarA", "textbox"],
-  textbox: ["textbox"],
+  searchFilterDateParent: ["searchFilterDateParent", "searchbarPrimary"],
+  searchbarPrimary: ["searchbarPrimary"],
   tableSelectColumnParent: [
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
-    "radioElementA",
+    "radioTextInputPrimary",
     "memberAdminRow",
     "userAvatarNameEmailParent",
     "userInfoParent",
@@ -910,8 +866,8 @@ const PlasmicDescendants = {
     "selectFabParent3"
   ],
 
-  tableSelectHeaderRow: ["tableSelectHeaderRow", "radioElementA"],
-  radioElementA: ["radioElementA"],
+  tableSelectHeaderRow: ["tableSelectHeaderRow", "radioTextInputPrimary"],
+  radioTextInputPrimary: ["radioTextInputPrimary"],
   memberAdminRow: [
     "memberAdminRow",
     "userAvatarNameEmailParent",
@@ -1009,17 +965,14 @@ export const PlasmicManageTeam = Object.assign(
       "inviteMemberHeadlinePrimary"
     ),
 
-    inputText: makeNodeComponent("inputText"),
     inviteMemberSecondary: makeNodeComponent("inviteMemberSecondary"),
-    inputText2: makeNodeComponent("inputText2"),
     fabButtonA: makeNodeComponent("fabButtonA"),
     tableTeamMemberEditParent: makeNodeComponent("tableTeamMemberEditParent"),
     searchFilterDateParent: makeNodeComponent("searchFilterDateParent"),
-    searchbarA: makeNodeComponent("searchbarA"),
-    textbox: makeNodeComponent("textbox"),
+    searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     tableSelectColumnParent: makeNodeComponent("tableSelectColumnParent"),
     tableSelectHeaderRow: makeNodeComponent("tableSelectHeaderRow"),
-    radioElementA: makeNodeComponent("radioElementA"),
+    radioTextInputPrimary: makeNodeComponent("radioTextInputPrimary"),
     memberAdminRow: makeNodeComponent("memberAdminRow"),
     userAvatarNameEmailParent: makeNodeComponent("userAvatarNameEmailParent"),
     userInfoParent: makeNodeComponent("userInfoParent"),

@@ -175,7 +175,7 @@
 }
 .slotSlot {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
@@ -189,7 +189,7 @@
 }
 .slotSlot__size__180 {
   font-size: 10px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
@@ -197,7 +197,7 @@
 }
 .slotSlot__size__270 {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
@@ -205,7 +205,7 @@
 }
 .slotSlot__size__360 {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;

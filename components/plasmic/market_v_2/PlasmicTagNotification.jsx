@@ -10,6 +10,7 @@
 // Component: -8KQRPGoiM
 import * as React from "react";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -19,7 +20,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTagNotification.module.css"; // plasmic-import: -8KQRPGoiM/css
 
-export const PlasmicTagNotification__VariantProps = new Array();
+export const PlasmicTagNotification__VariantProps = new Array("state");
 
 export const PlasmicTagNotification__ArgProps = new Array();
 
@@ -31,7 +32,11 @@ function PlasmicTagNotification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__state_alert]: hasVariant(variants, "state", "alert"),
+        [sty.root__state_urgent]: hasVariant(variants, "state", "urgent"),
+        [sty.root__state_warning]: hasVariant(variants, "state", "warning")
+      })}
     >
       <div
         data-plasmic-name={"contentParent"}

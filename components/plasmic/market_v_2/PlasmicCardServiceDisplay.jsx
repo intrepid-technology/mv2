@@ -19,10 +19,10 @@ import {
 } from "@plasmicapp/react-web";
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
-import TagVerification from "../../TagVerification"; // plasmic-import: jKGLXJ6-Gl/component
+import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import: jKGLXJ6-Gl/component
 import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
-import TagFilter from "../../TagFilter"; // plasmic-import: C8K8aavuz-/component
+import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -288,10 +288,10 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               )
             })}
           >
-            <TagVerification
-              data-plasmic-name={"tagVerification"}
-              data-plasmic-override={overrides.tagVerification}
-              className={classNames("__wab_instance", sty.tagVerification)}
+            <TagBadgeVerification
+              data-plasmic-name={"tagBadgeVerification"}
+              data-plasmic-override={overrides.tagBadgeVerification}
+              className={classNames("__wab_instance", sty.tagBadgeVerification)}
               size={"_16"}
             />
           </div>
@@ -559,7 +559,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               [sty.boostedParent__boost]: hasVariant(variants, "boost", "boost")
             })}
           >
-            <TagFilter
+            <TagBadge
               data-plasmic-name={"boostedDisplay"}
               data-plasmic-override={overrides.boostedDisplay}
               size={"_16Px"}
@@ -754,7 +754,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "usernameParentLink",
     "isVerification",
-    "tagVerification",
+    "tagBadgeVerification",
     "userMemberLevelParent",
     "tagMemberD",
     "ratingDisplayDetail",
@@ -798,7 +798,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "usernameParentLink",
     "isVerification",
-    "tagVerification",
+    "tagBadgeVerification",
     "userMemberLevelParent",
     "tagMemberD",
     "ratingDisplayDetail",
@@ -812,7 +812,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "usernameParentLink",
     "isVerification",
-    "tagVerification",
+    "tagBadgeVerification",
     "userMemberLevelParent",
     "tagMemberD"
   ],
@@ -820,8 +820,8 @@ const PlasmicDescendants = {
   userAvatarParentLink: ["userAvatarParentLink", "userAvatar"],
   userAvatar: ["userAvatar"],
   usernameParentLink: ["usernameParentLink"],
-  isVerification: ["isVerification", "tagVerification"],
-  tagVerification: ["tagVerification"],
+  isVerification: ["isVerification", "tagBadgeVerification"],
+  tagBadgeVerification: ["tagBadgeVerification"],
   userMemberLevelParent: ["userMemberLevelParent", "tagMemberD"],
   tagMemberD: ["tagMemberD"],
   ratingDisplayDetail: ["ratingDisplayDetail", "reviewLinkA", "reviewLinkB"],
@@ -985,7 +985,7 @@ export const PlasmicCardServiceDisplay = Object.assign(
     userAvatar: makeNodeComponent("userAvatar"),
     usernameParentLink: makeNodeComponent("usernameParentLink"),
     isVerification: makeNodeComponent("isVerification"),
-    tagVerification: makeNodeComponent("tagVerification"),
+    tagBadgeVerification: makeNodeComponent("tagBadgeVerification"),
     userMemberLevelParent: makeNodeComponent("userMemberLevelParent"),
     tagMemberD: makeNodeComponent("tagMemberD"),
     ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),

@@ -22,7 +22,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicConnectedPayouts.module.css"; // plasmic-import: MWF4dfPCn0i/css
-import Icon98Icon from "./icons/PlasmicIcon__Icon98"; // plasmic-import: 5nOWCV9_g/icon
+import StripeLogoIcon from "./icons/PlasmicIcon__StripeLogo"; // plasmic-import: 5nOWCV9_g/icon
 import Icon97Icon from "./icons/PlasmicIcon__Icon97"; // plasmic-import: 6F_oWsQS7s/icon
 
 export const PlasmicConnectedPayouts__VariantProps = new Array(
@@ -104,7 +104,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             hasVariant(variants, "visible", "stripe") ? "Stripe" : "Stripe"
           }
           svgConnectedAccount={
-            <Icon98Icon
+            <StripeLogoIcon
               className={classNames(defaultcss.all, sty.svg__aOhP)}
               role={"img"}
             />

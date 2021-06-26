@@ -1,0 +1,589 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .root {
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 32px);
+    height: calc(100% + 32px);
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+}
+.profileIndustryParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  left: auto;
+  top: auto;
+  width: 360px;
+  padding: 8px 16px;
+}
+.profileIndustryParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.profileIndustryParent > :global(.__wab_flex-container) > *,
+.profileIndustryParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 16px;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileIndustryParent {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: auto;
+    top: auto;
+    width: 360px;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileIndustryParent > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 16px);
+    height: calc(100% + 16px);
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileIndustryParent > :global(.__wab_flex-container) > *,
+  .profileIndustryParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
+.box__ksE53 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+}
+.industry {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  align-self: stretch;
+}
+.textParent6 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.textParent6 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.textParent6 > :global(.__wab_flex-container) > *,
+.textParent6 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay__vzQbI:global(.__wab_instance) {
+  position: relative;
+}
+.svg__mSvFc {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__fuSje {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__xlAeF {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__ff4WU:global(.__wab_instance) {
+  position: relative;
+}
+.svg__wwUfb {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__xyo0Z {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__eSEs {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.profileCategoriesParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  left: auto;
+  top: auto;
+  width: 360px;
+  padding: 8px 16px;
+}
+.profileCategoriesParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.profileCategoriesParent > :global(.__wab_flex-container) > *,
+.profileCategoriesParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 16px;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileCategoriesParent {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: auto;
+    top: auto;
+    width: 100%;
+    min-width: 0;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileCategoriesParent > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 16px);
+    height: calc(100% + 16px);
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileCategoriesParent > :global(.__wab_flex-container) > *,
+  .profileCategoriesParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
+.box__jDrCu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+}
+.categories {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  align-self: stretch;
+}
+.categoryBadgeParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.categoryBadgeParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.categoryBadgeParent > :global(.__wab_flex-container) > *,
+.categoryBadgeParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay__rzCQy:global(.__wab_instance) {
+  position: relative;
+}
+.svg__obFyf {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__qo7Id {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__sbTaL {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__w45GS:global(.__wab_instance) {
+  position: relative;
+}
+.svg__mOkQa {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__hifG {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__uszV {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__aO53O:global(.__wab_instance) {
+  position: relative;
+}
+.svg__fTmDu {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__lGevT {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__tRjSu {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.profileSkillsParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  left: auto;
+  top: auto;
+  width: 360px;
+  padding: 8px 16px;
+}
+.profileSkillsParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.profileSkillsParent > :global(.__wab_flex-container) > *,
+.profileSkillsParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 16px;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileSkillsParent {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    left: auto;
+    top: auto;
+    width: 100%;
+    min-width: 0;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileSkillsParent > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 16px);
+    height: calc(100% + 16px);
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .profileSkillsParent > :global(.__wab_flex-container) > *,
+  .profileSkillsParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
+}
+.skillsTextparent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+}
+.skills {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  align-self: stretch;
+}
+.skillsBadgeParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.skillsBadgeParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.skillsBadgeParent > :global(.__wab_flex-container) > *,
+.skillsBadgeParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay__z9Y7R:global(.__wab_instance) {
+  position: relative;
+}
+.svg___6H7L2 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__oU0Za {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg___67Mfb {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__bYE2:global(.__wab_instance) {
+  position: relative;
+}
+.svg__pzyUt {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__iwcpt {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__a6I2D {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__eoky9:global(.__wab_instance) {
+  position: relative;
+}
+.svg___8Wfdt {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__d9Pb1 {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg___0PY43 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__x2Fau:global(.__wab_instance) {
+  position: relative;
+}
+.svg___48T0E {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__lIfNj {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__rq74J {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.chipBadgeDisplay__hRem2:global(.__wab_instance) {
+  position: relative;
+}
+.svg__ij95E {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__wohDn {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__t6YR4 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}

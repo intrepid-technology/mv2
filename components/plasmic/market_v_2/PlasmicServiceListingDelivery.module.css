@@ -108,7 +108,7 @@
 .box__p8Gw {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -173,7 +173,7 @@
 .box__g7Rsl {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -238,7 +238,7 @@
 .box__by8Qo {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -323,7 +323,7 @@
 .box__py2Sc {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -352,6 +352,15 @@
 .box__ui9Ss > :global(.__wab_flex-container) > *,
 .box__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
+}
+.radioCheckboxCard__cnO1T:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.radioCheckboxCard__sLNwn:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.radioCheckboxCard__tPpQg:global(.__wab_instance) {
+  flex-shrink: 0;
 }
 .questionFormatBlock {
   display: inline-flex;
@@ -384,7 +393,7 @@
 .box__zmCp2 {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -394,29 +403,29 @@
 .box__d40N6 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.searchbadge:global(.__wab_instance) {
+.searchBadge:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.chipDisplay:global(.__wab_instance) {
+.chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
 }
 .box__gkwVx {
   text-transform: lowercase;
 }
-.svg__iOix7 {
+.svg__yq3F9 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__djjeX {
+.svg__vfEz1 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2VpXz {

@@ -113,24 +113,25 @@ function PlasmicNavbarCta__RenderFunc(props) {
                         ? "light"
                         : undefined
                     }
-                  >
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__fu5Me,
-                        {
-                          [sty.box__color__fu5MencUjG]: hasVariant(
-                            variants,
-                            "color",
-                            "color"
-                          )
-                        }
-                      )}
-                    >
-                      {"Design"}
-                    </div>
-                  </NavLink>
+                    linkText={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__fu5Me,
+                          {
+                            [sty.box__color__fu5MencUjG]: hasVariant(
+                              variants,
+                              "color",
+                              "color"
+                            )
+                          }
+                        )}
+                      >
+                        {"Design"}
+                      </div>
+                    }
+                  />
                 ) : null}
                 {false ? (
                   <NavLink
@@ -162,17 +163,18 @@ function PlasmicNavbarCta__RenderFunc(props) {
                         ? "light"
                         : undefined
                     }
-                  >
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__qfmI4
-                      )}
-                    >
-                      {"Mobile"}
-                    </div>
-                  </NavLink>
+                    linkText={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__qfmI4
+                        )}
+                      >
+                        {"Mobile"}
+                      </div>
+                    }
+                  />
                 ) : null}
 
                 <NavLink
@@ -186,17 +188,18 @@ function PlasmicNavbarCta__RenderFunc(props) {
                   color={
                     hasVariant(variants, "color", "color") ? "light" : undefined
                   }
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__rZjHv
-                    )}
-                  >
-                    {"Web"}
-                  </div>
-                </NavLink>
+                  linkText={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__rZjHv
+                      )}
+                    >
+                      {"Web"}
+                    </div>
+                  }
+                />
 
                 <NavLink
                   className={classNames("__wab_instance", sty.navLink___5Pct6, {
@@ -209,24 +212,25 @@ function PlasmicNavbarCta__RenderFunc(props) {
                   color={
                     hasVariant(variants, "color", "color") ? "light" : undefined
                   }
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__pEnZm,
-                      {
-                        [sty.box__color__pEnZMncUjG]: hasVariant(
-                          variants,
-                          "color",
-                          "color"
-                        )
-                      }
-                    )}
-                  >
-                    {"No code"}
-                  </div>
-                </NavLink>
+                  linkText={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__pEnZm,
+                        {
+                          [sty.box__color__pEnZMncUjG]: hasVariant(
+                            variants,
+                            "color",
+                            "color"
+                          )
+                        }
+                      )}
+                    >
+                      {"No code"}
+                    </div>
+                  }
+                />
               </p.Stack>
             ) : null}
           </div>

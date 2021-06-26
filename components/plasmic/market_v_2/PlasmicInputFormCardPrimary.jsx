@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
-import TextFormInput from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/component
+import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/component
 import TextMultiLineA from "../../TextMultiLineA"; // plasmic-import: TS--ged0zI/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -419,43 +419,31 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   ? false
                   : true
               ) ? (
-                <TextFormInput
+                <InputTextForm
                   className={classNames(
                     "__wab_instance",
-                    sty.textFormInput__pjy7,
+                    sty.inputTextForm__pjy7,
                     {
-                      [sty.textFormInput__inputType_companyname__pjy7YQu0E]:
+                      [sty.inputTextForm__inputType_companyname__pjy7YQu0E]:
                         hasVariant(variants, "inputType", "companyname"),
-                      [sty.textFormInput__inputType_displayText__pjy7Ko3Kh]:
+                      [sty.inputTextForm__inputType_displayText__pjy7Ko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.textFormInput__inputType_dropdownDropdown__pjy7L2Zus]:
+                      [sty.inputTextForm__inputType_dropdownDropdown__pjy7L2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.textFormInput__inputType_dropdownText__pjy7HRwL0]:
+                      [sty.inputTextForm__inputType_dropdownText__pjy7HRwL0]:
                         hasVariant(variants, "inputType", "dropdownText"),
-                      [sty.textFormInput__inputType_username__pjy73UQvi]:
+                      [sty.inputTextForm__inputType_username__pjy73UQvi]:
                         hasVariant(variants, "inputType", "username"),
-                      [sty.textFormInput__multiLineText__pjy7RgBtF]: hasVariant(
+                      [sty.inputTextForm__multiLineText__pjy7RgBtF]: hasVariant(
                         variants,
                         "multiLineText",
                         "multiLineText"
                       ),
 
-                      [sty.textFormInput__singleLineText__pjy75VFan]:
+                      [sty.inputTextForm__singleLineText__pjy75VFan]:
                         hasVariant(variants, "singleLineText", "singleLineText")
                     }
                   )}
-                  inputText={
-                    <input
-                      className={classNames(
-                        defaultcss.input,
-                        sty.textbox__b15Tn
-                      )}
-                      placeholder={"Elon"}
-                      size={1}
-                      type={"text"}
-                      value={""}
-                    />
-                  }
                   labelHeadline={"First name"}
                   size={"_270"}
                 />
@@ -477,39 +465,27 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   ? false
                   : true
               ) ? (
-                <TextFormInput
+                <InputTextForm
                   className={classNames(
                     "__wab_instance",
-                    sty.textFormInput__qbxL0,
+                    sty.inputTextForm__qbxL0,
                     {
-                      [sty.textFormInput__inputType_companyname__qbxL0YQu0E]:
+                      [sty.inputTextForm__inputType_companyname__qbxL0YQu0E]:
                         hasVariant(variants, "inputType", "companyname"),
-                      [sty.textFormInput__inputType_displayText__qbxL0Ko3Kh]:
+                      [sty.inputTextForm__inputType_displayText__qbxL0Ko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.textFormInput__inputType_dropdownDropdown__qbxL0L2Zus]:
+                      [sty.inputTextForm__inputType_dropdownDropdown__qbxL0L2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.textFormInput__inputType_dropdownText__qbxL0HRwL0]:
+                      [sty.inputTextForm__inputType_dropdownText__qbxL0HRwL0]:
                         hasVariant(variants, "inputType", "dropdownText"),
-                      [sty.textFormInput__inputType_username__qbxL03UQvi]:
+                      [sty.inputTextForm__inputType_username__qbxL03UQvi]:
                         hasVariant(variants, "inputType", "username"),
-                      [sty.textFormInput__multiLineText__qbxL0RgBtF]:
+                      [sty.inputTextForm__multiLineText__qbxL0RgBtF]:
                         hasVariant(variants, "multiLineText", "multiLineText"),
-                      [sty.textFormInput__singleLineText__qbxL05VFan]:
+                      [sty.inputTextForm__singleLineText__qbxL05VFan]:
                         hasVariant(variants, "singleLineText", "singleLineText")
                     }
                   )}
-                  inputText={
-                    <input
-                      className={classNames(
-                        defaultcss.input,
-                        sty.textbox__iExzA
-                      )}
-                      placeholder={"Musk"}
-                      size={1}
-                      type={"text"}
-                      value={""}
-                    />
-                  }
                   labelHeadline={"Last name"}
                   size={"_270"}
                 />
@@ -539,35 +515,19 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               {(
                 hasVariant(variants, "inputType", "dropdownText") ? true : false
               ) ? (
-                <TextFormInput
+                <InputTextForm
                   className={classNames(
                     "__wab_instance",
-                    sty.textFormInput__x0DYe,
+                    sty.inputTextForm__x0DYe,
                     {
-                      [sty.textFormInput__inputType_displayText__x0DYeko3Kh]:
+                      [sty.inputTextForm__inputType_displayText__x0DYeko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.textFormInput__inputType_dropdownDropdown__x0DYEl2Zus]:
+                      [sty.inputTextForm__inputType_dropdownDropdown__x0DYEl2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.textFormInput__inputType_dropdownText__x0DYEhRwL0]:
+                      [sty.inputTextForm__inputType_dropdownText__x0DYEhRwL0]:
                         hasVariant(variants, "inputType", "dropdownText")
                     }
                   )}
-                  inputText={
-                    <input
-                      className={classNames(
-                        defaultcss.input,
-                        sty.textbox__mjRv6,
-                        {
-                          [sty.textbox__inputType_dropdownText__mjRv6HRwL0]:
-                            hasVariant(variants, "inputType", "dropdownText")
-                        }
-                      )}
-                      placeholder={"enter"}
-                      size={1}
-                      type={"text"}
-                      value={""}
-                    />
-                  }
                   labelHeadline={p.renderPlasmicSlot({
                     defaultContents: hasVariant(
                       variants,

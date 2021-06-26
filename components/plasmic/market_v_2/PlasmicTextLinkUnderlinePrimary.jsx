@@ -36,7 +36,7 @@ export const PlasmicTextLinkUnderlinePrimary__ArgProps = new Array(
 function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <p.PlasmicLink
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -65,13 +65,13 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
         [sty.root__size__32]: hasVariant(variants, "size", "_32"),
         [sty.root__size__40]: hasVariant(variants, "size", "_40")
       })}
-      component={Link}
-      platform={"nextjs"}
     >
-      <div
+      <p.PlasmicLink
         data-plasmic-name={"textLinkcontainer"}
         data-plasmic-override={overrides.textLinkcontainer}
         className={classNames(defaultcss.all, sty.textLinkcontainer)}
+        component={Link}
+        platform={"nextjs"}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Text link",
@@ -130,8 +130,8 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
             [sty.slotChildren__size__8]: hasVariant(variants, "size", "_8")
           })
         })}
-      </div>
-    </p.PlasmicLink>
+      </p.PlasmicLink>
+    </div>
   );
 }
 

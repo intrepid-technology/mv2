@@ -11,10 +11,13 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -27,36 +30,62 @@ export const PlasmicBadgeVerification__ArgProps = new Array();
 
 function PlasmicBadgeVerification__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
-    <p.Stack
-      as={"div"}
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <Icon129Icon
-        data-plasmic-name={"svg"}
-        data-plasmic-override={overrides.svg}
-        className={classNames(defaultcss.all, sty.svg)}
-        role={"img"}
-      />
-
-      <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box)}
-      >
-        {"Verified"}
-      </div>
-    </p.Stack>
+      {(
+        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
+      ) ? (
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"parent"}
+          data-plasmic-override={overrides.parent}
+          hasGap={true}
+          className={classNames(defaultcss.all, sty.parent)}
+        >
+          {(
+            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
+          ) ? (
+            <Icon129Icon
+              data-plasmic-name={"svg"}
+              data-plasmic-override={overrides.svg}
+              className={classNames(defaultcss.all, sty.svg)}
+              role={"img"}
+            />
+          ) : null}
+          {(
+            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
+          ) ? (
+            <div
+              data-plasmic-name={"box"}
+              data-plasmic-override={overrides.box}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box
+              )}
+            >
+              {"Verified"}
+            </div>
+          ) : null}
+        </p.Stack>
+      ) : null}
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "svg", "box"],
+  root: ["root", "parent", "svg", "box"],
+  parent: ["parent", "svg", "box"],
   svg: ["svg"],
   box: ["box"]
 };
@@ -92,6 +121,7 @@ export const PlasmicBadgeVerification = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    parent: makeNodeComponent("parent"),
     svg: makeNodeComponent("svg"),
     box: makeNodeComponent("box"),
     // Metadata about props expected for PlasmicBadgeVerification

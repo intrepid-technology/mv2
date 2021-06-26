@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonPrimary.module.css"; // plasmic-import: koVqNkx_82/css
-import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicButtonPrimary__VariantProps = new Array(
   "type",
@@ -161,6 +161,7 @@ function PlasmicButtonPrimary__RenderFunc(props) {
           [sty.buttonPrimary__type_ghost_state_warning]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "state", "warning"),
+          [sty.buttonPrimary__type_icon]: hasVariant(variants, "type", "icon"),
           [sty.buttonPrimary__type_light]: hasVariant(
             variants,
             "type",
@@ -243,9 +244,27 @@ function PlasmicButtonPrimary__RenderFunc(props) {
             "secondary"
           ),
 
+          [sty.buttonPrimary__type_secondary_color_alert]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "alert"),
+          [sty.buttonPrimary__type_secondary_color_blue]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "blue"),
           [sty.buttonPrimary__type_secondary_color_brand]:
             hasVariant(variants, "type", "secondary") &&
-            hasVariant(variants, "color", "brand")
+            hasVariant(variants, "color", "brand"),
+          [sty.buttonPrimary__type_secondary_color_caution]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "caution"),
+          [sty.buttonPrimary__type_secondary_color_magenta]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.buttonPrimary__type_secondary_color_success]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "success"),
+          [sty.buttonPrimary__type_secondary_color_warning]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "color", "warning")
         }
       )}
     >
@@ -423,16 +442,25 @@ function PlasmicButtonPrimary__RenderFunc(props) {
                 )
               })}
             >
-              {p.renderPlasmicSlot({
-                defaultContents: (
-                  <Icon52Icon
-                    className={classNames(defaultcss.all, sty.svg__kdTyw)}
-                    role={"img"}
-                  />
-                ),
+              {(hasVariant(variants, "type", "icon") ? true : true)
+                ? p.renderPlasmicSlot({
+                    defaultContents: (
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__kdTyw)}
+                        role={"img"}
+                      />
+                    ),
 
-                value: args.svgIcon
-              })}
+                    value: args.svgIcon,
+                    className: classNames(sty.slotSvgIcon, {
+                      [sty.slotSvgIcon__type_icon]: hasVariant(
+                        variants,
+                        "type",
+                        "icon"
+                      )
+                    })
+                  })
+                : null}
             </div>
           ) : null}
           {p.renderPlasmicSlot({
@@ -632,9 +660,27 @@ function PlasmicButtonPrimary__RenderFunc(props) {
                 "secondary"
               ),
 
+              [sty.slotChildren__type_secondary_color_alert]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "alert"),
+              [sty.slotChildren__type_secondary_color_blue]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "blue"),
               [sty.slotChildren__type_secondary_color_brand]:
                 hasVariant(variants, "type", "secondary") &&
-                hasVariant(variants, "color", "brand")
+                hasVariant(variants, "color", "brand"),
+              [sty.slotChildren__type_secondary_color_caution]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "caution"),
+              [sty.slotChildren__type_secondary_color_magenta]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "magenta"),
+              [sty.slotChildren__type_secondary_color_success]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "success"),
+              [sty.slotChildren__type_secondary_color_warning]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "color", "warning")
             })
           })}
         </p.Stack>

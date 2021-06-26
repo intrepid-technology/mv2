@@ -27,7 +27,8 @@ export const PlasmicElementIconListItem__VariantProps = new Array("disabled");
 
 export const PlasmicElementIconListItem__ArgProps = new Array(
   "navText",
-  "navImage"
+  "navIcon",
+  "target"
 );
 
 function PlasmicElementIconListItem__RenderFunc(props) {
@@ -44,11 +45,11 @@ function PlasmicElementIconListItem__RenderFunc(props) {
     >
       <p.Stack
         as={p.PlasmicLink}
-        data-plasmic-name={"sideBarNavCardLink"}
-        data-plasmic-override={overrides.sideBarNavCardLink}
+        data-plasmic-name={"sideBarNavCardLinkParent"}
+        data-plasmic-override={overrides.sideBarNavCardLinkParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.sideBarNavCardLink, {
-          [sty.sideBarNavCardLink__disabled]: hasVariant(
+        className={classNames(defaultcss.all, sty.sideBarNavCardLinkParent, {
+          [sty.sideBarNavCardLinkParent__disabled]: hasVariant(
             variants,
             "disabled",
             "disabled"
@@ -66,15 +67,17 @@ function PlasmicElementIconListItem__RenderFunc(props) {
         >
           {p.renderPlasmicSlot({
             defaultContents: (
-              <OptionalFixedBrandColorIcon
-                className={classNames(defaultcss.all, sty.svg__wfdfm)}
-                role={"img"}
-              />
+              <div className={classNames(defaultcss.all, sty.box__h0S1)}>
+                <OptionalFixedBrandColorIcon
+                  className={classNames(defaultcss.all, sty.svg__wfdfm)}
+                  role={"img"}
+                />
+              </div>
             ),
 
-            value: args.navImage,
-            className: classNames(sty.slotNavImage, {
-              [sty.slotNavImage__disabled]: hasVariant(
+            value: args.navIcon,
+            className: classNames(sty.slotNavIcon, {
+              [sty.slotNavIcon__disabled]: hasVariant(
                 variants,
                 "disabled",
                 "disabled"
@@ -106,8 +109,13 @@ function PlasmicElementIconListItem__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "sideBarNavCardLink", "iconTextParent", "navTextParent"],
-  sideBarNavCardLink: ["sideBarNavCardLink", "iconTextParent", "navTextParent"],
+  root: ["root", "sideBarNavCardLinkParent", "iconTextParent", "navTextParent"],
+  sideBarNavCardLinkParent: [
+    "sideBarNavCardLinkParent",
+    "iconTextParent",
+    "navTextParent"
+  ],
+
   iconTextParent: ["iconTextParent", "navTextParent"],
   navTextParent: ["navTextParent"]
 };
@@ -143,7 +151,7 @@ export const PlasmicElementIconListItem = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    sideBarNavCardLink: makeNodeComponent("sideBarNavCardLink"),
+    sideBarNavCardLinkParent: makeNodeComponent("sideBarNavCardLinkParent"),
     iconTextParent: makeNodeComponent("iconTextParent"),
     navTextParent: makeNodeComponent("navTextParent"),
     // Metadata about props expected for PlasmicElementIconListItem

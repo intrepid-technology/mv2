@@ -16,7 +16,7 @@
   left: auto;
   top: auto;
   flex-shrink: 0;
-  padding: 8px;
+  padding: 6px;
   background: #ffffff;
   border: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
@@ -34,6 +34,9 @@
 .cardParent__border {
   border-style: none;
 }
+.cardParent__size__360 {
+  padding: 6px;
+}
 .cardParent__size__360 > :global(.__wab_flex-container) {
   align-items: flex-start;
 }
@@ -43,13 +46,13 @@
   display: flex;
   flex-direction: row;
   flex-shrink: 0;
-  padding: 8px;
+  padding: 6px;
 }
 .cardParent__size__160 > :global(.__wab_flex-container) {
   align-items: flex-start;
   flex-direction: row;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
@@ -58,7 +61,7 @@
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > * {
-  margin-left: 8px;
+  margin-left: 12px;
   margin-top: 0px;
 }
 .iconParent {
@@ -67,14 +70,19 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
 .box__mdvci {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
   border-radius: 100px;
   padding: 2px;
   background: #ebebeb repeat;
@@ -84,9 +92,10 @@
 .svg___8Asoz {
   object-fit: cover;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
-  width: 1em;
-  height: 1em;
-  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
 }
 .headlineBodyTextParent {
   display: flex;
@@ -159,7 +168,7 @@
 }
 .slotHeadline {
   font-size: 16px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   letter-spacing: normal;
   line-height: 1.4;
@@ -168,7 +177,7 @@
 }
 .slotHeadline__size__160 {
   font-size: 12px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.2;
@@ -185,7 +194,7 @@
 }
 .slotText {
   font-size: 12px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -193,7 +202,7 @@
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
   .slotText {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
   }
 }
 .slotText__size__160 {

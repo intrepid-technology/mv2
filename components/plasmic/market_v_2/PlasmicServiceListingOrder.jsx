@@ -26,7 +26,7 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import ServiceProcessCard from "../../ServiceProcessCard"; // plasmic-import: VPPN2nrcs6/component
 import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3bX/component
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import CheckoutServiceListing from "../../CheckoutServiceListing"; // plasmic-import: UHEuX3OG9AY/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -55,7 +55,7 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -872,10 +872,10 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(defaultcss.all, sty.box__sPEn)}
                       >
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__c9Fb1
+                            sty.chipBadgeDisplay__c9Fb1
                           )}
                           type={"ghost"}
                         >
@@ -888,12 +888,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Badge"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__xuEes
+                            sty.chipBadgeDisplay__xuEes
                           )}
                           type={"ghost"}
                         >
@@ -906,12 +906,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Design system"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__kKztv
+                            sty.chipBadgeDisplay__kKztv
                           )}
                           type={"ghost"}
                         >
@@ -924,12 +924,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Mobile app"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__puJk
+                            sty.chipBadgeDisplay__puJk
                           )}
                           type={"ghost"}
                         >
@@ -942,12 +942,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Web app"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay___4TQRk
+                            sty.chipBadgeDisplay___4TQRk
                           )}
                           type={"ghost"}
                         >
@@ -960,7 +960,7 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"E-commerce"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
                         <div
                           className={classNames(defaultcss.all, sty.box__zqhit)}
@@ -1013,10 +1013,10 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(defaultcss.all, sty.box__esvWn)}
                       >
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__uJxLr
+                            sty.chipBadgeDisplay__uJxLr
                           )}
                           type={"ghost"}
                         >
@@ -1029,12 +1029,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Badge"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay___5BjZa
+                            sty.chipBadgeDisplay___5BjZa
                           )}
                           type={"ghost"}
                         >
@@ -1047,12 +1047,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Design system"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__a3P8S
+                            sty.chipBadgeDisplay__a3P8S
                           )}
                           type={"ghost"}
                         >
@@ -1065,12 +1065,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Mobile app"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay___4Qxjk
+                            sty.chipBadgeDisplay___4Qxjk
                           )}
                           type={"ghost"}
                         >
@@ -1083,12 +1083,12 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"Web app"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
-                        <ChipDisplay
+                        <ChipBadgeDisplay
                           className={classNames(
                             "__wab_instance",
-                            sty.chipDisplay__xIvqk
+                            sty.chipBadgeDisplay__xIvqk
                           )}
                           type={"ghost"}
                         >
@@ -1101,7 +1101,7 @@ function PlasmicServiceListingOrder__RenderFunc(props) {
                           >
                             {"E-commerce"}
                           </div>
-                        </ChipDisplay>
+                        </ChipBadgeDisplay>
 
                         <div
                           className={classNames(

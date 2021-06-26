@@ -6,14 +6,14 @@
   position: relative;
   width: auto;
 }
-.root__size__540 {
-  width: 540px;
+.root__size__180 {
+  width: 180px;
 }
 .root__size__270 {
   width: 270px;
 }
-.root__size__180 {
-  width: 180px;
+.root__size__540 {
+  width: 540px;
 }
 .inputTextParent {
   display: flex;
@@ -21,27 +21,31 @@
   flex-direction: column;
   align-items: baseline;
   justify-content: flex-start;
-  height: auto;
+  height: 32px;
   width: 360px;
+  flex-shrink: 0;
 }
-.inputTextParent__size__540 {
-  width: 540px;
-}
-.inputTextParent__size__270 {
-  width: 270px;
+.inputTextParent__size__160 {
+  width: 160px;
 }
 .inputTextParent__size__180 {
   width: 180px;
 }
+.inputTextParent__size__270 {
+  width: 270px;
+}
+.inputTextParent__size__540 {
+  width: 540px;
+}
 .textbox {
   display: block;
   font-size: 16px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
-  line-height: 1.7;
+  line-height: 1;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
-  align-self: stretch;
+  align-self: flex-start;
   position: relative;
   text-transform: none;
   width: 100%;
@@ -49,24 +53,34 @@
   border-top-width: 1px;
   border-right-style: none;
   border-right-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
   border-left-style: none;
   border-left-width: 1px;
+  height: 100%;
+  padding-bottom: 0px;
   min-width: 0;
+  min-height: 0;
   background: #f8f8f8;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.textbox__type_secondary {
+  background: #ffffff;
 }
 .textbox__size__540 {
   width: 100%;
   min-width: 0;
 }
-.root .textbox:hover {
-  border-bottom-color: #cccccc /* plasmic-token: oEMOojyFv */;
-  left: auto;
-  top: auto;
+.root:hover .textbox {
+  border-right-style: none;
+  border-top-style: none;
+  border-left-style: none;
+  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
 }
-.root .textbox:focus {
+.root:focus-within .textbox {
   border-bottom-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  left: auto;
-  top: auto;
+  outline: none;
+}
+.root__type_secondary:focus-within .textbox__type_secondary {
   outline: none;
 }

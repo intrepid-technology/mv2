@@ -8,40 +8,46 @@
   position: relative;
   min-width: 0;
 }
-.sideBarNavCardLink {
+.sideBarNavCardLinkParent {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
-  padding: 2px 0px 2px 6px;
+  padding: 4px 8px 4px 6px;
   background: #ffffff;
 }
-.sideBarNavCardLink > :global(.__wab_flex-container) {
+.sideBarNavCardLinkParent > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.sideBarNavCardLink > :global(.__wab_flex-container) > *,
-.sideBarNavCardLink
+.sideBarNavCardLinkParent > :global(.__wab_flex-container) > *,
+.sideBarNavCardLinkParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > * {
   margin-left: 8px;
 }
-.root:hover .sideBarNavCardLink {
-  background: #ebebeb;
+.root:hover .sideBarNavCardLinkParent {
+  background: #ffffff repeat;
 }
-.root__disabled:hover .sideBarNavCardLink__disabled {
+.root__disabled:hover .sideBarNavCardLinkParent__disabled {
   background: #ffffff;
 }
 .iconTextParent {
   display: flex;
   position: relative;
   flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding-left: 2px;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 64px 16px 16px 64px;
 }
 .iconTextParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -54,39 +60,56 @@
 .iconTextParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 8px;
 }
-.slotNavImage {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+.root:hover .iconTextParent {
+  background: #f8f8f8 repeat;
 }
-.slotNavImage__disabled {
+.slotNavIcon {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  font-size: 16px;
+  line-height: 1;
+}
+.slotNavIcon__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.root:hover .slotNavImage {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+.root:hover .slotNavIcon {
+  color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.root__disabled:hover .slotNavImage__disabled {
+.root__disabled:hover .slotNavIcon__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.svg__wfdfm {
-  position: relative;
-  object-fit: cover;
-  width: 1em;
-  flex-shrink: 0;
-  height: 1em;
-}
-.navTextParent {
+.box__h0S1 {
   display: inline-flex;
   position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
   width: auto;
+  height: auto;
+}
+.svg__wfdfm {
+  object-fit: cover;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.navTextParent {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
 }
 .slotNavText {
   font-size: 14px;
   line-height: 1;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 .slotNavText__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
 .root:hover .slotNavText {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__disabled:hover .slotNavText__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;

@@ -62,7 +62,8 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
         className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+          [sty.root__size__270]: hasVariant(variants, "size", "_270")
         })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
@@ -90,6 +91,9 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
             [sty.trigger__size__120]: hasVariant(variants, "size", "_120"),
             [sty.trigger__size__144]: hasVariant(variants, "size", "_144"),
             [sty.trigger__size__160]: hasVariant(variants, "size", "_160"),
+            [sty.trigger__size__180]: hasVariant(variants, "size", "_180"),
+            [sty.trigger__size__270]: hasVariant(variants, "size", "_270"),
+            [sty.trigger__size__360]: hasVariant(variants, "size", "_360"),
             [sty.trigger__size__90]: hasVariant(variants, "size", "_90")
           })}
           disabled={

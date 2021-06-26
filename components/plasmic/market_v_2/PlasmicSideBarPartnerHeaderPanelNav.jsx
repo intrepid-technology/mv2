@@ -17,14 +17,12 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarSwitch from "../../NavbarSwitch"; // plasmic-import: tmc24NnB44/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
-import TagVerification from "../../TagVerification"; // plasmic-import: jKGLXJ6-Gl/component
-import TagNotification from "../../TagNotification"; // plasmic-import: -8KQRPGoiM/component
+import ButtonSideBarPartnerSettings from "../../ButtonSideBarPartnerSettings"; // plasmic-import: AS7ILA_RiJ/component
+import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSideBarPartnerHeaderPanelNav.module.css"; // plasmic-import: yNsN5_wXEjo/css
-import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
-import Icon128Icon from "./icons/PlasmicIcon__Icon128"; // plasmic-import: -wtyh5Dq6i/icon
 
 export const PlasmicSideBarPartnerHeaderPanelNav__VariantProps = new Array();
 
@@ -42,39 +40,37 @@ function PlasmicSideBarPartnerHeaderPanelNav__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
-        data-plasmic-name={"sidebarHeader2"}
-        data-plasmic-override={overrides.sidebarHeader2}
+        data-plasmic-name={"elementPartnerSidebarHeader"}
+        data-plasmic-override={overrides.elementPartnerSidebarHeader}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.sidebarHeader2)}
+        className={classNames(defaultcss.all, sty.elementPartnerSidebarHeader)}
       >
+        <NavbarSwitch
+          data-plasmic-name={"navbarSwitch"}
+          data-plasmic-override={overrides.navbarSwitch}
+          className={classNames("__wab_instance", sty.navbarSwitch)}
+        />
+
         <p.Stack
           as={"div"}
-          data-plasmic-name={"avatarUsernameDisplaynameParent2"}
-          data-plasmic-override={overrides.avatarUsernameDisplaynameParent2}
+          data-plasmic-name={"avatarPartnerUsernameDisplayNameParent"}
+          data-plasmic-override={
+            overrides.avatarPartnerUsernameDisplayNameParent
+          }
           hasGap={true}
           className={classNames(
             defaultcss.all,
-            sty.avatarUsernameDisplaynameParent2
+            sty.avatarPartnerUsernameDisplayNameParent
           )}
         >
-          <NavbarSwitch
-            data-plasmic-name={"navbarSwitch"}
-            data-plasmic-override={overrides.navbarSwitch}
-            className={classNames("__wab_instance", sty.navbarSwitch)}
-          />
-
           <div
-            data-plasmic-name={"userAvatarVerificationBadge2"}
-            data-plasmic-override={overrides.userAvatarVerificationBadge2}
-            className={classNames(
-              defaultcss.all,
-              sty.userAvatarVerificationBadge2
-            )}
+            data-plasmic-name={"partnerAvatarParent"}
+            data-plasmic-override={overrides.partnerAvatarParent}
+            className={classNames(defaultcss.all, sty.partnerAvatarParent)}
           >
             <UserAvatar
               data-plasmic-name={"userAvatar"}
               data-plasmic-override={overrides.userAvatar}
-              _switch={"_switch"}
               navUserAvatar16={
                 <img
                   data-plasmic-name={"navUserAvatar1822"}
@@ -95,125 +91,29 @@ function PlasmicSideBarPartnerHeaderPanelNav__RenderFunc(props) {
                   src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
                 />
               }
-              navUserAvatar32={
-                <img
-                  data-plasmic-name={"navUserAvatar3222"}
-                  data-plasmic-override={overrides.navUserAvatar3222}
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.navUserAvatar3222)}
-                  role={"img"}
-                  src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
-                />
-              }
               size={"_32"}
+              verified={"verified"}
             />
-
-            <div
-              data-plasmic-name={"box"}
-              data-plasmic-override={overrides.box}
-              className={classNames(defaultcss.all, sty.box)}
-            >
-              <TagVerification
-                data-plasmic-name={"tagVerification"}
-                data-plasmic-override={overrides.tagVerification}
-                className={classNames("__wab_instance", sty.tagVerification)}
-              />
-            </div>
           </div>
 
-          <p.Stack
-            as={"button"}
+          <ButtonSideBarPartnerSettings
             data-plasmic-name={"buttonSideBarPartnerSettings"}
             data-plasmic-override={overrides.buttonSideBarPartnerSettings}
-            hasGap={true}
             className={classNames(
-              defaultcss.button,
+              "__wab_instance",
               sty.buttonSideBarPartnerSettings
             )}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"usernameProfilename2"}
-              data-plasmic-override={overrides.usernameProfilename2}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.usernameProfilename2)}
-            >
-              <div
-                data-plasmic-name={"campanyNameParent"}
-                data-plasmic-override={overrides.campanyNameParent}
-                className={classNames(defaultcss.all, sty.campanyNameParent)}
-              >
-                <div
-                  data-plasmic-name={"companyNameText"}
-                  data-plasmic-override={overrides.companyNameText}
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.companyNameText
-                  )}
-                >
-                  {"Intrepid Technology"}
-                </div>
-              </div>
+            trigger={"side-barUserSettingsDropdown"}
+          />
 
-              <div
-                data-plasmic-name={"userDisplayname2"}
-                data-plasmic-override={overrides.userDisplayname2}
-                className={classNames(defaultcss.all, sty.userDisplayname2)}
-              >
-                <div
-                  data-plasmic-name={"companyNameDisplay"}
-                  data-plasmic-override={overrides.companyNameDisplay}
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.companyNameDisplay
-                  )}
-                >
-                  {"@intrepidtechnology"}
-                </div>
-              </div>
-            </p.Stack>
-
-            <Icon96Icon
-              data-plasmic-name={"dropDownUserSettingsTrigger"}
-              data-plasmic-override={overrides.dropDownUserSettingsTrigger}
-              className={classNames(
-                defaultcss.all,
-                sty.dropDownUserSettingsTrigger
-              )}
-              role={"img"}
-            />
-
-            <button
-              data-plasmic-name={"elementSidebarHeaderNotification"}
-              data-plasmic-override={overrides.elementSidebarHeaderNotification}
-              className={classNames(
-                defaultcss.button,
-                sty.elementSidebarHeaderNotification
-              )}
-            >
-              <Icon128Icon
-                data-plasmic-name={"svg"}
-                data-plasmic-override={overrides.svg}
-                className={classNames(defaultcss.all, sty.svg)}
-                role={"img"}
-              />
-
-              <TagNotification
-                data-plasmic-name={
-                  "elementSidebarHeadlineNotificationIndicator"
-                }
-                data-plasmic-override={
-                  overrides.elementSidebarHeadlineNotificationIndicator
-                }
-                className={classNames(
-                  "__wab_instance",
-                  sty.elementSidebarHeadlineNotificationIndicator
-                )}
-              />
-            </button>
-          </p.Stack>
+          <ButtonIconNotificationBell
+            data-plasmic-name={"buttonIconNotificationBell"}
+            data-plasmic-override={overrides.buttonIconNotificationBell}
+            className={classNames(
+              "__wab_instance",
+              sty.buttonIconNotificationBell
+            )}
+          />
         </p.Stack>
       </p.Stack>
     </div>
@@ -223,132 +123,52 @@ function PlasmicSideBarPartnerHeaderPanelNav__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "sidebarHeader2",
-    "avatarUsernameDisplaynameParent2",
+    "elementPartnerSidebarHeader",
     "navbarSwitch",
-    "userAvatarVerificationBadge2",
+    "avatarPartnerUsernameDisplayNameParent",
+    "partnerAvatarParent",
     "userAvatar",
     "navUserAvatar1822",
     "navUserAvatar2422",
-    "navUserAvatar3222",
-    "box",
-    "tagVerification",
     "buttonSideBarPartnerSettings",
-    "usernameProfilename2",
-    "campanyNameParent",
-    "companyNameText",
-    "userDisplayname2",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger",
-    "elementSidebarHeaderNotification",
-    "svg",
-    "elementSidebarHeadlineNotificationIndicator"
+    "buttonIconNotificationBell"
   ],
 
-  sidebarHeader2: [
-    "sidebarHeader2",
-    "avatarUsernameDisplaynameParent2",
+  elementPartnerSidebarHeader: [
+    "elementPartnerSidebarHeader",
     "navbarSwitch",
-    "userAvatarVerificationBadge2",
+    "avatarPartnerUsernameDisplayNameParent",
+    "partnerAvatarParent",
     "userAvatar",
     "navUserAvatar1822",
     "navUserAvatar2422",
-    "navUserAvatar3222",
-    "box",
-    "tagVerification",
     "buttonSideBarPartnerSettings",
-    "usernameProfilename2",
-    "campanyNameParent",
-    "companyNameText",
-    "userDisplayname2",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger",
-    "elementSidebarHeaderNotification",
-    "svg",
-    "elementSidebarHeadlineNotificationIndicator"
-  ],
-
-  avatarUsernameDisplaynameParent2: [
-    "avatarUsernameDisplaynameParent2",
-    "navbarSwitch",
-    "userAvatarVerificationBadge2",
-    "userAvatar",
-    "navUserAvatar1822",
-    "navUserAvatar2422",
-    "navUserAvatar3222",
-    "box",
-    "tagVerification",
-    "buttonSideBarPartnerSettings",
-    "usernameProfilename2",
-    "campanyNameParent",
-    "companyNameText",
-    "userDisplayname2",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger",
-    "elementSidebarHeaderNotification",
-    "svg",
-    "elementSidebarHeadlineNotificationIndicator"
+    "buttonIconNotificationBell"
   ],
 
   navbarSwitch: ["navbarSwitch"],
-  userAvatarVerificationBadge2: [
-    "userAvatarVerificationBadge2",
+  avatarPartnerUsernameDisplayNameParent: [
+    "avatarPartnerUsernameDisplayNameParent",
+    "partnerAvatarParent",
     "userAvatar",
     "navUserAvatar1822",
     "navUserAvatar2422",
-    "navUserAvatar3222",
-    "box",
-    "tagVerification"
+    "buttonSideBarPartnerSettings",
+    "buttonIconNotificationBell"
   ],
 
-  userAvatar: [
+  partnerAvatarParent: [
+    "partnerAvatarParent",
     "userAvatar",
     "navUserAvatar1822",
-    "navUserAvatar2422",
-    "navUserAvatar3222"
+    "navUserAvatar2422"
   ],
 
+  userAvatar: ["userAvatar", "navUserAvatar1822", "navUserAvatar2422"],
   navUserAvatar1822: ["navUserAvatar1822"],
   navUserAvatar2422: ["navUserAvatar2422"],
-  navUserAvatar3222: ["navUserAvatar3222"],
-  box: ["box", "tagVerification"],
-  tagVerification: ["tagVerification"],
-  buttonSideBarPartnerSettings: [
-    "buttonSideBarPartnerSettings",
-    "usernameProfilename2",
-    "campanyNameParent",
-    "companyNameText",
-    "userDisplayname2",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger",
-    "elementSidebarHeaderNotification",
-    "svg",
-    "elementSidebarHeadlineNotificationIndicator"
-  ],
-
-  usernameProfilename2: [
-    "usernameProfilename2",
-    "campanyNameParent",
-    "companyNameText",
-    "userDisplayname2",
-    "companyNameDisplay"
-  ],
-
-  campanyNameParent: ["campanyNameParent", "companyNameText"],
-  companyNameText: ["companyNameText"],
-  userDisplayname2: ["userDisplayname2", "companyNameDisplay"],
-  companyNameDisplay: ["companyNameDisplay"],
-  dropDownUserSettingsTrigger: ["dropDownUserSettingsTrigger"],
-  elementSidebarHeaderNotification: [
-    "elementSidebarHeaderNotification",
-    "svg",
-    "elementSidebarHeadlineNotificationIndicator"
-  ],
-
-  svg: ["svg"],
-  elementSidebarHeadlineNotificationIndicator: [
-    "elementSidebarHeadlineNotificationIndicator"
-  ]
+  buttonSideBarPartnerSettings: ["buttonSideBarPartnerSettings"],
+  buttonIconNotificationBell: ["buttonIconNotificationBell"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -383,44 +203,24 @@ export const PlasmicSideBarPartnerHeaderPanelNav = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    sidebarHeader2: makeNodeComponent("sidebarHeader2"),
-    avatarUsernameDisplaynameParent2: makeNodeComponent(
-      "avatarUsernameDisplaynameParent2"
+    elementPartnerSidebarHeader: makeNodeComponent(
+      "elementPartnerSidebarHeader"
     ),
 
     navbarSwitch: makeNodeComponent("navbarSwitch"),
-    userAvatarVerificationBadge2: makeNodeComponent(
-      "userAvatarVerificationBadge2"
+    avatarPartnerUsernameDisplayNameParent: makeNodeComponent(
+      "avatarPartnerUsernameDisplayNameParent"
     ),
 
+    partnerAvatarParent: makeNodeComponent("partnerAvatarParent"),
     userAvatar: makeNodeComponent("userAvatar"),
     navUserAvatar1822: makeNodeComponent("navUserAvatar1822"),
     navUserAvatar2422: makeNodeComponent("navUserAvatar2422"),
-    navUserAvatar3222: makeNodeComponent("navUserAvatar3222"),
-    box: makeNodeComponent("box"),
-    tagVerification: makeNodeComponent("tagVerification"),
     buttonSideBarPartnerSettings: makeNodeComponent(
       "buttonSideBarPartnerSettings"
     ),
 
-    usernameProfilename2: makeNodeComponent("usernameProfilename2"),
-    campanyNameParent: makeNodeComponent("campanyNameParent"),
-    companyNameText: makeNodeComponent("companyNameText"),
-    userDisplayname2: makeNodeComponent("userDisplayname2"),
-    companyNameDisplay: makeNodeComponent("companyNameDisplay"),
-    dropDownUserSettingsTrigger: makeNodeComponent(
-      "dropDownUserSettingsTrigger"
-    ),
-
-    elementSidebarHeaderNotification: makeNodeComponent(
-      "elementSidebarHeaderNotification"
-    ),
-
-    svg: makeNodeComponent("svg"),
-    elementSidebarHeadlineNotificationIndicator: makeNodeComponent(
-      "elementSidebarHeadlineNotificationIndicator"
-    ),
-
+    buttonIconNotificationBell: makeNodeComponent("buttonIconNotificationBell"),
     // Metadata about props expected for PlasmicSideBarPartnerHeaderPanelNav
     internalVariantProps: PlasmicSideBarPartnerHeaderPanelNav__VariantProps,
     internalArgProps: PlasmicSideBarPartnerHeaderPanelNav__ArgProps

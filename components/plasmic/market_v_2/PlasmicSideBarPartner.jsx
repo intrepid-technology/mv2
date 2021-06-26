@@ -18,9 +18,6 @@ import {
 import SideBarPartnerHeaderPanelNav from "../../SideBarPartnerHeaderPanelNav"; // plasmic-import: yNsN5_wXEjo/component
 import SideBarButtonHeader from "../../SideBarButtonHeader"; // plasmic-import: l8x-1W9kbZ/component
 import SideBarCommunityStats from "../../SideBarCommunityStats"; // plasmic-import: JsYhtV8o3HC/component
-import BadgeCommunityRating from "../../BadgeCommunityRating"; // plasmic-import: 0Y8M1lpCIf/component
-import BadgeVerification from "../../BadgeVerification"; // plasmic-import: _M5uzrbjQp/component
-import TagPartnerB from "../../TagPartnerB"; // plasmic-import: X-GLY42uIL/component
 import SideBarListingStats from "../../SideBarListingStats"; // plasmic-import: mNo76Uc_Jdn/component
 import ElementSideBarPartnerMarketPanel from "../../ElementSideBarPartnerMarketPanel"; // plasmic-import: i3ai6jIm4VK/component
 import ElementSideBarPartnerProfilePanel from "../../ElementSideBarPartnerProfilePanel"; // plasmic-import: ESb2G2fq56P/component
@@ -72,28 +69,7 @@ function PlasmicSideBarPartner__RenderFunc(props) {
         data-plasmic-name={"sideBarCommunityStats"}
         data-plasmic-override={overrides.sideBarCommunityStats}
         className={classNames("__wab_instance", sty.sideBarCommunityStats)}
-        elementUserbadges={
-          <React.Fragment>
-            <BadgeCommunityRating
-              data-plasmic-name={"badgeCommunityRating"}
-              data-plasmic-override={overrides.badgeCommunityRating}
-              className={classNames("__wab_instance", sty.badgeCommunityRating)}
-            />
-
-            <BadgeVerification
-              data-plasmic-name={"badgeVerification"}
-              data-plasmic-override={overrides.badgeVerification}
-              className={classNames("__wab_instance", sty.badgeVerification)}
-            />
-          </React.Fragment>
-        }
-        userTag={
-          <TagPartnerB
-            data-plasmic-name={"tagPartnerB"}
-            data-plasmic-override={overrides.tagPartnerB}
-            className={classNames("__wab_instance", sty.tagPartnerB)}
-          />
-        }
+        user={"partner"}
       />
 
       <SideBarListingStats
@@ -145,9 +121,6 @@ const PlasmicDescendants = {
     "sideBarPartnerHeaderPanelNav",
     "sideBarButtonHeader",
     "sideBarCommunityStats",
-    "badgeCommunityRating",
-    "badgeVerification",
-    "tagPartnerB",
     "sideBarListingStats",
     "elementSideBarPartnerMarketPanel",
     "elementSideBarPartnerProfilePanel",
@@ -163,16 +136,7 @@ const PlasmicDescendants = {
 
   sideBarPartnerHeaderPanelNav: ["sideBarPartnerHeaderPanelNav"],
   sideBarButtonHeader: ["sideBarButtonHeader"],
-  sideBarCommunityStats: [
-    "sideBarCommunityStats",
-    "badgeCommunityRating",
-    "badgeVerification",
-    "tagPartnerB"
-  ],
-
-  badgeCommunityRating: ["badgeCommunityRating"],
-  badgeVerification: ["badgeVerification"],
-  tagPartnerB: ["tagPartnerB"],
+  sideBarCommunityStats: ["sideBarCommunityStats"],
   sideBarListingStats: ["sideBarListingStats"],
   elementSideBarPartnerMarketPanel: ["elementSideBarPartnerMarketPanel"],
   elementSideBarPartnerProfilePanel: ["elementSideBarPartnerProfilePanel"],
@@ -218,9 +182,6 @@ export const PlasmicSideBarPartner = Object.assign(
 
     sideBarButtonHeader: makeNodeComponent("sideBarButtonHeader"),
     sideBarCommunityStats: makeNodeComponent("sideBarCommunityStats"),
-    badgeCommunityRating: makeNodeComponent("badgeCommunityRating"),
-    badgeVerification: makeNodeComponent("badgeVerification"),
-    tagPartnerB: makeNodeComponent("tagPartnerB"),
     sideBarListingStats: makeNodeComponent("sideBarListingStats"),
     elementSideBarPartnerMarketPanel: makeNodeComponent(
       "elementSideBarPartnerMarketPanel"

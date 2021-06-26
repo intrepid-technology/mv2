@@ -4,8 +4,8 @@
   height: 90px;
   flex-direction: row;
   position: relative;
-  border-radius: 64px 6px 6px 64px;
-  padding: 4px;
+  border-radius: 4px;
+  padding: 8px 16px;
   background: #ffffff;
   border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
@@ -39,7 +39,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__eeuEi {
+.img__onbM1 {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -50,7 +50,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__dz5Je {
+.img__yROw {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -61,7 +61,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__ubi8C {
+.img__hjr1Q {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -72,7 +72,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__kiaHn {
+.img___3E8IM {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -83,7 +83,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img___5XOwO {
+.img__aOzay {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -94,7 +94,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img___7Jq4D {
+.img___9XxAd {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -105,7 +105,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__cyPm8 {
+.img___0Zb1 {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -116,7 +116,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__tosF7 {
+.img__bYrH {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -127,7 +127,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__umqNe {
+.img__ofJht {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -149,7 +149,7 @@
   border-width: 0px;
   border-style: none;
 }
-.img__ogSb8 {
+.img__lqsUc {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -172,12 +172,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: calc(0px - 6px);
-  height: calc(100% + 6px);
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
 }
 .userInfoParent > :global(.__wab_flex-container) > *,
 .userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 .box__m4FAi {
   display: flex;
@@ -223,19 +223,15 @@
 .box__nbdg7 {
   display: block;
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.tagVerification:global(.__wab_instance) {
+.tagBadgeVerification:global(.__wab_instance) {
   position: relative;
-  flex-shrink: 0;
-}
-.tagVerification__attributes_verification:global(.__wab_instance) {
-  flex-shrink: 0;
 }
 .verificationCityParent {
   display: inline-flex;
@@ -389,6 +385,9 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
+.root .viewDisplay:hover {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
 .viewNumberValueParent {
   display: inline-flex;
   position: relative;
@@ -444,6 +443,9 @@
   height: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
+}
+.root .heartDisplay:hover {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
 .heartNumberValueParent {
   display: inline-flex;
@@ -504,6 +506,9 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
+.root .bookmarkDisplay:hover {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
 .bookmarkNumberValueParent {
   display: inline-flex;
   position: relative;
@@ -555,7 +560,7 @@
 .box__fPbL6 {
   display: block;
   font-size: 10px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
@@ -564,7 +569,7 @@
 .box___0P9Ko {
   display: inline-block;
   font-size: 12px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
@@ -584,7 +589,7 @@
 .box___4Fz5W {
   display: block;
   font-size: 10px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;

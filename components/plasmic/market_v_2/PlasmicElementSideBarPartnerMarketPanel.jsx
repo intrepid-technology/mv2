@@ -21,9 +21,9 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementSideBarPartnerMarketPanel.module.css"; // plasmic-import: i3ai6jIm4VK/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
-import Icon154Icon from "./icons/PlasmicIcon__Icon154"; // plasmic-import: UjSs9MO0SC/icon
-import Icon152Icon from "./icons/PlasmicIcon__Icon152"; // plasmic-import: FJN8msr56/icon
-import Icon151Icon from "./icons/PlasmicIcon__Icon151"; // plasmic-import: -J5xEi65H/icon
+import OrdersIcon from "./icons/PlasmicIcon__Orders"; // plasmic-import: SofRHFzOcM/icon
+import ChartIcon from "./icons/PlasmicIcon__Chart"; // plasmic-import: -1VBIW_pTX/icon
+import CommentReviewBIcon from "./icons/PlasmicIcon__CommentReviewB"; // plasmic-import: 4AL9HbEO5/icon
 import CommentReviewIcon from "./icons/PlasmicIcon__CommentReview"; // plasmic-import: ebuPCBFlqJ/icon
 
 export const PlasmicElementSideBarPartnerMarketPanel__VariantProps =
@@ -61,55 +61,65 @@ function PlasmicElementSideBarPartnerMarketPanel__RenderFunc(props) {
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__aLa21)}
-        navImage={
-          <ListingIcon
-            className={classNames(defaultcss.all, sty.svg__em8Jq)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__q4FeH)}>
+            <ListingIcon
+              className={classNames(defaultcss.all, sty.svg___6SZ2J)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Listings"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__wdXuy)}
-        navImage={
-          <Icon154Icon
-            className={classNames(defaultcss.all, sty.svg__bnPoz)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__xk0T)}>
+            <OrdersIcon
+              className={classNames(defaultcss.all, sty.svg__b2LKa)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Orders"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__qt1Y6)}
-        navImage={
-          <Icon152Icon
-            className={classNames(defaultcss.all, sty.svg__jUqpH)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__matSb)}>
+            <ChartIcon
+              className={classNames(defaultcss.all, sty.svg__nboNy)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Performance"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__j5Km)}
-        navImage={
-          <Icon151Icon
-            className={classNames(defaultcss.all, sty.svg__izJJ)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__xOnag)}>
+            <CommentReviewBIcon
+              className={classNames(defaultcss.all, sty.svg__pq45T)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Reviews"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__jIdBw)}
-        navImage={
-          <CommentReviewIcon
-            className={classNames(defaultcss.all, sty.svg__f5Jjl)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box___7NhUb)}>
+            <CommentReviewIcon
+              className={classNames(defaultcss.all, sty.svg__v85Vh)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Messages"}
       />

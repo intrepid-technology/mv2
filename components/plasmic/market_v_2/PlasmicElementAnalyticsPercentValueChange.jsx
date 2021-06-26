@@ -21,8 +21,8 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementAnalyticsPercentValueChange.module.css"; // plasmic-import: Un5cNvAvgb/css
 import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrandColor"; // plasmic-import: Lsqk-ADBoKU/icon
-import Icon186Icon from "./icons/PlasmicIcon__Icon186"; // plasmic-import: AE2h3Tocsq/icon
-import Icon185Icon from "./icons/PlasmicIcon__Icon185"; // plasmic-import: yu83kfpl6j/icon
+import MinusBoldIcon from "./icons/PlasmicIcon__MinusBold"; // plasmic-import: AE2h3Tocsq/icon
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicElementAnalyticsPercentValueChange__VariantProps =
   new Array("integer");
@@ -98,7 +98,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
           {(hasVariant(variants, "integer", "minus") ? true : false)
             ? p.renderPlasmicSlot({
                 defaultContents: (
-                  <Icon186Icon
+                  <MinusBoldIcon
                     className={classNames(defaultcss.all, sty.svg___2OLc)}
                     role={"img"}
                   />
@@ -116,7 +116,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
           )
             ? p.renderPlasmicSlot({
                 defaultContents: (
-                  <Icon185Icon
+                  <PlusBoldIcon
                     className={classNames(defaultcss.all, sty.svg__aFcD)}
                     role={"img"}
                   />

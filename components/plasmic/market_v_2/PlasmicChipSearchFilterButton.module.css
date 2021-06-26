@@ -11,21 +11,33 @@
   background: #ffffff repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
+.buttonTrigger__trigger_disabled {
+  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
 .buttonTrigger:hover {
   border-color: #333333 /* plasmic-token: _aCbIOo4N */;
 }
 .buttonTrigger:active {
-  background: #333333;
-  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+  background: #f0ebff;
+  border-color: #6633ff /* plasmic-token: Bz1wnYwjA */;
+}
+.buttonTrigger__trigger_disabled:hover {
+  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .slotText {
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
   line-height: 1;
   font-size: 14px;
+}
+.slotText__trigger_disabled {
+  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
 .buttonTrigger:hover .slotText {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 .buttonTrigger:active .slotText {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
+.buttonTrigger__trigger_disabled:hover .slotText__trigger_disabled {
+  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }

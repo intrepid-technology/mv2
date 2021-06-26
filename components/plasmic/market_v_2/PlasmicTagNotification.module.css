@@ -12,6 +12,12 @@
   border-width: 1px;
   border-style: none;
 }
+.root__state_warning {
+  background: #ffcc33;
+}
+.root__state_urgent {
+  background: #cc0033;
+}
 .contentParent {
   display: flex;
   position: relative;

@@ -1,0 +1,127 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 120px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.parent__width__40 {
+  height: 40px;
+  flex-shrink: 0;
+}
+.parent__width__48 {
+  height: 48px;
+  flex-shrink: 0;
+}
+.parent__height__120 {
+  width: 120px;
+}
+.parent__height__180 {
+  width: 180px;
+}
+.parent__height__270 {
+  width: 270px;
+}
+.parent__height__360 {
+  width: 360px;
+}
+.parent__width__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.root:hover .parent {
+  border-style: solid;
+  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+}
+.prefixparent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: 100%;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  min-height: 0;
+  padding: 2px 8px;
+  background: #f8f8f8 repeat;
+  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.prefixparent__prefix {
+  display: none;
+}
+.prefixparent__type_secondary {
+  background: #ffffff;
+}
+.slotPrefixLabelHeadline {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.value {
+  position: relative;
+  width: 100%;
+  left: auto;
+  top: auto;
+  height: 100%;
+  padding-left: 8px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  line-height: 1;
+  white-space: pre;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff repeat;
+  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.root:hover .value {
+  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+}
+.root .value:hover {
+  border: 1px solid #333333 /* plasmic-token: _aCbIOo4N */;
+}
+.root .value:focus {
+  outline: none;
+  border-style: solid;
+  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.suffixParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+  border-radius: 0px 2px 2px 0px;
+  padding: 2px 8px;
+  background: #f8f8f8 repeat;
+  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.suffixParent__suffix {
+  display: none;
+}
+.suffixParent__type_secondary {
+  left: auto;
+  top: auto;
+  background: #ffffff;
+}
+.slotSuffixLabelHeadline {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}

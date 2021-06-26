@@ -4,18 +4,18 @@
   width: 100%;
   position: relative;
   min-width: 0;
-  padding: 6px 0px;
+  padding: 8px 0px;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: calc(0px - 6px);
-  height: calc(100% + 6px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .sideBarButtonNewListing:global(.__wab_instance) {
   position: relative;

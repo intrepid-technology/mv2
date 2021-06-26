@@ -18,7 +18,7 @@ import {
 } from "@plasmicapp/react-web";
 import InputFormCardPrimary from "../../InputFormCardPrimary"; // plasmic-import: 7K8uSXduxTH/component
 import InputFormCardEmailSearchBadge from "../../InputFormCardEmailSearchBadge"; // plasmic-import: 0JndNhJNnle/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -43,7 +43,7 @@ function PlasmicBusinessIndustry__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -182,10 +182,10 @@ function PlasmicBusinessIndustry__RenderFunc(props) {
                   </div>
                 }
               >
-                <ChipDisplay
-                  data-plasmic-name={"chipDisplay"}
-                  data-plasmic-override={overrides.chipDisplay}
-                  className={classNames("__wab_instance", sty.chipDisplay)}
+                <ChipBadgeDisplay
+                  data-plasmic-name={"chipBadgeDisplay"}
+                  data-plasmic-override={overrides.chipBadgeDisplay}
+                  className={classNames("__wab_instance", sty.chipBadgeDisplay)}
                   color={"brand"}
                   type={"ghost"}
                 />
@@ -206,15 +206,15 @@ const PlasmicDescendants = {
     "companyProjectsCard",
     "companyInterestsCard",
     "textbox",
-    "chipDisplay"
+    "chipBadgeDisplay"
   ],
 
   companyIndustryCard: ["companyIndustryCard"],
   companymarketsCard: ["companymarketsCard"],
   companyProjectsCard: ["companyProjectsCard"],
-  companyInterestsCard: ["companyInterestsCard", "textbox", "chipDisplay"],
+  companyInterestsCard: ["companyInterestsCard", "textbox", "chipBadgeDisplay"],
   textbox: ["textbox"],
-  chipDisplay: ["chipDisplay"]
+  chipBadgeDisplay: ["chipBadgeDisplay"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -253,7 +253,7 @@ export const PlasmicBusinessIndustry = Object.assign(
     companyProjectsCard: makeNodeComponent("companyProjectsCard"),
     companyInterestsCard: makeNodeComponent("companyInterestsCard"),
     textbox: makeNodeComponent("textbox"),
-    chipDisplay: makeNodeComponent("chipDisplay"),
+    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
     // Metadata about props expected for PlasmicBusinessIndustry
     internalVariantProps: PlasmicBusinessIndustry__VariantProps,
     internalArgProps: PlasmicBusinessIndustry__ArgProps

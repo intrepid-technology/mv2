@@ -97,8 +97,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
             className={classNames("__wab_instance", sty.navLink, {
               [sty.navLink___switch]: hasVariant(variants, "_switch", "_switch")
             })}
-          >
-            {p.renderPlasmicSlot({
+            linkText={p.renderPlasmicSlot({
               defaultContents: "click me",
               value: args.linkText,
               className: classNames(sty.slotLinkText, {
@@ -115,7 +114,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
                 )
               })
             })}
-          </NavLink>
+          />
         </div>
       </p.Stack>
     </p.Stack>

@@ -20,10 +20,10 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementSideBarPartnerProfilePanel.module.css"; // plasmic-import: ESb2G2fq56P/css
-import Icon115Icon from "./icons/PlasmicIcon__Icon115"; // plasmic-import: eMAeU2OiF/icon
+import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
 import WalletEarningsIcon from "./icons/PlasmicIcon__WalletEarnings"; // plasmic-import: yPY5MrAZTs/icon
-import Icon158Icon from "./icons/PlasmicIcon__Icon158"; // plasmic-import: DR4PwFM8x8/icon
+import SwitchUserIcon from "./icons/PlasmicIcon__SwitchUser"; // plasmic-import: fiW_1GB84/icon
 
 export const PlasmicElementSideBarPartnerProfilePanel__VariantProps =
   new Array();
@@ -60,44 +60,52 @@ function PlasmicElementSideBarPartnerProfilePanel__RenderFunc(props) {
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__dsDoA)}
-        navImage={
-          <Icon115Icon
-            className={classNames(defaultcss.all, sty.svg__kRjbu)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__w3J4U)}>
+            <UserIcon
+              className={classNames(defaultcss.all, sty.svg__j0I4C)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Profile"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__lqd7E)}
-        navImage={
-          <TeamPartnersIcon
-            className={classNames(defaultcss.all, sty.svg__diY9B)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__zzN6S)}>
+            <TeamPartnersIcon
+              className={classNames(defaultcss.all, sty.svg__reL48)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Team"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__jjVq7)}
-        navImage={
-          <WalletEarningsIcon
-            className={classNames(defaultcss.all, sty.svg__wO4Xt)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__uYn32)}>
+            <WalletEarningsIcon
+              className={classNames(defaultcss.all, sty.svg__jDd6)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Wallet"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__f163K)}
-        navImage={
-          <Icon158Icon
-            className={classNames(defaultcss.all, sty.svg___8ERCv)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__dpjsj)}>
+            <SwitchUserIcon
+              className={classNames(defaultcss.all, sty.svg__x4M1B)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Switch to Member"}
       />

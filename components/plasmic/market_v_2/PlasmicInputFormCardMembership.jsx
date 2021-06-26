@@ -16,7 +16,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -116,9 +116,9 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
             >
               {p.renderPlasmicSlot({
                 defaultContents: (
-                  <ChipDisplay color={"brand"} type={"ghost"}>
+                  <ChipBadgeDisplay color={"brand"} type={"ghost"}>
                     {"Creator"}
-                  </ChipDisplay>
+                  </ChipBadgeDisplay>
                 ),
 
                 value: args.badge

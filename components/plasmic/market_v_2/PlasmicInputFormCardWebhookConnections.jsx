@@ -21,12 +21,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputFormCardWebhookConnections.module.css"; // plasmic-import: gKd8t6dFgYd/css
-import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
-import Icon98Icon from "./icons/PlasmicIcon__Icon98"; // plasmic-import: 5nOWCV9_g/icon
-import XerosvgIcon from "./icons/PlasmicIcon__Xerosvg"; // plasmic-import: X-HNuuBXHS/icon
-import Facebook1SvgIcon from "./icons/PlasmicIcon__Facebook1Svg"; // plasmic-import: J85sN8PC4/icon
-import Icon97Icon from "./icons/PlasmicIcon__Icon97"; // plasmic-import: 6F_oWsQS7s/icon
-import Icons8QuickbookssvgIcon from "./icons/PlasmicIcon__Icons8Quickbookssvg"; // plasmic-import: raCIX8pOF/icon
 
 export const PlasmicInputFormCardWebhookConnections__VariantProps = new Array(
   "payment",
@@ -176,44 +170,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "stripe"
                   : "google"
               }
-              svg={
-                <p.PlasmicIcon
-                  PlasmicIconType={
-                    hasVariant(variants, "accounting", "accounting")
-                      ? XerosvgIcon
-                      : hasVariant(variants, "payment", "payment")
-                      ? Icon98Icon
-                      : GooglesvgIcon
-                  }
-                  className={classNames(defaultcss.all, sty.svg__jvTt, {
-                    [sty.svg__accounting__jvTtCaLxc]: hasVariant(
-                      variants,
-                      "accounting",
-                      "accounting"
-                    ),
-
-                    [sty.svg__payment__jvTtpUEih]: hasVariant(
-                      variants,
-                      "payment",
-                      "payment"
-                    ),
-
-                    [sty.svg__subheadDescription__jvTtx1Lmn]: hasVariant(
-                      variants,
-                      "subheadDescription",
-                      "subheadDescription"
-                    )
-                  })}
-                  role={"img"}
-                />
-              }
-              text={
-                hasVariant(variants, "accounting", "accounting")
-                  ? "Connect with Xero"
-                  : hasVariant(variants, "payment", "payment")
-                  ? "Connect with Stripe"
-                  : "Sign in with Google"
-              }
+              width={"_160"}
             />
 
             <ButtonConnectedAccount
@@ -237,44 +194,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "paypal"
                   : "facebook"
               }
-              svg={
-                <p.PlasmicIcon
-                  PlasmicIconType={
-                    hasVariant(variants, "accounting", "accounting")
-                      ? Icons8QuickbookssvgIcon
-                      : hasVariant(variants, "payment", "payment")
-                      ? Icon97Icon
-                      : Facebook1SvgIcon
-                  }
-                  className={classNames(defaultcss.all, sty.svg__itH, {
-                    [sty.svg__accounting__itHCaLxc]: hasVariant(
-                      variants,
-                      "accounting",
-                      "accounting"
-                    ),
-
-                    [sty.svg__payment__itHpUEih]: hasVariant(
-                      variants,
-                      "payment",
-                      "payment"
-                    ),
-
-                    [sty.svg__subheadDescription__itHx1Lmn]: hasVariant(
-                      variants,
-                      "subheadDescription",
-                      "subheadDescription"
-                    )
-                  })}
-                  role={"img"}
-                />
-              }
-              text={
-                hasVariant(variants, "accounting", "accounting")
-                  ? "Connect with Quickbooks"
-                  : hasVariant(variants, "payment", "payment")
-                  ? "Connect with Paypal"
-                  : "Sign in with Facebook"
-              }
+              width={"_160"}
             />
           </p.Stack>
         </p.Stack>

@@ -18,7 +18,7 @@ import {
 } from "@plasmicapp/react-web";
 import InputFormCardMembership from "../../InputFormCardMembership"; // plasmic-import: xaA58X6UG1B/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import InputFormCardBasic from "../../InputFormCardBasic"; // plasmic-import: IF5nud1uvm2/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -44,7 +44,7 @@ function PlasmicPersonalMembership__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -76,14 +76,14 @@ function PlasmicPersonalMembership__RenderFunc(props) {
                 data-plasmic-name={"personalAccountMembership"}
                 data-plasmic-override={overrides.personalAccountMembership}
                 badge={
-                  <ChipDisplay
-                    data-plasmic-name={"chipDisplay"}
-                    data-plasmic-override={overrides.chipDisplay}
+                  <ChipBadgeDisplay
+                    data-plasmic-name={"chipBadgeDisplay"}
+                    data-plasmic-override={overrides.chipBadgeDisplay}
                     color={"brand"}
                     type={"ghost"}
                   >
                     {"Creator"}
-                  </ChipDisplay>
+                  </ChipBadgeDisplay>
                 }
                 border={"border"}
                 className={classNames(
@@ -182,12 +182,12 @@ const PlasmicDescendants = {
   root: [
     "root",
     "personalAccountMembership",
-    "chipDisplay",
+    "chipBadgeDisplay",
     "personalPaymentMethod"
   ],
 
-  personalAccountMembership: ["personalAccountMembership", "chipDisplay"],
-  chipDisplay: ["chipDisplay"],
+  personalAccountMembership: ["personalAccountMembership", "chipBadgeDisplay"],
+  chipBadgeDisplay: ["chipBadgeDisplay"],
   personalPaymentMethod: ["personalPaymentMethod"]
 };
 
@@ -223,7 +223,7 @@ export const PlasmicPersonalMembership = Object.assign(
   {
     // Helper components rendering sub-elements
     personalAccountMembership: makeNodeComponent("personalAccountMembership"),
-    chipDisplay: makeNodeComponent("chipDisplay"),
+    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
     personalPaymentMethod: makeNodeComponent("personalPaymentMethod"),
     // Metadata about props expected for PlasmicPersonalMembership
     internalVariantProps: PlasmicPersonalMembership__VariantProps,

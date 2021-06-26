@@ -92,7 +92,7 @@
 .box__jdMrM {
   display: inline-block;
   font-size: 12px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
@@ -107,7 +107,7 @@
 .box___4ZfZw {
   display: inline-block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
