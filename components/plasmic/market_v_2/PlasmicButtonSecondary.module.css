@@ -1,9 +1,11 @@
 .root:global(.__wab_instance) {
   position: relative;
 }
-.svg__gUd9T {
-  width: 20px;
-  height: 20px;
+.svg__na4Fs {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }

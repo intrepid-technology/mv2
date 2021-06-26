@@ -16,7 +16,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import TextLocation from "../../TextLocation"; // plasmic-import: O1CbetC3Kf/component
-import TagFilter from "../../TagFilter"; // plasmic-import: C8K8aavuz-/component
+import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -100,17 +100,17 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           </div>
         </div>
 
-        <TagFilter
-          data-plasmic-name={"tagFilter"}
-          data-plasmic-override={overrides.tagFilter}
-          className={classNames("__wab_instance", sty.tagFilter)}
+        <TagBadge
+          data-plasmic-name={"tagBadge"}
+          data-plasmic-override={overrides.tagBadge}
+          className={classNames("__wab_instance", sty.tagBadge)}
         />
 
         <RatingDisplayDetail
           data-plasmic-name={"ratingDisplayDetail"}
           data-plasmic-override={overrides.ratingDisplayDetail}
           className={classNames("__wab_instance", sty.ratingDisplayDetail)}
-          colour={"primaryB"}
+          color={"primaryB"}
         />
       </p.Stack>
     </div>
@@ -118,8 +118,8 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "tagFilter", "ratingDisplayDetail"],
-  tagFilter: ["tagFilter"],
+  root: ["root", "tagBadge", "ratingDisplayDetail"],
+  tagBadge: ["tagBadge"],
   ratingDisplayDetail: ["ratingDisplayDetail"]
 };
 
@@ -154,7 +154,7 @@ export const PlasmicCardCompanyFeature = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    tagFilter: makeNodeComponent("tagFilter"),
+    tagBadge: makeNodeComponent("tagBadge"),
     ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),
     // Metadata about props expected for PlasmicCardCompanyFeature
     internalVariantProps: PlasmicCardCompanyFeature__VariantProps,

@@ -68,7 +68,25 @@ function PlasmicSideBarListingButtonDropdown__RenderFunc(props) {
           sty.elementNavCardListItem__hg2AN
         )}
         disabled={"disabled"}
-        text={"Course"}
+        text={"Experience"}
+      />
+
+      <ElementNavCardListItem
+        className={classNames(
+          "__wab_instance",
+          sty.elementNavCardListItem___8EqeL
+        )}
+        disabled={"disabled"}
+        text={"Workspace"}
+      />
+
+      <ElementNavCardListItem
+        className={classNames(
+          "__wab_instance",
+          sty.elementNavCardListItem___1Cggc
+        )}
+        disabled={"disabled"}
+        text={"Livespace"}
       />
     </p.Stack>
   );

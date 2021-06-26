@@ -84,7 +84,7 @@
 }
 .slotChildren {
   font-size: 24px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -99,7 +99,7 @@
 }
 .slotSlot {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
@@ -143,19 +143,6 @@
 .buttonConnectedAccount__subheadDescription__sGzGbx1Lmn:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.svg__jvTt {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
-}
-.svg__subheadDescription__jvTtx1Lmn {
-  width: 18px;
-  height: 18px;
-}
 .buttonConnectedAccount__bwqDb:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
@@ -165,19 +152,6 @@
 }
 .buttonConnectedAccount__accounting__bwqDbCaLxc:global(.__wab_instance) {
   flex-shrink: 0;
-}
-.svg__itH {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
-}
-.svg__subheadDescription__itHx1Lmn {
-  width: 18px;
-  height: 18px;
 }
 .descriptionParent {
   display: flex;
@@ -215,7 +189,7 @@
 }
 .slotDescription {
   font-size: 14px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;

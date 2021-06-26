@@ -22,9 +22,9 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavLink.module.css"; // plasmic-import: jGROxaZ_Hy/css
 
-export const PlasmicNavLink__VariantProps = new Array("color");
+export const PlasmicNavLink__VariantProps = new Array("color", "state");
 
-export const PlasmicNavLink__ArgProps = new Array("children", "target");
+export const PlasmicNavLink__ArgProps = new Array("linkText", "target");
 
 function PlasmicNavLink__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -36,50 +36,85 @@ function PlasmicNavLink__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
+        [sty.root__color_light]: hasVariant(variants, "color", "light"),
+        [sty.root__color_primary]: hasVariant(variants, "color", "primary"),
+        [sty.root__state_selected]: hasVariant(variants, "state", "selected")
       })}
     >
       <p.PlasmicLink
-        className={classNames(defaultcss.all, sty.link__xGvaa)}
+        data-plasmic-name={"parentLink"}
+        data-plasmic-override={overrides.parentLink}
+        className={classNames(defaultcss.all, sty.parentLink, {
+          [sty.parentLink__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.parentLink__color_light]: hasVariant(variants, "color", "light"),
+          [sty.parentLink__color_primary]: hasVariant(
+            variants,
+            "color",
+            "primary"
+          ),
+
+          [sty.parentLink__state_selected]: hasVariant(
+            variants,
+            "state",
+            "selected"
+          )
+        })}
         component={Link}
         platform={"nextjs"}
       >
-        <p.PlasmicLink
-          className={classNames(defaultcss.all, sty.link___0ET6I, {
-            [sty.link__color_light___0ET6IxgxBo]: hasVariant(
-              variants,
-              "color",
-              "light"
-            )
-          })}
-          component={Link}
-          platform={"nextjs"}
+        <div
+          data-plasmic-name={"textParent"}
+          data-plasmic-override={overrides.textParent}
+          className={classNames(defaultcss.all, sty.textParent)}
         >
-          {p.renderPlasmicSlot({
-            defaultContents: "click me",
-            value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__color_brand]: hasVariant(
-                variants,
-                "color",
-                "brand"
-              ),
+          <div
+            data-plasmic-name={"textBg"}
+            data-plasmic-override={overrides.textBg}
+            className={classNames(defaultcss.all, sty.textBg, {
+              [sty.textBg__color_light]: hasVariant(variants, "color", "light")
+            })}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: "Nav Link",
+              value: args.linkText,
+              className: classNames(sty.slotLinkText, {
+                [sty.slotLinkText__color_brand]: hasVariant(
+                  variants,
+                  "color",
+                  "brand"
+                ),
 
-              [sty.slotChildren__color_light]: hasVariant(
-                variants,
-                "color",
-                "light"
-              )
-            })
-          })}
-        </p.PlasmicLink>
+                [sty.slotLinkText__color_light]: hasVariant(
+                  variants,
+                  "color",
+                  "light"
+                ),
+
+                [sty.slotLinkText__color_primary]: hasVariant(
+                  variants,
+                  "color",
+                  "primary"
+                ),
+
+                [sty.slotLinkText__state_selected]: hasVariant(
+                  variants,
+                  "state",
+                  "selected"
+                )
+              })
+            })}
+          </div>
+        </div>
       </p.PlasmicLink>
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "parentLink", "textParent", "textBg"],
+  parentLink: ["parentLink", "textParent", "textBg"],
+  textParent: ["textParent", "textBg"],
+  textBg: ["textBg"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -113,6 +148,9 @@ export const PlasmicNavLink = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    parentLink: makeNodeComponent("parentLink"),
+    textParent: makeNodeComponent("textParent"),
+    textBg: makeNodeComponent("textBg"),
     // Metadata about props expected for PlasmicNavLink
     internalVariantProps: PlasmicNavLink__VariantProps,
     internalArgProps: PlasmicNavLink__ArgProps

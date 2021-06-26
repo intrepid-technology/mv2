@@ -1,16 +1,24 @@
 .root {
   display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 90px;
   height: 90px;
-  position: relative;
+  flex-shrink: 0;
   padding: 8px;
 }
-.root__size__45X45 {
+.parent__size__45X45 {
   width: 45px;
   height: 45px;
+  flex-shrink: 0;
 }
 .iconBg {
   display: flex;
@@ -26,7 +34,15 @@
 .iconPrimary:global(.__wab_instance) {
   position: relative;
 }
-.svg__tl1Qw {
+.svg__pP8Ms {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__yvJsr {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -34,7 +50,7 @@
   min-width: 0;
   min-height: 0;
 }
-.svg__h9Lns {
+.svg__iDWlb {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -42,7 +58,7 @@
   min-width: 0;
   min-height: 0;
 }
-.svg__aj8Rh {
+.svg___8EN4 {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -50,15 +66,7 @@
   min-width: 0;
   min-height: 0;
 }
-.svg__pm0I {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-  min-width: 0;
-  min-height: 0;
-}
-.svg__hZtHy {
+.svg__wrfKo {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -74,7 +82,7 @@
   min-width: 0;
   min-height: 0;
 }
-.svg__pYy6U {
+.svg__k4JOm {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -93,7 +101,10 @@
 .root:hover .svgIcon8 {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.svg__lq6Dr {
+.root:active .svgIcon8 {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
+.svg__yhi9U {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -101,7 +112,7 @@
   min-width: 0;
   min-height: 0;
 }
-.svg__vctNo {
+.svg__lI7Bd {
   object-fit: cover;
   width: 100%;
   height: 100%;

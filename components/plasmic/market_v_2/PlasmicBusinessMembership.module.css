@@ -57,24 +57,26 @@
   left: auto;
   top: auto;
 }
-.svg__kLWf8 {
-  width: 20px;
-  height: 20px;
+.svg__zpTzz {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
-.svg__qtxhE {
+.svg__zCvQy {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__pZWN {
+.svg__fly2R {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__zrxBu {
@@ -103,11 +105,13 @@
   left: auto;
   top: auto;
 }
-.svg___5PM6R {
-  width: 20px;
-  height: 20px;
+.svg__fUeXo {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
 .businessDeleteAccount:global(.__wab_instance) {
   position: relative;
@@ -119,9 +123,11 @@
   left: auto;
   top: auto;
 }
-.svg__bVvon {
-  width: 20px;
-  height: 20px;
+.svg__f5EwL {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }

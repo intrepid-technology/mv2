@@ -1,0 +1,45 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  flex-shrink: 0;
+}
+.svg__inactive {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__state_silent {
+  color: #333333 /* plasmic-token: Ir4S3kez3 */;
+}
+.svg__state_alert {
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}
+.elementSidebarHeadlineNotificationIndicator:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-top: -12px;
+  margin-left: -8px;
+  flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__inactive:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__state_silent:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__state_alert:global(.__wab_instance) {
+  flex-shrink: 0;
+}

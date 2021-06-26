@@ -31,6 +31,10 @@
 .trigger__size__90 {
   width: 90px;
 }
+.trigger__isDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 .trigger__size__120 {
   width: 120px;
 }
@@ -40,12 +44,17 @@
 .trigger__size__160 {
   width: 160px;
 }
+.trigger__size__180 {
+  width: 180px;
+}
+.trigger__size__270 {
+  width: 270px;
+}
+.trigger__size__360 {
+  width: 360px;
+}
 .trigger__isOpen {
   background: #f5f5f5;
-}
-.trigger__isDisabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 .root:focus-within .trigger {
   outline: none;

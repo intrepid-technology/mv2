@@ -104,7 +104,7 @@
 .box__rf54P {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -434,7 +434,7 @@
 .box__pgLn8 {
   display: block;
   font-size: 32px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -1093,7 +1093,7 @@
   margin-left: 12px;
   margin-top: 12px;
 }
-.chipDisplay__c9Fb1:global(.__wab_instance) {
+.chipBadgeDisplay__c9Fb1:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1101,18 +1101,18 @@
 .box__teTol {
   text-transform: uppercase;
 }
-.svg__ek8Gc {
+.svg__bo7ND {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__ywpQ {
+.svg__gLb9H {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__gwUvj {
@@ -1122,7 +1122,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay__xuEes:global(.__wab_instance) {
+.chipBadgeDisplay__xuEes:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1130,18 +1130,18 @@
 .box__ibwlQ {
   text-transform: uppercase;
 }
-.svg__aEcdZ {
+.svg__uuHcC {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__md5J5 {
+.svg__qDed {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2StEk {
@@ -1151,7 +1151,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay__kKztv:global(.__wab_instance) {
+.chipBadgeDisplay__kKztv:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1159,18 +1159,18 @@
 .box__joB {
   text-transform: uppercase;
 }
-.svg__vsoX {
+.svg__b7Zah {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__sVxrl {
+.svg__cDec {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__tpP6 {
@@ -1180,7 +1180,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay__puJk:global(.__wab_instance) {
+.chipBadgeDisplay__puJk:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1188,18 +1188,18 @@
 .box__veHrF {
   text-transform: uppercase;
 }
-.svg__nfLso {
+.svg__nheC7 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg___4Gc4N {
+.svg__yAnd {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__keV79 {
@@ -1209,7 +1209,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay___4TQRk:global(.__wab_instance) {
+.chipBadgeDisplay___4TQRk:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1217,18 +1217,18 @@
 .box___7EKwg {
   text-transform: uppercase;
 }
-.svg___2Uvjk {
+.svg__coVko {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg___1TFnO {
+.svg__wkYot {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__vzkfm {
@@ -1313,7 +1313,7 @@
   margin-left: 12px;
   margin-top: 12px;
 }
-.chipDisplay__uJxLr:global(.__wab_instance) {
+.chipBadgeDisplay__uJxLr:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1321,18 +1321,18 @@
 .box__zpCu7 {
   text-transform: uppercase;
 }
-.svg___47KqD {
+.svg__v5CO {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__zr7PO {
+.svg__yrhqE {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___14FU {
@@ -1342,7 +1342,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay___5BjZa:global(.__wab_instance) {
+.chipBadgeDisplay___5BjZa:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1350,18 +1350,18 @@
 .box__ugTJ {
   text-transform: uppercase;
 }
-.svg___86Uqt {
+.svg__vWdAw {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__umsRm {
+.svg__hEqln {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__rOGaP {
@@ -1371,7 +1371,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay__a3P8S:global(.__wab_instance) {
+.chipBadgeDisplay__a3P8S:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1379,18 +1379,18 @@
 .box__s7Snj {
   text-transform: uppercase;
 }
-.svg__uLkDt {
+.svg__eQ53 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__nK5Fz {
+.svg__dbhb2 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2CdRn {
@@ -1400,7 +1400,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay___4Qxjk:global(.__wab_instance) {
+.chipBadgeDisplay___4Qxjk:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1408,18 +1408,18 @@
 .box__gaBRk {
   text-transform: uppercase;
 }
-.svg__p8Byp {
+.svg__bFUqq {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__f4OD1 {
+.svg__vfhR9 {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__zxEA {
@@ -1429,7 +1429,7 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.chipDisplay__xIvqk:global(.__wab_instance) {
+.chipBadgeDisplay__xIvqk:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1437,18 +1437,18 @@
 .box___6IAlw {
   text-transform: uppercase;
 }
-.svg___6Zf0G {
+.svg__rNyve {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__a2Di {
+.svg___5UgmW {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__kTgLh {

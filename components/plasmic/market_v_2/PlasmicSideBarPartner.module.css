@@ -42,25 +42,6 @@
 .sideBarCommunityStats:global(.__wab_instance) {
   position: relative;
 }
-.badgeCommunityRating:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.box__mKBgm {
-  position: relative;
-  font-size: 16px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  line-height: 1;
-}
-.badgeVerification:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.tagPartnerB:global(.__wab_instance) {
-  position: relative;
-}
 .sideBarListingStats:global(.__wab_instance) {
   position: relative;
   top: auto;

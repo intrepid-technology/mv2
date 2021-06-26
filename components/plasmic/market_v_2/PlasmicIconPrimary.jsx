@@ -58,6 +58,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           [sty.svgBg__size__18Px]: hasVariant(variants, "size", "_18Px"),
           [sty.svgBg__size__24Px]: hasVariant(variants, "size", "_24Px"),
           [sty.svgBg__size__32Px]: hasVariant(variants, "size", "_32Px"),
+          [sty.svgBg__size__36Px]: hasVariant(variants, "size", "_36Px"),
           [sty.svgBg__size__40Px]: hasVariant(variants, "size", "_40Px"),
           [sty.svgBg__size__48Px]: hasVariant(variants, "size", "_48Px"),
           [sty.svgBg__size__64Px]: hasVariant(variants, "size", "_64Px"),
@@ -65,9 +66,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
         })}
       >
         {(
-          hasVariant(variants, "size", "_80Px")
-            ? false
-            : hasVariant(variants, "size", "_64Px")
+          hasVariant(variants, "size", "_64Px")
             ? false
             : hasVariant(variants, "size", "_48Px")
             ? false
@@ -80,6 +79,8 @@ function PlasmicIconPrimary__RenderFunc(props) {
             : hasVariant(variants, "size", "_18Px")
             ? false
             : hasVariant(variants, "size", "_16Px")
+            ? false
+            : hasVariant(variants, "size", "_80Px")
             ? false
             : hasVariant(variants, "size", "_14Px")
             ? false
@@ -460,9 +461,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
             })
           : null}
         {(
-          hasVariant(variants, "size", "_80Px")
-            ? false
-            : hasVariant(variants, "size", "_64Px")
+          hasVariant(variants, "size", "_64Px")
             ? false
             : hasVariant(variants, "size", "_48Px")
             ? false
@@ -475,6 +474,8 @@ function PlasmicIconPrimary__RenderFunc(props) {
             : hasVariant(variants, "size", "_18Px")
             ? false
             : hasVariant(variants, "size", "_16Px")
+            ? false
+            : hasVariant(variants, "size", "_80Px")
             ? false
             : hasVariant(variants, "size", "_14Px")
             ? false

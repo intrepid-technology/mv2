@@ -45,7 +45,7 @@
 .box__nsCos {
   display: block;
   font-size: 18px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
@@ -72,7 +72,7 @@
 .box___6Hit6 {
   display: block;
   font-size: 18px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;

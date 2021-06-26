@@ -46,7 +46,7 @@ function PlasmicTermsOfService__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }

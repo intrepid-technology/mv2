@@ -20,8 +20,8 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementSideBarPartnerAccountPanel.module.css"; // plasmic-import: frbDg7XY-m/css
-import Icon159Icon from "./icons/PlasmicIcon__Icon159"; // plasmic-import: e76jROc_X/icon
-import Icon160Icon from "./icons/PlasmicIcon__Icon160"; // plasmic-import: QA4fGpoajM/icon
+import NotificationIcon from "./icons/PlasmicIcon__Notification"; // plasmic-import: rEeGdo5vaH/icon
+import SettingsIcon from "./icons/PlasmicIcon__Settings"; // plasmic-import: QA4fGpoajM/icon
 
 export const PlasmicElementSideBarPartnerAccountPanel__VariantProps =
   new Array();
@@ -58,22 +58,26 @@ function PlasmicElementSideBarPartnerAccountPanel__RenderFunc(props) {
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__t17Tz)}
-        navImage={
-          <Icon159Icon
-            className={classNames(defaultcss.all, sty.svg___6YtDo)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box__cXBrw)}>
+            <NotificationIcon
+              className={classNames(defaultcss.all, sty.svg__ri1Mr)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Notifications"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__utJTz)}
-        navImage={
-          <Icon160Icon
-            className={classNames(defaultcss.all, sty.svg__b2Nam)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box___9WILw)}>
+            <SettingsIcon
+              className={classNames(defaultcss.all, sty.svg__tRioA)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Settings"}
       />

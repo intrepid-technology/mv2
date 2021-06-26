@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -21,10 +22,10 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicChipSearchFilterButton.module.css"; // plasmic-import: GbL35coVdJ/css
 
 export const PlasmicChipSearchFilterButton__VariantProps = new Array(
+  "trigger",
   "type",
   "color",
-  "size",
-  "state"
+  "size"
 );
 
 export const PlasmicChipSearchFilterButton__ArgProps = new Array(
@@ -43,13 +44,26 @@ function PlasmicChipSearchFilterButton__RenderFunc(props) {
       className={classNames(
         defaultcss.button,
         projectcss.root_reset,
-        sty.buttonTrigger
+        sty.buttonTrigger,
+        {
+          [sty.buttonTrigger__trigger_disabled]: hasVariant(
+            variants,
+            "trigger",
+            "disabled"
+          )
+        }
       )}
     >
       {p.renderPlasmicSlot({
         defaultContents: "Search",
         value: args.text,
-        className: classNames(sty.slotText)
+        className: classNames(sty.slotText, {
+          [sty.slotText__trigger_disabled]: hasVariant(
+            variants,
+            "trigger",
+            "disabled"
+          )
+        })
       })}
     </button>
   );

@@ -29,43 +29,65 @@ export const PlasmicNavbarLogo__ArgProps = new Array();
 function PlasmicNavbarLogo__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <p.PlasmicLink
-      data-plasmic-name={"navBarLogoLink"}
-      data-plasmic-override={overrides.navBarLogoLink}
+    <div
+      data-plasmic-name={"root"}
+      data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.root_reset,
-        sty.navBarLogoLink,
-        { [sty.navBarLogoLink__light]: hasVariant(variants, "light", "light") }
-      )}
-      component={Link}
-      platform={"nextjs"}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__light]: hasVariant(variants, "light", "light"),
+        [sty.root__size__18]: hasVariant(variants, "size", "_18")
+      })}
     >
-      <img
-        data-plasmic-name={"img"}
-        data-plasmic-override={overrides.img}
-        alt={""}
-        className={classNames(defaultcss.img, sty.img, {
-          [sty.img__light]: hasVariant(variants, "light", "light"),
-          [sty.img__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.img__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.img__size__32]: hasVariant(variants, "size", "_32")
+      <p.PlasmicLink
+        data-plasmic-name={"navBarLogoLinkParent"}
+        data-plasmic-override={overrides.navBarLogoLinkParent}
+        className={classNames(defaultcss.all, sty.navBarLogoLinkParent, {
+          [sty.navBarLogoLinkParent__light]: hasVariant(
+            variants,
+            "light",
+            "light"
+          ),
+
+          [sty.navBarLogoLinkParent__size__18]: hasVariant(
+            variants,
+            "size",
+            "_18"
+          )
         })}
-        role={"img"}
-        src={
-          hasVariant(variants, "light", "light")
-            ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
-            : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
-        }
-      />
-    </p.PlasmicLink>
+        component={Link}
+        href={"/"}
+        platform={"nextjs"}
+      >
+        <img
+          data-plasmic-name={"img"}
+          data-plasmic-override={overrides.img}
+          alt={""}
+          className={classNames(defaultcss.img, sty.img, {
+            [sty.img__light]: hasVariant(variants, "light", "light"),
+            [sty.img__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.img__size__18]: hasVariant(variants, "size", "_18"),
+            [sty.img__size__24]: hasVariant(variants, "size", "_24"),
+            [sty.img__size__32]: hasVariant(variants, "size", "_32"),
+            [sty.img__size__36]: hasVariant(variants, "size", "_36"),
+            [sty.img__size__40]: hasVariant(variants, "size", "_40"),
+            [sty.img__size__48]: hasVariant(variants, "size", "_48")
+          })}
+          role={"img"}
+          src={
+            hasVariant(variants, "light", "light")
+              ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
+              : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
+          }
+        />
+      </p.PlasmicLink>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  navBarLogoLink: ["navBarLogoLink", "img"],
+  root: ["root", "navBarLogoLinkParent", "img"],
+  navBarLogoLinkParent: ["navBarLogoLinkParent", "img"],
   img: ["img"]
 };
 
@@ -87,7 +109,7 @@ function makeNodeComponent(nodeName) {
       forNode: nodeName
     });
   };
-  if (nodeName === "navBarLogoLink") {
+  if (nodeName === "root") {
     func.displayName = "PlasmicNavbarLogo";
   } else {
     func.displayName = `PlasmicNavbarLogo.${nodeName}`;
@@ -97,9 +119,10 @@ function makeNodeComponent(nodeName) {
 
 export const PlasmicNavbarLogo = Object.assign(
   // Top-level PlasmicNavbarLogo renders the root element
-  makeNodeComponent("navBarLogoLink"),
+  makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    navBarLogoLinkParent: makeNodeComponent("navBarLogoLinkParent"),
     img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicNavbarLogo
     internalVariantProps: PlasmicNavbarLogo__VariantProps,

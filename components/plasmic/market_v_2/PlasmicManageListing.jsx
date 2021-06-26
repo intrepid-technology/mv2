@@ -16,14 +16,14 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
+import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import IconTextPrimary from "../../IconTextPrimary"; // plasmic-import: 2XsuG8W9wX/component
-import TagFilter from "../../TagFilter"; // plasmic-import: C8K8aavuz-/component
+import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import ToggleA from "../../ToggleA"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -56,7 +56,7 @@ function PlasmicManageListing__RenderFunc(props) {
         />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
@@ -232,22 +232,15 @@ function PlasmicManageListing__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(defaultcss.all, sty.box__rgWiD)}
                     >
-                      <SearchbarA
-                        data-plasmic-name={"searchbarA"}
-                        data-plasmic-override={overrides.searchbarA}
-                        className={classNames("__wab_instance", sty.searchbarA)}
+                      <SearchbarPrimary
+                        data-plasmic-name={"searchbarPrimary"}
+                        data-plasmic-override={overrides.searchbarPrimary}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.searchbarPrimary
+                        )}
                         width={"_360"}
-                      >
-                        <input
-                          data-plasmic-name={"textbox"}
-                          data-plasmic-override={overrides.textbox}
-                          className={classNames(defaultcss.input, sty.textbox)}
-                          placeholder={""}
-                          size={1}
-                          type={"text"}
-                          value={"Filter..."}
-                        />
-                      </SearchbarA>
+                      />
 
                       <p.Stack
                         as={"div"}
@@ -842,10 +835,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box___23Kl
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__o4Bx1
+                                sty.tagBadge__o4Bx1
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -885,10 +878,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__stnQq
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__eoLu8
+                                sty.tagBadge__eoLu8
                               )}
                               textBase10Px={"Monthly"}
                             />
@@ -1197,10 +1190,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box___40Sr7
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__mvJ5Z
+                                sty.tagBadge__mvJ5Z
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -1240,10 +1233,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__u6ZmV
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__kdBdh
+                                sty.tagBadge__kdBdh
                               )}
                               textBase10Px={"Monthly"}
                             />
@@ -1536,10 +1529,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__eW7R
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__o1Drz
+                                sty.tagBadge__o1Drz
                               )}
                               textBase10Px={"UX Design"}
                             />
@@ -1579,10 +1572,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__s65Il
                             )}
                           >
-                            <TagFilter
+                            <TagBadge
                               className={classNames(
                                 "__wab_instance",
-                                sty.tagFilter__rhf2W
+                                sty.tagBadge__rhf2W
                               )}
                               textBase10Px={"Monthly"}
                             />
@@ -1647,8 +1640,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1722,8 +1714,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1776,8 +1767,7 @@ const PlasmicDescendants = {
     "listingNumberParent",
     "listingNumber",
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "listingManagementTableColumnParent",
     "listingManagementTableHeader",
@@ -1834,13 +1824,11 @@ const PlasmicDescendants = {
   listingNumber: ["listingNumber"],
   listingSearchFilterParent: [
     "listingSearchFilterParent",
-    "searchbarA",
-    "textbox",
+    "searchbarPrimary",
     "listingSearchFilterDropdownParent"
   ],
 
-  searchbarA: ["searchbarA", "textbox"],
-  textbox: ["textbox"],
+  searchbarPrimary: ["searchbarPrimary"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
   listingManagementTableColumnParent: [
     "listingManagementTableColumnParent",
@@ -2124,8 +2112,7 @@ export const PlasmicManageListing = Object.assign(
     listingNumberParent: makeNodeComponent("listingNumberParent"),
     listingNumber: makeNodeComponent("listingNumber"),
     listingSearchFilterParent: makeNodeComponent("listingSearchFilterParent"),
-    searchbarA: makeNodeComponent("searchbarA"),
-    textbox: makeNodeComponent("textbox"),
+    searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     listingSearchFilterDropdownParent: makeNodeComponent(
       "listingSearchFilterDropdownParent"
     ),

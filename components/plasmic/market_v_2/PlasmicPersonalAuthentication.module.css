@@ -17,11 +17,13 @@
   left: auto;
   top: auto;
 }
-.svg__zkoeG {
-  width: 20px;
-  height: 20px;
+.svg___0BdmY {
+  width: 100%;
+  height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  min-width: 0;
+  min-height: 0;
 }
 .personalJobCard:global(.__wab_instance) {
   position: absolute;
@@ -85,23 +87,23 @@
   background: #f8f8f8;
   border-style: solid;
 }
-.chipDisplay__rbn3N:global(.__wab_instance) {
+.chipBadgeDisplay__rbn3N:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.svg__tanW {
+.svg___08M0D {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__fT8AN {
+.svg__zwx6P {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__lgkYo {

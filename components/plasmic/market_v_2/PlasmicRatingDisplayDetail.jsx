@@ -25,7 +25,8 @@ import * as sty from "./PlasmicRatingDisplayDetail.module.css"; // plasmic-impor
 import SuperpowerIcon from "./icons/PlasmicIcon__Superpower"; // plasmic-import: ntMd1ebAoa/icon
 
 export const PlasmicRatingDisplayDetail__VariantProps = new Array(
-  "colour",
+  "reviews",
+  "color",
   "size"
 );
 
@@ -65,9 +66,9 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
           defaultContents: "4.67",
           value: args.children,
           className: classNames(sty.slotChildren, {
-            [sty.slotChildren__colour_primaryB]: hasVariant(
+            [sty.slotChildren__color_primaryB]: hasVariant(
               variants,
-              "colour",
+              "color",
               "primaryB"
             ),
 
@@ -77,26 +78,40 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
         })}
       </RatingScore>
 
-      <RatingReviewAmount
-        data-plasmic-name={"ratingReviewAmount"}
-        data-plasmic-override={overrides.ratingReviewAmount}
-        className={classNames("__wab_instance", sty.ratingReviewAmount)}
-      >
-        {p.renderPlasmicSlot({
-          defaultContents: "(12)",
-          value: args.slot,
-          className: classNames(sty.slotSlot, {
-            [sty.slotSlot__colour_primaryB]: hasVariant(
+      {(hasVariant(variants, "reviews", "reviews") ? false : true) ? (
+        <RatingReviewAmount
+          data-plasmic-name={"ratingReviewAmount"}
+          data-plasmic-override={overrides.ratingReviewAmount}
+          className={classNames("__wab_instance", sty.ratingReviewAmount, {
+            [sty.ratingReviewAmount__reviews]: hasVariant(
               variants,
-              "colour",
-              "primaryB"
-            ),
+              "reviews",
+              "reviews"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "(12)",
+            value: args.slot,
+            className: classNames(sty.slotSlot, {
+              [sty.slotSlot__color_primaryB]: hasVariant(
+                variants,
+                "color",
+                "primaryB"
+              ),
 
-            [sty.slotSlot__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.slotSlot__size__16]: hasVariant(variants, "size", "_16")
-          })
-        })}
-      </RatingReviewAmount>
+              [sty.slotSlot__reviews]: hasVariant(
+                variants,
+                "reviews",
+                "reviews"
+              ),
+
+              [sty.slotSlot__size__14]: hasVariant(variants, "size", "_14"),
+              [sty.slotSlot__size__16]: hasVariant(variants, "size", "_16")
+            })
+          })}
+        </RatingReviewAmount>
+      ) : null}
     </p.Stack>
   );
 }

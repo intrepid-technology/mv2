@@ -23,46 +23,60 @@ import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJ
 
 export const PlasmicSideBarButtonPowerUp__VariantProps = new Array();
 
-export const PlasmicSideBarButtonPowerUp__ArgProps = new Array();
+export const PlasmicSideBarButtonPowerUp__ArgProps = new Array(
+  "target",
+  "trigger"
+);
 
 function PlasmicSideBarButtonPowerUp__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <button
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"sideBarCardLink"}
-        data-plasmic-override={overrides.sideBarCardLink}
-        hasGap={true}
-        className={classNames(defaultcss.all, sty.sideBarCardLink)}
+      <button
+        data-plasmic-name={"powerUp"}
+        data-plasmic-override={overrides.powerUp}
+        className={classNames(defaultcss.button, sty.powerUp)}
       >
-        <Icon138Icon
-          data-plasmic-name={"svg"}
-          data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg)}
-          role={"img"}
-        />
-
-        <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box)}
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"sideBarCardLink"}
+          data-plasmic-override={overrides.sideBarCardLink}
+          hasGap={true}
+          className={classNames(defaultcss.all, sty.sideBarCardLink)}
         >
-          {"Power up"}
-        </div>
-      </p.Stack>
-    </button>
+          <Icon138Icon
+            data-plasmic-name={"svg"}
+            data-plasmic-override={overrides.svg}
+            className={classNames(defaultcss.all, sty.svg)}
+            role={"img"}
+          />
+
+          <div
+            data-plasmic-name={"box"}
+            data-plasmic-override={overrides.box}
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box
+            )}
+          >
+            {"Power up"}
+          </div>
+        </p.Stack>
+      </button>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "sideBarCardLink", "svg", "box"],
+  root: ["root", "powerUp", "sideBarCardLink", "svg", "box"],
+  powerUp: ["powerUp", "sideBarCardLink", "svg", "box"],
   sideBarCardLink: ["sideBarCardLink", "svg", "box"],
   svg: ["svg"],
   box: ["box"]
@@ -99,6 +113,7 @@ export const PlasmicSideBarButtonPowerUp = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    powerUp: makeNodeComponent("powerUp"),
     sideBarCardLink: makeNodeComponent("sideBarCardLink"),
     svg: makeNodeComponent("svg"),
     box: makeNodeComponent("box"),

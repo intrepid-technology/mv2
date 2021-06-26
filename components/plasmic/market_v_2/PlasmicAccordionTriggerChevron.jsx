@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAccordionTriggerChevron.module.css"; // plasmic-import: zUDpW9Kdd4/css
-import Icon165Icon from "./icons/PlasmicIcon__Icon165"; // plasmic-import: wk3elY0ALL/icon
+import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 import Icon170Icon from "./icons/PlasmicIcon__Icon170"; // plasmic-import: JricKendl/icon
 
 export const PlasmicAccordionTriggerChevron__VariantProps = new Array("state");
@@ -50,7 +50,7 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
         {(hasVariant(variants, "state", "closed") ? false : true)
           ? p.renderPlasmicSlot({
               defaultContents: (
-                <Icon165Icon
+                <ChevronDownBIcon
                   className={classNames(defaultcss.all, sty.svg___63YN)}
                   role={"img"}
                 />

@@ -20,8 +20,8 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementSideBarMemberAccountPanel.module.css"; // plasmic-import: nJJCy4YRIm/css
-import Icon159Icon from "./icons/PlasmicIcon__Icon159"; // plasmic-import: e76jROc_X/icon
-import Icon160Icon from "./icons/PlasmicIcon__Icon160"; // plasmic-import: QA4fGpoajM/icon
+import NotificationIcon from "./icons/PlasmicIcon__Notification"; // plasmic-import: rEeGdo5vaH/icon
+import SettingsIcon from "./icons/PlasmicIcon__Settings"; // plasmic-import: QA4fGpoajM/icon
 
 export const PlasmicElementSideBarMemberAccountPanel__VariantProps =
   new Array();
@@ -61,22 +61,26 @@ function PlasmicElementSideBarMemberAccountPanel__RenderFunc(props) {
           "__wab_instance",
           sty.elementIconListItem___8E4Aa
         )}
-        navImage={
-          <Icon159Icon
-            className={classNames(defaultcss.all, sty.svg__acHJz)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box___6VJUh)}>
+            <NotificationIcon
+              className={classNames(defaultcss.all, sty.svg__lQxxk)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Notifications"}
       />
 
       <ElementIconListItem
         className={classNames("__wab_instance", sty.elementIconListItem__uNiLi)}
-        navImage={
-          <Icon160Icon
-            className={classNames(defaultcss.all, sty.svg__aBWeY)}
-            role={"img"}
-          />
+        navIcon={
+          <div className={classNames(defaultcss.all, sty.box___7CxmV)}>
+            <SettingsIcon
+              className={classNames(defaultcss.all, sty.svg__eP0Lh)}
+              role={"img"}
+            />
+          </div>
         }
         navText={"Settings"}
       />

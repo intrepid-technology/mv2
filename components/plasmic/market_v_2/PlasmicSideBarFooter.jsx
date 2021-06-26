@@ -43,6 +43,7 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__q9OKm
         )}
         size={"_16"}
+        target={""}
       >
         <div
           className={classNames(
@@ -61,6 +62,7 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__qsokV
         )}
         size={"_16"}
+        target={"/terms"}
       >
         <div
           className={classNames(
@@ -79,6 +81,7 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__vOv1V
         )}
         size={"_16"}
+        target={"/privacy"}
       >
         <div
           className={classNames(

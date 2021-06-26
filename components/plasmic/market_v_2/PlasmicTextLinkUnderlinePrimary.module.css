@@ -87,6 +87,7 @@
 }
 .root:hover .slotChildren {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
+  font-weight: 500;
 }
 .root:hover .slotChildren > *,
 .root:hover .slotChildren > .__wab_slot > *,

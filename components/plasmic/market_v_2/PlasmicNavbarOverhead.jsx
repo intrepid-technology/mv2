@@ -71,18 +71,19 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : undefined
           }
+          linkText={
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__rvuz
+              )}
+            >
+              {"Members"}
+            </div>
+          }
           target={"/member-pricing"}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__rvuz
-            )}
-          >
-            {"Members"}
-          </div>
-        </NavLink>
+        />
 
         <NavLink
           className={classNames("__wab_instance", sty.navLink__mtt2Z, {
@@ -105,18 +106,19 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : undefined
           }
+          linkText={
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box___2ICub
+              )}
+            >
+              {"Partners"}
+            </div>
+          }
           target={"/partner-pricing"}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box___2ICub
-            )}
-          >
-            {"Partners"}
-          </div>
-        </NavLink>
+        />
 
         {(
           hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
@@ -142,18 +144,19 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
                 ? "light"
                 : undefined
             }
+            linkText={
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box__gNF
+                )}
+              >
+                {"Login"}
+              </div>
+            }
             target={"/log-in"}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__gNF
-              )}
-            >
-              {"Login"}
-            </div>
-          </NavLink>
+          />
         ) : null}
       </p.Stack>
     </div>

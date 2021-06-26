@@ -103,7 +103,7 @@
 }
 .slotSlot {
   font-size: 40px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.4;
@@ -113,7 +113,7 @@
 @media (min-width: 1152px) and (max-width: 1440px) {
   .slotSlot {
     font-size: 40px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     letter-spacing: normal;
     line-height: 1.4;
@@ -124,7 +124,7 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .slotSlot {
     font-size: 32px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     letter-spacing: normal;
     line-height: 1.4;
@@ -187,7 +187,7 @@
 }
 .slotChildren {
   font-size: 18px;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
@@ -197,7 +197,7 @@
 @media (min-width: 1152px) and (max-width: 1440px) {
   .slotChildren {
     font-size: 18px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     letter-spacing: normal;
     line-height: 1.4;
