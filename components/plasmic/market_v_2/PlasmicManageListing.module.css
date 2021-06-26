@@ -296,7 +296,7 @@
 .box__rgWiD > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 48px;
 }
-.searchbar:global(.__wab_instance) {
+.searchbarA:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

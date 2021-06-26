@@ -20,7 +20,7 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import InputTextForm from "../../TextFormInput"; // plasmic-import: Hp_zc6XLro/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import FabButtonA from "../../FabButtonA"; // plasmic-import: o1fXsWwgdW/component
-import Searchbar from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
+import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
 import RadioTextInputPrimary from "../../RadioTextInputPrimary"; // plasmic-import: 1xw4kmw_5l/component
 import FabButtonB from "../../FabButtonB"; // plasmic-import: nkuQ1X_r6B/component
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
@@ -349,10 +349,10 @@ function PlasmicManageTeam__RenderFunc(props) {
                     sty.searchFilterDateParent
                   )}
                 >
-                  <Searchbar
-                    data-plasmic-name={"searchbar"}
-                    data-plasmic-override={overrides.searchbar}
-                    className={classNames("__wab_instance", sty.searchbar)}
+                  <SearchbarA
+                    data-plasmic-name={"searchbarA"}
+                    data-plasmic-override={overrides.searchbarA}
+                    className={classNames("__wab_instance", sty.searchbarA)}
                     width={"_360"}
                   />
 
@@ -704,7 +704,7 @@ const PlasmicDescendants = {
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbar",
+    "searchbarA",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
     "radioTextInputPrimary",
@@ -738,7 +738,7 @@ const PlasmicDescendants = {
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbar",
+    "searchbarA",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
     "radioTextInputPrimary",
@@ -771,7 +771,7 @@ const PlasmicDescendants = {
     "fabButtonA",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbar",
+    "searchbarA",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
     "radioTextInputPrimary",
@@ -823,7 +823,7 @@ const PlasmicDescendants = {
   tableTeamMemberEditParent: [
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
-    "searchbar",
+    "searchbarA",
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
     "radioTextInputPrimary",
@@ -842,8 +842,8 @@ const PlasmicDescendants = {
     "selectFabParent3"
   ],
 
-  searchFilterDateParent: ["searchFilterDateParent", "searchbar"],
-  searchbar: ["searchbar"],
+  searchFilterDateParent: ["searchFilterDateParent", "searchbarA"],
+  searchbarA: ["searchbarA"],
   tableSelectColumnParent: [
     "tableSelectColumnParent",
     "tableSelectHeaderRow",
@@ -966,7 +966,7 @@ export const PlasmicManageTeam = Object.assign(
     fabButtonA: makeNodeComponent("fabButtonA"),
     tableTeamMemberEditParent: makeNodeComponent("tableTeamMemberEditParent"),
     searchFilterDateParent: makeNodeComponent("searchFilterDateParent"),
-    searchbar: makeNodeComponent("searchbar"),
+    searchbarA: makeNodeComponent("searchbarA"),
     tableSelectColumnParent: makeNodeComponent("tableSelectColumnParent"),
     tableSelectHeaderRow: makeNodeComponent("tableSelectHeaderRow"),
     radioTextInputPrimary: makeNodeComponent("radioTextInputPrimary"),

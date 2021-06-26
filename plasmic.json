@@ -2316,19 +2316,6 @@
           "componentType": "component"
         },
         {
-          "id": "MorSLptejY",
-          "name": "Searchbar",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbar.jsx",
-          "importSpec": {
-            "modulePath": "SearchbarA.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbar.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "o1fXsWwgdW",
           "name": "FabButtonA",
           "type": "managed",
@@ -3397,6 +3384,19 @@
             "modulePath": "ButtonSideBarPartnerSettings.jsx"
           },
           "cssFilePath": "plasmic/market_v_2/PlasmicButtonSideBarPartnerSettings.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MorSLptejY",
+          "name": "SearchbarA",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbarA.jsx",
+          "importSpec": {
+            "modulePath": "SearchbarA.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbarA.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }
