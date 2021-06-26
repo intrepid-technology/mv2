@@ -74,7 +74,7 @@
   padding-top: 2px;
   flex-shrink: 0;
 }
-.searchbarA:global(.__wab_instance) {
+.searchbarPrimary:global(.__wab_instance) {
   position: relative;
 }
 .box__fJTxW {

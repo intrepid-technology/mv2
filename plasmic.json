@@ -1367,19 +1367,6 @@
           "componentType": "page"
         },
         {
-          "id": "DreZnHdEQY",
-          "name": "Searchbadge",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbadge.jsx",
-          "importSpec": {
-            "modulePath": "Searchbadge.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbadge.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "HMzH-BWbGW_",
           "name": "InputProcess",
           "type": "managed",
@@ -3388,15 +3375,28 @@
           "componentType": "component"
         },
         {
-          "id": "MorSLptejY",
-          "name": "SearchbarA",
+          "id": "DreZnHdEQY",
+          "name": "SearchBadge",
           "type": "managed",
           "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbarA.jsx",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchBadge.jsx",
           "importSpec": {
-            "modulePath": "SearchbarA.jsx"
+            "modulePath": "SearchBadge.jsx"
           },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbarA.module.css",
+          "cssFilePath": "plasmic/market_v_2/PlasmicSearchBadge.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MorSLptejY",
+          "name": "SearchbarPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSearchbarPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SearchbarPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSearchbarPrimary.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         }

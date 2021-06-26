@@ -23,7 +23,7 @@ import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmi
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import SectionServiceFeatures from "../../SectionServiceFeatures"; // plasmic-import: Ulc7rzEWW6/component
 import SectionServiceContent from "../../SectionServiceContent"; // plasmic-import: 62pZUpsW52/component
-import Searchbadge from "../../Searchbadge"; // plasmic-import: DreZnHdEQY/component
+import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -346,8 +346,8 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <Searchbadge
-                className={classNames("__wab_instance", sty.searchbadge__icJl8)}
+              <SearchBadge
+                className={classNames("__wab_instance", sty.searchBadge__icJl8)}
               >
                 <ChipBadgeDisplay
                   className={classNames(
@@ -456,7 +456,7 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                     {"Badge"}
                   </div>
                 </ChipBadgeDisplay>
-              </Searchbadge>
+              </SearchBadge>
             </p.Stack>
 
             <ToolTipServiceListing
@@ -512,10 +512,10 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <Searchbadge
+              <SearchBadge
                 className={classNames(
                   "__wab_instance",
-                  sty.searchbadge___0Gt9X
+                  sty.searchBadge___0Gt9X
                 )}
               >
                 <ChipBadgeDisplay
@@ -625,7 +625,7 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                     {"Badge"}
                   </div>
                 </ChipBadgeDisplay>
-              </Searchbadge>
+              </SearchBadge>
             </p.Stack>
 
             <ToolTipServiceListing

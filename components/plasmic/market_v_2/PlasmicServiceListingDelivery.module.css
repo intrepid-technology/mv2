@@ -403,7 +403,7 @@
 .box__d40N6 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.searchbadge:global(.__wab_instance) {
+.searchBadge:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;

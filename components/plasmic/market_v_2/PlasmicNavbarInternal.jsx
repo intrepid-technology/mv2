@@ -19,7 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarSwitch from "../../NavbarSwitch"; // plasmic-import: tmc24NnB44/component
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
-import SearchbarA from "../../SearchbarA"; // plasmic-import: MorSLptejY/component
+import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import NavbarSave from "../../NavbarSave"; // plasmic-import: -GlpTucHU-/component
 import NavbarBrief from "../../NavbarBrief"; // plasmic-import: WoHRRICUYW/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -109,11 +109,11 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                 hasVariant(variants, "state", "loggedOut")
             })}
           >
-            <SearchbarA
-              data-plasmic-name={"searchbarA"}
-              data-plasmic-override={overrides.searchbarA}
-              className={classNames("__wab_instance", sty.searchbarA, {
-                [sty.searchbarA__user_member_state_loggedOut]:
+            <SearchbarPrimary
+              data-plasmic-name={"searchbarPrimary"}
+              data-plasmic-override={overrides.searchbarPrimary}
+              className={classNames("__wab_instance", sty.searchbarPrimary, {
+                [sty.searchbarPrimary__user_member_state_loggedOut]:
                   hasVariant(variants, "user", "member") &&
                   hasVariant(variants, "state", "loggedOut")
               })}
@@ -399,7 +399,7 @@ const PlasmicDescendants = {
     "navbarSwitch",
     "navbarLogo",
     "searchBox",
-    "searchbarA",
+    "searchbarPrimary",
     "navbarListButton",
     "navbarListButtonTextParent",
     "navbarListButtonSvg",
@@ -419,7 +419,7 @@ const PlasmicDescendants = {
     "navbarSwitch",
     "navbarLogo",
     "searchBox",
-    "searchbarA",
+    "searchbarPrimary",
     "navbarListButton",
     "navbarListButtonTextParent",
     "navbarListButtonSvg",
@@ -436,8 +436,8 @@ const PlasmicDescendants = {
   sidebarHeaderClosed: ["sidebarHeaderClosed", "navbarSwitch", "navbarLogo"],
   navbarSwitch: ["navbarSwitch"],
   navbarLogo: ["navbarLogo"],
-  searchBox: ["searchBox", "searchbarA"],
-  searchbarA: ["searchbarA"],
+  searchBox: ["searchBox", "searchbarPrimary"],
+  searchbarPrimary: ["searchbarPrimary"],
   navbarListButton: [
     "navbarListButton",
     "navbarListButtonTextParent",
@@ -509,7 +509,7 @@ export const PlasmicNavbarInternal = Object.assign(
     navbarSwitch: makeNodeComponent("navbarSwitch"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     searchBox: makeNodeComponent("searchBox"),
-    searchbarA: makeNodeComponent("searchbarA"),
+    searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     navbarListButton: makeNodeComponent("navbarListButton"),
     navbarListButtonTextParent: makeNodeComponent("navbarListButtonTextParent"),
     navbarListButtonSvg: makeNodeComponent("navbarListButtonSvg"),

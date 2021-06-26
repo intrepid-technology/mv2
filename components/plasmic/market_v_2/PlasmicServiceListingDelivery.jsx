@@ -22,7 +22,7 @@ import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-impo
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRmUa9KEQ/component
-import Searchbadge from "../../Searchbadge"; // plasmic-import: DreZnHdEQY/component
+import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -409,10 +409,10 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
               </div>
             </CardQuestionServiceListing>
 
-            <Searchbadge
-              data-plasmic-name={"searchbadge"}
-              data-plasmic-override={overrides.searchbadge}
-              className={classNames("__wab_instance", sty.searchbadge)}
+            <SearchBadge
+              data-plasmic-name={"searchBadge"}
+              data-plasmic-override={overrides.searchBadge}
+              className={classNames("__wab_instance", sty.searchBadge)}
             >
               <ChipBadgeDisplay
                 data-plasmic-name={"chipBadgeDisplay"}
@@ -430,7 +430,7 @@ function PlasmicServiceListingDelivery__RenderFunc(props) {
                   {"Badge"}
                 </div>
               </ChipBadgeDisplay>
-            </Searchbadge>
+            </SearchBadge>
           </p.Stack>
 
           <FooterServiceListing
@@ -456,7 +456,7 @@ const PlasmicDescendants = {
     "questionRevisionBlock",
     "questionRequirementBlock",
     "questionFormatBlock",
-    "searchbadge",
+    "searchBadge",
     "chipBadgeDisplay",
     "footerServiceListing"
   ],
@@ -476,11 +476,11 @@ const PlasmicDescendants = {
   questionRequirementBlock: ["questionRequirementBlock"],
   questionFormatBlock: [
     "questionFormatBlock",
-    "searchbadge",
+    "searchBadge",
     "chipBadgeDisplay"
   ],
 
-  searchbadge: ["searchbadge", "chipBadgeDisplay"],
+  searchBadge: ["searchBadge", "chipBadgeDisplay"],
   chipBadgeDisplay: ["chipBadgeDisplay"],
   footerServiceListing: ["footerServiceListing"]
 };
@@ -525,7 +525,7 @@ export const PlasmicServiceListingDelivery = Object.assign(
     questionRevisionBlock: makeNodeComponent("questionRevisionBlock"),
     questionRequirementBlock: makeNodeComponent("questionRequirementBlock"),
     questionFormatBlock: makeNodeComponent("questionFormatBlock"),
-    searchbadge: makeNodeComponent("searchbadge"),
+    searchBadge: makeNodeComponent("searchBadge"),
     chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServiceListingDelivery
