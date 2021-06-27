@@ -18,7 +18,7 @@
 .parentLink__state_selected {
   border-bottom: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.root__color_primary:hover .parentLink__color_primary {
+.root__color_ghost:hover .parentLink__color_ghost {
   background: #f8f8ff repeat;
 }
 .textParent {
@@ -58,6 +58,9 @@
 .slotLinkText__state_selected {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
+.slotLinkText__state_disabled {
+  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+}
 .root:hover .slotLinkText {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
@@ -84,4 +87,7 @@
 }
 .root__state_selected:hover .slotLinkText__state_selected {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
+}
+.root__state_disabled:hover .slotLinkText__state_disabled {
+  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }

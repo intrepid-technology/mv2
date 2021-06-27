@@ -36,8 +36,9 @@ function PlasmicNavLink__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
         [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__color_primary]: hasVariant(variants, "color", "primary"),
+        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
         [sty.root__state_selected]: hasVariant(variants, "state", "selected")
       })}
     >
@@ -46,13 +47,8 @@ function PlasmicNavLink__RenderFunc(props) {
         data-plasmic-override={overrides.parentLink}
         className={classNames(defaultcss.all, sty.parentLink, {
           [sty.parentLink__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.parentLink__color_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.parentLink__color_light]: hasVariant(variants, "color", "light"),
-          [sty.parentLink__color_primary]: hasVariant(
-            variants,
-            "color",
-            "primary"
-          ),
-
           [sty.parentLink__state_selected]: hasVariant(
             variants,
             "state",
@@ -84,16 +80,22 @@ function PlasmicNavLink__RenderFunc(props) {
                   "brand"
                 ),
 
+                [sty.slotLinkText__color_ghost]: hasVariant(
+                  variants,
+                  "color",
+                  "ghost"
+                ),
+
                 [sty.slotLinkText__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotLinkText__color_primary]: hasVariant(
+                [sty.slotLinkText__state_disabled]: hasVariant(
                   variants,
-                  "color",
-                  "primary"
+                  "state",
+                  "disabled"
                 ),
 
                 [sty.slotLinkText__state_selected]: hasVariant(

@@ -47,18 +47,22 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"box"}
+        data-plasmic-override={overrides.box}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__fMapR)}
+        className={classNames(defaultcss.all, sty.box)}
       >
         <NavLink
-          className={classNames("__wab_instance", sty.navLink__yoTnn, {
-            [sty.navLink__colors_brand__yoTnny0PJg]: hasVariant(
+          data-plasmic-name={"memberPricing"}
+          data-plasmic-override={overrides.memberPricing}
+          className={classNames("__wab_instance", sty.memberPricing, {
+            [sty.memberPricing__colors_brand]: hasVariant(
               variants,
               "colors",
               "brand"
             ),
 
-            [sty.navLink__colors_dark__yoTnnf2DBb]: hasVariant(
+            [sty.memberPricing__colors_dark]: hasVariant(
               variants,
               "colors",
               "dark"
@@ -69,31 +73,23 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : hasVariant(variants, "colors", "dark")
               ? "light"
-              : undefined
+              : "primary"
           }
-          linkText={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__rvuz
-              )}
-            >
-              {"Members"}
-            </div>
-          }
+          linkText={"Members"}
           target={"/member-pricing"}
         />
 
         <NavLink
-          className={classNames("__wab_instance", sty.navLink__mtt2Z, {
-            [sty.navLink__colors_brand__mtt2Zy0PJg]: hasVariant(
+          data-plasmic-name={"partnerPricing"}
+          data-plasmic-override={overrides.partnerPricing}
+          className={classNames("__wab_instance", sty.partnerPricing, {
+            [sty.partnerPricing__colors_brand]: hasVariant(
               variants,
               "colors",
               "brand"
             ),
 
-            [sty.navLink__colors_dark__mtt2Zf2DBb]: hasVariant(
+            [sty.partnerPricing__colors_dark]: hasVariant(
               variants,
               "colors",
               "dark"
@@ -104,19 +100,9 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : hasVariant(variants, "colors", "dark")
               ? "light"
-              : undefined
+              : "primary"
           }
-          linkText={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box___2ICub
-              )}
-            >
-              {"Partners"}
-            </div>
-          }
+          linkText={"Partners"}
           target={"/partner-pricing"}
         />
 
@@ -124,14 +110,16 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
           hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
         ) ? (
           <NavLink
-            className={classNames("__wab_instance", sty.navLink__n3I4H, {
-              [sty.navLink__colors_brand__n3I4Hy0PJg]: hasVariant(
+            data-plasmic-name={"loginMain"}
+            data-plasmic-override={overrides.loginMain}
+            className={classNames("__wab_instance", sty.loginMain, {
+              [sty.loginMain__colors_brand]: hasVariant(
                 variants,
                 "colors",
                 "brand"
               ),
 
-              [sty.navLink__colors_dark__n3I4Hf2DBb]: hasVariant(
+              [sty.loginMain__colors_dark]: hasVariant(
                 variants,
                 "colors",
                 "dark"
@@ -142,19 +130,9 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
                 ? "light"
                 : hasVariant(variants, "colors", "dark")
                 ? "light"
-                : undefined
+                : "primary"
             }
-            linkText={
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__gNF
-                )}
-              >
-                {"Login"}
-              </div>
-            }
+            linkText={"Login"}
             target={"/log-in"}
           />
         ) : null}
@@ -164,7 +142,11 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "box", "memberPricing", "partnerPricing", "loginMain"],
+  box: ["box", "memberPricing", "partnerPricing", "loginMain"],
+  memberPricing: ["memberPricing"],
+  partnerPricing: ["partnerPricing"],
+  loginMain: ["loginMain"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -198,6 +180,10 @@ export const PlasmicNavbarOverhead = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    box: makeNodeComponent("box"),
+    memberPricing: makeNodeComponent("memberPricing"),
+    partnerPricing: makeNodeComponent("partnerPricing"),
+    loginMain: makeNodeComponent("loginMain"),
     // Metadata about props expected for PlasmicNavbarOverhead
     internalVariantProps: PlasmicNavbarOverhead__VariantProps,
     internalArgProps: PlasmicNavbarOverhead__ArgProps

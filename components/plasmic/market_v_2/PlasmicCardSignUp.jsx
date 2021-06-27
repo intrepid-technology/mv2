@@ -46,16 +46,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"emailInputParent"}
+        data-plasmic-override={overrides.emailInputParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__gxkn)}
+        className={classNames(defaultcss.all, sty.emailInputParent)}
       >
         <div
-          data-plasmic-name={"signupEmail"}
-          data-plasmic-override={overrides.signupEmail}
+          data-plasmic-name={"emailText"}
+          data-plasmic-override={overrides.emailText}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.signupEmail
+            sty.emailText
           )}
         >
           {"Email"}
@@ -74,16 +76,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"passwordInputParent"}
+        data-plasmic-override={overrides.passwordInputParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__fGYjy)}
+        className={classNames(defaultcss.all, sty.passwordInputParent)}
       >
         <div
-          data-plasmic-name={"signupPassword"}
-          data-plasmic-override={overrides.signupPassword}
+          data-plasmic-name={"passwordText"}
+          data-plasmic-override={overrides.passwordText}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.signupPassword
+            sty.passwordText
           )}
         >
           {"Password"}
@@ -119,8 +123,10 @@ function PlasmicCardSignUp__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"divider"}
+        data-plasmic-override={overrides.divider}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__nt7Ug)}
+        className={classNames(defaultcss.all, sty.divider)}
       >
         <SectionDividerIcon
           className={classNames(defaultcss.all, sty.svg__pz4Rl)}
@@ -153,7 +159,8 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-override={overrides.signupFacebookConnection}
           className={classNames("__wab_instance", sty.signupFacebookConnection)}
           company={"facebook"}
-          originalSizes={"_360X48"}
+          height={"_48"}
+          width={"_360"}
         />
 
         <ButtonConnectedAccount
@@ -161,7 +168,8 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-override={overrides.signupGoogleConnection}
           className={classNames("__wab_instance", sty.signupGoogleConnection)}
           company={"google"}
-          originalSizes={"_360X48"}
+          height={"_48"}
+          width={"_360"}
         />
       </p.Stack>
 
@@ -252,11 +260,14 @@ function PlasmicCardSignUp__RenderFunc(props) {
 const PlasmicDescendants = {
   formHomeSignUp: [
     "formHomeSignUp",
-    "signupEmail",
+    "emailInputParent",
+    "emailText",
     "email",
-    "signupPassword",
+    "passwordInputParent",
+    "passwordText",
     "password",
     "submitButton",
+    "divider",
     "signupFacebookConnection",
     "signupGoogleConnection",
     "buttonPrimary",
@@ -265,11 +276,14 @@ const PlasmicDescendants = {
     "signupPrivacy"
   ],
 
-  signupEmail: ["signupEmail"],
+  emailInputParent: ["emailInputParent", "emailText", "email"],
+  emailText: ["emailText"],
   email: ["email"],
-  signupPassword: ["signupPassword"],
+  passwordInputParent: ["passwordInputParent", "passwordText", "password"],
+  passwordText: ["passwordText"],
   password: ["password"],
   submitButton: ["submitButton"],
+  divider: ["divider"],
   signupFacebookConnection: ["signupFacebookConnection"],
   signupGoogleConnection: ["signupGoogleConnection"],
   buttonPrimary: ["buttonPrimary"],
@@ -309,11 +323,14 @@ export const PlasmicCardSignUp = Object.assign(
   makeNodeComponent("formHomeSignUp"),
   {
     // Helper components rendering sub-elements
-    signupEmail: makeNodeComponent("signupEmail"),
+    emailInputParent: makeNodeComponent("emailInputParent"),
+    emailText: makeNodeComponent("emailText"),
     email: makeNodeComponent("email"),
-    signupPassword: makeNodeComponent("signupPassword"),
+    passwordInputParent: makeNodeComponent("passwordInputParent"),
+    passwordText: makeNodeComponent("passwordText"),
     password: makeNodeComponent("password"),
     submitButton: makeNodeComponent("submitButton"),
+    divider: makeNodeComponent("divider"),
     signupFacebookConnection: makeNodeComponent("signupFacebookConnection"),
     signupGoogleConnection: makeNodeComponent("signupGoogleConnection"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
