@@ -43,13 +43,13 @@ function PlasmicNavLink__RenderFunc(props) {
       })}
     >
       <p.PlasmicLink
-        data-plasmic-name={"parentLink"}
-        data-plasmic-override={overrides.parentLink}
-        className={classNames(defaultcss.all, sty.parentLink, {
-          [sty.parentLink__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.parentLink__color_ghost]: hasVariant(variants, "color", "ghost"),
-          [sty.parentLink__color_light]: hasVariant(variants, "color", "light"),
-          [sty.parentLink__state_selected]: hasVariant(
+        data-plasmic-name={"parent"}
+        data-plasmic-override={overrides.parent}
+        className={classNames(defaultcss.all, sty.parent, {
+          [sty.parent__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.parent__color_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.parent__color_light]: hasVariant(variants, "color", "light"),
+          [sty.parent__state_selected]: hasVariant(
             variants,
             "state",
             "selected"
@@ -113,8 +113,8 @@ function PlasmicNavLink__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parentLink", "textParent", "textBg"],
-  parentLink: ["parentLink", "textParent", "textBg"],
+  root: ["root", "parent", "textParent", "textBg"],
+  parent: ["parent", "textParent", "textBg"],
   textParent: ["textParent", "textBg"],
   textBg: ["textBg"]
 };
@@ -150,7 +150,7 @@ export const PlasmicNavLink = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    parentLink: makeNodeComponent("parentLink"),
+    parent: makeNodeComponent("parent"),
     textParent: makeNodeComponent("textParent"),
     textBg: makeNodeComponent("textBg"),
     // Metadata about props expected for PlasmicNavLink

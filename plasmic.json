@@ -4404,8 +4404,8 @@
         },
         {
           "id": "RRtaLxXmQA",
-          "name": "Icon172Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon172.jsx"
+          "name": "GlobeAmericaIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__GlobeAmerica.jsx"
         },
         {
           "id": "S9Knfl8xCf",
@@ -4721,6 +4721,21 @@
           "id": "-1VBIW_pTX",
           "name": "ChartIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Chart.jsx"
+        },
+        {
+          "id": "l3isbgQ3dC",
+          "name": "DesignIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Design.jsx"
+        },
+        {
+          "id": "cymbQps3m",
+          "name": "P2PPayPaymentIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__P2PPayPayment.jsx"
+        },
+        {
+          "id": "Vkzuz4t2NA",
+          "name": "VerifiedIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Verified.jsx"
         }
       ],
       "images": [

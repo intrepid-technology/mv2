@@ -33,7 +33,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicHome.module.css"; // plasmic-import: i2JeAjsJVt/css
 import Icon144Icon from "./icons/PlasmicIcon__Icon144"; // plasmic-import: HiIdGyRzm_/icon
-import Icon172Icon from "./icons/PlasmicIcon__Icon172"; // plasmic-import: RRtaLxXmQA/icon
+import GlobeAmericaIcon from "./icons/PlasmicIcon__GlobeAmerica"; // plasmic-import: RRtaLxXmQA/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
 import Icon169Icon from "./icons/PlasmicIcon__Icon169"; // plasmic-import: kZwjesU0eU/icon
 import Icon40Icon from "./icons/PlasmicIcon__Icon40"; // plasmic-import: t-46_qdmWO/icon
@@ -204,7 +204,7 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Work and live from anywhere"}
                   iconParent={
                     <div className={classNames(defaultcss.all, sty.box__nlzEe)}>
-                      <Icon172Icon
+                      <GlobeAmericaIcon
                         className={classNames(defaultcss.all, sty.svg__hG9X2)}
                         role={"img"}
                       />

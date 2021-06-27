@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon172Icon(props) {
+export function GlobeAmericaIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -31,5 +31,5 @@ export function Icon172Icon(props) {
   );
 }
 
-export default Icon172Icon;
+export default GlobeAmericaIcon;
 /* prettier-ignore-end */

@@ -193,7 +193,8 @@ function PlasmicCardLogIn__RenderFunc(props) {
           data-plasmic-override={overrides.loginFacebookConnect}
           className={classNames("__wab_instance", sty.loginFacebookConnect)}
           company={"facebook"}
-          originalSizes={"_360X48"}
+          height={"_48"}
+          width={"_360"}
         />
 
         <ButtonConnectedAccount
@@ -201,7 +202,8 @@ function PlasmicCardLogIn__RenderFunc(props) {
           data-plasmic-override={overrides.loginGoogleConnect}
           className={classNames("__wab_instance", sty.loginGoogleConnect)}
           company={"google"}
-          originalSizes={"_360X48"}
+          height={"_48"}
+          width={"_360"}
         />
       </p.Stack>
 

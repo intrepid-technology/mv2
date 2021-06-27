@@ -12,6 +12,7 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -36,6 +37,11 @@ import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2
 import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import Icon169Icon from "./icons/PlasmicIcon__Icon169"; // plasmic-import: kZwjesU0eU/icon
+import DesignIcon from "./icons/PlasmicIcon__Design"; // plasmic-import: l3isbgQ3dC/icon
+import GlobeAmericaIcon from "./icons/PlasmicIcon__GlobeAmerica"; // plasmic-import: RRtaLxXmQA/icon
+import P2PPayPaymentIcon from "./icons/PlasmicIcon__P2PPayPayment"; // plasmic-import: cymbQps3m/icon
+import VerifiedIcon from "./icons/PlasmicIcon__Verified"; // plasmic-import: Vkzuz4t2NA/icon
+import ChartIcon from "./icons/PlasmicIcon__Chart"; // plasmic-import: -1VBIW_pTX/icon
 
 export const PlasmicPartnerPricing__VariantProps = new Array();
 
@@ -1166,6 +1172,19 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__jzQpV
               )}
               headline={"Automated scoping & service design"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box__z1I9A)}>
+                  <p.PlasmicIcon
+                    PlasmicIconType={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? DesignIcon
+                        : DesignIcon
+                    }
+                    className={classNames(defaultcss.all, sty.svg__biheL)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Scope and create unique services, in multiple compositions, blazingly fast, making it easier for clients to buy your services."
               }
@@ -1177,6 +1196,19 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__z3Wte
               )}
               headline={"Sell direct to a global audience"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box__suBeb)}>
+                  <p.PlasmicIcon
+                    PlasmicIconType={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? GlobeAmericaIcon
+                        : GlobeAmericaIcon
+                    }
+                    className={classNames(defaultcss.all, sty.svg__vzVi6)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Reach a global client base and enjoy a steady flow of high-value, remote-first company clients all year round."
               }
@@ -1188,6 +1220,14 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__j0WfQ
               )}
               headline={"Fast International P2P payments"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box__q5Chp)}>
+                  <P2PPayPaymentIcon
+                    className={classNames(defaultcss.all, sty.svg__iyhPz)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Get paid quickly and easily, even across international borders with automated invoice processing, payments, and escrow."
               }
@@ -1199,6 +1239,14 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__ts4YO
               )}
               headline={"Verified profiles, ratings & reviews"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box__aCib)}>
+                  <VerifiedIcon
+                    className={classNames(defaultcss.all, sty.svg__sVbpm)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Become a trusted seller and drive future sales with verified reviews from top-tier enterprises."
               }
@@ -1210,6 +1258,14 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__kDm22
               )}
               headline={"Analytics & performance tracking"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box___4Ad4N)}>
+                  <ChartIcon
+                    className={classNames(defaultcss.all, sty.svg__oD4R)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Access powerful analytics and lead generation tools to better understand your followers, customers, and build a scalable and profitable business."
               }
@@ -1221,6 +1277,14 @@ function PlasmicPartnerPricing__RenderFunc(props) {
                 sty.cardFeatureDescription__qMfwQ
               )}
               headline={"Community & collaboration"}
+              iconParent={
+                <div className={classNames(defaultcss.all, sty.box__kVtD)}>
+                  <TeamPartnersIcon
+                    className={classNames(defaultcss.all, sty.svg__yyYG)}
+                    role={"img"}
+                  />
+                </div>
+              }
               text={
                 "Learn from leading entrepreneurs, creatives, and cutting-edge technologists from around the world."
               }
