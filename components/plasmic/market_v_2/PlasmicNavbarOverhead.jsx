@@ -26,7 +26,10 @@ import * as sty from "./PlasmicNavbarOverhead.module.css"; // plasmic-import: 3c
 
 export const PlasmicNavbarOverhead__VariantProps = new Array("colors");
 
-export const PlasmicNavbarOverhead__ArgProps = new Array();
+export const PlasmicNavbarOverhead__ArgProps = new Array(
+  "destination",
+  "loginMain"
+);
 
 function PlasmicNavbarOverhead__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -76,7 +79,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               : "primary"
           }
           linkText={"Members"}
-          target={"/member-pricing"}
+          memberPricing={"/member-pricing"}
         />
 
         <NavLink
@@ -103,7 +106,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               : "primary"
           }
           linkText={"Partners"}
-          target={"/partner-pricing"}
+          partnerPricing={"/partner-pricing"}
         />
 
         {(
@@ -133,7 +136,9 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
                 : "primary"
             }
             linkText={"Login"}
-            target={"/log-in"}
+            loginMain={
+              args.loginMain !== undefined ? args.loginMain : "/log-in"
+            }
           />
         ) : null}
       </p.Stack>

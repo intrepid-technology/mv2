@@ -24,7 +24,15 @@ import * as sty from "./PlasmicNavLink.module.css"; // plasmic-import: jGROxaZ_H
 
 export const PlasmicNavLink__VariantProps = new Array("color", "state");
 
-export const PlasmicNavLink__ArgProps = new Array("linkText", "target");
+export const PlasmicNavLink__ArgProps = new Array(
+  "linkText",
+  "memberPricing",
+  "partnerPricing",
+  "loginMain",
+  "signupMain",
+  "partnerProfile",
+  "memberProfile"
+);
 
 function PlasmicNavLink__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
