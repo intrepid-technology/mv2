@@ -48,7 +48,7 @@
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
   .heroParent {
-    padding: 64px;
+    padding: 32px 64px 48px;
   }
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
@@ -71,7 +71,7 @@
   .heroParent {
     display: flex;
     flex-direction: column;
-    padding: 32px 16px;
+    padding: 24px 16px 32px;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -96,7 +96,7 @@
 }
 @media (max-width: 375px) {
   .heroParent {
-    padding: 32px 8px;
+    padding: 24px 8px 32px;
   }
 }
 .heroTextBlock {
@@ -121,7 +121,13 @@
   margin-top: 48px;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
+  .heroTextBlock {
+    align-self: flex-start;
+  }
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
   .heroTextBlock > :global(.__wab_flex-container) {
+    justify-content: space-evenly;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
@@ -180,6 +186,7 @@
     font-size: 80px;
     line-height: 1.2;
     font-weight: 800;
+    align-self: flex-start;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -879,13 +886,27 @@
 @media (min-width: 1152px) and (max-width: 1440px) {
   .box__zVk1H {
     display: block;
-    font-size: 16px;
+    font-size: 12px;
     font-family: "Inter", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: normal;
-    line-height: 1.4;
-    color: #666666 /* plasmic-token: MAJ29KQMI */;
+    line-height: 1;
+    color: #6633ff /* plasmic-token: uR5bbW8Fd */;
     align-self: stretch;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .box__zVk1H {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #6633ff /* plasmic-token: uR5bbW8Fd */;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: normal;
+    min-width: 0;
   }
 }
 .cardSignUp:global(.__wab_instance) {
@@ -994,24 +1015,26 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__d8S0D {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow: visible;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .box__d8S0D > :global(.__wab_flex-container) {
-    justify-content: center;
-    flex-direction: column;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 32px);
-    height: calc(100% + 32px);
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: calc(0px - 32px);
+    width: calc(100% + 32px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .box__d8S0D > :global(.__wab_flex-container) > *,
   .box__d8S0D > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-    margin-left: 0px;
-    margin-top: 32px;
+    margin-left: 32px;
+    margin-top: 0px;
   }
 }
 .cardImageHeadlineDescription__tDfJ5:global(.__wab_instance) {
@@ -1211,6 +1234,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 8px;
+    height: auto;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -1360,6 +1384,11 @@
   height: 100%;
   flex-shrink: 0;
   min-height: 0;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .img___6CsQ {
+    height: 405px;
+  }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .img___6CsQ {
@@ -1591,6 +1620,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 8px;
+    height: auto;
   }
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
@@ -1637,6 +1667,11 @@
   height: 100%;
   flex-shrink: 0;
   min-height: 0;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .img__dQqz3 {
+    height: 405px;
+  }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .img__dQqz3 {

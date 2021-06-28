@@ -24,7 +24,7 @@ import * as sty from "./PlasmicFooterLogo.module.css"; // plasmic-import: Prx2-J
 
 export const PlasmicFooterLogo__VariantProps = new Array("light", "size");
 
-export const PlasmicFooterLogo__ArgProps = new Array();
+export const PlasmicFooterLogo__ArgProps = new Array("destination");
 
 function PlasmicFooterLogo__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -40,6 +40,7 @@ function PlasmicFooterLogo__RenderFunc(props) {
         sty.footerlogoLink
       )}
       component={Link}
+      href={args.destination}
       platform={"nextjs"}
     >
       <img
@@ -52,12 +53,14 @@ function PlasmicFooterLogo__RenderFunc(props) {
           [sty.img__size__24]: hasVariant(variants, "size", "_24"),
           [sty.img__size__32]: hasVariant(variants, "size", "_32")
         })}
+        height={hasVariant(variants, "light", "light") ? 83 : 83}
         role={"img"}
         src={
           hasVariant(variants, "light", "light")
             ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
             : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
         }
+        width={hasVariant(variants, "light", "light") ? 300 : 300}
       />
     </p.PlasmicLink>
   );

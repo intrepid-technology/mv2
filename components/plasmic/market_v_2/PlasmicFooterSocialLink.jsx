@@ -27,7 +27,7 @@ export const PlasmicFooterSocialLink__VariantProps = new Array("color");
 
 export const PlasmicFooterSocialLink__ArgProps = new Array(
   "children",
-  "target"
+  "destination"
 );
 
 function PlasmicFooterSocialLink__RenderFunc(props) {
@@ -44,7 +44,9 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
         [sty.root__color_light]: hasVariant(variants, "color", "light")
       })}
       component={Link}
+      href={args.destination}
       platform={"nextjs"}
+      target={"_blank"}
     >
       <div
         data-plasmic-name={"box"}

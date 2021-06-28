@@ -51,6 +51,7 @@ function PlasmicFooterB__RenderFunc(props) {
         className={classNames("__wab_instance", sty.navbarLogo, {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
+        destination={"/"}
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
 
@@ -188,6 +189,7 @@ function PlasmicFooterB__RenderFunc(props) {
               }
             )}
             color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
+            destination={"/privacy"}
             slot={
               hasVariant(variants, "color", "dark")
                 ? "Privacy"
@@ -212,6 +214,7 @@ function PlasmicFooterB__RenderFunc(props) {
               }
             )}
             color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
+            destination={"/terms-of-service"}
             slot={
               hasVariant(variants, "color", "dark")
                 ? "Terms"

@@ -30,13 +30,13 @@ export const PlasmicTextLinkUnderlinePrimary__VariantProps = new Array(
 
 export const PlasmicTextLinkUnderlinePrimary__ArgProps = new Array(
   "children",
-  "target"
+  "destination"
 );
 
 function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.PlasmicLink
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -65,6 +65,9 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
         [sty.root__size__32]: hasVariant(variants, "size", "_32"),
         [sty.root__size__40]: hasVariant(variants, "size", "_40")
       })}
+      component={Link}
+      href={args.destination}
+      platform={"nextjs"}
     >
       <p.PlasmicLink
         data-plasmic-name={"textLinkcontainer"}
@@ -131,7 +134,7 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
           })
         })}
       </p.PlasmicLink>
-    </div>
+    </p.PlasmicLink>
   );
 }
 

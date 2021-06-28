@@ -24,20 +24,12 @@ import * as sty from "./PlasmicNavLink.module.css"; // plasmic-import: jGROxaZ_H
 
 export const PlasmicNavLink__VariantProps = new Array("color", "state");
 
-export const PlasmicNavLink__ArgProps = new Array(
-  "linkText",
-  "memberPricing",
-  "partnerPricing",
-  "loginMain",
-  "signupMain",
-  "partnerProfile",
-  "memberProfile"
-);
+export const PlasmicNavLink__ArgProps = new Array("linkText", "destination");
 
 function PlasmicNavLink__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.PlasmicLink
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -49,8 +41,11 @@ function PlasmicNavLink__RenderFunc(props) {
         [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
         [sty.root__state_selected]: hasVariant(variants, "state", "selected")
       })}
+      component={Link}
+      href={args.destination}
+      platform={"nextjs"}
     >
-      <p.PlasmicLink
+      <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(defaultcss.all, sty.parent, {
@@ -63,8 +58,6 @@ function PlasmicNavLink__RenderFunc(props) {
             "selected"
           )
         })}
-        component={Link}
-        platform={"nextjs"}
       >
         <div
           data-plasmic-name={"textParent"}
@@ -115,8 +108,8 @@ function PlasmicNavLink__RenderFunc(props) {
             })}
           </div>
         </div>
-      </p.PlasmicLink>
-    </div>
+      </div>
+    </p.PlasmicLink>
   );
 }
 

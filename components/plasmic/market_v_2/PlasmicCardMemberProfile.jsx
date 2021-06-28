@@ -56,8 +56,10 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             data-plasmic-override={overrides.img}
             alt={""}
             className={classNames(defaultcss.img, sty.img)}
+            height={360}
             role={"img"}
             src={"/plasmic/market_v_2/images/image4.png"}
+            width={360}
           />
         }
         className={classNames("__wab_instance", sty.userProfileAvatar)}

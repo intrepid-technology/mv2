@@ -78,8 +78,8 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : "primary"
           }
+          destination={"/member-pricing"}
           linkText={"Members"}
-          memberPricing={"/member-pricing"}
         />
 
         <NavLink
@@ -105,8 +105,8 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : "primary"
           }
+          destination={"/partner-pricing"}
           linkText={"Partners"}
-          partnerPricing={"/partner-pricing"}
         />
 
         {(
@@ -135,10 +135,8 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
                 ? "light"
                 : "primary"
             }
+            destination={"/log-in"}
             linkText={"Login"}
-            loginMain={
-              args.loginMain !== undefined ? args.loginMain : "/log-in"
-            }
           />
         ) : null}
       </p.Stack>

@@ -24,12 +24,12 @@ import * as sty from "./PlasmicNavbarLogo.module.css"; // plasmic-import: oDDjpt
 
 export const PlasmicNavbarLogo__VariantProps = new Array("light", "size");
 
-export const PlasmicNavbarLogo__ArgProps = new Array();
+export const PlasmicNavbarLogo__ArgProps = new Array("destination");
 
 function PlasmicNavbarLogo__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.PlasmicLink
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -38,8 +38,11 @@ function PlasmicNavbarLogo__RenderFunc(props) {
         [sty.root__light]: hasVariant(variants, "light", "light"),
         [sty.root__size__18]: hasVariant(variants, "size", "_18")
       })}
+      component={Link}
+      href={args.destination}
+      platform={"nextjs"}
     >
-      <p.PlasmicLink
+      <div
         data-plasmic-name={"navBarLogoLinkParent"}
         data-plasmic-override={overrides.navBarLogoLinkParent}
         className={classNames(defaultcss.all, sty.navBarLogoLinkParent, {
@@ -55,9 +58,6 @@ function PlasmicNavbarLogo__RenderFunc(props) {
             "_18"
           )
         })}
-        component={Link}
-        href={"/"}
-        platform={"nextjs"}
       >
         <img
           data-plasmic-name={"img"}
@@ -73,15 +73,17 @@ function PlasmicNavbarLogo__RenderFunc(props) {
             [sty.img__size__40]: hasVariant(variants, "size", "_40"),
             [sty.img__size__48]: hasVariant(variants, "size", "_48")
           })}
+          height={hasVariant(variants, "light", "light") ? 83 : 83}
           role={"img"}
           src={
             hasVariant(variants, "light", "light")
               ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
               : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
           }
+          width={hasVariant(variants, "light", "light") ? 300 : 300}
         />
-      </p.PlasmicLink>
-    </div>
+      </div>
+    </p.PlasmicLink>
   );
 }
 

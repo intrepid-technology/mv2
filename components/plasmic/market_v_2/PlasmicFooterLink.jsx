@@ -24,7 +24,7 @@ import * as sty from "./PlasmicFooterLink.module.css"; // plasmic-import: V79E-h
 
 export const PlasmicFooterLink__VariantProps = new Array("color");
 
-export const PlasmicFooterLink__ArgProps = new Array("slot");
+export const PlasmicFooterLink__ArgProps = new Array("slot", "destination");
 
 function PlasmicFooterLink__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -40,6 +40,7 @@ function PlasmicFooterLink__RenderFunc(props) {
         [sty.root__color_light]: hasVariant(variants, "color", "light")
       })}
       component={Link}
+      href={args.destination}
       platform={"nextjs"}
     >
       {p.renderPlasmicSlot({

@@ -56,14 +56,14 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <title key="title">
           {
-            "The marketplace community built for entrepreneurs & remote first companies | Intrepid Market"
+            "The marketplace community built for global entrepreneurs & remote first companies | Intrepid Market"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "The marketplace community built for entrepreneurs & remote first companies | Intrepid Market"
+            "The marketplace community built for global entrepreneurs & remote first companies | Intrepid Market"
           }
         />
 
@@ -432,8 +432,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wa1LD)}
+                    height={751}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image31.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -462,8 +464,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___967W9)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image29.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -492,8 +496,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jJa2K)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image11.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -522,8 +528,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__sx00A)}
+                    height={655}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image30.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -615,8 +623,10 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___6CsQ)}
+                height={667}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image25.png"}
+                width={1000}
               />
             </p.Stack>
           </p.Stack>
@@ -673,8 +683,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wAuj8)}
+                    height={650}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image26.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -715,8 +727,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__cZqyO)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image27.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -757,8 +771,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__kbNFx)}
+                    height={1333}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image33.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -805,8 +821,10 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__dQqz3)}
+                height={531}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image23.png"}
+                width={1000}
               />
 
               <p.Stack
@@ -921,8 +939,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__rezLt)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image18.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -963,8 +983,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__mwX2T)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image22.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -1005,8 +1027,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jdMs0)}
+                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image21.png"}
+                    width={1000}
                   />
                 }
                 className={classNames(
@@ -1106,8 +1130,10 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__rCc5H)}
+                height={1294}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image32.png"}
+                width={1000}
               />
             </p.Stack>
           </div>

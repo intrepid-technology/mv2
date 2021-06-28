@@ -93,8 +93,12 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "dark") ? "light" : undefined
               }
+              destination={
+                hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "/member-pricing"
+                  : undefined
+              }
               size={"_14"}
-              target={"/member-pricing"}
             >
               <div
                 className={classNames(

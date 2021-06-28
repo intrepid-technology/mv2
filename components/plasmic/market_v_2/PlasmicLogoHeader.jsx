@@ -47,8 +47,10 @@ function PlasmicLogoHeader__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__n8PaC)}
+                height={83}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
+                width={300}
               />
             ),
 
@@ -63,12 +65,14 @@ function PlasmicLogoHeader__RenderFunc(props) {
           className={classNames(defaultcss.img, sty.img, {
             [sty.img__color]: hasVariant(variants, "color", "color")
           })}
+          height={hasVariant(variants, "color", "color") ? 83 : undefined}
           role={"img"}
           src={
             hasVariant(variants, "color", "color")
               ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
               : undefined
           }
+          width={hasVariant(variants, "color", "color") ? 300 : undefined}
         />
       ) : null}
     </p.PlasmicLink>

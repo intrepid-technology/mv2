@@ -86,8 +86,10 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           data-plasmic-override={overrides.img}
           alt={""}
           className={classNames(defaultcss.img, sty.img)}
+          height={2730}
           role={"img"}
           src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
+          width={4096}
         />
       </div>
     </p.Stack>

@@ -55,7 +55,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.facebook__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        target={"https://www.facebook.com/intrepidmarket"}
+        destination={"https://www.facebook.com/intrepidmarket"}
       />
 
       <FooterSocialLink
@@ -65,7 +65,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.instagram__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        target={"https://www.instagram.com/intrepid.market/"}
+        destination={"https://www.instagram.com/intrepid.marketh"}
       >
         <Icon9Icon
           className={classNames(defaultcss.all, sty.svg__fDtqD)}
@@ -80,7 +80,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.linkedin__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        target={"https://www.linkedin.com/company/intrepidtechnology/"}
+        destination={"https://www.linkedin.com/company/intrepidtechnology"}
       >
         <Icon10Icon
           className={classNames(defaultcss.all, sty.svg__jwRRo)}
@@ -95,7 +95,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.twitter__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        target={"https://twitter.com/intrepidmarket"}
+        destination={"https://twitter.com/intrepidmarket?lang=en"}
       >
         <Icon12Icon
           className={classNames(defaultcss.all, sty.svg__dsyBp)}
@@ -110,7 +110,9 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.youtube__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        target={"https://www.youtube.com/channel/UCefe54paxJv4KnBfu89EgCQ"}
+        destination={
+          "https://www.youtube.com/channel/UCefe54paxJv4KnBfu89EgCQ/about"
+        }
       >
         <Icon11Icon
           className={classNames(defaultcss.all, sty.svg__p0Gqw, {
