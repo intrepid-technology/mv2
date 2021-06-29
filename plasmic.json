@@ -3399,6 +3399,58 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicButtonSideBarPartnerSettings.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "EOrI3xKqvN",
+          "name": "ElementStripeLogoLinkBurple",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicElementStripeLogoLinkBurple.jsx",
+          "importSpec": {
+            "modulePath": "ElementStripeLogoLinkBurple.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicElementStripeLogoLinkBurple.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TzNLRNFhlx",
+          "name": "ChipStripeLink",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicChipStripeLink.jsx",
+          "importSpec": {
+            "modulePath": "ChipStripeLink.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicChipStripeLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GEqD9diS3J",
+          "name": "ButtonStripeVerification",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonStripeVerification.jsx",
+          "importSpec": {
+            "modulePath": "ButtonStripeVerification.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonStripeVerification.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2wDe-7IRwt",
+          "name": "ButtonGroupStripeVerification",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonGroupStripeVerification.jsx",
+          "importSpec": {
+            "modulePath": "ButtonGroupStripeVerification.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonGroupStripeVerification.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -4736,6 +4788,21 @@
           "id": "Vkzuz4t2NA",
           "name": "VerifiedIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Verified.jsx"
+        },
+        {
+          "id": "b3T1tA8bk",
+          "name": "IdVerificationIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__IdVerification.jsx"
+        },
+        {
+          "id": "ecH1_H_aB",
+          "name": "PoweredByStripeWhitesvgIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PoweredByStripeWhitesvg.jsx"
+        },
+        {
+          "id": "vDvy1Uh-W",
+          "name": "StripeWordmarkSlatesvgIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__StripeWordmarkSlatesvg.jsx"
         }
       ],
       "images": [
@@ -5068,6 +5135,11 @@
           "id": "4KOX-0Rmv",
           "name": "image 33",
           "filePath": "../public/plasmic/market_v_2/images/image33.png"
+        },
+        {
+          "id": "4GKR_IGeB",
+          "name": "Stripe wordmark - blurple_lg.png",
+          "filePath": "../public/plasmic/market_v_2/images/stripeWordmarkBlurpleLgpng.png"
         }
       ],
       "codeComponents": [],
