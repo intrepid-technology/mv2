@@ -19,6 +19,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -223,37 +224,65 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.buttonGoBackParent)}
           >
             {(
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "mobileAPrimary")
                 ? true
-                : true
+                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                ? true
+                : false
             ) ? (
-              <ButtonPrimary
-                data-plasmic-name={"backReturn"}
-                data-plasmic-override={overrides.backReturn}
-                className={classNames("__wab_instance", sty.backReturn)}
-                size={
+              <ButtonLinkPrimary
+                data-plasmic-name={"buttonLinkPrimary"}
+                data-plasmic-override={overrides.buttonLinkPrimary}
+                className={classNames("__wab_instance", sty.buttonLinkPrimary)}
+                color={
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? "light"
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "light"
+                    : undefined
+                }
+                destination={
                   hasVariant(globalVariants, "screen", "desktopPrimary")
-                    ? "_360"
-                    : "_360"
+                    ? "/log-in"
+                    : undefined
+                }
+                height={
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? "_48"
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "_48"
+                    : undefined
+                }
+                text={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__yK0Zp
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      ? "Go back"
+                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      ? "Go back"
+                      : "Hyper Link"}
+                  </div>
                 }
                 type={
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
                     ? "outline"
-                    : "outline"
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "outline"
+                    : undefined
                 }
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__nuLrI
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
-                    ? "Go back"
-                    : "Go back"}
-                </div>
-              </ButtonPrimary>
+                width={
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? "_360"
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "_360"
+                    : undefined
+                }
+              />
             ) : null}
           </div>
         ) : null}
@@ -277,7 +306,7 @@ const PlasmicDescendants = {
     "buttonHeadline",
     "confirmationResend",
     "buttonGoBackParent",
-    "backReturn"
+    "buttonLinkPrimary"
   ],
 
   formEmailConfirmation: [
@@ -293,7 +322,7 @@ const PlasmicDescendants = {
     "buttonHeadline",
     "confirmationResend",
     "buttonGoBackParent",
-    "backReturn"
+    "buttonLinkPrimary"
   ],
 
   svgLinkDiv: ["svgLinkDiv"],
@@ -311,8 +340,8 @@ const PlasmicDescendants = {
 
   buttonHeadline: ["buttonHeadline"],
   confirmationResend: ["confirmationResend"],
-  buttonGoBackParent: ["buttonGoBackParent", "backReturn"],
-  backReturn: ["backReturn"]
+  buttonGoBackParent: ["buttonGoBackParent", "buttonLinkPrimary"],
+  buttonLinkPrimary: ["buttonLinkPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -358,7 +387,7 @@ export const PlasmicSectionConfirmEmail = Object.assign(
     buttonHeadline: makeNodeComponent("buttonHeadline"),
     confirmationResend: makeNodeComponent("confirmationResend"),
     buttonGoBackParent: makeNodeComponent("buttonGoBackParent"),
-    backReturn: makeNodeComponent("backReturn"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     // Metadata about props expected for PlasmicSectionConfirmEmail
     internalVariantProps: PlasmicSectionConfirmEmail__VariantProps,
     internalArgProps: PlasmicSectionConfirmEmail__ArgProps

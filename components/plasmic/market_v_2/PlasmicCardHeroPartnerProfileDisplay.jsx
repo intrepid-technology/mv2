@@ -25,6 +25,7 @@ import AvatarGroupIncrement from "../../AvatarGroupIncrement"; // plasmic-import
 import ElementLocationPrimary from "../../ElementLocationPrimary"; // plasmic-import: D70VD4gl3mo/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -33,7 +34,7 @@ import * as sty from "./PlasmicCardHeroPartnerProfileDisplay.module.css"; // pla
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 
 export const PlasmicCardHeroPartnerProfileDisplay__VariantProps = new Array(
-  "state"
+  "userState"
 );
 
 export const PlasmicCardHeroPartnerProfileDisplay__ArgProps = new Array();
@@ -168,31 +169,42 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
         data-plasmic-name={"buttonGroup"}
         data-plasmic-override={overrides.buttonGroup}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.buttonGroup)}
+        className={classNames(defaultcss.all, sty.buttonGroup, {
+          [sty.buttonGroup__userState_loggedIn]: hasVariant(
+            variants,
+            "userState",
+            "loggedIn"
+          )
+        })}
       >
-        <ButtonPrimary
-          className={classNames("__wab_instance", sty.buttonPrimary__byYWe, {
-            [sty.buttonPrimary__state_loggedIn__byYWePUN]: hasVariant(
-              variants,
-              "state",
-              "loggedIn"
-            )
-          })}
-          color={"brand"}
-          size={"_120"}
-          type={
-            hasVariant(variants, "state", "loggedIn") ? "outline" : "primary"
-          }
-        >
-          {hasVariant(variants, "state", "loggedIn") ? "Edit" : "Subscribe"}
-        </ButtonPrimary>
-
-        {(hasVariant(variants, "state", "loggedIn") ? true : true) ? (
+        {(hasVariant(variants, "userState", "loggedIn") ? false : true) ? (
+          <ButtonPrimary
+            className={classNames("__wab_instance", sty.buttonPrimary__byYWe, {
+              [sty.buttonPrimary__userState_loggedIn__byYWePUN]: hasVariant(
+                variants,
+                "userState",
+                "loggedIn"
+              )
+            })}
+            color={"brand"}
+            size={"_120"}
+            type={
+              hasVariant(variants, "userState", "loggedIn")
+                ? "outline"
+                : "primary"
+            }
+          >
+            {hasVariant(variants, "userState", "loggedIn")
+              ? "Edit"
+              : "Subscribe"}
+          </ButtonPrimary>
+        ) : null}
+        {(hasVariant(variants, "userState", "loggedIn") ? true : true) ? (
           <ButtonPrimary
             className={classNames("__wab_instance", sty.buttonPrimary__n3CIf, {
-              [sty.buttonPrimary__state_loggedIn__n3CIfPUN]: hasVariant(
+              [sty.buttonPrimary__userState_loggedIn__n3CIfPUN]: hasVariant(
                 variants,
-                "state",
+                "userState",
                 "loggedIn"
               )
             })}
@@ -202,20 +214,20 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
             {"Follow"}
           </ButtonPrimary>
         ) : null}
-        {(hasVariant(variants, "state", "loggedIn") ? true : true) ? (
+        {(hasVariant(variants, "userState", "loggedIn") ? true : true) ? (
           <IconPrimary
             data-plasmic-name={"iconPrimary"}
             data-plasmic-override={overrides.iconPrimary}
             className={classNames("__wab_instance", sty.iconPrimary, {
-              [sty.iconPrimary__state_loggedIn]: hasVariant(
+              [sty.iconPrimary__userState_loggedIn]: hasVariant(
                 variants,
-                "state",
+                "userState",
                 "loggedIn"
               ),
 
-              [sty.iconPrimary__state_loggedOut]: hasVariant(
+              [sty.iconPrimary__userState_loggedOut]: hasVariant(
                 variants,
-                "state",
+                "userState",
                 "loggedOut"
               )
             })}
@@ -225,9 +237,9 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
                 data-plasmic-name={"svgIcon"}
                 data-plasmic-override={overrides.svgIcon}
                 className={classNames(defaultcss.all, sty.svgIcon, {
-                  [sty.svgIcon__state_loggedIn]: hasVariant(
+                  [sty.svgIcon__userState_loggedIn]: hasVariant(
                     variants,
-                    "state",
+                    "userState",
                     "loggedIn"
                   )
                 })}
@@ -241,6 +253,60 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.svgIcon6)}
                 role={"img"}
               />
+            }
+          />
+        ) : null}
+        {(hasVariant(variants, "userState", "loggedIn") ? true : false) ? (
+          <ButtonLinkPrimary
+            data-plasmic-name={"buttonLinkPrimary"}
+            data-plasmic-override={overrides.buttonLinkPrimary}
+            className={classNames("__wab_instance", sty.buttonLinkPrimary, {
+              [sty.buttonLinkPrimary__userState_loggedIn]: hasVariant(
+                variants,
+                "userState",
+                "loggedIn"
+              )
+            })}
+            color={
+              hasVariant(variants, "userState", "loggedIn")
+                ? "brand"
+                : undefined
+            }
+            destination={
+              hasVariant(variants, "userState", "loggedIn")
+                ? "/business-profile"
+                : undefined
+            }
+            height={
+              hasVariant(variants, "userState", "loggedIn") ? "_32" : undefined
+            }
+            text={
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box__usI4O,
+                  {
+                    [sty.box__userState_loggedIn__usI4OPUN]: hasVariant(
+                      variants,
+                      "userState",
+                      "loggedIn"
+                    )
+                  }
+                )}
+              >
+                {hasVariant(variants, "userState", "loggedIn")
+                  ? "Edit"
+                  : "Hyper Link"}
+              </div>
+            }
+            type={
+              hasVariant(variants, "userState", "loggedIn")
+                ? "outline"
+                : undefined
+            }
+            width={
+              hasVariant(variants, "userState", "loggedIn") ? "_120" : undefined
             }
           />
         ) : null}
@@ -267,7 +333,8 @@ const PlasmicDescendants = {
     "buttonGroup",
     "iconPrimary",
     "svgIcon",
-    "svgIcon6"
+    "svgIcon6",
+    "buttonLinkPrimary"
   ],
 
   avatarParent: ["avatarParent", "userAvatar"],
@@ -300,10 +367,18 @@ const PlasmicDescendants = {
   locationHeadlineParent: ["locationHeadlineParent", "elementLocationPrimary"],
   elementLocationPrimary: ["elementLocationPrimary"],
   companyDescription: ["companyDescription"],
-  buttonGroup: ["buttonGroup", "iconPrimary", "svgIcon", "svgIcon6"],
+  buttonGroup: [
+    "buttonGroup",
+    "iconPrimary",
+    "svgIcon",
+    "svgIcon6",
+    "buttonLinkPrimary"
+  ],
+
   iconPrimary: ["iconPrimary", "svgIcon", "svgIcon6"],
   svgIcon: ["svgIcon"],
-  svgIcon6: ["svgIcon6"]
+  svgIcon6: ["svgIcon6"],
+  buttonLinkPrimary: ["buttonLinkPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -354,6 +429,7 @@ export const PlasmicCardHeroPartnerProfileDisplay = Object.assign(
     iconPrimary: makeNodeComponent("iconPrimary"),
     svgIcon: makeNodeComponent("svgIcon"),
     svgIcon6: makeNodeComponent("svgIcon6"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     // Metadata about props expected for PlasmicCardHeroPartnerProfileDisplay
     internalVariantProps: PlasmicCardHeroPartnerProfileDisplay__VariantProps,
     internalArgProps: PlasmicCardHeroPartnerProfileDisplay__ArgProps

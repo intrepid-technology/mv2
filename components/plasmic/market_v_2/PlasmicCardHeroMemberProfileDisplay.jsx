@@ -23,6 +23,7 @@ import BadgeCommunityRating from "../../BadgeCommunityRating"; // plasmic-import
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import AvatarGroupPrimary from "../../AvatarGroupPrimary"; // plasmic-import: JOFGXHZCoU/component
 import ElementLocationPrimary from "../../ElementLocationPrimary"; // plasmic-import: D70VD4gl3mo/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -33,7 +34,9 @@ import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 
-export const PlasmicCardHeroMemberProfileDisplay__VariantProps = new Array();
+export const PlasmicCardHeroMemberProfileDisplay__VariantProps = new Array(
+  "userState"
+);
 
 export const PlasmicCardHeroMemberProfileDisplay__ArgProps = new Array();
 
@@ -56,7 +59,13 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, sty.parent, {
+          [sty.parent__userState_loggedIn]: hasVariant(
+            variants,
+            "userState",
+            "loggedIn"
+          )
+        })}
       >
         <p.Stack
           as={"div"}
@@ -328,17 +337,93 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           data-plasmic-name={"userButtons"}
           data-plasmic-override={overrides.userButtons}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.userButtons)}
+          className={classNames(defaultcss.all, sty.userButtons, {
+            [sty.userButtons__userState_loggedIn]: hasVariant(
+              variants,
+              "userState",
+              "loggedIn"
+            )
+          })}
         >
-          <ButtonPrimary
-            data-plasmic-name={"buttonPrimary"}
-            data-plasmic-override={overrides.buttonPrimary}
-            color={"brand"}
-            size={"_120"}
-            type={"primary"}
-          >
-            {"Follow"}
-          </ButtonPrimary>
+          {(hasVariant(variants, "userState", "loggedIn") ? true : false) ? (
+            <ButtonLinkPrimary
+              data-plasmic-name={"buttonLinkPrimary"}
+              data-plasmic-override={overrides.buttonLinkPrimary}
+              className={classNames("__wab_instance", sty.buttonLinkPrimary, {
+                [sty.buttonLinkPrimary__userState_loggedIn]: hasVariant(
+                  variants,
+                  "userState",
+                  "loggedIn"
+                )
+              })}
+              color={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "brand"
+                  : undefined
+              }
+              destination={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "/personal-account-profile"
+                  : undefined
+              }
+              height={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "_36"
+                  : undefined
+              }
+              text={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box___2RhX,
+                    {
+                      [sty.box__userState_loggedIn___2RhXmCOui]: hasVariant(
+                        variants,
+                        "userState",
+                        "loggedIn"
+                      )
+                    }
+                  )}
+                >
+                  {hasVariant(variants, "userState", "loggedIn")
+                    ? "Edit"
+                    : "Hyper Link"}
+                </div>
+              }
+              type={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "outline"
+                  : undefined
+              }
+              width={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "_120"
+                  : undefined
+              }
+            />
+          ) : null}
+          {(hasVariant(variants, "userState", "loggedIn") ? false : true) ? (
+            <ButtonPrimary
+              data-plasmic-name={"buttonPrimary"}
+              data-plasmic-override={overrides.buttonPrimary}
+              color={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "brand"
+                  : "brand"
+              }
+              size={"_120"}
+              type={
+                hasVariant(variants, "userState", "loggedIn")
+                  ? "outline"
+                  : "primary"
+              }
+            >
+              {hasVariant(variants, "userState", "loggedIn")
+                ? "Edit"
+                : "Follow"}
+            </ButtonPrimary>
+          ) : null}
 
           <IconPrimary
             className={classNames("__wab_instance", sty.iconPrimary__zkZL)}
@@ -383,6 +468,7 @@ const PlasmicDescendants = {
     "userMemberDescription",
     "_80CharactersMax",
     "userButtons",
+    "buttonLinkPrimary",
     "buttonPrimary",
     "svgIcon"
   ],
@@ -410,6 +496,7 @@ const PlasmicDescendants = {
     "userMemberDescription",
     "_80CharactersMax",
     "userButtons",
+    "buttonLinkPrimary",
     "buttonPrimary",
     "svgIcon"
   ],
@@ -492,7 +579,8 @@ const PlasmicDescendants = {
   elementLocationPrimary: ["elementLocationPrimary"],
   userMemberDescription: ["userMemberDescription", "_80CharactersMax"],
   _80CharactersMax: ["_80CharactersMax"],
-  userButtons: ["userButtons", "buttonPrimary", "svgIcon"],
+  userButtons: ["userButtons", "buttonLinkPrimary", "buttonPrimary", "svgIcon"],
+  buttonLinkPrimary: ["buttonLinkPrimary"],
   buttonPrimary: ["buttonPrimary"],
   svgIcon: ["svgIcon"]
 };
@@ -551,6 +639,7 @@ export const PlasmicCardHeroMemberProfileDisplay = Object.assign(
     userMemberDescription: makeNodeComponent("userMemberDescription"),
     _80CharactersMax: makeNodeComponent("_80CharactersMax"),
     userButtons: makeNodeComponent("userButtons"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     svgIcon: makeNodeComponent("svgIcon"),
     // Metadata about props expected for PlasmicCardHeroMemberProfileDisplay

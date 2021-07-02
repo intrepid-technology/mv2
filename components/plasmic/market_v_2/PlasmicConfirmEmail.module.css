@@ -15,15 +15,15 @@
   .root > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
-    margin-top: calc(0px - 64px);
-    height: calc(100% + 64px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
   }
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
-    margin-top: 64px;
+    margin-top: 0px;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -31,15 +31,15 @@
     justify-content: flex-start;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
-    margin-top: 24px;
+    margin-top: 0px;
   }
 }
 .navbarStatic:global(.__wab_instance) {
@@ -47,6 +47,11 @@
   flex-shrink: 0;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
+  .navbarStatic:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
   .navbarStatic:global(.__wab_instance) {
     flex-shrink: 0;
   }

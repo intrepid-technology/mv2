@@ -316,7 +316,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.buttonPrimary__state_loggedIn__byYWePUN:global(.__wab_instance) {
+.buttonPrimary__userState_loggedIn__byYWePUN:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg__lc7Rv {
@@ -333,7 +333,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.buttonPrimary__state_loggedIn__n3CIfPUN:global(.__wab_instance) {
+.buttonPrimary__userState_loggedIn__n3CIfPUN:global(.__wab_instance) {
   flex-shrink: 0;
   display: none;
 }
@@ -348,7 +348,7 @@
 .iconPrimary:global(.__wab_instance) {
   position: relative;
 }
-.iconPrimary__state_loggedIn:global(.__wab_instance) {
+.iconPrimary__userState_loggedIn:global(.__wab_instance) {
   display: none;
 }
 .svgIcon {
@@ -430,4 +430,14 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
+}
+.buttonLinkPrimary:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonLinkPrimary__userState_loggedIn:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.box__userState_loggedIn__usI4OPUN {
+  font-size: 16px;
 }

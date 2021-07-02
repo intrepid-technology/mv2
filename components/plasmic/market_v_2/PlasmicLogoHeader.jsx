@@ -15,8 +15,10 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -28,17 +30,26 @@ export const PlasmicLogoHeader__ArgProps = new Array("children");
 
 function PlasmicLogoHeader__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <p.PlasmicLink
-      data-plasmic-name={"root"}
-      data-plasmic-override={overrides.root}
+      data-plasmic-name={"logoLink"}
+      data-plasmic-override={overrides.logoLink}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.root_reset,
+        sty.logoLink,
+        { [sty.logoLink__color]: hasVariant(variants, "color", "color") }
+      )}
       component={Link}
-      href={"/app"}
+      href={
+        hasVariant(globalVariants, "screen", "desktopPrimary") ? "/" : "/app"
+      }
       platform={"nextjs"}
     >
       {(hasVariant(variants, "color", "color") ? false : true)
@@ -80,7 +91,7 @@ function PlasmicLogoHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "img"],
+  logoLink: ["logoLink", "img"],
   img: ["img"]
 };
 
@@ -102,7 +113,7 @@ function makeNodeComponent(nodeName) {
       forNode: nodeName
     });
   };
-  if (nodeName === "root") {
+  if (nodeName === "logoLink") {
     func.displayName = "PlasmicLogoHeader";
   } else {
     func.displayName = `PlasmicLogoHeader.${nodeName}`;
@@ -112,7 +123,7 @@ function makeNodeComponent(nodeName) {
 
 export const PlasmicLogoHeader = Object.assign(
   // Top-level PlasmicLogoHeader renders the root element
-  makeNodeComponent("root"),
+  makeNodeComponent("logoLink"),
   {
     // Helper components rendering sub-elements
     img: makeNodeComponent("img"),

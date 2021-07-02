@@ -76,15 +76,15 @@
   .box__uQKl > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
-    margin-top: calc(0px - 48px);
-    height: calc(100% + 48px);
+    margin-top: calc(0px - 32px);
+    height: calc(100% + 32px);
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .box__uQKl > :global(.__wab_flex-container) > *,
   .box__uQKl > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
-    margin-top: 48px;
+    margin-top: 32px;
   }
 }
 @media (max-width: 375px) {
@@ -96,7 +96,7 @@
   display: block;
   font-size: 80px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -111,7 +111,7 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__ss2Wb {
     display: block;
-    font-size: 40px;
+    font-size: 36px;
     font-family: "Inter", sans-serif;
     font-weight: 800;
     letter-spacing: normal;
@@ -302,7 +302,7 @@
   display: block;
   font-size: 64px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.4;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -314,9 +314,9 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__hUveS {
     display: block;
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Inter", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: normal;
     line-height: 1.2;
     color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -1179,7 +1179,7 @@
   display: block;
   font-size: 64px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.4;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -1191,9 +1191,9 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__mYd1I {
     display: block;
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Inter", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: normal;
     line-height: 1.2;
     color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -1612,7 +1612,7 @@
     height: auto;
     flex-direction: column;
     min-width: 0;
-    padding: 40px 16px;
+    padding: 40px 16px 16px;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -1729,7 +1729,7 @@
   display: block;
   font-size: 48px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.4;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -1741,9 +1741,9 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__bv8Pf {
     display: block;
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Inter", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: normal;
     line-height: 1.2;
     color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -1754,7 +1754,7 @@
   .box__bv8Pf {
     font-family: "Inter", sans-serif;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     color: #000000 /* plasmic-token: 6OoG_pvkg */;
     text-align: center;
     line-height: 1.2;
@@ -1936,15 +1936,15 @@
     align-items: center;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
-    margin-top: calc(0px - 48px);
-    height: calc(100% + 48px);
+    margin-top: calc(0px - 32px);
+    height: calc(100% + 32px);
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
   .box___6RLhl > :global(.__wab_flex-container) > *,
   .box___6RLhl > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
-    margin-top: 48px;
+    margin-top: 32px;
   }
 }
 @media (max-width: 375px) {
@@ -2067,7 +2067,7 @@
   display: block;
   font-size: 48px;
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.4;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -2079,7 +2079,7 @@
 @media (min-width: 374px) and (max-width: 414px) {
   .box__nHfU1 {
     display: block;
-    font-size: 40px;
+    font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 800;
     letter-spacing: normal;
@@ -2091,7 +2091,7 @@
 @media (max-width: 375px) {
   .box__nHfU1 {
     font-family: "Inter", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 800;
     color: #000000 /* plasmic-token: 6OoG_pvkg */;
     text-align: center;

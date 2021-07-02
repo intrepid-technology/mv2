@@ -712,7 +712,20 @@
     justify-content: flex-start;
   }
 }
+.buttonLinkPrimary:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonLinkPrimary__userState_loggedIn:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.box__userState_loggedIn___2RhXmCOui {
+  font-size: 16px;
+}
 .buttonPrimary:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonPrimary__userState_loggedIn:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg___6Dn9J {

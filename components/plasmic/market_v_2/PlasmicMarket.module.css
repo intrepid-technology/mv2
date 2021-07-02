@@ -13,7 +13,7 @@
   left: auto;
   top: auto;
 }
-.box__bC5K {
+.sectionMarketHeadline {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -23,12 +23,15 @@
   left: auto;
   width: 100%;
   height: auto;
-  padding-left: 160px;
-  padding-top: 64px;
-  padding-bottom: 64px;
   min-width: 0;
+  padding: 64px 24px;
 }
-.box__fyh4 {
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .sectionMarketHeadline {
+    padding-left: 120px;
+  }
+}
+.sectionNewServiceListings {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -36,19 +39,27 @@
   left: auto;
   width: 100%;
   height: auto;
-  padding-left: 160px;
+  padding-left: 24px;
   min-width: 0;
 }
-.box__fyh4 > :global(.__wab_flex-container) {
+.sectionNewServiceListings > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
-.box__fyh4 > :global(.__wab_flex-container) > *,
-.box__fyh4 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.sectionNewServiceListings > :global(.__wab_flex-container) > *,
+.sectionNewServiceListings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
   margin-top: 32px;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .sectionNewServiceListings {
+    padding-left: 120px;
+  }
 }
 .box__o0Huz {
   display: block;
@@ -384,26 +395,34 @@
   border-width: 0px;
   border-style: none;
 }
-.box__pdTy1 {
+.sectionServiceCollections {
   display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
   left: auto;
-  padding-left: 160px;
+  padding-left: 24px;
   padding-bottom: 96px;
   padding-top: 48px;
 }
-.box__pdTy1 > :global(.__wab_flex-container) {
+.sectionServiceCollections > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
-.box__pdTy1 > :global(.__wab_flex-container) > *,
-.box__pdTy1 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.sectionServiceCollections > :global(.__wab_flex-container) > *,
+.sectionServiceCollections
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
   margin-top: 32px;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .sectionServiceCollections {
+    padding-left: 120px;
+  }
 }
 .box__aQfy5 {
   display: block;

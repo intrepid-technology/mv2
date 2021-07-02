@@ -19,6 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -57,10 +58,12 @@ function PlasmicCardLogIn__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.inputLabelParent)}
       >
         <label
+          data-plasmic-name={"emailLabel"}
+          data-plasmic-override={overrides.emailLabel}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.label___5Tl6Q
+            sty.emailLabel
           )}
         >
           {"Email"}
@@ -85,10 +88,12 @@ function PlasmicCardLogIn__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.inputPasswordLabelParent)}
       >
         <label
+          data-plasmic-name={"passwordLabel"}
+          data-plasmic-override={overrides.passwordLabel}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.label__omxs0
+            sty.passwordLabel
           )}
         >
           {"Password"}
@@ -226,15 +231,27 @@ function PlasmicCardLogIn__RenderFunc(props) {
         {"Don't have an account?"}
       </div>
 
-      <ButtonPrimary
-        data-plasmic-name={"loginSignup"}
-        data-plasmic-override={overrides.loginSignup}
-        className={classNames("__wab_instance", sty.loginSignup)}
-        size={"_360"}
+      <ButtonLinkPrimary
+        data-plasmic-name={"buttonLinkPrimary"}
+        data-plasmic-override={overrides.buttonLinkPrimary}
+        className={classNames("__wab_instance", sty.buttonLinkPrimary)}
+        color={"light"}
+        destination={"/sign-up"}
+        height={"_48"}
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box___7NKpK
+            )}
+          >
+            {"Sign up"}
+          </div>
+        }
         type={"outline"}
-      >
-        {"Sign up"}
-      </ButtonPrimary>
+        width={"_360"}
+      />
     </p.Stack>
   );
 }
@@ -243,8 +260,10 @@ const PlasmicDescendants = {
   formLogin: [
     "formLogin",
     "inputLabelParent",
+    "emailLabel",
     "email",
     "inputPasswordLabelParent",
+    "passwordLabel",
     "password",
     "buttonContinueParent",
     "loginContinueButton",
@@ -253,12 +272,19 @@ const PlasmicDescendants = {
     "loginFacebookConnect",
     "loginGoogleConnect",
     "signupSubhead",
-    "loginSignup"
+    "buttonLinkPrimary"
   ],
 
-  inputLabelParent: ["inputLabelParent", "email"],
+  inputLabelParent: ["inputLabelParent", "emailLabel", "email"],
+  emailLabel: ["emailLabel"],
   email: ["email"],
-  inputPasswordLabelParent: ["inputPasswordLabelParent", "password"],
+  inputPasswordLabelParent: [
+    "inputPasswordLabelParent",
+    "passwordLabel",
+    "password"
+  ],
+
+  passwordLabel: ["passwordLabel"],
   password: ["password"],
   buttonContinueParent: [
     "buttonContinueParent",
@@ -273,7 +299,7 @@ const PlasmicDescendants = {
   loginFacebookConnect: ["loginFacebookConnect"],
   loginGoogleConnect: ["loginGoogleConnect"],
   signupSubhead: ["signupSubhead"],
-  loginSignup: ["loginSignup"]
+  buttonLinkPrimary: ["buttonLinkPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -308,8 +334,10 @@ export const PlasmicCardLogIn = Object.assign(
   {
     // Helper components rendering sub-elements
     inputLabelParent: makeNodeComponent("inputLabelParent"),
+    emailLabel: makeNodeComponent("emailLabel"),
     email: makeNodeComponent("email"),
     inputPasswordLabelParent: makeNodeComponent("inputPasswordLabelParent"),
+    passwordLabel: makeNodeComponent("passwordLabel"),
     password: makeNodeComponent("password"),
     buttonContinueParent: makeNodeComponent("buttonContinueParent"),
     loginContinueButton: makeNodeComponent("loginContinueButton"),
@@ -318,7 +346,7 @@ export const PlasmicCardLogIn = Object.assign(
     loginFacebookConnect: makeNodeComponent("loginFacebookConnect"),
     loginGoogleConnect: makeNodeComponent("loginGoogleConnect"),
     signupSubhead: makeNodeComponent("signupSubhead"),
-    loginSignup: makeNodeComponent("loginSignup"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     // Metadata about props expected for PlasmicCardLogIn
     internalVariantProps: PlasmicCardLogIn__VariantProps,
     internalArgProps: PlasmicCardLogIn__ArgProps

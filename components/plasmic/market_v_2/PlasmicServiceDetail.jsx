@@ -12,12 +12,13 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import TagPartnerC from "../../TagPartnerC"; // plasmic-import: VbmQFgDzT6/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import Accordion from "../../Accordion"; // plasmic-import: azR0jnXzDL/component
@@ -26,6 +27,8 @@ import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -42,6 +45,10 @@ export const PlasmicServiceDetail__ArgProps = new Array();
 
 function PlasmicServiceDetail__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -61,1016 +68,1272 @@ function PlasmicServiceDetail__RenderFunc(props) {
         }
       `}</style>
 
-      <div
-        data-plasmic-name={"root"}
-        data-plasmic-override={overrides.root}
-        data-plasmic-root={true}
-        data-plasmic-for-node={forNode}
-        className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
-      >
-        <NavbarPrimary
-          data-plasmic-name={"navbarPrimary"}
-          data-plasmic-override={overrides.navbarPrimary}
-          className={classNames("__wab_instance", sty.navbarPrimary)}
-        />
-
-        <FooterB
-          data-plasmic-name={"footerB"}
-          data-plasmic-override={overrides.footerB}
-          className={classNames("__wab_instance", sty.footerB)}
-        />
-
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"serviceDetailCheckoutPageParent"}
-          data-plasmic-override={overrides.serviceDetailCheckoutPageParent}
-          hasGap={true}
+      <div className={defaultcss.plasmic_page_wrapper}>
+        <div
+          data-plasmic-name={"root"}
+          data-plasmic-override={overrides.root}
+          data-plasmic-root={true}
+          data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
-            sty.serviceDetailCheckoutPageParent
+            projectcss.root_reset,
+            sty.root
           )}
         >
+          <NavbarPrimary
+            data-plasmic-name={"navbarPrimary"}
+            data-plasmic-override={overrides.navbarPrimary}
+            className={classNames("__wab_instance", sty.navbarPrimary)}
+          />
+
           <p.Stack
             as={"div"}
-            data-plasmic-name={"serviceDetailOverviewParent"}
-            data-plasmic-override={overrides.serviceDetailOverviewParent}
+            data-plasmic-name={"serviceDetailCheckoutPageParent"}
+            data-plasmic-override={overrides.serviceDetailCheckoutPageParent}
             hasGap={true}
             className={classNames(
               defaultcss.all,
-              sty.serviceDetailOverviewParent
+              sty.serviceDetailCheckoutPageParent
             )}
           >
             <p.Stack
               as={"div"}
-              data-plasmic-name={"serviceHeadlineParent"}
-              data-plasmic-override={overrides.serviceHeadlineParent}
+              data-plasmic-name={"serviceDetailOverviewParent"}
+              data-plasmic-override={overrides.serviceDetailOverviewParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.serviceHeadlineParent)}
+              className={classNames(
+                defaultcss.all,
+                sty.serviceDetailOverviewParent
+              )}
             >
-              <div
-                data-plasmic-name={"headline"}
-                data-plasmic-override={overrides.headline}
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.headline
-                )}
-              >
-                {"Title of the service sold on this page"}
-              </div>
-
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"headlineNamePriceParent"}
-                data-plasmic-override={overrides.headlineNamePriceParent}
+                data-plasmic-name={"serviceHeadlineParent"}
+                data-plasmic-override={overrides.serviceHeadlineParent}
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
-                  sty.headlineNamePriceParent
+                  sty.serviceHeadlineParent
                 )}
               >
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"companyNamePriceParent2"}
-                  data-plasmic-override={overrides.companyNamePriceParent2}
-                  hasGap={true}
+                <div
+                  data-plasmic-name={"headline"}
+                  data-plasmic-override={overrides.headline}
                   className={classNames(
                     defaultcss.all,
-                    sty.companyNamePriceParent2
+                    defaultcss.__wab_text,
+                    sty.headline
                   )}
                 >
-                  <div className={classNames(defaultcss.all, sty.box__cQnBt)}>
-                    <div className={classNames(defaultcss.all, sty.box__kqzI)}>
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(defaultcss.all, sty.box__kWxw1)}
-                      >
-                        <div
-                          data-plasmic-name={"serviceCompanyName2"}
-                          data-plasmic-override={overrides.serviceCompanyName2}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.serviceCompanyName2
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box___9Puij
-                            )}
-                          >
-                            {"Company name"}
-                          </div>
-                        </div>
-                      </p.Stack>
-                    </div>
-                  </div>
-                </p.Stack>
+                  {"Title of the service sold on this page"}
+                </div>
 
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"companyVerificationBadgesParent3"}
-                  data-plasmic-override={
-                    overrides.companyVerificationBadgesParent3
-                  }
+                  data-plasmic-name={"headlineNamePriceParent"}
+                  data-plasmic-override={overrides.headlineNamePriceParent}
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    sty.companyVerificationBadgesParent3
+                    sty.headlineNamePriceParent
                   )}
                 >
-                  <TagPartnerC
-                    className={classNames(
-                      "__wab_instance",
-                      sty.tagPartnerC___5Bk4R
-                    )}
-                  />
-
                   <p.Stack
                     as={"div"}
-                    data-plasmic-name={"companyIsVerified3"}
-                    data-plasmic-override={overrides.companyIsVerified3}
+                    data-plasmic-name={"companyNamePriceParent2"}
+                    data-plasmic-override={overrides.companyNamePriceParent2}
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
-                      sty.companyIsVerified3
+                      sty.companyNamePriceParent2
                     )}
                   >
-                    <Icon54Icon
-                      className={classNames(defaultcss.all, sty.svg___0Zifo)}
-                      role={"img"}
+                    <div className={classNames(defaultcss.all, sty.box__cQnBt)}>
+                      <div
+                        className={classNames(defaultcss.all, sty.box__kqzI)}
+                      >
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(defaultcss.all, sty.box__kWxw1)}
+                        >
+                          <div
+                            data-plasmic-name={"serviceCompanyName2"}
+                            data-plasmic-override={
+                              overrides.serviceCompanyName2
+                            }
+                            className={classNames(
+                              defaultcss.all,
+                              sty.serviceCompanyName2
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                defaultcss.__wab_text,
+                                sty.box___9Puij
+                              )}
+                            >
+                              {"Company name"}
+                            </div>
+                          </div>
+                        </p.Stack>
+                      </div>
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"companyVerificationBadgesParent3"}
+                    data-plasmic-override={
+                      overrides.companyVerificationBadgesParent3
+                    }
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.companyVerificationBadgesParent3
+                    )}
+                  >
+                    <TagPartnerC
+                      className={classNames(
+                        "__wab_instance",
+                        sty.tagPartnerC___5Bk4R
+                      )}
                     />
 
-                    <div
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"companyIsVerified3"}
+                      data-plasmic-override={overrides.companyIsVerified3}
+                      hasGap={true}
                       className={classNames(
                         defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__fjFyq
+                        sty.companyIsVerified3
                       )}
                     >
-                      {"Verified"}
-                    </div>
+                      <Icon54Icon
+                        className={classNames(defaultcss.all, sty.svg___0Zifo)}
+                        role={"img"}
+                      />
+
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__fjFyq
+                        )}
+                      >
+                        {"Verified"}
+                      </div>
+                    </p.Stack>
                   </p.Stack>
                 </p.Stack>
               </p.Stack>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"serviceImageBlock"}
-              data-plasmic-override={overrides.serviceImageBlock}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.serviceImageBlock)}
-            >
-              <img
-                data-plasmic-name={"serviceImageHero"}
-                data-plasmic-override={overrides.serviceImageHero}
-                alt={""}
-                className={classNames(defaultcss.img, sty.serviceImageHero)}
-                role={"img"}
-              />
 
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"serviceImageBlock"}
+                data-plasmic-override={overrides.serviceImageBlock}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__ew4Af)}
+                className={classNames(defaultcss.all, sty.serviceImageBlock)}
               >
                 <img
+                  data-plasmic-name={"serviceImageHero"}
+                  data-plasmic-override={overrides.serviceImageHero}
                   alt={""}
-                  className={classNames(defaultcss.img, sty.img__ukRs4)}
+                  className={classNames(defaultcss.img, sty.serviceImageHero)}
                   role={"img"}
                 />
 
-                <img
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img__zQsDw)}
-                  role={"img"}
-                />
-
-                <img
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img__aZnCu)}
-                  role={"img"}
-                />
-
-                <img
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img__vwxzP)}
-                  role={"img"}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.box__y19Np)}
-              >
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__jV9
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.box__ew4Af)}
                 >
-                  {"UX Design"}
-                </ChipBadgeDisplay>
+                  <img
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.img__ukRs4)}
+                    role={"img"}
+                  />
 
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__z31Jf
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
+                  <img
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.img__zQsDw)}
+                    role={"img"}
+                  />
+
+                  <img
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.img__aZnCu)}
+                    role={"img"}
+                  />
+
+                  <img
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.img__vwxzP)}
+                    role={"img"}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.box__y19Np)}
                 >
-                  {"Design system"}
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__zNQiS
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
-                >
-                  {"Mobile app"}
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__uh9Vp
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
-                >
-                  {"Web app"}
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__coqtM
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
-                >
-                  {"E-commerce"}
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__qkcBh
-                  )}
-                  color={"brand"}
-                  type={"ghost"}
-                >
-                  {"Fashion"}
-                </ChipBadgeDisplay>
-              </p.Stack>
-
-              <SectionDividerIcon
-                className={classNames(defaultcss.all, sty.svg__nw7Wz)}
-                role={"img"}
-              />
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"serviceOverviewParent"}
-              data-plasmic-override={overrides.serviceOverviewParent}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.serviceOverviewParent)}
-            >
-              <div
-                data-plasmic-name={"descriptionBlock"}
-                data-plasmic-override={overrides.descriptionBlock}
-                className={classNames(defaultcss.all, sty.descriptionBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__oQxWr)}
-                >
-                  <div
+                  <ChipBadgeDisplay
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___1RPqE
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__jV9
                     )}
+                    color={"brand"}
+                    type={"ghost"}
                   >
-                    {"Description"}
-                  </div>
-                </Accordion>
+                    {"UX Design"}
+                  </ChipBadgeDisplay>
 
-                {true ? (
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"serviceDescriptionOverview"}
-                    data-plasmic-override={overrides.serviceDescriptionOverview}
-                    hasGap={true}
+                  <ChipBadgeDisplay
                     className={classNames(
-                      defaultcss.all,
-                      sty.serviceDescriptionOverview
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__z31Jf
                     )}
+                    color={"brand"}
+                    type={"ghost"}
+                  >
+                    {"Design system"}
+                  </ChipBadgeDisplay>
+
+                  <ChipBadgeDisplay
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__zNQiS
+                    )}
+                    color={"brand"}
+                    type={"ghost"}
+                  >
+                    {"Mobile app"}
+                  </ChipBadgeDisplay>
+
+                  <ChipBadgeDisplay
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__uh9Vp
+                    )}
+                    color={"brand"}
+                    type={"ghost"}
+                  >
+                    {"Web app"}
+                  </ChipBadgeDisplay>
+
+                  <ChipBadgeDisplay
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__coqtM
+                    )}
+                    color={"brand"}
+                    type={"ghost"}
+                  >
+                    {"E-commerce"}
+                  </ChipBadgeDisplay>
+
+                  <ChipBadgeDisplay
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__qkcBh
+                    )}
+                    color={"brand"}
+                    type={"ghost"}
+                  >
+                    {"Fashion"}
+                  </ChipBadgeDisplay>
+                </p.Stack>
+
+                <SectionDividerIcon
+                  className={classNames(defaultcss.all, sty.svg__nw7Wz)}
+                  role={"img"}
+                />
+              </p.Stack>
+
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"serviceOverviewParent"}
+                data-plasmic-override={overrides.serviceOverviewParent}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  sty.serviceOverviewParent
+                )}
+              >
+                <div
+                  data-plasmic-name={"descriptionBlock"}
+                  data-plasmic-override={overrides.descriptionBlock}
+                  className={classNames(defaultcss.all, sty.descriptionBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__oQxWr
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
                   >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__cm7I3
+                        sty.box___1RPqE
+                      )}
+                    >
+                      {"Description"}
+                    </div>
+                  </Accordion>
+
+                  {true ? (
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"serviceDescriptionOverview"}
+                      data-plasmic-override={
+                        overrides.serviceDescriptionOverview
+                      }
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.serviceDescriptionOverview
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__cm7I3
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
+                        }
+                      </div>
+                    </p.Stack>
+                  ) : null}
+                </div>
+
+                <div
+                  data-plasmic-name={"processBlock"}
+                  data-plasmic-override={overrides.processBlock}
+                  className={classNames(defaultcss.all, sty.processBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__vr6Rn
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__qz6Jr
+                      )}
+                    >
+                      {"Process"}
+                    </div>
+                  </Accordion>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"serviceProcessDescription"}
+                    data-plasmic-override={overrides.serviceProcessDescription}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceProcessDescription
+                    )}
+                  >
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard___8Bdrp
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__ipjIf
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo"
+                        }
+                      </div>
+                    </ServiceProcessCard>
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__n2GtO
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__nZoOn
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__kClal
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__bxFec
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__hhIsJ
+                      )}
+                    />
+                  </p.Stack>
+                </div>
+
+                <div
+                  data-plasmic-name={"featuresBlock"}
+                  data-plasmic-override={overrides.featuresBlock}
+                  className={classNames(defaultcss.all, sty.featuresBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__gH068
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__pnud8
+                      )}
+                    >
+                      {"Features"}
+                    </div>
+                  </Accordion>
+
+                  <div
+                    data-plasmic-name={"serviceFeaturesOverview"}
+                    data-plasmic-override={overrides.serviceFeaturesOverview}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceFeaturesOverview
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__tu3Wz)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(defaultcss.all, sty.box__vbPe2)}
+                      >
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__pEEfd
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__m2D7D
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__mXxAq
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__oSaJy
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB___4Tn6P
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__cCzNv
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__kDzHd
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__sx1Di
+                          )}
+                        />
+                      </p.Stack>
+                    </p.Stack>
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"contentBlock"}
+                  data-plasmic-override={overrides.contentBlock}
+                  className={classNames(defaultcss.all, sty.contentBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__aijA
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__wMb
+                      )}
+                    >
+                      {"Content"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__kHmO0)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__nKBwa)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___5LeY
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__u2SvN
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ygnn
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__htoeu
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"methodBlock"}
+                  data-plasmic-override={overrides.methodBlock}
+                  className={classNames(defaultcss.all, sty.methodBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__cHnL
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__mG8P
+                      )}
+                    >
+                      {"Method"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box___1Ese0)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__bGavK)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__pMb5
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__aZ5Cb
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___8R3Xk
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__uIfZx
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"toolsBlock"}
+                  data-plasmic-override={overrides.toolsBlock}
+                  className={classNames(defaultcss.all, sty.toolsBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__rHzZp
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__oi7S0
+                      )}
+                    >
+                      {"Tools"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box___71ORb)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__ttyHw)}
+                    >
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__d2MuW
+                        )}
+                      />
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__scZc5
+                        )}
+                      >
+                        {"Design system"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__eQnOv
+                        )}
+                      >
+                        {"Mobile app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__ptZcb
+                        )}
+                      >
+                        {"Web app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__vlISe
+                        )}
+                      >
+                        {"E-commerce"}
+                      </ChipBadgeDisplay>
+                    </p.Stack>
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"formatBlock"}
+                  data-plasmic-override={overrides.formatBlock}
+                  className={classNames(defaultcss.all, sty.formatBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__aOnLc
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__cH8Eb
+                      )}
+                    >
+                      {"Format"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__bEXt)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__geArL)}
+                    >
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__vLjl
+                        )}
+                      />
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__lpjJ
+                        )}
+                      >
+                        {"Design system"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__cFnYq
+                        )}
+                      >
+                        {"Mobile app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__yphAv
+                        )}
+                      >
+                        {"Web app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__sedp1
+                        )}
+                      >
+                        {"E-commerce"}
+                      </ChipBadgeDisplay>
+                    </p.Stack>
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"requirementsBlock"}
+                  data-plasmic-override={overrides.requirementsBlock}
+                  className={classNames(defaultcss.all, sty.requirementsBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__dwCtl
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__ucMu5
+                      )}
+                    >
+                      {"Requirements"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__t9EAw)}>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box___5OzNn
                       )}
                     >
                       {
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
                       }
                     </div>
-                  </p.Stack>
-                ) : null}
-              </div>
 
-              <div
-                data-plasmic-name={"processBlock"}
-                data-plasmic-override={overrides.processBlock}
-                className={classNames(defaultcss.all, sty.processBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__vr6Rn)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__qz6Jr
-                    )}
-                  >
-                    {"Process"}
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__hsM4C)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ji9Wp
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__pw17
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__mpKj
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ze4CR
+                        )}
+                      />
+                    </p.Stack>
                   </div>
-                </Accordion>
+                </div>
 
+                <div
+                  data-plasmic-name={"termsBlock"}
+                  data-plasmic-override={overrides.termsBlock}
+                  className={classNames(defaultcss.all, sty.termsBlock)}
+                >
+                  <Accordion
+                    className={classNames(
+                      "__wab_instance",
+                      sty.accordion__fUsZa
+                    )}
+                    size={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__prl3O
+                      )}
+                    >
+                      {"Terms"}
+                    </div>
+                  </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__qitb4)}>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__a0JSz
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
+                      }
+                    </div>
+
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__n9Y3U)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__fl20H
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___7UM36
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___8Gyw4
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__qqDx
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
+                </div>
+              </p.Stack>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"serviceOrderParent"}
+              data-plasmic-override={overrides.serviceOrderParent}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.serviceOrderParent)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"serviceCheckoutHeader"}
+                data-plasmic-override={overrides.serviceCheckoutHeader}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  sty.serviceCheckoutHeader
+                )}
+              >
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"serviceProcessDescription"}
-                  data-plasmic-override={overrides.serviceProcessDescription}
+                  data-plasmic-name={"serviceDescriptionParent"}
+                  data-plasmic-override={overrides.serviceDescriptionParent}
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    sty.serviceProcessDescription
+                    sty.serviceDescriptionParent
                   )}
                 >
-                  <ServiceProcessCard
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"headlineNamePriceVerificationParent"}
+                    data-plasmic-override={
+                      overrides.headlineNamePriceVerificationParent
+                    }
+                    hasGap={true}
                     className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard___8Bdrp
+                      defaultcss.all,
+                      sty.headlineNamePriceVerificationParent
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"companyNamePriceParent"}
+                      data-plasmic-override={overrides.companyNamePriceParent}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.companyNamePriceParent
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"servicePrice"}
+                        data-plasmic-override={overrides.servicePrice}
+                        className={classNames(defaultcss.all, sty.servicePrice)}
+                      >
+                        <div
+                          data-plasmic-name={"serviceCurrency"}
+                          data-plasmic-override={overrides.serviceCurrency}
+                          className={classNames(
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.serviceCurrency
+                          )}
+                        >
+                          {"$"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.box__uOdZo
+                          )}
+                        >
+                          {"10,000"}
+                        </div>
+                      </div>
+                    </p.Stack>
+                  </p.Stack>
+
+                  <div
+                    data-plasmic-name={"serviceNameTitle"}
+                    data-plasmic-override={overrides.serviceNameTitle}
+                    className={classNames(defaultcss.all, sty.serviceNameTitle)}
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__m2W9E
+                      )}
+                    >
+                      {"Service name"}
+                    </div>
+                  </div>
+
+                  <div
+                    data-plasmic-name={"serviceShortDescription"}
+                    data-plasmic-override={overrides.serviceShortDescription}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceShortDescription
                     )}
                   >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__ipjIf
+                        sty.box__mjS0B
                       )}
                     >
                       {
-                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo"
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na"
                       }
                     </div>
-                  </ServiceProcessCard>
-
-                  <ServiceProcessCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard__n2GtO
-                    )}
-                  />
-
-                  <ServiceProcessCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard__nZoOn
-                    )}
-                  />
-
-                  <ServiceProcessCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard__kClal
-                    )}
-                  />
-
-                  <ServiceProcessCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard__bxFec
-                    )}
-                  />
-
-                  <ServiceProcessCard
-                    className={classNames(
-                      "__wab_instance",
-                      sty.serviceProcessCard__hhIsJ
-                    )}
-                  />
+                  </div>
                 </p.Stack>
-              </div>
+              </p.Stack>
 
-              <div
-                data-plasmic-name={"featuresBlock"}
-                data-plasmic-override={overrides.featuresBlock}
-                className={classNames(defaultcss.all, sty.featuresBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__gH068)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__pnud8
-                    )}
-                  >
-                    {"Features"}
-                  </div>
-                </Accordion>
+              <CellDividerIcon
+                className={classNames(defaultcss.all, sty.svg__u19Rk)}
+                role={"img"}
+              />
 
-                <div
-                  data-plasmic-name={"serviceFeaturesOverview"}
-                  data-plasmic-override={overrides.serviceFeaturesOverview}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.serviceFeaturesOverview
-                  )}
-                >
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__tu3Wz)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__vbPe2)}
-                    >
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__pEEfd
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__m2D7D
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__mXxAq
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__oSaJy
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB___4Tn6P
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__cCzNv
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__kDzHd
-                        )}
-                      />
-
-                      <ServiceFeatureB
-                        className={classNames(
-                          "__wab_instance",
-                          sty.serviceFeatureB__sx1Di
-                        )}
-                      />
-                    </p.Stack>
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"contentBlock"}
-                data-plasmic-override={overrides.contentBlock}
-                className={classNames(defaultcss.all, sty.contentBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__aijA)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__wMb
-                    )}
-                  >
-                    {"Content"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box__kHmO0)}>
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__nKBwa)}
-                  >
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard___5LeY
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__u2SvN
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__ygnn
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__htoeu
-                      )}
-                    />
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"methodBlock"}
-                data-plasmic-override={overrides.methodBlock}
-                className={classNames(defaultcss.all, sty.methodBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__cHnL)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__mG8P
-                    )}
-                  >
-                    {"Method"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box___1Ese0)}>
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__bGavK)}
-                  >
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__pMb5
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__aZ5Cb
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard___8R3Xk
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__uIfZx
-                      )}
-                    />
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"toolsBlock"}
-                data-plasmic-override={overrides.toolsBlock}
-                className={classNames(defaultcss.all, sty.toolsBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__rHzZp)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__oi7S0
-                    )}
-                  >
-                    {"Tools"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box___71ORb)}>
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__ttyHw)}
-                  >
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__d2MuW
-                      )}
-                    />
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__scZc5
-                      )}
-                    >
-                      {"Design system"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__eQnOv
-                      )}
-                    >
-                      {"Mobile app"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__ptZcb
-                      )}
-                    >
-                      {"Web app"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__vlISe
-                      )}
-                    >
-                      {"E-commerce"}
-                    </ChipBadgeDisplay>
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"formatBlock"}
-                data-plasmic-override={overrides.formatBlock}
-                className={classNames(defaultcss.all, sty.formatBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__aOnLc)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__cH8Eb
-                    )}
-                  >
-                    {"Format"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box__bEXt)}>
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__geArL)}
-                  >
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__vLjl
-                      )}
-                    />
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__lpjJ
-                      )}
-                    >
-                      {"Design system"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__cFnYq
-                      )}
-                    >
-                      {"Mobile app"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__yphAv
-                      )}
-                    >
-                      {"Web app"}
-                    </ChipBadgeDisplay>
-
-                    <ChipBadgeDisplay
-                      className={classNames(
-                        "__wab_instance",
-                        sty.chipBadgeDisplay__sedp1
-                      )}
-                    >
-                      {"E-commerce"}
-                    </ChipBadgeDisplay>
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"requirementsBlock"}
-                data-plasmic-override={overrides.requirementsBlock}
-                className={classNames(defaultcss.all, sty.requirementsBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__dwCtl)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__ucMu5
-                    )}
-                  >
-                    {"Requirements"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box__t9EAw)}>
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___5OzNn
-                    )}
-                  >
-                    {
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
-                    }
-                  </div>
-
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__hsM4C)}
-                  >
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__ji9Wp
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__pw17
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__mpKj
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__ze4CR
-                      )}
-                    />
-                  </p.Stack>
-                </div>
-              </div>
-
-              <div
-                data-plasmic-name={"termsBlock"}
-                data-plasmic-override={overrides.termsBlock}
-                className={classNames(defaultcss.all, sty.termsBlock)}
-              >
-                <Accordion
-                  className={classNames("__wab_instance", sty.accordion__fUsZa)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__prl3O
-                    )}
-                  >
-                    {"Terms"}
-                  </div>
-                </Accordion>
-
-                <div className={classNames(defaultcss.all, sty.box__qitb4)}>
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__a0JSz
-                    )}
-                  >
-                    {
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
-                    }
-                  </div>
-
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__n9Y3U)}
-                  >
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__fl20H
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard___7UM36
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard___8Gyw4
-                      )}
-                    />
-
-                    <ServiceFeatureCard
-                      className={classNames(
-                        "__wab_instance",
-                        sty.serviceFeatureCard__qqDx
-                      )}
-                    />
-                  </p.Stack>
-                </div>
-              </div>
-            </p.Stack>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"serviceOrderParent"}
-            data-plasmic-override={overrides.serviceOrderParent}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.serviceOrderParent)}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"serviceCheckoutHeader"}
-              data-plasmic-override={overrides.serviceCheckoutHeader}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.serviceCheckoutHeader)}
-            >
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"serviceDescriptionParent"}
-                data-plasmic-override={overrides.serviceDescriptionParent}
+                data-plasmic-name={"companyDescriptionParent"}
+                data-plasmic-override={overrides.companyDescriptionParent}
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
-                  sty.serviceDescriptionParent
+                  sty.companyDescriptionParent
                 )}
               >
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"headlineNamePriceVerificationParent"}
-                  data-plasmic-override={
-                    overrides.headlineNamePriceVerificationParent
-                  }
+                  data-plasmic-name={"headlineCompanyParent"}
+                  data-plasmic-override={overrides.headlineCompanyParent}
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    sty.headlineNamePriceVerificationParent
+                    sty.headlineCompanyParent
                   )}
                 >
+                  <div
+                    data-plasmic-name={"serviceCompanyLogo"}
+                    data-plasmic-override={overrides.serviceCompanyLogo}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceCompanyLogo
+                    )}
+                  >
+                    <UserAvatar
+                      data-plasmic-name={"userAvatar"}
+                      data-plasmic-override={overrides.userAvatar}
+                      className={classNames("__wab_instance", sty.userAvatar)}
+                      navUserAvatar32={
+                        <img
+                          data-plasmic-name={"navUserAvatar32"}
+                          data-plasmic-override={overrides.navUserAvatar32}
+                          alt={""}
+                          className={classNames(
+                            defaultcss.img,
+                            sty.navUserAvatar32
+                          )}
+                          height={360}
+                          role={"img"}
+                          src={"/plasmic/market_v_2/images/image4.png"}
+                          width={360}
+                        />
+                      }
+                      size={"_32"}
+                    />
+                  </div>
+
                   <p.Stack
                     as={"div"}
-                    data-plasmic-name={"companyNamePriceParent"}
-                    data-plasmic-override={overrides.companyNamePriceParent}
+                    data-plasmic-name={"companyNamePriceParent3"}
+                    data-plasmic-override={overrides.companyNamePriceParent3}
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
-                      sty.companyNamePriceParent
+                      sty.companyNamePriceParent3
                     )}
                   >
-                    <div
-                      data-plasmic-name={"servicePrice"}
-                      data-plasmic-override={overrides.servicePrice}
-                      className={classNames(defaultcss.all, sty.servicePrice)}
-                    >
+                    <div className={classNames(defaultcss.all, sty.box__mGz7R)}>
                       <div
-                        data-plasmic-name={"serviceCurrency"}
-                        data-plasmic-override={overrides.serviceCurrency}
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.serviceCurrency
-                        )}
+                        className={classNames(defaultcss.all, sty.box__xtsDr)}
                       >
-                        {"$"}
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(defaultcss.all, sty.box__qYg99)}
+                        >
+                          <div
+                            data-plasmic-name={"serviceCompanyName3"}
+                            data-plasmic-override={
+                              overrides.serviceCompanyName3
+                            }
+                            className={classNames(
+                              defaultcss.all,
+                              sty.serviceCompanyName3
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                defaultcss.__wab_text,
+                                sty.box__tSmZz
+                              )}
+                            >
+                              {"Company name"}
+                            </div>
+                          </div>
+                        </p.Stack>
                       </div>
+                    </div>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"companyVerificationBadgesParent4"}
+                    data-plasmic-override={
+                      overrides.companyVerificationBadgesParent4
+                    }
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.companyVerificationBadgesParent4
+                    )}
+                  >
+                    <TagPartnerC
+                      className={classNames(
+                        "__wab_instance",
+                        sty.tagPartnerC__i6HzK
+                      )}
+                    />
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"companyIsVerified4"}
+                      data-plasmic-override={overrides.companyIsVerified4}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.companyIsVerified4
+                      )}
+                    >
+                      <Icon54Icon
+                        className={classNames(defaultcss.all, sty.svg__jrz1R)}
+                        role={"img"}
+                      />
 
                       <div
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__uOdZo
+                          sty.box___133Eb
                         )}
                       >
-                        {"10,000"}
+                        {"Verified"}
                       </div>
-                    </div>
+                    </p.Stack>
                   </p.Stack>
                 </p.Stack>
 
                 <div
-                  data-plasmic-name={"serviceNameTitle"}
-                  data-plasmic-override={overrides.serviceNameTitle}
-                  className={classNames(defaultcss.all, sty.serviceNameTitle)}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__m2W9E
-                    )}
-                  >
-                    {"Service name"}
-                  </div>
-                </div>
-
-                <div
-                  data-plasmic-name={"serviceShortDescription"}
-                  data-plasmic-override={overrides.serviceShortDescription}
+                  data-plasmic-name={"companyShortDescription"}
+                  data-plasmic-override={overrides.companyShortDescription}
                   className={classNames(
                     defaultcss.all,
-                    sty.serviceShortDescription
+                    sty.companyShortDescription
                   )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__mjS0B
+                      sty.box__pxCD
                     )}
                   >
                     {
@@ -1079,291 +1342,138 @@ function PlasmicServiceDetail__RenderFunc(props) {
                   </div>
                 </div>
               </p.Stack>
-            </p.Stack>
 
-            <CellDividerIcon
-              className={classNames(defaultcss.all, sty.svg__u19Rk)}
-              role={"img"}
-            />
+              <CellDividerIcon
+                className={classNames(defaultcss.all, sty.svg__oyzAe)}
+                role={"img"}
+              />
 
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"companyDescriptionParent"}
-              data-plasmic-override={overrides.companyDescriptionParent}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                sty.companyDescriptionParent
-              )}
-            >
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"headlineCompanyParent"}
-                data-plasmic-override={overrides.headlineCompanyParent}
+                data-plasmic-name={"serviceCheckoutButtons"}
+                data-plasmic-override={overrides.serviceCheckoutButtons}
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
-                  sty.headlineCompanyParent
+                  sty.serviceCheckoutButtons
                 )}
               >
-                <div
-                  data-plasmic-name={"serviceCompanyLogo"}
-                  data-plasmic-override={overrides.serviceCompanyLogo}
-                  className={classNames(defaultcss.all, sty.serviceCompanyLogo)}
+                <ButtonPrimary
+                  className={classNames(
+                    "__wab_instance",
+                    sty.buttonPrimary__sJt3M
+                  )}
+                  color={"brand"}
+                  size={"_360"}
                 >
-                  <UserAvatar
-                    data-plasmic-name={"userAvatar"}
-                    data-plasmic-override={overrides.userAvatar}
-                    className={classNames("__wab_instance", sty.userAvatar)}
-                    navUserAvatar32={
-                      <img
-                        data-plasmic-name={"navUserAvatar32"}
-                        data-plasmic-override={overrides.navUserAvatar32}
-                        alt={""}
-                        className={classNames(
-                          defaultcss.img,
-                          sty.navUserAvatar32
-                        )}
-                        height={360}
-                        role={"img"}
-                        src={"/plasmic/market_v_2/images/image4.png"}
-                        width={360}
-                      />
-                    }
-                    size={"_32"}
-                  />
-                </div>
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box___3EPlj
+                    )}
+                  >
+                    {"Order now"}
+                  </div>
+                </ButtonPrimary>
+
+                <ButtonPrimary
+                  className={classNames(
+                    "__wab_instance",
+                    sty.buttonPrimary__ma8Uo
+                  )}
+                  size={"_360"}
+                  type={"outline"}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__tOLxW
+                    )}
+                  >
+                    {"Add to brief"}
+                  </div>
+                </ButtonPrimary>
+
+                <ButtonPrimary
+                  className={classNames(
+                    "__wab_instance",
+                    sty.buttonPrimary__gzMur
+                  )}
+                  size={"_360"}
+                  type={"ghost"}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__rgQzD
+                    )}
+                  >
+                    {"Request quote"}
+                  </div>
+                </ButtonPrimary>
 
                 <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"companyNamePriceParent3"}
-                  data-plasmic-override={overrides.companyNamePriceParent3}
+                  as={"button"}
+                  data-plasmic-name={"save"}
+                  data-plasmic-override={overrides.save}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.companyNamePriceParent3
-                  )}
+                  className={classNames(defaultcss.button, sty.save)}
                 >
-                  <div className={classNames(defaultcss.all, sty.box__mGz7R)}>
-                    <div className={classNames(defaultcss.all, sty.box__xtsDr)}>
-                      <p.Stack
-                        as={"div"}
-                        hasGap={true}
-                        className={classNames(defaultcss.all, sty.box__qYg99)}
-                      >
-                        <div
-                          data-plasmic-name={"serviceCompanyName3"}
-                          data-plasmic-override={overrides.serviceCompanyName3}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.serviceCompanyName3
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box__tSmZz
-                            )}
-                          >
-                            {"Company name"}
-                          </div>
-                        </div>
-                      </p.Stack>
-                    </div>
+                  <BookmarkIcon
+                    data-plasmic-name={"bookmark"}
+                    data-plasmic-override={overrides.bookmark}
+                    className={classNames(defaultcss.all, sty.bookmark)}
+                    role={"img"}
+                  />
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__eawQa
+                    )}
+                  >
+                    {"Save"}
                   </div>
                 </p.Stack>
 
                 <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"companyVerificationBadgesParent4"}
-                  data-plasmic-override={
-                    overrides.companyVerificationBadgesParent4
-                  }
+                  as={"button"}
+                  data-plasmic-name={"share"}
+                  data-plasmic-override={overrides.share}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.companyVerificationBadgesParent4
-                  )}
+                  className={classNames(defaultcss.button, sty.share)}
                 >
-                  <TagPartnerC
-                    className={classNames(
-                      "__wab_instance",
-                      sty.tagPartnerC__i6HzK
-                    )}
+                  <ShareIcon
+                    data-plasmic-name={"svgShare"}
+                    data-plasmic-override={overrides.svgShare}
+                    className={classNames(defaultcss.all, sty.svgShare)}
+                    role={"img"}
                   />
 
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"companyIsVerified4"}
-                    data-plasmic-override={overrides.companyIsVerified4}
-                    hasGap={true}
+                  <div
                     className={classNames(
                       defaultcss.all,
-                      sty.companyIsVerified4
+                      defaultcss.__wab_text,
+                      sty.box__ffOr8
                     )}
                   >
-                    <Icon54Icon
-                      className={classNames(defaultcss.all, sty.svg__jrz1R)}
-                      role={"img"}
-                    />
-
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box___133Eb
-                      )}
-                    >
-                      {"Verified"}
-                    </div>
-                  </p.Stack>
+                    {"Share"}
+                  </div>
                 </p.Stack>
-              </p.Stack>
-
-              <div
-                data-plasmic-name={"companyShortDescription"}
-                data-plasmic-override={overrides.companyShortDescription}
-                className={classNames(
-                  defaultcss.all,
-                  sty.companyShortDescription
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__pxCD
-                  )}
-                >
-                  {
-                    "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na"
-                  }
-                </div>
-              </div>
-            </p.Stack>
-
-            <CellDividerIcon
-              className={classNames(defaultcss.all, sty.svg__oyzAe)}
-              role={"img"}
-            />
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"serviceCheckoutButtons"}
-              data-plasmic-override={overrides.serviceCheckoutButtons}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.serviceCheckoutButtons)}
-            >
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__sJt3M
-                )}
-                color={"brand"}
-                size={"_360"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___3EPlj
-                  )}
-                >
-                  {"Order now"}
-                </div>
-              </ButtonPrimary>
-
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__ma8Uo
-                )}
-                size={"_360"}
-                type={"outline"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__tOLxW
-                  )}
-                >
-                  {"Add to brief"}
-                </div>
-              </ButtonPrimary>
-
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__gzMur
-                )}
-                size={"_360"}
-                type={"ghost"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__rgQzD
-                  )}
-                >
-                  {"Request quote"}
-                </div>
-              </ButtonPrimary>
-
-              <p.Stack
-                as={"button"}
-                data-plasmic-name={"save"}
-                data-plasmic-override={overrides.save}
-                hasGap={true}
-                className={classNames(defaultcss.button, sty.save)}
-              >
-                <BookmarkIcon
-                  data-plasmic-name={"bookmark"}
-                  data-plasmic-override={overrides.bookmark}
-                  className={classNames(defaultcss.all, sty.bookmark)}
-                  role={"img"}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__eawQa
-                  )}
-                >
-                  {"Save"}
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"button"}
-                data-plasmic-name={"share"}
-                data-plasmic-override={overrides.share}
-                hasGap={true}
-                className={classNames(defaultcss.button, sty.share)}
-              >
-                <ShareIcon
-                  data-plasmic-name={"svgShare"}
-                  data-plasmic-override={overrides.svgShare}
-                  className={classNames(defaultcss.all, sty.svgShare)}
-                  role={"img"}
-                />
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__ffOr8
-                  )}
-                >
-                  {"Share"}
-                </div>
               </p.Stack>
             </p.Stack>
           </p.Stack>
-        </p.Stack>
+
+          <FooterB
+            data-plasmic-name={"footerB"}
+            data-plasmic-override={overrides.footerB}
+            className={classNames("__wab_instance", sty.footerB)}
+          />
+        </div>
       </div>
     </React.Fragment>
   );
@@ -1373,7 +1483,6 @@ const PlasmicDescendants = {
   root: [
     "root",
     "navbarPrimary",
-    "footerB",
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
@@ -1421,11 +1530,11 @@ const PlasmicDescendants = {
     "save",
     "bookmark",
     "share",
-    "svgShare"
+    "svgShare",
+    "footerB"
   ],
 
   navbarPrimary: ["navbarPrimary"],
-  footerB: ["footerB"],
   serviceDetailCheckoutPageParent: [
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
@@ -1672,7 +1781,8 @@ const PlasmicDescendants = {
   save: ["save", "bookmark"],
   bookmark: ["bookmark"],
   share: ["share", "svgShare"],
-  svgShare: ["svgShare"]
+  svgShare: ["svgShare"],
+  footerB: ["footerB"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1707,7 +1817,6 @@ export const PlasmicServiceDetail = Object.assign(
   {
     // Helper components rendering sub-elements
     navbarPrimary: makeNodeComponent("navbarPrimary"),
-    footerB: makeNodeComponent("footerB"),
     serviceDetailCheckoutPageParent: makeNodeComponent(
       "serviceDetailCheckoutPageParent"
     ),
@@ -1771,6 +1880,7 @@ export const PlasmicServiceDetail = Object.assign(
     bookmark: makeNodeComponent("bookmark"),
     share: makeNodeComponent("share"),
     svgShare: makeNodeComponent("svgShare"),
+    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicServiceDetail
     internalVariantProps: PlasmicServiceDetail__VariantProps,
     internalArgProps: PlasmicServiceDetail__ArgProps

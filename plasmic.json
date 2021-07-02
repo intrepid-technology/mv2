@@ -574,32 +574,6 @@
           "componentType": "component"
         },
         {
-          "id": "Olpj-oqQtA",
-          "name": "SectionPasswordReset",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSectionPasswordReset.jsx",
-          "importSpec": {
-            "modulePath": "SectionPasswordReset.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSectionPasswordReset.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "SEKSUTmj_v",
-          "name": "PasswordReset",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPasswordReset.jsx",
-          "importSpec": {
-            "modulePath": "../pages/password-reset.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicPasswordReset.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "ua8654-3suB",
           "name": "SectionShopByIndustry",
           "type": "managed",
@@ -3490,6 +3464,32 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicButtonLinkPrimary.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "Olpj-oqQtA",
+          "name": "CardPasswordReset",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicCardPasswordReset.jsx",
+          "importSpec": {
+            "modulePath": "CardPasswordReset.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicCardPasswordReset.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "z3AR9mDcSO",
+          "name": "PasswordReset",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPasswordReset.jsx",
+          "importSpec": {
+            "modulePath": "../pages/password-reset.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPasswordReset.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

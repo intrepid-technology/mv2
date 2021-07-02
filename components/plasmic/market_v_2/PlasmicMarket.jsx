@@ -69,14 +69,18 @@ function PlasmicMarket__RenderFunc(props) {
             className={classNames("__wab_instance", sty.navbarInternal)}
           />
 
-          <div className={classNames(defaultcss.all, sty.box__bC5K)}>
+          <div
+            data-plasmic-name={"sectionMarketHeadline"}
+            data-plasmic-override={overrides.sectionMarketHeadline}
+            className={classNames(defaultcss.all, sty.sectionMarketHeadline)}
+          >
             <CardTitleHeading
               className={classNames(
                 "__wab_instance",
                 sty.cardTitleHeading___4KxLs
               )}
               headings={[]}
-              size={"_540"}
+              size={"_360"}
               slot={"Services"}
               slot2={
                 "Discover unique services to start, launch, and grow your business."
@@ -88,8 +92,13 @@ function PlasmicMarket__RenderFunc(props) {
 
           <p.Stack
             as={"div"}
+            data-plasmic-name={"sectionNewServiceListings"}
+            data-plasmic-override={overrides.sectionNewServiceListings}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__fyh4)}
+            className={classNames(
+              defaultcss.all,
+              sty.sectionNewServiceListings
+            )}
           >
             <CardTitleHeading
               className={classNames(
@@ -282,8 +291,13 @@ function PlasmicMarket__RenderFunc(props) {
 
           <p.Stack
             as={"div"}
+            data-plasmic-name={"sectionServiceCollections"}
+            data-plasmic-override={overrides.sectionServiceCollections}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__pdTy1)}
+            className={classNames(
+              defaultcss.all,
+              sty.sectionServiceCollections
+            )}
           >
             <CardTitleHeading
               className={classNames(
@@ -674,8 +688,19 @@ function PlasmicMarket__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarInternal", "footerB"],
+  root: [
+    "root",
+    "navbarInternal",
+    "sectionMarketHeadline",
+    "sectionNewServiceListings",
+    "sectionServiceCollections",
+    "footerB"
+  ],
+
   navbarInternal: ["navbarInternal"],
+  sectionMarketHeadline: ["sectionMarketHeadline"],
+  sectionNewServiceListings: ["sectionNewServiceListings"],
+  sectionServiceCollections: ["sectionServiceCollections"],
   footerB: ["footerB"]
 };
 
@@ -711,6 +736,9 @@ export const PlasmicMarket = Object.assign(
   {
     // Helper components rendering sub-elements
     navbarInternal: makeNodeComponent("navbarInternal"),
+    sectionMarketHeadline: makeNodeComponent("sectionMarketHeadline"),
+    sectionNewServiceListings: makeNodeComponent("sectionNewServiceListings"),
+    sectionServiceCollections: makeNodeComponent("sectionServiceCollections"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMarket
     internalVariantProps: PlasmicMarket__VariantProps,

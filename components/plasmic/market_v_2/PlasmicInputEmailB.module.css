@@ -24,6 +24,13 @@
     min-width: 0;
   }
 }
+@media (min-width: 374px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: center;
+    align-content: unset;
+  }
+}
 @media (max-width: 375px) {
   .root {
     width: auto;
