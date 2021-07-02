@@ -3451,6 +3451,45 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicButtonGroupStripeVerification.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "tq01IF7a70",
+          "name": "IconStripeLogo",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicIconStripeLogo.jsx",
+          "importSpec": {
+            "modulePath": "IconStripeLogo.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicIconStripeLogo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GkIWBCEvRU",
+          "name": "ButtonStripeConnect",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonStripeConnect.jsx",
+          "importSpec": {
+            "modulePath": "ButtonStripeConnect.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonStripeConnect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "d7dGAYuRCt",
+          "name": "ButtonLinkPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonLinkPrimary.jsx",
+          "importSpec": {
+            "modulePath": "ButtonLinkPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonLinkPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -4576,8 +4615,8 @@
         },
         {
           "id": "alaRRmprOn",
-          "name": "Icon132Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon132.jsx"
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ChevronRight.jsx"
         },
         {
           "id": "-Of6sI0cqgk",
@@ -4803,6 +4842,16 @@
           "id": "vDvy1Uh-W",
           "name": "StripeWordmarkSlatesvgIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__StripeWordmarkSlatesvg.jsx"
+        },
+        {
+          "id": "L3JJupG8X-",
+          "name": "LinkAIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__LinkA.jsx"
+        },
+        {
+          "id": "TsoGzKShgI",
+          "name": "ChevronLeftIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ChevronLeft.jsx"
         }
       ],
       "images": [

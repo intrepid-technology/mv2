@@ -35,7 +35,7 @@ export const PlasmicButtonConnectedAccount__VariantProps = new Array(
   "height"
 );
 
-export const PlasmicButtonConnectedAccount__ArgProps = new Array();
+export const PlasmicButtonConnectedAccount__ArgProps = new Array("id");
 
 function PlasmicButtonConnectedAccount__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -95,6 +95,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
           [sty.root__width__90]: hasVariant(variants, "width", "_90")
         }
       )}
+      id={args.id}
     >
       <p.Stack
         as={"div"}

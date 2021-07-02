@@ -46,7 +46,10 @@ function PlasmicInputEmailB__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__160]: hasVariant(variants, "size", "_160")
+        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size__540]: hasVariant(variants, "size", "_540")
       })}
     >
       <p.Stack

@@ -21,25 +21,28 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTextLinkArrow.module.css"; // plasmic-import: MlCPfXGkVN/css
-import Icon120Icon from "./icons/PlasmicIcon__Icon120"; // plasmic-import: xPha1LAmTn/icon
-import Icon118Icon from "./icons/PlasmicIcon__Icon118"; // plasmic-import: bdrqtZUAe/icon
+import ChevronLeftIcon from "./icons/PlasmicIcon__ChevronLeft"; // plasmic-import: TsoGzKShgI/icon
+import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: alaRRmprOn/icon
 
 export const PlasmicTextLinkArrow__VariantProps = new Array(
+  "direction",
   "color",
-  "direction"
+  "size"
 );
 
 export const PlasmicTextLinkArrow__ArgProps = new Array(
   "children",
-  "slot",
-  "slot2"
+  "svgRight",
+  "svgLeft",
+  "id",
+  "destination"
 );
 
 function PlasmicTextLinkArrow__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <p.Stack
-      as={"div"}
+      as={p.PlasmicLink}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -50,66 +53,91 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
         [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
         [sty.root__color_light]: hasVariant(variants, "color", "light")
       })}
+      component={Link}
+      href={args.destination}
+      id={args.id}
+      platform={"nextjs"}
     >
       <p.Stack
-        as={p.PlasmicLink}
-        data-plasmic-name={"link"}
-        data-plasmic-override={overrides.link}
+        as={"div"}
+        data-plasmic-name={"parent"}
+        data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.link, {
-          [sty.link__direction_left]: hasVariant(variants, "direction", "left"),
-          [sty.link__direction_right]: hasVariant(
+        className={classNames(defaultcss.all, sty.parent, {
+          [sty.parent__direction_left]: hasVariant(
+            variants,
+            "direction",
+            "left"
+          ),
+
+          [sty.parent__direction_right]: hasVariant(
             variants,
             "direction",
             "right"
           )
         })}
-        component={Link}
-        platform={"nextjs"}
       >
         {(hasVariant(variants, "direction", "right") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__knP64, {
-              [sty.box__direction_left__knP6440ENh]: hasVariant(
+            data-plasmic-name={"svgLeftParent"}
+            data-plasmic-override={overrides.svgLeftParent}
+            className={classNames(defaultcss.all, sty.svgLeftParent, {
+              [sty.svgLeftParent__direction_left]: hasVariant(
                 variants,
                 "direction",
                 "left"
               ),
 
-              [sty.box__direction_right__knP64Sohxr]: hasVariant(
+              [sty.svgLeftParent__direction_right]: hasVariant(
                 variants,
                 "direction",
                 "right"
-              )
+              ),
+
+              [sty.svgLeftParent__size__16]: hasVariant(
+                variants,
+                "size",
+                "_16"
+              ),
+
+              [sty.svgLeftParent__size__18]: hasVariant(
+                variants,
+                "size",
+                "_18"
+              ),
+
+              [sty.svgLeftParent__size__24]: hasVariant(variants, "size", "_24")
             })}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
-                <Icon120Icon
+                <ChevronLeftIcon
                   className={classNames(defaultcss.all, sty.svg__f2Wy)}
                   role={"img"}
                 />
               ),
 
-              value: args.slot2,
-              className: classNames(sty.slotSlot2, {
-                [sty.slotSlot2__color_brand]: hasVariant(
+              value: args.svgLeft,
+              className: classNames(sty.slotSvgLeft, {
+                [sty.slotSvgLeft__color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotSlot2__color_dark]: hasVariant(
+                [sty.slotSvgLeft__color_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotSlot2__color_light]: hasVariant(
+                [sty.slotSvgLeft__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"
-                )
+                ),
+
+                [sty.slotSvgLeft__size__16]: hasVariant(variants, "size", "_16")
               })
             })}
           </div>
@@ -134,46 +162,77 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
               variants,
               "color",
               "light"
-            )
+            ),
+
+            [sty.slotChildren__size__14]: hasVariant(variants, "size", "_14"),
+            [sty.slotChildren__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.slotChildren__size__18]: hasVariant(variants, "size", "_18"),
+            [sty.slotChildren__size__24]: hasVariant(variants, "size", "_24")
           })
         })}
 
         {(hasVariant(variants, "direction", "left") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__fzY9G, {
-              [sty.box__direction_left__fzY9G40ENh]: hasVariant(
+            data-plasmic-name={"svgRightParent"}
+            data-plasmic-override={overrides.svgRightParent}
+            className={classNames(defaultcss.all, sty.svgRightParent, {
+              [sty.svgRightParent__direction_left]: hasVariant(
                 variants,
                 "direction",
                 "left"
+              ),
+
+              [sty.svgRightParent__size__14]: hasVariant(
+                variants,
+                "size",
+                "_14"
+              ),
+
+              [sty.svgRightParent__size__16]: hasVariant(
+                variants,
+                "size",
+                "_16"
+              ),
+
+              [sty.svgRightParent__size__18]: hasVariant(
+                variants,
+                "size",
+                "_18"
+              ),
+
+              [sty.svgRightParent__size__24]: hasVariant(
+                variants,
+                "size",
+                "_24"
               )
             })}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
-                <Icon118Icon
+                <ChevronRightIcon
                   className={classNames(defaultcss.all, sty.svg__apSlW)}
                   role={"img"}
                 />
               ),
 
-              value: args.slot,
-              className: classNames(sty.slotSlot, {
-                [sty.slotSlot__color_brand]: hasVariant(
+              value: args.svgRight,
+              className: classNames(sty.slotSvgRight, {
+                [sty.slotSvgRight__color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotSlot__color_brand_direction_right]:
+                [sty.slotSvgRight__color_brand_direction_right]:
                   hasVariant(variants, "color", "brand") &&
                   hasVariant(variants, "direction", "right"),
-                [sty.slotSlot__color_dark]: hasVariant(
+                [sty.slotSvgRight__color_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotSlot__color_light]: hasVariant(
+                [sty.slotSvgRight__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"
@@ -188,8 +247,10 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "link"],
-  link: ["link"]
+  root: ["root", "parent", "svgLeftParent", "svgRightParent"],
+  parent: ["parent", "svgLeftParent", "svgRightParent"],
+  svgLeftParent: ["svgLeftParent"],
+  svgRightParent: ["svgRightParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -223,7 +284,9 @@ export const PlasmicTextLinkArrow = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    link: makeNodeComponent("link"),
+    parent: makeNodeComponent("parent"),
+    svgLeftParent: makeNodeComponent("svgLeftParent"),
+    svgRightParent: makeNodeComponent("svgRightParent"),
     // Metadata about props expected for PlasmicTextLinkArrow
     internalVariantProps: PlasmicTextLinkArrow__VariantProps,
     internalArgProps: PlasmicTextLinkArrow__ArgProps

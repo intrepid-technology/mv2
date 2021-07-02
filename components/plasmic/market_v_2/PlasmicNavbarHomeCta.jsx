@@ -19,7 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -57,7 +57,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
             ? "/"
             : hasVariant(globalVariants, "screen", "desktopPrimary")
             ? "/"
-            : undefined
+            : "/"
         }
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
@@ -77,7 +77,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           })}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobileBSecondary")
+              ? true
+              : hasVariant(globalVariants, "screen", "mobileAPrimary")
               ? false
               : hasVariant(globalVariants, "screen", "desktopPrimary")
               ? true
@@ -103,65 +105,85 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               destination={
                 hasVariant(globalVariants, "screen", "desktopPrimary")
                   ? "/member-pricing"
-                  : undefined
+                  : "/member-pricing"
               }
               size={"_14"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__hyKmE,
-                  {
-                    [sty.box__color_dark__hyKmE90H3U]: hasVariant(
-                      variants,
-                      "color",
-                      "dark"
-                    )
-                  }
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "Become a member"
-                  : "Become a member"}
-              </div>
-            </TextLinkUnderlinePrimary>
+              text={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__hyKmE,
+                    {
+                      [sty.box__color_dark__hyKmE90H3U]: hasVariant(
+                        variants,
+                        "color",
+                        "dark"
+                      )
+                    }
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "Become a member"
+                    : "Become a member"}
+                </div>
+              }
+            />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
+            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
           ) ? (
-            <ButtonPrimary
-              data-plasmic-name={"buttonPrimary"}
-              data-plasmic-override={overrides.buttonPrimary}
-              className={classNames("__wab_instance")}
-              color={"brand"}
-              size={
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+            <ButtonLinkPrimary
+              data-plasmic-name={"buttonLinkPrimary"}
+              data-plasmic-override={overrides.buttonLinkPrimary}
+              className={classNames("__wab_instance", sty.buttonLinkPrimary)}
+              color={
+                hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "brand"
+                  : "brand"
+              }
+              destination={
+                hasVariant(globalVariants, "screen", "mobileBSecondary")
+                  ? "/partner-pricing"
+                  : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  ? "/partner-pricing"
+                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "/partner-pricing"
+                  : "/partner-pricing"
+              }
+              height={
+                hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "_36"
+                  : "_36"
+              }
+              text={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__nAyJs
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? "Partner"
+                    : "Partner"}
+                </div>
+              }
+              type={
+                hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "fill"
+                  : "fill"
+              }
+              width={
+                hasVariant(globalVariants, "screen", "mobileBSecondary")
                   ? "_90"
+                  : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  ? "_90"
+                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  ? "_140"
                   : "_140"
               }
-              target={"/partner-pricing"}
-              type={"primary"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__msX8U,
-                  {
-                    [sty.box__color_dark__msX8U90H3U]: hasVariant(
-                      variants,
-                      "color",
-                      "dark"
-                    )
-                  }
-                )}
-              >
-                {hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "Partner"
-                  : "Partner"}
-              </div>
-            </ButtonPrimary>
+            />
           ) : null}
         </p.Stack>
       ) : null}
@@ -170,10 +192,10 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarLogo", "textLinkUnderlinePrimary", "buttonPrimary"],
+  root: ["root", "navbarLogo", "textLinkUnderlinePrimary", "buttonLinkPrimary"],
   navbarLogo: ["navbarLogo"],
   textLinkUnderlinePrimary: ["textLinkUnderlinePrimary"],
-  buttonPrimary: ["buttonPrimary"]
+  buttonLinkPrimary: ["buttonLinkPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -209,7 +231,7 @@ export const PlasmicNavbarHomeCta = Object.assign(
     // Helper components rendering sub-elements
     navbarLogo: makeNodeComponent("navbarLogo"),
     textLinkUnderlinePrimary: makeNodeComponent("textLinkUnderlinePrimary"),
-    buttonPrimary: makeNodeComponent("buttonPrimary"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     // Metadata about props expected for PlasmicNavbarHomeCta
     internalVariantProps: PlasmicNavbarHomeCta__VariantProps,
     internalArgProps: PlasmicNavbarHomeCta__ArgProps

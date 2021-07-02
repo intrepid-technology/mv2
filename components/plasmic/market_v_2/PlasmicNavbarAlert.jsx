@@ -68,9 +68,8 @@ function PlasmicNavbarAlert__RenderFunc(props) {
             : "dark"
         }
         size={"_18"}
-      >
-        {"Important Update"}
-      </TextLinkUnderlinePrimary>
+        text={"Important Update"}
+      />
     </div>
   );
 }

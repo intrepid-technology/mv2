@@ -43,17 +43,18 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__q9OKm
         )}
         size={"_16"}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.box__hiDuc
-          )}
-        >
-          {"About"}
-        </div>
-      </TextLinkUnderlinePrimary>
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box__hiDuc
+            )}
+          >
+            {"About"}
+          </div>
+        }
+      />
 
       <TextLinkUnderlinePrimary
         className={classNames(
@@ -61,17 +62,18 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__qsokV
         )}
         size={"_16"}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.box__swZbn
-          )}
-        >
-          {"Terms"}
-        </div>
-      </TextLinkUnderlinePrimary>
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box__swZbn
+            )}
+          >
+            {"Terms"}
+          </div>
+        }
+      />
 
       <TextLinkUnderlinePrimary
         className={classNames(
@@ -79,17 +81,18 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary__vOv1V
         )}
         size={"_16"}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.box__jQ4No
-          )}
-        >
-          {"Privacy"}
-        </div>
-      </TextLinkUnderlinePrimary>
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box__jQ4No
+            )}
+          >
+            {"Privacy"}
+          </div>
+        }
+      />
 
       <TextLinkUnderlinePrimary
         className={classNames(
@@ -97,17 +100,18 @@ function PlasmicSideBarFooter__RenderFunc(props) {
           sty.textLinkUnderlinePrimary___7JgrH
         )}
         size={"_16"}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.box__aktZk
-          )}
-        >
-          {"Help"}
-        </div>
-      </TextLinkUnderlinePrimary>
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box__aktZk
+            )}
+          >
+            {"Help"}
+          </div>
+        }
+      />
     </p.Stack>
   );
 }

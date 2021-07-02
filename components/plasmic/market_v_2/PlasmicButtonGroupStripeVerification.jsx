@@ -42,6 +42,7 @@ function PlasmicButtonGroupStripeVerification__RenderFunc(props) {
         data-plasmic-name={"buttonStripeVerification"}
         data-plasmic-override={overrides.buttonStripeVerification}
         className={classNames("__wab_instance", sty.buttonStripeVerification)}
+        logo={"logo"}
       />
 
       <p.Stack

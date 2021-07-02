@@ -45,7 +45,7 @@ function PlasmicFooterServiceListing__RenderFunc(props) {
         className={classNames("__wab_instance", sty.textLinkArrow)}
         color={"dark"}
         direction={"left"}
-        slot2={
+        svgLeft={
           <Icon120Icon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}

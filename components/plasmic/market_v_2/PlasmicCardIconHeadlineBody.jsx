@@ -95,7 +95,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
         })}
         color={triggers.hover_root ? "dark" : "dark"}
         direction={"right"}
-        slot={p.renderPlasmicSlot({
+        svgRight={p.renderPlasmicSlot({
           defaultContents: (
             <Icon118Icon
               className={classNames(defaultcss.all, sty.svg__g1Xr)}

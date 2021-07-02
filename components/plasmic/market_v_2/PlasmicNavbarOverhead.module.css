@@ -5,10 +5,20 @@
   justify-content: flex-end;
   width: 100%;
   height: auto;
-  padding-right: 40px;
+  padding-right: 32px;
   position: relative;
   min-width: 0;
   background: #f8f8f8;
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .root {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    padding-right: 8px;
+  }
 }
 .root__colors_dark {
   background: #000000;

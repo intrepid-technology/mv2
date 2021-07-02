@@ -312,7 +312,6 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
           data-plasmic-override={overrides.checkoutPlaceOrder}
           className={classNames("__wab_instance", sty.checkoutPlaceOrder)}
           color={"brand"}
-          id={"checkout-button"}
           size={"_360"}
         >
           <div

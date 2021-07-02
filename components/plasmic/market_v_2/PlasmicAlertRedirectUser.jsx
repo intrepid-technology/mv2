@@ -188,7 +188,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           })}
           color={hasVariant(variants, "color", "light") ? "brand" : "light"}
           direction={"right"}
-          slot={
+          svgRight={
             <Icon118Icon
               className={classNames(defaultcss.all, sty.svg__lhcBs, {
                 [sty.svg__color_light__lhcBsVn8Xk]: hasVariant(

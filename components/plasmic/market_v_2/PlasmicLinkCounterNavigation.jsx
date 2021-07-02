@@ -26,13 +26,15 @@ export const PlasmicLinkCounterNavigation__VariantProps = new Array("state");
 
 export const PlasmicLinkCounterNavigation__ArgProps = new Array(
   "navLabel",
-  "numberValue"
+  "numberValue",
+  "id",
+  "destination"
 );
 
 function PlasmicLinkCounterNavigation__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.PlasmicLink
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -40,9 +42,13 @@ function PlasmicLinkCounterNavigation__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__state_selected]: hasVariant(variants, "state", "selected")
       })}
+      component={Link}
+      href={args.destination}
+      id={args.id}
+      platform={"nextjs"}
     >
       <p.Stack
-        as={p.PlasmicLink}
+        as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
@@ -53,8 +59,6 @@ function PlasmicLinkCounterNavigation__RenderFunc(props) {
             "selected"
           )
         })}
-        component={Link}
-        platform={"nextjs"}
       >
         <div
           data-plasmic-name={"linkParent"}
@@ -104,7 +108,7 @@ function PlasmicLinkCounterNavigation__RenderFunc(props) {
           </div>
         </div>
       </p.Stack>
-    </div>
+    </p.PlasmicLink>
   );
 }
 

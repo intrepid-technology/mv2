@@ -182,12 +182,11 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                 "__wab_instance",
                 sty.textLinkUnderlinePrimary
               )}
-            >
-              {p.renderPlasmicSlot({
+              text={p.renderPlasmicSlot({
                 defaultContents: "Contact sales",
                 value: args.slot3
               })}
-            </TextLinkUnderlinePrimary>
+            />
           </div>
 
           {p.renderPlasmicSlot({

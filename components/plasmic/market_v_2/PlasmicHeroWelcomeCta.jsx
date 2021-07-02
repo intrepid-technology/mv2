@@ -502,11 +502,6 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           })}
           color={"brand"}
           size={hasVariant(variants, "size", "_720") ? "_360" : "_140"}
-          target={
-            hasVariant(variants, "persona", "member")
-              ? "https://intrepidventures.typeform.com/to/f1BEleJl"
-              : "https://intrepidventures.typeform.com/to/qoNxle4D?utm_source=intrepid&utm_campaign=website#source=hero"
-          }
         >
           <div
             className={classNames(

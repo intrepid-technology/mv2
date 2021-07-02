@@ -26,7 +26,7 @@ import * as sty from "./PlasmicCardLogIn.module.css"; // plasmic-import: wTVVybn
 
 export const PlasmicCardLogIn__VariantProps = new Array("size");
 
-export const PlasmicCardLogIn__ArgProps = new Array();
+export const PlasmicCardLogIn__ArgProps = new Array("id");
 
 function PlasmicCardLogIn__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -47,6 +47,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
           [sty.formLogin__size__540]: hasVariant(variants, "size", "_540")
         }
       )}
+      id={args.id}
     >
       <p.Stack
         as={"div"}
@@ -55,15 +56,15 @@ function PlasmicCardLogIn__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.inputLabelParent)}
       >
-        <div
+        <label
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___5Tl6Q
+            sty.label___5Tl6Q
           )}
         >
           {"Email"}
-        </div>
+        </label>
 
         <input
           data-plasmic-name={"email"}
@@ -83,15 +84,15 @@ function PlasmicCardLogIn__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.inputPasswordLabelParent)}
       >
-        <div
+        <label
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__omxs0
+            sty.label__omxs0
           )}
         >
           {"Password"}
-        </div>
+        </label>
 
         <input
           data-plasmic-name={"password"}

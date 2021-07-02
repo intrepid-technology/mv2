@@ -50,6 +50,8 @@
   margin-right: 0px;
   margin-left: 0px;
   line-height: 1;
+  width: 100%;
+  min-width: 0;
 }
 .email {
   width: 100%;
@@ -105,6 +107,8 @@
   margin-right: 0px;
   margin-left: 0px;
   line-height: 1;
+  width: 100%;
+  min-width: 0;
 }
 .password {
   width: 100%;
@@ -260,22 +264,26 @@
   font-size: 14px;
   display: inline-block;
 }
-.buttonPrimary:global(.__wab_instance) {
+.buttonLinkPrimary:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
 }
-.svg__obqGw {
-  width: 100%;
-  height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
-  object-fit: cover;
-  min-width: 0;
-  min-height: 0;
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .buttonLinkPrimary:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
 }
-.box__pO6Sb {
+.box__tVj8G {
   font-size: 18px;
+  font-weight: 500;
 }
-.box__xc3Gd {
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .box__tVj8G {
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+.terms {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;

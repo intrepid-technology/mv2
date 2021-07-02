@@ -31,9 +31,8 @@ export const PlasmicButtonPrimary__VariantProps = new Array(
 
 export const PlasmicButtonPrimary__ArgProps = new Array(
   "children",
-  "target",
-  "id",
-  "svgIcon"
+  "svgIcon",
+  "id"
 );
 
 function PlasmicButtonPrimary__RenderFunc(props) {
@@ -267,6 +266,7 @@ function PlasmicButtonPrimary__RenderFunc(props) {
             hasVariant(variants, "color", "warning")
         }
       )}
+      id={args.id}
     >
       {true ? (
         <p.Stack

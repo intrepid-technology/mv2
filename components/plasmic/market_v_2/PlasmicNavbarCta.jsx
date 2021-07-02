@@ -287,13 +287,6 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 ? "_140"
                 : undefined
             }
-            target={
-              hasVariant(variants, "persona", "member")
-                ? "https://intrepidventures.typeform.com/to/f1BEleJl"
-                : hasVariant(variants, "persona", "partner")
-                ? "https://intrepidventures.typeform.com/to/qoNxle4D?utm_source=intrepid&utm_campaign=website#source=navbar"
-                : ""
-            }
           >
             <div
               className={classNames(

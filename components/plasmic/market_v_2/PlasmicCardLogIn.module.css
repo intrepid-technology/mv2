@@ -41,7 +41,7 @@
 .inputLabelParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.box___5Tl6Q {
+.label___5Tl6Q {
   position: relative;
   left: auto;
   top: auto;
@@ -55,7 +55,7 @@
   min-width: 0;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
-  .box___5Tl6Q {
+  .label___5Tl6Q {
     left: auto;
     top: auto;
   }
@@ -100,7 +100,7 @@
   > * {
   margin-top: 4px;
 }
-.box__omxs0 {
+.label__omxs0 {
   position: relative;
   left: auto;
   top: auto;
@@ -114,7 +114,7 @@
   min-width: 0;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
-  .box__omxs0 {
+  .label__omxs0 {
     left: auto;
     top: auto;
   }

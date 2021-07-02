@@ -21,7 +21,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicChipCategoryHeader.module.css"; // plasmic-import: W3C_J23Z38/css
-import Icon132Icon from "./icons/PlasmicIcon__Icon132"; // plasmic-import: alaRRmprOn/icon
+import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: alaRRmprOn/icon
 
 export const PlasmicChipCategoryHeader__VariantProps = new Array(
   "color",
@@ -94,7 +94,7 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <Icon132Icon
+            <ChevronRightIcon
               className={classNames(defaultcss.all, sty.svg__eEq7)}
               role={"img"}
             />

@@ -132,7 +132,7 @@ function PlasmicMemberPricing__RenderFunc(props) {
                   sty.box__sBo9D
                 )}
               >
-                {"Apply to join"}
+                {"Start for free"}
               </div>
             </ButtonPrimary>
           </p.Stack>
@@ -681,7 +681,7 @@ function PlasmicMemberPricing__RenderFunc(props) {
                         sty.box__jB0Uu
                       )}
                     >
-                      {"Apply to join"}
+                      {"Start for free"}
                     </div>
                   </ButtonPrimary>
 

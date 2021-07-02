@@ -125,9 +125,8 @@ function PlasmicBusinessMembership__RenderFunc(props) {
                       "__wab_instance",
                       sty.textLinkUnderlinePrimary
                     )}
-                  >
-                    {"Contact sales"}
-                  </TextLinkUnderlinePrimary>
+                    text={"Contact sales"}
+                  />
                 }
                 headline={
                   <div

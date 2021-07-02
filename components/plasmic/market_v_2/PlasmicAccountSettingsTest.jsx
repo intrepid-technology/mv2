@@ -419,9 +419,8 @@ function PlasmicAccountSettingsTest__RenderFunc(props) {
                     sty.textLinkUnderlinePrimary
                   )}
                   size={"_16"}
-                >
-                  {"Take care of that now"}
-                </TextLinkUnderlinePrimary>
+                  text={"Take care of that now"}
+                />
               </p.Stack>
             </p.Stack>
           </p.Stack>

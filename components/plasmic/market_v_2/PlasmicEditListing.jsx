@@ -151,9 +151,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__mmk9E
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Category"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Category"} />
                 }
                 toolTip={"check"}
               />
@@ -187,9 +185,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__jx7CQ
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Community"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Community"} />
                 }
                 toolTip={"check"}
               />
@@ -215,9 +211,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__e7IDw
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Description"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Description"} />
                 }
                 toolTip={"check"}
               />
@@ -243,9 +237,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__uhARm
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Images"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Images"} />
                 }
                 toolTip={"alert"}
               />
@@ -271,9 +263,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__apDzJ
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Process"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Process"} />
                 }
                 toolTip={"question"}
               />
@@ -299,9 +289,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__fH3E1
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Features"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Features"} />
                 }
                 toolTip={"check"}
               />
@@ -327,9 +315,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard___3GFse
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Content"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Content"} />
                 }
                 toolTip={"check"}
               />
@@ -355,9 +341,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__chW6A
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Method"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Method"} />
                 }
                 toolTip={"check"}
               />
@@ -383,9 +367,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__yw4Aw
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Format"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Format"} />
                 }
                 toolTip={"check"}
               />
@@ -411,9 +393,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__i3UIa
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Tools"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Tools"} />
                 }
                 toolTip={"check"}
               />
@@ -439,9 +419,10 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__gTym7
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Requirements"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    size={"_32"}
+                    text={"Requirements"}
+                  />
                 }
                 toolTip={"question"}
               />
@@ -467,9 +448,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__v6APv
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Terms"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Terms"} />
                 }
                 toolTip={"question"}
               />
@@ -495,9 +474,7 @@ function PlasmicEditListing__RenderFunc(props) {
                   sty.elementListingEditCard__mzKeq
                 )}
                 textLink={
-                  <TextLinkUnderlinePrimary size={"_32"}>
-                    {"Checkout"}
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary size={"_32"} text={"Checkout"} />
                 }
                 toolTip={"alert"}
               />

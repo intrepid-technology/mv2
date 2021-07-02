@@ -25,7 +25,7 @@ import CardSignUp from "../../CardSignUp"; // plasmic-import: kpT4G-q2jGd/compon
 import CardTitleHeading from "../../CardTitleHeading"; // plasmic-import: 1wS8JpmDTD/component
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -445,17 +445,21 @@ function PlasmicHome__RenderFunc(props) {
                 description={"description"}
                 size={"_270X270"}
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__breZ0
-                      )}
-                    >
-                      {"UX Design"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__breZ0
+                        )}
+                      >
+                        {"UX Design"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -477,17 +481,21 @@ function PlasmicHome__RenderFunc(props) {
                 description={"description"}
                 size={"_270X270"}
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__dpw1A
-                      )}
-                    >
-                      {"Mobile apps"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__dpw1A
+                        )}
+                      >
+                        {"Mobile apps"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -509,17 +517,21 @@ function PlasmicHome__RenderFunc(props) {
                 description={"description"}
                 size={"_270X270"}
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__po3Ep
-                      )}
-                    >
-                      {"No Code"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__po3Ep
+                        )}
+                      >
+                        {"No Code"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -541,17 +553,21 @@ function PlasmicHome__RenderFunc(props) {
                 description={"description"}
                 size={"_270X270"}
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__bEklk
-                      )}
-                    >
-                      {"Web apps"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__bEklk
+                        )}
+                      >
+                        {"Web apps"}
+                      </div>
+                    }
+                  />
                 }
               />
             </p.Stack>
@@ -600,24 +616,76 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 </p.Stack>
 
-                <ButtonPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.buttonPrimary__rnuX6
-                  )}
-                  color={"brand"}
-                  size={
-                    hasVariant(globalVariants, "screen", "mobileBSecondary")
-                      ? "_270"
-                      : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? "_360"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
-                      ? "_180"
-                      : undefined
-                  }
-                >
-                  {"Join today"}
-                </ButtonPrimary>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? true
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? true
+                    : false
+                ) ? (
+                  <ButtonLinkPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.buttonLinkPrimary__dP6E
+                    )}
+                    color={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "brand"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "brand"
+                        : undefined
+                    }
+                    destination={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "/member-pricing"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "/member-pricing"
+                        : undefined
+                    }
+                    height={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_48"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_40"
+                        : undefined
+                    }
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__hYew
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                          ? "Join today"
+                          : hasVariant(
+                              globalVariants,
+                              "screen",
+                              "desktopPrimary"
+                            )
+                          ? "Join today"
+                          : "Hyper Link"}
+                      </div>
+                    }
+                    type={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "fill"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "fill"
+                        : undefined
+                    }
+                    width={
+                      hasVariant(globalVariants, "screen", "mobileBSecondary")
+                        ? "_270"
+                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_180"
+                        : undefined
+                    }
+                  />
+                ) : null}
               </p.Stack>
 
               <img
@@ -708,17 +776,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__zNeu0
-                      )}
-                    >
-                      {"Destinations"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__zNeu0
+                        )}
+                      >
+                        {"Destinations"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -752,17 +824,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__flcUt
-                      )}
-                    >
-                      {"Workspaces"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__flcUt
+                        )}
+                      >
+                        {"Workspaces"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -796,17 +872,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__v6MpX
-                      )}
-                    >
-                      {"Livespaces"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__v6MpX
+                        )}
+                      >
+                        {"Livespaces"}
+                      </div>
+                    }
+                  />
                 }
               />
             </p.Stack>
@@ -860,25 +940,76 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 </p.Stack>
 
-                <ButtonPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.buttonPrimary__hlMlb
-                  )}
-                  color={"brand"}
-                  size={
-                    hasVariant(globalVariants, "screen", "mobileBSecondary")
-                      ? "_270"
-                      : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? "_360"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
-                      ? "_180"
-                      : undefined
-                  }
-                  type={"primary"}
-                >
-                  {"Get inspired"}
-                </ButtonPrimary>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? true
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? true
+                    : false
+                ) ? (
+                  <ButtonLinkPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.buttonLinkPrimary__cuxXx
+                    )}
+                    color={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "brand"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "brand"
+                        : undefined
+                    }
+                    destination={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "/member-pricing"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "/member-pricing"
+                        : undefined
+                    }
+                    height={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_48"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_40"
+                        : undefined
+                    }
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__zKpa
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                          ? "Get inspired"
+                          : hasVariant(
+                              globalVariants,
+                              "screen",
+                              "desktopPrimary"
+                            )
+                          ? "Get inspired"
+                          : "Hyper Link"}
+                      </div>
+                    }
+                    type={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "fill"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "fill"
+                        : undefined
+                    }
+                    width={
+                      hasVariant(globalVariants, "screen", "mobileBSecondary")
+                        ? "_270"
+                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_180"
+                        : undefined
+                    }
+                  />
+                ) : null}
               </p.Stack>
             </p.Stack>
           </div>
@@ -964,17 +1095,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__r1Sre
-                      )}
-                    >
-                      {"Live events"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__r1Sre
+                        )}
+                      >
+                        {"Live events"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -1008,17 +1143,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__dyXmt
-                      )}
-                    >
-                      {"Online experiences"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__dyXmt
+                        )}
+                      >
+                        {"Online experiences"}
+                      </div>
+                    }
+                  />
                 }
               />
 
@@ -1052,17 +1191,21 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 }
                 textLinkHeadlineParent={
-                  <TextLinkUnderlinePrimary color={"headline"} size={"_24"}>
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__yigk4
-                      )}
-                    >
-                      {"Professional coaching"}
-                    </div>
-                  </TextLinkUnderlinePrimary>
+                  <TextLinkUnderlinePrimary
+                    color={"headline"}
+                    size={"_24"}
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__yigk4
+                        )}
+                      >
+                        {"Professional coaching"}
+                      </div>
+                    }
+                  />
                 }
               />
             </p.Stack>
@@ -1107,24 +1250,76 @@ function PlasmicHome__RenderFunc(props) {
                   </div>
                 </p.Stack>
 
-                <ButtonPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.buttonPrimary___5QtVd
-                  )}
-                  color={"brand"}
-                  size={
-                    hasVariant(globalVariants, "screen", "mobileBSecondary")
-                      ? "_270"
-                      : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? "_360"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
-                      ? "_180"
-                      : undefined
-                  }
-                >
-                  {"Learn more"}
-                </ButtonPrimary>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? true
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    ? true
+                    : false
+                ) ? (
+                  <ButtonLinkPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.buttonLinkPrimary__hzn2V
+                    )}
+                    color={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "brand"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "brand"
+                        : undefined
+                    }
+                    destination={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "/partner-pricing"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "/partner-pricing"
+                        : undefined
+                    }
+                    height={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_48"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_40"
+                        : undefined
+                    }
+                    text={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box___4HpwD
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                          ? "Learn more"
+                          : hasVariant(
+                              globalVariants,
+                              "screen",
+                              "desktopPrimary"
+                            )
+                          ? "Learn more"
+                          : "Hyper Link"}
+                      </div>
+                    }
+                    type={
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "fill"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "fill"
+                        : undefined
+                    }
+                    width={
+                      hasVariant(globalVariants, "screen", "mobileBSecondary")
+                        ? "_270"
+                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
+                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        ? "_180"
+                        : undefined
+                    }
+                  />
+                ) : null}
               </p.Stack>
 
               <img

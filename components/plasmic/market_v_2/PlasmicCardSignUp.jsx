@@ -12,12 +12,16 @@ import * as React from "react";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -26,10 +30,14 @@ import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic
 
 export const PlasmicCardSignUp__VariantProps = new Array();
 
-export const PlasmicCardSignUp__ArgProps = new Array();
+export const PlasmicCardSignUp__ArgProps = new Array("id");
 
 function PlasmicCardSignUp__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <p.Stack
       as={"form"}
@@ -43,6 +51,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         projectcss.root_reset,
         sty.formHomeSignUp
       )}
+      id={args.id}
     >
       <p.Stack
         as={"div"}
@@ -51,7 +60,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.emailInputParent)}
       >
-        <div
+        <label
           data-plasmic-name={"emailText"}
           data-plasmic-override={overrides.emailText}
           className={classNames(
@@ -61,7 +70,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           )}
         >
           {"Email"}
-        </div>
+        </label>
 
         <input
           data-plasmic-name={"email"}
@@ -81,7 +90,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.passwordInputParent)}
       >
-        <div
+        <label
           data-plasmic-name={"passwordText"}
           data-plasmic-override={overrides.passwordText}
           className={classNames(
@@ -91,7 +100,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           )}
         >
           {"Password"}
-        </div>
+        </label>
 
         <input
           data-plasmic-name={"password"}
@@ -188,30 +197,58 @@ function PlasmicCardSignUp__RenderFunc(props) {
         {"Already have an account?"}
       </div>
 
-      <ButtonPrimary
-        data-plasmic-name={"buttonPrimary"}
-        data-plasmic-override={overrides.buttonPrimary}
-        className={classNames("__wab_instance", sty.buttonPrimary)}
-        size={"_360"}
-        type={"outline"}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.box__pO6Sb
-          )}
-        >
-          {"Login"}
-        </div>
-      </ButtonPrimary>
+      {(
+        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
+      ) ? (
+        <ButtonLinkPrimary
+          data-plasmic-name={"buttonLinkPrimary"}
+          data-plasmic-override={overrides.buttonLinkPrimary}
+          className={classNames("__wab_instance", sty.buttonLinkPrimary)}
+          color={
+            hasVariant(globalVariants, "screen", "desktopPrimary")
+              ? "light"
+              : "light"
+          }
+          destination={
+            hasVariant(globalVariants, "screen", "desktopPrimary")
+              ? "/log-in"
+              : "/log-in"
+          }
+          height={
+            hasVariant(globalVariants, "screen", "desktopPrimary")
+              ? "_48"
+              : "_48"
+          }
+          text={
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__tVj8G
+              )}
+            >
+              {hasVariant(globalVariants, "screen", "desktopPrimary")
+                ? "Login"
+                : "Login"}
+            </div>
+          }
+          type={
+            hasVariant(globalVariants, "screen", "desktopPrimary")
+              ? "outline"
+              : "outline"
+          }
+          width={
+            hasVariant(globalVariants, "screen", "desktopPrimary")
+              ? "_360"
+              : "_360"
+          }
+        />
+      ) : null}
 
       <div
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.box__xc3Gd
-        )}
+        data-plasmic-name={"terms"}
+        data-plasmic-override={overrides.terms}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.terms)}
       >
         {
           'By selecting "Continue", I agree to Intrepid\'s Terms of Service, Privacy Policy,  and to receive members-only deals, inspiration, marketing emails, and push notifications. You can opt out of receiving these at any time in your account settings or directly from the marketing notification'
@@ -270,7 +307,8 @@ const PlasmicDescendants = {
     "divider",
     "signupFacebookConnection",
     "signupGoogleConnection",
-    "buttonPrimary",
+    "buttonLinkPrimary",
+    "terms",
     "signupLegalLinks",
     "signupTos",
     "signupPrivacy"
@@ -286,7 +324,8 @@ const PlasmicDescendants = {
   divider: ["divider"],
   signupFacebookConnection: ["signupFacebookConnection"],
   signupGoogleConnection: ["signupGoogleConnection"],
-  buttonPrimary: ["buttonPrimary"],
+  buttonLinkPrimary: ["buttonLinkPrimary"],
+  terms: ["terms"],
   signupLegalLinks: ["signupLegalLinks", "signupTos", "signupPrivacy"],
   signupTos: ["signupTos"],
   signupPrivacy: ["signupPrivacy"]
@@ -333,7 +372,8 @@ export const PlasmicCardSignUp = Object.assign(
     divider: makeNodeComponent("divider"),
     signupFacebookConnection: makeNodeComponent("signupFacebookConnection"),
     signupGoogleConnection: makeNodeComponent("signupGoogleConnection"),
-    buttonPrimary: makeNodeComponent("buttonPrimary"),
+    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
+    terms: makeNodeComponent("terms"),
     signupLegalLinks: makeNodeComponent("signupLegalLinks"),
     signupTos: makeNodeComponent("signupTos"),
     signupPrivacy: makeNodeComponent("signupPrivacy"),

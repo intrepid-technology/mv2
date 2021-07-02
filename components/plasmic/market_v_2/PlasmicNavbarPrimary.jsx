@@ -81,6 +81,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarLogo, {
                 [sty.navbarLogo__color]: hasVariant(variants, "color", "color")
               })}
+              destination={"/"}
             />
           </div>
         ) : null}
@@ -274,6 +275,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "color") ? "light" : undefined
               }
+              destination={"/partner-pricing"}
               linkText={
                 <div
                   className={classNames(

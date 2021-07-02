@@ -29,8 +29,9 @@ export const PlasmicTextLinkUnderlinePrimary__VariantProps = new Array(
 );
 
 export const PlasmicTextLinkUnderlinePrimary__ArgProps = new Array(
-  "children",
-  "destination"
+  "text",
+  "destination",
+  "id"
 );
 
 function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
@@ -67,80 +68,65 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       })}
       component={Link}
       href={args.destination}
+      id={args.id}
       platform={"nextjs"}
     >
-      <p.PlasmicLink
-        data-plasmic-name={"textLinkcontainer"}
-        data-plasmic-override={overrides.textLinkcontainer}
-        className={classNames(defaultcss.all, sty.textLinkcontainer)}
-        component={Link}
-        platform={"nextjs"}
+      <div
+        data-plasmic-name={"parent"}
+        data-plasmic-override={overrides.parent}
+        className={classNames(defaultcss.all, sty.parent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Text link",
-          value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__color_brand]: hasVariant(
-              variants,
-              "color",
-              "brand"
-            ),
-
-            [sty.slotChildren__color_dark]: hasVariant(
-              variants,
-              "color",
-              "dark"
-            ),
-
-            [sty.slotChildren__color_headline]: hasVariant(
+          value: args.text,
+          className: classNames(sty.slotText, {
+            [sty.slotText__color_brand]: hasVariant(variants, "color", "brand"),
+            [sty.slotText__color_dark]: hasVariant(variants, "color", "dark"),
+            [sty.slotText__color_headline]: hasVariant(
               variants,
               "color",
               "headline"
             ),
 
-            [sty.slotChildren__color_light]: hasVariant(
-              variants,
-              "color",
-              "light"
-            ),
-
-            [sty.slotChildren__color_light_size__14]:
+            [sty.slotText__color_light]: hasVariant(variants, "color", "light"),
+            [sty.slotText__color_light_size__14]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_14"),
-            [sty.slotChildren__color_light_size__24]:
+            [sty.slotText__color_light_size__24]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_24"),
-            [sty.slotChildren__color_light_size__32]:
+            [sty.slotText__color_light_size__32]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_32"),
-            [sty.slotChildren__color_light_size__40]:
+            [sty.slotText__color_light_size__40]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_40"),
-            [sty.slotChildren__size__10]: hasVariant(variants, "size", "_10"),
-            [sty.slotChildren__size__12]: hasVariant(variants, "size", "_12"),
-            [sty.slotChildren__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.slotChildren__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.slotChildren__size__16_color_light]:
+            [sty.slotText__size__10]: hasVariant(variants, "size", "_10"),
+            [sty.slotText__size__12]: hasVariant(variants, "size", "_12"),
+            [sty.slotText__size__14]: hasVariant(variants, "size", "_14"),
+            [sty.slotText__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.slotText__size__16_color_light]:
               hasVariant(variants, "size", "_16") &&
               hasVariant(variants, "color", "light"),
-            [sty.slotChildren__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.slotChildren__size__18_color_light]:
+            [sty.slotText__size__18]: hasVariant(variants, "size", "_18"),
+            [sty.slotText__size__18_color_light]:
               hasVariant(variants, "size", "_18") &&
               hasVariant(variants, "color", "light"),
-            [sty.slotChildren__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.slotChildren__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.slotChildren__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.slotChildren__size__8]: hasVariant(variants, "size", "_8")
+            [sty.slotText__size__24]: hasVariant(variants, "size", "_24"),
+            [sty.slotText__size__32]: hasVariant(variants, "size", "_32"),
+            [sty.slotText__size__36]: hasVariant(variants, "size", "_36"),
+            [sty.slotText__size__40]: hasVariant(variants, "size", "_40"),
+            [sty.slotText__size__8]: hasVariant(variants, "size", "_8")
           })
         })}
-      </p.PlasmicLink>
+      </div>
     </p.PlasmicLink>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textLinkcontainer"],
-  textLinkcontainer: ["textLinkcontainer"]
+  root: ["root", "parent"],
+  parent: ["parent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -174,7 +160,7 @@ export const PlasmicTextLinkUnderlinePrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textLinkcontainer: makeNodeComponent("textLinkcontainer"),
+    parent: makeNodeComponent("parent"),
     // Metadata about props expected for PlasmicTextLinkUnderlinePrimary
     internalVariantProps: PlasmicTextLinkUnderlinePrimary__VariantProps,
     internalArgProps: PlasmicTextLinkUnderlinePrimary__ArgProps
