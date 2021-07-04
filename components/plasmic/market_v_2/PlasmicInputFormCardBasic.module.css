@@ -118,7 +118,7 @@
   justify-content: flex-end;
 }
 .descriptionParent {
-  display: flex;
+  display: none;
   position: relative;
   flex-direction: column;
   align-items: stretch;

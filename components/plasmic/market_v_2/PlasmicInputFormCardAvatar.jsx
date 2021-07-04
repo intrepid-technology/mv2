@@ -77,14 +77,26 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
             data-plasmic-name={"headlineParent"}
             data-plasmic-override={overrides.headlineParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.headlineParent)}
+            className={classNames(defaultcss.all, sty.headlineParent, {
+              [sty.headlineParent__subDescription]: hasVariant(
+                variants,
+                "subDescription",
+                "subDescription"
+              )
+            })}
           >
             <div className={classNames(defaultcss.all, sty.box___8FgC)}>
               <div className={classNames(defaultcss.all, sty.box__zGlE)}>
                 {p.renderPlasmicSlot({
                   defaultContents: "Headline",
                   value: args.headline,
-                  className: classNames(sty.slotHeadline)
+                  className: classNames(sty.slotHeadline, {
+                    [sty.slotHeadline__subDescription]: hasVariant(
+                      variants,
+                      "subDescription",
+                      "subDescription"
+                    )
+                  })
                 })}
               </div>
             </div>
@@ -97,7 +109,13 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
                 value: args.subHead,
-                className: classNames(sty.slotSubHead)
+                className: classNames(sty.slotSubHead, {
+                  [sty.slotSubHead__subDescription]: hasVariant(
+                    variants,
+                    "subDescription",
+                    "subDescription"
+                  )
+                })
               })}
             </div>
           </p.Stack>

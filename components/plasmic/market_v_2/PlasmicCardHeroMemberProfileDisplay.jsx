@@ -361,11 +361,6 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   ? "brand"
                   : undefined
               }
-              destination={
-                hasVariant(variants, "userState", "loggedIn")
-                  ? "/personal-account-profile"
-                  : undefined
-              }
               height={
                 hasVariant(variants, "userState", "loggedIn")
                   ? "_36"

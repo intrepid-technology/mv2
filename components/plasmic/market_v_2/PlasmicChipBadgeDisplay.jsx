@@ -26,6 +26,7 @@ import Icon114Icon from "./icons/PlasmicIcon__Icon114"; // plasmic-import: 4sI0j
 import Icon170Icon from "./icons/PlasmicIcon__Icon170"; // plasmic-import: JricKendl/icon
 
 export const PlasmicChipBadgeDisplay__VariantProps = new Array(
+  "disabled",
   "trigger",
   "type",
   "color",
@@ -68,6 +69,12 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             variants,
             "color",
             "light"
+          ),
+
+          [sty.chipDisplay__disabled]: hasVariant(
+            variants,
+            "disabled",
+            "disabled"
           ),
 
           [sty.chipDisplay__size__24]: hasVariant(variants, "size", "_24"),
@@ -167,6 +174,12 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             [sty.slotChildren__color_light_trigger_add]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "trigger", "add"),
+            [sty.slotChildren__disabled]: hasVariant(
+              variants,
+              "disabled",
+              "disabled"
+            ),
+
             [sty.slotChildren__size__24]: hasVariant(variants, "size", "_24"),
             [sty.slotChildren__size__32]: hasVariant(variants, "size", "_32"),
             [sty.slotChildren__size__36]: hasVariant(variants, "size", "_36"),

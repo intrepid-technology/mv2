@@ -220,7 +220,7 @@ function PlasmicManageTeam__RenderFunc(props) {
                         {"Email address"}
                       </div>
                     }
-                    size={"_360"}
+                    width={"_360"}
                   />
 
                   <ButtonFormDropdownSelect
@@ -278,7 +278,7 @@ function PlasmicManageTeam__RenderFunc(props) {
                         {"Email address"}
                       </div>
                     }
-                    size={"_360"}
+                    width={"_360"}
                   />
 
                   <ButtonFormDropdownSelect

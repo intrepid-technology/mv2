@@ -24,8 +24,8 @@ import SearchPlusIcon from "./icons/PlasmicIcon__SearchPlus"; // plasmic-import:
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
 export const PlasmicSearchbarFilter__VariantProps = new Array(
-  "height",
-  "width"
+  "width",
+  "height"
 );
 
 export const PlasmicSearchbarFilter__ArgProps = new Array();
@@ -39,14 +39,14 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__height__180]: hasVariant(variants, "height", "_180"),
-        [sty.root__height__270]: hasVariant(variants, "height", "_270"),
-        [sty.root__height__360]: hasVariant(variants, "height", "_360"),
-        [sty.root__height__540]: hasVariant(variants, "height", "_540"),
-        [sty.root__width__32]: hasVariant(variants, "width", "_32"),
-        [sty.root__width__36]: hasVariant(variants, "width", "_36"),
-        [sty.root__width__40]: hasVariant(variants, "width", "_40"),
-        [sty.root__width__48]: hasVariant(variants, "width", "_48")
+        [sty.root__height__32]: hasVariant(variants, "height", "_32"),
+        [sty.root__height__36]: hasVariant(variants, "height", "_36"),
+        [sty.root__height__40]: hasVariant(variants, "height", "_40"),
+        [sty.root__height__48]: hasVariant(variants, "height", "_48"),
+        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
+        [sty.root__width__540]: hasVariant(variants, "width", "_540")
       })}
     >
       <div className={classNames(defaultcss.all, sty.box__q5B)}>

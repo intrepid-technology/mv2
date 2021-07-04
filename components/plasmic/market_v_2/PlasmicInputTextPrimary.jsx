@@ -20,7 +20,12 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextPrimary.module.css"; // plasmic-import: a2XXnCI4Ss/css
 
-export const PlasmicInputTextPrimary__VariantProps = new Array("type", "size");
+export const PlasmicInputTextPrimary__VariantProps = new Array(
+  "type",
+  "width",
+  "height",
+  "background"
+);
 
 export const PlasmicInputTextPrimary__ArgProps = new Array();
 
@@ -33,30 +38,71 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__90]: hasVariant(variants, "size", "_90")
+        [sty.root__width__90]: hasVariant(variants, "width", "_90")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(defaultcss.all, sty.parent, {
-          [sty.parent__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.parent__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.parent__size__90]: hasVariant(variants, "size", "_90")
+          [sty.parent__background_white]: hasVariant(
+            variants,
+            "background",
+            "white"
+          ),
+
+          [sty.parent__height__32]: hasVariant(variants, "height", "_32"),
+          [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
+          [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
+          [sty.parent__height__48]: hasVariant(variants, "height", "_48"),
+          [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
+          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
+          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
+          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
         })}
       >
         <input
           data-plasmic-name={"textbox"}
           data-plasmic-override={overrides.textbox}
           className={classNames(defaultcss.input, sty.textbox, {
-            [sty.textbox__size__90]: hasVariant(variants, "size", "_90"),
+            [sty.textbox__background_black]: hasVariant(
+              variants,
+              "background",
+              "black"
+            ),
+
+            [sty.textbox__background_grey]: hasVariant(
+              variants,
+              "background",
+              "grey"
+            ),
+
+            [sty.textbox__background_white]: hasVariant(
+              variants,
+              "background",
+              "white"
+            ),
+
+            [sty.textbox__height__32]: hasVariant(variants, "height", "_32"),
+            [sty.textbox__height__36]: hasVariant(variants, "height", "_36"),
+            [sty.textbox__height__40]: hasVariant(variants, "height", "_40"),
+            [sty.textbox__height__48]: hasVariant(variants, "height", "_48"),
             [sty.textbox__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
-            )
+            ),
+
+            [sty.textbox__type_underline]: hasVariant(
+              variants,
+              "type",
+              "underline"
+            ),
+
+            [sty.textbox__width__90]: hasVariant(variants, "width", "_90")
           })}
           placeholder={"Enter text"}
           size={1}

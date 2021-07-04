@@ -54,6 +54,7 @@ function PlasmicSideBarMemberHeaderPanelNav__RenderFunc(props) {
             data-plasmic-name={"navbarSwitch"}
             data-plasmic-override={overrides.navbarSwitch}
             className={classNames("__wab_instance", sty.navbarSwitch)}
+            close={"close"}
           />
 
           <p.Stack

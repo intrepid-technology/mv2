@@ -307,8 +307,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarSave, {
                 [sty.navbarSave__color]: hasVariant(variants, "color", "color")
               })}
-              color={
-                hasVariant(variants, "color", "color") ? "color" : undefined
+              light={
+                hasVariant(variants, "color", "color") ? "light" : undefined
               }
             />
           ) : null}
@@ -323,8 +323,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarBrief, {
                 [sty.navbarBrief__color]: hasVariant(variants, "color", "color")
               })}
-              color={
-                hasVariant(variants, "color", "color") ? "color" : undefined
+              light={
+                hasVariant(variants, "color", "color") ? "light" : undefined
               }
             />
           ) : null}

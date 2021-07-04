@@ -16,29 +16,35 @@
   border-radius: 4px;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.parent__width__40 {
+.parent__height__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.parent__height__40 {
   height: 40px;
   flex-shrink: 0;
 }
-.parent__width__48 {
+.parent__height__48 {
   height: 48px;
   flex-shrink: 0;
 }
-.parent__height__120 {
+.parent__width__120 {
   width: 120px;
 }
-.parent__height__180 {
+.parent__width__180 {
   width: 180px;
 }
-.parent__height__270 {
+.parent__width__270 {
   width: 270px;
 }
-.parent__height__360 {
+.parent__width__360 {
   width: 360px;
 }
-.parent__width__36 {
-  height: 36px;
-  flex-shrink: 0;
+.parent__width__540 {
+  width: 540px;
+}
+.parent__width__720 {
+  width: 720px;
 }
 .root:hover .parent {
   border-style: solid;

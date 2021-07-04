@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
-import LinkCounterNavigation from "../../LinkCounterNavigation"; // plasmic-import: -OUVGqQU5t/component
+import NavLinkCounter from "../../NavLinkCounter"; // plasmic-import: -OUVGqQU5t/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -149,162 +149,152 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
               ? undefined
               : hasVariant(variants, "selected", "about")
               ? "selected"
-              : undefined
+              : "selected"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation___6WKoC,
-            {
-              [sty.linkCounterNavigation__selected_listings___6WKoCatZ1V]:
-                hasVariant(variants, "selected", "listings")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter___6WKoC, {
+            [sty.navLinkCounter__selected_listings___6WKoCatZ1V]: hasVariant(
+              variants,
+              "selected",
+              "listings"
+            )
+          })}
           navLabel={"Listings"}
           numberValue={"9"}
           state={
             hasVariant(variants, "selected", "listings")
               ? "selected"
-              : undefined
+              : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__tx7Dj,
-            {
-              [sty.linkCounterNavigation__selected_packages__tx7DjkVsPo]:
-                hasVariant(variants, "selected", "packages")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__tx7Dj, {
+            [sty.navLinkCounter__selected_packages__tx7DjkVsPo]: hasVariant(
+              variants,
+              "selected",
+              "packages"
+            )
+          })}
           navLabel={"Packages"}
           numberValue={"9"}
           state={
             hasVariant(variants, "selected", "packages")
               ? "selected"
-              : undefined
+              : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__lRhK,
-            {
-              [sty.linkCounterNavigation__selected_performance__lRhKjT9Zy]:
-                hasVariant(variants, "selected", "performance")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__lRhK, {
+            [sty.navLinkCounter__selected_performance__lRhKjT9Zy]: hasVariant(
+              variants,
+              "selected",
+              "performance"
+            )
+          })}
           navLabel={"Performance"}
           numberValue={"12"}
           state={
             hasVariant(variants, "selected", "performance")
               ? "selected"
-              : undefined
+              : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation___4GqA,
-            {
-              [sty.linkCounterNavigation__selected_views___4GqA1AbJk]:
-                hasVariant(variants, "selected", "views")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter___4GqA, {
+            [sty.navLinkCounter__selected_views___4GqA1AbJk]: hasVariant(
+              variants,
+              "selected",
+              "views"
+            )
+          })}
           navLabel={"Views"}
           numberValue={"99,999"}
           state={
-            hasVariant(variants, "selected", "views") ? "selected" : undefined
+            hasVariant(variants, "selected", "views") ? "selected" : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__jlu83,
-            {
-              [sty.linkCounterNavigation__selected_reacts__jlu83A9KXd]:
-                hasVariant(variants, "selected", "reacts")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__jlu83, {
+            [sty.navLinkCounter__selected_reacts__jlu83A9KXd]: hasVariant(
+              variants,
+              "selected",
+              "reacts"
+            )
+          })}
           navLabel={"Reacts"}
           numberValue={"99,999"}
           state={
-            hasVariant(variants, "selected", "reacts") ? "selected" : undefined
+            hasVariant(variants, "selected", "reacts") ? "selected" : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__jsKxc,
-            {
-              [sty.linkCounterNavigation__selected_saves__jsKxcioQd7]:
-                hasVariant(variants, "selected", "saves")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__jsKxc, {
+            [sty.navLinkCounter__selected_saves__jsKxcioQd7]: hasVariant(
+              variants,
+              "selected",
+              "saves"
+            )
+          })}
           navLabel={"Saves"}
           numberValue={"9"}
           state={
-            hasVariant(variants, "selected", "saves") ? "selected" : undefined
+            hasVariant(variants, "selected", "saves") ? "selected" : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__dp0Z5,
-            {
-              [sty.linkCounterNavigation__selected_team__dp0Z5WIx2]: hasVariant(
-                variants,
-                "selected",
-                "team"
-              )
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__dp0Z5, {
+            [sty.navLinkCounter__selected_team__dp0Z5WIx2]: hasVariant(
+              variants,
+              "selected",
+              "team"
+            )
+          })}
           navLabel={"Team"}
           numberValue={"9"}
           state={
-            hasVariant(variants, "selected", "team") ? "selected" : undefined
+            hasVariant(variants, "selected", "team") ? "selected" : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__bsu8U,
-            {
-              [sty.linkCounterNavigation__selected_members__bsu8UEaYwc]:
-                hasVariant(variants, "selected", "members")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__bsu8U, {
+            [sty.navLinkCounter__selected_members__bsu8UEaYwc]: hasVariant(
+              variants,
+              "selected",
+              "members"
+            )
+          })}
           navLabel={"Members"}
           numberValue={"999"}
           state={
-            hasVariant(variants, "selected", "members") ? "selected" : undefined
+            hasVariant(variants, "selected", "members")
+              ? "selected"
+              : "disabled"
           }
         />
 
-        <LinkCounterNavigation
-          className={classNames(
-            "__wab_instance",
-            sty.linkCounterNavigation__d1Mk9,
-            {
-              [sty.linkCounterNavigation__selected_partners__d1Mk9PzLrn]:
-                hasVariant(variants, "selected", "partners")
-            }
-          )}
+        <NavLinkCounter
+          className={classNames("__wab_instance", sty.navLinkCounter__d1Mk9, {
+            [sty.navLinkCounter__selected_partners__d1Mk9PzLrn]: hasVariant(
+              variants,
+              "selected",
+              "partners"
+            )
+          })}
           navLabel={"Partners"}
           numberValue={"9"}
           state={
             hasVariant(variants, "selected", "partners")
               ? "selected"
-              : undefined
+              : "disabled"
           }
         />
       </p.Stack>

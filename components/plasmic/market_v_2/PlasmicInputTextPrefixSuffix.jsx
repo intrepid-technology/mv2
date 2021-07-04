@@ -23,8 +23,8 @@ import * as sty from "./PlasmicInputTextPrefixSuffix.module.css"; // plasmic-imp
 
 export const PlasmicInputTextPrefixSuffix__VariantProps = new Array(
   "type",
-  "height",
   "width",
+  "height",
   "prefix",
   "suffix"
 );
@@ -48,21 +48,23 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(defaultcss.all, sty.parent, {
-          [sty.parent__height__120]: hasVariant(variants, "height", "_120"),
-          [sty.parent__height__160]: hasVariant(variants, "height", "_160"),
-          [sty.parent__height__180]: hasVariant(variants, "height", "_180"),
-          [sty.parent__height__270]: hasVariant(variants, "height", "_270"),
-          [sty.parent__height__360]: hasVariant(variants, "height", "_360"),
+          [sty.parent__height__32]: hasVariant(variants, "height", "_32"),
+          [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
+          [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
+          [sty.parent__height__48]: hasVariant(variants, "height", "_48"),
           [sty.parent__type_secondary]: hasVariant(
             variants,
             "type",
             "secondary"
           ),
 
-          [sty.parent__width__32]: hasVariant(variants, "width", "_32"),
-          [sty.parent__width__36]: hasVariant(variants, "width", "_36"),
-          [sty.parent__width__40]: hasVariant(variants, "width", "_40"),
-          [sty.parent__width__48]: hasVariant(variants, "width", "_48")
+          [sty.parent__width__120]: hasVariant(variants, "width", "_120"),
+          [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
+          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
+          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
+          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <div

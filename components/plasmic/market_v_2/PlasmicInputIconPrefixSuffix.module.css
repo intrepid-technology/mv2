@@ -1,16 +1,49 @@
 .root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.parent {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   width: 90px;
   height: 32px;
-  position: relative;
+  flex-shrink: 0;
   border-radius: 2px;
   background: #ffffff;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
-.box__bSbya {
+.parent__width__90 {
+  width: 90px;
+  flex-shrink: 0;
+}
+.parent__width__180 {
+  width: 180px;
+  flex-shrink: 0;
+}
+.parent__width__270 {
+  width: 270px;
+  flex-shrink: 0;
+}
+.parent__width__360 {
+  width: 360px;
+  flex-shrink: 0;
+}
+.parent__width__540 {
+  width: 540px;
+  flex-shrink: 0;
+}
+.parent__width__720 {
+  width: 720px;
+  flex-shrink: 0;
+}
+.prefixParent {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -24,6 +57,9 @@
   padding: 4px;
   background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.prefixParent__prefix {
+  display: none;
 }
 .svg__wok5V {
   position: relative;
@@ -43,7 +79,7 @@
   min-height: 0;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__m1Wh5 {
+.suffixParent {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -57,6 +93,9 @@
   padding: 4px;
   background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.suffixParent__suffix {
+  display: none;
 }
 .svg___1W2Uv {
   position: relative;

@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
-import CardTitleHeading from "../../CardTitleHeading"; // plasmic-import: 1wS8JpmDTD/component
+import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
 import ChipSearchFilterButton from "../../ChipSearchFilterButton"; // plasmic-import: GbL35coVdJ/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
@@ -74,10 +74,13 @@ function PlasmicSearch__RenderFunc(props) {
           />
 
           <div className={classNames(defaultcss.all, sty.box__mByHg)}>
-            <CardTitleHeading
-              data-plasmic-name={"cardTitleHeading"}
-              data-plasmic-override={overrides.cardTitleHeading}
-              className={classNames("__wab_instance", sty.cardTitleHeading)}
+            <CardHeaderTitleDisplay
+              data-plasmic-name={"cardHeaderTitleDisplay"}
+              data-plasmic-override={overrides.cardHeaderTitleDisplay}
+              className={classNames(
+                "__wab_instance",
+                sty.cardHeaderTitleDisplay
+              )}
               headings={[]}
               slot={
                 <div
@@ -90,7 +93,8 @@ function PlasmicSearch__RenderFunc(props) {
                   {"Discover the community"}
                 </div>
               }
-              slot2={
+              textDisplay={"Search"}
+              textSubhead={
                 <div
                   className={classNames(
                     defaultcss.all,
@@ -103,9 +107,7 @@ function PlasmicSearch__RenderFunc(props) {
                   }
                 </div>
               }
-            >
-              {"Search"}
-            </CardTitleHeading>
+            />
           </div>
 
           <p.Stack
@@ -439,13 +441,13 @@ const PlasmicDescendants = {
   root: [
     "root",
     "navbarInternal",
-    "cardTitleHeading",
+    "cardHeaderTitleDisplay",
     "buttonPrimary",
     "footerB"
   ],
 
   navbarInternal: ["navbarInternal"],
-  cardTitleHeading: ["cardTitleHeading"],
+  cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
   buttonPrimary: ["buttonPrimary"],
   footerB: ["footerB"]
 };
@@ -482,7 +484,7 @@ export const PlasmicSearch = Object.assign(
   {
     // Helper components rendering sub-elements
     navbarInternal: makeNodeComponent("navbarInternal"),
-    cardTitleHeading: makeNodeComponent("cardTitleHeading"),
+    cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicSearch

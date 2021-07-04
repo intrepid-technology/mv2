@@ -61,12 +61,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: calc(0px - 24px);
-  height: calc(100% + 24px);
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
 }
 .signUpHeadlineDiv > :global(.__wab_flex-container) > *,
 .signUpHeadlineDiv > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
   .signUpHeadlineDiv {

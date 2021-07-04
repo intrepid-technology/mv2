@@ -26,7 +26,8 @@ export const PlasmicInputTextForm__VariantProps = new Array(
   "label",
   "subhead",
   "type",
-  "size"
+  "width",
+  "height"
 );
 
 export const PlasmicInputTextForm__ArgProps = new Array(
@@ -49,9 +50,9 @@ function PlasmicInputTextForm__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__label]: hasVariant(variants, "label", "label"),
-        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__380]: hasVariant(variants, "size", "_380")
+        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
+        [sty.root__width__380]: hasVariant(variants, "width", "_380")
       })}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
     >
@@ -62,12 +63,13 @@ function PlasmicInputTextForm__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.parent, {
           [sty.parent__label]: hasVariant(variants, "label", "label"),
-          [sty.parent__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.parent__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.parent__size__380]: hasVariant(variants, "size", "_380"),
-          [sty.parent__size__540]: hasVariant(variants, "size", "_540")
+          [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
+          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
+          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
+          [sty.parent__width__380]: hasVariant(variants, "width", "_380"),
+          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <div
@@ -80,34 +82,34 @@ function PlasmicInputTextForm__RenderFunc(props) {
               "label"
             ),
 
-            [sty.labelHeadlineParent__size__180]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            ),
-
-            [sty.labelHeadlineParent__size__270]: hasVariant(
-              variants,
-              "size",
-              "_270"
-            ),
-
-            [sty.labelHeadlineParent__size__380]: hasVariant(
-              variants,
-              "size",
-              "_380"
-            ),
-
-            [sty.labelHeadlineParent__size__540]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            ),
-
             [sty.labelHeadlineParent__subhead]: hasVariant(
               variants,
               "subhead",
               "subhead"
+            ),
+
+            [sty.labelHeadlineParent__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
+
+            [sty.labelHeadlineParent__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
+
+            [sty.labelHeadlineParent__width__380]: hasVariant(
+              variants,
+              "width",
+              "_380"
+            ),
+
+            [sty.labelHeadlineParent__width__540]: hasVariant(
+              variants,
+              "width",
+              "_540"
             )
           })}
         >
@@ -122,28 +124,34 @@ function PlasmicInputTextForm__RenderFunc(props) {
                     "label"
                   ),
 
-                  [sty.slotLabelHeadline__size__180]: hasVariant(
+                  [sty.slotLabelHeadline__width__180]: hasVariant(
                     variants,
-                    "size",
+                    "width",
                     "_180"
                   ),
 
-                  [sty.slotLabelHeadline__size__270]: hasVariant(
+                  [sty.slotLabelHeadline__width__270]: hasVariant(
                     variants,
-                    "size",
+                    "width",
                     "_270"
                   ),
 
-                  [sty.slotLabelHeadline__size__380]: hasVariant(
+                  [sty.slotLabelHeadline__width__380]: hasVariant(
                     variants,
-                    "size",
+                    "width",
                     "_380"
                   ),
 
-                  [sty.slotLabelHeadline__size__540]: hasVariant(
+                  [sty.slotLabelHeadline__width__540]: hasVariant(
                     variants,
-                    "size",
+                    "width",
                     "_540"
+                  ),
+
+                  [sty.slotLabelHeadline__width__720]: hasVariant(
+                    variants,
+                    "width",
+                    "_720"
                   )
                 })
               })
@@ -154,10 +162,31 @@ function PlasmicInputTextForm__RenderFunc(props) {
           data-plasmic-name={"inputParent"}
           data-plasmic-override={overrides.inputParent}
           className={classNames(defaultcss.all, sty.inputParent, {
-            [sty.inputParent__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.inputParent__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.inputParent__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.inputParent__size__380]: hasVariant(variants, "size", "_380")
+            [sty.inputParent__height__48]: hasVariant(
+              variants,
+              "height",
+              "_48"
+            ),
+
+            [sty.inputParent__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
+
+            [sty.inputParent__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
+
+            [sty.inputParent__width__360]: hasVariant(
+              variants,
+              "width",
+              "_360"
+            ),
+
+            [sty.inputParent__width__380]: hasVariant(variants, "width", "_380")
           })}
         >
           {(triggers.hover_root ? true : true) ? (
@@ -165,13 +194,51 @@ function PlasmicInputTextForm__RenderFunc(props) {
               data-plasmic-name={"textbox"}
               data-plasmic-override={overrides.textbox}
               className={classNames(defaultcss.input, sty.textbox, {
+                [sty.textbox__height__32]: hasVariant(
+                  variants,
+                  "height",
+                  "_32"
+                ),
+
+                [sty.textbox__height__36]: hasVariant(
+                  variants,
+                  "height",
+                  "_36"
+                ),
+
+                [sty.textbox__height__40]: hasVariant(
+                  variants,
+                  "height",
+                  "_40"
+                ),
+
+                [sty.textbox__height__48]: hasVariant(
+                  variants,
+                  "height",
+                  "_48"
+                ),
+
+                [sty.textbox__type_primary]: hasVariant(
+                  variants,
+                  "type",
+                  "primary"
+                ),
+
                 [sty.textbox__type_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
-                )
+                ),
+
+                [sty.textbox__width__720]: hasVariant(variants, "width", "_720")
               })}
-              placeholder={triggers.hover_root ? "Enter text" : "Enter text"}
+              placeholder={
+                triggers.hover_root
+                  ? "Enter text"
+                  : hasVariant(variants, "type", "primary")
+                  ? ""
+                  : ""
+              }
               size={1}
               type={"text"}
               value={triggers.hover_root ? "" : ""}
@@ -196,34 +263,34 @@ function PlasmicInputTextForm__RenderFunc(props) {
                 "label"
               ),
 
-              [sty.descriptionParent__size__180]: hasVariant(
-                variants,
-                "size",
-                "_180"
-              ),
-
-              [sty.descriptionParent__size__270]: hasVariant(
-                variants,
-                "size",
-                "_270"
-              ),
-
-              [sty.descriptionParent__size__380]: hasVariant(
-                variants,
-                "size",
-                "_380"
-              ),
-
-              [sty.descriptionParent__size__540]: hasVariant(
-                variants,
-                "size",
-                "_540"
-              ),
-
               [sty.descriptionParent__subhead]: hasVariant(
                 variants,
                 "subhead",
                 "subhead"
+              ),
+
+              [sty.descriptionParent__width__180]: hasVariant(
+                variants,
+                "width",
+                "_180"
+              ),
+
+              [sty.descriptionParent__width__270]: hasVariant(
+                variants,
+                "width",
+                "_270"
+              ),
+
+              [sty.descriptionParent__width__380]: hasVariant(
+                variants,
+                "width",
+                "_380"
+              ),
+
+              [sty.descriptionParent__width__540]: hasVariant(
+                variants,
+                "width",
+                "_540"
               )
             })}
           >
@@ -238,28 +305,34 @@ function PlasmicInputTextForm__RenderFunc(props) {
                       "label"
                     ),
 
-                    [sty.slotDescription__size__180]: hasVariant(
+                    [sty.slotDescription__width__180]: hasVariant(
                       variants,
-                      "size",
+                      "width",
                       "_180"
                     ),
 
-                    [sty.slotDescription__size__270]: hasVariant(
+                    [sty.slotDescription__width__270]: hasVariant(
                       variants,
-                      "size",
+                      "width",
                       "_270"
                     ),
 
-                    [sty.slotDescription__size__380]: hasVariant(
+                    [sty.slotDescription__width__380]: hasVariant(
                       variants,
-                      "size",
+                      "width",
                       "_380"
                     ),
 
-                    [sty.slotDescription__size__540]: hasVariant(
+                    [sty.slotDescription__width__540]: hasVariant(
                       variants,
-                      "size",
+                      "width",
                       "_540"
+                    ),
+
+                    [sty.slotDescription__width__720]: hasVariant(
+                      variants,
+                      "width",
+                      "_720"
                     )
                   })
                 })

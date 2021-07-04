@@ -21,7 +21,7 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicNavbarSave.module.css"; // plasmic-import: -GlpTucHU-/css
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 
-export const PlasmicNavbarSave__VariantProps = new Array("color");
+export const PlasmicNavbarSave__VariantProps = new Array("light");
 
 export const PlasmicNavbarSave__ArgProps = new Array();
 
@@ -34,14 +34,14 @@ function PlasmicNavbarSave__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
+        [sty.root__light]: hasVariant(variants, "light", "light")
       })}
     >
       <BookmarkIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(defaultcss.all, sty.svg, {
-          [sty.svg__color]: hasVariant(variants, "color", "color")
+          [sty.svg__light]: hasVariant(variants, "light", "light")
         })}
         role={"img"}
       />

@@ -15,6 +15,7 @@
   object-fit: cover;
   width: 24px;
   height: 24px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
@@ -22,12 +23,12 @@
     color: #999999 /* plasmic-token: lJGpMo6-- */;
   }
 }
-.svg__color {
+.svg__light {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .svg {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.root__color:hover .svg__color {
+.root__light:hover .svg__light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

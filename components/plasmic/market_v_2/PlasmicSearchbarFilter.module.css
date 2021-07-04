@@ -10,22 +10,22 @@
   background: #ffffff;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
-.root__height__270 {
+.root__width__270 {
   width: 270px;
 }
-.root__height__360 {
+.root__width__360 {
   width: 360px;
 }
-.root__height__540 {
+.root__width__540 {
   width: 540px;
 }
-.root__width__36 {
+.root__height__36 {
   height: 36px;
 }
-.root__width__40 {
+.root__height__40 {
   height: 40px;
 }
-.root__width__48 {
+.root__height__48 {
   height: 48px;
 }
 .root:hover {

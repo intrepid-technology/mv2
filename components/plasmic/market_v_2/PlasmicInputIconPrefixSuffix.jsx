@@ -10,6 +10,7 @@
 // Component: ri_cIHAAMV
 import * as React from "react";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -20,7 +21,12 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicInputIconPrefixSuffix.module.css"; // plasmic-import: ri_cIHAAMV/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
-export const PlasmicInputIconPrefixSuffix__VariantProps = new Array();
+export const PlasmicInputIconPrefixSuffix__VariantProps = new Array(
+  "prefix",
+  "suffix",
+  "width",
+  "height"
+);
 
 export const PlasmicInputIconPrefixSuffix__ArgProps = new Array();
 
@@ -34,36 +40,78 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__bSbya)}>
-        <PlusBoldIcon
-          className={classNames(defaultcss.all, sty.svg__wok5V)}
-          role={"img"}
-        />
-      </div>
+      <div
+        data-plasmic-name={"parent"}
+        data-plasmic-override={overrides.parent}
+        className={classNames(defaultcss.all, sty.parent, {
+          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
+          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
+          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+        })}
+      >
+        {(hasVariant(variants, "prefix", "prefix") ? true : true) ? (
+          <div
+            data-plasmic-name={"prefixParent"}
+            data-plasmic-override={overrides.prefixParent}
+            className={classNames(defaultcss.all, sty.prefixParent, {
+              [sty.prefixParent__prefix]: hasVariant(
+                variants,
+                "prefix",
+                "prefix"
+              )
+            })}
+          >
+            <PlusBoldIcon
+              className={classNames(defaultcss.all, sty.svg__wok5V)}
+              role={"img"}
+            />
+          </div>
+        ) : null}
 
-      <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
-        placeholder={""}
-        size={1}
-        type={"text"}
-        value={""}
-      />
-
-      <div className={classNames(defaultcss.all, sty.box__m1Wh5)}>
-        <PlusBoldIcon
-          className={classNames(defaultcss.all, sty.svg___1W2Uv)}
-          role={"img"}
+        <input
+          data-plasmic-name={"textbox"}
+          data-plasmic-override={overrides.textbox}
+          className={classNames(defaultcss.input, sty.textbox, {
+            [sty.textbox__prefix]: hasVariant(variants, "prefix", "prefix")
+          })}
+          placeholder={""}
+          size={1}
+          type={"text"}
+          value={""}
         />
+
+        {(hasVariant(variants, "suffix", "suffix") ? true : true) ? (
+          <div
+            data-plasmic-name={"suffixParent"}
+            data-plasmic-override={overrides.suffixParent}
+            className={classNames(defaultcss.all, sty.suffixParent, {
+              [sty.suffixParent__suffix]: hasVariant(
+                variants,
+                "suffix",
+                "suffix"
+              )
+            })}
+          >
+            <PlusBoldIcon
+              className={classNames(defaultcss.all, sty.svg___1W2Uv)}
+              role={"img"}
+            />
+          </div>
+        ) : null}
       </div>
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox"],
-  textbox: ["textbox"]
+  root: ["root", "parent", "prefixParent", "textbox", "suffixParent"],
+  parent: ["parent", "prefixParent", "textbox", "suffixParent"],
+  prefixParent: ["prefixParent"],
+  textbox: ["textbox"],
+  suffixParent: ["suffixParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -97,7 +145,10 @@ export const PlasmicInputIconPrefixSuffix = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    parent: makeNodeComponent("parent"),
+    prefixParent: makeNodeComponent("prefixParent"),
     textbox: makeNodeComponent("textbox"),
+    suffixParent: makeNodeComponent("suffixParent"),
     // Metadata about props expected for PlasmicInputIconPrefixSuffix
     internalVariantProps: PlasmicInputIconPrefixSuffix__VariantProps,
     internalArgProps: PlasmicInputIconPrefixSuffix__ArgProps

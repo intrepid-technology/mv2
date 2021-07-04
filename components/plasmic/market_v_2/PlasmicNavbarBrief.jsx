@@ -21,7 +21,7 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicNavbarBrief.module.css"; // plasmic-import: WoHRRICUYW/css
 import BriefOrdersIcon from "./icons/PlasmicIcon__BriefOrders"; // plasmic-import: IHBDow0Bv/icon
 
-export const PlasmicNavbarBrief__VariantProps = new Array("color");
+export const PlasmicNavbarBrief__VariantProps = new Array("light");
 
 export const PlasmicNavbarBrief__ArgProps = new Array();
 
@@ -34,14 +34,14 @@ function PlasmicNavbarBrief__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
+        [sty.root__light]: hasVariant(variants, "light", "light")
       })}
     >
       <BriefOrdersIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(defaultcss.all, sty.svg, {
-          [sty.svg__color]: hasVariant(variants, "color", "color")
+          [sty.svg__light]: hasVariant(variants, "light", "light")
         })}
         role={"img"}
       />

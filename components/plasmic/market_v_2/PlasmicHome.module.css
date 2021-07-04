@@ -1455,7 +1455,7 @@
   min-width: 0;
 }
 @media (min-width: 374px) and (max-width: 414px) {
-  .cardTitleHeading__wfU0G:global(.__wab_instance) {
+  .cardHeaderTitleDisplay__wfU0G:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
   }
@@ -1883,7 +1883,7 @@
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
-  .cardTitleHeading__fv5Mq:global(.__wab_instance) {
+  .cardHeaderTitleDisplay__fv5Mq:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
   }

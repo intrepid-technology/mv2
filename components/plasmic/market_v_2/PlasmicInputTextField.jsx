@@ -22,7 +22,7 @@ import * as sty from "./PlasmicInputTextField.module.css"; // plasmic-import: AT
 
 export const PlasmicInputTextField__VariantProps = new Array("type", "size");
 
-export const PlasmicInputTextField__ArgProps = new Array();
+export const PlasmicInputTextField__ArgProps = new Array("placeholder");
 
 function PlasmicInputTextField__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -85,7 +85,7 @@ function PlasmicInputTextField__RenderFunc(props) {
               "secondary"
             )
           })}
-          placeholder={"Enter text"}
+          placeholder={args.placeholder}
           size={1}
           type={"text"}
           value={""}

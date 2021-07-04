@@ -272,11 +272,6 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
                 ? "brand"
                 : undefined
             }
-            destination={
-              hasVariant(variants, "userState", "loggedIn")
-                ? "/business-profile"
-                : undefined
-            }
             height={
               hasVariant(variants, "userState", "loggedIn") ? "_32" : undefined
             }

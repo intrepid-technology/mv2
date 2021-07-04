@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -21,7 +22,11 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextFormSecondary.module.css"; // plasmic-import: oScI7WCn2r/css
 
-export const PlasmicInputTextFormSecondary__VariantProps = new Array();
+export const PlasmicInputTextFormSecondary__VariantProps = new Array(
+  "size",
+  "color",
+  "subhead"
+);
 
 export const PlasmicInputTextFormSecondary__ArgProps = new Array(
   "label",
@@ -45,11 +50,15 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.parent)}
       >
-        <div className={classNames(defaultcss.all, sty.box__lw1Ix)}>
+        <label
+          data-plasmic-name={"headlineLabelParent"}
+          data-plasmic-override={overrides.headlineLabelParent}
+          className={classNames(defaultcss.all, sty.headlineLabelParent)}
+        >
           <div
-            data-plasmic-name={"labelParent"}
-            data-plasmic-override={overrides.labelParent}
-            className={classNames(defaultcss.all, sty.labelParent)}
+            data-plasmic-name={"headlineLabel"}
+            data-plasmic-override={overrides.headlineLabel}
+            className={classNames(defaultcss.all, sty.headlineLabel)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Label",
@@ -57,29 +66,118 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
               className: classNames(sty.slotLabel)
             })}
           </div>
-        </div>
+        </label>
 
         <InputTextPrimary
           data-plasmic-name={"inputTextPrimary"}
           data-plasmic-override={overrides.inputTextPrimary}
-          className={classNames("__wab_instance", sty.inputTextPrimary)}
-          size={"_270"}
-          type={"primary"}
+          background={
+            hasVariant(variants, "color", "underlineLight")
+              ? "white"
+              : undefined
+          }
+          className={classNames("__wab_instance", sty.inputTextPrimary, {
+            [sty.inputTextPrimary__color_dark]: hasVariant(
+              variants,
+              "color",
+              "dark"
+            ),
+
+            [sty.inputTextPrimary__color_light]: hasVariant(
+              variants,
+              "color",
+              "light"
+            ),
+
+            [sty.inputTextPrimary__color_underlineLight]: hasVariant(
+              variants,
+              "color",
+              "underlineLight"
+            ),
+
+            [sty.inputTextPrimary__color_underlinePrimary]: hasVariant(
+              variants,
+              "color",
+              "underlinePrimary"
+            ),
+
+            [sty.inputTextPrimary__size__270]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
+
+            [sty.inputTextPrimary__size__360]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            ),
+
+            [sty.inputTextPrimary__size__540]: hasVariant(
+              variants,
+              "size",
+              "_540"
+            ),
+
+            [sty.inputTextPrimary__size__720]: hasVariant(
+              variants,
+              "size",
+              "_720"
+            )
+          })}
+          type={
+            hasVariant(variants, "color", "underlineLight")
+              ? "underline"
+              : hasVariant(variants, "color", "underlinePrimary")
+              ? "underline"
+              : hasVariant(variants, "color", "dark")
+              ? "primary"
+              : hasVariant(variants, "color", "light")
+              ? "secondary"
+              : undefined
+          }
+          width={
+            hasVariant(variants, "size", "_720")
+              ? "_720"
+              : hasVariant(variants, "size", "_540")
+              ? "_540"
+              : hasVariant(variants, "size", "_360")
+              ? "_360"
+              : "_270"
+          }
         />
 
-        <div className={classNames(defaultcss.all, sty.box__rXvbb)}>
+        {(hasVariant(variants, "subhead", "subhead") ? true : true) ? (
           <div
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
-            className={classNames(defaultcss.all, sty.descriptionParent)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: "Description",
-              value: args.description,
-              className: classNames(sty.slotDescription)
+            className={classNames(defaultcss.all, sty.descriptionParent, {
+              [sty.descriptionParent__subhead]: hasVariant(
+                variants,
+                "subhead",
+                "subhead"
+              )
             })}
+          >
+            <div
+              data-plasmic-name={"descriptionTextParent"}
+              data-plasmic-override={overrides.descriptionTextParent}
+              className={classNames(defaultcss.all, sty.descriptionTextParent)}
+            >
+              {p.renderPlasmicSlot({
+                defaultContents: "Description",
+                value: args.description,
+                className: classNames(sty.slotDescription, {
+                  [sty.slotDescription__subhead]: hasVariant(
+                    variants,
+                    "subhead",
+                    "subhead"
+                  )
+                })
+              })}
+            </div>
           </div>
-        </div>
+        ) : null}
       </p.Stack>
     </div>
   );
@@ -89,15 +187,27 @@ const PlasmicDescendants = {
   root: [
     "root",
     "parent",
-    "labelParent",
+    "headlineLabelParent",
+    "headlineLabel",
     "inputTextPrimary",
-    "descriptionParent"
+    "descriptionParent",
+    "descriptionTextParent"
   ],
 
-  parent: ["parent", "labelParent", "inputTextPrimary", "descriptionParent"],
-  labelParent: ["labelParent"],
+  parent: [
+    "parent",
+    "headlineLabelParent",
+    "headlineLabel",
+    "inputTextPrimary",
+    "descriptionParent",
+    "descriptionTextParent"
+  ],
+
+  headlineLabelParent: ["headlineLabelParent", "headlineLabel"],
+  headlineLabel: ["headlineLabel"],
   inputTextPrimary: ["inputTextPrimary"],
-  descriptionParent: ["descriptionParent"]
+  descriptionParent: ["descriptionParent", "descriptionTextParent"],
+  descriptionTextParent: ["descriptionTextParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -132,9 +242,11 @@ export const PlasmicInputTextFormSecondary = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
-    labelParent: makeNodeComponent("labelParent"),
+    headlineLabelParent: makeNodeComponent("headlineLabelParent"),
+    headlineLabel: makeNodeComponent("headlineLabel"),
     inputTextPrimary: makeNodeComponent("inputTextPrimary"),
     descriptionParent: makeNodeComponent("descriptionParent"),
+    descriptionTextParent: makeNodeComponent("descriptionTextParent"),
     // Metadata about props expected for PlasmicInputTextFormSecondary
     internalVariantProps: PlasmicInputTextFormSecondary__VariantProps,
     internalArgProps: PlasmicInputTextFormSecondary__ArgProps

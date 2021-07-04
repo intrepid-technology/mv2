@@ -20,11 +20,36 @@
 .chipDisplay > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 8px;
 }
-.chipDisplay__trigger_add {
-  padding-right: 2px;
+.chipDisplay__disabled {
+  width: auto;
+  height: 24px;
+  flex-direction: row;
+  display: inline-flex;
+  border-radius: 2px;
+  padding: 2px 6px;
+  background: #dddddd;
+  border: 1px solid #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.chipDisplay__trigger_add > :global(.__wab_flex-container) {
-  justify-content: space-between;
+.chipDisplay__disabled > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.chipDisplay__disabled > :global(.__wab_flex-container) > *,
+.chipDisplay__disabled
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+  margin-top: 0px;
+}
+.chipDisplay__color_light {
+  background: #f8f8f8;
+  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .chipDisplay__color_brand {
   background: #6633ff;
@@ -36,8 +61,17 @@
 .chipDisplay__size__36 {
   height: 36px;
 }
+.chipDisplay__trigger_add {
+  padding-right: 2px;
+}
+.chipDisplay__trigger_add > :global(.__wab_flex-container) {
+  justify-content: space-between;
+}
 .chipDisplay__size__40 {
   height: 40px;
+}
+.chipDisplay__size__48 {
+  height: 48px;
 }
 .chipDisplay__trigger__delete {
   padding-right: 2px;
@@ -45,9 +79,6 @@
 .chipDisplay__trigger__delete > :global(.__wab_flex-container) {
   justify-content: space-between;
   align-items: center;
-}
-.chipDisplay__size__48 {
-  height: 48px;
 }
 .chipDisplay__trigger_disabled {
   background: #dddddd;
@@ -65,10 +96,6 @@
   background: #f8f8ff;
   border-style: solid;
   border-color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
-}
-.chipDisplay__color_light {
-  background: #f8f8f8;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .chipDisplay__type_ghost_color_brand {
   background: #f0ebff;
@@ -118,6 +145,12 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   line-height: 1;
 }
+.slotChildren__disabled {
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.slotChildren__color_light {
+  color: #999999 /* plasmic-token: UPK7EIst5 */;
+}
 .slotChildren__color_brand {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
@@ -150,9 +183,6 @@
 }
 .slotChildren__type_ghost {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
-}
-.slotChildren__color_light {
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
 }
 .slotChildren__color_light_trigger_add {
   line-height: 1;

@@ -22,14 +22,16 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 6px;
 }
-.box__lw1Ix {
+.headlineLabelParent {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  min-width: 0;
 }
-.labelParent {
+.headlineLabel {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -50,14 +52,19 @@
   top: auto;
   left: auto;
 }
-.box__rXvbb {
+.descriptionParent {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: row;
+  width: 100%;
+  min-width: 0;
 }
-.descriptionParent {
+.descriptionParent__subhead {
+  display: none;
+}
+.descriptionTextParent {
   display: flex;
   align-self: stretch;
   position: relative;

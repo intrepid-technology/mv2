@@ -1,0 +1,87 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 0px;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.labelParent {
+  left: auto;
+  top: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.labelParent__label {
+  display: none;
+}
+.box__vyC13 {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotChildren {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  text-transform: none;
+}
+.selectDropdownPrimary:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option__yDgQo:global(.__wab_instance) {
+  position: relative;
+}
+.option__rawrq:global(.__wab_instance) {
+  position: relative;
+}
+.descriptionParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.descriptionParent__description {
+  display: none;
+}
+.box___9Iita {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotSlot {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #666666 /* plasmic-token: MAJ29KQMI */;
+}

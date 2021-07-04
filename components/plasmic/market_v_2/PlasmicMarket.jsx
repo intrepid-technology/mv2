@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
-import CardTitleHeading from "../../CardTitleHeading"; // plasmic-import: 1wS8JpmDTD/component
+import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
@@ -74,20 +74,19 @@ function PlasmicMarket__RenderFunc(props) {
             data-plasmic-override={overrides.sectionMarketHeadline}
             className={classNames(defaultcss.all, sty.sectionMarketHeadline)}
           >
-            <CardTitleHeading
+            <CardHeaderTitleDisplay
               className={classNames(
                 "__wab_instance",
-                sty.cardTitleHeading___4KxLs
+                sty.cardHeaderTitleDisplay___4KxLs
               )}
               headings={[]}
               size={"_360"}
               slot={"Services"}
-              slot2={
+              textDisplay={"Market"}
+              textSubhead={
                 "Discover unique services to start, launch, and grow your business."
               }
-            >
-              {"Market"}
-            </CardTitleHeading>
+            />
           </div>
 
           <p.Stack
@@ -100,10 +99,10 @@ function PlasmicMarket__RenderFunc(props) {
               sty.sectionNewServiceListings
             )}
           >
-            <CardTitleHeading
+            <CardHeaderTitleDisplay
               className={classNames(
                 "__wab_instance",
-                sty.cardTitleHeading__upcyJ
+                sty.cardHeaderTitleDisplay__upcyJ
               )}
               headings={["title"]}
               slot={
@@ -117,7 +116,7 @@ function PlasmicMarket__RenderFunc(props) {
                   {"New partners"}
                 </div>
               }
-              slot2={
+              textSubhead={
                 <div
                   className={classNames(
                     defaultcss.all,
@@ -135,13 +134,13 @@ function PlasmicMarket__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__x52DM)}
             >
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading__lJkoc
+                  sty.cardHeaderTitleDisplay__lJkoc
                 )}
                 headings={["title", "headline"]}
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,
@@ -214,13 +213,13 @@ function PlasmicMarket__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__srTxr)}
             >
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading__iXeRc
+                  sty.cardHeaderTitleDisplay__iXeRc
                 )}
                 headings={["title", "headline"]}
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,
@@ -299,10 +298,10 @@ function PlasmicMarket__RenderFunc(props) {
               sty.sectionServiceCollections
             )}
           >
-            <CardTitleHeading
+            <CardHeaderTitleDisplay
               className={classNames(
                 "__wab_instance",
-                sty.cardTitleHeading__cl1Xg
+                sty.cardHeaderTitleDisplay__cl1Xg
               )}
               headings={["title"]}
               slot={
@@ -316,7 +315,7 @@ function PlasmicMarket__RenderFunc(props) {
                   {"Personalised selection"}
                 </div>
               }
-              slot2={
+              textSubhead={
                 <div
                   className={classNames(
                     defaultcss.all,
@@ -426,10 +425,10 @@ function PlasmicMarket__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__eMg8J)}
             >
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading___9X2Sf
+                  sty.cardHeaderTitleDisplay___9X2Sf
                 )}
                 headings={["title"]}
                 slot={
@@ -443,7 +442,7 @@ function PlasmicMarket__RenderFunc(props) {
                     {"Popular & trending"}
                   </div>
                 }
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,
@@ -552,10 +551,10 @@ function PlasmicMarket__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__w5Mqp)}
             >
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading__iuvNa
+                  sty.cardHeaderTitleDisplay__iuvNa
                 )}
                 headings={["title"]}
                 slot={
@@ -569,7 +568,7 @@ function PlasmicMarket__RenderFunc(props) {
                     {"Go to market fast"}
                   </div>
                 }
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,

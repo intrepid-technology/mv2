@@ -22,7 +22,7 @@ import NavbarOverhead from "../../NavbarOverhead"; // plasmic-import: 3cGFR-AqsO
 import NavbarHomeCta from "../../NavbarHomeCta"; // plasmic-import: 5UV_WbRXrs/component
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
 import CardSignUp from "../../CardSignUp"; // plasmic-import: kpT4G-q2jGd/component
-import CardTitleHeading from "../../CardTitleHeading"; // plasmic-import: 1wS8JpmDTD/component
+import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
@@ -380,10 +380,10 @@ function PlasmicHome__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.box__lqXyy)}
           >
             <div className={classNames(defaultcss.all, sty.box__bR7Mr)}>
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading___2Toj8
+                  sty.cardHeaderTitleDisplay___2Toj8
                 )}
                 headings={["title"]}
                 size={
@@ -404,7 +404,7 @@ function PlasmicHome__RenderFunc(props) {
                     {"Grow your business from anywhere"}
                   </div>
                 }
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,
@@ -705,10 +705,10 @@ function PlasmicHome__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.box__vutcc)}
           >
             <div className={classNames(defaultcss.all, sty.box__lrfUu)}>
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading__wfU0G
+                  sty.cardHeaderTitleDisplay__wfU0G
                 )}
                 headings={["title"]}
                 size={
@@ -727,7 +727,7 @@ function PlasmicHome__RenderFunc(props) {
                     {"Work without borders"}
                   </div>
                 }
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,
@@ -1020,10 +1020,10 @@ function PlasmicHome__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.box__wvmvo)}
           >
             <div className={classNames(defaultcss.all, sty.box___562Ol)}>
-              <CardTitleHeading
+              <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
-                  sty.cardTitleHeading__fv5Mq
+                  sty.cardHeaderTitleDisplay__fv5Mq
                 )}
                 headings={["title"]}
                 size={
@@ -1044,7 +1044,7 @@ function PlasmicHome__RenderFunc(props) {
                     {"Follow your passion"}
                   </div>
                 }
-                slot2={
+                textSubhead={
                   <div
                     className={classNames(
                       defaultcss.all,

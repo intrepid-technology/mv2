@@ -363,9 +363,9 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__jchUr,
+                sty.box__uRoh2,
                 {
-                  [sty.box__user_member__jchUrDUag]: hasVariant(
+                  [sty.box__user_member__uRoh2DUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -396,6 +396,60 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
             }
           )}
         >
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"memberConnectionCountParent"}
+            data-plasmic-override={overrides.memberConnectionCountParent}
+            hasGap={true}
+            className={classNames(
+              defaultcss.all,
+              sty.memberConnectionCountParent,
+              {
+                [sty.memberConnectionCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                )
+              }
+            )}
+          >
+            <div
+              data-plasmic-name={"memberConnectionNumberCount"}
+              data-plasmic-override={overrides.memberConnectionNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.memberConnectionNumberCount,
+                {
+                  [sty.memberConnectionNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__vfmsc,
+                {
+                  [sty.box__user_member__vfmscDUag]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "member") ? "Teams" : "Connections"}
+            </div>
+          </p.Stack>
+
           <p.Stack
             as={"div"}
             data-plasmic-name={"memberFollowersCountParent"}
@@ -447,56 +501,6 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
               )}
             >
               {"Followers"}
-            </div>
-          </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"memberTeamCountParent"}
-            data-plasmic-override={overrides.memberTeamCountParent}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.memberTeamCountParent, {
-              [sty.memberTeamCountParent__user_member]: hasVariant(
-                variants,
-                "user",
-                "member"
-              )
-            })}
-          >
-            <div
-              data-plasmic-name={"memberTeamNumberCount"}
-              data-plasmic-override={overrides.memberTeamNumberCount}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.memberTeamNumberCount,
-                {
-                  [sty.memberTeamNumberCount__user_member]: hasVariant(
-                    variants,
-                    "user",
-                    "member"
-                  )
-                }
-              )}
-            >
-              {hasVariant(variants, "user", "member") ? "#####" : "-"}
-            </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__hdk5K,
-                {
-                  [sty.box__user_member__hdk5KDUag]: hasVariant(
-                    variants,
-                    "user",
-                    "member"
-                  )
-                }
-              )}
-            >
-              {hasVariant(variants, "user", "member") ? "Teams" : "Following"}
             </div>
           </p.Stack>
         </p.Stack>
@@ -828,6 +832,84 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
         >
           <p.Stack
             as={"div"}
+            data-plasmic-name={"partnerConnectionsCountParent"}
+            data-plasmic-override={overrides.partnerConnectionsCountParent}
+            hasGap={true}
+            className={classNames(
+              defaultcss.all,
+              sty.partnerConnectionsCountParent,
+              {
+                [sty.partnerConnectionsCountParent__user_member]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                ),
+
+                [sty.partnerConnectionsCountParent__user_partner]: hasVariant(
+                  variants,
+                  "user",
+                  "partner"
+                )
+              }
+            )}
+          >
+            <div
+              data-plasmic-name={"partnerFollowingNumberCount"}
+              data-plasmic-override={overrides.partnerFollowingNumberCount}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerFollowingNumberCount,
+                {
+                  [sty.partnerFollowingNumberCount__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerFollowingNumberCount__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner") ? "#####" : "-"}
+            </div>
+
+            <div
+              data-plasmic-name={"partnerConnectionsText"}
+              data-plasmic-override={overrides.partnerConnectionsText}
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.partnerConnectionsText,
+                {
+                  [sty.partnerConnectionsText__user_member]: hasVariant(
+                    variants,
+                    "user",
+                    "member"
+                  ),
+
+                  [sty.partnerConnectionsText__user_partner]: hasVariant(
+                    variants,
+                    "user",
+                    "partner"
+                  )
+                }
+              )}
+            >
+              {hasVariant(variants, "user", "partner")
+                ? "Following"
+                : hasVariant(variants, "user", "member")
+                ? "Teams"
+                : "Connections"}
+            </div>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
             data-plasmic-name={"partnerFollowersCountParent"}
             data-plasmic-override={overrides.partnerFollowersCountParent}
             hasGap={true}
@@ -901,84 +983,6 @@ function PlasmicSideBarCommunityStats__RenderFunc(props) {
                 : "Followers"}
             </div>
           </p.Stack>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"partnerFollowingCountParent"}
-            data-plasmic-override={overrides.partnerFollowingCountParent}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              sty.partnerFollowingCountParent,
-              {
-                [sty.partnerFollowingCountParent__user_member]: hasVariant(
-                  variants,
-                  "user",
-                  "member"
-                ),
-
-                [sty.partnerFollowingCountParent__user_partner]: hasVariant(
-                  variants,
-                  "user",
-                  "partner"
-                )
-              }
-            )}
-          >
-            <div
-              data-plasmic-name={"partnerFollowingNumberCount"}
-              data-plasmic-override={overrides.partnerFollowingNumberCount}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.partnerFollowingNumberCount,
-                {
-                  [sty.partnerFollowingNumberCount__user_member]: hasVariant(
-                    variants,
-                    "user",
-                    "member"
-                  ),
-
-                  [sty.partnerFollowingNumberCount__user_partner]: hasVariant(
-                    variants,
-                    "user",
-                    "partner"
-                  )
-                }
-              )}
-            >
-              {hasVariant(variants, "user", "partner") ? "#####" : "-"}
-            </div>
-
-            <div
-              data-plasmic-name={"partnerFollowingText"}
-              data-plasmic-override={overrides.partnerFollowingText}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.partnerFollowingText,
-                {
-                  [sty.partnerFollowingText__user_member]: hasVariant(
-                    variants,
-                    "user",
-                    "member"
-                  ),
-
-                  [sty.partnerFollowingText__user_partner]: hasVariant(
-                    variants,
-                    "user",
-                    "partner"
-                  )
-                }
-              )}
-            >
-              {hasVariant(variants, "user", "partner")
-                ? "Following"
-                : hasVariant(variants, "user", "member")
-                ? "Teams"
-                : "Following"}
-            </div>
-          </p.Stack>
         </p.Stack>
       ) : null}
     </p.Stack>
@@ -1006,10 +1010,10 @@ const PlasmicDescendants = {
     "memberListsCountParent",
     "memberListNumberCount",
     "elementMemberFollowersTeams",
+    "memberConnectionCountParent",
+    "memberConnectionNumberCount",
     "memberFollowersCountParent",
     "memberfollowersNumberCount",
-    "memberTeamCountParent",
-    "memberTeamNumberCount",
     "elementUserSocialFollowingB",
     "followingParent",
     "memberNumberCount",
@@ -1023,12 +1027,12 @@ const PlasmicDescendants = {
     "partnerReviewsNumberCount",
     "partnerReviewsText",
     "elementUserFollowersTeams3",
+    "partnerConnectionsCountParent",
+    "partnerFollowingNumberCount",
+    "partnerConnectionsText",
     "partnerFollowersCountParent",
     "partnerfollowersNumberCount",
-    "partnerFollowersText",
-    "partnerFollowingCountParent",
-    "partnerFollowingNumberCount",
-    "partnerFollowingText"
+    "partnerFollowersText"
   ],
 
   headlineParent: [
@@ -1084,20 +1088,24 @@ const PlasmicDescendants = {
   memberListNumberCount: ["memberListNumberCount"],
   elementMemberFollowersTeams: [
     "elementMemberFollowersTeams",
+    "memberConnectionCountParent",
+    "memberConnectionNumberCount",
     "memberFollowersCountParent",
-    "memberfollowersNumberCount",
-    "memberTeamCountParent",
-    "memberTeamNumberCount"
+    "memberfollowersNumberCount"
   ],
 
+  memberConnectionCountParent: [
+    "memberConnectionCountParent",
+    "memberConnectionNumberCount"
+  ],
+
+  memberConnectionNumberCount: ["memberConnectionNumberCount"],
   memberFollowersCountParent: [
     "memberFollowersCountParent",
     "memberfollowersNumberCount"
   ],
 
   memberfollowersNumberCount: ["memberfollowersNumberCount"],
-  memberTeamCountParent: ["memberTeamCountParent", "memberTeamNumberCount"],
-  memberTeamNumberCount: ["memberTeamNumberCount"],
   elementUserSocialFollowingB: [
     "elementUserSocialFollowingB",
     "followingParent",
@@ -1138,14 +1146,22 @@ const PlasmicDescendants = {
   partnerReviewsText: ["partnerReviewsText"],
   elementUserFollowersTeams3: [
     "elementUserFollowersTeams3",
+    "partnerConnectionsCountParent",
+    "partnerFollowingNumberCount",
+    "partnerConnectionsText",
     "partnerFollowersCountParent",
     "partnerfollowersNumberCount",
-    "partnerFollowersText",
-    "partnerFollowingCountParent",
-    "partnerFollowingNumberCount",
-    "partnerFollowingText"
+    "partnerFollowersText"
   ],
 
+  partnerConnectionsCountParent: [
+    "partnerConnectionsCountParent",
+    "partnerFollowingNumberCount",
+    "partnerConnectionsText"
+  ],
+
+  partnerFollowingNumberCount: ["partnerFollowingNumberCount"],
+  partnerConnectionsText: ["partnerConnectionsText"],
   partnerFollowersCountParent: [
     "partnerFollowersCountParent",
     "partnerfollowersNumberCount",
@@ -1153,15 +1169,7 @@ const PlasmicDescendants = {
   ],
 
   partnerfollowersNumberCount: ["partnerfollowersNumberCount"],
-  partnerFollowersText: ["partnerFollowersText"],
-  partnerFollowingCountParent: [
-    "partnerFollowingCountParent",
-    "partnerFollowingNumberCount",
-    "partnerFollowingText"
-  ],
-
-  partnerFollowingNumberCount: ["partnerFollowingNumberCount"],
-  partnerFollowingText: ["partnerFollowingText"]
+  partnerFollowersText: ["partnerFollowersText"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1228,10 +1236,16 @@ export const PlasmicSideBarCommunityStats = Object.assign(
       "elementMemberFollowersTeams"
     ),
 
+    memberConnectionCountParent: makeNodeComponent(
+      "memberConnectionCountParent"
+    ),
+
+    memberConnectionNumberCount: makeNodeComponent(
+      "memberConnectionNumberCount"
+    ),
+
     memberFollowersCountParent: makeNodeComponent("memberFollowersCountParent"),
     memberfollowersNumberCount: makeNodeComponent("memberfollowersNumberCount"),
-    memberTeamCountParent: makeNodeComponent("memberTeamCountParent"),
-    memberTeamNumberCount: makeNodeComponent("memberTeamNumberCount"),
     elementUserSocialFollowingB: makeNodeComponent(
       "elementUserSocialFollowingB"
     ),
@@ -1260,6 +1274,15 @@ export const PlasmicSideBarCommunityStats = Object.assign(
     partnerReviewsNumberCount: makeNodeComponent("partnerReviewsNumberCount"),
     partnerReviewsText: makeNodeComponent("partnerReviewsText"),
     elementUserFollowersTeams3: makeNodeComponent("elementUserFollowersTeams3"),
+    partnerConnectionsCountParent: makeNodeComponent(
+      "partnerConnectionsCountParent"
+    ),
+
+    partnerFollowingNumberCount: makeNodeComponent(
+      "partnerFollowingNumberCount"
+    ),
+
+    partnerConnectionsText: makeNodeComponent("partnerConnectionsText"),
     partnerFollowersCountParent: makeNodeComponent(
       "partnerFollowersCountParent"
     ),
@@ -1269,15 +1292,6 @@ export const PlasmicSideBarCommunityStats = Object.assign(
     ),
 
     partnerFollowersText: makeNodeComponent("partnerFollowersText"),
-    partnerFollowingCountParent: makeNodeComponent(
-      "partnerFollowingCountParent"
-    ),
-
-    partnerFollowingNumberCount: makeNodeComponent(
-      "partnerFollowingNumberCount"
-    ),
-
-    partnerFollowingText: makeNodeComponent("partnerFollowingText"),
     // Metadata about props expected for PlasmicSideBarCommunityStats
     internalVariantProps: PlasmicSideBarCommunityStats__VariantProps,
     internalArgProps: PlasmicSideBarCommunityStats__ArgProps

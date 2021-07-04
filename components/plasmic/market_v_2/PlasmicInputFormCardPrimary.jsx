@@ -445,7 +445,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     }
                   )}
                   labelHeadline={"First name"}
-                  size={"_270"}
+                  width={"_270"}
                 />
               ) : null}
               {(
@@ -487,7 +487,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     }
                   )}
                   labelHeadline={"Last name"}
-                  size={"_270"}
+                  width={"_270"}
                 />
               ) : null}
               {(
@@ -545,7 +545,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       )
                     })
                   })}
-                  size={
+                  width={
                     hasVariant(variants, "inputType", "dropdownText")
                       ? "_270"
                       : undefined

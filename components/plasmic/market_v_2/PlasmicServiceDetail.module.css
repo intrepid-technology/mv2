@@ -365,6 +365,7 @@
 @media (min-width: 1152px) and (max-width: 1440px) {
   .companyVerificationBadgesParent3 {
     width: 100%;
+    align-self: flex-end;
     min-width: 0;
   }
 }
@@ -2044,7 +2045,10 @@
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
   .serviceOrderParent {
-    margin-top: 180px;
+    margin-top: 16px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: calc(0px + 80px) !important;
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
@@ -2172,6 +2176,12 @@
   width: auto;
   height: auto;
 }
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .servicePrice {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .serviceCurrency {
   display: inline-block;
   font-size: 24px;
@@ -2187,6 +2197,11 @@
   top: auto;
   position: relative;
 }
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .serviceCurrency {
+    font-weight: 600;
+  }
+}
 .box__uOdZo {
   display: inline-block;
   font-size: 24px;
@@ -2199,6 +2214,11 @@
   width: auto;
   height: auto;
   position: relative;
+}
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .box__uOdZo {
+    font-weight: 600;
+  }
 }
 .serviceNameTitle {
   display: flex;

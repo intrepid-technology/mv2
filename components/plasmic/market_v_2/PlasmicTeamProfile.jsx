@@ -212,7 +212,11 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       sty.box__qBBbj
                     )}
                   >
-                    {"Members"}
+                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      ? "Subscribers"
+                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      ? "Subscribers"
+                      : "Members"}
                   </div>
                 </p.Stack>
 
@@ -242,7 +246,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       sty.box__logCa
                     )}
                   >
-                    {"Partners"}
+                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                      ? "Connections"
+                      : "Partners"}
                   </div>
                 </p.Stack>
 
@@ -538,7 +544,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     sty.details
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    ? "Details"
+                    : hasVariant(globalVariants, "screen", "desktopPrimary")
                     ? "Details"
                     : "Information"}
                 </div>
@@ -1191,12 +1199,12 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   ) ? (
                     <p.Stack
                       as={"div"}
-                      data-plasmic-name={"alsoViewedParent2"}
-                      data-plasmic-override={overrides.alsoViewedParent2}
+                      data-plasmic-name={"similarPartnersparenT"}
+                      data-plasmic-override={overrides.similarPartnersparenT}
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
-                        sty.alsoViewedParent2
+                        sty.similarPartnersparenT
                       )}
                     >
                       {(
@@ -1549,7 +1557,7 @@ const PlasmicDescendants = {
     "sectionPartnerSimilarPartners",
     "profileTeamCarousellParentB",
     "headlineMembersAlsoViewed2",
-    "alsoViewedParent2",
+    "similarPartnersparenT",
     "sectionPartnerAlsoViewed",
     "profileTeamCarousellParentA",
     "headlineMembersAlsoViewed",
@@ -1843,17 +1851,17 @@ const PlasmicDescendants = {
     "sectionPartnerSimilarPartners",
     "profileTeamCarousellParentB",
     "headlineMembersAlsoViewed2",
-    "alsoViewedParent2"
+    "similarPartnersparenT"
   ],
 
   profileTeamCarousellParentB: [
     "profileTeamCarousellParentB",
     "headlineMembersAlsoViewed2",
-    "alsoViewedParent2"
+    "similarPartnersparenT"
   ],
 
   headlineMembersAlsoViewed2: ["headlineMembersAlsoViewed2"],
-  alsoViewedParent2: ["alsoViewedParent2"],
+  similarPartnersparenT: ["similarPartnersparenT"],
   sectionPartnerAlsoViewed: [
     "sectionPartnerAlsoViewed",
     "profileTeamCarousellParentA",
@@ -1978,7 +1986,7 @@ export const PlasmicTeamProfile = Object.assign(
     ),
 
     headlineMembersAlsoViewed2: makeNodeComponent("headlineMembersAlsoViewed2"),
-    alsoViewedParent2: makeNodeComponent("alsoViewedParent2"),
+    similarPartnersparenT: makeNodeComponent("similarPartnersparenT"),
     sectionPartnerAlsoViewed: makeNodeComponent("sectionPartnerAlsoViewed"),
     profileTeamCarousellParentA: makeNodeComponent(
       "profileTeamCarousellParentA"

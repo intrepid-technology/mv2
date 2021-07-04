@@ -271,7 +271,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               {"Promotion"}
             </div>
           }
-          size={"_360"}
+          width={"_360"}
         />
 
         <ElementCheckoutPromotionPercentTotalValue

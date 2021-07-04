@@ -25,19 +25,22 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.parent__size__540 {
+.parent__width__540 {
   width: 540px;
 }
-.parent__size__160 {
+.parent__width__720 {
+  width: 720px;
+}
+.parent__width__160 {
   width: 160px;
 }
-.parent__size__180 {
+.parent__width__180 {
   width: 180px;
 }
-.parent__size__270 {
+.parent__width__270 {
   width: 270px;
 }
-.parent__size__380 {
+.parent__width__380 {
   width: 380px;
 }
 .labelHeadlineParent {
@@ -52,24 +55,28 @@
 .labelHeadlineParent__label {
   display: none;
 }
-.labelHeadlineParent__size__180 {
+.labelHeadlineParent__width__180 {
   width: 180px;
 }
-.labelHeadlineParent__size__380 {
+.labelHeadlineParent__width__380 {
   width: 380px;
 }
 .slotLabelHeadline {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  text-transform: none;
 }
-.slotLabelHeadline__size__180 {
+.slotLabelHeadline__width__720 {
+  font-size: 16px;
+}
+.slotLabelHeadline__width__180 {
   font-size: 14px;
 }
-.slotLabelHeadline__size__270 {
+.slotLabelHeadline__width__270 {
   font-size: 12px;
 }
 .inputParent {
@@ -80,14 +87,14 @@
   height: auto;
   min-width: 0;
 }
-.inputParent__size__180 {
+.inputParent__width__180 {
   width: 100%;
   min-width: 0;
 }
-.inputParent__size__360 {
+.inputParent__width__360 {
   width: 360px;
 }
-.inputParent__size__380 {
+.inputParent__width__380 {
   width: 380px;
 }
 .textbox {
@@ -115,8 +122,26 @@
   padding-left: 6px;
   min-width: 0;
   flex-shrink: 0;
+  border-radius: 2px;
   background: #f8f8f8 repeat;
   border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+}
+.textbox__height__32 {
+  font-size: 14px;
+}
+.textbox__height__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.textbox__height__40 {
+  height: 40px;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.textbox__height__48 {
+  height: 48px;
+  font-size: 24px;
+  flex-shrink: 0;
 }
 .textbox__type_secondary {
   background: #ffffff;
@@ -160,10 +185,10 @@
   padding-top: 4px;
   min-width: 0;
 }
-.descriptionParent__size__180 {
+.descriptionParent__width__180 {
   width: 180px;
 }
-.descriptionParent__size__380 {
+.descriptionParent__width__380 {
   width: 380px;
 }
 .slotDescription {
@@ -171,12 +196,12 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
-  line-height: 1.4;
+  line-height: 1;
   color: #999999 /* plasmic-token: UPK7EIst5 */;
 }
-.slotDescription__size__180 {
+.slotDescription__width__180 {
   font-size: 14px;
 }
-.slotDescription__size__270 {
+.slotDescription__width__270 {
   font-size: 12px;
 }

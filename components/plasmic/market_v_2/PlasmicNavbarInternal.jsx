@@ -31,7 +31,11 @@ import * as sty from "./PlasmicNavbarInternal.module.css"; // plasmic-import: BX
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJkcBKE/icon
 
-export const PlasmicNavbarInternal__VariantProps = new Array("user", "state");
+export const PlasmicNavbarInternal__VariantProps = new Array(
+  "user",
+  "state",
+  "search"
+);
 
 export const PlasmicNavbarInternal__ArgProps = new Array();
 
@@ -93,6 +97,8 @@ function PlasmicNavbarInternal__RenderFunc(props) {
             : hasVariant(variants, "user", "member") &&
               hasVariant(variants, "state", "loggedOut")
             ? false
+            : hasVariant(variants, "search", "search")
+            ? true
             : hasVariant(globalVariants, "screen", "mobileAPrimary")
             ? false
             : true
@@ -101,6 +107,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
             data-plasmic-name={"searchBox"}
             data-plasmic-override={overrides.searchBox}
             className={classNames(defaultcss.all, sty.searchBox, {
+              [sty.searchBox__search]: hasVariant(variants, "search", "search"),
               [sty.searchBox__user_member_state_loggedOut]:
                 hasVariant(variants, "user", "member") &&
                 hasVariant(variants, "state", "loggedOut"),
@@ -113,6 +120,12 @@ function PlasmicNavbarInternal__RenderFunc(props) {
               data-plasmic-name={"searchbarPrimary"}
               data-plasmic-override={overrides.searchbarPrimary}
               className={classNames("__wab_instance", sty.searchbarPrimary, {
+                [sty.searchbarPrimary__search]: hasVariant(
+                  variants,
+                  "search",
+                  "search"
+                ),
+
                 [sty.searchbarPrimary__user_member_state_loggedOut]:
                   hasVariant(variants, "user", "member") &&
                   hasVariant(variants, "state", "loggedOut")
@@ -381,7 +394,13 @@ function PlasmicNavbarInternal__RenderFunc(props) {
             <UserAvatar
               data-plasmic-name={"userAvatar"}
               data-plasmic-override={overrides.userAvatar}
-              className={classNames("__wab_instance", sty.userAvatar)}
+              className={classNames("__wab_instance", sty.userAvatar, {
+                [sty.userAvatar__search]: hasVariant(
+                  variants,
+                  "search",
+                  "search"
+                )
+              })}
               size={"_32"}
             />
           </p.Stack>

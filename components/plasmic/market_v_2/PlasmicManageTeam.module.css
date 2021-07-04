@@ -32,6 +32,12 @@
   > * {
   margin-top: 0px;
 }
+@media (min-width: 374px) and (max-width: 414px) {
+  .sectionTableInviteTeam {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
 .tableTeamMemberInviteManageParent {
   display: flex;
   position: relative;
@@ -87,7 +93,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #f0ebff /* plasmic-token: IHoAIP5sw */;
+  color: #f8f8ff /* plasmic-token: ABHLsGb8o */;
   align-self: stretch;
   font-family: "Inter", sans-serif;
   font-style: normal;

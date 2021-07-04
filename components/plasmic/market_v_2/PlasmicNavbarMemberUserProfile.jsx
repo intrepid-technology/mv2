@@ -18,7 +18,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
-import LinkCounterNavigation from "../../LinkCounterNavigation"; // plasmic-import: -OUVGqQU5t/component
+import NavLinkCounter from "../../NavLinkCounter"; // plasmic-import: -OUVGqQU5t/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -143,12 +143,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__oHamT,
+                sty.navLinkCounter__oHamT,
                 {
-                  [sty.linkCounterNavigation__selected_subscriptions__oHamTujdpy]:
+                  [sty.navLinkCounter__selected_subscriptions__oHamTujdpy]:
                     hasVariant(variants, "selected", "subscriptions")
                 }
               )}
@@ -165,7 +165,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "subscriptions")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}
@@ -176,13 +176,16 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__riK08,
+                sty.navLinkCounter__riK08,
                 {
-                  [sty.linkCounterNavigation__selected_lists__riK08XhjTx]:
-                    hasVariant(variants, "selected", "lists")
+                  [sty.navLinkCounter__selected_lists__riK08XhjTx]: hasVariant(
+                    variants,
+                    "selected",
+                    "lists"
+                  )
                 }
               )}
               navLabel={
@@ -198,7 +201,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "lists")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}
@@ -209,13 +212,16 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__dlrUd,
+                sty.navLinkCounter__dlrUd,
                 {
-                  [sty.linkCounterNavigation__selected_teams__dlrUdVokeS]:
-                    hasVariant(variants, "selected", "teams")
+                  [sty.navLinkCounter__selected_teams__dlrUdVokeS]: hasVariant(
+                    variants,
+                    "selected",
+                    "teams"
+                  )
                 }
               )}
               navLabel={
@@ -231,7 +237,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "teams")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}
@@ -242,12 +248,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__mw6Hn,
+                sty.navLinkCounter__mw6Hn,
                 {
-                  [sty.linkCounterNavigation__selected_reviews__mw6Hn7FUms]:
+                  [sty.navLinkCounter__selected_reviews__mw6Hn7FUms]:
                     hasVariant(variants, "selected", "reviews")
                 }
               )}
@@ -264,7 +270,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "reviews")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}
@@ -275,13 +281,16 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__e2ZcH,
+                sty.navLinkCounter__e2ZcH,
                 {
-                  [sty.linkCounterNavigation__selected_reacts__e2ZcHTlSa9]:
-                    hasVariant(variants, "selected", "reacts")
+                  [sty.navLinkCounter__selected_reacts__e2ZcHTlSa9]: hasVariant(
+                    variants,
+                    "selected",
+                    "reacts"
+                  )
                 }
               )}
               navLabel={
@@ -297,7 +306,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "reacts")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}
@@ -308,13 +317,16 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <LinkCounterNavigation
+            <NavLinkCounter
               className={classNames(
                 "__wab_instance",
-                sty.linkCounterNavigation__hXcX2,
+                sty.navLinkCounter__hXcX2,
                 {
-                  [sty.linkCounterNavigation__selected_views__hXcX2AKc8]:
-                    hasVariant(variants, "selected", "views")
+                  [sty.navLinkCounter__selected_views__hXcX2AKc8]: hasVariant(
+                    variants,
+                    "selected",
+                    "views"
+                  )
                 }
               )}
               navLabel={
@@ -330,7 +342,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               state={
                 hasVariant(variants, "selected", "views")
                   ? "selected"
-                  : undefined
+                  : "disabled"
               }
             />
           ) : null}

@@ -11,16 +11,19 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   useTrigger,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import: jKGLXJ6-Gl/component
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -39,6 +42,10 @@ function PlasmicCardUserprofile__RenderFunc(props) {
   const triggers = {
     active_root: isRootActive
   };
+
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
 
   return (
     <p.Stack
@@ -126,7 +133,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 sty.box__coEqy
               )}
             >
-              {"Username"}
+              {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                ? "DisplayName"
+                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                ? "DisplayName"
+                : "Username"}
             </div>
 
             <div className={classNames(defaultcss.all, sty.box__gZTi1)}>

@@ -106,26 +106,31 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
             )
           })}
         >
-          <div
-            data-plasmic-name={"descriptionParent"}
-            data-plasmic-override={overrides.descriptionParent}
-            className={classNames(defaultcss.all, sty.descriptionParent)}
-          >
-            {(hasVariant(variants, "description", "description") ? false : true)
-              ? p.renderPlasmicSlot({
-                  defaultContents: "Description",
-                  value: args.description2,
-                  className: classNames(sty.slotDescription2, {
-                    [sty.slotDescription2__description]: hasVariant(
-                      variants,
-                      "description",
-                      "description"
-                    )
+          {true ? (
+            <div
+              data-plasmic-name={"descriptionParent"}
+              data-plasmic-override={overrides.descriptionParent}
+              className={classNames(defaultcss.all, sty.descriptionParent)}
+            >
+              {(
+                hasVariant(variants, "description", "description")
+                  ? false
+                  : true
+              )
+                ? p.renderPlasmicSlot({
+                    defaultContents: "Description",
+                    value: args.description2,
+                    className: classNames(sty.slotDescription2, {
+                      [sty.slotDescription2__description]: hasVariant(
+                        variants,
+                        "description",
+                        "description"
+                      )
+                    })
                   })
-                })
-              : null}
-          </div>
-
+                : null}
+            </div>
+          ) : null}
           {p.renderPlasmicSlot({
             defaultContents: (
               <ButtonPrimary
