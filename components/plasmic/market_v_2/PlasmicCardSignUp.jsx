@@ -108,7 +108,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(defaultcss.input, sty.password)}
           placeholder={"Enter your password"}
           size={1}
-          type={"text"}
+          type={"password"}
           value={""}
         />
       </p.Stack>

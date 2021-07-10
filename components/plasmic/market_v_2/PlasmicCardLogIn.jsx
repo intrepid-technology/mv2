@@ -104,7 +104,9 @@ function PlasmicCardLogIn__RenderFunc(props) {
           data-plasmic-override={overrides.password}
           className={classNames(defaultcss.input, sty.password)}
           placeholder={
-            args.placeholder !== undefined ? args.placeholder : "*****"
+            args.placeholder !== undefined
+              ? args.placeholder
+              : "Enter your password"
           }
           size={1}
           type={"password"}
