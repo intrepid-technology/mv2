@@ -29,6 +29,15 @@
 @media (min-width: 1152px) and (max-width: 1440px) {
   .sectionMarketHeadline {
     padding-left: 120px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: unset;
+    padding-top: 32px;
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .sectionMarketHeadline {
+    padding-top: 16px;
   }
 }
 .sectionNewServiceListings {

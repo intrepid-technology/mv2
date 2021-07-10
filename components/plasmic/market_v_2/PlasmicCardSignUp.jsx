@@ -269,7 +269,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
             sty.signupTos
           )}
           component={Link}
-          href={"/terms-of-service"}
+          href={"/terms"}
           platform={"nextjs"}
         >
           {"Terms of service"}

@@ -12,6 +12,7 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -64,11 +65,13 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
       `}</style>
 
       <div className={defaultcss.plasmic_page_wrapper}>
-        <div
+        <p.Stack
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
+          hasGap={true}
           className={classNames(
             defaultcss.all,
             projectcss.root_reset,
@@ -106,7 +109,11 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 "__wab_instance",
                 sty.cardHeaderTitleDisplay
               )}
-              size={"_720"}
+              size={
+                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  ? "_360"
+                  : "_720"
+              }
               slot={
                 <div
                   className={classNames(
@@ -216,83 +223,93 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(defaultcss.all, sty.box__xulmc)}
                 >
-                  <div
-                    data-plasmic-name={"listingSearchFilterParent"}
-                    data-plasmic-override={overrides.listingSearchFilterParent}
-                    className={classNames(
-                      defaultcss.all,
-                      sty.listingSearchFilterParent
-                    )}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(defaultcss.all, sty.box___4Lom7)}
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      ? true
+                      : true
+                  ) ? (
+                    <div
+                      data-plasmic-name={"listingSearchFilterParent"}
+                      data-plasmic-override={
+                        overrides.listingSearchFilterParent
+                      }
+                      className={classNames(
+                        defaultcss.all,
+                        sty.listingSearchFilterParent
+                      )}
                     >
-                      <SearchbarPrimary
-                        data-plasmic-name={"searchbarPrimary"}
-                        data-plasmic-override={overrides.searchbarPrimary}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.searchbarPrimary
-                        )}
-                        width={"_540"}
-                      />
-
                       <p.Stack
                         as={"div"}
-                        data-plasmic-name={"listingSearchFilterDropdownParent"}
-                        data-plasmic-override={
-                          overrides.listingSearchFilterDropdownParent
-                        }
                         hasGap={true}
-                        className={classNames(
-                          defaultcss.all,
-                          sty.listingSearchFilterDropdownParent
-                        )}
+                        className={classNames(defaultcss.all, sty.box___4Lom7)}
                       >
-                        <SelectDropdownPrimary
+                        <SearchbarPrimary
+                          data-plasmic-name={"searchbarPrimary"}
+                          data-plasmic-override={overrides.searchbarPrimary}
                           className={classNames(
                             "__wab_instance",
-                            sty.selectDropdownPrimary__uyKzy
+                            sty.searchbarPrimary
                           )}
-                          placeholder={"Status"}
-                          width={"_160"}
+                          width={"_540"}
                         />
 
-                        <SelectDropdownPrimary
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={
+                            "listingSearchFilterDropdownParent"
+                          }
+                          data-plasmic-override={
+                            overrides.listingSearchFilterDropdownParent
+                          }
+                          hasGap={true}
                           className={classNames(
-                            "__wab_instance",
-                            sty.selectDropdownPrimary__rgWaR
+                            defaultcss.all,
+                            sty.listingSearchFilterDropdownParent
                           )}
-                          placeholder={"Content"}
-                          width={"_160"}
-                        />
+                        >
+                          <SelectDropdownPrimary
+                            className={classNames(
+                              "__wab_instance",
+                              sty.selectDropdownPrimary__uyKzy
+                            )}
+                            placeholder={"Status"}
+                            width={"_160"}
+                          />
+
+                          <SelectDropdownPrimary
+                            className={classNames(
+                              "__wab_instance",
+                              sty.selectDropdownPrimary__rgWaR
+                            )}
+                            placeholder={"Content"}
+                            width={"_160"}
+                          />
+                        </p.Stack>
                       </p.Stack>
-                    </p.Stack>
 
-                    <ButtonPrimary
-                      data-plasmic-name={"buttonPrimary"}
-                      data-plasmic-override={overrides.buttonPrimary}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.buttonPrimary
-                      )}
-                      color={"brand"}
-                      size={"_140"}
-                      svgIcon={
-                        <ListingIcon
-                          data-plasmic-name={"svg"}
-                          data-plasmic-override={overrides.svg}
-                          className={classNames(defaultcss.all, sty.svg)}
-                          role={"img"}
-                        />
-                      }
-                      type={"icon"}
-                    >
-                      {"New listing"}
-                    </ButtonPrimary>
-                  </div>
+                      <ButtonPrimary
+                        data-plasmic-name={"buttonPrimary"}
+                        data-plasmic-override={overrides.buttonPrimary}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.buttonPrimary
+                        )}
+                        color={"brand"}
+                        size={"_140"}
+                        svgIcon={
+                          <ListingIcon
+                            data-plasmic-name={"svg"}
+                            data-plasmic-override={overrides.svg}
+                            className={classNames(defaultcss.all, sty.svg)}
+                            role={"img"}
+                          />
+                        }
+                        type={"icon"}
+                      >
+                        {"New listing"}
+                      </ButtonPrimary>
+                    </div>
+                  ) : null}
 
                   <p.Stack
                     as={"div"}
@@ -338,7 +355,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             data-plasmic-override={overrides.footerB}
             className={classNames("__wab_instance", sty.footerB)}
           />
-        </div>
+        </p.Stack>
       </div>
     </React.Fragment>
   );

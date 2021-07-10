@@ -56,14 +56,14 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <title key="title">
           {
-            "The marketplace community built for global entrepreneurs & remote first companies | Intrepid Market"
+            "The marketplace community built for global entrepreneurs & remote companies | Intrepid Market"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "The marketplace community built for global entrepreneurs & remote first companies | Intrepid Market"
+            "The marketplace community built for global entrepreneurs & remote companies | Intrepid Market"
           }
         />
 
@@ -78,7 +78,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/44fc9aa83c8732ce86addb8a529997c8.png"
+            "https://site-assets.plasmic.app/ce9c63d8b40f511dc15241eed8754634.png"
           }
         />
       </Head>
@@ -637,9 +637,9 @@ function PlasmicHome__RenderFunc(props) {
                     }
                     destination={
                       hasVariant(globalVariants, "screen", "mobileAPrimary")
-                        ? "/member-pricing"
+                        ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktopPrimary")
-                        ? "/member-pricing"
+                        ? "/member/pricing"
                         : undefined
                     }
                     height={
@@ -898,15 +898,6 @@ function PlasmicHome__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.box__xFjXe)}
             >
-              <img
-                alt={""}
-                className={classNames(defaultcss.img, sty.img__dQqz3)}
-                height={531}
-                role={"img"}
-                src={"/plasmic/market_v_2/images/image23.png"}
-                width={1000}
-              />
-
               <p.Stack
                 as={"div"}
                 hasGap={true}
@@ -961,9 +952,9 @@ function PlasmicHome__RenderFunc(props) {
                     }
                     destination={
                       hasVariant(globalVariants, "screen", "mobileAPrimary")
-                        ? "/member-pricing"
+                        ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktopPrimary")
-                        ? "/member-pricing"
+                        ? "/member/pricing"
                         : undefined
                     }
                     height={
@@ -1011,6 +1002,15 @@ function PlasmicHome__RenderFunc(props) {
                   />
                 ) : null}
               </p.Stack>
+
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__dQqz3)}
+                height={531}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/image23.png"}
+                width={1000}
+              />
             </p.Stack>
           </div>
 
@@ -1271,9 +1271,9 @@ function PlasmicHome__RenderFunc(props) {
                     }
                     destination={
                       hasVariant(globalVariants, "screen", "mobileAPrimary")
-                        ? "/partner-pricing"
+                        ? "/partner/pricing"
                         : hasVariant(globalVariants, "screen", "desktopPrimary")
-                        ? "/partner-pricing"
+                        ? "/partner/pricing"
                         : undefined
                     }
                     height={

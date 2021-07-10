@@ -104,8 +104,8 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               }
               destination={
                 hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "/member-pricing"
-                  : "/member-pricing"
+                  ? "/member/pricing"
+                  : "/member/pricing"
               }
               size={"_14"}
               text={
@@ -144,12 +144,12 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               }
               destination={
                 hasVariant(globalVariants, "screen", "mobileBSecondary")
-                  ? "/partner-pricing"
+                  ? "/partner/pricing"
                   : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "/partner-pricing"
+                  ? "/partner/pricing"
                   : hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "/partner-pricing"
-                  : "/partner-pricing"
+                  ? "/partner/pricing"
+                  : "/partner/pricing"
               }
               height={
                 hasVariant(globalVariants, "screen", "desktopPrimary")

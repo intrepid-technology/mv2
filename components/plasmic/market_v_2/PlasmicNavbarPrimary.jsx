@@ -275,7 +275,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               color={
                 hasVariant(variants, "color", "color") ? "light" : undefined
               }
-              destination={"/partner-pricing"}
+              destination={"/partner/pricing"}
               linkText={
                 <div
                   className={classNames(

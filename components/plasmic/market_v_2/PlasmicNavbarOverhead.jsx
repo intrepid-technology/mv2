@@ -78,7 +78,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : "primary"
           }
-          destination={"/member-pricing"}
+          destination={"/member/pricing"}
           linkText={"Members"}
         />
 
@@ -105,7 +105,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
               ? "light"
               : "primary"
           }
-          destination={"/partner-pricing"}
+          destination={"/partner/pricing"}
           linkText={"Partners"}
         />
 

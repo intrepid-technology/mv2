@@ -214,7 +214,7 @@ function PlasmicFooterB__RenderFunc(props) {
               }
             )}
             color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-            destination={"/terms-of-service"}
+            destination={"/terms"}
             slot={
               hasVariant(variants, "color", "dark")
                 ? "Terms"
