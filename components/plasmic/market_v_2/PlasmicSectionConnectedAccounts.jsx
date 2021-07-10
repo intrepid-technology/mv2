@@ -22,8 +22,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionConnectedAccounts.module.css"; // plasmic-import: -32NgWHIsLX/css
-import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
-import Facebook1SvgIcon from "./icons/PlasmicIcon__Facebook1Svg"; // plasmic-import: J85sN8PC4/icon
 
 export const PlasmicSectionConnectedAccounts__VariantProps = new Array(
   "closed",
@@ -102,23 +100,6 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
                 hasVariant(variants, "visible", "facebook")
             }
           )}
-          connectedAccountName={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__nsCos
-              )}
-            >
-              {"Google"}
-            </div>
-          }
-          svgConnectedAccount={
-            <GooglesvgIcon
-              className={classNames(defaultcss.all, sty.svg__hDpDq)}
-              role={"img"}
-            />
-          }
           userFirstname={
             <div
               className={classNames(
@@ -169,23 +150,6 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
                 hasVariant(variants, "visible", "google")
             }
           )}
-          connectedAccountName={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box___6Hit6
-              )}
-            >
-              {"Facebook"}
-            </div>
-          }
-          svgConnectedAccount={
-            <Facebook1SvgIcon
-              className={classNames(defaultcss.all, sty.svg__cZ1Tp)}
-              role={"img"}
-            />
-          }
           userFirstname={
             <div
               className={classNames(

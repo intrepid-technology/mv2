@@ -29,7 +29,8 @@ export const PlasmicCheckboxTextPrimary__VariantProps = new Array(
   "noLabel",
   "isDisabled",
   "isChecked",
-  "isIndeterminate"
+  "isIndeterminate",
+  "text"
 );
 
 export const PlasmicCheckboxTextPrimary__ArgProps = new Array(
@@ -50,11 +51,13 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
   };
 
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
         [sty.root__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
@@ -156,12 +159,14 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
                 variants,
                 "noLabel",
                 "noLabel"
-              )
+              ),
+
+              [sty.slotChildren__text__16]: hasVariant(variants, "text", "_16")
             })
           })}
         </div>
       ) : null}
-    </div>
+    </p.Stack>
   );
 }
 

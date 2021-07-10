@@ -94,6 +94,8 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
             [sty.iconNumberValueTitlePercentValueParent__currency_size__270]:
               hasVariant(variants, "currency", "currency") &&
               hasVariant(variants, "size", "_270"),
+            [sty.iconNumberValueTitlePercentValueParent__numeration]:
+              hasVariant(variants, "numeration", "numeration"),
             [sty.iconNumberValueTitlePercentValueParent__size__270]: hasVariant(
               variants,
               "size",

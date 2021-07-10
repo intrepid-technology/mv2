@@ -19,7 +19,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonPowerUpPrimary.module.css"; // plasmic-import: 92nEhkYBKr/css
-import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJkcBKE/icon
+import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
 
 export const PlasmicButtonPowerUpPrimary__VariantProps = new Array();
 
@@ -42,7 +42,7 @@ function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.navbarListButtonTextParent2)}
       >
-        <Icon138Icon
+        <BoostIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
           className={classNames(defaultcss.all, sty.svg)}

@@ -24,7 +24,8 @@ import NotificationBellIcon from "./icons/PlasmicIcon__NotificationBell"; // pla
 
 export const PlasmicButtonIconNotificationBell__VariantProps = new Array(
   "inactive",
-  "state"
+  "state",
+  "size"
 );
 
 export const PlasmicButtonIconNotificationBell__ArgProps = new Array("target");
@@ -49,6 +50,12 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
         data-plasmic-override={overrides.svg}
         className={classNames(defaultcss.all, sty.svg, {
           [sty.svg__inactive]: hasVariant(variants, "inactive", "inactive"),
+          [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.svg__size__24]: hasVariant(variants, "size", "_24"),
+          [sty.svg__size__32]: hasVariant(variants, "size", "_32"),
+          [sty.svg__size__36]: hasVariant(variants, "size", "_36"),
+          [sty.svg__size__40]: hasVariant(variants, "size", "_40"),
+          [sty.svg__size__48]: hasVariant(variants, "size", "_48"),
           [sty.svg__state_alert]: hasVariant(variants, "state", "alert"),
           [sty.svg__state_silent]: hasVariant(variants, "state", "silent")
         })}
@@ -73,12 +80,37 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
             {
               [sty.elementSidebarHeadlineNotificationIndicator__inactive]:
                 hasVariant(variants, "inactive", "inactive"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__16]:
+                hasVariant(variants, "size", "_16"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__24]:
+                hasVariant(variants, "size", "_24"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__32]:
+                hasVariant(variants, "size", "_32"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__36]:
+                hasVariant(variants, "size", "_36"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__40]:
+                hasVariant(variants, "size", "_40"),
+              [sty.elementSidebarHeadlineNotificationIndicator__size__48]:
+                hasVariant(variants, "size", "_48"),
               [sty.elementSidebarHeadlineNotificationIndicator__state_alert]:
                 hasVariant(variants, "state", "alert"),
               [sty.elementSidebarHeadlineNotificationIndicator__state_silent]:
                 hasVariant(variants, "state", "silent")
             }
           )}
+          size={
+            hasVariant(variants, "size", "_48")
+              ? "_16"
+              : hasVariant(variants, "size", "_40")
+              ? "_16"
+              : hasVariant(variants, "size", "_36")
+              ? "_16"
+              : hasVariant(variants, "size", "_32")
+              ? "_16"
+              : hasVariant(variants, "size", "_24")
+              ? "_12"
+              : undefined
+          }
         />
       ) : null}
     </button>

@@ -38,7 +38,7 @@ import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-imp
 import Icon169Icon from "./icons/PlasmicIcon__Icon169"; // plasmic-import: kZwjesU0eU/icon
 import Icon40Icon from "./icons/PlasmicIcon__Icon40"; // plasmic-import: t-46_qdmWO/icon
 import Icon166Icon from "./icons/PlasmicIcon__Icon166"; // plasmic-import: 32_Blqh-E/icon
-import Icon180Icon from "./icons/PlasmicIcon__Icon180"; // plasmic-import: 2emi-eIAJb/icon
+import CircleTimeIcon from "./icons/PlasmicIcon__CircleTime"; // plasmic-import: 2emi-eIAJb/icon
 import Icon133Icon from "./icons/PlasmicIcon__Icon133"; // plasmic-import: l35ROsbOC/icon
 
 export const PlasmicHome__VariantProps = new Array();
@@ -314,7 +314,7 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Save time and money"}
                   iconParent={
                     <div className={classNames(defaultcss.all, sty.box__ySjws)}>
-                      <Icon180Icon
+                      <CircleTimeIcon
                         className={classNames(defaultcss.all, sty.svg___68Hoj)}
                         role={"img"}
                       />

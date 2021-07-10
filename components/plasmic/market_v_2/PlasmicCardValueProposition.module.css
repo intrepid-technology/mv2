@@ -55,6 +55,7 @@
   flex-shrink: 0;
 }
 .svgParentBg__size__270 {
+  margin-top: calc(0px + 16px) !important;
   background: #ebebeb;
 }
 .svg__upruU {

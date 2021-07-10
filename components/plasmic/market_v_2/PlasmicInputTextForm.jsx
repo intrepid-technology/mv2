@@ -63,6 +63,8 @@ function PlasmicInputTextForm__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.parent, {
           [sty.parent__label]: hasVariant(variants, "label", "label"),
+          [sty.parent__width__120]: hasVariant(variants, "width", "_120"),
+          [sty.parent__width__144]: hasVariant(variants, "width", "_144"),
           [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
           [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
           [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
@@ -86,6 +88,12 @@ function PlasmicInputTextForm__RenderFunc(props) {
               variants,
               "subhead",
               "subhead"
+            ),
+
+            [sty.labelHeadlineParent__width__120]: hasVariant(
+              variants,
+              "width",
+              "_120"
             ),
 
             [sty.labelHeadlineParent__width__180]: hasVariant(
@@ -166,6 +174,12 @@ function PlasmicInputTextForm__RenderFunc(props) {
               variants,
               "height",
               "_48"
+            ),
+
+            [sty.inputParent__width__120]: hasVariant(
+              variants,
+              "width",
+              "_120"
             ),
 
             [sty.inputParent__width__180]: hasVariant(
@@ -267,6 +281,12 @@ function PlasmicInputTextForm__RenderFunc(props) {
                 variants,
                 "subhead",
                 "subhead"
+              ),
+
+              [sty.descriptionParent__width__120]: hasVariant(
+                variants,
+                "width",
+                "_120"
               ),
 
               [sty.descriptionParent__width__180]: hasVariant(

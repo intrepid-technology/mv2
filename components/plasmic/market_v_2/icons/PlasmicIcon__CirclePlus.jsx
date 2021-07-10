@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon175Icon(props) {
+export function CirclePlusIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -25,12 +25,12 @@ export function Icon175Icon(props) {
       <path
         fillRule={"evenodd"}
         d={
-          "M12 23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11zm0-2a9 9 0 100-18 9 9 0 000 18zm0-7.586l-3.293 3.293-1.414-1.414L10.586 12 7.293 8.707l1.414-1.414L12 10.586l3.293-3.293 1.414 1.414L13.414 12l3.293 3.293-1.414 1.414L12 13.414z"
+          "M12 23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11zm0-2a9 9 0 100-18 9 9 0 000 18zm1-10h4v2h-4v4h-2v-4H7v-2h4V7h2v4z"
         }
       ></path>
     </svg>
   );
 }
 
-export default Icon175Icon;
+export default CirclePlusIcon;
 /* prettier-ignore-end */

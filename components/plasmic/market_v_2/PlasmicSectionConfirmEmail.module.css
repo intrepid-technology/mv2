@@ -361,6 +361,8 @@
   .buttonResendHeadlineParent {
     width: 100%;
     height: auto;
+    margin-left: calc(0px + 0px) !important;
+    margin-top: calc(0px + 32px) !important;
     min-width: 0;
   }
 }

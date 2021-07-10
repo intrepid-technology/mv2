@@ -125,9 +125,14 @@
   > * {
   margin-top: 8px;
 }
+.headlineBodyTextParent__size__360 {
+  margin-left: calc(0px + 12px) !important;
+}
 .headlineBodyTextParent__size__160 {
   left: auto;
   top: auto;
+  margin-left: calc(0px + 12px) !important;
+  margin-top: calc(0px + 0px) !important;
 }
 .headlineBodyTextParent__size__160 > :global(.__wab_flex-container) {
   align-items: flex-start;

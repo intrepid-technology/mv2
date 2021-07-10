@@ -76,6 +76,16 @@
   margin-left: 8px;
   margin-top: 8px;
 }
+@media (min-width: 1152px) and (max-width: 1440px) {
+  .box__kOiq5 {
+    margin-top: calc(0px + 32px) !important;
+  }
+}
+@media (min-width: 374px) and (max-width: 414px) {
+  .box__kOiq5 {
+    margin-top: calc(0px + 32px) !important;
+  }
+}
 @media (min-width: 374px) and (max-width: 414px) {
   .box__kOiq5 > :global(.__wab_flex-container) {
     justify-content: center;

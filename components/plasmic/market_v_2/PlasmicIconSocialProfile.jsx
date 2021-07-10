@@ -46,18 +46,22 @@ import SnapchatIcon from "./icons/PlasmicIcon__Snapchat"; // plasmic-import: eAZ
 import WhatsappIcon from "./icons/PlasmicIcon__Whatsapp"; // plasmic-import: GmA_11s2C0/icon
 import LineLogoIcon from "./icons/PlasmicIcon__LineLogo"; // plasmic-import: cyDe_aCCDG/icon
 import WechatLogoIcon from "./icons/PlasmicIcon__WechatLogo"; // plasmic-import: n-UZcQ3mVQ/icon
+import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
+import XerosvgIcon from "./icons/PlasmicIcon__Xerosvg"; // plasmic-import: X-HNuuBXHS/icon
+import Icons8QuickbookssvgIcon from "./icons/PlasmicIcon__Icons8Quickbookssvg"; // plasmic-import: raCIX8pOF/icon
 
 export const PlasmicIconSocialProfile__VariantProps = new Array(
   "social",
-  "size"
+  "size",
+  "accounting"
 );
 
-export const PlasmicIconSocialProfile__ArgProps = new Array("target");
+export const PlasmicIconSocialProfile__ArgProps = new Array("destination");
 
 function PlasmicIconSocialProfile__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.PlasmicLink
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -66,16 +70,17 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
         [sty.root__size__45X45]: hasVariant(variants, "size", "_45X45"),
         [sty.root__size__90X90]: hasVariant(variants, "size", "_90X90")
       })}
+      component={Link}
+      href={args.destination}
+      platform={"nextjs"}
     >
-      <p.PlasmicLink
+      <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(defaultcss.all, sty.parent, {
           [sty.parent__size__45X45]: hasVariant(variants, "size", "_45X45"),
           [sty.parent__size__90X90]: hasVariant(variants, "size", "_90X90")
         })}
-        component={Link}
-        platform={"nextjs"}
       >
         <div
           data-plasmic-name={"iconBg"}
@@ -98,8 +103,17 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                 data-plasmic-name={"svgIcon6"}
                 data-plasmic-override={overrides.svgIcon6}
                 PlasmicIconType={
-                  hasVariant(variants, "size", "_45X45") &&
-                  hasVariant(variants, "social", "wechat")
+                  hasVariant(variants, "accounting", "quickbooks") &&
+                  hasVariant(variants, "size", "_45X45")
+                    ? Icons8QuickbookssvgIcon
+                    : hasVariant(variants, "accounting", "xero") &&
+                      hasVariant(variants, "size", "_45X45")
+                    ? XerosvgIcon
+                    : hasVariant(variants, "social", "google") &&
+                      hasVariant(variants, "size", "_45X45")
+                    ? GooglesvgIcon
+                    : hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "wechat")
                     ? WechatLogoIcon
                     : hasVariant(variants, "size", "_45X45") &&
                       hasVariant(variants, "social", "line")
@@ -170,6 +184,24 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     : Icon171Icon
                 }
                 className={classNames(defaultcss.all, sty.svgIcon6, {
+                  [sty.svgIcon6__accounting_quickbooks]: hasVariant(
+                    variants,
+                    "accounting",
+                    "quickbooks"
+                  ),
+
+                  [sty.svgIcon6__accounting_quickbooks_size__45X45]:
+                    hasVariant(variants, "accounting", "quickbooks") &&
+                    hasVariant(variants, "size", "_45X45"),
+                  [sty.svgIcon6__accounting_quickbooks_size__90X90]:
+                    hasVariant(variants, "accounting", "quickbooks") &&
+                    hasVariant(variants, "size", "_90X90"),
+                  [sty.svgIcon6__accounting_xero_size__45X45]:
+                    hasVariant(variants, "accounting", "xero") &&
+                    hasVariant(variants, "size", "_45X45"),
+                  [sty.svgIcon6__accounting_xero_size__90X90]:
+                    hasVariant(variants, "accounting", "xero") &&
+                    hasVariant(variants, "size", "_90X90"),
                   [sty.svgIcon6__size__45X45_social_angellist]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "angellist"),
@@ -236,6 +268,15 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                   [sty.svgIcon6__size__45X45_social_youtube]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "youtube"),
+                  [sty.svgIcon6__social_google]: hasVariant(
+                    variants,
+                    "social",
+                    "google"
+                  ),
+
+                  [sty.svgIcon6__social_google_size__45X45]:
+                    hasVariant(variants, "social", "google") &&
+                    hasVariant(variants, "size", "_45X45"),
                   [sty.svgIcon6__social_website_size__45X45]:
                     hasVariant(variants, "social", "website") &&
                     hasVariant(variants, "size", "_45X45")
@@ -262,6 +303,12 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     ? LinkedinSquareFillIcon
                     : hasVariant(variants, "social", "facebook")
                     ? FacebookSquareFillIcon
+                    : hasVariant(variants, "accounting", "quickbooks")
+                    ? Icons8QuickbookssvgIcon
+                    : hasVariant(variants, "accounting", "xero")
+                    ? XerosvgIcon
+                    : hasVariant(variants, "social", "google")
+                    ? GooglesvgIcon
                     : hasVariant(variants, "social", "wechat")
                     ? WechatLogoIcon
                     : hasVariant(variants, "social", "line")
@@ -297,6 +344,21 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     : Icon171Icon
                 }
                 className={classNames(defaultcss.all, sty.svgIcon8, {
+                  [sty.svgIcon8__accounting_quickbooks]: hasVariant(
+                    variants,
+                    "accounting",
+                    "quickbooks"
+                  ),
+
+                  [sty.svgIcon8__accounting_xero]: hasVariant(
+                    variants,
+                    "accounting",
+                    "xero"
+                  ),
+
+                  [sty.svgIcon8__accounting_xero_size__45X45]:
+                    hasVariant(variants, "accounting", "xero") &&
+                    hasVariant(variants, "size", "_45X45"),
                   [sty.svgIcon8__size__45X45]: hasVariant(
                     variants,
                     "size",
@@ -331,6 +393,12 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     variants,
                     "social",
                     "github"
+                  ),
+
+                  [sty.svgIcon8__social_google]: hasVariant(
+                    variants,
+                    "social",
+                    "google"
                   ),
 
                   [sty.svgIcon8__social_hackerNews]: hasVariant(
@@ -446,8 +514,8 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
             }
           />
         </div>
-      </p.PlasmicLink>
-    </div>
+      </div>
+    </p.PlasmicLink>
   );
 }
 

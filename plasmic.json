@@ -1224,19 +1224,6 @@
           "componentType": "component"
         },
         {
-          "id": "M6TX-0ESZQ",
-          "name": "ToggleA",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicToggleA.jsx",
-          "importSpec": {
-            "modulePath": "ToggleA.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicToggleA.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "e0M1tqOpmZ",
           "name": "InputCounter",
           "type": "managed",
@@ -2108,19 +2095,6 @@
           "componentType": "component"
         },
         {
-          "id": "mj3H3AmiAy",
-          "name": "ManageTeam",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicManageTeam.jsx",
-          "importSpec": {
-            "modulePath": "../pages/manage-team.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicManageTeam.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "Wn4V4PrC-K",
           "name": "ElementRadioPrimary",
           "type": "managed",
@@ -2130,32 +2104,6 @@
             "modulePath": "ElementRadioPrimary.jsx"
           },
           "cssFilePath": "plasmic/market_v_2/PlasmicElementRadioPrimary.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "o1fXsWwgdW",
-          "name": "FabButtonA",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicFabButtonA.jsx",
-          "importSpec": {
-            "modulePath": "FabButtonA.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicFabButtonA.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
-          "id": "nkuQ1X_r6B",
-          "name": "FabButtonB",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicFabButtonB.jsx",
-          "importSpec": {
-            "modulePath": "FabButtonB.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicFabButtonB.module.css",
           "scheme": "blackbox",
           "componentType": "component"
         },
@@ -2368,19 +2316,6 @@
           "componentType": "component"
         },
         {
-          "id": "RQdHhTD_vq",
-          "name": "PerformanceAnalytics",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPerformanceAnalytics.jsx",
-          "importSpec": {
-            "modulePath": "../pages/performance-analytics.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicPerformanceAnalytics.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "-EGIFSbBWZt",
           "name": "CardAnalyticsPrimary",
           "type": "managed",
@@ -2553,20 +2488,6 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "checkbox"
-        },
-        {
-          "id": "bTEGL3UXVph",
-          "name": "SwitchTextPrimary",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSwitchTextPrimary.jsx",
-          "importSpec": {
-            "modulePath": "SwitchTextPrimary.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicSwitchTextPrimary.module.css",
-          "scheme": "blackbox",
-          "componentType": "component",
-          "plumeType": "switch"
         },
         {
           "id": "IC5nyjlnco",
@@ -3451,6 +3372,345 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicSelectGroupDropdownPrimary.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "M6TX-0ESZQ",
+          "name": "SwitchPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSwitchPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SwitchPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSwitchPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "o1fXsWwgdW",
+          "name": "ButtonCirclePlusMinus",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonCirclePlusMinus.jsx",
+          "importSpec": {
+            "modulePath": "ButtonCirclePlusMinus.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonCirclePlusMinus.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nkuQ1X_r6B",
+          "name": "ButtonCircleDelete",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonCircleDelete.jsx",
+          "importSpec": {
+            "modulePath": "ButtonCircleDelete.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonCircleDelete.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "RQdHhTD_vq",
+          "name": "PartnerPerformance",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPartnerPerformance.jsx",
+          "importSpec": {
+            "modulePath": "../pages/partner/performance.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPartnerPerformance.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "bTEGL3UXVph",
+          "name": "SwitchTextPlasmic",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSwitchTextPlasmic.jsx",
+          "importSpec": {
+            "modulePath": "SwitchTextPlasmic.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSwitchTextPlasmic.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "QfGXBtwgwt",
+          "name": "Editmember",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditmember.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/member.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditmember.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "bpMMXdkhlq",
+          "name": "Editteam",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditteam.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/team.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditteam.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "d9HBto5p0Hf",
+          "name": "Editmembermembership",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditmembermembership.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/member/membership.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditmembermembership.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "j8kezDqiX0q",
+          "name": "Editmembersettings",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditmembersettings.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/member/settings.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditmembersettings.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "-D9RrNuJ4S",
+          "name": "Editteammanage",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditteammanage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/team/manage.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditteammanage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "QudhNCOa_Ua",
+          "name": "Editteamsettings",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditteamsettings.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/team/settings.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditteamsettings.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "PjlQKkmde-",
+          "name": "CardSocialConnectSwitch",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicCardSocialConnectSwitch.jsx",
+          "importSpec": {
+            "modulePath": "CardSocialConnectSwitch.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicCardSocialConnectSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gGzFXlkqWv",
+          "name": "TableBillingHeader",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableBillingHeader.jsx",
+          "importSpec": {
+            "modulePath": "TableBillingHeader.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableBillingHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wWlyRBkfY1r",
+          "name": "TableBillingRecord",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableBillingRecord.jsx",
+          "importSpec": {
+            "modulePath": "TableBillingRecord.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableBillingRecord.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "T4YXTQYWhk",
+          "name": "TableMembershipHeader",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableMembershipHeader.jsx",
+          "importSpec": {
+            "modulePath": "TableMembershipHeader.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableMembershipHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KowVnZaBQEh",
+          "name": "TableMembershipRecord",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableMembershipRecord.jsx",
+          "importSpec": {
+            "modulePath": "TableMembershipRecord.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableMembershipRecord.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "d5Rau78kDe",
+          "name": "ButtonGroupStripeConnect",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonGroupStripeConnect.jsx",
+          "importSpec": {
+            "modulePath": "ButtonGroupStripeConnect.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonGroupStripeConnect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0VvviIW4t16",
+          "name": "Editteammembership",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicEditteammembership.jsx",
+          "importSpec": {
+            "modulePath": "../pages/edit/team/membership.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicEditteammembership.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "o7uPWO-dXgo",
+          "name": "Partnermanagelistings",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPartnermanagelistings.jsx",
+          "importSpec": {
+            "modulePath": "../pages/partner/manage/listings.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPartnermanagelistings.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "hyCm300QePDi",
+          "name": "Membermanageprojects",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/manage/projects.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "K0Z1ZWLiupV",
+          "name": "TableProjectManagementHeader",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableProjectManagementHeader.jsx",
+          "importSpec": {
+            "modulePath": "TableProjectManagementHeader.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableProjectManagementHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "XwgjB__2WeM",
+          "name": "TableProjectManagementRecord",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableProjectManagementRecord.jsx",
+          "importSpec": {
+            "modulePath": "TableProjectManagementRecord.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableProjectManagementRecord.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "j0LNFrWCIRj",
+          "name": "TableListingManagementHeader",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableListingManagementHeader.jsx",
+          "importSpec": {
+            "modulePath": "TableListingManagementHeader.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableListingManagementHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-CTzxsSFaeA",
+          "name": "TableListingManagementRecord",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTableListingManagementRecord.jsx",
+          "importSpec": {
+            "modulePath": "TableListingManagementRecord.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTableListingManagementRecord.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0ls58SUcEc",
+          "name": "SwitchTextPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSwitchTextPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SwitchTextPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSwitchTextPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dxvh7jp8PC",
+          "name": "SwitchTextGroupPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSwitchTextGroupPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SwitchTextGroupPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSwitchTextGroupPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -4071,8 +4331,8 @@
         },
         {
           "id": "6F_oWsQS7s",
-          "name": "Icon97Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon97.jsx"
+          "name": "PaypalIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Paypal.jsx"
         },
         {
           "id": "5nOWCV9_g",
@@ -4286,8 +4546,8 @@
         },
         {
           "id": "X0sjJkcBKE",
-          "name": "Icon138Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon138.jsx"
+          "name": "BoostIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Boost.jsx"
         },
         {
           "id": "4FBF57l0-H",
@@ -4471,8 +4731,8 @@
         },
         {
           "id": "t9SuDpj6zV",
-          "name": "Icon175Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon175.jsx"
+          "name": "CircleXIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CircleX.jsx"
         },
         {
           "id": "OzyxQHcsWW",
@@ -4486,23 +4746,23 @@
         },
         {
           "id": "Ebjr5Ebml",
-          "name": "Icon178Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon178.jsx"
+          "name": "CircleCheckedIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CircleChecked.jsx"
         },
         {
           "id": "mbnWFLNOQl",
-          "name": "Icon179Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon179.jsx"
+          "name": "EditIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Edit.jsx"
         },
         {
           "id": "2emi-eIAJb",
-          "name": "Icon180Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon180.jsx"
+          "name": "CircleTimeIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CircleTime.jsx"
         },
         {
           "id": "QS_bXX3Lhh",
-          "name": "Icon181Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon181.jsx"
+          "name": "CircleStopIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CircleStop.jsx"
         },
         {
           "id": "2qZ8N9GyOr",
@@ -4813,6 +5073,16 @@
           "id": "TsoGzKShgI",
           "name": "ChevronLeftIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ChevronLeft.jsx"
+        },
+        {
+          "id": "bxdFeSUaP",
+          "name": "CirclePlusIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CirclePlus.jsx"
+        },
+        {
+          "id": "VNJsxL6vUq",
+          "name": "CircleMinusIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__CircleMinus.jsx"
         }
       ],
       "images": [

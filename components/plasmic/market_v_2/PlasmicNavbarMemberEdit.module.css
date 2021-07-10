@@ -26,53 +26,96 @@
   margin-left: 16px;
   margin-top: 0px;
 }
+@media (min-width: 374px) and (max-width: 414px) {
+  .root {
+    padding-left: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    padding-left: 16px;
+  }
+}
 .navLink___6RIQ:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_profile___6RIQhh65T:global(.__wab_instance) {
+  display: none;
+}
+.navLink__navItems_settings_navItems_profile___6RIQkg1WIHh65T:global(.__wab_instance) {
+  display: none;
 }
 .navLink__kS7Yn:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_membership__kS7Yn7N6Rd:global(.__wab_instance) {
+  display: none;
+}
 .navLink__wSC:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_team__wSCNmGLt:global(.__wab_instance) {
+  display: none;
 }
 .navLink__cnnMf:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_wallet__cnnMfSa80W:global(.__wab_instance) {
+  display: none;
+}
 .navLink__wk5G0:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_projects__wk5G0WMb6:global(.__wab_instance) {
+  display: none;
 }
 .navLink___4JsCi:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_lists___4JsCilaFx5:global(.__wab_instance) {
+  display: none;
+}
 .navLink__jUxP0:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_reviews__jUxP08WU:global(.__wab_instance) {
+  display: none;
 }
 .navLink__xgW97:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_messages__xgW97ByhAh:global(.__wab_instance) {
+  display: none;
+}
 .navLink___4YzFk:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_notifications___4YzFkq0Mp:global(.__wab_instance) {
+  display: none;
+}
 .navLink__ircX2:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_settings__ircX2Kg1WI:global(.__wab_instance) {
+  display: none;
 }

@@ -26,58 +26,101 @@
   margin-left: 16px;
   margin-top: 0px;
 }
+@media (min-width: 374px) and (max-width: 414px) {
+  .root {
+    padding-left: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    padding-left: 16px;
+  }
+}
 .navLink__cz1Za:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_profile__cz1ZaYjCyF:global(.__wab_instance) {
+  display: none;
 }
 .navLink__ivl4P:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_membership__ivl4PiXyRt:global(.__wab_instance) {
+  display: none;
+}
 .navLink__dq470:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_team__dq470JFsgI:global(.__wab_instance) {
+  display: none;
 }
 .navLink___5FXlO:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_wallet___5FXlOg3QjD:global(.__wab_instance) {
+  display: none;
+}
 .navLink__gf82X:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_listings__gf82X1Ixbv:global(.__wab_instance) {
+  display: none;
 }
 .navLink__rghSh:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_projects__rghShhjJim:global(.__wab_instance) {
+  display: none;
+}
 .navLink__kpVnm:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_performance__kpVnMuH82I:global(.__wab_instance) {
+  display: none;
 }
 .navLink__lIccw:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_reviews__lIccwsCk9S:global(.__wab_instance) {
+  display: none;
+}
 .navLink___9Czou:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_messages___9CzoUypwUc:global(.__wab_instance) {
+  display: none;
 }
 .navLink__ih1Ej:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+.navLink__navItems_notifications__ih1Ej3Net8:global(.__wab_instance) {
+  display: none;
+}
 .navLink__p3X21:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+.navLink__navItems_settings__p3X210OrXb:global(.__wab_instance) {
+  display: none;
 }

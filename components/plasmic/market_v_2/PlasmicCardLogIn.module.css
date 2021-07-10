@@ -58,6 +58,7 @@
   .emailLabel {
     left: auto;
     top: auto;
+    margin-top: calc(0px + 4px) !important;
   }
 }
 .email {
@@ -117,6 +118,7 @@
   .passwordLabel {
     left: auto;
     top: auto;
+    margin-top: calc(0px + 4px) !important;
   }
 }
 .password {

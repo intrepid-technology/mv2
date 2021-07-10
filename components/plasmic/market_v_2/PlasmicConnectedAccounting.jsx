@@ -22,8 +22,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicConnectedAccounting.module.css"; // plasmic-import: N7O712pA3UT/css
-import XerosvgIcon from "./icons/PlasmicIcon__Xerosvg"; // plasmic-import: X-HNuuBXHS/icon
-import Icons8QuickbookssvgIcon from "./icons/PlasmicIcon__Icons8Quickbookssvg"; // plasmic-import: raCIX8pOF/icon
 
 export const PlasmicConnectedAccounting__VariantProps = new Array(
   "closed",
@@ -63,7 +61,6 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
         <CardConnectedAccount
           data-plasmic-name={"xero"}
           data-plasmic-override={overrides.xero}
-          business={"business"}
           className={classNames("__wab_instance", sty.xero, {
             [sty.xero__closed]: hasVariant(variants, "closed", "closed"),
             [sty.xero__visible_quickbooks]: hasVariant(
@@ -73,13 +70,7 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
             )
           })}
           companies={"xero"}
-          connectedAccountName={"Xero"}
-          svgConnectedAccount={
-            <XerosvgIcon
-              className={classNames(defaultcss.all, sty.svg__ujXjT)}
-              role={"img"}
-            />
-          }
+          team={"team"}
           userFirstname={"companyName"}
         />
       ) : null}
@@ -93,7 +84,6 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
         <CardConnectedAccount
           data-plasmic-name={"quickbooks"}
           data-plasmic-override={overrides.quickbooks}
-          business={"business"}
           className={classNames("__wab_instance", sty.quickbooks, {
             [sty.quickbooks__closed]: hasVariant(variants, "closed", "closed"),
             [sty.quickbooks__visible_xero]: hasVariant(
@@ -103,13 +93,7 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
             )
           })}
           companies={"quickbooks"}
-          connectedAccountName={"Quickbooks"}
-          svgConnectedAccount={
-            <Icons8QuickbookssvgIcon
-              className={classNames(defaultcss.all, sty.svg__oObt4)}
-              role={"img"}
-            />
-          }
+          team={"team"}
           userFirstname={"companyName"}
         />
       ) : null}

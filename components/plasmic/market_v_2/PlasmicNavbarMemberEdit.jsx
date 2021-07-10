@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -21,7 +22,10 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarMemberEdit.module.css"; // plasmic-import: oTyBGj7jMRD/css
 
-export const PlasmicNavbarMemberEdit__VariantProps = new Array();
+export const PlasmicNavbarMemberEdit__VariantProps = new Array(
+  "navItems",
+  "selected"
+);
 
 export const PlasmicNavbarMemberEdit__ArgProps = new Array();
 
@@ -29,7 +33,7 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <p.Stack
-      as={"div"}
+      as={"nav"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
@@ -37,55 +41,338 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink___6RIQ)}
-        linkText={"Profile"}
-      />
+      {(
+        hasVariant(variants, "navItems", "settings") &&
+        hasVariant(variants, "navItems", "profile")
+          ? true
+          : hasVariant(variants, "navItems", "profile")
+          ? true
+          : true
+      ) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink___6RIQ, {
+            [sty.navLink__navItems_membership___6RIQ7N6Rd]: hasVariant(
+              variants,
+              "navItems",
+              "membership"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__kS7Yn)}
-        linkText={"Membership"}
-      />
+            [sty.navLink__navItems_profile___6RIQhh65T]: hasVariant(
+              variants,
+              "navItems",
+              "profile"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__wSC)}
-        linkText={"Team"}
-      />
+            [sty.navLink__navItems_settings_navItems_profile___6RIQkg1WIHh65T]:
+              hasVariant(variants, "navItems", "settings") &&
+              hasVariant(variants, "navItems", "profile"),
+            [sty.navLink__selected_profile___6RIQgst1U]: hasVariant(
+              variants,
+              "selected",
+              "profile"
+            )
+          })}
+          linkText={"Profile"}
+          state={
+            hasVariant(variants, "selected", "profile") ? "selected" : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "membership") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__kS7Yn, {
+            [sty.navLink__navItems_membership__kS7Yn7N6Rd]: hasVariant(
+              variants,
+              "navItems",
+              "membership"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__cnnMf)}
-        linkText={"Wallet"}
-      />
+            [sty.navLink__navItems_team__kS7YnNmGLt]: hasVariant(
+              variants,
+              "navItems",
+              "team"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__wk5G0)}
-        linkText={"Orders"}
-      />
+            [sty.navLink__selected_membership__kS7Yncj7Qo]: hasVariant(
+              variants,
+              "selected",
+              "membership"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink___4JsCi)}
-        linkText={"Lists"}
-      />
+            [sty.navLink__selected_team__kS7YnehB3C]: hasVariant(
+              variants,
+              "selected",
+              "team"
+            )
+          })}
+          linkText={"Membership"}
+          state={
+            hasVariant(variants, "selected", "membership")
+              ? "selected"
+              : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "team") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__wSC, {
+            [sty.navLink__navItems_team__wSCNmGLt]: hasVariant(
+              variants,
+              "navItems",
+              "team"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__jUxP0)}
-        linkText={"Reviews"}
-      />
+            [sty.navLink__navItems_wallet__wSCSa80W]: hasVariant(
+              variants,
+              "navItems",
+              "wallet"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__xgW97)}
-        linkText={"Messages"}
-      />
+            [sty.navLink__selected_team__wSCehB3C]: hasVariant(
+              variants,
+              "selected",
+              "team"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink___4YzFk)}
-        linkText={"Notifications"}
-      />
+            [sty.navLink__selected_wallet__wSC7DfUx]: hasVariant(
+              variants,
+              "selected",
+              "wallet"
+            )
+          })}
+          linkText={"Team"}
+          state={
+            hasVariant(variants, "selected", "team") ? "selected" : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "wallet") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__cnnMf, {
+            [sty.navLink__navItems_projects__cnnMfWMb6]: hasVariant(
+              variants,
+              "navItems",
+              "projects"
+            ),
 
-      <NavLink
-        className={classNames("__wab_instance", sty.navLink__ircX2)}
-        linkText={"Settings"}
-      />
+            [sty.navLink__navItems_wallet__cnnMfSa80W]: hasVariant(
+              variants,
+              "navItems",
+              "wallet"
+            ),
+
+            [sty.navLink__selected_projects__cnnMfLm5Kd]: hasVariant(
+              variants,
+              "selected",
+              "projects"
+            ),
+
+            [sty.navLink__selected_wallet__cnnMf7DfUx]: hasVariant(
+              variants,
+              "selected",
+              "wallet"
+            )
+          })}
+          linkText={"Wallet"}
+          state={
+            hasVariant(variants, "selected", "wallet") ? "selected" : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "projects") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__wk5G0, {
+            [sty.navLink__navItems_lists__wk5G0LaFx5]: hasVariant(
+              variants,
+              "navItems",
+              "lists"
+            ),
+
+            [sty.navLink__navItems_projects__wk5G0WMb6]: hasVariant(
+              variants,
+              "navItems",
+              "projects"
+            ),
+
+            [sty.navLink__selected_lists__wk5G0Pa762]: hasVariant(
+              variants,
+              "selected",
+              "lists"
+            ),
+
+            [sty.navLink__selected_projects__wk5G0Lm5Kd]: hasVariant(
+              variants,
+              "selected",
+              "projects"
+            )
+          })}
+          linkText={"Projects"}
+          state={
+            hasVariant(variants, "selected", "projects")
+              ? "selected"
+              : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "lists") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink___4JsCi, {
+            [sty.navLink__navItems_lists___4JsCilaFx5]: hasVariant(
+              variants,
+              "navItems",
+              "lists"
+            ),
+
+            [sty.navLink__navItems_reviews___4JsCi8WU]: hasVariant(
+              variants,
+              "navItems",
+              "reviews"
+            ),
+
+            [sty.navLink__selected_lists___4JsCiPa762]: hasVariant(
+              variants,
+              "selected",
+              "lists"
+            ),
+
+            [sty.navLink__selected_reviews___4JsCiW8JY3]: hasVariant(
+              variants,
+              "selected",
+              "reviews"
+            )
+          })}
+          linkText={"Lists"}
+          state={
+            hasVariant(variants, "selected", "lists") ? "selected" : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "reviews") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__jUxP0, {
+            [sty.navLink__navItems_messages__jUxP0ByhAh]: hasVariant(
+              variants,
+              "navItems",
+              "messages"
+            ),
+
+            [sty.navLink__navItems_reviews__jUxP08WU]: hasVariant(
+              variants,
+              "navItems",
+              "reviews"
+            ),
+
+            [sty.navLink__selected_reviews__jUxP0W8JY3]: hasVariant(
+              variants,
+              "selected",
+              "reviews"
+            )
+          })}
+          linkText={"Reviews"}
+          state={
+            hasVariant(variants, "selected", "reviews") ? "selected" : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "messages") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__xgW97, {
+            [sty.navLink__navItems_messages__xgW97ByhAh]: hasVariant(
+              variants,
+              "navItems",
+              "messages"
+            ),
+
+            [sty.navLink__navItems_notifications__xgW97Q0Mp]: hasVariant(
+              variants,
+              "navItems",
+              "notifications"
+            ),
+
+            [sty.navLink__selected_messages__xgW97D00Us]: hasVariant(
+              variants,
+              "selected",
+              "messages"
+            ),
+
+            [sty.navLink__selected_notifications__xgW97TIwZ7]: hasVariant(
+              variants,
+              "selected",
+              "notifications"
+            ),
+
+            [sty.navLink__selected_reviews__xgW97W8JY3]: hasVariant(
+              variants,
+              "selected",
+              "reviews"
+            )
+          })}
+          linkText={"Messages"}
+          state={
+            hasVariant(variants, "selected", "messages")
+              ? "selected"
+              : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "notifications") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink___4YzFk, {
+            [sty.navLink__navItems_notifications___4YzFkq0Mp]: hasVariant(
+              variants,
+              "navItems",
+              "notifications"
+            ),
+
+            [sty.navLink__navItems_settings___4YzFkkg1WI]: hasVariant(
+              variants,
+              "navItems",
+              "settings"
+            ),
+
+            [sty.navLink__selected_notifications___4YzFkTIwZ7]: hasVariant(
+              variants,
+              "selected",
+              "notifications"
+            ),
+
+            [sty.navLink__selected_settings___4YzFkYvqOg]: hasVariant(
+              variants,
+              "selected",
+              "settings"
+            )
+          })}
+          linkText={"Notifications"}
+          state={
+            hasVariant(variants, "selected", "notifications")
+              ? "selected"
+              : undefined
+          }
+        />
+      ) : null}
+      {(hasVariant(variants, "navItems", "settings") ? true : true) ? (
+        <NavLink
+          className={classNames("__wab_instance", sty.navLink__ircX2, {
+            [sty.navLink__navItems_settings__ircX2Kg1WI]: hasVariant(
+              variants,
+              "navItems",
+              "settings"
+            ),
+
+            [sty.navLink__selected_settings__ircX2YvqOg]: hasVariant(
+              variants,
+              "selected",
+              "settings"
+            )
+          })}
+          linkText={"Settings"}
+          state={
+            hasVariant(variants, "selected", "settings")
+              ? "selected"
+              : undefined
+          }
+        />
+      ) : null}
     </p.Stack>
   );
 }

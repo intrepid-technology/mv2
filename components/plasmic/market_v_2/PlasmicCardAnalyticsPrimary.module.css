@@ -16,6 +16,9 @@
   height: 270px;
   padding: 16px;
 }
+.parent:hover {
+  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
 .svgQuestionParent {
   display: flex;
   position: relative;
@@ -57,15 +60,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: calc(0px - 24px);
-  height: calc(100% + 24px);
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
 }
 .iconNumberValueTitlePercentValueParent > :global(.__wab_flex-container) > *,
 .iconNumberValueTitlePercentValueParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > * {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 .iconNumberValueTitlePercentValueParent__size__270 {
   padding: 16px;
@@ -179,7 +182,7 @@
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -189,7 +192,7 @@
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -199,7 +202,7 @@
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -209,7 +212,7 @@
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -226,7 +229,7 @@
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -236,7 +239,7 @@
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;

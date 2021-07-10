@@ -24,7 +24,7 @@ import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu8
 import FacebookSquareFillIcon from "./icons/PlasmicIcon__FacebookSquareFill"; // plasmic-import: wOX2gl0oUy/icon
 import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
 import StripeLogoIcon from "./icons/PlasmicIcon__StripeLogo"; // plasmic-import: 5nOWCV9_g/icon
-import Icon97Icon from "./icons/PlasmicIcon__Icon97"; // plasmic-import: 6F_oWsQS7s/icon
+import PaypalIcon from "./icons/PlasmicIcon__Paypal"; // plasmic-import: 6F_oWsQS7s/icon
 import XerosvgIcon from "./icons/PlasmicIcon__Xerosvg"; // plasmic-import: X-HNuuBXHS/icon
 import Icons8QuickbookssvgIcon from "./icons/PlasmicIcon__Icons8Quickbookssvg"; // plasmic-import: raCIX8pOF/icon
 
@@ -172,7 +172,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                   : hasVariant(variants, "company", "xero")
                   ? XerosvgIcon
                   : hasVariant(variants, "company", "paypal")
-                  ? Icon97Icon
+                  ? PaypalIcon
                   : hasVariant(variants, "company", "stripe")
                   ? StripeLogoIcon
                   : hasVariant(variants, "company", "google")

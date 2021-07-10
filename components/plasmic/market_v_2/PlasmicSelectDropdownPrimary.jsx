@@ -27,7 +27,7 @@ import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-impor
 import ChevronUpIcon from "./icons/PlasmicIcon__ChevronUp"; // plasmic-import: ftv5Hc1dwv3/icon
 
 export const PlasmicSelectDropdownPrimary__VariantProps = new Array(
-  "size",
+  "width",
   "showPlaceholder",
   "isOpen",
   "isDisabled"
@@ -63,7 +63,8 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
         data-plasmic-for-node={forNode}
         className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
           [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270")
+          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.root__width__720]: hasVariant(variants, "width", "_720")
         })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
@@ -88,13 +89,15 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
               "showPlaceholder"
             ),
 
-            [sty.trigger__size__120]: hasVariant(variants, "size", "_120"),
-            [sty.trigger__size__144]: hasVariant(variants, "size", "_144"),
-            [sty.trigger__size__160]: hasVariant(variants, "size", "_160"),
-            [sty.trigger__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.trigger__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.trigger__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.trigger__size__90]: hasVariant(variants, "size", "_90")
+            [sty.trigger__width__120]: hasVariant(variants, "width", "_120"),
+            [sty.trigger__width__144]: hasVariant(variants, "width", "_144"),
+            [sty.trigger__width__160]: hasVariant(variants, "width", "_160"),
+            [sty.trigger__width__180]: hasVariant(variants, "width", "_180"),
+            [sty.trigger__width__270]: hasVariant(variants, "width", "_270"),
+            [sty.trigger__width__360]: hasVariant(variants, "width", "_360"),
+            [sty.trigger__width__540]: hasVariant(variants, "width", "_540"),
+            [sty.trigger__width__720]: hasVariant(variants, "width", "_720"),
+            [sty.trigger__width__90]: hasVariant(variants, "width", "_90")
           })}
           disabled={
             hasVariant(variants, "isDisabled", "isDisabled") ? true : undefined
@@ -110,9 +113,9 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                 "showPlaceholder"
               ),
 
-              [sty.contentContainer__size__160]: hasVariant(
+              [sty.contentContainer__width__160]: hasVariant(
                 variants,
-                "size",
+                "width",
                 "_160"
               )
             })}
@@ -155,9 +158,9 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                       "showPlaceholder"
                     ),
 
-                    [sty.slotPlaceholder__size__90]: hasVariant(
+                    [sty.slotPlaceholder__width__90]: hasVariant(
                       variants,
-                      "size",
+                      "width",
                       "_90"
                     )
                   })
@@ -182,9 +185,9 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                 "isOpen"
               ),
 
-              [sty.dropdownIcon__size__160]: hasVariant(
+              [sty.dropdownIcon__width__160]: hasVariant(
                 variants,
-                "size",
+                "width",
                 "_160"
               )
             })}

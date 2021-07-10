@@ -19,20 +19,8 @@
   left: auto;
   top: auto;
 }
-.svg__ujXjT {
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
-  color: #13b5ea /* plasmic-token: qYCtWfv-v */;
-}
 .quickbooks:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-}
-.svg__oObt4 {
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
-  color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
 }

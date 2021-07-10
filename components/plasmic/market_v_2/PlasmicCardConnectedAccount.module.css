@@ -12,10 +12,10 @@
   flex-direction: row;
   width: 100%;
   height: auto;
-  min-width: 0;
+  min-width: 360px;
   border-radius: 2px;
   padding: 8px 16px;
-  border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .cardParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -30,7 +30,7 @@
 .cardParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 24px;
 }
-.box__mbiD {
+.iconTextGroup {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -40,36 +40,117 @@
   top: auto;
   align-self: auto;
 }
-.box__mbiD > :global(.__wab_flex-container) {
+.iconTextGroup > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  margin-left: calc(0px - 16px);
-  width: calc(100% + 16px);
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__mbiD > :global(.__wab_flex-container) > *,
-.box__mbiD > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-left: 16px;
+.iconTextGroup > :global(.__wab_flex-container) > *,
+.iconTextGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
   margin-top: 8px;
 }
-.svgConnectedAccountParent {
-  display: flex;
+.iconPrimary:global(.__wab_instance) {
   position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: auto;
-  left: auto;
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  padding: 0px;
+  align-self: center;
 }
-.svg__wnDF {
+.svg__qM22S {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hKev {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__uDnx {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__cMm9H {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__aqFvw {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svgIcon6 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__zxAp3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svgIcon8 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svgIcon8__companies_google {
+  color: #db4437 /* plasmic-token: pXhZGSe3B */;
+}
+.svgIcon8__companies_facebook {
+  color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+}
+.svgIcon8__companies_stripe {
+  color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+}
+.svgIcon8__companies_paypal {
+  color: #327aea /* plasmic-token: EfXZlpq-M */;
+}
+.svgIcon8__companies_xero {
+  color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+}
+.svgIcon8__companies_quickbooks {
+  color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+}
+.svg___8QiMh {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__q0TaK {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -90,12 +171,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
-  margin-top: calc(0px - 6px);
-  height: calc(100% + 6px);
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
 }
 .accountInfoParent > :global(.__wab_flex-container) > *,
 .accountInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 .box___1Hh0 {
   position: relative;
@@ -110,16 +191,13 @@
   position: relative;
   flex-direction: column;
 }
-.slotConnectedAccountName {
+.box___5QGGx {
+  position: relative;
+  font-size: 16px;
   font-weight: 500;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
-  .slotConnectedAccountName {
-    font-size: 14px;
-  }
-}
-.usernamesParent {
+.usernameGroupParent {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -128,15 +206,18 @@
   width: auto;
   height: auto;
 }
-.usernamesParent > :global(.__wab_flex-container) {
+.usernameGroupParent > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
-.usernamesParent > :global(.__wab_flex-container) > *,
-.usernamesParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.usernameGroupParent > :global(.__wab_flex-container) > *,
+.usernameGroupParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
   margin-left: 6px;
 }
 .slotUserFirstname {
@@ -204,6 +285,6 @@
 .slotTimestampDate {
   font-size: 12px;
 }
-.fabButtonB:global(.__wab_instance) {
+.buttonCircleDelete:global(.__wab_instance) {
   position: relative;
 }

@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon179Icon(props) {
+export function CircleXIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -25,12 +25,12 @@ export function Icon179Icon(props) {
       <path
         fillRule={"evenodd"}
         d={
-          "M14.802 6.445L8.696 12.55c-.405.358-.656.86-.696 1.318v2.135l2.064.002c.534-.038 1.031-.287 1.43-.743L17.558 9.2l-2.755-2.755zm1.415-1.414l2.754 2.755.894-.894a.462.462 0 000-.653L17.76 4.135a.456.456 0 00-.647 0l-.897.896zM22 13v7a2 2 0 01-2 2H4a2 2 0 01-2-2V4a2 2 0 012-2h7v2H4v16h16v-7h2zM17.437 2c.655 0 1.283.261 1.741.723l2.101 2.101a2.462 2.462 0 010 3.482l-8.321 8.318c-.699.805-1.69 1.3-2.823 1.378H6v-1l.003-3.215c.085-1.054.576-2.035 1.323-2.694l8.37-8.368A2.456 2.456 0 0117.436 2z"
+          "M12 23C5.925 23 1 18.075 1 12S5.925 1 12 1s11 4.925 11 11-4.925 11-11 11zm0-2a9 9 0 100-18 9 9 0 000 18zm0-7.586l-3.293 3.293-1.414-1.414L10.586 12 7.293 8.707l1.414-1.414L12 10.586l3.293-3.293 1.414 1.414L13.414 12l3.293 3.293-1.414 1.414L12 13.414z"
         }
       ></path>
     </svg>
   );
 }
 
-export default Icon179Icon;
+export default CircleXIcon;
 /* prettier-ignore-end */

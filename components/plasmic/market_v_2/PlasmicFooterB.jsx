@@ -34,7 +34,7 @@ function PlasmicFooterB__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <p.Stack
-      as={"div"}
+      as={"footer"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}

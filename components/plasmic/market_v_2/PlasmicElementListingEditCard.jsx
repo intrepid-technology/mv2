@@ -22,7 +22,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementListingEditCard.module.css"; // plasmic-import: JDi6d9hmkm/css
-import Icon178Icon from "./icons/PlasmicIcon__Icon178"; // plasmic-import: Ebjr5Ebml/icon
+import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon
 import Icon176Icon from "./icons/PlasmicIcon__Icon176"; // plasmic-import: OzyxQHcsWW/icon
 import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon
 import Icon111Icon from "./icons/PlasmicIcon__Icon111"; // plasmic-import: fytPd42_r6/icon
@@ -106,7 +106,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
           )
             ? p.renderPlasmicSlot({
                 defaultContents: (
-                  <Icon178Icon
+                  <CircleCheckedIcon
                     className={classNames(defaultcss.all, sty.svg__eGk9V)}
                     role={"img"}
                   />

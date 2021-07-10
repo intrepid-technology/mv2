@@ -29,7 +29,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarInternal.module.css"; // plasmic-import: BXWgCr5-vns/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
-import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJkcBKE/icon
+import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
 
 export const PlasmicNavbarInternal__VariantProps = new Array(
   "user",
@@ -131,6 +131,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                   hasVariant(variants, "state", "loggedOut")
               })}
               height={"_36"}
+              width={"_540"}
             />
           </div>
         ) : null}
@@ -287,7 +288,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                         sty.navbarListButtonTextParent22
                       )}
                     >
-                      <Icon138Icon
+                      <BoostIcon
                         data-plasmic-name={"svg"}
                         data-plasmic-override={overrides.svg}
                         className={classNames(defaultcss.all, sty.svg)}

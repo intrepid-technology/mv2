@@ -79,12 +79,13 @@
   min-width: 0;
 }
 .slotHeadlineLabelTitle {
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: normal;
-  line-height: 1;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  line-height: 1.4;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  text-transform: none;
 }
 .slotHeadlineLabelTitle__size__360X40 {
   line-height: 1;
@@ -295,8 +296,12 @@
   min-width: 0;
 }
 .slotChildren {
-  font-size: 8px;
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
 .slotChildren__size__540X40 {
   font-size: 16px;

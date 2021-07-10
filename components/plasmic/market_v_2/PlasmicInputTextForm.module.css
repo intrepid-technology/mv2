@@ -25,11 +25,20 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
+.parent__width__380 {
+  width: 380px;
+}
 .parent__width__540 {
   width: 540px;
 }
 .parent__width__720 {
   width: 720px;
+}
+.parent__width__120 {
+  width: 120px;
+}
+.parent__width__144 {
+  width: 144px;
 }
 .parent__width__160 {
   width: 160px;
@@ -39,9 +48,6 @@
 }
 .parent__width__270 {
   width: 270px;
-}
-.parent__width__380 {
-  width: 380px;
 }
 .labelHeadlineParent {
   display: flex;
@@ -55,11 +61,11 @@
 .labelHeadlineParent__label {
   display: none;
 }
-.labelHeadlineParent__width__180 {
-  width: 180px;
-}
 .labelHeadlineParent__width__380 {
   width: 380px;
+}
+.labelHeadlineParent__width__180 {
+  width: 180px;
 }
 .slotLabelHeadline {
   font-size: 16px;
@@ -87,15 +93,15 @@
   height: auto;
   min-width: 0;
 }
-.inputParent__width__180 {
-  width: 100%;
-  min-width: 0;
-}
 .inputParent__width__360 {
   width: 360px;
 }
 .inputParent__width__380 {
   width: 380px;
+}
+.inputParent__width__180 {
+  width: 100%;
+  min-width: 0;
 }
 .textbox {
   display: block;
@@ -185,11 +191,11 @@
   padding-top: 4px;
   min-width: 0;
 }
-.descriptionParent__width__180 {
-  width: 180px;
-}
 .descriptionParent__width__380 {
   width: 380px;
+}
+.descriptionParent__width__180 {
+  width: 180px;
 }
 .slotDescription {
   font-size: 12px;

@@ -16,7 +16,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import ToggleA from "../../ToggleA"; // plasmic-import: M6TX-0ESZQ/component
+import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -111,9 +111,9 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.box__ljIaA)}
       >
-        <ToggleA
-          data-plasmic-name={"toggleA"}
-          data-plasmic-override={overrides.toggleA}
+        <SwitchPrimary
+          data-plasmic-name={"switchPrimary"}
+          data-plasmic-override={overrides.switchPrimary}
           _switch={
             hasVariant(variants, "active", "placement")
               ? "_switch"
@@ -123,38 +123,38 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
               ? "_switch"
               : undefined
           }
-          className={classNames("__wab_instance", sty.toggleA, {
-            [sty.toggleA__active_autorenew]: hasVariant(
+          className={classNames("__wab_instance", sty.switchPrimary, {
+            [sty.switchPrimary__active_autorenew]: hasVariant(
               variants,
               "active",
               "autorenew"
             ),
 
-            [sty.toggleA__active_placement]: hasVariant(
+            [sty.switchPrimary__active_placement]: hasVariant(
               variants,
               "active",
               "placement"
             ),
 
-            [sty.toggleA__active_yearly]: hasVariant(
+            [sty.switchPrimary__active_yearly]: hasVariant(
               variants,
               "active",
               "yearly"
             ),
 
-            [sty.toggleA__inactive_autorenew]: hasVariant(
+            [sty.switchPrimary__inactive_autorenew]: hasVariant(
               variants,
               "inactive",
               "autorenew"
             ),
 
-            [sty.toggleA__inactive_placement]: hasVariant(
+            [sty.switchPrimary__inactive_placement]: hasVariant(
               variants,
               "inactive",
               "placement"
             ),
 
-            [sty.toggleA__inactive_yearly]: hasVariant(
+            [sty.switchPrimary__inactive_yearly]: hasVariant(
               variants,
               "inactive",
               "yearly"
@@ -168,8 +168,8 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "toggleA"],
-  toggleA: ["toggleA"]
+  root: ["root", "switchPrimary"],
+  switchPrimary: ["switchPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -203,7 +203,7 @@ export const PlasmicToggleSubscriptionCard = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    toggleA: makeNodeComponent("toggleA"),
+    switchPrimary: makeNodeComponent("switchPrimary"),
     // Metadata about props expected for PlasmicToggleSubscriptionCard
     internalVariantProps: PlasmicToggleSubscriptionCard__VariantProps,
     internalArgProps: PlasmicToggleSubscriptionCard__ArgProps

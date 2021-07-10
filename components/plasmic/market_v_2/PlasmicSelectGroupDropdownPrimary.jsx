@@ -24,12 +24,14 @@ import * as sty from "./PlasmicSelectGroupDropdownPrimary.module.css"; // plasmi
 
 export const PlasmicSelectGroupDropdownPrimary__VariantProps = new Array(
   "label",
-  "description"
+  "description",
+  "width"
 );
 
 export const PlasmicSelectGroupDropdownPrimary__ArgProps = new Array(
   "children",
-  "slot"
+  "slot",
+  "placeholder"
 );
 
 function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
@@ -47,7 +49,9 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, sty.parent, {
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+        })}
       >
         {(hasVariant(variants, "label", "label") ? true : true) ? (
           <label
@@ -76,8 +80,86 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
         <SelectDropdownPrimary
           data-plasmic-name={"selectDropdownPrimary"}
           data-plasmic-override={overrides.selectDropdownPrimary}
-          className={classNames("__wab_instance", sty.selectDropdownPrimary)}
-          size={"_360"}
+          className={classNames("__wab_instance", sty.selectDropdownPrimary, {
+            [sty.selectDropdownPrimary__width__120]: hasVariant(
+              variants,
+              "width",
+              "_120"
+            ),
+
+            [sty.selectDropdownPrimary__width__144]: hasVariant(
+              variants,
+              "width",
+              "_144"
+            ),
+
+            [sty.selectDropdownPrimary__width__160]: hasVariant(
+              variants,
+              "width",
+              "_160"
+            ),
+
+            [sty.selectDropdownPrimary__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
+
+            [sty.selectDropdownPrimary__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
+
+            [sty.selectDropdownPrimary__width__360]: hasVariant(
+              variants,
+              "width",
+              "_360"
+            ),
+
+            [sty.selectDropdownPrimary__width__540]: hasVariant(
+              variants,
+              "width",
+              "_540"
+            ),
+
+            [sty.selectDropdownPrimary__width__720]: hasVariant(
+              variants,
+              "width",
+              "_720"
+            ),
+
+            [sty.selectDropdownPrimary__width__90]: hasVariant(
+              variants,
+              "width",
+              "_90"
+            )
+          })}
+          placeholder={p.renderPlasmicSlot({
+            defaultContents: "Select...",
+            value: args.placeholder
+          })}
+          width={
+            hasVariant(variants, "width", "_360")
+              ? "_360"
+              : hasVariant(variants, "width", "_270")
+              ? "_270"
+              : hasVariant(variants, "width", "_180")
+              ? "_180"
+              : hasVariant(variants, "width", "_160")
+              ? "_160"
+              : hasVariant(variants, "width", "_144")
+              ? "_144"
+              : hasVariant(variants, "width", "_120")
+              ? "_120"
+              : hasVariant(variants, "width", "_90")
+              ? "_90"
+              : hasVariant(variants, "width", "_720")
+              ? "_720"
+              : hasVariant(variants, "width", "_540")
+              ? "_540"
+              : "_360"
+          }
         />
 
         {(hasVariant(variants, "description", "description") ? true : true) ? (

@@ -9,12 +9,39 @@
   min-width: 0;
   padding: 4px 8px;
 }
+.root__width__360 {
+  width: 360px;
+}
+.root__width__540 {
+  width: 540px;
+}
+.root__width__720 {
+  width: 720px;
+}
 .root__isHighlighted {
   background: #f8f8f8;
 }
 .root__isDisabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+.root__width__90 {
+  width: 90px;
+}
+.root__width__120 {
+  width: 120px;
+}
+.root__width__144 {
+  width: 144px;
+}
+.root__width__160 {
+  width: 160px;
+}
+.root__width__180 {
+  width: 180px;
+}
+.root__width__270 {
+  width: 270px;
 }
 .labelContainer {
   display: flex;

@@ -35,7 +35,7 @@ export const PlasmicCardHeaderTitleDisplay__ArgProps = new Array(
 function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <hgroup
       data-plasmic-name={"parent"}
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
@@ -90,10 +90,10 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             )
           })}
         >
-          <div
+          <h1
             data-plasmic-name={"textDisplayParent"}
             data-plasmic-override={overrides.textDisplayParent}
-            className={classNames(defaultcss.all, sty.textDisplayParent, {
+            className={classNames(defaultcss.h1, sty.textDisplayParent, {
               [sty.textDisplayParent__headings_headline]: hasVariant(
                 variants,
                 "headings",
@@ -130,7 +130,7 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
                 )
               })
             })}
-          </div>
+          </h1>
         </div>
 
         <p.Stack
@@ -170,18 +170,18 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
               [sty.headline__size__270]: hasVariant(variants, "size", "_270")
             })}
           >
-            <div
-              data-plasmic-name={"box"}
-              data-plasmic-override={overrides.box}
-              className={classNames(defaultcss.all, sty.box, {
-                [sty.box__headings_headline]: hasVariant(
+            <h2
+              data-plasmic-name={"h2"}
+              data-plasmic-override={overrides.h2}
+              className={classNames(defaultcss.h2, sty.h2, {
+                [sty.h2__headings_headline]: hasVariant(
                   variants,
                   "headings",
                   "headline"
                 ),
 
-                [sty.box__size__1080]: hasVariant(variants, "size", "_1080"),
-                [sty.box__size__270]: hasVariant(variants, "size", "_270")
+                [sty.h2__size__1080]: hasVariant(variants, "size", "_1080"),
+                [sty.h2__size__270]: hasVariant(variants, "size", "_270")
               })}
             >
               {p.renderPlasmicSlot({
@@ -207,7 +207,7 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
                   )
                 })
               })}
-            </div>
+            </h2>
           </div>
 
           <div
@@ -279,7 +279,7 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           </div>
         </p.Stack>
       </p.Stack>
-    </div>
+    </hgroup>
   );
 }
 
@@ -291,7 +291,7 @@ const PlasmicDescendants = {
     "textDisplayParent",
     "headlineSubheadGroupParent",
     "headline",
-    "box",
+    "h2",
     "subhead",
     "textSubheadParent"
   ],
@@ -302,7 +302,7 @@ const PlasmicDescendants = {
     "textDisplayParent",
     "headlineSubheadGroupParent",
     "headline",
-    "box",
+    "h2",
     "subhead",
     "textSubheadParent"
   ],
@@ -312,13 +312,13 @@ const PlasmicDescendants = {
   headlineSubheadGroupParent: [
     "headlineSubheadGroupParent",
     "headline",
-    "box",
+    "h2",
     "subhead",
     "textSubheadParent"
   ],
 
-  headline: ["headline", "box"],
-  box: ["box"],
+  headline: ["headline", "h2"],
+  h2: ["h2"],
   subhead: ["subhead", "textSubheadParent"],
   textSubheadParent: ["textSubheadParent"]
 };
@@ -359,7 +359,7 @@ export const PlasmicCardHeaderTitleDisplay = Object.assign(
     textDisplayParent: makeNodeComponent("textDisplayParent"),
     headlineSubheadGroupParent: makeNodeComponent("headlineSubheadGroupParent"),
     headline: makeNodeComponent("headline"),
-    box: makeNodeComponent("box"),
+    h2: makeNodeComponent("h2"),
     subhead: makeNodeComponent("subhead"),
     textSubheadParent: makeNodeComponent("textSubheadParent"),
     // Metadata about props expected for PlasmicCardHeaderTitleDisplay

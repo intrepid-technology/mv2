@@ -16,6 +16,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
@@ -24,18 +25,18 @@ import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/com
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import IconTextPrimary from "../../IconTextPrimary"; // plasmic-import: 2XsuG8W9wX/component
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
-import ToggleA from "../../ToggleA"; // plasmic-import: M6TX-0ESZQ/component
+import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicManageListing.module.css"; // plasmic-import: TlD7bS9Y1q/css
 import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
-import Icon179Icon from "./icons/PlasmicIcon__Icon179"; // plasmic-import: mbnWFLNOQl/icon
-import Icon180Icon from "./icons/PlasmicIcon__Icon180"; // plasmic-import: 2emi-eIAJb/icon
-import Icon138Icon from "./icons/PlasmicIcon__Icon138"; // plasmic-import: X0sjJkcBKE/icon
-import Icon178Icon from "./icons/PlasmicIcon__Icon178"; // plasmic-import: Ebjr5Ebml/icon
-import Icon181Icon from "./icons/PlasmicIcon__Icon181"; // plasmic-import: QS_bXX3Lhh/icon
+import EditIcon from "./icons/PlasmicIcon__Edit"; // plasmic-import: mbnWFLNOQl/icon
+import CircleTimeIcon from "./icons/PlasmicIcon__CircleTime"; // plasmic-import: 2emi-eIAJb/icon
+import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
+import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon
+import CircleStopIcon from "./icons/PlasmicIcon__CircleStop"; // plasmic-import: QS_bXX3Lhh/icon
 
 export const PlasmicManageListing__VariantProps = new Array();
 
@@ -74,6 +75,12 @@ function PlasmicManageListing__RenderFunc(props) {
             sty.root
           )}
         >
+          <NavbarInternal
+            data-plasmic-name={"navbarInternal"}
+            data-plasmic-override={overrides.navbarInternal}
+            className={classNames("__wab_instance", sty.navbarInternal)}
+          />
+
           <div className={classNames(defaultcss.all, sty.box__voE1P)}>
             <p.Stack
               as={"div"}
@@ -709,7 +716,7 @@ function PlasmicManageListing__RenderFunc(props) {
                               )}
                               size={"_14Px"}
                               svgIcon14Px={
-                                <Icon179Icon
+                                <EditIcon
                                   data-plasmic-name={"svgIcon2"}
                                   data-plasmic-override={overrides.svgIcon2}
                                   className={classNames(
@@ -785,7 +792,7 @@ function PlasmicManageListing__RenderFunc(props) {
                                     sty.iconPrimary__fykIg
                                   )}
                                   svgIcon={
-                                    <Icon180Icon
+                                    <CircleTimeIcon
                                       className={classNames(
                                         defaultcss.all,
                                         sty.svg__v3Zyi
@@ -910,10 +917,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box___9TtfH
                             )}
                           >
-                            <ToggleA
+                            <SwitchPrimary
                               className={classNames(
                                 "__wab_instance",
-                                sty.toggleA__imWVf
+                                sty.switchPrimary__imWVf
                               )}
                             />
                           </div>
@@ -1047,7 +1054,7 @@ function PlasmicManageListing__RenderFunc(props) {
                               )}
                               size={"_14Px"}
                               svgIcon14Px={
-                                <Icon179Icon
+                                <EditIcon
                                   data-plasmic-name={"svgIcon20"}
                                   data-plasmic-override={overrides.svgIcon20}
                                   className={classNames(
@@ -1100,7 +1107,7 @@ function PlasmicManageListing__RenderFunc(props) {
                               color={"brand"}
                               size={"_90"}
                               svgIcon={
-                                <Icon138Icon
+                                <BoostIcon
                                   className={classNames(
                                     defaultcss.all,
                                     sty.svg__p0KaX
@@ -1140,7 +1147,7 @@ function PlasmicManageListing__RenderFunc(props) {
                                     sty.iconPrimary__kYsB8
                                   )}
                                   svgIcon={
-                                    <Icon178Icon
+                                    <CircleCheckedIcon
                                       className={classNames(
                                         defaultcss.all,
                                         sty.svg__kh4Jt
@@ -1265,11 +1272,11 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__cnJCp
                             )}
                           >
-                            <ToggleA
+                            <SwitchPrimary
                               _switch={"_switch"}
                               className={classNames(
                                 "__wab_instance",
-                                sty.toggleA__mGej
+                                sty.switchPrimary__mGej
                               )}
                             />
                           </div>
@@ -1403,7 +1410,7 @@ function PlasmicManageListing__RenderFunc(props) {
                               )}
                               size={"_14Px"}
                               svgIcon14Px={
-                                <Icon179Icon
+                                <EditIcon
                                   data-plasmic-name={"svgIcon21"}
                                   data-plasmic-override={overrides.svgIcon21}
                                   className={classNames(
@@ -1479,7 +1486,7 @@ function PlasmicManageListing__RenderFunc(props) {
                                     sty.iconPrimary__qew0A
                                   )}
                                   svgIcon={
-                                    <Icon181Icon
+                                    <CircleStopIcon
                                       className={classNames(
                                         defaultcss.all,
                                         sty.svg__q6Lxi
@@ -1604,10 +1611,10 @@ function PlasmicManageListing__RenderFunc(props) {
                               sty.box__njgMg
                             )}
                           >
-                            <ToggleA
+                            <SwitchPrimary
                               className={classNames(
                                 "__wab_instance",
-                                sty.toggleA__f7AcU
+                                sty.switchPrimary__f7AcU
                               )}
                             />
                           </div>
@@ -1628,6 +1635,7 @@ function PlasmicManageListing__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "navbarInternal",
     "overlineHeadlineTitleParent",
     "overline",
     "tableInviteTeamHeadlineTitleParent",
@@ -1687,6 +1695,7 @@ const PlasmicDescendants = {
     "listingTermTableRow3"
   ],
 
+  navbarInternal: ["navbarInternal"],
   overlineHeadlineTitleParent: [
     "overlineHeadlineTitleParent",
     "overline",
@@ -2088,6 +2097,7 @@ export const PlasmicManageListing = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    navbarInternal: makeNodeComponent("navbarInternal"),
     overlineHeadlineTitleParent: makeNodeComponent(
       "overlineHeadlineTitleParent"
     ),

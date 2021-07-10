@@ -59,6 +59,78 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           variants,
           "isHighlighted",
           "isHighlighted"
+        ),
+
+        [sty.root__width__120]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_120"
+        ),
+
+        [sty.root__width__144]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_144"
+        ),
+
+        [sty.root__width__160]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_160"
+        ),
+
+        [sty.root__width__180]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_180"
+        ),
+
+        [sty.root__width__270]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_270"
+        ),
+
+        [sty.root__width__360]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_360"
+        ),
+
+        [sty.root__width__540]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_540"
+        ),
+
+        [sty.root__width__720]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_720"
+        ),
+
+        [sty.root__width__90]: hasVariant(
+          (superContexts.SelectDropdownPrimary &&
+            superContexts.SelectDropdownPrimary.variants) ||
+            {},
+          "width",
+          "_90"
         )
       })}
     >

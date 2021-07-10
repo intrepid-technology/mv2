@@ -136,7 +136,7 @@ function PlasmicSearch__RenderFunc(props) {
                     {"Select"}
                   </div>
                 }
-                size={"_160"}
+                width={"_160"}
               />
 
               <SelectDropdownPrimary
@@ -155,7 +155,7 @@ function PlasmicSearch__RenderFunc(props) {
                     {"Select"}
                   </div>
                 }
-                size={"_160"}
+                width={"_160"}
               />
 
               <SelectDropdownPrimary
@@ -174,7 +174,7 @@ function PlasmicSearch__RenderFunc(props) {
                     {"Select"}
                   </div>
                 }
-                size={"_160"}
+                width={"_160"}
               />
             </p.Stack>
 

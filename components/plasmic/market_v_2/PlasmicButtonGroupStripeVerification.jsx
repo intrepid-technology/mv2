@@ -42,7 +42,17 @@ function PlasmicButtonGroupStripeVerification__RenderFunc(props) {
         data-plasmic-name={"buttonStripeVerification"}
         data-plasmic-override={overrides.buttonStripeVerification}
         className={classNames("__wab_instance", sty.buttonStripeVerification)}
-        logo={"logo"}
+        text={
+          <div
+            className={classNames(
+              defaultcss.all,
+              defaultcss.__wab_text,
+              sty.box__bkQn0
+            )}
+          >
+            {"Get verified with"}
+          </div>
+        }
       />
 
       <p.Stack
@@ -58,12 +68,10 @@ function PlasmicButtonGroupStripeVerification__RenderFunc(props) {
           className={classNames(defaultcss.all, sty.descriptionParent)}
         >
           <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box
+              sty.box__qLzg6
             )}
           >
             {"Verify your account and activate more benefits"}
@@ -86,20 +94,12 @@ const PlasmicDescendants = {
     "buttonStripeVerification",
     "noteLinkParent",
     "descriptionParent",
-    "box",
     "chipStripeLink"
   ],
 
   buttonStripeVerification: ["buttonStripeVerification"],
-  noteLinkParent: [
-    "noteLinkParent",
-    "descriptionParent",
-    "box",
-    "chipStripeLink"
-  ],
-
-  descriptionParent: ["descriptionParent", "box"],
-  box: ["box"],
+  noteLinkParent: ["noteLinkParent", "descriptionParent", "chipStripeLink"],
+  descriptionParent: ["descriptionParent"],
   chipStripeLink: ["chipStripeLink"]
 };
 
@@ -138,7 +138,6 @@ export const PlasmicButtonGroupStripeVerification = Object.assign(
     buttonStripeVerification: makeNodeComponent("buttonStripeVerification"),
     noteLinkParent: makeNodeComponent("noteLinkParent"),
     descriptionParent: makeNodeComponent("descriptionParent"),
-    box: makeNodeComponent("box"),
     chipStripeLink: makeNodeComponent("chipStripeLink"),
     // Metadata about props expected for PlasmicButtonGroupStripeVerification
     internalVariantProps: PlasmicButtonGroupStripeVerification__VariantProps,

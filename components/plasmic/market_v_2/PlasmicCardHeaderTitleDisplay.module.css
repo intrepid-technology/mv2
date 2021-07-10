@@ -115,14 +115,14 @@
   width: 100%;
   min-width: 0;
 }
-.box {
+.h2 {
   display: flex;
   align-self: stretch;
   position: relative;
   width: 100%;
   min-width: 0;
 }
-.box__size__270 {
+.h2__size__270 {
   width: 100%;
   min-width: 0;
 }

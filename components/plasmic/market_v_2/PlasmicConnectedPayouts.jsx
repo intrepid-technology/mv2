@@ -22,8 +22,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicConnectedPayouts.module.css"; // plasmic-import: MWF4dfPCn0i/css
-import StripeLogoIcon from "./icons/PlasmicIcon__StripeLogo"; // plasmic-import: 5nOWCV9_g/icon
-import Icon97Icon from "./icons/PlasmicIcon__Icon97"; // plasmic-import: 6F_oWsQS7s/icon
 
 export const PlasmicConnectedPayouts__VariantProps = new Array(
   "closed",
@@ -80,7 +78,6 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
         <CardConnectedAccount
           data-plasmic-name={"connectedStripe"}
           data-plasmic-override={overrides.connectedStripe}
-          business={"business"}
           className={classNames("__wab_instance", sty.connectedStripe, {
             [sty.connectedStripe__closed]: hasVariant(
               variants,
@@ -100,15 +97,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               "stripe"
             )
           })}
-          connectedAccountName={
-            hasVariant(variants, "visible", "stripe") ? "Stripe" : "Stripe"
-          }
-          svgConnectedAccount={
-            <StripeLogoIcon
-              className={classNames(defaultcss.all, sty.svg__aOhP)}
-              role={"img"}
-            />
-          }
+          team={"team"}
           userFirstname={
             <div
               className={classNames(
@@ -143,7 +132,6 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
         <CardConnectedAccount
           data-plasmic-name={"connectedPaypal"}
           data-plasmic-override={overrides.connectedPaypal}
-          business={"business"}
           className={classNames("__wab_instance", sty.connectedPaypal, {
             [sty.connectedPaypal__closed]: hasVariant(
               variants,
@@ -163,15 +151,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               "stripe"
             )
           })}
-          connectedAccountName={
-            hasVariant(variants, "visible", "paypal") ? "Paypal" : "Paypal"
-          }
-          svgConnectedAccount={
-            <Icon97Icon
-              className={classNames(defaultcss.all, sty.svg__iNlVe)}
-              role={"img"}
-            />
-          }
+          team={"team"}
           userFirstname={
             <div
               className={classNames(

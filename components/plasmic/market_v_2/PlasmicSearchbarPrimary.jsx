@@ -65,7 +65,9 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
             hasVariant(variants, "height", "_36"),
           [sty.parent__width__360_height__40]:
             hasVariant(variants, "width", "_360") &&
-            hasVariant(variants, "height", "_40")
+            hasVariant(variants, "height", "_40"),
+          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <div
