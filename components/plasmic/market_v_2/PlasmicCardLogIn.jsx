@@ -27,7 +27,7 @@ import * as sty from "./PlasmicCardLogIn.module.css"; // plasmic-import: wTVVybn
 
 export const PlasmicCardLogIn__VariantProps = new Array("size");
 
-export const PlasmicCardLogIn__ArgProps = new Array("id");
+export const PlasmicCardLogIn__ArgProps = new Array("id", "placeholder");
 
 function PlasmicCardLogIn__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -103,9 +103,11 @@ function PlasmicCardLogIn__RenderFunc(props) {
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
           className={classNames(defaultcss.input, sty.password)}
+          placeholder={
+            args.placeholder !== undefined ? args.placeholder : "*****"
+          }
           size={1}
           type={"password"}
-          value={"password"}
         />
 
         <div
