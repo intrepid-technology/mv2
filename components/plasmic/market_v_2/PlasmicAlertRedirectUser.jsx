@@ -61,9 +61,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.box__hd4C)}
       >
         {(
-          hasVariant(globalVariants, "screen", "mobileAPrimary")
+          hasVariant(globalVariants, "screen", "mobile")
             ? true
-            : hasVariant(globalVariants, "screen", "desktopPrimary")
+            : hasVariant(globalVariants, "screen", "desktop")
             ? true
             : true
         ) ? (
@@ -83,11 +83,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
               role={"img"}
             />
 
-            {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
-                ? true
-                : false
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
               <div
                 className={classNames(
                   defaultcss.all,
@@ -133,9 +129,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             ) : null}
           </p.Stack>
         ) : null}
-        {(
-          hasVariant(globalVariants, "screen", "mobileAPrimary") ? false : true
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
           <div
             className={classNames(
               defaultcss.all,

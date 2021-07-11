@@ -22,12 +22,6 @@
     display: inline-flex;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    justify-content: center;
-    align-items: center;
-  }
-}
 .parent {
   display: flex;
   flex-direction: row;
@@ -99,29 +93,6 @@
     margin-top: 32px;
   }
 }
-@media (max-width: 375px) {
-  .parent {
-    padding-left: 6px;
-    padding-right: 6px;
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 375px) {
-  .parent > :global(.__wab_flex-container) {
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-  }
-}
-@media (max-width: 375px) {
-  .parent > :global(.__wab_flex-container) > *,
-  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-    margin-left: 0px;
-  }
-}
 .cardHeroMemberProfileDisplay:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -134,12 +105,6 @@
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
-  .cardHeroMemberProfileDisplay:global(.__wab_instance) {
-    left: auto;
-    top: auto;
-  }
-}
-@media (max-width: 375px) {
   .cardHeroMemberProfileDisplay:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -242,12 +207,6 @@
     > * {
     margin-left: 0px;
     margin-top: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .profileCommunityParent {
-    left: auto;
-    top: auto;
   }
 }
 .community {

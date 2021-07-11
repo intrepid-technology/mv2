@@ -42,32 +42,6 @@
     margin-top: 16px;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    display: flex;
-    flex-direction: column;
-    width: 360px;
-    padding: 8px 16px 16px;
-  }
-}
-@media (max-width: 375px) {
-  .root > :global(.__wab_flex-container) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 16px);
-    height: calc(100% + 16px);
-  }
-}
-@media (max-width: 375px) {
-  .root > :global(.__wab_flex-container) > *,
-  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-    margin-left: 0px;
-    margin-top: 16px;
-  }
-}
 .team {
   display: flex;
   position: relative;

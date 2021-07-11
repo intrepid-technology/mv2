@@ -108,7 +108,7 @@ function PlasmicInputEmailA__RenderFunc(props) {
               ? undefined
               : hasVariant(variants, "size", "_360")
               ? undefined
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "brand"
               : undefined
           }
@@ -120,7 +120,7 @@ function PlasmicInputEmailA__RenderFunc(props) {
               : "_120"
           }
         >
-          {hasVariant(globalVariants, "screen", "desktopPrimary")
+          {hasVariant(globalVariants, "screen", "desktop")
             ? "Apply to join"
             : "Enter"}
         </ButtonPrimary>

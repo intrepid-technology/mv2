@@ -99,7 +99,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
             data-plasmic-override={overrides.navbarTeamUserProfile}
             className={classNames("__wab_instance", sty.navbarTeamUserProfile)}
             selected={
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "desktop")
                 ? "about"
                 : undefined
             }
@@ -212,9 +212,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       sty.box__qBBbj
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    {hasVariant(globalVariants, "screen", "mobile")
                       ? "Subscribers"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Subscribers"
                       : "Members"}
                   </div>
@@ -246,7 +246,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       sty.box__logCa
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Connections"
                       : "Partners"}
                   </div>
@@ -544,9 +544,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     sty.details
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  {hasVariant(globalVariants, "screen", "mobile")
                     ? "Details"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "Details"
                     : "Information"}
                 </div>
@@ -607,7 +607,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         data-plasmic-name={"svgIcon3"}
                         data-plasmic-override={overrides.svgIcon3}
                         PlasmicIconType={
-                          hasVariant(globalVariants, "screen", "desktopPrimary")
+                          hasVariant(globalVariants, "screen", "desktop")
                             ? LocationIcon
                             : LocationBIcon
                         }
@@ -1134,11 +1134,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobileBSecondary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -1153,11 +1151,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
-                  ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <p.Stack
                   as={"div"}
@@ -1184,18 +1178,16 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.box__sb7Pn
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      {hasVariant(globalVariants, "screen", "mobile")
                         ? "Similar partners"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "Similar Partners"
                         : "Team"}
                     </div>
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? true
-                      : true
+                    hasVariant(globalVariants, "screen", "mobile") ? true : true
                   ) ? (
                     <p.Stack
                       as={"div"}
@@ -1208,13 +1200,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1226,13 +1214,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1244,13 +1228,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1262,13 +1242,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1280,13 +1256,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1304,11 +1276,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileBSecondary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -1323,11 +1293,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
-                  ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <p.Stack
                   as={"div"}
@@ -1354,18 +1320,16 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.box__niux4
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      {hasVariant(globalVariants, "screen", "mobile")
                         ? "Members also viewed"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "Members also viewed"
                         : "Team"}
                     </div>
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? true
-                      : true
+                    hasVariant(globalVariants, "screen", "mobile") ? true : true
                   ) ? (
                     <p.Stack
                       as={"div"}
@@ -1378,13 +1342,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1396,13 +1356,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1414,13 +1370,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1432,13 +1384,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1450,13 +1398,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "mobile")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (

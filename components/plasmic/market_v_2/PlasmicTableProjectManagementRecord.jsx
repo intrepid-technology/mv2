@@ -181,9 +181,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"progressParent"}
           data-plasmic-override={overrides.progressParent}
@@ -243,9 +241,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
@@ -276,9 +272,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"partnerAvatarParent"}
           data-plasmic-override={overrides.partnerAvatarParent}
@@ -292,9 +286,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"notificationsParent"}
           data-plasmic-override={overrides.notificationsParent}
@@ -314,9 +306,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           </button>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"deliveryDateParent"}
           data-plasmic-override={overrides.deliveryDateParent}
@@ -333,9 +323,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"reviewParent"}
           data-plasmic-override={overrides.reviewParent}
@@ -374,9 +362,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           </button>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"approvedParent"}
           data-plasmic-override={overrides.approvedParent}
@@ -388,9 +374,7 @@ function PlasmicTableProjectManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"cancelParent"}
           data-plasmic-override={overrides.cancelParent}

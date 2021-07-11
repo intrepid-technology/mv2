@@ -31,12 +31,6 @@
     align-content: unset;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    width: auto;
-    display: inline-flex;
-  }
-}
 .root__size__160 {
   width: 160px;
 }
@@ -180,16 +174,6 @@
   .root .textbox:focus {
     outline: none;
     border: 2px solid #6633ff /* plasmic-token: brleuPgaD */;
-  }
-}
-@media (max-width: 375px) {
-  .root .textbox:focus {
-    outline: none;
-  }
-}
-@media (max-width: 375px) {
-  .root .textbox:hover {
-    border-color: #cccccc /* plasmic-token: oEMOojyFv */;
   }
 }
 .root__size__270 .textbox__size__270:hover {

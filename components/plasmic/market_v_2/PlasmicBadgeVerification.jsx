@@ -42,9 +42,7 @@ function PlasmicBadgeVerification__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"parent"}
@@ -52,9 +50,7 @@ function PlasmicBadgeVerification__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.parent)}
         >
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <Icon129Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
@@ -62,9 +58,7 @@ function PlasmicBadgeVerification__RenderFunc(props) {
               role={"img"}
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"box"}
               data-plasmic-override={overrides.box}

@@ -58,9 +58,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             sty.box__ggIb6
           )}
         >
-          {hasVariant(globalVariants, "screen", "desktopPrimary")
-            ? "Team"
-            : "Teams"}
+          {hasVariant(globalVariants, "screen", "desktop") ? "Team" : "Teams"}
         </div>
       </div>
 

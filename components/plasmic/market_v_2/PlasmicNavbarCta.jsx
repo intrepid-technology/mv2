@@ -75,14 +75,10 @@ function PlasmicNavbarCta__RenderFunc(props) {
           />
         </div>
 
-        {(
-          hasVariant(globalVariants, "screen", "mobileAPrimary") ? false : false
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "mobile") ? false : false) ? (
           <div className={classNames(defaultcss.all, sty.column__g2M7Q)}>
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
-                ? false
-                : false
+              hasVariant(globalVariants, "screen", "mobile") ? false : false
             ) ? (
               <p.Stack
                 as={"div"}
@@ -267,23 +263,23 @@ function PlasmicNavbarCta__RenderFunc(props) {
             })}
             color={
               hasVariant(variants, "persona", "member") &&
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "mobile")
                 ? "brand"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                 ? "brand"
                 : hasVariant(variants, "color", "color")
                 ? "brand"
-                : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                : hasVariant(globalVariants, "screen", "mobile")
                 ? "brand"
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "brand"
                 : "brand"
             }
             size={
               hasVariant(variants, "color", "color")
                 ? "_140"
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "_140"
                 : undefined
             }
@@ -326,13 +322,13 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 : hasVariant(variants, "persona", "member")
                 ? "Request"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                 ? "Apply"
                 : hasVariant(variants, "persona", "partner")
                 ? "Apply"
-                : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                : hasVariant(globalVariants, "screen", "mobile")
                 ? "Request"
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "Request access"
                 : "Request access"}
             </div>

@@ -119,7 +119,7 @@ function PlasmicCardCta__RenderFunc(props) {
         color={"brand"}
         size={"_140"}
       >
-        {hasVariant(globalVariants, "screen", "desktopPrimary")
+        {hasVariant(globalVariants, "screen", "desktop")
           ? "Apply to partner"
           : "Start free trial"}
       </ButtonPrimary>

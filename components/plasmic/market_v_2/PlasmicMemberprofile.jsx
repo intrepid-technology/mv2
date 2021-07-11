@@ -77,9 +77,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -88,16 +88,16 @@ function PlasmicMemberprofile__RenderFunc(props) {
               data-plasmic-override={overrides.navbarInternal}
               className={classNames("__wab_instance", sty.navbarInternal)}
               user={
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? "member"
                   : undefined
               }
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -111,9 +111,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -126,9 +126,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
               )}
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"sectionAboutDetails"}
@@ -137,9 +135,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
               className={classNames(defaultcss.all, sty.sectionAboutDetails)}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -153,9 +151,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -211,9 +209,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
             )}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "mobile")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : false
             ) ? (
@@ -227,9 +225,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
               />
             ) : null}
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "mobile")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : false
             ) ? (
@@ -245,9 +243,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -264,9 +262,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -276,9 +274,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell___8FDrq
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? "Similar members"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Similar members"
                       : "Headline label"
                   }
@@ -287,9 +285,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -306,9 +304,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -318,9 +316,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__v7Zdc
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? "People also viewed"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "People also viewed"
                       : "Headline label"
                   }
@@ -329,9 +327,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (

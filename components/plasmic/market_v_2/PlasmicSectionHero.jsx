@@ -82,7 +82,7 @@ function PlasmicSectionHero__RenderFunc(props) {
               ? undefined
               : hasVariant(variants, "persona", "member")
               ? undefined
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? undefined
               : undefined
           }
@@ -90,29 +90,29 @@ function PlasmicSectionHero__RenderFunc(props) {
             hasVariant(variants, "persona", "partner")
               ? "partner"
               : hasVariant(variants, "persona", "member") &&
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
               ? "member"
               : hasVariant(variants, "persona", "member")
               ? "member"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "partner"
               : "partner"
           }
           size={
             hasVariant(variants, "persona", "partner") &&
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_270"
               : hasVariant(variants, "persona", "partner")
               ? "_720"
               : hasVariant(variants, "persona", "member") &&
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
               ? "_360"
               : hasVariant(variants, "persona", "member") &&
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
               ? "_720"
               : hasVariant(variants, "persona", "member")
               ? "_720"
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
+              : hasVariant(globalVariants, "screen", "mobile")
               ? "_360"
               : "_720"
           }
@@ -121,9 +121,9 @@ function PlasmicSectionHero__RenderFunc(props) {
             ? "Reach a global audience selling your unique professional design and technology services to entrepreneurs and startups around the world"
             : hasVariant(variants, "persona", "member")
             ? "Find all the technology products and services you need to startup, launch, and grow your business."
-            : hasVariant(globalVariants, "screen", "mobileAPrimary")
+            : hasVariant(globalVariants, "screen", "mobile")
             ? "Reach a global audience selling your unique design and technology services to entrepreneurs and startups around the world"
-            : hasVariant(globalVariants, "screen", "desktopPrimary")
+            : hasVariant(globalVariants, "screen", "desktop")
             ? "Find creative agencies helping entrepreneurs and startups succeed with product development, technology, and growth."
             : "The marketplace-community for international design and development agencies to sell professional design and technology services globally."}
         </HeroWelcomeCta>

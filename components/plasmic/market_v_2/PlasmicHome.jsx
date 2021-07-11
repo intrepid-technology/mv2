@@ -56,14 +56,14 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <title key="title">
           {
-            "The marketplace community built for global entrepreneurs & remote companies | Intrepid Market"
+            "The community for digital nomads, global entrepreneurs & remote companies | Intrepid"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "The marketplace community built for global entrepreneurs & remote companies | Intrepid Market"
+            "The community for digital nomads, global entrepreneurs & remote companies | Intrepid"
           }
         />
 
@@ -136,9 +136,9 @@ function PlasmicHome__RenderFunc(props) {
                   sty.headlineText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                {hasVariant(globalVariants, "screen", "mobile")
                   ? "A better way to work and grow your business."
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "A better way to work and grow your business."
                   : "Join a marketplace community built for entrepreneurs and the modern way to work."}
               </div>
@@ -152,9 +152,9 @@ function PlasmicHome__RenderFunc(props) {
                   sty.subheadText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                {hasVariant(globalVariants, "screen", "mobile")
                   ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare creative talent, get the financial services you need to live and work the way you want."
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare talent, get the financial services you need to live and work the way you want."
                   : "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with talented designers and developers, get the financial services you need to live and work the way you want."}
               </div>
@@ -172,7 +172,13 @@ function PlasmicHome__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardFeatureDescription__evGi
                   )}
-                  headline={"Financial services for entrepreneurs"}
+                  headline={
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? "Financial services for digital nomads"
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Financial services for digital nomads"
+                      : "Financial services for entrepreneurs"
+                  }
                   iconParent={
                     <div
                       data-plasmic-name={"iconBg2"}
@@ -186,7 +192,7 @@ function PlasmicHome__RenderFunc(props) {
                     </div>
                   }
                   size={
-                    hasVariant(globalVariants, "screen", "desktopPrimary")
+                    hasVariant(globalVariants, "screen", "desktop")
                       ? "_360"
                       : undefined
                   }
@@ -387,9 +393,9 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_360"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
                     : "_540"
                 }
@@ -412,9 +418,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__m55Ho
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    {hasVariant(globalVariants, "screen", "mobile")
                       ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
                       : "A global community of professional technology creatives ready to help you grow and succeed."}
                   </div>
@@ -600,7 +606,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__iWQf
                     )}
                   >
-                    {"A world of services for dynamic teams"}
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "A world of services for remote teams"
+                      : "A world of services for dynamic teams"}
                   </div>
 
                   <div
@@ -617,9 +625,9 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? true
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? true
                     : false
                 ) ? (
@@ -629,23 +637,23 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__dP6E
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "brand"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "/member/pricing"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_48"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
                         : undefined
                     }
@@ -657,30 +665,24 @@ function PlasmicHome__RenderFunc(props) {
                           sty.box__hYew
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        {hasVariant(globalVariants, "screen", "mobile")
                           ? "Join today"
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? "Join today"
                           : "Hyper Link"}
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "fill"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobileBSecondary")
-                        ? "_270"
-                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_360"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
                         : undefined
                     }
@@ -712,7 +714,7 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_360"
                     : "_540"
                 }
@@ -915,7 +917,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__bf3Y2
                     )}
                   >
-                    {"Destination meetups for remote teams"}
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Destination meetups for remote companies"
+                      : "Destination meetups for remote teams"}
                   </div>
 
                   <div
@@ -932,9 +936,9 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? true
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? true
                     : false
                 ) ? (
@@ -944,23 +948,23 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__cuxXx
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "brand"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "/member/pricing"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_48"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
                         : undefined
                     }
@@ -972,30 +976,24 @@ function PlasmicHome__RenderFunc(props) {
                           sty.box__zKpa
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        {hasVariant(globalVariants, "screen", "mobile")
                           ? "Get inspired"
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? "Get inspired"
                           : "Hyper Link"}
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "fill"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobileBSecondary")
-                        ? "_270"
-                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_360"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
                         : undefined
                     }
@@ -1027,9 +1025,9 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_360"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
                     : "_540"
                 }
@@ -1251,9 +1249,9 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? true
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? true
                     : false
                 ) ? (
@@ -1263,23 +1261,23 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__hzn2V
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "brand"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "/partner/pricing"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "/partner/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_48"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
                         : undefined
                     }
@@ -1291,30 +1289,24 @@ function PlasmicHome__RenderFunc(props) {
                           sty.box___4HpwD
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        {hasVariant(globalVariants, "screen", "mobile")
                           ? "Learn more"
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? "Learn more"
                           : "Hyper Link"}
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "fill"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobileBSecondary")
-                        ? "_270"
-                        : hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? "_360"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
                         : undefined
                     }

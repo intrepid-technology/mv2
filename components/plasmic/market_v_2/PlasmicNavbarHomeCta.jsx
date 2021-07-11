@@ -53,18 +53,16 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={
-          hasVariant(globalVariants, "screen", "mobileAPrimary")
+          hasVariant(globalVariants, "screen", "mobile")
             ? "/"
-            : hasVariant(globalVariants, "screen", "desktopPrimary")
+            : hasVariant(globalVariants, "screen", "desktop")
             ? "/"
             : "/"
         }
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
 
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <p.Stack
           as={"div"}
           hasGap={true}
@@ -77,11 +75,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           })}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileBSecondary")
-              ? true
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? false
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -103,7 +99,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                 hasVariant(variants, "color", "dark") ? "light" : undefined
               }
               destination={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "/member/pricing"
                   : "/member/pricing"
               }
@@ -123,38 +119,32 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                     }
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "desktop")
                     ? "Become a member"
                     : "Become a member"}
                 </div>
               }
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <ButtonLinkPrimary
               data-plasmic-name={"buttonLinkPrimary"}
               data-plasmic-override={overrides.buttonLinkPrimary}
               className={classNames("__wab_instance", sty.buttonLinkPrimary)}
               color={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "brand"
                   : "brand"
               }
               destination={
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? "/partner/pricing"
-                  : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "/partner/pricing"
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "/partner/pricing"
                   : "/partner/pricing"
               }
               height={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "_36"
-                  : "_36"
+                hasVariant(globalVariants, "screen", "desktop") ? "_36" : "_36"
               }
               text={
                 <div
@@ -164,22 +154,20 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                     sty.box__nAyJs
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "desktop")
                     ? "Partner"
                     : "Partner"}
                 </div>
               }
               type={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "fill"
                   : "fill"
               }
               width={
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? "_90"
-                  : hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "_90"
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "_140"
                   : "_140"
               }

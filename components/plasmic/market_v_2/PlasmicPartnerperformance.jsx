@@ -512,7 +512,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 headlineLabelTitle={"Date"}
                 label={"label"}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_180X32"
                     : "_180X32"
                 }

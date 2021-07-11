@@ -35,9 +35,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
     screen: useScreenVariants()
   });
 
-  return (
-    hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-  ) ? (
+  return (hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
@@ -45,9 +43,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"parent"}
@@ -55,15 +51,13 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.parent)}
         >
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <IconPrimary
               data-plasmic-name={"locationPin"}
               data-plasmic-override={overrides.locationPin}
               className={classNames("__wab_instance", sty.locationPin)}
               size={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "_16Px"
                   : "_16Px"
               }
@@ -80,7 +74,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                   data-plasmic-name={"svgIcon3"}
                   data-plasmic-override={overrides.svgIcon3}
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "desktopPrimary")
+                    hasVariant(globalVariants, "screen", "desktop")
                       ? LocationIcon
                       : LocationIcon
                   }

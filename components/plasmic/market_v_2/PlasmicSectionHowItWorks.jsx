@@ -110,7 +110,7 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
             />
           }
           textBody={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "Shop digital products and services from a curated group of makers."
               : "shop digital products and services from a curated group of makers."
           }

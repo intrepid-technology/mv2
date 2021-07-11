@@ -98,7 +98,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 data-plasmic-name={"cardHeaderTitleDisplay"}
                 data-plasmic-override={overrides.cardHeaderTitleDisplay}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_360"
                     : "_360"
                 }
@@ -115,7 +115,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 }
                 textDisplay={"Partner"}
                 textSubhead={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "Finish your listing — build your rep and start earning. You can always edit your listing after you publish."
                     : "Finish your listing — build your rep and start earning.\nYou can always edit your listing after you publish."
                 }

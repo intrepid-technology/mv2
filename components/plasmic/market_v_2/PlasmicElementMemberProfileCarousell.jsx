@@ -44,9 +44,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"parent"}
@@ -55,9 +53,9 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
           className={classNames(defaultcss.all, sty.parent)}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -67,9 +65,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
               className={classNames(defaultcss.all, sty.headlineLabelParent)}
             >
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <div className={classNames(defaultcss.all, sty.box___4RlGc)}>
                   <div className={classNames(defaultcss.all, sty.box__vtm)}>
@@ -84,9 +80,9 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
             </div>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -98,9 +94,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
               className={classNames(defaultcss.all, sty.memberCarousel)}
             >
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(
@@ -110,9 +104,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(
@@ -122,9 +114,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(
@@ -134,9 +124,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(
@@ -146,9 +134,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(
@@ -158,9 +144,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <ChipUserProfile
                   className={classNames(

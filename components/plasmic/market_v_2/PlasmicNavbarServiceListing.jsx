@@ -73,7 +73,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         />
       </LogoHeader>
 
-      {(hasVariant(globalVariants, "screen", "mobileAPrimary") ? false : true)
+      {(hasVariant(globalVariants, "screen", "mobile") ? false : true)
         ? p.renderPlasmicSlot({
             defaultContents: "Section Title",
             value: args.children,

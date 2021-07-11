@@ -122,9 +122,7 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
           />
         </p.Stack>
 
-        {(
-          hasVariant(globalVariants, "screen", "desktopPrimary") ? true : false
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
           <div
             data-plasmic-name={"locationHeadlineParent"}
             data-plasmic-override={overrides.locationHeadlineParent}
@@ -158,7 +156,7 @@ function PlasmicCardHeroPartnerProfileDisplay__RenderFunc(props) {
             sty.box___5Tvli
           )}
         >
-          {hasVariant(globalVariants, "screen", "desktopPrimary")
+          {hasVariant(globalVariants, "screen", "desktop")
             ? "Company Short description 80 characters."
             : "Company tag-line short description 80 characters"}
         </div>

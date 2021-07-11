@@ -164,11 +164,7 @@ function PlasmicFooter__RenderFunc(props) {
             />
           </p.Stack>
 
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? false
-              : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"social"}
@@ -278,11 +274,7 @@ function PlasmicFooter__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.box__qeJzd)}
         >
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : false
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"social2"}
@@ -296,7 +288,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__jWbXb
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "dark"
                     : undefined
                 }
@@ -308,14 +300,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__igDkw
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? Icon9Icon
                       : Icon8Icon
                   }
@@ -330,14 +322,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__ioyHh
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? Icon10Icon
                       : Icon8Icon
                   }
@@ -352,14 +344,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__upmJo
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? Icon12Icon
                       : Icon8Icon
                   }
@@ -374,14 +366,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__thIZx
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? Icon11Icon
                       : Icon8Icon
                   }

@@ -78,8 +78,10 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(defaultcss.input, sty.email)}
           placeholder={"Enter your email"}
           size={1}
-          type={"text"}
-          value={""}
+          type={
+            hasVariant(globalVariants, "screen", "desktop") ? "text" : "text"
+          }
+          value={hasVariant(globalVariants, "screen", "desktop") ? "" : ""}
         />
       </p.Stack>
 
@@ -197,27 +199,21 @@ function PlasmicCardSignUp__RenderFunc(props) {
         {"Already have an account?"}
       </div>
 
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <ButtonLinkPrimary
           data-plasmic-name={"buttonLinkPrimary"}
           data-plasmic-override={overrides.buttonLinkPrimary}
           className={classNames("__wab_instance", sty.buttonLinkPrimary)}
           color={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? "light"
-              : "light"
+            hasVariant(globalVariants, "screen", "desktop") ? "light" : "light"
           }
           destination={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "/log-in"
               : "/log-in"
           }
           height={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? "_48"
-              : "_48"
+            hasVariant(globalVariants, "screen", "desktop") ? "_48" : "_48"
           }
           text={
             <div
@@ -227,20 +223,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
                 sty.box__tVj8G
               )}
             >
-              {hasVariant(globalVariants, "screen", "desktopPrimary")
+              {hasVariant(globalVariants, "screen", "desktop")
                 ? "Login"
                 : "Login"}
             </div>
           }
           type={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "outline"
               : "outline"
           }
           width={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? "_360"
-              : "_360"
+            hasVariant(globalVariants, "screen", "desktop") ? "_360" : "_360"
           }
         />
       ) : null}

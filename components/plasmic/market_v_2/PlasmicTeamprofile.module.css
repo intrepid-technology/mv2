@@ -65,11 +65,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .teamAboutInfoSection {
-    padding: 16px 6px;
-  }
-}
 .profileAboutParent {
   display: flex;
   position: relative;
@@ -1119,37 +1114,6 @@
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
-  .teamTeamCommunitySection > :global(.__wab_flex-container) > *,
-  .teamTeamCommunitySection
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
-@media (max-width: 375px) {
-  .teamTeamCommunitySection {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    min-width: 0;
-    padding: 16px 6px 0px;
-  }
-}
-@media (max-width: 375px) {
-  .teamTeamCommunitySection > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
   .teamTeamCommunitySection > :global(.__wab_flex-container) > *,
   .teamTeamCommunitySection
     > :global(.__wab_flex-container)
@@ -3161,37 +3125,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .teamIndustrySocialSection {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    min-width: 0;
-    padding: 16px 6px;
-  }
-}
-@media (max-width: 375px) {
-  .teamIndustrySocialSection > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
-  .teamIndustrySocialSection > :global(.__wab_flex-container) > *,
-  .teamIndustrySocialSection
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
 .companyAttributesParent {
   display: inline-flex;
   position: relative;
@@ -3835,41 +3768,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .sectionPartnerSimilarPartners {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    display: flex;
-    position: relative;
-    left: auto;
-    top: auto;
-    min-width: 0;
-    padding: 8px 6px 16px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionPartnerSimilarPartners > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
-  .sectionPartnerSimilarPartners > :global(.__wab_flex-container) > *,
-  .sectionPartnerSimilarPartners
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
 .profileTeamCarousellParentB {
   display: flex;
   position: relative;
@@ -3918,39 +3816,6 @@
   }
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
-  .profileTeamCarousellParentB > :global(.__wab_flex-container) > *,
-  .profileTeamCarousellParentB
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .profileTeamCarousellParentB {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    left: auto;
-    top: auto;
-    width: 360px;
-    flex-shrink: 0;
-    padding: 8px 16px 16px;
-  }
-}
-@media (max-width: 375px) {
-  .profileTeamCarousellParentB > :global(.__wab_flex-container) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 16px);
-    height: calc(100% + 16px);
-  }
-}
-@media (max-width: 375px) {
   .profileTeamCarousellParentB > :global(.__wab_flex-container) > *,
   .profileTeamCarousellParentB
     > :global(.__wab_flex-container)
@@ -4207,41 +4072,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .sectionPartnerAlsoViewed {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    display: flex;
-    position: relative;
-    left: auto;
-    top: auto;
-    min-width: 0;
-    padding: 8px 6px 64px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionPartnerAlsoViewed > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
-  .sectionPartnerAlsoViewed > :global(.__wab_flex-container) > *,
-  .sectionPartnerAlsoViewed
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
 .profileTeamCarousellParentA {
   display: flex;
   position: relative;
@@ -4290,39 +4120,6 @@
   }
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
-  .profileTeamCarousellParentA > :global(.__wab_flex-container) > *,
-  .profileTeamCarousellParentA
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .profileTeamCarousellParentA {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    left: auto;
-    top: auto;
-    width: 360px;
-    flex-shrink: 0;
-    padding: 8px 16px 16px;
-  }
-}
-@media (max-width: 375px) {
-  .profileTeamCarousellParentA > :global(.__wab_flex-container) {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 16px);
-    height: calc(100% + 16px);
-  }
-}
-@media (max-width: 375px) {
   .profileTeamCarousellParentA > :global(.__wab_flex-container) > *,
   .profileTeamCarousellParentA
     > :global(.__wab_flex-container)

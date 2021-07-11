@@ -34,9 +34,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
     screen: useScreenVariants()
   });
 
-  return (
-    hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-  ) ? (
+  return (hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
@@ -44,9 +42,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"parent"}
@@ -63,9 +59,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
             )}
           />
 
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"profileCommunityParent"}
@@ -122,7 +116,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.box__lhNgd
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Subscriptions"
                       : "Subscription"}
                   </div>
@@ -157,7 +151,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.box___3QQmy
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Connections"
                       : "Followers"}
                   </div>
@@ -189,7 +183,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.box__qKdWg
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Followers"
                       : "Teams"}
                   </div>
@@ -221,7 +215,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.box__zSr5B
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Reviews"
                       : "Reviews"}
                   </div>

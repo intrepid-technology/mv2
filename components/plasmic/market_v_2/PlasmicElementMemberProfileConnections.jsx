@@ -64,7 +64,7 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               sty.connectionsHeadlineText
             )}
           >
-            {hasVariant(globalVariants, "screen", "desktopPrimary")
+            {hasVariant(globalVariants, "screen", "desktop")
               ? "Connections"
               : "Connections"}
           </div>

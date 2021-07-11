@@ -36,9 +36,9 @@ function PlasmicNavbarStatic__RenderFunc(props) {
   });
 
   return (
-    hasVariant(globalVariants, "screen", "mobileAPrimary")
+    hasVariant(globalVariants, "screen", "mobile")
       ? true
-      : hasVariant(globalVariants, "screen", "desktopPrimary")
+      : hasVariant(globalVariants, "screen", "desktop")
       ? true
       : false
   ) ? (
@@ -52,17 +52,17 @@ function PlasmicNavbarStatic__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary")
+        hasVariant(globalVariants, "screen", "mobile")
           ? true
-          : hasVariant(globalVariants, "screen", "desktopPrimary")
+          : hasVariant(globalVariants, "screen", "desktop")
           ? true
           : false
       ) ? (
         <div className={classNames(defaultcss.all, sty.box__gq5Ri)}>
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -76,9 +76,9 @@ function PlasmicNavbarStatic__RenderFunc(props) {
         </div>
       ) : null}
       {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary")
+        hasVariant(globalVariants, "screen", "mobile")
           ? true
-          : hasVariant(globalVariants, "screen", "desktopPrimary")
+          : hasVariant(globalVariants, "screen", "desktop")
           ? true
           : false
       ) ? (

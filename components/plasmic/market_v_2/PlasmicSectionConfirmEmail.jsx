@@ -74,9 +74,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           />
         </p.PlasmicLink>
 
-        {(
-          hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
           <div
             data-plasmic-name={"textHeadline"}
             data-plasmic-override={overrides.textHeadline}
@@ -153,9 +151,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           role={"img"}
         />
 
-        {(
-          hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
           <p.Stack
             as={"div"}
             data-plasmic-name={"buttonResendHeadlineParent"}
@@ -180,22 +176,18 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
               })}
             </p.Stack>
 
-            {(
-              hasVariant(globalVariants, "screen", "desktopPrimary")
-                ? true
-                : true
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
               <ButtonPrimary
                 data-plasmic-name={"confirmationResend"}
                 data-plasmic-override={overrides.confirmationResend}
                 className={classNames("__wab_instance", sty.confirmationResend)}
                 size={
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
+                  hasVariant(globalVariants, "screen", "desktop")
                     ? "_360"
                     : "_360"
                 }
                 type={
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
+                  hasVariant(globalVariants, "screen", "desktop")
                     ? "primary"
                     : "primary"
                 }
@@ -207,7 +199,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                     sty.box__iYy4D
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "desktop")
                     ? "Re-send confirmation email"
                     : "Re-send confirmation email"}
                 </div>
@@ -215,18 +207,16 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             ) : null}
           </p.Stack>
         ) : null}
-        {(
-          hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-        ) ? (
+        {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
           <div
             data-plasmic-name={"buttonGoBackParent"}
             data-plasmic-override={overrides.buttonGoBackParent}
             className={classNames(defaultcss.all, sty.buttonGoBackParent)}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "mobile")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : false
             ) ? (
@@ -235,21 +225,21 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 data-plasmic-override={overrides.buttonLinkPrimary}
                 className={classNames("__wab_instance", sty.buttonLinkPrimary)}
                 color={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "light"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "light"
                     : undefined
                 }
                 destination={
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
+                  hasVariant(globalVariants, "screen", "desktop")
                     ? "/log-in"
                     : undefined
                 }
                 height={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_48"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "_48"
                     : undefined
                 }
@@ -261,24 +251,24 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                       sty.box__yK0Zp
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    {hasVariant(globalVariants, "screen", "mobile")
                       ? "Go back"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Go back"
                       : "Hyper Link"}
                   </div>
                 }
                 type={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "outline"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "outline"
                     : undefined
                 }
                 width={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "mobile")
                     ? "_360"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "_360"
                     : undefined
                 }

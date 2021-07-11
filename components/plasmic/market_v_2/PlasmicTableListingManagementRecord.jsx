@@ -237,9 +237,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"statusParent"}
           data-plasmic-override={overrides.statusParent}
@@ -297,9 +295,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"toDoParent"}
           data-plasmic-override={overrides.toDoParent}
@@ -385,9 +381,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           ) : null}
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"modifiedDateTimeParent"}
           data-plasmic-override={overrides.modifiedDateTimeParent}
@@ -404,9 +398,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"categoryParent"}
           data-plasmic-override={overrides.categoryParent}
@@ -431,9 +423,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
@@ -472,9 +462,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"termParent"}
           data-plasmic-override={overrides.termParent}
@@ -534,9 +522,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"expirationDateTimeParent"}
           data-plasmic-override={overrides.expirationDateTimeParent}
@@ -553,9 +539,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"autoRenewParent"}
           data-plasmic-override={overrides.autoRenewParent}
@@ -574,9 +558,7 @@ function PlasmicTableListingManagementRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div className={classNames(defaultcss.all, sty.box__lBwk)}>
           <ButtonCircleDelete
             data-plasmic-name={"archiveListing"}

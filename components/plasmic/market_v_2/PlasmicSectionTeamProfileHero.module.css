@@ -33,12 +33,6 @@
     margin-top: 16px;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-}
 .cardHeroPartnerProfileDisplay:global(.__wab_instance) {
   position: relative;
   top: auto;

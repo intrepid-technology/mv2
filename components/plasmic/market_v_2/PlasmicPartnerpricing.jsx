@@ -1176,7 +1176,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.box__z1I9A)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? DesignIcon
                         : DesignIcon
                     }
@@ -1200,7 +1200,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.box__suBeb)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      hasVariant(globalVariants, "screen", "mobile")
                         ? GlobeAmericaIcon
                         : GlobeAmericaIcon
                     }

@@ -565,7 +565,7 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
               ? "Request access"
               : hasVariant(variants, "persona", "member")
               ? "Apply to join"
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
+              : hasVariant(globalVariants, "screen", "mobile")
               ? "Apply to partner"
               : "Apply to partner"}
           </div>
@@ -606,9 +606,7 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
             [sty.inputEmailB__size__270]: hasVariant(variants, "size", "_270")
           })}
           size={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? "_270"
-              : "_360"
+            hasVariant(globalVariants, "screen", "desktop") ? "_270" : "_360"
           }
         >
           <div

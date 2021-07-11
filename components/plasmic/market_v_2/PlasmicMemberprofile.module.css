@@ -21,11 +21,6 @@
     justify-content: flex-start;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    justify-content: flex-start;
-  }
-}
 .navbarInternal:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -150,30 +145,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .sectionAboutDetails {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media (max-width: 375px) {
-  .sectionAboutDetails > :global(.__wab_flex-container) {
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-  }
-}
-@media (max-width: 375px) {
-  .sectionAboutDetails > :global(.__wab_flex-container) > *,
-  .sectionAboutDetails
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-  }
-}
 .elementProfileAbout:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
@@ -292,41 +263,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .memberTeamConnectionsSection {
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    display: flex;
-    position: relative;
-    left: auto;
-    top: auto;
-    min-width: 0;
-    padding: 8px 6px 24px;
-  }
-}
-@media (max-width: 375px) {
-  .memberTeamConnectionsSection > :global(.__wab_flex-container) {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
-  .memberTeamConnectionsSection > :global(.__wab_flex-container) > *,
-  .memberTeamConnectionsSection
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
 .elementProfileTeamMembership:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -341,26 +277,12 @@
     flex-shrink: 0;
   }
 }
-@media (max-width: 375px) {
-  .elementProfileTeamMembership:global(.__wab_instance) {
-    position: relative;
-    top: auto;
-    left: auto;
-  }
-}
 .elementMemberProfileConnections:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
 @media (min-width: 1152px) and (max-width: 1440px) {
-  .elementMemberProfileConnections:global(.__wab_instance) {
-    position: relative;
-    top: auto;
-    left: auto;
-  }
-}
-@media (max-width: 375px) {
   .elementMemberProfileConnections:global(.__wab_instance) {
     position: relative;
     top: auto;
@@ -539,38 +461,6 @@
     margin-top: 24px;
   }
 }
-@media (max-width: 375px) {
-  .sectionProfileMemberSimilarMembers {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    min-width: 0;
-    padding: 16px 24px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionProfileMemberSimilarMembers > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
-  .sectionProfileMemberSimilarMembers > :global(.__wab_flex-container) > *,
-  .sectionProfileMemberSimilarMembers
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
 .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
   position: relative;
 }
@@ -640,38 +530,6 @@
   }
 }
 @media (min-width: 374px) and (max-width: 414px) {
-  .sectionProfileMemberPeopleAlsoViewed > :global(.__wab_flex-container) > *,
-  .sectionProfileMemberPeopleAlsoViewed
-    > :global(.__wab_flex-container)
-    > :global(.__wab_slot)
-    > * {
-    margin-left: 0px;
-    margin-top: 24px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionProfileMemberPeopleAlsoViewed {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    min-width: 0;
-    padding: 16px 24px 48px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionProfileMemberPeopleAlsoViewed > :global(.__wab_flex-container) {
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    margin-left: calc(0px - 0px);
-    width: calc(100% + 0px);
-    margin-top: calc(0px - 24px);
-    height: calc(100% + 24px);
-  }
-}
-@media (max-width: 375px) {
   .sectionProfileMemberPeopleAlsoViewed > :global(.__wab_flex-container) > *,
   .sectionProfileMemberPeopleAlsoViewed
     > :global(.__wab_flex-container)

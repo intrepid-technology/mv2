@@ -125,9 +125,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         ) : null}
       </div>
 
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? false : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
         <div className={classNames(defaultcss.all, sty.column__z7N9)}>
           <p.Stack
             as={"div"}
@@ -140,11 +138,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               )
             })}
           >
-            {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
-                ? false
-                : true
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
               <NavLink
                 className={classNames("__wab_instance", sty.navLink__ook4Q, {
                   [sty.navLink__color__ook4QBxq9H]: hasVariant(
@@ -194,11 +188,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
 
-            {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
-                ? false
-                : true
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
               <NavLink
                 className={classNames("__wab_instance", sty.navLink__evGaK, {
                   [sty.navLink__color__evGaKBxq9H]: hasVariant(
@@ -259,11 +249,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             [sty.box__color__oGXjgBxq9H]: hasVariant(variants, "color", "color")
           })}
         >
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? false
-              : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
             <NavLink
               className={classNames("__wab_instance", sty.navLink__d4A3C, {
                 [sty.navLink__color__d4A3CBxq9H]: hasVariant(
@@ -296,11 +282,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? false
-              : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
             <NavbarSave
               data-plasmic-name={"navbarSave"}
               data-plasmic-override={overrides.navbarSave}
@@ -312,11 +294,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? false
-              : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
             <NavbarBrief
               data-plasmic-name={"navbarBrief"}
               data-plasmic-override={overrides.navbarBrief}

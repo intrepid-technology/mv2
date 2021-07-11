@@ -161,9 +161,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
                   }
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                {hasVariant(globalVariants, "screen", "mobile")
                   ? "Join now"
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "Apply to join"
                   : "Click me"}
               </div>
@@ -203,7 +203,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(globalVariants, "screen", "desktopPrimary")
+              {hasVariant(globalVariants, "screen", "desktop")
                 ? "Apply to join"
                 : "Click me"}
             </div>
@@ -253,7 +253,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(globalVariants, "screen", "desktopPrimary")
+              {hasVariant(globalVariants, "screen", "desktop")
                 ? "Apply to join"
                 : "Click me"}
             </div>

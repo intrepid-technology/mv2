@@ -79,7 +79,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             data-plasmic-override={overrides.userAvatar}
             size={"_80"}
             verified={
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "desktop")
                 ? "verified"
                 : "verified"
             }
@@ -197,9 +197,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               />
 
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "mobile")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : true
               ) ? (
@@ -214,9 +214,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   )}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "mobile")
                       ? true
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? true
                       : true
                   ) ? (
@@ -226,7 +226,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                         sty.iconPrimary___8M9Y
                       )}
                       size={
-                        hasVariant(globalVariants, "screen", "desktopPrimary")
+                        hasVariant(globalVariants, "screen", "desktop")
                           ? "_18Px"
                           : "_18Px"
                       }
@@ -235,11 +235,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                           data-plasmic-name={"svgIcon3"}
                           data-plasmic-override={overrides.svgIcon3}
                           PlasmicIconType={
-                            hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                            hasVariant(globalVariants, "screen", "desktop")
                               ? TeamPartnersIcon
                               : Icon171Icon
                           }
@@ -252,11 +248,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                           data-plasmic-name={"svgIcon4"}
                           data-plasmic-override={overrides.svgIcon4}
                           PlasmicIconType={
-                            hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                            hasVariant(globalVariants, "screen", "desktop")
                               ? TeamPartnersIcon
                               : TeamPartnersIcon
                           }
@@ -267,9 +259,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     />
                   ) : null}
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? true
-                      : true
+                    hasVariant(globalVariants, "screen", "mobile") ? true : true
                   ) ? (
                     <AvatarGroupPrimary
                       data-plasmic-name={"avatarGroupPrimary"}
@@ -284,9 +274,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             </p.Stack>
 
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "mobile")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : true
             ) ? (
@@ -326,7 +316,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               sty._80CharactersMax
             )}
           >
-            {hasVariant(globalVariants, "screen", "desktopPrimary")
+            {hasVariant(globalVariants, "screen", "desktop")
               ? "UserMember tag-line short description. Max 80 Char"
               : "UserMember tag-line short description. Max 80 Char"}
           </div>

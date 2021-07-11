@@ -58,7 +58,7 @@ function PlasmicSectionTeamProfileHero__RenderFunc(props) {
         data-plasmic-name={"imagePrimary"}
         data-plasmic-override={overrides.imagePrimary}
         _32={
-          hasVariant(globalVariants, "screen", "mobileAPrimary")
+          hasVariant(globalVariants, "screen", "mobile")
             ? "_360X240"
             : "_720X480"
         }

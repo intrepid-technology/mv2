@@ -75,9 +75,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
         </div>
       </p.Stack>
 
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"status"}
           data-plasmic-override={overrides.status}
@@ -94,9 +92,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"price"}
           data-plasmic-override={overrides.price}
@@ -113,9 +109,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"partner"}
           data-plasmic-override={overrides.partner}
@@ -132,9 +126,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"notifications"}
           data-plasmic-override={overrides.notifications}
@@ -151,9 +143,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"delivery"}
           data-plasmic-override={overrides.delivery}
@@ -170,9 +160,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"review"}
           data-plasmic-override={overrides.review}
@@ -189,9 +177,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"approved"}
           data-plasmic-override={overrides.approved}
@@ -208,9 +194,7 @@ function PlasmicTableProjectManagementHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <div
           data-plasmic-name={"cancel"}
           data-plasmic-override={overrides.cancel}

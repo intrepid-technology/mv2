@@ -46,9 +46,7 @@ function PlasmicSectionSignUp__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <div
           data-plasmic-name={"signUpFormContainerDiv"}
           data-plasmic-override={overrides.signUpFormContainerDiv}

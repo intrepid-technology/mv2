@@ -1451,9 +1451,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
               data-plasmic-override={overrides.inputEmailB}
               className={classNames("__wab_instance", sty.inputEmailB)}
               size={
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "_360"
-                  : "_540"
+                hasVariant(globalVariants, "screen", "mobile") ? "_360" : "_540"
               }
             />
           </p.Stack>

@@ -80,9 +80,9 @@ function PlasmicLogIn__RenderFunc(props) {
           />
 
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? false
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? false
               : true
           ) ? (
@@ -92,9 +92,7 @@ function PlasmicLogIn__RenderFunc(props) {
               className={classNames("__wab_instance", sty.logoHeader)}
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <SectionLogIn
               data-plasmic-name={"sectionLogIn"}
               data-plasmic-override={overrides.sectionLogIn}
@@ -102,9 +100,9 @@ function PlasmicLogIn__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (

@@ -48,18 +48,16 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
         data-plasmic-name={"cardCta"}
         data-plasmic-override={overrides.cardCta}
         center={
-          hasVariant(globalVariants, "screen", "mobileAPrimary")
-            ? "center"
-            : undefined
+          hasVariant(globalVariants, "screen", "mobile") ? "center" : undefined
         }
         className={classNames("__wab_instance", sty.cardCta)}
         slot={
-          hasVariant(globalVariants, "screen", "desktopPrimary")
+          hasVariant(globalVariants, "screen", "desktop")
             ? "Gain the insights you need to grow—use a single dashboard to manage orders, projects, collaborators, reviews, and payments from anywhere.\n"
             : "Gain the insights you need to grow—use a single dashboard to manage orders, projects, reviews, and payments from anywhere.\n"
         }
       >
-        {hasVariant(globalVariants, "screen", "desktopPrimary")
+        {hasVariant(globalVariants, "screen", "desktop")
           ? "Automated business management for creative entrepreneurs."
           : "Manage and grow your business like never before"}
       </CardCta>

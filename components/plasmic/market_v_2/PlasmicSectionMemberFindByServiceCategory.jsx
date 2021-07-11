@@ -61,7 +61,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           sty.box__wbMTc
         )}
       >
-        {hasVariant(globalVariants, "screen", "desktopPrimary")
+        {hasVariant(globalVariants, "screen", "desktop")
           ? "Find by service"
           : "Shop by service category"}
       </div>
@@ -78,9 +78,9 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
@@ -92,7 +92,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
                 sty.box__u0Iru
               )}
             >
-              {hasVariant(globalVariants, "screen", "desktopPrimary")
+              {hasVariant(globalVariants, "screen", "desktop")
                 ? "No code"
                 : "Software development"}
             </div>
@@ -100,7 +100,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
         >
           <p.PlasmicIcon
             PlasmicIconType={
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "desktop")
                 ? Icon127Icon
                 : IconIcon
             }
@@ -116,14 +116,14 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
           slot={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "Blockchain"
               : "blockchain development"
           }
@@ -141,14 +141,14 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
           slot={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "UX design"
               : "UX design & prototypes"
           }
@@ -163,14 +163,14 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           className={classNames("__wab_instance", sty.chipCategoryHeader__p8K)}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
           slot={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "Mobile apps"
               : "Mobile app development"
           }
@@ -188,9 +188,9 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
@@ -209,9 +209,9 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
@@ -230,14 +230,14 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
           slot={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "Gaming"
               : "Game development"
           }
@@ -255,21 +255,21 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? "_180"
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
               : "_270"
           }
           slot={
-            hasVariant(globalVariants, "screen", "desktopPrimary")
+            hasVariant(globalVariants, "screen", "desktop")
               ? "View all categories"
               : "View all service categories"
           }
         >
           <p.PlasmicIcon
             PlasmicIconType={
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "desktop")
                 ? IconIcon
                 : Icon39Icon
             }

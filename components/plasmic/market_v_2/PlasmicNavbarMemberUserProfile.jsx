@@ -38,9 +38,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
   });
 
   return (
-    hasVariant(globalVariants, "screen", "mobileAPrimary")
+    hasVariant(globalVariants, "screen", "mobile")
       ? true
-      : hasVariant(globalVariants, "screen", "desktopPrimary")
+      : hasVariant(globalVariants, "screen", "desktop")
       ? true
       : true
   ) ? (
@@ -52,9 +52,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       {(
-        hasVariant(globalVariants, "screen", "mobileAPrimary")
+        hasVariant(globalVariants, "screen", "mobile")
           ? true
-          : hasVariant(globalVariants, "screen", "desktopPrimary")
+          : hasVariant(globalVariants, "screen", "desktop")
           ? true
           : true
       ) ? (
@@ -66,9 +66,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
           className={classNames(defaultcss.all, sty.parent)}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -113,7 +113,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 )
               })}
               linkText={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "About"
                   : "About"
               }
@@ -130,16 +130,16 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   ? undefined
                   : hasVariant(variants, "selected", "subscriptions")
                   ? undefined
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? "selected"
                   : "selected"
               }
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -153,14 +153,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Subscriptions"
                   : "Subscriptions"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "3"
-                  : "3"
+                hasVariant(globalVariants, "screen", "desktop") ? "3" : "3"
               }
               state={
                 hasVariant(variants, "selected", "subscriptions")
@@ -170,9 +168,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -189,14 +187,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Lists"
                   : "Lists"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "12"
-                  : "12"
+                hasVariant(globalVariants, "screen", "desktop") ? "12" : "12"
               }
               state={
                 hasVariant(variants, "selected", "lists")
@@ -206,9 +202,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -225,14 +221,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Teams"
                   : "Teams"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "12"
-                  : "12"
+                hasVariant(globalVariants, "screen", "desktop") ? "12" : "12"
               }
               state={
                 hasVariant(variants, "selected", "teams")
@@ -242,9 +236,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -258,14 +252,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Reviews"
                   : "Reviews"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "12"
-                  : "12"
+                hasVariant(globalVariants, "screen", "desktop") ? "12" : "12"
               }
               state={
                 hasVariant(variants, "selected", "reviews")
@@ -275,9 +267,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -294,14 +286,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Reacts"
                   : "Reacts"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "999"
-                  : "999"
+                hasVariant(globalVariants, "screen", "desktop") ? "999" : "999"
               }
               state={
                 hasVariant(variants, "selected", "reacts")
@@ -311,9 +301,9 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "mobile")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -330,14 +320,12 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 }
               )}
               navLabel={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
+                hasVariant(globalVariants, "screen", "desktop")
                   ? "Views"
                   : "Views"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? "999"
-                  : "999"
+                hasVariant(globalVariants, "screen", "desktop") ? "999" : "999"
               }
               state={
                 hasVariant(variants, "selected", "views")

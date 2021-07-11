@@ -34,12 +34,6 @@
     width: 360px;
   }
 }
-@media (max-width: 375px) {
-  .parent {
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-}
 .userProfileHeadline {
   display: flex;
   position: relative;

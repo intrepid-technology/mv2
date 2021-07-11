@@ -133,9 +133,9 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 sty.box__coEqy
               )}
             >
-              {hasVariant(globalVariants, "screen", "mobileAPrimary")
+              {hasVariant(globalVariants, "screen", "mobile")
                 ? "DisplayName"
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "DisplayName"
                 : "Username"}
             </div>

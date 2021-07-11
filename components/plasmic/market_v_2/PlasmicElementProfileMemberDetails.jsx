@@ -51,9 +51,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      {(
-        hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-      ) ? (
+      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"parent"}
@@ -75,7 +73,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 sty.detailsText
               )}
             >
-              {hasVariant(globalVariants, "screen", "desktopPrimary")
+              {hasVariant(globalVariants, "screen", "desktop")
                 ? "Details"
                 : "Details"}
             </div>
@@ -102,9 +100,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
 
               <div className={classNames(defaultcss.all, sty.box__wpQmj)}>
                 {(
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
-                    ? true
-                    : true
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <TagPartnerA
                     data-plasmic-name={"memberStatus3"}
@@ -119,28 +115,24 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   data-plasmic-name={"ratingDisplayDetail"}
                   data-plasmic-override={overrides.ratingDisplayDetail}
                   reviews={
-                    hasVariant(globalVariants, "screen", "desktopPrimary")
+                    hasVariant(globalVariants, "screen", "desktop")
                       ? "reviews"
                       : undefined
                   }
                   size={
-                    hasVariant(globalVariants, "screen", "desktopPrimary")
+                    hasVariant(globalVariants, "screen", "desktop")
                       ? "_16"
                       : undefined
                   }
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "desktop")
                     ? "4.8"
                     : "4.67"}
                 </RatingDisplayDetail>
               </div>
             </p.Stack>
 
-            {(
-              hasVariant(globalVariants, "screen", "desktopPrimary")
-                ? true
-                : true
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
               <p.Stack
                 as={"div"}
                 data-plasmic-name={"primaryCompanyName"}
@@ -149,9 +141,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.primaryCompanyName)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
-                    ? true
-                    : true
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <IconPrimary
                     className={classNames(
@@ -180,7 +170,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                         data-plasmic-name={"svgIcon22"}
                         data-plasmic-override={overrides.svgIcon22}
                         PlasmicIconType={
-                          hasVariant(globalVariants, "screen", "desktopPrimary")
+                          hasVariant(globalVariants, "screen", "desktop")
                             ? OfficeWorkIcon
                             : OfficeWorkIcon
                         }
@@ -260,11 +250,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 </div>
               </p.Stack>
             ) : null}
-            {(
-              hasVariant(globalVariants, "screen", "desktopPrimary")
-                ? true
-                : true
-            ) ? (
+            {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
               <p.Stack
                 as={"div"}
                 data-plasmic-name={"companyparent3"}
@@ -273,9 +259,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.companyparent3)}
               >
                 {(
-                  hasVariant(globalVariants, "screen", "desktopPrimary")
-                    ? true
-                    : true
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <IconPrimary
                     className={classNames(
@@ -304,7 +288,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                         data-plasmic-name={"svgIcon23"}
                         data-plasmic-override={overrides.svgIcon23}
                         PlasmicIconType={
-                          hasVariant(globalVariants, "screen", "desktopPrimary")
+                          hasVariant(globalVariants, "screen", "desktop")
                             ? BriefOrdersIcon
                             : BriefOrdersIcon
                         }
@@ -380,7 +364,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     sty.userPrimaryCompanyName2
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "desktopPrimary")
+                  {hasVariant(globalVariants, "screen", "desktop")
                     ? "primaryPositionName"
                     : "primaryCompanyName"}
                 </div>
@@ -551,7 +535,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     data-plasmic-name={"svgIcon11"}
                     data-plasmic-override={overrides.svgIcon11}
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "desktopPrimary")
+                      hasVariant(globalVariants, "screen", "desktop")
                         ? LocationIcon
                         : LocationIcon
                     }
@@ -729,7 +713,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       sty.box___3O7Bo
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "[dateTimestamp]"
                       : "[dateTimestamp]"}
                   </div>

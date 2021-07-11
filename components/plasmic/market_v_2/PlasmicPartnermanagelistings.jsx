@@ -110,9 +110,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay
               )}
               size={
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "_360"
-                  : "_720"
+                hasVariant(globalVariants, "screen", "mobile") ? "_360" : "_720"
               }
               slot={
                 <div
@@ -224,9 +222,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.box__xulmc)}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
-                      ? true
-                      : true
+                    hasVariant(globalVariants, "screen", "mobile") ? true : true
                   ) ? (
                     <div
                       data-plasmic-name={"listingSearchFilterParent"}

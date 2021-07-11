@@ -23,11 +23,6 @@
     padding-bottom: 24px;
   }
 }
-@media (max-width: 375px) {
-  .root {
-    padding-bottom: 24px;
-  }
-}
 .box {
   display: flex;
   flex-direction: row;
@@ -163,11 +158,6 @@
   left: auto;
   top: auto;
   flex-shrink: 0;
-}
-@media (max-width: 375px) {
-  .partnerMembership:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }
 .box___7UBdg {
   font-size: 24px;

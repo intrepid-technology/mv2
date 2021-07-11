@@ -78,11 +78,6 @@
     background: none;
   }
 }
-@media (max-width: 375px) {
-  .parent {
-    padding-left: 6px;
-  }
-}
 .navLink:global(.__wab_instance) {
   position: relative;
 }
