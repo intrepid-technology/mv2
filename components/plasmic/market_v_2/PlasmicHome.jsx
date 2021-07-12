@@ -56,14 +56,14 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <title key="title">
           {
-            "The community for digital nomads, global entrepreneurs & remote companies | Intrepid"
+            "The community for digital nomads, independent professionals & remote companies | Intrepid"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "The community for digital nomads, global entrepreneurs & remote companies | Intrepid"
+            "The community for digital nomads, independent professionals & remote companies | Intrepid"
           }
         />
 
@@ -174,9 +174,9 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                   headline={
                     hasVariant(globalVariants, "screen", "mobile")
-                      ? "Financial services for digital nomads"
+                      ? "Financial services for entrepreneurs"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Financial services for digital nomads"
+                      ? "Financial services for entrepreneurs"
                       : "Financial services for entrepreneurs"
                   }
                   iconParent={
