@@ -197,7 +197,11 @@ function PlasmicHome__RenderFunc(props) {
                       : undefined
                   }
                   text={
-                    "We provide what the banks won't: P2P global payments, escrow and special financing for creative businesses. "
+                    hasVariant(globalVariants, "screen", "mobile")
+                      ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
+                      : "We provide what the banks won't: P2P global payments, escrow and special financing for creative businesses. "
                   }
                 />
 

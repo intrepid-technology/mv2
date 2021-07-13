@@ -973,6 +973,11 @@
     font-weight: 800;
   }
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .box__m55Ho {
+    max-width: 540px;
+  }
+}
 @media (min-width: 0px) and (max-width: 414px) {
   .box__m55Ho {
     font-size: 18px;
@@ -1510,6 +1515,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .box__o8Hc {
+    max-width: 540px;
+  }
+}
 @media (min-width: 0px) and (max-width: 414px) {
   .box__o8Hc {
     width: 100%;
@@ -2015,6 +2025,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .box__tnzRu {
     font-size: 36px;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .box__paM4A {
+    max-width: 540px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
