@@ -22,7 +22,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 4px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) {
     justify-content: flex-start;
   }
@@ -128,7 +128,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .cityName {
     font-size: 14px;
     line-height: 1;
@@ -147,7 +147,7 @@
   width: auto;
   height: auto;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box {
     font-size: 14px;
   }
@@ -169,7 +169,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .countryName {
     font-size: 14px;
     line-height: 1;

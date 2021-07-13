@@ -72,10 +72,8 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
           data-plasmic-override={overrides.img}
           alt={""}
           className={classNames(defaultcss.img, sty.img)}
-          height={1171}
           role={"img"}
           src={"/plasmic/market_v_2/images/intrepidDashboardpng.png"}
-          width={2011}
         />
       </div>
     </p.Stack>

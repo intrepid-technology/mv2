@@ -71,10 +71,8 @@ function PlasmicFooter__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__sdyFl)}
-                height={83}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
-                width={300}
               />
             ),
 

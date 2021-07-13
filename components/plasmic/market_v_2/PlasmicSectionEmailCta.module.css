@@ -19,7 +19,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 48px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@
     padding: 40px 180px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -37,13 +37,13 @@
     width: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     padding-right: 16px;
     padding-left: 16px;
@@ -65,7 +65,7 @@
   justify-content: flex-start;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .headlineParent {
     width: 100%;
     left: auto;
@@ -82,7 +82,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .headlineParent {
     margin-top: calc(0px + 48px) !important;
   }
@@ -98,7 +98,7 @@
   align-items: center;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box___5Q18D {
     display: flex;
     align-self: flex-start;
@@ -115,7 +115,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotSlot {
     font-size: 40px;
     font-family: "Inter", sans-serif;
@@ -126,7 +126,7 @@
     text-align: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .slotSlot {
     font-size: 32px;
     font-family: "Inter", sans-serif;
@@ -152,7 +152,7 @@
   margin-left: 0px;
   justify-content: flex-start;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .subheadParent {
     width: 720px;
     align-self: auto;
@@ -164,7 +164,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .subheadParent {
     width: 100%;
     margin-top: calc(0px + 48px) !important;
@@ -183,7 +183,7 @@
   min-width: 0;
   min-height: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__zmpJ9 {
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotChildren {
     font-size: 18px;
     font-family: "Inter", sans-serif;
@@ -213,7 +213,7 @@
     text-align: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .slotChildren {
     font-size: 14px;
     line-height: 1.4;

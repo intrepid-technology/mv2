@@ -10,7 +10,7 @@
   min-width: 0;
   background: #f8f8f8;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     padding-right: 16px;
   }

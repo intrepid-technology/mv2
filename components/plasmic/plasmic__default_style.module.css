@@ -19,8 +19,6 @@
 .img {
   composes: all;
   display: inline-block;
-  width: auto;
-  height: auto;
 }
 .input {
   composes: all;

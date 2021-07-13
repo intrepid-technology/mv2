@@ -8,14 +8,14 @@
   height: auto;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     width: auto;
     height: auto;
@@ -47,7 +47,7 @@
   margin-left: 32px;
   margin-top: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     width: 100%;
     height: auto;
@@ -57,7 +57,7 @@
     background: none;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) {
     align-items: flex-start;
     flex-direction: row;
@@ -66,7 +66,7 @@
     align-content: flex-start;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent {
     width: 100%;
     height: auto;
@@ -76,7 +76,7 @@
     padding: 16px 24px 24px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     align-content: center;
@@ -87,7 +87,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-top: 32px;
@@ -98,13 +98,13 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .cardHeroMemberProfileDisplay:global(.__wab_instance) {
     top: auto;
     left: auto;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .cardHeroMemberProfileDisplay:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -140,7 +140,7 @@
   margin-left: 0px;
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .profileCommunityParent {
     left: auto;
     top: auto;
@@ -156,7 +156,7 @@
     border: 2px solid #a385ff /* plasmic-token: rN0ul5_oz */;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .profileCommunityParent > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .profileCommunityParent > :global(.__wab_flex-container) > *,
   .profileCommunityParent
     > :global(.__wab_flex-container)
@@ -177,7 +177,7 @@
     margin-top: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .profileCommunityParent {
     left: auto;
     top: auto;
@@ -188,7 +188,7 @@
     padding: 8px 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .profileCommunityParent > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -199,7 +199,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .profileCommunityParent > :global(.__wab_flex-container) > *,
   .profileCommunityParent
     > :global(.__wab_flex-container)
@@ -255,7 +255,7 @@
   margin-left: 24px;
   margin-top: 24px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .statsParent > :global(.__wab_flex-container) {
     justify-content: space-evenly;
     align-items: center;
@@ -266,14 +266,14 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .statsParent > :global(.__wab_flex-container) > *,
   .statsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 24px;
     margin-top: 24px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .statsParent {
     display: flex;
     position: relative;
@@ -284,7 +284,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .statsParent > :global(.__wab_flex-container) {
     flex-direction: row;
     align-items: center;
@@ -297,7 +297,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .statsParent > :global(.__wab_flex-container) > *,
   .statsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 24px;
@@ -325,12 +325,12 @@
 .memberStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .memberStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .memberStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
@@ -344,7 +344,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .memberNumberCount {
     font-weight: 600;
   }
@@ -381,12 +381,12 @@
   > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .followersStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .followersStatParent {
     width: 90px;
     height: 90px;
@@ -395,7 +395,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .followersStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -406,7 +406,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .followersStatParent > :global(.__wab_flex-container) > *,
   .followersStatParent
     > :global(.__wab_flex-container)
@@ -425,7 +425,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .followingNumberCount {
     font-weight: 600;
   }
@@ -458,12 +458,12 @@
 .partnerStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .partnerStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerStatParent {
     width: 90px;
     height: 90px;
@@ -472,7 +472,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -483,7 +483,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerStatParent > :global(.__wab_flex-container) > *,
   .partnerStatParent
     > :global(.__wab_flex-container)
@@ -502,7 +502,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .partnerNumberCount {
     font-weight: 600;
   }
@@ -535,12 +535,12 @@
 .viewsStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .viewsStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .viewsStatParent {
     width: 90px;
     height: 90px;
@@ -549,7 +549,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .viewsStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -560,7 +560,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .viewsStatParent > :global(.__wab_flex-container) > *,
   .viewsStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -576,7 +576,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .viewsNumberCount {
     font-weight: 600;
   }
@@ -610,12 +610,12 @@
 .reactsStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .reactsStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .reactsStatParent {
     width: 90px;
     height: 90px;
@@ -624,7 +624,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .reactsStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -635,7 +635,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .reactsStatParent > :global(.__wab_flex-container) > *,
   .reactsStatParent
     > :global(.__wab_flex-container)
@@ -654,7 +654,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .reactsNumberCount {
     font-weight: 600;
   }
@@ -687,12 +687,12 @@
 .savesStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .savesStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .savesStatParent {
     width: 90px;
     height: 90px;
@@ -701,7 +701,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .savesStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -712,7 +712,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .savesStatParent > :global(.__wab_flex-container) > *,
   .savesStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -728,7 +728,7 @@
   font-size: 16px;
   text-align: center;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .savesNumberCount {
     font-weight: 600;
   }

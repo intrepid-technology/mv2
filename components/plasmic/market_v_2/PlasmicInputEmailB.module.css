@@ -17,14 +17,14 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@
 .box__yp4Vd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 0px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__yp4Vd {
     width: 100%;
     display: flex;
@@ -88,7 +88,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__yp4Vd > :global(.__wab_flex-container) {
     flex-direction: column;
     margin-left: calc(0px - 0px);
@@ -97,7 +97,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__yp4Vd > :global(.__wab_flex-container) > *,
   .box__yp4Vd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -126,7 +126,7 @@
   background: #f8f8f8;
   border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .textbox {
     width: 100%;
     left: auto;
@@ -153,24 +153,24 @@
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root .textbox:focus {
     border-bottom-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
     border-bottom-width: 2px;
     outline: none;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root .textbox:hover {
     border-color: #cccccc /* plasmic-token: oEMOojyFv */;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root .textbox:hover {
     border: 2px solid #cccccc /* plasmic-token: oEMOojyFv */;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root .textbox:focus {
     outline: none;
     border: 2px solid #6633ff /* plasmic-token: brleuPgaD */;
@@ -202,12 +202,12 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonPrimary__abtKj:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary__abtKj:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -233,7 +233,7 @@
   font-size: 12px;
   font-weight: 600;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__kG9Sn {
     font-size: 18px;
   }
@@ -252,14 +252,14 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonPrimary___42IUc:global(.__wab_instance) {
     left: auto;
     top: auto;
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary___42IUc:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -299,14 +299,14 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonPrimary__c34CP:global(.__wab_instance) {
     left: auto;
     top: auto;
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary__c34CP:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -356,7 +356,7 @@
   height: auto;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__dfyHp {
     width: 100%;
     min-width: 0;
@@ -370,7 +370,7 @@
   color: #999999 /* plasmic-token: UPK7EIst5 */;
   text-align: left;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .slotChildren {
     text-align: center;
   }

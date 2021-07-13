@@ -26,7 +26,7 @@
   min-width: 0;
   padding: 64px 24px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .sectionMarketHeadline {
     padding-left: 120px;
     justify-content: flex-start;
@@ -35,7 +35,7 @@
     padding-top: 32px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionMarketHeadline {
     padding-top: 16px;
   }
@@ -65,7 +65,7 @@
   > * {
   margin-top: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .sectionNewServiceListings {
     padding-left: 120px;
   }
@@ -428,7 +428,7 @@
   > * {
   margin-top: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .sectionServiceCollections {
     padding-left: 120px;
   }

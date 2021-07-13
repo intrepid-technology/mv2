@@ -11,13 +11,13 @@
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -29,7 +29,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -41,7 +41,7 @@
   left: auto;
   top: auto;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .navbarInternal:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -53,7 +53,7 @@
   left: auto;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .navbarPartnerEdit:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -86,7 +86,7 @@
   > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionPartnerManageListingsHeader {
     display: flex;
     position: relative;
@@ -99,7 +99,7 @@
     padding: 16px 16px 32px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -110,7 +110,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) > *,
   .sectionPartnerManageListingsHeader
     > :global(.__wab_flex-container)
@@ -155,7 +155,7 @@
   > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionPartnerManageListings {
     padding-left: 16px;
     padding-right: 16px;
@@ -165,7 +165,7 @@
     min-height: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionPartnerManageListings > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -191,14 +191,14 @@
 .box__aPXdG > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__aPXdG {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__aPXdG > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -309,7 +309,7 @@
   top: auto;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .listingSearchFilterParent {
     display: none;
   }
@@ -435,7 +435,7 @@
   right: auto;
   bottom: auto;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .footerB:global(.__wab_instance) {
     left: auto;
     top: auto;

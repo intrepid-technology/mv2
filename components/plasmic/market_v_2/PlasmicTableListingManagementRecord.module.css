@@ -502,7 +502,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .statusParent {
     display: none;
   }
@@ -1329,7 +1329,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .toDoParent {
     display: none;
   }
@@ -1338,7 +1338,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .toDo:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1379,7 +1379,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .modifiedDateTimeParent {
     display: none;
   }
@@ -1402,7 +1402,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .categoryParent {
     display: none;
   }
@@ -1424,7 +1424,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .priceParent {
     display: none;
   }
@@ -1464,7 +1464,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .termParent {
     display: none;
   }
@@ -1486,7 +1486,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .expirationDateTimeParent {
     display: none;
   }
@@ -1509,7 +1509,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .autoRenewParent {
     display: none;
   }
@@ -1532,7 +1532,7 @@
   width: 64px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__lBwk {
     display: none;
   }

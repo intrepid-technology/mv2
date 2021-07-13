@@ -73,7 +73,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .statusParent {
     display: none;
   }
@@ -94,7 +94,7 @@
   width: 100px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .toDoParent {
     display: none;
   }
@@ -120,7 +120,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .modifiedDateParent {
     display: none;
   }
@@ -146,7 +146,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .categoryParent {
     display: none;
   }
@@ -167,7 +167,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .priceParent {
     display: none;
   }
@@ -188,7 +188,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .termParent {
     display: none;
   }
@@ -212,7 +212,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .expiryParent {
     display: none;
   }
@@ -233,7 +233,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .renewParent {
     display: none;
   }
@@ -254,7 +254,7 @@
   width: 64px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .cancelParent {
     display: none;
   }

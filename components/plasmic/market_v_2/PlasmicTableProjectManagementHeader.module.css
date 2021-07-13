@@ -73,7 +73,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .status {
     display: none;
   }
@@ -95,7 +95,7 @@
   width: 100px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .price {
     display: none;
   }
@@ -120,7 +120,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partner {
     display: none;
   }
@@ -142,7 +142,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .notifications {
     display: none;
   }
@@ -162,7 +162,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .delivery {
     display: none;
   }
@@ -186,7 +186,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .review {
     display: none;
   }
@@ -211,7 +211,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .approved {
     display: none;
   }
@@ -233,7 +233,7 @@
   width: 64px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .cancel {
     display: none;
   }

@@ -11,7 +11,7 @@
   background: #ffffff;
   border-bottom: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     justify-content: space-between;
     padding-left: 24px;
@@ -41,17 +41,17 @@
 .box__eV2N > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 24px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__eV2N {
     align-self: auto;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__eV2N > :global(.__wab_flex-container) {
     align-items: center;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__eV2N > :global(.__wab_flex-container) {
     justify-content: flex-end;
     margin-left: calc(0px - 6px);
@@ -60,7 +60,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__eV2N > :global(.__wab_flex-container) > *,
   .box__eV2N > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 6px;
@@ -70,7 +70,7 @@
 .textLinkUnderlinePrimary:global(.__wab_instance) {
   position: relative;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textLinkUnderlinePrimary:global(.__wab_instance) {
     align-self: auto;
   }
@@ -78,7 +78,7 @@
 .box__hyKmE {
   font-weight: 500;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__hyKmE {
     line-height: 20px;
     font-size: 14px;
@@ -89,12 +89,12 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -103,7 +103,7 @@
   font-size: 16px;
   font-weight: 600;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__nAyJs {
     height: auto;
   }

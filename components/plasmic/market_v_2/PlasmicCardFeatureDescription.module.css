@@ -205,7 +205,7 @@
   line-height: 1.4;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotText {
     font-family: "Inter", sans-serif;
   }

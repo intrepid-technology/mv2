@@ -73,14 +73,12 @@ function PlasmicNavbarLogo__RenderFunc(props) {
             [sty.img__size__40]: hasVariant(variants, "size", "_40"),
             [sty.img__size__48]: hasVariant(variants, "size", "_48")
           })}
-          height={hasVariant(variants, "light", "light") ? 83 : 83}
           role={"img"}
           src={
             hasVariant(variants, "light", "light")
               ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"
               : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
           }
-          width={hasVariant(variants, "light", "light") ? 300 : 300}
         />
       </div>
     </p.PlasmicLink>

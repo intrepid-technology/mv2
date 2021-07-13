@@ -113,10 +113,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(defaultcss.img, sty.img, {
                       [sty.img__color]: hasVariant(variants, "color", "color")
                     })}
-                    height={97}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"}
-                    width={300}
                   />
                 ) : null}
               </p.PlasmicLink>

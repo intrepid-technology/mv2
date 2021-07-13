@@ -132,7 +132,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .submitButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -226,7 +226,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .signupFacebookConnection:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -239,7 +239,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .signupGoogleConnection:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -268,7 +268,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -277,7 +277,7 @@
   font-size: 18px;
   font-weight: 500;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__tVj8G {
     font-size: 18px;
     font-weight: 500;

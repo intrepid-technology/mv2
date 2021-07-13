@@ -1220,10 +1220,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                             defaultcss.img,
                             sty.navUserAvatar32
                           )}
-                          height={360}
                           role={"img"}
                           src={"/plasmic/market_v_2/images/image4.png"}
-                          width={360}
                         />
                       }
                       size={"_32"}

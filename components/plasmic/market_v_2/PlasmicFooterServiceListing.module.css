@@ -21,7 +21,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     border-top-color: #dddddd /* plasmic-token: pZiR_PgBn */;
     border-top-style: none;

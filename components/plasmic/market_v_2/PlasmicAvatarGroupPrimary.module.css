@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 4px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     padding-top: 0px;
     padding-bottom: 0px;

@@ -9,7 +9,7 @@
   min-width: 0;
   padding: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     width: 100%;
     justify-content: center;
@@ -18,7 +18,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     display: flex;
     flex-direction: column;
@@ -47,14 +47,14 @@
   padding: 64px 180px;
   background: #ffffff;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv {
     flex-wrap: nowrap;
     padding-top: 64px;
     padding-bottom: 64px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .heroTextImageDiv {
     display: flex;
     flex-direction: column;
@@ -68,13 +68,13 @@
   padding-left: 180px;
   padding-bottom: 64px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv__persona_member {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .heroTextImageDiv__persona_member {
     padding-right: 16px;
     padding-left: 16px;
@@ -87,7 +87,7 @@
   padding-bottom: 64px;
   min-height: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv__persona_partner {
     padding-left: 180px;
     padding-bottom: 64px;
@@ -101,13 +101,13 @@
 .heroWelcomeCta__persona_member:global(.__wab_instance) {
   margin: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .heroWelcomeCta__persona_member:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .heroWelcomeCta__persona_member:global(.__wab_instance) {
     margin-left: 0px;
   }
@@ -115,7 +115,7 @@
 .heroWelcomeCta__persona_partner:global(.__wab_instance) {
   margin: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .heroWelcomeCta__persona_partner:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;

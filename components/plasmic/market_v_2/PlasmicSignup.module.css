@@ -8,7 +8,7 @@
   min-height: 0;
   background: #ffffff;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     justify-content: flex-start;
     align-items: center;
@@ -18,12 +18,12 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .navbarStatic:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .navbarStatic:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -33,7 +33,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .sectionSignUp:global(.__wab_instance) {
     width: 100%;
     min-width: 0;

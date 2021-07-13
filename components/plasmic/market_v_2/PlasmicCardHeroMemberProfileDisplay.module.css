@@ -5,7 +5,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     width: 360px;
     height: auto;
@@ -29,7 +29,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent {
     width: 360px;
   }
@@ -58,7 +58,7 @@
   > * {
   margin-left: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .userProfileHeadline > :global(.__wab_flex-container) {
     align-items: flex-start;
   }
@@ -235,7 +235,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 600;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__a2Y3 {
     font-size: 18px;
   }
@@ -255,7 +255,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 600;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__mD7Z {
     font-size: 18px;
   }
@@ -300,7 +300,7 @@
   line-height: 1;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__men51 {
     font-size: 16px;
   }
@@ -321,7 +321,7 @@
   line-height: 1;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box___9Y1Y0 {
     font-size: 16px;
   }
@@ -348,7 +348,7 @@
   > * {
   margin-left: 8px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .companyStatsParent {
     display: flex;
     position: relative;
@@ -358,7 +358,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .companyStatsParent > :global(.__wab_flex-container) {
     flex-direction: row;
     align-items: center;
@@ -369,7 +369,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .companyStatsParent > :global(.__wab_flex-container) > *,
   .companyStatsParent
     > :global(.__wab_flex-container)
@@ -379,7 +379,7 @@
     margin-top: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .companyStatsParent > :global(.__wab_flex-container) {
     justify-content: flex-start;
   }
@@ -417,14 +417,14 @@
   > * {
   margin-left: 4px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .teamAvatarGroupParent {
     width: auto;
     height: auto;
     display: inline-flex;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .teamAvatarGroupParent > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: space-evenly;
@@ -434,7 +434,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .teamAvatarGroupParent > :global(.__wab_flex-container) > *,
   .teamAvatarGroupParent
     > :global(.__wab_flex-container)
@@ -539,7 +539,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .locationParent {
     top: auto;
     left: auto;
@@ -548,7 +548,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .locationParent > :global(.__wab_flex-container) {
     align-items: center;
     margin-left: calc(0px - 8px);
@@ -557,14 +557,14 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .locationParent > :global(.__wab_flex-container) > *,
   .locationParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 8px;
     margin-top: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .locationParent {
     width: 100%;
     height: auto;
@@ -599,7 +599,7 @@
   > * {
   margin-top: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .userMemberDescription {
     width: 100%;
     display: flex;
@@ -612,7 +612,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .userMemberDescription > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -623,7 +623,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .userMemberDescription > :global(.__wab_flex-container) > *,
   .userMemberDescription
     > :global(.__wab_flex-container)
@@ -650,7 +650,7 @@
   height: auto;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   ._80CharactersMax {
     display: block;
     font-size: 24px;
@@ -669,7 +669,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   ._80CharactersMax {
     text-align: left;
   }
@@ -696,12 +696,12 @@
 .userButtons > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .userButtons > :global(.__wab_flex-container) {
     justify-content: flex-start;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .userButtons > :global(.__wab_flex-container) {
     justify-content: flex-start;
   }

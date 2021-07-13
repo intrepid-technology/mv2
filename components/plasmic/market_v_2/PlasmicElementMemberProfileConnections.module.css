@@ -25,7 +25,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     padding: 8px 16px 16px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -72,7 +72,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .connectionsHeadlineText {
     display: block;
     font-size: 24px;

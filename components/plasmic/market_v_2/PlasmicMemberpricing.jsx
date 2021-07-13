@@ -1343,46 +1343,36 @@ function PlasmicMemberpricing__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__w4GJ)}
-                height={302}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/logoWhiteBackgroundpng.png"}
-                width={1138}
               />
 
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__enb1U)}
-                height={143}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/stripeWordmarkBlurplesvg.svg"}
-                width={300}
               />
 
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__dia9W)}
-                height={189}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/mailbrewLogotype1500Png.png"}
-                width={860}
               />
 
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__wgZqp)}
-                height={68}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/vercelLogotypeDarksvg.svg"}
-                width={300}
               />
 
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__igaVf)}
-                height={38}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/googleWorkspace2020Svg.svg"}
-                width={300}
               />
             </p.Stack>
           </p.Stack>

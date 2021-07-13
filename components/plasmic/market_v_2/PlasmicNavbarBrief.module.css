@@ -18,7 +18,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .svg {
     color: #999999 /* plasmic-token: lJGpMo6-- */;
   }

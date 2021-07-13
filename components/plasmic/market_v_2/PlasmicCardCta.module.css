@@ -131,7 +131,7 @@
   flex-direction: column;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__ge5FL {
     left: auto;
     top: auto;

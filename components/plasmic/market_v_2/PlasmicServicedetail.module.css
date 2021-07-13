@@ -7,14 +7,14 @@
   min-height: 0;
   background: #ffffff;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     display: flex;
     flex-direction: column;
     flex-column-gap: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     display: flex;
     flex-direction: column;
@@ -26,14 +26,14 @@
   left: 0px;
   top: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .navbarPrimary:global(.__wab_instance) {
     position: relative;
     left: auto;
     top: auto;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .navbarPrimary:global(.__wab_instance) {
     position: relative;
     left: auto;
@@ -66,7 +66,7 @@
   > * {
   margin-left: 80px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceDetailCheckoutPageParent {
     position: relative;
     left: auto;
@@ -74,7 +74,7 @@
     padding: 32px 100px 160px 160px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceDetailCheckoutPageParent {
     position: relative;
     left: auto;
@@ -84,7 +84,7 @@
     padding: 32px 24px 64px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceDetailCheckoutPageParent > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     align-content: flex-start;
@@ -96,7 +96,7 @@
     height: calc(100% + 48px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceDetailCheckoutPageParent > :global(.__wab_flex-container) > *,
   .serviceDetailCheckoutPageParent
     > :global(.__wab_flex-container)
@@ -129,20 +129,20 @@
   > * {
   margin-top: 24px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceDetailOverviewParent {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceDetailOverviewParent > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
     align-content: unset;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceDetailOverviewParent {
     width: 360px;
     left: auto;
@@ -173,14 +173,14 @@
   > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceHeadlineParent {
     width: 100%;
     align-self: flex-start;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceHeadlineParent {
     width: 360px;
     align-self: flex-start;
@@ -196,7 +196,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .headline {
     display: block;
     font-size: 40px;
@@ -211,7 +211,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .headline {
     width: 360px;
     font-size: 36px;
@@ -350,7 +350,7 @@
   > * {
   margin-left: 8px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .companyVerificationBadgesParent3 {
     width: 100%;
     align-self: flex-end;
@@ -427,20 +427,20 @@
 .serviceImageBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 20px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceImageBlock {
     width: auto;
     display: inline-flex;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceImageBlock {
     align-self: flex-start;
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceImageBlock > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -448,7 +448,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceImageBlock > :global(.__wab_flex-container) > *,
   .serviceImageBlock
     > :global(.__wab_flex-container)
@@ -466,7 +466,7 @@
   width: 720px;
   height: auto;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceImageHero {
     width: 360px;
     align-self: flex-start;
@@ -493,13 +493,13 @@
 .box__ew4Af > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 20px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__ew4Af {
     align-self: flex-start;
     padding: 8px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__ew4Af > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -510,14 +510,14 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__ew4Af > :global(.__wab_flex-container) > *,
   .box__ew4Af > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 16px;
     margin-top: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ew4Af {
     overflow: visible;
     width: 100%;
@@ -525,7 +525,7 @@
     padding: 8px 8px 8px 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ew4Af > :global(.__wab_flex-container) {
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
@@ -533,7 +533,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ew4Af > :global(.__wab_flex-container) > *,
   .box__ew4Af > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 16px;
@@ -601,13 +601,13 @@
   margin-left: 12px;
   margin-top: 12px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__y19Np {
     align-self: flex-start;
     padding: 8px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__y19Np > :global(.__wab_flex-container) {
     margin-left: calc(0px - 8px);
     width: calc(100% + 8px);
@@ -615,14 +615,14 @@
     height: calc(100% + 8px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__y19Np > :global(.__wab_flex-container) > *,
   .box__y19Np > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 8px;
     margin-top: 8px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__y19Np {
     overflow: visible;
     align-self: flex-start;
@@ -794,7 +794,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .svg__nw7Wz {
     width: 100%;
     min-width: 0;
@@ -823,7 +823,7 @@
   > * {
   margin-top: 24px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceOverviewParent {
     width: 100%;
     min-width: 0;
@@ -838,7 +838,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .descriptionBlock {
     width: 100%;
     min-width: 0;
@@ -850,12 +850,12 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .accordion__oQxWr:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__oQxWr:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -892,13 +892,13 @@
   > * {
   margin-top: 10px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceDescriptionOverview {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceDescriptionOverview {
     width: 100%;
     min-width: 0;
@@ -925,7 +925,7 @@
 .box__cm7I3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 20px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__cm7I3 {
     width: 100%;
     min-width: 0;
@@ -940,7 +940,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .processBlock {
     width: 100%;
     min-width: 0;
@@ -949,12 +949,12 @@
 .accordion__vr6Rn:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .accordion__vr6Rn:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__vr6Rn:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1040,7 +1040,7 @@
 .accordion__gH068:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__gH068:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1241,7 +1241,7 @@
 .accordion__aijA:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__aijA:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1327,7 +1327,7 @@
 .accordion__cHnL:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__cHnL:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1413,7 +1413,7 @@
 .accordion__rHzZp:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__rHzZp:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1605,7 +1605,7 @@
 .accordion__aOnLc:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__aOnLc:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1798,7 +1798,7 @@
 .accordion__dwCtl:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__dwCtl:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -1910,7 +1910,7 @@
 .accordion__fUsZa:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .accordion__fUsZa:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2031,7 +2031,7 @@
   > * {
   margin-top: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceOrderParent {
     margin-top: 16px;
     margin-right: 0px;
@@ -2039,7 +2039,7 @@
     margin-left: calc(0px + 80px) !important;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceOrderParent {
     left: auto;
     top: auto;
@@ -2048,7 +2048,7 @@
     margin-top: calc(0px + 48px) !important;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceOrderParent > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -2078,7 +2078,7 @@
   > * {
   margin-top: 10px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .serviceCheckoutHeader {
     width: 100%;
     min-width: 0;
@@ -2164,7 +2164,7 @@
   width: auto;
   height: auto;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .servicePrice {
     width: 100%;
     min-width: 0;
@@ -2185,7 +2185,7 @@
   top: auto;
   position: relative;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .serviceCurrency {
     font-weight: 600;
   }
@@ -2203,7 +2203,7 @@
   height: auto;
   position: relative;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__uOdZo {
     font-weight: 600;
   }
@@ -2662,7 +2662,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary__sJt3M:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2683,7 +2683,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary__ma8Uo:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2704,7 +2704,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary__gzMur:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2798,14 +2798,14 @@
   left: 0px;
   top: 4544px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .footerB:global(.__wab_instance) {
     position: relative;
     left: auto;
     top: auto;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .footerB:global(.__wab_instance) {
     position: relative;
     left: auto;

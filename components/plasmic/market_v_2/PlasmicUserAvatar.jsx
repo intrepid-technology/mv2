@@ -125,10 +125,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___3LdP7)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -197,10 +195,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__uumyf)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -244,10 +240,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__ojhk6)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -299,12 +293,10 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___8P0W5)}
-                    height={400}
                     role={"img"}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
-                    width={400}
                   />
                 ),
 
@@ -365,12 +357,10 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__bqMj6)}
-                    height={400}
                     role={"img"}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
-                    width={400}
                   />
                 ),
 
@@ -434,12 +424,10 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__k1Wfk)}
-                    height={400}
                     role={"img"}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
-                    width={400}
                   />
                 ),
 
@@ -497,10 +485,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__ph0Zn)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -558,10 +544,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wowhz)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -619,10 +603,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___5ZfoV)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -674,10 +656,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___8TGwz)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 
@@ -736,10 +716,8 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__bEpM)}
-                    height={360}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image4.png"}
-                    width={360}
                   />
                 ),
 

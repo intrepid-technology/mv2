@@ -18,7 +18,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     width: 100%;
     height: auto;
@@ -26,7 +26,7 @@
     padding: 32px 0px 96px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
@@ -36,19 +36,19 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
     margin-top: 0px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent {
     padding: 32px 0px 96px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -56,7 +56,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -90,12 +90,12 @@
   margin-left: 0px;
   margin-top: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .formEmailConfirmation {
     width: 360px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .formEmailConfirmation > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -103,7 +103,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .formEmailConfirmation > :global(.__wab_flex-container) > *,
   .formEmailConfirmation
     > :global(.__wab_flex-container)
@@ -113,7 +113,7 @@
     margin-top: 32px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .formEmailConfirmation {
     width: 360px;
   }
@@ -146,7 +146,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textHeadline {
     width: 100%;
     min-width: 0;
@@ -185,7 +185,7 @@
 .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 12px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textDivParent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -193,14 +193,14 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textDivParent > :global(.__wab_flex-container) > *,
   .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
     margin-top: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .textDivParent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -208,7 +208,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .textDivParent > :global(.__wab_flex-container) > *,
   .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -230,7 +230,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textDivA {
     width: 100%;
     min-width: 0;
@@ -259,7 +259,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textDivB {
     width: 100%;
     min-width: 0;
@@ -273,7 +273,7 @@
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotTextSlotB {
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -298,7 +298,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .textDivC {
     width: 100%;
     min-width: 0;
@@ -312,7 +312,7 @@
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotTextSlotC {
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -357,7 +357,7 @@
   > * {
   margin-top: 4px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonResendHeadlineParent {
     width: 100%;
     height: auto;
@@ -366,7 +366,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonResendHeadlineParent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -374,7 +374,7 @@
     height: calc(100% + 4px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonResendHeadlineParent > :global(.__wab_flex-container) > *,
   .buttonResendHeadlineParent
     > :global(.__wab_flex-container)
@@ -401,7 +401,7 @@
 .buttonHeadline > :global(.__wab_flex-container) {
   flex-direction: column;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonHeadline {
     width: 100%;
     left: auto;
@@ -413,7 +413,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonHeadline > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -421,14 +421,14 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonHeadline > :global(.__wab_flex-container) > *,
   .buttonHeadline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
     margin-top: 0px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotButtonHeadlineTextSlot {
     font-size: 14px;
     font-family: "Inter", sans-serif;
@@ -442,7 +442,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .confirmationResend:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -459,7 +459,7 @@
   font-size: 16px;
   font-weight: 600;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__iYy4D {
     font-size: 16px;
     font-weight: 600;
@@ -476,7 +476,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonGoBackParent {
     width: 100%;
     min-width: 0;
@@ -486,24 +486,24 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__yK0Zp {
     height: auto;
     font-size: 16px;
     font-weight: 600;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__yK0Zp {
     font-weight: 600;
   }

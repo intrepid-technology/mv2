@@ -22,7 +22,7 @@
   min-width: 0;
   padding: 80px 40px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .privacyPolicyBody {
     font-weight: 500;
   }

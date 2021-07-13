@@ -22,8 +22,8 @@ export function ScreenVariantProvider(props) {
 }
 
 export const useScreenVariants = p.createUseScreenVariants(true, {
-  desktop: "(min-width:1152px) and (max-width:1440px)",
-  mobile: "(min-width:374px) and (max-width:414px)",
+  desktop: "(min-width:0px) and (max-width:1440px)",
+  mobile: "(min-width:0px) and (max-width:414px)",
 });
 
 export default ScreenContext;

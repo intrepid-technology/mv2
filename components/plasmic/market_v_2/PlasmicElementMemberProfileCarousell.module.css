@@ -26,7 +26,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     width: 100%;
     height: auto;
@@ -34,13 +34,13 @@
     padding: 8px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent {
     padding-right: 0px;
     padding-left: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -48,7 +48,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -61,7 +61,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .headlineLabelParent {
     width: 100%;
     height: auto;
@@ -87,7 +87,7 @@
   line-height: 1;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .slotHeadlineLabel {
     font-family: "Inter", sans-serif;
     font-size: 24px;
@@ -117,7 +117,7 @@
 .memberCarousel > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .memberCarousel {
     width: 100%;
     height: auto;
@@ -128,7 +128,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .memberCarousel > :global(.__wab_flex-container) {
     align-items: center;
     margin-left: calc(0px - 16px);
@@ -137,7 +137,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .memberCarousel > :global(.__wab_flex-container) > *,
   .memberCarousel > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 16px;
@@ -148,7 +148,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__bsvA6:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -168,7 +168,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile___8KFb7:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -188,7 +188,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile___1I8G:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -208,7 +208,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__ok35:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -228,7 +228,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__pPgt8:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -248,7 +248,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__ks5Sk:global(.__wab_instance) {
     flex-shrink: 0;
   }

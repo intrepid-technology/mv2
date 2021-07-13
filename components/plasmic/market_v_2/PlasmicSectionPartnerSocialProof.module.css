@@ -23,24 +23,24 @@
   margin-left: 32px;
   margin-top: 32px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root {
     padding-right: 180px;
   }
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .root > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: space-between;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) {
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -68,13 +68,13 @@
 .box___8TJh3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___8TJh3 {
     width: 360px;
     flex-shrink: 0;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___8TJh3 > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -82,7 +82,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___8TJh3 > :global(.__wab_flex-container) > *,
   .box___8TJh3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -118,7 +118,7 @@
   top: auto;
   width: auto;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___4ZfZw {
     font-size: 24px;
     line-height: 1.2;
@@ -134,7 +134,7 @@
   align-self: flex-start;
   display: inline-block;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__uYzUr {
     line-height: 1.2;
   }
@@ -152,12 +152,12 @@
   flex-shrink: 0;
   padding: 0px;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .box__fTqRj {
     height: auto;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__fTqRj {
     width: 360px;
     flex-shrink: 0;

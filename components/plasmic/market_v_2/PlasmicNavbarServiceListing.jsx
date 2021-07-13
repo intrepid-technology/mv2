@@ -62,14 +62,12 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
           className={classNames(defaultcss.img, sty.img, {
             [sty.img__color]: hasVariant(variants, "color", "color")
           })}
-          height={hasVariant(variants, "color", "color") ? 97 : 83}
           role={"img"}
           src={
             hasVariant(variants, "color", "color")
               ? "/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"
               : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
           }
-          width={hasVariant(variants, "color", "color") ? 300 : 300}
         />
       </LogoHeader>
 

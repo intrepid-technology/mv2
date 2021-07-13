@@ -17,7 +17,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -25,7 +25,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -59,13 +59,13 @@
 .box__xw3D5 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__xw3D5 {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__xw3D5 > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -73,7 +73,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__xw3D5 > :global(.__wab_flex-container) > *,
   .box__xw3D5 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -96,7 +96,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___8NTuR {
     display: block;
     font-size: 36px;
@@ -128,7 +128,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .buttonPrimary___39Sso:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -166,7 +166,7 @@
 .box__mNj8P > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mNj8P {
     flex-direction: column;
     width: 100%;
@@ -175,7 +175,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mNj8P > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -186,7 +186,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mNj8P > :global(.__wab_flex-container) > *,
   .box__mNj8P > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -295,7 +295,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___6REb0 {
     display: block;
     font-size: 32px;
@@ -349,7 +349,7 @@
 .box__rcvlP > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__rcvlP {
     width: 100%;
     min-width: 0;
@@ -441,7 +441,7 @@
   > * {
   margin-left: 0px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerMakerPricingTable {
     flex-direction: row;
     width: 100%;
@@ -450,7 +450,7 @@
     padding: 8px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerMakerPricingTable > :global(.__wab_flex-container) {
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -460,7 +460,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerMakerPricingTable > :global(.__wab_flex-container) > *,
   .partnerMakerPricingTable
     > :global(.__wab_flex-container)
@@ -492,7 +492,7 @@
 .featureParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .featureParent {
     width: 100%;
     left: auto;
@@ -888,7 +888,7 @@
 .box__ytqvk > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ytqvk {
     width: 100%;
     left: auto;
@@ -1018,7 +1018,7 @@
 .box__ndgje > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ndgje {
     flex-direction: column;
     width: 100%;
@@ -1027,7 +1027,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ndgje > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -1038,7 +1038,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__ndgje > :global(.__wab_flex-container) > *,
   .box__ndgje > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -1147,7 +1147,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__xSr4P {
     display: block;
     font-size: 32px;
@@ -1175,7 +1175,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box___58Cuj {
     display: block;
     font-size: 18px;
@@ -1217,7 +1217,7 @@
   margin-left: 16px;
   margin-top: 16px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerPricingTableSection {
     padding-left: 8px;
     padding-right: 8px;
@@ -1436,7 +1436,7 @@
 .box__jppWz > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__jppWz {
     flex-direction: column;
     width: 100%;
@@ -1445,7 +1445,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__jppWz > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -1456,7 +1456,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__jppWz > :global(.__wab_flex-container) > *,
   .box__jppWz > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -1562,7 +1562,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__xyCfg {
     display: block;
     font-size: 32px;
@@ -1601,13 +1601,13 @@
   margin-left: 48px;
   margin-top: 48px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__nM5Y {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__nM5Y > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -1615,7 +1615,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__nM5Y > :global(.__wab_flex-container) > *,
   .box__nM5Y > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -1642,7 +1642,7 @@
   border-width: 0px;
   border-style: none;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__z1I9A {
     padding: 4px;
   }
@@ -1818,13 +1818,13 @@
 .box__mZzs5 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mZzs5 {
     flex-direction: column;
     padding: 40px 24px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mZzs5 > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -1835,7 +1835,7 @@
     height: calc(100% + 48px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__mZzs5 > :global(.__wab_flex-container) > *,
   .box__mZzs5 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 0px;
@@ -1862,7 +1862,7 @@
 .box__a1PDa > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__a1PDa {
     width: 100%;
     min-width: 0;
@@ -1892,7 +1892,7 @@
   > * {
   margin-top: 24px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .overlineHeadline24 {
     width: 100%;
     min-width: 0;
@@ -1976,7 +1976,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .box__g9LgJ {
     display: block;
     font-size: 24px;

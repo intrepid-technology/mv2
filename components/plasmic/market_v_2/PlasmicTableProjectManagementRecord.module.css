@@ -506,7 +506,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .progressParent {
     display: none;
   }
@@ -1328,7 +1328,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .priceParent {
     display: none;
   }
@@ -1355,7 +1355,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .partnerAvatarParent {
     display: none;
   }
@@ -1386,7 +1386,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .notificationsParent {
     display: none;
   }
@@ -1412,7 +1412,7 @@
   width: 100px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .deliveryDateParent {
     display: none;
   }
@@ -1435,7 +1435,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .reviewParent {
     display: none;
   }
@@ -1545,7 +1545,7 @@
   width: 96px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .approvedParent {
     display: none;
   }
@@ -1563,7 +1563,7 @@
   width: 64px;
   flex-shrink: 0;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .cancelParent {
     display: none;
   }

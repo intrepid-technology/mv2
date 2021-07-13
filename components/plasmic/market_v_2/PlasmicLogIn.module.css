@@ -12,7 +12,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 1152px) and (max-width: 1440px) {
+@media (min-width: 0px) and (max-width: 1440px) {
   .navbarStatic:global(.__wab_instance) {
     flex-shrink: 0;
   }

@@ -153,9 +153,9 @@ function PlasmicHome__RenderFunc(props) {
                 )}
               >
                 {hasVariant(globalVariants, "screen", "mobile")
-                  ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare creative talent, get the financial services you need to live and work the way you want."
+                  ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare independent talent, get the financial services you need to live and work the way you want."
                   : hasVariant(globalVariants, "screen", "desktop")
-                  ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare talent, get the financial services you need to live and work the way you want."
+                  ? "Start, launch, and grow a business from anywhere in the world. Buy or sell technology & creative services, collaborate with rare independent talent–– Get the financial services you need to live and work the way you want."
                   : "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with talented designers and developers, get the financial services you need to live and work the way you want."}
               </div>
 
@@ -421,7 +421,7 @@ function PlasmicHome__RenderFunc(props) {
                     {hasVariant(globalVariants, "screen", "mobile")
                       ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
+                      ? "Get custom technology and creative services from a global community of independent professionals ready to help you grow and succeed."
                       : "A global community of professional technology creatives ready to help you grow and succeed."}
                   </div>
                 }
@@ -438,10 +438,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wa1LD)}
-                    height={751}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image31.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -474,10 +472,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___967W9)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image29.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -510,10 +506,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jJa2K)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image11.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -546,10 +540,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__sx00A)}
-                    height={655}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image30.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -606,8 +598,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__iWQf
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "A world of services for remote teams"
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Business services for remote teams"
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Business services for remote teams"
                       : "A world of services for dynamic teams"}
                   </div>
 
@@ -618,9 +612,11 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__x2Mg3
                     )}
                   >
-                    {
-                      "Curated services and products designed for modern entrepreneurs."
-                    }
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
+                      : "Curated services and products designed for modern entrepreneurs."}
                   </div>
                 </p.Stack>
 
@@ -693,10 +689,8 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___6CsQ)}
-                height={667}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image25.png"}
-                width={1000}
               />
             </p.Stack>
           </p.Stack>
@@ -753,10 +747,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wAuj8)}
-                    height={650}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image26.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -801,10 +793,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__cZqyO)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image27.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -849,10 +839,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__kbNFx)}
-                    height={1333}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image33.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -917,8 +905,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__bf3Y2
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Destination meetups for remote companies"
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Destination venues, events, and meetups for remote companies"
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Destination venues, events, and meetups for remote companies"
                       : "Destination meetups for remote teams"}
                   </div>
 
@@ -1004,10 +994,8 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__dQqz3)}
-                height={531}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image23.png"}
-                width={1000}
               />
             </p.Stack>
           </div>
@@ -1050,9 +1038,11 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__paM4A
                     )}
                   >
-                    {
-                      "Inspire and get inspired—host, teach, or join experiences that make a difference"
-                    }
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
+                      : "Inspire and get inspired—host, teach, or join experiences that make a difference"}
                   </div>
                 }
               />
@@ -1068,10 +1058,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__rezLt)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image18.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -1116,10 +1104,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__mwX2T)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image22.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -1164,10 +1150,8 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jdMs0)}
-                    height={667}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/image21.png"}
-                    width={1000}
                   />
                 }
                 className={classNames(
@@ -1242,9 +1226,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.box__vAxBa
                     )}
                   >
-                    {
-                      "Sell your professional technology & creative services—grow a global business by sharing your talents."
-                    }
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Sell your professional business, technology & creative services—grow a global business by sharing your talents."
+                      : "Sell your professional technology & creative services—grow a global business by sharing your talents."}
                   </div>
                 </p.Stack>
 
@@ -1317,10 +1301,8 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__rCc5H)}
-                height={1294}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image32.png"}
-                width={1000}
               />
             </p.Stack>
           </div>

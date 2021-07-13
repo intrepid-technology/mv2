@@ -45,7 +45,7 @@
   > * {
   margin-top: 32px;
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberManageProjectsHeader {
     display: flex;
     position: absolute;
@@ -58,7 +58,7 @@
     padding: 64px 24px;
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 374px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) > *,
   .sectionMemberManageProjectsHeader
     > :global(.__wab_flex-container)

@@ -84,10 +84,8 @@ function PlasmicSideBarMemberHeaderPanelNav__RenderFunc(props) {
                     data-plasmic-override={overrides.navUserAvatar182}
                     alt={""}
                     className={classNames(defaultcss.img, sty.navUserAvatar182)}
-                    height={1450}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
-                    width={1498}
                   />
                 }
                 navUserAvatar24={
@@ -96,10 +94,8 @@ function PlasmicSideBarMemberHeaderPanelNav__RenderFunc(props) {
                     data-plasmic-override={overrides.navUserAvatar242}
                     alt={""}
                     className={classNames(defaultcss.img, sty.navUserAvatar242)}
-                    height={1450}
                     role={"img"}
                     src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
-                    width={1498}
                   />
                 }
                 size={"_32"}

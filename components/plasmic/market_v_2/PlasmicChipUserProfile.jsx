@@ -66,10 +66,8 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__fsHtd)}
-                height={360}
                 role={"img"}
                 src={"/plasmic/market_v_2/images/image4.png"}
-                width={360}
               />
             ),
 
