@@ -4,9 +4,9 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff;
 }
 .navbarInternal:global(.__wab_instance) {
   position: relative;
@@ -46,7 +46,7 @@
   > * {
   margin-top: 32px;
 }
-.box___6QAYz {
+.freeBox___6QAYz {
   font-weight: 700;
 }
 .sectionTeamInviteMembers {
@@ -131,11 +131,11 @@
   > * {
   margin-top: 24px;
 }
-.box__ygMqo {
+.freeBox__ygMqo {
   height: auto;
   max-width: 328px;
 }
-.buttonPrimary___78XqV:global(.__wab_instance) {
+.buttonPrimary:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -200,13 +200,13 @@
 .inputTextForm__fayfn:global(.__wab_instance) {
   position: relative;
 }
-.box__ptzPj {
+.freeBox__ptzPj {
   font-weight: 600;
 }
 .selectGroupDropdownPrimary__gj5Rn:global(.__wab_instance) {
   position: relative;
 }
-.box___7A8Rf {
+.freeBox___7A8Rf {
   font-weight: 600;
 }
 .inviteMemberRecord {
@@ -264,7 +264,7 @@
   align-content: unset;
   min-width: 0;
 }
-.buttonPrimary___0SrOq:global(.__wab_instance) {
+.inviteMembers:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg__gAmwy {
@@ -322,7 +322,7 @@
   > * {
   margin-top: 24px;
 }
-.box__xopkA {
+.freeBox__xopkA {
   height: auto;
   max-width: 328px;
 }
@@ -393,8 +393,8 @@
   left: auto;
   width: 100%;
   height: auto;
-  min-width: 0;
   background: #f8f8f8;
+  min-width: 0;
   border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .tableSelectColumnParent > :global(.__wab_flex-container) {
@@ -411,530 +411,20 @@
   > * {
   margin-top: 2px;
 }
-.tableSelectHeaderRow {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 48px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  min-width: 0;
+.tableUserAdminHeader:global(.__wab_instance) {
   flex-shrink: 0;
-  background: #f8f8f8;
 }
-.radioTextInputPrimary:global(.__wab_instance) {
+.tableUserAdminRecord__m8Sk9:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-}
-.box__yQnJv {
-  font-weight: 600;
-  font-size: 16px;
-}
-.buttonCircleDelete__stXb0:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.memberAdminRow {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 48px;
-  left: auto;
-  top: auto;
-  min-width: 0;
   flex-shrink: 0;
-  padding: 4px 8px;
-  background: #ffffff;
 }
-.userAvatarNameEmailParent {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.userAvatarNameEmailParent > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.userAvatarNameEmailParent > :global(.__wab_flex-container) > *,
-.userAvatarNameEmailParent
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > * {
-  margin-left: 8px;
-}
-.elementRadioPrimary___2Zmrj:global(.__wab_instance) {
-  position: relative;
-  align-self: center;
-}
-.userAvatar__jpTpo:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.img__ymDg8 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 16px;
-  height: 16px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__mrBo {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__pl6A0 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__wJEkw {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__zx8F4 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__ix1Qd {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__nakNb {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___2AL1E {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__qY1Ah {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 64px;
-  height: 64px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__o7R4E {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__txU5U {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.userInfoParent {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.userInfoParent > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 4px);
-  height: calc(100% + 4px);
-}
-.userInfoParent > :global(.__wab_flex-container) > *,
-.userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 4px;
-}
-.usernameParent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-}
-.box__ms93E {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  font-weight: 500;
-  font-size: 14px;
-}
-.userEmailParent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-}
-.box___3WVqw {
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
-  font-size: 12px;
-}
-.selectFabParent2 {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.selectFabParent2 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.selectFabParent2 > :global(.__wab_flex-container) > *,
-.selectFabParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-left: 8px;
-}
-.statusTextParent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  padding: 2px 6px;
-}
-.box__xcea1 {
-  font-size: 12px;
-  font-weight: 500;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.buttonCircleDelete__zf93E:global(.__wab_instance) {
+.tableUserAdminRecord__fvCL:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-}
-.memberSelectRow {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 48px;
-  left: auto;
-  top: auto;
-  min-width: 0;
   flex-shrink: 0;
-  padding: 4px 8px;
-  background: #ffffff;
-}
-.userAvatarNameEmailParent2 {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.userAvatarNameEmailParent2 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.userAvatarNameEmailParent2 > :global(.__wab_flex-container) > *,
-.userAvatarNameEmailParent2
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > * {
-  margin-left: 8px;
-}
-.elementRadioPrimary__t9Rdd:global(.__wab_instance) {
-  position: relative;
-  align-self: center;
-}
-.userAvatar__mooz9:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.img__qgNzY {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 16px;
-  height: 16px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__r5D86 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__wAdB {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___5K9L0 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__xMvg {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__brBgE {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__e6QVi {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__nQdJp {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___8Hdpy {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 64px;
-  height: 64px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__gDNh {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__b1Kr {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.userInfoParent2 {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.userInfoParent2 > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 4px);
-  height: calc(100% + 4px);
-}
-.userInfoParent2 > :global(.__wab_flex-container) > *,
-.userInfoParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-top: 4px;
-}
-.usernameParent2 {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-}
-.box__hmRt4 {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  font-weight: 500;
-  font-size: 14px;
-}
-.userEmailParent2 {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-}
-.box__zf1Gy {
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
-  font-size: 12px;
-}
-.selectFabParent3 {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.selectFabParent3 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.selectFabParent3 > :global(.__wab_flex-container) > *,
-.selectFabParent3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
-  margin-left: 8px;
-}
-.selectGroupDropdownPrimary__sxrny:global(.__wab_instance) {
-  position: relative;
-}
-.buttonCircleDelete__qe4N:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
 }
 .footerB:global(.__wab_instance) {
   position: relative;

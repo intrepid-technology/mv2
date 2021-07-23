@@ -227,50 +227,50 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
         </div>
 
         <div
-          className={classNames(defaultcss.all, sty.box__opxOh, {
-            [sty.box__company_facebook__opxOhxT9Qo]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__opxOh, {
+            [sty.freeBox__company_facebook__opxOhxT9Qo]: hasVariant(
               variants,
               "company",
               "facebook"
             ),
 
-            [sty.box__company_google__opxOhRq0C0]: hasVariant(
+            [sty.freeBox__company_google__opxOhRq0C0]: hasVariant(
               variants,
               "company",
               "google"
             ),
 
-            [sty.box__company_paypal__opxOhBwH0S]: hasVariant(
+            [sty.freeBox__company_paypal__opxOhBwH0S]: hasVariant(
               variants,
               "company",
               "paypal"
             ),
 
-            [sty.box__company_stripe__opxOhu5Eip]: hasVariant(
+            [sty.freeBox__company_stripe__opxOhu5Eip]: hasVariant(
               variants,
               "company",
               "stripe"
             ),
 
-            [sty.box__company_xero__opxOhcG4Xh]: hasVariant(
+            [sty.freeBox__company_xero__opxOhcG4Xh]: hasVariant(
               variants,
               "company",
               "xero"
             ),
 
-            [sty.box__originalSizes__320Px__opxOhXIqxP]: hasVariant(
+            [sty.freeBox__originalSizes__320Px__opxOhXIqxP]: hasVariant(
               variants,
               "originalSizes",
               "_320Px"
             ),
 
-            [sty.box__width__120__opxOhQyftg]: hasVariant(
+            [sty.freeBox__width__120__opxOhQyftg]: hasVariant(
               variants,
               "width",
               "_120"
             ),
 
-            [sty.box__width__90__opxOhH55Vq]: hasVariant(
+            [sty.freeBox__width__90__opxOhH55Vq]: hasVariant(
               variants,
               "width",
               "_90"
@@ -281,207 +281,207 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__ajHU,
+              sty.freeBox__ajHU,
               {
-                [sty.box__company_facebook__ajHUxT9Qo]: hasVariant(
+                [sty.freeBox__company_facebook__ajHUxT9Qo]: hasVariant(
                   variants,
                   "company",
                   "facebook"
                 ),
 
-                [sty.box__company_facebook_width__120__ajHUxT9QoQyftg]:
+                [sty.freeBox__company_facebook_width__120__ajHUxT9QoQyftg]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_facebook_width__140__ajHUxT9QoFkfiu]:
+                [sty.freeBox__company_facebook_width__140__ajHUxT9QoFkfiu]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_facebook_width__160__ajHUxT9QoSxoMs]:
+                [sty.freeBox__company_facebook_width__160__ajHUxT9QoSxoMs]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_facebook_width__180__ajHUxT9Qo25PSc]:
+                [sty.freeBox__company_facebook_width__180__ajHUxT9Qo25PSc]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_180"),
-                [sty.box__company_facebook_width__270__ajHUxT9QoTt18T]:
+                [sty.freeBox__company_facebook_width__270__ajHUxT9QoTt18T]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_facebook_width__360__ajHUxT9QoD2Qi]:
+                [sty.freeBox__company_facebook_width__360__ajHUxT9QoD2Qi]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_360"),
-                [sty.box__company_facebook_width__90__ajHUxT9QoH55Vq]:
+                [sty.freeBox__company_facebook_width__90__ajHUxT9QoH55Vq]:
                   hasVariant(variants, "company", "facebook") &&
                   hasVariant(variants, "width", "_90"),
-                [sty.box__company_google__ajHURq0C0]: hasVariant(
+                [sty.freeBox__company_google__ajHURq0C0]: hasVariant(
                   variants,
                   "company",
                   "google"
                 ),
 
-                [sty.box__company_google_width__120__ajHURq0C0Qyftg]:
+                [sty.freeBox__company_google_width__120__ajHURq0C0Qyftg]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_google_width__140__ajHURq0C0Fkfiu]:
+                [sty.freeBox__company_google_width__140__ajHURq0C0Fkfiu]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_google_width__160__ajHURq0C0SxoMs]:
+                [sty.freeBox__company_google_width__160__ajHURq0C0SxoMs]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_google_width__180__ajHURq0C025PSc]:
+                [sty.freeBox__company_google_width__180__ajHURq0C025PSc]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_180"),
-                [sty.box__company_google_width__270__ajHURq0C0Tt18T]:
+                [sty.freeBox__company_google_width__270__ajHURq0C0Tt18T]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_google_width__90__ajHURq0C0H55Vq]:
+                [sty.freeBox__company_google_width__90__ajHURq0C0H55Vq]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_90"),
-                [sty.box__company_paypal__ajHUBwH0S]: hasVariant(
+                [sty.freeBox__company_paypal__ajHUBwH0S]: hasVariant(
                   variants,
                   "company",
                   "paypal"
                 ),
 
-                [sty.box__company_paypal_width__120__ajHUBwH0SQyftg]:
+                [sty.freeBox__company_paypal_width__120__ajHUBwH0SQyftg]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_paypal_width__140__ajHUBwH0SFkfiu]:
+                [sty.freeBox__company_paypal_width__140__ajHUBwH0SFkfiu]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_paypal_width__160__ajHUBwH0SSxoMs]:
+                [sty.freeBox__company_paypal_width__160__ajHUBwH0SSxoMs]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_paypal_width__180__ajHUBwH0S25PSc]:
+                [sty.freeBox__company_paypal_width__180__ajHUBwH0S25PSc]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_180"),
-                [sty.box__company_paypal_width__270__ajHUBwH0STt18T]:
+                [sty.freeBox__company_paypal_width__270__ajHUBwH0STt18T]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_paypal_width__360__ajHUBwH0SD2Qi]:
+                [sty.freeBox__company_paypal_width__360__ajHUBwH0SD2Qi]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_360"),
-                [sty.box__company_quickbooks__ajHUAr8Nj]: hasVariant(
+                [sty.freeBox__company_quickbooks__ajHUAr8Nj]: hasVariant(
                   variants,
                   "company",
                   "quickbooks"
                 ),
 
-                [sty.box__company_quickbooks_width__120__ajHUAr8NjQyftg]:
+                [sty.freeBox__company_quickbooks_width__120__ajHUAr8NjQyftg]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_quickbooks_width__140__ajHUAr8NjFkfiu]:
+                [sty.freeBox__company_quickbooks_width__140__ajHUAr8NjFkfiu]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_quickbooks_width__160__ajHUAr8NjSxoMs]:
+                [sty.freeBox__company_quickbooks_width__160__ajHUAr8NjSxoMs]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_quickbooks_width__180__ajHUAr8Nj25PSc]:
+                [sty.freeBox__company_quickbooks_width__180__ajHUAr8Nj25PSc]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_180"),
-                [sty.box__company_quickbooks_width__270__ajHUAr8NjTt18T]:
+                [sty.freeBox__company_quickbooks_width__270__ajHUAr8NjTt18T]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_quickbooks_width__90__ajHUAr8NjH55Vq]:
+                [sty.freeBox__company_quickbooks_width__90__ajHUAr8NjH55Vq]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_90"),
-                [sty.box__company_stripe__ajHUu5Eip]: hasVariant(
+                [sty.freeBox__company_stripe__ajHUu5Eip]: hasVariant(
                   variants,
                   "company",
                   "stripe"
                 ),
 
-                [sty.box__company_stripe_width__120__ajHUu5EipQyftg]:
+                [sty.freeBox__company_stripe_width__120__ajHUu5EipQyftg]:
                   hasVariant(variants, "company", "stripe") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_stripe_width__140__ajHUu5EipFkfiu]:
+                [sty.freeBox__company_stripe_width__140__ajHUu5EipFkfiu]:
                   hasVariant(variants, "company", "stripe") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_stripe_width__160__ajHUu5EipSxoMs]:
+                [sty.freeBox__company_stripe_width__160__ajHUu5EipSxoMs]:
                   hasVariant(variants, "company", "stripe") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_stripe_width__270__ajHUu5EipTt18T]:
+                [sty.freeBox__company_stripe_width__270__ajHUu5EipTt18T]:
                   hasVariant(variants, "company", "stripe") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_stripe_width__90__ajHUu5EipH55Vq]:
+                [sty.freeBox__company_stripe_width__90__ajHUu5EipH55Vq]:
                   hasVariant(variants, "company", "stripe") &&
                   hasVariant(variants, "width", "_90"),
-                [sty.box__company_xero__ajHUcG4Xh]: hasVariant(
+                [sty.freeBox__company_xero__ajHUcG4Xh]: hasVariant(
                   variants,
                   "company",
                   "xero"
                 ),
 
-                [sty.box__company_xero_width__120__ajHUcG4XhQyftg]:
+                [sty.freeBox__company_xero_width__120__ajHUcG4XhQyftg]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_120"),
-                [sty.box__company_xero_width__140__ajHUcG4XhFkfiu]:
+                [sty.freeBox__company_xero_width__140__ajHUcG4XhFkfiu]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_140"),
-                [sty.box__company_xero_width__160__ajHUcG4XhSxoMs]:
+                [sty.freeBox__company_xero_width__160__ajHUcG4XhSxoMs]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.box__company_xero_width__180__ajHUcG4Xh25PSc]:
+                [sty.freeBox__company_xero_width__180__ajHUcG4Xh25PSc]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_180"),
-                [sty.box__company_xero_width__270__ajHUcG4XhTt18T]:
+                [sty.freeBox__company_xero_width__270__ajHUcG4XhTt18T]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.box__company_xero_width__360__ajHUcG4XhD2Qi]:
+                [sty.freeBox__company_xero_width__360__ajHUcG4XhD2Qi]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_360"),
-                [sty.box__width__120__ajHUQyftg]: hasVariant(
+                [sty.freeBox__width__120__ajHUQyftg]: hasVariant(
                   variants,
                   "width",
                   "_120"
                 ),
 
-                [sty.box__width__140__ajHUFkfiu]: hasVariant(
+                [sty.freeBox__width__140__ajHUFkfiu]: hasVariant(
                   variants,
                   "width",
                   "_140"
                 ),
 
-                [sty.box__width__160__ajHUSxoMs]: hasVariant(
+                [sty.freeBox__width__160__ajHUSxoMs]: hasVariant(
                   variants,
                   "width",
                   "_160"
                 ),
 
-                [sty.box__width__180__ajHU25PSc]: hasVariant(
+                [sty.freeBox__width__180__ajHU25PSc]: hasVariant(
                   variants,
                   "width",
                   "_180"
                 ),
 
-                [sty.box__width__270__ajHUTt18T]: hasVariant(
+                [sty.freeBox__width__270__ajHUTt18T]: hasVariant(
                   variants,
                   "width",
                   "_270"
                 ),
 
-                [sty.box__width__360__ajHUd2Qi]: hasVariant(
+                [sty.freeBox__width__360__ajHUd2Qi]: hasVariant(
                   variants,
                   "width",
                   "_360"
                 ),
 
-                [sty.box__width__360_company_google__ajHUd2QiRq0C0]:
+                [sty.freeBox__width__360_company_google__ajHUd2QiRq0C0]:
                   hasVariant(variants, "width", "_360") &&
                   hasVariant(variants, "company", "google"),
-                [sty.box__width__360_company_quickbooks__ajHUd2QiAr8Nj]:
+                [sty.freeBox__width__360_company_quickbooks__ajHUd2QiAr8Nj]:
                   hasVariant(variants, "width", "_360") &&
                   hasVariant(variants, "company", "quickbooks"),
-                [sty.box__width__360_company_stripe__ajHUd2QiU5Eip]:
+                [sty.freeBox__width__360_company_stripe__ajHUd2QiU5Eip]:
                   hasVariant(variants, "width", "_360") &&
                   hasVariant(variants, "company", "stripe"),
-                [sty.box__width__90__ajHUH55Vq]: hasVariant(
+                [sty.freeBox__width__90__ajHUH55Vq]: hasVariant(
                   variants,
                   "width",
                   "_90"
                 ),
 
-                [sty.box__width__90_company_paypal__ajHUH55VqBwH0S]:
+                [sty.freeBox__width__90_company_paypal__ajHUH55VqBwH0S]:
                   hasVariant(variants, "width", "_90") &&
                   hasVariant(variants, "company", "paypal"),
-                [sty.box__width__90_company_xero__ajHUH55VqCG4Xh]:
+                [sty.freeBox__width__90_company_xero__ajHUH55VqCG4Xh]:
                   hasVariant(variants, "width", "_90") &&
                   hasVariant(variants, "company", "xero")
               }

@@ -6,8 +6,8 @@
   width: 360px;
   height: 32px;
   position: relative;
-  border-radius: 2px;
   background: #ffffff;
+  border-radius: 2px;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .root__width__270 {
@@ -31,7 +31,7 @@
 .root:hover {
   border-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.box__q5B {
+.freeBox__q5B {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -41,9 +41,9 @@
   height: 100%;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
+  background: #ffffff;
   min-height: 0;
   padding: 2px 4px;
-  background: #ffffff repeat;
 }
 .svg__epgKk {
   object-fit: cover;
@@ -63,9 +63,9 @@
   line-height: 1;
   align-self: center;
   white-space: pre;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .root .textbox:hover {
@@ -85,9 +85,9 @@
   top: auto;
   width: auto;
   height: 100%;
+  background: #f8f8f8;
   min-height: 0;
   padding: 2px 8px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .button > :global(.__wab_flex-container) {
@@ -109,7 +109,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
-.box___9YjYs {
+.freeBox___9YjYs {
   position: relative;
   line-height: 1;
   width: auto;

@@ -8,9 +8,9 @@
   border-top-width: 1px;
   border-left-width: 1px;
   position: relative;
+  background: #f8f8f8;
   border-radius: 2px;
   padding: 16px 8px;
-  background: #f8f8f8 repeat;
   border-style: solid;
   border-color: #dddddd /* plasmic-token: TctF8-gJH */;
 }
@@ -26,7 +26,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
-.box__qK279 {
+.freeBox__qK279 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -39,7 +39,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__a3KQy {
+.freeBox__a3KQy {
   font-size: 14px;
   width: auto;
   height: auto;
@@ -47,7 +47,7 @@
   font-weight: 700;
   display: inline-block;
 }
-.box__oogN2 {
+.freeBox__oogN2 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -60,7 +60,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__mA29P {
+.freeBox__mA29P {
   font-size: 14px;
   width: auto;
   height: auto;
@@ -68,7 +68,7 @@
   text-transform: uppercase;
   display: inline-block;
 }
-.box__oZw0L {
+.freeBox__oZw0L {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -81,7 +81,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__h0SDq {
+.freeBox__h0SDq {
   font-size: 14px;
   width: auto;
   height: auto;
@@ -89,7 +89,7 @@
   text-transform: uppercase;
   display: inline-block;
 }
-.box__zAdKr {
+.freeBox__zAdKr {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -102,7 +102,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__sJHmB {
+.freeBox__sJHmB {
   font-size: 14px;
   width: auto;
   height: auto;
@@ -110,7 +110,7 @@
   text-transform: uppercase;
   display: inline-block;
 }
-.box__pxwwt {
+.freeBox__pxwwt {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -123,7 +123,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__mlLbQ {
+.freeBox__mlLbQ {
   font-size: 14px;
   width: auto;
   height: auto;
@@ -131,7 +131,7 @@
   text-transform: uppercase;
   display: inline-block;
 }
-.box___3BaDh {
+.freeBox___3BaDh {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -144,7 +144,7 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box__mms1R {
+.freeBox__mms1R {
   font-size: 16px;
   width: auto;
   height: auto;

@@ -47,7 +47,7 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__ugz3J
+              sty.freeBox__ugz3J
             )}
           >
             {"Connect with"}
@@ -71,7 +71,7 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___3TJqg
+              sty.freeBox___3TJqg
             )}
           >
             {"Verify your team to activate payments and benefits"}

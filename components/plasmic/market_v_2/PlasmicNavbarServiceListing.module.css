@@ -6,8 +6,8 @@
   min-width: 414px;
   min-height: 80px;
   position: relative;
-  padding: 20px 40px;
   background: #ffffff;
+  padding: 20px 40px;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -51,7 +51,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.box {
+.freeBox {
   font-weight: 600;
 }
 .svg__gRiso {

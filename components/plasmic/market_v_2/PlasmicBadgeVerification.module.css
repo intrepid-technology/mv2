@@ -10,9 +10,9 @@
   flex-direction: row;
   width: auto;
   height: auto;
+  background: #3366ff;
   border-radius: 16px;
   padding: 2px 4px 2px 1px;
-  background: #3366ff;
   border-width: 0px;
   border-style: none;
 }
@@ -37,7 +37,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
-.box {
+.freeBox {
   position: relative;
   left: auto;
   top: auto;

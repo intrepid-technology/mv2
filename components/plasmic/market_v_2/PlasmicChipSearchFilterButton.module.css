@@ -6,9 +6,9 @@
   height: 32px;
   width: auto;
   position: relative;
+  background: #ffffff;
   border-radius: 4px;
   padding: 2px 6px;
-  background: #ffffff repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .buttonTrigger__trigger_disabled {

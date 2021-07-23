@@ -37,7 +37,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__t8H1X)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__t8H1X)}>
         <Icon48Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
@@ -55,7 +55,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__os5Mt
+            sty.freeBox__os5Mt
           )}
         >
           {"4.9"}
@@ -66,7 +66,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__br5LD
+          sty.freeBox__br5LD
         )}
       >
         {"|"}
@@ -81,7 +81,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__lsm4G
+            sty.freeBox__lsm4G
           )}
         >
           {"10"}
@@ -92,7 +92,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__iekLt
+          sty.freeBox__iekLt
         )}
       >
         {"Reviews"}

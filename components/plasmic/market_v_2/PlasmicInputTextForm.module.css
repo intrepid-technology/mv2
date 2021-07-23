@@ -126,10 +126,10 @@
   border-left-style: none;
   padding-bottom: 0px;
   padding-left: 6px;
+  background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #f8f8f8 repeat;
   border-color: #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .textbox__height__32 {
@@ -169,9 +169,9 @@
   padding-left: 6px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
+  background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
-  background: #f8f8f8;
   border-top: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
   border-right: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
   border-bottom: 2px solid #333333 /* plasmic-token: _aCbIOo4N */;

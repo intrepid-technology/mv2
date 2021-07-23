@@ -1,0 +1,902 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding: 0px;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.elementIconParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.svg__sibng {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__enSuX {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__zJey8 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__tRgpi {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__c88Uz {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___3Y68S {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hTfhz {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__o1ATm {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__uf0ZA {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__x7Eu5 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__mEoft {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__vt4Av {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___3Lz3Q {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__lGxws {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___7SbJb {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__nk9AI {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__j3OYe {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__ey09K {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___6IlXo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__wsiMg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__vIb4J {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hqxak {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___4OiEu {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__wiecG {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___0QqU7 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___4Yci {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___9AsA3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__ekQe9 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hLppt {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__qfEWo {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__idBwb {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__wKmUu {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__wI7H2 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___4HxUe {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___2X7N {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__aq5Vt {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__bg49H {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__mFbTk {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__qKU {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___8Ilvk {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__pC5Sw {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___1WTfD {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__b3UN9 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__wiTm3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__uVado {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__uhIpC {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__osJbi {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__vf4Ze {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___78Qsh {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___9Ad {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__s3Nop {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__fqSvX {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__o6S2O {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___7TbyG {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__tKyGn {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__nDvk9 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hZdmE {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__vzao {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__cfczd {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__eqpia {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__ysQ8 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__f3AEj {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___3ZwH {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__z4Vw {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__sDqZ {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__xm98A {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__pmJmj {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__zv3W {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__w5DsH {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__o2ZVz {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__zPz36 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___87J {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___5Mf3L {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__mwAsL {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__ijW5N {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__mGahw {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__rweyU {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__cLaFg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__nd6Hp {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__pOlA3 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__zCpm {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___7Zax5 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hxYs9 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__f9BL {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__juDvm {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__f6Xps {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__p8R7A {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__z4RP {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__pFdB9 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__i36Hd {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__xDzjQ {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__iBaTr {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__sHvXw {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___5KaRh {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__m8I4I {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hLj10 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__w2Vhl {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__hKfU6 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg__xGdEy {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.svg___6UKjb {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  min-width: 0;
+  min-height: 0;
+}
+.textParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.slotText {
+  font-size: 12px;
+}
+.slotText14Px {
+  font-size: 12px;
+}
+.slotText14Px__size__14 {
+  font-size: 14px;
+}
+.slotText16Px {
+  font-size: 12px;
+}
+.slotText16Px__size__16 {
+  font-size: 16px;
+}
+.slotText18Px {
+  font-size: 12px;
+}
+.slotText18Px__size__18 {
+  font-size: 18px;
+}
+.slotText24Px {
+  font-size: 12px;
+}
+.slotText24Px__size__24 {
+  font-size: 24px;
+}
+.slotText32Px {
+  font-size: 12px;
+}
+.slotText32Px__size__32 {
+  font-size: 32px;
+}
+.slotText40Px {
+  font-size: 12px;
+}
+.slotText40Px__size__40 {
+  font-size: 40px;
+}
+.slotText48Px {
+  font-size: 12px;
+}
+.slotText48Px__size__48 {
+  font-size: 48px;
+}
+.slotText64Px {
+  font-size: 12px;
+}
+.slotText64Px__size__64 {
+  font-size: 64px;
+}
+.slotText2 {
+  font-size: 12px;
+}
+.slotText2__size__80 {
+  font-size: 80px;
+}

@@ -94,7 +94,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__lZF)}
+            className={classNames(defaultcss.all, sty.freeBox__lZF)}
           >
             <p.Stack
               as={"div"}
@@ -113,7 +113,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pkXf3
+                      sty.freeBox__pkXf3
                     )}
                   >
                     {"Step 1"}
@@ -125,7 +125,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zq3QH
+                    sty.freeBox__zq3QH
                   )}
                 >
                   {"What kind of service are you listing?"}
@@ -135,7 +135,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__x298X)}
+                className={classNames(defaultcss.all, sty.freeBox__x298X)}
               >
                 <ButtonFormDropdownSelect
                   dropdownTitle={"Select"}
@@ -171,7 +171,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__jpq5H)}
+            className={classNames(defaultcss.all, sty.freeBox__jpq5H)}
           >
             <p.Stack
               as={"div"}
@@ -191,7 +191,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3EZpz
+                      sty.freeBox___3EZpz
                     )}
                   >
                     {"Step 2"}
@@ -203,7 +203,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___1Seve
+                    sty.freeBox___1Seve
                   )}
                 >
                   {"What features are included?"}
@@ -234,7 +234,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__wMqc)}
+            className={classNames(defaultcss.all, sty.freeBox__wMqc)}
           >
             <p.Stack
               as={"div"}
@@ -254,7 +254,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ec2Tr
+                      sty.freeBox__ec2Tr
                     )}
                   >
                     {"Step 2"}
@@ -266,7 +266,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__bmB1
+                    sty.freeBox__bmB1
                   )}
                 >
                   {"What content is included?"}
@@ -297,7 +297,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__anJua)}
+            className={classNames(defaultcss.all, sty.freeBox__anJua)}
           >
             <p.Stack
               as={"div"}
@@ -317,7 +317,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__x2Yx9
+                      sty.freeBox__x2Yx9
                     )}
                   >
                     {"Step 2"}
@@ -328,7 +328,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__bIpMh
+                      sty.freeBox__bIpMh
                     )}
                   >
                     {"Choose industry tags for better matching. Max 5 tags."}
@@ -339,7 +339,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__kUwyk
+                    sty.freeBox__kUwyk
                   )}
                 >
                   {"What is the industry community for your service?"}
@@ -360,7 +360,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__iTzFp
+                      sty.freeBox__iTzFp
                     )}
                   >
                     {"Badge"}
@@ -378,7 +378,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__i3Mav
+                      sty.freeBox__i3Mav
                     )}
                   >
                     {"Badge"}
@@ -396,7 +396,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__kItB5
+                      sty.freeBox__kItB5
                     )}
                   >
                     {"Badge"}
@@ -414,7 +414,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3KdQz
+                      sty.freeBox___3KdQz
                     )}
                   >
                     {"Badge"}
@@ -432,7 +432,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__bDUg
+                      sty.freeBox__bDUg
                     )}
                   >
                     {"Badge"}
@@ -450,7 +450,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__cCYr
+                      sty.freeBox__cCYr
                     )}
                   >
                     {"Badge"}
@@ -471,7 +471,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__sdBU)}
+            className={classNames(defaultcss.all, sty.freeBox__sdBU)}
           >
             <p.Stack
               as={"div"}
@@ -491,7 +491,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___5Hiy
+                      sty.freeBox___5Hiy
                     )}
                   >
                     {"Step 2"}
@@ -505,7 +505,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__dwbMk
+                    sty.freeBox__dwbMk
                   )}
                 >
                   {"What tools, or technology do you use for your service?"}
@@ -529,7 +529,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__x1CJ
+                      sty.freeBox__x1CJ
                     )}
                   >
                     {"Badge"}
@@ -547,7 +547,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xco1P
+                      sty.freeBox__xco1P
                     )}
                   >
                     {"Badge"}
@@ -565,7 +565,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___9Y1PI
+                      sty.freeBox___9Y1PI
                     )}
                   >
                     {"Badge"}
@@ -583,7 +583,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ptPw5
+                      sty.freeBox__ptPw5
                     )}
                   >
                     {"Badge"}
@@ -601,7 +601,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ioDe
+                      sty.freeBox__ioDe
                     )}
                   >
                     {"Badge"}
@@ -619,7 +619,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xKpSu
+                      sty.freeBox__xKpSu
                     )}
                   >
                     {"Badge"}
@@ -639,7 +639,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box___1Gzs4
+                  sty.freeBox___1Gzs4
                 )}
               >
                 {

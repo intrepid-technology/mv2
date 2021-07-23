@@ -6,11 +6,11 @@
   width: 160px;
   height: 32px;
   position: relative;
-  border-radius: 2px;
   background: #ffffff;
+  border-radius: 2px;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
-.box__ikhqW {
+.freeBox__ikhqW {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -20,12 +20,12 @@
   top: auto;
   width: auto;
   height: 100%;
+  background: #f8f8f8;
   min-height: 0;
   padding: 2px 8px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__oNaxf {
+.freeBox__oNaxf {
   position: relative;
   line-height: 1;
   width: auto;
@@ -46,12 +46,12 @@
   line-height: 1;
   align-self: center;
   white-space: pre;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__kE6E {
+.freeBox__kE6E {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -61,9 +61,9 @@
   top: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   padding: 4px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .svg {

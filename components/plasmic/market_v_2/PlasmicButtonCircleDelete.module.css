@@ -17,7 +17,7 @@
   border-style: none;
 }
 .root:hover .button {
-  background: #f8f8ff repeat;
+  background: #f8f8ff;
 }
 .svgParent {
   display: flex;

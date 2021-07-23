@@ -42,7 +42,7 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__bnyId)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__bnyId)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
@@ -59,10 +59,10 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__c4Vbs)}
+        className={classNames(defaultcss.all, sty.freeBox__c4Vbs)}
       >
-        <div className={classNames(defaultcss.all, sty.box__tiR07)}>
-          <div className={classNames(defaultcss.all, sty.box__ip4Zv)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__tiR07)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__ip4Zv)}>
             {p.renderPlasmicSlot({
               defaultContents: "Company Name",
               value: args.children,
@@ -71,8 +71,8 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__aErxH)}>
-          <div className={classNames(defaultcss.all, sty.box__ekYil)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__aErxH)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__ekYil)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <TextLocation
@@ -89,8 +89,8 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__nw1AZ)}>
-          <div className={classNames(defaultcss.all, sty.box__ud2Ok)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__nw1AZ)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__ud2Ok)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Company Description - the tagline that describes them",

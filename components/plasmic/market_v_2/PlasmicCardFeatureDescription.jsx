@@ -65,7 +65,7 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
         >
           {p.renderPlasmicSlot({
             defaultContents: (
-              <div className={classNames(defaultcss.all, sty.box__mdvci)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__mdvci)}>
                 <PlusBoldIcon
                   className={classNames(defaultcss.all, sty.svg___8Asoz)}
                   role={"img"}

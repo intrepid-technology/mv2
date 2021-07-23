@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 12px;
 }
-.box {
+.freeBox {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;
@@ -56,10 +56,10 @@
   > * {
   margin-top: 16px;
 }
-.box__mUsKx {
+.freeBox__mUsKx {
   font-size: 14px;
 }
-.box__aSr41 {
+.freeBox__aSr41 {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -67,8 +67,8 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  border-radius: 100px;
   background: #00ccbb;
+  border-radius: 100px;
 }
 .svg__tkj8K {
   object-fit: cover;
@@ -77,10 +77,10 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
-.box__fnf3Q {
+.freeBox__fnf3Q {
   height: auto;
 }
-.box___1JBwQ {
+.freeBox___1JBwQ {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -88,8 +88,8 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  border-radius: 100px;
   background: #00ccbb;
+  border-radius: 100px;
 }
 .svg__kSOe {
   object-fit: cover;
@@ -98,7 +98,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
-.box__anYvS {
+.freeBox__anYvS {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -106,8 +106,8 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  border-radius: 100px;
   background: #00ccbb;
+  border-radius: 100px;
 }
 .svg__jbend {
   object-fit: cover;
@@ -116,7 +116,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
-.box__ucKtb {
+.freeBox__ucKtb {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -124,8 +124,8 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  border-radius: 100px;
   background: #00ccbb;
+  border-radius: 100px;
 }
 .svg__lwiHm {
   object-fit: cover;
@@ -134,7 +134,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
-.box__scJay {
+.freeBox__scJay {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -142,8 +142,8 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  border-radius: 100px;
   background: #00ccbb;
+  border-radius: 100px;
 }
 .svg__jRj3F {
   object-fit: cover;

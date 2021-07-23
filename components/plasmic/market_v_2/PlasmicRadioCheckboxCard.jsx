@@ -53,15 +53,20 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
       )}
     >
       <div
-        className={classNames(defaultcss.all, sty.box__xdan5, {
-          [sty.box__size__270__xdan5Y2Fsu]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox__xdan5, {
+          [sty.freeBox__size__270__xdan5Y2Fsu]: hasVariant(
             variants,
             "size",
             "_270"
           ),
 
-          [sty.box__size__90__xdan5DxVnv]: hasVariant(variants, "size", "_90"),
-          [sty.box__state_selected__xdan5Bi1Xj]: hasVariant(
+          [sty.freeBox__size__90__xdan5DxVnv]: hasVariant(
+            variants,
+            "size",
+            "_90"
+          ),
+
+          [sty.freeBox__state_selected__xdan5Bi1Xj]: hasVariant(
             variants,
             "state",
             "selected"
@@ -95,9 +100,14 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(defaultcss.all, sty.box__l835R, {
-          [sty.box__size__90__l835RDxVnv]: hasVariant(variants, "size", "_90"),
-          [sty.box__state_selected__l835Rbi1Xj]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox__l835R, {
+          [sty.freeBox__size__90__l835RDxVnv]: hasVariant(
+            variants,
+            "size",
+            "_90"
+          ),
+
+          [sty.freeBox__state_selected__l835Rbi1Xj]: hasVariant(
             variants,
             "state",
             "selected"
@@ -105,14 +115,14 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
         })}
       >
         <div
-          className={classNames(defaultcss.all, sty.box___6RQyQ, {
-            [sty.box__size__90___6RQyQDxVnv]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox___6RQyQ, {
+            [sty.freeBox__size__90___6RQyQDxVnv]: hasVariant(
               variants,
               "size",
               "_90"
             ),
 
-            [sty.box__state_selected___6RQyQbi1Xj]: hasVariant(
+            [sty.freeBox__state_selected___6RQyQbi1Xj]: hasVariant(
               variants,
               "state",
               "selected"

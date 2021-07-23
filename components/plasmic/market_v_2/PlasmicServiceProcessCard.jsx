@@ -45,13 +45,17 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__pnfW4, {
-          [sty.box__size__360__pnfW4KfHaw]: hasVariant(variants, "size", "_360")
+        className={classNames(defaultcss.all, sty.freeBox__pnfW4, {
+          [sty.freeBox__size__360__pnfW4KfHaw]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
         })}
       >
         <div
-          className={classNames(defaultcss.all, sty.box__yqk8E, {
-            [sty.box__size__360__yqk8EKfHaw]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__yqk8E, {
+            [sty.freeBox__size__360__yqk8EKfHaw]: hasVariant(
               variants,
               "size",
               "_360"

@@ -43,9 +43,9 @@
   height: auto;
   flex-wrap: nowrap;
   align-content: flex-start;
+  background: #ffffff;
   min-width: 0;
   padding: 64px 180px;
-  background: #ffffff;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv {

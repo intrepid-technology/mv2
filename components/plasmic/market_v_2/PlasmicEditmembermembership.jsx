@@ -113,7 +113,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__hgKv2
+                    sty.freeBox__hgKv2
                   )}
                 >
                   {"Plan & perks"}
@@ -126,7 +126,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box___270NR)}
+              className={classNames(defaultcss.all, sty.freeBox___270NR)}
             >
               <CardHeaderTitlePrimary
                 className={classNames(
@@ -138,7 +138,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___9RndH
+                      sty.freeBox___9RndH
                     )}
                   >
                     {"Your personal account membership plan details"}
@@ -151,9 +151,11 @@ function PlasmicEditmembermembership__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__xZ1Ml)}
+                className={classNames(defaultcss.all, sty.freeBox__xZ1Ml)}
               >
-                <div className={classNames(defaultcss.all, sty.box___9Ncec)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___9Ncec)}
+                >
                   <TagMemberD
                     data-plasmic-name={"tagMemberD"}
                     data-plasmic-override={overrides.tagMemberD}
@@ -165,7 +167,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__b8WcN
+                    sty.freeBox__b8WcN
                   )}
                 >
                   {
@@ -177,7 +179,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__jfV1S)}
+                className={classNames(defaultcss.all, sty.freeBox__jfV1S)}
               >
                 <ButtonLinkPrimary
                   className={classNames(
@@ -217,7 +219,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__hByDk)}
+              className={classNames(defaultcss.all, sty.freeBox__hByDk)}
             >
               <CardHeaderTitlePrimary
                 className={classNames(
@@ -229,7 +231,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ikHur
+                      sty.freeBox__ikHur
                     )}
                   >
                     {
@@ -241,7 +243,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                 {"Payment methods"}
               </CardHeaderTitlePrimary>
 
-              <div className={classNames(defaultcss.all, sty.box__mAd0)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__mAd0)}>
                 <TableBillingHeader
                   data-plasmic-name={"tableBillingHeader"}
                   data-plasmic-override={overrides.tableBillingHeader}
@@ -286,7 +288,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box___5Ypvv)}
+              className={classNames(defaultcss.all, sty.freeBox___5Ypvv)}
             >
               <CardHeaderTitlePrimary
                 className={classNames(
@@ -298,7 +300,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___39KjA
+                      sty.freeBox___39KjA
                     )}
                   >
                     {
@@ -310,7 +312,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                 {"Payment history"}
               </CardHeaderTitlePrimary>
 
-              <div className={classNames(defaultcss.all, sty.box__fL0L0)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__fL0L0)}>
                 <TableMembershipHeader
                   data-plasmic-name={"tableMembershipHeader"}
                   data-plasmic-override={overrides.tableMembershipHeader}

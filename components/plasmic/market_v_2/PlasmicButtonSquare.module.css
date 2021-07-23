@@ -6,12 +6,12 @@
   width: 32px;
   height: 32px;
   position: relative;
+  background: #000000;
   border-radius: 2px;
   padding: 8px;
-  background: #000000;
   border: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;

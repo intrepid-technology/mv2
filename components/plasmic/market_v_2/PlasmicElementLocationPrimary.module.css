@@ -134,7 +134,7 @@
     line-height: 1;
   }
 }
-.box {
+.freeBox {
   display: inline-block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -148,7 +148,7 @@
   height: auto;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box {
+  .freeBox {
     font-size: 14px;
   }
 }

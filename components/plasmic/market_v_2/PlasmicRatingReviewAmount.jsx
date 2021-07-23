@@ -34,8 +34,8 @@ function PlasmicRatingReviewAmount__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__q5Y0Z)}>
-        <div className={classNames(defaultcss.all, sty.box___6AahO)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__q5Y0Z)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___6AahO)}>
           {p.renderPlasmicSlot({
             defaultContents: "(12)",
             value: args.children,

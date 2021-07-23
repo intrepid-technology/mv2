@@ -67,7 +67,7 @@
   height: auto;
   min-width: 0;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;

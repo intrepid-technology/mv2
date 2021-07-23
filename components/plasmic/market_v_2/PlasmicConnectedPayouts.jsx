@@ -103,7 +103,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__okVi8
+                sty.freeBox__okVi8
               )}
             >
               {"companyName"}
@@ -114,7 +114,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__jJiBu
+                sty.freeBox__jJiBu
               )}
             >
               {"userLastName"}
@@ -157,7 +157,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__jftdj
+                sty.freeBox__jftdj
               )}
             >
               {"companyName"}
@@ -168,7 +168,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___0GTCk
+                sty.freeBox___0GTCk
               )}
             >
               {"userLastName"}

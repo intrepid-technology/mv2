@@ -107,7 +107,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vlHiI
+                      sty.freeBox__vlHiI
                     )}
                   >
                     {"Edit listing"}
@@ -157,7 +157,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__yCvUi
+                            sty.freeBox__yCvUi
                           )}
                         >
                           {"Edit"}
@@ -191,7 +191,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box___3XuJv
+                            sty.freeBox___3XuJv
                           )}
                         >
                           {"Edit"}

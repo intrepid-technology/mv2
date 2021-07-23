@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  border-radius: 0px;
   background: #000000;
+  border-radius: 0px;
   border: 2px none #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 .buttonPrimary__color_success {
@@ -85,7 +85,7 @@
   background: none;
 }
 .buttonPrimary__type_ghost {
-  background: #f8f8ff repeat;
+  background: #f8f8ff;
   border: 2px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .buttonPrimary__type_light {
@@ -133,7 +133,7 @@
   border-color: #f5ccd6 /* plasmic-token: oKZqK_X__ */;
 }
 .buttonPrimary__type_ghost_color_brand {
-  background: #f8f8ff repeat;
+  background: #f8f8ff;
   border: 1px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .buttonPrimary__type_link_color_success {
@@ -161,9 +161,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #f8f8ff;
   flex-row-gap: 0px;
   border-radius: 0px;
-  background: #f8f8ff;
   border: 2px none #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary__type_link_color_caution {
@@ -181,9 +181,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #f8f8ff;
   flex-row-gap: 0px;
   border-radius: 0px;
-  background: #f8f8ff repeat;
   border: 2px none #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary__type_link_color_alert {
@@ -197,9 +197,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #f8f8ff;
   flex-row-gap: 0px;
   border-radius: 0px;
-  background: #f8f8ff;
   border: 2px none #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary__type_link_color_blue {
@@ -212,9 +212,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #f8f8ff;
   flex-row-gap: 0px;
   border-radius: 0px;
-  background: #f8f8ff;
   border: 2px none #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary__type_link_color_magenta {
@@ -227,9 +227,9 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background: #f8f8ff;
   flex-row-gap: 0px;
   border-radius: 0px;
-  background: #f8f8ff;
   border: 2px none #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary__type_light_color_blue {
@@ -413,8 +413,8 @@
 }
 .iconTextParent__type_ghost_color_brand {
   height: 100%;
-  min-height: 0;
   background: none;
+  min-height: 0;
   border-width: 2px;
 }
 .iconTextParent__type_ghost_color_success {

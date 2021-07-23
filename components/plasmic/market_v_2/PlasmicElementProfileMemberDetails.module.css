@@ -129,7 +129,7 @@
 .memberBadges > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 8px;
 }
-.box__wpQmj {
+.freeBox__wpQmj {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -145,7 +145,7 @@
     flex-shrink: 0;
   }
 }
-.box__yoDnP {
+.freeBox__yoDnP {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -546,7 +546,7 @@
   justify-content: space-between;
   width: auto;
 }
-.box__zJxej {
+.freeBox__zJxej {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -563,7 +563,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box__vPsIx {
+.freeBox__vPsIx {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -710,7 +710,7 @@
   justify-content: space-between;
   width: auto;
 }
-.box__rovGm {
+.freeBox__rovGm {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -720,7 +720,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-.box__h9Ew {
+.freeBox__h9Ew {
   display: inline-block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -740,7 +740,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box__rAn6N {
+.freeBox__rAn6N {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -887,7 +887,7 @@
   justify-content: space-between;
   width: auto;
 }
-.box__zQj11 {
+.freeBox__zQj11 {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -904,7 +904,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box___3O7Bo {
+.freeBox___3O7Bo {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -915,7 +915,7 @@
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box___3O7Bo {
+  .freeBox___3O7Bo {
     display: block;
     font-size: 14px;
     font-family: "Inter", sans-serif;

@@ -49,7 +49,7 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
         [sty.root__width__540]: hasVariant(variants, "width", "_540")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.box__q5B)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__q5B)}>
         <SearchPlusIcon
           className={classNames(defaultcss.all, sty.svg__epgKk)}
           role={"img"}
@@ -82,7 +82,7 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___9YjYs
+            sty.freeBox___9YjYs
           )}
         >
           {"Add"}

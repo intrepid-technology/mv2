@@ -67,7 +67,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               [sty.labelParent__label]: hasVariant(variants, "label", "label")
             })}
           >
-            <div className={classNames(defaultcss.all, sty.box__vyC13)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__vyC13)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Label",
                 value: args.children,
@@ -180,7 +180,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               )
             })}
           >
-            <div className={classNames(defaultcss.all, sty.box___9Iita)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___9Iita)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Description",
                 value: args.slot,

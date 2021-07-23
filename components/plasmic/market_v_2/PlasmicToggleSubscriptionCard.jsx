@@ -42,46 +42,46 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__x3Lz4)}
+        className={classNames(defaultcss.all, sty.freeBox__x3Lz4)}
       >
-        <div className={classNames(defaultcss.all, sty.box___59Etq)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___59Etq)}>
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___7BqmP,
+              sty.freeBox___7BqmP,
               {
-                [sty.box__active_autorenew___7BqmPlnhdG]: hasVariant(
+                [sty.freeBox__active_autorenew___7BqmPlnhdG]: hasVariant(
                   variants,
                   "active",
                   "autorenew"
                 ),
 
-                [sty.box__active_placement___7BqmP6LMlB]: hasVariant(
+                [sty.freeBox__active_placement___7BqmP6LMlB]: hasVariant(
                   variants,
                   "active",
                   "placement"
                 ),
 
-                [sty.box__active_yearly___7BqmPcmaHv]: hasVariant(
+                [sty.freeBox__active_yearly___7BqmPcmaHv]: hasVariant(
                   variants,
                   "active",
                   "yearly"
                 ),
 
-                [sty.box__inactive_autorenew___7BqmPeReNk]: hasVariant(
+                [sty.freeBox__inactive_autorenew___7BqmPeReNk]: hasVariant(
                   variants,
                   "inactive",
                   "autorenew"
                 ),
 
-                [sty.box__inactive_placement___7BqmP1Wg4F]: hasVariant(
+                [sty.freeBox__inactive_placement___7BqmP1Wg4F]: hasVariant(
                   variants,
                   "inactive",
                   "placement"
                 ),
 
-                [sty.box__inactive_yearly___7BqmPw0RxE]: hasVariant(
+                [sty.freeBox__inactive_yearly___7BqmPw0RxE]: hasVariant(
                   variants,
                   "inactive",
                   "yearly"
@@ -109,7 +109,7 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__ljIaA)}
+        className={classNames(defaultcss.all, sty.freeBox__ljIaA)}
       >
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}

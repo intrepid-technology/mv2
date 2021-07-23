@@ -45,9 +45,9 @@
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 16px 0px #00000033;
+  background: #ffffff;
   min-width: 0;
   border-radius: 4px;
-  background: #ffffff;
 }
 .right {
   display: flex;

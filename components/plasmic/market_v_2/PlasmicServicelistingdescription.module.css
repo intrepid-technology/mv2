@@ -4,9 +4,9 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -36,7 +36,7 @@
   left: auto;
   flex-shrink: 0;
 }
-.box___09Zdm {
+.freeBox___09Zdm {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -47,15 +47,15 @@
   min-width: 0;
   padding: 40px 180px;
 }
-.box___09Zdm > :global(.__wab_flex-container) {
+.freeBox___09Zdm > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
-.box___09Zdm > :global(.__wab_flex-container) > *,
-.box___09Zdm > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___09Zdm > :global(.__wab_flex-container) > *,
+.freeBox___09Zdm > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 360px;
 }
 .questionTitleBlock {
@@ -79,7 +79,7 @@
   > * {
   margin-top: 64px;
 }
-.box__laelq {
+.freeBox__laelq {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -89,7 +89,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__nr931 {
+.freeBox__nr931 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .inputTextField:global(.__wab_instance) {
@@ -108,7 +108,7 @@
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.box__qeVgc {
+.freeBox__qeVgc {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -119,15 +119,15 @@
   min-width: 0;
   padding: 40px 180px;
 }
-.box__qeVgc > :global(.__wab_flex-container) {
+.freeBox__qeVgc > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
-.box__qeVgc > :global(.__wab_flex-container) > *,
-.box__qeVgc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__qeVgc > :global(.__wab_flex-container) > *,
+.freeBox__qeVgc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 360px;
 }
 .questionDescriptionBlock {
@@ -153,7 +153,7 @@
   > * {
   margin-top: 64px;
 }
-.box___0B5MK {
+.freeBox___0B5MK {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -163,7 +163,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__uc5Jc {
+.freeBox__uc5Jc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .inputRichTextField__tm58R:global(.__wab_instance) {
@@ -182,7 +182,7 @@
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.box__axd3H {
+.freeBox__axd3H {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -193,15 +193,15 @@
   min-width: 0;
   padding: 40px 180px;
 }
-.box__axd3H > :global(.__wab_flex-container) {
+.freeBox__axd3H > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
-.box__axd3H > :global(.__wab_flex-container) > *,
-.box__axd3H > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__axd3H > :global(.__wab_flex-container) > *,
+.freeBox__axd3H > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 360px;
 }
 .questionProcessBlock {
@@ -227,25 +227,25 @@
   > * {
   margin-top: 64px;
 }
-.box__j5P5R {
+.freeBox__j5P5R {
   display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
   left: auto;
 }
-.box__j5P5R > :global(.__wab_flex-container) {
+.freeBox__j5P5R > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
 }
-.box__j5P5R > :global(.__wab_flex-container) > *,
-.box__j5P5R > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__j5P5R > :global(.__wab_flex-container) > *,
+.freeBox__j5P5R > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
-.box__io8Zz {
+.freeBox__io8Zz {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -255,10 +255,10 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-.box__vqvCv {
+.freeBox__vqvCv {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.box__wEkof {
+.freeBox__wEkof {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
 .inputRichTextField__y56Zz:global(.__wab_instance) {
@@ -266,7 +266,7 @@
   top: auto;
   left: auto;
 }
-.box__oslf {
+.freeBox__oslf {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -275,18 +275,18 @@
   left: auto;
   top: auto;
 }
-.box__oslf > :global(.__wab_flex-container) {
+.freeBox__oslf > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
-.box__oslf > :global(.__wab_flex-container) > *,
-.box__oslf > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__oslf > :global(.__wab_flex-container) > *,
+.freeBox__oslf > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 6px;
 }
-.box__mnyPp {
+.freeBox__mnyPp {
   position: relative;
   left: auto;
   top: auto;

@@ -130,7 +130,7 @@
 .root .svg:hover {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.box {
+.freeBox {
   display: block;
   font-size: 40px;
   font-family: "Inter", sans-serif;
@@ -147,14 +147,14 @@
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box {
+  .freeBox {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box {
+  .freeBox {
     font-size: 40px;
     line-height: 1.5;
   }

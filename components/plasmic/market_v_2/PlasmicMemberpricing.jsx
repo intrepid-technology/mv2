@@ -22,7 +22,7 @@ import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // plasmic-import: XT0p4nILA-/component
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
-import PricingTable from "../../PricingTable"; // plasmic-import: TN5u_5IVRmW/component
+import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import InputEmailB from "../../InputEmailB"; // plasmic-import: TlHGxonFgD/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
@@ -96,13 +96,13 @@ function PlasmicMemberpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__uQKl)}
+            className={classNames(defaultcss.all, sty.freeBox__uQKl)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__ss2Wb
+                sty.freeBox__ss2Wb
               )}
             >
               {"A global community built for startups & creators."}
@@ -112,7 +112,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__pI4Oq
+                sty.freeBox__pI4Oq
               )}
             >
               {
@@ -129,7 +129,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__sBo9D
+                  sty.freeBox__sBo9D
                 )}
               >
                 {"Start for free"}
@@ -140,7 +140,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___5DQ)}
+            className={classNames(defaultcss.all, sty.freeBox___5DQ)}
           >
             <p.Stack
               as={"div"}
@@ -152,19 +152,21 @@ function PlasmicMemberpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__aBpIt)}
+                className={classNames(defaultcss.all, sty.freeBox__aBpIt)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg__b6Bvc)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box___8Cd4H)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___8Cd4H)}
+                >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__n4LI
+                      sty.freeBox__n4LI
                     )}
                   >
                     {"Free to join"}
@@ -181,7 +183,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__hUveS
+                  sty.freeBox__hUveS
                 )}
               >
                 {"We help you grow your startup and make money as a creator."}
@@ -191,23 +193,23 @@ function PlasmicMemberpricing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box___4IPyi)}
+              className={classNames(defaultcss.all, sty.freeBox___4IPyi)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__hRCce)}
+                className={classNames(defaultcss.all, sty.freeBox__hRCce)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box___2VpEq)}
+                  className={classNames(defaultcss.all, sty.freeBox___2VpEq)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___0OJvg
+                      sty.freeBox___0OJvg
                     )}
                   >
                     {"Creator"}
@@ -217,7 +219,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__fgkFt
+                      sty.freeBox__fgkFt
                     )}
                   >
                     {"Member"}
@@ -228,7 +230,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__nw9Ny
+                    sty.freeBox__nw9Ny
                   )}
                 >
                   {
@@ -258,7 +260,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nwtqB
+                      sty.freeBox__nwtqB
                     )}
                   >
                     {"features"}
@@ -271,7 +273,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__vPvNk)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__vPvNk)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__bm4Ht)}
                         role={"img"}
@@ -282,7 +286,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__n4VGu
+                        sty.freeBox__n4VGu
                       )}
                     >
                       {"Free to apply and join"}
@@ -296,7 +300,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature3)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__ugrqk)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__ugrqk)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg___8IqEk)}
                         role={"img"}
@@ -307,7 +313,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__a92Yn
+                        sty.freeBox__a92Yn
                       )}
                     >
                       {"No annual fee"}
@@ -324,7 +330,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       sty.textIconFeature22
                     )}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__pDwm)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__pDwm)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__rKrDw)}
                         role={"img"}
@@ -335,7 +343,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__vtWHl
+                        sty.freeBox__vtWHl
                       )}
                     >
                       {"Hosted Member profile"}
@@ -349,7 +357,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature4)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__jhdpM)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__jhdpM)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__a296J)}
                         role={"img"}
@@ -360,7 +370,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___2Zmot
+                        sty.freeBox___2Zmot
                       )}
                     >
                       {"Access to Member events & workshops"}
@@ -374,7 +384,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature5)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__a31U9)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__a31U9)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__l220E)}
                         role={"img"}
@@ -385,7 +397,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__qac1
+                        sty.freeBox__qac1
                       )}
                     >
                       {"Email support"}
@@ -406,7 +418,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__uoYJ
+                          sty.freeBox__uoYJ
                         )}
                       >
                         {"1"}
@@ -423,7 +435,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__t4XKs
+                          sty.freeBox__t4XKs
                         )}
                       >
                         {"Team"}
@@ -434,7 +446,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___2WbUs
+                        sty.freeBox___2WbUs
                       )}
                     >
                       {"User included"}
@@ -455,7 +467,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__kakxz
+                          sty.freeBox__kakxz
                         )}
                       >
                         {"Priority upgrade per listing"}
@@ -466,7 +478,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__oxx5Z
+                          sty.freeBox__oxx5Z
                         )}
                       >
                         {"8"}
@@ -477,7 +489,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__vh1PX
+                          sty.freeBox__vh1PX
                         )}
                       >
                         {"Standard rate per listing"}
@@ -488,7 +500,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__cv9KS
+                          sty.freeBox__cv9KS
                         )}
                       >
                         {"Payment processing fees"}
@@ -523,7 +535,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__wcb6A
+                          sty.freeBox__wcb6A
                         )}
                       >
                         {"5"}
@@ -534,7 +546,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___1Yux7
+                          sty.freeBox___1Yux7
                         )}
                       >
                         {"3"}
@@ -545,7 +557,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__j40Hn
+                          sty.freeBox__j40Hn
                         )}
                       >
                         {"Service rate on purchases"}
@@ -556,7 +568,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__ncrvv
+                          sty.freeBox__ncrvv
                         )}
                       >
                         {"$"}
@@ -567,7 +579,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__u3V6Q
+                          sty.freeBox__u3V6Q
                         )}
                       >
                         {"Service"}
@@ -578,7 +590,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___3H1Nk
+                          sty.freeBox___3H1Nk
                         )}
                       >
                         {"$"}
@@ -589,7 +601,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__whti1
+                          sty.freeBox__whti1
                         )}
                       >
                         {"%"}
@@ -600,7 +612,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__n8UUy
+                          sty.freeBox__n8UUy
                         )}
                       >
                         {"%"}
@@ -611,7 +623,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__o6Xq
+                        sty.freeBox__o6Xq
                       )}
                     >
                       {"0"}
@@ -622,12 +634,12 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__mvS3J)}
+                  className={classNames(defaultcss.all, sty.freeBox__mvS3J)}
                 >
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__f6RM)}
+                    className={classNames(defaultcss.all, sty.freeBox__f6RM)}
                   >
                     <div
                       data-plasmic-name={"dollarPrice"}
@@ -638,7 +650,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___4R9A8
+                          sty.freeBox___4R9A8
                         )}
                       >
                         {"$"}
@@ -648,7 +660,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__gkWbc
+                          sty.freeBox__gkWbc
                         )}
                       >
                         {"0"}
@@ -659,7 +671,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__gWsM4
+                        sty.freeBox__gWsM4
                       )}
                     >
                       {"/Year"}
@@ -678,7 +690,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__jB0Uu
+                        sty.freeBox__jB0Uu
                       )}
                     >
                       {"Start for free"}
@@ -689,7 +701,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__qc640
+                      sty.freeBox__qc640
                     )}
                   >
                     {"No creditcard required"}
@@ -702,7 +714,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___2Flop)}
+            className={classNames(defaultcss.all, sty.freeBox___2Flop)}
           >
             <p.Stack
               as={"div"}
@@ -714,19 +726,19 @@ function PlasmicMemberpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___2BJmG)}
+                className={classNames(defaultcss.all, sty.freeBox___2BJmG)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg__oTtO)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box__tigqL)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__tigqL)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pfZt0
+                      sty.freeBox__pfZt0
                     )}
                   >
                     {"Premium Plans"}
@@ -743,7 +755,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__mYd1I
+                  sty.freeBox__mYd1I
                 )}
               >
                 {
@@ -756,7 +768,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__husVt
+                sty.freeBox__husVt
               )}
             >
               {
@@ -776,7 +788,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
             )}
           >
             {true ? (
-              <PricingTable
+              <TablePricing
                 data-plasmic-name={"partnerProPricingTable"}
                 data-plasmic-override={overrides.partnerProPricingTable}
                 className={classNames(
@@ -788,7 +800,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___6XqSk
+                      sty.freeBox___6XqSk
                     )}
                   >
                     {
@@ -801,7 +813,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rzQqJ
+                      sty.freeBox__rzQqJ
                     )}
                   >
                     {"Standard rate per listing"}
@@ -812,7 +824,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__lkVeX
+                      sty.freeBox__lkVeX
                     )}
                   >
                     {"$"}
@@ -824,7 +836,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pB7Ne
+                      sty.freeBox__pB7Ne
                     )}
                   >
                     {"Everything in Creator - plus"}
@@ -835,7 +847,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__mz9Eo
+                      sty.freeBox__mz9Eo
                     )}
                   >
                     {"Verified profile"}
@@ -849,7 +861,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__jKad
+                      sty.freeBox__jKad
                     )}
                   >
                     {"Join now"}
@@ -873,7 +885,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ljhBp
+                      sty.freeBox__ljhBp
                     )}
                   >
                     {
@@ -888,7 +900,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zdOut
+                      sty.freeBox__zdOut
                     )}
                   >
                     {"3"}
@@ -899,7 +911,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__omMcV
+                      sty.freeBox__omMcV
                     )}
                   >
                     {"2"}
@@ -910,7 +922,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ozYvm
+                      sty.freeBox__ozYvm
                     )}
                   >
                     {"$"}
@@ -921,7 +933,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zWnVx
+                      sty.freeBox__zWnVx
                     )}
                   >
                     {"Priority upgrade per listing"}
@@ -929,10 +941,10 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 }
               >
                 {"Pro"}
-              </PricingTable>
+              </TablePricing>
             ) : null}
 
-            <PricingTable
+            <TablePricing
               data-plasmic-name={"partnerStartupPricingTable"}
               data-plasmic-override={overrides.partnerStartupPricingTable}
               className={classNames(
@@ -944,7 +956,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__qOiPx
+                    sty.freeBox__qOiPx
                   )}
                 >
                   {
@@ -957,7 +969,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__nKeZw
+                    sty.freeBox__nKeZw
                   )}
                 >
                   {"Standard rate per listing"}
@@ -968,7 +980,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__lJev1
+                    sty.freeBox__lJev1
                   )}
                 >
                   {"$"}
@@ -980,7 +992,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___7HxS5
+                    sty.freeBox___7HxS5
                   )}
                 >
                   {"Everything in Pro - plus"}
@@ -991,7 +1003,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___5AT2R
+                    sty.freeBox___5AT2R
                   )}
                 >
                   {"Discounted access to events and webinars."}
@@ -1005,7 +1017,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wFwzf
+                    sty.freeBox__wFwzf
                   )}
                 >
                   {"75"}
@@ -1016,7 +1028,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__jkGc
+                    sty.freeBox__jkGc
                   )}
                 >
                   {"Join now"}
@@ -1040,7 +1052,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__mtZWy
+                    sty.freeBox__mtZWy
                   )}
                 >
                   {
@@ -1053,7 +1065,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__lFvAs
+                    sty.freeBox__lFvAs
                   )}
                 >
                   {"2"}
@@ -1064,7 +1076,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__yjvTj
+                    sty.freeBox__yjvTj
                   )}
                 >
                   {"1"}
@@ -1075,7 +1087,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__skYjb
+                    sty.freeBox__skYjb
                   )}
                 >
                   {"$"}
@@ -1086,7 +1098,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zl3R3
+                    sty.freeBox__zl3R3
                   )}
                 >
                   {"Priority upgrade per listing"}
@@ -1094,9 +1106,9 @@ function PlasmicMemberpricing__RenderFunc(props) {
               }
             >
               {"Startup"}
-            </PricingTable>
+            </TablePricing>
 
-            <PricingTable
+            <TablePricing
               data-plasmic-name={"partnerAgencyPricingtable"}
               data-plasmic-override={overrides.partnerAgencyPricingtable}
               className={classNames(
@@ -1108,7 +1120,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__buKdE
+                    sty.freeBox__buKdE
                   )}
                 >
                   {
@@ -1121,7 +1133,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__tnHjI
+                    sty.freeBox__tnHjI
                   )}
                 >
                   {"Free listings"}
@@ -1132,7 +1144,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zajZu
+                    sty.freeBox__zajZu
                   )}
                 >
                   {"$"}
@@ -1145,7 +1157,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___6IDeM
+                    sty.freeBox___6IDeM
                   )}
                 >
                   {"Everything in Startup - plus"}
@@ -1156,7 +1168,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__mvwUx
+                    sty.freeBox__mvwUx
                   )}
                 >
                   {"Featured Member profile"}
@@ -1170,7 +1182,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__dlLq5
+                    sty.freeBox__dlLq5
                   )}
                 >
                   {"100"}
@@ -1181,7 +1193,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__oRmek
+                    sty.freeBox__oRmek
                   )}
                 >
                   {"Join now"}
@@ -1205,7 +1217,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__p2IJx
+                    sty.freeBox__p2IJx
                   )}
                 >
                   {
@@ -1219,7 +1231,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__q6Uib
+                    sty.freeBox__q6Uib
                   )}
                 >
                   {"0"}
@@ -1230,7 +1242,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wsHbN
+                    sty.freeBox__wsHbN
                   )}
                 >
                   {"0"}
@@ -1241,7 +1253,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__i2DRy
+                    sty.freeBox__i2DRy
                   )}
                 >
                   {"1"}
@@ -1252,7 +1264,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__m3Yzf
+                    sty.freeBox__m3Yzf
                   )}
                 >
                   {"$"}
@@ -1263,7 +1275,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___3QUf
+                    sty.freeBox___3QUf
                   )}
                 >
                   {"Free priority placement by default"}
@@ -1271,13 +1283,13 @@ function PlasmicMemberpricing__RenderFunc(props) {
               }
             >
               {"Unicorn"}
-            </PricingTable>
+            </TablePricing>
           </p.Stack>
 
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__gs0Kq)}
+            className={classNames(defaultcss.all, sty.freeBox__gs0Kq)}
           >
             <p.Stack
               as={"div"}
@@ -1289,19 +1301,19 @@ function PlasmicMemberpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___72FoL)}
+                className={classNames(defaultcss.all, sty.freeBox___72FoL)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg___3Y0IE)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box__wNS)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__wNS)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__usxZo
+                      sty.freeBox__usxZo
                     )}
                   >
                     {"Perks"}
@@ -1318,7 +1330,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__bv8Pf
+                  sty.freeBox__bv8Pf
                 )}
               >
                 {"Startup strong and get a technology stack built to last."}
@@ -1329,7 +1341,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___8Fsne
+                sty.freeBox___8Fsne
               )}
             >
               {"Intrepid gets you deals on the best tools for your startup."}
@@ -1338,7 +1350,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__xsWj8)}
+              className={classNames(defaultcss.all, sty.freeBox__xsWj8)}
             >
               <img
                 alt={""}
@@ -1380,12 +1392,12 @@ function PlasmicMemberpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___6RLhl)}
+            className={classNames(defaultcss.all, sty.freeBox___6RLhl)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__jl0Hi)}
+              className={classNames(defaultcss.all, sty.freeBox__jl0Hi)}
             >
               <p.Stack
                 as={"div"}
@@ -1397,19 +1409,21 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__hS2ON)}
+                  className={classNames(defaultcss.all, sty.freeBox__hS2ON)}
                 >
                   <LineIcon
                     className={classNames(defaultcss.all, sty.svg___0FW8K)}
                     role={"img"}
                   />
 
-                  <div className={classNames(defaultcss.all, sty.box__ksMlS)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__ksMlS)}
+                  >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__jEuC6
+                        sty.freeBox__jEuC6
                       )}
                     >
                       {"Community"}
@@ -1426,7 +1440,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__nHfU1
+                    sty.freeBox__nHfU1
                   )}
                 >
                   {

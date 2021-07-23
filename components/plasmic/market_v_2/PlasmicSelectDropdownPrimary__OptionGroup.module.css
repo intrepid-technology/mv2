@@ -4,8 +4,8 @@
   width: 100%;
   height: auto;
   flex-direction: column;
-  min-width: 0;
   background: #ffffff;
+  min-width: 0;
 }
 .separator {
   display: flex;

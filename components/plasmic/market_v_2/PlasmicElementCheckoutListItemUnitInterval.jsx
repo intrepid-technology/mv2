@@ -84,12 +84,12 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__rWoQt)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__rWoQt)}>
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__pkFzf
+              sty.freeBox__pkFzf
             )}
           >
             {"x"}

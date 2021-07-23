@@ -5,9 +5,9 @@
   height: 80px;
   box-shadow: 1px 1px 2px 1px #00000029;
   position: relative;
+  background: #ffffff;
   min-width: 0;
   padding: 20px 0px 0px;
-  background: #ffffff;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -49,7 +49,7 @@
     justify-content: center;
   }
 }
-.box__gq5Ri {
+.freeBox__gq5Ri {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -57,7 +57,7 @@
   justify-content: flex-start;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__gq5Ri {
+  .freeBox__gq5Ri {
     width: 100%;
     height: 100%;
     justify-content: space-between;
@@ -67,7 +67,7 @@
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box__gq5Ri {
+  .freeBox__gq5Ri {
     width: 100%;
     height: auto;
     justify-content: center;
@@ -75,14 +75,14 @@
     min-width: 0;
   }
 }
-.box__mn6Cy {
+.freeBox__mn6Cy {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__mn6Cy {
+  .freeBox__mn6Cy {
     width: 100%;
     height: auto;
     justify-content: center;
@@ -99,7 +99,7 @@
   top: auto;
   display: inline-inline-block;
 }
-.box__ejVzw {
+.freeBox__ejVzw {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -109,7 +109,7 @@
   margin-right: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__ejVzw {
+  .freeBox__ejVzw {
     width: 100%;
     height: auto;
     flex-direction: row;

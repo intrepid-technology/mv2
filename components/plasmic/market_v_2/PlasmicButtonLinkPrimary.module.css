@@ -6,8 +6,8 @@
   width: 90px;
   height: 32px;
   position: relative;
+  background: #ffffff;
   padding: 2px 6px;
-  background: #ffffff repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .root__border {
@@ -278,7 +278,7 @@
   background: #855cff;
   border-color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;

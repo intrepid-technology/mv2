@@ -59,7 +59,7 @@ function PlasmicFooter__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__n566F)}
+        className={classNames(defaultcss.all, sty.freeBox__n566F)}
       >
         <LogoHeader
           data-plasmic-name={"logoHeader"}
@@ -83,18 +83,18 @@ function PlasmicFooter__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__aA6Wh)}
+          className={classNames(defaultcss.all, sty.freeBox__aA6Wh)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__yF0Gr)}
+            className={classNames(defaultcss.all, sty.freeBox__yF0Gr)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__fvAb7
+                sty.freeBox__fvAb7
               )}
             >
               {"Company"}
@@ -131,13 +131,13 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__cMzll)}
+            className={classNames(defaultcss.all, sty.freeBox__cMzll)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__rqdjj
+                sty.freeBox__rqdjj
               )}
             >
               {"News & Insights"}
@@ -235,13 +235,13 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___0G4Y)}
+            className={classNames(defaultcss.all, sty.freeBox___0G4Y)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__bTvuc
+                sty.freeBox__bTvuc
               )}
             >
               {"Community"}
@@ -270,7 +270,7 @@ function PlasmicFooter__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__qeJzd)}
+          className={classNames(defaultcss.all, sty.freeBox__qeJzd)}
         >
           {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
             <p.Stack
@@ -385,7 +385,7 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__yuBxq)}
+            className={classNames(defaultcss.all, sty.freeBox__yuBxq)}
           >
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__l4NKp)}
@@ -404,7 +404,7 @@ function PlasmicFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__mJnXf
+              sty.freeBox__mJnXf
             )}
           >
             {"© Intrepid Financial Technologies, Inc "}

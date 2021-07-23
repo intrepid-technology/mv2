@@ -17,7 +17,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 0px;
 }
-.box__bjvwz {
+.freeBox__bjvwz {
   display: flex;
   position: relative;
   width: 410px;
@@ -27,11 +27,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background: #000000;
   flex-shrink: 0;
   padding: 40px;
-  background: #000000;
 }
-.box__gvaq6 {
+.freeBox__gvaq6 {
   position: relative;
   width: 336px;
   height: auto;
@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: column;
 }
-.box___4W8Q9 {
+.freeBox___4W8Q9 {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -55,7 +55,7 @@
   line-height: 1.2;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.box___5ZxCo {
+.freeBox___5ZxCo {
   position: relative;
   width: 320px;
   height: auto;

@@ -50,7 +50,7 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.profileIndustryParent)}
       >
-        <div className={classNames(defaultcss.all, sty.box__ksE53)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__ksE53)}>
           <div
             data-plasmic-name={"industry"}
             data-plasmic-override={overrides.industry}
@@ -98,7 +98,7 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.profileCategoriesParent)}
       >
-        <div className={classNames(defaultcss.all, sty.box__jDrCu)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__jDrCu)}>
           <div
             data-plasmic-name={"categories"}
             data-plasmic-override={overrides.categories}

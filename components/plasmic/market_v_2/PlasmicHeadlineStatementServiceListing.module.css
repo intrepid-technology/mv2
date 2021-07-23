@@ -5,13 +5,13 @@
   justify-content: flex-start;
   position: relative;
 }
-.box__g9O1R {
+.freeBox__g9O1R {
   width: 380px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
-.box__hF6UG {
+.freeBox__hF6UG {
   display: inline-flex;
   align-self: stretch;
   position: relative;

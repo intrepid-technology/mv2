@@ -51,7 +51,7 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__nPo1P
+          sty.freeBox__nPo1P
         )}
       >
         {"How it works"}
@@ -60,7 +60,7 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__xQokM)}
+        className={classNames(defaultcss.all, sty.freeBox__xQokM)}
       >
         <CardValueProposition
           background={"bgLightB"}

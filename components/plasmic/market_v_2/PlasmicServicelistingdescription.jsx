@@ -92,7 +92,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___09Zdm)}
+            className={classNames(defaultcss.all, sty.freeBox___09Zdm)}
           >
             <p.Stack
               as={"div"}
@@ -111,7 +111,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nr931
+                      sty.freeBox__nr931
                     )}
                   >
                     {"Step 2"}
@@ -123,7 +123,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__laelq
+                    sty.freeBox__laelq
                   )}
                 >
                   {"What is the name/title of your service?"}
@@ -153,7 +153,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__qeVgc)}
+            className={classNames(defaultcss.all, sty.freeBox__qeVgc)}
           >
             <p.Stack
               as={"div"}
@@ -176,7 +176,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__uc5Jc
+                      sty.freeBox__uc5Jc
                     )}
                   >
                     {"Step 2"}
@@ -190,7 +190,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___0B5MK
+                    sty.freeBox___0B5MK
                   )}
                 >
                   {"What is the description of your service?"}
@@ -223,7 +223,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__axd3H)}
+            className={classNames(defaultcss.all, sty.freeBox__axd3H)}
           >
             <p.Stack
               as={"div"}
@@ -235,7 +235,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__j5P5R)}
+                className={classNames(defaultcss.all, sty.freeBox__j5P5R)}
               >
                 <CardQuestionServiceListing
                   className={classNames(
@@ -248,7 +248,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__vqvCv
+                        sty.freeBox__vqvCv
                       )}
                     >
                       {"Step 2"}
@@ -259,7 +259,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__wEkof
+                        sty.freeBox__wEkof
                       )}
                     >
                       {"Describe a minimum of 1 step, to maximum of 8 steps."}
@@ -270,7 +270,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__io8Zz
+                      sty.freeBox__io8Zz
                     )}
                   >
                     {"What is your unique service delivery process?"}
@@ -291,13 +291,13 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__oslf)}
+                className={classNames(defaultcss.all, sty.freeBox__oslf)}
               >
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__mnyPp
+                    sty.freeBox__mnyPp
                   )}
                 >
                   {"Description"}

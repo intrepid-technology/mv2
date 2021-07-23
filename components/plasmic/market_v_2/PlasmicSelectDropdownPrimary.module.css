@@ -13,9 +13,9 @@
   padding-right: 4px;
   padding-left: 4px;
   width: 90px;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #f8f8f8;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .trigger > :global(.__wab_flex-container) {
@@ -37,6 +37,10 @@
 .trigger__isDisabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+.trigger__color_light {
+  background: #ffffff;
+  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .trigger__width__120 {
   width: 120px;
@@ -72,8 +76,8 @@
   border-color: #1976d2;
 }
 .root:hover:not(:focus-within) .trigger {
-  outline: none;
   background: #ffffff;
+  outline: none;
 }
 .contentContainer {
   display: flex;

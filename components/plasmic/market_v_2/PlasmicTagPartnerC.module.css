@@ -6,9 +6,9 @@
   width: auto;
   height: 16px;
   position: relative;
+  background: #fae6eb;
   border-radius: 2px;
   padding: 2px 6px;
-  background: #fae6eb;
   border: 1px solid #cc0033 /* plasmic-token: zuxijHDLE */;
 }
 .root__inset {
@@ -19,7 +19,7 @@
   background: #fae6eb;
   border-color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.box {
+.freeBox {
   position: relative;
   width: auto;
   height: auto;
@@ -30,9 +30,9 @@
   font-weight: 600;
   display: inline-block;
 }
-.box__inset {
+.freeBox__inset {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.root__inset:hover .box__inset {
+.root__inset:hover .freeBox__inset {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }

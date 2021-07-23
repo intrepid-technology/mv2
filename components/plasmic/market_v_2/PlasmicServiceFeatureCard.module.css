@@ -21,7 +21,7 @@
   width: 80px;
   height: 80px;
 }
-.box__lyoyb {
+.freeBox__lyoyb {
   left: auto;
   top: auto;
   width: auto;
@@ -30,7 +30,7 @@
   display: inline-flex;
   flex-direction: column;
 }
-.box__muod3 {
+.freeBox__muod3 {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -53,7 +53,7 @@
   line-height: 1.2;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.box__xNaRf {
+.freeBox__xNaRf {
   left: auto;
   top: auto;
   width: auto;
@@ -62,7 +62,7 @@
   display: inline-flex;
   flex-direction: column;
 }
-.box__i7XIs {
+.freeBox__i7XIs {
   display: flex;
   align-self: stretch;
   position: relative;

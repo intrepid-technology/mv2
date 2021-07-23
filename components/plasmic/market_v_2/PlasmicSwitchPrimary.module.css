@@ -6,9 +6,9 @@
   width: 48px;
   height: 24px;
   position: relative;
+  background: #dddddd;
   border-radius: 24px;
   padding: 0px;
-  background: #dddddd;
   border: 2px solid #dddddd /* plasmic-token: pZiR_PgBn */;
 }
 .root___switch {
@@ -31,7 +31,7 @@
   background: #e0d6ff;
   border-color: #e0d6ff /* plasmic-token: WAX_l0bzr */;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -43,22 +43,22 @@
   top: auto;
   align-self: flex-start;
   padding-left: 0px;
+  background: #ffffff;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #ffffff;
   border-width: 1px;
   border-style: none;
 }
-.box___switch {
+.freeBox___switch {
   align-self: flex-end;
 }
-.box__disabled_closed {
+.freeBox__disabled_closed {
   background: #dddddd;
 }
-.box__disabled_open {
+.freeBox__disabled_open {
   align-self: flex-end;
   background: #dddddd;
 }
-.box__disabled_open_color_brand {
+.freeBox__disabled_open_color_brand {
   background: #e4e4e4;
 }

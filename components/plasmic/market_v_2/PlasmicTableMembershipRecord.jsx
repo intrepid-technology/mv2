@@ -40,7 +40,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box___83Jsa)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___83Jsa)}>
         <TagMemberD
           data-plasmic-name={"tagMemberD"}
           data-plasmic-override={overrides.tagMemberD}
@@ -51,13 +51,13 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__arOvr)}
+        className={classNames(defaultcss.all, sty.freeBox__arOvr)}
       >
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__dkh9N
+            sty.freeBox__dkh9N
           )}
         >
           {"1"}
@@ -74,7 +74,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__oWCg
+                sty.freeBox__oWCg
               )}
             >
               {"Edit"}
@@ -83,12 +83,12 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.box__sb46C)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__sb46C)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___9H71
+            sty.freeBox___9H71
           )}
         >
           {"$"}
@@ -98,19 +98,19 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__yizoe
+            sty.freeBox__yizoe
           )}
         >
           {"XXXX"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__imYpU)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__imYpU)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___4EWTk
+            sty.freeBox___4EWTk
           )}
         >
           {"XX"}
@@ -120,7 +120,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___3We2J
+            sty.freeBox___3We2J
           )}
         >
           {"/"}
@@ -130,14 +130,14 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___6CKul
+            sty.freeBox___6CKul
           )}
         >
           {"XXXX"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__aphxW)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__aphxW)}>
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}
           data-plasmic-override={overrides.switchPrimary}
@@ -145,7 +145,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__x5MxF)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__x5MxF)}>
         <ButtonCircleDelete
           data-plasmic-name={"buttonCircleDelete"}
           data-plasmic-override={overrides.buttonCircleDelete}

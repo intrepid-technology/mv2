@@ -10,8 +10,8 @@
   flex-direction: column;
   width: 360px;
   height: auto;
-  border-radius: 4px;
   background: #ffffff;
+  border-radius: 4px;
   border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .parent > :global(.__wab_flex-container) {
@@ -25,7 +25,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
-.box__cWfDy {
+.freeBox__cWfDy {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -34,24 +34,24 @@
   min-width: 0;
   padding: 32px 8px 8px;
 }
-.box__cWfDy > :global(.__wab_flex-container) {
+.freeBox__cWfDy > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__cWfDy > :global(.__wab_flex-container) > *,
-.box__cWfDy > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__cWfDy > :global(.__wab_flex-container) > *,
+.freeBox__cWfDy > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box__ysQD {
+.freeBox__ysQD {
   position: relative;
   align-self: center;
   display: flex;
   flex-direction: row;
 }
-.box___1W5DM {
+.freeBox___1W5DM {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -64,14 +64,14 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.box__cViio {
+.freeBox__cViio {
   position: relative;
   align-self: center;
   display: flex;
   flex-direction: row;
   padding: 0px;
 }
-.box__vMsaM {
+.freeBox__vMsaM {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -84,7 +84,7 @@
   line-height: 1.4;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
-.box__l8W {
+.freeBox__l8W {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -96,7 +96,7 @@
   min-width: 0;
   padding: 8px 32px;
 }
-.box__oemE4 {
+.freeBox__oemE4 {
   width: 100%;
   height: auto;
   align-self: center;
@@ -136,7 +136,7 @@
   border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root .button__dxNg:hover {
-  background: #f8f8f8 repeat;
+  background: #f8f8f8;
 }
 .textParent {
   width: 100%;
@@ -172,7 +172,7 @@
   border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root .button__kn7KG:hover {
-  background: #f8f8f8 repeat;
+  background: #f8f8f8;
 }
 .textParentB {
   width: 100%;

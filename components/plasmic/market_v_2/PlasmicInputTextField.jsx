@@ -72,14 +72,14 @@ function PlasmicInputTextField__RenderFunc(props) {
         })}
       >
         <input
-          data-plasmic-name={"textbox"}
-          data-plasmic-override={overrides.textbox}
-          className={classNames(defaultcss.input, sty.textbox, {
-            [sty.textbox__size__160]: hasVariant(variants, "size", "_160"),
-            [sty.textbox__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.textbox__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.textbox__size__540]: hasVariant(variants, "size", "_540"),
-            [sty.textbox__type_secondary]: hasVariant(
+          data-plasmic-name={"description"}
+          data-plasmic-override={overrides.description}
+          className={classNames(defaultcss.input, sty.description, {
+            [sty.description__size__160]: hasVariant(variants, "size", "_160"),
+            [sty.description__size__180]: hasVariant(variants, "size", "_180"),
+            [sty.description__size__270]: hasVariant(variants, "size", "_270"),
+            [sty.description__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.description__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
@@ -96,9 +96,9 @@ function PlasmicInputTextField__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "inputTextParent", "textbox"],
-  inputTextParent: ["inputTextParent", "textbox"],
-  textbox: ["textbox"]
+  root: ["root", "inputTextParent", "description"],
+  inputTextParent: ["inputTextParent", "description"],
+  description: ["description"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -133,7 +133,7 @@ export const PlasmicInputTextField = Object.assign(
   {
     // Helper components rendering sub-elements
     inputTextParent: makeNodeComponent("inputTextParent"),
-    textbox: makeNodeComponent("textbox"),
+    description: makeNodeComponent("description"),
     // Metadata about props expected for PlasmicInputTextField
     internalVariantProps: PlasmicInputTextField__VariantProps,
     internalArgProps: PlasmicInputTextField__ArgProps

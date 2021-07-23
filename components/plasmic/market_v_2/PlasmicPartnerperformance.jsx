@@ -126,7 +126,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___1UsqO
+                    sty.freeBox___1UsqO
                   )}
                 >
                   {"Analytics & metrics"}
@@ -156,7 +156,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.overview)}
             >
-              <div className={classNames(defaultcss.all, sty.box__ls8Vs)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__ls8Vs)}>
                 <h3
                   className={classNames(
                     defaultcss.h3,
@@ -185,7 +185,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__uCeTh
+                      sty.freeBox__uCeTh
                     )}
                   >
                     {"30 days"}
@@ -215,7 +215,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__oA6G8
+                      sty.freeBox__oA6G8
                     )}
                   >
                     {"Rating"}
@@ -228,7 +228,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__wqSbL
+                      sty.freeBox__wqSbL
                     )}
                   >
                     {"4.6"}
@@ -239,7 +239,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nwA6O
+                      sty.freeBox__nwA6O
                     )}
                   >
                     {"%"}
@@ -247,7 +247,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__lweYw)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__lweYw)}
+                  >
                     <StarRatingIcon
                       className={classNames(defaultcss.all, sty.svg__qtI92)}
                       role={"img"}
@@ -256,7 +258,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 svgQuestion={
                   <div
-                    className={classNames(defaultcss.all, sty.box__d8MXf)}
+                    className={classNames(defaultcss.all, sty.freeBox__d8MXf)}
                     title={""}
                   >
                     <Icon177Icon
@@ -273,7 +275,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__pAf0G
+                          sty.freeBox__pAf0G
                         )}
                       >
                         {"5"}
@@ -291,7 +293,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__hTbe
+                      sty.freeBox__hTbe
                     )}
                   >
                     {"Earnings"}
@@ -316,7 +318,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vwFVm
+                      sty.freeBox__vwFVm
                     )}
                   >
                     {"930"}
@@ -325,7 +327,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__gU8M)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__gU8M)}
+                  >
                     <WalletEarningsIcon
                       className={classNames(defaultcss.all, sty.svg__pzSox)}
                       role={"img"}
@@ -333,7 +337,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 svgQuestion={
-                  <div className={classNames(defaultcss.all, sty.box__tftyE)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__tftyE)}
+                  >
                     <Icon177Icon
                       className={classNames(defaultcss.all, sty.svg__zyyJd)}
                       role={"img"}
@@ -348,7 +354,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__yz1Wm
+                          sty.freeBox__yz1Wm
                         )}
                       >
                         {"65"}
@@ -366,7 +372,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vnUej
+                      sty.freeBox__vnUej
                     )}
                   >
                     {"Orders"}
@@ -379,7 +385,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xZcW
+                      sty.freeBox__xZcW
                     )}
                   >
                     {"100"}
@@ -388,7 +394,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__tsTVg)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__tsTVg)}
+                  >
                     <BriefOrdersIcon
                       className={classNames(defaultcss.all, sty.svg__uQvNp)}
                       role={"img"}
@@ -408,7 +416,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__brS4Z
+                      sty.freeBox__brS4Z
                     )}
                   >
                     {"Reviews"}
@@ -421,7 +429,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__r7DuK
+                      sty.freeBox__r7DuK
                     )}
                   >
                     {"12"}
@@ -430,7 +438,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__cIvHe)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__cIvHe)}
+                  >
                     <CommentReviewIcon
                       className={classNames(defaultcss.all, sty.svg___19Zfp)}
                       role={"img"}
@@ -445,7 +455,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__w3A2
+                          sty.freeBox__w3A2
                         )}
                       >
                         {"20"}
@@ -456,7 +466,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__vu84Q
+                          sty.freeBox__vu84Q
                         )}
                       >
                         {"20"}
@@ -474,7 +484,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.listings)}
             >
-              <div className={classNames(defaultcss.all, sty.box__u8LZ8)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__u8LZ8)}>
                 <h3
                   className={classNames(
                     defaultcss.h3,
@@ -503,7 +513,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__r4BZl
+                      sty.freeBox__r4BZl
                     )}
                   >
                     {"30 days"}
@@ -534,7 +544,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zhT9N
+                      sty.freeBox__zhT9N
                     )}
                   >
                     {"Listings"}
@@ -547,7 +557,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__b5PwL
+                      sty.freeBox__b5PwL
                     )}
                   >
                     {"12"}
@@ -556,7 +566,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__fgULh)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__fgULh)}
+                  >
                     <ListingIcon
                       className={classNames(defaultcss.all, sty.svg__u7Nt8)}
                       role={"img"}
@@ -576,7 +588,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__yYpwc
+                      sty.freeBox__yYpwc
                     )}
                   >
                     {"Listing views"}
@@ -592,7 +604,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__oPbwy
+                      sty.freeBox__oPbwy
                     )}
                   >
                     {"1"}
@@ -603,7 +615,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__l7Lyt
+                      sty.freeBox__l7Lyt
                     )}
                   >
                     {"K"}
@@ -611,7 +623,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__pSwk9)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__pSwk9)}
+                  >
                     <ViewIcon
                       className={classNames(defaultcss.all, sty.svg__ncrPl)}
                       role={"img"}
@@ -626,7 +640,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__kLtHq
+                          sty.freeBox__kLtHq
                         )}
                       >
                         {"32.45"}
@@ -644,7 +658,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__jy4Iv
+                      sty.freeBox__jy4Iv
                     )}
                   >
                     {"Profile views"}
@@ -660,7 +674,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__s1MiL
+                      sty.freeBox__s1MiL
                     )}
                   >
                     {"2"}
@@ -671,7 +685,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__yqKnH
+                      sty.freeBox__yqKnH
                     )}
                   >
                     {"K"}
@@ -679,7 +693,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__j6Ll8)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__j6Ll8)}
+                  >
                     <ProfileViewIcon
                       className={classNames(defaultcss.all, sty.svg__fiEe)}
                       role={"img"}
@@ -694,7 +710,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___3Ma7N
+                          sty.freeBox___3Ma7N
                         )}
                       >
                         {"124.56"}
@@ -712,7 +728,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__iLAm8
+                      sty.freeBox__iLAm8
                     )}
                   >
                     {"Reacts"}
@@ -725,7 +741,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__avkXs
+                      sty.freeBox__avkXs
                     )}
                   >
                     {"3"}
@@ -736,7 +752,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__opOi
+                      sty.freeBox__opOi
                     )}
                   >
                     {"K"}
@@ -744,7 +760,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__ogDb)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__ogDb)}
+                  >
                     <ReactIcon
                       className={classNames(defaultcss.all, sty.svg__giLrv)}
                       role={"img"}
@@ -759,7 +777,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__d7Lc5
+                          sty.freeBox__d7Lc5
                         )}
                       >
                         {"23.67"}
@@ -777,7 +795,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__blb57
+                      sty.freeBox__blb57
                     )}
                   >
                     {"Lists"}
@@ -790,7 +808,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__o1FMc
+                      sty.freeBox__o1FMc
                     )}
                   >
                     {"1"}
@@ -801,7 +819,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3JBeZ
+                      sty.freeBox___3JBeZ
                     )}
                   >
                     {"K"}
@@ -809,7 +827,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__pr2Vg)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__pr2Vg)}
+                  >
                     <BookmarkIcon
                       className={classNames(defaultcss.all, sty.svg__vv9F)}
                       role={"img"}
@@ -824,7 +844,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__yQ4B
+                          sty.freeBox__yQ4B
                         )}
                       >
                         {"234.56"}
@@ -842,7 +862,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__sCGf
+                      sty.freeBox__sCGf
                     )}
                   >
                     {"Response rate"}
@@ -858,7 +878,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__fqV7A
+                      sty.freeBox__fqV7A
                     )}
                   >
                     {"78.5"}
@@ -879,7 +899,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__vfuRe)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__vfuRe)}
+                  >
                     <ResponseIcon
                       className={classNames(defaultcss.all, sty.svg__b3B50)}
                       role={"img"}
@@ -894,7 +916,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__oRkd7
+                          sty.freeBox__oRkd7
                         )}
                       >
                         {"12.5"}
@@ -912,7 +934,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.community)}
             >
-              <div className={classNames(defaultcss.all, sty.box__hM0B0)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__hM0B0)}>
                 <h3
                   className={classNames(
                     defaultcss.h3,
@@ -941,7 +963,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__a2FUz
+                      sty.freeBox__a2FUz
                     )}
                   >
                     {"30 days"}
@@ -971,7 +993,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rZuNx
+                      sty.freeBox__rZuNx
                     )}
                   >
                     {"Subscribers"}
@@ -984,7 +1006,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__i7TYl
+                      sty.freeBox__i7TYl
                     )}
                   >
                     {"12"}
@@ -993,7 +1015,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__sG7Zv)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__sG7Zv)}
+                  >
                     <TeamPartnersIcon
                       className={classNames(defaultcss.all, sty.svg__bcAse)}
                       role={"img"}
@@ -1013,7 +1037,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___4CrcM
+                      sty.freeBox___4CrcM
                     )}
                   >
                     {"Connections"}
@@ -1026,7 +1050,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__dbgw
+                      sty.freeBox__dbgw
                     )}
                   >
                     {"12"}
@@ -1035,7 +1059,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__n7WKs)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__n7WKs)}
+                  >
                     <MemberAddIcon
                       className={classNames(defaultcss.all, sty.svg___2Ftjc)}
                       role={"img"}
@@ -1050,7 +1076,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__vxZUy
+                          sty.freeBox__vxZUy
                         )}
                       >
                         {"5"}
@@ -1068,7 +1094,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__cfyKn
+                      sty.freeBox__cfyKn
                     )}
                   >
                     {"Followers"}
@@ -1081,7 +1107,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__sPQc
+                      sty.freeBox__sPQc
                     )}
                   >
                     {"12"}
@@ -1090,7 +1116,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__siEyx)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__siEyx)}
+                  >
                     <MemberAddIcon
                       className={classNames(defaultcss.all, sty.svg__hroAd)}
                       role={"img"}
@@ -1105,7 +1133,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__tPu21
+                          sty.freeBox__tPu21
                         )}
                       >
                         {"5"}
@@ -1123,7 +1151,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__regM
+                      sty.freeBox__regM
                     )}
                   >
                     {"Following"}
@@ -1136,7 +1164,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__f9Jk1
+                      sty.freeBox__f9Jk1
                     )}
                   >
                     {"12"}
@@ -1145,7 +1173,9 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 numeration={"numeration"}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__n9MCo)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__n9MCo)}
+                  >
                     <TeamPartnersIcon
                       className={classNames(defaultcss.all, sty.svg___05PCh)}
                       role={"img"}

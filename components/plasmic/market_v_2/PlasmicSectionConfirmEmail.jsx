@@ -101,7 +101,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.textDivParent)}
         >
-          <div className={classNames(defaultcss.all, sty.box__cMiiQ)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__cMiiQ)}>
             <div
               data-plasmic-name={"textDivA"}
               data-plasmic-override={overrides.textDivA}
@@ -115,7 +115,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__yjYWr)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__yjYWr)}>
             <div
               data-plasmic-name={"textDivB"}
               data-plasmic-override={overrides.textDivB}
@@ -130,7 +130,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__kfvvm)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__kfvvm)}>
             <div
               data-plasmic-name={"textDivC"}
               data-plasmic-override={overrides.textDivC}
@@ -196,7 +196,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__iYy4D
+                    sty.freeBox__iYy4D
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "desktop")
@@ -248,7 +248,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__yK0Zp
+                      sty.freeBox__yK0Zp
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")

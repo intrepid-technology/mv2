@@ -29,7 +29,7 @@
   height: auto;
   min-width: 0;
 }
-.box__xnfZf {
+.freeBox__xnfZf {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -54,7 +54,7 @@
   width: 100%;
   min-width: 0;
 }
-.box__jIxRh {
+.freeBox__jIxRh {
   display: flex;
   align-self: stretch;
   position: relative;

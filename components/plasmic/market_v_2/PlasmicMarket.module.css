@@ -4,9 +4,9 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff;
 }
 .navbarInternal:global(.__wab_instance) {
   position: relative;
@@ -70,7 +70,7 @@
     padding-left: 120px;
   }
 }
-.box__o0Huz {
+.freeBox__o0Huz {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -80,7 +80,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__wxNnk {
+.freeBox__wxNnk {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -90,7 +90,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box__x52DM {
+.freeBox__x52DM {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -101,18 +101,18 @@
   padding-left: 0px;
   min-width: 0;
 }
-.box__x52DM > :global(.__wab_flex-container) {
+.freeBox__x52DM > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__x52DM > :global(.__wab_flex-container) > *,
-.box__x52DM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__x52DM > :global(.__wab_flex-container) > *,
+.freeBox__x52DM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box___8Qeyr {
+.freeBox___8Qeyr {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -122,7 +122,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box__peEx {
+.freeBox__peEx {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -134,15 +134,15 @@
   min-width: 0;
   padding: 16px 0px;
 }
-.box__peEx > :global(.__wab_flex-container) {
+.freeBox__peEx > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.box__peEx > :global(.__wab_flex-container) > *,
-.box__peEx > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__peEx > :global(.__wab_flex-container) > *,
+.freeBox__peEx > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
 .chipUserProfile__vfPin:global(.__wab_instance) {
@@ -247,7 +247,7 @@
   border-width: 0px;
   border-style: none;
 }
-.box__srTxr {
+.freeBox__srTxr {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -258,18 +258,18 @@
   padding-left: 0px;
   min-width: 0;
 }
-.box__srTxr > :global(.__wab_flex-container) {
+.freeBox__srTxr > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__srTxr > :global(.__wab_flex-container) > *,
-.box__srTxr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__srTxr > :global(.__wab_flex-container) > *,
+.freeBox__srTxr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box___6My62 {
+.freeBox___6My62 {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -279,7 +279,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box__lvgDe {
+.freeBox__lvgDe {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -291,15 +291,15 @@
   min-width: 0;
   padding: 16px 0px;
 }
-.box__lvgDe > :global(.__wab_flex-container) {
+.freeBox__lvgDe > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.box__lvgDe > :global(.__wab_flex-container) > *,
-.box__lvgDe > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__lvgDe > :global(.__wab_flex-container) > *,
+.freeBox__lvgDe > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
 .chipUserProfile__gt6Lx:global(.__wab_instance) {
@@ -433,7 +433,7 @@
     padding-left: 120px;
   }
 }
-.box__aQfy5 {
+.freeBox__aQfy5 {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -443,7 +443,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__jptVr {
+.freeBox__jptVr {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -453,7 +453,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box__zh2Ma {
+.freeBox__zh2Ma {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -465,15 +465,15 @@
   min-width: 0;
   padding: 16px 0px;
 }
-.box__zh2Ma > :global(.__wab_flex-container) {
+.freeBox__zh2Ma > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.box__zh2Ma > :global(.__wab_flex-container) > *,
-.box__zh2Ma > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__zh2Ma > :global(.__wab_flex-container) > *,
+.freeBox__zh2Ma > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
 .cardServiceDisplay__dCuvl:global(.__wab_instance) {
@@ -584,7 +584,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__eMg8J {
+.freeBox__eMg8J {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -592,18 +592,18 @@
   left: auto;
   padding-left: 0px;
 }
-.box__eMg8J > :global(.__wab_flex-container) {
+.freeBox__eMg8J > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__eMg8J > :global(.__wab_flex-container) > *,
-.box__eMg8J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__eMg8J > :global(.__wab_flex-container) > *,
+.freeBox__eMg8J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box__xSg2B {
+.freeBox__xSg2B {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -613,7 +613,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__slGcz {
+.freeBox__slGcz {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -623,7 +623,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box__jWNkd {
+.freeBox__jWNkd {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -635,15 +635,15 @@
   min-width: 0;
   padding: 16px 0px;
 }
-.box__jWNkd > :global(.__wab_flex-container) {
+.freeBox__jWNkd > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.box__jWNkd > :global(.__wab_flex-container) > *,
-.box__jWNkd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__jWNkd > :global(.__wab_flex-container) > *,
+.freeBox__jWNkd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
 .cardServiceDisplay__dTgHx:global(.__wab_instance) {
@@ -754,7 +754,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__w5Mqp {
+.freeBox__w5Mqp {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -762,18 +762,18 @@
   left: auto;
   padding-left: 0px;
 }
-.box__w5Mqp > :global(.__wab_flex-container) {
+.freeBox__w5Mqp > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__w5Mqp > :global(.__wab_flex-container) > *,
-.box__w5Mqp > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__w5Mqp > :global(.__wab_flex-container) > *,
+.freeBox__w5Mqp > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box__aC4Uc {
+.freeBox__aC4Uc {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -783,7 +783,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__fGgzj {
+.freeBox__fGgzj {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -793,7 +793,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
-.box___9OZlj {
+.freeBox___9OZlj {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -805,15 +805,15 @@
   min-width: 0;
   padding: 16px 0px;
 }
-.box___9OZlj > :global(.__wab_flex-container) {
+.freeBox___9OZlj > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.box___9OZlj > :global(.__wab_flex-container) > *,
-.box___9OZlj > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___9OZlj > :global(.__wab_flex-container) > *,
+.freeBox___9OZlj > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
 .cardServiceDisplay__f6Doe:global(.__wab_instance) {

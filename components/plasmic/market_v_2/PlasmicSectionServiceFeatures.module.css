@@ -15,7 +15,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-.box {
+.freeBox {
   position: relative;
   left: auto;
   top: auto;

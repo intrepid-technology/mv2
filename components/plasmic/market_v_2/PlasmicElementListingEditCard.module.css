@@ -94,7 +94,7 @@
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
   flex-shrink: 0;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;

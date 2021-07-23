@@ -10,6 +10,7 @@
 // Component: bTEGL3UXVph
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
+import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -169,7 +170,7 @@ function useBehavior(props, ref) {
       children: "Enter some text"
     };
   }
-  return p.useSwitch(
+  return pp.useSwitch(
     PlasmicSwitchTextPlasmic,
     props,
     {

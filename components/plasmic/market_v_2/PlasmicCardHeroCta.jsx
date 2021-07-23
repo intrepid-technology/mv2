@@ -35,9 +35,9 @@ function PlasmicCardHeroCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__rz5EK)}>
-        <div className={classNames(defaultcss.all, sty.box__nxz1A)}>
-          <div className={classNames(defaultcss.all, sty.box__xd1H6)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__rz5EK)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__nxz1A)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__xd1H6)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Everything an entrepreneur needs to start and grow a global business.",
@@ -51,7 +51,7 @@ function PlasmicCardHeroCta__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__pLkK
+            sty.freeBox__pLkK
           )}
         >
           {"Creative technology services to do business beyond borders"}

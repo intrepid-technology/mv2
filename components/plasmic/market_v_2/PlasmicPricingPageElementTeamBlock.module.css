@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 12px;
 }
-.box__vht8C {
+.freeBox__vht8C {
   position: relative;
   left: auto;
   top: auto;
@@ -26,7 +26,7 @@
   flex-direction: column;
   align-self: flex-start;
 }
-.box__rq7Vs {
+.freeBox__rq7Vs {
   display: flex;
   align-self: flex-start;
   position: relative;
@@ -88,7 +88,7 @@
   > * {
   margin-left: 8px;
 }
-.box__cOymw {
+.freeBox__cOymw {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -127,7 +127,7 @@
   > * {
   margin-left: 0px;
 }
-.box__rtYyL {
+.freeBox__rtYyL {
   display: inline-flex;
   position: relative;
   width: auto;
@@ -138,7 +138,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
-.box___2Ntr {
+.freeBox___2Ntr {
   display: flex;
   position: relative;
   width: 100%;

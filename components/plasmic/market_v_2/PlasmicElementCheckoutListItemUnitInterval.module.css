@@ -43,9 +43,9 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  background: #ebebeb;
   border-radius: 2px;
   padding: 2px;
-  background: #ebebeb;
 }
 .unitNumberParent {
   width: 100%;
@@ -72,7 +72,7 @@
   text-align: left;
   line-height: 1;
 }
-.box__rWoQt {
+.freeBox__rWoQt {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -81,7 +81,7 @@
   top: auto;
   left: auto;
 }
-.box__pkFzf {
+.freeBox__pkFzf {
   font-size: 14px;
   text-align: left;
   width: auto;
@@ -102,9 +102,9 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  background: #ebebeb;
   border-radius: 2px;
   padding: 2px;
-  background: #ebebeb;
 }
 .timeIntervalTextParent {
   width: auto;

@@ -50,10 +50,10 @@ function PlasmicModal__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__cWfDy)}
+          className={classNames(defaultcss.all, sty.freeBox__cWfDy)}
         >
-          <div className={classNames(defaultcss.all, sty.box__ysQD)}>
-            <div className={classNames(defaultcss.all, sty.box___1W5DM)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__ysQD)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___1W5DM)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Modal Headline Title",
                 value: args.headline,
@@ -62,8 +62,8 @@ function PlasmicModal__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__cViio)}>
-            <div className={classNames(defaultcss.all, sty.box__vMsaM)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__cViio)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__vMsaM)}>
               {p.renderPlasmicSlot({
                 defaultContents: "This is a modal to get your attention",
                 value: args.subhead,
@@ -73,8 +73,8 @@ function PlasmicModal__RenderFunc(props) {
           </div>
         </p.Stack>
 
-        <div className={classNames(defaultcss.all, sty.box__l8W)}>
-          <div className={classNames(defaultcss.all, sty.box__oemE4)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__l8W)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__oemE4)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in.",

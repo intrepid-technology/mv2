@@ -36,72 +36,72 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__qK279)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__qK279)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__a3KQy
+            sty.freeBox__a3KQy
           )}
         >
           {"membership"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__oogN2)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__oogN2)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mA29P
+            sty.freeBox__mA29P
           )}
         >
           {"Seats"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__oZw0L)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__oZw0L)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__h0SDq
+            sty.freeBox__h0SDq
           )}
         >
           {"price"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__zAdKr)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__zAdKr)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__sJHmB
+            sty.freeBox__sJHmB
           )}
         >
           {"Exp. Date"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__pxwwt)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__pxwwt)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mlLbQ
+            sty.freeBox__mlLbQ
           )}
         >
           {"renew"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box___3BaDh)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___3BaDh)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mms1R
+            sty.freeBox__mms1R
           )}
         >
           {"Action"}

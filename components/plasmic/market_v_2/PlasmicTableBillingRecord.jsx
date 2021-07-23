@@ -38,48 +38,48 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box___1NXvf)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___1NXvf)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__riTOw
+            sty.freeBox__riTOw
           )}
         >
           {"Card brand"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__o6NOc)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__o6NOc)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__yo4Cq
+            sty.freeBox__yo4Cq
           )}
         >
           {"Type"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box___8Ljj)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___8Ljj)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__ecFEl
+            sty.freeBox__ecFEl
           )}
         >
           {"XXXX"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box___9Gvax)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___9Gvax)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__jKFmT
+            sty.freeBox__jKFmT
           )}
         >
           {"XX"}
@@ -89,7 +89,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__bYrEt
+            sty.freeBox__bYrEt
           )}
         >
           {"/"}
@@ -99,14 +99,14 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__v8F9N
+            sty.freeBox__v8F9N
           )}
         >
           {"XXXX"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__oMr1Z)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__oMr1Z)}>
         <CircleCheckedIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
@@ -115,7 +115,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__hb3G1)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__hb3G1)}>
         <ButtonCircleDelete
           data-plasmic-name={"buttonCircleDelete"}
           data-plasmic-override={overrides.buttonCircleDelete}

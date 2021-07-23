@@ -4,9 +4,9 @@
   width: 100%;
   height: auto;
   position: relative;
+  background: #ffffff;
   min-width: 0;
   padding: 64px 180px;
-  background: #ffffff;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -66,7 +66,7 @@
   top: auto;
   left: auto;
 }
-.box {
+.freeBox {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -76,11 +76,11 @@
   height: auto;
   left: auto;
   top: auto;
-  padding: 20px;
   background: #ffffff;
+  padding: 20px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box {
+  .freeBox {
     width: 100%;
     justify-content: flex-start;
     height: auto;
@@ -89,7 +89,7 @@
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box {
+  .freeBox {
     width: 100%;
     height: auto;
     min-width: 0;

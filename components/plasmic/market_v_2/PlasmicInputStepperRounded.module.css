@@ -6,8 +6,8 @@
   width: 90px;
   height: 32px;
   position: relative;
-  border-radius: 2px;
   background: #ffffff;
+  border-radius: 2px;
   border: 0px none #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .button___5Xrke {
@@ -20,10 +20,10 @@
   top: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .svg___10NR {
@@ -54,10 +54,10 @@
   top: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .svg__pk7Ni {

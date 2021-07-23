@@ -59,7 +59,7 @@ function PlasmicInputProcess__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__utVmc)}
+        className={classNames(defaultcss.all, sty.freeBox__utVmc)}
       >
         <textarea
           data-plasmic-name={"textarea"}
@@ -72,14 +72,18 @@ function PlasmicInputProcess__RenderFunc(props) {
         />
 
         <div
-          className={classNames(defaultcss.all, sty.box__yoYe, {
-            [sty.box__add__yoYeqnDpl]: hasVariant(variants, "add", "add")
+          className={classNames(defaultcss.all, sty.freeBox__yoYe, {
+            [sty.freeBox__add__yoYeqnDpl]: hasVariant(variants, "add", "add")
           })}
         >
           {(hasVariant(variants, "add", "add") ? false : true) ? (
             <div
-              className={classNames(defaultcss.all, sty.box__l594M, {
-                [sty.box__add__l594MqnDpl]: hasVariant(variants, "add", "add")
+              className={classNames(defaultcss.all, sty.freeBox__l594M, {
+                [sty.freeBox__add__l594MqnDpl]: hasVariant(
+                  variants,
+                  "add",
+                  "add"
+                )
               })}
             >
               <Icon107Icon
@@ -95,35 +99,39 @@ function PlasmicInputProcess__RenderFunc(props) {
           ) : null}
           {(hasVariant(variants, "_delete", "_delete") ? false : true) ? (
             <div
-              className={classNames(defaultcss.all, sty.box__aOiaZ, {
-                [sty.box___delete__aOiaZSn8T8]: hasVariant(
+              className={classNames(defaultcss.all, sty.freeBox__aOiaZ, {
+                [sty.freeBox___delete__aOiaZSn8T8]: hasVariant(
                   variants,
                   "_delete",
                   "_delete"
                 ),
 
-                [sty.box__add__aOiaZqnDpl]: hasVariant(variants, "add", "add")
+                [sty.freeBox__add__aOiaZqnDpl]: hasVariant(
+                  variants,
+                  "add",
+                  "add"
+                )
               })}
             >
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__ipqFh,
+                  sty.freeBox__ipqFh,
                   {
-                    [sty.box___delete__ipqFhSn8T8]: hasVariant(
+                    [sty.freeBox___delete__ipqFhSn8T8]: hasVariant(
                       variants,
                       "_delete",
                       "_delete"
                     ),
 
-                    [sty.box__add__ipqFhqnDpl]: hasVariant(
+                    [sty.freeBox__add__ipqFhqnDpl]: hasVariant(
                       variants,
                       "add",
                       "add"
                     ),
 
-                    [sty.box__size__540__ipqFhg8DmW]: hasVariant(
+                    [sty.freeBox__size__540__ipqFhg8DmW]: hasVariant(
                       variants,
                       "size",
                       "_540"

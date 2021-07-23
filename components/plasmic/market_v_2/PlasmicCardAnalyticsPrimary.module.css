@@ -6,9 +6,9 @@
   width: 180px;
   height: 180px;
   position: relative;
+  background: #ffffff;
   border-radius: 2px;
   padding: 4px;
-  background: #ffffff repeat;
   border: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .parent__size__270 {
@@ -31,7 +31,7 @@
   height: auto;
   min-width: 0;
 }
-.box__yZ0QO {
+.freeBox__yZ0QO {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -99,17 +99,17 @@
   top: auto;
   left: auto;
 }
-.box___5VQqz {
+.freeBox___5VQqz {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-  background: #f8f8f8 repeat;
 }
 .svg__pdGd6 {
   object-fit: cover;
@@ -119,17 +119,17 @@
   min-width: 0;
   min-height: 0;
 }
-.box__qjbPm {
+.freeBox__qjbPm {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 32px;
   height: 32px;
+  background: #f0ebff;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-  background: #f0ebff repeat;
 }
 .svg__hwk83 {
   object-fit: cover;
@@ -138,22 +138,22 @@
   min-width: 0;
   min-height: 0;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
   left: auto;
 }
-.box > :global(.__wab_flex-container) {
+.freeBox > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.box > :global(.__wab_flex-container) > *,
-.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
 .numberValue {
@@ -178,7 +178,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box__wM3Ab {
+.freeBox__wM3Ab {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -188,7 +188,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__a4Wh {
+.freeBox__a4Wh {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -198,7 +198,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__ncgFi {
+.freeBox__ncgFi {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -208,7 +208,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__jOHp {
+.freeBox__jOHp {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -225,7 +225,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box__vDq8H {
+.freeBox__vDq8H {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -235,7 +235,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__vyTh {
+.freeBox__vyTh {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -263,11 +263,11 @@
 .cardTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-.box__vly1J {
+.freeBox__vly1J {
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   font-size: 14px;
 }
-.box__zL10 {
+.freeBox__zL10 {
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   font-size: 16px;
 }
@@ -285,11 +285,11 @@
   min-width: 0;
   min-height: 0;
 }
-.box__yhPhL {
+.freeBox__yhPhL {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.box___2Fp0Z {
+.freeBox___2Fp0Z {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
@@ -309,27 +309,27 @@
   min-width: 0;
   min-height: 0;
 }
-.box___49N4A {
+.freeBox___49N4A {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.box__jYBg4 {
+.freeBox__jYBg4 {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.box__jsNg8 {
+.freeBox__jsNg8 {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.box__by3Ob {
+.freeBox__by3Ob {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.box___7DGw8 {
+.freeBox___7DGw8 {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.box__fyfNp {
+.freeBox__fyfNp {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }

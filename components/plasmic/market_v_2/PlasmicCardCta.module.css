@@ -4,8 +4,8 @@
   width: 100%;
   height: auto;
   position: relative;
-  min-width: 0;
   background: #ffffff;
+  min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -21,7 +21,7 @@
 .root__center > :global(.__wab_flex-container) {
   align-items: center;
 }
-.box__pjpjd {
+.freeBox__pjpjd {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -30,24 +30,24 @@
   width: 360px;
   height: auto;
 }
-.box__pjpjd > :global(.__wab_flex-container) {
+.freeBox__pjpjd > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__pjpjd > :global(.__wab_flex-container) > *,
-.box__pjpjd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__pjpjd > :global(.__wab_flex-container) > *,
+.freeBox__pjpjd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box__gTubY {
+.freeBox__gTubY {
   width: 100%;
   display: flex;
   flex-direction: column;
   min-width: 0;
 }
-.box__fQ2Rt {
+.freeBox__fQ2Rt {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -65,7 +65,7 @@
 .slotSlot2__center {
   text-align: center;
 }
-.box__y0NOz {
+.freeBox__y0NOz {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -98,13 +98,13 @@
   > * {
   margin-top: 18px;
 }
-.box__g7ETy {
+.freeBox__g7ETy {
   width: 100%;
   display: flex;
   flex-direction: column;
   min-width: 0;
 }
-.box__g8YHo {
+.freeBox__g8YHo {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -121,7 +121,7 @@
 .slotChildren__center {
   text-align: center;
 }
-.box__ge5FL {
+.freeBox__ge5FL {
   position: relative;
   left: auto;
   top: auto;
@@ -132,12 +132,12 @@
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__ge5FL {
+  .freeBox__ge5FL {
     left: auto;
     top: auto;
   }
 }
-.box__nrSpi {
+.freeBox__nrSpi {
   display: flex;
   align-self: stretch;
   position: relative;

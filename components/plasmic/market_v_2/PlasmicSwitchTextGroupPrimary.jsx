@@ -51,9 +51,9 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
       />
 
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"descriptionTextParent"}
@@ -81,13 +81,13 @@ const PlasmicDescendants = {
   root: [
     "root",
     "switchTextPrimary",
-    "box",
+    "freeBox",
     "descriptionTextParent",
     "descriptionSlotParent"
   ],
 
   switchTextPrimary: ["switchTextPrimary"],
-  box: ["box", "descriptionTextParent", "descriptionSlotParent"],
+  freeBox: ["freeBox", "descriptionTextParent", "descriptionSlotParent"],
   descriptionTextParent: ["descriptionTextParent", "descriptionSlotParent"],
   descriptionSlotParent: ["descriptionSlotParent"]
 };
@@ -124,7 +124,7 @@ export const PlasmicSwitchTextGroupPrimary = Object.assign(
   {
     // Helper components rendering sub-elements
     switchTextPrimary: makeNodeComponent("switchTextPrimary"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     descriptionTextParent: makeNodeComponent("descriptionTextParent"),
     descriptionSlotParent: makeNodeComponent("descriptionSlotParent"),
     // Metadata about props expected for PlasmicSwitchTextGroupPrimary

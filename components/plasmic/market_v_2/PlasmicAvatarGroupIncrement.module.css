@@ -450,7 +450,7 @@
 .additionalMembers > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 2px;
 }
-.box__zKqRe {
+.freeBox__zKqRe {
   position: relative;
   left: auto;
   top: auto;
@@ -467,7 +467,7 @@
   width: auto;
   height: auto;
 }
-.box__hq5ZR {
+.freeBox__hq5ZR {
   display: inline-flex;
   position: relative;
   flex-direction: column;

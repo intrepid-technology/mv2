@@ -148,14 +148,22 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.companyNamePriceParent2
                     )}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__cQnBt)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__cQnBt)}
+                    >
                       <div
-                        className={classNames(defaultcss.all, sty.box__kqzI)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__kqzI
+                        )}
                       >
                         <p.Stack
                           as={"div"}
                           hasGap={true}
-                          className={classNames(defaultcss.all, sty.box__kWxw1)}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__kWxw1
+                          )}
                         >
                           <div
                             data-plasmic-name={"serviceCompanyName2"}
@@ -171,7 +179,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.box___9Puij
+                                sty.freeBox___9Puij
                               )}
                             >
                               {"Company name"}
@@ -220,7 +228,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__fjFyq
+                          sty.freeBox__fjFyq
                         )}
                       >
                         {"Verified"}
@@ -248,7 +256,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__ew4Af)}
+                  className={classNames(defaultcss.all, sty.freeBox__ew4Af)}
                 >
                   <img
                     alt={""}
@@ -278,7 +286,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__y19Np)}
+                  className={classNames(defaultcss.all, sty.freeBox__y19Np)}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -383,7 +391,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___1RPqE
+                        sty.freeBox___1RPqE
                       )}
                     >
                       {"Description"}
@@ -407,7 +415,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__cm7I3
+                          sty.freeBox__cm7I3
                         )}
                       >
                         {
@@ -438,7 +446,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__qz6Jr
+                        sty.freeBox__qz6Jr
                       )}
                     >
                       {"Process"}
@@ -465,7 +473,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__ipjIf
+                          sty.freeBox__ipjIf
                         )}
                       >
                         {
@@ -531,7 +539,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__pnud8
+                        sty.freeBox__pnud8
                       )}
                     >
                       {"Features"}
@@ -549,12 +557,15 @@ function PlasmicServicedetail__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__tu3Wz)}
+                      className={classNames(defaultcss.all, sty.freeBox__tu3Wz)}
                     >
                       <p.Stack
                         as={"div"}
                         hasGap={true}
-                        className={classNames(defaultcss.all, sty.box__vbPe2)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__vbPe2
+                        )}
                       >
                         <ServiceFeatureB
                           className={classNames(
@@ -636,18 +647,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__wMb
+                        sty.freeBox__wMb
                       )}
                     >
                       {"Content"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box__kHmO0)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__kHmO0)}
+                  >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__nKBwa)}
+                      className={classNames(defaultcss.all, sty.freeBox__nKBwa)}
                     >
                       <ServiceFeatureCard
                         className={classNames(
@@ -700,18 +713,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__mG8P
+                        sty.freeBox__mG8P
                       )}
                     >
                       {"Method"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box___1Ese0)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox___1Ese0)}
+                  >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__bGavK)}
+                      className={classNames(defaultcss.all, sty.freeBox__bGavK)}
                     >
                       <ServiceFeatureCard
                         className={classNames(
@@ -764,18 +779,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__oi7S0
+                        sty.freeBox__oi7S0
                       )}
                     >
                       {"Tools"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box___71ORb)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox___71ORb)}
+                  >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__ttyHw)}
+                      className={classNames(defaultcss.all, sty.freeBox__ttyHw)}
                     >
                       <ChipBadgeDisplay
                         className={classNames(
@@ -843,18 +860,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__cH8Eb
+                        sty.freeBox__cH8Eb
                       )}
                     >
                       {"Format"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box__bEXt)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__bEXt)}
+                  >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__geArL)}
+                      className={classNames(defaultcss.all, sty.freeBox__geArL)}
                     >
                       <ChipBadgeDisplay
                         className={classNames(
@@ -922,19 +941,21 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__ucMu5
+                        sty.freeBox__ucMu5
                       )}
                     >
                       {"Requirements"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box__t9EAw)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__t9EAw)}
+                  >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___5OzNn
+                        sty.freeBox___5OzNn
                       )}
                     >
                       {
@@ -945,7 +966,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__hsM4C)}
+                      className={classNames(defaultcss.all, sty.freeBox__hsM4C)}
                     >
                       <ServiceFeatureCard
                         className={classNames(
@@ -998,19 +1019,21 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__prl3O
+                        sty.freeBox__prl3O
                       )}
                     >
                       {"Terms"}
                     </div>
                   </Accordion>
 
-                  <div className={classNames(defaultcss.all, sty.box__qitb4)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__qitb4)}
+                  >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__a0JSz
+                        sty.freeBox__a0JSz
                       )}
                     >
                       {
@@ -1021,7 +1044,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__n9Y3U)}
+                      className={classNames(defaultcss.all, sty.freeBox__n9Y3U)}
                     >
                       <ServiceFeatureCard
                         className={classNames(
@@ -1126,7 +1149,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__uOdZo
+                            sty.freeBox__uOdZo
                           )}
                         >
                           {"10,000"}
@@ -1144,7 +1167,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__m2W9E
+                        sty.freeBox__m2W9E
                       )}
                     >
                       {"Service name"}
@@ -1163,7 +1186,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__mjS0B
+                        sty.freeBox__mjS0B
                       )}
                     >
                       {
@@ -1238,14 +1261,22 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.companyNamePriceParent3
                     )}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__mGz7R)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__mGz7R)}
+                    >
                       <div
-                        className={classNames(defaultcss.all, sty.box__xtsDr)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox__xtsDr
+                        )}
                       >
                         <p.Stack
                           as={"div"}
                           hasGap={true}
-                          className={classNames(defaultcss.all, sty.box__qYg99)}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__qYg99
+                          )}
                         >
                           <div
                             data-plasmic-name={"serviceCompanyName3"}
@@ -1261,7 +1292,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.box__tSmZz
+                                sty.freeBox__tSmZz
                               )}
                             >
                               {"Company name"}
@@ -1310,7 +1341,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___133Eb
+                          sty.freeBox___133Eb
                         )}
                       >
                         {"Verified"}
@@ -1331,7 +1362,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pxCD
+                      sty.freeBox__pxCD
                     )}
                   >
                     {
@@ -1368,7 +1399,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3EPlj
+                      sty.freeBox___3EPlj
                     )}
                   >
                     {"Order now"}
@@ -1387,7 +1418,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__tOLxW
+                      sty.freeBox__tOLxW
                     )}
                   >
                     {"Add to brief"}
@@ -1406,7 +1437,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rgQzD
+                      sty.freeBox__rgQzD
                     )}
                   >
                     {"Request quote"}
@@ -1431,7 +1462,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__eawQa
+                      sty.freeBox__eawQa
                     )}
                   >
                     {"Save"}
@@ -1456,7 +1487,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ffOr8
+                      sty.freeBox__ffOr8
                     )}
                   >
                     {"Share"}

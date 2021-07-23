@@ -37,18 +37,23 @@ function PlasmicProgressBar__RenderFunc(props) {
       })}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box, {
-          [sty.box__progress__100]: hasVariant(variants, "progress", "_100"),
-          [sty.box__progress__20]: hasVariant(variants, "progress", "_20"),
-          [sty.box__progress__30]: hasVariant(variants, "progress", "_30"),
-          [sty.box__progress__40]: hasVariant(variants, "progress", "_40"),
-          [sty.box__progress__50]: hasVariant(variants, "progress", "_50"),
-          [sty.box__progress__60]: hasVariant(variants, "progress", "_60"),
-          [sty.box__progress__70]: hasVariant(variants, "progress", "_70"),
-          [sty.box__progress__80]: hasVariant(variants, "progress", "_80"),
-          [sty.box__progress__90]: hasVariant(variants, "progress", "_90")
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox, {
+          [sty.freeBox__progress__100]: hasVariant(
+            variants,
+            "progress",
+            "_100"
+          ),
+
+          [sty.freeBox__progress__20]: hasVariant(variants, "progress", "_20"),
+          [sty.freeBox__progress__30]: hasVariant(variants, "progress", "_30"),
+          [sty.freeBox__progress__40]: hasVariant(variants, "progress", "_40"),
+          [sty.freeBox__progress__50]: hasVariant(variants, "progress", "_50"),
+          [sty.freeBox__progress__60]: hasVariant(variants, "progress", "_60"),
+          [sty.freeBox__progress__70]: hasVariant(variants, "progress", "_70"),
+          [sty.freeBox__progress__80]: hasVariant(variants, "progress", "_80"),
+          [sty.freeBox__progress__90]: hasVariant(variants, "progress", "_90")
         })}
       />
     </div>
@@ -56,8 +61,8 @@ function PlasmicProgressBar__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -91,7 +96,7 @@ export const PlasmicProgressBar = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicProgressBar
     internalVariantProps: PlasmicProgressBar__VariantProps,
     internalArgProps: PlasmicProgressBar__ArgProps

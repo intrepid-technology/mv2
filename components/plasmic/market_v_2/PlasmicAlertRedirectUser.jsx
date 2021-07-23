@@ -58,7 +58,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__hd4C)}
+        className={classNames(defaultcss.all, sty.freeBox__hd4C)}
       >
         {(
           hasVariant(globalVariants, "screen", "mobile")
@@ -70,7 +70,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__i0Yy5)}
+            className={classNames(defaultcss.all, sty.freeBox__i0Yy5)}
           >
             <Icon42Icon
               className={classNames(defaultcss.all, sty.svg__on4Gg, {
@@ -88,15 +88,15 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__zsyYr,
+                  sty.freeBox__zsyYr,
                   {
-                    [sty.box__color_light__zsyYrVn8Xk]: hasVariant(
+                    [sty.freeBox__color_light__zsyYrVn8Xk]: hasVariant(
                       variants,
                       "color",
                       "light"
                     ),
 
-                    [sty.box__partner__zsyYrwYrcz]: hasVariant(
+                    [sty.freeBox__partner__zsyYrwYrcz]: hasVariant(
                       variants,
                       "partner",
                       "partner"
@@ -134,15 +134,15 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___20Bn,
+              sty.freeBox___20Bn,
               {
-                [sty.box__color_light___20BnVn8Xk]: hasVariant(
+                [sty.freeBox__color_light___20BnVn8Xk]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.box__partner___20BNwYrcz]: hasVariant(
+                [sty.freeBox__partner___20BNwYrcz]: hasVariant(
                   variants,
                   "partner",
                   "partner"

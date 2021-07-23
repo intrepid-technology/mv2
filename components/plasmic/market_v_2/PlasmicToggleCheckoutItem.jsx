@@ -41,8 +41,8 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__owx0Z)}>
-        <div className={classNames(defaultcss.all, sty.box__vfoqX)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__owx0Z)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__vfoqX)}>
           {p.renderPlasmicSlot({
             defaultContents: "Headline",
             value: args.slot,
@@ -54,14 +54,14 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__shxFa)}
+        className={classNames(defaultcss.all, sty.freeBox__shxFa)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box___0I9Jc)}
+          className={classNames(defaultcss.all, sty.freeBox___0I9Jc)}
         >
-          <div className={classNames(defaultcss.all, sty.box__zOrO7)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__zOrO7)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <ToggleSubscriptionCard inactive={"placement"} />
@@ -71,7 +71,7 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
             })}
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__wag3D)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__wag3D)}>
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.children,

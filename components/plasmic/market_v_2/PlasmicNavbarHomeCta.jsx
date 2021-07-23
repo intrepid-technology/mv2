@@ -66,8 +66,8 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__eV2N, {
-            [sty.box__color_dark__eV2N90H3U]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__eV2N, {
+            [sty.freeBox__color_dark__eV2N90H3U]: hasVariant(
               variants,
               "color",
               "dark"
@@ -109,9 +109,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__hyKmE,
+                    sty.freeBox__hyKmE,
                     {
-                      [sty.box__color_dark__hyKmE90H3U]: hasVariant(
+                      [sty.freeBox__color_dark__hyKmE90H3U]: hasVariant(
                         variants,
                         "color",
                         "dark"
@@ -151,7 +151,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__nAyJs
+                    sty.freeBox__nAyJs
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "desktop")

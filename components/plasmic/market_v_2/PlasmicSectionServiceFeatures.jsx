@@ -61,16 +61,16 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
     >
       {(hasVariant(variants, "breadcrumbs", "breadcrumbs") ? false : true) ? (
         <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, sty.box, {
-            [sty.box__brandDesign_logo]: hasVariant(
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__brandDesign_logo]: hasVariant(
               variants,
               "brandDesign",
               "logo"
             ),
 
-            [sty.box__breadcrumbs]: hasVariant(
+            [sty.freeBox__breadcrumbs]: hasVariant(
               variants,
               "breadcrumbs",
               "breadcrumbs"
@@ -2664,8 +2664,8 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -2699,7 +2699,7 @@ export const PlasmicSectionServiceFeatures = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSectionServiceFeatures
     internalVariantProps: PlasmicSectionServiceFeatures__VariantProps,
     internalArgProps: PlasmicSectionServiceFeatures__ArgProps

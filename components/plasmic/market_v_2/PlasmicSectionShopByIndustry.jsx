@@ -55,7 +55,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__fPuP5
+          sty.freeBox__fPuP5
         )}
       >
         {hasVariant(globalVariants, "screen", "mobile")
@@ -68,7 +68,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__kOiq5)}
+        className={classNames(defaultcss.all, sty.freeBox__kOiq5)}
       >
         <ChipCategoryHeader
           className={classNames("__wab_instance", sty.chipCategoryHeader__xJ5H)}

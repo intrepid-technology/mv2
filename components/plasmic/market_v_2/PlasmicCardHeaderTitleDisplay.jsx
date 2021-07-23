@@ -64,6 +64,12 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             variants,
             "size",
             "_270"
+          ),
+
+          [sty.headerDisplayGroupParent__size__360]: hasVariant(
+            variants,
+            "size",
+            "_360"
           )
         })}
       >
@@ -226,7 +232,8 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
                 "subhead"
               ),
 
-              [sty.subhead__size__270]: hasVariant(variants, "size", "_270")
+              [sty.subhead__size__270]: hasVariant(variants, "size", "_270"),
+              [sty.subhead__size__360]: hasVariant(variants, "size", "_360")
             })}
           >
             <div
@@ -249,6 +256,12 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
                   variants,
                   "size",
                   "_270"
+                ),
+
+                [sty.textSubheadParent__size__360]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
                 )
               })}
             >

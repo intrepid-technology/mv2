@@ -213,7 +213,9 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                   headline={"Work and live from anywhere"}
                   iconParent={
-                    <div className={classNames(defaultcss.all, sty.box__nlzEe)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__nlzEe)}
+                    >
                       <GlobeAmericaIcon
                         className={classNames(defaultcss.all, sty.svg__hG9X2)}
                         role={"img"}
@@ -234,7 +236,10 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Community & collaboration"}
                   iconParent={
                     <div
-                      className={classNames(defaultcss.all, sty.box___3QC9S)}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.freeBox___3QC9S
+                      )}
                     >
                       <TeamPartnersIcon
                         className={classNames(defaultcss.all, sty.svg___0D00)}
@@ -282,7 +287,7 @@ function PlasmicHome__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.box__gtFvM)}
+                      className={classNames(defaultcss.all, sty.freeBox__gtFvM)}
                     >
                       <Icon40Icon
                         className={classNames(defaultcss.all, sty.svg__gsFh8)}
@@ -303,7 +308,9 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                   headline={"Go to market fast"}
                   iconParent={
-                    <div className={classNames(defaultcss.all, sty.box__lk9Nw)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__lk9Nw)}
+                    >
                       <Icon166Icon
                         className={classNames(defaultcss.all, sty.svg___4ES2)}
                         role={"img"}
@@ -323,7 +330,9 @@ function PlasmicHome__RenderFunc(props) {
                   )}
                   headline={"Save time and money"}
                   iconParent={
-                    <div className={classNames(defaultcss.all, sty.box__ySjws)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__ySjws)}
+                    >
                       <CircleTimeIcon
                         className={classNames(defaultcss.all, sty.svg___68Hoj)}
                         role={"img"}
@@ -344,7 +353,10 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Support small businesses"}
                   iconParent={
                     <div
-                      className={classNames(defaultcss.all, sty.box___57Srn)}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.freeBox___57Srn
+                      )}
                     >
                       <Icon133Icon
                         className={classNames(defaultcss.all, sty.svg___9Um6)}
@@ -370,7 +382,7 @@ function PlasmicHome__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__zVk1H
+                  sty.freeBox__zVk1H
                 )}
               >
                 {"Sign up"}
@@ -387,9 +399,9 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__lqXyy)}
+            className={classNames(defaultcss.all, sty.freeBox__lqXyy)}
           >
-            <div className={classNames(defaultcss.all, sty.box__bR7Mr)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__bR7Mr)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -408,7 +420,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___9Ipgl
+                      sty.freeBox___9Ipgl
                     )}
                   >
                     {"Grow your business from anywhere"}
@@ -419,7 +431,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__m55Ho
+                      sty.freeBox__m55Ho
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -435,7 +447,7 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__d8S0D)}
+              className={classNames(defaultcss.all, sty.freeBox__d8S0D)}
             >
               <CardImageHeadlineDescription
                 _270X270={
@@ -461,7 +473,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__breZ0
+                          sty.freeBox__breZ0
                         )}
                       >
                         {"UX Design"}
@@ -495,7 +507,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__dpw1A
+                          sty.freeBox__dpw1A
                         )}
                       >
                         {"Mobile apps"}
@@ -529,7 +541,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__po3Ep
+                          sty.freeBox__po3Ep
                         )}
                       >
                         {"No Code"}
@@ -563,7 +575,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__bEklk
+                          sty.freeBox__bEklk
                         )}
                       >
                         {"Web apps"}
@@ -578,28 +590,28 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__lRiKf)}
+            className={classNames(defaultcss.all, sty.freeBox__lRiKf)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__sJibN)}
+              className={classNames(defaultcss.all, sty.freeBox__sJibN)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__k8APm)}
+                className={classNames(defaultcss.all, sty.freeBox__k8APm)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__c8FT4)}
+                  className={classNames(defaultcss.all, sty.freeBox__c8FT4)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__iWQf
+                      sty.freeBox__iWQf
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -613,7 +625,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__x2Mg3
+                      sty.freeBox__x2Mg3
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -662,7 +674,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__hYew
+                          sty.freeBox__hYew
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
@@ -702,9 +714,9 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__vutcc)}
+            className={classNames(defaultcss.all, sty.freeBox__vutcc)}
           >
-            <div className={classNames(defaultcss.all, sty.box__lrfUu)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__lrfUu)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -721,7 +733,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___2VRor
+                      sty.freeBox___2VRor
                     )}
                   >
                     {"Work without borders"}
@@ -732,7 +744,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__o8Hc
+                      sty.freeBox__o8Hc
                     )}
                   >
                     {"Discover the world and work from anywhere."}
@@ -744,7 +756,7 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__cXk)}
+              className={classNames(defaultcss.all, sty.freeBox__cXk)}
             >
               <CardImageHeadlineDescription
                 _360X360={
@@ -765,7 +777,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__m8Mse
+                      sty.freeBox__m8Mse
                     )}
                   >
                     {
@@ -782,7 +794,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__zNeu0
+                          sty.freeBox__zNeu0
                         )}
                       >
                         {"Destinations"}
@@ -811,7 +823,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__oQap
+                      sty.freeBox__oQap
                     )}
                   >
                     {
@@ -828,7 +840,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__flcUt
+                          sty.freeBox__flcUt
                         )}
                       >
                         {"Workspaces"}
@@ -857,7 +869,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vsuFv
+                      sty.freeBox__vsuFv
                     )}
                   >
                     {
@@ -874,7 +886,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__v6MpX
+                          sty.freeBox__v6MpX
                         )}
                       >
                         {"Livespaces"}
@@ -886,27 +898,27 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.box__s2YtE)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__s2YtE)}>
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__xFjXe)}
+              className={classNames(defaultcss.all, sty.freeBox__xFjXe)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__inSiQ)}
+                className={classNames(defaultcss.all, sty.freeBox__inSiQ)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__btxJm)}
+                  className={classNames(defaultcss.all, sty.freeBox__btxJm)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__bf3Y2
+                      sty.freeBox__bf3Y2
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -920,7 +932,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__uQOx
+                      sty.freeBox__uQOx
                     )}
                   >
                     {
@@ -967,7 +979,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__zKpa
+                          sty.freeBox__zKpa
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
@@ -1007,9 +1019,9 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__wvmvo)}
+            className={classNames(defaultcss.all, sty.freeBox__wvmvo)}
           >
-            <div className={classNames(defaultcss.all, sty.box___562Ol)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___562Ol)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -1028,7 +1040,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__tnzRu
+                      sty.freeBox__tnzRu
                     )}
                   >
                     {"Follow your passion"}
@@ -1039,7 +1051,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__paM4A
+                      sty.freeBox__paM4A
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -1055,7 +1067,7 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__uDeak)}
+              className={classNames(defaultcss.all, sty.freeBox__uDeak)}
             >
               <CardImageHeadlineDescription
                 _360X360={
@@ -1076,7 +1088,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__bOYsc
+                      sty.freeBox__bOYsc
                     )}
                   >
                     {
@@ -1093,7 +1105,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__r1Sre
+                          sty.freeBox__r1Sre
                         )}
                       >
                         {"Live events"}
@@ -1122,7 +1134,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__gaPr3
+                      sty.freeBox__gaPr3
                     )}
                   >
                     {
@@ -1139,7 +1151,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__dyXmt
+                          sty.freeBox__dyXmt
                         )}
                       >
                         {"Online experiences"}
@@ -1168,7 +1180,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nmKfs
+                      sty.freeBox__nmKfs
                     )}
                   >
                     {
@@ -1185,7 +1197,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__yigk4
+                          sty.freeBox__yigk4
                         )}
                       >
                         {"Professional coaching"}
@@ -1197,27 +1209,27 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.box__nAfro)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__nAfro)}>
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__wscGy)}
+              className={classNames(defaultcss.all, sty.freeBox__wscGy)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__y3H79)}
+                className={classNames(defaultcss.all, sty.freeBox__y3H79)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__a7U2J)}
+                  className={classNames(defaultcss.all, sty.freeBox__a7U2J)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__yDzzd
+                      sty.freeBox__yDzzd
                     )}
                   >
                     {"Become a partner"}
@@ -1227,7 +1239,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vAxBa
+                      sty.freeBox__vAxBa
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
@@ -1274,7 +1286,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___4HpwD
+                          sty.freeBox___4HpwD
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")

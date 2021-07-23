@@ -139,8 +139,8 @@ function PlasmicNavbarInternal__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__fJTxW, {
-            [sty.box__user_member_state_loggedIn__fJTxWl8QpNNht4J]:
+          className={classNames(defaultcss.all, sty.freeBox__fJTxW, {
+            [sty.freeBox__user_member_state_loggedIn__fJTxWl8QpNNht4J]:
               hasVariant(variants, "user", "member") &&
               hasVariant(variants, "state", "loggedIn")
           })}
@@ -148,17 +148,17 @@ function PlasmicNavbarInternal__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__maSdV, {
-              [sty.box__user_member__maSdVl8QpN]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__maSdV, {
+              [sty.freeBox__user_member__maSdVl8QpN]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.box__user_member_state_loggedIn__maSdVl8QpNNht4J]:
+              [sty.freeBox__user_member_state_loggedIn__maSdVl8QpNNht4J]:
                 hasVariant(variants, "user", "member") &&
                 hasVariant(variants, "state", "loggedIn"),
-              [sty.box__user_member_state_loggedOut__maSdVl8QpNAbbxv]:
+              [sty.freeBox__user_member_state_loggedOut__maSdVl8QpNAbbxv]:
                 hasVariant(variants, "user", "member") &&
                 hasVariant(variants, "state", "loggedOut")
             })}
@@ -181,29 +181,29 @@ function PlasmicNavbarInternal__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__av6P, {
-                  [sty.box__user_member__av6PL8QpN]: hasVariant(
+                className={classNames(defaultcss.all, sty.freeBox__av6P, {
+                  [sty.freeBox__user_member__av6PL8QpN]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.box__user_member_state_loggedIn__av6PL8QpNNht4J]:
+                  [sty.freeBox__user_member_state_loggedIn__av6PL8QpNNht4J]:
                     hasVariant(variants, "user", "member") &&
                     hasVariant(variants, "state", "loggedIn"),
-                  [sty.box__user_member_state_loggedOut__av6PL8QpNAbbxv]:
+                  [sty.freeBox__user_member_state_loggedOut__av6PL8QpNAbbxv]:
                     hasVariant(variants, "user", "member") &&
                     hasVariant(variants, "state", "loggedOut"),
-                  [sty.box__user_partner__av6PKgcSn]: hasVariant(
+                  [sty.freeBox__user_partner__av6PKgcSn]: hasVariant(
                     variants,
                     "user",
                     "partner"
                   ),
 
-                  [sty.box__user_partner_state_loggedIn__av6PKgcSnNht4J]:
+                  [sty.freeBox__user_partner_state_loggedIn__av6PKgcSnNht4J]:
                     hasVariant(variants, "user", "partner") &&
                     hasVariant(variants, "state", "loggedIn"),
-                  [sty.box__user_partner_state_loggedOut__av6PKgcSnAbbxv]:
+                  [sty.freeBox__user_partner_state_loggedOut__av6PKgcSnAbbxv]:
                     hasVariant(variants, "user", "partner") &&
                     hasVariant(variants, "state", "loggedOut")
                 })}

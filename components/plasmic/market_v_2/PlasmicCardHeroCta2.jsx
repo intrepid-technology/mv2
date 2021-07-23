@@ -35,9 +35,9 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__meTMb)}>
-        <div className={classNames(defaultcss.all, sty.box__mPjNz)}>
-          <div className={classNames(defaultcss.all, sty.box__hJgt)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__meTMb)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__mPjNz)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__hJgt)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "The one-stop destination for buying, selling, and discovering creative technology services",
@@ -56,7 +56,7 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__cL3Qf)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__cL3Qf)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <img

@@ -58,7 +58,7 @@ function PlasmicFooterServiceListing__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__h0Jz
+            sty.freeBox__h0Jz
           )}
         >
           {"Back"}
@@ -76,7 +76,7 @@ function PlasmicFooterServiceListing__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__dUxCp
+            sty.freeBox__dUxCp
           )}
         >
           {"Save & Exit"}

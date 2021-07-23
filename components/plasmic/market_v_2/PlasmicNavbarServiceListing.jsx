@@ -89,14 +89,14 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         size={"_120"}
       >
         <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box,
+            sty.freeBox,
             {
-              [sty.box__state_checkout]: hasVariant(
+              [sty.freeBox__state_checkout]: hasVariant(
                 variants,
                 "state",
                 "checkout"
@@ -112,11 +112,11 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "logoHeader", "img", "buttonPrimary", "box"],
+  root: ["root", "logoHeader", "img", "buttonPrimary", "freeBox"],
   logoHeader: ["logoHeader", "img"],
   img: ["img"],
-  buttonPrimary: ["buttonPrimary", "box"],
-  box: ["box"]
+  buttonPrimary: ["buttonPrimary", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -153,7 +153,7 @@ export const PlasmicNavbarServiceListing = Object.assign(
     logoHeader: makeNodeComponent("logoHeader"),
     img: makeNodeComponent("img"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicNavbarServiceListing
     internalVariantProps: PlasmicNavbarServiceListing__VariantProps,
     internalArgProps: PlasmicNavbarServiceListing__ArgProps

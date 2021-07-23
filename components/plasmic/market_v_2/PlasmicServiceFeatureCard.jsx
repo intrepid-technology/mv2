@@ -42,8 +42,8 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
         [sty.root__size_small]: hasVariant(variants, "size", "small")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.box__lyoyb)}>
-        <div className={classNames(defaultcss.all, sty.box__muod3)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__lyoyb)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__muod3)}>
           {p.renderPlasmicSlot({
             defaultContents: "20",
             value: args.slot,
@@ -54,8 +54,8 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__xNaRf)}>
-        <div className={classNames(defaultcss.all, sty.box__i7XIs)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__xNaRf)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__i7XIs)}>
           {p.renderPlasmicSlot({
             defaultContents: "Components",
             value: args.children,

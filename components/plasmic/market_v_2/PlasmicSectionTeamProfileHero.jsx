@@ -17,7 +17,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import CardHeroPartnerProfileDisplay from "../../CardHeroPartnerProfileDisplay"; // plasmic-import: CFL7zSW3US5/component
+import CardTeamProfileHeroDisplay from "../../CardTeamProfileHeroDisplay"; // plasmic-import: CFL7zSW3US5/component
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -45,13 +45,10 @@ function PlasmicSectionTeamProfileHero__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <CardHeroPartnerProfileDisplay
-        data-plasmic-name={"cardHeroPartnerProfileDisplay"}
-        data-plasmic-override={overrides.cardHeroPartnerProfileDisplay}
-        className={classNames(
-          "__wab_instance",
-          sty.cardHeroPartnerProfileDisplay
-        )}
+      <CardTeamProfileHeroDisplay
+        data-plasmic-name={"cardTeamProfileHeroDisplay"}
+        data-plasmic-override={overrides.cardTeamProfileHeroDisplay}
+        className={classNames("__wab_instance", sty.cardTeamProfileHeroDisplay)}
       />
 
       <ImagePrimary
@@ -69,8 +66,8 @@ function PlasmicSectionTeamProfileHero__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "cardHeroPartnerProfileDisplay", "imagePrimary"],
-  cardHeroPartnerProfileDisplay: ["cardHeroPartnerProfileDisplay"],
+  root: ["root", "cardTeamProfileHeroDisplay", "imagePrimary"],
+  cardTeamProfileHeroDisplay: ["cardTeamProfileHeroDisplay"],
   imagePrimary: ["imagePrimary"]
 };
 
@@ -105,10 +102,7 @@ export const PlasmicSectionTeamProfileHero = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    cardHeroPartnerProfileDisplay: makeNodeComponent(
-      "cardHeroPartnerProfileDisplay"
-    ),
-
+    cardTeamProfileHeroDisplay: makeNodeComponent("cardTeamProfileHeroDisplay"),
     imagePrimary: makeNodeComponent("imagePrimary"),
     // Metadata about props expected for PlasmicSectionTeamProfileHero
     internalVariantProps: PlasmicSectionTeamProfileHero__VariantProps,

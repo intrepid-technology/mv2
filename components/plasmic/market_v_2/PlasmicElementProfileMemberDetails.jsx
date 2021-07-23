@@ -98,7 +98,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-override={overrides.badgeVerification}
               />
 
-              <div className={classNames(defaultcss.all, sty.box__wpQmj)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__wpQmj)}>
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
@@ -110,7 +110,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 ) : null}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.box__yoDnP)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__yoDnP)}>
                 <RatingDisplayDetail
                   data-plasmic-name={"ratingDisplayDetail"}
                   data-plasmic-override={overrides.ratingDisplayDetail}
@@ -479,7 +479,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zJxej
+                      sty.freeBox__zJxej
                     )}
                   >
                     {"languageA"}
@@ -495,7 +495,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vPsIx
+                      sty.freeBox__vPsIx
                     )}
                   >
                     {"languageB"}
@@ -617,7 +617,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rovGm
+                      sty.freeBox__rovGm
                     )}
                   >
                     {"cityName"}
@@ -627,7 +627,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__h9Ew
+                      sty.freeBox__h9Ew
                     )}
                   >
                     {","}
@@ -643,7 +643,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rAn6N
+                      sty.freeBox__rAn6N
                     )}
                   >
                     {"countryName"}
@@ -691,7 +691,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zQj11
+                      sty.freeBox__zQj11
                     )}
                   >
                     {"Member since"}
@@ -710,7 +710,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3O7Bo
+                      sty.freeBox___3O7Bo
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")

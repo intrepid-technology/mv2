@@ -67,8 +67,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
       >
         {(hasVariant(variants, "color", "color") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__lVy1A, {
-              [sty.box__color__lVy1ABxq9H]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__lVy1A, {
+              [sty.freeBox__color__lVy1ABxq9H]: hasVariant(
                 variants,
                 "color",
                 "color"
@@ -87,8 +87,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         ) : null}
         {(hasVariant(variants, "color", "color") ? true : false) ? (
           <div
-            className={classNames(defaultcss.all, sty.box___5OHj, {
-              [sty.box__color___5OHjBxq9H]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox___5OHj, {
+              [sty.freeBox__color___5OHjBxq9H]: hasVariant(
                 variants,
                 "color",
                 "color"
@@ -128,8 +128,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__jeKoP, {
-              [sty.box__color__jeKoPBxq9H]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__jeKoP, {
+              [sty.freeBox__color__jeKoPBxq9H]: hasVariant(
                 variants,
                 "color",
                 "color"
@@ -153,7 +153,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___5NqCc
+                      sty.freeBox___5NqCc
                     )}
                   >
                     {"Design"}
@@ -178,7 +178,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zUdj
+                    sty.freeBox__zUdj
                   )}
                 >
                   {"Web"}
@@ -203,7 +203,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___5BIZq
+                      sty.freeBox___5BIZq
                     )}
                   >
                     {"Mobile"}
@@ -228,7 +228,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__s5XHu
+                    sty.freeBox__s5XHu
                   )}
                 >
                   {"No code"}
@@ -243,8 +243,12 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__oGXjg, {
-            [sty.box__color__oGXjgBxq9H]: hasVariant(variants, "color", "color")
+          className={classNames(defaultcss.all, sty.freeBox__oGXjg, {
+            [sty.freeBox__color__oGXjgBxq9H]: hasVariant(
+              variants,
+              "color",
+              "color"
+            )
           })}
         >
           {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
@@ -265,9 +269,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zfh0N,
+                    sty.freeBox__zfh0N,
                     {
-                      [sty.box__color__zfh0NBxq9H]: hasVariant(
+                      [sty.freeBox__color__zfh0NBxq9H]: hasVariant(
                         variants,
                         "color",
                         "color"

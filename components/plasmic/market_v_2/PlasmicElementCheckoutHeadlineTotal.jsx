@@ -40,9 +40,9 @@ function PlasmicElementCheckoutHeadlineTotal__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__p9DDy)}
+        className={classNames(defaultcss.all, sty.freeBox__p9DDy)}
       >
-        <div className={classNames(defaultcss.all, sty.box__gMrSa)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__gMrSa)}>
           {p.renderPlasmicSlot({
             defaultContents: "Sub Total",
             value: args.children,

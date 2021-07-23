@@ -36,9 +36,9 @@ function PlasmicButtonCircle__RenderFunc(props) {
       className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -56,8 +56,8 @@ function PlasmicButtonCircle__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -91,7 +91,7 @@ export const PlasmicButtonCircle = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicButtonCircle
     internalVariantProps: PlasmicButtonCircle__VariantProps,
     internalArgProps: PlasmicButtonCircle__ArgProps

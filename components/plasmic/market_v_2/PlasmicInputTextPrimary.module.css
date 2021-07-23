@@ -61,10 +61,10 @@
   height: 100%;
   padding-left: 6px;
   line-height: 1;
+  background: #f8f8f8;
   min-width: 0;
   min-height: 0;
   border-radius: 2px;
-  background: #f8f8f8 repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .textbox__height__32 {

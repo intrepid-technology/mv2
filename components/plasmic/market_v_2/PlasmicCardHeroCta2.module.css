@@ -9,7 +9,7 @@
   background: #ffffff;
   border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
-.box__meTMb {
+.freeBox__meTMb {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -21,7 +21,7 @@
   top: auto;
   padding: 32px;
 }
-.box__mPjNz {
+.freeBox__mPjNz {
   position: relative;
   left: auto;
   top: auto;
@@ -31,7 +31,7 @@
   flex-direction: column;
   margin: 0px 0px 64px;
 }
-.box__hJgt {
+.freeBox__hJgt {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -59,7 +59,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__cL3Qf {
+.freeBox__cL3Qf {
   display: flex;
   position: relative;
   left: auto;

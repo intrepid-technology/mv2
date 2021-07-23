@@ -112,7 +112,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___1J1Ku
+                    sty.freeBox___1J1Ku
                   )}
                 >
                   {"Manage your account"}
@@ -132,7 +132,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__pZx7J)}
+                className={classNames(defaultcss.all, sty.freeBox__pZx7J)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -144,7 +144,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__stdky
+                        sty.freeBox__stdky
                       )}
                     >
                       {
@@ -208,7 +208,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pucdn
+                      sty.freeBox__pucdn
                     )}
                   >
                     {
@@ -258,7 +258,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__ta5FN)}
+                className={classNames(defaultcss.all, sty.freeBox__ta5FN)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -270,7 +270,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__lhHaq
+                        sty.freeBox__lhHaq
                       )}
                     >
                       {"Connect your social accounts to log in to Intrepid."}
@@ -360,7 +360,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__ltCq0)}
+                className={classNames(defaultcss.all, sty.freeBox__ltCq0)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -372,7 +372,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__lzt1R
+                        sty.freeBox__lzt1R
                       )}
                     >
                       {"Membership perks and offers sent directly to you"}
@@ -449,7 +449,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__zJ5N8)}
+                className={classNames(defaultcss.all, sty.freeBox__zJ5N8)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -461,7 +461,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__bNhrh
+                        sty.freeBox__bNhrh
                       )}
                     >
                       {
@@ -476,7 +476,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__qvHgH)}
+                  className={classNames(defaultcss.all, sty.freeBox__qvHgH)}
                 >
                   <InputTextForm
                     labelHeadline={"Address"}
@@ -514,7 +514,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__peQdh
+                          sty.freeBox__peQdh
                         )}
                       >
                         {"City"}
@@ -528,7 +528,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__nosSi)}
+                    className={classNames(defaultcss.all, sty.freeBox__nosSi)}
                   >
                     <InputTextForm
                       labelHeadline={"Province/State"}
@@ -543,7 +543,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__ay7A6
+                            sty.freeBox__ay7A6
                           )}
                         >
                           {"Zip/Postal code"}
@@ -592,7 +592,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__aYd0W
+                    sty.freeBox__aYd0W
                   )}
                 >
                   {"Notifications"}
@@ -619,7 +619,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xzQ8E
+                      sty.freeBox__xzQ8E
                     )}
                   >
                     {"Updates when you're away from the community."}
@@ -632,7 +632,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___51Yhm)}
+                className={classNames(defaultcss.all, sty.freeBox___51Yhm)}
               >
                 <SwitchTextGroupPrimary
                   className={classNames(
@@ -675,7 +675,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pBeAe
+                      sty.freeBox__pBeAe
                     )}
                   >
                     {
@@ -690,7 +690,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___4KphC)}
+                className={classNames(defaultcss.all, sty.freeBox___4KphC)}
               >
                 <CheckboxTextPrimary
                   className={classNames(
@@ -791,7 +791,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__slsfD
+                      sty.freeBox__slsfD
                     )}
                   >
                     {
@@ -806,7 +806,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__iUdaa)}
+                className={classNames(defaultcss.all, sty.freeBox__iUdaa)}
               >
                 <SwitchTextGroupPrimary
                   className={classNames(
@@ -854,7 +854,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___6BojG)}
+                className={classNames(defaultcss.all, sty.freeBox___6BojG)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -866,7 +866,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__rRcFg
+                        sty.freeBox__rRcFg
                       )}
                     >
                       {

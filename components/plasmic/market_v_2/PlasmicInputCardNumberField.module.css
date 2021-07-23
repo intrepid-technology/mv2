@@ -22,7 +22,7 @@
 .root__size__270 {
   width: 270px;
 }
-.box__mo2A2 {
+.freeBox__mo2A2 {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -32,35 +32,35 @@
   padding: 6px;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__mo2A2 > :global(.__wab_flex-container) {
+.freeBox__mo2A2 > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
 }
-.box__mo2A2 > :global(.__wab_flex-container) > *,
-.box__mo2A2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__mo2A2 > :global(.__wab_flex-container) > *,
+.freeBox__mo2A2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 48px;
 }
-.box__state_success__mo2A2Xndgz {
+.freeBox__state_success__mo2A2Xndgz {
   border-color: #6633ff /* plasmic-token: vlQUduj5i */;
 }
-.box__size__180__mo2A2Wew5 > :global(.__wab_flex-container) {
+.freeBox__size__180__mo2A2Wew5 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.box__size__180__mo2A2Wew5 > :global(.__wab_flex-container) > *,
-.box__size__180__mo2A2Wew5
+.freeBox__size__180__mo2A2Wew5 > :global(.__wab_flex-container) > *,
+.freeBox__size__180__mo2A2Wew5
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > * {
   margin-left: 24px;
   margin-top: 0px;
 }
-.root:hover .box__mo2A2 {
+.root:hover .freeBox__mo2A2 {
   border-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
 .textbox {
@@ -73,10 +73,10 @@
   left: auto;
   top: auto;
   flex-direction: row;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 4px;
   padding: 6px;
-  background: #f8f8f8;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .textbox > :global(.__wab_flex-container) {
@@ -109,17 +109,17 @@
   outline: none;
   border-color: #999999 /* plasmic-token: zM34FgqJJ */;
 }
-.box__w4B3K {
+.freeBox__w4B3K {
   display: flex;
   position: relative;
   width: 100%;
   min-width: 0;
 }
-.box__size__180__w4B3KWew5 {
+.freeBox__size__180__w4B3KWew5 {
   width: 100%;
   min-width: 0;
 }
-.box__size__270__w4B3KEWntz {
+.freeBox__size__270__w4B3KEWntz {
   width: 100%;
   min-width: 0;
 }
@@ -135,7 +135,7 @@
 .slotChildren__size__180 {
   font-size: 14px;
 }
-.box___09Rg3 {
+.freeBox___09Rg3 {
   display: flex;
   position: relative;
   flex-direction: column;

@@ -66,7 +66,7 @@
 .parent__size__270X36 {
   width: 270px;
 }
-.box___5LVp {
+.freeBox___5LVp {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -209,7 +209,7 @@
   top: auto;
   border: 1px solid #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.box___3XOp {
+.freeBox___3XOp {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -287,7 +287,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
-.box__ub9Ml {
+.freeBox__ub9Ml {
   display: flex;
   position: relative;
   flex-direction: column;

@@ -113,7 +113,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__lyarm
+                    sty.freeBox__lyarm
                   )}
                 >
                   {"Manage team account"}
@@ -153,7 +153,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__fvhx6
+                        sty.freeBox__fvhx6
                       )}
                     >
                       {
@@ -193,7 +193,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__tl2Nk
+                          sty.freeBox__tl2Nk
                         )}
                       >
                         {
@@ -248,7 +248,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__gnVjA
+                            sty.freeBox__gnVjA
                           )}
                         >
                           {"City"}
@@ -282,7 +282,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.box__fo0Jj
+                              sty.freeBox__fo0Jj
                             )}
                           >
                             {"Zip/Postal code"}
@@ -313,7 +313,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__s0VQ5
+                          sty.freeBox__s0VQ5
                         )}
                       >
                         {
@@ -400,7 +400,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__sHo1Q
+                      sty.freeBox__sHo1Q
                     )}
                   >
                     {
@@ -472,7 +472,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__oxyo4
+                      sty.freeBox__oxyo4
                     )}
                   >
                     {"Send page visitor data to your Google Analytics account."}
@@ -516,7 +516,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___9AuTo
+                    sty.freeBox___9AuTo
                   )}
                 >
                   {"Notifications"}
@@ -543,7 +543,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__whFsE
+                      sty.freeBox__whFsE
                     )}
                   >
                     {"Updates when you're away from the community."}
@@ -556,7 +556,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__hT3J)}
+                className={classNames(defaultcss.all, sty.freeBox__hT3J)}
               >
                 <SwitchTextGroupPrimary
                   className={classNames(
@@ -599,7 +599,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__i4WgX
+                      sty.freeBox__i4WgX
                     )}
                   >
                     {
@@ -614,7 +614,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__rn81K)}
+                className={classNames(defaultcss.all, sty.freeBox__rn81K)}
               >
                 <CheckboxTextPrimary
                   className={classNames(
@@ -715,7 +715,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ihpB
+                      sty.freeBox__ihpB
                     )}
                   >
                     {
@@ -730,7 +730,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__bFuQw)}
+                className={classNames(defaultcss.all, sty.freeBox__bFuQw)}
               >
                 <SwitchTextGroupPrimary
                   className={classNames(
@@ -775,7 +775,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___01Ppy)}
+                className={classNames(defaultcss.all, sty.freeBox___01Ppy)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -787,7 +787,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__gjYq9
+                        sty.freeBox__gjYq9
                       )}
                     >
                       {
@@ -834,7 +834,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__vOij)}
+                className={classNames(defaultcss.all, sty.freeBox__vOij)}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -846,7 +846,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__piuw6
+                        sty.freeBox__piuw6
                       )}
                     >
                       {

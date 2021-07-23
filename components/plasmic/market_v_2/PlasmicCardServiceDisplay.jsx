@@ -270,7 +270,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__q6Tt2
+                sty.freeBox__q6Tt2
               )}
             >
               {"Username"}
@@ -356,9 +356,9 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__gnv58,
+                  sty.freeBox__gnv58,
                   {
-                    [sty.box__size__270X270__gnv58YHOxL]: hasVariant(
+                    [sty.freeBox__size__270X270__gnv58YHOxL]: hasVariant(
                       variants,
                       "size",
                       "_270X270"
@@ -382,9 +382,9 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__mzsOx,
+                sty.freeBox__mzsOx,
                 {
-                  [sty.box__size__270X270__mzsOxyHOxL]: hasVariant(
+                  [sty.freeBox__size__270X270__mzsOxyHOxL]: hasVariant(
                     variants,
                     "size",
                     "_270X270"
@@ -425,21 +425,21 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__jtV0,
+            sty.freeBox__jtV0,
             {
-              [sty.box__description__jtV0EwyA]: hasVariant(
+              [sty.freeBox__description__jtV0EwyA]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.box__size__270X270__jtV0YHOxL]: hasVariant(
+              [sty.freeBox__size__270X270__jtV0YHOxL]: hasVariant(
                 variants,
                 "size",
                 "_270X270"
               ),
 
-              [sty.box__size__360X270__jtV0QrppG]: hasVariant(
+              [sty.freeBox__size__360X270__jtV0QrppG]: hasVariant(
                 variants,
                 "size",
                 "_360X270"
@@ -568,7 +568,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__dGTde
+                    sty.freeBox__dGTde
                   )}
                 >
                   {"Boosted"}
@@ -579,7 +579,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__bkWea
+                    sty.freeBox__bkWea
                   )}
                 >
                   {"boosted"}

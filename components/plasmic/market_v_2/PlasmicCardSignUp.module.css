@@ -58,10 +58,10 @@
   height: 48px;
   padding-left: 6px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  background: #ffffff;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #ffffff repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .formHomeSignUp .email:hover {
@@ -115,10 +115,10 @@
   height: 48px;
   padding-left: 6px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  background: #ffffff;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #ffffff repeat;
   border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .formHomeSignUp .password:hover {
@@ -145,7 +145,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__mdZl0 {
+.freeBox__mdZl0 {
   font-size: 18px;
 }
 .divider {
@@ -178,7 +178,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.box__gKFt7 {
+.freeBox__gKFt7 {
   position: relative;
   left: auto;
   top: auto;
@@ -196,7 +196,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.box__bYQfP {
+.freeBox__bYQfP {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -207,15 +207,15 @@
   min-width: 0;
   padding: 8px 0px;
 }
-.box__bYQfP > :global(.__wab_flex-container) {
+.freeBox__bYQfP > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.box__bYQfP > :global(.__wab_flex-container) > *,
-.box__bYQfP > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__bYQfP > :global(.__wab_flex-container) > *,
+.freeBox__bYQfP > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
 .signupFacebookConnection:global(.__wab_instance) {
@@ -253,7 +253,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-.box__l0Gji {
+.freeBox__l0Gji {
   position: relative;
   left: auto;
   top: auto;
@@ -273,12 +273,12 @@
     flex-shrink: 0;
   }
 }
-.box__tVj8G {
+.freeBox__tVj8G {
   font-size: 18px;
   font-weight: 500;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__tVj8G {
+  .freeBox__tVj8G {
     font-size: 18px;
     font-weight: 500;
   }

@@ -33,14 +33,14 @@
     margin-top: 16px;
   }
 }
-.cardHeroPartnerProfileDisplay:global(.__wab_instance) {
+.cardTeamProfileHeroDisplay:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .cardHeroPartnerProfileDisplay:global(.__wab_instance) {
+  .cardTeamProfileHeroDisplay:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }

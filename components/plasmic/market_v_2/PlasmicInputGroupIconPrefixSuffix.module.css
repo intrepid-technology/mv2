@@ -22,7 +22,7 @@
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.box__oQwDj {
+.freeBox__oQwDj {
   left: auto;
   top: auto;
   position: relative;
@@ -32,10 +32,10 @@
   width: 100%;
   min-width: 0;
 }
-.box__label__oQwDjhEbzp {
+.freeBox__label__oQwDjhEbzp {
   display: none;
 }
-.box__udHm3 {
+.freeBox__udHm3 {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -56,7 +56,7 @@
   left: auto;
   top: auto;
 }
-.box__e7Fb {
+.freeBox__e7Fb {
   position: relative;
   left: auto;
   top: auto;
@@ -66,10 +66,10 @@
   width: 100%;
   min-width: 0;
 }
-.box__description__e7FbRxNrc {
+.freeBox__description__e7FbRxNrc {
   display: none;
 }
-.box__jGArw {
+.freeBox__jGArw {
   display: flex;
   align-self: stretch;
   position: relative;

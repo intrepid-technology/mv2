@@ -82,14 +82,18 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       platform={"nextjs"}
     >
       <div
-        className={classNames(defaultcss.all, sty.box__uhVUx, {
-          [sty.box__size__180__uhVUxQnr2J]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox__uhVUx, {
+          [sty.freeBox__size__180__uhVUxQnr2J]: hasVariant(
             variants,
             "size",
             "_180"
           ),
 
-          [sty.box__size__360__uhVUxfWtpd]: hasVariant(variants, "size", "_360")
+          [sty.freeBox__size__360__uhVUxfWtpd]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
         })}
       >
         {p.renderPlasmicSlot({
@@ -121,19 +125,23 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(defaultcss.all, sty.box__uu7Pz, {
-          [sty.box__size__360__uu7PzfWtpd]: hasVariant(variants, "size", "_360")
+        className={classNames(defaultcss.all, sty.freeBox__uu7Pz, {
+          [sty.freeBox__size__360__uu7PzfWtpd]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
         })}
       >
         <div
-          className={classNames(defaultcss.all, sty.box__qlHli, {
-            [sty.box__color_bgDarkA__qlHli0VGYe]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__qlHli, {
+            [sty.freeBox__color_bgDarkA__qlHli0VGYe]: hasVariant(
               variants,
               "color",
               "bgDarkA"
             ),
 
-            [sty.box__size__360__qlHlIfWtpd]: hasVariant(
+            [sty.freeBox__size__360__qlHlIfWtpd]: hasVariant(
               variants,
               "size",
               "_360"

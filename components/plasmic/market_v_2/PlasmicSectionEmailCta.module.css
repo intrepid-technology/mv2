@@ -4,9 +4,9 @@
   width: 100%;
   height: auto;
   position: relative;
+  background: #ffffff;
   min-width: 0;
   padding: 40px 180px;
-  background: #ffffff;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -87,7 +87,7 @@
     margin-top: calc(0px + 48px) !important;
   }
 }
-.box___5Q18D {
+.freeBox___5Q18D {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -99,7 +99,7 @@
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box___5Q18D {
+  .freeBox___5Q18D {
     display: flex;
     align-self: flex-start;
     flex-direction: column;
@@ -171,7 +171,7 @@
     min-width: 0;
   }
 }
-.box__zmpJ9 {
+.freeBox__zmpJ9 {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -184,7 +184,7 @@
   min-height: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__zmpJ9 {
+  .freeBox__zmpJ9 {
     justify-content: center;
     align-items: center;
     align-self: center;

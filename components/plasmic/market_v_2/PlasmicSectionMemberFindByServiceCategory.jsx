@@ -58,7 +58,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__wbMTc
+          sty.freeBox__wbMTc
         )}
       >
         {hasVariant(globalVariants, "screen", "desktop")
@@ -69,7 +69,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__zmzQd)}
+        className={classNames(defaultcss.all, sty.freeBox__zmzQd)}
       >
         <ChipCategoryHeader
           className={classNames(
@@ -89,7 +89,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__u0Iru
+                sty.freeBox__u0Iru
               )}
             >
               {hasVariant(globalVariants, "screen", "desktop")

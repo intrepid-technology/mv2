@@ -38,13 +38,13 @@ function PlasmicServiceFeatureA__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__nLqTi
+          sty.freeBox__nLqTi
         )}
       >
         {"Service Feature"}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__lXhRt)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__lXhRt)}>
         <Icon51Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}

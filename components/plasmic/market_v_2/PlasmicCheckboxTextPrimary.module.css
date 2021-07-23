@@ -24,7 +24,7 @@
 .root_____focusVisibleWithin {
   outline: none;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -34,24 +34,24 @@
   height: 24px;
   transition-property: all;
   transition-duration: 0.2s;
+  background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #f8f8f8;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
-.box__isChecked {
+.freeBox__isChecked {
   background: #f0ebff;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
 }
-.root:hover .box {
+.root:hover .freeBox {
   background: #ffffff;
 }
-.root .box_____focusVisibleWithin {
+.root .freeBox_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
 }
-.root:focus-within .box {
+.root:focus-within .freeBox {
   outline: none;
   border-color: #1976d2;
 }

@@ -10,6 +10,7 @@
 // Component: nncQa7gC62w
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
+import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -108,7 +109,7 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
 }
 
 function useBehavior(props) {
-  return p.useSelectOptionGroup(
+  return pp.useSelectOptionGroup(
     PlasmicSelectDropdownPrimary__OptionGroup,
     props,
     {

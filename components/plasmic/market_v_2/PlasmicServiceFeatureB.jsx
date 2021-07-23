@@ -38,10 +38,10 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
         [sty.root__size_small]: hasVariant(variants, "size", "small")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.box___5Hp8)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___5Hp8)}>
         <div
-          className={classNames(defaultcss.all, sty.box__qfYAs, {
-            [sty.box__size_small__qfYAscBzwQ]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__qfYAs, {
+            [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
               variants,
               "size",
               "small"
@@ -63,8 +63,8 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(defaultcss.all, sty.box___99Rg, {
-          [sty.box__size_small___99RgCBzwQ]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox___99Rg, {
+          [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
             variants,
             "size",
             "small"

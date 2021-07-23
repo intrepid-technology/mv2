@@ -7,8 +7,8 @@
   padding-right: 0px;
   overflow: hidden;
   position: relative;
-  min-width: 0;
   background: none;
+  min-width: 0;
   border-top: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
   border-bottom: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }

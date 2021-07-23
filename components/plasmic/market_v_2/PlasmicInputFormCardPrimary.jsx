@@ -153,8 +153,8 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             })}
           >
             <div
-              className={classNames(defaultcss.all, sty.box__iEhR, {
-                [sty.box__multiLineText__iEhRRgBtF]: hasVariant(
+              className={classNames(defaultcss.all, sty.freeBox__iEhR, {
+                [sty.freeBox__multiLineText__iEhRRgBtF]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
@@ -375,18 +375,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                 hasVariant(variants, "inputType", "displayText") ? true : false
               ) ? (
                 <div
-                  className={classNames(defaultcss.all, sty.box___5AQd8, {
-                    [sty.box__inputType_companyname___5AQd8YQu0E]: hasVariant(
-                      variants,
-                      "inputType",
-                      "companyname"
-                    ),
-
-                    [sty.box__inputType_displayText___5AQd8Ko3Kh]: hasVariant(
-                      variants,
-                      "inputType",
-                      "displayText"
-                    )
+                  className={classNames(defaultcss.all, sty.freeBox___5AQd8, {
+                    [sty.freeBox__inputType_companyname___5AQd8YQu0E]:
+                      hasVariant(variants, "inputType", "companyname"),
+                    [sty.freeBox__inputType_displayText___5AQd8Ko3Kh]:
+                      hasVariant(variants, "inputType", "displayText")
                   })}
                 >
                   {p.renderPlasmicSlot({
@@ -639,13 +632,10 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__laG3,
+                      sty.freeBox__laG3,
                       {
-                        [sty.box__inputType_username__laG33UQvi]: hasVariant(
-                          variants,
-                          "inputType",
-                          "username"
-                        )
+                        [sty.freeBox__inputType_username__laG33UQvi]:
+                          hasVariant(variants, "inputType", "username")
                       }
                     )}
                   >
@@ -716,21 +706,15 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                 hasVariant(variants, "inputType", "companyname") ? true : false
               ) ? (
                 <div
-                  className={classNames(defaultcss.all, sty.box__ucpw3, {
-                    [sty.box__inputType_companyname__ucpw3YQu0E]: hasVariant(
-                      variants,
-                      "inputType",
-                      "companyname"
-                    )
+                  className={classNames(defaultcss.all, sty.freeBox__ucpw3, {
+                    [sty.freeBox__inputType_companyname__ucpw3YQu0E]:
+                      hasVariant(variants, "inputType", "companyname")
                   })}
                 >
                   <div
-                    className={classNames(defaultcss.all, sty.box__ti2Dh, {
-                      [sty.box__inputType_companyname__ti2DhyQu0E]: hasVariant(
-                        variants,
-                        "inputType",
-                        "companyname"
-                      )
+                    className={classNames(defaultcss.all, sty.freeBox__ti2Dh, {
+                      [sty.freeBox__inputType_companyname__ti2DhyQu0E]:
+                        hasVariant(variants, "inputType", "companyname")
                     })}
                   >
                     {p.renderPlasmicSlot({

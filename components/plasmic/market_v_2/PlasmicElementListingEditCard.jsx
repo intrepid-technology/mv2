@@ -168,9 +168,9 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
         </div>
 
         <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, sty.box)}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox)}
         >
           {p.renderPlasmicSlot({
             defaultContents: <TextLinkUnderlinePrimary size={"_32"} />,
@@ -203,10 +203,17 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "editHeadlineTitleParent", "svgParent", "box", "buttonParent"],
-  editHeadlineTitleParent: ["editHeadlineTitleParent", "svgParent", "box"],
+  root: [
+    "root",
+    "editHeadlineTitleParent",
+    "svgParent",
+    "freeBox",
+    "buttonParent"
+  ],
+
+  editHeadlineTitleParent: ["editHeadlineTitleParent", "svgParent", "freeBox"],
   svgParent: ["svgParent"],
-  box: ["box"],
+  freeBox: ["freeBox"],
   buttonParent: ["buttonParent"]
 };
 
@@ -243,7 +250,7 @@ export const PlasmicElementListingEditCard = Object.assign(
     // Helper components rendering sub-elements
     editHeadlineTitleParent: makeNodeComponent("editHeadlineTitleParent"),
     svgParent: makeNodeComponent("svgParent"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     buttonParent: makeNodeComponent("buttonParent"),
     // Metadata about props expected for PlasmicElementListingEditCard
     internalVariantProps: PlasmicElementListingEditCard__VariantProps,

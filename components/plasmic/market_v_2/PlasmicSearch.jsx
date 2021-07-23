@@ -73,7 +73,7 @@ function PlasmicSearch__RenderFunc(props) {
             className={classNames("__wab_instance", sty.navbarInternal)}
           />
 
-          <div className={classNames(defaultcss.all, sty.box__mByHg)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__mByHg)}>
             <CardHeaderTitleDisplay
               data-plasmic-name={"cardHeaderTitleDisplay"}
               data-plasmic-override={overrides.cardHeaderTitleDisplay}
@@ -87,7 +87,7 @@ function PlasmicSearch__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wnn9X
+                    sty.freeBox__wnn9X
                   )}
                 >
                   {"Discover the community"}
@@ -99,7 +99,7 @@ function PlasmicSearch__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__iAdTm
+                    sty.freeBox__iAdTm
                   )}
                 >
                   {
@@ -113,12 +113,12 @@ function PlasmicSearch__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__srome)}
+            className={classNames(defaultcss.all, sty.freeBox__srome)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__saaSc)}
+              className={classNames(defaultcss.all, sty.freeBox__saaSc)}
             >
               <SelectDropdownPrimary
                 className={classNames(
@@ -130,7 +130,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__lvUbZ
+                      sty.freeBox__lvUbZ
                     )}
                   >
                     {"Select"}
@@ -149,7 +149,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__mjB1W
+                      sty.freeBox__mjB1W
                     )}
                   >
                     {"Select"}
@@ -168,7 +168,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__gmh8B
+                      sty.freeBox__gmh8B
                     )}
                   >
                     {"Select"}
@@ -273,12 +273,12 @@ function PlasmicSearch__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__z9Yd)}
+            className={classNames(defaultcss.all, sty.freeBox__z9Yd)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box___79Svz)}
+              className={classNames(defaultcss.all, sty.freeBox___79Svz)}
             >
               <CardServiceDisplay
                 boost={"boost"}
@@ -418,7 +418,7 @@ function PlasmicSearch__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__jMIx
+                  sty.freeBox__jMIx
                 )}
               >
                 {"Load more"}

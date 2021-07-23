@@ -62,9 +62,9 @@
   height: 100%;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
+  background: #f8f8f8;
   min-height: 0;
   padding: 2px 8px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .prefixparent__prefix {
@@ -88,9 +88,9 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   line-height: 1;
   white-space: pre;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .root:hover .value {
@@ -114,10 +114,10 @@
   left: auto;
   width: auto;
   height: 100%;
+  background: #f8f8f8;
   min-height: 0;
   border-radius: 0px 2px 2px 0px;
   padding: 2px 8px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .suffixParent__suffix {

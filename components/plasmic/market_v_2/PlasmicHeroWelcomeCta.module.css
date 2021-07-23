@@ -164,7 +164,7 @@
   margin-left: 0px;
   margin-top: 48px;
 }
-.box__p7LNb {
+.freeBox__p7LNb {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -173,18 +173,18 @@
   left: auto;
   top: auto;
 }
-.box__p7LNb > :global(.__wab_flex-container) {
+.freeBox__p7LNb > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.box__p7LNb > :global(.__wab_flex-container) > *,
-.box__p7LNb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__p7LNb > :global(.__wab_flex-container) > *,
+.freeBox__p7LNb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 0px;
 }
-.box__zBnnw {
+.freeBox__zBnnw {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -193,24 +193,24 @@
   left: auto;
   top: auto;
 }
-.box__zBnnw > :global(.__wab_flex-container) {
+.freeBox__zBnnw > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.box__zBnnw > :global(.__wab_flex-container) > *,
-.box__zBnnw > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__zBnnw > :global(.__wab_flex-container) > *,
+.freeBox__zBnnw > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 0px;
 }
-.box__size__270__zBnnwwzVrX {
+.freeBox__size__270__zBnnwwzVrX {
   width: 270px;
 }
-.box__size__720__zBnnwHXq {
+.freeBox__size__720__zBnnwHXq {
   width: 720px;
 }
-.box__bkkSv {
+.freeBox__bkkSv {
   position: relative;
   left: auto;
   top: auto;
@@ -227,13 +227,13 @@
   text-align: center;
   min-width: 0;
 }
-.box__size__270__bkkSvWzVrX {
+.freeBox__size__270__bkkSvWzVrX {
   font-size: 68px;
 }
-.box__size__720__bkkSvHXq {
+.freeBox__size__720__bkkSvHXq {
   font-size: 192px;
 }
-.box__krNqh {
+.freeBox__krNqh {
   position: relative;
   left: auto;
   top: auto;
@@ -250,13 +250,13 @@
   text-align: center;
   min-width: 0;
 }
-.box__size__270__krNqhWzVrX {
+.freeBox__size__270__krNqhWzVrX {
   font-size: 68px;
 }
-.box__size__720__krNqhHXq {
+.freeBox__size__720__krNqhHXq {
   font-size: 192px;
 }
-.box__bVkfy {
+.freeBox__bVkfy {
   position: relative;
   left: auto;
   top: auto;
@@ -274,33 +274,34 @@
   text-transform: uppercase;
   width: 100%;
   text-align: center;
-  min-width: 0;
-  padding: 0px;
   background: linear-gradient(
-    45deg,
-    #00a396 0%,
-    #66e0d6 36%,
-    #5c85ff 63%,
-    #6633ff 100%
-  );
+      45deg,
+      #00a396 0%,
+      #66e0d6 36%,
+      #5c85ff 63%,
+      #6633ff 100%
+    )
+    padding-box /* clip: text **/;
   background-clip: text;
   -webkit-background-clip: text;
+  min-width: 0;
+  padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__bVkfy {
+  .freeBox__bVkfy {
     height: auto;
   }
 }
-.box__size__270__bVkfywzVrX {
+.freeBox__size__270__bVkfywzVrX {
   font-size: 68px;
 }
-.box__size__720__bVkfyHXq {
+.freeBox__size__720__bVkfyHXq {
   font-size: 192px;
 }
-.box__persona_partner__bVkfYh1Dvk {
+.freeBox__persona_partner__bVkfYh1Dvk {
   text-decoration-line: underline;
 }
-.box___0SFze {
+.freeBox___0SFze {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -310,24 +311,24 @@
   left: auto;
   width: 360px;
 }
-.box__size__270___0SFzewzVrX {
+.freeBox__size__270___0SFzewzVrX {
   width: 270px;
 }
-.box__size__720___0SFzeHXq {
+.freeBox__size__720___0SFzeHXq {
   width: 540px;
 }
-.box__size__720_persona_member___0SFzeHXq3SAq {
+.freeBox__size__720_persona_member___0SFzeHXq3SAq {
   width: 720px;
 }
-.box__persona_partner_size__720___0SFzEh1DvkHXq {
+.freeBox__persona_partner_size__720___0SFzEh1DvkHXq {
   width: 720px;
 }
-.box__sgyko {
+.freeBox__sgyko {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
 }
-.box___0HSz {
+.freeBox___0HSz {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -410,17 +411,17 @@
   height: 80px;
   flex-shrink: 0;
 }
-.box__emeni {
+.freeBox__emeni {
   font-weight: 600;
   line-height: 18px;
   font-size: 14px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__emeni {
+  .freeBox__emeni {
     font-weight: 600;
   }
 }
-.box__size__720__emeniHXq {
+.freeBox__size__720__emeniHXq {
   font-size: 28px;
   line-height: 1.4;
 }
@@ -438,6 +439,6 @@
 .inputEmailB:global(.__wab_instance) {
   position: relative;
 }
-.box__cta_email__qUWk544Lt1 {
+.freeBox__cta_email__qUWk544Lt1 {
   text-align: left;
 }

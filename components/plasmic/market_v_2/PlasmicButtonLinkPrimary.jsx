@@ -175,9 +175,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
       platform={"nextjs"}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"textParent"}
@@ -442,8 +442,8 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "textParent"],
-  box: ["box", "textParent"],
+  root: ["root", "freeBox", "textParent"],
+  freeBox: ["freeBox", "textParent"],
   textParent: ["textParent"]
 };
 
@@ -478,7 +478,7 @@ export const PlasmicButtonLinkPrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     textParent: makeNodeComponent("textParent"),
     // Metadata about props expected for PlasmicButtonLinkPrimary
     internalVariantProps: PlasmicButtonLinkPrimary__VariantProps,

@@ -45,13 +45,13 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___8TJh3)}
+        className={classNames(defaultcss.all, sty.freeBox___8TJh3)}
       >
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__jdMrM
+            sty.freeBox__jdMrM
           )}
         >
           {"Partner Spotlight"}
@@ -61,7 +61,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___4ZfZw
+            sty.freeBox___4ZfZw
           )}
         >
           {
@@ -73,14 +73,14 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__uYzUr
+            sty.freeBox__uYzUr
           )}
         >
           {"Diana Robinson, Owner\nPixel Dust Design, Los Angeles\n"}
         </div>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.box__fTqRj)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__fTqRj)}>
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}

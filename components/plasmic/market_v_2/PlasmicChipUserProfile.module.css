@@ -4,9 +4,9 @@
   height: 90px;
   flex-direction: row;
   position: relative;
+  background: #ffffff;
   border-radius: 4px;
   padding: 8px 16px;
-  background: #ffffff;
   border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
@@ -179,7 +179,7 @@
 .userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.box__m4FAi {
+.freeBox__m4FAi {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -189,18 +189,18 @@
   top: auto;
   min-width: 0;
 }
-.box__m4FAi > :global(.__wab_flex-container) {
+.freeBox__m4FAi > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
-.box__m4FAi > :global(.__wab_flex-container) > *,
-.box__m4FAi > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__m4FAi > :global(.__wab_flex-container) > *,
+.freeBox__m4FAi > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 6px;
 }
-.box__y4Qr7 {
+.freeBox__y4Qr7 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -209,18 +209,18 @@
   width: 100%;
   min-width: 0;
 }
-.box__y4Qr7 > :global(.__wab_flex-container) {
+.freeBox__y4Qr7 > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
-.box__y4Qr7 > :global(.__wab_flex-container) > *,
-.box__y4Qr7 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__y4Qr7 > :global(.__wab_flex-container) > *,
+.freeBox__y4Qr7 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 4px;
 }
-.box__nbdg7 {
+.freeBox__nbdg7 {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -256,21 +256,21 @@
   > * {
   margin-left: 8px;
 }
-.box__fHhjX {
+.freeBox__fHhjX {
   display: flex;
   flex-direction: row;
   width: 100%;
   min-width: 0;
 }
-.box__fHhjX > :global(.__wab_flex-container) {
+.freeBox__fHhjX > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.box__fHhjX > :global(.__wab_flex-container) > *,
-.box__fHhjX > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__fHhjX > :global(.__wab_flex-container) > *,
+.freeBox__fHhjX > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 8px;
 }
 .tagPartnerD:global(.__wab_instance) {
@@ -288,7 +288,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.box___5WaQl {
+.freeBox___5WaQl {
   line-height: 1;
   font-size: 14px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -302,29 +302,29 @@
   width: auto;
   height: auto;
 }
-.box__rrUix {
+.freeBox__rrUix {
   height: auto;
   width: auto;
   font-size: 14px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   display: inline-block;
 }
-.box__hZgZ {
+.freeBox__hZgZ {
   display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
   left: auto;
 }
-.box__hZgZ > :global(.__wab_flex-container) {
+.freeBox__hZgZ > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.box__hZgZ > :global(.__wab_flex-container) > *,
-.box__hZgZ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__hZgZ > :global(.__wab_flex-container) > *,
+.freeBox__hZgZ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
 .userStatsParent {
@@ -557,7 +557,7 @@
   justify-content: space-between;
   width: auto;
 }
-.box__fPbL6 {
+.freeBox__fPbL6 {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;
@@ -566,7 +566,7 @@
   color: #333333 /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
 }
-.box___0P9Ko {
+.freeBox___0P9Ko {
   display: inline-block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -579,14 +579,14 @@
   width: auto;
   height: auto;
 }
-.box__b02SR {
+.freeBox__b02SR {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
 }
-.box___4Fz5W {
+.freeBox___4Fz5W {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;

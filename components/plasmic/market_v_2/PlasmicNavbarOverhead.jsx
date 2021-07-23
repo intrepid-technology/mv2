@@ -50,10 +50,10 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <NavLink
           data-plasmic-name={"memberPricing"}
@@ -143,8 +143,8 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "memberPricing", "partnerPricing", "loginMain"],
-  box: ["box", "memberPricing", "partnerPricing", "loginMain"],
+  root: ["root", "freeBox", "memberPricing", "partnerPricing", "loginMain"],
+  freeBox: ["freeBox", "memberPricing", "partnerPricing", "loginMain"],
   memberPricing: ["memberPricing"],
   partnerPricing: ["partnerPricing"],
   loginMain: ["loginMain"]
@@ -181,7 +181,7 @@ export const PlasmicNavbarOverhead = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     memberPricing: makeNodeComponent("memberPricing"),
     partnerPricing: makeNodeComponent("partnerPricing"),
     loginMain: makeNodeComponent("loginMain"),

@@ -10,7 +10,7 @@
   transition-duration: 3s;
   transition-timing-function: ease-in-out;
 }
-.box__oKtaK {
+.freeBox__oKtaK {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,15 +20,15 @@
   position: relative;
   left: auto;
   top: auto;
+  background: #ffffff;
   flex-shrink: 0;
   padding: 20px;
-  background: #ffffff;
   border-bottom: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
-.root .box__oKtaK:hover {
+.root .freeBox__oKtaK:hover {
   background: #f8f8f8;
 }
-.box__prkZ {
+.freeBox__prkZ {
   position: relative;
   left: auto;
   top: auto;
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: row;
 }
-.box__rLze9 {
+.freeBox__rLze9 {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -49,7 +49,7 @@
   line-height: 1.4;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.box__kZbvK {
+.freeBox__kZbvK {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -60,10 +60,10 @@
   border-radius: 100px;
   padding: 2px;
 }
-.root .box__kZbvK:hover {
+.root .freeBox__kZbvK:hover {
   background: #f8f8f8;
 }
-.root .box__kZbvK:active {
+.root .freeBox__kZbvK:active {
   background: #ffffff;
 }
 .svg {
@@ -74,7 +74,7 @@
   flex-shrink: 0;
   border-radius: 100%;
 }
-.box__rRv3G {
+.freeBox__rRv3G {
   display: block;
   position: relative;
   flex-direction: column;
@@ -85,11 +85,11 @@
   left: auto;
   top: auto;
   align-self: center;
+  background: #f8f8f8;
   min-height: 0;
   padding: 20px;
-  background: #f8f8f8;
 }
-.box__eClnO {
+.freeBox__eClnO {
   position: absolute;
   left: 11.5px;
   top: 3px;
@@ -97,14 +97,14 @@
   flex-direction: column;
   background: rgba(68, 192, 255, 0.2);
 }
-.box__eClnO > :global(.__wab_flex-container) {
+.freeBox__eClnO > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
-.box__eClnO > :global(.__wab_flex-container) > *,
-.box__eClnO > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__eClnO > :global(.__wab_flex-container) > *,
+.freeBox__eClnO > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 20px;
 }

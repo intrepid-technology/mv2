@@ -57,8 +57,8 @@ function PlasmicInputEmailCta__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box___9RBj, {
-            [sty.box__size__720___9RBjwcyQu]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox___9RBj, {
+            [sty.freeBox__size__720___9RBjwcyQu]: hasVariant(
               variants,
               "size",
               "_720"
@@ -68,8 +68,8 @@ function PlasmicInputEmailCta__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__wi05I, {
-              [sty.box__size__720__wi05IwcyQu]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__wi05I, {
+              [sty.freeBox__size__720__wi05IwcyQu]: hasVariant(
                 variants,
                 "size",
                 "_720"
@@ -89,7 +89,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
               })
             })}
 
-            <div className={classNames(defaultcss.all, sty.box__tkWdt)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__tkWdt)}>
               {p.renderPlasmicSlot({
                 defaultContents:
                   "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",

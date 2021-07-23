@@ -44,7 +44,7 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
         data-plasmic-override={overrides.headlineLabel}
         className={classNames(defaultcss.h5, sty.headlineLabel)}
       >
-        <div className={classNames(defaultcss.all, sty.box__xnfZf)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__xnfZf)}>
           {p.renderPlasmicSlot({
             defaultContents: "Headline Title",
             value: args.children,
@@ -58,7 +58,7 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
         data-plasmic-override={overrides.subhead}
         className={classNames(defaultcss.all, sty.subhead)}
       >
-        <div className={classNames(defaultcss.all, sty.box__jIxRh)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__jIxRh)}>
           {p.renderPlasmicSlot({
             defaultContents: "Subhead",
             value: args.slot,

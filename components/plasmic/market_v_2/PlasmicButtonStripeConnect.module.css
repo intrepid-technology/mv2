@@ -6,9 +6,9 @@
   width: 360px;
   height: 48px;
   position: relative;
+  background: #f2f1ff;
   border-radius: 4px;
   padding: 0px;
-  background: #f2f1ff;
   border: 2px solid #7a72ff /* plasmic-token: JG1mQ0YGJ */;
 }
 .root__width__180 {
@@ -22,7 +22,7 @@
 .root:hover {
   background: #7a72ff;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;

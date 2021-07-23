@@ -16,7 +16,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 6px;
 }
-.box__t8H1X {
+.freeBox__t8H1X {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -45,7 +45,7 @@
   top: auto;
   left: auto;
 }
-.box__os5Mt {
+.freeBox__os5Mt {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -58,7 +58,7 @@
   text-transform: none;
   text-align: right;
 }
-.box__br5LD {
+.freeBox__br5LD {
   position: relative;
   left: auto;
   top: auto;
@@ -72,7 +72,7 @@
   top: auto;
   left: auto;
 }
-.box__lsm4G {
+.freeBox__lsm4G {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -85,7 +85,7 @@
   text-transform: none;
   text-align: right;
 }
-.box__iekLt {
+.freeBox__iekLt {
   left: auto;
   top: auto;
   text-align: right;

@@ -63,9 +63,9 @@ function PlasmicNoteCard__RenderFunc(props) {
           className={classNames(defaultcss.all, sty.mesageParent)}
         >
           <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
-            className={classNames(defaultcss.all, sty.box)}
+            data-plasmic-name={"freeBox"}
+            data-plasmic-override={overrides.freeBox}
+            className={classNames(defaultcss.all, sty.freeBox)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "This note details some information.",
@@ -93,14 +93,20 @@ const PlasmicDescendants = {
     "noteMessageParent",
     "noteParent",
     "mesageParent",
-    "box",
+    "freeBox",
     "buttonPrimary"
   ],
 
-  noteMessageParent: ["noteMessageParent", "noteParent", "mesageParent", "box"],
+  noteMessageParent: [
+    "noteMessageParent",
+    "noteParent",
+    "mesageParent",
+    "freeBox"
+  ],
+
   noteParent: ["noteParent"],
-  mesageParent: ["mesageParent", "box"],
-  box: ["box"],
+  mesageParent: ["mesageParent", "freeBox"],
+  freeBox: ["freeBox"],
   buttonPrimary: ["buttonPrimary"]
 };
 
@@ -138,7 +144,7 @@ export const PlasmicNoteCard = Object.assign(
     noteMessageParent: makeNodeComponent("noteMessageParent"),
     noteParent: makeNodeComponent("noteParent"),
     mesageParent: makeNodeComponent("mesageParent"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     // Metadata about props expected for PlasmicNoteCard
     internalVariantProps: PlasmicNoteCard__VariantProps,

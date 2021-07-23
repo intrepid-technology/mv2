@@ -58,7 +58,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : false
       ) ? (
-        <div className={classNames(defaultcss.all, sty.box__gq5Ri)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__gq5Ri)}>
           {(
             hasVariant(globalVariants, "screen", "mobile")
               ? true
@@ -66,7 +66,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
               ? true
               : false
           ) ? (
-            <div className={classNames(defaultcss.all, sty.box__mn6Cy)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__mn6Cy)}>
               <LogoHeader
                 data-plasmic-name={"logoHeader"}
                 data-plasmic-override={overrides.logoHeader}
@@ -82,7 +82,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : false
       ) ? (
-        <div className={classNames(defaultcss.all, sty.box__ejVzw)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__ejVzw)}>
           <SectionDividerIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}

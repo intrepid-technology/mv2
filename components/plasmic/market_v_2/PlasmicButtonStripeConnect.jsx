@@ -61,10 +61,10 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
     >
       {(hasVariant(variants, "icon", "icon") ? false : true) ? (
         <div
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
-          className={classNames(defaultcss.all, sty.box, {
-            [sty.box__icon]: hasVariant(variants, "icon", "icon")
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__icon]: hasVariant(variants, "icon", "icon")
           })}
         >
           <LinkAIcon
@@ -128,8 +128,8 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "svg", "textParent", "textBg", "iconStripeLogo"],
-  box: ["box", "svg"],
+  root: ["root", "freeBox", "svg", "textParent", "textBg", "iconStripeLogo"],
+  freeBox: ["freeBox", "svg"],
   svg: ["svg"],
   textParent: ["textParent", "textBg"],
   textBg: ["textBg"],
@@ -167,7 +167,7 @@ export const PlasmicButtonStripeConnect = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     svg: makeNodeComponent("svg"),
     textParent: makeNodeComponent("textParent"),
     textBg: makeNodeComponent("textBg"),

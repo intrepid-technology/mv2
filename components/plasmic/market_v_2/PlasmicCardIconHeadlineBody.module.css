@@ -25,7 +25,7 @@
 .root__state_deactivated:hover {
   border-color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }
-.box__aUrNg {
+.freeBox__aUrNg {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -34,16 +34,16 @@
   width: 32px;
   height: 32px;
   align-self: flex-start;
+  background: #ebebeb;
   flex-shrink: 0;
   border-radius: 100px;
-  background: #ebebeb;
   border: 2px none #ebebeb /* plasmic-token: _lNibwHIy */;
 }
-.root:hover .box__aUrNg {
+.root:hover .freeBox__aUrNg {
   background: #ebebeb;
   border: 2px none #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.box___4BYjy {
+.freeBox___4BYjy {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -133,7 +133,7 @@
   flex-direction: column;
   align-self: flex-start;
 }
-.box___3Ewwn {
+.freeBox___3Ewwn {
   display: flex;
   align-self: stretch;
   position: relative;

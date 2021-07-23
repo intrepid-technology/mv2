@@ -54,28 +54,28 @@
 .parentSectionInputEmail__size__720 {
   width: 720px;
 }
-.box___9RBj {
+.freeBox___9RBj {
   height: auto;
   display: flex;
   flex-direction: column;
   width: 360px;
 }
-.box___9RBj > :global(.__wab_flex-container) {
+.freeBox___9RBj > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.box___9RBj > :global(.__wab_flex-container) > *,
-.box___9RBj > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___9RBj > :global(.__wab_flex-container) > *,
+.freeBox___9RBj > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-.box__size__720___9RBjwcyQu {
+.freeBox__size__720___9RBjwcyQu {
   width: 100%;
   min-width: 0;
 }
-.box__wi05I {
+.freeBox__wi05I {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -84,15 +84,15 @@
   height: auto;
   min-width: 0;
 }
-.box__wi05I > :global(.__wab_flex-container) {
+.freeBox__wi05I > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.box__wi05I > :global(.__wab_flex-container) > *,
-.box__wi05I > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__wi05I > :global(.__wab_flex-container) > *,
+.freeBox__wi05I > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
 .slotChildren {
@@ -113,7 +113,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-align: center;
 }
-.box__tkWdt {
+.freeBox__tkWdt {
   position: relative;
   left: auto;
   top: auto;
@@ -125,7 +125,7 @@
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__tkWdt {
+  .freeBox__tkWdt {
     left: auto;
     top: auto;
   }

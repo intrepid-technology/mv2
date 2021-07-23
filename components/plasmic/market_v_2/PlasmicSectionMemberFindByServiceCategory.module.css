@@ -4,9 +4,9 @@
   width: 100%;
   height: auto;
   position: relative;
+  background: #ffffff;
   min-width: 0;
   padding: 32px 160px;
-  background: #ffffff;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -32,7 +32,7 @@
     padding: 0px;
   }
 }
-.box__wbMTc {
+.freeBox__wbMTc {
   position: relative;
   left: auto;
   top: auto;
@@ -45,18 +45,18 @@
   padding-left: 48px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__wbMTc {
+  .freeBox__wbMTc {
     padding: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box__wbMTc {
+  .freeBox__wbMTc {
     line-height: 1.2;
     font-size: 32px;
     font-weight: 600;
   }
 }
-.box__zmzQd {
+.freeBox__zmzQd {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -68,7 +68,7 @@
   min-width: 0;
   padding: 0px;
 }
-.box__zmzQd > :global(.__wab_flex-container) {
+.freeBox__zmzQd > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
@@ -79,13 +79,13 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__zmzQd > :global(.__wab_flex-container) > *,
-.box__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__zmzQd > :global(.__wab_flex-container) > *,
+.freeBox__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 8px;
   margin-top: 8px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__zmzQd {
+  .freeBox__zmzQd {
     height: auto;
     display: flex;
     flex-direction: row;
@@ -96,7 +96,7 @@
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__zmzQd > :global(.__wab_flex-container) {
+  .freeBox__zmzQd > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-content: flex-start;
     flex-wrap: wrap;
@@ -108,19 +108,19 @@
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__zmzQd > :global(.__wab_flex-container) > *,
-  .box__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .freeBox__zmzQd > :global(.__wab_flex-container) > *,
+  .freeBox__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 8px;
     margin-top: 8px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box__zmzQd {
+  .freeBox__zmzQd {
     padding: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box__zmzQd > :global(.__wab_flex-container) {
+  .freeBox__zmzQd > :global(.__wab_flex-container) {
     justify-content: center;
     margin-left: calc(0px - 6px);
     width: calc(100% + 6px);
@@ -129,8 +129,8 @@
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .box__zmzQd > :global(.__wab_flex-container) > *,
-  .box__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .freeBox__zmzQd > :global(.__wab_flex-container) > *,
+  .freeBox__zmzQd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
     margin-left: 6px;
     margin-top: 6px;
   }
@@ -162,7 +162,7 @@
   height: 32px;
   margin-bottom: 0;
 }
-.box__u0Iru {
+.freeBox__u0Iru {
   height: auto;
 }
 .chipCategoryHeader__e9ZuA:global(.__wab_instance) {

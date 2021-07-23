@@ -6,8 +6,8 @@
   min-width: 414px;
   min-height: 80px;
   position: relative;
-  padding: 10px 40px;
   background: #ebebeb;
+  padding: 10px 40px;
   border-top: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
@@ -37,7 +37,7 @@
   height: 24px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.box__h0Jz {
+.freeBox__h0Jz {
   font-weight: 600;
 }
 .svg__uisw2 {
@@ -52,7 +52,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.box__dUxCp {
+.freeBox__dUxCp {
   font-weight: 600;
 }
 .svg__n8SDi {

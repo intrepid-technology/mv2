@@ -125,7 +125,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mdZl0
+            sty.freeBox__mdZl0
           )}
         >
           {"Continue"}
@@ -148,7 +148,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__gKFt7
+            sty.freeBox__gKFt7
           )}
         >
           {"or"}
@@ -163,7 +163,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__bYQfP)}
+        className={classNames(defaultcss.all, sty.freeBox__bYQfP)}
       >
         <ButtonConnectedAccount
           data-plasmic-name={"signupFacebookConnection"}
@@ -193,7 +193,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__l0Gji
+          sty.freeBox__l0Gji
         )}
       >
         {"Already have an account?"}
@@ -220,7 +220,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__tVj8G
+                sty.freeBox__tVj8G
               )}
             >
               {hasVariant(globalVariants, "screen", "desktop")

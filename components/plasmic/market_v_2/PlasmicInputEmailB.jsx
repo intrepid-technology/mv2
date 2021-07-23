@@ -55,26 +55,26 @@ function PlasmicInputEmailB__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___5O3PI, {
-          [sty.box__size__160___5O3PICwFqr]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox___5O3PI, {
+          [sty.freeBox__size__160___5O3PICwFqr]: hasVariant(
             variants,
             "size",
             "_160"
           ),
 
-          [sty.box__size__270___5O3PImCtWm]: hasVariant(
+          [sty.freeBox__size__270___5O3PImCtWm]: hasVariant(
             variants,
             "size",
             "_270"
           ),
 
-          [sty.box__size__360___5O3PIlmp10]: hasVariant(
+          [sty.freeBox__size__360___5O3PIlmp10]: hasVariant(
             variants,
             "size",
             "_360"
           ),
 
-          [sty.box__size__540___5O3PI4Ezsp]: hasVariant(
+          [sty.freeBox__size__540___5O3PI4Ezsp]: hasVariant(
             variants,
             "size",
             "_540"
@@ -84,8 +84,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__yp4Vd, {
-            [sty.box__size__360__yp4VDlmp10]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__yp4Vd, {
+            [sty.freeBox__size__360__yp4VDlmp10]: hasVariant(
               variants,
               "size",
               "_360"
@@ -151,9 +151,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__kG9Sn,
+                  sty.freeBox__kG9Sn,
                   {
-                    [sty.box__size__360__kG9SNlmp10]: hasVariant(
+                    [sty.freeBox__size__360__kG9SNlmp10]: hasVariant(
                       variants,
                       "size",
                       "_360"
@@ -193,9 +193,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__qUzY2,
+                sty.freeBox__qUzY2,
                 {
-                  [sty.box__size__360__qUzY2Lmp10]: hasVariant(
+                  [sty.freeBox__size__360__qUzY2Lmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -243,9 +243,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__yItrW,
+                sty.freeBox__yItrW,
                 {
-                  [sty.box__size__360__yItrWlmp10]: hasVariant(
+                  [sty.freeBox__size__360__yItrWlmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -261,8 +261,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
         ) : null}
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__dfyHp, {
-              [sty.box__description__dfyHpL47Md]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__dfyHp, {
+              [sty.freeBox__description__dfyHpL47Md]: hasVariant(
                 variants,
                 "description",
                 "description"

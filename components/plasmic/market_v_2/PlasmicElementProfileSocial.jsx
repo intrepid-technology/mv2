@@ -38,9 +38,9 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"social"}
@@ -120,8 +120,8 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "social", "socialIconsParent"],
-  box: ["box", "social"],
+  root: ["root", "freeBox", "social", "socialIconsParent"],
+  freeBox: ["freeBox", "social"],
   social: ["social"],
   socialIconsParent: ["socialIconsParent"]
 };
@@ -157,7 +157,7 @@ export const PlasmicElementProfileSocial = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     social: makeNodeComponent("social"),
     socialIconsParent: makeNodeComponent("socialIconsParent"),
     // Metadata about props expected for PlasmicElementProfileSocial

@@ -16,14 +16,14 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box__a1RRl {
+.freeBox__a1RRl {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: column;
 }
-.box__jUhaa {
+.freeBox__jUhaa {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -38,7 +38,7 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   text-transform: uppercase;
 }
-.box__dddfs {
+.freeBox__dddfs {
   left: auto;
   top: auto;
   width: 100%;
@@ -48,7 +48,7 @@
   flex-direction: column;
   min-width: 0;
 }
-.box__ibtEe {
+.freeBox__ibtEe {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -65,7 +65,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
-.box__lIIbI {
+.freeBox__lIIbI {
   display: flex;
   position: relative;
   flex-direction: column;

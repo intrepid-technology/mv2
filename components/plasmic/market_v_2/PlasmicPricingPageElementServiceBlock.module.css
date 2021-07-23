@@ -18,14 +18,14 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 12px;
 }
-.box__fYLa5 {
+.freeBox__fYLa5 {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: column;
 }
-.box__puBl3 {
+.freeBox__puBl3 {
   display: flex;
   align-self: stretch;
   position: relative;

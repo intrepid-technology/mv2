@@ -4,9 +4,9 @@
   width: auto;
   height: 24px;
   position: relative;
+  background: #000000;
   border-radius: 2px;
   padding: 2px 6px;
-  background: #000000;
   border: 1px solid #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 .chipDisplay > :global(.__wab_flex-container) {
@@ -24,10 +24,10 @@
   width: auto;
   height: 24px;
   flex-direction: row;
+  background: #dddddd;
   display: inline-flex;
   border-radius: 2px;
   padding: 2px 6px;
-  background: #dddddd;
   border: 1px solid #cccccc /* plasmic-token: oEMOojyFv */;
 }
 .chipDisplay__disabled > :global(.__wab_flex-container) {

@@ -85,8 +85,8 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
               )
             })}
           >
-            <div className={classNames(defaultcss.all, sty.box___8FgC)}>
-              <div className={classNames(defaultcss.all, sty.box__zGlE)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___8FgC)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__zGlE)}>
                 {p.renderPlasmicSlot({
                   defaultContents: "Headline",
                   value: args.headline,

@@ -4,8 +4,8 @@
   width: 720px;
   height: auto;
   position: relative;
-  padding: 16px 8px;
   background: #ffffff;
+  padding: 16px 8px;
   border-bottom: 1px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .root > :global(.__wab_flex-container) {
@@ -20,7 +20,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
 }
-.box___83Jsa {
+.freeBox___83Jsa {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -36,7 +36,7 @@
 .tagMemberD:global(.__wab_instance) {
   position: relative;
 }
-.box__arOvr {
+.freeBox__arOvr {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -46,7 +46,7 @@
   height: 32px;
   flex-shrink: 0;
 }
-.box__arOvr > :global(.__wab_flex-container) {
+.freeBox__arOvr > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -54,11 +54,11 @@
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
-.box__arOvr > :global(.__wab_flex-container) > *,
-.box__arOvr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__arOvr > :global(.__wab_flex-container) > *,
+.freeBox__arOvr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 6px;
 }
-.box__dkh9N {
+.freeBox__dkh9N {
   font-size: 16px;
   height: auto;
   width: auto;
@@ -67,11 +67,11 @@
 .textLinkUnderlinePrimary:global(.__wab_instance) {
   position: relative;
 }
-.box__oWCg {
+.freeBox__oWCg {
   font-weight: 500;
   text-transform: uppercase;
 }
-.box__sb46C {
+.freeBox__sb46C {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -84,19 +84,19 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box___9H71 {
+.freeBox___9H71 {
   font-size: 16px;
   height: auto;
   width: auto;
   display: inline-block;
 }
-.box__yizoe {
+.freeBox__yizoe {
   font-size: 16px;
   height: auto;
   width: auto;
   display: inline-block;
 }
-.box__imYpU {
+.freeBox__imYpU {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -109,25 +109,25 @@
   align-content: unset;
   flex-shrink: 0;
 }
-.box___4EWTk {
+.freeBox___4EWTk {
   font-size: 16px;
   height: auto;
   width: auto;
   display: inline-block;
 }
-.box___3We2J {
+.freeBox___3We2J {
   font-size: 16px;
   height: auto;
   width: auto;
   display: inline-block;
 }
-.box___6CKul {
+.freeBox___6CKul {
   font-size: 16px;
   height: auto;
   width: auto;
   display: inline-block;
 }
-.box__aphxW {
+.freeBox__aphxW {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -144,7 +144,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.box__x5MxF {
+.freeBox__x5MxF {
   display: flex;
   position: relative;
   flex-direction: row;

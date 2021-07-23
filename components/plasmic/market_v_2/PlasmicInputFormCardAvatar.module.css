@@ -83,7 +83,7 @@
 .headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
-.box___8FgC {
+.freeBox___8FgC {
   position: relative;
   left: auto;
   top: auto;
@@ -92,7 +92,7 @@
   width: 100%;
   min-width: 0;
 }
-.box__zGlE {
+.freeBox__zGlE {
   display: block;
   align-self: stretch;
   position: relative;

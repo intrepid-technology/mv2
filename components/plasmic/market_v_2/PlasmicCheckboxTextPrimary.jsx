@@ -10,6 +10,7 @@
 // Component: DzJ8mMkLUy2
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
+import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -78,18 +79,24 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box, {
-          [sty.box_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-          [sty.box__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
-          [sty.box__isDisabled]: hasVariant(
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox, {
+          [sty.freeBox_____focusVisibleWithin]:
+            triggers.focusVisibleWithin_root,
+          [sty.freeBox__isChecked]: hasVariant(
+            variants,
+            "isChecked",
+            "isChecked"
+          ),
+
+          [sty.freeBox__isDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.box__isIndeterminate]: hasVariant(
+          [sty.freeBox__isIndeterminate]: hasVariant(
             variants,
             "isIndeterminate",
             "isIndeterminate"
@@ -177,7 +184,7 @@ function useBehavior(props, ref) {
       children: "Enter some text"
     };
   }
-  return p.useCheckbox(
+  return pp.useCheckbox(
     PlasmicCheckboxTextPrimary,
     props,
     {
@@ -198,8 +205,8 @@ function useBehavior(props, ref) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "svg", "labelContainer"],
-  box: ["box", "svg"],
+  root: ["root", "freeBox", "svg", "labelContainer"],
+  freeBox: ["freeBox", "svg"],
   svg: ["svg"],
   labelContainer: ["labelContainer"]
 };
@@ -235,7 +242,7 @@ export const PlasmicCheckboxTextPrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     svg: makeNodeComponent("svg"),
     labelContainer: makeNodeComponent("labelContainer"),
     // Metadata about props expected for PlasmicCheckboxTextPrimary

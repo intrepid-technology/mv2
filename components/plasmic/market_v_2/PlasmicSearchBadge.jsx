@@ -49,10 +49,10 @@ function PlasmicSearchBadge__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -67,7 +67,7 @@ function PlasmicSearchBadge__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__ryVaq
+                  sty.freeBox__ryVaq
                 )}
               >
                 {"Badge"}
@@ -83,9 +83,9 @@ function PlasmicSearchBadge__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox", "box"],
+  root: ["root", "textbox", "freeBox"],
   textbox: ["textbox"],
-  box: ["box"]
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -120,7 +120,7 @@ export const PlasmicSearchBadge = Object.assign(
   {
     // Helper components rendering sub-elements
     textbox: makeNodeComponent("textbox"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSearchBadge
     internalVariantProps: PlasmicSearchBadge__VariantProps,
     internalArgProps: PlasmicSearchBadge__ArgProps

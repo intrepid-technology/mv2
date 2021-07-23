@@ -50,9 +50,14 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__mo2A2, {
-          [sty.box__size__180__mo2A2Wew5]: hasVariant(variants, "size", "_180"),
-          [sty.box__state_success__mo2A2Xndgz]: hasVariant(
+        className={classNames(defaultcss.all, sty.freeBox__mo2A2, {
+          [sty.freeBox__size__180__mo2A2Wew5]: hasVariant(
+            variants,
+            "size",
+            "_180"
+          ),
+
+          [sty.freeBox__state_success__mo2A2Xndgz]: hasVariant(
             variants,
             "state",
             "success"
@@ -79,20 +84,20 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
         />
 
         <div
-          className={classNames(defaultcss.all, sty.box__w4B3K, {
-            [sty.box__size__180__w4B3KWew5]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__w4B3K, {
+            [sty.freeBox__size__180__w4B3KWew5]: hasVariant(
               variants,
               "size",
               "_180"
             ),
 
-            [sty.box__size__270__w4B3KEWntz]: hasVariant(
+            [sty.freeBox__size__270__w4B3KEWntz]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.box__state_success__w4B3Kxndgz]: hasVariant(
+            [sty.freeBox__state_success__w4B3Kxndgz]: hasVariant(
               variants,
               "state",
               "success"
@@ -121,8 +126,8 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
 
       {(hasVariant(variants, "description", "description") ? false : true) ? (
         <div
-          className={classNames(defaultcss.all, sty.box___09Rg3, {
-            [sty.box__description___09Rg38YNeE]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox___09Rg3, {
+            [sty.freeBox__description___09Rg38YNeE]: hasVariant(
               variants,
               "description",
               "description"

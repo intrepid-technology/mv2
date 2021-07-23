@@ -64,7 +64,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <div className={classNames(defaultcss.all, sty.box__yZ0QO)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__yZ0QO)}>
               <Icon177Icon
                 className={classNames(defaultcss.all, sty.svg__dd45H)}
                 role={"img"}
@@ -114,7 +114,9 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
           {(hasVariant(variants, "size", "_270") ? false : true)
             ? p.renderPlasmicSlot({
                 defaultContents: (
-                  <div className={classNames(defaultcss.all, sty.box___5VQqz)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox___5VQqz)}
+                  >
                     <OptionalFixedBrandColorIcon
                       className={classNames(defaultcss.all, sty.svg__pdGd6)}
                       role={"img"}
@@ -128,7 +130,9 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
           {(hasVariant(variants, "size", "_270") ? true : false)
             ? p.renderPlasmicSlot({
                 defaultContents: (
-                  <div className={classNames(defaultcss.all, sty.box__qjbPm)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__qjbPm)}
+                  >
                     <OptionalFixedBrandColorIcon
                       className={classNames(defaultcss.all, sty.svg__hwk83)}
                       role={"img"}
@@ -143,10 +147,10 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
 
         <p.Stack
           as={"div"}
-          data-plasmic-name={"box"}
-          data-plasmic-override={overrides.box}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box)}
+          className={classNames(defaultcss.all, sty.freeBox)}
         >
           <p.Stack
             as={"div"}
@@ -212,7 +216,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__wM3Ab
+                            sty.freeBox__wM3Ab
                           )}
                         >
                           {"$"}
@@ -229,7 +233,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__a4Wh
+                            sty.freeBox__a4Wh
                           )}
                         >
                           {"$"}
@@ -248,7 +252,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__ncgFi
+                        sty.freeBox__ncgFi
                       )}
                     >
                       {"XXX.XX"}
@@ -265,7 +269,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__jOHp
+                        sty.freeBox__jOHp
                       )}
                     >
                       {"XXX.XX"}
@@ -326,7 +330,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__vDq8H
+                            sty.freeBox__vDq8H
                           )}
                         >
                           {"K"}
@@ -343,7 +347,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.box__vyTh
+                            sty.freeBox__vyTh
                           )}
                         >
                           {"K"}
@@ -373,7 +377,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__vly1J
+                        sty.freeBox__vly1J
                       )}
                     >
                       {"title of card"}
@@ -390,7 +394,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__zL10
+                        sty.freeBox__zL10
                       )}
                     >
                       {"title of card"}
@@ -427,7 +431,7 @@ const PlasmicDescendants = {
     "svgQuestionParent",
     "iconNumberValueTitlePercentValueParent",
     "svgIconParent",
-    "box",
+    "freeBox",
     "numberValue",
     "currencyParent",
     "numerationParent",
@@ -439,7 +443,7 @@ const PlasmicDescendants = {
   iconNumberValueTitlePercentValueParent: [
     "iconNumberValueTitlePercentValueParent",
     "svgIconParent",
-    "box",
+    "freeBox",
     "numberValue",
     "currencyParent",
     "numerationParent",
@@ -448,8 +452,8 @@ const PlasmicDescendants = {
   ],
 
   svgIconParent: ["svgIconParent"],
-  box: [
-    "box",
+  freeBox: [
+    "freeBox",
     "numberValue",
     "currencyParent",
     "numerationParent",
@@ -500,7 +504,7 @@ export const PlasmicCardAnalyticsPrimary = Object.assign(
     ),
 
     svgIconParent: makeNodeComponent("svgIconParent"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     numberValue: makeNodeComponent("numberValue"),
     currencyParent: makeNodeComponent("currencyParent"),
     numerationParent: makeNodeComponent("numerationParent"),

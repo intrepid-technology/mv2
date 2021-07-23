@@ -153,12 +153,12 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               size={"_360"}
             >
               <div
-                data-plasmic-name={"box"}
-                data-plasmic-override={overrides.box}
+                data-plasmic-name={"freeBox"}
+                data-plasmic-override={overrides.freeBox}
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box
+                  sty.freeBox
                 )}
               >
                 {"Send recovery link"}
@@ -186,7 +186,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "box"
+    "freeBox"
   ],
 
   parent: [
@@ -202,7 +202,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "box"
+    "freeBox"
   ],
 
   navLinkBack: ["navLinkBack", "svg"],
@@ -217,7 +217,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "box"
+    "freeBox"
   ],
 
   headlineSubheadGroupParent: [
@@ -234,14 +234,14 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "box"
+    "freeBox"
   ],
 
   emailParent: ["emailParent", "emailLabel", "registeredEmail"],
   emailLabel: ["emailLabel"],
   registeredEmail: ["registeredEmail"],
-  recoveryLinkEmail: ["recoveryLinkEmail", "box"],
-  box: ["box"]
+  recoveryLinkEmail: ["recoveryLinkEmail", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -287,7 +287,7 @@ export const PlasmicCardPasswordReset = Object.assign(
     emailLabel: makeNodeComponent("emailLabel"),
     registeredEmail: makeNodeComponent("registeredEmail"),
     recoveryLinkEmail: makeNodeComponent("recoveryLinkEmail"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicCardPasswordReset
     internalVariantProps: PlasmicCardPasswordReset__VariantProps,
     internalArgProps: PlasmicCardPasswordReset__ArgProps

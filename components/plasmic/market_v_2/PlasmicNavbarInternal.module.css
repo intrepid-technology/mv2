@@ -14,10 +14,10 @@
   justify-content: space-between;
   width: 100%;
   height: 80px;
+  background: #ffffff;
   min-width: 0;
   flex-shrink: 0;
   padding: 8px 40px 8px 8px;
-  background: #ffffff;
   border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -80,7 +80,7 @@
 .searchbarPrimary:global(.__wab_instance) {
   position: relative;
 }
-.box__fJTxW {
+.freeBox__fJTxW {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -91,18 +91,18 @@
   padding-top: 2px;
   padding-bottom: 2px;
 }
-.box__fJTxW > :global(.__wab_flex-container) {
+.freeBox__fJTxW > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
-.box__fJTxW > :global(.__wab_flex-container) > *,
-.box__fJTxW > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__fJTxW > :global(.__wab_flex-container) > *,
+.freeBox__fJTxW > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 24px;
 }
-.box__maSdV {
+.freeBox__maSdV {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -112,18 +112,18 @@
   top: auto;
   align-self: flex-end;
 }
-.box__maSdV > :global(.__wab_flex-container) {
+.freeBox__maSdV > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
 }
-.box__maSdV > :global(.__wab_flex-container) > *,
-.box__maSdV > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__maSdV > :global(.__wab_flex-container) > *,
+.freeBox__maSdV > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 12px;
 }
-.box__av6P {
+.freeBox__av6P {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -132,15 +132,15 @@
   width: auto;
   height: auto;
 }
-.box__av6P > :global(.__wab_flex-container) {
+.freeBox__av6P > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
-.box__av6P > :global(.__wab_flex-container) > *,
-.box__av6P > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__av6P > :global(.__wab_flex-container) > *,
+.freeBox__av6P > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 0px;
 }
 .navbarListButton {
@@ -155,9 +155,9 @@
   height: 32px;
   padding-left: 4px;
   padding-right: 4px;
+  background: #6633ff;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #6633ff;
   border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .navbarListButton__user_partner {
@@ -210,9 +210,9 @@
   height: 32px;
   padding-left: 4px;
   padding-right: 4px;
+  background: #000000;
   flex-shrink: 0;
   border-radius: 2px;
-  background: #000000;
   border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .navbarListButtonTextParent22 {

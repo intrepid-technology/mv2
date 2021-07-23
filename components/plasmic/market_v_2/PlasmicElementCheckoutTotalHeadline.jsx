@@ -39,13 +39,13 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___7YsjM)}
+        className={classNames(defaultcss.all, sty.freeBox___7YsjM)}
       >
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___8WzAi
+            sty.freeBox___8WzAi
           )}
         >
           {"Total"}

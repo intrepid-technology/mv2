@@ -63,9 +63,9 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
       </CardCta>
 
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <img
           data-plasmic-name={"img"}
@@ -81,9 +81,9 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "cardCta", "box", "img"],
+  root: ["root", "cardCta", "freeBox", "img"],
   cardCta: ["cardCta"],
-  box: ["box", "img"],
+  freeBox: ["freeBox", "img"],
   img: ["img"]
 };
 
@@ -119,7 +119,7 @@ export const PlasmicSectionPartnerDashboardCta = Object.assign(
   {
     // Helper components rendering sub-elements
     cardCta: makeNodeComponent("cardCta"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicSectionPartnerDashboardCta
     internalVariantProps: PlasmicSectionPartnerDashboardCta__VariantProps,

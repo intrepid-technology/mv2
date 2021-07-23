@@ -49,7 +49,7 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
         data-plasmic-override={overrides.headlineParent}
         className={classNames(defaultcss.all, sty.headlineParent)}
       >
-        <div className={classNames(defaultcss.all, sty.box___5Q18D)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___5Q18D)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Start, launch, and grow a scalable & profitable business.",
@@ -64,7 +64,7 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
         data-plasmic-override={overrides.subheadParent}
         className={classNames(defaultcss.all, sty.subheadParent)}
       >
-        <div className={classNames(defaultcss.all, sty.box__zmpJ9)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__zmpJ9)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",

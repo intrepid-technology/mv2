@@ -24,7 +24,7 @@
     padding-left: 16px;
   }
 }
-.box__nPo1P {
+.freeBox__nPo1P {
   display: block;
   font-size: 40px;
   font-family: "Inter", sans-serif;
@@ -39,11 +39,11 @@
   width: auto;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .box__nPo1P {
+  .freeBox__nPo1P {
     color: #333333 /* plasmic-token: F4gy0u3aB */;
   }
 }
-.box__xQokM {
+.freeBox__xQokM {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -54,7 +54,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__xQokM > :global(.__wab_flex-container) {
+.freeBox__xQokM > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -65,8 +65,8 @@
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.box__xQokM > :global(.__wab_flex-container) > *,
-.box__xQokM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xQokM > :global(.__wab_flex-container) > *,
+.freeBox__xQokM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 16px;
   margin-top: 16px;
 }

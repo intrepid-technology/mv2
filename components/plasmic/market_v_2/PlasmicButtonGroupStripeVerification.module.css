@@ -22,7 +22,7 @@
   left: auto;
   flex-shrink: 0;
 }
-.box__bkQn0 {
+.freeBox__bkQn0 {
   font-weight: 600;
 }
 .noteLinkParent {
@@ -58,7 +58,7 @@
   height: auto;
   min-width: 0;
 }
-.box__qLzg6 {
+.freeBox__qLzg6 {
   display: inline-block;
   font-size: 10px;
   font-family: "Inter", sans-serif;

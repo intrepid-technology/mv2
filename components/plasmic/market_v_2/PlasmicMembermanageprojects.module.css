@@ -4,9 +4,9 @@
   width: 100%;
   height: 100%;
   flex-direction: column;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff;
 }
 .navbarInternal:global(.__wab_instance) {
   position: relative;
@@ -85,7 +85,7 @@
   top: auto;
   align-self: flex-start;
 }
-.box__qYxNs {
+.freeBox__qYxNs {
   font-weight: 700;
 }
 .sectionMemberManageListings {
@@ -114,14 +114,14 @@
   > * {
   margin-top: 32px;
 }
-.box___5GmQ {
+.freeBox___5GmQ {
   display: inline-flex;
   position: relative;
   flex-direction: column;
   width: auto;
   height: auto;
 }
-.box___5GmQ > :global(.__wab_flex-container) {
+.freeBox___5GmQ > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
@@ -129,11 +129,11 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.box___5GmQ > :global(.__wab_flex-container) > *,
-.box___5GmQ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___5GmQ > :global(.__wab_flex-container) > *,
+.freeBox___5GmQ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
-.box__pmRau {
+.freeBox__pmRau {
   height: auto;
   max-width: 328px;
 }
@@ -196,14 +196,14 @@
   font-size: 16px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.box__nBju3 {
+.freeBox__nBju3 {
   position: relative;
   left: auto;
   top: auto;
   font-size: 16px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.box__xYhA {
+.freeBox__xYhA {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -214,15 +214,15 @@
   padding: 0px;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__xYhA > :global(.__wab_flex-container) {
+.freeBox__xYhA > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.box__xYhA > :global(.__wab_flex-container) > *,
-.box__xYhA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xYhA > :global(.__wab_flex-container) > *,
+.freeBox__xYhA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 16px;
 }
 .listingSearchFilterParent {
@@ -337,22 +337,22 @@
   > * {
   margin-top: 2px;
 }
-.tableProjectManagementHeader:global(.__wab_instance) {
+.tableProjectAdminHeader:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.tableProjectManagementRecord___4QXjc:global(.__wab_instance) {
+.tableProjectAdminRecord___4QXjc:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.tableProjectManagementRecord___9Meuc:global(.__wab_instance) {
+.tableProjectAdminRecord___9Meuc:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.tableProjectManagementRecord__vqAt:global(.__wab_instance) {
+.tableProjectAdminRecord__vqAt:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

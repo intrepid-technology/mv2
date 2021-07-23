@@ -60,12 +60,12 @@ function PlasmicBadgeVerification__RenderFunc(props) {
           ) : null}
           {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
-              data-plasmic-name={"box"}
-              data-plasmic-override={overrides.box}
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box
+                sty.freeBox
               )}
             >
               {"Verified"}
@@ -78,10 +78,10 @@ function PlasmicBadgeVerification__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "svg", "box"],
-  parent: ["parent", "svg", "box"],
+  root: ["root", "parent", "svg", "freeBox"],
+  parent: ["parent", "svg", "freeBox"],
   svg: ["svg"],
-  box: ["box"]
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -117,7 +117,7 @@ export const PlasmicBadgeVerification = Object.assign(
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
     svg: makeNodeComponent("svg"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicBadgeVerification
     internalVariantProps: PlasmicBadgeVerification__VariantProps,
     internalArgProps: PlasmicBadgeVerification__ArgProps

@@ -144,12 +144,12 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             platform={"nextjs"}
           >
             <div
-              data-plasmic-name={"box"}
-              data-plasmic-override={overrides.box}
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box
+                sty.freeBox
               )}
             >
               {"View all connections"}
@@ -170,7 +170,7 @@ const PlasmicDescendants = {
     "memberConnectionsParent",
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "box"
+    "freeBox"
   ],
 
   parent: [
@@ -180,7 +180,7 @@ const PlasmicDescendants = {
     "memberConnectionsParent",
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "box"
+    "freeBox"
   ],
 
   connectionsHealine: ["connectionsHealine", "connectionsHeadlineText"],
@@ -189,11 +189,11 @@ const PlasmicDescendants = {
   linkConnectionsViewAllParent: [
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "box"
+    "freeBox"
   ],
 
-  linkConnectionsViewAll: ["linkConnectionsViewAll", "box"],
-  box: ["box"]
+  linkConnectionsViewAll: ["linkConnectionsViewAll", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -237,7 +237,7 @@ export const PlasmicElementMemberProfileConnections = Object.assign(
     ),
 
     linkConnectionsViewAll: makeNodeComponent("linkConnectionsViewAll"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicElementMemberProfileConnections
     internalVariantProps: PlasmicElementMemberProfileConnections__VariantProps,
     internalArgProps: PlasmicElementMemberProfileConnections__ArgProps

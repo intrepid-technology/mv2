@@ -9,6 +9,9 @@
   min-width: 0;
 }
 .parent__size__270 {
+  max-width: 270px;
+}
+.parent__size__360 {
   max-width: 360px;
 }
 .parent__size__720 {

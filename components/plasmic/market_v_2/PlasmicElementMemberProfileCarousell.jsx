@@ -67,8 +67,10 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
-                <div className={classNames(defaultcss.all, sty.box___4RlGc)}>
-                  <div className={classNames(defaultcss.all, sty.box__vtm)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___4RlGc)}
+                >
+                  <div className={classNames(defaultcss.all, sty.freeBox__vtm)}>
                     {p.renderPlasmicSlot({
                       defaultContents: "Headline label",
                       value: args.headlineLabel,

@@ -79,14 +79,14 @@
 .headline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 10px;
 }
-.box__n8Yg {
+.freeBox__n8Yg {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: column;
 }
-.box__adCaL {
+.freeBox__adCaL {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -158,9 +158,9 @@
   height: auto;
   left: auto;
   top: auto;
+  background: #f8f8f8;
   min-width: 0;
   border-radius: 2px;
-  background: #f8f8f8;
   border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .multiLineTextParent > :global(.__wab_flex-container) {

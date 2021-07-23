@@ -83,8 +83,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__kbtrj, {
-                  [sty.box__color__kbtrJncUjG]: hasVariant(
+                className={classNames(defaultcss.all, sty.freeBox__kbtrj, {
+                  [sty.freeBox__color__kbtrJncUjG]: hasVariant(
                     variants,
                     "color",
                     "color"
@@ -114,9 +114,9 @@ function PlasmicNavbarCta__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__fu5Me,
+                          sty.freeBox__fu5Me,
                           {
-                            [sty.box__color__fu5MencUjG]: hasVariant(
+                            [sty.freeBox__color__fu5MencUjG]: hasVariant(
                               variants,
                               "color",
                               "color"
@@ -164,7 +164,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__qfmI4
+                          sty.freeBox__qfmI4
                         )}
                       >
                         {"Mobile"}
@@ -189,7 +189,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__rZjHv
+                        sty.freeBox__rZjHv
                       )}
                     >
                       {"Web"}
@@ -213,9 +213,9 @@ function PlasmicNavbarCta__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__pEnZm,
+                        sty.freeBox__pEnZm,
                         {
-                          [sty.box__color__pEnZMncUjG]: hasVariant(
+                          [sty.freeBox__color__pEnZMncUjG]: hasVariant(
                             variants,
                             "color",
                             "color"
@@ -288,27 +288,27 @@ function PlasmicNavbarCta__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__uwHg0,
+                sty.freeBox__uwHg0,
                 {
-                  [sty.box__color__uwHg0NcUjG]: hasVariant(
+                  [sty.freeBox__color__uwHg0NcUjG]: hasVariant(
                     variants,
                     "color",
                     "color"
                   ),
 
-                  [sty.box__color_persona_member__uwHg0NcUjGDtKy1]:
+                  [sty.freeBox__color_persona_member__uwHg0NcUjGDtKy1]:
                     hasVariant(variants, "color", "color") &&
                     hasVariant(variants, "persona", "member"),
-                  [sty.box__color_persona_partner__uwHg0NcUjG9HLiC]:
+                  [sty.freeBox__color_persona_partner__uwHg0NcUjG9HLiC]:
                     hasVariant(variants, "color", "color") &&
                     hasVariant(variants, "persona", "partner"),
-                  [sty.box__persona_member__uwHg0DtKy1]: hasVariant(
+                  [sty.freeBox__persona_member__uwHg0DtKy1]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.box__persona_partner__uwHg09HLiC]: hasVariant(
+                  [sty.freeBox__persona_partner__uwHg09HLiC]: hasVariant(
                     variants,
                     "persona",
                     "partner"

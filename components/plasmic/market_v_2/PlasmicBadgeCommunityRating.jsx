@@ -57,7 +57,7 @@ function PlasmicBadgeCommunityRating__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__xcZnF
+                sty.freeBox__xcZnF
               )}
             >
               {"4.8"}

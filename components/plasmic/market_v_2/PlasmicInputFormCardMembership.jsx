@@ -85,8 +85,8 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
               hasGap={true}
               className={classNames(defaultcss.all, sty.headline)}
             >
-              <div className={classNames(defaultcss.all, sty.box__n8Yg)}>
-                <div className={classNames(defaultcss.all, sty.box__adCaL)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__n8Yg)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__adCaL)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "Membership",
                     value: args.children,

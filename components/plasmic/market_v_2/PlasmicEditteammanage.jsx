@@ -26,10 +26,8 @@ import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/c
 import SelectGroupDropdownPrimary from "../../SelectGroupDropdownPrimary"; // plasmic-import: -teiDn_7Z-/component
 import ButtonCirclePlusMinus from "../../ButtonCirclePlusMinus"; // plasmic-import: o1fXsWwgdW/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
-import RadioTextInputPrimary from "../../RadioTextInputPrimary"; // plasmic-import: 1xw4kmw_5l/component
-import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
-import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
-import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
+import TableUserAdminHeader from "../../TableUserAdminHeader"; // plasmic-import: hAe6_pu3NI/component
+import TableUserAdminRecord from "../../TableUserAdminRecord"; // plasmic-import: _aYcl8sdexe/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -111,7 +109,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___6QAYz
+                    sty.freeBox___6QAYz
                   )}
                 >
                   {"Manage members"}
@@ -146,7 +144,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ygMqo
+                      sty.freeBox__ygMqo
                     )}
                   >
                     {
@@ -159,10 +157,9 @@ function PlasmicEditteammanage__RenderFunc(props) {
               </CardHeaderTitlePrimary>
 
               <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary___78XqV
-                )}
+                data-plasmic-name={"buttonPrimary"}
+                data-plasmic-override={overrides.buttonPrimary}
+                className={classNames("__wab_instance", sty.buttonPrimary)}
                 size={"_140"}
                 type={"primary"}
               >
@@ -193,7 +190,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__ptzPj
+                          sty.freeBox__ptzPj
                         )}
                       >
                         {"Email"}
@@ -216,7 +213,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___7A8Rf
+                        sty.freeBox___7A8Rf
                       )}
                     >
                       {"Role"}
@@ -259,13 +256,10 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.incrementParent)}
                 >
                   <ButtonCirclePlusMinus
-                    data-plasmic-name={"buttonCirclePlusMinus"}
-                    data-plasmic-override={overrides.buttonCirclePlusMinus}
+                    data-plasmic-name={"addMember"}
+                    data-plasmic-override={overrides.addMember}
                     alignment={"left"}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.buttonCirclePlusMinus
-                    )}
+                    className={classNames("__wab_instance", sty.addMember)}
                   />
                 </div>
 
@@ -274,7 +268,12 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   data-plasmic-override={overrides.inviteButtonParent}
                   className={classNames(defaultcss.all, sty.inviteButtonParent)}
                 >
-                  <ButtonPrimary size={"_140"} type={"outline"}>
+                  <ButtonPrimary
+                    data-plasmic-name={"inviteMembers"}
+                    data-plasmic-override={overrides.inviteMembers}
+                    size={"_140"}
+                    type={"outline"}
+                  >
                     {"Invite"}
                   </ButtonPrimary>
                 </div>
@@ -306,7 +305,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xopkA
+                      sty.freeBox__xopkA
                     )}
                   >
                     {"Manage member access roles"}
@@ -368,278 +367,29 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     sty.tableSelectColumnParent
                   )}
                 >
-                  <div
-                    data-plasmic-name={"tableSelectHeaderRow"}
-                    data-plasmic-override={overrides.tableSelectHeaderRow}
+                  <TableUserAdminHeader
+                    data-plasmic-name={"tableUserAdminHeader"}
+                    data-plasmic-override={overrides.tableUserAdminHeader}
                     className={classNames(
-                      defaultcss.all,
-                      sty.tableSelectHeaderRow
+                      "__wab_instance",
+                      sty.tableUserAdminHeader
                     )}
-                  >
-                    <RadioTextInputPrimary
-                      data-plasmic-name={"radioTextInputPrimary"}
-                      data-plasmic-override={overrides.radioTextInputPrimary}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.radioTextInputPrimary
-                      )}
-                      itemText={
-                        <div
-                          className={classNames(
-                            defaultcss.all,
-                            defaultcss.__wab_text,
-                            sty.box__yQnJv
-                          )}
-                        >
-                          {"Select all"}
-                        </div>
-                      }
-                    />
+                  />
 
-                    <ButtonCircleDelete
-                      className={classNames(
-                        "__wab_instance",
-                        sty.buttonCircleDelete__stXb0
-                      )}
-                      size={"_18Px"}
-                    />
-                  </div>
+                  <TableUserAdminRecord
+                    className={classNames(
+                      "__wab_instance",
+                      sty.tableUserAdminRecord__m8Sk9
+                    )}
+                  />
 
-                  <div
-                    data-plasmic-name={"memberAdminRow"}
-                    data-plasmic-override={overrides.memberAdminRow}
-                    className={classNames(defaultcss.all, sty.memberAdminRow)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"userAvatarNameEmailParent"}
-                      data-plasmic-override={
-                        overrides.userAvatarNameEmailParent
-                      }
-                      hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        sty.userAvatarNameEmailParent
-                      )}
-                    >
-                      <ElementRadioPrimary
-                        className={classNames(
-                          "__wab_instance",
-                          sty.elementRadioPrimary___2Zmrj
-                        )}
-                        size={"_14Px"}
-                      />
-
-                      <UserAvatar
-                        className={classNames(
-                          "__wab_instance",
-                          sty.userAvatar__jpTpo
-                        )}
-                        size={"_32"}
-                      />
-
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"userInfoParent"}
-                        data-plasmic-override={overrides.userInfoParent}
-                        hasGap={true}
-                        className={classNames(
-                          defaultcss.all,
-                          sty.userInfoParent
-                        )}
-                      >
-                        <div
-                          data-plasmic-name={"usernameParent"}
-                          data-plasmic-override={overrides.usernameParent}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.usernameParent
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box__ms93E
-                            )}
-                          >
-                            {"username"}
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"userEmailParent"}
-                          data-plasmic-override={overrides.userEmailParent}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.userEmailParent
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box___3WVqw
-                            )}
-                          >
-                            {"userEmail"}
-                          </div>
-                        </div>
-                      </p.Stack>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"selectFabParent2"}
-                      data-plasmic-override={overrides.selectFabParent2}
-                      hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        sty.selectFabParent2
-                      )}
-                    >
-                      <div
-                        data-plasmic-name={"statusTextParent"}
-                        data-plasmic-override={overrides.statusTextParent}
-                        className={classNames(
-                          defaultcss.all,
-                          sty.statusTextParent
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            defaultcss.all,
-                            defaultcss.__wab_text,
-                            sty.box__xcea1
-                          )}
-                        >
-                          {"Admin"}
-                        </div>
-                      </div>
-
-                      <ButtonCircleDelete
-                        className={classNames(
-                          "__wab_instance",
-                          sty.buttonCircleDelete__zf93E
-                        )}
-                        size={"_18Px"}
-                      />
-                    </p.Stack>
-                  </div>
-
-                  <div
-                    data-plasmic-name={"memberSelectRow"}
-                    data-plasmic-override={overrides.memberSelectRow}
-                    className={classNames(defaultcss.all, sty.memberSelectRow)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"userAvatarNameEmailParent2"}
-                      data-plasmic-override={
-                        overrides.userAvatarNameEmailParent2
-                      }
-                      hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        sty.userAvatarNameEmailParent2
-                      )}
-                    >
-                      <ElementRadioPrimary
-                        className={classNames(
-                          "__wab_instance",
-                          sty.elementRadioPrimary__t9Rdd
-                        )}
-                        size={"_14Px"}
-                      />
-
-                      <UserAvatar
-                        className={classNames(
-                          "__wab_instance",
-                          sty.userAvatar__mooz9
-                        )}
-                        size={"_32"}
-                      />
-
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"userInfoParent2"}
-                        data-plasmic-override={overrides.userInfoParent2}
-                        hasGap={true}
-                        className={classNames(
-                          defaultcss.all,
-                          sty.userInfoParent2
-                        )}
-                      >
-                        <div
-                          data-plasmic-name={"usernameParent2"}
-                          data-plasmic-override={overrides.usernameParent2}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.usernameParent2
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box__hmRt4
-                            )}
-                          >
-                            {"username"}
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"userEmailParent2"}
-                          data-plasmic-override={overrides.userEmailParent2}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.userEmailParent2
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.box__zf1Gy
-                            )}
-                          >
-                            {"userEmail"}
-                          </div>
-                        </div>
-                      </p.Stack>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"selectFabParent3"}
-                      data-plasmic-override={overrides.selectFabParent3}
-                      hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        sty.selectFabParent3
-                      )}
-                    >
-                      <SelectGroupDropdownPrimary
-                        className={classNames(
-                          "__wab_instance",
-                          sty.selectGroupDropdownPrimary__sxrny
-                        )}
-                        description={"description"}
-                        label={"label"}
-                        placeholder={"Member"}
-                        width={"_90"}
-                      />
-
-                      <ButtonCircleDelete
-                        className={classNames(
-                          "__wab_instance",
-                          sty.buttonCircleDelete__qe4N
-                        )}
-                        size={"_18Px"}
-                      />
-                    </p.Stack>
-                  </div>
+                  <TableUserAdminRecord
+                    action={"select"}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.tableUserAdminRecord__fvCL
+                    )}
+                  />
                 </p.Stack>
               </p.Stack>
             </p.Stack>
@@ -665,33 +415,21 @@ const PlasmicDescendants = {
     "cardHeaderTitleDisplay",
     "sectionTeamInviteMembers",
     "cardTeamInviteMembers",
+    "buttonPrimary",
     "tableAddTeamMember",
     "inviteMemberHeader",
     "inviteMemberRecord",
     "incrementParent",
-    "buttonCirclePlusMinus",
+    "addMember",
     "inviteButtonParent",
+    "inviteMembers",
     "sectionTeamManageMembers",
     "cardTeamManageMembers",
     "tableTeamMemberEditParent",
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableSelectHeaderRow",
-    "radioTextInputPrimary",
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent",
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3",
+    "tableUserAdminHeader",
     "footerB"
   ],
 
@@ -706,38 +444,45 @@ const PlasmicDescendants = {
   sectionTeamInviteMembers: [
     "sectionTeamInviteMembers",
     "cardTeamInviteMembers",
+    "buttonPrimary",
     "tableAddTeamMember",
     "inviteMemberHeader",
     "inviteMemberRecord",
     "incrementParent",
-    "buttonCirclePlusMinus",
-    "inviteButtonParent"
+    "addMember",
+    "inviteButtonParent",
+    "inviteMembers"
   ],
 
   cardTeamInviteMembers: [
     "cardTeamInviteMembers",
+    "buttonPrimary",
     "tableAddTeamMember",
     "inviteMemberHeader",
     "inviteMemberRecord",
     "incrementParent",
-    "buttonCirclePlusMinus",
-    "inviteButtonParent"
+    "addMember",
+    "inviteButtonParent",
+    "inviteMembers"
   ],
 
+  buttonPrimary: ["buttonPrimary"],
   tableAddTeamMember: [
     "tableAddTeamMember",
     "inviteMemberHeader",
     "inviteMemberRecord",
     "incrementParent",
-    "buttonCirclePlusMinus",
-    "inviteButtonParent"
+    "addMember",
+    "inviteButtonParent",
+    "inviteMembers"
   ],
 
   inviteMemberHeader: ["inviteMemberHeader"],
   inviteMemberRecord: ["inviteMemberRecord"],
-  incrementParent: ["incrementParent", "buttonCirclePlusMinus"],
-  buttonCirclePlusMinus: ["buttonCirclePlusMinus"],
-  inviteButtonParent: ["inviteButtonParent"],
+  incrementParent: ["incrementParent", "addMember"],
+  addMember: ["addMember"],
+  inviteButtonParent: ["inviteButtonParent", "inviteMembers"],
+  inviteMembers: ["inviteMembers"],
   sectionTeamManageMembers: [
     "sectionTeamManageMembers",
     "cardTeamManageMembers",
@@ -745,21 +490,7 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableSelectHeaderRow",
-    "radioTextInputPrimary",
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent",
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3"
+    "tableUserAdminHeader"
   ],
 
   cardTeamManageMembers: [
@@ -768,21 +499,7 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableSelectHeaderRow",
-    "radioTextInputPrimary",
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent",
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3"
+    "tableUserAdminHeader"
   ],
 
   tableTeamMemberEditParent: [
@@ -790,88 +507,13 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableSelectHeaderRow",
-    "radioTextInputPrimary",
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent",
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3"
+    "tableUserAdminHeader"
   ],
 
   searchFilterDateParent: ["searchFilterDateParent", "searchbarPrimary"],
   searchbarPrimary: ["searchbarPrimary"],
-  tableSelectColumnParent: [
-    "tableSelectColumnParent",
-    "tableSelectHeaderRow",
-    "radioTextInputPrimary",
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent",
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3"
-  ],
-
-  tableSelectHeaderRow: ["tableSelectHeaderRow", "radioTextInputPrimary"],
-  radioTextInputPrimary: ["radioTextInputPrimary"],
-  memberAdminRow: [
-    "memberAdminRow",
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent",
-    "selectFabParent2",
-    "statusTextParent"
-  ],
-
-  userAvatarNameEmailParent: [
-    "userAvatarNameEmailParent",
-    "userInfoParent",
-    "usernameParent",
-    "userEmailParent"
-  ],
-
-  userInfoParent: ["userInfoParent", "usernameParent", "userEmailParent"],
-  usernameParent: ["usernameParent"],
-  userEmailParent: ["userEmailParent"],
-  selectFabParent2: ["selectFabParent2", "statusTextParent"],
-  statusTextParent: ["statusTextParent"],
-  memberSelectRow: [
-    "memberSelectRow",
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2",
-    "selectFabParent3"
-  ],
-
-  userAvatarNameEmailParent2: [
-    "userAvatarNameEmailParent2",
-    "userInfoParent2",
-    "usernameParent2",
-    "userEmailParent2"
-  ],
-
-  userInfoParent2: ["userInfoParent2", "usernameParent2", "userEmailParent2"],
-  usernameParent2: ["usernameParent2"],
-  userEmailParent2: ["userEmailParent2"],
-  selectFabParent3: ["selectFabParent3"],
+  tableSelectColumnParent: ["tableSelectColumnParent", "tableUserAdminHeader"],
+  tableUserAdminHeader: ["tableUserAdminHeader"],
   footerB: ["footerB"]
 };
 
@@ -915,33 +557,21 @@ export const PlasmicEditteammanage = Object.assign(
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     sectionTeamInviteMembers: makeNodeComponent("sectionTeamInviteMembers"),
     cardTeamInviteMembers: makeNodeComponent("cardTeamInviteMembers"),
+    buttonPrimary: makeNodeComponent("buttonPrimary"),
     tableAddTeamMember: makeNodeComponent("tableAddTeamMember"),
     inviteMemberHeader: makeNodeComponent("inviteMemberHeader"),
     inviteMemberRecord: makeNodeComponent("inviteMemberRecord"),
     incrementParent: makeNodeComponent("incrementParent"),
-    buttonCirclePlusMinus: makeNodeComponent("buttonCirclePlusMinus"),
+    addMember: makeNodeComponent("addMember"),
     inviteButtonParent: makeNodeComponent("inviteButtonParent"),
+    inviteMembers: makeNodeComponent("inviteMembers"),
     sectionTeamManageMembers: makeNodeComponent("sectionTeamManageMembers"),
     cardTeamManageMembers: makeNodeComponent("cardTeamManageMembers"),
     tableTeamMemberEditParent: makeNodeComponent("tableTeamMemberEditParent"),
     searchFilterDateParent: makeNodeComponent("searchFilterDateParent"),
     searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     tableSelectColumnParent: makeNodeComponent("tableSelectColumnParent"),
-    tableSelectHeaderRow: makeNodeComponent("tableSelectHeaderRow"),
-    radioTextInputPrimary: makeNodeComponent("radioTextInputPrimary"),
-    memberAdminRow: makeNodeComponent("memberAdminRow"),
-    userAvatarNameEmailParent: makeNodeComponent("userAvatarNameEmailParent"),
-    userInfoParent: makeNodeComponent("userInfoParent"),
-    usernameParent: makeNodeComponent("usernameParent"),
-    userEmailParent: makeNodeComponent("userEmailParent"),
-    selectFabParent2: makeNodeComponent("selectFabParent2"),
-    statusTextParent: makeNodeComponent("statusTextParent"),
-    memberSelectRow: makeNodeComponent("memberSelectRow"),
-    userAvatarNameEmailParent2: makeNodeComponent("userAvatarNameEmailParent2"),
-    userInfoParent2: makeNodeComponent("userInfoParent2"),
-    usernameParent2: makeNodeComponent("usernameParent2"),
-    userEmailParent2: makeNodeComponent("userEmailParent2"),
-    selectFabParent3: makeNodeComponent("selectFabParent3"),
+    tableUserAdminHeader: makeNodeComponent("tableUserAdminHeader"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteammanage
     internalVariantProps: PlasmicEditteammanage__VariantProps,

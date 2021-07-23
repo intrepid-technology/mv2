@@ -7,8 +7,8 @@
   height: auto;
   padding-right: 20px;
   position: relative;
-  min-width: 0;
   background: #f8f8f8;
+  min-width: 0;
 }
 .root__color_dark {
   background: #000000;

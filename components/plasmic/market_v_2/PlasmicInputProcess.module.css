@@ -31,12 +31,12 @@
   border-left-style: none;
   border-left-width: 1px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  background: #f8f8f8;
   min-width: 0;
   padding: 4px;
-  background: #f8f8f8;
   border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.box__utVmc {
+.freeBox__utVmc {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -46,15 +46,15 @@
   top: auto;
   min-width: 0;
 }
-.box__utVmc > :global(.__wab_flex-container) {
+.freeBox__utVmc > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box__utVmc > :global(.__wab_flex-container) > *,
-.box__utVmc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__utVmc > :global(.__wab_flex-container) > *,
+.freeBox__utVmc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 8px;
 }
 .textarea {
@@ -63,11 +63,11 @@
   top: auto;
   width: 100%;
   height: 90px;
+  background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 6px;
   padding: 4px;
-  background: #f8f8f8;
   border: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
 }
 .textarea__size__540 {
@@ -82,11 +82,11 @@
 .root .textarea:focus {
   left: auto;
   top: auto;
-  outline: none;
   background: #ffffff;
+  outline: none;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.box__yoYe {
+.freeBox__yoYe {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -100,10 +100,10 @@
   padding-right: 2px;
   min-width: 0;
 }
-.box__add__yoYeqnDpl {
+.freeBox__add__yoYeqnDpl {
   justify-content: flex-end;
 }
-.box__l594M {
+.freeBox__l594M {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -129,7 +129,7 @@
   left: auto;
   top: auto;
 }
-.box__aOiaZ {
+.freeBox__aOiaZ {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -138,14 +138,14 @@
   top: auto;
   left: auto;
 }
-.box__ipqFh {
+.freeBox__ipqFh {
   font-size: 12px;
   font-weight: 400;
 }
-.box__size__540__ipqFhg8DmW {
+.freeBox__size__540__ipqFhg8DmW {
   font-size: 14px;
 }
-.root .box__ipqFh:hover {
+.root .freeBox__ipqFh:hover {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
   left: auto;
   top: auto;

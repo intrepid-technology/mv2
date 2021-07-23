@@ -38,9 +38,9 @@ function PlasmicAccordion__RenderFunc(props) {
         [sty.root__size__360]: hasVariant(variants, "size", "_360")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.box__sBh8I)}>
-        <div className={classNames(defaultcss.all, sty.box__hHnLy)}>
-          <div className={classNames(defaultcss.all, sty.box___8Z3Kv)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__sBh8I)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__hHnLy)}>
+          <div className={classNames(defaultcss.all, sty.freeBox___8Z3Kv)}>
             {p.renderPlasmicSlot({
               defaultContents: "Accordion",
               value: args.children,
@@ -56,8 +56,8 @@ function PlasmicAccordion__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__mHsMa)}>
-        <div className={classNames(defaultcss.all, sty.box__lw9Pw)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__mHsMa)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__lw9Pw)}>
           <PlusBoldIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}

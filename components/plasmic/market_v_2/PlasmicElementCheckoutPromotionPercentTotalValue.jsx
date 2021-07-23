@@ -43,7 +43,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__rvDg)}
+        className={classNames(defaultcss.all, sty.freeBox__rvDg)}
       >
         <div
           data-plasmic-name={"promotionTitleTextParent"}
@@ -103,7 +103,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mX4Ny
+            sty.freeBox__mX4Ny
           )}
         >
           {"-"}
@@ -121,12 +121,12 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__jPJt)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__jPJt)}>
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__clGpn
+              sty.freeBox__clGpn
             )}
           >
             {"0.00"}

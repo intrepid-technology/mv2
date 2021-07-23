@@ -105,7 +105,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__mbL5D
+                    sty.freeBox__mbL5D
                   )}
                 >
                   {"Step 4"}
@@ -117,7 +117,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__p8Gw
+                  sty.freeBox__p8Gw
                 )}
               >
                 {"How much time is required to deliver your service?"}
@@ -165,7 +165,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__snn5
+                    sty.freeBox__snn5
                   )}
                 >
                   {"Step 2"}
@@ -177,7 +177,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__g7Rsl
+                  sty.freeBox__g7Rsl
                 )}
               >
                 {"How many meetings will you offer your client?"}
@@ -227,7 +227,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wBaev
+                    sty.freeBox__wBaev
                   )}
                 >
                   {"Step 2"}
@@ -239,7 +239,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__by8Qo
+                  sty.freeBox__by8Qo
                 )}
               >
                 {"How many revisions will you offer your client?"}
@@ -293,7 +293,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__rgSA)}
+              className={classNames(defaultcss.all, sty.freeBox__rgSA)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -306,7 +306,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__gBqE8
+                      sty.freeBox__gBqE8
                     )}
                   >
                     {"Step 2"}
@@ -318,7 +318,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__py2Sc
+                    sty.freeBox__py2Sc
                   )}
                 >
                   {"What do you require from the client to start your service?"}
@@ -329,7 +329,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__ui9Ss)}
+              className={classNames(defaultcss.all, sty.freeBox__ui9Ss)}
             >
               <RadioCheckboxCard
                 className={classNames(
@@ -390,7 +390,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__d40N6
+                    sty.freeBox__d40N6
                   )}
                 >
                   {"Step 2"}
@@ -402,7 +402,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__zmCp2
+                  sty.freeBox__zmCp2
                 )}
               >
                 {"What format(s) will you provide the client?"}
@@ -424,7 +424,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__gkwVx
+                    sty.freeBox__gkwVx
                   )}
                 >
                   {"Badge"}

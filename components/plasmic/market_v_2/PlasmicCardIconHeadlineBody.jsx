@@ -61,8 +61,8 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
       platform={"nextjs"}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
     >
-      <div className={classNames(defaultcss.all, sty.box__aUrNg)}>
-        <div className={classNames(defaultcss.all, sty.box___4BYjy)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__aUrNg)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___4BYjy)}>
           {p.renderPlasmicSlot({
             defaultContents: (
               <Icon56Icon
@@ -131,7 +131,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
         data-plasmic-override={overrides.accountBodyText}
         className={classNames(defaultcss.all, sty.accountBodyText)}
       >
-        <div className={classNames(defaultcss.all, sty.box___3Ewwn)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___3Ewwn)}>
           {p.renderPlasmicSlot({
             defaultContents: triggers.hover_root ? "Body text" : "Body text",
             value: args.children,

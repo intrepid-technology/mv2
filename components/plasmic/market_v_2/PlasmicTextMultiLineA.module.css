@@ -30,8 +30,8 @@
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
   width: 320px;
   height: 96px;
-  flex-shrink: 0;
   background: #f8f8f8;
+  flex-shrink: 0;
   border-width: 1px;
   border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }

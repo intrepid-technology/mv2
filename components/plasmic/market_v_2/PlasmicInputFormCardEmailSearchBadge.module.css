@@ -135,14 +135,14 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.box__lI706 {
+.freeBox__lI706 {
   display: flex;
   position: relative;
   width: 360px;
   height: 32px;
   flex-shrink: 0;
 }
-.box__search__lI706Auxud {
+.freeBox__search__lI706Auxud {
   width: 360px;
 }
 .textbox__bjqT {
@@ -160,9 +160,9 @@
   border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
   border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
   border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  background: #f8f8f8;
   min-width: 0;
   min-height: 0;
-  background: #f8f8f8;
   border-style: solid;
 }
 .searchTriggerParent {
@@ -213,8 +213,8 @@
   border-top-left-radius: 2px;
   font-size: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
-  flex-shrink: 0;
   background: #f8f8f8;
+  flex-shrink: 0;
   border-style: solid;
 }
 .buttonPrimary__xk8V:global(.__wab_instance) {
@@ -234,7 +234,7 @@
   width: 18px;
   height: 18px;
 }
-.box__search__vL9TAuxud {
+.freeBox__search__vL9TAuxud {
   font-size: 16px;
   font-weight: 400;
 }
@@ -248,8 +248,8 @@
   height: 36px;
   padding-bottom: 2px;
   padding-top: 2px;
-  flex-shrink: 0;
   background: rgba(68, 192, 255, 0.2);
+  flex-shrink: 0;
   border-bottom: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .badgeDisplay > :global(.__wab_flex-container) {
@@ -270,8 +270,8 @@
   border-top-width: 1px;
   border-right-width: 1px;
   border-left-width: 1px;
-  min-width: 0;
   background: none;
+  min-width: 0;
   border-style: none;
 }
 .badgeDisplay__search > :global(.__wab_flex-container) {

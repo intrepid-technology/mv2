@@ -48,8 +48,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
     >
       {(hasVariant(variants, "overline", "overline") ? false : true) ? (
         <div
-          className={classNames(defaultcss.all, sty.box__a1RRl, {
-            [sty.box__overline__a1RRl6KuDi]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__a1RRl, {
+            [sty.freeBox__overline__a1RRl6KuDi]: hasVariant(
               variants,
               "overline",
               "overline"
@@ -57,8 +57,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
           })}
         >
           <div
-            className={classNames(defaultcss.all, sty.box__jUhaa, {
-              [sty.box__overline__jUhaa6KuDi]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__jUhaa, {
+              [sty.freeBox__overline__jUhaa6KuDi]: hasVariant(
                 variants,
                 "overline",
                 "overline"
@@ -80,8 +80,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
         </div>
       ) : null}
 
-      <div className={classNames(defaultcss.all, sty.box__dddfs)}>
-        <div className={classNames(defaultcss.all, sty.box__ibtEe)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__dddfs)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__ibtEe)}>
           {p.renderPlasmicSlot({
             defaultContents: "Question for user",
             value: args.children,
@@ -92,8 +92,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
 
       {(hasVariant(variants, "subhead", "subhead") ? false : true) ? (
         <div
-          className={classNames(defaultcss.all, sty.box__lIIbI, {
-            [sty.box__subhead__lIIbIrfWuK]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__lIIbI, {
+            [sty.freeBox__subhead__lIIbIrfWuK]: hasVariant(
               variants,
               "subhead",
               "subhead"

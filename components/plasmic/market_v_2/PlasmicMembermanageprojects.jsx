@@ -23,8 +23,8 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
-import TableProjectManagementHeader from "../../TableProjectManagementHeader"; // plasmic-import: K0Z1ZWLiupV/component
-import TableProjectManagementRecord from "../../TableProjectManagementRecord"; // plasmic-import: XwgjB__2WeM/component
+import TableProjectAdminHeader from "../../TableProjectAdminHeader"; // plasmic-import: K0Z1ZWLiupV/component
+import TableProjectAdminRecord from "../../TableProjectAdminRecord"; // plasmic-import: XwgjB__2WeM/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -116,7 +116,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__qYxNs
+                    sty.freeBox__qYxNs
                   )}
                 >
                   {"Manage your projects"}
@@ -142,7 +142,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box___5GmQ)}
+              className={classNames(defaultcss.all, sty.freeBox___5GmQ)}
             >
               <CardHeaderTitlePrimary
                 data-plasmic-name={"cardHeaderTitlePrimary"}
@@ -156,7 +156,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pmRau
+                      sty.freeBox__pmRau
                     )}
                   >
                     {"Manage your project collaboration"}
@@ -208,7 +208,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nBju3
+                      sty.freeBox__nBju3
                     )}
                   >
                     {"Projects"}
@@ -218,7 +218,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__xYhA)}
+                  className={classNames(defaultcss.all, sty.freeBox__xYhA)}
                 >
                   <div
                     data-plasmic-name={"listingSearchFilterParent"}
@@ -291,35 +291,33 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                       sty.orderTableColumnMain
                     )}
                   >
-                    <TableProjectManagementHeader
-                      data-plasmic-name={"tableProjectManagementHeader"}
-                      data-plasmic-override={
-                        overrides.tableProjectManagementHeader
-                      }
+                    <TableProjectAdminHeader
+                      data-plasmic-name={"tableProjectAdminHeader"}
+                      data-plasmic-override={overrides.tableProjectAdminHeader}
                       className={classNames(
                         "__wab_instance",
-                        sty.tableProjectManagementHeader
+                        sty.tableProjectAdminHeader
                       )}
                     />
 
-                    <TableProjectManagementRecord
+                    <TableProjectAdminRecord
                       className={classNames(
                         "__wab_instance",
-                        sty.tableProjectManagementRecord___4QXjc
+                        sty.tableProjectAdminRecord___4QXjc
                       )}
                     />
 
-                    <TableProjectManagementRecord
+                    <TableProjectAdminRecord
                       className={classNames(
                         "__wab_instance",
-                        sty.tableProjectManagementRecord___9Meuc
+                        sty.tableProjectAdminRecord___9Meuc
                       )}
                     />
 
-                    <TableProjectManagementRecord
+                    <TableProjectAdminRecord
                       className={classNames(
                         "__wab_instance",
-                        sty.tableProjectManagementRecord__vqAt
+                        sty.tableProjectAdminRecord__vqAt
                       )}
                     />
                   </p.Stack>
@@ -357,7 +355,7 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectManagementHeader",
+    "tableProjectAdminHeader",
     "footerB"
   ],
 
@@ -381,7 +379,7 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectManagementHeader"
+    "tableProjectAdminHeader"
   ],
 
   cardHeaderTitlePrimary: ["cardHeaderTitlePrimary"],
@@ -395,7 +393,7 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectManagementHeader"
+    "tableProjectAdminHeader"
   ],
 
   listingTotalParent: [
@@ -421,12 +419,8 @@ const PlasmicDescendants = {
 
   searchbarPrimary: ["searchbarPrimary"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
-  orderTableColumnMain: [
-    "orderTableColumnMain",
-    "tableProjectManagementHeader"
-  ],
-
-  tableProjectManagementHeader: ["tableProjectManagementHeader"],
+  orderTableColumnMain: ["orderTableColumnMain", "tableProjectAdminHeader"],
+  tableProjectAdminHeader: ["tableProjectAdminHeader"],
   footerB: ["footerB"]
 };
 
@@ -488,10 +482,7 @@ export const PlasmicMembermanageprojects = Object.assign(
     ),
 
     orderTableColumnMain: makeNodeComponent("orderTableColumnMain"),
-    tableProjectManagementHeader: makeNodeComponent(
-      "tableProjectManagementHeader"
-    ),
-
+    tableProjectAdminHeader: makeNodeComponent("tableProjectAdminHeader"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMembermanageprojects
     internalVariantProps: PlasmicMembermanageprojects__VariantProps,

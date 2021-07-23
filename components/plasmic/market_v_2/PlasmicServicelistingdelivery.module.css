@@ -7,9 +7,9 @@
   justify-content: flex-start;
   align-items: center;
   align-content: unset;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff;
 }
 .serviceListingNavbar {
   display: flex;
@@ -54,7 +54,7 @@
   top: auto;
   left: auto;
 }
-.box__p8Gw {
+.freeBox__p8Gw {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -64,7 +64,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__mbL5D {
+.freeBox__mbL5D {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .textbox {
@@ -130,7 +130,7 @@
   top: auto;
   left: auto;
 }
-.box__g7Rsl {
+.freeBox__g7Rsl {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -140,7 +140,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__snn5 {
+.freeBox__snn5 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .buttonFormDropdownSelect__tdwKs:global(.__wab_instance) {
@@ -206,7 +206,7 @@
   top: auto;
   left: auto;
 }
-.box__by8Qo {
+.freeBox__by8Qo {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -216,7 +216,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__wBaev {
+.freeBox__wBaev {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .buttonFormDropdownSelect__lorOa:global(.__wab_instance) {
@@ -288,7 +288,7 @@
   > * {
   margin-top: 64px;
 }
-.box__rgSA {
+.freeBox__rgSA {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -297,15 +297,15 @@
   left: auto;
   top: auto;
 }
-.box__rgSA > :global(.__wab_flex-container) {
+.freeBox__rgSA > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
 }
-.box__rgSA > :global(.__wab_flex-container) > *,
-.box__rgSA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__rgSA > :global(.__wab_flex-container) > *,
+.freeBox__rgSA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__rlNOv:global(.__wab_instance) {
@@ -313,7 +313,7 @@
   top: auto;
   left: auto;
 }
-.box__py2Sc {
+.freeBox__py2Sc {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -323,10 +323,10 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__gBqE8 {
+.freeBox__gBqE8 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.box__ui9Ss {
+.freeBox__ui9Ss {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -335,15 +335,15 @@
   width: auto;
   height: auto;
 }
-.box__ui9Ss > :global(.__wab_flex-container) {
+.freeBox__ui9Ss > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.box__ui9Ss > :global(.__wab_flex-container) > *,
-.box__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ui9Ss > :global(.__wab_flex-container) > *,
+.freeBox__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 24px;
 }
 .radioCheckboxCard__cnO1T:global(.__wab_instance) {
@@ -394,7 +394,7 @@
   top: auto;
   left: auto;
 }
-.box__zmCp2 {
+.freeBox__zmCp2 {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -404,7 +404,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.box__d40N6 {
+.freeBox__d40N6 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .searchBadge:global(.__wab_instance) {
@@ -415,7 +415,7 @@
 .chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
 }
-.box__gkwVx {
+.freeBox__gkwVx {
   text-transform: lowercase;
 }
 .svg__yq3F9 {

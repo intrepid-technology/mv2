@@ -88,44 +88,44 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
       >
         {(hasVariant(variants, "label", "label") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box___5LVp, {
-              [sty.box__label___5LVpq0Opk]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox___5LVp, {
+              [sty.freeBox__label___5LVpq0Opk]: hasVariant(
                 variants,
                 "label",
                 "label"
               ),
 
-              [sty.box__size__180X32___5LVptzr60]: hasVariant(
+              [sty.freeBox__size__180X32___5LVptzr60]: hasVariant(
                 variants,
                 "size",
                 "_180X32"
               ),
 
-              [sty.box__size__180X36___5LVpsIiyw]: hasVariant(
+              [sty.freeBox__size__180X36___5LVpsIiyw]: hasVariant(
                 variants,
                 "size",
                 "_180X36"
               ),
 
-              [sty.box__size__360X36___5LVpf9Iun]: hasVariant(
+              [sty.freeBox__size__360X36___5LVpf9Iun]: hasVariant(
                 variants,
                 "size",
                 "_360X36"
               ),
 
-              [sty.box__size__360X40___5LVpFjGN]: hasVariant(
+              [sty.freeBox__size__360X40___5LVpFjGN]: hasVariant(
                 variants,
                 "size",
                 "_360X40"
               ),
 
-              [sty.box__size__540X36___5LVpdTbb5]: hasVariant(
+              [sty.freeBox__size__540X36___5LVpdTbb5]: hasVariant(
                 variants,
                 "size",
                 "_540X36"
               ),
 
-              [sty.box__size__540X40___5LVp8Ui2H]: hasVariant(
+              [sty.freeBox__size__540X40___5LVp8Ui2H]: hasVariant(
                 variants,
                 "size",
                 "_540X40"
@@ -262,7 +262,7 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
           })}
         >
           {true ? (
-            <div className={classNames(defaultcss.all, sty.box___3XOp)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___3XOp)}>
               {true
                 ? p.renderPlasmicSlot({
                     defaultContents: (
@@ -403,14 +403,14 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__ub9Ml, {
-              [sty.box__description__ub9MLsra3J]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__ub9Ml, {
+              [sty.freeBox__description__ub9MLsra3J]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.box__size__360X40__ub9MlFjGN]: hasVariant(
+              [sty.freeBox__size__360X40__ub9MlFjGN]: hasVariant(
                 variants,
                 "size",
                 "_360X40"

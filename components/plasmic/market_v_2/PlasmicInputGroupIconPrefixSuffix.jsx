@@ -53,15 +53,15 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
       >
         {(hasVariant(variants, "label", "label") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__oQwDj, {
-              [sty.box__label__oQwDjhEbzp]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__oQwDj, {
+              [sty.freeBox__label__oQwDjhEbzp]: hasVariant(
                 variants,
                 "label",
                 "label"
               )
             })}
           >
-            <div className={classNames(defaultcss.all, sty.box__udHm3)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__udHm3)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Label",
                 value: args.children,
@@ -98,14 +98,14 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__e7Fb, {
-              [sty.box__description__e7FbRxNrc]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__e7Fb, {
+              [sty.freeBox__description__e7FbRxNrc]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.box__label__e7FbHEbzp]: hasVariant(
+              [sty.freeBox__label__e7FbHEbzp]: hasVariant(
                 variants,
                 "label",
                 "label"
@@ -113,8 +113,8 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
             })}
           >
             <div
-              className={classNames(defaultcss.all, sty.box__jGArw, {
-                [sty.box__description__jGArwrxNrc]: hasVariant(
+              className={classNames(defaultcss.all, sty.freeBox__jGArw, {
+                [sty.freeBox__description__jGArwrxNrc]: hasVariant(
                   variants,
                   "description",
                   "description"

@@ -73,7 +73,7 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__zKqRe
+              sty.freeBox__zKqRe
             )}
           >
             {"+"}
@@ -84,7 +84,7 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             data-plasmic-override={overrides.numberParent}
             className={classNames(defaultcss.all, sty.numberParent)}
           >
-            <div className={classNames(defaultcss.all, sty.box__hq5ZR)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__hq5ZR)}>
               {p.renderPlasmicSlot({
                 defaultContents: "#####",
                 value: args.number,

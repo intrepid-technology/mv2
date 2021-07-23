@@ -27,7 +27,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
-.box__fhleb {
+.freeBox__fhleb {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -43,7 +43,7 @@
   height: 100%;
   min-height: 0;
 }
-.box__hnqVs {
+.freeBox__hnqVs {
   position: relative;
   left: auto;
   top: auto;
@@ -51,7 +51,7 @@
   height: auto;
   display: inline-block;
 }
-.box__l4VOp {
+.freeBox__l4VOp {
   display: inline-block;
   font-size: 16px;
   font-family: "Inter", sans-serif;

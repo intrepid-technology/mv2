@@ -15,9 +15,9 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import PricingTableElementPercentValueCardBold from "../../PricingTableElementPercentValueCardBold"; // plasmic-import: 9E_CoFdNxe/component
-import PricingTableElementPercentValueCard from "../../PricingTableElementPercentValueCard"; // plasmic-import: _pXR7Qf3J2/component
-import PricingTableElementNumberValue from "../../PricingTableElementNumberValue"; // plasmic-import: xX5RC18j8u/component
+import TablePricingElementPercentValueBold from "../../TablePricingElementPercentValueBold"; // plasmic-import: 9E_CoFdNxe/component
+import TablePricingElementPercentValue from "../../TablePricingElementPercentValue"; // plasmic-import: _pXR7Qf3J2/component
+import TablePricingElementNumberValue from "../../TablePricingElementNumberValue"; // plasmic-import: xX5RC18j8u/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -61,8 +61,8 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__fYLa5)}>
-        <div className={classNames(defaultcss.all, sty.box__puBl3)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__fYLa5)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__puBl3)}>
           {p.renderPlasmicSlot({
             defaultContents: "Service",
             value: args.slot6,
@@ -71,14 +71,12 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         </div>
       </div>
 
-      <PricingTableElementPercentValueCardBold
-        data-plasmic-name={"pricingTableElementPercentValueCardBold"}
-        data-plasmic-override={
-          overrides.pricingTableElementPercentValueCardBold
-        }
+      <TablePricingElementPercentValueBold
+        data-plasmic-name={"tablePricingElementPercentValueBold"}
+        data-plasmic-override={overrides.tablePricingElementPercentValueBold}
         className={classNames(
           "__wab_instance",
-          sty.pricingTableElementPercentValueCardBold
+          sty.tablePricingElementPercentValueBold
         )}
         numberValue={p.renderPlasmicSlot({
           defaultContents: "0",
@@ -104,12 +102,12 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         })}
       />
 
-      <PricingTableElementPercentValueCard
-        data-plasmic-name={"pricingTableElementPercentValueCard"}
-        data-plasmic-override={overrides.pricingTableElementPercentValueCard}
+      <TablePricingElementPercentValue
+        data-plasmic-name={"tablePricingElementPercentValue"}
+        data-plasmic-override={overrides.tablePricingElementPercentValue}
         className={classNames(
           "__wab_instance",
-          sty.pricingTableElementPercentValueCard
+          sty.tablePricingElementPercentValue
         )}
         featureValuePropText={p.renderPlasmicSlot({
           defaultContents: "Service rate on earned income",
@@ -136,10 +134,10 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         })}
       />
 
-      <PricingTableElementNumberValue
+      <TablePricingElementNumberValue
         className={classNames(
           "__wab_instance",
-          sty.pricingTableElementNumberValue__jdTps
+          sty.tablePricingElementNumberValue__jdTps
         )}
         featureValueText={p.renderPlasmicSlot({
           defaultContents: "Standard rate per listing",
@@ -165,10 +163,10 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         })}
       />
 
-      <PricingTableElementNumberValue
+      <TablePricingElementNumberValue
         className={classNames(
           "__wab_instance",
-          sty.pricingTableElementNumberValue__mKizU
+          sty.tablePricingElementNumberValue__mKizU
         )}
         featureValueText={p.renderPlasmicSlot({
           defaultContents: "Priority upgrade per listing",
@@ -200,15 +198,12 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "pricingTableElementPercentValueCardBold",
-    "pricingTableElementPercentValueCard"
+    "tablePricingElementPercentValueBold",
+    "tablePricingElementPercentValue"
   ],
 
-  pricingTableElementPercentValueCardBold: [
-    "pricingTableElementPercentValueCardBold"
-  ],
-
-  pricingTableElementPercentValueCard: ["pricingTableElementPercentValueCard"]
+  tablePricingElementPercentValueBold: ["tablePricingElementPercentValueBold"],
+  tablePricingElementPercentValue: ["tablePricingElementPercentValue"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -243,12 +238,12 @@ export const PlasmicPricingPageElementServiceBlock = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    pricingTableElementPercentValueCardBold: makeNodeComponent(
-      "pricingTableElementPercentValueCardBold"
+    tablePricingElementPercentValueBold: makeNodeComponent(
+      "tablePricingElementPercentValueBold"
     ),
 
-    pricingTableElementPercentValueCard: makeNodeComponent(
-      "pricingTableElementPercentValueCard"
+    tablePricingElementPercentValue: makeNodeComponent(
+      "tablePricingElementPercentValue"
     ),
 
     // Metadata about props expected for PlasmicPricingPageElementServiceBlock

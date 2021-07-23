@@ -108,7 +108,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__a2Y3
+                    sty.freeBox__a2Y3
                   )}
                 >
                   {"firstName"}
@@ -124,7 +124,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__mD7Z
+                    sty.freeBox__mD7Z
                   )}
                 >
                   {"lastName"}
@@ -149,7 +149,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__men51
+                      sty.freeBox__men51
                     )}
                   >
                     {"@"}
@@ -168,7 +168,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___9Y1Y0
+                      sty.freeBox___9Y1Y0
                     )}
                   >
                     {"displayname"}
@@ -361,9 +361,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___2RhX,
+                    sty.freeBox___2RhX,
                     {
-                      [sty.box__userState_loggedIn___2RhXmCOui]: hasVariant(
+                      [sty.freeBox__userState_loggedIn___2RhXmCOui]: hasVariant(
                         variants,
                         "userState",
                         "loggedIn"

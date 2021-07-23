@@ -51,9 +51,9 @@ function PlasmicCardTestimonial__RenderFunc(props) {
         value: args.slot3
       })}
 
-      <div className={classNames(defaultcss.all, sty.box___0GW0V)}>
-        <div className={classNames(defaultcss.all, sty.box___7QjsC)}>
-          <div className={classNames(defaultcss.all, sty.box__e3NvI)}>
+      <div className={classNames(defaultcss.all, sty.freeBox___0GW0V)}>
+        <div className={classNames(defaultcss.all, sty.freeBox___7QjsC)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__e3NvI)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Our company had an excellent experience with Intrepid. As a startup, we had a limited budget, and we were on a tight deadline. We needed a mobile app for our fintech application, that has complicated features. But it ended up being super easy to find a purchase a package. In the end, the process was smooth and straightforward.”",
@@ -63,8 +63,8 @@ function PlasmicCardTestimonial__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__n6Om6)}>
-          <div className={classNames(defaultcss.all, sty.box__tIx4I)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__n6Om6)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__tIx4I)}>
             {p.renderPlasmicSlot({
               defaultContents: "Collin Thompson",
               value: args.slot,
@@ -73,8 +73,8 @@ function PlasmicCardTestimonial__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__ynnS1)}>
-          <div className={classNames(defaultcss.all, sty.box__usx1B)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__ynnS1)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__usx1B)}>
             {p.renderPlasmicSlot({
               defaultContents: "CEO @ Intrepid",
               value: args.slot2,

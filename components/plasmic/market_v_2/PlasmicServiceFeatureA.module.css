@@ -6,11 +6,11 @@
   width: 720px;
   height: auto;
   position: relative;
-  padding: 10px;
   background: rgba(68, 192, 255, 0.2);
+  padding: 10px;
   border-bottom: 1px solid #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
-.box__nLqTi {
+.freeBox__nLqTi {
   display: inline-block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -24,7 +24,7 @@
   width: auto;
   height: auto;
 }
-.box__lXhRt {
+.freeBox__lXhRt {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -34,8 +34,8 @@
   height: auto;
   left: auto;
   top: auto;
-  padding: 2px;
   background: rgba(68, 192, 255, 0.2);
+  padding: 2px;
 }
 .svg {
   position: relative;

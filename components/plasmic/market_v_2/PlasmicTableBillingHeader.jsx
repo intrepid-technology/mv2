@@ -36,72 +36,72 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__gnd0J)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__gnd0J)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__gk8Gb
+            sty.freeBox__gk8Gb
           )}
         >
           {"brand"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__sEjv1)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__sEjv1)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__zbufu
+            sty.freeBox__zbufu
           )}
         >
           {"Type"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__wxZf1)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__wxZf1)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__zPpCx
+            sty.freeBox__zPpCx
           )}
         >
           {"Last 4"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__vKDlV)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__vKDlV)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__i9Arh
+            sty.freeBox__i9Arh
           )}
         >
           {"Exp. Date"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__oe4Ir)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__oe4Ir)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__lpzJk
+            sty.freeBox__lpzJk
           )}
         >
           {"Default"}
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__kErUv)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__kErUv)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__eKjA
+            sty.freeBox__eKjA
           )}
         >
           {"Action"}

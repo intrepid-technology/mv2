@@ -22,7 +22,7 @@ import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // plasmic-import: XT0p4nILA-/component
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
-import PricingTable from "../../PricingTable"; // plasmic-import: TN5u_5IVRmW/component
+import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
@@ -96,13 +96,13 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__xw3D5)}
+            className={classNames(defaultcss.all, sty.freeBox__xw3D5)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___8NTuR
+                sty.freeBox___8NTuR
               )}
             >
               {"Grow from solopreneur to global creative force."}
@@ -112,7 +112,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__puJal
+                sty.freeBox__puJal
               )}
             >
               {
@@ -132,7 +132,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__bCnFr
+                  sty.freeBox__bCnFr
                 )}
               >
                 {"Start selling"}
@@ -143,7 +143,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__mNj8P)}
+            className={classNames(defaultcss.all, sty.freeBox__mNj8P)}
           >
             <p.Stack
               as={"div"}
@@ -155,19 +155,21 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__qXrCf)}
+                className={classNames(defaultcss.all, sty.freeBox__qXrCf)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg__hvInH)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box___24Ig5)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___24Ig5)}
+                >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__e3Ga9
+                      sty.freeBox__e3Ga9
                     )}
                   >
                     {"Free to start"}
@@ -184,7 +186,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box___6REb0
+                  sty.freeBox___6REb0
                 )}
               >
                 {"We grow and get better only when our partners make money."}
@@ -194,23 +196,23 @@ function PlasmicPartnerpricing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__prYez)}
+              className={classNames(defaultcss.all, sty.freeBox__prYez)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__rcvlP)}
+                className={classNames(defaultcss.all, sty.freeBox__rcvlP)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__lIpfr)}
+                  className={classNames(defaultcss.all, sty.freeBox__lIpfr)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__cbj2J
+                      sty.freeBox__cbj2J
                     )}
                   >
                     {"Maker"}
@@ -220,7 +222,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__azDnF
+                      sty.freeBox__azDnF
                     )}
                   >
                     {"Partner"}
@@ -231,7 +233,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wFuH
+                    sty.freeBox__wFuH
                   )}
                 >
                   {
@@ -261,7 +263,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vwxfs
+                      sty.freeBox__vwxfs
                     )}
                   >
                     {"features"}
@@ -274,7 +276,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__wlPz)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__wlPz)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__hgDJg)}
                         role={"img"}
@@ -285,7 +289,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__gnwu
+                        sty.freeBox__gnwu
                       )}
                     >
                       {"Get started for free"}
@@ -299,7 +303,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature3)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__an01O)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__an01O)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__k5Yt)}
                         role={"img"}
@@ -310,7 +316,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___2Xzml
+                        sty.freeBox___2Xzml
                       )}
                     >
                       {"No annual fee"}
@@ -327,7 +333,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       sty.textIconFeature22
                     )}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__qXBn)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__qXBn)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg___5Jdjh)}
                         role={"img"}
@@ -338,7 +346,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__elFdi
+                        sty.freeBox__elFdi
                       )}
                     >
                       {"Hosted Partner profile"}
@@ -352,7 +360,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(defaultcss.all, sty.textIconFeature4)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__ewRxj)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__ewRxj)}
+                    >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__igdmc)}
                         role={"img"}
@@ -363,7 +373,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___78O4P
+                        sty.freeBox___78O4P
                       )}
                     >
                       {"Join events & webinars"}
@@ -378,7 +388,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(defaultcss.all, sty.textIconFeature5)}
                   >
                     <div
-                      className={classNames(defaultcss.all, sty.box___5ZbyH)}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.freeBox___5ZbyH
+                      )}
                     >
                       <Icon129Icon
                         className={classNames(defaultcss.all, sty.svg__hijmx)}
@@ -390,7 +403,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___3JRw8
+                        sty.freeBox___3JRw8
                       )}
                     >
                       {"Access community and messaging"}
@@ -411,7 +424,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__zGDs
+                          sty.freeBox__zGDs
                         )}
                       >
                         {"1"}
@@ -428,7 +441,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___0SwN
+                          sty.freeBox___0SwN
                         )}
                       >
                         {"Team"}
@@ -439,7 +452,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__h2Lcy
+                        sty.freeBox__h2Lcy
                       )}
                     >
                       {"User included"}
@@ -460,7 +473,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__br3D7
+                          sty.freeBox__br3D7
                         )}
                       >
                         {"Priority upgrade per listing"}
@@ -471,7 +484,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__wkLr
+                          sty.freeBox__wkLr
                         )}
                       >
                         {"8"}
@@ -482,7 +495,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box___0BkM2
+                          sty.freeBox___0BkM2
                         )}
                       >
                         {"Standard rate per listing"}
@@ -493,7 +506,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__kkFlc
+                          sty.freeBox__kkFlc
                         )}
                       >
                         {"Payment processing fees"}
@@ -528,7 +541,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__kchUz
+                          sty.freeBox__kchUz
                         )}
                       >
                         {"5"}
@@ -539,7 +552,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__fnvBx
+                          sty.freeBox__fnvBx
                         )}
                       >
                         {"3"}
@@ -550,7 +563,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__xi5G5
+                          sty.freeBox__xi5G5
                         )}
                       >
                         {"Service rate on earned income"}
@@ -561,7 +574,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__jiukn
+                          sty.freeBox__jiukn
                         )}
                       >
                         {"$"}
@@ -572,7 +585,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__igePv
+                          sty.freeBox__igePv
                         )}
                       >
                         {"Service"}
@@ -583,7 +596,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__ePb1H
+                          sty.freeBox__ePb1H
                         )}
                       >
                         {"$"}
@@ -594,7 +607,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__pMdXl
+                          sty.freeBox__pMdXl
                         )}
                       >
                         {"%"}
@@ -605,7 +618,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__ezKan
+                          sty.freeBox__ezKan
                         )}
                       >
                         {"%"}
@@ -616,7 +629,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___6CITc
+                        sty.freeBox___6CITc
                       )}
                     >
                       {"0"}
@@ -627,12 +640,12 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__ytqvk)}
+                  className={classNames(defaultcss.all, sty.freeBox__ytqvk)}
                 >
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.box__cDx72)}
+                    className={classNames(defaultcss.all, sty.freeBox__cDx72)}
                   >
                     <div
                       data-plasmic-name={"dollarPrice"}
@@ -643,7 +656,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__dBblD
+                          sty.freeBox__dBblD
                         )}
                       >
                         {"$"}
@@ -653,7 +666,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.box__gD8J
+                          sty.freeBox__gD8J
                         )}
                       >
                         {"0"}
@@ -664,7 +677,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__lr5Y
+                        sty.freeBox__lr5Y
                       )}
                     >
                       {"/Year"}
@@ -683,7 +696,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__keGh
+                        sty.freeBox__keGh
                       )}
                     >
                       {"Start selling"}
@@ -694,7 +707,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3GDyF
+                      sty.freeBox___3GDyF
                     )}
                   >
                     {"No creditcard required"}
@@ -707,7 +720,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__ndgje)}
+            className={classNames(defaultcss.all, sty.freeBox__ndgje)}
           >
             <p.Stack
               as={"div"}
@@ -719,19 +732,19 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__wz9Wv)}
+                className={classNames(defaultcss.all, sty.freeBox__wz9Wv)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg__isDr)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box__kLpgA)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__kLpgA)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__y1Qv5
+                      sty.freeBox__y1Qv5
                     )}
                   >
                     {"Premium Plans"}
@@ -748,7 +761,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__xSr4P
+                  sty.freeBox__xSr4P
                 )}
               >
                 {"Designed for every stage of your business growth."}
@@ -759,7 +772,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___58Cuj
+                sty.freeBox___58Cuj
               )}
             >
               {
@@ -779,7 +792,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
             )}
           >
             {true ? (
-              <PricingTable
+              <TablePricing
                 data-plasmic-name={"partnerProPricingTable"}
                 data-plasmic-override={overrides.partnerProPricingTable}
                 className={classNames(
@@ -791,7 +804,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__hb4Af
+                      sty.freeBox__hb4Af
                     )}
                   >
                     {
@@ -805,7 +818,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__aeqQq
+                      sty.freeBox__aeqQq
                     )}
                   >
                     {"Everything in Maker - plus"}
@@ -816,7 +829,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__vzHXs
+                      sty.freeBox__vzHXs
                     )}
                   >
                     {"Verified profile"}
@@ -830,7 +843,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3OnAg
+                      sty.freeBox___3OnAg
                     )}
                   >
                     {"Start selling"}
@@ -841,7 +854,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__pj7Ye
+                      sty.freeBox__pj7Ye
                     )}
                   >
                     {
@@ -855,10 +868,10 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 slot7={"2"}
               >
                 {"Pro"}
-              </PricingTable>
+              </TablePricing>
             ) : null}
 
-            <PricingTable
+            <TablePricing
               data-plasmic-name={"partnerStartupPricingTable"}
               data-plasmic-override={overrides.partnerStartupPricingTable}
               className={classNames(
@@ -870,7 +883,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__soZsm
+                    sty.freeBox__soZsm
                   )}
                 >
                   {
@@ -884,7 +897,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__jmO9N
+                    sty.freeBox__jmO9N
                   )}
                 >
                   {"Everything in Pro - plus"}
@@ -895,7 +908,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___1Jop3
+                    sty.freeBox___1Jop3
                   )}
                 >
                   {"Advanced partner profile"}
@@ -909,7 +922,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__jBfaa
+                    sty.freeBox__jBfaa
                   )}
                 >
                   {"75"}
@@ -920,7 +933,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___6KZ0
+                    sty.freeBox___6KZ0
                   )}
                 >
                   {"Start selling"}
@@ -931,7 +944,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__oaVu
+                    sty.freeBox__oaVu
                   )}
                 >
                   {
@@ -942,9 +955,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               slot6={"2"}
             >
               {"Studio"}
-            </PricingTable>
+            </TablePricing>
 
-            <PricingTable
+            <TablePricing
               data-plasmic-name={"partnerAgencyPricingtable"}
               data-plasmic-override={overrides.partnerAgencyPricingtable}
               className={classNames(
@@ -956,7 +969,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__eSuWu
+                    sty.freeBox__eSuWu
                   )}
                 >
                   {
@@ -969,7 +982,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__dBtJw
+                    sty.freeBox__dBtJw
                   )}
                 >
                   {"Free listings"}
@@ -980,7 +993,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__xNvSn
+                    sty.freeBox__xNvSn
                   )}
                 >
                   {"$"}
@@ -993,7 +1006,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__qwBj
+                    sty.freeBox__qwBj
                   )}
                 >
                   {"Everything in Studio - plus"}
@@ -1004,7 +1017,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__uaTPf
+                    sty.freeBox__uaTPf
                   )}
                 >
                   {"Featured partner profile"}
@@ -1018,7 +1031,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__bdYey
+                    sty.freeBox__bdYey
                   )}
                 >
                   {"100"}
@@ -1029,7 +1042,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__iDzgz
+                    sty.freeBox__iDzgz
                   )}
                 >
                   {"Start selling"}
@@ -1040,7 +1053,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__nyPzf
+                    sty.freeBox__nyPzf
                   )}
                 >
                   {
@@ -1054,7 +1067,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__fJzLf
+                    sty.freeBox__fJzLf
                   )}
                 >
                   {"0"}
@@ -1065,7 +1078,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wkgWa
+                    sty.freeBox__wkgWa
                   )}
                 >
                   {"0"}
@@ -1076,7 +1089,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__hmuIu
+                    sty.freeBox__hmuIu
                   )}
                 >
                   {"1"}
@@ -1087,7 +1100,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___9X4By
+                    sty.freeBox___9X4By
                   )}
                 >
                   {"$"}
@@ -1098,7 +1111,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___471ZH
+                    sty.freeBox___471ZH
                   )}
                 >
                   {"Free priority placement by default"}
@@ -1106,13 +1119,13 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               }
             >
               {"Agency"}
-            </PricingTable>
+            </TablePricing>
           </p.Stack>
 
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__jppWz)}
+            className={classNames(defaultcss.all, sty.freeBox__jppWz)}
           >
             <p.Stack
               as={"div"}
@@ -1124,19 +1137,19 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__bRr8N)}
+                className={classNames(defaultcss.all, sty.freeBox__bRr8N)}
               >
                 <LineIcon
                   className={classNames(defaultcss.all, sty.svg__j23Tq)}
                   role={"img"}
                 />
 
-                <div className={classNames(defaultcss.all, sty.box__eGh7N)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__eGh7N)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__gzqj2
+                      sty.freeBox__gzqj2
                     )}
                   >
                     {"Benefits"}
@@ -1153,7 +1166,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__xyCfg
+                  sty.freeBox__xyCfg
                 )}
               >
                 {"All memberships include"}
@@ -1164,7 +1177,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__nM5Y)}
+            className={classNames(defaultcss.all, sty.freeBox__nM5Y)}
           >
             <CardFeatureDescription
               className={classNames(
@@ -1173,7 +1186,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Automated scoping & service design"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box__z1I9A)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__z1I9A)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
                       hasVariant(globalVariants, "screen", "mobile")
@@ -1197,7 +1210,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Sell direct to a global audience"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box__suBeb)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__suBeb)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
                       hasVariant(globalVariants, "screen", "mobile")
@@ -1221,7 +1234,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Fast International P2P payments"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box__q5Chp)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__q5Chp)}>
                   <P2PPayPaymentIcon
                     className={classNames(defaultcss.all, sty.svg__iyhPz)}
                     role={"img"}
@@ -1240,7 +1253,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Verified profiles, ratings & reviews"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box__aCib)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__aCib)}>
                   <VerifiedIcon
                     className={classNames(defaultcss.all, sty.svg__sVbpm)}
                     role={"img"}
@@ -1259,7 +1272,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Analytics & performance tracking"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box___4Ad4N)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___4Ad4N)}
+                >
                   <ChartIcon
                     className={classNames(defaultcss.all, sty.svg__oD4R)}
                     role={"img"}
@@ -1278,7 +1293,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               )}
               headline={"Community & collaboration"}
               iconParent={
-                <div className={classNames(defaultcss.all, sty.box__kVtD)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__kVtD)}>
                   <TeamPartnersIcon
                     className={classNames(defaultcss.all, sty.svg__yyYG)}
                     role={"img"}
@@ -1294,12 +1309,12 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__mZzs5)}
+            className={classNames(defaultcss.all, sty.freeBox__mZzs5)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__a1PDa)}
+              className={classNames(defaultcss.all, sty.freeBox__a1PDa)}
             >
               <p.Stack
                 as={"div"}
@@ -1311,19 +1326,21 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__moLw)}
+                  className={classNames(defaultcss.all, sty.freeBox__moLw)}
                 >
                   <LineIcon
                     className={classNames(defaultcss.all, sty.svg__meKzD)}
                     role={"img"}
                   />
 
-                  <div className={classNames(defaultcss.all, sty.box__yo8P)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__yo8P)}
+                  >
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__goBcd
+                        sty.freeBox__goBcd
                       )}
                     >
                       {"Community"}
@@ -1340,7 +1357,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__g9LgJ
+                    sty.freeBox__g9LgJ
                   )}
                 >
                   {
@@ -1359,7 +1376,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__evsG
+                  sty.freeBox__evsG
                 )}
               >
                 {"Start selling"}

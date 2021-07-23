@@ -42,8 +42,8 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__vht8C)}>
-        <div className={classNames(defaultcss.all, sty.box__rq7Vs)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__vht8C)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__rq7Vs)}>
           {p.renderPlasmicSlot({
             defaultContents: "Team",
             value: args.slot3,
@@ -66,7 +66,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.elementTeamMembersListItem)}
         >
-          <div className={classNames(defaultcss.all, sty.box__cOymw)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__cOymw)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <TeamPartnersIcon
@@ -86,7 +86,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
             hasGap={true}
             className={classNames(defaultcss.all, sty.valuePercentParent23242)}
           >
-            <div className={classNames(defaultcss.all, sty.box__rtYyL)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__rtYyL)}>
               {p.renderPlasmicSlot({
                 defaultContents: "3",
                 value: args.slot,
@@ -95,7 +95,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
             </div>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.box___2Ntr)}>
+          <div className={classNames(defaultcss.all, sty.freeBox___2Ntr)}>
             {p.renderPlasmicSlot({
               defaultContents: "Team members included",
               value: args.children,

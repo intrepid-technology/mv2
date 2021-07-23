@@ -41,7 +41,7 @@ function PlasmicElementCheckoutSubHeadlineTotal__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___8Spx)}
+        className={classNames(defaultcss.all, sty.freeBox___8Spx)}
       >
         <div
           data-plasmic-name={"headlineParent"}
@@ -75,7 +75,7 @@ function PlasmicElementCheckoutSubHeadlineTotal__RenderFunc(props) {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__h0Uqh)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__h0Uqh)}>
           <div
             data-plasmic-name={"totalValueParent"}
             data-plasmic-override={overrides.totalValueParent}

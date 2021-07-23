@@ -302,7 +302,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
               )
             })}
           >
-            <div className={classNames(defaultcss.all, sty.box___1Hh0)}>
+            <div className={classNames(defaultcss.all, sty.freeBox___1Hh0)}>
               <div
                 data-plasmic-name={"accountName"}
                 data-plasmic-override={overrides.accountName}
@@ -312,39 +312,31 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___5QGGx,
+                    sty.freeBox___5QGGx,
                     {
-                      [sty.box__companies_facebook___5QGGx2DCs6]: hasVariant(
-                        variants,
-                        "companies",
-                        "facebook"
-                      ),
-
-                      [sty.box__companies_google___5QGGxz16Ry]: hasVariant(
+                      [sty.freeBox__companies_facebook___5QGGx2DCs6]:
+                        hasVariant(variants, "companies", "facebook"),
+                      [sty.freeBox__companies_google___5QGGxz16Ry]: hasVariant(
                         variants,
                         "companies",
                         "google"
                       ),
 
-                      [sty.box__companies_paypal___5QGGx8RDJh]: hasVariant(
+                      [sty.freeBox__companies_paypal___5QGGx8RDJh]: hasVariant(
                         variants,
                         "companies",
                         "paypal"
                       ),
 
-                      [sty.box__companies_quickbooks___5QGGx60NOj]: hasVariant(
-                        variants,
-                        "companies",
-                        "quickbooks"
-                      ),
-
-                      [sty.box__companies_stripe___5QGGxpK9]: hasVariant(
+                      [sty.freeBox__companies_quickbooks___5QGGx60NOj]:
+                        hasVariant(variants, "companies", "quickbooks"),
+                      [sty.freeBox__companies_stripe___5QGGxpK9]: hasVariant(
                         variants,
                         "companies",
                         "stripe"
                       ),
 
-                      [sty.box__companies_xero___5QGGx8XgX]: hasVariant(
+                      [sty.freeBox__companies_xero___5QGGx8XgX]: hasVariant(
                         variants,
                         "companies",
                         "xero"
@@ -431,7 +423,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__tZkwH
+                sty.freeBox__tZkwH
               )}
             >
               {"Connected"}

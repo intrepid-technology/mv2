@@ -59,9 +59,9 @@
   left: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   padding: 6px;
-  background: #f8f8f8;
 }
 .searchSvgbg__type_secondary {
   background: #ffffff;
@@ -106,10 +106,10 @@
   min-height: 0;
 }
 .textboxParent__type_primary {
-  background: #f8f8f8 repeat;
+  background: #f8f8f8;
 }
 .textboxParent__type_secondary {
-  background: #ffffff repeat;
+  background: #ffffff;
 }
 .root:focus-within .textboxParent {
   outline: none;
@@ -120,9 +120,9 @@
   padding-left: 8px;
   font-size: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  background: #f8f8f8;
   min-width: 0;
   min-height: 0;
-  background: #f8f8f8 repeat;
   border: 2px solid rgba(255, 255, 255, 0.2) /* plasmic-token: FuVdnB9x_ */;
 }
 .textbox__type_secondary {

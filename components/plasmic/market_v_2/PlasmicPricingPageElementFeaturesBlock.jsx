@@ -15,7 +15,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import PrcingTableElementFeatureValuePropCard from "../../PrcingTableElementFeatureValuePropCard"; // plasmic-import: oaIycARoQY/component
+import TablePricingElementFeatureValueProp from "../../TablePricingElementFeatureValueProp"; // plasmic-import: oaIycARoQY/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -44,9 +44,13 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box)}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(
+          defaultcss.all,
+          defaultcss.__wab_text,
+          sty.freeBox
+        )}
       >
         {"Features"}
       </div>
@@ -58,10 +62,10 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.elementFeatureValueListItems)}
       >
-        <PrcingTableElementFeatureValuePropCard
+        <TablePricingElementFeatureValueProp
           className={classNames(
             "__wab_instance",
-            sty.prcingTableElementFeatureValuePropCard__vkCh6
+            sty.tablePricingElementFeatureValueProp__vkCh6
           )}
           featureValueText={p.renderPlasmicSlot({
             defaultContents: (
@@ -69,7 +73,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__mUsKx
+                  sty.freeBox__mUsKx
                 )}
               >
                 {"feature value proposition"}
@@ -80,10 +84,10 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
           })}
         />
 
-        <PrcingTableElementFeatureValuePropCard
+        <TablePricingElementFeatureValueProp
           className={classNames(
             "__wab_instance",
-            sty.prcingTableElementFeatureValuePropCard___5F1V7
+            sty.tablePricingElementFeatureValueProp___5F1V7
           )}
           featureValueText={p.renderPlasmicSlot({
             defaultContents: (
@@ -91,7 +95,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__fnf3Q
+                  sty.freeBox__fnf3Q
                 )}
               >
                 {"feature value proposition"}
@@ -102,10 +106,10 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
           })}
         />
 
-        <PrcingTableElementFeatureValuePropCard
+        <TablePricingElementFeatureValueProp
           className={classNames(
             "__wab_instance",
-            sty.prcingTableElementFeatureValuePropCard__fkWe
+            sty.tablePricingElementFeatureValueProp__fkWe
           )}
           featureValueText={p.renderPlasmicSlot({
             defaultContents: "feature value proposition",
@@ -113,10 +117,10 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
           })}
         />
 
-        <PrcingTableElementFeatureValuePropCard
+        <TablePricingElementFeatureValueProp
           className={classNames(
             "__wab_instance",
-            sty.prcingTableElementFeatureValuePropCard__ej9Xl
+            sty.tablePricingElementFeatureValueProp__ej9Xl
           )}
           featureValueText={p.renderPlasmicSlot({
             defaultContents: "feature value proposition",
@@ -124,10 +128,10 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
           })}
         />
 
-        <PrcingTableElementFeatureValuePropCard
+        <TablePricingElementFeatureValueProp
           className={classNames(
             "__wab_instance",
-            sty.prcingTableElementFeatureValuePropCard__lu2Am
+            sty.tablePricingElementFeatureValueProp__lu2Am
           )}
           featureValueText={p.renderPlasmicSlot({
             defaultContents: "feature value proposition",
@@ -140,8 +144,8 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box", "elementFeatureValueListItems"],
-  box: ["box"],
+  root: ["root", "freeBox", "elementFeatureValueListItems"],
+  freeBox: ["freeBox"],
   elementFeatureValueListItems: ["elementFeatureValueListItems"]
 };
 
@@ -177,7 +181,7 @@ export const PlasmicPricingPageElementFeaturesBlock = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     elementFeatureValueListItems: makeNodeComponent(
       "elementFeatureValueListItems"
     ),

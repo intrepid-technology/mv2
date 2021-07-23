@@ -110,13 +110,13 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__d20Mo)}
+              className={classNames(defaultcss.all, sty.freeBox__d20Mo)}
             >
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__hnkjh
+                  sty.freeBox__hnkjh
                 )}
               >
                 {"Placement"}
@@ -126,24 +126,24 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__ulvEc)}
+              className={classNames(defaultcss.all, sty.freeBox__ulvEc)}
             >
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__mRg2O
+                  sty.freeBox__mRg2O
                 )}
               >
                 {"$"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.box__w6Xdr)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__w6Xdr)}>
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__n2Tbz
+                    sty.freeBox__n2Tbz
                   )}
                 >
                   {"0.00"}
@@ -152,19 +152,19 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             </p.Stack>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__mj7GH)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__mj7GH)}>
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__fbCfP)}
+              className={classNames(defaultcss.all, sty.freeBox__fbCfP)}
             >
-              <div className={classNames(defaultcss.all, sty.box__zplQa)}>
-                <div className={classNames(defaultcss.all, sty.box__nCvGr)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__zplQa)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__nCvGr)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nNdhn
+                      sty.freeBox__nNdhn
                     )}
                   >
                     {"1"}
@@ -176,18 +176,18 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__c2ZN7
+                  sty.freeBox__c2ZN7
                 )}
               >
                 {"Priority"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.box__xzFrb)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__xzFrb)}>
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__rdiZ6
+                    sty.freeBox__rdiZ6
                   )}
                 >
                   {"x"}
@@ -197,14 +197,14 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__lTtnn)}
+                className={classNames(defaultcss.all, sty.freeBox__lTtnn)}
               >
-                <div className={classNames(defaultcss.all, sty.box__ayWyh)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__ayWyh)}>
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___4Olga
+                      sty.freeBox___4Olga
                     )}
                   >
                     {"Month"}
@@ -216,24 +216,24 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__ioo18)}
+              className={classNames(defaultcss.all, sty.freeBox__ioo18)}
             >
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__rYWv
+                  sty.freeBox__rYWv
                 )}
               >
                 {"$"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.box__fOqvL)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__fOqvL)}>
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__yHrcu
+                    sty.freeBox__yHrcu
                   )}
                 >
                   {"0.00"}
@@ -265,7 +265,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__holu8
+                sty.freeBox__holu8
               )}
             >
               {"Promotion"}
@@ -318,7 +318,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__ycT5E
+              sty.freeBox__ycT5E
             )}
           >
             {"Place Order"}

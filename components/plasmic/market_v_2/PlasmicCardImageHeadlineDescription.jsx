@@ -153,7 +153,7 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__ntFG
+                    sty.freeBox__ntFG
                   )}
                 >
                   {"Text link Headline"}
@@ -195,7 +195,7 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box___7ErTm
+                sty.freeBox___7ErTm
               )}
             >
               {"Subhead description"}

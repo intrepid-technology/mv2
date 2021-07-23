@@ -10,6 +10,7 @@
 // Component: T_qFWEqz1I6
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
+import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -30,7 +31,8 @@ export const PlasmicSelectDropdownPrimary__VariantProps = new Array(
   "width",
   "showPlaceholder",
   "isOpen",
-  "isDisabled"
+  "isDisabled",
+  "color"
 );
 
 export const PlasmicSelectDropdownPrimary__ArgProps = new Array(
@@ -76,6 +78,7 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
           className={classNames(defaultcss.button, sty.trigger, {
             [sty.trigger_____focusVisibleWithin]:
               triggers.focusVisibleWithin_root,
+            [sty.trigger__color_light]: hasVariant(variants, "color", "light"),
             [sty.trigger__isDisabled]: hasVariant(
               variants,
               "isDisabled",
@@ -267,7 +270,7 @@ function useBehavior(props, ref) {
       )
     };
   }
-  return p.useSelect(
+  return pp.useSelect(
     PlasmicSelectDropdownPrimary,
     props,
     {

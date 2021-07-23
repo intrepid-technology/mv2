@@ -47,7 +47,7 @@ function PlasmicButtonGroupStripeVerification__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__bkQn0
+              sty.freeBox__bkQn0
             )}
           >
             {"Get verified with"}
@@ -71,7 +71,7 @@ function PlasmicButtonGroupStripeVerification__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__qLzg6
+              sty.freeBox__qLzg6
             )}
           >
             {"Verify your account and activate more benefits"}

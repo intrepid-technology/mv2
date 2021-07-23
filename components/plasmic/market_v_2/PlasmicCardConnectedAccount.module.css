@@ -178,7 +178,7 @@
 .accountInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.box___1Hh0 {
+.freeBox___1Hh0 {
   position: relative;
   left: auto;
   top: auto;
@@ -191,7 +191,7 @@
   position: relative;
   flex-direction: column;
 }
-.box___5QGGx {
+.freeBox___5QGGx {
   position: relative;
   font-size: 16px;
   font-weight: 500;
@@ -276,7 +276,7 @@
   > * {
   margin-left: 6px;
 }
-.box__tZkwH {
+.freeBox__tZkwH {
   font-size: 12px;
   width: auto;
   height: auto;

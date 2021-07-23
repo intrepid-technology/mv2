@@ -111,7 +111,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box___04ReL
+                    sty.freeBox___04ReL
                   )}
                 >
                   {"Edit profile"}
@@ -150,7 +150,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__hxjHi
+                        sty.freeBox__hxjHi
                       )}
                     >
                       {"Please enter your full name."}
@@ -220,7 +220,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__h4Mp0
+                        sty.freeBox__h4Mp0
                       )}
                     >
                       {
@@ -304,7 +304,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__wxY25
+                        sty.freeBox__wxY25
                       )}
                     >
                       {
@@ -345,7 +345,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__pNwo
+                        sty.freeBox__pNwo
                       )}
                     >
                       {
@@ -386,7 +386,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__xxxU
+                        sty.freeBox__xxxU
                       )}
                     >
                       {"Short description of your company or team"}
@@ -425,7 +425,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__qsVv3
+                        sty.freeBox__qsVv3
                       )}
                     >
                       {"Please describe yourself and your interests. "}
@@ -465,7 +465,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__zWe26
+                        sty.freeBox__zWe26
                       )}
                     >
                       {
@@ -502,7 +502,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__sHnOz
+                    sty.freeBox__sHnOz
                   )}
                 >
                   {"Save profile"}
@@ -533,7 +533,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zGsIr
+                    sty.freeBox__zGsIr
                   )}
                 >
                   {"Details"}
@@ -569,7 +569,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__oQfam
+                        sty.freeBox__oQfam
                       )}
                     >
                       {
@@ -631,7 +631,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__kQo
+                        sty.freeBox__kQo
                       )}
                     >
                       {
@@ -693,7 +693,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__ikYyc
+                        sty.freeBox__ikYyc
                       )}
                     >
                       {"Enter the languages you speak"}
@@ -752,7 +752,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__mAude
+                        sty.freeBox__mAude
                       )}
                     >
                       {
@@ -789,7 +789,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box___4WyB
+                        sty.freeBox___4WyB
                       )}
                     >
                       {
@@ -826,7 +826,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__kfwe
+                        sty.freeBox__kfwe
                       )}
                     >
                       {
@@ -859,7 +859,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__o7ZPl
+                    sty.freeBox__o7ZPl
                   )}
                 >
                   {"Save details"}
@@ -890,7 +890,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__zgvp4
+                    sty.freeBox__zgvp4
                   )}
                 >
                   {"Web and social"}
@@ -926,7 +926,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__zfHw
+                        sty.freeBox__zfHw
                       )}
                     >
                       {"Enter your company's website address"}
@@ -965,7 +965,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__osn8L
+                        sty.freeBox__osn8L
                       )}
                     >
                       {
@@ -978,7 +978,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rUb4
+                      sty.freeBox__rUb4
                     )}
                   >
                     {"Social"}
@@ -1080,7 +1080,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__uRTf
+                    sty.freeBox__uRTf
                   )}
                 >
                   {"Save socials"}

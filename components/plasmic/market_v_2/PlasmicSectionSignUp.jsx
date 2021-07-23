@@ -76,12 +76,12 @@ function PlasmicSectionSignUp__RenderFunc(props) {
             </p.PlasmicLink>
 
             <div
-              data-plasmic-name={"box"}
-              data-plasmic-override={overrides.box}
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box
+                sty.freeBox
               )}
             >
               {"Sign up"}
@@ -106,7 +106,7 @@ const PlasmicDescendants = {
     "signUpHeadlineDiv",
     "svgLinkDiv",
     "svg",
-    "box",
+    "freeBox",
     "cardSignUp"
   ],
 
@@ -115,7 +115,7 @@ const PlasmicDescendants = {
     "signUpHeadlineDiv",
     "svgLinkDiv",
     "svg",
-    "box",
+    "freeBox",
     "cardSignUp"
   ],
 
@@ -123,13 +123,13 @@ const PlasmicDescendants = {
     "signUpHeadlineDiv",
     "svgLinkDiv",
     "svg",
-    "box",
+    "freeBox",
     "cardSignUp"
   ],
 
   svgLinkDiv: ["svgLinkDiv", "svg"],
   svg: ["svg"],
-  box: ["box"],
+  freeBox: ["freeBox"],
   cardSignUp: ["cardSignUp"]
 };
 
@@ -168,7 +168,7 @@ export const PlasmicSectionSignUp = Object.assign(
     signUpHeadlineDiv: makeNodeComponent("signUpHeadlineDiv"),
     svgLinkDiv: makeNodeComponent("svgLinkDiv"),
     svg: makeNodeComponent("svg"),
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     cardSignUp: makeNodeComponent("cardSignUp"),
     // Metadata about props expected for PlasmicSectionSignUp
     internalVariantProps: PlasmicSectionSignUp__VariantProps,

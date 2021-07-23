@@ -23,7 +23,7 @@
   top: auto;
   left: auto;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;

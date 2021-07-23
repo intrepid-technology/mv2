@@ -48,7 +48,7 @@ function PlasmicCityCountry__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__fhleb
+          sty.freeBox__fhleb
         )}
       >
         {"City"}
@@ -58,7 +58,7 @@ function PlasmicCityCountry__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__hnqVs
+          sty.freeBox__hnqVs
         )}
       >
         {"|"}
@@ -68,7 +68,7 @@ function PlasmicCityCountry__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.box__l4VOp
+          sty.freeBox__l4VOp
         )}
       >
         {"Country"}

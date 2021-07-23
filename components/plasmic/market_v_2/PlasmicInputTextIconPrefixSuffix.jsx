@@ -34,12 +34,12 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__ikhqW)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__ikhqW)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__oNaxf
+            sty.freeBox__oNaxf
           )}
         >
           {"Short text"}
@@ -56,7 +56,7 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
         value={""}
       />
 
-      <div className={classNames(defaultcss.all, sty.box__kE6E)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__kE6E)}>
         <PlusBoldIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}

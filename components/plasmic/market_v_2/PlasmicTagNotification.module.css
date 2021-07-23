@@ -6,9 +6,9 @@
   width: 8px;
   height: 8px;
   position: relative;
+  background: #ff0099;
   border-radius: 100%;
   padding: 1px;
-  background: #ff0099;
   border-width: 1px;
   border-style: none;
 }

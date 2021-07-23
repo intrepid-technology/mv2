@@ -105,7 +105,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__c84HQ
+                sty.freeBox__c84HQ
               )}
             >
               {"userFirstName"}
@@ -116,7 +116,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__vyrJr
+                sty.freeBox__vyrJr
               )}
             >
               {"userLastName"}
@@ -155,7 +155,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__eJkr2
+                sty.freeBox__eJkr2
               )}
             >
               {"userFirstName"}
@@ -166,7 +166,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__zhjMw
+                sty.freeBox__zhjMw
               )}
             >
               {"userLastName"}

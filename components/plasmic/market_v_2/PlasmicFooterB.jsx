@@ -64,9 +64,9 @@ function PlasmicFooterB__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___4TIqA,
+            sty.freeBox___4TIqA,
             {
-              [sty.box__color_dark___4TIqAsxLuv]: hasVariant(
+              [sty.freeBox__color_dark___4TIqAsxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"
@@ -166,8 +166,8 @@ function PlasmicFooterB__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__i6J, {
-            [sty.box__color_dark__i6JSxLuv]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__i6J, {
+            [sty.freeBox__color_dark__i6JSxLuv]: hasVariant(
               variants,
               "color",
               "dark"
@@ -229,9 +229,9 @@ function PlasmicFooterB__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__bl0Hs,
+            sty.freeBox__bl0Hs,
             {
-              [sty.box__color_dark__bl0HssxLuv]: hasVariant(
+              [sty.freeBox__color_dark__bl0HssxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"

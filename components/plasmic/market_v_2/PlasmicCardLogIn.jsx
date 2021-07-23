@@ -116,7 +116,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__zEuFv
+            sty.freeBox__zEuFv
           )}
         >
           {"Must contain at least 8 alphanumeric characters"}
@@ -150,7 +150,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__ql1Ny
+              sty.freeBox__ql1Ny
             )}
           >
             {"Forgot password?"}
@@ -176,27 +176,27 @@ function PlasmicCardLogIn__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__rwKg)}
+        className={classNames(defaultcss.all, sty.freeBox__rwKg)}
       >
-        <div className={classNames(defaultcss.all, sty.box__o0C0E)} />
+        <div className={classNames(defaultcss.all, sty.freeBox__o0C0E)} />
 
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__n6Ve
+            sty.freeBox__n6Ve
           )}
         >
           {"or"}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box___2CKx)} />
+        <div className={classNames(defaultcss.all, sty.freeBox___2CKx)} />
       </p.Stack>
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___7ZsVo)}
+        className={classNames(defaultcss.all, sty.freeBox___7ZsVo)}
       >
         <ButtonConnectedAccount
           data-plasmic-name={"loginFacebookConnect"}
@@ -220,7 +220,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__yvRI)}
+        className={classNames(defaultcss.all, sty.freeBox__yvRI)}
       />
 
       <div
@@ -247,7 +247,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___7NKpK
+              sty.freeBox___7NKpK
             )}
           >
             {"Sign up"}

@@ -37,11 +37,14 @@ function PlasmicTagPartnerA__RenderFunc(props) {
       })}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box, {
-          [sty.box__inset]: hasVariant(variants, "inset", "inset")
-        })}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(
+          defaultcss.all,
+          defaultcss.__wab_text,
+          sty.freeBox,
+          { [sty.freeBox__inset]: hasVariant(variants, "inset", "inset") }
+        )}
       >
         {"guru"}
       </div>
@@ -50,8 +53,8 @@ function PlasmicTagPartnerA__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -85,7 +88,7 @@ export const PlasmicTagPartnerA = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicTagPartnerA
     internalVariantProps: PlasmicTagPartnerA__VariantProps,
     internalArgProps: PlasmicTagPartnerA__ArgProps

@@ -110,7 +110,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__o0Huz
+                    sty.freeBox__o0Huz
                   )}
                 >
                   {"New partners"}
@@ -121,7 +121,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__wxNnk
+                    sty.freeBox__wxNnk
                   )}
                 >
                   {"Who's new and who's hot within the commmunity."}
@@ -132,7 +132,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__x52DM)}
+              className={classNames(defaultcss.all, sty.freeBox__x52DM)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -145,7 +145,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___8Qeyr
+                      sty.freeBox___8Qeyr
                     )}
                   >
                     {"Rising stars"}
@@ -156,7 +156,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__peEx)}
+                className={classNames(defaultcss.all, sty.freeBox__peEx)}
               >
                 <ChipUserProfile
                   attributes={["rating"]}
@@ -211,7 +211,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__srTxr)}
+              className={classNames(defaultcss.all, sty.freeBox__srTxr)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -224,7 +224,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___6My62
+                      sty.freeBox___6My62
                     )}
                   >
                     {"New & noteworthy"}
@@ -235,7 +235,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__lvgDe)}
+                className={classNames(defaultcss.all, sty.freeBox__lvgDe)}
               >
                 <ChipUserProfile
                   attributes={["rating"]}
@@ -309,7 +309,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__aQfy5
+                    sty.freeBox__aQfy5
                   )}
                 >
                   {"Personalised selection"}
@@ -320,7 +320,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__jptVr
+                    sty.freeBox__jptVr
                   )}
                 >
                   {
@@ -333,7 +333,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__zh2Ma)}
+              className={classNames(defaultcss.all, sty.freeBox__zh2Ma)}
             >
               <CardServiceDisplay
                 boost={"boost"}
@@ -423,7 +423,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__eMg8J)}
+              className={classNames(defaultcss.all, sty.freeBox__eMg8J)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -436,7 +436,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__xSg2B
+                      sty.freeBox__xSg2B
                     )}
                   >
                     {"Popular & trending"}
@@ -447,7 +447,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__slGcz
+                      sty.freeBox__slGcz
                     )}
                   >
                     {"See what's popular and trending across the community."}
@@ -458,7 +458,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__jWNkd)}
+                className={classNames(defaultcss.all, sty.freeBox__jWNkd)}
               >
                 <CardServiceDisplay
                   boost={"boost"}
@@ -549,7 +549,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__w5Mqp)}
+              className={classNames(defaultcss.all, sty.freeBox__w5Mqp)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -562,7 +562,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__aC4Uc
+                      sty.freeBox__aC4Uc
                     )}
                   >
                     {"Go to market fast"}
@@ -573,7 +573,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__fGgzj
+                      sty.freeBox__fGgzj
                     )}
                   >
                     {
@@ -586,7 +586,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box___9OZlj)}
+                className={classNames(defaultcss.all, sty.freeBox___9OZlj)}
               >
                 <CardServiceDisplay
                   boost={"boost"}

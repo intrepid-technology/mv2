@@ -69,12 +69,12 @@
     min-width: 0;
   }
 }
-.box___4RlGc {
+.freeBox___4RlGc {
   position: relative;
   display: flex;
   flex-direction: row;
 }
-.box__vtm {
+.freeBox__vtm {
   display: flex;
   align-self: stretch;
   position: relative;

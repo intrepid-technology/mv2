@@ -4,8 +4,8 @@
   position: relative;
   width: 360px;
   height: 270px;
-  padding: 32px;
   background: #ffffff;
+  padding: 32px;
   border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
@@ -93,7 +93,7 @@
 .root:hover {
   background: #6633ff;
 }
-.box__uhVUx {
+.freeBox__uhVUx {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -105,7 +105,7 @@
   margin-left: 0px;
   flex-shrink: 0;
 }
-.box__size__180__uhVUxQnr2J {
+.freeBox__size__180__uhVUxQnr2J {
   margin-top: calc(0px + 8px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -116,7 +116,7 @@
   height: auto;
   display: inline-flex;
 }
-.box__size__360__uhVUxfWtpd {
+.freeBox__size__360__uhVUxfWtpd {
   width: 32px;
   height: 32px;
   margin-bottom: 0px;
@@ -150,7 +150,7 @@
   min-width: 0;
   min-height: 0;
 }
-.box__uu7Pz {
+.freeBox__uu7Pz {
   position: relative;
   left: auto;
   top: auto;
@@ -159,7 +159,7 @@
   display: inline-flex;
   flex-direction: column;
 }
-.box__qlHli {
+.freeBox__qlHli {
   display: flex;
   align-self: stretch;
   position: relative;
@@ -169,7 +169,7 @@
   align-items: flex-start;
   min-width: 0;
 }
-.box__size__360__qlHlIfWtpd {
+.freeBox__size__360__qlHlIfWtpd {
   width: 100%;
   align-self: auto;
   align-items: flex-start;

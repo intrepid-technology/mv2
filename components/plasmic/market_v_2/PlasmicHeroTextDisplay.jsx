@@ -60,21 +60,21 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__iy1X,
+              sty.freeBox__iy1X,
               {
-                [sty.box__size__270__iy1XFtcWe]: hasVariant(
+                [sty.freeBox__size__270__iy1XFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__iy1XqvLrI]: hasVariant(
+                [sty.freeBox__size__360__iy1XqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.box__size__720__iy1XtUtJd]: hasVariant(
+                [sty.freeBox__size__720__iy1XtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -93,15 +93,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__khuIq,
+              sty.freeBox__khuIq,
               {
-                [sty.box__size__270__khuIqFtcWe]: hasVariant(
+                [sty.freeBox__size__270__khuIqFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__khuIqqvLrI]: hasVariant(
+                [sty.freeBox__size__360__khuIqqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -116,15 +116,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__tSMpz,
+              sty.freeBox__tSMpz,
               {
-                [sty.box__size__270__tSMpzFtcWe]: hasVariant(
+                [sty.freeBox__size__270__tSMpzFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__tSMpzqvLrI]: hasVariant(
+                [sty.freeBox__size__360__tSMpzqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -139,15 +139,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__lEl62,
+              sty.freeBox__lEl62,
               {
-                [sty.box__size__270__lEl62FtcWe]: hasVariant(
+                [sty.freeBox__size__270__lEl62FtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__lEl62QvLrI]: hasVariant(
+                [sty.freeBox__size__360__lEl62QvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -165,15 +165,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__ftHuv,
+              sty.freeBox__ftHuv,
               {
-                [sty.box__size__270__ftHuvFtcWe]: hasVariant(
+                [sty.freeBox__size__270__ftHuvFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__ftHuvqvLrI]: hasVariant(
+                [sty.freeBox__size__360__ftHuvqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -188,15 +188,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__y4WL,
+              sty.freeBox__y4WL,
               {
-                [sty.box__size__270__y4WLFtcWe]: hasVariant(
+                [sty.freeBox__size__270__y4WLFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.box__size__360__y4WLQvLrI]: hasVariant(
+                [sty.freeBox__size__360__y4WLQvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -208,8 +208,8 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           </div>
 
           <div
-            className={classNames(defaultcss.all, sty.box__a1ViY, {
-              [sty.box__size__360__a1ViYqvLrI]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__a1ViY, {
+              [sty.freeBox__size__360__a1ViYqvLrI]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -220,9 +220,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__rshCx,
+                sty.freeBox__rshCx,
                 {
-                  [sty.box__size__360__rshCxqvLrI]: hasVariant(
+                  [sty.freeBox__size__360__rshCxqvLrI]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -250,9 +250,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__g3X6M,
+              sty.freeBox__g3X6M,
               {
-                [sty.box__size__720__g3X6MtUtJd]: hasVariant(
+                [sty.freeBox__size__720__g3X6MtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -271,7 +271,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__lE5IM
+              sty.freeBox__lE5IM
             )}
           >
             {"prosperity"}
@@ -281,7 +281,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__svY
+              sty.freeBox__svY
             )}
           >
             {"depends on the"}
@@ -291,7 +291,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___6YcQd
+              sty.freeBox___6YcQd
             )}
           >
             <span>
@@ -304,7 +304,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box___1IZ8J
+              sty.freeBox___1IZ8J
             )}
           >
             {"collective "}
@@ -314,9 +314,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__luQgD,
+              sty.freeBox__luQgD,
               {
-                [sty.box__size__720__luQgDtUtJd]: hasVariant(
+                [sty.freeBox__size__720__luQgDtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -331,8 +331,8 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
 
           {(hasVariant(variants, "size", "_720") ? true : false) ? (
             <div
-              className={classNames(defaultcss.all, sty.box__v3AWd, {
-                [sty.box__size__720__v3AWDtUtJd]: hasVariant(
+              className={classNames(defaultcss.all, sty.freeBox__v3AWd, {
+                [sty.freeBox__size__720__v3AWDtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -343,7 +343,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__fbeOl
+                  sty.freeBox__fbeOl
                 )}
               >
                 {"- Eric Reis, The Lean Startup"}

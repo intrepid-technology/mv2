@@ -114,23 +114,23 @@ function PlasmicCardUserprofile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__bjfN)}
+        className={classNames(defaultcss.all, sty.freeBox__bjfN)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__giDyd)}
+          className={classNames(defaultcss.all, sty.freeBox__giDyd)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___3EZvu)}
+            className={classNames(defaultcss.all, sty.freeBox___3EZvu)}
           >
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__coEqy
+                sty.freeBox__coEqy
               )}
             >
               {hasVariant(globalVariants, "screen", "mobile")
@@ -140,7 +140,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 : "Username"}
             </div>
 
-            <div className={classNames(defaultcss.all, sty.box__gZTi1)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__gZTi1)}>
               <TagBadgeVerification
                 data-plasmic-name={"tagBadgeVerification"}
                 data-plasmic-override={overrides.tagBadgeVerification}
@@ -153,16 +153,16 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__kAf90)}
+          className={classNames(defaultcss.all, sty.freeBox__kAf90)}
         >
-          <div className={classNames(defaultcss.all, sty.box__plkCo)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__plkCo)}>
             <TagPartnerD
               data-plasmic-name={"tagPartnerD"}
               data-plasmic-override={overrides.tagPartnerD}
             />
           </div>
 
-          <div className={classNames(defaultcss.all, sty.box__k5Eh6)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__k5Eh6)}>
             <RatingDisplayDetail
               data-plasmic-name={"ratingDisplayDetail"}
               data-plasmic-override={overrides.ratingDisplayDetail}
@@ -171,12 +171,12 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.box__wvjeV)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__wvjeV)}>
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box___33H8
+            sty.freeBox___33H8
           )}
         >
           {
@@ -329,7 +329,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__r8DGt
+              sty.freeBox__r8DGt
             )}
           >
             {"City"}
@@ -339,19 +339,19 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__tFqJe
+              sty.freeBox__tFqJe
             )}
           >
             {","}
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__kfxKm)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__kfxKm)}>
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__dk2F0
+              sty.freeBox__dk2F0
             )}
           >
             {"Country"}

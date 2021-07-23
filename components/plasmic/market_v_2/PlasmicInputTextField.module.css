@@ -37,7 +37,7 @@
 .inputTextParent__size__540 {
   width: 540px;
 }
-.textbox {
+.description {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -59,28 +59,28 @@
   border-left-width: 1px;
   height: 100%;
   padding-bottom: 0px;
+  background: #f8f8f8;
   min-width: 0;
   min-height: 0;
-  background: #f8f8f8;
   border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.textbox__type_secondary {
+.description__type_secondary {
   background: #ffffff;
 }
-.textbox__size__540 {
+.description__size__540 {
   width: 100%;
   min-width: 0;
 }
-.root:hover .textbox {
+.root:hover .description {
   border-right-style: none;
   border-top-style: none;
   border-left-style: none;
   border-color: #333333 /* plasmic-token: _aCbIOo4N */;
 }
-.root:focus-within .textbox {
+.root:focus-within .description {
   border-bottom-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   outline: none;
 }
-.root__type_secondary:focus-within .textbox__type_secondary {
+.root__type_secondary:focus-within .description__type_secondary {
   outline: none;
 }

@@ -173,7 +173,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__nqe9N
+                      sty.freeBox__nqe9N
                     )}
                   >
                     {"XXXX.XX"}
@@ -209,7 +209,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___3Hljv
+                      sty.freeBox___3Hljv
                     )}
                   >
                     {"XXXX.XX"}
@@ -245,7 +245,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__zcvOc
+                      sty.freeBox__zcvOc
                     )}
                   >
                     {"XXXX.XX"}
@@ -283,7 +283,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__inWg
+                      sty.freeBox__inWg
                     )}
                   >
                     {"-"}
@@ -344,7 +344,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__qWu5
+                      sty.freeBox__qWu5
                     )}
                   >
                     {"%"}
@@ -380,7 +380,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rQl
+                      sty.freeBox__rQl
                     )}
                   >
                     {"%"}
@@ -416,7 +416,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__ioUwU
+                      sty.freeBox__ioUwU
                     )}
                   >
                     {"%"}
@@ -454,7 +454,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___03RQv
+                      sty.freeBox___03RQv
                     )}
                   >
                     {"%"}

@@ -113,8 +113,8 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
           >
             {(hasVariant(variants, "search", "search") ? false : true) ? (
               <div
-                className={classNames(defaultcss.all, sty.box__lI706, {
-                  [sty.box__search__lI706Auxud]: hasVariant(
+                className={classNames(defaultcss.all, sty.freeBox__lI706, {
+                  [sty.freeBox__search__lI706Auxud]: hasVariant(
                     variants,
                     "search",
                     "search"
@@ -225,9 +225,9 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__vL9T,
+                        sty.freeBox__vL9T,
                         {
-                          [sty.box__search__vL9TAuxud]: hasVariant(
+                          [sty.freeBox__search__vL9TAuxud]: hasVariant(
                             variants,
                             "search",
                             "search"

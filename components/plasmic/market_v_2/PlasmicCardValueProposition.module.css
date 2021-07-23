@@ -4,8 +4,8 @@
   height: 180px;
   flex-direction: column;
   position: relative;
-  padding: 16px;
   background: #ffffff;
+  padding: 16px;
   border: 1px none #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
@@ -55,8 +55,8 @@
   flex-shrink: 0;
 }
 .svgParentBg__size__270 {
-  margin-top: calc(0px + 16px) !important;
   background: #ebebeb;
+  margin-top: calc(0px + 16px) !important;
 }
 .svg__upruU {
   position: relative;

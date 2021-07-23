@@ -55,7 +55,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__ggIb6
+            sty.freeBox__ggIb6
           )}
         >
           {hasVariant(globalVariants, "screen", "desktop") ? "Team" : "Teams"}
@@ -79,7 +79,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__oJ4Wb)}
+            className={classNames(defaultcss.all, sty.freeBox__oJ4Wb)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__yG8Na)}
@@ -97,7 +97,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__ldMlX
+                  sty.freeBox__ldMlX
                 )}
               >
                 {"TeamName"}
@@ -124,7 +124,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__ld279)}
+            className={classNames(defaultcss.all, sty.freeBox__ld279)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__rNdzL)}
@@ -142,7 +142,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__lig2S
+                  sty.freeBox__lig2S
                 )}
               >
                 {"TeamName"}
@@ -169,7 +169,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__za13C)}
+            className={classNames(defaultcss.all, sty.freeBox__za13C)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__ecg5D)}
@@ -187,7 +187,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__rjnUw
+                  sty.freeBox__rjnUw
                 )}
               >
                 {"TeamName"}

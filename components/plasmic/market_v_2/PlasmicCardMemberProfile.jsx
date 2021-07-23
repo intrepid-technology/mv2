@@ -66,7 +66,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__uAf9P)}
+        className={classNames(defaultcss.all, sty.freeBox__uAf9P)}
       >
         <div
           data-plasmic-name={"userProfileUsernameFirstName2"}
@@ -96,7 +96,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__z3JMv)}
+        className={classNames(defaultcss.all, sty.freeBox__z3JMv)}
       >
         <div
           data-plasmic-name={"userProfileUsernameLastName"}
@@ -127,23 +127,23 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         {hasVariant(variants, "session", "session") ? "Edit" : "Follow"}
       </ButtonPrimary>
 
-      <div className={classNames(defaultcss.all, sty.box__pyBvT)} />
+      <div className={classNames(defaultcss.all, sty.freeBox__pyBvT)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___96C2A)}
+        className={classNames(defaultcss.all, sty.freeBox___96C2A)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box___0SUgg)}
+          className={classNames(defaultcss.all, sty.freeBox___0SUgg)}
         >
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__umTdy
+              sty.freeBox__umTdy
             )}
           >
             {"123"}
@@ -153,7 +153,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__mwYix
+              sty.freeBox__mwYix
             )}
           >
             {"Members"}
@@ -163,13 +163,13 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__e6Bhh)}
+          className={classNames(defaultcss.all, sty.freeBox__e6Bhh)}
         >
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__b1HwQ
+              sty.freeBox__b1HwQ
             )}
           >
             {"123"}
@@ -179,7 +179,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__bjRVi
+              sty.freeBox__bjRVi
             )}
           >
             {"Partners"}
@@ -187,23 +187,23 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.box__wnsf6)} />
+      <div className={classNames(defaultcss.all, sty.freeBox__wnsf6)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___8TRdX)}
+        className={classNames(defaultcss.all, sty.freeBox___8TRdX)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__my3Io)}
+          className={classNames(defaultcss.all, sty.freeBox__my3Io)}
         >
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__vgpbm
+              sty.freeBox__vgpbm
             )}
           >
             {"123"}
@@ -213,7 +213,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__d5Eh
+              sty.freeBox__d5Eh
             )}
           >
             {"Followers"}
@@ -223,13 +223,13 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__oEqyk)}
+          className={classNames(defaultcss.all, sty.freeBox__oEqyk)}
         >
           <div
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__qrcMn
+              sty.freeBox__qrcMn
             )}
           >
             {"123"}
@@ -239,7 +239,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__lu7Ng
+              sty.freeBox__lu7Ng
             )}
           >
             {"Following"}
@@ -247,18 +247,18 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.box__yYj5)} />
+      <div className={classNames(defaultcss.all, sty.freeBox__yYj5)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__xf5Vf)}
+        className={classNames(defaultcss.all, sty.freeBox__xf5Vf)}
       >
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.box__mf9Dv
+            sty.freeBox__mf9Dv
           )}
         >
           {"Member since"}

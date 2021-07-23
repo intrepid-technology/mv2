@@ -16,7 +16,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 6px;
 }
-.box__eGohH {
+.freeBox__eGohH {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -28,7 +28,7 @@
   width: 100%;
   min-width: 0;
 }
-.box__wc9Ah {
+.freeBox__wc9Ah {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -41,7 +41,7 @@
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.box___8XZXg {
+.freeBox___8XZXg {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -51,18 +51,18 @@
   top: auto;
   min-width: 0;
 }
-.box___8XZXg > :global(.__wab_flex-container) {
+.freeBox___8XZXg > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.box___8XZXg > :global(.__wab_flex-container) > *,
-.box___8XZXg > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___8XZXg > :global(.__wab_flex-container) > *,
+.freeBox___8XZXg > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-top: 4px;
 }
-.box__tsYuX {
+.freeBox__tsYuX {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -74,7 +74,7 @@
   top: auto;
   min-width: 0;
 }
-.box__i32Ns {
+.freeBox__i32Ns {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -85,18 +85,18 @@
   padding-left: 0px;
   min-width: 0;
 }
-.box__i32Ns > :global(.__wab_flex-container) {
+.freeBox__i32Ns > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
-.box__i32Ns > :global(.__wab_flex-container) > *,
-.box__i32Ns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__i32Ns > :global(.__wab_flex-container) > *,
+.freeBox__i32Ns > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
   margin-left: 20px;
 }
-.box__tbgRc {
+.freeBox__tbgRc {
   position: relative;
   left: auto;
   top: auto;
@@ -115,7 +115,7 @@
   top: auto;
   left: auto;
 }
-.box__lfmpq {
+.freeBox__lfmpq {
   position: relative;
   left: auto;
   top: auto;

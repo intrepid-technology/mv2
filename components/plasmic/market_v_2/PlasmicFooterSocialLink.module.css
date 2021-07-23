@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;

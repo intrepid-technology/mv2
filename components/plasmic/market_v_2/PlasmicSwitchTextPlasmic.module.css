@@ -51,9 +51,9 @@
   height: 24px;
   transition-property: background;
   transition-duration: 0.2s;
+  background: #dddddd;
   min-width: 0;
   border-radius: 12px;
-  background: #dddddd;
   border: 1px solid transparent;
 }
 .track__noLabel {
@@ -85,9 +85,9 @@
   height: 16px;
   transition-property: all;
   transition-duration: 0.2s;
+  background: #ffffff;
   flex-shrink: 0;
   border-radius: 100%;
-  background: #ffffff;
   border: 1px solid transparent;
 }
 .thumb__noLabel {

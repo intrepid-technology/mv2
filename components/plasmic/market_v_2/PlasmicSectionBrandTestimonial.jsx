@@ -51,8 +51,8 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__mj8CM)}>
-        <div className={classNames(defaultcss.all, sty.box__wDJaS)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__mj8CM)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__wDJaS)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "The world's leading brands innovate, transform, and grow with our community",
@@ -65,7 +65,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box__rsBuL)}
+        className={classNames(defaultcss.all, sty.freeBox__rsBuL)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (

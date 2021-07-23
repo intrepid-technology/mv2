@@ -56,7 +56,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__ma38J)}
+          className={classNames(defaultcss.all, sty.freeBox__ma38J)}
         >
           <IconSocialProfile
             data-plasmic-name={"iconSocialProfile"}
@@ -275,153 +275,149 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.box__y4X73,
+              sty.freeBox__y4X73,
               {
-                [sty.box__accounting_quickbooks__y4X73NsKuD]: hasVariant(
+                [sty.freeBox__accounting_quickbooks__y4X73NsKuD]: hasVariant(
                   variants,
                   "accounting",
                   "quickbooks"
                 ),
 
-                [sty.box__accounting_xero__y4X73AenxO]: hasVariant(
+                [sty.freeBox__accounting_xero__y4X73AenxO]: hasVariant(
                   variants,
                   "accounting",
                   "xero"
                 ),
 
-                [sty.box__socialNetwork_angellist__y4X73Ws5Gt]: hasVariant(
+                [sty.freeBox__socialNetwork_angellist__y4X73Ws5Gt]: hasVariant(
                   variants,
                   "socialNetwork",
                   "angellist"
                 ),
 
-                [sty.box__socialNetwork_discord__y4X73UvcjZ]: hasVariant(
+                [sty.freeBox__socialNetwork_discord__y4X73UvcjZ]: hasVariant(
                   variants,
                   "socialNetwork",
                   "discord"
                 ),
 
-                [sty.box__socialNetwork_dribbble__y4X73ILpq2]: hasVariant(
+                [sty.freeBox__socialNetwork_dribbble__y4X73ILpq2]: hasVariant(
                   variants,
                   "socialNetwork",
                   "dribbble"
                 ),
 
-                [sty.box__socialNetwork_facebook__y4X735Inp2]: hasVariant(
+                [sty.freeBox__socialNetwork_facebook__y4X735Inp2]: hasVariant(
                   variants,
                   "socialNetwork",
                   "facebook"
                 ),
 
-                [sty.box__socialNetwork_github__y4X73Ncvbj]: hasVariant(
+                [sty.freeBox__socialNetwork_github__y4X73Ncvbj]: hasVariant(
                   variants,
                   "socialNetwork",
                   "github"
                 ),
 
-                [sty.box__socialNetwork_google__y4X73GuexH]: hasVariant(
+                [sty.freeBox__socialNetwork_google__y4X73GuexH]: hasVariant(
                   variants,
                   "socialNetwork",
                   "google"
                 ),
 
-                [sty.box__socialNetwork_hackernews__y4X73ALtUl]: hasVariant(
+                [sty.freeBox__socialNetwork_hackernews__y4X73ALtUl]: hasVariant(
                   variants,
                   "socialNetwork",
                   "hackernews"
                 ),
 
-                [sty.box__socialNetwork_instagram__y4X73LhFvO]: hasVariant(
+                [sty.freeBox__socialNetwork_instagram__y4X73LhFvO]: hasVariant(
                   variants,
                   "socialNetwork",
                   "instagram"
                 ),
 
-                [sty.box__socialNetwork_line__y4X73YJija]: hasVariant(
+                [sty.freeBox__socialNetwork_line__y4X73YJija]: hasVariant(
                   variants,
                   "socialNetwork",
                   "line"
                 ),
 
-                [sty.box__socialNetwork_linkedin__y4X73UeETj]: hasVariant(
+                [sty.freeBox__socialNetwork_linkedin__y4X73UeETj]: hasVariant(
                   variants,
                   "socialNetwork",
                   "linkedin"
                 ),
 
-                [sty.box__socialNetwork_pinterest__y4X73AsIkx]: hasVariant(
+                [sty.freeBox__socialNetwork_pinterest__y4X73AsIkx]: hasVariant(
                   variants,
                   "socialNetwork",
                   "pinterest"
                 ),
 
-                [sty.box__socialNetwork_productHunt__y4X73M6JOk]: hasVariant(
-                  variants,
-                  "socialNetwork",
-                  "productHunt"
-                ),
-
-                [sty.box__socialNetwork_reddit__y4X73Pee0Y]: hasVariant(
+                [sty.freeBox__socialNetwork_productHunt__y4X73M6JOk]:
+                  hasVariant(variants, "socialNetwork", "productHunt"),
+                [sty.freeBox__socialNetwork_reddit__y4X73Pee0Y]: hasVariant(
                   variants,
                   "socialNetwork",
                   "reddit"
                 ),
 
-                [sty.box__socialNetwork_slack__y4X73PJCsA]: hasVariant(
+                [sty.freeBox__socialNetwork_slack__y4X73PJCsA]: hasVariant(
                   variants,
                   "socialNetwork",
                   "slack"
                 ),
 
-                [sty.box__socialNetwork_snapchat__y4X734W5Qx]: hasVariant(
+                [sty.freeBox__socialNetwork_snapchat__y4X734W5Qx]: hasVariant(
                   variants,
                   "socialNetwork",
                   "snapchat"
                 ),
 
-                [sty.box__socialNetwork_soundcloud__y4X734JmR2]: hasVariant(
+                [sty.freeBox__socialNetwork_soundcloud__y4X734JmR2]: hasVariant(
                   variants,
                   "socialNetwork",
                   "soundcloud"
                 ),
 
-                [sty.box__socialNetwork_spotify__y4X73JTzJ8]: hasVariant(
+                [sty.freeBox__socialNetwork_spotify__y4X73JTzJ8]: hasVariant(
                   variants,
                   "socialNetwork",
                   "spotify"
                 ),
 
-                [sty.box__socialNetwork_tikTok__y4X73VLcVx]: hasVariant(
+                [sty.freeBox__socialNetwork_tikTok__y4X73VLcVx]: hasVariant(
                   variants,
                   "socialNetwork",
                   "tikTok"
                 ),
 
-                [sty.box__socialNetwork_twitch__y4X73HjPBa]: hasVariant(
+                [sty.freeBox__socialNetwork_twitch__y4X73HjPBa]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitch"
                 ),
 
-                [sty.box__socialNetwork_twitter__y4X73F5IW5]: hasVariant(
+                [sty.freeBox__socialNetwork_twitter__y4X73F5IW5]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitter"
                 ),
 
-                [sty.box__socialNetwork_wechat__y4X73IsTfM]: hasVariant(
+                [sty.freeBox__socialNetwork_wechat__y4X73IsTfM]: hasVariant(
                   variants,
                   "socialNetwork",
                   "wechat"
                 ),
 
-                [sty.box__socialNetwork_whatsapp__y4X7306RGl]: hasVariant(
+                [sty.freeBox__socialNetwork_whatsapp__y4X7306RGl]: hasVariant(
                   variants,
                   "socialNetwork",
                   "whatsapp"
                 ),
 
-                [sty.box__socialNetwork_youtube__y4X73S12Df]: hasVariant(
+                [sty.freeBox__socialNetwork_youtube__y4X73S12Df]: hasVariant(
                   variants,
                   "socialNetwork",
                   "youtube"

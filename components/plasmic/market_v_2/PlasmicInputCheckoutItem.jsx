@@ -47,8 +47,8 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
     >
       {(hasVariant(variants, "headline", "headline") ? false : true) ? (
         <div
-          className={classNames(defaultcss.all, sty.box__eGohH, {
-            [sty.box__headline__eGohHkEQfN]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__eGohH, {
+            [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
               variants,
               "headline",
               "headline"
@@ -56,8 +56,8 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
           })}
         >
           <div
-            className={classNames(defaultcss.all, sty.box__wc9Ah, {
-              [sty.box__headline__wc9AhkEQfN]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__wc9Ah, {
+              [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
                 variants,
                 "headline",
                 "headline"
@@ -76,15 +76,15 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box___8XZXg)}
+        className={classNames(defaultcss.all, sty.freeBox___8XZXg)}
       >
-        <div className={classNames(defaultcss.all, sty.box__tsYuX)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__tsYuX)}>
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__i32Ns)}
+            className={classNames(defaultcss.all, sty.freeBox__i32Ns)}
           >
-            <div className={classNames(defaultcss.all, sty.box__tbgRc)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__tbgRc)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Item",
                 value: args.slot,
@@ -102,8 +102,8 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.box__lfmpq, {
-              [sty.box__description__lfmpq0AOtn]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__lfmpq, {
+              [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
                 variants,
                 "description",
                 "description"

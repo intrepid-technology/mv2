@@ -90,7 +90,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__lc1Vo)}
+            className={classNames(defaultcss.all, sty.freeBox__lc1Vo)}
           >
             <p.Stack
               as={"div"}
@@ -111,7 +111,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__r5CWc
+                      sty.freeBox__r5CWc
                     )}
                   >
                     {"Step 3"}
@@ -123,7 +123,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__ir20P
+                    sty.freeBox__ir20P
                   )}
                 >
                   {"What will your finished service look like?"}
@@ -133,12 +133,14 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__wbEqK)}
+                className={classNames(defaultcss.all, sty.freeBox__wbEqK)}
               >
                 <button
                   className={classNames(defaultcss.button, sty.button__sOrr)}
                 >
-                  <div className={classNames(defaultcss.all, sty.box__n0Uu4)}>
+                  <div
+                    className={classNames(defaultcss.all, sty.freeBox__n0Uu4)}
+                  >
                     <Icon105Icon
                       className={classNames(defaultcss.all, sty.svg___9Ib5N)}
                       role={"img"}
@@ -149,12 +151,14 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__uh1A1)}
+                  className={classNames(defaultcss.all, sty.freeBox__uh1A1)}
                 >
                   <button
                     className={classNames(defaultcss.button, sty.button___1TQM)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__uze4B)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__uze4B)}
+                    >
                       <Icon105Icon
                         className={classNames(defaultcss.all, sty.svg__c5XyL)}
                         role={"img"}
@@ -165,7 +169,9 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                   <button
                     className={classNames(defaultcss.button, sty.button__vh2Yn)}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__ntr0B)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__ntr0B)}
+                    >
                       <Icon105Icon
                         className={classNames(defaultcss.all, sty.svg___2J5Z)}
                         role={"img"}
@@ -179,7 +185,9 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                       sty.button___8J7An
                     )}
                   >
-                    <div className={classNames(defaultcss.all, sty.box__yiWrn)}>
+                    <div
+                      className={classNames(defaultcss.all, sty.freeBox__yiWrn)}
+                    >
                       <Icon105Icon
                         className={classNames(defaultcss.all, sty.svg__cQIuo)}
                         role={"img"}
@@ -191,7 +199,10 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                     className={classNames(defaultcss.button, sty.button__zlQhp)}
                   >
                     <div
-                      className={classNames(defaultcss.all, sty.box___3Ma6D)}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.freeBox___3Ma6D
+                      )}
                     >
                       <Icon105Icon
                         className={classNames(defaultcss.all, sty.svg__kUqvr)}

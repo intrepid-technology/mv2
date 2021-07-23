@@ -6,8 +6,8 @@
   width: 90px;
   height: 32px;
   position: relative;
-  border-radius: 2px;
   background: #ffffff;
+  border-radius: 2px;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
 }
 .button__cGaqh {
@@ -20,9 +20,9 @@
   top: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   padding: 4px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .svg___7TaUz {
@@ -39,9 +39,9 @@
   top: auto;
   height: 100%;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
+  background: #ffffff;
   min-width: 0;
   min-height: 0;
-  background: #ffffff repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .button__sfUcw {
@@ -54,9 +54,9 @@
   top: auto;
   width: 28px;
   height: 28px;
+  background: #f8f8f8;
   flex-shrink: 0;
   padding: 4px;
-  background: #f8f8f8 repeat;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
 .svg___9It4W {

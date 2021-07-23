@@ -1,0 +1,127 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  min-width: 0;
+  padding: 0px 8px 8px;
+  border-bottom: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.headlineIconSubhead {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.headlineIconSubhead > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.headlineIconSubhead > :global(.__wab_flex-container) > *,
+.headlineIconSubhead
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 4px;
+}
+.headlineIconParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__wGati {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__thM8M {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotChildren {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+}
+.accordionTriggerChevron:global(.__wab_instance) {
+  position: relative;
+}
+.svg__hIgU {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+.svg__tTFuz {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+.freeBox__mywRc {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__zoMYs {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.slotSlot2 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: MAJ29KQMI */;
+}
+.descriptionText {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0px 8px 8px 0px;
+}
+.slotSlot {
+  line-height: 1.2;
+  color: #333333 /* plasmic-token: F4gy0u3aB */;
+}

@@ -49,18 +49,23 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
       })}
     >
       <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, sty.box, {
-          [sty.box___switch]: hasVariant(variants, "_switch", "_switch"),
-          [sty.box__disabled_closed]: hasVariant(
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox, {
+          [sty.freeBox___switch]: hasVariant(variants, "_switch", "_switch"),
+          [sty.freeBox__disabled_closed]: hasVariant(
             variants,
             "disabled",
             "closed"
           ),
 
-          [sty.box__disabled_open]: hasVariant(variants, "disabled", "open"),
-          [sty.box__disabled_open_color_brand]:
+          [sty.freeBox__disabled_open]: hasVariant(
+            variants,
+            "disabled",
+            "open"
+          ),
+
+          [sty.freeBox__disabled_open_color_brand]:
             hasVariant(variants, "disabled", "open") &&
             hasVariant(variants, "color", "brand")
         })}
@@ -70,8 +75,8 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -105,7 +110,7 @@ export const PlasmicSwitchPrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSwitchPrimary
     internalVariantProps: PlasmicSwitchPrimary__VariantProps,
     internalArgProps: PlasmicSwitchPrimary__ArgProps

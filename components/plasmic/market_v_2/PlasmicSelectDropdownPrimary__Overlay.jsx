@@ -10,6 +10,7 @@
 // Component: eshNYJDtksh
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
+import * as pp from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -123,7 +124,7 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
 }
 
 function useBehavior(props, ref) {
-  return p.useTriggeredOverlay(
+  return pp.useTriggeredOverlay(
     PlasmicSelectDropdownPrimary__Overlay,
     props,
     {

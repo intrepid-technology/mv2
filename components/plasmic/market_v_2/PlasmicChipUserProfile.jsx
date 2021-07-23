@@ -87,8 +87,8 @@ function PlasmicChipUserProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__m4FAi, {
-            [sty.box__attributes_verification__m4FAiUnyVe]: hasVariant(
+          className={classNames(defaultcss.all, sty.freeBox__m4FAi, {
+            [sty.freeBox__attributes_verification__m4FAiUnyVe]: hasVariant(
               variants,
               "attributes",
               "verification"
@@ -98,8 +98,8 @@ function PlasmicChipUserProfile__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__y4Qr7, {
-              [sty.box__attributes_verification__y4Qr7UnyVe]: hasVariant(
+            className={classNames(defaultcss.all, sty.freeBox__y4Qr7, {
+              [sty.freeBox__attributes_verification__y4Qr7UnyVe]: hasVariant(
                 variants,
                 "attributes",
                 "verification"
@@ -110,7 +110,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__nbdg7
+                sty.freeBox__nbdg7
               )}
             >
               {"Username"}
@@ -148,14 +148,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__fHhjX, {
-                  [sty.box__attributes_membership__fHhjXeHral]: hasVariant(
+                className={classNames(defaultcss.all, sty.freeBox__fHhjX, {
+                  [sty.freeBox__attributes_membership__fHhjXeHral]: hasVariant(
                     variants,
                     "attributes",
                     "membership"
                   ),
 
-                  [sty.box__attributes_rating__fHhjXk3J7I]: hasVariant(
+                  [sty.freeBox__attributes_rating__fHhjXk3J7I]: hasVariant(
                     variants,
                     "attributes",
                     "rating"
@@ -205,7 +205,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.box__rrUix
+                        sty.freeBox__rrUix
                       )}
                     >
                       {"(1000)"}
@@ -224,7 +224,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___5WaQl
+                      sty.freeBox___5WaQl
                     )}
                   >
                     {"4.67"}
@@ -238,7 +238,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.box__hZgZ)}
+          className={classNames(defaultcss.all, sty.freeBox__hZgZ)}
         >
           {(hasVariant(variants, "attributes", "stats") ? false : true) ? (
             <p.Stack
@@ -404,7 +404,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__fPbL6
+                  sty.freeBox__fPbL6
                 )}
               >
                 {"City"}
@@ -414,19 +414,19 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box___0P9Ko
+                  sty.freeBox___0P9Ko
                 )}
               >
                 {","}
               </div>
             </div>
 
-            <div className={classNames(defaultcss.all, sty.box__b02SR)}>
+            <div className={classNames(defaultcss.all, sty.freeBox__b02SR)}>
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box___4Fz5W
+                  sty.freeBox___4Fz5W
                 )}
               >
                 {"Country"}

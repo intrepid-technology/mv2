@@ -35,9 +35,9 @@ function PlasmicAccordionTest__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__oKtaK)}>
-        <div className={classNames(defaultcss.all, sty.box__prkZ)}>
-          <div className={classNames(defaultcss.all, sty.box__rLze9)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__oKtaK)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__prkZ)}>
+          <div className={classNames(defaultcss.all, sty.freeBox__rLze9)}>
             {p.renderPlasmicSlot({
               defaultContents: "Overview",
               value: args.slot,
@@ -46,7 +46,7 @@ function PlasmicAccordionTest__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.box__kZbvK)}>
+        <div className={classNames(defaultcss.all, sty.freeBox__kZbvK)}>
           <Icon52Icon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
@@ -56,14 +56,14 @@ function PlasmicAccordionTest__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.box__rRv3G)}>
+      <div className={classNames(defaultcss.all, sty.freeBox__rRv3G)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <div
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.box__eClnO
+                sty.freeBox__eClnO
               )}
             >
               {

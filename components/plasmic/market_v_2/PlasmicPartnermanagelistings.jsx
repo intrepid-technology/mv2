@@ -25,8 +25,8 @@ import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-im
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import TableListingManagementHeader from "../../TableListingManagementHeader"; // plasmic-import: j0LNFrWCIRj/component
-import TableListingManagementRecord from "../../TableListingManagementRecord"; // plasmic-import: -CTzxsSFaeA/component
+import TableListingAdminHeader from "../../TableListingAdminHeader"; // plasmic-import: j0LNFrWCIRj/component
+import TableListingAdminRecord from "../../TableListingAdminRecord"; // plasmic-import: -CTzxsSFaeA/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -117,7 +117,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.box__t5HAg
+                    sty.freeBox__t5HAg
                   )}
                 >
                   {"Manage your listings"}
@@ -143,7 +143,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.box__aPXdG)}
+              className={classNames(defaultcss.all, sty.freeBox__aPXdG)}
             >
               <CardHeaderTitlePrimary
                 data-plasmic-name={"cardHeaderTitlePrimary"}
@@ -157,7 +157,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box___675Gy
+                      sty.freeBox___675Gy
                     )}
                   >
                     {"Listings status, price and terms"}
@@ -209,7 +209,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__rr92D
+                      sty.freeBox__rr92D
                     )}
                   >
                     {"Listings"}
@@ -219,7 +219,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__xulmc)}
+                  className={classNames(defaultcss.all, sty.freeBox__xulmc)}
                 >
                   {(
                     hasVariant(globalVariants, "screen", "mobile") ? true : true
@@ -237,7 +237,10 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                       <p.Stack
                         as={"div"}
                         hasGap={true}
-                        className={classNames(defaultcss.all, sty.box___4Lom7)}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.freeBox___4Lom7
+                        )}
                       >
                         <SearchbarPrimary
                           data-plasmic-name={"searchbarPrimary"}
@@ -319,25 +322,21 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                       sty.listingManagementTableColumnParent
                     )}
                   >
-                    <TableListingManagementHeader
-                      data-plasmic-name={"tableListingManagementHeader"}
-                      data-plasmic-override={
-                        overrides.tableListingManagementHeader
-                      }
+                    <TableListingAdminHeader
+                      data-plasmic-name={"tableListingAdminHeader"}
+                      data-plasmic-override={overrides.tableListingAdminHeader}
                       className={classNames(
                         "__wab_instance",
-                        sty.tableListingManagementHeader
+                        sty.tableListingAdminHeader
                       )}
                     />
 
-                    <TableListingManagementRecord
-                      data-plasmic-name={"tableListingManagementRecord"}
-                      data-plasmic-override={
-                        overrides.tableListingManagementRecord
-                      }
+                    <TableListingAdminRecord
+                      data-plasmic-name={"tableListingAdminRecord"}
+                      data-plasmic-override={overrides.tableListingAdminRecord}
                       className={classNames(
                         "__wab_instance",
-                        sty.tableListingManagementRecord
+                        sty.tableListingAdminRecord
                       )}
                     />
                   </p.Stack>
@@ -376,8 +375,8 @@ const PlasmicDescendants = {
     "buttonPrimary",
     "svg",
     "listingManagementTableColumnParent",
-    "tableListingManagementHeader",
-    "tableListingManagementRecord",
+    "tableListingAdminHeader",
+    "tableListingAdminRecord",
     "footerB"
   ],
 
@@ -402,8 +401,8 @@ const PlasmicDescendants = {
     "buttonPrimary",
     "svg",
     "listingManagementTableColumnParent",
-    "tableListingManagementHeader",
-    "tableListingManagementRecord"
+    "tableListingAdminHeader",
+    "tableListingAdminRecord"
   ],
 
   cardHeaderTitlePrimary: ["cardHeaderTitlePrimary"],
@@ -418,8 +417,8 @@ const PlasmicDescendants = {
     "buttonPrimary",
     "svg",
     "listingManagementTableColumnParent",
-    "tableListingManagementHeader",
-    "tableListingManagementRecord"
+    "tableListingAdminHeader",
+    "tableListingAdminRecord"
   ],
 
   listingTotalParent: [
@@ -444,12 +443,12 @@ const PlasmicDescendants = {
   svg: ["svg"],
   listingManagementTableColumnParent: [
     "listingManagementTableColumnParent",
-    "tableListingManagementHeader",
-    "tableListingManagementRecord"
+    "tableListingAdminHeader",
+    "tableListingAdminRecord"
   ],
 
-  tableListingManagementHeader: ["tableListingManagementHeader"],
-  tableListingManagementRecord: ["tableListingManagementRecord"],
+  tableListingAdminHeader: ["tableListingAdminHeader"],
+  tableListingAdminRecord: ["tableListingAdminRecord"],
   footerB: ["footerB"]
 };
 
@@ -515,14 +514,8 @@ export const PlasmicPartnermanagelistings = Object.assign(
       "listingManagementTableColumnParent"
     ),
 
-    tableListingManagementHeader: makeNodeComponent(
-      "tableListingManagementHeader"
-    ),
-
-    tableListingManagementRecord: makeNodeComponent(
-      "tableListingManagementRecord"
-    ),
-
+    tableListingAdminHeader: makeNodeComponent("tableListingAdminHeader"),
+    tableListingAdminRecord: makeNodeComponent("tableListingAdminRecord"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPartnermanagelistings
     internalVariantProps: PlasmicPartnermanagelistings__VariantProps,
