@@ -98,6 +98,18 @@ function PlasmicPanelMemberHeaderButtonSettings__RenderFunc(props) {
                     src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
                   />
                 }
+                navUserAvatar32={
+                  <img
+                    data-plasmic-name={"navUserAvatar32"}
+                    data-plasmic-override={overrides.navUserAvatar32}
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.navUserAvatar32)}
+                    role={"img"}
+                    src={
+                      "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
+                    }
+                  />
+                }
                 size={"_32"}
                 verified={"verified"}
               />
@@ -136,6 +148,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "navUserAvatar182",
     "navUserAvatar242",
+    "navUserAvatar32",
     "buttonSideBarMemberSettings",
     "panelMember"
   ],
@@ -149,6 +162,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "navUserAvatar182",
     "navUserAvatar242",
+    "navUserAvatar32",
     "buttonSideBarMemberSettings",
     "panelMember"
   ],
@@ -161,6 +175,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "navUserAvatar182",
     "navUserAvatar242",
+    "navUserAvatar32",
     "buttonSideBarMemberSettings",
     "panelMember"
   ],
@@ -172,6 +187,7 @@ const PlasmicDescendants = {
     "userAvatar",
     "navUserAvatar182",
     "navUserAvatar242",
+    "navUserAvatar32",
     "buttonSideBarMemberSettings",
     "panelMember"
   ],
@@ -180,12 +196,20 @@ const PlasmicDescendants = {
     "userAvatarVerificationBadge",
     "userAvatar",
     "navUserAvatar182",
-    "navUserAvatar242"
+    "navUserAvatar242",
+    "navUserAvatar32"
   ],
 
-  userAvatar: ["userAvatar", "navUserAvatar182", "navUserAvatar242"],
+  userAvatar: [
+    "userAvatar",
+    "navUserAvatar182",
+    "navUserAvatar242",
+    "navUserAvatar32"
+  ],
+
   navUserAvatar182: ["navUserAvatar182"],
   navUserAvatar242: ["navUserAvatar242"],
+  navUserAvatar32: ["navUserAvatar32"],
   buttonSideBarMemberSettings: ["buttonSideBarMemberSettings"],
   panelMember: ["panelMember"]
 };
@@ -236,6 +260,7 @@ export const PlasmicPanelMemberHeaderButtonSettings = Object.assign(
     userAvatar: makeNodeComponent("userAvatar"),
     navUserAvatar182: makeNodeComponent("navUserAvatar182"),
     navUserAvatar242: makeNodeComponent("navUserAvatar242"),
+    navUserAvatar32: makeNodeComponent("navUserAvatar32"),
     buttonSideBarMemberSettings: makeNodeComponent(
       "buttonSideBarMemberSettings"
     ),

@@ -349,6 +349,11 @@
     font-weight: 600;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .memberNumberCount {
+    font-weight: 700;
+  }
+}
 .freeBox__lhNgd {
   position: relative;
   left: auto;
@@ -430,6 +435,15 @@
     font-weight: 600;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .followingNumberCount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    text-align: center;
+    line-height: 1;
+  }
+}
 .freeBox___3QQmy {
   position: relative;
   left: auto;
@@ -507,6 +521,15 @@
     font-weight: 600;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .partnerNumberCount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    text-align: center;
+    line-height: 1;
+  }
+}
 .freeBox__qKdWg {
   position: relative;
   left: auto;
@@ -579,6 +602,15 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .viewsNumberCount {
     font-weight: 600;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .viewsNumberCount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    text-align: center;
+    line-height: 1;
   }
 }
 .freeBox__zSr5B {
@@ -659,6 +691,15 @@
     font-weight: 600;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .reactsNumberCount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    text-align: center;
+    line-height: 1;
+  }
+}
 .freeBox__mRbl9 {
   position: relative;
   left: auto;
@@ -731,6 +772,15 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .savesNumberCount {
     font-weight: 600;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .savesNumberCount {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    text-align: center;
+    line-height: 1;
   }
 }
 .freeBox___5H6RB {

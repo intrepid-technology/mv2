@@ -77,7 +77,7 @@ function PlasmicElementProfileAbout__RenderFunc(props) {
             )}
           >
             {
-              "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like ba"
+              "I'm an independent designer and engineer who has worked for Uber and Shopify.\n\nI tried a few startups and now I'm starting my own studio.\n\nI enjoy travel and exploring new cultures.\n\nI especially love trying new foods and working in new places"
             }
           </div>
         </div>

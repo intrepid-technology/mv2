@@ -78,7 +78,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Fashion"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -87,7 +89,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Travel"}
+          </ChipBadgeDisplay>
         </p.Stack>
       </p.Stack>
 
@@ -126,7 +130,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Design"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -135,7 +141,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Web development"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -144,7 +152,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Product"}
+          </ChipBadgeDisplay>
         </p.Stack>
       </p.Stack>
 
@@ -187,13 +197,17 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"React"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames("__wab_instance", sty.chipBadgeDisplay__bYE2)}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Databases"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -202,7 +216,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Node"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -211,7 +227,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Javascript"}
+          </ChipBadgeDisplay>
 
           <ChipBadgeDisplay
             className={classNames(
@@ -220,7 +238,9 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
             )}
             color={"brand"}
             type={"ghost"}
-          />
+          >
+            {"Figma"}
+          </ChipBadgeDisplay>
         </p.Stack>
       </p.Stack>
     </p.Stack>

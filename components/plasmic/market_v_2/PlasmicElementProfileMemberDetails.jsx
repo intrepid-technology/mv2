@@ -246,7 +246,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     sty.userPrimaryCompanyName1
                   )}
                 >
-                  {"primaryCompanyName"}
+                  {"Pixie Design, Inc"}
                 </div>
               </p.Stack>
             ) : null}
@@ -366,7 +366,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 >
                   {hasVariant(globalVariants, "screen", "desktop")
                     ? "primaryPositionName"
-                    : "primaryCompanyName"}
+                    : "Co founder"}
                 </div>
               </p.Stack>
             ) : null}
@@ -482,7 +482,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       sty.freeBox__zJxej
                     )}
                   >
-                    {"languageA"}
+                    {"English,"}
                   </div>
                 </div>
 
@@ -498,7 +498,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       sty.freeBox__vPsIx
                     )}
                   >
-                    {"languageB"}
+                    {"Korean"}
                   </div>
                 </div>
               </p.Stack>
@@ -620,7 +620,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       sty.freeBox__rovGm
                     )}
                   >
-                    {"cityName"}
+                    {"San Francisco"}
                   </div>
 
                   <div
@@ -646,7 +646,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       sty.freeBox__rAn6N
                     )}
                   >
-                    {"countryName"}
+                    {"United States"}
                   </div>
                 </div>
               </p.Stack>
@@ -715,7 +715,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "[dateTimestamp]"
-                      : "[dateTimestamp]"}
+                      : "July 2021"}
                   </div>
                 </div>
               </p.Stack>

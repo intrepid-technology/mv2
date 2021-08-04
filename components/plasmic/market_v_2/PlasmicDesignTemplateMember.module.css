@@ -19,9 +19,6 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .root {
     justify-content: flex-start;
-    width: auto;
-    height: auto;
-    display: inline-flex;
   }
 }
 .navbarInternal:global(.__wab_instance) {
@@ -464,7 +461,7 @@
     margin-top: 24px;
   }
 }
-.elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
+.elementMemberProfileCarousell__inwI:global(.__wab_instance) {
   position: relative;
 }
 .sectionProfileMemberPeopleAlsoViewed {
@@ -542,7 +539,7 @@
     margin-top: 24px;
   }
 }
-.elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
+.elementMemberProfileCarousell__kao6G:global(.__wab_instance) {
   position: relative;
 }
 .footerB:global(.__wab_instance) {

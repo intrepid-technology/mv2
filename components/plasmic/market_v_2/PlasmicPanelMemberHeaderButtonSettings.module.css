@@ -99,13 +99,14 @@
   border-width: 0px;
   border-style: none;
 }
-.img___1GGe {
+.navUserAvatar32 {
   position: relative;
   object-fit: cover;
   left: auto;
   top: auto;
   width: 32px;
   height: 32px;
+  object-position: center top;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;

@@ -49,6 +49,7 @@
   left: auto;
   top: auto;
   width: 360px;
+  align-self: flex-start;
   padding: 8px 16px;
 }
 .profileIndustryParent > :global(.__wab_flex-container) {

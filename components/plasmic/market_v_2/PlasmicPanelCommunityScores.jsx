@@ -304,7 +304,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+              {hasVariant(variants, "user", "member") ? "#####" : "278"}
             </div>
 
             <div
@@ -356,7 +356,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+              {hasVariant(variants, "user", "member") ? "#####" : "12"}
             </div>
 
             <div
@@ -429,7 +429,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+              {hasVariant(variants, "user", "member") ? "#####" : "8"}
             </div>
 
             <div
@@ -483,7 +483,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 }
               )}
             >
-              {hasVariant(variants, "user", "member") ? "#####" : "-"}
+              {hasVariant(variants, "user", "member") ? "#####" : "10k"}
             </div>
 
             <div

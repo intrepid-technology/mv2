@@ -83,6 +83,16 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__yG8Na)}
+              navUserAvatar48={
+                <img
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img___8ZbBz)}
+                  role={"img"}
+                  src={
+                    "/plasmic/market_v_2/images/fa289C7A182449412Dcfb44D3F2984B7Png.png"
+                  }
+                />
+              }
               size={"_48"}
             />
 
@@ -100,7 +110,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                   sty.freeBox__ldMlX
                 )}
               >
-                {"TeamName"}
+                {"Craftwerk"}
               </div>
             </p.PlasmicLink>
           </p.Stack>
@@ -128,6 +138,16 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__rNdzL)}
+              navUserAvatar48={
+                <img
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img__qUkKz)}
+                  role={"img"}
+                  src={
+                    "/plasmic/market_v_2/images/_466762084Bf3466293Fba47C63Ba55F7Jpg.jpeg"
+                  }
+                />
+              }
               size={"_48"}
             />
 
@@ -145,7 +165,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                   sty.freeBox__lig2S
                 )}
               >
-                {"TeamName"}
+                {"Zajno"}
               </div>
             </p.PlasmicLink>
           </p.Stack>
@@ -173,6 +193,16 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__ecg5D)}
+              navUserAvatar48={
+                <img
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img__qik2)}
+                  role={"img"}
+                  src={
+                    "/plasmic/market_v_2/images/_479E0Aa76Edbad47C51F159Fd88E2Bfapng.png"
+                  }
+                />
+              }
               size={"_48"}
             />
 
@@ -190,7 +220,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                   sty.freeBox__rjnUw
                 )}
               >
-                {"TeamName"}
+                {"Fire Art"}
               </div>
             </p.PlasmicLink>
           </p.Stack>

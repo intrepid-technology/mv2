@@ -3724,6 +3724,32 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicCardLinkServiceMenu.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "1bXsQsUL74U",
+          "name": "DesignTemplateMember",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicDesignTemplateMember.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/profile-2.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicDesignTemplateMember.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "9OWAcuBiHBm",
+          "name": "ListingTestNotInUse",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicListingTestNotInUse.jsx",
+          "importSpec": {
+            "modulePath": "../pages/listing-test-not-in-use.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicListingTestNotInUse.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -5478,6 +5504,61 @@
           "id": "-K6WRLzZ1",
           "name": "Intrepid-creator-economy-startups-entrepreneur.png",
           "filePath": "../public/plasmic/market_v_2/images/intrepidCreatorEconomyStartupsEntrepreneurpng.png"
+        },
+        {
+          "id": "8ymjbDuDg",
+          "name": "userAvatar-for presentation.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
+        },
+        {
+          "id": "YIVrWSdEW",
+          "name": "brooke-cagle-W7pk4FfrSY0-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
+        },
+        {
+          "id": "iJywtUQ2c",
+          "name": "cesar-rincon-XHVpWcr5grQ-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
+        },
+        {
+          "id": "xhQYMSfmb",
+          "name": "charles-deluvio-kVg2DQTAK7c-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
+        },
+        {
+          "id": "DJ_sVuJaK",
+          "name": "gift-habeshaw-ZMSk6is2yQ4-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/giftHabeshawZmSk6Is2YQ4Unsplashjpg.jpeg"
+        },
+        {
+          "id": "Dz7o515pK",
+          "name": "hust-wilson-WyDr1KFS23Y-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/hustWilsonWyDr1Kfs23YUnsplashjpg.jpeg"
+        },
+        {
+          "id": "ncyKbP0-u",
+          "name": "jon-grogan-KUdeP8Q_QMg-unsplash.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/jonGroganKUdeP8QQMgUnsplashjpg.jpeg"
+        },
+        {
+          "id": "IIb3Uq3vF",
+          "name": "fa289c7a182449412dcfb44d3f2984b7.png",
+          "filePath": "../public/plasmic/market_v_2/images/fa289C7A182449412Dcfb44D3F2984B7Png.png"
+        },
+        {
+          "id": "-nROga386",
+          "name": "466762084bf3466293fba47c63ba55f7.jpg",
+          "filePath": "../public/plasmic/market_v_2/images/_466762084Bf3466293Fba47C63Ba55F7Jpg.jpeg"
+        },
+        {
+          "id": "SYJy20iqz",
+          "name": "479e0aa76edbad47c51f159fd88e2bfa.png",
+          "filePath": "../public/plasmic/market_v_2/images/_479E0Aa76Edbad47C51F159Fd88E2Bfapng.png"
+        },
+        {
+          "id": "Oi8cIhHZ2",
+          "name": "Intrepid-creator-economy-startups-entrepreneur.png 2",
+          "filePath": "../public/plasmic/market_v_2/images/intrepidCreatorEconomyStartupsEntrepreneurpng2.png"
         }
       ],
       "codeComponents": [],
@@ -5497,6 +5578,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.157",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
 }

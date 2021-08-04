@@ -101,6 +101,16 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
             "_32"
           )
         })}
+        navUserAvatar16={
+          <img
+            alt={""}
+            className={classNames(defaultcss.img, sty.img__dolm6)}
+            role={"img"}
+            src={
+              "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
+            }
+          />
+        }
         size={
           hasVariant(variants, "groupSize", "_32")
             ? "_32"
@@ -397,6 +407,16 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               hasVariant(variants, "amount", "_3") &&
               hasVariant(variants, "groupSize", "_16")
           })}
+          navUserAvatar16={
+            <img
+              alt={""}
+              className={classNames(defaultcss.img, sty.img__dxJKw)}
+              role={"img"}
+              src={
+                "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
+              }
+            />
+          }
           size={
             hasVariant(variants, "amount", "_3") &&
             hasVariant(variants, "groupSize", "_16")
@@ -429,6 +449,16 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_4"
             )
           })}
+          navUserAvatar16={
+            <img
+              alt={""}
+              className={classNames(defaultcss.img, sty.img___31TU3)}
+              role={"img"}
+              src={
+                "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
+              }
+            />
+          }
           size={
             hasVariant(variants, "amount", "_3") &&
             hasVariant(variants, "groupSize", "_16")

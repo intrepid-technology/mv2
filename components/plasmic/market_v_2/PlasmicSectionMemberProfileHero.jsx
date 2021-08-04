@@ -106,7 +106,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.memberNumberCount
                     )}
                   >
-                    {"####"}
+                    {"278"}
                   </div>
 
                   <div
@@ -141,7 +141,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.followingNumberCount
                     )}
                   >
-                    {"####"}
+                    {"500"}
                   </div>
 
                   <div
@@ -151,7 +151,9 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.freeBox___3QQmy
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Connections"
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Connections"
                       : "Followers"}
                   </div>
@@ -173,7 +175,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.partnerNumberCount
                     )}
                   >
-                    {"####"}
+                    {"10k"}
                   </div>
 
                   <div
@@ -183,7 +185,9 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.freeBox__qKdWg
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
+                    {hasVariant(globalVariants, "screen", "mobile")
+                      ? "Followers"
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Followers"
                       : "Teams"}
                   </div>
@@ -205,7 +209,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.viewsNumberCount
                     )}
                   >
-                    {"####"}
+                    {"162"}
                   </div>
 
                   <div
@@ -237,7 +241,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.reactsNumberCount
                     )}
                   >
-                    {"####"}
+                    {"24k"}
                   </div>
 
                   <div
@@ -267,7 +271,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.savesNumberCount
                     )}
                   >
-                    {"####"}
+                    {"38"}
                   </div>
 
                   <div

@@ -107,7 +107,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                 sty.cityName
               )}
             >
-              {"City"}
+              {"San Francisco"}
             </div>
 
             <div
@@ -137,7 +137,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                 sty.countryName
               )}
             >
-              {"Country"}
+              {"United States"}
             </div>
           </div>
         </p.Stack>

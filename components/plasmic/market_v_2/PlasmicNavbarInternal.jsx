@@ -402,6 +402,24 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                   "search"
                 )
               })}
+              navUserAvatar32={
+                <img
+                  data-plasmic-name={"navUserAvatar32"}
+                  data-plasmic-override={overrides.navUserAvatar32}
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.navUserAvatar32, {
+                    [sty.navUserAvatar32__search]: hasVariant(
+                      variants,
+                      "search",
+                      "search"
+                    )
+                  })}
+                  role={"img"}
+                  src={
+                    "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
+                  }
+                />
+              }
               size={"_32"}
             />
           </p.Stack>
@@ -430,7 +448,8 @@ const PlasmicDescendants = {
     "navbarListButtonText22",
     "navbarSave",
     "navbarBrief",
-    "userAvatar"
+    "userAvatar",
+    "navUserAvatar32"
   ],
 
   parent: [
@@ -450,7 +469,8 @@ const PlasmicDescendants = {
     "navbarListButtonText22",
     "navbarSave",
     "navbarBrief",
-    "userAvatar"
+    "userAvatar",
+    "navUserAvatar32"
   ],
 
   sidebarHeaderClosed: ["sidebarHeaderClosed", "navbarSwitch", "navbarLogo"],
@@ -490,7 +510,8 @@ const PlasmicDescendants = {
   navbarListButtonText22: ["navbarListButtonText22"],
   navbarSave: ["navbarSave"],
   navbarBrief: ["navbarBrief"],
-  userAvatar: ["userAvatar"]
+  userAvatar: ["userAvatar", "navUserAvatar32"],
+  navUserAvatar32: ["navUserAvatar32"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -544,6 +565,7 @@ export const PlasmicNavbarInternal = Object.assign(
     navbarSave: makeNodeComponent("navbarSave"),
     navbarBrief: makeNodeComponent("navbarBrief"),
     userAvatar: makeNodeComponent("userAvatar"),
+    navUserAvatar32: makeNodeComponent("navUserAvatar32"),
     // Metadata about props expected for PlasmicNavbarInternal
     internalVariantProps: PlasmicNavbarInternal__VariantProps,
     internalArgProps: PlasmicNavbarInternal__ArgProps

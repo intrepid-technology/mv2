@@ -65,41 +65,49 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__wvMgP)}
           size={"_45X45"}
+          social={"instagram"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__a7YuX)}
           size={"_45X45"}
+          social={"tikTok"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__ahLbK)}
           size={"_45X45"}
+          social={"youtube"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__imAum)}
           size={"_45X45"}
+          social={"twitter"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__oEyeo)}
           size={"_45X45"}
+          social={"snapchat"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__ltavd)}
           size={"_45X45"}
+          social={"twitch"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__wDYjG)}
           size={"_45X45"}
+          social={"discord"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__t3HKm)}
           size={"_45X45"}
+          social={"pinterest"}
         />
 
         <IconSocialProfile
@@ -108,11 +116,13 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
             sty.iconSocialProfile___5ByKt
           )}
           size={"_45X45"}
+          social={"wechat"}
         />
 
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__nbcgd)}
           size={"_45X45"}
+          social={"hackerNews"}
         />
       </p.Stack>
     </p.Stack>

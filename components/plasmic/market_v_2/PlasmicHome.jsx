@@ -78,7 +78,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/ce9c63d8b40f511dc15241eed8754634.png"
+            "https://site-assets.plasmic.app/687bcb366d82837e6c14393bf64e6369.png"
           }
         />
       </Head>

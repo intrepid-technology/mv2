@@ -49,15 +49,43 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           data-plasmic-override={overrides.avatarParent}
           className={classNames(defaultcss.all, sty.avatarParent)}
         >
-          <UserAvatar size={"_18"} />
+          <UserAvatar
+            navUserAvatar18={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img___6MgzQ)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
+              />
+            }
+            size={"_18"}
+          />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__wIqc)}
+            navUserAvatar18={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__wdIxV)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/image32.png"}
+              />
+            }
             size={"_18"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__dlYga)}
+            navUserAvatar18={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__dqrFq)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_18"}
           />
         </div>

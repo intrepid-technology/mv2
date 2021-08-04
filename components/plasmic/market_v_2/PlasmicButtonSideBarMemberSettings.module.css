@@ -1,5 +1,5 @@
 .root {
-  display: flex;
+  display: block;
   position: relative;
   flex-direction: column;
   align-items: stretch;
@@ -13,6 +13,9 @@
   display: flex;
   flex-direction: row;
   height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
   min-width: 0;
   padding: 0px;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;

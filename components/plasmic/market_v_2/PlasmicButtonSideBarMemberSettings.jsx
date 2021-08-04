@@ -68,7 +68,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
                 sty.userfirstName
               )}
             >
-              {"FirstName"}
+              {"Annie"}
             </div>
 
             <div
@@ -80,7 +80,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
                 sty.userLastName
               )}
             >
-              {"LastName"}
+              {"Beyol Lee"}
             </div>
           </p.Stack>
 
@@ -110,7 +110,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
                 sty.userDisplayNameText
               )}
             >
-              {"userDisplayName"}
+              {"pixiedesign"}
             </div>
           </div>
         </p.Stack>

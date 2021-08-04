@@ -77,6 +77,18 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           <UserAvatar
             data-plasmic-name={"userAvatar"}
             data-plasmic-override={overrides.userAvatar}
+            navUserAvatar80={
+              <img
+                data-plasmic-name={"navUserAvatar80"}
+                data-plasmic-override={overrides.navUserAvatar80}
+                alt={""}
+                className={classNames(defaultcss.img, sty.navUserAvatar80)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
+                }
+              />
+            }
             size={"_80"}
             verified={
               hasVariant(globalVariants, "screen", "desktop")
@@ -111,7 +123,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     sty.freeBox__a2Y3
                   )}
                 >
-                  {"firstName"}
+                  {"Annie"}
                 </div>
               </div>
 
@@ -127,7 +139,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     sty.freeBox__mD7Z
                   )}
                 >
-                  {"lastName"}
+                  {"Young Son"}
                 </div>
               </div>
             </p.Stack>
@@ -171,7 +183,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                       sty.freeBox___9Y1Y0
                     )}
                   >
-                    {"displayname"}
+                    {"pixiedesign"}
                   </div>
                 </div>
               </p.Stack>
@@ -317,8 +329,8 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             )}
           >
             {hasVariant(globalVariants, "screen", "desktop")
-              ? "UserMember tag-line short description. Max 80 Char"
-              : "UserMember tag-line short description. Max 80 Char"}
+              ? "Designer and engineer. Ex Uber, Ex-Shopify. #travel"
+              : "Designer and engineer. Ex Uber, Ex-Shopify. #travel"}
           </div>
         </p.Stack>
 
@@ -434,6 +446,7 @@ const PlasmicDescendants = {
     "parent",
     "userProfileHeadline",
     "userAvatar",
+    "navUserAvatar80",
     "userDetailParent",
     "userFirstLastName",
     "firstNameParent",
@@ -462,6 +475,7 @@ const PlasmicDescendants = {
     "parent",
     "userProfileHeadline",
     "userAvatar",
+    "navUserAvatar80",
     "userDetailParent",
     "userFirstLastName",
     "firstNameParent",
@@ -489,6 +503,7 @@ const PlasmicDescendants = {
   userProfileHeadline: [
     "userProfileHeadline",
     "userAvatar",
+    "navUserAvatar80",
     "userDetailParent",
     "userFirstLastName",
     "firstNameParent",
@@ -507,7 +522,8 @@ const PlasmicDescendants = {
     "elementLocationPrimary"
   ],
 
-  userAvatar: ["userAvatar"],
+  userAvatar: ["userAvatar", "navUserAvatar80"],
+  navUserAvatar80: ["navUserAvatar80"],
   userDetailParent: [
     "userDetailParent",
     "userFirstLastName",
@@ -605,6 +621,7 @@ export const PlasmicCardHeroMemberProfileDisplay = Object.assign(
     parent: makeNodeComponent("parent"),
     userProfileHeadline: makeNodeComponent("userProfileHeadline"),
     userAvatar: makeNodeComponent("userAvatar"),
+    navUserAvatar80: makeNodeComponent("navUserAvatar80"),
     userDetailParent: makeNodeComponent("userDetailParent"),
     userFirstLastName: makeNodeComponent("userFirstLastName"),
     firstNameParent: makeNodeComponent("firstNameParent"),

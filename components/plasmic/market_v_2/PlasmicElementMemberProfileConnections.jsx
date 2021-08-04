@@ -79,51 +79,143 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
         >
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__sbwC6)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__iDk2)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar___00A20)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__qdWwr)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/memberHero11Png.jpeg"}
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__vwX2N)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__rwAvc)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__nopbF)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img___0Ehi8)}
+                role={"img"}
+                src={"/plasmic/market_v_2/images/image32.png"}
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar___9S2Ix)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__epUpT)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__q6Iwb)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__ydvV2)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__ul2Xw)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__lxX9L)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__fflUh)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__nLx6Q)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/giftHabeshawZmSk6Is2YQ4Unsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__iwNAj)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__lBZxJ)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/hustWilsonWyDr1Kfs23YUnsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
 
           <UserAvatar
             className={classNames("__wab_instance", sty.userAvatar__yVaFc)}
+            navUserAvatar48={
+              <img
+                alt={""}
+                className={classNames(defaultcss.img, sty.img__gg49Z)}
+                role={"img"}
+                src={
+                  "/plasmic/market_v_2/images/jonGroganKUdeP8QQMgUnsplashjpg.jpeg"
+                }
+              />
+            }
             size={"_48"}
           />
         </p.Stack>

@@ -158,7 +158,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   : "Subscriptions"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktop") ? "3" : "3"
+                hasVariant(globalVariants, "screen", "desktop") ? "3" : "278"
               }
               state={
                 hasVariant(variants, "selected", "subscriptions")
@@ -192,7 +192,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   : "Lists"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktop") ? "12" : "12"
+                hasVariant(globalVariants, "screen", "desktop") ? "12" : "8"
               }
               state={
                 hasVariant(variants, "selected", "lists")
@@ -257,7 +257,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   : "Reviews"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktop") ? "12" : "12"
+                hasVariant(globalVariants, "screen", "desktop") ? "12" : "162"
               }
               state={
                 hasVariant(variants, "selected", "reviews")
@@ -291,7 +291,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   : "Reacts"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktop") ? "999" : "999"
+                hasVariant(globalVariants, "screen", "desktop") ? "999" : "24k"
               }
               state={
                 hasVariant(variants, "selected", "reacts")
@@ -325,7 +325,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                   : "Views"
               }
               numberValue={
-                hasVariant(globalVariants, "screen", "desktop") ? "999" : "999"
+                hasVariant(globalVariants, "screen", "desktop") ? "999" : "100k"
               }
               state={
                 hasVariant(variants, "selected", "views")
