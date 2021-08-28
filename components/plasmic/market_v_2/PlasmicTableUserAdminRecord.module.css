@@ -31,7 +31,13 @@
 .userAvatarNameEmailParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.userAvatarNameEmailParent > :global(.__wab_flex-container) > picture > img,
+.userAvatarNameEmailParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .elementRadioPrimary:global(.__wab_instance) {
@@ -54,6 +60,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___97TOv > picture > img {
+  object-fit: cover;
+}
+.img___97TOv > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__yir81 {
   position: relative;
   object-fit: cover;
@@ -64,6 +76,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__yir81 > picture > img {
+  object-fit: cover;
+}
+.img__yir81 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__baHa7 {
   position: relative;
@@ -76,6 +94,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__baHa7 > picture > img {
+  object-fit: cover;
+}
+.img__baHa7 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__uTEn6 {
   position: relative;
   object-fit: cover;
@@ -86,6 +110,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__uTEn6 > picture > img {
+  object-fit: cover;
+}
+.img__uTEn6 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__fdB61 {
   position: relative;
@@ -98,6 +128,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__fdB61 > picture > img {
+  object-fit: cover;
+}
+.img__fdB61 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__dWaTt {
   position: relative;
   object-fit: cover;
@@ -108,6 +144,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__dWaTt > picture > img {
+  object-fit: cover;
+}
+.img__dWaTt > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__rUDgi {
   position: relative;
@@ -120,6 +162,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__rUDgi > picture > img {
+  object-fit: cover;
+}
+.img__rUDgi > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___2QXmj {
   position: relative;
   object-fit: cover;
@@ -130,6 +178,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img___2QXmj > picture > img {
+  object-fit: cover;
+}
+.img___2QXmj > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__mCcRz {
   position: relative;
@@ -142,6 +196,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__mCcRz > picture > img {
+  object-fit: cover;
+}
+.img__mCcRz > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___8Wp64 {
   position: relative;
   object-fit: cover;
@@ -153,6 +213,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___8Wp64 > picture > img {
+  object-fit: cover;
+}
+.img___8Wp64 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__f52Cs {
   position: relative;
   object-fit: cover;
@@ -163,6 +229,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__f52Cs > picture > img {
+  object-fit: cover;
+}
+.img__f52Cs > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .userInfoParent {
   display: inline-flex;
@@ -181,7 +253,13 @@
   height: calc(100% + 4px);
 }
 .userInfoParent > :global(.__wab_flex-container) > *,
-.userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.userInfoParent > :global(.__wab_flex-container) > picture > img,
+.userInfoParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .usernameParent {
@@ -228,7 +306,13 @@
   width: calc(100% + 8px);
 }
 .userAction > :global(.__wab_flex-container) > *,
-.userAction > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.userAction > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.userAction > :global(.__wab_flex-container) > picture > img,
+.userAction
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .userRole {

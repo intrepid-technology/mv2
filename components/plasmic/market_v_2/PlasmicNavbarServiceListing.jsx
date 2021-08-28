@@ -82,10 +82,11 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         : null}
 
       <ButtonPrimary
-        data-plasmic-name={"buttonPrimary"}
-        data-plasmic-override={overrides.buttonPrimary}
-        className={classNames("__wab_instance", sty.buttonPrimary)}
+        data-plasmic-name={"buttonNext"}
+        data-plasmic-override={overrides.buttonNext}
+        className={classNames("__wab_instance", sty.buttonNext)}
         color={"brand"}
+        id={""}
         size={"_120"}
       >
         <div
@@ -112,10 +113,10 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "logoHeader", "img", "buttonPrimary", "freeBox"],
+  root: ["root", "logoHeader", "img", "buttonNext", "freeBox"],
   logoHeader: ["logoHeader", "img"],
   img: ["img"],
-  buttonPrimary: ["buttonPrimary", "freeBox"],
+  buttonNext: ["buttonNext", "freeBox"],
   freeBox: ["freeBox"]
 };
 
@@ -152,7 +153,7 @@ export const PlasmicNavbarServiceListing = Object.assign(
     // Helper components rendering sub-elements
     logoHeader: makeNodeComponent("logoHeader"),
     img: makeNodeComponent("img"),
-    buttonPrimary: makeNodeComponent("buttonPrimary"),
+    buttonNext: makeNodeComponent("buttonNext"),
     freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicNavbarServiceListing
     internalVariantProps: PlasmicNavbarServiceListing__VariantProps,

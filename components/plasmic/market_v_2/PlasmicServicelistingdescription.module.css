@@ -15,7 +15,9 @@
   height: calc(100% + 40px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 40px;
 }
 .serviceListingNavbar {
@@ -55,7 +57,13 @@
   width: calc(100% + 360px);
 }
 .freeBox___09Zdm > :global(.__wab_flex-container) > *,
-.freeBox___09Zdm > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___09Zdm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___09Zdm > :global(.__wab_flex-container) > picture > img,
+.freeBox___09Zdm
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionTitleBlock {
@@ -73,10 +81,13 @@
   height: calc(100% + 64px);
 }
 .questionTitleBlock > :global(.__wab_flex-container) > *,
+.questionTitleBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.questionTitleBlock > :global(.__wab_flex-container) > picture > img,
 .questionTitleBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__laelq {
@@ -92,7 +103,7 @@
 .freeBox__nr931 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.inputTextField:global(.__wab_instance) {
+.serviceName:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -127,7 +138,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__qeVgc > :global(.__wab_flex-container) > *,
-.freeBox__qeVgc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__qeVgc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__qeVgc > :global(.__wab_flex-container) > picture > img,
+.freeBox__qeVgc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionDescriptionBlock {
@@ -150,7 +167,13 @@
 .questionDescriptionBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionDescriptionBlock > :global(.__wab_flex-container) > picture > img,
+.questionDescriptionBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox___0B5MK {
@@ -166,7 +189,7 @@
 .freeBox__uc5Jc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.inputRichTextField__tm58R:global(.__wab_instance) {
+.serviceDescription:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -201,7 +224,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__axd3H > :global(.__wab_flex-container) > *,
-.freeBox__axd3H > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__axd3H > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__axd3H > :global(.__wab_flex-container) > picture > img,
+.freeBox__axd3H
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionProcessBlock {
@@ -224,7 +253,13 @@
 .questionProcessBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionProcessBlock > :global(.__wab_flex-container) > picture > img,
+.questionProcessBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__j5P5R {
@@ -242,7 +277,13 @@
   height: calc(100% + 64px);
 }
 .freeBox__j5P5R > :global(.__wab_flex-container) > *,
-.freeBox__j5P5R > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__j5P5R > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__j5P5R > :global(.__wab_flex-container) > picture > img,
+.freeBox__j5P5R
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__io8Zz {
@@ -261,7 +302,7 @@
 .freeBox__wEkof {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.inputRichTextField__y56Zz:global(.__wab_instance) {
+.inputRichTextField:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -283,7 +324,13 @@
   height: calc(100% + 6px);
 }
 .freeBox__oslf > :global(.__wab_flex-container) > *,
-.freeBox__oslf > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__oslf > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__oslf > :global(.__wab_flex-container) > picture > img,
+.freeBox__oslf
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 6px;
 }
 .freeBox__mnyPp {

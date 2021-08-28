@@ -25,7 +25,13 @@
   width: calc(100% + 0px);
 }
 .freeBox___7YsjM > :global(.__wab_flex-container) > *,
-.freeBox___7YsjM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___7YsjM > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___7YsjM > :global(.__wab_flex-container) > picture > img,
+.freeBox___7YsjM
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .freeBox___8WzAi {
@@ -60,7 +66,13 @@
 .currencyTotalValueParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.currencyTotalValueParent > :global(.__wab_flex-container) > picture > img,
+.currencyTotalValueParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .currencyParent {

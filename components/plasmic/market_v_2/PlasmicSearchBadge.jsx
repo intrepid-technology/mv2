@@ -38,9 +38,9 @@ function PlasmicSearchBadge__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"serviceIndustry"}
+        data-plasmic-override={overrides.serviceIndustry}
+        className={classNames(defaultcss.input, sty.serviceIndustry)}
         placeholder={"Search and enter"}
         size={1}
         type={"text"}
@@ -83,8 +83,8 @@ function PlasmicSearchBadge__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox", "freeBox"],
-  textbox: ["textbox"],
+  root: ["root", "serviceIndustry", "freeBox"],
+  serviceIndustry: ["serviceIndustry"],
   freeBox: ["freeBox"]
 };
 
@@ -119,7 +119,7 @@ export const PlasmicSearchBadge = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textbox: makeNodeComponent("textbox"),
+    serviceIndustry: makeNodeComponent("serviceIndustry"),
     freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSearchBadge
     internalVariantProps: PlasmicSearchBadge__VariantProps,

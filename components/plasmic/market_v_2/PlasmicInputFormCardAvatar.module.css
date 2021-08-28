@@ -48,7 +48,13 @@
   width: calc(100% + 48px);
 }
 .mainCard > :global(.__wab_flex-container) > *,
-.mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.mainCard > :global(.__wab_flex-container) > picture > img,
+.mainCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 48px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -80,7 +86,13 @@
   height: calc(100% + 8px);
 }
 .headlineParent > :global(.__wab_flex-container) > *,
-.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headlineParent > :global(.__wab_flex-container) > picture > img,
+.headlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .freeBox___8FgC {
@@ -144,6 +156,12 @@
   min-height: 0;
   border-radius: 100%;
   border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+.img__lB4TS > picture > img {
+  object-fit: cover;
+}
+.img__lB4TS > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .descriptionCard {
   display: flex;

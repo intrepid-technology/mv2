@@ -108,7 +108,13 @@
   .sectionAboutDetails
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionAboutDetails > :global(.__wab_flex-container) > picture > img,
+  .sectionAboutDetails
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 32px;
     margin-top: 32px;
   }
@@ -140,7 +146,13 @@
   .sectionAboutDetails
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionAboutDetails > :global(.__wab_flex-container) > picture > img,
+  .sectionAboutDetails
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 24px;
   }
@@ -187,7 +199,13 @@
 .memberTeamConnectionsSection
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberTeamConnectionsSection > :global(.__wab_flex-container) > picture > img,
+.memberTeamConnectionsSection
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
   margin-top: 32px;
 }
@@ -222,7 +240,16 @@
   .memberTeamConnectionsSection
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .memberTeamConnectionsSection
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .memberTeamConnectionsSection
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 32px;
     margin-top: 32px;
   }
@@ -258,7 +285,16 @@
   .memberTeamConnectionsSection
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .memberTeamConnectionsSection
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .memberTeamConnectionsSection
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 24px;
   }
@@ -326,7 +362,16 @@
   .sectionMemberProfileIndustrySocial
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionMemberProfileIndustrySocial
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionMemberProfileIndustrySocial
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 32px;
     margin-top: 32px;
   }
@@ -358,7 +403,16 @@
   .sectionMemberProfileIndustrySocial
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionMemberProfileIndustrySocial
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionMemberProfileIndustrySocial
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 24px;
   }
@@ -424,7 +478,16 @@
   .sectionProfileMemberSimilarMembers
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionProfileMemberSimilarMembers
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionProfileMemberSimilarMembers
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 8px;
   }
@@ -456,7 +519,16 @@
   .sectionProfileMemberSimilarMembers
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionProfileMemberSimilarMembers
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionProfileMemberSimilarMembers
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 24px;
   }
@@ -502,7 +574,16 @@
   .sectionProfileMemberPeopleAlsoViewed
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionProfileMemberPeopleAlsoViewed
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionProfileMemberPeopleAlsoViewed
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 8px;
   }
@@ -534,7 +615,16 @@
   .sectionProfileMemberPeopleAlsoViewed
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionProfileMemberPeopleAlsoViewed
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionProfileMemberPeopleAlsoViewed
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 24px;
   }

@@ -30,7 +30,13 @@
 .editListingSectionParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.editListingSectionParent > :global(.__wab_flex-container) > picture > img,
+.editListingSectionParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 0px;
 }
 .navbarInternal:global(.__wab_instance) {
@@ -59,7 +65,13 @@
 .sectionHeaderEditListing
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionHeaderEditListing > :global(.__wab_flex-container) > picture > img,
+.sectionHeaderEditListing
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -91,10 +103,13 @@
   height: calc(100% + 32px);
 }
 .sectionEditListing > :global(.__wab_flex-container) > *,
+.sectionEditListing > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionEditListing > :global(.__wab_flex-container) > picture > img,
 .sectionEditListing
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -123,7 +138,13 @@
   .sectionEditListing
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionEditListing > :global(.__wab_flex-container) > picture > img,
+  .sectionEditListing
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 32px;
   }
@@ -151,7 +172,16 @@
 .listingEditCategoryFieldsParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingEditCategoryFieldsParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listingEditCategoryFieldsParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 96px;
   margin-top: 48px;
 }
@@ -176,7 +206,16 @@
   .listingEditCategoryFieldsParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .listingEditCategoryFieldsParent
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .listingEditCategoryFieldsParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
   }
 }

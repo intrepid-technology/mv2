@@ -92,20 +92,40 @@ function PlasmicInputRichTextField__RenderFunc(props) {
         ) : null}
 
         <textarea
-          data-plasmic-name={"textarea"}
-          data-plasmic-override={overrides.textarea}
-          className={classNames(defaultcss.textarea, sty.textarea, {
-            [sty.textarea__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.textarea__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.textarea__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.textarea__size__540]: hasVariant(variants, "size", "_540"),
-            [sty.textarea__type_primary]: hasVariant(
+          data-plasmic-name={"serviceOverview"}
+          data-plasmic-override={overrides.serviceOverview}
+          className={classNames(defaultcss.textarea, sty.serviceOverview, {
+            [sty.serviceOverview__size__180]: hasVariant(
+              variants,
+              "size",
+              "_180"
+            ),
+
+            [sty.serviceOverview__size__270]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
+
+            [sty.serviceOverview__size__360]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            ),
+
+            [sty.serviceOverview__size__540]: hasVariant(
+              variants,
+              "size",
+              "_540"
+            ),
+
+            [sty.serviceOverview__type_primary]: hasVariant(
               variants,
               "type",
               "primary"
             ),
 
-            [sty.textarea__type_secondary]: hasVariant(
+            [sty.serviceOverview__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
@@ -146,10 +166,17 @@ function PlasmicInputRichTextField__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "headlineLabelParent", "textarea", "subheadParent"],
-  parent: ["parent", "headlineLabelParent", "textarea", "subheadParent"],
+  root: [
+    "root",
+    "parent",
+    "headlineLabelParent",
+    "serviceOverview",
+    "subheadParent"
+  ],
+
+  parent: ["parent", "headlineLabelParent", "serviceOverview", "subheadParent"],
   headlineLabelParent: ["headlineLabelParent"],
-  textarea: ["textarea"],
+  serviceOverview: ["serviceOverview"],
   subheadParent: ["subheadParent"]
 };
 
@@ -186,7 +213,7 @@ export const PlasmicInputRichTextField = Object.assign(
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
     headlineLabelParent: makeNodeComponent("headlineLabelParent"),
-    textarea: makeNodeComponent("textarea"),
+    serviceOverview: makeNodeComponent("serviceOverview"),
     subheadParent: makeNodeComponent("subheadParent"),
     // Metadata about props expected for PlasmicInputRichTextField
     internalVariantProps: PlasmicInputRichTextField__VariantProps,

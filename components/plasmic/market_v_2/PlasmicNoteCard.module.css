@@ -18,7 +18,9 @@
   width: calc(100% + 24px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 24px;
 }
 .noteMessageParent {
@@ -40,7 +42,13 @@
   width: calc(100% + 4px);
 }
 .noteMessageParent > :global(.__wab_flex-container) > *,
-.noteMessageParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.noteMessageParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.noteMessageParent > :global(.__wab_flex-container) > picture > img,
+.noteMessageParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .noteParent {

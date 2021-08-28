@@ -18,8 +18,20 @@
   display: inline-inline-block;
   flex-shrink: 0;
 }
+.img__n8PaC > picture > img {
+  object-fit: cover;
+}
+.img__n8PaC > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img {
   position: relative;
+  object-fit: cover;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__color {

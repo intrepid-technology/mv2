@@ -121,10 +121,9 @@ function PlasmicPartnerpricing__RenderFunc(props) {
             </div>
 
             <ButtonPrimary
-              className={classNames(
-                "__wab_instance",
-                sty.buttonPrimary___39Sso
-              )}
+              data-plasmic-name={"partnerSellingButton"}
+              data-plasmic-override={overrides.partnerSellingButton}
+              className={classNames("__wab_instance", sty.partnerSellingButton)}
               color={"brand"}
               size={"_360"}
             >
@@ -1399,6 +1398,7 @@ const PlasmicDescendants = {
   root: [
     "root",
     "navbarPrimary",
+    "partnerSellingButton",
     "overlineHeadline",
     "partnerMakerPricingTable",
     "featureParent",
@@ -1421,6 +1421,7 @@ const PlasmicDescendants = {
   ],
 
   navbarPrimary: ["navbarPrimary"],
+  partnerSellingButton: ["partnerSellingButton"],
   overlineHeadline: ["overlineHeadline"],
   partnerMakerPricingTable: [
     "partnerMakerPricingTable",
@@ -1502,6 +1503,7 @@ export const PlasmicPartnerpricing = Object.assign(
   {
     // Helper components rendering sub-elements
     navbarPrimary: makeNodeComponent("navbarPrimary"),
+    partnerSellingButton: makeNodeComponent("partnerSellingButton"),
     overlineHeadline: makeNodeComponent("overlineHeadline"),
     partnerMakerPricingTable: makeNodeComponent("partnerMakerPricingTable"),
     featureParent: makeNodeComponent("featureParent"),

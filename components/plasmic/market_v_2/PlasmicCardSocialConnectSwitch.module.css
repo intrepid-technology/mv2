@@ -27,7 +27,13 @@
   width: calc(100% + 96px);
 }
 .parent > :global(.__wab_flex-container) > *,
-.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.parent > :global(.__wab_flex-container) > picture > img,
+.parent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 96px;
 }
 .parent__width__360 {
@@ -61,7 +67,13 @@
   width: calc(100% + 8px);
 }
 .freeBox__ma38J > :global(.__wab_flex-container) > *,
-.freeBox__ma38J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ma38J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ma38J > :global(.__wab_flex-container) > picture > img,
+.freeBox__ma38J
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .iconSocialProfile:global(.__wab_instance) {

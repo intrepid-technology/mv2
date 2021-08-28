@@ -31,7 +31,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
-  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -83,7 +89,16 @@
 .sectionPartnerManageListingsHeader
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionPartnerManageListingsHeader
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionPartnerManageListingsHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -115,7 +130,16 @@
   .sectionPartnerManageListingsHeader
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionPartnerManageListingsHeader
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionPartnerManageListingsHeader
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -152,7 +176,13 @@
 .sectionPartnerManageListings
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionPartnerManageListings > :global(.__wab_flex-container) > picture > img,
+.sectionPartnerManageListings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -188,7 +218,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__aPXdG > :global(.__wab_flex-container) > *,
-.freeBox__aPXdG > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__aPXdG > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__aPXdG > :global(.__wab_flex-container) > picture > img,
+.freeBox__aPXdG
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -226,7 +262,13 @@
 .listingManagementBlockParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingManagementBlockParent > :global(.__wab_flex-container) > picture > img,
+.listingManagementBlockParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .listingTotalParent {
@@ -247,10 +289,13 @@
   width: calc(100% + 8px);
 }
 .listingTotalParent > :global(.__wab_flex-container) > *,
+.listingTotalParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.listingTotalParent > :global(.__wab_flex-container) > picture > img,
 .listingTotalParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
 }
 .listingNumberParent {
@@ -294,7 +339,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__xulmc > :global(.__wab_flex-container) > *,
-.freeBox__xulmc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xulmc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xulmc > :global(.__wab_flex-container) > picture > img,
+.freeBox__xulmc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .listingSearchFilterParent {
@@ -331,7 +382,13 @@
   width: calc(100% + 48px);
 }
 .freeBox___4Lom7 > :global(.__wab_flex-container) > *,
-.freeBox___4Lom7 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___4Lom7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___4Lom7 > :global(.__wab_flex-container) > picture > img,
+.freeBox___4Lom7
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 48px;
 }
 .searchbarPrimary:global(.__wab_instance) {
@@ -359,7 +416,16 @@
 .listingSearchFilterDropdownParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .selectDropdownPrimary__uyKzy:global(.__wab_instance) {
@@ -415,7 +481,16 @@
 .listingManagementTableColumnParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingManagementTableColumnParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listingManagementTableColumnParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 2px;
 }
 .tableListingAdminHeader:global(.__wab_instance) {

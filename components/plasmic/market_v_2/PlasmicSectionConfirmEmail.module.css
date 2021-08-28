@@ -15,7 +15,13 @@
   height: calc(100% + 24px);
 }
 .parent > :global(.__wab_flex-container) > *,
-.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.parent > :global(.__wab_flex-container) > picture > img,
+.parent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -38,7 +44,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) > *,
-  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .parent > :global(.__wab_flex-container) > picture > img,
+  .parent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -58,7 +70,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .parent > :global(.__wab_flex-container) > *,
-  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .parent > :global(.__wab_flex-container) > picture > img,
+  .parent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -86,7 +104,13 @@
 .formEmailConfirmation
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formEmailConfirmation > :global(.__wab_flex-container) > picture > img,
+.formEmailConfirmation
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 32px;
 }
@@ -108,7 +132,13 @@
   .formEmailConfirmation
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .formEmailConfirmation > :global(.__wab_flex-container) > picture > img,
+  .formEmailConfirmation
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 32px;
   }
@@ -182,7 +212,13 @@
   height: calc(100% + 12px);
 }
 .textDivParent > :global(.__wab_flex-container) > *,
-.textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.textDivParent > :global(.__wab_flex-container) > picture > img,
+.textDivParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 12px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -195,7 +231,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .textDivParent > :global(.__wab_flex-container) > *,
-  .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .textDivParent > :global(.__wab_flex-container) > picture > img,
+  .textDivParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -210,7 +252,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .textDivParent > :global(.__wab_flex-container) > *,
-  .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .textDivParent > :global(.__wab_flex-container) > picture > img,
+  .textDivParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -354,7 +402,13 @@
 .buttonResendHeadlineParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.buttonResendHeadlineParent > :global(.__wab_flex-container) > picture > img,
+.buttonResendHeadlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -379,7 +433,13 @@
   .buttonResendHeadlineParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .buttonResendHeadlineParent > :global(.__wab_flex-container) > picture > img,
+  .buttonResendHeadlineParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 4px;
   }
@@ -423,7 +483,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .buttonHeadline > :global(.__wab_flex-container) > *,
-  .buttonHeadline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .buttonHeadline > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .buttonHeadline > :global(.__wab_flex-container) > picture > img,
+  .buttonHeadline
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }

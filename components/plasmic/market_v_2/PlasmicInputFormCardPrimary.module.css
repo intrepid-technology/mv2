@@ -38,7 +38,13 @@
   height: calc(100% + 32px);
 }
 .mainCard > :global(.__wab_flex-container) > *,
-.mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.mainCard > :global(.__wab_flex-container) > picture > img,
+.mainCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .mainCard__inputType_companyname {
@@ -56,7 +62,16 @@
 .mainCard__inputType_companyname
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.mainCard__inputType_companyname
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.mainCard__inputType_companyname
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 32px;
 }
@@ -73,7 +88,16 @@
 .mainCard__inputType_dropdownText
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.mainCard__inputType_dropdownText
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.mainCard__inputType_dropdownText
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 32px;
 }
@@ -91,7 +115,13 @@
   height: calc(100% + 8px);
 }
 .headlineParent > :global(.__wab_flex-container) > *,
-.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headlineParent > :global(.__wab_flex-container) > picture > img,
+.headlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .freeBox__iEhR {
@@ -136,10 +166,13 @@
   width: calc(100% + 48px);
 }
 .inputElementParent > :global(.__wab_flex-container) > *,
+.inputElementParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inputElementParent > :global(.__wab_flex-container) > picture > img,
 .inputElementParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 48px;
 }
 .inputElementParent__inputType_displayText {
@@ -164,7 +197,16 @@
 .inputElementParent__singleLineText
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.inputElementParent__singleLineText
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.inputElementParent__singleLineText
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -185,7 +227,16 @@
 .inputElementParent__inputType_username
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.inputElementParent__inputType_username
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.inputElementParent__inputType_username
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -206,7 +257,16 @@
 .inputElementParent__inputType_companyname
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.inputElementParent__inputType_companyname
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.inputElementParent__inputType_companyname
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -618,7 +678,13 @@
   width: calc(100% + 64px);
 }
 .descriptionCard > :global(.__wab_flex-container) > *,
-.descriptionCard > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.descriptionCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.descriptionCard > :global(.__wab_flex-container) > picture > img,
+.descriptionCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 64px;
 }
 .descriptionCard__subDescription {

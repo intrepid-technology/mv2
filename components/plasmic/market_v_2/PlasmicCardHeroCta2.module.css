@@ -82,3 +82,9 @@
   min-width: 0;
   min-height: 0;
 }
+.img___7OtsV > picture > img {
+  object-fit: cover;
+}
+.img___7OtsV > .__wab_img-spacer > img {
+  object-fit: cover;
+}

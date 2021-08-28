@@ -67,7 +67,16 @@
 .iconNumberValueTitlePercentValueParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.iconNumberValueTitlePercentValueParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.iconNumberValueTitlePercentValueParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .iconNumberValueTitlePercentValueParent__size__270 {
@@ -86,7 +95,16 @@
 .iconNumberValueTitlePercentValueParent__size__270
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.iconNumberValueTitlePercentValueParent__size__270
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.iconNumberValueTitlePercentValueParent__size__270
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 32px;
 }
@@ -153,7 +171,13 @@
   height: calc(100% + 4px);
 }
 .freeBox > :global(.__wab_flex-container) > *,
-.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .numberValue {
@@ -168,7 +192,13 @@
   width: calc(100% + 2px);
 }
 .numberValue > :global(.__wab_flex-container) > *,
-.numberValue > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.numberValue > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.numberValue > :global(.__wab_flex-container) > picture > img,
+.numberValue
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 2px;
 }
 .currencyParent {
@@ -260,7 +290,13 @@
   height: calc(100% + 24px);
 }
 .cardTitle > :global(.__wab_flex-container) > *,
-.cardTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardTitle > :global(.__wab_flex-container) > picture > img,
+.cardTitle
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .freeBox__vly1J {

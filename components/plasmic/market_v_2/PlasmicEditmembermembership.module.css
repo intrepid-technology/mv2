@@ -42,7 +42,13 @@
 .sectionMemberMembershipStatus
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberMembershipStatus > :global(.__wab_flex-container) > picture > img,
+.sectionMemberMembershipStatus
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay:global(.__wab_instance) {
@@ -72,7 +78,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___270NR > :global(.__wab_flex-container) > *,
-.freeBox___270NR > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___270NR > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___270NR > :global(.__wab_flex-container) > picture > img,
+.freeBox___270NR
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___9HoOp:global(.__wab_instance) {
@@ -102,7 +114,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__xZ1Ml > :global(.__wab_flex-container) > *,
-.freeBox__xZ1Ml > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xZ1Ml > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xZ1Ml > :global(.__wab_flex-container) > picture > img,
+.freeBox__xZ1Ml
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .freeBox___9Ncec {
@@ -150,7 +168,13 @@
   width: calc(100% + 16px);
 }
 .freeBox__jfV1S > :global(.__wab_flex-container) > *,
-.freeBox__jfV1S > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__jfV1S > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__jfV1S > :global(.__wab_flex-container) > picture > img,
+.freeBox__jfV1S
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .buttonLinkPrimary__wiBkv:global(.__wab_instance) {
@@ -188,7 +212,13 @@
 .sectionMemberPaymentMethods
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberPaymentMethods > :global(.__wab_flex-container) > picture > img,
+.sectionMemberPaymentMethods
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__hByDk {
@@ -210,7 +240,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__hByDk > :global(.__wab_flex-container) > *,
-.freeBox__hByDk > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__hByDk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__hByDk > :global(.__wab_flex-container) > picture > img,
+.freeBox__hByDk
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___4Zopx:global(.__wab_instance) {
@@ -281,7 +317,13 @@
 .sectionMemberPaymentHistory
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberPaymentHistory > :global(.__wab_flex-container) > picture > img,
+.sectionMemberPaymentHistory
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___5Ypvv {
@@ -303,7 +345,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___5Ypvv > :global(.__wab_flex-container) > *,
-.freeBox___5Ypvv > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___5Ypvv > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___5Ypvv > :global(.__wab_flex-container) > picture > img,
+.freeBox___5Ypvv
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__slOUd:global(.__wab_instance) {

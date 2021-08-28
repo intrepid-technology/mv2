@@ -26,7 +26,13 @@
   width: calc(100% + 0px);
 }
 .freeBox__p9DDy > :global(.__wab_flex-container) > *,
-.freeBox__p9DDy > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__p9DDy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__p9DDy > :global(.__wab_flex-container) > picture > img,
+.freeBox__p9DDy
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .freeBox__gMrSa {
@@ -62,7 +68,13 @@
 .totalCurrencyNumberValue
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.totalCurrencyNumberValue > :global(.__wab_flex-container) > picture > img,
+.totalCurrencyNumberValue
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .currencyParent {

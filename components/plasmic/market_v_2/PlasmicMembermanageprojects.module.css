@@ -42,7 +42,16 @@
 .sectionMemberManageProjectsHeader
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberManageProjectsHeader
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberManageProjectsHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -74,7 +83,16 @@
   .sectionMemberManageProjectsHeader
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionMemberManageProjectsHeader
+    > :global(.__wab_flex-container)
+    > picture
+    > img,
+  .sectionMemberManageProjectsHeader
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -111,7 +129,13 @@
 .sectionMemberManageListings
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberManageListings > :global(.__wab_flex-container) > picture > img,
+.sectionMemberManageListings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___5GmQ {
@@ -130,7 +154,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___5GmQ > :global(.__wab_flex-container) > *,
-.freeBox___5GmQ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___5GmQ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___5GmQ > :global(.__wab_flex-container) > picture > img,
+.freeBox___5GmQ
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .freeBox__pmRau {
@@ -154,7 +184,13 @@
 .listingManagementBlockParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingManagementBlockParent > :global(.__wab_flex-container) > picture > img,
+.listingManagementBlockParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .listingTotalParent {
@@ -175,10 +211,13 @@
   width: calc(100% + 8px);
 }
 .listingTotalParent > :global(.__wab_flex-container) > *,
+.listingTotalParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.listingTotalParent > :global(.__wab_flex-container) > picture > img,
 .listingTotalParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
 }
 .listingNumberParent {
@@ -222,7 +261,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__xYhA > :global(.__wab_flex-container) > *,
-.freeBox__xYhA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xYhA > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xYhA > :global(.__wab_flex-container) > picture > img,
+.freeBox__xYhA
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .listingSearchFilterParent {
@@ -259,7 +304,13 @@
 .searchOrderFilterParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.searchOrderFilterParent > :global(.__wab_flex-container) > picture > img,
+.searchOrderFilterParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .searchbarPrimary:global(.__wab_instance) {
@@ -287,7 +338,16 @@
 .listingSearchFilterDropdownParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .selectDropdownPrimary__wfoeh:global(.__wab_instance) {
@@ -334,7 +394,13 @@
 .orderTableColumnMain
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.orderTableColumnMain > :global(.__wab_flex-container) > picture > img,
+.orderTableColumnMain
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 2px;
 }
 .tableProjectAdminHeader:global(.__wab_instance) {

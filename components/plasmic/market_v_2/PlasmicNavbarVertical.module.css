@@ -14,7 +14,13 @@
   height: calc(100% + 6px);
 }
 .sidePanel > :global(.__wab_flex-container) > *,
-.sidePanel > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.sidePanel > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sidePanel > :global(.__wab_flex-container) > picture > img,
+.sidePanel
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 6px;
 }
 .sidePanel___switch {
@@ -31,10 +37,13 @@
   height: calc(100% + 8px);
 }
 .sidePanel___switch > :global(.__wab_flex-container) > *,
+.sidePanel___switch > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sidePanel___switch > :global(.__wab_flex-container) > picture > img,
 .sidePanel___switch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }
@@ -54,7 +63,13 @@
   width: calc(100% + 8px);
 }
 .navCard > :global(.__wab_flex-container) > *,
-.navCard > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.navCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.navCard > :global(.__wab_flex-container) > picture > img,
+.navCard
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .navCard___switch {

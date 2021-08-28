@@ -13,7 +13,9 @@
   height: calc(100% + 16px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
 .root__toolTip_check > :global(.__wab_flex-container) {
@@ -26,7 +28,13 @@
 .root__toolTip_check
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.root__toolTip_check > :global(.__wab_flex-container) > picture > img,
+.root__toolTip_check
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 24px;
 }
@@ -50,7 +58,13 @@
 .editHeadlineTitleParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.editHeadlineTitleParent > :global(.__wab_flex-container) > picture > img,
+.editHeadlineTitleParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .svgParent {

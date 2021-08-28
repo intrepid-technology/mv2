@@ -15,7 +15,9 @@
   height: calc(100% + 40px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 40px;
 }
 .serviceListingNavbar {
@@ -55,7 +57,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__lZF > :global(.__wab_flex-container) > *,
-.freeBox__lZF > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__lZF > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lZF > :global(.__wab_flex-container) > picture > img,
+.freeBox__lZF
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionCategoryBlock {
@@ -76,7 +84,13 @@
 .questionCategoryBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionCategoryBlock > :global(.__wab_flex-container) > picture > img,
+.questionCategoryBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__zq3QH {
@@ -109,7 +123,13 @@
   height: calc(100% + 40px);
 }
 .freeBox__x298X > :global(.__wab_flex-container) > *,
-.freeBox__x298X > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__x298X > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__x298X > :global(.__wab_flex-container) > picture > img,
+.freeBox__x298X
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 40px;
 }
 .svg__lsXX {
@@ -185,7 +205,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__jpq5H > :global(.__wab_flex-container) > *,
-.freeBox__jpq5H > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__jpq5H > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__jpq5H > :global(.__wab_flex-container) > picture > img,
+.freeBox__jpq5H
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionFeaturesBlock {
@@ -206,7 +232,13 @@
 .questionFeaturesBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionFeaturesBlock > :global(.__wab_flex-container) > picture > img,
+.questionFeaturesBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox___1Seve {
@@ -257,7 +289,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__wMqc > :global(.__wab_flex-container) > *,
-.freeBox__wMqc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__wMqc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__wMqc > :global(.__wab_flex-container) > picture > img,
+.freeBox__wMqc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionContentBlock {
@@ -278,7 +316,13 @@
 .questionContentBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionContentBlock > :global(.__wab_flex-container) > picture > img,
+.questionContentBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__bmB1 {
@@ -329,7 +373,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__anJua > :global(.__wab_flex-container) > *,
-.freeBox__anJua > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__anJua > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__anJua > :global(.__wab_flex-container) > picture > img,
+.freeBox__anJua
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionIndustryBlock {
@@ -352,7 +402,13 @@
 .questionIndustryBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionIndustryBlock > :global(.__wab_flex-container) > picture > img,
+.questionIndustryBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__kUwyk {
@@ -568,7 +624,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__sdBU > :global(.__wab_flex-container) > *,
-.freeBox__sdBU > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__sdBU > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__sdBU > :global(.__wab_flex-container) > picture > img,
+.freeBox__sdBU
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionToolsBlock {
@@ -588,10 +650,13 @@
   height: calc(100% + 64px);
 }
 .questionToolsBlock > :global(.__wab_flex-container) > *,
+.questionToolsBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.questionToolsBlock > :global(.__wab_flex-container) > picture > img,
 .questionToolsBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__f8IjI:global(.__wab_instance) {

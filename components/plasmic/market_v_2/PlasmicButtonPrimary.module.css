@@ -386,7 +386,13 @@
 .iconTextParent__size__180
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.iconTextParent__size__180 > :global(.__wab_flex-container) > picture > img,
+.iconTextParent__size__180
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
   margin-top: 0px;
 }
@@ -407,7 +413,13 @@
 .iconTextParent__type_icon
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.iconTextParent__type_icon > :global(.__wab_flex-container) > picture > img,
+.iconTextParent__type_icon
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 0px;
 }
@@ -532,7 +544,16 @@
 .slotChildren__type_link > *,
 .slotChildren__type_link > .__wab_slot > *,
 .slotChildren__type_link > .__wab_slot > .__wab_slot > *,
-.slotChildren__type_link > .__wab_slot > .__wab_slot > .__wab_slot > * {
+.slotChildren__type_link > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotChildren__type_link > picture > img,
+.slotChildren__type_link > .__wab_slot > picture > img,
+.slotChildren__type_link > .__wab_slot > .__wab_slot > picture > img,
+.slotChildren__type_link
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
   text-decoration-line: underline;
 }
 .slotChildren__type_ghost {

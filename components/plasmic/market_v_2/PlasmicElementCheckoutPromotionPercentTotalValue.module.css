@@ -25,7 +25,13 @@
   width: calc(100% + 20px);
 }
 .freeBox__rvDg > :global(.__wab_flex-container) > *,
-.freeBox__rvDg > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__rvDg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rvDg > :global(.__wab_flex-container) > picture > img,
+.freeBox__rvDg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 20px;
 }
 .promotionTitleTextParent {
@@ -60,7 +66,16 @@
 .promotionFactorPercentNumberParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.promotionFactorPercentNumberParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.promotionFactorPercentNumberParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .promotionFactorText {
@@ -95,7 +110,16 @@
 .promotionCurrencyTotalValueDiscountNumber
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.promotionCurrencyTotalValueDiscountNumber
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.promotionCurrencyTotalValueDiscountNumber
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .freeBox__mX4Ny {

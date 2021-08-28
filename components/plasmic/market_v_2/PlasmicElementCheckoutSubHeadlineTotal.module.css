@@ -25,7 +25,13 @@
   width: calc(100% + 0px);
 }
 .freeBox___8Spx > :global(.__wab_flex-container) > *,
-.freeBox___8Spx > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___8Spx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___8Spx > :global(.__wab_flex-container) > picture > img,
+.freeBox___8Spx
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .headlineParent {
@@ -61,7 +67,13 @@
 .totalCurrencyNumberValue
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.totalCurrencyNumberValue > :global(.__wab_flex-container) > picture > img,
+.totalCurrencyNumberValue
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .ccurrencyParent {

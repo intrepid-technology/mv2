@@ -13,7 +13,9 @@
   height: calc(100% + 16px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
 .searchbarFilter:global(.__wab_instance) {
@@ -45,10 +47,13 @@
   height: calc(100% + 8px);
 }
 .badgeDisplayParent > :global(.__wab_flex-container) > *,
+.badgeDisplayParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.badgeDisplayParent > :global(.__wab_flex-container) > picture > img,
 .badgeDisplayParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }

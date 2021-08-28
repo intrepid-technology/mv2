@@ -43,7 +43,16 @@
 .sectionTeamManageMembersHeader
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamManageMembersHeader
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionTeamManageMembersHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___6QAYz {
@@ -72,7 +81,13 @@
 .sectionTeamInviteMembers
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamInviteMembers > :global(.__wab_flex-container) > picture > img,
+.sectionTeamInviteMembers
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -104,7 +119,13 @@
   .sectionTeamInviteMembers
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .sectionTeamInviteMembers > :global(.__wab_flex-container) > picture > img,
+  .sectionTeamInviteMembers
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 0px;
   }
@@ -128,7 +149,13 @@
 .cardTeamInviteMembers
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamInviteMembers > :global(.__wab_flex-container) > picture > img,
+.cardTeamInviteMembers
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .freeBox__ygMqo {
@@ -169,10 +196,13 @@
   height: calc(100% + 16px);
 }
 .tableAddTeamMember > :global(.__wab_flex-container) > *,
+.tableAddTeamMember > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.tableAddTeamMember > :global(.__wab_flex-container) > picture > img,
 .tableAddTeamMember
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 16px;
 }
 .inviteMemberHeader {
@@ -191,10 +221,13 @@
   width: calc(100% + 32px);
 }
 .inviteMemberHeader > :global(.__wab_flex-container) > *,
+.inviteMemberHeader > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inviteMemberHeader > :global(.__wab_flex-container) > picture > img,
 .inviteMemberHeader
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 32px;
 }
 .inputTextForm__fayfn:global(.__wab_instance) {
@@ -225,10 +258,13 @@
   width: calc(100% + 32px);
 }
 .inviteMemberRecord > :global(.__wab_flex-container) > *,
+.inviteMemberRecord > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inviteMemberRecord > :global(.__wab_flex-container) > picture > img,
 .inviteMemberRecord
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 32px;
 }
 .inputTextForm__ziL9:global(.__wab_instance) {
@@ -298,7 +334,13 @@
 .sectionTeamManageMembers
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamManageMembers > :global(.__wab_flex-container) > picture > img,
+.sectionTeamManageMembers
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamManageMembers {
@@ -319,7 +361,13 @@
 .cardTeamManageMembers
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamManageMembers > :global(.__wab_flex-container) > picture > img,
+.cardTeamManageMembers
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .freeBox__xopkA {
@@ -349,7 +397,13 @@
 .tableTeamMemberEditParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.tableTeamMemberEditParent > :global(.__wab_flex-container) > picture > img,
+.tableTeamMemberEditParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .searchFilterDateParent {
@@ -374,7 +428,13 @@
 .searchFilterDateParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.searchFilterDateParent > :global(.__wab_flex-container) > picture > img,
+.searchFilterDateParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .searchbarPrimary:global(.__wab_instance) {
@@ -408,7 +468,13 @@
 .tableSelectColumnParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.tableSelectColumnParent > :global(.__wab_flex-container) > picture > img,
+.tableSelectColumnParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 2px;
 }
 .tableUserAdminHeader:global(.__wab_instance) {

@@ -13,7 +13,9 @@
   height: calc(100% + 4px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 4px;
 }
 .buttonStripeConnect:global(.__wab_instance) {
@@ -43,7 +45,13 @@
   width: calc(100% + 24px);
 }
 .noteLinkParent > :global(.__wab_flex-container) > *,
-.noteLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.noteLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.noteLinkParent > :global(.__wab_flex-container) > picture > img,
+.noteLinkParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .descriptionParent {

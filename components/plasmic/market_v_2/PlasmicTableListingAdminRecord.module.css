@@ -16,7 +16,9 @@
   width: calc(100% + 8px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 8px;
 }
 .listingSelectImageCaptionEditParent {
@@ -39,7 +41,16 @@
 .listingSelectImageCaptionEditParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.listingSelectImageCaptionEditParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.listingSelectImageCaptionEditParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .elementRadioPrimary:global(.__wab_instance) {
@@ -64,10 +75,13 @@
   width: calc(100% + 8px);
 }
 .imageCaptionParent > :global(.__wab_flex-container) > *,
+.imageCaptionParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.imageCaptionParent > :global(.__wab_flex-container) > picture > img,
 .imageCaptionParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
 }
 .imageLinkManageListging {
@@ -88,12 +102,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 ._70X404 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+._70X404 > picture > img {
+  object-fit: cover;
+}
+._70X404 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__k1Nss {
   object-fit: cover;
@@ -102,12 +128,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__k1Nss > picture > img {
+  object-fit: cover;
+}
+.img__k1Nss > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__siVmJ {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__siVmJ > picture > img {
+  object-fit: cover;
+}
+.img__siVmJ > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__kD7E {
   object-fit: cover;
@@ -116,12 +154,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__kD7E > picture > img {
+  object-fit: cover;
+}
+.img__kD7E > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__e44Hy {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__e44Hy > picture > img {
+  object-fit: cover;
+}
+.img__e44Hy > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__go1K0 {
   object-fit: cover;
@@ -130,6 +180,12 @@
   min-width: 0;
   min-height: 0;
 }
+.img__go1K0 > picture > img {
+  object-fit: cover;
+}
+.img__go1K0 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__uBsyf {
   object-fit: cover;
   width: 100%;
@@ -137,10 +193,22 @@
   min-width: 0;
   min-height: 0;
 }
+.img__uBsyf > picture > img {
+  object-fit: cover;
+}
+.img__uBsyf > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__c1OeP {
   object-fit: cover;
   width: 360px;
   height: 270px;
+}
+.img__c1OeP > picture > img {
+  object-fit: cover;
+}
+.img__c1OeP > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__o4TWo {
   object-fit: cover;
@@ -149,12 +217,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__o4TWo > picture > img {
+  object-fit: cover;
+}
+.img__o4TWo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__i3Zt3 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__i3Zt3 > picture > img {
+  object-fit: cover;
+}
+.img__i3Zt3 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img___5EmA5 {
   object-fit: cover;
@@ -163,12 +243,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img___5EmA5 > picture > img {
+  object-fit: cover;
+}
+.img___5EmA5 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___0KE11 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img___0KE11 > picture > img {
+  object-fit: cover;
+}
+.img___0KE11 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__erdG {
   object-fit: cover;
@@ -177,12 +269,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__erdG > picture > img {
+  object-fit: cover;
+}
+.img__erdG > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__aaaJv {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__aaaJv > picture > img {
+  object-fit: cover;
+}
+.img__aaaJv > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__ug9Jb {
   object-fit: cover;
@@ -191,12 +295,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__ug9Jb > picture > img {
+  object-fit: cover;
+}
+.img__ug9Jb > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__io9Jd {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__io9Jd > picture > img {
+  object-fit: cover;
+}
+.img__io9Jd > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__uJqNs {
   object-fit: cover;
@@ -205,12 +321,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__uJqNs > picture > img {
+  object-fit: cover;
+}
+.img__uJqNs > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__xDqde {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__xDqde > picture > img {
+  object-fit: cover;
+}
+.img__xDqde > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__v3VxY {
   object-fit: cover;
@@ -219,12 +347,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__v3VxY > picture > img {
+  object-fit: cover;
+}
+.img__v3VxY > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__cT74 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__cT74 > picture > img {
+  object-fit: cover;
+}
+.img__cT74 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__mQzBq {
   object-fit: cover;
@@ -233,12 +373,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__mQzBq > picture > img {
+  object-fit: cover;
+}
+.img__mQzBq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__pMv4B {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__pMv4B > picture > img {
+  object-fit: cover;
+}
+.img__pMv4B > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__mgbJ1 {
   object-fit: cover;
@@ -247,12 +399,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__mgbJ1 > picture > img {
+  object-fit: cover;
+}
+.img__mgbJ1 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__xggN4 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__xggN4 > picture > img {
+  object-fit: cover;
+}
+.img__xggN4 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__a4Q0T {
   object-fit: cover;
@@ -261,12 +425,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__a4Q0T > picture > img {
+  object-fit: cover;
+}
+.img__a4Q0T > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___6BIoi {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img___6BIoi > picture > img {
+  object-fit: cover;
+}
+.img___6BIoi > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__ciQQ {
   object-fit: cover;
@@ -275,12 +451,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__ciQQ > picture > img {
+  object-fit: cover;
+}
+.img__ciQQ > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__iuKEn {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__iuKEn > picture > img {
+  object-fit: cover;
+}
+.img__iuKEn > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__jJcEp {
   object-fit: cover;
@@ -289,12 +477,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__jJcEp > picture > img {
+  object-fit: cover;
+}
+.img__jJcEp > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__p9RQu {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__p9RQu > picture > img {
+  object-fit: cover;
+}
+.img__p9RQu > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__u93Uk {
   object-fit: cover;
@@ -303,12 +503,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__u93Uk > picture > img {
+  object-fit: cover;
+}
+.img__u93Uk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___5JQwv {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img___5JQwv > picture > img {
+  object-fit: cover;
+}
+.img___5JQwv > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__vwIrq {
   object-fit: cover;
@@ -317,12 +529,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__vwIrq > picture > img {
+  object-fit: cover;
+}
+.img__vwIrq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___4R0Wm {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img___4R0Wm > picture > img {
+  object-fit: cover;
+}
+.img___4R0Wm > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img___5Brdo {
   object-fit: cover;
@@ -331,12 +555,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img___5Brdo > picture > img {
+  object-fit: cover;
+}
+.img___5Brdo > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___1FCXv {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img___1FCXv > picture > img {
+  object-fit: cover;
+}
+.img___1FCXv > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__tqpfe {
   object-fit: cover;
@@ -345,12 +581,24 @@
   min-width: 0;
   min-height: 0;
 }
+.img__tqpfe > picture > img {
+  object-fit: cover;
+}
+.img__tqpfe > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__i8AD {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
+}
+.img__i8AD > picture > img {
+  object-fit: cover;
+}
+.img__i8AD > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .serviceListingTitleParent {
   display: flex;
@@ -375,7 +623,13 @@
 .serviceListingTitleParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.serviceListingTitleParent > :global(.__wab_flex-container) > picture > img,
+.serviceListingTitleParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 0px;
 }
 .serviceListingTitle {

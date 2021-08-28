@@ -28,7 +28,13 @@
 .textBody2__size__360
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.textBody2__size__360 > :global(.__wab_flex-container) > picture > img,
+.textBody2__size__360
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -212,7 +218,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .textBody720 > :global(.__wab_flex-container) > *,
-  .textBody720 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .textBody720 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .textBody720 > :global(.__wab_flex-container) > picture > img,
+  .textBody720
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }

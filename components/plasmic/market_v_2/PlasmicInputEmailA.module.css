@@ -14,7 +14,9 @@
   width: calc(100% + 0px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
 .inputEmailParent {
@@ -35,7 +37,13 @@
   width: calc(100% + 0px);
 }
 .inputEmailParent > :global(.__wab_flex-container) > *,
-.inputEmailParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.inputEmailParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inputEmailParent > :global(.__wab_flex-container) > picture > img,
+.inputEmailParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .inputEmailParent__size__360 {

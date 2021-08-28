@@ -15,7 +15,9 @@
   height: calc(100% + 12px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -54,7 +56,16 @@
 .pricingTableDropDownDrawerParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.pricingTableDropDownDrawerParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.pricingTableDropDownDrawerParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 0px;
 }
 .pricingTableDropDownDrawerParent___switch {
@@ -101,7 +112,16 @@
 .pricingTableDropDownChildItems
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.pricingTableDropDownChildItems
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.pricingTableDropDownChildItems
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .pricingPageElementTeamBlock:global(.__wab_instance) {

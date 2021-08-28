@@ -14,7 +14,13 @@
   height: calc(100% + 16px);
 }
 .formHomeSignUp > :global(.__wab_flex-container) > *,
-.formHomeSignUp > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.formHomeSignUp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formHomeSignUp > :global(.__wab_flex-container) > picture > img,
+.formHomeSignUp
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .emailInputParent {
@@ -35,7 +41,13 @@
   height: calc(100% + 4px);
 }
 .emailInputParent > :global(.__wab_flex-container) > *,
-.emailInputParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.emailInputParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.emailInputParent > :global(.__wab_flex-container) > picture > img,
+.emailInputParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .emailText {
@@ -92,7 +104,13 @@
 .passwordInputParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.passwordInputParent > :global(.__wab_flex-container) > picture > img,
+.passwordInputParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .passwordText {
@@ -166,7 +184,13 @@
   width: calc(100% + 16px);
 }
 .divider > :global(.__wab_flex-container) > *,
-.divider > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.divider > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.divider > :global(.__wab_flex-container) > picture > img,
+.divider
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .svg__pz4Rl {
@@ -215,7 +239,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__bYQfP > :global(.__wab_flex-container) > *,
-.freeBox__bYQfP > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__bYQfP > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__bYQfP > :global(.__wab_flex-container) > picture > img,
+.freeBox__bYQfP
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .signupFacebookConnection:global(.__wab_instance) {

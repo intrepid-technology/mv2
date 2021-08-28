@@ -42,7 +42,13 @@
 .sectionMemberSettingsEmail
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberSettingsEmail > :global(.__wab_flex-container) > picture > img,
+.sectionMemberSettingsEmail
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__xaX3Z:global(.__wab_instance) {
@@ -70,7 +76,13 @@
 .formMemberEditEmail
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditEmail > :global(.__wab_flex-container) > picture > img,
+.formMemberEditEmail
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__pZx7J {
@@ -89,7 +101,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__pZx7J > :global(.__wab_flex-container) > *,
-.freeBox__pZx7J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__pZx7J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__pZx7J > :global(.__wab_flex-container) > picture > img,
+.freeBox__pZx7J
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__vfOg5:global(.__wab_instance) {
@@ -144,7 +162,16 @@
 .sectionMemberSettingsPasswordReset
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberSettingsPasswordReset
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberSettingsPasswordReset
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .sectionMemberPasswordReset {
@@ -165,7 +192,13 @@
 .sectionMemberPasswordReset
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberPasswordReset > :global(.__wab_flex-container) > picture > img,
+.sectionMemberPasswordReset
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__rmGSc:global(.__wab_instance) {
@@ -206,7 +239,16 @@
 .sectionMemberSettingsLoginConnections
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberSettingsLoginConnections
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberSettingsLoginConnections
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .sectionMemberLoginConnections {
@@ -226,7 +268,13 @@
 .sectionMemberLoginConnections
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberLoginConnections > :global(.__wab_flex-container) > picture > img,
+.sectionMemberLoginConnections
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__ta5FN {
@@ -245,7 +293,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__ta5FN > :global(.__wab_flex-container) > *,
-.freeBox__ta5FN > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ta5FN > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ta5FN > :global(.__wab_flex-container) > picture > img,
+.freeBox__ta5FN
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__qzg0M:global(.__wab_instance) {
@@ -308,7 +362,13 @@
 .sectionMemberMobileNumber
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberMobileNumber > :global(.__wab_flex-container) > picture > img,
+.sectionMemberMobileNumber
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .formMemberEditMobileNumber {
@@ -329,7 +389,13 @@
 .formMemberEditMobileNumber
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditMobileNumber > :global(.__wab_flex-container) > picture > img,
+.formMemberEditMobileNumber
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__ltCq0 {
@@ -348,7 +414,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__ltCq0 > :global(.__wab_flex-container) > *,
-.freeBox__ltCq0 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ltCq0 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ltCq0 > :global(.__wab_flex-container) > picture > img,
+.freeBox__ltCq0
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__xC5L:global(.__wab_instance) {
@@ -384,7 +456,13 @@
 .memberLocationGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberLocationGroup > :global(.__wab_flex-container) > picture > img,
+.memberLocationGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
   margin-top: 32px;
 }
@@ -435,7 +513,13 @@
 .sectionMemberSettingsAddress
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberSettingsAddress > :global(.__wab_flex-container) > picture > img,
+.sectionMemberSettingsAddress
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .formMemberEditAddress {
@@ -456,7 +540,13 @@
 .formMemberEditAddress
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditAddress > :global(.__wab_flex-container) > picture > img,
+.formMemberEditAddress
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__zJ5N8 {
@@ -475,7 +565,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__zJ5N8 > :global(.__wab_flex-container) > *,
-.freeBox__zJ5N8 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__zJ5N8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__zJ5N8 > :global(.__wab_flex-container) > picture > img,
+.freeBox__zJ5N8
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__lgaOa:global(.__wab_instance) {
@@ -505,7 +601,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__qvHgH > :global(.__wab_flex-container) > *,
-.freeBox__qvHgH > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__qvHgH > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__qvHgH > :global(.__wab_flex-container) > picture > img,
+.freeBox__qvHgH
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .inputTextForm__voLi1:global(.__wab_instance) {
@@ -533,7 +635,13 @@
   width: calc(100% + 40px);
 }
 .freeBox__nosSi > :global(.__wab_flex-container) > *,
-.freeBox__nosSi > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__nosSi > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__nosSi > :global(.__wab_flex-container) > picture > img,
+.freeBox__nosSi
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 40px;
 }
 .freeBox__ay7A6 {
@@ -576,7 +684,13 @@
 .sectionMemberNotifications
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberNotifications > :global(.__wab_flex-container) > picture > img,
+.sectionMemberNotifications
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__zEnmS:global(.__wab_instance) {
@@ -607,7 +721,13 @@
 .notificationPushEmail
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationPushEmail > :global(.__wab_flex-container) > picture > img,
+.notificationPushEmail
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__czoXf:global(.__wab_instance) {
@@ -635,7 +755,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___51Yhm > :global(.__wab_flex-container) > *,
-.freeBox___51Yhm > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___51Yhm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___51Yhm > :global(.__wab_flex-container) > picture > img,
+.freeBox___51Yhm
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .switchTextGroupPrimary__o3R2G:global(.__wab_instance) {
@@ -668,7 +794,13 @@
 .notificationActivity
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationActivity > :global(.__wab_flex-container) > picture > img,
+.notificationActivity
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary___8JzHe:global(.__wab_instance) {
@@ -697,7 +829,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___4KphC > :global(.__wab_flex-container) > *,
-.freeBox___4KphC > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___4KphC > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___4KphC > :global(.__wab_flex-container) > picture > img,
+.freeBox___4KphC
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .checkboxTextPrimary__fZLt:global(.__wab_instance) {
@@ -760,7 +898,13 @@
 .notificationNewsEvents
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationNewsEvents > :global(.__wab_flex-container) > picture > img,
+.notificationNewsEvents
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__yvvDp:global(.__wab_instance) {
@@ -788,7 +932,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__iUdaa > :global(.__wab_flex-container) > *,
-.freeBox__iUdaa > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__iUdaa > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__iUdaa > :global(.__wab_flex-container) > picture > img,
+.freeBox__iUdaa
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .switchTextGroupPrimary__y6Ojs:global(.__wab_instance) {
@@ -824,7 +974,16 @@
 .sectionMemberSettingsDeleteAccount
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberSettingsDeleteAccount
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberSettingsDeleteAccount
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .sectionMemberDeleteAccount {
@@ -845,7 +1004,13 @@
 .sectionMemberDeleteAccount
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberDeleteAccount > :global(.__wab_flex-container) > picture > img,
+.sectionMemberDeleteAccount
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___6BojG {
@@ -864,7 +1029,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___6BojG > :global(.__wab_flex-container) > *,
-.freeBox___6BojG > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___6BojG > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___6BojG > :global(.__wab_flex-container) > picture > img,
+.freeBox___6BojG
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___84IO:global(.__wab_instance) {

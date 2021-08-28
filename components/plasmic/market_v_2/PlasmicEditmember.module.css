@@ -43,7 +43,13 @@
 .sectionMemberEditProfile
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberEditProfile > :global(.__wab_flex-container) > picture > img,
+.sectionMemberEditProfile
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__acBi5:global(.__wab_instance) {
@@ -74,7 +80,13 @@
 .formMemberEditProfile
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditProfile > :global(.__wab_flex-container) > picture > img,
+.formMemberEditProfile
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardMemberPersonalVerification {
@@ -98,7 +110,16 @@
 .cardMemberPersonalVerification
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardMemberPersonalVerification
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.cardMemberPersonalVerification
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__gEtHe:global(.__wab_instance) {
@@ -132,7 +153,13 @@
 .memberPersonalNameGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberPersonalNameGroup > :global(.__wab_flex-container) > picture > img,
+.memberPersonalNameGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .inputTextForm__yHnr:global(.__wab_instance) {
@@ -169,7 +196,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberImage > :global(.__wab_flex-container) > *,
-.cardMemberImage > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberImage > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberImage > :global(.__wab_flex-container) > picture > img,
+.cardMemberImage
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__ezi8:global(.__wab_instance) {
@@ -204,7 +237,13 @@
 .memberUploadLogoButtonGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberUploadLogoButtonGroup > :global(.__wab_flex-container) > picture > img,
+.memberUploadLogoButtonGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .userAvatarButton:global(.__wab_instance) {
@@ -222,6 +261,12 @@
   min-height: 0;
   border-radius: 100%;
   border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+.img__d733D > picture > img {
+  object-fit: cover;
+}
+.img__d733D > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .memberEditlogoGroup {
   display: inline-flex;
@@ -243,7 +288,13 @@
 .memberEditlogoGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberEditlogoGroup > :global(.__wab_flex-container) > picture > img,
+.memberEditlogoGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .buttonPrimary__u0Eio:global(.__wab_instance) {
@@ -293,10 +344,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberUsername > :global(.__wab_flex-container) > *,
+.cardMemberUsername > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberUsername > :global(.__wab_flex-container) > picture > img,
 .cardMemberUsername
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__anzId:global(.__wab_instance) {
@@ -333,7 +387,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberUrl > :global(.__wab_flex-container) > *,
-.cardMemberUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberUrl > :global(.__wab_flex-container) > picture > img,
+.cardMemberUrl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___71L8V:global(.__wab_instance) {
@@ -371,7 +431,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberTagline > :global(.__wab_flex-container) > *,
-.cardMemberTagline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberTagline > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberTagline > :global(.__wab_flex-container) > picture > img,
+.cardMemberTagline
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__jfQor:global(.__wab_instance) {
@@ -408,7 +474,13 @@
 .cardMemberDescription
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardMemberDescription > :global(.__wab_flex-container) > picture > img,
+.cardMemberDescription
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__oB2Kh:global(.__wab_instance) {
@@ -444,7 +516,13 @@
   height: calc(100% + 24px);
 }
 .cardVideoIntroUrl > :global(.__wab_flex-container) > *,
-.cardVideoIntroUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardVideoIntroUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardVideoIntroUrl > :global(.__wab_flex-container) > picture > img,
+.cardVideoIntroUrl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__hRoA:global(.__wab_instance) {
@@ -504,7 +582,16 @@
 .sectionMemberEditProfileDetails
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberEditProfileDetails
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberEditProfileDetails
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__pGCvu:global(.__wab_instance) {
@@ -535,7 +622,13 @@
 .formMemberEditDetails
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditDetails > :global(.__wab_flex-container) > picture > img,
+.formMemberEditDetails
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardMemberLocation {
@@ -556,10 +649,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberLocation > :global(.__wab_flex-container) > *,
+.cardMemberLocation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberLocation > :global(.__wab_flex-container) > picture > img,
 .cardMemberLocation
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__fhFuB:global(.__wab_instance) {
@@ -593,7 +689,13 @@
 .memberLocationGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberLocationGroup > :global(.__wab_flex-container) > picture > img,
+.memberLocationGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .selectGroupDropdownPrimary__qpcv5:global(.__wab_instance) {
@@ -624,10 +726,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberIndustry > :global(.__wab_flex-container) > *,
+.cardMemberIndustry > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberIndustry > :global(.__wab_flex-container) > picture > img,
 .cardMemberIndustry
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__lrlkZ:global(.__wab_instance) {
@@ -661,7 +766,13 @@
 .memberIndustryGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberIndustryGroup > :global(.__wab_flex-container) > picture > img,
+.memberIndustryGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .selectGroupDropdownPrimary__lwNFw:global(.__wab_instance) {
@@ -695,7 +806,13 @@
 .cardMemberLanguages
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardMemberLanguages > :global(.__wab_flex-container) > picture > img,
+.cardMemberLanguages
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___8QCqw:global(.__wab_instance) {
@@ -729,7 +846,13 @@
 .inputGroupMemberLanguages
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.inputGroupMemberLanguages > :global(.__wab_flex-container) > picture > img,
+.inputGroupMemberLanguages
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .selectGroupDropdownPrimary__zy9Ua:global(.__wab_instance) {
@@ -763,7 +886,13 @@
 .cardMemberInterests
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardMemberInterests > :global(.__wab_flex-container) > picture > img,
+.cardMemberInterests
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__bl1O0:global(.__wab_instance) {
@@ -800,7 +929,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberSkills > :global(.__wab_flex-container) > *,
-.cardMemberSkills > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberSkills > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberSkills > :global(.__wab_flex-container) > picture > img,
+.cardMemberSkills
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__i0Au:global(.__wab_instance) {
@@ -840,7 +975,13 @@
 .cardMemberCommunity
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardMemberCommunity > :global(.__wab_flex-container) > picture > img,
+.cardMemberCommunity
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__sy9Hg:global(.__wab_instance) {
@@ -900,7 +1041,16 @@
 .sectionMemberEditProfileSocial
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionMemberEditProfileSocial
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionMemberEditProfileSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__da5Bv:global(.__wab_instance) {
@@ -931,7 +1081,13 @@
 .formMemberEditSocial
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formMemberEditSocial > :global(.__wab_flex-container) > picture > img,
+.formMemberEditSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardMemberWebsite {
@@ -954,7 +1110,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberWebsite > :global(.__wab_flex-container) > *,
-.cardMemberWebsite > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberWebsite > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberWebsite > :global(.__wab_flex-container) > picture > img,
+.cardMemberWebsite
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__v0B32:global(.__wab_instance) {
@@ -992,7 +1154,13 @@
   height: calc(100% + 24px);
 }
 .cardMemberSocial > :global(.__wab_flex-container) > *,
-.cardMemberSocial > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardMemberSocial > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardMemberSocial > :global(.__wab_flex-container) > picture > img,
+.cardMemberSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__tYhVt:global(.__wab_instance) {

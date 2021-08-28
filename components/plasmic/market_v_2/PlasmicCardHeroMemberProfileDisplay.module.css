@@ -26,7 +26,13 @@
   height: calc(100% + 32px);
 }
 .parent > :global(.__wab_flex-container) > *,
-.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.parent > :global(.__wab_flex-container) > picture > img,
+.parent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -55,7 +61,13 @@
 .userProfileHeadline
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.userProfileHeadline > :global(.__wab_flex-container) > picture > img,
+.userProfileHeadline
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -74,6 +86,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___6S4Oi > picture > img {
+  object-fit: cover;
+}
+.img___6S4Oi > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__yd6Ax {
   position: relative;
   object-fit: cover;
@@ -84,6 +102,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__yd6Ax > picture > img {
+  object-fit: cover;
+}
+.img__yd6Ax > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img___2Iz0I {
   position: relative;
@@ -96,6 +120,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___2Iz0I > picture > img {
+  object-fit: cover;
+}
+.img___2Iz0I > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__qrSY {
   position: relative;
   object-fit: cover;
@@ -106,6 +136,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__qrSY > picture > img {
+  object-fit: cover;
+}
+.img__qrSY > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__ldpwq {
   position: relative;
@@ -118,6 +154,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__ldpwq > picture > img {
+  object-fit: cover;
+}
+.img__ldpwq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__q6STc {
   position: relative;
   object-fit: cover;
@@ -128,6 +170,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__q6STc > picture > img {
+  object-fit: cover;
+}
+.img__q6STc > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__hXkwp {
   position: relative;
@@ -140,6 +188,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__hXkwp > picture > img {
+  object-fit: cover;
+}
+.img__hXkwp > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__l89ZG {
   position: relative;
   object-fit: cover;
@@ -150,6 +204,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__l89ZG > picture > img {
+  object-fit: cover;
+}
+.img__l89ZG > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__wjigw {
   position: relative;
@@ -162,6 +222,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__wjigw > picture > img {
+  object-fit: cover;
+}
+.img__wjigw > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .navUserAvatar80 {
   position: relative;
   object-fit: cover;
@@ -173,6 +239,12 @@
   border-width: 0px;
   border-style: none;
 }
+.navUserAvatar80 > picture > img {
+  object-fit: cover;
+}
+.navUserAvatar80 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__r6D7N {
   position: relative;
   object-fit: cover;
@@ -183,6 +255,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__r6D7N > picture > img {
+  object-fit: cover;
+}
+.img__r6D7N > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .userDetailParent {
   display: flex;
@@ -199,7 +277,13 @@
   height: calc(100% + 8px);
 }
 .userDetailParent > :global(.__wab_flex-container) > *,
-.userDetailParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.userDetailParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.userDetailParent > :global(.__wab_flex-container) > picture > img,
+.userDetailParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .userFirstLastName {
@@ -217,7 +301,13 @@
   width: calc(100% + 4px);
 }
 .userFirstLastName > :global(.__wab_flex-container) > *,
-.userFirstLastName > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.userFirstLastName > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.userFirstLastName > :global(.__wab_flex-container) > picture > img,
+.userFirstLastName
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .firstNameParent {
@@ -278,10 +368,13 @@
   width: calc(100% + 0px);
 }
 .displayNameParent2 > :global(.__wab_flex-container) > *,
+.displayNameParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.displayNameParent2 > :global(.__wab_flex-container) > picture > img,
 .displayNameParent2
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 0px;
 }
 .atSignParent {
@@ -342,10 +435,13 @@
   width: calc(100% + 8px);
 }
 .companyStatsParent > :global(.__wab_flex-container) > *,
+.companyStatsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.companyStatsParent > :global(.__wab_flex-container) > picture > img,
 .companyStatsParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -374,7 +470,13 @@
   .companyStatsParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .companyStatsParent > :global(.__wab_flex-container) > picture > img,
+  .companyStatsParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 8px;
     margin-top: 0px;
   }
@@ -414,7 +516,13 @@
 .teamAvatarGroupParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.teamAvatarGroupParent > :global(.__wab_flex-container) > picture > img,
+.teamAvatarGroupParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -439,7 +547,13 @@
   .teamAvatarGroupParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .teamAvatarGroupParent > :global(.__wab_flex-container) > picture > img,
+  .teamAvatarGroupParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 6px;
     margin-top: 0px;
   }
@@ -559,7 +673,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .locationParent > :global(.__wab_flex-container) > *,
-  .locationParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .locationParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .locationParent > :global(.__wab_flex-container) > picture > img,
+  .locationParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 8px;
     margin-top: 0px;
   }
@@ -596,7 +716,13 @@
 .userMemberDescription
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.userMemberDescription > :global(.__wab_flex-container) > picture > img,
+.userMemberDescription
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -628,7 +754,13 @@
   .userMemberDescription
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .userMemberDescription > :global(.__wab_flex-container) > picture > img,
+  .userMemberDescription
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 32px;
   }
@@ -693,7 +825,13 @@
   width: calc(100% + 16px);
 }
 .userButtons > :global(.__wab_flex-container) > *,
-.userButtons > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.userButtons > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.userButtons > :global(.__wab_flex-container) > picture > img,
+.userButtons
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {

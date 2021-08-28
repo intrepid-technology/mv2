@@ -29,6 +29,12 @@
   top: auto;
   display: inline-inline-block;
 }
+.img__myWWx > picture > img {
+  object-fit: cover;
+}
+.img__myWWx > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .sectionLogIn:global(.__wab_instance) {
   position: relative;
   width: 100%;

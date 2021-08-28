@@ -36,7 +36,13 @@
   height: calc(100% + 32px);
 }
 .headlineParent > :global(.__wab_flex-container) > *,
-.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headlineParent > :global(.__wab_flex-container) > picture > img,
+.headlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .headlineSubheadParent {
@@ -58,7 +64,13 @@
 .headlineSubheadParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.headlineSubheadParent > :global(.__wab_flex-container) > picture > img,
+.headlineSubheadParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .headline {
@@ -76,7 +88,13 @@
   height: calc(100% + 10px);
 }
 .headline > :global(.__wab_flex-container) > *,
-.headline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headline > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headline > :global(.__wab_flex-container) > picture > img,
+.headline
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 10px;
 }
 .freeBox__n8Yg {
@@ -174,7 +192,13 @@
 .multiLineTextParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.multiLineTextParent > :global(.__wab_flex-container) > picture > img,
+.multiLineTextParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 0px;
 }
 .multiLineText {

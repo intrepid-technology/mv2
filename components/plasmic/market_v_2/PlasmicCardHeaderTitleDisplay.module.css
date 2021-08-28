@@ -41,7 +41,13 @@
 .headerDisplayGroupParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.headerDisplayGroupParent > :global(.__wab_flex-container) > picture > img,
+.headerDisplayGroupParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .headerDisplayTitle {
@@ -98,7 +104,13 @@
 .headlineSubheadGroupParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.headlineSubheadGroupParent > :global(.__wab_flex-container) > picture > img,
+.headlineSubheadGroupParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .headline {

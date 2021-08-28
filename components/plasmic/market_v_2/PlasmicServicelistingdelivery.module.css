@@ -46,7 +46,13 @@
   height: calc(100% + 64px);
 }
 .questionTimeBlock > :global(.__wab_flex-container) > *,
-.questionTimeBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.questionTimeBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.questionTimeBlock > :global(.__wab_flex-container) > picture > img,
+.questionTimeBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__j01DZ:global(.__wab_instance) {
@@ -122,7 +128,13 @@
 .questionMeetingBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionMeetingBlock > :global(.__wab_flex-container) > picture > img,
+.questionMeetingBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__e0X2Y:global(.__wab_instance) {
@@ -198,7 +210,13 @@
 .questionRevisionBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionRevisionBlock > :global(.__wab_flex-container) > picture > img,
+.questionRevisionBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing___0MQxG:global(.__wab_instance) {
@@ -285,7 +303,13 @@
 .questionRequirementBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionRequirementBlock > :global(.__wab_flex-container) > picture > img,
+.questionRequirementBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .freeBox__rgSA {
@@ -305,7 +329,13 @@
   height: calc(100% + 64px);
 }
 .freeBox__rgSA > :global(.__wab_flex-container) > *,
-.freeBox__rgSA > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__rgSA > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rgSA > :global(.__wab_flex-container) > picture > img,
+.freeBox__rgSA
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__rlNOv:global(.__wab_instance) {
@@ -343,7 +373,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__ui9Ss > :global(.__wab_flex-container) > *,
-.freeBox__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ui9Ss > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ui9Ss > :global(.__wab_flex-container) > picture > img,
+.freeBox__ui9Ss
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .radioCheckboxCard__cnO1T:global(.__wab_instance) {
@@ -386,7 +422,13 @@
 .questionFormatBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.questionFormatBlock > :global(.__wab_flex-container) > picture > img,
+.questionFormatBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing__ya0N9:global(.__wab_instance) {

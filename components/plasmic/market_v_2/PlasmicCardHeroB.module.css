@@ -14,7 +14,9 @@
   width: calc(100% + 0px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
 .freeBox__bjvwz {
@@ -90,4 +92,10 @@
   width: 580px;
   height: 380px;
   flex-shrink: 0;
+}
+.img__o1EqS > picture > img {
+  object-fit: cover;
+}
+.img__o1EqS > .__wab_img-spacer > img {
+  object-fit: cover;
 }

@@ -14,7 +14,13 @@
   height: calc(100% + 16px);
 }
 .formLogin > :global(.__wab_flex-container) > *,
-.formLogin > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.formLogin > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.formLogin > :global(.__wab_flex-container) > picture > img,
+.formLogin
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .formLogin__size__540 {
@@ -38,7 +44,13 @@
   height: calc(100% + 4px);
 }
 .inputLabelParent > :global(.__wab_flex-container) > *,
-.inputLabelParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.inputLabelParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.inputLabelParent > :global(.__wab_flex-container) > picture > img,
+.inputLabelParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .emailLabel {
@@ -98,7 +110,13 @@
 .inputPasswordLabelParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.inputPasswordLabelParent > :global(.__wab_flex-container) > picture > img,
+.inputPasswordLabelParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .passwordLabel {
@@ -180,7 +198,13 @@
 .buttonContinueParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.buttonContinueParent > :global(.__wab_flex-container) > picture > img,
+.buttonContinueParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .loginContinueButton:global(.__wab_instance) {
@@ -213,10 +237,13 @@
   width: calc(100% + 8px);
 }
 .recoveryLinkParent > :global(.__wab_flex-container) > *,
+.recoveryLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.recoveryLinkParent > :global(.__wab_flex-container) > picture > img,
 .recoveryLinkParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 8px;
 }
 .freeBox__ql1Ny {
@@ -250,7 +277,13 @@
   width: calc(100% + 12px);
 }
 .freeBox__rwKg > :global(.__wab_flex-container) > *,
-.freeBox__rwKg > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__rwKg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rwKg > :global(.__wab_flex-container) > picture > img,
+.freeBox__rwKg
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -303,7 +336,13 @@
   height: calc(100% + 16px);
 }
 .freeBox___7ZsVo > :global(.__wab_flex-container) > *,
-.freeBox___7ZsVo > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___7ZsVo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___7ZsVo > :global(.__wab_flex-container) > picture > img,
+.freeBox___7ZsVo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .loginFacebookConnect:global(.__wab_instance) {
@@ -342,7 +381,13 @@
   width: calc(100% + 12px);
 }
 .freeBox__yvRI > :global(.__wab_flex-container) > *,
-.freeBox__yvRI > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__yvRI > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__yvRI > :global(.__wab_flex-container) > picture > img,
+.freeBox__yvRI
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 12px;
 }
 .signupSubhead {

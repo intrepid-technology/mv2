@@ -42,7 +42,13 @@
 .sectionTeamMembershipStatus
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamMembershipStatus > :global(.__wab_flex-container) > picture > img,
+.sectionTeamMembershipStatus
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay:global(.__wab_instance) {
@@ -72,7 +78,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__z0MCe > :global(.__wab_flex-container) > *,
-.freeBox__z0MCe > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__z0MCe > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__z0MCe > :global(.__wab_flex-container) > picture > img,
+.freeBox__z0MCe
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__hQujY:global(.__wab_instance) {
@@ -102,7 +114,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__w0Nfq > :global(.__wab_flex-container) > *,
-.freeBox__w0Nfq > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__w0Nfq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__w0Nfq > :global(.__wab_flex-container) > picture > img,
+.freeBox__w0Nfq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .freeBox__erGt7 {
@@ -150,7 +168,13 @@
   width: calc(100% + 16px);
 }
 .freeBox__dsxJe > :global(.__wab_flex-container) > *,
-.freeBox__dsxJe > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__dsxJe > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__dsxJe > :global(.__wab_flex-container) > picture > img,
+.freeBox__dsxJe
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .buttonLinkPrimary__gz4S5:global(.__wab_instance) {
@@ -188,7 +212,13 @@
 .sectionTeamMembershipPlan
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamMembershipPlan > :global(.__wab_flex-container) > picture > img,
+.sectionTeamMembershipPlan
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__lYwlJ {
@@ -210,7 +240,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__lYwlJ > :global(.__wab_flex-container) > *,
-.freeBox__lYwlJ > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__lYwlJ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lYwlJ > :global(.__wab_flex-container) > picture > img,
+.freeBox__lYwlJ
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__lj3Cl:global(.__wab_instance) {
@@ -261,7 +297,13 @@
   width: calc(100% + 16px);
 }
 .freeBox__pCgaO > :global(.__wab_flex-container) > *,
-.freeBox__pCgaO > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__pCgaO > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__pCgaO > :global(.__wab_flex-container) > picture > img,
+.freeBox__pCgaO
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
 }
 .buttonPrimary__m0MnT:global(.__wab_instance) {
@@ -309,7 +351,13 @@
 .sectionTeamPaymentMethods
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamPaymentMethods > :global(.__wab_flex-container) > picture > img,
+.sectionTeamPaymentMethods
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___0I7Eb {
@@ -331,7 +379,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___0I7Eb > :global(.__wab_flex-container) > *,
-.freeBox___0I7Eb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___0I7Eb > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___0I7Eb > :global(.__wab_flex-container) > picture > img,
+.freeBox___0I7Eb
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__yFiMv:global(.__wab_instance) {

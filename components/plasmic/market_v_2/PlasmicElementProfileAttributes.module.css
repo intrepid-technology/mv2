@@ -13,7 +13,9 @@
   height: calc(100% + 32px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -37,7 +39,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
-  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 32px;
   }
@@ -63,7 +71,13 @@
 .profileIndustryParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.profileIndustryParent > :global(.__wab_flex-container) > picture > img,
+.profileIndustryParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -93,7 +107,13 @@
   .profileIndustryParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .profileIndustryParent > :global(.__wab_flex-container) > picture > img,
+  .profileIndustryParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -139,7 +159,13 @@
   height: calc(100% + 8px);
 }
 .textParent6 > :global(.__wab_flex-container) > *,
-.textParent6 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.textParent6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.textParent6 > :global(.__wab_flex-container) > picture > img,
+.textParent6
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }
@@ -211,7 +237,13 @@
 .profileCategoriesParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.profileCategoriesParent > :global(.__wab_flex-container) > picture > img,
+.profileCategoriesParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -242,7 +274,13 @@
   .profileCategoriesParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .profileCategoriesParent > :global(.__wab_flex-container) > picture > img,
+  .profileCategoriesParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -291,7 +329,13 @@
 .categoryBadgeParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.categoryBadgeParent > :global(.__wab_flex-container) > picture > img,
+.categoryBadgeParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }
@@ -387,7 +431,13 @@
 .profileSkillsParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.profileSkillsParent > :global(.__wab_flex-container) > picture > img,
+.profileSkillsParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -418,7 +468,13 @@
   .profileSkillsParent
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
-    > * {
+    > *,
+  .profileSkillsParent > :global(.__wab_flex-container) > picture > img,
+  .profileSkillsParent
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -464,7 +520,13 @@
   height: calc(100% + 8px);
 }
 .skillsBadgeParent > :global(.__wab_flex-container) > *,
-.skillsBadgeParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.skillsBadgeParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.skillsBadgeParent > :global(.__wab_flex-container) > picture > img,
+.skillsBadgeParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }

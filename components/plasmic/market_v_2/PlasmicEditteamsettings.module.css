@@ -42,7 +42,16 @@
 .sectionTeamSettingsStripeConnect
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamSettingsStripeConnect
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionTeamSettingsStripeConnect
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__d6NR:global(.__wab_instance) {
@@ -70,7 +79,16 @@
 .formTeamEditBusinessVerification
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.formTeamEditBusinessVerification
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.formTeamEditBusinessVerification
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamLegalBusinessGroup {
@@ -92,7 +110,13 @@
 .cardTeamLegalBusinessGroup
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamLegalBusinessGroup > :global(.__wab_flex-container) > picture > img,
+.cardTeamLegalBusinessGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__lzBve:global(.__wab_instance) {
@@ -129,7 +153,13 @@
 .cardTeamRegisteredAddress
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamRegisteredAddress > :global(.__wab_flex-container) > picture > img,
+.cardTeamRegisteredAddress
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary___13RQo:global(.__wab_instance) {
@@ -159,7 +189,13 @@
   height: calc(100% + 16px);
 }
 .teamAddressGroup > :global(.__wab_flex-container) > *,
-.teamAddressGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.teamAddressGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teamAddressGroup > :global(.__wab_flex-container) > picture > img,
+.teamAddressGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 16px;
 }
 .inputTextForm___52C8X:global(.__wab_instance) {
@@ -187,7 +223,13 @@
   width: calc(100% + 40px);
 }
 .teamStateZipGroup > :global(.__wab_flex-container) > *,
-.teamStateZipGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.teamStateZipGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teamStateZipGroup > :global(.__wab_flex-container) > picture > img,
+.teamStateZipGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 40px;
 }
 .freeBox__fo0Jj {
@@ -211,7 +253,13 @@
   height: calc(100% + 24px);
 }
 .cardTeamTaxId > :global(.__wab_flex-container) > *,
-.cardTeamTaxId > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardTeamTaxId > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardTeamTaxId > :global(.__wab_flex-container) > picture > img,
+.cardTeamTaxId
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__mAaAf:global(.__wab_instance) {
@@ -242,7 +290,13 @@
   width: calc(100% + 32px);
 }
 .teamTaxIdGroup > :global(.__wab_flex-container) > *,
-.teamTaxIdGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.teamTaxIdGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teamTaxIdGroup > :global(.__wab_flex-container) > picture > img,
+.teamTaxIdGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
 }
 .selectGroupDropdownPrimary__fjl7S:global(.__wab_instance) {
@@ -284,7 +338,16 @@
 .sectionTeamSettingsAccountingConnect
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamSettingsAccountingConnect
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionTeamSettingsAccountingConnect
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamAccountingConnections {
@@ -305,7 +368,13 @@
 .cardTeamAccountingConnections
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamAccountingConnections > :global(.__wab_flex-container) > picture > img,
+.cardTeamAccountingConnections
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__nAMj:global(.__wab_instance) {
@@ -359,7 +428,16 @@
 .sectionTeamSettingsAnalyticsConnect
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamSettingsAnalyticsConnect
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.sectionTeamSettingsAnalyticsConnect
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamAnalytics {
@@ -377,7 +455,13 @@
   height: calc(100% + 24px);
 }
 .cardTeamAnalytics > :global(.__wab_flex-container) > *,
-.cardTeamAnalytics > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.cardTeamAnalytics > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardTeamAnalytics > :global(.__wab_flex-container) > picture > img,
+.cardTeamAnalytics
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__pzjIj:global(.__wab_instance) {
@@ -419,7 +503,13 @@
 .sectionTeamNotifications
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamNotifications > :global(.__wab_flex-container) > picture > img,
+.sectionTeamNotifications
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitleDisplay__qvdyY:global(.__wab_instance) {
@@ -450,7 +540,13 @@
 .notificationPushEmail
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationPushEmail > :global(.__wab_flex-container) > picture > img,
+.notificationPushEmail
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__y77Es:global(.__wab_instance) {
@@ -478,7 +574,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__hT3J > :global(.__wab_flex-container) > *,
-.freeBox__hT3J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__hT3J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__hT3J > :global(.__wab_flex-container) > picture > img,
+.freeBox__hT3J
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .switchTextGroupPrimary__tjMmC:global(.__wab_instance) {
@@ -511,7 +613,13 @@
 .notificationActivity
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationActivity > :global(.__wab_flex-container) > picture > img,
+.notificationActivity
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__dt2Q1:global(.__wab_instance) {
@@ -540,7 +648,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__rn81K > :global(.__wab_flex-container) > *,
-.freeBox__rn81K > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__rn81K > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__rn81K > :global(.__wab_flex-container) > picture > img,
+.freeBox__rn81K
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .checkboxTextPrimary___3UFLr:global(.__wab_instance) {
@@ -603,7 +717,13 @@
 .notificationNewsEvents
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.notificationNewsEvents > :global(.__wab_flex-container) > picture > img,
+.notificationNewsEvents
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardHeaderTitlePrimary__y2Kpo:global(.__wab_instance) {
@@ -631,7 +751,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__bFuQw > :global(.__wab_flex-container) > *,
-.freeBox__bFuQw > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__bFuQw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__bFuQw > :global(.__wab_flex-container) > picture > img,
+.freeBox__bFuQw
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .switchTextGroupPrimary__bNbC:global(.__wab_instance) {
@@ -667,7 +793,13 @@
 .sectionTeamSettingsLeaveTeam
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamSettingsLeaveTeam > :global(.__wab_flex-container) > picture > img,
+.sectionTeamSettingsLeaveTeam
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamLeaveAccount {
@@ -688,7 +820,13 @@
 .cardTeamLeaveAccount
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamLeaveAccount > :global(.__wab_flex-container) > picture > img,
+.cardTeamLeaveAccount
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox___01Ppy {
@@ -707,7 +845,13 @@
   height: calc(100% + 24px);
 }
 .freeBox___01Ppy > :global(.__wab_flex-container) > *,
-.freeBox___01Ppy > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___01Ppy > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___01Ppy > :global(.__wab_flex-container) > picture > img,
+.freeBox___01Ppy
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__ui1Jg:global(.__wab_instance) {
@@ -756,7 +900,13 @@
 .sectionTeamSettingsDeleteTeam
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.sectionTeamSettingsDeleteTeam > :global(.__wab_flex-container) > picture > img,
+.sectionTeamSettingsDeleteTeam
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .cardTeamDeleteAccount {
@@ -777,7 +927,13 @@
 .cardTeamDeleteAccount
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamDeleteAccount > :global(.__wab_flex-container) > picture > img,
+.cardTeamDeleteAccount
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .freeBox__vOij {
@@ -796,7 +952,13 @@
   height: calc(100% + 24px);
 }
 .freeBox__vOij > :global(.__wab_flex-container) > *,
-.freeBox__vOij > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__vOij > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__vOij > :global(.__wab_flex-container) > picture > img,
+.freeBox__vOij
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .cardHeaderTitlePrimary__i45Ew:global(.__wab_instance) {

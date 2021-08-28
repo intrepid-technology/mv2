@@ -13,7 +13,9 @@
   height: calc(100% + 24px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
 }
 .checkoutHeadlineText {
@@ -50,7 +52,13 @@
 .checkoutSubTotalListItemBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.checkoutSubTotalListItemBlock > :global(.__wab_flex-container) > picture > img,
+.checkoutSubTotalListItemBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 24px;
 }
 .elementCheckoutHeadlineTotal:global(.__wab_instance) {
@@ -75,7 +83,13 @@
   height: calc(100% + 18px);
 }
 .checkoutListItems > :global(.__wab_flex-container) > *,
-.checkoutListItems > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.checkoutListItems > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.checkoutListItems > :global(.__wab_flex-container) > picture > img,
+.checkoutListItems
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 18px;
 }
 .elementCheckoutSubHeadlineTotal:global(.__wab_instance) {
@@ -117,7 +131,13 @@
   width: calc(100% + 0px);
 }
 .freeBox__d20Mo > :global(.__wab_flex-container) > *,
-.freeBox__d20Mo > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__d20Mo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__d20Mo > :global(.__wab_flex-container) > picture > img,
+.freeBox__d20Mo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .freeBox__hnkjh {
@@ -149,7 +169,13 @@
   width: calc(100% + 4px);
 }
 .freeBox__ulvEc > :global(.__wab_flex-container) > *,
-.freeBox__ulvEc > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ulvEc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ulvEc > :global(.__wab_flex-container) > picture > img,
+.freeBox__ulvEc
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .freeBox__mRg2O {
@@ -211,7 +237,13 @@
   width: calc(100% + 8px);
 }
 .freeBox__fbCfP > :global(.__wab_flex-container) > *,
-.freeBox__fbCfP > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__fbCfP > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__fbCfP > :global(.__wab_flex-container) > picture > img,
+.freeBox__fbCfP
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .freeBox__zplQa {
@@ -288,7 +320,13 @@
   width: calc(100% + 6px);
 }
 .freeBox__lTtnn > :global(.__wab_flex-container) > *,
-.freeBox__lTtnn > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__lTtnn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lTtnn > :global(.__wab_flex-container) > picture > img,
+.freeBox__lTtnn
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .freeBox__ayWyh {
@@ -330,7 +368,13 @@
   width: calc(100% + 4px);
 }
 .freeBox__ioo18 > :global(.__wab_flex-container) > *,
-.freeBox__ioo18 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ioo18 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ioo18 > :global(.__wab_flex-container) > picture > img,
+.freeBox__ioo18
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .freeBox__rYWv {
@@ -389,7 +433,13 @@
 .checkoutPromotionInput
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.checkoutPromotionInput > :global(.__wab_flex-container) > picture > img,
+.checkoutPromotionInput
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 18px;
 }
 .inputCheckoutPromotion:global(.__wab_instance) {
@@ -436,7 +486,13 @@
 .checkoutTotalButtonBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.checkoutTotalButtonBlock > :global(.__wab_flex-container) > picture > img,
+.checkoutTotalButtonBlock
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .elementCheckoutTotalHeadline:global(.__wab_instance) {

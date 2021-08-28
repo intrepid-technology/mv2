@@ -30,7 +30,13 @@
 .navbarListButtonTextParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.navbarListButtonTextParent > :global(.__wab_flex-container) > picture > img,
+.navbarListButtonTextParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .navbarListButtonSvg {

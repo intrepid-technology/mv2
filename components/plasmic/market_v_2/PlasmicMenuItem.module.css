@@ -17,7 +17,13 @@
   width: calc(100% + 0px);
 }
 .menuItemLink > :global(.__wab_flex-container) > *,
-.menuItemLink > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.menuItemLink > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.menuItemLink > :global(.__wab_flex-container) > picture > img,
+.menuItemLink
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
 }
 .menuItemLink:hover {

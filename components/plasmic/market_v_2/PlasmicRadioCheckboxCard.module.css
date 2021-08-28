@@ -17,7 +17,9 @@
   width: calc(100% + 32px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 32px;
 }
 .root__state_selected {
@@ -37,7 +39,13 @@
   height: calc(100% + 0px);
 }
 .root__size__90 > :global(.__wab_flex-container) > *,
-.root__size__90 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__90 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__90 > :global(.__wab_flex-container) > picture > img,
+.root__size__90
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
   margin-top: 0px;
 }
@@ -52,7 +60,13 @@
   height: calc(100% + 0px);
 }
 .root__size__180 > :global(.__wab_flex-container) > *,
-.root__size__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__180 > :global(.__wab_flex-container) > picture > img,
+.root__size__180
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
   margin-top: 0px;
 }
@@ -66,7 +80,13 @@
   height: calc(100% + 0px);
 }
 .root__size__270 > :global(.__wab_flex-container) > *,
-.root__size__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__270 > :global(.__wab_flex-container) > picture > img,
+.root__size__270
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
   margin-top: 0px;
 }
@@ -80,7 +100,13 @@
   height: calc(100% + 0px);
 }
 .root__size__360 > :global(.__wab_flex-container) > *,
-.root__size__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__360 > :global(.__wab_flex-container) > picture > img,
+.root__size__360
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
   margin-top: 0px;
 }

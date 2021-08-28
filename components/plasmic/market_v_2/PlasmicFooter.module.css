@@ -36,7 +36,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .root > :global(.__wab_flex-container) > *,
-  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 40px;
   }
@@ -60,7 +66,13 @@
   height: calc(100% + 36px);
 }
 .freeBox__n566F > :global(.__wab_flex-container) > *,
-.freeBox__n566F > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__n566F > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__n566F > :global(.__wab_flex-container) > picture > img,
+.freeBox__n566F
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 36px;
 }
 .logoHeader:global(.__wab_instance) {
@@ -75,6 +87,12 @@
   height: 32px;
   left: auto;
   top: auto;
+}
+.img__sdyFl > picture > img {
+  object-fit: cover;
+}
+.img__sdyFl > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .freeBox__aA6Wh {
   display: flex;
@@ -99,7 +117,13 @@
   height: calc(100% + 36px);
 }
 .freeBox__aA6Wh > :global(.__wab_flex-container) > *,
-.freeBox__aA6Wh > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__aA6Wh > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__aA6Wh > :global(.__wab_flex-container) > picture > img,
+.freeBox__aA6Wh
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 96px;
   margin-top: 36px;
 }
@@ -114,7 +138,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .freeBox__aA6Wh > :global(.__wab_flex-container) > *,
-  .freeBox__aA6Wh > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .freeBox__aA6Wh > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__aA6Wh > :global(.__wab_flex-container) > picture > img,
+  .freeBox__aA6Wh
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 48px;
     margin-top: 24px;
   }
@@ -136,7 +166,13 @@
   height: calc(100% + 12px);
 }
 .freeBox__yF0Gr > :global(.__wab_flex-container) > *,
-.freeBox__yF0Gr > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__yF0Gr > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__yF0Gr > :global(.__wab_flex-container) > picture > img,
+.freeBox__yF0Gr
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -195,7 +231,13 @@
   height: calc(100% + 12px);
 }
 .freeBox__cMzll > :global(.__wab_flex-container) > *,
-.freeBox__cMzll > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__cMzll > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__cMzll > :global(.__wab_flex-container) > picture > img,
+.freeBox__cMzll
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -251,7 +293,13 @@
   width: calc(100% + 18px);
 }
 .social > :global(.__wab_flex-container) > *,
-.social > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.social > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.social > :global(.__wab_flex-container) > picture > img,
+.social
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 18px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -343,7 +391,13 @@
   height: calc(100% + 12px);
 }
 .freeBox___0G4Y > :global(.__wab_flex-container) > *,
-.freeBox___0G4Y > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox___0G4Y > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___0G4Y > :global(.__wab_flex-container) > picture > img,
+.freeBox___0G4Y
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -397,7 +451,13 @@
   width: calc(100% + 12px);
 }
 .freeBox__qeJzd > :global(.__wab_flex-container) > *,
-.freeBox__qeJzd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__qeJzd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__qeJzd > :global(.__wab_flex-container) > picture > img,
+.freeBox__qeJzd
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 12px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -421,7 +481,13 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .freeBox__qeJzd > :global(.__wab_flex-container) > *,
-  .freeBox__qeJzd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .freeBox__qeJzd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .freeBox__qeJzd > :global(.__wab_flex-container) > picture > img,
+  .freeBox__qeJzd
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -446,7 +512,13 @@
   width: calc(100% + 24px);
 }
 .social2 > :global(.__wab_flex-container) > *,
-.social2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.social2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.social2 > :global(.__wab_flex-container) > picture > img,
+.social2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -542,7 +614,13 @@
   width: calc(100% + 24px);
 }
 .freeBox__yuBxq > :global(.__wab_flex-container) > *,
-.freeBox__yuBxq > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__yuBxq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__yuBxq > :global(.__wab_flex-container) > picture > img,
+.freeBox__yuBxq
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 @media (min-width: 0px) and (max-width: 414px) {

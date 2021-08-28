@@ -36,7 +36,13 @@
 .elementSideBarHeader
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementSideBarHeader > :global(.__wab_flex-container) > picture > img,
+.elementSideBarHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .navbarSwitch:global(.__wab_instance) {
@@ -65,7 +71,16 @@
 .avatarUsernameDisplaynameParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.avatarUsernameDisplaynameParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.avatarUsernameDisplaynameParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .userAvatarVerificationBadge {
@@ -88,6 +103,12 @@
   border-width: 0px;
   border-style: none;
 }
+.navUserAvatar182 > picture > img {
+  object-fit: cover;
+}
+.navUserAvatar182 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .navUserAvatar242 {
   position: relative;
   object-fit: cover;
@@ -98,6 +119,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.navUserAvatar242 > picture > img {
+  object-fit: cover;
+}
+.navUserAvatar242 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .navUserAvatar32 {
   position: relative;
@@ -111,6 +138,14 @@
   border-width: 0px;
   border-style: none;
 }
+.navUserAvatar32 > picture > img {
+  object-fit: cover;
+  object-position: center top;
+}
+.navUserAvatar32 > .__wab_img-spacer > img {
+  object-fit: cover;
+  object-position: center top;
+}
 .img__b5Su5 {
   position: relative;
   object-fit: cover;
@@ -121,6 +156,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__b5Su5 > picture > img {
+  object-fit: cover;
+}
+.img__b5Su5 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__ybXi4 {
   position: relative;
@@ -133,6 +174,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__ybXi4 > picture > img {
+  object-fit: cover;
+}
+.img__ybXi4 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__nosvI {
   position: relative;
   object-fit: cover;
@@ -143,6 +190,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__nosvI > picture > img {
+  object-fit: cover;
+}
+.img__nosvI > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__ek2Qx {
   position: relative;
@@ -155,6 +208,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__ek2Qx > picture > img {
+  object-fit: cover;
+}
+.img__ek2Qx > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__eaIa {
   position: relative;
   object-fit: cover;
@@ -165,6 +224,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__eaIa > picture > img {
+  object-fit: cover;
+}
+.img__eaIa > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__uyTbz {
   position: relative;
@@ -177,6 +242,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__uyTbz > picture > img {
+  object-fit: cover;
+}
+.img__uyTbz > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__vFzeh {
   position: relative;
   object-fit: cover;
@@ -188,6 +259,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__vFzeh > picture > img {
+  object-fit: cover;
+}
+.img__vFzeh > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__sZuzp {
   position: relative;
   object-fit: cover;
@@ -198,6 +275,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__sZuzp > picture > img {
+  object-fit: cover;
+}
+.img__sZuzp > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .buttonSideBarMemberSettings:global(.__wab_instance) {
   position: relative;

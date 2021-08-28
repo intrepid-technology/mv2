@@ -15,7 +15,9 @@
   height: calc(100% + 32px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -66,7 +68,13 @@
   height: calc(100% + 16px);
 }
 .freeBox__xQokM > :global(.__wab_flex-container) > *,
-.freeBox__xQokM > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__xQokM > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__xQokM > :global(.__wab_flex-container) > picture > img,
+.freeBox__xQokM
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 16px;
   margin-top: 16px;
 }

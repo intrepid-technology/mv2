@@ -131,9 +131,9 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               </CardQuestionServiceListing>
 
               <InputTextField
-                data-plasmic-name={"inputTextField"}
-                data-plasmic-override={overrides.inputTextField}
-                className={classNames("__wab_instance", sty.inputTextField)}
+                data-plasmic-name={"serviceName"}
+                data-plasmic-override={overrides.serviceName}
+                className={classNames("__wab_instance", sty.serviceName)}
               />
             </p.Stack>
 
@@ -198,10 +198,9 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               </CardQuestionServiceListing>
 
               <InputRichTextField
-                className={classNames(
-                  "__wab_instance",
-                  sty.inputRichTextField__tm58R
-                )}
+                data-plasmic-name={"serviceDescription"}
+                data-plasmic-override={overrides.serviceDescription}
+                className={classNames("__wab_instance", sty.serviceDescription)}
                 description={"description"}
                 headline={"headline"}
               />
@@ -279,10 +278,9 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               </p.Stack>
 
               <InputRichTextField
-                className={classNames(
-                  "__wab_instance",
-                  sty.inputRichTextField__y56Zz
-                )}
+                data-plasmic-name={"inputRichTextField"}
+                data-plasmic-override={overrides.inputRichTextField}
+                className={classNames("__wab_instance", sty.inputRichTextField)}
                 description={"description"}
               >
                 {"Short overview"}
@@ -345,9 +343,11 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionTitleBlock",
-    "inputTextField",
+    "serviceName",
     "questionDescriptionBlock",
+    "serviceDescription",
     "questionProcessBlock",
+    "inputRichTextField",
     "serviceListingProcessCard",
     "footerServiceListing"
   ],
@@ -360,10 +360,17 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionTitleBlock: ["questionTitleBlock", "inputTextField"],
-  inputTextField: ["inputTextField"],
-  questionDescriptionBlock: ["questionDescriptionBlock"],
-  questionProcessBlock: ["questionProcessBlock", "serviceListingProcessCard"],
+  questionTitleBlock: ["questionTitleBlock", "serviceName"],
+  serviceName: ["serviceName"],
+  questionDescriptionBlock: ["questionDescriptionBlock", "serviceDescription"],
+  serviceDescription: ["serviceDescription"],
+  questionProcessBlock: [
+    "questionProcessBlock",
+    "inputRichTextField",
+    "serviceListingProcessCard"
+  ],
+
+  inputRichTextField: ["inputRichTextField"],
   serviceListingProcessCard: ["serviceListingProcessCard"],
   footerServiceListing: ["footerServiceListing"]
 };
@@ -403,9 +410,11 @@ export const PlasmicServicelistingdescription = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionTitleBlock: makeNodeComponent("questionTitleBlock"),
-    inputTextField: makeNodeComponent("inputTextField"),
+    serviceName: makeNodeComponent("serviceName"),
     questionDescriptionBlock: makeNodeComponent("questionDescriptionBlock"),
+    serviceDescription: makeNodeComponent("serviceDescription"),
     questionProcessBlock: makeNodeComponent("questionProcessBlock"),
+    inputRichTextField: makeNodeComponent("inputRichTextField"),
     serviceListingProcessCard: makeNodeComponent("serviceListingProcessCard"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingdescription

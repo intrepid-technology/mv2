@@ -18,7 +18,9 @@
   height: calc(100% + 12px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 12px;
 }
 .root__color_light {
@@ -79,7 +81,13 @@
   width: calc(100% + 12px);
 }
 .footerLegal > :global(.__wab_flex-container) > *,
-.footerLegal > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.footerLegal > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.footerLegal > :global(.__wab_flex-container) > picture > img,
+.footerLegal
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 12px;
 }
 .social2 {
@@ -102,7 +110,13 @@
   width: calc(100% + 24px);
 }
 .social2 > :global(.__wab_flex-container) > *,
-.social2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.social2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.social2 > :global(.__wab_flex-container) > picture > img,
+.social2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .footerSocialLink__kcGm7:global(.__wab_instance) {
@@ -189,7 +203,13 @@
   width: calc(100% + 24px);
 }
 .freeBox__i6J > :global(.__wab_flex-container) > *,
-.freeBox__i6J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__i6J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__i6J > :global(.__wab_flex-container) > picture > img,
+.freeBox__i6J
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .privacyPolicyComponent:global(.__wab_instance) {

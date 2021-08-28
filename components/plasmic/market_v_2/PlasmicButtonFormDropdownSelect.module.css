@@ -19,7 +19,13 @@
   height: calc(100% + 4px);
 }
 .parent > :global(.__wab_flex-container) > *,
-.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.parent > :global(.__wab_flex-container) > picture > img,
+.parent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .parent__size__360X36 {
@@ -47,7 +53,13 @@
 .parent__size__90X24
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.parent__size__90X24 > :global(.__wab_flex-container) > picture > img,
+.parent__size__90X24
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 2px;
 }
@@ -121,7 +133,13 @@
   width: calc(100% + 24px);
 }
 .buttonDropDown > :global(.__wab_flex-container) > *,
-.buttonDropDown > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.buttonDropDown > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonDropDown > :global(.__wab_flex-container) > picture > img,
+.buttonDropDown
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 24px;
 }
 .buttonDropDown__size__360X36 {
@@ -165,7 +183,13 @@
 .buttonDropDown__size__90X32
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.buttonDropDown__size__90X32 > :global(.__wab_flex-container) > picture > img,
+.buttonDropDown__size__90X32
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
   margin-top: 0px;
 }
@@ -185,7 +209,13 @@
 .buttonDropDown__size__90X36
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.buttonDropDown__size__90X36 > :global(.__wab_flex-container) > picture > img,
+.buttonDropDown__size__90X36
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
   margin-top: 0px;
 }

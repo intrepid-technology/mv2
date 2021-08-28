@@ -16,7 +16,9 @@
   height: calc(100% + 8px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
 }
 .headlineParent {
@@ -35,7 +37,13 @@
   height: calc(100% + 6px);
 }
 .headlineParent > :global(.__wab_flex-container) > *,
-.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headlineParent > :global(.__wab_flex-container) > picture > img,
+.headlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 6px;
 }
 .headlineCommunity {
@@ -74,7 +82,13 @@
   width: calc(100% + 8px);
 }
 .elementUserbadges > :global(.__wab_flex-container) > *,
-.elementUserbadges > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.elementUserbadges > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.elementUserbadges > :global(.__wab_flex-container) > picture > img,
+.elementUserbadges
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .elementUserbadges__user_partner {
@@ -116,7 +130,13 @@
 .elementUserSocialFollowingA
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementUserSocialFollowingA > :global(.__wab_flex-container) > picture > img,
+.elementUserSocialFollowingA
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .followingParent2 {
@@ -137,7 +157,13 @@
   height: calc(100% + 4px);
 }
 .followingParent2 > :global(.__wab_flex-container) > *,
-.followingParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.followingParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.followingParent2 > :global(.__wab_flex-container) > picture > img,
+.followingParent2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .followersNumberCount {
@@ -179,7 +205,13 @@
   height: calc(100% + 4px);
 }
 .followersParent2 > :global(.__wab_flex-container) > *,
-.followersParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.followersParent2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.followersParent2 > :global(.__wab_flex-container) > picture > img,
+.followersParent2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .followingNumberCount {
@@ -226,7 +258,16 @@
 .elementMemberSubscriptionsLists
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementMemberSubscriptionsLists
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.elementMemberSubscriptionsLists
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .elementMemberSubscriptionsLists__user_member {
@@ -257,7 +298,13 @@
 .memberSubscriptionCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberSubscriptionCountParent > :global(.__wab_flex-container) > picture > img,
+.memberSubscriptionCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .memberSubscriptionCountParent__user_member {
@@ -307,7 +354,13 @@
 .memberListsCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberListsCountParent > :global(.__wab_flex-container) > picture > img,
+.memberListsCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .memberListsCountParent__user_member {
@@ -330,7 +383,16 @@
 .memberListsCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberListsCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.memberListsCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 4px;
 }
@@ -378,7 +440,13 @@
 .elementMemberFollowersTeams
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementMemberFollowersTeams > :global(.__wab_flex-container) > picture > img,
+.elementMemberFollowersTeams
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .elementMemberFollowersTeams__user_member {
@@ -406,7 +474,13 @@
 .memberConnectionCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberConnectionCountParent > :global(.__wab_flex-container) > picture > img,
+.memberConnectionCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .memberConnectionCountParent__user_member {
@@ -429,7 +503,16 @@
 .memberConnectionCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberConnectionCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.memberConnectionCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 4px;
 }
@@ -476,7 +559,13 @@
 .memberFollowersCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberFollowersCountParent > :global(.__wab_flex-container) > picture > img,
+.memberFollowersCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .memberFollowersCountParent__user_member {
@@ -499,7 +588,16 @@
 .memberFollowersCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.memberFollowersCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.memberFollowersCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 4px;
 }
@@ -547,7 +645,13 @@
 .elementUserSocialFollowingB
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementUserSocialFollowingB > :global(.__wab_flex-container) > picture > img,
+.elementUserSocialFollowingB
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .followingParent {
@@ -568,7 +672,13 @@
   height: calc(100% + 4px);
 }
 .followingParent > :global(.__wab_flex-container) > *,
-.followingParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.followingParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.followingParent > :global(.__wab_flex-container) > picture > img,
+.followingParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .memberNumberCount {
@@ -610,7 +720,13 @@
   height: calc(100% + 4px);
 }
 .followersParent > :global(.__wab_flex-container) > *,
-.followersParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.followersParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.followersParent > :global(.__wab_flex-container) > picture > img,
+.followersParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .partnerNumberCount {
@@ -657,7 +773,16 @@
 .elementPartnerSubscriberReviewsParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementPartnerSubscriberReviewsParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.elementPartnerSubscriberReviewsParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .elementPartnerSubscriberReviewsParent__user_member {
@@ -688,7 +813,13 @@
 .partnerSubscriberCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerSubscriberCountParent > :global(.__wab_flex-container) > picture > img,
+.partnerSubscriberCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .partnerSubscriberCountParent__user_member {
@@ -711,7 +842,16 @@
 .partnerSubscriberCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerSubscriberCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.partnerSubscriberCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }
@@ -760,7 +900,13 @@
 .partnerTeamReviewCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerTeamReviewCountParent > :global(.__wab_flex-container) > picture > img,
+.partnerTeamReviewCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .partnerTeamReviewCountParent__user_member {
@@ -783,7 +929,16 @@
 .partnerTeamReviewCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerTeamReviewCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.partnerTeamReviewCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }
@@ -835,7 +990,13 @@
 .elementUserFollowersTeams3
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.elementUserFollowersTeams3 > :global(.__wab_flex-container) > picture > img,
+.elementUserFollowersTeams3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 6px;
 }
 .elementUserFollowersTeams3__user_member {
@@ -865,7 +1026,13 @@
 .partnerConnectionsCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerConnectionsCountParent > :global(.__wab_flex-container) > picture > img,
+.partnerConnectionsCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .partnerConnectionsCountParent__user_member {
@@ -890,7 +1057,16 @@
 .partnerConnectionsCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerConnectionsCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.partnerConnectionsCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }
@@ -940,7 +1116,13 @@
 .partnerFollowersCountParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerFollowersCountParent > :global(.__wab_flex-container) > picture > img,
+.partnerFollowersCountParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 4px;
 }
 .partnerFollowersCountParent__user_member {
@@ -963,7 +1145,16 @@
 .partnerFollowersCountParent__user_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.partnerFollowersCountParent__user_member
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.partnerFollowersCountParent__user_member
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }

@@ -77,7 +77,11 @@
 .slotAvatarImage > *,
 .slotAvatarImage > .__wab_slot > *,
 .slotAvatarImage > .__wab_slot > .__wab_slot > *,
-.slotAvatarImage > .__wab_slot > .__wab_slot > .__wab_slot > * {
+.slotAvatarImage > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotAvatarImage > picture > img,
+.slotAvatarImage > .__wab_slot > picture > img,
+.slotAvatarImage > .__wab_slot > .__wab_slot > picture > img,
+.slotAvatarImage > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   transition-property: all;
   transition-duration: 1s;
 }
@@ -93,4 +97,10 @@
   min-height: 0;
   border-radius: 100%;
   border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+.img__gOzp > picture > img {
+  object-fit: cover;
+}
+.img__gOzp > .__wab_img-spacer > img {
+  object-fit: cover;
 }

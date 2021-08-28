@@ -37,7 +37,13 @@
   height: calc(100% + 32px);
 }
 .headlineParent > :global(.__wab_flex-container) > *,
-.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.headlineParent > :global(.__wab_flex-container) > picture > img,
+.headlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 32px;
 }
 .headlineParent__subheadDescription > :global(.__wab_flex-container) {
@@ -50,7 +56,16 @@
 .headlineParent__subheadDescription
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.headlineParent__subheadDescription
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.headlineParent__subheadDescription
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 32px;
 }
@@ -72,7 +87,13 @@
 .headlineSubheadParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.headlineSubheadParent > :global(.__wab_flex-container) > picture > img,
+.headlineSubheadParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 8px;
 }
 .headline {
@@ -126,7 +147,13 @@
   height: calc(100% + 16px);
 }
 .buttons > :global(.__wab_flex-container) > *,
-.buttons > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.buttons > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttons > :global(.__wab_flex-container) > picture > img,
+.buttons
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 32px;
   margin-top: 16px;
 }

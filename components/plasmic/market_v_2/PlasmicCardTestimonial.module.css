@@ -18,6 +18,12 @@
   min-width: 0;
   min-height: 0;
 }
+.img__ju0U3 > picture > img {
+  object-fit: cover;
+}
+.img__ju0U3 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .freeBox___0GW0V {
   display: flex;
   position: relative;

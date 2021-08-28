@@ -13,7 +13,9 @@
   height: calc(100% + 16px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -37,7 +39,13 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root > :global(.__wab_flex-container) > *,
-  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
     margin-left: 0px;
     margin-top: 16px;
   }
@@ -95,7 +103,13 @@
   height: calc(100% + 0px);
 }
 .teamMemberparent > :global(.__wab_flex-container) > *,
-.teamMemberparent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.teamMemberparent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.teamMemberparent > :global(.__wab_flex-container) > picture > img,
+.teamMemberparent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 0px;
 }
@@ -118,10 +132,13 @@
   width: calc(100% + 48px);
 }
 .cardTeamMembership > :global(.__wab_flex-container) > *,
+.cardTeamMembership > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.cardTeamMembership > :global(.__wab_flex-container) > picture > img,
 .cardTeamMembership
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-left: 48px;
 }
 .freeBox__oJ4Wb {
@@ -141,7 +158,13 @@
   width: calc(100% + 8px);
 }
 .freeBox__oJ4Wb > :global(.__wab_flex-container) > *,
-.freeBox__oJ4Wb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__oJ4Wb > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__oJ4Wb > :global(.__wab_flex-container) > picture > img,
+.freeBox__oJ4Wb
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .userAvatar__yG8Na:global(.__wab_instance) {
@@ -160,6 +183,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___58XBa > picture > img {
+  object-fit: cover;
+}
+.img___58XBa > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__nmBcg {
   position: relative;
   object-fit: cover;
@@ -170,6 +199,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__nmBcg > picture > img {
+  object-fit: cover;
+}
+.img__nmBcg > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__dUbSg {
   position: relative;
@@ -182,6 +217,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__dUbSg > picture > img {
+  object-fit: cover;
+}
+.img__dUbSg > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__nHJhO {
   position: relative;
   object-fit: cover;
@@ -192,6 +233,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__nHJhO > picture > img {
+  object-fit: cover;
+}
+.img__nHJhO > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__td0Xv {
   position: relative;
@@ -204,6 +251,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__td0Xv > picture > img {
+  object-fit: cover;
+}
+.img__td0Xv > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__ojUtN {
   position: relative;
   object-fit: cover;
@@ -214,6 +267,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__ojUtN > picture > img {
+  object-fit: cover;
+}
+.img__ojUtN > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img___8Qqmw {
   position: relative;
@@ -226,6 +285,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___8Qqmw > picture > img {
+  object-fit: cover;
+}
+.img___8Qqmw > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___8ZbBz {
   position: relative;
   object-fit: cover;
@@ -236,6 +301,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img___8ZbBz > picture > img {
+  object-fit: cover;
+}
+.img___8ZbBz > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__hrQf7 {
   position: relative;
@@ -248,6 +319,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__hrQf7 > picture > img {
+  object-fit: cover;
+}
+.img__hrQf7 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__snvdb {
   position: relative;
   object-fit: cover;
@@ -259,6 +336,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__snvdb > picture > img {
+  object-fit: cover;
+}
+.img__snvdb > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__fNmYw {
   position: relative;
   object-fit: cover;
@@ -269,6 +352,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__fNmYw > picture > img {
+  object-fit: cover;
+}
+.img__fNmYw > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .teamLink {
   display: flex;
@@ -311,7 +400,13 @@
 .cardTeamMembership2
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamMembership2 > :global(.__wab_flex-container) > picture > img,
+.cardTeamMembership2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 48px;
 }
 .freeBox__ld279 {
@@ -331,7 +426,13 @@
   width: calc(100% + 8px);
 }
 .freeBox__ld279 > :global(.__wab_flex-container) > *,
-.freeBox__ld279 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__ld279 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__ld279 > :global(.__wab_flex-container) > picture > img,
+.freeBox__ld279
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .userAvatar__rNdzL:global(.__wab_instance) {
@@ -350,6 +451,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___0FYbB > picture > img {
+  object-fit: cover;
+}
+.img___0FYbB > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__veBb {
   position: relative;
   object-fit: cover;
@@ -360,6 +467,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__veBb > picture > img {
+  object-fit: cover;
+}
+.img__veBb > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__og1Ad {
   position: relative;
@@ -372,6 +485,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__og1Ad > picture > img {
+  object-fit: cover;
+}
+.img__og1Ad > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img___78If6 {
   position: relative;
   object-fit: cover;
@@ -382,6 +501,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img___78If6 > picture > img {
+  object-fit: cover;
+}
+.img___78If6 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__rzkem {
   position: relative;
@@ -394,6 +519,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__rzkem > picture > img {
+  object-fit: cover;
+}
+.img__rzkem > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__gcYes {
   position: relative;
   object-fit: cover;
@@ -404,6 +535,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__gcYes > picture > img {
+  object-fit: cover;
+}
+.img__gcYes > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__pebMa {
   position: relative;
@@ -416,6 +553,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__pebMa > picture > img {
+  object-fit: cover;
+}
+.img__pebMa > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__qUkKz {
   position: relative;
   object-fit: cover;
@@ -426,6 +569,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__qUkKz > picture > img {
+  object-fit: cover;
+}
+.img__qUkKz > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__zZyX {
   position: relative;
@@ -438,6 +587,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__zZyX > picture > img {
+  object-fit: cover;
+}
+.img__zZyX > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__qcThz {
   position: relative;
   object-fit: cover;
@@ -449,6 +604,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__qcThz > picture > img {
+  object-fit: cover;
+}
+.img__qcThz > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__fHvjq {
   position: relative;
   object-fit: cover;
@@ -459,6 +620,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__fHvjq > picture > img {
+  object-fit: cover;
+}
+.img__fHvjq > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .teamLink2 {
   display: flex;
@@ -501,7 +668,13 @@
 .cardTeamMembership3
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.cardTeamMembership3 > :global(.__wab_flex-container) > picture > img,
+.cardTeamMembership3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 48px;
 }
 .freeBox__za13C {
@@ -521,7 +694,13 @@
   width: calc(100% + 8px);
 }
 .freeBox__za13C > :global(.__wab_flex-container) > *,
-.freeBox__za13C > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__za13C > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__za13C > :global(.__wab_flex-container) > picture > img,
+.freeBox__za13C
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .userAvatar__ecg5D:global(.__wab_instance) {
@@ -540,6 +719,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__wjRx > picture > img {
+  object-fit: cover;
+}
+.img__wjRx > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__t3Wme {
   position: relative;
   object-fit: cover;
@@ -550,6 +735,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__t3Wme > picture > img {
+  object-fit: cover;
+}
+.img__t3Wme > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__qgKGu {
   position: relative;
@@ -562,6 +753,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__qgKGu > picture > img {
+  object-fit: cover;
+}
+.img__qgKGu > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__eFuqk {
   position: relative;
   object-fit: cover;
@@ -572,6 +769,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__eFuqk > picture > img {
+  object-fit: cover;
+}
+.img__eFuqk > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img___1CVBh {
   position: relative;
@@ -584,6 +787,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img___1CVBh > picture > img {
+  object-fit: cover;
+}
+.img___1CVBh > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__xdE0C {
   position: relative;
   object-fit: cover;
@@ -594,6 +803,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__xdE0C > picture > img {
+  object-fit: cover;
+}
+.img__xdE0C > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__sUyuA {
   position: relative;
@@ -606,6 +821,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__sUyuA > picture > img {
+  object-fit: cover;
+}
+.img__sUyuA > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__qik2 {
   position: relative;
   object-fit: cover;
@@ -616,6 +837,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__qik2 > picture > img {
+  object-fit: cover;
+}
+.img__qik2 > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .img__sH4Px {
   position: relative;
@@ -628,6 +855,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__sH4Px > picture > img {
+  object-fit: cover;
+}
+.img__sH4Px > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__n62BR {
   position: relative;
   object-fit: cover;
@@ -639,6 +872,12 @@
   border-width: 0px;
   border-style: none;
 }
+.img__n62BR > picture > img {
+  object-fit: cover;
+}
+.img__n62BR > .__wab_img-spacer > img {
+  object-fit: cover;
+}
 .img__sb8ZV {
   position: relative;
   object-fit: cover;
@@ -649,6 +888,12 @@
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
+}
+.img__sb8ZV > picture > img {
+  object-fit: cover;
+}
+.img__sb8ZV > .__wab_img-spacer > img {
+  object-fit: cover;
 }
 .teamLink3 {
   display: flex;

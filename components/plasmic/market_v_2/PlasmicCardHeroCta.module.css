@@ -87,3 +87,9 @@
   height: 380px;
   flex-shrink: 0;
 }
+.img__m8Tz3 > picture > img {
+  object-fit: cover;
+}
+.img__m8Tz3 > .__wab_img-spacer > img {
+  object-fit: cover;
+}

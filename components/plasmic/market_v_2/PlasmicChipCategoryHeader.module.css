@@ -16,7 +16,9 @@
   height: calc(100% + 16px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
 .root__color_bgLightB {
@@ -52,7 +54,13 @@
   height: calc(100% + 8px);
 }
 .root__size__180 > :global(.__wab_flex-container) > *,
-.root__size__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__180 > :global(.__wab_flex-container) > picture > img,
+.root__size__180
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 8px;
 }
@@ -68,7 +76,13 @@
   height: calc(100% + 16px);
 }
 .root__size__270 > :global(.__wab_flex-container) > *,
-.root__size__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__270 > :global(.__wab_flex-container) > picture > img,
+.root__size__270
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 16px;
 }
@@ -86,7 +100,13 @@
   height: calc(100% + 16px);
 }
 .root__size__360 > :global(.__wab_flex-container) > *,
-.root__size__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root__size__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root__size__360 > :global(.__wab_flex-container) > picture > img,
+.root__size__360
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 0px;
   margin-top: 16px;
 }

@@ -25,7 +25,13 @@
   width: calc(100% + 8px);
 }
 .unitItemInterval > :global(.__wab_flex-container) > *,
-.unitItemInterval > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.unitItemInterval > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.unitItemInterval > :global(.__wab_flex-container) > picture > img,
+.unitItemInterval
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
 }
 .unitNumberbackgroundParent {
@@ -141,7 +147,16 @@
 .currencyTotalValueNumberParent
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > *,
+.currencyTotalValueNumberParent
+  > :global(.__wab_flex-container)
+  > picture
+  > img,
+.currencyTotalValueNumberParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 4px;
 }
 .currencySymbolParent {

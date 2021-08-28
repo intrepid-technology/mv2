@@ -12,7 +12,9 @@
   width: calc(100% + 0px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
 .root__isDisabled {
@@ -128,7 +130,11 @@
 .slotChildren > *,
 .slotChildren > .__wab_slot > *,
 .slotChildren > .__wab_slot > .__wab_slot > *,
-.slotChildren > .__wab_slot > .__wab_slot > .__wab_slot > * {
+.slotChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotChildren > picture > img,
+.slotChildren > .__wab_slot > picture > img,
+.slotChildren > .__wab_slot > .__wab_slot > picture > img,
+.slotChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -140,6 +146,21 @@
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot
-  > * {
+  > *,
+.root .slotChildren_____focusVisibleWithin > picture > img,
+.root .slotChildren_____focusVisibleWithin > .__wab_slot > picture > img,
+.root
+  .slotChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root
+  .slotChildren_____focusVisibleWithin
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
   outline: none;
 }

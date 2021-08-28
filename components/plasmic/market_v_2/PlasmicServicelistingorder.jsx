@@ -81,9 +81,9 @@ function PlasmicServicelistingorder__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
-              data-plasmic-name={"navbarServiceListing"}
-              data-plasmic-override={overrides.navbarServiceListing}
-              className={classNames("__wab_instance", sty.navbarServiceListing)}
+              data-plasmic-name={"buttonCheckout"}
+              data-plasmic-override={overrides.buttonCheckout}
+              className={classNames("__wab_instance", sty.buttonCheckout)}
               state={"checkout"}
             >
               {"Order"}
@@ -145,10 +145,12 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                     className={classNames(defaultcss.all, sty.freeBox__tpSpo)}
                   >
                     <div
+                      data-plasmic-name={"serviceName"}
+                      data-plasmic-override={overrides.serviceName}
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__gAzcN
+                        sty.serviceName
                       )}
                     >
                       {"Service title"}
@@ -210,10 +212,10 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                       className={classNames(defaultcss.all, sty.freeBox__n6YQh)}
                     >
                       <img
-                        data-plasmic-name={"img"}
-                        data-plasmic-override={overrides.img}
+                        data-plasmic-name={"serviceImage"}
+                        data-plasmic-override={overrides.serviceImage}
                         alt={""}
-                        className={classNames(defaultcss.img, sty.img)}
+                        className={classNames(defaultcss.img, sty.serviceImage)}
                         role={"img"}
                       />
                     </div>
@@ -415,10 +417,12 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                       )}
                     >
                       <div
+                        data-plasmic-name={"serviceDescription"}
+                        data-plasmic-override={overrides.serviceDescription}
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__o8GjR
+                          sty.serviceDescription
                         )}
                       >
                         {
@@ -1434,12 +1438,13 @@ const PlasmicDescendants = {
   root: [
     "root",
     "serviceListingNavbar",
-    "navbarServiceListing",
+    "buttonCheckout",
     "progressBar",
     "orderParent",
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
-    "img",
+    "serviceName",
+    "serviceImage",
     "orderInputBlock",
     "orderListingInput",
     "orderPlacementInput",
@@ -1448,6 +1453,7 @@ const PlasmicDescendants = {
     "orderCheckoutSummaryReviewBody",
     "orderDescriptionCheckoutBlock",
     "serviceDescriptionOverview",
+    "serviceDescription",
     "orderProcessCheckoutBlock",
     "serviceProcessDescription",
     "orderFeaturesCheckoutBlock",
@@ -1463,17 +1469,18 @@ const PlasmicDescendants = {
 
   serviceListingNavbar: [
     "serviceListingNavbar",
-    "navbarServiceListing",
+    "buttonCheckout",
     "progressBar"
   ],
 
-  navbarServiceListing: ["navbarServiceListing"],
+  buttonCheckout: ["buttonCheckout"],
   progressBar: ["progressBar"],
   orderParent: [
     "orderParent",
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
-    "img",
+    "serviceName",
+    "serviceImage",
     "orderInputBlock",
     "orderListingInput",
     "orderPlacementInput",
@@ -1482,6 +1489,7 @@ const PlasmicDescendants = {
     "orderCheckoutSummaryReviewBody",
     "orderDescriptionCheckoutBlock",
     "serviceDescriptionOverview",
+    "serviceDescription",
     "orderProcessCheckoutBlock",
     "serviceProcessDescription",
     "orderFeaturesCheckoutBlock",
@@ -1496,11 +1504,13 @@ const PlasmicDescendants = {
   orderHeadlineTitleImage: [
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
-    "img"
+    "serviceName",
+    "serviceImage"
   ],
 
-  orderImageHeroBlock: ["orderImageHeroBlock", "img"],
-  img: ["img"],
+  orderImageHeroBlock: ["orderImageHeroBlock", "serviceName", "serviceImage"],
+  serviceName: ["serviceName"],
+  serviceImage: ["serviceImage"],
   orderInputBlock: [
     "orderInputBlock",
     "orderListingInput",
@@ -1516,6 +1526,7 @@ const PlasmicDescendants = {
     "orderCheckoutSummaryReviewBody",
     "orderDescriptionCheckoutBlock",
     "serviceDescriptionOverview",
+    "serviceDescription",
     "orderProcessCheckoutBlock",
     "serviceProcessDescription",
     "orderFeaturesCheckoutBlock",
@@ -1531,6 +1542,7 @@ const PlasmicDescendants = {
     "orderCheckoutSummaryReviewBody",
     "orderDescriptionCheckoutBlock",
     "serviceDescriptionOverview",
+    "serviceDescription",
     "orderProcessCheckoutBlock",
     "serviceProcessDescription",
     "orderFeaturesCheckoutBlock",
@@ -1544,10 +1556,16 @@ const PlasmicDescendants = {
 
   orderDescriptionCheckoutBlock: [
     "orderDescriptionCheckoutBlock",
-    "serviceDescriptionOverview"
+    "serviceDescriptionOverview",
+    "serviceDescription"
   ],
 
-  serviceDescriptionOverview: ["serviceDescriptionOverview"],
+  serviceDescriptionOverview: [
+    "serviceDescriptionOverview",
+    "serviceDescription"
+  ],
+
+  serviceDescription: ["serviceDescription"],
   orderProcessCheckoutBlock: [
     "orderProcessCheckoutBlock",
     "serviceProcessDescription"
@@ -1597,12 +1615,13 @@ export const PlasmicServicelistingorder = Object.assign(
   {
     // Helper components rendering sub-elements
     serviceListingNavbar: makeNodeComponent("serviceListingNavbar"),
-    navbarServiceListing: makeNodeComponent("navbarServiceListing"),
+    buttonCheckout: makeNodeComponent("buttonCheckout"),
     progressBar: makeNodeComponent("progressBar"),
     orderParent: makeNodeComponent("orderParent"),
     orderHeadlineTitleImage: makeNodeComponent("orderHeadlineTitleImage"),
     orderImageHeroBlock: makeNodeComponent("orderImageHeroBlock"),
-    img: makeNodeComponent("img"),
+    serviceName: makeNodeComponent("serviceName"),
+    serviceImage: makeNodeComponent("serviceImage"),
     orderInputBlock: makeNodeComponent("orderInputBlock"),
     orderListingInput: makeNodeComponent("orderListingInput"),
     orderPlacementInput: makeNodeComponent("orderPlacementInput"),
@@ -1617,6 +1636,7 @@ export const PlasmicServicelistingorder = Object.assign(
     ),
 
     serviceDescriptionOverview: makeNodeComponent("serviceDescriptionOverview"),
+    serviceDescription: makeNodeComponent("serviceDescription"),
     orderProcessCheckoutBlock: makeNodeComponent("orderProcessCheckoutBlock"),
     serviceProcessDescription: makeNodeComponent("serviceProcessDescription"),
     orderFeaturesCheckoutBlock: makeNodeComponent("orderFeaturesCheckoutBlock"),

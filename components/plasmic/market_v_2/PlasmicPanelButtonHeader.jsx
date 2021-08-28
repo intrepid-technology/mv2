@@ -79,6 +79,7 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
             ? "/member/pricing"
             : "/partner/pricing"
         }
+        target={"http://localhost:8000/sellers/stripe/authorize"}
       />
     </p.Stack>
   );

@@ -15,7 +15,9 @@
   height: calc(100% + 40px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 40px;
 }
 .serviceListingNavbar {
@@ -55,7 +57,13 @@
   width: calc(100% + 360px);
 }
 .freeBox__lc1Vo > :global(.__wab_flex-container) > *,
-.freeBox__lc1Vo > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__lc1Vo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__lc1Vo > :global(.__wab_flex-container) > picture > img,
+.freeBox__lc1Vo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 360px;
 }
 .questionImageBlock {
@@ -75,10 +83,13 @@
   height: calc(100% + 64px);
 }
 .questionImageBlock > :global(.__wab_flex-container) > *,
+.questionImageBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.questionImageBlock > :global(.__wab_flex-container) > picture > img,
 .questionImageBlock
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
-  > * {
+  > picture
+  > img {
   margin-top: 64px;
 }
 .cardQuestionServiceListing:global(.__wab_instance) {
@@ -115,7 +126,13 @@
   height: calc(100% + 20px);
 }
 .freeBox__wbEqK > :global(.__wab_flex-container) > *,
-.freeBox__wbEqK > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__wbEqK > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__wbEqK > :global(.__wab_flex-container) > picture > img,
+.freeBox__wbEqK
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-top: 20px;
 }
 .button__sOrr {
@@ -169,7 +186,13 @@
   height: calc(100% + 20px);
 }
 .freeBox__uh1A1 > :global(.__wab_flex-container) > *,
-.freeBox__uh1A1 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox__uh1A1 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__uh1A1 > :global(.__wab_flex-container) > picture > img,
+.freeBox__uh1A1
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 10px;
   margin-top: 20px;
 }

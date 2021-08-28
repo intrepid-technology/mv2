@@ -13,10 +13,12 @@
   height: calc(100% + 24px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
 }
-.textbox {
+.serviceIndustry {
   width: 100%;
   border-top-style: none;
   border-top-width: 1px;
@@ -30,10 +32,10 @@
   flex-shrink: 0;
   border-bottom: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.root .textbox:hover {
+.root .serviceIndustry:hover {
   border-bottom-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.root .textbox:focus {
+.root .serviceIndustry:focus {
   border-bottom-color: #6633ff /* plasmic-token: vlQUduj5i */;
   outline: none;
 }
@@ -59,7 +61,13 @@
   height: calc(100% + 8px);
 }
 .freeBox > :global(.__wab_flex-container) > *,
-.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }

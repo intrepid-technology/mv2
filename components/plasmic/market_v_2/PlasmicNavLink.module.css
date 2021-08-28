@@ -82,7 +82,26 @@
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot
-  > * {
+  > *,
+.root__color_brand:hover .slotLinkText__color_brand > picture > img,
+.root__color_brand:hover
+  .slotLinkText__color_brand
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_brand:hover
+  .slotLinkText__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_brand:hover
+  .slotLinkText__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
   text-decoration-line: none;
 }
 .root__state_selected:hover .slotLinkText__state_selected {
