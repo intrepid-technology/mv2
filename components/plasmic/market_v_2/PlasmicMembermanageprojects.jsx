@@ -116,7 +116,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__qYxNs
+                    sty.text__qYxNs
                   )}
                 >
                   {"Manage your projects"}
@@ -156,7 +156,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__pmRau
+                      sty.text__pmRau
                     )}
                   >
                     {"Manage your project collaboration"}
@@ -208,7 +208,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__nBju3
+                      sty.text__nBju3
                     )}
                   >
                     {"Projects"}

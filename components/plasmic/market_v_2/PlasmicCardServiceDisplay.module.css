@@ -880,7 +880,7 @@
 .usernameParentLink__username {
   display: none;
 }
-.freeBox__q6Tt2 {
+.text__q6Tt2 {
   font-size: 16px;
   font-weight: 400;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -940,12 +940,12 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__mzsOx {
+.text__mzsOx {
   line-height: 1;
   font-size: 16px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.freeBox__size__270X270__mzsOxyHOxL {
+.text__size__270X270__mzsOxyHOxL {
   font-size: 14px;
 }
 .reviewLinkB {
@@ -957,14 +957,14 @@
   width: auto;
   height: auto;
 }
-.freeBox__gnv58 {
+.text__gnv58 {
   height: auto;
   width: auto;
   font-size: 16px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   display: inline-block;
 }
-.freeBox__size__270X270__gnv58YHOxL {
+.text__size__270X270__gnv58YHOxL {
   font-size: 14px;
 }
 .title86CharMax {
@@ -992,7 +992,7 @@
 .title86CharMax__description {
   display: none;
 }
-.freeBox__jtV0 {
+.text__jtV0 {
   line-height: 1.4;
   width: 100%;
   font-size: 14px;
@@ -1000,7 +1000,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   min-width: 0;
 }
-.freeBox__size__270X270__jtV0YHOxL {
+.text__size__270X270__jtV0YHOxL {
   height: auto;
   width: auto;
   font-size: 14px;
@@ -1153,10 +1153,10 @@
 .boostedParent__boost {
   display: none;
 }
-.freeBox__bkWea {
+.text__bkWea {
   line-height: 1;
 }
-.freeBox__dGTde {
+.text__dGTde {
   text-transform: capitalize;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }

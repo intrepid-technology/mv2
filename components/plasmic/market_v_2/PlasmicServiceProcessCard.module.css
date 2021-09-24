@@ -63,15 +63,15 @@
   width: 100%;
   min-width: 0;
 }
-.slotSlot {
+.slotTargetSlot {
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 14px;
   line-height: 1.4;
 }
-.slotChildren__size__360 {
+.slotTargetChildren__size__360 {
   font-size: 14px;
 }

@@ -93,7 +93,7 @@ function PlasmicTablePricing__RenderFunc(props) {
               defaultContents:
                 "Choose if you are an independent creative professional, solopreneur, or founder getting ready to grow your startup.",
               value: args.slot,
-              className: classNames(sty.slotSlot)
+              className: classNames(sty.slotTargetSlot)
             })}
           </div>
         }
@@ -139,7 +139,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___3Db6E
+                    sty.text___3Db6E
                   )}
                 >
                   {
@@ -156,7 +156,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__wZbrp
+                    sty.text__wZbrp
                   )}
                 >
                   {"$"}
@@ -171,7 +171,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zt6PV
+                    sty.text__zt6PV
                   )}
                 >
                   {"50"}
@@ -186,7 +186,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__tScVb
+                    sty.text__tScVb
                   )}
                 >
                   {"/year"}
@@ -243,7 +243,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__wD7Qq
+                      sty.text__wD7Qq
                     )}
                   >
                     {"feature value proposition"}
@@ -271,7 +271,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__cIzHl
+                      sty.text__cIzHl
                     )}
                   >
                     {"feature value proposition"}
@@ -383,7 +383,7 @@ function PlasmicTablePricing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox___7UBdg
+                sty.text___7UBdg
               )}
             >
               {"Get started"}

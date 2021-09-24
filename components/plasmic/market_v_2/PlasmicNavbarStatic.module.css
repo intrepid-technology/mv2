@@ -105,7 +105,7 @@
   height: 32px;
   left: auto;
   top: auto;
-  display: inline-inline-block;
+  display: inline-inline-block !important;
 }
 .img__lyrdT > picture > img {
   object-fit: cover;

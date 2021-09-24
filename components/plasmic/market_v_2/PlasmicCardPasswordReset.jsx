@@ -104,7 +104,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
                 defaultContents:
                   "Enter your registered email below to receive your password recovery link.",
                 value: args.textSlot,
-                className: classNames(sty.slotTextSlot)
+                className: classNames(sty.slotTargetTextSlot)
               })}
             </div>
           </p.Stack>
@@ -153,12 +153,12 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               size={"_360"}
             >
               <div
-                data-plasmic-name={"freeBox"}
-                data-plasmic-override={overrides.freeBox}
+                data-plasmic-name={"text"}
+                data-plasmic-override={overrides.text}
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox
+                  sty.text
                 )}
               >
                 {"Send recovery link"}
@@ -186,7 +186,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "freeBox"
+    "text"
   ],
 
   parent: [
@@ -202,7 +202,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "freeBox"
+    "text"
   ],
 
   navLinkBack: ["navLinkBack", "svg"],
@@ -217,7 +217,7 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "freeBox"
+    "text"
   ],
 
   headlineSubheadGroupParent: [
@@ -234,14 +234,14 @@ const PlasmicDescendants = {
     "emailLabel",
     "registeredEmail",
     "recoveryLinkEmail",
-    "freeBox"
+    "text"
   ],
 
   emailParent: ["emailParent", "emailLabel", "registeredEmail"],
   emailLabel: ["emailLabel"],
   registeredEmail: ["registeredEmail"],
-  recoveryLinkEmail: ["recoveryLinkEmail", "freeBox"],
-  freeBox: ["freeBox"]
+  recoveryLinkEmail: ["recoveryLinkEmail", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -287,7 +287,7 @@ export const PlasmicCardPasswordReset = Object.assign(
     emailLabel: makeNodeComponent("emailLabel"),
     registeredEmail: makeNodeComponent("registeredEmail"),
     recoveryLinkEmail: makeNodeComponent("recoveryLinkEmail"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicCardPasswordReset
     internalVariantProps: PlasmicCardPasswordReset__VariantProps,
     internalArgProps: PlasmicCardPasswordReset__ArgProps

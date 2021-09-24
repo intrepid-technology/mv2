@@ -65,8 +65,12 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Headline Title",
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__size__360]: hasVariant(variants, "size", "_360")
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
             })
           })}
         </div>
@@ -76,8 +80,12 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
             ? "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo"
             : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo",
           value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__size__360]: hasVariant(variants, "size", "_360")
+          className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildren__size__360]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            )
           })
         })}
       </p.Stack>

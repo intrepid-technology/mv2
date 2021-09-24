@@ -60,7 +60,7 @@
 .root:hover .svg {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.freeBox {
+.text {
   position: relative;
   line-height: 1;
   width: auto;
@@ -70,6 +70,6 @@
   font-weight: 500;
   display: inline-block;
 }
-.root:hover .freeBox {
+.root:hover .text {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }

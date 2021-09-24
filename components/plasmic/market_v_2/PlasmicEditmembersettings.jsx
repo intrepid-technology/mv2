@@ -112,7 +112,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___1J1Ku
+                    sty.text___1J1Ku
                   )}
                 >
                   {"Manage your account"}
@@ -144,7 +144,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__stdky
+                        sty.text__stdky
                       )}
                     >
                       {
@@ -208,7 +208,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__pucdn
+                      sty.text__pucdn
                     )}
                   >
                     {
@@ -270,7 +270,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__lhHaq
+                        sty.text__lhHaq
                       )}
                     >
                       {"Connect your social accounts to log in to Intrepid."}
@@ -372,7 +372,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__lzt1R
+                        sty.text__lzt1R
                       )}
                     >
                       {"Membership perks and offers sent directly to you"}
@@ -461,7 +461,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__bNhrh
+                        sty.text__bNhrh
                       )}
                     >
                       {
@@ -514,7 +514,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__peQdh
+                          sty.text__peQdh
                         )}
                       >
                         {"City"}
@@ -543,7 +543,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__ay7A6
+                            sty.text__ay7A6
                           )}
                         >
                           {"Zip/Postal code"}
@@ -592,7 +592,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__aYd0W
+                    sty.text__aYd0W
                   )}
                 >
                   {"Notifications"}
@@ -619,7 +619,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xzQ8E
+                      sty.text__xzQ8E
                     )}
                   >
                     {"Updates when you're away from the community."}
@@ -675,7 +675,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__pBeAe
+                      sty.text__pBeAe
                     )}
                   >
                     {
@@ -791,7 +791,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__slsfD
+                      sty.text__slsfD
                     )}
                   >
                     {
@@ -866,7 +866,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__rRcFg
+                        sty.text__rRcFg
                       )}
                     >
                       {

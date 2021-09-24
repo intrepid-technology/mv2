@@ -116,7 +116,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__hnkjh
+                  sty.text__hnkjh
                 )}
               >
                 {"Placement"}
@@ -132,7 +132,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__mRg2O
+                  sty.text__mRg2O
                 )}
               >
                 {"$"}
@@ -143,7 +143,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__n2Tbz
+                    sty.text__n2Tbz
                   )}
                 >
                   {"0.00"}
@@ -164,7 +164,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__nNdhn
+                      sty.text__nNdhn
                     )}
                   >
                     {"1"}
@@ -176,7 +176,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__c2ZN7
+                  sty.text__c2ZN7
                 )}
               >
                 {"Priority"}
@@ -187,7 +187,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__rdiZ6
+                    sty.text__rdiZ6
                   )}
                 >
                   {"x"}
@@ -204,7 +204,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___4Olga
+                      sty.text___4Olga
                     )}
                   >
                     {"Month"}
@@ -222,7 +222,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__rYWv
+                  sty.text__rYWv
                 )}
               >
                 {"$"}
@@ -233,7 +233,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__yHrcu
+                    sty.text__yHrcu
                   )}
                 >
                   {"0.00"}
@@ -265,7 +265,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__holu8
+                sty.text__holu8
               )}
             >
               {"Promotion"}
@@ -318,7 +318,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ycT5E
+              sty.text__ycT5E
             )}
           >
             {"Place Order"}

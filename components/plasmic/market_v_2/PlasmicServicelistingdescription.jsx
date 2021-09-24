@@ -111,7 +111,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__nr931
+                      sty.text__nr931
                     )}
                   >
                     {"Step 2"}
@@ -123,7 +123,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__laelq
+                    sty.text__laelq
                   )}
                 >
                   {"What is the name/title of your service?"}
@@ -176,7 +176,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__uc5Jc
+                      sty.text__uc5Jc
                     )}
                   >
                     {"Step 2"}
@@ -190,7 +190,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___0B5MK
+                    sty.text___0B5MK
                   )}
                 >
                   {"What is the description of your service?"}
@@ -247,7 +247,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__vqvCv
+                        sty.text__vqvCv
                       )}
                     >
                       {"Step 2"}
@@ -258,7 +258,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__wEkof
+                        sty.text__wEkof
                       )}
                     >
                       {"Describe a minimum of 1 step, to maximum of 8 steps."}
@@ -269,7 +269,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__io8Zz
+                      sty.text__io8Zz
                     )}
                   >
                     {"What is your unique service delivery process?"}
@@ -278,9 +278,12 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               </p.Stack>
 
               <InputRichTextField
-                data-plasmic-name={"inputRichTextField"}
-                data-plasmic-override={overrides.inputRichTextField}
-                className={classNames("__wab_instance", sty.inputRichTextField)}
+                data-plasmic-name={"serviceProcessOverview"}
+                data-plasmic-override={overrides.serviceProcessOverview}
+                className={classNames(
+                  "__wab_instance",
+                  sty.serviceProcessOverview
+                )}
                 description={"description"}
               >
                 {"Short overview"}
@@ -295,7 +298,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__mnyPp
+                    sty.text__mnyPp
                   )}
                 >
                   {"Description"}
@@ -347,7 +350,7 @@ const PlasmicDescendants = {
     "questionDescriptionBlock",
     "serviceDescription",
     "questionProcessBlock",
-    "inputRichTextField",
+    "serviceProcessOverview",
     "serviceListingProcessCard",
     "footerServiceListing"
   ],
@@ -366,11 +369,11 @@ const PlasmicDescendants = {
   serviceDescription: ["serviceDescription"],
   questionProcessBlock: [
     "questionProcessBlock",
-    "inputRichTextField",
+    "serviceProcessOverview",
     "serviceListingProcessCard"
   ],
 
-  inputRichTextField: ["inputRichTextField"],
+  serviceProcessOverview: ["serviceProcessOverview"],
   serviceListingProcessCard: ["serviceListingProcessCard"],
   footerServiceListing: ["footerServiceListing"]
 };
@@ -414,7 +417,7 @@ export const PlasmicServicelistingdescription = Object.assign(
     questionDescriptionBlock: makeNodeComponent("questionDescriptionBlock"),
     serviceDescription: makeNodeComponent("serviceDescription"),
     questionProcessBlock: makeNodeComponent("questionProcessBlock"),
-    inputRichTextField: makeNodeComponent("inputRichTextField"),
+    serviceProcessOverview: makeNodeComponent("serviceProcessOverview"),
     serviceListingProcessCard: makeNodeComponent("serviceListingProcessCard"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingdescription

@@ -397,16 +397,60 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text,
-                className: classNames(sty.slotText, {
-                  [sty.slotText__size__14]: hasVariant(variants, "size", "_14"),
-                  [sty.slotText__size__16]: hasVariant(variants, "size", "_16"),
-                  [sty.slotText__size__18]: hasVariant(variants, "size", "_18"),
-                  [sty.slotText__size__24]: hasVariant(variants, "size", "_24"),
-                  [sty.slotText__size__32]: hasVariant(variants, "size", "_32"),
-                  [sty.slotText__size__40]: hasVariant(variants, "size", "_40"),
-                  [sty.slotText__size__48]: hasVariant(variants, "size", "_48"),
-                  [sty.slotText__size__64]: hasVariant(variants, "size", "_64"),
-                  [sty.slotText__size__80]: hasVariant(variants, "size", "_80")
+                className: classNames(sty.slotTargetText, {
+                  [sty.slotTargetText__size__14]: hasVariant(
+                    variants,
+                    "size",
+                    "_14"
+                  ),
+
+                  [sty.slotTargetText__size__16]: hasVariant(
+                    variants,
+                    "size",
+                    "_16"
+                  ),
+
+                  [sty.slotTargetText__size__18]: hasVariant(
+                    variants,
+                    "size",
+                    "_18"
+                  ),
+
+                  [sty.slotTargetText__size__24]: hasVariant(
+                    variants,
+                    "size",
+                    "_24"
+                  ),
+
+                  [sty.slotTargetText__size__32]: hasVariant(
+                    variants,
+                    "size",
+                    "_32"
+                  ),
+
+                  [sty.slotTargetText__size__40]: hasVariant(
+                    variants,
+                    "size",
+                    "_40"
+                  ),
+
+                  [sty.slotTargetText__size__48]: hasVariant(
+                    variants,
+                    "size",
+                    "_48"
+                  ),
+
+                  [sty.slotTargetText__size__64]: hasVariant(
+                    variants,
+                    "size",
+                    "_64"
+                  ),
+
+                  [sty.slotTargetText__size__80]: hasVariant(
+                    variants,
+                    "size",
+                    "_80"
+                  )
                 })
               })
             : null}
@@ -414,14 +458,14 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text14Px,
-                className: classNames(sty.slotText14Px, {
-                  [sty.slotText14Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText14Px, {
+                  [sty.slotTargetText14Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText14Px__size__16]: hasVariant(
+                  [sty.slotTargetText14Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
@@ -433,20 +477,20 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text16Px,
-                className: classNames(sty.slotText16Px, {
-                  [sty.slotText16Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText16Px, {
+                  [sty.slotTargetText16Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText16Px__size__16]: hasVariant(
+                  [sty.slotTargetText16Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText16Px__size__18]: hasVariant(
+                  [sty.slotTargetText16Px__size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
@@ -464,26 +508,26 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text18Px,
-                className: classNames(sty.slotText18Px, {
-                  [sty.slotText18Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText18Px, {
+                  [sty.slotTargetText18Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText18Px__size__16]: hasVariant(
+                  [sty.slotTargetText18Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText18Px__size__18]: hasVariant(
+                  [sty.slotTargetText18Px__size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotText18Px__size__24]: hasVariant(
+                  [sty.slotTargetText18Px__size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
@@ -501,26 +545,26 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text24Px,
-                className: classNames(sty.slotText24Px, {
-                  [sty.slotText24Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText24Px, {
+                  [sty.slotTargetText24Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText24Px__size__16]: hasVariant(
+                  [sty.slotTargetText24Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText24Px__size__24]: hasVariant(
+                  [sty.slotTargetText24Px__size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotText24Px__size__32]: hasVariant(
+                  [sty.slotTargetText24Px__size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
@@ -538,20 +582,20 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text32Px,
-                className: classNames(sty.slotText32Px, {
-                  [sty.slotText32Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText32Px, {
+                  [sty.slotTargetText32Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText32Px__size__16]: hasVariant(
+                  [sty.slotTargetText32Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText32Px__size__32]: hasVariant(
+                  [sty.slotTargetText32Px__size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
@@ -569,26 +613,26 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text40Px,
-                className: classNames(sty.slotText40Px, {
-                  [sty.slotText40Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText40Px, {
+                  [sty.slotTargetText40Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText40Px__size__16]: hasVariant(
+                  [sty.slotTargetText40Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText40Px__size__40]: hasVariant(
+                  [sty.slotTargetText40Px__size__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotText40Px__size__48]: hasVariant(
+                  [sty.slotTargetText40Px__size__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
@@ -606,44 +650,44 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text48Px,
-                className: classNames(sty.slotText48Px, {
-                  [sty.slotText48Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText48Px, {
+                  [sty.slotTargetText48Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText48Px__size__16]: hasVariant(
+                  [sty.slotTargetText48Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText48Px__size__18]: hasVariant(
+                  [sty.slotTargetText48Px__size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotText48Px__size__24]: hasVariant(
+                  [sty.slotTargetText48Px__size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotText48Px__size__32]: hasVariant(
+                  [sty.slotTargetText48Px__size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotText48Px__size__40]: hasVariant(
+                  [sty.slotTargetText48Px__size__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotText48Px__size__48]: hasVariant(
+                  [sty.slotTargetText48Px__size__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
@@ -673,56 +717,56 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text64Px,
-                className: classNames(sty.slotText64Px, {
-                  [sty.slotText64Px__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText64Px, {
+                  [sty.slotTargetText64Px__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText64Px__size__16]: hasVariant(
+                  [sty.slotTargetText64Px__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText64Px__size__18]: hasVariant(
+                  [sty.slotTargetText64Px__size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotText64Px__size__24]: hasVariant(
+                  [sty.slotTargetText64Px__size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotText64Px__size__32]: hasVariant(
+                  [sty.slotTargetText64Px__size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotText64Px__size__40]: hasVariant(
+                  [sty.slotTargetText64Px__size__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotText64Px__size__48]: hasVariant(
+                  [sty.slotTargetText64Px__size__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
                   ),
 
-                  [sty.slotText64Px__size__64]: hasVariant(
+                  [sty.slotTargetText64Px__size__64]: hasVariant(
                     variants,
                     "size",
                     "_64"
                   ),
 
-                  [sty.slotText64Px__size__80]: hasVariant(
+                  [sty.slotTargetText64Px__size__80]: hasVariant(
                     variants,
                     "size",
                     "_80"
@@ -752,50 +796,54 @@ function PlasmicDisplayIconText__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "list item",
                 value: args.text2,
-                className: classNames(sty.slotText2, {
-                  [sty.slotText2__size__14]: hasVariant(
+                className: classNames(sty.slotTargetText2, {
+                  [sty.slotTargetText2__size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotText2__size__16]: hasVariant(
+                  [sty.slotTargetText2__size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotText2__size__18]: hasVariant(
+                  [sty.slotTargetText2__size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotText2__size__24]: hasVariant(
+                  [sty.slotTargetText2__size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotText2__size__32]: hasVariant(
+                  [sty.slotTargetText2__size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotText2__size__40]: hasVariant(
+                  [sty.slotTargetText2__size__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotText2__size__48]: hasVariant(
+                  [sty.slotTargetText2__size__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
                   ),
 
-                  [sty.slotText2__size__80]: hasVariant(variants, "size", "_80")
+                  [sty.slotTargetText2__size__80]: hasVariant(
+                    variants,
+                    "size",
+                    "_80"
+                  )
                 })
               })
             : null}

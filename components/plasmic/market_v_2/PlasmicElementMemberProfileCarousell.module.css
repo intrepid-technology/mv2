@@ -91,7 +91,7 @@
   align-self: stretch;
   position: relative;
 }
-.slotHeadlineLabel {
+.slotTargetHeadlineLabel {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -100,7 +100,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .slotHeadlineLabel {
+  .slotTargetHeadlineLabel {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;

@@ -40,7 +40,7 @@
   align-self: stretch;
   position: relative;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -48,7 +48,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotChildren__size__360 {
+.slotTargetChildren__size__360 {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

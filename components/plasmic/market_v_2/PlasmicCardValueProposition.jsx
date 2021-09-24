@@ -95,14 +95,14 @@ function PlasmicCardValueProposition__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Headline value proposition",
             value: args.headline,
-            className: classNames(sty.slotHeadline, {
-              [sty.slotHeadline__size__160]: hasVariant(
+            className: classNames(sty.slotTargetHeadline, {
+              [sty.slotTargetHeadline__size__160]: hasVariant(
                 variants,
                 "size",
                 "_160"
               ),
 
-              [sty.slotHeadline__size__270]: hasVariant(
+              [sty.slotTargetHeadline__size__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
@@ -126,14 +126,14 @@ function PlasmicCardValueProposition__RenderFunc(props) {
             defaultContents:
               "Description of the key value that we provide. it should only a few line",
             value: args.textBody,
-            className: classNames(sty.slotTextBody, {
-              [sty.slotTextBody__size__160]: hasVariant(
+            className: classNames(sty.slotTargetTextBody, {
+              [sty.slotTargetTextBody__size__160]: hasVariant(
                 variants,
                 "size",
                 "_160"
               ),
 
-              [sty.slotTextBody__size__270]: hasVariant(
+              [sty.slotTargetTextBody__size__270]: hasVariant(
                 variants,
                 "size",
                 "_270"

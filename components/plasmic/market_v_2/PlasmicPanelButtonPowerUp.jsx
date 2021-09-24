@@ -63,12 +63,12 @@ function PlasmicPanelButtonPowerUp__RenderFunc(props) {
           />
 
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox
+              sty.text
             )}
           >
             {"Power up"}
@@ -80,11 +80,11 @@ function PlasmicPanelButtonPowerUp__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "powerUp", "sideBarCardLink", "svg", "freeBox"],
-  powerUp: ["powerUp", "sideBarCardLink", "svg", "freeBox"],
-  sideBarCardLink: ["sideBarCardLink", "svg", "freeBox"],
+  root: ["root", "powerUp", "sideBarCardLink", "svg", "text"],
+  powerUp: ["powerUp", "sideBarCardLink", "svg", "text"],
+  sideBarCardLink: ["sideBarCardLink", "svg", "text"],
   svg: ["svg"],
-  freeBox: ["freeBox"]
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -121,7 +121,7 @@ export const PlasmicPanelButtonPowerUp = Object.assign(
     powerUp: makeNodeComponent("powerUp"),
     sideBarCardLink: makeNodeComponent("sideBarCardLink"),
     svg: makeNodeComponent("svg"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicPanelButtonPowerUp
     internalVariantProps: PlasmicPanelButtonPowerUp__VariantProps,
     internalArgProps: PlasmicPanelButtonPowerUp__ArgProps

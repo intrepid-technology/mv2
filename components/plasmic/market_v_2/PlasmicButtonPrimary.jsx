@@ -452,8 +452,8 @@ function PlasmicButtonPrimary__RenderFunc(props) {
                     ),
 
                     value: args.svgIcon,
-                    className: classNames(sty.slotSvgIcon, {
-                      [sty.slotSvgIcon__type_icon]: hasVariant(
+                    className: classNames(sty.slotTargetSvgIcon, {
+                      [sty.slotTargetSvgIcon__type_icon]: hasVariant(
                         variants,
                         "type",
                         "icon"
@@ -466,219 +466,224 @@ function PlasmicButtonPrimary__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Button",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__color_brand]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__color_brand]: hasVariant(
                 variants,
                 "color",
                 "brand"
               ),
 
-              [sty.slotChildren__color_brand_size__140]:
+              [sty.slotTargetChildren__color_brand_size__140]:
                 hasVariant(variants, "color", "brand") &&
                 hasVariant(variants, "size", "_140"),
-              [sty.slotChildren__size__120]: hasVariant(
+              [sty.slotTargetChildren__size__120]: hasVariant(
                 variants,
                 "size",
                 "_120"
               ),
 
-              [sty.slotChildren__size__140]: hasVariant(
+              [sty.slotTargetChildren__size__140]: hasVariant(
                 variants,
                 "size",
                 "_140"
               ),
 
-              [sty.slotChildren__size__270]: hasVariant(
+              [sty.slotTargetChildren__size__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.slotChildren__size__360]: hasVariant(
+              [sty.slotTargetChildren__size__360]: hasVariant(
                 variants,
                 "size",
                 "_360"
               ),
 
-              [sty.slotChildren__size__90]: hasVariant(variants, "size", "_90"),
-              [sty.slotChildren__state_disabled]: hasVariant(
+              [sty.slotTargetChildren__size__90]: hasVariant(
+                variants,
+                "size",
+                "_90"
+              ),
+
+              [sty.slotTargetChildren__state_disabled]: hasVariant(
                 variants,
                 "state",
                 "disabled"
               ),
 
-              [sty.slotChildren__state_success_type_ghost]:
+              [sty.slotTargetChildren__state_success_type_ghost]:
                 hasVariant(variants, "state", "success") &&
                 hasVariant(variants, "type", "ghost"),
-              [sty.slotChildren__type_dark]: hasVariant(
+              [sty.slotTargetChildren__type_dark]: hasVariant(
                 variants,
                 "type",
                 "dark"
               ),
 
-              [sty.slotChildren__type_ghost]: hasVariant(
+              [sty.slotTargetChildren__type_ghost]: hasVariant(
                 variants,
                 "type",
                 "ghost"
               ),
 
-              [sty.slotChildren__type_ghost_color_alert]:
+              [sty.slotTargetChildren__type_ghost_color_alert]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotChildren__type_ghost_color_blue]:
+              [sty.slotTargetChildren__type_ghost_color_blue]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotChildren__type_ghost_color_brand]:
+              [sty.slotTargetChildren__type_ghost_color_brand]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotChildren__type_ghost_color_caution]:
+              [sty.slotTargetChildren__type_ghost_color_caution]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotChildren__type_ghost_color_magenta]:
+              [sty.slotTargetChildren__type_ghost_color_magenta]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotChildren__type_ghost_color_success]:
+              [sty.slotTargetChildren__type_ghost_color_success]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotChildren__type_ghost_color_warning]:
+              [sty.slotTargetChildren__type_ghost_color_warning]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotChildren__type_ghost_state_error]:
+              [sty.slotTargetChildren__type_ghost_state_error]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "state", "error"),
-              [sty.slotChildren__type_ghost_state_warning]:
+              [sty.slotTargetChildren__type_ghost_state_warning]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "state", "warning"),
-              [sty.slotChildren__type_icon]: hasVariant(
+              [sty.slotTargetChildren__type_icon]: hasVariant(
                 variants,
                 "type",
                 "icon"
               ),
 
-              [sty.slotChildren__type_icon_size__120]:
+              [sty.slotTargetChildren__type_icon_size__120]:
                 hasVariant(variants, "type", "icon") &&
                 hasVariant(variants, "size", "_120"),
-              [sty.slotChildren__type_icon_size__90]:
+              [sty.slotTargetChildren__type_icon_size__90]:
                 hasVariant(variants, "type", "icon") &&
                 hasVariant(variants, "size", "_90"),
-              [sty.slotChildren__type_light]: hasVariant(
+              [sty.slotTargetChildren__type_light]: hasVariant(
                 variants,
                 "type",
                 "light"
               ),
 
-              [sty.slotChildren__type_light_color_alert]:
+              [sty.slotTargetChildren__type_light_color_alert]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotChildren__type_light_color_blue]:
+              [sty.slotTargetChildren__type_light_color_blue]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotChildren__type_light_color_brand]:
+              [sty.slotTargetChildren__type_light_color_brand]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotChildren__type_light_color_caution]:
+              [sty.slotTargetChildren__type_light_color_caution]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotChildren__type_light_color_magenta]:
+              [sty.slotTargetChildren__type_light_color_magenta]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotChildren__type_light_color_success]:
+              [sty.slotTargetChildren__type_light_color_success]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotChildren__type_light_color_warning]:
+              [sty.slotTargetChildren__type_light_color_warning]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotChildren__type_link]: hasVariant(
+              [sty.slotTargetChildren__type_link]: hasVariant(
                 variants,
                 "type",
                 "link"
               ),
 
-              [sty.slotChildren__type_link_color_alert]:
+              [sty.slotTargetChildren__type_link_color_alert]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotChildren__type_link_color_blue]:
+              [sty.slotTargetChildren__type_link_color_blue]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotChildren__type_link_color_brand]:
+              [sty.slotTargetChildren__type_link_color_brand]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotChildren__type_link_color_caution]:
+              [sty.slotTargetChildren__type_link_color_caution]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotChildren__type_link_color_magenta]:
+              [sty.slotTargetChildren__type_link_color_magenta]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotChildren__type_link_color_success]:
+              [sty.slotTargetChildren__type_link_color_success]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotChildren__type_link_color_warning]:
+              [sty.slotTargetChildren__type_link_color_warning]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotChildren__type_link_state_error]:
+              [sty.slotTargetChildren__type_link_state_error]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "error"),
-              [sty.slotChildren__type_link_state_success]:
+              [sty.slotTargetChildren__type_link_state_success]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "success"),
-              [sty.slotChildren__type_link_state_warning]:
+              [sty.slotTargetChildren__type_link_state_warning]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "warning"),
-              [sty.slotChildren__type_outline]: hasVariant(
+              [sty.slotTargetChildren__type_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
               ),
 
-              [sty.slotChildren__type_outline_color_alert]:
+              [sty.slotTargetChildren__type_outline_color_alert]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotChildren__type_outline_color_blue]:
+              [sty.slotTargetChildren__type_outline_color_blue]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotChildren__type_outline_color_brand]:
+              [sty.slotTargetChildren__type_outline_color_brand]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotChildren__type_outline_color_caution]:
+              [sty.slotTargetChildren__type_outline_color_caution]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotChildren__type_outline_color_magenta]:
+              [sty.slotTargetChildren__type_outline_color_magenta]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotChildren__type_outline_color_success]:
+              [sty.slotTargetChildren__type_outline_color_success]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotChildren__type_outline_color_warning]:
+              [sty.slotTargetChildren__type_outline_color_warning]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotChildren__type_primary_state_disabled]:
+              [sty.slotTargetChildren__type_primary_state_disabled]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "state", "disabled"),
-              [sty.slotChildren__type_secondary]: hasVariant(
+              [sty.slotTargetChildren__type_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"
               ),
 
-              [sty.slotChildren__type_secondary_color_alert]:
+              [sty.slotTargetChildren__type_secondary_color_alert]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotChildren__type_secondary_color_blue]:
+              [sty.slotTargetChildren__type_secondary_color_blue]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotChildren__type_secondary_color_brand]:
+              [sty.slotTargetChildren__type_secondary_color_brand]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotChildren__type_secondary_color_caution]:
+              [sty.slotTargetChildren__type_secondary_color_caution]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotChildren__type_secondary_color_magenta]:
+              [sty.slotTargetChildren__type_secondary_color_magenta]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotChildren__type_secondary_color_success]:
+              [sty.slotTargetChildren__type_secondary_color_success]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotChildren__type_secondary_color_warning]:
+              [sty.slotTargetChildren__type_secondary_color_warning]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "warning")
             })

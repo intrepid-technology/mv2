@@ -67,7 +67,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Headline",
               value: args.slot2,
-              className: classNames(sty.slotSlot2)
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </div>
@@ -88,7 +88,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Item",
                 value: args.slot,
-                className: classNames(sty.slotSlot)
+                className: classNames(sty.slotTargetSlot)
               })}
             </div>
           </p.Stack>
@@ -113,8 +113,8 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.children,
-              className: classNames(sty.slotChildren, {
-                [sty.slotChildren__description]: hasVariant(
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__description]: hasVariant(
                   variants,
                   "description",
                   "description"

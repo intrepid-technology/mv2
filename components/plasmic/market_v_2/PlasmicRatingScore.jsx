@@ -39,7 +39,7 @@ function PlasmicRatingScore__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "4.67",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>

@@ -57,14 +57,14 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
               ),
 
               value: args.svg,
-              className: classNames(sty.slotSvg, {
-                [sty.slotSvg__state_closed]: hasVariant(
+              className: classNames(sty.slotTargetSvg, {
+                [sty.slotTargetSvg__state_closed]: hasVariant(
                   variants,
                   "state",
                   "closed"
                 ),
 
-                [sty.slotSvg__state_disabled]: hasVariant(
+                [sty.slotTargetSvg__state_disabled]: hasVariant(
                   variants,
                   "state",
                   "disabled"

@@ -74,32 +74,32 @@ function PlasmicNavLink__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Nav Link",
               value: args.linkText,
-              className: classNames(sty.slotLinkText, {
-                [sty.slotLinkText__color_brand]: hasVariant(
+              className: classNames(sty.slotTargetLinkText, {
+                [sty.slotTargetLinkText__color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotLinkText__color_ghost]: hasVariant(
+                [sty.slotTargetLinkText__color_ghost]: hasVariant(
                   variants,
                   "color",
                   "ghost"
                 ),
 
-                [sty.slotLinkText__color_light]: hasVariant(
+                [sty.slotTargetLinkText__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotLinkText__state_disabled]: hasVariant(
+                [sty.slotTargetLinkText__state_disabled]: hasVariant(
                   variants,
                   "state",
                   "disabled"
                 ),
 
-                [sty.slotLinkText__state_selected]: hasVariant(
+                [sty.slotTargetLinkText__state_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"

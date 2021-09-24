@@ -46,7 +46,7 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Headline",
             value: args.slot,
-            className: classNames(sty.slotSlot)
+            className: classNames(sty.slotTargetSlot)
           })}
         </div>
       </div>
@@ -75,7 +75,7 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.children,
-              className: classNames(sty.slotChildren)
+              className: classNames(sty.slotTargetChildren)
             })}
           </div>
         </p.Stack>

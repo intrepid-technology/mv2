@@ -77,7 +77,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__qRux
+                sty.text__qRux
               )}
             >
               {"username"}
@@ -93,7 +93,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__mqpkj
+                sty.text__mqpkj
               )}
             >
               {"userEmail"}
@@ -137,15 +137,15 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__bvk0V,
+                sty.text__bvk0V,
                 {
-                  [sty.freeBox__action_button__bvk0V45Ld]: hasVariant(
+                  [sty.text__action_button__bvk0V45Ld]: hasVariant(
                     variants,
                     "action",
                     "button"
                   ),
 
-                  [sty.freeBox__action_select__bvk0VWms]: hasVariant(
+                  [sty.text__action_select__bvk0VWms]: hasVariant(
                     variants,
                     "action",
                     "select"

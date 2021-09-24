@@ -105,21 +105,30 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
           ),
 
           value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__color_bgDarkA]: hasVariant(
+          className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildren__color_bgDarkA]: hasVariant(
               variants,
               "color",
               "bgDarkA"
             ),
 
-            [sty.slotChildren__color_bgLightB]: hasVariant(
+            [sty.slotTargetChildren__color_bgLightB]: hasVariant(
               variants,
               "color",
               "bgLightB"
             ),
 
-            [sty.slotChildren__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.slotChildren__size__360]: hasVariant(variants, "size", "_360")
+            [sty.slotTargetChildren__size__180]: hasVariant(
+              variants,
+              "size",
+              "_180"
+            ),
+
+            [sty.slotTargetChildren__size__360]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            )
           })
         })}
       </div>
@@ -151,22 +160,36 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Headline category",
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__color_bgDarkA]: hasVariant(
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__color_bgDarkA]: hasVariant(
                 variants,
                 "color",
                 "bgDarkA"
               ),
 
-              [sty.slotSlot__color_bgLightB]: hasVariant(
+              [sty.slotTargetSlot__color_bgLightB]: hasVariant(
                 variants,
                 "color",
                 "bgLightB"
               ),
 
-              [sty.slotSlot__size__180]: hasVariant(variants, "size", "_180"),
-              [sty.slotSlot__size__270]: hasVariant(variants, "size", "_270"),
-              [sty.slotSlot__size__360]: hasVariant(variants, "size", "_360")
+              [sty.slotTargetSlot__size__180]: hasVariant(
+                variants,
+                "size",
+                "_180"
+              ),
+
+              [sty.slotTargetSlot__size__270]: hasVariant(
+                variants,
+                "size",
+                "_270"
+              ),
+
+              [sty.slotTargetSlot__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
             })
           })}
         </div>

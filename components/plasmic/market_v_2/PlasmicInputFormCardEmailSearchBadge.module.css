@@ -79,7 +79,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -87,7 +87,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotSubHead {
+.slotTargetSubHead {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -159,14 +159,14 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.freeBox__lI706 {
+.freeBox {
   display: flex;
   position: relative;
   width: 360px;
   height: 32px;
   flex-shrink: 0;
 }
-.freeBox__search__lI706Auxud {
+.freeBox__search {
   width: 360px;
 }
 .textbox__bjqT {
@@ -264,7 +264,7 @@
   width: 18px;
   height: 18px;
 }
-.freeBox__search__vL9TAuxud {
+.text__search {
   font-size: 16px;
   font-weight: 400;
 }
@@ -385,7 +385,7 @@
 .subDescription__subDescription {
   display: none;
 }
-.slotDescription {
+.slotTargetDescription {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

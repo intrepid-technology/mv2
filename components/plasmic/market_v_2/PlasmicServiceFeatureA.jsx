@@ -35,16 +35,18 @@ function PlasmicServiceFeatureA__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox__nLqTi
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {"Service Feature"}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__lXhRt)}>
+      <div
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
+      >
         <Icon51Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
@@ -57,7 +59,9 @@ function PlasmicServiceFeatureA__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "svg"],
+  root: ["root", "text", "freeBox", "svg"],
+  text: ["text"],
+  freeBox: ["freeBox", "svg"],
   svg: ["svg"]
 };
 
@@ -92,6 +96,8 @@ export const PlasmicServiceFeatureA = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    text: makeNodeComponent("text"),
+    freeBox: makeNodeComponent("freeBox"),
     svg: makeNodeComponent("svg"),
     // Metadata about props expected for PlasmicServiceFeatureA
     internalVariantProps: PlasmicServiceFeatureA__VariantProps,

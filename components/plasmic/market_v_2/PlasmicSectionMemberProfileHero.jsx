@@ -76,7 +76,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__uQFt
+                    sty.text__uQFt
                   )}
                 >
                   {"Community"}
@@ -113,7 +113,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__lhNgd
+                      sty.text__lhNgd
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
@@ -148,7 +148,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3QQmy
+                      sty.text___3QQmy
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -182,7 +182,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__qKdWg
+                      sty.text__qKdWg
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -216,7 +216,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__zSr5B
+                      sty.text__zSr5B
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
@@ -248,7 +248,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__mRbl9
+                      sty.text__mRbl9
                     )}
                   >
                     {"Reacts"}
@@ -278,7 +278,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___5H6RB
+                      sty.text___5H6RB
                     )}
                   >
                     {"Saves"}

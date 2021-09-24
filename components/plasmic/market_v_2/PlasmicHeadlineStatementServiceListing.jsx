@@ -41,7 +41,7 @@ function PlasmicHeadlineStatementServiceListing__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Lets get started with your listing.",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>

@@ -83,7 +83,7 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__eFmvs
+              sty.text__eFmvs
             )}
           >
             {"Company or team display name"}
@@ -153,7 +153,7 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___5Tvli
+            sty.text___5Tvli
           )}
         >
           {hasVariant(globalVariants, "screen", "desktop")
@@ -278,9 +278,9 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__usI4O,
+                  sty.text__usI4O,
                   {
-                    [sty.freeBox__userState_loggedIn__usI4OPUN]: hasVariant(
+                    [sty.text__userState_loggedIn__usI4OPUN]: hasVariant(
                       variants,
                       "userState",
                       "loggedIn"

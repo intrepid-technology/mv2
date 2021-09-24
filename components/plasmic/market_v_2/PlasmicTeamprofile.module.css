@@ -109,7 +109,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__aG0Ne {
+.text__aG0Ne {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -262,7 +262,7 @@
     min-width: 0;
   }
 }
-.freeBox__gJOqe {
+.text__gJOqe {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -493,7 +493,7 @@
     line-height: 1;
   }
 }
-.freeBox__qBBbj {
+.text__qBBbj {
   position: relative;
   left: auto;
   top: auto;
@@ -502,14 +502,14 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__qBBbj {
+  .text__qBBbj {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__qBBbj {
+  .text__qBBbj {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -640,7 +640,7 @@
     line-height: 1;
   }
 }
-.freeBox__logCa {
+.text__logCa {
   position: relative;
   left: auto;
   top: auto;
@@ -649,14 +649,14 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__logCa {
+  .text__logCa {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__logCa {
+  .text__logCa {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -791,7 +791,7 @@
     line-height: 1;
   }
 }
-.freeBox__y1Tms {
+.text__y1Tms {
   position: relative;
   left: auto;
   top: auto;
@@ -800,14 +800,14 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__y1Tms {
+  .text__y1Tms {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__y1Tms {
+  .text__y1Tms {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -932,7 +932,7 @@
     line-height: 1;
   }
 }
-.freeBox__miuE {
+.text__miuE {
   position: relative;
   left: auto;
   top: auto;
@@ -941,7 +941,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__miuE {
+  .text__miuE {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -1067,7 +1067,7 @@
     line-height: 1;
   }
 }
-.freeBox__cY2Un {
+.text__cY2Un {
   position: relative;
   left: auto;
   top: auto;
@@ -1076,7 +1076,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__cY2Un {
+  .text__cY2Un {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -1201,7 +1201,7 @@
     line-height: 1;
   }
 }
-.freeBox___01TDu {
+.text___01TDu {
   position: relative;
   left: auto;
   top: auto;
@@ -1210,7 +1210,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox___01TDu {
+  .text___01TDu {
     font-size: 14px;
     color: #999999 /* plasmic-token: lJGpMo6-- */;
     line-height: 1;
@@ -1308,7 +1308,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__koEg {
+.text__koEg {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -3269,7 +3269,7 @@
   width: auto;
   height: auto;
 }
-.freeBox__a24Vi {
+.text__a24Vi {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3554,7 +3554,7 @@
   justify-content: space-between;
   width: auto;
 }
-.freeBox__et0L5 {
+.text__et0L5 {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3564,7 +3564,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-.freeBox__nbW2C {
+.text__nbW2C {
   display: inline-block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3584,7 +3584,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__hetsf {
+.text__hetsf {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3741,7 +3741,7 @@
   justify-content: space-between;
   width: auto;
 }
-.freeBox__n0V9G {
+.text__n0V9G {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3758,7 +3758,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__dLp3Z {
+.text__dLp3Z {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3917,7 +3917,7 @@
   justify-content: space-between;
   width: auto;
 }
-.freeBox__m3Nuh {
+.text__m3Nuh {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -3934,7 +3934,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__k9G5V {
+.text__k9G5V {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -4790,7 +4790,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__sb7Pn {
+.text__sb7Pn {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -4801,7 +4801,7 @@
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__sb7Pn {
+  .text__sb7Pn {
     display: block;
     font-size: 24px;
     font-family: "Inter", sans-serif;
@@ -5124,7 +5124,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__niux4 {
+.text__niux4 {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -5135,7 +5135,7 @@
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__niux4 {
+  .text__niux4 {
     display: block;
     font-size: 24px;
     font-family: "Inter", sans-serif;

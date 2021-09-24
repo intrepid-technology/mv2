@@ -31,7 +31,7 @@
 .root:hover {
   border-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.freeBox__q5B {
+.freeBox {
   display: inline-flex;
   position: relative;
   flex-direction: column;
@@ -115,7 +115,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
-.freeBox___9YjYs {
+.text {
   position: relative;
   line-height: 1;
   width: auto;

@@ -45,10 +45,14 @@ function PlasmicInputProcess__RenderFunc(props) {
       })}
     >
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox, {
-          [sty.textbox__size__540]: hasVariant(variants, "size", "_540")
+        data-plasmic-name={"serviceProcessTitle"}
+        data-plasmic-override={overrides.serviceProcessTitle}
+        className={classNames(defaultcss.input, sty.serviceProcessTitle, {
+          [sty.serviceProcessTitle__size__540]: hasVariant(
+            variants,
+            "size",
+            "_540"
+          )
         })}
         placeholder={"Process title, eg. step 1"}
         size={1}
@@ -62,11 +66,19 @@ function PlasmicInputProcess__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.freeBox__utVmc)}
       >
         <textarea
-          data-plasmic-name={"textarea"}
-          data-plasmic-override={overrides.textarea}
-          className={classNames(defaultcss.textarea, sty.textarea, {
-            [sty.textarea__size__540]: hasVariant(variants, "size", "_540")
-          })}
+          data-plasmic-name={"serviceProcessDescription"}
+          data-plasmic-override={overrides.serviceProcessDescription}
+          className={classNames(
+            defaultcss.textarea,
+            sty.serviceProcessDescription,
+            {
+              [sty.serviceProcessDescription__size__540]: hasVariant(
+                variants,
+                "size",
+                "_540"
+              )
+            }
+          )}
           placeholder={"Describe your process"}
           value={""}
         />
@@ -114,28 +126,21 @@ function PlasmicInputProcess__RenderFunc(props) {
               })}
             >
               <div
+                data-plasmic-name={"text"}
+                data-plasmic-override={overrides.text}
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__ipqFh,
+                  sty.text,
                   {
-                    [sty.freeBox___delete__ipqFhSn8T8]: hasVariant(
+                    [sty.text___delete]: hasVariant(
                       variants,
                       "_delete",
                       "_delete"
                     ),
 
-                    [sty.freeBox__add__ipqFhqnDpl]: hasVariant(
-                      variants,
-                      "add",
-                      "add"
-                    ),
-
-                    [sty.freeBox__size__540__ipqFhg8DmW]: hasVariant(
-                      variants,
-                      "size",
-                      "_540"
-                    )
+                    [sty.text__add]: hasVariant(variants, "add", "add"),
+                    [sty.text__size__540]: hasVariant(variants, "size", "_540")
                   }
                 )}
               >
@@ -150,10 +155,18 @@ function PlasmicInputProcess__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox", "textarea", "svg"],
-  textbox: ["textbox"],
-  textarea: ["textarea"],
-  svg: ["svg"]
+  root: [
+    "root",
+    "serviceProcessTitle",
+    "serviceProcessDescription",
+    "svg",
+    "text"
+  ],
+
+  serviceProcessTitle: ["serviceProcessTitle"],
+  serviceProcessDescription: ["serviceProcessDescription"],
+  svg: ["svg"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -187,9 +200,10 @@ export const PlasmicInputProcess = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textbox: makeNodeComponent("textbox"),
-    textarea: makeNodeComponent("textarea"),
+    serviceProcessTitle: makeNodeComponent("serviceProcessTitle"),
+    serviceProcessDescription: makeNodeComponent("serviceProcessDescription"),
     svg: makeNodeComponent("svg"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicInputProcess
     internalVariantProps: PlasmicInputProcess__VariantProps,
     internalArgProps: PlasmicInputProcess__ArgProps

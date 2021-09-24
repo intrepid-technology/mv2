@@ -37,7 +37,11 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__t8H1X)}>
+      <div
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
+      >
         <Icon48Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
@@ -55,7 +59,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__os5Mt
+            sty.text__os5Mt
           )}
         >
           {"4.9"}
@@ -66,7 +70,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.freeBox__br5LD
+          sty.text__br5LD
         )}
       >
         {"|"}
@@ -81,7 +85,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__lsm4G
+            sty.text__lsm4G
           )}
         >
           {"10"}
@@ -92,7 +96,7 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.freeBox__iekLt
+          sty.text__iekLt
         )}
       >
         {"Reviews"}
@@ -102,7 +106,15 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "svg", "serviceAggregateRating", "serviceAggregateReviews"],
+  root: [
+    "root",
+    "freeBox",
+    "svg",
+    "serviceAggregateRating",
+    "serviceAggregateReviews"
+  ],
+
+  freeBox: ["freeBox", "svg"],
   svg: ["svg"],
   serviceAggregateRating: ["serviceAggregateRating"],
   serviceAggregateReviews: ["serviceAggregateReviews"]
@@ -139,6 +151,7 @@ export const PlasmicServiceRatingReview = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
     svg: makeNodeComponent("svg"),
     serviceAggregateRating: makeNodeComponent("serviceAggregateRating"),
     serviceAggregateReviews: makeNodeComponent("serviceAggregateReviews"),

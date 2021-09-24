@@ -97,7 +97,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__dejis
+                    sty.text__dejis
                   )}
                 >
                   {"Create, list, and sell services & products"}
@@ -109,7 +109,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__h6Ovh
+                    sty.text__h6Ovh
                   )}
                 >
                   {
@@ -141,7 +141,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__by0Ei
+                        sty.text__by0Ei
                       )}
                     >
                       {"Collaboration"}
@@ -169,7 +169,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__ohydN
+                          sty.text__ohydN
                         )}
                       >
                         {
@@ -196,7 +196,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___1AOSs
+                          sty.text___1AOSs
                         )}
                       >
                         {
@@ -226,7 +226,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__endVa
+                        sty.text__endVa
                       )}
                     >
                       {"Bundle"}
@@ -254,7 +254,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__ahabj
+                          sty.text__ahabj
                         )}
                       >
                         {
@@ -281,7 +281,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__spOv4
+                          sty.text__spOv4
                         )}
                       >
                         {
@@ -311,7 +311,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__zehVc
+                        sty.text__zehVc
                       )}
                     >
                       {"Subscription"}
@@ -339,7 +339,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___8NttD
+                          sty.text___8NttD
                         )}
                       >
                         {
@@ -366,7 +366,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__aaAc1
+                          sty.text__aaAc1
                         )}
                       >
                         {
@@ -396,7 +396,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__w4Yfz
+                        sty.text__w4Yfz
                       )}
                     >
                       {"Promotion"}
@@ -424,7 +424,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__mgZqH
+                          sty.text__mgZqH
                         )}
                       >
                         {
@@ -451,7 +451,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__ao4U4
+                          sty.text__ao4U4
                         )}
                       >
                         {
@@ -481,7 +481,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__yNWgT
+                        sty.text__yNWgT
                       )}
                     >
                       {"Standard"}
@@ -509,7 +509,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__tOmRd
+                          sty.text__tOmRd
                         )}
                       >
                         {
@@ -536,7 +536,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__tpJgw
+                          sty.text__tpJgw
                         )}
                       >
                         {

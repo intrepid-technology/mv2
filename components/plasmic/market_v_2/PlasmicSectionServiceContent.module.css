@@ -16,7 +16,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;

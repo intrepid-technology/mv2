@@ -107,14 +107,14 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Content",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__size__180]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__size__180]: hasVariant(
                 variants,
                 "size",
                 "_180"
               ),
 
-              [sty.slotChildren__state_success]: hasVariant(
+              [sty.slotTargetChildren__state_success]: hasVariant(
                 variants,
                 "state",
                 "success"
@@ -137,14 +137,18 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Description",
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__description]: hasVariant(
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__description]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.slotSlot__size__180]: hasVariant(variants, "size", "_180")
+              [sty.slotTargetSlot__size__180]: hasVariant(
+                variants,
+                "size",
+                "_180"
+              )
             })
           })}
         </div>

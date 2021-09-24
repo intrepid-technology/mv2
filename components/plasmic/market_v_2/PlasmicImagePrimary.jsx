@@ -163,7 +163,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__pgvZ4)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -173,7 +172,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__mnOzt)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
                     }
@@ -190,7 +188,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__fPgXc)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/70x40/f8f8f8/333333"
                   }
@@ -212,7 +209,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__rrLhx)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/114x64/f8f8f8/333333"
                   }
@@ -238,7 +234,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___7Gik1)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -248,7 +243,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__rSv3F)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
                     }
@@ -307,7 +301,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__owpms)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -317,7 +310,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__de3YB)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/400x400/f8f8f8/333333"
                     }
@@ -348,7 +340,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__lgKx4)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -358,7 +349,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__gc7Yg)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                     }
@@ -391,7 +381,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__epAme)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -401,7 +390,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__uL2X)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x360/f8f8f8/333333"
                     }
@@ -436,7 +424,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__tXfUc)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -446,7 +433,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___30Mh5)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/180x320/f8f8f8/333333"
                     }
@@ -483,7 +469,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___4HOq)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -493,7 +478,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__ewkZe)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/270x480/f8f8f8/333333"
                     }
@@ -532,7 +516,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___4Jcei)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -542,7 +525,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__y7Cej)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/90x160/f8f8f8/333333"
                     }
@@ -583,7 +565,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__hzfQw)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -593,7 +574,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__hoBzl)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x640/f8f8f8/333333"
                     }
@@ -636,7 +616,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__q7AHt)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -646,7 +625,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___5VAai)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x405/f7f7f7/333333"
                     }
@@ -691,7 +669,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___2Q52X)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -701,7 +678,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__hLbwW)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x720/f7f7f7/333333"
                     }
@@ -748,7 +724,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__jiTCy)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -758,7 +733,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___4ZjNl)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x377/f7f7f7/333333"
                     }
@@ -807,7 +781,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___6Fmv)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -817,7 +790,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__tKya5)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x360/f7f7f7/333333"
                     }
@@ -868,7 +840,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___5Ekv7)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -878,7 +849,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wA8Pd)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x480/f7f7f7/333333"
                     }
@@ -931,7 +901,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__x2F8O)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -941,7 +910,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__xKWxq)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x540/f7f7f7/333333"
                     }
@@ -996,7 +964,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img___7EhR4)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -1006,7 +973,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__xBmha)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/720x480/f7f7f7/333333"
                     }
@@ -1063,7 +1029,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__lfEjj)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -1073,7 +1038,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__l0PP)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x240/f7f7f7/333333"
                     }
@@ -1132,7 +1096,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(defaultcss.img, sty.img__jleo6)}
-                      role={"img"}
                       src={
                         "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                       }
@@ -1142,7 +1105,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__ruEsw)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/1440x810/f7f7f7/333333"
                     }
@@ -1173,7 +1135,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___3Zjga)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                     }
@@ -1183,7 +1144,6 @@ function PlasmicImagePrimary__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__rQrmW)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/360x270/f8f8f8/333333"
                   }

@@ -49,7 +49,11 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
         [sty.root__width__540]: hasVariant(variants, "width", "_540")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__q5B)}>
+      <div
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(defaultcss.all, sty.freeBox)}
+      >
         <SearchPlusIcon
           className={classNames(defaultcss.all, sty.svg__epgKk)}
           role={"img"}
@@ -79,10 +83,12 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
         />
 
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___9YjYs
+            sty.text
           )}
         >
           {"Add"}
@@ -93,9 +99,11 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox", "button"],
+  root: ["root", "freeBox", "textbox", "button", "text"],
+  freeBox: ["freeBox"],
   textbox: ["textbox"],
-  button: ["button"]
+  button: ["button", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -129,8 +137,10 @@ export const PlasmicSearchbarFilter = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
     textbox: makeNodeComponent("textbox"),
     button: makeNodeComponent("button"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicSearchbarFilter
     internalVariantProps: PlasmicSearchbarFilter__VariantProps,
     internalArgProps: PlasmicSearchbarFilter__ArgProps

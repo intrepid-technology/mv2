@@ -53,7 +53,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Promotion",
             value: args.promotionTitleText,
-            className: classNames(sty.slotPromotionTitleText)
+            className: classNames(sty.slotTargetPromotionTitleText)
           })}
         </div>
 
@@ -82,7 +82,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "0.00",
             value: args.promotionPercentValueNumber,
-            className: classNames(sty.slotPromotionPercentValueNumber)
+            className: classNames(sty.slotTargetPromotionPercentValueNumber)
           })}
         </p.Stack>
       </p.Stack>
@@ -103,7 +103,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mX4Ny
+            sty.text__mX4Ny
           )}
         >
           {"-"}
@@ -117,7 +117,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "$",
             value: args.promotionCurrency,
-            className: classNames(sty.slotPromotionCurrency)
+            className: classNames(sty.slotTargetPromotionCurrency)
           })}
         </div>
 
@@ -126,7 +126,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__clGpn
+              sty.text__clGpn
             )}
           >
             {"0.00"}

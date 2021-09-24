@@ -67,7 +67,7 @@ function PlasmicSearchBadge__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__ryVaq
+                  sty.text__ryVaq
                 )}
               >
                 {"Badge"}

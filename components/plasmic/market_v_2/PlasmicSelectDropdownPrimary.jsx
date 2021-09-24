@@ -131,18 +131,15 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
               ? p.renderPlasmicSlot({
                   defaultContents: "Selected",
                   value: args.selectedContent,
-                  className: classNames(sty.slotSelectedContent, {
-                    [sty.slotSelectedContent__isOpen]: hasVariant(
+                  className: classNames(sty.slotTargetSelectedContent, {
+                    [sty.slotTargetSelectedContent__isOpen]: hasVariant(
                       variants,
                       "isOpen",
                       "isOpen"
                     ),
 
-                    [sty.slotSelectedContent__showPlaceholder]: hasVariant(
-                      variants,
-                      "showPlaceholder",
-                      "showPlaceholder"
-                    )
+                    [sty.slotTargetSelectedContent__showPlaceholder]:
+                      hasVariant(variants, "showPlaceholder", "showPlaceholder")
                   })
                 })
               : null}
@@ -154,14 +151,14 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
               ? p.renderPlasmicSlot({
                   defaultContents: "Select...",
                   value: args.placeholder,
-                  className: classNames(sty.slotPlaceholder, {
-                    [sty.slotPlaceholder__showPlaceholder]: hasVariant(
+                  className: classNames(sty.slotTargetPlaceholder, {
+                    [sty.slotTargetPlaceholder__showPlaceholder]: hasVariant(
                       variants,
                       "showPlaceholder",
                       "showPlaceholder"
                     ),
 
-                    [sty.slotPlaceholder__width__90]: hasVariant(
+                    [sty.slotTargetPlaceholder__width__90]: hasVariant(
                       variants,
                       "width",
                       "_90"

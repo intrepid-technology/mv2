@@ -64,9 +64,9 @@ function PlasmicFooterB__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___4TIqA,
+            sty.text___4TIqA,
             {
-              [sty.freeBox__color_dark___4TIqAsxLuv]: hasVariant(
+              [sty.text__color_dark___4TIqAsxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"
@@ -165,13 +165,11 @@ function PlasmicFooterB__RenderFunc(props) {
 
         <p.Stack
           as={"div"}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__i6J, {
-            [sty.freeBox__color_dark__i6JSxLuv]: hasVariant(
-              variants,
-              "color",
-              "dark"
-            )
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
           <FooterLink
@@ -229,9 +227,9 @@ function PlasmicFooterB__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__bl0Hs,
+            sty.text__bl0Hs,
             {
-              [sty.freeBox__color_dark__bl0HssxLuv]: hasVariant(
+              [sty.text__color_dark__bl0HssxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"
@@ -254,6 +252,7 @@ const PlasmicDescendants = {
     "footerSocialLinkGroup",
     "footerLegal",
     "social2",
+    "freeBox",
     "privacyPolicyComponent",
     "termsoOfServiceComponent"
   ],
@@ -264,11 +263,13 @@ const PlasmicDescendants = {
   footerLegal: [
     "footerLegal",
     "social2",
+    "freeBox",
     "privacyPolicyComponent",
     "termsoOfServiceComponent"
   ],
 
   social2: ["social2"],
+  freeBox: ["freeBox", "privacyPolicyComponent", "termsoOfServiceComponent"],
   privacyPolicyComponent: ["privacyPolicyComponent"],
   termsoOfServiceComponent: ["termsoOfServiceComponent"]
 };
@@ -309,6 +310,7 @@ export const PlasmicFooterB = Object.assign(
     footerSocialLinkGroup: makeNodeComponent("footerSocialLinkGroup"),
     footerLegal: makeNodeComponent("footerLegal"),
     social2: makeNodeComponent("social2"),
+    freeBox: makeNodeComponent("freeBox"),
     privacyPolicyComponent: makeNodeComponent("privacyPolicyComponent"),
     termsoOfServiceComponent: makeNodeComponent("termsoOfServiceComponent"),
     // Metadata about props expected for PlasmicFooterB

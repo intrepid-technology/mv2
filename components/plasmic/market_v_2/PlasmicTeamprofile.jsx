@@ -128,7 +128,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__aG0Ne
+                    sty.text__aG0Ne
                   )}
                 >
                   {"About"}
@@ -172,7 +172,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__gJOqe
+                    sty.text__gJOqe
                   )}
                 >
                   {"Community"}
@@ -209,7 +209,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__qBBbj
+                      sty.text__qBBbj
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -243,7 +243,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__logCa
+                      sty.text__logCa
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
@@ -278,7 +278,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__y1Tms
+                      sty.text__y1Tms
                     )}
                   >
                     {"Followers"}
@@ -308,7 +308,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__miuE
+                      sty.text__miuE
                     )}
                   >
                     {"Views"}
@@ -338,7 +338,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__cY2Un
+                      sty.text__cY2Un
                     )}
                   >
                     {"Reacts"}
@@ -368,7 +368,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___01TDu
+                      sty.text___01TDu
                     )}
                   >
                     {"Saves"}
@@ -401,7 +401,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__koEg
+                    sty.text__koEg
                   )}
                 >
                   {"Team"}
@@ -515,7 +515,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__a24Vi
+                      sty.text__a24Vi
                     )}
                   >
                     {"View all team members"}
@@ -637,7 +637,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__et0L5
+                          sty.text__et0L5
                         )}
                       >
                         {"cityName"}
@@ -647,7 +647,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__nbW2C
+                          sty.text__nbW2C
                         )}
                       >
                         {","}
@@ -663,7 +663,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__hetsf
+                          sty.text__hetsf
                         )}
                       >
                         {"countryName"}
@@ -711,7 +711,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__n0V9G
+                          sty.text__n0V9G
                         )}
                       >
                         {"languageA"}
@@ -727,7 +727,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__dLp3Z
+                          sty.text__dLp3Z
                         )}
                       >
                         {"languageB"}
@@ -781,7 +781,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__m3Nuh
+                          sty.text__m3Nuh
                         )}
                       >
                         {"Member since"}
@@ -800,7 +800,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__k9G5V
+                          sty.text__k9G5V
                         )}
                       >
                         {"[dateTimestamp]"}
@@ -1179,7 +1179,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__sb7Pn
+                        sty.text__sb7Pn
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobile")
@@ -1321,7 +1321,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__niux4
+                        sty.text__niux4
                       )}
                     >
                       {hasVariant(globalVariants, "screen", "mobile")

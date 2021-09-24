@@ -116,7 +116,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__zEuFv
+            sty.text__zEuFv
           )}
         >
           {"Must contain at least 8 alphanumeric characters"}
@@ -150,7 +150,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ql1Ny
+              sty.text__ql1Ny
             )}
           >
             {"Forgot password?"}
@@ -184,7 +184,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__n6Ve
+            sty.text__n6Ve
           )}
         >
           {"or"}
@@ -247,7 +247,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___7NKpK
+              sty.text___7NKpK
             )}
           >
             {"Sign up"}

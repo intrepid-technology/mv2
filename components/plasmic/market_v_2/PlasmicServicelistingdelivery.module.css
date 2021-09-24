@@ -60,7 +60,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__p8Gw {
+.text__p8Gw {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -70,7 +70,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__mbL5D {
+.text__mbL5D {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .textbox {
@@ -142,7 +142,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__g7Rsl {
+.text__g7Rsl {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -152,7 +152,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__snn5 {
+.text__snn5 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .buttonFormDropdownSelect__tdwKs:global(.__wab_instance) {
@@ -224,7 +224,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__by8Qo {
+.text__by8Qo {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -234,7 +234,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__wBaev {
+.text__wBaev {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .buttonFormDropdownSelect__lorOa:global(.__wab_instance) {
@@ -343,7 +343,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__py2Sc {
+.text__py2Sc {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -353,7 +353,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__gBqE8 {
+.text__gBqE8 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .freeBox__ui9Ss {
@@ -436,7 +436,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__zmCp2 {
+.text__zmCp2 {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -446,7 +446,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__d40N6 {
+.text__d40N6 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .searchBadge:global(.__wab_instance) {
@@ -457,7 +457,7 @@
 .chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__gkwVx {
+.text__gkwVx {
   text-transform: lowercase;
 }
 .svg__yq3F9 {

@@ -61,7 +61,7 @@
   border-radius: 2px;
   padding: 0px;
 }
-.slotUnitNumber {
+.slotTargetUnitNumber {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
@@ -73,12 +73,12 @@
   width: 100%;
   min-width: 0;
 }
-.slotUnitText {
+.slotTargetUnitText {
   font-size: 14px;
   text-align: left;
   line-height: 1;
 }
-.freeBox__rWoQt {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -87,7 +87,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__pkFzf {
+.text {
   font-size: 14px;
   text-align: left;
   width: auto;
@@ -121,7 +121,7 @@
   border-radius: 2px;
   padding: 0px;
 }
-.slotTimeIntervalText {
+.slotTargetTimeIntervalText {
   font-size: 14px;
   text-align: left;
   line-height: 1;
@@ -165,7 +165,7 @@
   width: auto;
   height: auto;
 }
-.slotCurrencySymbol {
+.slotTargetCurrencySymbol {
   font-size: 14px;
   text-align: left;
 }
@@ -175,7 +175,7 @@
   width: auto;
   height: auto;
 }
-.slotTotalValueNumber {
+.slotTargetTotalValueNumber {
   font-size: 14px;
   text-align: left;
 }

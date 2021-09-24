@@ -126,7 +126,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___1UsqO
+                    sty.text___1UsqO
                   )}
                 >
                   {"Analytics & metrics"}
@@ -185,7 +185,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__uCeTh
+                      sty.text__uCeTh
                     )}
                   >
                     {"30 days"}
@@ -215,7 +215,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__oA6G8
+                      sty.text__oA6G8
                     )}
                   >
                     {"Rating"}
@@ -228,7 +228,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__wqSbL
+                      sty.text__wqSbL
                     )}
                   >
                     {"4.6"}
@@ -239,7 +239,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__nwA6O
+                      sty.text__nwA6O
                     )}
                   >
                     {"%"}
@@ -275,7 +275,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__pAf0G
+                          sty.text__pAf0G
                         )}
                       >
                         {"5"}
@@ -293,7 +293,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__hTbe
+                      sty.text__hTbe
                     )}
                   >
                     {"Earnings"}
@@ -318,7 +318,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__vwFVm
+                      sty.text__vwFVm
                     )}
                   >
                     {"930"}
@@ -354,7 +354,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__yz1Wm
+                          sty.text__yz1Wm
                         )}
                       >
                         {"65"}
@@ -372,7 +372,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__vnUej
+                      sty.text__vnUej
                     )}
                   >
                     {"Orders"}
@@ -385,7 +385,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xZcW
+                      sty.text__xZcW
                     )}
                   >
                     {"100"}
@@ -416,7 +416,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__brS4Z
+                      sty.text__brS4Z
                     )}
                   >
                     {"Reviews"}
@@ -429,7 +429,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__r7DuK
+                      sty.text__r7DuK
                     )}
                   >
                     {"12"}
@@ -455,7 +455,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__w3A2
+                          sty.text__w3A2
                         )}
                       >
                         {"20"}
@@ -466,7 +466,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__vu84Q
+                          sty.text__vu84Q
                         )}
                       >
                         {"20"}
@@ -513,7 +513,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__r4BZl
+                      sty.text__r4BZl
                     )}
                   >
                     {"30 days"}
@@ -544,7 +544,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__zhT9N
+                      sty.text__zhT9N
                     )}
                   >
                     {"Listings"}
@@ -557,7 +557,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__b5PwL
+                      sty.text__b5PwL
                     )}
                   >
                     {"12"}
@@ -588,7 +588,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__yYpwc
+                      sty.text__yYpwc
                     )}
                   >
                     {"Listing views"}
@@ -604,7 +604,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__oPbwy
+                      sty.text__oPbwy
                     )}
                   >
                     {"1"}
@@ -615,7 +615,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__l7Lyt
+                      sty.text__l7Lyt
                     )}
                   >
                     {"K"}
@@ -640,7 +640,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__kLtHq
+                          sty.text__kLtHq
                         )}
                       >
                         {"32.45"}
@@ -658,7 +658,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__jy4Iv
+                      sty.text__jy4Iv
                     )}
                   >
                     {"Profile views"}
@@ -674,7 +674,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__s1MiL
+                      sty.text__s1MiL
                     )}
                   >
                     {"2"}
@@ -685,7 +685,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__yqKnH
+                      sty.text__yqKnH
                     )}
                   >
                     {"K"}
@@ -710,7 +710,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___3Ma7N
+                          sty.text___3Ma7N
                         )}
                       >
                         {"124.56"}
@@ -728,7 +728,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__iLAm8
+                      sty.text__iLAm8
                     )}
                   >
                     {"Reacts"}
@@ -741,7 +741,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__avkXs
+                      sty.text__avkXs
                     )}
                   >
                     {"3"}
@@ -752,7 +752,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__opOi
+                      sty.text__opOi
                     )}
                   >
                     {"K"}
@@ -777,7 +777,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__d7Lc5
+                          sty.text__d7Lc5
                         )}
                       >
                         {"23.67"}
@@ -795,7 +795,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__blb57
+                      sty.text__blb57
                     )}
                   >
                     {"Lists"}
@@ -808,7 +808,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__o1FMc
+                      sty.text__o1FMc
                     )}
                   >
                     {"1"}
@@ -819,7 +819,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3JBeZ
+                      sty.text___3JBeZ
                     )}
                   >
                     {"K"}
@@ -844,7 +844,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__yQ4B
+                          sty.text__yQ4B
                         )}
                       >
                         {"234.56"}
@@ -862,7 +862,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__sCGf
+                      sty.text__sCGf
                     )}
                   >
                     {"Response rate"}
@@ -878,7 +878,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__fqV7A
+                      sty.text__fqV7A
                     )}
                   >
                     {"78.5"}
@@ -916,7 +916,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__oRkd7
+                          sty.text__oRkd7
                         )}
                       >
                         {"12.5"}
@@ -963,7 +963,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__a2FUz
+                      sty.text__a2FUz
                     )}
                   >
                     {"30 days"}
@@ -993,7 +993,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rZuNx
+                      sty.text__rZuNx
                     )}
                   >
                     {"Subscribers"}
@@ -1006,7 +1006,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__i7TYl
+                      sty.text__i7TYl
                     )}
                   >
                     {"12"}
@@ -1037,7 +1037,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___4CrcM
+                      sty.text___4CrcM
                     )}
                   >
                     {"Connections"}
@@ -1050,7 +1050,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__dbgw
+                      sty.text__dbgw
                     )}
                   >
                     {"12"}
@@ -1076,7 +1076,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__vxZUy
+                          sty.text__vxZUy
                         )}
                       >
                         {"5"}
@@ -1094,7 +1094,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__cfyKn
+                      sty.text__cfyKn
                     )}
                   >
                     {"Followers"}
@@ -1107,7 +1107,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__sPQc
+                      sty.text__sPQc
                     )}
                   >
                     {"12"}
@@ -1133,7 +1133,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__tPu21
+                          sty.text__tPu21
                         )}
                       >
                         {"5"}
@@ -1151,7 +1151,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__regM
+                      sty.text__regM
                     )}
                   >
                     {"Following"}
@@ -1164,7 +1164,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__f9Jk1
+                      sty.text__f9Jk1
                     )}
                   >
                     {"12"}

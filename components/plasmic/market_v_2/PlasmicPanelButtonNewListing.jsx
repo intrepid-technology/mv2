@@ -63,12 +63,12 @@ function PlasmicPanelButtonNewListing__RenderFunc(props) {
           />
 
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox
+              sty.text
             )}
           >
             {"New listing"}
@@ -80,11 +80,11 @@ function PlasmicPanelButtonNewListing__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "newListing", "sideBarCardLink3", "svg", "freeBox"],
-  newListing: ["newListing", "sideBarCardLink3", "svg", "freeBox"],
-  sideBarCardLink3: ["sideBarCardLink3", "svg", "freeBox"],
+  root: ["root", "newListing", "sideBarCardLink3", "svg", "text"],
+  newListing: ["newListing", "sideBarCardLink3", "svg", "text"],
+  sideBarCardLink3: ["sideBarCardLink3", "svg", "text"],
   svg: ["svg"],
-  freeBox: ["freeBox"]
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -121,7 +121,7 @@ export const PlasmicPanelButtonNewListing = Object.assign(
     newListing: makeNodeComponent("newListing"),
     sideBarCardLink3: makeNodeComponent("sideBarCardLink3"),
     svg: makeNodeComponent("svg"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicPanelButtonNewListing
     internalVariantProps: PlasmicPanelButtonNewListing__VariantProps,
     internalArgProps: PlasmicPanelButtonNewListing__ArgProps

@@ -51,7 +51,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__jdMrM
+            sty.text__jdMrM
           )}
         >
           {"Partner Spotlight"}
@@ -61,7 +61,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___4ZfZw
+            sty.text___4ZfZw
           )}
         >
           {
@@ -73,7 +73,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__uYzUr
+            sty.text__uYzUr
           )}
         >
           {"Diana Robinson, Owner\nPixel Dust Design, Los Angeles\n"}
@@ -86,7 +86,6 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
           data-plasmic-override={overrides.img}
           alt={""}
           className={classNames(defaultcss.img, sty.img)}
-          role={"img"}
           src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
         />
       </div>

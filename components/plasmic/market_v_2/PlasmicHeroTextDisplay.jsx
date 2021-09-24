@@ -60,21 +60,21 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__iy1X,
+              sty.text__iy1X,
               {
-                [sty.freeBox__size__270__iy1XFtcWe]: hasVariant(
+                [sty.text__size__270__iy1XFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__iy1XqvLrI]: hasVariant(
+                [sty.text__size__360__iy1XqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.freeBox__size__720__iy1XtUtJd]: hasVariant(
+                [sty.text__size__720__iy1XtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -82,9 +82,14 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span>
+            <span className={"plasmic_default__all plasmic_default__span"}>
               <React.Fragment>{"Our "}</React.Fragment>
-              <span style={{ fontWeight: 700 }}>{"future"}</span>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"future"}
+              </span>
               <React.Fragment> </React.Fragment>
             </span>
           </div>
@@ -93,15 +98,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__khuIq,
+              sty.text__khuIq,
               {
-                [sty.freeBox__size__270__khuIqFtcWe]: hasVariant(
+                [sty.text__size__270__khuIqFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__khuIqqvLrI]: hasVariant(
+                [sty.text__size__360__khuIqqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -116,15 +121,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__tSMpz,
+              sty.text__tSMpz,
               {
-                [sty.freeBox__size__270__tSMpzFtcWe]: hasVariant(
+                [sty.text__size__270__tSMpzFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__tSMpzqvLrI]: hasVariant(
+                [sty.text__size__360__tSMpzqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -139,15 +144,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__lEl62,
+              sty.text__lEl62,
               {
-                [sty.freeBox__size__270__lEl62FtcWe]: hasVariant(
+                [sty.text__size__270__lEl62FtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__lEl62QvLrI]: hasVariant(
+                [sty.text__size__360__lEl62QvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -155,8 +160,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span>
-              <span style={{ fontWeight: 700 }}>{"quality"}</span>
+            <span className={"plasmic_default__all plasmic_default__span"}>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"quality"}
+              </span>
               <React.Fragment>{" of our"}</React.Fragment>
             </span>
           </div>
@@ -165,15 +175,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ftHuv,
+              sty.text__ftHuv,
               {
-                [sty.freeBox__size__270__ftHuvFtcWe]: hasVariant(
+                [sty.text__size__270__ftHuvFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__ftHuvqvLrI]: hasVariant(
+                [sty.text__size__360__ftHuvqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -188,15 +198,15 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__y4WL,
+              sty.text__y4WL,
               {
-                [sty.freeBox__size__270__y4WLFtcWe]: hasVariant(
+                [sty.text__size__270__y4WLFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__360__y4WLQvLrI]: hasVariant(
+                [sty.text__size__360__y4WLQvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -220,9 +230,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__rshCx,
+                sty.text__rshCx,
                 {
-                  [sty.freeBox__size__360__rshCxqvLrI]: hasVariant(
+                  [sty.text__size__360__rshCxqvLrI]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -250,9 +260,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__g3X6M,
+              sty.text__g3X6M,
               {
-                [sty.freeBox__size__720__g3X6MtUtJd]: hasVariant(
+                [sty.text__size__720__g3X6MtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -260,9 +270,14 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span>
+            <span className={"plasmic_default__all plasmic_default__span"}>
               <React.Fragment>{"Our "}</React.Fragment>
-              <span style={{ fontWeight: 700 }}>{"future"}</span>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"future"}
+              </span>
               <React.Fragment> </React.Fragment>
             </span>
           </div>
@@ -271,7 +286,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__lE5IM
+              sty.text__lE5IM
             )}
           >
             {"prosperity"}
@@ -281,7 +296,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__svY
+              sty.text__svY
             )}
           >
             {"depends on the"}
@@ -291,11 +306,16 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___6YcQd
+              sty.text___6YcQd
             )}
           >
-            <span>
-              <span style={{ fontWeight: 700 }}>{"quality"}</span>
+            <span className={"plasmic_default__all plasmic_default__span"}>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ fontWeight: 700 }}
+              >
+                {"quality"}
+              </span>
               <React.Fragment>{" of our"}</React.Fragment>
             </span>
           </div>
@@ -304,7 +324,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___1IZ8J
+              sty.text___1IZ8J
             )}
           >
             {"collective "}
@@ -314,9 +334,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__luQgD,
+              sty.text__luQgD,
               {
-                [sty.freeBox__size__720__luQgDtUtJd]: hasVariant(
+                [sty.text__size__720__luQgDtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -343,7 +363,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__fbeOl
+                  sty.text__fbeOl
                 )}
               >
                 {"- Eric Reis, The Lean Startup"}

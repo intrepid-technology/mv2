@@ -75,7 +75,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Headline",
                 value: args.headline,
-                className: classNames(sty.slotHeadline)
+                className: classNames(sty.slotTargetHeadline)
               })}
             </div>
 
@@ -87,7 +87,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
                 value: args.subhead,
-                className: classNames(sty.slotSubhead)
+                className: classNames(sty.slotTargetSubhead)
               })}
             </div>
           </p.Stack>
@@ -120,8 +120,8 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
                 ? p.renderPlasmicSlot({
                     defaultContents: "Description",
                     value: args.description2,
-                    className: classNames(sty.slotDescription2, {
-                      [sty.slotDescription2__description]: hasVariant(
+                    className: classNames(sty.slotTargetDescription2, {
+                      [sty.slotTargetDescription2__description]: hasVariant(
                         variants,
                         "description",
                         "description"

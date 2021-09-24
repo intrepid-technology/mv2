@@ -111,14 +111,14 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Headline feature desription",
                 value: args.headline,
-                className: classNames(sty.slotHeadline, {
-                  [sty.slotHeadline__size__160]: hasVariant(
+                className: classNames(sty.slotTargetHeadline, {
+                  [sty.slotTargetHeadline__size__160]: hasVariant(
                     variants,
                     "size",
                     "_160"
                   ),
 
-                  [sty.slotHeadline__size__360]: hasVariant(
+                  [sty.slotTargetHeadline__size__360]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -139,9 +139,18 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
               defaultContents:
                 "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in.",
               value: args.text,
-              className: classNames(sty.slotText, {
-                [sty.slotText__size__160]: hasVariant(variants, "size", "_160"),
-                [sty.slotText__size__360]: hasVariant(variants, "size", "_360")
+              className: classNames(sty.slotTargetText, {
+                [sty.slotTargetText__size__160]: hasVariant(
+                  variants,
+                  "size",
+                  "_160"
+                ),
+
+                [sty.slotTargetText__size__360]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
+                )
               })
             })}
           </div>

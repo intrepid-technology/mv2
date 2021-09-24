@@ -110,7 +110,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__o0Huz
+                    sty.text__o0Huz
                   )}
                 >
                   {"New partners"}
@@ -121,7 +121,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__wxNnk
+                    sty.text__wxNnk
                   )}
                 >
                   {"Who's new and who's hot within the commmunity."}
@@ -145,7 +145,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___8Qeyr
+                      sty.text___8Qeyr
                     )}
                   >
                     {"Rising stars"}
@@ -224,7 +224,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___6My62
+                      sty.text___6My62
                     )}
                   >
                     {"New & noteworthy"}
@@ -309,7 +309,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__aQfy5
+                    sty.text__aQfy5
                   )}
                 >
                   {"Personalised selection"}
@@ -320,7 +320,7 @@ function PlasmicMarket__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__jptVr
+                    sty.text__jptVr
                   )}
                 >
                   {
@@ -436,7 +436,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xSg2B
+                      sty.text__xSg2B
                     )}
                   >
                     {"Popular & trending"}
@@ -447,7 +447,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__slGcz
+                      sty.text__slGcz
                     )}
                   >
                     {"See what's popular and trending across the community."}
@@ -562,7 +562,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__aC4Uc
+                      sty.text__aC4Uc
                     )}
                   >
                     {"Go to market fast"}
@@ -573,7 +573,7 @@ function PlasmicMarket__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__fGgzj
+                      sty.text__fGgzj
                     )}
                   >
                     {

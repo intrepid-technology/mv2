@@ -73,8 +73,8 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Counter Nav",
               value: args.navLabel,
-              className: classNames(sty.slotNavLabel, {
-                [sty.slotNavLabel__state_selected]: hasVariant(
+              className: classNames(sty.slotTargetNavLabel, {
+                [sty.slotTargetNavLabel__state_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"
@@ -97,8 +97,8 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "######",
               value: args.numberValue,
-              className: classNames(sty.slotNumberValue, {
-                [sty.slotNumberValue__state_selected]: hasVariant(
+              className: classNames(sty.slotTargetNumberValue, {
+                [sty.slotTargetNumberValue__state_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"

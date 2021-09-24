@@ -51,8 +51,8 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Service Feature",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__size_small]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__size_small]: hasVariant(
                 variants,
                 "size",
                 "small"

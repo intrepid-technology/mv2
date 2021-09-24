@@ -68,7 +68,7 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.descriptionText,
-              className: classNames(sty.slotDescriptionText)
+              className: classNames(sty.slotTargetDescriptionText)
             })}
           </div>
         </div>

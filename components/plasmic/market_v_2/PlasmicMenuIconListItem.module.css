@@ -75,18 +75,18 @@
 .menuIconListItemLink:hover .iconTextParent {
   background: #f8f8f8;
 }
-.slotNavIcon {
+.slotTargetNavIcon {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   font-size: 16px;
   line-height: 1;
 }
-.slotNavIcon__disabled {
+.slotTargetNavIcon__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.menuIconListItemLink:hover .slotNavIcon {
+.menuIconListItemLink:hover .slotTargetNavIcon {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.menuIconListItemLink__disabled:hover .slotNavIcon__disabled {
+.menuIconListItemLink__disabled:hover .slotTargetNavIcon__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
 .freeBox__h0S1 {
@@ -112,17 +112,17 @@
   height: auto;
   min-width: 0;
 }
-.slotNavText {
+.slotTargetNavText {
   font-size: 14px;
   line-height: 1;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.slotNavText__disabled {
+.slotTargetNavText__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.menuIconListItemLink:hover .slotNavText {
+.menuIconListItemLink:hover .slotTargetNavText {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.menuIconListItemLink__disabled:hover .slotNavText__disabled {
+.menuIconListItemLink__disabled:hover .slotTargetNavText__disabled {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }

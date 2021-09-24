@@ -62,20 +62,20 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
           ),
 
           value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__color_brand]: hasVariant(
+          className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildren__color_brand]: hasVariant(
               variants,
               "color",
               "brand"
             ),
 
-            [sty.slotChildren__color_dark]: hasVariant(
+            [sty.slotTargetChildren__color_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.slotChildren__color_light]: hasVariant(
+            [sty.slotTargetChildren__color_light]: hasVariant(
               variants,
               "color",
               "light"

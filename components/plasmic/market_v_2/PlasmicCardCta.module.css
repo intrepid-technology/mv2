@@ -61,7 +61,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotSlot2 {
+.slotTargetSlot2 {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -70,7 +70,7 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   text-transform: uppercase;
 }
-.slotSlot2__center {
+.slotTargetSlot2__center {
   text-align: center;
 }
 .freeBox__y0NOz {
@@ -124,7 +124,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -132,7 +132,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotChildren__center {
+.slotTargetChildren__center {
   text-align: center;
 }
 .freeBox__ge5FL {
@@ -162,7 +162,7 @@
   height: auto;
   min-width: 0;
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -170,7 +170,7 @@
   line-height: 18px;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
-.slotSlot__center {
+.slotTargetSlot__center {
   text-align: center;
 }
 .buttonPrimary:global(.__wab_instance) {

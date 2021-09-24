@@ -30,7 +30,7 @@
   flex-direction: row;
   padding: 0px;
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 14px;
   line-height: 1.2;
 }
@@ -76,17 +76,17 @@
   top: auto;
   left: auto;
 }
-.freeBox___3Db6E {
+.text___3Db6E {
   font-size: 14px;
   line-height: 1.2;
 }
-.freeBox__wZbrp {
+.text__wZbrp {
   font-size: 40px;
 }
-.freeBox__zt6PV {
+.text__zt6PV {
   font-size: 40px;
 }
-.freeBox__tScVb {
+.text__tScVb {
   font-size: 16px;
 }
 .pricingTableDropDownChildItems {
@@ -140,10 +140,10 @@
   top: auto;
   left: auto;
 }
-.freeBox__cIzHl {
+.text__cIzHl {
   font-size: 14px;
 }
-.freeBox__wD7Qq {
+.text__wD7Qq {
   height: auto;
 }
 .pricingPageElementServiceBlock:global(.__wab_instance) {
@@ -179,7 +179,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.freeBox___7UBdg {
+.text___7UBdg {
   font-size: 24px;
 }
 .svg__ewFTn {

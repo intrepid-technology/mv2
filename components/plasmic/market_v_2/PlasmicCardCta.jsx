@@ -56,8 +56,8 @@ function PlasmicCardCta__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Business Analytics",
               value: args.slot2,
-              className: classNames(sty.slotSlot2, {
-                [sty.slotSlot2__center]: hasVariant(
+              className: classNames(sty.slotTargetSlot2, {
+                [sty.slotTargetSlot2__center]: hasVariant(
                   variants,
                   "center",
                   "center"
@@ -81,8 +81,8 @@ function PlasmicCardCta__RenderFunc(props) {
                   defaultContents:
                     "Manage and grow your business like never before",
                   value: args.children,
-                  className: classNames(sty.slotChildren, {
-                    [sty.slotChildren__center]: hasVariant(
+                  className: classNames(sty.slotTargetChildren, {
+                    [sty.slotTargetChildren__center]: hasVariant(
                       variants,
                       "center",
                       "center"
@@ -98,8 +98,8 @@ function PlasmicCardCta__RenderFunc(props) {
                   defaultContents:
                     "Gain the insights you need to grow—use a single dashboard to manage orders, projects, reviews, and payments from anywhere.\n",
                   value: args.slot,
-                  className: classNames(sty.slotSlot, {
-                    [sty.slotSlot__center]: hasVariant(
+                  className: classNames(sty.slotTargetSlot, {
+                    [sty.slotTargetSlot__center]: hasVariant(
                       variants,
                       "center",
                       "center"

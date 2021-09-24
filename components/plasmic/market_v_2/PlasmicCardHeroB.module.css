@@ -49,7 +49,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
 }
-.slotChildren {
+.slotTargetChildren {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
 .buttonPrimary:global(.__wab_instance) {

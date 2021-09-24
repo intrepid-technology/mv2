@@ -52,11 +52,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox__fPuP5
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {hasVariant(globalVariants, "screen", "mobile")
           ? "Find by Industry"
@@ -67,8 +65,10 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__kOiq5)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <ChipCategoryHeader
           className={classNames("__wab_instance", sty.chipCategoryHeader__xJ5H)}
@@ -196,7 +196,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "text", "freeBox"],
+  text: ["text"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -230,6 +232,8 @@ export const PlasmicSectionShopByIndustry = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    text: makeNodeComponent("text"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSectionShopByIndustry
     internalVariantProps: PlasmicSectionShopByIndustry__VariantProps,
     internalArgProps: PlasmicSectionShopByIndustry__ArgProps

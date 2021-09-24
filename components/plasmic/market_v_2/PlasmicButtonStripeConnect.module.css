@@ -80,16 +80,16 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.slotText {
+.slotTargetText {
   font-size: 16px;
   font-weight: 400;
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
   line-height: 1;
 }
-.slotText__width__180 {
+.slotTargetText__width__180 {
   font-size: 14px;
 }
-.root:hover .slotText {
+.root:hover .slotTargetText {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
 .iconStripeLogo:global(.__wab_instance) {

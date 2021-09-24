@@ -479,7 +479,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__zJxej
+                      sty.text__zJxej
                     )}
                   >
                     {"English,"}
@@ -495,7 +495,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__vPsIx
+                      sty.text__vPsIx
                     )}
                   >
                     {"Korean"}
@@ -617,7 +617,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rovGm
+                      sty.text__rovGm
                     )}
                   >
                     {"San Francisco"}
@@ -627,7 +627,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__h9Ew
+                      sty.text__h9Ew
                     )}
                   >
                     {","}
@@ -643,7 +643,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rAn6N
+                      sty.text__rAn6N
                     )}
                   >
                     {"United States"}
@@ -691,7 +691,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__zQj11
+                      sty.text__zQj11
                     )}
                   >
                     {"Member since"}
@@ -710,7 +710,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3O7Bo
+                      sty.text___3O7Bo
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")

@@ -74,7 +74,7 @@ function PlasmicTablePricingElementNumberValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "3",
             value: args.numberValue,
-            className: classNames(sty.slotNumberValue)
+            className: classNames(sty.slotTargetNumberValue)
           })}
         </div>
 
@@ -86,7 +86,7 @@ function PlasmicTablePricingElementNumberValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "$",
             value: args.percent,
-            className: classNames(sty.slotPercent)
+            className: classNames(sty.slotTargetPercent)
           })}
         </div>
       </p.Stack>
@@ -99,7 +99,7 @@ function PlasmicTablePricingElementNumberValue__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Standard rate per listing",
           value: args.featureValueText,
-          className: classNames(sty.slotFeatureValueText)
+          className: classNames(sty.slotTargetFeatureValueText)
         })}
       </div>
     </p.Stack>

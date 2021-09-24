@@ -96,8 +96,8 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Text",
             value: args.prefixLabelHeadline,
-            className: classNames(sty.slotPrefixLabelHeadline, {
-              [sty.slotPrefixLabelHeadline__type_secondary]: hasVariant(
+            className: classNames(sty.slotTargetPrefixLabelHeadline, {
+              [sty.slotTargetPrefixLabelHeadline__type_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"
@@ -136,8 +136,8 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Text",
             value: args.suffixLabelHeadline,
-            className: classNames(sty.slotSuffixLabelHeadline, {
-              [sty.slotSuffixLabelHeadline__type_secondary]: hasVariant(
+            className: classNames(sty.slotTargetSuffixLabelHeadline, {
+              [sty.slotTargetSuffixLabelHeadline__type_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"

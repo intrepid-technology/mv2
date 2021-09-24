@@ -45,7 +45,7 @@ function PlasmicTagAward__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Award",
           value: args.children,
-          className: classNames(sty.slotChildren)
+          className: classNames(sty.slotTargetChildren)
         })}
       </div>
 
@@ -63,7 +63,7 @@ function PlasmicTagAward__RenderFunc(props) {
           ),
 
           value: args.iconParent,
-          className: classNames(sty.slotIconParent)
+          className: classNames(sty.slotTargetIconParent)
         })}
       </div>
     </p.Stack>

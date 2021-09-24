@@ -103,7 +103,7 @@
     margin-top: 24px;
   }
 }
-.freeBox__jdMrM {
+.text__jdMrM {
   display: inline-block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
@@ -118,7 +118,7 @@
   width: auto;
   text-transform: uppercase;
 }
-.freeBox___4ZfZw {
+.text___4ZfZw {
   display: inline-block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -133,12 +133,12 @@
   width: auto;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox___4ZfZw {
+  .text___4ZfZw {
     font-size: 24px;
     line-height: 1.2;
   }
 }
-.freeBox__uYzUr {
+.text__uYzUr {
   position: relative;
   left: auto;
   top: auto;
@@ -149,7 +149,7 @@
   display: inline-block;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__uYzUr {
+  .text__uYzUr {
     line-height: 1.2;
   }
 }

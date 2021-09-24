@@ -645,7 +645,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__gwoj {
+.text__gwoj {
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 500;
   font-size: 12px;
@@ -1677,7 +1677,7 @@
     display: none;
   }
 }
-.freeBox__ghdD6 {
+.text__ghdD6 {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;

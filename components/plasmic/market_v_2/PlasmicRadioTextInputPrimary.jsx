@@ -67,20 +67,20 @@ function PlasmicRadioTextInputPrimary__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Item element",
           value: args.itemText,
-          className: classNames(sty.slotItemText, {
-            [sty.slotItemText__size__12Px]: hasVariant(
+          className: classNames(sty.slotTargetItemText, {
+            [sty.slotTargetItemText__size__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotItemText__size__14Px]: hasVariant(
+            [sty.slotTargetItemText__size__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotItemText__size__16Px]: hasVariant(
+            [sty.slotTargetItemText__size__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

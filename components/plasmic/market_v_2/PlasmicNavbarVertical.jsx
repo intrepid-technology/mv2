@@ -100,14 +100,14 @@ function PlasmicNavbarVertical__RenderFunc(props) {
             linkText={p.renderPlasmicSlot({
               defaultContents: "click me",
               value: args.linkText,
-              className: classNames(sty.slotLinkText, {
-                [sty.slotLinkText___switch]: hasVariant(
+              className: classNames(sty.slotTargetLinkText, {
+                [sty.slotTargetLinkText___switch]: hasVariant(
                   variants,
                   "_switch",
                   "_switch"
                 ),
 
-                [sty.slotLinkText__user_partner]: hasVariant(
+                [sty.slotTargetLinkText__user_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"

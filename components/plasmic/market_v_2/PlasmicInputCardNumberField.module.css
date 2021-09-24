@@ -143,16 +143,16 @@
   width: 100%;
   min-width: 0;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 18px;
   text-align: left;
   line-height: 1.5;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
-.slotChildren__state_success {
+.slotTargetChildren__state_success {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.slotChildren__size__180 {
+.slotTargetChildren__size__180 {
   font-size: 14px;
 }
 .freeBox___09Rg3 {
@@ -163,10 +163,10 @@
   height: auto;
   min-width: 0;
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 12px;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
-.slotSlot__size__180 {
+.slotTargetSlot__size__180 {
   font-size: 10px;
 }

@@ -88,7 +88,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___90SlK)}
-                role={"img"}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -99,7 +98,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img___1O5Bc)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                   }
@@ -116,7 +114,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__e6YuM)}
-                role={"img"}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -128,7 +125,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-override={overrides.image360X1882}
               alt={""}
               className={classNames(defaultcss.img, sty.image360X1882)}
-              role={"img"}
               src={
                 "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
               }
@@ -141,7 +137,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__bSsNa)}
-                role={"img"}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -152,7 +147,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__orizs)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/360x270/f8f8f8/333333"
                   }
@@ -176,7 +170,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__wPpgb)}
-                role={"img"}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -188,7 +181,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-override={overrides._360X1882}
               alt={""}
               className={classNames(defaultcss.img, sty._360X1882)}
-              role={"img"}
               src={
                 "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
               }
@@ -270,7 +262,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__q6Tt2
+                sty.text__q6Tt2
               )}
             >
               {"Username"}
@@ -356,9 +348,9 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__gnv58,
+                  sty.text__gnv58,
                   {
-                    [sty.freeBox__size__270X270__gnv58YHOxL]: hasVariant(
+                    [sty.text__size__270X270__gnv58YHOxL]: hasVariant(
                       variants,
                       "size",
                       "_270X270"
@@ -382,9 +374,9 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__mzsOx,
+                sty.text__mzsOx,
                 {
-                  [sty.freeBox__size__270X270__mzsOxyHOxL]: hasVariant(
+                  [sty.text__size__270X270__mzsOxyHOxL]: hasVariant(
                     variants,
                     "size",
                     "_270X270"
@@ -425,21 +417,21 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__jtV0,
+            sty.text__jtV0,
             {
-              [sty.freeBox__description__jtV0EwyA]: hasVariant(
+              [sty.text__description__jtV0EwyA]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.freeBox__size__270X270__jtV0YHOxL]: hasVariant(
+              [sty.text__size__270X270__jtV0YHOxL]: hasVariant(
                 variants,
                 "size",
                 "_270X270"
               ),
 
-              [sty.freeBox__size__360X270__jtV0QrppG]: hasVariant(
+              [sty.text__size__360X270__jtV0QrppG]: hasVariant(
                 variants,
                 "size",
                 "_360X270"
@@ -568,7 +560,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__dGTde
+                    sty.text__dGTde
                   )}
                 >
                   {"Boosted"}
@@ -579,7 +571,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__bkWea
+                    sty.text__bkWea
                   )}
                 >
                   {"boosted"}

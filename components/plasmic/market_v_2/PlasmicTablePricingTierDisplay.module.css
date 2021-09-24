@@ -73,7 +73,7 @@
   align-self: stretch;
   position: relative;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 40px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -110,7 +110,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotSlot2 {
+.slotTargetSlot2 {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -129,7 +129,7 @@
   min-width: 0;
   padding: 0px 8px 8px 0px;
 }
-.slotSlot {
+.slotTargetSlot {
   line-height: 1.2;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }

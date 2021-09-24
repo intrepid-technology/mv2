@@ -83,7 +83,6 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                 data-plasmic-override={overrides.navUserAvatar80}
                 alt={""}
                 className={classNames(defaultcss.img, sty.navUserAvatar80)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
                 }
@@ -120,7 +119,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__a2Y3
+                    sty.text__a2Y3
                   )}
                 >
                   {"Annie"}
@@ -136,7 +135,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__mD7Z
+                    sty.text__mD7Z
                   )}
                 >
                   {"Young Son"}
@@ -161,7 +160,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__men51
+                      sty.text__men51
                     )}
                   >
                     {"@"}
@@ -180,7 +179,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___9Y1Y0
+                      sty.text___9Y1Y0
                     )}
                   >
                     {"pixiedesign"}
@@ -373,9 +372,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___2RhX,
+                    sty.text___2RhX,
                     {
-                      [sty.freeBox__userState_loggedIn___2RhXmCOui]: hasVariant(
+                      [sty.text__userState_loggedIn___2RhXmCOui]: hasVariant(
                         variants,
                         "userState",
                         "loggedIn"

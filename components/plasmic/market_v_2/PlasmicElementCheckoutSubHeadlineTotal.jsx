@@ -51,7 +51,7 @@ function PlasmicElementCheckoutSubHeadlineTotal__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Listing",
             value: args.headline,
-            className: classNames(sty.slotHeadline)
+            className: classNames(sty.slotTargetHeadline)
           })}
         </div>
       </p.Stack>
@@ -71,7 +71,7 @@ function PlasmicElementCheckoutSubHeadlineTotal__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "$",
             value: args.currency,
-            className: classNames(sty.slotCurrency)
+            className: classNames(sty.slotTargetCurrency)
           })}
         </div>
 
@@ -84,7 +84,7 @@ function PlasmicElementCheckoutSubHeadlineTotal__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "0.00",
               value: args.totalvalue,
-              className: classNames(sty.slotTotalvalue)
+              className: classNames(sty.slotTargetTotalvalue)
             })}
           </div>
         </div>

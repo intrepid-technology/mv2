@@ -60,15 +60,24 @@ function PlasmicMenuItem__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Menu item",
           value: args.text,
-          className: classNames(sty.slotText, {
-            [sty.slotText__disabled]: hasVariant(
+          className: classNames(sty.slotTargetText, {
+            [sty.slotTargetText__disabled]: hasVariant(
               variants,
               "disabled",
               "disabled"
             ),
 
-            [sty.slotText__size__14Px]: hasVariant(variants, "size", "_14Px"),
-            [sty.slotText__size__16Px]: hasVariant(variants, "size", "_16Px")
+            [sty.slotTargetText__size__14Px]: hasVariant(
+              variants,
+              "size",
+              "_14Px"
+            ),
+
+            [sty.slotTargetText__size__16Px]: hasVariant(
+              variants,
+              "size",
+              "_16Px"
+            )
           })
         })}
       </div>

@@ -73,7 +73,7 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Headline Title",
               value: args.textHeadline,
-              className: classNames(sty.slotTextHeadline)
+              className: classNames(sty.slotTargetTextHeadline)
             })}
           </div>
         </p.Stack>
@@ -84,7 +84,7 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
           defaultContents:
             "Description of service or product that makes it clear to the",
           value: args.textBody,
-          className: classNames(sty.slotTextBody)
+          className: classNames(sty.slotTargetTextBody)
         })}
       </div>
     </p.Stack>

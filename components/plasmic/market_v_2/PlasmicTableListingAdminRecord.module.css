@@ -643,7 +643,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__bWl6W {
+.text__bWl6W {
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 500;
   font-size: 12px;
@@ -1638,7 +1638,7 @@
     display: none;
   }
 }
-.freeBox__kzo2R {
+.text__kzo2R {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1664,7 +1664,7 @@
 .category:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__rc3Ov {
+.text__rc3Ov {
   text-transform: capitalize;
 }
 .priceParent {
@@ -1690,7 +1690,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__fvDkj {
+.text__fvDkj {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1702,7 +1702,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__ssxRv {
+.text__ssxRv {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1726,7 +1726,7 @@
 .termSubscription:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__mce {
+.text__mce {
   text-transform: capitalize;
 }
 .expirationDateTimeParent {
@@ -1745,7 +1745,7 @@
     display: none;
   }
 }
-.freeBox__wbZD {
+.text__wbZD {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1775,7 +1775,7 @@
 .autoRenew__term_annual:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.freeBox__lBwk {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -1787,7 +1787,7 @@
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__lBwk {
+  .freeBox {
     display: none;
   }
 }

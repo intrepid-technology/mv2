@@ -208,7 +208,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__wM3Ab {
+.text__wM3Ab {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -218,7 +218,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__a4Wh {
+.text__a4Wh {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -228,7 +228,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__ncgFi {
+.text__ncgFi {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -238,7 +238,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__jOHp {
+.text__jOHp {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -255,7 +255,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.freeBox__vDq8H {
+.text__vDq8H {
   display: block;
   font-size: 28px;
   font-family: "Inter", sans-serif;
@@ -265,7 +265,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__vyTh {
+.text__vyTh {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -299,11 +299,11 @@
   > img {
   margin-top: 24px;
 }
-.freeBox__vly1J {
+.text__vly1J {
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   font-size: 14px;
 }
-.freeBox__zL10 {
+.text__zL10 {
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   font-size: 16px;
 }
@@ -321,11 +321,11 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox__yhPhL {
+.text__yhPhL {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.freeBox___2Fp0Z {
+.text___2Fp0Z {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
@@ -345,27 +345,27 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox___49N4A {
+.text___49N4A {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.freeBox__jYBg4 {
+.text__jYBg4 {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.freeBox__jsNg8 {
+.text__jsNg8 {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__by3Ob {
+.text__by3Ob {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox___7DGw8 {
+.text___7DGw8 {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.freeBox__fyfNp {
+.text__fyfNp {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }

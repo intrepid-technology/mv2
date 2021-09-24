@@ -93,9 +93,18 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Connect with",
             value: args.text,
-            className: classNames(sty.slotText, {
-              [sty.slotText__width__180]: hasVariant(variants, "width", "_180"),
-              [sty.slotText__width__360]: hasVariant(variants, "width", "_360")
+            className: classNames(sty.slotTargetText, {
+              [sty.slotTargetText__width__180]: hasVariant(
+                variants,
+                "width",
+                "_180"
+              ),
+
+              [sty.slotTargetText__width__360]: hasVariant(
+                variants,
+                "width",
+                "_360"
+              )
             })
           })}
         </div>

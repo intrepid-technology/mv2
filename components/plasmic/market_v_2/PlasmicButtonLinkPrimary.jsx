@@ -310,127 +310,137 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Hyper Link",
             value: args.text,
-            className: classNames(sty.slotText, {
-              [sty.slotText__color_magenta]: hasVariant(
+            className: classNames(sty.slotTargetText, {
+              [sty.slotTargetText__color_magenta]: hasVariant(
                 variants,
                 "color",
                 "magenta"
               ),
 
-              [sty.slotText__color_magenta_type_primary]:
+              [sty.slotTargetText__color_magenta_type_primary]:
                 hasVariant(variants, "color", "magenta") &&
                 hasVariant(variants, "type", "primary"),
-              [sty.slotText__type_fill]: hasVariant(variants, "type", "fill"),
-              [sty.slotText__type_fill_color_blue]:
+              [sty.slotTargetText__type_fill]: hasVariant(
+                variants,
+                "type",
+                "fill"
+              ),
+
+              [sty.slotTargetText__type_fill_color_blue]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotText__type_fill_color_brand]:
+              [sty.slotTargetText__type_fill_color_brand]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotText__type_fill_color_dark]:
+              [sty.slotTargetText__type_fill_color_dark]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "dark"),
-              [sty.slotText__type_fill_color_green]:
+              [sty.slotTargetText__type_fill_color_green]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "green"),
-              [sty.slotText__type_fill_color_light]:
+              [sty.slotTargetText__type_fill_color_light]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "light"),
-              [sty.slotText__type_fill_color_magenta]:
+              [sty.slotTargetText__type_fill_color_magenta]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotText__type_fill_color_pink]:
+              [sty.slotTargetText__type_fill_color_pink]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "pink"),
-              [sty.slotText__type_fill_color_red]:
+              [sty.slotTargetText__type_fill_color_red]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotText__type_fill_color_yellow]:
+              [sty.slotTargetText__type_fill_color_yellow]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "yellow"),
-              [sty.slotText__type_ghost]: hasVariant(variants, "type", "ghost"),
-              [sty.slotText__type_ghost_color_blue]:
+              [sty.slotTargetText__type_ghost]: hasVariant(
+                variants,
+                "type",
+                "ghost"
+              ),
+
+              [sty.slotTargetText__type_ghost_color_blue]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotText__type_ghost_color_brand]:
+              [sty.slotTargetText__type_ghost_color_brand]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotText__type_ghost_color_dark]:
+              [sty.slotTargetText__type_ghost_color_dark]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "dark"),
-              [sty.slotText__type_ghost_color_green]:
+              [sty.slotTargetText__type_ghost_color_green]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "green"),
-              [sty.slotText__type_ghost_color_light]:
+              [sty.slotTargetText__type_ghost_color_light]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "light"),
-              [sty.slotText__type_ghost_color_magenta]:
+              [sty.slotTargetText__type_ghost_color_magenta]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotText__type_ghost_color_pink]:
+              [sty.slotTargetText__type_ghost_color_pink]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "pink"),
-              [sty.slotText__type_ghost_color_red]:
+              [sty.slotTargetText__type_ghost_color_red]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotText__type_ghost_color_yellow]:
+              [sty.slotTargetText__type_ghost_color_yellow]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "yellow"),
-              [sty.slotText__type_outline]: hasVariant(
+              [sty.slotTargetText__type_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
               ),
 
-              [sty.slotText__type_outline_color_blue]:
+              [sty.slotTargetText__type_outline_color_blue]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotText__type_outline_color_brand]:
+              [sty.slotTargetText__type_outline_color_brand]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotText__type_outline_color_dark]:
+              [sty.slotTargetText__type_outline_color_dark]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "dark"),
-              [sty.slotText__type_outline_color_green]:
+              [sty.slotTargetText__type_outline_color_green]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "green"),
-              [sty.slotText__type_outline_color_light]:
+              [sty.slotTargetText__type_outline_color_light]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "light"),
-              [sty.slotText__type_outline_color_magenta]:
+              [sty.slotTargetText__type_outline_color_magenta]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotText__type_outline_color_pink]:
+              [sty.slotTargetText__type_outline_color_pink]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "pink"),
-              [sty.slotText__type_outline_color_red]:
+              [sty.slotTargetText__type_outline_color_red]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotText__type_outline_color_yellow]:
+              [sty.slotTargetText__type_outline_color_yellow]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "yellow"),
-              [sty.slotText__type_primary_color_blue]:
+              [sty.slotTargetText__type_primary_color_blue]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotText__type_primary_color_brand]:
+              [sty.slotTargetText__type_primary_color_brand]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotText__type_primary_color_dark]:
+              [sty.slotTargetText__type_primary_color_dark]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "dark"),
-              [sty.slotText__type_primary_color_green]:
+              [sty.slotTargetText__type_primary_color_green]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "green"),
-              [sty.slotText__type_primary_color_light]:
+              [sty.slotTargetText__type_primary_color_light]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "light"),
-              [sty.slotText__type_primary_color_pink]:
+              [sty.slotTargetText__type_primary_color_pink]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "pink"),
-              [sty.slotText__type_primary_color_red]:
+              [sty.slotTargetText__type_primary_color_red]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotText__type_primary_color_yellow]:
+              [sty.slotTargetText__type_primary_color_yellow]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "yellow")
             })

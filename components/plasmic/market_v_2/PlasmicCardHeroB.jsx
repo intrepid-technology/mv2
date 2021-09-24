@@ -47,7 +47,7 @@ function PlasmicCardHeroB__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Start your business journey with Intrepid",
               value: args.slot,
-              className: classNames(sty.slotSlot)
+              className: classNames(sty.slotTargetSlot)
             })}
           </div>
         </div>
@@ -57,7 +57,7 @@ function PlasmicCardHeroB__RenderFunc(props) {
             defaultContents:
               "Try Intrepid for free, and explore all the tools and services you need to start, run, and grow your business.",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
 
@@ -77,7 +77,6 @@ function PlasmicCardHeroB__RenderFunc(props) {
           <img
             alt={""}
             className={classNames(defaultcss.img, sty.img__o1EqS)}
-            role={"img"}
           />
         ),
 

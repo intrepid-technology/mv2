@@ -662,7 +662,7 @@
   > img {
   margin-left: 2px;
 }
-.freeBox__zKqRe {
+.text {
   position: relative;
   left: auto;
   top: auto;
@@ -679,13 +679,13 @@
   width: auto;
   height: auto;
 }
-.freeBox__hq5ZR {
+.freeBox {
   display: inline-flex;
   position: relative;
   flex-direction: column;
   width: auto;
   height: auto;
 }
-.slotNumber {
+.slotTargetNumber {
   line-height: 1;
 }

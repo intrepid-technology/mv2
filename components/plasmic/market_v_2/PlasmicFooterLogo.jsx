@@ -53,7 +53,6 @@ function PlasmicFooterLogo__RenderFunc(props) {
           [sty.img__size__24]: hasVariant(variants, "size", "_24"),
           [sty.img__size__32]: hasVariant(variants, "size", "_32")
         })}
-        role={"img"}
         src={
           hasVariant(variants, "light", "light")
             ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"

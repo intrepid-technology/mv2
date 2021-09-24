@@ -12,22 +12,22 @@
   height: 18px;
   flex-shrink: 0;
 }
-.slotChildren__color_light {
+.slotTargetChildren__color_light {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
-.slotChildren__color_dark {
+.slotTargetChildren__color_dark {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.slotChildren__color_brand {
+.slotTargetChildren__color_brand {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
-.root__color_light:hover .slotChildren__color_light {
+.root__color_light:hover .slotTargetChildren__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.root__color_dark:hover .slotChildren__color_dark {
+.root__color_dark:hover .slotTargetChildren__color_dark {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.root__color_brand:hover .slotChildren__color_brand {
+.root__color_brand:hover .slotTargetChildren__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .svg__dorQ {

@@ -113,7 +113,6 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(defaultcss.img, sty.img, {
                       [sty.img__color]: hasVariant(variants, "color", "color")
                     })}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"}
                   />
                 ) : null}
@@ -153,7 +152,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___5NqCc
+                      sty.text___5NqCc
                     )}
                   >
                     {"Design"}
@@ -178,7 +177,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zUdj
+                    sty.text__zUdj
                   )}
                 >
                   {"Web"}
@@ -203,7 +202,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___5BIZq
+                      sty.text___5BIZq
                     )}
                   >
                     {"Mobile"}
@@ -228,7 +227,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__s5XHu
+                    sty.text__s5XHu
                   )}
                 >
                   {"No code"}
@@ -269,9 +268,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zfh0N,
+                    sty.text__zfh0N,
                     {
-                      [sty.freeBox__color__zfh0NBxq9H]: hasVariant(
+                      [sty.text__color__zfh0NBxq9H]: hasVariant(
                         variants,
                         "color",
                         "color"

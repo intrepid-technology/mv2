@@ -111,7 +111,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___04ReL
+                    sty.text___04ReL
                   )}
                 >
                   {"Edit profile"}
@@ -150,7 +150,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__hxjHi
+                        sty.text__hxjHi
                       )}
                     >
                       {"Please enter your full name."}
@@ -171,20 +171,18 @@ function PlasmicEditmember__RenderFunc(props) {
                   )}
                 >
                   <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__yHnr
-                    )}
+                    data-plasmic-name={"firstName"}
+                    data-plasmic-override={overrides.firstName}
+                    className={classNames("__wab_instance", sty.firstName)}
                     labelHeadline={"First name"}
                     type={"secondary"}
                     width={"_360"}
                   />
 
                   <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__piTpg
-                    )}
+                    data-plasmic-name={"lastName"}
+                    data-plasmic-override={overrides.lastName}
+                    className={classNames("__wab_instance", sty.lastName)}
                     labelHeadline={"Last name"}
                     type={"secondary"}
                     width={"_360"}
@@ -220,7 +218,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__h4Mp0
+                        sty.text__h4Mp0
                       )}
                     >
                       {
@@ -304,7 +302,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__wxY25
+                        sty.text__wxY25
                       )}
                     >
                       {
@@ -317,10 +315,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix__mzvhp
-                  )}
+                  data-plasmic-name={"username"}
+                  data-plasmic-override={overrides.username}
+                  className={classNames("__wab_instance", sty.username)}
                   prefixLabelHeadline={"@"}
                   suffix={"suffix"}
                   type={"primary"}
@@ -345,7 +342,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__pNwo
+                        sty.text__pNwo
                       )}
                     >
                       {
@@ -386,7 +383,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__xxxU
+                        sty.text__xxxU
                       )}
                     >
                       {"Short description of your company or team"}
@@ -397,9 +394,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextField
-                  data-plasmic-name={"inputTextField"}
-                  data-plasmic-override={overrides.inputTextField}
-                  className={classNames("__wab_instance", sty.inputTextField)}
+                  data-plasmic-name={"tags"}
+                  data-plasmic-override={overrides.tags}
+                  className={classNames("__wab_instance", sty.tags)}
                   size={"_540"}
                   type={"secondary"}
                 />
@@ -425,7 +422,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__qsVv3
+                        sty.text__qsVv3
                       )}
                     >
                       {"Please describe yourself and your interests. "}
@@ -436,12 +433,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextAreaPrimary
-                  data-plasmic-name={"inputTextAreaPrimary"}
-                  data-plasmic-override={overrides.inputTextAreaPrimary}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextAreaPrimary
-                  )}
+                  data-plasmic-name={"description"}
+                  data-plasmic-override={overrides.description}
+                  className={classNames("__wab_instance", sty.description)}
                   height={"_90"}
                   type={"secondary"}
                   width={"_540"}
@@ -465,7 +459,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__zWe26
+                        sty.text__zWe26
                       )}
                     >
                       {
@@ -502,7 +496,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__sHnOz
+                    sty.text__sHnOz
                   )}
                 >
                   {"Save profile"}
@@ -533,7 +527,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zGsIr
+                    sty.text__zGsIr
                   )}
                 >
                   {"Details"}
@@ -569,7 +563,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__oQfam
+                        sty.text__oQfam
                       )}
                     >
                       {
@@ -592,20 +586,18 @@ function PlasmicEditmember__RenderFunc(props) {
                   )}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__qpcv5
-                    )}
+                    data-plasmic-name={"country"}
+                    data-plasmic-override={overrides.country}
+                    className={classNames("__wab_instance", sty.country)}
                     description={"description"}
                   >
                     {"Country"}
                   </SelectGroupDropdownPrimary>
 
                   <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm___3Gnf6
-                    )}
+                    data-plasmic-name={"city"}
+                    data-plasmic-override={overrides.city}
+                    className={classNames("__wab_instance", sty.city)}
                     labelHeadline={"City"}
                     subhead={"subhead"}
                     type={"primary"}
@@ -631,7 +623,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__kQo
+                        sty.text__kQo
                       )}
                     >
                       {
@@ -654,20 +646,18 @@ function PlasmicEditmember__RenderFunc(props) {
                   )}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__lwNFw
-                    )}
+                    data-plasmic-name={"industry"}
+                    data-plasmic-override={overrides.industry}
+                    className={classNames("__wab_instance", sty.industry)}
                     description={"description"}
                   >
                     {"Industry"}
                   </SelectGroupDropdownPrimary>
 
                   <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm___9JI3J
-                    )}
+                    data-plasmic-name={"jobTitle"}
+                    data-plasmic-override={overrides.jobTitle}
+                    className={classNames("__wab_instance", sty.jobTitle)}
                     labelHeadline={"Job title"}
                     subhead={"subhead"}
                     type={"primary"}
@@ -693,7 +683,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__ikYyc
+                        sty.text__ikYyc
                       )}
                     >
                       {"Enter the languages you speak"}
@@ -714,19 +704,20 @@ function PlasmicEditmember__RenderFunc(props) {
                   )}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__zy9Ua
-                    )}
+                    data-plasmic-name={"language"}
+                    data-plasmic-override={overrides.language}
+                    className={classNames("__wab_instance", sty.language)}
                     description={"description"}
                   >
                     {"Primary"}
                   </SelectGroupDropdownPrimary>
 
                   <SelectGroupDropdownPrimary
+                    data-plasmic-name={"selectGroupDropdownPrimary"}
+                    data-plasmic-override={overrides.selectGroupDropdownPrimary}
                     className={classNames(
                       "__wab_instance",
-                      sty.selectGroupDropdownPrimary__iDWcL
+                      sty.selectGroupDropdownPrimary
                     )}
                     description={"description"}
                   >
@@ -752,7 +743,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__mAude
+                        sty.text__mAude
                       )}
                     >
                       {
@@ -765,10 +756,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay__spAMy
-                  )}
+                  data-plasmic-name={"interest"}
+                  data-plasmic-override={overrides.interest}
+                  className={classNames("__wab_instance", sty.interest)}
                 />
               </p.Stack>
 
@@ -789,7 +779,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox___4WyB
+                        sty.text___4WyB
                       )}
                     >
                       {
@@ -802,10 +792,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay___21Dgh
-                  )}
+                  data-plasmic-name={"skill"}
+                  data-plasmic-override={overrides.skill}
+                  className={classNames("__wab_instance", sty.skill)}
                 />
               </p.Stack>
 
@@ -826,7 +815,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__kfwe
+                        sty.text__kfwe
                       )}
                     >
                       {
@@ -839,10 +828,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay__buuyY
-                  )}
+                  data-plasmic-name={"community"}
+                  data-plasmic-override={overrides.community}
+                  className={classNames("__wab_instance", sty.community)}
                 />
               </p.Stack>
 
@@ -859,7 +847,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__o7ZPl
+                    sty.text__o7ZPl
                   )}
                 >
                   {"Save details"}
@@ -890,7 +878,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zgvp4
+                    sty.text__zgvp4
                   )}
                 >
                   {"Web and social"}
@@ -926,7 +914,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__zfHw
+                        sty.text__zfHw
                       )}
                     >
                       {"Enter your company's website address"}
@@ -965,7 +953,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__osn8L
+                        sty.text__osn8L
                       )}
                     >
                       {
@@ -978,7 +966,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rUb4
+                      sty.text__rUb4
                     )}
                   >
                     {"Social"}
@@ -1080,7 +1068,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__uRTf
+                    sty.text__uRTf
                   )}
                 >
                   {"Save socials"}
@@ -1109,30 +1097,42 @@ const PlasmicDescendants = {
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
+    "firstName",
+    "lastName",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
     "userAvatarButton",
     "memberEditlogoGroup",
     "cardMemberUsername",
+    "username",
     "cardMemberUrl",
     "cardMemberTagline",
-    "inputTextField",
+    "tags",
     "cardMemberDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardVideoIntroUrl",
     "memberSubmitProfile",
     "sectionMemberEditProfileDetails",
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
+    "country",
+    "city",
     "cardMemberIndustry",
     "memberIndustryGroup",
+    "industry",
+    "jobTitle",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
+    "language",
+    "selectGroupDropdownPrimary",
     "cardMemberInterests",
+    "interest",
     "cardMemberSkills",
+    "skill",
     "cardMemberCommunity",
+    "community",
     "memberSubmitDetails",
     "sectionMemberEditProfileSocial",
     "formMemberEditSocial",
@@ -1150,17 +1150,20 @@ const PlasmicDescendants = {
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
+    "firstName",
+    "lastName",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
     "userAvatarButton",
     "memberEditlogoGroup",
     "cardMemberUsername",
+    "username",
     "cardMemberUrl",
     "cardMemberTagline",
-    "inputTextField",
+    "tags",
     "cardMemberDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardVideoIntroUrl",
     "memberSubmitProfile"
   ],
@@ -1169,17 +1172,20 @@ const PlasmicDescendants = {
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
+    "firstName",
+    "lastName",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
     "userAvatarButton",
     "memberEditlogoGroup",
     "cardMemberUsername",
+    "username",
     "cardMemberUrl",
     "cardMemberTagline",
-    "inputTextField",
+    "tags",
     "cardMemberDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardVideoIntroUrl",
     "memberSubmitProfile"
   ],
@@ -1187,10 +1193,14 @@ const PlasmicDescendants = {
   cardMemberPersonalVerification: [
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
+    "firstName",
+    "lastName",
     "buttonGroupStripeVerification"
   ],
 
-  memberPersonalNameGroup: ["memberPersonalNameGroup"],
+  memberPersonalNameGroup: ["memberPersonalNameGroup", "firstName", "lastName"],
+  firstName: ["firstName"],
+  lastName: ["lastName"],
   buttonGroupStripeVerification: ["buttonGroupStripeVerification"],
   cardMemberImage: [
     "cardMemberImage",
@@ -1207,12 +1217,13 @@ const PlasmicDescendants = {
 
   userAvatarButton: ["userAvatarButton"],
   memberEditlogoGroup: ["memberEditlogoGroup"],
-  cardMemberUsername: ["cardMemberUsername"],
+  cardMemberUsername: ["cardMemberUsername", "username"],
+  username: ["username"],
   cardMemberUrl: ["cardMemberUrl"],
-  cardMemberTagline: ["cardMemberTagline", "inputTextField"],
-  inputTextField: ["inputTextField"],
-  cardMemberDescription: ["cardMemberDescription", "inputTextAreaPrimary"],
-  inputTextAreaPrimary: ["inputTextAreaPrimary"],
+  cardMemberTagline: ["cardMemberTagline", "tags"],
+  tags: ["tags"],
+  cardMemberDescription: ["cardMemberDescription", "description"],
+  description: ["description"],
   cardVideoIntroUrl: ["cardVideoIntroUrl"],
   memberSubmitProfile: ["memberSubmitProfile"],
   sectionMemberEditProfileDetails: [
@@ -1220,13 +1231,22 @@ const PlasmicDescendants = {
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
+    "country",
+    "city",
     "cardMemberIndustry",
     "memberIndustryGroup",
+    "industry",
+    "jobTitle",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
+    "language",
+    "selectGroupDropdownPrimary",
     "cardMemberInterests",
+    "interest",
     "cardMemberSkills",
+    "skill",
     "cardMemberCommunity",
+    "community",
     "memberSubmitDetails"
   ],
 
@@ -1234,25 +1254,66 @@ const PlasmicDescendants = {
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
+    "country",
+    "city",
     "cardMemberIndustry",
     "memberIndustryGroup",
+    "industry",
+    "jobTitle",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
+    "language",
+    "selectGroupDropdownPrimary",
     "cardMemberInterests",
+    "interest",
     "cardMemberSkills",
+    "skill",
     "cardMemberCommunity",
+    "community",
     "memberSubmitDetails"
   ],
 
-  cardMemberLocation: ["cardMemberLocation", "memberLocationGroup"],
-  memberLocationGroup: ["memberLocationGroup"],
-  cardMemberIndustry: ["cardMemberIndustry", "memberIndustryGroup"],
-  memberIndustryGroup: ["memberIndustryGroup"],
-  cardMemberLanguages: ["cardMemberLanguages", "inputGroupMemberLanguages"],
-  inputGroupMemberLanguages: ["inputGroupMemberLanguages"],
-  cardMemberInterests: ["cardMemberInterests"],
-  cardMemberSkills: ["cardMemberSkills"],
-  cardMemberCommunity: ["cardMemberCommunity"],
+  cardMemberLocation: [
+    "cardMemberLocation",
+    "memberLocationGroup",
+    "country",
+    "city"
+  ],
+
+  memberLocationGroup: ["memberLocationGroup", "country", "city"],
+  country: ["country"],
+  city: ["city"],
+  cardMemberIndustry: [
+    "cardMemberIndustry",
+    "memberIndustryGroup",
+    "industry",
+    "jobTitle"
+  ],
+
+  memberIndustryGroup: ["memberIndustryGroup", "industry", "jobTitle"],
+  industry: ["industry"],
+  jobTitle: ["jobTitle"],
+  cardMemberLanguages: [
+    "cardMemberLanguages",
+    "inputGroupMemberLanguages",
+    "language",
+    "selectGroupDropdownPrimary"
+  ],
+
+  inputGroupMemberLanguages: [
+    "inputGroupMemberLanguages",
+    "language",
+    "selectGroupDropdownPrimary"
+  ],
+
+  language: ["language"],
+  selectGroupDropdownPrimary: ["selectGroupDropdownPrimary"],
+  cardMemberInterests: ["cardMemberInterests", "interest"],
+  interest: ["interest"],
+  cardMemberSkills: ["cardMemberSkills", "skill"],
+  skill: ["skill"],
+  cardMemberCommunity: ["cardMemberCommunity", "community"],
+  community: ["community"],
   memberSubmitDetails: ["memberSubmitDetails"],
   sectionMemberEditProfileSocial: [
     "sectionMemberEditProfileSocial",
@@ -1318,6 +1379,8 @@ export const PlasmicEditmember = Object.assign(
     ),
 
     memberPersonalNameGroup: makeNodeComponent("memberPersonalNameGroup"),
+    firstName: makeNodeComponent("firstName"),
+    lastName: makeNodeComponent("lastName"),
     buttonGroupStripeVerification: makeNodeComponent(
       "buttonGroupStripeVerification"
     ),
@@ -1330,11 +1393,12 @@ export const PlasmicEditmember = Object.assign(
     userAvatarButton: makeNodeComponent("userAvatarButton"),
     memberEditlogoGroup: makeNodeComponent("memberEditlogoGroup"),
     cardMemberUsername: makeNodeComponent("cardMemberUsername"),
+    username: makeNodeComponent("username"),
     cardMemberUrl: makeNodeComponent("cardMemberUrl"),
     cardMemberTagline: makeNodeComponent("cardMemberTagline"),
-    inputTextField: makeNodeComponent("inputTextField"),
+    tags: makeNodeComponent("tags"),
     cardMemberDescription: makeNodeComponent("cardMemberDescription"),
-    inputTextAreaPrimary: makeNodeComponent("inputTextAreaPrimary"),
+    description: makeNodeComponent("description"),
     cardVideoIntroUrl: makeNodeComponent("cardVideoIntroUrl"),
     memberSubmitProfile: makeNodeComponent("memberSubmitProfile"),
     sectionMemberEditProfileDetails: makeNodeComponent(
@@ -1344,13 +1408,22 @@ export const PlasmicEditmember = Object.assign(
     formMemberEditDetails: makeNodeComponent("formMemberEditDetails"),
     cardMemberLocation: makeNodeComponent("cardMemberLocation"),
     memberLocationGroup: makeNodeComponent("memberLocationGroup"),
+    country: makeNodeComponent("country"),
+    city: makeNodeComponent("city"),
     cardMemberIndustry: makeNodeComponent("cardMemberIndustry"),
     memberIndustryGroup: makeNodeComponent("memberIndustryGroup"),
+    industry: makeNodeComponent("industry"),
+    jobTitle: makeNodeComponent("jobTitle"),
     cardMemberLanguages: makeNodeComponent("cardMemberLanguages"),
     inputGroupMemberLanguages: makeNodeComponent("inputGroupMemberLanguages"),
+    language: makeNodeComponent("language"),
+    selectGroupDropdownPrimary: makeNodeComponent("selectGroupDropdownPrimary"),
     cardMemberInterests: makeNodeComponent("cardMemberInterests"),
+    interest: makeNodeComponent("interest"),
     cardMemberSkills: makeNodeComponent("cardMemberSkills"),
+    skill: makeNodeComponent("skill"),
     cardMemberCommunity: makeNodeComponent("cardMemberCommunity"),
+    community: makeNodeComponent("community"),
     memberSubmitDetails: makeNodeComponent("memberSubmitDetails"),
     sectionMemberEditProfileSocial: makeNodeComponent(
       "sectionMemberEditProfileSocial"

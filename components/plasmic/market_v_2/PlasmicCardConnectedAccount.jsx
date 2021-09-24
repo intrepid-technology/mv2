@@ -302,7 +302,11 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
               )
             })}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox___1Hh0)}>
+            <div
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
+              className={classNames(defaultcss.all, sty.freeBox)}
+            >
               <div
                 data-plasmic-name={"accountName"}
                 data-plasmic-override={overrides.accountName}
@@ -312,31 +316,39 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___5QGGx,
+                    sty.text___5QGGx,
                     {
-                      [sty.freeBox__companies_facebook___5QGGx2DCs6]:
-                        hasVariant(variants, "companies", "facebook"),
-                      [sty.freeBox__companies_google___5QGGxz16Ry]: hasVariant(
+                      [sty.text__companies_facebook___5QGGx2DCs6]: hasVariant(
+                        variants,
+                        "companies",
+                        "facebook"
+                      ),
+
+                      [sty.text__companies_google___5QGGxz16Ry]: hasVariant(
                         variants,
                         "companies",
                         "google"
                       ),
 
-                      [sty.freeBox__companies_paypal___5QGGx8RDJh]: hasVariant(
+                      [sty.text__companies_paypal___5QGGx8RDJh]: hasVariant(
                         variants,
                         "companies",
                         "paypal"
                       ),
 
-                      [sty.freeBox__companies_quickbooks___5QGGx60NOj]:
-                        hasVariant(variants, "companies", "quickbooks"),
-                      [sty.freeBox__companies_stripe___5QGGxpK9]: hasVariant(
+                      [sty.text__companies_quickbooks___5QGGx60NOj]: hasVariant(
+                        variants,
+                        "companies",
+                        "quickbooks"
+                      ),
+
+                      [sty.text__companies_stripe___5QGGxpK9]: hasVariant(
                         variants,
                         "companies",
                         "stripe"
                       ),
 
-                      [sty.freeBox__companies_xero___5QGGx8XgX]: hasVariant(
+                      [sty.text__companies_xero___5QGGx8XgX]: hasVariant(
                         variants,
                         "companies",
                         "xero"
@@ -373,8 +385,8 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                   ? "companyName"
                   : "userFirstName",
                 value: args.userFirstname,
-                className: classNames(sty.slotUserFirstname, {
-                  [sty.slotUserFirstname__team]: hasVariant(
+                className: classNames(sty.slotTargetUserFirstname, {
+                  [sty.slotTargetUserFirstname__team]: hasVariant(
                     variants,
                     "team",
                     "team"
@@ -386,8 +398,8 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                 ? p.renderPlasmicSlot({
                     defaultContents: "userLastName",
                     value: args.userLastName,
-                    className: classNames(sty.slotUserLastName, {
-                      [sty.slotUserLastName__team]: hasVariant(
+                    className: classNames(sty.slotTargetUserLastName, {
+                      [sty.slotTargetUserLastName__team]: hasVariant(
                         variants,
                         "team",
                         "team"
@@ -400,7 +412,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "username",
               value: args.username,
-              className: classNames(sty.slotUsername)
+              className: classNames(sty.slotTargetUsername)
             })}
           </p.Stack>
         </p.Stack>
@@ -423,7 +435,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__tZkwH
+                sty.text__tZkwH
               )}
             >
               {"Connected"}
@@ -432,7 +444,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Timestamp",
               value: args.timestampDate,
-              className: classNames(sty.slotTimestampDate)
+              className: classNames(sty.slotTargetTimestampDate)
             })}
           </p.Stack>
 
@@ -463,6 +475,7 @@ const PlasmicDescendants = {
     "svgIcon6",
     "svgIcon8",
     "accountInfoParent",
+    "freeBox",
     "accountName",
     "usernameGroupParent",
     "connectedTimestampParent",
@@ -477,6 +490,7 @@ const PlasmicDescendants = {
     "svgIcon6",
     "svgIcon8",
     "accountInfoParent",
+    "freeBox",
     "accountName",
     "usernameGroupParent",
     "connectedTimestampParent",
@@ -490,6 +504,7 @@ const PlasmicDescendants = {
     "svgIcon6",
     "svgIcon8",
     "accountInfoParent",
+    "freeBox",
     "accountName",
     "usernameGroupParent"
   ],
@@ -499,10 +514,12 @@ const PlasmicDescendants = {
   svgIcon8: ["svgIcon8"],
   accountInfoParent: [
     "accountInfoParent",
+    "freeBox",
     "accountName",
     "usernameGroupParent"
   ],
 
+  freeBox: ["freeBox", "accountName"],
   accountName: ["accountName"],
   usernameGroupParent: ["usernameGroupParent"],
   connectedTimestampParent: [
@@ -552,6 +569,7 @@ export const PlasmicCardConnectedAccount = Object.assign(
     svgIcon6: makeNodeComponent("svgIcon6"),
     svgIcon8: makeNodeComponent("svgIcon8"),
     accountInfoParent: makeNodeComponent("accountInfoParent"),
+    freeBox: makeNodeComponent("freeBox"),
     accountName: makeNodeComponent("accountName"),
     usernameGroupParent: makeNodeComponent("usernameGroupParent"),
     connectedTimestampParent: makeNodeComponent("connectedTimestampParent"),

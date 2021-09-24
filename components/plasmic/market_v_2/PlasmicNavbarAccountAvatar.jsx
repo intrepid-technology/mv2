@@ -70,20 +70,20 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
         ),
 
         value: args.children,
-        className: classNames(sty.slotChildren, {
-          [sty.slotChildren__color_brand]: hasVariant(
+        className: classNames(sty.slotTargetChildren, {
+          [sty.slotTargetChildren__color_brand]: hasVariant(
             variants,
             "color",
             "brand"
           ),
 
-          [sty.slotChildren__color_darkBg]: hasVariant(
+          [sty.slotTargetChildren__color_darkBg]: hasVariant(
             variants,
             "color",
             "darkBg"
           ),
 
-          [sty.slotChildren__color_lightBg]: hasVariant(
+          [sty.slotTargetChildren__color_lightBg]: hasVariant(
             variants,
             "color",
             "lightBg"

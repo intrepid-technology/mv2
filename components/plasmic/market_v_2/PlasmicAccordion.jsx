@@ -44,8 +44,8 @@ function PlasmicAccordion__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Accordion",
               value: args.children,
-              className: classNames(sty.slotChildren, {
-                [sty.slotChildren__size__360]: hasVariant(
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__size__360]: hasVariant(
                   variants,
                   "size",
                   "_360"

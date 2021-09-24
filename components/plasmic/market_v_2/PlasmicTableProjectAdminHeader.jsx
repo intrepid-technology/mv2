@@ -67,7 +67,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__tv5Wg
+              sty.text__tv5Wg
             )}
           >
             {"order"}
@@ -85,7 +85,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___5MLDi
+              sty.text___5MLDi
             )}
           >
             {"Status"}
@@ -102,7 +102,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__xucpq
+              sty.text__xucpq
             )}
           >
             {"Price"}
@@ -119,7 +119,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__rBkQm
+              sty.text__rBkQm
             )}
           >
             {"Partner"}
@@ -136,7 +136,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__m5Wi9
+              sty.text__m5Wi9
             )}
           >
             {"Notifications"}
@@ -153,7 +153,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__pag2Z
+              sty.text__pag2Z
             )}
           >
             {"Delivery date"}
@@ -170,7 +170,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ovz4R
+              sty.text__ovz4R
             )}
           >
             {"review"}
@@ -187,7 +187,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__yTjqZ
+              sty.text__yTjqZ
             )}
           >
             {"Approved"}
@@ -204,7 +204,7 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__xYnnr
+              sty.text__xYnnr
             )}
           >
             {"cancel"}

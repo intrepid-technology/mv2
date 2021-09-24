@@ -74,7 +74,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
                     {p.renderPlasmicSlot({
                       defaultContents: "Headline label",
                       value: args.headlineLabel,
-                      className: classNames(sty.slotHeadlineLabel)
+                      className: classNames(sty.slotTargetHeadlineLabel)
                     })}
                   </div>
                 </div>

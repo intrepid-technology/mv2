@@ -52,20 +52,20 @@
   > img {
   margin-top: 4px;
 }
-.slotItemText {
+.slotTargetItemText {
   font-size: 14px;
   line-height: 1;
 }
-.slotItemText__size__12Px {
+.slotTargetItemText__size__12Px {
   font-size: 12px;
 }
-.slotItemText__size__16Px {
+.slotTargetItemText__size__16Px {
   font-size: 16px;
 }
-.slotDescriptionText {
+.slotTargetDescriptionText {
   font-size: 10px;
   color: #999999 /* plasmic-token: UPK7EIst5 */;
 }
-.slotDescriptionText__size__12Px {
+.slotTargetDescriptionText__size__12Px {
   font-size: 8px;
 }

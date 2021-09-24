@@ -54,16 +54,16 @@
   width: auto;
   height: auto;
 }
-.slotSlot {
+.slotTargetSlot {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.slotSlot__state_deactivated {
+.slotTargetSlot__state_deactivated {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.root:hover .slotSlot {
+.root:hover .slotTargetSlot {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root__state_deactivated:hover .slotSlot__state_deactivated {
+.root__state_deactivated:hover .slotTargetSlot__state_deactivated {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
 .svg__sjSC {
@@ -88,7 +88,7 @@
   min-width: 0;
   min-height: 0;
 }
-.slotSlot2 {
+.slotTargetSlot2 {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -97,29 +97,29 @@
   color: #333333 /* plasmic-token: ec1vMFIzT */;
   text-transform: none;
 }
-.slotSlot2__state_deactivated {
+.slotTargetSlot2__state_deactivated {
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }
-.root:hover .slotSlot2 {
+.root:hover .slotTargetSlot2 {
   font-weight: 600;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
   font-size: 18px;
 }
-.root__state_deactivated:hover .slotSlot2__state_deactivated {
+.root__state_deactivated:hover .slotTargetSlot2__state_deactivated {
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
   font-weight: 500;
 }
-.slotSlot3 {
+.slotTargetSlot3 {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.slotSlot3__state_deactivated {
+.slotTargetSlot3__state_deactivated {
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }
-.root:hover .slotSlot3 {
+.root:hover .slotTargetSlot3 {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
   font-size: 20px;
 }
-.root__state_deactivated:hover .slotSlot3__state_deactivated {
+.root__state_deactivated:hover .slotTargetSlot3__state_deactivated {
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }
 .svg__g1Xr {
@@ -143,7 +143,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -151,6 +151,6 @@
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
-.slotChildren__state_deactivated {
+.slotTargetChildren__state_deactivated {
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }

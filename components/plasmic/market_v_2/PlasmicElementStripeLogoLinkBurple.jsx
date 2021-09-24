@@ -67,7 +67,6 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
           [sty.img__size__40]: hasVariant(variants, "size", "_40"),
           [sty.img__size__48]: hasVariant(variants, "size", "_48")
         })}
-        role={"img"}
         src={"/plasmic/market_v_2/images/stripeWordmarkBlurpleLgpng.png"}
       />
     </p.PlasmicLink>

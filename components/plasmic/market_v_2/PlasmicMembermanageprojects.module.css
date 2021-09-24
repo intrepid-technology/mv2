@@ -103,7 +103,7 @@
   top: auto;
   align-self: flex-start;
 }
-.freeBox__qYxNs {
+.text__qYxNs {
   font-weight: 700;
 }
 .sectionMemberManageListings {
@@ -163,7 +163,7 @@
   > img {
   margin-top: 24px;
 }
-.freeBox__pmRau {
+.text__pmRau {
   height: auto;
   max-width: 328px;
 }
@@ -235,7 +235,7 @@
   font-size: 16px;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.freeBox__nBju3 {
+.text__nBju3 {
   position: relative;
   left: auto;
   top: auto;

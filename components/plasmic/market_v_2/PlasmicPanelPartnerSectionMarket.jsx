@@ -44,14 +44,18 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__zdQDb)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__uycRl
+            sty.text
           )}
         >
           {"Market"}
@@ -127,7 +131,9 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "freeBox", "text"],
+  freeBox: ["freeBox", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -161,6 +167,8 @@ export const PlasmicPanelPartnerSectionMarket = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicPanelPartnerSectionMarket
     internalVariantProps: PlasmicPanelPartnerSectionMarket__VariantProps,
     internalArgProps: PlasmicPanelPartnerSectionMarket__ArgProps

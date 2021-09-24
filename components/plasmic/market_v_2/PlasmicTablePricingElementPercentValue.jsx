@@ -74,7 +74,7 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "5",
             value: args.numberValue,
-            className: classNames(sty.slotNumberValue)
+            className: classNames(sty.slotTargetNumberValue)
           })}
         </div>
 
@@ -86,7 +86,7 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "%",
             value: args.percent,
-            className: classNames(sty.slotPercent)
+            className: classNames(sty.slotTargetPercent)
           })}
         </div>
       </p.Stack>
@@ -99,7 +99,7 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Service rate on earned income",
           value: args.featureValuePropText,
-          className: classNames(sty.slotFeatureValuePropText)
+          className: classNames(sty.slotTargetFeatureValuePropText)
         })}
       </div>
     </p.Stack>

@@ -382,7 +382,7 @@ function PlasmicHome__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__zVk1H
+                  sty.text__zVk1H
                 )}
               >
                 {"Sign up"}
@@ -420,7 +420,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___9Ipgl
+                      sty.text___9Ipgl
                     )}
                   >
                     {"Grow your business from anywhere"}
@@ -431,7 +431,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__m55Ho
+                      sty.text__m55Ho
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -454,7 +454,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wa1LD)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image31.png"}
                   />
                 }
@@ -473,7 +472,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__breZ0
+                          sty.text__breZ0
                         )}
                       >
                         {"UX Design"}
@@ -488,7 +487,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img___967W9)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image29.png"}
                   />
                 }
@@ -507,7 +505,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__dpw1A
+                          sty.text__dpw1A
                         )}
                       >
                         {"Mobile apps"}
@@ -522,7 +520,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jJa2K)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image11.png"}
                   />
                 }
@@ -541,7 +538,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__po3Ep
+                          sty.text__po3Ep
                         )}
                       >
                         {"No Code"}
@@ -556,7 +553,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__sx00A)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image30.png"}
                   />
                 }
@@ -575,7 +571,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__bEklk
+                          sty.text__bEklk
                         )}
                       >
                         {"Web apps"}
@@ -611,7 +607,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__iWQf
+                      sty.text__iWQf
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -625,7 +621,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__x2Mg3
+                      sty.text__x2Mg3
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -674,7 +670,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__hYew
+                          sty.text__hYew
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
@@ -705,7 +701,6 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___6CsQ)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image25.png"}
               />
             </p.Stack>
@@ -733,7 +728,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___2VRor
+                      sty.text___2VRor
                     )}
                   >
                     {"Work without borders"}
@@ -744,7 +739,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__o8Hc
+                      sty.text__o8Hc
                     )}
                   >
                     {"Discover the world and work from anywhere."}
@@ -763,7 +758,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__wAuj8)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image26.png"}
                   />
                 }
@@ -777,7 +771,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__m8Mse
+                      sty.text__m8Mse
                     )}
                   >
                     {
@@ -794,7 +788,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__zNeu0
+                          sty.text__zNeu0
                         )}
                       >
                         {"Destinations"}
@@ -809,7 +803,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__cZqyO)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image27.png"}
                   />
                 }
@@ -823,7 +816,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__oQap
+                      sty.text__oQap
                     )}
                   >
                     {
@@ -840,7 +833,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__flcUt
+                          sty.text__flcUt
                         )}
                       >
                         {"Workspaces"}
@@ -855,7 +848,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__kbNFx)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image33.png"}
                   />
                 }
@@ -869,7 +861,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__vsuFv
+                      sty.text__vsuFv
                     )}
                   >
                     {
@@ -886,7 +878,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__v6MpX
+                          sty.text__v6MpX
                         )}
                       >
                         {"Livespaces"}
@@ -918,7 +910,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__bf3Y2
+                      sty.text__bf3Y2
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -932,7 +924,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__uQOx
+                      sty.text__uQOx
                     )}
                   >
                     {
@@ -979,7 +971,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__zKpa
+                          sty.text__zKpa
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
@@ -1010,7 +1002,6 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__dQqz3)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image23.png"}
               />
             </p.Stack>
@@ -1040,7 +1031,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__tnzRu
+                      sty.text__tnzRu
                     )}
                   >
                     {"Follow your passion"}
@@ -1051,7 +1042,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__paM4A
+                      sty.text__paM4A
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")
@@ -1074,7 +1065,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__rezLt)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image18.png"}
                   />
                 }
@@ -1088,7 +1078,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__bOYsc
+                      sty.text__bOYsc
                     )}
                   >
                     {
@@ -1105,7 +1095,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__r1Sre
+                          sty.text__r1Sre
                         )}
                       >
                         {"Live events"}
@@ -1120,7 +1110,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__mwX2T)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image22.png"}
                   />
                 }
@@ -1134,7 +1123,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__gaPr3
+                      sty.text__gaPr3
                     )}
                   >
                     {
@@ -1151,7 +1140,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__dyXmt
+                          sty.text__dyXmt
                         )}
                       >
                         {"Online experiences"}
@@ -1166,7 +1155,6 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__jdMs0)}
-                    role={"img"}
                     src={"/plasmic/market_v_2/images/image21.png"}
                   />
                 }
@@ -1180,7 +1168,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__nmKfs
+                      sty.text__nmKfs
                     )}
                   >
                     {
@@ -1197,7 +1185,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__yigk4
+                          sty.text__yigk4
                         )}
                       >
                         {"Professional coaching"}
@@ -1229,7 +1217,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__yDzzd
+                      sty.text__yDzzd
                     )}
                   >
                     {"Become a partner"}
@@ -1239,7 +1227,7 @@ function PlasmicHome__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__vAxBa
+                      sty.text__vAxBa
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
@@ -1286,7 +1274,7 @@ function PlasmicHome__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___4HpwD
+                          sty.text___4HpwD
                         )}
                       >
                         {hasVariant(globalVariants, "screen", "mobile")
@@ -1317,7 +1305,6 @@ function PlasmicHome__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__rCc5H)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             </p.Stack>

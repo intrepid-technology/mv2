@@ -116,20 +116,20 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Title",
               value: args.textDisplay,
-              className: classNames(sty.slotTextDisplay, {
-                [sty.slotTextDisplay__headings_headline]: hasVariant(
+              className: classNames(sty.slotTargetTextDisplay, {
+                [sty.slotTargetTextDisplay__headings_headline]: hasVariant(
                   variants,
                   "headings",
                   "headline"
                 ),
 
-                [sty.slotTextDisplay__headings_title]: hasVariant(
+                [sty.slotTargetTextDisplay__headings_title]: hasVariant(
                   variants,
                   "headings",
                   "title"
                 ),
 
-                [sty.slotTextDisplay__size__270]: hasVariant(
+                [sty.slotTargetTextDisplay__size__270]: hasVariant(
                   variants,
                   "size",
                   "_270"
@@ -193,20 +193,20 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Headline Title",
                 value: args.slot,
-                className: classNames(sty.slotSlot, {
-                  [sty.slotSlot__headings_headline]: hasVariant(
+                className: classNames(sty.slotTargetSlot, {
+                  [sty.slotTargetSlot__headings_headline]: hasVariant(
                     variants,
                     "headings",
                     "headline"
                   ),
 
-                  [sty.slotSlot__size__1080]: hasVariant(
+                  [sty.slotTargetSlot__size__1080]: hasVariant(
                     variants,
                     "size",
                     "_1080"
                   ),
 
-                  [sty.slotSlot__size__270]: hasVariant(
+                  [sty.slotTargetSlot__size__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
@@ -268,20 +268,20 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Subhead title",
                 value: args.textSubhead,
-                className: classNames(sty.slotTextSubhead, {
-                  [sty.slotTextSubhead__headings_headline]: hasVariant(
+                className: classNames(sty.slotTargetTextSubhead, {
+                  [sty.slotTargetTextSubhead__headings_headline]: hasVariant(
                     variants,
                     "headings",
                     "headline"
                   ),
 
-                  [sty.slotTextSubhead__headings_subhead]: hasVariant(
+                  [sty.slotTargetTextSubhead__headings_subhead]: hasVariant(
                     variants,
                     "headings",
                     "subhead"
                   ),
 
-                  [sty.slotTextSubhead__size__270]: hasVariant(
+                  [sty.slotTargetTextSubhead__size__270]: hasVariant(
                     variants,
                     "size",
                     "_270"

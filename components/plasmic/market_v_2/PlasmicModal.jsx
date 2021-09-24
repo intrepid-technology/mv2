@@ -57,7 +57,7 @@ function PlasmicModal__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Modal Headline Title",
                 value: args.headline,
-                className: classNames(sty.slotHeadline)
+                className: classNames(sty.slotTargetHeadline)
               })}
             </div>
           </div>
@@ -67,7 +67,7 @@ function PlasmicModal__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "This is a modal to get your attention",
                 value: args.subhead,
-                className: classNames(sty.slotSubhead)
+                className: classNames(sty.slotTargetSubhead)
               })}
             </div>
           </div>
@@ -97,7 +97,7 @@ function PlasmicModal__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "cancel",
                 value: args.children,
-                className: classNames(sty.slotChildren)
+                className: classNames(sty.slotTargetChildren)
               })}
             </div>
           </button>
@@ -111,7 +111,7 @@ function PlasmicModal__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "submit",
                 value: args.slot,
-                className: classNames(sty.slotSlot)
+                className: classNames(sty.slotTargetSlot)
               })}
             </div>
           </button>

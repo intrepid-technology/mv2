@@ -90,7 +90,7 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                   {p.renderPlasmicSlot({
                     defaultContents: "Membership",
                     value: args.children,
-                    className: classNames(sty.slotChildren)
+                    className: classNames(sty.slotTargetChildren)
                   })}
                 </div>
               </div>
@@ -105,7 +105,7 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                 defaultContents:
                   "Your personal account membership plan details",
                 value: args.slot,
-                className: classNames(sty.slotSlot)
+                className: classNames(sty.slotTargetSlot)
               })}
             </div>
 
@@ -142,8 +142,8 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                 defaultContents:
                   "Our Creator and Maker member accounts are free forever. To get the most from the Intrepid community, for professional purposes, or to work with a team, get started by creating a company or contacting sales.",
                 value: args.text,
-                className: classNames(sty.slotText, {
-                  [sty.slotText__border_link]:
+                className: classNames(sty.slotTargetText, {
+                  [sty.slotTargetText__border_link]:
                     hasVariant(variants, "border", "border") &&
                     hasVariant(variants, "link", "link")
                 })

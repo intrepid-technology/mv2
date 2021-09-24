@@ -151,9 +151,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__kG9Sn,
+                  sty.text__kG9Sn,
                   {
-                    [sty.freeBox__size__360__kG9SNlmp10]: hasVariant(
+                    [sty.text__size__360__kG9SNlmp10]: hasVariant(
                       variants,
                       "size",
                       "_360"
@@ -193,9 +193,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__qUzY2,
+                sty.text__qUzY2,
                 {
-                  [sty.freeBox__size__360__qUzY2Lmp10]: hasVariant(
+                  [sty.text__size__360__qUzY2Lmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -243,9 +243,9 @@ function PlasmicInputEmailB__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__yItrW,
+                sty.text__yItrW,
                 {
-                  [sty.freeBox__size__360__yItrWlmp10]: hasVariant(
+                  [sty.text__size__360__yItrWlmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -273,32 +273,32 @@ function PlasmicInputEmailB__RenderFunc(props) {
               defaultContents:
                 "Free to join, no credit card required. By entering your email, you agree to receive marketing emails from Intrepid.",
               value: args.children,
-              className: classNames(sty.slotChildren, {
-                [sty.slotChildren__description]: hasVariant(
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__description]: hasVariant(
                   variants,
                   "description",
                   "description"
                 ),
 
-                [sty.slotChildren__size__160]: hasVariant(
+                [sty.slotTargetChildren__size__160]: hasVariant(
                   variants,
                   "size",
                   "_160"
                 ),
 
-                [sty.slotChildren__size__270]: hasVariant(
+                [sty.slotTargetChildren__size__270]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.slotChildren__size__360]: hasVariant(
+                [sty.slotTargetChildren__size__360]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.slotChildren__size__540]: hasVariant(
+                [sty.slotTargetChildren__size__540]: hasVariant(
                   variants,
                   "size",
                   "_540"

@@ -62,7 +62,6 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
           className={classNames(defaultcss.img, sty.img, {
             [sty.img__color]: hasVariant(variants, "color", "color")
           })}
-          role={"img"}
           src={
             hasVariant(variants, "color", "color")
               ? "/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"
@@ -75,8 +74,12 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         ? p.renderPlasmicSlot({
             defaultContents: "Section Title",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__color]: hasVariant(variants, "color", "color")
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__color]: hasVariant(
+                variants,
+                "color",
+                "color"
+              )
             })
           })
         : null}
@@ -90,14 +93,14 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         size={"_120"}
       >
         <div
-          data-plasmic-name={"freeBox"}
-          data-plasmic-override={overrides.freeBox}
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox,
+            sty.text,
             {
-              [sty.freeBox__state_checkout]: hasVariant(
+              [sty.text__state_checkout]: hasVariant(
                 variants,
                 "state",
                 "checkout"
@@ -113,11 +116,11 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "logoHeader", "img", "buttonNext", "freeBox"],
+  root: ["root", "logoHeader", "img", "buttonNext", "text"],
   logoHeader: ["logoHeader", "img"],
   img: ["img"],
-  buttonNext: ["buttonNext", "freeBox"],
-  freeBox: ["freeBox"]
+  buttonNext: ["buttonNext", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -154,7 +157,7 @@ export const PlasmicNavbarServiceListing = Object.assign(
     logoHeader: makeNodeComponent("logoHeader"),
     img: makeNodeComponent("img"),
     buttonNext: makeNodeComponent("buttonNext"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicNavbarServiceListing
     internalVariantProps: PlasmicNavbarServiceListing__VariantProps,
     internalArgProps: PlasmicNavbarServiceListing__ArgProps

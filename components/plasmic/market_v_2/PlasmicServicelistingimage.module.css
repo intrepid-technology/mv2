@@ -97,7 +97,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__ir20P {
+.text__ir20P {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -107,7 +107,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-.freeBox__r5CWc {
+.text__r5CWc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .freeBox__wbEqK {
@@ -135,7 +135,7 @@
   > img {
   margin-top: 20px;
 }
-.button__sOrr {
+.mainImage {
   display: flex;
   width: 360px;
   height: 190px;

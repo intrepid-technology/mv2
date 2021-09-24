@@ -198,7 +198,7 @@
   justify-content: flex-start;
   align-items: center;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -207,7 +207,7 @@
   color: #333333 /* plasmic-token: ec1vMFIzT */;
   text-transform: none;
 }
-.slotHeadline__size__160 {
+.slotTargetHeadline__size__160 {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -224,7 +224,7 @@
   min-width: 0;
   min-height: 0;
 }
-.slotText {
+.slotTargetText {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -233,11 +233,11 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .slotText {
+  .slotTargetText {
     font-family: "Inter", sans-serif;
   }
 }
-.slotText__size__160 {
+.slotTargetText__size__160 {
   line-height: 1.2;
   font-size: 12px;
 }

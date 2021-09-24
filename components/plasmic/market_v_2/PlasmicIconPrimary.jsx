@@ -95,56 +95,56 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon,
-              className: classNames(sty.slotSvgIcon, {
-                [sty.slotSvgIcon__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon, {
+                [sty.slotTargetSvgIcon__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon__size__18Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotSvgIcon__size__24Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__24Px]: hasVariant(
                   variants,
                   "size",
                   "_24Px"
                 ),
 
-                [sty.slotSvgIcon__size__32Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__32Px]: hasVariant(
                   variants,
                   "size",
                   "_32Px"
                 ),
 
-                [sty.slotSvgIcon__size__40Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__40Px]: hasVariant(
                   variants,
                   "size",
                   "_40Px"
                 ),
 
-                [sty.slotSvgIcon__size__48Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__48Px]: hasVariant(
                   variants,
                   "size",
                   "_48Px"
                 ),
 
-                [sty.slotSvgIcon__size__64Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__64Px]: hasVariant(
                   variants,
                   "size",
                   "_64Px"
                 ),
 
-                [sty.slotSvgIcon__size__80Px]: hasVariant(
+                [sty.slotTargetSvgIcon__size__80Px]: hasVariant(
                   variants,
                   "size",
                   "_80Px"
@@ -162,14 +162,14 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon14Px,
-              className: classNames(sty.slotSvgIcon14Px, {
-                [sty.slotSvgIcon14Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon14Px, {
+                [sty.slotTargetSvgIcon14Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon14Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon14Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
@@ -193,20 +193,20 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon16Px,
-              className: classNames(sty.slotSvgIcon16Px, {
-                [sty.slotSvgIcon16Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon16Px, {
+                [sty.slotTargetSvgIcon16Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon16Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon16Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon16Px__size__18Px]: hasVariant(
+                [sty.slotTargetSvgIcon16Px__size__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
@@ -230,26 +230,26 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon18Px,
-              className: classNames(sty.slotSvgIcon18Px, {
-                [sty.slotSvgIcon18Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon18Px, {
+                [sty.slotTargetSvgIcon18Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon18Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon18Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon18Px__size__18Px]: hasVariant(
+                [sty.slotTargetSvgIcon18Px__size__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotSvgIcon18Px__size__24Px]: hasVariant(
+                [sty.slotTargetSvgIcon18Px__size__24Px]: hasVariant(
                   variants,
                   "size",
                   "_24Px"
@@ -273,26 +273,26 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon24Px,
-              className: classNames(sty.slotSvgIcon24Px, {
-                [sty.slotSvgIcon24Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon24Px, {
+                [sty.slotTargetSvgIcon24Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon24Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon24Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon24Px__size__24Px]: hasVariant(
+                [sty.slotTargetSvgIcon24Px__size__24Px]: hasVariant(
                   variants,
                   "size",
                   "_24Px"
                 ),
 
-                [sty.slotSvgIcon24Px__size__32Px]: hasVariant(
+                [sty.slotTargetSvgIcon24Px__size__32Px]: hasVariant(
                   variants,
                   "size",
                   "_32Px"
@@ -316,20 +316,20 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon32Px,
-              className: classNames(sty.slotSvgIcon32Px, {
-                [sty.slotSvgIcon32Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon32Px, {
+                [sty.slotTargetSvgIcon32Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon32Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon32Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon32Px__size__32Px]: hasVariant(
+                [sty.slotTargetSvgIcon32Px__size__32Px]: hasVariant(
                   variants,
                   "size",
                   "_32Px"
@@ -353,26 +353,26 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon48Px,
-              className: classNames(sty.slotSvgIcon48Px, {
-                [sty.slotSvgIcon48Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon48Px, {
+                [sty.slotTargetSvgIcon48Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon48Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon48Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon48Px__size__48Px]: hasVariant(
+                [sty.slotTargetSvgIcon48Px__size__48Px]: hasVariant(
                   variants,
                   "size",
                   "_48Px"
                 ),
 
-                [sty.slotSvgIcon48Px__size__64Px]: hasVariant(
+                [sty.slotTargetSvgIcon48Px__size__64Px]: hasVariant(
                   variants,
                   "size",
                   "_64Px"
@@ -396,26 +396,26 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon64Px,
-              className: classNames(sty.slotSvgIcon64Px, {
-                [sty.slotSvgIcon64Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon64Px, {
+                [sty.slotTargetSvgIcon64Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon64Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon64Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon64Px__size__64Px]: hasVariant(
+                [sty.slotTargetSvgIcon64Px__size__64Px]: hasVariant(
                   variants,
                   "size",
                   "_64Px"
                 ),
 
-                [sty.slotSvgIcon64Px__size__80Px]: hasVariant(
+                [sty.slotTargetSvgIcon64Px__size__80Px]: hasVariant(
                   variants,
                   "size",
                   "_80Px"
@@ -439,20 +439,20 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon80Px,
-              className: classNames(sty.slotSvgIcon80Px, {
-                [sty.slotSvgIcon80Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon80Px, {
+                [sty.slotTargetSvgIcon80Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon80Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon80Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon80Px__size__80Px]: hasVariant(
+                [sty.slotTargetSvgIcon80Px__size__80Px]: hasVariant(
                   variants,
                   "size",
                   "_80Px"
@@ -490,56 +490,56 @@ function PlasmicIconPrimary__RenderFunc(props) {
               ),
 
               value: args.svgIcon40Px,
-              className: classNames(sty.slotSvgIcon40Px, {
-                [sty.slotSvgIcon40Px__size__14Px]: hasVariant(
+              className: classNames(sty.slotTargetSvgIcon40Px, {
+                [sty.slotTargetSvgIcon40Px__size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__16Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__18Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__24Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__24Px]: hasVariant(
                   variants,
                   "size",
                   "_24Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__32Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__32Px]: hasVariant(
                   variants,
                   "size",
                   "_32Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__40Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__40Px]: hasVariant(
                   variants,
                   "size",
                   "_40Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__48Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__48Px]: hasVariant(
                   variants,
                   "size",
                   "_48Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__64Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__64Px]: hasVariant(
                   variants,
                   "size",
                   "_64Px"
                 ),
 
-                [sty.slotSvgIcon40Px__size__80Px]: hasVariant(
+                [sty.slotTargetSvgIcon40Px__size__80Px]: hasVariant(
                   variants,
                   "size",
                   "_80Px"

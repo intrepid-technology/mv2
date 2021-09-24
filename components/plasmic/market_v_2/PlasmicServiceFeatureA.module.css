@@ -10,7 +10,7 @@
   padding: 10px;
   border-bottom: 1px solid #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
-.freeBox__nLqTi {
+.text {
   display: inline-block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -24,7 +24,7 @@
   width: auto;
   height: auto;
 }
-.freeBox__lXhRt {
+.freeBox {
   display: inline-flex;
   position: relative;
   flex-direction: column;

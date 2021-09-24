@@ -90,7 +90,7 @@
   > img {
   margin-top: 64px;
 }
-.freeBox__laelq {
+.text__laelq {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -100,7 +100,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__nr931 {
+.text__nr931 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .serviceName:global(.__wab_instance) {
@@ -176,7 +176,7 @@
   > img {
   margin-top: 64px;
 }
-.freeBox___0B5MK {
+.text___0B5MK {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -186,7 +186,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
-.freeBox__uc5Jc {
+.text__uc5Jc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .serviceDescription:global(.__wab_instance) {
@@ -286,7 +286,7 @@
   > img {
   margin-top: 64px;
 }
-.freeBox__io8Zz {
+.text__io8Zz {
   display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
@@ -296,13 +296,13 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
-.freeBox__vqvCv {
+.text__vqvCv {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.freeBox__wEkof {
+.text__wEkof {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.inputRichTextField:global(.__wab_instance) {
+.serviceProcessOverview:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -333,7 +333,7 @@
   > img {
   margin-top: 6px;
 }
-.freeBox__mnyPp {
+.text__mnyPp {
   position: relative;
   left: auto;
   top: auto;

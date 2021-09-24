@@ -41,7 +41,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__a3KQy
+            sty.text__a3KQy
           )}
         >
           {"membership"}
@@ -53,7 +53,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mA29P
+            sty.text__mA29P
           )}
         >
           {"Seats"}
@@ -65,7 +65,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__h0SDq
+            sty.text__h0SDq
           )}
         >
           {"price"}
@@ -77,7 +77,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__sJHmB
+            sty.text__sJHmB
           )}
         >
           {"Exp. Date"}
@@ -89,7 +89,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mlLbQ
+            sty.text__mlLbQ
           )}
         >
           {"renew"}
@@ -101,7 +101,7 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mms1R
+            sty.text__mms1R
           )}
         >
           {"Action"}

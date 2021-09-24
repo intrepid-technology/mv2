@@ -111,12 +111,12 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
             </div>
 
             <div
-              data-plasmic-name={"freeBox"}
-              data-plasmic-override={overrides.freeBox}
+              data-plasmic-name={"text"}
+              data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox
+                sty.text
               )}
             >
               {","}
@@ -156,7 +156,7 @@ const PlasmicDescendants = {
     "svgIcon4",
     "cityTextParent",
     "cityName",
-    "freeBox",
+    "text",
     "countryTextParent",
     "countryName"
   ],
@@ -169,7 +169,7 @@ const PlasmicDescendants = {
     "svgIcon4",
     "cityTextParent",
     "cityName",
-    "freeBox",
+    "text",
     "countryTextParent",
     "countryName"
   ],
@@ -178,9 +178,9 @@ const PlasmicDescendants = {
   svgIcon: ["svgIcon"],
   svgIcon3: ["svgIcon3"],
   svgIcon4: ["svgIcon4"],
-  cityTextParent: ["cityTextParent", "cityName", "freeBox"],
+  cityTextParent: ["cityTextParent", "cityName", "text"],
   cityName: ["cityName"],
-  freeBox: ["freeBox"],
+  text: ["text"],
   countryTextParent: ["countryTextParent", "countryName"],
   countryName: ["countryName"]
 };
@@ -223,7 +223,7 @@ export const PlasmicElementLocationPrimary = Object.assign(
     svgIcon4: makeNodeComponent("svgIcon4"),
     cityTextParent: makeNodeComponent("cityTextParent"),
     cityName: makeNodeComponent("cityName"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     countryTextParent: makeNodeComponent("countryTextParent"),
     countryName: makeNodeComponent("countryName"),
     // Metadata about props expected for PlasmicElementLocationPrimary

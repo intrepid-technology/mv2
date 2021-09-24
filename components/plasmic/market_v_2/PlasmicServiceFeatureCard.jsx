@@ -47,8 +47,12 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "20",
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__size_small]: hasVariant(variants, "size", "small")
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__size_small]: hasVariant(
+                variants,
+                "size",
+                "small"
+              )
             })
           })}
         </div>
@@ -59,8 +63,8 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Components",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__size_small]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__size_small]: hasVariant(
                 variants,
                 "size",
                 "small"

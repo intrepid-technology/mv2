@@ -98,7 +98,6 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                   data-plasmic-override={overrides.img}
                   alt={""}
                   className={classNames(defaultcss.img, sty.img)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -111,7 +110,6 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                   data-plasmic-override={overrides._70X404}
                   alt={""}
                   className={classNames(defaultcss.img, sty._70X404)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/70x40/f8f8f8/333333"
                   }
@@ -138,7 +136,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__gwoj
+                  sty.text__gwoj
                 )}
               >
                 {"Service title"}
@@ -314,7 +312,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ghdD6
+              sty.text__ghdD6
             )}
           >
             {"00/00/00"}

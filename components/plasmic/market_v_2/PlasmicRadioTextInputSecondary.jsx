@@ -84,20 +84,20 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Item element",
           value: args.itemText,
-          className: classNames(sty.slotItemText, {
-            [sty.slotItemText__size__12Px]: hasVariant(
+          className: classNames(sty.slotTargetItemText, {
+            [sty.slotTargetItemText__size__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotItemText__size__14Px]: hasVariant(
+            [sty.slotTargetItemText__size__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotItemText__size__16Px]: hasVariant(
+            [sty.slotTargetItemText__size__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"
@@ -108,20 +108,20 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Description",
           value: args.descriptionText,
-          className: classNames(sty.slotDescriptionText, {
-            [sty.slotDescriptionText__size__12Px]: hasVariant(
+          className: classNames(sty.slotTargetDescriptionText, {
+            [sty.slotTargetDescriptionText__size__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotDescriptionText__size__14Px]: hasVariant(
+            [sty.slotTargetDescriptionText__size__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotDescriptionText__size__16Px]: hasVariant(
+            [sty.slotTargetDescriptionText__size__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

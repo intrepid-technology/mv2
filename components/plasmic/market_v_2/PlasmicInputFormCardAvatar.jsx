@@ -90,8 +90,8 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
                 {p.renderPlasmicSlot({
                   defaultContents: "Headline",
                   value: args.headline,
-                  className: classNames(sty.slotHeadline, {
-                    [sty.slotHeadline__subDescription]: hasVariant(
+                  className: classNames(sty.slotTargetHeadline, {
+                    [sty.slotTargetHeadline__subDescription]: hasVariant(
                       variants,
                       "subDescription",
                       "subDescription"
@@ -109,8 +109,8 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
                 value: args.subHead,
-                className: classNames(sty.slotSubHead, {
-                  [sty.slotSubHead__subDescription]: hasVariant(
+                className: classNames(sty.slotTargetSubHead, {
+                  [sty.slotTargetSubHead__subDescription]: hasVariant(
                     variants,
                     "subDescription",
                     "subDescription"
@@ -161,8 +161,8 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.description,
-              className: classNames(sty.slotDescription, {
-                [sty.slotDescription__subDescription]: hasVariant(
+              className: classNames(sty.slotTargetDescription, {
+                [sty.slotTargetDescription__subDescription]: hasVariant(
                   variants,
                   "subDescription",
                   "subDescription"

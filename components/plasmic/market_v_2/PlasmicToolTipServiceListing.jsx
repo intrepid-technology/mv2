@@ -58,7 +58,7 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Headline for tooltip",
           value: args.slot,
-          className: classNames(sty.slotSlot)
+          className: classNames(sty.slotTargetSlot)
         })}
       </div>
 
@@ -67,7 +67,7 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
           defaultContents:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",
           value: args.children,
-          className: classNames(sty.slotChildren)
+          className: classNames(sty.slotTargetChildren)
         })}
       </div>
     </p.Stack>

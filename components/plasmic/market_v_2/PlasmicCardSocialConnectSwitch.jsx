@@ -55,8 +55,10 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
       >
         <p.Stack
           as={"div"}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__ma38J)}
+          className={classNames(defaultcss.all, sty.freeBox)}
         >
           <IconSocialProfile
             data-plasmic-name={"iconSocialProfile"}
@@ -272,152 +274,158 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
           />
 
           <div
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__y4X73,
+              sty.text,
               {
-                [sty.freeBox__accounting_quickbooks__y4X73NsKuD]: hasVariant(
+                [sty.text__accounting_quickbooks]: hasVariant(
                   variants,
                   "accounting",
                   "quickbooks"
                 ),
 
-                [sty.freeBox__accounting_xero__y4X73AenxO]: hasVariant(
+                [sty.text__accounting_xero]: hasVariant(
                   variants,
                   "accounting",
                   "xero"
                 ),
 
-                [sty.freeBox__socialNetwork_angellist__y4X73Ws5Gt]: hasVariant(
+                [sty.text__socialNetwork_angellist]: hasVariant(
                   variants,
                   "socialNetwork",
                   "angellist"
                 ),
 
-                [sty.freeBox__socialNetwork_discord__y4X73UvcjZ]: hasVariant(
+                [sty.text__socialNetwork_discord]: hasVariant(
                   variants,
                   "socialNetwork",
                   "discord"
                 ),
 
-                [sty.freeBox__socialNetwork_dribbble__y4X73ILpq2]: hasVariant(
+                [sty.text__socialNetwork_dribbble]: hasVariant(
                   variants,
                   "socialNetwork",
                   "dribbble"
                 ),
 
-                [sty.freeBox__socialNetwork_facebook__y4X735Inp2]: hasVariant(
+                [sty.text__socialNetwork_facebook]: hasVariant(
                   variants,
                   "socialNetwork",
                   "facebook"
                 ),
 
-                [sty.freeBox__socialNetwork_github__y4X73Ncvbj]: hasVariant(
+                [sty.text__socialNetwork_github]: hasVariant(
                   variants,
                   "socialNetwork",
                   "github"
                 ),
 
-                [sty.freeBox__socialNetwork_google__y4X73GuexH]: hasVariant(
+                [sty.text__socialNetwork_google]: hasVariant(
                   variants,
                   "socialNetwork",
                   "google"
                 ),
 
-                [sty.freeBox__socialNetwork_hackernews__y4X73ALtUl]: hasVariant(
+                [sty.text__socialNetwork_hackernews]: hasVariant(
                   variants,
                   "socialNetwork",
                   "hackernews"
                 ),
 
-                [sty.freeBox__socialNetwork_instagram__y4X73LhFvO]: hasVariant(
+                [sty.text__socialNetwork_instagram]: hasVariant(
                   variants,
                   "socialNetwork",
                   "instagram"
                 ),
 
-                [sty.freeBox__socialNetwork_line__y4X73YJija]: hasVariant(
+                [sty.text__socialNetwork_line]: hasVariant(
                   variants,
                   "socialNetwork",
                   "line"
                 ),
 
-                [sty.freeBox__socialNetwork_linkedin__y4X73UeETj]: hasVariant(
+                [sty.text__socialNetwork_linkedin]: hasVariant(
                   variants,
                   "socialNetwork",
                   "linkedin"
                 ),
 
-                [sty.freeBox__socialNetwork_pinterest__y4X73AsIkx]: hasVariant(
+                [sty.text__socialNetwork_pinterest]: hasVariant(
                   variants,
                   "socialNetwork",
                   "pinterest"
                 ),
 
-                [sty.freeBox__socialNetwork_productHunt__y4X73M6JOk]:
-                  hasVariant(variants, "socialNetwork", "productHunt"),
-                [sty.freeBox__socialNetwork_reddit__y4X73Pee0Y]: hasVariant(
+                [sty.text__socialNetwork_productHunt]: hasVariant(
+                  variants,
+                  "socialNetwork",
+                  "productHunt"
+                ),
+
+                [sty.text__socialNetwork_reddit]: hasVariant(
                   variants,
                   "socialNetwork",
                   "reddit"
                 ),
 
-                [sty.freeBox__socialNetwork_slack__y4X73PJCsA]: hasVariant(
+                [sty.text__socialNetwork_slack]: hasVariant(
                   variants,
                   "socialNetwork",
                   "slack"
                 ),
 
-                [sty.freeBox__socialNetwork_snapchat__y4X734W5Qx]: hasVariant(
+                [sty.text__socialNetwork_snapchat]: hasVariant(
                   variants,
                   "socialNetwork",
                   "snapchat"
                 ),
 
-                [sty.freeBox__socialNetwork_soundcloud__y4X734JmR2]: hasVariant(
+                [sty.text__socialNetwork_soundcloud]: hasVariant(
                   variants,
                   "socialNetwork",
                   "soundcloud"
                 ),
 
-                [sty.freeBox__socialNetwork_spotify__y4X73JTzJ8]: hasVariant(
+                [sty.text__socialNetwork_spotify]: hasVariant(
                   variants,
                   "socialNetwork",
                   "spotify"
                 ),
 
-                [sty.freeBox__socialNetwork_tikTok__y4X73VLcVx]: hasVariant(
+                [sty.text__socialNetwork_tikTok]: hasVariant(
                   variants,
                   "socialNetwork",
                   "tikTok"
                 ),
 
-                [sty.freeBox__socialNetwork_twitch__y4X73HjPBa]: hasVariant(
+                [sty.text__socialNetwork_twitch]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitch"
                 ),
 
-                [sty.freeBox__socialNetwork_twitter__y4X73F5IW5]: hasVariant(
+                [sty.text__socialNetwork_twitter]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitter"
                 ),
 
-                [sty.freeBox__socialNetwork_wechat__y4X73IsTfM]: hasVariant(
+                [sty.text__socialNetwork_wechat]: hasVariant(
                   variants,
                   "socialNetwork",
                   "wechat"
                 ),
 
-                [sty.freeBox__socialNetwork_whatsapp__y4X7306RGl]: hasVariant(
+                [sty.text__socialNetwork_whatsapp]: hasVariant(
                   variants,
                   "socialNetwork",
                   "whatsapp"
                 ),
 
-                [sty.freeBox__socialNetwork_youtube__y4X73S12Df]: hasVariant(
+                [sty.text__socialNetwork_youtube]: hasVariant(
                   variants,
                   "socialNetwork",
                   "youtube"
@@ -502,9 +510,19 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "iconSocialProfile", "switchPrimary"],
-  parent: ["parent", "iconSocialProfile", "switchPrimary"],
+  root: [
+    "root",
+    "parent",
+    "freeBox",
+    "iconSocialProfile",
+    "text",
+    "switchPrimary"
+  ],
+
+  parent: ["parent", "freeBox", "iconSocialProfile", "text", "switchPrimary"],
+  freeBox: ["freeBox", "iconSocialProfile", "text"],
   iconSocialProfile: ["iconSocialProfile"],
+  text: ["text"],
   switchPrimary: ["switchPrimary"]
 };
 
@@ -540,7 +558,9 @@ export const PlasmicCardSocialConnectSwitch = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
+    freeBox: makeNodeComponent("freeBox"),
     iconSocialProfile: makeNodeComponent("iconSocialProfile"),
+    text: makeNodeComponent("text"),
     switchPrimary: makeNodeComponent("switchPrimary"),
     // Metadata about props expected for PlasmicCardSocialConnectSwitch
     internalVariantProps: PlasmicCardSocialConnectSwitch__VariantProps,

@@ -88,15 +88,15 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__zsyYr,
+                  sty.text__zsyYr,
                   {
-                    [sty.freeBox__color_light__zsyYrVn8Xk]: hasVariant(
+                    [sty.text__color_light__zsyYrVn8Xk]: hasVariant(
                       variants,
                       "color",
                       "light"
                     ),
 
-                    [sty.freeBox__partner__zsyYrwYrcz]: hasVariant(
+                    [sty.text__partner__zsyYrwYrcz]: hasVariant(
                       variants,
                       "partner",
                       "partner"
@@ -105,9 +105,14 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 )}
               >
                 {hasVariant(variants, "partner", "partner") ? (
-                  <span>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                  >
                     <React.Fragment>{"Do you want to "}</React.Fragment>
-                    <span style={{ textDecoration: "underline" }}>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ textDecoration: "underline" }}
+                    >
                       {"sell"}
                     </span>
                     <React.Fragment>
@@ -115,9 +120,14 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                     </React.Fragment>
                   </span>
                 ) : (
-                  <span>
+                  <span
+                    className={"plasmic_default__all plasmic_default__span"}
+                  >
                     <React.Fragment>{"Do you want to "}</React.Fragment>
-                    <span style={{ textDecoration: "underline" }}>
+                    <span
+                      className={"plasmic_default__all plasmic_default__span"}
+                      style={{ textDecoration: "underline" }}
+                    >
                       {"find"}
                     </span>
                     <React.Fragment>
@@ -134,15 +144,15 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___20Bn,
+              sty.text___20Bn,
               {
-                [sty.freeBox__color_light___20BnVn8Xk]: hasVariant(
+                [sty.text__color_light___20BnVn8Xk]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.freeBox__partner___20BNwYrcz]: hasVariant(
+                [sty.text__partner___20BNwYrcz]: hasVariant(
                   variants,
                   "partner",
                   "partner"
@@ -151,17 +161,27 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             )}
           >
             {hasVariant(variants, "partner", "partner") ? (
-              <span>
+              <span className={"plasmic_default__all plasmic_default__span"}>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
-                <span style={{ textDecoration: "underline" }}>{"sell"}</span>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ textDecoration: "underline" }}
+                >
+                  {"sell"}
+                </span>
                 <React.Fragment>
                   {" technology and creative services to our members?"}
                 </React.Fragment>
               </span>
             ) : (
-              <span>
+              <span className={"plasmic_default__all plasmic_default__span"}>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
-                <span style={{ textDecoration: "underline" }}>{"find"}</span>
+                <span
+                  className={"plasmic_default__all plasmic_default__span"}
+                  style={{ textDecoration: "underline" }}
+                >
+                  {"find"}
+                </span>
                 <React.Fragment>
                   {" technology and creative services for your business?"}
                 </React.Fragment>

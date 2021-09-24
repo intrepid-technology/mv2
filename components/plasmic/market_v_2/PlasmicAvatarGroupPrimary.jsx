@@ -105,7 +105,6 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
           <img
             alt={""}
             className={classNames(defaultcss.img, sty.img__dolm6)}
-            role={"img"}
             src={
               "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
             }
@@ -411,7 +410,6 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img__dxJKw)}
-              role={"img"}
               src={
                 "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
               }
@@ -453,7 +451,6 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img___31TU3)}
-              role={"img"}
               src={
                 "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
               }

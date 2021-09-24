@@ -130,7 +130,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__coEqy
+                sty.text__coEqy
               )}
             >
               {hasVariant(globalVariants, "screen", "mobile")
@@ -176,7 +176,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___33H8
+            sty.text___33H8
           )}
         >
           {
@@ -329,7 +329,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__r8DGt
+              sty.text__r8DGt
             )}
           >
             {"City"}
@@ -339,7 +339,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__tFqJe
+              sty.text__tFqJe
             )}
           >
             {","}
@@ -351,7 +351,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__dk2F0
+              sty.text__dk2F0
             )}
           >
             {"Country"}

@@ -66,7 +66,7 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "1",
                 value: args.unitNumber,
-                className: classNames(sty.slotUnitNumber)
+                className: classNames(sty.slotTargetUnitNumber)
               })}
             </div>
           </div>
@@ -80,16 +80,22 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Service",
             value: args.unitText,
-            className: classNames(sty.slotUnitText)
+            className: classNames(sty.slotTargetUnitText)
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox__rWoQt)}>
+        <div
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox)}
+        >
           <div
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__pkFzf
+              sty.text
             )}
           >
             {"x"}
@@ -117,7 +123,7 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Month",
                 value: args.timeIntervalText,
-                className: classNames(sty.slotTimeIntervalText)
+                className: classNames(sty.slotTargetTimeIntervalText)
               })}
             </div>
           </div>
@@ -142,7 +148,7 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "$",
             value: args.currencySymbol,
-            className: classNames(sty.slotCurrencySymbol)
+            className: classNames(sty.slotTargetCurrencySymbol)
           })}
         </div>
 
@@ -154,7 +160,7 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "0.00",
             value: args.totalValueNumber,
-            className: classNames(sty.slotTotalValueNumber)
+            className: classNames(sty.slotTargetTotalValueNumber)
           })}
         </div>
       </p.Stack>
@@ -170,6 +176,8 @@ const PlasmicDescendants = {
     "unitNumberBackground",
     "unitNumberParent",
     "unitTextbackground",
+    "freeBox",
+    "text",
     "timeIntervalBackgroundParent",
     "timeIntervalBackground",
     "timeIntervalTextParent",
@@ -184,6 +192,8 @@ const PlasmicDescendants = {
     "unitNumberBackground",
     "unitNumberParent",
     "unitTextbackground",
+    "freeBox",
+    "text",
     "timeIntervalBackgroundParent",
     "timeIntervalBackground",
     "timeIntervalTextParent"
@@ -198,6 +208,8 @@ const PlasmicDescendants = {
   unitNumberBackground: ["unitNumberBackground", "unitNumberParent"],
   unitNumberParent: ["unitNumberParent"],
   unitTextbackground: ["unitTextbackground"],
+  freeBox: ["freeBox", "text"],
+  text: ["text"],
   timeIntervalBackgroundParent: [
     "timeIntervalBackgroundParent",
     "timeIntervalBackground",
@@ -254,6 +266,8 @@ export const PlasmicElementCheckoutListItemUnitInterval = Object.assign(
     unitNumberBackground: makeNodeComponent("unitNumberBackground"),
     unitNumberParent: makeNodeComponent("unitNumberParent"),
     unitTextbackground: makeNodeComponent("unitTextbackground"),
+    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     timeIntervalBackgroundParent: makeNodeComponent(
       "timeIntervalBackgroundParent"
     ),

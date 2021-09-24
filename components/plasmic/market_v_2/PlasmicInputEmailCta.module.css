@@ -115,7 +115,7 @@
   > img {
   margin-top: 24px;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -124,7 +124,7 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-align: center;
 }
-.slotChildren__size__720 {
+.slotTargetChildren__size__720 {
   font-size: 40px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -150,7 +150,7 @@
     top: auto;
   }
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -159,7 +159,7 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   text-align: center;
 }
-.slotSlot__size__720 {
+.slotTargetSlot__size__720 {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;

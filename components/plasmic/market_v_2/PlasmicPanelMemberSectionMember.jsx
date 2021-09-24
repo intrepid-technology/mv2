@@ -43,14 +43,18 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__gmwzI)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__lJwqz
+            sty.text
           )}
         >
           {"Member"}
@@ -113,7 +117,9 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "freeBox", "text"],
+  freeBox: ["freeBox", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -147,6 +153,8 @@ export const PlasmicPanelMemberSectionMember = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicPanelMemberSectionMember
     internalVariantProps: PlasmicPanelMemberSectionMember__VariantProps,
     internalArgProps: PlasmicPanelMemberSectionMember__ArgProps

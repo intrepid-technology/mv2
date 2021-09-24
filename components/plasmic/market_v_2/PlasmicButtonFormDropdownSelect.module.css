@@ -90,7 +90,7 @@
   padding-left: 0px;
   min-width: 0;
 }
-.slotHeadlineLabelTitle {
+.slotTargetHeadlineLabelTitle {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -99,17 +99,17 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
-.slotHeadlineLabelTitle__size__360X40 {
+.slotTargetHeadlineLabelTitle__size__360X40 {
   line-height: 1;
 }
-.slotHeadlineLabelTitle__size__540X40 {
+.slotTargetHeadlineLabelTitle__size__540X40 {
   font-size: 20px;
 }
-.slotHeadlineLabelTitle__size__90X24 {
+.slotTargetHeadlineLabelTitle__size__90X24 {
   font-size: 12px;
   line-height: 1;
 }
-.slotHeadlineLabelTitle__size__270X32 {
+.slotTargetHeadlineLabelTitle__size__270X32 {
   line-height: 1;
 }
 .buttonDropDown {
@@ -254,7 +254,7 @@
   height: 1em;
   display: none;
 }
-.slotDropdownTitle {
+.slotTargetDropdownTitle {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -262,23 +262,23 @@
   line-height: 1;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
-.slotDropdownTitle__size__360X40 {
+.slotTargetDropdownTitle__size__360X40 {
   line-height: 1;
 }
-.slotDropdownTitle__size__540X40 {
+.slotTargetDropdownTitle__size__540X40 {
   font-size: 20px;
 }
-.slotDropdownTitle__size__90X24 {
+.slotTargetDropdownTitle__size__90X24 {
   font-size: 12px;
   line-height: 1;
 }
-.slotDropdownTitle__size__90X32 {
+.slotTargetDropdownTitle__size__90X32 {
   font-size: 12px;
 }
-.slotDropdownTitle__size__90X36 {
+.slotTargetDropdownTitle__size__90X36 {
   font-size: 12px;
 }
-.slotDropdownTitle__size__270X32 {
+.slotTargetDropdownTitle__size__270X32 {
   line-height: 1;
 }
 .iconParent {
@@ -297,7 +297,7 @@
   display: inline-flex;
   padding: 0px;
 }
-.slotDropdownIcon__size__540X40 {
+.slotTargetDropdownIcon__size__540X40 {
   font-size: 20px;
 }
 .svg__we6N {
@@ -307,7 +307,7 @@
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
-.slotDropdownIcon12Pt__size__540X40 {
+.slotTargetDropdownIcon12Pt__size__540X40 {
   font-size: 20px;
 }
 .svg__oJsqq {
@@ -325,7 +325,7 @@
   height: auto;
   min-width: 0;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -333,16 +333,16 @@
   line-height: 1;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
-.slotChildren__size__540X40 {
+.slotTargetChildren__size__540X40 {
   font-size: 16px;
 }
-.slotChildren__size__90X24 {
+.slotTargetChildren__size__90X24 {
   font-size: 10px;
   line-height: 1;
 }
-.slotChildren__size__90X32 {
+.slotTargetChildren__size__90X32 {
   font-size: 10px;
 }
-.slotChildren__size__90X36 {
+.slotTargetChildren__size__90X36 {
   font-size: 10px;
 }

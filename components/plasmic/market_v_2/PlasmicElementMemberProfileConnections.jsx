@@ -83,7 +83,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__iDk2)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
               />
             }
@@ -96,7 +95,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__qdWwr)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/memberHero11Png.jpeg"}
               />
             }
@@ -109,7 +107,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__rwAvc)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -122,7 +119,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___0Ehi8)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -135,7 +131,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__epUpT)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
                 }
@@ -150,7 +145,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__ydvV2)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
                 }
@@ -165,7 +159,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__lxX9L)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }
@@ -180,7 +173,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__nLx6Q)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/giftHabeshawZmSk6Is2YQ4Unsplashjpg.jpeg"
                 }
@@ -195,7 +187,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__lBZxJ)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/hustWilsonWyDr1Kfs23YUnsplashjpg.jpeg"
                 }
@@ -210,7 +201,6 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__gg49Z)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/jonGroganKUdeP8QQMgUnsplashjpg.jpeg"
                 }
@@ -236,12 +226,12 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             platform={"nextjs"}
           >
             <div
-              data-plasmic-name={"freeBox"}
-              data-plasmic-override={overrides.freeBox}
+              data-plasmic-name={"text"}
+              data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox
+                sty.text
               )}
             >
               {"View all connections"}
@@ -262,7 +252,7 @@ const PlasmicDescendants = {
     "memberConnectionsParent",
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "freeBox"
+    "text"
   ],
 
   parent: [
@@ -272,7 +262,7 @@ const PlasmicDescendants = {
     "memberConnectionsParent",
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "freeBox"
+    "text"
   ],
 
   connectionsHealine: ["connectionsHealine", "connectionsHeadlineText"],
@@ -281,11 +271,11 @@ const PlasmicDescendants = {
   linkConnectionsViewAllParent: [
     "linkConnectionsViewAllParent",
     "linkConnectionsViewAll",
-    "freeBox"
+    "text"
   ],
 
-  linkConnectionsViewAll: ["linkConnectionsViewAll", "freeBox"],
-  freeBox: ["freeBox"]
+  linkConnectionsViewAll: ["linkConnectionsViewAll", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -329,7 +319,7 @@ export const PlasmicElementMemberProfileConnections = Object.assign(
     ),
 
     linkConnectionsViewAll: makeNodeComponent("linkConnectionsViewAll"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicElementMemberProfileConnections
     internalVariantProps: PlasmicElementMemberProfileConnections__VariantProps,
     internalArgProps: PlasmicElementMemberProfileConnections__ArgProps

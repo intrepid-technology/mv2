@@ -47,12 +47,12 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.header)}
       >
         <div
-          data-plasmic-name={"freeBox"}
-          data-plasmic-override={overrides.freeBox}
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox
+            sty.text
           )}
         >
           {"Account"}
@@ -89,9 +89,9 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "freeBox"],
-  header: ["header", "freeBox"],
-  freeBox: ["freeBox"]
+  root: ["root", "header", "text"],
+  header: ["header", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -126,7 +126,7 @@ export const PlasmicPanelPartnerSectionAccount = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicPanelPartnerSectionAccount
     internalVariantProps: PlasmicPanelPartnerSectionAccount__VariantProps,
     internalArgProps: PlasmicPanelPartnerSectionAccount__ArgProps

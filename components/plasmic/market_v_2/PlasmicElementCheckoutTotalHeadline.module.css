@@ -7,7 +7,7 @@
   height: auto;
   position: relative;
 }
-.freeBox___7YsjM {
+.freeBox {
   display: inline-flex;
   position: relative;
   flex-direction: row;
@@ -17,24 +17,24 @@
   top: auto;
   padding-left: 0px;
 }
-.freeBox___7YsjM > :global(.__wab_flex-container) {
+.freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
-.freeBox___7YsjM > :global(.__wab_flex-container) > *,
-.freeBox___7YsjM > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox___7YsjM > :global(.__wab_flex-container) > picture > img,
-.freeBox___7YsjM
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
   > img {
   margin-left: 0px;
 }
-.freeBox___8WzAi {
+.text {
   position: relative;
   left: auto;
   top: auto;
@@ -81,7 +81,7 @@
   width: auto;
   height: auto;
 }
-.slotCurrency {
+.slotTargetCurrency {
   font-size: 18px;
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;

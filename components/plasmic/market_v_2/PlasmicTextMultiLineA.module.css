@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 6px;
 }
-.slotChildren {
+.slotTargetChildren {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
 .textarea {

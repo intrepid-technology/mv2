@@ -48,7 +48,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__hiDuc
+              sty.text__hiDuc
             )}
           >
             {"About"}
@@ -67,7 +67,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__swZbn
+              sty.text__swZbn
             )}
           >
             {"Terms"}
@@ -86,7 +86,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__jQ4No
+              sty.text__jQ4No
             )}
           >
             {"Privacy"}
@@ -105,7 +105,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__aktZk
+              sty.text__aktZk
             )}
           >
             {"Help"}

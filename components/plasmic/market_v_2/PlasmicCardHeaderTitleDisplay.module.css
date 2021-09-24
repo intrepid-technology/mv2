@@ -70,7 +70,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotTextDisplay {
+.slotTargetTextDisplay {
   font-size: 48px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -78,7 +78,7 @@
   line-height: 1.4;
   color: #dddddd /* plasmic-token: pZiR_PgBn */;
 }
-.slotTextDisplay__size__270 {
+.slotTargetTextDisplay__size__270 {
   font-size: 48px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
@@ -141,7 +141,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotSlot {
+.slotTargetSlot {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -149,7 +149,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotSlot__size__270 {
+.slotTargetSlot__size__270 {
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -185,7 +185,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotTextSubhead {
+.slotTargetTextSubhead {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -193,7 +193,7 @@
   line-height: 1.4;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
-.slotTextSubhead__size__270 {
+.slotTargetTextSubhead__size__270 {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;

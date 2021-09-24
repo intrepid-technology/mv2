@@ -81,15 +81,15 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Headline",
                 value: args.headline,
-                className: classNames(sty.slotHeadline)
+                className: classNames(sty.slotTargetHeadline)
               })}
             </div>
 
             {p.renderPlasmicSlot({
               defaultContents: "Sub head",
               value: args.subHead,
-              className: classNames(sty.slotSubHead, {
-                [sty.slotSubHead__search]: hasVariant(
+              className: classNames(sty.slotTargetSubHead, {
+                [sty.slotTargetSubHead__search]: hasVariant(
                   variants,
                   "search",
                   "search"
@@ -113,8 +113,10 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
           >
             {(hasVariant(variants, "search", "search") ? false : true) ? (
               <div
-                className={classNames(defaultcss.all, sty.freeBox__lI706, {
-                  [sty.freeBox__search__lI706Auxud]: hasVariant(
+                data-plasmic-name={"freeBox"}
+                data-plasmic-override={overrides.freeBox}
+                className={classNames(defaultcss.all, sty.freeBox, {
+                  [sty.freeBox__search]: hasVariant(
                     variants,
                     "search",
                     "search"
@@ -222,12 +224,14 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                     }
                   >
                     <div
+                      data-plasmic-name={"text"}
+                      data-plasmic-override={overrides.text}
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__vL9T,
+                        sty.text,
                         {
-                          [sty.freeBox__search__vL9TAuxud]: hasVariant(
+                          [sty.text__search]: hasVariant(
                             variants,
                             "search",
                             "search"
@@ -311,8 +315,8 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.description,
-              className: classNames(sty.slotDescription, {
-                [sty.slotDescription__subDescription]: hasVariant(
+              className: classNames(sty.slotTargetDescription, {
+                [sty.slotTargetDescription__subDescription]: hasVariant(
                   variants,
                   "subDescription",
                   "subDescription"
@@ -357,9 +361,11 @@ const PlasmicDescendants = {
     "headlineSubheadParent",
     "headlineTextParent",
     "textInputParent",
+    "freeBox",
     "searchTriggerParent",
     "textbox",
     "svg",
+    "text",
     "badgeDisplay",
     "descriptionCard",
     "subDescription"
@@ -371,9 +377,11 @@ const PlasmicDescendants = {
     "headlineSubheadParent",
     "headlineTextParent",
     "textInputParent",
+    "freeBox",
     "searchTriggerParent",
     "textbox",
     "svg",
+    "text",
     "badgeDisplay",
     "descriptionCard",
     "subDescription"
@@ -384,9 +392,11 @@ const PlasmicDescendants = {
     "headlineSubheadParent",
     "headlineTextParent",
     "textInputParent",
+    "freeBox",
     "searchTriggerParent",
     "textbox",
     "svg",
+    "text",
     "badgeDisplay"
   ],
 
@@ -394,15 +404,19 @@ const PlasmicDescendants = {
   headlineTextParent: ["headlineTextParent"],
   textInputParent: [
     "textInputParent",
+    "freeBox",
     "searchTriggerParent",
     "textbox",
     "svg",
+    "text",
     "badgeDisplay"
   ],
 
-  searchTriggerParent: ["searchTriggerParent", "textbox", "svg"],
+  freeBox: ["freeBox"],
+  searchTriggerParent: ["searchTriggerParent", "textbox", "svg", "text"],
   textbox: ["textbox"],
   svg: ["svg"],
+  text: ["text"],
   badgeDisplay: ["badgeDisplay"],
   descriptionCard: ["descriptionCard", "subDescription"],
   subDescription: ["subDescription"]
@@ -445,9 +459,11 @@ export const PlasmicInputFormCardEmailSearchBadge = Object.assign(
     headlineSubheadParent: makeNodeComponent("headlineSubheadParent"),
     headlineTextParent: makeNodeComponent("headlineTextParent"),
     textInputParent: makeNodeComponent("textInputParent"),
+    freeBox: makeNodeComponent("freeBox"),
     searchTriggerParent: makeNodeComponent("searchTriggerParent"),
     textbox: makeNodeComponent("textbox"),
     svg: makeNodeComponent("svg"),
+    text: makeNodeComponent("text"),
     badgeDisplay: makeNodeComponent("badgeDisplay"),
     descriptionCard: makeNodeComponent("descriptionCard"),
     subDescription: makeNodeComponent("subDescription"),

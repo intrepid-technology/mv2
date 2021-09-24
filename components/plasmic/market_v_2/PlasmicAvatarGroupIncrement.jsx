@@ -54,7 +54,6 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img___6MgzQ)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -67,7 +66,6 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__wdIxV)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -80,7 +78,6 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__dqrFq)}
-                role={"img"}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }
@@ -98,10 +95,12 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           className={classNames(defaultcss.all, sty.additionalMembers)}
         >
           <div
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__zKqRe
+              sty.text
             )}
           >
             {"+"}
@@ -112,11 +111,15 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             data-plasmic-override={overrides.numberParent}
             className={classNames(defaultcss.all, sty.numberParent)}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__hq5ZR)}>
+            <div
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
+              className={classNames(defaultcss.all, sty.freeBox)}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "#####",
                 value: args.number,
-                className: classNames(sty.slotNumber)
+                className: classNames(sty.slotTargetNumber)
               })}
             </div>
           </div>
@@ -127,11 +130,30 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "avatarParent", "additionalMembers", "numberParent"],
-  parent: ["parent", "avatarParent", "additionalMembers", "numberParent"],
+  root: [
+    "root",
+    "parent",
+    "avatarParent",
+    "additionalMembers",
+    "text",
+    "numberParent",
+    "freeBox"
+  ],
+
+  parent: [
+    "parent",
+    "avatarParent",
+    "additionalMembers",
+    "text",
+    "numberParent",
+    "freeBox"
+  ],
+
   avatarParent: ["avatarParent"],
-  additionalMembers: ["additionalMembers", "numberParent"],
-  numberParent: ["numberParent"]
+  additionalMembers: ["additionalMembers", "text", "numberParent", "freeBox"],
+  text: ["text"],
+  numberParent: ["numberParent", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -168,7 +190,9 @@ export const PlasmicAvatarGroupIncrement = Object.assign(
     parent: makeNodeComponent("parent"),
     avatarParent: makeNodeComponent("avatarParent"),
     additionalMembers: makeNodeComponent("additionalMembers"),
+    text: makeNodeComponent("text"),
     numberParent: makeNodeComponent("numberParent"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicAvatarGroupIncrement
     internalVariantProps: PlasmicAvatarGroupIncrement__VariantProps,
     internalArgProps: PlasmicAvatarGroupIncrement__ArgProps

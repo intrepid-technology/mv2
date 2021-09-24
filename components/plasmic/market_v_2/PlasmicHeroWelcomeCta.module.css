@@ -299,7 +299,7 @@
 .freeBox__size__720__zBnnwHXq {
   width: 720px;
 }
-.freeBox__bkkSv {
+.text__bkkSv {
   position: relative;
   left: auto;
   top: auto;
@@ -316,13 +316,13 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__size__270__bkkSvWzVrX {
+.text__size__270__bkkSvWzVrX {
   font-size: 68px;
 }
-.freeBox__size__720__bkkSvHXq {
+.text__size__720__bkkSvHXq {
   font-size: 192px;
 }
-.freeBox__krNqh {
+.text__krNqh {
   position: relative;
   left: auto;
   top: auto;
@@ -339,13 +339,13 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__size__270__krNqhWzVrX {
+.text__size__270__krNqhWzVrX {
   font-size: 68px;
 }
-.freeBox__size__720__krNqhHXq {
+.text__size__720__krNqhHXq {
   font-size: 192px;
 }
-.freeBox__bVkfy {
+.text__bVkfy {
   position: relative;
   left: auto;
   top: auto;
@@ -377,17 +377,17 @@
   padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__bVkfy {
+  .text__bVkfy {
     height: auto;
   }
 }
-.freeBox__size__270__bVkfywzVrX {
+.text__size__270__bVkfywzVrX {
   font-size: 68px;
 }
-.freeBox__size__720__bVkfyHXq {
+.text__size__720__bVkfyHXq {
   font-size: 192px;
 }
-.freeBox__persona_partner__bVkfYh1Dvk {
+.text__persona_partner__bVkfYh1Dvk {
   text-decoration-line: underline;
 }
 .freeBox___0SFze {
@@ -423,7 +423,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -432,11 +432,11 @@
   color: #666666 /* plasmic-token: MAJ29KQMI */;
   text-align: center;
 }
-.slotChildren__size__270 {
+.slotTargetChildren__size__270 {
   font-size: 12px;
   line-height: 1.4;
 }
-.slotChildren__size__720 {
+.slotTargetChildren__size__720 {
   font-size: 28px;
   line-height: 1.4;
 }
@@ -500,17 +500,17 @@
   height: 80px;
   flex-shrink: 0;
 }
-.freeBox__emeni {
+.text__emeni {
   font-weight: 600;
   line-height: 18px;
   font-size: 14px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__emeni {
+  .text__emeni {
     font-weight: 600;
   }
 }
-.freeBox__size__720__emeniHXq {
+.text__size__720__emeniHXq {
   font-size: 28px;
   line-height: 1.4;
 }
@@ -528,6 +528,6 @@
 .inputEmailB:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__cta_email__qUWk544Lt1 {
+.text__cta_email__qUWk544Lt1 {
   text-align: left;
 }

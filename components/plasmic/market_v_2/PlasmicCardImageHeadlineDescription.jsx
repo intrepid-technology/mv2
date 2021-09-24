@@ -73,7 +73,6 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__f30B9)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -84,7 +83,6 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__tkgid)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                     }
@@ -101,7 +99,6 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__xV2M8)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -112,7 +109,6 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__tAiFn)}
-                    role={"img"}
                     src={
                       "https://craftypixels.com/placeholder-image/360x360/f8f8f8/333333"
                     }
@@ -153,7 +149,7 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__ntFG
+                    sty.text__ntFG
                   )}
                 >
                   {"Text link Headline"}
@@ -195,7 +191,7 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox___7ErTm
+                sty.text___7ErTm
               )}
             >
               {"Subhead description"}

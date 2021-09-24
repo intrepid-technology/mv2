@@ -38,19 +38,19 @@ function PlasmicSectionMemberFeatures__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox__rvExq
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {"A marketplace built for modern startups and entrepreneurs."}
       </div>
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__uIx6)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <CardFeatureDescription
           className={classNames(
@@ -156,7 +156,9 @@ function PlasmicSectionMemberFeatures__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "text", "freeBox"],
+  text: ["text"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -190,6 +192,8 @@ export const PlasmicSectionMemberFeatures = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    text: makeNodeComponent("text"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSectionMemberFeatures
     internalVariantProps: PlasmicSectionMemberFeatures__VariantProps,
     internalArgProps: PlasmicSectionMemberFeatures__ArgProps

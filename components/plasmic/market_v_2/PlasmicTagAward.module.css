@@ -32,7 +32,7 @@
   align-self: center;
   min-height: 0;
 }
-.slotChildren {
+.slotTargetChildren {
   line-height: 1;
   font-weight: 400;
   font-size: 14px;
@@ -47,7 +47,7 @@
   height: 20px;
   flex-shrink: 0;
 }
-.slotIconParent {
+.slotTargetIconParent {
   line-height: 40px;
 }
 .svg__zj3Xk {

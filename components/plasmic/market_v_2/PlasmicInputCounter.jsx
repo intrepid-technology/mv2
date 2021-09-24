@@ -46,13 +46,9 @@ function PlasmicInputCounter__RenderFunc(props) {
       </button>
 
       <div
-        data-plasmic-name={"freeBox"}
-        data-plasmic-override={overrides.freeBox}
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {"1"}
       </div>
@@ -68,8 +64,8 @@ function PlasmicInputCounter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox"],
-  freeBox: ["freeBox"]
+  root: ["root", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -103,7 +99,7 @@ export const PlasmicInputCounter = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicInputCounter
     internalVariantProps: PlasmicInputCounter__VariantProps,
     internalArgProps: PlasmicInputCounter__ArgProps

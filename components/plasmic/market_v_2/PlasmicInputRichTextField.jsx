@@ -80,8 +80,8 @@ function PlasmicInputRichTextField__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Sub Headline",
               value: args.children,
-              className: classNames(sty.slotChildren, {
-                [sty.slotChildren__headline]: hasVariant(
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__headline]: hasVariant(
                   variants,
                   "headline",
                   "headline"
@@ -92,40 +92,20 @@ function PlasmicInputRichTextField__RenderFunc(props) {
         ) : null}
 
         <textarea
-          data-plasmic-name={"serviceOverview"}
-          data-plasmic-override={overrides.serviceOverview}
-          className={classNames(defaultcss.textarea, sty.serviceOverview, {
-            [sty.serviceOverview__size__180]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            ),
-
-            [sty.serviceOverview__size__270]: hasVariant(
-              variants,
-              "size",
-              "_270"
-            ),
-
-            [sty.serviceOverview__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
-
-            [sty.serviceOverview__size__540]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            ),
-
-            [sty.serviceOverview__type_primary]: hasVariant(
+          data-plasmic-name={"description"}
+          data-plasmic-override={overrides.description}
+          className={classNames(defaultcss.textarea, sty.description, {
+            [sty.description__size__180]: hasVariant(variants, "size", "_180"),
+            [sty.description__size__270]: hasVariant(variants, "size", "_270"),
+            [sty.description__size__360]: hasVariant(variants, "size", "_360"),
+            [sty.description__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.description__type_primary]: hasVariant(
               variants,
               "type",
               "primary"
             ),
 
-            [sty.serviceOverview__type_secondary]: hasVariant(
+            [sty.description__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
@@ -150,8 +130,8 @@ function PlasmicInputRichTextField__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Sub body",
               value: args.subhead,
-              className: classNames(sty.slotSubhead, {
-                [sty.slotSubhead__description]: hasVariant(
+              className: classNames(sty.slotTargetSubhead, {
+                [sty.slotTargetSubhead__description]: hasVariant(
                   variants,
                   "description",
                   "description"
@@ -170,13 +150,13 @@ const PlasmicDescendants = {
     "root",
     "parent",
     "headlineLabelParent",
-    "serviceOverview",
+    "description",
     "subheadParent"
   ],
 
-  parent: ["parent", "headlineLabelParent", "serviceOverview", "subheadParent"],
+  parent: ["parent", "headlineLabelParent", "description", "subheadParent"],
   headlineLabelParent: ["headlineLabelParent"],
-  serviceOverview: ["serviceOverview"],
+  description: ["description"],
   subheadParent: ["subheadParent"]
 };
 
@@ -213,7 +193,7 @@ export const PlasmicInputRichTextField = Object.assign(
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
     headlineLabelParent: makeNodeComponent("headlineLabelParent"),
-    serviceOverview: makeNodeComponent("serviceOverview"),
+    description: makeNodeComponent("description"),
     subheadParent: makeNodeComponent("subheadParent"),
     // Metadata about props expected for PlasmicInputRichTextField
     internalVariantProps: PlasmicInputRichTextField__VariantProps,

@@ -196,7 +196,7 @@
   > img {
   margin-top: 4px;
 }
-.freeBox___1Hh0 {
+.freeBox {
   position: relative;
   left: auto;
   top: auto;
@@ -209,7 +209,7 @@
   position: relative;
   flex-direction: column;
 }
-.freeBox___5QGGx {
+.text___5QGGx {
   position: relative;
   font-size: 16px;
   font-weight: 500;
@@ -244,13 +244,13 @@
   > img {
   margin-left: 6px;
 }
-.slotUserFirstname {
+.slotTargetUserFirstname {
   font-size: 14px;
 }
-.slotUserLastName {
+.slotTargetUserLastName {
   font-size: 14px;
 }
-.slotUsername {
+.slotTargetUsername {
   font-size: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
@@ -309,13 +309,13 @@
   > img {
   margin-left: 6px;
 }
-.freeBox__tZkwH {
+.text__tZkwH {
   font-size: 12px;
   width: auto;
   height: auto;
   display: inline-block;
 }
-.slotTimestampDate {
+.slotTargetTimestampDate {
   font-size: 12px;
 }
 .buttonCircleDelete:global(.__wab_instance) {

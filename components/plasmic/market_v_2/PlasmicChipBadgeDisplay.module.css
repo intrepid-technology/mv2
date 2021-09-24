@@ -152,81 +152,87 @@
 .chipDisplayLink__type_link {
   height: auto;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 14px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   line-height: 1;
 }
-.slotChildren__disabled {
+.slotTargetChildren__disabled {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.slotChildren__color_light {
+.slotTargetChildren__color_light {
   color: #999999 /* plasmic-token: UPK7EIst5 */;
 }
-.slotChildren__color_brand {
+.slotTargetChildren__color_brand {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.slotChildren__size__32 {
+.slotTargetChildren__size__32 {
   font-size: 16px;
 }
-.slotChildren__size__36 {
+.slotTargetChildren__size__36 {
   font-size: 18px;
 }
-.slotChildren__size__40 {
+.slotTargetChildren__size__40 {
   font-size: 20px;
 }
-.slotChildren__size__48 {
+.slotTargetChildren__size__48 {
   font-size: 24px;
 }
-.slotChildren__trigger_disabled {
+.slotTargetChildren__trigger_disabled {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.slotChildren__type_outline {
+.slotTargetChildren__type_outline {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.slotChildren__type_link {
+.slotTargetChildren__type_link {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.slotChildren__type_link > *,
-.slotChildren__type_link > .__wab_slot > *,
-.slotChildren__type_link > .__wab_slot > .__wab_slot > *,
-.slotChildren__type_link > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotChildren__type_link > picture > img,
-.slotChildren__type_link > .__wab_slot > picture > img,
-.slotChildren__type_link > .__wab_slot > .__wab_slot > picture > img,
-.slotChildren__type_link
+.slotTargetChildren__type_link > .__wab_text,
+.slotTargetChildren__type_link > .__wab_slot-string-wrapper,
+.slotTargetChildren__type_link > .__wab_slot > .__wab_text,
+.slotTargetChildren__type_link > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetChildren__type_link > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetChildren__type_link
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper,
+.slotTargetChildren__type_link
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot
-  > picture
-  > img {
+  > .__wab_text,
+.slotTargetChildren__type_link
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
   text-decoration-line: underline;
 }
-.slotChildren__type_ghost {
+.slotTargetChildren__type_ghost {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.slotChildren__color_light_trigger_add {
+.slotTargetChildren__color_light_trigger_add {
   line-height: 1;
 }
-.slotChildren__type_ghost_color_brand {
+.slotTargetChildren__type_ghost_color_brand {
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.slotChildren__color_blue_type_ghost {
+.slotTargetChildren__color_blue_type_ghost {
   color: #5c85ff /* plasmic-token: XsRWz_jVS */;
 }
-.slotChildren__type_ghost_color_magenta {
+.slotTargetChildren__type_ghost_color_magenta {
   color: #d65cff /* plasmic-token: Qk8Z99RQL */;
 }
-.slotChildren__type_ghost_color_pink {
+.slotTargetChildren__type_ghost_color_pink {
   color: #ff33ad /* plasmic-token: k-YHrtYlS */;
 }
-.slotChildren__type_ghost_color_green {
+.slotTargetChildren__type_ghost_color_green {
   color: #33d6c9 /* plasmic-token: WerGfd9sF */;
 }
-.chipDisplay:hover .slotChildren {
+.chipDisplay:hover .slotTargetChildren {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.chipDisplay__type_primary:hover .slotChildren__type_primary {
+.chipDisplay__type_primary:hover .slotTargetChildren__type_primary {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 .addTrigger {

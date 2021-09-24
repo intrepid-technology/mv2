@@ -79,44 +79,59 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Text link",
           value: args.text,
-          className: classNames(sty.slotText, {
-            [sty.slotText__color_brand]: hasVariant(variants, "color", "brand"),
-            [sty.slotText__color_dark]: hasVariant(variants, "color", "dark"),
-            [sty.slotText__color_headline]: hasVariant(
+          className: classNames(sty.slotTargetText, {
+            [sty.slotTargetText__color_brand]: hasVariant(
+              variants,
+              "color",
+              "brand"
+            ),
+
+            [sty.slotTargetText__color_dark]: hasVariant(
+              variants,
+              "color",
+              "dark"
+            ),
+
+            [sty.slotTargetText__color_headline]: hasVariant(
               variants,
               "color",
               "headline"
             ),
 
-            [sty.slotText__color_light]: hasVariant(variants, "color", "light"),
-            [sty.slotText__color_light_size__14]:
+            [sty.slotTargetText__color_light]: hasVariant(
+              variants,
+              "color",
+              "light"
+            ),
+
+            [sty.slotTargetText__color_light_size__14]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_14"),
-            [sty.slotText__color_light_size__24]:
+            [sty.slotTargetText__color_light_size__24]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_24"),
-            [sty.slotText__color_light_size__32]:
+            [sty.slotTargetText__color_light_size__32]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_32"),
-            [sty.slotText__color_light_size__40]:
+            [sty.slotTargetText__color_light_size__40]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_40"),
-            [sty.slotText__size__10]: hasVariant(variants, "size", "_10"),
-            [sty.slotText__size__12]: hasVariant(variants, "size", "_12"),
-            [sty.slotText__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.slotText__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.slotText__size__16_color_light]:
+            [sty.slotTargetText__size__10]: hasVariant(variants, "size", "_10"),
+            [sty.slotTargetText__size__12]: hasVariant(variants, "size", "_12"),
+            [sty.slotTargetText__size__14]: hasVariant(variants, "size", "_14"),
+            [sty.slotTargetText__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.slotTargetText__size__16_color_light]:
               hasVariant(variants, "size", "_16") &&
               hasVariant(variants, "color", "light"),
-            [sty.slotText__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.slotText__size__18_color_light]:
+            [sty.slotTargetText__size__18]: hasVariant(variants, "size", "_18"),
+            [sty.slotTargetText__size__18_color_light]:
               hasVariant(variants, "size", "_18") &&
               hasVariant(variants, "color", "light"),
-            [sty.slotText__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.slotText__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.slotText__size__36]: hasVariant(variants, "size", "_36"),
-            [sty.slotText__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.slotText__size__8]: hasVariant(variants, "size", "_8")
+            [sty.slotTargetText__size__24]: hasVariant(variants, "size", "_24"),
+            [sty.slotTargetText__size__32]: hasVariant(variants, "size", "_32"),
+            [sty.slotTargetText__size__36]: hasVariant(variants, "size", "_36"),
+            [sty.slotTargetText__size__40]: hasVariant(variants, "size", "_40"),
+            [sty.slotTargetText__size__8]: hasVariant(variants, "size", "_8")
           })
         })}
       </div>

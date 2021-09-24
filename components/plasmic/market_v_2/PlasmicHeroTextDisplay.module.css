@@ -41,25 +41,25 @@
 .textBody2__size__270 {
   width: 270px;
 }
-.freeBox__iy1X {
+.text__iy1X {
   position: relative;
   font-size: 72px;
   margin-bottom: -18px;
   line-height: 72px;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox__size__360__iy1XqvLrI {
+.text__size__360__iy1XqvLrI {
   margin-top: calc(0px + 0px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: calc(0px + 0px) !important;
 }
-.freeBox__size__270__iy1XFtcWe {
+.text__size__270__iy1XFtcWe {
   font-size: 54px;
   line-height: 1;
   margin-bottom: -12px;
 }
-.freeBox__khuIq {
+.text__khuIq {
   position: relative;
   font-size: 74px;
   margin-bottom: -1px;
@@ -68,45 +68,45 @@
   font-style: italic;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox__size__360__khuIqqvLrI {
+.text__size__360__khuIqqvLrI {
   margin-top: calc(0px + 0px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: calc(0px + 0px) !important;
 }
-.freeBox__size__270__khuIqFtcWe {
+.text__size__270__khuIqFtcWe {
   font-size: 54px;
   line-height: 1;
 }
-.freeBox__tSMpz {
+.text__tSMpz {
   position: relative;
   font-size: 48px;
   margin-bottom: -5px;
   line-height: 48px;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox__size__360__tSMpzqvLrI {
+.text__size__360__tSMpzqvLrI {
   margin-top: calc(0px + 0px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: calc(0px + 0px) !important;
 }
-.freeBox__size__270__tSMpzFtcWe {
+.text__size__270__tSMpzFtcWe {
   font-size: 36px;
   line-height: 1;
 }
-.freeBox__lEl62 {
+.text__lEl62 {
   position: relative;
   font-size: 56px;
   margin-bottom: 0px;
   line-height: 56px;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox__size__270__lEl62FtcWe {
+.text__size__270__lEl62FtcWe {
   font-size: 42px;
   line-height: 1;
 }
-.freeBox__ftHuv {
+.text__ftHuv {
   position: relative;
   font-size: 54px;
   line-height: 54px;
@@ -128,17 +128,17 @@
   -webkit-background-clip: text;
   padding: 0px;
 }
-.freeBox__size__360__ftHuvqvLrI {
+.text__size__360__ftHuvqvLrI {
   margin-top: calc(0px + 0px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: calc(0px + 0px) !important;
 }
-.freeBox__size__270__ftHuvFtcWe {
+.text__size__270__ftHuvFtcWe {
   font-size: 40px;
   line-height: 1;
 }
-.freeBox__y4WL {
+.text__y4WL {
   position: relative;
   font-size: 50px;
   font-weight: 900;
@@ -159,7 +159,7 @@
   -webkit-background-clip: text;
   padding: 0px;
 }
-.freeBox__size__270__y4WLFtcWe {
+.text__size__270__y4WLFtcWe {
   font-size: 37px;
   line-height: 1;
 }
@@ -179,7 +179,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.freeBox__rshCx {
+.text__rshCx {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;
@@ -233,7 +233,7 @@
   left: auto;
   top: auto;
 }
-.freeBox__g3X6M {
+.text__g3X6M {
   position: relative;
   font-size: 144px;
   margin-bottom: -24px;
@@ -241,11 +241,11 @@
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__g3X6M {
+  .text__g3X6M {
     margin-bottom: -18px;
   }
 }
-.freeBox__lE5IM {
+.text__lE5IM {
   position: relative;
   font-size: 148px;
   margin-bottom: -2px;
@@ -254,7 +254,7 @@
   font-style: italic;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox__svY {
+.text__svY {
   position: relative;
   font-size: 96px;
   margin-bottom: -8px;
@@ -262,18 +262,18 @@
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__svY {
+  .text__svY {
     margin-bottom: -4px;
   }
 }
-.freeBox___6YcQd {
+.text___6YcQd {
   position: relative;
   font-size: 112px;
   margin-bottom: 0px;
   line-height: 112px;
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.freeBox___1IZ8J {
+.text___1IZ8J {
   position: relative;
   font-size: 108px;
   line-height: 108px;
@@ -296,11 +296,11 @@
   padding: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox___1IZ8J {
+  .text___1IZ8J {
     margin-bottom: -8px;
   }
 }
-.freeBox__luQgD {
+.text__luQgD {
   position: relative;
   font-size: 100px;
   font-weight: 900;
@@ -337,7 +337,7 @@
   left: auto;
   top: auto;
 }
-.freeBox__fbeOl {
+.text__fbeOl {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;

@@ -57,7 +57,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
             defaultContents:
               "The world's leading brands innovate, transform, and grow with our community",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>

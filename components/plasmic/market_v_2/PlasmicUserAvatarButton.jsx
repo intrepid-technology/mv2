@@ -104,14 +104,13 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img__gOzp)}
-              role={"img"}
               src={"/plasmic/market_v_2/images/image4.png"}
             />
           ),
 
           value: args.avatarImage,
-          className: classNames(sty.slotAvatarImage, {
-            [sty.slotAvatarImage__size__80Px]: hasVariant(
+          className: classNames(sty.slotTargetAvatarImage, {
+            [sty.slotTargetAvatarImage__size__80Px]: hasVariant(
               variants,
               "size",
               "_80Px"

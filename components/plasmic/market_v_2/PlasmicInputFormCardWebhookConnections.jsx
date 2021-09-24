@@ -88,14 +88,14 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "Payout Connections"
                   : "Login Connections",
                 value: args.children,
-                className: classNames(sty.slotChildren, {
-                  [sty.slotChildren__accounting]: hasVariant(
+                className: classNames(sty.slotTargetChildren, {
+                  [sty.slotTargetChildren__accounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotChildren__payment]: hasVariant(
+                  [sty.slotTargetChildren__payment]: hasVariant(
                     variants,
                     "payment",
                     "payment"
@@ -118,14 +118,14 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   ? "Connect your accounting systems to log financing benefits."
                   : "Connect your social accounts to log in to Intrepid.",
                 value: args.slot,
-                className: classNames(sty.slotSlot, {
-                  [sty.slotSlot__accounting]: hasVariant(
+                className: classNames(sty.slotTargetSlot, {
+                  [sty.slotTargetSlot__accounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotSlot__payment]: hasVariant(
+                  [sty.slotTargetSlot__payment]: hasVariant(
                     variants,
                     "payment",
                     "payment"
@@ -248,14 +248,14 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                 defaultContents:
                   "One login connection can be added per third-party service.",
                 value: args.description,
-                className: classNames(sty.slotDescription, {
-                  [sty.slotDescription__accounting]: hasVariant(
+                className: classNames(sty.slotTargetDescription, {
+                  [sty.slotTargetDescription__accounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotDescription__payment]: hasVariant(
+                  [sty.slotTargetDescription__payment]: hasVariant(
                     variants,
                     "payment",
                     "payment"

@@ -196,7 +196,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__xOZjq
+                sty.text__xOZjq
               )}
             >
               {"Followers"}
@@ -226,9 +226,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__qqpfd,
+                sty.text__qqpfd,
                 {
-                  [sty.freeBox__user_member__qqpfdDUag]: hasVariant(
+                  [sty.text__user_member__qqpfdDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -311,9 +311,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__ryhCi,
+                sty.text__ryhCi,
                 {
-                  [sty.freeBox__user_member__ryhCiDUag]: hasVariant(
+                  [sty.text__user_member__ryhCiDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -363,9 +363,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__uRoh2,
+                sty.text__uRoh2,
                 {
-                  [sty.freeBox__user_member__uRoh2DUag]: hasVariant(
+                  [sty.text__user_member__uRoh2DUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -436,9 +436,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__vfmsc,
+                sty.text__vfmsc,
                 {
-                  [sty.freeBox__user_member__vfmscDUag]: hasVariant(
+                  [sty.text__user_member__vfmscDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -490,9 +490,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__xrkqa,
+                sty.text__xrkqa,
                 {
-                  [sty.freeBox__user_member__xrkqaDUag]: hasVariant(
+                  [sty.text__user_member__xrkqaDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -558,9 +558,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__ehvI9,
+                sty.text__ehvI9,
                 {
-                  [sty.freeBox__user_member__ehvI9DUag]: hasVariant(
+                  [sty.text__user_member__ehvI9DUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -609,9 +609,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__ii48V,
+                sty.text__ii48V,
                 {
-                  [sty.freeBox__user_member__ii48VDUag]: hasVariant(
+                  [sty.text__user_member__ii48VDUag]: hasVariant(
                     variants,
                     "user",
                     "member"

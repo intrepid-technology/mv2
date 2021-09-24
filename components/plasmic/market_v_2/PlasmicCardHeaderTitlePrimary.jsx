@@ -48,7 +48,7 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Headline Title",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </h5>
@@ -62,7 +62,7 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Subhead",
             value: args.slot,
-            className: classNames(sty.slotSlot)
+            className: classNames(sty.slotTargetSlot)
           })}
         </div>
       </div>

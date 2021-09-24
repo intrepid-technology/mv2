@@ -37,22 +37,22 @@
   position: relative;
   width: auto;
 }
-.slotText {
+.slotTargetText {
   font-size: 12px;
   line-height: 1.5;
 }
-.slotText__disabled {
+.slotTargetText__disabled {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
-.slotText__size__14Px {
+.slotTargetText__size__14Px {
   font-size: 14px;
 }
-.slotText__size__16Px {
+.slotTargetText__size__16Px {
   font-size: 16px;
 }
-.menuItemLink:hover .slotText {
+.menuItemLink:hover .slotTargetText {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.menuItemLink__disabled:hover .slotText__disabled {
+.menuItemLink__disabled:hover .slotTargetText__disabled {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }

@@ -71,7 +71,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Label",
                 value: args.children,
-                className: classNames(sty.slotChildren)
+                className: classNames(sty.slotTargetChildren)
               })}
             </div>
           </label>
@@ -184,7 +184,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Description",
                 value: args.slot,
-                className: classNames(sty.slotSlot)
+                className: classNames(sty.slotTargetSlot)
               })}
             </div>
           </div>

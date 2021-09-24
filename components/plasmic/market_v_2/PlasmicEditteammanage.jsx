@@ -109,7 +109,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___6QAYz
+                    sty.text___6QAYz
                   )}
                 >
                   {"Manage members"}
@@ -144,7 +144,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ygMqo
+                      sty.text__ygMqo
                     )}
                   >
                     {
@@ -190,7 +190,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__ptzPj
+                          sty.text__ptzPj
                         )}
                       >
                         {"Email"}
@@ -213,7 +213,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox___7A8Rf
+                        sty.text___7A8Rf
                       )}
                     >
                       {"Role"}
@@ -305,7 +305,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xopkA
+                      sty.text__xopkA
                     )}
                   >
                     {"Manage member access roles"}

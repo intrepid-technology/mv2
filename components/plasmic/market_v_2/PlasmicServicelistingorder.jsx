@@ -123,7 +123,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__rf54P
+                    sty.text__rf54P
                   )}
                 >
                   {"Your Order"}
@@ -171,10 +171,12 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         )}
                       >
                         <div
+                          data-plasmic-name={"serviceCategory"}
+                          data-plasmic-override={overrides.serviceCategory}
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox___1FF
+                            sty.serviceCategory
                           )}
                         >
                           {"Category"}
@@ -184,17 +186,19 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__xMgF
+                            sty.text__xMgF
                           )}
                         >
                           {"|"}
                         </div>
 
                         <div
+                          data-plasmic-name={"serviceType"}
+                          data-plasmic-override={overrides.serviceType}
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__thaOu
+                            sty.serviceType
                           )}
                         >
                           {"Service"}
@@ -216,7 +220,6 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         data-plasmic-override={overrides.serviceImage}
                         alt={""}
                         className={classNames(defaultcss.img, sty.serviceImage)}
-                        role={"img"}
                       />
                     </div>
 
@@ -240,7 +243,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__fzj3D
+                            sty.text__fzj3D
                           )}
                         >
                           {"By"}
@@ -250,7 +253,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__kYffC
+                            sty.text__kYffC
                           )}
                         >
                           {"CompanyName"}
@@ -269,7 +272,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__aFrK9
+                            sty.text__aFrK9
                           )}
                         >
                           {"$"}
@@ -279,7 +282,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__eNz1K
+                            sty.text__eNz1K
                           )}
                         >
                           {"000.00"}
@@ -358,7 +361,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__pgLn8
+                    sty.text__pgLn8
                   )}
                 >
                   {"Summary"}
@@ -397,7 +400,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__qzwCj
+                          sty.text__qzwCj
                         )}
                       >
                         {"Description"}
@@ -442,7 +445,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.freeBox__cj2Ey
+                                sty.text__cj2Ey
                               )}
                             >
                               {"Edit"}
@@ -472,7 +475,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__f3LjH
+                          sty.text__f3LjH
                         )}
                       >
                         {"Process"}
@@ -567,7 +570,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.freeBox__ql0Wc
+                                sty.text__ql0Wc
                               )}
                             >
                               {"Edit"}
@@ -597,7 +600,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__d1Qg
+                          sty.text__d1Qg
                         )}
                       >
                         {"Features"}
@@ -694,7 +697,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.freeBox__joXtC
+                                sty.text__joXtC
                               )}
                             >
                               {"Edit"}
@@ -724,7 +727,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__iW1FQ
+                          sty.text__iW1FQ
                         )}
                       >
                         {"Content"}
@@ -789,7 +792,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox__lToR
+                                  sty.text__lToR
                                 )}
                               >
                                 {"Edit"}
@@ -820,7 +823,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__iUaXe
+                          sty.text__iUaXe
                         )}
                       >
                         {"Method"}
@@ -882,7 +885,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox__wNX
+                                  sty.text__wNX
                                 )}
                               >
                                 {"Edit"}
@@ -913,7 +916,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__qnofE
+                          sty.text__qnofE
                         )}
                       >
                         {"Tools"}
@@ -942,7 +945,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__teTol
+                              sty.text__teTol
                             )}
                           >
                             {"Badge"}
@@ -960,7 +963,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__ibwlQ
+                              sty.text__ibwlQ
                             )}
                           >
                             {"Design system"}
@@ -978,7 +981,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__joB
+                              sty.text__joB
                             )}
                           >
                             {"Mobile app"}
@@ -996,7 +999,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__veHrF
+                              sty.text__veHrF
                             )}
                           >
                             {"Web app"}
@@ -1014,7 +1017,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox___7EKwg
+                              sty.text___7EKwg
                             )}
                           >
                             {"E-commerce"}
@@ -1033,7 +1036,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox__yqLaP
+                                  sty.text__yqLaP
                                 )}
                               >
                                 {"Edit"}
@@ -1064,7 +1067,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__lnWes
+                          sty.text__lnWes
                         )}
                       >
                         {"Format"}
@@ -1093,7 +1096,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__zpCu7
+                              sty.text__zpCu7
                             )}
                           >
                             {"Badge"}
@@ -1111,7 +1114,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__ugTJ
+                              sty.text__ugTJ
                             )}
                           >
                             {"Design system"}
@@ -1129,7 +1132,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__s7Snj
+                              sty.text__s7Snj
                             )}
                           >
                             {"Mobile app"}
@@ -1147,7 +1150,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__gaBRk
+                              sty.text__gaBRk
                             )}
                           >
                             {"Web app"}
@@ -1165,7 +1168,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox___6IAlw
+                              sty.text___6IAlw
                             )}
                           >
                             {"E-commerce"}
@@ -1184,7 +1187,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox___2HRAc
+                                  sty.text___2HRAc
                                 )}
                               >
                                 {"Edit"}
@@ -1217,7 +1220,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__iq1En
+                          sty.text__iq1En
                         )}
                       >
                         {"Requirements"}
@@ -1231,7 +1234,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__pkA
+                          sty.text__pkA
                         )}
                       >
                         {
@@ -1291,7 +1294,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox__l7GU
+                                  sty.text__l7GU
                                 )}
                               >
                                 {"Edit"}
@@ -1322,7 +1325,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___2Adi5
+                          sty.text___2Adi5
                         )}
                       >
                         {"Terms"}
@@ -1338,7 +1341,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___8I9Ce
+                          sty.text___8I9Ce
                         )}
                       >
                         {
@@ -1398,7 +1401,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                                 className={classNames(
                                   defaultcss.all,
                                   defaultcss.__wab_text,
-                                  sty.freeBox__os1Ju
+                                  sty.text__os1Ju
                                 )}
                               >
                                 {"Edit"}
@@ -1444,6 +1447,8 @@ const PlasmicDescendants = {
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
     "serviceName",
+    "serviceCategory",
+    "serviceType",
     "serviceImage",
     "orderInputBlock",
     "orderListingInput",
@@ -1480,6 +1485,8 @@ const PlasmicDescendants = {
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
     "serviceName",
+    "serviceCategory",
+    "serviceType",
     "serviceImage",
     "orderInputBlock",
     "orderListingInput",
@@ -1505,11 +1512,22 @@ const PlasmicDescendants = {
     "orderHeadlineTitleImage",
     "orderImageHeroBlock",
     "serviceName",
+    "serviceCategory",
+    "serviceType",
     "serviceImage"
   ],
 
-  orderImageHeroBlock: ["orderImageHeroBlock", "serviceName", "serviceImage"],
+  orderImageHeroBlock: [
+    "orderImageHeroBlock",
+    "serviceName",
+    "serviceCategory",
+    "serviceType",
+    "serviceImage"
+  ],
+
   serviceName: ["serviceName"],
+  serviceCategory: ["serviceCategory"],
+  serviceType: ["serviceType"],
   serviceImage: ["serviceImage"],
   orderInputBlock: [
     "orderInputBlock",
@@ -1621,6 +1639,8 @@ export const PlasmicServicelistingorder = Object.assign(
     orderHeadlineTitleImage: makeNodeComponent("orderHeadlineTitleImage"),
     orderImageHeroBlock: makeNodeComponent("orderImageHeroBlock"),
     serviceName: makeNodeComponent("serviceName"),
+    serviceCategory: makeNodeComponent("serviceCategory"),
+    serviceType: makeNodeComponent("serviceType"),
     serviceImage: makeNodeComponent("serviceImage"),
     orderInputBlock: makeNodeComponent("orderInputBlock"),
     orderListingInput: makeNodeComponent("orderListingInput"),

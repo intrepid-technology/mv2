@@ -179,7 +179,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.freeBox___9Puij
+                                sty.text___9Puij
                               )}
                             >
                               {"Company name"}
@@ -228,7 +228,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__fjFyq
+                          sty.text__fjFyq
                         )}
                       >
                         {"Verified"}
@@ -250,7 +250,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.serviceImageHero}
                   alt={""}
                   className={classNames(defaultcss.img, sty.serviceImageHero)}
-                  role={"img"}
                 />
 
                 <p.Stack
@@ -261,25 +260,21 @@ function PlasmicServicedetail__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__ukRs4)}
-                    role={"img"}
                   />
 
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__zQsDw)}
-                    role={"img"}
                   />
 
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__aZnCu)}
-                    role={"img"}
                   />
 
                   <img
                     alt={""}
                     className={classNames(defaultcss.img, sty.img__vwxzP)}
-                    role={"img"}
                   />
                 </p.Stack>
 
@@ -391,7 +386,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox___1RPqE
+                        sty.text___1RPqE
                       )}
                     >
                       {"Description"}
@@ -415,7 +410,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__cm7I3
+                          sty.text__cm7I3
                         )}
                       >
                         {
@@ -446,7 +441,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__qz6Jr
+                        sty.text__qz6Jr
                       )}
                     >
                       {"Process"}
@@ -473,7 +468,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__ipjIf
+                          sty.text__ipjIf
                         )}
                       >
                         {
@@ -539,7 +534,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__pnud8
+                        sty.text__pnud8
                       )}
                     >
                       {"Features"}
@@ -647,7 +642,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__wMb
+                        sty.text__wMb
                       )}
                     >
                       {"Content"}
@@ -713,7 +708,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__mG8P
+                        sty.text__mG8P
                       )}
                     >
                       {"Method"}
@@ -779,7 +774,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__oi7S0
+                        sty.text__oi7S0
                       )}
                     >
                       {"Tools"}
@@ -860,7 +855,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__cH8Eb
+                        sty.text__cH8Eb
                       )}
                     >
                       {"Format"}
@@ -941,7 +936,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__ucMu5
+                        sty.text__ucMu5
                       )}
                     >
                       {"Requirements"}
@@ -955,7 +950,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox___5OzNn
+                        sty.text___5OzNn
                       )}
                     >
                       {
@@ -1019,7 +1014,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__prl3O
+                        sty.text__prl3O
                       )}
                     >
                       {"Terms"}
@@ -1033,7 +1028,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__a0JSz
+                        sty.text__a0JSz
                       )}
                     >
                       {
@@ -1149,7 +1144,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__uOdZo
+                            sty.text__uOdZo
                           )}
                         >
                           {"10,000"}
@@ -1167,7 +1162,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__m2W9E
+                        sty.text__m2W9E
                       )}
                     >
                       {"Service name"}
@@ -1186,7 +1181,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__mjS0B
+                        sty.text__mjS0B
                       )}
                     >
                       {
@@ -1243,7 +1238,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             defaultcss.img,
                             sty.navUserAvatar32
                           )}
-                          role={"img"}
                           src={"/plasmic/market_v_2/images/image4.png"}
                         />
                       }
@@ -1292,7 +1286,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                               className={classNames(
                                 defaultcss.all,
                                 defaultcss.__wab_text,
-                                sty.freeBox__tSmZz
+                                sty.text__tSmZz
                               )}
                             >
                               {"Company name"}
@@ -1341,7 +1335,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox___133Eb
+                          sty.text___133Eb
                         )}
                       >
                         {"Verified"}
@@ -1362,7 +1356,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__pxCD
+                      sty.text__pxCD
                     )}
                   >
                     {
@@ -1399,7 +1393,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3EPlj
+                      sty.text___3EPlj
                     )}
                   >
                     {"Order now"}
@@ -1418,7 +1412,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__tOLxW
+                      sty.text__tOLxW
                     )}
                   >
                     {"Add to brief"}
@@ -1437,7 +1431,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rgQzD
+                      sty.text__rgQzD
                     )}
                   >
                     {"Request quote"}
@@ -1462,7 +1456,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__eawQa
+                      sty.text__eawQa
                     )}
                   >
                     {"Save"}
@@ -1487,7 +1481,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ffOr8
+                      sty.text__ffOr8
                     )}
                   >
                     {"Share"}

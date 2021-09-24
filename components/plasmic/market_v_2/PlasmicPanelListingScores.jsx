@@ -38,8 +38,10 @@ function PlasmicPanelListingScores__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__aRa9C)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"headline"}
@@ -77,7 +79,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__iCiP
+                sty.text__iCiP
               )}
             >
               {"XXXXX"}
@@ -88,7 +90,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__saOm
+              sty.text__saOm
             )}
           >
             {"Listings"}
@@ -111,7 +113,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__ocmNw
+                sty.text__ocmNw
               )}
             >
               {"XXXXX"}
@@ -122,7 +124,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__aNxVb
+              sty.text__aNxVb
             )}
           >
             {"Views"}
@@ -145,7 +147,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__agzVt
+                sty.text__agzVt
               )}
             >
               {"XXXXX"}
@@ -156,7 +158,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ud4Ep
+              sty.text__ud4Ep
             )}
           >
             {"Reacts"}
@@ -179,7 +181,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__vsewK
+                sty.text__vsewK
               )}
             >
               {"XXXXX"}
@@ -190,7 +192,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__gkZEo
+              sty.text__gkZEo
             )}
           >
             {"Saves"}
@@ -204,6 +206,7 @@ function PlasmicPanelListingScores__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "freeBox",
     "headline",
     "listingStatsParent",
     "elementListingCount",
@@ -216,6 +219,7 @@ const PlasmicDescendants = {
     "savesNumberParent"
   ],
 
+  freeBox: ["freeBox", "headline"],
   headline: ["headline"],
   listingStatsParent: [
     "listingStatsParent",
@@ -270,6 +274,7 @@ export const PlasmicPanelListingScores = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
     headline: makeNodeComponent("headline"),
     listingStatsParent: makeNodeComponent("listingStatsParent"),
     elementListingCount: makeNodeComponent("elementListingCount"),

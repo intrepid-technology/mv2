@@ -65,13 +65,11 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
       {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
         <p.Stack
           as={"div"}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__eV2N, {
-            [sty.freeBox__color_dark__eV2N90H3U]: hasVariant(
-              variants,
-              "color",
-              "dark"
-            )
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
           {(
@@ -109,9 +107,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__hyKmE,
+                    sty.text__hyKmE,
                     {
-                      [sty.freeBox__color_dark__hyKmE90H3U]: hasVariant(
+                      [sty.text__color_dark__hyKmE90H3U]: hasVariant(
                         variants,
                         "color",
                         "dark"
@@ -151,7 +149,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__nAyJs
+                    sty.text__nAyJs
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "desktop")
@@ -180,8 +178,16 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarLogo", "textLinkUnderlinePrimary", "buttonLinkPrimary"],
+  root: [
+    "root",
+    "navbarLogo",
+    "freeBox",
+    "textLinkUnderlinePrimary",
+    "buttonLinkPrimary"
+  ],
+
   navbarLogo: ["navbarLogo"],
+  freeBox: ["freeBox", "textLinkUnderlinePrimary", "buttonLinkPrimary"],
   textLinkUnderlinePrimary: ["textLinkUnderlinePrimary"],
   buttonLinkPrimary: ["buttonLinkPrimary"]
 };
@@ -218,6 +224,7 @@ export const PlasmicNavbarHomeCta = Object.assign(
   {
     // Helper components rendering sub-elements
     navbarLogo: makeNodeComponent("navbarLogo"),
+    freeBox: makeNodeComponent("freeBox"),
     textLinkUnderlinePrimary: makeNodeComponent("textLinkUnderlinePrimary"),
     buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
     // Metadata about props expected for PlasmicNavbarHomeCta

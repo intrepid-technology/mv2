@@ -15,7 +15,7 @@
   height: 32px;
   left: auto;
   top: auto;
-  display: inline-inline-block;
+  display: inline-inline-block !important;
   flex-shrink: 0;
 }
 .img__n8PaC > picture > img {

@@ -38,14 +38,18 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
     >
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox___7YsjM)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___8WzAi
+            sty.text
           )}
         >
           {"Total"}
@@ -67,7 +71,7 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "$",
             value: args.currency,
-            className: classNames(sty.slotCurrency)
+            className: classNames(sty.slotTargetCurrency)
           })}
         </div>
 
@@ -96,12 +100,16 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "freeBox",
+    "text",
     "currencyTotalValueParent",
     "currencyParent",
     "totalValueNumberParent",
     "totalValueNumber"
   ],
 
+  freeBox: ["freeBox", "text"],
+  text: ["text"],
   currencyTotalValueParent: [
     "currencyTotalValueParent",
     "currencyParent",
@@ -146,6 +154,8 @@ export const PlasmicElementCheckoutTotalHeadline = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     currencyTotalValueParent: makeNodeComponent("currencyTotalValueParent"),
     currencyParent: makeNodeComponent("currencyParent"),
     totalValueNumberParent: makeNodeComponent("totalValueNumberParent"),

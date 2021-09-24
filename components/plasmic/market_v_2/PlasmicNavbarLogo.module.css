@@ -19,7 +19,7 @@
   object-fit: cover;
   width: auto;
   height: 32px;
-  display: inline-inline-block;
+  display: inline-inline-block !important;
   flex-shrink: 0;
 }
 .img > picture > img {

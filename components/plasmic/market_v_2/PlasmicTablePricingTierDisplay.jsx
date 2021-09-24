@@ -58,7 +58,7 @@ function PlasmicTablePricingTierDisplay__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Pro",
                 value: args.children,
-                className: classNames(sty.slotChildren)
+                className: classNames(sty.slotTargetChildren)
               })}
             </div>
           </div>
@@ -78,7 +78,7 @@ function PlasmicTablePricingTierDisplay__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Partner",
               value: args.slot2,
-              className: classNames(sty.slotSlot2)
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </div>
@@ -92,7 +92,7 @@ function PlasmicTablePricingTierDisplay__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Description",
           value: args.slot,
-          className: classNames(sty.slotSlot)
+          className: classNames(sty.slotTargetSlot)
         })}
       </div>
     </p.Stack>

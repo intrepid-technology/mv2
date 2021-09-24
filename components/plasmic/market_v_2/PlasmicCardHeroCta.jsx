@@ -42,16 +42,18 @@ function PlasmicCardHeroCta__RenderFunc(props) {
               defaultContents:
                 "Everything an entrepreneur needs to start and grow a global business.",
               value: args.slot2,
-              className: classNames(sty.slotSlot2)
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </div>
 
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__pLkK
+            sty.text
           )}
         >
           {"Creative technology services to do business beyond borders"}
@@ -73,7 +75,6 @@ function PlasmicCardHeroCta__RenderFunc(props) {
           <img
             alt={""}
             className={classNames(defaultcss.img, sty.img__m8Tz3)}
-            role={"img"}
           />
         ),
 
@@ -84,7 +85,8 @@ function PlasmicCardHeroCta__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "buttonPrimary"],
+  root: ["root", "text", "buttonPrimary"],
+  text: ["text"],
   buttonPrimary: ["buttonPrimary"]
 };
 
@@ -119,6 +121,7 @@ export const PlasmicCardHeroCta = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    text: makeNodeComponent("text"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     // Metadata about props expected for PlasmicCardHeroCta
     internalVariantProps: PlasmicCardHeroCta__VariantProps,

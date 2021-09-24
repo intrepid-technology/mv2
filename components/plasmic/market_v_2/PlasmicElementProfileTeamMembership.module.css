@@ -61,7 +61,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__ggIb6 {
+.text__ggIb6 {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -72,7 +72,7 @@
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__ggIb6 {
+  .text__ggIb6 {
     display: block;
     font-size: 24px;
     font-family: "Inter", sans-serif;
@@ -368,7 +368,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__ldMlX {
+.text__ldMlX {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -636,7 +636,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__lig2S {
+.text__lig2S {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -904,7 +904,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__rjnUw {
+.text__rjnUw {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;

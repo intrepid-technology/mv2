@@ -105,7 +105,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__mbL5D
+                    sty.text__mbL5D
                   )}
                 >
                   {"Step 4"}
@@ -117,7 +117,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__p8Gw
+                  sty.text__p8Gw
                 )}
               >
                 {"How much time is required to deliver your service?"}
@@ -165,7 +165,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__snn5
+                    sty.text__snn5
                   )}
                 >
                   {"Step 2"}
@@ -177,7 +177,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__g7Rsl
+                  sty.text__g7Rsl
                 )}
               >
                 {"How many meetings will you offer your client?"}
@@ -227,7 +227,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__wBaev
+                    sty.text__wBaev
                   )}
                 >
                   {"Step 2"}
@@ -239,7 +239,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__by8Qo
+                  sty.text__by8Qo
                 )}
               >
                 {"How many revisions will you offer your client?"}
@@ -306,7 +306,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__gBqE8
+                      sty.text__gBqE8
                     )}
                   >
                     {"Step 2"}
@@ -318,7 +318,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__py2Sc
+                    sty.text__py2Sc
                   )}
                 >
                   {"What do you require from the client to start your service?"}
@@ -390,7 +390,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__d40N6
+                    sty.text__d40N6
                   )}
                 >
                   {"Step 2"}
@@ -402,7 +402,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__zmCp2
+                  sty.text__zmCp2
                 )}
               >
                 {"What format(s) will you provide the client?"}
@@ -424,7 +424,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__gkwVx
+                    sty.text__gkwVx
                   )}
                 >
                   {"Badge"}

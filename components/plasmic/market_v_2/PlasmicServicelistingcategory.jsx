@@ -113,7 +113,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__pkXf3
+                      sty.text__pkXf3
                     )}
                   >
                     {"Step 1"}
@@ -125,7 +125,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__zq3QH
+                    sty.text__zq3QH
                   )}
                 >
                   {"What kind of service are you listing?"}
@@ -134,20 +134,23 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
 
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"dropdown"}
+                data-plasmic-override={overrides.dropdown}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__x298X)}
+                className={classNames(defaultcss.all, sty.dropdown)}
               >
                 <ButtonFormDropdownSelect
+                  data-plasmic-name={"serviceCategory"}
+                  data-plasmic-override={overrides.serviceCategory}
                   dropdownTitle={"Select"}
                   headlineLabelTitle={"Select a service category"}
                   size={"_360X40"}
                 />
 
                 <ButtonFormDropdownSelect
-                  className={classNames(
-                    "__wab_instance",
-                    sty.buttonFormDropdownSelect__tbnG
-                  )}
+                  data-plasmic-name={"serviceSelection"}
+                  data-plasmic-override={overrides.serviceSelection}
+                  className={classNames("__wab_instance", sty.serviceSelection)}
                   dropdownTitle={"Select"}
                   headlineLabelTitle={"Select a service"}
                   size={"_360X40"}
@@ -191,7 +194,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3EZpz
+                      sty.text___3EZpz
                     )}
                   >
                     {"Step 2"}
@@ -203,7 +206,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___1Seve
+                    sty.text___1Seve
                   )}
                 >
                   {"What features are included?"}
@@ -211,13 +214,10 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               </CardQuestionServiceListing>
 
               <SectionServiceFeatures
-                data-plasmic-name={"sectionServiceFeatures"}
-                data-plasmic-override={overrides.sectionServiceFeatures}
+                data-plasmic-name={"serviceFeatures"}
+                data-plasmic-override={overrides.serviceFeatures}
                 breadcrumbs={"breadcrumbs"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.sectionServiceFeatures
-                )}
+                className={classNames("__wab_instance", sty.serviceFeatures)}
                 uxDesign={"userResearch"}
               />
             </p.Stack>
@@ -254,7 +254,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ec2Tr
+                      sty.text__ec2Tr
                     )}
                   >
                     {"Step 2"}
@@ -266,7 +266,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__bmB1
+                    sty.text__bmB1
                   )}
                 >
                   {"What content is included?"}
@@ -317,7 +317,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__x2Yx9
+                      sty.text__x2Yx9
                     )}
                   >
                     {"Step 2"}
@@ -328,7 +328,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__bIpMh
+                      sty.text__bIpMh
                     )}
                   >
                     {"Choose industry tags for better matching. Max 5 tags."}
@@ -339,7 +339,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__kUwyk
+                    sty.text__kUwyk
                   )}
                 >
                   {"What is the industry community for your service?"}
@@ -347,7 +347,9 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               </CardQuestionServiceListing>
 
               <SearchBadge
-                className={classNames("__wab_instance", sty.searchBadge__icJl8)}
+                data-plasmic-name={"industrySearch"}
+                data-plasmic-override={overrides.industrySearch}
+                className={classNames("__wab_instance", sty.industrySearch)}
               >
                 <ChipBadgeDisplay
                   className={classNames(
@@ -360,7 +362,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__iTzFp
+                      sty.text__iTzFp
                     )}
                   >
                     {"Badge"}
@@ -378,7 +380,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__i3Mav
+                      sty.text__i3Mav
                     )}
                   >
                     {"Badge"}
@@ -396,7 +398,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__kItB5
+                      sty.text__kItB5
                     )}
                   >
                     {"Badge"}
@@ -414,7 +416,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___3KdQz
+                      sty.text___3KdQz
                     )}
                   >
                     {"Badge"}
@@ -432,7 +434,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__bDUg
+                      sty.text__bDUg
                     )}
                   >
                     {"Badge"}
@@ -450,7 +452,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__cCYr
+                      sty.text__cCYr
                     )}
                   >
                     {"Badge"}
@@ -491,7 +493,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___5Hiy
+                      sty.text___5Hiy
                     )}
                   >
                     {"Step 2"}
@@ -505,7 +507,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__dwbMk
+                    sty.text__dwbMk
                   )}
                 >
                   {"What tools, or technology do you use for your service?"}
@@ -513,10 +515,9 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               </CardQuestionServiceListing>
 
               <SearchBadge
-                className={classNames(
-                  "__wab_instance",
-                  sty.searchBadge___0Gt9X
-                )}
+                data-plasmic-name={"toolSearch"}
+                data-plasmic-override={overrides.toolSearch}
+                className={classNames("__wab_instance", sty.toolSearch)}
               >
                 <ChipBadgeDisplay
                   className={classNames(
@@ -529,7 +530,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__x1CJ
+                      sty.text__x1CJ
                     )}
                   >
                     {"Badge"}
@@ -547,7 +548,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xco1P
+                      sty.text__xco1P
                     )}
                   >
                     {"Badge"}
@@ -565,7 +566,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___9Y1PI
+                      sty.text___9Y1PI
                     )}
                   >
                     {"Badge"}
@@ -583,7 +584,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ptPw5
+                      sty.text__ptPw5
                     )}
                   >
                     {"Badge"}
@@ -601,7 +602,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ioDe
+                      sty.text__ioDe
                     )}
                   >
                     {"Badge"}
@@ -619,7 +620,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__xKpSu
+                      sty.text__xKpSu
                     )}
                   >
                     {"Badge"}
@@ -639,7 +640,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox___1Gzs4
+                  sty.text___1Gzs4
                 )}
               >
                 {
@@ -667,12 +668,17 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionCategoryBlock",
+    "dropdown",
+    "serviceCategory",
+    "serviceSelection",
     "questionFeaturesBlock",
-    "sectionServiceFeatures",
+    "serviceFeatures",
     "questionContentBlock",
     "sectionServiceContent",
     "questionIndustryBlock",
+    "industrySearch",
     "questionToolsBlock",
+    "toolSearch",
     "footerServiceListing"
   ],
 
@@ -684,13 +690,24 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionCategoryBlock: ["questionCategoryBlock"],
-  questionFeaturesBlock: ["questionFeaturesBlock", "sectionServiceFeatures"],
-  sectionServiceFeatures: ["sectionServiceFeatures"],
+  questionCategoryBlock: [
+    "questionCategoryBlock",
+    "dropdown",
+    "serviceCategory",
+    "serviceSelection"
+  ],
+
+  dropdown: ["dropdown", "serviceCategory", "serviceSelection"],
+  serviceCategory: ["serviceCategory"],
+  serviceSelection: ["serviceSelection"],
+  questionFeaturesBlock: ["questionFeaturesBlock", "serviceFeatures"],
+  serviceFeatures: ["serviceFeatures"],
   questionContentBlock: ["questionContentBlock", "sectionServiceContent"],
   sectionServiceContent: ["sectionServiceContent"],
-  questionIndustryBlock: ["questionIndustryBlock"],
-  questionToolsBlock: ["questionToolsBlock"],
+  questionIndustryBlock: ["questionIndustryBlock", "industrySearch"],
+  industrySearch: ["industrySearch"],
+  questionToolsBlock: ["questionToolsBlock", "toolSearch"],
+  toolSearch: ["toolSearch"],
   footerServiceListing: ["footerServiceListing"]
 };
 
@@ -729,12 +746,17 @@ export const PlasmicServicelistingcategory = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionCategoryBlock: makeNodeComponent("questionCategoryBlock"),
+    dropdown: makeNodeComponent("dropdown"),
+    serviceCategory: makeNodeComponent("serviceCategory"),
+    serviceSelection: makeNodeComponent("serviceSelection"),
     questionFeaturesBlock: makeNodeComponent("questionFeaturesBlock"),
-    sectionServiceFeatures: makeNodeComponent("sectionServiceFeatures"),
+    serviceFeatures: makeNodeComponent("serviceFeatures"),
     questionContentBlock: makeNodeComponent("questionContentBlock"),
     sectionServiceContent: makeNodeComponent("sectionServiceContent"),
     questionIndustryBlock: makeNodeComponent("questionIndustryBlock"),
+    industrySearch: makeNodeComponent("industrySearch"),
     questionToolsBlock: makeNodeComponent("questionToolsBlock"),
+    toolSearch: makeNodeComponent("toolSearch"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingcategory
     internalVariantProps: PlasmicServicelistingcategory__VariantProps,

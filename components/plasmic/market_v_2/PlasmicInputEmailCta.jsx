@@ -80,8 +80,8 @@ function PlasmicInputEmailCta__RenderFunc(props) {
               defaultContents:
                 "Turn your services into a scalable & profitable business",
               value: args.children,
-              className: classNames(sty.slotChildren, {
-                [sty.slotChildren__size__720]: hasVariant(
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__size__720]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -94,8 +94,8 @@ function PlasmicInputEmailCta__RenderFunc(props) {
                 defaultContents:
                   "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",
                 value: args.slot,
-                className: classNames(sty.slotSlot, {
-                  [sty.slotSlot__size__720]: hasVariant(
+                className: classNames(sty.slotTargetSlot, {
+                  [sty.slotTargetSlot__size__720]: hasVariant(
                     variants,
                     "size",
                     "_720"

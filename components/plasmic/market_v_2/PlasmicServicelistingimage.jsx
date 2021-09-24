@@ -111,7 +111,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__r5CWc
+                      sty.text__r5CWc
                     )}
                   >
                     {"Step 3"}
@@ -123,7 +123,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__ir20P
+                    sty.text__ir20P
                   )}
                 >
                   {"What will your finished service look like?"}
@@ -136,7 +136,9 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.freeBox__wbEqK)}
               >
                 <button
-                  className={classNames(defaultcss.button, sty.button__sOrr)}
+                  data-plasmic-name={"mainImage"}
+                  data-plasmic-override={overrides.mainImage}
+                  className={classNames(defaultcss.button, sty.mainImage)}
                 >
                   <div
                     className={classNames(defaultcss.all, sty.freeBox__n0Uu4)}
@@ -248,6 +250,7 @@ const PlasmicDescendants = {
     "progressBar",
     "questionImageBlock",
     "cardQuestionServiceListing",
+    "mainImage",
     "toolTipServiceListing",
     "footerServiceListing"
   ],
@@ -260,8 +263,14 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionImageBlock: ["questionImageBlock", "cardQuestionServiceListing"],
+  questionImageBlock: [
+    "questionImageBlock",
+    "cardQuestionServiceListing",
+    "mainImage"
+  ],
+
   cardQuestionServiceListing: ["cardQuestionServiceListing"],
+  mainImage: ["mainImage"],
   toolTipServiceListing: ["toolTipServiceListing"],
   footerServiceListing: ["footerServiceListing"]
 };
@@ -302,6 +311,7 @@ export const PlasmicServicelistingimage = Object.assign(
     progressBar: makeNodeComponent("progressBar"),
     questionImageBlock: makeNodeComponent("questionImageBlock"),
     cardQuestionServiceListing: makeNodeComponent("cardQuestionServiceListing"),
+    mainImage: makeNodeComponent("mainImage"),
     toolTipServiceListing: makeNodeComponent("toolTipServiceListing"),
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingimage

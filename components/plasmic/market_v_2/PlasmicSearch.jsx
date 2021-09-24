@@ -87,7 +87,7 @@ function PlasmicSearch__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__wnn9X
+                    sty.text__wnn9X
                   )}
                 >
                   {"Discover the community"}
@@ -99,7 +99,7 @@ function PlasmicSearch__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__iAdTm
+                    sty.text__iAdTm
                   )}
                 >
                   {
@@ -130,7 +130,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__lvUbZ
+                      sty.text__lvUbZ
                     )}
                   >
                     {"Select"}
@@ -149,7 +149,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__mjB1W
+                      sty.text__mjB1W
                     )}
                   >
                     {"Select"}
@@ -168,7 +168,7 @@ function PlasmicSearch__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__gmh8B
+                      sty.text__gmh8B
                     )}
                   >
                     {"Select"}
@@ -418,7 +418,7 @@ function PlasmicSearch__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__jMIx
+                  sty.text__jMIx
                 )}
               >
                 {"Load more"}

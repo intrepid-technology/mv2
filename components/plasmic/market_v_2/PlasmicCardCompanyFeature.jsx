@@ -48,7 +48,6 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img__ujhJo)}
-              role={"img"}
             />
           ),
 
@@ -66,7 +65,7 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Company Name",
               value: args.children,
-              className: classNames(sty.slotChildren)
+              className: classNames(sty.slotTargetChildren)
             })}
           </div>
         </div>
@@ -84,7 +83,7 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
               ),
 
               value: args.slot,
-              className: classNames(sty.slotSlot)
+              className: classNames(sty.slotTargetSlot)
             })}
           </div>
         </div>
@@ -95,7 +94,7 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
               defaultContents:
                 "Company Description - the tagline that describes them",
               value: args.slot2,
-              className: classNames(sty.slotSlot2)
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </div>

@@ -42,8 +42,8 @@ function PlasmicTextMultiLineA__RenderFunc(props) {
       {p.renderPlasmicSlot({
         defaultContents: "Headline",
         value: args.children,
-        className: classNames(sty.slotChildren, {
-          [sty.slotChildren__size_medium]: hasVariant(
+        className: classNames(sty.slotTargetChildren, {
+          [sty.slotTargetChildren__size_medium]: hasVariant(
             variants,
             "size",
             "medium"

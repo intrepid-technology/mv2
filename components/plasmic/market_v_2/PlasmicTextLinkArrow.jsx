@@ -118,26 +118,30 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
               ),
 
               value: args.svgLeft,
-              className: classNames(sty.slotSvgLeft, {
-                [sty.slotSvgLeft__color_brand]: hasVariant(
+              className: classNames(sty.slotTargetSvgLeft, {
+                [sty.slotTargetSvgLeft__color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotSvgLeft__color_dark]: hasVariant(
+                [sty.slotTargetSvgLeft__color_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotSvgLeft__color_light]: hasVariant(
+                [sty.slotTargetSvgLeft__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotSvgLeft__size__16]: hasVariant(variants, "size", "_16")
+                [sty.slotTargetSvgLeft__size__16]: hasVariant(
+                  variants,
+                  "size",
+                  "_16"
+                )
               })
             })}
           </div>
@@ -145,29 +149,48 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "link ",
           value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__color_brand]: hasVariant(
+          className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildren__color_brand]: hasVariant(
               variants,
               "color",
               "brand"
             ),
 
-            [sty.slotChildren__color_dark]: hasVariant(
+            [sty.slotTargetChildren__color_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.slotChildren__color_light]: hasVariant(
+            [sty.slotTargetChildren__color_light]: hasVariant(
               variants,
               "color",
               "light"
             ),
 
-            [sty.slotChildren__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.slotChildren__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.slotChildren__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.slotChildren__size__24]: hasVariant(variants, "size", "_24")
+            [sty.slotTargetChildren__size__14]: hasVariant(
+              variants,
+              "size",
+              "_14"
+            ),
+
+            [sty.slotTargetChildren__size__16]: hasVariant(
+              variants,
+              "size",
+              "_16"
+            ),
+
+            [sty.slotTargetChildren__size__18]: hasVariant(
+              variants,
+              "size",
+              "_18"
+            ),
+
+            [sty.slotTargetChildren__size__24]: hasVariant(
+              variants,
+              "size",
+              "_24"
+            )
           })
         })}
 
@@ -216,23 +239,23 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
               ),
 
               value: args.svgRight,
-              className: classNames(sty.slotSvgRight, {
-                [sty.slotSvgRight__color_brand]: hasVariant(
+              className: classNames(sty.slotTargetSvgRight, {
+                [sty.slotTargetSvgRight__color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotSvgRight__color_brand_direction_right]:
+                [sty.slotTargetSvgRight__color_brand_direction_right]:
                   hasVariant(variants, "color", "brand") &&
                   hasVariant(variants, "direction", "right"),
-                [sty.slotSvgRight__color_dark]: hasVariant(
+                [sty.slotTargetSvgRight__color_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotSvgRight__color_light]: hasVariant(
+                [sty.slotTargetSvgRight__color_light]: hasVariant(
                   variants,
                   "color",
                   "light"

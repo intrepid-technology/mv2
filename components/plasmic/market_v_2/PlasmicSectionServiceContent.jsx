@@ -71,74 +71,66 @@ function PlasmicSectionServiceContent__RenderFunc(props) {
               ? "Web | Application | Multi-page"
               : "Web | Application | Multi-Screen",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__breadcrumbs]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__breadcrumbs]: hasVariant(
                 variants,
                 "breadcrumbs",
                 "breadcrumbs"
               ),
 
-              [sty.slotChildren__serviceType_designSystem]: hasVariant(
+              [sty.slotTargetChildren__serviceType_designSystem]: hasVariant(
                 variants,
                 "serviceType",
                 "designSystem"
               ),
 
-              [sty.slotChildren__serviceType_mobileCommerce]: hasVariant(
+              [sty.slotTargetChildren__serviceType_mobileCommerce]: hasVariant(
                 variants,
                 "serviceType",
                 "mobileCommerce"
               ),
 
-              [sty.slotChildren__serviceType_mobile]: hasVariant(
+              [sty.slotTargetChildren__serviceType_mobile]: hasVariant(
                 variants,
                 "serviceType",
                 "mobile"
               ),
 
-              [sty.slotChildren__serviceType_prototype]: hasVariant(
+              [sty.slotTargetChildren__serviceType_prototype]: hasVariant(
                 variants,
                 "serviceType",
                 "prototype"
               ),
 
-              [sty.slotChildren__serviceType_slidePresentation]: hasVariant(
-                variants,
-                "serviceType",
-                "slidePresentation"
-              ),
-
-              [sty.slotChildren__serviceType_usabilityTesting]: hasVariant(
-                variants,
-                "serviceType",
-                "usabilityTesting"
-              ),
-
-              [sty.slotChildren__serviceType_userResearch]: hasVariant(
+              [sty.slotTargetChildren__serviceType_slidePresentation]:
+                hasVariant(variants, "serviceType", "slidePresentation"),
+              [sty.slotTargetChildren__serviceType_usabilityTesting]:
+                hasVariant(variants, "serviceType", "usabilityTesting"),
+              [sty.slotTargetChildren__serviceType_userResearch]: hasVariant(
                 variants,
                 "serviceType",
                 "userResearch"
               ),
 
-              [sty.slotChildren__serviceType_webEcommerce]: hasVariant(
+              [sty.slotTargetChildren__serviceType_webEcommerce]: hasVariant(
                 variants,
                 "serviceType",
                 "webEcommerce"
               ),
 
-              [sty.slotChildren__serviceType_webMultiplePage]: hasVariant(
+              [sty.slotTargetChildren__serviceType_webMultiplePage]: hasVariant(
                 variants,
                 "serviceType",
                 "webMultiplePage"
               ),
 
-              [sty.slotChildren__serviceType_webSinglePage]: hasVariant(
+              [sty.slotTargetChildren__serviceType_webSinglePage]: hasVariant(
                 variants,
                 "serviceType",
                 "webSinglePage"
               ),
 
-              [sty.slotChildren__serviceType_wireframes]: hasVariant(
+              [sty.slotTargetChildren__serviceType_wireframes]: hasVariant(
                 variants,
                 "serviceType",
                 "wireframes"

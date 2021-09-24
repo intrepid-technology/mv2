@@ -44,13 +44,9 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <div
-        data-plasmic-name={"freeBox"}
-        data-plasmic-override={overrides.freeBox}
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {"Features"}
       </div>
@@ -73,7 +69,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__mUsKx
+                  sty.text__mUsKx
                 )}
               >
                 {"feature value proposition"}
@@ -95,7 +91,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__fnf3Q
+                  sty.text__fnf3Q
                 )}
               >
                 {"feature value proposition"}
@@ -144,8 +140,8 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "elementFeatureValueListItems"],
-  freeBox: ["freeBox"],
+  root: ["root", "text", "elementFeatureValueListItems"],
+  text: ["text"],
   elementFeatureValueListItems: ["elementFeatureValueListItems"]
 };
 
@@ -181,7 +177,7 @@ export const PlasmicPricingPageElementFeaturesBlock = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     elementFeatureValueListItems: makeNodeComponent(
       "elementFeatureValueListItems"
     ),

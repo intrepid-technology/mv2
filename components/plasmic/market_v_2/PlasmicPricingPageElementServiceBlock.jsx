@@ -66,7 +66,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Service",
             value: args.slot6,
-            className: classNames(sty.slotSlot6)
+            className: classNames(sty.slotTargetSlot6)
           })}
         </div>
       </div>
@@ -112,7 +112,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         featureValuePropText={p.renderPlasmicSlot({
           defaultContents: "Service rate on earned income",
           value: args.slot4,
-          className: classNames(sty.slotSlot4)
+          className: classNames(sty.slotTargetSlot4)
         })}
         numberValue={p.renderPlasmicSlot({
           defaultContents: "5",

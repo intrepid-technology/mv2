@@ -44,7 +44,6 @@ function PlasmicCardTestimonial__RenderFunc(props) {
           <img
             alt={""}
             className={classNames(defaultcss.img, sty.img__ju0U3)}
-            role={"img"}
           />
         ),
 
@@ -58,7 +57,7 @@ function PlasmicCardTestimonial__RenderFunc(props) {
               defaultContents:
                 "Our company had an excellent experience with Intrepid. As a startup, we had a limited budget, and we were on a tight deadline. We needed a mobile app for our fintech application, that has complicated features. But it ended up being super easy to find a purchase a package. In the end, the process was smooth and straightforward.”",
               value: args.children,
-              className: classNames(sty.slotChildren)
+              className: classNames(sty.slotTargetChildren)
             })}
           </div>
         </div>
@@ -68,7 +67,7 @@ function PlasmicCardTestimonial__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Collin Thompson",
               value: args.slot,
-              className: classNames(sty.slotSlot)
+              className: classNames(sty.slotTargetSlot)
             })}
           </div>
         </div>
@@ -78,7 +77,7 @@ function PlasmicCardTestimonial__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "CEO @ Intrepid",
               value: args.slot2,
-              className: classNames(sty.slotSlot2)
+              className: classNames(sty.slotTargetSlot2)
             })}
           </div>
         </div>

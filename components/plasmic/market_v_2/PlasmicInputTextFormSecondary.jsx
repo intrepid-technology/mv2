@@ -63,7 +63,7 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Label",
               value: args.label,
-              className: classNames(sty.slotLabel)
+              className: classNames(sty.slotTargetLabel)
             })}
           </div>
         </label>
@@ -167,8 +167,8 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Description",
                 value: args.description,
-                className: classNames(sty.slotDescription, {
-                  [sty.slotDescription__subhead]: hasVariant(
+                className: classNames(sty.slotTargetDescription, {
+                  [sty.slotTargetDescription__subhead]: hasVariant(
                     variants,
                     "subhead",
                     "subhead"

@@ -71,7 +71,6 @@ function PlasmicFooter__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__sdyFl)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
               />
             ),
@@ -94,7 +93,7 @@ function PlasmicFooter__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__fvAb7
+                sty.text__fvAb7
               )}
             >
               {"Company"}
@@ -137,7 +136,7 @@ function PlasmicFooter__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__rqdjj
+                sty.text__rqdjj
               )}
             >
               {"News & Insights"}
@@ -241,7 +240,7 @@ function PlasmicFooter__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__bTvuc
+                sty.text__bTvuc
               )}
             >
               {"Community"}
@@ -404,7 +403,7 @@ function PlasmicFooter__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__mJnXf
+              sty.text__mJnXf
             )}
           >
             {"© Intrepid Financial Technologies, Inc "}

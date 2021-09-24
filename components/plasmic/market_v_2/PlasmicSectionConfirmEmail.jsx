@@ -110,7 +110,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "We’re super excited you signed up!",
                 value: args.textSlot,
-                className: classNames(sty.slotTextSlot)
+                className: classNames(sty.slotTargetTextSlot)
               })}
             </div>
           </div>
@@ -125,7 +125,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 defaultContents:
                   "We’ve sent a message to your email address with a link to activate your account.",
                 value: args.textSlotB,
-                className: classNames(sty.slotTextSlotB)
+                className: classNames(sty.slotTargetTextSlotB)
               })}
             </div>
           </div>
@@ -140,7 +140,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 defaultContents:
                   "To complete the sign-up process, please follow the instructions",
                 value: args.textSlotC,
-                className: classNames(sty.slotTextSlotC)
+                className: classNames(sty.slotTargetTextSlotC)
               })}
             </div>
           </div>
@@ -172,7 +172,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Didn't receive the email?",
                 value: args.buttonHeadlineTextSlot,
-                className: classNames(sty.slotButtonHeadlineTextSlot)
+                className: classNames(sty.slotTargetButtonHeadlineTextSlot)
               })}
             </p.Stack>
 
@@ -196,7 +196,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__iYy4D
+                    sty.text__iYy4D
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "desktop")
@@ -248,7 +248,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__yK0Zp
+                      sty.text__yK0Zp
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobile")

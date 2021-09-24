@@ -250,7 +250,7 @@
   width: 100%;
   min-width: 0;
 }
-.freeBox__eFmvs {
+.text__eFmvs {
   line-height: 1.2;
   width: 100%;
   height: auto;
@@ -285,7 +285,7 @@
 .badgeCommunityRating:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__kHCt1 {
+.text__kHCt1 {
   position: relative;
   font-size: 16px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
@@ -344,7 +344,7 @@
     min-width: 0;
   }
 }
-.freeBox___5Tvli {
+.text___5Tvli {
   display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
@@ -361,7 +361,7 @@
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox___5Tvli {
+  .text___5Tvli {
     width: 100%;
     font-size: 24px;
     min-width: 0;
@@ -524,6 +524,6 @@
 .buttonLinkPrimary__userState_loggedIn:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.freeBox__userState_loggedIn__usI4OPUN {
+.text__userState_loggedIn__usI4OPUN {
   font-size: 16px;
 }

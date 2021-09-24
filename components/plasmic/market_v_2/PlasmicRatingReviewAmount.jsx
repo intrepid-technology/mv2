@@ -39,7 +39,7 @@ function PlasmicRatingReviewAmount__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "(12)",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>

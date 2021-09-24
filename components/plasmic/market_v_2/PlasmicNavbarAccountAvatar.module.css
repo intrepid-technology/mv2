@@ -35,19 +35,19 @@
 .accountAvatar:hover {
   border-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.slotChildren__color_darkBg {
+.slotTargetChildren__color_darkBg {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
-.slotChildren__color_brand {
+.slotTargetChildren__color_brand {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
-.accountAvatar__color_lightBg:hover .slotChildren__color_lightBg {
+.accountAvatar__color_lightBg:hover .slotTargetChildren__color_lightBg {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.accountAvatar__color_darkBg:hover .slotChildren__color_darkBg {
+.accountAvatar__color_darkBg:hover .slotTargetChildren__color_darkBg {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.accountAvatar__color_brand:hover .slotChildren__color_brand {
+.accountAvatar__color_brand:hover .slotTargetChildren__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .svg__jjCee {

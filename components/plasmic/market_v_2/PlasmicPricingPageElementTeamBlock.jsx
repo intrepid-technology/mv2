@@ -47,7 +47,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Team",
             value: args.slot3,
-            className: classNames(sty.slotSlot3)
+            className: classNames(sty.slotTargetSlot3)
           })}
         </div>
       </div>
@@ -90,7 +90,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "3",
                 value: args.slot,
-                className: classNames(sty.slotSlot)
+                className: classNames(sty.slotTargetSlot)
               })}
             </div>
           </p.Stack>
@@ -99,7 +99,7 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Team members included",
               value: args.children,
-              className: classNames(sty.slotChildren)
+              className: classNames(sty.slotTargetChildren)
             })}
           </div>
         </p.Stack>

@@ -106,7 +106,7 @@
   justify-content: center;
   min-width: 0;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -115,11 +115,11 @@
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
   text-align: left;
 }
-.slotHeadline__size__160 {
+.slotTargetHeadline__size__160 {
   font-size: 14px;
   line-height: 1.2;
 }
-.slotHeadline__size__270 {
+.slotTargetHeadline__size__270 {
   font-size: 16px;
 }
 .textBodyParent {
@@ -133,7 +133,7 @@
   height: auto;
   min-width: 0;
 }
-.slotTextBody {
+.slotTargetTextBody {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -142,7 +142,7 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   text-align: left;
 }
-.slotTextBody__size__160 {
+.slotTargetTextBody__size__160 {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

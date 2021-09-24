@@ -57,7 +57,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__dkh9N
+            sty.text__dkh9N
           )}
         >
           {"1"}
@@ -74,7 +74,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__oWCg
+                sty.text__oWCg
               )}
             >
               {"Edit"}
@@ -88,7 +88,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___9H71
+            sty.text___9H71
           )}
         >
           {"$"}
@@ -98,7 +98,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__yizoe
+            sty.text__yizoe
           )}
         >
           {"XXXX"}
@@ -110,7 +110,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___4EWTk
+            sty.text___4EWTk
           )}
         >
           {"XX"}
@@ -120,7 +120,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___3We2J
+            sty.text___3We2J
           )}
         >
           {"/"}
@@ -130,7 +130,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox___6CKul
+            sty.text___6CKul
           )}
         >
           {"XXXX"}

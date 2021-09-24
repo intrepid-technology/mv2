@@ -21,24 +21,24 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 4px;
 }
-.freeBox__aRa9C {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;
   width: 100%;
   min-width: 0;
 }
-.freeBox__aRa9C > :global(.__wab_flex-container) {
+.freeBox > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.freeBox__aRa9C > :global(.__wab_flex-container) > *,
-.freeBox__aRa9C > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__aRa9C > :global(.__wab_flex-container) > picture > img,
-.freeBox__aRa9C
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -125,7 +125,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__iCiP {
+.text__iCiP {
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
@@ -135,7 +135,7 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__saOm {
+.text__saOm {
   position: relative;
   left: auto;
   top: auto;
@@ -185,7 +185,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__ocmNw {
+.text__ocmNw {
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
@@ -195,7 +195,7 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__aNxVb {
+.text__aNxVb {
   position: relative;
   left: auto;
   top: auto;
@@ -245,7 +245,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__agzVt {
+.text__agzVt {
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
@@ -255,7 +255,7 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__ud4Ep {
+.text__ud4Ep {
   position: relative;
   left: auto;
   top: auto;
@@ -305,7 +305,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__vsewK {
+.text__vsewK {
   line-height: 1;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
@@ -315,7 +315,7 @@
   text-align: center;
   min-width: 0;
 }
-.freeBox__gkZEo {
+.text__gkZEo {
   position: relative;
   left: auto;
   top: auto;

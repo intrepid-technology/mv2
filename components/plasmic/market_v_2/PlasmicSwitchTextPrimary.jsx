@@ -54,7 +54,7 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Enter some text",
             value: args.text,
-            className: classNames(sty.slotText)
+            className: classNames(sty.slotTargetText)
           })}
         </div>
       </div>

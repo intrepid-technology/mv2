@@ -44,7 +44,7 @@
   top: auto;
   left: auto;
 }
-.freeBox___4TIqA {
+.text___4TIqA {
   display: block;
   font-size: 10px;
   font-family: "Inter", sans-serif;
@@ -54,7 +54,7 @@
   align-self: stretch;
   width: 190px;
 }
-.freeBox__color_dark___4TIqAsxLuv {
+.text__color_dark___4TIqAsxLuv {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }
 .footerSocialLinkGroup:global(.__wab_instance) {
@@ -184,7 +184,7 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox__i6J {
+.freeBox {
   display: inline-flex;
   position: absolute;
   flex-direction: row;
@@ -195,17 +195,17 @@
   align-self: auto;
   right: 0px;
 }
-.freeBox__i6J > :global(.__wab_flex-container) {
+.freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
-.freeBox__i6J > :global(.__wab_flex-container) > *,
-.freeBox__i6J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__i6J > :global(.__wab_flex-container) > picture > img,
-.freeBox__i6J
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -218,7 +218,7 @@
 .termsoOfServiceComponent:global(.__wab_instance) {
   position: relative;
 }
-.freeBox__bl0Hs {
+.text__bl0Hs {
   position: relative;
   left: auto;
   top: auto;
@@ -226,11 +226,11 @@
   line-height: 14px;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .freeBox__bl0Hs {
+  .text__bl0Hs {
     font-size: 8px;
     line-height: 12px;
   }
 }
-.freeBox__color_dark__bl0HssxLuv {
+.text__color_dark__bl0HssxLuv {
   color: #ebebeb /* plasmic-token: -59aep1Mm */;
 }

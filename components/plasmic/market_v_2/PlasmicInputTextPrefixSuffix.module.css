@@ -73,7 +73,7 @@
 .prefixparent__type_secondary {
   background: #ffffff;
 }
-.slotPrefixLabelHeadline {
+.slotTargetPrefixLabelHeadline {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
 .value {
@@ -128,6 +128,6 @@
   top: auto;
   background: #ffffff;
 }
-.slotSuffixLabelHeadline {
+.slotTargetSuffixLabelHeadline {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }

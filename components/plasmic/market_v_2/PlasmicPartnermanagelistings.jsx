@@ -117,7 +117,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__t5HAg
+                    sty.text__t5HAg
                   )}
                 >
                   {"Manage your listings"}
@@ -157,7 +157,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___675Gy
+                      sty.text___675Gy
                     )}
                   >
                     {"Listings status, price and terms"}
@@ -209,7 +209,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__rr92D
+                      sty.text__rr92D
                     )}
                   >
                     {"Listings"}

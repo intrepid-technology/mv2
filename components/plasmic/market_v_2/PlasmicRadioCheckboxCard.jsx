@@ -132,27 +132,32 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Feature",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__size__180]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__size__180]: hasVariant(
                 variants,
                 "size",
                 "_180"
               ),
 
-              [sty.slotChildren__size__270]: hasVariant(
+              [sty.slotTargetChildren__size__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.slotChildren__size__360]: hasVariant(
+              [sty.slotTargetChildren__size__360]: hasVariant(
                 variants,
                 "size",
                 "_360"
               ),
 
-              [sty.slotChildren__size__90]: hasVariant(variants, "size", "_90"),
-              [sty.slotChildren__state_selected]: hasVariant(
+              [sty.slotTargetChildren__size__90]: hasVariant(
+                variants,
+                "size",
+                "_90"
+              ),
+
+              [sty.slotTargetChildren__state_selected]: hasVariant(
                 variants,
                 "state",
                 "selected"

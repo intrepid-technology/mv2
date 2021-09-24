@@ -41,12 +41,12 @@ function PlasmicTableUserAdminHeader__RenderFunc(props) {
         className={classNames("__wab_instance", sty.radioTextInputPrimary)}
         itemText={
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox
+              sty.text
             )}
           >
             {"Select all"}
@@ -65,9 +65,9 @@ function PlasmicTableUserAdminHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "radioTextInputPrimary", "freeBox", "buttonCircleDelete"],
-  radioTextInputPrimary: ["radioTextInputPrimary", "freeBox"],
-  freeBox: ["freeBox"],
+  root: ["root", "radioTextInputPrimary", "text", "buttonCircleDelete"],
+  radioTextInputPrimary: ["radioTextInputPrimary", "text"],
+  text: ["text"],
   buttonCircleDelete: ["buttonCircleDelete"]
 };
 
@@ -103,7 +103,7 @@ export const PlasmicTableUserAdminHeader = Object.assign(
   {
     // Helper components rendering sub-elements
     radioTextInputPrimary: makeNodeComponent("radioTextInputPrimary"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     buttonCircleDelete: makeNodeComponent("buttonCircleDelete"),
     // Metadata about props expected for PlasmicTableUserAdminHeader
     internalVariantProps: PlasmicTableUserAdminHeader__VariantProps,

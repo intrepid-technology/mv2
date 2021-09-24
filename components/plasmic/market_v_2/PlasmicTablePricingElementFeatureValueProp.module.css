@@ -31,7 +31,7 @@
   width: auto;
   height: auto;
 }
-.slotSvgCheck__size__16Px {
+.slotTargetSvgCheck__size__16Px {
   font-size: 18px;
 }
 .freeBox__zo7V {
@@ -58,11 +58,11 @@
   width: 100%;
   min-width: 0;
 }
-.slotFeatureValueText {
+.slotTargetFeatureValueText {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
   font-size: 14px;
 }
-.slotFeatureValueText__size__16Px {
+.slotTargetFeatureValueText__size__16Px {
   font-size: 16px;
 }

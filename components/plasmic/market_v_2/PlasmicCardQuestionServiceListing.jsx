@@ -68,8 +68,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Step 1",
               value: args.slot,
-              className: classNames(sty.slotSlot, {
-                [sty.slotSlot__overline]: hasVariant(
+              className: classNames(sty.slotTargetSlot, {
+                [sty.slotTargetSlot__overline]: hasVariant(
                   variants,
                   "overline",
                   "overline"
@@ -85,7 +85,7 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Question for user",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>
@@ -103,8 +103,8 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Subhead",
             value: args.slot2,
-            className: classNames(sty.slotSlot2, {
-              [sty.slotSlot2__subhead]: hasVariant(
+            className: classNames(sty.slotTargetSlot2, {
+              [sty.slotTargetSlot2__subhead]: hasVariant(
                 variants,
                 "subhead",
                 "subhead"

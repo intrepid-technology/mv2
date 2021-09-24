@@ -49,13 +49,9 @@ function PlasmicTextLocation__RenderFunc(props) {
       })}
 
       <div
-        data-plasmic-name={"freeBox"}
-        data-plasmic-override={overrides.freeBox}
-        className={classNames(
-          defaultcss.all,
-          defaultcss.__wab_text,
-          sty.freeBox
-        )}
+        data-plasmic-name={"text"}
+        data-plasmic-override={overrides.text}
+        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
         {"|"}
       </div>
@@ -74,8 +70,8 @@ function PlasmicTextLocation__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox"],
-  freeBox: ["freeBox"]
+  root: ["root", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -109,7 +105,7 @@ export const PlasmicTextLocation = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicTextLocation
     internalVariantProps: PlasmicTextLocation__VariantProps,
     internalArgProps: PlasmicTextLocation__ArgProps

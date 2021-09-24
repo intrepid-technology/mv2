@@ -42,7 +42,7 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
               defaultContents:
                 "The one-stop destination for buying, selling, and discovering creative technology services",
               value: args.children,
-              className: classNames(sty.slotChildren)
+              className: classNames(sty.slotTargetChildren)
             })}
           </div>
         </div>
@@ -62,7 +62,6 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img___7OtsV)}
-              role={"img"}
             />
           ),
 

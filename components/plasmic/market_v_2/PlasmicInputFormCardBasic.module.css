@@ -79,7 +79,7 @@
   position: relative;
   flex-direction: column;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -96,7 +96,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotSubhead {
+.slotTargetSubhead {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -142,7 +142,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.slotDescription2 {
+.slotTargetDescription2 {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

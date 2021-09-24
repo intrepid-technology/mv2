@@ -125,7 +125,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mdZl0
+            sty.text__mdZl0
           )}
         >
           {"Continue"}
@@ -148,7 +148,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__gKFt7
+            sty.text__gKFt7
           )}
         >
           {"or"}
@@ -162,8 +162,10 @@ function PlasmicCardSignUp__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__bYQfP)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <ButtonConnectedAccount
           data-plasmic-name={"signupFacebookConnection"}
@@ -193,7 +195,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.freeBox__l0Gji
+          sty.text__l0Gji
         )}
       >
         {"Already have an account?"}
@@ -220,7 +222,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__tVj8G
+                sty.text__tVj8G
               )}
             >
               {hasVariant(globalVariants, "screen", "desktop")
@@ -299,6 +301,7 @@ const PlasmicDescendants = {
     "password",
     "submitButton",
     "divider",
+    "freeBox",
     "signupFacebookConnection",
     "signupGoogleConnection",
     "buttonLinkPrimary",
@@ -316,6 +319,7 @@ const PlasmicDescendants = {
   password: ["password"],
   submitButton: ["submitButton"],
   divider: ["divider"],
+  freeBox: ["freeBox", "signupFacebookConnection", "signupGoogleConnection"],
   signupFacebookConnection: ["signupFacebookConnection"],
   signupGoogleConnection: ["signupGoogleConnection"],
   buttonLinkPrimary: ["buttonLinkPrimary"],
@@ -364,6 +368,7 @@ export const PlasmicCardSignUp = Object.assign(
     password: makeNodeComponent("password"),
     submitButton: makeNodeComponent("submitButton"),
     divider: makeNodeComponent("divider"),
+    freeBox: makeNodeComponent("freeBox"),
     signupFacebookConnection: makeNodeComponent("signupFacebookConnection"),
     signupGoogleConnection: makeNodeComponent("signupGoogleConnection"),
     buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),

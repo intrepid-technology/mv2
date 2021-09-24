@@ -72,8 +72,8 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
             ),
 
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__state_deactivated]: hasVariant(
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__state_deactivated]: hasVariant(
                 variants,
                 "state",
                 "deactivated"
@@ -104,8 +104,8 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
           ),
 
           value: args.slot3,
-          className: classNames(sty.slotSlot3, {
-            [sty.slotSlot3__state_deactivated]: hasVariant(
+          className: classNames(sty.slotTargetSlot3, {
+            [sty.slotTargetSlot3__state_deactivated]: hasVariant(
               variants,
               "state",
               "deactivated"
@@ -116,8 +116,8 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: triggers.hover_root ? "Headline" : "Headline",
           value: args.slot2,
-          className: classNames(sty.slotSlot2, {
-            [sty.slotSlot2__state_deactivated]: hasVariant(
+          className: classNames(sty.slotTargetSlot2, {
+            [sty.slotTargetSlot2__state_deactivated]: hasVariant(
               variants,
               "state",
               "deactivated"
@@ -135,8 +135,8 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: triggers.hover_root ? "Body text" : "Body text",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__state_deactivated]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__state_deactivated]: hasVariant(
                 variants,
                 "state",
                 "deactivated"

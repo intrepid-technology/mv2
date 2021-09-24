@@ -57,8 +57,8 @@ function PlasmicChipSearchFilterButton__RenderFunc(props) {
       {p.renderPlasmicSlot({
         defaultContents: "Search",
         value: args.text,
-        className: classNames(sty.slotText, {
-          [sty.slotText__trigger_disabled]: hasVariant(
+        className: classNames(sty.slotTargetText, {
+          [sty.slotTargetText__trigger_disabled]: hasVariant(
             variants,
             "trigger",
             "disabled"

@@ -45,7 +45,7 @@
   height: auto;
   min-width: 0;
 }
-.slotLabel {
+.slotTargetLabel {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -78,7 +78,7 @@
   height: auto;
   min-width: 0;
 }
-.slotDescription {
+.slotTargetDescription {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

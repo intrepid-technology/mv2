@@ -61,8 +61,8 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
           ),
 
           value: args.svgCheck,
-          className: classNames(sty.slotSvgCheck, {
-            [sty.slotSvgCheck__size__16Px]: hasVariant(
+          className: classNames(sty.slotTargetSvgCheck, {
+            [sty.slotTargetSvgCheck__size__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"
@@ -81,8 +81,8 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "feature value proposition",
           value: args.featureValueText,
-          className: classNames(sty.slotFeatureValueText, {
-            [sty.slotFeatureValueText__size__16Px]: hasVariant(
+          className: classNames(sty.slotTargetFeatureValueText, {
+            [sty.slotTargetFeatureValueText__size__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

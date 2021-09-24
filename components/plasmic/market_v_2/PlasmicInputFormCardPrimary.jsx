@@ -164,23 +164,23 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               {p.renderPlasmicSlot({
                 defaultContents: "Headline",
                 value: args.headline,
-                className: classNames(sty.slotHeadline, {
-                  [sty.slotHeadline__button_subDescription]:
+                className: classNames(sty.slotTargetHeadline, {
+                  [sty.slotTargetHeadline__button_subDescription]:
                     hasVariant(variants, "button", "button") &&
                     hasVariant(variants, "subDescription", "subDescription"),
-                  [sty.slotHeadline__inputType_dropdownText]: hasVariant(
+                  [sty.slotTargetHeadline__inputType_dropdownText]: hasVariant(
                     variants,
                     "inputType",
                     "dropdownText"
                   ),
 
-                  [sty.slotHeadline__multiLineText]: hasVariant(
+                  [sty.slotTargetHeadline__multiLineText]: hasVariant(
                     variants,
                     "multiLineText",
                     "multiLineText"
                   ),
 
-                  [sty.slotHeadline__singleLineText]: hasVariant(
+                  [sty.slotTargetHeadline__singleLineText]: hasVariant(
                     variants,
                     "singleLineText",
                     "singleLineText"
@@ -192,32 +192,32 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Sub head",
               value: args.subHead,
-              className: classNames(sty.slotSubHead, {
-                [sty.slotSubHead__inputType_companyname]: hasVariant(
+              className: classNames(sty.slotTargetSubHead, {
+                [sty.slotTargetSubHead__inputType_companyname]: hasVariant(
                   variants,
                   "inputType",
                   "companyname"
                 ),
 
-                [sty.slotSubHead__inputType_dropdownText]: hasVariant(
+                [sty.slotTargetSubHead__inputType_dropdownText]: hasVariant(
                   variants,
                   "inputType",
                   "dropdownText"
                 ),
 
-                [sty.slotSubHead__inputType_username]: hasVariant(
+                [sty.slotTargetSubHead__inputType_username]: hasVariant(
                   variants,
                   "inputType",
                   "username"
                 ),
 
-                [sty.slotSubHead__multiLineText]: hasVariant(
+                [sty.slotTargetSubHead__multiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
                 ),
 
-                [sty.slotSubHead__singleLineText]: hasVariant(
+                [sty.slotTargetSubHead__singleLineText]: hasVariant(
                   variants,
                   "singleLineText",
                   "singleLineText"
@@ -385,8 +385,8 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   {p.renderPlasmicSlot({
                     defaultContents: "Enter some text",
                     value: args.slot,
-                    className: classNames(sty.slotSlot, {
-                      [sty.slotSlot__inputType_displayText]: hasVariant(
+                    className: classNames(sty.slotTargetSlot, {
+                      [sty.slotTargetSlot__inputType_displayText]: hasVariant(
                         variants,
                         "inputType",
                         "displayText"
@@ -530,12 +530,9 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       ? "Label"
                       : "City",
                     value: args.slotLabel,
-                    className: classNames(sty.slotSlotLabel, {
-                      [sty.slotSlotLabel__inputType_dropdownText]: hasVariant(
-                        variants,
-                        "inputType",
-                        "dropdownText"
-                      )
+                    className: classNames(sty.slotTargetSlotLabel, {
+                      [sty.slotTargetSlotLabel__inputType_dropdownText]:
+                        hasVariant(variants, "inputType", "dropdownText")
                     })
                   })}
                   width={
@@ -629,13 +626,18 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   })}
                 >
                   <div
+                    data-plasmic-name={"text"}
+                    data-plasmic-override={overrides.text}
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__laG3,
+                      sty.text,
                       {
-                        [sty.freeBox__inputType_username__laG33UQvi]:
-                          hasVariant(variants, "inputType", "username")
+                        [sty.text__inputType_username]: hasVariant(
+                          variants,
+                          "inputType",
+                          "username"
+                        )
                       }
                     )}
                   >
@@ -720,12 +722,9 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     {p.renderPlasmicSlot({
                       defaultContents: "intrepid.technology/company/",
                       value: args.slot2,
-                      className: classNames(sty.slotSlot2, {
-                        [sty.slotSlot2__inputType_companyname]: hasVariant(
-                          variants,
-                          "inputType",
-                          "companyname"
-                        )
+                      className: classNames(sty.slotTargetSlot2, {
+                        [sty.slotTargetSlot2__inputType_companyname]:
+                          hasVariant(variants, "inputType", "companyname")
                       })
                     })}
                   </div>
@@ -887,26 +886,26 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.description,
-              className: classNames(sty.slotDescription, {
-                [sty.slotDescription__inputType_displayText]: hasVariant(
+              className: classNames(sty.slotTargetDescription, {
+                [sty.slotTargetDescription__inputType_displayText]: hasVariant(
                   variants,
                   "inputType",
                   "displayText"
                 ),
 
-                [sty.slotDescription__inputType_dropdownText]: hasVariant(
+                [sty.slotTargetDescription__inputType_dropdownText]: hasVariant(
                   variants,
                   "inputType",
                   "dropdownText"
                 ),
 
-                [sty.slotDescription__multiLineText]: hasVariant(
+                [sty.slotTargetDescription__multiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
                 ),
 
-                [sty.slotDescription__subDescription]: hasVariant(
+                [sty.slotTargetDescription__subDescription]: hasVariant(
                   variants,
                   "subDescription",
                   "subDescription"
@@ -952,6 +951,7 @@ const PlasmicDescendants = {
     "inputTextContainer",
     "singleLineTextContainerParent",
     "urlTextParent",
+    "text",
     "inputTextParent",
     "inputUrlTextParent",
     "textParent",
@@ -970,6 +970,7 @@ const PlasmicDescendants = {
     "inputTextContainer",
     "singleLineTextContainerParent",
     "urlTextParent",
+    "text",
     "inputTextParent",
     "inputUrlTextParent",
     "textParent",
@@ -987,6 +988,7 @@ const PlasmicDescendants = {
     "inputTextContainer",
     "singleLineTextContainerParent",
     "urlTextParent",
+    "text",
     "inputTextParent",
     "inputUrlTextParent",
     "textParent",
@@ -1000,6 +1002,7 @@ const PlasmicDescendants = {
     "inputTextContainer",
     "singleLineTextContainerParent",
     "urlTextParent",
+    "text",
     "inputTextParent",
     "inputUrlTextParent"
   ],
@@ -1007,7 +1010,8 @@ const PlasmicDescendants = {
   textMultiLineA: ["textMultiLineA"],
   inputTextContainer: ["inputTextContainer", "singleLineTextContainerParent"],
   singleLineTextContainerParent: ["singleLineTextContainerParent"],
-  urlTextParent: ["urlTextParent"],
+  urlTextParent: ["urlTextParent", "text"],
+  text: ["text"],
   inputTextParent: ["inputTextParent"],
   inputUrlTextParent: ["inputUrlTextParent"],
   textParent: ["textParent", "inputMultiLineTextParent"],
@@ -1059,6 +1063,7 @@ export const PlasmicInputFormCardPrimary = Object.assign(
     ),
 
     urlTextParent: makeNodeComponent("urlTextParent"),
+    text: makeNodeComponent("text"),
     inputTextParent: makeNodeComponent("inputTextParent"),
     inputUrlTextParent: makeNodeComponent("inputUrlTextParent"),
     textParent: makeNodeComponent("textParent"),

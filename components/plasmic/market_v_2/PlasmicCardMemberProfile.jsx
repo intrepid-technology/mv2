@@ -56,7 +56,6 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             data-plasmic-override={overrides.img}
             alt={""}
             className={classNames(defaultcss.img, sty.img)}
-            role={"img"}
             src={"/plasmic/market_v_2/images/image4.png"}
           />
         }
@@ -143,7 +142,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__umTdy
+              sty.text__umTdy
             )}
           >
             {"123"}
@@ -153,7 +152,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__mwYix
+              sty.text__mwYix
             )}
           >
             {"Members"}
@@ -169,7 +168,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__b1HwQ
+              sty.text__b1HwQ
             )}
           >
             {"123"}
@@ -179,7 +178,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__bjRVi
+              sty.text__bjRVi
             )}
           >
             {"Partners"}
@@ -203,7 +202,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__vgpbm
+              sty.text__vgpbm
             )}
           >
             {"123"}
@@ -213,7 +212,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__d5Eh
+              sty.text__d5Eh
             )}
           >
             {"Followers"}
@@ -229,7 +228,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__qrcMn
+              sty.text__qrcMn
             )}
           >
             {"123"}
@@ -239,7 +238,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__lu7Ng
+              sty.text__lu7Ng
             )}
           >
             {"Following"}
@@ -258,7 +257,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__mf9Dv
+            sty.text__mf9Dv
           )}
         >
           {"Member since"}

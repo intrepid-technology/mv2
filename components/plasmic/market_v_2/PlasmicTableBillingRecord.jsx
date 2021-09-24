@@ -43,7 +43,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__riTOw
+            sty.text__riTOw
           )}
         >
           {"Card brand"}
@@ -55,7 +55,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__yo4Cq
+            sty.text__yo4Cq
           )}
         >
           {"Type"}
@@ -67,7 +67,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__ecFEl
+            sty.text__ecFEl
           )}
         >
           {"XXXX"}
@@ -79,7 +79,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__jKFmT
+            sty.text__jKFmT
           )}
         >
           {"XX"}
@@ -89,7 +89,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__bYrEt
+            sty.text__bYrEt
           )}
         >
           {"/"}
@@ -99,7 +99,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__v8F9N
+            sty.text__v8F9N
           )}
         >
           {"XXXX"}

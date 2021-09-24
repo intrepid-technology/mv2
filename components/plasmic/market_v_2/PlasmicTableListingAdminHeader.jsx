@@ -70,7 +70,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__apx7I
+              sty.text__apx7I
             )}
           >
             {"Listing"}
@@ -88,7 +88,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__l0Fer
+              sty.text__l0Fer
             )}
           >
             {"Status"}
@@ -105,7 +105,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___1JXFg
+              sty.text___1JXFg
             )}
           >
             {"To do"}
@@ -122,7 +122,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__qCh1L
+              sty.text__qCh1L
             )}
           >
             {"modified"}
@@ -139,7 +139,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__mxLqA
+              sty.text__mxLqA
             )}
           >
             {"Category"}
@@ -156,7 +156,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__l0YWm
+              sty.text__l0YWm
             )}
           >
             {"Price"}
@@ -173,7 +173,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__ajruk
+              sty.text__ajruk
             )}
           >
             {"Term"}
@@ -190,7 +190,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__fob07
+              sty.text__fob07
             )}
           >
             {"Expiry"}
@@ -207,7 +207,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___2RzSd
+              sty.text___2RzSd
             )}
           >
             {"Auto-renew"}
@@ -224,7 +224,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___2FOl
+              sty.text___2FOl
             )}
           >
             {"Cancel"}

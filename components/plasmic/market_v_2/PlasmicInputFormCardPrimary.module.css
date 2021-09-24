@@ -132,7 +132,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -140,7 +140,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotSubHead {
+.slotTargetSubHead {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -379,7 +379,7 @@
   padding: 4px 8px;
   border-width: 2px;
 }
-.slotSlot__inputType_displayText {
+.slotTargetSlot__inputType_displayText {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   font-size: 14px;
   line-height: 1.4;
@@ -412,7 +412,7 @@
   left: auto;
   top: auto;
 }
-.slotSlotLabel__inputType_dropdownText {
+.slotTargetSlotLabel__inputType_dropdownText {
   font-weight: 500;
   color: #666666 /* plasmic-token: MAJ29KQMI */;
 }
@@ -499,13 +499,13 @@
   left: auto;
   top: auto;
 }
-.freeBox__laG3 {
+.text {
   height: auto;
   width: auto;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   display: inline-block;
 }
-.freeBox__inputType_username__laG33UQvi {
+.text__inputType_username {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
 }
@@ -581,10 +581,10 @@
   height: auto;
   width: auto;
 }
-.slotSlot2 {
+.slotTargetSlot2 {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.slotSlot2__inputType_companyname {
+.slotTargetSlot2__inputType_companyname {
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
 }
@@ -706,7 +706,7 @@
 .descriptionParent__subDescription {
   display: none;
 }
-.slotDescription {
+.slotTargetDescription {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;

@@ -414,7 +414,6 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                       "search"
                     )
                   })}
-                  role={"img"}
                   src={
                     "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
                   }

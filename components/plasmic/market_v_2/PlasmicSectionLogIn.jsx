@@ -76,12 +76,12 @@ function PlasmicSectionLogIn__RenderFunc(props) {
           </p.PlasmicLink>
 
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox
+              sty.text
             )}
           >
             {"Log in"}
@@ -106,7 +106,7 @@ const PlasmicDescendants = {
     "loginHeadlineText",
     "svgLinkDiv",
     "svg",
-    "freeBox",
+    "text",
     "cardLogIn"
   ],
 
@@ -115,14 +115,14 @@ const PlasmicDescendants = {
     "loginHeadlineText",
     "svgLinkDiv",
     "svg",
-    "freeBox",
+    "text",
     "cardLogIn"
   ],
 
-  loginHeadlineText: ["loginHeadlineText", "svgLinkDiv", "svg", "freeBox"],
+  loginHeadlineText: ["loginHeadlineText", "svgLinkDiv", "svg", "text"],
   svgLinkDiv: ["svgLinkDiv", "svg"],
   svg: ["svg"],
-  freeBox: ["freeBox"],
+  text: ["text"],
   cardLogIn: ["cardLogIn"]
 };
 
@@ -161,7 +161,7 @@ export const PlasmicSectionLogIn = Object.assign(
     loginHeadlineText: makeNodeComponent("loginHeadlineText"),
     svgLinkDiv: makeNodeComponent("svgLinkDiv"),
     svg: makeNodeComponent("svg"),
-    freeBox: makeNodeComponent("freeBox"),
+    text: makeNodeComponent("text"),
     cardLogIn: makeNodeComponent("cardLogIn"),
     // Metadata about props expected for PlasmicSectionLogIn
     internalVariantProps: PlasmicSectionLogIn__VariantProps,

@@ -58,7 +58,7 @@
 .root:hover .svg {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.freeBox {
+.text {
   position: relative;
   line-height: 1;
   width: auto;
@@ -68,6 +68,6 @@
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
   display: inline-block;
 }
-.root:hover .freeBox {
+.root:hover .text {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

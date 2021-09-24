@@ -110,86 +110,82 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
               ? "Web app | Single page"
               : "Category | Sub-category",
             value: args.children,
-            className: classNames(sty.slotChildren, {
-              [sty.slotChildren__brandDesign_brandGuide]: hasVariant(
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__brandDesign_brandGuide]: hasVariant(
                 variants,
                 "brandDesign",
                 "brandGuide"
               ),
 
-              [sty.slotChildren__brandDesign_designSystem]: hasVariant(
+              [sty.slotTargetChildren__brandDesign_designSystem]: hasVariant(
                 variants,
                 "brandDesign",
                 "designSystem"
               ),
 
-              [sty.slotChildren__brandDesign_logo]: hasVariant(
+              [sty.slotTargetChildren__brandDesign_logo]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.slotChildren__brandDesign_slidePresentation]: hasVariant(
-                variants,
-                "brandDesign",
-                "slidePresentation"
-              ),
-
-              [sty.slotChildren__breadcrumbs]: hasVariant(
+              [sty.slotTargetChildren__brandDesign_slidePresentation]:
+                hasVariant(variants, "brandDesign", "slidePresentation"),
+              [sty.slotTargetChildren__breadcrumbs]: hasVariant(
                 variants,
                 "breadcrumbs",
                 "breadcrumbs"
               ),
 
-              [sty.slotChildren__mobile_mobileApp]: hasVariant(
+              [sty.slotTargetChildren__mobile_mobileApp]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.slotChildren__mobile_mobileEcommerce]: hasVariant(
+              [sty.slotTargetChildren__mobile_mobileEcommerce]: hasVariant(
                 variants,
                 "mobile",
                 "mobileEcommerce"
               ),
 
-              [sty.slotChildren__uxDesign_prototype]: hasVariant(
+              [sty.slotTargetChildren__uxDesign_prototype]: hasVariant(
                 variants,
                 "uxDesign",
                 "prototype"
               ),
 
-              [sty.slotChildren__uxDesign_usabilityTesting]: hasVariant(
+              [sty.slotTargetChildren__uxDesign_usabilityTesting]: hasVariant(
                 variants,
                 "uxDesign",
                 "usabilityTesting"
               ),
 
-              [sty.slotChildren__uxDesign_userResearch]: hasVariant(
+              [sty.slotTargetChildren__uxDesign_userResearch]: hasVariant(
                 variants,
                 "uxDesign",
                 "userResearch"
               ),
 
-              [sty.slotChildren__uxDesign_wireframe]: hasVariant(
+              [sty.slotTargetChildren__uxDesign_wireframe]: hasVariant(
                 variants,
                 "uxDesign",
                 "wireframe"
               ),
 
-              [sty.slotChildren__web_ecommerce]: hasVariant(
+              [sty.slotTargetChildren__web_ecommerce]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.slotChildren__web_multiPage]: hasVariant(
+              [sty.slotTargetChildren__web_multiPage]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.slotChildren__web_singlePage]: hasVariant(
+              [sty.slotTargetChildren__web_singlePage]: hasVariant(
                 variants,
                 "web",
                 "singlePage"

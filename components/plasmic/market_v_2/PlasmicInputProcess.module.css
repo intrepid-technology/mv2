@@ -21,7 +21,7 @@
 .root__size__540 {
   width: 540px;
 }
-.textbox {
+.serviceProcessTitle {
   position: relative;
   width: 100%;
   left: auto;
@@ -65,7 +65,7 @@
   > img {
   margin-top: 8px;
 }
-.textarea {
+.serviceProcessDescription {
   position: relative;
   left: auto;
   top: auto;
@@ -78,16 +78,16 @@
   padding: 4px;
   border: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.textarea__size__540 {
+.serviceProcessDescription__size__540 {
   height: 180px;
   flex-shrink: 0;
 }
-.root .textarea:hover {
+.root .serviceProcessDescription:hover {
   left: auto;
   top: auto;
   border-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.root .textarea:focus {
+.root .serviceProcessDescription:focus {
   left: auto;
   top: auto;
   background: #ffffff;
@@ -146,14 +146,14 @@
   top: auto;
   left: auto;
 }
-.freeBox__ipqFh {
+.text {
   font-size: 12px;
   font-weight: 400;
 }
-.freeBox__size__540__ipqFhg8DmW {
+.text__size__540 {
   font-size: 14px;
 }
-.root .freeBox__ipqFh:hover {
+.root .text:hover {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
   left: auto;
   top: auto;

@@ -46,10 +46,24 @@ function PlasmicFooterLink__RenderFunc(props) {
       {p.renderPlasmicSlot({
         defaultContents: "link",
         value: args.slot,
-        className: classNames(sty.slotSlot, {
-          [sty.slotSlot__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.slotSlot__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.slotSlot__color_light]: hasVariant(variants, "color", "light")
+        className: classNames(sty.slotTargetSlot, {
+          [sty.slotTargetSlot__color_brand]: hasVariant(
+            variants,
+            "color",
+            "brand"
+          ),
+
+          [sty.slotTargetSlot__color_dark]: hasVariant(
+            variants,
+            "color",
+            "dark"
+          ),
+
+          [sty.slotTargetSlot__color_light]: hasVariant(
+            variants,
+            "color",
+            "light"
+          )
         })
       })}
     </p.PlasmicLink>

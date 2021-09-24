@@ -57,7 +57,7 @@
   left: auto;
   top: auto;
 }
-.freeBox___04ReL {
+.text___04ReL {
   font-weight: 700;
 }
 .formMemberEditProfile {
@@ -127,7 +127,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__hxjHi {
+.text__hxjHi {
   height: auto;
   max-width: 328px;
 }
@@ -162,12 +162,12 @@
   > img {
   margin-left: 32px;
 }
-.inputTextForm__yHnr:global(.__wab_instance) {
+.firstName:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
-.inputTextForm__piTpg:global(.__wab_instance) {
+.lastName:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -210,7 +210,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__h4Mp0 {
+.text__h4Mp0 {
   height: auto;
   max-width: 328px;
 }
@@ -358,11 +358,11 @@
   top: auto;
   left: auto;
 }
-.freeBox__wxY25 {
+.text__wxY25 {
   height: auto;
   max-width: 328px;
 }
-.inputTextPrefixSuffix__mzvhp:global(.__wab_instance) {
+.username:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -402,7 +402,7 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox__pNwo {
+.text__pNwo {
   height: auto;
   max-width: 328px;
 }
@@ -445,11 +445,11 @@
   top: auto;
   left: auto;
 }
-.freeBox__xxxU {
+.text__xxxU {
   height: auto;
   max-width: 328px;
 }
-.inputTextField:global(.__wab_instance) {
+.tags:global(.__wab_instance) {
   position: relative;
 }
 .cardMemberDescription {
@@ -488,11 +488,11 @@
   top: auto;
   left: auto;
 }
-.freeBox__qsVv3 {
+.text__qsVv3 {
   height: auto;
   max-width: 328px;
 }
-.inputTextAreaPrimary:global(.__wab_instance) {
+.description:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -531,7 +531,7 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox__zWe26 {
+.text__zWe26 {
   height: auto;
   max-width: 328px;
 }
@@ -556,7 +556,7 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox__sHnOz {
+.text__sHnOz {
   font-weight: 600;
 }
 .sectionMemberEditProfileDetails {
@@ -599,7 +599,7 @@
   left: auto;
   top: auto;
 }
-.freeBox__zGsIr {
+.text__zGsIr {
   font-weight: 700;
 }
 .formMemberEditDetails {
@@ -663,7 +663,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__oQfam {
+.text__oQfam {
   height: auto;
   max-width: 328px;
 }
@@ -698,12 +698,12 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__qpcv5:global(.__wab_instance) {
+.country:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.inputTextForm___3Gnf6:global(.__wab_instance) {
+.city:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -740,7 +740,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__kQo {
+.text__kQo {
   height: auto;
   max-width: 328px;
 }
@@ -775,12 +775,12 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__lwNFw:global(.__wab_instance) {
+.industry:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.inputTextForm___9JI3J:global(.__wab_instance) {
+.jobTitle:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -820,7 +820,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__ikYyc {
+.text__ikYyc {
   height: auto;
   max-width: 328px;
 }
@@ -855,12 +855,12 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__zy9Ua:global(.__wab_instance) {
+.language:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.selectGroupDropdownPrimary__iDWcL:global(.__wab_instance) {
+.selectGroupDropdownPrimary:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -901,11 +901,11 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox__mAude {
+.text__mAude {
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay__spAMy:global(.__wab_instance) {
+.interest:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -944,11 +944,11 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox___4WyB {
+.text___4WyB {
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay___21Dgh:global(.__wab_instance) {
+.skill:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -990,11 +990,11 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox__kfwe {
+.text__kfwe {
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay__buuyY:global(.__wab_instance) {
+.community:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
@@ -1015,7 +1015,7 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox__o7ZPl {
+.text__o7ZPl {
   font-weight: 600;
 }
 .sectionMemberEditProfileSocial {
@@ -1058,7 +1058,7 @@
   left: auto;
   top: auto;
 }
-.freeBox__zgvp4 {
+.text__zgvp4 {
   font-weight: 700;
 }
 .formMemberEditSocial {
@@ -1125,7 +1125,7 @@
   left: auto;
   align-self: flex-start;
 }
-.freeBox__zfHw {
+.text__zfHw {
   height: auto;
   max-width: 328px;
 }
@@ -1168,10 +1168,10 @@
   top: auto;
   left: auto;
 }
-.freeBox__rUb4 {
+.text__rUb4 {
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.freeBox__osn8L {
+.text__osn8L {
   height: auto;
   max-width: 328px;
 }
@@ -1227,7 +1227,7 @@
   min-width: 0;
   min-height: 0;
 }
-.freeBox__uRTf {
+.text__uRTf {
   font-weight: 600;
 }
 .footerB:global(.__wab_instance) {

@@ -41,7 +41,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__gk8Gb
+            sty.text__gk8Gb
           )}
         >
           {"brand"}
@@ -53,7 +53,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__zbufu
+            sty.text__zbufu
           )}
         >
           {"Type"}
@@ -65,7 +65,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__zPpCx
+            sty.text__zPpCx
           )}
         >
           {"Last 4"}
@@ -77,7 +77,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__i9Arh
+            sty.text__i9Arh
           )}
         >
           {"Exp. Date"}
@@ -89,7 +89,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__lpzJk
+            sty.text__lpzJk
           )}
         >
           {"Default"}
@@ -101,7 +101,7 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__eKjA
+            sty.text__eKjA
           )}
         >
           {"Action"}

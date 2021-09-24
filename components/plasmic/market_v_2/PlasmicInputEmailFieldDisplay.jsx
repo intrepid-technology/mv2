@@ -59,7 +59,7 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Click Me",
             value: args.buttonText,
-            className: classNames(sty.slotButtonText)
+            className: classNames(sty.slotTargetButtonText)
           })}
         </button>
       </p.Stack>

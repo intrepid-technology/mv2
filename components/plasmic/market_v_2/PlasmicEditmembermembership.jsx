@@ -113,7 +113,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__hgKv2
+                    sty.text__hgKv2
                   )}
                 >
                   {"Plan & perks"}
@@ -138,7 +138,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___9RndH
+                      sty.text___9RndH
                     )}
                   >
                     {"Your personal account membership plan details"}
@@ -167,7 +167,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__b8WcN
+                    sty.text__b8WcN
                   )}
                 >
                   {
@@ -231,7 +231,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ikHur
+                      sty.text__ikHur
                     )}
                   >
                     {
@@ -300,7 +300,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___39KjA
+                      sty.text___39KjA
                     )}
                   >
                     {

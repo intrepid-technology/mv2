@@ -101,46 +101,46 @@
   align-items: center;
   flex-shrink: 0;
 }
-.slotNumberValueParent__integer_plus {
+.slotTargetNumberValueParent__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotNumberValueParent__integer_minus {
+.slotTargetNumberValueParent__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__nqe9N {
+.text__nqe9N {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.slotNumberValueParentPlus__integer_plus {
+.slotTargetNumberValueParentPlus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotNumberValueParentPlus__integer_minus {
+.slotTargetNumberValueParentPlus__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox___3Hljv {
+.text___3Hljv {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotNumberValueParentMinus__integer_plus {
+.slotTargetNumberValueParentMinus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotNumberValueParentMinus__integer_minus {
+.slotTargetNumberValueParentMinus__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__zcvOc {
+.text__zcvOc {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.slotNumberValueParentNoChange__integer_plus {
+.slotTargetNumberValueParentNoChange__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotNumberValueParentNoChange__integer_minus {
+.slotTargetNumberValueParentNoChange__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.slotNumberValueParentNoChange__integer_noChange {
+.slotTargetNumberValueParentNoChange__integer_noChange {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.freeBox__inWg {
+.text__inWg {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
@@ -153,46 +153,46 @@
   top: auto;
   left: auto;
 }
-.slotPercentParent__integer_plus {
+.slotTargetPercentParent__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotPercentParent__integer_minus {
+.slotTargetPercentParent__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__qWu5 {
+.text__qWu5 {
   font-size: 14px;
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
 }
-.slotPercentParentPlus__integer_plus {
+.slotTargetPercentParentPlus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotPercentParentPlus__integer_minus {
+.slotTargetPercentParentPlus__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__rQl {
+.text__rQl {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotPercentParentMinus__integer_plus {
+.slotTargetPercentParentMinus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotPercentParentMinus__integer_minus {
+.slotTargetPercentParentMinus__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.freeBox__ioUwU {
+.text__ioUwU {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.slotPercentParentNoChange__integer_plus {
+.slotTargetPercentParentNoChange__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.slotPercentParentNoChange__integer_minus {
+.slotTargetPercentParentNoChange__integer_minus {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.slotPercentParentNoChange__integer_noChange {
+.slotTargetPercentParentNoChange__integer_noChange {
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
-.freeBox___03RQv {
+.text___03RQv {
   font-size: 14px;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }

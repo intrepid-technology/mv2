@@ -55,7 +55,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.freeBox__ggIb6
+            sty.text__ggIb6
           )}
         >
           {hasVariant(globalVariants, "screen", "desktop") ? "Team" : "Teams"}
@@ -87,7 +87,6 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img___8ZbBz)}
-                  role={"img"}
                   src={
                     "/plasmic/market_v_2/images/fa289C7A182449412Dcfb44D3F2984B7Png.png"
                   }
@@ -107,7 +106,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__ldMlX
+                  sty.text__ldMlX
                 )}
               >
                 {"Craftwerk"}
@@ -142,7 +141,6 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__qUkKz)}
-                  role={"img"}
                   src={
                     "/plasmic/market_v_2/images/_466762084Bf3466293Fba47C63Ba55F7Jpg.jpeg"
                   }
@@ -162,7 +160,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__lig2S
+                  sty.text__lig2S
                 )}
               >
                 {"Zajno"}
@@ -197,7 +195,6 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 <img
                   alt={""}
                   className={classNames(defaultcss.img, sty.img__qik2)}
-                  role={"img"}
                   src={
                     "/plasmic/market_v_2/images/_479E0Aa76Edbad47C51F159Fd88E2Bfapng.png"
                   }
@@ -217,7 +214,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__rjnUw
+                  sty.text__rjnUw
                 )}
               >
                 {"Fire Art"}

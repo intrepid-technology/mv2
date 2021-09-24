@@ -19,7 +19,7 @@
   background: #cc0033;
   border-color: #d6335c /* plasmic-token: iy6ayoo2G */;
 }
-.freeBox {
+.text {
   position: relative;
   width: auto;
   height: auto;
@@ -30,9 +30,9 @@
   font-weight: 600;
   display: inline-block;
 }
-.freeBox__inset {
+.text__inset {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.root__inset:hover .freeBox__inset {
+.root__inset:hover .text__inset {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

@@ -101,9 +101,13 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Get verified with",
             value: args.text,
-            className: classNames(sty.slotText, {
-              [sty.slotText__logo]: hasVariant(variants, "logo", "logo"),
-              [sty.slotText__size__180]: hasVariant(variants, "size", "_180")
+            className: classNames(sty.slotTargetText, {
+              [sty.slotTargetText__logo]: hasVariant(variants, "logo", "logo"),
+              [sty.slotTargetText__size__180]: hasVariant(
+                variants,
+                "size",
+                "_180"
+              )
             })
           })}
         </div>

@@ -40,7 +40,7 @@
   width: 80px;
   flex-shrink: 0;
 }
-.slotHeadline {
+.slotTargetHeadline {
   font-size: 14px;
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
@@ -82,7 +82,7 @@
   width: auto;
   height: auto;
 }
-.slotCurrency {
+.slotTargetCurrency {
   font-size: 14px;
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
@@ -103,7 +103,7 @@
   width: auto;
   height: auto;
 }
-.slotTotalvalue {
+.slotTargetTotalvalue {
   font-size: 14px;
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;

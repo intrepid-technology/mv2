@@ -46,42 +46,44 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       >
         <div className={classNames(defaultcss.all, sty.freeBox___59Etq)}>
           <div
+            data-plasmic-name={"text"}
+            data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox___7BqmP,
+              sty.text,
               {
-                [sty.freeBox__active_autorenew___7BqmPlnhdG]: hasVariant(
+                [sty.text__active_autorenew]: hasVariant(
                   variants,
                   "active",
                   "autorenew"
                 ),
 
-                [sty.freeBox__active_placement___7BqmP6LMlB]: hasVariant(
+                [sty.text__active_placement]: hasVariant(
                   variants,
                   "active",
                   "placement"
                 ),
 
-                [sty.freeBox__active_yearly___7BqmPcmaHv]: hasVariant(
+                [sty.text__active_yearly]: hasVariant(
                   variants,
                   "active",
                   "yearly"
                 ),
 
-                [sty.freeBox__inactive_autorenew___7BqmPeReNk]: hasVariant(
+                [sty.text__inactive_autorenew]: hasVariant(
                   variants,
                   "inactive",
                   "autorenew"
                 ),
 
-                [sty.freeBox__inactive_placement___7BqmP1Wg4F]: hasVariant(
+                [sty.text__inactive_placement]: hasVariant(
                   variants,
                   "inactive",
                   "placement"
                 ),
 
-                [sty.freeBox__inactive_yearly___7BqmPw0RxE]: hasVariant(
+                [sty.text__inactive_yearly]: hasVariant(
                   variants,
                   "inactive",
                   "yearly"
@@ -168,7 +170,8 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "switchPrimary"],
+  root: ["root", "text", "switchPrimary"],
+  text: ["text"],
   switchPrimary: ["switchPrimary"]
 };
 
@@ -203,6 +206,7 @@ export const PlasmicToggleSubscriptionCard = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    text: makeNodeComponent("text"),
     switchPrimary: makeNodeComponent("switchPrimary"),
     // Metadata about props expected for PlasmicToggleSubscriptionCard
     internalVariantProps: PlasmicToggleSubscriptionCard__VariantProps,

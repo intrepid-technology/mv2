@@ -53,7 +53,7 @@ function PlasmicNoteCard__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "Note:",
             value: args.note,
-            className: classNames(sty.slotNote)
+            className: classNames(sty.slotTargetNote)
           })}
         </div>
 

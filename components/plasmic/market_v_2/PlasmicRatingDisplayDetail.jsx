@@ -65,15 +65,24 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "4.67",
           value: args.children,
-          className: classNames(sty.slotChildren, {
-            [sty.slotChildren__color_primaryB]: hasVariant(
+          className: classNames(sty.slotTargetChildren, {
+            [sty.slotTargetChildren__color_primaryB]: hasVariant(
               variants,
               "color",
               "primaryB"
             ),
 
-            [sty.slotChildren__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.slotChildren__size__16]: hasVariant(variants, "size", "_16")
+            [sty.slotTargetChildren__size__14]: hasVariant(
+              variants,
+              "size",
+              "_14"
+            ),
+
+            [sty.slotTargetChildren__size__16]: hasVariant(
+              variants,
+              "size",
+              "_16"
+            )
           })
         })}
       </RatingScore>
@@ -93,21 +102,30 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "(12)",
             value: args.slot,
-            className: classNames(sty.slotSlot, {
-              [sty.slotSlot__color_primaryB]: hasVariant(
+            className: classNames(sty.slotTargetSlot, {
+              [sty.slotTargetSlot__color_primaryB]: hasVariant(
                 variants,
                 "color",
                 "primaryB"
               ),
 
-              [sty.slotSlot__reviews]: hasVariant(
+              [sty.slotTargetSlot__reviews]: hasVariant(
                 variants,
                 "reviews",
                 "reviews"
               ),
 
-              [sty.slotSlot__size__14]: hasVariant(variants, "size", "_14"),
-              [sty.slotSlot__size__16]: hasVariant(variants, "size", "_16")
+              [sty.slotTargetSlot__size__14]: hasVariant(
+                variants,
+                "size",
+                "_14"
+              ),
+
+              [sty.slotTargetSlot__size__16]: hasVariant(
+                variants,
+                "size",
+                "_16"
+              )
             })
           })}
         </RatingReviewAmount>

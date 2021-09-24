@@ -54,7 +54,7 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
             defaultContents:
               "Start, launch, and grow a scalable & profitable business.",
             value: args.slot,
-            className: classNames(sty.slotSlot)
+            className: classNames(sty.slotTargetSlot)
           })}
         </div>
       </div>
@@ -69,7 +69,7 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
             defaultContents:
               "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",
             value: args.children,
-            className: classNames(sty.slotChildren)
+            className: classNames(sty.slotTargetChildren)
           })}
         </div>
       </div>

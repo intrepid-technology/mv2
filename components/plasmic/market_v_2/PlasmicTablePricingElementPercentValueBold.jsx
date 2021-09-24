@@ -75,7 +75,7 @@ function PlasmicTablePricingElementPercentValueBold__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "0",
             value: args.numberValue,
-            className: classNames(sty.slotNumberValue)
+            className: classNames(sty.slotTargetNumberValue)
           })}
         </div>
 
@@ -87,7 +87,7 @@ function PlasmicTablePricingElementPercentValueBold__RenderFunc(props) {
           {p.renderPlasmicSlot({
             defaultContents: "%",
             value: args.percent,
-            className: classNames(sty.slotPercent)
+            className: classNames(sty.slotTargetPercent)
           })}
         </div>
       </p.Stack>
@@ -100,7 +100,7 @@ function PlasmicTablePricingElementPercentValueBold__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: "Payment processing fees",
           value: args.textValueProposition,
-          className: classNames(sty.slotTextValueProposition)
+          className: classNames(sty.slotTargetTextValueProposition)
         })}
       </div>
     </p.Stack>

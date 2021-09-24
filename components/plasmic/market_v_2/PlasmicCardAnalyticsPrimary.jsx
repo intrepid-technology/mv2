@@ -216,7 +216,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__wM3Ab
+                            sty.text__wM3Ab
                           )}
                         >
                           {"$"}
@@ -233,7 +233,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__a4Wh
+                            sty.text__a4Wh
                           )}
                         >
                           {"$"}
@@ -252,7 +252,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__ncgFi
+                        sty.text__ncgFi
                       )}
                     >
                       {"XXX.XX"}
@@ -269,7 +269,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__jOHp
+                        sty.text__jOHp
                       )}
                     >
                       {"XXX.XX"}
@@ -330,7 +330,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__vDq8H
+                            sty.text__vDq8H
                           )}
                         >
                           {"K"}
@@ -347,7 +347,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__vyTh
+                            sty.text__vyTh
                           )}
                         >
                           {"K"}
@@ -377,7 +377,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__vly1J
+                        sty.text__vly1J
                       )}
                     >
                       {"title of card"}
@@ -394,7 +394,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__zL10
+                        sty.text__zL10
                       )}
                     >
                       {"title of card"}

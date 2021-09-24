@@ -33,7 +33,7 @@
   flex-direction: column;
   width: 360px;
 }
-.slotSlot {
+.slotTargetSlot {
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
@@ -107,6 +107,6 @@
   display: flex;
   flex-direction: column;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 12px;
 }

@@ -48,7 +48,7 @@
   width: 200px;
   height: auto;
 }
-.slotSlot {
+.slotTargetSlot {
   font-weight: 700;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
   font-size: 14px;
@@ -60,6 +60,6 @@
   width: 200px;
   height: auto;
 }
-.slotChildren {
+.slotTargetChildren {
   font-size: 14px;
 }

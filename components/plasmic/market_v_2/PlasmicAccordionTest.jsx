@@ -41,7 +41,7 @@ function PlasmicAccordionTest__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Overview",
               value: args.slot,
-              className: classNames(sty.slotSlot)
+              className: classNames(sty.slotTargetSlot)
             })}
           </div>
         </div>
@@ -63,7 +63,7 @@ function PlasmicAccordionTest__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__eClnO
+                sty.text__eClnO
               )}
             >
               {

@@ -58,7 +58,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
         className={classNames(
           defaultcss.all,
           defaultcss.__wab_text,
-          sty.freeBox__wbMTc
+          sty.text__wbMTc
         )}
       >
         {hasVariant(globalVariants, "screen", "desktop")
@@ -68,8 +68,10 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__zmzQd)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         <ChipCategoryHeader
           className={classNames(
@@ -89,7 +91,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__u0Iru
+                sty.text__u0Iru
               )}
             >
               {hasVariant(globalVariants, "screen", "desktop")
@@ -283,7 +285,8 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -318,6 +321,7 @@ export const PlasmicSectionMemberFindByServiceCategory = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicSectionMemberFindByServiceCategory
     internalVariantProps:
       PlasmicSectionMemberFindByServiceCategory__VariantProps,

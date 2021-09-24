@@ -125,38 +125,38 @@ function PlasmicInputTextForm__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: "Headline",
                 value: args.labelHeadline,
-                className: classNames(sty.slotLabelHeadline, {
-                  [sty.slotLabelHeadline__label]: hasVariant(
+                className: classNames(sty.slotTargetLabelHeadline, {
+                  [sty.slotTargetLabelHeadline__label]: hasVariant(
                     variants,
                     "label",
                     "label"
                   ),
 
-                  [sty.slotLabelHeadline__width__180]: hasVariant(
+                  [sty.slotTargetLabelHeadline__width__180]: hasVariant(
                     variants,
                     "width",
                     "_180"
                   ),
 
-                  [sty.slotLabelHeadline__width__270]: hasVariant(
+                  [sty.slotTargetLabelHeadline__width__270]: hasVariant(
                     variants,
                     "width",
                     "_270"
                   ),
 
-                  [sty.slotLabelHeadline__width__380]: hasVariant(
+                  [sty.slotTargetLabelHeadline__width__380]: hasVariant(
                     variants,
                     "width",
                     "_380"
                   ),
 
-                  [sty.slotLabelHeadline__width__540]: hasVariant(
+                  [sty.slotTargetLabelHeadline__width__540]: hasVariant(
                     variants,
                     "width",
                     "_540"
                   ),
 
-                  [sty.slotLabelHeadline__width__720]: hasVariant(
+                  [sty.slotTargetLabelHeadline__width__720]: hasVariant(
                     variants,
                     "width",
                     "_720"
@@ -318,38 +318,38 @@ function PlasmicInputTextForm__RenderFunc(props) {
               ? p.renderPlasmicSlot({
                   defaultContents: "Description",
                   value: args.description,
-                  className: classNames(sty.slotDescription, {
-                    [sty.slotDescription__label]: hasVariant(
+                  className: classNames(sty.slotTargetDescription, {
+                    [sty.slotTargetDescription__label]: hasVariant(
                       variants,
                       "label",
                       "label"
                     ),
 
-                    [sty.slotDescription__width__180]: hasVariant(
+                    [sty.slotTargetDescription__width__180]: hasVariant(
                       variants,
                       "width",
                       "_180"
                     ),
 
-                    [sty.slotDescription__width__270]: hasVariant(
+                    [sty.slotTargetDescription__width__270]: hasVariant(
                       variants,
                       "width",
                       "_270"
                     ),
 
-                    [sty.slotDescription__width__380]: hasVariant(
+                    [sty.slotTargetDescription__width__380]: hasVariant(
                       variants,
                       "width",
                       "_380"
                     ),
 
-                    [sty.slotDescription__width__540]: hasVariant(
+                    [sty.slotTargetDescription__width__540]: hasVariant(
                       variants,
                       "width",
                       "_540"
                     ),
 
-                    [sty.slotDescription__width__720]: hasVariant(
+                    [sty.slotTargetDescription__width__720]: hasVariant(
                       variants,
                       "width",
                       "_720"

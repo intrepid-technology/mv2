@@ -113,7 +113,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox__lyarm
+                    sty.text__lyarm
                   )}
                 >
                   {"Manage team account"}
@@ -153,7 +153,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__fvhx6
+                        sty.text__fvhx6
                       )}
                     >
                       {
@@ -193,7 +193,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__tl2Nk
+                          sty.text__tl2Nk
                         )}
                       >
                         {
@@ -248,7 +248,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.freeBox__gnVjA
+                            sty.text__gnVjA
                           )}
                         >
                           {"City"}
@@ -282,7 +282,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                             className={classNames(
                               defaultcss.all,
                               defaultcss.__wab_text,
-                              sty.freeBox__fo0Jj
+                              sty.text__fo0Jj
                             )}
                           >
                             {"Zip/Postal code"}
@@ -313,7 +313,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.freeBox__s0VQ5
+                          sty.text__s0VQ5
                         )}
                       >
                         {
@@ -400,7 +400,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__sHo1Q
+                      sty.text__sHo1Q
                     )}
                   >
                     {
@@ -472,7 +472,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__oxyo4
+                      sty.text__oxyo4
                     )}
                   >
                     {"Send page visitor data to your Google Analytics account."}
@@ -516,7 +516,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.freeBox___9AuTo
+                    sty.text___9AuTo
                   )}
                 >
                   {"Notifications"}
@@ -543,7 +543,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__whFsE
+                      sty.text__whFsE
                     )}
                   >
                     {"Updates when you're away from the community."}
@@ -599,7 +599,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__i4WgX
+                      sty.text__i4WgX
                     )}
                   >
                     {
@@ -715,7 +715,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox__ihpB
+                      sty.text__ihpB
                     )}
                   >
                     {
@@ -787,7 +787,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__gjYq9
+                        sty.text__gjYq9
                       )}
                     >
                       {
@@ -846,7 +846,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__piuw6
+                        sty.text__piuw6
                       )}
                     >
                       {

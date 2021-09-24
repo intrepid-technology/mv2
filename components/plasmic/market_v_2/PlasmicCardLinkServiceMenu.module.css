@@ -79,7 +79,7 @@
   width: auto;
   height: auto;
 }
-.slotTextHeadline {
+.slotTargetTextHeadline {
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -92,7 +92,7 @@
   width: 100%;
   min-width: 0;
 }
-.slotTextBody {
+.slotTargetTextBody {
   text-align: left;
   line-height: 1.4;
   font-size: 12px;

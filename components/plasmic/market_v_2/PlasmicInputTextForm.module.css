@@ -73,7 +73,7 @@
 .labelHeadlineParent__width__180 {
   width: 180px;
 }
-.slotLabelHeadline {
+.slotTargetLabelHeadline {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -82,13 +82,13 @@
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
-.slotLabelHeadline__width__720 {
+.slotTargetLabelHeadline__width__720 {
   font-size: 16px;
 }
-.slotLabelHeadline__width__180 {
+.slotTargetLabelHeadline__width__180 {
   font-size: 14px;
 }
-.slotLabelHeadline__width__270 {
+.slotTargetLabelHeadline__width__270 {
   font-size: 12px;
 }
 .inputParent {
@@ -203,7 +203,7 @@
 .descriptionParent__width__180 {
   width: 180px;
 }
-.slotDescription {
+.slotTargetDescription {
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -211,9 +211,9 @@
   line-height: 1;
   color: #999999 /* plasmic-token: UPK7EIst5 */;
 }
-.slotDescription__width__180 {
+.slotTargetDescription__width__180 {
   font-size: 14px;
 }
-.slotDescription__width__270 {
+.slotTargetDescription__width__270 {
   font-size: 12px;
 }

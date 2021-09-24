@@ -66,7 +66,6 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__fsHtd)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             ),
@@ -110,7 +109,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__nbdg7
+                sty.text__nbdg7
               )}
             >
               {"Username"}
@@ -205,7 +204,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.freeBox__rrUix
+                        sty.text__rrUix
                       )}
                     >
                       {"(1000)"}
@@ -224,7 +223,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.freeBox___5WaQl
+                      sty.text___5WaQl
                     )}
                   >
                     {"4.67"}
@@ -404,7 +403,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__fPbL6
+                  sty.text__fPbL6
                 )}
               >
                 {"City"}
@@ -414,7 +413,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox___0P9Ko
+                  sty.text___0P9Ko
                 )}
               >
                 {","}
@@ -426,7 +425,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox___4Fz5W
+                  sty.text___4Fz5W
                 )}
               >
                 {"Country"}

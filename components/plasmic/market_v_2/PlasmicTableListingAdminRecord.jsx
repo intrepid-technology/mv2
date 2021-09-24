@@ -120,7 +120,6 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-override={overrides.img}
                   alt={""}
                   className={classNames(defaultcss.img, sty.img)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -133,7 +132,6 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-override={overrides._70X404}
                   alt={""}
                   className={classNames(defaultcss.img, sty._70X404)}
-                  role={"img"}
                   src={
                     "https://craftypixels.com/placeholder-image/70x40/f8f8f8/333333"
                   }
@@ -177,9 +175,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__bWl6W,
+                  sty.text__bWl6W,
                   {
-                    [sty.freeBox__term_annual__bWl6WynHaO]: hasVariant(
+                    [sty.text__term_annual__bWl6WynHaO]: hasVariant(
                       variants,
                       "term",
                       "annual"
@@ -391,7 +389,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__kzo2R
+              sty.text__kzo2R
             )}
           >
             {"00/00/00"}
@@ -413,7 +411,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__rc3Ov
+                  sty.text__rc3Ov
                 )}
               >
                 {"Category"}
@@ -438,7 +436,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__fvDkj
+                sty.text__fvDkj
               )}
             >
               {"$"}
@@ -454,7 +452,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.freeBox__ssxRv
+                sty.text__ssxRv
               )}
             >
               {"00,000"}
@@ -489,15 +487,15 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.freeBox__mce,
+                  sty.text__mce,
                   {
-                    [sty.freeBox__term_annual__mceynHaO]: hasVariant(
+                    [sty.text__term_annual__mceynHaO]: hasVariant(
                       variants,
                       "term",
                       "annual"
                     ),
 
-                    [sty.freeBox__term_monthly__mceMZlgn]: hasVariant(
+                    [sty.text__term_monthly__mceMZlgn]: hasVariant(
                       variants,
                       "term",
                       "monthly"
@@ -532,7 +530,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               defaultcss.__wab_text,
-              sty.freeBox__wbZD
+              sty.text__wbZD
             )}
           >
             {"00/00/00"}
@@ -559,7 +557,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         </div>
       ) : null}
       {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
-        <div className={classNames(defaultcss.all, sty.freeBox__lBwk)}>
+        <div
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox)}
+        >
           <ButtonCircleDelete
             data-plasmic-name={"archiveListing"}
             data-plasmic-override={overrides.archiveListing}
@@ -611,6 +613,7 @@ const PlasmicDescendants = {
     "expirationDateTimeParent",
     "autoRenewParent",
     "autoRenew",
+    "freeBox",
     "archiveListing"
   ],
 
@@ -680,6 +683,7 @@ const PlasmicDescendants = {
   expirationDateTimeParent: ["expirationDateTimeParent"],
   autoRenewParent: ["autoRenewParent", "autoRenew"],
   autoRenew: ["autoRenew"],
+  freeBox: ["freeBox", "archiveListing"],
   archiveListing: ["archiveListing"]
 };
 
@@ -747,6 +751,7 @@ export const PlasmicTableListingAdminRecord = Object.assign(
     expirationDateTimeParent: makeNodeComponent("expirationDateTimeParent"),
     autoRenewParent: makeNodeComponent("autoRenewParent"),
     autoRenew: makeNodeComponent("autoRenew"),
+    freeBox: makeNodeComponent("freeBox"),
     archiveListing: makeNodeComponent("archiveListing"),
     // Metadata about props expected for PlasmicTableListingAdminRecord
     internalVariantProps: PlasmicTableListingAdminRecord__VariantProps,

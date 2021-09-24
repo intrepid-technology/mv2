@@ -87,8 +87,8 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
             ),
 
             value: args.navIcon,
-            className: classNames(sty.slotNavIcon, {
-              [sty.slotNavIcon__disabled]: hasVariant(
+            className: classNames(sty.slotTargetNavIcon, {
+              [sty.slotTargetNavIcon__disabled]: hasVariant(
                 variants,
                 "disabled",
                 "disabled"
@@ -104,8 +104,8 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
             {p.renderPlasmicSlot({
               defaultContents: "Item",
               value: args.navText,
-              className: classNames(sty.slotNavText, {
-                [sty.slotNavText__disabled]: hasVariant(
+              className: classNames(sty.slotTargetNavText, {
+                [sty.slotTargetNavText__disabled]: hasVariant(
                   variants,
                   "disabled",
                   "disabled"

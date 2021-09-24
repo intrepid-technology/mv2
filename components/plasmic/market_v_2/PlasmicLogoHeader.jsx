@@ -56,7 +56,6 @@ function PlasmicLogoHeader__RenderFunc(props) {
               <img
                 alt={""}
                 className={classNames(defaultcss.img, sty.img__n8PaC)}
-                role={"img"}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
               />
             ),
@@ -72,7 +71,6 @@ function PlasmicLogoHeader__RenderFunc(props) {
           className={classNames(defaultcss.img, sty.img, {
             [sty.img__color]: hasVariant(variants, "color", "color")
           })}
-          role={"img"}
           src={
             hasVariant(variants, "color", "color")
               ? "/plasmic/market_v_2/images/intrepidLogo2021V2Lightsvg.svg"

@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 6px;
 }
-.freeBox__t8H1X {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -47,7 +47,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__os5Mt {
+.text__os5Mt {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -60,7 +60,7 @@
   text-transform: none;
   text-align: right;
 }
-.freeBox__br5LD {
+.text__br5LD {
   position: relative;
   left: auto;
   top: auto;
@@ -74,7 +74,7 @@
   top: auto;
   left: auto;
 }
-.freeBox__lsm4G {
+.text__lsm4G {
   display: block;
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -87,7 +87,7 @@
   text-transform: none;
   text-align: right;
 }
-.freeBox__iekLt {
+.text__iekLt {
   left: auto;
   top: auto;
   text-align: right;
