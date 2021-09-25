@@ -925,10 +925,9 @@ function PlasmicEditmember__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix__ogE7H
-                  )}
+                  data-plasmic-name={"website"}
+                  data-plasmic-override={overrides.website}
+                  className={classNames("__wab_instance", sty.website)}
                   prefixLabelHeadline={"https://"}
                   suffix={"suffix"}
                   type={"primary"}
@@ -1137,6 +1136,7 @@ const PlasmicDescendants = {
     "sectionMemberEditProfileSocial",
     "formMemberEditSocial",
     "cardMemberWebsite",
+    "website",
     "cardMemberSocial",
     "inputGroupMemberSocial",
     "memberSubmitSocials",
@@ -1319,6 +1319,7 @@ const PlasmicDescendants = {
     "sectionMemberEditProfileSocial",
     "formMemberEditSocial",
     "cardMemberWebsite",
+    "website",
     "cardMemberSocial",
     "inputGroupMemberSocial",
     "memberSubmitSocials"
@@ -1327,12 +1328,14 @@ const PlasmicDescendants = {
   formMemberEditSocial: [
     "formMemberEditSocial",
     "cardMemberWebsite",
+    "website",
     "cardMemberSocial",
     "inputGroupMemberSocial",
     "memberSubmitSocials"
   ],
 
-  cardMemberWebsite: ["cardMemberWebsite"],
+  cardMemberWebsite: ["cardMemberWebsite", "website"],
+  website: ["website"],
   cardMemberSocial: ["cardMemberSocial", "inputGroupMemberSocial"],
   inputGroupMemberSocial: ["inputGroupMemberSocial"],
   memberSubmitSocials: ["memberSubmitSocials"],
@@ -1431,6 +1434,7 @@ export const PlasmicEditmember = Object.assign(
 
     formMemberEditSocial: makeNodeComponent("formMemberEditSocial"),
     cardMemberWebsite: makeNodeComponent("cardMemberWebsite"),
+    website: makeNodeComponent("website"),
     cardMemberSocial: makeNodeComponent("cardMemberSocial"),
     inputGroupMemberSocial: makeNodeComponent("inputGroupMemberSocial"),
     memberSubmitSocials: makeNodeComponent("memberSubmitSocials"),
