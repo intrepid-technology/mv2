@@ -100,19 +100,19 @@ function PlasmicSectionHero__RenderFunc(props) {
           }
           size={
             hasVariant(variants, "persona", "partner") &&
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? "_270"
               : hasVariant(variants, "persona", "partner")
               ? "_720"
               : hasVariant(variants, "persona", "member") &&
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
               ? "_360"
               : hasVariant(variants, "persona", "member") &&
                 hasVariant(globalVariants, "screen", "desktop")
               ? "_720"
               : hasVariant(variants, "persona", "member")
               ? "_720"
-              : hasVariant(globalVariants, "screen", "mobile")
+              : hasVariant(globalVariants, "screen", "iphone678Plus")
               ? "_360"
               : "_720"
           }
@@ -121,7 +121,7 @@ function PlasmicSectionHero__RenderFunc(props) {
             ? "Reach a global audience selling your unique professional design and technology services to entrepreneurs and startups around the world"
             : hasVariant(variants, "persona", "member")
             ? "Find all the technology products and services you need to startup, launch, and grow your business."
-            : hasVariant(globalVariants, "screen", "mobile")
+            : hasVariant(globalVariants, "screen", "iphone678Plus")
             ? "Reach a global audience selling your unique design and technology services to entrepreneurs and startups around the world"
             : hasVariant(globalVariants, "screen", "desktop")
             ? "Find creative agencies helping entrepreneurs and startups succeed with product development, technology, and growth."

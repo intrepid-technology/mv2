@@ -110,7 +110,9 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay
               )}
               size={
-                hasVariant(globalVariants, "screen", "mobile") ? "_360" : "_720"
+                hasVariant(globalVariants, "screen", "iphone678Plus")
+                  ? "_360"
+                  : "_720"
               }
               slot={
                 <div
@@ -222,7 +224,9 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.freeBox__xulmc)}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "mobile") ? true : true
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? true
+                      : true
                   ) ? (
                     <div
                       data-plasmic-name={"listingSearchFilterParent"}

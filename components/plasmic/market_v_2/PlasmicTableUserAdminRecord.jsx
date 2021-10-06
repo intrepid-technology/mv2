@@ -50,7 +50,13 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
         <ElementRadioPrimary
           data-plasmic-name={"elementRadioPrimary"}
           data-plasmic-override={overrides.elementRadioPrimary}
-          className={classNames("__wab_instance", sty.elementRadioPrimary)}
+          className={classNames("__wab_instance", sty.elementRadioPrimary, {
+            [sty.elementRadioPrimary__action_select]: hasVariant(
+              variants,
+              "action",
+              "select"
+            )
+          })}
           size={"_14Px"}
         />
 
@@ -77,7 +83,14 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
-                sty.text__qRux
+                sty.text__qRux,
+                {
+                  [sty.text__action_select__qRuxWms]: hasVariant(
+                    variants,
+                    "action",
+                    "select"
+                  )
+                }
               )}
             >
               {"username"}

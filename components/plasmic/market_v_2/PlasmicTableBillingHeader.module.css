@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: row;
-  width: 720px;
+  width: 100%;
   height: auto;
   border-bottom-width: 2px;
   border-right-width: 1px;
@@ -9,6 +9,7 @@
   border-left-width: 1px;
   position: relative;
   background: #f8f8f8;
+  min-width: 0;
   border-radius: 2px;
   padding: 16px 8px;
   border-style: solid;
@@ -27,6 +28,18 @@
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 16px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 375px) {
+  .root > :global(.__wab_flex-container) {
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 .freeBox__gnd0J {
   display: flex;

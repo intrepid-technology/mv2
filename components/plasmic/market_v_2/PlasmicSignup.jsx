@@ -80,7 +80,7 @@ function PlasmicSignup__RenderFunc(props) {
           />
 
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

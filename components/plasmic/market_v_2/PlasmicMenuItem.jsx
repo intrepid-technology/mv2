@@ -37,7 +37,7 @@ function PlasmicMenuItem__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.all,
+        defaultcss.a,
         projectcss.root_reset,
         sty.menuItemLink,
         {

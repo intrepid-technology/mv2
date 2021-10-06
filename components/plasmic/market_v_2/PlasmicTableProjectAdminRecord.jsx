@@ -85,7 +85,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"imageServiceLink"}
             data-plasmic-override={overrides.imageServiceLink}
-            className={classNames(defaultcss.all, sty.imageServiceLink)}
+            className={classNames(defaultcss.a, sty.imageServiceLink)}
             component={Link}
             platform={"nextjs"}
           >
@@ -128,7 +128,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"serviceTitleLink"}
               data-plasmic-override={overrides.serviceTitleLink}
-              className={classNames(defaultcss.all, sty.serviceTitleLink)}
+              className={classNames(defaultcss.a, sty.serviceTitleLink)}
               component={Link}
               platform={"nextjs"}
             >
@@ -177,7 +177,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"progressParent"}
           data-plasmic-override={overrides.progressParent}
@@ -237,7 +237,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
@@ -268,7 +268,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"partnerAvatarParent"}
           data-plasmic-override={overrides.partnerAvatarParent}
@@ -282,7 +282,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"notificationsParent"}
           data-plasmic-override={overrides.notificationsParent}
@@ -302,7 +302,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           </button>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"deliveryDateParent"}
           data-plasmic-override={overrides.deliveryDateParent}
@@ -319,7 +319,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"reviewParent"}
           data-plasmic-override={overrides.reviewParent}
@@ -358,7 +358,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           </button>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"approvedParent"}
           data-plasmic-override={overrides.approvedParent}
@@ -370,7 +370,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <div
           data-plasmic-name={"cancelParent"}
           data-plasmic-override={overrides.cancelParent}

@@ -86,6 +86,12 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
             [sty.prefixparent__suffix_prefix]:
               hasVariant(variants, "suffix", "suffix") &&
               hasVariant(variants, "prefix", "prefix"),
+            [sty.prefixparent__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
             [sty.prefixparent__type_secondary]: hasVariant(
               variants,
               "type",
@@ -97,6 +103,12 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
             defaultContents: "Text",
             value: args.prefixLabelHeadline,
             className: classNames(sty.slotTargetPrefixLabelHeadline, {
+              [sty.slotTargetPrefixLabelHeadline__suffix]: hasVariant(
+                variants,
+                "suffix",
+                "suffix"
+              ),
+
               [sty.slotTargetPrefixLabelHeadline__type_secondary]: hasVariant(
                 variants,
                 "type",
@@ -109,7 +121,10 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         <input
           data-plasmic-name={"value"}
           data-plasmic-override={overrides.value}
-          className={classNames(defaultcss.input, sty.value)}
+          className={classNames(defaultcss.input, sty.value, {
+            [sty.value__type_primary]: hasVariant(variants, "type", "primary"),
+            [sty.value__width__120]: hasVariant(variants, "width", "_120")
+          })}
           placeholder={""}
           size={1}
           type={"text"}

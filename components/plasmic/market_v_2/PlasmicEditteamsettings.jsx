@@ -12,9 +12,11 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
@@ -30,6 +32,7 @@ import SwitchTextGroupPrimary from "../../SwitchTextGroupPrimary"; // plasmic-im
 import CheckboxTextPrimary from "../../CheckboxTextPrimary"; // plasmic-import: DzJ8mMkLUy2/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -41,6 +44,10 @@ export const PlasmicEditteamsettings__ArgProps = new Array();
 
 function PlasmicEditteamsettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -169,7 +176,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   data-plasmic-name={"inputTextField"}
                   data-plasmic-override={overrides.inputTextField}
                   className={classNames("__wab_instance", sty.inputTextField)}
-                  size={"_540"}
+                  size={
+                    hasVariant(globalVariants, "screen", "iphone678")
+                      ? undefined
+                      : "_540"
+                  }
                   type={"secondary"}
                 />
 
@@ -213,18 +224,28 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     className={classNames(defaultcss.all, sty.teamAddressGroup)}
                   >
                     <InputTextForm
+                      className={classNames("__wab_instance")}
                       labelHeadline={"Address"}
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_540"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_540"
+                      }
                     />
 
                     <InputTextForm
+                      className={classNames("__wab_instance")}
                       label={"label"}
                       labelHeadline={"Number"}
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_540"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_540"
+                      }
                     />
 
                     <SelectGroupDropdownPrimary
@@ -233,7 +254,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         sty.selectGroupDropdownPrimary__pgtEa
                       )}
                       description={"description"}
-                      width={"_360"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_360"
+                      }
                     >
                       {"Country"}
                     </SelectGroupDropdownPrimary>
@@ -256,7 +281,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       }
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_360"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_360"
+                      }
                     />
 
                     <p.Stack
@@ -270,13 +299,19 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       )}
                     >
                       <InputTextForm
+                        className={classNames("__wab_instance")}
                         labelHeadline={"Province/State"}
                         subhead={"subhead"}
                         type={"primary"}
-                        width={"_160"}
+                        width={
+                          hasVariant(globalVariants, "screen", "iphone678")
+                            ? undefined
+                            : "_160"
+                        }
                       />
 
                       <InputTextForm
+                        className={classNames("__wab_instance")}
                         labelHeadline={
                           <div
                             className={classNames(
@@ -290,7 +325,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         }
                         subhead={"subhead"}
                         type={"primary"}
-                        width={"_160"}
+                        width={
+                          hasVariant(globalVariants, "screen", "iphone678")
+                            ? undefined
+                            : "_160"
+                        }
                       />
                     </p.Stack>
                   </p.Stack>
@@ -338,7 +377,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         sty.selectGroupDropdownPrimary__fjl7S
                       )}
                       description={"description"}
-                      width={"_144"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_144"
+                      }
                     >
                       {"Country"}
                     </SelectGroupDropdownPrimary>
@@ -351,7 +394,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       labelHeadline={"Number"}
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_360"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678")
+                          ? undefined
+                          : "_360"
+                      }
                     />
                   </p.Stack>
                 </p.Stack>
@@ -428,7 +475,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardSocialConnectSwitch___63TS
                   )}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678")
+                      ? undefined
+                      : "_540"
+                  }
                 />
 
                 <CardSocialConnectSwitch
@@ -437,7 +488,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardSocialConnectSwitch__b9VAq
                   )}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </div>
             </p.Stack>
@@ -492,7 +547,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 prefixLabelHeadline={"UA"}
                 suffix={"suffix"}
                 type={"primary"}
-                width={"_360"}
+                width={
+                  hasVariant(globalVariants, "screen", "iphone678")
+                    ? undefined
+                    : "_360"
+                }
               />
             </p.Stack>
           </p.Stack>
@@ -510,7 +569,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay__qvdyY
               )}
               headings={["title"]}
-              size={"_720"}
+              size={
+                hasVariant(globalVariants, "screen", "iphone678")
+                  ? undefined
+                  : "_720"
+              }
               slot={
                 <div
                   className={classNames(

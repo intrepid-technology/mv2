@@ -377,7 +377,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__oQxWr
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -432,7 +432,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__vr6Rn
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -525,7 +525,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__gH068
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -633,7 +633,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__aijA
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -699,7 +699,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__cHnL
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -765,7 +765,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__rHzZp
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -846,7 +846,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__aOnLc
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -927,7 +927,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__dwCtl
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }
@@ -1005,7 +1005,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       sty.accordion__fUsZa
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : undefined
                     }

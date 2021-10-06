@@ -1188,7 +1188,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.freeBox__z1I9A)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? DesignIcon
                         : DesignIcon
                     }
@@ -1212,7 +1212,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.freeBox__suBeb)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? GlobeAmericaIcon
                         : GlobeAmericaIcon
                     }

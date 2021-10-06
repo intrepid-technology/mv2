@@ -53,16 +53,16 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={
-          hasVariant(globalVariants, "screen", "mobile")
-            ? "/"
+          hasVariant(globalVariants, "screen", "iphone678Plus")
+            ? "/home"
             : hasVariant(globalVariants, "screen", "desktop")
-            ? "/"
-            : "/"
+            ? "/home"
+            : "/home"
         }
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
 
-      {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"freeBox"}
@@ -73,7 +73,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           })}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? false
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -135,7 +135,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   : "brand"
               }
               destination={
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? "/partner/pricing"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "/partner/pricing"
@@ -163,7 +163,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   : "fill"
               }
               width={
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? "_90"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "_140"

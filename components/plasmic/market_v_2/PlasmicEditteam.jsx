@@ -12,9 +12,11 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
@@ -30,6 +32,7 @@ import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/c
 import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
 import CardSocialConnectSwitch from "../../CardSocialConnectSwitch"; // plasmic-import: PjlQKkmde-/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -41,6 +44,10 @@ export const PlasmicEditteam__ArgProps = new Array();
 
 function PlasmicEditteam__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -245,14 +252,17 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix__asyk
-                  )}
+                  data-plasmic-name={"username"}
+                  data-plasmic-override={overrides.username}
+                  className={classNames("__wab_instance", sty.username)}
                   prefixLabelHeadline={"@"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -286,14 +296,20 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
+                  data-plasmic-name={"inputTextPrefixSuffix"}
+                  data-plasmic-override={overrides.inputTextPrefixSuffix}
                   className={classNames(
                     "__wab_instance",
-                    sty.inputTextPrefixSuffix__xhW7
+                    sty.inputTextPrefixSuffix
                   )}
                   prefixLabelHeadline={"intrepid/technology/"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -325,10 +341,14 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextField
-                  data-plasmic-name={"inputTextField"}
-                  data-plasmic-override={overrides.inputTextField}
-                  className={classNames("__wab_instance", sty.inputTextField)}
-                  size={"_540"}
+                  data-plasmic-name={"tag"}
+                  data-plasmic-override={overrides.tag}
+                  className={classNames("__wab_instance", sty.tag)}
+                  size={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                   type={"secondary"}
                 />
               </p.Stack>
@@ -361,15 +381,16 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextAreaPrimary
-                  data-plasmic-name={"inputTextAreaPrimary"}
-                  data-plasmic-override={overrides.inputTextAreaPrimary}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextAreaPrimary
-                  )}
+                  data-plasmic-name={"description"}
+                  data-plasmic-override={overrides.description}
+                  className={classNames("__wab_instance", sty.description)}
                   height={"_90"}
                   type={"secondary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -406,14 +427,17 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix__ppVB
-                  )}
+                  data-plasmic-name={"video"}
+                  data-plasmic-override={overrides.video}
+                  className={classNames("__wab_instance", sty.video)}
                   prefixLabelHeadline={"https//"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -514,23 +538,26 @@ function PlasmicEditteam__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.teamLocationGroup)}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary___4TodG
-                    )}
+                    data-plasmic-name={"country"}
+                    data-plasmic-override={overrides.country}
+                    className={classNames("__wab_instance", sty.country)}
                     description={"description"}
                   >
                     {"Country"}
                   </SelectGroupDropdownPrimary>
 
                   <InputTextForm
-                    data-plasmic-name={"inputTextForm"}
-                    data-plasmic-override={overrides.inputTextForm}
-                    className={classNames("__wab_instance", sty.inputTextForm)}
+                    data-plasmic-name={"city"}
+                    data-plasmic-override={overrides.city}
+                    className={classNames("__wab_instance", sty.city)}
                     labelHeadline={"City"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -570,20 +597,18 @@ function PlasmicEditteam__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.teamIndustryGroup)}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__qq1Ad
-                    )}
+                    data-plasmic-name={"industry"}
+                    data-plasmic-override={overrides.industry}
+                    className={classNames("__wab_instance", sty.industry)}
                     description={"description"}
                   >
                     {"Industry"}
                   </SelectGroupDropdownPrimary>
 
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__ep2Yi
-                    )}
+                    data-plasmic-name={"companySize"}
+                    data-plasmic-override={overrides.companySize}
+                    className={classNames("__wab_instance", sty.companySize)}
                     description={"description"}
                   >
                     {"Company size"}
@@ -629,10 +654,9 @@ function PlasmicEditteam__RenderFunc(props) {
                   )}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__ufg5H
-                    )}
+                    data-plasmic-name={"language"}
+                    data-plasmic-override={overrides.language}
+                    className={classNames("__wab_instance", sty.language)}
                     description={"description"}
                   >
                     {"Primary"}
@@ -680,10 +704,9 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay__oGflV
-                  )}
+                  data-plasmic-name={"skill"}
+                  data-plasmic-override={overrides.skill}
+                  className={classNames("__wab_instance", sty.skill)}
                 />
               </p.Stack>
 
@@ -717,10 +740,9 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay__n6C5V
-                  )}
+                  data-plasmic-name={"community"}
+                  data-plasmic-override={overrides.community}
+                  className={classNames("__wab_instance", sty.community)}
                 />
               </p.Stack>
 
@@ -821,19 +843,20 @@ function PlasmicEditteam__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.teamMarketsGroup)}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__kze6J
-                    )}
+                    data-plasmic-name={"marketIndustry"}
+                    data-plasmic-override={overrides.marketIndustry}
+                    className={classNames("__wab_instance", sty.marketIndustry)}
                     description={"description"}
                   >
                     {"Industry"}
                   </SelectGroupDropdownPrimary>
 
                   <SelectGroupDropdownPrimary
+                    data-plasmic-name={"marketcompanySize"}
+                    data-plasmic-override={overrides.marketcompanySize}
                     className={classNames(
                       "__wab_instance",
-                      sty.selectGroupDropdownPrimary__ki9Mw
+                      sty.marketcompanySize
                     )}
                     description={"description"}
                   >
@@ -879,10 +902,9 @@ function PlasmicEditteam__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.teamProjectsGroup)}
                 >
                   <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__qyggF
-                    )}
+                    data-plasmic-name={"projectRates"}
+                    data-plasmic-override={overrides.projectRates}
+                    className={classNames("__wab_instance", sty.projectRates)}
                     description={"description"}
                   >
                     {"Primary"}
@@ -930,10 +952,9 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputSearchbarFilterDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputSearchbarFilterDisplay__pBkuq
-                  )}
+                  data-plasmic-name={"interest"}
+                  data-plasmic-override={overrides.interest}
+                  className={classNames("__wab_instance", sty.interest)}
                 />
               </p.Stack>
 
@@ -1025,14 +1046,17 @@ function PlasmicEditteam__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
 
                 <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix___3PD22
-                  )}
+                  data-plasmic-name={"website"}
+                  data-plasmic-override={overrides.website}
+                  className={classNames("__wab_instance", sty.website)}
                   prefixLabelHeadline={"https://"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -1089,7 +1113,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__poC9L
                     )}
                     socialNetwork={"instagram"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1098,7 +1126,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__wTlid
                     )}
                     socialNetwork={"facebook"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1107,7 +1139,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__l8ESj
                     )}
                     socialNetwork={"linkedin"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1116,7 +1152,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch___9ENwg
                     )}
                     socialNetwork={"twitter"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1125,7 +1165,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__mWllJ
                     )}
                     socialNetwork={"youtube"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1134,7 +1178,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch___0ButS
                     )}
                     socialNetwork={"tikTok"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1143,7 +1191,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__aUif3
                     )}
                     socialNetwork={"github"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1152,7 +1204,11 @@ function PlasmicEditteam__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__uk3B7
                     )}
                     socialNetwork={"dribbble"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -1199,36 +1255,50 @@ const PlasmicDescendants = {
     "userAvatarButton",
     "teamEditlogoGroup",
     "cardTeamDisplayname",
+    "username",
     "cardTeamUrl",
+    "inputTextPrefixSuffix",
     "cardTeamTagline",
-    "inputTextField",
+    "tag",
     "cardTeamDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardTeamVideoIntroUrl",
+    "video",
     "teamSubmitProfile",
     "sectionTeamEditProfileDetails",
     "formTeamEditDetails",
     "cardTeamLocation",
     "teamLocationGroup",
-    "inputTextForm",
+    "country",
+    "city",
     "cardTeamIndustry",
     "teamIndustryGroup",
+    "industry",
+    "companySize",
     "cardTeamLanguages",
     "inputGroupTeamLanguages",
+    "language",
     "cardTeamSkills",
+    "skill",
     "cardTeamCommunity",
+    "community",
     "teamSubmitDetails",
     "sectionTeamEditProfileMarkets",
     "formTeamEditMarkets",
     "cardTeamMarkets",
     "teamMarketsGroup",
+    "marketIndustry",
+    "marketcompanySize",
     "cardTeamProjects",
     "teamProjectsGroup",
+    "projectRates",
     "cardTeamInterests",
+    "interest",
     "teamSubmitMarkets",
     "sectionTeamEditProfileSocial",
     "formTeamEditSocial",
     "cardTeamWebsite",
+    "website",
     "cardTeamSocial",
     "inputGroupTeamSocial",
     "teamSubmitSocials",
@@ -1245,12 +1315,15 @@ const PlasmicDescendants = {
     "userAvatarButton",
     "teamEditlogoGroup",
     "cardTeamDisplayname",
+    "username",
     "cardTeamUrl",
+    "inputTextPrefixSuffix",
     "cardTeamTagline",
-    "inputTextField",
+    "tag",
     "cardTeamDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardTeamVideoIntroUrl",
+    "video",
     "teamSubmitProfile"
   ],
 
@@ -1261,12 +1334,15 @@ const PlasmicDescendants = {
     "userAvatarButton",
     "teamEditlogoGroup",
     "cardTeamDisplayname",
+    "username",
     "cardTeamUrl",
+    "inputTextPrefixSuffix",
     "cardTeamTagline",
-    "inputTextField",
+    "tag",
     "cardTeamDescription",
-    "inputTextAreaPrimary",
+    "description",
     "cardTeamVideoIntroUrl",
+    "video",
     "teamSubmitProfile"
   ],
 
@@ -1285,26 +1361,35 @@ const PlasmicDescendants = {
 
   userAvatarButton: ["userAvatarButton"],
   teamEditlogoGroup: ["teamEditlogoGroup"],
-  cardTeamDisplayname: ["cardTeamDisplayname"],
-  cardTeamUrl: ["cardTeamUrl"],
-  cardTeamTagline: ["cardTeamTagline", "inputTextField"],
-  inputTextField: ["inputTextField"],
-  cardTeamDescription: ["cardTeamDescription", "inputTextAreaPrimary"],
-  inputTextAreaPrimary: ["inputTextAreaPrimary"],
-  cardTeamVideoIntroUrl: ["cardTeamVideoIntroUrl"],
+  cardTeamDisplayname: ["cardTeamDisplayname", "username"],
+  username: ["username"],
+  cardTeamUrl: ["cardTeamUrl", "inputTextPrefixSuffix"],
+  inputTextPrefixSuffix: ["inputTextPrefixSuffix"],
+  cardTeamTagline: ["cardTeamTagline", "tag"],
+  tag: ["tag"],
+  cardTeamDescription: ["cardTeamDescription", "description"],
+  description: ["description"],
+  cardTeamVideoIntroUrl: ["cardTeamVideoIntroUrl", "video"],
+  video: ["video"],
   teamSubmitProfile: ["teamSubmitProfile"],
   sectionTeamEditProfileDetails: [
     "sectionTeamEditProfileDetails",
     "formTeamEditDetails",
     "cardTeamLocation",
     "teamLocationGroup",
-    "inputTextForm",
+    "country",
+    "city",
     "cardTeamIndustry",
     "teamIndustryGroup",
+    "industry",
+    "companySize",
     "cardTeamLanguages",
     "inputGroupTeamLanguages",
+    "language",
     "cardTeamSkills",
+    "skill",
     "cardTeamCommunity",
+    "community",
     "teamSubmitDetails"
   ],
 
@@ -1312,34 +1397,67 @@ const PlasmicDescendants = {
     "formTeamEditDetails",
     "cardTeamLocation",
     "teamLocationGroup",
-    "inputTextForm",
+    "country",
+    "city",
     "cardTeamIndustry",
     "teamIndustryGroup",
+    "industry",
+    "companySize",
     "cardTeamLanguages",
     "inputGroupTeamLanguages",
+    "language",
     "cardTeamSkills",
+    "skill",
     "cardTeamCommunity",
+    "community",
     "teamSubmitDetails"
   ],
 
-  cardTeamLocation: ["cardTeamLocation", "teamLocationGroup", "inputTextForm"],
-  teamLocationGroup: ["teamLocationGroup", "inputTextForm"],
-  inputTextForm: ["inputTextForm"],
-  cardTeamIndustry: ["cardTeamIndustry", "teamIndustryGroup"],
-  teamIndustryGroup: ["teamIndustryGroup"],
-  cardTeamLanguages: ["cardTeamLanguages", "inputGroupTeamLanguages"],
-  inputGroupTeamLanguages: ["inputGroupTeamLanguages"],
-  cardTeamSkills: ["cardTeamSkills"],
-  cardTeamCommunity: ["cardTeamCommunity"],
+  cardTeamLocation: [
+    "cardTeamLocation",
+    "teamLocationGroup",
+    "country",
+    "city"
+  ],
+
+  teamLocationGroup: ["teamLocationGroup", "country", "city"],
+  country: ["country"],
+  city: ["city"],
+  cardTeamIndustry: [
+    "cardTeamIndustry",
+    "teamIndustryGroup",
+    "industry",
+    "companySize"
+  ],
+
+  teamIndustryGroup: ["teamIndustryGroup", "industry", "companySize"],
+  industry: ["industry"],
+  companySize: ["companySize"],
+  cardTeamLanguages: [
+    "cardTeamLanguages",
+    "inputGroupTeamLanguages",
+    "language"
+  ],
+
+  inputGroupTeamLanguages: ["inputGroupTeamLanguages", "language"],
+  language: ["language"],
+  cardTeamSkills: ["cardTeamSkills", "skill"],
+  skill: ["skill"],
+  cardTeamCommunity: ["cardTeamCommunity", "community"],
+  community: ["community"],
   teamSubmitDetails: ["teamSubmitDetails"],
   sectionTeamEditProfileMarkets: [
     "sectionTeamEditProfileMarkets",
     "formTeamEditMarkets",
     "cardTeamMarkets",
     "teamMarketsGroup",
+    "marketIndustry",
+    "marketcompanySize",
     "cardTeamProjects",
     "teamProjectsGroup",
+    "projectRates",
     "cardTeamInterests",
+    "interest",
     "teamSubmitMarkets"
   ],
 
@@ -1347,22 +1465,37 @@ const PlasmicDescendants = {
     "formTeamEditMarkets",
     "cardTeamMarkets",
     "teamMarketsGroup",
+    "marketIndustry",
+    "marketcompanySize",
     "cardTeamProjects",
     "teamProjectsGroup",
+    "projectRates",
     "cardTeamInterests",
+    "interest",
     "teamSubmitMarkets"
   ],
 
-  cardTeamMarkets: ["cardTeamMarkets", "teamMarketsGroup"],
-  teamMarketsGroup: ["teamMarketsGroup"],
-  cardTeamProjects: ["cardTeamProjects", "teamProjectsGroup"],
-  teamProjectsGroup: ["teamProjectsGroup"],
-  cardTeamInterests: ["cardTeamInterests"],
+  cardTeamMarkets: [
+    "cardTeamMarkets",
+    "teamMarketsGroup",
+    "marketIndustry",
+    "marketcompanySize"
+  ],
+
+  teamMarketsGroup: ["teamMarketsGroup", "marketIndustry", "marketcompanySize"],
+  marketIndustry: ["marketIndustry"],
+  marketcompanySize: ["marketcompanySize"],
+  cardTeamProjects: ["cardTeamProjects", "teamProjectsGroup", "projectRates"],
+  teamProjectsGroup: ["teamProjectsGroup", "projectRates"],
+  projectRates: ["projectRates"],
+  cardTeamInterests: ["cardTeamInterests", "interest"],
+  interest: ["interest"],
   teamSubmitMarkets: ["teamSubmitMarkets"],
   sectionTeamEditProfileSocial: [
     "sectionTeamEditProfileSocial",
     "formTeamEditSocial",
     "cardTeamWebsite",
+    "website",
     "cardTeamSocial",
     "inputGroupTeamSocial",
     "teamSubmitSocials"
@@ -1371,12 +1504,14 @@ const PlasmicDescendants = {
   formTeamEditSocial: [
     "formTeamEditSocial",
     "cardTeamWebsite",
+    "website",
     "cardTeamSocial",
     "inputGroupTeamSocial",
     "teamSubmitSocials"
   ],
 
-  cardTeamWebsite: ["cardTeamWebsite"],
+  cardTeamWebsite: ["cardTeamWebsite", "website"],
+  website: ["website"],
   cardTeamSocial: ["cardTeamSocial", "inputGroupTeamSocial"],
   inputGroupTeamSocial: ["inputGroupTeamSocial"],
   teamSubmitSocials: ["teamSubmitSocials"],
@@ -1423,12 +1558,15 @@ export const PlasmicEditteam = Object.assign(
     userAvatarButton: makeNodeComponent("userAvatarButton"),
     teamEditlogoGroup: makeNodeComponent("teamEditlogoGroup"),
     cardTeamDisplayname: makeNodeComponent("cardTeamDisplayname"),
+    username: makeNodeComponent("username"),
     cardTeamUrl: makeNodeComponent("cardTeamUrl"),
+    inputTextPrefixSuffix: makeNodeComponent("inputTextPrefixSuffix"),
     cardTeamTagline: makeNodeComponent("cardTeamTagline"),
-    inputTextField: makeNodeComponent("inputTextField"),
+    tag: makeNodeComponent("tag"),
     cardTeamDescription: makeNodeComponent("cardTeamDescription"),
-    inputTextAreaPrimary: makeNodeComponent("inputTextAreaPrimary"),
+    description: makeNodeComponent("description"),
     cardTeamVideoIntroUrl: makeNodeComponent("cardTeamVideoIntroUrl"),
+    video: makeNodeComponent("video"),
     teamSubmitProfile: makeNodeComponent("teamSubmitProfile"),
     sectionTeamEditProfileDetails: makeNodeComponent(
       "sectionTeamEditProfileDetails"
@@ -1437,13 +1575,19 @@ export const PlasmicEditteam = Object.assign(
     formTeamEditDetails: makeNodeComponent("formTeamEditDetails"),
     cardTeamLocation: makeNodeComponent("cardTeamLocation"),
     teamLocationGroup: makeNodeComponent("teamLocationGroup"),
-    inputTextForm: makeNodeComponent("inputTextForm"),
+    country: makeNodeComponent("country"),
+    city: makeNodeComponent("city"),
     cardTeamIndustry: makeNodeComponent("cardTeamIndustry"),
     teamIndustryGroup: makeNodeComponent("teamIndustryGroup"),
+    industry: makeNodeComponent("industry"),
+    companySize: makeNodeComponent("companySize"),
     cardTeamLanguages: makeNodeComponent("cardTeamLanguages"),
     inputGroupTeamLanguages: makeNodeComponent("inputGroupTeamLanguages"),
+    language: makeNodeComponent("language"),
     cardTeamSkills: makeNodeComponent("cardTeamSkills"),
+    skill: makeNodeComponent("skill"),
     cardTeamCommunity: makeNodeComponent("cardTeamCommunity"),
+    community: makeNodeComponent("community"),
     teamSubmitDetails: makeNodeComponent("teamSubmitDetails"),
     sectionTeamEditProfileMarkets: makeNodeComponent(
       "sectionTeamEditProfileMarkets"
@@ -1452,9 +1596,13 @@ export const PlasmicEditteam = Object.assign(
     formTeamEditMarkets: makeNodeComponent("formTeamEditMarkets"),
     cardTeamMarkets: makeNodeComponent("cardTeamMarkets"),
     teamMarketsGroup: makeNodeComponent("teamMarketsGroup"),
+    marketIndustry: makeNodeComponent("marketIndustry"),
+    marketcompanySize: makeNodeComponent("marketcompanySize"),
     cardTeamProjects: makeNodeComponent("cardTeamProjects"),
     teamProjectsGroup: makeNodeComponent("teamProjectsGroup"),
+    projectRates: makeNodeComponent("projectRates"),
     cardTeamInterests: makeNodeComponent("cardTeamInterests"),
+    interest: makeNodeComponent("interest"),
     teamSubmitMarkets: makeNodeComponent("teamSubmitMarkets"),
     sectionTeamEditProfileSocial: makeNodeComponent(
       "sectionTeamEditProfileSocial"
@@ -1462,6 +1610,7 @@ export const PlasmicEditteam = Object.assign(
 
     formTeamEditSocial: makeNodeComponent("formTeamEditSocial"),
     cardTeamWebsite: makeNodeComponent("cardTeamWebsite"),
+    website: makeNodeComponent("website"),
     cardTeamSocial: makeNodeComponent("cardTeamSocial"),
     inputGroupTeamSocial: makeNodeComponent("inputGroupTeamSocial"),
     teamSubmitSocials: makeNodeComponent("teamSubmitSocials"),

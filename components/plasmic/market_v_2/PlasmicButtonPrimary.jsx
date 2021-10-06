@@ -26,13 +26,16 @@ export const PlasmicButtonPrimary__VariantProps = new Array(
   "type",
   "color",
   "size",
-  "state"
+  "state",
+  "rounded",
+  "hasShadow"
 );
 
 export const PlasmicButtonPrimary__ArgProps = new Array(
   "children",
   "svgIcon",
-  "id"
+  "id",
+  "destination"
 );
 
 function PlasmicButtonPrimary__RenderFunc(props) {
@@ -88,6 +91,15 @@ function PlasmicButtonPrimary__RenderFunc(props) {
             variants,
             "color",
             "warning"
+          ),
+
+          [sty.buttonPrimary__hasShadow_color_brand]:
+            hasVariant(variants, "hasShadow", "hasShadow") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.buttonPrimary__rounded]: hasVariant(
+            variants,
+            "rounded",
+            "rounded"
           ),
 
           [sty.buttonPrimary__size__120]: hasVariant(variants, "size", "_120"),

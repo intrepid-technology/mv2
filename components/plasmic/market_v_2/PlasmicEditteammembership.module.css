@@ -51,6 +51,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamMembershipStatus {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -86,6 +91,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (max-width: 375px) {
+  .freeBox__z0MCe {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__hQujY:global(.__wab_instance) {
   position: relative;
@@ -123,6 +134,12 @@
   > img {
   margin-top: 16px;
 }
+@media (max-width: 375px) {
+  .freeBox__w0Nfq {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .freeBox__erGt7 {
   display: flex;
   position: relative;
@@ -150,6 +167,12 @@
   border-radius: 2px;
   padding: 8px;
   border: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+@media (max-width: 375px) {
+  .text__tiDRl {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox__dsxJe {
   display: inline-flex;
@@ -221,6 +244,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamMembershipPlan {
+    padding: 16px;
+  }
+}
 .freeBox__lYwlJ {
   display: inline-flex;
   position: relative;
@@ -249,6 +277,12 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .freeBox__lYwlJ {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__lj3Cl:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -269,6 +303,15 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
+}
+@media (max-width: 375px) {
+  .freeBox__bCkXy {
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    min-width: 0;
+  }
 }
 .tableMembershipHeader:global(.__wab_instance) {
   position: relative;
@@ -360,6 +403,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamPaymentMethods {
+    padding: 16px;
+  }
+}
 .freeBox___0I7Eb {
   display: inline-flex;
   position: relative;
@@ -388,6 +436,12 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .freeBox___0I7Eb {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__yFiMv:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -408,6 +462,15 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
+}
+@media (max-width: 375px) {
+  .freeBox__k0ELd {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    overflow: auto;
+    min-width: 0;
+  }
 }
 .tableBillingHeader:global(.__wab_instance) {
   position: relative;

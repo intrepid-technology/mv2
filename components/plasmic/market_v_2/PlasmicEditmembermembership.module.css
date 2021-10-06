@@ -51,6 +51,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberMembershipStatus {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -87,10 +92,22 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox___270NR {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary___9HoOp:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardHeaderTitlePrimary___9HoOp:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text___9RndH {
   height: auto;
@@ -150,6 +167,12 @@
   border-radius: 2px;
   padding: 8px;
   border: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .text__b8WcN {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox__jfV1S {
   display: inline-flex;
@@ -221,6 +244,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberPaymentMethods {
+    padding: 16px;
+  }
+}
 .freeBox__hByDk {
   display: inline-flex;
   position: relative;
@@ -249,6 +277,12 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__hByDk {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary___4Zopx:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -270,15 +304,34 @@
   top: auto;
   background: rgba(68, 192, 255, 0.2);
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__mAd0 {
+    width: 100%;
+    overflow: auto;
+    min-width: 0;
+  }
+}
 .tableBillingHeader:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .tableBillingHeader:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .tableBillingRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .tableBillingRecord:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .buttonPrimary__rKxWz:global(.__wab_instance) {
   position: relative;
@@ -326,6 +379,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberPaymentHistory {
+    padding: 16px;
+  }
+}
 .freeBox___5Ypvv {
   display: inline-flex;
   position: relative;
@@ -354,6 +412,12 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox___5Ypvv {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__slOUd:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -374,6 +438,13 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__fL0L0 {
+    width: 100%;
+    overflow: auto;
+    min-width: 0;
+  }
 }
 .tableMembershipHeader:global(.__wab_instance) {
   position: relative;

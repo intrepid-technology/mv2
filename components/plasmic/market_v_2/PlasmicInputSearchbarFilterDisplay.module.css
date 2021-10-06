@@ -1,9 +1,10 @@
 .root {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
   position: relative;
+  min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -22,6 +23,8 @@
   position: relative;
   top: auto;
   left: auto;
+  width: 100%;
+  min-width: 0;
   flex-shrink: 0;
 }
 .badgeDisplayParent {
@@ -30,10 +33,11 @@
   flex-direction: row;
   left: auto;
   top: auto;
-  width: 360px;
+  width: 100%;
   height: auto;
   padding-bottom: 4px;
   padding-top: 4px;
+  min-width: 0;
 }
 .badgeDisplayParent > :global(.__wab_flex-container) {
   flex-direction: row;

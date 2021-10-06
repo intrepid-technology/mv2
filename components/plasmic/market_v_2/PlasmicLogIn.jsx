@@ -80,7 +80,7 @@ function PlasmicLogIn__RenderFunc(props) {
           />
 
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? false
               : hasVariant(globalVariants, "screen", "desktop")
               ? false
@@ -100,7 +100,7 @@ function PlasmicLogIn__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

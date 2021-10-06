@@ -70,7 +70,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         />
       </LogoHeader>
 
-      {(hasVariant(globalVariants, "screen", "mobile") ? false : true)
+      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true)
         ? p.renderPlasmicSlot({
             defaultContents: "Section Title",
             value: args.children,

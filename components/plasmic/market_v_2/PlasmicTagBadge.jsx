@@ -140,7 +140,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLinkBase"}
             data-plasmic-override={overrides.tagFilterLinkBase}
-            className={classNames(defaultcss.all, sty.tagFilterLinkBase, {
+            className={classNames(defaultcss.a, sty.tagFilterLinkBase, {
               [sty.tagFilterLinkBase__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -293,7 +293,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink6Px"}
             data-plasmic-override={overrides.tagFilterLink6Px}
-            className={classNames(defaultcss.all, sty.tagFilterLink6Px, {
+            className={classNames(defaultcss.a, sty.tagFilterLink6Px, {
               [sty.tagFilterLink6Px__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -398,7 +398,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink8Px"}
             data-plasmic-override={overrides.tagFilterLink8Px}
-            className={classNames(defaultcss.all, sty.tagFilterLink8Px, {
+            className={classNames(defaultcss.a, sty.tagFilterLink8Px, {
               [sty.tagFilterLink8Px__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -515,7 +515,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px"}
             data-plasmic-override={overrides.tagFilterLink10Px}
-            className={classNames(defaultcss.all, sty.tagFilterLink10Px, {
+            className={classNames(defaultcss.a, sty.tagFilterLink10Px, {
               [sty.tagFilterLink10Px__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -632,7 +632,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink12Px"}
             data-plasmic-override={overrides.tagFilterLink12Px}
-            className={classNames(defaultcss.all, sty.tagFilterLink12Px, {
+            className={classNames(defaultcss.a, sty.tagFilterLink12Px, {
               [sty.tagFilterLink12Px__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -737,7 +737,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink14Px"}
             data-plasmic-override={overrides.tagFilterLink14Px}
-            className={classNames(defaultcss.all, sty.tagFilterLink14Px, {
+            className={classNames(defaultcss.a, sty.tagFilterLink14Px, {
               [sty.tagFilterLink14Px__size__12Px]: hasVariant(
                 variants,
                 "size",
@@ -866,7 +866,7 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px2"}
             data-plasmic-override={overrides.tagFilterLink10Px2}
-            className={classNames(defaultcss.all, sty.tagFilterLink10Px2, {
+            className={classNames(defaultcss.a, sty.tagFilterLink10Px2, {
               [sty.tagFilterLink10Px2__size__12Px]: hasVariant(
                 variants,
                 "size",

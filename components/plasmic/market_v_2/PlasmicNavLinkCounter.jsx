@@ -39,7 +39,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
         [sty.root__state_selected]: hasVariant(variants, "state", "selected")
       })}
       component={Link}

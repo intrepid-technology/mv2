@@ -12,9 +12,11 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
@@ -31,6 +33,7 @@ import SelectGroupDropdownPrimary from "../../SelectGroupDropdownPrimary"; // pl
 import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
 import CardSocialConnectSwitch from "../../CardSocialConnectSwitch"; // plasmic-import: PjlQKkmde-/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -42,6 +45,10 @@ export const PlasmicEditmember__ArgProps = new Array();
 
 function PlasmicEditmember__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -321,7 +328,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   prefixLabelHeadline={"@"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -362,7 +373,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   prefixLabelHeadline={"intrepid/technology/"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -397,7 +412,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"tags"}
                   data-plasmic-override={overrides.tags}
                   className={classNames("__wab_instance", sty.tags)}
-                  size={"_540"}
+                  size={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                   type={"secondary"}
                 />
               </p.Stack>
@@ -436,9 +455,17 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"description"}
                   data-plasmic-override={overrides.description}
                   className={classNames("__wab_instance", sty.description)}
-                  height={"_90"}
+                  height={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_90"
+                  }
                   type={"secondary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -479,7 +506,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   prefixLabelHeadline={"https//"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -601,7 +632,11 @@ function PlasmicEditmember__RenderFunc(props) {
                     labelHeadline={"City"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -661,7 +696,11 @@ function PlasmicEditmember__RenderFunc(props) {
                     labelHeadline={"Job title"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -931,7 +970,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   prefixLabelHeadline={"https://"}
                   suffix={"suffix"}
                   type={"primary"}
-                  width={"_540"}
+                  width={
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? undefined
+                      : "_540"
+                  }
                 />
               </p.Stack>
 
@@ -986,7 +1029,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__ilTpw
                     )}
                     socialNetwork={"instagram"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -995,7 +1042,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__c4KdL
                     )}
                     socialNetwork={"facebook"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1004,7 +1055,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__z0Tmx
                     )}
                     socialNetwork={"linkedin"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1013,7 +1068,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__dhc2B
                     )}
                     socialNetwork={"twitter"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1022,7 +1081,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__iDscj
                     )}
                     socialNetwork={"youtube"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1031,7 +1094,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__vE5D2
                     )}
                     socialNetwork={"tikTok"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1040,7 +1107,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__fpocU
                     )}
                     socialNetwork={"github"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -1049,7 +1120,11 @@ function PlasmicEditmember__RenderFunc(props) {
                       sty.cardSocialConnectSwitch___4Snea
                     )}
                     socialNetwork={"dribbble"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
                 </div>
               </p.Stack>

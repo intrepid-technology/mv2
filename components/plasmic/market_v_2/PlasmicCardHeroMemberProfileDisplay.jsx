@@ -208,7 +208,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               />
 
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -225,7 +225,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   )}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? true
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? true
@@ -270,7 +270,9 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     />
                   ) : null}
                   {(
-                    hasVariant(globalVariants, "screen", "mobile") ? true : true
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? true
+                      : true
                   ) ? (
                     <AvatarGroupPrimary
                       data-plasmic-name={"avatarGroupPrimary"}
@@ -285,7 +287,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             </p.Stack>
 
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true

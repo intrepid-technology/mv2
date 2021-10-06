@@ -51,7 +51,7 @@ function PlasmicFooterB__RenderFunc(props) {
         className={classNames("__wab_instance", sty.navbarLogo, {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
-        destination={"/"}
+        destination={"/home"}
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
 

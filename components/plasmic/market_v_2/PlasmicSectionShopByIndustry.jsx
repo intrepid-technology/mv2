@@ -56,7 +56,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
         data-plasmic-override={overrides.text}
         className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
       >
-        {hasVariant(globalVariants, "screen", "mobile")
+        {hasVariant(globalVariants, "screen", "iphone678Plus")
           ? "Find by Industry"
           : hasVariant(globalVariants, "screen", "desktop")
           ? "Find by Industry"
@@ -73,7 +73,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
         <ChipCategoryHeader
           className={classNames("__wab_instance", sty.chipCategoryHeader__xJ5H)}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={
             hasVariant(globalVariants, "screen", "desktop")
@@ -90,7 +92,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
         <ChipCategoryHeader
           className={classNames("__wab_instance", sty.chipCategoryHeader__nE9)}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"Video"}
         >
@@ -106,7 +110,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader___11Sg
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"Blockchain"}
         >
@@ -122,7 +128,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader__on7T8
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"Health"}
         >
@@ -138,7 +146,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader__e28QS
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"FinTech"}
         >
@@ -154,7 +164,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader___1BpcX
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"Insurance"}
         >
@@ -170,7 +182,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader__sdz9G
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"Cloud"}
         >
@@ -186,7 +200,9 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
             sty.chipCategoryHeader__zoZeX
           )}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_180" : "_270"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_180"
+              : "_270"
           }
           slot={"View all industries"}
         />

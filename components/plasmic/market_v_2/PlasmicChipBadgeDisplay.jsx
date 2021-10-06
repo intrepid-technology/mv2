@@ -140,7 +140,7 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"chipDisplayLink"}
         data-plasmic-override={overrides.chipDisplayLink}
-        className={classNames(defaultcss.all, sty.chipDisplayLink, {
+        className={classNames(defaultcss.a, sty.chipDisplayLink, {
           [sty.chipDisplayLink__trigger_add]: hasVariant(
             variants,
             "trigger",

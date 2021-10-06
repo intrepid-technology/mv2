@@ -12,9 +12,11 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
@@ -29,6 +31,7 @@ import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/c
 import SwitchTextGroupPrimary from "../../SwitchTextGroupPrimary"; // plasmic-import: dxvh7jp8PC/component
 import CheckboxTextPrimary from "../../CheckboxTextPrimary"; // plasmic-import: DzJ8mMkLUy2/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -40,6 +43,10 @@ export const PlasmicEditmembersettings__ArgProps = new Array();
 
 function PlasmicEditmembersettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -294,7 +301,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.cardSocialConnectSwitch___6Ds01
                     )}
                     socialNetwork={"google"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -303,7 +314,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__lnZ66
                     )}
                     socialNetwork={"facebook"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -312,7 +327,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__fsmhh
                     )}
                     socialNetwork={"twitter"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -321,7 +340,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__uTrrq
                     )}
                     socialNetwork={"linkedin"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <CardSocialConnectSwitch
@@ -330,7 +353,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.cardSocialConnectSwitch__oiQix
                     )}
                     socialNetwork={"github"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
                 </div>
               </p.Stack>
@@ -398,7 +425,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.selectGroupDropdownPrimary__yUjcX
                     )}
                     description={"description"}
-                    width={"_144"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_144"
+                    }
                   >
                     {"Country"}
                   </SelectGroupDropdownPrimary>
@@ -411,7 +442,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     labelHeadline={"Number"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -479,18 +514,28 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.freeBox__qvHgH)}
                 >
                   <InputTextForm
+                    className={classNames("__wab_instance")}
                     labelHeadline={"Address"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <InputTextForm
+                    className={classNames("__wab_instance")}
                     label={"label"}
                     labelHeadline={"Number"}
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_540"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_540"
+                    }
                   />
 
                   <SelectGroupDropdownPrimary
@@ -499,7 +544,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       sty.selectGroupDropdownPrimary___1V7D4
                     )}
                     description={"description"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   >
                     {"Country"}
                   </SelectGroupDropdownPrimary>
@@ -522,7 +571,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     }
                     subhead={"subhead"}
                     type={"primary"}
-                    width={"_360"}
+                    width={
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? undefined
+                        : "_360"
+                    }
                   />
 
                   <p.Stack
@@ -531,13 +584,19 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     className={classNames(defaultcss.all, sty.freeBox__nosSi)}
                   >
                     <InputTextForm
+                      className={classNames("__wab_instance")}
                       labelHeadline={"Province/State"}
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_160"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                          ? undefined
+                          : "_160"
+                      }
                     />
 
                     <InputTextForm
+                      className={classNames("__wab_instance")}
                       labelHeadline={
                         <div
                           className={classNames(
@@ -551,7 +610,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                       }
                       subhead={"subhead"}
                       type={"primary"}
-                      width={"_160"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                          ? undefined
+                          : "_160"
+                      }
                     />
                   </p.Stack>
                 </p.Stack>

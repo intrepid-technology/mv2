@@ -99,7 +99,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
             ? false
             : hasVariant(variants, "search", "search")
             ? true
-            : hasVariant(globalVariants, "screen", "mobile")
+            : hasVariant(globalVariants, "screen", "iphone678Plus")
             ? false
             : true
         ) ? (

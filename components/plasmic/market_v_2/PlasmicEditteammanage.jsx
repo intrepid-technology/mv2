@@ -12,6 +12,7 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -127,158 +128,215 @@ function PlasmicEditteammanage__RenderFunc(props) {
             hasGap={true}
             className={classNames(defaultcss.all, sty.sectionTeamInviteMembers)}
           >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"cardTeamInviteMembers"}
-              data-plasmic-override={overrides.cardTeamInviteMembers}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.cardTeamInviteMembers)}
-            >
-              <CardHeaderTitlePrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitlePrimary__ki7Or
-                )}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__ygMqo
-                    )}
-                  >
-                    {
-                      "Manage and invite team members by email address or by invitation link."
-                    }
-                  </div>
-                }
-              >
-                {"Invite"}
-              </CardHeaderTitlePrimary>
-
-              <ButtonPrimary
-                data-plasmic-name={"buttonPrimary"}
-                data-plasmic-override={overrides.buttonPrimary}
-                className={classNames("__wab_instance", sty.buttonPrimary)}
-                size={"_140"}
-                type={"primary"}
-              >
-                {"Invite link"}
-              </ButtonPrimary>
-
+            {true ? (
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"tableAddTeamMember"}
-                data-plasmic-override={overrides.tableAddTeamMember}
+                data-plasmic-name={"cardTeamInviteMembers"}
+                data-plasmic-override={overrides.cardTeamInviteMembers}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.tableAddTeamMember)}
+                className={classNames(
+                  defaultcss.all,
+                  sty.cardTeamInviteMembers
+                )}
               >
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"inviteMemberHeader"}
-                  data-plasmic-override={overrides.inviteMemberHeader}
-                  hasGap={true}
-                  className={classNames(defaultcss.all, sty.inviteMemberHeader)}
-                >
-                  <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__fayfn
-                    )}
-                    labelHeadline={
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__ptzPj
-                        )}
-                      >
-                        {"Email"}
-                      </div>
-                    }
-                    subhead={"subhead"}
-                    width={"_540"}
-                  />
-
-                  <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__gj5Rn
-                    )}
-                    description={"description"}
-                    placeholder={"Member"}
-                    width={"_90"}
-                  >
+                <CardHeaderTitlePrimary
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardHeaderTitlePrimary__ki7Or
+                  )}
+                  slot={
                     <div
                       className={classNames(
                         defaultcss.all,
                         defaultcss.__wab_text,
-                        sty.text___7A8Rf
+                        sty.text__ygMqo
                       )}
                     >
-                      {"Role"}
+                      {
+                        "Manage and invite team members by email address or by invitation link."
+                      }
                     </div>
-                  </SelectGroupDropdownPrimary>
-                </p.Stack>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"inviteMemberRecord"}
-                  data-plasmic-override={overrides.inviteMemberRecord}
-                  hasGap={true}
-                  className={classNames(defaultcss.all, sty.inviteMemberRecord)}
+                  }
                 >
-                  <InputTextForm
+                  {"Invite"}
+                </CardHeaderTitlePrimary>
+
+                <ButtonPrimary
+                  data-plasmic-name={"buttonPrimary"}
+                  data-plasmic-override={overrides.buttonPrimary}
+                  className={classNames("__wab_instance", sty.buttonPrimary)}
+                  size={"_140"}
+                  type={"primary"}
+                >
+                  {"Invite link"}
+                </ButtonPrimary>
+
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"tableAddTeamMember"}
+                    data-plasmic-override={overrides.tableAddTeamMember}
+                    hasGap={true}
                     className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__ziL9
+                      defaultcss.all,
+                      sty.tableAddTeamMember
                     )}
-                    label={"label"}
-                    subhead={"subhead"}
-                    width={"_540"}
-                  />
-
-                  <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__qVoyx
-                    )}
-                    description={"description"}
-                    label={"label"}
-                    placeholder={"Member"}
-                    width={"_90"}
-                  />
-                </p.Stack>
-
-                <div
-                  data-plasmic-name={"incrementParent"}
-                  data-plasmic-override={overrides.incrementParent}
-                  className={classNames(defaultcss.all, sty.incrementParent)}
-                >
-                  <ButtonCirclePlusMinus
-                    data-plasmic-name={"addMember"}
-                    data-plasmic-override={overrides.addMember}
-                    alignment={"left"}
-                    className={classNames("__wab_instance", sty.addMember)}
-                  />
-                </div>
-
-                <div
-                  data-plasmic-name={"inviteButtonParent"}
-                  data-plasmic-override={overrides.inviteButtonParent}
-                  className={classNames(defaultcss.all, sty.inviteButtonParent)}
-                >
-                  <ButtonPrimary
-                    data-plasmic-name={"inviteMembers"}
-                    data-plasmic-override={overrides.inviteMembers}
-                    size={"_140"}
-                    type={"outline"}
                   >
-                    {"Invite"}
-                  </ButtonPrimary>
-                </div>
+                    {true ? (
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"inviteMemberHeader"}
+                        data-plasmic-override={overrides.inviteMemberHeader}
+                        hasGap={true}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.inviteMemberHeader
+                        )}
+                      >
+                        <InputTextForm
+                          className={classNames(
+                            "__wab_instance",
+                            sty.inputTextForm__fayfn
+                          )}
+                          labelHeadline={
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                defaultcss.__wab_text,
+                                sty.text__ptzPj
+                              )}
+                            >
+                              {"Email"}
+                            </div>
+                          }
+                          subhead={"subhead"}
+                          width={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone678Plus"
+                            )
+                              ? undefined
+                              : "_540"
+                          }
+                        />
+
+                        <SelectGroupDropdownPrimary
+                          className={classNames(
+                            "__wab_instance",
+                            sty.selectGroupDropdownPrimary__gj5Rn
+                          )}
+                          description={"description"}
+                          placeholder={"Member"}
+                          width={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone678Plus"
+                            )
+                              ? undefined
+                              : "_90"
+                          }
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___7A8Rf
+                            )}
+                          >
+                            {"Role"}
+                          </div>
+                        </SelectGroupDropdownPrimary>
+                      </p.Stack>
+                    ) : null}
+                    {true ? (
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"inviteMemberRecord"}
+                        data-plasmic-override={overrides.inviteMemberRecord}
+                        hasGap={true}
+                        className={classNames(
+                          defaultcss.all,
+                          sty.inviteMemberRecord
+                        )}
+                      >
+                        <InputTextForm
+                          className={classNames(
+                            "__wab_instance",
+                            sty.inputTextForm__ziL9
+                          )}
+                          label={"label"}
+                          subhead={"subhead"}
+                          width={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone678Plus"
+                            )
+                              ? undefined
+                              : "_540"
+                          }
+                        />
+
+                        <SelectGroupDropdownPrimary
+                          className={classNames(
+                            "__wab_instance",
+                            sty.selectGroupDropdownPrimary__qVoyx
+                          )}
+                          description={"description"}
+                          label={"label"}
+                          placeholder={"Member"}
+                          width={
+                            hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone678Plus"
+                            )
+                              ? undefined
+                              : "_90"
+                          }
+                        />
+                      </p.Stack>
+                    ) : null}
+
+                    <div
+                      data-plasmic-name={"incrementParent"}
+                      data-plasmic-override={overrides.incrementParent}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.incrementParent
+                      )}
+                    >
+                      <ButtonCirclePlusMinus
+                        data-plasmic-name={"addMember"}
+                        data-plasmic-override={overrides.addMember}
+                        alignment={"left"}
+                        className={classNames("__wab_instance", sty.addMember)}
+                      />
+                    </div>
+
+                    <div
+                      data-plasmic-name={"inviteButtonParent"}
+                      data-plasmic-override={overrides.inviteButtonParent}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.inviteButtonParent
+                      )}
+                    >
+                      <ButtonPrimary
+                        data-plasmic-name={"inviteMembers"}
+                        data-plasmic-override={overrides.inviteMembers}
+                        size={"_140"}
+                        type={"outline"}
+                      >
+                        {"Invite"}
+                      </ButtonPrimary>
+                    </div>
+                  </p.Stack>
+                ) : null}
               </p.Stack>
-            </p.Stack>
+            ) : null}
           </p.Stack>
 
           <p.Stack
@@ -288,111 +346,132 @@ function PlasmicEditteammanage__RenderFunc(props) {
             hasGap={true}
             className={classNames(defaultcss.all, sty.sectionTeamManageMembers)}
           >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"cardTeamManageMembers"}
-              data-plasmic-override={overrides.cardTeamManageMembers}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.cardTeamManageMembers)}
-            >
-              <CardHeaderTitlePrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitlePrimary__uWhQj
-                )}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__xopkA
-                    )}
-                  >
-                    {"Manage member access roles"}
-                  </div>
-                }
-              >
-                {"Manage"}
-              </CardHeaderTitlePrimary>
-
+            {true ? (
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"tableTeamMemberEditParent"}
-                data-plasmic-override={overrides.tableTeamMemberEditParent}
+                data-plasmic-name={"cardTeamManageMembers"}
+                data-plasmic-override={overrides.cardTeamManageMembers}
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
-                  sty.tableTeamMemberEditParent
+                  sty.cardTeamManageMembers
                 )}
               >
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"searchFilterDateParent"}
-                  data-plasmic-override={overrides.searchFilterDateParent}
-                  hasGap={true}
+                <CardHeaderTitlePrimary
                   className={classNames(
-                    defaultcss.all,
-                    sty.searchFilterDateParent
+                    "__wab_instance",
+                    sty.cardHeaderTitlePrimary__uWhQj
                   )}
+                  slot={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__xopkA
+                      )}
+                    >
+                      {"Manage member access roles"}
+                    </div>
+                  }
                 >
-                  <SearchbarPrimary
-                    data-plasmic-name={"searchbarPrimary"}
-                    data-plasmic-override={overrides.searchbarPrimary}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.searchbarPrimary
-                    )}
-                    width={"_540"}
-                  />
-
-                  <SelectGroupDropdownPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary___8Lqr8
-                    )}
-                    description={"description"}
-                    label={"label"}
-                    placeholder={"Member"}
-                    width={"_90"}
-                  />
-                </p.Stack>
+                  {"Manage"}
+                </CardHeaderTitlePrimary>
 
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"tableSelectColumnParent"}
-                  data-plasmic-override={overrides.tableSelectColumnParent}
+                  data-plasmic-name={"tableTeamMemberEditParent"}
+                  data-plasmic-override={overrides.tableTeamMemberEditParent}
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    sty.tableSelectColumnParent
+                    sty.tableTeamMemberEditParent
                   )}
                 >
-                  <TableUserAdminHeader
-                    data-plasmic-name={"tableUserAdminHeader"}
-                    data-plasmic-override={overrides.tableUserAdminHeader}
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"searchFilterDateParent"}
+                    data-plasmic-override={overrides.searchFilterDateParent}
+                    hasGap={true}
                     className={classNames(
-                      "__wab_instance",
-                      sty.tableUserAdminHeader
+                      defaultcss.all,
+                      sty.searchFilterDateParent
                     )}
-                  />
+                  >
+                    <SearchbarPrimary
+                      data-plasmic-name={"searchbarPrimary"}
+                      data-plasmic-override={overrides.searchbarPrimary}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.searchbarPrimary
+                      )}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                          ? undefined
+                          : "_540"
+                      }
+                    />
 
-                  <TableUserAdminRecord
-                    className={classNames(
-                      "__wab_instance",
-                      sty.tableUserAdminRecord__m8Sk9
-                    )}
-                  />
+                    <SelectGroupDropdownPrimary
+                      className={classNames(
+                        "__wab_instance",
+                        sty.selectGroupDropdownPrimary___8Lqr8
+                      )}
+                      description={"description"}
+                      label={"label"}
+                      placeholder={"Member"}
+                      width={
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                          ? undefined
+                          : "_90"
+                      }
+                    />
+                  </p.Stack>
 
-                  <TableUserAdminRecord
-                    action={"select"}
-                    className={classNames(
-                      "__wab_instance",
-                      sty.tableUserAdminRecord__fvCL
-                    )}
-                  />
+                  {true ? (
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"tableSelectColumnParent"}
+                      data-plasmic-override={overrides.tableSelectColumnParent}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.tableSelectColumnParent
+                      )}
+                    >
+                      <TableUserAdminHeader
+                        data-plasmic-name={"tableUserAdminHeader"}
+                        data-plasmic-override={overrides.tableUserAdminHeader}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.tableUserAdminHeader
+                        )}
+                      />
+
+                      {true ? (
+                        <TableUserAdminRecord
+                          data-plasmic-name={"tableUserAdminRecord"}
+                          data-plasmic-override={overrides.tableUserAdminRecord}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.tableUserAdminRecord
+                          )}
+                        />
+                      ) : null}
+
+                      <TableUserAdminRecord
+                        data-plasmic-name={"tableUserRecord"}
+                        data-plasmic-override={overrides.tableUserRecord}
+                        action={"select"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.tableUserRecord
+                        )}
+                      />
+                    </p.Stack>
+                  ) : null}
                 </p.Stack>
               </p.Stack>
-            </p.Stack>
+            ) : null}
           </p.Stack>
 
           <FooterB
@@ -430,6 +509,8 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "tableSelectColumnParent",
     "tableUserAdminHeader",
+    "tableUserAdminRecord",
+    "tableUserRecord",
     "footerB"
   ],
 
@@ -490,7 +571,9 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableUserAdminHeader"
+    "tableUserAdminHeader",
+    "tableUserAdminRecord",
+    "tableUserRecord"
   ],
 
   cardTeamManageMembers: [
@@ -499,7 +582,9 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableUserAdminHeader"
+    "tableUserAdminHeader",
+    "tableUserAdminRecord",
+    "tableUserRecord"
   ],
 
   tableTeamMemberEditParent: [
@@ -507,13 +592,23 @@ const PlasmicDescendants = {
     "searchFilterDateParent",
     "searchbarPrimary",
     "tableSelectColumnParent",
-    "tableUserAdminHeader"
+    "tableUserAdminHeader",
+    "tableUserAdminRecord",
+    "tableUserRecord"
   ],
 
   searchFilterDateParent: ["searchFilterDateParent", "searchbarPrimary"],
   searchbarPrimary: ["searchbarPrimary"],
-  tableSelectColumnParent: ["tableSelectColumnParent", "tableUserAdminHeader"],
+  tableSelectColumnParent: [
+    "tableSelectColumnParent",
+    "tableUserAdminHeader",
+    "tableUserAdminRecord",
+    "tableUserRecord"
+  ],
+
   tableUserAdminHeader: ["tableUserAdminHeader"],
+  tableUserAdminRecord: ["tableUserAdminRecord"],
+  tableUserRecord: ["tableUserRecord"],
   footerB: ["footerB"]
 };
 
@@ -572,6 +667,8 @@ export const PlasmicEditteammanage = Object.assign(
     searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     tableSelectColumnParent: makeNodeComponent("tableSelectColumnParent"),
     tableUserAdminHeader: makeNodeComponent("tableUserAdminHeader"),
+    tableUserAdminRecord: makeNodeComponent("tableUserAdminRecord"),
+    tableUserRecord: makeNodeComponent("tableUserRecord"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteammanage
     internalVariantProps: PlasmicEditteammanage__VariantProps,

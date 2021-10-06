@@ -157,6 +157,11 @@
     margin-top: 24px;
   }
 }
+@media (max-width: 375px) {
+  .sectionAboutDetails {
+    padding: 8px;
+  }
+}
 .elementProfileAbout:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
@@ -299,6 +304,11 @@
     margin-top: 24px;
   }
 }
+@media (max-width: 375px) {
+  .memberTeamConnectionsSection {
+    padding: 8px;
+  }
+}
 .elementProfileTeamMembership:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -417,9 +427,15 @@
     margin-top: 24px;
   }
 }
+@media (max-width: 375px) {
+  .sectionMemberProfileIndustrySocial {
+    padding: 8px;
+  }
+}
 .elementProfileAttributes:global(.__wab_instance) {
   position: relative;
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementProfileAttributes:global(.__wab_instance) {

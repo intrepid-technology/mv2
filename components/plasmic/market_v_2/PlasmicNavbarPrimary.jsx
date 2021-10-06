@@ -81,7 +81,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarLogo, {
                 [sty.navbarLogo__color]: hasVariant(variants, "color", "color")
               })}
-              destination={"/"}
+              destination={"/home"}
             />
           </div>
         ) : null}
@@ -99,7 +99,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               <p.PlasmicLink
                 data-plasmic-name={"link"}
                 data-plasmic-override={overrides.link}
-                className={classNames(defaultcss.all, sty.link, {
+                className={classNames(defaultcss.a, sty.link, {
                   [sty.link__color]: hasVariant(variants, "color", "color")
                 })}
                 component={Link}
@@ -122,7 +122,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         ) : null}
       </div>
 
-      {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+      ) ? (
         <div className={classNames(defaultcss.all, sty.column__z7N9)}>
           <p.Stack
             as={"div"}
@@ -135,7 +137,11 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               )
             })}
           >
-            {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+            {(
+              hasVariant(globalVariants, "screen", "iphone678Plus")
+                ? false
+                : true
+            ) ? (
               <NavLink
                 className={classNames("__wab_instance", sty.navLink__ook4Q, {
                   [sty.navLink__color__ook4QBxq9H]: hasVariant(
@@ -185,7 +191,11 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
 
-            {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+            {(
+              hasVariant(globalVariants, "screen", "iphone678Plus")
+                ? false
+                : true
+            ) ? (
               <NavLink
                 className={classNames("__wab_instance", sty.navLink__evGaK, {
                   [sty.navLink__color__evGaKBxq9H]: hasVariant(
@@ -250,7 +260,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             )
           })}
         >
-          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+          {(
+            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+          ) ? (
             <NavLink
               className={classNames("__wab_instance", sty.navLink__d4A3C, {
                 [sty.navLink__color__d4A3CBxq9H]: hasVariant(
@@ -283,7 +295,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
           ) : null}
-          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+          {(
+            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+          ) ? (
             <NavbarSave
               data-plasmic-name={"navbarSave"}
               data-plasmic-override={overrides.navbarSave}
@@ -295,7 +309,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               }
             />
           ) : null}
-          {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+          {(
+            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+          ) ? (
             <NavbarBrief
               data-plasmic-name={"navbarBrief"}
               data-plasmic-override={overrides.navbarBrief}

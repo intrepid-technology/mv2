@@ -125,6 +125,10 @@
   composes: all;
   font-style: inherit;
 }
+.a {
+  composes: all;
+  color: inherit;
+}
 .ol {
   composes: all;
   list-style-type: none;

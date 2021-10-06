@@ -42,7 +42,7 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
         [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
         [sty.root__color_headline]: hasVariant(variants, "color", "headline"),

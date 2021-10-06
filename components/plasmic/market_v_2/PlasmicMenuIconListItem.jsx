@@ -40,7 +40,7 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.all,
+        defaultcss.a,
         projectcss.root_reset,
         sty.menuIconListItemLink,
         {
@@ -59,7 +59,7 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         data-plasmic-name={"sideBarNavCardLinkParent"}
         data-plasmic-override={overrides.sideBarNavCardLinkParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.sideBarNavCardLinkParent, {
+        className={classNames(defaultcss.a, sty.sideBarNavCardLinkParent, {
           [sty.sideBarNavCardLinkParent__disabled]: hasVariant(
             variants,
             "disabled",

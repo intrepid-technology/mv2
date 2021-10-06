@@ -596,6 +596,11 @@
   left: auto;
   flex-shrink: 0;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cardServiceDisplay__dCuvl:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
 .img___2Ntxe {
   object-fit: cover;
   width: 360px;
@@ -850,6 +855,11 @@
   left: auto;
   flex-shrink: 0;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cardServiceDisplay__dTgHx:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
 .img__vVjh6 {
   object-fit: cover;
   width: 360px;
@@ -1103,6 +1113,11 @@
   top: auto;
   left: auto;
   flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cardServiceDisplay__f6Doe:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
 }
 .img__ybo5P {
   object-fit: cover;

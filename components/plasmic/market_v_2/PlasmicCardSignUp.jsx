@@ -260,7 +260,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupTos"}
           data-plasmic-override={overrides.signupTos}
           className={classNames(
-            defaultcss.all,
+            defaultcss.a,
             defaultcss.__wab_text,
             sty.signupTos
           )}
@@ -275,7 +275,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupPrivacy"}
           data-plasmic-override={overrides.signupPrivacy}
           className={classNames(
-            defaultcss.all,
+            defaultcss.a,
             defaultcss.__wab_text,
             sty.signupPrivacy
           )}

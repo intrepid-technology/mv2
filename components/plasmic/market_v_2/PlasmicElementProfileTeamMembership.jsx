@@ -98,7 +98,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink"}
               data-plasmic-override={overrides.teamLink}
-              className={classNames(defaultcss.all, sty.teamLink)}
+              className={classNames(defaultcss.a, sty.teamLink)}
               component={Link}
               platform={"nextjs"}
             >
@@ -152,7 +152,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink2"}
               data-plasmic-override={overrides.teamLink2}
-              className={classNames(defaultcss.all, sty.teamLink2)}
+              className={classNames(defaultcss.a, sty.teamLink2)}
               component={Link}
               platform={"nextjs"}
             >
@@ -206,7 +206,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink3"}
               data-plasmic-override={overrides.teamLink3}
-              className={classNames(defaultcss.all, sty.teamLink3)}
+              className={classNames(defaultcss.a, sty.teamLink3)}
               component={Link}
               platform={"nextjs"}
             >

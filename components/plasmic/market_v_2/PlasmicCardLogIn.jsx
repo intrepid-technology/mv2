@@ -160,7 +160,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             data-plasmic-name={"resetPassword"}
             data-plasmic-override={overrides.resetPassword}
             className={classNames(
-              defaultcss.all,
+              defaultcss.a,
               defaultcss.__wab_text,
               sty.resetPassword
             )}

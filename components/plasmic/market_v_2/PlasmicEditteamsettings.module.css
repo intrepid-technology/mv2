@@ -54,6 +54,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamSettingsStripeConnect {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__d6NR:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -91,6 +96,12 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .formTeamEditBusinessVerification {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardTeamLegalBusinessGroup {
   display: flex;
   flex-direction: column;
@@ -119,10 +130,22 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamLegalBusinessGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__lzBve:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__lzBve:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__fvhx6 {
   height: auto;
@@ -133,6 +156,12 @@
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (max-width: 375px) {
+  .inputTextField:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamRegisteredAddress {
   display: flex;
@@ -198,10 +227,40 @@
   > img {
   margin-top: 16px;
 }
+@media (max-width: 375px) {
+  .teamAddressGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .inputTextForm__sIAdT:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .inputTextForm__fhmQd:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .selectGroupDropdownPrimary__pgtEa:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .inputTextForm___52C8X:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+@media (max-width: 375px) {
+  .inputTextForm___52C8X:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__gnVjA {
   font-size: 16px;
@@ -232,6 +291,24 @@
   > img {
   margin-left: 40px;
 }
+@media (max-width: 375px) {
+  .teamStateZipGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .inputTextForm__bMoAp:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .inputTextForm__wq0F8:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__fo0Jj {
   font-size: 16px;
 }
@@ -261,6 +338,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (max-width: 375px) {
+  .cardTeamTaxId {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__mAaAf:global(.__wab_instance) {
   position: relative;
@@ -299,21 +382,66 @@
   > img {
   margin-left: 32px;
 }
+@media (max-width: 375px) {
+  .teamTaxIdGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .teamTaxIdGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (max-width: 375px) {
+  .teamTaxIdGroup > :global(.__wab_flex-container) > *,
+  .teamTaxIdGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .teamTaxIdGroup > :global(.__wab_flex-container) > picture > img,
+  .teamTaxIdGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
 .selectGroupDropdownPrimary__fjl7S:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .selectGroupDropdownPrimary__fjl7S:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .inputTextForm__t8F7M:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
 }
+@media (max-width: 375px) {
+  .inputTextForm__t8F7M:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .buttonGroupStripeConnect:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (max-width: 375px) {
+  .buttonGroupStripeConnect:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamSettingsAccountingConnect {
   display: flex;
@@ -350,6 +478,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamSettingsAccountingConnect {
+    padding: 16px;
+  }
+}
 .cardTeamAccountingConnections {
   display: inline-flex;
   flex-direction: column;
@@ -377,6 +510,12 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamAccountingConnections {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__nAMj:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -399,11 +538,29 @@
   width: 540px;
   height: auto;
 }
+@media (max-width: 375px) {
+  .inputGroupTeamAccountingConnections {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch___63TS:global(.__wab_instance) {
   position: relative;
 }
+@media (max-width: 375px) {
+  .cardSocialConnectSwitch___63TS:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__b9VAq:global(.__wab_instance) {
   position: relative;
+}
+@media (max-width: 375px) {
+  .cardSocialConnectSwitch__b9VAq:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamSettingsAnalyticsConnect {
   display: flex;
@@ -440,6 +597,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamSettingsAnalyticsConnect {
+    padding: 16px;
+  }
+}
 .cardTeamAnalytics {
   display: inline-flex;
   flex-direction: column;
@@ -464,11 +626,29 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamAnalytics {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .cardTeamAnalytics > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__pzjIj:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__pzjIj:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__oxyo4 {
   height: auto;
@@ -479,6 +659,12 @@
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (max-width: 375px) {
+  .inputTextPrefixSuffix:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamNotifications {
   display: flex;
@@ -512,10 +698,21 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamNotifications {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__qvdyY:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitleDisplay__qvdyY:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text___9AuTo {
   font-weight: 700;
@@ -549,10 +746,28 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .notificationPushEmail {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .notificationPushEmail > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__y77Es:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__y77Es:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__whFsE {
   max-width: 328px;
@@ -583,15 +798,33 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .freeBox__hT3J {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .switchTextGroupPrimary__tjMmC:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
+@media (max-width: 375px) {
+  .switchTextGroupPrimary__tjMmC:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .switchTextGroupPrimary__kmLZv:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .switchTextGroupPrimary__kmLZv:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .notificationActivity {
   display: inline-flex;
@@ -621,6 +854,18 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .notificationActivity {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .notificationActivity > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 .cardHeaderTitlePrimary__dt2Q1:global(.__wab_instance) {
   position: relative;
@@ -656,6 +901,18 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (max-width: 375px) {
+  .freeBox__rn81K {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__rn81K > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 .checkboxTextPrimary___3UFLr:global(.__wab_instance) {
   position: relative;
@@ -726,10 +983,28 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .notificationNewsEvents {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .notificationNewsEvents > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__y2Kpo:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__y2Kpo:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__ihpB {
   max-width: 328px;
@@ -760,15 +1035,33 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .freeBox__bFuQw {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .switchTextGroupPrimary__bNbC:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
+@media (max-width: 375px) {
+  .switchTextGroupPrimary__bNbC:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .switchTextGroupPrimary__bww8:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .switchTextGroupPrimary__bww8:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamSettingsLeaveTeam {
   display: flex;
@@ -802,6 +1095,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamSettingsLeaveTeam {
+    padding: 16px;
+  }
+}
 .cardTeamLeaveAccount {
   display: inline-flex;
   flex-direction: column;
@@ -828,6 +1126,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .cardTeamLeaveAccount {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox___01Ppy {
   display: flex;
@@ -858,6 +1162,12 @@
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__ui1Jg:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__gjYq9 {
   height: auto;
@@ -909,6 +1219,11 @@
   > img {
   margin-top: 32px;
 }
+@media (max-width: 375px) {
+  .sectionTeamSettingsDeleteTeam {
+    padding: 16px;
+  }
+}
 .cardTeamDeleteAccount {
   display: inline-flex;
   flex-direction: column;
@@ -935,6 +1250,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .cardTeamDeleteAccount {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox__vOij {
   display: flex;
@@ -965,6 +1286,12 @@
   position: relative;
   top: auto;
   left: auto;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__i45Ew:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .text__piuw6 {
   height: auto;

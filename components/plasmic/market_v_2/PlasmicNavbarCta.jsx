@@ -75,10 +75,14 @@ function PlasmicNavbarCta__RenderFunc(props) {
           />
         </div>
 
-        {(hasVariant(globalVariants, "screen", "mobile") ? false : false) ? (
+        {(
+          hasVariant(globalVariants, "screen", "iphone678Plus") ? false : false
+        ) ? (
           <div className={classNames(defaultcss.all, sty.column__g2M7Q)}>
             {(
-              hasVariant(globalVariants, "screen", "mobile") ? false : false
+              hasVariant(globalVariants, "screen", "iphone678Plus")
+                ? false
+                : false
             ) ? (
               <p.Stack
                 as={"div"}
@@ -261,14 +265,14 @@ function PlasmicNavbarCta__RenderFunc(props) {
             })}
             color={
               hasVariant(variants, "persona", "member") &&
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? "brand"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? "brand"
                 : hasVariant(variants, "color", "color")
                 ? "brand"
-                : hasVariant(globalVariants, "screen", "mobile")
+                : hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? "brand"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "brand"
@@ -320,11 +324,11 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 : hasVariant(variants, "persona", "member")
                 ? "Request"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? "Apply"
                 : hasVariant(variants, "persona", "partner")
                 ? "Apply"
-                : hasVariant(globalVariants, "screen", "mobile")
+                : hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? "Request"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "Request access"

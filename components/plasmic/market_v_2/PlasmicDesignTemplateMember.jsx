@@ -77,7 +77,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -88,14 +88,14 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               data-plasmic-override={overrides.navbarInternal}
               className={classNames("__wab_instance", sty.navbarInternal)}
               user={
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? "member"
                   : undefined
               }
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -111,7 +111,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -135,7 +135,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               className={classNames(defaultcss.all, sty.sectionAboutDetails)}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -151,7 +151,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -209,7 +209,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             )}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -225,7 +225,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               />
             ) : null}
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -243,7 +243,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -262,7 +262,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -274,7 +274,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__inwI
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Similar members"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Similar members"
@@ -285,7 +285,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -304,7 +304,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -316,7 +316,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__kao6G
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "People also viewed"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "People also viewed"
@@ -327,7 +327,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

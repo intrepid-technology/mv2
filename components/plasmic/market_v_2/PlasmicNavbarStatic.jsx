@@ -36,11 +36,11 @@ function PlasmicNavbarStatic__RenderFunc(props) {
   });
 
   return (
-    hasVariant(globalVariants, "screen", "mobile")
+    hasVariant(globalVariants, "screen", "iphone678Plus")
       ? true
       : hasVariant(globalVariants, "screen", "desktop")
       ? true
-      : false
+      : true
   ) ? (
     <p.Stack
       as={"div"}
@@ -52,19 +52,23 @@ function PlasmicNavbarStatic__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       {(
-        hasVariant(globalVariants, "screen", "mobile")
+        hasVariant(globalVariants, "screen", "iphone678")
+          ? true
+          : hasVariant(globalVariants, "screen", "iphone678Plus")
           ? true
           : hasVariant(globalVariants, "screen", "desktop")
           ? true
-          : false
+          : true
       ) ? (
         <div className={classNames(defaultcss.all, sty.freeBox__gq5Ri)}>
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678")
+              ? true
+              : hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
-              : false
+              : true
           ) ? (
             <div className={classNames(defaultcss.all, sty.freeBox__mn6Cy)}>
               <LogoHeader
@@ -76,19 +80,23 @@ function PlasmicNavbarStatic__RenderFunc(props) {
         </div>
       ) : null}
       {(
-        hasVariant(globalVariants, "screen", "mobile")
+        hasVariant(globalVariants, "screen", "iphone678")
+          ? true
+          : hasVariant(globalVariants, "screen", "iphone678Plus")
           ? true
           : hasVariant(globalVariants, "screen", "desktop")
           ? true
-          : false
+          : true
       ) ? (
         <div className={classNames(defaultcss.all, sty.freeBox__ejVzw)}>
-          <SectionDividerIcon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg)}
-            role={"img"}
-          />
+          {true ? (
+            <SectionDividerIcon
+              data-plasmic-name={"svg"}
+              data-plasmic-override={overrides.svg}
+              className={classNames(defaultcss.all, sty.svg)}
+              role={"img"}
+            />
+          ) : null}
         </div>
       ) : null}
     </p.Stack>

@@ -52,6 +52,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamEditProfile {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__m46KZ:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -91,6 +96,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditProfile {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamLogo {
   display: flex;
@@ -277,11 +288,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextPrefixSuffix__asyk:global(.__wab_instance) {
+.username:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .username:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamUrl {
   display: flex;
@@ -320,11 +337,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextPrefixSuffix__xhW7:global(.__wab_instance) {
+.inputTextPrefixSuffix:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .inputTextPrefixSuffix:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamTagline {
   display: flex;
@@ -363,8 +386,14 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextField:global(.__wab_instance) {
+.tag:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .tag:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamDescription {
   display: flex;
@@ -406,10 +435,16 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextAreaPrimary:global(.__wab_instance) {
+.description:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .description:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamVideoIntroUrl {
   display: flex;
@@ -452,11 +487,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextPrefixSuffix__ppVB:global(.__wab_instance) {
+.video:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .video:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .teamSubmitProfile:global(.__wab_instance) {
   position: relative;
@@ -508,6 +549,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamEditProfileDetails {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__iNw1X:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -546,6 +592,18 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditDetails {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditDetails > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardTeamLocation {
   display: inline-flex;
   position: relative;
@@ -572,6 +630,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamLocation {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__uhObt:global(.__wab_instance) {
   position: relative;
@@ -610,15 +674,57 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary___4TodG:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamLocationGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamLocationGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamLocationGroup > :global(.__wab_flex-container) > *,
+  .teamLocationGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > *,
+  .teamLocationGroup > :global(.__wab_flex-container) > picture > img,
+  .teamLocationGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.country:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.inputTextForm:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .country:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.city:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .city:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamIndustry {
   display: inline-flex;
@@ -646,6 +752,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamIndustry {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary___77Wa:global(.__wab_instance) {
   position: relative;
@@ -684,15 +796,57 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__qq1Ad:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamIndustryGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamIndustryGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamIndustryGroup > :global(.__wab_flex-container) > *,
+  .teamIndustryGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > *,
+  .teamIndustryGroup > :global(.__wab_flex-container) > picture > img,
+  .teamIndustryGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.industry:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.selectGroupDropdownPrimary__ep2Yi:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .industry:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.companySize:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .companySize:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamLanguages {
   display: inline-flex;
@@ -720,6 +874,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamLanguages {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__hh8K1:global(.__wab_instance) {
   position: relative;
@@ -761,15 +921,57 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__ufg5H:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .inputGroupTeamLanguages {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .inputGroupTeamLanguages > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .inputGroupTeamLanguages > :global(.__wab_flex-container) > *,
+  .inputGroupTeamLanguages
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > *,
+  .inputGroupTeamLanguages > :global(.__wab_flex-container) > picture > img,
+  .inputGroupTeamLanguages
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.language:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .language:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .selectGroupDropdownPrimary__j53N5:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .selectGroupDropdownPrimary__j53N5:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamSkills {
   display: flex;
@@ -798,6 +1000,12 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamSkills > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__pPsFm:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -808,11 +1016,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay__oGflV:global(.__wab_instance) {
+.skill:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .skill:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamCommunity {
   display: flex;
@@ -841,6 +1055,18 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamCommunity {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamCommunity > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__w2MaY:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -851,11 +1077,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay__n6C5V:global(.__wab_instance) {
+.community:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .community:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .teamSubmitDetails:global(.__wab_instance) {
   position: relative;
@@ -907,6 +1139,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamEditProfileMarkets {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__atS0:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -945,6 +1182,18 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditMarkets {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditMarkets > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardTeamMarkets {
   display: inline-flex;
   position: relative;
@@ -971,6 +1220,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamMarkets {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__cD0F:global(.__wab_instance) {
   position: relative;
@@ -1009,15 +1264,54 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__kze6J:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamMarketsGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamMarketsGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamMarketsGroup > :global(.__wab_flex-container) > *,
+  .teamMarketsGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .teamMarketsGroup > :global(.__wab_flex-container) > picture > img,
+  .teamMarketsGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.marketIndustry:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
-.selectGroupDropdownPrimary__ki9Mw:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .marketIndustry:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.marketcompanySize:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .marketcompanySize:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamProjects {
   display: inline-flex;
@@ -1045,6 +1339,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamProjects {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__iKrZt:global(.__wab_instance) {
   position: relative;
@@ -1083,15 +1383,57 @@
   > img {
   margin-left: 32px;
 }
-.selectGroupDropdownPrimary__qyggF:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamProjectsGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamProjectsGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .teamProjectsGroup > :global(.__wab_flex-container) > *,
+  .teamProjectsGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > *,
+  .teamProjectsGroup > :global(.__wab_flex-container) > picture > img,
+  .teamProjectsGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.projectRates:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .projectRates:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .selectGroupDropdownPrimary__kd6Ly:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .selectGroupDropdownPrimary__kd6Ly:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamInterests {
   display: flex;
@@ -1120,6 +1462,12 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamInterests > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__seVo7:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -1130,11 +1478,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputSearchbarFilterDisplay__pBkuq:global(.__wab_instance) {
+.interest:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .interest:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .teamSubmitMarkets:global(.__wab_instance) {
   position: relative;
@@ -1186,6 +1540,11 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamEditProfileSocial {
+    padding: 16px;
+  }
+}
 .cardHeaderTitleDisplay__mtzgk:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -1221,6 +1580,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditSocial {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamWebsite {
   display: flex;
@@ -1261,11 +1626,17 @@
   height: auto;
   max-width: 328px;
 }
-.inputTextPrefixSuffix___3PD22:global(.__wab_instance) {
+.website:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .website:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamSocial {
   display: inline-flex;
@@ -1294,6 +1665,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamSocial {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardHeaderTitlePrimary__xigdq:global(.__wab_instance) {
   position: relative;
@@ -1341,29 +1718,83 @@
   margin-left: 24px;
   margin-top: 0px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .inputGroupTeamSocial {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__poC9L:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__poC9L:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardSocialConnectSwitch__wTlid:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__wTlid:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__l8ESj:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__l8ESj:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardSocialConnectSwitch___9ENwg:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch___9ENwg:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__mWllJ:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__mWllJ:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardSocialConnectSwitch___0ButS:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch___0ButS:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__aUif3:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__aUif3:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardSocialConnectSwitch__uk3B7:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardSocialConnectSwitch__uk3B7:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .teamSubmitSocials:global(.__wab_instance) {
   position: relative;
