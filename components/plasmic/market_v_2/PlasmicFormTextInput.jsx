@@ -24,14 +24,16 @@ import * as sty from "./PlasmicFormTextInput.module.css"; // plasmic-import: egz
 
 export const PlasmicFormTextInput__VariantProps = new Array(
   "type",
-  "adornment"
+  "adornment",
+  "showLabel"
 );
 
 export const PlasmicFormTextInput__ArgProps = new Array(
   "name",
   "placeholder",
   "startAdornment",
-  "endAdornment"
+  "endAdornment",
+  "label"
 );
 
 function PlasmicFormTextInput__RenderFunc(props) {
@@ -73,6 +75,12 @@ function PlasmicFormTextInput__RenderFunc(props) {
           [sty.textInput__adornment_start_adornment_end]:
             hasVariant(variants, "adornment", "start") &&
             hasVariant(variants, "adornment", "end"),
+          [sty.textInput__showLabel]: hasVariant(
+            variants,
+            "showLabel",
+            "showLabel"
+          ),
+
           [sty.textInput__type_primary]: hasVariant(
             variants,
             "type",
@@ -93,8 +101,17 @@ function PlasmicFormTextInput__RenderFunc(props) {
           defaultContents: "Text",
           value: args.endAdornment
         })}
+        label={p.renderPlasmicSlot({
+          defaultContents: "Enter some text",
+          value: args.label
+        })}
         name={args.name}
         placeholder={args.placeholder}
+        showLabel={
+          hasVariant(variants, "showLabel", "showLabel")
+            ? "showLabel"
+            : undefined
+        }
         startAdornment={p.renderPlasmicSlot({
           defaultContents: "Text",
           value: args.startAdornment

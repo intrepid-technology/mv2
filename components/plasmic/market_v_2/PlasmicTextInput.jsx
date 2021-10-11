@@ -21,25 +21,51 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTextInput.module.css"; // plasmic-import: Ss3X7VAgr4Y/css
 
-export const PlasmicTextInput__VariantProps = new Array("type", "adornment");
+export const PlasmicTextInput__VariantProps = new Array(
+  "type",
+  "adornment",
+  "showLabel"
+);
 
 export const PlasmicTextInput__ArgProps = new Array(
   "startAdornment",
   "endAdornment",
   "name",
-  "placeholder"
+  "placeholder",
+  "label"
 );
 
 function PlasmicTextInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
+      {(hasVariant(variants, "showLabel", "showLabel") ? true : false) ? (
+        <div
+          data-plasmic-name={"labelWrapper"}
+          data-plasmic-override={overrides.labelWrapper}
+          className={classNames(defaultcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__showLabel]: hasVariant(
+              variants,
+              "showLabel",
+              "showLabel"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Enter some text",
+            value: args.label
+          })}
+        </div>
+      ) : null}
+
       <div
         data-plasmic-name={"wrapper"}
         data-plasmic-override={overrides.wrapper}
@@ -123,6 +149,12 @@ function PlasmicTextInput__RenderFunc(props) {
               [sty.textbox__adornment_start_adornment_end]:
                 hasVariant(variants, "adornment", "start") &&
                 hasVariant(variants, "adornment", "end"),
+              [sty.textbox__showLabel]: hasVariant(
+                variants,
+                "showLabel",
+                "showLabel"
+              ),
+
               [sty.textbox__type_secondary]: hasVariant(
                 variants,
                 "type",
@@ -166,13 +198,14 @@ function PlasmicTextInput__RenderFunc(props) {
           </div>
         ) : null}
       </div>
-    </div>
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
   root: [
     "root",
+    "labelWrapper",
     "wrapper",
     "startAdornmentWrapper",
     "inputWrapper",
@@ -180,6 +213,7 @@ const PlasmicDescendants = {
     "endAdornmentWrapper"
   ],
 
+  labelWrapper: ["labelWrapper"],
   wrapper: [
     "wrapper",
     "startAdornmentWrapper",
@@ -225,6 +259,7 @@ export const PlasmicTextInput = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    labelWrapper: makeNodeComponent("labelWrapper"),
     wrapper: makeNodeComponent("wrapper"),
     startAdornmentWrapper: makeNodeComponent("startAdornmentWrapper"),
     inputWrapper: makeNodeComponent("inputWrapper"),

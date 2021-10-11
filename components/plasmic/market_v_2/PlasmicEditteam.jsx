@@ -27,21 +27,13 @@ import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
-import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
+import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicEditteam.module.css"; // plasmic-import: bpMMXdkhlq/css
-import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: mYZ3_5X8rB/icon
-import FacebookSquareFillIcon from "./icons/PlasmicIcon__FacebookSquareFill"; // plasmic-import: wOX2gl0oUy/icon
-import Icon10Icon from "./icons/PlasmicIcon__Icon10"; // plasmic-import: DEc54POMG/icon
-import TwitterSquareFillIcon from "./icons/PlasmicIcon__TwitterSquareFill"; // plasmic-import: YS9smaNhXs/icon
-import YoutubeSquareFillIcon from "./icons/PlasmicIcon__YoutubeSquareFill"; // plasmic-import: jYcAOxOO7/icon
-import TiktokIcon from "./icons/PlasmicIcon__Tiktok"; // plasmic-import: LokkjUavSF/icon
-import GithubIcon from "./icons/PlasmicIcon__Github"; // plasmic-import: 3czk3Wymzb/icon
-import DribbbleIcon from "./icons/PlasmicIcon__Dribbble"; // plasmic-import: bWmFTef-m/icon
 
 export const PlasmicEditteam__VariantProps = new Array();
 
@@ -1188,336 +1180,16 @@ function PlasmicEditteam__RenderFunc(props) {
                     </div>
                   </CardHeaderTitlePrimary>
 
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"inputGroupTeamSocial"}
-                    data-plasmic-override={overrides.inputGroupTeamSocial}
-                    hasGap={true}
+                  <SocialPlatformsSwitchInputs
+                    data-plasmic-name={"socialPlatformsSwitchInputs"}
+                    data-plasmic-override={
+                      overrides.socialPlatformsSwitchInputs
+                    }
                     className={classNames(
-                      defaultcss.all,
-                      sty.inputGroupTeamSocial
+                      "__wab_instance",
+                      sty.socialPlatformsSwitchInputs
                     )}
-                  >
-                    <FormSwitchInput
-                      data-plasmic-name={"instagramSwitchInput"}
-                      data-plasmic-override={overrides.instagramSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.instagramSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper"}
-                          data-plasmic-override={overrides.contentWrapper}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper
-                          )}
-                        >
-                          <Icon6Icon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__b8Mo
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__dRlu
-                            )}
-                          >
-                            {"Instagram"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.instagram"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"facebookSwitchInput"}
-                      data-plasmic-override={overrides.facebookSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.facebookSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper2"}
-                          data-plasmic-override={overrides.contentWrapper2}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper2
-                          )}
-                        >
-                          <FacebookSquareFillIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__tgq1D
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__xie6I
-                            )}
-                          >
-                            {"Facebook"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.facebook"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"linkedInSwitchInput"}
-                      data-plasmic-override={overrides.linkedInSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.linkedInSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper3"}
-                          data-plasmic-override={overrides.contentWrapper3}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper3
-                          )}
-                        >
-                          <Icon10Icon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__agYEo
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__y587J
-                            )}
-                          >
-                            {"Linkedin"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.linkedin"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"twitterSwitchInput"}
-                      data-plasmic-override={overrides.twitterSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.twitterSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper4"}
-                          data-plasmic-override={overrides.contentWrapper4}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper4
-                          )}
-                        >
-                          <TwitterSquareFillIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__czoJi
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__rJXfi
-                            )}
-                          >
-                            {"Twitter"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.twitter"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"youtubeSwitchInput"}
-                      data-plasmic-override={overrides.youtubeSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.youtubeSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper5"}
-                          data-plasmic-override={overrides.contentWrapper5}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper5
-                          )}
-                        >
-                          <YoutubeSquareFillIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__rYmvv
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text___0XUa8
-                            )}
-                          >
-                            {"Youtube"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.youtube"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"tiktokSwitchInput"}
-                      data-plasmic-override={overrides.tiktokSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tiktokSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper6"}
-                          data-plasmic-override={overrides.contentWrapper6}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper6
-                          )}
-                        >
-                          <TiktokIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__vsEr4
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__vFu4
-                            )}
-                          >
-                            {"Tik Tok"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.tiktok"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"githubSwitchInput"}
-                      data-plasmic-override={overrides.githubSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.githubSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper7"}
-                          data-plasmic-override={overrides.contentWrapper7}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper7
-                          )}
-                        >
-                          <GithubIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg__suiIn
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__ugZw
-                            )}
-                          >
-                            {"Github"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.github"}
-                    />
-
-                    <FormSwitchInput
-                      data-plasmic-name={"dribbleSwitchInput"}
-                      data-plasmic-override={overrides.dribbleSwitchInput}
-                      className={classNames(
-                        "__wab_instance",
-                        sty.dribbleSwitchInput
-                      )}
-                      content={
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"contentWrapper8"}
-                          data-plasmic-override={overrides.contentWrapper8}
-                          hasGap={true}
-                          className={classNames(
-                            defaultcss.all,
-                            sty.contentWrapper8
-                          )}
-                        >
-                          <DribbbleIcon
-                            className={classNames(
-                              defaultcss.all,
-                              sty.svg___9Mj9O
-                            )}
-                            role={"img"}
-                          />
-
-                          <div
-                            className={classNames(
-                              defaultcss.all,
-                              defaultcss.__wab_text,
-                              sty.text__boRao
-                            )}
-                          >
-                            {"Dribble"}
-                          </div>
-                        </p.Stack>
-                      }
-                      name={"social.dribble"}
-                    />
-                  </p.Stack>
+                  />
                 </p.Stack>
 
                 <Button
@@ -1619,23 +1291,7 @@ const PlasmicDescendants = {
     "cardTeamWebsite",
     "websiteTextInput",
     "cardTeamSocial",
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8",
+    "socialPlatformsSwitchInputs",
     "submitSocialsButton",
     "footerB"
   ],
@@ -1959,23 +1615,7 @@ const PlasmicDescendants = {
     "cardTeamWebsite",
     "websiteTextInput",
     "cardTeamSocial",
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8",
+    "socialPlatformsSwitchInputs",
     "submitSocialsButton"
   ],
 
@@ -1985,23 +1625,7 @@ const PlasmicDescendants = {
     "cardTeamWebsite",
     "websiteTextInput",
     "cardTeamSocial",
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8",
+    "socialPlatformsSwitchInputs",
     "submitSocialsButton"
   ],
 
@@ -2010,85 +1634,14 @@ const PlasmicDescendants = {
     "cardTeamWebsite",
     "websiteTextInput",
     "cardTeamSocial",
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8",
+    "socialPlatformsSwitchInputs",
     "submitSocialsButton"
   ],
 
   cardTeamWebsite: ["cardTeamWebsite", "websiteTextInput"],
   websiteTextInput: ["websiteTextInput"],
-  cardTeamSocial: [
-    "cardTeamSocial",
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8"
-  ],
-
-  inputGroupTeamSocial: [
-    "inputGroupTeamSocial",
-    "instagramSwitchInput",
-    "contentWrapper",
-    "facebookSwitchInput",
-    "contentWrapper2",
-    "linkedInSwitchInput",
-    "contentWrapper3",
-    "twitterSwitchInput",
-    "contentWrapper4",
-    "youtubeSwitchInput",
-    "contentWrapper5",
-    "tiktokSwitchInput",
-    "contentWrapper6",
-    "githubSwitchInput",
-    "contentWrapper7",
-    "dribbleSwitchInput",
-    "contentWrapper8"
-  ],
-
-  instagramSwitchInput: ["instagramSwitchInput", "contentWrapper"],
-  contentWrapper: ["contentWrapper"],
-  facebookSwitchInput: ["facebookSwitchInput", "contentWrapper2"],
-  contentWrapper2: ["contentWrapper2"],
-  linkedInSwitchInput: ["linkedInSwitchInput", "contentWrapper3"],
-  contentWrapper3: ["contentWrapper3"],
-  twitterSwitchInput: ["twitterSwitchInput", "contentWrapper4"],
-  contentWrapper4: ["contentWrapper4"],
-  youtubeSwitchInput: ["youtubeSwitchInput", "contentWrapper5"],
-  contentWrapper5: ["contentWrapper5"],
-  tiktokSwitchInput: ["tiktokSwitchInput", "contentWrapper6"],
-  contentWrapper6: ["contentWrapper6"],
-  githubSwitchInput: ["githubSwitchInput", "contentWrapper7"],
-  contentWrapper7: ["contentWrapper7"],
-  dribbleSwitchInput: ["dribbleSwitchInput", "contentWrapper8"],
-  contentWrapper8: ["contentWrapper8"],
+  cardTeamSocial: ["cardTeamSocial", "socialPlatformsSwitchInputs"],
+  socialPlatformsSwitchInputs: ["socialPlatformsSwitchInputs"],
   submitSocialsButton: ["submitSocialsButton"],
   footerB: ["footerB"]
 };
@@ -2205,23 +1758,10 @@ export const PlasmicEditteam = Object.assign(
     cardTeamWebsite: makeNodeComponent("cardTeamWebsite"),
     websiteTextInput: makeNodeComponent("websiteTextInput"),
     cardTeamSocial: makeNodeComponent("cardTeamSocial"),
-    inputGroupTeamSocial: makeNodeComponent("inputGroupTeamSocial"),
-    instagramSwitchInput: makeNodeComponent("instagramSwitchInput"),
-    contentWrapper: makeNodeComponent("contentWrapper"),
-    facebookSwitchInput: makeNodeComponent("facebookSwitchInput"),
-    contentWrapper2: makeNodeComponent("contentWrapper2"),
-    linkedInSwitchInput: makeNodeComponent("linkedInSwitchInput"),
-    contentWrapper3: makeNodeComponent("contentWrapper3"),
-    twitterSwitchInput: makeNodeComponent("twitterSwitchInput"),
-    contentWrapper4: makeNodeComponent("contentWrapper4"),
-    youtubeSwitchInput: makeNodeComponent("youtubeSwitchInput"),
-    contentWrapper5: makeNodeComponent("contentWrapper5"),
-    tiktokSwitchInput: makeNodeComponent("tiktokSwitchInput"),
-    contentWrapper6: makeNodeComponent("contentWrapper6"),
-    githubSwitchInput: makeNodeComponent("githubSwitchInput"),
-    contentWrapper7: makeNodeComponent("contentWrapper7"),
-    dribbleSwitchInput: makeNodeComponent("dribbleSwitchInput"),
-    contentWrapper8: makeNodeComponent("contentWrapper8"),
+    socialPlatformsSwitchInputs: makeNodeComponent(
+      "socialPlatformsSwitchInputs"
+    ),
+
     submitSocialsButton: makeNodeComponent("submitSocialsButton"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteam

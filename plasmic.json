@@ -4067,6 +4067,19 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicMultiCheckboxInput.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "KT8HFDqoR9t",
+          "name": "SocialPlatformsSwitchInputs",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSocialPlatformsSwitchInputs.jsx",
+          "importSpec": {
+            "modulePath": "SocialPlatformsSwitchInputs.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSocialPlatformsSwitchInputs.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

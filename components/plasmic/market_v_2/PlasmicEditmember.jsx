@@ -12,7 +12,6 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -21,17 +20,15 @@ import {
 import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
+import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
-import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/component
+import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
 import ButtonGroupStripeVerification from "../../ButtonGroupStripeVerification"; // plasmic-import: 2wDe-7IRwt/component
-import UserAvatarButton from "../../UserAvatarButton"; // plasmic-import: w1GnXfIMuv/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import InputTextPrefixSuffix from "../../InputTextPrefixSuffix"; // plasmic-import: 8Sse2xZ7od/component
-import InputTextField from "../../InputTextField"; // plasmic-import: ATs3nXJ-Tjc/component
-import InputTextAreaPrimary from "../../InputTextAreaPrimary"; // plasmic-import: T-WLdey8LU/component
-import SelectGroupDropdownPrimary from "../../SelectGroupDropdownPrimary"; // plasmic-import: -teiDn_7Z-/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
+import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
-import CardSocialConnectSwitch from "../../CardSocialConnectSwitch"; // plasmic-import: PjlQKkmde-/component
+import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -130,410 +127,416 @@ function PlasmicEditmember__RenderFunc(props) {
               }
             />
 
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditProfile"}
-              data-plasmic-override={overrides.formMemberEditProfile}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.formMemberEditProfile)}
+            <FormContext
+              data-plasmic-name={"memberProfileForm"}
+              data-plasmic-override={overrides.memberProfileForm}
+              className={classNames("__wab_instance", sty.memberProfileForm)}
             >
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"cardMemberPersonalVerification"}
-                data-plasmic-override={overrides.cardMemberPersonalVerification}
+                data-plasmic-name={"formMemberEditProfile"}
+                data-plasmic-override={overrides.formMemberEditProfile}
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
-                  sty.cardMemberPersonalVerification
+                  sty.formMemberEditProfile
                 )}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__gEtHe
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__hxjHi
-                      )}
-                    >
-                      {"Please enter your full name."}
-                    </div>
-                  }
-                >
-                  {"Personal name"}
-                </CardHeaderTitlePrimary>
-
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"memberPersonalNameGroup"}
-                  data-plasmic-override={overrides.memberPersonalNameGroup}
-                  hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.memberPersonalNameGroup
-                  )}
-                >
-                  <InputTextForm
-                    data-plasmic-name={"firstName"}
-                    data-plasmic-override={overrides.firstName}
-                    className={classNames("__wab_instance", sty.firstName)}
-                    labelHeadline={"First name"}
-                    type={"secondary"}
-                    width={"_360"}
-                  />
-
-                  <InputTextForm
-                    data-plasmic-name={"lastName"}
-                    data-plasmic-override={overrides.lastName}
-                    className={classNames("__wab_instance", sty.lastName)}
-                    labelHeadline={"Last name"}
-                    type={"secondary"}
-                    width={"_360"}
-                  />
-                </p.Stack>
-
-                <ButtonGroupStripeVerification
-                  data-plasmic-name={"buttonGroupStripeVerification"}
+                  data-plasmic-name={"cardMemberPersonalVerification"}
                   data-plasmic-override={
-                    overrides.buttonGroupStripeVerification
+                    overrides.cardMemberPersonalVerification
                   }
-                  className={classNames(
-                    "__wab_instance",
-                    sty.buttonGroupStripeVerification
-                  )}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberImage"}
-                data-plasmic-override={overrides.cardMemberImage}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberImage)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__ezi8
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__h4Mp0
-                      )}
-                    >
-                      {
-                        "Click on the avatar to upload a custom image from your files."
-                      }
-                    </div>
-                  }
-                >
-                  {"Image"}
-                </CardHeaderTitlePrimary>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"memberUploadLogoButtonGroup"}
-                  data-plasmic-override={overrides.memberUploadLogoButtonGroup}
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    sty.memberUploadLogoButtonGroup
+                    sty.cardMemberPersonalVerification
                   )}
                 >
-                  <UserAvatarButton
-                    data-plasmic-name={"userAvatarButton"}
-                    data-plasmic-override={overrides.userAvatarButton}
+                  <CardHeaderTitlePrimary
                     className={classNames(
                       "__wab_instance",
-                      sty.userAvatarButton
+                      sty.cardHeaderTitlePrimary__gEtHe
                     )}
-                    size={"_64Px"}
-                  />
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__hxjHi
+                        )}
+                      >
+                        {"Please enter your full name."}
+                      </div>
+                    }
+                  >
+                    {"Personal name"}
+                  </CardHeaderTitlePrimary>
 
                   <p.Stack
                     as={"div"}
-                    data-plasmic-name={"memberEditlogoGroup"}
-                    data-plasmic-override={overrides.memberEditlogoGroup}
+                    data-plasmic-name={"memberPersonalNameGroup"}
+                    data-plasmic-override={overrides.memberPersonalNameGroup}
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
-                      sty.memberEditlogoGroup
+                      sty.memberPersonalNameGroup
                     )}
                   >
-                    <ButtonPrimary
+                    <FormTextInput
+                      data-plasmic-name={"firstNameInput"}
+                      data-plasmic-override={overrides.firstNameInput}
                       className={classNames(
                         "__wab_instance",
-                        sty.buttonPrimary__u0Eio
+                        sty.firstNameInput
                       )}
-                      size={"_90"}
-                      type={"outline"}
-                    >
-                      {"Edit"}
-                    </ButtonPrimary>
-
-                    <ButtonPrimary
-                      className={classNames(
-                        "__wab_instance",
-                        sty.buttonPrimary__ryedl
-                      )}
-                      size={"_90"}
+                      label={"First Name"}
+                      name={"firstName"}
+                      showLabel={"showLabel"}
                       type={"secondary"}
+                    />
+
+                    <FormTextInput
+                      data-plasmic-name={"lastNameInput"}
+                      data-plasmic-override={overrides.lastNameInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.lastNameInput
+                      )}
+                      label={"Last Name"}
+                      name={"lastName"}
+                      showLabel={"showLabel"}
+                      type={"secondary"}
+                    />
+                  </p.Stack>
+
+                  <ButtonGroupStripeVerification
+                    data-plasmic-name={"buttonGroupStripeVerification"}
+                    data-plasmic-override={
+                      overrides.buttonGroupStripeVerification
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.buttonGroupStripeVerification
+                    )}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberImage"}
+                  data-plasmic-override={overrides.cardMemberImage}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberImage)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__ezi8
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__h4Mp0
+                        )}
+                      >
+                        {
+                          "Click on the avatar to upload a custom image from your files."
+                        }
+                      </div>
+                    }
+                  >
+                    {"Image"}
+                  </CardHeaderTitlePrimary>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"memberUploadLogoButtonGroup"}
+                    data-plasmic-override={
+                      overrides.memberUploadLogoButtonGroup
+                    }
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.memberUploadLogoButtonGroup
+                    )}
+                  >
+                    <div
+                      data-plasmic-name={"imageWrapper"}
+                      data-plasmic-override={overrides.imageWrapper}
+                      className={classNames(defaultcss.all, sty.imageWrapper)}
                     >
-                      {"Delete"}
-                    </ButtonPrimary>
+                      <img
+                        data-plasmic-name={"userImage"}
+                        data-plasmic-override={overrides.userImage}
+                        alt={""}
+                        className={classNames(defaultcss.img, sty.userImage)}
+                        src={"/plasmic/market_v_2/images/image4.png"}
+                      />
+                    </div>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"memberEditlogoGroup"}
+                      data-plasmic-override={overrides.memberEditlogoGroup}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.memberEditlogoGroup
+                      )}
+                    >
+                      <Button
+                        data-plasmic-name={"editUserImageButton"}
+                        data-plasmic-override={overrides.editUserImageButton}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.editUserImageButton
+                        )}
+                        preventDefault={"true"}
+                        type={"outline"}
+                      >
+                        {"Edit"}
+                      </Button>
+
+                      <Button
+                        data-plasmic-name={"deleteUserImageButton"}
+                        data-plasmic-override={overrides.deleteUserImageButton}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.deleteUserImageButton
+                        )}
+                        preventDefault={"true"}
+                        type={"secondary"}
+                      >
+                        {"Delete"}
+                      </Button>
+                    </p.Stack>
                   </p.Stack>
                 </p.Stack>
-              </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberUsername"}
-                data-plasmic-override={overrides.cardMemberUsername}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberUsername)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__anzId
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__wxY25
-                      )}
-                    >
-                      {
-                        "This is your URL namespace within the Intrepid community"
-                      }
-                    </div>
-                  }
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberUsername"}
+                  data-plasmic-override={overrides.cardMemberUsername}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberUsername)}
                 >
-                  {"Username display"}
-                </CardHeaderTitlePrimary>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__anzId
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__wxY25
+                        )}
+                      >
+                        {"This is your username within the Intrepid community"}
+                      </div>
+                    }
+                  >
+                    {"Username display"}
+                  </CardHeaderTitlePrimary>
 
-                <InputTextPrefixSuffix
-                  data-plasmic-name={"username"}
-                  data-plasmic-override={overrides.username}
-                  className={classNames("__wab_instance", sty.username)}
-                  prefixLabelHeadline={"@"}
-                  suffix={"suffix"}
-                  type={"primary"}
-                  width={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                />
-              </p.Stack>
+                  <FormTextInput
+                    data-plasmic-name={"displayNameInput"}
+                    data-plasmic-override={overrides.displayNameInput}
+                    adornment={["start"]}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.displayNameInput
+                    )}
+                    name={"displayName"}
+                    startAdornment={"@"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberUrl"}
-                data-plasmic-override={overrides.cardMemberUrl}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberUrl)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary___71L8V
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__pNwo
-                      )}
-                    >
-                      {
-                        "This is your copany's URL namespace within the Intrepid community"
-                      }
-                    </div>
-                  }
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberUrl"}
+                  data-plasmic-override={overrides.cardMemberUrl}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberUrl)}
                 >
-                  {"Url namespace"}
-                </CardHeaderTitlePrimary>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary___71L8V
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__pNwo
+                        )}
+                      >
+                        {
+                          "This is your copany's URL namespace within the Intrepid community"
+                        }
+                      </div>
+                    }
+                  >
+                    {"Url namespace"}
+                  </CardHeaderTitlePrimary>
 
-                <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix___3Hs15
-                  )}
-                  prefixLabelHeadline={"intrepid/technology/"}
-                  suffix={"suffix"}
-                  type={"primary"}
-                  width={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                />
-              </p.Stack>
+                  <FormTextInput
+                    data-plasmic-name={"companyUrlTextInput"}
+                    data-plasmic-override={overrides.companyUrlTextInput}
+                    adornment={["start"]}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.companyUrlTextInput
+                    )}
+                    name={"company.url"}
+                    startAdornment={"intrepid/technology/"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberTagline"}
-                data-plasmic-override={overrides.cardMemberTagline}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberTagline)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__jfQor
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__xxxU
-                      )}
-                    >
-                      {"Short description of your company or team"}
-                    </div>
-                  }
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberTagline"}
+                  data-plasmic-override={overrides.cardMemberTagline}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberTagline)}
                 >
-                  {"Tagline"}
-                </CardHeaderTitlePrimary>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__jfQor
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__xxxU
+                        )}
+                      >
+                        {"Short description of your company or team"}
+                      </div>
+                    }
+                  >
+                    {"Tagline"}
+                  </CardHeaderTitlePrimary>
 
-                <InputTextField
-                  data-plasmic-name={"tags"}
-                  data-plasmic-override={overrides.tags}
-                  className={classNames("__wab_instance", sty.tags)}
-                  size={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                  type={"secondary"}
-                />
-              </p.Stack>
+                  <FormTextInput
+                    data-plasmic-name={"companyTagInput"}
+                    data-plasmic-override={overrides.companyTagInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.companyTagInput
+                    )}
+                    name={"company.tagline"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberDescription"}
-                data-plasmic-override={overrides.cardMemberDescription}
-                hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  sty.cardMemberDescription
-                )}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__oB2Kh
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__qsVv3
-                      )}
-                    >
-                      {"Please describe yourself and your interests. "}
-                    </div>
-                  }
-                >
-                  {"Description"}
-                </CardHeaderTitlePrimary>
-
-                <InputTextAreaPrimary
-                  data-plasmic-name={"description"}
-                  data-plasmic-override={overrides.description}
-                  className={classNames("__wab_instance", sty.description)}
-                  height={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_90"
-                  }
-                  type={"secondary"}
-                  width={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardVideoIntroUrl"}
-                data-plasmic-override={overrides.cardVideoIntroUrl}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardVideoIntroUrl)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__hRoA
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__zWe26
-                      )}
-                    >
-                      {
-                        "Don't worry — this is optional and it's okay to launch without a video."
-                      }
-                    </div>
-                  }
-                >
-                  {"Video introduction"}
-                </CardHeaderTitlePrimary>
-
-                <InputTextPrefixSuffix
-                  className={classNames(
-                    "__wab_instance",
-                    sty.inputTextPrefixSuffix__lxaQu
-                  )}
-                  prefixLabelHeadline={"https//"}
-                  suffix={"suffix"}
-                  type={"primary"}
-                  width={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                />
-              </p.Stack>
-
-              <ButtonPrimary
-                data-plasmic-name={"memberSubmitProfile"}
-                data-plasmic-override={overrides.memberSubmitProfile}
-                className={classNames(
-                  "__wab_instance",
-                  sty.memberSubmitProfile
-                )}
-                size={"_180"}
-              >
-                <div
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberDescription"}
+                  data-plasmic-override={overrides.cardMemberDescription}
+                  hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__sHnOz
+                    sty.cardMemberDescription
                   )}
                 >
-                  {"Save profile"}
-                </div>
-              </ButtonPrimary>
-            </p.Stack>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__oB2Kh
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__qsVv3
+                        )}
+                      >
+                        {"Please describe yourself and your interests. "}
+                      </div>
+                    }
+                  >
+                    {"Description"}
+                  </CardHeaderTitlePrimary>
+
+                  <FormTextAreaInput
+                    data-plasmic-name={"descriptionInput"}
+                    data-plasmic-override={overrides.descriptionInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.descriptionInput
+                    )}
+                    name={"description"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardVideoIntroUrl"}
+                  data-plasmic-override={overrides.cardVideoIntroUrl}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardVideoIntroUrl)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__hRoA
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__zWe26
+                        )}
+                      >
+                        {
+                          "Don't worry — this is optional and it's okay to launch without a video."
+                        }
+                      </div>
+                    }
+                  >
+                    {"Video introduction"}
+                  </CardHeaderTitlePrimary>
+
+                  <FormTextInput
+                    data-plasmic-name={"introVideoUrlInput"}
+                    data-plasmic-override={overrides.introVideoUrlInput}
+                    adornment={["start"]}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.introVideoUrlInput
+                    )}
+                    name={"introVideoUrl"}
+                    startAdornment={"https//"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
+
+                <Button
+                  data-plasmic-name={"submitProfileButton"}
+                  data-plasmic-override={overrides.submitProfileButton}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.submitProfileButton
+                  )}
+                >
+                  {"Save Profile"}
+                </Button>
+              </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <p.Stack
@@ -570,329 +573,351 @@ function PlasmicEditmember__RenderFunc(props) {
               }
             />
 
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditDetails"}
-              data-plasmic-override={overrides.formMemberEditDetails}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.formMemberEditDetails)}
+            <FormContext
+              data-plasmic-name={"memberDetailsForm"}
+              data-plasmic-override={overrides.memberDetailsForm}
+              className={classNames("__wab_instance", sty.memberDetailsForm)}
             >
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"cardMemberLocation"}
-                data-plasmic-override={overrides.cardMemberLocation}
+                data-plasmic-name={"formMemberEditDetails"}
+                data-plasmic-override={overrides.formMemberEditDetails}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberLocation)}
+                className={classNames(
+                  defaultcss.all,
+                  sty.formMemberEditDetails
+                )}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__fhFuB
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__oQfam
-                      )}
-                    >
-                      {
-                        "Please enter the Country and City of your legal residence"
-                      }
-                    </div>
-                  }
-                >
-                  {"Location"}
-                </CardHeaderTitlePrimary>
-
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"memberLocationGroup"}
-                  data-plasmic-override={overrides.memberLocationGroup}
+                  data-plasmic-name={"cardMemberLocation"}
+                  data-plasmic-override={overrides.cardMemberLocation}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.memberLocationGroup
-                  )}
+                  className={classNames(defaultcss.all, sty.cardMemberLocation)}
                 >
-                  <SelectGroupDropdownPrimary
-                    data-plasmic-name={"country"}
-                    data-plasmic-override={overrides.country}
-                    className={classNames("__wab_instance", sty.country)}
-                    description={"description"}
-                  >
-                    {"Country"}
-                  </SelectGroupDropdownPrimary>
-
-                  <InputTextForm
-                    data-plasmic-name={"city"}
-                    data-plasmic-override={overrides.city}
-                    className={classNames("__wab_instance", sty.city)}
-                    labelHeadline={"City"}
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_360"
-                    }
-                  />
-                </p.Stack>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberIndustry"}
-                data-plasmic-override={overrides.cardMemberIndustry}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberIndustry)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__lrlkZ
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__kQo
-                      )}
-                    >
-                      {
-                        "Please enter the industry you work in and your role in your company."
-                      }
-                    </div>
-                  }
-                >
-                  {"Industry & job"}
-                </CardHeaderTitlePrimary>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"memberIndustryGroup"}
-                  data-plasmic-override={overrides.memberIndustryGroup}
-                  hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.memberIndustryGroup
-                  )}
-                >
-                  <SelectGroupDropdownPrimary
-                    data-plasmic-name={"industry"}
-                    data-plasmic-override={overrides.industry}
-                    className={classNames("__wab_instance", sty.industry)}
-                    description={"description"}
-                  >
-                    {"Industry"}
-                  </SelectGroupDropdownPrimary>
-
-                  <InputTextForm
-                    data-plasmic-name={"jobTitle"}
-                    data-plasmic-override={overrides.jobTitle}
-                    className={classNames("__wab_instance", sty.jobTitle)}
-                    labelHeadline={"Job title"}
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_360"
-                    }
-                  />
-                </p.Stack>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberLanguages"}
-                data-plasmic-override={overrides.cardMemberLanguages}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberLanguages)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary___8QCqw
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__ikYyc
-                      )}
-                    >
-                      {"Enter the languages you speak"}
-                    </div>
-                  }
-                >
-                  {"Languages"}
-                </CardHeaderTitlePrimary>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"inputGroupMemberLanguages"}
-                  data-plasmic-override={overrides.inputGroupMemberLanguages}
-                  hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.inputGroupMemberLanguages
-                  )}
-                >
-                  <SelectGroupDropdownPrimary
-                    data-plasmic-name={"language"}
-                    data-plasmic-override={overrides.language}
-                    className={classNames("__wab_instance", sty.language)}
-                    description={"description"}
-                  >
-                    {"Primary"}
-                  </SelectGroupDropdownPrimary>
-
-                  <SelectGroupDropdownPrimary
-                    data-plasmic-name={"selectGroupDropdownPrimary"}
-                    data-plasmic-override={overrides.selectGroupDropdownPrimary}
+                  <CardHeaderTitlePrimary
                     className={classNames(
                       "__wab_instance",
-                      sty.selectGroupDropdownPrimary
+                      sty.cardHeaderTitlePrimary__fhFuB
                     )}
-                    description={"description"}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__oQfam
+                        )}
+                      >
+                        {
+                          "Please enter the Country and City of your legal residence"
+                        }
+                      </div>
+                    }
                   >
-                    {"Secondary"}
-                  </SelectGroupDropdownPrimary>
+                    {"Location"}
+                  </CardHeaderTitlePrimary>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"memberLocationGroup"}
+                    data-plasmic-override={overrides.memberLocationGroup}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.memberLocationGroup
+                    )}
+                  >
+                    <FormSelectInput
+                      data-plasmic-name={"countrySelectInput"}
+                      data-plasmic-override={overrides.countrySelectInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.countrySelectInput
+                      )}
+                      label={"Country"}
+                      name={"location.country"}
+                    />
+
+                    <FormSelectInput
+                      data-plasmic-name={"citySelectInput"}
+                      data-plasmic-override={overrides.citySelectInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.citySelectInput
+                      )}
+                      label={"City"}
+                      name={"location.city"}
+                    />
+                  </p.Stack>
                 </p.Stack>
-              </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberInterests"}
-                data-plasmic-override={overrides.cardMemberInterests}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberInterests)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__bl1O0
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__mAude
-                      )}
-                    >
-                      {
-                        "Search and enter the products/services you are interested in, separated by commas"
-                      }
-                    </div>
-                  }
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberIndustry"}
+                  data-plasmic-override={overrides.cardMemberIndustry}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberIndustry)}
                 >
-                  {"Interests"}
-                </CardHeaderTitlePrimary>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__lrlkZ
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__kQo
+                        )}
+                      >
+                        {
+                          "Please enter the industry you work in and your role in your company."
+                        }
+                      </div>
+                    }
+                  >
+                    {"Industry & job"}
+                  </CardHeaderTitlePrimary>
 
-                <InputSearchbarFilterDisplay
-                  data-plasmic-name={"interest"}
-                  data-plasmic-override={overrides.interest}
-                  className={classNames("__wab_instance", sty.interest)}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberSkills"}
-                data-plasmic-override={overrides.cardMemberSkills}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberSkills)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__i0Au
-                  )}
-                  slot={
-                    <div
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"memberIndustryGroup"}
+                    data-plasmic-override={overrides.memberIndustryGroup}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.memberIndustryGroup
+                    )}
+                  >
+                    <FormSelectInput
+                      data-plasmic-name={"industrySelectInput"}
+                      data-plasmic-override={overrides.industrySelectInput}
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text___4WyB
+                        "__wab_instance",
+                        sty.industrySelectInput
                       )}
-                    >
-                      {
-                        "Search and enter your skills and strengths, separated by commas"
-                      }
-                    </div>
-                  }
-                >
-                  {"Skills"}
-                </CardHeaderTitlePrimary>
+                      label={"Industry"}
+                      name={"industry"}
+                    />
 
-                <InputSearchbarFilterDisplay
-                  data-plasmic-name={"skill"}
-                  data-plasmic-override={overrides.skill}
-                  className={classNames("__wab_instance", sty.skill)}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberCommunity"}
-                data-plasmic-override={overrides.cardMemberCommunity}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberCommunity)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__sy9Hg
-                  )}
-                  slot={
-                    <div
+                    <FormTextInput
+                      data-plasmic-name={"jobTitleInput"}
+                      data-plasmic-override={overrides.jobTitleInput}
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__kfwe
+                        "__wab_instance",
+                        sty.jobTitleInput
                       )}
-                    >
-                      {
-                        "Search and enter your industry or most relevant community"
-                      }
-                    </div>
-                  }
-                >
-                  {"Community"}
-                </CardHeaderTitlePrimary>
+                      label={"Job Title"}
+                      name={"jobTitle"}
+                      showLabel={"showLabel"}
+                      type={"secondary"}
+                    />
+                  </p.Stack>
+                </p.Stack>
 
-                <InputSearchbarFilterDisplay
-                  data-plasmic-name={"community"}
-                  data-plasmic-override={overrides.community}
-                  className={classNames("__wab_instance", sty.community)}
-                />
-              </p.Stack>
-
-              <ButtonPrimary
-                data-plasmic-name={"memberSubmitDetails"}
-                data-plasmic-override={overrides.memberSubmitDetails}
-                className={classNames(
-                  "__wab_instance",
-                  sty.memberSubmitDetails
-                )}
-                size={"_180"}
-              >
-                <div
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberLanguages"}
+                  data-plasmic-override={overrides.cardMemberLanguages}
+                  hasGap={true}
                   className={classNames(
                     defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__o7ZPl
+                    sty.cardMemberLanguages
                   )}
                 >
-                  {"Save details"}
-                </div>
-              </ButtonPrimary>
-            </p.Stack>
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary___8QCqw
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__ikYyc
+                        )}
+                      >
+                        {"Enter the languages you speak"}
+                      </div>
+                    }
+                  >
+                    {"Languages"}
+                  </CardHeaderTitlePrimary>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"inputGroupMemberLanguages"}
+                    data-plasmic-override={overrides.inputGroupMemberLanguages}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.inputGroupMemberLanguages
+                    )}
+                  >
+                    <FormSelectInput
+                      data-plasmic-name={"primaryLanguageSelectInput"}
+                      data-plasmic-override={
+                        overrides.primaryLanguageSelectInput
+                      }
+                      className={classNames(
+                        "__wab_instance",
+                        sty.primaryLanguageSelectInput
+                      )}
+                      label={"Primary"}
+                      name={"language.primary"}
+                    />
+
+                    <FormSelectInput
+                      data-plasmic-name={"secondaryLanguageSelectInput"}
+                      data-plasmic-override={
+                        overrides.secondaryLanguageSelectInput
+                      }
+                      className={classNames(
+                        "__wab_instance",
+                        sty.secondaryLanguageSelectInput
+                      )}
+                      label={"Secondary"}
+                      name={"language.secondary"}
+                    />
+                  </p.Stack>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberInterests"}
+                  data-plasmic-override={overrides.cardMemberInterests}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    sty.cardMemberInterests
+                  )}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__bl1O0
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__mAude
+                        )}
+                      >
+                        {
+                          "Search and enter the products/services you are interested in, separated by commas"
+                        }
+                      </div>
+                    }
+                  >
+                    {"Interests"}
+                  </CardHeaderTitlePrimary>
+
+                  <InputSearchbarFilterDisplay
+                    data-plasmic-name={"interest"}
+                    data-plasmic-override={overrides.interest}
+                    className={classNames("__wab_instance", sty.interest)}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberSkills"}
+                  data-plasmic-override={overrides.cardMemberSkills}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberSkills)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__i0Au
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text___4WyB
+                        )}
+                      >
+                        {
+                          "Search and enter your skills and strengths, separated by commas"
+                        }
+                      </div>
+                    }
+                  >
+                    {"Skills"}
+                  </CardHeaderTitlePrimary>
+
+                  <InputSearchbarFilterDisplay
+                    data-plasmic-name={"skill"}
+                    data-plasmic-override={overrides.skill}
+                    className={classNames("__wab_instance", sty.skill)}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberCommunity"}
+                  data-plasmic-override={overrides.cardMemberCommunity}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    sty.cardMemberCommunity
+                  )}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__sy9Hg
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__kfwe
+                        )}
+                      >
+                        {
+                          "Search and enter your industry or most relevant community"
+                        }
+                      </div>
+                    }
+                  >
+                    {"Community"}
+                  </CardHeaderTitlePrimary>
+
+                  <InputSearchbarFilterDisplay
+                    data-plasmic-name={"community"}
+                    data-plasmic-override={overrides.community}
+                    className={classNames("__wab_instance", sty.community)}
+                  />
+                </p.Stack>
+
+                <Button
+                  data-plasmic-name={"submitDetailsButton"}
+                  data-plasmic-override={overrides.submitDetailsButton}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.submitDetailsButton
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__xh7Ny
+                    )}
+                  >
+                    {"Save Details"}
+                  </div>
+                </Button>
+              </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <p.Stack
@@ -911,7 +936,6 @@ function PlasmicEditmember__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay__da5Bv
               )}
               headings={["title"]}
-              size={"_720"}
               slot={
                 <div
                   className={classNames(
@@ -929,226 +953,117 @@ function PlasmicEditmember__RenderFunc(props) {
               }
             />
 
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditSocial"}
-              data-plasmic-override={overrides.formMemberEditSocial}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.formMemberEditSocial)}
+            <FormContext
+              data-plasmic-name={"memberSocialForm"}
+              data-plasmic-override={overrides.memberSocialForm}
+              className={classNames("__wab_instance", sty.memberSocialForm)}
             >
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"cardMemberWebsite"}
-                data-plasmic-override={overrides.cardMemberWebsite}
+                data-plasmic-name={"formMemberEditSocial"}
+                data-plasmic-override={overrides.formMemberEditSocial}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberWebsite)}
+                className={classNames(defaultcss.all, sty.formMemberEditSocial)}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__v0B32
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__zfHw
-                      )}
-                    >
-                      {"Enter your company's website address"}
-                    </div>
-                  }
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberWebsite"}
+                  data-plasmic-override={overrides.cardMemberWebsite}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberWebsite)}
                 >
-                  {"Website"}
-                </CardHeaderTitlePrimary>
-
-                <InputTextPrefixSuffix
-                  data-plasmic-name={"website"}
-                  data-plasmic-override={overrides.website}
-                  className={classNames("__wab_instance", sty.website)}
-                  prefixLabelHeadline={"https://"}
-                  suffix={"suffix"}
-                  type={"primary"}
-                  width={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? undefined
-                      : "_540"
-                  }
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"cardMemberSocial"}
-                data-plasmic-override={overrides.cardMemberSocial}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.cardMemberSocial)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__tYhVt
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__osn8L
-                      )}
-                    >
-                      {
-                        "Increase trust and visibility by connecting the social profiles you want to include on your profile"
-                      }
-                    </div>
-                  }
-                >
-                  <div
+                  <CardHeaderTitlePrimary
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__rUb4
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__v0B32
                     )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__zfHw
+                        )}
+                      >
+                        {"Enter your company's website address"}
+                      </div>
+                    }
                   >
-                    {"Social"}
-                  </div>
-                </CardHeaderTitlePrimary>
+                    {"Website"}
+                  </CardHeaderTitlePrimary>
 
-                <div
-                  data-plasmic-name={"inputGroupMemberSocial"}
-                  data-plasmic-override={overrides.inputGroupMemberSocial}
+                  <FormTextInput
+                    data-plasmic-name={"formTextInput"}
+                    data-plasmic-override={overrides.formTextInput}
+                    adornment={["start"]}
+                    className={classNames("__wab_instance", sty.formTextInput)}
+                    name={"website"}
+                    startAdornment={"https://"}
+                    type={"secondary"}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"cardMemberSocial"}
+                  data-plasmic-override={overrides.cardMemberSocial}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.cardMemberSocial)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__tYhVt
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__osn8L
+                        )}
+                      >
+                        {
+                          "Increase trust and visibility by connecting the social profiles you want to include on your profile"
+                        }
+                      </div>
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__rUb4
+                      )}
+                    >
+                      {"Social"}
+                    </div>
+                  </CardHeaderTitlePrimary>
+
+                  <SocialPlatformsSwitchInputs
+                    data-plasmic-name={"socialPlatformsSwitchInputs"}
+                    data-plasmic-override={
+                      overrides.socialPlatformsSwitchInputs
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.socialPlatformsSwitchInputs
+                    )}
+                  />
+                </p.Stack>
+
+                <Button
+                  data-plasmic-name={"submitSocialButton"}
+                  data-plasmic-override={overrides.submitSocialButton}
                   className={classNames(
-                    defaultcss.all,
-                    sty.inputGroupMemberSocial
+                    "__wab_instance",
+                    sty.submitSocialButton
                   )}
                 >
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__ilTpw
-                    )}
-                    socialNetwork={"instagram"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__c4KdL
-                    )}
-                    socialNetwork={"facebook"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__z0Tmx
-                    )}
-                    socialNetwork={"linkedin"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__dhc2B
-                    )}
-                    socialNetwork={"twitter"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__iDscj
-                    )}
-                    socialNetwork={"youtube"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__vE5D2
-                    )}
-                    socialNetwork={"tikTok"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__fpocU
-                    )}
-                    socialNetwork={"github"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch___4Snea
-                    )}
-                    socialNetwork={"dribbble"}
-                    width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? undefined
-                        : "_540"
-                    }
-                  />
-                </div>
+                  {"Save Socials"}
+                </Button>
               </p.Stack>
-
-              <ButtonPrimary
-                data-plasmic-name={"memberSubmitSocials"}
-                data-plasmic-override={overrides.memberSubmitSocials}
-                className={classNames(
-                  "__wab_instance",
-                  sty.memberSubmitSocials
-                )}
-                size={"_180"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__uRTf
-                  )}
-                >
-                  {"Save socials"}
-                </div>
-              </ButtonPrimary>
-            </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <FooterB
@@ -1168,53 +1083,61 @@ const PlasmicDescendants = {
     "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberEditProfile",
+    "memberProfileForm",
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
-    "firstName",
-    "lastName",
+    "firstNameInput",
+    "lastNameInput",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
-    "userAvatarButton",
+    "imageWrapper",
+    "userImage",
     "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton",
     "cardMemberUsername",
-    "username",
+    "displayNameInput",
     "cardMemberUrl",
+    "companyUrlTextInput",
     "cardMemberTagline",
-    "tags",
+    "companyTagInput",
     "cardMemberDescription",
-    "description",
+    "descriptionInput",
     "cardVideoIntroUrl",
-    "memberSubmitProfile",
+    "introVideoUrlInput",
+    "submitProfileButton",
     "sectionMemberEditProfileDetails",
+    "memberDetailsForm",
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
-    "country",
-    "city",
+    "countrySelectInput",
+    "citySelectInput",
     "cardMemberIndustry",
     "memberIndustryGroup",
-    "industry",
-    "jobTitle",
+    "industrySelectInput",
+    "jobTitleInput",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
-    "language",
-    "selectGroupDropdownPrimary",
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput",
     "cardMemberInterests",
     "interest",
     "cardMemberSkills",
     "skill",
     "cardMemberCommunity",
     "community",
-    "memberSubmitDetails",
+    "submitDetailsButton",
     "sectionMemberEditProfileSocial",
+    "memberSocialForm",
     "formMemberEditSocial",
     "cardMemberWebsite",
-    "website",
+    "formTextInput",
     "cardMemberSocial",
-    "inputGroupMemberSocial",
-    "memberSubmitSocials",
+    "socialPlatformsSwitchInputs",
+    "submitSocialButton",
     "footerB"
   ],
 
@@ -1222,198 +1145,304 @@ const PlasmicDescendants = {
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberEditProfile: [
     "sectionMemberEditProfile",
+    "memberProfileForm",
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
-    "firstName",
-    "lastName",
+    "firstNameInput",
+    "lastNameInput",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
-    "userAvatarButton",
+    "imageWrapper",
+    "userImage",
     "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton",
     "cardMemberUsername",
-    "username",
+    "displayNameInput",
     "cardMemberUrl",
+    "companyUrlTextInput",
     "cardMemberTagline",
-    "tags",
+    "companyTagInput",
     "cardMemberDescription",
-    "description",
+    "descriptionInput",
     "cardVideoIntroUrl",
-    "memberSubmitProfile"
+    "introVideoUrlInput",
+    "submitProfileButton"
+  ],
+
+  memberProfileForm: [
+    "memberProfileForm",
+    "formMemberEditProfile",
+    "cardMemberPersonalVerification",
+    "memberPersonalNameGroup",
+    "firstNameInput",
+    "lastNameInput",
+    "buttonGroupStripeVerification",
+    "cardMemberImage",
+    "memberUploadLogoButtonGroup",
+    "imageWrapper",
+    "userImage",
+    "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton",
+    "cardMemberUsername",
+    "displayNameInput",
+    "cardMemberUrl",
+    "companyUrlTextInput",
+    "cardMemberTagline",
+    "companyTagInput",
+    "cardMemberDescription",
+    "descriptionInput",
+    "cardVideoIntroUrl",
+    "introVideoUrlInput",
+    "submitProfileButton"
   ],
 
   formMemberEditProfile: [
     "formMemberEditProfile",
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
-    "firstName",
-    "lastName",
+    "firstNameInput",
+    "lastNameInput",
     "buttonGroupStripeVerification",
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
-    "userAvatarButton",
+    "imageWrapper",
+    "userImage",
     "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton",
     "cardMemberUsername",
-    "username",
+    "displayNameInput",
     "cardMemberUrl",
+    "companyUrlTextInput",
     "cardMemberTagline",
-    "tags",
+    "companyTagInput",
     "cardMemberDescription",
-    "description",
+    "descriptionInput",
     "cardVideoIntroUrl",
-    "memberSubmitProfile"
+    "introVideoUrlInput",
+    "submitProfileButton"
   ],
 
   cardMemberPersonalVerification: [
     "cardMemberPersonalVerification",
     "memberPersonalNameGroup",
-    "firstName",
-    "lastName",
+    "firstNameInput",
+    "lastNameInput",
     "buttonGroupStripeVerification"
   ],
 
-  memberPersonalNameGroup: ["memberPersonalNameGroup", "firstName", "lastName"],
-  firstName: ["firstName"],
-  lastName: ["lastName"],
+  memberPersonalNameGroup: [
+    "memberPersonalNameGroup",
+    "firstNameInput",
+    "lastNameInput"
+  ],
+
+  firstNameInput: ["firstNameInput"],
+  lastNameInput: ["lastNameInput"],
   buttonGroupStripeVerification: ["buttonGroupStripeVerification"],
   cardMemberImage: [
     "cardMemberImage",
     "memberUploadLogoButtonGroup",
-    "userAvatarButton",
-    "memberEditlogoGroup"
+    "imageWrapper",
+    "userImage",
+    "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton"
   ],
 
   memberUploadLogoButtonGroup: [
     "memberUploadLogoButtonGroup",
-    "userAvatarButton",
-    "memberEditlogoGroup"
+    "imageWrapper",
+    "userImage",
+    "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton"
   ],
 
-  userAvatarButton: ["userAvatarButton"],
-  memberEditlogoGroup: ["memberEditlogoGroup"],
-  cardMemberUsername: ["cardMemberUsername", "username"],
-  username: ["username"],
-  cardMemberUrl: ["cardMemberUrl"],
-  cardMemberTagline: ["cardMemberTagline", "tags"],
-  tags: ["tags"],
-  cardMemberDescription: ["cardMemberDescription", "description"],
-  description: ["description"],
-  cardVideoIntroUrl: ["cardVideoIntroUrl"],
-  memberSubmitProfile: ["memberSubmitProfile"],
+  imageWrapper: ["imageWrapper", "userImage"],
+  userImage: ["userImage"],
+  memberEditlogoGroup: [
+    "memberEditlogoGroup",
+    "editUserImageButton",
+    "deleteUserImageButton"
+  ],
+
+  editUserImageButton: ["editUserImageButton"],
+  deleteUserImageButton: ["deleteUserImageButton"],
+  cardMemberUsername: ["cardMemberUsername", "displayNameInput"],
+  displayNameInput: ["displayNameInput"],
+  cardMemberUrl: ["cardMemberUrl", "companyUrlTextInput"],
+  companyUrlTextInput: ["companyUrlTextInput"],
+  cardMemberTagline: ["cardMemberTagline", "companyTagInput"],
+  companyTagInput: ["companyTagInput"],
+  cardMemberDescription: ["cardMemberDescription", "descriptionInput"],
+  descriptionInput: ["descriptionInput"],
+  cardVideoIntroUrl: ["cardVideoIntroUrl", "introVideoUrlInput"],
+  introVideoUrlInput: ["introVideoUrlInput"],
+  submitProfileButton: ["submitProfileButton"],
   sectionMemberEditProfileDetails: [
     "sectionMemberEditProfileDetails",
+    "memberDetailsForm",
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
-    "country",
-    "city",
+    "countrySelectInput",
+    "citySelectInput",
     "cardMemberIndustry",
     "memberIndustryGroup",
-    "industry",
-    "jobTitle",
+    "industrySelectInput",
+    "jobTitleInput",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
-    "language",
-    "selectGroupDropdownPrimary",
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput",
     "cardMemberInterests",
     "interest",
     "cardMemberSkills",
     "skill",
     "cardMemberCommunity",
     "community",
-    "memberSubmitDetails"
+    "submitDetailsButton"
+  ],
+
+  memberDetailsForm: [
+    "memberDetailsForm",
+    "formMemberEditDetails",
+    "cardMemberLocation",
+    "memberLocationGroup",
+    "countrySelectInput",
+    "citySelectInput",
+    "cardMemberIndustry",
+    "memberIndustryGroup",
+    "industrySelectInput",
+    "jobTitleInput",
+    "cardMemberLanguages",
+    "inputGroupMemberLanguages",
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput",
+    "cardMemberInterests",
+    "interest",
+    "cardMemberSkills",
+    "skill",
+    "cardMemberCommunity",
+    "community",
+    "submitDetailsButton"
   ],
 
   formMemberEditDetails: [
     "formMemberEditDetails",
     "cardMemberLocation",
     "memberLocationGroup",
-    "country",
-    "city",
+    "countrySelectInput",
+    "citySelectInput",
     "cardMemberIndustry",
     "memberIndustryGroup",
-    "industry",
-    "jobTitle",
+    "industrySelectInput",
+    "jobTitleInput",
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
-    "language",
-    "selectGroupDropdownPrimary",
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput",
     "cardMemberInterests",
     "interest",
     "cardMemberSkills",
     "skill",
     "cardMemberCommunity",
     "community",
-    "memberSubmitDetails"
+    "submitDetailsButton"
   ],
 
   cardMemberLocation: [
     "cardMemberLocation",
     "memberLocationGroup",
-    "country",
-    "city"
+    "countrySelectInput",
+    "citySelectInput"
   ],
 
-  memberLocationGroup: ["memberLocationGroup", "country", "city"],
-  country: ["country"],
-  city: ["city"],
+  memberLocationGroup: [
+    "memberLocationGroup",
+    "countrySelectInput",
+    "citySelectInput"
+  ],
+
+  countrySelectInput: ["countrySelectInput"],
+  citySelectInput: ["citySelectInput"],
   cardMemberIndustry: [
     "cardMemberIndustry",
     "memberIndustryGroup",
-    "industry",
-    "jobTitle"
+    "industrySelectInput",
+    "jobTitleInput"
   ],
 
-  memberIndustryGroup: ["memberIndustryGroup", "industry", "jobTitle"],
-  industry: ["industry"],
-  jobTitle: ["jobTitle"],
+  memberIndustryGroup: [
+    "memberIndustryGroup",
+    "industrySelectInput",
+    "jobTitleInput"
+  ],
+
+  industrySelectInput: ["industrySelectInput"],
+  jobTitleInput: ["jobTitleInput"],
   cardMemberLanguages: [
     "cardMemberLanguages",
     "inputGroupMemberLanguages",
-    "language",
-    "selectGroupDropdownPrimary"
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput"
   ],
 
   inputGroupMemberLanguages: [
     "inputGroupMemberLanguages",
-    "language",
-    "selectGroupDropdownPrimary"
+    "primaryLanguageSelectInput",
+    "secondaryLanguageSelectInput"
   ],
 
-  language: ["language"],
-  selectGroupDropdownPrimary: ["selectGroupDropdownPrimary"],
+  primaryLanguageSelectInput: ["primaryLanguageSelectInput"],
+  secondaryLanguageSelectInput: ["secondaryLanguageSelectInput"],
   cardMemberInterests: ["cardMemberInterests", "interest"],
   interest: ["interest"],
   cardMemberSkills: ["cardMemberSkills", "skill"],
   skill: ["skill"],
   cardMemberCommunity: ["cardMemberCommunity", "community"],
   community: ["community"],
-  memberSubmitDetails: ["memberSubmitDetails"],
+  submitDetailsButton: ["submitDetailsButton"],
   sectionMemberEditProfileSocial: [
     "sectionMemberEditProfileSocial",
+    "memberSocialForm",
     "formMemberEditSocial",
     "cardMemberWebsite",
-    "website",
+    "formTextInput",
     "cardMemberSocial",
-    "inputGroupMemberSocial",
-    "memberSubmitSocials"
+    "socialPlatformsSwitchInputs",
+    "submitSocialButton"
+  ],
+
+  memberSocialForm: [
+    "memberSocialForm",
+    "formMemberEditSocial",
+    "cardMemberWebsite",
+    "formTextInput",
+    "cardMemberSocial",
+    "socialPlatformsSwitchInputs",
+    "submitSocialButton"
   ],
 
   formMemberEditSocial: [
     "formMemberEditSocial",
     "cardMemberWebsite",
-    "website",
+    "formTextInput",
     "cardMemberSocial",
-    "inputGroupMemberSocial",
-    "memberSubmitSocials"
+    "socialPlatformsSwitchInputs",
+    "submitSocialButton"
   ],
 
-  cardMemberWebsite: ["cardMemberWebsite", "website"],
-  website: ["website"],
-  cardMemberSocial: ["cardMemberSocial", "inputGroupMemberSocial"],
-  inputGroupMemberSocial: ["inputGroupMemberSocial"],
-  memberSubmitSocials: ["memberSubmitSocials"],
+  cardMemberWebsite: ["cardMemberWebsite", "formTextInput"],
+  formTextInput: ["formTextInput"],
+  cardMemberSocial: ["cardMemberSocial", "socialPlatformsSwitchInputs"],
+  socialPlatformsSwitchInputs: ["socialPlatformsSwitchInputs"],
+  submitSocialButton: ["submitSocialButton"],
   footerB: ["footerB"]
 };
 
@@ -1451,14 +1480,15 @@ export const PlasmicEditmember = Object.assign(
     navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberEditProfile: makeNodeComponent("sectionMemberEditProfile"),
+    memberProfileForm: makeNodeComponent("memberProfileForm"),
     formMemberEditProfile: makeNodeComponent("formMemberEditProfile"),
     cardMemberPersonalVerification: makeNodeComponent(
       "cardMemberPersonalVerification"
     ),
 
     memberPersonalNameGroup: makeNodeComponent("memberPersonalNameGroup"),
-    firstName: makeNodeComponent("firstName"),
-    lastName: makeNodeComponent("lastName"),
+    firstNameInput: makeNodeComponent("firstNameInput"),
+    lastNameInput: makeNodeComponent("lastNameInput"),
     buttonGroupStripeVerification: makeNodeComponent(
       "buttonGroupStripeVerification"
     ),
@@ -1468,51 +1498,64 @@ export const PlasmicEditmember = Object.assign(
       "memberUploadLogoButtonGroup"
     ),
 
-    userAvatarButton: makeNodeComponent("userAvatarButton"),
+    imageWrapper: makeNodeComponent("imageWrapper"),
+    userImage: makeNodeComponent("userImage"),
     memberEditlogoGroup: makeNodeComponent("memberEditlogoGroup"),
+    editUserImageButton: makeNodeComponent("editUserImageButton"),
+    deleteUserImageButton: makeNodeComponent("deleteUserImageButton"),
     cardMemberUsername: makeNodeComponent("cardMemberUsername"),
-    username: makeNodeComponent("username"),
+    displayNameInput: makeNodeComponent("displayNameInput"),
     cardMemberUrl: makeNodeComponent("cardMemberUrl"),
+    companyUrlTextInput: makeNodeComponent("companyUrlTextInput"),
     cardMemberTagline: makeNodeComponent("cardMemberTagline"),
-    tags: makeNodeComponent("tags"),
+    companyTagInput: makeNodeComponent("companyTagInput"),
     cardMemberDescription: makeNodeComponent("cardMemberDescription"),
-    description: makeNodeComponent("description"),
+    descriptionInput: makeNodeComponent("descriptionInput"),
     cardVideoIntroUrl: makeNodeComponent("cardVideoIntroUrl"),
-    memberSubmitProfile: makeNodeComponent("memberSubmitProfile"),
+    introVideoUrlInput: makeNodeComponent("introVideoUrlInput"),
+    submitProfileButton: makeNodeComponent("submitProfileButton"),
     sectionMemberEditProfileDetails: makeNodeComponent(
       "sectionMemberEditProfileDetails"
     ),
 
+    memberDetailsForm: makeNodeComponent("memberDetailsForm"),
     formMemberEditDetails: makeNodeComponent("formMemberEditDetails"),
     cardMemberLocation: makeNodeComponent("cardMemberLocation"),
     memberLocationGroup: makeNodeComponent("memberLocationGroup"),
-    country: makeNodeComponent("country"),
-    city: makeNodeComponent("city"),
+    countrySelectInput: makeNodeComponent("countrySelectInput"),
+    citySelectInput: makeNodeComponent("citySelectInput"),
     cardMemberIndustry: makeNodeComponent("cardMemberIndustry"),
     memberIndustryGroup: makeNodeComponent("memberIndustryGroup"),
-    industry: makeNodeComponent("industry"),
-    jobTitle: makeNodeComponent("jobTitle"),
+    industrySelectInput: makeNodeComponent("industrySelectInput"),
+    jobTitleInput: makeNodeComponent("jobTitleInput"),
     cardMemberLanguages: makeNodeComponent("cardMemberLanguages"),
     inputGroupMemberLanguages: makeNodeComponent("inputGroupMemberLanguages"),
-    language: makeNodeComponent("language"),
-    selectGroupDropdownPrimary: makeNodeComponent("selectGroupDropdownPrimary"),
+    primaryLanguageSelectInput: makeNodeComponent("primaryLanguageSelectInput"),
+    secondaryLanguageSelectInput: makeNodeComponent(
+      "secondaryLanguageSelectInput"
+    ),
+
     cardMemberInterests: makeNodeComponent("cardMemberInterests"),
     interest: makeNodeComponent("interest"),
     cardMemberSkills: makeNodeComponent("cardMemberSkills"),
     skill: makeNodeComponent("skill"),
     cardMemberCommunity: makeNodeComponent("cardMemberCommunity"),
     community: makeNodeComponent("community"),
-    memberSubmitDetails: makeNodeComponent("memberSubmitDetails"),
+    submitDetailsButton: makeNodeComponent("submitDetailsButton"),
     sectionMemberEditProfileSocial: makeNodeComponent(
       "sectionMemberEditProfileSocial"
     ),
 
+    memberSocialForm: makeNodeComponent("memberSocialForm"),
     formMemberEditSocial: makeNodeComponent("formMemberEditSocial"),
     cardMemberWebsite: makeNodeComponent("cardMemberWebsite"),
-    website: makeNodeComponent("website"),
+    formTextInput: makeNodeComponent("formTextInput"),
     cardMemberSocial: makeNodeComponent("cardMemberSocial"),
-    inputGroupMemberSocial: makeNodeComponent("inputGroupMemberSocial"),
-    memberSubmitSocials: makeNodeComponent("memberSubmitSocials"),
+    socialPlatformsSwitchInputs: makeNodeComponent(
+      "socialPlatformsSwitchInputs"
+    ),
+
+    submitSocialButton: makeNodeComponent("submitSocialButton"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditmember
     internalVariantProps: PlasmicEditmember__VariantProps,
