@@ -19,7 +19,6 @@ function NativeSelectInput_(
   ref
 ) {
   const handleOnChange = (value) => {
-    console.log({ value });
     const selectedObj = (options || []).find(
       (option) => option[uniqueKey] == value
     );

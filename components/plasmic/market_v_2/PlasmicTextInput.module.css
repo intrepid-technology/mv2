@@ -37,7 +37,7 @@
 }
 .startAdornmentWrapper__adornment_start {
   width: auto;
-  height: 100%;
+  height: auto;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   background: #ffffff;
@@ -46,7 +46,6 @@
   align-items: flex-start;
   flex-column-gap: 0px;
   display: inline-flex;
-  min-height: 0;
   padding: 2px 8px;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
@@ -73,7 +72,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 2px;
-  padding: 3px 6px;
+  padding: 8px 10px;
   border-width: 1px;
   border-style: none;
 }
@@ -110,13 +109,12 @@
   justify-content: center;
   align-items: flex-end;
   width: auto;
-  height: 100%;
+  height: auto;
   background: #ffffff;
   display: inline-flex;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   flex-column-gap: 0px;
-  min-height: 0;
   padding: 2px 8px;
 }
 .endAdornmentWrapper__adornment_end_type_secondary {

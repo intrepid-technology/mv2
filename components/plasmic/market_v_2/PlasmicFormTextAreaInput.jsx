@@ -26,7 +26,10 @@ export const PlasmicFormTextAreaInput__VariantProps = new Array(
   "adornment"
 );
 
-export const PlasmicFormTextAreaInput__ArgProps = new Array("name");
+export const PlasmicFormTextAreaInput__ArgProps = new Array(
+  "name",
+  "placeholder"
+);
 
 function PlasmicFormTextAreaInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -82,6 +85,7 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
           )
         })}
         name={args.name}
+        placeholder={args.placeholder}
         type={
           hasVariant(variants, "type", "secondary")
             ? "secondary"

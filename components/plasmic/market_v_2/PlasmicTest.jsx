@@ -19,10 +19,12 @@ import {
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
+import FormConditionalField from "../../FormConditionalField"; // plasmic-import: ZfCDErbD5C/component
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import FormCheckboxInput from "../../FormCheckboxInput"; // plasmic-import: XuFJ5mD6RY/component
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -93,12 +95,24 @@ function PlasmicTest__RenderFunc(props) {
                   name={"textarea"}
                 />
 
-                <FormSelectInput
-                  data-plasmic-name={"formSelectInput"}
-                  data-plasmic-override={overrides.formSelectInput}
-                  className={classNames("__wab_instance", sty.formSelectInput)}
-                  name={"select"}
-                />
+                <FormConditionalField
+                  className={classNames(
+                    "__wab_instance",
+                    sty.formConditionalField__cHaze
+                  )}
+                  name={"text"}
+                  value={"Hide Select"}
+                >
+                  <FormSelectInput
+                    data-plasmic-name={"formSelectInput"}
+                    data-plasmic-override={overrides.formSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.formSelectInput
+                    )}
+                    name={"select"}
+                  />
+                </FormConditionalField>
 
                 <FormCheckboxInput
                   data-plasmic-name={"formCheckboxInput"}
@@ -112,25 +126,55 @@ function PlasmicTest__RenderFunc(props) {
                   {"Sample Checkbox"}
                 </FormCheckboxInput>
 
-                <FormSwitchInput
-                  data-plasmic-name={"formSwitchInput"}
-                  data-plasmic-override={overrides.formSwitchInput}
-                  className={classNames("__wab_instance", sty.formSwitchInput)}
-                  content={
-                    "Please switch me on to verify if its working or not."
-                  }
-                  name={"switch"}
+                <FormConditionalField
+                  className={classNames(
+                    "__wab_instance",
+                    sty.formConditionalField___50PLj
+                  )}
+                  name={"checkbox"}
+                  value={"true"}
+                >
+                  <FormSwitchInput
+                    data-plasmic-name={"formSwitchInput"}
+                    data-plasmic-override={overrides.formSwitchInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.formSwitchInput
+                    )}
+                    content={
+                      "Please switch me on to verify if its working or not."
+                    }
+                    name={"switch"}
+                  />
+                </FormConditionalField>
+
+                <FormMultiCheckboxInput
+                  data-plasmic-name={"formMultiCheckboxInput"}
+                  data-plasmic-override={overrides.formMultiCheckboxInput}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.formMultiCheckboxInput
+                  )}
+                  name={"multi_checkbox"}
                 />
 
-                <ButtonPrimary
+                <Button
                   data-plasmic-name={"submitButton"}
                   data-plasmic-override={overrides.submitButton}
                   className={classNames("__wab_instance", sty.submitButton)}
-                  color={"brand"}
-                  rounded={"rounded"}
                 >
-                  {"Submit"}
-                </ButtonPrimary>
+                  <div
+                    data-plasmic-name={"text"}
+                    data-plasmic-override={overrides.text}
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text
+                    )}
+                  >
+                    {"Submit"}
+                  </div>
+                </Button>
               </p.Stack>
             </div>
           </FormContext>
@@ -149,7 +193,9 @@ const PlasmicDescendants = {
     "formSelectInput",
     "formCheckboxInput",
     "formSwitchInput",
-    "submitButton"
+    "formMultiCheckboxInput",
+    "submitButton",
+    "text"
   ],
 
   formContext: [
@@ -159,7 +205,9 @@ const PlasmicDescendants = {
     "formSelectInput",
     "formCheckboxInput",
     "formSwitchInput",
-    "submitButton"
+    "formMultiCheckboxInput",
+    "submitButton",
+    "text"
   ],
 
   formTextInput: ["formTextInput"],
@@ -167,7 +215,9 @@ const PlasmicDescendants = {
   formSelectInput: ["formSelectInput"],
   formCheckboxInput: ["formCheckboxInput"],
   formSwitchInput: ["formSwitchInput"],
-  submitButton: ["submitButton"]
+  formMultiCheckboxInput: ["formMultiCheckboxInput"],
+  submitButton: ["submitButton", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -207,7 +257,9 @@ export const PlasmicTest = Object.assign(
     formSelectInput: makeNodeComponent("formSelectInput"),
     formCheckboxInput: makeNodeComponent("formCheckboxInput"),
     formSwitchInput: makeNodeComponent("formSwitchInput"),
+    formMultiCheckboxInput: makeNodeComponent("formMultiCheckboxInput"),
     submitButton: makeNodeComponent("submitButton"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicTest
     internalVariantProps: PlasmicTest__VariantProps,
     internalArgProps: PlasmicTest__ArgProps

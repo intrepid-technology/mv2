@@ -9,13 +9,7 @@ function FormContext_(props, ref) {
     defaultValues: props.defaultValues,
     shouldUnregister: props.shouldUnregister,
   });
-  const { handleSubmit, watch } = formMethods;
-  const formData = watch();
-  console.log({ formData });
-
-  React.useEffect(() => {
-    props.subscribeToFormValues && props.subscribeToFormValues(formData);
-  }, [formData]);
+  const { handleSubmit } = formMethods;
 
   return (
     <FormProvider {...formMethods}>

@@ -9,7 +9,9 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: VSW4TWeqMx
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -23,10 +25,16 @@ import * as sty from "./PlasmicFormSelectInput.module.css"; // plasmic-import: V
 export const PlasmicFormSelectInput__VariantProps = new Array(
   "type",
   "isOpen",
-  "isDisabled"
+  "isDisabled",
+  "hideLabel"
 );
 
-export const PlasmicFormSelectInput__ArgProps = new Array("name", "value");
+export const PlasmicFormSelectInput__ArgProps = new Array(
+  "name",
+  "value",
+  "placeholder",
+  "label"
+);
 
 function PlasmicFormSelectInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -41,7 +49,32 @@ function PlasmicFormSelectInput__RenderFunc(props) {
       <NativeSelectInput
         data-plasmic-name={"nativeSelectInput"}
         data-plasmic-override={overrides.nativeSelectInput}
-        className={classNames("__wab_instance", sty.nativeSelectInput)}
+        className={classNames("__wab_instance", sty.nativeSelectInput, {
+          [sty.nativeSelectInput__hideLabel]: hasVariant(
+            variants,
+            "hideLabel",
+            "hideLabel"
+          ),
+
+          [sty.nativeSelectInput__type_primary]: hasVariant(
+            variants,
+            "type",
+            "primary"
+          )
+        })}
+        hideLabel={
+          hasVariant(variants, "hideLabel", "hideLabel")
+            ? "hideLabel"
+            : undefined
+        }
+        label={p.renderPlasmicSlot({
+          defaultContents: "Field Label",
+          value: args.label
+        })}
+        placeholder={p.renderPlasmicSlot({
+          defaultContents: "Select...",
+          value: args.placeholder
+        })}
       />
     </div>
   );

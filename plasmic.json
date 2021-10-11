@@ -4015,6 +4015,58 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicNativeSelectInput.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "ftJnovScMuV",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZfCDErbD5C",
+          "name": "FormConditionalField",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicFormConditionalField.jsx",
+          "importSpec": {
+            "modulePath": "FormConditionalField.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicFormConditionalField.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-o3gl0nF6j",
+          "name": "FormMultiCheckboxInput",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicFormMultiCheckboxInput.jsx",
+          "importSpec": {
+            "modulePath": "FormMultiCheckboxInput.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicFormMultiCheckboxInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6TMzn6NJGN",
+          "name": "MultiCheckboxInput",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMultiCheckboxInput.jsx",
+          "importSpec": {
+            "modulePath": "MultiCheckboxInput.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMultiCheckboxInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

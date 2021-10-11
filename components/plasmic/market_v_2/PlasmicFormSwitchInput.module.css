@@ -5,6 +5,7 @@
   width: 100%;
   height: auto;
   min-width: 0;
+  padding: 8px 10px;
 }
 .switchInput:global(.__wab_instance) {
   position: relative;

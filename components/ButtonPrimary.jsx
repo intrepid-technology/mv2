@@ -18,7 +18,7 @@ function ButtonPrimary_(props, ref) {
 
   return (
     <PlasmicButtonPrimary
-      buttonPrimary={{ ref }}
+      root={{ ref }}
       {...props}
       onClick={(e) => handleOnClick(e)}
     />

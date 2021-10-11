@@ -23,7 +23,7 @@ import AlertCard from "../../AlertCard"; // plasmic-import: Kd4Jtco7N_/component
 import Typography from "../../Typography"; // plasmic-import: DWcJDlqh2G/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
-import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
+import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -104,7 +104,7 @@ function PlasmicLandingPage__RenderFunc(props) {
                     sty.text__zI2E
                   )}
                 >
-                  {"Sign up for before November 10th."}
+                  {"Sign up for before November 18th."}
                 </div>
               }
             />
@@ -130,10 +130,9 @@ function PlasmicLandingPage__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.titleWrapper)}
               >
                 <Typography
-                  className={classNames(
-                    "__wab_instance",
-                    sty.typography__qnCzn
-                  )}
+                  data-plasmic-name={"typography"}
+                  data-plasmic-override={overrides.typography}
+                  className={classNames("__wab_instance", sty.typography)}
                   kind={"hero"}
                 >
                   <div
@@ -143,47 +142,9 @@ function PlasmicLandingPage__RenderFunc(props) {
                       sty.text__fkIam
                     )}
                   >
-                    {"Discover and buy"}
-                  </div>
-                </Typography>
-
-                <Typography
-                  className={classNames(
-                    "__wab_instance",
-                    sty.typography__nFbga
-                  )}
-                  kind={"hero"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__opx7I
-                    )}
-                  >
                     {hasVariant(globalVariants, "screen", "iphone678")
-                      ? "technology & creative services"
-                      : "technology & creative services"}
-                  </div>
-                </Typography>
-
-                <Typography
-                  className={classNames(
-                    "__wab_instance",
-                    sty.typography__m8YEn
-                  )}
-                  kind={"hero"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text___0Fr1D
-                    )}
-                  >
-                    {hasVariant(globalVariants, "screen", "iphone678")
-                      ? "from around the world - on demand"
-                      : "from around the world - on demand"}
+                      ? "Discover and buy technology & creative services - on demand"
+                      : "Discover and buy\ntechnology & creative\nservices - on demand"}
                   </div>
                 </Typography>
               </div>
@@ -229,7 +190,7 @@ function PlasmicLandingPage__RenderFunc(props) {
                       {hasVariant(globalVariants, "screen", "iphone678")
                         ? " come to find the services"
                         : hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? " come to find the"
+                        ? " come to find the services"
                         : " come to find "}
                     </div>
                   </div>
@@ -253,7 +214,7 @@ function PlasmicLandingPage__RenderFunc(props) {
                               "screen",
                               "iphone678Plus"
                             )
-                          ? "services they need to grow - all in one place"
+                          ? "they need to grow - all in one place"
                           : "the services they need to grow - all in one place"}
                       </div>
                     ) : null}
@@ -274,7 +235,9 @@ function PlasmicLandingPage__RenderFunc(props) {
                 data-plasmic-override={overrides.buyServicesButton}
                 className={classNames("__wab_instance", sty.buyServicesButton)}
                 color={"brand"}
-                destination={"/member/pricing"}
+                destination={
+                  "https://intrepidventures.typeform.com/to/MthpVWrA"
+                }
                 hasShadow={"hasShadow"}
                 rounded={"rounded"}
                 type={"primary"}
@@ -295,7 +258,9 @@ function PlasmicLandingPage__RenderFunc(props) {
                 data-plasmic-override={overrides.sellServicesButton}
                 className={classNames("__wab_instance", sty.sellServicesButton)}
                 color={"brand"}
-                destination={"/partner/pricing"}
+                destination={
+                  "https://intrepidventures.typeform.com/to/qoNxle4D"
+                }
                 rounded={"rounded"}
                 type={"light"}
               >
@@ -343,6 +308,8 @@ function PlasmicLandingPage__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
+                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    ? "vertical"
                     : undefined
                 }
               />
@@ -371,6 +338,8 @@ function PlasmicLandingPage__RenderFunc(props) {
                 }
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
+                    ? "vertical"
+                    : hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "vertical"
                     : undefined
                 }
@@ -403,6 +372,8 @@ function PlasmicLandingPage__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
+                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    ? "vertical"
                     : undefined
                 }
               />
@@ -432,16 +403,18 @@ function PlasmicLandingPage__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
+                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    ? "vertical"
                     : undefined
                 }
               />
             </p.Stack>
           </p.Stack>
 
-          <Footer
-            data-plasmic-name={"footer"}
-            data-plasmic-override={overrides.footer}
-            className={classNames("__wab_instance", sty.footer)}
+          <FooterB
+            data-plasmic-name={"footerB"}
+            data-plasmic-override={overrides.footerB}
+            className={classNames("__wab_instance", sty.footerB)}
           />
         </div>
       </div>
@@ -459,12 +432,13 @@ const PlasmicDescendants = {
     "contentWrapper",
     "heroWrapper",
     "titleWrapper",
+    "typography",
     "subTitleWrapper",
     "actionsWrapper",
     "buyServicesButton",
     "sellServicesButton",
     "descriptionPoints",
-    "footer"
+    "footerB"
   ],
 
   header: ["header", "navbarLogo"],
@@ -475,6 +449,7 @@ const PlasmicDescendants = {
     "contentWrapper",
     "heroWrapper",
     "titleWrapper",
+    "typography",
     "subTitleWrapper",
     "actionsWrapper",
     "buyServicesButton",
@@ -482,14 +457,15 @@ const PlasmicDescendants = {
     "descriptionPoints"
   ],
 
-  heroWrapper: ["heroWrapper", "titleWrapper", "subTitleWrapper"],
-  titleWrapper: ["titleWrapper"],
+  heroWrapper: ["heroWrapper", "titleWrapper", "typography", "subTitleWrapper"],
+  titleWrapper: ["titleWrapper", "typography"],
+  typography: ["typography"],
   subTitleWrapper: ["subTitleWrapper"],
   actionsWrapper: ["actionsWrapper", "buyServicesButton", "sellServicesButton"],
   buyServicesButton: ["buyServicesButton"],
   sellServicesButton: ["sellServicesButton"],
   descriptionPoints: ["descriptionPoints"],
-  footer: ["footer"]
+  footerB: ["footerB"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -530,12 +506,13 @@ export const PlasmicLandingPage = Object.assign(
     contentWrapper: makeNodeComponent("contentWrapper"),
     heroWrapper: makeNodeComponent("heroWrapper"),
     titleWrapper: makeNodeComponent("titleWrapper"),
+    typography: makeNodeComponent("typography"),
     subTitleWrapper: makeNodeComponent("subTitleWrapper"),
     actionsWrapper: makeNodeComponent("actionsWrapper"),
     buyServicesButton: makeNodeComponent("buyServicesButton"),
     sellServicesButton: makeNodeComponent("sellServicesButton"),
     descriptionPoints: makeNodeComponent("descriptionPoints"),
-    footer: makeNodeComponent("footer"),
+    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLandingPage
     internalVariantProps: PlasmicLandingPage__VariantProps,
     internalArgProps: PlasmicLandingPage__ArgProps

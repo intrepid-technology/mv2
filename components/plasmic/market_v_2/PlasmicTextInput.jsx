@@ -26,7 +26,8 @@ export const PlasmicTextInput__VariantProps = new Array("type", "adornment");
 export const PlasmicTextInput__ArgProps = new Array(
   "startAdornment",
   "endAdornment",
-  "name"
+  "name",
+  "placeholder"
 );
 
 function PlasmicTextInput__RenderFunc(props) {
@@ -128,7 +129,7 @@ function PlasmicTextInput__RenderFunc(props) {
                 "secondary"
               )
             })}
-            placeholder={"Enter text"}
+            placeholder={args.placeholder}
             size={1}
             type={"text"}
             value={""}

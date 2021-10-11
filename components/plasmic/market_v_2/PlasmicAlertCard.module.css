@@ -4,11 +4,11 @@
   width: 100%;
   height: auto;
   position: relative;
-  background: #fafafa;
+  background: #f8f8ff;
   min-width: 0;
   border-radius: 8px;
   padding: 8px;
-  border: 2px solid #cccccc /* plasmic-token: oEMOojyFv */;
+  border: 2px solid #6633ff /* plasmic-token: brleuPgaD */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;

@@ -8,28 +8,18 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  margin-top: calc(0px - 8px);
-  height: calc(100% + 8px);
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
-  margin-top: 8px;
+  margin-top: 16px;
 }
-.labelWrapper {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
-}
-.selectInput:global(.__wab_instance) {
+.checkboxInput__pUnr:global(.__wab_instance) {
   position: relative;
 }
-.option___0JHw9:global(.__wab_instance) {
-  position: relative;
-}
-.option__oIuia:global(.__wab_instance) {
+.checkboxInput__hiYok:global(.__wab_instance) {
   position: relative;
 }

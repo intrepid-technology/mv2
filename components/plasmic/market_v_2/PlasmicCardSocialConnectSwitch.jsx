@@ -83,6 +83,12 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
                 "xero"
               ),
 
+              [sty.iconSocialProfile__connected]: hasVariant(
+                variants,
+                "connected",
+                "connected"
+              ),
+
               [sty.iconSocialProfile__socialNetwork_angellist]: hasVariant(
                 variants,
                 "socialNetwork",
@@ -219,6 +225,12 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
                 variants,
                 "socialNetwork",
                 "youtube"
+              ),
+
+              [sty.iconSocialProfile__width__540]: hasVariant(
+                variants,
+                "width",
+                "_540"
               )
             })}
             size={"_45X45"}

@@ -29,7 +29,8 @@ export const PlasmicTextAreaInput__VariantProps = new Array(
 export const PlasmicTextAreaInput__ArgProps = new Array(
   "startAdornment",
   "endAdornment",
-  "name"
+  "name",
+  "placeholder"
 );
 
 function PlasmicTextAreaInput__RenderFunc(props) {
@@ -122,7 +123,8 @@ function PlasmicTextAreaInput__RenderFunc(props) {
                 "secondary"
               )
             })}
-            value={"This is a text area."}
+            placeholder={args.placeholder}
+            value={""}
           />
         </div>
 

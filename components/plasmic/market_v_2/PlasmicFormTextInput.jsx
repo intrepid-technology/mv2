@@ -9,6 +9,7 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: egzqjpKDP_e
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -26,7 +27,12 @@ export const PlasmicFormTextInput__VariantProps = new Array(
   "adornment"
 );
 
-export const PlasmicFormTextInput__ArgProps = new Array("name");
+export const PlasmicFormTextInput__ArgProps = new Array(
+  "name",
+  "placeholder",
+  "startAdornment",
+  "endAdornment"
+);
 
 function PlasmicFormTextInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -83,7 +89,16 @@ function PlasmicFormTextInput__RenderFunc(props) {
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "adornment", "start")
         })}
+        endAdornment={p.renderPlasmicSlot({
+          defaultContents: "Text",
+          value: args.endAdornment
+        })}
         name={args.name}
+        placeholder={args.placeholder}
+        startAdornment={p.renderPlasmicSlot({
+          defaultContents: "Text",
+          value: args.startAdornment
+        })}
         type={
           hasVariant(variants, "type", "secondary")
             ? "secondary"

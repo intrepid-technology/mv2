@@ -9,7 +9,9 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: 6rjTfqGTn_
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -20,31 +22,60 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNativeSelectInput.module.css"; // plasmic-import: 6rjTfqGTn_/css
 
-export const PlasmicNativeSelectInput__VariantProps = new Array();
+export const PlasmicNativeSelectInput__VariantProps = new Array("hideLabel");
 
-export const PlasmicNativeSelectInput__ArgProps = new Array();
+export const PlasmicNativeSelectInput__ArgProps = new Array(
+  "placeholder",
+  "label"
+);
 
 function PlasmicNativeSelectInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
+      {(hasVariant(variants, "hideLabel", "hideLabel") ? false : true) ? (
+        <div
+          data-plasmic-name={"labelWrapper"}
+          data-plasmic-override={overrides.labelWrapper}
+          className={classNames(defaultcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__hideLabel]: hasVariant(
+              variants,
+              "hideLabel",
+              "hideLabel"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Field Label",
+            value: args.label
+          })}
+        </div>
+      ) : null}
+
       <SelectInput
         data-plasmic-name={"selectInput"}
         data-plasmic-override={overrides.selectInput}
         className={classNames("__wab_instance", sty.selectInput)}
+        placeholder={p.renderPlasmicSlot({
+          defaultContents: "Select...",
+          value: args.placeholder
+        })}
       />
-    </div>
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "selectInput"],
+  root: ["root", "labelWrapper", "selectInput"],
+  labelWrapper: ["labelWrapper"],
   selectInput: ["selectInput"]
 };
 
@@ -79,6 +110,7 @@ export const PlasmicNativeSelectInput = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    labelWrapper: makeNodeComponent("labelWrapper"),
     selectInput: makeNodeComponent("selectInput"),
     // Metadata about props expected for PlasmicNativeSelectInput
     internalVariantProps: PlasmicNativeSelectInput__VariantProps,

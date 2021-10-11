@@ -56,24 +56,29 @@
 .formTextAreaInput:global(.__wab_instance) {
   position: relative;
 }
+.formConditionalField__cHaze:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
 .formSelectInput:global(.__wab_instance) {
   position: relative;
 }
 .formCheckboxInput:global(.__wab_instance) {
   position: relative;
 }
+.formConditionalField___50PLj:global(.__wab_instance) {
+  position: relative;
+}
 .formSwitchInput:global(.__wab_instance) {
+  position: relative;
+}
+.formMultiCheckboxInput:global(.__wab_instance) {
   position: relative;
 }
 .submitButton:global(.__wab_instance) {
   position: relative;
-  flex-shrink: 0;
 }
-.svg__np5Zx {
-  width: 100%;
-  height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
-  object-fit: cover;
-  min-width: 0;
-  min-height: 0;
+.text {
+  height: auto;
 }

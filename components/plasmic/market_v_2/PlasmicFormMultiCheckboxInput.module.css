@@ -17,19 +17,6 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
 }
-.labelWrapper {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
-}
-.selectInput:global(.__wab_instance) {
-  position: relative;
-}
-.option___0JHw9:global(.__wab_instance) {
-  position: relative;
-}
-.option__oIuia:global(.__wab_instance) {
+.multiCheckboxInput:global(.__wab_instance) {
   position: relative;
 }

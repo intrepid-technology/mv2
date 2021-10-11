@@ -8,4 +8,6 @@
 }
 .nativeSelectInput:global(.__wab_instance) {
   position: relative;
+  width: 100%;
+  min-width: 0;
 }
