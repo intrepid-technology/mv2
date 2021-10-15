@@ -29,6 +29,20 @@ function Test() {
           { id: 4, label: "Grapes" },
         ],
       }}
+      formMultiSelectInput={{
+        options: [
+          {id: 1, label: 'Neptunium',},
+          {id: 2, label: 'Plutonium',},
+          {id: 3, label: 'Americium',},
+          {id: 4, label: 'Curium',},
+          {id: 5, label: 'Berkelium',},
+          {id: 6, label: 'Californium',},
+          {id: 7, label: 'Einsteinium',},
+          {id: 8, label: 'Fermium',},
+          {id: 9, label: 'Mendelevium',},
+          {id: 10, label: 'Nobelium',}
+        ]
+      }}
     />
   );
 }

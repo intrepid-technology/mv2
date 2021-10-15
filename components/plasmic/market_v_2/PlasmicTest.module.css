@@ -76,6 +76,9 @@
 .formMultiCheckboxInput:global(.__wab_instance) {
   position: relative;
 }
+.formMultiSelectInput:global(.__wab_instance) {
+  position: relative;
+}
 .submitButton:global(.__wab_instance) {
   position: relative;
 }

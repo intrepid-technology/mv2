@@ -24,6 +24,7 @@ import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeq
 import FormCheckboxInput from "../../FormCheckboxInput"; // plasmic-import: XuFJ5mD6RY/component
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
+import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -158,6 +159,16 @@ function PlasmicTest__RenderFunc(props) {
                   name={"multi_checkbox"}
                 />
 
+                <FormMultiSelectInput
+                  data-plasmic-name={"formMultiSelectInput"}
+                  data-plasmic-override={overrides.formMultiSelectInput}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.formMultiSelectInput
+                  )}
+                  name={"multiSelect"}
+                />
+
                 <Button
                   data-plasmic-name={"submitButton"}
                   data-plasmic-override={overrides.submitButton}
@@ -194,6 +205,7 @@ const PlasmicDescendants = {
     "formCheckboxInput",
     "formSwitchInput",
     "formMultiCheckboxInput",
+    "formMultiSelectInput",
     "submitButton",
     "text"
   ],
@@ -206,6 +218,7 @@ const PlasmicDescendants = {
     "formCheckboxInput",
     "formSwitchInput",
     "formMultiCheckboxInput",
+    "formMultiSelectInput",
     "submitButton",
     "text"
   ],
@@ -216,6 +229,7 @@ const PlasmicDescendants = {
   formCheckboxInput: ["formCheckboxInput"],
   formSwitchInput: ["formSwitchInput"],
   formMultiCheckboxInput: ["formMultiCheckboxInput"],
+  formMultiSelectInput: ["formMultiSelectInput"],
   submitButton: ["submitButton", "text"],
   text: ["text"]
 };
@@ -258,6 +272,7 @@ export const PlasmicTest = Object.assign(
     formCheckboxInput: makeNodeComponent("formCheckboxInput"),
     formSwitchInput: makeNodeComponent("formSwitchInput"),
     formMultiCheckboxInput: makeNodeComponent("formMultiCheckboxInput"),
+    formMultiSelectInput: makeNodeComponent("formMultiSelectInput"),
     submitButton: makeNodeComponent("submitButton"),
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicTest

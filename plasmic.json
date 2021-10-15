@@ -4080,6 +4080,58 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicSocialPlatformsSwitchInputs.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "hjWInH_vco",
+          "name": "MultiSelectInput",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMultiSelectInput.jsx",
+          "importSpec": {
+            "modulePath": "MultiSelectInput.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMultiSelectInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "N3H3P-QIg1",
+          "name": "MultiSelectInputBox",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMultiSelectInputBox.jsx",
+          "importSpec": {
+            "modulePath": "MultiSelectInputBox.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMultiSelectInputBox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i_xE2f64UA",
+          "name": "MultiSelectOption",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMultiSelectOption.jsx",
+          "importSpec": {
+            "modulePath": "MultiSelectOption.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMultiSelectOption.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eTIpxqMjYo",
+          "name": "FormMultiSelectInput",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicFormMultiSelectInput.jsx",
+          "importSpec": {
+            "modulePath": "FormMultiSelectInput.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicFormMultiSelectInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 8px;
+}
+.root__isHighlighted {
+  background: #f8f8f8;
+}
+.root__isDisabled {
+  cursor: not-allowed;
+}
+.slotTargetChildren__isSelected {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  font-weight: 600;
+}
+.slotTargetChildren__isDisabled {
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+}

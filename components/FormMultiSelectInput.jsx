@@ -2,9 +2,19 @@ import * as React from "react";
 
 import { Controller, useFormContext } from "react-hook-form";
 
-import { PlasmicFormMultiCheckboxInput } from "./plasmic/market_v_2/PlasmicFormMultiCheckboxInput";
+import { PlasmicFormMultiSelectInput } from "./plasmic/market_v_2/PlasmicFormMultiSelectInput";
 
-function FormMultiCheckboxInput_({name, options, uniqueKey = 'id', displayKey = 'label', ...props}, ref) {
+function FormMultiSelectInput_({
+  name,
+  value,
+  options,
+  displayKey = "label",
+  displayFunc,
+  uniqueKey = "id",
+  setSelectedItem,
+  parser,
+  ...props
+}, ref) {
   const { control } = useFormContext()
 
   return (
@@ -14,10 +24,10 @@ function FormMultiCheckboxInput_({name, options, uniqueKey = 'id', displayKey = 
       defaultValue={[]}
       render={
         ({field: { value, onChange }}) =>
-          <PlasmicFormMultiCheckboxInput
+          <PlasmicFormMultiSelectInput
             root={{ ref }}
             {...props}
-            multiCheckboxInput={{
+            multiSelectInput={{
               value,
               onChange,
               options,
@@ -28,9 +38,8 @@ function FormMultiCheckboxInput_({name, options, uniqueKey = 'id', displayKey = 
       }
     />
   );
-
 }
 
-const FormMultiCheckboxInput = React.forwardRef(FormMultiCheckboxInput_);
+const FormMultiSelectInput = React.forwardRef(FormMultiSelectInput_);
 
-export default FormMultiCheckboxInput;
+export default FormMultiSelectInput;
