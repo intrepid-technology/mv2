@@ -979,11 +979,6 @@
   left: auto;
   top: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__oQxWr:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
 .text___1RPqE {
   display: block;
   font-size: 32px;
@@ -1008,11 +1003,6 @@
 .accordion__vr6Rn:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__vr6Rn:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }
 .text__qz6Jr {
   font-family: "Inter", sans-serif;
@@ -1100,11 +1090,6 @@
 .accordion__gH068:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__gH068:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }
 .text__pnud8 {
   font-family: "Inter", sans-serif;
@@ -1317,11 +1302,6 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__aijA:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
 .text__wMb {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -1412,11 +1392,6 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__cHnL:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
 .text__mG8P {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -1506,11 +1481,6 @@
 .accordion__rHzZp:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__rHzZp:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }
 .text__oi7S0 {
   font-family: "Inter", sans-serif;
@@ -1703,11 +1673,6 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__aOnLc:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
 .text__cH8Eb {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -1899,11 +1864,6 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__dwCtl:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
 .text__ucMu5 {
   font-family: "Inter", sans-serif;
   font-size: 32px;
@@ -2021,11 +1981,6 @@
   left: auto;
   width: 100%;
   min-width: 0;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .accordion__fUsZa:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }
 .text__prl3O {
   font-family: "Inter", sans-serif;

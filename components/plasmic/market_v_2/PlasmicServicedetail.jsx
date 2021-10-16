@@ -384,7 +384,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     isOpen={"isOpen"}
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -482,7 +482,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -598,7 +598,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -673,7 +673,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -748,7 +748,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -948,7 +948,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -1148,7 +1148,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -1235,7 +1235,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >
@@ -1322,7 +1322,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     size={
                       hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? "_360"
+                        ? "small"
                         : undefined
                     }
                   >

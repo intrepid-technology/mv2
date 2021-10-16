@@ -17,9 +17,8 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
-import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -33,7 +32,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <p.Stack
-      as={"form"}
+      as={"div"}
       data-plasmic-name={"formLogin"}
       data-plasmic-override={overrides.formLogin}
       data-plasmic-root={true}
@@ -130,14 +129,13 @@ function PlasmicCardLogIn__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.buttonContinueParent)}
       >
-        <ButtonPrimary
-          data-plasmic-name={"loginContinueButton"}
-          data-plasmic-override={overrides.loginContinueButton}
-          className={classNames("__wab_instance", sty.loginContinueButton)}
-          size={"_360"}
+        <Button
+          data-plasmic-name={"continueButton"}
+          data-plasmic-override={overrides.continueButton}
+          className={classNames("__wab_instance", sty.continueButton)}
         >
           {"Continue"}
-        </ButtonPrimary>
+        </Button>
 
         <p.Stack
           as={"div"}
@@ -235,27 +233,15 @@ function PlasmicCardLogIn__RenderFunc(props) {
         {"Don't have an account?"}
       </div>
 
-      <ButtonLinkPrimary
-        data-plasmic-name={"buttonLinkPrimary"}
-        data-plasmic-override={overrides.buttonLinkPrimary}
-        className={classNames("__wab_instance", sty.buttonLinkPrimary)}
-        color={"light"}
+      <Button
+        data-plasmic-name={"button"}
+        data-plasmic-override={overrides.button}
+        className={classNames("__wab_instance", sty.button)}
         destination={"/sign-up"}
-        height={"_48"}
-        text={
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.text___7NKpK
-            )}
-          >
-            {"Sign up"}
-          </div>
-        }
         type={"outline"}
-        width={"_360"}
-      />
+      >
+        {"Sign Up"}
+      </Button>
     </p.Stack>
   );
 }
@@ -270,13 +256,13 @@ const PlasmicDescendants = {
     "passwordLabel",
     "password",
     "buttonContinueParent",
-    "loginContinueButton",
+    "continueButton",
     "recoveryLinkParent",
     "resetPassword",
     "loginFacebookConnect",
     "loginGoogleConnect",
     "signupSubhead",
-    "buttonLinkPrimary"
+    "button"
   ],
 
   inputLabelParent: ["inputLabelParent", "emailLabel", "email"],
@@ -292,18 +278,18 @@ const PlasmicDescendants = {
   password: ["password"],
   buttonContinueParent: [
     "buttonContinueParent",
-    "loginContinueButton",
+    "continueButton",
     "recoveryLinkParent",
     "resetPassword"
   ],
 
-  loginContinueButton: ["loginContinueButton"],
+  continueButton: ["continueButton"],
   recoveryLinkParent: ["recoveryLinkParent", "resetPassword"],
   resetPassword: ["resetPassword"],
   loginFacebookConnect: ["loginFacebookConnect"],
   loginGoogleConnect: ["loginGoogleConnect"],
   signupSubhead: ["signupSubhead"],
-  buttonLinkPrimary: ["buttonLinkPrimary"]
+  button: ["button"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -344,13 +330,13 @@ export const PlasmicCardLogIn = Object.assign(
     passwordLabel: makeNodeComponent("passwordLabel"),
     password: makeNodeComponent("password"),
     buttonContinueParent: makeNodeComponent("buttonContinueParent"),
-    loginContinueButton: makeNodeComponent("loginContinueButton"),
+    continueButton: makeNodeComponent("continueButton"),
     recoveryLinkParent: makeNodeComponent("recoveryLinkParent"),
     resetPassword: makeNodeComponent("resetPassword"),
     loginFacebookConnect: makeNodeComponent("loginFacebookConnect"),
     loginGoogleConnect: makeNodeComponent("loginGoogleConnect"),
     signupSubhead: makeNodeComponent("signupSubhead"),
-    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
+    button: makeNodeComponent("button"),
     // Metadata about props expected for PlasmicCardLogIn
     internalVariantProps: PlasmicCardLogIn__VariantProps,
     internalArgProps: PlasmicCardLogIn__ArgProps

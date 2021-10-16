@@ -35,13 +35,18 @@ function PlasmicAccordion__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
+        [sty.root__size_small]: hasVariant(variants, "size", "small"),
+        [sty.root__size_small_isOpen]:
+          hasVariant(variants, "size", "small") &&
+          hasVariant(variants, "isOpen", "isOpen")
       })}
     >
       <div
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
-        className={classNames(defaultcss.all, sty.header)}
+        className={classNames(defaultcss.all, sty.header, {
+          [sty.header__size_small]: hasVariant(variants, "size", "small")
+        })}
       >
         <div
           data-plasmic-name={"headerContentWrapper"}
@@ -52,10 +57,10 @@ function PlasmicAccordion__RenderFunc(props) {
             defaultContents: "Accordion",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__size__360]: hasVariant(
+              [sty.slotTargetChildren__size_small]: hasVariant(
                 variants,
                 "size",
-                "_360"
+                "small"
               )
             })
           })}
@@ -70,10 +75,10 @@ function PlasmicAccordion__RenderFunc(props) {
             data-plasmic-name={"collapseIcon"}
             data-plasmic-override={overrides.collapseIcon}
             className={classNames(defaultcss.all, sty.collapseIcon, {
-              [sty.collapseIcon__size__360]: hasVariant(
+              [sty.collapseIcon__size_small]: hasVariant(
                 variants,
                 "size",
-                "_360"
+                "small"
               )
             })}
             role={"img"}
@@ -86,7 +91,10 @@ function PlasmicAccordion__RenderFunc(props) {
           data-plasmic-name={"body"}
           data-plasmic-override={overrides.body}
           className={classNames(defaultcss.all, sty.body, {
-            [sty.body__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+            [sty.body__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+            [sty.body__size_small_isOpen]:
+              hasVariant(variants, "size", "small") &&
+              hasVariant(variants, "isOpen", "isOpen")
           })}
         >
           {p.renderPlasmicSlot({

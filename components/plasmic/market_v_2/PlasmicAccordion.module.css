@@ -5,10 +5,6 @@
   width: 100%;
   min-width: 0;
 }
-.root__size__360 {
-  width: 360px;
-  height: 45px;
-}
 .header {
   display: flex;
   position: relative;
@@ -40,7 +36,7 @@
   line-height: 1.2;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetChildren__size__360 {
+.slotTargetChildren__size_small {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -75,7 +71,7 @@
   min-height: 0;
   border-radius: 100%;
 }
-.collapseIcon__size__360 {
+.collapseIcon__size_small {
   width: 18px;
   height: 18px;
   flex-shrink: 0;

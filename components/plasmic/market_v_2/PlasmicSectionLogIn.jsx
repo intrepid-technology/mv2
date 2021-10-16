@@ -64,7 +64,7 @@ function PlasmicSectionLogIn__RenderFunc(props) {
             data-plasmic-override={overrides.svgLinkDiv}
             className={classNames(defaultcss.a, sty.svgLinkDiv)}
             component={Link}
-            href={"/home"}
+            href={"/"}
             platform={"nextjs"}
           >
             <Icon43Icon
