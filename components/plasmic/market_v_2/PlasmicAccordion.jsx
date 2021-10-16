@@ -22,9 +22,9 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicAccordion.module.css"; // plasmic-import: azR0jnXzDL/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
-export const PlasmicAccordion__VariantProps = new Array("size");
+export const PlasmicAccordion__VariantProps = new Array("size", "isOpen");
 
-export const PlasmicAccordion__ArgProps = new Array("children");
+export const PlasmicAccordion__ArgProps = new Array("children", "content");
 
 function PlasmicAccordion__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -38,43 +38,88 @@ function PlasmicAccordion__RenderFunc(props) {
         [sty.root__size__360]: hasVariant(variants, "size", "_360")
       })}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__sBh8I)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__hHnLy)}>
-          <div className={classNames(defaultcss.all, sty.freeBox___8Z3Kv)}>
-            {p.renderPlasmicSlot({
-              defaultContents: "Accordion",
-              value: args.children,
-              className: classNames(sty.slotTargetChildren, {
-                [sty.slotTargetChildren__size__360]: hasVariant(
-                  variants,
-                  "size",
-                  "_360"
-                )
-              })
-            })}
-          </div>
+      <div
+        data-plasmic-name={"header"}
+        data-plasmic-override={overrides.header}
+        className={classNames(defaultcss.all, sty.header)}
+      >
+        <div
+          data-plasmic-name={"headerContentWrapper"}
+          data-plasmic-override={overrides.headerContentWrapper}
+          className={classNames(defaultcss.all, sty.headerContentWrapper)}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Accordion",
+            value: args.children,
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
+            })
+          })}
         </div>
-      </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__mHsMa)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__lw9Pw)}>
+        <div
+          data-plasmic-name={"collapseIconWrapper"}
+          data-plasmic-override={overrides.collapseIconWrapper}
+          className={classNames(defaultcss.all, sty.collapseIconWrapper)}
+        >
           <PlusBoldIcon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg, {
-              [sty.svg__size__360]: hasVariant(variants, "size", "_360")
+            data-plasmic-name={"collapseIcon"}
+            data-plasmic-override={overrides.collapseIcon}
+            className={classNames(defaultcss.all, sty.collapseIcon, {
+              [sty.collapseIcon__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
             })}
             role={"img"}
           />
         </div>
       </div>
+
+      {(hasVariant(variants, "isOpen", "isOpen") ? true : false) ? (
+        <div
+          data-plasmic-name={"body"}
+          data-plasmic-override={overrides.body}
+          className={classNames(defaultcss.all, sty.body, {
+            [sty.body__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Enter some text",
+            value: args.content
+          })}
+        </div>
+      ) : null}
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "svg"],
-  svg: ["svg"]
+  root: [
+    "root",
+    "header",
+    "headerContentWrapper",
+    "collapseIconWrapper",
+    "collapseIcon",
+    "body"
+  ],
+
+  header: [
+    "header",
+    "headerContentWrapper",
+    "collapseIconWrapper",
+    "collapseIcon"
+  ],
+
+  headerContentWrapper: ["headerContentWrapper"],
+  collapseIconWrapper: ["collapseIconWrapper", "collapseIcon"],
+  collapseIcon: ["collapseIcon"],
+  body: ["body"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -108,7 +153,11 @@ export const PlasmicAccordion = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    svg: makeNodeComponent("svg"),
+    header: makeNodeComponent("header"),
+    headerContentWrapper: makeNodeComponent("headerContentWrapper"),
+    collapseIconWrapper: makeNodeComponent("collapseIconWrapper"),
+    collapseIcon: makeNodeComponent("collapseIcon"),
+    body: makeNodeComponent("body"),
     // Metadata about props expected for PlasmicAccordion
     internalVariantProps: PlasmicAccordion__VariantProps,
     internalArgProps: PlasmicAccordion__ArgProps
