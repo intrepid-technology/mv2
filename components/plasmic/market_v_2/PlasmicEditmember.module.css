@@ -1068,17 +1068,8 @@
   height: auto;
   max-width: 328px;
 }
-.interest:global(.__wab_instance) {
+.interestsMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
-  align-self: flex-start;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .interest:global(.__wab_instance) {
-    width: 100%;
-    min-width: 0;
-  }
 }
 .cardMemberSkills {
   display: flex;
@@ -1117,11 +1108,8 @@
   height: auto;
   max-width: 328px;
 }
-.skill:global(.__wab_instance) {
+.skillsMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
-  align-self: flex-start;
 }
 .cardMemberCommunity {
   display: flex;
@@ -1163,11 +1151,8 @@
   height: auto;
   max-width: 328px;
 }
-.community:global(.__wab_instance) {
+.communityMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
-  align-self: flex-start;
 }
 .submitDetailsButton:global(.__wab_instance) {
   position: relative;

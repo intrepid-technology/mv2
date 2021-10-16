@@ -134,6 +134,7 @@
   border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .chipDisplay:hover {
+  background: #ffffff;
   border-color: #333333 /* plasmic-token: F4gy0u3aB */;
 }
 .chipDisplay__type_primary:hover {
@@ -301,12 +302,20 @@
   left: auto;
   top: auto;
 }
+.slotTargetDeleteIcon__trigger__delete {
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.slotTargetDeleteIcon__trigger__delete_color_brand {
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.slotTargetDeleteIcon__type_ghost_color_brand_trigger__delete {
+  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+}
 .svg__jasxS {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
 }
 .button {

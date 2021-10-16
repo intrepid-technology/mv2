@@ -104,6 +104,10 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
           [sty.chipDisplay__type_ghost_color_brand]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "brand"),
+          [sty.chipDisplay__type_ghost_color_brand_trigger__delete]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "trigger", "_delete"),
           [sty.chipDisplay__type_ghost_color_green]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "green"),
@@ -147,6 +151,10 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             "add"
           ),
 
+          [sty.chipDisplayLink__type_ghost_color_brand_trigger__delete]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "trigger", "_delete"),
           [sty.chipDisplayLink__type_link]: hasVariant(variants, "type", "link")
         })}
         component={Link}
@@ -210,6 +218,9 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
               "_48"
             ),
 
+            [sty.slotTargetChildren__trigger__delete_color_brand]:
+              hasVariant(variants, "trigger", "_delete") &&
+              hasVariant(variants, "color", "brand"),
             [sty.slotTargetChildren__trigger_disabled]: hasVariant(
               variants,
               "trigger",
@@ -351,7 +362,12 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
               variants,
               "trigger",
               "disabled"
-            )
+            ),
+
+            [sty.deleteTrigger__type_ghost_color_brand_trigger__delete]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "brand") &&
+              hasVariant(variants, "trigger", "_delete")
           })}
         >
           {p.renderPlasmicSlot({
@@ -362,7 +378,22 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
               />
             ),
 
-            value: args.deleteIcon
+            value: args.deleteIcon,
+            className: classNames(sty.slotTargetDeleteIcon, {
+              [sty.slotTargetDeleteIcon__trigger__delete]: hasVariant(
+                variants,
+                "trigger",
+                "_delete"
+              ),
+
+              [sty.slotTargetDeleteIcon__trigger__delete_color_brand]:
+                hasVariant(variants, "trigger", "_delete") &&
+                hasVariant(variants, "color", "brand"),
+              [sty.slotTargetDeleteIcon__type_ghost_color_brand_trigger__delete]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "brand") &&
+                hasVariant(variants, "trigger", "_delete")
+            })
           })}
         </button>
       ) : null}

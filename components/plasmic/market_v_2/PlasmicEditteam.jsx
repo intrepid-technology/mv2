@@ -26,7 +26,7 @@ import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
-import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
+import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
@@ -768,10 +768,14 @@ function PlasmicEditteam__RenderFunc(props) {
                     {"Skills"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"skill"}
-                    data-plasmic-override={overrides.skill}
-                    className={classNames("__wab_instance", sty.skill)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"skillsMultiSelectInput"}
+                    data-plasmic-override={overrides.skillsMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.skillsMultiSelectInput
+                    )}
+                    name={"skills"}
                   />
                 </p.Stack>
 
@@ -804,10 +808,14 @@ function PlasmicEditteam__RenderFunc(props) {
                     {"Community"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"community"}
-                    data-plasmic-override={overrides.community}
-                    className={classNames("__wab_instance", sty.community)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"communityMultiSelectInput"}
+                    data-plasmic-override={overrides.communityMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.communityMultiSelectInput
+                    )}
+                    name={"community"}
                   />
                 </p.Stack>
 
@@ -1027,10 +1035,14 @@ function PlasmicEditteam__RenderFunc(props) {
                     {"Interests"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"interest"}
-                    data-plasmic-override={overrides.interest}
-                    className={classNames("__wab_instance", sty.interest)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"interestsMultiSelectInput"}
+                    data-plasmic-override={overrides.interestsMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.interestsMultiSelectInput
+                    )}
+                    name={"interests"}
                   />
                 </p.Stack>
 
@@ -1267,9 +1279,9 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardTeamSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardTeamCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton",
     "sectionTeamEditProfileMarkets",
     "teamMarketForm",
@@ -1283,7 +1295,7 @@ const PlasmicDescendants = {
     "primaryRateSelectInput",
     "secondaryRateSelectInput",
     "cardTeamInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "submitMarketsButton",
     "sectionTeamEditProfileSocial",
     "teamSocialForm",
@@ -1428,9 +1440,9 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardTeamSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardTeamCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1450,9 +1462,9 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardTeamSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardTeamCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1471,9 +1483,9 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardTeamSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardTeamCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1522,10 +1534,10 @@ const PlasmicDescendants = {
 
   primaryLanguageSelectInput: ["primaryLanguageSelectInput"],
   secondaryLanguageSelectInput: ["secondaryLanguageSelectInput"],
-  cardTeamSkills: ["cardTeamSkills", "skill"],
-  skill: ["skill"],
-  cardTeamCommunity: ["cardTeamCommunity", "community"],
-  community: ["community"],
+  cardTeamSkills: ["cardTeamSkills", "skillsMultiSelectInput"],
+  skillsMultiSelectInput: ["skillsMultiSelectInput"],
+  cardTeamCommunity: ["cardTeamCommunity", "communityMultiSelectInput"],
+  communityMultiSelectInput: ["communityMultiSelectInput"],
   submitDetailsButton: ["submitDetailsButton"],
   sectionTeamEditProfileMarkets: [
     "sectionTeamEditProfileMarkets",
@@ -1540,7 +1552,7 @@ const PlasmicDescendants = {
     "primaryRateSelectInput",
     "secondaryRateSelectInput",
     "cardTeamInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "submitMarketsButton"
   ],
 
@@ -1556,7 +1568,7 @@ const PlasmicDescendants = {
     "primaryRateSelectInput",
     "secondaryRateSelectInput",
     "cardTeamInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "submitMarketsButton"
   ],
 
@@ -1571,7 +1583,7 @@ const PlasmicDescendants = {
     "primaryRateSelectInput",
     "secondaryRateSelectInput",
     "cardTeamInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "submitMarketsButton"
   ],
 
@@ -1605,8 +1617,8 @@ const PlasmicDescendants = {
 
   primaryRateSelectInput: ["primaryRateSelectInput"],
   secondaryRateSelectInput: ["secondaryRateSelectInput"],
-  cardTeamInterests: ["cardTeamInterests", "interest"],
-  interest: ["interest"],
+  cardTeamInterests: ["cardTeamInterests", "interestsMultiSelectInput"],
+  interestsMultiSelectInput: ["interestsMultiSelectInput"],
   submitMarketsButton: ["submitMarketsButton"],
   sectionTeamEditProfileSocial: [
     "sectionTeamEditProfileSocial",
@@ -1725,9 +1737,9 @@ export const PlasmicEditteam = Object.assign(
     ),
 
     cardTeamSkills: makeNodeComponent("cardTeamSkills"),
-    skill: makeNodeComponent("skill"),
+    skillsMultiSelectInput: makeNodeComponent("skillsMultiSelectInput"),
     cardTeamCommunity: makeNodeComponent("cardTeamCommunity"),
-    community: makeNodeComponent("community"),
+    communityMultiSelectInput: makeNodeComponent("communityMultiSelectInput"),
     submitDetailsButton: makeNodeComponent("submitDetailsButton"),
     sectionTeamEditProfileMarkets: makeNodeComponent(
       "sectionTeamEditProfileMarkets"
@@ -1747,7 +1759,7 @@ export const PlasmicEditteam = Object.assign(
     primaryRateSelectInput: makeNodeComponent("primaryRateSelectInput"),
     secondaryRateSelectInput: makeNodeComponent("secondaryRateSelectInput"),
     cardTeamInterests: makeNodeComponent("cardTeamInterests"),
-    interest: makeNodeComponent("interest"),
+    interestsMultiSelectInput: makeNodeComponent("interestsMultiSelectInput"),
     submitMarketsButton: makeNodeComponent("submitMarketsButton"),
     sectionTeamEditProfileSocial: makeNodeComponent(
       "sectionTeamEditProfileSocial"

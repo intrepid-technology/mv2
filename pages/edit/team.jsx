@@ -73,6 +73,32 @@ function Editteam() {
           { id: 3, label: "Chinese" },
         ],
       }}
+      skillsMultiSelectInput={{
+        options: [
+          { id: 1, label: "Skill 1" },
+          { id: 2, label: "Skill 2" },
+          { id: 3, label: "Skill 3" },
+          { id: 4, label: "Skill 4" },
+          { id: 5, label: "Skill 5" },
+          { id: 6, label: "Skill 6" },
+          { id: 7, label: "Skill 7" },
+          { id: 8, label: "Skill 8" },
+          { id: 9, label: "Skill 9" },
+        ],
+      }}
+      communityMultiSelectInput={{
+        options: [
+          { id: 1, label: "Community 1" },
+          { id: 2, label: "Community 2" },
+          { id: 3, label: "Community 3" },
+          { id: 4, label: "Community 4" },
+          { id: 5, label: "Community 5" },
+          { id: 6, label: "Community 6" },
+          { id: 7, label: "Community 7" },
+          { id: 8, label: "Community 8" },
+          { id: 9, label: "Community 9" },
+        ],
+      }}
 
       
       // Team Market Form
@@ -104,6 +130,19 @@ function Editteam() {
           { id: 1, label: "50" },
           { id: 2, label: "500" },
           { id: 3, label: "1000" },
+        ],
+      }}
+      interestsMultiSelectInput={{
+        options: [
+          { id: 1, label: "Interest 1" },
+          { id: 2, label: "Interest 2" },
+          { id: 3, label: "Interest 3" },
+          { id: 4, label: "Interest 4" },
+          { id: 5, label: "Interest 5" },
+          { id: 6, label: "Interest 6" },
+          { id: 7, label: "Interest 7" },
+          { id: 8, label: "Interest 8" },
+          { id: 9, label: "Interest 9" },
         ],
       }}
 

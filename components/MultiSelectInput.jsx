@@ -30,7 +30,7 @@ function MultiSelectInput_({
     options.filter(
       (item) => 
         !selectedItems?.map(si => si.id).includes(item.id) &&
-        item?.label?.toLowerCase()?.startsWith(inputValue.toLowerCase()),
+        item?.label?.toLowerCase()?.startsWith(inputValue?.toLowerCase() || ''),
     )
   
   const {
@@ -76,6 +76,7 @@ function MultiSelectInput_({
     <PlasmicMultiSelectInput
       root={{ ref }}
       {...props}
+      isOpen={true}
       selectedOptionsWrapper={{
         wrapChildren: (children) => (
             !selectedItems?.length ? null : selectedItems.map((selectedItem, index) => {
@@ -87,6 +88,7 @@ function MultiSelectInput_({
                 <ChipBadgeDisplay
                   key={`selected-item-${index}`}
                   trigger="delete"
+                  type="ghost"
                   color="brand"
                   {...getSelectedItemProps({selectedItem, index})}
                   onClick={() => removeSelectedItem(selectedItem)}

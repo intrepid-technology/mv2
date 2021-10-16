@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -24,7 +25,7 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicMultiSelectInput.module.css"; // plasmic-import: hjWInH_vco/css
 import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 
-export const PlasmicMultiSelectInput__VariantProps = new Array();
+export const PlasmicMultiSelectInput__VariantProps = new Array("isOpen");
 
 export const PlasmicMultiSelectInput__ArgProps = new Array();
 
@@ -71,23 +72,36 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        data-plasmic-name={"optionGroup"}
-        data-plasmic-override={overrides.optionGroup}
-        className={classNames(defaultcss.all, sty.optionGroup)}
-      >
-        <MultiSelectOption
-          className={classNames("__wab_instance", sty.multiSelectOption__jkAto)}
-        />
+      {(hasVariant(variants, "isOpen", "isOpen") ? true : false) ? (
+        <div
+          data-plasmic-name={"optionGroup"}
+          data-plasmic-override={overrides.optionGroup}
+          className={classNames(defaultcss.all, sty.optionGroup, {
+            [sty.optionGroup__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+          })}
+        >
+          <MultiSelectOption
+            className={classNames(
+              "__wab_instance",
+              sty.multiSelectOption__jkAto
+            )}
+          />
 
-        <MultiSelectOption
-          className={classNames("__wab_instance", sty.multiSelectOption__yqGX)}
-        />
+          <MultiSelectOption
+            className={classNames(
+              "__wab_instance",
+              sty.multiSelectOption__yqGX
+            )}
+          />
 
-        <MultiSelectOption
-          className={classNames("__wab_instance", sty.multiSelectOption__btGi)}
-        />
-      </div>
+          <MultiSelectOption
+            className={classNames(
+              "__wab_instance",
+              sty.multiSelectOption__btGi
+            )}
+          />
+        </div>
+      ) : null}
 
       <p.Stack
         as={"div"}
@@ -98,12 +112,16 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
       >
         <ChipBadgeDisplay
           className={classNames("__wab_instance", sty.chipBadgeDisplay__ehVxx)}
+          color={"brand"}
           trigger={"_delete"}
+          type={"ghost"}
         />
 
         <ChipBadgeDisplay
           className={classNames("__wab_instance", sty.chipBadgeDisplay__vxP3)}
+          color={"brand"}
           trigger={"_delete"}
+          type={"ghost"}
         />
       </p.Stack>
     </p.Stack>

@@ -27,7 +27,7 @@ import ButtonGroupStripeVerification from "../../ButtonGroupStripeVerification";
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
-import InputSearchbarFilterDisplay from "../../InputSearchbarFilterDisplay"; // plasmic-import: zockkqCMBP/component
+import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
@@ -816,10 +816,14 @@ function PlasmicEditmember__RenderFunc(props) {
                     {"Interests"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"interest"}
-                    data-plasmic-override={overrides.interest}
-                    className={classNames("__wab_instance", sty.interest)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"interestsMultiSelectInput"}
+                    data-plasmic-override={overrides.interestsMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.interestsMultiSelectInput
+                    )}
+                    name={"interests"}
                   />
                 </p.Stack>
 
@@ -852,10 +856,14 @@ function PlasmicEditmember__RenderFunc(props) {
                     {"Skills"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"skill"}
-                    data-plasmic-override={overrides.skill}
-                    className={classNames("__wab_instance", sty.skill)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"skillsMultiSelectInput"}
+                    data-plasmic-override={overrides.skillsMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.skillsMultiSelectInput
+                    )}
+                    name={"skills"}
                   />
                 </p.Stack>
 
@@ -891,10 +899,14 @@ function PlasmicEditmember__RenderFunc(props) {
                     {"Community"}
                   </CardHeaderTitlePrimary>
 
-                  <InputSearchbarFilterDisplay
-                    data-plasmic-name={"community"}
-                    data-plasmic-override={overrides.community}
-                    className={classNames("__wab_instance", sty.community)}
+                  <FormMultiSelectInput
+                    data-plasmic-name={"communityMultiSelectInput"}
+                    data-plasmic-override={overrides.communityMultiSelectInput}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.communityMultiSelectInput
+                    )}
+                    name={"community"}
                   />
                 </p.Stack>
 
@@ -1124,11 +1136,11 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardMemberInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "cardMemberSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardMemberCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton",
     "sectionMemberEditProfileSocial",
     "memberSocialForm",
@@ -1301,11 +1313,11 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardMemberInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "cardMemberSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardMemberCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1325,11 +1337,11 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardMemberInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "cardMemberSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardMemberCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1348,11 +1360,11 @@ const PlasmicDescendants = {
     "primaryLanguageSelectInput",
     "secondaryLanguageSelectInput",
     "cardMemberInterests",
-    "interest",
+    "interestsMultiSelectInput",
     "cardMemberSkills",
-    "skill",
+    "skillsMultiSelectInput",
     "cardMemberCommunity",
-    "community",
+    "communityMultiSelectInput",
     "submitDetailsButton"
   ],
 
@@ -1401,12 +1413,12 @@ const PlasmicDescendants = {
 
   primaryLanguageSelectInput: ["primaryLanguageSelectInput"],
   secondaryLanguageSelectInput: ["secondaryLanguageSelectInput"],
-  cardMemberInterests: ["cardMemberInterests", "interest"],
-  interest: ["interest"],
-  cardMemberSkills: ["cardMemberSkills", "skill"],
-  skill: ["skill"],
-  cardMemberCommunity: ["cardMemberCommunity", "community"],
-  community: ["community"],
+  cardMemberInterests: ["cardMemberInterests", "interestsMultiSelectInput"],
+  interestsMultiSelectInput: ["interestsMultiSelectInput"],
+  cardMemberSkills: ["cardMemberSkills", "skillsMultiSelectInput"],
+  skillsMultiSelectInput: ["skillsMultiSelectInput"],
+  cardMemberCommunity: ["cardMemberCommunity", "communityMultiSelectInput"],
+  communityMultiSelectInput: ["communityMultiSelectInput"],
   submitDetailsButton: ["submitDetailsButton"],
   sectionMemberEditProfileSocial: [
     "sectionMemberEditProfileSocial",
@@ -1536,11 +1548,11 @@ export const PlasmicEditmember = Object.assign(
     ),
 
     cardMemberInterests: makeNodeComponent("cardMemberInterests"),
-    interest: makeNodeComponent("interest"),
+    interestsMultiSelectInput: makeNodeComponent("interestsMultiSelectInput"),
     cardMemberSkills: makeNodeComponent("cardMemberSkills"),
-    skill: makeNodeComponent("skill"),
+    skillsMultiSelectInput: makeNodeComponent("skillsMultiSelectInput"),
     cardMemberCommunity: makeNodeComponent("cardMemberCommunity"),
-    community: makeNodeComponent("community"),
+    communityMultiSelectInput: makeNodeComponent("communityMultiSelectInput"),
     submitDetailsButton: makeNodeComponent("submitDetailsButton"),
     sectionMemberEditProfileSocial: makeNodeComponent(
       "sectionMemberEditProfileSocial"

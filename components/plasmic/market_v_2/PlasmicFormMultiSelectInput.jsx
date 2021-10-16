@@ -10,6 +10,7 @@
 // Component: eTIpxqMjYo
 import * as React from "react";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -20,7 +21,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFormMultiSelectInput.module.css"; // plasmic-import: eTIpxqMjYo/css
 
-export const PlasmicFormMultiSelectInput__VariantProps = new Array();
+export const PlasmicFormMultiSelectInput__VariantProps = new Array("isOpen");
 
 export const PlasmicFormMultiSelectInput__ArgProps = new Array("name");
 
@@ -37,7 +38,14 @@ function PlasmicFormMultiSelectInput__RenderFunc(props) {
       <MultiSelectInput
         data-plasmic-name={"multiSelectInput"}
         data-plasmic-override={overrides.multiSelectInput}
-        className={classNames("__wab_instance", sty.multiSelectInput)}
+        className={classNames("__wab_instance", sty.multiSelectInput, {
+          [sty.multiSelectInput__isOpen]: hasVariant(
+            variants,
+            "isOpen",
+            "isOpen"
+          )
+        })}
+        isOpen={hasVariant(variants, "isOpen", "isOpen") ? "isOpen" : undefined}
       />
     </div>
   );
