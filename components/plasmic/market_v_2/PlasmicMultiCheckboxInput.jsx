@@ -39,11 +39,15 @@ function PlasmicMultiCheckboxInput__RenderFunc(props) {
     >
       <CheckboxInput
         className={classNames("__wab_instance", sty.checkboxInput__pUnr)}
-      />
+      >
+        {"Option 1"}
+      </CheckboxInput>
 
       <CheckboxInput
         className={classNames("__wab_instance", sty.checkboxInput__hiYok)}
-      />
+      >
+        {"Option 2"}
+      </CheckboxInput>
     </p.Stack>
   );
 }
