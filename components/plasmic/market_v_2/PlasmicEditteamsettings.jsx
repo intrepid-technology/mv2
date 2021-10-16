@@ -12,7 +12,6 @@ import * as React from "react";
 import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -28,7 +27,7 @@ import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeq
 import ButtonGroupStripeConnect from "../../ButtonGroupStripeConnect"; // plasmic-import: d5Rau78kDe/component
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
+import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -115,9 +114,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               )}
             >
               <CardHeaderTitleDisplay
+                data-plasmic-name={"cardHeaderTitleDisplay"}
+                data-plasmic-override={overrides.cardHeaderTitleDisplay}
                 className={classNames(
                   "__wab_instance",
-                  sty.cardHeaderTitleDisplay__d6NR
+                  sty.cardHeaderTitleDisplay
                 )}
                 size={"_720"}
                 slot={
@@ -600,300 +601,15 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             data-plasmic-override={overrides.notificationsForm}
             className={classNames("__wab_instance", sty.notificationsForm)}
           >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"sectionTeamNotifications"}
-              data-plasmic-override={overrides.sectionTeamNotifications}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                sty.sectionTeamNotifications
-              )}
-            >
-              <CardHeaderTitleDisplay
+            <div className={classNames(defaultcss.all, sty.freeBox__dUAoo)}>
+              <NotificationSettingsForm
+                data-plasmic-name={"notificationSettingsForm"}
+                data-plasmic-override={overrides.notificationSettingsForm}
                 className={classNames(
                   "__wab_instance",
-                  sty.cardHeaderTitleDisplay__qvdyY
+                  sty.notificationSettingsForm
                 )}
-                headings={["title"]}
-                size={
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? undefined
-                    : "_720"
-                }
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text___9AuTo
-                    )}
-                  >
-                    {"Notifications"}
-                  </div>
-                }
-                textDisplay={"Profile edit"}
-                textSubhead={"Get notified about activity on Intrepid"}
               />
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"notificationPushEmail"}
-                data-plasmic-override={overrides.notificationPushEmail}
-                hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  sty.notificationPushEmail
-                )}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__y77Es
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__whFsE
-                      )}
-                    >
-                      {"Updates when you're away from the community."}
-                    </div>
-                  }
-                >
-                  {"Speak easy"}
-                </CardHeaderTitlePrimary>
-
-                <FormSwitchInput
-                  data-plasmic-name={"pushNotificationSwitchInput"}
-                  data-plasmic-override={overrides.pushNotificationSwitchInput}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.pushNotificationSwitchInput
-                  )}
-                  content={
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox___0JXn)}
-                    >
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__gp9S1
-                        )}
-                      >
-                        {"Push notifications"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text___3Z0So
-                        )}
-                      >
-                        {
-                          "What's going on in the community - sent to your mobile"
-                        }
-                      </div>
-                    </div>
-                  }
-                  name={"pushNotification"}
-                />
-
-                <FormSwitchInput
-                  data-plasmic-name={"emailNotificationSwitchInput"}
-                  data-plasmic-override={overrides.emailNotificationSwitchInput}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.emailNotificationSwitchInput
-                  )}
-                  content={
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__qmW9F)}
-                    >
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__rRgz
-                        )}
-                      >
-                        {"Email notifications"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__v2Rfi
-                        )}
-                      >
-                        {
-                          "What's going on in the community - sent to your inbox"
-                        }
-                      </div>
-                    </div>
-                  }
-                  name={"emailNotification"}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"notificationActivity"}
-                data-plasmic-override={overrides.notificationActivity}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.notificationActivity)}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__dt2Q1
-                  )}
-                  slot={
-                    "Get notifications from your interactions within the community."
-                  }
-                >
-                  {"Heads up"}
-                </CardHeaderTitlePrimary>
-
-                <FormMultiCheckboxInput
-                  data-plasmic-name={"activityMultiCheckboxInput"}
-                  data-plasmic-override={overrides.activityMultiCheckboxInput}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.activityMultiCheckboxInput
-                  )}
-                  name={"activities"}
-                />
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"notificationNewsEvents"}
-                data-plasmic-override={overrides.notificationNewsEvents}
-                hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  sty.notificationNewsEvents
-                )}
-              >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__y2Kpo
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__ihpB
-                      )}
-                    >
-                      {
-                        "All the fun things going on in the community- be in the know."
-                      }
-                    </div>
-                  }
-                >
-                  {"Happenings"}
-                </CardHeaderTitlePrimary>
-
-                <FormSwitchInput
-                  className={classNames(
-                    "__wab_instance",
-                    sty.formSwitchInput__vInu
-                  )}
-                  content={
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__axD4X)}
-                    >
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__qrb82
-                        )}
-                      >
-                        {"Email newsletter"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__czj8V
-                        )}
-                      >
-                        {"Our weekly newsletter packed with fun stuff"}
-                      </div>
-                    </div>
-                  }
-                  name={"events.newsletter"}
-                />
-
-                <FormSwitchInput
-                  className={classNames(
-                    "__wab_instance",
-                    sty.formSwitchInput__cvszq
-                  )}
-                  content={
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__dr7Ke)}
-                    >
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__vlY6E
-                        )}
-                      >
-                        {"Events and meetups"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__gbDpW
-                        )}
-                      >
-                        {"Meet members live and in person"}
-                      </div>
-                    </div>
-                  }
-                  name={"events.meetups"}
-                />
-              </p.Stack>
-            </p.Stack>
-
-            <div
-              data-plasmic-name={"buttonWrapper"}
-              data-plasmic-override={overrides.buttonWrapper}
-              className={classNames(defaultcss.all, sty.buttonWrapper)}
-            >
-              <Button
-                data-plasmic-name={"notificationFormSubmitButton"}
-                data-plasmic-override={overrides.notificationFormSubmitButton}
-                className={classNames(
-                  "__wab_instance",
-                  sty.notificationFormSubmitButton
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__qZ5FG
-                  )}
-                >
-                  {"Save Notifications"}
-                </div>
-              </Button>
             </div>
           </FormContext>
 
@@ -1040,6 +756,7 @@ const PlasmicDescendants = {
     "navbarMemberEdit",
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
+    "cardHeaderTitleDisplay",
     "formTeamEditBusinessVerification",
     "cardTeamLegalBusinessGroup",
     "businessNameTextInput",
@@ -1069,15 +786,7 @@ const PlasmicDescendants = {
     "submitButtonWrapper",
     "button",
     "notificationsForm",
-    "sectionTeamNotifications",
-    "notificationPushEmail",
-    "pushNotificationSwitchInput",
-    "emailNotificationSwitchInput",
-    "notificationActivity",
-    "activityMultiCheckboxInput",
-    "notificationNewsEvents",
-    "buttonWrapper",
-    "notificationFormSubmitButton",
+    "notificationSettingsForm",
     "sectionTeamSettingsLeaveTeam",
     "cardTeamLeaveAccount",
     "leaveTeamButton",
@@ -1092,6 +801,7 @@ const PlasmicDescendants = {
   settingsForm: [
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
+    "cardHeaderTitleDisplay",
     "formTeamEditBusinessVerification",
     "cardTeamLegalBusinessGroup",
     "businessNameTextInput",
@@ -1124,6 +834,7 @@ const PlasmicDescendants = {
 
   sectionTeamSettingsStripeConnect: [
     "sectionTeamSettingsStripeConnect",
+    "cardHeaderTitleDisplay",
     "formTeamEditBusinessVerification",
     "cardTeamLegalBusinessGroup",
     "businessNameTextInput",
@@ -1142,6 +853,7 @@ const PlasmicDescendants = {
     "buttonGroupStripeConnect"
   ],
 
+  cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
   formTeamEditBusinessVerification: [
     "formTeamEditBusinessVerification",
     "cardTeamLegalBusinessGroup",
@@ -1263,42 +975,8 @@ const PlasmicDescendants = {
   gaAnalyticsTextInput: ["gaAnalyticsTextInput"],
   submitButtonWrapper: ["submitButtonWrapper", "button"],
   button: ["button"],
-  notificationsForm: [
-    "notificationsForm",
-    "sectionTeamNotifications",
-    "notificationPushEmail",
-    "pushNotificationSwitchInput",
-    "emailNotificationSwitchInput",
-    "notificationActivity",
-    "activityMultiCheckboxInput",
-    "notificationNewsEvents",
-    "buttonWrapper",
-    "notificationFormSubmitButton"
-  ],
-
-  sectionTeamNotifications: [
-    "sectionTeamNotifications",
-    "notificationPushEmail",
-    "pushNotificationSwitchInput",
-    "emailNotificationSwitchInput",
-    "notificationActivity",
-    "activityMultiCheckboxInput",
-    "notificationNewsEvents"
-  ],
-
-  notificationPushEmail: [
-    "notificationPushEmail",
-    "pushNotificationSwitchInput",
-    "emailNotificationSwitchInput"
-  ],
-
-  pushNotificationSwitchInput: ["pushNotificationSwitchInput"],
-  emailNotificationSwitchInput: ["emailNotificationSwitchInput"],
-  notificationActivity: ["notificationActivity", "activityMultiCheckboxInput"],
-  activityMultiCheckboxInput: ["activityMultiCheckboxInput"],
-  notificationNewsEvents: ["notificationNewsEvents"],
-  buttonWrapper: ["buttonWrapper", "notificationFormSubmitButton"],
-  notificationFormSubmitButton: ["notificationFormSubmitButton"],
+  notificationsForm: ["notificationsForm", "notificationSettingsForm"],
+  notificationSettingsForm: ["notificationSettingsForm"],
   sectionTeamSettingsLeaveTeam: [
     "sectionTeamSettingsLeaveTeam",
     "cardTeamLeaveAccount",
@@ -1356,6 +1034,7 @@ export const PlasmicEditteamsettings = Object.assign(
       "sectionTeamSettingsStripeConnect"
     ),
 
+    cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     formTeamEditBusinessVerification: makeNodeComponent(
       "formTeamEditBusinessVerification"
     ),
@@ -1400,24 +1079,7 @@ export const PlasmicEditteamsettings = Object.assign(
     submitButtonWrapper: makeNodeComponent("submitButtonWrapper"),
     button: makeNodeComponent("button"),
     notificationsForm: makeNodeComponent("notificationsForm"),
-    sectionTeamNotifications: makeNodeComponent("sectionTeamNotifications"),
-    notificationPushEmail: makeNodeComponent("notificationPushEmail"),
-    pushNotificationSwitchInput: makeNodeComponent(
-      "pushNotificationSwitchInput"
-    ),
-
-    emailNotificationSwitchInput: makeNodeComponent(
-      "emailNotificationSwitchInput"
-    ),
-
-    notificationActivity: makeNodeComponent("notificationActivity"),
-    activityMultiCheckboxInput: makeNodeComponent("activityMultiCheckboxInput"),
-    notificationNewsEvents: makeNodeComponent("notificationNewsEvents"),
-    buttonWrapper: makeNodeComponent("buttonWrapper"),
-    notificationFormSubmitButton: makeNodeComponent(
-      "notificationFormSubmitButton"
-    ),
-
+    notificationSettingsForm: makeNodeComponent("notificationSettingsForm"),
     sectionTeamSettingsLeaveTeam: makeNodeComponent(
       "sectionTeamSettingsLeaveTeam"
     ),

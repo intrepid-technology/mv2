@@ -4132,6 +4132,19 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicFormMultiSelectInput.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "Z8dV7lUnBe3",
+          "name": "NotificationSettingsForm",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicNotificationSettingsForm.jsx",
+          "importSpec": {
+            "modulePath": "NotificationSettingsForm.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicNotificationSettingsForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
