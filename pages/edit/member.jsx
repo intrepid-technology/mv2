@@ -1,33 +1,53 @@
 import * as React from "react";
-
+import supabase from "../../backend/api/supabase";
+import useUpdateUser from "../../hooks/useUpdateUser";
 import { PlasmicEditmember } from "../../components/plasmic/market_v_2/PlasmicEditmember";
 
 function Editmember() {
-  const onMemberProfileFormSubmit = async data => {
-    console.log({data})
-  }
-  
-  const onMemberDetailsFormSubmit = async data => {
-    console.log({data})
-  }
- 
-  const onMemberSocialFormSubmit = async data => {
-    console.log({data})
-  }
+  const [values, setValues] = React.useState();
+  // TODO: Test authentication once Supabase stops blocking request
+  // const userId = supabase.auth.user().id;
+  const userId = "2b205512-541f-45fa-8f3c-3426cea85ee6";
+  const updateUserMutation = useUpdateUser(userId, values);
+
+  const onMemberProfileFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateUserMutation.mutate();
+  };
+
+  const onMemberDetailsFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateUserMutation.mutate();
+  };
+
+  const onMemberSocialFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateUserMutation.mutate();
+  };
 
   return (
     <PlasmicEditmember
-       // Member Profile Form
-       memberProfileForm={{
+      // Member Profile Form
+      memberProfileForm={{
         defaultValues: {},
-        onSubmit: onMemberProfileFormSubmit
+        onSubmit: onMemberProfileFormSubmit,
       }}
-
-      
       // Member Details Form
       memberDetailsForm={{
         defaultValues: {},
-        onSubmit: onMemberDetailsFormSubmit
+        onSubmit: onMemberDetailsFormSubmit,
       }}
       countrySelectInput={{
         options: [
@@ -108,12 +128,10 @@ function Editmember() {
           { id: 9, label: "Community 9" },
         ],
       }}
-
-
       // Member Social Form
       memberSocialForm={{
         defaultValues: {},
-        onSubmit: onMemberSocialFormSubmit
+        onSubmit: onMemberSocialFormSubmit,
       }}
     />
   );
