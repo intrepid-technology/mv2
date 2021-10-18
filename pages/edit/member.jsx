@@ -5,9 +5,9 @@ import { PlasmicEditmember } from "../../components/plasmic/market_v_2/PlasmicEd
 
 function Editmember() {
   const [values, setValues] = React.useState();
-  // TODO: Test authentication once Supabase stops blocking request
-  // const userId = supabase.auth.user().id;
-  const userId = "2b205512-541f-45fa-8f3c-3426cea85ee6";
+  const userId = supabase.auth.user()
+    ? supabase.auth.user().id
+    : "2b205512-541f-45fa-8f3c-3426cea85ee6";
   const updateUserMutation = useUpdateUser(userId, values);
 
   const onMemberProfileFormSubmit = async (data) => {
