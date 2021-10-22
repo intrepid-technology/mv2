@@ -10,11 +10,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
 .section {
   display: flex;
   flex-direction: column;

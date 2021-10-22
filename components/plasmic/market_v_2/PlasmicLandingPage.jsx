@@ -18,12 +18,10 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import AlertCard from "../../AlertCard"; // plasmic-import: Kd4Jtco7N_/component
 import Typography from "../../Typography"; // plasmic-import: DWcJDlqh2G/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -46,16 +44,7 @@ function PlasmicLandingPage__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -75,18 +64,6 @@ function PlasmicLandingPage__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames(defaultcss.all, sty.header)}
-          >
-            <NavbarLogo
-              data-plasmic-name={"navbarLogo"}
-              data-plasmic-override={overrides.navbarLogo}
-              className={classNames("__wab_instance", sty.navbarLogo)}
-            />
-          </div>
-
           <div
             data-plasmic-name={"alertWrapper"}
             data-plasmic-override={overrides.alertWrapper}
@@ -410,12 +387,6 @@ function PlasmicLandingPage__RenderFunc(props) {
               />
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -425,8 +396,6 @@ function PlasmicLandingPage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
-    "navbarLogo",
     "alertWrapper",
     "alertCard",
     "contentWrapper",
@@ -437,12 +406,9 @@ const PlasmicDescendants = {
     "actionsWrapper",
     "buyServicesButton",
     "sellServicesButton",
-    "descriptionPoints",
-    "footerB"
+    "descriptionPoints"
   ],
 
-  header: ["header", "navbarLogo"],
-  navbarLogo: ["navbarLogo"],
   alertWrapper: ["alertWrapper", "alertCard"],
   alertCard: ["alertCard"],
   contentWrapper: [
@@ -464,8 +430,7 @@ const PlasmicDescendants = {
   actionsWrapper: ["actionsWrapper", "buyServicesButton", "sellServicesButton"],
   buyServicesButton: ["buyServicesButton"],
   sellServicesButton: ["sellServicesButton"],
-  descriptionPoints: ["descriptionPoints"],
-  footerB: ["footerB"]
+  descriptionPoints: ["descriptionPoints"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -499,8 +464,6 @@ export const PlasmicLandingPage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
-    navbarLogo: makeNodeComponent("navbarLogo"),
     alertWrapper: makeNodeComponent("alertWrapper"),
     alertCard: makeNodeComponent("alertCard"),
     contentWrapper: makeNodeComponent("contentWrapper"),
@@ -512,7 +475,6 @@ export const PlasmicLandingPage = Object.assign(
     buyServicesButton: makeNodeComponent("buyServicesButton"),
     sellServicesButton: makeNodeComponent("sellServicesButton"),
     descriptionPoints: makeNodeComponent("descriptionPoints"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLandingPage
     internalVariantProps: PlasmicLandingPage__VariantProps,
     internalArgProps: PlasmicLandingPage__ArgProps

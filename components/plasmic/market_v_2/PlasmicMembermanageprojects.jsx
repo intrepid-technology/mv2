@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -44,16 +43,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -73,12 +63,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarMemberEdit
             data-plasmic-name={"navbarMemberEdit"}
             data-plasmic-override={overrides.navbarMemberEdit}
@@ -340,7 +324,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberManageProjectsHeader",
     "cardHeaderTitleDisplay",
@@ -359,7 +342,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberManageProjectsHeader: [
     "sectionMemberManageProjectsHeader",
@@ -455,7 +437,6 @@ export const PlasmicMembermanageprojects = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberManageProjectsHeader: makeNodeComponent(
       "sectionMemberManageProjectsHeader"

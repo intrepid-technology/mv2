@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/component
 import TagPartnerC from "../../TagPartnerC"; // plasmic-import: VbmQFgDzT6/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import Accordion from "../../Accordion"; // plasmic-import: azR0jnXzDL/component
@@ -53,16 +52,7 @@ function PlasmicServicedetail__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -82,12 +72,6 @@ function PlasmicServicedetail__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarPrimary
-            data-plasmic-name={"navbarPrimary"}
-            data-plasmic-override={overrides.navbarPrimary}
-            className={classNames("__wab_instance", sty.navbarPrimary)}
-          />
-
           <p.Stack
             as={"div"}
             data-plasmic-name={"serviceDetailCheckoutPageParent"}
@@ -1771,7 +1755,6 @@ function PlasmicServicedetail__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarPrimary",
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
@@ -1842,7 +1825,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarPrimary: ["navbarPrimary"],
   serviceDetailCheckoutPageParent: [
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
@@ -2226,7 +2208,6 @@ export const PlasmicServicedetail = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarPrimary: makeNodeComponent("navbarPrimary"),
     serviceDetailCheckoutPageParent: makeNodeComponent(
       "serviceDetailCheckoutPageParent"
     ),

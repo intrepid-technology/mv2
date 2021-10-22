@@ -37,13 +37,6 @@ function PlasmicPrivacy__RenderFunc(props) {
           property="og:title"
           content={"Privacy Policy | Intrepid Market"}
         />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`

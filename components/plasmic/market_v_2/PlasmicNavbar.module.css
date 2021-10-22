@@ -1,0 +1,175 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding-right: 16px;
+  padding-left: 16px;
+  position: relative;
+  background: #ffffff;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.brandWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.brandWrapper > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.brandWrapper > :global(.__wab_flex-container) > *,
+.brandWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.brandWrapper > :global(.__wab_flex-container) > picture > img,
+.brandWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.iconWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.menuIcon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.actionWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.actionWrapper > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.actionWrapper > :global(.__wab_flex-container) > *,
+.actionWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.actionWrapper > :global(.__wab_flex-container) > picture > img,
+.actionWrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 32px;
+}
+.memberButton:global(.__wab_instance) {
+  position: relative;
+}
+.text__uRxVz {
+  white-space: pre;
+}
+.partnerButton:global(.__wab_instance) {
+  position: relative;
+  height: 40px;
+}
+.searchInputWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  min-width: 0;
+}
+.textInput:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 1em;
+  flex-shrink: 0;
+  height: 1em;
+}
+.text__wQrSm {
+  font-size: 12px;
+}
+.authActionsWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.avatar:global(.__wab_instance) {
+  position: relative;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 50%;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__auth {
+  width: 40px;
+  height: 40px;
+}

@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionMemberProfileHero from "../../SectionMemberProfileHero"; // plasmic-import: Q-O9AS-Maj_/component
 import NavbarMemberUserProfile from "../../NavbarMemberUserProfile"; // plasmic-import: pRIPzCF9OFR/component
 import ElementProfileAbout from "../../ElementProfileAbout"; // plasmic-import: fNbAgFgAmx/component
@@ -47,16 +46,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -76,24 +66,6 @@ function PlasmicMemberprofile__RenderFunc(props) {
             sty.root
           )}
         >
-          {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : true
-          ) ? (
-            <NavbarInternal
-              data-plasmic-name={"navbarInternal"}
-              data-plasmic-override={overrides.navbarInternal}
-              className={classNames("__wab_instance", sty.navbarInternal)}
-              user={
-                hasVariant(globalVariants, "screen", "iphone678Plus")
-                  ? "member"
-                  : undefined
-              }
-            />
-          ) : null}
           {(
             hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
@@ -348,7 +320,6 @@ function PlasmicMemberprofile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionMemberProfileHero",
     "navbarMemberUserProfile",
     "sectionAboutDetails",
@@ -365,7 +336,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionMemberProfileHero: ["sectionMemberProfileHero"],
   navbarMemberUserProfile: ["navbarMemberUserProfile"],
   sectionAboutDetails: [
@@ -431,7 +401,6 @@ export const PlasmicMemberprofile = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionMemberProfileHero: makeNodeComponent("sectionMemberProfileHero"),
     navbarMemberUserProfile: makeNodeComponent("navbarMemberUserProfile"),
     sectionAboutDetails: makeNodeComponent("sectionAboutDetails"),

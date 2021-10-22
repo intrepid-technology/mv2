@@ -37,13 +37,6 @@ function PlasmicTerms__RenderFunc(props) {
           property="og:title"
           content={"Terms of Service | Intrepid Market"}
         />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`

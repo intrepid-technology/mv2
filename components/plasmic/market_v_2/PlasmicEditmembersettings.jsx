@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
@@ -45,16 +44,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -74,12 +64,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarMemberEdit
             data-plasmic-name={"navbarMemberEdit"}
             data-plasmic-override={overrides.navbarMemberEdit}
@@ -230,7 +214,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     )}
                   >
                     {
-                      "click the button to reset your password and we will send you a verification link"
+                      "Click the button to reset your password and we will send you a verification link"
                     }
                   </div>
                 }
@@ -896,7 +880,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberSettingsEmail",
     "cardHeaderTitleDisplay",
@@ -942,7 +925,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberSettingsEmail: [
     "sectionMemberSettingsEmail",
@@ -1159,7 +1141,6 @@ export const PlasmicEditmembersettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberSettingsEmail: makeNodeComponent("sectionMemberSettingsEmail"),
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),

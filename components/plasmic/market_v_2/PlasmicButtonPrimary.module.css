@@ -495,11 +495,11 @@
   background: none;
 }
 .iconParent {
-  display: none;
   position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  display: none;
 }
 .iconParent__size__180 {
   display: none;

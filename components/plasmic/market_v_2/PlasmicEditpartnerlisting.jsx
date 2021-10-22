@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ElementListingEditCard from "../../ElementListingEditCard"; // plasmic-import: JDi6d9hmkm/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
@@ -42,16 +41,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -78,12 +68,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
             hasGap={true}
             className={classNames(defaultcss.all, sty.editListingSectionParent)}
           >
-            <NavbarInternal
-              data-plasmic-name={"navbarInternal"}
-              data-plasmic-override={overrides.navbarInternal}
-              className={classNames("__wab_instance", sty.navbarInternal)}
-            />
-
             <p.Stack
               as={"div"}
               data-plasmic-name={"sectionHeaderEditListing"}
@@ -519,7 +503,6 @@ const PlasmicDescendants = {
   root: [
     "root",
     "editListingSectionParent",
-    "navbarInternal",
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
@@ -529,7 +512,6 @@ const PlasmicDescendants = {
 
   editListingSectionParent: [
     "editListingSectionParent",
-    "navbarInternal",
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
@@ -537,7 +519,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionHeaderEditListing: [
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay"
@@ -581,7 +562,6 @@ export const PlasmicEditpartnerlisting = Object.assign(
   {
     // Helper components rendering sub-elements
     editListingSectionParent: makeNodeComponent("editListingSectionParent"),
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionHeaderEditListing: makeNodeComponent("sectionHeaderEditListing"),
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     sectionEditListing: makeNodeComponent("sectionEditListing"),

@@ -42,12 +42,6 @@ function PlasmicTest__RenderFunc(props) {
       <Head>
         <title key="title">{"Test"}</title>
         <meta key="og:title" property="og:title" content={"Test"} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`

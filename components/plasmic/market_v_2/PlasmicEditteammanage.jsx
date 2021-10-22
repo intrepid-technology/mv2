@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -48,16 +47,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -77,12 +67,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarPartnerEdit
             data-plasmic-name={"navbarPartnerEdit"}
             data-plasmic-override={overrides.navbarPartnerEdit}
@@ -488,7 +472,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarPartnerEdit",
     "sectionTeamManageMembersHeader",
     "cardHeaderTitleDisplay",
@@ -514,7 +497,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionTeamManageMembersHeader: [
     "sectionTeamManageMembersHeader",
@@ -643,7 +625,6 @@ export const PlasmicEditteammanage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionTeamManageMembersHeader: makeNodeComponent(
       "sectionTeamManageMembersHeader"

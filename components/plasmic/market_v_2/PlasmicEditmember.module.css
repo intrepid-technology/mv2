@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-}
 .navbarMemberEdit:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -635,6 +629,8 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberEditProfileDetails {
+    width: auto;
+    display: inline-flex;
     padding: 16px;
   }
 }
@@ -656,6 +652,12 @@
 .memberDetailsForm:global(.__wab_instance) {
   position: relative;
   width: 550px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .memberDetailsForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .formMemberEditDetails {
   display: flex;
@@ -689,10 +691,10 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .formMemberEditDetails {
-    width: 100%;
+    width: auto;
     left: auto;
     top: auto;
-    min-width: 0;
+    display: inline-flex;
   }
 }
 .cardMemberLocation {
@@ -1222,6 +1224,12 @@
 .memberSocialForm:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .memberSocialForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .formMemberEditSocial {
   display: flex;
   position: relative;
@@ -1253,10 +1261,10 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .formMemberEditSocial {
-    width: 100%;
+    width: auto;
     left: auto;
     top: auto;
-    min-width: 0;
+    display: inline-flex;
   }
 }
 .cardMemberWebsite {
@@ -1354,6 +1362,12 @@
 }
 .socialPlatformsSwitchInputs:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .socialPlatformsSwitchInputs:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .submitSocialButton:global(.__wab_instance) {
   position: relative;

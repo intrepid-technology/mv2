@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardLinkServiceMenu from "../../CardLinkServiceMenu"; // plasmic-import: q8zDlZXV1I/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
@@ -43,16 +42,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -72,12 +62,6 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"section"}
@@ -563,8 +547,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarInternal", "section", "footerB"],
-  navbarInternal: ["navbarInternal"],
+  root: ["root", "section", "footerB"],
   section: ["section"],
   footerB: ["footerB"]
 };
@@ -600,7 +583,6 @@ export const PlasmicListingTestNotInUse = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     section: makeNodeComponent("section"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicListingTestNotInUse

@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
@@ -34,16 +33,7 @@ function PlasmicMarket__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -63,12 +53,6 @@ function PlasmicMarket__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <div
             data-plasmic-name={"sectionMarketHeadline"}
             data-plasmic-override={overrides.sectionMarketHeadline}
@@ -689,14 +673,12 @@ function PlasmicMarket__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionMarketHeadline",
     "sectionNewServiceListings",
     "sectionServiceCollections",
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionMarketHeadline: ["sectionMarketHeadline"],
   sectionNewServiceListings: ["sectionNewServiceListings"],
   sectionServiceCollections: ["sectionServiceCollections"],
@@ -734,7 +716,6 @@ export const PlasmicMarket = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionMarketHeadline: makeNodeComponent("sectionMarketHeadline"),
     sectionNewServiceListings: makeNodeComponent("sectionNewServiceListings"),
     sectionServiceCollections: makeNodeComponent("sectionServiceCollections"),

@@ -4145,6 +4145,84 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicNotificationSettingsForm.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "pCEmHN-z0K",
+          "name": "Layout",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicLayout.jsx",
+          "importSpec": {
+            "modulePath": "Layout.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pP9c6XTFzc",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicNavbar.jsx",
+          "importSpec": {
+            "modulePath": "Navbar.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WJhSPQRdlH",
+          "name": "Sidebar",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSidebar.jsx",
+          "importSpec": {
+            "modulePath": "Sidebar.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSidebar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5M7wE13TFT",
+          "name": "SidebarItem",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSidebarItem.jsx",
+          "importSpec": {
+            "modulePath": "SidebarItem.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSidebarItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KxVhYLcKen",
+          "name": "Inbox",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicInbox.jsx",
+          "importSpec": {
+            "modulePath": "../pages/inbox.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicInbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "iOk1GFS0p-",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicAvatar.jsx",
+          "importSpec": {
+            "modulePath": "Avatar.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -5972,6 +6050,12 @@
         "name": "Screen",
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
         "contextFilePath": "plasmic/market_v_2/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "yRz57WAHKe",
+        "name": "Layout",
+        "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+        "contextFilePath": "plasmic/market_v_2/PlasmicGlobalVariant__Layout.jsx"
       }
     ]
   },

@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
@@ -64,13 +63,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
           property="og:title"
           content={"Partner performance and analytics"}
         />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`
@@ -91,12 +83,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarPartnerEdit
             data-plasmic-name={"navbarPartnerEdit"}
             data-plasmic-override={overrides.navbarPartnerEdit}
@@ -1203,7 +1189,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarPartnerEdit",
     "sectionHeaderPartnerPerformance",
     "cardHeaderTitleDisplay",
@@ -1233,7 +1218,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionHeaderPartnerPerformance: [
     "sectionHeaderPartnerPerformance",
@@ -1348,7 +1332,6 @@ export const PlasmicPartnerperformance = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionHeaderPartnerPerformance: makeNodeComponent(
       "sectionHeaderPartnerPerformance"

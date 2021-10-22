@@ -57,13 +57,6 @@ function PlasmicMemberpricing__RenderFunc(props) {
           property="og:title"
           content={"Membership Pricing | Intrepid Market"}
         />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`

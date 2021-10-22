@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
 import ChipSearchFilterButton from "../../ChipSearchFilterButton"; // plasmic-import: GbL35coVdJ/component
@@ -36,16 +35,7 @@ function PlasmicSearch__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -67,12 +57,6 @@ function PlasmicSearch__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <div className={classNames(defaultcss.all, sty.freeBox__mByHg)}>
             <CardHeaderTitleDisplay
               data-plasmic-name={"cardHeaderTitleDisplay"}
@@ -438,15 +422,7 @@ function PlasmicSearch__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "navbarInternal",
-    "cardHeaderTitleDisplay",
-    "buttonPrimary",
-    "footerB"
-  ],
-
-  navbarInternal: ["navbarInternal"],
+  root: ["root", "cardHeaderTitleDisplay", "buttonPrimary", "footerB"],
   cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
   buttonPrimary: ["buttonPrimary"],
   footerB: ["footerB"]
@@ -483,7 +459,6 @@ export const PlasmicSearch = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     footerB: makeNodeComponent("footerB"),

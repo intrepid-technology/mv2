@@ -8,11 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
 .navbarMemberEdit:global(.__wab_instance) {
   position: relative;
   left: auto;
@@ -51,8 +46,8 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberSettingsEmail {
-    width: auto;
-    display: inline-flex;
+    width: 100%;
+    min-width: 0;
     padding: 16px;
   }
 }
@@ -66,6 +61,12 @@
 }
 .emailForm:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .emailForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .formMemberEditEmail {
   display: flex;
@@ -645,6 +646,12 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formMemberEditMobileNumber {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .freeBox__ltCq0 {
   display: flex;
   flex-direction: column;
@@ -669,6 +676,12 @@
   > picture
   > img {
   margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__ltCq0 {
+    width: auto;
+    display: inline-flex;
+  }
 }
 .cardHeaderTitlePrimary__xC5L:global(.__wab_instance) {
   position: relative;
@@ -924,6 +937,12 @@
 .notificationsForm:global(.__wab_instance) {
   position: relative;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .notificationsForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .freeBox__wBn7A {
   display: flex;
   position: relative;
@@ -933,9 +952,21 @@
   padding-right: 180px;
   padding-left: 180px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__wBn7A {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
 .notificationSettingsForm:global(.__wab_instance) {
   width: 550px;
   flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .notificationSettingsForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionMemberSettingsDeleteAccount {
   display: flex;

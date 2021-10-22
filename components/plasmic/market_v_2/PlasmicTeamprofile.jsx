@@ -19,7 +19,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionTeamProfileHero from "../../SectionTeamProfileHero"; // plasmic-import: HxQLFVQnwjF/component
 import NavbarTeamUserProfile from "../../NavbarTeamUserProfile"; // plasmic-import: 6HzrYVr_1ZK/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -53,16 +52,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
-      </Head>
+      <Head></Head>
 
       <style>{`
         body {
@@ -82,12 +72,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <SectionTeamProfileHero
             data-plasmic-name={"sectionTeamProfileHero"}
             data-plasmic-override={overrides.sectionTeamProfileHero}
@@ -1440,7 +1424,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionTeamProfileHero",
     "navbarTeamUserProfile",
     "teamAboutInfoSection",
@@ -1517,7 +1500,6 @@ const PlasmicDescendants = {
     "footerB"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionTeamProfileHero: ["sectionTeamProfileHero"],
   navbarTeamUserProfile: ["navbarTeamUserProfile"],
   teamAboutInfoSection: [
@@ -1863,7 +1845,6 @@ export const PlasmicTeamprofile = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionTeamProfileHero: makeNodeComponent("sectionTeamProfileHero"),
     navbarTeamUserProfile: makeNodeComponent("navbarTeamUserProfile"),
     teamAboutInfoSection: makeNodeComponent("teamAboutInfoSection"),

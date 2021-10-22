@@ -39,9 +39,6 @@
   > img {
   margin-top: 0px;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-}
 .sectionHeaderEditListing {
   display: flex;
   position: relative;

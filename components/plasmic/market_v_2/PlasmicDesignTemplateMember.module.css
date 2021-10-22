@@ -21,27 +21,6 @@
     justify-content: flex-start;
   }
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .navbarInternal:global(.__wab_instance) {
-    top: auto;
-    left: auto;
-    right: auto;
-    position: relative;
-  }
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .navbarInternal:global(.__wab_instance) {
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-}
 .sectionMemberProfileHero:global(.__wab_instance) {
   position: relative;
   top: auto;

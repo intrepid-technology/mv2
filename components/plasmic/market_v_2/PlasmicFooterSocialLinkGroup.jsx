@@ -65,7 +65,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
           [sty.instagram__color_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-        destination={"https://www.instagram.com/intrepid.marketh"}
+        destination={"https://www.instagram.com/intrepid.market"}
       >
         <Icon9Icon
           className={classNames(defaultcss.all, sty.svg__fDtqD)}

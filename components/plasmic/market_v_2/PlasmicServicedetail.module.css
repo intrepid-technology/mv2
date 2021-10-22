@@ -21,25 +21,6 @@
     flex-column-gap: 0px;
   }
 }
-.navbarPrimary:global(.__wab_instance) {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .navbarPrimary:global(.__wab_instance) {
-    position: relative;
-    left: auto;
-    top: auto;
-  }
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .navbarPrimary:global(.__wab_instance) {
-    position: relative;
-    left: auto;
-    top: auto;
-  }
-}
 .serviceDetailCheckoutPageParent {
   display: flex;
   position: absolute;
@@ -2128,6 +2109,7 @@
     width: 360px;
     padding-bottom: 0px;
     margin-top: calc(0px + 48px) !important;
+    margin-left: calc(0px + 32px) !important;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {

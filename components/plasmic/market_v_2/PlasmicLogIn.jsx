@@ -46,13 +46,6 @@ function PlasmicLogIn__RenderFunc(props) {
           property="og:title"
           content={"Log in | Intrepid Market"}
         />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
       </Head>
 
       <style>{`

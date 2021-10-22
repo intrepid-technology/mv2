@@ -43,7 +43,7 @@
     {
       "name": "BGLightA",
       "type": "color",
-      "value": "#ffffff",
+      "value": "#FFFFFF",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
@@ -393,7 +393,7 @@
     {
       "name": "borderBGDarkHover",
       "type": "color",
-      "value": "#ffffff",
+      "value": "#FFFFFF",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
@@ -613,7 +613,7 @@
     {
       "name": "contentLightA",
       "type": "color",
-      "value": "#ffffff",
+      "value": "#FFFFFF",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
@@ -1133,7 +1133,7 @@
     {
       "name": "white100",
       "type": "color",
-      "value": "#ffffff",
+      "value": "#FFFFFF",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",

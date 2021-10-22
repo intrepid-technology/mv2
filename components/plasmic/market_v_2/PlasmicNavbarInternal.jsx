@@ -126,6 +126,12 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                   "search"
                 ),
 
+                [sty.searchbarPrimary__state_loggedIn]: hasVariant(
+                  variants,
+                  "state",
+                  "loggedIn"
+                ),
+
                 [sty.searchbarPrimary__user_member_state_loggedOut]:
                   hasVariant(variants, "user", "member") &&
                   hasVariant(variants, "state", "loggedOut")
