@@ -13,6 +13,7 @@
     "@plasmicapp/react-web": "^0.2.87",
     "@reduxjs/toolkit": "^1.6.2",
     "@supabase/supabase-js": "^1.24.0",
+    "axios": "^0.24.0",
     "cors": "^2.8.5",
     "downshift": "^6.1.7",
     "lodash": "^4.17.21",
