@@ -25,7 +25,6 @@ import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/component
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -44,7 +43,9 @@ function PlasmicEditmembersettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -865,12 +866,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               </Button>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -921,8 +916,7 @@ const PlasmicDescendants = {
     "notificationSettingsForm",
     "sectionMemberSettingsDeleteAccount",
     "sectionMemberDeleteAccount",
-    "deleteAccountButton",
-    "footerB"
+    "deleteAccountButton"
   ],
 
   navbarMemberEdit: ["navbarMemberEdit"],
@@ -1106,8 +1100,7 @@ const PlasmicDescendants = {
     "deleteAccountButton"
   ],
 
-  deleteAccountButton: ["deleteAccountButton"],
-  footerB: ["footerB"]
+  deleteAccountButton: ["deleteAccountButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1201,7 +1194,6 @@ export const PlasmicEditmembersettings = Object.assign(
 
     sectionMemberDeleteAccount: makeNodeComponent("sectionMemberDeleteAccount"),
     deleteAccountButton: makeNodeComponent("deleteAccountButton"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditmembersettings
     internalVariantProps: PlasmicEditmembersettings__VariantProps,
     internalArgProps: PlasmicEditmembersettings__ArgProps

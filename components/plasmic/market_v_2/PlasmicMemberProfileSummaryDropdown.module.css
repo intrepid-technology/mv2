@@ -1,0 +1,225 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+}
+.userAvatarVerificationBadge {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top: auto;
+  left: auto;
+}
+.navUserAvatar182 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.navUserAvatar182 > picture > img {
+  object-fit: cover;
+}
+.navUserAvatar182 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.navUserAvatar242 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.navUserAvatar242 > picture > img {
+  object-fit: cover;
+}
+.navUserAvatar242 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.navUserAvatar32 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  object-position: center top;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.navUserAvatar32 > picture > img {
+  object-fit: cover;
+  object-position: center top;
+}
+.navUserAvatar32 > .__wab_img-spacer > img {
+  object-fit: cover;
+  object-position: center top;
+}
+.img__idFyR {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__idFyR > picture > img {
+  object-fit: cover;
+}
+.img__idFyR > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__jCnJk {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__jCnJk > picture > img {
+  object-fit: cover;
+}
+.img__jCnJk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__qvyl9 {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__qvyl9 > picture > img {
+  object-fit: cover;
+}
+.img__qvyl9 > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__bUXeV {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__bUXeV > picture > img {
+  object-fit: cover;
+}
+.img__bUXeV > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__cpHq {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__cpHq > picture > img {
+  object-fit: cover;
+}
+.img__cpHq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__gaVks {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__gaVks > picture > img {
+  object-fit: cover;
+}
+.img__gaVks > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img___5EK2P {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img___5EK2P > picture > img {
+  object-fit: cover;
+}
+.img___5EK2P > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__iHs9R {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__iHs9R > picture > img {
+  object-fit: cover;
+}
+.img__iHs9R > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.buttonSideBarMemberSettings:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}

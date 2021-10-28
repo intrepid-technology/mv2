@@ -47,8 +47,29 @@ function PlasmicLayout__RenderFunc(props) {
       <Navbar
         data-plasmic-name={"navbar"}
         data-plasmic-override={overrides.navbar}
-        className={classNames("__wab_instance", sty.navbar)}
+        auth={"auth"}
+        className={classNames("__wab_instance", sty.navbar, {
+          [sty.navbar__global_layout_sidebarOpen]: hasVariant(
+            globalVariants,
+            "layout",
+            "sidebarOpen"
+          )
+        })}
       />
+
+      {(hasVariant(globalVariants, "layout", "sidebarOpen") ? true : true) ? (
+        <Sidebar
+          data-plasmic-name={"sidebar"}
+          data-plasmic-override={overrides.sidebar}
+          className={classNames("__wab_instance", sty.sidebar, {
+            [sty.sidebar__global_layout_sidebarOpen]: hasVariant(
+              globalVariants,
+              "layout",
+              "sidebarOpen"
+            )
+          })}
+        />
+      ) : null}
 
       <div
         data-plasmic-name={"body"}
@@ -61,72 +82,39 @@ function PlasmicLayout__RenderFunc(props) {
           )
         })}
       >
-        {(hasVariant(globalVariants, "layout", "sidebarOpen") ? true : true) ? (
-          <Sidebar
-            data-plasmic-name={"sidebar"}
-            data-plasmic-override={overrides.sidebar}
-            className={classNames("__wab_instance", sty.sidebar, {
-              [sty.sidebar__global_layout_sidebarOpen]: hasVariant(
-                globalVariants,
-                "layout",
-                "sidebarOpen"
-              )
-            })}
-          />
-        ) : null}
-        {(
-          hasVariant(globalVariants, "layout", "sidebarOpen") ? true : false
-        ) ? (
-          <div
-            data-plasmic-name={"sidebarOverlay"}
-            data-plasmic-override={overrides.sidebarOverlay}
-            className={classNames(defaultcss.all, sty.sidebarOverlay, {
-              [sty.sidebarOverlay__global_layout_sidebarOpen]: hasVariant(
-                globalVariants,
-                "layout",
-                "sidebarOpen"
-              )
-            })}
-          />
-        ) : null}
-
         <div
           data-plasmic-name={"main"}
           data-plasmic-override={overrides.main}
-          className={classNames(defaultcss.all, sty.main)}
+          className={classNames(defaultcss.all, sty.main, {
+            [sty.main__global_layout_sidebarOpen]: hasVariant(
+              globalVariants,
+              "layout",
+              "sidebarOpen"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: null,
             value: args.main
           })}
+
+          <FooterB
+            data-plasmic-name={"footerB"}
+            data-plasmic-override={overrides.footerB}
+            className={classNames("__wab_instance", sty.footerB)}
+          />
         </div>
       </div>
-
-      <FooterB
-        data-plasmic-name={"footerB"}
-        data-plasmic-override={overrides.footerB}
-        className={classNames("__wab_instance", sty.footerB)}
-      />
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "navbar",
-    "body",
-    "sidebar",
-    "sidebarOverlay",
-    "main",
-    "footerB"
-  ],
-
+  root: ["root", "navbar", "sidebar", "body", "main", "footerB"],
   navbar: ["navbar"],
-  body: ["body", "sidebar", "sidebarOverlay", "main"],
   sidebar: ["sidebar"],
-  sidebarOverlay: ["sidebarOverlay"],
-  main: ["main"],
+  body: ["body", "main", "footerB"],
+  main: ["main", "footerB"],
   footerB: ["footerB"]
 };
 
@@ -162,9 +150,8 @@ export const PlasmicLayout = Object.assign(
   {
     // Helper components rendering sub-elements
     navbar: makeNodeComponent("navbar"),
-    body: makeNodeComponent("body"),
     sidebar: makeNodeComponent("sidebar"),
-    sidebarOverlay: makeNodeComponent("sidebarOverlay"),
+    body: makeNodeComponent("body"),
     main: makeNodeComponent("main"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLayout

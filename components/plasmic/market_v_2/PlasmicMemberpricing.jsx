@@ -24,7 +24,6 @@ import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // 
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
 import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import InputEmailB from "../../InputEmailB"; // plasmic-import: TlHGxonFgD/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -51,6 +50,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Membership Pricing | Intrepid Market"}</title>
         <meta
           key="og:title"
@@ -79,12 +79,14 @@ function PlasmicMemberpricing__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarPrimary
-            data-plasmic-name={"navbarPrimary"}
-            data-plasmic-override={overrides.navbarPrimary}
-            className={classNames("__wab_instance", sty.navbarPrimary)}
-            user={"seller"}
-          />
+          {false ? (
+            <NavbarPrimary
+              data-plasmic-name={"navbarPrimary"}
+              data-plasmic-override={overrides.navbarPrimary}
+              className={classNames("__wab_instance", sty.navbarPrimary)}
+              user={"seller"}
+            />
+          ) : null}
 
           <p.Stack
             as={"div"}
@@ -1449,12 +1451,6 @@ function PlasmicMemberpricing__RenderFunc(props) {
               }
             />
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -1483,8 +1479,7 @@ const PlasmicDescendants = {
     "partnerAgencyPricingtable",
     "overlineHeadline2",
     "overlineHeadline24",
-    "inputEmailB",
-    "footerB"
+    "inputEmailB"
   ],
 
   navbarPrimary: ["navbarPrimary"],
@@ -1534,8 +1529,7 @@ const PlasmicDescendants = {
   partnerAgencyPricingtable: ["partnerAgencyPricingtable"],
   overlineHeadline2: ["overlineHeadline2"],
   overlineHeadline24: ["overlineHeadline24"],
-  inputEmailB: ["inputEmailB"],
-  footerB: ["footerB"]
+  inputEmailB: ["inputEmailB"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1595,7 +1589,6 @@ export const PlasmicMemberpricing = Object.assign(
     overlineHeadline2: makeNodeComponent("overlineHeadline2"),
     overlineHeadline24: makeNodeComponent("overlineHeadline24"),
     inputEmailB: makeNodeComponent("inputEmailB"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMemberpricing
     internalVariantProps: PlasmicMemberpricing__VariantProps,
     internalArgProps: PlasmicMemberpricing__ArgProps

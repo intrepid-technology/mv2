@@ -566,10 +566,3 @@
 .text__jMIx {
   font-size: 24px;
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  bottom: auto;
-  right: auto;
-}

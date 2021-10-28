@@ -26,7 +26,6 @@ import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -52,7 +51,9 @@ function PlasmicServicedetail__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -1740,12 +1741,6 @@ function PlasmicServicedetail__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1821,8 +1816,7 @@ const PlasmicDescendants = {
     "save",
     "bookmark",
     "share",
-    "svgShare",
-    "footerB"
+    "svgShare"
   ],
 
   serviceDetailCheckoutPageParent: [
@@ -2173,8 +2167,7 @@ const PlasmicDescendants = {
   save: ["save", "bookmark"],
   bookmark: ["bookmark"],
   share: ["share", "svgShare"],
-  svgShare: ["svgShare"],
-  footerB: ["footerB"]
+  svgShare: ["svgShare"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -2290,7 +2283,6 @@ export const PlasmicServicedetail = Object.assign(
     bookmark: makeNodeComponent("bookmark"),
     share: makeNodeComponent("share"),
     svgShare: makeNodeComponent("svgShare"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicServicedetail
     internalVariantProps: PlasmicServicedetail__VariantProps,
     internalArgProps: PlasmicServicedetail__ArgProps

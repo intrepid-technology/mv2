@@ -15,9 +15,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarSwitch from "../../NavbarSwitch"; // plasmic-import: tmc24NnB44/component
-import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
-import PanelPartnerHeaderButtonSettings from "../../PanelPartnerHeaderButtonSettings"; // plasmic-import: AS7ILA_RiJ/component
+import PartnerProfileSummaryDropdown from "../../PartnerProfileSummaryDropdown"; // plasmic-import: luagzhtXbcO/component
 import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -31,139 +29,36 @@ export const PlasmicPanelHeaderDisplayPartner__ArgProps = new Array();
 function PlasmicPanelHeaderDisplayPartner__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"elementPartnerSidebarHeader"}
-        data-plasmic-override={overrides.elementPartnerSidebarHeader}
-        hasGap={true}
-        className={classNames(defaultcss.all, sty.elementPartnerSidebarHeader)}
-      >
-        <NavbarSwitch
-          data-plasmic-name={"navbarSwitch"}
-          data-plasmic-override={overrides.navbarSwitch}
-          className={classNames("__wab_instance", sty.navbarSwitch)}
-          close={"close"}
-        />
+      <PartnerProfileSummaryDropdown
+        data-plasmic-name={"partnerProfileSummaryDropdown"}
+        data-plasmic-override={overrides.partnerProfileSummaryDropdown}
+        className={classNames(
+          "__wab_instance",
+          sty.partnerProfileSummaryDropdown
+        )}
+      />
 
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"avatarPartnerUsernameDisplayNameParent"}
-          data-plasmic-override={
-            overrides.avatarPartnerUsernameDisplayNameParent
-          }
-          hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            sty.avatarPartnerUsernameDisplayNameParent
-          )}
-        >
-          <div
-            data-plasmic-name={"partnerAvatarParent"}
-            data-plasmic-override={overrides.partnerAvatarParent}
-            className={classNames(defaultcss.all, sty.partnerAvatarParent)}
-          >
-            <UserAvatar
-              data-plasmic-name={"userAvatar"}
-              data-plasmic-override={overrides.userAvatar}
-              navUserAvatar16={
-                <img
-                  data-plasmic-name={"navUserAvatar1822"}
-                  data-plasmic-override={overrides.navUserAvatar1822}
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.navUserAvatar1822)}
-                  src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
-                />
-              }
-              navUserAvatar24={
-                <img
-                  data-plasmic-name={"navUserAvatar2422"}
-                  data-plasmic-override={overrides.navUserAvatar2422}
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.navUserAvatar2422)}
-                  src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
-                />
-              }
-              size={"_32"}
-              verified={"verified"}
-            />
-          </div>
-
-          <PanelPartnerHeaderButtonSettings
-            data-plasmic-name={"panelPartnerHeaderButtonSettings"}
-            data-plasmic-override={overrides.panelPartnerHeaderButtonSettings}
-            className={classNames(
-              "__wab_instance",
-              sty.panelPartnerHeaderButtonSettings
-            )}
-            trigger={"side-barUserSettingsDropdown"}
-          />
-
-          <ButtonIconNotificationBell
-            data-plasmic-name={"panelPartner"}
-            data-plasmic-override={overrides.panelPartner}
-            className={classNames("__wab_instance", sty.panelPartner)}
-          />
-        </p.Stack>
-      </p.Stack>
-    </div>
+      <ButtonIconNotificationBell
+        data-plasmic-name={"panelPartner"}
+        data-plasmic-override={overrides.panelPartner}
+        className={classNames("__wab_instance", sty.panelPartner)}
+      />
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "elementPartnerSidebarHeader",
-    "navbarSwitch",
-    "avatarPartnerUsernameDisplayNameParent",
-    "partnerAvatarParent",
-    "userAvatar",
-    "navUserAvatar1822",
-    "navUserAvatar2422",
-    "panelPartnerHeaderButtonSettings",
-    "panelPartner"
-  ],
-
-  elementPartnerSidebarHeader: [
-    "elementPartnerSidebarHeader",
-    "navbarSwitch",
-    "avatarPartnerUsernameDisplayNameParent",
-    "partnerAvatarParent",
-    "userAvatar",
-    "navUserAvatar1822",
-    "navUserAvatar2422",
-    "panelPartnerHeaderButtonSettings",
-    "panelPartner"
-  ],
-
-  navbarSwitch: ["navbarSwitch"],
-  avatarPartnerUsernameDisplayNameParent: [
-    "avatarPartnerUsernameDisplayNameParent",
-    "partnerAvatarParent",
-    "userAvatar",
-    "navUserAvatar1822",
-    "navUserAvatar2422",
-    "panelPartnerHeaderButtonSettings",
-    "panelPartner"
-  ],
-
-  partnerAvatarParent: [
-    "partnerAvatarParent",
-    "userAvatar",
-    "navUserAvatar1822",
-    "navUserAvatar2422"
-  ],
-
-  userAvatar: ["userAvatar", "navUserAvatar1822", "navUserAvatar2422"],
-  navUserAvatar1822: ["navUserAvatar1822"],
-  navUserAvatar2422: ["navUserAvatar2422"],
-  panelPartnerHeaderButtonSettings: ["panelPartnerHeaderButtonSettings"],
+  root: ["root", "partnerProfileSummaryDropdown", "panelPartner"],
+  partnerProfileSummaryDropdown: ["partnerProfileSummaryDropdown"],
   panelPartner: ["panelPartner"]
 };
 
@@ -198,21 +93,8 @@ export const PlasmicPanelHeaderDisplayPartner = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    elementPartnerSidebarHeader: makeNodeComponent(
-      "elementPartnerSidebarHeader"
-    ),
-
-    navbarSwitch: makeNodeComponent("navbarSwitch"),
-    avatarPartnerUsernameDisplayNameParent: makeNodeComponent(
-      "avatarPartnerUsernameDisplayNameParent"
-    ),
-
-    partnerAvatarParent: makeNodeComponent("partnerAvatarParent"),
-    userAvatar: makeNodeComponent("userAvatar"),
-    navUserAvatar1822: makeNodeComponent("navUserAvatar1822"),
-    navUserAvatar2422: makeNodeComponent("navUserAvatar2422"),
-    panelPartnerHeaderButtonSettings: makeNodeComponent(
-      "panelPartnerHeaderButtonSettings"
+    partnerProfileSummaryDropdown: makeNodeComponent(
+      "partnerProfileSummaryDropdown"
     ),
 
     panelPartner: makeNodeComponent("panelPartner"),

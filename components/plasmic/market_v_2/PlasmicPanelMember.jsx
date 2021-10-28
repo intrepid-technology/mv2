@@ -15,7 +15,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import PanelMemberHeaderButtonSettings from "../../PanelMemberHeaderButtonSettings"; // plasmic-import: io5-1sj1-O9/component
 import PanelButtonHeader from "../../PanelButtonHeader"; // plasmic-import: l8x-1W9kbZ/component
 import PanelCommunityScores from "../../PanelCommunityScores"; // plasmic-import: JsYhtV8o3HC/component
 import PanelMemberSectionMarket from "../../PanelMemberSectionMarket"; // plasmic-import: 8_xnKrMMUML/component
@@ -48,31 +47,27 @@ function PlasmicPanelMember__RenderFunc(props) {
         hasGap={true}
         className={classNames(defaultcss.all, sty.parent)}
       >
-        <div
-          data-plasmic-name={"headerPanelMainMember"}
-          data-plasmic-override={overrides.headerPanelMainMember}
-          className={classNames(defaultcss.all, sty.headerPanelMainMember)}
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"header"}
+          data-plasmic-override={overrides.header}
+          hasGap={true}
+          className={classNames(defaultcss.all, sty.header)}
         >
-          <PanelMemberHeaderButtonSettings
-            data-plasmic-name={"memberHeaderDisplay"}
-            data-plasmic-override={overrides.memberHeaderDisplay}
-            className={classNames("__wab_instance", sty.memberHeaderDisplay)}
-          />
-
           <PanelButtonHeader
             data-plasmic-name={"memberButtonHeader"}
             data-plasmic-override={overrides.memberButtonHeader}
             className={classNames("__wab_instance", sty.memberButtonHeader)}
             user={"member"}
           />
-        </div>
 
-        <PanelCommunityScores
-          data-plasmic-name={"memberCommunityScores"}
-          data-plasmic-override={overrides.memberCommunityScores}
-          className={classNames("__wab_instance", sty.memberCommunityScores)}
-          user={"member"}
-        />
+          <PanelCommunityScores
+            data-plasmic-name={"memberCommunityScores"}
+            data-plasmic-override={overrides.memberCommunityScores}
+            className={classNames("__wab_instance", sty.memberCommunityScores)}
+            user={"member"}
+          />
+        </p.Stack>
 
         <PanelMemberSectionMarket
           data-plasmic-name={"memberMarket"}
@@ -94,13 +89,19 @@ function PlasmicPanelMember__RenderFunc(props) {
             sty.panelMemberSectionAccount
           )}
         />
+      </p.Stack>
 
+      <div
+        data-plasmic-name={"footer"}
+        data-plasmic-override={overrides.footer}
+        className={classNames(defaultcss.all, sty.footer)}
+      >
         <PanelFooter
           data-plasmic-name={"panelFooter"}
           data-plasmic-override={overrides.panelFooter}
           className={classNames("__wab_instance", sty.panelFooter)}
         />
-      </p.Stack>
+      </div>
     </div>
   );
 }
@@ -109,40 +110,33 @@ const PlasmicDescendants = {
   root: [
     "root",
     "parent",
-    "headerPanelMainMember",
-    "memberHeaderDisplay",
+    "header",
     "memberButtonHeader",
     "memberCommunityScores",
     "memberMarket",
     "panelMemberSectionMember",
     "panelMemberSectionAccount",
+    "footer",
     "panelFooter"
   ],
 
   parent: [
     "parent",
-    "headerPanelMainMember",
-    "memberHeaderDisplay",
+    "header",
     "memberButtonHeader",
     "memberCommunityScores",
     "memberMarket",
     "panelMemberSectionMember",
-    "panelMemberSectionAccount",
-    "panelFooter"
+    "panelMemberSectionAccount"
   ],
 
-  headerPanelMainMember: [
-    "headerPanelMainMember",
-    "memberHeaderDisplay",
-    "memberButtonHeader"
-  ],
-
-  memberHeaderDisplay: ["memberHeaderDisplay"],
+  header: ["header", "memberButtonHeader", "memberCommunityScores"],
   memberButtonHeader: ["memberButtonHeader"],
   memberCommunityScores: ["memberCommunityScores"],
   memberMarket: ["memberMarket"],
   panelMemberSectionMember: ["panelMemberSectionMember"],
   panelMemberSectionAccount: ["panelMemberSectionAccount"],
+  footer: ["footer", "panelFooter"],
   panelFooter: ["panelFooter"]
 };
 
@@ -178,13 +172,13 @@ export const PlasmicPanelMember = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
-    headerPanelMainMember: makeNodeComponent("headerPanelMainMember"),
-    memberHeaderDisplay: makeNodeComponent("memberHeaderDisplay"),
+    header: makeNodeComponent("header"),
     memberButtonHeader: makeNodeComponent("memberButtonHeader"),
     memberCommunityScores: makeNodeComponent("memberCommunityScores"),
     memberMarket: makeNodeComponent("memberMarket"),
     panelMemberSectionMember: makeNodeComponent("panelMemberSectionMember"),
     panelMemberSectionAccount: makeNodeComponent("panelMemberSectionAccount"),
+    footer: makeNodeComponent("footer"),
     panelFooter: makeNodeComponent("panelFooter"),
     // Metadata about props expected for PlasmicPanelMember
     internalVariantProps: PlasmicPanelMember__VariantProps,

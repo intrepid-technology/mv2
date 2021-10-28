@@ -21,7 +21,6 @@ import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-impo
 import ChipSearchFilterButton from "../../ChipSearchFilterButton"; // plasmic-import: GbL35coVdJ/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -35,7 +34,9 @@ function PlasmicSearch__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -409,12 +410,6 @@ function PlasmicSearch__RenderFunc(props) {
               </div>
             </ButtonPrimary>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -422,10 +417,9 @@ function PlasmicSearch__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "cardHeaderTitleDisplay", "buttonPrimary", "footerB"],
+  root: ["root", "cardHeaderTitleDisplay", "buttonPrimary"],
   cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
-  buttonPrimary: ["buttonPrimary"],
-  footerB: ["footerB"]
+  buttonPrimary: ["buttonPrimary"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -461,7 +455,6 @@ export const PlasmicSearch = Object.assign(
     // Helper components rendering sub-elements
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicSearch
     internalVariantProps: PlasmicSearch__VariantProps,
     internalArgProps: PlasmicSearch__ArgProps

@@ -6,7 +6,7 @@ import { useLocalStorageState } from "../utils/useLocalStorage";
 
 function Layout_(props, ref) {
   const [sidebarOpen, setSidebarOpen] = React.useState(false)
-  const [isSellerView, setIsSellerView] = useLocalStorageState(false)
+  const [isSellerView, setIsSellerView] = useLocalStorageState('isSellerView', false)
 
   return (
     <LayoutContext.Provider value={{ sidebarOpen, setSidebarOpen, isSellerView, setIsSellerView }}>

@@ -38,7 +38,9 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -66,7 +68,9 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
+              backButtonDestination={"/service/listing/image"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
+              nextButtonDestination={"/service/listing/order"}
             >
               {"Delivery"}
             </NavbarServiceListing>

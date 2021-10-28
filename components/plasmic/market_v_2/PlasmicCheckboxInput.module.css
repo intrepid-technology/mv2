@@ -47,13 +47,13 @@
 .root:hover .freeBox {
   background: #ffffff;
 }
+.root:focus-within .freeBox {
+  outline: none;
+  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
 .root .freeBox_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-}
-.root:focus-within .freeBox {
-  outline: none;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .svg {

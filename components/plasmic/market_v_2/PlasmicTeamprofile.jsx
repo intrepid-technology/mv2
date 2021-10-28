@@ -29,7 +29,6 @@ import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/compo
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import IconSocialProfile from "../../IconSocialProfile"; // plasmic-import: IC5nyjlnco/component
 import CardUserprofile from "../../CardUserprofile"; // plasmic-import: 0on5_Y1mrei/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -52,7 +51,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -1409,12 +1410,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
               ) : null}
             </p.Stack>
           ) : null}
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1496,8 +1491,7 @@ const PlasmicDescendants = {
     "sectionPartnerAlsoViewed",
     "profileTeamCarousellParentA",
     "headlineMembersAlsoViewed",
-    "alsoViewedParent",
-    "footerB"
+    "alsoViewedParent"
   ],
 
   sectionTeamProfileHero: ["sectionTeamProfileHero"],
@@ -1810,8 +1804,7 @@ const PlasmicDescendants = {
   ],
 
   headlineMembersAlsoViewed: ["headlineMembersAlsoViewed"],
-  alsoViewedParent: ["alsoViewedParent"],
-  footerB: ["footerB"]
+  alsoViewedParent: ["alsoViewedParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1927,7 +1920,6 @@ export const PlasmicTeamprofile = Object.assign(
 
     headlineMembersAlsoViewed: makeNodeComponent("headlineMembersAlsoViewed"),
     alsoViewedParent: makeNodeComponent("alsoViewedParent"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicTeamprofile
     internalVariantProps: PlasmicTeamprofile__VariantProps,
     internalArgProps: PlasmicTeamprofile__ArgProps

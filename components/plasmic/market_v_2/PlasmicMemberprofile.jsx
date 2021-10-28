@@ -27,7 +27,6 @@ import ElementMemberProfileConnections from "../../ElementMemberProfileConnectio
 import ElementProfileAttributes from "../../ElementProfileAttributes"; // plasmic-import: D0kbF0YbT67/component
 import ElementProfileSocial from "../../ElementProfileSocial"; // plasmic-import: jeCDVKO8R8/component
 import ElementMemberProfileCarousell from "../../ElementMemberProfileCarousell"; // plasmic-import: Ip2eQQfcFG/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -46,7 +45,9 @@ function PlasmicMemberprofile__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -298,19 +299,6 @@ function PlasmicMemberprofile__RenderFunc(props) {
               ) : null}
             </p.Stack>
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : true
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
-          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -332,8 +320,7 @@ const PlasmicDescendants = {
     "elementProfileAttributes",
     "elementProfileSocial",
     "sectionProfileMemberSimilarMembers",
-    "sectionProfileMemberPeopleAlsoViewed",
-    "footerB"
+    "sectionProfileMemberPeopleAlsoViewed"
   ],
 
   sectionMemberProfileHero: ["sectionMemberProfileHero"],
@@ -363,11 +350,7 @@ const PlasmicDescendants = {
   elementProfileAttributes: ["elementProfileAttributes"],
   elementProfileSocial: ["elementProfileSocial"],
   sectionProfileMemberSimilarMembers: ["sectionProfileMemberSimilarMembers"],
-  sectionProfileMemberPeopleAlsoViewed: [
-    "sectionProfileMemberPeopleAlsoViewed"
-  ],
-
-  footerB: ["footerB"]
+  sectionProfileMemberPeopleAlsoViewed: ["sectionProfileMemberPeopleAlsoViewed"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -435,7 +418,6 @@ export const PlasmicMemberprofile = Object.assign(
       "sectionProfileMemberPeopleAlsoViewed"
     ),
 
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMemberprofile
     internalVariantProps: PlasmicMemberprofile__VariantProps,
     internalArgProps: PlasmicMemberprofile__ArgProps

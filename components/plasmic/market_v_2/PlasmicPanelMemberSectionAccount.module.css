@@ -57,43 +57,21 @@
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox___6VJUh {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__lQxxk {
+.navImage2 {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }
 .menuIconListItem__uNiLi:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox___7CxmV {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__eP0Lh {
+.navImage {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }

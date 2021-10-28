@@ -65,89 +65,118 @@ function PlasmicPanelMemberSectionMarket__RenderFunc(props) {
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__e7Dob)}
+        destination={"/market"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__rgAf)}>
-            <MarketIcon
-              className={classNames(defaultcss.all, sty.svg__ongMw)}
-              role={"img"}
-            />
-          </div>
+          <MarketIcon
+            data-plasmic-name={"navImage2"}
+            data-plasmic-override={overrides.navImage2}
+            className={classNames(defaultcss.all, sty.navImage2)}
+            role={"img"}
+          />
         }
         navText={"Home"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__fgRr)}
+        destination={"/recommendations"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__pgI4F)}>
-            <RecommendationsIcon
-              className={classNames(defaultcss.all, sty.svg__oCwzA)}
-              role={"img"}
-            />
-          </div>
+          <RecommendationsIcon
+            data-plasmic-name={"navImage3"}
+            data-plasmic-override={overrides.navImage3}
+            className={classNames(defaultcss.all, sty.navImage3)}
+            role={"img"}
+          />
         }
         navText={"Recommendations"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__il9Fd)}
+        destination={"/bookmarks"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__wow17)}>
-            <BookmarkIcon
-              className={classNames(defaultcss.all, sty.svg___2IchP)}
-              role={"img"}
-            />
-          </div>
+          <BookmarkIcon
+            data-plasmic-name={"navImage4"}
+            data-plasmic-override={overrides.navImage4}
+            className={classNames(defaultcss.all, sty.navImage4)}
+            role={"img"}
+          />
         }
         navText={"Bookmarks"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__bjWxX)}
+        destination={"/orders"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__uc2Ke)}>
-            <OrdersIcon
-              className={classNames(defaultcss.all, sty.svg__d9Zyx)}
-              role={"img"}
-            />
-          </div>
+          <OrdersIcon
+            data-plasmic-name={"navImage5"}
+            data-plasmic-override={overrides.navImage5}
+            className={classNames(defaultcss.all, sty.navImage5)}
+            role={"img"}
+          />
         }
         navText={"Orders"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__iVsEj)}
+        destination={"/reviews"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__cYlnU)}>
-            <CommentReviewBIcon
-              className={classNames(defaultcss.all, sty.svg__bfAxW)}
-              role={"img"}
-            />
-          </div>
+          <CommentReviewBIcon
+            data-plasmic-name={"navImage6"}
+            data-plasmic-override={overrides.navImage6}
+            className={classNames(defaultcss.all, sty.navImage6)}
+            role={"img"}
+          />
         }
         navText={"Reviews"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__y6VHc)}
+        destination={"/inbox"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__lgXoG)}>
-            <CommentReviewIcon
-              className={classNames(defaultcss.all, sty.svg__v2XM)}
-              role={"img"}
-            />
-          </div>
+          <CommentReviewIcon
+            data-plasmic-name={"navImage"}
+            data-plasmic-override={overrides.navImage}
+            className={classNames(defaultcss.all, sty.navImage)}
+            role={"img"}
+          />
         }
         navText={"Messages"}
+        renderContext={"sidebar"}
       />
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text"],
+  root: [
+    "root",
+    "freeBox",
+    "text",
+    "navImage2",
+    "navImage3",
+    "navImage4",
+    "navImage5",
+    "navImage6",
+    "navImage"
+  ],
+
   freeBox: ["freeBox", "text"],
-  text: ["text"]
+  text: ["text"],
+  navImage2: ["navImage2"],
+  navImage3: ["navImage3"],
+  navImage4: ["navImage4"],
+  navImage5: ["navImage5"],
+  navImage6: ["navImage6"],
+  navImage: ["navImage"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -183,6 +212,12 @@ export const PlasmicPanelMemberSectionMarket = Object.assign(
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
     text: makeNodeComponent("text"),
+    navImage2: makeNodeComponent("navImage2"),
+    navImage3: makeNodeComponent("navImage3"),
+    navImage4: makeNodeComponent("navImage4"),
+    navImage5: makeNodeComponent("navImage5"),
+    navImage6: makeNodeComponent("navImage6"),
+    navImage: makeNodeComponent("navImage"),
     // Metadata about props expected for PlasmicPanelMemberSectionMarket
     internalVariantProps: PlasmicPanelMemberSectionMarket__VariantProps,
     internalArgProps: PlasmicPanelMemberSectionMarket__ArgProps

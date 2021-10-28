@@ -2996,22 +2996,3 @@
 .text__ffOr8 {
   position: relative;
 }
-.footerB:global(.__wab_instance) {
-  position: absolute;
-  left: 0px;
-  top: 4544px;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .footerB:global(.__wab_instance) {
-    position: relative;
-    left: auto;
-    top: auto;
-  }
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .footerB:global(.__wab_instance) {
-    position: relative;
-    left: auto;
-    top: auto;
-  }
-}

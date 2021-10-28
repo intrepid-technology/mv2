@@ -24,7 +24,6 @@ import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLp
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
 import TableProjectAdminHeader from "../../TableProjectAdminHeader"; // plasmic-import: K0Z1ZWLiupV/component
 import TableProjectAdminRecord from "../../TableProjectAdminRecord"; // plasmic-import: XwgjB__2WeM/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -43,7 +42,9 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -309,12 +310,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -338,8 +333,7 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectAdminHeader",
-    "footerB"
+    "tableProjectAdminHeader"
   ],
 
   navbarMemberEdit: ["navbarMemberEdit"],
@@ -402,8 +396,7 @@ const PlasmicDescendants = {
   searchbarPrimary: ["searchbarPrimary"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
   orderTableColumnMain: ["orderTableColumnMain", "tableProjectAdminHeader"],
-  tableProjectAdminHeader: ["tableProjectAdminHeader"],
-  footerB: ["footerB"]
+  tableProjectAdminHeader: ["tableProjectAdminHeader"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -464,7 +457,6 @@ export const PlasmicMembermanageprojects = Object.assign(
 
     orderTableColumnMain: makeNodeComponent("orderTableColumnMain"),
     tableProjectAdminHeader: makeNodeComponent("tableProjectAdminHeader"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMembermanageprojects
     internalVariantProps: PlasmicMembermanageprojects__VariantProps,
     internalArgProps: PlasmicMembermanageprojects__ArgProps

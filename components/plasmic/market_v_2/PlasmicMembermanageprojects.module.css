@@ -418,10 +418,3 @@
   top: auto;
   left: auto;
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-}

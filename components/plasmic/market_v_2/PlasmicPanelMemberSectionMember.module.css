@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   position: relative;
+  background: #ffffff;
   min-width: 0;
   padding: 0px;
 }
@@ -43,7 +44,7 @@
   > img {
   margin-top: 6px;
 }
-.text {
+.text__lJwqz {
   font-size: 8px;
   line-height: 1;
   font-weight: 600;
@@ -56,87 +57,40 @@
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox__zguGp {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__ap2W1 {
+.navImage2 {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }
 .menuIconListItem___0XxPt:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox__gXhjV {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg___9BwdA {
+.navImage3 {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }
 .menuIconListItem__xxjKa:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox___4GV0R {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__lzfQv {
+.navImage4 {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }
-.menuIconListItem__nmWzI:global(.__wab_instance) {
+.switchToPartnerButton:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
+  height: 32px;
   flex-shrink: 0;
 }
-.freeBox__tr75C {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__gy7Kc {
-  object-fit: cover;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
+.text__lExxv {
+  font-size: 12px;
 }

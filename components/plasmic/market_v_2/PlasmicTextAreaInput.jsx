@@ -23,26 +23,51 @@ import * as sty from "./PlasmicTextAreaInput.module.css"; // plasmic-import: 0ft
 
 export const PlasmicTextAreaInput__VariantProps = new Array(
   "type",
-  "adornment"
+  "adornment",
+  "showLabel"
 );
 
 export const PlasmicTextAreaInput__ArgProps = new Array(
   "startAdornment",
   "endAdornment",
   "name",
-  "placeholder"
+  "placeholder",
+  "label"
 );
 
 function PlasmicTextAreaInput__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      hasGap={true}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__showLabel]: hasVariant(variants, "showLabel", "showLabel")
+      })}
     >
+      {(hasVariant(variants, "showLabel", "showLabel") ? true : false) ? (
+        <div
+          data-plasmic-name={"labelWrapper"}
+          data-plasmic-override={overrides.labelWrapper}
+          className={classNames(defaultcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__showLabel]: hasVariant(
+              variants,
+              "showLabel",
+              "showLabel"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Enter some text",
+            value: args.label
+          })}
+        </div>
+      ) : null}
+
       <div
         data-plasmic-name={"wrapper"}
         data-plasmic-override={overrides.wrapper}
@@ -158,13 +183,14 @@ function PlasmicTextAreaInput__RenderFunc(props) {
           </div>
         ) : null}
       </div>
-    </div>
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
   root: [
     "root",
+    "labelWrapper",
     "wrapper",
     "startAdornmentWrapper",
     "inputWrapper",
@@ -172,6 +198,7 @@ const PlasmicDescendants = {
     "endAdornmentWrapper"
   ],
 
+  labelWrapper: ["labelWrapper"],
   wrapper: [
     "wrapper",
     "startAdornmentWrapper",
@@ -217,6 +244,7 @@ export const PlasmicTextAreaInput = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    labelWrapper: makeNodeComponent("labelWrapper"),
     wrapper: makeNodeComponent("wrapper"),
     startAdornmentWrapper: makeNodeComponent("startAdornmentWrapper"),
     inputWrapper: makeNodeComponent("inputWrapper"),

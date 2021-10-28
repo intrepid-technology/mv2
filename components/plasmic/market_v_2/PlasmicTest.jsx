@@ -40,6 +40,7 @@ function PlasmicTest__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Test"}</title>
         <meta key="og:title" property="og:title" content={"Test"} />
       </Head>

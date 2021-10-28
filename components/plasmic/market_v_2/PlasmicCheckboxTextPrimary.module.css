@@ -48,13 +48,13 @@
 .root:hover .freeBox {
   background: #ffffff;
 }
+.root:focus-within .freeBox {
+  outline: none;
+  border-color: #1976d2;
+}
 .root .freeBox_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #1976d2;
-}
-.root:focus-within .freeBox {
-  outline: none;
   border-color: #1976d2;
 }
 .svg {

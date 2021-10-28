@@ -27,7 +27,6 @@ import ButtonGroupStripeConnect from "../../ButtonGroupStripeConnect"; // plasmi
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -48,7 +47,9 @@ function PlasmicEditteamsettings__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -721,12 +722,6 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               </Button>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -775,8 +770,7 @@ const PlasmicDescendants = {
     "leaveTeamButton",
     "sectionTeamSettingsDeleteTeam",
     "cardTeamDeleteAccount",
-    "deleteAccountButton",
-    "footerB"
+    "deleteAccountButton"
   ],
 
   navbarMemberEdit: ["navbarMemberEdit"],
@@ -974,8 +968,7 @@ const PlasmicDescendants = {
   ],
 
   cardTeamDeleteAccount: ["cardTeamDeleteAccount", "deleteAccountButton"],
-  deleteAccountButton: ["deleteAccountButton"],
-  footerB: ["footerB"]
+  deleteAccountButton: ["deleteAccountButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1073,7 +1066,6 @@ export const PlasmicEditteamsettings = Object.assign(
 
     cardTeamDeleteAccount: makeNodeComponent("cardTeamDeleteAccount"),
     deleteAccountButton: makeNodeComponent("deleteAccountButton"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteamsettings
     internalVariantProps: PlasmicEditteamsettings__VariantProps,
     internalArgProps: PlasmicEditteamsettings__ArgProps

@@ -4223,6 +4223,123 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicAvatar.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "tedFSU58Q9L",
+          "name": "MemberProfileSummaryDropdown",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMemberProfileSummaryDropdown.jsx",
+          "importSpec": {
+            "modulePath": "MemberProfileSummaryDropdown.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMemberProfileSummaryDropdown.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "luagzhtXbcO",
+          "name": "PartnerProfileSummaryDropdown",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPartnerProfileSummaryDropdown.jsx",
+          "importSpec": {
+            "modulePath": "PartnerProfileSummaryDropdown.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPartnerProfileSummaryDropdown.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oYHuuPF01Z",
+          "name": "Recommendation",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicRecommendation.jsx",
+          "importSpec": {
+            "modulePath": "../pages/recommendations.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicRecommendation.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "nW6yiRUQVu",
+          "name": "Bookmarks",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicBookmarks.jsx",
+          "importSpec": {
+            "modulePath": "../pages/bookmarks.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicBookmarks.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "MaV3u1U4Cx",
+          "name": "Orders",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicOrders.jsx",
+          "importSpec": {
+            "modulePath": "../pages/orders.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicOrders.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "WeGpfqeJl5",
+          "name": "Reviews",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicReviews.jsx",
+          "importSpec": {
+            "modulePath": "../pages/reviews.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicReviews.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "1sHGjFsIBS",
+          "name": "Notifications",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicNotifications.jsx",
+          "importSpec": {
+            "modulePath": "../pages/notifications.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicNotifications.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "CfNJpbOHCk",
+          "name": "Wallet",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicWallet.jsx",
+          "importSpec": {
+            "modulePath": "../pages/wallet.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicWallet.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wdhcheOkaT",
+          "name": "ButtonPartnerSidebarSettings",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicButtonPartnerSidebarSettings.jsx",
+          "importSpec": {
+            "modulePath": "ButtonPartnerSidebarSettings.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicButtonPartnerSidebarSettings.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

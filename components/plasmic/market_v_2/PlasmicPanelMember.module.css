@@ -3,24 +3,28 @@
   position: relative;
   flex-direction: column;
   align-items: stretch;
-  justify-content: flex-start;
+  justify-content: space-between;
+  width: 270px;
+  height: 100%;
+  min-height: 0;
 }
 .parent {
   display: flex;
   flex-direction: column;
-  width: 270px;
-  height: 900px;
   background: #ffffff;
-  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
   padding: 0px 8px 8px;
   border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
-  margin-top: calc(0px - 4px);
-  height: calc(100% + 4px);
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -30,19 +34,34 @@
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-top: 4px;
+  margin-top: 8px;
 }
-.headerPanelMainMember {
+.header {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: space-evenly;
   top: auto;
   left: auto;
   width: 100%;
-  height: auto;
+  margin-bottom: 16px;
   min-width: 0;
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
 }
 .memberButtonHeader:global(.__wab_instance) {
   position: relative;
@@ -69,9 +88,12 @@
   top: auto;
   left: auto;
 }
-.panelFooter:global(.__wab_instance) {
+.footer {
+  display: flex;
   position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }

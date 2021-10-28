@@ -40,11 +40,13 @@ function PlasmicNavbar__RenderFunc(props) {
   });
 
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
         [sty.root__auth]: hasVariant(variants, "auth", "auth")
       })}
@@ -54,13 +56,10 @@ function PlasmicNavbar__RenderFunc(props) {
         data-plasmic-name={"brandWrapper"}
         data-plasmic-override={overrides.brandWrapper}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.brandWrapper)}
+        className={classNames(defaultcss.all, sty.brandWrapper, {
+          [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
+        })}
       >
-        <NavbarLogo
-          data-plasmic-name={"navbarLogo"}
-          data-plasmic-override={overrides.navbarLogo}
-        />
-
         {(hasVariant(variants, "auth", "auth") ? true : false) ? (
           <div
             data-plasmic-name={"iconWrapper"}
@@ -76,6 +75,17 @@ function PlasmicNavbar__RenderFunc(props) {
               role={"img"}
             />
           </div>
+        ) : null}
+        {(
+          hasVariant(variants, "auth", "auth") &&
+          hasVariant(globalVariants, "screen", "iphone678Plus")
+            ? false
+            : true
+        ) ? (
+          <NavbarLogo
+            data-plasmic-name={"navbarLogo"}
+            data-plasmic-override={overrides.navbarLogo}
+          />
         ) : null}
       </p.Stack>
 
@@ -154,19 +164,35 @@ function PlasmicNavbar__RenderFunc(props) {
                 <Icon174Icon
                   data-plasmic-name={"svg"}
                   data-plasmic-override={overrides.svg}
-                  className={classNames(defaultcss.all, sty.svg)}
+                  className={classNames(defaultcss.all, sty.svg, {
+                    [sty.svg__auth]: hasVariant(variants, "auth", "auth")
+                  })}
                   role={"img"}
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__wQrSm
-                  )}
-                >
-                  {"Search"}
-                </div>
+                {(
+                  hasVariant(variants, "auth", "auth") &&
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                    ? true
+                    : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__wQrSm,
+                      {
+                        [sty.text__auth__wQrSmSwJWc]: hasVariant(
+                          variants,
+                          "auth",
+                          "auth"
+                        )
+                      }
+                    )}
+                  >
+                    {"Search"}
+                  </div>
+                ) : null}
               </p.Stack>
             }
           />
@@ -206,7 +232,7 @@ function PlasmicNavbar__RenderFunc(props) {
           ) : null}
         </div>
       ) : null}
-    </div>
+    </p.Stack>
   );
 }
 
@@ -214,9 +240,9 @@ const PlasmicDescendants = {
   root: [
     "root",
     "brandWrapper",
-    "navbarLogo",
     "iconWrapper",
     "menuIcon",
+    "navbarLogo",
     "actionWrapper",
     "memberButton",
     "partnerButton",
@@ -229,10 +255,10 @@ const PlasmicDescendants = {
     "img"
   ],
 
-  brandWrapper: ["brandWrapper", "navbarLogo", "iconWrapper", "menuIcon"],
-  navbarLogo: ["navbarLogo"],
+  brandWrapper: ["brandWrapper", "iconWrapper", "menuIcon", "navbarLogo"],
   iconWrapper: ["iconWrapper", "menuIcon"],
   menuIcon: ["menuIcon"],
+  navbarLogo: ["navbarLogo"],
   actionWrapper: ["actionWrapper", "memberButton", "partnerButton"],
   memberButton: ["memberButton"],
   partnerButton: ["partnerButton"],
@@ -277,9 +303,9 @@ export const PlasmicNavbar = Object.assign(
   {
     // Helper components rendering sub-elements
     brandWrapper: makeNodeComponent("brandWrapper"),
-    navbarLogo: makeNodeComponent("navbarLogo"),
     iconWrapper: makeNodeComponent("iconWrapper"),
     menuIcon: makeNodeComponent("menuIcon"),
+    navbarLogo: makeNodeComponent("navbarLogo"),
     actionWrapper: makeNodeComponent("actionWrapper"),
     memberButton: makeNodeComponent("memberButton"),
     partnerButton: makeNodeComponent("partnerButton"),

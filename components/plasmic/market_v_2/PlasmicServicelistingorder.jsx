@@ -46,7 +46,9 @@ function PlasmicServicelistingorder__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -76,8 +78,9 @@ function PlasmicServicelistingorder__RenderFunc(props) {
             <NavbarServiceListing
               data-plasmic-name={"buttonCheckout"}
               data-plasmic-override={overrides.buttonCheckout}
+              backButtonDestination={"/service/listing/delivery"}
               className={classNames("__wab_instance", sty.buttonCheckout)}
-              state={"checkout"}
+              hideNext={"hideNext"}
             >
               {"Order"}
             </NavbarServiceListing>

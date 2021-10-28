@@ -64,76 +64,101 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__aLa21)}
+        destination={"/partner/manage/listings"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__q4FeH)}>
-            <ListingIcon
-              className={classNames(defaultcss.all, sty.svg___6SZ2J)}
-              role={"img"}
-            />
-          </div>
+          <ListingIcon
+            data-plasmic-name={"navImage2"}
+            data-plasmic-override={overrides.navImage2}
+            className={classNames(defaultcss.all, sty.navImage2)}
+            role={"img"}
+          />
         }
         navText={"Listings"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__wdXuy)}
+        destination={"/orders"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__xk0T)}>
-            <OrdersIcon
-              className={classNames(defaultcss.all, sty.svg__b2LKa)}
-              role={"img"}
-            />
-          </div>
+          <OrdersIcon
+            data-plasmic-name={"navImage3"}
+            data-plasmic-override={overrides.navImage3}
+            className={classNames(defaultcss.all, sty.navImage3)}
+            role={"img"}
+          />
         }
         navText={"Orders"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__qt1Y6)}
+        destination={"/partner/performance"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__matSb)}>
-            <ChartIcon
-              className={classNames(defaultcss.all, sty.svg__nboNy)}
-              role={"img"}
-            />
-          </div>
+          <ChartIcon
+            data-plasmic-name={"navImage4"}
+            data-plasmic-override={overrides.navImage4}
+            className={classNames(defaultcss.all, sty.navImage4)}
+            role={"img"}
+          />
         }
         navText={"Performance"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__j5Km)}
+        destination={"/reviews"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__xOnag)}>
-            <CommentReviewBIcon
-              className={classNames(defaultcss.all, sty.svg__pq45T)}
-              role={"img"}
-            />
-          </div>
+          <CommentReviewBIcon
+            data-plasmic-name={"navImage5"}
+            data-plasmic-override={overrides.navImage5}
+            className={classNames(defaultcss.all, sty.navImage5)}
+            role={"img"}
+          />
         }
         navText={"Reviews"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__jIdBw)}
+        destination={"/inbox"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox___7NhUb)}>
-            <CommentReviewIcon
-              className={classNames(defaultcss.all, sty.svg__v85Vh)}
-              role={"img"}
-            />
-          </div>
+          <CommentReviewIcon
+            data-plasmic-name={"navImage"}
+            data-plasmic-override={overrides.navImage}
+            className={classNames(defaultcss.all, sty.navImage)}
+            role={"img"}
+          />
         }
         navText={"Messages"}
+        renderContext={"sidebar"}
       />
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text"],
+  root: [
+    "root",
+    "freeBox",
+    "text",
+    "navImage2",
+    "navImage3",
+    "navImage4",
+    "navImage5",
+    "navImage"
+  ],
+
   freeBox: ["freeBox", "text"],
-  text: ["text"]
+  text: ["text"],
+  navImage2: ["navImage2"],
+  navImage3: ["navImage3"],
+  navImage4: ["navImage4"],
+  navImage5: ["navImage5"],
+  navImage: ["navImage"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -169,6 +194,11 @@ export const PlasmicPanelPartnerSectionMarket = Object.assign(
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
     text: makeNodeComponent("text"),
+    navImage2: makeNodeComponent("navImage2"),
+    navImage3: makeNodeComponent("navImage3"),
+    navImage4: makeNodeComponent("navImage4"),
+    navImage5: makeNodeComponent("navImage5"),
+    navImage: makeNodeComponent("navImage"),
     // Metadata about props expected for PlasmicPanelPartnerSectionMarket
     internalVariantProps: PlasmicPanelPartnerSectionMarket__VariantProps,
     internalArgProps: PlasmicPanelPartnerSectionMarket__ArgProps

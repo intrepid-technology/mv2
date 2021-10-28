@@ -22,7 +22,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import ElementListingEditCard from "../../ElementListingEditCard"; // plasmic-import: JDi6d9hmkm/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -41,7 +40,9 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -486,12 +487,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 />
               </p.Stack>
             </p.Stack>
-
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
           </p.Stack>
         </div>
       </div>
@@ -506,8 +501,7 @@ const PlasmicDescendants = {
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
-    "listingEditCategoryFieldsParent",
-    "footerB"
+    "listingEditCategoryFieldsParent"
   ],
 
   editListingSectionParent: [
@@ -515,8 +509,7 @@ const PlasmicDescendants = {
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
-    "listingEditCategoryFieldsParent",
-    "footerB"
+    "listingEditCategoryFieldsParent"
   ],
 
   sectionHeaderEditListing: [
@@ -526,8 +519,7 @@ const PlasmicDescendants = {
 
   cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
   sectionEditListing: ["sectionEditListing", "listingEditCategoryFieldsParent"],
-  listingEditCategoryFieldsParent: ["listingEditCategoryFieldsParent"],
-  footerB: ["footerB"]
+  listingEditCategoryFieldsParent: ["listingEditCategoryFieldsParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -569,7 +561,6 @@ export const PlasmicEditpartnerlisting = Object.assign(
       "listingEditCategoryFieldsParent"
     ),
 
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditpartnerlisting
     internalVariantProps: PlasmicEditpartnerlisting__VariantProps,
     internalArgProps: PlasmicEditpartnerlisting__ArgProps

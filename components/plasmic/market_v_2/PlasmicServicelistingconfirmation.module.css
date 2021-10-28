@@ -37,8 +37,3 @@
   left: auto;
   flex-shrink: 0;
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}

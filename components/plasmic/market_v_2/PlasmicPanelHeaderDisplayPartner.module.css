@@ -1,282 +1,30 @@
 .root {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: row;
   width: 100%;
-  height: 80px;
+  height: auto;
   position: relative;
   background: #ffffff;
   min-width: 0;
 }
-.elementPartnerSidebarHeader {
-  display: flex;
+.root > :global(.__wab_flex-container) {
   flex-direction: row;
-  width: 100%;
-  height: auto;
-  min-width: 0;
-  padding: 2px 0px;
-}
-.elementPartnerSidebarHeader > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.elementPartnerSidebarHeader > :global(.__wab_flex-container) > *,
-.elementPartnerSidebarHeader
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.elementPartnerSidebarHeader > :global(.__wab_flex-container) > picture > img,
-.elementPartnerSidebarHeader
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.navbarSwitch:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.avatarPartnerUsernameDisplayNameParent {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  left: auto;
-  top: auto;
-  min-width: 0;
-}
-.avatarPartnerUsernameDisplayNameParent > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.avatarPartnerUsernameDisplayNameParent > :global(.__wab_flex-container) > *,
-.avatarPartnerUsernameDisplayNameParent
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.avatarPartnerUsernameDisplayNameParent
-  > :global(.__wab_flex-container)
-  > picture
-  > img,
-.avatarPartnerUsernameDisplayNameParent
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.partnerAvatarParent {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
   justify-content: center;
-  top: auto;
-  left: auto;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
 }
-.navUserAvatar1822 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 16px;
 }
-.navUserAvatar1822 > picture > img {
-  object-fit: cover;
-}
-.navUserAvatar1822 > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.navUserAvatar2422 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.navUserAvatar2422 > picture > img {
-  object-fit: cover;
-}
-.navUserAvatar2422 > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__eEcn {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__eEcn > picture > img {
-  object-fit: cover;
-}
-.img__eEcn > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img___4Gw1X {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___4Gw1X > picture > img {
-  object-fit: cover;
-}
-.img___4Gw1X > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img___5PjRo {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___5PjRo > picture > img {
-  object-fit: cover;
-}
-.img___5PjRo > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__aJ0Te {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__aJ0Te > picture > img {
-  object-fit: cover;
-}
-.img__aJ0Te > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__dQtQr {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__dQtQr > picture > img {
-  object-fit: cover;
-}
-.img__dQtQr > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img___3HrZh {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 48px;
-  height: 48px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img___3HrZh > picture > img {
-  object-fit: cover;
-}
-.img___3HrZh > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__ajlVs {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 64px;
-  height: 64px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__ajlVs > picture > img {
-  object-fit: cover;
-}
-.img__ajlVs > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__vTfCd {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__vTfCd > picture > img {
-  object-fit: cover;
-}
-.img__vTfCd > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__laXs5 {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__laXs5 > picture > img {
-  object-fit: cover;
-}
-.img__laXs5 > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.panelPartnerHeaderButtonSettings:global(.__wab_instance) {
+.partnerProfileSummaryDropdown:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
 .panelPartner:global(.__wab_instance) {
   position: relative;
-  align-self: flex-start;
 }

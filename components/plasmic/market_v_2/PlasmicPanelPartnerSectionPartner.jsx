@@ -16,6 +16,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -23,7 +24,6 @@ import * as sty from "./PlasmicPanelPartnerSectionPartner.module.css"; // plasmi
 import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
 import WalletEarningsIcon from "./icons/PlasmicIcon__WalletEarnings"; // plasmic-import: yPY5MrAZTs/icon
-import SwitchUserIcon from "./icons/PlasmicIcon__SwitchUser"; // plasmic-import: fiW_1GB84/icon
 
 export const PlasmicPanelPartnerSectionPartner__VariantProps = new Array();
 
@@ -49,12 +49,10 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.freeBox)}
       >
         <div
-          data-plasmic-name={"text"}
-          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.text
+            sty.text___8Dh5C
           )}
         >
           {"Partner"}
@@ -63,63 +61,87 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__dsDoA)}
+        destination={"/team/profile"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__w3J4U)}>
-            <UserIcon
-              className={classNames(defaultcss.all, sty.svg__j0I4C)}
-              role={"img"}
-            />
-          </div>
+          <UserIcon
+            data-plasmic-name={"navImage2"}
+            data-plasmic-override={overrides.navImage2}
+            className={classNames(defaultcss.all, sty.navImage2)}
+            role={"img"}
+          />
         }
         navText={"Profile"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__lqd7E)}
+        destination={"/edit/team"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__zzN6S)}>
-            <TeamPartnersIcon
-              className={classNames(defaultcss.all, sty.svg__reL48)}
-              role={"img"}
-            />
-          </div>
+          <TeamPartnersIcon
+            data-plasmic-name={"navImage3"}
+            data-plasmic-override={overrides.navImage3}
+            className={classNames(defaultcss.all, sty.navImage3)}
+            role={"img"}
+          />
         }
         navText={"Team"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__jjVq7)}
+        destination={"/wallet"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__uYn32)}>
-            <WalletEarningsIcon
-              className={classNames(defaultcss.all, sty.svg__jDd6)}
-              role={"img"}
-            />
-          </div>
+          <WalletEarningsIcon
+            data-plasmic-name={"navImage"}
+            data-plasmic-override={overrides.navImage}
+            className={classNames(defaultcss.all, sty.navImage)}
+            role={"img"}
+          />
         }
         navText={"Wallet"}
+        renderContext={"sidebar"}
       />
 
-      <MenuIconListItem
-        className={classNames("__wab_instance", sty.menuIconListItem__f163K)}
-        navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox__dpjsj)}>
-            <SwitchUserIcon
-              className={classNames(defaultcss.all, sty.svg__x4M1B)}
-              role={"img"}
-            />
-          </div>
-        }
-        navText={"Switch to Member"}
-      />
+      <Button
+        data-plasmic-name={"switchToMemberButton"}
+        data-plasmic-override={overrides.switchToMemberButton}
+        className={classNames("__wab_instance", sty.switchToMemberButton)}
+        color={"brand"}
+        preventDefault={"true"}
+        rounded={"rounded"}
+        type={"link"}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            defaultcss.__wab_text,
+            sty.text__r0JTu
+          )}
+        >
+          {"Switch to Member"}
+        </div>
+      </Button>
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text"],
-  freeBox: ["freeBox", "text"],
-  text: ["text"]
+  root: [
+    "root",
+    "freeBox",
+    "navImage2",
+    "navImage3",
+    "navImage",
+    "switchToMemberButton"
+  ],
+
+  freeBox: ["freeBox"],
+  navImage2: ["navImage2"],
+  navImage3: ["navImage3"],
+  navImage: ["navImage"],
+  switchToMemberButton: ["switchToMemberButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -154,7 +176,10 @@ export const PlasmicPanelPartnerSectionPartner = Object.assign(
   {
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
-    text: makeNodeComponent("text"),
+    navImage2: makeNodeComponent("navImage2"),
+    navImage3: makeNodeComponent("navImage3"),
+    navImage: makeNodeComponent("navImage"),
+    switchToMemberButton: makeNodeComponent("switchToMemberButton"),
     // Metadata about props expected for PlasmicPanelPartnerSectionPartner
     internalVariantProps: PlasmicPanelPartnerSectionPartner__VariantProps,
     internalArgProps: PlasmicPanelPartnerSectionPartner__ArgProps

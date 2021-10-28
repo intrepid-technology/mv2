@@ -28,7 +28,6 @@ import ButtonCirclePlusMinus from "../../ButtonCirclePlusMinus"; // plasmic-impo
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import TableUserAdminHeader from "../../TableUserAdminHeader"; // plasmic-import: hAe6_pu3NI/component
 import TableUserAdminRecord from "../../TableUserAdminRecord"; // plasmic-import: _aYcl8sdexe/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -47,7 +46,9 @@ function PlasmicEditteammanage__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -457,12 +458,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
               </p.Stack>
             ) : null}
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -493,8 +488,7 @@ const PlasmicDescendants = {
     "tableSelectColumnParent",
     "tableUserAdminHeader",
     "tableUserAdminRecord",
-    "tableUserRecord",
-    "footerB"
+    "tableUserRecord"
   ],
 
   navbarPartnerEdit: ["navbarPartnerEdit"],
@@ -590,8 +584,7 @@ const PlasmicDescendants = {
 
   tableUserAdminHeader: ["tableUserAdminHeader"],
   tableUserAdminRecord: ["tableUserAdminRecord"],
-  tableUserRecord: ["tableUserRecord"],
-  footerB: ["footerB"]
+  tableUserRecord: ["tableUserRecord"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -650,7 +643,6 @@ export const PlasmicEditteammanage = Object.assign(
     tableUserAdminHeader: makeNodeComponent("tableUserAdminHeader"),
     tableUserAdminRecord: makeNodeComponent("tableUserAdminRecord"),
     tableUserRecord: makeNodeComponent("tableUserRecord"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteammanage
     internalVariantProps: PlasmicEditteammanage__VariantProps,
     internalArgProps: PlasmicEditteammanage__ArgProps

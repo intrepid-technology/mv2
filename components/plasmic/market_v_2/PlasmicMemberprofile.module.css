@@ -611,27 +611,3 @@
 .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
   position: relative;
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .footerB:global(.__wab_instance) {
-    top: auto;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    position: relative;
-  }
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .footerB:global(.__wab_instance) {
-    top: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-}

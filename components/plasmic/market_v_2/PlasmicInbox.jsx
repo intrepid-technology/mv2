@@ -29,6 +29,7 @@ function PlasmicInbox__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Inbox"}</title>
         <meta key="og:title" property="og:title" content={"Inbox"} />
       </Head>

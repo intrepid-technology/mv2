@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import CardPasswordReset from "../../CardPasswordReset"; // plasmic-import: Olpj-oqQtA/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -31,7 +30,9 @@ function PlasmicPasswordReset__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -67,12 +68,6 @@ function PlasmicPasswordReset__RenderFunc(props) {
               data-plasmic-override={overrides.cardPasswordReset}
             />
           </div>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -80,18 +75,10 @@ function PlasmicPasswordReset__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "navbarStatic",
-    "resetPassword",
-    "cardPasswordReset",
-    "footerB"
-  ],
-
+  root: ["root", "navbarStatic", "resetPassword", "cardPasswordReset"],
   navbarStatic: ["navbarStatic"],
   resetPassword: ["resetPassword", "cardPasswordReset"],
-  cardPasswordReset: ["cardPasswordReset"],
-  footerB: ["footerB"]
+  cardPasswordReset: ["cardPasswordReset"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -128,7 +115,6 @@ export const PlasmicPasswordReset = Object.assign(
     navbarStatic: makeNodeComponent("navbarStatic"),
     resetPassword: makeNodeComponent("resetPassword"),
     cardPasswordReset: makeNodeComponent("cardPasswordReset"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPasswordReset
     internalVariantProps: PlasmicPasswordReset__VariantProps,
     internalArgProps: PlasmicPasswordReset__ArgProps

@@ -9,6 +9,7 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: WJhSPQRdlH
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -16,21 +17,17 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
-import SidebarItem from "../../SidebarItem"; // plasmic-import: 5M7wE13TFT/component
-import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import PanelMemberHeaderButtonSettings from "../../PanelMemberHeaderButtonSettings"; // plasmic-import: io5-1sj1-O9/component
+import PanelPartnerHeaderButtonSettings from "../../PanelPartnerHeaderButtonSettings"; // plasmic-import: AS7ILA_RiJ/component
+import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
+import PanelMember from "../../PanelMember"; // plasmic-import: ouYaxX0ZfJN/component
+import PanelPartner from "../../PanelPartner"; // plasmic-import: 0x12FzmUo9P/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSidebar.module.css"; // plasmic-import: WJhSPQRdlH/css
 import Icon113Icon from "./icons/PlasmicIcon__Icon113"; // plasmic-import: Bb_iW3yqSt/icon
-import Icon155Icon from "./icons/PlasmicIcon__Icon155"; // plasmic-import: oyqz-4i0N/icon
-import CommentReviewCIcon from "./icons/PlasmicIcon__CommentReviewC"; // plasmic-import: gIz1MSBwtg/icon
-import ServiceIcon from "./icons/PlasmicIcon__Service"; // plasmic-import: mkCh3UXgor/icon
-import SettingsIcon from "./icons/PlasmicIcon__Settings"; // plasmic-import: QA4fGpoajM/icon
-import Icon20Icon from "./icons/PlasmicIcon__Icon20"; // plasmic-import: EYUvp6kp-o/icon
-import Icon143Icon from "./icons/PlasmicIcon__Icon143"; // plasmic-import: pvTcyzyL4/icon
 
 export const PlasmicSidebar__VariantProps = new Array();
 
@@ -42,13 +39,25 @@ function PlasmicSidebar__RenderFunc(props) {
     layout: useLayout()
   });
 
-  return (hasVariant(globalVariants, "layout", "sidebarOpen") ? true : true) ? (
+  return (
+    hasVariant(globalVariants, "layout", "isSellerView")
+      ? true
+      : hasVariant(globalVariants, "layout", "sidebarOpen")
+      ? true
+      : true
+  ) ? (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__global_layout_isSellerView]: hasVariant(
+          globalVariants,
+          "layout",
+          "isSellerView"
+        ),
+
         [sty.root__global_layout_sidebarOpen]: hasVariant(
           globalVariants,
           "layout",
@@ -56,10 +65,18 @@ function PlasmicSidebar__RenderFunc(props) {
         )
       })}
     >
-      <div
+      <p.Stack
+        as={"div"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
-        className={classNames(defaultcss.all, sty.header)}
+        hasGap={true}
+        className={classNames(defaultcss.all, sty.header, {
+          [sty.header__global_layout_isSellerView]: hasVariant(
+            globalVariants,
+            "layout",
+            "isSellerView"
+          )
+        })}
       >
         <div
           data-plasmic-name={"iconWrapper"}
@@ -73,390 +90,84 @@ function PlasmicSidebar__RenderFunc(props) {
             role={"img"}
           />
         </div>
-      </div>
 
-      <div
-        data-plasmic-name={"content"}
-        data-plasmic-override={overrides.content}
-        className={classNames(defaultcss.all, sty.content, {
-          [sty.content__global_layout_isSellerView]: hasVariant(
-            globalVariants,
-            "layout",
-            "isSellerView"
-          )
-        })}
-      >
-        <div
-          data-plasmic-name={"sidebar"}
-          data-plasmic-override={overrides.sidebar}
-          className={classNames(defaultcss.all, sty.sidebar, {
-            [sty.sidebar__global_layout_isSellerView]: hasVariant(
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          hasGap={true}
+          className={classNames(defaultcss.all, sty.freeBox)}
+        >
+          {(
+            hasVariant(globalVariants, "layout", "isSellerView") ? false : true
+          ) ? (
+            <PanelMemberHeaderButtonSettings
+              data-plasmic-name={"panelMemberHeaderButtonSettings"}
+              data-plasmic-override={overrides.panelMemberHeaderButtonSettings}
+              className={classNames(
+                "__wab_instance",
+                sty.panelMemberHeaderButtonSettings,
+                {
+                  [sty.panelMemberHeaderButtonSettings__global_layout_isSellerView]:
+                    hasVariant(globalVariants, "layout", "isSellerView")
+                }
+              )}
+            />
+          ) : null}
+          {(
+            hasVariant(globalVariants, "layout", "isSellerView") ? true : false
+          ) ? (
+            <PanelPartnerHeaderButtonSettings
+              data-plasmic-name={"panelPartnerHeaderButtonSettings"}
+              data-plasmic-override={overrides.panelPartnerHeaderButtonSettings}
+              className={classNames(
+                "__wab_instance",
+                sty.panelPartnerHeaderButtonSettings,
+                {
+                  [sty.panelPartnerHeaderButtonSettings__global_layout_isSellerView]:
+                    hasVariant(globalVariants, "layout", "isSellerView")
+                }
+              )}
+            />
+          ) : null}
+
+          <ButtonIconNotificationBell
+            data-plasmic-name={"buttonIconNotificationBell"}
+            data-plasmic-override={overrides.buttonIconNotificationBell}
+            className={classNames(
+              "__wab_instance",
+              sty.buttonIconNotificationBell
+            )}
+          />
+        </p.Stack>
+      </p.Stack>
+
+      {(hasVariant(globalVariants, "layout", "isSellerView") ? false : true) ? (
+        <PanelMember
+          data-plasmic-name={"panelMember"}
+          data-plasmic-override={overrides.panelMember}
+          className={classNames("__wab_instance", sty.panelMember, {
+            [sty.panelMember__global_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"
             )
           })}
-        >
-          <div
-            data-plasmic-name={"title"}
-            data-plasmic-override={overrides.title}
-            className={classNames(defaultcss.all, sty.title, {
-              [sty.title__global_layout_sidebarOpen]: hasVariant(
-                globalVariants,
-                "layout",
-                "sidebarOpen"
-              )
-            })}
-          >
-            <NavbarLogo
-              data-plasmic-name={"navbarLogo"}
-              data-plasmic-override={overrides.navbarLogo}
-              className={classNames("__wab_instance", sty.navbarLogo)}
-            />
-          </div>
-
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? false : true
-          ) ? (
-            <div
-              data-plasmic-name={"memberSidbarItemsWrapper"}
-              data-plasmic-override={overrides.memberSidbarItemsWrapper}
-              className={classNames(
-                defaultcss.all,
-                sty.memberSidbarItemsWrapper,
-                {
-                  [sty.memberSidbarItemsWrapper__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView"),
-                  [sty.memberSidbarItemsWrapper__global_layout_sidebarOpen]:
-                    hasVariant(globalVariants, "layout", "sidebarOpen")
-                }
-              )}
-            >
-              <SidebarItem
-                className={classNames("__wab_instance", sty.sidebarItem__bOsoH)}
-                destination={"/market"}
-                label={"Market"}
-              >
-                <Icon155Icon
-                  className={classNames(defaultcss.all, sty.svg___9Kqi)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames("__wab_instance", sty.sidebarItem__l5Gq)}
-                destination={"/inbox"}
-                label={"Inbox"}
-              >
-                <CommentReviewCIcon
-                  className={classNames(defaultcss.all, sty.svg__eHkCv)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames("__wab_instance", sty.sidebarItem__z8Jnk)}
-                destination={"/member/manage/projects"}
-                label={"My Projects"}
-              >
-                <ServiceIcon
-                  className={classNames(defaultcss.all, sty.svg__gxtzr)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames("__wab_instance", sty.sidebarItem__kJtja)}
-                destination={"/edit/member"}
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__pjj7R
-                    )}
-                  >
-                    {"Account"}
-                  </div>
-                }
-              >
-                <SettingsIcon
-                  className={classNames(defaultcss.all, sty.svg__plkq0)}
-                  role={"img"}
-                />
-              </SidebarItem>
-            </div>
-          ) : null}
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? true : false
-          ) ? (
-            <div
-              data-plasmic-name={"sellerSidbarItemsWrapper"}
-              data-plasmic-override={overrides.sellerSidbarItemsWrapper}
-              className={classNames(
-                defaultcss.all,
-                sty.sellerSidbarItemsWrapper,
-                {
-                  [sty.sellerSidbarItemsWrapper__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView"),
-                  [sty.sellerSidbarItemsWrapper__global_layout_sidebarOpen]:
-                    hasVariant(globalVariants, "layout", "sidebarOpen")
-                }
-              )}
-            >
-              <SidebarItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.sidebarItem__yIrAq,
-                  {
-                    [sty.sidebarItem__global_layout_isSellerView__yIrAQfw6NW]:
-                      hasVariant(globalVariants, "layout", "isSellerView")
-                  }
-                )}
-                destination={
-                  hasVariant(globalVariants, "layout", "isSellerView")
-                    ? "/market"
-                    : "/partner/manage/listings"
-                }
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__bTRxR,
-                      {
-                        [sty.text__global_layout_isSellerView__bTRxRfw6NW]:
-                          hasVariant(globalVariants, "layout", "isSellerView")
-                      }
-                    )}
-                  >
-                    {hasVariant(globalVariants, "layout", "isSellerView")
-                      ? "Market"
-                      : "Market"}
-                  </div>
-                }
-              >
-                <Icon155Icon
-                  className={classNames(defaultcss.all, sty.svg__flDY)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.sidebarItem__oNzoR,
-                  {
-                    [sty.sidebarItem__global_layout_isSellerView__oNzoRfw6NW]:
-                      hasVariant(globalVariants, "layout", "isSellerView")
-                  }
-                )}
-                destination={"/inbox"}
-                label={"Inbox"}
-              >
-                <CommentReviewCIcon
-                  className={classNames(defaultcss.all, sty.svg__pjBsh)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.sidebarItem__gd6Hu,
-                  {
-                    [sty.sidebarItem__global_layout_isSellerView__gd6Hufw6NW]:
-                      hasVariant(globalVariants, "layout", "isSellerView")
-                  }
-                )}
-                destination={"/partner/manage/listings"}
-                label={
-                  hasVariant(globalVariants, "layout", "isSellerView")
-                    ? "My Services"
-                    : "My Team"
-                }
-              >
-                <ServiceIcon
-                  className={classNames(defaultcss.all, sty.svg___9Qq1D)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              <SidebarItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.sidebarItem___3WFmy,
-                  {
-                    [sty.sidebarItem__global_layout_isSellerView___3WFmYfw6NW]:
-                      hasVariant(globalVariants, "layout", "isSellerView")
-                  }
-                )}
-                destination={"/partner/performance"}
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__uPklm,
-                      {
-                        [sty.text__global_layout_isSellerView__uPklmfw6NW]:
-                          hasVariant(globalVariants, "layout", "isSellerView")
-                      }
-                    )}
-                  >
-                    {hasVariant(globalVariants, "layout", "isSellerView")
-                      ? "Analytics"
-                      : "Account"}
-                  </div>
-                }
-              >
-                <Icon20Icon
-                  className={classNames(defaultcss.all, sty.svg___9NTns)}
-                  role={"img"}
-                />
-              </SidebarItem>
-
-              {(
-                hasVariant(globalVariants, "layout", "isSellerView")
-                  ? true
-                  : false
-              ) ? (
-                <SidebarItem
-                  className={classNames(
-                    "__wab_instance",
-                    sty.sidebarItem__oNabi,
-                    {
-                      [sty.sidebarItem__global_layout_isSellerView__oNabifw6NW]:
-                        hasVariant(globalVariants, "layout", "isSellerView")
-                    }
-                  )}
-                  destination={"/edit/team"}
-                  label={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__ly9AG
-                      )}
-                    >
-                      {"My Team"}
-                    </div>
-                  }
-                >
-                  <Icon143Icon
-                    className={classNames(defaultcss.all, sty.svg__ofn1X)}
-                    role={"img"}
-                  />
-                </SidebarItem>
-              ) : null}
-              {(
-                hasVariant(globalVariants, "layout", "isSellerView")
-                  ? true
-                  : false
-              ) ? (
-                <SidebarItem
-                  className={classNames(
-                    "__wab_instance",
-                    sty.sidebarItem__nkDNx,
-                    {
-                      [sty.sidebarItem__global_layout_isSellerView__nkDNxfw6NW]:
-                        hasVariant(globalVariants, "layout", "isSellerView")
-                    }
-                  )}
-                  destination={"/edit/member"}
-                  label={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__rmv5J
-                      )}
-                    >
-                      {"Account"}
-                    </div>
-                  }
-                >
-                  <SettingsIcon
-                    className={classNames(defaultcss.all, sty.svg__bqOx5)}
-                    role={"img"}
-                  />
-                </SidebarItem>
-              ) : null}
-            </div>
-          ) : null}
-        </div>
-
-        <div
-          data-plasmic-name={"switchActionWrapper"}
-          data-plasmic-override={overrides.switchActionWrapper}
-          className={classNames(defaultcss.all, sty.switchActionWrapper)}
-        >
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? false : true
-          ) ? (
-            <Button
-              data-plasmic-name={"switchToSellerButton"}
-              data-plasmic-override={overrides.switchToSellerButton}
-              className={classNames(
-                "__wab_instance",
-                sty.switchToSellerButton,
-                {
-                  [sty.switchToSellerButton__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView")
-                }
-              )}
-              color={"brand"}
-              rounded={"rounded"}
-              type={"ghost"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__fx2T
-                )}
-              >
-                {"Switch to Seller"}
-              </div>
-            </Button>
-          ) : null}
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? true : false
-          ) ? (
-            <Button
-              data-plasmic-name={"switchToMemberButton"}
-              data-plasmic-override={overrides.switchToMemberButton}
-              className={classNames(
-                "__wab_instance",
-                sty.switchToMemberButton,
-                {
-                  [sty.switchToMemberButton__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView")
-                }
-              )}
-              color={"brand"}
-              rounded={"rounded"}
-              type={"ghost"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__lmRsh,
-                  {
-                    [sty.text__global_layout_isSellerView__lmRsHfw6NW]:
-                      hasVariant(globalVariants, "layout", "isSellerView")
-                  }
-                )}
-              >
-                {hasVariant(globalVariants, "layout", "isSellerView")
-                  ? "Switch to Member"
-                  : "Switch to Seller"}
-              </div>
-            </Button>
-          ) : null}
-        </div>
-      </div>
+        />
+      ) : null}
+      {(hasVariant(globalVariants, "layout", "isSellerView") ? true : false) ? (
+        <PanelPartner
+          data-plasmic-name={"panelPartner"}
+          data-plasmic-override={overrides.panelPartner}
+          className={classNames("__wab_instance", sty.panelPartner, {
+            [sty.panelPartner__global_layout_isSellerView]: hasVariant(
+              globalVariants,
+              "layout",
+              "isSellerView"
+            )
+          })}
+        />
+      ) : null}
     </div>
   ) : null;
 }
@@ -467,52 +178,38 @@ const PlasmicDescendants = {
     "header",
     "iconWrapper",
     "closeIcon",
-    "content",
-    "sidebar",
-    "title",
-    "navbarLogo",
-    "memberSidbarItemsWrapper",
-    "sellerSidbarItemsWrapper",
-    "switchActionWrapper",
-    "switchToSellerButton",
-    "switchToMemberButton"
+    "freeBox",
+    "panelMemberHeaderButtonSettings",
+    "panelPartnerHeaderButtonSettings",
+    "buttonIconNotificationBell",
+    "panelMember",
+    "panelPartner"
   ],
 
-  header: ["header", "iconWrapper", "closeIcon"],
+  header: [
+    "header",
+    "iconWrapper",
+    "closeIcon",
+    "freeBox",
+    "panelMemberHeaderButtonSettings",
+    "panelPartnerHeaderButtonSettings",
+    "buttonIconNotificationBell"
+  ],
+
   iconWrapper: ["iconWrapper", "closeIcon"],
   closeIcon: ["closeIcon"],
-  content: [
-    "content",
-    "sidebar",
-    "title",
-    "navbarLogo",
-    "memberSidbarItemsWrapper",
-    "sellerSidbarItemsWrapper",
-    "switchActionWrapper",
-    "switchToSellerButton",
-    "switchToMemberButton"
+  freeBox: [
+    "freeBox",
+    "panelMemberHeaderButtonSettings",
+    "panelPartnerHeaderButtonSettings",
+    "buttonIconNotificationBell"
   ],
 
-  sidebar: [
-    "sidebar",
-    "title",
-    "navbarLogo",
-    "memberSidbarItemsWrapper",
-    "sellerSidbarItemsWrapper"
-  ],
-
-  title: ["title", "navbarLogo"],
-  navbarLogo: ["navbarLogo"],
-  memberSidbarItemsWrapper: ["memberSidbarItemsWrapper"],
-  sellerSidbarItemsWrapper: ["sellerSidbarItemsWrapper"],
-  switchActionWrapper: [
-    "switchActionWrapper",
-    "switchToSellerButton",
-    "switchToMemberButton"
-  ],
-
-  switchToSellerButton: ["switchToSellerButton"],
-  switchToMemberButton: ["switchToMemberButton"]
+  panelMemberHeaderButtonSettings: ["panelMemberHeaderButtonSettings"],
+  panelPartnerHeaderButtonSettings: ["panelPartnerHeaderButtonSettings"],
+  buttonIconNotificationBell: ["buttonIconNotificationBell"],
+  panelMember: ["panelMember"],
+  panelPartner: ["panelPartner"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -549,15 +246,18 @@ export const PlasmicSidebar = Object.assign(
     header: makeNodeComponent("header"),
     iconWrapper: makeNodeComponent("iconWrapper"),
     closeIcon: makeNodeComponent("closeIcon"),
-    content: makeNodeComponent("content"),
-    sidebar: makeNodeComponent("sidebar"),
-    title: makeNodeComponent("title"),
-    navbarLogo: makeNodeComponent("navbarLogo"),
-    memberSidbarItemsWrapper: makeNodeComponent("memberSidbarItemsWrapper"),
-    sellerSidbarItemsWrapper: makeNodeComponent("sellerSidbarItemsWrapper"),
-    switchActionWrapper: makeNodeComponent("switchActionWrapper"),
-    switchToSellerButton: makeNodeComponent("switchToSellerButton"),
-    switchToMemberButton: makeNodeComponent("switchToMemberButton"),
+    freeBox: makeNodeComponent("freeBox"),
+    panelMemberHeaderButtonSettings: makeNodeComponent(
+      "panelMemberHeaderButtonSettings"
+    ),
+
+    panelPartnerHeaderButtonSettings: makeNodeComponent(
+      "panelPartnerHeaderButtonSettings"
+    ),
+
+    buttonIconNotificationBell: makeNodeComponent("buttonIconNotificationBell"),
+    panelMember: makeNodeComponent("panelMember"),
+    panelPartner: makeNodeComponent("panelPartner"),
     // Metadata about props expected for PlasmicSidebar
     internalVariantProps: PlasmicSidebar__VariantProps,
     internalArgProps: PlasmicSidebar__ArgProps

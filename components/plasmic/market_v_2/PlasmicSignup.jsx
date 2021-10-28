@@ -11,16 +11,12 @@
 import * as React from "react";
 import Head from "next/head";
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts,
-  ensureGlobalVariants
+  deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import SectionSignUp from "../../SectionSignUp"; // plasmic-import: 3UeLqCywG7/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -32,13 +28,11 @@ export const PlasmicSignup__ArgProps = new Array();
 
 function PlasmicSignup__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
-  });
-
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -69,20 +63,6 @@ function PlasmicSignup__RenderFunc(props) {
             data-plasmic-override={overrides.sectionSignUp}
             className={classNames("__wab_instance", sty.sectionSignUp)}
           />
-
-          {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : false
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
-          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -90,10 +70,9 @@ function PlasmicSignup__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarStatic", "sectionSignUp", "footerB"],
+  root: ["root", "navbarStatic", "sectionSignUp"],
   navbarStatic: ["navbarStatic"],
-  sectionSignUp: ["sectionSignUp"],
-  footerB: ["footerB"]
+  sectionSignUp: ["sectionSignUp"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -129,7 +108,6 @@ export const PlasmicSignup = Object.assign(
     // Helper components rendering sub-elements
     navbarStatic: makeNodeComponent("navbarStatic"),
     sectionSignUp: makeNodeComponent("sectionSignUp"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicSignup
     internalVariantProps: PlasmicSignup__VariantProps,
     internalArgProps: PlasmicSignup__ArgProps

@@ -26,7 +26,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -54,6 +53,7 @@ function PlasmicHome__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">
           {
             "The community for digital nomads, independent professionals & remote companies | Intrepid"
@@ -69,8 +69,8 @@ function PlasmicHome__RenderFunc(props) {
 
         <meta
           key="description"
-          name="description"
           property="og:description"
+          name="description"
           content={"Work and grow your business from anywhere in the world.\n"}
         />
 
@@ -1309,12 +1309,6 @@ function PlasmicHome__RenderFunc(props) {
               />
             </p.Stack>
           </div>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1334,8 +1328,7 @@ const PlasmicDescendants = {
     "iconBg2",
     "iconBg3",
     "signupFormHome",
-    "cardSignUp",
-    "footerB"
+    "cardSignUp"
   ],
 
   navbarOverhead: ["navbarOverhead"],
@@ -1367,8 +1360,7 @@ const PlasmicDescendants = {
   iconBg2: ["iconBg2"],
   iconBg3: ["iconBg3"],
   signupFormHome: ["signupFormHome", "cardSignUp"],
-  cardSignUp: ["cardSignUp"],
-  footerB: ["footerB"]
+  cardSignUp: ["cardSignUp"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1413,7 +1405,6 @@ export const PlasmicHome = Object.assign(
     iconBg3: makeNodeComponent("iconBg3"),
     signupFormHome: makeNodeComponent("signupFormHome"),
     cardSignUp: makeNodeComponent("cardSignUp"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
     internalArgProps: PlasmicHome__ArgProps

@@ -27,7 +27,6 @@ import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSD
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -46,7 +45,9 @@ function PlasmicEditteam__RenderFunc(props) {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -1209,12 +1210,6 @@ function PlasmicEditteam__RenderFunc(props) {
               </p.Stack>
             </FormContext>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1287,8 +1282,7 @@ const PlasmicDescendants = {
     "websiteTextInput",
     "cardTeamSocial",
     "socialPlatformsSwitchInputs",
-    "submitSocialsButton",
-    "footerB"
+    "submitSocialsButton"
   ],
 
   navbarPartnerEdit: ["navbarPartnerEdit"],
@@ -1636,8 +1630,7 @@ const PlasmicDescendants = {
   websiteTextInput: ["websiteTextInput"],
   cardTeamSocial: ["cardTeamSocial", "socialPlatformsSwitchInputs"],
   socialPlatformsSwitchInputs: ["socialPlatformsSwitchInputs"],
-  submitSocialsButton: ["submitSocialsButton"],
-  footerB: ["footerB"]
+  submitSocialsButton: ["submitSocialsButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1756,7 +1749,6 @@ export const PlasmicEditteam = Object.assign(
     ),
 
     submitSocialsButton: makeNodeComponent("submitSocialsButton"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteam
     internalVariantProps: PlasmicEditteam__VariantProps,
     internalArgProps: PlasmicEditteam__ArgProps

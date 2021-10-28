@@ -23,7 +23,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import CardAnalyticsPrimary from "../../CardAnalyticsPrimary"; // plasmic-import: -EGIFSbBWZt/component
 import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -57,6 +56,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Partner performance and analytics"}</title>
         <meta
           key="og:title"
@@ -1174,12 +1174,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               />
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1214,8 +1208,7 @@ const PlasmicDescendants = {
     "partnerSubscribers",
     "partnerConnections",
     "partnerFollowers",
-    "partnerFollowing",
-    "footerB"
+    "partnerFollowing"
   ],
 
   navbarPartnerEdit: ["navbarPartnerEdit"],
@@ -1297,8 +1290,7 @@ const PlasmicDescendants = {
   partnerSubscribers: ["partnerSubscribers"],
   partnerConnections: ["partnerConnections"],
   partnerFollowers: ["partnerFollowers"],
-  partnerFollowing: ["partnerFollowing"],
-  footerB: ["footerB"]
+  partnerFollowing: ["partnerFollowing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1364,7 +1356,6 @@ export const PlasmicPartnerperformance = Object.assign(
     partnerConnections: makeNodeComponent("partnerConnections"),
     partnerFollowers: makeNodeComponent("partnerFollowers"),
     partnerFollowing: makeNodeComponent("partnerFollowing"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPartnerperformance
     internalVariantProps: PlasmicPartnerperformance__VariantProps,
     internalArgProps: PlasmicPartnerperformance__ArgProps

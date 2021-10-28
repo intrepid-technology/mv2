@@ -15,11 +15,12 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
+import ButtonPartnerSidebarSettings from "../../ButtonPartnerSidebarSettings"; // plasmic-import: wdhcheOkaT/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartnerHeaderButtonSettings.module.css"; // plasmic-import: AS7ILA_RiJ/css
-import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 
 export const PlasmicPanelPartnerHeaderButtonSettings__VariantProps =
   new Array();
@@ -32,129 +33,39 @@ export const PlasmicPanelPartnerHeaderButtonSettings__ArgProps = new Array(
 function PlasmicPanelPartnerHeaderButtonSettings__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <div
+    <p.Stack
+      as={"div"}
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"button"}
-        data-plasmic-name={"parent"}
-        data-plasmic-override={overrides.parent}
-        hasGap={true}
-        className={classNames(defaultcss.button, sty.parent)}
-      >
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"usernamePartnerProfileName"}
-          data-plasmic-override={overrides.usernamePartnerProfileName}
-          hasGap={true}
-          className={classNames(defaultcss.all, sty.usernamePartnerProfileName)}
-        >
-          <div
-            data-plasmic-name={"campanyDisplayNameParent"}
-            data-plasmic-override={overrides.campanyDisplayNameParent}
-            className={classNames(defaultcss.all, sty.campanyDisplayNameParent)}
-          >
-            <div
-              data-plasmic-name={"companyNameText"}
-              data-plasmic-override={overrides.companyNameText}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.companyNameText
-              )}
-            >
-              {"CompanyRealName"}
-            </div>
-          </div>
+      <UserAvatar
+        data-plasmic-name={"userAvatar"}
+        data-plasmic-override={overrides.userAvatar}
+        className={classNames("__wab_instance", sty.userAvatar)}
+        size={"_32"}
+        verified={"verified"}
+      />
 
-          <div
-            data-plasmic-name={"partnerDisplayName"}
-            data-plasmic-override={overrides.partnerDisplayName}
-            className={classNames(defaultcss.all, sty.partnerDisplayName)}
-          >
-            <div
-              data-plasmic-name={"atSgin"}
-              data-plasmic-override={overrides.atSgin}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.atSgin
-              )}
-            >
-              {"@"}
-            </div>
-
-            <div
-              data-plasmic-name={"companyNameDisplay"}
-              data-plasmic-override={overrides.companyNameDisplay}
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.companyNameDisplay
-              )}
-            >
-              {"companyDisplayName"}
-            </div>
-          </div>
-        </p.Stack>
-
-        <ChevronDownBIcon
-          data-plasmic-name={"dropDownUserSettingsTrigger"}
-          data-plasmic-override={overrides.dropDownUserSettingsTrigger}
-          className={classNames(
-            defaultcss.all,
-            sty.dropDownUserSettingsTrigger
-          )}
-          role={"img"}
-        />
-      </p.Stack>
-    </div>
+      <ButtonPartnerSidebarSettings
+        data-plasmic-name={"buttonPartnerSidebarSettings"}
+        data-plasmic-override={overrides.buttonPartnerSidebarSettings}
+        className={classNames(
+          "__wab_instance",
+          sty.buttonPartnerSidebarSettings
+        )}
+      />
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "parent",
-    "usernamePartnerProfileName",
-    "campanyDisplayNameParent",
-    "companyNameText",
-    "partnerDisplayName",
-    "atSgin",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger"
-  ],
-
-  parent: [
-    "parent",
-    "usernamePartnerProfileName",
-    "campanyDisplayNameParent",
-    "companyNameText",
-    "partnerDisplayName",
-    "atSgin",
-    "companyNameDisplay",
-    "dropDownUserSettingsTrigger"
-  ],
-
-  usernamePartnerProfileName: [
-    "usernamePartnerProfileName",
-    "campanyDisplayNameParent",
-    "companyNameText",
-    "partnerDisplayName",
-    "atSgin",
-    "companyNameDisplay"
-  ],
-
-  campanyDisplayNameParent: ["campanyDisplayNameParent", "companyNameText"],
-  companyNameText: ["companyNameText"],
-  partnerDisplayName: ["partnerDisplayName", "atSgin", "companyNameDisplay"],
-  atSgin: ["atSgin"],
-  companyNameDisplay: ["companyNameDisplay"],
-  dropDownUserSettingsTrigger: ["dropDownUserSettingsTrigger"]
+  root: ["root", "userAvatar", "buttonPartnerSidebarSettings"],
+  userAvatar: ["userAvatar"],
+  buttonPartnerSidebarSettings: ["buttonPartnerSidebarSettings"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -189,15 +100,9 @@ export const PlasmicPanelPartnerHeaderButtonSettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    parent: makeNodeComponent("parent"),
-    usernamePartnerProfileName: makeNodeComponent("usernamePartnerProfileName"),
-    campanyDisplayNameParent: makeNodeComponent("campanyDisplayNameParent"),
-    companyNameText: makeNodeComponent("companyNameText"),
-    partnerDisplayName: makeNodeComponent("partnerDisplayName"),
-    atSgin: makeNodeComponent("atSgin"),
-    companyNameDisplay: makeNodeComponent("companyNameDisplay"),
-    dropDownUserSettingsTrigger: makeNodeComponent(
-      "dropDownUserSettingsTrigger"
+    userAvatar: makeNodeComponent("userAvatar"),
+    buttonPartnerSidebarSettings: makeNodeComponent(
+      "buttonPartnerSidebarSettings"
     ),
 
     // Metadata about props expected for PlasmicPanelPartnerHeaderButtonSettings

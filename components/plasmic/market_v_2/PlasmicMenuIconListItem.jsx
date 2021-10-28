@@ -23,22 +23,29 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicMenuIconListItem.module.css"; // plasmic-import: 61axZSTp8Y/css
 import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrandColor"; // plasmic-import: Lsqk-ADBoKU/icon
 
-export const PlasmicMenuIconListItem__VariantProps = new Array("disabled");
+export const PlasmicMenuIconListItem__VariantProps = new Array(
+  "disabled",
+  "selected",
+  "renderContext"
+);
 
 export const PlasmicMenuIconListItem__ArgProps = new Array(
   "navText",
   "navIcon",
-  "target"
+  "destination",
+  "openInNewTab"
 );
 
 function PlasmicMenuIconListItem__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
-    <p.PlasmicLink
+    <p.Stack
+      as={p.PlasmicLink}
       data-plasmic-name={"menuIconListItemLink"}
       data-plasmic-override={overrides.menuIconListItemLink}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
+      hasGap={true}
       className={classNames(
         defaultcss.a,
         projectcss.root_reset,
@@ -48,87 +55,94 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
             variants,
             "disabled",
             "disabled"
+          ),
+
+          [sty.menuIconListItemLink__selected]: hasVariant(
+            variants,
+            "selected",
+            "selected"
           )
         }
       )}
       component={Link}
+      href={args.destination}
       platform={"nextjs"}
+      target={args.openInNewTab}
     >
       <p.Stack
-        as={p.PlasmicLink}
-        data-plasmic-name={"sideBarNavCardLinkParent"}
-        data-plasmic-override={overrides.sideBarNavCardLinkParent}
+        as={"div"}
+        data-plasmic-name={"iconTextParent"}
+        data-plasmic-override={overrides.iconTextParent}
         hasGap={true}
-        className={classNames(defaultcss.a, sty.sideBarNavCardLinkParent, {
-          [sty.sideBarNavCardLinkParent__disabled]: hasVariant(
+        className={classNames(defaultcss.all, sty.iconTextParent, {
+          [sty.iconTextParent__selected]: hasVariant(
             variants,
-            "disabled",
-            "disabled"
+            "selected",
+            "selected"
           )
         })}
-        component={Link}
-        platform={"nextjs"}
       >
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"iconTextParent"}
-          data-plasmic-override={overrides.iconTextParent}
-          hasGap={true}
-          className={classNames(defaultcss.all, sty.iconTextParent)}
-        >
-          {p.renderPlasmicSlot({
-            defaultContents: (
-              <div className={classNames(defaultcss.all, sty.freeBox__h0S1)}>
-                <OptionalFixedBrandColorIcon
-                  className={classNames(defaultcss.all, sty.svg__wfdfm)}
-                  role={"img"}
-                />
-              </div>
+        {p.renderPlasmicSlot({
+          defaultContents: (
+            <OptionalFixedBrandColorIcon
+              className={classNames(defaultcss.all, sty.svg__wfdfm)}
+              role={"img"}
+            />
+          ),
+
+          value: args.navIcon,
+          className: classNames(sty.slotTargetNavIcon, {
+            [sty.slotTargetNavIcon__disabled]: hasVariant(
+              variants,
+              "disabled",
+              "disabled"
             ),
 
-            value: args.navIcon,
-            className: classNames(sty.slotTargetNavIcon, {
-              [sty.slotTargetNavIcon__disabled]: hasVariant(
+            [sty.slotTargetNavIcon__selected]: hasVariant(
+              variants,
+              "selected",
+              "selected"
+            )
+          })
+        })}
+
+        <div
+          data-plasmic-name={"navTextParent"}
+          data-plasmic-override={overrides.navTextParent}
+          className={classNames(defaultcss.all, sty.navTextParent, {
+            [sty.navTextParent__selected]: hasVariant(
+              variants,
+              "selected",
+              "selected"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Item",
+            value: args.navText,
+            className: classNames(sty.slotTargetNavText, {
+              [sty.slotTargetNavText__disabled]: hasVariant(
                 variants,
                 "disabled",
                 "disabled"
+              ),
+
+              [sty.slotTargetNavText__selected]: hasVariant(
+                variants,
+                "selected",
+                "selected"
               )
             })
           })}
-
-          <div
-            data-plasmic-name={"navTextParent"}
-            data-plasmic-override={overrides.navTextParent}
-            className={classNames(defaultcss.all, sty.navTextParent)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: "Item",
-              value: args.navText,
-              className: classNames(sty.slotTargetNavText, {
-                [sty.slotTargetNavText__disabled]: hasVariant(
-                  variants,
-                  "disabled",
-                  "disabled"
-                )
-              })
-            })}
-          </div>
-        </p.Stack>
+        </div>
       </p.Stack>
-    </p.PlasmicLink>
+    </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
   menuIconListItemLink: [
     "menuIconListItemLink",
-    "sideBarNavCardLinkParent",
-    "iconTextParent",
-    "navTextParent"
-  ],
-
-  sideBarNavCardLinkParent: [
-    "sideBarNavCardLinkParent",
     "iconTextParent",
     "navTextParent"
   ],
@@ -168,7 +182,6 @@ export const PlasmicMenuIconListItem = Object.assign(
   makeNodeComponent("menuIconListItemLink"),
   {
     // Helper components rendering sub-elements
-    sideBarNavCardLinkParent: makeNodeComponent("sideBarNavCardLinkParent"),
     iconTextParent: makeNodeComponent("iconTextParent"),
     navTextParent: makeNodeComponent("navTextParent"),
     // Metadata about props expected for PlasmicMenuIconListItem

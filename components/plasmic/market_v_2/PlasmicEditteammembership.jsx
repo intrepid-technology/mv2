@@ -26,7 +26,6 @@ import TableMembershipRecord from "../../TableMembershipRecord"; // plasmic-impo
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import TableBillingHeader from "../../TableBillingHeader"; // plasmic-import: gGzFXlkqWv/component
 import TableBillingRecord from "../../TableBillingRecord"; // plasmic-import: wWlyRBkfY1r/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -40,7 +39,9 @@ function PlasmicEditteammembership__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+      </Head>
 
       <style>{`
         body {
@@ -325,12 +326,6 @@ function PlasmicEditteammembership__RenderFunc(props) {
               </ButtonPrimary>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -349,8 +344,7 @@ const PlasmicDescendants = {
     "tableMembershipRecord",
     "sectionTeamPaymentMethods",
     "tableBillingHeader",
-    "tableBillingRecord",
-    "footerB"
+    "tableBillingRecord"
   ],
 
   navbarMemberEdit: ["navbarMemberEdit"],
@@ -377,8 +371,7 @@ const PlasmicDescendants = {
   ],
 
   tableBillingHeader: ["tableBillingHeader"],
-  tableBillingRecord: ["tableBillingRecord"],
-  footerB: ["footerB"]
+  tableBillingRecord: ["tableBillingRecord"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -425,7 +418,6 @@ export const PlasmicEditteammembership = Object.assign(
     sectionTeamPaymentMethods: makeNodeComponent("sectionTeamPaymentMethods"),
     tableBillingHeader: makeNodeComponent("tableBillingHeader"),
     tableBillingRecord: makeNodeComponent("tableBillingRecord"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditteammembership
     internalVariantProps: PlasmicEditteammembership__VariantProps,
     internalArgProps: PlasmicEditteammembership__ArgProps

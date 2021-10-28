@@ -20,7 +20,6 @@ import {
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import LogoHeader from "../../LogoHeader"; // plasmic-import: 9wNFT5FYWe/component
 import SectionLogIn from "../../SectionLogIn"; // plasmic-import: 6EfwvreoWT/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -40,6 +39,7 @@ function PlasmicLogIn__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Log in | Intrepid Market"}</title>
         <meta
           key="og:title"
@@ -92,19 +92,6 @@ function PlasmicLogIn__RenderFunc(props) {
               className={classNames("__wab_instance", sty.sectionLogIn)}
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : true
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
-          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -112,11 +99,10 @@ function PlasmicLogIn__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarStatic", "logoHeader", "sectionLogIn", "footerB"],
+  root: ["root", "navbarStatic", "logoHeader", "sectionLogIn"],
   navbarStatic: ["navbarStatic"],
   logoHeader: ["logoHeader"],
-  sectionLogIn: ["sectionLogIn"],
-  footerB: ["footerB"]
+  sectionLogIn: ["sectionLogIn"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -153,7 +139,6 @@ export const PlasmicLogIn = Object.assign(
     navbarStatic: makeNodeComponent("navbarStatic"),
     logoHeader: makeNodeComponent("logoHeader"),
     sectionLogIn: makeNodeComponent("sectionLogIn"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLogIn
     internalVariantProps: PlasmicLogIn__VariantProps,
     internalArgProps: PlasmicLogIn__ArgProps
