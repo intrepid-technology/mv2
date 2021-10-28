@@ -1,24 +1,24 @@
+import { useRouter } from "next/router";
 import * as React from "react";
 import { PlasmicServiceDetail } from "../components/plasmic/market_v_2/PlasmicServiceDetail";
 import useCreateOrder from "../hooks/useCreateOrder";
 
 function ServiceDetail() {
-  const [sellerId, setSellerId] = React.useState(
-    "2b205512-541f-45fa-8f3c-3426cea85ee6"
-  );
+  const router = useRouter();
+  const listingId = router.query["id"];
+
   const [buyerId, setBuyerId] = React.useState(
     "48649605-13db-479b-a0a2-162b2d6c7030"
   );
-  const [listingId, setListingId] = React.useState(26);
 
   const handleCheckout = async () => {
     createOrderMutation.mutate();
   };
 
-  const createOrderMutation = useCreateOrder(sellerId, buyerId, listingId);
+  const createOrderMutation = useCreateOrder(buyerId, listingId);
 
   if (createOrderMutation.isSuccess) {
-    console.log("Order placed");
+    router.push(createOrderMutation.data.url);
   }
 
   if (createOrderMutation.isError) {
