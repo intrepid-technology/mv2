@@ -1,5 +1,8 @@
+import { get, set } from 'lodash';
+
 import { createSlice } from '@reduxjs/toolkit'
-import { set } from 'lodash';
+
+const PROCESS_STEP_DEFUALT_ITEM = {title: '', description: ''}
 
 const initialState = {
   category: {
@@ -16,16 +19,7 @@ const initialState = {
     process: {
       overview: 'Delivery process short dummy overview',
       steps: [
-        {
-          id: 1,
-          title: 'Step 1',
-          description: 'This is our step 1'
-        },
-        {
-          id: 2,
-          title: 'Step 2',
-          description: 'This is our step 2'
-        },
+        PROCESS_STEP_DEFUALT_ITEM
       ]
     },
     time: 9, // No of days
@@ -76,11 +70,20 @@ export const serviceListingSlice = createSlice({
     updateServiceList: (state, action) => {
       const {key, value} = action.payload;
       set(state, key, value)
+    },
+    addNewStepToServiceListingProcess: (state, action) => {
+      const ref = get(state, 'delivery.process.steps')
+      ref.push(PROCESS_STEP_DEFUALT_ITEM)
+    },
+    removeStepToServiceListingProcess: (state, action) => {
+      const {index} = action.payload;
+      const ref = get(state, 'delivery.process.steps')
+      ref.splice(index, 1);
     }
   },
 })
 
 // Action creators are generated for each case reducer function
-export const { updateServiceList } = serviceListingSlice.actions
+export const { updateServiceList, addNewStepToServiceListingProcess, removeStepToServiceListingProcess } = serviceListingSlice.actions
 
 export default serviceListingSlice.reducer

@@ -4340,6 +4340,32 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicButtonPartnerSidebarSettings.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "GNcqDwksoT",
+          "name": "ArrayInputFields",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicArrayInputFields.jsx",
+          "importSpec": {
+            "modulePath": "ArrayInputFields.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicArrayInputFields.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QjWzNF8vNF",
+          "name": "ArrayInputFieldRow",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicArrayInputFieldRow.jsx",
+          "importSpec": {
+            "modulePath": "ArrayInputFieldRow.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicArrayInputFieldRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

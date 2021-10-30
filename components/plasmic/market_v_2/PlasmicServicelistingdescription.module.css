@@ -579,16 +579,20 @@
     min-width: 0;
   }
 }
-.serviceListingProcessCard:global(.__wab_instance) {
+.processStepsArrayFields:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
-  .serviceListingProcessCard:global(.__wab_instance) {
-    width: 100%;
-    min-width: 0;
-  }
+.arrayInputFieldRow__vyXbD:global(.__wab_instance) {
+  position: relative;
+}
+.textAreaInput__qNilN:global(.__wab_instance) {
+  position: relative;
+}
+.arrayInputFieldRow__lAqUr:global(.__wab_instance) {
+  position: relative;
+}
+.textAreaInput___1U8Wc:global(.__wab_instance) {
+  position: relative;
 }
 .toolTipServiceListing__anMlZ:global(.__wab_instance) {
   position: relative;

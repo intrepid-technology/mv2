@@ -60,6 +60,15 @@
   align-items: stretch;
   min-width: 0;
 }
+.columns > :nth-child(3n + 1) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.columns > :nth-child(3n + 2) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.columns > :nth-child(3n + 3) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
 .column__z4Gl {
   display: flex;
   position: relative;

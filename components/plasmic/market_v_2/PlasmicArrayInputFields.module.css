@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.itemContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.itemContainer > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.itemContainer > :global(.__wab_flex-container) > *,
+.itemContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.itemContainer > :global(.__wab_flex-container) > picture > img,
+.itemContainer
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.arrayInputFieldRow___92Hhv:global(.__wab_instance) {
+  position: relative;
+}
+.textAreaInput__wB6OF:global(.__wab_instance) {
+  position: relative;
+}
+.arrayInputFieldRow__lacZx:global(.__wab_instance) {
+  position: relative;
+}
+.textAreaInput__jVvds:global(.__wab_instance) {
+  position: relative;
+}
+.actionsContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.addActionWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.addIcon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  flex-shrink: 0;
+}
