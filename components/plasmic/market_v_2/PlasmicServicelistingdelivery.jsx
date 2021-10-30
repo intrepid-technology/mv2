@@ -14,7 +14,8 @@ import * as p from "@plasmicapp/react-web";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
@@ -25,6 +26,7 @@ import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRm
 import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -36,6 +38,10 @@ export const PlasmicServicelistingdelivery__ArgProps = new Array();
 
 function PlasmicServicelistingdelivery__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -49,7 +55,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
       `}</style>
 
       <div className={defaultcss.plasmic_page_wrapper}>
-        <form
+        <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
@@ -85,215 +91,85 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
 
           <p.Stack
             as={"div"}
-            data-plasmic-name={"questionTimeBlock"}
-            data-plasmic-override={overrides.questionTimeBlock}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.questionTimeBlock)}
-          >
-            <CardQuestionServiceListing
-              className={classNames(
-                "__wab_instance",
-                sty.cardQuestionServiceListing__j01DZ
-              )}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__mbL5D
-                  )}
-                >
-                  {"Step 4"}
-                </div>
-              }
-              slot2={"Enter a number, in days, between 1 and 90."}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__p8Gw
-                )}
-              >
-                {"How much time is required to deliver your service?"}
-              </div>
-            </CardQuestionServiceListing>
-
-            <input
-              data-plasmic-name={"textbox"}
-              data-plasmic-override={overrides.textbox}
-              className={classNames(defaultcss.input, sty.textbox)}
-              placeholder={"Enter a number"}
-              size={1}
-              type={"text"}
-              value={""}
-            />
-          </p.Stack>
-
-          <ToolTipServiceListing
-            className={classNames(
-              "__wab_instance",
-              sty.toolTipServiceListing__aun4I
-            )}
-            slot={"Delivery term or timeline"}
-          >
-            {
-              "Selecting accurate categories helps Members know what to expect when it comes to format, features, outcomes, and level of service they'll receive when creating digital products with you, or your team."
-            }
-          </ToolTipServiceListing>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"questionMeetingBlock"}
-            data-plasmic-override={overrides.questionMeetingBlock}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.questionMeetingBlock)}
-          >
-            <CardQuestionServiceListing
-              className={classNames(
-                "__wab_instance",
-                sty.cardQuestionServiceListing__e0X2Y
-              )}
-              overline={"overline"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__snn5
-                  )}
-                >
-                  {"Step 2"}
-                </div>
-              }
-              slot2={"1 to 10 meetings per project, or chose unlimited"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__g7Rsl
-                )}
-              >
-                {"How many meetings will you offer your client?"}
-              </div>
-            </CardQuestionServiceListing>
-
-            <ButtonFormDropdownSelect
-              className={classNames(
-                "__wab_instance",
-                sty.buttonFormDropdownSelect__tdwKs
-              )}
-              description={"description"}
-              dropdownTitle={"Select"}
-              headlineLabelTitle={"Now, let's be specific"}
-              label={"label"}
-              size={"_360X40"}
-            />
-          </p.Stack>
-
-          <ToolTipServiceListing
-            className={classNames(
-              "__wab_instance",
-              sty.toolTipServiceListing__zq9Sw
-            )}
-            slot={"Meetings & communication"}
-          >
-            {
-              "Selecting accurate categories helps Members know what to expect when it comes to format, features, outcomes, and level of service they'll receive when creating digital products with you, or your team."
-            }
-          </ToolTipServiceListing>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"questionRevisionBlock"}
-            data-plasmic-override={overrides.questionRevisionBlock}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.questionRevisionBlock)}
-          >
-            <CardQuestionServiceListing
-              className={classNames(
-                "__wab_instance",
-                sty.cardQuestionServiceListing___0MQxG
-              )}
-              overline={"overline"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__wBaev
-                  )}
-                >
-                  {"Step 2"}
-                </div>
-              }
-              slot2={"1 to 10 revisions per project, or chose unlimited"}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__by8Qo
-                )}
-              >
-                {"How many revisions will you offer your client?"}
-              </div>
-            </CardQuestionServiceListing>
-
-            <ButtonFormDropdownSelect
-              className={classNames(
-                "__wab_instance",
-                sty.buttonFormDropdownSelect__lorOa
-              )}
-              description={"description"}
-              dropdownTitle={"Select"}
-              headlineLabelTitle={"Now, let's be specific"}
-              label={"label"}
-              size={"_360X40"}
-            />
-          </p.Stack>
-
-          <ToolTipServiceListing
-            className={classNames(
-              "__wab_instance",
-              sty.toolTipServiceListing__pCBf5
-            )}
-            slot={"Revisions & service design"}
-          >
-            {
-              "Describe the key steps/process involved to deliver your service to the client.Provide a detailed, step-by-step overview or outline on how a project will progress.The process you use to deliver your service, provides insight to the client on the level of service you offer, and the details of the experience you provide to deliver the desired outcome."
-            }
-          </ToolTipServiceListing>
-
-          <ToolTipServiceListing
-            className={classNames(
-              "__wab_instance",
-              sty.toolTipServiceListing__tvl2H
-            )}
-            slot={"Required client assets"}
-          >
-            {
-              "For clarity and positive results, outline what you need the client to provide before you can start your service.\n"
-            }
-          </ToolTipServiceListing>
-
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"questionRequirementBlock"}
-            data-plasmic-override={overrides.questionRequirementBlock}
-            hasGap={true}
-            className={classNames(defaultcss.all, sty.questionRequirementBlock)}
+            className={classNames(defaultcss.all, sty.freeBox___7Frla)}
           >
             <p.Stack
               as={"div"}
+              data-plasmic-name={"questionTimeBlock"}
+              data-plasmic-override={overrides.questionTimeBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__rgSA)}
+              className={classNames(defaultcss.all, sty.questionTimeBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
                   "__wab_instance",
-                  sty.cardQuestionServiceListing__rlNOv
+                  sty.cardQuestionServiceListing__j01DZ
+                )}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__mbL5D
+                    )}
+                  >
+                    {"Step 4"}
+                  </div>
+                }
+                slot2={"Enter a number, in days, between 1 and 90."}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__p8Gw
+                  )}
+                >
+                  {"How much time is required to deliver your service?"}
+                </div>
+              </CardQuestionServiceListing>
+
+              <input
+                data-plasmic-name={"textbox"}
+                data-plasmic-override={overrides.textbox}
+                className={classNames(defaultcss.input, sty.textbox)}
+                placeholder={"Enter a number"}
+                size={1}
+                type={"text"}
+                value={""}
+              />
+            </p.Stack>
+
+            <ToolTipServiceListing
+              className={classNames(
+                "__wab_instance",
+                sty.toolTipServiceListing__aun4I
+              )}
+              slot={"Delivery term or timeline"}
+            >
+              {
+                "Selecting accurate categories helps Members know what to expect when it comes to format, features, outcomes, and level of service they'll receive when creating digital products with you, or your team."
+              }
+            </ToolTipServiceListing>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.freeBox__hOc5O)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"questionMeetingBlock"}
+              data-plasmic-override={overrides.questionMeetingBlock}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.questionMeetingBlock)}
+            >
+              <CardQuestionServiceListing
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardQuestionServiceListing__e0X2Y
                 )}
                 overline={"overline"}
                 slot={
@@ -301,131 +177,296 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.text__gBqE8
+                      sty.text__snn5
                     )}
                   >
                     {"Step 2"}
                   </div>
                 }
-                slot2={"Select all that apply"}
+                slot2={"1 to 10 meetings per project, or chose unlimited"}
               >
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.text__py2Sc
+                    sty.text__g7Rsl
                   )}
                 >
-                  {"What do you require from the client to start your service?"}
+                  {"How many meetings will you offer your client?"}
                 </div>
               </CardQuestionServiceListing>
+
+              <ButtonFormDropdownSelect
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonFormDropdownSelect__tdwKs
+                )}
+                description={"description"}
+                dropdownTitle={"Select"}
+                headlineLabelTitle={"Now, let's be specific"}
+                label={"label"}
+                size={"_360X40"}
+              />
             </p.Stack>
 
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__ui9Ss)}
+            <ToolTipServiceListing
+              className={classNames(
+                "__wab_instance",
+                sty.toolTipServiceListing__zq9Sw
+              )}
+              slot={"Meetings & communication"}
             >
-              <RadioCheckboxCard
-                className={classNames(
-                  "__wab_instance",
-                  sty.radioCheckboxCard__cnO1T
-                )}
-              >
-                {"Client requirement 1"}
-              </RadioCheckboxCard>
-
-              <RadioCheckboxCard
-                className={classNames(
-                  "__wab_instance",
-                  sty.radioCheckboxCard__sLNwn
-                )}
-              >
-                {"Client requirement 2 "}
-              </RadioCheckboxCard>
-
-              <RadioCheckboxCard
-                className={classNames(
-                  "__wab_instance",
-                  sty.radioCheckboxCard__tPpQg
-                )}
-              >
-                {"Client requirement 3 "}
-              </RadioCheckboxCard>
-            </p.Stack>
+              {
+                "Selecting accurate categories helps Members know what to expect when it comes to format, features, outcomes, and level of service they'll receive when creating digital products with you, or your team."
+              }
+            </ToolTipServiceListing>
           </p.Stack>
-
-          <ToolTipServiceListing
-            className={classNames(
-              "__wab_instance",
-              sty.toolTipServiceListing__aL5Ga
-            )}
-            slot={"File formats for deliverables"}
-          >
-            {
-              "For clarity and positive results, outline what you need the client to provide before you can start your service.\n"
-            }
-          </ToolTipServiceListing>
 
           <p.Stack
             as={"div"}
-            data-plasmic-name={"questionFormatBlock"}
-            data-plasmic-override={overrides.questionFormatBlock}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.questionFormatBlock)}
+            className={classNames(defaultcss.all, sty.freeBox__xvZpR)}
           >
-            <CardQuestionServiceListing
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"questionRevisionBlock"}
+              data-plasmic-override={overrides.questionRevisionBlock}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.questionRevisionBlock)}
+            >
+              <CardQuestionServiceListing
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardQuestionServiceListing___0MQxG
+                )}
+                overline={"overline"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__wBaev
+                    )}
+                  >
+                    {"Step 2"}
+                  </div>
+                }
+                slot2={"1 to 10 revisions per project, or chose unlimited"}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__by8Qo
+                  )}
+                >
+                  {"How many revisions will you offer your client?"}
+                </div>
+              </CardQuestionServiceListing>
+
+              <ButtonFormDropdownSelect
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonFormDropdownSelect__lorOa
+                )}
+                description={"description"}
+                dropdownTitle={"Select"}
+                headlineLabelTitle={"Now, let's be specific"}
+                label={"label"}
+                size={"_360X40"}
+              />
+            </p.Stack>
+
+            <ToolTipServiceListing
               className={classNames(
                 "__wab_instance",
-                sty.cardQuestionServiceListing__ya0N9
+                sty.toolTipServiceListing__pCBf5
               )}
-              overline={"overline"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__d40N6
-                  )}
-                >
-                  {"Step 2"}
-                </div>
+              slot={"Revisions & service design"}
+            >
+              {
+                "Describe the key steps/process involved to deliver your service to the client.Provide a detailed, step-by-step overview or outline on how a project will progress.The process you use to deliver your service, provides insight to the client on the level of service you offer, and the details of the experience you provide to deliver the desired outcome."
               }
-              slot2={"Search and select up to 5 formats."}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__zmCp2
-                )}
-              >
-                {"What format(s) will you provide the client?"}
-              </div>
-            </CardQuestionServiceListing>
+            </ToolTipServiceListing>
+          </p.Stack>
 
-            <SearchBadge
-              data-plasmic-name={"searchBadge"}
-              data-plasmic-override={overrides.searchBadge}
-              className={classNames("__wab_instance", sty.searchBadge)}
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.freeBox___0GvGm)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"questionRequirementBlock"}
+              data-plasmic-override={overrides.questionRequirementBlock}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                sty.questionRequirementBlock
+              )}
             >
-              <ChipBadgeDisplay
-                data-plasmic-name={"chipBadgeDisplay"}
-                data-plasmic-override={overrides.chipBadgeDisplay}
-                className={classNames("__wab_instance", sty.chipBadgeDisplay)}
-                type={"ghost"}
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.freeBox__rgSA)}
+              >
+                <CardQuestionServiceListing
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardQuestionServiceListing__rlNOv
+                  )}
+                  overline={"overline"}
+                  slot={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__gBqE8
+                      )}
+                    >
+                      {"Step 2"}
+                    </div>
+                  }
+                  slot2={"Select all that apply"}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__py2Sc
+                    )}
+                  >
+                    {
+                      "What do you require from the client to start your service?"
+                    }
+                  </div>
+                </CardQuestionServiceListing>
+              </p.Stack>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.freeBox__ui9Ss)}
+              >
+                <RadioCheckboxCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.radioCheckboxCard__cnO1T
+                  )}
+                >
+                  {"Client requirement 1"}
+                </RadioCheckboxCard>
+
+                <RadioCheckboxCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.radioCheckboxCard__sLNwn
+                  )}
+                >
+                  {"Client requirement 2 "}
+                </RadioCheckboxCard>
+
+                <RadioCheckboxCard
+                  className={classNames(
+                    "__wab_instance",
+                    sty.radioCheckboxCard__tPpQg
+                  )}
+                >
+                  {"Client requirement 3 "}
+                </RadioCheckboxCard>
+              </p.Stack>
+            </p.Stack>
+
+            <ToolTipServiceListing
+              className={classNames(
+                "__wab_instance",
+                sty.toolTipServiceListing__tvl2H
+              )}
+              slot={"Required client assets"}
+            >
+              {
+                "For clarity and positive results, outline what you need the client to provide before you can start your service.\n"
+              }
+            </ToolTipServiceListing>
+          </p.Stack>
+
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.freeBox__hXiOg)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"questionFormatBlock"}
+              data-plasmic-override={overrides.questionFormatBlock}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.questionFormatBlock)}
+            >
+              <CardQuestionServiceListing
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardQuestionServiceListing__ya0N9
+                )}
+                overline={"overline"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__d40N6
+                    )}
+                  >
+                    {"Step 2"}
+                  </div>
+                }
+                slot2={"Search and select up to 5 formats."}
               >
                 <div
                   className={classNames(
                     defaultcss.all,
                     defaultcss.__wab_text,
-                    sty.text__gkwVx
+                    sty.text__zmCp2
                   )}
                 >
-                  {"Badge"}
+                  {"What format(s) will you provide the client?"}
                 </div>
-              </ChipBadgeDisplay>
-            </SearchBadge>
+              </CardQuestionServiceListing>
+
+              <SearchBadge
+                data-plasmic-name={"searchBadge"}
+                data-plasmic-override={overrides.searchBadge}
+                className={classNames("__wab_instance", sty.searchBadge)}
+              >
+                <ChipBadgeDisplay
+                  data-plasmic-name={"chipBadgeDisplay"}
+                  data-plasmic-override={overrides.chipBadgeDisplay}
+                  className={classNames("__wab_instance", sty.chipBadgeDisplay)}
+                  type={"ghost"}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__gkwVx
+                    )}
+                  >
+                    {"Badge"}
+                  </div>
+                </ChipBadgeDisplay>
+              </SearchBadge>
+            </p.Stack>
+
+            <ToolTipServiceListing
+              className={classNames(
+                "__wab_instance",
+                sty.toolTipServiceListing__aL5Ga
+              )}
+              slot={"File formats for deliverables"}
+            >
+              {
+                "For clarity and positive results, outline what you need the client to provide before you can start your service.\n"
+              }
+            </ToolTipServiceListing>
           </p.Stack>
 
           <FooterServiceListing
@@ -433,7 +474,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
             data-plasmic-override={overrides.footerServiceListing}
             className={classNames("__wab_instance", sty.footerServiceListing)}
           />
-        </form>
+        </div>
       </div>
     </React.Fragment>
   );
