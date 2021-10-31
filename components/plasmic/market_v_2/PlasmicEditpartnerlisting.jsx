@@ -18,12 +18,10 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ElementListingEditCard from "../../ElementListingEditCard"; // plasmic-import: JDi6d9hmkm/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -43,14 +41,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -78,12 +69,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
             hasGap={true}
             className={classNames(defaultcss.all, sty.editListingSectionParent)}
           >
-            <NavbarInternal
-              data-plasmic-name={"navbarInternal"}
-              data-plasmic-override={overrides.navbarInternal}
-              className={classNames("__wab_instance", sty.navbarInternal)}
-            />
-
             <p.Stack
               as={"div"}
               data-plasmic-name={"sectionHeaderEditListing"}
@@ -98,7 +83,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 data-plasmic-name={"cardHeaderTitleDisplay"}
                 data-plasmic-override={overrides.cardHeaderTitleDisplay}
                 size={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_360"
                     : "_360"
                 }
@@ -115,7 +100,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 }
                 textDisplay={"Partner"}
                 textSubhead={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "Finish your listing — build your rep and start earning. You can always edit your listing after you publish."
                     : "Finish your listing — build your rep and start earning.\nYou can always edit your listing after you publish."
                 }
@@ -502,12 +487,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 />
               </p.Stack>
             </p.Stack>
-
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
           </p.Stack>
         </div>
       </div>
@@ -519,25 +498,20 @@ const PlasmicDescendants = {
   root: [
     "root",
     "editListingSectionParent",
-    "navbarInternal",
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
-    "listingEditCategoryFieldsParent",
-    "footerB"
+    "listingEditCategoryFieldsParent"
   ],
 
   editListingSectionParent: [
     "editListingSectionParent",
-    "navbarInternal",
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay",
     "sectionEditListing",
-    "listingEditCategoryFieldsParent",
-    "footerB"
+    "listingEditCategoryFieldsParent"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionHeaderEditListing: [
     "sectionHeaderEditListing",
     "cardHeaderTitleDisplay"
@@ -545,8 +519,7 @@ const PlasmicDescendants = {
 
   cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
   sectionEditListing: ["sectionEditListing", "listingEditCategoryFieldsParent"],
-  listingEditCategoryFieldsParent: ["listingEditCategoryFieldsParent"],
-  footerB: ["footerB"]
+  listingEditCategoryFieldsParent: ["listingEditCategoryFieldsParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -581,7 +554,6 @@ export const PlasmicEditpartnerlisting = Object.assign(
   {
     // Helper components rendering sub-elements
     editListingSectionParent: makeNodeComponent("editListingSectionParent"),
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionHeaderEditListing: makeNodeComponent("sectionHeaderEditListing"),
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     sectionEditListing: makeNodeComponent("sectionEditListing"),
@@ -589,7 +561,6 @@ export const PlasmicEditpartnerlisting = Object.assign(
       "listingEditCategoryFieldsParent"
     ),
 
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditpartnerlisting
     internalVariantProps: PlasmicEditpartnerlisting__VariantProps,
     internalArgProps: PlasmicEditpartnerlisting__ArgProps

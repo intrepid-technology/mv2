@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   width: 270px;
-  height: 900px;
+  height: 100%;
   position: relative;
   background: #ffffff;
+  min-height: 0;
   padding: 0px 8px 8px;
   border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
@@ -21,20 +22,60 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 4px;
 }
-.headerPanelMainPartner {
+.navigation {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: space-evenly;
   top: auto;
   left: auto;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.navigation > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.navigation > :global(.__wab_flex-container) > *,
+.navigation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.navigation > :global(.__wab_flex-container) > picture > img,
+.navigation
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.headerPanelMainPartner {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
 }
-.partnerHeaderDisplay:global(.__wab_instance) {
-  flex-shrink: 0;
+.headerPanelMainPartner > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.headerPanelMainPartner > :global(.__wab_flex-container) > *,
+.headerPanelMainPartner
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.headerPanelMainPartner > :global(.__wab_flex-container) > picture > img,
+.headerPanelMainPartner
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
 }
 .partnerButtonHeader:global(.__wab_instance) {
   position: relative;
@@ -64,9 +105,14 @@
   top: auto;
   left: auto;
 }
-.panelPartnerFooter:global(.__wab_instance) {
+.footer {
+  display: flex;
   position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
   top: auto;
   left: auto;
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }

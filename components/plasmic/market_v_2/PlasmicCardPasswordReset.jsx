@@ -53,7 +53,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
         <p.PlasmicLink
           data-plasmic-name={"navLinkBack"}
           data-plasmic-override={overrides.navLinkBack}
-          className={classNames(defaultcss.all, sty.navLinkBack)}
+          className={classNames(defaultcss.a, sty.navLinkBack)}
           component={Link}
           href={"/log-in"}
           platform={"nextjs"}

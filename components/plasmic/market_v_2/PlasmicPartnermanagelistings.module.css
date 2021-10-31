@@ -42,17 +42,6 @@
     margin-top: 0px;
   }
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .navbarInternal:global(.__wab_instance) {
-    left: auto;
-    top: auto;
-  }
-}
 .navbarPartnerEdit:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -502,19 +491,4 @@
   position: relative;
   top: auto;
   left: auto;
-}
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
-}
-@media (min-width: 0px) and (max-width: 414px) {
-  .footerB:global(.__wab_instance) {
-    left: auto;
-    top: auto;
-    bottom: auto;
-    right: auto;
-  }
 }

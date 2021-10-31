@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -27,7 +26,6 @@ import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-impo
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import TableListingAdminHeader from "../../TableListingAdminHeader"; // plasmic-import: j0LNFrWCIRj/component
 import TableListingAdminRecord from "../../TableListingAdminRecord"; // plasmic-import: -CTzxsSFaeA/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -48,14 +46,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -78,12 +69,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarPartnerEdit
             data-plasmic-name={"navbarPartnerEdit"}
             data-plasmic-override={overrides.navbarPartnerEdit}
@@ -110,7 +95,9 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay
               )}
               size={
-                hasVariant(globalVariants, "screen", "mobile") ? "_360" : "_720"
+                hasVariant(globalVariants, "screen", "iphone678Plus")
+                  ? "_360"
+                  : "_720"
               }
               slot={
                 <div
@@ -222,7 +209,9 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(defaultcss.all, sty.freeBox__xulmc)}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "mobile") ? true : true
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? true
+                      : true
                   ) ? (
                     <div
                       data-plasmic-name={"listingSearchFilterParent"}
@@ -344,12 +333,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -359,7 +342,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarPartnerEdit",
     "sectionPartnerManageListingsHeader",
     "cardHeaderTitleDisplay",
@@ -376,11 +358,9 @@ const PlasmicDescendants = {
     "svg",
     "listingManagementTableColumnParent",
     "tableListingAdminHeader",
-    "tableListingAdminRecord",
-    "footerB"
+    "tableListingAdminRecord"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionPartnerManageListingsHeader: [
     "sectionPartnerManageListingsHeader",
@@ -448,8 +428,7 @@ const PlasmicDescendants = {
   ],
 
   tableListingAdminHeader: ["tableListingAdminHeader"],
-  tableListingAdminRecord: ["tableListingAdminRecord"],
-  footerB: ["footerB"]
+  tableListingAdminRecord: ["tableListingAdminRecord"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -483,7 +462,6 @@ export const PlasmicPartnermanagelistings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionPartnerManageListingsHeader: makeNodeComponent(
       "sectionPartnerManageListingsHeader"
@@ -516,7 +494,6 @@ export const PlasmicPartnermanagelistings = Object.assign(
 
     tableListingAdminHeader: makeNodeComponent("tableListingAdminHeader"),
     tableListingAdminRecord: makeNodeComponent("tableListingAdminRecord"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPartnermanagelistings
     internalVariantProps: PlasmicPartnermanagelistings__VariantProps,
     internalArgProps: PlasmicPartnermanagelistings__ArgProps

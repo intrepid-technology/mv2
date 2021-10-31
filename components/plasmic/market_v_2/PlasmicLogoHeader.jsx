@@ -40,14 +40,11 @@ function PlasmicLogoHeader__RenderFunc(props) {
       data-plasmic-override={overrides.logoLink}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.root_reset,
-        sty.logoLink,
-        { [sty.logoLink__color]: hasVariant(variants, "color", "color") }
-      )}
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.logoLink, {
+        [sty.logoLink__color]: hasVariant(variants, "color", "color")
+      })}
       component={Link}
-      href={hasVariant(globalVariants, "screen", "desktop") ? "/" : "/app"}
+      href={hasVariant(globalVariants, "screen", "desktop") ? "/home" : "/app"}
       platform={"nextjs"}
     >
       {(hasVariant(variants, "color", "color") ? false : true)

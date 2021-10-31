@@ -80,7 +80,9 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
           data-plasmic-override={overrides.inputEmailA}
           className={classNames("__wab_instance", sty.inputEmailA)}
           size={
-            hasVariant(globalVariants, "screen", "mobile") ? "_360" : "_540"
+            hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? "_360"
+              : "_540"
           }
         />
       ) : null}

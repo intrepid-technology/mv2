@@ -34,13 +34,13 @@
   height: 32px;
   flex-shrink: 0;
 }
+.root:focus-within .toggle {
+  outline: none;
+  border-color: #1976d2;
+}
 .root .toggle_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #1976d2;
-}
-.root:focus-within .toggle {
-  outline: none;
   border-color: #1976d2;
 }
 .track {
@@ -66,13 +66,13 @@
   border-width: 2px;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
+.root:focus-within .track {
+  outline: none;
+  border-color: #1976d2;
+}
 .root .track_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #1976d2;
-}
-.root:focus-within .track {
-  outline: none;
   border-color: #1976d2;
 }
 .thumb {
@@ -103,10 +103,10 @@
 .root:hover .thumb {
   background: #f9f9f9;
 }
-.root .thumb_____focusVisibleWithin {
+.root:focus-within .thumb {
   outline: none;
 }
-.root:focus-within .thumb {
+.root .thumb_____focusVisibleWithin {
   outline: none;
 }
 .labelContainer {

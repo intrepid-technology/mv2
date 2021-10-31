@@ -39,6 +39,3 @@
     min-width: 0;
   }
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-}

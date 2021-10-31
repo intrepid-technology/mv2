@@ -1,0 +1,87 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  min-width: 0;
+  min-height: 0;
+  padding: 100px;
+}
+.formContext:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__uLznf {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__aaNhh {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: 0;
+}
+.freeBox__aaNhh > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 30px);
+  height: calc(100% + 30px);
+}
+.freeBox__aaNhh > :global(.__wab_flex-container) > *,
+.freeBox__aaNhh > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__aaNhh > :global(.__wab_flex-container) > picture > img,
+.freeBox__aaNhh
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 30px;
+}
+.formTextInput:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.formTextAreaInput:global(.__wab_instance) {
+  position: relative;
+}
+.formConditionalField__cHaze:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.formSelectInput:global(.__wab_instance) {
+  position: relative;
+}
+.formCheckboxInput:global(.__wab_instance) {
+  position: relative;
+}
+.formConditionalField___50PLj:global(.__wab_instance) {
+  position: relative;
+}
+.formSwitchInput:global(.__wab_instance) {
+  position: relative;
+}
+.formMultiCheckboxInput:global(.__wab_instance) {
+  position: relative;
+}
+.formMultiSelectInput:global(.__wab_instance) {
+  position: relative;
+}
+.submitButton:global(.__wab_instance) {
+  position: relative;
+}
+.text {
+  height: auto;
+}

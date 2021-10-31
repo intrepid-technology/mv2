@@ -13,10 +13,12 @@
   height: calc(100% + 24px);
 }
 .root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
 }
-.textbox {
+.serviceIndustry {
   width: 100%;
   border-top-style: none;
   border-top-width: 1px;
@@ -25,19 +27,19 @@
   border-left-style: none;
   border-left-width: 1px;
   height: 40px;
+  background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
-  background: #f8f8f8;
   border-bottom: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
 }
-.root .textbox:hover {
+.root .serviceIndustry:hover {
   border-bottom-color: #cccccc /* plasmic-token: oEMOojyFv */;
 }
-.root .textbox:focus {
+.root .serviceIndustry:focus {
   border-bottom-color: #6633ff /* plasmic-token: vlQUduj5i */;
   outline: none;
 }
-.box {
+.freeBox {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -47,7 +49,7 @@
   top: auto;
   min-width: 0;
 }
-.box > :global(.__wab_flex-container) {
+.freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -58,30 +60,35 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.box > :global(.__wab_flex-container) > *,
-.box > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
   margin-left: 8px;
   margin-top: 8px;
 }
-.chipDisplay__c7GRb:global(.__wab_instance) {
+.chipBadgeDisplay__c7GRb:global(.__wab_instance) {
   position: relative;
 }
-.box__ryVaq {
+.text__ryVaq {
   text-transform: lowercase;
 }
-.svg__azJrk {
+.svg__uhutF {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__qnI9M {
+.svg__iga1W {
   position: relative;
   object-fit: cover;
-  width: 14px;
-  height: 14px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  width: 16px;
+  height: 16px;
 }
 .svg__nhVtj {
   position: relative;

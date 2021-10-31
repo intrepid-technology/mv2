@@ -8,16 +8,21 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
 .navbarMemberEdit:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   flex-shrink: 0;
+}
+.settingsForm:global(.__wab_instance) {
+  position: relative;
+  width: 800px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .settingsForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamSettingsStripeConnect {
   display: flex;
@@ -54,7 +59,20 @@
   > img {
   margin-top: 32px;
 }
-.cardHeaderTitleDisplay__d6NR:global(.__wab_instance) {
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsStripeConnect {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media (max-width: 375px) {
+  .sectionTeamSettingsStripeConnect {
+    left: auto;
+    top: auto;
+    padding: 16px;
+  }
+}
+.cardHeaderTitleDisplay:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
@@ -63,10 +81,11 @@
   font-weight: 700;
 }
 .formTeamEditBusinessVerification {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-width: 0;
 }
 .formTeamEditBusinessVerification > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -90,6 +109,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .formTeamEditBusinessVerification {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .cardTeamLegalBusinessGroup {
   display: flex;
@@ -119,20 +144,30 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamLegalBusinessGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__lzBve:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
 }
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__lzBve:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__fvhx6 {
   height: auto;
-  max-width: 328px;
 }
-.inputTextField:global(.__wab_instance) {
+.businessNameTextInput:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
-  align-self: flex-start;
+  width: 100%;
+  min-width: 0;
 }
 .cardTeamRegisteredAddress {
   display: flex;
@@ -169,16 +204,16 @@
 }
 .text__tl2Nk {
   height: auto;
-  max-width: 328px;
 }
 .teamAddressGroup {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
   left: auto;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-width: 0;
 }
 .teamAddressGroup > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -198,51 +233,39 @@
   > img {
   margin-top: 16px;
 }
-.inputTextForm___52C8X:global(.__wab_instance) {
+@media (max-width: 375px) {
+  .teamAddressGroup {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.addressLineOneTextInput:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
 }
-.text__gnVjA {
-  font-size: 16px;
-}
-.teamStateZipGroup {
-  display: inline-flex;
+.addressLineTwoTextInput:global(.__wab_instance) {
   position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
 }
-.teamStateZipGroup > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: unset;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  margin-left: calc(0px - 40px);
-  width: calc(100% + 40px);
+.countrySelectInput:global(.__wab_instance) {
+  position: relative;
 }
-.teamStateZipGroup > :global(.__wab_flex-container) > *,
-.teamStateZipGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.teamStateZipGroup > :global(.__wab_flex-container) > picture > img,
-.teamStateZipGroup
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 40px;
+.citySelectInput:global(.__wab_instance) {
+  position: relative;
 }
-.text__fo0Jj {
-  font-size: 16px;
+.stateTextInput:global(.__wab_instance) {
+  position: relative;
+}
+.postalCodeTextInput:global(.__wab_instance) {
+  position: relative;
 }
 .cardTeamTaxId {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
   left: auto;
   top: auto;
+  min-width: 0;
 }
 .cardTeamTaxId > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -262,6 +285,12 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamTaxId {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__mAaAf:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -272,22 +301,22 @@
   max-width: 328px;
 }
 .teamTaxIdGroup {
-  display: inline-flex;
+  display: flex;
   position: relative;
-  flex-direction: row;
-  width: auto;
+  flex-direction: column;
+  width: 100%;
   height: auto;
   left: auto;
   top: auto;
+  min-width: 0;
 }
 .teamTaxIdGroup > :global(.__wab_flex-container) {
-  flex-direction: row;
+  flex-direction: column;
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
-  flex-wrap: wrap;
-  margin-left: calc(0px - 32px);
-  width: calc(100% + 32px);
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
 }
 .teamTaxIdGroup > :global(.__wab_flex-container) > *,
 .teamTaxIdGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -297,23 +326,52 @@
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-left: 32px;
+  margin-top: 32px;
 }
-.selectGroupDropdownPrimary__fjl7S:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
+@media (max-width: 375px) {
+  .teamTaxIdGroup {
+    width: 100%;
+    min-width: 0;
+  }
 }
-.inputTextForm__t8F7M:global(.__wab_instance) {
+@media (max-width: 375px) {
+  .teamTaxIdGroup > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 20px);
+    height: calc(100% + 20px);
+  }
+}
+@media (max-width: 375px) {
+  .teamTaxIdGroup > :global(.__wab_flex-container) > *,
+  .teamTaxIdGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .teamTaxIdGroup > :global(.__wab_flex-container) > picture > img,
+  .teamTaxIdGroup
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.taxCountrySelectInput:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
+}
+.taxNumberTextInput:global(.__wab_instance) {
+  position: relative;
 }
 .buttonGroupStripeConnect:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
+}
+@media (max-width: 375px) {
+  .buttonGroupStripeConnect:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .sectionTeamSettingsAccountingConnect {
   display: flex;
@@ -350,11 +408,33 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsAccountingConnect {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsAccountingConnect > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 375px) {
+  .sectionTeamSettingsAccountingConnect {
+    left: auto;
+    top: auto;
+    padding: 16px;
+  }
+}
 .cardTeamAccountingConnections {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-width: 0;
 }
 .cardTeamAccountingConnections > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -377,6 +457,12 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamAccountingConnections {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__nAMj:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -396,14 +482,93 @@
   top: auto;
   align-content: unset;
   flex-wrap: nowrap;
-  width: 540px;
+  width: 100%;
   height: auto;
+  min-width: 0;
 }
-.cardSocialConnectSwitch___63TS:global(.__wab_instance) {
+@media (max-width: 375px) {
+  .inputGroupTeamAccountingConnections {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.xeroSwitchInput:global(.__wab_instance) {
   position: relative;
 }
-.cardSocialConnectSwitch__b9VAq:global(.__wab_instance) {
+.wrapper {
+  display: flex;
   position: relative;
+  flex-direction: row;
+}
+.wrapper > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.wrapper > :global(.__wab_flex-container) > *,
+.wrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.wrapper > :global(.__wab_flex-container) > picture > img,
+.wrapper
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.svg__ix2K4 {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  flex-shrink: 0;
+}
+.text__mAb96 {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+.quickbookSwitchInput:global(.__wab_instance) {
+  position: relative;
+}
+.wrapper2 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.wrapper2 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.wrapper2 > :global(.__wab_flex-container) > *,
+.wrapper2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.wrapper2 > :global(.__wab_flex-container) > picture > img,
+.wrapper2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.svg___04VTx {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  flex-shrink: 0;
+}
+.text__mvjMx {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
 }
 .sectionTeamSettingsAnalyticsConnect {
   display: flex;
@@ -440,11 +605,25 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsAnalyticsConnect {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+@media (max-width: 375px) {
+  .sectionTeamSettingsAnalyticsConnect {
+    left: auto;
+    top: auto;
+    padding: 16px;
+  }
+}
 .cardTeamAnalytics {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-width: 0;
   padding: 0px;
 }
 .cardTeamAnalytics > :global(.__wab_flex-container) {
@@ -464,311 +643,91 @@
   > img {
   margin-top: 24px;
 }
+@media (max-width: 375px) {
+  .cardTeamAnalytics {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 375px) {
+  .cardTeamAnalytics > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .cardHeaderTitlePrimary__pzjIj:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
 }
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__pzjIj:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__oxyo4 {
   height: auto;
-  max-width: 328px;
 }
-.inputTextPrefixSuffix:global(.__wab_instance) {
+.gaAnalyticsTextInput:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
-  align-self: flex-start;
 }
-.sectionTeamNotifications {
+.submitButtonWrapper {
   display: flex;
   position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  left: auto;
-  top: auto;
-  min-width: 0;
-  padding: 16px 180px 32px;
-}
-.sectionTeamNotifications > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  align-content: unset;
-  margin-top: calc(0px - 32px);
-  height: calc(100% + 32px);
-}
-.sectionTeamNotifications > :global(.__wab_flex-container) > *,
-.sectionTeamNotifications
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.sectionTeamNotifications > :global(.__wab_flex-container) > picture > img,
-.sectionTeamNotifications
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 32px;
-}
-.cardHeaderTitleDisplay__qvdyY:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.text___9AuTo {
-  font-weight: 700;
-}
-.notificationPushEmail {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.notificationPushEmail > :global(.__wab_flex-container) {
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 32px);
-  height: calc(100% + 32px);
+  justify-content: flex-end;
+  padding: 16px 180px;
 }
-.notificationPushEmail > :global(.__wab_flex-container) > *,
-.notificationPushEmail
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.notificationPushEmail > :global(.__wab_flex-container) > picture > img,
-.notificationPushEmail
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 32px;
+@media (min-width: 0px) and (max-width: 414px) {
+  .submitButtonWrapper {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
 }
-.cardHeaderTitlePrimary__y77Es:global(.__wab_instance) {
+.button:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
+  width: 180px;
+  height: 40px;
+  flex-shrink: 0;
 }
-.text__whFsE {
-  max-width: 328px;
-}
-.freeBox__hT3J {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
+.text__qWbv8 {
   height: auto;
-  left: auto;
-  top: auto;
 }
-.freeBox__hT3J > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 24px);
-  height: calc(100% + 24px);
-}
-.freeBox__hT3J > :global(.__wab_flex-container) > *,
-.freeBox__hT3J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__hT3J > :global(.__wab_flex-container) > picture > img,
-.freeBox__hT3J
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 24px;
-}
-.switchTextGroupPrimary__tjMmC:global(.__wab_instance) {
+.notificationsForm:global(.__wab_instance) {
   position: relative;
-  top: auto;
-  left: auto;
+  width: 800px;
 }
-.switchTextGroupPrimary__kmLZv:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
+@media (min-width: 0px) and (max-width: 414px) {
+  .notificationsForm:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
 }
-.notificationActivity {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.notificationActivity > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 32px);
-  height: calc(100% + 32px);
-}
-.notificationActivity > :global(.__wab_flex-container) > *,
-.notificationActivity
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.notificationActivity > :global(.__wab_flex-container) > picture > img,
-.notificationActivity
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 32px;
-}
-.cardHeaderTitlePrimary__dt2Q1:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.text__i4WgX {
-  max-width: 328px;
-}
-.freeBox__rn81K {
+.freeBox__dUAoo {
   display: flex;
   position: relative;
-  flex-direction: column;
-  width: 360px;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.freeBox__rn81K > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: stretch;
   justify-content: flex-start;
-  align-content: unset;
-  margin-top: calc(0px - 24px);
-  height: calc(100% + 24px);
-}
-.freeBox__rn81K > :global(.__wab_flex-container) > *,
-.freeBox__rn81K > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__rn81K > :global(.__wab_flex-container) > picture > img,
-.freeBox__rn81K
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 24px;
-}
-.checkboxTextPrimary___3UFLr:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__mJzM7:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__c6Qfc:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__wmrvb:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__bi5Pj:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__vP3D5:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary___6O9BF:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.checkboxTextPrimary__yFXmh:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.notificationNewsEvents {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.notificationNewsEvents > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 32px);
-  height: calc(100% + 32px);
-}
-.notificationNewsEvents > :global(.__wab_flex-container) > *,
-.notificationNewsEvents
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.notificationNewsEvents > :global(.__wab_flex-container) > picture > img,
-.notificationNewsEvents
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 32px;
-}
-.cardHeaderTitlePrimary__y2Kpo:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}
-.text__ihpB {
-  max-width: 328px;
-}
-.freeBox__bFuQw {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-.freeBox__bFuQw > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: calc(0px - 24px);
-  height: calc(100% + 24px);
-}
-.freeBox__bFuQw > :global(.__wab_flex-container) > *,
-.freeBox__bFuQw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.freeBox__bFuQw > :global(.__wab_flex-container) > picture > img,
-.freeBox__bFuQw
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 24px;
-}
-.switchTextGroupPrimary__bNbC:global(.__wab_instance) {
-  position: relative;
   top: auto;
   left: auto;
+  padding-right: 180px;
+  padding-left: 180px;
 }
-.switchTextGroupPrimary__bww8:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__dUAoo {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__dUAoo {
+    top: auto;
+    left: auto;
+  }
 }
 .sectionTeamSettingsLeaveTeam {
   display: flex;
@@ -802,6 +761,17 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsLeaveTeam {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media (max-width: 375px) {
+  .sectionTeamSettingsLeaveTeam {
+    padding: 16px;
+  }
+}
 .cardTeamLeaveAccount {
   display: inline-flex;
   flex-direction: column;
@@ -828,6 +798,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .cardTeamLeaveAccount {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox___01Ppy {
   display: flex;
@@ -859,23 +835,24 @@
   top: auto;
   left: auto;
 }
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__ui1Jg:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__gjYq9 {
   height: auto;
   max-width: 540px;
 }
-.buttonPrimary___7GzXs:global(.__wab_instance) {
+.leaveTeamButton:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
+  width: 140px;
+  height: 40px;
   flex-shrink: 0;
 }
-.svg__t0UWv {
-  width: 100%;
-  height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
-  object-fit: cover;
-  min-width: 0;
-  min-height: 0;
+.text__lshov {
+  height: auto;
 }
 .sectionTeamSettingsDeleteTeam {
   display: flex;
@@ -909,6 +886,17 @@
   > img {
   margin-top: 32px;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionTeamSettingsDeleteTeam {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+}
+@media (max-width: 375px) {
+  .sectionTeamSettingsDeleteTeam {
+    padding: 16px;
+  }
+}
 .cardTeamDeleteAccount {
   display: inline-flex;
   flex-direction: column;
@@ -935,6 +923,12 @@
   > picture
   > img {
   margin-top: 32px;
+}
+@media (max-width: 375px) {
+  .cardTeamDeleteAccount {
+    width: 100%;
+    min-width: 0;
+  }
 }
 .freeBox__vOij {
   display: flex;
@@ -966,28 +960,19 @@
   top: auto;
   left: auto;
 }
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__i45Ew:global(.__wab_instance) {
+    width: 100%;
+    min-width: 0;
+  }
+}
 .text__piuw6 {
   height: auto;
   max-width: 540px;
 }
-.buttonPrimary__c9W5I:global(.__wab_instance) {
+.deleteAccountButton:global(.__wab_instance) {
   position: relative;
-  left: auto;
-  top: auto;
+  width: 140px;
+  height: 40px;
   flex-shrink: 0;
-}
-.svg__sKziu {
-  width: 100%;
-  height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
-  object-fit: cover;
-  min-width: 0;
-  min-height: 0;
-}
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
 }

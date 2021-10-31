@@ -46,14 +46,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.root)}
       component={Link}
       platform={"nextjs"}
     >
       <p.PlasmicLink
         data-plasmic-name={"link"}
         data-plasmic-override={overrides.link}
-        className={classNames(defaultcss.all, sty.link)}
+        className={classNames(defaultcss.a, sty.link)}
         component={Link}
         platform={"nextjs"}
       >
@@ -196,7 +196,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   <p.PlasmicLink
                     data-plasmic-name={"reviewLinkB"}
                     data-plasmic-override={overrides.reviewLinkB}
-                    className={classNames(defaultcss.all, sty.reviewLinkB)}
+                    className={classNames(defaultcss.a, sty.reviewLinkB)}
                     component={Link}
                     platform={"nextjs"}
                   >
@@ -215,7 +215,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 <p.PlasmicLink
                   data-plasmic-name={"reviewLinkA"}
                   data-plasmic-override={overrides.reviewLinkA}
-                  className={classNames(defaultcss.all, sty.reviewLinkA)}
+                  className={classNames(defaultcss.a, sty.reviewLinkA)}
                   component={Link}
                   platform={"nextjs"}
                 >

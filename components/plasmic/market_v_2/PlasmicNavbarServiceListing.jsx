@@ -17,8 +17,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import LogoHeader from "../../LogoHeader"; // plasmic-import: 9wNFT5FYWe/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -26,11 +25,15 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicNavbarServiceListing.module.css"; // plasmic-import: PUBVQZa84u/css
 
 export const PlasmicNavbarServiceListing__VariantProps = new Array(
-  "color",
-  "state"
+  "hideBack",
+  "hideNext"
 );
 
-export const PlasmicNavbarServiceListing__ArgProps = new Array("children");
+export const PlasmicNavbarServiceListing__ArgProps = new Array(
+  "children",
+  "nextButtonDestination",
+  "backButtonDestination"
+);
 
 function PlasmicNavbarServiceListing__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -39,88 +42,175 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
   });
 
   return (
-    <p.Stack
-      as={"div"}
+    <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
-      })}
+      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <LogoHeader
-        data-plasmic-name={"logoHeader"}
-        data-plasmic-override={overrides.logoHeader}
-        className={classNames("__wab_instance", sty.logoHeader)}
-      >
-        <img
-          data-plasmic-name={"img"}
-          data-plasmic-override={overrides.img}
-          alt={""}
-          className={classNames(defaultcss.img, sty.img, {
-            [sty.img__color]: hasVariant(variants, "color", "color")
-          })}
-          src={
-            hasVariant(variants, "color", "color")
-              ? "/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"
-              : "/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"
-          }
-        />
-      </LogoHeader>
+      <p.Stack
+        as={"div"}
+        data-plasmic-name={"container"}
+        data-plasmic-override={overrides.container}
+        hasGap={true}
+        className={classNames(defaultcss.all, sty.container, {
+          [sty.container__hideBack]: hasVariant(
+            variants,
+            "hideBack",
+            "hideBack"
+          ),
 
-      {(hasVariant(globalVariants, "screen", "mobile") ? false : true)
-        ? p.renderPlasmicSlot({
-            defaultContents: "Section Title",
-            value: args.children,
-            className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__color]: hasVariant(
+          [sty.container__hideNext]: hasVariant(
+            variants,
+            "hideNext",
+            "hideNext"
+          )
+        })}
+      >
+        {(hasVariant(variants, "hideBack", "hideBack") ? true : true) ? (
+          <div
+            className={classNames(defaultcss.all, sty.freeBox__whc4W, {
+              [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
                 variants,
-                "color",
-                "color"
+                "hideBack",
+                "hideBack"
               )
-            })
-          })
-        : null}
+            })}
+          >
+            {(hasVariant(variants, "hideBack", "hideBack") ? false : true) ? (
+              <Button
+                data-plasmic-name={"backButton"}
+                data-plasmic-override={overrides.backButton}
+                className={classNames("__wab_instance", sty.backButton, {
+                  [sty.backButton__hideBack]: hasVariant(
+                    variants,
+                    "hideBack",
+                    "hideBack"
+                  )
+                })}
+                color={"brand"}
+                destination={args.backButtonDestination}
+                type={"light"}
+              >
+                <div
+                  data-plasmic-name={"text"}
+                  data-plasmic-override={overrides.text}
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text
+                  )}
+                >
+                  {hasVariant(globalVariants, "screen", "iphone678")
+                    ? "Back"
+                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    ? "Back"
+                    : "Back"}
+                </div>
+              </Button>
+            ) : null}
+          </div>
+        ) : null}
 
-      <ButtonPrimary
-        data-plasmic-name={"buttonNext"}
-        data-plasmic-override={overrides.buttonNext}
-        className={classNames("__wab_instance", sty.buttonNext)}
-        color={"brand"}
-        id={""}
-        size={"_120"}
-      >
         <div
-          data-plasmic-name={"text"}
-          data-plasmic-override={overrides.text}
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.text,
-            {
-              [sty.text__state_checkout]: hasVariant(
-                variants,
-                "state",
-                "checkout"
-              )
-            }
-          )}
+          data-plasmic-name={"labelWrapper"}
+          data-plasmic-override={overrides.labelWrapper}
+          className={classNames(defaultcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__hideBack]: hasVariant(
+              variants,
+              "hideBack",
+              "hideBack"
+            ),
+
+            [sty.labelWrapper__hideNext]: hasVariant(
+              variants,
+              "hideNext",
+              "hideNext"
+            )
+          })}
         >
-          {hasVariant(variants, "state", "checkout") ? "Place Order" : "Next"}
+          {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true)
+            ? p.renderPlasmicSlot({
+                defaultContents: "Section Title",
+                value: args.children,
+                className: classNames(sty.slotTargetChildren, {
+                  [sty.slotTargetChildren__hideBack]: hasVariant(
+                    variants,
+                    "hideBack",
+                    "hideBack"
+                  ),
+
+                  [sty.slotTargetChildren__hideNext]: hasVariant(
+                    variants,
+                    "hideNext",
+                    "hideNext"
+                  )
+                })
+              })
+            : null}
         </div>
-      </ButtonPrimary>
-    </p.Stack>
+
+        <div className={classNames(defaultcss.all, sty.freeBox___8U6C)}>
+          {(hasVariant(variants, "hideNext", "hideNext") ? false : true) ? (
+            <Button
+              data-plasmic-name={"nextButton"}
+              data-plasmic-override={overrides.nextButton}
+              className={classNames("__wab_instance", sty.nextButton, {
+                [sty.nextButton__hideNext]: hasVariant(
+                  variants,
+                  "hideNext",
+                  "hideNext"
+                )
+              })}
+              color={"brand"}
+              destination={args.nextButtonDestination}
+              type={"primary"}
+            >
+              <div
+                data-plasmic-name={"next"}
+                data-plasmic-override={overrides.next}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.next
+                )}
+              >
+                {"Next"}
+              </div>
+            </Button>
+          ) : null}
+        </div>
+      </p.Stack>
+    </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "logoHeader", "img", "buttonNext", "text"],
-  logoHeader: ["logoHeader", "img"],
-  img: ["img"],
-  buttonNext: ["buttonNext", "text"],
-  text: ["text"]
+  root: [
+    "root",
+    "container",
+    "backButton",
+    "text",
+    "labelWrapper",
+    "nextButton",
+    "next"
+  ],
+
+  container: [
+    "container",
+    "backButton",
+    "text",
+    "labelWrapper",
+    "nextButton",
+    "next"
+  ],
+
+  backButton: ["backButton", "text"],
+  text: ["text"],
+  labelWrapper: ["labelWrapper"],
+  nextButton: ["nextButton", "next"],
+  next: ["next"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -154,10 +244,12 @@ export const PlasmicNavbarServiceListing = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    logoHeader: makeNodeComponent("logoHeader"),
-    img: makeNodeComponent("img"),
-    buttonNext: makeNodeComponent("buttonNext"),
+    container: makeNodeComponent("container"),
+    backButton: makeNodeComponent("backButton"),
     text: makeNodeComponent("text"),
+    labelWrapper: makeNodeComponent("labelWrapper"),
+    nextButton: makeNodeComponent("nextButton"),
+    next: makeNodeComponent("next"),
     // Metadata about props expected for PlasmicNavbarServiceListing
     internalVariantProps: PlasmicNavbarServiceListing__VariantProps,
     internalArgProps: PlasmicNavbarServiceListing__ArgProps

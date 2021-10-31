@@ -151,7 +151,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.text___3QQmy
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Connections"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Connections"
@@ -185,7 +185,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                       sty.text__qKdWg
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Followers"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Followers"

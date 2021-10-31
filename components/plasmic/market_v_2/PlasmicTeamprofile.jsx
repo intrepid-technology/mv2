@@ -19,7 +19,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionTeamProfileHero from "../../SectionTeamProfileHero"; // plasmic-import: HxQLFVQnwjF/component
 import NavbarTeamUserProfile from "../../NavbarTeamUserProfile"; // plasmic-import: 6HzrYVr_1ZK/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -30,7 +29,6 @@ import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/compo
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import IconSocialProfile from "../../IconSocialProfile"; // plasmic-import: IC5nyjlnco/component
 import CardUserprofile from "../../CardUserprofile"; // plasmic-import: 0on5_Y1mrei/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -54,14 +52,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -82,12 +73,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <SectionTeamProfileHero
             data-plasmic-name={"sectionTeamProfileHero"}
             data-plasmic-override={overrides.sectionTeamProfileHero}
@@ -212,7 +197,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       sty.text__qBBbj
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Subscribers"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Subscribers"
@@ -507,7 +492,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                 <p.PlasmicLink
                   data-plasmic-name={"linkTeamViewAll"}
                   data-plasmic-override={overrides.linkTeamViewAll}
-                  className={classNames(defaultcss.all, sty.linkTeamViewAll)}
+                  className={classNames(defaultcss.a, sty.linkTeamViewAll)}
                   component={Link}
                   platform={"nextjs"}
                 >
@@ -544,7 +529,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     sty.details
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobile")
+                  {hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "Details"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "Details"
@@ -1138,7 +1123,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -1182,7 +1167,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.text__sb7Pn
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobile")
+                      {hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "Similar partners"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "Similar Partners"
@@ -1191,7 +1176,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobile") ? true : true
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? true
+                      : true
                   ) ? (
                     <p.Stack
                       as={"div"}
@@ -1204,7 +1191,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1218,7 +1205,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1232,7 +1219,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1246,7 +1233,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1260,7 +1247,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1280,7 +1267,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -1324,7 +1311,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.text__niux4
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobile")
+                      {hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "Members also viewed"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "Members also viewed"
@@ -1333,7 +1320,9 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobile") ? true : true
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? true
+                      : true
                   ) ? (
                     <p.Stack
                       as={"div"}
@@ -1346,7 +1335,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1360,7 +1349,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1374,7 +1363,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1388,7 +1377,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1402,7 +1391,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobile")
+                        hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1421,12 +1410,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
               ) : null}
             </p.Stack>
           ) : null}
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1436,7 +1419,6 @@ function PlasmicTeamprofile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionTeamProfileHero",
     "navbarTeamUserProfile",
     "teamAboutInfoSection",
@@ -1509,11 +1491,9 @@ const PlasmicDescendants = {
     "sectionPartnerAlsoViewed",
     "profileTeamCarousellParentA",
     "headlineMembersAlsoViewed",
-    "alsoViewedParent",
-    "footerB"
+    "alsoViewedParent"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionTeamProfileHero: ["sectionTeamProfileHero"],
   navbarTeamUserProfile: ["navbarTeamUserProfile"],
   teamAboutInfoSection: [
@@ -1824,8 +1804,7 @@ const PlasmicDescendants = {
   ],
 
   headlineMembersAlsoViewed: ["headlineMembersAlsoViewed"],
-  alsoViewedParent: ["alsoViewedParent"],
-  footerB: ["footerB"]
+  alsoViewedParent: ["alsoViewedParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1859,7 +1838,6 @@ export const PlasmicTeamprofile = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionTeamProfileHero: makeNodeComponent("sectionTeamProfileHero"),
     navbarTeamUserProfile: makeNodeComponent("navbarTeamUserProfile"),
     teamAboutInfoSection: makeNodeComponent("teamAboutInfoSection"),
@@ -1942,7 +1920,6 @@ export const PlasmicTeamprofile = Object.assign(
 
     headlineMembersAlsoViewed: makeNodeComponent("headlineMembersAlsoViewed"),
     alsoViewedParent: makeNodeComponent("alsoViewedParent"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicTeamprofile
     internalVariantProps: PlasmicTeamprofile__VariantProps,
     internalArgProps: PlasmicTeamprofile__ArgProps

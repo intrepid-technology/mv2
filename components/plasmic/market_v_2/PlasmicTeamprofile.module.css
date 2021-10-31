@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-}
 .sectionTeamProfileHero:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -4130,12 +4124,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__u3R6S {
+.svg__ndXb {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__wNuF:global(.__wab_instance) {
   position: relative;
@@ -4154,12 +4147,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__p7LcX {
+.svg__iFxoX {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .profileCategoriesParent {
   display: flex;
@@ -4261,12 +4253,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__v66Ya {
+.svg___5Fg6Z {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__sTori:global(.__wab_instance) {
   position: relative;
@@ -4285,12 +4276,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__iTd1K {
+.svg__qbZq5 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__mVuYm:global(.__wab_instance) {
   position: relative;
@@ -4309,12 +4299,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__eMgPi {
+.svg__c611M {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .profileSkillsParent {
   display: flex;
@@ -4413,12 +4402,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__xBf6J {
+.svg__nwSb9 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__r59Vg:global(.__wab_instance) {
   position: relative;
@@ -4437,12 +4425,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__xsafm {
+.svg__cb9OR {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__rAi3L:global(.__wab_instance) {
   position: relative;
@@ -4461,12 +4448,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__no5X9 {
+.svg__lcf6E {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__owq0C:global(.__wab_instance) {
   position: relative;
@@ -4485,12 +4471,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__fjCgF {
+.svg___6NMyL {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .chipBadgeDisplay__oBxpQ:global(.__wab_instance) {
   position: relative;
@@ -4509,12 +4494,11 @@
   height: 14px;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__tZbwM {
+.svg__rtBnJ {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .profileSocialParent {
   display: flex;
@@ -5292,11 +5276,4 @@
   .cardUserprofile__vco58:global(.__wab_instance) {
     flex-shrink: 0;
   }
-}
-.footerB:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: auto;
-  bottom: auto;
 }

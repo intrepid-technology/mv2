@@ -15,13 +15,11 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import TextLinkArrow from "../../TextLinkArrow"; // plasmic-import: MlCPfXGkVN/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooterServiceListing.module.css"; // plasmic-import: XhB16zaJfQ/css
-import Icon120Icon from "./icons/PlasmicIcon__Icon120"; // plasmic-import: xPha1LAmTn/icon
 
 export const PlasmicFooterServiceListing__VariantProps = new Array();
 
@@ -39,58 +37,32 @@ function PlasmicFooterServiceListing__RenderFunc(props) {
       hasGap={true}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <TextLinkArrow
-        data-plasmic-name={"textLinkArrow"}
-        data-plasmic-override={overrides.textLinkArrow}
-        className={classNames("__wab_instance", sty.textLinkArrow)}
-        color={"dark"}
-        direction={"left"}
-        svgLeft={
-          <Icon120Icon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg)}
-            role={"img"}
-          />
-        }
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.text__h0Jz
-          )}
-        >
-          {"Back"}
-        </div>
-      </TextLinkArrow>
-
-      <ButtonPrimary
-        data-plasmic-name={"buttonPrimary"}
-        data-plasmic-override={overrides.buttonPrimary}
-        className={classNames("__wab_instance", sty.buttonPrimary)}
-        size={"_120"}
+      <Button
+        data-plasmic-name={"saveButton"}
+        data-plasmic-override={overrides.saveButton}
+        className={classNames("__wab_instance", sty.saveButton)}
         type={"ghost"}
       >
         <div
+          data-plasmic-name={"text"}
+          data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.text__dUxCp
+            sty.text
           )}
         >
           {"Save & Exit"}
         </div>
-      </ButtonPrimary>
+      </Button>
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textLinkArrow", "svg", "buttonPrimary"],
-  textLinkArrow: ["textLinkArrow", "svg"],
-  svg: ["svg"],
-  buttonPrimary: ["buttonPrimary"]
+  root: ["root", "saveButton", "text"],
+  saveButton: ["saveButton", "text"],
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -124,9 +96,8 @@ export const PlasmicFooterServiceListing = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textLinkArrow: makeNodeComponent("textLinkArrow"),
-    svg: makeNodeComponent("svg"),
-    buttonPrimary: makeNodeComponent("buttonPrimary"),
+    saveButton: makeNodeComponent("saveButton"),
+    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicFooterServiceListing
     internalVariantProps: PlasmicFooterServiceListing__VariantProps,
     internalArgProps: PlasmicFooterServiceListing__ArgProps

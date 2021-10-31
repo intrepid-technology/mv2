@@ -78,9 +78,9 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
-.root .svg__ojz8V:active {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-}
 .root .svg__ojz8V:hover {
   color: #000000 /* plasmic-token: VLxGX_Tro */;
+}
+.root .svg__ojz8V:active {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }

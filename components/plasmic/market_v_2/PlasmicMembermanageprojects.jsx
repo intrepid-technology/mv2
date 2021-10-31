@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -25,7 +24,6 @@ import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLp
 import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/component
 import TableProjectAdminHeader from "../../TableProjectAdminHeader"; // plasmic-import: K0Z1ZWLiupV/component
 import TableProjectAdminRecord from "../../TableProjectAdminRecord"; // plasmic-import: XwgjB__2WeM/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -45,14 +43,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -73,12 +64,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarMemberEdit
             data-plasmic-name={"navbarMemberEdit"}
             data-plasmic-override={overrides.navbarMemberEdit}
@@ -325,12 +310,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -340,7 +319,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberManageProjectsHeader",
     "cardHeaderTitleDisplay",
@@ -355,11 +333,9 @@ const PlasmicDescendants = {
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectAdminHeader",
-    "footerB"
+    "tableProjectAdminHeader"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberManageProjectsHeader: [
     "sectionMemberManageProjectsHeader",
@@ -420,8 +396,7 @@ const PlasmicDescendants = {
   searchbarPrimary: ["searchbarPrimary"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
   orderTableColumnMain: ["orderTableColumnMain", "tableProjectAdminHeader"],
-  tableProjectAdminHeader: ["tableProjectAdminHeader"],
-  footerB: ["footerB"]
+  tableProjectAdminHeader: ["tableProjectAdminHeader"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -455,7 +430,6 @@ export const PlasmicMembermanageprojects = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberManageProjectsHeader: makeNodeComponent(
       "sectionMemberManageProjectsHeader"
@@ -483,7 +457,6 @@ export const PlasmicMembermanageprojects = Object.assign(
 
     orderTableColumnMain: makeNodeComponent("orderTableColumnMain"),
     tableProjectAdminHeader: makeNodeComponent("tableProjectAdminHeader"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMembermanageprojects
     internalVariantProps: PlasmicMembermanageprojects__VariantProps,
     internalArgProps: PlasmicMembermanageprojects__ArgProps

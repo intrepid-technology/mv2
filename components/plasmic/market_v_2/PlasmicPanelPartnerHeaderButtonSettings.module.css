@@ -1,121 +1,211 @@
 .root {
   display: flex;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  width: 100%;
-  height: auto;
-  min-width: 0;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
 }
-.parent {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  min-width: 0;
-  padding: 0px;
-  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
 }
-.parent > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.parent > :global(.__wab_flex-container) > *,
-.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.parent > :global(.__wab_flex-container) > picture > img,
-.parent
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.usernamePartnerProfileName {
-  display: flex;
+.userAvatar:global(.__wab_instance) {
   position: relative;
-  flex-direction: column;
-  align-self: center;
-  width: 100%;
-  height: auto;
-  min-width: 0;
 }
-.usernamePartnerProfileName > :global(.__wab_flex-container) {
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-top: calc(0px - 4px);
-  height: calc(100% + 4px);
-}
-.usernamePartnerProfileName > :global(.__wab_flex-container) > *,
-.usernamePartnerProfileName
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.usernamePartnerProfileName > :global(.__wab_flex-container) > picture > img,
-.usernamePartnerProfileName
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-top: 4px;
-}
-.campanyDisplayNameParent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: 100%;
-  height: auto;
-  min-width: 0;
-}
-.companyNameText {
-  font-size: 14px;
-  text-align: left;
-  line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  width: 100%;
-  height: auto;
-  font-weight: 600;
-  min-width: 0;
-}
-.partnerDisplayName {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  height: auto;
-  min-width: 0;
-}
-.atSgin {
-  font-size: 12px;
-  text-align: left;
-  line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
-  width: auto;
-  display: inline-block;
-}
-.companyNameDisplay {
-  font-size: 12px;
-  text-align: left;
-  line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
-  width: auto;
-  display: inline-block;
-}
-.dropDownUserSettingsTrigger {
+.img__ixKDg {
   position: relative;
   object-fit: cover;
   left: auto;
   top: auto;
-  align-self: flex-start;
-  width: 14px;
-  height: 14px;
-  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__ixKDg > picture > img {
+  object-fit: cover;
+}
+.img__ixKDg > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__bgpEk {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__bgpEk > picture > img {
+  object-fit: cover;
+}
+.img__bgpEk > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__rt8TC {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__rt8TC > picture > img {
+  object-fit: cover;
+}
+.img__rt8TC > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__mrcDr {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__mrcDr > picture > img {
+  object-fit: cover;
+}
+.img__mrcDr > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__lUq6W {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__lUq6W > picture > img {
+  object-fit: cover;
+}
+.img__lUq6W > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__gNgS {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__gNgS > picture > img {
+  object-fit: cover;
+}
+.img__gNgS > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__tuUEp {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__tuUEp > picture > img {
+  object-fit: cover;
+}
+.img__tuUEp > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__cQQq {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__cQQq > picture > img {
+  object-fit: cover;
+}
+.img__cQQq > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img___7JqCy {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img___7JqCy > picture > img {
+  object-fit: cover;
+}
+.img___7JqCy > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__vFzvv {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__vFzvv > picture > img {
+  object-fit: cover;
+}
+.img__vFzvv > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__mg2My {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__mg2My > picture > img {
+  object-fit: cover;
+}
+.img__mg2My > .__wab_img-spacer > img {
+  object-fit: cover;
 }

@@ -134,6 +134,16 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__ejVzw {
+    margin-left: calc(0px + 0px) !important;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__ejVzw {
+    margin-left: calc(0px + 0px) !important;
+  }
+}
 .svg {
   object-fit: cover;
   width: 100%;

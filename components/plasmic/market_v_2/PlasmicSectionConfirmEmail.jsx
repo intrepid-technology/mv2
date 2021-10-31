@@ -63,7 +63,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
         <p.PlasmicLink
           data-plasmic-name={"svgLinkDiv"}
           data-plasmic-override={overrides.svgLinkDiv}
-          className={classNames(defaultcss.all, sty.svgLinkDiv)}
+          className={classNames(defaultcss.a, sty.svgLinkDiv)}
           component={Link}
           href={"/sign-up"}
           platform={"nextjs"}
@@ -214,22 +214,22 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             className={classNames(defaultcss.all, sty.buttonGoBackParent)}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
-                : false
+                : true
             ) ? (
               <ButtonLinkPrimary
                 data-plasmic-name={"buttonLinkPrimary"}
                 data-plasmic-override={overrides.buttonLinkPrimary}
                 className={classNames("__wab_instance", sty.buttonLinkPrimary)}
                 color={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "light"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "light"
-                    : undefined
+                    : "light"
                 }
                 destination={
                   hasVariant(globalVariants, "screen", "desktop")
@@ -237,7 +237,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                     : undefined
                 }
                 height={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_48"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_48"
@@ -251,22 +251,22 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                       sty.text__yK0Zp
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Go back"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Go back"
-                      : "Hyper Link"}
+                      : "Go back"}
                   </div>
                 }
                 type={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "outline"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "outline"
-                    : undefined
+                    : "outline"
                 }
                 width={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_360"

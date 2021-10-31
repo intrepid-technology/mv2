@@ -66,7 +66,7 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
         [sty.root__size__45X45]: hasVariant(variants, "size", "_45X45"),
         [sty.root__size__90X90]: hasVariant(variants, "size", "_90X90")
       })}

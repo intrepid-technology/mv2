@@ -221,7 +221,7 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"linkConnectionsViewAll"}
             data-plasmic-override={overrides.linkConnectionsViewAll}
-            className={classNames(defaultcss.all, sty.linkConnectionsViewAll)}
+            className={classNames(defaultcss.a, sty.linkConnectionsViewAll)}
             component={Link}
             platform={"nextjs"}
           >

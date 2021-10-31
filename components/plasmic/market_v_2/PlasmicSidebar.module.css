@@ -1,0 +1,96 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 100%;
+  width: 270px;
+  background: #ffffff;
+  position: relative;
+  min-height: 0;
+  border-right: 1px solid #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+}
+.header {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  height: 60px;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.header > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.header > :global(.__wab_flex-container) > *,
+.header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.header > :global(.__wab_flex-container) > picture > img,
+.header
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.iconWrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.closeIcon {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.panelMemberHeaderButtonSettings:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.panelPartnerHeaderButtonSettings:global(.__wab_instance) {
+  position: relative;
+}
+.buttonIconNotificationBell:global(.__wab_instance) {
+  position: relative;
+}
+.panelMember:global(.__wab_instance) {
+  position: relative;
+}
+.panelPartner:global(.__wab_instance) {
+  position: relative;
+}

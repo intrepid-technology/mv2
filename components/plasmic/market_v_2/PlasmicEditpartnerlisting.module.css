@@ -39,9 +39,6 @@
   > img {
   margin-top: 0px;
 }
-.navbarInternal:global(.__wab_instance) {
-  position: relative;
-}
 .sectionHeaderEditListing {
   display: flex;
   position: relative;
@@ -681,7 +678,4 @@
   width: 28px;
   height: 28px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
-}
-.footerB:global(.__wab_instance) {
-  position: relative;
 }

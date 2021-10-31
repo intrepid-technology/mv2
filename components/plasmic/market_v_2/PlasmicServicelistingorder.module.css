@@ -67,13 +67,14 @@
   margin-left: 180px;
 }
 .orderParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
-  width: auto;
+  width: 360px;
   height: auto;
   left: auto;
   top: auto;
+  flex-shrink: 0;
 }
 .orderParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -93,13 +94,14 @@
   margin-top: 32px;
 }
 .orderHeadlineTitleImage {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
-  width: auto;
+  width: 100%;
   height: auto;
   left: auto;
   top: auto;
+  min-width: 0;
 }
 .orderHeadlineTitleImage > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -566,13 +568,13 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  width: 360px;
+  width: 100%;
+  min-width: 0;
 }
 .accordion__oHxSn:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  flex-shrink: 0;
 }
 .text__qzwCj {
   font-weight: 700;
@@ -662,7 +664,8 @@
   width: 360px;
 }
 .accordion__uZb74:global(.__wab_instance) {
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 .text__f3LjH {
   font-weight: 700;
@@ -784,7 +787,8 @@
   width: 360px;
 }
 .accordion__fKoVb:global(.__wab_instance) {
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 .text__d1Qg {
   font-weight: 700;
@@ -970,9 +974,6 @@
   left: auto;
   width: 360px;
 }
-.accordion__d5SM1:global(.__wab_instance) {
-  flex-shrink: 0;
-}
 .text__iW1FQ {
   font-weight: 700;
 }
@@ -1070,9 +1071,6 @@
   top: auto;
   left: auto;
   width: 360px;
-}
-.accordion__oVafJ:global(.__wab_instance) {
-  flex-shrink: 0;
 }
 .text__iUaXe {
   font-weight: 700;
@@ -1172,9 +1170,6 @@
   left: auto;
   width: 360px;
 }
-.accordion__phei2:global(.__wab_instance) {
-  flex-shrink: 0;
-}
 .text__qnofE {
   font-weight: 700;
 }
@@ -1233,19 +1228,18 @@
 .text__teTol {
   text-transform: uppercase;
 }
-.svg__bo7ND {
+.add2 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__gLb9H {
+.delete2 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__gwUvj {
   position: relative;
@@ -1262,19 +1256,18 @@
 .text__ibwlQ {
   text-transform: uppercase;
 }
-.svg__uuHcC {
+.add3 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__qDed {
+.delete3 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2StEk {
   position: relative;
@@ -1291,19 +1284,18 @@
 .text__joB {
   text-transform: uppercase;
 }
-.svg__b7Zah {
+.add4 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__cDec {
+.delete4 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__tpP6 {
   position: relative;
@@ -1320,19 +1312,18 @@
 .text__veHrF {
   text-transform: uppercase;
 }
-.svg__nheC7 {
+.add5 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__yAnd {
+.delete5 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__keV79 {
   position: relative;
@@ -1349,19 +1340,18 @@
 .text___7EKwg {
   text-transform: uppercase;
 }
-.svg__coVko {
+.add6 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__wkYot {
+.delete6 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__vzkfm {
   position: relative;
@@ -1397,9 +1387,6 @@
   top: auto;
   left: auto;
   width: 360px;
-}
-.accordion___3NqCd:global(.__wab_instance) {
-  flex-shrink: 0;
 }
 .text__lnWes {
   font-weight: 700;
@@ -1459,19 +1446,18 @@
 .text__zpCu7 {
   text-transform: uppercase;
 }
-.svg__v5CO {
+.add7 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__yrhqE {
+.delete7 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___14FU {
   position: relative;
@@ -1488,19 +1474,18 @@
 .text__ugTJ {
   text-transform: uppercase;
 }
-.svg__vWdAw {
+.add8 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__hEqln {
+.delete8 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__rOGaP {
   position: relative;
@@ -1517,19 +1502,18 @@
 .text__s7Snj {
   text-transform: uppercase;
 }
-.svg__eQ53 {
+.add9 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__dbhb2 {
+.delete9 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg___2CdRn {
   position: relative;
@@ -1546,19 +1530,18 @@
 .text__gaBRk {
   text-transform: uppercase;
 }
-.svg__bFUqq {
+.add10 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg__vfhR9 {
+.delete10 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__zxEA {
   position: relative;
@@ -1582,12 +1565,11 @@
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.svg___5UgmW {
+.svg__qdiaz {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .svg__kTgLh {
   position: relative;
@@ -1623,9 +1605,6 @@
   top: auto;
   left: auto;
   width: 360px;
-}
-.accordion__rkJj:global(.__wab_instance) {
-  flex-shrink: 0;
 }
 .text__iq1En {
   font-weight: 700;
@@ -1752,9 +1731,6 @@
   top: auto;
   left: auto;
   width: 360px;
-}
-.accordion__k5NlT:global(.__wab_instance) {
-  flex-shrink: 0;
 }
 .text___2Adi5 {
   font-weight: 700;
@@ -1897,5 +1873,4 @@
   position: relative;
   left: auto;
   top: auto;
-  flex-shrink: 0;
 }

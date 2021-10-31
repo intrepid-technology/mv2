@@ -47,7 +47,7 @@ function PlasmicButtonUberStyle__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.all,
+        defaultcss.a,
         projectcss.root_reset,
         sty.linkParent,
         {

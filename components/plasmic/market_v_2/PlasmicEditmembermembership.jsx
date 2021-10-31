@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -27,7 +26,6 @@ import TableBillingRecord from "../../TableBillingRecord"; // plasmic-import: wW
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import TableMembershipHeader from "../../TableMembershipHeader"; // plasmic-import: T4YXTQYWhk/component
 import TableMembershipRecord from "../../TableMembershipRecord"; // plasmic-import: KowVnZaBQEh/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -42,14 +40,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -70,12 +61,6 @@ function PlasmicEditmembermembership__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarMemberEdit
             data-plasmic-name={"navbarMemberEdit"}
             data-plasmic-override={overrides.navbarMemberEdit}
@@ -343,12 +328,6 @@ function PlasmicEditmembermembership__RenderFunc(props) {
               </ButtonPrimary>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -358,7 +337,6 @@ function PlasmicEditmembermembership__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberMembershipStatus",
     "cardHeaderTitleDisplay",
@@ -368,11 +346,9 @@ const PlasmicDescendants = {
     "tableBillingRecord",
     "sectionMemberPaymentHistory",
     "tableMembershipHeader",
-    "tableMembershipRecord",
-    "footerB"
+    "tableMembershipRecord"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberMembershipStatus: [
     "sectionMemberMembershipStatus",
@@ -397,8 +373,7 @@ const PlasmicDescendants = {
   ],
 
   tableMembershipHeader: ["tableMembershipHeader"],
-  tableMembershipRecord: ["tableMembershipRecord"],
-  footerB: ["footerB"]
+  tableMembershipRecord: ["tableMembershipRecord"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -432,7 +407,6 @@ export const PlasmicEditmembermembership = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberMembershipStatus: makeNodeComponent(
       "sectionMemberMembershipStatus"
@@ -452,7 +426,6 @@ export const PlasmicEditmembermembership = Object.assign(
 
     tableMembershipHeader: makeNodeComponent("tableMembershipHeader"),
     tableMembershipRecord: makeNodeComponent("tableMembershipRecord"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicEditmembermembership
     internalVariantProps: PlasmicEditmembermembership__VariantProps,
     internalArgProps: PlasmicEditmembermembership__ArgProps

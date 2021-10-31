@@ -1,0 +1,96 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  background: #f8f8f8;
+  min-width: 0;
+  border-radius: 2px;
+  padding: 8px 10px;
+  border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 4px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay__ic8Mm:global(.__wab_instance) {
+  position: relative;
+}
+.svg__ztjck {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__hjA3G {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__mlMgk {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+}
+.chipBadgeDisplay__pIjCa:global(.__wab_instance) {
+  position: relative;
+}
+.svg__nhkDk {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__b1PGs {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg___7Sbs3 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+}
+.chipBadgeDisplay__hxiUp:global(.__wab_instance) {
+  position: relative;
+}
+.svg__bt2Gy {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg__swcCf {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__x9By6 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+}

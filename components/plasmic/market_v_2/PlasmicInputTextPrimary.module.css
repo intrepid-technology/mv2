@@ -84,6 +84,7 @@
 }
 .textbox__background_black {
   background: #000000;
+  color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
 .textbox__type_secondary {
   background: #ffffff;

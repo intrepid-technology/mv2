@@ -18,9 +18,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
-import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -40,7 +39,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
 
   return (
     <p.Stack
-      as={"form"}
+      as={"div"}
       data-plasmic-name={"formHomeSignUp"}
       data-plasmic-override={overrides.formHomeSignUp}
       data-plasmic-root={true}
@@ -115,22 +114,21 @@ function PlasmicCardSignUp__RenderFunc(props) {
         />
       </p.Stack>
 
-      <ButtonPrimary
-        data-plasmic-name={"submitButton"}
-        data-plasmic-override={overrides.submitButton}
-        className={classNames("__wab_instance", sty.submitButton)}
-        size={"_360"}
+      <Button
+        data-plasmic-name={"continueButton"}
+        data-plasmic-override={overrides.continueButton}
+        className={classNames("__wab_instance", sty.continueButton)}
       >
         <div
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.text__mdZl0
+            sty.text__gTvRl
           )}
         >
           {"Continue"}
         </div>
-      </ButtonPrimary>
+      </Button>
 
       <p.Stack
         as={"div"}
@@ -201,45 +199,15 @@ function PlasmicCardSignUp__RenderFunc(props) {
         {"Already have an account?"}
       </div>
 
-      {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
-        <ButtonLinkPrimary
-          data-plasmic-name={"buttonLinkPrimary"}
-          data-plasmic-override={overrides.buttonLinkPrimary}
-          className={classNames("__wab_instance", sty.buttonLinkPrimary)}
-          color={
-            hasVariant(globalVariants, "screen", "desktop") ? "light" : "light"
-          }
-          destination={
-            hasVariant(globalVariants, "screen", "desktop")
-              ? "/log-in"
-              : "/log-in"
-          }
-          height={
-            hasVariant(globalVariants, "screen", "desktop") ? "_48" : "_48"
-          }
-          text={
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.text__tVj8G
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "desktop")
-                ? "Login"
-                : "Login"}
-            </div>
-          }
-          type={
-            hasVariant(globalVariants, "screen", "desktop")
-              ? "outline"
-              : "outline"
-          }
-          width={
-            hasVariant(globalVariants, "screen", "desktop") ? "_360" : "_360"
-          }
-        />
-      ) : null}
+      <Button
+        data-plasmic-name={"loginButton"}
+        data-plasmic-override={overrides.loginButton}
+        className={classNames("__wab_instance", sty.loginButton)}
+        destination={"/log-in"}
+        type={"outline"}
+      >
+        {"Login"}
+      </Button>
 
       <div
         data-plasmic-name={"terms"}
@@ -260,7 +228,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupTos"}
           data-plasmic-override={overrides.signupTos}
           className={classNames(
-            defaultcss.all,
+            defaultcss.a,
             defaultcss.__wab_text,
             sty.signupTos
           )}
@@ -275,7 +243,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupPrivacy"}
           data-plasmic-override={overrides.signupPrivacy}
           className={classNames(
-            defaultcss.all,
+            defaultcss.a,
             defaultcss.__wab_text,
             sty.signupPrivacy
           )}
@@ -299,12 +267,12 @@ const PlasmicDescendants = {
     "passwordInputParent",
     "passwordText",
     "password",
-    "submitButton",
+    "continueButton",
     "divider",
     "freeBox",
     "signupFacebookConnection",
     "signupGoogleConnection",
-    "buttonLinkPrimary",
+    "loginButton",
     "terms",
     "signupLegalLinks",
     "signupTos",
@@ -317,12 +285,12 @@ const PlasmicDescendants = {
   passwordInputParent: ["passwordInputParent", "passwordText", "password"],
   passwordText: ["passwordText"],
   password: ["password"],
-  submitButton: ["submitButton"],
+  continueButton: ["continueButton"],
   divider: ["divider"],
   freeBox: ["freeBox", "signupFacebookConnection", "signupGoogleConnection"],
   signupFacebookConnection: ["signupFacebookConnection"],
   signupGoogleConnection: ["signupGoogleConnection"],
-  buttonLinkPrimary: ["buttonLinkPrimary"],
+  loginButton: ["loginButton"],
   terms: ["terms"],
   signupLegalLinks: ["signupLegalLinks", "signupTos", "signupPrivacy"],
   signupTos: ["signupTos"],
@@ -366,12 +334,12 @@ export const PlasmicCardSignUp = Object.assign(
     passwordInputParent: makeNodeComponent("passwordInputParent"),
     passwordText: makeNodeComponent("passwordText"),
     password: makeNodeComponent("password"),
-    submitButton: makeNodeComponent("submitButton"),
+    continueButton: makeNodeComponent("continueButton"),
     divider: makeNodeComponent("divider"),
     freeBox: makeNodeComponent("freeBox"),
     signupFacebookConnection: makeNodeComponent("signupFacebookConnection"),
     signupGoogleConnection: makeNodeComponent("signupGoogleConnection"),
-    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
+    loginButton: makeNodeComponent("loginButton"),
     terms: makeNodeComponent("terms"),
     signupLegalLinks: makeNodeComponent("signupLegalLinks"),
     signupTos: makeNodeComponent("signupTos"),

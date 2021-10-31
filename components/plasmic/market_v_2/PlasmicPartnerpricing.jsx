@@ -24,7 +24,6 @@ import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // 
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
 import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -56,14 +55,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -86,12 +78,14 @@ function PlasmicPartnerpricing__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarPrimary
-            data-plasmic-name={"navbarPrimary"}
-            data-plasmic-override={overrides.navbarPrimary}
-            className={classNames("__wab_instance", sty.navbarPrimary)}
-            user={"seller"}
-          />
+          {false ? (
+            <NavbarPrimary
+              data-plasmic-name={"navbarPrimary"}
+              data-plasmic-override={overrides.navbarPrimary}
+              className={classNames("__wab_instance", sty.navbarPrimary)}
+              user={"seller"}
+            />
+          ) : null}
 
           <p.Stack
             as={"div"}
@@ -1188,7 +1182,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.freeBox__z1I9A)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? DesignIcon
                         : DesignIcon
                     }
@@ -1212,7 +1206,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                 <div className={classNames(defaultcss.all, sty.freeBox__suBeb)}>
                   <p.PlasmicIcon
                     PlasmicIconType={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? GlobeAmericaIcon
                         : GlobeAmericaIcon
                     }
@@ -1382,12 +1376,6 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               </div>
             </ButtonPrimary>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -1416,8 +1404,7 @@ const PlasmicDescendants = {
     "partnerStartupPricingTable",
     "partnerAgencyPricingtable",
     "overlineHeadline2",
-    "overlineHeadline24",
-    "footerB"
+    "overlineHeadline24"
   ],
 
   navbarPrimary: ["navbarPrimary"],
@@ -1467,8 +1454,7 @@ const PlasmicDescendants = {
   partnerStartupPricingTable: ["partnerStartupPricingTable"],
   partnerAgencyPricingtable: ["partnerAgencyPricingtable"],
   overlineHeadline2: ["overlineHeadline2"],
-  overlineHeadline24: ["overlineHeadline24"],
-  footerB: ["footerB"]
+  overlineHeadline24: ["overlineHeadline24"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1528,7 +1514,6 @@ export const PlasmicPartnerpricing = Object.assign(
     partnerAgencyPricingtable: makeNodeComponent("partnerAgencyPricingtable"),
     overlineHeadline2: makeNodeComponent("overlineHeadline2"),
     overlineHeadline24: makeNodeComponent("overlineHeadline24"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPartnerpricing
     internalVariantProps: PlasmicPartnerpricing__VariantProps,
     internalArgProps: PlasmicPartnerpricing__ArgProps

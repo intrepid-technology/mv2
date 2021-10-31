@@ -15,17 +15,17 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import ChipDisplay from "../../ChipDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSearchbadge.module.css"; // plasmic-import: DreZnHdEQY/css
+import * as sty from "./PlasmicSearchBadge.module.css"; // plasmic-import: DreZnHdEQY/css
 
-export const PlasmicSearchbadge__VariantProps = new Array();
+export const PlasmicSearchBadge__VariantProps = new Array();
 
-export const PlasmicSearchbadge__ArgProps = new Array("children");
+export const PlasmicSearchBadge__ArgProps = new Array("children");
 
-function PlasmicSearchbadge__RenderFunc(props) {
+function PlasmicSearchBadge__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   return (
     <p.Stack
@@ -38,9 +38,9 @@ function PlasmicSearchbadge__RenderFunc(props) {
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"serviceIndustry"}
+        data-plasmic-override={overrides.serviceIndustry}
+        className={classNames(defaultcss.input, sty.serviceIndustry)}
         placeholder={"Search and enter"}
         size={1}
         type={"text"}
@@ -49,27 +49,30 @@ function PlasmicSearchbadge__RenderFunc(props) {
 
       <p.Stack
         as={"div"}
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.box)}
+        className={classNames(defaultcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <ChipDisplay
-              className={classNames("__wab_instance", sty.chipDisplay__c7GRb)}
+            <ChipBadgeDisplay
+              className={classNames(
+                "__wab_instance",
+                sty.chipBadgeDisplay__c7GRb
+              )}
               type={"ghost"}
             >
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__ryVaq
+                  sty.text__ryVaq
                 )}
               >
                 {"Badge"}
               </div>
-            </ChipDisplay>
+            </ChipBadgeDisplay>
           ),
 
           value: args.children
@@ -80,9 +83,9 @@ function PlasmicSearchbadge__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox", "box"],
-  textbox: ["textbox"],
-  box: ["box"]
+  root: ["root", "serviceIndustry", "freeBox"],
+  serviceIndustry: ["serviceIndustry"],
+  freeBox: ["freeBox"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -90,12 +93,12 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicSearchbadge__ArgProps,
-      internalVariantPropNames: PlasmicSearchbadge__VariantProps
+      internalArgPropNames: PlasmicSearchBadge__ArgProps,
+      internalVariantPropNames: PlasmicSearchBadge__VariantProps
     });
 
     const { dataFetches } = props;
-    return PlasmicSearchbadge__RenderFunc({
+    return PlasmicSearchBadge__RenderFunc({
       variants,
       args,
       overrides,
@@ -104,25 +107,25 @@ function makeNodeComponent(nodeName) {
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicSearchbadge";
+    func.displayName = "PlasmicSearchBadge";
   } else {
-    func.displayName = `PlasmicSearchbadge.${nodeName}`;
+    func.displayName = `PlasmicSearchBadge.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicSearchbadge = Object.assign(
-  // Top-level PlasmicSearchbadge renders the root element
+export const PlasmicSearchBadge = Object.assign(
+  // Top-level PlasmicSearchBadge renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textbox: makeNodeComponent("textbox"),
-    box: makeNodeComponent("box"),
-    // Metadata about props expected for PlasmicSearchbadge
-    internalVariantProps: PlasmicSearchbadge__VariantProps,
-    internalArgProps: PlasmicSearchbadge__ArgProps
+    serviceIndustry: makeNodeComponent("serviceIndustry"),
+    freeBox: makeNodeComponent("freeBox"),
+    // Metadata about props expected for PlasmicSearchBadge
+    internalVariantProps: PlasmicSearchBadge__VariantProps,
+    internalArgProps: PlasmicSearchBadge__ArgProps
   }
 );
 
-export default PlasmicSearchbadge;
+export default PlasmicSearchBadge;
 /* prettier-ignore-end */

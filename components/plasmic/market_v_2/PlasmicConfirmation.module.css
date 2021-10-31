@@ -68,6 +68,11 @@
     flex-shrink: 0;
   }
 }
+@media (max-width: 375px) {
+  .navbarStatic:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
 .sectionConfirmEmail:global(.__wab_instance) {
   position: relative;
 }

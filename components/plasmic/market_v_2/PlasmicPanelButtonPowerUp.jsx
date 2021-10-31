@@ -43,7 +43,7 @@ function PlasmicPanelButtonPowerUp__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"powerUp"}
         data-plasmic-override={overrides.powerUp}
-        className={classNames(defaultcss.all, sty.powerUp)}
+        className={classNames(defaultcss.a, sty.powerUp)}
         component={Link}
         href={args.destination}
         platform={"nextjs"}

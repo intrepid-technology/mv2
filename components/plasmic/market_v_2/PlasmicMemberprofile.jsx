@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionMemberProfileHero from "../../SectionMemberProfileHero"; // plasmic-import: Q-O9AS-Maj_/component
 import NavbarMemberUserProfile from "../../NavbarMemberUserProfile"; // plasmic-import: pRIPzCF9OFR/component
 import ElementProfileAbout from "../../ElementProfileAbout"; // plasmic-import: fNbAgFgAmx/component
@@ -28,7 +27,6 @@ import ElementMemberProfileConnections from "../../ElementMemberProfileConnectio
 import ElementProfileAttributes from "../../ElementProfileAttributes"; // plasmic-import: D0kbF0YbT67/component
 import ElementProfileSocial from "../../ElementProfileSocial"; // plasmic-import: jeCDVKO8R8/component
 import ElementMemberProfileCarousell from "../../ElementMemberProfileCarousell"; // plasmic-import: Ip2eQQfcFG/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -48,14 +46,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -77,25 +68,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobile")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : true
-          ) ? (
-            <NavbarInternal
-              data-plasmic-name={"navbarInternal"}
-              data-plasmic-override={overrides.navbarInternal}
-              className={classNames("__wab_instance", sty.navbarInternal)}
-              user={
-                hasVariant(globalVariants, "screen", "mobile")
-                  ? "member"
-                  : undefined
-              }
-            />
-          ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -111,7 +84,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -135,7 +108,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
               className={classNames(defaultcss.all, sty.sectionAboutDetails)}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -151,7 +124,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -209,7 +182,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
             )}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -225,7 +198,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
               />
             ) : null}
             {(
-              hasVariant(globalVariants, "screen", "mobile")
+              hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -243,7 +216,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -262,7 +235,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -274,7 +247,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell___8FDrq
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Similar members"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Similar members"
@@ -285,7 +258,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobile")
+            hasVariant(globalVariants, "screen", "iphone678Plus")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -304,7 +277,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobile")
+                hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -316,7 +289,7 @@ function PlasmicMemberprofile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__v7Zdc
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "People also viewed"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "People also viewed"
@@ -325,19 +298,6 @@ function PlasmicMemberprofile__RenderFunc(props) {
                 />
               ) : null}
             </p.Stack>
-          ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobile")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktop")
-              ? true
-              : true
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
           ) : null}
         </div>
       </div>
@@ -348,7 +308,6 @@ function PlasmicMemberprofile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionMemberProfileHero",
     "navbarMemberUserProfile",
     "sectionAboutDetails",
@@ -361,11 +320,9 @@ const PlasmicDescendants = {
     "elementProfileAttributes",
     "elementProfileSocial",
     "sectionProfileMemberSimilarMembers",
-    "sectionProfileMemberPeopleAlsoViewed",
-    "footerB"
+    "sectionProfileMemberPeopleAlsoViewed"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionMemberProfileHero: ["sectionMemberProfileHero"],
   navbarMemberUserProfile: ["navbarMemberUserProfile"],
   sectionAboutDetails: [
@@ -393,11 +350,7 @@ const PlasmicDescendants = {
   elementProfileAttributes: ["elementProfileAttributes"],
   elementProfileSocial: ["elementProfileSocial"],
   sectionProfileMemberSimilarMembers: ["sectionProfileMemberSimilarMembers"],
-  sectionProfileMemberPeopleAlsoViewed: [
-    "sectionProfileMemberPeopleAlsoViewed"
-  ],
-
-  footerB: ["footerB"]
+  sectionProfileMemberPeopleAlsoViewed: ["sectionProfileMemberPeopleAlsoViewed"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -431,7 +384,6 @@ export const PlasmicMemberprofile = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionMemberProfileHero: makeNodeComponent("sectionMemberProfileHero"),
     navbarMemberUserProfile: makeNodeComponent("navbarMemberUserProfile"),
     sectionAboutDetails: makeNodeComponent("sectionAboutDetails"),
@@ -466,7 +418,6 @@ export const PlasmicMemberprofile = Object.assign(
       "sectionProfileMemberPeopleAlsoViewed"
     ),
 
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicMemberprofile
     internalVariantProps: PlasmicMemberprofile__VariantProps,
     internalArgProps: PlasmicMemberprofile__ArgProps

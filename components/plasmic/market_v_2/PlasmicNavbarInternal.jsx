@@ -99,7 +99,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
             ? false
             : hasVariant(variants, "search", "search")
             ? true
-            : hasVariant(globalVariants, "screen", "mobile")
+            : hasVariant(globalVariants, "screen", "iphone678Plus")
             ? false
             : true
         ) ? (
@@ -124,6 +124,12 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                   variants,
                   "search",
                   "search"
+                ),
+
+                [sty.searchbarPrimary__state_loggedIn]: hasVariant(
+                  variants,
+                  "state",
+                  "loggedIn"
                 ),
 
                 [sty.searchbarPrimary__user_member_state_loggedOut]:

@@ -1,9 +1,10 @@
 .root {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto;
+  min-width: 0;
 }
 .trigger {
   position: relative;
@@ -12,8 +13,9 @@
   height: 32px;
   padding-right: 4px;
   padding-left: 4px;
-  width: 90px;
+  width: 100%;
   background: #f8f8f8;
+  min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;

@@ -17,12 +17,12 @@
 .buttonTrigger:hover {
   border-color: #333333 /* plasmic-token: _aCbIOo4N */;
 }
+.buttonTrigger__trigger_disabled:hover {
+  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+}
 .buttonTrigger:active {
   background: #f0ebff;
   border-color: #6633ff /* plasmic-token: Bz1wnYwjA */;
-}
-.buttonTrigger__trigger_disabled:hover {
-  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .slotTargetText {
   color: #999999 /* plasmic-token: lJGpMo6-- */;
@@ -35,9 +35,9 @@
 .buttonTrigger:hover .slotTargetText {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;
 }
-.buttonTrigger:active .slotTargetText {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-}
 .buttonTrigger__trigger_disabled:hover .slotTargetText__trigger_disabled {
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+}
+.buttonTrigger:active .slotTargetText {
+  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }

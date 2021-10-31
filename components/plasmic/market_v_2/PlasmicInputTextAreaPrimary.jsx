@@ -79,11 +79,14 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.textarea}
           className={classNames(defaultcss.textarea, sty.textarea, {
             [sty.textarea__height__720]: hasVariant(variants, "height", "_720"),
+            [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
             [sty.textarea__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
-            )
+            ),
+
+            [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
           })}
           placeholder={args.placeholder}
           value={""}

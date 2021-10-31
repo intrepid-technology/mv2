@@ -26,7 +26,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -54,6 +53,7 @@ function PlasmicHome__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">
           {
             "The community for digital nomads, independent professionals & remote companies | Intrepid"
@@ -69,8 +69,8 @@ function PlasmicHome__RenderFunc(props) {
 
         <meta
           key="description"
-          name="description"
           property="og:description"
+          name="description"
           content={"Work and grow your business from anywhere in the world.\n"}
         />
 
@@ -136,7 +136,7 @@ function PlasmicHome__RenderFunc(props) {
                   sty.headlineText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobile")
+                {hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? "A better way to work and grow your business."
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "A better way to work and grow your business."
@@ -152,7 +152,7 @@ function PlasmicHome__RenderFunc(props) {
                   sty.subheadText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "mobile")
+                {hasVariant(globalVariants, "screen", "iphone678Plus")
                   ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare independent talent, get the financial services you need to live and work the way you want."
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "Start, launch, and grow a business from anywhere in the world. Buy or sell technology & creative services, collaborate with rare independent talent–– Get the financial services you need to live and work the way you want."
@@ -173,7 +173,7 @@ function PlasmicHome__RenderFunc(props) {
                     sty.cardFeatureDescription__evGi
                   )}
                   headline={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Financial services for entrepreneurs"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Financial services for entrepreneurs"
@@ -197,7 +197,7 @@ function PlasmicHome__RenderFunc(props) {
                       : undefined
                   }
                   text={
-                    hasVariant(globalVariants, "screen", "mobile")
+                    hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
@@ -409,7 +409,7 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
@@ -434,7 +434,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__m55Ho
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Get custom technology and creative services from a global community of independent professionals ready to help you grow and succeed."
@@ -610,7 +610,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__iWQf
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Business services for remote teams"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Business services for remote teams"
@@ -624,7 +624,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__x2Mg3
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
@@ -633,7 +633,7 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -645,21 +645,21 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__dP6E
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -673,7 +673,7 @@ function PlasmicHome__RenderFunc(props) {
                           sty.text__hYew
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? "Join today"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Join today"
@@ -681,14 +681,14 @@ function PlasmicHome__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
@@ -719,7 +719,7 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_360"
                     : "_540"
                 }
@@ -913,7 +913,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__bf3Y2
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Destination venues, events, and meetups for remote companies"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Destination venues, events, and meetups for remote companies"
@@ -934,7 +934,7 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -946,21 +946,21 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__cuxXx
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -974,7 +974,7 @@ function PlasmicHome__RenderFunc(props) {
                           sty.text__zKpa
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? "Get inspired"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Get inspired"
@@ -982,14 +982,14 @@ function PlasmicHome__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
@@ -1020,7 +1020,7 @@ function PlasmicHome__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
@@ -1045,7 +1045,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__paM4A
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobile")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
                       ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
@@ -1237,7 +1237,7 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -1249,21 +1249,21 @@ function PlasmicHome__RenderFunc(props) {
                       sty.buttonLinkPrimary__hzn2V
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "/partner/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/partner/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -1277,7 +1277,7 @@ function PlasmicHome__RenderFunc(props) {
                           sty.text___4HpwD
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobile")
+                        {hasVariant(globalVariants, "screen", "iphone678Plus")
                           ? "Learn more"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Learn more"
@@ -1285,14 +1285,14 @@ function PlasmicHome__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "mobile")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
@@ -1309,12 +1309,6 @@ function PlasmicHome__RenderFunc(props) {
               />
             </p.Stack>
           </div>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1334,8 +1328,7 @@ const PlasmicDescendants = {
     "iconBg2",
     "iconBg3",
     "signupFormHome",
-    "cardSignUp",
-    "footerB"
+    "cardSignUp"
   ],
 
   navbarOverhead: ["navbarOverhead"],
@@ -1367,8 +1360,7 @@ const PlasmicDescendants = {
   iconBg2: ["iconBg2"],
   iconBg3: ["iconBg3"],
   signupFormHome: ["signupFormHome", "cardSignUp"],
-  cardSignUp: ["cardSignUp"],
-  footerB: ["footerB"]
+  cardSignUp: ["cardSignUp"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1413,7 +1405,6 @@ export const PlasmicHome = Object.assign(
     iconBg3: makeNodeComponent("iconBg3"),
     signupFormHome: makeNodeComponent("signupFormHome"),
     cardSignUp: makeNodeComponent("cardSignUp"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
     internalArgProps: PlasmicHome__ArgProps

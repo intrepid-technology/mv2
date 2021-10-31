@@ -2,18 +2,17 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 101px;
-  min-width: 414px;
   min-height: 80px;
   position: relative;
   background: #ebebeb;
+  min-width: 0;
   padding: 10px 40px;
   border-top: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
 }
@@ -30,38 +29,13 @@
     background: #f8f8f8;
   }
 }
-.textLinkArrow:global(.__wab_instance) {
+.saveButton:global(.__wab_instance) {
   position: relative;
-}
-.svg {
-  object-fit: cover;
-  width: 24px;
-  height: 24px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-}
-.text__h0Jz {
-  font-weight: 600;
-}
-.svg__uisw2 {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  min-width: 0;
-  min-height: 0;
-}
-.buttonPrimary:global(.__wab_instance) {
-  position: relative;
+  height: 36px;
+  width: 120px;
   flex-shrink: 0;
 }
-.text__dUxCp {
+.text {
   font-weight: 600;
-}
-.svg__n8SDi {
-  width: 100%;
-  height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
-  object-fit: cover;
-  min-width: 0;
-  min-height: 0;
+  height: auto;
 }

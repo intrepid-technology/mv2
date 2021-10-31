@@ -16,23 +16,24 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
+import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
-import InputTextField from "../../InputTextField"; // plasmic-import: ATs3nXJ-Tjc/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
-import CardSocialConnectSwitch from "../../CardSocialConnectSwitch"; // plasmic-import: PjlQKkmde-/component
-import SelectGroupDropdownPrimary from "../../SelectGroupDropdownPrimary"; // plasmic-import: -teiDn_7Z-/component
-import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/component
-import SwitchTextGroupPrimary from "../../SwitchTextGroupPrimary"; // plasmic-import: dxvh7jp8PC/component
-import CheckboxTextPrimary from "../../CheckboxTextPrimary"; // plasmic-import: DzJ8mMkLUy2/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/component
+import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
+import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicEditmembersettings.module.css"; // plasmic-import: j8kezDqiX0q/css
+import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
+import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
+import TwitterSquareFillIcon from "./icons/PlasmicIcon__TwitterSquareFill"; // plasmic-import: YS9smaNhXs/icon
+import Icon10Icon from "./icons/PlasmicIcon__Icon10"; // plasmic-import: DEc54POMG/icon
+import GithubIcon from "./icons/PlasmicIcon__Github"; // plasmic-import: 3czk3Wymzb/icon
 
 export const PlasmicEditmembersettings__VariantProps = new Array();
 
@@ -43,14 +44,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -71,12 +65,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarMemberEdit
             data-plasmic-name={"navbarMemberEdit"}
             data-plasmic-override={overrides.navbarMemberEdit}
@@ -102,9 +90,11 @@ function PlasmicEditmembersettings__RenderFunc(props) {
             )}
           >
             <CardHeaderTitleDisplay
+              data-plasmic-name={"cardHeaderTitleDisplay"}
+              data-plasmic-override={overrides.cardHeaderTitleDisplay}
               className={classNames(
                 "__wab_instance",
-                sty.cardHeaderTitleDisplay__xaX3Z
+                sty.cardHeaderTitleDisplay
               )}
               size={"_720"}
               slot={
@@ -122,60 +112,73 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               textSubhead={"Maintain a safe and secure community experience  "}
             />
 
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditEmail"}
-              data-plasmic-override={overrides.formMemberEditEmail}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.formMemberEditEmail)}
+            <FormContext
+              data-plasmic-name={"emailForm"}
+              data-plasmic-override={overrides.emailForm}
+              className={classNames("__wab_instance", sty.emailForm)}
             >
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"formMemberEditEmail"}
+                data-plasmic-override={overrides.formMemberEditEmail}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__pZx7J)}
+                className={classNames(defaultcss.all, sty.formMemberEditEmail)}
               >
-                <CardHeaderTitlePrimary
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.freeBox__pZx7J)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__vfOg5
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__stdky
+                        )}
+                      >
+                        {
+                          "Enter a new email address to update the one you use to log in"
+                        }
+                      </div>
+                    }
+                  >
+                    {"Email"}
+                  </CardHeaderTitlePrimary>
+
+                  <FormTextInput
+                    data-plasmic-name={"emailTextInput"}
+                    data-plasmic-override={overrides.emailTextInput}
+                    className={classNames("__wab_instance", sty.emailTextInput)}
+                    name={"email"}
+                  />
+                </p.Stack>
+
+                <Button
+                  data-plasmic-name={"emailFormSubmitButton"}
+                  data-plasmic-override={overrides.emailFormSubmitButton}
                   className={classNames(
                     "__wab_instance",
-                    sty.cardHeaderTitlePrimary__vfOg5
+                    sty.emailFormSubmitButton
                   )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__stdky
-                      )}
-                    >
-                      {
-                        "Enter a new email address to update the one you use to log in"
-                      }
-                    </div>
-                  }
                 >
-                  {"Email"}
-                </CardHeaderTitlePrimary>
-
-                <InputTextField
-                  data-plasmic-name={"inputTextField"}
-                  data-plasmic-override={overrides.inputTextField}
-                  className={classNames("__wab_instance", sty.inputTextField)}
-                  size={"_540"}
-                  type={"secondary"}
-                />
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__bXNro
+                    )}
+                  >
+                    {"Update Email"}
+                  </div>
+                </Button>
               </p.Stack>
-
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__n7To8
-                )}
-                size={"_140"}
-                type={"primary"}
-              >
-                {"Update email"}
-              </ButtonPrimary>
-            </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <p.Stack
@@ -212,7 +215,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     )}
                   >
                     {
-                      "click the button to reset your password and we will send you a verification link"
+                      "Click the button to reset your password and we will send you a verification link"
                     }
                   </div>
                 }
@@ -220,16 +223,25 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                 {"Password reset"}
               </CardHeaderTitlePrimary>
 
-              <ButtonLinkPrimary
-                data-plasmic-name={"buttonLinkPrimary"}
-                data-plasmic-override={overrides.buttonLinkPrimary}
-                border={"border"}
-                className={classNames("__wab_instance", sty.buttonLinkPrimary)}
-                height={"_40"}
-                text={"Send password reset link"}
+              <Button
+                data-plasmic-name={"passwordResetButton"}
+                data-plasmic-override={overrides.passwordResetButton}
+                className={classNames(
+                  "__wab_instance",
+                  sty.passwordResetButton
+                )}
                 type={"ghost"}
-                width={"_270"}
-              />
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__zr6Zm
+                  )}
+                >
+                  {"Reset Password"}
+                </div>
+              </Button>
             </p.Stack>
           </p.Stack>
 
@@ -245,96 +257,244 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               sty.sectionMemberSettingsLoginConnections
             )}
           >
-            <p.Stack
-              as={"section"}
-              data-plasmic-name={"sectionMemberLoginConnections"}
-              data-plasmic-override={overrides.sectionMemberLoginConnections}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                sty.sectionMemberLoginConnections
-              )}
+            <FormContext
+              data-plasmic-name={"formContext"}
+              data-plasmic-override={overrides.formContext}
+              className={classNames("__wab_instance", sty.formContext)}
             >
               <p.Stack
-                as={"div"}
+                as={"section"}
+                data-plasmic-name={"sectionMemberLoginConnections"}
+                data-plasmic-override={overrides.sectionMemberLoginConnections}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__ta5FN)}
+                className={classNames(
+                  defaultcss.all,
+                  sty.sectionMemberLoginConnections
+                )}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__qzg0M
-                  )}
-                  slot={
-                    <div
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.freeBox__ta5FN)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__qzg0M
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__lhHaq
+                        )}
+                      >
+                        {"Connect your social accounts to log in to Intrepid."}
+                      </div>
+                    }
+                  >
+                    {"Login connections"}
+                  </CardHeaderTitlePrimary>
+
+                  <div
+                    data-plasmic-name={"inputGroupMemberLoginSocial"}
+                    data-plasmic-override={
+                      overrides.inputGroupMemberLoginSocial
+                    }
+                    className={classNames(
+                      defaultcss.all,
+                      sty.inputGroupMemberLoginSocial
+                    )}
+                  >
+                    <SwitchInput
+                      data-plasmic-name={"googleSwitchInput"}
+                      data-plasmic-override={overrides.googleSwitchInput}
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__lhHaq
+                        "__wab_instance",
+                        sty.googleSwitchInput
                       )}
-                    >
-                      {"Connect your social accounts to log in to Intrepid."}
-                    </div>
-                  }
-                >
-                  {"Login connections"}
-                </CardHeaderTitlePrimary>
+                      content={
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__dwCra
+                          )}
+                        >
+                          <GooglesvgIcon
+                            className={classNames(
+                              defaultcss.all,
+                              sty.svg__dc7Qu
+                            )}
+                            role={"img"}
+                          />
 
-                <div
-                  data-plasmic-name={"inputGroupMemberLoginSocial"}
-                  data-plasmic-override={overrides.inputGroupMemberLoginSocial}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.inputGroupMemberLoginSocial
-                  )}
-                >
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch___6Ds01
-                    )}
-                    socialNetwork={"google"}
-                    width={"_540"}
-                  />
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ccls
+                            )}
+                          >
+                            {"Google"}
+                          </div>
+                        </p.Stack>
+                      }
+                    />
 
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__lnZ66
-                    )}
-                    socialNetwork={"facebook"}
-                    width={"_540"}
-                  />
+                    <SwitchInput
+                      data-plasmic-name={"facebookSwitchInput"}
+                      data-plasmic-override={overrides.facebookSwitchInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.facebookSwitchInput
+                      )}
+                      content={
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__jhNWs
+                          )}
+                        >
+                          <Icon8Icon
+                            className={classNames(
+                              defaultcss.all,
+                              sty.svg__e2WvX
+                            )}
+                            role={"img"}
+                          />
 
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__fsmhh
-                    )}
-                    socialNetwork={"twitter"}
-                    width={"_540"}
-                  />
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___25A
+                            )}
+                          >
+                            {"Facebook"}
+                          </div>
+                        </p.Stack>
+                      }
+                    />
 
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__uTrrq
-                    )}
-                    socialNetwork={"linkedin"}
-                    width={"_540"}
-                  />
+                    <SwitchInput
+                      data-plasmic-name={"twitterSwitchInput"}
+                      data-plasmic-override={overrides.twitterSwitchInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.twitterSwitchInput
+                      )}
+                      content={
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox__vd3Q
+                          )}
+                        >
+                          <TwitterSquareFillIcon
+                            className={classNames(
+                              defaultcss.all,
+                              sty.svg___1AzOc
+                            )}
+                            role={"img"}
+                          />
 
-                  <CardSocialConnectSwitch
-                    className={classNames(
-                      "__wab_instance",
-                      sty.cardSocialConnectSwitch__oiQix
-                    )}
-                    socialNetwork={"github"}
-                    width={"_540"}
-                  />
-                </div>
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___8FQhv
+                            )}
+                          >
+                            {"Twitter"}
+                          </div>
+                        </p.Stack>
+                      }
+                    />
+
+                    <SwitchInput
+                      data-plasmic-name={"linkedInSwitchInput"}
+                      data-plasmic-override={overrides.linkedInSwitchInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.linkedInSwitchInput
+                      )}
+                      content={
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox___8CqVc
+                          )}
+                        >
+                          <Icon10Icon
+                            className={classNames(
+                              defaultcss.all,
+                              sty.svg__py6TS
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__sRrhz
+                            )}
+                          >
+                            {"Linkedin"}
+                          </div>
+                        </p.Stack>
+                      }
+                    />
+
+                    <SwitchInput
+                      data-plasmic-name={"githubSwitchInput"}
+                      data-plasmic-override={overrides.githubSwitchInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.githubSwitchInput
+                      )}
+                      content={
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            sty.freeBox___0Xli
+                          )}
+                        >
+                          <GithubIcon
+                            className={classNames(
+                              defaultcss.all,
+                              sty.svg__i1Yxg
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__pBbHh
+                            )}
+                          >
+                            {"Github"}
+                          </div>
+                        </p.Stack>
+                      }
+                    />
+                  </div>
+                </p.Stack>
               </p.Stack>
-            </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <p.Stack
@@ -347,86 +507,101 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               sty.sectionMemberMobileNumber
             )}
           >
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditMobileNumber"}
-              data-plasmic-override={overrides.formMemberEditMobileNumber}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                sty.formMemberEditMobileNumber
-              )}
+            <FormContext
+              data-plasmic-name={"mobileForm"}
+              data-plasmic-override={overrides.mobileForm}
+              className={classNames("__wab_instance", sty.mobileForm)}
             >
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"formMemberEditMobileNumber"}
+                data-plasmic-override={overrides.formMemberEditMobileNumber}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__ltCq0)}
+                className={classNames(
+                  defaultcss.all,
+                  sty.formMemberEditMobileNumber
+                )}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__xC5L
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__lzt1R
-                      )}
-                    >
-                      {"Membership perks and offers sent directly to you"}
-                    </div>
-                  }
-                >
-                  {"Mobile number"}
-                </CardHeaderTitlePrimary>
-
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"memberLocationGroup"}
-                  data-plasmic-override={overrides.memberLocationGroup}
                   hasGap={true}
+                  className={classNames(defaultcss.all, sty.freeBox__ltCq0)}
+                >
+                  <CardHeaderTitlePrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardHeaderTitlePrimary__xC5L
+                    )}
+                    slot={
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.text__lzt1R
+                        )}
+                      >
+                        {"Membership perks and offers sent directly to you"}
+                      </div>
+                    }
+                  >
+                    {"Mobile number"}
+                  </CardHeaderTitlePrimary>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"memberLocationGroup"}
+                    data-plasmic-override={overrides.memberLocationGroup}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.memberLocationGroup
+                    )}
+                  >
+                    <FormSelectInput
+                      data-plasmic-name={"mobileCountrySelectInput"}
+                      data-plasmic-override={overrides.mobileCountrySelectInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.mobileCountrySelectInput
+                      )}
+                      label={"Country"}
+                      name={"country"}
+                    />
+
+                    <FormTextInput
+                      data-plasmic-name={"numberTextInput"}
+                      data-plasmic-override={overrides.numberTextInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.numberTextInput
+                      )}
+                      label={"Number"}
+                      name={"number"}
+                      showLabel={"showLabel"}
+                    />
+                  </p.Stack>
+                </p.Stack>
+
+                <Button
+                  data-plasmic-name={"mobileFormSubmitButton"}
+                  data-plasmic-override={overrides.mobileFormSubmitButton}
                   className={classNames(
-                    defaultcss.all,
-                    sty.memberLocationGroup
+                    "__wab_instance",
+                    sty.mobileFormSubmitButton
                   )}
                 >
-                  <SelectGroupDropdownPrimary
+                  <div
                     className={classNames(
-                      "__wab_instance",
-                      sty.selectGroupDropdownPrimary__yUjcX
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__istu
                     )}
-                    description={"description"}
-                    width={"_144"}
                   >
-                    {"Country"}
-                  </SelectGroupDropdownPrimary>
-
-                  <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__skNv7
-                    )}
-                    labelHeadline={"Number"}
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={"_360"}
-                  />
-                </p.Stack>
+                    {"Save Mobile"}
+                  </div>
+                </Button>
               </p.Stack>
-
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__zWkB3
-                )}
-                size={"_140"}
-                type={"primary"}
-              >
-                {"Save mobile"}
-              </ButtonPrimary>
-            </p.Stack>
+            </FormContext>
           </p.Stack>
 
           <p.Stack
@@ -439,397 +614,187 @@ function PlasmicEditmembersettings__RenderFunc(props) {
               sty.sectionMemberSettingsAddress
             )}
           >
-            <p.Stack
-              as={"form"}
-              data-plasmic-name={"formMemberEditAddress"}
-              data-plasmic-override={overrides.formMemberEditAddress}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.formMemberEditAddress)}
+            <FormContext
+              data-plasmic-name={"addressForm"}
+              data-plasmic-override={overrides.addressForm}
+              className={classNames("__wab_instance", sty.addressForm)}
             >
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"formMemberEditAddress"}
+                data-plasmic-override={overrides.formMemberEditAddress}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__zJ5N8)}
+                className={classNames(
+                  defaultcss.all,
+                  sty.formMemberEditAddress
+                )}
               >
-                <CardHeaderTitlePrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardHeaderTitlePrimary__lgaOa
-                  )}
-                  slot={
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__bNhrh
-                      )}
-                    >
-                      {
-                        "Add your address if you want to appear in search results for local businesses"
-                      }
-                    </div>
-                  }
-                >
-                  {"Address"}
-                </CardHeaderTitlePrimary>
-
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__qvHgH)}
+                  className={classNames(defaultcss.all, sty.freeBox__zJ5N8)}
                 >
-                  <InputTextForm
-                    labelHeadline={"Address"}
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={"_540"}
-                  />
-
-                  <InputTextForm
-                    label={"label"}
-                    labelHeadline={"Number"}
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={"_540"}
-                  />
-
-                  <SelectGroupDropdownPrimary
+                  <CardHeaderTitlePrimary
                     className={classNames(
                       "__wab_instance",
-                      sty.selectGroupDropdownPrimary___1V7D4
+                      sty.cardHeaderTitlePrimary__lgaOa
                     )}
-                    description={"description"}
-                    width={"_360"}
-                  >
-                    {"Country"}
-                  </SelectGroupDropdownPrimary>
-
-                  <InputTextForm
-                    className={classNames(
-                      "__wab_instance",
-                      sty.inputTextForm__voLi1
-                    )}
-                    labelHeadline={
+                    slot={
                       <div
                         className={classNames(
                           defaultcss.all,
                           defaultcss.__wab_text,
-                          sty.text__peQdh
+                          sty.text__bNhrh
                         )}
                       >
-                        {"City"}
+                        {
+                          "Add your address if you want to appear in search results for local businesses"
+                        }
                       </div>
                     }
-                    subhead={"subhead"}
-                    type={"primary"}
-                    width={"_360"}
-                  />
+                  >
+                    {"Address"}
+                  </CardHeaderTitlePrimary>
 
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.freeBox__nosSi)}
+                    className={classNames(defaultcss.all, sty.freeBox__qvHgH)}
                   >
-                    <InputTextForm
-                      labelHeadline={"Province/State"}
-                      subhead={"subhead"}
-                      type={"primary"}
-                      width={"_160"}
-                    />
-
-                    <InputTextForm
-                      labelHeadline={
+                    <FormTextInput
+                      data-plasmic-name={"addressTextInput"}
+                      data-plasmic-override={overrides.addressTextInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.addressTextInput
+                      )}
+                      label={
                         <div
                           className={classNames(
                             defaultcss.all,
                             defaultcss.__wab_text,
-                            sty.text__ay7A6
+                            sty.text__oz4Vl
                           )}
                         >
-                          {"Zip/Postal code"}
+                          {"Address"}
                         </div>
                       }
-                      subhead={"subhead"}
-                      type={"primary"}
-                      width={"_160"}
+                      name={"address"}
+                      showLabel={"showLabel"}
+                    />
+
+                    <FormTextInput
+                      data-plasmic-name={"addressLineTwoTextInput"}
+                      data-plasmic-override={overrides.addressLineTwoTextInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.addressLineTwoTextInput
+                      )}
+                      label={
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___0Xmlr
+                          )}
+                        >
+                          {"Address Line 2"}
+                        </div>
+                      }
+                      name={"addressLineTwo"}
+                      showLabel={"showLabel"}
+                    />
+
+                    <FormSelectInput
+                      data-plasmic-name={"countrySelectInput"}
+                      data-plasmic-override={overrides.countrySelectInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.countrySelectInput
+                      )}
+                      label={"Country"}
+                      name={"country"}
+                    />
+
+                    <FormSelectInput
+                      data-plasmic-name={"citySelectInput"}
+                      data-plasmic-override={overrides.citySelectInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.citySelectInput
+                      )}
+                      label={
+                        <div
+                          data-plasmic-name={"label2"}
+                          data-plasmic-override={overrides.label2}
+                          className={classNames(
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.label2
+                          )}
+                        >
+                          {"City"}
+                        </div>
+                      }
+                      name={"city"}
+                    />
+
+                    <FormTextInput
+                      data-plasmic-name={"stateTextInput"}
+                      data-plasmic-override={overrides.stateTextInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.stateTextInput
+                      )}
+                      label={"Province/State"}
+                      name={"state"}
+                      showLabel={"showLabel"}
+                    />
+
+                    <FormTextInput
+                      data-plasmic-name={"postalCodeTextInput"}
+                      data-plasmic-override={overrides.postalCodeTextInput}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.postalCodeTextInput
+                      )}
+                      label={"Zip/Postal code"}
+                      name={"postalCode"}
+                      showLabel={"showLabel"}
                     />
                   </p.Stack>
                 </p.Stack>
-              </p.Stack>
 
-              <ButtonPrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.buttonPrimary__p09Nl
-                )}
-                size={"_140"}
-                type={"primary"}
-              >
-                {"Save address"}
-              </ButtonPrimary>
-            </p.Stack>
+                <Button
+                  data-plasmic-name={"addressFormSubmitButton"}
+                  data-plasmic-override={overrides.addressFormSubmitButton}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.addressFormSubmitButton
+                  )}
+                >
+                  {"Save Address"}
+                </Button>
+              </p.Stack>
+            </FormContext>
           </p.Stack>
 
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"sectionMemberNotifications"}
-            data-plasmic-override={overrides.sectionMemberNotifications}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              sty.sectionMemberNotifications
-            )}
+          <FormContext
+            data-plasmic-name={"notificationsForm"}
+            data-plasmic-override={overrides.notificationsForm}
+            className={classNames("__wab_instance", sty.notificationsForm)}
           >
-            <CardHeaderTitleDisplay
-              className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay__zEnmS
-              )}
-              headings={["title"]}
-              size={"_720"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__aYd0W
-                  )}
-                >
-                  {"Notifications"}
-                </div>
-              }
-              textDisplay={"Profile edit"}
-              textSubhead={"Get notified about activity on Intrepid"}
-            />
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"notificationPushEmail"}
-              data-plasmic-override={overrides.notificationPushEmail}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.notificationPushEmail)}
-            >
-              <CardHeaderTitlePrimary
+            <div className={classNames(defaultcss.all, sty.freeBox__wBn7A)}>
+              <NotificationSettingsForm
+                data-plasmic-name={"notificationSettingsForm"}
+                data-plasmic-override={overrides.notificationSettingsForm}
                 className={classNames(
                   "__wab_instance",
-                  sty.cardHeaderTitlePrimary__czoXf
+                  sty.notificationSettingsForm
                 )}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__xzQ8E
-                    )}
-                  >
-                    {"Updates when you're away from the community."}
-                  </div>
-                }
-              >
-                {"Speak easy"}
-              </CardHeaderTitlePrimary>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox___51Yhm)}
-              >
-                <SwitchTextGroupPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.switchTextGroupPrimary__o3R2G
-                  )}
-                  descriptionText={
-                    "What's going on in the community - sent to your mobile"
-                  }
-                  textGroup={"Push notifications"}
-                />
-
-                <SwitchTextGroupPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.switchTextGroupPrimary__mLzG
-                  )}
-                  descriptionText={
-                    "What's going on in the community - sent to your inbox"
-                  }
-                  textGroup={"Email notifications"}
-                />
-              </p.Stack>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"notificationActivity"}
-              data-plasmic-override={overrides.notificationActivity}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.notificationActivity)}
-            >
-              <CardHeaderTitlePrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitlePrimary___8JzHe
-                )}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__pBeAe
-                    )}
-                  >
-                    {
-                      "Get notifications from your interactions within the community."
-                    }
-                  </div>
-                }
-              >
-                {"Heads up"}
-              </CardHeaderTitlePrimary>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox___4KphC)}
-              >
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__fZLt
-                  )}
-                  text={"_16"}
-                >
-                  {"New subscriber"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary___2Bttz
-                  )}
-                  text={"_16"}
-                >
-                  {"New tip"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__uceV2
-                  )}
-                  text={"_16"}
-                >
-                  {"New review"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__qxgB5
-                  )}
-                  text={"_16"}
-                >
-                  {"New comment"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__wQ3En
-                  )}
-                  text={"_16"}
-                >
-                  {"New follower"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__qQc8Q
-                  )}
-                  text={"_16"}
-                >
-                  {"New connection request"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary___2QH1
-                  )}
-                  text={"_16"}
-                >
-                  {"Added to list"}
-                </CheckboxTextPrimary>
-
-                <CheckboxTextPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.checkboxTextPrimary__j2M9C
-                  )}
-                  text={"_16"}
-                >
-                  {"New reaction"}
-                </CheckboxTextPrimary>
-              </p.Stack>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"notificationNewsEvents"}
-              data-plasmic-override={overrides.notificationNewsEvents}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.notificationNewsEvents)}
-            >
-              <CardHeaderTitlePrimary
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitlePrimary__yvvDp
-                )}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__slsfD
-                    )}
-                  >
-                    {
-                      "All the fun things going on in the community- be in the know."
-                    }
-                  </div>
-                }
-              >
-                {"Happenings"}
-              </CardHeaderTitlePrimary>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__iUdaa)}
-              >
-                <SwitchTextGroupPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.switchTextGroupPrimary__y6Ojs
-                  )}
-                  descriptionText={
-                    "Our weekly newsletter packed with fun stuff"
-                  }
-                  textGroup={"Email newsletter"}
-                />
-
-                <SwitchTextGroupPrimary
-                  className={classNames(
-                    "__wab_instance",
-                    sty.switchTextGroupPrimary__p7Gag
-                  )}
-                  descriptionText={"Meet members live and in person"}
-                  textGroup={"Events and meetups"}
-                />
-              </p.Stack>
-            </p.Stack>
-          </p.Stack>
+              />
+            </div>
+          </FormContext>
 
           <p.Stack
             as={"div"}
@@ -879,25 +844,28 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                 </CardHeaderTitlePrimary>
               </p.Stack>
 
-              <ButtonPrimary
+              <Button
+                data-plasmic-name={"deleteAccountButton"}
+                data-plasmic-override={overrides.deleteAccountButton}
                 className={classNames(
                   "__wab_instance",
-                  sty.buttonPrimary__vBKf7
+                  sty.deleteAccountButton
                 )}
                 color={"caution"}
-                size={"_140"}
                 type={"ghost"}
               >
-                {"Delete account"}
-              </ButtonPrimary>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__z1Dqb
+                  )}
+                >
+                  {"Delete Account"}
+                </div>
+              </Button>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -907,100 +875,232 @@ function PlasmicEditmembersettings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarMemberEdit",
     "sectionMemberSettingsEmail",
+    "cardHeaderTitleDisplay",
+    "emailForm",
     "formMemberEditEmail",
-    "inputTextField",
+    "emailTextInput",
+    "emailFormSubmitButton",
     "sectionMemberSettingsPasswordReset",
     "sectionMemberPasswordReset",
-    "buttonLinkPrimary",
+    "passwordResetButton",
     "sectionMemberSettingsLoginConnections",
+    "formContext",
     "sectionMemberLoginConnections",
     "inputGroupMemberLoginSocial",
+    "googleSwitchInput",
+    "facebookSwitchInput",
+    "twitterSwitchInput",
+    "linkedInSwitchInput",
+    "githubSwitchInput",
     "sectionMemberMobileNumber",
+    "mobileForm",
     "formMemberEditMobileNumber",
     "memberLocationGroup",
+    "mobileCountrySelectInput",
+    "numberTextInput",
+    "mobileFormSubmitButton",
     "sectionMemberSettingsAddress",
+    "addressForm",
     "formMemberEditAddress",
-    "sectionMemberNotifications",
-    "notificationPushEmail",
-    "notificationActivity",
-    "notificationNewsEvents",
+    "addressTextInput",
+    "addressLineTwoTextInput",
+    "countrySelectInput",
+    "citySelectInput",
+    "label2",
+    "stateTextInput",
+    "postalCodeTextInput",
+    "addressFormSubmitButton",
+    "notificationsForm",
+    "notificationSettingsForm",
     "sectionMemberSettingsDeleteAccount",
     "sectionMemberDeleteAccount",
-    "footerB"
+    "deleteAccountButton"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberSettingsEmail: [
     "sectionMemberSettingsEmail",
+    "cardHeaderTitleDisplay",
+    "emailForm",
     "formMemberEditEmail",
-    "inputTextField"
+    "emailTextInput",
+    "emailFormSubmitButton"
   ],
 
-  formMemberEditEmail: ["formMemberEditEmail", "inputTextField"],
-  inputTextField: ["inputTextField"],
+  cardHeaderTitleDisplay: ["cardHeaderTitleDisplay"],
+  emailForm: [
+    "emailForm",
+    "formMemberEditEmail",
+    "emailTextInput",
+    "emailFormSubmitButton"
+  ],
+
+  formMemberEditEmail: [
+    "formMemberEditEmail",
+    "emailTextInput",
+    "emailFormSubmitButton"
+  ],
+
+  emailTextInput: ["emailTextInput"],
+  emailFormSubmitButton: ["emailFormSubmitButton"],
   sectionMemberSettingsPasswordReset: [
     "sectionMemberSettingsPasswordReset",
     "sectionMemberPasswordReset",
-    "buttonLinkPrimary"
+    "passwordResetButton"
   ],
 
   sectionMemberPasswordReset: [
     "sectionMemberPasswordReset",
-    "buttonLinkPrimary"
+    "passwordResetButton"
   ],
 
-  buttonLinkPrimary: ["buttonLinkPrimary"],
+  passwordResetButton: ["passwordResetButton"],
   sectionMemberSettingsLoginConnections: [
     "sectionMemberSettingsLoginConnections",
+    "formContext",
     "sectionMemberLoginConnections",
-    "inputGroupMemberLoginSocial"
+    "inputGroupMemberLoginSocial",
+    "googleSwitchInput",
+    "facebookSwitchInput",
+    "twitterSwitchInput",
+    "linkedInSwitchInput",
+    "githubSwitchInput"
+  ],
+
+  formContext: [
+    "formContext",
+    "sectionMemberLoginConnections",
+    "inputGroupMemberLoginSocial",
+    "googleSwitchInput",
+    "facebookSwitchInput",
+    "twitterSwitchInput",
+    "linkedInSwitchInput",
+    "githubSwitchInput"
   ],
 
   sectionMemberLoginConnections: [
     "sectionMemberLoginConnections",
-    "inputGroupMemberLoginSocial"
+    "inputGroupMemberLoginSocial",
+    "googleSwitchInput",
+    "facebookSwitchInput",
+    "twitterSwitchInput",
+    "linkedInSwitchInput",
+    "githubSwitchInput"
   ],
 
-  inputGroupMemberLoginSocial: ["inputGroupMemberLoginSocial"],
+  inputGroupMemberLoginSocial: [
+    "inputGroupMemberLoginSocial",
+    "googleSwitchInput",
+    "facebookSwitchInput",
+    "twitterSwitchInput",
+    "linkedInSwitchInput",
+    "githubSwitchInput"
+  ],
+
+  googleSwitchInput: ["googleSwitchInput"],
+  facebookSwitchInput: ["facebookSwitchInput"],
+  twitterSwitchInput: ["twitterSwitchInput"],
+  linkedInSwitchInput: ["linkedInSwitchInput"],
+  githubSwitchInput: ["githubSwitchInput"],
   sectionMemberMobileNumber: [
     "sectionMemberMobileNumber",
+    "mobileForm",
     "formMemberEditMobileNumber",
-    "memberLocationGroup"
+    "memberLocationGroup",
+    "mobileCountrySelectInput",
+    "numberTextInput",
+    "mobileFormSubmitButton"
+  ],
+
+  mobileForm: [
+    "mobileForm",
+    "formMemberEditMobileNumber",
+    "memberLocationGroup",
+    "mobileCountrySelectInput",
+    "numberTextInput",
+    "mobileFormSubmitButton"
   ],
 
   formMemberEditMobileNumber: [
     "formMemberEditMobileNumber",
-    "memberLocationGroup"
+    "memberLocationGroup",
+    "mobileCountrySelectInput",
+    "numberTextInput",
+    "mobileFormSubmitButton"
   ],
 
-  memberLocationGroup: ["memberLocationGroup"],
+  memberLocationGroup: [
+    "memberLocationGroup",
+    "mobileCountrySelectInput",
+    "numberTextInput"
+  ],
+
+  mobileCountrySelectInput: ["mobileCountrySelectInput"],
+  numberTextInput: ["numberTextInput"],
+  mobileFormSubmitButton: ["mobileFormSubmitButton"],
   sectionMemberSettingsAddress: [
     "sectionMemberSettingsAddress",
-    "formMemberEditAddress"
+    "addressForm",
+    "formMemberEditAddress",
+    "addressTextInput",
+    "addressLineTwoTextInput",
+    "countrySelectInput",
+    "citySelectInput",
+    "label2",
+    "stateTextInput",
+    "postalCodeTextInput",
+    "addressFormSubmitButton"
   ],
 
-  formMemberEditAddress: ["formMemberEditAddress"],
-  sectionMemberNotifications: [
-    "sectionMemberNotifications",
-    "notificationPushEmail",
-    "notificationActivity",
-    "notificationNewsEvents"
+  addressForm: [
+    "addressForm",
+    "formMemberEditAddress",
+    "addressTextInput",
+    "addressLineTwoTextInput",
+    "countrySelectInput",
+    "citySelectInput",
+    "label2",
+    "stateTextInput",
+    "postalCodeTextInput",
+    "addressFormSubmitButton"
   ],
 
-  notificationPushEmail: ["notificationPushEmail"],
-  notificationActivity: ["notificationActivity"],
-  notificationNewsEvents: ["notificationNewsEvents"],
+  formMemberEditAddress: [
+    "formMemberEditAddress",
+    "addressTextInput",
+    "addressLineTwoTextInput",
+    "countrySelectInput",
+    "citySelectInput",
+    "label2",
+    "stateTextInput",
+    "postalCodeTextInput",
+    "addressFormSubmitButton"
+  ],
+
+  addressTextInput: ["addressTextInput"],
+  addressLineTwoTextInput: ["addressLineTwoTextInput"],
+  countrySelectInput: ["countrySelectInput"],
+  citySelectInput: ["citySelectInput", "label2"],
+  label2: ["label2"],
+  stateTextInput: ["stateTextInput"],
+  postalCodeTextInput: ["postalCodeTextInput"],
+  addressFormSubmitButton: ["addressFormSubmitButton"],
+  notificationsForm: ["notificationsForm", "notificationSettingsForm"],
+  notificationSettingsForm: ["notificationSettingsForm"],
   sectionMemberSettingsDeleteAccount: [
     "sectionMemberSettingsDeleteAccount",
-    "sectionMemberDeleteAccount"
+    "sectionMemberDeleteAccount",
+    "deleteAccountButton"
   ],
 
-  sectionMemberDeleteAccount: ["sectionMemberDeleteAccount"],
-  footerB: ["footerB"]
+  sectionMemberDeleteAccount: [
+    "sectionMemberDeleteAccount",
+    "deleteAccountButton"
+  ],
+
+  deleteAccountButton: ["deleteAccountButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1034,21 +1134,24 @@ export const PlasmicEditmembersettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberSettingsEmail: makeNodeComponent("sectionMemberSettingsEmail"),
+    cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
+    emailForm: makeNodeComponent("emailForm"),
     formMemberEditEmail: makeNodeComponent("formMemberEditEmail"),
-    inputTextField: makeNodeComponent("inputTextField"),
+    emailTextInput: makeNodeComponent("emailTextInput"),
+    emailFormSubmitButton: makeNodeComponent("emailFormSubmitButton"),
     sectionMemberSettingsPasswordReset: makeNodeComponent(
       "sectionMemberSettingsPasswordReset"
     ),
 
     sectionMemberPasswordReset: makeNodeComponent("sectionMemberPasswordReset"),
-    buttonLinkPrimary: makeNodeComponent("buttonLinkPrimary"),
+    passwordResetButton: makeNodeComponent("passwordResetButton"),
     sectionMemberSettingsLoginConnections: makeNodeComponent(
       "sectionMemberSettingsLoginConnections"
     ),
 
+    formContext: makeNodeComponent("formContext"),
     sectionMemberLoginConnections: makeNodeComponent(
       "sectionMemberLoginConnections"
     ),
@@ -1057,24 +1160,40 @@ export const PlasmicEditmembersettings = Object.assign(
       "inputGroupMemberLoginSocial"
     ),
 
+    googleSwitchInput: makeNodeComponent("googleSwitchInput"),
+    facebookSwitchInput: makeNodeComponent("facebookSwitchInput"),
+    twitterSwitchInput: makeNodeComponent("twitterSwitchInput"),
+    linkedInSwitchInput: makeNodeComponent("linkedInSwitchInput"),
+    githubSwitchInput: makeNodeComponent("githubSwitchInput"),
     sectionMemberMobileNumber: makeNodeComponent("sectionMemberMobileNumber"),
+    mobileForm: makeNodeComponent("mobileForm"),
     formMemberEditMobileNumber: makeNodeComponent("formMemberEditMobileNumber"),
     memberLocationGroup: makeNodeComponent("memberLocationGroup"),
+    mobileCountrySelectInput: makeNodeComponent("mobileCountrySelectInput"),
+    numberTextInput: makeNodeComponent("numberTextInput"),
+    mobileFormSubmitButton: makeNodeComponent("mobileFormSubmitButton"),
     sectionMemberSettingsAddress: makeNodeComponent(
       "sectionMemberSettingsAddress"
     ),
 
+    addressForm: makeNodeComponent("addressForm"),
     formMemberEditAddress: makeNodeComponent("formMemberEditAddress"),
-    sectionMemberNotifications: makeNodeComponent("sectionMemberNotifications"),
-    notificationPushEmail: makeNodeComponent("notificationPushEmail"),
-    notificationActivity: makeNodeComponent("notificationActivity"),
-    notificationNewsEvents: makeNodeComponent("notificationNewsEvents"),
+    addressTextInput: makeNodeComponent("addressTextInput"),
+    addressLineTwoTextInput: makeNodeComponent("addressLineTwoTextInput"),
+    countrySelectInput: makeNodeComponent("countrySelectInput"),
+    citySelectInput: makeNodeComponent("citySelectInput"),
+    label2: makeNodeComponent("label2"),
+    stateTextInput: makeNodeComponent("stateTextInput"),
+    postalCodeTextInput: makeNodeComponent("postalCodeTextInput"),
+    addressFormSubmitButton: makeNodeComponent("addressFormSubmitButton"),
+    notificationsForm: makeNodeComponent("notificationsForm"),
+    notificationSettingsForm: makeNodeComponent("notificationSettingsForm"),
     sectionMemberSettingsDeleteAccount: makeNodeComponent(
       "sectionMemberSettingsDeleteAccount"
     ),
 
     sectionMemberDeleteAccount: makeNodeComponent("sectionMemberDeleteAccount"),
-    footerB: makeNodeComponent("footerB"),
+    deleteAccountButton: makeNodeComponent("deleteAccountButton"),
     // Metadata about props expected for PlasmicEditmembersettings
     internalVariantProps: PlasmicEditmembersettings__VariantProps,
     internalArgProps: PlasmicEditmembersettings__ArgProps

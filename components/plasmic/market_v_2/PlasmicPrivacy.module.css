@@ -27,6 +27,3 @@
     font-weight: 500;
   }
 }
-.footerB:global(.__wab_instance) {
-  position: relative;
-}

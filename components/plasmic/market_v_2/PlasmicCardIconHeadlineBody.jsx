@@ -50,7 +50,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
+      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
         [sty.root__state_deactivated]: hasVariant(
           variants,
           "state",

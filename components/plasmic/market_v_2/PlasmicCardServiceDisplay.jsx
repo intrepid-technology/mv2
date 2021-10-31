@@ -228,7 +228,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"userAvatarParentLink"}
             data-plasmic-override={overrides.userAvatarParentLink}
-            className={classNames(defaultcss.all, sty.userAvatarParentLink, {
+            className={classNames(defaultcss.a, sty.userAvatarParentLink, {
               [sty.userAvatarParentLink__avatar]: hasVariant(
                 variants,
                 "avatar",
@@ -248,7 +248,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"usernameParentLink"}
             data-plasmic-override={overrides.usernameParentLink}
-            className={classNames(defaultcss.all, sty.usernameParentLink, {
+            className={classNames(defaultcss.a, sty.usernameParentLink, {
               [sty.usernameParentLink__username]: hasVariant(
                 variants,
                 "username",
@@ -340,7 +340,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"reviewLinkB"}
               data-plasmic-override={overrides.reviewLinkB}
-              className={classNames(defaultcss.all, sty.reviewLinkB)}
+              className={classNames(defaultcss.a, sty.reviewLinkB)}
               component={Link}
               platform={"nextjs"}
             >
@@ -366,7 +366,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"reviewLinkA"}
             data-plasmic-override={overrides.reviewLinkA}
-            className={classNames(defaultcss.all, sty.reviewLinkA)}
+            className={classNames(defaultcss.a, sty.reviewLinkA)}
             component={Link}
             platform={"nextjs"}
           >

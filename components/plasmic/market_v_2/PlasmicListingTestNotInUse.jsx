@@ -17,10 +17,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardLinkServiceMenu from "../../CardLinkServiceMenu"; // plasmic-import: q8zDlZXV1I/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -44,14 +42,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -72,12 +63,6 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"section"}
@@ -550,12 +535,6 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -563,10 +542,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarInternal", "section", "footerB"],
-  navbarInternal: ["navbarInternal"],
-  section: ["section"],
-  footerB: ["footerB"]
+  root: ["root", "section"],
+  section: ["section"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -600,9 +577,7 @@ export const PlasmicListingTestNotInUse = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     section: makeNodeComponent("section"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicListingTestNotInUse
     internalVariantProps: PlasmicListingTestNotInUse__VariantProps,
     internalArgProps: PlasmicListingTestNotInUse__ArgProps

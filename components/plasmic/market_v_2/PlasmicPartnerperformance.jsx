@@ -18,13 +18,11 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import CardAnalyticsPrimary from "../../CardAnalyticsPrimary"; // plasmic-import: -EGIFSbBWZt/component
 import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -58,18 +56,12 @@ function PlasmicPartnerperformance__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Partner performance and analytics"}</title>
         <meta
           key="og:title"
           property="og:title"
           content={"Partner performance and analytics"}
-        />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
         />
       </Head>
 
@@ -91,12 +83,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarPartnerEdit
             data-plasmic-name={"navbarPartnerEdit"}
             data-plasmic-override={overrides.navbarPartnerEdit}
@@ -522,7 +508,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 headlineLabelTitle={"Date"}
                 label={"label"}
                 size={
-                  hasVariant(globalVariants, "screen", "mobile")
+                  hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? "_180X32"
                     : "_180X32"
                 }
@@ -1188,12 +1174,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               />
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1203,7 +1183,6 @@ function PlasmicPartnerperformance__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarPartnerEdit",
     "sectionHeaderPartnerPerformance",
     "cardHeaderTitleDisplay",
@@ -1229,11 +1208,9 @@ const PlasmicDescendants = {
     "partnerSubscribers",
     "partnerConnections",
     "partnerFollowers",
-    "partnerFollowing",
-    "footerB"
+    "partnerFollowing"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionHeaderPartnerPerformance: [
     "sectionHeaderPartnerPerformance",
@@ -1313,8 +1290,7 @@ const PlasmicDescendants = {
   partnerSubscribers: ["partnerSubscribers"],
   partnerConnections: ["partnerConnections"],
   partnerFollowers: ["partnerFollowers"],
-  partnerFollowing: ["partnerFollowing"],
-  footerB: ["footerB"]
+  partnerFollowing: ["partnerFollowing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1348,7 +1324,6 @@ export const PlasmicPartnerperformance = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionHeaderPartnerPerformance: makeNodeComponent(
       "sectionHeaderPartnerPerformance"
@@ -1381,7 +1356,6 @@ export const PlasmicPartnerperformance = Object.assign(
     partnerConnections: makeNodeComponent("partnerConnections"),
     partnerFollowers: makeNodeComponent("partnerFollowers"),
     partnerFollowing: makeNodeComponent("partnerFollowing"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicPartnerperformance
     internalVariantProps: PlasmicPartnerperformance__VariantProps,
     internalArgProps: PlasmicPartnerperformance__ArgProps

@@ -48,7 +48,9 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
         data-plasmic-name={"cardCta"}
         data-plasmic-override={overrides.cardCta}
         center={
-          hasVariant(globalVariants, "screen", "mobile") ? "center" : undefined
+          hasVariant(globalVariants, "screen", "iphone678Plus")
+            ? "center"
+            : undefined
         }
         className={classNames("__wab_instance", sty.cardCta)}
         slot={

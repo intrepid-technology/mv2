@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -33,14 +32,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -72,6 +64,8 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
+              hideBack={"hideBack"}
+              hideNext={"hideNext"}
             >
               {"Confirmation"}
             </NavbarServiceListing>
@@ -83,12 +77,6 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               progress={"_100"}
             />
           </div>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -96,14 +84,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
-    "serviceListingNavbar",
-    "navbarServiceListing",
-    "progressBar",
-    "footerB"
-  ],
-
+  root: ["root", "serviceListingNavbar", "navbarServiceListing", "progressBar"],
   serviceListingNavbar: [
     "serviceListingNavbar",
     "navbarServiceListing",
@@ -111,8 +92,7 @@ const PlasmicDescendants = {
   ],
 
   navbarServiceListing: ["navbarServiceListing"],
-  progressBar: ["progressBar"],
-  footerB: ["footerB"]
+  progressBar: ["progressBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -149,7 +129,6 @@ export const PlasmicServicelistingconfirmation = Object.assign(
     serviceListingNavbar: makeNodeComponent("serviceListingNavbar"),
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicServicelistingconfirmation
     internalVariantProps: PlasmicServicelistingconfirmation__VariantProps,
     internalArgProps: PlasmicServicelistingconfirmation__ArgProps

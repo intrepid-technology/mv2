@@ -109,7 +109,9 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
           linkText={"Partners"}
         />
 
-        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+        {(
+          hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true
+        ) ? (
           <NavLink
             data-plasmic-name={"loginMain"}
             data-plasmic-override={overrides.loginMain}

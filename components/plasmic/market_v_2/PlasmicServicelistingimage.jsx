@@ -36,14 +36,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -74,7 +67,9 @@ function PlasmicServicelistingimage__RenderFunc(props) {
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
+              backButtonDestination={"/service/listing/description"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
+              nextButtonDestination={"/service/listing/delivery"}
             >
               {"Images"}
             </NavbarServiceListing>

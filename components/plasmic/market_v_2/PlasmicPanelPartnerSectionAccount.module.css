@@ -57,43 +57,21 @@
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox__cXBrw {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__ri1Mr {
+.navImage2 {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }
 .menuIconListItem__utJTz:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
 }
-.freeBox___9WILw {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.svg__tRioA {
+.navImage {
   object-fit: cover;
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
-  flex-shrink: 0;
 }

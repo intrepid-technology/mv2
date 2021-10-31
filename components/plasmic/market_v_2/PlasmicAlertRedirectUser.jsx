@@ -61,7 +61,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
         className={classNames(defaultcss.all, sty.freeBox__hd4C)}
       >
         {(
-          hasVariant(globalVariants, "screen", "mobile")
+          hasVariant(globalVariants, "screen", "iphone678Plus")
             ? true
             : hasVariant(globalVariants, "screen", "desktop")
             ? true
@@ -83,7 +83,11 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
               role={"img"}
             />
 
-            {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            {(
+              hasVariant(globalVariants, "screen", "iphone678Plus")
+                ? true
+                : false
+            ) ? (
               <div
                 className={classNames(
                   defaultcss.all,
@@ -139,7 +143,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             ) : null}
           </p.Stack>
         ) : null}
-        {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+        {(
+          hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+        ) ? (
           <div
             className={classNames(
               defaultcss.all,
@@ -219,7 +225,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             data-plasmic-name={"link"}
             data-plasmic-override={overrides.link}
             className={classNames(
-              defaultcss.all,
+              defaultcss.a,
               defaultcss.__wab_text,
               sty.link,
               {

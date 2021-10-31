@@ -43,7 +43,7 @@ function PlasmicPanelButtonNewListing__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"newListing"}
         data-plasmic-override={overrides.newListing}
-        className={classNames(defaultcss.all, sty.newListing)}
+        className={classNames(defaultcss.a, sty.newListing)}
         component={Link}
         href={args.destination}
         platform={"nextjs"}

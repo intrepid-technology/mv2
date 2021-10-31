@@ -158,7 +158,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               ? "_720"
               : hasVariant(variants, "width", "_540")
               ? "_540"
-              : "_360"
+              : undefined
           }
         />
 

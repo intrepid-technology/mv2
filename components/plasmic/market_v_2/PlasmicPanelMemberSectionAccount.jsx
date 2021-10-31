@@ -61,37 +61,43 @@ function PlasmicPanelMemberSectionAccount__RenderFunc(props) {
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem___8E4Aa)}
+        destination={"/notifications"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox___6VJUh)}>
-            <NotificationIcon
-              className={classNames(defaultcss.all, sty.svg__lQxxk)}
-              role={"img"}
-            />
-          </div>
+          <NotificationIcon
+            data-plasmic-name={"navImage2"}
+            data-plasmic-override={overrides.navImage2}
+            className={classNames(defaultcss.all, sty.navImage2)}
+            role={"img"}
+          />
         }
         navText={"Notifications"}
+        renderContext={"sidebar"}
       />
 
       <MenuIconListItem
         className={classNames("__wab_instance", sty.menuIconListItem__uNiLi)}
+        destination={"/edit/member/settings"}
         navIcon={
-          <div className={classNames(defaultcss.all, sty.freeBox___7CxmV)}>
-            <SettingsIcon
-              className={classNames(defaultcss.all, sty.svg__eP0Lh)}
-              role={"img"}
-            />
-          </div>
+          <SettingsIcon
+            data-plasmic-name={"navImage"}
+            data-plasmic-override={overrides.navImage}
+            className={classNames(defaultcss.all, sty.navImage)}
+            role={"img"}
+          />
         }
         navText={"Settings"}
+        renderContext={"sidebar"}
       />
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text"],
+  root: ["root", "freeBox", "text", "navImage2", "navImage"],
   freeBox: ["freeBox", "text"],
-  text: ["text"]
+  text: ["text"],
+  navImage2: ["navImage2"],
+  navImage: ["navImage"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -127,6 +133,8 @@ export const PlasmicPanelMemberSectionAccount = Object.assign(
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
     text: makeNodeComponent("text"),
+    navImage2: makeNodeComponent("navImage2"),
+    navImage: makeNodeComponent("navImage"),
     // Metadata about props expected for PlasmicPanelMemberSectionAccount
     internalVariantProps: PlasmicPanelMemberSectionAccount__VariantProps,
     internalArgProps: PlasmicPanelMemberSectionAccount__ArgProps
