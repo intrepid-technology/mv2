@@ -1,37 +1,61 @@
 import * as React from "react";
-
+import { useRouter } from "next/router";
+import useUpdateTeam from "../../hooks/useUpdateTeam";
 import { PlasmicEditteam } from "../../components/plasmic/market_v_2/PlasmicEditteam";
 
 function Editteam() {
-  const onTeamProfileFormSubmit = async data => {
-    console.log({data})
-  }
-  
-  const onTeamDetailsFormSubmit = async data => {
-    console.log({data})
-  }
+  const [values, setValues] = React.useState();
+  const router = useRouter();
+  const teamId = router.query["id"];
+  const updateTeamMutation = useUpdateTeam(teamId, values);
 
-  const onTeamMarketFormSubmit = async data => {
-    console.log({data})
-  }
- 
-  const onTeamSocialFormSubmit = async data => {
-    console.log({data})
-  }
+  const onTeamProfileFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateTeamMutation.mutate();
+  };
+
+  const onTeamDetailsFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateTeamMutation.mutate();
+  };
+
+  const onTeamMarketFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateTeamMutation.mutate();
+  };
+
+  const onTeamSocialFormSubmit = async (data) => {
+    console.log({ data });
+    setValues({
+      ...values,
+      ...data,
+    });
+    updateTeamMutation.mutate();
+  };
 
   return (
     <PlasmicEditteam
       // Team Profile Form
       teamProfileForm={{
         defaultValues: {},
-        onSubmit: onTeamProfileFormSubmit
+        onSubmit: onTeamProfileFormSubmit,
       }}
-
-      
       // Team Details Form
       teamDetailsForm={{
         defaultValues: {},
-        onSubmit: onTeamDetailsFormSubmit
+        onSubmit: onTeamDetailsFormSubmit,
       }}
       countrySelectInput={{
         options: [
@@ -99,8 +123,6 @@ function Editteam() {
           { id: 9, label: "Community 9" },
         ],
       }}
-
-      
       // Team Market Form
       teamMarketForm={{
         defaultValues: {},
@@ -145,12 +167,10 @@ function Editteam() {
           { id: 9, label: "Interest 9" },
         ],
       }}
-
-
       // Team Social Form
       teamSocialForm={{
         defaultValues: {},
-        onSubmit: onTeamSocialFormSubmit
+        onSubmit: onTeamSocialFormSubmit,
       }}
     />
   );
