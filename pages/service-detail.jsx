@@ -1,15 +1,22 @@
 import { useRouter } from "next/router";
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import { PlasmicServiceDetail } from "../components/plasmic/market_v_2/PlasmicServiceDetail";
 import useCreateOrder from "../hooks/useCreateOrder";
+import getCurrentUserId from "../utils/getUser";
 
 function ServiceDetail() {
   const router = useRouter();
   const listingId = router.query["id"];
 
-  const [buyerId, setBuyerId] = React.useState(
-    "48649605-13db-479b-a0a2-162b2d6c7030"
-  );
+  const [buyerId, setBuyerId] = useState(null);
+
+  useEffect(() => {
+    async function getAndSetCurrentUserId() {
+      const uid = await getCurrentUserId();
+      setBuyerId(uid);
+    }
+    getAndSetCurrentUserId();
+  });
 
   const handleCheckout = async () => {
     createOrderMutation.mutate();
@@ -25,11 +32,16 @@ function ServiceDetail() {
     console.log(createOrderMutation.error.message);
   }
 
-  return (
-    <div>
+  const orderButton =
+    buyerId === null ? null : (
       <button className="button" onClick={handleCheckout}>
         Order
       </button>
+    );
+
+  return (
+    <div>
+      {orderButton}
       <PlasmicServiceDetail />
     </div>
   );
