@@ -2,20 +2,19 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PlasmicMembermanageprojects } from "../../../components/plasmic/market_v_2/PlasmicMembermanageprojects";
-import useOrders from "../../../hooks/useOrders";
+import useProjects from "../../../hooks/useProjects";
 
 function Membermanageprojects() {
-  const { data, status } = useOrders();
-  console.log("status ", status);
+  const { data, status } = useProjects();
   return (
     <div>
       {status === "loading" && <div>Loading...</div>}
       {status === "error" && <div>Error fetching Info</div>}
       {status === "success" && (
         <div>
-          <h2>These are listing IDs by this person</h2>
+          <h2>These are projects bought by this seller</h2>
           {data.map((order) => {
-            return <div key={order.id}>{order.listingId}</div>;
+            return <div key={order.id}>{order.name}, {order.amount}</div>;
           })}
         </div>
       )}
