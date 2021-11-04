@@ -65,6 +65,9 @@ const initialState = {
       url: "",
     },
   ],
+  // TODO: Add missing values in listing form
+  amount: 10000,
+  seller: "48649605-13db-479b-a0a2-162b2d6c7030",
 };
 
 export const serviceListingSlice = createSlice({

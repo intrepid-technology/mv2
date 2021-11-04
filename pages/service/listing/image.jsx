@@ -65,8 +65,13 @@ function Servicelistingimage() {
     }
   }, [downloadURL]);
 
+  console.log("Image ", serviceListing);
+
   return (
     <>
+      <a href="/service/listing/delivery">
+        <button>Next</button>
+      </a>
       {progress}% uploaded
       <br />
       <br />
