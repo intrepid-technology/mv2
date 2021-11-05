@@ -1,12 +1,14 @@
 import { useRouter } from "next/router";
 import * as React from "react";
 import useLogin from "../hooks/useLogin";
+import useProviderAuth from "../hooks/useProviderAuth";
 import { PlasmicCardLogIn } from "./plasmic/market_v_2/PlasmicCardLogIn";
 
 function CardLogIn_(props, ref) {
   const router = useRouter();
   const [email, setEmail] = React.useState(null);
   const [password, setPassword] = React.useState(null);
+  const [provider, setProvider] = React.useState(null);
 
   const handleContinue = () => {
     console.log({ email, password });
@@ -17,6 +19,13 @@ function CardLogIn_(props, ref) {
     email,
     password,
   });
+
+  const handleProviderAuth = (e, provider) => {
+    setProvider(provider);
+    providerAuthMutation.mutate();
+  };
+
+  const providerAuthMutation = useProviderAuth({ provider });
 
   if (loginMutation.isSuccess) {
     router.push("/");
@@ -41,6 +50,9 @@ function CardLogIn_(props, ref) {
       }}
       continueButton={{
         onClick: (e) => handleContinue(e),
+      }}
+      loginGoogleConnect={{
+        onClick: (e) => handleProviderAuth(e, "google"),
       }}
     />
   );
