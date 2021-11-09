@@ -94,6 +94,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  min-height: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }

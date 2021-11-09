@@ -47,6 +47,11 @@ function Servicelistingcategory() {
             { id: 4, label: "Service 4" },
           ],
         }}
+        serviceContentTextArea={{
+          value: serviceListing.category.content,
+          onChange: (newValue) =>
+            dispatch(updateServiceList({ key: "category.content", value: newValue })),
+        }}
         serviceFeaturesCheckboxes={{
           value: serviceListing.category.features,
           onChange: (features) =>

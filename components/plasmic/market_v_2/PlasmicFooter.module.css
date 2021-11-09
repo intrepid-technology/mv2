@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root {
@@ -62,6 +63,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 36px);
   height: calc(100% + 36px);
 }
@@ -111,6 +113,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 96px);
   width: calc(100% + 96px);
   margin-top: calc(0px - 36px);
@@ -447,6 +450,7 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
 }

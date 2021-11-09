@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  min-width: 0;
 }
 .root__showLabel > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);

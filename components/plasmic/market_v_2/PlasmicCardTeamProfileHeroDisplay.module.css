@@ -229,6 +229,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -269,6 +270,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -325,6 +327,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 0;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
@@ -341,6 +344,11 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .companyDescription {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .companyDescription > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -383,6 +391,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }

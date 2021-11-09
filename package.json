@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@firebase/storage": "^0.8.4",
-    "@plasmicapp/cli": "^0.1.161",
+    "@plasmicapp/cli": "^0.1.166",
     "@plasmicapp/react-web": "^0.2.87",
     "@reduxjs/toolkit": "^1.6.2",
     "@supabase/supabase-js": "^1.24.0",

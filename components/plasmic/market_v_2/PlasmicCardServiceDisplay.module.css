@@ -593,6 +593,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -1022,6 +1023,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
 }
 .priceUserStatsParent__size__270X270 {
   width: 100%;
@@ -1031,6 +1033,7 @@
 .priceUserStatsParent__size__270X270 > :global(.__wab_flex-container) {
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -1194,6 +1197,7 @@
 }
 .userStatsParent__size__270X270 > :global(.__wab_flex-container) {
   justify-content: flex-start;
+  min-width: 0;
 }
 .userStatsParent__userStats {
   display: none;

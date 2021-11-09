@@ -10,7 +10,7 @@ import {isArray} from 'lodash'
 function MultiSelectInput_({
   value,
   onChange,
-  options,
+  options=[],
   displayKey = "label",
   displayFunc,
   uniqueKey = "id",

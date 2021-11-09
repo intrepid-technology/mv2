@@ -2,14 +2,15 @@ import { get, set } from "lodash";
 
 import { createSlice } from "@reduxjs/toolkit";
 
-const PROCESS_STEP_DEFUALT_ITEM = { title: "", description: "" };
+export const PROCESS_STEP_DEFUALT_ITEM = { title: "", description: "" };
+export const DELIVERY_REQUIREMENT_DEFUALT_ITEM = { title: "", description: "" };
 
 const initialState = {
   category: {
     serviceCategory: null, // id
     service: null, // id
     features: [],
-    content: [],
+    content: "",
     industries: [],
     tools: [],
   },
@@ -20,33 +21,13 @@ const initialState = {
       overview: "Delivery process short dummy overview",
       steps: [PROCESS_STEP_DEFUALT_ITEM],
     },
-    time: 9, // No of days
-    meetings: 2,
-    revisions: 10,
+    time: null, // No of days
+    meetings: null,
+    revisions: null,
     requirements: [
-      {
-        id: 1,
-        description: "Requirement No 1",
-      },
-      {
-        id: 2,
-        description: "Requirement No 2",
-      },
-      {
-        id: 3,
-        description: "Requirement No 3",
-      },
+      DELIVERY_REQUIREMENT_DEFUALT_ITEM
     ],
-    formats: [
-      {
-        id: 1,
-        label: "pdf",
-      },
-      {
-        id: 1,
-        label: "zip",
-      },
-    ],
+    formats: [],
   },
   images: [
     {
@@ -78,13 +59,14 @@ export const serviceListingSlice = createSlice({
       const { key, value } = action.payload;
       set(state, key, value);
     },
-    addNewStepToServiceListingProcess: (state, action) => {
-      const ref = get(state, "delivery.process.steps");
-      ref.push(PROCESS_STEP_DEFUALT_ITEM);
+    addNewArrayFieldToServiceListing: (state, action) => {
+      const {key, defaultItem} = action.payload;
+      const ref = get(state, key);
+      ref.push(defaultItem);
     },
-    removeStepToServiceListingProcess: (state, action) => {
-      const { index } = action.payload;
-      const ref = get(state, "delivery.process.steps");
+    removeArrayFieldFromServiceListing: (state, action) => {
+      const { index, key } = action.payload;
+      const ref = get(state, key);
       ref.splice(index, 1);
     },
     updateImageListingImage: (state, action) => {
@@ -98,8 +80,8 @@ export const serviceListingSlice = createSlice({
 // Action creators are generated for each case reducer function
 export const {
   updateServiceList,
-  addNewStepToServiceListingProcess,
-  removeStepToServiceListingProcess,
+  addNewArrayFieldToServiceListing,
+  removeArrayFieldFromServiceListing,
   updateImageListingImage,
 } = serviceListingSlice.actions;
 

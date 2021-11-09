@@ -47,7 +47,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
 
       <div className={defaultcss.plasmic_page_wrapper}>
         <p.Stack
-          as={"form"}
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}

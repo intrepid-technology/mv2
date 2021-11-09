@@ -20,11 +20,11 @@ import {
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
+import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
-import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRmUa9KEQ/component
-import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
-import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
+import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
+import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -130,14 +130,12 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <input
-                data-plasmic-name={"textbox"}
-                data-plasmic-override={overrides.textbox}
-                className={classNames(defaultcss.input, sty.textbox)}
-                placeholder={"Enter a number"}
-                size={1}
-                type={"text"}
-                value={""}
+              <TextInput
+                data-plasmic-name={"deliveryTimeInput"}
+                data-plasmic-override={overrides.deliveryTimeInput}
+                adornment={["end"]}
+                className={classNames("__wab_instance", sty.deliveryTimeInput)}
+                endAdornment={"Days"}
               />
             </p.Stack>
 
@@ -196,16 +194,14 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <ButtonFormDropdownSelect
+              <NativeSelectInput
+                data-plasmic-name={"meetingsSelectInput"}
+                data-plasmic-override={overrides.meetingsSelectInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.buttonFormDropdownSelect__tdwKs
+                  sty.meetingsSelectInput
                 )}
-                description={"description"}
-                dropdownTitle={"Select"}
-                headlineLabelTitle={"Now, let's be specific"}
-                label={"label"}
-                size={"_360X40"}
+                hideLabel={"hideLabel"}
               />
             </p.Stack>
 
@@ -264,16 +260,14 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <ButtonFormDropdownSelect
+              <NativeSelectInput
+                data-plasmic-name={"revisionsSelectInput"}
+                data-plasmic-override={overrides.revisionsSelectInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.buttonFormDropdownSelect__lorOa
+                  sty.revisionsSelectInput
                 )}
-                description={"description"}
-                dropdownTitle={"Select"}
-                headlineLabelTitle={"Now, let's be specific"}
-                label={"label"}
-                size={"_360X40"}
+                hideLabel={"hideLabel"}
               />
             </p.Stack>
 
@@ -343,38 +337,16 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </CardQuestionServiceListing>
               </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__ui9Ss)}
-              >
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__cnO1T
-                  )}
-                >
-                  {"Client requirement 1"}
-                </RadioCheckboxCard>
-
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__sLNwn
-                  )}
-                >
-                  {"Client requirement 2 "}
-                </RadioCheckboxCard>
-
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__tPpQg
-                  )}
-                >
-                  {"Client requirement 3 "}
-                </RadioCheckboxCard>
-              </p.Stack>
+              <ArrayInputFields
+                data-plasmic-name={"deliveryRequirementsArrayFields"}
+                data-plasmic-override={
+                  overrides.deliveryRequirementsArrayFields
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.deliveryRequirementsArrayFields
+                )}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -432,28 +404,16 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <SearchBadge
-                data-plasmic-name={"searchBadge"}
-                data-plasmic-override={overrides.searchBadge}
-                className={classNames("__wab_instance", sty.searchBadge)}
-              >
-                <ChipBadgeDisplay
-                  data-plasmic-name={"chipBadgeDisplay"}
-                  data-plasmic-override={overrides.chipBadgeDisplay}
-                  className={classNames("__wab_instance", sty.chipBadgeDisplay)}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__gkwVx
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-              </SearchBadge>
+              <MultiSelectInput
+                data-plasmic-name={"deliveryFormatsMultiSelectInput"}
+                data-plasmic-override={
+                  overrides.deliveryFormatsMultiSelectInput
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.deliveryFormatsMultiSelectInput
+                )}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -487,13 +447,15 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionTimeBlock",
-    "textbox",
+    "deliveryTimeInput",
     "questionMeetingBlock",
+    "meetingsSelectInput",
     "questionRevisionBlock",
+    "revisionsSelectInput",
     "questionRequirementBlock",
+    "deliveryRequirementsArrayFields",
     "questionFormatBlock",
-    "searchBadge",
-    "chipBadgeDisplay",
+    "deliveryFormatsMultiSelectInput",
     "footerServiceListing"
   ],
 
@@ -505,19 +467,24 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionTimeBlock: ["questionTimeBlock", "textbox"],
-  textbox: ["textbox"],
-  questionMeetingBlock: ["questionMeetingBlock"],
-  questionRevisionBlock: ["questionRevisionBlock"],
-  questionRequirementBlock: ["questionRequirementBlock"],
-  questionFormatBlock: [
-    "questionFormatBlock",
-    "searchBadge",
-    "chipBadgeDisplay"
+  questionTimeBlock: ["questionTimeBlock", "deliveryTimeInput"],
+  deliveryTimeInput: ["deliveryTimeInput"],
+  questionMeetingBlock: ["questionMeetingBlock", "meetingsSelectInput"],
+  meetingsSelectInput: ["meetingsSelectInput"],
+  questionRevisionBlock: ["questionRevisionBlock", "revisionsSelectInput"],
+  revisionsSelectInput: ["revisionsSelectInput"],
+  questionRequirementBlock: [
+    "questionRequirementBlock",
+    "deliveryRequirementsArrayFields"
   ],
 
-  searchBadge: ["searchBadge", "chipBadgeDisplay"],
-  chipBadgeDisplay: ["chipBadgeDisplay"],
+  deliveryRequirementsArrayFields: ["deliveryRequirementsArrayFields"],
+  questionFormatBlock: [
+    "questionFormatBlock",
+    "deliveryFormatsMultiSelectInput"
+  ],
+
+  deliveryFormatsMultiSelectInput: ["deliveryFormatsMultiSelectInput"],
   footerServiceListing: ["footerServiceListing"]
 };
 
@@ -556,13 +523,21 @@ export const PlasmicServicelistingdelivery = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionTimeBlock: makeNodeComponent("questionTimeBlock"),
-    textbox: makeNodeComponent("textbox"),
+    deliveryTimeInput: makeNodeComponent("deliveryTimeInput"),
     questionMeetingBlock: makeNodeComponent("questionMeetingBlock"),
+    meetingsSelectInput: makeNodeComponent("meetingsSelectInput"),
     questionRevisionBlock: makeNodeComponent("questionRevisionBlock"),
+    revisionsSelectInput: makeNodeComponent("revisionsSelectInput"),
     questionRequirementBlock: makeNodeComponent("questionRequirementBlock"),
+    deliveryRequirementsArrayFields: makeNodeComponent(
+      "deliveryRequirementsArrayFields"
+    ),
+
     questionFormatBlock: makeNodeComponent("questionFormatBlock"),
-    searchBadge: makeNodeComponent("searchBadge"),
-    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
+    deliveryFormatsMultiSelectInput: makeNodeComponent(
+      "deliveryFormatsMultiSelectInput"
+    ),
+
     footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingdelivery
     internalVariantProps: PlasmicServicelistingdelivery__VariantProps,

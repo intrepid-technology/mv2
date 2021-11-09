@@ -1,8 +1,9 @@
 import * as React from "react";
 
 import {
-  addNewStepToServiceListingProcess,
-  removeStepToServiceListingProcess,
+  PROCESS_STEP_DEFUALT_ITEM,
+  addNewArrayFieldToServiceListing,
+  removeArrayFieldFromServiceListing,
   updateServiceList,
 } from "../../../state/serviceListing/serviceListingSlice";
 import { useDispatch, useSelector } from "react-redux";
@@ -58,10 +59,10 @@ function Servicelistingdescription() {
             );
           },
           onAdd: () => {
-            dispatch(addNewStepToServiceListingProcess());
+            dispatch(addNewArrayFieldToServiceListing({key: 'delivery.process.steps', defaultItem: PROCESS_STEP_DEFUALT_ITEM}));
           },
           onRemove: (index) => {
-            dispatch(removeStepToServiceListingProcess({ index }));
+            dispatch(removeArrayFieldFromServiceListing({ index, key: 'delivery.process.steps' }));
           },
         }}
       />

@@ -52,6 +52,9 @@
   padding-right: 8px;
   min-width: 0;
 }
+.freeBox__size__360__pnfW4KfHaw > :global(.__wab_flex-container) {
+  min-width: 0;
+}
 .freeBox__yqk8E {
   display: flex;
   position: relative;

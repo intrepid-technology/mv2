@@ -23,7 +23,7 @@ import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // pl
 import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import MultiCheckboxInput from "../../MultiCheckboxInput"; // plasmic-import: 6TMzn6NJGN/component
-import SectionServiceContent from "../../SectionServiceContent"; // plasmic-import: 62pZUpsW52/component
+import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
@@ -284,7 +284,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     {"Step 2"}
                   </div>
                 }
-                slot2={"Enter a number for all that apply to your service"}
+                slot2={"Describe the content that is included in your service"}
               >
                 <div
                   className={classNames(
@@ -297,15 +297,13 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <SectionServiceContent
-                data-plasmic-name={"sectionServiceContent"}
-                data-plasmic-override={overrides.sectionServiceContent}
-                breadcrumbs={"breadcrumbs"}
+              <TextAreaInput
+                data-plasmic-name={"serviceContentTextArea"}
+                data-plasmic-override={overrides.serviceContentTextArea}
                 className={classNames(
                   "__wab_instance",
-                  sty.sectionServiceContent
+                  sty.serviceContentTextArea
                 )}
-                serviceType={"webMultiplePage"}
               />
             </p.Stack>
 
@@ -485,7 +483,7 @@ const PlasmicDescendants = {
     "questionFeaturesBlock",
     "serviceFeaturesCheckboxes",
     "questionContentBlock",
-    "sectionServiceContent",
+    "serviceContentTextArea",
     "questionIndustryBlock",
     "serviceIndustriesSelect",
     "questionToolsBlock",
@@ -513,8 +511,8 @@ const PlasmicDescendants = {
   serviceSelectInput: ["serviceSelectInput"],
   questionFeaturesBlock: ["questionFeaturesBlock", "serviceFeaturesCheckboxes"],
   serviceFeaturesCheckboxes: ["serviceFeaturesCheckboxes"],
-  questionContentBlock: ["questionContentBlock", "sectionServiceContent"],
-  sectionServiceContent: ["sectionServiceContent"],
+  questionContentBlock: ["questionContentBlock", "serviceContentTextArea"],
+  serviceContentTextArea: ["serviceContentTextArea"],
   questionIndustryBlock: ["questionIndustryBlock", "serviceIndustriesSelect"],
   serviceIndustriesSelect: ["serviceIndustriesSelect"],
   questionToolsBlock: ["questionToolsBlock", "serviceToolsSelect"],
@@ -563,7 +561,7 @@ export const PlasmicServicelistingcategory = Object.assign(
     questionFeaturesBlock: makeNodeComponent("questionFeaturesBlock"),
     serviceFeaturesCheckboxes: makeNodeComponent("serviceFeaturesCheckboxes"),
     questionContentBlock: makeNodeComponent("questionContentBlock"),
-    sectionServiceContent: makeNodeComponent("sectionServiceContent"),
+    serviceContentTextArea: makeNodeComponent("serviceContentTextArea"),
     questionIndustryBlock: makeNodeComponent("questionIndustryBlock"),
     serviceIndustriesSelect: makeNodeComponent("serviceIndustriesSelect"),
     questionToolsBlock: makeNodeComponent("questionToolsBlock"),

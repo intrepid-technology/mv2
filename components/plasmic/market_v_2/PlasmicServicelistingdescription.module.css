@@ -11,6 +11,8 @@
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
   margin-top: calc(0px - 40px);
   height: calc(100% + 40px);
 }
@@ -58,6 +60,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
+  min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
@@ -137,6 +140,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .questionTitleBlock > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
@@ -213,6 +217,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
+  min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
@@ -297,6 +302,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .questionDescriptionBlock > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
@@ -373,6 +379,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-evenly;
+  min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
 }
@@ -457,6 +464,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .questionProcessBlock > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
@@ -506,6 +514,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .freeBox__j5P5R {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__j5P5R > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -563,6 +576,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .freeBox__oslf {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__oslf > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }

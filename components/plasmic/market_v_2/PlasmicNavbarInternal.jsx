@@ -397,36 +397,37 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                 })}
               />
             ) : null}
-
-            <UserAvatar
-              data-plasmic-name={"userAvatar"}
-              data-plasmic-override={overrides.userAvatar}
-              className={classNames("__wab_instance", sty.userAvatar, {
-                [sty.userAvatar__search]: hasVariant(
-                  variants,
-                  "search",
-                  "search"
-                )
-              })}
-              navUserAvatar32={
-                <img
-                  data-plasmic-name={"navUserAvatar32"}
-                  data-plasmic-override={overrides.navUserAvatar32}
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.navUserAvatar32, {
-                    [sty.navUserAvatar32__search]: hasVariant(
-                      variants,
-                      "search",
-                      "search"
-                    )
-                  })}
-                  src={
-                    "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
-                  }
-                />
-              }
-              size={"_32"}
-            />
+            {true ? (
+              <UserAvatar
+                data-plasmic-name={"userAvatar"}
+                data-plasmic-override={overrides.userAvatar}
+                className={classNames("__wab_instance", sty.userAvatar, {
+                  [sty.userAvatar__search]: hasVariant(
+                    variants,
+                    "search",
+                    "search"
+                  )
+                })}
+                navUserAvatar32={
+                  <img
+                    data-plasmic-name={"navUserAvatar32"}
+                    data-plasmic-override={overrides.navUserAvatar32}
+                    alt={""}
+                    className={classNames(defaultcss.img, sty.navUserAvatar32, {
+                      [sty.navUserAvatar32__search]: hasVariant(
+                        variants,
+                        "search",
+                        "search"
+                      )
+                    })}
+                    src={
+                      "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
+                    }
+                  />
+                }
+                size={"_32"}
+              />
+            ) : null}
           </p.Stack>
         </p.Stack>
       </div>

@@ -102,6 +102,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formMemberEditProfile > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
 .cardMemberPersonalVerification {
   display: flex;
   position: relative;
@@ -117,6 +122,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -146,6 +152,7 @@
   .cardMemberPersonalVerification > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
+    min-width: 0;
   }
 }
 .cardHeaderTitlePrimary__gEtHe:global(.__wab_instance) {
@@ -172,6 +179,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -260,6 +268,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberImage > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
 .cardHeaderTitlePrimary__ezi8:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -285,6 +298,7 @@
   align-items: center;
   justify-content: flex-start;
   align-content: unset;
+  min-width: 0;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -383,6 +397,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -399,6 +414,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberUsername {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberUsername > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -430,6 +450,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -470,6 +491,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -511,6 +533,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -531,6 +554,11 @@
   .cardMemberDescription {
     width: 100%;
     height: auto;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberDescription > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -560,6 +588,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -608,6 +637,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -673,6 +703,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -712,6 +743,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -728,6 +760,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberLocation {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberLocation > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -755,6 +792,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -779,6 +817,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .memberLocationGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -822,6 +861,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -838,6 +878,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberIndustry {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberIndustry > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -865,6 +910,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -889,6 +935,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .memberIndustryGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -932,6 +979,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -951,6 +999,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberLanguages {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberLanguages > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -978,6 +1031,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1002,6 +1056,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .inputGroupMemberLanguages > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -1044,6 +1099,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1087,6 +1143,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1127,6 +1184,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1182,6 +1240,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1283,6 +1342,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1299,6 +1359,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberWebsite {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberWebsite > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -1346,6 +1411,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardMemberSocial {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardMemberSocial > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
