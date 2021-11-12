@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
-import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
+import MarketUserProfile from "../../MarketUserProfile"; // plasmic-import: Kq0Npq6HpD/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -143,11 +143,13 @@ function PlasmicMarket__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(defaultcss.all, sty.freeBox__peEx)}
               >
-                <ChipUserProfile
-                  data-plasmic-name={"chipUserProfile"}
-                  data-plasmic-override={overrides.chipUserProfile}
-                  attributes={["rating"]}
-                  className={classNames("__wab_instance", sty.chipUserProfile)}
+                <MarketUserProfile
+                  data-plasmic-name={"marketUserProfile"}
+                  data-plasmic-override={overrides.marketUserProfile}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.marketUserProfile
+                  )}
                 />
               </p.Stack>
             </p.Stack>
@@ -206,80 +208,12 @@ function PlasmicMarket__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.freeBox___9OZlj)}
               >
                 <CardServiceDisplay
+                  data-plasmic-name={"cardServiceDisplay"}
+                  data-plasmic-override={overrides.cardServiceDisplay}
                   boost={"boost"}
                   className={classNames(
                     "__wab_instance",
-                    sty.cardServiceDisplay__f6Doe
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__peRRu
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay___7VoH
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__cCsjo
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__mJx70
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__cu5Yk
+                    sty.cardServiceDisplay
                   )}
                   membership={"membership"}
                   price={"price"}
@@ -302,14 +236,20 @@ const PlasmicDescendants = {
     "root",
     "sectionMarketHeadline",
     "sectionNewServiceListings",
-    "chipUserProfile",
-    "sectionServiceCollections"
+    "marketUserProfile",
+    "sectionServiceCollections",
+    "cardServiceDisplay"
   ],
 
   sectionMarketHeadline: ["sectionMarketHeadline"],
-  sectionNewServiceListings: ["sectionNewServiceListings", "chipUserProfile"],
-  chipUserProfile: ["chipUserProfile"],
-  sectionServiceCollections: ["sectionServiceCollections"]
+  sectionNewServiceListings: ["sectionNewServiceListings", "marketUserProfile"],
+  marketUserProfile: ["marketUserProfile"],
+  sectionServiceCollections: [
+    "sectionServiceCollections",
+    "cardServiceDisplay"
+  ],
+
+  cardServiceDisplay: ["cardServiceDisplay"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -345,8 +285,9 @@ export const PlasmicMarket = Object.assign(
     // Helper components rendering sub-elements
     sectionMarketHeadline: makeNodeComponent("sectionMarketHeadline"),
     sectionNewServiceListings: makeNodeComponent("sectionNewServiceListings"),
-    chipUserProfile: makeNodeComponent("chipUserProfile"),
+    marketUserProfile: makeNodeComponent("marketUserProfile"),
     sectionServiceCollections: makeNodeComponent("sectionServiceCollections"),
+    cardServiceDisplay: makeNodeComponent("cardServiceDisplay"),
     // Metadata about props expected for PlasmicMarket
     internalVariantProps: PlasmicMarket__VariantProps,
     internalArgProps: PlasmicMarket__ArgProps

@@ -138,10 +138,12 @@
   left: auto;
   top: auto;
   width: 100%;
+  padding-left: 0px;
   overflow: auto;
+  padding-top: 16px;
+  padding-right: 0px;
   height: auto;
   min-width: 0;
-  padding: 16px 0px;
 }
 .freeBox__peEx > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -161,28 +163,11 @@
   > img {
   margin-left: 16px;
 }
-.chipUserProfile:global(.__wab_instance) {
+.marketUserProfile:global(.__wab_instance):global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   flex-shrink: 0;
-}
-.img__cveWm {
-  position: relative;
-  object-fit: cover;
-  left: auto;
-  top: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  border-width: 0px;
-  border-style: none;
-}
-.img__cveWm > picture > img {
-  object-fit: cover;
-}
-.img__cveWm > .__wab_img-spacer > img {
-  object-fit: cover;
 }
 .sectionServiceCollections {
   display: flex;
@@ -294,14 +279,14 @@
   > img {
   margin-left: 16px;
 }
-.cardServiceDisplay__f6Doe:global(.__wab_instance) {
+.cardServiceDisplay:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .cardServiceDisplay__f6Doe:global(.__wab_instance) {
+  .cardServiceDisplay:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
@@ -327,155 +312,5 @@
   object-fit: cover;
 }
 .img___74IvR > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.cardServiceDisplay__peRRu:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
-.img__mElKp {
-  object-fit: cover;
-  width: 360px;
-  height: 270px;
-}
-.img__mElKp > picture > img {
-  object-fit: cover;
-}
-.img__mElKp > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img___44K7D {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-.img___44K7D > picture > img {
-  object-fit: cover;
-}
-.img___44K7D > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.cardServiceDisplay___7VoH:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
-.img__uapGs {
-  object-fit: cover;
-  width: 360px;
-  height: 270px;
-}
-.img__uapGs > picture > img {
-  object-fit: cover;
-}
-.img__uapGs > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__a45Zt {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-.img__a45Zt > picture > img {
-  object-fit: cover;
-}
-.img__a45Zt > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.cardServiceDisplay__cCsjo:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
-.img__mcywB {
-  object-fit: cover;
-  width: 360px;
-  height: 270px;
-}
-.img__mcywB > picture > img {
-  object-fit: cover;
-}
-.img__mcywB > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__narub {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-.img__narub > picture > img {
-  object-fit: cover;
-}
-.img__narub > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.cardServiceDisplay__mJx70:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
-.img__vwgjd {
-  object-fit: cover;
-  width: 360px;
-  height: 270px;
-}
-.img__vwgjd > picture > img {
-  object-fit: cover;
-}
-.img__vwgjd > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__lNnNv {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-.img__lNnNv > picture > img {
-  object-fit: cover;
-}
-.img__lNnNv > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.cardServiceDisplay__cu5Yk:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
-.img__tyDxd {
-  object-fit: cover;
-  width: 360px;
-  height: 270px;
-}
-.img__tyDxd > picture > img {
-  object-fit: cover;
-}
-.img__tyDxd > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-.img__mkBvo {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-}
-.img__mkBvo > picture > img {
-  object-fit: cover;
-}
-.img__mkBvo > .__wab_img-spacer > img {
   object-fit: cover;
 }

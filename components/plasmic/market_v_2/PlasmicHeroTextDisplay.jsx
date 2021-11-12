@@ -161,6 +161,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             )}
           >
             <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>{""}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
                 style={{ fontWeight: 700 }}
@@ -310,6 +311,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
             )}
           >
             <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>{""}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
                 style={{ fontWeight: 700 }}

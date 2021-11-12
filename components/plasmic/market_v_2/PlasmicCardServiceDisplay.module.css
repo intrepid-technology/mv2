@@ -881,7 +881,7 @@
 .usernameParentLink__username {
   display: none;
 }
-.text__q6Tt2 {
+.slotTargetSellerUsername {
   font-size: 16px;
   font-weight: 400;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -993,20 +993,27 @@
 .title86CharMax__description {
   display: none;
 }
-.text__jtV0 {
-  line-height: 1.4;
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
   width: 100%;
+  min-width: 0;
+}
+.freeBox__size__270X270 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.slotTargetServiceDescription {
   font-size: 14px;
   font-weight: 400;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
-  min-width: 0;
+  line-height: 1.4;
 }
-.text__size__270X270__jtV0YHOxL {
-  height: auto;
-  width: auto;
+.slotTargetServiceDescription__size__270X270 {
   font-size: 14px;
   line-height: 1.4;
-  display: inline-block;
 }
 .priceUserStatsParent {
   display: flex;
