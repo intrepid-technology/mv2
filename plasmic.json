@@ -6183,7 +6183,8 @@
         }
       ],
       "codeComponents": [],
-      "projectApiToken": "SgidvoAJxjkeu8ZByBRp61mVLVmsbTeuvDf50YqXKinCNhhV47dUPP2ver0Yjvwu7qIVDF0CbGr05Y6Og"
+      "projectApiToken": "SgidvoAJxjkeu8ZByBRp61mVLVmsbTeuvDf50YqXKinCNhhV47dUPP2ver0Yjvwu7qIVDF0CbGr05Y6Og",
+      "indirect": false
     }
   ],
   "globalVariants": {
@@ -6205,6 +6206,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.163",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.163/dist/plasmic.schema.json"
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
 }

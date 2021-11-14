@@ -2949,20 +2949,12 @@
         {
           "type": "renderModule",
           "assetId": "QfGXBtwgwt",
-<<<<<<< HEAD
           "checksum": "9c788b06b84d5ce22f8f063ed9493e56"
-=======
-          "checksum": "ca65eef78f6bdc48c2d696d7686a8068"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "cssRules",
           "assetId": "QfGXBtwgwt",
-<<<<<<< HEAD
           "checksum": "9c788b06b84d5ce22f8f063ed9493e56"
-=======
-          "checksum": "ca65eef78f6bdc48c2d696d7686a8068"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "renderModule",
@@ -2987,20 +2979,12 @@
         {
           "type": "renderModule",
           "assetId": "j8kezDqiX0q",
-<<<<<<< HEAD
           "checksum": "cd2ef0d0e9b0d234fb2d3af296672ed2"
-=======
-          "checksum": "5c41d13ebfd03a0224d1f65c932ca42f"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "cssRules",
           "assetId": "j8kezDqiX0q",
-<<<<<<< HEAD
           "checksum": "cd2ef0d0e9b0d234fb2d3af296672ed2"
-=======
-          "checksum": "5c41d13ebfd03a0224d1f65c932ca42f"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "renderModule",
@@ -3015,20 +2999,12 @@
         {
           "type": "renderModule",
           "assetId": "QudhNCOa_Ua",
-<<<<<<< HEAD
           "checksum": "174d12370fcc8dee73eb9b8bf470d566"
-=======
-          "checksum": "a63938ef9747aaa1e83c12cbabd95989"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "cssRules",
           "assetId": "QudhNCOa_Ua",
-<<<<<<< HEAD
           "checksum": "174d12370fcc8dee73eb9b8bf470d566"
-=======
-          "checksum": "a63938ef9747aaa1e83c12cbabd95989"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "renderModule",
@@ -3443,20 +3419,12 @@
         {
           "type": "renderModule",
           "assetId": "q4oa9NmA8gP",
-<<<<<<< HEAD
           "checksum": "672d702d80e86cde629e3be9c523ff9f"
-=======
-          "checksum": "841cb1d5b9f147000abea690198381d5"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "cssRules",
           "assetId": "q4oa9NmA8gP",
-<<<<<<< HEAD
           "checksum": "672d702d80e86cde629e3be9c523ff9f"
-=======
-          "checksum": "841cb1d5b9f147000abea690198381d5"
->>>>>>> 97bbd52... Update sign up and log in form
         },
         {
           "type": "renderModule",
@@ -5192,11 +5160,6 @@
           "type": "icon",
           "assetId": "vfwo0XDly",
           "checksum": "3389f4f97f423bc1374960573cfc0747"
-        },
-        {
-          "assetId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "type": "projectCss",
-          "checksum": "9ce5e085164c0ae6d5c1d1411bdd3cdd"
         }
       ]
     }
