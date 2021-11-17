@@ -25,12 +25,14 @@ function MultiCheckboxInput_({name, options, uniqueKey = 'id', displayKey = 'lab
     };
   }
 
+  console.log({selectedItems, options})
   return (
     <PlasmicMultiCheckboxInput
       root={{
         wrapChildren: children => (
-          options?.map(option => (
+          options?.map((option, index) => (
             <CheckboxInput
+              key={option[uniqueKey]}
               name={name}
               isChecked={Boolean(selectedItems.find ? selectedItems?.find(selectedItem => selectedItem[uniqueKey] === option[uniqueKey]) : null)}
               onChange={(value) => changeHandler(option, value ? 'add' : 'remove')}

@@ -593,6 +593,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -880,7 +881,7 @@
 .usernameParentLink__username {
   display: none;
 }
-.text__q6Tt2 {
+.slotTargetSellerUsername {
   font-size: 16px;
   font-weight: 400;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
@@ -992,20 +993,27 @@
 .title86CharMax__description {
   display: none;
 }
-.text__jtV0 {
-  line-height: 1.4;
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
   width: 100%;
+  min-width: 0;
+}
+.freeBox__size__270X270 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.slotTargetServiceDescription {
   font-size: 14px;
   font-weight: 400;
   color: #333333 /* plasmic-token: F4gy0u3aB */;
-  min-width: 0;
+  line-height: 1.4;
 }
-.text__size__270X270__jtV0YHOxL {
-  height: auto;
-  width: auto;
+.slotTargetServiceDescription__size__270X270 {
   font-size: 14px;
   line-height: 1.4;
-  display: inline-block;
 }
 .priceUserStatsParent {
   display: flex;
@@ -1022,6 +1030,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
 }
 .priceUserStatsParent__size__270X270 {
   width: 100%;
@@ -1031,6 +1040,7 @@
 .priceUserStatsParent__size__270X270 > :global(.__wab_flex-container) {
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -1194,6 +1204,7 @@
 }
 .userStatsParent__size__270X270 > :global(.__wab_flex-container) {
   justify-content: flex-start;
+  min-width: 0;
 }
 .userStatsParent__userStats {
   display: none;

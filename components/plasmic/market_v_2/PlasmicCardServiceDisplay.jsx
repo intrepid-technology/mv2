@@ -46,7 +46,9 @@ export const PlasmicCardServiceDisplay__VariantProps = new Array(
 
 export const PlasmicCardServiceDisplay__ArgProps = new Array(
   "_360X270",
-  "_270X270"
+  "_270X270",
+  "sellerUsername",
+  "serviceDescription"
 );
 
 function PlasmicCardServiceDisplay__RenderFunc(props) {
@@ -258,15 +260,11 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             component={Link}
             platform={"nextjs"}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.text__q6Tt2
-              )}
-            >
-              {"Username"}
-            </div>
+            {p.renderPlasmicSlot({
+              defaultContents: "Username",
+              value: args.sellerUsername,
+              className: classNames(sty.slotTargetSellerUsername)
+            })}
           </p.PlasmicLink>
 
           <div
@@ -414,34 +412,52 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
         })}
       >
         <div
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.text__jtV0,
-            {
-              [sty.text__description__jtV0EwyA]: hasVariant(
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(defaultcss.all, sty.freeBox, {
+            [sty.freeBox__description]: hasVariant(
+              variants,
+              "description",
+              "description"
+            ),
+
+            [sty.freeBox__size__270X270]: hasVariant(
+              variants,
+              "size",
+              "_270X270"
+            ),
+
+            [sty.freeBox__size__360X270]: hasVariant(
+              variants,
+              "size",
+              "_360X270"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents:
+              "One morning, when Gregor Samsa woke from troubled dreams, he found himself transforme.",
+            value: args.serviceDescription,
+            className: classNames(sty.slotTargetServiceDescription, {
+              [sty.slotTargetServiceDescription__description]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.text__size__270X270__jtV0YHOxL]: hasVariant(
+              [sty.slotTargetServiceDescription__size__270X270]: hasVariant(
                 variants,
                 "size",
                 "_270X270"
               ),
 
-              [sty.text__size__360X270__jtV0QrppG]: hasVariant(
+              [sty.slotTargetServiceDescription__size__360X270]: hasVariant(
                 variants,
                 "size",
                 "_360X270"
               )
-            }
-          )}
-        >
-          {
-            "One morning, when Gregor Samsa woke from troubled dreams, he found himself transforme."
-          }
+            })
+          })}
         </div>
       </div>
 
@@ -753,6 +769,7 @@ const PlasmicDescendants = {
     "reviewLinkA",
     "reviewLinkB",
     "title86CharMax",
+    "freeBox",
     "priceUserStatsParent",
     "priceSponsorParent",
     "price",
@@ -819,7 +836,8 @@ const PlasmicDescendants = {
   ratingDisplayDetail: ["ratingDisplayDetail", "reviewLinkA", "reviewLinkB"],
   reviewLinkA: ["reviewLinkA"],
   reviewLinkB: ["reviewLinkB"],
-  title86CharMax: ["title86CharMax"],
+  title86CharMax: ["title86CharMax", "freeBox"],
+  freeBox: ["freeBox"],
   priceUserStatsParent: [
     "priceUserStatsParent",
     "priceSponsorParent",
@@ -984,6 +1002,7 @@ export const PlasmicCardServiceDisplay = Object.assign(
     reviewLinkA: makeNodeComponent("reviewLinkA"),
     reviewLinkB: makeNodeComponent("reviewLinkB"),
     title86CharMax: makeNodeComponent("title86CharMax"),
+    freeBox: makeNodeComponent("freeBox"),
     priceUserStatsParent: makeNodeComponent("priceUserStatsParent"),
     priceSponsorParent: makeNodeComponent("priceSponsorParent"),
     price: makeNodeComponent("price"),

@@ -4366,6 +4366,84 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicArrayInputFieldRow.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "Kq0Npq6HpD",
+          "name": "MarketUserProfile",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMarketUserProfile.jsx",
+          "importSpec": {
+            "modulePath": "MarketUserProfile.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMarketUserProfile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lEht_5kSJO",
+          "name": "ImageInput",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicImageInput.jsx",
+          "importSpec": {
+            "modulePath": "ImageInput.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicImageInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1hOjGdOjjY",
+          "name": "ServiceListingConfirmationItem",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicServiceListingConfirmationItem.jsx",
+          "importSpec": {
+            "modulePath": "ServiceListingConfirmationItem.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicServiceListingConfirmationItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3bem1ROgPy",
+          "name": "ServiceListingArrayFieldConfirmation",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicServiceListingArrayFieldConfirmation.jsx",
+          "importSpec": {
+            "modulePath": "ServiceListingArrayFieldConfirmation.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicServiceListingArrayFieldConfirmation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-iSTU_2K62",
+          "name": "ServiceListingImagesConfirmation",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicServiceListingImagesConfirmation.jsx",
+          "importSpec": {
+            "modulePath": "ServiceListingImagesConfirmation.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicServiceListingImagesConfirmation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "umGRdihMyi",
+          "name": "ConditionalField",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicConditionalField.jsx",
+          "importSpec": {
+            "modulePath": "ConditionalField.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicConditionalField.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

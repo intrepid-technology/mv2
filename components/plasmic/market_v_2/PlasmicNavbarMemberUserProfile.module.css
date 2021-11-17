@@ -37,6 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -69,6 +70,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    min-width: 0;
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
     margin-top: calc(0px - 0px);
@@ -96,6 +98,11 @@
     background: none;
     min-width: 0;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .parent > :global(.__wab_flex-container) {
+    min-width: 0;
   }
 }
 .navLink:global(.__wab_instance) {

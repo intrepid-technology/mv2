@@ -17,7 +17,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
-import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
+import MarketUserProfile from "../../MarketUserProfile"; // plasmic-import: Kq0Npq6HpD/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -143,130 +143,12 @@ function PlasmicMarket__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(defaultcss.all, sty.freeBox__peEx)}
               >
-                <ChipUserProfile
-                  attributes={["rating"]}
+                <MarketUserProfile
+                  data-plasmic-name={"marketUserProfile"}
+                  data-plasmic-override={overrides.marketUserProfile}
                   className={classNames(
                     "__wab_instance",
-                    sty.chipUserProfile__vfPin
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__yC5Q
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__nYv9M
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__p7NC1
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__y4Bgq
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__d3Fre
-                  )}
-                />
-              </p.Stack>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__srTxr)}
-            >
-              <CardHeaderTitleDisplay
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitleDisplay__iXeRc
-                )}
-                headings={["title", "headline"]}
-                textSubhead={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text___6My62
-                    )}
-                  >
-                    {"New & noteworthy"}
-                  </div>
-                }
-              />
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__lvgDe)}
-              >
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__gt6Lx
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__snr8T
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__igvfR
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile___4FYl2
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__z0VpV
-                  )}
-                />
-
-                <ChipUserProfile
-                  attributes={["rating"]}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipUserProfile__u8Eow
+                    sty.marketUserProfile
                   )}
                 />
               </p.Stack>
@@ -283,254 +165,6 @@ function PlasmicMarket__RenderFunc(props) {
               sty.sectionServiceCollections
             )}
           >
-            <CardHeaderTitleDisplay
-              className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay__cl1Xg
-              )}
-              headings={["title"]}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__aQfy5
-                  )}
-                >
-                  {"Personalised selection"}
-                </div>
-              }
-              textSubhead={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__jptVr
-                  )}
-                >
-                  {
-                    "A selection based on your search history, saves, and purchases and member profile."
-                  }
-                </div>
-              }
-            />
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__zh2Ma)}
-            >
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay__dCuvl
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay___5EKaS
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay__gzf4J
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay__gJuf4
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay___8SknD
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-
-              <CardServiceDisplay
-                boost={"boost"}
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardServiceDisplay___33U9V
-                )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
-                size={"_270X270"}
-                userStats={"userStats"}
-                verification={"verification"}
-              />
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__eMg8J)}
-            >
-              <CardHeaderTitleDisplay
-                className={classNames(
-                  "__wab_instance",
-                  sty.cardHeaderTitleDisplay___9X2Sf
-                )}
-                headings={["title"]}
-                slot={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__xSg2B
-                    )}
-                  >
-                    {"Popular & trending"}
-                  </div>
-                }
-                textSubhead={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__slGcz
-                    )}
-                  >
-                    {"See what's popular and trending across the community."}
-                  </div>
-                }
-              />
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__jWNkd)}
-              >
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__dTgHx
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__xw4Zy
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__pBxx9
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__xNp1A
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__nKpCm
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__wjZ79
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-              </p.Stack>
-            </p.Stack>
-
             <p.Stack
               as={"div"}
               hasGap={true}
@@ -574,80 +208,12 @@ function PlasmicMarket__RenderFunc(props) {
                 className={classNames(defaultcss.all, sty.freeBox___9OZlj)}
               >
                 <CardServiceDisplay
+                  data-plasmic-name={"cardServiceDisplay"}
+                  data-plasmic-override={overrides.cardServiceDisplay}
                   boost={"boost"}
                   className={classNames(
                     "__wab_instance",
-                    sty.cardServiceDisplay__f6Doe
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__peRRu
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay___7VoH
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__cCsjo
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__mJx70
-                  )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
-                  size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
-                />
-
-                <CardServiceDisplay
-                  boost={"boost"}
-                  className={classNames(
-                    "__wab_instance",
-                    sty.cardServiceDisplay__cu5Yk
+                    sty.cardServiceDisplay
                   )}
                   membership={"membership"}
                   price={"price"}
@@ -670,12 +236,20 @@ const PlasmicDescendants = {
     "root",
     "sectionMarketHeadline",
     "sectionNewServiceListings",
-    "sectionServiceCollections"
+    "marketUserProfile",
+    "sectionServiceCollections",
+    "cardServiceDisplay"
   ],
 
   sectionMarketHeadline: ["sectionMarketHeadline"],
-  sectionNewServiceListings: ["sectionNewServiceListings"],
-  sectionServiceCollections: ["sectionServiceCollections"]
+  sectionNewServiceListings: ["sectionNewServiceListings", "marketUserProfile"],
+  marketUserProfile: ["marketUserProfile"],
+  sectionServiceCollections: [
+    "sectionServiceCollections",
+    "cardServiceDisplay"
+  ],
+
+  cardServiceDisplay: ["cardServiceDisplay"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -711,7 +285,9 @@ export const PlasmicMarket = Object.assign(
     // Helper components rendering sub-elements
     sectionMarketHeadline: makeNodeComponent("sectionMarketHeadline"),
     sectionNewServiceListings: makeNodeComponent("sectionNewServiceListings"),
+    marketUserProfile: makeNodeComponent("marketUserProfile"),
     sectionServiceCollections: makeNodeComponent("sectionServiceCollections"),
+    cardServiceDisplay: makeNodeComponent("cardServiceDisplay"),
     // Metadata about props expected for PlasmicMarket
     internalVariantProps: PlasmicMarket__VariantProps,
     internalArgProps: PlasmicMarket__ArgProps

@@ -13,6 +13,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
 }
@@ -35,7 +36,7 @@
   width: 120px;
   flex-shrink: 0;
 }
-.text {
+.text__hcTe {
   font-weight: 600;
   height: auto;
 }

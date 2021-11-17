@@ -23,7 +23,7 @@ import * as sty from "./PlasmicFooterServiceListing.module.css"; // plasmic-impo
 
 export const PlasmicFooterServiceListing__VariantProps = new Array();
 
-export const PlasmicFooterServiceListing__ArgProps = new Array();
+export const PlasmicFooterServiceListing__ArgProps = new Array("children");
 
 function PlasmicFooterServiceListing__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -43,26 +43,29 @@ function PlasmicFooterServiceListing__RenderFunc(props) {
         className={classNames("__wab_instance", sty.saveButton)}
         type={"ghost"}
       >
-        <div
-          data-plasmic-name={"text"}
-          data-plasmic-override={overrides.text}
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
-            sty.text
-          )}
-        >
-          {"Save & Exit"}
-        </div>
+        {p.renderPlasmicSlot({
+          defaultContents: (
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.text__hcTe
+              )}
+            >
+              {"Save & Exit"}
+            </div>
+          ),
+
+          value: args.children
+        })}
       </Button>
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "saveButton", "text"],
-  saveButton: ["saveButton", "text"],
-  text: ["text"]
+  root: ["root", "saveButton"],
+  saveButton: ["saveButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -97,7 +100,6 @@ export const PlasmicFooterServiceListing = Object.assign(
   {
     // Helper components rendering sub-elements
     saveButton: makeNodeComponent("saveButton"),
-    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicFooterServiceListing
     internalVariantProps: PlasmicFooterServiceListing__VariantProps,
     internalArgProps: PlasmicFooterServiceListing__ArgProps

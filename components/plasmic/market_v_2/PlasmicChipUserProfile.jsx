@@ -25,15 +25,15 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicChipUserProfile.module.css"; // plasmic-import: 0x8Ex9CEDPX/css
-import ViewIcon from "./icons/PlasmicIcon__View"; // plasmic-import: 1gdYphl9Jz/icon
-import HeartFillIcon from "./icons/PlasmicIcon__HeartFill"; // plasmic-import: Cp8uDBjLR/icon
-import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 
 export const PlasmicChipUserProfile__VariantProps = new Array("attributes");
 
 export const PlasmicChipUserProfile__ArgProps = new Array(
   "navUserAvatar80",
-  "target"
+  "target",
+  "username",
+  "city",
+  "country"
 );
 
 function PlasmicChipUserProfile__RenderFunc(props) {
@@ -105,14 +105,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               )
             })}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.text__nbdg7
-              )}
-            >
-              {"Username"}
+            <div className={classNames(defaultcss.all, sty.freeBox__nbdg7)}>
+              <div className={classNames(defaultcss.all, sty.freeBox__nfhn)}>
+                {p.renderPlasmicSlot({
+                  defaultContents: "Username",
+                  value: args.username,
+                  className: classNames(sty.slotTargetUsername)
+                })}
+              </div>
             </div>
 
             {(
@@ -239,154 +239,6 @@ function PlasmicChipUserProfile__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, sty.freeBox__hZgZ)}
         >
-          {(hasVariant(variants, "attributes", "stats") ? false : true) ? (
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"userStatsParent"}
-              data-plasmic-override={overrides.userStatsParent}
-              hasGap={true}
-              className={classNames(defaultcss.all, sty.userStatsParent, {
-                [sty.userStatsParent__attributes_stats]: hasVariant(
-                  variants,
-                  "attributes",
-                  "stats"
-                ),
-
-                [sty.userStatsParent__attributes_verification]: hasVariant(
-                  variants,
-                  "attributes",
-                  "verification"
-                )
-              })}
-            >
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"viewButtonCount"}
-                data-plasmic-override={overrides.viewButtonCount}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.viewButtonCount)}
-              >
-                <button
-                  data-plasmic-name={"viewButton"}
-                  data-plasmic-override={overrides.viewButton}
-                  className={classNames(defaultcss.button, sty.viewButton)}
-                >
-                  <ViewIcon
-                    data-plasmic-name={"viewDisplay"}
-                    data-plasmic-override={overrides.viewDisplay}
-                    className={classNames(defaultcss.all, sty.viewDisplay)}
-                    role={"img"}
-                  />
-                </button>
-
-                <div
-                  data-plasmic-name={"viewNumberValueParent"}
-                  data-plasmic-override={overrides.viewNumberValueParent}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.viewNumberValueParent
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"viewNumberIncrement"}
-                    data-plasmic-override={overrides.viewNumberIncrement}
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.viewNumberIncrement
-                    )}
-                  >
-                    {"1000"}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"heartButtonCount"}
-                data-plasmic-override={overrides.heartButtonCount}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.heartButtonCount)}
-              >
-                <button
-                  data-plasmic-name={"heartButton"}
-                  data-plasmic-override={overrides.heartButton}
-                  className={classNames(defaultcss.button, sty.heartButton)}
-                >
-                  <HeartFillIcon
-                    data-plasmic-name={"heartDisplay"}
-                    data-plasmic-override={overrides.heartDisplay}
-                    className={classNames(defaultcss.all, sty.heartDisplay)}
-                    role={"img"}
-                  />
-                </button>
-
-                <div
-                  data-plasmic-name={"heartNumberValueParent"}
-                  data-plasmic-override={overrides.heartNumberValueParent}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.heartNumberValueParent
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"heartNumberIncrement"}
-                    data-plasmic-override={overrides.heartNumberIncrement}
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.heartNumberIncrement
-                    )}
-                  >
-                    {"1000"}
-                  </div>
-                </div>
-              </p.Stack>
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"bookmarkButtonCount"}
-                data-plasmic-override={overrides.bookmarkButtonCount}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.bookmarkButtonCount)}
-              >
-                <button
-                  data-plasmic-name={"bookmarkButton"}
-                  data-plasmic-override={overrides.bookmarkButton}
-                  className={classNames(defaultcss.button, sty.bookmarkButton)}
-                >
-                  <BookmarkIcon
-                    data-plasmic-name={"bookmarkDisplay"}
-                    data-plasmic-override={overrides.bookmarkDisplay}
-                    className={classNames(defaultcss.all, sty.bookmarkDisplay)}
-                    role={"img"}
-                  />
-                </button>
-
-                <div
-                  data-plasmic-name={"bookmarkNumberValueParent"}
-                  data-plasmic-override={overrides.bookmarkNumberValueParent}
-                  className={classNames(
-                    defaultcss.all,
-                    sty.bookmarkNumberValueParent
-                  )}
-                >
-                  <div
-                    data-plasmic-name={"bookmarkNumberIncrement"}
-                    data-plasmic-override={overrides.bookmarkNumberIncrement}
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.bookmarkNumberIncrement
-                    )}
-                  >
-                    {"1000"}
-                  </div>
-                </div>
-              </p.Stack>
-            </p.Stack>
-          ) : null}
-
           <p.Stack
             as={"div"}
             data-plasmic-name={"location"}
@@ -399,14 +251,16 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               data-plasmic-override={overrides.cityText}
               className={classNames(defaultcss.all, sty.cityText)}
             >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__fPbL6
-                )}
-              >
-                {"City"}
+              <div className={classNames(defaultcss.all, sty.freeBox__fPbL6)}>
+                <div
+                  className={classNames(defaultcss.all, sty.freeBox___0Z9Y0)}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: "City",
+                    value: args.city,
+                    className: classNames(sty.slotTargetCity)
+                  })}
+                </div>
               </div>
 
               <div
@@ -421,14 +275,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             </div>
 
             <div className={classNames(defaultcss.all, sty.freeBox__b02SR)}>
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.text___4Fz5W
-                )}
-              >
-                {"Country"}
+              <div className={classNames(defaultcss.all, sty.freeBox___4Fz5W)}>
+                <div className={classNames(defaultcss.all, sty.freeBox__szPVo)}>
+                  {p.renderPlasmicSlot({
+                    defaultContents: "Country",
+                    value: args.country,
+                    className: classNames(sty.slotTargetCountry)
+                  })}
+                </div>
               </div>
             </div>
           </p.Stack>
@@ -450,22 +304,6 @@ const PlasmicDescendants = {
     "ratingDisplayDetail",
     "reviewLinkA",
     "reviewLinkB",
-    "userStatsParent",
-    "viewButtonCount",
-    "viewButton",
-    "viewDisplay",
-    "viewNumberValueParent",
-    "viewNumberIncrement",
-    "heartButtonCount",
-    "heartButton",
-    "heartDisplay",
-    "heartNumberValueParent",
-    "heartNumberIncrement",
-    "bookmarkButtonCount",
-    "bookmarkButton",
-    "bookmarkDisplay",
-    "bookmarkNumberValueParent",
-    "bookmarkNumberIncrement",
     "location",
     "cityText"
   ],
@@ -480,22 +318,6 @@ const PlasmicDescendants = {
     "ratingDisplayDetail",
     "reviewLinkA",
     "reviewLinkB",
-    "userStatsParent",
-    "viewButtonCount",
-    "viewButton",
-    "viewDisplay",
-    "viewNumberValueParent",
-    "viewNumberIncrement",
-    "heartButtonCount",
-    "heartButton",
-    "heartDisplay",
-    "heartNumberValueParent",
-    "heartNumberIncrement",
-    "bookmarkButtonCount",
-    "bookmarkButton",
-    "bookmarkDisplay",
-    "bookmarkNumberValueParent",
-    "bookmarkNumberIncrement",
     "location",
     "cityText"
   ],
@@ -513,65 +335,6 @@ const PlasmicDescendants = {
   ratingDisplayDetail: ["ratingDisplayDetail", "reviewLinkA", "reviewLinkB"],
   reviewLinkA: ["reviewLinkA"],
   reviewLinkB: ["reviewLinkB"],
-  userStatsParent: [
-    "userStatsParent",
-    "viewButtonCount",
-    "viewButton",
-    "viewDisplay",
-    "viewNumberValueParent",
-    "viewNumberIncrement",
-    "heartButtonCount",
-    "heartButton",
-    "heartDisplay",
-    "heartNumberValueParent",
-    "heartNumberIncrement",
-    "bookmarkButtonCount",
-    "bookmarkButton",
-    "bookmarkDisplay",
-    "bookmarkNumberValueParent",
-    "bookmarkNumberIncrement"
-  ],
-
-  viewButtonCount: [
-    "viewButtonCount",
-    "viewButton",
-    "viewDisplay",
-    "viewNumberValueParent",
-    "viewNumberIncrement"
-  ],
-
-  viewButton: ["viewButton", "viewDisplay"],
-  viewDisplay: ["viewDisplay"],
-  viewNumberValueParent: ["viewNumberValueParent", "viewNumberIncrement"],
-  viewNumberIncrement: ["viewNumberIncrement"],
-  heartButtonCount: [
-    "heartButtonCount",
-    "heartButton",
-    "heartDisplay",
-    "heartNumberValueParent",
-    "heartNumberIncrement"
-  ],
-
-  heartButton: ["heartButton", "heartDisplay"],
-  heartDisplay: ["heartDisplay"],
-  heartNumberValueParent: ["heartNumberValueParent", "heartNumberIncrement"],
-  heartNumberIncrement: ["heartNumberIncrement"],
-  bookmarkButtonCount: [
-    "bookmarkButtonCount",
-    "bookmarkButton",
-    "bookmarkDisplay",
-    "bookmarkNumberValueParent",
-    "bookmarkNumberIncrement"
-  ],
-
-  bookmarkButton: ["bookmarkButton", "bookmarkDisplay"],
-  bookmarkDisplay: ["bookmarkDisplay"],
-  bookmarkNumberValueParent: [
-    "bookmarkNumberValueParent",
-    "bookmarkNumberIncrement"
-  ],
-
-  bookmarkNumberIncrement: ["bookmarkNumberIncrement"],
   location: ["location", "cityText"],
   cityText: ["cityText"]
 };
@@ -616,22 +379,6 @@ export const PlasmicChipUserProfile = Object.assign(
     ratingDisplayDetail: makeNodeComponent("ratingDisplayDetail"),
     reviewLinkA: makeNodeComponent("reviewLinkA"),
     reviewLinkB: makeNodeComponent("reviewLinkB"),
-    userStatsParent: makeNodeComponent("userStatsParent"),
-    viewButtonCount: makeNodeComponent("viewButtonCount"),
-    viewButton: makeNodeComponent("viewButton"),
-    viewDisplay: makeNodeComponent("viewDisplay"),
-    viewNumberValueParent: makeNodeComponent("viewNumberValueParent"),
-    viewNumberIncrement: makeNodeComponent("viewNumberIncrement"),
-    heartButtonCount: makeNodeComponent("heartButtonCount"),
-    heartButton: makeNodeComponent("heartButton"),
-    heartDisplay: makeNodeComponent("heartDisplay"),
-    heartNumberValueParent: makeNodeComponent("heartNumberValueParent"),
-    heartNumberIncrement: makeNodeComponent("heartNumberIncrement"),
-    bookmarkButtonCount: makeNodeComponent("bookmarkButtonCount"),
-    bookmarkButton: makeNodeComponent("bookmarkButton"),
-    bookmarkDisplay: makeNodeComponent("bookmarkDisplay"),
-    bookmarkNumberValueParent: makeNodeComponent("bookmarkNumberValueParent"),
-    bookmarkNumberIncrement: makeNodeComponent("bookmarkNumberIncrement"),
     location: makeNodeComponent("location"),
     cityText: makeNodeComponent("cityText"),
     // Metadata about props expected for PlasmicChipUserProfile

@@ -54,6 +54,7 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
 }
@@ -273,6 +274,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -297,6 +299,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -364,6 +367,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
@@ -431,6 +435,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -459,6 +464,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    min-width: 0;
     margin-left: calc(0px - 8px);
     width: calc(100% + 8px);
     margin-top: calc(0px - 0px);
@@ -665,6 +671,7 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .locationParent > :global(.__wab_flex-container) {
     align-items: center;
+    min-width: 0;
     margin-left: calc(0px - 8px);
     width: calc(100% + 8px);
     margin-top: calc(0px - 0px);
@@ -691,6 +698,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .locationParent > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
 .elementLocationPrimary:global(.__wab_instance) {
   position: relative;
 }
@@ -709,6 +721,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 0;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
@@ -743,6 +756,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
@@ -821,6 +835,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }

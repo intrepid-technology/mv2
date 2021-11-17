@@ -129,6 +129,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  min-width: 0;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -152,6 +153,9 @@
   min-width: 0;
   border-width: 2px;
 }
+.buttonDropDown__size__360X40 > :global(.__wab_flex-container) {
+  min-width: 0;
+}
 .buttonDropDown__size__540X36 {
   height: 36px;
   flex-shrink: 0;
@@ -159,6 +163,9 @@
 .buttonDropDown__size__540X40 {
   width: 100%;
   height: auto;
+  min-width: 0;
+}
+.buttonDropDown__size__540X40 > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .buttonDropDown__size__90X24 {
@@ -228,6 +235,9 @@
 }
 .buttonDropDown__size__270X32 {
   width: 100%;
+  min-width: 0;
+}
+.buttonDropDown__size__270X32 > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .buttonDropDown__size__270X36 {

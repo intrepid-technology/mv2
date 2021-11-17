@@ -11,6 +11,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -53,6 +54,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -79,6 +81,7 @@
   .notificationPushEmail > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardHeaderTitlePrimary__mtwaw:global(.__wab_instance) {
@@ -154,6 +157,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -180,6 +184,7 @@
   .notificationActivity > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardHeaderTitlePrimary___4Gt9U:global(.__wab_instance) {
@@ -206,6 +211,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -232,6 +238,7 @@
   .notificationNewsEvents > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardHeaderTitlePrimary__ztsDq:global(.__wab_instance) {

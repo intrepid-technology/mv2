@@ -20,12 +20,12 @@ import {
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
+import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
-import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRmUa9KEQ/component
-import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
-import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
+import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
+import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
+import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
+import ConditionalField from "../../ConditionalField"; // plasmic-import: umGRdihMyi/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -76,7 +76,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
               data-plasmic-override={overrides.navbarServiceListing}
               backButtonDestination={"/service/listing/image"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
-              nextButtonDestination={"/service/listing/order"}
+              nextButtonDestination={"/service/listing/confirmation"}
             >
               {"Delivery"}
             </NavbarServiceListing>
@@ -85,7 +85,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
               data-plasmic-name={"progressBar"}
               data-plasmic-override={overrides.progressBar}
               className={classNames("__wab_instance", sty.progressBar)}
-              progress={"_60"}
+              progress={"_90"}
             />
           </div>
 
@@ -130,14 +130,12 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <input
-                data-plasmic-name={"textbox"}
-                data-plasmic-override={overrides.textbox}
-                className={classNames(defaultcss.input, sty.textbox)}
-                placeholder={"Enter a number"}
-                size={1}
-                type={"text"}
-                value={""}
+              <TextInput
+                data-plasmic-name={"deliveryTimeInput"}
+                data-plasmic-override={overrides.deliveryTimeInput}
+                adornment={["end"]}
+                className={classNames("__wab_instance", sty.deliveryTimeInput)}
+                endAdornment={"Days"}
               />
             </p.Stack>
 
@@ -196,16 +194,14 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <ButtonFormDropdownSelect
+              <NativeSelectInput
+                data-plasmic-name={"meetingsSelectInput"}
+                data-plasmic-override={overrides.meetingsSelectInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.buttonFormDropdownSelect__tdwKs
+                  sty.meetingsSelectInput
                 )}
-                description={"description"}
-                dropdownTitle={"Select"}
-                headlineLabelTitle={"Now, let's be specific"}
-                label={"label"}
-                size={"_360X40"}
+                hideLabel={"hideLabel"}
               />
             </p.Stack>
 
@@ -264,16 +260,14 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <ButtonFormDropdownSelect
+              <NativeSelectInput
+                data-plasmic-name={"revisionsSelectInput"}
+                data-plasmic-override={overrides.revisionsSelectInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.buttonFormDropdownSelect__lorOa
+                  sty.revisionsSelectInput
                 )}
-                description={"description"}
-                dropdownTitle={"Select"}
-                headlineLabelTitle={"Now, let's be specific"}
-                label={"label"}
-                size={"_360X40"}
+                hideLabel={"hideLabel"}
               />
             </p.Stack>
 
@@ -343,38 +337,16 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </CardQuestionServiceListing>
               </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__ui9Ss)}
-              >
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__cnO1T
-                  )}
-                >
-                  {"Client requirement 1"}
-                </RadioCheckboxCard>
-
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__sLNwn
-                  )}
-                >
-                  {"Client requirement 2 "}
-                </RadioCheckboxCard>
-
-                <RadioCheckboxCard
-                  className={classNames(
-                    "__wab_instance",
-                    sty.radioCheckboxCard__tPpQg
-                  )}
-                >
-                  {"Client requirement 3 "}
-                </RadioCheckboxCard>
-              </p.Stack>
+              <ArrayInputFields
+                data-plasmic-name={"deliveryRequirementsArrayFields"}
+                data-plasmic-override={
+                  overrides.deliveryRequirementsArrayFields
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.deliveryRequirementsArrayFields
+                )}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -432,28 +404,16 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <SearchBadge
-                data-plasmic-name={"searchBadge"}
-                data-plasmic-override={overrides.searchBadge}
-                className={classNames("__wab_instance", sty.searchBadge)}
-              >
-                <ChipBadgeDisplay
-                  data-plasmic-name={"chipBadgeDisplay"}
-                  data-plasmic-override={overrides.chipBadgeDisplay}
-                  className={classNames("__wab_instance", sty.chipBadgeDisplay)}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__gkwVx
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-              </SearchBadge>
+              <MultiSelectInput
+                data-plasmic-name={"deliveryFormatsMultiSelectInput"}
+                data-plasmic-override={
+                  overrides.deliveryFormatsMultiSelectInput
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.deliveryFormatsMultiSelectInput
+                )}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -469,11 +429,205 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
             </ToolTipServiceListing>
           </p.Stack>
 
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.freeBox__owyrn)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"questionFormatBlock2"}
+              data-plasmic-override={overrides.questionFormatBlock2}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.questionFormatBlock2)}
+            >
+              <CardQuestionServiceListing
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardQuestionServiceListing___3B5Lq
+                )}
+                overline={"overline"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__auLLg
+                    )}
+                  >
+                    {"Step 2"}
+                  </div>
+                }
+                slot2={" "}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__ptyE
+                  )}
+                >
+                  {"Do you cost your service per hour, or as a flat fee?"}
+                </div>
+              </CardQuestionServiceListing>
+
+              <NativeSelectInput
+                data-plasmic-name={"serviceCostTypeSelectInput"}
+                data-plasmic-override={overrides.serviceCostTypeSelectInput}
+                className={classNames(
+                  "__wab_instance",
+                  sty.serviceCostTypeSelectInput
+                )}
+                hideLabel={"hideLabel"}
+              />
+            </p.Stack>
+
+            <ToolTipServiceListing
+              className={classNames(
+                "__wab_instance",
+                sty.toolTipServiceListing__s3KcI
+              )}
+              slot={"Service Costing"}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu\n"
+              }
+            </ToolTipServiceListing>
+          </p.Stack>
+
+          <ConditionalField
+            data-plasmic-name={"hourlyRateConditionalField"}
+            data-plasmic-override={overrides.hourlyRateConditionalField}
+            checkType={"EQUAL"}
+            className={classNames(
+              "__wab_instance",
+              sty.hourlyRateConditionalField
+            )}
+            conditionValue={"Per Hour"}
+            name={"label"}
+            valueType={"object"}
+            visibleIf={true}
+          >
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.freeBox__pKhw)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"questionFormatBlock3"}
+                data-plasmic-override={overrides.questionFormatBlock3}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.questionFormatBlock3)}
+              >
+                <CardQuestionServiceListing
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardQuestionServiceListing__dm8L5
+                  )}
+                  overline={"overline"}
+                  slot={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text__cX8K
+                      )}
+                    >
+                      {"Step 2"}
+                    </div>
+                  }
+                  slot2={" "}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__gTbwJ
+                    )}
+                  >
+                    {"What is your hourly rate in USD?"}
+                  </div>
+                </CardQuestionServiceListing>
+
+                <TextInput
+                  data-plasmic-name={"hourlyRateInput"}
+                  data-plasmic-override={overrides.hourlyRateInput}
+                  adornment={["start"]}
+                  className={classNames("__wab_instance", sty.hourlyRateInput)}
+                  placeholder={"Hourly Rate"}
+                  startAdornment={"USD "}
+                />
+              </p.Stack>
+            </p.Stack>
+          </ConditionalField>
+
+          <ConditionalField
+            data-plasmic-name={"flatRateConditionalField"}
+            data-plasmic-override={overrides.flatRateConditionalField}
+            checkType={"EQUAL"}
+            className={classNames(
+              "__wab_instance",
+              sty.flatRateConditionalField
+            )}
+            conditionValue={"Flat Fee"}
+            name={"label"}
+            valueType={"object"}
+            visibleIf={true}
+          >
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(defaultcss.all, sty.freeBox___2LwcL)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"questionFormatBlock4"}
+                data-plasmic-override={overrides.questionFormatBlock4}
+                hasGap={true}
+                className={classNames(defaultcss.all, sty.questionFormatBlock4)}
+              >
+                <CardQuestionServiceListing
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardQuestionServiceListing__gx2EL
+                  )}
+                  overline={"overline"}
+                  slot={
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.text___8L8Xs
+                      )}
+                    >
+                      {"Step 2"}
+                    </div>
+                  }
+                  slot2={" "}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__me65B
+                    )}
+                  >
+                    {"What is your flat fee rate in USD for this service?"}
+                  </div>
+                </CardQuestionServiceListing>
+
+                <TextInput
+                  data-plasmic-name={"flatRateInput"}
+                  data-plasmic-override={overrides.flatRateInput}
+                  adornment={["start"]}
+                  className={classNames("__wab_instance", sty.flatRateInput)}
+                  placeholder={"Flat Fee"}
+                  startAdornment={"USD "}
+                />
+              </p.Stack>
+            </p.Stack>
+          </ConditionalField>
         </div>
       </div>
     </React.Fragment>
@@ -487,14 +641,23 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionTimeBlock",
-    "textbox",
+    "deliveryTimeInput",
     "questionMeetingBlock",
+    "meetingsSelectInput",
     "questionRevisionBlock",
+    "revisionsSelectInput",
     "questionRequirementBlock",
+    "deliveryRequirementsArrayFields",
     "questionFormatBlock",
-    "searchBadge",
-    "chipBadgeDisplay",
-    "footerServiceListing"
+    "deliveryFormatsMultiSelectInput",
+    "questionFormatBlock2",
+    "serviceCostTypeSelectInput",
+    "hourlyRateConditionalField",
+    "questionFormatBlock3",
+    "hourlyRateInput",
+    "flatRateConditionalField",
+    "questionFormatBlock4",
+    "flatRateInput"
   ],
 
   serviceListingNavbar: [
@@ -505,20 +668,42 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionTimeBlock: ["questionTimeBlock", "textbox"],
-  textbox: ["textbox"],
-  questionMeetingBlock: ["questionMeetingBlock"],
-  questionRevisionBlock: ["questionRevisionBlock"],
-  questionRequirementBlock: ["questionRequirementBlock"],
-  questionFormatBlock: [
-    "questionFormatBlock",
-    "searchBadge",
-    "chipBadgeDisplay"
+  questionTimeBlock: ["questionTimeBlock", "deliveryTimeInput"],
+  deliveryTimeInput: ["deliveryTimeInput"],
+  questionMeetingBlock: ["questionMeetingBlock", "meetingsSelectInput"],
+  meetingsSelectInput: ["meetingsSelectInput"],
+  questionRevisionBlock: ["questionRevisionBlock", "revisionsSelectInput"],
+  revisionsSelectInput: ["revisionsSelectInput"],
+  questionRequirementBlock: [
+    "questionRequirementBlock",
+    "deliveryRequirementsArrayFields"
   ],
 
-  searchBadge: ["searchBadge", "chipBadgeDisplay"],
-  chipBadgeDisplay: ["chipBadgeDisplay"],
-  footerServiceListing: ["footerServiceListing"]
+  deliveryRequirementsArrayFields: ["deliveryRequirementsArrayFields"],
+  questionFormatBlock: [
+    "questionFormatBlock",
+    "deliveryFormatsMultiSelectInput"
+  ],
+
+  deliveryFormatsMultiSelectInput: ["deliveryFormatsMultiSelectInput"],
+  questionFormatBlock2: ["questionFormatBlock2", "serviceCostTypeSelectInput"],
+  serviceCostTypeSelectInput: ["serviceCostTypeSelectInput"],
+  hourlyRateConditionalField: [
+    "hourlyRateConditionalField",
+    "questionFormatBlock3",
+    "hourlyRateInput"
+  ],
+
+  questionFormatBlock3: ["questionFormatBlock3", "hourlyRateInput"],
+  hourlyRateInput: ["hourlyRateInput"],
+  flatRateConditionalField: [
+    "flatRateConditionalField",
+    "questionFormatBlock4",
+    "flatRateInput"
+  ],
+
+  questionFormatBlock4: ["questionFormatBlock4", "flatRateInput"],
+  flatRateInput: ["flatRateInput"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -556,14 +741,29 @@ export const PlasmicServicelistingdelivery = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionTimeBlock: makeNodeComponent("questionTimeBlock"),
-    textbox: makeNodeComponent("textbox"),
+    deliveryTimeInput: makeNodeComponent("deliveryTimeInput"),
     questionMeetingBlock: makeNodeComponent("questionMeetingBlock"),
+    meetingsSelectInput: makeNodeComponent("meetingsSelectInput"),
     questionRevisionBlock: makeNodeComponent("questionRevisionBlock"),
+    revisionsSelectInput: makeNodeComponent("revisionsSelectInput"),
     questionRequirementBlock: makeNodeComponent("questionRequirementBlock"),
+    deliveryRequirementsArrayFields: makeNodeComponent(
+      "deliveryRequirementsArrayFields"
+    ),
+
     questionFormatBlock: makeNodeComponent("questionFormatBlock"),
-    searchBadge: makeNodeComponent("searchBadge"),
-    chipBadgeDisplay: makeNodeComponent("chipBadgeDisplay"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
+    deliveryFormatsMultiSelectInput: makeNodeComponent(
+      "deliveryFormatsMultiSelectInput"
+    ),
+
+    questionFormatBlock2: makeNodeComponent("questionFormatBlock2"),
+    serviceCostTypeSelectInput: makeNodeComponent("serviceCostTypeSelectInput"),
+    hourlyRateConditionalField: makeNodeComponent("hourlyRateConditionalField"),
+    questionFormatBlock3: makeNodeComponent("questionFormatBlock3"),
+    hourlyRateInput: makeNodeComponent("hourlyRateInput"),
+    flatRateConditionalField: makeNodeComponent("flatRateConditionalField"),
+    questionFormatBlock4: makeNodeComponent("questionFormatBlock4"),
+    flatRateInput: makeNodeComponent("flatRateInput"),
     // Metadata about props expected for PlasmicServicelistingdelivery
     internalVariantProps: PlasmicServicelistingdelivery__VariantProps,
     internalArgProps: PlasmicServicelistingdelivery__ArgProps

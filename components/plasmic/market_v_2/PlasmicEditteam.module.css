@@ -30,6 +30,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -102,6 +103,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditProfile > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
 .cardTeamLogo {
   display: flex;
   position: relative;
@@ -117,6 +123,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -155,6 +162,7 @@
   align-items: center;
   justify-content: flex-start;
   align-content: unset;
+  min-width: 0;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -247,6 +255,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -290,6 +299,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -330,6 +340,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -370,6 +381,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -413,6 +425,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -468,6 +481,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -544,6 +558,7 @@
   .formTeamEditDetails > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardTeamLocation {
@@ -561,6 +576,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -577,6 +593,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamLocation {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamLocation > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -605,6 +626,7 @@
   justify-content: flex-start;
   align-content: unset;
   flex-wrap: nowrap;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -626,6 +648,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .teamLocationGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -669,6 +692,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -685,6 +709,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamIndustry {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamIndustry > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -712,6 +741,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -733,6 +763,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .teamIndustryGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -783,6 +814,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -799,6 +831,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamLanguages {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamLanguages > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -826,6 +863,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -850,6 +888,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .inputGroupTeamLanguages > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -899,6 +938,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -945,6 +985,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -968,6 +1009,7 @@
   .cardTeamCommunity > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardHeaderTitlePrimary__w2MaY:global(.__wab_instance) {
@@ -1005,6 +1047,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1079,6 +1122,7 @@
   .formTeamEditMarkets > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
+    min-width: 0;
   }
 }
 .cardTeamMarkets {
@@ -1096,6 +1140,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1112,6 +1157,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamMarkets {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamMarkets > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -1139,6 +1189,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1160,6 +1211,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .teamMarketsGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -1200,6 +1252,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1216,6 +1269,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamProjects {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamProjects > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -1243,6 +1301,7 @@
   align-items: unset;
   justify-content: flex-start;
   align-content: flex-end;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1264,6 +1323,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .teamProjectsGroup > :global(.__wab_flex-container) {
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
@@ -1306,6 +1366,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1363,6 +1424,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1431,6 +1493,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .formTeamEditSocial > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
 .cardTeamWebsite {
   display: flex;
   position: relative;
@@ -1447,6 +1514,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1489,6 +1557,7 @@
   align-items: flex-start;
   justify-content: center;
   align-content: unset;
+  min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -1505,6 +1574,11 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .cardTeamSocial {
     width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardTeamSocial > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }

@@ -19,13 +19,12 @@ import {
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
+import ImageInput from "../../ImageInput"; // plasmic-import: lEht_5kSJO/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingimage.module.css"; // plasmic-import: 6x0YIR7aDko/css
-import Icon105Icon from "./icons/PlasmicIcon__Icon105"; // plasmic-import: oRZoGOt72t/icon
 
 export const PlasmicServicelistingimage__VariantProps = new Array();
 
@@ -47,7 +46,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
 
       <div className={defaultcss.plasmic_page_wrapper}>
         <p.Stack
-          as={"form"}
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
@@ -78,7 +77,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               data-plasmic-name={"progressBar"}
               data-plasmic-override={overrides.progressBar}
               className={classNames("__wab_instance", sty.progressBar)}
-              progress={"_50"}
+              progress={"_70"}
             />
           </div>
 
@@ -130,83 +129,55 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(defaultcss.all, sty.freeBox__wbEqK)}
               >
-                <button
-                  data-plasmic-name={"mainImage"}
-                  data-plasmic-override={overrides.mainImage}
-                  className={classNames(defaultcss.button, sty.mainImage)}
-                >
-                  <div
-                    className={classNames(defaultcss.all, sty.freeBox__n0Uu4)}
-                  >
-                    <Icon105Icon
-                      className={classNames(defaultcss.all, sty.svg___9Ib5N)}
-                      role={"img"}
-                    />
-                  </div>
-                </button>
+                <ImageInput
+                  data-plasmic-name={"servicePrimaryImageInput"}
+                  data-plasmic-override={overrides.servicePrimaryImageInput}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.servicePrimaryImageInput
+                  )}
+                />
 
                 <p.Stack
                   as={"div"}
                   hasGap={true}
                   className={classNames(defaultcss.all, sty.freeBox__uh1A1)}
                 >
-                  <button
-                    className={classNames(defaultcss.button, sty.button___1TQM)}
-                  >
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__uze4B)}
-                    >
-                      <Icon105Icon
-                        className={classNames(defaultcss.all, sty.svg__c5XyL)}
-                        role={"img"}
-                      />
-                    </div>
-                  </button>
-
-                  <button
-                    className={classNames(defaultcss.button, sty.button__vh2Yn)}
-                  >
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__ntr0B)}
-                    >
-                      <Icon105Icon
-                        className={classNames(defaultcss.all, sty.svg___2J5Z)}
-                        role={"img"}
-                      />
-                    </div>
-                  </button>
-
-                  <button
+                  <ImageInput
+                    data-plasmic-name={"serviceImageInputOne"}
+                    data-plasmic-override={overrides.serviceImageInputOne}
                     className={classNames(
-                      defaultcss.button,
-                      sty.button___8J7An
+                      "__wab_instance",
+                      sty.serviceImageInputOne
                     )}
-                  >
-                    <div
-                      className={classNames(defaultcss.all, sty.freeBox__yiWrn)}
-                    >
-                      <Icon105Icon
-                        className={classNames(defaultcss.all, sty.svg__cQIuo)}
-                        role={"img"}
-                      />
-                    </div>
-                  </button>
+                  />
 
-                  <button
-                    className={classNames(defaultcss.button, sty.button__zlQhp)}
-                  >
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        sty.freeBox___3Ma6D
-                      )}
-                    >
-                      <Icon105Icon
-                        className={classNames(defaultcss.all, sty.svg__kUqvr)}
-                        role={"img"}
-                      />
-                    </div>
-                  </button>
+                  <ImageInput
+                    data-plasmic-name={"serviceImageInputTwo"}
+                    data-plasmic-override={overrides.serviceImageInputTwo}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.serviceImageInputTwo
+                    )}
+                  />
+
+                  <ImageInput
+                    data-plasmic-name={"serviceImageInputThree"}
+                    data-plasmic-override={overrides.serviceImageInputThree}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.serviceImageInputThree
+                    )}
+                  />
+
+                  <ImageInput
+                    data-plasmic-name={"serviceImageInputFour"}
+                    data-plasmic-override={overrides.serviceImageInputFour}
+                    className={classNames(
+                      "__wab_instance",
+                      sty.serviceImageInputFour
+                    )}
+                  />
                 </p.Stack>
               </p.Stack>
             </p.Stack>
@@ -225,12 +196,6 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               }
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -245,9 +210,12 @@ const PlasmicDescendants = {
     "progressBar",
     "questionImageBlock",
     "cardQuestionServiceListing",
-    "mainImage",
-    "toolTipServiceListing",
-    "footerServiceListing"
+    "servicePrimaryImageInput",
+    "serviceImageInputOne",
+    "serviceImageInputTwo",
+    "serviceImageInputThree",
+    "serviceImageInputFour",
+    "toolTipServiceListing"
   ],
 
   serviceListingNavbar: [
@@ -261,13 +229,20 @@ const PlasmicDescendants = {
   questionImageBlock: [
     "questionImageBlock",
     "cardQuestionServiceListing",
-    "mainImage"
+    "servicePrimaryImageInput",
+    "serviceImageInputOne",
+    "serviceImageInputTwo",
+    "serviceImageInputThree",
+    "serviceImageInputFour"
   ],
 
   cardQuestionServiceListing: ["cardQuestionServiceListing"],
-  mainImage: ["mainImage"],
-  toolTipServiceListing: ["toolTipServiceListing"],
-  footerServiceListing: ["footerServiceListing"]
+  servicePrimaryImageInput: ["servicePrimaryImageInput"],
+  serviceImageInputOne: ["serviceImageInputOne"],
+  serviceImageInputTwo: ["serviceImageInputTwo"],
+  serviceImageInputThree: ["serviceImageInputThree"],
+  serviceImageInputFour: ["serviceImageInputFour"],
+  toolTipServiceListing: ["toolTipServiceListing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -306,9 +281,12 @@ export const PlasmicServicelistingimage = Object.assign(
     progressBar: makeNodeComponent("progressBar"),
     questionImageBlock: makeNodeComponent("questionImageBlock"),
     cardQuestionServiceListing: makeNodeComponent("cardQuestionServiceListing"),
-    mainImage: makeNodeComponent("mainImage"),
+    servicePrimaryImageInput: makeNodeComponent("servicePrimaryImageInput"),
+    serviceImageInputOne: makeNodeComponent("serviceImageInputOne"),
+    serviceImageInputTwo: makeNodeComponent("serviceImageInputTwo"),
+    serviceImageInputThree: makeNodeComponent("serviceImageInputThree"),
+    serviceImageInputFour: makeNodeComponent("serviceImageInputFour"),
     toolTipServiceListing: makeNodeComponent("toolTipServiceListing"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingimage
     internalVariantProps: PlasmicServicelistingimage__VariantProps,
     internalArgProps: PlasmicServicelistingimage__ArgProps

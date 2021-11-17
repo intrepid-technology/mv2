@@ -5,18 +5,24 @@ import { selectServiceListing } from "../../../state/serviceListing/selectors";
 import { updateServiceList } from "../../../state/serviceListing/serviceListingSlice";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
+import {useServiceCategories} from "../../../hooks/useServiceCategories";
+import { useServiceFeatures } from "../../../hooks/useServiceFeatures";
+import { useServiceIndustries } from "../../../hooks/useServiceIndustries.js";
+import { useServiceTechnologies } from "../../../hooks/useServiceTechnologies";
+import { useServices } from "../../../hooks/useServices";
 
 function Servicelistingcategory() {
   const serviceListing = useSelector(selectServiceListing);
   const dispatch = useDispatch();
 
-  console.log("Category ", serviceListing);
+  const serviceCategoriesList = useServiceCategories()
+  const services = useServices()
+  const serviceFeatures = useServiceFeatures()
+  const serviceIndustries = useServiceIndustries()
+  const serviceTechnologies = useServiceTechnologies()
 
+  console.log({serviceListing})
   return (
-    <>
-      <a href="/service/listing/image">
-        <button>Next</button>
-      </a>
       <PlasmicServicelistingcategory
         serviceCategorySelectInput={{
           value: serviceListing.category.serviceCategory,
@@ -27,12 +33,7 @@ function Servicelistingcategory() {
                 value: category,
               })
             ),
-          options: [
-            { id: 1, label: "Category 1" },
-            { id: 2, label: "Category 2" },
-            { id: 3, label: "Category 3" },
-            { id: 4, label: "Category 4" },
-          ],
+          options: serviceCategoriesList,
         }}
         serviceSelectInput={{
           value: serviceListing.category.service,
@@ -40,12 +41,12 @@ function Servicelistingcategory() {
             dispatch(
               updateServiceList({ key: "category.service", value: service })
             ),
-          options: [
-            { id: 1, label: "Service 1" },
-            { id: 2, label: "Service 2" },
-            { id: 3, label: "Service 3" },
-            { id: 4, label: "Service 4" },
-          ],
+          options: services,
+        }}
+        serviceContentTextArea={{
+          value: serviceListing.category.content,
+          onChange: (newValue) =>
+            dispatch(updateServiceList({ key: "category.content", value: newValue })),
         }}
         serviceFeaturesCheckboxes={{
           value: serviceListing.category.features,
@@ -53,13 +54,7 @@ function Servicelistingcategory() {
             dispatch(
               updateServiceList({ key: "category.features", value: features })
             ),
-          options: [
-            { id: 1, label: "Competitor Analysis" },
-            { id: 2, label: "Quatitative Survey" },
-            { id: 3, label: "User Personas" },
-            { id: 4, label: "User Journey Mapping" },
-            { id: 5, label: "Product Positioning" },
-          ],
+          options: serviceFeatures,
         }}
         serviceIndustriesSelect={{
           value: serviceListing.category.industries,
@@ -70,12 +65,7 @@ function Servicelistingcategory() {
                 value: industries,
               })
             ),
-          options: [
-            { id: 1, label: "Industry 1" },
-            { id: 2, label: "Industry 2" },
-            { id: 3, label: "Industry 3" },
-            { id: 4, label: "Industry 4" },
-          ],
+          options: serviceIndustries
         }}
         serviceToolsSelect={{
           value: serviceListing.category.tools,
@@ -83,15 +73,9 @@ function Servicelistingcategory() {
             dispatch(
               updateServiceList({ key: "category.tools", value: tools })
             ),
-          options: [
-            { id: 1, label: "Tool 1" },
-            { id: 2, label: "Tool 2" },
-            { id: 3, label: "Tool 3" },
-            { id: 4, label: "Tool 4" },
-          ],
+          options: serviceTechnologies,
         }}
       />
-    </>
   );
 }
 

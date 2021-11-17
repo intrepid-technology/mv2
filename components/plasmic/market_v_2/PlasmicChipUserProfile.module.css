@@ -240,6 +240,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -267,6 +268,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
@@ -293,6 +295,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -306,15 +309,22 @@
   > img {
   margin-left: 4px;
 }
-.text__nbdg7 {
-  display: block;
+.freeBox__nbdg7 {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__nfhn {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotTargetUsername {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
   color: #000000 /* plasmic-token: 6OoG_pvkg */;
-  align-self: stretch;
 }
 .tagBadgeVerification:global(.__wab_instance) {
   position: relative;
@@ -358,6 +368,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -431,231 +442,6 @@
   > img {
   margin-top: 4px;
 }
-.userStatsParent {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: auto;
-  min-width: 0;
-}
-.userStatsParent > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: calc(0px - 6px);
-  width: calc(100% + 6px);
-}
-.userStatsParent > :global(.__wab_flex-container) > *,
-.userStatsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.userStatsParent > :global(.__wab_flex-container) > picture > img,
-.userStatsParent
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 6px;
-}
-.viewButtonCount {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-  max-width: 65px;
-}
-.viewButtonCount > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.viewButtonCount > :global(.__wab_flex-container) > *,
-.viewButtonCount > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.viewButtonCount > :global(.__wab_flex-container) > picture > img,
-.viewButtonCount
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.viewButton {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: auto;
-  left: auto;
-  padding: 0px;
-  border-width: 0px;
-  border-style: none;
-}
-.viewDisplay {
-  object-fit: cover;
-  width: 14px;
-  height: 14px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-  flex-shrink: 0;
-}
-.root .viewDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.viewNumberValueParent {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-  width: auto;
-  height: auto;
-}
-.viewNumberIncrement {
-  line-height: 1;
-  font-size: 10px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.heartButtonCount {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-  max-width: 65px;
-}
-.heartButtonCount > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.heartButtonCount > :global(.__wab_flex-container) > *,
-.heartButtonCount > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.heartButtonCount > :global(.__wab_flex-container) > picture > img,
-.heartButtonCount
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.heartButton {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: auto;
-  left: auto;
-  padding: 0px;
-  border-width: 0px;
-  border-style: none;
-}
-.heartDisplay {
-  object-fit: cover;
-  width: 14px;
-  height: 14px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-  flex-shrink: 0;
-}
-.root .heartDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.heartNumberValueParent {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-  width: auto;
-  height: auto;
-}
-.heartNumberIncrement {
-  line-height: 1;
-  font-size: 10px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.bookmarkButtonCount {
-  display: inline-flex;
-  position: relative;
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-  max-width: 65px;
-}
-.bookmarkButtonCount > :global(.__wab_flex-container) {
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: calc(0px - 4px);
-  width: calc(100% + 4px);
-}
-.bookmarkButtonCount > :global(.__wab_flex-container) > *,
-.bookmarkButtonCount
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.bookmarkButtonCount > :global(.__wab_flex-container) > picture > img,
-.bookmarkButtonCount
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 4px;
-}
-.bookmarkButton {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: auto;
-  left: auto;
-  padding: 0px;
-  border-width: 0px;
-  border-style: none;
-}
-.bookmarkDisplay {
-  object-fit: cover;
-  width: 14px;
-  height: 14px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-  flex-shrink: 0;
-}
-.root .bookmarkDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-}
-.bookmarkNumberValueParent {
-  display: inline-flex;
-  position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  top: auto;
-  left: auto;
-  width: auto;
-  height: auto;
-}
-.bookmarkNumberIncrement {
-  line-height: 1;
-  font-size: 10px;
-  width: auto;
-  height: auto;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
-  display: inline-block;
-}
 .location {
   display: flex;
   position: relative;
@@ -670,6 +456,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
 }
@@ -691,14 +478,21 @@
   justify-content: space-between;
   width: auto;
 }
-.text__fPbL6 {
-  display: block;
+.freeBox__fPbL6 {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox___0Z9Y0 {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotTargetCity {
   font-size: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
-  align-self: stretch;
 }
 .text___0P9Ko {
   display: inline-block;
@@ -720,12 +514,19 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.text___4Fz5W {
-  display: block;
+.freeBox___4Fz5W {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox__szPVo {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotTargetCountry {
   font-size: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
   color: #333333 /* plasmic-token: ec1vMFIzT */;
-  align-self: stretch;
 }

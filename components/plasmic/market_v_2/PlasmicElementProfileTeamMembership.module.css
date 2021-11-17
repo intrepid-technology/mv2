@@ -97,6 +97,7 @@
   justify-content: flex-start;
   flex-wrap: nowrap;
   align-content: flex-start;
+  min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 0px);
@@ -128,6 +129,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
 }
@@ -393,6 +395,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
 }
@@ -661,6 +664,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
 }

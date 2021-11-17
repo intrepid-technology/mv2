@@ -25,7 +25,9 @@ export const PlasmicFormConditionalField__VariantProps = new Array();
 export const PlasmicFormConditionalField__ArgProps = new Array(
   "children",
   "name",
-  "value"
+  "value",
+  "testBooleanValue",
+  "testObjectValue"
 );
 
 function PlasmicFormConditionalField__RenderFunc(props) {

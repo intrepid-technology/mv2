@@ -76,6 +76,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 32px);
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
@@ -114,6 +115,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
@@ -169,6 +171,7 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
   margin-top: calc(0px - 32px);
@@ -208,6 +211,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-content: flex-start;
+    min-width: 0;
     margin-left: calc(0px - 32px);
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
@@ -253,6 +257,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
@@ -330,6 +335,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 32px);
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
@@ -371,6 +377,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
@@ -446,6 +453,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
@@ -487,6 +495,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
@@ -542,6 +551,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
@@ -583,6 +593,7 @@
     align-items: flex-start;
     flex-wrap: wrap-reverse;
     align-content: center;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);

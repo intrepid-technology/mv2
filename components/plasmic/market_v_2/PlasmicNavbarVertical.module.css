@@ -59,6 +59,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-height: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -78,6 +79,9 @@
   padding-right: 8px;
   min-width: 0;
   flex-shrink: 0;
+}
+.navCard___switch > :global(.__wab_flex-container) {
+  min-width: 0;
 }
 .sidePanel .navCard:hover {
   background: #f8f8f8;

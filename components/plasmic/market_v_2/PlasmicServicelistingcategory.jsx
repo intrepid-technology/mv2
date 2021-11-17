@@ -23,9 +23,8 @@ import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // pl
 import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import MultiCheckboxInput from "../../MultiCheckboxInput"; // plasmic-import: 6TMzn6NJGN/component
-import SectionServiceContent from "../../SectionServiceContent"; // plasmic-import: 62pZUpsW52/component
+import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -284,7 +283,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                     {"Step 2"}
                   </div>
                 }
-                slot2={"Enter a number for all that apply to your service"}
+                slot2={"Describe the content that is included in your service"}
               >
                 <div
                   className={classNames(
@@ -297,15 +296,13 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 </div>
               </CardQuestionServiceListing>
 
-              <SectionServiceContent
-                data-plasmic-name={"sectionServiceContent"}
-                data-plasmic-override={overrides.sectionServiceContent}
-                breadcrumbs={"breadcrumbs"}
+              <TextAreaInput
+                data-plasmic-name={"serviceContentTextArea"}
+                data-plasmic-override={overrides.serviceContentTextArea}
                 className={classNames(
                   "__wab_instance",
-                  sty.sectionServiceContent
+                  sty.serviceContentTextArea
                 )}
-                serviceType={"webMultiplePage"}
               />
             </p.Stack>
 
@@ -386,7 +383,11 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 sty.toolTipServiceListing__n3X4A
               )}
               slot={"About industry categories"}
-            />
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
+              }
+            </ToolTipServiceListing>
           </p.Stack>
 
           <p.Stack
@@ -460,12 +461,6 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               </div>
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -485,12 +480,11 @@ const PlasmicDescendants = {
     "questionFeaturesBlock",
     "serviceFeaturesCheckboxes",
     "questionContentBlock",
-    "sectionServiceContent",
+    "serviceContentTextArea",
     "questionIndustryBlock",
     "serviceIndustriesSelect",
     "questionToolsBlock",
-    "serviceToolsSelect",
-    "footerServiceListing"
+    "serviceToolsSelect"
   ],
 
   serviceListingNavbar: [
@@ -513,13 +507,12 @@ const PlasmicDescendants = {
   serviceSelectInput: ["serviceSelectInput"],
   questionFeaturesBlock: ["questionFeaturesBlock", "serviceFeaturesCheckboxes"],
   serviceFeaturesCheckboxes: ["serviceFeaturesCheckboxes"],
-  questionContentBlock: ["questionContentBlock", "sectionServiceContent"],
-  sectionServiceContent: ["sectionServiceContent"],
+  questionContentBlock: ["questionContentBlock", "serviceContentTextArea"],
+  serviceContentTextArea: ["serviceContentTextArea"],
   questionIndustryBlock: ["questionIndustryBlock", "serviceIndustriesSelect"],
   serviceIndustriesSelect: ["serviceIndustriesSelect"],
   questionToolsBlock: ["questionToolsBlock", "serviceToolsSelect"],
-  serviceToolsSelect: ["serviceToolsSelect"],
-  footerServiceListing: ["footerServiceListing"]
+  serviceToolsSelect: ["serviceToolsSelect"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -563,12 +556,11 @@ export const PlasmicServicelistingcategory = Object.assign(
     questionFeaturesBlock: makeNodeComponent("questionFeaturesBlock"),
     serviceFeaturesCheckboxes: makeNodeComponent("serviceFeaturesCheckboxes"),
     questionContentBlock: makeNodeComponent("questionContentBlock"),
-    sectionServiceContent: makeNodeComponent("sectionServiceContent"),
+    serviceContentTextArea: makeNodeComponent("serviceContentTextArea"),
     questionIndustryBlock: makeNodeComponent("questionIndustryBlock"),
     serviceIndustriesSelect: makeNodeComponent("serviceIndustriesSelect"),
     questionToolsBlock: makeNodeComponent("questionToolsBlock"),
     serviceToolsSelect: makeNodeComponent("serviceToolsSelect"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingcategory
     internalVariantProps: PlasmicServicelistingcategory__VariantProps,
     internalArgProps: PlasmicServicelistingcategory__ArgProps

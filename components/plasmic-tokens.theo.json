@@ -191,6 +191,16 @@
       }
     },
     {
+      "name": "UnnamedStyleToken",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+        "id": "WK-dyK8_b"
+      }
+    },
+    {
       "name": "Xero",
       "type": "color",
       "value": "#13B5EA",
