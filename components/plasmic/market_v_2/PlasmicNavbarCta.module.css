@@ -76,6 +76,21 @@
 .columns > :nth-child(3n + 3) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .columns > :nth-child(3n + 1) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .columns > :nth-child(3n + 2) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .columns > :nth-child(3n + 3) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
 .column__z4Gl {
   display: flex;
   position: relative;

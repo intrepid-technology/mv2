@@ -629,8 +629,3 @@
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.footerServiceListing:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-}

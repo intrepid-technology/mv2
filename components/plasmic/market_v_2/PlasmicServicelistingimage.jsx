@@ -21,7 +21,6 @@ import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/compo
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
 import ImageInput from "../../ImageInput"; // plasmic-import: lEht_5kSJO/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -78,7 +77,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               data-plasmic-name={"progressBar"}
               data-plasmic-override={overrides.progressBar}
               className={classNames("__wab_instance", sty.progressBar)}
-              progress={"_50"}
+              progress={"_70"}
             />
           </div>
 
@@ -197,12 +196,6 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               }
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -222,8 +215,7 @@ const PlasmicDescendants = {
     "serviceImageInputTwo",
     "serviceImageInputThree",
     "serviceImageInputFour",
-    "toolTipServiceListing",
-    "footerServiceListing"
+    "toolTipServiceListing"
   ],
 
   serviceListingNavbar: [
@@ -250,8 +242,7 @@ const PlasmicDescendants = {
   serviceImageInputTwo: ["serviceImageInputTwo"],
   serviceImageInputThree: ["serviceImageInputThree"],
   serviceImageInputFour: ["serviceImageInputFour"],
-  toolTipServiceListing: ["toolTipServiceListing"],
-  footerServiceListing: ["footerServiceListing"]
+  toolTipServiceListing: ["toolTipServiceListing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -296,7 +287,6 @@ export const PlasmicServicelistingimage = Object.assign(
     serviceImageInputThree: makeNodeComponent("serviceImageInputThree"),
     serviceImageInputFour: makeNodeComponent("serviceImageInputFour"),
     toolTipServiceListing: makeNodeComponent("toolTipServiceListing"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingimage
     internalVariantProps: PlasmicServicelistingimage__VariantProps,
     internalArgProps: PlasmicServicelistingimage__ArgProps

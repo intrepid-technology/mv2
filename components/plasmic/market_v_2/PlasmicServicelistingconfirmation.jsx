@@ -18,10 +18,15 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
+import ServiceListingConfirmationItem from "../../ServiceListingConfirmationItem"; // plasmic-import: 1hOjGdOjjY/component
+import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
+import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingconfirmation.module.css"; // plasmic-import: hWnwf4HTgmv/css
+import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
+import Icon170Icon from "./icons/PlasmicIcon__Icon170"; // plasmic-import: JricKendl/icon
 
 export const PlasmicServicelistingconfirmation__VariantProps = new Array();
 
@@ -63,8 +68,8 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
+              backButtonDestination={"/service/listing/delivery"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
-              hideBack={"hideBack"}
               hideNext={"hideNext"}
             >
               {"Confirmation"}
@@ -77,6 +82,721 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               progress={"_100"}
             />
           </div>
+
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"body"}
+            data-plasmic-override={overrides.body}
+            hasGap={true}
+            className={classNames(defaultcss.all, sty.body)}
+          >
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceCategory"}
+              data-plasmic-override={overrides.serviceCategory}
+              className={classNames("__wab_instance", sty.serviceCategory)}
+              hasListContent={"hasListContent"}
+              label={
+                "What kind of service are you listing? ( Service Category )"
+              }
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"service"}
+              data-plasmic-override={overrides.service}
+              className={classNames("__wab_instance", sty.service)}
+              hasListContent={"hasListContent"}
+              label={"What kind of service are you listing? ( Service )"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceFeatures"}
+              data-plasmic-override={overrides.serviceFeatures}
+              className={classNames("__wab_instance", sty.serviceFeatures)}
+              hasListContent={"hasListContent"}
+              label={"What features are included?"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceContent"}
+              data-plasmic-override={overrides.serviceContent}
+              className={classNames("__wab_instance", sty.serviceContent)}
+              label={"What content is included?"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceIndustries"}
+              data-plasmic-override={overrides.serviceIndustries}
+              className={classNames("__wab_instance", sty.serviceIndustries)}
+              hasListContent={"hasListContent"}
+              label={"What is the industry community for your service?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add2"}
+                        data-plasmic-override={overrides.add2}
+                        className={classNames(defaultcss.all, sty.add2)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__go3Mx
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete2"}
+                        data-plasmic-override={overrides.delete2}
+                        className={classNames(defaultcss.all, sty.delete2)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add3"}
+                        data-plasmic-override={overrides.add3}
+                        className={classNames(defaultcss.all, sty.add3)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__wWXi
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete3"}
+                        data-plasmic-override={overrides.delete3}
+                        className={classNames(defaultcss.all, sty.delete3)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceTools"}
+              data-plasmic-override={overrides.serviceTools}
+              className={classNames("__wab_instance", sty.serviceTools)}
+              hasListContent={"hasListContent"}
+              label={"What tools, or technology do you use for your service?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__bG0Xg)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__jcb6V
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__qg7Z1)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__bqSxa)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__qhCw5
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__epU6T)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceName"}
+              data-plasmic-override={overrides.serviceName}
+              className={classNames("__wab_instance", sty.serviceName)}
+              label={"What is the name/title of your service?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg___69KeR)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__dcw2W
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__ywtAj)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__agLin)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__gteOx
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__qOz2P)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDescription"}
+              data-plasmic-override={overrides.serviceDescription}
+              className={classNames("__wab_instance", sty.serviceDescription)}
+              label={"What is the description of your service?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg___4Gnfi)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__tkzf7
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__l0Bkf)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__pqGgm)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__f9JaM
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__soYu2)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryProcessOverview"}
+              data-plasmic-override={overrides.serviceDeliveryProcessOverview}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryProcessOverview
+              )}
+              label={
+                "What is your unique service delivery process? ( Short Overview )"
+              }
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__rVwJi)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__tGLze
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__ecnsj)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__uzvLq)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__p7QGv
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__eQxez)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryProcessSteps"}
+              data-plasmic-override={overrides.serviceDeliveryProcessSteps}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryProcessSteps
+              )}
+              hasArrayFieldContent={"hasArrayFieldContent"}
+              label={"What is your unique service delivery process? ( Steps )"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__jlx5T)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__foQcK
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__v0AvP)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__f1WtL)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__opzWz
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__zq2Tl)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceImages"}
+              data-plasmic-override={overrides.serviceImages}
+              className={classNames("__wab_instance", sty.serviceImages)}
+              hasImages={"hasImages"}
+              label={"What will your finished service look like?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add17"}
+                        data-plasmic-override={overrides.add17}
+                        className={classNames(defaultcss.all, sty.add17)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__pxAJy
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete17"}
+                        data-plasmic-override={overrides.delete17}
+                        className={classNames(defaultcss.all, sty.delete17)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add16"}
+                        data-plasmic-override={overrides.add16}
+                        className={classNames(defaultcss.all, sty.add16)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__mrM
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete16"}
+                        data-plasmic-override={overrides.delete16}
+                        className={classNames(defaultcss.all, sty.delete16)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__z7EkV
+                  )}
+                >
+                  {"Enter some text"}
+                </div>
+              }
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryTime"}
+              data-plasmic-override={overrides.serviceDeliveryTime}
+              className={classNames("__wab_instance", sty.serviceDeliveryTime)}
+              label={"How much time is required to deliver your service?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add10"}
+                        data-plasmic-override={overrides.add10}
+                        className={classNames(defaultcss.all, sty.add10)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__voZxn
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete10"}
+                        data-plasmic-override={overrides.delete10}
+                        className={classNames(defaultcss.all, sty.delete10)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add9"}
+                        data-plasmic-override={overrides.add9}
+                        className={classNames(defaultcss.all, sty.add9)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__gr9OD
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete9"}
+                        data-plasmic-override={overrides.delete9}
+                        className={classNames(defaultcss.all, sty.delete9)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryMeetings"}
+              data-plasmic-override={overrides.serviceDeliveryMeetings}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryMeetings
+              )}
+              hasListContent={"hasListContent"}
+              label={"How many meetings will you offer your client?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__iOcc6)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__tbubL
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__ovn0I)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__a8GsJ)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__guGbO
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__aw8Zm)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryRevisions"}
+              data-plasmic-override={overrides.serviceDeliveryRevisions}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryRevisions
+              )}
+              hasListContent={"hasListContent"}
+              label={"How many revisions will you offer your client?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__mO4Ou)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__j5L3X
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__k4Jt)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__bd55Q)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__nNMd5
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__tzdAj)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryRequirements"}
+              data-plasmic-override={overrides.serviceDeliveryRequirements}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryRequirements
+              )}
+              hasArrayFieldContent={"hasArrayFieldContent"}
+              label={
+                "What do you require from the client to start your service?"
+              }
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add14"}
+                        data-plasmic-override={overrides.add14}
+                        className={classNames(defaultcss.all, sty.add14)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__ilrcO
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete14"}
+                        data-plasmic-override={overrides.delete14}
+                        className={classNames(defaultcss.all, sty.delete14)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        data-plasmic-name={"add13"}
+                        data-plasmic-override={overrides.add13}
+                        className={classNames(defaultcss.all, sty.add13)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__t8FOg
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        data-plasmic-name={"delete13"}
+                        data-plasmic-override={overrides.delete13}
+                        className={classNames(defaultcss.all, sty.delete13)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+
+            <ServiceListingConfirmationItem
+              data-plasmic-name={"serviceDeliveryFormats"}
+              data-plasmic-override={overrides.serviceDeliveryFormats}
+              className={classNames(
+                "__wab_instance",
+                sty.serviceDeliveryFormats
+              )}
+              hasListContent={"hasListContent"}
+              label={"What format(s) will you provide the client?"}
+              listContent={
+                <React.Fragment>
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__tAyOg)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__ckMNq
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__zhHhA)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <ChipBadgeDisplay
+                    addIcon={
+                      <PlusBoldIcon
+                        className={classNames(defaultcss.all, sty.svg__e8Nj2)}
+                        role={"img"}
+                      />
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.chipBadgeDisplay__zPsD
+                    )}
+                    deleteIcon={
+                      <Icon170Icon
+                        className={classNames(defaultcss.all, sty.svg__w5M6)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                </React.Fragment>
+              }
+              textContent={"Sample Service Name"}
+            />
+          </p.Stack>
+
+          <FooterServiceListing
+            data-plasmic-name={"footerServiceListing"}
+            data-plasmic-override={overrides.footerServiceListing}
+            className={classNames("__wab_instance", sty.footerServiceListing)}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.text__sYaqD
+              )}
+            >
+              {"Save Listing"}
+            </div>
+          </FooterServiceListing>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -84,7 +804,47 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "serviceListingNavbar", "navbarServiceListing", "progressBar"],
+  root: [
+    "root",
+    "serviceListingNavbar",
+    "navbarServiceListing",
+    "progressBar",
+    "body",
+    "serviceCategory",
+    "service",
+    "serviceFeatures",
+    "serviceContent",
+    "serviceIndustries",
+    "add2",
+    "delete2",
+    "add3",
+    "delete3",
+    "serviceTools",
+    "serviceName",
+    "serviceDescription",
+    "serviceDeliveryProcessOverview",
+    "serviceDeliveryProcessSteps",
+    "serviceImages",
+    "add17",
+    "delete17",
+    "add16",
+    "delete16",
+    "serviceDeliveryTime",
+    "add10",
+    "delete10",
+    "add9",
+    "delete9",
+    "serviceDeliveryMeetings",
+    "serviceDeliveryRevisions",
+    "serviceDeliveryRequirements",
+    "add14",
+    "delete14",
+    "add13",
+    "delete13",
+    "serviceDeliveryFormats",
+    "footerServiceListing"
+  ],
+
   serviceListingNavbar: [
     "serviceListingNavbar",
     "navbarServiceListing",
@@ -92,7 +852,97 @@ const PlasmicDescendants = {
   ],
 
   navbarServiceListing: ["navbarServiceListing"],
-  progressBar: ["progressBar"]
+  progressBar: ["progressBar"],
+  body: [
+    "body",
+    "serviceCategory",
+    "service",
+    "serviceFeatures",
+    "serviceContent",
+    "serviceIndustries",
+    "add2",
+    "delete2",
+    "add3",
+    "delete3",
+    "serviceTools",
+    "serviceName",
+    "serviceDescription",
+    "serviceDeliveryProcessOverview",
+    "serviceDeliveryProcessSteps",
+    "serviceImages",
+    "add17",
+    "delete17",
+    "add16",
+    "delete16",
+    "serviceDeliveryTime",
+    "add10",
+    "delete10",
+    "add9",
+    "delete9",
+    "serviceDeliveryMeetings",
+    "serviceDeliveryRevisions",
+    "serviceDeliveryRequirements",
+    "add14",
+    "delete14",
+    "add13",
+    "delete13",
+    "serviceDeliveryFormats"
+  ],
+
+  serviceCategory: ["serviceCategory"],
+  service: ["service"],
+  serviceFeatures: ["serviceFeatures"],
+  serviceContent: ["serviceContent"],
+  serviceIndustries: [
+    "serviceIndustries",
+    "add2",
+    "delete2",
+    "add3",
+    "delete3"
+  ],
+
+  add2: ["add2"],
+  delete2: ["delete2"],
+  add3: ["add3"],
+  delete3: ["delete3"],
+  serviceTools: ["serviceTools"],
+  serviceName: ["serviceName"],
+  serviceDescription: ["serviceDescription"],
+  serviceDeliveryProcessOverview: ["serviceDeliveryProcessOverview"],
+  serviceDeliveryProcessSteps: ["serviceDeliveryProcessSteps"],
+  serviceImages: ["serviceImages", "add17", "delete17", "add16", "delete16"],
+  add17: ["add17"],
+  delete17: ["delete17"],
+  add16: ["add16"],
+  delete16: ["delete16"],
+  serviceDeliveryTime: [
+    "serviceDeliveryTime",
+    "add10",
+    "delete10",
+    "add9",
+    "delete9"
+  ],
+
+  add10: ["add10"],
+  delete10: ["delete10"],
+  add9: ["add9"],
+  delete9: ["delete9"],
+  serviceDeliveryMeetings: ["serviceDeliveryMeetings"],
+  serviceDeliveryRevisions: ["serviceDeliveryRevisions"],
+  serviceDeliveryRequirements: [
+    "serviceDeliveryRequirements",
+    "add14",
+    "delete14",
+    "add13",
+    "delete13"
+  ],
+
+  add14: ["add14"],
+  delete14: ["delete14"],
+  add13: ["add13"],
+  delete13: ["delete13"],
+  serviceDeliveryFormats: ["serviceDeliveryFormats"],
+  footerServiceListing: ["footerServiceListing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -129,6 +979,49 @@ export const PlasmicServicelistingconfirmation = Object.assign(
     serviceListingNavbar: makeNodeComponent("serviceListingNavbar"),
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
+    body: makeNodeComponent("body"),
+    serviceCategory: makeNodeComponent("serviceCategory"),
+    service: makeNodeComponent("service"),
+    serviceFeatures: makeNodeComponent("serviceFeatures"),
+    serviceContent: makeNodeComponent("serviceContent"),
+    serviceIndustries: makeNodeComponent("serviceIndustries"),
+    add2: makeNodeComponent("add2"),
+    delete2: makeNodeComponent("delete2"),
+    add3: makeNodeComponent("add3"),
+    delete3: makeNodeComponent("delete3"),
+    serviceTools: makeNodeComponent("serviceTools"),
+    serviceName: makeNodeComponent("serviceName"),
+    serviceDescription: makeNodeComponent("serviceDescription"),
+    serviceDeliveryProcessOverview: makeNodeComponent(
+      "serviceDeliveryProcessOverview"
+    ),
+
+    serviceDeliveryProcessSteps: makeNodeComponent(
+      "serviceDeliveryProcessSteps"
+    ),
+
+    serviceImages: makeNodeComponent("serviceImages"),
+    add17: makeNodeComponent("add17"),
+    delete17: makeNodeComponent("delete17"),
+    add16: makeNodeComponent("add16"),
+    delete16: makeNodeComponent("delete16"),
+    serviceDeliveryTime: makeNodeComponent("serviceDeliveryTime"),
+    add10: makeNodeComponent("add10"),
+    delete10: makeNodeComponent("delete10"),
+    add9: makeNodeComponent("add9"),
+    delete9: makeNodeComponent("delete9"),
+    serviceDeliveryMeetings: makeNodeComponent("serviceDeliveryMeetings"),
+    serviceDeliveryRevisions: makeNodeComponent("serviceDeliveryRevisions"),
+    serviceDeliveryRequirements: makeNodeComponent(
+      "serviceDeliveryRequirements"
+    ),
+
+    add14: makeNodeComponent("add14"),
+    delete14: makeNodeComponent("delete14"),
+    add13: makeNodeComponent("add13"),
+    delete13: makeNodeComponent("delete13"),
+    serviceDeliveryFormats: makeNodeComponent("serviceDeliveryFormats"),
+    footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingconfirmation
     internalVariantProps: PlasmicServicelistingconfirmation__VariantProps,
     internalArgProps: PlasmicServicelistingconfirmation__ArgProps

@@ -18,10 +18,6 @@ function Servicelistingdescription() {
   console.log("Description ", serviceListing);
 
   return (
-    <>
-      <a href="/service/listing/category">
-        <button>Next</button>
-      </a>
       <PlasmicServicelistingdescription
         serviceNameInput={{
           value: serviceListing.name,
@@ -66,7 +62,6 @@ function Servicelistingdescription() {
           },
         }}
       />
-    </>
   );
 }
 

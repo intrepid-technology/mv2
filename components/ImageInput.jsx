@@ -28,6 +28,7 @@ function ImageInput_({value, onFileChange, onFileUploaded, uploadToFirebase=true
   }
   const handleUploadToFirebase = (file) => {
     const fileName = `${slugify(file.name)-uuidv4()}`
+    console.log({fileName})
     var storageRef = firebaseRef(firebaseStorage, `images/${fileName}`);
     var uploadTask = uploadBytesResumable(storageRef, file);
 
@@ -81,7 +82,7 @@ function ImageInput_({value, onFileChange, onFileUploaded, uploadToFirebase=true
       overrides={{
         label: {
           props: {
-            for: fileInputId,
+            htmlFor: fileInputId,
           }
         }
       }}

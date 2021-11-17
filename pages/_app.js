@@ -1,10 +1,13 @@
-import * as React from "react";
 import "../styles/globals.css";
+
+import * as React from "react";
+
 import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
+
 import Layout from "../components/Layout";
 import { Provider } from "react-redux";
-import { store } from "../store";
 import firebaseApp from "../backend/api/firebase";
+import { store } from "../store";
 
 function MyApp({ Component, pageProps }) {
   const isAuth = true;

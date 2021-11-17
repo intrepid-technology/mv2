@@ -97,6 +97,8 @@ function PlasmicTest__RenderFunc(props) {
                     sty.formConditionalField__cHaze
                   )}
                   name={"text"}
+                  testBooleanValue={true}
+                  testObjectValue={{ abc: 123 }}
                   value={"Hide Select"}
                 >
                   <FormSelectInput

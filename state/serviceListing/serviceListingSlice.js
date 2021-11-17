@@ -28,6 +28,8 @@ const initialState = {
       DELIVERY_REQUIREMENT_DEFUALT_ITEM
     ],
     formats: [],
+    costType: null,
+    cost: null
   },
   images: [
     {

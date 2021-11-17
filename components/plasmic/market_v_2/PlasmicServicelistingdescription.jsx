@@ -24,7 +24,6 @@ import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/componen
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
@@ -86,7 +85,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               data-plasmic-name={"progressBar"}
               data-plasmic-override={overrides.progressBar}
               className={classNames("__wab_instance", sty.progressBar)}
-              progress={"_30"}
+              progress={"_40"}
             />
           </div>
 
@@ -331,12 +330,6 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               }
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -355,8 +348,7 @@ const PlasmicDescendants = {
     "serviceDescriptionInput",
     "questionProcessBlock",
     "processDeliveryOverviewInput",
-    "processStepsArrayFields",
-    "footerServiceListing"
+    "processStepsArrayFields"
   ],
 
   serviceListingNavbar: [
@@ -382,8 +374,7 @@ const PlasmicDescendants = {
   ],
 
   processDeliveryOverviewInput: ["processDeliveryOverviewInput"],
-  processStepsArrayFields: ["processStepsArrayFields"],
-  footerServiceListing: ["footerServiceListing"]
+  processStepsArrayFields: ["processStepsArrayFields"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -430,7 +421,6 @@ export const PlasmicServicelistingdescription = Object.assign(
     ),
 
     processStepsArrayFields: makeNodeComponent("processStepsArrayFields"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
     // Metadata about props expected for PlasmicServicelistingdescription
     internalVariantProps: PlasmicServicelistingdescription__VariantProps,
     internalArgProps: PlasmicServicelistingdescription__ArgProps

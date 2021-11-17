@@ -11,23 +11,7 @@ function Servicelistingdelivery() {
   const serviceListing = useSelector(selectServiceListing);
   const dispatch = useDispatch();
 
-  console.log("Delivery ", serviceListing);
-
-  const createListingMutation = useCreateListing(serviceListing);
-
-  if (createListingMutation.isSuccess) {
-    alert("Inserted");
-  }
-
-  if (createListingMutation.isError) {
-    console.log(createListingMutation.error.message);
-  }
-
   return (
-    <>
-      <button onClick={async () => createListingMutation.mutate()}>
-        Submit
-      </button>
       <PlasmicServicelistingdelivery
         deliveryTimeInput={{
           value: serviceListing.delivery.time,
@@ -35,8 +19,8 @@ function Servicelistingdelivery() {
             dispatch(updateServiceList({ key: "delivery.time", value: newValue })),
         }}
         meetingsSelectInput={{
-          value: serviceListing.delivery.meetings,
-          onChange: (meeting) =>
+          value: serviceListing.delivery.meetings?.id,
+          setSelectedObj: (meeting) =>
             dispatch(
               updateServiceList({
                 key: "delivery.meetings",
@@ -58,8 +42,8 @@ function Servicelistingdelivery() {
           ],
         }}
         revisionsSelectInput={{
-          value: serviceListing.delivery.revisions,
-          onChange: (revision) =>
+          value: serviceListing.delivery.revisions?.id,
+          setSelectedObj: (revision) =>
             dispatch(
               updateServiceList({
                 key: "delivery.revisions",
@@ -113,8 +97,37 @@ function Servicelistingdelivery() {
             { id: 4, label: "Format 4" },
           ],
         }}
-      />;
-    </>
+        serviceCostTypeSelectInput={{
+          value: serviceListing.delivery.costType?.id,
+          setSelectedObj: (costType) =>
+            dispatch(
+              updateServiceList({
+                key: "delivery.costType",
+                value: costType,
+              })
+            ),
+          options: [
+            { id: 1, label: "Per Hour" },
+            { id: 2, label: "Flat Fee" },
+          ],
+        }}
+        hourlyRateConditionalField={{
+          value: serviceListing?.delivery?.costType
+        }}
+        hourlyRateInput={{
+          value: serviceListing.delivery.cost,
+          onChange: (newValue) =>
+            dispatch(updateServiceList({ key: "delivery.cost", value: newValue })),
+        }}
+        flatRateConditionalField={{
+          value: serviceListing?.delivery?.costType
+        }}
+        flatRateInput={{
+          value: serviceListing.delivery.cost,
+          onChange: (newValue) =>
+            dispatch(updateServiceList({ key: "delivery.cost", value: newValue })),
+        }}
+      />
   );
 }
 

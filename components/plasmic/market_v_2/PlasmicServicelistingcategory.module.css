@@ -907,16 +907,11 @@
   }
 }
 .text___1Gzs4 {
-  color: #cccccc;
+  color: #333333 /* plasmic-token: ec1vMFIzT */;
 }
 .svg__jOgzy {
   object-fit: cover;
   width: 32px;
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
-}
-.footerServiceListing:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
 }

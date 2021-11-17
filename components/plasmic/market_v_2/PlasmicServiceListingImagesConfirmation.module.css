@@ -1,0 +1,117 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 8px;
+}
+.primaryImage {
+  object-fit: scale-down;
+  max-width: 100%;
+  width: 360px;
+  height: 190px;
+  flex-shrink: 0;
+}
+.primaryImage > picture > img {
+  object-fit: scale-down;
+}
+.primaryImage > .__wab_img-spacer > img {
+  object-fit: scale-down;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 0;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.image1 {
+  object-fit: scale-down;
+  max-width: 100%;
+  width: 170px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.image1 > picture > img {
+  object-fit: scale-down;
+}
+.image1 > .__wab_img-spacer > img {
+  object-fit: scale-down;
+}
+.image2 {
+  object-fit: scale-down;
+  max-width: 100%;
+  width: 170px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.image2 > picture > img {
+  object-fit: scale-down;
+}
+.image2 > .__wab_img-spacer > img {
+  object-fit: scale-down;
+}
+.image3 {
+  object-fit: scale-down;
+  max-width: 100%;
+  width: 170px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.image3 > picture > img {
+  object-fit: scale-down;
+}
+.image3 > .__wab_img-spacer > img {
+  object-fit: scale-down;
+}
+.image4 {
+  object-fit: scale-down;
+  max-width: 100%;
+  width: 170px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.image4 > picture > img {
+  object-fit: scale-down;
+}
+.image4 > .__wab_img-spacer > img {
+  object-fit: scale-down;
+}

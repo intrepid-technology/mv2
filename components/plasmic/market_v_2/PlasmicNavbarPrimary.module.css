@@ -31,9 +31,57 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 1) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 2) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 3) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 1) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 2) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > :nth-child(3n + 3) {
+    width: calc((100% - 3 * 0px) * 4 / 12);
+  }
+}
 .root__color {
   border-bottom-color: #000000 /* plasmic-token: 7-Hl8dlot */;
   background: #000000;
+}
+.root__color > :global(.__wab_flex-container) > :nth-child(3n + 1) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.root__color > :global(.__wab_flex-container) > :nth-child(3n + 2) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.root__color > :global(.__wab_flex-container) > :nth-child(3n + 3) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.root__user_buyer > :global(.__wab_flex-container) > :nth-child(3n + 1) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.root__user_buyer > :global(.__wab_flex-container) > :nth-child(3n + 2) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
+}
+.root__user_buyer > :global(.__wab_flex-container) > :nth-child(3n + 3) {
+  width: calc((100% - 3 * 0px) * 4 / 12);
 }
 .column__pLq0K {
   display: flex;
