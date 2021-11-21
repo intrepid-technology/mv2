@@ -46,13 +46,18 @@ function PlasmicSelectInput__OptionGroup__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(variants, "isFirst", "isFirst") ? false : true) ? (
         <div
           data-plasmic-name={"separator"}
           data-plasmic-override={overrides.separator}
-          className={classNames(defaultcss.all, sty.separator, {
+          className={classNames(defaultcss.all, projectcss.all, sty.separator, {
             [sty.separator__isFirst]: hasVariant(variants, "isFirst", "isFirst")
           })}
         />
@@ -61,19 +66,24 @@ function PlasmicSelectInput__OptionGroup__RenderFunc(props) {
         <div
           data-plasmic-name={"titleContainer"}
           data-plasmic-override={overrides.titleContainer}
-          className={classNames(defaultcss.all, sty.titleContainer, {
-            [sty.titleContainer__isFirst]: hasVariant(
-              variants,
-              "isFirst",
-              "isFirst"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.titleContainer,
+            {
+              [sty.titleContainer__isFirst]: hasVariant(
+                variants,
+                "isFirst",
+                "isFirst"
+              ),
 
-            [sty.titleContainer__noTitle]: hasVariant(
-              variants,
-              "noTitle",
-              "noTitle"
-            )
-          })}
+              [sty.titleContainer__noTitle]: hasVariant(
+                variants,
+                "noTitle",
+                "noTitle"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Group Name",
@@ -86,7 +96,11 @@ function PlasmicSelectInput__OptionGroup__RenderFunc(props) {
       <div
         data-plasmic-name={"optionsContainer"}
         data-plasmic-override={overrides.optionsContainer}
-        className={classNames(defaultcss.all, sty.optionsContainer)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.optionsContainer
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (

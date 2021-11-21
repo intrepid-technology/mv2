@@ -36,7 +36,12 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <ButtonStripeConnect
         data-plasmic-name={"buttonStripeConnect"}
@@ -46,6 +51,7 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__ugz3J
             )}
@@ -60,16 +66,25 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
         data-plasmic-name={"noteLinkParent"}
         data-plasmic-override={overrides.noteLinkParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.noteLinkParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.noteLinkParent
+        )}
       >
         <div
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
-          className={classNames(defaultcss.all, sty.descriptionParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionParent
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text___3TJqg
             )}

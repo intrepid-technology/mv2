@@ -33,28 +33,57 @@ function PlasmicInputStepperPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <button className={classNames(defaultcss.button, sty.button__cGaqh)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button__cGaqh
+        )}
+      >
         <PlusBoldIcon
-          className={classNames(defaultcss.all, sty.svg___7TaUz)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.svg___7TaUz
+          )}
           role={"img"}
         />
       </button>
 
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"textInput"}
+        data-plasmic-override={overrides.textInput ?? overrides.textbox}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.textInput
+        )}
         placeholder={""}
         size={1}
         type={"text"}
         value={""}
       />
 
-      <button className={classNames(defaultcss.button, sty.button__sfUcw)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button__sfUcw
+        )}
+      >
         <MinusBoldIcon
-          className={classNames(defaultcss.all, sty.svg___9It4W)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.svg___9It4W
+          )}
           role={"img"}
         />
       </button>
@@ -63,8 +92,8 @@ function PlasmicInputStepperPrimary__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox"],
-  textbox: ["textbox"]
+  root: ["root", "textInput"],
+  textInput: ["textInput"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -98,7 +127,7 @@ export const PlasmicInputStepperPrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     // Metadata about props expected for PlasmicInputStepperPrimary
     internalVariantProps: PlasmicInputStepperPrimary__VariantProps,
     internalArgProps: PlasmicInputStepperPrimary__ArgProps

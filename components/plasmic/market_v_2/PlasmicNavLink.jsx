@@ -34,13 +34,19 @@ function PlasmicNavLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
-        [sty.root__state_selected]: hasVariant(variants, "state", "selected")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light"),
+          [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
+          [sty.root__state_selected]: hasVariant(variants, "state", "selected")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -48,7 +54,7 @@ function PlasmicNavLink__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__color_brand]: hasVariant(variants, "color", "brand"),
           [sty.parent__color_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.parent__color_light]: hasVariant(variants, "color", "light"),
@@ -62,12 +68,12 @@ function PlasmicNavLink__RenderFunc(props) {
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
-          className={classNames(defaultcss.all, sty.textParent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
         >
           <div
             data-plasmic-name={"textBg"}
             data-plasmic-override={overrides.textBg}
-            className={classNames(defaultcss.all, sty.textBg, {
+            className={classNames(defaultcss.all, projectcss.all, sty.textBg, {
               [sty.textBg__color_light]: hasVariant(variants, "color", "light")
             })}
           >

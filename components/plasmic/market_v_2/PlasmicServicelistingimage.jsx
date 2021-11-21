@@ -54,6 +54,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           hasGap={true}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -61,7 +62,11 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(defaultcss.all, sty.serviceListingNavbar)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.serviceListingNavbar
+            )}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
@@ -84,14 +89,22 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__lc1Vo)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__lc1Vo
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionImageBlock"}
               data-plasmic-override={overrides.questionImageBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionImageBlock)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.questionImageBlock
+              )}
             >
               <CardQuestionServiceListing
                 data-plasmic-name={"cardQuestionServiceListing"}
@@ -104,6 +117,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__r5CWc
                     )}
@@ -116,6 +130,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__ir20P
                   )}
@@ -127,7 +142,11 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__wbEqK)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__wbEqK
+                )}
               >
                 <ImageInput
                   data-plasmic-name={"servicePrimaryImageInput"}
@@ -141,7 +160,11 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__uh1A1)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__uh1A1
+                  )}
                 >
                   <ImageInput
                     data-plasmic-name={"serviceImageInputOne"}

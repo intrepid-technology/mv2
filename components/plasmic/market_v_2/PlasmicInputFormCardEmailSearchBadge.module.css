@@ -170,7 +170,7 @@
 .freeBox__search {
   width: 360px;
 }
-.textbox__bjqT {
+.textInput__bjqT {
   width: 100%;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -224,11 +224,11 @@
   margin-left: 4px;
   margin-top: 0px;
 }
-.textbox {
+.textInput {
   width: 180px;
   flex-shrink: 0;
 }
-.textbox__search {
+.textInput__search {
   width: 360px;
   height: 32px;
   padding-left: 4px;

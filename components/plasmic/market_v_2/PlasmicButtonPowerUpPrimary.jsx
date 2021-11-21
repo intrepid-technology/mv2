@@ -33,19 +33,28 @@ function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.button,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navbarListButtonTextParent2"}
         data-plasmic-override={overrides.navbarListButtonTextParent2}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.navbarListButtonTextParent2)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.navbarListButtonTextParent2
+        )}
       >
         <BoostIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
           role={"img"}
         />
 
@@ -54,6 +63,7 @@ function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.navbarListButtonText2}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.navbarListButtonText2
           )}

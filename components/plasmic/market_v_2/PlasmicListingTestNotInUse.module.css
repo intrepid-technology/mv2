@@ -71,6 +71,11 @@
     margin-top: 32px;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .text__yeXyz {
+    color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  }
+}
 .text__dejis {
   line-height: 1.4;
   font-weight: 700;

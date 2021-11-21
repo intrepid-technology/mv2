@@ -40,17 +40,30 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"svgIconParent"}
         data-plasmic-override={overrides.svgIconParent}
-        className={classNames(defaultcss.all, sty.svgIconParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.svgIconParent
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon122Icon
-              className={classNames(defaultcss.all, sty.svg__hCJgK)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__hCJgK
+              )}
               role={"img"}
             />
           ),
@@ -64,12 +77,20 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
         data-plasmic-name={"numberValuePercentParent"}
         data-plasmic-override={overrides.numberValuePercentParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.numberValuePercentParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.numberValuePercentParent
+        )}
       >
         <div
           data-plasmic-name={"numberValueParent"}
           data-plasmic-override={overrides.numberValueParent}
-          className={classNames(defaultcss.all, sty.numberValueParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.numberValueParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "5",
@@ -81,7 +102,11 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
         <div
           data-plasmic-name={"percentParent"}
           data-plasmic-override={overrides.percentParent}
-          className={classNames(defaultcss.all, sty.percentParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.percentParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "%",
@@ -94,7 +119,11 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
       <div
         data-plasmic-name={"featureValuePropTextParent"}
         data-plasmic-override={overrides.featureValuePropTextParent}
-        className={classNames(defaultcss.all, sty.featureValuePropTextParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.featureValuePropTextParent
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Service rate on earned income",

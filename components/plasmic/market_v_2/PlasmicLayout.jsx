@@ -42,7 +42,12 @@ function PlasmicLayout__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <Navbar
         data-plasmic-name={"navbar"}
@@ -74,7 +79,7 @@ function PlasmicLayout__RenderFunc(props) {
       <div
         data-plasmic-name={"body"}
         data-plasmic-override={overrides.body}
-        className={classNames(defaultcss.all, sty.body, {
+        className={classNames(defaultcss.all, projectcss.all, sty.body, {
           [sty.body__global_layout_sidebarOpen]: hasVariant(
             globalVariants,
             "layout",
@@ -85,7 +90,7 @@ function PlasmicLayout__RenderFunc(props) {
         <div
           data-plasmic-name={"main"}
           data-plasmic-override={overrides.main}
-          className={classNames(defaultcss.all, sty.main, {
+          className={classNames(defaultcss.all, projectcss.all, sty.main, {
             [sty.main__global_layout_sidebarOpen]: hasVariant(
               globalVariants,
               "layout",

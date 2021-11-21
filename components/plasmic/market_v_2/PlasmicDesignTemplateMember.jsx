@@ -64,6 +64,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -106,7 +107,11 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               data-plasmic-name={"sectionAboutDetails"}
               data-plasmic-override={overrides.sectionAboutDetails}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.sectionAboutDetails)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.sectionAboutDetails
+              )}
             >
               {(
                 hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -150,6 +155,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.memberTeamConnectionsSection
             )}
           >
@@ -179,6 +185,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionMemberProfileIndustrySocial
             )}
           >
@@ -232,6 +239,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionProfileMemberSimilarMembers
               )}
             >
@@ -274,6 +282,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionProfileMemberPeopleAlsoViewed
               )}
             >

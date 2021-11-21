@@ -48,6 +48,7 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.a,
+        projectcss.a,
         projectcss.root_reset,
         sty.menuIconListItemLink,
         {
@@ -74,18 +75,27 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         data-plasmic-name={"iconTextParent"}
         data-plasmic-override={overrides.iconTextParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.iconTextParent, {
-          [sty.iconTextParent__selected]: hasVariant(
-            variants,
-            "selected",
-            "selected"
-          )
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.iconTextParent,
+          {
+            [sty.iconTextParent__selected]: hasVariant(
+              variants,
+              "selected",
+              "selected"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <OptionalFixedBrandColorIcon
-              className={classNames(defaultcss.all, sty.svg__wfdfm)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__wfdfm
+              )}
               role={"img"}
             />
           ),
@@ -109,13 +119,18 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         <div
           data-plasmic-name={"navTextParent"}
           data-plasmic-override={overrides.navTextParent}
-          className={classNames(defaultcss.all, sty.navTextParent, {
-            [sty.navTextParent__selected]: hasVariant(
-              variants,
-              "selected",
-              "selected"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.navTextParent,
+            {
+              [sty.navTextParent__selected]: hasVariant(
+                variants,
+                "selected",
+                "selected"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Item",

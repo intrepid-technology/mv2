@@ -37,20 +37,26 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"header"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.header)}
+        className={classNames(defaultcss.all, projectcss.all, sty.header)}
       >
         <div
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text
           )}
@@ -66,7 +72,11 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <NotificationIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(defaultcss.all, sty.navImage2)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.navImage2
+            )}
             role={"img"}
           />
         }
@@ -81,7 +91,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <SettingsIcon
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
-            className={classNames(defaultcss.all, sty.navImage)}
+            className={classNames(defaultcss.all, projectcss.all, sty.navImage)}
             role={"img"}
           />
         }

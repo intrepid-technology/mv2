@@ -120,7 +120,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .valuePercentParent23242 {
@@ -158,7 +158,7 @@
 .slotTargetSlot {
   font-size: 14px;
   font-weight: 600;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
 .freeBox___2Ntr {
@@ -170,6 +170,6 @@
 .slotTargetChildren {
   font-size: 14px;
   font-weight: 600;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }

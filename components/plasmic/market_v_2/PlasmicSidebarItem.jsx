@@ -40,9 +40,13 @@ function PlasmicSidebarItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__selected]: hasVariant(variants, "selected", "selected")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__selected]: hasVariant(variants, "selected", "selected") }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -50,12 +54,16 @@ function PlasmicSidebarItem__RenderFunc(props) {
       <div
         data-plasmic-name={"iconWrapper"}
         data-plasmic-override={overrides.iconWrapper}
-        className={classNames(defaultcss.all, sty.iconWrapper)}
+        className={classNames(defaultcss.all, projectcss.all, sty.iconWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <svg
-              className={classNames(defaultcss.all, sty.svg__gSqwe)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__gSqwe
+              )}
               role={"img"}
             />
           ),

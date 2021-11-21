@@ -42,30 +42,36 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_headline]: hasVariant(variants, "color", "headline"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__color_light_size__14]:
-          hasVariant(variants, "color", "light") &&
-          hasVariant(variants, "size", "_14"),
-        [sty.root__color_light_size__16]:
-          hasVariant(variants, "color", "light") &&
-          hasVariant(variants, "size", "_16"),
-        [sty.root__color_light_size__18]:
-          hasVariant(variants, "color", "light") &&
-          hasVariant(variants, "size", "_18"),
-        [sty.root__color_light_size__24]:
-          hasVariant(variants, "color", "light") &&
-          hasVariant(variants, "size", "_24"),
-        [sty.root__size__14]: hasVariant(variants, "size", "_14"),
-        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-        [sty.root__size__24]: hasVariant(variants, "size", "_24"),
-        [sty.root__size__32]: hasVariant(variants, "size", "_32"),
-        [sty.root__size__40]: hasVariant(variants, "size", "_40")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+          [sty.root__color_headline]: hasVariant(variants, "color", "headline"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light"),
+          [sty.root__color_light_size__14]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_14"),
+          [sty.root__color_light_size__16]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_16"),
+          [sty.root__color_light_size__18]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_18"),
+          [sty.root__color_light_size__24]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_24"),
+          [sty.root__size__14]: hasVariant(variants, "size", "_14"),
+          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
+          [sty.root__size__24]: hasVariant(variants, "size", "_24"),
+          [sty.root__size__32]: hasVariant(variants, "size", "_32"),
+          [sty.root__size__40]: hasVariant(variants, "size", "_40")
+        }
+      )}
       component={Link}
       href={args.destination}
       id={args.id}
@@ -74,7 +80,7 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Text link",

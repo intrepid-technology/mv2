@@ -34,12 +34,24 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__qK279)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__qK279
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__a3KQy
           )}
@@ -48,10 +60,17 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__oogN2)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__oogN2
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__mA29P
           )}
@@ -60,10 +79,17 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__oZw0L)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__oZw0L
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__h0SDq
           )}
@@ -72,10 +98,17 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__zAdKr)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__zAdKr
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__sJHmB
           )}
@@ -84,10 +117,17 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__pxwwt)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__pxwwt
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__mlLbQ
           )}
@@ -96,10 +136,17 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox___3BaDh)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___3BaDh
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__mms1R
           )}

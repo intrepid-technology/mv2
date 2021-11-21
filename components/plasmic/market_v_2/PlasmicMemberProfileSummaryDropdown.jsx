@@ -36,12 +36,21 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"userAvatarVerificationBadge"}
         data-plasmic-override={overrides.userAvatarVerificationBadge}
-        className={classNames(defaultcss.all, sty.userAvatarVerificationBadge)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.userAvatarVerificationBadge
+        )}
       >
         <UserAvatar
           data-plasmic-name={"userAvatar"}
@@ -51,7 +60,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar182"}
               data-plasmic-override={overrides.navUserAvatar182}
               alt={""}
-              className={classNames(defaultcss.img, sty.navUserAvatar182)}
+              className={classNames(
+                defaultcss.img,
+                projectcss.img,
+                sty.navUserAvatar182
+              )}
               src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
             />
           }
@@ -60,7 +73,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar242"}
               data-plasmic-override={overrides.navUserAvatar242}
               alt={""}
-              className={classNames(defaultcss.img, sty.navUserAvatar242)}
+              className={classNames(
+                defaultcss.img,
+                projectcss.img,
+                sty.navUserAvatar242
+              )}
               src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
             />
           }
@@ -69,7 +86,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar32"}
               data-plasmic-override={overrides.navUserAvatar32}
               alt={""}
-              className={classNames(defaultcss.img, sty.navUserAvatar32)}
+              className={classNames(
+                defaultcss.img,
+                projectcss.img,
+                sty.navUserAvatar32
+              )}
               src={
                 "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
               }

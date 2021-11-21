@@ -1008,7 +1008,7 @@
 .slotTargetServiceDescription {
   font-size: 14px;
   font-weight: 400;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1.4;
 }
 .slotTargetServiceDescription__size__270X270 {
@@ -1269,7 +1269,7 @@
 .viewNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .heartButtonCount {
   display: inline-flex;
@@ -1331,7 +1331,7 @@
 .heartNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkButtonCount {
   display: inline-flex;
@@ -1398,6 +1398,6 @@
   font-size: 12px;
   width: auto;
   height: auto;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   display: inline-block;
 }

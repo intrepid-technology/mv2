@@ -1,7 +1,7 @@
 .root {
   display: flex;
   flex-direction: column;
-  width: 270px;
+  width: 360px;
   height: 100%;
   position: relative;
   background: #ffffff;
@@ -82,14 +82,6 @@
   margin-top: 16px;
 }
 .partnerButtonHeader:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.partnerCommunityScores:global(.__wab_instance) {
-  position: relative;
-}
-.partnerListingScores:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

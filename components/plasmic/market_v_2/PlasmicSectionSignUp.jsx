@@ -44,25 +44,38 @@ function PlasmicSectionSignUp__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <div
           data-plasmic-name={"signUpFormContainerDiv"}
           data-plasmic-override={overrides.signUpFormContainerDiv}
-          className={classNames(defaultcss.all, sty.signUpFormContainerDiv)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.signUpFormContainerDiv
+          )}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"signUpHeadlineDiv"}
             data-plasmic-override={overrides.signUpHeadlineDiv}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.signUpHeadlineDiv)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.signUpHeadlineDiv
+            )}
           >
             <p.PlasmicLink
               data-plasmic-name={"svgLinkDiv"}
               data-plasmic-override={overrides.svgLinkDiv}
-              className={classNames(defaultcss.a, sty.svgLinkDiv)}
+              className={classNames(defaultcss.a, projectcss.a, sty.svgLinkDiv)}
               component={Link}
               href={"/"}
               platform={"nextjs"}
@@ -70,7 +83,7 @@ function PlasmicSectionSignUp__RenderFunc(props) {
               <Icon43Icon
                 data-plasmic-name={"svg"}
                 data-plasmic-override={overrides.svg}
-                className={classNames(defaultcss.all, sty.svg)}
+                className={classNames(defaultcss.all, projectcss.all, sty.svg)}
                 role={"img"}
               />
             </p.PlasmicLink>
@@ -80,6 +93,7 @@ function PlasmicSectionSignUp__RenderFunc(props) {
               data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text
               )}

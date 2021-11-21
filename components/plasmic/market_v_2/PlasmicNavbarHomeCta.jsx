@@ -42,9 +42,13 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__color_dark]: hasVariant(variants, "color", "dark") }
+      )}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
@@ -68,7 +72,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
@@ -106,6 +110,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__hyKmE,
                     {
@@ -148,6 +153,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__nAyJs
                   )}

@@ -39,10 +39,16 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__720]: hasVariant(variants, "size", "_720")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+          [sty.root__size__720]: hasVariant(variants, "size", "_720")
+        }
+      )}
     >
       {(hasVariant(variants, "size", "_720") ? false : true) ? (
         <p.Stack
@@ -50,7 +56,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           data-plasmic-name={"textBody2"}
           data-plasmic-override={overrides.textBody2}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.textBody2, {
+          className={classNames(defaultcss.all, projectcss.all, sty.textBody2, {
             [sty.textBody2__size__270]: hasVariant(variants, "size", "_270"),
             [sty.textBody2__size__360]: hasVariant(variants, "size", "_360"),
             [sty.textBody2__size__720]: hasVariant(variants, "size", "_720")
@@ -59,6 +65,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__iy1X,
               {
@@ -97,6 +104,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__khuIq,
               {
@@ -120,6 +128,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__tSMpz,
               {
@@ -143,6 +152,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__lEl62,
               {
@@ -175,6 +185,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__ftHuv,
               {
@@ -198,6 +209,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__y4WL,
               {
@@ -219,17 +231,23 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           </div>
 
           <div
-            className={classNames(defaultcss.all, sty.freeBox__a1ViY, {
-              [sty.freeBox__size__360__a1ViYqvLrI]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__a1ViY,
+              {
+                [sty.freeBox__size__360__a1ViYqvLrI]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
+                )
+              }
+            )}
           >
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__rshCx,
                 {
@@ -252,14 +270,25 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           data-plasmic-name={"textBody720"}
           data-plasmic-override={overrides.textBody720}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.textBody720, {
-            [sty.textBody720__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.textBody720__size__720]: hasVariant(variants, "size", "_720")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textBody720,
+            {
+              [sty.textBody720__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              ),
+
+              [sty.textBody720__size__720]: hasVariant(variants, "size", "_720")
+            }
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__g3X6M,
               {
@@ -286,6 +315,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__lE5IM
             )}
@@ -296,6 +326,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__svY
             )}
@@ -306,6 +337,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text___6YcQd
             )}
@@ -325,6 +357,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text___1IZ8J
             )}
@@ -335,6 +368,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__luQgD,
               {
@@ -353,17 +387,23 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
 
           {(hasVariant(variants, "size", "_720") ? true : false) ? (
             <div
-              className={classNames(defaultcss.all, sty.freeBox__v3AWd, {
-                [sty.freeBox__size__720__v3AWDtUtJd]: hasVariant(
-                  variants,
-                  "size",
-                  "_720"
-                )
-              })}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__v3AWd,
+                {
+                  [sty.freeBox__size__720__v3AWDtUtJd]: hasVariant(
+                    variants,
+                    "size",
+                    "_720"
+                  )
+                }
+              )}
             >
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__fbeOl
                 )}

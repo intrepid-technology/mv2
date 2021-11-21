@@ -38,32 +38,42 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__height__32]: hasVariant(variants, "height", "_32"),
-        [sty.root__height__36]: hasVariant(variants, "height", "_36"),
-        [sty.root__height__40]: hasVariant(variants, "height", "_40"),
-        [sty.root__height__48]: hasVariant(variants, "height", "_48"),
-        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-        [sty.root__width__540]: hasVariant(variants, "width", "_540")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__height__32]: hasVariant(variants, "height", "_32"),
+          [sty.root__height__36]: hasVariant(variants, "height", "_36"),
+          [sty.root__height__40]: hasVariant(variants, "height", "_40"),
+          [sty.root__height__48]: hasVariant(variants, "height", "_48"),
+          [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.root__width__360]: hasVariant(variants, "width", "_360"),
+          [sty.root__width__540]: hasVariant(variants, "width", "_540")
+        }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <SearchPlusIcon
-          className={classNames(defaultcss.all, sty.svg__epgKk)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__epgKk)}
           role={"img"}
         />
       </div>
 
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"textInput"}
+        data-plasmic-override={overrides.textInput ?? overrides.textbox}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.textInput
+        )}
         placeholder={""}
         size={1}
         type={"text"}
@@ -75,10 +85,10 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
         data-plasmic-name={"button"}
         data-plasmic-override={overrides.button}
         hasGap={true}
-        className={classNames(defaultcss.button, sty.button)}
+        className={classNames(defaultcss.button, projectcss.button, sty.button)}
       >
         <PlusBoldIcon
-          className={classNames(defaultcss.all, sty.svg__hYtaT)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__hYtaT)}
           role={"img"}
         />
 
@@ -87,6 +97,7 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
           data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text
           )}
@@ -99,9 +110,9 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "textbox", "button", "text"],
+  root: ["root", "freeBox", "textInput", "button", "text"],
   freeBox: ["freeBox"],
-  textbox: ["textbox"],
+  textInput: ["textInput"],
   button: ["button", "text"],
   text: ["text"]
 };
@@ -138,7 +149,7 @@ export const PlasmicSearchbarFilter = Object.assign(
   {
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     button: makeNodeComponent("button"),
     text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicSearchbarFilter

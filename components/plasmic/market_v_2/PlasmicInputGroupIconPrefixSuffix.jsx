@@ -42,26 +42,42 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         {(hasVariant(variants, "label", "label") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__oQwDj, {
-              [sty.freeBox__label__oQwDjhEbzp]: hasVariant(
-                variants,
-                "label",
-                "label"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__oQwDj,
+              {
+                [sty.freeBox__label__oQwDjhEbzp]: hasVariant(
+                  variants,
+                  "label",
+                  "label"
+                )
+              }
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__udHm3)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__udHm3
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "Label",
                 value: args.children,
@@ -98,28 +114,38 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__e7Fb, {
-              [sty.freeBox__description__e7FbRxNrc]: hasVariant(
-                variants,
-                "description",
-                "description"
-              ),
-
-              [sty.freeBox__label__e7FbHEbzp]: hasVariant(
-                variants,
-                "label",
-                "label"
-              )
-            })}
-          >
-            <div
-              className={classNames(defaultcss.all, sty.freeBox__jGArw, {
-                [sty.freeBox__description__jGArwrxNrc]: hasVariant(
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__e7Fb,
+              {
+                [sty.freeBox__description__e7FbRxNrc]: hasVariant(
                   variants,
                   "description",
                   "description"
+                ),
+
+                [sty.freeBox__label__e7FbHEbzp]: hasVariant(
+                  variants,
+                  "label",
+                  "label"
                 )
-              })}
+              }
+            )}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__jGArw,
+                {
+                  [sty.freeBox__description__jGArwrxNrc]: hasVariant(
+                    variants,
+                    "description",
+                    "description"
+                  )
+                }
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Description",

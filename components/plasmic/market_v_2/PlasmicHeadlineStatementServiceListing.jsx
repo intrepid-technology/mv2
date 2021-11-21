@@ -34,10 +34,27 @@ function PlasmicHeadlineStatementServiceListing__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__g9O1R)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__hF6UG)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__g9O1R
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__hF6UG
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Lets get started with your listing.",
             value: args.children,

@@ -24,7 +24,7 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionHowItWorks.module.css"; // plasmic-import: s37w-cXOVAT/css
 import Icon80Icon from "./icons/PlasmicIcon__Icon80"; // plasmic-import: D324HBXmDd/icon
-import MemberAddIcon from "./icons/PlasmicIcon__MemberAdd"; // plasmic-import: FGYq1z2nvF/icon
+import MemberPartnerAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 import Icon88Icon from "./icons/PlasmicIcon__Icon88"; // plasmic-import: l8RMAH59eK/icon
 
 export const PlasmicSectionHowItWorks__VariantProps = new Array();
@@ -45,12 +45,22 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          defaultcss.__wab_text,
+          sty.text
+        )}
       >
         {"How it works"}
       </div>
@@ -60,7 +70,7 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <CardValueProposition
           background={"bgLightB"}
@@ -71,7 +81,11 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
           headline={"Setup a profile"}
           svg={
             <Icon80Icon
-              className={classNames(defaultcss.all, sty.svg__ihrsS)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__ihrsS
+              )}
               role={"img"}
             />
           }
@@ -88,8 +102,12 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
           )}
           headline={"Invite your team"}
           svg={
-            <MemberAddIcon
-              className={classNames(defaultcss.all, sty.svg___3UCI)}
+            <MemberPartnerAddIcon
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg___3UCI
+              )}
               role={"img"}
             />
           }
@@ -105,7 +123,11 @@ function PlasmicSectionHowItWorks__RenderFunc(props) {
           headline={"Find products & services"}
           svg={
             <Icon88Icon
-              className={classNames(defaultcss.all, sty.svg__h8KeO)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__h8KeO
+              )}
               role={"img"}
             />
           }

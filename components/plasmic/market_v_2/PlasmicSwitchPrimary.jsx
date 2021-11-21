@@ -36,22 +36,33 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root___switch]: hasVariant(variants, "_switch", "_switch"),
-        [sty.root__color_brand__switch]:
-          hasVariant(variants, "color", "brand") &&
-          hasVariant(variants, "_switch", "_switch"),
-        [sty.root__disabled_closed]: hasVariant(variants, "disabled", "closed"),
-        [sty.root__disabled_open]: hasVariant(variants, "disabled", "open"),
-        [sty.root__disabled_open_color_brand]:
-          hasVariant(variants, "disabled", "open") &&
-          hasVariant(variants, "color", "brand")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root___switch]: hasVariant(variants, "_switch", "_switch"),
+          [sty.root__color_brand__switch]:
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "_switch", "_switch"),
+          [sty.root__disabled_closed]: hasVariant(
+            variants,
+            "disabled",
+            "closed"
+          ),
+
+          [sty.root__disabled_open]: hasVariant(variants, "disabled", "open"),
+          [sty.root__disabled_open_color_brand]:
+            hasVariant(variants, "disabled", "open") &&
+            hasVariant(variants, "color", "brand")
+        }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox, {
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
           [sty.freeBox___switch]: hasVariant(variants, "_switch", "_switch"),
           [sty.freeBox__disabled_closed]: hasVariant(
             variants,

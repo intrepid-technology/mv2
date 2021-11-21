@@ -35,23 +35,32 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__close]: hasVariant(variants, "close", "close")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__close]: hasVariant(variants, "close", "close") }
+      )}
     >
       <button
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.button, sty.parent, {
-          [sty.parent__close]: hasVariant(variants, "close", "close"),
-          [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.parent__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.parent__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.parent__size__48]: hasVariant(variants, "size", "_48")
-        })}
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.parent,
+          {
+            [sty.parent__close]: hasVariant(variants, "close", "close"),
+            [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
+            [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
+            [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
+            [sty.parent__size__36]: hasVariant(variants, "size", "_36"),
+            [sty.parent__size__40]: hasVariant(variants, "size", "_40"),
+            [sty.parent__size__48]: hasVariant(variants, "size", "_48")
+          }
+        )}
       >
         <p.PlasmicIcon
           data-plasmic-name={"svg"}
@@ -59,7 +68,7 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
           PlasmicIconType={
             hasVariant(variants, "close", "close") ? Icon170Icon : Icon161Icon
           }
-          className={classNames(defaultcss.all, sty.svg, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
             [sty.svg__close]: hasVariant(variants, "close", "close")
           })}
           role={"img"}

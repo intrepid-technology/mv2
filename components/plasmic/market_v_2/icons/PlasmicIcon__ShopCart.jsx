@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon57Icon(props) {
+export function ShopCartIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -32,5 +32,5 @@ export function Icon57Icon(props) {
   );
 }
 
-export default Icon57Icon;
+export default ShopCartIcon;
 /* prettier-ignore-end */

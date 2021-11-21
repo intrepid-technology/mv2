@@ -365,7 +365,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .slotTargetText__type_outline {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetText__type_primary_color_light {
   color: #666666 /* plasmic-token: SR1GpeFlc */;
@@ -486,7 +486,7 @@
   line-height: 1;
 }
 .root:hover .slotTargetText {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root__type_outline:hover .slotTargetText__type_outline {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;

@@ -38,6 +38,7 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         projectcss.root_reset,
         sty.accountAvatar,
         {
@@ -64,7 +65,11 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
       {p.renderPlasmicSlot({
         defaultContents: (
           <Icon126Icon
-            className={classNames(defaultcss.all, sty.svg__jjCee)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svg__jjCee
+            )}
             role={"img"}
           />
         ),

@@ -83,7 +83,7 @@
   width: 100%;
   min-width: 0;
 }
-.textbox {
+.textInput {
   width: 100%;
   height: 100%;
   line-height: 1;
@@ -95,23 +95,23 @@
   border-width: 1px;
   border-style: none;
 }
-.textbox__type_secondary {
+.textInput__type_secondary {
   background: #ffffff;
 }
-.textbox__adornment_start {
+.textInput__adornment_start {
   border-radius: 0px 2px 2px 0px;
 }
-.textbox__adornment_end {
+.textInput__adornment_end {
   border-radius: 2px 0px 0px 2px;
 }
-.textbox__adornment_start_adornment_end {
+.textInput__adornment_start_adornment_end {
   border-radius: 0px;
 }
-.root:hover .textbox {
+.root:hover .textInput {
   border-width: 2px;
   border-color: #333333 /* plasmic-token: _aCbIOo4N */;
 }
-.root:focus-within .textbox {
+.root:focus-within .textInput {
   outline: none;
   border-width: 2px;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;

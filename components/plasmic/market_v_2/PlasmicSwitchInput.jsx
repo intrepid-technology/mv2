@@ -35,18 +35,28 @@ function PlasmicSwitchInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__disabled]: hasVariant(variants, "disabled", "disabled"),
-        [sty.root__disabled_on]:
-          hasVariant(variants, "disabled", "disabled") &&
-          hasVariant(variants, "on", "on"),
-        [sty.root__on]: hasVariant(variants, "on", "on")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__disabled]: hasVariant(variants, "disabled", "disabled"),
+          [sty.root__disabled_on]:
+            hasVariant(variants, "disabled", "disabled") &&
+            hasVariant(variants, "on", "on"),
+          [sty.root__on]: hasVariant(variants, "on", "on")
+        }
+      )}
     >
       <div
         data-plasmic-name={"contentWrapper"}
         data-plasmic-override={overrides.contentWrapper}
-        className={classNames(defaultcss.all, sty.contentWrapper)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.contentWrapper
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Enter some text",
@@ -57,7 +67,7 @@ function PlasmicSwitchInput__RenderFunc(props) {
       <div
         data-plasmic-name={"background"}
         data-plasmic-override={overrides.background}
-        className={classNames(defaultcss.all, sty.background, {
+        className={classNames(defaultcss.all, projectcss.all, sty.background, {
           [sty.background__disabled]: hasVariant(
             variants,
             "disabled",
@@ -73,7 +83,7 @@ function PlasmicSwitchInput__RenderFunc(props) {
         <div
           data-plasmic-name={"circle"}
           data-plasmic-override={overrides.circle}
-          className={classNames(defaultcss.all, sty.circle, {
+          className={classNames(defaultcss.all, projectcss.all, sty.circle, {
             [sty.circle__disabled]: hasVariant(
               variants,
               "disabled",

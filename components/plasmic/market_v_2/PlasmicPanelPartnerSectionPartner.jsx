@@ -39,18 +39,24 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___8Dh5C
           )}
@@ -66,7 +72,11 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
           <UserIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(defaultcss.all, sty.navImage2)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.navImage2
+            )}
             role={"img"}
           />
         }
@@ -81,7 +91,11 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
           <TeamPartnersIcon
             data-plasmic-name={"navImage3"}
             data-plasmic-override={overrides.navImage3}
-            className={classNames(defaultcss.all, sty.navImage3)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.navImage3
+            )}
             role={"img"}
           />
         }
@@ -96,7 +110,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
           <WalletEarningsIcon
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
-            className={classNames(defaultcss.all, sty.navImage)}
+            className={classNames(defaultcss.all, projectcss.all, sty.navImage)}
             role={"img"}
           />
         }
@@ -116,6 +130,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__r0JTu
           )}

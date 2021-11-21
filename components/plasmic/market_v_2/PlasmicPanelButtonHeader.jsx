@@ -16,8 +16,8 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import PanelButtonNewListing from "../../PanelButtonNewListing"; // plasmic-import: dNsNyn-hp9/component
-import PanelButtonPowerUp from "../../PanelButtonPowerUp"; // plasmic-import: cwyuvAY7ua/component
+import PanelButtonPrimary from "../../PanelButtonPrimary"; // plasmic-import: dNsNyn-hp9/component
+import PanelButtonSecondary from "../../PanelButtonSecondary"; // plasmic-import: cwyuvAY7ua/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -37,9 +37,14 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <PanelButtonNewListing
+      <PanelButtonPrimary
         data-plasmic-name={"partnerNewListing"}
         data-plasmic-override={overrides.partnerNewListing}
         className={classNames("__wab_instance", sty.partnerNewListing, {
@@ -58,7 +63,7 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
         trigger={""}
       />
 
-      <PanelButtonPowerUp
+      <PanelButtonSecondary
         data-plasmic-name={"partnerPowerUp"}
         data-plasmic-override={overrides.partnerPowerUp}
         className={classNames("__wab_instance", sty.partnerPowerUp, {

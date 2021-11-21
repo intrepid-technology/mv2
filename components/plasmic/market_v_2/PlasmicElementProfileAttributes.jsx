@@ -41,21 +41,37 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"profileIndustryParent"}
         data-plasmic-override={overrides.profileIndustryParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.profileIndustryParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.profileIndustryParent
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__ksE53)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__ksE53
+          )}
+        >
           <div
             data-plasmic-name={"industry"}
             data-plasmic-override={overrides.industry}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.industry
             )}
@@ -69,7 +85,11 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
           data-plasmic-name={"textParent6"}
           data-plasmic-override={overrides.textParent6}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.textParent6)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textParent6
+          )}
         >
           <ChipBadgeDisplay
             className={classNames(
@@ -100,14 +120,25 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
         data-plasmic-name={"profileCategoriesParent"}
         data-plasmic-override={overrides.profileCategoriesParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.profileCategoriesParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.profileCategoriesParent
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__jDrCu)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__jDrCu
+          )}
+        >
           <div
             data-plasmic-name={"categories"}
             data-plasmic-override={overrides.categories}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.categories
             )}
@@ -121,7 +152,11 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
           data-plasmic-name={"categoryBadgeParent"}
           data-plasmic-override={overrides.categoryBadgeParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.categoryBadgeParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.categoryBadgeParent
+          )}
         >
           <ChipBadgeDisplay
             className={classNames(
@@ -163,18 +198,27 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
         data-plasmic-name={"profileSkillsParent"}
         data-plasmic-override={overrides.profileSkillsParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.profileSkillsParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.profileSkillsParent
+        )}
       >
         <div
           data-plasmic-name={"skillsTextparent"}
           data-plasmic-override={overrides.skillsTextparent}
-          className={classNames(defaultcss.all, sty.skillsTextparent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.skillsTextparent
+          )}
         >
           <div
             data-plasmic-name={"skills"}
             data-plasmic-override={overrides.skills}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.skills
             )}
@@ -188,7 +232,11 @@ function PlasmicElementProfileAttributes__RenderFunc(props) {
           data-plasmic-name={"skillsBadgeParent"}
           data-plasmic-override={overrides.skillsBadgeParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.skillsBadgeParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.skillsBadgeParent
+          )}
         >
           <ChipBadgeDisplay
             className={classNames(

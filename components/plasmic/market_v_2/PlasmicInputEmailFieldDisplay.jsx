@@ -32,19 +32,28 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         <input
-          data-plasmic-name={"textbox"}
-          data-plasmic-override={overrides.textbox}
-          className={classNames(defaultcss.input, sty.textbox)}
+          data-plasmic-name={"textInput"}
+          data-plasmic-override={overrides.textInput ?? overrides.textbox}
+          className={classNames(
+            defaultcss.input,
+            projectcss.input,
+            sty.textInput
+          )}
           placeholder={"Enter your..."}
           size={1}
           type={"text"}
@@ -54,7 +63,11 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"button"}
           data-plasmic-override={overrides.button}
-          className={classNames(defaultcss.button, sty.button)}
+          className={classNames(
+            defaultcss.button,
+            projectcss.button,
+            sty.button
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Click Me",
@@ -68,9 +81,9 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "textbox", "button"],
-  parent: ["parent", "textbox", "button"],
-  textbox: ["textbox"],
+  root: ["root", "parent", "textInput", "button"],
+  parent: ["parent", "textInput", "button"],
+  textInput: ["textInput"],
   button: ["button"]
 };
 
@@ -106,7 +119,7 @@ export const PlasmicInputEmailFieldDisplay = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     button: makeNodeComponent("button"),
     // Metadata about props expected for PlasmicInputEmailFieldDisplay
     internalVariantProps: PlasmicInputEmailFieldDisplay__VariantProps,

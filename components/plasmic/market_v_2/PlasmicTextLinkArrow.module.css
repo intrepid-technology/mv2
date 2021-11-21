@@ -88,7 +88,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_dark:hover .slotTargetSvgLeft__color_dark {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_brand:hover .slotTargetSvgLeft__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
@@ -97,7 +97,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   min-width: 0;
   min-height: 0;
 }
@@ -146,7 +146,7 @@
   font-weight: 500;
 }
 .root:hover .slotTargetChildren {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_light:hover .slotTargetChildren__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
@@ -193,7 +193,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_dark:hover .slotTargetSvgRight__color_dark {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_brand:hover .slotTargetSvgRight__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
@@ -202,7 +202,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   min-width: 0;
   min-height: 0;
 }

@@ -51,13 +51,18 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent
+      )}
     >
       {(hasVariant(variants, "integer", "noChange") ? false : true) ? (
         <div
           data-plasmic-name={"svgparent"}
           data-plasmic-override={overrides.svgparent}
-          className={classNames(defaultcss.all, sty.svgparent, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svgparent, {
             [sty.svgparent__integer_minus]: hasVariant(
               variants,
               "integer",
@@ -87,7 +92,11 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <OptionalFixedBrandColorIcon
-                    className={classNames(defaultcss.all, sty.svg__m0IrF)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__m0IrF
+                    )}
                     role={"img"}
                   />
                 ),
@@ -99,7 +108,11 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <MinusBoldIcon
-                    className={classNames(defaultcss.all, sty.svg___2OLc)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg___2OLc
+                    )}
                     role={"img"}
                   />
                 ),
@@ -117,7 +130,11 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <PlusBoldIcon
-                    className={classNames(defaultcss.all, sty.svg__aFcD)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__aFcD
+                    )}
                     role={"img"}
                   />
                 ),
@@ -133,30 +150,39 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
         data-plasmic-name={"numberValuePercentParent"}
         data-plasmic-override={overrides.numberValuePercentParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.numberValuePercentParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.numberValuePercentParent
+        )}
       >
         <div
           data-plasmic-name={"numberValueParent"}
           data-plasmic-override={overrides.numberValueParent}
-          className={classNames(defaultcss.all, sty.numberValueParent, {
-            [sty.numberValueParent__integer_minus]: hasVariant(
-              variants,
-              "integer",
-              "minus"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.numberValueParent,
+            {
+              [sty.numberValueParent__integer_minus]: hasVariant(
+                variants,
+                "integer",
+                "minus"
+              ),
 
-            [sty.numberValueParent__integer_noChange]: hasVariant(
-              variants,
-              "integer",
-              "noChange"
-            ),
+              [sty.numberValueParent__integer_noChange]: hasVariant(
+                variants,
+                "integer",
+                "noChange"
+              ),
 
-            [sty.numberValueParent__integer_plus]: hasVariant(
-              variants,
-              "integer",
-              "plus"
-            )
-          })}
+              [sty.numberValueParent__integer_plus]: hasVariant(
+                variants,
+                "integer",
+                "plus"
+              )
+            }
+          )}
         >
           {(
             hasVariant(variants, "integer", "noChange")
@@ -172,6 +198,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nqe9N
                     )}
@@ -204,6 +231,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___3Hljv
                     )}
@@ -233,6 +261,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__zcvOc
                     )}
@@ -264,6 +293,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__inWg
                     )}
@@ -288,25 +318,30 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
         <div
           data-plasmic-name={"percentParent"}
           data-plasmic-override={overrides.percentParent}
-          className={classNames(defaultcss.all, sty.percentParent, {
-            [sty.percentParent__integer_minus]: hasVariant(
-              variants,
-              "integer",
-              "minus"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.percentParent,
+            {
+              [sty.percentParent__integer_minus]: hasVariant(
+                variants,
+                "integer",
+                "minus"
+              ),
 
-            [sty.percentParent__integer_noChange]: hasVariant(
-              variants,
-              "integer",
-              "noChange"
-            ),
+              [sty.percentParent__integer_noChange]: hasVariant(
+                variants,
+                "integer",
+                "noChange"
+              ),
 
-            [sty.percentParent__integer_plus]: hasVariant(
-              variants,
-              "integer",
-              "plus"
-            )
-          })}
+              [sty.percentParent__integer_plus]: hasVariant(
+                variants,
+                "integer",
+                "plus"
+              )
+            }
+          )}
         >
           {(
             hasVariant(variants, "integer", "noChange")
@@ -322,6 +357,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__qWu5
                     )}
@@ -358,6 +394,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__rQl
                     )}
@@ -394,6 +431,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__ioUwU
                     )}
@@ -432,6 +470,7 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___03RQv
                     )}

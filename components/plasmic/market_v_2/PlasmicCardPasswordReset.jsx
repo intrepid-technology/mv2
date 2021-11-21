@@ -41,19 +41,24 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         <p.PlasmicLink
           data-plasmic-name={"navLinkBack"}
           data-plasmic-override={overrides.navLinkBack}
-          className={classNames(defaultcss.a, sty.navLinkBack)}
+          className={classNames(defaultcss.a, projectcss.a, sty.navLinkBack)}
           component={Link}
           href={"/log-in"}
           platform={"nextjs"}
@@ -61,7 +66,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
           <Icon43Icon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg)}
+            className={classNames(defaultcss.all, projectcss.all, sty.svg)}
             role={"img"}
           />
         </p.PlasmicLink>
@@ -71,7 +76,11 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
           data-plasmic-name={"passwordReset"}
           data-plasmic-override={overrides.passwordReset}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.passwordReset)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.passwordReset
+          )}
         >
           <p.Stack
             as={"div"}
@@ -80,6 +89,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.headlineSubheadGroupParent
             )}
           >
@@ -88,6 +98,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               data-plasmic-override={overrides.headlineText}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.headlineText
               )}
@@ -98,7 +109,11 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
             <div
               data-plasmic-name={"textBodyParent"}
               data-plasmic-override={overrides.textBodyParent}
-              className={classNames(defaultcss.all, sty.textBodyParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.textBodyParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents:
@@ -114,20 +129,29 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
             data-plasmic-name={"emailButtonGroupParent"}
             data-plasmic-override={overrides.emailButtonGroupParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.emailButtonGroupParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.emailButtonGroupParent
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"emailParent"}
               data-plasmic-override={overrides.emailParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.emailParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.emailParent
+              )}
             >
               <label
                 data-plasmic-name={"emailLabel"}
                 data-plasmic-override={overrides.emailLabel}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.emailLabel
                 )}
@@ -138,7 +162,11 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               <input
                 data-plasmic-name={"registeredEmail"}
                 data-plasmic-override={overrides.registeredEmail}
-                className={classNames(defaultcss.input, sty.registeredEmail)}
+                className={classNames(
+                  defaultcss.input,
+                  projectcss.input,
+                  sty.registeredEmail
+                )}
                 placeholder={"enter your registered email address"}
                 size={1}
                 type={"text"}
@@ -157,6 +185,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
                 data-plasmic-override={overrides.text}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text
                 )}

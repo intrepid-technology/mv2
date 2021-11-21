@@ -47,14 +47,18 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__border]: hasVariant(variants, "border", "border")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__border]: hasVariant(variants, "border", "border") }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__border]: hasVariant(variants, "border", "border")
         })}
       >
@@ -63,7 +67,7 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
           data-plasmic-name={"mainCard"}
           data-plasmic-override={overrides.mainCard}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.mainCard, {
+          className={classNames(defaultcss.all, projectcss.all, sty.mainCard, {
             [sty.mainCard__border]: hasVariant(variants, "border", "border"),
             [sty.mainCard__subDescription]: hasVariant(
               variants,
@@ -77,16 +81,33 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
             data-plasmic-name={"headlineParent"}
             data-plasmic-override={overrides.headlineParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.headlineParent, {
-              [sty.headlineParent__subDescription]: hasVariant(
-                variants,
-                "subDescription",
-                "subDescription"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineParent,
+              {
+                [sty.headlineParent__subDescription]: hasVariant(
+                  variants,
+                  "subDescription",
+                  "subDescription"
+                )
+              }
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox___8FgC)}>
-              <div className={classNames(defaultcss.all, sty.freeBox__zGlE)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox___8FgC
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__zGlE
+                )}
+              >
                 {p.renderPlasmicSlot({
                   defaultContents: "Headline",
                   value: args.headline,
@@ -104,7 +125,11 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
             <div
               data-plasmic-name={"subheadParent"}
               data-plasmic-override={overrides.subheadParent}
-              className={classNames(defaultcss.all, sty.subheadParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.subheadParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
@@ -135,30 +160,40 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
         <div
           data-plasmic-name={"descriptionCard"}
           data-plasmic-override={overrides.descriptionCard}
-          className={classNames(defaultcss.all, sty.descriptionCard, {
-            [sty.descriptionCard__border]: hasVariant(
-              variants,
-              "border",
-              "border"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionCard,
+            {
+              [sty.descriptionCard__border]: hasVariant(
+                variants,
+                "border",
+                "border"
+              ),
 
-            [sty.descriptionCard__subDescription]: hasVariant(
-              variants,
-              "subDescription",
-              "subDescription"
-            )
-          })}
-        >
-          <div
-            data-plasmic-name={"descriptionParent"}
-            data-plasmic-override={overrides.descriptionParent}
-            className={classNames(defaultcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__subDescription]: hasVariant(
+              [sty.descriptionCard__subDescription]: hasVariant(
                 variants,
                 "subDescription",
                 "subDescription"
               )
-            })}
+            }
+          )}
+        >
+          <div
+            data-plasmic-name={"descriptionParent"}
+            data-plasmic-override={overrides.descriptionParent}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.descriptionParent,
+              {
+                [sty.descriptionParent__subDescription]: hasVariant(
+                  variants,
+                  "subDescription",
+                  "subDescription"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

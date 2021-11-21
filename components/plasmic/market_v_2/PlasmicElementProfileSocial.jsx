@@ -35,18 +35,24 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"social"}
           data-plasmic-override={overrides.social}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.social
           )}
@@ -60,7 +66,11 @@ function PlasmicElementProfileSocial__RenderFunc(props) {
         data-plasmic-name={"socialIconsParent"}
         data-plasmic-override={overrides.socialIconsParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.socialIconsParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.socialIconsParent
+        )}
       >
         <IconSocialProfile
           className={classNames("__wab_instance", sty.iconSocialProfile__wvMgP)}

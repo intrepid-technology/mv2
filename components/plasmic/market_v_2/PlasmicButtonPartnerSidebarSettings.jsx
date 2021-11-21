@@ -35,25 +35,39 @@ function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.button,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"usernamePartnerProfileName"}
         data-plasmic-override={overrides.usernamePartnerProfileName}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.usernamePartnerProfileName)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.usernamePartnerProfileName
+        )}
       >
         <div
           data-plasmic-name={"campanyDisplayNameParent"}
           data-plasmic-override={overrides.campanyDisplayNameParent}
-          className={classNames(defaultcss.all, sty.campanyDisplayNameParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.campanyDisplayNameParent
+          )}
         >
           <div
             data-plasmic-name={"companyNameText"}
             data-plasmic-override={overrides.companyNameText}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.companyNameText
             )}
@@ -65,13 +79,18 @@ function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
         <div
           data-plasmic-name={"partnerDisplayName"}
           data-plasmic-override={overrides.partnerDisplayName}
-          className={classNames(defaultcss.all, sty.partnerDisplayName)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.partnerDisplayName
+          )}
         >
           <div
             data-plasmic-name={"atSgin"}
             data-plasmic-override={overrides.atSgin}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.atSgin
             )}
@@ -84,6 +103,7 @@ function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
             data-plasmic-override={overrides.companyNameDisplay}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.companyNameDisplay
             )}
@@ -96,7 +116,11 @@ function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
       <ChevronDownBIcon
         data-plasmic-name={"dropDownUserSettingsTrigger"}
         data-plasmic-override={overrides.dropDownUserSettingsTrigger}
-        className={classNames(defaultcss.all, sty.dropDownUserSettingsTrigger)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.dropDownUserSettingsTrigger
+        )}
         role={"img"}
       />
     </p.Stack>

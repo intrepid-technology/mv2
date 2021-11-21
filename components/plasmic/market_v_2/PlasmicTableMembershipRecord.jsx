@@ -38,9 +38,20 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox___83Jsa)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___83Jsa
+        )}
+      >
         <TagMemberD
           data-plasmic-name={"tagMemberD"}
           data-plasmic-override={overrides.tagMemberD}
@@ -51,11 +62,16 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__arOvr)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__arOvr
+        )}
       >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__dkh9N
           )}
@@ -73,6 +89,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__oWCg
               )}
@@ -83,10 +100,17 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__sb46C)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__sb46C
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___9H71
           )}
@@ -97,6 +121,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__yizoe
           )}
@@ -105,10 +130,17 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__imYpU)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__imYpU
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___4EWTk
           )}
@@ -119,6 +151,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___3We2J
           )}
@@ -129,6 +162,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___6CKul
           )}
@@ -137,7 +171,13 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__aphxW)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__aphxW
+        )}
+      >
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}
           data-plasmic-override={overrides.switchPrimary}
@@ -145,7 +185,13 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__x5MxF)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__x5MxF
+        )}
+      >
         <ButtonCircleDelete
           data-plasmic-name={"buttonCircleDelete"}
           data-plasmic-override={overrides.buttonCircleDelete}

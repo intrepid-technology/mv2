@@ -43,7 +43,7 @@
 .slotTargetHeadline {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .totalCurrencyNumberValue {
@@ -85,7 +85,7 @@
 .slotTargetCurrency {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .freeBox__h0Uqh {
@@ -106,6 +106,6 @@
 .slotTargetTotalvalue {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }

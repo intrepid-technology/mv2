@@ -40,6 +40,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         projectcss.root_reset,
         sty.formLogin,
         {
@@ -54,13 +55,18 @@ function PlasmicCardLogIn__RenderFunc(props) {
         data-plasmic-name={"inputLabelParent"}
         data-plasmic-override={overrides.inputLabelParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.inputLabelParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.inputLabelParent
+        )}
       >
         <label
           data-plasmic-name={"emailLabel"}
           data-plasmic-override={overrides.emailLabel}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.emailLabel
           )}
@@ -71,7 +77,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
         <input
           data-plasmic-name={"email"}
           data-plasmic-override={overrides.email}
-          className={classNames(defaultcss.input, sty.email)}
+          className={classNames(defaultcss.input, projectcss.input, sty.email)}
           placeholder={"Enter your email address"}
           size={1}
           type={"text"}
@@ -84,13 +90,18 @@ function PlasmicCardLogIn__RenderFunc(props) {
         data-plasmic-name={"inputPasswordLabelParent"}
         data-plasmic-override={overrides.inputPasswordLabelParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.inputPasswordLabelParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.inputPasswordLabelParent
+        )}
       >
         <label
           data-plasmic-name={"passwordLabel"}
           data-plasmic-override={overrides.passwordLabel}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.passwordLabel
           )}
@@ -101,7 +112,11 @@ function PlasmicCardLogIn__RenderFunc(props) {
         <input
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
-          className={classNames(defaultcss.input, sty.password)}
+          className={classNames(
+            defaultcss.input,
+            projectcss.input,
+            sty.password
+          )}
           placeholder={
             args.placeholder !== undefined
               ? args.placeholder
@@ -114,6 +129,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__zEuFv
           )}
@@ -127,7 +143,11 @@ function PlasmicCardLogIn__RenderFunc(props) {
         data-plasmic-name={"buttonContinueParent"}
         data-plasmic-override={overrides.buttonContinueParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.buttonContinueParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.buttonContinueParent
+        )}
       >
         <Button
           data-plasmic-name={"continueButton"}
@@ -142,11 +162,16 @@ function PlasmicCardLogIn__RenderFunc(props) {
           data-plasmic-name={"recoveryLinkParent"}
           data-plasmic-override={overrides.recoveryLinkParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.recoveryLinkParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.recoveryLinkParent
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__ql1Ny
             )}
@@ -159,6 +184,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             data-plasmic-override={overrides.resetPassword}
             className={classNames(
               defaultcss.a,
+              projectcss.a,
               defaultcss.__wab_text,
               sty.resetPassword
             )}
@@ -174,13 +200,24 @@ function PlasmicCardLogIn__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__rwKg)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__rwKg
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__o0C0E)} />
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__o0C0E
+          )}
+        />
 
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__n6Ve
           )}
@@ -188,13 +225,23 @@ function PlasmicCardLogIn__RenderFunc(props) {
           {"or"}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox___2CKx)} />
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___2CKx
+          )}
+        />
       </p.Stack>
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox___7ZsVo)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___7ZsVo
+        )}
       >
         <ButtonConnectedAccount
           data-plasmic-name={"loginFacebookConnect"}
@@ -218,7 +265,11 @@ function PlasmicCardLogIn__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__yvRI)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__yvRI
+        )}
       />
 
       <div
@@ -226,6 +277,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
         data-plasmic-override={overrides.signupSubhead}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           defaultcss.__wab_text,
           sty.signupSubhead
         )}

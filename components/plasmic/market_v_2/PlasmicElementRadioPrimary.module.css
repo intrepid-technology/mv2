@@ -17,7 +17,7 @@
   border: 2px solid #666666 /* plasmic-token: IbTSH9_JJ */;
 }
 .radioBorder__selected {
-  border-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  border-color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .radioBorder__size__12Px {
   border-width: 1px;
@@ -46,7 +46,7 @@
   border-radius: 100px;
 }
 .radioCore__selected {
-  background: #333333;
+  background: #000000;
 }
 .radioCore__size__12Px {
   width: 6px;

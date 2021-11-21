@@ -52,7 +52,7 @@
   color: #999999 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
-.textbox {
+.textInput {
   position: relative;
   width: 100%;
   left: auto;
@@ -68,11 +68,11 @@
   min-height: 0;
   border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.root .textbox:hover {
+.root .textInput:hover {
   border-style: solid;
   border-color: #e4e4e4 /* plasmic-token: yK_741Heo */;
 }
-.root .textbox:focus {
+.root .textInput:focus {
   outline: none;
   border-style: solid;
   border-color: #333333 /* plasmic-token: _aCbIOo4N */;

@@ -48,6 +48,7 @@ function PlasmicRecommendation__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -55,13 +56,14 @@ function PlasmicRecommendation__RenderFunc(props) {
           <div
             data-plasmic-name={"freeBox"}
             data-plasmic-override={overrides.freeBox}
-            className={classNames(defaultcss.all, sty.freeBox)}
+            className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
           >
             <div
               data-plasmic-name={"text"}
               data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text
               )}

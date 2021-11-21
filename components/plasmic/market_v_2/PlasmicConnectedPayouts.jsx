@@ -40,11 +40,17 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__closed]: hasVariant(variants, "closed", "closed"),
-        [sty.root__visible_paypal]: hasVariant(variants, "visible", "paypal"),
-        [sty.root__visible_stripe]: hasVariant(variants, "visible", "stripe")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__closed]: hasVariant(variants, "closed", "closed"),
+          [sty.root__visible_paypal]: hasVariant(variants, "visible", "paypal"),
+          [sty.root__visible_stripe]: hasVariant(variants, "visible", "stripe")
+        }
+      )}
     >
       <InputFormCardWebhookConnections
         data-plasmic-name={"connectedPayoutAccount"}
@@ -102,6 +108,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__okVi8
               )}
@@ -113,6 +120,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__jJiBu
               )}
@@ -156,6 +164,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__jftdj
               )}
@@ -167,6 +176,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text___0GTCk
               )}

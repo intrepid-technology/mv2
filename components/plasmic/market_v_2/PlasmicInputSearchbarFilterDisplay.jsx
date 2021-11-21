@@ -36,7 +36,12 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <SearchbarFilter
         data-plasmic-name={"searchbarFilter"}
@@ -50,7 +55,11 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
         data-plasmic-name={"badgeDisplayParent"}
         data-plasmic-override={overrides.badgeDisplayParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.badgeDisplayParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.badgeDisplayParent
+        )}
       >
         <ChipBadgeDisplay
           data-plasmic-name={"chipBadgeDisplay"}

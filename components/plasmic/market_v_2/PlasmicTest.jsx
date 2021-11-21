@@ -59,6 +59,7 @@ function PlasmicTest__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -68,11 +69,21 @@ function PlasmicTest__RenderFunc(props) {
             data-plasmic-override={overrides.formContext}
             className={classNames("__wab_instance", sty.formContext)}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__uLznf)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__uLznf
+              )}
+            >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__aaNhh)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__aaNhh
+                )}
               >
                 <FormTextInput
                   data-plasmic-name={"formTextInput"}
@@ -176,6 +187,7 @@ function PlasmicTest__RenderFunc(props) {
                     data-plasmic-override={overrides.text}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text
                     )}

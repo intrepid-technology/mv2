@@ -47,6 +47,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         projectcss.root_reset,
         sty.formHomeSignUp
       )}
@@ -57,13 +58,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
         data-plasmic-name={"emailInputParent"}
         data-plasmic-override={overrides.emailInputParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.emailInputParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.emailInputParent
+        )}
       >
         <label
           data-plasmic-name={"emailText"}
           data-plasmic-override={overrides.emailText}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.emailText
           )}
@@ -74,7 +80,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         <input
           data-plasmic-name={"email"}
           data-plasmic-override={overrides.email}
-          className={classNames(defaultcss.input, sty.email)}
+          className={classNames(defaultcss.input, projectcss.input, sty.email)}
           placeholder={"Enter your email"}
           size={1}
           type={
@@ -89,13 +95,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
         data-plasmic-name={"passwordInputParent"}
         data-plasmic-override={overrides.passwordInputParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.passwordInputParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.passwordInputParent
+        )}
       >
         <label
           data-plasmic-name={"passwordText"}
           data-plasmic-override={overrides.passwordText}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.passwordText
           )}
@@ -106,7 +117,11 @@ function PlasmicCardSignUp__RenderFunc(props) {
         <input
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
-          className={classNames(defaultcss.input, sty.password)}
+          className={classNames(
+            defaultcss.input,
+            projectcss.input,
+            sty.password
+          )}
           placeholder={"Enter your password"}
           size={1}
           type={"password"}
@@ -122,6 +137,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__gTvRl
           )}
@@ -135,16 +151,17 @@ function PlasmicCardSignUp__RenderFunc(props) {
         data-plasmic-name={"divider"}
         data-plasmic-override={overrides.divider}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.divider)}
+        className={classNames(defaultcss.all, projectcss.all, sty.divider)}
       >
         <SectionDividerIcon
-          className={classNames(defaultcss.all, sty.svg__pz4Rl)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__pz4Rl)}
           role={"img"}
         />
 
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__gKFt7
           )}
@@ -153,7 +170,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         </div>
 
         <SectionDividerIcon
-          className={classNames(defaultcss.all, sty.svg__uYfz)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__uYfz)}
           role={"img"}
         />
       </p.Stack>
@@ -163,7 +180,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <ButtonConnectedAccount
           data-plasmic-name={"signupFacebookConnection"}
@@ -185,13 +202,14 @@ function PlasmicCardSignUp__RenderFunc(props) {
       </p.Stack>
 
       <SectionDividerIcon
-        className={classNames(defaultcss.all, sty.svg___5Kp4V)}
+        className={classNames(defaultcss.all, projectcss.all, sty.svg___5Kp4V)}
         role={"img"}
       />
 
       <div
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           defaultcss.__wab_text,
           sty.text__l0Gji
         )}
@@ -212,7 +230,12 @@ function PlasmicCardSignUp__RenderFunc(props) {
       <div
         data-plasmic-name={"terms"}
         data-plasmic-override={overrides.terms}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.terms)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          defaultcss.__wab_text,
+          sty.terms
+        )}
       >
         {
           'By selecting "Continue", I agree to Intrepid\'s Terms of Service, Privacy Policy,  and to receive members-only deals, inspiration, marketing emails, and push notifications. You can opt out of receiving these at any time in your account settings or directly from the marketing notification'
@@ -222,13 +245,18 @@ function PlasmicCardSignUp__RenderFunc(props) {
       <div
         data-plasmic-name={"signupLegalLinks"}
         data-plasmic-override={overrides.signupLegalLinks}
-        className={classNames(defaultcss.all, sty.signupLegalLinks)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.signupLegalLinks
+        )}
       >
         <p.PlasmicLink
           data-plasmic-name={"signupTos"}
           data-plasmic-override={overrides.signupTos}
           className={classNames(
             defaultcss.a,
+            projectcss.a,
             defaultcss.__wab_text,
             sty.signupTos
           )}
@@ -244,6 +272,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-override={overrides.signupPrivacy}
           className={classNames(
             defaultcss.a,
+            projectcss.a,
             defaultcss.__wab_text,
             sty.signupPrivacy
           )}

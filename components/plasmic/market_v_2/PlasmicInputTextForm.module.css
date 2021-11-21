@@ -112,7 +112,7 @@
   width: 100%;
   min-width: 0;
 }
-.textbox {
+.textInput {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -141,27 +141,27 @@
   border-radius: 2px;
   border-color: #dddddd /* plasmic-token: TctF8-gJH */;
 }
-.textbox__height__32 {
+.textInput__height__32 {
   font-size: 14px;
 }
-.textbox__height__36 {
+.textInput__height__36 {
   height: 36px;
   flex-shrink: 0;
 }
-.textbox__height__40 {
+.textInput__height__40 {
   height: 40px;
   font-size: 18px;
   flex-shrink: 0;
 }
-.textbox__height__48 {
+.textInput__height__48 {
   height: 48px;
   font-size: 24px;
   flex-shrink: 0;
 }
-.textbox__type_secondary {
+.textInput__type_secondary {
   background: #ffffff;
 }
-.root:hover .textbox {
+.root:hover .textInput {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -186,7 +186,7 @@
   border-bottom: 2px solid #333333 /* plasmic-token: _aCbIOo4N */;
   border-left: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
 }
-.root:focus-within .textbox {
+.root:focus-within .textInput {
   border-bottom-color: #6633ff /* plasmic-token: brleuPgaD */;
   outline: none;
 }

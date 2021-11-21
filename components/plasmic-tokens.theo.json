@@ -593,7 +593,7 @@
     {
       "name": "contentDarkA",
       "type": "color",
-      "value": "#333333",
+      "value": "#000000",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",

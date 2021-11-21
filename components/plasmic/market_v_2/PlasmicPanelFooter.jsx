@@ -35,7 +35,12 @@ function PlasmicPanelFooter__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <TextLinkUnderlinePrimary
         className={classNames(
@@ -47,6 +52,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__hiDuc
             )}
@@ -66,6 +72,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__swZbn
             )}
@@ -85,6 +92,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__jQ4No
             )}
@@ -104,6 +112,7 @@ function PlasmicPanelFooter__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__aktZk
             )}

@@ -32,10 +32,27 @@ function PlasmicRatingScore__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__csAfR)}>
-        <div className={classNames(defaultcss.all, sty.freeBox___41N1L)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__csAfR
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___41N1L
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "4.67",
             value: args.children,

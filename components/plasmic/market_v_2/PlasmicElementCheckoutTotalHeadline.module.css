@@ -42,7 +42,7 @@
   text-align: left;
   font-weight: 700;
   width: 80px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .currencyTotalValueParent {
@@ -84,7 +84,7 @@
 .slotTargetCurrency {
   font-size: 18px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .totalValueNumberParent {
@@ -102,6 +102,6 @@
   width: auto;
   height: auto;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   display: inline-block;
 }

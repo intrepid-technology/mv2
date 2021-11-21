@@ -110,10 +110,10 @@
   min-height: 0;
 }
 .root .svgSave:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root:hover .svgSave:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__rqc3W {
   object-fit: cover;
@@ -569,7 +569,7 @@
   flex-shrink: 0;
 }
 .root .viewDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .viewNumberValueParent {
   display: inline-flex;
@@ -585,7 +585,7 @@
 .viewNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .heartButtonCount {
   display: inline-flex;
@@ -634,7 +634,7 @@
   flex-shrink: 0;
 }
 .root .heartDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .heartNumberValueParent {
   display: inline-flex;
@@ -650,7 +650,7 @@
 .heartNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkButtonCount {
   display: inline-flex;
@@ -702,7 +702,7 @@
   flex-shrink: 0;
 }
 .root .bookmarkDisplay:hover {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkNumberValueParent {
   display: inline-flex;
@@ -720,7 +720,7 @@
   font-size: 12px;
   width: auto;
   height: auto;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   display: inline-block;
 }
 .location {
@@ -766,7 +766,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .text__tFqJe {
@@ -796,6 +796,6 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }

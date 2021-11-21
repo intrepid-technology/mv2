@@ -112,17 +112,17 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-._70X404 {
+.img__n5CEj {
   object-fit: cover;
   width: 100%;
   height: 100%;
   min-width: 0;
   min-height: 0;
 }
-._70X404 > picture > img {
+.img__n5CEj > picture > img {
   object-fit: cover;
 }
-._70X404 > .__wab_img-spacer > img {
+.img__n5CEj > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__vpgz {
@@ -647,13 +647,18 @@
   height: auto;
   min-width: 0;
 }
-.text__gwoj {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
-  font-weight: 500;
-  font-size: 12px;
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
+}
+.slotTargetServiceTitle {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
 }
 .buttonUserOrderContact {
   display: inline-flex;
@@ -1594,7 +1599,7 @@
   font-weight: 400;
   text-transform: uppercase;
 }
-.numberValue {
+.slotTargetPrice {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1679,7 +1684,7 @@
     display: none;
   }
 }
-.text__ghdD6 {
+.text {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;

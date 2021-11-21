@@ -52,6 +52,7 @@ function PlasmicUserAvatar__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         projectcss.root_reset,
         sty.parentRoot,
         {
@@ -69,37 +70,42 @@ function PlasmicUserAvatar__RenderFunc(props) {
       <div
         data-plasmic-name={"badgeParent"}
         data-plasmic-override={overrides.badgeParent}
-        className={classNames(defaultcss.all, sty.badgeParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.badgeParent, {
           [sty.badgeParent__size__24]: hasVariant(variants, "size", "_24")
         })}
       >
         <div
           data-plasmic-name={"avatarparent"}
           data-plasmic-override={overrides.avatarparent}
-          className={classNames(defaultcss.all, sty.avatarparent, {
-            [sty.avatarparent__partner]: hasVariant(
-              variants,
-              "partner",
-              "partner"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.avatarparent,
+            {
+              [sty.avatarparent__partner]: hasVariant(
+                variants,
+                "partner",
+                "partner"
+              ),
 
-            [sty.avatarparent__partner_size__18]:
-              hasVariant(variants, "partner", "partner") &&
-              hasVariant(variants, "size", "_18"),
-            [sty.avatarparent__partner_size__24]:
-              hasVariant(variants, "partner", "partner") &&
-              hasVariant(variants, "size", "_24"),
-            [sty.avatarparent__partner_size__32]:
-              hasVariant(variants, "partner", "partner") &&
-              hasVariant(variants, "size", "_32"),
-            [sty.avatarparent__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.avatarparent__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.avatarparent__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.avatarparent__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.avatarparent__size__48]: hasVariant(variants, "size", "_48"),
-            [sty.avatarparent__size__64]: hasVariant(variants, "size", "_64"),
-            [sty.avatarparent__size__80]: hasVariant(variants, "size", "_80")
-          })}
+              [sty.avatarparent__partner_size__18]:
+                hasVariant(variants, "partner", "partner") &&
+                hasVariant(variants, "size", "_18"),
+              [sty.avatarparent__partner_size__24]:
+                hasVariant(variants, "partner", "partner") &&
+                hasVariant(variants, "size", "_24"),
+              [sty.avatarparent__partner_size__32]:
+                hasVariant(variants, "partner", "partner") &&
+                hasVariant(variants, "size", "_32"),
+              [sty.avatarparent__size__18]: hasVariant(variants, "size", "_18"),
+              [sty.avatarparent__size__24]: hasVariant(variants, "size", "_24"),
+              [sty.avatarparent__size__32]: hasVariant(variants, "size", "_32"),
+              [sty.avatarparent__size__40]: hasVariant(variants, "size", "_40"),
+              [sty.avatarparent__size__48]: hasVariant(variants, "size", "_48"),
+              [sty.avatarparent__size__64]: hasVariant(variants, "size", "_64"),
+              [sty.avatarparent__size__80]: hasVariant(variants, "size", "_80")
+            }
+          )}
         >
           {(
             hasVariant(variants, "size", "_80")
@@ -124,7 +130,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img___3LdP7)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img___3LdP7
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -193,7 +203,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__uumyf)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__uumyf
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -237,7 +251,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__ojhk6)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__ojhk6
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -289,7 +307,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img___8P0W5)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img___8P0W5
+                    )}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
@@ -352,7 +374,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__bqMj6)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__bqMj6
+                    )}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
@@ -418,7 +444,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__k1Wfk)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__k1Wfk
+                    )}
                     src={
                       "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                     }
@@ -478,7 +508,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__ph0Zn)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__ph0Zn
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -536,7 +570,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__wowhz)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__wowhz
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -594,7 +632,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img___5ZfoV)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img___5ZfoV
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -646,7 +688,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img___8TGwz)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img___8TGwz
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -705,7 +751,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__bEpM)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__bEpM
+                    )}
                     src={"/plasmic/market_v_2/images/image4.png"}
                   />
                 ),
@@ -791,7 +841,7 @@ function PlasmicUserAvatar__RenderFunc(props) {
           <div
             data-plasmic-name={"badge"}
             data-plasmic-override={overrides.badge}
-            className={classNames(defaultcss.all, sty.badge, {
+            className={classNames(defaultcss.all, projectcss.all, sty.badge, {
               [sty.badge__partner]: hasVariant(variants, "partner", "partner"),
               [sty.badge__size__18]: hasVariant(variants, "size", "_18"),
               [sty.badge__size__18_verified]:

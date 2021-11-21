@@ -33,19 +33,32 @@ function PlasmicButtonListingPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.button,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navbarListButtonTextParent"}
         data-plasmic-override={overrides.navbarListButtonTextParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.navbarListButtonTextParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.navbarListButtonTextParent
+        )}
       >
         <ListingIcon
           data-plasmic-name={"navbarListButtonSvg"}
           data-plasmic-override={overrides.navbarListButtonSvg}
-          className={classNames(defaultcss.all, sty.navbarListButtonSvg)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.navbarListButtonSvg
+          )}
           role={"img"}
         />
 
@@ -54,6 +67,7 @@ function PlasmicButtonListingPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.navbarListButtonText}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.navbarListButtonText
           )}

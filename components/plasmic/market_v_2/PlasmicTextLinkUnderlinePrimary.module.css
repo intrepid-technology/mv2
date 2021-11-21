@@ -99,7 +99,7 @@
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .slotTargetText {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   font-weight: 500;
 }
 .root:hover .slotTargetText > .__wab_text,

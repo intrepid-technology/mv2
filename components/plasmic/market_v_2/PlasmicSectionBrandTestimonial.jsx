@@ -49,10 +49,27 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__mj8CM)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__wDJaS)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__mj8CM
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__wDJaS
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents:
               "The world's leading brands innovate, transform, and grow with our community",
@@ -65,38 +82,66 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__rsBuL)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__rsBuL
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <React.Fragment>
               <RedbullsvgIcon
-                className={classNames(defaultcss.all, sty.svg___7MOBz)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___7MOBz
+                )}
                 role={"img"}
               />
 
               <LvmhLogosvgIcon
-                className={classNames(defaultcss.all, sty.svg___3Azwk)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___3Azwk
+                )}
                 role={"img"}
               />
 
               <MastercardsvgIcon
-                className={classNames(defaultcss.all, sty.svg__aTdJe)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__aTdJe
+                )}
                 role={"img"}
               />
 
               <SamsungsvgIcon
-                className={classNames(defaultcss.all, sty.svg__cP3Fi)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__cP3Fi
+                )}
                 role={"img"}
               />
 
               <TheNorthFace1LogoSvgVectorsvgIcon
-                className={classNames(defaultcss.all, sty.svg__yFlq3)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__yFlq3
+                )}
                 role={"img"}
               />
 
               <NikesvgIcon
-                className={classNames(defaultcss.all, sty.svg__yx3Za)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__yx3Za
+                )}
                 role={"img"}
               />
             </React.Fragment>

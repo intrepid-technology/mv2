@@ -42,17 +42,37 @@ function PlasmicCardCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__center]: hasVariant(variants, "center", "center")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__center]: hasVariant(variants, "center", "center") }
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__pjpjd)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__pjpjd
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__gTubY)}>
-          <div className={classNames(defaultcss.all, sty.freeBox__fQ2Rt)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__gTubY
+          )}
+        >
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__fQ2Rt
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents: "Business Analytics",
               value: args.slot2,
@@ -67,16 +87,38 @@ function PlasmicCardCta__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox__y0NOz)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__y0NOz
+          )}
+        >
           <p.Stack
             as={"div"}
             data-plasmic-name={"headlineSubHeadline"}
             data-plasmic-override={overrides.headlineSubHeadline}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.headlineSubHeadline)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineSubHeadline
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__g7ETy)}>
-              <div className={classNames(defaultcss.all, sty.freeBox__g8YHo)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__g7ETy
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__g8YHo
+                )}
+              >
                 {p.renderPlasmicSlot({
                   defaultContents:
                     "Manage and grow your business like never before",
@@ -92,8 +134,20 @@ function PlasmicCardCta__RenderFunc(props) {
               </div>
             </div>
 
-            <div className={classNames(defaultcss.all, sty.freeBox__ge5FL)}>
-              <div className={classNames(defaultcss.all, sty.freeBox__nrSpi)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__ge5FL
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__nrSpi
+                )}
+              >
                 {p.renderPlasmicSlot({
                   defaultContents:
                     "Gain the insights you need to grow—use a single dashboard to manage orders, projects, reviews, and payments from anywhere.\n",

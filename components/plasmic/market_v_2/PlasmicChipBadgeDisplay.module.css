@@ -135,7 +135,7 @@
 }
 .chipDisplay:hover {
   background: #ffffff;
-  border-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  border-color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .chipDisplay__type_primary:hover {
   background: #ffffff;
@@ -231,7 +231,7 @@
   color: #33d6c9 /* plasmic-token: WerGfd9sF */;
 }
 .chipDisplay:hover .slotTargetChildren {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .chipDisplay__type_primary:hover .slotTargetChildren__type_primary {
   color: #000000 /* plasmic-token: 7-Hl8dlot */;

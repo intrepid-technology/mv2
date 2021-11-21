@@ -36,7 +36,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .numberValuePercentParent {
@@ -74,7 +74,7 @@
 .slotTargetNumberValue {
   font-size: 14px;
   font-weight: 400;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
 .percentParent {
@@ -89,7 +89,7 @@
 .slotTargetPercent {
   font-size: 8px;
   font-weight: 600;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
 .featureValuePropTextParent {
@@ -100,6 +100,6 @@
 }
 .slotTargetFeatureValuePropText {
   font-size: 14px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }

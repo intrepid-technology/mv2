@@ -64,6 +64,7 @@ function PlasmicEditmember__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -87,7 +88,11 @@ function PlasmicEditmember__RenderFunc(props) {
             data-plasmic-name={"sectionMemberEditProfile"}
             data-plasmic-override={overrides.sectionMemberEditProfile}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.sectionMemberEditProfile)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.sectionMemberEditProfile
+            )}
           >
             <CardHeaderTitleDisplay
               className={classNames(
@@ -99,6 +104,7 @@ function PlasmicEditmember__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text___04ReL
                   )}
@@ -124,6 +130,7 @@ function PlasmicEditmember__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.formMemberEditProfile
                 )}
               >
@@ -136,6 +143,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardMemberPersonalVerification
                   )}
                 >
@@ -148,6 +156,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__hxjHi
                         )}
@@ -166,6 +175,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.memberPersonalNameGroup
                     )}
                   >
@@ -213,7 +223,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberImage"}
                   data-plasmic-override={overrides.cardMemberImage}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberImage)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberImage
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -224,6 +238,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__h4Mp0
                         )}
@@ -246,19 +261,28 @@ function PlasmicEditmember__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.memberUploadLogoButtonGroup
                     )}
                   >
                     <div
                       data-plasmic-name={"imageWrapper"}
                       data-plasmic-override={overrides.imageWrapper}
-                      className={classNames(defaultcss.all, sty.imageWrapper)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.imageWrapper
+                      )}
                     >
                       <img
                         data-plasmic-name={"userImage"}
                         data-plasmic-override={overrides.userImage}
                         alt={""}
-                        className={classNames(defaultcss.img, sty.userImage)}
+                        className={classNames(
+                          defaultcss.img,
+                          projectcss.img,
+                          sty.userImage
+                        )}
                         src={"/plasmic/market_v_2/images/image4.png"}
                       />
                     </div>
@@ -270,6 +294,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.memberEditlogoGroup
                       )}
                     >
@@ -307,7 +332,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberUsername"}
                   data-plasmic-override={overrides.cardMemberUsername}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberUsername)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberUsername
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -318,6 +347,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__wxY25
                         )}
@@ -348,7 +378,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberUrl"}
                   data-plasmic-override={overrides.cardMemberUrl}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberUrl)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberUrl
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -359,6 +393,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__pNwo
                         )}
@@ -391,7 +426,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberTagline"}
                   data-plasmic-override={overrides.cardMemberTagline}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberTagline)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberTagline
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -402,6 +441,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__xxxU
                         )}
@@ -432,6 +472,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardMemberDescription
                   )}
                 >
@@ -444,6 +485,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__qsVv3
                         )}
@@ -472,7 +514,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardVideoIntroUrl"}
                   data-plasmic-override={overrides.cardVideoIntroUrl}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardVideoIntroUrl)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardVideoIntroUrl
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -483,6 +529,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__zWe26
                         )}
@@ -531,6 +578,7 @@ function PlasmicEditmember__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionMemberEditProfileDetails
             )}
           >
@@ -545,6 +593,7 @@ function PlasmicEditmember__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__zGsIr
                   )}
@@ -570,6 +619,7 @@ function PlasmicEditmember__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.formMemberEditDetails
                 )}
               >
@@ -578,7 +628,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberLocation"}
                   data-plasmic-override={overrides.cardMemberLocation}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberLocation)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberLocation
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -589,6 +643,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__oQfam
                         )}
@@ -609,6 +664,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.memberLocationGroup
                     )}
                   >
@@ -641,7 +697,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberIndustry"}
                   data-plasmic-override={overrides.cardMemberIndustry}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberIndustry)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberIndustry
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -652,6 +712,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__kQo
                         )}
@@ -672,6 +733,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.memberIndustryGroup
                     )}
                   >
@@ -708,6 +770,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardMemberLanguages
                   )}
                 >
@@ -720,6 +783,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__ikYyc
                         )}
@@ -738,6 +802,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.inputGroupMemberLanguages
                     )}
                   >
@@ -776,6 +841,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardMemberInterests
                   )}
                 >
@@ -788,6 +854,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__mAude
                         )}
@@ -817,7 +884,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberSkills"}
                   data-plasmic-override={overrides.cardMemberSkills}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberSkills)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberSkills
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -828,6 +899,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text___4WyB
                         )}
@@ -859,6 +931,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardMemberCommunity
                   )}
                 >
@@ -871,6 +944,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__kfwe
                         )}
@@ -906,6 +980,7 @@ function PlasmicEditmember__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__xh7Ny
                     )}
@@ -924,6 +999,7 @@ function PlasmicEditmember__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionMemberEditProfileSocial
             )}
           >
@@ -937,6 +1013,7 @@ function PlasmicEditmember__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__zgvp4
                   )}
@@ -960,14 +1037,22 @@ function PlasmicEditmember__RenderFunc(props) {
                 data-plasmic-name={"formMemberEditSocial"}
                 data-plasmic-override={overrides.formMemberEditSocial}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.formMemberEditSocial)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.formMemberEditSocial
+                )}
               >
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"cardMemberWebsite"}
                   data-plasmic-override={overrides.cardMemberWebsite}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberWebsite)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberWebsite
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -978,6 +1063,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__zfHw
                         )}
@@ -1005,7 +1091,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   data-plasmic-name={"cardMemberSocial"}
                   data-plasmic-override={overrides.cardMemberSocial}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.cardMemberSocial)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cardMemberSocial
+                  )}
                 >
                   <CardHeaderTitlePrimary
                     className={classNames(
@@ -1016,6 +1106,7 @@ function PlasmicEditmember__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__osn8L
                         )}
@@ -1029,6 +1120,7 @@ function PlasmicEditmember__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__rUb4
                       )}

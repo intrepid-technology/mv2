@@ -42,7 +42,12 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -50,7 +55,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
         >
           {(
             hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -62,15 +67,29 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
             <div
               data-plasmic-name={"headlineLabelParent"}
               data-plasmic-override={overrides.headlineLabelParent}
-              className={classNames(defaultcss.all, sty.headlineLabelParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.headlineLabelParent
+              )}
             >
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <div
-                  className={classNames(defaultcss.all, sty.freeBox___4RlGc)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___4RlGc
+                  )}
                 >
-                  <div className={classNames(defaultcss.all, sty.freeBox__vtm)}>
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__vtm
+                    )}
+                  >
                     {p.renderPlasmicSlot({
                       defaultContents: "Headline label",
                       value: args.headlineLabel,
@@ -93,7 +112,11 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
               data-plasmic-name={"memberCarousel"}
               data-plasmic-override={overrides.memberCarousel}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.memberCarousel)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.memberCarousel
+              )}
             >
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true

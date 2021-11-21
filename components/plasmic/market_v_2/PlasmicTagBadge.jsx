@@ -43,86 +43,97 @@ function PlasmicTagBadge__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_green]: hasVariant(variants, "color", "green"),
-        [sty.root__color_green_type_ghost]:
-          hasVariant(variants, "color", "green") &&
-          hasVariant(variants, "type", "ghost"),
-        [sty.root__color_magenta]: hasVariant(variants, "color", "magenta"),
-        [sty.root__color_pink]: hasVariant(variants, "color", "pink"),
-        [sty.root__size__12Px]: hasVariant(variants, "size", "_12Px"),
-        [sty.root__size__14Px]: hasVariant(variants, "size", "_14Px"),
-        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
-        [sty.root__size__18Px]: hasVariant(variants, "size", "_18Px"),
-        [sty.root__size__20Px]: hasVariant(variants, "size", "_20Px"),
-        [sty.root__type_ghost]: hasVariant(variants, "type", "ghost"),
-        [sty.root__type_ghost_color_blue]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "blue"),
-        [sty.root__type_ghost_color_brand]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "brand"),
-        [sty.root__type_ghost_color_magenta]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "magenta"),
-        [sty.root__type_ghost_color_pink]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "pink"),
-        [sty.root__type_outline]: hasVariant(variants, "type", "outline"),
-        [sty.root__type_outline_color_blue]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "blue"),
-        [sty.root__type_outline_color_brand]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "brand"),
-        [sty.root__type_outline_color_green]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "green"),
-        [sty.root__type_outline_color_magenta]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "magenta"),
-        [sty.root__type_outline_color_pink]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "pink"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_green]: hasVariant(variants, "color", "green"),
+          [sty.root__color_green_type_ghost]:
+            hasVariant(variants, "color", "green") &&
+            hasVariant(variants, "type", "ghost"),
+          [sty.root__color_magenta]: hasVariant(variants, "color", "magenta"),
+          [sty.root__color_pink]: hasVariant(variants, "color", "pink"),
+          [sty.root__size__12Px]: hasVariant(variants, "size", "_12Px"),
+          [sty.root__size__14Px]: hasVariant(variants, "size", "_14Px"),
+          [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.root__size__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.root__size__20Px]: hasVariant(variants, "size", "_20Px"),
+          [sty.root__type_ghost]: hasVariant(variants, "type", "ghost"),
+          [sty.root__type_ghost_color_blue]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.root__type_ghost_color_brand]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.root__type_ghost_color_magenta]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.root__type_ghost_color_pink]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.root__type_outline]: hasVariant(variants, "type", "outline"),
+          [sty.root__type_outline_color_blue]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.root__type_outline_color_brand]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.root__type_outline_color_green]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "green"),
+          [sty.root__type_outline_color_magenta]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.root__type_outline_color_pink]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        }
+      )}
     >
       <div
         data-plasmic-name={"textlinkParent"}
         data-plasmic-override={overrides.textlinkParent}
-        className={classNames(defaultcss.all, sty.textlinkParent, {
-          [sty.textlinkParent__size__12Px]: hasVariant(
-            variants,
-            "size",
-            "_12Px"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.textlinkParent,
+          {
+            [sty.textlinkParent__size__12Px]: hasVariant(
+              variants,
+              "size",
+              "_12Px"
+            ),
 
-          [sty.textlinkParent__size__14Px]: hasVariant(
-            variants,
-            "size",
-            "_14Px"
-          ),
+            [sty.textlinkParent__size__14Px]: hasVariant(
+              variants,
+              "size",
+              "_14Px"
+            ),
 
-          [sty.textlinkParent__size__16Px]: hasVariant(
-            variants,
-            "size",
-            "_16Px"
-          ),
+            [sty.textlinkParent__size__16Px]: hasVariant(
+              variants,
+              "size",
+              "_16Px"
+            ),
 
-          [sty.textlinkParent__size__18Px]: hasVariant(
-            variants,
-            "size",
-            "_18Px"
-          ),
+            [sty.textlinkParent__size__18Px]: hasVariant(
+              variants,
+              "size",
+              "_18Px"
+            ),
 
-          [sty.textlinkParent__size__20Px]: hasVariant(
-            variants,
-            "size",
-            "_20Px"
-          )
-        })}
+            [sty.textlinkParent__size__20Px]: hasVariant(
+              variants,
+              "size",
+              "_20Px"
+            )
+          }
+        )}
       >
         {(
           hasVariant(variants, "size", "_20Px")
@@ -140,49 +151,54 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLinkBase"}
             data-plasmic-override={overrides.tagFilterLinkBase}
-            className={classNames(defaultcss.a, sty.tagFilterLinkBase, {
-              [sty.tagFilterLinkBase__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLinkBase,
+              {
+                [sty.tagFilterLinkBase__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLinkBase__size__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLinkBase__size__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLinkBase__size__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLinkBase__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLinkBase__type_primary]: hasVariant(
-                variants,
-                "type",
-                "primary"
-              ),
+                [sty.tagFilterLinkBase__type_primary]: hasVariant(
+                  variants,
+                  "type",
+                  "primary"
+                ),
 
-              [sty.tagFilterLinkBase__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLinkBase__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -293,25 +309,30 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink6Px"}
             data-plasmic-override={overrides.tagFilterLink6Px}
-            className={classNames(defaultcss.a, sty.tagFilterLink6Px, {
-              [sty.tagFilterLink6Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink6Px,
+              {
+                [sty.tagFilterLink6Px__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink6Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink6Px__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink6Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink6Px__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -398,31 +419,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink8Px"}
             data-plasmic-override={overrides.tagFilterLink8Px}
-            className={classNames(defaultcss.a, sty.tagFilterLink8Px, {
-              [sty.tagFilterLink8Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink8Px,
+              {
+                [sty.tagFilterLink8Px__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink8Px__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLink8Px__size__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLink8Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink8Px__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink8Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink8Px__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -515,31 +541,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px"}
             data-plasmic-override={overrides.tagFilterLink10Px}
-            className={classNames(defaultcss.a, sty.tagFilterLink10Px, {
-              [sty.tagFilterLink10Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink10Px,
+              {
+                [sty.tagFilterLink10Px__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink10Px__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLink10Px__size__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLink10Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink10Px__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink10Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink10Px__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -632,31 +663,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink12Px"}
             data-plasmic-override={overrides.tagFilterLink12Px}
-            className={classNames(defaultcss.a, sty.tagFilterLink12Px, {
-              [sty.tagFilterLink12Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink12Px,
+              {
+                [sty.tagFilterLink12Px__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink12Px__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink12Px__size__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink12Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink12Px__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink12Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink12Px__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -737,31 +773,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink14Px"}
             data-plasmic-override={overrides.tagFilterLink14Px}
-            className={classNames(defaultcss.a, sty.tagFilterLink14Px, {
-              [sty.tagFilterLink14Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink14Px,
+              {
+                [sty.tagFilterLink14Px__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink14Px__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink14Px__size__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink14Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink14Px__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink14Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink14Px__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -866,43 +907,48 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px2"}
             data-plasmic-override={overrides.tagFilterLink10Px2}
-            className={classNames(defaultcss.a, sty.tagFilterLink10Px2, {
-              [sty.tagFilterLink10Px2__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.tagFilterLink10Px2,
+              {
+                [sty.tagFilterLink10Px2__size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLink10Px2__size__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLink10Px2__size__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink10Px2__size__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink10Px2__size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink10Px2__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink10Px2__type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >

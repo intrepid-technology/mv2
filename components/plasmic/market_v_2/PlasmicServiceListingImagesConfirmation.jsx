@@ -35,13 +35,18 @@ function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <img
         data-plasmic-name={"primaryImage"}
         data-plasmic-override={overrides.primaryImage}
         alt={""}
-        className={classNames(defaultcss.img, sty.primaryImage)}
+        className={classNames(defaultcss.img, projectcss.img, sty.primaryImage)}
         loading={"lazy"}
       />
 
@@ -50,13 +55,13 @@ function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <img
           data-plasmic-name={"image1"}
           data-plasmic-override={overrides.image1}
           alt={""}
-          className={classNames(defaultcss.img, sty.image1)}
+          className={classNames(defaultcss.img, projectcss.img, sty.image1)}
           loading={"lazy"}
         />
 
@@ -64,7 +69,7 @@ function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
           data-plasmic-name={"image2"}
           data-plasmic-override={overrides.image2}
           alt={""}
-          className={classNames(defaultcss.img, sty.image2)}
+          className={classNames(defaultcss.img, projectcss.img, sty.image2)}
           loading={"lazy"}
         />
 
@@ -72,7 +77,7 @@ function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
           data-plasmic-name={"image3"}
           data-plasmic-override={overrides.image3}
           alt={""}
-          className={classNames(defaultcss.img, sty.image3)}
+          className={classNames(defaultcss.img, projectcss.img, sty.image3)}
           loading={"lazy"}
         />
 
@@ -80,7 +85,7 @@ function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
           data-plasmic-name={"image4"}
           data-plasmic-override={overrides.image4}
           alt={""}
-          className={classNames(defaultcss.img, sty.image4)}
+          className={classNames(defaultcss.img, projectcss.img, sty.image4)}
           loading={"lazy"}
         />
       </p.Stack>

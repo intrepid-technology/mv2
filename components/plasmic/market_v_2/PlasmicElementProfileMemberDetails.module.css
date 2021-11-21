@@ -612,7 +612,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .languageB {
@@ -629,7 +629,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .locationCityCountry {
@@ -789,7 +789,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .text__h9Ew {
@@ -819,7 +819,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .membershipDateTimestamp {
@@ -979,7 +979,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .dateTimestampParent {
@@ -996,7 +996,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -1007,7 +1007,7 @@
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1;
-    color: #333333 /* plasmic-token: F4gy0u3aB */;
+    color: #000000 /* plasmic-token: F4gy0u3aB */;
     align-self: stretch;
   }
 }

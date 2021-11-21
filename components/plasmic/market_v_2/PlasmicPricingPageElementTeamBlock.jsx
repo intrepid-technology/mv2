@@ -40,10 +40,27 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__vht8C)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__rq7Vs)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__vht8C
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__rq7Vs
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Team",
             value: args.slot3,
@@ -57,20 +74,38 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
         data-plasmic-name={"elementTeamListItemParent"}
         data-plasmic-override={overrides.elementTeamListItemParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.elementTeamListItemParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.elementTeamListItemParent
+        )}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"elementTeamMembersListItem"}
           data-plasmic-override={overrides.elementTeamMembersListItem}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementTeamMembersListItem)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.elementTeamMembersListItem
+          )}
         >
-          <div className={classNames(defaultcss.all, sty.freeBox__cOymw)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__cOymw
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents: (
                 <TeamPartnersIcon
-                  className={classNames(defaultcss.all, sty.svg__sfySo)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__sfySo
+                  )}
                   role={"img"}
                 />
               ),
@@ -84,9 +119,19 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
             data-plasmic-name={"valuePercentParent23242"}
             data-plasmic-override={overrides.valuePercentParent23242}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.valuePercentParent23242)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.valuePercentParent23242
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__rtYyL)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__rtYyL
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "3",
                 value: args.slot,
@@ -95,7 +140,13 @@ function PlasmicPricingPageElementTeamBlock__RenderFunc(props) {
             </div>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.freeBox___2Ntr)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox___2Ntr
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents: "Team members included",
               value: args.children,

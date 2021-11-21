@@ -30,7 +30,7 @@
   height: auto;
   text-transform: uppercase;
   font-size: 8px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   line-height: 10px;
   font-weight: 600;
   display: inline-block;
@@ -43,5 +43,5 @@
   line-height: 10px;
 }
 .root__inset:hover .text__inset {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }

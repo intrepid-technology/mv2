@@ -35,12 +35,17 @@ function PlasmicElementRadioPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"radioBorder"}
         data-plasmic-override={overrides.radioBorder}
-        className={classNames(defaultcss.all, sty.radioBorder, {
+        className={classNames(defaultcss.all, projectcss.all, sty.radioBorder, {
           [sty.radioBorder__selected]: hasVariant(
             variants,
             "selected",
@@ -58,7 +63,7 @@ function PlasmicElementRadioPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"radioCore"}
           data-plasmic-override={overrides.radioCore}
-          className={classNames(defaultcss.all, sty.radioCore, {
+          className={classNames(defaultcss.all, projectcss.all, sty.radioCore, {
             [sty.radioCore__selected]: hasVariant(
               variants,
               "selected",

@@ -33,16 +33,22 @@ function PlasmicNavbarAlert__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_brandLight]: hasVariant(
-          variants,
-          "color",
-          "brandLight"
-        ),
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_brandLight]: hasVariant(
+            variants,
+            "color",
+            "brandLight"
+          ),
 
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
-      })}
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_dark]: hasVariant(variants, "color", "dark")
+        }
+      )}
     >
       <TextLinkUnderlinePrimary
         data-plasmic-name={"textLinkUnderlinePrimary"}

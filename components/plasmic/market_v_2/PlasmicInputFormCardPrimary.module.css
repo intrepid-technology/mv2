@@ -289,13 +289,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg___8XXGd {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__ruhY {
   position: relative;
@@ -317,13 +317,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__u3QG {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__cArR1 {
   position: relative;
@@ -345,13 +345,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__reJbV {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__vcpo8 {
   position: relative;
@@ -455,7 +455,7 @@
   min-width: 0;
   min-height: 0;
 }
-.textbox__dZu8N {
+.textInput__dZu8N {
   align-self: auto;
   padding-left: 8px;
   height: auto;
@@ -515,12 +515,12 @@
   color: #666666 /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
 }
-.textbox__tzwN1 {
+.textInput__tzwN1 {
   position: relative;
   width: 180px;
   flex-shrink: 0;
 }
-.textbox__inputType_username__tzwN13UQvi {
+.textInput__inputType_username__tzwN13UQvi {
   width: 100%;
   min-width: 0;
 }
@@ -537,10 +537,10 @@
   min-width: 0;
   min-height: 0;
 }
-.textbox__s9G9K {
+.textInput__s9G9K {
   width: 180px;
 }
-.textbox__inputType_username__s9G9K3UQvi {
+.textInput__inputType_username__s9G9K3UQvi {
   width: 100%;
   height: 100%;
   font-size: 14px;
@@ -609,10 +609,10 @@
   border-width: 1px;
   border-style: none;
 }
-.textbox__pm7Dz {
+.textInput__pm7Dz {
   width: 180px;
 }
-.textbox__inputType_companyname__pm7DzYQu0E {
+.textInput__inputType_companyname__pm7DzYQu0E {
   width: 100%;
   height: 100%;
   font-size: 14px;

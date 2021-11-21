@@ -42,7 +42,12 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <CardCta
         data-plasmic-name={"cardCta"}
@@ -67,13 +72,13 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(defaultcss.img, sty.img)}
+          className={classNames(defaultcss.img, projectcss.img, sty.img)}
           src={"/plasmic/market_v_2/images/intrepidDashboardpng.png"}
         />
       </div>

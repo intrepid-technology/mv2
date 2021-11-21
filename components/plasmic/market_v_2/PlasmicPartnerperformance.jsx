@@ -41,7 +41,7 @@ import ReactIcon from "./icons/PlasmicIcon__React"; // plasmic-import: ZxRg0AwFr
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 import ResponseIcon from "./icons/PlasmicIcon__Response"; // plasmic-import: NSF254cS5/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
-import MemberAddIcon from "./icons/PlasmicIcon__MemberAdd"; // plasmic-import: FGYq1z2nvF/icon
+import MemberPartnerAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 
 export const PlasmicPartnerperformance__VariantProps = new Array();
 
@@ -79,6 +79,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -96,6 +97,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionHeaderPartnerPerformance
             )}
           >
@@ -111,6 +113,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text___1UsqO
                   )}
@@ -132,6 +135,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.partnerPerformanceAnalytics
             )}
           >
@@ -140,12 +144,23 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               data-plasmic-name={"overview"}
               data-plasmic-override={overrides.overview}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.overview)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.overview
+              )}
             >
-              <div className={classNames(defaultcss.all, sty.freeBox__ls8Vs)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__ls8Vs
+                )}
+              >
                 <h3
                   className={classNames(
                     defaultcss.h3,
+                    projectcss.h3,
                     defaultcss.__wab_text,
                     sty.h3___7RfKu
                   )}
@@ -162,7 +177,11 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 description={"description"}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__s0Oo9)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__s0Oo9
+                    )}
                     role={"img"}
                   />
                 }
@@ -170,6 +189,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__uCeTh
                     )}
@@ -190,6 +210,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.carousellPartnerOverview
               )}
             >
@@ -200,6 +221,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__oA6G8
                     )}
@@ -213,6 +235,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__wqSbL
                     )}
@@ -224,6 +247,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nwA6O
                     )}
@@ -234,21 +258,37 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__lweYw)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__lweYw
+                    )}
                   >
                     <StarRatingIcon
-                      className={classNames(defaultcss.all, sty.svg__qtI92)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__qtI92
+                      )}
                       role={"img"}
                     />
                   </div>
                 }
                 svgQuestion={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__d8MXf)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__d8MXf
+                    )}
                     title={""}
                   >
                     <Icon177Icon
-                      className={classNames(defaultcss.all, sty.svg__dXu1H)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__dXu1H
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -260,6 +300,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__pAf0G
                         )}
@@ -278,6 +319,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__hTbe
                     )}
@@ -292,6 +334,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     data-plasmic-override={overrides.currencyValue270}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.currencyValue270
                     )}
@@ -303,6 +346,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vwFVm
                     )}
@@ -314,20 +358,36 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__gU8M)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__gU8M
+                    )}
                   >
                     <WalletEarningsIcon
-                      className={classNames(defaultcss.all, sty.svg__pzSox)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__pzSox
+                      )}
                       role={"img"}
                     />
                   </div>
                 }
                 svgQuestion={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__tftyE)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__tftyE
+                    )}
                   >
                     <Icon177Icon
-                      className={classNames(defaultcss.all, sty.svg__zyyJd)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__zyyJd
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -339,6 +399,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__yz1Wm
                         )}
@@ -357,6 +418,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vnUej
                     )}
@@ -370,6 +432,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__xZcW
                     )}
@@ -381,10 +444,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__tsTVg)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__tsTVg
+                    )}
                   >
                     <BriefOrdersIcon
-                      className={classNames(defaultcss.all, sty.svg__uQvNp)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__uQvNp
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -401,6 +472,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__brS4Z
                     )}
@@ -414,6 +486,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__r7DuK
                     )}
@@ -425,10 +498,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__cIvHe)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__cIvHe
+                    )}
                   >
                     <CommentReviewIcon
-                      className={classNames(defaultcss.all, sty.svg___19Zfp)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg___19Zfp
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -440,6 +521,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__w3A2
                         )}
@@ -451,6 +533,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__vu84Q
                         )}
@@ -468,12 +551,23 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               data-plasmic-name={"listings"}
               data-plasmic-override={overrides.listings}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.listings)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.listings
+              )}
             >
-              <div className={classNames(defaultcss.all, sty.freeBox__u8LZ8)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__u8LZ8
+                )}
+              >
                 <h3
                   className={classNames(
                     defaultcss.h3,
+                    projectcss.h3,
                     defaultcss.__wab_text,
                     sty.h3___8WlHd
                   )}
@@ -490,7 +584,11 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 description={"description"}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__lkOPm)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__lkOPm
+                    )}
                     role={"img"}
                   />
                 }
@@ -498,6 +596,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__r4BZl
                     )}
@@ -520,7 +619,11 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               data-plasmic-name={"groupPartnerListings"}
               data-plasmic-override={overrides.groupPartnerListings}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.groupPartnerListings)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.groupPartnerListings
+              )}
             >
               <CardAnalyticsPrimary
                 data-plasmic-name={"partnerListings"}
@@ -529,6 +632,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__zhT9N
                     )}
@@ -542,6 +646,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__b5PwL
                     )}
@@ -553,10 +658,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__fgULh)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__fgULh
+                    )}
                   >
                     <ListingIcon
-                      className={classNames(defaultcss.all, sty.svg__u7Nt8)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__u7Nt8
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -573,6 +686,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__yYpwc
                     )}
@@ -589,6 +703,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__oPbwy
                     )}
@@ -600,6 +715,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__l7Lyt
                     )}
@@ -610,10 +726,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__pSwk9)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__pSwk9
+                    )}
                   >
                     <ViewIcon
-                      className={classNames(defaultcss.all, sty.svg__ncrPl)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__ncrPl
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -625,6 +749,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__kLtHq
                         )}
@@ -643,6 +768,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__jy4Iv
                     )}
@@ -659,6 +785,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__s1MiL
                     )}
@@ -670,6 +797,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__yqKnH
                     )}
@@ -680,10 +808,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__j6Ll8)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__j6Ll8
+                    )}
                   >
                     <ProfileViewIcon
-                      className={classNames(defaultcss.all, sty.svg__fiEe)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__fiEe
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -695,6 +831,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text___3Ma7N
                         )}
@@ -713,6 +850,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__iLAm8
                     )}
@@ -726,6 +864,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__avkXs
                     )}
@@ -737,6 +876,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__opOi
                     )}
@@ -747,10 +887,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__ogDb)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__ogDb
+                    )}
                   >
                     <ReactIcon
-                      className={classNames(defaultcss.all, sty.svg__giLrv)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__giLrv
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -762,6 +910,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__d7Lc5
                         )}
@@ -780,6 +929,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__blb57
                     )}
@@ -793,6 +943,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__o1FMc
                     )}
@@ -804,6 +955,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___3JBeZ
                     )}
@@ -814,10 +966,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__pr2Vg)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__pr2Vg
+                    )}
                   >
                     <BookmarkIcon
-                      className={classNames(defaultcss.all, sty.svg__vv9F)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__vv9F
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -829,6 +989,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__yQ4B
                         )}
@@ -847,6 +1008,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__sCGf
                     )}
@@ -863,6 +1025,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__fqV7A
                     )}
@@ -876,6 +1039,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     data-plasmic-override={overrides.numerationValue2702}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.numerationValue2702
                     )}
@@ -886,10 +1050,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__vfuRe)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__vfuRe
+                    )}
                   >
                     <ResponseIcon
-                      className={classNames(defaultcss.all, sty.svg__b3B50)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__b3B50
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -901,6 +1073,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__oRkd7
                         )}
@@ -918,12 +1091,23 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               data-plasmic-name={"community"}
               data-plasmic-override={overrides.community}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.community)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.community
+              )}
             >
-              <div className={classNames(defaultcss.all, sty.freeBox__hM0B0)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__hM0B0
+                )}
+              >
                 <h3
                   className={classNames(
                     defaultcss.h3,
+                    projectcss.h3,
                     defaultcss.__wab_text,
                     sty.h3__iuLnK
                   )}
@@ -940,7 +1124,11 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 description={"description"}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__jtcur)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__jtcur
+                    )}
                     role={"img"}
                   />
                 }
@@ -948,6 +1136,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__a2FUz
                     )}
@@ -968,6 +1157,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.carousellPartnerCommunity
               )}
             >
@@ -978,6 +1168,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__rZuNx
                     )}
@@ -991,6 +1182,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__i7TYl
                     )}
@@ -1002,10 +1194,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__sG7Zv)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__sG7Zv
+                    )}
                   >
                     <TeamPartnersIcon
-                      className={classNames(defaultcss.all, sty.svg__bcAse)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__bcAse
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -1022,6 +1222,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___4CrcM
                     )}
@@ -1035,6 +1236,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__dbgw
                     )}
@@ -1046,10 +1248,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__n7WKs)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__n7WKs
+                    )}
                   >
-                    <MemberAddIcon
-                      className={classNames(defaultcss.all, sty.svg___2Ftjc)}
+                    <MemberPartnerAddIcon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg___2Ftjc
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -1061,6 +1271,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__vxZUy
                         )}
@@ -1079,6 +1290,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__cfyKn
                     )}
@@ -1092,6 +1304,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__sPQc
                     )}
@@ -1103,10 +1316,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__siEyx)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__siEyx
+                    )}
                   >
-                    <MemberAddIcon
-                      className={classNames(defaultcss.all, sty.svg__hroAd)}
+                    <MemberPartnerAddIcon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__hroAd
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -1118,6 +1339,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__tPu21
                         )}
@@ -1136,6 +1358,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__regM
                     )}
@@ -1149,6 +1372,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__f9Jk1
                     )}
@@ -1160,10 +1384,18 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 size={"_270"}
                 svgIconParent270={
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__n9MCo)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__n9MCo
+                    )}
                   >
                     <TeamPartnersIcon
-                      className={classNames(defaultcss.all, sty.svg___05PCh)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg___05PCh
+                      )}
                       role={"img"}
                     />
                   </div>

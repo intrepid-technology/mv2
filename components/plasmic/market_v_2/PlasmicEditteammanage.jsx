@@ -64,6 +64,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -83,6 +84,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionTeamManageMembersHeader
             )}
           >
@@ -94,6 +96,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text___6QAYz
                   )}
@@ -111,7 +114,11 @@ function PlasmicEditteammanage__RenderFunc(props) {
             data-plasmic-name={"sectionTeamInviteMembers"}
             data-plasmic-override={overrides.sectionTeamInviteMembers}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.sectionTeamInviteMembers)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.sectionTeamInviteMembers
+            )}
           >
             {true ? (
               <p.Stack
@@ -121,6 +128,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.cardTeamInviteMembers
                 )}
               >
@@ -133,6 +141,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__ygMqo
                       )}
@@ -164,6 +173,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.tableAddTeamMember
                     )}
                   >
@@ -175,6 +185,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           sty.inviteMemberHeader
                         )}
                       >
@@ -187,6 +198,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             <div
                               className={classNames(
                                 defaultcss.all,
+                                projectcss.all,
                                 defaultcss.__wab_text,
                                 sty.text__ptzPj
                               )}
@@ -226,6 +238,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                           <div
                             className={classNames(
                               defaultcss.all,
+                              projectcss.all,
                               defaultcss.__wab_text,
                               sty.text___7A8Rf
                             )}
@@ -243,6 +256,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           sty.inviteMemberRecord
                         )}
                       >
@@ -290,6 +304,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       data-plasmic-override={overrides.incrementParent}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.incrementParent
                       )}
                     >
@@ -306,6 +321,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       data-plasmic-override={overrides.inviteButtonParent}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.inviteButtonParent
                       )}
                     >
@@ -329,7 +345,11 @@ function PlasmicEditteammanage__RenderFunc(props) {
             data-plasmic-name={"sectionTeamManageMembers"}
             data-plasmic-override={overrides.sectionTeamManageMembers}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.sectionTeamManageMembers)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.sectionTeamManageMembers
+            )}
           >
             {true ? (
               <p.Stack
@@ -339,6 +359,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.cardTeamManageMembers
                 )}
               >
@@ -351,6 +372,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__xopkA
                       )}
@@ -369,6 +391,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.tableTeamMemberEditParent
                   )}
                 >
@@ -379,6 +402,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.searchFilterDateParent
                     )}
                   >
@@ -420,6 +444,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.tableSelectColumnParent
                       )}
                     >

@@ -199,25 +199,11 @@
   }
 }
 .headline {
-  display: block;
-  font-size: 40px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: normal;
-  line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
-  align-self: stretch;
+  display: flex;
+  flex-direction: row;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .headline {
-    display: block;
-    font-size: 40px;
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-    letter-spacing: normal;
-    line-height: 1.2;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
-    align-self: stretch;
     width: 100%;
     height: auto;
     min-width: 0;
@@ -226,6 +212,39 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .headline {
     width: 360px;
+  }
+}
+.freeBox__zfdEw {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox__zfdEw {
+    display: block;
+    align-self: stretch;
+  }
+}
+.slotTargetHeadline {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .slotTargetHeadline {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 1.2;
+    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .slotTargetHeadline {
     font-size: 36px;
     font-weight: 700;
   }
@@ -2900,12 +2919,12 @@
   > img {
   margin-top: 10px;
 }
-.buttonPrimary__sJt3M:global(.__wab_instance) {
+.orderButton:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .buttonPrimary__sJt3M:global(.__wab_instance) {
+  .orderButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }

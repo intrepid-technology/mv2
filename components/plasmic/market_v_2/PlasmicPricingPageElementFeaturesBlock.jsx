@@ -41,12 +41,22 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          defaultcss.__wab_text,
+          sty.text
+        )}
       >
         {"Features"}
       </div>
@@ -56,7 +66,11 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
         data-plasmic-name={"elementFeatureValueListItems"}
         data-plasmic-override={overrides.elementFeatureValueListItems}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.elementFeatureValueListItems)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.elementFeatureValueListItems
+        )}
       >
         <TablePricingElementFeatureValueProp
           className={classNames(
@@ -68,6 +82,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__mUsKx
                 )}
@@ -90,6 +105,7 @@ function PlasmicPricingPageElementFeaturesBlock__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__fnf3Q
                 )}

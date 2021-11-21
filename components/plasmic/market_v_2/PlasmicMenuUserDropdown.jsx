@@ -35,17 +35,24 @@ function PlasmicMenuUserDropdown__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem__itli8)}
         text={"Profile"}
       />
 
-      <MenuItem
-        className={classNames("__wab_instance", sty.menuItem__fykUm)}
-        text={"Settings"}
-      />
+      {false ? (
+        <MenuItem
+          className={classNames("__wab_instance", sty.menuItem__fykUm)}
+          text={"Settings"}
+        />
+      ) : null}
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem__yBso7)}

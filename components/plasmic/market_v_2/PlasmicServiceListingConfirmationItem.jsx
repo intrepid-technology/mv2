@@ -46,16 +46,26 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
-        className={classNames(defaultcss.all, sty.freeBox__js6Eq, {
-          [sty.freeBox__hasImages__js6Eqc98Jq]: hasVariant(
-            variants,
-            "hasImages",
-            "hasImages"
-          )
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__js6Eq,
+          {
+            [sty.freeBox__hasImages__js6Eqc98Jq]: hasVariant(
+              variants,
+              "hasImages",
+              "hasImages"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Enter some text",
@@ -67,13 +77,18 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
       <div
         data-plasmic-name={"answerWrapper"}
         data-plasmic-override={overrides.answerWrapper}
-        className={classNames(defaultcss.all, sty.answerWrapper, {
-          [sty.answerWrapper__hasImages]: hasVariant(
-            variants,
-            "hasImages",
-            "hasImages"
-          )
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.answerWrapper,
+          {
+            [sty.answerWrapper__hasImages]: hasVariant(
+              variants,
+              "hasImages",
+              "hasImages"
+            )
+          }
+        )}
       >
         {(
           hasVariant(variants, "hasImages", "hasImages")
@@ -89,25 +104,30 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
             : true
         ) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__gjKki, {
-              [sty.freeBox__hasArrayFieldContent__gjKkiEpHg]: hasVariant(
-                variants,
-                "hasArrayFieldContent",
-                "hasArrayFieldContent"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__gjKki,
+              {
+                [sty.freeBox__hasArrayFieldContent__gjKkiEpHg]: hasVariant(
+                  variants,
+                  "hasArrayFieldContent",
+                  "hasArrayFieldContent"
+                ),
 
-              [sty.freeBox__hasImages__gjKkic98Jq]: hasVariant(
-                variants,
-                "hasImages",
-                "hasImages"
-              ),
+                [sty.freeBox__hasImages__gjKkic98Jq]: hasVariant(
+                  variants,
+                  "hasImages",
+                  "hasImages"
+                ),
 
-              [sty.freeBox__hasListContent__gjKkir4Ybx]: hasVariant(
-                variants,
-                "hasListContent",
-                "hasListContent"
-              )
-            })}
+                [sty.freeBox__hasListContent__gjKkir4Ybx]: hasVariant(
+                  variants,
+                  "hasListContent",
+                  "hasListContent"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents:
@@ -135,13 +155,18 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__tKt0A, {
-              [sty.freeBox__hasListContent__tKt0Ar4Ybx]: hasVariant(
-                variants,
-                "hasListContent",
-                "hasListContent"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__tKt0A,
+              {
+                [sty.freeBox__hasListContent__tKt0Ar4Ybx]: hasVariant(
+                  variants,
+                  "hasListContent",
+                  "hasListContent"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
@@ -174,13 +199,18 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__eBgpn, {
-              [sty.freeBox__hasArrayFieldContent__eBgpnEpHg]: hasVariant(
-                variants,
-                "hasArrayFieldContent",
-                "hasArrayFieldContent"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__eBgpn,
+              {
+                [sty.freeBox__hasArrayFieldContent__eBgpnEpHg]: hasVariant(
+                  variants,
+                  "hasArrayFieldContent",
+                  "hasArrayFieldContent"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
@@ -207,13 +237,18 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
         ) : null}
         {(hasVariant(variants, "hasImages", "hasImages") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__fClvJ, {
-              [sty.freeBox__hasImages__fClvJc98Jq]: hasVariant(
-                variants,
-                "hasImages",
-                "hasImages"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__fClvJ,
+              {
+                [sty.freeBox__hasImages__fClvJc98Jq]: hasVariant(
+                  variants,
+                  "hasImages",
+                  "hasImages"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: (

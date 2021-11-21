@@ -47,44 +47,59 @@ function PlasmicSelectInput__Option__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__isHighlighted]: hasVariant(
-          variants,
-          "isHighlighted",
-          "isHighlighted"
-        ),
-
-        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
-      })}
-    >
-      <div
-        data-plasmic-name={"labelContainer"}
-        data-plasmic-override={overrides.labelContainer}
-        className={classNames(defaultcss.all, sty.labelContainer, {
-          [sty.labelContainer__isDisabled]: hasVariant(
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__isDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.labelContainer__isHighlighted]: hasVariant(
+          [sty.root__isHighlighted]: hasVariant(
             variants,
             "isHighlighted",
             "isHighlighted"
           ),
 
-          [sty.labelContainer__isSelected]: hasVariant(
+          [sty.root__isSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"
           )
-        })}
+        }
+      )}
+    >
+      <div
+        data-plasmic-name={"labelContainer"}
+        data-plasmic-override={overrides.labelContainer}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.labelContainer,
+          {
+            [sty.labelContainer__isDisabled]: hasVariant(
+              variants,
+              "isDisabled",
+              "isDisabled"
+            ),
+
+            [sty.labelContainer__isHighlighted]: hasVariant(
+              variants,
+              "isHighlighted",
+              "isHighlighted"
+            ),
+
+            [sty.labelContainer__isSelected]: hasVariant(
+              variants,
+              "isSelected",
+              "isSelected"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Option",

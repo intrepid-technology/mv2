@@ -45,15 +45,21 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__270X270]: hasVariant(variants, "size", "_270X270"),
-        [sty.root__size__360X360]: hasVariant(variants, "size", "_360X360")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__270X270]: hasVariant(variants, "size", "_270X270"),
+          [sty.root__size__360X360]: hasVariant(variants, "size", "_360X360")
+        }
+      )}
     >
       <div
         data-plasmic-name={"imageParent"}
         data-plasmic-override={overrides.imageParent}
-        className={classNames(defaultcss.all, sty.imageParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.imageParent, {
           [sty.imageParent__size__270X270]: hasVariant(
             variants,
             "size",
@@ -72,7 +78,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               {false ? (
                 <img
                   alt={""}
-                  className={classNames(defaultcss.img, sty.img__f30B9)}
+                  className={classNames(
+                    defaultcss.img,
+                    projectcss.img,
+                    sty.img__f30B9
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -82,7 +92,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__tkgid)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__tkgid
+                    )}
                     src={
                       "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                     }
@@ -98,7 +112,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               {false ? (
                 <img
                   alt={""}
-                  className={classNames(defaultcss.img, sty.img__xV2M8)}
+                  className={classNames(
+                    defaultcss.img,
+                    projectcss.img,
+                    sty.img__xV2M8
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -108,7 +126,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__tAiFn)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__tAiFn
+                    )}
                     src={
                       "https://craftypixels.com/placeholder-image/360x360/f8f8f8/333333"
                     }
@@ -125,19 +147,24 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
       <div
         data-plasmic-name={"textLinkHeadlineParent"}
         data-plasmic-override={overrides.textLinkHeadlineParent}
-        className={classNames(defaultcss.all, sty.textLinkHeadlineParent, {
-          [sty.textLinkHeadlineParent__size__270X270]: hasVariant(
-            variants,
-            "size",
-            "_270X270"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.textLinkHeadlineParent,
+          {
+            [sty.textLinkHeadlineParent__size__270X270]: hasVariant(
+              variants,
+              "size",
+              "_270X270"
+            ),
 
-          [sty.textLinkHeadlineParent__size__360X360]: hasVariant(
-            variants,
-            "size",
-            "_360X360"
-          )
-        })}
+            [sty.textLinkHeadlineParent__size__360X360]: hasVariant(
+              variants,
+              "size",
+              "_360X360"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -148,6 +175,7 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__ntFG
                   )}
@@ -165,31 +193,37 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
       <div
         data-plasmic-name={"subheadParent"}
         data-plasmic-override={overrides.subheadParent}
-        className={classNames(defaultcss.all, sty.subheadParent, {
-          [sty.subheadParent__description]: hasVariant(
-            variants,
-            "description",
-            "description"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.subheadParent,
+          {
+            [sty.subheadParent__description]: hasVariant(
+              variants,
+              "description",
+              "description"
+            ),
 
-          [sty.subheadParent__size__270X270]: hasVariant(
-            variants,
-            "size",
-            "_270X270"
-          ),
+            [sty.subheadParent__size__270X270]: hasVariant(
+              variants,
+              "size",
+              "_270X270"
+            ),
 
-          [sty.subheadParent__size__360X360]: hasVariant(
-            variants,
-            "size",
-            "_360X360"
-          )
-        })}
+            [sty.subheadParent__size__360X360]: hasVariant(
+              variants,
+              "size",
+              "_360X360"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text___7ErTm
               )}

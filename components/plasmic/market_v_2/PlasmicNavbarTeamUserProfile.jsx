@@ -35,21 +35,27 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__selected_about]: hasVariant(variants, "selected", "about"),
-        [sty.root__selected_partners]: hasVariant(
-          variants,
-          "selected",
-          "partners"
-        )
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__selected_about]: hasVariant(variants, "selected", "about"),
+          [sty.root__selected_partners]: hasVariant(
+            variants,
+            "selected",
+            "partners"
+          )
+        }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__selected_about]: hasVariant(
             variants,
             "selected",

@@ -37,14 +37,18 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width__90]: hasVariant(variants, "width", "_90")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__width__90]: hasVariant(variants, "width", "_90") }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__background_white]: hasVariant(
             variants,
             "background",
@@ -65,45 +69,70 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
         })}
       >
         <input
-          data-plasmic-name={"textbox"}
-          data-plasmic-override={overrides.textbox}
-          className={classNames(defaultcss.input, sty.textbox, {
-            [sty.textbox__background_black]: hasVariant(
-              variants,
-              "background",
-              "black"
-            ),
+          data-plasmic-name={"textInput"}
+          data-plasmic-override={overrides.textInput ?? overrides.textbox}
+          className={classNames(
+            defaultcss.input,
+            projectcss.input,
+            sty.textInput,
+            {
+              [sty.textInput__background_black]: hasVariant(
+                variants,
+                "background",
+                "black"
+              ),
 
-            [sty.textbox__background_grey]: hasVariant(
-              variants,
-              "background",
-              "grey"
-            ),
+              [sty.textInput__background_grey]: hasVariant(
+                variants,
+                "background",
+                "grey"
+              ),
 
-            [sty.textbox__background_white]: hasVariant(
-              variants,
-              "background",
-              "white"
-            ),
+              [sty.textInput__background_white]: hasVariant(
+                variants,
+                "background",
+                "white"
+              ),
 
-            [sty.textbox__height__32]: hasVariant(variants, "height", "_32"),
-            [sty.textbox__height__36]: hasVariant(variants, "height", "_36"),
-            [sty.textbox__height__40]: hasVariant(variants, "height", "_40"),
-            [sty.textbox__height__48]: hasVariant(variants, "height", "_48"),
-            [sty.textbox__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            ),
+              [sty.textInput__height__32]: hasVariant(
+                variants,
+                "height",
+                "_32"
+              ),
 
-            [sty.textbox__type_underline]: hasVariant(
-              variants,
-              "type",
-              "underline"
-            ),
+              [sty.textInput__height__36]: hasVariant(
+                variants,
+                "height",
+                "_36"
+              ),
 
-            [sty.textbox__width__90]: hasVariant(variants, "width", "_90")
-          })}
+              [sty.textInput__height__40]: hasVariant(
+                variants,
+                "height",
+                "_40"
+              ),
+
+              [sty.textInput__height__48]: hasVariant(
+                variants,
+                "height",
+                "_48"
+              ),
+
+              [sty.textInput__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              ),
+
+              [sty.textInput__type_underline]: hasVariant(
+                variants,
+                "type",
+                "underline"
+              ),
+
+              [sty.textInput__width__90]: hasVariant(variants, "width", "_90")
+            }
+          )}
           placeholder={"Enter text"}
           size={1}
           type={"text"}
@@ -115,9 +144,9 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "textbox"],
-  parent: ["parent", "textbox"],
-  textbox: ["textbox"]
+  root: ["root", "parent", "textInput"],
+  parent: ["parent", "textInput"],
+  textInput: ["textInput"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -152,7 +181,7 @@ export const PlasmicInputTextPrimary = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     // Metadata about props expected for PlasmicInputTextPrimary
     internalVariantProps: PlasmicInputTextPrimary__VariantProps,
     internalArgProps: PlasmicInputTextPrimary__ArgProps

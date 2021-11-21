@@ -1,0 +1,33 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #ffffff;
+  position: relative;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 2px;
+}
+.panelButtonMenuItem__ldRpj:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.panelButtonMenuItem__b5Sbq:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}

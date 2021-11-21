@@ -35,12 +35,21 @@ function PlasmicSearchBadge__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <input
         data-plasmic-name={"serviceIndustry"}
         data-plasmic-override={overrides.serviceIndustry}
-        className={classNames(defaultcss.input, sty.serviceIndustry)}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.serviceIndustry
+        )}
         placeholder={"Search and enter"}
         size={1}
         type={"text"}
@@ -52,7 +61,7 @@ function PlasmicSearchBadge__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -66,6 +75,7 @@ function PlasmicSearchBadge__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__ryVaq
                 )}

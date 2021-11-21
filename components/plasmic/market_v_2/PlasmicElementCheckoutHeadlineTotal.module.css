@@ -45,7 +45,7 @@
 .slotTargetChildren {
   font-size: 16px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .totalCurrencyNumberValue {
@@ -93,7 +93,7 @@
   width: 100%;
   height: auto;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   min-width: 0;
 }
 .subtotalParent {
@@ -114,6 +114,6 @@
 .slotTargetTotalValueNumber {
   font-size: 16px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }

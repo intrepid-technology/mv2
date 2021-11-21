@@ -35,12 +35,17 @@ function PlasmicInputPasswordField__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__160]: hasVariant(variants, "size", "_160"),
           [sty.parent__size__180]: hasVariant(variants, "size", "_180"),
           [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
@@ -51,14 +56,24 @@ function PlasmicInputPasswordField__RenderFunc(props) {
         <input
           data-plasmic-name={"passwordInput"}
           data-plasmic-override={overrides.passwordInput}
-          className={classNames(defaultcss.input, sty.passwordInput, {
-            [sty.passwordInput__size__90]: hasVariant(variants, "size", "_90"),
-            [sty.passwordInput__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            )
-          })}
+          className={classNames(
+            defaultcss.input,
+            projectcss.input,
+            sty.passwordInput,
+            {
+              [sty.passwordInput__size__90]: hasVariant(
+                variants,
+                "size",
+                "_90"
+              ),
+
+              [sty.passwordInput__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              )
+            }
+          )}
           size={1}
           type={"password"}
           value={"Some password"}

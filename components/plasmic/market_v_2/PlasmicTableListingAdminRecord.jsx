@@ -62,9 +62,13 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__toDo_finish]: hasVariant(variants, "toDo", "finish")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__toDo_finish]: hasVariant(variants, "toDo", "finish") }
+      )}
     >
       <p.Stack
         as={"div"}
@@ -73,6 +77,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.listingSelectImageCaptionEditParent,
           {
             [sty.listingSelectImageCaptionEditParent__term_annual]: hasVariant(
@@ -95,18 +100,27 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           data-plasmic-name={"imageCaptionParent"}
           data-plasmic-override={overrides.imageCaptionParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.imageCaptionParent, {
-            [sty.imageCaptionParent__term_annual]: hasVariant(
-              variants,
-              "term",
-              "annual"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.imageCaptionParent,
+            {
+              [sty.imageCaptionParent__term_annual]: hasVariant(
+                variants,
+                "term",
+                "annual"
+              )
+            }
+          )}
         >
           <p.PlasmicLink
             data-plasmic-name={"imageLinkManageListging"}
             data-plasmic-override={overrides.imageLinkManageListging}
-            className={classNames(defaultcss.a, sty.imageLinkManageListging)}
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.imageLinkManageListging
+            )}
             component={Link}
             href={args.destination}
             platform={"nextjs"}
@@ -119,7 +133,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"img"}
                   data-plasmic-override={overrides.img}
                   alt={""}
-                  className={classNames(defaultcss.img, sty.img)}
+                  className={classNames(
+                    defaultcss.img,
+                    projectcss.img,
+                    sty.img
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -131,7 +149,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"_70X404"}
                   data-plasmic-override={overrides._70X404}
                   alt={""}
-                  className={classNames(defaultcss.img, sty._70X404)}
+                  className={classNames(
+                    defaultcss.img,
+                    projectcss.img,
+                    sty._70X404
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/70x40/f8f8f8/333333"
                   }
@@ -147,6 +169,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.serviceListingTitleParent,
               {
                 [sty.serviceListingTitleParent__term_annual]: hasVariant(
@@ -160,13 +183,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"serviceListingTitle"}
               data-plasmic-override={overrides.serviceListingTitle}
-              className={classNames(defaultcss.a, sty.serviceListingTitle, {
-                [sty.serviceListingTitle__term_annual]: hasVariant(
-                  variants,
-                  "term",
-                  "annual"
-                )
-              })}
+              className={classNames(
+                defaultcss.a,
+                projectcss.a,
+                sty.serviceListingTitle,
+                {
+                  [sty.serviceListingTitle__term_annual]: hasVariant(
+                    variants,
+                    "term",
+                    "annual"
+                  )
+                }
+              )}
               component={Link}
               href={args.destination}
               platform={"nextjs"}
@@ -174,6 +202,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__bWl6W,
                   {
@@ -193,13 +222,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"buttonEditListing"}
             data-plasmic-override={overrides.buttonEditListing}
-            className={classNames(defaultcss.a, sty.buttonEditListing, {
-              [sty.buttonEditListing__term_annual]: hasVariant(
-                variants,
-                "term",
-                "annual"
-              )
-            })}
+            className={classNames(
+              defaultcss.a,
+              projectcss.a,
+              sty.buttonEditListing,
+              {
+                [sty.buttonEditListing__term_annual]: hasVariant(
+                  variants,
+                  "term",
+                  "annual"
+                )
+              }
+            )}
             component={Link}
             href={args.destination}
             platform={"nextjs"}
@@ -212,7 +246,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                 <EditIcon
                   data-plasmic-name={"svgIcon22"}
                   data-plasmic-override={overrides.svgIcon22}
-                  className={classNames(defaultcss.all, sty.svgIcon22)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon22
+                  )}
                   role={"img"}
                 />
               }
@@ -220,13 +258,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                 <EditIcon
                   data-plasmic-name={"editIcon"}
                   data-plasmic-override={overrides.editIcon}
-                  className={classNames(defaultcss.all, sty.editIcon, {
-                    [sty.editIcon__term_annual]: hasVariant(
-                      variants,
-                      "term",
-                      "annual"
-                    )
-                  })}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.editIcon,
+                    {
+                      [sty.editIcon__term_annual]: hasVariant(
+                        variants,
+                        "term",
+                        "annual"
+                      )
+                    }
+                  )}
                   role={"img"}
                 />
               }
@@ -239,7 +282,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"statusParent"}
           data-plasmic-override={overrides.statusParent}
-          className={classNames(defaultcss.all, sty.statusParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.statusParent
+          )}
         >
           <DisplayIconText
             data-plasmic-name={"status"}
@@ -259,25 +306,30 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                         ? CircleCheckedIcon
                         : PlusBoldIcon
                     }
-                    className={classNames(defaultcss.all, sty.svgIcon23, {
-                      [sty.svgIcon23__status_inProgress]: hasVariant(
-                        variants,
-                        "status",
-                        "inProgress"
-                      ),
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon23,
+                      {
+                        [sty.svgIcon23__status_inProgress]: hasVariant(
+                          variants,
+                          "status",
+                          "inProgress"
+                        ),
 
-                      [sty.svgIcon23__status_listed]: hasVariant(
-                        variants,
-                        "status",
-                        "listed"
-                      ),
+                        [sty.svgIcon23__status_listed]: hasVariant(
+                          variants,
+                          "status",
+                          "listed"
+                        ),
 
-                      [sty.svgIcon23__status_unlisted]: hasVariant(
-                        variants,
-                        "status",
-                        "unlisted"
-                      )
-                    })}
+                        [sty.svgIcon23__status_unlisted]: hasVariant(
+                          variants,
+                          "status",
+                          "unlisted"
+                        )
+                      }
+                    )}
                     role={"img"}
                   />
                 }
@@ -297,13 +349,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"toDoParent"}
           data-plasmic-override={overrides.toDoParent}
-          className={classNames(defaultcss.all, sty.toDoParent, {
-            [sty.toDoParent__toDo_finish]: hasVariant(
-              variants,
-              "toDo",
-              "finish"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.toDoParent,
+            {
+              [sty.toDoParent__toDo_finish]: hasVariant(
+                variants,
+                "toDo",
+                "finish"
+              )
+            }
+          )}
         >
           {(hasVariant(variants, "toDo", "finish") ? true : true) ? (
             <ButtonPrimary
@@ -338,9 +395,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                       ? BoostIcon
                       : PlusBoldIcon
                   }
-                  className={classNames(defaultcss.all, sty.svg, {
-                    [sty.svg__toDo_boost]: hasVariant(variants, "toDo", "boost")
-                  })}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg,
+                    {
+                      [sty.svg__toDo_boost]: hasVariant(
+                        variants,
+                        "toDo",
+                        "boost"
+                      )
+                    }
+                  )}
                   role={"img"}
                 />
               }
@@ -383,11 +449,16 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"modifiedDateTimeParent"}
           data-plasmic-override={overrides.modifiedDateTimeParent}
-          className={classNames(defaultcss.all, sty.modifiedDateTimeParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.modifiedDateTimeParent
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__kzo2R
             )}
@@ -400,7 +471,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"categoryParent"}
           data-plasmic-override={overrides.categoryParent}
-          className={classNames(defaultcss.all, sty.categoryParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.categoryParent
+          )}
         >
           <TagBadge
             data-plasmic-name={"category"}
@@ -410,6 +485,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__rc3Ov
                 )}
@@ -425,16 +501,25 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
-          className={classNames(defaultcss.all, sty.priceParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.priceParent
+          )}
         >
           <div
             data-plasmic-name={"currencyParent"}
             data-plasmic-override={overrides.currencyParent}
-            className={classNames(defaultcss.all, sty.currencyParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.currencyParent
+            )}
           >
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__fvDkj
               )}
@@ -446,11 +531,16 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           <div
             data-plasmic-name={"valueServicePrice"}
             data-plasmic-override={overrides.valueServicePrice}
-            className={classNames(defaultcss.all, sty.valueServicePrice)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.valueServicePrice
+            )}
           >
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__ssxRv
               )}
@@ -464,7 +554,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"termParent"}
           data-plasmic-override={overrides.termParent}
-          className={classNames(defaultcss.all, sty.termParent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.termParent)}
         >
           <TagBadge
             data-plasmic-name={"termSubscription"}
@@ -486,6 +576,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__mce,
                   {
@@ -524,11 +615,16 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"expirationDateTimeParent"}
           data-plasmic-override={overrides.expirationDateTimeParent}
-          className={classNames(defaultcss.all, sty.expirationDateTimeParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.expirationDateTimeParent
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__wbZD
             )}
@@ -541,7 +637,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"autoRenewParent"}
           data-plasmic-override={overrides.autoRenewParent}
-          className={classNames(defaultcss.all, sty.autoRenewParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.autoRenewParent
+          )}
         >
           <SwitchPrimary
             data-plasmic-name={"autoRenew"}
@@ -560,7 +660,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
           <ButtonCircleDelete
             data-plasmic-name={"archiveListing"}

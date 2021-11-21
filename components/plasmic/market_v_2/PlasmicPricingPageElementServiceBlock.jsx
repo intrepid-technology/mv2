@@ -59,10 +59,27 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__fYLa5)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__puBl3)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__fYLa5
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__puBl3
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Service",
             value: args.slot6,
@@ -89,7 +106,11 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon164Icon
-              className={classNames(defaultcss.all, sty.svg__hgWzK)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__hgWzK
+              )}
               role={"img"}
             />
           ),
@@ -125,7 +146,11 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon122Icon
-              className={classNames(defaultcss.all, sty.svg__xB6Zp)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__xB6Zp
+              )}
               role={"img"}
             />
           ),
@@ -154,7 +179,11 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <ListingIcon
-              className={classNames(defaultcss.all, sty.svg___8SYou)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg___8SYou
+              )}
               role={"img"}
             />
           ),
@@ -183,7 +212,11 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon169Icon
-              className={classNames(defaultcss.all, sty.svg__xGsUp)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__xGsUp
+              )}
               role={"img"}
             />
           ),

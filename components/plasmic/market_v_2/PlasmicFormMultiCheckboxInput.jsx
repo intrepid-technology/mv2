@@ -35,7 +35,12 @@ function PlasmicFormMultiCheckboxInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <MultiCheckboxInput
         data-plasmic-name={"multiCheckboxInput"}

@@ -32,20 +32,26 @@ function PlasmicTagNotification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__10]: hasVariant(variants, "size", "_10"),
-        [sty.root__size__12]: hasVariant(variants, "size", "_12"),
-        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-        [sty.root__size__8]: hasVariant(variants, "size", "_8"),
-        [sty.root__state_alert]: hasVariant(variants, "state", "alert"),
-        [sty.root__state_urgent]: hasVariant(variants, "state", "urgent"),
-        [sty.root__state_warning]: hasVariant(variants, "state", "warning")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__10]: hasVariant(variants, "size", "_10"),
+          [sty.root__size__12]: hasVariant(variants, "size", "_12"),
+          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.root__size__8]: hasVariant(variants, "size", "_8"),
+          [sty.root__state_alert]: hasVariant(variants, "state", "alert"),
+          [sty.root__state_urgent]: hasVariant(variants, "state", "urgent"),
+          [sty.root__state_warning]: hasVariant(variants, "state", "warning")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
           [sty.parent__size__8]: hasVariant(variants, "size", "_8")
         })}
@@ -55,6 +61,7 @@ function PlasmicTagNotification__RenderFunc(props) {
           data-plasmic-override={overrides.textContent}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.textContent,
             {

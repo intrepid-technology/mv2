@@ -41,18 +41,24 @@ function PlasmicInputRichTextField__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__540]: hasVariant(variants, "size", "_540"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+          [sty.root__size__540]: hasVariant(variants, "size", "_540"),
+          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__180]: hasVariant(variants, "size", "_180"),
           [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
           [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
@@ -63,19 +69,24 @@ function PlasmicInputRichTextField__RenderFunc(props) {
           <div
             data-plasmic-name={"headlineLabelParent"}
             data-plasmic-override={overrides.headlineLabelParent}
-            className={classNames(defaultcss.all, sty.headlineLabelParent, {
-              [sty.headlineLabelParent__description]: hasVariant(
-                variants,
-                "description",
-                "description"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineLabelParent,
+              {
+                [sty.headlineLabelParent__description]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                ),
 
-              [sty.headlineLabelParent__headline]: hasVariant(
-                variants,
-                "headline",
-                "headline"
-              )
-            })}
+                [sty.headlineLabelParent__headline]: hasVariant(
+                  variants,
+                  "headline",
+                  "headline"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Sub Headline",
@@ -94,23 +105,48 @@ function PlasmicInputRichTextField__RenderFunc(props) {
         <textarea
           data-plasmic-name={"description"}
           data-plasmic-override={overrides.description}
-          className={classNames(defaultcss.textarea, sty.description, {
-            [sty.description__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.description__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.description__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.description__size__540]: hasVariant(variants, "size", "_540"),
-            [sty.description__type_primary]: hasVariant(
-              variants,
-              "type",
-              "primary"
-            ),
+          className={classNames(
+            defaultcss.textarea,
+            projectcss.textarea,
+            sty.description,
+            {
+              [sty.description__size__180]: hasVariant(
+                variants,
+                "size",
+                "_180"
+              ),
 
-            [sty.description__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            )
-          })}
+              [sty.description__size__270]: hasVariant(
+                variants,
+                "size",
+                "_270"
+              ),
+
+              [sty.description__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              ),
+
+              [sty.description__size__540]: hasVariant(
+                variants,
+                "size",
+                "_540"
+              ),
+
+              [sty.description__type_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
+
+              [sty.description__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              )
+            }
+          )}
           placeholder={"Describe"}
           value={""}
         />
@@ -119,13 +155,18 @@ function PlasmicInputRichTextField__RenderFunc(props) {
           <div
             data-plasmic-name={"subheadParent"}
             data-plasmic-override={overrides.subheadParent}
-            className={classNames(defaultcss.all, sty.subheadParent, {
-              [sty.subheadParent__description]: hasVariant(
-                variants,
-                "description",
-                "description"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.subheadParent,
+              {
+                [sty.subheadParent__description]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Sub body",

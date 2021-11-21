@@ -52,29 +52,40 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__button]: hasVariant(variants, "button", "button"),
-        [sty.root__icon]: hasVariant(variants, "icon", "icon"),
-        [sty.root__toolTip_check]: hasVariant(variants, "toolTip", "check")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__button]: hasVariant(variants, "button", "button"),
+          [sty.root__icon]: hasVariant(variants, "icon", "icon"),
+          [sty.root__toolTip_check]: hasVariant(variants, "toolTip", "check")
+        }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"editHeadlineTitleParent"}
         data-plasmic-override={overrides.editHeadlineTitleParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.editHeadlineTitleParent, {
-          [sty.editHeadlineTitleParent__toolTip_check]: hasVariant(
-            variants,
-            "toolTip",
-            "check"
-          )
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.editHeadlineTitleParent,
+          {
+            [sty.editHeadlineTitleParent__toolTip_check]: hasVariant(
+              variants,
+              "toolTip",
+              "check"
+            )
+          }
+        )}
       >
         <div
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
-          className={classNames(defaultcss.all, sty.svgParent, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
             [sty.svgParent__icon]: hasVariant(variants, "icon", "icon"),
             [sty.svgParent__toolTip_alert]: hasVariant(
               variants,
@@ -107,7 +118,11 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <CircleCheckedIcon
-                    className={classNames(defaultcss.all, sty.svg__eGk9V)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__eGk9V
+                    )}
                     role={"img"}
                   />
                 ),
@@ -119,7 +134,11 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon176Icon
-                    className={classNames(defaultcss.all, sty.svg__iIye)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__iIye
+                    )}
                     role={"img"}
                   />
                 ),
@@ -137,7 +156,11 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon177Icon
-                    className={classNames(defaultcss.all, sty.svg__llKwg)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__llKwg
+                    )}
                     role={"img"}
                   />
                 ),
@@ -157,7 +180,11 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon111Icon
-                    className={classNames(defaultcss.all, sty.svg__trWqi)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__trWqi
+                    )}
                     role={"img"}
                   />
                 ),
@@ -170,7 +197,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
           {p.renderPlasmicSlot({
             defaultContents: <TextLinkUnderlinePrimary size={"_32"} />,
@@ -182,10 +209,20 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
       <div
         data-plasmic-name={"buttonParent"}
         data-plasmic-override={overrides.buttonParent}
-        className={classNames(defaultcss.all, sty.buttonParent, {
-          [sty.buttonParent__button]: hasVariant(variants, "button", "button"),
-          [sty.buttonParent__icon]: hasVariant(variants, "icon", "icon")
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.buttonParent,
+          {
+            [sty.buttonParent__button]: hasVariant(
+              variants,
+              "button",
+              "button"
+            ),
+
+            [sty.buttonParent__icon]: hasVariant(variants, "icon", "icon")
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: true ? (

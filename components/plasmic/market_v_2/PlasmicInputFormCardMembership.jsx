@@ -47,14 +47,18 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__border]: hasVariant(variants, "border", "border")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__border]: hasVariant(variants, "border", "border") }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__border]: hasVariant(variants, "border", "border")
         })}
       >
@@ -63,30 +67,55 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
           data-plasmic-name={"headlineParent"}
           data-plasmic-override={overrides.headlineParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.headlineParent, {
-            [sty.headlineParent__border]: hasVariant(
-              variants,
-              "border",
-              "border"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headlineParent,
+            {
+              [sty.headlineParent__border]: hasVariant(
+                variants,
+                "border",
+                "border"
+              )
+            }
+          )}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"headlineSubheadParent"}
             data-plasmic-override={overrides.headlineSubheadParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.headlineSubheadParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineSubheadParent
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.headline)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.headline
+              )}
             >
-              <div className={classNames(defaultcss.all, sty.freeBox__n8Yg)}>
-                <div className={classNames(defaultcss.all, sty.freeBox__adCaL)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__n8Yg
+                )}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__adCaL
+                  )}
+                >
                   {p.renderPlasmicSlot({
                     defaultContents: "Membership",
                     value: args.children,
@@ -99,7 +128,11 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
             <div
               data-plasmic-name={"subhead"}
               data-plasmic-override={overrides.subhead}
-              className={classNames(defaultcss.all, sty.subhead)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.subhead
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents:
@@ -112,7 +145,11 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
             <div
               data-plasmic-name={"badgeParent"}
               data-plasmic-override={overrides.badgeParent}
-              className={classNames(defaultcss.all, sty.badgeParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.badgeParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: (
@@ -131,12 +168,20 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
             data-plasmic-name={"multiLineTextParent"}
             data-plasmic-override={overrides.multiLineTextParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.multiLineTextParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.multiLineTextParent
+            )}
           >
             <div
               data-plasmic-name={"multiLineText"}
               data-plasmic-override={overrides.multiLineText}
-              className={classNames(defaultcss.all, sty.multiLineText)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.multiLineText
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents:
@@ -155,25 +200,39 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
         <div
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
-          className={classNames(defaultcss.all, sty.descriptionParent, {
-            [sty.descriptionParent__border_link]:
-              hasVariant(variants, "border", "border") &&
-              hasVariant(variants, "link", "link"),
-            [sty.descriptionParent__button_link]:
-              hasVariant(variants, "button", "button") &&
-              hasVariant(variants, "link", "link"),
-            [sty.descriptionParent__link]: hasVariant(variants, "link", "link")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionParent,
+            {
+              [sty.descriptionParent__border_link]:
+                hasVariant(variants, "border", "border") &&
+                hasVariant(variants, "link", "link"),
+              [sty.descriptionParent__button_link]:
+                hasVariant(variants, "button", "button") &&
+                hasVariant(variants, "link", "link"),
+              [sty.descriptionParent__link]: hasVariant(
+                variants,
+                "link",
+                "link"
+              )
+            }
+          )}
         >
           <div
             data-plasmic-name={"textLinkParent"}
             data-plasmic-override={overrides.textLinkParent}
-            className={classNames(defaultcss.all, sty.textLinkParent, {
-              [sty.textLinkParent__border_link]:
-                hasVariant(variants, "border", "border") &&
-                hasVariant(variants, "link", "link"),
-              [sty.textLinkParent__link]: hasVariant(variants, "link", "link")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.textLinkParent,
+              {
+                [sty.textLinkParent__border_link]:
+                  hasVariant(variants, "border", "border") &&
+                  hasVariant(variants, "link", "link"),
+                [sty.textLinkParent__link]: hasVariant(variants, "link", "link")
+              }
+            )}
           >
             <TextLinkUnderlinePrimary
               data-plasmic-name={"textLinkUnderlinePrimary"}

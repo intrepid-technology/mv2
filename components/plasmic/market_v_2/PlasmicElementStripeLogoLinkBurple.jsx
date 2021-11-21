@@ -38,6 +38,7 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.a,
+        projectcss.a,
         projectcss.root_reset,
         sty.stripeLink,
         {
@@ -58,7 +59,7 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
         data-plasmic-name={"img"}
         data-plasmic-override={overrides.img}
         alt={""}
-        className={classNames(defaultcss.img, sty.img, {
+        className={classNames(defaultcss.img, projectcss.img, sty.img, {
           [sty.img__size__16]: hasVariant(variants, "size", "_16"),
           [sty.img__size__18]: hasVariant(variants, "size", "_18"),
           [sty.img__size__24]: hasVariant(variants, "size", "_24"),

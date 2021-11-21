@@ -34,10 +34,16 @@ function PlasmicNavbarLogo__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__light]: hasVariant(variants, "light", "light"),
-        [sty.root__size__18]: hasVariant(variants, "size", "_18")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__light]: hasVariant(variants, "light", "light"),
+          [sty.root__size__18]: hasVariant(variants, "size", "_18")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -45,25 +51,30 @@ function PlasmicNavbarLogo__RenderFunc(props) {
       <div
         data-plasmic-name={"navBarLogoLinkParent"}
         data-plasmic-override={overrides.navBarLogoLinkParent}
-        className={classNames(defaultcss.all, sty.navBarLogoLinkParent, {
-          [sty.navBarLogoLinkParent__light]: hasVariant(
-            variants,
-            "light",
-            "light"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.navBarLogoLinkParent,
+          {
+            [sty.navBarLogoLinkParent__light]: hasVariant(
+              variants,
+              "light",
+              "light"
+            ),
 
-          [sty.navBarLogoLinkParent__size__18]: hasVariant(
-            variants,
-            "size",
-            "_18"
-          )
-        })}
+            [sty.navBarLogoLinkParent__size__18]: hasVariant(
+              variants,
+              "size",
+              "_18"
+            )
+          }
+        )}
       >
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(defaultcss.img, sty.img, {
+          className={classNames(defaultcss.img, projectcss.img, sty.img, {
             [sty.img__light]: hasVariant(variants, "light", "light"),
             [sty.img__size__16]: hasVariant(variants, "size", "_16"),
             [sty.img__size__18]: hasVariant(variants, "size", "_18"),

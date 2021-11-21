@@ -311,11 +311,11 @@
     font-weight: 500;
   }
 }
-.navbarSave:global(.__wab_instance) {
+.navbarAdminIcons:global(.__wab_instance) {
   position: relative;
   align-self: center;
 }
-.navbarBrief:global(.__wab_instance) {
+.navbarNotifications:global(.__wab_instance) {
   position: relative;
 }
 .userAvatar:global(.__wab_instance) {

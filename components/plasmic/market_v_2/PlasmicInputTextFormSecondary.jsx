@@ -41,24 +41,37 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         <label
           data-plasmic-name={"headlineLabelParent"}
           data-plasmic-override={overrides.headlineLabelParent}
-          className={classNames(defaultcss.all, sty.headlineLabelParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headlineLabelParent
+          )}
         >
           <div
             data-plasmic-name={"headlineLabel"}
             data-plasmic-override={overrides.headlineLabel}
-            className={classNames(defaultcss.all, sty.headlineLabel)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineLabel
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Label",
@@ -151,18 +164,27 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
           <div
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
-            className={classNames(defaultcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__subhead]: hasVariant(
-                variants,
-                "subhead",
-                "subhead"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.descriptionParent,
+              {
+                [sty.descriptionParent__subhead]: hasVariant(
+                  variants,
+                  "subhead",
+                  "subhead"
+                )
+              }
+            )}
           >
             <div
               data-plasmic-name={"descriptionTextParent"}
               data-plasmic-override={overrides.descriptionTextParent}
-              className={classNames(defaultcss.all, sty.descriptionTextParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.descriptionTextParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Description",

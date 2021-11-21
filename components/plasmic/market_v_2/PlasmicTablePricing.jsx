@@ -75,9 +75,13 @@ function PlasmicTablePricing__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root___switch]: hasVariant(variants, "_switch", "_switch")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root___switch]: hasVariant(variants, "_switch", "_switch") }
+      )}
     >
       <TablePricingTierDisplay
         data-plasmic-name={"tablePricingTierDisplay"}
@@ -87,7 +91,7 @@ function PlasmicTablePricing__RenderFunc(props) {
           <div
             data-plasmic-name={"freeBox"}
             data-plasmic-override={overrides.freeBox}
-            className={classNames(defaultcss.all, sty.freeBox)}
+            className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
           >
             {p.renderPlasmicSlot({
               defaultContents:
@@ -116,6 +120,7 @@ function PlasmicTablePricing__RenderFunc(props) {
           hasGap={true}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             sty.pricingTableDropDownDrawerParent,
             {
               [sty.pricingTableDropDownDrawerParent___switch]: hasVariant(
@@ -138,6 +143,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text___3Db6E
                   )}
@@ -155,6 +161,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__wZbrp
                   )}
@@ -170,6 +177,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__zt6PV
                   )}
@@ -185,6 +193,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__tScVb
                   )}
@@ -209,6 +218,7 @@ function PlasmicTablePricing__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.pricingTableDropDownChildItems
             )}
           >
@@ -242,6 +252,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__wD7Qq
                     )}
@@ -270,6 +281,7 @@ function PlasmicTablePricing__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__cIzHl
                     )}
@@ -308,7 +320,11 @@ function PlasmicTablePricing__RenderFunc(props) {
               slot12={p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon164Icon
-                    className={classNames(defaultcss.all, sty.svg__tvas)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__tvas
+                    )}
                     role={"img"}
                   />
                 ),
@@ -318,7 +334,11 @@ function PlasmicTablePricing__RenderFunc(props) {
               slot13={p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon122Icon
-                    className={classNames(defaultcss.all, sty.svg__uAas)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__uAas
+                    )}
                     role={"img"}
                   />
                 ),
@@ -328,7 +348,11 @@ function PlasmicTablePricing__RenderFunc(props) {
               slot14={p.renderPlasmicSlot({
                 defaultContents: (
                   <ListingIcon
-                    className={classNames(defaultcss.all, sty.svg__kKdiI)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__kKdiI
+                    )}
                     role={"img"}
                   />
                 ),
@@ -338,7 +362,11 @@ function PlasmicTablePricing__RenderFunc(props) {
               slot15={p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon169Icon
-                    className={classNames(defaultcss.all, sty.svg__xFvFm)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svg__xFvFm
+                    )}
                     role={"img"}
                   />
                 ),
@@ -382,6 +410,7 @@ function PlasmicTablePricing__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text___7UBdg
               )}

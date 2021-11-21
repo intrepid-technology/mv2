@@ -43,6 +43,7 @@ function PlasmicChipSearchFilterButton__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.buttonTrigger,
         {

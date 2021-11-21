@@ -33,6 +33,7 @@ function PlasmicTextCityname__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         defaultcss.__wab_text,
         projectcss.root_reset,
         sty.root

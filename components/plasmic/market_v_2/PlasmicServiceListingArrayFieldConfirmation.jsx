@@ -38,9 +38,20 @@ function PlasmicServiceListingArrayFieldConfirmation__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__clg4B)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__clg4B
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents: "Enter some text",
           value: args.title,
@@ -48,7 +59,13 @@ function PlasmicServiceListingArrayFieldConfirmation__RenderFunc(props) {
         })}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__chvIc)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__chvIc
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents: "Enter some text",
           value: args.description,

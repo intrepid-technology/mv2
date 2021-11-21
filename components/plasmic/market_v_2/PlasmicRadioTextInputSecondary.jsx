@@ -39,9 +39,13 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px") }
+      )}
     >
       <ElementRadioPrimary
         data-plasmic-name={"elementRadioPrimary"}
@@ -79,7 +83,7 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.textParent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Item element",

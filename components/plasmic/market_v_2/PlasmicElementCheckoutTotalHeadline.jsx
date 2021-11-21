@@ -34,20 +34,26 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text
           )}
@@ -61,12 +67,20 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
         data-plasmic-name={"currencyTotalValueParent"}
         data-plasmic-override={overrides.currencyTotalValueParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.currencyTotalValueParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.currencyTotalValueParent
+        )}
       >
         <div
           data-plasmic-name={"currencyParent"}
           data-plasmic-override={overrides.currencyParent}
-          className={classNames(defaultcss.all, sty.currencyParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.currencyParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "$",
@@ -78,13 +92,18 @@ function PlasmicElementCheckoutTotalHeadline__RenderFunc(props) {
         <div
           data-plasmic-name={"totalValueNumberParent"}
           data-plasmic-override={overrides.totalValueNumberParent}
-          className={classNames(defaultcss.all, sty.totalValueNumberParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.totalValueNumberParent
+          )}
         >
           <div
             data-plasmic-name={"totalValueNumber"}
             data-plasmic-override={overrides.totalValueNumber}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.totalValueNumber
             )}

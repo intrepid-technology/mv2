@@ -47,31 +47,45 @@ function PlasmicNavbar__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__auth]: hasVariant(variants, "auth", "auth")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__auth]: hasVariant(variants, "auth", "auth") }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"brandWrapper"}
         data-plasmic-override={overrides.brandWrapper}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.brandWrapper, {
-          [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.brandWrapper,
+          { [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth") }
+        )}
       >
         {(hasVariant(variants, "auth", "auth") ? true : false) ? (
           <div
             data-plasmic-name={"iconWrapper"}
             data-plasmic-override={overrides.iconWrapper}
-            className={classNames(defaultcss.all, sty.iconWrapper, {
-              [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.iconWrapper,
+              { [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth") }
+            )}
           >
             <Icon46Icon
               data-plasmic-name={"menuIcon"}
               data-plasmic-override={overrides.menuIcon}
-              className={classNames(defaultcss.all, sty.menuIcon)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.menuIcon
+              )}
               role={"img"}
             />
           </div>
@@ -103,9 +117,12 @@ function PlasmicNavbar__RenderFunc(props) {
           data-plasmic-name={"actionWrapper"}
           data-plasmic-override={overrides.actionWrapper}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.actionWrapper, {
-            [sty.actionWrapper__auth]: hasVariant(variants, "auth", "auth")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.actionWrapper,
+            { [sty.actionWrapper__auth]: hasVariant(variants, "auth", "auth") }
+          )}
         >
           <Button
             data-plasmic-name={"memberButton"}
@@ -118,6 +135,7 @@ function PlasmicNavbar__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__uRxVz
               )}
@@ -144,9 +162,18 @@ function PlasmicNavbar__RenderFunc(props) {
         <div
           data-plasmic-name={"searchInputWrapper"}
           data-plasmic-override={overrides.searchInputWrapper}
-          className={classNames(defaultcss.all, sty.searchInputWrapper, {
-            [sty.searchInputWrapper__auth]: hasVariant(variants, "auth", "auth")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.searchInputWrapper,
+            {
+              [sty.searchInputWrapper__auth]: hasVariant(
+                variants,
+                "auth",
+                "auth"
+              )
+            }
+          )}
         >
           <TextInput
             data-plasmic-name={"textInput"}
@@ -159,14 +186,21 @@ function PlasmicNavbar__RenderFunc(props) {
                 data-plasmic-name={"freeBox"}
                 data-plasmic-override={overrides.freeBox}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox
+                )}
               >
                 <Icon174Icon
                   data-plasmic-name={"svg"}
                   data-plasmic-override={overrides.svg}
-                  className={classNames(defaultcss.all, sty.svg, {
-                    [sty.svg__auth]: hasVariant(variants, "auth", "auth")
-                  })}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg,
+                    { [sty.svg__auth]: hasVariant(variants, "auth", "auth") }
+                  )}
                   role={"img"}
                 />
 
@@ -179,6 +213,7 @@ function PlasmicNavbar__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__wQrSm,
                       {
@@ -202,9 +237,18 @@ function PlasmicNavbar__RenderFunc(props) {
         <div
           data-plasmic-name={"authActionsWrapper"}
           data-plasmic-override={overrides.authActionsWrapper}
-          className={classNames(defaultcss.all, sty.authActionsWrapper, {
-            [sty.authActionsWrapper__auth]: hasVariant(variants, "auth", "auth")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.authActionsWrapper,
+            {
+              [sty.authActionsWrapper__auth]: hasVariant(
+                variants,
+                "auth",
+                "auth"
+              )
+            }
+          )}
         >
           {(hasVariant(variants, "auth", "auth") ? true : false) ? (
             <Avatar
@@ -218,7 +262,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 data-plasmic-name={"img"}
                 data-plasmic-override={overrides.img}
                 alt={""}
-                className={classNames(defaultcss.img, sty.img, {
+                className={classNames(defaultcss.img, projectcss.img, sty.img, {
                   [sty.img__auth]: hasVariant(variants, "auth", "auth")
                 })}
                 loading={"lazy"}

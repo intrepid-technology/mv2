@@ -38,29 +38,43 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__size__360]: hasVariant(variants, "size", "_360") }
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__pnfW4, {
-          [sty.freeBox__size__360__pnfW4KfHaw]: hasVariant(
-            variants,
-            "size",
-            "_360"
-          )
-        })}
-      >
-        <div
-          className={classNames(defaultcss.all, sty.freeBox__yqk8E, {
-            [sty.freeBox__size__360__yqk8EKfHaw]: hasVariant(
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__pnfW4,
+          {
+            [sty.freeBox__size__360__pnfW4KfHaw]: hasVariant(
               variants,
               "size",
               "_360"
             )
-          })}
+          }
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__yqk8E,
+            {
+              [sty.freeBox__size__360__yqk8EKfHaw]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Headline Title",

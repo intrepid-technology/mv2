@@ -32,16 +32,24 @@ function PlasmicTagPartnerD__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__inset]: hasVariant(variants, "inset", "inset")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__inset]: hasVariant(variants, "inset", "inset") }
+      )}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text, {
-          [sty.text__inset]: hasVariant(variants, "inset", "inset")
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          defaultcss.__wab_text,
+          sty.text,
+          { [sty.text__inset]: hasVariant(variants, "inset", "inset") }
+        )}
       >
         {"maker"}
       </div>

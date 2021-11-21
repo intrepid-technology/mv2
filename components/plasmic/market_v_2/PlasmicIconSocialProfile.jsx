@@ -66,10 +66,16 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__size__45X45]: hasVariant(variants, "size", "_45X45"),
-        [sty.root__size__90X90]: hasVariant(variants, "size", "_90X90")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__45X45]: hasVariant(variants, "size", "_45X45"),
+          [sty.root__size__90X90]: hasVariant(variants, "size", "_90X90")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -77,7 +83,7 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__45X45]: hasVariant(variants, "size", "_45X45"),
           [sty.parent__size__90X90]: hasVariant(variants, "size", "_90X90")
         })}
@@ -85,7 +91,7 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
         <div
           data-plasmic-name={"iconBg"}
           data-plasmic-override={overrides.iconBg}
-          className={classNames(defaultcss.all, sty.iconBg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.iconBg)}
         >
           <IconPrimary
             data-plasmic-name={"iconPrimary"}
@@ -183,104 +189,109 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     ? DomainRegistrationsvgIcon
                     : Icon171Icon
                 }
-                className={classNames(defaultcss.all, sty.svgIcon6, {
-                  [sty.svgIcon6__accounting_quickbooks]: hasVariant(
-                    variants,
-                    "accounting",
-                    "quickbooks"
-                  ),
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svgIcon6,
+                  {
+                    [sty.svgIcon6__accounting_quickbooks]: hasVariant(
+                      variants,
+                      "accounting",
+                      "quickbooks"
+                    ),
 
-                  [sty.svgIcon6__accounting_quickbooks_size__45X45]:
-                    hasVariant(variants, "accounting", "quickbooks") &&
-                    hasVariant(variants, "size", "_45X45"),
-                  [sty.svgIcon6__accounting_quickbooks_size__90X90]:
-                    hasVariant(variants, "accounting", "quickbooks") &&
-                    hasVariant(variants, "size", "_90X90"),
-                  [sty.svgIcon6__accounting_xero_size__45X45]:
-                    hasVariant(variants, "accounting", "xero") &&
-                    hasVariant(variants, "size", "_45X45"),
-                  [sty.svgIcon6__accounting_xero_size__90X90]:
-                    hasVariant(variants, "accounting", "xero") &&
-                    hasVariant(variants, "size", "_90X90"),
-                  [sty.svgIcon6__size__45X45_social_angellist]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "angellist"),
-                  [sty.svgIcon6__size__45X45_social_discord]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "discord"),
-                  [sty.svgIcon6__size__45X45_social_dribbble]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "dribbble"),
-                  [sty.svgIcon6__size__45X45_social_facebook]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "facebook"),
-                  [sty.svgIcon6__size__45X45_social_github]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "github"),
-                  [sty.svgIcon6__size__45X45_social_hackerNews]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "hackerNews"),
-                  [sty.svgIcon6__size__45X45_social_instagram]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "instagram"),
-                  [sty.svgIcon6__size__45X45_social_line]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "line"),
-                  [sty.svgIcon6__size__45X45_social_linkedin]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "linkedin"),
-                  [sty.svgIcon6__size__45X45_social_pinterest]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "pinterest"),
-                  [sty.svgIcon6__size__45X45_social_productHunt]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "productHunt"),
-                  [sty.svgIcon6__size__45X45_social_reddit]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "reddit"),
-                  [sty.svgIcon6__size__45X45_social_slack]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "slack"),
-                  [sty.svgIcon6__size__45X45_social_snapchat]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "snapchat"),
-                  [sty.svgIcon6__size__45X45_social_soundcloud]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "soundcloud"),
-                  [sty.svgIcon6__size__45X45_social_spotify]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "spotify"),
-                  [sty.svgIcon6__size__45X45_social_tikTok]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "tikTok"),
-                  [sty.svgIcon6__size__45X45_social_twitch]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "twitch"),
-                  [sty.svgIcon6__size__45X45_social_twitter]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "twitter"),
-                  [sty.svgIcon6__size__45X45_social_wechat]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "wechat"),
-                  [sty.svgIcon6__size__45X45_social_whatsapp]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "whatsapp"),
-                  [sty.svgIcon6__size__45X45_social_youtube]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "youtube"),
-                  [sty.svgIcon6__social_google]: hasVariant(
-                    variants,
-                    "social",
-                    "google"
-                  ),
+                    [sty.svgIcon6__accounting_quickbooks_size__45X45]:
+                      hasVariant(variants, "accounting", "quickbooks") &&
+                      hasVariant(variants, "size", "_45X45"),
+                    [sty.svgIcon6__accounting_quickbooks_size__90X90]:
+                      hasVariant(variants, "accounting", "quickbooks") &&
+                      hasVariant(variants, "size", "_90X90"),
+                    [sty.svgIcon6__accounting_xero_size__45X45]:
+                      hasVariant(variants, "accounting", "xero") &&
+                      hasVariant(variants, "size", "_45X45"),
+                    [sty.svgIcon6__accounting_xero_size__90X90]:
+                      hasVariant(variants, "accounting", "xero") &&
+                      hasVariant(variants, "size", "_90X90"),
+                    [sty.svgIcon6__size__45X45_social_angellist]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "angellist"),
+                    [sty.svgIcon6__size__45X45_social_discord]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "discord"),
+                    [sty.svgIcon6__size__45X45_social_dribbble]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "dribbble"),
+                    [sty.svgIcon6__size__45X45_social_facebook]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "facebook"),
+                    [sty.svgIcon6__size__45X45_social_github]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "github"),
+                    [sty.svgIcon6__size__45X45_social_hackerNews]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "hackerNews"),
+                    [sty.svgIcon6__size__45X45_social_instagram]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "instagram"),
+                    [sty.svgIcon6__size__45X45_social_line]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "line"),
+                    [sty.svgIcon6__size__45X45_social_linkedin]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "linkedin"),
+                    [sty.svgIcon6__size__45X45_social_pinterest]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "pinterest"),
+                    [sty.svgIcon6__size__45X45_social_productHunt]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "productHunt"),
+                    [sty.svgIcon6__size__45X45_social_reddit]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "reddit"),
+                    [sty.svgIcon6__size__45X45_social_slack]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "slack"),
+                    [sty.svgIcon6__size__45X45_social_snapchat]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "snapchat"),
+                    [sty.svgIcon6__size__45X45_social_soundcloud]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "soundcloud"),
+                    [sty.svgIcon6__size__45X45_social_spotify]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "spotify"),
+                    [sty.svgIcon6__size__45X45_social_tikTok]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "tikTok"),
+                    [sty.svgIcon6__size__45X45_social_twitch]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "twitch"),
+                    [sty.svgIcon6__size__45X45_social_twitter]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "twitter"),
+                    [sty.svgIcon6__size__45X45_social_wechat]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "wechat"),
+                    [sty.svgIcon6__size__45X45_social_whatsapp]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "whatsapp"),
+                    [sty.svgIcon6__size__45X45_social_youtube]:
+                      hasVariant(variants, "size", "_45X45") &&
+                      hasVariant(variants, "social", "youtube"),
+                    [sty.svgIcon6__social_google]: hasVariant(
+                      variants,
+                      "social",
+                      "google"
+                    ),
 
-                  [sty.svgIcon6__social_google_size__45X45]:
-                    hasVariant(variants, "social", "google") &&
-                    hasVariant(variants, "size", "_45X45"),
-                  [sty.svgIcon6__social_website_size__45X45]:
-                    hasVariant(variants, "social", "website") &&
-                    hasVariant(variants, "size", "_45X45")
-                })}
+                    [sty.svgIcon6__social_google_size__45X45]:
+                      hasVariant(variants, "social", "google") &&
+                      hasVariant(variants, "size", "_45X45"),
+                    [sty.svgIcon6__social_website_size__45X45]:
+                      hasVariant(variants, "social", "website") &&
+                      hasVariant(variants, "size", "_45X45")
+                  }
+                )}
                 role={"img"}
               />
             }
@@ -343,172 +354,177 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     ? DomainRegistrationsvgIcon
                     : Icon171Icon
                 }
-                className={classNames(defaultcss.all, sty.svgIcon8, {
-                  [sty.svgIcon8__accounting_quickbooks]: hasVariant(
-                    variants,
-                    "accounting",
-                    "quickbooks"
-                  ),
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svgIcon8,
+                  {
+                    [sty.svgIcon8__accounting_quickbooks]: hasVariant(
+                      variants,
+                      "accounting",
+                      "quickbooks"
+                    ),
 
-                  [sty.svgIcon8__accounting_xero]: hasVariant(
-                    variants,
-                    "accounting",
-                    "xero"
-                  ),
+                    [sty.svgIcon8__accounting_xero]: hasVariant(
+                      variants,
+                      "accounting",
+                      "xero"
+                    ),
 
-                  [sty.svgIcon8__accounting_xero_size__45X45]:
-                    hasVariant(variants, "accounting", "xero") &&
-                    hasVariant(variants, "size", "_45X45"),
-                  [sty.svgIcon8__size__45X45]: hasVariant(
-                    variants,
-                    "size",
-                    "_45X45"
-                  ),
+                    [sty.svgIcon8__accounting_xero_size__45X45]:
+                      hasVariant(variants, "accounting", "xero") &&
+                      hasVariant(variants, "size", "_45X45"),
+                    [sty.svgIcon8__size__45X45]: hasVariant(
+                      variants,
+                      "size",
+                      "_45X45"
+                    ),
 
-                  [sty.svgIcon8__social_angellist]: hasVariant(
-                    variants,
-                    "social",
-                    "angellist"
-                  ),
+                    [sty.svgIcon8__social_angellist]: hasVariant(
+                      variants,
+                      "social",
+                      "angellist"
+                    ),
 
-                  [sty.svgIcon8__social_discord]: hasVariant(
-                    variants,
-                    "social",
-                    "discord"
-                  ),
+                    [sty.svgIcon8__social_discord]: hasVariant(
+                      variants,
+                      "social",
+                      "discord"
+                    ),
 
-                  [sty.svgIcon8__social_dribbble]: hasVariant(
-                    variants,
-                    "social",
-                    "dribbble"
-                  ),
+                    [sty.svgIcon8__social_dribbble]: hasVariant(
+                      variants,
+                      "social",
+                      "dribbble"
+                    ),
 
-                  [sty.svgIcon8__social_facebook]: hasVariant(
-                    variants,
-                    "social",
-                    "facebook"
-                  ),
+                    [sty.svgIcon8__social_facebook]: hasVariant(
+                      variants,
+                      "social",
+                      "facebook"
+                    ),
 
-                  [sty.svgIcon8__social_github]: hasVariant(
-                    variants,
-                    "social",
-                    "github"
-                  ),
+                    [sty.svgIcon8__social_github]: hasVariant(
+                      variants,
+                      "social",
+                      "github"
+                    ),
 
-                  [sty.svgIcon8__social_google]: hasVariant(
-                    variants,
-                    "social",
-                    "google"
-                  ),
+                    [sty.svgIcon8__social_google]: hasVariant(
+                      variants,
+                      "social",
+                      "google"
+                    ),
 
-                  [sty.svgIcon8__social_hackerNews]: hasVariant(
-                    variants,
-                    "social",
-                    "hackerNews"
-                  ),
+                    [sty.svgIcon8__social_hackerNews]: hasVariant(
+                      variants,
+                      "social",
+                      "hackerNews"
+                    ),
 
-                  [sty.svgIcon8__social_instagram]: hasVariant(
-                    variants,
-                    "social",
-                    "instagram"
-                  ),
+                    [sty.svgIcon8__social_instagram]: hasVariant(
+                      variants,
+                      "social",
+                      "instagram"
+                    ),
 
-                  [sty.svgIcon8__social_line]: hasVariant(
-                    variants,
-                    "social",
-                    "line"
-                  ),
+                    [sty.svgIcon8__social_line]: hasVariant(
+                      variants,
+                      "social",
+                      "line"
+                    ),
 
-                  [sty.svgIcon8__social_linkedin]: hasVariant(
-                    variants,
-                    "social",
-                    "linkedin"
-                  ),
+                    [sty.svgIcon8__social_linkedin]: hasVariant(
+                      variants,
+                      "social",
+                      "linkedin"
+                    ),
 
-                  [sty.svgIcon8__social_pinterest]: hasVariant(
-                    variants,
-                    "social",
-                    "pinterest"
-                  ),
+                    [sty.svgIcon8__social_pinterest]: hasVariant(
+                      variants,
+                      "social",
+                      "pinterest"
+                    ),
 
-                  [sty.svgIcon8__social_productHunt]: hasVariant(
-                    variants,
-                    "social",
-                    "productHunt"
-                  ),
+                    [sty.svgIcon8__social_productHunt]: hasVariant(
+                      variants,
+                      "social",
+                      "productHunt"
+                    ),
 
-                  [sty.svgIcon8__social_reddit]: hasVariant(
-                    variants,
-                    "social",
-                    "reddit"
-                  ),
+                    [sty.svgIcon8__social_reddit]: hasVariant(
+                      variants,
+                      "social",
+                      "reddit"
+                    ),
 
-                  [sty.svgIcon8__social_slack]: hasVariant(
-                    variants,
-                    "social",
-                    "slack"
-                  ),
+                    [sty.svgIcon8__social_slack]: hasVariant(
+                      variants,
+                      "social",
+                      "slack"
+                    ),
 
-                  [sty.svgIcon8__social_snapchat]: hasVariant(
-                    variants,
-                    "social",
-                    "snapchat"
-                  ),
+                    [sty.svgIcon8__social_snapchat]: hasVariant(
+                      variants,
+                      "social",
+                      "snapchat"
+                    ),
 
-                  [sty.svgIcon8__social_soundcloud]: hasVariant(
-                    variants,
-                    "social",
-                    "soundcloud"
-                  ),
+                    [sty.svgIcon8__social_soundcloud]: hasVariant(
+                      variants,
+                      "social",
+                      "soundcloud"
+                    ),
 
-                  [sty.svgIcon8__social_spotify]: hasVariant(
-                    variants,
-                    "social",
-                    "spotify"
-                  ),
+                    [sty.svgIcon8__social_spotify]: hasVariant(
+                      variants,
+                      "social",
+                      "spotify"
+                    ),
 
-                  [sty.svgIcon8__social_tikTok]: hasVariant(
-                    variants,
-                    "social",
-                    "tikTok"
-                  ),
+                    [sty.svgIcon8__social_tikTok]: hasVariant(
+                      variants,
+                      "social",
+                      "tikTok"
+                    ),
 
-                  [sty.svgIcon8__social_twitch]: hasVariant(
-                    variants,
-                    "social",
-                    "twitch"
-                  ),
+                    [sty.svgIcon8__social_twitch]: hasVariant(
+                      variants,
+                      "social",
+                      "twitch"
+                    ),
 
-                  [sty.svgIcon8__social_twitter]: hasVariant(
-                    variants,
-                    "social",
-                    "twitter"
-                  ),
+                    [sty.svgIcon8__social_twitter]: hasVariant(
+                      variants,
+                      "social",
+                      "twitter"
+                    ),
 
-                  [sty.svgIcon8__social_website]: hasVariant(
-                    variants,
-                    "social",
-                    "website"
-                  ),
+                    [sty.svgIcon8__social_website]: hasVariant(
+                      variants,
+                      "social",
+                      "website"
+                    ),
 
-                  [sty.svgIcon8__social_wechat]: hasVariant(
-                    variants,
-                    "social",
-                    "wechat"
-                  ),
+                    [sty.svgIcon8__social_wechat]: hasVariant(
+                      variants,
+                      "social",
+                      "wechat"
+                    ),
 
-                  [sty.svgIcon8__social_whatsapp]: hasVariant(
-                    variants,
-                    "social",
-                    "whatsapp"
-                  ),
+                    [sty.svgIcon8__social_whatsapp]: hasVariant(
+                      variants,
+                      "social",
+                      "whatsapp"
+                    ),
 
-                  [sty.svgIcon8__social_youtube]: hasVariant(
-                    variants,
-                    "social",
-                    "youtube"
-                  )
-                })}
+                    [sty.svgIcon8__social_youtube]: hasVariant(
+                      variants,
+                      "social",
+                      "youtube"
+                    )
+                  }
+                )}
                 role={"img"}
               />
             }

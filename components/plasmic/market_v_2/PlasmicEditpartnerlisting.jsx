@@ -58,6 +58,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -67,7 +68,11 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
             data-plasmic-name={"editListingSectionParent"}
             data-plasmic-override={overrides.editListingSectionParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.editListingSectionParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.editListingSectionParent
+            )}
           >
             <p.Stack
               as={"div"}
@@ -76,6 +81,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionHeaderEditListing
               )}
             >
@@ -91,6 +97,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vlHiI
                     )}
@@ -112,7 +119,11 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
               data-plasmic-name={"sectionEditListing"}
               data-plasmic-override={overrides.sectionEditListing}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.sectionEditListing)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.sectionEditListing
+              )}
             >
               <p.Stack
                 as={"div"}
@@ -123,6 +134,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.listingEditCategoryFieldsParent
                 )}
               >
@@ -141,6 +153,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__yCvUi
                           )}
@@ -175,6 +188,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text___3XuJv
                           )}

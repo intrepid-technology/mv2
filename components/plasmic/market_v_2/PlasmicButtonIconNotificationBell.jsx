@@ -40,6 +40,7 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.root,
         { [sty.root__state_alert]: hasVariant(variants, "state", "alert") }
@@ -48,7 +49,7 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
       <NotificationBellIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
-        className={classNames(defaultcss.all, sty.svg, {
+        className={classNames(defaultcss.all, projectcss.all, sty.svg, {
           [sty.svg__inactive]: hasVariant(variants, "inactive", "inactive"),
           [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
           [sty.svg__size__24]: hasVariant(variants, "size", "_24"),

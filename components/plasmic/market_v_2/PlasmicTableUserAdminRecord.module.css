@@ -272,7 +272,7 @@
   left: auto;
 }
 .text__qRux {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
   font-weight: 500;
   font-size: 14px;
 }
@@ -326,7 +326,7 @@
 .text__bvk0V {
   font-size: 14px;
   font-weight: 500;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .selectRole:global(.__wab_instance) {
   position: relative;

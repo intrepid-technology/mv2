@@ -15,13 +15,13 @@
   color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetSlot__color_dark {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetSlot__color_brand {
   color: #c2adff /* plasmic-token: j08wwDM3g */;
 }
 .root:hover .slotTargetSlot {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #000000 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_light:hover .slotTargetSlot__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
