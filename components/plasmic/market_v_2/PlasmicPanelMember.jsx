@@ -306,7 +306,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               "__wab_instance",
               sty.menuIconListItem__c1DDq
             )}
-            destination={"/member/profile"}
+            destination={"/edit/member"}
             navIcon={
               <UserIcon
                 data-plasmic-name={"navIcon7"}

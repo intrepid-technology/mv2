@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  flex-shrink: 0;
-}
 .settingsForm:global(.__wab_instance) {
   position: relative;
   width: 800px;

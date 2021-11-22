@@ -5,6 +5,7 @@ import * as React from "react";
 import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
 
 import Layout from "../components/Layout";
+import PageTabNavigations from "components/PageTabNavigations";
 import { Provider } from "react-redux";
 import firebaseApp from "../backend/api/firebase";
 import { store } from "../store";
@@ -22,6 +23,9 @@ function MyApp({ Component, pageProps }) {
               auth: isAuth,
             }}
             main={<Component {...pageProps} />}
+            tabNavigationWrapper={
+              <PageTabNavigations navLinks={Component.tabNavigations} />
+            }
           />
         </Provider>
       </Hydrate>

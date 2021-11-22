@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -66,20 +65,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "messages",
-              "lists",
-              "reviews",
-              "wallet"
-            ]}
-            selected={"settings"}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"sectionMemberSettingsEmail"}
@@ -952,7 +937,6 @@ function PlasmicEditmembersettings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "sectionMemberSettingsEmail",
     "cardHeaderTitleDisplay",
     "emailForm",
@@ -996,7 +980,6 @@ const PlasmicDescendants = {
     "deleteAccountButton"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberSettingsEmail: [
     "sectionMemberSettingsEmail",
     "cardHeaderTitleDisplay",
@@ -1211,7 +1194,6 @@ export const PlasmicEditmembersettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberSettingsEmail: makeNodeComponent("sectionMemberSettingsEmail"),
     cardHeaderTitleDisplay: makeNodeComponent("cardHeaderTitleDisplay"),
     emailForm: makeNodeComponent("emailForm"),

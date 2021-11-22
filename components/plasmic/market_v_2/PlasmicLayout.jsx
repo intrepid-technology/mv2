@@ -28,7 +28,10 @@ import * as sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K
 
 export const PlasmicLayout__VariantProps = new Array();
 
-export const PlasmicLayout__ArgProps = new Array("main");
+export const PlasmicLayout__ArgProps = new Array(
+  "main",
+  "tabNavigationWrapper"
+);
 
 function PlasmicLayout__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -98,10 +101,33 @@ function PlasmicLayout__RenderFunc(props) {
             )
           })}
         >
-          {p.renderPlasmicSlot({
-            defaultContents: null,
-            value: args.main
-          })}
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__w6P5L
+            )}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: null,
+              value: args.tabNavigationWrapper
+            })}
+          </p.Stack>
+
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__xa1S
+            )}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: null,
+              value: args.main
+            })}
+          </div>
 
           <FooterB
             data-plasmic-name={"footerB"}

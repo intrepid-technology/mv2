@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -69,20 +68,6 @@ function PlasmicEditmember__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "messages",
-              "reviews",
-              "lists",
-              "wallet"
-            ]}
-            selected={"profile"}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"sectionMemberEditProfile"}
@@ -1163,7 +1148,6 @@ function PlasmicEditmember__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "sectionMemberEditProfile",
     "memberProfileForm",
     "formMemberEditProfile",
@@ -1222,7 +1206,6 @@ const PlasmicDescendants = {
     "submitSocialButton"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberEditProfile: [
     "sectionMemberEditProfile",
     "memberProfileForm",
@@ -1556,7 +1539,6 @@ export const PlasmicEditmember = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberEditProfile: makeNodeComponent("sectionMemberEditProfile"),
     memberProfileForm: makeNodeComponent("memberProfileForm"),
     formMemberEditProfile: makeNodeComponent("formMemberEditProfile"),

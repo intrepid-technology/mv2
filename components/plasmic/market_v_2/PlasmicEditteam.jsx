@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -68,14 +67,6 @@ function PlasmicEditteam__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarPartnerEdit
-            data-plasmic-name={"navbarPartnerEdit"}
-            data-plasmic-override={overrides.navbarPartnerEdit}
-            className={classNames("__wab_instance", sty.navbarPartnerEdit)}
-            navItems={["messages", "notifications", "reviews", "wallet"]}
-            selected={"team"}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"sectionTeamEditProfile"}
@@ -1337,7 +1328,6 @@ function PlasmicEditteam__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarPartnerEdit",
     "sectionTeamEditProfile",
     "teamProfileForm",
     "formTeamEditProfile",
@@ -1403,7 +1393,6 @@ const PlasmicDescendants = {
     "submitSocialsButton"
   ],
 
-  navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionTeamEditProfile: [
     "sectionTeamEditProfile",
     "teamProfileForm",
@@ -1782,7 +1771,6 @@ export const PlasmicEditteam = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionTeamEditProfile: makeNodeComponent("sectionTeamEditProfile"),
     teamProfileForm: makeNodeComponent("teamProfileForm"),
     formTeamEditProfile: makeNodeComponent("formTeamEditProfile"),

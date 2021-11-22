@@ -16,7 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
 import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/component
@@ -62,20 +61,6 @@ function PlasmicEditmembermembership__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "messages",
-              "reviews",
-              "lists",
-              "wallet"
-            ]}
-            selected={"membership"}
-          />
-
           <p.Stack
             as={"section"}
             data-plasmic-name={"sectionMemberMembershipStatus"}
@@ -382,7 +367,6 @@ function PlasmicEditmembermembership__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "sectionMemberMembershipStatus",
     "cardHeaderTitleDisplay",
     "tagMemberD",
@@ -394,7 +378,6 @@ const PlasmicDescendants = {
     "tableMembershipRecord"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberMembershipStatus: [
     "sectionMemberMembershipStatus",
     "cardHeaderTitleDisplay",
@@ -452,7 +435,6 @@ export const PlasmicEditmembermembership = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberMembershipStatus: makeNodeComponent(
       "sectionMemberMembershipStatus"
     ),

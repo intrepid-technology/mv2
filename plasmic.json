@@ -2985,19 +2985,6 @@
           "componentType": "page"
         },
         {
-          "id": "hyCm300QePDi",
-          "name": "Membermanageprojects",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.jsx",
-          "importSpec": {
-            "modulePath": "../pages/member/manage/projects.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "0ls58SUcEc",
           "name": "SwitchTextPrimary",
           "type": "managed",
@@ -4533,6 +4520,45 @@
             "modulePath": "../pages/finance.jsx"
           },
           "cssFilePath": "plasmic/market_v_2/PlasmicFinance.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "8FwFZYKbmK",
+          "name": "PageTabNavigations",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPageTabNavigations.jsx",
+          "importSpec": {
+            "modulePath": "PageTabNavigations.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPageTabNavigations.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tCiyOEgIeVL",
+          "name": "Tab",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicTab.jsx",
+          "importSpec": {
+            "modulePath": "Tab.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicTab.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hyCm300QePDi",
+          "name": "Membermanageprojects",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/manage/projects.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.module.css",
           "scheme": "blackbox",
           "componentType": "page"
         }

@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -70,20 +69,6 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "wallet",
-              "lists",
-              "reviews",
-              "messages"
-            ]}
-            selected={"settings"}
-          />
-
           <FormContext
             data-plasmic-name={"settingsForm"}
             data-plasmic-override={overrides.settingsForm}
@@ -806,7 +791,6 @@ function PlasmicEditteamsettings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
     "cardHeaderTitleDisplay",
@@ -848,7 +832,6 @@ const PlasmicDescendants = {
     "deleteAccountButton"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   settingsForm: [
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
@@ -1077,7 +1060,6 @@ export const PlasmicEditteamsettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     settingsForm: makeNodeComponent("settingsForm"),
     sectionTeamSettingsStripeConnect: makeNodeComponent(
       "sectionTeamSettingsStripeConnect"

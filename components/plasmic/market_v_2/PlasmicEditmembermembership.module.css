@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  flex-shrink: 0;
-}
 .sectionMemberMembershipStatus {
   display: flex;
   position: relative;
@@ -23,7 +17,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberMembershipStatus > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -222,7 +216,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberPaymentMethods > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -363,7 +357,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberPaymentHistory > :global(.__wab_flex-container) {
   flex-direction: column;

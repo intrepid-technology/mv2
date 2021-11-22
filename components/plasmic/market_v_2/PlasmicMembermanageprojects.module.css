@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  flex-shrink: 0;
-}
 .sectionMemberManageProjectsHeader {
   display: flex;
   position: relative;
@@ -23,7 +17,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px 110px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -112,7 +106,7 @@
   width: 100%;
   height: auto;
   min-width: 0;
-  padding: 16px 180px 96px 110px;
+  padding: 16px 8px 96px;
 }
 .sectionMemberManageListings > :global(.__wab_flex-container) {
   flex-direction: column;
