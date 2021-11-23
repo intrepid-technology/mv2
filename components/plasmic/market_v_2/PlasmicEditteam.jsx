@@ -78,38 +78,42 @@ function PlasmicEditteam__RenderFunc(props) {
               sty.sectionTeamEditProfile
             )}
           >
-            <CardHeaderTitleDisplay
-              className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay__m46KZ
-              )}
-              size={"_720"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__v4Ij4
-                  )}
-                >
-                  {"Edit profile"}
-                </div>
-              }
-              textDisplay={"Team"}
-              textSubhead={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__usdte
-                  )}
-                >
-                  {"Set your partner profile and make a great first impression"}
-                </div>
-              }
-            />
+            {false ? (
+              <CardHeaderTitleDisplay
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardHeaderTitleDisplay__m46KZ
+                )}
+                size={"_720"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__v4Ij4
+                    )}
+                  >
+                    {"Edit profile"}
+                  </div>
+                }
+                textDisplay={"Team"}
+                textSubhead={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__usdte
+                    )}
+                  >
+                    {
+                      "Set your partner profile and make a great first impression"
+                    }
+                  </div>
+                }
+              />
+            ) : null}
 
             <FormContext
               data-plasmic-name={"teamProfileForm"}

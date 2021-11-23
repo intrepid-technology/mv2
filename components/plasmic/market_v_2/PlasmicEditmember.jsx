@@ -79,29 +79,31 @@ function PlasmicEditmember__RenderFunc(props) {
               sty.sectionMemberEditProfile
             )}
           >
-            <CardHeaderTitleDisplay
-              className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay__acBi5
-              )}
-              size={"_720"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text___04ReL
-                  )}
-                >
-                  {"Edit profile"}
-                </div>
-              }
-              textDisplay={"Member"}
-              textSubhead={
-                "Set your creator profile and make a great first impression"
-              }
-            />
+            {false ? (
+              <CardHeaderTitleDisplay
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardHeaderTitleDisplay__acBi5
+                )}
+                size={"_720"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___04ReL
+                    )}
+                  >
+                    {"Edit profile"}
+                  </div>
+                }
+                textDisplay={"Member"}
+                textSubhead={
+                  "Set your creator profile and make a great first impression"
+                }
+              />
+            ) : null}
 
             <FormContext
               data-plasmic-name={"memberProfileForm"}

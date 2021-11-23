@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import { PAGE_TAB_NAVIGATIONS, PAGE_TAB_NAVIGATION_KEY } from "constants/page-tab-navigations";
-
 import { PlasmicMembermanageprojects } from "../../../components/plasmic/market_v_2/PlasmicMembermanageprojects";
 import useProjects from "../../../hooks/useProjects";
 
@@ -25,4 +23,3 @@ function Membermanageprojects() {
 }
 
 export default Membermanageprojects;
-Membermanageprojects.tabNavigations = PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER]

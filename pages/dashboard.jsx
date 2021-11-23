@@ -2,8 +2,6 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 
-import { PAGE_TAB_NAVIGATIONS, PAGE_TAB_NAVIGATION_KEY } from "constants/page-tab-navigations";
-
 import { LayoutContext } from "../components/plasmic/market_v_2/PlasmicGlobalVariant__Layout";
 import { PlasmicDashboard } from "../components/plasmic/market_v_2/PlasmicDashboard";
 
@@ -32,5 +30,3 @@ function Dashboard() {
 }
 
 export default Dashboard;
-
-Dashboard.tabNavigations = PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.DASHBOARD]

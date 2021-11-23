@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import { PAGE_TAB_NAVIGATIONS, PAGE_TAB_NAVIGATION_KEY } from "constants/page-tab-navigations";
-
 import { PlasmicEditteam } from "../../components/plasmic/market_v_2/PlasmicEditteam";
 import { useRouter } from "next/router";
 import useUpdateTeam from "../../hooks/useUpdateTeam";
@@ -180,4 +178,3 @@ function Editteam() {
 }
 
 export default Editteam;
-Editteam.tabNavigations = PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER]

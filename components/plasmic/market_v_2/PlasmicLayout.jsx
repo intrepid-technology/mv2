@@ -30,7 +30,10 @@ export const PlasmicLayout__VariantProps = new Array();
 
 export const PlasmicLayout__ArgProps = new Array(
   "main",
-  "tabNavigationWrapper"
+  "tabNavigationWrapper",
+  "pageHeading",
+  "pageSubHeading",
+  "pageDescription"
 );
 
 function PlasmicLayout__RenderFunc(props) {
@@ -103,31 +106,101 @@ function PlasmicLayout__RenderFunc(props) {
         >
           <p.Stack
             as={"div"}
+            data-plasmic-name={"subHeader"}
+            data-plasmic-override={overrides.subHeader}
             hasGap={true}
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.freeBox__w6P5L
+              sty.subHeader
             )}
           >
-            {p.renderPlasmicSlot({
-              defaultContents: null,
-              value: args.tabNavigationWrapper
-            })}
+            <div
+              data-plasmic-name={"tabNavigationWrapper"}
+              data-plasmic-override={overrides.tabNavigationWrapper}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.tabNavigationWrapper
+              )}
+            >
+              {p.renderPlasmicSlot({
+                defaultContents: null,
+                value: args.tabNavigationWrapper
+              })}
+            </div>
           </p.Stack>
 
-          <div
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"bodyHeader"}
+            data-plasmic-override={overrides.bodyHeader}
+            hasGap={true}
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.freeBox__xa1S
+              sty.bodyHeader
             )}
           >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"headerDisplayWrapper"}
+              data-plasmic-override={overrides.headerDisplayWrapper}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.headerDisplayWrapper
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__zSxNn
+                )}
+              >
+                {p.renderPlasmicSlot({
+                  defaultContents: "Page Title",
+                  value: args.pageHeading,
+                  className: classNames(sty.slotTargetPageHeading)
+                })}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__oKver
+                )}
+              >
+                {p.renderPlasmicSlot({
+                  defaultContents: "Page Heading",
+                  value: args.pageSubHeading,
+                  className: classNames(sty.slotTargetPageSubHeading)
+                })}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox___6ECGn
+                )}
+              >
+                {p.renderPlasmicSlot({
+                  defaultContents: "Page Description",
+                  value: args.pageDescription,
+                  className: classNames(sty.slotTargetPageDescription)
+                })}
+              </div>
+            </p.Stack>
+
             {p.renderPlasmicSlot({
               defaultContents: null,
               value: args.main
             })}
-          </div>
+          </p.Stack>
 
           <FooterB
             data-plasmic-name={"footerB"}
@@ -141,11 +214,44 @@ function PlasmicLayout__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbar", "sidebar", "body", "main", "footerB"],
+  root: [
+    "root",
+    "navbar",
+    "sidebar",
+    "body",
+    "main",
+    "subHeader",
+    "tabNavigationWrapper",
+    "bodyHeader",
+    "headerDisplayWrapper",
+    "footerB"
+  ],
+
   navbar: ["navbar"],
   sidebar: ["sidebar"],
-  body: ["body", "main", "footerB"],
-  main: ["main", "footerB"],
+  body: [
+    "body",
+    "main",
+    "subHeader",
+    "tabNavigationWrapper",
+    "bodyHeader",
+    "headerDisplayWrapper",
+    "footerB"
+  ],
+
+  main: [
+    "main",
+    "subHeader",
+    "tabNavigationWrapper",
+    "bodyHeader",
+    "headerDisplayWrapper",
+    "footerB"
+  ],
+
+  subHeader: ["subHeader", "tabNavigationWrapper"],
+  tabNavigationWrapper: ["tabNavigationWrapper"],
+  bodyHeader: ["bodyHeader", "headerDisplayWrapper"],
+  headerDisplayWrapper: ["headerDisplayWrapper"],
   footerB: ["footerB"]
 };
 
@@ -184,6 +290,10 @@ export const PlasmicLayout = Object.assign(
     sidebar: makeNodeComponent("sidebar"),
     body: makeNodeComponent("body"),
     main: makeNodeComponent("main"),
+    subHeader: makeNodeComponent("subHeader"),
+    tabNavigationWrapper: makeNodeComponent("tabNavigationWrapper"),
+    bodyHeader: makeNodeComponent("bodyHeader"),
+    headerDisplayWrapper: makeNodeComponent("headerDisplayWrapper"),
     footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLayout
     internalVariantProps: PlasmicLayout__VariantProps,

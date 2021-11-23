@@ -1,7 +1,5 @@
 import * as React from "react";
 
-import { PAGE_TAB_NAVIGATIONS, PAGE_TAB_NAVIGATION_KEY } from "constants/page-tab-navigations";
-
 import { PlasmicEditmembersettings } from "../../../components/plasmic/market_v_2/PlasmicEditmembersettings";
 
 function Editmembersettings() {
@@ -110,5 +108,3 @@ function Editmembersettings() {
 }
 
 export default Editmembersettings;
-
-Editmembersettings.tabNavigations = PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER]

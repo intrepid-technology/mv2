@@ -64,43 +64,47 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
             sty.root
           )}
         >
-          <p.Stack
-            as={"section"}
-            data-plasmic-name={"sectionMemberManageProjectsHeader"}
-            data-plasmic-override={overrides.sectionMemberManageProjectsHeader}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.sectionMemberManageProjectsHeader
-            )}
-          >
-            <CardHeaderTitleDisplay
-              data-plasmic-name={"cardHeaderTitleDisplay"}
-              data-plasmic-override={overrides.cardHeaderTitleDisplay}
+          {false ? (
+            <p.Stack
+              as={"section"}
+              data-plasmic-name={"sectionMemberManageProjectsHeader"}
+              data-plasmic-override={
+                overrides.sectionMemberManageProjectsHeader
+              }
+              hasGap={true}
               className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay
+                defaultcss.all,
+                projectcss.all,
+                sty.sectionMemberManageProjectsHeader
               )}
-              size={"_720"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__qYxNs
-                  )}
-                >
-                  {"Manage your projects"}
-                </div>
-              }
-              textDisplay={"Projects"}
-              textSubhead={
-                "Project overview with controls on how to contact your partner and provide instructions on how to complete your project"
-              }
-            />
-          </p.Stack>
+            >
+              <CardHeaderTitleDisplay
+                data-plasmic-name={"cardHeaderTitleDisplay"}
+                data-plasmic-override={overrides.cardHeaderTitleDisplay}
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardHeaderTitleDisplay
+                )}
+                size={"_720"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__qYxNs
+                    )}
+                  >
+                    {"Manage your projects"}
+                  </div>
+                }
+                textDisplay={"Projects"}
+                textSubhead={
+                  "Project overview with controls on how to contact your partner and provide instructions on how to complete your project"
+                }
+              />
+            </p.Stack>
+          ) : null}
 
           <p.Stack
             as={"section"}

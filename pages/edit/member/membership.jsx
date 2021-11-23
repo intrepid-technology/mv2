@@ -2,8 +2,6 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 
-import { PAGE_TAB_NAVIGATIONS, PAGE_TAB_NAVIGATION_KEY } from "constants/page-tab-navigations";
-
 import { PlasmicEditmembermembership } from "../../../components/plasmic/market_v_2/PlasmicEditmembermembership";
 
 function Editmembermembership() {
@@ -27,5 +25,3 @@ function Editmembermembership() {
 }
 
 export default Editmembermembership;
-
-Editmembermembership.tabNavigations = PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER]

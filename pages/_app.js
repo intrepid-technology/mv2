@@ -9,10 +9,13 @@ import PageTabNavigations from "components/PageTabNavigations";
 import { Provider } from "react-redux";
 import firebaseApp from "../backend/api/firebase";
 import { store } from "../store";
+import { usePageLayoutProps } from "hooks/useLayoutTabNavigations";
+import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   const isAuth = true;
   const [queryClient] = React.useState(() => new QueryClient());
+  const pageLayoutProps = usePageLayoutProps()
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -24,8 +27,14 @@ function MyApp({ Component, pageProps }) {
             }}
             main={<Component {...pageProps} />}
             tabNavigationWrapper={
-              <PageTabNavigations navLinks={Component.tabNavigations} />
+              <PageTabNavigations navLinks={pageLayoutProps.tabs} />
             }
+            pageHeading={pageLayoutProps?.heading}
+            pageSubHeading={pageLayoutProps?.subHeading}
+            pageDescription={pageLayoutProps?.description}
+            headerDisplayWrapper={{
+              wrapChildren: (children) => Boolean(pageLayoutProps?.heading) ? children : null
+            }}
           />
         </Provider>
       </Hydrate>
