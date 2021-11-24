@@ -1,5 +1,10 @@
 import { useMutation } from "react-query";
+import axios from "axios";
 import supabase from "../backend/api/supabase";
+
+const protocol = "http";
+const host = "localhost";
+const port = "8000";
 
 const createOrder = async (buyerId, listingId) => {
   const { data, error: error } = await axios.post(

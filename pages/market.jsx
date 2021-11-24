@@ -2,6 +2,7 @@
 // This file is owned by you, feel free to edit as you see fit.
 import React from "react";
 import { PlasmicMarket } from "../components/plasmic/market_v_2/PlasmicMarket";
+import { PlasmicCardServiceDisplay } from "../components/plasmic/market_v_2/PlasmicCardServiceDisplay";
 import useListings from "../hooks/useListings";
 import Link from "next/link";
 
@@ -12,22 +13,28 @@ function Market() {
     return <>Loading</>;
   }
 
-  const listingComponent = listings.map((listing) => {
-    const linkHref = `/service-detail?id=${listing.id}`;
-    return (
-      <li key={listing.id}>
-        <Link href={linkHref}>
-          <a>{listing.name}</a>
-        </Link>
-      </li>
-    );
-  });
-
   return (
-    <div>
-      {listingComponent}
-      <PlasmicMarket />;
-    </div>
+    <PlasmicMarket
+      cardServiceDisplay={{
+        render: () =>
+          listings.map((listing) => (
+            <Link href={`/service/detail?id=${listing.id}`}>
+              <PlasmicCardServiceDisplay
+                price={true}
+                boost={true}
+                userStats={true}
+                rating={true}
+                membership={true}
+                verification={true}
+                avatar={true}
+                sellerUsername={listing.name}
+                serviceDescription={listing.descrption}
+                size={"_270X270"}
+              />
+            </Link>
+          )),
+      }}
+    />
   );
 }
 
