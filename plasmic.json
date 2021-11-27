@@ -4561,6 +4561,32 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicMembermanageprojects.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "ZTbdEO5NC7",
+          "name": "PageBreadcrumbs",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPageBreadcrumbs.jsx",
+          "importSpec": {
+            "modulePath": "PageBreadcrumbs.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPageBreadcrumbs.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gTweajUNVw",
+          "name": "Breadcrumb",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicBreadcrumb.jsx",
+          "importSpec": {
+            "modulePath": "Breadcrumb.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicBreadcrumb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

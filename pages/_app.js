@@ -5,6 +5,7 @@ import * as React from "react";
 import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
 
 import Layout from "../components/Layout";
+import PageBreadcrumbs from "components/PageBreadcrumbs";
 import PageTabNavigations from "components/PageTabNavigations";
 import { Provider } from "react-redux";
 import firebaseApp from "../backend/api/firebase";
@@ -14,6 +15,7 @@ import { useRouter } from "next/router";
 
 function MyApp({ Component, pageProps }) {
   const isAuth = true;
+  const router = useRouter()
   const [queryClient] = React.useState(() => new QueryClient());
   const pageLayoutProps = usePageLayoutProps()
 
@@ -29,11 +31,19 @@ function MyApp({ Component, pageProps }) {
             tabNavigationWrapper={
               <PageTabNavigations navLinks={pageLayoutProps.tabs} />
             }
+            breadcrumbsWrapper={
+              <PageBreadcrumbs />
+            }
             pageHeading={pageLayoutProps?.heading}
             pageSubHeading={pageLayoutProps?.subHeading}
             pageDescription={pageLayoutProps?.description}
             headerDisplayWrapper={{
               wrapChildren: (children) => Boolean(pageLayoutProps?.heading) ? children : null
+            }}
+            navBackButton={{
+              onClick: () => {
+                router.back()
+              }
             }}
           />
         </Provider>

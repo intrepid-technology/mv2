@@ -19,33 +19,46 @@ export const PAGE_TAB_NAVIGATIONS = {
     ]
 }
 
+export const PAGE_BREADCRUMBS = {
+    [PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER]: [
+        {label: 'Home', destination: '/dashboard'},
+        {label: 'Edit'},
+        {label: 'Member'}
+    ],
+}
+
 export const PAGE_LAYOUT_PROPS = {
     '/edit/member': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         heading: 'Member',
         subHeading: 'Edit profile',
         description: 'Set your creator profile and make a great first impression'
     },
     '/edit/member/membership': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         heading: 'Membership',
         subHeading: 'Plan & perks',
         description: 'Maintain a safe and secure community experience  '
     },
     '/edit/member/settings': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         heading: 'Settings',
         subHeading: 'Manage your account',
         description: 'Maintain a safe and secure community experience  '
     },
     '/member/manage/projects': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         heading: 'Projects',
         subHeading: 'Manage your projects',
         description: 'Project overview with controls on how to contact your partner and provide instructions on how to complete your project'
     },
     '/edit/team': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         heading: 'Team',
         subHeading: 'Edit profile',
         description: 'Set your partner profile and make a great first impression'

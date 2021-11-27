@@ -19,12 +19,14 @@ import {
 } from "@plasmicapp/react-web";
 import Navbar from "../../Navbar"; // plasmic-import: pP9c6XTFzc/component
 import Sidebar from "../../Sidebar"; // plasmic-import: WJhSPQRdlH/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
+import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
 
 export const PlasmicLayout__VariantProps = new Array();
 
@@ -33,7 +35,8 @@ export const PlasmicLayout__ArgProps = new Array(
   "tabNavigationWrapper",
   "pageHeading",
   "pageSubHeading",
-  "pageDescription"
+  "pageDescription",
+  "breadcrumbsWrapper"
 );
 
 function PlasmicLayout__RenderFunc(props) {
@@ -104,32 +107,116 @@ function PlasmicLayout__RenderFunc(props) {
             )
           })}
         >
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"subHeader"}
-            data-plasmic-override={overrides.subHeader}
-            hasGap={true}
+          <div
+            data-plasmic-name={"navigationWrapper"}
+            data-plasmic-override={overrides.navigationWrapper}
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.subHeader
+              sty.navigationWrapper
             )}
           >
-            <div
-              data-plasmic-name={"tabNavigationWrapper"}
-              data-plasmic-override={overrides.tabNavigationWrapper}
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"breadcrumbs"}
+              data-plasmic-override={overrides.breadcrumbs}
+              hasGap={true}
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
-                sty.tabNavigationWrapper
+                sty.breadcrumbs,
+                {
+                  [sty.breadcrumbs__global_layout_sidebarOpen]: hasVariant(
+                    globalVariants,
+                    "layout",
+                    "sidebarOpen"
+                  )
+                }
               )}
             >
-              {p.renderPlasmicSlot({
-                defaultContents: null,
-                value: args.tabNavigationWrapper
-              })}
-            </div>
-          </p.Stack>
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"breadcrumbsWrapper"}
+                data-plasmic-override={overrides.breadcrumbsWrapper}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.breadcrumbsWrapper
+                )}
+              >
+                <div
+                  data-plasmic-name={"navBackButtonWrapper"}
+                  data-plasmic-override={overrides.navBackButtonWrapper}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.navBackButtonWrapper
+                  )}
+                >
+                  <Button
+                    data-plasmic-name={"navBackButton"}
+                    data-plasmic-override={overrides.navBackButton}
+                    className={classNames("__wab_instance", sty.navBackButton)}
+                    hasShadow={"hasShadow"}
+                    noPadding={"noPadding"}
+                    rounded={"rounded"}
+                    type={"primary"}
+                  >
+                    <Icon43Icon
+                      data-plasmic-name={"svg"}
+                      data-plasmic-override={overrides.svg}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg
+                      )}
+                      role={"img"}
+                    />
+                  </Button>
+                </div>
+
+                {p.renderPlasmicSlot({
+                  defaultContents: null,
+                  value: args.breadcrumbsWrapper
+                })}
+              </p.Stack>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"tabNavigation"}
+              data-plasmic-override={overrides.tabNavigation}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.tabNavigation,
+                {
+                  [sty.tabNavigation__global_layout_sidebarOpen]: hasVariant(
+                    globalVariants,
+                    "layout",
+                    "sidebarOpen"
+                  )
+                }
+              )}
+            >
+              <div
+                data-plasmic-name={"tabNavigationWrapper"}
+                data-plasmic-override={overrides.tabNavigationWrapper}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.tabNavigationWrapper
+                )}
+              >
+                {p.renderPlasmicSlot({
+                  defaultContents: null,
+                  value: args.tabNavigationWrapper
+                })}
+              </div>
+            </p.Stack>
+          </div>
 
           <p.Stack
             as={"div"}
@@ -139,7 +226,14 @@ function PlasmicLayout__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.bodyHeader
+              sty.bodyHeader,
+              {
+                [sty.bodyHeader__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              }
             )}
           >
             <p.Stack
@@ -220,7 +314,13 @@ const PlasmicDescendants = {
     "sidebar",
     "body",
     "main",
-    "subHeader",
+    "navigationWrapper",
+    "breadcrumbs",
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg",
+    "tabNavigation",
     "tabNavigationWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
@@ -232,7 +332,13 @@ const PlasmicDescendants = {
   body: [
     "body",
     "main",
-    "subHeader",
+    "navigationWrapper",
+    "breadcrumbs",
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg",
+    "tabNavigation",
     "tabNavigationWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
@@ -241,14 +347,49 @@ const PlasmicDescendants = {
 
   main: [
     "main",
-    "subHeader",
+    "navigationWrapper",
+    "breadcrumbs",
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg",
+    "tabNavigation",
     "tabNavigationWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
     "footerB"
   ],
 
-  subHeader: ["subHeader", "tabNavigationWrapper"],
+  navigationWrapper: [
+    "navigationWrapper",
+    "breadcrumbs",
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg",
+    "tabNavigation",
+    "tabNavigationWrapper"
+  ],
+
+  breadcrumbs: [
+    "breadcrumbs",
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg"
+  ],
+
+  breadcrumbsWrapper: [
+    "breadcrumbsWrapper",
+    "navBackButtonWrapper",
+    "navBackButton",
+    "svg"
+  ],
+
+  navBackButtonWrapper: ["navBackButtonWrapper", "navBackButton", "svg"],
+  navBackButton: ["navBackButton", "svg"],
+  svg: ["svg"],
+  tabNavigation: ["tabNavigation", "tabNavigationWrapper"],
   tabNavigationWrapper: ["tabNavigationWrapper"],
   bodyHeader: ["bodyHeader", "headerDisplayWrapper"],
   headerDisplayWrapper: ["headerDisplayWrapper"],
@@ -290,7 +431,13 @@ export const PlasmicLayout = Object.assign(
     sidebar: makeNodeComponent("sidebar"),
     body: makeNodeComponent("body"),
     main: makeNodeComponent("main"),
-    subHeader: makeNodeComponent("subHeader"),
+    navigationWrapper: makeNodeComponent("navigationWrapper"),
+    breadcrumbs: makeNodeComponent("breadcrumbs"),
+    breadcrumbsWrapper: makeNodeComponent("breadcrumbsWrapper"),
+    navBackButtonWrapper: makeNodeComponent("navBackButtonWrapper"),
+    navBackButton: makeNodeComponent("navBackButton"),
+    svg: makeNodeComponent("svg"),
+    tabNavigation: makeNodeComponent("tabNavigation"),
     tabNavigationWrapper: makeNodeComponent("tabNavigationWrapper"),
     bodyHeader: makeNodeComponent("bodyHeader"),
     headerDisplayWrapper: makeNodeComponent("headerDisplayWrapper"),

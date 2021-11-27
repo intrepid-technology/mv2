@@ -92,13 +92,17 @@ function PlasmicNavbar__RenderFunc(props) {
         ) : null}
         {(
           hasVariant(variants, "auth", "auth") &&
-          hasVariant(globalVariants, "screen", "iphone678Plus")
+          hasVariant(globalVariants, "screen", "iphone678")
+            ? true
+            : hasVariant(variants, "auth", "auth") &&
+              hasVariant(globalVariants, "screen", "iphone678Plus")
             ? false
             : true
         ) ? (
           <NavbarLogo
             data-plasmic-name={"navbarLogo"}
             data-plasmic-override={overrides.navbarLogo}
+            className={classNames("__wab_instance")}
           />
         ) : null}
       </p.Stack>
@@ -206,7 +210,10 @@ function PlasmicNavbar__RenderFunc(props) {
 
                 {(
                   hasVariant(variants, "auth", "auth") &&
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone678")
+                    ? true
+                    : hasVariant(variants, "auth", "auth") &&
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
                     ? true
                     : true
                 ) ? (
