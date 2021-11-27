@@ -4587,6 +4587,19 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicBreadcrumb.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "4xruSD_IDH",
+          "name": "PageScrollNavigations",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicPageScrollNavigations.jsx",
+          "importSpec": {
+            "modulePath": "PageScrollNavigations.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicPageScrollNavigations.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

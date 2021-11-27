@@ -27,10 +27,19 @@ export const PAGE_BREADCRUMBS = {
     ],
 }
 
+export const PAGE_SCROLL_NAVIGATIONS = {
+    '/edit/member': [
+        {label: 'Profile', destination: '#profile'},
+        {label: 'Details', destination: '#profile-details'},
+        {label: 'Social', destination: '#profile-social'}
+    ],
+}
+
 export const PAGE_LAYOUT_PROPS = {
     '/edit/member': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
+        scrollNavigations: PAGE_SCROLL_NAVIGATIONS['/edit/member'],
         heading: 'Member',
         subHeading: 'Edit profile',
         description: 'Set your creator profile and make a great first impression'

@@ -78,6 +78,7 @@ function PlasmicEditmember__RenderFunc(props) {
               projectcss.all,
               sty.sectionMemberEditProfile
             )}
+            id={"profile"}
           >
             {false ? (
               <CardHeaderTitleDisplay
@@ -568,6 +569,7 @@ function PlasmicEditmember__RenderFunc(props) {
               projectcss.all,
               sty.sectionMemberEditProfileDetails
             )}
+            id={"profile-details"}
           >
             <CardHeaderTitleDisplay
               className={classNames(
@@ -989,6 +991,7 @@ function PlasmicEditmember__RenderFunc(props) {
               projectcss.all,
               sty.sectionMemberEditProfileSocial
             )}
+            id={"profile-social"}
           >
             <CardHeaderTitleDisplay
               className={classNames(

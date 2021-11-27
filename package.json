@@ -19,6 +19,7 @@
     "debounce": "^1.2.1",
     "downshift": "^6.1.7",
     "firebase": "^9.2.0",
+    "framer-motion": "^5.3.3",
     "lodash": "^4.17.21",
     "next": "11.0.0",
     "react": "17.0.2",

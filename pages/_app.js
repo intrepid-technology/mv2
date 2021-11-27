@@ -6,6 +6,7 @@ import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
 
 import Layout from "../components/Layout";
 import PageBreadcrumbs from "components/PageBreadcrumbs";
+import PageScrollNavigations from "components/PageScrollNavigations";
 import PageTabNavigations from "components/PageTabNavigations";
 import { Provider } from "react-redux";
 import firebaseApp from "../backend/api/firebase";
@@ -31,9 +32,8 @@ function MyApp({ Component, pageProps }) {
             tabNavigationWrapper={
               <PageTabNavigations navLinks={pageLayoutProps.tabs} />
             }
-            breadcrumbsWrapper={
-              <PageBreadcrumbs />
-            }
+            breadcrumbsWrapper={<PageBreadcrumbs />}
+            scrollNavigationWrapper={<PageScrollNavigations />}
             pageHeading={pageLayoutProps?.heading}
             pageSubHeading={pageLayoutProps?.subHeading}
             pageDescription={pageLayoutProps?.description}

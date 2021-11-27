@@ -22,7 +22,11 @@ import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-i
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTab.module.css"; // plasmic-import: tCiyOEgIeVL/css
 
-export const PlasmicTab__VariantProps = new Array("color", "state");
+export const PlasmicTab__VariantProps = new Array(
+  "color",
+  "state",
+  "activeBorder"
+);
 
 export const PlasmicTab__ArgProps = new Array("label", "destination");
 
@@ -44,7 +48,10 @@ function PlasmicTab__RenderFunc(props) {
           [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.root__color_light]: hasVariant(variants, "color", "light"),
           [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
-          [sty.root__state_selected]: hasVariant(variants, "state", "selected")
+          [sty.root__state_selected]: hasVariant(variants, "state", "selected"),
+          [sty.root__state_selected_activeBorder_left]:
+            hasVariant(variants, "state", "selected") &&
+            hasVariant(variants, "activeBorder", "left")
         }
       )}
       component={Link}
@@ -62,13 +69,26 @@ function PlasmicTab__RenderFunc(props) {
             variants,
             "state",
             "selected"
-          )
+          ),
+
+          [sty.parent__state_selected_activeBorder_left]:
+            hasVariant(variants, "state", "selected") &&
+            hasVariant(variants, "activeBorder", "left")
         })}
       >
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textParent,
+            {
+              [sty.textParent__state_selected_activeBorder_left]:
+                hasVariant(variants, "state", "selected") &&
+                hasVariant(variants, "activeBorder", "left")
+            }
+          )}
         >
           <div
             data-plasmic-name={"textBg"}

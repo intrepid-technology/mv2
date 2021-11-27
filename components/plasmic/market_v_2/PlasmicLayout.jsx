@@ -36,7 +36,8 @@ export const PlasmicLayout__ArgProps = new Array(
   "pageHeading",
   "pageSubHeading",
   "pageDescription",
-  "breadcrumbsWrapper"
+  "breadcrumbsWrapper",
+  "scrollNavigationWrapper"
 );
 
 function PlasmicLayout__RenderFunc(props) {
@@ -218,82 +219,119 @@ function PlasmicLayout__RenderFunc(props) {
             </p.Stack>
           </div>
 
+          <div
+            data-plasmic-name={"scrollNavigationWrapper"}
+            data-plasmic-override={overrides.scrollNavigationWrapper}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.scrollNavigationWrapper
+            )}
+          >
+            <div
+              data-plasmic-name={"scrollNavigation"}
+              data-plasmic-override={overrides.scrollNavigation}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.scrollNavigation
+              )}
+            >
+              {p.renderPlasmicSlot({
+                defaultContents: null,
+                value: args.scrollNavigationWrapper
+              })}
+            </div>
+          </div>
+
           <p.Stack
             as={"div"}
-            data-plasmic-name={"bodyHeader"}
-            data-plasmic-override={overrides.bodyHeader}
+            data-plasmic-name={"mainContentWrapper"}
+            data-plasmic-override={overrides.mainContentWrapper}
             hasGap={true}
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.bodyHeader,
-              {
-                [sty.bodyHeader__global_layout_sidebarOpen]: hasVariant(
-                  globalVariants,
-                  "layout",
-                  "sidebarOpen"
-                )
-              }
+              sty.mainContentWrapper
             )}
           >
             <p.Stack
               as={"div"}
-              data-plasmic-name={"headerDisplayWrapper"}
-              data-plasmic-override={overrides.headerDisplayWrapper}
+              data-plasmic-name={"bodyHeader"}
+              data-plasmic-override={overrides.bodyHeader}
               hasGap={true}
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
-                sty.headerDisplayWrapper
+                sty.bodyHeader,
+                {
+                  [sty.bodyHeader__global_layout_sidebarOpen]: hasVariant(
+                    globalVariants,
+                    "layout",
+                    "sidebarOpen"
+                  )
+                }
               )}
             >
-              <div
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"headerDisplayWrapper"}
+                data-plasmic-override={overrides.headerDisplayWrapper}
+                hasGap={true}
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
-                  sty.freeBox__zSxNn
+                  sty.headerDisplayWrapper
                 )}
               >
-                {p.renderPlasmicSlot({
-                  defaultContents: "Page Title",
-                  value: args.pageHeading,
-                  className: classNames(sty.slotTargetPageHeading)
-                })}
-              </div>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__zSxNn
+                  )}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: "Page Title",
+                    value: args.pageHeading,
+                    className: classNames(sty.slotTargetPageHeading)
+                  })}
+                </div>
 
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__oKver
-                )}
-              >
-                {p.renderPlasmicSlot({
-                  defaultContents: "Page Heading",
-                  value: args.pageSubHeading,
-                  className: classNames(sty.slotTargetPageSubHeading)
-                })}
-              </div>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__oKver
+                  )}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: "Page Heading",
+                    value: args.pageSubHeading,
+                    className: classNames(sty.slotTargetPageSubHeading)
+                  })}
+                </div>
 
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox___6ECGn
-                )}
-              >
-                {p.renderPlasmicSlot({
-                  defaultContents: "Page Description",
-                  value: args.pageDescription,
-                  className: classNames(sty.slotTargetPageDescription)
-                })}
-              </div>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___6ECGn
+                  )}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents: "Page Description",
+                    value: args.pageDescription,
+                    className: classNames(sty.slotTargetPageDescription)
+                  })}
+                </div>
+              </p.Stack>
+
+              {p.renderPlasmicSlot({
+                defaultContents: null,
+                value: args.main
+              })}
             </p.Stack>
-
-            {p.renderPlasmicSlot({
-              defaultContents: null,
-              value: args.main
-            })}
           </p.Stack>
 
           <FooterB
@@ -322,6 +360,9 @@ const PlasmicDescendants = {
     "svg",
     "tabNavigation",
     "tabNavigationWrapper",
+    "scrollNavigationWrapper",
+    "scrollNavigation",
+    "mainContentWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
     "footerB"
@@ -340,6 +381,9 @@ const PlasmicDescendants = {
     "svg",
     "tabNavigation",
     "tabNavigationWrapper",
+    "scrollNavigationWrapper",
+    "scrollNavigation",
+    "mainContentWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
     "footerB"
@@ -355,6 +399,9 @@ const PlasmicDescendants = {
     "svg",
     "tabNavigation",
     "tabNavigationWrapper",
+    "scrollNavigationWrapper",
+    "scrollNavigation",
+    "mainContentWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
     "footerB"
@@ -391,6 +438,14 @@ const PlasmicDescendants = {
   svg: ["svg"],
   tabNavigation: ["tabNavigation", "tabNavigationWrapper"],
   tabNavigationWrapper: ["tabNavigationWrapper"],
+  scrollNavigationWrapper: ["scrollNavigationWrapper", "scrollNavigation"],
+  scrollNavigation: ["scrollNavigation"],
+  mainContentWrapper: [
+    "mainContentWrapper",
+    "bodyHeader",
+    "headerDisplayWrapper"
+  ],
+
   bodyHeader: ["bodyHeader", "headerDisplayWrapper"],
   headerDisplayWrapper: ["headerDisplayWrapper"],
   footerB: ["footerB"]
@@ -439,6 +494,9 @@ export const PlasmicLayout = Object.assign(
     svg: makeNodeComponent("svg"),
     tabNavigation: makeNodeComponent("tabNavigation"),
     tabNavigationWrapper: makeNodeComponent("tabNavigationWrapper"),
+    scrollNavigationWrapper: makeNodeComponent("scrollNavigationWrapper"),
+    scrollNavigation: makeNodeComponent("scrollNavigation"),
+    mainContentWrapper: makeNodeComponent("mainContentWrapper"),
     bodyHeader: makeNodeComponent("bodyHeader"),
     headerDisplayWrapper: makeNodeComponent("headerDisplayWrapper"),
     footerB: makeNodeComponent("footerB"),
