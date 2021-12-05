@@ -26,6 +26,7 @@ import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTe
 import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
 import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import DialogInviteProfessional from "../../DialogInviteProfessional"; // plasmic-import: UnAAzfphtK/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
@@ -52,11 +53,13 @@ function PlasmicTest__RenderFunc(props) {
       `}</style>
 
       <div className={defaultcss.plasmic_page_wrapper}>
-        <div
+        <p.Stack
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
+          hasGap={true}
           className={classNames(
             defaultcss.all,
             projectcss.all,
@@ -198,7 +201,16 @@ function PlasmicTest__RenderFunc(props) {
               </p.Stack>
             </div>
           </FormContext>
-        </div>
+
+          <DialogInviteProfessional
+            data-plasmic-name={"dialogInviteProfessional"}
+            data-plasmic-override={overrides.dialogInviteProfessional}
+            className={classNames(
+              "__wab_instance",
+              sty.dialogInviteProfessional
+            )}
+          />
+        </p.Stack>
       </div>
     </React.Fragment>
   );
@@ -216,7 +228,8 @@ const PlasmicDescendants = {
     "formMultiCheckboxInput",
     "formMultiSelectInput",
     "submitButton",
-    "text"
+    "text",
+    "dialogInviteProfessional"
   ],
 
   formContext: [
@@ -240,7 +253,8 @@ const PlasmicDescendants = {
   formMultiCheckboxInput: ["formMultiCheckboxInput"],
   formMultiSelectInput: ["formMultiSelectInput"],
   submitButton: ["submitButton", "text"],
-  text: ["text"]
+  text: ["text"],
+  dialogInviteProfessional: ["dialogInviteProfessional"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -284,6 +298,7 @@ export const PlasmicTest = Object.assign(
     formMultiSelectInput: makeNodeComponent("formMultiSelectInput"),
     submitButton: makeNodeComponent("submitButton"),
     text: makeNodeComponent("text"),
+    dialogInviteProfessional: makeNodeComponent("dialogInviteProfessional"),
     // Metadata about props expected for PlasmicTest
     internalVariantProps: PlasmicTest__VariantProps,
     internalArgProps: PlasmicTest__ArgProps

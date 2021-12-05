@@ -23,6 +23,7 @@ import * as sty from "./PlasmicNavbarAdminIcons.module.css"; // plasmic-import: 
 import SettingsIcon from "./icons/PlasmicIcon__Settings"; // plasmic-import: QA4fGpoajM/icon
 import NotificationIcon from "./icons/PlasmicIcon__Notification"; // plasmic-import: rEeGdo5vaH/icon
 import HelpIcon from "./icons/PlasmicIcon__Help"; // plasmic-import: 0BaaB_Gau/icon
+import MailInboxIcon from "./icons/PlasmicIcon__MailInbox"; // plasmic-import: kWZFhy4nss/icon
 
 export const PlasmicNavbarAdminIcons__VariantProps = new Array(
   "light",
@@ -51,7 +52,9 @@ function PlasmicNavbarAdminIcons__RenderFunc(props) {
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         PlasmicIconType={
-          hasVariant(variants, "alternates", "help")
+          hasVariant(variants, "alternates", "inbox")
+            ? MailInboxIcon
+            : hasVariant(variants, "alternates", "help")
             ? HelpIcon
             : hasVariant(variants, "alternates", "notification")
             ? NotificationIcon
@@ -62,6 +65,12 @@ function PlasmicNavbarAdminIcons__RenderFunc(props) {
             variants,
             "alternates",
             "help"
+          ),
+
+          [sty.svg__alternates_inbox]: hasVariant(
+            variants,
+            "alternates",
+            "inbox"
           ),
 
           [sty.svg__alternates_notification]: hasVariant(

@@ -39,7 +39,7 @@
   margin-top: 24px;
 }
 .editHeadlineTitleParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -138,6 +138,7 @@
 }
 .buttonPrimary__wghUd:global(.__wab_instance) {
   flex-shrink: 0;
+  display: flex;
 }
 .svg__mhnkA {
   width: 100%;

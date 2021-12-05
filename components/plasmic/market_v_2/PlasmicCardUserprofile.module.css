@@ -7,7 +7,7 @@
   background: #ffffff;
   border-radius: 4px;
   padding: 8px 16px 32px;
-  border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -23,7 +23,7 @@
   margin-top: 16px;
 }
 .root:hover {
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root:active {
   border-color: #a385ff /* plasmic-token: rN0ul5_oz */;
@@ -60,7 +60,7 @@
   margin-left: 0px;
 }
 .saveProfile {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -81,7 +81,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -89,7 +89,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -97,7 +97,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -105,21 +105,21 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
 .root .svgSave:hover {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root:hover .svgSave:hover {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__rqc3W {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -127,7 +127,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -135,7 +135,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -143,7 +143,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -151,7 +151,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -159,7 +159,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -404,7 +404,7 @@
   margin-left: 0px;
 }
 .freeBox___3EZvu {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -523,7 +523,7 @@
   margin-left: 8px;
 }
 .viewButtonCount {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -565,14 +565,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
 .root .viewDisplay:hover {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .viewNumberValueParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: flex-start;
@@ -585,10 +585,10 @@
 .viewNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .heartButtonCount {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -630,14 +630,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
 .root .heartDisplay:hover {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .heartNumberValueParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: flex-start;
@@ -650,10 +650,10 @@
 .heartNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkButtonCount {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -698,14 +698,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
 .root .bookmarkDisplay:hover {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkNumberValueParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: flex-start;
@@ -720,8 +720,7 @@
   font-size: 12px;
   width: auto;
   height: auto;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
-  display: inline-block;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .location {
   display: flex;
@@ -752,7 +751,7 @@
   margin-left: 2px;
 }
 .cityText {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -766,17 +765,17 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .text__tFqJe {
-  display: inline-block;
+  display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   width: auto;
@@ -796,6 +795,6 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }

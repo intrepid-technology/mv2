@@ -64,7 +64,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.2;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   width: 100%;
@@ -80,7 +80,7 @@
   min-width: 0;
   min-height: 0;
   border-width: 2px;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .textInput__size__360 {
   font-size: 14px;

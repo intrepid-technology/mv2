@@ -123,7 +123,7 @@
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   text-align: center;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -133,7 +133,7 @@
     font-weight: 600;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
     text-align: center;
   }
 }
@@ -144,7 +144,7 @@
     font-weight: 600;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
   }
 }
 .subheadParent {
@@ -211,7 +211,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
   text-align: center;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -221,7 +221,7 @@
     font-weight: 500;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #666666 /* plasmic-token: MAJ29KQMI */;
+    color: #14161b /* plasmic-token: MAJ29KQMI */;
     text-align: center;
   }
 }
@@ -233,4 +233,5 @@
 }
 .inputEmailA:global(.__wab_instance) {
   position: relative;
+  display: flex;
 }

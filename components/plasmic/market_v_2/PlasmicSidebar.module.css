@@ -8,13 +8,19 @@
   background: #ffffff;
   position: relative;
   min-height: 0;
-  border-right: 1px solid #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  border-right: 1px solid #eaeaea /* plasmic-token: t2DPA2Clx */;
+}
+.root__global_layout_sidebarOpen {
+  display: flex;
+}
+.root__global_layout_isSellerView {
+  display: flex;
 }
 .header {
   display: flex;
   position: relative;
   flex-direction: row;
-  height: 60px;
+  height: 80px;
   flex-shrink: 0;
   padding: 8px;
 }

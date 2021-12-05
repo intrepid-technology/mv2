@@ -15,7 +15,7 @@
   padding: 2px;
 }
 .badgeParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
@@ -24,7 +24,7 @@
   height: auto;
 }
 .avatarparent {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
@@ -35,20 +35,18 @@
 .avatarparent__size__18 {
   width: auto;
   height: auto;
-  display: inline-flex;
   padding: 0px;
 }
 .avatarparent__size__24 {
   width: auto;
   height: auto;
-  display: inline-flex;
   padding: 0px;
 }
 .avatarparent__size__32 {
   padding: 0px;
 }
 .slotTargetNavUserAvatar16 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar16__size__18 {
   line-height: 1;
@@ -72,7 +70,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar24 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar24__size__18 {
   line-height: 1;
@@ -96,7 +94,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar32 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar32__size__18 {
   line-height: 1;
@@ -120,7 +118,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar24 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetPartnerAvatar24__size__18 {
   line-height: 1;
@@ -144,7 +142,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar18 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetPartnerAvatar18__size__18 {
   line-height: 1;
@@ -168,7 +166,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar32 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetPartnerAvatar32__size__18 {
   line-height: 1;
@@ -192,7 +190,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar40 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar40__size__18 {
   line-height: 1;
@@ -216,7 +214,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar48 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar48__size__18 {
   line-height: 1;
@@ -240,7 +238,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar64 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar64__size__18 {
   line-height: 1;
@@ -264,7 +262,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar80 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar80__size__18 {
   line-height: 1;
@@ -288,7 +286,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar18 {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavUserAvatar18__size__18 {
   line-height: 1;
@@ -312,7 +310,7 @@
   object-fit: cover;
 }
 .badge {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -336,18 +334,23 @@
 }
 .badge__size__32_verified {
   margin-bottom: -24px;
+  display: flex;
 }
 .badge__size__40_verified {
   margin-bottom: -28px;
   margin-left: -8px;
+  display: flex;
 }
 .badge__size__48_verified {
   margin-bottom: -32px;
+  display: flex;
 }
 .badge__size__64_verified {
   margin-bottom: -32px;
+  display: flex;
 }
 .badge__size__80_verified {
   margin-bottom: -48px;
   margin-left: -16px;
+  display: flex;
 }

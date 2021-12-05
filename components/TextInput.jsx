@@ -12,7 +12,7 @@ function TextInput_({ value, onChange, disabled, ...props }, ref) {
       root={{ ref }}
       {...props}
       disabled={disabled}
-      textbox={{
+      textInput={{
         type: props.type || "text",
         disabled,
         value,

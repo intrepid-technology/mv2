@@ -29,7 +29,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: #000000;
+  background: #101010;
   flex-shrink: 0;
   padding: 40px;
 }
@@ -68,7 +68,7 @@
   flex-direction: column;
 }
 .slotTargetChildren {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .buttonPrimary:global(.__wab_instance) {
   position: relative;

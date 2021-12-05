@@ -32,11 +32,11 @@
   border-right-width: 1px;
   border-left-style: none;
   border-left-width: 1px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   background: #f8f8f8;
   min-width: 0;
   padding: 4px;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .freeBox__utVmc {
   display: flex;
@@ -77,7 +77,7 @@
   flex-shrink: 0;
   border-radius: 6px;
   padding: 4px;
-  border: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
+  border: 2px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .serviceProcessDescription__size__540 {
   height: 180px;
@@ -86,7 +86,7 @@
 .root .serviceProcessDescription:hover {
   left: auto;
   top: auto;
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .root .serviceProcessDescription:focus {
   left: auto;
@@ -125,7 +125,7 @@
   object-fit: cover;
   width: 24px;
   height: 24px;
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
   flex-shrink: 0;
 }
 .svg__size__540 {

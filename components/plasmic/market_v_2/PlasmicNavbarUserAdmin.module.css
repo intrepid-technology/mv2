@@ -30,6 +30,10 @@
   position: relative;
   align-self: center;
 }
+.navbarAdminIcons__tQnIs:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
 .avatarParent {
   display: flex;
   position: relative;

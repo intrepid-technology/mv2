@@ -8,7 +8,7 @@
   position: relative;
   background: #ffffff;
   border-radius: 2px;
-  border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root__width__270 {
   width: 270px;
@@ -29,10 +29,10 @@
   height: 48px;
 }
 .root:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .freeBox {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -49,7 +49,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 .textInput {
@@ -58,7 +58,7 @@
   left: auto;
   top: auto;
   height: 100%;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   padding-left: 8px;
   line-height: 1;
   align-self: center;
@@ -66,19 +66,19 @@
   background: #ffffff;
   min-width: 0;
   min-height: 0;
-  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root .textInput:hover {
   border-style: solid;
-  border-color: #e4e4e4 /* plasmic-token: yK_741Heo */;
+  border-color: #e3e3e3 /* plasmic-token: yK_741Heo */;
 }
 .root .textInput:focus {
   outline: none;
   border-style: solid;
-  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .button {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   left: auto;
@@ -88,7 +88,7 @@
   background: #f8f8f8;
   min-height: 0;
   padding: 2px 8px;
-  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .button > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -113,7 +113,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 .text {
@@ -123,6 +123,5 @@
   height: auto;
   font-size: 14px;
   white-space: pre;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
-  display: inline-block;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

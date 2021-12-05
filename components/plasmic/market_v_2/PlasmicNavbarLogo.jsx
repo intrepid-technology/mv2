@@ -41,7 +41,10 @@ function PlasmicNavbarLogo__RenderFunc(props) {
         sty.root,
         {
           [sty.root__light]: hasVariant(variants, "light", "light"),
-          [sty.root__size__18]: hasVariant(variants, "size", "_18")
+          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
+          [sty.root__size__24]: hasVariant(variants, "size", "_24"),
+          [sty.root__size__32]: hasVariant(variants, "size", "_32")
         }
       )}
       component={Link}

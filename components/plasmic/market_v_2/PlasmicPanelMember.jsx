@@ -15,6 +15,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import DialogTrigger from "../../DialogTrigger"; // plasmic-import: MVW-rzNNsa/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import SidebarSection from "../../SidebarSection"; // plasmic-import: 09ZmCZkG7z/component
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
@@ -71,41 +72,48 @@ function PlasmicPanelMember__RenderFunc(props) {
           hasGap={true}
           className={classNames(defaultcss.all, projectcss.all, sty.header)}
         >
-          <Button
-            data-plasmic-name={"newProjectButton"}
-            data-plasmic-override={overrides.newProjectButton}
-            className={classNames("__wab_instance", sty.newProjectButton)}
+          <DialogTrigger
+            data-plasmic-name={"dialogTrigger"}
+            data-plasmic-override={overrides.dialogTrigger}
+            className={classNames("__wab_instance", sty.dialogTrigger)}
+            componentToRender={"DialogInviteProfessional"}
           >
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___0YhmI
-              )}
+            <Button
+              data-plasmic-name={"newProjectButton"}
+              data-plasmic-override={overrides.newProjectButton}
+              className={classNames("__wab_instance", sty.newProjectButton)}
             >
-              <ListingIcon
+              <p.Stack
+                as={"div"}
+                hasGap={true}
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
-                  sty.svg__axJkS
-                )}
-                role={"img"}
-              />
-
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  defaultcss.__wab_text,
-                  sty.text__v771E
+                  sty.freeBox___0YhmI
                 )}
               >
-                {"New Project"}
-              </div>
-            </p.Stack>
-          </Button>
+                <ListingIcon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__axJkS
+                  )}
+                  role={"img"}
+                />
+
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__v771E
+                  )}
+                >
+                  {"New Project"}
+                </div>
+              </p.Stack>
+            </Button>
+          </DialogTrigger>
 
           <Button
             data-plasmic-name={"addPartnerButton"}
@@ -519,6 +527,7 @@ const PlasmicDescendants = {
     "root",
     "parent",
     "header",
+    "dialogTrigger",
     "newProjectButton",
     "addPartnerButton",
     "manageSection",
@@ -546,6 +555,7 @@ const PlasmicDescendants = {
   parent: [
     "parent",
     "header",
+    "dialogTrigger",
     "newProjectButton",
     "addPartnerButton",
     "manageSection",
@@ -568,7 +578,8 @@ const PlasmicDescendants = {
     "logoutButton"
   ],
 
-  header: ["header", "newProjectButton", "addPartnerButton"],
+  header: ["header", "dialogTrigger", "newProjectButton", "addPartnerButton"],
+  dialogTrigger: ["dialogTrigger", "newProjectButton"],
   newProjectButton: ["newProjectButton"],
   addPartnerButton: ["addPartnerButton"],
   manageSection: ["manageSection", "navIcon", "navIcon2"],
@@ -639,6 +650,7 @@ export const PlasmicPanelMember = Object.assign(
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
     header: makeNodeComponent("header"),
+    dialogTrigger: makeNodeComponent("dialogTrigger"),
     newProjectButton: makeNodeComponent("newProjectButton"),
     addPartnerButton: makeNodeComponent("addPartnerButton"),
     manageSection: makeNodeComponent("manageSection"),

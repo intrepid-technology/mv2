@@ -4,7 +4,7 @@
   width: 100%;
   height: auto;
   position: relative;
-  background: #000000;
+  background: #101010;
   min-width: 0;
   padding: 64px 180px;
 }
@@ -105,7 +105,7 @@
   }
 }
 .text__jdMrM {
-  display: inline-block;
+  display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -120,7 +120,7 @@
   text-transform: uppercase;
 }
 .text___4ZfZw {
-  display: inline-block;
+  display: block;
   font-size: 32px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -144,10 +144,9 @@
   left: auto;
   top: auto;
   height: auto;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
   width: auto;
   align-self: flex-start;
-  display: inline-block;
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__uYzUr {

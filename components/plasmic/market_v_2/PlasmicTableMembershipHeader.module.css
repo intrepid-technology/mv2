@@ -12,7 +12,7 @@
   border-radius: 2px;
   padding: 16px 8px;
   border-style: solid;
-  border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -47,7 +47,6 @@
   height: auto;
   text-transform: uppercase;
   font-weight: 700;
-  display: inline-block;
 }
 .freeBox__oogN2 {
   display: flex;
@@ -68,7 +67,6 @@
   height: auto;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline-block;
 }
 .freeBox__oZw0L {
   display: flex;
@@ -89,7 +87,6 @@
   height: auto;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline-block;
 }
 .freeBox__zAdKr {
   display: flex;
@@ -110,7 +107,6 @@
   height: auto;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline-block;
 }
 .freeBox__pxwwt {
   display: flex;
@@ -131,7 +127,6 @@
   height: auto;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline-block;
 }
 .freeBox___3BaDh {
   display: flex;
@@ -150,5 +145,4 @@
   font-size: 16px;
   width: auto;
   height: auto;
-  display: inline-block;
 }

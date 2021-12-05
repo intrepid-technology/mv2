@@ -154,7 +154,7 @@
   }
 }
 .cardTeamInviteMembers {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -211,7 +211,7 @@
   min-height: 0;
 }
 .tableAddTeamMember {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
@@ -220,7 +220,7 @@
   height: auto;
   border-radius: 2px;
   padding: 8px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .tableAddTeamMember > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -251,7 +251,7 @@
   }
 }
 .inviteMemberHeader {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -331,7 +331,7 @@
   font-weight: 600;
 }
 .inviteMemberRecord {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -481,7 +481,7 @@
   }
 }
 .cardTeamManageMembers {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -529,7 +529,7 @@
   max-width: 328px;
 }
 .tableTeamMemberEditParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -538,7 +538,7 @@
   top: auto;
   border-radius: 2px;
   padding: 8px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .tableTeamMemberEditParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -572,7 +572,7 @@
   }
 }
 .searchFilterDateParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -663,7 +663,7 @@
   height: auto;
   background: #f8f8f8;
   min-width: 0;
-  border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .tableSelectColumnParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -694,6 +694,7 @@
   top: auto;
   left: auto;
   flex-shrink: 0;
+  display: flex;
 }
 .tableUserRecord:global(.__wab_instance) {
   position: relative;

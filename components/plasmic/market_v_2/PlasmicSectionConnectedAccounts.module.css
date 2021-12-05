@@ -24,7 +24,7 @@
 }
 .parent__border {
   border-radius: 2px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .personalLoginConnectionAccounts:global(.__wab_instance) {
   position: relative;
@@ -37,10 +37,10 @@
   left: auto;
 }
 .text__vyrJr {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .text__c84HQ {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .personalConnectedFacebookAccount:global(.__wab_instance) {
   position: relative;
@@ -48,8 +48,8 @@
   left: auto;
 }
 .text__zhjMw {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .text__eJkr2 {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }

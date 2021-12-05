@@ -50,7 +50,7 @@
   position: relative;
 }
 .freeBox__ljIaA {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;

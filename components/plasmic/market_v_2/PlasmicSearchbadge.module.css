@@ -30,10 +30,10 @@
   background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
-  border-bottom: 2px solid #ebebeb /* plasmic-token: -59aep1Mm */;
+  border-bottom: 2px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .root .serviceIndustry:hover {
-  border-bottom-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-bottom-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .root .serviceIndustry:focus {
   border-bottom-color: #6633ff /* plasmic-token: vlQUduj5i */;
@@ -96,5 +96,5 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

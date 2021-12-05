@@ -37,12 +37,12 @@
   cursor: pointer;
 }
 .slotTargetLabel {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-size: 18px;
   font-weight: 500;
 }
 .slotTargetLabel__isSelected {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root__hasDestination:hover .slotTargetLabel__hasDestination {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
@@ -52,7 +52,6 @@
   width: auto;
   height: auto;
   max-width: 800px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-size: 18px;
-  display: inline-block;
 }

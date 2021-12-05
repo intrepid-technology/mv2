@@ -7,7 +7,7 @@
   background: #ffffff;
   border-radius: 4px;
   padding: 8px 16px;
-  border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -23,13 +23,13 @@
   margin-left: 16px;
 }
 .root:hover {
-  border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root:active {
   border-color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
 .link {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -324,13 +324,13 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .tagBadgeVerification:global(.__wab_instance) {
   position: relative;
 }
 .verificationCityParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   left: auto;
@@ -400,10 +400,10 @@
 .text___5WaQl {
   line-height: 1;
   font-size: 14px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .reviewLinkB {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
@@ -415,8 +415,7 @@
   height: auto;
   width: auto;
   font-size: 14px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
-  display: inline-block;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__hZgZ {
   display: flex;
@@ -471,7 +470,7 @@
   margin-left: 2px;
 }
 .cityText {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -492,16 +491,16 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .text___0P9Ko {
-  display: inline-block;
+  display: block;
   font-size: 12px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   width: auto;
@@ -528,5 +527,5 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }

@@ -82,7 +82,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
 .slotTargetLabelHeadline__width__720 {
@@ -119,7 +119,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   text-transform: none;
@@ -139,7 +139,7 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .textInput__height__32 {
   font-size: 14px;
@@ -168,7 +168,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   text-transform: none;
@@ -181,10 +181,10 @@
   background: #f8f8f8;
   min-width: 0;
   flex-shrink: 0;
-  border-top: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-right: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-bottom: 2px solid #333333 /* plasmic-token: _aCbIOo4N */;
-  border-left: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-top: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-right: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 2px solid #14161b /* plasmic-token: _aCbIOo4N */;
+  border-left: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root:focus-within .textInput {
   border-bottom-color: #6633ff /* plasmic-token: brleuPgaD */;
@@ -200,6 +200,9 @@
   padding-top: 4px;
   min-width: 0;
 }
+.descriptionParent__label {
+  display: flex;
+}
 .descriptionParent__width__380 {
   width: 380px;
 }
@@ -212,7 +215,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }
 .slotTargetDescription__width__180 {
   font-size: 14px;

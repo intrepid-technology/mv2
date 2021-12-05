@@ -6,7 +6,7 @@
   flex-direction: row;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   align-self: stretch;
   position: relative;
   width: auto;
@@ -14,7 +14,7 @@
 }
 .slotTargetText {
   font-size: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   line-height: 1;
 }
 .slotTargetText > .__wab_text,
@@ -32,7 +32,7 @@
   text-decoration-line: none;
 }
 .slotTargetText__color_light {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__size__18 {
   font-size: 18px;
@@ -58,7 +58,7 @@
   color: #c2adff /* plasmic-token: j08wwDM3g */;
 }
 .slotTargetText__color_headline {
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .slotTargetText__size__8 {
   font-size: 8px;
@@ -81,25 +81,25 @@
   line-height: 1;
 }
 .slotTargetText__size__16_color_light {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__size__18_color_light {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__color_light_size__24 {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__color_light_size__32 {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__color_light_size__40 {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__color_light_size__14 {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .slotTargetText {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 500;
 }
 .root:hover .slotTargetText > .__wab_text,
@@ -133,5 +133,5 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .root__color_headline:hover .slotTargetText__color_headline {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }

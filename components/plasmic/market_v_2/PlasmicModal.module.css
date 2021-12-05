@@ -12,7 +12,7 @@
   height: auto;
   background: #ffffff;
   border-radius: 4px;
-  border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -75,7 +75,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__cViio {
   position: relative;
@@ -95,7 +95,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .freeBox__l8W {
   display: flex;
@@ -146,7 +146,7 @@
   min-width: 0;
   min-height: 0;
   border-style: solid;
-  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root .button__dxNg:hover {
   background: #f8f8f8;
@@ -182,7 +182,7 @@
   min-width: 0;
   min-height: 0;
   border-style: solid;
-  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root .button__kn7KG:hover {
   background: #f8f8f8;

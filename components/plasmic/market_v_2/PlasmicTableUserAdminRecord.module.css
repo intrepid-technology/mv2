@@ -12,7 +12,7 @@
   padding: 4px 8px;
 }
 .userAvatarNameEmailParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -237,7 +237,7 @@
   object-fit: cover;
 }
 .userInfoParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -272,7 +272,7 @@
   left: auto;
 }
 .text__qRux {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 500;
   font-size: 14px;
 }
@@ -286,11 +286,11 @@
   left: auto;
 }
 .text__mqpkj {
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
   font-size: 12px;
 }
 .userAction {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -326,7 +326,7 @@
 .text__bvk0V {
   font-size: 14px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .selectRole:global(.__wab_instance) {
   position: relative;

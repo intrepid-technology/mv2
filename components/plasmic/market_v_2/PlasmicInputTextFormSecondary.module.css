@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -51,7 +51,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .inputTextPrimary:global(.__wab_instance) {
   position: relative;
@@ -84,5 +84,5 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }

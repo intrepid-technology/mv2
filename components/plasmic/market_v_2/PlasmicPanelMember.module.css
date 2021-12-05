@@ -18,7 +18,7 @@
   min-width: 0;
   min-height: 0;
   padding: 0px 8px 8px;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -67,11 +67,16 @@
   > img {
   margin-top: 8px;
 }
+.dialogTrigger:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .newProjectButton:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
   height: 40px;
-  flex-shrink: 0;
+  width: 100%;
+  min-width: 0;
 }
 .freeBox___0YhmI {
   display: flex;
@@ -277,12 +282,12 @@
   max-width: 100%;
   width: 20px;
   height: 24px;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   flex-shrink: 0;
 }
 .text__zSoRd {
   font-weight: 400;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .adminSection:global(.__wab_instance) {
   max-width: 100%;
@@ -353,12 +358,12 @@
   max-width: 100%;
   width: 20px;
   height: 24px;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   flex-shrink: 0;
 }
 .text__hlSc9 {
   font-weight: 400;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .footer {
   display: flex;

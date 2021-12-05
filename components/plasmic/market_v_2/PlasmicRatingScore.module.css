@@ -14,14 +14,14 @@
   top: auto;
   height: auto;
   width: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   margin: 0px;
 }
 .freeBox___41N1L {
-  display: inline-flex;
+  display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
@@ -36,5 +36,5 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }

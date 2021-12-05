@@ -70,6 +70,13 @@ function PlasmicButtonPrimary__RenderFunc(props) {
             "brand"
           ),
 
+          [sty.buttonPrimary__color_brand_size__360]:
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_360"),
+          [sty.buttonPrimary__color_brand_size__360_rounded]:
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_360") &&
+            hasVariant(variants, "rounded", "rounded"),
           [sty.buttonPrimary__color_caution]: hasVariant(
             variants,
             "color",

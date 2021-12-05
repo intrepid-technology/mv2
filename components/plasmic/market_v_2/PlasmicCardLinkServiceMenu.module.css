@@ -6,7 +6,7 @@
   position: relative;
   border-radius: 2px;
   padding: 8px;
-  border: 1px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border: 1px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -75,7 +75,7 @@
   flex-shrink: 0;
 }
 .freeBox__mrtUq {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;

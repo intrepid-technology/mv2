@@ -20,7 +20,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarSwitch.module.css"; // plasmic-import: tmc24NnB44/css
-import Icon161Icon from "./icons/PlasmicIcon__Icon161"; // plasmic-import: EoyDB7Q1N/icon
+import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
 import Icon170Icon from "./icons/PlasmicIcon__Icon170"; // plasmic-import: JricKendl/icon
 
 export const PlasmicNavbarSwitch__VariantProps = new Array("close", "size");
@@ -66,7 +66,9 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
           PlasmicIconType={
-            hasVariant(variants, "close", "close") ? Icon170Icon : Icon161Icon
+            hasVariant(variants, "close", "close")
+              ? Icon170Icon
+              : MenuHamburgerIcon
           }
           className={classNames(defaultcss.all, projectcss.all, sty.svg, {
             [sty.svg__close]: hasVariant(variants, "close", "close")

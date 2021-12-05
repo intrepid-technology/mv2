@@ -76,7 +76,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #dddddd /* plasmic-token: pZiR_PgBn */;
+  color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }
 .slotTargetTextDisplay__size__270 {
   font-size: 48px;
@@ -148,7 +148,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .slotTargetSlot__size__270 {
   font-size: 32px;
@@ -156,7 +156,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .subhead {
   position: relative;
@@ -192,7 +192,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .slotTargetTextSubhead__size__270 {
   font-size: 16px;
@@ -200,5 +200,5 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }

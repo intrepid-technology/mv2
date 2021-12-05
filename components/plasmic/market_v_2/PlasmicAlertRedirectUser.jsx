@@ -129,9 +129,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 )}
               >
                 {hasVariant(variants, "partner", "partner") ? (
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                  >
+                  <React.Fragment>
                     <React.Fragment>{"Do you want to "}</React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
@@ -142,11 +140,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                     <React.Fragment>
                       {" technology and creative services to our members?"}
                     </React.Fragment>
-                  </span>
+                  </React.Fragment>
                 ) : (
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                  >
+                  <React.Fragment>
                     <React.Fragment>{"Do you want to "}</React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
@@ -157,7 +153,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                     <React.Fragment>
                       {" technology and creative services for your business?"}
                     </React.Fragment>
-                  </span>
+                  </React.Fragment>
                 )}
               </div>
             ) : null}
@@ -188,7 +184,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             )}
           >
             {hasVariant(variants, "partner", "partner") ? (
-              <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -199,9 +195,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 <React.Fragment>
                   {" technology and creative services to our members?"}
                 </React.Fragment>
-              </span>
+              </React.Fragment>
             ) : (
-              <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -212,7 +208,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 <React.Fragment>
                   {" technology and creative services for your business?"}
                 </React.Fragment>
-              </span>
+              </React.Fragment>
             )}
           </div>
         ) : null}

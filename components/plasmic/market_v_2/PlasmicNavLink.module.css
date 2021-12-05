@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
   padding: 16px;
 }
 .parent__state_selected {
-  border-bottom: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__color_ghost:hover .parent__color_ghost {
   background: #f8f8ff;
@@ -46,23 +46,23 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
 .slotTargetLinkText__color_light {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetLinkText__color_brand {
   color: #c2adff /* plasmic-token: j08wwDM3g */;
 }
 .slotTargetLinkText__state_selected {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .slotTargetLinkText__state_disabled {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .slotTargetLinkText {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_light:hover .slotTargetLinkText__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
@@ -107,8 +107,8 @@
   text-decoration-line: none;
 }
 .root__state_selected:hover .slotTargetLinkText__state_selected {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__state_disabled:hover .slotTargetLinkText__state_disabled {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }

@@ -20,6 +20,10 @@ import {
 import Navbar from "../../Navbar"; // plasmic-import: pP9c6XTFzc/component
 import Sidebar from "../../Sidebar"; // plasmic-import: WJhSPQRdlH/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import PageBreadcrumbs from "../../PageBreadcrumbs"; // plasmic-import: ZTbdEO5NC7/component
+import PageTabNavigations from "../../PageTabNavigations"; // plasmic-import: 8FwFZYKbmK/component
+import Tab from "../../Tab"; // plasmic-import: tCiyOEgIeVL/component
+import PageScrollNavigations from "../../PageScrollNavigations"; // plasmic-import: 4xruSD_IDH/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -114,7 +118,14 @@ function PlasmicLayout__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.navigationWrapper
+              sty.navigationWrapper,
+              {
+                [sty.navigationWrapper__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              }
             )}
           >
             <p.Stack
@@ -178,7 +189,15 @@ function PlasmicLayout__RenderFunc(props) {
                 </div>
 
                 {p.renderPlasmicSlot({
-                  defaultContents: null,
+                  defaultContents: (
+                    <PageBreadcrumbs
+                      className={classNames(
+                        "__wab_instance",
+                        sty.pageBreadcrumbs___3DjXg
+                      )}
+                    />
+                  ),
+
                   value: args.breadcrumbsWrapper
                 })}
               </p.Stack>
@@ -212,7 +231,32 @@ function PlasmicLayout__RenderFunc(props) {
                 )}
               >
                 {p.renderPlasmicSlot({
-                  defaultContents: null,
+                  defaultContents: (
+                    <PageTabNavigations
+                      className={classNames(
+                        "__wab_instance",
+                        sty.pageTabNavigations__eko8L
+                      )}
+                    >
+                      <Tab
+                        activeBorder={"bottom"}
+                        className={classNames("__wab_instance", sty.tab___2XeM)}
+                        label={"Tab 1"}
+                        state={"selected"}
+                      />
+
+                      <Tab
+                        className={classNames("__wab_instance", sty.tab__nnupj)}
+                        label={"Tab 2"}
+                      />
+
+                      <Tab
+                        className={classNames("__wab_instance", sty.tab__iExMf)}
+                        label={"Tab 3"}
+                      />
+                    </PageTabNavigations>
+                  ),
+
                   value: args.tabNavigationWrapper
                 })}
               </div>
@@ -238,7 +282,32 @@ function PlasmicLayout__RenderFunc(props) {
               )}
             >
               {p.renderPlasmicSlot({
-                defaultContents: null,
+                defaultContents: (
+                  <PageScrollNavigations
+                    className={classNames(
+                      "__wab_instance",
+                      sty.pageScrollNavigations__eBwom
+                    )}
+                  >
+                    <Tab
+                      activeBorder={"left"}
+                      className={classNames("__wab_instance", sty.tab__qIx6T)}
+                      label={"Section 1"}
+                      state={"selected"}
+                    />
+
+                    <Tab
+                      className={classNames("__wab_instance", sty.tab___4QAdV)}
+                      label={"Section 2"}
+                    />
+
+                    <Tab
+                      className={classNames("__wab_instance", sty.tab___4Ahss)}
+                      label={"Section 3"}
+                    />
+                  </PageScrollNavigations>
+                ),
+
                 value: args.scrollNavigationWrapper
               })}
             </div>
@@ -252,7 +321,14 @@ function PlasmicLayout__RenderFunc(props) {
             className={classNames(
               defaultcss.all,
               projectcss.all,
-              sty.mainContentWrapper
+              sty.mainContentWrapper,
+              {
+                [sty.mainContentWrapper__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              }
             )}
           >
             <p.Stack

@@ -4,10 +4,10 @@
   width: auto;
   height: 24px;
   position: relative;
-  background: #000000;
+  background: #101010;
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 1px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .chipDisplay > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -30,11 +30,11 @@
   width: auto;
   height: 24px;
   flex-direction: row;
-  background: #dddddd;
+  background: #3d4350;
   display: inline-flex;
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #cccccc /* plasmic-token: oEMOojyFv */;
+  border: 1px solid #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .chipDisplay__disabled > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -61,7 +61,7 @@
 }
 .chipDisplay__color_light {
   background: #f8f8f8;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .chipDisplay__color_brand {
   background: #6633ff;
@@ -93,12 +93,12 @@
   align-items: center;
 }
 .chipDisplay__trigger_disabled {
-  background: #dddddd;
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  background: #3d4350;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .chipDisplay__type_outline {
   background: #ffffff;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .chipDisplay__type_link {
   background: none;
@@ -135,14 +135,14 @@
 }
 .chipDisplay:hover {
   background: #ffffff;
-  border-color: #000000 /* plasmic-token: F4gy0u3aB */;
+  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .chipDisplay__type_primary:hover {
   background: #ffffff;
-  border-color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  border-color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .chipDisplayLink {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;
@@ -159,10 +159,10 @@
   line-height: 1;
 }
 .slotTargetChildren__disabled {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__color_light {
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }
 .slotTargetChildren__color_brand {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
@@ -180,13 +180,13 @@
   font-size: 24px;
 }
 .slotTargetChildren__trigger_disabled {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetChildren__type_outline {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__type_link {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__type_link > .__wab_text,
 .slotTargetChildren__type_link > .__wab_slot-string-wrapper,
@@ -210,7 +210,7 @@
   text-decoration-line: underline;
 }
 .slotTargetChildren__type_ghost {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__color_light_trigger_add {
   line-height: 1;
@@ -231,13 +231,13 @@
   color: #33d6c9 /* plasmic-token: WerGfd9sF */;
 }
 .chipDisplay:hover .slotTargetChildren {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .chipDisplay__type_primary:hover .slotTargetChildren__type_primary {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .addTrigger {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -272,11 +272,11 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 .deleteTrigger {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;

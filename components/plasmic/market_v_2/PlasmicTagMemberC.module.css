@@ -12,8 +12,8 @@
   border: 1px solid #d6335c /* plasmic-token: iy6ayoo2G */;
 }
 .root__inset {
-  background: #e4e4e4;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  background: #eaeaea;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root__inset:hover {
   background: #cc0033;
@@ -28,10 +28,9 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   line-height: 10px;
   font-weight: 600;
-  display: inline-block;
 }
 .text__inset {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .root__inset:hover .text__inset {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;

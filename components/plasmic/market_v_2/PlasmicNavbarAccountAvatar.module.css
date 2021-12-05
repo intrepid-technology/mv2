@@ -7,7 +7,7 @@
   position: relative;
   background: #ffffff;
   border-radius: 2px;
-  border: 1.8px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 1.8px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .accountAvatar > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -33,16 +33,16 @@
   background: none;
 }
 .accountAvatar:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .slotTargetChildren__color_darkBg {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetChildren__color_brand {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
 .accountAvatar__color_lightBg:hover .slotTargetChildren__color_lightBg {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .accountAvatar__color_darkBg:hover .slotTargetChildren__color_darkBg {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;

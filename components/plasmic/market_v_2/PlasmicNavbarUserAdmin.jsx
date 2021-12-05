@@ -54,7 +54,12 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
       />
 
       <NavbarAdminIcons
+        alternates={"inbox"}
         className={classNames("__wab_instance", sty.navbarAdminIcons___14XlK)}
+      />
+
+      <NavbarAdminIcons
+        className={classNames("__wab_instance", sty.navbarAdminIcons__tQnIs)}
       />
 
       <div

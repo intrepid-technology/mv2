@@ -25,7 +25,7 @@
   align-self: flex-start;
 }
 .textParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
@@ -64,7 +64,7 @@
 }
 .slotTargetDescriptionText {
   font-size: 10px;
-  color: #999999 /* plasmic-token: UPK7EIst5 */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }
 .slotTargetDescriptionText__size__12Px {
   font-size: 8px;

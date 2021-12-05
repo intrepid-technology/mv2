@@ -4,30 +4,30 @@
   position: relative;
 }
 .slotTargetSlot {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .slotTargetSlot__color_light {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetSlot__color_dark {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetSlot__color_brand {
   color: #c2adff /* plasmic-token: j08wwDM3g */;
 }
 .root:hover .slotTargetSlot {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root__color_light:hover .slotTargetSlot__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_dark:hover .slotTargetSlot__color_dark {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__color_brand:hover .slotTargetSlot__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;

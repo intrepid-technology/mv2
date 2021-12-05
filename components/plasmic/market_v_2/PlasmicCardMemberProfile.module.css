@@ -5,7 +5,7 @@
   position: relative;
   background: #ffffff;
   padding: 36px 24px 24px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -83,7 +83,7 @@
   object-fit: cover;
 }
 .freeBox__uAf9P {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -115,7 +115,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -128,14 +128,14 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
   top: auto;
 }
 .freeBox__z3JMv {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -167,7 +167,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -201,7 +201,7 @@
   height: 1px;
   width: 320px;
   margin-bottom: 0px;
-  background: #f1f1f1;
+  background: #f0f1f3;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -210,7 +210,7 @@
   }
 }
 .freeBox___96C2A {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -238,7 +238,7 @@
   margin-left: 96px;
 }
 .freeBox___0SUgg {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -265,7 +265,7 @@
   margin-top: 16px;
 }
 .parent .freeBox___0SUgg:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .text__umTdy {
   display: block;
@@ -274,7 +274,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -288,12 +288,12 @@
   position: relative;
   left: auto;
   top: auto;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-weight: 400;
   line-height: 1.5em;
 }
 .freeBox__e6Bhh {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -320,7 +320,7 @@
   margin-top: 16px;
 }
 .parent .freeBox__e6Bhh:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .text__b1HwQ {
   display: block;
@@ -329,7 +329,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -343,7 +343,7 @@
   position: relative;
   left: auto;
   top: auto;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-weight: 400;
   line-height: 1.5em;
 }
@@ -353,7 +353,7 @@
   height: 1px;
   width: 320px;
   margin-bottom: 0px;
-  background: #f1f1f1;
+  background: #f0f1f3;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -362,7 +362,7 @@
   }
 }
 .freeBox___8TRdX {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -390,7 +390,7 @@
   margin-left: 96px;
 }
 .freeBox__my3Io {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -417,7 +417,7 @@
   margin-top: 16px;
 }
 .parent .freeBox__my3Io:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .text__vgpbm {
   display: block;
@@ -426,7 +426,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -440,12 +440,12 @@
   position: relative;
   left: auto;
   top: auto;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-weight: 400;
   line-height: 1.5em;
 }
 .freeBox__oEqyk {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -472,7 +472,7 @@
   margin-top: 16px;
 }
 .parent .freeBox__oEqyk:hover {
-  border-color: #cccccc /* plasmic-token: oEMOojyFv */;
+  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .text__qrcMn {
   display: block;
@@ -481,7 +481,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -495,7 +495,7 @@
   position: relative;
   left: auto;
   top: auto;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-weight: 400;
   line-height: 1.5em;
 }
@@ -505,7 +505,7 @@
   height: 1px;
   width: 320px;
   margin-bottom: 0px;
-  background: #f1f1f1;
+  background: #f0f1f3;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -514,7 +514,7 @@
   }
 }
 .freeBox__xf5Vf {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -552,7 +552,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -566,7 +566,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: stretch;
   position: relative;
   left: auto;

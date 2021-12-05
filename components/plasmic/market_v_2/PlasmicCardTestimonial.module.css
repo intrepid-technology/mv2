@@ -34,7 +34,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background: #ebebeb;
+  background: #f1f1f1;
   flex-shrink: 0;
   padding: 24px;
 }
@@ -58,7 +58,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .freeBox__n6Om6 {
   position: relative;
@@ -78,7 +78,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .freeBox__ynnS1 {
   position: relative;
@@ -97,5 +97,5 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }

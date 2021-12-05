@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -165,7 +166,14 @@ function PlasmicModal__RenderFunc(props) {
             className={classNames(
               defaultcss.button,
               projectcss.button,
-              sty.button__kn7KG
+              sty.button__kn7KG,
+              {
+                [sty.button__inputs_companyName__kn7KGRcVto]: hasVariant(
+                  variants,
+                  "inputs",
+                  "companyName"
+                )
+              }
             )}
           >
             <div

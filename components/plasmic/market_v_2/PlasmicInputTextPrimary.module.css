@@ -65,7 +65,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 2px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .textInput__height__32 {
   font-size: 14px;
@@ -83,7 +83,7 @@
   background: #ffffff;
 }
 .textInput__background_black {
-  background: #000000;
+  background: #101010;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
 .textInput__type_secondary {
@@ -95,7 +95,7 @@
   border-right-style: none;
 }
 .root:hover .textInput {
-  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .root:focus-within .textInput {
   outline: none;

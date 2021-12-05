@@ -19,17 +19,16 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/component
+import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
-import Icon46Icon from "./icons/PlasmicIcon__Icon46"; // plasmic-import: CR8LtYkZ5l/icon
-import Icon174Icon from "./icons/PlasmicIcon__Icon174"; // plasmic-import: yq36rktOQq/icon
+import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
 
-export const PlasmicNavbar__VariantProps = new Array("auth");
+export const PlasmicNavbar__VariantProps = new Array("auth", "color");
 
 export const PlasmicNavbar__ArgProps = new Array();
 
@@ -52,7 +51,10 @@ function PlasmicNavbar__RenderFunc(props) {
         projectcss.all,
         projectcss.root_reset,
         sty.root,
-        { [sty.root__auth]: hasVariant(variants, "auth", "auth") }
+        {
+          [sty.root__auth]: hasVariant(variants, "auth", "auth"),
+          [sty.root__color]: hasVariant(variants, "color", "color")
+        }
       )}
     >
       <p.Stack
@@ -78,7 +80,7 @@ function PlasmicNavbar__RenderFunc(props) {
               { [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth") }
             )}
           >
-            <Icon46Icon
+            <MenuHamburgerIcon
               data-plasmic-name={"menuIcon"}
               data-plasmic-override={overrides.menuIcon}
               className={classNames(
@@ -103,6 +105,7 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"navbarLogo"}
             data-plasmic-override={overrides.navbarLogo}
             className={classNames("__wab_instance")}
+            light={hasVariant(variants, "color", "color") ? "light" : undefined}
           />
         ) : null}
       </p.Stack>
@@ -131,8 +134,10 @@ function PlasmicNavbar__RenderFunc(props) {
           <Button
             data-plasmic-name={"memberButton"}
             data-plasmic-override={overrides.memberButton}
-            className={classNames("__wab_instance", sty.memberButton)}
-            color={"brand"}
+            className={classNames("__wab_instance", sty.memberButton, {
+              [sty.memberButton__color]: hasVariant(variants, "color", "color")
+            })}
+            color={hasVariant(variants, "color", "color") ? "light" : undefined}
             destination={"/member/pricing"}
             type={"link"}
           >
@@ -141,24 +146,71 @@ function PlasmicNavbar__RenderFunc(props) {
                 defaultcss.all,
                 projectcss.all,
                 defaultcss.__wab_text,
-                sty.text__uRxVz
+                sty.text__uRxVz,
+                {
+                  [sty.text__color__uRxVz4SuRb]: hasVariant(
+                    variants,
+                    "color",
+                    "color"
+                  )
+                }
               )}
             >
-              {"Become Member"}
+              {"Sell on Intrepid"}
+            </div>
+          </Button>
+
+          <Button
+            data-plasmic-name={"memberButton2"}
+            data-plasmic-override={overrides.memberButton2}
+            className={classNames("__wab_instance", sty.memberButton2, {
+              [sty.memberButton2__color]: hasVariant(variants, "color", "color")
+            })}
+            color={hasVariant(variants, "color", "color") ? "light" : undefined}
+            destination={"/member/pricing"}
+            type={"link"}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__hQevM,
+                {
+                  [sty.text__color__hQevM4SuRb]: hasVariant(
+                    variants,
+                    "color",
+                    "color"
+                  )
+                }
+              )}
+            >
+              {"Pricing"}
             </div>
           </Button>
 
           <Button
             data-plasmic-name={"partnerButton"}
             data-plasmic-override={overrides.partnerButton}
-            className={classNames("__wab_instance", sty.partnerButton)}
-            color={"brand"}
+            className={classNames("__wab_instance", sty.partnerButton, {
+              [sty.partnerButton__color]: hasVariant(variants, "color", "color")
+            })}
+            color={hasVariant(variants, "color", "color") ? "brand" : undefined}
             destination={"/partner/pricing"}
             hasShadow={"hasShadow"}
             rounded={"rounded"}
             type={"primary"}
           >
-            {"Partner"}
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__o407H
+              )}
+            >
+              {"Request access"}
+            </div>
           </Button>
         </p.Stack>
       ) : null}
@@ -179,65 +231,23 @@ function PlasmicNavbar__RenderFunc(props) {
             }
           )}
         >
-          <TextInput
-            data-plasmic-name={"textInput"}
-            data-plasmic-override={overrides.textInput}
-            adornment={["start"]}
-            className={classNames("__wab_instance", sty.textInput)}
-            startAdornment={
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"freeBox"}
-                data-plasmic-override={overrides.freeBox}
-                hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox
-                )}
-              >
-                <Icon174Icon
-                  data-plasmic-name={"svg"}
-                  data-plasmic-override={overrides.svg}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg,
-                    { [sty.svg__auth]: hasVariant(variants, "auth", "auth") }
-                  )}
-                  role={"img"}
-                />
-
-                {(
-                  hasVariant(variants, "auth", "auth") &&
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? true
-                    : hasVariant(variants, "auth", "auth") &&
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
-                    ? true
-                    : true
-                ) ? (
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__wQrSm,
-                      {
-                        [sty.text__auth__wQrSmSwJWc]: hasVariant(
-                          variants,
-                          "auth",
-                          "auth"
-                        )
-                      }
-                    )}
-                  >
-                    {"Search"}
-                  </div>
-                ) : null}
-              </p.Stack>
-            }
-          />
+          {(hasVariant(variants, "auth", "auth") ? true : true) ? (
+            <SearchbarPrimary
+              data-plasmic-name={"searchbarPrimary"}
+              data-plasmic-override={overrides.searchbarPrimary}
+              className={classNames("__wab_instance", sty.searchbarPrimary, {
+                [sty.searchbarPrimary__auth]: hasVariant(
+                  variants,
+                  "auth",
+                  "auth"
+                )
+              })}
+              height={hasVariant(variants, "auth", "auth") ? "_40" : undefined}
+              type={
+                hasVariant(variants, "auth", "auth") ? "primary" : undefined
+              }
+            />
+          ) : null}
         </div>
       ) : null}
       {(hasVariant(variants, "auth", "auth") ? true : false) ? (
@@ -276,7 +286,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 src={
                   hasVariant(variants, "auth", "auth")
                     ? "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
-                    : undefined
+                    : "/plasmic/market_v_2/images/image4.png"
                 }
               />
             </Avatar>
@@ -296,11 +306,10 @@ const PlasmicDescendants = {
     "navbarLogo",
     "actionWrapper",
     "memberButton",
+    "memberButton2",
     "partnerButton",
     "searchInputWrapper",
-    "textInput",
-    "freeBox",
-    "svg",
+    "searchbarPrimary",
     "authActionsWrapper",
     "avatar",
     "img"
@@ -310,13 +319,18 @@ const PlasmicDescendants = {
   iconWrapper: ["iconWrapper", "menuIcon"],
   menuIcon: ["menuIcon"],
   navbarLogo: ["navbarLogo"],
-  actionWrapper: ["actionWrapper", "memberButton", "partnerButton"],
+  actionWrapper: [
+    "actionWrapper",
+    "memberButton",
+    "memberButton2",
+    "partnerButton"
+  ],
+
   memberButton: ["memberButton"],
+  memberButton2: ["memberButton2"],
   partnerButton: ["partnerButton"],
-  searchInputWrapper: ["searchInputWrapper", "textInput", "freeBox", "svg"],
-  textInput: ["textInput", "freeBox", "svg"],
-  freeBox: ["freeBox", "svg"],
-  svg: ["svg"],
+  searchInputWrapper: ["searchInputWrapper", "searchbarPrimary"],
+  searchbarPrimary: ["searchbarPrimary"],
   authActionsWrapper: ["authActionsWrapper", "avatar", "img"],
   avatar: ["avatar", "img"],
   img: ["img"]
@@ -359,11 +373,10 @@ export const PlasmicNavbar = Object.assign(
     navbarLogo: makeNodeComponent("navbarLogo"),
     actionWrapper: makeNodeComponent("actionWrapper"),
     memberButton: makeNodeComponent("memberButton"),
+    memberButton2: makeNodeComponent("memberButton2"),
     partnerButton: makeNodeComponent("partnerButton"),
     searchInputWrapper: makeNodeComponent("searchInputWrapper"),
-    textInput: makeNodeComponent("textInput"),
-    freeBox: makeNodeComponent("freeBox"),
-    svg: makeNodeComponent("svg"),
+    searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     authActionsWrapper: makeNodeComponent("authActionsWrapper"),
     avatar: makeNodeComponent("avatar"),
     img: makeNodeComponent("img"),

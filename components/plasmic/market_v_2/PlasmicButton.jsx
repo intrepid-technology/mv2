@@ -55,9 +55,14 @@ function PlasmicButton__RenderFunc(props) {
           [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
           [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
           [sty.root__color_caution]: hasVariant(variants, "color", "caution"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light"),
+          [sty.root__color_light_type_link]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "type", "link"),
           [sty.root__color_magenta]: hasVariant(variants, "color", "magenta"),
           [sty.root__color_success]: hasVariant(variants, "color", "success"),
           [sty.root__color_warning]: hasVariant(variants, "color", "warning"),
+          [sty.root__hasShadow]: hasVariant(variants, "hasShadow", "hasShadow"),
           [sty.root__hasShadow_color_brand]:
             hasVariant(variants, "hasShadow", "hasShadow") &&
             hasVariant(variants, "color", "brand"),
@@ -208,6 +213,10 @@ function PlasmicButton__RenderFunc(props) {
               "caution"
             ),
 
+            [sty.button__color_light]: hasVariant(variants, "color", "light"),
+            [sty.button__color_light_type_link]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "type", "link"),
             [sty.button__color_magenta]: hasVariant(
               variants,
               "color",
@@ -224,6 +233,12 @@ function PlasmicButton__RenderFunc(props) {
               variants,
               "color",
               "warning"
+            ),
+
+            [sty.button__hasShadow]: hasVariant(
+              variants,
+              "hasShadow",
+              "hasShadow"
             ),
 
             [sty.button__hasShadow_color_brand]:
@@ -395,6 +410,18 @@ function PlasmicButton__RenderFunc(props) {
               "brand"
             ),
 
+            [sty.slotTargetChildren__color_light]: hasVariant(
+              variants,
+              "color",
+              "light"
+            ),
+
+            [sty.slotTargetChildren__color_light_type_light]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "type", "light"),
+            [sty.slotTargetChildren__color_light_type_link]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "type", "link"),
             [sty.slotTargetChildren__state_disabled]: hasVariant(
               variants,
               "state",

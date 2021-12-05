@@ -1,0 +1,174 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #f0ebff;
+  position: relative;
+  border-radius: 6px;
+  padding: 2px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 8px;
+}
+.root__type_outline {
+  background: none;
+  border: 2px solid #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.root__colors_smoke {
+  background: #f8f8ff;
+}
+.root__colors_smoke_type_outline {
+  background: #f8f8ff;
+  border: 1.8px solid #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.freeBox___09JR {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+.freeBox__type_outline___09JRv9AmM {
+  background: none;
+  border: 1.5px solid #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.freeBox__colors_smoke_type_outline___09JRc1422V9AmM {
+  background: #ffffff;
+  border: 1.5px solid #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.freeBox__ndql4 {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetSubjectTextSlot {
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
+  font-weight: 700;
+  font-size: 12px;
+}
+.slotTargetSubjectTextSlot__type_outline {
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.slotTargetSubjectTextSlot__colors_smoke {
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+}
+.freeBox__exEE {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  left: auto;
+  top: auto;
+  padding: 4px 8px;
+}
+.freeBox__exEE > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__exEE > :global(.__wab_flex-container) > *,
+.freeBox__exEE > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__exEE > :global(.__wab_flex-container) > picture > img,
+.freeBox__exEE
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12px;
+}
+.freeBox__wskfG {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  min-width: 0;
+}
+.slotTargetDescriptiveTextSlot {
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
+  font-size: 12px;
+}
+.slotTargetDescriptiveTextSlot > *,
+.slotTargetDescriptiveTextSlot > .__wab_slot > *,
+.slotTargetDescriptiveTextSlot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescriptiveTextSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescriptiveTextSlot > picture > img,
+.slotTargetDescriptiveTextSlot > .__wab_slot > picture > img,
+.slotTargetDescriptiveTextSlot > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescriptiveTextSlot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+}
+.slotTargetDescriptiveTextSlot__type_outline {
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.slotTargetDescriptiveTextSlot__colors_smoke {
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+}
+.slotTargetDescriptiveTextSlot__colors_smoke_type_outline {
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.freeBox___5WPk7 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.svg__type_outline {
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.svg__colors_smoke {
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+}
+.svg__colors_smoke_type_outline {
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}

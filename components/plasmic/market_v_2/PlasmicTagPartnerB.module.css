@@ -19,7 +19,7 @@
   flex-row-gap: 0px;
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root__inset:hover {
   flex-direction: row;
@@ -40,12 +40,11 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   line-height: 10px;
   font-weight: 600;
-  display: inline-block;
 }
 .text__inset {
   font-size: 8px;
   font-weight: 600;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: uppercase;
   line-height: 10px;
 }

@@ -4,9 +4,9 @@
   width: 360px;
   height: 48px;
   position: relative;
-  background: #000000;
+  background: #101010;
   padding: 8px 16px;
-  border: 2px solid #000000 /* plasmic-token: F4gy0u3aB */;
+  border: 2px solid #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -378,7 +378,6 @@
   width: auto;
   height: auto;
   line-height: 1;
-  display: inline-block;
 }
 .text__width__120 {
   font-size: 12px;

@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: 40px;
@@ -34,7 +34,7 @@
   margin-left: 8px;
 }
 .parent__state_selected {
-  border-bottom: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root:hover .parent {
   background: #f8f8ff;
@@ -62,20 +62,20 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
 .slotTargetNavLabel__state_selected {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root:hover .slotTargetNavLabel {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .root__state_selected:hover .slotTargetNavLabel__state_selected {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .numberParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: stretch;
@@ -96,9 +96,9 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
 .slotTargetNumberValue__state_selected {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }

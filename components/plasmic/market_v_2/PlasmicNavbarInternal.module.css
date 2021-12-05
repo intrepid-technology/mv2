@@ -14,11 +14,16 @@
   justify-content: space-between;
   width: 100%;
   height: 80px;
+  border-bottom-width: 2px;
+  border-bottom-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
   background: #ffffff;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
   min-width: 0;
   flex-shrink: 0;
   padding: 8px 40px 8px 8px;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-style: none;
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .parent {
@@ -29,19 +34,23 @@
   background: #ffffff;
 }
 .sidebarHeaderClosed {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   position: relative;
   left: auto;
   top: auto;
+  min-width: 0;
+  min-height: 0;
   padding: 4px 4px 4px 0px;
 }
 .sidebarHeaderClosed > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -87,7 +96,7 @@
   position: relative;
 }
 .freeBox__fJTxW {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -115,7 +124,7 @@
   margin-left: 24px;
 }
 .freeBox__maSdV {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -142,7 +151,7 @@
   margin-left: 12px;
 }
 .freeBox__av6P {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   top: auto;
@@ -167,6 +176,12 @@
   > img {
   margin-left: 0px;
 }
+.freeBox__user_member_state_loggedIn__av6PL8QpNNht4J {
+  display: flex;
+}
+.freeBox__user_partner_state_loggedIn__av6PKgcSnNht4J {
+  display: flex;
+}
 .navbarListButton {
   display: flex;
   position: relative;
@@ -189,7 +204,7 @@
   top: auto;
 }
 .navbarListButtonTextParent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -229,7 +244,6 @@
   width: auto;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-size: 14px;
-  display: inline-block;
 }
 .navbarListButton22 {
   display: flex;
@@ -240,13 +254,13 @@
   height: 32px;
   padding-left: 4px;
   padding-right: 4px;
-  background: #000000;
+  background: #101010;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .navbarListButtonTextParent22 {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -286,14 +300,25 @@
   width: auto;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-size: 14px;
-  display: inline-block;
 }
 .navbarAdminIcons:global(.__wab_instance) {
   position: relative;
   align-self: center;
 }
+.navbarAdminIcons__user_member_state_loggedIn:global(.__wab_instance) {
+  display: flex;
+}
+.navbarAdminIcons__user_partner_state_loggedIn:global(.__wab_instance) {
+  display: flex;
+}
 .navbarNotifications:global(.__wab_instance) {
   position: relative;
+}
+.navbarNotifications__user_member_state_loggedIn:global(.__wab_instance) {
+  display: flex;
+}
+.navbarNotifications__user_partner_state_loggedIn:global(.__wab_instance) {
+  display: flex;
 }
 .userAvatar:global(.__wab_instance) {
   position: relative;

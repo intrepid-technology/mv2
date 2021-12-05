@@ -44,7 +44,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__iAdTm {
@@ -54,7 +54,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
 }
 .freeBox__srome {
@@ -88,7 +88,7 @@
   margin-left: 16px;
 }
 .freeBox__saaSc {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -96,7 +96,7 @@
   left: auto;
   top: auto;
   padding: 8px;
-  border-right: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border-right: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .freeBox__saaSc > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -122,7 +122,7 @@
 }
 .text__lvUbZ {
   font-style: normal;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .option___5XlWy:global(.__wab_instance) {
   position: relative;
@@ -137,7 +137,7 @@
 }
 .text__mjB1W {
   font-style: normal;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .option___0RkvS:global(.__wab_instance) {
   position: relative;
@@ -152,7 +152,7 @@
 }
 .text__gmh8B {
   font-style: normal;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .option___3JbD8:global(.__wab_instance) {
   position: relative;

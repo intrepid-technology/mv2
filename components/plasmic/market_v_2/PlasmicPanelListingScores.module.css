@@ -51,7 +51,7 @@
   font-size: 8px;
   line-height: 1;
   font-weight: 600;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: normal;
@@ -130,7 +130,7 @@
 }
 .text__iCiP {
   line-height: 1;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: auto;
   font-size: 10px;
@@ -144,7 +144,7 @@
   top: auto;
   line-height: 1;
   font-size: 10px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementViewsCount {
   display: flex;
@@ -190,7 +190,7 @@
 }
 .text__ocmNw {
   line-height: 1;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: auto;
   font-size: 10px;
@@ -204,7 +204,7 @@
   top: auto;
   line-height: 1;
   font-size: 10px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementReactsCount {
   display: flex;
@@ -250,7 +250,7 @@
 }
 .text__agzVt {
   line-height: 1;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: auto;
   font-size: 10px;
@@ -264,7 +264,7 @@
   top: auto;
   line-height: 1;
   font-size: 10px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementSavesCount {
   display: flex;
@@ -310,7 +310,7 @@
 }
 .text__vsewK {
   line-height: 1;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: auto;
   font-size: 10px;
@@ -324,5 +324,5 @@
   top: auto;
   line-height: 1;
   font-size: 10px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

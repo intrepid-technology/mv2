@@ -80,7 +80,7 @@
   min-width: 0;
 }
 .textBg {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;

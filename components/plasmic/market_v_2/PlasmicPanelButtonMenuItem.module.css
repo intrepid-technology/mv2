@@ -54,16 +54,16 @@
   max-width: 800px;
   left: auto;
   top: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 .slotTargetHeadlineText {
   font-size: 16px;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   font-weight: 500;
 }
 .parent:hover .slotTargetHeadlineText {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__scfLh {
   position: relative;
@@ -72,9 +72,9 @@
   max-width: 800px;
   left: auto;
   top: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 .slotTargetSubheadText {
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }

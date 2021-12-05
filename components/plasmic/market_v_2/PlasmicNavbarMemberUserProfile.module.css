@@ -13,6 +13,7 @@
     height: 80px;
     overflow: visible;
     min-width: 0;
+    display: flex;
   }
 }
 @media (max-width: 375px) {
@@ -30,8 +31,8 @@
   padding-left: 160px;
   min-width: 0;
   flex-shrink: 0;
-  border-top: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-bottom: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -61,8 +62,8 @@
     background: none;
     min-width: 0;
     flex-shrink: 0;
-    border-top: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-    border-bottom: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+    border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+    border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -98,6 +99,7 @@
     background: none;
     min-width: 0;
     flex-shrink: 0;
+    display: flex;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -107,22 +109,64 @@
 }
 .navLink:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLink:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__oHamT:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__oHamT:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__riK08:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__riK08:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__dlrUd:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__dlrUd:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__mw6Hn:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__mw6Hn:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__e2ZcH:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__e2ZcH:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .navLinkCounter__hXcX2:global(.__wab_instance) {
   position: relative;
+  display: flex;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navLinkCounter__hXcX2:global(.__wab_instance) {
+    display: flex;
+  }
 }

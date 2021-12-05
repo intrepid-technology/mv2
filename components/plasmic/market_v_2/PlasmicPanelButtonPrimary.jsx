@@ -43,7 +43,14 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
         defaultcss.all,
         projectcss.all,
         projectcss.root_reset,
-        sty.root
+        sty.root,
+        {
+          [sty.root__alternates_newProject]: hasVariant(
+            variants,
+            "alternates",
+            "newProject"
+          )
+        }
       )}
     >
       <p.PlasmicLink

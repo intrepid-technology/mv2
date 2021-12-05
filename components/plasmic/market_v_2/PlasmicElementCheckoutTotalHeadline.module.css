@@ -8,7 +8,7 @@
   position: relative;
 }
 .freeBox {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -42,11 +42,11 @@
   text-align: left;
   font-weight: 700;
   width: 80px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .currencyTotalValueParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -76,7 +76,7 @@
   margin-left: 4px;
 }
 .currencyParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;
@@ -84,7 +84,7 @@
 .slotTargetCurrency {
   font-size: 18px;
   font-weight: 700;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .totalValueNumberParent {
@@ -102,6 +102,5 @@
   width: auto;
   height: auto;
   font-weight: 700;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
-  display: inline-block;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }

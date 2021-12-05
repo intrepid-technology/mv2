@@ -53,13 +53,13 @@
   height: 24px;
   transition-property: background;
   transition-duration: 0.2s;
-  background: #dddddd;
+  background: #3d4350;
   min-width: 0;
   border-radius: 12px;
   border: 1px solid transparent;
 }
 .track__noLabel {
-  background: #dddddd;
+  background: #3d4350;
 }
 .track__isChecked {
   background: #6633ff;

@@ -25,7 +25,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -33,7 +33,7 @@
   width: 360px;
 }
 .checkoutSubTotalListItemBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -67,7 +67,7 @@
   left: auto;
 }
 .checkoutListItems {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -114,7 +114,7 @@
   top: auto;
 }
 .freeBox__d20Mo {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -148,11 +148,11 @@
   text-align: left;
   font-weight: 700;
   width: 80px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .freeBox__ulvEc {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -187,8 +187,7 @@
   width: auto;
   height: auto;
   font-weight: 700;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
-  display: inline-block;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .freeBox__w6Xdr {
   display: flex;
@@ -205,8 +204,7 @@
   width: auto;
   height: auto;
   font-weight: 700;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
-  display: inline-block;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .freeBox__mj7GH {
   display: flex;
@@ -220,7 +218,7 @@
   top: auto;
 }
 .freeBox__fbCfP {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -261,7 +259,7 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  background: #ebebeb;
+  background: #f1f1f1;
   border-radius: 2px;
   padding: 2px;
 }
@@ -271,7 +269,6 @@
   width: auto;
   font-weight: 400;
   line-height: 1;
-  display: inline-block;
   border-radius: 2px;
   padding: 0px;
 }
@@ -299,10 +296,9 @@
   text-align: left;
   width: auto;
   line-height: 1;
-  display: inline-block;
 }
 .freeBox__lTtnn {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -337,7 +333,7 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  background: #ebebeb;
+  background: #f1f1f1;
   border-radius: 2px;
   padding: 2px;
 }
@@ -346,12 +342,11 @@
   text-align: left;
   width: auto;
   line-height: 1;
-  display: inline-block;
   border-radius: 2px;
   padding: 0px;
 }
 .freeBox__ioo18 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -385,7 +380,6 @@
   text-align: left;
   width: auto;
   height: auto;
-  display: inline-block;
 }
 .freeBox__fOqvL {
   display: flex;
@@ -401,7 +395,6 @@
   text-align: left;
   width: auto;
   height: auto;
-  display: inline-block;
 }
 .svg__xmCJi {
   position: relative;
@@ -410,11 +403,11 @@
   height: 1em;
   left: auto;
   top: auto;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
   flex-shrink: 0;
 }
 .checkoutPromotionInput {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -463,11 +456,11 @@
   height: 1em;
   left: auto;
   top: auto;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
   flex-shrink: 0;
 }
 .checkoutTotalButtonBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;

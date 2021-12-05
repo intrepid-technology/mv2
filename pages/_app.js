@@ -5,6 +5,7 @@ import * as React from "react";
 import { Hydrate, QueryClient, QueryClientProvider } from "react-query";
 
 import Layout from "../components/Layout";
+import { OverlayProvider } from "@react-aria/overlays";
 import PageBreadcrumbs from "components/PageBreadcrumbs";
 import PageScrollNavigations from "components/PageScrollNavigations";
 import PageTabNavigations from "components/PageTabNavigations";
@@ -24,6 +25,7 @@ function MyApp({ Component, pageProps }) {
     <QueryClientProvider client={queryClient}>
       <Hydrate state={pageProps.dehydratedState}>
         <Provider store={store}>
+        <OverlayProvider>
           <Layout
             navbar={{
               auth: isAuth,
@@ -46,6 +48,7 @@ function MyApp({ Component, pageProps }) {
               }
             }}
           />
+        </OverlayProvider>
         </Provider>
       </Hydrate>
     </QueryClientProvider>

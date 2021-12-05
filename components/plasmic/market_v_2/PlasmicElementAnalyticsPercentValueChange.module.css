@@ -58,7 +58,7 @@
   min-height: 0;
 }
 .numberValuePercentParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -109,7 +109,7 @@
 }
 .text__nqe9N {
   font-size: 14px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetNumberValueParentPlus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
@@ -138,11 +138,11 @@
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
 .slotTargetNumberValueParentNoChange__integer_noChange {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .text__inWg {
   font-size: 14px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .percentParent {
   display: flex;
@@ -161,7 +161,7 @@
 }
 .text__qWu5 {
   font-size: 14px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetPercentParentPlus__integer_plus {
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
@@ -190,9 +190,9 @@
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
 .slotTargetPercentParentNoChange__integer_noChange {
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .text___03RQv {
   font-size: 14px;
-  color: #000000 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }

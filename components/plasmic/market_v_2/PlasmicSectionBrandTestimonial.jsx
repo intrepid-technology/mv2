@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -21,14 +22,13 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionBrandTestimonial.module.css"; // plasmic-import: mjt7CZropo/css
-import RedbullsvgIcon from "./icons/PlasmicIcon__Redbullsvg"; // plasmic-import: iVGePAXJh/icon
-import LvmhLogosvgIcon from "./icons/PlasmicIcon__LvmhLogosvg"; // plasmic-import: 9MwDlhB7W/icon
-import MastercardsvgIcon from "./icons/PlasmicIcon__Mastercardsvg"; // plasmic-import: W4hkSJywT/icon
-import SamsungsvgIcon from "./icons/PlasmicIcon__Samsungsvg"; // plasmic-import: 1XTbW98De/icon
+import ApplesvgIcon from "./icons/PlasmicIcon__Applesvg"; // plasmic-import: J_76r5N89/icon
 import TheNorthFace1LogoSvgVectorsvgIcon from "./icons/PlasmicIcon__TheNorthFace1LogoSvgVectorsvg"; // plasmic-import: Anyn124Pr/icon
+import MastercardsvgIcon from "./icons/PlasmicIcon__Mastercardsvg"; // plasmic-import: W4hkSJywT/icon
 import NikesvgIcon from "./icons/PlasmicIcon__Nikesvg"; // plasmic-import: jNcsRuphk/icon
+import LvmhLogosvgIcon from "./icons/PlasmicIcon__LvmhLogosvg"; // plasmic-import: 9MwDlhB7W/icon
 
-export const PlasmicSectionBrandTestimonial__VariantProps = new Array();
+export const PlasmicSectionBrandTestimonial__VariantProps = new Array("color");
 
 export const PlasmicSectionBrandTestimonial__ArgProps = new Array(
   "children",
@@ -53,7 +53,8 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
         defaultcss.all,
         projectcss.all,
         projectcss.root_reset,
-        sty.root
+        sty.root,
+        { [sty.root__color]: hasVariant(variants, "color", "color") }
       )}
     >
       <div
@@ -71,10 +72,15 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
           )}
         >
           {p.renderPlasmicSlot({
-            defaultContents:
-              "The world's leading brands innovate, transform, and grow with our community",
+            defaultContents: "We're a trusted community to world class teams",
             value: args.children,
-            className: classNames(sty.slotTargetChildren)
+            className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__color]: hasVariant(
+                variants,
+                "color",
+                "color"
+              )
+            })
           })}
         </div>
       </div>
@@ -91,7 +97,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: (
             <React.Fragment>
-              <RedbullsvgIcon
+              <ApplesvgIcon
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
@@ -100,11 +106,11 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
                 role={"img"}
               />
 
-              <LvmhLogosvgIcon
+              <TheNorthFace1LogoSvgVectorsvgIcon
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
-                  sty.svg___3Azwk
+                  sty.svg__cP3Fi
                 )}
                 role={"img"}
               />
@@ -118,24 +124,6 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
                 role={"img"}
               />
 
-              <SamsungsvgIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__cP3Fi
-                )}
-                role={"img"}
-              />
-
-              <TheNorthFace1LogoSvgVectorsvgIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__yFlq3
-                )}
-                role={"img"}
-              />
-
               <NikesvgIcon
                 className={classNames(
                   defaultcss.all,
@@ -144,10 +132,22 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
                 )}
                 role={"img"}
               />
+
+              <LvmhLogosvgIcon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___3Azwk
+                )}
+                role={"img"}
+              />
             </React.Fragment>
           ),
 
-          value: args.slot3
+          value: args.slot3,
+          className: classNames(sty.slotTargetSlot3, {
+            [sty.slotTargetSlot3__color]: hasVariant(variants, "color", "color")
+          })
         })}
       </p.Stack>
     </p.Stack>

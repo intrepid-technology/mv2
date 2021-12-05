@@ -89,7 +89,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span className={"plasmic_default__all plasmic_default__span"}>
+            <React.Fragment>
               <React.Fragment>{"Our "}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
@@ -98,7 +98,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 {"future"}
               </span>
               <React.Fragment> </React.Fragment>
-            </span>
+            </React.Fragment>
           </div>
 
           <div
@@ -170,7 +170,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span className={"plasmic_default__all plasmic_default__span"}>
+            <React.Fragment>
               <React.Fragment>{""}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
@@ -179,7 +179,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 {"quality"}
               </span>
               <React.Fragment>{" of our"}</React.Fragment>
-            </span>
+            </React.Fragment>
           </div>
 
           <div
@@ -300,7 +300,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               }
             )}
           >
-            <span className={"plasmic_default__all plasmic_default__span"}>
+            <React.Fragment>
               <React.Fragment>{"Our "}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
@@ -309,7 +309,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 {"future"}
               </span>
               <React.Fragment> </React.Fragment>
-            </span>
+            </React.Fragment>
           </div>
 
           <div
@@ -342,7 +342,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               sty.text___6YcQd
             )}
           >
-            <span className={"plasmic_default__all plasmic_default__span"}>
+            <React.Fragment>
               <React.Fragment>{""}</React.Fragment>
               <span
                 className={"plasmic_default__all plasmic_default__span"}
@@ -351,7 +351,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 {"quality"}
               </span>
               <React.Fragment>{" of our"}</React.Fragment>
-            </span>
+            </React.Fragment>
           </div>
 
           <div
