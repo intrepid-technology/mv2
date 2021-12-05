@@ -45,12 +45,17 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <SuperpowerIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
-        className={classNames(defaultcss.all, sty.svg, {
+        className={classNames(defaultcss.all, projectcss.all, sty.svg, {
           [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
           [sty.svg__size__16]: hasVariant(variants, "size", "_16")
         })}

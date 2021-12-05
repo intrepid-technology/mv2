@@ -5,12 +5,12 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon161Icon(props) {
+export function LogOutIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
       xmlns={"http://www.w3.org/2000/svg"}
-      viewBox={"0 0 16 16"}
+      viewBox={"0 0 48 48"}
       height={"1em"}
       width={"1em"}
       style={{
@@ -23,12 +23,13 @@ export function Icon161Icon(props) {
       {title && <title>{title}</title>}
 
       <path
-        fillRule={"evenodd"}
-        d={"M2 9V7h12v2H2zm0 4v-2h12v2H2zm0-8V3h12v2H2z"}
+        d={
+          "M20.17 31.17L23 34l10-10-10-10-2.83 2.83L25.34 22H6v4h19.34l-5.17 5.17zM38 6H10c-2.21 0-4 1.79-4 4v8h4v-8h28v28H10v-8H6v8c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V10c0-2.21-1.79-4-4-4z"
+        }
       ></path>
     </svg>
   );
 }
 
-export default Icon161Icon;
+export default LogOutIcon;
 /* prettier-ignore-end */

@@ -1,7 +1,8 @@
 import * as React from "react";
+
+import { PlasmicEditmember } from "../../components/plasmic/market_v_2/PlasmicEditmember";
 import supabase from "../../backend/api/supabase";
 import useUpdateUser from "../../hooks/useUpdateUser";
-import { PlasmicEditmember } from "../../components/plasmic/market_v_2/PlasmicEditmember";
 
 function Editmember() {
   const [values, setValues] = React.useState();

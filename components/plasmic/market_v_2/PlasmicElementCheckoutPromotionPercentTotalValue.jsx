@@ -38,17 +38,30 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__rvDg)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__rvDg
+        )}
       >
         <div
           data-plasmic-name={"promotionTitleTextParent"}
           data-plasmic-override={overrides.promotionTitleTextParent}
-          className={classNames(defaultcss.all, sty.promotionTitleTextParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.promotionTitleTextParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Promotion",
@@ -64,6 +77,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           hasGap={true}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             sty.promotionFactorPercentNumberParent
           )}
         >
@@ -72,6 +86,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
             data-plasmic-override={overrides.promotionFactorText}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.promotionFactorText
             )}
@@ -96,12 +111,14 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.promotionCurrencyTotalValueDiscountNumber
         )}
       >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__mX4Ny
           )}
@@ -112,7 +129,11 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
         <div
           data-plasmic-name={"promotionCurrencyParent"}
           data-plasmic-override={overrides.promotionCurrencyParent}
-          className={classNames(defaultcss.all, sty.promotionCurrencyParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.promotionCurrencyParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "$",
@@ -121,10 +142,17 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           })}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox__jPJt)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__jPJt
+          )}
+        >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__clGpn
             )}

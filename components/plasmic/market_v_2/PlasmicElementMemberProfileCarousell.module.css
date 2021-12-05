@@ -87,6 +87,11 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .headlineLabelParent {
+    display: flex;
+  }
+}
 .freeBox___4RlGc {
   position: relative;
   display: flex;
@@ -103,14 +108,14 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .slotTargetHeadlineLabel {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
     line-height: 1.2;
     letter-spacing: normal;
   }
@@ -176,9 +181,15 @@
     margin-top: 0px;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .memberCarousel {
+    display: flex;
+  }
+}
 .chipUserProfile__bsvA6:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__bsvA6:global(.__wab_instance) {
@@ -205,6 +216,7 @@
 .chipUserProfile___8KFb7:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile___8KFb7:global(.__wab_instance) {
@@ -231,6 +243,7 @@
 .chipUserProfile___1I8G:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile___1I8G:global(.__wab_instance) {
@@ -257,6 +270,7 @@
 .chipUserProfile__ok35:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__ok35:global(.__wab_instance) {
@@ -283,6 +297,7 @@
 .chipUserProfile__pPgt8:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__pPgt8:global(.__wab_instance) {
@@ -309,6 +324,7 @@
 .chipUserProfile__ks5Sk:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .chipUserProfile__ks5Sk:global(.__wab_instance) {

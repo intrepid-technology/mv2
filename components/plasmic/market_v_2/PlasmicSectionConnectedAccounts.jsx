@@ -45,11 +45,21 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__border]: hasVariant(variants, "border", "border"),
-        [sty.parent__closed]: hasVariant(variants, "closed", "closed"),
-        [sty.parent__visible_google]: hasVariant(variants, "visible", "google")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent,
+        {
+          [sty.parent__border]: hasVariant(variants, "border", "border"),
+          [sty.parent__closed]: hasVariant(variants, "closed", "closed"),
+          [sty.parent__visible_google]: hasVariant(
+            variants,
+            "visible",
+            "google"
+          )
+        }
+      )}
     >
       <InputFormCardWebhookConnections
         data-plasmic-name={"personalLoginConnectionAccounts"}
@@ -104,6 +114,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__c84HQ
               )}
@@ -115,6 +126,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__vyrJr
               )}
@@ -154,6 +166,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__eJkr2
               )}
@@ -165,6 +178,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__zhjMw
               )}

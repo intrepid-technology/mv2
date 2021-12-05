@@ -55,7 +55,7 @@
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   align-self: stretch;
   text-transform: uppercase;
 }
@@ -63,7 +63,7 @@
   font-size: 8px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: uppercase;
   line-height: 1;
   letter-spacing: normal;
@@ -175,7 +175,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
@@ -190,7 +190,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .followersParent2 {
   display: flex;
@@ -223,7 +223,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -238,7 +238,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementMemberSubscriptionsLists {
   display: flex;
@@ -322,7 +322,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -336,7 +336,7 @@
   top: auto;
   line-height: 1;
   font-size: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-weight: 400;
 }
 .memberListsCountParent {
@@ -406,7 +406,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -420,7 +420,7 @@
   top: auto;
   line-height: 1;
   font-size: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-weight: 400;
 }
 .elementMemberFollowersTeams {
@@ -527,7 +527,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -542,7 +542,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .memberFollowersCountParent {
   display: flex;
@@ -612,7 +612,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
@@ -627,7 +627,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementUserSocialFollowingB {
   display: flex;
@@ -693,7 +693,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -707,7 +707,7 @@
   top: auto;
   line-height: 1;
   font-size: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-weight: 400;
 }
 .followersParent {
@@ -741,7 +741,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -755,7 +755,7 @@
   top: auto;
   line-height: 1;
   font-size: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-weight: 400;
 }
 .elementPartnerSubscriberReviewsParent {
@@ -872,7 +872,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
@@ -887,7 +887,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .partnerTeamReviewCountParent {
   display: flex;
@@ -959,7 +959,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -974,7 +974,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementUserFollowersTeams3 {
   display: flex;
@@ -1088,7 +1088,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   width: 100%;
@@ -1103,7 +1103,7 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .partnerFollowersCountParent {
   display: flex;
@@ -1176,7 +1176,7 @@
   left: auto;
   top: auto;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 16px;
   text-align: center;
   font-weight: 600;
@@ -1191,5 +1191,5 @@
   line-height: 1;
   font-size: 14px;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

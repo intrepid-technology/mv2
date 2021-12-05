@@ -40,7 +40,12 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -48,7 +53,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
         >
           <CardHeroMemberProfileDisplay
             data-plasmic-name={"cardHeroMemberProfileDisplay"}
@@ -65,16 +70,25 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
               data-plasmic-name={"profileCommunityParent"}
               data-plasmic-override={overrides.profileCommunityParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.profileCommunityParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.profileCommunityParent
+              )}
             >
               <div
                 data-plasmic-name={"community"}
                 data-plasmic-override={overrides.community}
-                className={classNames(defaultcss.all, sty.community)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.community
+                )}
               >
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__uQFt
                   )}
@@ -88,20 +102,29 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                 data-plasmic-name={"statsParent"}
                 data-plasmic-override={overrides.statsParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.statsParent)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.statsParent
+                )}
               >
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"memberStatParent"}
                   data-plasmic-override={overrides.memberStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.memberStatParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.memberStatParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"memberNumberCount"}
                     data-plasmic-override={overrides.memberNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.memberNumberCount
                     )}
@@ -112,6 +135,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__lhNgd
                     )}
@@ -129,6 +153,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.followersStatParent
                   )}
                 >
@@ -137,6 +162,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                     data-plasmic-override={overrides.followingNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.followingNumberCount
                     )}
@@ -147,6 +173,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___3QQmy
                     )}
@@ -164,13 +191,18 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   data-plasmic-name={"partnerStatParent"}
                   data-plasmic-override={overrides.partnerStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.partnerStatParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.partnerStatParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"partnerNumberCount"}
                     data-plasmic-override={overrides.partnerNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.partnerNumberCount
                     )}
@@ -181,6 +213,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__qKdWg
                     )}
@@ -198,13 +231,18 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   data-plasmic-name={"viewsStatParent"}
                   data-plasmic-override={overrides.viewsStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.viewsStatParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.viewsStatParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"viewsNumberCount"}
                     data-plasmic-override={overrides.viewsNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.viewsNumberCount
                     )}
@@ -215,6 +253,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__zSr5B
                     )}
@@ -230,13 +269,18 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   data-plasmic-name={"reactsStatParent"}
                   data-plasmic-override={overrides.reactsStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.reactsStatParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.reactsStatParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"reactsNumberCount"}
                     data-plasmic-override={overrides.reactsNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.reactsNumberCount
                     )}
@@ -247,6 +291,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__mRbl9
                     )}
@@ -260,13 +305,18 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   data-plasmic-name={"savesStatParent"}
                   data-plasmic-override={overrides.savesStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.savesStatParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.savesStatParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"savesNumberCount"}
                     data-plasmic-override={overrides.savesNumberCount}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.savesNumberCount
                     )}
@@ -277,6 +327,7 @@ function PlasmicSectionMemberProfileHero__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___5H6RB
                     )}

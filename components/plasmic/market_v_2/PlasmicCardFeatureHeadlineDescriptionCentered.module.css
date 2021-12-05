@@ -1,0 +1,74 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 380px;
+  background: none;
+  position: relative;
+  padding: 8px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.freeBox__jYdaR {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px 8px;
+}
+.freeBox__dczna {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.slotTargetHeadlineSlot {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+}
+.freeBox__moGa5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__nex5S {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotTargetBodyTextSlot {
+  text-align: center;
+}

@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
@@ -65,24 +64,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "wallet",
-              "lists",
-              "reviews",
-              "messages"
-            ]}
-            selected={"settings"}
-          />
-
           <FormContext
             data-plasmic-name={"settingsForm"}
             data-plasmic-override={overrides.settingsForm}
@@ -95,6 +81,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionTeamSettingsStripeConnect
               )}
             >
@@ -110,6 +97,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__lyarm
                     )}
@@ -132,6 +120,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.formTeamEditBusinessVerification
                 )}
               >
@@ -142,6 +131,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   hasGap={true}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.cardTeamLegalBusinessGroup
                   )}
                 >
@@ -154,6 +144,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__fvhx6
                         )}
@@ -185,6 +176,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.cardTeamRegisteredAddress
                     )}
                   >
@@ -197,6 +189,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__tl2Nk
                           )}
@@ -217,6 +210,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.teamAddressGroup
                       )}
                     >
@@ -307,7 +301,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     data-plasmic-name={"cardTeamTaxId"}
                     data-plasmic-override={overrides.cardTeamTaxId}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.cardTeamTaxId)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.cardTeamTaxId
+                    )}
                   >
                     <CardHeaderTitlePrimary
                       className={classNames(
@@ -318,6 +316,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__s0VQ5
                           )}
@@ -336,7 +335,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                       data-plasmic-name={"teamTaxIdGroup"}
                       data-plasmic-override={overrides.teamTaxIdGroup}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.teamTaxIdGroup)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.teamTaxIdGroup
+                      )}
                     >
                       <FormSelectInput
                         data-plasmic-name={"taxCountrySelectInput"}
@@ -383,6 +386,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionTeamSettingsAccountingConnect
               )}
             >
@@ -393,6 +397,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.cardTeamAccountingConnections
                 )}
               >
@@ -405,6 +410,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__sHo1Q
                       )}
@@ -425,6 +431,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                   }
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.inputGroupTeamAccountingConnections
                   )}
                 >
@@ -441,16 +448,25 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         data-plasmic-name={"wrapper"}
                         data-plasmic-override={overrides.wrapper}
                         hasGap={true}
-                        className={classNames(defaultcss.all, sty.wrapper)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.wrapper
+                        )}
                       >
                         <XerosvgIcon
-                          className={classNames(defaultcss.all, sty.svg__ix2K4)}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.svg__ix2K4
+                          )}
                           role={"img"}
                         />
 
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__mAb96
                           )}
@@ -475,11 +491,16 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         data-plasmic-name={"wrapper2"}
                         data-plasmic-override={overrides.wrapper2}
                         hasGap={true}
-                        className={classNames(defaultcss.all, sty.wrapper2)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.wrapper2
+                        )}
                       >
                         <Icons8QuickbookssvgIcon
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             sty.svg___04VTx
                           )}
                           role={"img"}
@@ -488,6 +509,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__mvjMx
                           )}
@@ -511,6 +533,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.sectionTeamSettingsAnalyticsConnect
               )}
             >
@@ -519,7 +542,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 data-plasmic-name={"cardTeamAnalytics"}
                 data-plasmic-override={overrides.cardTeamAnalytics}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.cardTeamAnalytics)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.cardTeamAnalytics
+                )}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -530,6 +557,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__oxyo4
                       )}
@@ -561,7 +589,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             <div
               data-plasmic-name={"submitButtonWrapper"}
               data-plasmic-override={overrides.submitButtonWrapper}
-              className={classNames(defaultcss.all, sty.submitButtonWrapper)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.submitButtonWrapper
+              )}
             >
               <Button
                 data-plasmic-name={"button"}
@@ -571,6 +603,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__qWbv8
                   )}
@@ -586,7 +619,13 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             data-plasmic-override={overrides.notificationsForm}
             className={classNames("__wab_instance", sty.notificationsForm)}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__dUAoo)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__dUAoo
+              )}
+            >
               <NotificationSettingsForm
                 data-plasmic-name={"notificationSettingsForm"}
                 data-plasmic-override={overrides.notificationSettingsForm}
@@ -605,6 +644,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionTeamSettingsLeaveTeam
             )}
           >
@@ -613,12 +653,20 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               data-plasmic-name={"cardTeamLeaveAccount"}
               data-plasmic-override={overrides.cardTeamLeaveAccount}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.cardTeamLeaveAccount)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.cardTeamLeaveAccount
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox___01Ppy)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox___01Ppy
+                )}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -629,6 +677,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__gjYq9
                       )}
@@ -653,6 +702,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__lshov
                   )}
@@ -670,6 +720,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionTeamSettingsDeleteTeam
             )}
           >
@@ -678,12 +729,20 @@ function PlasmicEditteamsettings__RenderFunc(props) {
               data-plasmic-name={"cardTeamDeleteAccount"}
               data-plasmic-override={overrides.cardTeamDeleteAccount}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.cardTeamDeleteAccount)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.cardTeamDeleteAccount
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__vOij)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__vOij
+                )}
               >
                 <CardHeaderTitlePrimary
                   className={classNames(
@@ -694,6 +753,7 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__piuw6
                       )}
@@ -731,7 +791,6 @@ function PlasmicEditteamsettings__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
     "cardHeaderTitleDisplay",
@@ -773,7 +832,6 @@ const PlasmicDescendants = {
     "deleteAccountButton"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   settingsForm: [
     "settingsForm",
     "sectionTeamSettingsStripeConnect",
@@ -1002,7 +1060,6 @@ export const PlasmicEditteamsettings = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     settingsForm: makeNodeComponent("settingsForm"),
     sectionTeamSettingsStripeConnect: makeNodeComponent(
       "sectionTeamSettingsStripeConnect"

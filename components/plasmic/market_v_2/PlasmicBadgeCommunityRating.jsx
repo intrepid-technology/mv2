@@ -37,25 +37,39 @@ function PlasmicBadgeCommunityRating__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent
+      )}
     >
       <SuperpowerIcon
         data-plasmic-name={"superpowerIcon"}
         data-plasmic-override={overrides.superpowerIcon}
-        className={classNames(defaultcss.all, sty.superpowerIcon)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.superpowerIcon
+        )}
         role={"img"}
       />
 
       <div
         data-plasmic-name={"overallMemberRatingNumber"}
         data-plasmic-override={overrides.overallMemberRatingNumber}
-        className={classNames(defaultcss.all, sty.overallMemberRatingNumber)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.overallMemberRatingNumber
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__xcZnF
               )}

@@ -17,7 +17,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarMemberEdit from "../../NavbarMemberEdit"; // plasmic-import: oTyBGj7jMRD/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-import: hIka2k2fkY/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
@@ -32,7 +31,7 @@ import * as sty from "./PlasmicMembermanageprojects.module.css"; // plasmic-impo
 
 export const PlasmicMembermanageprojects__VariantProps = new Array();
 
-export const PlasmicMembermanageprojects__ArgProps = new Array();
+export const PlasmicMembermanageprojects__ArgProps = new Array("listingNumber");
 
 function PlasmicMembermanageprojects__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -60,59 +59,52 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
-          <NavbarMemberEdit
-            data-plasmic-name={"navbarMemberEdit"}
-            data-plasmic-override={overrides.navbarMemberEdit}
-            className={classNames("__wab_instance", sty.navbarMemberEdit)}
-            navItems={[
-              "notifications",
-              "lists",
-              "reviews",
-              "wallet",
-              "messages"
-            ]}
-            selected={"projects"}
-          />
-
-          <p.Stack
-            as={"section"}
-            data-plasmic-name={"sectionMemberManageProjectsHeader"}
-            data-plasmic-override={overrides.sectionMemberManageProjectsHeader}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              sty.sectionMemberManageProjectsHeader
-            )}
-          >
-            <CardHeaderTitleDisplay
-              data-plasmic-name={"cardHeaderTitleDisplay"}
-              data-plasmic-override={overrides.cardHeaderTitleDisplay}
+          {false ? (
+            <p.Stack
+              as={"section"}
+              data-plasmic-name={"sectionMemberManageProjectsHeader"}
+              data-plasmic-override={
+                overrides.sectionMemberManageProjectsHeader
+              }
+              hasGap={true}
               className={classNames(
-                "__wab_instance",
-                sty.cardHeaderTitleDisplay
+                defaultcss.all,
+                projectcss.all,
+                sty.sectionMemberManageProjectsHeader
               )}
-              size={"_720"}
-              slot={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__qYxNs
-                  )}
-                >
-                  {"Manage your projects"}
-                </div>
-              }
-              textDisplay={"Projects"}
-              textSubhead={
-                "Project overview with controls on how to contact your partner and provide instructions on how to complete your project"
-              }
-            />
-          </p.Stack>
+            >
+              <CardHeaderTitleDisplay
+                data-plasmic-name={"cardHeaderTitleDisplay"}
+                data-plasmic-override={overrides.cardHeaderTitleDisplay}
+                className={classNames(
+                  "__wab_instance",
+                  sty.cardHeaderTitleDisplay
+                )}
+                size={"_720"}
+                slot={
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__qYxNs
+                    )}
+                  >
+                    {"Manage your projects"}
+                  </div>
+                }
+                textDisplay={"Projects"}
+                textSubhead={
+                  "Project overview with controls on how to contact your partner and provide instructions on how to complete your project"
+                }
+              />
+            </p.Stack>
+          ) : null}
 
           <p.Stack
             as={"section"}
@@ -121,13 +113,18 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionMemberManageListings
             )}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox___5GmQ)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox___5GmQ
+              )}
             >
               <CardHeaderTitlePrimary
                 data-plasmic-name={"cardHeaderTitlePrimary"}
@@ -140,6 +137,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__pmRau
                     )}
@@ -158,6 +156,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.listingManagementBlockParent
                 )}
               >
@@ -166,32 +165,32 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                   data-plasmic-name={"listingTotalParent"}
                   data-plasmic-override={overrides.listingTotalParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.listingTotalParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.listingTotalParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"listingNumberParent"}
                     data-plasmic-override={overrides.listingNumberParent}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.listingNumberParent
                     )}
                   >
-                    <div
-                      data-plasmic-name={"listingNumber"}
-                      data-plasmic-override={overrides.listingNumber}
-                      className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.listingNumber
-                      )}
-                    >
-                      {"3"}
-                    </div>
+                    {p.renderPlasmicSlot({
+                      defaultContents: "3",
+                      value: args.listingNumber,
+                      className: classNames(sty.slotTargetListingNumber)
+                    })}
                   </div>
 
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nBju3
                     )}
@@ -203,13 +202,18 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__xYhA)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__xYhA
+                  )}
                 >
                   <div
                     data-plasmic-name={"listingSearchFilterParent"}
                     data-plasmic-override={overrides.listingSearchFilterParent}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.listingSearchFilterParent
                     )}
                   >
@@ -220,6 +224,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.searchOrderFilterParent
                       )}
                     >
@@ -242,6 +247,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           sty.listingSearchFilterDropdownParent
                         )}
                       >
@@ -273,6 +279,7 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.orderTableColumnMain
                     )}
                   >
@@ -286,23 +293,11 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
                     />
 
                     <TableProjectAdminRecord
+                      data-plasmic-name={"tableProjectAdminRecord"}
+                      data-plasmic-override={overrides.tableProjectAdminRecord}
                       className={classNames(
                         "__wab_instance",
-                        sty.tableProjectAdminRecord___4QXjc
-                      )}
-                    />
-
-                    <TableProjectAdminRecord
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tableProjectAdminRecord___9Meuc
-                      )}
-                    />
-
-                    <TableProjectAdminRecord
-                      className={classNames(
-                        "__wab_instance",
-                        sty.tableProjectAdminRecord__vqAt
+                        sty.tableProjectAdminRecord
                       )}
                     />
                   </p.Stack>
@@ -319,7 +314,6 @@ function PlasmicMembermanageprojects__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarMemberEdit",
     "sectionMemberManageProjectsHeader",
     "cardHeaderTitleDisplay",
     "sectionMemberManageListings",
@@ -327,16 +321,15 @@ const PlasmicDescendants = {
     "listingManagementBlockParent",
     "listingTotalParent",
     "listingNumberParent",
-    "listingNumber",
     "listingSearchFilterParent",
     "searchOrderFilterParent",
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectAdminHeader"
+    "tableProjectAdminHeader",
+    "tableProjectAdminRecord"
   ],
 
-  navbarMemberEdit: ["navbarMemberEdit"],
   sectionMemberManageProjectsHeader: [
     "sectionMemberManageProjectsHeader",
     "cardHeaderTitleDisplay"
@@ -349,13 +342,13 @@ const PlasmicDescendants = {
     "listingManagementBlockParent",
     "listingTotalParent",
     "listingNumberParent",
-    "listingNumber",
     "listingSearchFilterParent",
     "searchOrderFilterParent",
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectAdminHeader"
+    "tableProjectAdminHeader",
+    "tableProjectAdminRecord"
   ],
 
   cardHeaderTitlePrimary: ["cardHeaderTitlePrimary"],
@@ -363,23 +356,17 @@ const PlasmicDescendants = {
     "listingManagementBlockParent",
     "listingTotalParent",
     "listingNumberParent",
-    "listingNumber",
     "listingSearchFilterParent",
     "searchOrderFilterParent",
     "searchbarPrimary",
     "listingSearchFilterDropdownParent",
     "orderTableColumnMain",
-    "tableProjectAdminHeader"
+    "tableProjectAdminHeader",
+    "tableProjectAdminRecord"
   ],
 
-  listingTotalParent: [
-    "listingTotalParent",
-    "listingNumberParent",
-    "listingNumber"
-  ],
-
-  listingNumberParent: ["listingNumberParent", "listingNumber"],
-  listingNumber: ["listingNumber"],
+  listingTotalParent: ["listingTotalParent", "listingNumberParent"],
+  listingNumberParent: ["listingNumberParent"],
   listingSearchFilterParent: [
     "listingSearchFilterParent",
     "searchOrderFilterParent",
@@ -395,8 +382,14 @@ const PlasmicDescendants = {
 
   searchbarPrimary: ["searchbarPrimary"],
   listingSearchFilterDropdownParent: ["listingSearchFilterDropdownParent"],
-  orderTableColumnMain: ["orderTableColumnMain", "tableProjectAdminHeader"],
-  tableProjectAdminHeader: ["tableProjectAdminHeader"]
+  orderTableColumnMain: [
+    "orderTableColumnMain",
+    "tableProjectAdminHeader",
+    "tableProjectAdminRecord"
+  ],
+
+  tableProjectAdminHeader: ["tableProjectAdminHeader"],
+  tableProjectAdminRecord: ["tableProjectAdminRecord"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -430,7 +423,6 @@ export const PlasmicMembermanageprojects = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarMemberEdit: makeNodeComponent("navbarMemberEdit"),
     sectionMemberManageProjectsHeader: makeNodeComponent(
       "sectionMemberManageProjectsHeader"
     ),
@@ -447,7 +439,6 @@ export const PlasmicMembermanageprojects = Object.assign(
 
     listingTotalParent: makeNodeComponent("listingTotalParent"),
     listingNumberParent: makeNodeComponent("listingNumberParent"),
-    listingNumber: makeNodeComponent("listingNumber"),
     listingSearchFilterParent: makeNodeComponent("listingSearchFilterParent"),
     searchOrderFilterParent: makeNodeComponent("searchOrderFilterParent"),
     searchbarPrimary: makeNodeComponent("searchbarPrimary"),
@@ -457,6 +448,7 @@ export const PlasmicMembermanageprojects = Object.assign(
 
     orderTableColumnMain: makeNodeComponent("orderTableColumnMain"),
     tableProjectAdminHeader: makeNodeComponent("tableProjectAdminHeader"),
+    tableProjectAdminRecord: makeNodeComponent("tableProjectAdminRecord"),
     // Metadata about props expected for PlasmicMembermanageprojects
     internalVariantProps: PlasmicMembermanageprojects__VariantProps,
     internalArgProps: PlasmicMembermanageprojects__ArgProps

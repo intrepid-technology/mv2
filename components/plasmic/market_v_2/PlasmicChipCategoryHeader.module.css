@@ -6,7 +6,7 @@
   height: 270px;
   background: #ffffff;
   padding: 32px;
-  border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -25,7 +25,7 @@
   background: #f8f8f8;
 }
 .root__color_bgDarkA {
-  background: #000000;
+  background: #101010;
   border-color: #0000001f /* plasmic-token: 4DpMaQlGP */;
 }
 .root__color_bgBrandLight {
@@ -134,7 +134,6 @@
   align-items: center;
   width: auto;
   height: auto;
-  display: inline-flex;
 }
 .freeBox__size__360__uhVUxfWtpd {
   width: 32px;
@@ -147,10 +146,10 @@
   flex-shrink: 0;
 }
 .slotTargetChildren {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetChildren__color_bgLightB {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetChildren__color_bgDarkA {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
@@ -166,7 +165,7 @@
   width: 100%;
   height: 100%;
   margin-bottom: 0;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
 }
@@ -176,7 +175,7 @@
   top: auto;
   width: auto;
   height: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 .freeBox__qlHli {
@@ -201,13 +200,13 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetSlot__color_bgLightB {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetSlot__color_bgDarkA {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetSlot__size__180 {
   font-size: 10px;
@@ -215,7 +214,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .slotTargetSlot__size__270 {
   font-size: 24px;
@@ -223,7 +222,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetSlot__size__360 {
   font-size: 24px;
@@ -231,7 +230,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .root:hover .slotTargetSlot {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;

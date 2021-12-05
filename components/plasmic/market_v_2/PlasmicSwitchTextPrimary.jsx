@@ -36,20 +36,30 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
-        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
+          [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
+        }
+      )}
     >
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, sty.textParent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
       >
         <div
           data-plasmic-name={"textSlotParent"}
           data-plasmic-override={overrides.textSlotParent}
-          className={classNames(defaultcss.all, sty.textSlotParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textSlotParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Enter some text",

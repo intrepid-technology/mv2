@@ -52,6 +52,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.root,
         "VerifyButton",
@@ -68,7 +69,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__icon]: hasVariant(variants, "icon", "icon"),
             [sty.freeBox__size__180]: hasVariant(variants, "size", "_180")
           })}
@@ -76,7 +77,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
           <IdVerificationIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg, {
+            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
               [sty.svg__icon]: hasVariant(variants, "icon", "icon"),
               [sty.svg__size__180]: hasVariant(variants, "size", "_180")
             })}
@@ -88,7 +89,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, sty.textParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.textParent, {
           [sty.textParent__logo]: hasVariant(variants, "logo", "logo"),
           [sty.textParent__size__180]: hasVariant(variants, "size", "_180")
         })}
@@ -96,7 +97,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
         <div
           data-plasmic-name={"textBg"}
           data-plasmic-override={overrides.textBg}
-          className={classNames(defaultcss.all, sty.textBg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.textBg)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Get verified with",

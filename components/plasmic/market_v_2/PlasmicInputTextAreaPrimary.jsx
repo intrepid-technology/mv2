@@ -36,15 +36,21 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__height__720]: hasVariant(variants, "height", "_720"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__height__720]: hasVariant(variants, "height", "_720"),
+          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__height__180]: hasVariant(variants, "height", "_180"),
           [sty.parent__height__270]: hasVariant(variants, "height", "_270"),
           [sty.parent__height__360]: hasVariant(variants, "height", "_360"),
@@ -77,17 +83,27 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
         <textarea
           data-plasmic-name={"textarea"}
           data-plasmic-override={overrides.textarea}
-          className={classNames(defaultcss.textarea, sty.textarea, {
-            [sty.textarea__height__720]: hasVariant(variants, "height", "_720"),
-            [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
-            [sty.textarea__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            ),
+          className={classNames(
+            defaultcss.textarea,
+            projectcss.textarea,
+            sty.textarea,
+            {
+              [sty.textarea__height__720]: hasVariant(
+                variants,
+                "height",
+                "_720"
+              ),
 
-            [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
-          })}
+              [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
+              [sty.textarea__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              ),
+
+              [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
+            }
+          )}
           placeholder={args.placeholder}
           value={""}
         />

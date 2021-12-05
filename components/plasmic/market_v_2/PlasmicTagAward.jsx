@@ -35,12 +35,21 @@ function PlasmicTagAward__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"textDivParent"}
         data-plasmic-override={overrides.textDivParent}
-        className={classNames(defaultcss.all, sty.textDivParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.textDivParent
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Award",
@@ -52,12 +61,20 @@ function PlasmicTagAward__RenderFunc(props) {
       <div
         data-plasmic-name={"iconDivparent"}
         data-plasmic-override={overrides.iconDivparent}
-        className={classNames(defaultcss.all, sty.iconDivparent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.iconDivparent
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon52Icon
-              className={classNames(defaultcss.all, sty.svg__zj3Xk)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__zj3Xk
+              )}
               role={"img"}
             />
           ),

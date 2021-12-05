@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;

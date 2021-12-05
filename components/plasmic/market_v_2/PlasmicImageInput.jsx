@@ -33,15 +33,19 @@ function PlasmicImageInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl") }
+      )}
     >
       {(hasVariant(variants, "imageUrl", "imageUrl") ? true : true) ? (
         <label
           data-plasmic-name={"label"}
           data-plasmic-override={overrides.label}
-          className={classNames(defaultcss.all, sty.label, {
+          className={classNames(defaultcss.all, projectcss.all, sty.label, {
             [sty.label__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl")
           })}
         >
@@ -49,7 +53,7 @@ function PlasmicImageInput__RenderFunc(props) {
             <Icon105Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg, {
+              className={classNames(defaultcss.all, projectcss.all, sty.svg, {
                 [sty.svg__imageUrl]: hasVariant(
                   variants,
                   "imageUrl",
@@ -64,13 +68,18 @@ function PlasmicImageInput__RenderFunc(props) {
               data-plasmic-name={"backgroundImage"}
               data-plasmic-override={overrides.backgroundImage}
               alt={""}
-              className={classNames(defaultcss.img, sty.backgroundImage, {
-                [sty.backgroundImage__imageUrl]: hasVariant(
-                  variants,
-                  "imageUrl",
-                  "imageUrl"
-                )
-              })}
+              className={classNames(
+                defaultcss.img,
+                projectcss.img,
+                sty.backgroundImage,
+                {
+                  [sty.backgroundImage__imageUrl]: hasVariant(
+                    variants,
+                    "imageUrl",
+                    "imageUrl"
+                  )
+                }
+              )}
               loading={"lazy"}
             />
           ) : null}

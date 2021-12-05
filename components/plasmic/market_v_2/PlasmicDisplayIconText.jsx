@@ -56,14 +56,19 @@ function PlasmicDisplayIconText__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__14]: hasVariant(variants, "size", "_14"),
           [sty.parent__size__16]: hasVariant(variants, "size", "_16")
         })}
@@ -71,61 +76,66 @@ function PlasmicDisplayIconText__RenderFunc(props) {
         <div
           data-plasmic-name={"elementIconParent"}
           data-plasmic-override={overrides.elementIconParent}
-          className={classNames(defaultcss.all, sty.elementIconParent, {
-            [sty.elementIconParent__size__14]: hasVariant(
-              variants,
-              "size",
-              "_14"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.elementIconParent,
+            {
+              [sty.elementIconParent__size__14]: hasVariant(
+                variants,
+                "size",
+                "_14"
+              ),
 
-            [sty.elementIconParent__size__16]: hasVariant(
-              variants,
-              "size",
-              "_16"
-            ),
+              [sty.elementIconParent__size__16]: hasVariant(
+                variants,
+                "size",
+                "_16"
+              ),
 
-            [sty.elementIconParent__size__18]: hasVariant(
-              variants,
-              "size",
-              "_18"
-            ),
+              [sty.elementIconParent__size__18]: hasVariant(
+                variants,
+                "size",
+                "_18"
+              ),
 
-            [sty.elementIconParent__size__24]: hasVariant(
-              variants,
-              "size",
-              "_24"
-            ),
+              [sty.elementIconParent__size__24]: hasVariant(
+                variants,
+                "size",
+                "_24"
+              ),
 
-            [sty.elementIconParent__size__32]: hasVariant(
-              variants,
-              "size",
-              "_32"
-            ),
+              [sty.elementIconParent__size__32]: hasVariant(
+                variants,
+                "size",
+                "_32"
+              ),
 
-            [sty.elementIconParent__size__40]: hasVariant(
-              variants,
-              "size",
-              "_40"
-            ),
+              [sty.elementIconParent__size__40]: hasVariant(
+                variants,
+                "size",
+                "_40"
+              ),
 
-            [sty.elementIconParent__size__48]: hasVariant(
-              variants,
-              "size",
-              "_48"
-            ),
+              [sty.elementIconParent__size__48]: hasVariant(
+                variants,
+                "size",
+                "_48"
+              ),
 
-            [sty.elementIconParent__size__64]: hasVariant(
-              variants,
-              "size",
-              "_64"
-            ),
+              [sty.elementIconParent__size__64]: hasVariant(
+                variants,
+                "size",
+                "_64"
+              ),
 
-            [sty.elementIconParent__size__80]: hasVariant(
-              variants,
-              "size",
-              "_80"
-            )
-          })}
+              [sty.elementIconParent__size__80]: hasVariant(
+                variants,
+                "size",
+                "_80"
+              )
+            }
+          )}
         >
           {(
             hasVariant(variants, "size", "_80")
@@ -157,7 +167,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     )}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__sibng)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__sibng
+                        )}
                         role={"img"}
                       />
                     }
@@ -178,7 +192,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_14Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__mEoft)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__mEoft
+                        )}
                         role={"img"}
                       />
                     }
@@ -199,7 +217,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_16Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__vIb4J)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__vIb4J
+                        )}
                         role={"img"}
                       />
                     }
@@ -220,7 +242,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_18Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__idBwb)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__idBwb
+                        )}
                         role={"img"}
                       />
                     }
@@ -241,7 +267,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_24Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__pC5Sw)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__pC5Sw
+                        )}
                         role={"img"}
                       />
                     }
@@ -262,7 +292,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_32Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__s3Nop)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__s3Nop
+                        )}
                         role={"img"}
                       />
                     }
@@ -283,7 +317,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_40Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__ysQ8)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__ysQ8
+                        )}
                         role={"img"}
                       />
                     }
@@ -304,7 +342,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_48Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__zPz36)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__zPz36
+                        )}
                         role={"img"}
                       />
                     }
@@ -325,7 +367,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_64Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__zCpm)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__zCpm
+                        )}
                         role={"img"}
                       />
                     }
@@ -346,7 +392,11 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                     size={"_80Px"}
                     svgIcon={
                       <Icon171Icon
-                        className={classNames(defaultcss.all, sty.svg__xDzjQ)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__xDzjQ
+                        )}
                         role={"img"}
                       />
                     }
@@ -361,17 +411,22 @@ function PlasmicDisplayIconText__RenderFunc(props) {
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
-          className={classNames(defaultcss.all, sty.textParent, {
-            [sty.textParent__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.textParent__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.textParent__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.textParent__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.textParent__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.textParent__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.textParent__size__48]: hasVariant(variants, "size", "_48"),
-            [sty.textParent__size__64]: hasVariant(variants, "size", "_64"),
-            [sty.textParent__size__80]: hasVariant(variants, "size", "_80")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textParent,
+            {
+              [sty.textParent__size__14]: hasVariant(variants, "size", "_14"),
+              [sty.textParent__size__16]: hasVariant(variants, "size", "_16"),
+              [sty.textParent__size__18]: hasVariant(variants, "size", "_18"),
+              [sty.textParent__size__24]: hasVariant(variants, "size", "_24"),
+              [sty.textParent__size__32]: hasVariant(variants, "size", "_32"),
+              [sty.textParent__size__40]: hasVariant(variants, "size", "_40"),
+              [sty.textParent__size__48]: hasVariant(variants, "size", "_48"),
+              [sty.textParent__size__64]: hasVariant(variants, "size", "_64"),
+              [sty.textParent__size__80]: hasVariant(variants, "size", "_80")
+            }
+          )}
         >
           {(
             hasVariant(variants, "size", "_80")

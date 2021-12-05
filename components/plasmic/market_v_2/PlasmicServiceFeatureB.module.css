@@ -5,7 +5,7 @@
   justify-content: space-between;
   width: 320px;
   height: 60px;
-  border-bottom-color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  border-bottom-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
   position: relative;
   padding: 10px;
   border-width: 1px;
@@ -20,7 +20,7 @@
   top: auto;
   width: auto;
   height: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 .freeBox__qfYAs {
@@ -38,14 +38,14 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetChildren__size_small {
   font-size: 12px;
   font-weight: 500;
 }
 .freeBox___99Rg {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;

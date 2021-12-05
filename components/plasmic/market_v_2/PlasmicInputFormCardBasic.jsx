@@ -42,12 +42,17 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__border]: hasVariant(variants, "border", "border")
         })}
       >
@@ -56,21 +61,38 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-name={"headlineCard"}
           data-plasmic-override={overrides.headlineCard}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.headlineCard, {
-            [sty.headlineCard__border]: hasVariant(variants, "border", "border")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headlineCard,
+            {
+              [sty.headlineCard__border]: hasVariant(
+                variants,
+                "border",
+                "border"
+              )
+            }
+          )}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"headlineSubheadParent"}
             data-plasmic-override={overrides.headlineSubheadParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.headlineSubheadParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineSubheadParent
+            )}
           >
             <div
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
-              className={classNames(defaultcss.all, sty.headline)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.headline
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Headline",
@@ -82,7 +104,11 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
             <div
               data-plasmic-name={"subheadParent"}
               data-plasmic-override={overrides.subheadParent}
-              className={classNames(defaultcss.all, sty.subheadParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.subheadParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
@@ -98,19 +124,28 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-name={"descriptionCard"}
           data-plasmic-override={overrides.descriptionCard}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.descriptionCard, {
-            [sty.descriptionCard__description]: hasVariant(
-              variants,
-              "description",
-              "description"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionCard,
+            {
+              [sty.descriptionCard__description]: hasVariant(
+                variants,
+                "description",
+                "description"
+              )
+            }
+          )}
         >
           {true ? (
             <div
               data-plasmic-name={"descriptionParent"}
               data-plasmic-override={overrides.descriptionParent}
-              className={classNames(defaultcss.all, sty.descriptionParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.descriptionParent
+              )}
             >
               {(
                 hasVariant(variants, "description", "description")

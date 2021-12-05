@@ -7,7 +7,7 @@
   min-width: 0;
   border-radius: 2px;
   padding: 8px 10px;
-  border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -41,7 +41,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg__mlMgk {
   position: relative;
@@ -64,7 +64,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg___7Sbs3 {
   position: relative;
@@ -87,7 +87,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg__x9By6 {
   position: relative;

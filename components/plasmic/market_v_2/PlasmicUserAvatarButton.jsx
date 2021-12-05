@@ -35,6 +35,7 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.avatarButtonEdit,
         {
@@ -85,25 +86,34 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
       <div
         data-plasmic-name={"avatarImageBackground"}
         data-plasmic-override={overrides.avatarImageBackground}
-        className={classNames(defaultcss.all, sty.avatarImageBackground, {
-          [sty.avatarImageBackground__size__40Px]: hasVariant(
-            variants,
-            "size",
-            "_40Px"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.avatarImageBackground,
+          {
+            [sty.avatarImageBackground__size__40Px]: hasVariant(
+              variants,
+              "size",
+              "_40Px"
+            ),
 
-          [sty.avatarImageBackground__size__80Px]: hasVariant(
-            variants,
-            "size",
-            "_80Px"
-          )
-        })}
+            [sty.avatarImageBackground__size__80Px]: hasVariant(
+              variants,
+              "size",
+              "_80Px"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
               alt={""}
-              className={classNames(defaultcss.img, sty.img__gOzp)}
+              className={classNames(
+                defaultcss.img,
+                projectcss.img,
+                sty.img__gOzp
+              )}
               src={"/plasmic/market_v_2/images/image4.png"}
             />
           ),

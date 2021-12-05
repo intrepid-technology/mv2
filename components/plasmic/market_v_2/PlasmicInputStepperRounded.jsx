@@ -33,28 +33,49 @@ function PlasmicInputStepperRounded__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <button className={classNames(defaultcss.button, sty.button___5Xrke)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button___5Xrke
+        )}
+      >
         <PlusBoldIcon
-          className={classNames(defaultcss.all, sty.svg___10NR)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg___10NR)}
           role={"img"}
         />
       </button>
 
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"textInput"}
+        data-plasmic-override={overrides.textInput ?? overrides.textbox}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.textInput
+        )}
         placeholder={""}
         size={1}
         type={"text"}
         value={""}
       />
 
-      <button className={classNames(defaultcss.button, sty.button__lq38X)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button__lq38X
+        )}
+      >
         <MinusBoldIcon
-          className={classNames(defaultcss.all, sty.svg__pk7Ni)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__pk7Ni)}
           role={"img"}
         />
       </button>
@@ -63,8 +84,8 @@ function PlasmicInputStepperRounded__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textbox"],
-  textbox: ["textbox"]
+  root: ["root", "textInput"],
+  textInput: ["textInput"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -98,7 +119,7 @@ export const PlasmicInputStepperRounded = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     // Metadata about props expected for PlasmicInputStepperRounded
     internalVariantProps: PlasmicInputStepperRounded__VariantProps,
     internalArgProps: PlasmicInputStepperRounded__ArgProps

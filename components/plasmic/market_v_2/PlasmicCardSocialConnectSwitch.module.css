@@ -16,7 +16,7 @@
   height: auto;
   min-width: 0;
   padding: 2px 8px 2px 0px;
-  border-bottom: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border-bottom: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -50,7 +50,7 @@
   flex-shrink: 0;
 }
 .freeBox {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;

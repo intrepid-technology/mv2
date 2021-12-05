@@ -62,6 +62,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           hasGap={true}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -69,7 +70,11 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(defaultcss.all, sty.serviceListingNavbar)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.serviceListingNavbar
+            )}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
@@ -92,14 +97,22 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox___09Zdm)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox___09Zdm
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionTitleBlock"}
               data-plasmic-override={overrides.questionTitleBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionTitleBlock)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.questionTitleBlock
+              )}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -110,6 +123,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nr931
                     )}
@@ -122,6 +136,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__laelq
                   )}
@@ -154,7 +169,11 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__qeVgc)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__qeVgc
+            )}
           >
             <p.Stack
               as={"div"}
@@ -163,6 +182,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.questionDescriptionBlock
               )}
             >
@@ -176,6 +196,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__uc5Jc
                     )}
@@ -190,6 +211,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text___0B5MK
                   )}
@@ -225,19 +247,31 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__axd3H)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__axd3H
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionProcessBlock"}
               data-plasmic-override={overrides.questionProcessBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionProcessBlock)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.questionProcessBlock
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__j5P5R)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__j5P5R
+                )}
               >
                 <CardQuestionServiceListing
                   className={classNames(
@@ -249,6 +283,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__vqvCv
                       )}
@@ -260,6 +295,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__wEkof
                       )}
@@ -271,6 +307,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__io8Zz
                     )}
@@ -295,11 +332,16 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__oslf)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__oslf
+                )}
               >
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__mnyPp
                   )}

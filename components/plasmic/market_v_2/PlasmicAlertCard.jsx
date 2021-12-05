@@ -35,12 +35,17 @@ function PlasmicAlertCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"badgeWrapper"}
         data-plasmic-override={overrides.badgeWrapper}
-        className={classNames(defaultcss.all, sty.badgeWrapper)}
+        className={classNames(defaultcss.all, projectcss.all, sty.badgeWrapper)}
       >
         <ChipBadgeDisplay
           data-plasmic-name={"chipBadgeDisplay"}
@@ -56,7 +61,11 @@ function PlasmicAlertCard__RenderFunc(props) {
       <div
         data-plasmic-name={"contentWrapper"}
         data-plasmic-override={overrides.contentWrapper}
-        className={classNames(defaultcss.all, sty.contentWrapper)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.contentWrapper
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents:

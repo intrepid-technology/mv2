@@ -13,7 +13,7 @@
   border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .navbarListButtonTextParent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -53,5 +53,4 @@
   width: auto;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-size: 14px;
-  display: inline-block;
 }

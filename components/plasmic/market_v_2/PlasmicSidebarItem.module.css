@@ -23,13 +23,13 @@
   margin-left: 16px;
 }
 .root__selected {
-  background: #000000;
+  background: #101010;
 }
 .root:hover {
   background: #f8f8f8;
 }
 .root__selected:hover {
-  background: #333333;
+  background: #667085;
 }
 .iconWrapper {
   display: flex;
@@ -42,7 +42,7 @@
   flex-shrink: 0;
 }
 .slotTargetChildren {
-  color: #999999 /* plasmic-token: akkcKiBNZ */;
+  color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
 .slotTargetChildren__selected {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
@@ -57,7 +57,7 @@
   min-height: 0;
 }
 .slotTargetLabel {
-  color: #999999 /* plasmic-token: akkcKiBNZ */;
+  color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
 .slotTargetLabel__selected {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;

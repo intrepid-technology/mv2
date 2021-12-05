@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarPartnerEdit:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
 .sectionTeamEditProfile {
   display: flex;
   position: relative;
@@ -23,7 +17,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionTeamEditProfile > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -195,7 +189,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .teamLogoImage > picture > img {
   object-fit: cover;
@@ -204,7 +198,7 @@
   object-fit: cover;
 }
 .teamEditlogoGroup {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -474,7 +468,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionTeamEditProfileDetails > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -509,7 +503,7 @@
   top: auto;
 }
 .text__neYsn {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 700;
 }
 .teamDetailsForm:global(.__wab_instance) {
@@ -1040,7 +1034,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionTeamEditProfileMarkets > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -1075,7 +1069,7 @@
   top: auto;
 }
 .text__vhIlB {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 700;
 }
 .teamMarketForm:global(.__wab_instance) {
@@ -1417,7 +1411,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 96px;
+  padding: 16px 8px 96px;
 }
 .sectionTeamEditProfileSocial > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -1452,7 +1446,7 @@
   top: auto;
 }
 .text__tTnQg {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   font-weight: 700;
 }
 .teamSocialForm:global(.__wab_instance) {
@@ -1588,7 +1582,7 @@
   left: auto;
 }
 .text__bviP7 {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .text__dZnbx {
   height: auto;

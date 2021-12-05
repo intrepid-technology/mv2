@@ -40,14 +40,19 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
           [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
           [sty.parent__width__720]: hasVariant(variants, "width", "_720")
@@ -58,7 +63,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
           <IconSocialProfile
             data-plasmic-name={"iconSocialProfile"}
@@ -290,6 +295,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text,
               {

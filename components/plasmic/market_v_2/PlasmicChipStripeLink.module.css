@@ -6,7 +6,7 @@
   position: relative;
   border-radius: 2px;
   padding: 0px 0px 0px 4px;
-  border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -37,11 +37,10 @@
 }
 .poweredByText {
   line-height: 1;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-size: 8px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .elementStripeLogoLinkBurple:global(.__wab_instance) {
   position: relative;

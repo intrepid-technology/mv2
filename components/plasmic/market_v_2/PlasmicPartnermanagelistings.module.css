@@ -198,7 +198,7 @@
   }
 }
 .freeBox__aPXdG {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -242,7 +242,7 @@
   max-width: 328px;
 }
 .listingManagementBlockParent {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -296,7 +296,7 @@
   margin-left: 8px;
 }
 .listingNumberParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -308,17 +308,17 @@
 }
 .listingNumber {
   font-size: 16px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .text__rr92D {
   position: relative;
   left: auto;
   top: auto;
   font-size: 16px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__xulmc {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -326,7 +326,7 @@
   left: auto;
   top: auto;
   padding: 0px;
-  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .freeBox__xulmc > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -363,7 +363,7 @@
   }
 }
 .freeBox___4Lom7 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -394,7 +394,7 @@
   left: auto;
 }
 .listingSearchFilterDropdownParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -456,7 +456,7 @@
   object-fit: cover;
 }
 .listingManagementTableColumnParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -465,7 +465,7 @@
   top: auto;
   overflow: visible;
   background: #f8f8f8;
-  border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .listingManagementTableColumnParent > :global(.__wab_flex-container) {
   flex-direction: column;

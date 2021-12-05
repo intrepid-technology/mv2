@@ -78,7 +78,7 @@
   }
 }
 .questionTimeBlock {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -112,7 +112,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__mbL5D {
@@ -187,7 +187,7 @@
   }
 }
 .questionMeetingBlock {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -224,7 +224,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__snn5 {
@@ -299,7 +299,7 @@
   }
 }
 .questionRevisionBlock {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -336,7 +336,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__wBaev {
@@ -411,7 +411,7 @@
   }
 }
 .questionRequirementBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -446,7 +446,7 @@
   }
 }
 .freeBox__rgSA {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -483,7 +483,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__gBqE8 {
@@ -559,7 +559,7 @@
   }
 }
 .questionFormatBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -605,7 +605,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__d40N6 {
@@ -671,7 +671,7 @@
   }
 }
 .questionFormatBlock2 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -717,7 +717,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__auLLg {
@@ -788,7 +788,7 @@
   }
 }
 .questionFormatBlock3 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -834,7 +834,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__cX8K {
@@ -899,7 +899,7 @@
   }
 }
 .questionFormatBlock4 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -945,7 +945,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text___8L8Xs {

@@ -36,19 +36,28 @@ function PlasmicNoteCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"noteMessageParent"}
         data-plasmic-override={overrides.noteMessageParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.noteMessageParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.noteMessageParent
+        )}
       >
         <div
           data-plasmic-name={"noteParent"}
           data-plasmic-override={overrides.noteParent}
-          className={classNames(defaultcss.all, sty.noteParent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.noteParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Note:",
@@ -60,12 +69,16 @@ function PlasmicNoteCard__RenderFunc(props) {
         <div
           data-plasmic-name={"mesageParent"}
           data-plasmic-override={overrides.mesageParent}
-          className={classNames(defaultcss.all, sty.mesageParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.mesageParent
+          )}
         >
           <div
             data-plasmic-name={"freeBox"}
             data-plasmic-override={overrides.freeBox}
-            className={classNames(defaultcss.all, sty.freeBox)}
+            className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "This note details some information.",

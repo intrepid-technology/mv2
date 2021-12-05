@@ -70,7 +70,7 @@
   margin-left: 360px;
 }
 .questionImageBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -107,7 +107,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .text__r5CWc {

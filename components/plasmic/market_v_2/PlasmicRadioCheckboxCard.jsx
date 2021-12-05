@@ -41,6 +41,7 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.root,
         {
@@ -53,81 +54,106 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
       )}
     >
       <div
-        className={classNames(defaultcss.all, sty.freeBox__xdan5, {
-          [sty.freeBox__size__270__xdan5Y2Fsu]: hasVariant(
-            variants,
-            "size",
-            "_270"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__xdan5,
+          {
+            [sty.freeBox__size__270__xdan5Y2Fsu]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
 
-          [sty.freeBox__size__90__xdan5DxVnv]: hasVariant(
-            variants,
-            "size",
-            "_90"
-          ),
+            [sty.freeBox__size__90__xdan5DxVnv]: hasVariant(
+              variants,
+              "size",
+              "_90"
+            ),
 
-          [sty.freeBox__state_selected__xdan5Bi1Xj]: hasVariant(
-            variants,
-            "state",
-            "selected"
-          )
-        })}
+            [sty.freeBox__state_selected__xdan5Bi1Xj]: hasVariant(
+              variants,
+              "state",
+              "selected"
+            )
+          }
+        )}
       >
         {(hasVariant(variants, "state", "selected") ? true : false) ? (
           <Icon103Icon
-            className={classNames(defaultcss.all, sty.svg__z5We, {
-              [sty.svg__state_selected__z5WeBi1Xj]: hasVariant(
-                variants,
-                "state",
-                "selected"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svg__z5We,
+              {
+                [sty.svg__state_selected__z5WeBi1Xj]: hasVariant(
+                  variants,
+                  "state",
+                  "selected"
+                )
+              }
+            )}
             role={"img"}
           />
         ) : null}
         {false ? (
           <svg
-            className={classNames(defaultcss.all, sty.svg__cJiKx, {
-              [sty.svg__state_selected__cJiKxbi1Xj]: hasVariant(
-                variants,
-                "state",
-                "selected"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svg__cJiKx,
+              {
+                [sty.svg__state_selected__cJiKxbi1Xj]: hasVariant(
+                  variants,
+                  "state",
+                  "selected"
+                )
+              }
+            )}
             role={"img"}
           />
         ) : null}
       </div>
 
       <div
-        className={classNames(defaultcss.all, sty.freeBox__l835R, {
-          [sty.freeBox__size__90__l835RDxVnv]: hasVariant(
-            variants,
-            "size",
-            "_90"
-          ),
-
-          [sty.freeBox__state_selected__l835Rbi1Xj]: hasVariant(
-            variants,
-            "state",
-            "selected"
-          )
-        })}
-      >
-        <div
-          className={classNames(defaultcss.all, sty.freeBox___6RQyQ, {
-            [sty.freeBox__size__90___6RQyQDxVnv]: hasVariant(
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__l835R,
+          {
+            [sty.freeBox__size__90__l835RDxVnv]: hasVariant(
               variants,
               "size",
               "_90"
             ),
 
-            [sty.freeBox__state_selected___6RQyQbi1Xj]: hasVariant(
+            [sty.freeBox__state_selected__l835Rbi1Xj]: hasVariant(
               variants,
               "state",
               "selected"
             )
-          })}
+          }
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___6RQyQ,
+            {
+              [sty.freeBox__size__90___6RQyQDxVnv]: hasVariant(
+                variants,
+                "size",
+                "_90"
+              ),
+
+              [sty.freeBox__state_selected___6RQyQbi1Xj]: hasVariant(
+                variants,
+                "state",
+                "selected"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Feature",

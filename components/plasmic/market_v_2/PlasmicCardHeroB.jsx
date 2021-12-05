@@ -39,11 +39,34 @@ function PlasmicCardHeroB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__bjvwz)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__gvaq6)}>
-          <div className={classNames(defaultcss.all, sty.freeBox___4W8Q9)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__bjvwz
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__gvaq6
+          )}
+        >
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox___4W8Q9
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents: "Start your business journey with Intrepid",
               value: args.slot,
@@ -52,7 +75,13 @@ function PlasmicCardHeroB__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox___5ZxCo)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___5ZxCo
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents:
               "Try Intrepid for free, and explore all the tools and services you need to start, run, and grow your business.",
@@ -76,7 +105,11 @@ function PlasmicCardHeroB__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(defaultcss.img, sty.img__o1EqS)}
+            className={classNames(
+              defaultcss.img,
+              projectcss.img,
+              sty.img__o1EqS
+            )}
           />
         ),
 

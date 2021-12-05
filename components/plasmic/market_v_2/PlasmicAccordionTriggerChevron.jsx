@@ -38,12 +38,17 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.button,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"svgParent"}
         data-plasmic-override={overrides.svgParent}
-        className={classNames(defaultcss.all, sty.svgParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
           [sty.svgParent__state_closed]: hasVariant(variants, "state", "closed")
         })}
       >
@@ -51,7 +56,11 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <ChevronDownBIcon
-                  className={classNames(defaultcss.all, sty.svg___63YN)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg___63YN
+                  )}
                   role={"img"}
                 />
               ),
@@ -76,7 +85,11 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon170Icon
-                  className={classNames(defaultcss.all, sty.svg__sDv4)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__sDv4
+                  )}
                   role={"img"}
                 />
               ),

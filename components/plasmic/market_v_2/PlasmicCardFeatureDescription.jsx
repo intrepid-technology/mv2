@@ -41,16 +41,20 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__size__360]: hasVariant(variants, "size", "_360") }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"cardParent"}
         data-plasmic-override={overrides.cardParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.cardParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.cardParent, {
           [sty.cardParent__border]: hasVariant(variants, "border", "border"),
           [sty.cardParent__size__160]: hasVariant(variants, "size", "_160"),
           [sty.cardParent__size__360]: hasVariant(variants, "size", "_360")
@@ -59,15 +63,30 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
-          className={classNames(defaultcss.all, sty.iconParent, {
-            [sty.iconParent__size__360]: hasVariant(variants, "size", "_360")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.iconParent,
+            {
+              [sty.iconParent__size__360]: hasVariant(variants, "size", "_360")
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
-              <div className={classNames(defaultcss.all, sty.freeBox__mdvci)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__mdvci
+                )}
+              >
                 <PlusBoldIcon
-                  className={classNames(defaultcss.all, sty.svg___8Asoz)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg___8Asoz
+                  )}
                   role={"img"}
                 />
               </div>
@@ -82,31 +101,49 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
           data-plasmic-name={"headlineBodyTextParent"}
           data-plasmic-override={overrides.headlineBodyTextParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.headlineBodyTextParent, {
-            [sty.headlineBodyTextParent__size__160]: hasVariant(
-              variants,
-              "size",
-              "_160"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headlineBodyTextParent,
+            {
+              [sty.headlineBodyTextParent__size__160]: hasVariant(
+                variants,
+                "size",
+                "_160"
+              ),
 
-            [sty.headlineBodyTextParent__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            )
-          })}
+              [sty.headlineBodyTextParent__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
+            }
+          )}
         >
           <div
             data-plasmic-name={"headlineDiv"}
             data-plasmic-override={overrides.headlineDiv}
-            className={classNames(defaultcss.all, sty.headlineDiv)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.headlineDiv
+            )}
           >
             <div
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
-              className={classNames(defaultcss.all, sty.headline, {
-                [sty.headline__size__160]: hasVariant(variants, "size", "_160")
-              })}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.headline,
+                {
+                  [sty.headline__size__160]: hasVariant(
+                    variants,
+                    "size",
+                    "_160"
+                  )
+                }
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Headline feature desription",
@@ -131,9 +168,18 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
           <div
             data-plasmic-name={"textParent"}
             data-plasmic-override={overrides.textParent}
-            className={classNames(defaultcss.all, sty.textParent, {
-              [sty.textParent__size__360]: hasVariant(variants, "size", "_360")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.textParent,
+              {
+                [sty.textParent__size__360]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents:

@@ -13,9 +13,6 @@ function Sidebar_(props, ref) {
     closeIcon={{
       onClick: () => setSidebarOpen(false)
     }}
-    switchToSellerButton={{
-      onClick: () => setIsSellerView(true)
-    }}
     switchToMemberButton={{
       onClick: () => setIsSellerView(false)
     }}

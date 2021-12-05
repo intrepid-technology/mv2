@@ -97,6 +97,7 @@ function PlasmicHome__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -118,20 +119,29 @@ function PlasmicHome__RenderFunc(props) {
             data-plasmic-name={"heroParent"}
             data-plasmic-override={overrides.heroParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.heroParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.heroParent
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"heroTextBlock"}
               data-plasmic-override={overrides.heroTextBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.heroTextBlock)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.heroTextBlock
+              )}
             >
               <div
                 data-plasmic-name={"headlineText"}
                 data-plasmic-override={overrides.headlineText}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.headlineText
                 )}
@@ -148,6 +158,7 @@ function PlasmicHome__RenderFunc(props) {
                 data-plasmic-override={overrides.subheadText}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.subheadText
                 )}
@@ -164,7 +175,11 @@ function PlasmicHome__RenderFunc(props) {
                 data-plasmic-name={"featuresParent"}
                 data-plasmic-override={overrides.featuresParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.featuresParent)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.featuresParent
+                )}
               >
                 <CardFeatureDescription
                   border={"border"}
@@ -183,10 +198,18 @@ function PlasmicHome__RenderFunc(props) {
                     <div
                       data-plasmic-name={"iconBg2"}
                       data-plasmic-override={overrides.iconBg2}
-                      className={classNames(defaultcss.all, sty.iconBg2)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.iconBg2
+                      )}
                     >
                       <Icon144Icon
-                        className={classNames(defaultcss.all, sty.svg___0X8F)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg___0X8F
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -214,10 +237,18 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Work and live from anywhere"}
                   iconParent={
                     <div
-                      className={classNames(defaultcss.all, sty.freeBox__nlzEe)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__nlzEe
+                      )}
                     >
                       <GlobeAmericaIcon
-                        className={classNames(defaultcss.all, sty.svg__hG9X2)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__hG9X2
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -238,11 +269,16 @@ function PlasmicHome__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.freeBox___3QC9S
                       )}
                     >
                       <TeamPartnersIcon
-                        className={classNames(defaultcss.all, sty.svg___0D00)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg___0D00
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -263,10 +299,18 @@ function PlasmicHome__RenderFunc(props) {
                     <div
                       data-plasmic-name={"iconBg3"}
                       data-plasmic-override={overrides.iconBg3}
-                      className={classNames(defaultcss.all, sty.iconBg3)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.iconBg3
+                      )}
                     >
                       <Icon169Icon
-                        className={classNames(defaultcss.all, sty.svg__da3Mi)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__da3Mi
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -287,10 +331,18 @@ function PlasmicHome__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(defaultcss.all, sty.freeBox__gtFvM)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__gtFvM
+                      )}
                     >
                       <Icon40Icon
-                        className={classNames(defaultcss.all, sty.svg__gsFh8)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__gsFh8
+                        )}
                         role={"img"}
                       />
                     </p.Stack>
@@ -309,10 +361,18 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Go to market fast"}
                   iconParent={
                     <div
-                      className={classNames(defaultcss.all, sty.freeBox__lk9Nw)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__lk9Nw
+                      )}
                     >
                       <Icon166Icon
-                        className={classNames(defaultcss.all, sty.svg___4ES2)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg___4ES2
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -331,10 +391,18 @@ function PlasmicHome__RenderFunc(props) {
                   headline={"Save time and money"}
                   iconParent={
                     <div
-                      className={classNames(defaultcss.all, sty.freeBox__ySjws)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__ySjws
+                      )}
                     >
                       <CircleTimeIcon
-                        className={classNames(defaultcss.all, sty.svg___68Hoj)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg___68Hoj
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -355,11 +423,16 @@ function PlasmicHome__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.freeBox___57Srn
                       )}
                     >
                       <Icon133Icon
-                        className={classNames(defaultcss.all, sty.svg___9Um6)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg___9Um6
+                        )}
                         role={"img"}
                       />
                     </div>
@@ -376,11 +449,16 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"signupFormHome"}
               data-plasmic-override={overrides.signupFormHome}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.signupFormHome)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.signupFormHome
+              )}
             >
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__zVk1H
                 )}
@@ -399,9 +477,19 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__lqXyy)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__lqXyy
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__bR7Mr)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__bR7Mr
+              )}
+            >
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -419,6 +507,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___9Ipgl
                     )}
@@ -430,6 +519,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__m55Ho
                     )}
@@ -447,13 +537,21 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__d8S0D)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__d8S0D
+              )}
             >
               <CardImageHeadlineDescription
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__wa1LD)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__wa1LD
+                    )}
                     src={"/plasmic/market_v_2/images/image31.png"}
                   />
                 }
@@ -471,6 +569,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__breZ0
                         )}
@@ -486,7 +585,11 @@ function PlasmicHome__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img___967W9)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img___967W9
+                    )}
                     src={"/plasmic/market_v_2/images/image29.png"}
                   />
                 }
@@ -504,6 +607,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__dpw1A
                         )}
@@ -519,7 +623,11 @@ function PlasmicHome__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__jJa2K)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__jJa2K
+                    )}
                     src={"/plasmic/market_v_2/images/image11.png"}
                   />
                 }
@@ -537,6 +645,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__po3Ep
                         )}
@@ -552,7 +661,11 @@ function PlasmicHome__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__sx00A)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__sx00A
+                    )}
                     src={"/plasmic/market_v_2/images/image30.png"}
                   />
                 }
@@ -570,6 +683,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__bEklk
                         )}
@@ -586,26 +700,43 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__lRiKf)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__lRiKf
+            )}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__sJibN)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__sJibN
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__k8APm)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__k8APm
+                )}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__c8FT4)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__c8FT4
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__iWQf
                     )}
@@ -620,6 +751,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__x2Mg3
                     )}
@@ -669,6 +801,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__hYew
                         )}
@@ -700,7 +833,11 @@ function PlasmicHome__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img___6CsQ)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img___6CsQ
+                )}
                 src={"/plasmic/market_v_2/images/image25.png"}
               />
             </p.Stack>
@@ -709,9 +846,19 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__vutcc)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__vutcc
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__lrfUu)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__lrfUu
+              )}
+            >
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -727,6 +874,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___2VRor
                     )}
@@ -738,6 +886,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__o8Hc
                     )}
@@ -751,13 +900,21 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__cXk)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__cXk
+              )}
             >
               <CardImageHeadlineDescription
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__wAuj8)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__wAuj8
+                    )}
                     src={"/plasmic/market_v_2/images/image26.png"}
                   />
                 }
@@ -770,6 +927,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__m8Mse
                     )}
@@ -787,6 +945,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__zNeu0
                         )}
@@ -802,7 +961,11 @@ function PlasmicHome__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__cZqyO)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__cZqyO
+                    )}
                     src={"/plasmic/market_v_2/images/image27.png"}
                   />
                 }
@@ -815,6 +978,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__oQap
                     )}
@@ -832,6 +996,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__flcUt
                         )}
@@ -847,7 +1012,11 @@ function PlasmicHome__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__kbNFx)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__kbNFx
+                    )}
                     src={"/plasmic/market_v_2/images/image33.png"}
                   />
                 }
@@ -860,6 +1029,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vsuFv
                     )}
@@ -877,6 +1047,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__v6MpX
                         )}
@@ -890,25 +1061,44 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__s2YtE)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__s2YtE
+            )}
+          >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__xFjXe)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__xFjXe
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__inSiQ)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__inSiQ
+                )}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__btxJm)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__btxJm
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__bf3Y2
                     )}
@@ -923,6 +1113,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__uQOx
                     )}
@@ -970,6 +1161,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__zKpa
                         )}
@@ -1001,7 +1193,11 @@ function PlasmicHome__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img__dQqz3)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img__dQqz3
+                )}
                 src={"/plasmic/market_v_2/images/image23.png"}
               />
             </p.Stack>
@@ -1010,9 +1206,19 @@ function PlasmicHome__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__wvmvo)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__wvmvo
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox___562Ol)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox___562Ol
+              )}
+            >
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -1030,6 +1236,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__tnzRu
                     )}
@@ -1041,6 +1248,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__paM4A
                     )}
@@ -1058,13 +1266,21 @@ function PlasmicHome__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__uDeak)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__uDeak
+              )}
             >
               <CardImageHeadlineDescription
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__rezLt)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__rezLt
+                    )}
                     src={"/plasmic/market_v_2/images/image18.png"}
                   />
                 }
@@ -1077,6 +1293,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__bOYsc
                     )}
@@ -1094,6 +1311,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__r1Sre
                         )}
@@ -1109,7 +1327,11 @@ function PlasmicHome__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__mwX2T)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__mwX2T
+                    )}
                     src={"/plasmic/market_v_2/images/image22.png"}
                   />
                 }
@@ -1122,6 +1344,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__gaPr3
                     )}
@@ -1139,6 +1362,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__dyXmt
                         )}
@@ -1154,7 +1378,11 @@ function PlasmicHome__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(defaultcss.img, sty.img__jdMs0)}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__jdMs0
+                    )}
                     src={"/plasmic/market_v_2/images/image21.png"}
                   />
                 }
@@ -1167,6 +1395,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nmKfs
                     )}
@@ -1184,6 +1413,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text__yigk4
                         )}
@@ -1197,25 +1427,44 @@ function PlasmicHome__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__nAfro)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__nAfro
+            )}
+          >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__wscGy)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__wscGy
+              )}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__y3H79)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__y3H79
+                )}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__a7U2J)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__a7U2J
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__yDzzd
                     )}
@@ -1226,6 +1475,7 @@ function PlasmicHome__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vAxBa
                     )}
@@ -1273,6 +1523,7 @@ function PlasmicHome__RenderFunc(props) {
                       <div
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.text___4HpwD
                         )}
@@ -1304,7 +1555,11 @@ function PlasmicHome__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img__rCc5H)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img__rCc5H
+                )}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             </p.Stack>

@@ -42,13 +42,19 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"checkoutHeadlineText"}
         data-plasmic-override={overrides.checkoutHeadlineText}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           defaultcss.__wab_text,
           sty.checkoutHeadlineText
         )}
@@ -63,6 +69,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.checkoutSubTotalListItemBlock
         )}
       >
@@ -80,7 +87,11 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
           data-plasmic-name={"checkoutListItems"}
           data-plasmic-override={overrides.checkoutListItems}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.checkoutListItems)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.checkoutListItems
+          )}
         >
           <ElementCheckoutSubHeadlineTotal
             data-plasmic-name={"elementCheckoutSubHeadlineTotal"}
@@ -105,16 +116,25 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
           <div
             data-plasmic-name={"placementHeadline"}
             data-plasmic-override={overrides.placementHeadline}
-            className={classNames(defaultcss.all, sty.placementHeadline)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.placementHeadline
+            )}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__d20Mo)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__d20Mo
+              )}
             >
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__hnkjh
                 )}
@@ -126,11 +146,16 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__ulvEc)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__ulvEc
+              )}
             >
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__mRg2O
                 )}
@@ -138,10 +163,17 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 {"$"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.freeBox__w6Xdr)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__w6Xdr
+                )}
+              >
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__n2Tbz
                   )}
@@ -152,17 +184,40 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             </p.Stack>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__mj7GH)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__mj7GH
+            )}
+          >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__fbCfP)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__fbCfP
+              )}
             >
-              <div className={classNames(defaultcss.all, sty.freeBox__zplQa)}>
-                <div className={classNames(defaultcss.all, sty.freeBox__nCvGr)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__zplQa
+                )}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__nCvGr
+                  )}
+                >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__nNdhn
                     )}
@@ -175,6 +230,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__c2ZN7
                 )}
@@ -182,10 +238,17 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 {"Priority"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.freeBox__xzFrb)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__xzFrb
+                )}
+              >
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__rdiZ6
                   )}
@@ -197,12 +260,23 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__lTtnn)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__lTtnn
+                )}
               >
-                <div className={classNames(defaultcss.all, sty.freeBox__ayWyh)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__ayWyh
+                  )}
+                >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___4Olga
                     )}
@@ -216,11 +290,16 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__ioo18)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__ioo18
+              )}
             >
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__rYWv
                 )}
@@ -228,10 +307,17 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
                 {"$"}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.freeBox__fOqvL)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__fOqvL
+                )}
+              >
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__yHrcu
                   )}
@@ -245,7 +331,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
       </p.Stack>
 
       <CellDividerIcon
-        className={classNames(defaultcss.all, sty.svg__xmCJi)}
+        className={classNames(defaultcss.all, projectcss.all, sty.svg__xmCJi)}
         role={"img"}
       />
 
@@ -254,7 +340,11 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
         data-plasmic-name={"checkoutPromotionInput"}
         data-plasmic-override={overrides.checkoutPromotionInput}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.checkoutPromotionInput)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.checkoutPromotionInput
+        )}
       >
         <InputTextForm
           data-plasmic-name={"inputCheckoutPromotion"}
@@ -264,6 +354,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__holu8
               )}
@@ -287,7 +378,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
       </p.Stack>
 
       <CellDividerIcon
-        className={classNames(defaultcss.all, sty.svg__ar5S)}
+        className={classNames(defaultcss.all, projectcss.all, sty.svg__ar5S)}
         role={"img"}
       />
 
@@ -296,7 +387,11 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
         data-plasmic-name={"checkoutTotalButtonBlock"}
         data-plasmic-override={overrides.checkoutTotalButtonBlock}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.checkoutTotalButtonBlock)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.checkoutTotalButtonBlock
+        )}
       >
         <ElementCheckoutTotalHeadline
           data-plasmic-name={"elementCheckoutTotalHeadline"}
@@ -317,6 +412,7 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__ycT5E
             )}

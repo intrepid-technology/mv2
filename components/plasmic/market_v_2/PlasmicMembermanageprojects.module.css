@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  flex-shrink: 0;
-}
 .sectionMemberManageProjectsHeader {
   display: flex;
   position: relative;
@@ -23,7 +17,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px 110px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -112,7 +106,7 @@
   width: 100%;
   height: auto;
   min-width: 0;
-  padding: 16px 180px 96px 110px;
+  padding: 16px 8px 96px;
 }
 .sectionMemberManageListings > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -137,7 +131,7 @@
   margin-top: 32px;
 }
 .freeBox___5GmQ {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -166,7 +160,7 @@
   max-width: 328px;
 }
 .listingManagementBlockParent {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -220,7 +214,7 @@
   margin-left: 8px;
 }
 .listingNumberParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -230,19 +224,19 @@
   width: auto;
   height: auto;
 }
-.listingNumber {
+.slotTargetListingNumber {
   font-size: 16px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .text__nBju3 {
   position: relative;
   left: auto;
   top: auto;
   font-size: 16px;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__xYhA {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -250,7 +244,7 @@
   left: auto;
   top: auto;
   padding: 0px;
-  border: 1px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .freeBox__xYhA > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -319,7 +313,7 @@
   left: auto;
 }
 .listingSearchFilterDropdownParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -373,7 +367,7 @@
   position: relative;
 }
 .orderTableColumnMain {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -381,7 +375,7 @@
   left: auto;
   top: auto;
   background: #f8f8f8;
-  border: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .orderTableColumnMain > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -408,18 +402,22 @@
   top: auto;
   left: auto;
 }
-.tableProjectAdminRecord___4QXjc:global(.__wab_instance) {
+.tableProjectAdminRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  align-self: flex-end;
 }
-.tableProjectAdminRecord___9Meuc:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
+.img__wpWTq {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
 }
-.tableProjectAdminRecord__vqAt:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
+.img__wpWTq > picture > img {
+  object-fit: cover;
+}
+.img__wpWTq > .__wab_img-spacer > img {
+  object-fit: cover;
 }

@@ -13,7 +13,7 @@
   width: 720px;
   height: auto;
   border-radius: 2px;
-  border: 1px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 1px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .parent__border {
   border-width: 2px;
@@ -140,7 +140,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .slotTargetSubHead {
   font-size: 14px;
@@ -148,7 +148,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .inputElementParent {
   display: flex;
@@ -289,13 +289,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg___8XXGd {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__ruhY {
   position: relative;
@@ -317,13 +317,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__u3QG {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__cArR1 {
   position: relative;
@@ -345,13 +345,13 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__reJbV {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__vcpo8 {
   position: relative;
@@ -370,7 +370,7 @@
   flex-direction: row;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .freeBox__inputType_displayText___5AQd8Ko3Kh {
   left: auto;
@@ -386,7 +386,7 @@
   border-width: 2px;
 }
 .slotTargetSlot__inputType_displayText {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-size: 14px;
   line-height: 1.4;
 }
@@ -420,7 +420,7 @@
 }
 .slotTargetSlotLabel__inputType_dropdownText {
   font-weight: 500;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .inputTextContainer {
   display: flex;
@@ -455,7 +455,7 @@
   min-width: 0;
   min-height: 0;
 }
-.textbox__dZu8N {
+.textInput__dZu8N {
   align-self: auto;
   padding-left: 8px;
   height: auto;
@@ -464,10 +464,10 @@
   border-right-width: 1px;
   border-bottom-width: 2px;
   border-left-width: 1px;
-  border-top-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-right-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-bottom-color: #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-left-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-top-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-right-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-bottom-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-left-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
   font-size: 14px;
   position: relative;
   border-top-right-radius: 2px;
@@ -488,7 +488,7 @@
   padding-right: 4px;
   height: 32px;
   background: #f8f8f8;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .urlTextParent__inputType_username {
   width: auto;
@@ -496,10 +496,9 @@
   top: auto;
   height: 100%;
   background: #ffffff;
-  display: inline-flex;
   min-height: 0;
   padding: 0px 8px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .urlTextParent__inputType_dropdownText {
   left: auto;
@@ -508,19 +507,18 @@
 .text {
   height: auto;
   width: auto;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
-  display: inline-block;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .text__inputType_username {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
 }
-.textbox__tzwN1 {
+.textInput__tzwN1 {
   position: relative;
   width: 180px;
   flex-shrink: 0;
 }
-.textbox__inputType_username__tzwN13UQvi {
+.textInput__inputType_username__tzwN13UQvi {
   width: 100%;
   min-width: 0;
 }
@@ -537,25 +535,25 @@
   min-width: 0;
   min-height: 0;
 }
-.textbox__s9G9K {
+.textInput__s9G9K {
   width: 180px;
 }
-.textbox__inputType_username__s9G9K3UQvi {
+.textInput__inputType_username__s9G9K3UQvi {
   width: 100%;
   height: 100%;
   font-size: 14px;
   align-self: auto;
   font-weight: 400;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   border-top-right-radius: 2px;
   background: #f8f8f8;
   min-width: 0;
   min-height: 0;
   padding: 0px 0px 0px 8px;
-  border-top: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
-  border-left: 1px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-top: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-left: 1px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .freeBox__ucpw3 {
   display: flex;
@@ -569,7 +567,7 @@
   padding-right: 4px;
   height: 32px;
   background: #f8f8f8;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .freeBox__inputType_companyname__ucpw3YQu0E {
   width: auto;
@@ -578,20 +576,19 @@
   left: auto;
   top: auto;
   background: #ffffff;
-  display: inline-flex;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .freeBox__ti2Dh {
-  display: inline-flex;
+  display: flex;
   position: relative;
   height: auto;
   width: auto;
 }
 .slotTargetSlot2 {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetSlot2__inputType_companyname {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
 }
 .inputUrlTextParent {
@@ -609,24 +606,24 @@
   border-width: 1px;
   border-style: none;
 }
-.textbox__pm7Dz {
+.textInput__pm7Dz {
   width: 180px;
 }
-.textbox__inputType_companyname__pm7DzYQu0E {
+.textInput__inputType_companyname__pm7DzYQu0E {
   width: 100%;
   height: 100%;
   font-size: 14px;
   border-left-style: none;
   border-left-width: 0px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   border-top-right-radius: 2px;
   background: #f8f8f8;
   min-width: 0;
   min-height: 0;
   padding: 0px 0px 0px 8px;
-  border-top: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
-  border-bottom: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-top: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .textParent {
   display: flex;
@@ -655,14 +652,14 @@
 }
 .textarea___4QXp {
   width: 100%;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   height: auto;
   font-size: 14px;
   background: #f8f8f8;
   min-width: 0;
   border-radius: 2px;
   padding: 4px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .descriptionCard {
   display: flex;
@@ -719,7 +716,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .buttonPrimary:global(.__wab_instance) {
   position: relative;

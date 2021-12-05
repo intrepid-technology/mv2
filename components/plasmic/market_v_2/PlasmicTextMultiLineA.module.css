@@ -19,7 +19,7 @@
   margin-top: 6px;
 }
 .slotTargetChildren {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .textarea {
   position: relative;
@@ -29,13 +29,13 @@
   border-right-style: none;
   border-bottom-style: solid;
   border-left-style: none;
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
   width: 320px;
   height: 96px;
   background: #f8f8f8;
   flex-shrink: 0;
   border-width: 1px;
-  border-color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .textarea__size_large {
   width: 360px;
@@ -46,7 +46,7 @@
 .root .textarea:hover {
   left: auto;
   top: auto;
-  border-color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .root .textarea:focus {
   left: auto;

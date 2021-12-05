@@ -35,19 +35,27 @@ function PlasmicIconListItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__vertical]: hasVariant(variants, "vertical", "vertical")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__vertical]: hasVariant(variants, "vertical", "vertical") }
+      )}
     >
       <div
         data-plasmic-name={"iconWrapper"}
         data-plasmic-override={overrides.iconWrapper}
-        className={classNames(defaultcss.all, sty.iconWrapper)}
+        className={classNames(defaultcss.all, projectcss.all, sty.iconWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <svg
-              className={classNames(defaultcss.all, sty.svg__dIszo)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__dIszo
+              )}
               role={"img"}
             />
           ),
@@ -59,7 +67,7 @@ function PlasmicIconListItem__RenderFunc(props) {
       <div
         data-plasmic-name={"textWrapper"}
         data-plasmic-override={overrides.textWrapper}
-        className={classNames(defaultcss.all, sty.textWrapper, {
+        className={classNames(defaultcss.all, projectcss.all, sty.textWrapper, {
           [sty.textWrapper__vertical]: hasVariant(
             variants,
             "vertical",

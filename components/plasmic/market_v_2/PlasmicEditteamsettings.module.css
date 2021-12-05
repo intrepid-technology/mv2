@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  left: auto;
-  top: auto;
-  flex-shrink: 0;
-}
 .settingsForm:global(.__wab_instance) {
   position: relative;
   width: 800px;
@@ -559,7 +553,7 @@
   max-width: 100%;
   width: 30px;
   height: 30px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
 .text__mAb96 {
@@ -598,7 +592,7 @@
   max-width: 100%;
   width: 30px;
   height: 30px;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   flex-shrink: 0;
 }
 .text__mvjMx {
@@ -813,7 +807,7 @@
   }
 }
 .cardTeamLeaveAccount {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -945,7 +939,7 @@
   }
 }
 .cardTeamDeleteAccount {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   width: auto;
   height: auto;

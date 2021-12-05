@@ -51,25 +51,38 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"formEmailConfirmation"}
         data-plasmic-override={overrides.formEmailConfirmation}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.formEmailConfirmation)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.formEmailConfirmation
+        )}
       >
         <p.PlasmicLink
           data-plasmic-name={"svgLinkDiv"}
           data-plasmic-override={overrides.svgLinkDiv}
-          className={classNames(defaultcss.a, sty.svgLinkDiv)}
+          className={classNames(defaultcss.a, projectcss.a, sty.svgLinkDiv)}
           component={Link}
           href={"/sign-up"}
           platform={"nextjs"}
         >
           <Icon43Icon
-            className={classNames(defaultcss.all, sty.svg__kopp7)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svg__kopp7
+            )}
             role={"img"}
           />
         </p.PlasmicLink>
@@ -78,13 +91,18 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           <div
             data-plasmic-name={"textHeadline"}
             data-plasmic-override={overrides.textHeadline}
-            className={classNames(defaultcss.all, sty.textHeadline)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.textHeadline
+            )}
           >
             <div
               data-plasmic-name={"headlineTitle"}
               data-plasmic-override={overrides.headlineTitle}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.headlineTitle
               )}
@@ -99,13 +117,27 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           data-plasmic-name={"textDivParent"}
           data-plasmic-override={overrides.textDivParent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.textDivParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textDivParent
+          )}
         >
-          <div className={classNames(defaultcss.all, sty.freeBox__cMiiQ)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__cMiiQ
+            )}
+          >
             <div
               data-plasmic-name={"textDivA"}
               data-plasmic-override={overrides.textDivA}
-              className={classNames(defaultcss.all, sty.textDivA)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.textDivA
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "We’re super excited you signed up!",
@@ -115,11 +147,21 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__yjYWr)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__yjYWr
+            )}
+          >
             <div
               data-plasmic-name={"textDivB"}
               data-plasmic-override={overrides.textDivB}
-              className={classNames(defaultcss.all, sty.textDivB)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.textDivB
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents:
@@ -130,11 +172,21 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__kfvvm)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__kfvvm
+            )}
+          >
             <div
               data-plasmic-name={"textDivC"}
               data-plasmic-override={overrides.textDivC}
-              className={classNames(defaultcss.all, sty.textDivC)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.textDivC
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents:
@@ -147,7 +199,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
         </p.Stack>
 
         <SectionDividerIcon
-          className={classNames(defaultcss.all, sty.svg__xs3K)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__xs3K)}
           role={"img"}
         />
 
@@ -159,6 +211,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.buttonResendHeadlineParent
             )}
           >
@@ -167,7 +220,11 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
               data-plasmic-name={"buttonHeadline"}
               data-plasmic-override={overrides.buttonHeadline}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.buttonHeadline)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttonHeadline
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Didn't receive the email?",
@@ -195,6 +252,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__iYy4D
                   )}
@@ -211,7 +269,11 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
           <div
             data-plasmic-name={"buttonGoBackParent"}
             data-plasmic-override={overrides.buttonGoBackParent}
-            className={classNames(defaultcss.all, sty.buttonGoBackParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.buttonGoBackParent
+            )}
           >
             {(
               hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -247,6 +309,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__yK0Zp
                     )}

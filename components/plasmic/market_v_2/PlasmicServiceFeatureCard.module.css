@@ -29,7 +29,7 @@
   width: auto;
   height: auto;
   position: relative;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 .freeBox__muod3 {
@@ -44,7 +44,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   text-align: center;
 }
 .slotTargetSlot__size_small {
@@ -53,7 +53,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .freeBox__xNaRf {
   left: auto;
@@ -61,7 +61,7 @@
   width: auto;
   height: auto;
   position: relative;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 }
 .freeBox__i7XIs {
@@ -75,7 +75,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   text-align: center;
 }
 .slotTargetChildren__size_small {
@@ -83,5 +83,5 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }

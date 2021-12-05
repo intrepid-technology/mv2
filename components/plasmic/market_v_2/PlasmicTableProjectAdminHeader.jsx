@@ -42,14 +42,23 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"orderHeaderSelectAll"}
         data-plasmic-override={overrides.orderHeaderSelectAll}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.orderHeaderSelectAll)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.orderHeaderSelectAll
+        )}
       >
         <ElementRadioPrimary
           data-plasmic-name={"elementRadioPrimary"}
@@ -61,11 +70,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"order"}
           data-plasmic-override={overrides.order}
-          className={classNames(defaultcss.all, sty.order)}
+          className={classNames(defaultcss.all, projectcss.all, sty.order)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__tv5Wg
             )}
@@ -79,11 +89,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"status"}
           data-plasmic-override={overrides.status}
-          className={classNames(defaultcss.all, sty.status)}
+          className={classNames(defaultcss.all, projectcss.all, sty.status)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text___5MLDi
             )}
@@ -96,11 +107,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"price"}
           data-plasmic-override={overrides.price}
-          className={classNames(defaultcss.all, sty.price)}
+          className={classNames(defaultcss.all, projectcss.all, sty.price)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__xucpq
             )}
@@ -113,11 +125,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"partner"}
           data-plasmic-override={overrides.partner}
-          className={classNames(defaultcss.all, sty.partner)}
+          className={classNames(defaultcss.all, projectcss.all, sty.partner)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__rBkQm
             )}
@@ -130,11 +143,16 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"notifications"}
           data-plasmic-override={overrides.notifications}
-          className={classNames(defaultcss.all, sty.notifications)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.notifications
+          )}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__m5Wi9
             )}
@@ -147,11 +165,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"delivery"}
           data-plasmic-override={overrides.delivery}
-          className={classNames(defaultcss.all, sty.delivery)}
+          className={classNames(defaultcss.all, projectcss.all, sty.delivery)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__pag2Z
             )}
@@ -164,11 +183,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"review"}
           data-plasmic-override={overrides.review}
-          className={classNames(defaultcss.all, sty.review)}
+          className={classNames(defaultcss.all, projectcss.all, sty.review)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__ovz4R
             )}
@@ -181,11 +201,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"approved"}
           data-plasmic-override={overrides.approved}
-          className={classNames(defaultcss.all, sty.approved)}
+          className={classNames(defaultcss.all, projectcss.all, sty.approved)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__yTjqZ
             )}
@@ -198,11 +219,12 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"cancel"}
           data-plasmic-override={overrides.cancel}
-          className={classNames(defaultcss.all, sty.cancel)}
+          className={classNames(defaultcss.all, projectcss.all, sty.cancel)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__xYnnr
             )}

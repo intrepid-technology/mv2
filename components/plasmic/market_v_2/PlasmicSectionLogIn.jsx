@@ -43,26 +43,39 @@ function PlasmicSectionLogIn__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"loginHeadlineParent"}
         data-plasmic-override={overrides.loginHeadlineParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.loginHeadlineParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.loginHeadlineParent
+        )}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"loginHeadlineText"}
           data-plasmic-override={overrides.loginHeadlineText}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.loginHeadlineText)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.loginHeadlineText
+          )}
         >
           <p.PlasmicLink
             data-plasmic-name={"svgLinkDiv"}
             data-plasmic-override={overrides.svgLinkDiv}
-            className={classNames(defaultcss.a, sty.svgLinkDiv)}
+            className={classNames(defaultcss.a, projectcss.a, sty.svgLinkDiv)}
             component={Link}
             href={"/"}
             platform={"nextjs"}
@@ -70,7 +83,7 @@ function PlasmicSectionLogIn__RenderFunc(props) {
             <Icon43Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg)}
+              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
               role={"img"}
             />
           </p.PlasmicLink>
@@ -80,6 +93,7 @@ function PlasmicSectionLogIn__RenderFunc(props) {
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text
             )}

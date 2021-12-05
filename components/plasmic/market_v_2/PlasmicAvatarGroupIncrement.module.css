@@ -34,7 +34,7 @@
   }
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -59,7 +59,7 @@
   margin-left: 4px;
 }
 .avatarParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: center;
@@ -637,7 +637,7 @@
   object-fit: cover;
 }
 .additionalMembers {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -669,7 +669,7 @@
   line-height: 1;
 }
 .numberParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: stretch;
@@ -680,7 +680,7 @@
   height: auto;
 }
 .freeBox {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;

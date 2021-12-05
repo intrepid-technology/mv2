@@ -27,7 +27,6 @@
   height: 32px;
   left: auto;
   top: auto;
-  display: inline-inline-block !important;
 }
 .img__myWWx > picture > img {
   object-fit: cover;

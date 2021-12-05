@@ -38,7 +38,12 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <SwitchTextPrimary
         data-plasmic-name={"switchTextPrimary"}
@@ -53,17 +58,25 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"descriptionTextParent"}
           data-plasmic-override={overrides.descriptionTextParent}
-          className={classNames(defaultcss.all, sty.descriptionTextParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionTextParent
+          )}
         >
           <div
             data-plasmic-name={"descriptionSlotParent"}
             data-plasmic-override={overrides.descriptionSlotParent}
-            className={classNames(defaultcss.all, sty.descriptionSlotParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.descriptionSlotParent
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

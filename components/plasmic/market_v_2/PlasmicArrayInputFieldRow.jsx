@@ -35,7 +35,12 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {p.renderPlasmicSlot({
         defaultContents: null,
@@ -46,7 +51,11 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
         <div
           data-plasmic-name={"deleteIconWrapper"}
           data-plasmic-override={overrides.deleteIconWrapper}
-          className={classNames(defaultcss.all, sty.deleteIconWrapper)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.deleteIconWrapper
+          )}
         >
           <Button
             data-plasmic-name={"removeButton"}
@@ -61,6 +70,7 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
               data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text
               )}

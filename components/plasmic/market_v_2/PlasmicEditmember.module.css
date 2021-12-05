@@ -8,12 +8,6 @@
   min-width: 0;
   min-height: 0;
 }
-.navbarMemberEdit:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-  flex-shrink: 0;
-}
 .sectionMemberEditProfile {
   display: flex;
   position: relative;
@@ -21,7 +15,7 @@
   height: auto;
   left: auto;
   top: auto;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberEditProfile > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -332,7 +326,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .userImage > picture > img {
   object-fit: cover;
@@ -341,7 +335,7 @@
   object-fit: cover;
 }
 .memberEditlogoGroup {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -630,7 +624,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 32px;
+  padding: 16px 8px 32px;
 }
 .sectionMemberEditProfileDetails > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -660,7 +654,6 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .sectionMemberEditProfileDetails {
     width: auto;
-    display: inline-flex;
     padding: 16px;
   }
 }
@@ -725,7 +718,6 @@
     width: auto;
     left: auto;
     top: auto;
-    display: inline-flex;
   }
 }
 .cardMemberLocation {
@@ -1233,7 +1225,7 @@
   left: auto;
   top: auto;
   min-width: 0;
-  padding: 16px 180px 96px;
+  padding: 16px 8px 96px;
 }
 .sectionMemberEditProfileSocial > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -1323,7 +1315,6 @@
     width: auto;
     left: auto;
     top: auto;
-    display: inline-flex;
   }
 }
 .cardMemberWebsite {
@@ -1381,7 +1372,7 @@
   position: relative;
 }
 .cardMemberSocial {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -1425,7 +1416,7 @@
   left: auto;
 }
 .text__rUb4 {
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .text__osn8L {
   height: auto;

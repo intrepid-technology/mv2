@@ -40,10 +40,27 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox___3S0X2)}>
-        <div className={classNames(defaultcss.all, sty.freeBox___04MeC)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___3S0X2
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___04MeC
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Membership",
             value: args.children,
@@ -59,16 +76,33 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.elementNumberValueIntervalTermParent
         )}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__qOaV)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__qOaV
+          )}
         >
-          <div className={classNames(defaultcss.all, sty.freeBox__gOClv)}>
-            <div className={classNames(defaultcss.all, sty.freeBox__xHjU)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__gOClv
+            )}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__xHjU
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "$",
                 value: args.slot2,
@@ -77,8 +111,20 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__m0Ufj)}>
-            <div className={classNames(defaultcss.all, sty.freeBox__s51Ve)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__m0Ufj
+            )}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__s51Ve
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "50",
                 value: args.slot3,
@@ -87,8 +133,20 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
             </div>
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox___2DAj1)}>
-            <div className={classNames(defaultcss.all, sty.freeBox__z9Y91)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox___2DAj1
+            )}
+          >
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__z9Y91
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "/year",
                 value: args.slot4,
@@ -101,7 +159,11 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
         <div
           data-plasmic-name={"descriptionTextParent"}
           data-plasmic-override={overrides.descriptionTextParent}
-          className={classNames(defaultcss.all, sty.descriptionTextParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.descriptionTextParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Description",

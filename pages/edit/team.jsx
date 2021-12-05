@@ -1,7 +1,8 @@
 import * as React from "react";
+
+import { PlasmicEditteam } from "../../components/plasmic/market_v_2/PlasmicEditteam";
 import { useRouter } from "next/router";
 import useUpdateTeam from "../../hooks/useUpdateTeam";
-import { PlasmicEditteam } from "../../components/plasmic/market_v_2/PlasmicEditteam";
 
 function Editteam() {
   const [values, setValues] = React.useState();

@@ -44,7 +44,7 @@
   width: 300px;
   height: 300px;
   flex-direction: column;
-  background: #000000;
+  background: #101010;
   flex-shrink: 0;
   padding: 32px 20px 12px 32px;
 }
@@ -102,7 +102,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .textLocation__cNjJw:global(.__wab_instance) {
   position: relative;

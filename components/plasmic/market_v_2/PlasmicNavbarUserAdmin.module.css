@@ -1,0 +1,235 @@
+.root {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 12px;
+}
+.navbarAdminIcons__q1Wn9:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.navbarAdminIcons__uhkdI:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.navbarAdminIcons___14XlK:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.navbarAdminIcons__tQnIs:global(.__wab_instance) {
+  position: relative;
+  align-self: center;
+}
+.avatarParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: auto;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.img__fJckN {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__fJckN > picture > img {
+  object-fit: cover;
+}
+.img__fJckN > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__iS4Ao {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__iS4Ao > picture > img {
+  object-fit: cover;
+}
+.img__iS4Ao > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__wfOTl {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__wfOTl > picture > img {
+  object-fit: cover;
+}
+.img__wfOTl > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__slUgt {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__slUgt > picture > img {
+  object-fit: cover;
+}
+.img__slUgt > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__kLlZc {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__kLlZc > picture > img {
+  object-fit: cover;
+}
+.img__kLlZc > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__kbPdl {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__kbPdl > picture > img {
+  object-fit: cover;
+}
+.img__kbPdl > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__hmAjg {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__hmAjg > picture > img {
+  object-fit: cover;
+}
+.img__hmAjg > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__dfLaF {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__dfLaF > picture > img {
+  object-fit: cover;
+}
+.img__dfLaF > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__gp7QM {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__gp7QM > picture > img {
+  object-fit: cover;
+}
+.img__gp7QM > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__quZcj {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__quZcj > picture > img {
+  object-fit: cover;
+}
+.img__quZcj > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.img__daVf {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border-width: 0px;
+  border-style: none;
+}
+.img__daVf > picture > img {
+  object-fit: cover;
+}
+.img__daVf > .__wab_img-spacer > img {
+  object-fit: cover;
+}

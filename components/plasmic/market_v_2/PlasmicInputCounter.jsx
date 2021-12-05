@@ -36,11 +36,22 @@ function PlasmicInputCounter__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <button className={classNames(defaultcss.button, sty.button__kujiS)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button__kujiS
+        )}
+      >
         <Icon107Icon
-          className={classNames(defaultcss.all, sty.svg__lKsQp)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__lKsQp)}
           role={"img"}
         />
       </button>
@@ -48,14 +59,25 @@ function PlasmicInputCounter__RenderFunc(props) {
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.text)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          defaultcss.__wab_text,
+          sty.text
+        )}
       >
         {"1"}
       </div>
 
-      <button className={classNames(defaultcss.button, sty.button__uAdPd)}>
+      <button
+        className={classNames(
+          defaultcss.button,
+          projectcss.button,
+          sty.button__uAdPd
+        )}
+      >
         <Icon109Icon
-          className={classNames(defaultcss.all, sty.svg__ojz8V)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__ojz8V)}
           role={"img"}
         />
       </button>

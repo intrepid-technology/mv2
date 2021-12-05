@@ -40,19 +40,25 @@ function PlasmicElementProfileAbout__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {true ? (
         <div
           data-plasmic-name={"about"}
           data-plasmic-override={overrides.about}
-          className={classNames(defaultcss.all, sty.about)}
+          className={classNames(defaultcss.all, projectcss.all, sty.about)}
         >
           <div
             data-plasmic-name={"aboutText"}
             data-plasmic-override={overrides.aboutText}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.aboutText
             )}
@@ -65,13 +71,14 @@ function PlasmicElementProfileAbout__RenderFunc(props) {
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
-          className={classNames(defaultcss.all, sty.textParent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
         >
           <div
             data-plasmic-name={"text170Characters"}
             data-plasmic-override={overrides.text170Characters}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text170Characters
             )}

@@ -34,7 +34,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   position: relative;
   left: auto;
@@ -43,7 +43,7 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text {
-    color: #333333 /* plasmic-token: F4gy0u3aB */;
+    color: #101010 /* plasmic-token: F4gy0u3aB */;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -54,7 +54,7 @@
     font-weight: 500;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
     align-self: stretch;
     width: 100%;
     min-width: 0;
@@ -106,7 +106,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -116,7 +116,7 @@
 }
 .svg__tmgIr {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -134,7 +134,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -144,7 +144,7 @@
 }
 .svg__vb62N {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -162,7 +162,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -172,7 +172,7 @@
 }
 .svg___131Z {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -190,7 +190,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -200,7 +200,7 @@
 }
 .svg__efUnx {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -218,7 +218,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -228,7 +228,7 @@
 }
 .svg___6EbbZ {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -246,7 +246,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -256,7 +256,7 @@
 }
 .svg__boe2O {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -274,7 +274,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -284,7 +284,7 @@
 }
 .svg__lsYs8 {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -302,7 +302,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -312,7 +312,7 @@
 }
 .svg__kgibC {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;
@@ -330,7 +330,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  background: #ebebeb;
+  background: #f1f1f1;
   min-width: 0;
   min-height: 0;
   border-radius: 100px;
@@ -340,7 +340,7 @@
 }
 .svg__uQp16 {
   object-fit: cover;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   width: 100%;
   height: 100%;
   min-width: 0;

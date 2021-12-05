@@ -48,17 +48,27 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__partner]: hasVariant(variants, "partner", "partner")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light"),
+          [sty.root__partner]: hasVariant(variants, "partner", "partner")
+        }
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__hd4C)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__hd4C
+        )}
       >
         {(
           hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -70,16 +80,25 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__i0Yy5)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__i0Yy5
+            )}
           >
             <Icon42Icon
-              className={classNames(defaultcss.all, sty.svg__on4Gg, {
-                [sty.svg__color_light__on4GgVn8Xk]: hasVariant(
-                  variants,
-                  "color",
-                  "light"
-                )
-              })}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__on4Gg,
+                {
+                  [sty.svg__color_light__on4GgVn8Xk]: hasVariant(
+                    variants,
+                    "color",
+                    "light"
+                  )
+                }
+              )}
               role={"img"}
             />
 
@@ -91,6 +110,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
               <div
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text__zsyYr,
                   {
@@ -109,9 +129,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 )}
               >
                 {hasVariant(variants, "partner", "partner") ? (
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                  >
+                  <React.Fragment>
                     <React.Fragment>{"Do you want to "}</React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
@@ -122,11 +140,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                     <React.Fragment>
                       {" technology and creative services to our members?"}
                     </React.Fragment>
-                  </span>
+                  </React.Fragment>
                 ) : (
-                  <span
-                    className={"plasmic_default__all plasmic_default__span"}
-                  >
+                  <React.Fragment>
                     <React.Fragment>{"Do you want to "}</React.Fragment>
                     <span
                       className={"plasmic_default__all plasmic_default__span"}
@@ -137,7 +153,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                     <React.Fragment>
                       {" technology and creative services for your business?"}
                     </React.Fragment>
-                  </span>
+                  </React.Fragment>
                 )}
               </div>
             ) : null}
@@ -149,6 +165,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text___20Bn,
               {
@@ -167,7 +184,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             )}
           >
             {hasVariant(variants, "partner", "partner") ? (
-              <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -178,9 +195,9 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 <React.Fragment>
                   {" technology and creative services to our members?"}
                 </React.Fragment>
-              </span>
+              </React.Fragment>
             ) : (
-              <span className={"plasmic_default__all plasmic_default__span"}>
+              <React.Fragment>
                 <React.Fragment>{"Do you want to "}</React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -191,7 +208,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                 <React.Fragment>
                   {" technology and creative services for your business?"}
                 </React.Fragment>
-              </span>
+              </React.Fragment>
             )}
           </div>
         ) : null}
@@ -210,13 +227,18 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           direction={"right"}
           svgRight={
             <Icon118Icon
-              className={classNames(defaultcss.all, sty.svg__lhcBs, {
-                [sty.svg__color_light__lhcBsVn8Xk]: hasVariant(
-                  variants,
-                  "color",
-                  "light"
-                )
-              })}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__lhcBs,
+                {
+                  [sty.svg__color_light__lhcBsVn8Xk]: hasVariant(
+                    variants,
+                    "color",
+                    "light"
+                  )
+                }
+              )}
               role={"img"}
             />
           }
@@ -226,6 +248,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             data-plasmic-override={overrides.link}
             className={classNames(
               defaultcss.a,
+              projectcss.a,
               defaultcss.__wab_text,
               sty.link,
               {

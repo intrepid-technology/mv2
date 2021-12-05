@@ -8,7 +8,7 @@
   position: relative;
 }
 .freeBox___8Spx {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -43,11 +43,11 @@
 .slotTargetHeadline {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .totalCurrencyNumberValue {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -77,7 +77,7 @@
   margin-left: 4px;
 }
 .ccurrencyParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;
@@ -85,7 +85,7 @@
 .slotTargetCurrency {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }
 .freeBox__h0Uqh {
@@ -98,7 +98,7 @@
   left: auto;
 }
 .totalValueParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;
@@ -106,6 +106,6 @@
 .slotTargetTotalvalue {
   font-size: 14px;
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
 }

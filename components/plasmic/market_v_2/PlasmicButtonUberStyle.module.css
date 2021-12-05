@@ -27,7 +27,7 @@
   width: 100%;
   height: auto;
   padding-bottom: 24px;
-  border-bottom-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  border-bottom-color: #101010 /* plasmic-token: F4gy0u3aB */;
   border-bottom-width: 2px;
   border-left-color: rgba(255, 255, 255, 0.2) /* plasmic-token: FuVdnB9x_ */;
   border-left-width: 1px;
@@ -78,7 +78,7 @@
 }
 .slotTargetChildren {
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
@@ -100,7 +100,7 @@
 }
 .slotTargetText90 {
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
@@ -122,7 +122,7 @@
 }
 .slotTargetText140 {
   font-size: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
@@ -140,7 +140,7 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .arrowParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   align-self: flex-end;
   width: auto;
@@ -163,13 +163,12 @@
 .arrowParent__size__360 {
   width: auto;
   height: auto;
-  display: inline-flex;
   margin: 0px;
 }
 .slotTargetSlot {
   font-size: 12px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 600;
 }
 .slotTargetSlot__size__140 {
@@ -188,7 +187,7 @@
 .slotTargetArrow160 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow160__size__140 {
   font-size: 14px;
@@ -210,7 +209,7 @@
 .slotTargetArrow270 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow270__size__140 {
   font-size: 14px;
@@ -232,7 +231,7 @@
 .slotTargetArrow140 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow140__size__140 {
   font-size: 10px;
@@ -251,7 +250,7 @@
 .slotTargetArrow360 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow360__size__140 {
   font-size: 14px;
@@ -270,7 +269,7 @@
 .slotTargetArrow320 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow320__size__140 {
   font-size: 14px;
@@ -289,7 +288,7 @@
 .slotTargetArrow90 {
   font-size: 14px;
   line-height: 1;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .slotTargetArrow90__size__90 {
   font-weight: 600;

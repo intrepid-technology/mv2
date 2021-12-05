@@ -37,19 +37,35 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__x3Lz4)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__x3Lz4
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox___59Etq)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___59Etq
+          )}
+        >
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text,
               {
@@ -111,7 +127,11 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__ljIaA)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__ljIaA
+        )}
       >
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}

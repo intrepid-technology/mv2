@@ -7,7 +7,7 @@
   background: #ffffff;
   min-width: 0;
   padding: 0px 8px 8px;
-  border-bottom: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -81,7 +81,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .accordionTriggerChevron:global(.__wab_instance) {
   position: relative;
@@ -118,7 +118,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .descriptionText {
   position: relative;
@@ -133,5 +133,5 @@
 }
 .slotTargetSlot {
   line-height: 1.2;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }

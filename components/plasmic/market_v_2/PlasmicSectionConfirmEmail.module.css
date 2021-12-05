@@ -169,7 +169,7 @@
   object-fit: cover;
   width: 48px;
   height: 48px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .textHeadline {
@@ -196,7 +196,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   width: 100%;
   min-width: 0;
@@ -298,7 +298,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 @media (max-width: 375px) {
   .slotTargetTextSlot {
@@ -332,7 +332,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .slotTargetTextSlotB {
@@ -341,7 +341,7 @@
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    color: #14161b /* plasmic-token: ec1vMFIzT */;
   }
 }
 .freeBox__kfvvm {
@@ -371,7 +371,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .slotTargetTextSlotC {
@@ -380,7 +380,7 @@
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    color: #14161b /* plasmic-token: ec1vMFIzT */;
   }
 }
 .svg__xs3K {
@@ -518,12 +518,13 @@
     font-weight: 400;
     letter-spacing: normal;
     line-height: 1.4;
-    color: #333333 /* plasmic-token: ec1vMFIzT */;
+    color: #14161b /* plasmic-token: ec1vMFIzT */;
   }
 }
 .confirmationResend:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .confirmationResend:global(.__wab_instance) {
@@ -578,6 +579,7 @@
   height: 48px;
   min-width: 0;
   flex-shrink: 0;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .buttonLinkPrimary:global(.__wab_instance) {
@@ -587,6 +589,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
+    display: flex;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {

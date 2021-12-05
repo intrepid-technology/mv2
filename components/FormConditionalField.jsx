@@ -8,7 +8,7 @@ function FormConditionalField_(props, ref) {
   const {watch} = useFormContext()
   const fieldValue = watch(props.name)
 
-  const { isVisible } = useConditionalField({value: fieldValue, conditionValue: props.value, check: "EQUAL"})
+  const { isVisible } = useConditionalField({value: fieldValue, conditionValue: props.value, checkType: "EQUAL"})
   if (!isVisible) return null
 
   return (

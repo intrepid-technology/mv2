@@ -41,7 +41,12 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -49,7 +54,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
         >
           {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <IconPrimary
@@ -65,7 +70,11 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                 <LocationIcon
                   data-plasmic-name={"svgIcon"}
                   data-plasmic-override={overrides.svgIcon}
-                  className={classNames(defaultcss.all, sty.svgIcon)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon
+                  )}
                   role={"img"}
                 />
               }
@@ -78,7 +87,11 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                       ? LocationIcon
                       : LocationIcon
                   }
-                  className={classNames(defaultcss.all, sty.svgIcon3)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon3
+                  )}
                   role={"img"}
                 />
               }
@@ -86,7 +99,11 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
                 <LocationIcon
                   data-plasmic-name={"svgIcon4"}
                   data-plasmic-override={overrides.svgIcon4}
-                  className={classNames(defaultcss.all, sty.svgIcon4)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon4
+                  )}
                   role={"img"}
                 />
               }
@@ -96,13 +113,18 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
           <div
             data-plasmic-name={"cityTextParent"}
             data-plasmic-override={overrides.cityTextParent}
-            className={classNames(defaultcss.all, sty.cityTextParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.cityTextParent
+            )}
           >
             <div
               data-plasmic-name={"cityName"}
               data-plasmic-override={overrides.cityName}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.cityName
               )}
@@ -115,6 +137,7 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
               data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text
               )}
@@ -126,13 +149,18 @@ function PlasmicElementLocationPrimary__RenderFunc(props) {
           <div
             data-plasmic-name={"countryTextParent"}
             data-plasmic-override={overrides.countryTextParent}
-            className={classNames(defaultcss.all, sty.countryTextParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.countryTextParent
+            )}
           >
             <div
               data-plasmic-name={"countryName"}
               data-plasmic-override={overrides.countryName}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.countryName
               )}

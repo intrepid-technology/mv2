@@ -51,7 +51,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg__i6HZ {
   position: relative;
@@ -60,7 +60,7 @@
   height: 16px;
 }
 .contentWrapper {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;

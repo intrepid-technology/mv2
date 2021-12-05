@@ -38,6 +38,7 @@ function PlasmicMenuItem__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.a,
+        projectcss.a,
         projectcss.root_reset,
         sty.menuItemLink,
         {
@@ -55,7 +56,7 @@ function PlasmicMenuItem__RenderFunc(props) {
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, sty.textParent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Menu item",

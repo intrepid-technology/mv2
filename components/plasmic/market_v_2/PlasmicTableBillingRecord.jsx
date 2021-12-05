@@ -36,12 +36,24 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox___1NXvf)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___1NXvf
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__riTOw
           )}
@@ -50,10 +62,17 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__o6NOc)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__o6NOc
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__yo4Cq
           )}
@@ -62,10 +81,17 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox___8Ljj)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___8Ljj
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__ecFEl
           )}
@@ -74,10 +100,17 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox___9Gvax)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___9Gvax
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__jKFmT
           )}
@@ -88,6 +121,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__bYrEt
           )}
@@ -98,6 +132,7 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__v8F9N
           )}
@@ -106,16 +141,28 @@ function PlasmicTableBillingRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__oMr1Z)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__oMr1Z
+        )}
+      >
         <CircleCheckedIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
           role={"img"}
         />
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__hb3G1)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__hb3G1
+        )}
+      >
         <ButtonCircleDelete
           data-plasmic-name={"buttonCircleDelete"}
           data-plasmic-override={overrides.buttonCircleDelete}

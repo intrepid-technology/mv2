@@ -6,7 +6,7 @@
   position: relative;
   background: #ffffff;
   padding: 16px 8px;
-  border-bottom: 1px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border-bottom: 1px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -51,7 +51,6 @@
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .freeBox__o6NOc {
   display: flex;
@@ -70,7 +69,6 @@
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .freeBox___8Ljj {
   display: flex;
@@ -89,7 +87,6 @@
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .freeBox___9Gvax {
   display: flex;
@@ -108,19 +105,16 @@
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .text__bYrEt {
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .text__v8F9N {
   font-size: 16px;
   height: auto;
   width: auto;
-  display: inline-block;
 }
 .freeBox__oMr1Z {
   display: flex;

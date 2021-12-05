@@ -55,7 +55,12 @@ function PlasmicCardUserprofile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
       data-plasmic-trigger-props={[triggerRootActiveProps]}
     >
       <p.Stack
@@ -63,13 +68,21 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         data-plasmic-name={"saveButtonContainer"}
         data-plasmic-override={overrides.saveButtonContainer}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.saveButtonContainer)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.saveButtonContainer
+        )}
       >
         {(triggers.active_root ? true : true) ? (
           <button
             data-plasmic-name={"saveProfile"}
             data-plasmic-override={overrides.saveProfile}
-            className={classNames(defaultcss.button, sty.saveProfile)}
+            className={classNames(
+              defaultcss.button,
+              projectcss.button,
+              sty.saveProfile
+            )}
           >
             <IconPrimary
               data-plasmic-name={"iconPrimary"}
@@ -79,7 +92,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 <BookmarkIcon
                   data-plasmic-name={"svgIcon"}
                   data-plasmic-override={overrides.svgIcon}
-                  className={classNames(defaultcss.all, sty.svgIcon)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon
+                  )}
                   role={"img"}
                 />
               }
@@ -87,7 +104,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 <BookmarkIcon
                   data-plasmic-name={"svgIcon3"}
                   data-plasmic-override={overrides.svgIcon3}
-                  className={classNames(defaultcss.all, sty.svgIcon3)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgIcon3
+                  )}
                   role={"img"}
                 />
               }
@@ -95,7 +116,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 <BookmarkIcon
                   data-plasmic-name={"svgSave"}
                   data-plasmic-override={overrides.svgSave}
-                  className={classNames(defaultcss.all, sty.svgSave)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svgSave
+                  )}
                   role={"img"}
                 />
               }
@@ -114,21 +139,34 @@ function PlasmicCardUserprofile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__bjfN)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__bjfN
+        )}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__giDyd)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__giDyd
+          )}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox___3EZvu)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox___3EZvu
+            )}
           >
             <div
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text__coEqy
               )}
@@ -140,7 +178,13 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 : "Username"}
             </div>
 
-            <div className={classNames(defaultcss.all, sty.freeBox__gZTi1)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__gZTi1
+              )}
+            >
               <TagBadgeVerification
                 data-plasmic-name={"tagBadgeVerification"}
                 data-plasmic-override={overrides.tagBadgeVerification}
@@ -153,16 +197,32 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__kAf90)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__kAf90
+          )}
         >
-          <div className={classNames(defaultcss.all, sty.freeBox__plkCo)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__plkCo
+            )}
+          >
             <TagPartnerD
               data-plasmic-name={"tagPartnerD"}
               data-plasmic-override={overrides.tagPartnerD}
             />
           </div>
 
-          <div className={classNames(defaultcss.all, sty.freeBox__k5Eh6)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__k5Eh6
+            )}
+          >
             <RatingDisplayDetail
               data-plasmic-name={"ratingDisplayDetail"}
               data-plasmic-override={overrides.ratingDisplayDetail}
@@ -171,10 +231,17 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__wvjeV)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__wvjeV
+        )}
+      >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___33H8
           )}
@@ -190,24 +257,40 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         data-plasmic-name={"userStatsParent"}
         data-plasmic-override={overrides.userStatsParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.userStatsParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.userStatsParent
+        )}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"viewButtonCount"}
           data-plasmic-override={overrides.viewButtonCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.viewButtonCount)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.viewButtonCount
+          )}
         >
           <button
             data-plasmic-name={"viewButton"}
             data-plasmic-override={overrides.viewButton}
-            className={classNames(defaultcss.button, sty.viewButton)}
+            className={classNames(
+              defaultcss.button,
+              projectcss.button,
+              sty.viewButton
+            )}
           >
             <ViewIcon
               data-plasmic-name={"viewDisplay"}
               data-plasmic-override={overrides.viewDisplay}
-              className={classNames(defaultcss.all, sty.viewDisplay)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.viewDisplay
+              )}
               role={"img"}
             />
           </button>
@@ -215,13 +298,18 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <div
             data-plasmic-name={"viewNumberValueParent"}
             data-plasmic-override={overrides.viewNumberValueParent}
-            className={classNames(defaultcss.all, sty.viewNumberValueParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.viewNumberValueParent
+            )}
           >
             <div
               data-plasmic-name={"viewNumberIncrement"}
               data-plasmic-override={overrides.viewNumberIncrement}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.viewNumberIncrement
               )}
@@ -236,17 +324,29 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           data-plasmic-name={"heartButtonCount"}
           data-plasmic-override={overrides.heartButtonCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.heartButtonCount)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.heartButtonCount
+          )}
         >
           <button
             data-plasmic-name={"heartButton"}
             data-plasmic-override={overrides.heartButton}
-            className={classNames(defaultcss.button, sty.heartButton)}
+            className={classNames(
+              defaultcss.button,
+              projectcss.button,
+              sty.heartButton
+            )}
           >
             <HeartFillIcon
               data-plasmic-name={"heartDisplay"}
               data-plasmic-override={overrides.heartDisplay}
-              className={classNames(defaultcss.all, sty.heartDisplay)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.heartDisplay
+              )}
               role={"img"}
             />
           </button>
@@ -254,13 +354,18 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <div
             data-plasmic-name={"heartNumberValueParent"}
             data-plasmic-override={overrides.heartNumberValueParent}
-            className={classNames(defaultcss.all, sty.heartNumberValueParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.heartNumberValueParent
+            )}
           >
             <div
               data-plasmic-name={"heartNumberIncrement"}
               data-plasmic-override={overrides.heartNumberIncrement}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.heartNumberIncrement
               )}
@@ -275,17 +380,29 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           data-plasmic-name={"bookmarkButtonCount"}
           data-plasmic-override={overrides.bookmarkButtonCount}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.bookmarkButtonCount)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.bookmarkButtonCount
+          )}
         >
           <button
             data-plasmic-name={"bookmarkButton"}
             data-plasmic-override={overrides.bookmarkButton}
-            className={classNames(defaultcss.button, sty.bookmarkButton)}
+            className={classNames(
+              defaultcss.button,
+              projectcss.button,
+              sty.bookmarkButton
+            )}
           >
             <BookmarkIcon
               data-plasmic-name={"bookmarkDisplay"}
               data-plasmic-override={overrides.bookmarkDisplay}
-              className={classNames(defaultcss.all, sty.bookmarkDisplay)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.bookmarkDisplay
+              )}
               role={"img"}
             />
           </button>
@@ -295,6 +412,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
             data-plasmic-override={overrides.bookmarkNumberValueParent}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.bookmarkNumberValueParent
             )}
           >
@@ -303,6 +421,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
               data-plasmic-override={overrides.bookmarkNumberIncrement}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.bookmarkNumberIncrement
               )}
@@ -318,16 +437,17 @@ function PlasmicCardUserprofile__RenderFunc(props) {
         data-plasmic-name={"location"}
         data-plasmic-override={overrides.location}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.location)}
+        className={classNames(defaultcss.all, projectcss.all, sty.location)}
       >
         <div
           data-plasmic-name={"cityText"}
           data-plasmic-override={overrides.cityText}
-          className={classNames(defaultcss.all, sty.cityText)}
+          className={classNames(defaultcss.all, projectcss.all, sty.cityText)}
         >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__r8DGt
             )}
@@ -338,6 +458,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__tFqJe
             )}
@@ -346,10 +467,17 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           </div>
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox__kfxKm)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__kfxKm
+          )}
+        >
           <div
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text__dk2F0
             )}

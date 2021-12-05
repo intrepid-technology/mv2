@@ -199,25 +199,11 @@
   }
 }
 .headline {
-  display: block;
-  font-size: 40px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: normal;
-  line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
-  align-self: stretch;
+  display: flex;
+  flex-direction: row;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .headline {
-    display: block;
-    font-size: 40px;
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-    letter-spacing: normal;
-    line-height: 1.2;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
-    align-self: stretch;
     width: 100%;
     height: auto;
     min-width: 0;
@@ -226,6 +212,39 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .headline {
     width: 360px;
+  }
+}
+.freeBox__zfdEw {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox__zfdEw {
+    display: block;
+    align-self: stretch;
+  }
+}
+.slotTargetHeadline {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .slotTargetHeadline {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    letter-spacing: normal;
+    line-height: 1.2;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .slotTargetHeadline {
     font-size: 36px;
     font-weight: 700;
   }
@@ -354,7 +373,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
   position: relative;
   width: 100%;
@@ -408,7 +427,7 @@
   position: relative;
 }
 .companyIsVerified3 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -452,14 +471,14 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: center;
   left: auto;
   top: auto;
   position: relative;
 }
 .serviceImageBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -487,7 +506,6 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .serviceImageBlock {
     width: auto;
-    display: inline-flex;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
@@ -543,7 +561,7 @@
   }
 }
 .freeBox__ew4Af {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -777,7 +795,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__z31Jf:global(.__wab_instance) {
   position: relative;
@@ -802,7 +820,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__zNQiS:global(.__wab_instance) {
   position: relative;
@@ -827,7 +845,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__uh9Vp:global(.__wab_instance) {
   position: relative;
@@ -852,7 +870,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__coqtM:global(.__wab_instance) {
   position: relative;
@@ -877,7 +895,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__qkcBh:global(.__wab_instance) {
   position: relative;
@@ -902,7 +920,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg__nw7Wz {
   position: relative;
@@ -990,7 +1008,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .processBlock {
@@ -1012,7 +1030,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1100,7 +1118,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1313,7 +1331,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1333,7 +1351,7 @@
   min-height: 0;
 }
 .freeBox__nKBwa {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -1403,7 +1421,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1423,7 +1441,7 @@
   min-height: 0;
 }
 .freeBox__bGavK {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -1493,7 +1511,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1564,7 +1582,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__scZc5:global(.__wab_instance) {
   position: relative;
@@ -1589,7 +1607,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__eQnOv:global(.__wab_instance) {
   position: relative;
@@ -1614,7 +1632,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__ptZcb:global(.__wab_instance) {
   position: relative;
@@ -1639,7 +1657,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__vlISe:global(.__wab_instance) {
   position: relative;
@@ -1664,7 +1682,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .formatBlock {
   display: flex;
@@ -1685,7 +1703,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1756,7 +1774,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__lpjJ:global(.__wab_instance) {
   position: relative;
@@ -1781,7 +1799,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__cFnYq:global(.__wab_instance) {
   position: relative;
@@ -1806,7 +1824,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__yphAv:global(.__wab_instance) {
   position: relative;
@@ -1831,7 +1849,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .chipBadgeDisplay__sedp1:global(.__wab_instance) {
   position: relative;
@@ -1856,7 +1874,7 @@
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .requirementsBlock {
   display: flex;
@@ -1877,7 +1895,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -1997,7 +2015,7 @@
   font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 500;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   line-height: 1.2;
   letter-spacing: normal;
 }
@@ -2045,7 +2063,7 @@
   margin-top: 20px;
 }
 .freeBox__n9Y3U {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -2150,7 +2168,7 @@
   }
 }
 .serviceCheckoutHeader {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -2283,7 +2301,7 @@
   margin-left: 16px;
 }
 .servicePrice {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -2300,13 +2318,13 @@
   }
 }
 .serviceCurrency {
-  display: inline-block;
+  display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   width: auto;
   height: auto;
@@ -2320,13 +2338,13 @@
   }
 }
 .text__uOdZo {
-  display: inline-block;
+  display: block;
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
   width: auto;
   height: auto;
@@ -2355,7 +2373,7 @@
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: flex-start;
   position: relative;
   width: 100%;
@@ -2386,7 +2404,7 @@
   left: auto;
   top: auto;
   align-self: center;
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
   min-width: 0;
   flex-shrink: 0;
 }
@@ -2454,7 +2472,7 @@
   margin-top: 8px;
 }
 .serviceCompanyLogo {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -2749,7 +2767,7 @@
   font-weight: 600;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
   position: relative;
   width: 100%;
@@ -2791,7 +2809,7 @@
   position: relative;
 }
 .companyIsVerified4 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -2835,7 +2853,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   align-self: center;
   left: auto;
   top: auto;
@@ -2866,12 +2884,12 @@
   left: auto;
   top: auto;
   align-self: center;
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
   min-width: 0;
   flex-shrink: 0;
 }
 .serviceCheckoutButtons {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -2900,12 +2918,12 @@
   > img {
   margin-top: 10px;
 }
-.buttonPrimary__sJt3M:global(.__wab_instance) {
+.orderButton:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 414px) {
-  .buttonPrimary__sJt3M:global(.__wab_instance) {
+  .orderButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }

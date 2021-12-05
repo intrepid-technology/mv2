@@ -33,12 +33,17 @@ function PlasmicIconStripeLogo__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
           [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
           [sty.parent__size__32]: hasVariant(variants, "size", "_32")
@@ -47,7 +52,7 @@ function PlasmicIconStripeLogo__RenderFunc(props) {
         <StripeWordmarkSlatesvgIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
             [sty.svg__color_burple]: hasVariant(variants, "color", "burple"),
             [sty.svg__color_darkGrey]: hasVariant(
               variants,

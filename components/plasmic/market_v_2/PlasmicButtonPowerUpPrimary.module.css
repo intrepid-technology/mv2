@@ -8,12 +8,12 @@
   padding-left: 4px;
   padding-right: 4px;
   position: relative;
-  background: #000000;
+  background: #101010;
   border-radius: 2px;
   border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .navbarListButtonTextParent2 {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -53,5 +53,4 @@
   width: auto;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-size: 14px;
-  display: inline-block;
 }

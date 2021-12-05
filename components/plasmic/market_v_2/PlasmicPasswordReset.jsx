@@ -48,6 +48,7 @@ function PlasmicPasswordReset__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -61,7 +62,11 @@ function PlasmicPasswordReset__RenderFunc(props) {
           <div
             data-plasmic-name={"resetPassword"}
             data-plasmic-override={overrides.resetPassword}
-            className={classNames(defaultcss.all, sty.resetPassword)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.resetPassword
+            )}
           >
             <CardPasswordReset
               data-plasmic-name={"cardPasswordReset"}

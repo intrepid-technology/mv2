@@ -39,19 +39,29 @@ function PlasmicNativeSelectInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(variants, "hideLabel", "hideLabel") ? false : true) ? (
         <div
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
-          className={classNames(defaultcss.all, sty.labelWrapper, {
-            [sty.labelWrapper__hideLabel]: hasVariant(
-              variants,
-              "hideLabel",
-              "hideLabel"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.labelWrapper,
+            {
+              [sty.labelWrapper__hideLabel]: hasVariant(
+                variants,
+                "hideLabel",
+                "hideLabel"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Field Label",

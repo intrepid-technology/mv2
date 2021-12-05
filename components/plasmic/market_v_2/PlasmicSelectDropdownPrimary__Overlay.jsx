@@ -45,13 +45,18 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(variants, "relativePlacement", "bottom") ? true : false) ? (
         <div
           data-plasmic-name={"top"}
           data-plasmic-override={overrides.top}
-          className={classNames(defaultcss.all, sty.top, {
+          className={classNames(defaultcss.all, projectcss.all, sty.top, {
             [sty.top__relativePlacement_bottom]: hasVariant(
               variants,
               "relativePlacement",
@@ -64,13 +69,13 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
       <div
         data-plasmic-name={"middle"}
         data-plasmic-override={overrides.middle}
-        className={classNames(defaultcss.all, sty.middle)}
+        className={classNames(defaultcss.all, projectcss.all, sty.middle)}
       >
         {(hasVariant(variants, "relativePlacement", "right") ? true : false) ? (
           <div
             data-plasmic-name={"left"}
             data-plasmic-override={overrides.left}
-            className={classNames(defaultcss.all, sty.left, {
+            className={classNames(defaultcss.all, projectcss.all, sty.left, {
               [sty.left__relativePlacement_right]: hasVariant(
                 variants,
                 "relativePlacement",
@@ -83,7 +88,7 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
         <div
           data-plasmic-name={"main"}
           data-plasmic-override={overrides.main}
-          className={classNames(defaultcss.all, sty.main)}
+          className={classNames(defaultcss.all, projectcss.all, sty.main)}
         >
           {p.renderPlasmicSlot({
             defaultContents: null,
@@ -95,7 +100,7 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
           <div
             data-plasmic-name={"right"}
             data-plasmic-override={overrides.right}
-            className={classNames(defaultcss.all, sty.right, {
+            className={classNames(defaultcss.all, projectcss.all, sty.right, {
               [sty.right__relativePlacement_left]: hasVariant(
                 variants,
                 "relativePlacement",
@@ -110,7 +115,7 @@ function PlasmicSelectDropdownPrimary__Overlay__RenderFunc(props) {
         <div
           data-plasmic-name={"bottom"}
           data-plasmic-override={overrides.bottom}
-          className={classNames(defaultcss.all, sty.bottom, {
+          className={classNames(defaultcss.all, projectcss.all, sty.bottom, {
             [sty.bottom__relativePlacement_top]: hasVariant(
               variants,
               "relativePlacement",

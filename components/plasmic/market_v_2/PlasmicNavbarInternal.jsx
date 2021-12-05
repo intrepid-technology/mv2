@@ -20,8 +20,8 @@ import {
 import NavbarSwitch from "../../NavbarSwitch"; // plasmic-import: tmc24NnB44/component
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
-import NavbarSave from "../../NavbarSave"; // plasmic-import: -GlpTucHU-/component
-import NavbarBrief from "../../NavbarBrief"; // plasmic-import: WoHRRICUYW/component
+import NavbarAdminIcons from "../../NavbarAdminIcons"; // plasmic-import: -GlpTucHU-/component
+import NavbarNotifications from "../../NavbarNotifications"; // plasmic-import: WoHRRICUYW/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -51,12 +51,17 @@ function PlasmicNavbarInternal__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__state_loggedOut]: hasVariant(
             variants,
             "state",
@@ -73,7 +78,11 @@ function PlasmicNavbarInternal__RenderFunc(props) {
           data-plasmic-name={"sidebarHeaderClosed"}
           data-plasmic-override={overrides.sidebarHeaderClosed}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.sidebarHeaderClosed)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.sidebarHeaderClosed
+          )}
         >
           <NavbarSwitch
             data-plasmic-name={"navbarSwitch"}
@@ -106,15 +115,25 @@ function PlasmicNavbarInternal__RenderFunc(props) {
           <div
             data-plasmic-name={"searchBox"}
             data-plasmic-override={overrides.searchBox}
-            className={classNames(defaultcss.all, sty.searchBox, {
-              [sty.searchBox__search]: hasVariant(variants, "search", "search"),
-              [sty.searchBox__user_member_state_loggedOut]:
-                hasVariant(variants, "user", "member") &&
-                hasVariant(variants, "state", "loggedOut"),
-              [sty.searchBox__user_partner_state_loggedOut]:
-                hasVariant(variants, "user", "partner") &&
-                hasVariant(variants, "state", "loggedOut")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.searchBox,
+              {
+                [sty.searchBox__search]: hasVariant(
+                  variants,
+                  "search",
+                  "search"
+                ),
+
+                [sty.searchBox__user_member_state_loggedOut]:
+                  hasVariant(variants, "user", "member") &&
+                  hasVariant(variants, "state", "loggedOut"),
+                [sty.searchBox__user_partner_state_loggedOut]:
+                  hasVariant(variants, "user", "partner") &&
+                  hasVariant(variants, "state", "loggedOut")
+              }
+            )}
           >
             <SearchbarPrimary
               data-plasmic-name={"searchbarPrimary"}
@@ -145,29 +164,39 @@ function PlasmicNavbarInternal__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox__fJTxW, {
-            [sty.freeBox__user_member_state_loggedIn__fJTxWl8QpNNht4J]:
-              hasVariant(variants, "user", "member") &&
-              hasVariant(variants, "state", "loggedIn")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__fJTxW,
+            {
+              [sty.freeBox__user_member_state_loggedIn__fJTxWl8QpNNht4J]:
+                hasVariant(variants, "user", "member") &&
+                hasVariant(variants, "state", "loggedIn")
+            }
+          )}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__maSdV, {
-              [sty.freeBox__user_member__maSdVl8QpN]: hasVariant(
-                variants,
-                "user",
-                "member"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__maSdV,
+              {
+                [sty.freeBox__user_member__maSdVl8QpN]: hasVariant(
+                  variants,
+                  "user",
+                  "member"
+                ),
 
-              [sty.freeBox__user_member_state_loggedIn__maSdVl8QpNNht4J]:
-                hasVariant(variants, "user", "member") &&
-                hasVariant(variants, "state", "loggedIn"),
-              [sty.freeBox__user_member_state_loggedOut__maSdVl8QpNAbbxv]:
-                hasVariant(variants, "user", "member") &&
-                hasVariant(variants, "state", "loggedOut")
-            })}
+                [sty.freeBox__user_member_state_loggedIn__maSdVl8QpNNht4J]:
+                  hasVariant(variants, "user", "member") &&
+                  hasVariant(variants, "state", "loggedIn"),
+                [sty.freeBox__user_member_state_loggedOut__maSdVl8QpNAbbxv]:
+                  hasVariant(variants, "user", "member") &&
+                  hasVariant(variants, "state", "loggedOut")
+              }
+            )}
           >
             {(
               hasVariant(variants, "user", "partner") &&
@@ -187,32 +216,37 @@ function PlasmicNavbarInternal__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.freeBox__av6P, {
-                  [sty.freeBox__user_member__av6PL8QpN]: hasVariant(
-                    variants,
-                    "user",
-                    "member"
-                  ),
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__av6P,
+                  {
+                    [sty.freeBox__user_member__av6PL8QpN]: hasVariant(
+                      variants,
+                      "user",
+                      "member"
+                    ),
 
-                  [sty.freeBox__user_member_state_loggedIn__av6PL8QpNNht4J]:
-                    hasVariant(variants, "user", "member") &&
-                    hasVariant(variants, "state", "loggedIn"),
-                  [sty.freeBox__user_member_state_loggedOut__av6PL8QpNAbbxv]:
-                    hasVariant(variants, "user", "member") &&
-                    hasVariant(variants, "state", "loggedOut"),
-                  [sty.freeBox__user_partner__av6PKgcSn]: hasVariant(
-                    variants,
-                    "user",
-                    "partner"
-                  ),
+                    [sty.freeBox__user_member_state_loggedIn__av6PL8QpNNht4J]:
+                      hasVariant(variants, "user", "member") &&
+                      hasVariant(variants, "state", "loggedIn"),
+                    [sty.freeBox__user_member_state_loggedOut__av6PL8QpNAbbxv]:
+                      hasVariant(variants, "user", "member") &&
+                      hasVariant(variants, "state", "loggedOut"),
+                    [sty.freeBox__user_partner__av6PKgcSn]: hasVariant(
+                      variants,
+                      "user",
+                      "partner"
+                    ),
 
-                  [sty.freeBox__user_partner_state_loggedIn__av6PKgcSnNht4J]:
-                    hasVariant(variants, "user", "partner") &&
-                    hasVariant(variants, "state", "loggedIn"),
-                  [sty.freeBox__user_partner_state_loggedOut__av6PKgcSnAbbxv]:
-                    hasVariant(variants, "user", "partner") &&
-                    hasVariant(variants, "state", "loggedOut")
-                })}
+                    [sty.freeBox__user_partner_state_loggedIn__av6PKgcSnNht4J]:
+                      hasVariant(variants, "user", "partner") &&
+                      hasVariant(variants, "state", "loggedIn"),
+                    [sty.freeBox__user_partner_state_loggedOut__av6PKgcSnAbbxv]:
+                      hasVariant(variants, "user", "partner") &&
+                      hasVariant(variants, "state", "loggedOut")
+                  }
+                )}
               >
                 {(hasVariant(variants, "user", "partner") ? true : false) ? (
                   <button
@@ -220,6 +254,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                     data-plasmic-override={overrides.navbarListButton}
                     className={classNames(
                       defaultcss.button,
+                      projectcss.button,
                       sty.navbarListButton,
                       {
                         [sty.navbarListButton__user_partner]: hasVariant(
@@ -239,6 +274,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.navbarListButtonTextParent
                       )}
                     >
@@ -247,6 +283,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                         data-plasmic-override={overrides.navbarListButtonSvg}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           sty.navbarListButtonSvg
                         )}
                         role={"img"}
@@ -257,6 +294,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                         data-plasmic-override={overrides.navbarListButtonText}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.navbarListButtonText
                         )}
@@ -272,6 +310,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                     data-plasmic-override={overrides.navbarListButton22}
                     className={classNames(
                       defaultcss.button,
+                      projectcss.button,
                       sty.navbarListButton22,
                       {
                         [sty.navbarListButton22__user_member]: hasVariant(
@@ -291,13 +330,18 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                       hasGap={true}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.navbarListButtonTextParent22
                       )}
                     >
                       <BoostIcon
                         data-plasmic-name={"svg"}
                         data-plasmic-override={overrides.svg}
-                        className={classNames(defaultcss.all, sty.svg)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg
+                        )}
                         role={"img"}
                       />
 
@@ -306,6 +350,7 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                         data-plasmic-override={overrides.navbarListButtonText22}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           defaultcss.__wab_text,
                           sty.navbarListButtonText22
                         )}
@@ -332,32 +377,32 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                 ? true
                 : false
             ) ? (
-              <NavbarSave
-                data-plasmic-name={"navbarSave"}
-                data-plasmic-override={overrides.navbarSave}
-                className={classNames("__wab_instance", sty.navbarSave, {
-                  [sty.navbarSave__user_member]: hasVariant(
+              <NavbarAdminIcons
+                data-plasmic-name={"navbarAdminIcons"}
+                data-plasmic-override={overrides.navbarAdminIcons}
+                className={classNames("__wab_instance", sty.navbarAdminIcons, {
+                  [sty.navbarAdminIcons__user_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.navbarSave__user_member_state_loggedIn]:
+                  [sty.navbarAdminIcons__user_member_state_loggedIn]:
                     hasVariant(variants, "user", "member") &&
                     hasVariant(variants, "state", "loggedIn"),
-                  [sty.navbarSave__user_member_state_loggedOut]:
+                  [sty.navbarAdminIcons__user_member_state_loggedOut]:
                     hasVariant(variants, "user", "member") &&
                     hasVariant(variants, "state", "loggedOut"),
-                  [sty.navbarSave__user_partner]: hasVariant(
+                  [sty.navbarAdminIcons__user_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
                   ),
 
-                  [sty.navbarSave__user_partner_state_loggedIn]:
+                  [sty.navbarAdminIcons__user_partner_state_loggedIn]:
                     hasVariant(variants, "user", "partner") &&
                     hasVariant(variants, "state", "loggedIn"),
-                  [sty.navbarSave__user_partner_state_loggedOut]:
+                  [sty.navbarAdminIcons__user_partner_state_loggedOut]:
                     hasVariant(variants, "user", "partner") &&
                     hasVariant(variants, "state", "loggedOut")
                 })}
@@ -378,23 +423,27 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                 ? true
                 : false
             ) ? (
-              <NavbarBrief
-                data-plasmic-name={"navbarBrief"}
-                data-plasmic-override={overrides.navbarBrief}
-                className={classNames("__wab_instance", sty.navbarBrief, {
-                  [sty.navbarBrief__user_member_state_loggedIn]:
-                    hasVariant(variants, "user", "member") &&
-                    hasVariant(variants, "state", "loggedIn"),
-                  [sty.navbarBrief__user_member_state_loggedOut]:
-                    hasVariant(variants, "user", "member") &&
-                    hasVariant(variants, "state", "loggedOut"),
-                  [sty.navbarBrief__user_partner_state_loggedIn]:
-                    hasVariant(variants, "user", "partner") &&
-                    hasVariant(variants, "state", "loggedIn"),
-                  [sty.navbarBrief__user_partner_state_loggedOut]:
-                    hasVariant(variants, "user", "partner") &&
-                    hasVariant(variants, "state", "loggedOut")
-                })}
+              <NavbarNotifications
+                data-plasmic-name={"navbarNotifications"}
+                data-plasmic-override={overrides.navbarNotifications}
+                className={classNames(
+                  "__wab_instance",
+                  sty.navbarNotifications,
+                  {
+                    [sty.navbarNotifications__user_member_state_loggedIn]:
+                      hasVariant(variants, "user", "member") &&
+                      hasVariant(variants, "state", "loggedIn"),
+                    [sty.navbarNotifications__user_member_state_loggedOut]:
+                      hasVariant(variants, "user", "member") &&
+                      hasVariant(variants, "state", "loggedOut"),
+                    [sty.navbarNotifications__user_partner_state_loggedIn]:
+                      hasVariant(variants, "user", "partner") &&
+                      hasVariant(variants, "state", "loggedIn"),
+                    [sty.navbarNotifications__user_partner_state_loggedOut]:
+                      hasVariant(variants, "user", "partner") &&
+                      hasVariant(variants, "state", "loggedOut")
+                  }
+                )}
               />
             ) : null}
             {true ? (
@@ -413,13 +462,18 @@ function PlasmicNavbarInternal__RenderFunc(props) {
                     data-plasmic-name={"navUserAvatar32"}
                     data-plasmic-override={overrides.navUserAvatar32}
                     alt={""}
-                    className={classNames(defaultcss.img, sty.navUserAvatar32, {
-                      [sty.navUserAvatar32__search]: hasVariant(
-                        variants,
-                        "search",
-                        "search"
-                      )
-                    })}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.navUserAvatar32,
+                      {
+                        [sty.navUserAvatar32__search]: hasVariant(
+                          variants,
+                          "search",
+                          "search"
+                        )
+                      }
+                    )}
                     src={
                       "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
                     }
@@ -452,8 +506,8 @@ const PlasmicDescendants = {
     "navbarListButtonTextParent22",
     "svg",
     "navbarListButtonText22",
-    "navbarSave",
-    "navbarBrief",
+    "navbarAdminIcons",
+    "navbarNotifications",
     "userAvatar",
     "navUserAvatar32"
   ],
@@ -473,8 +527,8 @@ const PlasmicDescendants = {
     "navbarListButtonTextParent22",
     "svg",
     "navbarListButtonText22",
-    "navbarSave",
-    "navbarBrief",
+    "navbarAdminIcons",
+    "navbarNotifications",
     "userAvatar",
     "navUserAvatar32"
   ],
@@ -514,8 +568,8 @@ const PlasmicDescendants = {
 
   svg: ["svg"],
   navbarListButtonText22: ["navbarListButtonText22"],
-  navbarSave: ["navbarSave"],
-  navbarBrief: ["navbarBrief"],
+  navbarAdminIcons: ["navbarAdminIcons"],
+  navbarNotifications: ["navbarNotifications"],
   userAvatar: ["userAvatar", "navUserAvatar32"],
   navUserAvatar32: ["navUserAvatar32"]
 };
@@ -568,8 +622,8 @@ export const PlasmicNavbarInternal = Object.assign(
 
     svg: makeNodeComponent("svg"),
     navbarListButtonText22: makeNodeComponent("navbarListButtonText22"),
-    navbarSave: makeNodeComponent("navbarSave"),
-    navbarBrief: makeNodeComponent("navbarBrief"),
+    navbarAdminIcons: makeNodeComponent("navbarAdminIcons"),
+    navbarNotifications: makeNodeComponent("navbarNotifications"),
     userAvatar: makeNodeComponent("userAvatar"),
     navUserAvatar32: makeNodeComponent("navUserAvatar32"),
     // Metadata about props expected for PlasmicNavbarInternal

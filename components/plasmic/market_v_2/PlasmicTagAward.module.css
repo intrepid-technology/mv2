@@ -6,7 +6,7 @@
   position: relative;
   border-radius: 24px;
   padding: 2px 6px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;

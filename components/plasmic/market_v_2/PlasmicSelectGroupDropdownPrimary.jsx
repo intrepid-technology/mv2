@@ -42,14 +42,19 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__width__90]: hasVariant(variants, "width", "_90")
         })}
       >
@@ -57,17 +62,28 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
           <label
             data-plasmic-name={"labelParent"}
             data-plasmic-override={overrides.labelParent}
-            className={classNames(defaultcss.all, sty.labelParent, {
-              [sty.labelParent__description]: hasVariant(
-                variants,
-                "description",
-                "description"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.labelParent,
+              {
+                [sty.labelParent__description]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                ),
 
-              [sty.labelParent__label]: hasVariant(variants, "label", "label")
-            })}
+                [sty.labelParent__label]: hasVariant(variants, "label", "label")
+              }
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__vyC13)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__vyC13
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "Label",
                 value: args.children,
@@ -166,21 +182,32 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
           <div
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
-            className={classNames(defaultcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__description]: hasVariant(
-                variants,
-                "description",
-                "description"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.descriptionParent,
+              {
+                [sty.descriptionParent__description]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                ),
 
-              [sty.descriptionParent__label]: hasVariant(
-                variants,
-                "label",
-                "label"
-              )
-            })}
+                [sty.descriptionParent__label]: hasVariant(
+                  variants,
+                  "label",
+                  "label"
+                )
+              }
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox___9Iita)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox___9Iita
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "Description",
                 value: args.slot,

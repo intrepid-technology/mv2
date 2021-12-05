@@ -49,7 +49,12 @@ function PlasmicNavbarStatic__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(
         hasVariant(globalVariants, "screen", "iphone678")
@@ -60,7 +65,13 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : true
       ) ? (
-        <div className={classNames(defaultcss.all, sty.freeBox__gq5Ri)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__gq5Ri
+          )}
+        >
           {(
             hasVariant(globalVariants, "screen", "iphone678")
               ? true
@@ -70,7 +81,13 @@ function PlasmicNavbarStatic__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <div className={classNames(defaultcss.all, sty.freeBox__mn6Cy)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__mn6Cy
+              )}
+            >
               <LogoHeader
                 data-plasmic-name={"logoHeader"}
                 data-plasmic-override={overrides.logoHeader}
@@ -88,12 +105,18 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : true
       ) ? (
-        <div className={classNames(defaultcss.all, sty.freeBox__ejVzw)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__ejVzw
+          )}
+        >
           {true ? (
             <SectionDividerIcon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg)}
+              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
               role={"img"}
             />
           ) : null}

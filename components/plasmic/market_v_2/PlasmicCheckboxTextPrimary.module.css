@@ -39,7 +39,7 @@
   background: #f8f8f8;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #dddddd /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .freeBox__isChecked {
   background: #f0ebff;
@@ -64,12 +64,13 @@
   width: 1em;
   flex-shrink: 0;
   height: 1em;
+  display: block;
 }
 .svg__isChecked {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .svg__isIndeterminate {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root .svg_____focusVisibleWithin {
   outline: none;

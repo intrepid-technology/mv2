@@ -39,13 +39,28 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__voudh)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__voudh
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon100Icon
-              className={classNames(defaultcss.all, sty.svg__c9Med)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__c9Med
+              )}
               role={"img"}
             />
           ),
@@ -54,7 +69,13 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
         })}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__sccGa)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__sccGa
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents: "Headline for tooltip",
           value: args.slot,
@@ -62,7 +83,13 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
         })}
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__gYt9T)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__gYt9T
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",

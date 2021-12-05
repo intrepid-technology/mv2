@@ -14,7 +14,7 @@
   flex-shrink: 0;
   border-radius: 2px;
   padding: 2px;
-  border: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -33,7 +33,7 @@
   > img {
   margin-left: 4px;
 }
-.textbox {
+.textInput {
   position: relative;
   width: 100%;
   left: auto;
@@ -59,11 +59,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #000000;
+  background: #101010;
   flex-shrink: 0;
   min-height: 0;
   border-radius: 2px;
-  border: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .slotTargetButtonText {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;

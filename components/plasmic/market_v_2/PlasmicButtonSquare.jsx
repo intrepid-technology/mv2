@@ -33,17 +33,26 @@ function PlasmicButtonSquare__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.button,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox)}
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <PlusBoldIcon
-              className={classNames(defaultcss.all, sty.svg__pz40)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__pz40
+              )}
               role={"img"}
             />
           ),

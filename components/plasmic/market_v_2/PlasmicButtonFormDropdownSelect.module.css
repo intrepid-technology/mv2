@@ -96,7 +96,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
 .slotTargetHeadlineLabelTitle__size__360X40 {
@@ -123,7 +123,7 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .buttonDropDown > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -227,7 +227,7 @@
   margin-top: 0px;
 }
 .buttonDropDown__size__180X32 {
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .buttonDropDown__size__180X36 {
   height: 36px;
@@ -247,7 +247,7 @@
 .root .buttonDropDown:hover {
   left: auto;
   top: auto;
-  border: 1px solid #cccccc /* plasmic-token: oEMOojyFv */;
+  border: 1px solid #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .freeBox___3XOp {
   display: flex;
@@ -270,7 +270,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #333333 /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
 .slotTargetDropdownTitle__size__360X40 {
   line-height: 1;
@@ -304,7 +304,6 @@
 .iconParent__size__90X24 {
   width: auto;
   height: auto;
-  display: inline-flex;
   padding: 0px;
 }
 .slotTargetDropdownIcon__size__540X40 {
@@ -314,7 +313,7 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .slotTargetDropdownIcon12Pt__size__540X40 {
@@ -324,7 +323,7 @@
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   flex-shrink: 0;
 }
 .freeBox__ub9Ml {
@@ -341,7 +340,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .slotTargetChildren__size__540X40 {
   font-size: 16px;

@@ -25,29 +25,39 @@
   position: relative;
   top: auto;
   left: auto;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionMemberProfileHero:global(.__wab_instance) {
     top: auto;
     left: auto;
     position: relative;
+    display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberProfileHero:global(.__wab_instance) {
+    display: flex;
   }
 }
 .navbarMemberUserProfile:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  display: flex;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .navbarMemberUserProfile:global(.__wab_instance) {
     top: auto;
     left: auto;
     position: relative;
+    display: flex;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .navbarMemberUserProfile:global(.__wab_instance) {
     flex-shrink: 0;
+    display: flex;
   }
 }
 .sectionAboutDetails {
@@ -150,10 +160,16 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .elementProfileAbout:global(.__wab_instance) {
     flex-shrink: 0;
+    display: flex;
   }
 }
 .elementProfileMemberDetails:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .elementProfileMemberDetails:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .memberTeamConnectionsSection {
   display: flex;
@@ -412,6 +428,11 @@
     flex-shrink: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .elementProfileAttributes:global(.__wab_instance) {
+    display: flex;
+  }
+}
 .elementProfileSocial:global(.__wab_instance) {
   position: relative;
   flex-shrink: 0;
@@ -424,6 +445,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .elementProfileSocial:global(.__wab_instance) {
     flex-shrink: 0;
+    display: flex;
   }
 }
 .sectionProfileMemberSimilarMembers {
@@ -485,6 +507,7 @@
     height: auto;
     flex-direction: row;
     min-width: 0;
+    display: flex;
     padding: 16px 24px;
   }
 }
@@ -523,6 +546,11 @@
 }
 .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
+    display: flex;
+  }
 }
 .sectionProfileMemberPeopleAlsoViewed {
   display: flex;
@@ -583,6 +611,7 @@
     height: auto;
     flex-direction: row;
     min-width: 0;
+    display: flex;
     padding: 16px 24px 64px;
   }
 }
@@ -621,4 +650,9 @@
 }
 .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
   position: relative;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
+    display: flex;
+  }
 }

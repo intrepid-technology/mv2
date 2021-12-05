@@ -40,10 +40,16 @@ function PlasmicFooterB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light")
+        }
+      )}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
@@ -58,11 +64,16 @@ function PlasmicFooterB__RenderFunc(props) {
       <div
         data-plasmic-name={"addressFooter"}
         data-plasmic-override={overrides.addressFooter}
-        className={classNames(defaultcss.all, sty.addressFooter)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.addressFooter
+        )}
       >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___4TIqA,
             {
@@ -96,7 +107,7 @@ function PlasmicFooterB__RenderFunc(props) {
         data-plasmic-name={"footerLegal"}
         data-plasmic-override={overrides.footerLegal}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.footerLegal)}
+        className={classNames(defaultcss.all, projectcss.all, sty.footerLegal)}
       >
         {false ? (
           <p.Stack
@@ -104,7 +115,7 @@ function PlasmicFooterB__RenderFunc(props) {
             data-plasmic-name={"social2"}
             data-plasmic-override={overrides.social2}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.social2)}
+            className={classNames(defaultcss.all, projectcss.all, sty.social2)}
           >
             <FooterSocialLink
               className={classNames(
@@ -120,7 +131,11 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(defaultcss.all, sty.svg__xDKo)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__xDKo
+                )}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -132,7 +147,11 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(defaultcss.all, sty.svg___2HpC)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___2HpC
+                )}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -144,7 +163,11 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(defaultcss.all, sty.svg__ppPa)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__ppPa
+                )}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -156,7 +179,11 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(defaultcss.all, sty.svg__dk11L)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__dk11L
+                )}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -168,7 +195,7 @@ function PlasmicFooterB__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
@@ -226,6 +253,7 @@ function PlasmicFooterB__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__bl0Hs,
             {

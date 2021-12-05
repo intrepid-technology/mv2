@@ -42,28 +42,34 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__mobile_mobileApp]: hasVariant(
-          variants,
-          "mobile",
-          "mobileApp"
-        ),
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__mobile_mobileApp]: hasVariant(
+            variants,
+            "mobile",
+            "mobileApp"
+          ),
 
-        [sty.root__mobile_mobileEcommerce]: hasVariant(
-          variants,
-          "mobile",
-          "mobileEcommerce"
-        ),
+          [sty.root__mobile_mobileEcommerce]: hasVariant(
+            variants,
+            "mobile",
+            "mobileEcommerce"
+          ),
 
-        [sty.root__web_ecommerce]: hasVariant(variants, "web", "ecommerce"),
-        [sty.root__web_multiPage]: hasVariant(variants, "web", "multiPage")
-      })}
+          [sty.root__web_ecommerce]: hasVariant(variants, "web", "ecommerce"),
+          [sty.root__web_multiPage]: hasVariant(variants, "web", "multiPage")
+        }
+      )}
     >
       {(hasVariant(variants, "breadcrumbs", "breadcrumbs") ? false : true) ? (
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__brandDesign_logo]: hasVariant(
               variants,
               "brandDesign",

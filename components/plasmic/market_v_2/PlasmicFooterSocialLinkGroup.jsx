@@ -46,7 +46,12 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <FooterSocialLink
         data-plasmic-name={"facebook"}
@@ -68,7 +73,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://www.instagram.com/intrepid.market"}
       >
         <Icon9Icon
-          className={classNames(defaultcss.all, sty.svg__fDtqD)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__fDtqD)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -83,7 +88,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://www.linkedin.com/company/intrepidtechnology"}
       >
         <Icon10Icon
-          className={classNames(defaultcss.all, sty.svg__jwRRo)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__jwRRo)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -98,7 +103,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://twitter.com/intrepidmarket?lang=en"}
       >
         <Icon12Icon
-          className={classNames(defaultcss.all, sty.svg__dsyBp)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg__dsyBp)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -115,13 +120,18 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         }
       >
         <Icon11Icon
-          className={classNames(defaultcss.all, sty.svg__p0Gqw, {
-            [sty.svg__color_dark__p0GqwKbTz]: hasVariant(
-              variants,
-              "color",
-              "dark"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.svg__p0Gqw,
+            {
+              [sty.svg__color_dark__p0GqwKbTz]: hasVariant(
+                variants,
+                "color",
+                "dark"
+              )
+            }
+          )}
           role={"img"}
         />
       </FooterSocialLink>

@@ -50,23 +50,45 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__state_deactivated]: hasVariant(
-          variants,
-          "state",
-          "deactivated"
-        )
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__state_deactivated]: hasVariant(
+            variants,
+            "state",
+            "deactivated"
+          )
+        }
+      )}
       component={Link}
       platform={"nextjs"}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__aUrNg)}>
-        <div className={classNames(defaultcss.all, sty.freeBox___4BYjy)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__aUrNg
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___4BYjy
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: (
               <Icon56Icon
-                className={classNames(defaultcss.all, sty.svg__sjSC)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__sjSC
+                )}
                 role={"img"}
               />
             ),
@@ -98,7 +120,11 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
         svgRight={p.renderPlasmicSlot({
           defaultContents: (
             <Icon118Icon
-              className={classNames(defaultcss.all, sty.svg__g1Xr)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__g1Xr
+              )}
               role={"img"}
             />
           ),
@@ -129,9 +155,19 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
       <div
         data-plasmic-name={"accountBodyText"}
         data-plasmic-override={overrides.accountBodyText}
-        className={classNames(defaultcss.all, sty.accountBodyText)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.accountBodyText
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox___3Ewwn)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___3Ewwn
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: triggers.hover_root ? "Body text" : "Body text",
             value: args.children,

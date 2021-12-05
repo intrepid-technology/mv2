@@ -72,7 +72,7 @@
   border-color: rgb(66, 1, 159);
 }
 .slotTargetAvatarImage {
-  color: #f1f1f1 /* plasmic-token: deafmaGIp */;
+  color: #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .slotTargetAvatarImage > *,
 .slotTargetAvatarImage > .__wab_slot > *,
@@ -91,7 +91,7 @@
   transition-duration: 1s;
 }
 .avatarButtonEdit:hover .slotTargetAvatarImage {
-  color: #cccccc /* plasmic-token: oEMOojyFv */;
+  color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
 .img__gOzp {
   position: relative;
@@ -101,7 +101,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .img__gOzp > picture > img {
   object-fit: cover;

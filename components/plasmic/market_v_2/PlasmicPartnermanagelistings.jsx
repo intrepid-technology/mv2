@@ -65,6 +65,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
           hasGap={true}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -84,6 +85,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionPartnerManageListingsHeader
             )}
           >
@@ -103,6 +105,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 <div
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text__t5HAg
                   )}
@@ -124,13 +127,18 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             hasGap={true}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               sty.sectionPartnerManageListings
             )}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.freeBox__aPXdG)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__aPXdG
+              )}
             >
               <CardHeaderTitlePrimary
                 data-plasmic-name={"cardHeaderTitlePrimary"}
@@ -143,6 +151,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___675Gy
                     )}
@@ -161,6 +170,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   sty.listingManagementBlockParent
                 )}
               >
@@ -169,13 +179,18 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   data-plasmic-name={"listingTotalParent"}
                   data-plasmic-override={overrides.listingTotalParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.listingTotalParent)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.listingTotalParent
+                  )}
                 >
                   <div
                     data-plasmic-name={"listingNumberParent"}
                     data-plasmic-override={overrides.listingNumberParent}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.listingNumberParent
                     )}
                   >
@@ -184,6 +199,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                       data-plasmic-override={overrides.listingNumber}
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.listingNumber
                       )}
@@ -195,6 +211,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__rr92D
                     )}
@@ -206,7 +223,11 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.freeBox__xulmc)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__xulmc
+                  )}
                 >
                   {(
                     hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -220,6 +241,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                       }
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         sty.listingSearchFilterParent
                       )}
                     >
@@ -228,6 +250,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                         hasGap={true}
                         className={classNames(
                           defaultcss.all,
+                          projectcss.all,
                           sty.freeBox___4Lom7
                         )}
                       >
@@ -252,6 +275,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             sty.listingSearchFilterDropdownParent
                           )}
                         >
@@ -288,7 +312,11 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                           <ListingIcon
                             data-plasmic-name={"svg"}
                             data-plasmic-override={overrides.svg}
-                            className={classNames(defaultcss.all, sty.svg)}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.svg
+                            )}
                             role={"img"}
                           />
                         }
@@ -308,6 +336,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     hasGap={true}
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       sty.listingManagementTableColumnParent
                     )}
                   >

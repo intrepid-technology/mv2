@@ -38,9 +38,13 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__amount__3]: hasVariant(variants, "amount", "_3")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__amount__3]: hasVariant(variants, "amount", "_3") }
+      )}
     >
       <InputProcess
         _delete={"_delete"}

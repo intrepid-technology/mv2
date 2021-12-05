@@ -27,7 +27,7 @@
 }
 .parent__border {
   width: 720px;
-  border: 2px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .mainCard {
   display: flex;
@@ -127,7 +127,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .subheadParent {
   display: flex;
@@ -143,7 +143,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .userAvatarButton:global(.__wab_instance) {
   position: relative;
@@ -164,7 +164,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .img__lB4TS > picture > img {
   object-fit: cover;
@@ -216,5 +216,5 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: MAJ29KQMI */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }

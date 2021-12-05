@@ -40,16 +40,26 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox___8TJh3)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___8TJh3
+        )}
       >
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__jdMrM
           )}
@@ -60,6 +70,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text___4ZfZw
           )}
@@ -72,6 +83,7 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
         <div
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text__uYzUr
           )}
@@ -80,12 +92,18 @@ function PlasmicSectionPartnerSocialProof__RenderFunc(props) {
         </div>
       </p.Stack>
 
-      <div className={classNames(defaultcss.all, sty.freeBox__fTqRj)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__fTqRj
+        )}
+      >
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(defaultcss.img, sty.img)}
+          className={classNames(defaultcss.img, projectcss.img, sty.img)}
           src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
         />
       </div>

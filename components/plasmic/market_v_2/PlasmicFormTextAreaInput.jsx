@@ -39,9 +39,19 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__adornment_start]: hasVariant(variants, "adornment", "start")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__adornment_start]: hasVariant(
+            variants,
+            "adornment",
+            "start"
+          )
+        }
+      )}
     >
       <TextAreaInput
         data-plasmic-name={"textAreaInput"}

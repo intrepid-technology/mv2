@@ -16,13 +16,13 @@
   }
 }
 .root__colors_dark {
-  background: #000000;
+  background: #101010;
 }
 .root__colors_brand {
   background: #6633ff;
 }
 .freeBox {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -62,4 +62,9 @@
   position: relative;
   left: auto;
   top: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .loginMain:global(.__wab_instance) {
+    display: flex;
+  }
 }

@@ -49,7 +49,12 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -57,18 +62,19 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
         >
           <div
             data-plasmic-name={"details"}
             data-plasmic-override={overrides.details}
-            className={classNames(defaultcss.all, sty.details)}
+            className={classNames(defaultcss.all, projectcss.all, sty.details)}
           >
             <div
               data-plasmic-name={"detailsText"}
               data-plasmic-override={overrides.detailsText}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.detailsText
               )}
@@ -84,21 +90,35 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
             data-plasmic-name={"detailsParent"}
             data-plasmic-override={overrides.detailsParent}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.detailsParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.detailsParent
+            )}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"memberBadges"}
               data-plasmic-override={overrides.memberBadges}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.memberBadges)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.memberBadges
+              )}
             >
               <BadgeVerification
                 data-plasmic-name={"badgeVerification"}
                 data-plasmic-override={overrides.badgeVerification}
               />
 
-              <div className={classNames(defaultcss.all, sty.freeBox__wpQmj)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__wpQmj
+                )}
+              >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
@@ -110,7 +130,13 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 ) : null}
               </div>
 
-              <div className={classNames(defaultcss.all, sty.freeBox__yoDnP)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__yoDnP
+                )}
+              >
                 <RatingDisplayDetail
                   data-plasmic-name={"ratingDisplayDetail"}
                   data-plasmic-override={overrides.ratingDisplayDetail}
@@ -138,7 +164,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-name={"primaryCompanyName"}
                 data-plasmic-override={overrides.primaryCompanyName}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.primaryCompanyName)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.primaryCompanyName
+                )}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
@@ -153,7 +183,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon3"}
                         data-plasmic-override={overrides.svgIcon3}
-                        className={classNames(defaultcss.all, sty.svgIcon3)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon3
+                        )}
                         role={"img"}
                       />
                     }
@@ -161,7 +195,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon12"}
                         data-plasmic-override={overrides.svgIcon12}
-                        className={classNames(defaultcss.all, sty.svgIcon12)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon12
+                        )}
                         role={"img"}
                       />
                     }
@@ -174,7 +212,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                             ? OfficeWorkIcon
                             : OfficeWorkIcon
                         }
-                        className={classNames(defaultcss.all, sty.svgIcon22)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon22
+                        )}
                         role={"img"}
                       />
                     }
@@ -182,7 +224,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon13"}
                         data-plasmic-override={overrides.svgIcon13}
-                        className={classNames(defaultcss.all, sty.svgIcon13)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon13
+                        )}
                         role={"img"}
                       />
                     }
@@ -190,7 +236,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon14"}
                         data-plasmic-override={overrides.svgIcon14}
-                        className={classNames(defaultcss.all, sty.svgIcon14)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon14
+                        )}
                         role={"img"}
                       />
                     }
@@ -198,7 +248,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon15"}
                         data-plasmic-override={overrides.svgIcon15}
-                        className={classNames(defaultcss.all, sty.svgIcon15)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon15
+                        )}
                         role={"img"}
                       />
                     }
@@ -206,7 +260,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon19"}
                         data-plasmic-override={overrides.svgIcon19}
-                        className={classNames(defaultcss.all, sty.svgIcon19)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon19
+                        )}
                         role={"img"}
                       />
                     }
@@ -214,7 +272,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon16"}
                         data-plasmic-override={overrides.svgIcon16}
-                        className={classNames(defaultcss.all, sty.svgIcon16)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon16
+                        )}
                         role={"img"}
                       />
                     }
@@ -222,7 +284,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon17"}
                         data-plasmic-override={overrides.svgIcon17}
-                        className={classNames(defaultcss.all, sty.svgIcon17)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon17
+                        )}
                         role={"img"}
                       />
                     }
@@ -230,7 +296,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon18"}
                         data-plasmic-override={overrides.svgIcon18}
-                        className={classNames(defaultcss.all, sty.svgIcon18)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon18
+                        )}
                         role={"img"}
                       />
                     }
@@ -242,6 +312,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   data-plasmic-override={overrides.userPrimaryCompanyName1}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.userPrimaryCompanyName1
                   )}
@@ -256,7 +327,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-name={"companyparent3"}
                 data-plasmic-override={overrides.companyparent3}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.companyparent3)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.companyparent3
+                )}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
@@ -271,7 +346,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon24"}
                         data-plasmic-override={overrides.svgIcon24}
-                        className={classNames(defaultcss.all, sty.svgIcon24)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon24
+                        )}
                         role={"img"}
                       />
                     }
@@ -279,7 +358,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon25"}
                         data-plasmic-override={overrides.svgIcon25}
-                        className={classNames(defaultcss.all, sty.svgIcon25)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon25
+                        )}
                         role={"img"}
                       />
                     }
@@ -292,7 +375,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                             ? BriefOrdersIcon
                             : BriefOrdersIcon
                         }
-                        className={classNames(defaultcss.all, sty.svgIcon23)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon23
+                        )}
                         role={"img"}
                       />
                     }
@@ -300,7 +387,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon26"}
                         data-plasmic-override={overrides.svgIcon26}
-                        className={classNames(defaultcss.all, sty.svgIcon26)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon26
+                        )}
                         role={"img"}
                       />
                     }
@@ -308,7 +399,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon27"}
                         data-plasmic-override={overrides.svgIcon27}
-                        className={classNames(defaultcss.all, sty.svgIcon27)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon27
+                        )}
                         role={"img"}
                       />
                     }
@@ -316,7 +411,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon28"}
                         data-plasmic-override={overrides.svgIcon28}
-                        className={classNames(defaultcss.all, sty.svgIcon28)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon28
+                        )}
                         role={"img"}
                       />
                     }
@@ -324,7 +423,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon32"}
                         data-plasmic-override={overrides.svgIcon32}
-                        className={classNames(defaultcss.all, sty.svgIcon32)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon32
+                        )}
                         role={"img"}
                       />
                     }
@@ -332,7 +435,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon29"}
                         data-plasmic-override={overrides.svgIcon29}
-                        className={classNames(defaultcss.all, sty.svgIcon29)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon29
+                        )}
                         role={"img"}
                       />
                     }
@@ -340,7 +447,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon30"}
                         data-plasmic-override={overrides.svgIcon30}
-                        className={classNames(defaultcss.all, sty.svgIcon30)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon30
+                        )}
                         role={"img"}
                       />
                     }
@@ -348,7 +459,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                       <Icon171Icon
                         data-plasmic-name={"svgIcon31"}
                         data-plasmic-override={overrides.svgIcon31}
-                        className={classNames(defaultcss.all, sty.svgIcon31)}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svgIcon31
+                        )}
                         role={"img"}
                       />
                     }
@@ -360,6 +475,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   data-plasmic-override={overrides.userPrimaryCompanyName2}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.userPrimaryCompanyName2
                   )}
@@ -376,7 +492,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
               data-plasmic-name={"languagesAb"}
               data-plasmic-override={overrides.languagesAb}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.languagesAb)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.languagesAb
+              )}
             >
               <IconPrimary
                 className={classNames("__wab_instance", sty.iconPrimary__tMw5P)}
@@ -385,7 +505,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon33"}
                     data-plasmic-override={overrides.svgIcon33}
-                    className={classNames(defaultcss.all, sty.svgIcon33)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon33
+                    )}
                     role={"img"}
                   />
                 }
@@ -393,7 +517,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon34"}
                     data-plasmic-override={overrides.svgIcon34}
-                    className={classNames(defaultcss.all, sty.svgIcon34)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon34
+                    )}
                     role={"img"}
                   />
                 }
@@ -401,7 +529,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <LanguagesIcon
                     data-plasmic-name={"svgIcon21"}
                     data-plasmic-override={overrides.svgIcon21}
-                    className={classNames(defaultcss.all, sty.svgIcon21)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon21
+                    )}
                     role={"img"}
                   />
                 }
@@ -409,7 +541,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon35"}
                     data-plasmic-override={overrides.svgIcon35}
-                    className={classNames(defaultcss.all, sty.svgIcon35)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon35
+                    )}
                     role={"img"}
                   />
                 }
@@ -417,7 +553,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon36"}
                     data-plasmic-override={overrides.svgIcon36}
-                    className={classNames(defaultcss.all, sty.svgIcon36)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon36
+                    )}
                     role={"img"}
                   />
                 }
@@ -425,7 +565,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon37"}
                     data-plasmic-override={overrides.svgIcon37}
-                    className={classNames(defaultcss.all, sty.svgIcon37)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon37
+                    )}
                     role={"img"}
                   />
                 }
@@ -433,7 +577,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon41"}
                     data-plasmic-override={overrides.svgIcon41}
-                    className={classNames(defaultcss.all, sty.svgIcon41)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon41
+                    )}
                     role={"img"}
                   />
                 }
@@ -441,7 +589,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon38"}
                     data-plasmic-override={overrides.svgIcon38}
-                    className={classNames(defaultcss.all, sty.svgIcon38)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon38
+                    )}
                     role={"img"}
                   />
                 }
@@ -449,7 +601,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon39"}
                     data-plasmic-override={overrides.svgIcon39}
-                    className={classNames(defaultcss.all, sty.svgIcon39)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon39
+                    )}
                     role={"img"}
                   />
                 }
@@ -457,7 +613,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon40"}
                     data-plasmic-override={overrides.svgIcon40}
-                    className={classNames(defaultcss.all, sty.svgIcon40)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon40
+                    )}
                     role={"img"}
                   />
                 }
@@ -468,16 +628,25 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-name={"languageParent"}
                 data-plasmic-override={overrides.languageParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.languageParent)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.languageParent
+                )}
               >
                 <div
                   data-plasmic-name={"languageA"}
                   data-plasmic-override={overrides.languageA}
-                  className={classNames(defaultcss.all, sty.languageA)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.languageA
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__zJxej
                     )}
@@ -489,11 +658,16 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 <div
                   data-plasmic-name={"languageB"}
                   data-plasmic-override={overrides.languageB}
-                  className={classNames(defaultcss.all, sty.languageB)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.languageB
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__vPsIx
                     )}
@@ -509,7 +683,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
               data-plasmic-name={"locationCityCountry"}
               data-plasmic-override={overrides.locationCityCountry}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.locationCityCountry)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.locationCityCountry
+              )}
             >
               <IconPrimary
                 className={classNames("__wab_instance", sty.iconPrimary__aZcKu)}
@@ -518,7 +696,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon42"}
                     data-plasmic-override={overrides.svgIcon42}
-                    className={classNames(defaultcss.all, sty.svgIcon42)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon42
+                    )}
                     role={"img"}
                   />
                 }
@@ -526,7 +708,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon43"}
                     data-plasmic-override={overrides.svgIcon43}
-                    className={classNames(defaultcss.all, sty.svgIcon43)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon43
+                    )}
                     role={"img"}
                   />
                 }
@@ -539,7 +725,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                         ? LocationIcon
                         : LocationIcon
                     }
-                    className={classNames(defaultcss.all, sty.svgIcon11)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon11
+                    )}
                     role={"img"}
                   />
                 }
@@ -547,7 +737,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon44"}
                     data-plasmic-override={overrides.svgIcon44}
-                    className={classNames(defaultcss.all, sty.svgIcon44)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon44
+                    )}
                     role={"img"}
                   />
                 }
@@ -555,7 +749,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon45"}
                     data-plasmic-override={overrides.svgIcon45}
-                    className={classNames(defaultcss.all, sty.svgIcon45)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon45
+                    )}
                     role={"img"}
                   />
                 }
@@ -563,7 +761,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon46"}
                     data-plasmic-override={overrides.svgIcon46}
-                    className={classNames(defaultcss.all, sty.svgIcon46)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon46
+                    )}
                     role={"img"}
                   />
                 }
@@ -571,7 +773,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon50"}
                     data-plasmic-override={overrides.svgIcon50}
-                    className={classNames(defaultcss.all, sty.svgIcon50)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon50
+                    )}
                     role={"img"}
                   />
                 }
@@ -579,7 +785,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon47"}
                     data-plasmic-override={overrides.svgIcon47}
-                    className={classNames(defaultcss.all, sty.svgIcon47)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon47
+                    )}
                     role={"img"}
                   />
                 }
@@ -587,7 +797,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon48"}
                     data-plasmic-override={overrides.svgIcon48}
-                    className={classNames(defaultcss.all, sty.svgIcon48)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon48
+                    )}
                     role={"img"}
                   />
                 }
@@ -595,7 +809,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <Icon171Icon
                     data-plasmic-name={"svgIcon49"}
                     data-plasmic-override={overrides.svgIcon49}
-                    className={classNames(defaultcss.all, sty.svgIcon49)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon49
+                    )}
                     role={"img"}
                   />
                 }
@@ -606,16 +824,25 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-name={"location2"}
                 data-plasmic-override={overrides.location2}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.location2)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.location2
+                )}
               >
                 <div
                   data-plasmic-name={"cityText2"}
                   data-plasmic-override={overrides.cityText2}
-                  className={classNames(defaultcss.all, sty.cityText2)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.cityText2
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__rovGm
                     )}
@@ -626,6 +853,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__h9Ew
                     )}
@@ -637,11 +865,16 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 <div
                   data-plasmic-name={"countryText"}
                   data-plasmic-override={overrides.countryText}
-                  className={classNames(defaultcss.all, sty.countryText)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.countryText
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__rAn6N
                     )}
@@ -659,6 +892,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
               hasGap={true}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 sty.membershipDateTimestamp
               )}
             >
@@ -669,7 +903,11 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   <UserIdIcon
                     data-plasmic-name={"svgIcon20"}
                     data-plasmic-override={overrides.svgIcon20}
-                    className={classNames(defaultcss.all, sty.svgIcon20)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.svgIcon20
+                    )}
                     role={"img"}
                   />
                 }
@@ -680,16 +918,25 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                 data-plasmic-name={"membershipParent"}
                 data-plasmic-override={overrides.membershipParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.membershipParent)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.membershipParent
+                )}
               >
                 <div
                   data-plasmic-name={"memberTextLabel"}
                   data-plasmic-override={overrides.memberTextLabel}
-                  className={classNames(defaultcss.all, sty.memberTextLabel)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.memberTextLabel
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text__zQj11
                     )}
@@ -703,12 +950,14 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   data-plasmic-override={overrides.dateTimestampParent}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     sty.dateTimestampParent
                   )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
+                      projectcss.all,
                       defaultcss.__wab_text,
                       sty.text___3O7Bo
                     )}

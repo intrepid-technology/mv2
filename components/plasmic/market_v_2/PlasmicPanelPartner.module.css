@@ -1,13 +1,13 @@
 .root {
   display: flex;
   flex-direction: column;
-  width: 270px;
+  width: 360px;
   height: 100%;
   position: relative;
   background: #ffffff;
   min-height: 0;
   padding: 0px 8px 8px;
-  border-right: 1px solid #f1f1f1 /* plasmic-token: deafmaGIp */;
+  border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -82,14 +82,6 @@
   margin-top: 16px;
 }
 .partnerButtonHeader:global(.__wab_instance) {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-.partnerCommunityScores:global(.__wab_instance) {
-  position: relative;
-}
-.partnerListingScores:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;

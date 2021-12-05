@@ -36,14 +36,23 @@ function PlasmicArrayInputFields__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"itemContainer"}
         data-plasmic-override={overrides.itemContainer}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.itemContainer)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.itemContainer
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -89,17 +98,25 @@ function PlasmicArrayInputFields__RenderFunc(props) {
       <div
         data-plasmic-name={"actionsContainer"}
         data-plasmic-override={overrides.actionsContainer}
-        className={classNames(defaultcss.all, sty.actionsContainer)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.actionsContainer
+        )}
       >
         <div
           data-plasmic-name={"addActionWrapper"}
           data-plasmic-override={overrides.addActionWrapper}
-          className={classNames(defaultcss.all, sty.addActionWrapper)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.addActionWrapper
+          )}
         >
           <Icon107Icon
             data-plasmic-name={"addIcon"}
             data-plasmic-override={overrides.addIcon}
-            className={classNames(defaultcss.all, sty.addIcon)}
+            className={classNames(defaultcss.all, projectcss.all, sty.addIcon)}
             role={"img"}
           />
         </div>

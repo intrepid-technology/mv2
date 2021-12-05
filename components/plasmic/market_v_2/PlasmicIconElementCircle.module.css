@@ -1,0 +1,39 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #f0f1f3;
+  position: relative;
+  border-radius: 50%;
+  padding: 8px;
+}
+.root__color_brand {
+  background: #f0ebff;
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: #e0e2e7;
+  border-radius: 50%;
+  padding: 4px;
+}
+.freeBox__color_brand {
+  background: #e0d6ff;
+}
+.svg__lMJhj {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  flex-shrink: 0;
+}

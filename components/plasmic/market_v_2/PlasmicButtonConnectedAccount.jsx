@@ -49,6 +49,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.root,
         {
@@ -102,50 +103,59 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
         data-plasmic-name={"iconTextParent"}
         data-plasmic-override={overrides.iconTextParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.iconTextParent, {
-          [sty.iconTextParent__width__120]: hasVariant(
-            variants,
-            "width",
-            "_120"
-          ),
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.iconTextParent,
+          {
+            [sty.iconTextParent__width__120]: hasVariant(
+              variants,
+              "width",
+              "_120"
+            ),
 
-          [sty.iconTextParent__width__140]: hasVariant(
-            variants,
-            "width",
-            "_140"
-          ),
+            [sty.iconTextParent__width__140]: hasVariant(
+              variants,
+              "width",
+              "_140"
+            ),
 
-          [sty.iconTextParent__width__160]: hasVariant(
-            variants,
-            "width",
-            "_160"
-          ),
+            [sty.iconTextParent__width__160]: hasVariant(
+              variants,
+              "width",
+              "_160"
+            ),
 
-          [sty.iconTextParent__width__180]: hasVariant(
-            variants,
-            "width",
-            "_180"
-          ),
+            [sty.iconTextParent__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
 
-          [sty.iconTextParent__width__270]: hasVariant(
-            variants,
-            "width",
-            "_270"
-          ),
+            [sty.iconTextParent__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
 
-          [sty.iconTextParent__width__360]: hasVariant(
-            variants,
-            "width",
-            "_360"
-          ),
+            [sty.iconTextParent__width__360]: hasVariant(
+              variants,
+              "width",
+              "_360"
+            ),
 
-          [sty.iconTextParent__width__90]: hasVariant(variants, "width", "_90")
-        })}
+            [sty.iconTextParent__width__90]: hasVariant(
+              variants,
+              "width",
+              "_90"
+            )
+          }
+        )}
       >
         <div
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
-          className={classNames(defaultcss.all, sty.svgParent, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
             [sty.svgParent__width__120]: hasVariant(variants, "width", "_120"),
             [sty.svgParent__width__140]: hasVariant(variants, "width", "_140"),
             [sty.svgParent__width__160]: hasVariant(variants, "width", "_160"),
@@ -158,7 +168,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
           <div
             data-plasmic-name={"svgBg"}
             data-plasmic-override={overrides.svgBg}
-            className={classNames(defaultcss.all, sty.svgBg, {
+            className={classNames(defaultcss.all, projectcss.all, sty.svgBg, {
               [sty.svgBg__width__360]: hasVariant(variants, "width", "_360"),
               [sty.svgBg__width__90]: hasVariant(variants, "width", "_90")
             })}
@@ -181,7 +191,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                   ? FacebookSquareFillIcon
                   : PlusBoldIcon
               }
-              className={classNames(defaultcss.all, sty.svg, {
+              className={classNames(defaultcss.all, projectcss.all, sty.svg, {
                 [sty.svg__company_facebook]: hasVariant(
                   variants,
                   "company",
@@ -229,7 +239,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__company_facebook]: hasVariant(
               variants,
               "company",
@@ -275,6 +285,7 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text,
               {

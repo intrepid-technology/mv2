@@ -37,17 +37,26 @@ function PlasmicBlockLeftA__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent
+      )}
     >
       <div
         data-plasmic-name={"iconElementParent"}
         data-plasmic-override={overrides.iconElementParent}
-        className={classNames(defaultcss.all, sty.iconElementParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.iconElementParent
+        )}
       >
         <div
           data-plasmic-name={"iconBg"}
           data-plasmic-override={overrides.iconBg}
-          className={classNames(defaultcss.all, sty.iconBg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.iconBg)}
         >
           <IconPrimary
             data-plasmic-name={"iconPrimary"}
@@ -57,7 +66,11 @@ function PlasmicBlockLeftA__RenderFunc(props) {
               <Icon171Icon
                 data-plasmic-name={"svgIcon9"}
                 data-plasmic-override={overrides.svgIcon9}
-                className={classNames(defaultcss.all, sty.svgIcon9)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svgIcon9
+                )}
                 role={"img"}
               />
             }
@@ -70,18 +83,27 @@ function PlasmicBlockLeftA__RenderFunc(props) {
         data-plasmic-name={"headlineSubheadParent"}
         data-plasmic-override={overrides.headlineSubheadParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.headlineSubheadParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.headlineSubheadParent
+        )}
       >
         <div
           data-plasmic-name={"headlineparent"}
           data-plasmic-override={overrides.headlineparent}
-          className={classNames(defaultcss.all, sty.headlineparent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headlineparent
+          )}
         >
           <div
             data-plasmic-name={"headlineText"}
             data-plasmic-override={overrides.headlineText}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.headlineText
             )}
@@ -93,13 +115,18 @@ function PlasmicBlockLeftA__RenderFunc(props) {
         <div
           data-plasmic-name={"subheadTextParent"}
           data-plasmic-override={overrides.subheadTextParent}
-          className={classNames(defaultcss.all, sty.subheadTextParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.subheadTextParent
+          )}
         >
           <div
             data-plasmic-name={"subheadText"}
             data-plasmic-override={overrides.subheadText}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.subheadText
             )}
@@ -112,13 +139,18 @@ function PlasmicBlockLeftA__RenderFunc(props) {
       <div
         data-plasmic-name={"bodyTextParent"}
         data-plasmic-override={overrides.bodyTextParent}
-        className={classNames(defaultcss.all, sty.bodyTextParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.bodyTextParent
+        )}
       >
         <div
           data-plasmic-name={"bodyText"}
           data-plasmic-override={overrides.bodyText}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.bodyText
           )}
@@ -130,7 +162,7 @@ function PlasmicBlockLeftA__RenderFunc(props) {
       <div
         data-plasmic-name={"buttonParent"}
         data-plasmic-override={overrides.buttonParent}
-        className={classNames(defaultcss.all, sty.buttonParent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.buttonParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: <ButtonPrimary size={"_360"} />,

@@ -5,7 +5,7 @@
   height: auto;
   position: relative;
   max-width: 540px;
-  min-width: 90px;
+  min-width: 64px;
   background: #ffffff;
   padding: 2px 2px 2px 6px;
 }
@@ -33,7 +33,7 @@
   background: #ffffff;
 }
 .textParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
 }
@@ -42,7 +42,7 @@
   line-height: 1.5;
 }
 .slotTargetText__disabled {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .slotTargetText__size__14Px {
   font-size: 14px;
@@ -51,8 +51,8 @@
   font-size: 16px;
 }
 .menuItemLink:hover .slotTargetText {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .menuItemLink__disabled:hover .slotTargetText__disabled {
-  color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }

@@ -32,14 +32,18 @@ function PlasmicProgressBar__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__progress__100]: hasVariant(variants, "progress", "_100")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__progress__100]: hasVariant(variants, "progress", "_100") }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, sty.freeBox, {
+        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
           [sty.freeBox__progress__100]: hasVariant(
             variants,
             "progress",

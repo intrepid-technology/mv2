@@ -6,10 +6,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: #000000;
+  background: #101010;
   cursor: pointer;
   border-radius: 0px;
-  border: 2px none #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .buttonPrimary__color_success {
   background: #00ccbb;
@@ -55,7 +55,7 @@
 .buttonPrimary__type_secondary {
   background: #ffffff;
   border-style: solid;
-  border-color: #dddddd /* plasmic-token: TctF8-gJH */;
+  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
 .buttonPrimary__size__270 {
   width: 270px;
@@ -75,8 +75,8 @@
   background: #00ccbb;
 }
 .buttonPrimary__state_disabled {
-  background: #dddddd;
-  border-color: #dddddd /* plasmic-token: i5T_lGWIG */;
+  background: #3d4350;
+  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .buttonPrimary__rounded {
   border-radius: 8px;
@@ -90,17 +90,17 @@
 }
 .buttonPrimary__type_ghost {
   background: #f8f8ff;
-  border: 2px none #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 2px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .buttonPrimary__type_light {
   background: #ffffff;
   border-style: solid;
-  border-color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .buttonPrimary__type_dark {
-  background: #333333;
+  background: #14161b;
   border-style: solid;
-  border-color: #e4e4e4 /* plasmic-token: t2DPA2Clx */;
+  border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .buttonPrimary__color_brand {
   background: #6633ff;
@@ -243,8 +243,8 @@
   border-color: #ebadff /* plasmic-token: 94Qi9YtP6 */;
 }
 .buttonPrimary__type_primary_state_disabled {
-  background: #333333;
-  border-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  background: #14161b;
+  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_link_state_error {
   background: none;
@@ -273,15 +273,18 @@
 .buttonPrimary__hasShadow_color_brand {
   filter: drop-shadow(10px 30px 10px #6633ff1a);
 }
+.buttonPrimary__color_brand_size__360_rounded {
+  background: #5229cc;
+}
 .buttonPrimary:hover {
   background: #ffffff;
-  border: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .buttonPrimary__type_secondary:hover {
-  border-color: #333333 /* plasmic-token: _aCbIOo4N */;
+  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .buttonPrimary__type_outline:hover {
-  background: #000000;
+  background: #101010;
 }
 .buttonPrimary__type_link:hover {
   background: none;
@@ -290,13 +293,13 @@
 .buttonPrimary__type_ghost:hover {
   background: #f8f8f8;
   border-style: none;
-  border-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_light:hover {
-  border-color: #333333 /* plasmic-token: F4gy0u3aB */;
+  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_dark:hover {
-  background: #000000;
+  background: #101010;
   border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .buttonPrimary__color_brand:hover {
@@ -319,7 +322,7 @@
 }
 .buttonPrimary__type_ghost_color_brand:hover {
   background: #e0d6ff;
-  border-color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .buttonPrimary__type_secondary_color_alert:hover {
   border-color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
@@ -406,7 +409,6 @@
 .iconTextParent__type_icon {
   height: auto;
   width: auto;
-  display: inline-flex;
 }
 .iconTextParent__type_icon > :global(.__wab_flex-container) {
   justify-content: center;
@@ -514,7 +516,7 @@
   display: flex;
 }
 .buttonPrimary__type_icon:hover .slotTargetSvgIcon__type_icon {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .svg__kdTyw {
   width: 100%;
@@ -540,16 +542,16 @@
   font-size: 16px;
 }
 .slotTargetChildren__type_secondary {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__state_disabled {
   color: #f8f8ff /* plasmic-token: ABHLsGb8o */;
 }
 .slotTargetChildren__type_outline {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .slotTargetChildren__type_link {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__type_link > .__wab_text,
 .slotTargetChildren__type_link > .__wab_slot-string-wrapper,
@@ -573,13 +575,13 @@
   text-decoration-line: underline;
 }
 .slotTargetChildren__type_ghost {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__type_light {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .slotTargetChildren__type_dark {
-  color: #ebebeb /* plasmic-token: -59aep1Mm */;
+  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetChildren__type_secondary_color_brand {
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
@@ -687,7 +689,7 @@
   color: #e085ff /* plasmic-token: Xgpxrh1N1 */;
 }
 .slotTargetChildren__type_primary_state_disabled {
-  color: #cccccc /* plasmic-token: R5fCYkZee */;
+  color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
 .slotTargetChildren__type_link_state_error {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
@@ -708,16 +710,16 @@
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
 .buttonPrimary:hover .slotTargetChildren {
-  color: #000000 /* plasmic-token: 7-Hl8dlot */;
+  color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .buttonPrimary__type_outline:hover .slotTargetChildren__type_outline {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
 .buttonPrimary__type_ghost:hover .slotTargetChildren__type_ghost {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_light:hover .slotTargetChildren__type_light {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_dark:hover .slotTargetChildren__type_dark {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;

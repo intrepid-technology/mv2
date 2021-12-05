@@ -34,19 +34,34 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size_small]: hasVariant(variants, "size", "small")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__size_small]: hasVariant(variants, "size", "small") }
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox___5Hp8)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___5Hp8
+        )}
+      >
         <div
-          className={classNames(defaultcss.all, sty.freeBox__qfYAs, {
-            [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
-              variants,
-              "size",
-              "small"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__qfYAs,
+            {
+              [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
+                variants,
+                "size",
+                "small"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Service Feature",
@@ -63,18 +78,27 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(defaultcss.all, sty.freeBox___99Rg, {
-          [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
-            variants,
-            "size",
-            "small"
-          )
-        })}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___99Rg,
+          {
+            [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
+              variants,
+              "size",
+              "small"
+            )
+          }
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon111Icon
-              className={classNames(defaultcss.all, sty.svg__a9Ot1)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__a9Ot1
+              )}
               role={"img"}
             />
           ),

@@ -37,21 +37,31 @@ function PlasmicMultiSelectOption__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__isDisabled]: hasVariant(
+            variants,
+            "isDisabled",
+            "isDisabled"
+          ),
 
-        [sty.root__isHighlighted]: hasVariant(
-          variants,
-          "isHighlighted",
-          "isHighlighted"
-        ),
+          [sty.root__isHighlighted]: hasVariant(
+            variants,
+            "isHighlighted",
+            "isHighlighted"
+          ),
 
-        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
-      })}
+          [sty.root__isSelected]: hasVariant(
+            variants,
+            "isSelected",
+            "isSelected"
+          )
+        }
+      )}
     >
       {p.renderPlasmicSlot({
         defaultContents: "Option",

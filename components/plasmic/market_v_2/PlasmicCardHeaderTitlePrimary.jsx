@@ -37,14 +37,25 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <h5
         data-plasmic-name={"headlineLabel"}
         data-plasmic-override={overrides.headlineLabel}
-        className={classNames(defaultcss.h5, sty.headlineLabel)}
+        className={classNames(defaultcss.h5, projectcss.h5, sty.headlineLabel)}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__xnfZf)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__xnfZf
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Headline Title",
             value: args.children,
@@ -56,9 +67,15 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
       <div
         data-plasmic-name={"subhead"}
         data-plasmic-override={overrides.subhead}
-        className={classNames(defaultcss.all, sty.subhead)}
+        className={classNames(defaultcss.all, projectcss.all, sty.subhead)}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__jIxRh)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__jIxRh
+          )}
+        >
           {p.renderPlasmicSlot({
             defaultContents: "Subhead",
             value: args.slot,

@@ -7,7 +7,7 @@
   background: #ffffff;
   min-width: 0;
   padding: 0px 8px;
-  border-bottom: 1px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -43,7 +43,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   text-transform: uppercase;
 }
 .elementNumberValueIntervalTermParent {
@@ -110,7 +110,7 @@
 }
 .freeBox__gOClv {
   width: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   padding: 0px;
 }
@@ -125,11 +125,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__m0Ufj {
   width: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   background: #ffffff;
   padding: 0px;
@@ -145,11 +145,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox___2DAj1 {
   width: auto;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   align-self: flex-start;
   padding: 0px;
@@ -165,7 +165,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.8;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .descriptionTextParent {
   position: relative;
@@ -183,5 +183,5 @@
 .slotTargetSlot {
   font-size: 14px;
   line-height: 1.4;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }

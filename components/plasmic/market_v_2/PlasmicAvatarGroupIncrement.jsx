@@ -35,25 +35,38 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent)}
+        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
       >
         <div
           data-plasmic-name={"avatarParent"}
           data-plasmic-override={overrides.avatarParent}
-          className={classNames(defaultcss.all, sty.avatarParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.avatarParent
+          )}
         >
           <UserAvatar
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img___6MgzQ)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img___6MgzQ
+                )}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -65,7 +78,11 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img__wdIxV)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img__wdIxV
+                )}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -77,7 +94,11 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(defaultcss.img, sty.img__dqrFq)}
+                className={classNames(
+                  defaultcss.img,
+                  projectcss.img,
+                  sty.img__dqrFq
+                )}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }
@@ -92,13 +113,18 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           data-plasmic-name={"additionalMembers"}
           data-plasmic-override={overrides.additionalMembers}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.additionalMembers)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.additionalMembers
+          )}
         >
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text
             )}
@@ -109,12 +135,20 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           <div
             data-plasmic-name={"numberParent"}
             data-plasmic-override={overrides.numberParent}
-            className={classNames(defaultcss.all, sty.numberParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.numberParent
+            )}
           >
             <div
               data-plasmic-name={"freeBox"}
               data-plasmic-override={overrides.freeBox}
-              className={classNames(defaultcss.all, sty.freeBox)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "#####",

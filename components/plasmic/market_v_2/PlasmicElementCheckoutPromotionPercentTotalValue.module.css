@@ -8,7 +8,7 @@
   position: relative;
 }
 .freeBox__rvDg {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -35,7 +35,7 @@
   margin-left: 20px;
 }
 .promotionTitleTextParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
 }
@@ -44,7 +44,7 @@
   text-align: left;
 }
 .promotionFactorPercentNumberParent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: 100%;
@@ -91,7 +91,7 @@
   text-align: left;
 }
 .promotionCurrencyTotalValueDiscountNumber {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -132,7 +132,7 @@
   font-weight: 700;
 }
 .promotionCurrencyParent {
-  display: inline-flex;
+  display: flex;
   position: relative;
   width: auto;
   height: auto;
@@ -157,5 +157,4 @@
   width: auto;
   height: auto;
   font-weight: 700;
-  display: inline-block;
 }

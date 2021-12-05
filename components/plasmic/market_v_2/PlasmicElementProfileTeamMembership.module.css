@@ -68,7 +68,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -79,7 +79,7 @@
     font-weight: 500;
     letter-spacing: normal;
     line-height: 1.2;
-    color: #000000 /* plasmic-token: 6OoG_pvkg */;
+    color: #101010 /* plasmic-token: 6OoG_pvkg */;
     align-self: stretch;
   }
 }
@@ -144,7 +144,7 @@
   margin-left: 48px;
 }
 .freeBox__oJ4Wb {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -413,7 +413,7 @@
   margin-left: 48px;
 }
 .freeBox__ld279 {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;
@@ -682,7 +682,7 @@
   margin-left: 48px;
 }
 .freeBox__za13C {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: row;
   width: auto;

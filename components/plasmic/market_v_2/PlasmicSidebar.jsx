@@ -17,9 +17,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import PanelMemberHeaderButtonSettings from "../../PanelMemberHeaderButtonSettings"; // plasmic-import: io5-1sj1-O9/component
-import PanelPartnerHeaderButtonSettings from "../../PanelPartnerHeaderButtonSettings"; // plasmic-import: AS7ILA_RiJ/component
-import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
+import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import PanelMember from "../../PanelMember"; // plasmic-import: ouYaxX0ZfJN/component
 import PanelPartner from "../../PanelPartner"; // plasmic-import: 0x12FzmUo9P/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
@@ -51,26 +49,32 @@ function PlasmicSidebar__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__global_layout_isSellerView]: hasVariant(
-          globalVariants,
-          "layout",
-          "isSellerView"
-        ),
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__global_layout_isSellerView]: hasVariant(
+            globalVariants,
+            "layout",
+            "isSellerView"
+          ),
 
-        [sty.root__global_layout_sidebarOpen]: hasVariant(
-          globalVariants,
-          "layout",
-          "sidebarOpen"
-        )
-      })}
+          [sty.root__global_layout_sidebarOpen]: hasVariant(
+            globalVariants,
+            "layout",
+            "sidebarOpen"
+          )
+        }
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.header, {
+        className={classNames(defaultcss.all, projectcss.all, sty.header, {
           [sty.header__global_layout_isSellerView]: hasVariant(
             globalVariants,
             "layout",
@@ -81,65 +85,35 @@ function PlasmicSidebar__RenderFunc(props) {
         <div
           data-plasmic-name={"iconWrapper"}
           data-plasmic-override={overrides.iconWrapper}
-          className={classNames(defaultcss.all, sty.iconWrapper)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.iconWrapper
+          )}
         >
           <Icon113Icon
             data-plasmic-name={"closeIcon"}
             data-plasmic-override={overrides.closeIcon}
-            className={classNames(defaultcss.all, sty.closeIcon)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.closeIcon
+            )}
             role={"img"}
           />
         </div>
 
-        <p.Stack
-          as={"div"}
+        <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? false : true
-          ) ? (
-            <PanelMemberHeaderButtonSettings
-              data-plasmic-name={"panelMemberHeaderButtonSettings"}
-              data-plasmic-override={overrides.panelMemberHeaderButtonSettings}
-              className={classNames(
-                "__wab_instance",
-                sty.panelMemberHeaderButtonSettings,
-                {
-                  [sty.panelMemberHeaderButtonSettings__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView")
-                }
-              )}
-            />
-          ) : null}
-          {(
-            hasVariant(globalVariants, "layout", "isSellerView") ? true : false
-          ) ? (
-            <PanelPartnerHeaderButtonSettings
-              data-plasmic-name={"panelPartnerHeaderButtonSettings"}
-              data-plasmic-override={overrides.panelPartnerHeaderButtonSettings}
-              className={classNames(
-                "__wab_instance",
-                sty.panelPartnerHeaderButtonSettings,
-                {
-                  [sty.panelPartnerHeaderButtonSettings__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView")
-                }
-              )}
-            />
-          ) : null}
-
-          <ButtonIconNotificationBell
-            data-plasmic-name={"buttonIconNotificationBell"}
-            data-plasmic-override={overrides.buttonIconNotificationBell}
-            className={classNames(
-              "__wab_instance",
-              sty.buttonIconNotificationBell
-            )}
+          <NavbarLogo
+            data-plasmic-name={"navbarLogo"}
+            data-plasmic-override={overrides.navbarLogo}
+            className={classNames("__wab_instance", sty.navbarLogo)}
           />
-        </p.Stack>
+        </div>
       </p.Stack>
 
       {(hasVariant(globalVariants, "layout", "isSellerView") ? false : true) ? (
@@ -155,7 +129,7 @@ function PlasmicSidebar__RenderFunc(props) {
           })}
         />
       ) : null}
-      {(hasVariant(globalVariants, "layout", "isSellerView") ? true : false) ? (
+      {(hasVariant(globalVariants, "layout", "isSellerView") ? true : true) ? (
         <PanelPartner
           data-plasmic-name={"panelPartner"}
           data-plasmic-override={overrides.panelPartner}
@@ -179,35 +153,16 @@ const PlasmicDescendants = {
     "iconWrapper",
     "closeIcon",
     "freeBox",
-    "panelMemberHeaderButtonSettings",
-    "panelPartnerHeaderButtonSettings",
-    "buttonIconNotificationBell",
+    "navbarLogo",
     "panelMember",
     "panelPartner"
   ],
 
-  header: [
-    "header",
-    "iconWrapper",
-    "closeIcon",
-    "freeBox",
-    "panelMemberHeaderButtonSettings",
-    "panelPartnerHeaderButtonSettings",
-    "buttonIconNotificationBell"
-  ],
-
+  header: ["header", "iconWrapper", "closeIcon", "freeBox", "navbarLogo"],
   iconWrapper: ["iconWrapper", "closeIcon"],
   closeIcon: ["closeIcon"],
-  freeBox: [
-    "freeBox",
-    "panelMemberHeaderButtonSettings",
-    "panelPartnerHeaderButtonSettings",
-    "buttonIconNotificationBell"
-  ],
-
-  panelMemberHeaderButtonSettings: ["panelMemberHeaderButtonSettings"],
-  panelPartnerHeaderButtonSettings: ["panelPartnerHeaderButtonSettings"],
-  buttonIconNotificationBell: ["buttonIconNotificationBell"],
+  freeBox: ["freeBox", "navbarLogo"],
+  navbarLogo: ["navbarLogo"],
   panelMember: ["panelMember"],
   panelPartner: ["panelPartner"]
 };
@@ -247,15 +202,7 @@ export const PlasmicSidebar = Object.assign(
     iconWrapper: makeNodeComponent("iconWrapper"),
     closeIcon: makeNodeComponent("closeIcon"),
     freeBox: makeNodeComponent("freeBox"),
-    panelMemberHeaderButtonSettings: makeNodeComponent(
-      "panelMemberHeaderButtonSettings"
-    ),
-
-    panelPartnerHeaderButtonSettings: makeNodeComponent(
-      "panelPartnerHeaderButtonSettings"
-    ),
-
-    buttonIconNotificationBell: makeNodeComponent("buttonIconNotificationBell"),
+    navbarLogo: makeNodeComponent("navbarLogo"),
     panelMember: makeNodeComponent("panelMember"),
     panelPartner: makeNodeComponent("panelPartner"),
     // Metadata about props expected for PlasmicSidebar

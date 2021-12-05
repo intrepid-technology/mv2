@@ -14,17 +14,17 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   flex-shrink: 0;
 }
 .svg__inactive {
-  color: #999999 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .svg__state_silent {
-  color: #333333 /* plasmic-token: Ir4S3kez3 */;
+  color: #667085 /* plasmic-token: Ir4S3kez3 */;
 }
 .svg__state_alert {
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .svg__size__24 {
   width: 24px;

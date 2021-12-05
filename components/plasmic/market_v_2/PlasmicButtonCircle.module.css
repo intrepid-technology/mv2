@@ -6,10 +6,10 @@
   width: 32px;
   height: 32px;
   position: relative;
-  background: #000000;
+  background: #101010;
   border-radius: 100px;
   padding: 8px;
-  border: 2px solid #000000 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .freeBox {
   display: flex;

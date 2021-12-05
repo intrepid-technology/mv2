@@ -36,34 +36,48 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"button"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.button, sty.parent)}
+        className={classNames(defaultcss.button, projectcss.button, sty.parent)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"elementUsernameDisplay"}
           data-plasmic-override={overrides.elementUsernameDisplay}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.elementUsernameDisplay)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.elementUsernameDisplay
+          )}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"elementUserRealNames"}
             data-plasmic-override={overrides.elementUserRealNames}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.elementUserRealNames)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.elementUserRealNames
+            )}
           >
             <div
               data-plasmic-name={"userfirstName"}
               data-plasmic-override={overrides.userfirstName}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.userfirstName
               )}
@@ -76,6 +90,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
               data-plasmic-override={overrides.userLastName}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.userLastName
               )}
@@ -87,13 +102,18 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
           <div
             data-plasmic-name={"userDisplaynameParent"}
             data-plasmic-override={overrides.userDisplaynameParent}
-            className={classNames(defaultcss.all, sty.userDisplaynameParent)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.userDisplaynameParent
+            )}
           >
             <div
               data-plasmic-name={"atSign"}
               data-plasmic-override={overrides.atSign}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.atSign
               )}
@@ -106,6 +126,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
               data-plasmic-override={overrides.userDisplayNameText}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.userDisplayNameText
               )}
@@ -120,6 +141,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
           data-plasmic-override={overrides.dropDownUserSettingsTrigger}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             sty.dropDownUserSettingsTrigger
           )}
           role={"img"}

@@ -40,7 +40,12 @@ function PlasmicBadgeVerification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -48,13 +53,13 @@ function PlasmicBadgeVerification__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parent)}
+          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
         >
           {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <Icon129Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg)}
+              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
               role={"img"}
             />
           ) : null}
@@ -64,6 +69,7 @@ function PlasmicBadgeVerification__RenderFunc(props) {
               data-plasmic-override={overrides.text}
               className={classNames(
                 defaultcss.all,
+                projectcss.all,
                 defaultcss.__wab_text,
                 sty.text
               )}

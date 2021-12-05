@@ -16,8 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import PanelButtonHeader from "../../PanelButtonHeader"; // plasmic-import: l8x-1W9kbZ/component
-import PanelCommunityScores from "../../PanelCommunityScores"; // plasmic-import: JsYhtV8o3HC/component
-import PanelListingScores from "../../PanelListingScores"; // plasmic-import: mNo76Uc_Jdn/component
 import PanelPartnerSectionMarket from "../../PanelPartnerSectionMarket"; // plasmic-import: i3ai6jIm4VK/component
 import PanelPartnerSectionPartner from "../../PanelPartnerSectionPartner"; // plasmic-import: ESb2G2fq56P/component
 import PanelPartnerSectionAccount from "../../PanelPartnerSectionAccount"; // plasmic-import: frbDg7XY-m/component
@@ -41,40 +39,36 @@ function PlasmicPanelPartner__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navigation"}
         data-plasmic-override={overrides.navigation}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.navigation)}
+        className={classNames(defaultcss.all, projectcss.all, sty.navigation)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"headerPanelMainPartner"}
           data-plasmic-override={overrides.headerPanelMainPartner}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.headerPanelMainPartner)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.headerPanelMainPartner
+          )}
         >
           <PanelButtonHeader
             data-plasmic-name={"partnerButtonHeader"}
             data-plasmic-override={overrides.partnerButtonHeader}
             className={classNames("__wab_instance", sty.partnerButtonHeader)}
             user={"partner"}
-          />
-
-          <PanelCommunityScores
-            data-plasmic-name={"partnerCommunityScores"}
-            data-plasmic-override={overrides.partnerCommunityScores}
-            className={classNames("__wab_instance", sty.partnerCommunityScores)}
-            user={"partner"}
-          />
-
-          <PanelListingScores
-            data-plasmic-name={"partnerListingScores"}
-            data-plasmic-override={overrides.partnerListingScores}
-            className={classNames("__wab_instance", sty.partnerListingScores)}
           />
         </p.Stack>
 
@@ -100,7 +94,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
       <div
         data-plasmic-name={"footer"}
         data-plasmic-override={overrides.footer}
-        className={classNames(defaultcss.all, sty.footer)}
+        className={classNames(defaultcss.all, projectcss.all, sty.footer)}
       >
         <PanelFooter
           data-plasmic-name={"panelPartnerFooter"}
@@ -118,8 +112,6 @@ const PlasmicDescendants = {
     "navigation",
     "headerPanelMainPartner",
     "partnerButtonHeader",
-    "partnerCommunityScores",
-    "partnerListingScores",
     "partnerMarket",
     "partnerProfile",
     "partnerAccount",
@@ -131,23 +123,13 @@ const PlasmicDescendants = {
     "navigation",
     "headerPanelMainPartner",
     "partnerButtonHeader",
-    "partnerCommunityScores",
-    "partnerListingScores",
     "partnerMarket",
     "partnerProfile",
     "partnerAccount"
   ],
 
-  headerPanelMainPartner: [
-    "headerPanelMainPartner",
-    "partnerButtonHeader",
-    "partnerCommunityScores",
-    "partnerListingScores"
-  ],
-
+  headerPanelMainPartner: ["headerPanelMainPartner", "partnerButtonHeader"],
   partnerButtonHeader: ["partnerButtonHeader"],
-  partnerCommunityScores: ["partnerCommunityScores"],
-  partnerListingScores: ["partnerListingScores"],
   partnerMarket: ["partnerMarket"],
   partnerProfile: ["partnerProfile"],
   partnerAccount: ["partnerAccount"],
@@ -189,8 +171,6 @@ export const PlasmicPanelPartner = Object.assign(
     navigation: makeNodeComponent("navigation"),
     headerPanelMainPartner: makeNodeComponent("headerPanelMainPartner"),
     partnerButtonHeader: makeNodeComponent("partnerButtonHeader"),
-    partnerCommunityScores: makeNodeComponent("partnerCommunityScores"),
-    partnerListingScores: makeNodeComponent("partnerListingScores"),
     partnerMarket: makeNodeComponent("partnerMarket"),
     partnerProfile: makeNodeComponent("partnerProfile"),
     partnerAccount: makeNodeComponent("partnerAccount"),

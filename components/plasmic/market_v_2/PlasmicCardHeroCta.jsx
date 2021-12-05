@@ -33,11 +33,34 @@ function PlasmicCardHeroCta__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__rz5EK)}>
-        <div className={classNames(defaultcss.all, sty.freeBox__nxz1A)}>
-          <div className={classNames(defaultcss.all, sty.freeBox__xd1H6)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__rz5EK
+        )}
+      >
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__nxz1A
+          )}
+        >
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__xd1H6
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents:
                 "Everything an entrepreneur needs to start and grow a global business.",
@@ -52,6 +75,7 @@ function PlasmicCardHeroCta__RenderFunc(props) {
           data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text
           )}
@@ -74,7 +98,11 @@ function PlasmicCardHeroCta__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(defaultcss.img, sty.img__m8Tz3)}
+            className={classNames(
+              defaultcss.img,
+              projectcss.img,
+              sty.img__m8Tz3
+            )}
           />
         ),
 

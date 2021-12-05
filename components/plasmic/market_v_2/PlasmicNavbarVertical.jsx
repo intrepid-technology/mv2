@@ -42,6 +42,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
       hasGap={true}
       className={classNames(
         defaultcss.all,
+        projectcss.all,
         projectcss.root_reset,
         sty.sidePanel,
         { [sty.sidePanel___switch]: hasVariant(variants, "_switch", "_switch") }
@@ -52,7 +53,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         data-plasmic-name={"navCard"}
         data-plasmic-override={overrides.navCard}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.navCard, {
+        className={classNames(defaultcss.all, projectcss.all, sty.navCard, {
           [sty.navCard___switch]: hasVariant(variants, "_switch", "_switch"),
           [sty.navCard__user_partner]: hasVariant(variants, "user", "partner")
         })}
@@ -60,18 +61,27 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
-          className={classNames(defaultcss.all, sty.iconParent, {
-            [sty.iconParent___switch]: hasVariant(
-              variants,
-              "_switch",
-              "_switch"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.iconParent,
+            {
+              [sty.iconParent___switch]: hasVariant(
+                variants,
+                "_switch",
+                "_switch"
+              )
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
               <svg
-                className={classNames(defaultcss.all, sty.svg__rPi01)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__rPi01
+                )}
                 role={"img"}
               />
             ),
@@ -83,13 +93,18 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         <div
           data-plasmic-name={"navLinkParent"}
           data-plasmic-override={overrides.navLinkParent}
-          className={classNames(defaultcss.all, sty.navLinkParent, {
-            [sty.navLinkParent___switch]: hasVariant(
-              variants,
-              "_switch",
-              "_switch"
-            )
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.navLinkParent,
+            {
+              [sty.navLinkParent___switch]: hasVariant(
+                variants,
+                "_switch",
+                "_switch"
+              )
+            }
+          )}
         >
           <NavLink
             data-plasmic-name={"navLink"}

@@ -48,11 +48,17 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
-      })}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+          [sty.root__color_light]: hasVariant(variants, "color", "light")
+        }
+      )}
       component={Link}
       href={args.destination}
       id={args.id}
@@ -63,7 +69,7 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__direction_left]: hasVariant(
             variants,
             "direction",
@@ -81,38 +87,51 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
           <div
             data-plasmic-name={"svgLeftParent"}
             data-plasmic-override={overrides.svgLeftParent}
-            className={classNames(defaultcss.all, sty.svgLeftParent, {
-              [sty.svgLeftParent__direction_left]: hasVariant(
-                variants,
-                "direction",
-                "left"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svgLeftParent,
+              {
+                [sty.svgLeftParent__direction_left]: hasVariant(
+                  variants,
+                  "direction",
+                  "left"
+                ),
 
-              [sty.svgLeftParent__direction_right]: hasVariant(
-                variants,
-                "direction",
-                "right"
-              ),
+                [sty.svgLeftParent__direction_right]: hasVariant(
+                  variants,
+                  "direction",
+                  "right"
+                ),
 
-              [sty.svgLeftParent__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              ),
+                [sty.svgLeftParent__size__16]: hasVariant(
+                  variants,
+                  "size",
+                  "_16"
+                ),
 
-              [sty.svgLeftParent__size__18]: hasVariant(
-                variants,
-                "size",
-                "_18"
-              ),
+                [sty.svgLeftParent__size__18]: hasVariant(
+                  variants,
+                  "size",
+                  "_18"
+                ),
 
-              [sty.svgLeftParent__size__24]: hasVariant(variants, "size", "_24")
-            })}
+                [sty.svgLeftParent__size__24]: hasVariant(
+                  variants,
+                  "size",
+                  "_24"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
                 <ChevronLeftIcon
-                  className={classNames(defaultcss.all, sty.svg__f2Wy)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__f2Wy
+                  )}
                   role={"img"}
                 />
               ),
@@ -198,42 +217,51 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
           <div
             data-plasmic-name={"svgRightParent"}
             data-plasmic-override={overrides.svgRightParent}
-            className={classNames(defaultcss.all, sty.svgRightParent, {
-              [sty.svgRightParent__direction_left]: hasVariant(
-                variants,
-                "direction",
-                "left"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.svgRightParent,
+              {
+                [sty.svgRightParent__direction_left]: hasVariant(
+                  variants,
+                  "direction",
+                  "left"
+                ),
 
-              [sty.svgRightParent__size__14]: hasVariant(
-                variants,
-                "size",
-                "_14"
-              ),
+                [sty.svgRightParent__size__14]: hasVariant(
+                  variants,
+                  "size",
+                  "_14"
+                ),
 
-              [sty.svgRightParent__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              ),
+                [sty.svgRightParent__size__16]: hasVariant(
+                  variants,
+                  "size",
+                  "_16"
+                ),
 
-              [sty.svgRightParent__size__18]: hasVariant(
-                variants,
-                "size",
-                "_18"
-              ),
+                [sty.svgRightParent__size__18]: hasVariant(
+                  variants,
+                  "size",
+                  "_18"
+                ),
 
-              [sty.svgRightParent__size__24]: hasVariant(
-                variants,
-                "size",
-                "_24"
-              )
-            })}
+                [sty.svgRightParent__size__24]: hasVariant(
+                  variants,
+                  "size",
+                  "_24"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: (
                 <ChevronRightIcon
-                  className={classNames(defaultcss.all, sty.svg__apSlW)}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__apSlW
+                  )}
                   role={"img"}
                 />
               ),

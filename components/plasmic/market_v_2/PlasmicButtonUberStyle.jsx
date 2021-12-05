@@ -48,6 +48,7 @@ function PlasmicButtonUberStyle__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.a,
+        projectcss.a,
         projectcss.root_reset,
         sty.linkParent,
         {
@@ -64,39 +65,84 @@ function PlasmicButtonUberStyle__RenderFunc(props) {
       <div
         data-plasmic-name={"contentParent"}
         data-plasmic-override={overrides.contentParent}
-        className={classNames(defaultcss.all, sty.contentParent, {
-          [sty.contentParent__size__140]: hasVariant(variants, "size", "_140"),
-          [sty.contentParent__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.contentParent__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.contentParent__size__320]: hasVariant(variants, "size", "_320"),
-          [sty.contentParent__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.contentParent__size__90]: hasVariant(variants, "size", "_90")
-        })}
-      >
-        <div
-          data-plasmic-name={"textIconParent"}
-          data-plasmic-override={overrides.textIconParent}
-          className={classNames(defaultcss.all, sty.textIconParent, {
-            [sty.textIconParent__size__140]: hasVariant(
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.contentParent,
+          {
+            [sty.contentParent__size__140]: hasVariant(
               variants,
               "size",
               "_140"
             ),
 
-            [sty.textIconParent__size__360]: hasVariant(
+            [sty.contentParent__size__160]: hasVariant(
+              variants,
+              "size",
+              "_160"
+            ),
+
+            [sty.contentParent__size__270]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
+
+            [sty.contentParent__size__320]: hasVariant(
+              variants,
+              "size",
+              "_320"
+            ),
+
+            [sty.contentParent__size__360]: hasVariant(
               variants,
               "size",
               "_360"
-            )
-          })}
+            ),
+
+            [sty.contentParent__size__90]: hasVariant(variants, "size", "_90")
+          }
+        )}
+      >
+        <div
+          data-plasmic-name={"textIconParent"}
+          data-plasmic-override={overrides.textIconParent}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.textIconParent,
+            {
+              [sty.textIconParent__size__140]: hasVariant(
+                variants,
+                "size",
+                "_140"
+              ),
+
+              [sty.textIconParent__size__360]: hasVariant(
+                variants,
+                "size",
+                "_360"
+              )
+            }
+          )}
         >
           <div
             data-plasmic-name={"textParent"}
             data-plasmic-override={overrides.textParent}
-            className={classNames(defaultcss.all, sty.textParent, {
-              [sty.textParent__size__140]: hasVariant(variants, "size", "_140"),
-              [sty.textParent__size__90]: hasVariant(variants, "size", "_90")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.textParent,
+              {
+                [sty.textParent__size__140]: hasVariant(
+                  variants,
+                  "size",
+                  "_140"
+                ),
+
+                [sty.textParent__size__90]: hasVariant(variants, "size", "_90")
+              }
+            )}
           >
             {(
               hasVariant(variants, "size", "_140")
@@ -238,39 +284,44 @@ function PlasmicButtonUberStyle__RenderFunc(props) {
           <div
             data-plasmic-name={"arrowParent"}
             data-plasmic-override={overrides.arrowParent}
-            className={classNames(defaultcss.all, sty.arrowParent, {
-              [sty.arrowParent__size__140]: hasVariant(
-                variants,
-                "size",
-                "_140"
-              ),
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.arrowParent,
+              {
+                [sty.arrowParent__size__140]: hasVariant(
+                  variants,
+                  "size",
+                  "_140"
+                ),
 
-              [sty.arrowParent__size__160]: hasVariant(
-                variants,
-                "size",
-                "_160"
-              ),
+                [sty.arrowParent__size__160]: hasVariant(
+                  variants,
+                  "size",
+                  "_160"
+                ),
 
-              [sty.arrowParent__size__270]: hasVariant(
-                variants,
-                "size",
-                "_270"
-              ),
+                [sty.arrowParent__size__270]: hasVariant(
+                  variants,
+                  "size",
+                  "_270"
+                ),
 
-              [sty.arrowParent__size__320]: hasVariant(
-                variants,
-                "size",
-                "_320"
-              ),
+                [sty.arrowParent__size__320]: hasVariant(
+                  variants,
+                  "size",
+                  "_320"
+                ),
 
-              [sty.arrowParent__size__360]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              ),
+                [sty.arrowParent__size__360]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
+                ),
 
-              [sty.arrowParent__size__90]: hasVariant(variants, "size", "_90")
-            })}
+                [sty.arrowParent__size__90]: hasVariant(variants, "size", "_90")
+              }
+            )}
           >
             {(
               hasVariant(variants, "size", "_360")

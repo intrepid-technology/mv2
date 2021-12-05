@@ -32,14 +32,26 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
-      <div className={classNames(defaultcss.all, sty.freeBox__ikhqW)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__ikhqW
+        )}
+      >
         <div
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             defaultcss.__wab_text,
             sty.text
           )}
@@ -49,20 +61,30 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
       </div>
 
       <input
-        data-plasmic-name={"textbox"}
-        data-plasmic-override={overrides.textbox}
-        className={classNames(defaultcss.input, sty.textbox)}
+        data-plasmic-name={"textInput"}
+        data-plasmic-override={overrides.textInput ?? overrides.textbox}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.textInput
+        )}
         placeholder={""}
         size={1}
         type={"text"}
         value={""}
       />
 
-      <div className={classNames(defaultcss.all, sty.freeBox__kE6E)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__kE6E
+        )}
+      >
         <PlusBoldIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
           role={"img"}
         />
       </div>
@@ -71,9 +93,9 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "text", "textbox", "svg"],
+  root: ["root", "text", "textInput", "svg"],
   text: ["text"],
-  textbox: ["textbox"],
+  textInput: ["textInput"],
   svg: ["svg"]
 };
 
@@ -109,7 +131,7 @@ export const PlasmicInputTextIconPrefixSuffix = Object.assign(
   {
     // Helper components rendering sub-elements
     text: makeNodeComponent("text"),
-    textbox: makeNodeComponent("textbox"),
+    textInput: makeNodeComponent("textInput"),
     svg: makeNodeComponent("svg"),
     // Metadata about props expected for PlasmicInputTextIconPrefixSuffix
     internalVariantProps: PlasmicInputTextIconPrefixSuffix__VariantProps,

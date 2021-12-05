@@ -47,14 +47,19 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"container"}
         data-plasmic-override={overrides.container}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.container, {
+        className={classNames(defaultcss.all, projectcss.all, sty.container, {
           [sty.container__hideBack]: hasVariant(
             variants,
             "hideBack",
@@ -70,13 +75,18 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
       >
         {(hasVariant(variants, "hideBack", "hideBack") ? true : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__whc4W, {
-              [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
-                variants,
-                "hideBack",
-                "hideBack"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__whc4W,
+              {
+                [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
+                  variants,
+                  "hideBack",
+                  "hideBack"
+                )
+              }
+            )}
           >
             {(hasVariant(variants, "hideBack", "hideBack") ? false : true) ? (
               <Button
@@ -98,6 +108,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                   data-plasmic-override={overrides.text}
                   className={classNames(
                     defaultcss.all,
+                    projectcss.all,
                     defaultcss.__wab_text,
                     sty.text
                   )}
@@ -116,19 +127,24 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         <div
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
-          className={classNames(defaultcss.all, sty.labelWrapper, {
-            [sty.labelWrapper__hideBack]: hasVariant(
-              variants,
-              "hideBack",
-              "hideBack"
-            ),
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.labelWrapper,
+            {
+              [sty.labelWrapper__hideBack]: hasVariant(
+                variants,
+                "hideBack",
+                "hideBack"
+              ),
 
-            [sty.labelWrapper__hideNext]: hasVariant(
-              variants,
-              "hideNext",
-              "hideNext"
-            )
-          })}
+              [sty.labelWrapper__hideNext]: hasVariant(
+                variants,
+                "hideNext",
+                "hideNext"
+              )
+            }
+          )}
         >
           {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true)
             ? p.renderPlasmicSlot({
@@ -151,7 +167,13 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
             : null}
         </div>
 
-        <div className={classNames(defaultcss.all, sty.freeBox___8U6C)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox___8U6C
+          )}
+        >
           {(hasVariant(variants, "hideNext", "hideNext") ? false : true) ? (
             <Button
               data-plasmic-name={"nextButton"}
@@ -172,6 +194,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                 data-plasmic-override={overrides.next}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.next
                 )}

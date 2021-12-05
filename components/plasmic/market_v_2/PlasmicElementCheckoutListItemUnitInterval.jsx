@@ -39,29 +39,50 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"unitItemInterval"}
         data-plasmic-override={overrides.unitItemInterval}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.unitItemInterval)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.unitItemInterval
+        )}
       >
         <div
           data-plasmic-name={"unitNumberbackgroundParent"}
           data-plasmic-override={overrides.unitNumberbackgroundParent}
-          className={classNames(defaultcss.all, sty.unitNumberbackgroundParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.unitNumberbackgroundParent
+          )}
         >
           <div
             data-plasmic-name={"unitNumberBackground"}
             data-plasmic-override={overrides.unitNumberBackground}
-            className={classNames(defaultcss.all, sty.unitNumberBackground)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.unitNumberBackground
+            )}
           >
             <div
               data-plasmic-name={"unitNumberParent"}
               data-plasmic-override={overrides.unitNumberParent}
-              className={classNames(defaultcss.all, sty.unitNumberParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.unitNumberParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "1",
@@ -75,7 +96,11 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
         <div
           data-plasmic-name={"unitTextbackground"}
           data-plasmic-override={overrides.unitTextbackground}
-          className={classNames(defaultcss.all, sty.unitTextbackground)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.unitTextbackground
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Service",
@@ -87,13 +112,14 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
               defaultcss.all,
+              projectcss.all,
               defaultcss.__wab_text,
               sty.text
             )}
@@ -107,18 +133,27 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
           data-plasmic-override={overrides.timeIntervalBackgroundParent}
           className={classNames(
             defaultcss.all,
+            projectcss.all,
             sty.timeIntervalBackgroundParent
           )}
         >
           <div
             data-plasmic-name={"timeIntervalBackground"}
             data-plasmic-override={overrides.timeIntervalBackground}
-            className={classNames(defaultcss.all, sty.timeIntervalBackground)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.timeIntervalBackground
+            )}
           >
             <div
               data-plasmic-name={"timeIntervalTextParent"}
               data-plasmic-override={overrides.timeIntervalTextParent}
-              className={classNames(defaultcss.all, sty.timeIntervalTextParent)}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.timeIntervalTextParent
+              )}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Month",
@@ -137,13 +172,18 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.currencyTotalValueNumberParent
         )}
       >
         <div
           data-plasmic-name={"currencySymbolParent"}
           data-plasmic-override={overrides.currencySymbolParent}
-          className={classNames(defaultcss.all, sty.currencySymbolParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.currencySymbolParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "$",
@@ -155,7 +195,11 @@ function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
         <div
           data-plasmic-name={"totalValueNumberParent"}
           data-plasmic-override={overrides.totalValueNumberParent}
-          className={classNames(defaultcss.all, sty.totalValueNumberParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.totalValueNumberParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "0.00",

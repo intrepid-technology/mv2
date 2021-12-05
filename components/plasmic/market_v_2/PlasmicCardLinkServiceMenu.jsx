@@ -41,7 +41,12 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.a, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.a,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -49,19 +54,27 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
       <div
         data-plasmic-name={"headerTitle"}
         data-plasmic-override={overrides.headerTitle}
-        className={classNames(defaultcss.all, sty.headerTitle)}
+        className={classNames(defaultcss.all, projectcss.all, sty.headerTitle)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"parentIconText"}
           data-plasmic-override={overrides.parentIconText}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.parentIconText)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.parentIconText
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
               <PlusBoldIcon
-                className={classNames(defaultcss.all, sty.svg___3Xva6)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___3Xva6
+                )}
                 role={"img"}
               />
             ),
@@ -69,7 +82,13 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
             value: args.icon
           })}
 
-          <div className={classNames(defaultcss.all, sty.freeBox__mrtUq)}>
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__mrtUq
+            )}
+          >
             {p.renderPlasmicSlot({
               defaultContents: "Headline Title",
               value: args.textHeadline,
@@ -79,7 +98,13 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
         </p.Stack>
       </div>
 
-      <div className={classNames(defaultcss.all, sty.freeBox___15Tvx)}>
+      <div
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___15Tvx
+        )}
+      >
         {p.renderPlasmicSlot({
           defaultContents:
             "Description of service or product that makes it clear to the",

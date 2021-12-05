@@ -176,7 +176,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__nr931 {
@@ -264,7 +264,7 @@
   }
 }
 .questionDescriptionBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   top: auto;
@@ -338,7 +338,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #000000 /* plasmic-token: 6OoG_pvkg */;
+  color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
 }
 .text__uc5Jc {
@@ -426,7 +426,7 @@
   }
 }
 .questionProcessBlock {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -535,20 +535,20 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
 }
 .text__vqvCv {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .text__wEkof {
-  color: #666666 /* plasmic-token: IbTSH9_JJ */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .processDeliveryOverviewInput:global(.__wab_instance) {
   position: relative;
 }
 .freeBox__oslf {
-  display: inline-flex;
+  display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
@@ -589,7 +589,7 @@
   left: auto;
   top: auto;
   width: 360px;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__mnyPp {

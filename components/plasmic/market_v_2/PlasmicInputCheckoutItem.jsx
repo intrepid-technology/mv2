@@ -43,26 +43,41 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       {(hasVariant(variants, "headline", "headline") ? false : true) ? (
         <div
-          className={classNames(defaultcss.all, sty.freeBox__eGohH, {
-            [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
-              variants,
-              "headline",
-              "headline"
-            )
-          })}
-        >
-          <div
-            className={classNames(defaultcss.all, sty.freeBox__wc9Ah, {
-              [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__eGohH,
+            {
+              [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
                 variants,
                 "headline",
                 "headline"
               )
-            })}
+            }
+          )}
+        >
+          <div
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__wc9Ah,
+              {
+                [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
+                  variants,
+                  "headline",
+                  "headline"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Headline",
@@ -76,15 +91,35 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox___8XZXg)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox___8XZXg
+        )}
       >
-        <div className={classNames(defaultcss.all, sty.freeBox__tsYuX)}>
+        <div
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__tsYuX
+          )}
+        >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.freeBox__i32Ns)}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__i32Ns
+            )}
           >
-            <div className={classNames(defaultcss.all, sty.freeBox__tbgRc)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__tbgRc
+              )}
+            >
               {p.renderPlasmicSlot({
                 defaultContents: "Item",
                 value: args.slot,
@@ -102,13 +137,18 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(defaultcss.all, sty.freeBox__lfmpq, {
-              [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
-                variants,
-                "description",
-                "description"
-              )
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.freeBox__lfmpq,
+              {
+                [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                )
+              }
+            )}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

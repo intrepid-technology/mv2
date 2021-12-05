@@ -6,7 +6,7 @@
   justify-content: flex-start;
 }
 .parent {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
@@ -33,6 +33,11 @@
   > img {
   margin-left: 2px;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent {
+    display: flex;
+  }
+}
 .svg {
   position: relative;
   object-fit: cover;
@@ -42,6 +47,12 @@
   height: 12px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   flex-shrink: 0;
+  display: block;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svg {
+    display: block;
+  }
 }
 .text {
   position: relative;
@@ -55,5 +66,10 @@
   text-align: left;
   width: auto;
   height: auto;
-  display: inline-block;
+  display: block;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text {
+    display: block;
+  }
 }

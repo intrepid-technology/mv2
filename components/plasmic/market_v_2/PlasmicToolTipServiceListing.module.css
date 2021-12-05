@@ -6,7 +6,7 @@
   position: relative;
   background: #ffffff;
   padding: 18px;
-  border: 1.5px solid #dddddd /* plasmic-token: i5T_lGWIG */;
+  border: 1.5px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -50,7 +50,7 @@
 }
 .slotTargetSlot {
   font-weight: 700;
-  color: #333333 /* plasmic-token: F4gy0u3aB */;
+  color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-size: 14px;
 }
 .freeBox__gYt9T {

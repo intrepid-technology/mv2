@@ -87,7 +87,6 @@
 .text {
   height: auto;
   width: auto;
-  display: inline-block;
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text {
@@ -95,7 +94,6 @@
     height: auto;
     width: auto;
     font-size: 14px;
-    display: inline-block;
   }
 }
 .labelWrapper {
@@ -145,7 +143,6 @@
   height: auto;
   font-weight: 600;
   width: auto;
-  display: inline-block;
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .next {

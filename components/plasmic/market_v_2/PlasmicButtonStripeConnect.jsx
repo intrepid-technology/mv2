@@ -47,6 +47,7 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(
         defaultcss.button,
+        projectcss.button,
         projectcss.root_reset,
         sty.root,
         "stripe-connect",
@@ -63,14 +64,14 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, sty.freeBox, {
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
             [sty.freeBox__icon]: hasVariant(variants, "icon", "icon")
           })}
         >
           <LinkAIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, sty.svg)}
+            className={classNames(defaultcss.all, projectcss.all, sty.svg)}
             role={"img"}
           />
         </div>
@@ -81,14 +82,14 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.textParent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.textParent, {
           [sty.textParent__width__270]: hasVariant(variants, "width", "_270")
         })}
       >
         <div
           data-plasmic-name={"textBg"}
           data-plasmic-override={overrides.textBg}
-          className={classNames(defaultcss.all, sty.textBg)}
+          className={classNames(defaultcss.all, projectcss.all, sty.textBg)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Connect with",

@@ -53,20 +53,38 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__size__270]: hasVariant(variants, "size", "_270")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.parent,
+        { [sty.parent__size__270]: hasVariant(variants, "size", "_270") }
+      )}
     >
       <div
         data-plasmic-name={"svgQuestionParent"}
         data-plasmic-override={overrides.svgQuestionParent}
-        className={classNames(defaultcss.all, sty.svgQuestionParent)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.svgQuestionParent
+        )}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <div className={classNames(defaultcss.all, sty.freeBox__yZ0QO)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__yZ0QO
+              )}
+            >
               <Icon177Icon
-                className={classNames(defaultcss.all, sty.svg__dd45H)}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__dd45H
+                )}
                 role={"img"}
               />
             </div>
@@ -83,6 +101,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
         hasGap={true}
         className={classNames(
           defaultcss.all,
+          projectcss.all,
           sty.iconNumberValueTitlePercentValueParent,
           {
             [sty.iconNumberValueTitlePercentValueParent__currency]: hasVariant(
@@ -107,18 +126,35 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"svgIconParent"}
           data-plasmic-override={overrides.svgIconParent}
-          className={classNames(defaultcss.all, sty.svgIconParent, {
-            [sty.svgIconParent__size__270]: hasVariant(variants, "size", "_270")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.svgIconParent,
+            {
+              [sty.svgIconParent__size__270]: hasVariant(
+                variants,
+                "size",
+                "_270"
+              )
+            }
+          )}
         >
           {(hasVariant(variants, "size", "_270") ? false : true)
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox___5VQqz)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox___5VQqz
+                    )}
                   >
                     <OptionalFixedBrandColorIcon
-                      className={classNames(defaultcss.all, sty.svg__pdGd6)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__pdGd6
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -131,10 +167,18 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <div
-                    className={classNames(defaultcss.all, sty.freeBox__qjbPm)}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__qjbPm
+                    )}
                   >
                     <OptionalFixedBrandColorIcon
-                      className={classNames(defaultcss.all, sty.svg__hwk83)}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__hwk83
+                      )}
                       role={"img"}
                     />
                   </div>
@@ -150,16 +194,25 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, sty.freeBox)}
+          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"numberValue"}
             data-plasmic-override={overrides.numberValue}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.numberValue, {
-              [sty.numberValue__size__270]: hasVariant(variants, "size", "_270")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.numberValue,
+              {
+                [sty.numberValue__size__270]: hasVariant(
+                  variants,
+                  "size",
+                  "_270"
+                )
+              }
+            )}
           >
             {(
               hasVariant(variants, "numeration", "numeration") &&
@@ -178,36 +231,41 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
               <div
                 data-plasmic-name={"currencyParent"}
                 data-plasmic-override={overrides.currencyParent}
-                className={classNames(defaultcss.all, sty.currencyParent, {
-                  [sty.currencyParent__currency]: hasVariant(
-                    variants,
-                    "currency",
-                    "currency"
-                  ),
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.currencyParent,
+                  {
+                    [sty.currencyParent__currency]: hasVariant(
+                      variants,
+                      "currency",
+                      "currency"
+                    ),
 
-                  [sty.currencyParent__currency_size__270]:
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
-                  [sty.currencyParent__numeration]: hasVariant(
-                    variants,
-                    "numeration",
-                    "numeration"
-                  ),
+                    [sty.currencyParent__currency_size__270]:
+                      hasVariant(variants, "currency", "currency") &&
+                      hasVariant(variants, "size", "_270"),
+                    [sty.currencyParent__numeration]: hasVariant(
+                      variants,
+                      "numeration",
+                      "numeration"
+                    ),
 
-                  [sty.currencyParent__numeration_currency_size__270]:
-                    hasVariant(variants, "numeration", "numeration") &&
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
-                  [sty.currencyParent__size__270]: hasVariant(
-                    variants,
-                    "size",
-                    "_270"
-                  ),
+                    [sty.currencyParent__numeration_currency_size__270]:
+                      hasVariant(variants, "numeration", "numeration") &&
+                      hasVariant(variants, "currency", "currency") &&
+                      hasVariant(variants, "size", "_270"),
+                    [sty.currencyParent__size__270]: hasVariant(
+                      variants,
+                      "size",
+                      "_270"
+                    ),
 
-                  [sty.currencyParent__size__270_numeration]:
-                    hasVariant(variants, "size", "_270") &&
-                    hasVariant(variants, "numeration", "numeration")
-                })}
+                    [sty.currencyParent__size__270_numeration]:
+                      hasVariant(variants, "size", "_270") &&
+                      hasVariant(variants, "numeration", "numeration")
+                  }
+                )}
               >
                 {(hasVariant(variants, "size", "_270") ? false : true)
                   ? p.renderPlasmicSlot({
@@ -215,6 +273,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__wM3Ab
                           )}
@@ -232,6 +291,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__a4Wh
                           )}
@@ -251,6 +311,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__ncgFi
                       )}
@@ -268,6 +329,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__jOHp
                       )}
@@ -292,36 +354,41 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
               <div
                 data-plasmic-name={"numerationParent"}
                 data-plasmic-override={overrides.numerationParent}
-                className={classNames(defaultcss.all, sty.numerationParent, {
-                  [sty.numerationParent__currency]: hasVariant(
-                    variants,
-                    "currency",
-                    "currency"
-                  ),
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.numerationParent,
+                  {
+                    [sty.numerationParent__currency]: hasVariant(
+                      variants,
+                      "currency",
+                      "currency"
+                    ),
 
-                  [sty.numerationParent__numeration]: hasVariant(
-                    variants,
-                    "numeration",
-                    "numeration"
-                  ),
+                    [sty.numerationParent__numeration]: hasVariant(
+                      variants,
+                      "numeration",
+                      "numeration"
+                    ),
 
-                  [sty.numerationParent__numeration_currency]:
-                    hasVariant(variants, "numeration", "numeration") &&
-                    hasVariant(variants, "currency", "currency"),
-                  [sty.numerationParent__numeration_currency_size__270]:
-                    hasVariant(variants, "numeration", "numeration") &&
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
-                  [sty.numerationParent__size__270]: hasVariant(
-                    variants,
-                    "size",
-                    "_270"
-                  ),
+                    [sty.numerationParent__numeration_currency]:
+                      hasVariant(variants, "numeration", "numeration") &&
+                      hasVariant(variants, "currency", "currency"),
+                    [sty.numerationParent__numeration_currency_size__270]:
+                      hasVariant(variants, "numeration", "numeration") &&
+                      hasVariant(variants, "currency", "currency") &&
+                      hasVariant(variants, "size", "_270"),
+                    [sty.numerationParent__size__270]: hasVariant(
+                      variants,
+                      "size",
+                      "_270"
+                    ),
 
-                  [sty.numerationParent__size__270_numeration]:
-                    hasVariant(variants, "size", "_270") &&
-                    hasVariant(variants, "numeration", "numeration")
-                })}
+                    [sty.numerationParent__size__270_numeration]:
+                      hasVariant(variants, "size", "_270") &&
+                      hasVariant(variants, "numeration", "numeration")
+                  }
+                )}
               >
                 {(hasVariant(variants, "size", "_270") ? false : true)
                   ? p.renderPlasmicSlot({
@@ -329,6 +396,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__vDq8H
                           )}
@@ -346,6 +414,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                         <div
                           className={classNames(
                             defaultcss.all,
+                            projectcss.all,
                             defaultcss.__wab_text,
                             sty.text__vyTh
                           )}
@@ -366,9 +435,14 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
             data-plasmic-name={"cardTitle"}
             data-plasmic-override={overrides.cardTitle}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.cardTitle, {
-              [sty.cardTitle__size__270]: hasVariant(variants, "size", "_270")
-            })}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.cardTitle,
+              {
+                [sty.cardTitle__size__270]: hasVariant(variants, "size", "_270")
+              }
+            )}
           >
             {(hasVariant(variants, "size", "_270") ? false : true)
               ? p.renderPlasmicSlot({
@@ -376,6 +450,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__vly1J
                       )}
@@ -393,6 +468,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                     <div
                       className={classNames(
                         defaultcss.all,
+                        projectcss.all,
                         defaultcss.__wab_text,
                         sty.text__zL10
                       )}
@@ -410,7 +486,11 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"valueChangeParent"}
           data-plasmic-override={overrides.valueChangeParent}
-          className={classNames(defaultcss.all, sty.valueChangeParent)}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.valueChangeParent
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: (

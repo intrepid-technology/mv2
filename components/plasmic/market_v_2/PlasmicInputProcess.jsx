@@ -40,20 +40,29 @@ function PlasmicInputProcess__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__540]: hasVariant(variants, "size", "_540")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__size__540]: hasVariant(variants, "size", "_540") }
+      )}
     >
       <input
         data-plasmic-name={"serviceProcessTitle"}
         data-plasmic-override={overrides.serviceProcessTitle}
-        className={classNames(defaultcss.input, sty.serviceProcessTitle, {
-          [sty.serviceProcessTitle__size__540]: hasVariant(
-            variants,
-            "size",
-            "_540"
-          )
-        })}
+        className={classNames(
+          defaultcss.input,
+          projectcss.input,
+          sty.serviceProcessTitle,
+          {
+            [sty.serviceProcessTitle__size__540]: hasVariant(
+              variants,
+              "size",
+              "_540"
+            )
+          }
+        )}
         placeholder={"Process title, eg. step 1"}
         size={1}
         type={"text"}
@@ -63,13 +72,18 @@ function PlasmicInputProcess__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(defaultcss.all, sty.freeBox__utVmc)}
+        className={classNames(
+          defaultcss.all,
+          projectcss.all,
+          sty.freeBox__utVmc
+        )}
       >
         <textarea
           data-plasmic-name={"serviceProcessDescription"}
           data-plasmic-override={overrides.serviceProcessDescription}
           className={classNames(
             defaultcss.textarea,
+            projectcss.textarea,
             sty.serviceProcessDescription,
             {
               [sty.serviceProcessDescription__size__540]: hasVariant(
@@ -84,24 +98,34 @@ function PlasmicInputProcess__RenderFunc(props) {
         />
 
         <div
-          className={classNames(defaultcss.all, sty.freeBox__yoYe, {
-            [sty.freeBox__add__yoYeqnDpl]: hasVariant(variants, "add", "add")
-          })}
+          className={classNames(
+            defaultcss.all,
+            projectcss.all,
+            sty.freeBox__yoYe,
+            {
+              [sty.freeBox__add__yoYeqnDpl]: hasVariant(variants, "add", "add")
+            }
+          )}
         >
           {(hasVariant(variants, "add", "add") ? false : true) ? (
             <div
-              className={classNames(defaultcss.all, sty.freeBox__l594M, {
-                [sty.freeBox__add__l594MqnDpl]: hasVariant(
-                  variants,
-                  "add",
-                  "add"
-                )
-              })}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__l594M,
+                {
+                  [sty.freeBox__add__l594MqnDpl]: hasVariant(
+                    variants,
+                    "add",
+                    "add"
+                  )
+                }
+              )}
             >
               <Icon107Icon
                 data-plasmic-name={"svg"}
                 data-plasmic-override={overrides.svg}
-                className={classNames(defaultcss.all, sty.svg, {
+                className={classNames(defaultcss.all, projectcss.all, sty.svg, {
                   [sty.svg__add]: hasVariant(variants, "add", "add"),
                   [sty.svg__size__540]: hasVariant(variants, "size", "_540")
                 })}
@@ -111,25 +135,31 @@ function PlasmicInputProcess__RenderFunc(props) {
           ) : null}
           {(hasVariant(variants, "_delete", "_delete") ? false : true) ? (
             <div
-              className={classNames(defaultcss.all, sty.freeBox__aOiaZ, {
-                [sty.freeBox___delete__aOiaZSn8T8]: hasVariant(
-                  variants,
-                  "_delete",
-                  "_delete"
-                ),
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.freeBox__aOiaZ,
+                {
+                  [sty.freeBox___delete__aOiaZSn8T8]: hasVariant(
+                    variants,
+                    "_delete",
+                    "_delete"
+                  ),
 
-                [sty.freeBox__add__aOiaZqnDpl]: hasVariant(
-                  variants,
-                  "add",
-                  "add"
-                )
-              })}
+                  [sty.freeBox__add__aOiaZqnDpl]: hasVariant(
+                    variants,
+                    "add",
+                    "add"
+                  )
+                }
+              )}
             >
               <div
                 data-plasmic-name={"text"}
                 data-plasmic-override={overrides.text}
                 className={classNames(
                   defaultcss.all,
+                  projectcss.all,
                   defaultcss.__wab_text,
                   sty.text,
                   {

@@ -33,17 +33,23 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(defaultcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__14]: hasVariant(variants, "size", "_14"),
-        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-        [sty.root__size__24]: hasVariant(variants, "size", "_24")
-      })}
+      className={classNames(
+        defaultcss.all,
+        projectcss.all,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.root__size__14]: hasVariant(variants, "size", "_14"),
+          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
+          [sty.root__size__24]: hasVariant(variants, "size", "_24")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, sty.parent, {
+        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
           [sty.parent__size__14]: hasVariant(variants, "size", "_14"),
           [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
           [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
@@ -53,7 +59,7 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
         <Icon129Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, sty.svg, {
+          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
             [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
             [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
             [sty.svg__size__18]: hasVariant(variants, "size", "_18"),
