@@ -298,7 +298,11 @@ function PlasmicFooter__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+            hasVariant(globalVariants, "screen", "iphone678")
+              ? false
+              : hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? false
+              : true
           ) ? (
             <p.Stack
               as={"div"}
@@ -474,7 +478,11 @@ function PlasmicFooter__RenderFunc(props) {
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus") ? true : false
+            hasVariant(globalVariants, "screen", "iphone678")
+              ? true
+              : hasVariant(globalVariants, "screen", "iphone678Plus")
+              ? true
+              : false
           ) ? (
             <p.Stack
               as={"div"}

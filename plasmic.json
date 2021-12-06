@@ -4743,6 +4743,19 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicDialog.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "Afo7dYL8xuP",
+          "name": "LandingPageBackup",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicLandingPageBackup.jsx",
+          "importSpec": {
+            "modulePath": "../pages/landing-page-backup.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicLandingPageBackup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

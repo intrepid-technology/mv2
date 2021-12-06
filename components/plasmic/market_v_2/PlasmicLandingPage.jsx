@@ -18,23 +18,31 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import AlertCard from "../../AlertCard"; // plasmic-import: Kd4Jtco7N_/component
-import Typography from "../../Typography"; // plasmic-import: DWcJDlqh2G/component
-import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
+import Navbar from "../../Navbar"; // plasmic-import: pP9c6XTFzc/component
+import BadgeSectionTitle from "../../BadgeSectionTitle"; // plasmic-import: kKmAboE5L2/component
+import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import IconElementCircle from "../../IconElementCircle"; // plasmic-import: NwC_LltBnY/component
+import CardFeatureHeadlineDescriptionCentered from "../../CardFeatureHeadlineDescriptionCentered"; // plasmic-import: qwkYbKgKSI/component
+import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
+import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
+import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLandingPage.module.css"; // plasmic-import: 0fvA7C1gRK/css
-import GlobeAmericaIcon from "./icons/PlasmicIcon__GlobeAmerica"; // plasmic-import: RRtaLxXmQA/icon
-import ShopCartIcon from "./icons/PlasmicIcon__ShopCart"; // plasmic-import: vfwo0XDly/icon
+import ApplesvgIcon from "./icons/PlasmicIcon__Applesvg"; // plasmic-import: J_76r5N89/icon
+import TheNorthFace1LogoSvgVectorsvgIcon from "./icons/PlasmicIcon__TheNorthFace1LogoSvgVectorsvg"; // plasmic-import: Anyn124Pr/icon
+import MastercardsvgIcon from "./icons/PlasmicIcon__Mastercardsvg"; // plasmic-import: W4hkSJywT/icon
+import NikesvgIcon from "./icons/PlasmicIcon__Nikesvg"; // plasmic-import: jNcsRuphk/icon
+import LvmhLogosvgIcon from "./icons/PlasmicIcon__LvmhLogosvg"; // plasmic-import: 9MwDlhB7W/icon
+import LocationBIcon from "./icons/PlasmicIcon__LocationB"; // plasmic-import: YysIQ6TyFi/icon
+import Icon57Icon from "./icons/PlasmicIcon__Icon57"; // plasmic-import: ZQ_F_LMs3f/icon
 import P2PPayPaymentIcon from "./icons/PlasmicIcon__P2PPayPayment"; // plasmic-import: cymbQps3m/icon
-import VerifiedIcon from "./icons/PlasmicIcon__Verified"; // plasmic-import: Vkzuz4t2NA/icon
 
 export const PlasmicLandingPage__VariantProps = new Array();
 
-export const PlasmicLandingPage__ArgProps = new Array();
+export const PlasmicLandingPage__ArgProps = new Array("children", "slot3");
 
 function PlasmicLandingPage__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -67,393 +75,1945 @@ function PlasmicLandingPage__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"alertWrapper"}
-            data-plasmic-override={overrides.alertWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.alertWrapper
-            )}
-          >
-            <AlertCard
-              data-plasmic-name={"alertCard"}
-              data-plasmic-override={overrides.alertCard}
-              className={classNames("__wab_instance", sty.alertCard)}
-              content={
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__zI2E
-                  )}
-                >
-                  {"Sign up for before November 18th."}
-                </div>
-              }
-            />
-          </div>
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
+            <div
+              data-plasmic-name={"navbarWrapper"}
+              data-plasmic-override={overrides.navbarWrapper}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.navbarWrapper
+              )}
+            >
+              <Navbar
+                data-plasmic-name={"navbar"}
+                data-plasmic-override={overrides.navbar}
+                className={classNames("__wab_instance", sty.navbar)}
+                dark={"dark"}
+              />
+            </div>
+          ) : null}
 
-          <p.Stack
-            as={"div"}
-            data-plasmic-name={"contentWrapper"}
-            data-plasmic-override={overrides.contentWrapper}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper
-            )}
+          <div
+            data-plasmic-name={"hero2A"}
+            data-plasmic-override={overrides.hero2A}
+            className={classNames(defaultcss.all, projectcss.all, sty.hero2A)}
           >
             <p.Stack
               as={"div"}
-              data-plasmic-name={"heroWrapper"}
-              data-plasmic-override={overrides.heroWrapper}
               hasGap={true}
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
-                sty.heroWrapper
+                sty.columns__dK5
               )}
             >
               <div
-                data-plasmic-name={"titleWrapper"}
-                data-plasmic-override={overrides.titleWrapper}
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
-                  sty.titleWrapper
+                  sty.column__xo9Az
                 )}
               >
-                <Typography
-                  data-plasmic-name={"typography"}
-                  data-plasmic-override={overrides.typography}
-                  className={classNames("__wab_instance", sty.typography)}
-                  kind={"hero"}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.freeBox__b2E2Q
+                    )}
+                  >
+                    {(
+                      hasVariant(globalVariants, "screen", "desktop")
+                        ? true
+                        : true
+                    ) ? (
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.freeBox__ukmZ2
+                        )}
+                      >
+                        {(
+                          hasVariant(globalVariants, "screen", "desktop")
+                            ? true
+                            : true
+                        ) ? (
+                          <p.Stack
+                            as={"div"}
+                            hasGap={true}
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              sty.freeBox___7DeVr
+                            )}
+                          >
+                            <BadgeSectionTitle
+                              className={classNames(
+                                "__wab_instance",
+                                sty.badgeSectionTitle__qXub9
+                              )}
+                              colors={
+                                hasVariant(globalVariants, "screen", "desktop")
+                                  ? "light"
+                                  : undefined
+                              }
+                              sectionTitleSlot={
+                                hasVariant(globalVariants, "screen", "desktop")
+                                  ? "REMOTE OS"
+                                  : "section title"
+                              }
+                            />
+
+                            {(
+                              hasVariant(globalVariants, "screen", "desktop")
+                                ? true
+                                : true
+                            ) ? (
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  sty.freeBox__xtE7
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    defaultcss.all,
+                                    projectcss.all,
+                                    defaultcss.__wab_text,
+                                    sty.text__yN3P
+                                  )}
+                                >
+                                  {hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "desktop"
+                                  )
+                                    ? "Run your remote company and live your best life"
+                                    : "Enter some text"}
+                                </div>
+                              </div>
+                            ) : null}
+                          </p.Stack>
+                        ) : null}
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__qNvgm
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ztd5X
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries—so you can run a global and remote workforce that scales on demand from anywhere in the world."
+                              : "Enter some text"}
+                          </div>
+                        </div>
+                      </p.Stack>
+                    ) : null}
+
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__zheXn
+                      )}
+                      color={"brand"}
+                      rounded={"rounded"}
+                    >
+                      {"Request access"}
+                    </Button>
+                  </p.Stack>
+                ) : null}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.column__cdamw
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <img
+                    alt={""}
+                    className={classNames(
+                      defaultcss.img,
+                      projectcss.img,
+                      sty.img__nOw5H
+                    )}
+                    loading={"lazy"}
+                    src={
+                      hasVariant(globalVariants, "screen", "desktop")
+                        ? "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
+                        : undefined
+                    }
+                  />
+                ) : null}
+              </div>
+            </p.Stack>
+          </div>
+
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"sectionBrandTestimonial"}
+              data-plasmic-override={overrides.sectionBrandTestimonial}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.sectionBrandTestimonial
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__c3IeE
+                )}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___8KjUa
+                  )}
+                >
+                  {p.renderPlasmicSlot({
+                    defaultContents:
+                      "We're a trusted community to world class teams",
+                    value: args.children,
+                    className: classNames(sty.slotTargetChildren)
+                  })}
+                </div>
+              </div>
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__c3HQ
+                )}
+              >
+                {p.renderPlasmicSlot({
+                  defaultContents: (
+                    <React.Fragment>
+                      <ApplesvgIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__qdTfx
+                        )}
+                        role={"img"}
+                      />
+
+                      <TheNorthFace1LogoSvgVectorsvgIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__hRjMh
+                        )}
+                        role={"img"}
+                      />
+
+                      <MastercardsvgIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__uRiIa
+                        )}
+                        role={"img"}
+                      />
+
+                      <NikesvgIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__mbJw0
+                        )}
+                        role={"img"}
+                      />
+
+                      <LvmhLogosvgIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__hd5D
+                        )}
+                        role={"img"}
+                      />
+                    </React.Fragment>
+                  ),
+
+                  value: args.slot3,
+                  className: classNames(sty.slotTargetSlot3)
+                })}
+              </p.Stack>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"featureOne"}
+              data-plasmic-override={overrides.featureOne}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.featureOne
+              )}
+            >
+              <BadgeSectionTitle
+                border={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "border"
+                    : undefined
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.badgeSectionTitle__g71Xd
+                )}
+                colors={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "brand"
+                    : undefined
+                }
+                sectionTitleSlot={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "What is REMOTE OS?"
+                    : "section title"
+                }
+              />
+
+              {(
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___0KqWu
+                  )}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       projectcss.all,
                       defaultcss.__wab_text,
-                      sty.text__fkIam
+                      sty.text__kTRu
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Business management software that gives your remote company superpowers"
+                      : "Enter some text"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__dbN4
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "
+                      : "Enter some text"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__evqum
+                )}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___5FDc
+                  )}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle___2Zq4O
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <LocationBIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__dwxDu
+                        )}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <CardFeatureHeadlineDescriptionCentered
+                    bodyTextSlot={
+                      "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureHeadlineDescriptionCentered__sBz8O
+                    )}
+                    headlineSlot={"Find and hire freelancers & agencies"}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__oLb2U
+                  )}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle__zsb2I
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <Icon57Icon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__lm89G
+                        )}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <CardFeatureHeadlineDescriptionCentered
+                    bodyTextSlot={
+                      "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureHeadlineDescriptionCentered__v4Umg
+                    )}
+                    headlineSlot={"60 day net payment terms "}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__zjAwk
+                  )}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle__oElry
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <P2PPayPaymentIcon
+                        className={classNames(
+                          defaultcss.all,
+                          projectcss.all,
+                          sty.svg__i8Y5D
+                        )}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <CardFeatureHeadlineDescriptionCentered
+                    bodyTextSlot={
+                      "Pay your international team wherever they are in the world with fast and easy cross border payments and receipt tracking"
+                    }
+                    className={classNames(
+                      "__wab_instance",
+                      sty.cardFeatureHeadlineDescriptionCentered__jNiMn
+                    )}
+                    headlineSlot={"Pay your team in 150 countries"}
+                  />
+                </p.Stack>
+              </p.Stack>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"featureTwo"}
+              data-plasmic-override={overrides.featureTwo}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.featureTwo
+              )}
+            >
+              <BadgeSectionTitle
+                border={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "border"
+                    : undefined
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.badgeSectionTitle__mTvd5
+                )}
+                colors={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "brand"
+                    : undefined
+                }
+                sectionTitleSlot={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "machine learning"
+                    : "section title"
+                }
+              />
+
+              {(
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__tJkge
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__zKr39
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Freelancer and agency recommendations that match your needs and save you time without endless searching"
+                      : "Enter some text"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__dUKbZ
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, agencies, and services you need to get things done, scale up, and go to market fast."
+                      : "Enter some text"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox___7V9Yb
+                )}
+              >
+                <CardImageHeadlineDescription
+                  _270X270={
+                    <img
+                      data-plasmic-name={"_270X270"}
+                      data-plasmic-override={overrides._270X270}
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty._270X270
+                      )}
+                      src={"/plasmic/market_v_2/images/image31.png"}
+                    />
+                  }
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardImageHeadlineDescription__pwSEq
+                  )}
+                  description={"description"}
+                  size={"_270X270"}
+                  textLinkHeadlineParent={
+                    <TextLinkUnderlinePrimary
+                      color={"headline"}
+                      size={"_32"}
+                      text={
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__jrOfy
+                          )}
+                        >
+                          {"UX Design"}
+                        </div>
+                      }
+                    />
+                  }
+                />
+
+                <CardImageHeadlineDescription
+                  _270X270={
+                    <img
+                      data-plasmic-name={"_270X2702"}
+                      data-plasmic-override={overrides._270X2702}
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty._270X2702
+                      )}
+                      src={"/plasmic/market_v_2/images/image29.png"}
+                    />
+                  }
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardImageHeadlineDescription__fxAiP
+                  )}
+                  description={"description"}
+                  size={"_270X270"}
+                  textLinkHeadlineParent={
+                    <TextLinkUnderlinePrimary
+                      color={"headline"}
+                      size={"_24"}
+                      text={
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__co0FG
+                          )}
+                        >
+                          {"Mobile apps"}
+                        </div>
+                      }
+                    />
+                  }
+                />
+
+                <CardImageHeadlineDescription
+                  _270X270={
+                    <img
+                      data-plasmic-name={"_270X2703"}
+                      data-plasmic-override={overrides._270X2703}
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty._270X2703
+                      )}
+                      src={"/plasmic/market_v_2/images/image11.png"}
+                    />
+                  }
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardImageHeadlineDescription__gztzk
+                  )}
+                  description={"description"}
+                  size={"_270X270"}
+                  textLinkHeadlineParent={
+                    <TextLinkUnderlinePrimary
+                      color={"headline"}
+                      size={"_24"}
+                      text={
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text__iEqIq
+                          )}
+                        >
+                          {"No Code"}
+                        </div>
+                      }
+                    />
+                  }
+                />
+
+                <CardImageHeadlineDescription
+                  _270X270={
+                    <img
+                      data-plasmic-name={"_270X2704"}
+                      data-plasmic-override={overrides._270X2704}
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty._270X2704
+                      )}
+                      src={"/plasmic/market_v_2/images/image30.png"}
+                    />
+                  }
+                  className={classNames(
+                    "__wab_instance",
+                    sty.cardImageHeadlineDescription__fmGwH
+                  )}
+                  description={"description"}
+                  size={"_270X270"}
+                  textLinkHeadlineParent={
+                    <TextLinkUnderlinePrimary
+                      color={"headline"}
+                      size={"_24"}
+                      text={
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            defaultcss.__wab_text,
+                            sty.text___12Mer
+                          )}
+                        >
+                          {"Web apps"}
+                        </div>
+                      }
+                    />
+                  }
+                />
+              </p.Stack>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"remoteWorkCta"}
+              data-plasmic-override={overrides.remoteWorkCta}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.remoteWorkCta
+              )}
+            >
+              <BadgeSectionTitle
+                className={classNames(
+                  "__wab_instance",
+                  sty.badgeSectionTitle__wIjPf
+                )}
+                colors={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "light"
+                    : undefined
+                }
+                sectionTitleSlot={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "remote work"
+                    : "section title"
+                }
+              />
+
+              {(
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__gk0Ee
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___3PMT
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Adapt and navigate your\nremote work transformation\nand make your team happy"
+                      : "Enter some text"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text___4YJnh
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services designed for remote companies."
+                      : "Enter some text"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__srSmU
+                )}
+              >
+                <Button
+                  className={classNames("__wab_instance", sty.button___2YXuk)}
+                  color={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "brand"
+                      : undefined
+                  }
+                  hasShadow={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "hasShadow"
+                      : undefined
+                  }
+                  rounded={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "rounded"
+                      : undefined
+                  }
+                >
+                  {hasVariant(globalVariants, "screen", "desktop")
+                    ? "Request access"
+                    : "Button"}
+                </Button>
+              </div>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
+            <div
+              data-plasmic-name={"findAndHire"}
+              data-plasmic-override={overrides.findAndHire}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.findAndHire
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns__kdjQa
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__w2RDk
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__x6Dtz
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__eEqzD
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={"find and hire"}
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__otGp
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ch19Y
+                            )}
+                          >
+                            {
+                              "Find the right people, skills and services you need—when you need it."
+                            }
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__tvhl7
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__hgXx
+                                )}
+                              >
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone678Plus"
+                                )
+                                  ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__xfHrU
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__r8Lts
+                      )}
+                      loading={"lazy"}
+                      src={
+                        "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <div
+              data-plasmic-name={"financialServices"}
+              data-plasmic-override={overrides.financialServices}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.financialServices
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns__uSIhZ
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__pqQ27
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__iik51
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__ag0Mo
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={
+                          hasVariant(globalVariants, "screen", "desktop")
+                            ? "buy now pay later"
+                            : "find and hire"
+                        }
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__pVheP
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___055Ku
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "60 day net payment terms and a line of credit to onboard freelancers or agencies at no risk"
+                              : "Find the right people, skills and services you need—when you need it."}
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__hfhd
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__tBgyE
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "desktop")
+                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__wpDh0
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__lLh
+                      )}
+                      loading={"lazy"}
+                      src={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "/plasmic/market_v_2/images/creditlineIPhone12ProMockuppng.png"
+                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <div
+              data-plasmic-name={"internationalPayments"}
+              data-plasmic-override={overrides.internationalPayments}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.internationalPayments
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns__qDaZc
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__z1DyX
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__jMi7
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__fnY2C
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={
+                          hasVariant(globalVariants, "screen", "desktop")
+                            ? "International payments"
+                            : "find and hire"
+                        }
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__n4E8U
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__cyDea
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Pay your freelancers and agencies in 150 different countries with one-click"
+                              : "Find the right people, skills and services you need—when you need it."}
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__oPc5M
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text___6DqXv
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "desktop")
+                                  ? "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__djtkA
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__xs5Ij
+                      )}
+                      loading={"lazy"}
+                      src={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "/plasmic/market_v_2/images/internationalPaymentspng3.png"
+                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <div
+              data-plasmic-name={"expenseManagement"}
+              data-plasmic-override={overrides.expenseManagement}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.expenseManagement
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns___9Y6Sa
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__cTiLh
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__kn6B
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__djN33
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__uieC2
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Expense management"
+                              : "find and hire"}
+                          </div>
+                        }
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__t0XCb
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___8FIod
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Manage your  budget and track expenses based on your team's performance"
+                              : "Find the right people, skills and services you need—when you need it."}
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__w4Xne
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__bEOzc
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "desktop")
+                                  ? "Track your expenses by team member or department, so you can manage your cash flow and know how much you're spending."
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__nwfkd
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__dCeHn
+                      )}
+                      loading={"lazy"}
+                      src={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "/plasmic/market_v_2/images/financeDashSafariNoShadowpng2.jpeg"
+                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <div
+              data-plasmic-name={"compliance"}
+              data-plasmic-override={overrides.compliance}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.compliance
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns__wV6NZ
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__xlxcO
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__hGmJc
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__b6S0
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__x7Vas
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Compliance"
+                              : "find and hire"}
+                          </div>
+                        }
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__a8Q3K
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text___3JkaC
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Comply with international and local laws without the complexity"
+                              : "Find the right people, skills and services you need—when you need it."}
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__kd6Nj
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__lLIsF
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "desktop")
+                                  ? "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__mw9Vy
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__gJY
+                      )}
+                      loading={"lazy"}
+                      src={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "/plasmic/market_v_2/images/compliancepng.png"
+                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <div
+              data-plasmic-name={"workforceManagement"}
+              data-plasmic-override={overrides.workforceManagement}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.workforceManagement
+              )}
+            >
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.columns__zJcMt
+                )}
+              >
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column__tXkos
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.freeBox__nvkKv
+                      )}
+                    >
+                      <BadgeSectionTitle
+                        border={"border"}
+                        className={classNames(
+                          "__wab_instance",
+                          sty.badgeSectionTitle__o4Dv2
+                        )}
+                        colors={"brand"}
+                        sectionTitleSlot={
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__yXe6E
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Workforce management"
+                              : "find and hire"}
+                          </div>
+                        }
+                      />
+
+                      {true ? (
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            defaultcss.all,
+                            projectcss.all,
+                            sty.freeBox__qDqe
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              defaultcss.all,
+                              projectcss.all,
+                              defaultcss.__wab_text,
+                              sty.text__ejuCk
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "desktop")
+                              ? "Manage a global team and remote workforce with greater transparency"
+                              : "Find the right people, skills and services you need—when you need it."}
+                          </div>
+
+                          {true ? (
+                            <div
+                              className={classNames(
+                                defaultcss.all,
+                                projectcss.all,
+                                sty.freeBox__s0Cd
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  defaultcss.all,
+                                  projectcss.all,
+                                  defaultcss.__wab_text,
+                                  sty.text__fvLxY
+                                )}
+                              >
+                                {hasVariant(globalVariants, "screen", "desktop")
+                                  ? "Know where your team is and their timezone, so you can schedule meetings and collaborate without the constant back and forth. Know exactly what projects are going on, who’s doing it, and when it will be done. "
+                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                              </div>
+                            </div>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
+                    </p.Stack>
+                  </div>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
+                ) ? (
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.column___4AgGi
+                    )}
+                  >
+                    <img
+                      alt={""}
+                      className={classNames(
+                        defaultcss.img,
+                        projectcss.img,
+                        sty.img__fTfiA
+                      )}
+                      loading={"lazy"}
+                      src={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "/plasmic/market_v_2/images/mappng.png"
+                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                      }
+                    />
+                  </div>
+                ) : null}
+              </p.Stack>
+            </div>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"metricsCta"}
+              data-plasmic-override={overrides.metricsCta}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.metricsCta
+              )}
+            >
+              <BadgeSectionTitle
+                border={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "border"
+                    : undefined
+                }
+                className={classNames(
+                  "__wab_instance",
+                  sty.badgeSectionTitle__wfrOc
+                )}
+                colors={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "brand"
+                    : undefined
+                }
+                sectionTitleSlot={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "community"
+                    : "section title"
+                }
+              />
+
+              {(
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__idOvW
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__e70Ma
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Grow a global and remote company without the hassles"
+                      : "Enter some text"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__zjBn
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."
+                      : "Enter some text"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.freeBox__d9YM7
+                )}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__eNku8
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__rMoY4
+                    )}
+                  >
+                    {"150"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__cfS4S
+                    )}
+                  >
+                    {"Countries for payments and compliance"}
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__xuqzH
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__eGcDu
+                    )}
+                  >
+                    {"27,000"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__dcNnD
+                    )}
+                  >
+                    {"Pre-vetted freelancers and agencies"}
+                  </div>
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox__mj2Ev
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__bgE5G
+                    )}
+                  >
+                    {"60"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__zU6Hu
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "iphone678")
-                      ? "Discover and buy technology & creative services - on demand"
-                      : "Discover and buy\ntechnology & creative\nservices - on demand"}
+                      ? "   Day credit and net payment terms. "
+                      : "Day credit and net payment terms. "}
                   </div>
-                </Typography>
-              </div>
+                </p.Stack>
+              </p.Stack>
+            </p.Stack>
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"closingCta"}
+              data-plasmic-override={overrides.closingCta}
+              hasGap={true}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.closingCta
+              )}
+            >
+              {(
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
+              ) ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.freeBox___0ESm3
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__rlmQe
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Get started for free"
+                      : "Enter some text"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__svmxW
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Join a trusted community of world class teams on a platform built for today’s world of work"
+                      : "Enter some text"}
+                  </div>
+                </p.Stack>
+              ) : null}
 
               <div
-                data-plasmic-name={"subTitleWrapper"}
-                data-plasmic-override={overrides.subTitleWrapper}
                 className={classNames(
                   defaultcss.all,
                   projectcss.all,
-                  sty.subTitleWrapper
+                  sty.freeBox__o6JpK
                 )}
               >
-                {true ? (
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__j4O2
-                    )}
-                  >
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        defaultcss.__wab_text,
-                        sty.text__u4Yso
-                      )}
-                    >
-                      {"Where "}
-                    </div>
-
-                    {true ? (
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          defaultcss.__wab_text,
-                          sty.text__lgGyk
-                        )}
-                      >
-                        {"startups"}
-                      </div>
-                    ) : null}
-
-                    <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        defaultcss.__wab_text,
-                        sty.text___93Dby
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "iphone678")
-                        ? " come to find the services"
-                        : hasVariant(globalVariants, "screen", "iphone678Plus")
-                        ? " come to find the services"
-                        : " come to find "}
-                    </div>
-                  </div>
-                ) : null}
-                {true ? (
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__g0J7
-                    )}
-                  >
-                    {true ? (
-                      <div
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          defaultcss.__wab_text,
-                          sty.text___73AJ4
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "iphone678")
-                          ? "they need to grow - all in one place"
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "iphone678Plus"
-                            )
-                          ? "they need to grow - all in one place"
-                          : "the services they need to grow - all in one place"}
-                      </div>
-                    ) : null}
-                  </div>
-                ) : null}
+                <Button
+                  className={classNames("__wab_instance", sty.button__vmX84)}
+                  color={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "brand"
+                      : undefined
+                  }
+                  rounded={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "rounded"
+                      : undefined
+                  }
+                >
+                  {hasVariant(globalVariants, "screen", "desktop")
+                    ? "Request access"
+                    : "Button"}
+                </Button>
               </div>
             </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"actionsWrapper"}
-              data-plasmic-override={overrides.actionsWrapper}
-              hasGap={true}
+          ) : null}
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
+            <div
+              data-plasmic-name={"footerWrapper"}
+              data-plasmic-override={overrides.footerWrapper}
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
-                sty.actionsWrapper
+                sty.footerWrapper
               )}
             >
-              <ButtonPrimary
-                data-plasmic-name={"buyServicesButton"}
-                data-plasmic-override={overrides.buyServicesButton}
-                className={classNames("__wab_instance", sty.buyServicesButton)}
-                color={"brand"}
-                destination={
-                  "https://intrepidventures.typeform.com/to/MthpVWrA"
-                }
-                hasShadow={"hasShadow"}
-                rounded={"rounded"}
-                type={"primary"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__phbT
-                  )}
-                >
-                  {"Buy Services"}
-                </div>
-              </ButtonPrimary>
-
-              <ButtonPrimary
-                data-plasmic-name={"sellServicesButton"}
-                data-plasmic-override={overrides.sellServicesButton}
-                className={classNames("__wab_instance", sty.sellServicesButton)}
-                color={"brand"}
-                destination={
-                  "https://intrepidventures.typeform.com/to/qoNxle4D"
-                }
-                rounded={"rounded"}
-                type={"light"}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    defaultcss.__wab_text,
-                    sty.text__ymYdZ
-                  )}
-                >
-                  {"Sell Services"}
-                </div>
-              </ButtonPrimary>
-            </p.Stack>
-
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"descriptionPoints"}
-              data-plasmic-override={overrides.descriptionPoints}
-              hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.descriptionPoints
-              )}
-            >
-              <IconListItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.iconListItem___3Gm46
-                )}
-                icon={
-                  <GlobeAmericaIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__og0Nk
-                    )}
-                    role={"img"}
-                  />
-                }
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__u9Dbi
-                    )}
-                  >
-                    {"Global access to over 27,000 SMBs and professionals"}
-                  </div>
-                }
-                vertical={
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
-                    ? "vertical"
+              <Footer
+                data-plasmic-name={"footer"}
+                data-plasmic-override={overrides.footer}
+                className={classNames("__wab_instance", sty.footer)}
+                color={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "color"
                     : undefined
                 }
               />
-
-              <IconListItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.iconListItem__uMsKt
-                )}
-                icon={
-                  <ShopCartIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__b3JzM
-                    )}
-                    role={"img"}
-                  />
-                }
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__v4Qu5
-                    )}
-                  >
-                    {"Personalised shopping and fast checkout experience"}
-                  </div>
-                }
-                vertical={
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
-                    ? "vertical"
-                    : undefined
-                }
-              />
-
-              <IconListItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.iconListItem__jqCic
-                )}
-                icon={
-                  <P2PPayPaymentIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__b9Zrw
-                    )}
-                    role={"img"}
-                  />
-                }
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text___9Hkf1
-                    )}
-                  >
-                    {
-                      "Net 60 day payment terms - onboard at no risk, cancel anytime"
-                    }
-                  </div>
-                }
-                vertical={
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
-                    ? "vertical"
-                    : undefined
-                }
-              />
-
-              <IconListItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.iconListItem__dKfHb
-                )}
-                icon={
-                  <VerifiedIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__avjEp
-                    )}
-                    role={"img"}
-                  />
-                }
-                label={
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      defaultcss.__wab_text,
-                      sty.text__y55Yw
-                    )}
-                  >
-                    {"International compliance, tax, and payments"}
-                  </div>
-                }
-                vertical={
-                  hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
-                    ? "vertical"
-                    : undefined
-                }
-              />
-            </p.Stack>
-          </p.Stack>
+            </div>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -463,41 +2023,50 @@ function PlasmicLandingPage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "alertWrapper",
-    "alertCard",
-    "contentWrapper",
-    "heroWrapper",
-    "titleWrapper",
-    "typography",
-    "subTitleWrapper",
-    "actionsWrapper",
-    "buyServicesButton",
-    "sellServicesButton",
-    "descriptionPoints"
+    "navbarWrapper",
+    "navbar",
+    "hero2A",
+    "sectionBrandTestimonial",
+    "featureOne",
+    "featureTwo",
+    "_270X270",
+    "_270X2702",
+    "_270X2703",
+    "_270X2704",
+    "remoteWorkCta",
+    "findAndHire",
+    "financialServices",
+    "internationalPayments",
+    "expenseManagement",
+    "compliance",
+    "workforceManagement",
+    "metricsCta",
+    "closingCta",
+    "footerWrapper",
+    "footer"
   ],
 
-  alertWrapper: ["alertWrapper", "alertCard"],
-  alertCard: ["alertCard"],
-  contentWrapper: [
-    "contentWrapper",
-    "heroWrapper",
-    "titleWrapper",
-    "typography",
-    "subTitleWrapper",
-    "actionsWrapper",
-    "buyServicesButton",
-    "sellServicesButton",
-    "descriptionPoints"
-  ],
-
-  heroWrapper: ["heroWrapper", "titleWrapper", "typography", "subTitleWrapper"],
-  titleWrapper: ["titleWrapper", "typography"],
-  typography: ["typography"],
-  subTitleWrapper: ["subTitleWrapper"],
-  actionsWrapper: ["actionsWrapper", "buyServicesButton", "sellServicesButton"],
-  buyServicesButton: ["buyServicesButton"],
-  sellServicesButton: ["sellServicesButton"],
-  descriptionPoints: ["descriptionPoints"]
+  navbarWrapper: ["navbarWrapper", "navbar"],
+  navbar: ["navbar"],
+  hero2A: ["hero2A"],
+  sectionBrandTestimonial: ["sectionBrandTestimonial"],
+  featureOne: ["featureOne"],
+  featureTwo: ["featureTwo", "_270X270", "_270X2702", "_270X2703", "_270X2704"],
+  _270X270: ["_270X270"],
+  _270X2702: ["_270X2702"],
+  _270X2703: ["_270X2703"],
+  _270X2704: ["_270X2704"],
+  remoteWorkCta: ["remoteWorkCta"],
+  findAndHire: ["findAndHire"],
+  financialServices: ["financialServices"],
+  internationalPayments: ["internationalPayments"],
+  expenseManagement: ["expenseManagement"],
+  compliance: ["compliance"],
+  workforceManagement: ["workforceManagement"],
+  metricsCta: ["metricsCta"],
+  closingCta: ["closingCta"],
+  footerWrapper: ["footerWrapper", "footer"],
+  footer: ["footer"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -531,17 +2100,27 @@ export const PlasmicLandingPage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    alertWrapper: makeNodeComponent("alertWrapper"),
-    alertCard: makeNodeComponent("alertCard"),
-    contentWrapper: makeNodeComponent("contentWrapper"),
-    heroWrapper: makeNodeComponent("heroWrapper"),
-    titleWrapper: makeNodeComponent("titleWrapper"),
-    typography: makeNodeComponent("typography"),
-    subTitleWrapper: makeNodeComponent("subTitleWrapper"),
-    actionsWrapper: makeNodeComponent("actionsWrapper"),
-    buyServicesButton: makeNodeComponent("buyServicesButton"),
-    sellServicesButton: makeNodeComponent("sellServicesButton"),
-    descriptionPoints: makeNodeComponent("descriptionPoints"),
+    navbarWrapper: makeNodeComponent("navbarWrapper"),
+    navbar: makeNodeComponent("navbar"),
+    hero2A: makeNodeComponent("hero2A"),
+    sectionBrandTestimonial: makeNodeComponent("sectionBrandTestimonial"),
+    featureOne: makeNodeComponent("featureOne"),
+    featureTwo: makeNodeComponent("featureTwo"),
+    _270X270: makeNodeComponent("_270X270"),
+    _270X2702: makeNodeComponent("_270X2702"),
+    _270X2703: makeNodeComponent("_270X2703"),
+    _270X2704: makeNodeComponent("_270X2704"),
+    remoteWorkCta: makeNodeComponent("remoteWorkCta"),
+    findAndHire: makeNodeComponent("findAndHire"),
+    financialServices: makeNodeComponent("financialServices"),
+    internationalPayments: makeNodeComponent("internationalPayments"),
+    expenseManagement: makeNodeComponent("expenseManagement"),
+    compliance: makeNodeComponent("compliance"),
+    workforceManagement: makeNodeComponent("workforceManagement"),
+    metricsCta: makeNodeComponent("metricsCta"),
+    closingCta: makeNodeComponent("closingCta"),
+    footerWrapper: makeNodeComponent("footerWrapper"),
+    footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicLandingPage
     internalVariantProps: PlasmicLandingPage__VariantProps,
     internalArgProps: PlasmicLandingPage__ArgProps
