@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardTestimonial.module.css"; // plasmic-import: 1Jyr2EbmPr/css
 
@@ -37,49 +36,22 @@ function PlasmicCardTestimonial__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {p.renderPlasmicSlot({
         defaultContents: (
           <img
             alt={""}
-            className={classNames(
-              defaultcss.img,
-              projectcss.img,
-              sty.img__ju0U3
-            )}
+            className={classNames(projectcss.img, sty.img__ju0U3)}
           />
         ),
 
         value: args.slot3
       })}
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___0GW0V
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___7QjsC
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__e3NvI
-            )}
-          >
+      <div className={classNames(projectcss.all, sty.freeBox___0GW0V)}>
+        <div className={classNames(projectcss.all, sty.freeBox___7QjsC)}>
+          <div className={classNames(projectcss.all, sty.freeBox__e3NvI)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Our company had an excellent experience with Intrepid. As a startup, we had a limited budget, and we were on a tight deadline. We needed a mobile app for our fintech application, that has complicated features. But it ended up being super easy to find a purchase a package. In the end, the process was smooth and straightforward.”",
@@ -89,20 +61,8 @@ function PlasmicCardTestimonial__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__n6Om6
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__tIx4I
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__n6Om6)}>
+          <div className={classNames(projectcss.all, sty.freeBox__tIx4I)}>
             {p.renderPlasmicSlot({
               defaultContents: "Collin Thompson",
               value: args.slot,
@@ -111,20 +71,8 @@ function PlasmicCardTestimonial__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__ynnS1
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__usx1B
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__ynnS1)}>
+          <div className={classNames(projectcss.all, sty.freeBox__usx1B)}>
             {p.renderPlasmicSlot({
               defaultContents: "CEO @ Intrepid",
               value: args.slot2,

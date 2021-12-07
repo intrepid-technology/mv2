@@ -28,7 +28,6 @@ import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import DialogInviteProfessional from "../../DialogInviteProfessional"; // plasmic-import: UnAAzfphtK/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTest.module.css"; // plasmic-import: v_33trlWhR/css
 
@@ -52,7 +51,7 @@ function PlasmicTest__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -61,7 +60,6 @@ function PlasmicTest__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -72,21 +70,11 @@ function PlasmicTest__RenderFunc(props) {
             data-plasmic-override={overrides.formContext}
             className={classNames("__wab_instance", sty.formContext)}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__uLznf
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__uLznf)}>
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__aaNhh
-                )}
+                className={classNames(projectcss.all, sty.freeBox__aaNhh)}
               >
                 <FormTextInput
                   data-plasmic-name={"formTextInput"}
@@ -189,9 +177,8 @@ function PlasmicTest__RenderFunc(props) {
                     data-plasmic-name={"text"}
                     data-plasmic-override={overrides.text}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text
                     )}
                   >

@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicBadgeOverline.module.css"; // plasmic-import: VgxQDgSvqop/css
 import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: alaRRmprOn/icon
@@ -39,51 +38,34 @@ function PlasmicBadgeOverline__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
-          [sty.root__colors_smoke]: hasVariant(variants, "colors", "smoke"),
-          [sty.root__colors_smoke_type_outline]:
-            hasVariant(variants, "colors", "smoke") &&
-            hasVariant(variants, "type", "outline"),
-          [sty.root__type_outline]: hasVariant(variants, "type", "outline")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
+        [sty.root__colors_smoke]: hasVariant(variants, "colors", "smoke"),
+        [sty.root__colors_smoke_type_outline]:
+          hasVariant(variants, "colors", "smoke") &&
+          hasVariant(variants, "type", "outline"),
+        [sty.root__type_outline]: hasVariant(variants, "type", "outline")
+      })}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___09JR,
-          {
-            [sty.freeBox__colors_smoke___09JRc1422]: hasVariant(
-              variants,
-              "colors",
-              "smoke"
-            ),
+        className={classNames(projectcss.all, sty.freeBox___09JR, {
+          [sty.freeBox__colors_smoke___09JRc1422]: hasVariant(
+            variants,
+            "colors",
+            "smoke"
+          ),
 
-            [sty.freeBox__colors_smoke_type_outline___09JRc1422V9AmM]:
-              hasVariant(variants, "colors", "smoke") &&
-              hasVariant(variants, "type", "outline"),
-            [sty.freeBox__type_outline___09JRv9AmM]: hasVariant(
-              variants,
-              "type",
-              "outline"
-            )
-          }
-        )}
+          [sty.freeBox__colors_smoke_type_outline___09JRc1422V9AmM]:
+            hasVariant(variants, "colors", "smoke") &&
+            hasVariant(variants, "type", "outline"),
+          [sty.freeBox__type_outline___09JRv9AmM]: hasVariant(
+            variants,
+            "type",
+            "outline"
+          )
+        })}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__ndql4
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__ndql4)}>
           {p.renderPlasmicSlot({
             defaultContents: "Subject Text",
             value: args.subjectTextSlot,
@@ -111,19 +93,9 @@ function PlasmicBadgeOverline__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__exEE
-        )}
+        className={classNames(projectcss.all, sty.freeBox__exEE)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__wskfG
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__wskfG)}>
           {p.renderPlasmicSlot({
             defaultContents: "Descriptive Text",
             value: args.descriptiveTextSlot,
@@ -146,17 +118,11 @@ function PlasmicBadgeOverline__RenderFunc(props) {
           })}
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___5WPk7
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox___5WPk7)}>
           <ChevronRightIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg__colors_smoke]: hasVariant(variants, "colors", "smoke"),
               [sty.svg__colors_smoke_type_outline]:
                 hasVariant(variants, "colors", "smoke") &&

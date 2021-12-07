@@ -22,7 +22,6 @@ import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicChipUserProfile.module.css"; // plasmic-import: 0x8Ex9CEDPX/css
 
@@ -46,19 +45,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root)}
       component={Link}
       platform={"nextjs"}
     >
       <p.PlasmicLink
         data-plasmic-name={"link"}
         data-plasmic-override={overrides.link}
-        className={classNames(defaultcss.a, projectcss.a, sty.link)}
+        className={classNames(projectcss.a, sty.link)}
         component={Link}
         platform={"nextjs"}
       >
@@ -70,11 +64,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             defaultContents: (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__fsHtd
-                )}
+                className={classNames(projectcss.img, sty.img__fsHtd)}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             ),
@@ -90,58 +80,32 @@ function PlasmicChipUserProfile__RenderFunc(props) {
         data-plasmic-name={"userInfoParent"}
         data-plasmic-override={overrides.userInfoParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.userInfoParent
-        )}
+        className={classNames(projectcss.all, sty.userInfoParent)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__m4FAi,
-            {
-              [sty.freeBox__attributes_verification__m4FAiUnyVe]: hasVariant(
-                variants,
-                "attributes",
-                "verification"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox__m4FAi, {
+            [sty.freeBox__attributes_verification__m4FAiUnyVe]: hasVariant(
+              variants,
+              "attributes",
+              "verification"
+            )
+          })}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__y4Qr7,
-              {
-                [sty.freeBox__attributes_verification__y4Qr7UnyVe]: hasVariant(
-                  variants,
-                  "attributes",
-                  "verification"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__y4Qr7, {
+              [sty.freeBox__attributes_verification__y4Qr7UnyVe]: hasVariant(
+                variants,
+                "attributes",
+                "verification"
+              )
+            })}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__nbdg7
-              )}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__nfhn
-                )}
-              >
+            <div className={classNames(projectcss.all, sty.freeBox__nbdg7)}>
+              <div className={classNames(projectcss.all, sty.freeBox__nfhn)}>
                 {p.renderPlasmicSlot({
                   defaultContents: "Username",
                   value: args.username,
@@ -174,11 +138,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             data-plasmic-name={"verificationCityParent"}
             data-plasmic-override={overrides.verificationCityParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.verificationCityParent
-            )}
+            className={classNames(projectcss.all, sty.verificationCityParent)}
           >
             {(
               hasVariant(variants, "attributes", "membership") ? false : true
@@ -186,20 +146,19 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__fHhjX,
-                  {
-                    [sty.freeBox__attributes_membership__fHhjXeHral]:
-                      hasVariant(variants, "attributes", "membership"),
-                    [sty.freeBox__attributes_rating__fHhjXk3J7I]: hasVariant(
-                      variants,
-                      "attributes",
-                      "rating"
-                    )
-                  }
-                )}
+                className={classNames(projectcss.all, sty.freeBox__fHhjX, {
+                  [sty.freeBox__attributes_membership__fHhjXeHral]: hasVariant(
+                    variants,
+                    "attributes",
+                    "membership"
+                  ),
+
+                  [sty.freeBox__attributes_rating__fHhjXk3J7I]: hasVariant(
+                    variants,
+                    "attributes",
+                    "rating"
+                  )
+                })}
               >
                 <TagPartnerD
                   data-plasmic-name={"tagPartnerD"}
@@ -236,19 +195,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   <p.PlasmicLink
                     data-plasmic-name={"reviewLinkB"}
                     data-plasmic-override={overrides.reviewLinkB}
-                    className={classNames(
-                      defaultcss.a,
-                      projectcss.a,
-                      sty.reviewLinkB
-                    )}
+                    className={classNames(projectcss.a, sty.reviewLinkB)}
                     component={Link}
                     platform={"nextjs"}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__rrUix
                       )}
                     >
@@ -260,19 +214,14 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 <p.PlasmicLink
                   data-plasmic-name={"reviewLinkA"}
                   data-plasmic-override={overrides.reviewLinkA}
-                  className={classNames(
-                    defaultcss.a,
-                    projectcss.a,
-                    sty.reviewLinkA
-                  )}
+                  className={classNames(projectcss.a, sty.reviewLinkA)}
                   component={Link}
                   platform={"nextjs"}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___5WaQl
                     )}
                   >
@@ -287,41 +236,23 @@ function PlasmicChipUserProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__hZgZ
-          )}
+          className={classNames(projectcss.all, sty.freeBox__hZgZ)}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"location"}
             data-plasmic-override={overrides.location}
             hasGap={true}
-            className={classNames(defaultcss.all, projectcss.all, sty.location)}
+            className={classNames(projectcss.all, sty.location)}
           >
             <div
               data-plasmic-name={"cityText"}
               data-plasmic-override={overrides.cityText}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.cityText
-              )}
+              className={classNames(projectcss.all, sty.cityText)}
             >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__fPbL6
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.freeBox__fPbL6)}>
                 <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___0Z9Y0
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___0Z9Y0)}
                 >
                   {p.renderPlasmicSlot({
                     defaultContents: "City",
@@ -333,9 +264,8 @@ function PlasmicChipUserProfile__RenderFunc(props) {
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text___0P9Ko
                 )}
               >
@@ -343,27 +273,9 @@ function PlasmicChipUserProfile__RenderFunc(props) {
               </div>
             </div>
 
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__b02SR
-              )}
-            >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox___4Fz5W
-                )}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__szPVo
-                  )}
-                >
+            <div className={classNames(projectcss.all, sty.freeBox__b02SR)}>
+              <div className={classNames(projectcss.all, sty.freeBox___4Fz5W)}>
+                <div className={classNames(projectcss.all, sty.freeBox__szPVo)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "Country",
                     value: args.country,

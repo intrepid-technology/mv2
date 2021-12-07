@@ -28,7 +28,6 @@ import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/c
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableProjectAdminRecord.module.css"; // plasmic-import: XwgjB__2WeM/css
 import CommentReviewCIcon from "./icons/PlasmicIcon__CommentReviewC"; // plasmic-import: gIz1MSBwtg/icon
@@ -60,12 +59,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
@@ -73,7 +67,6 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         data-plasmic-override={overrides.orderSelectImageCaptionEditParent}
         hasGap={true}
         className={classNames(
-          defaultcss.all,
           projectcss.all,
           sty.orderSelectImageCaptionEditParent
         )}
@@ -90,20 +83,12 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           data-plasmic-name={"orderImageTitleParent"}
           data-plasmic-override={overrides.orderImageTitleParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.orderImageTitleParent
-          )}
+          className={classNames(projectcss.all, sty.orderImageTitleParent)}
         >
           <p.PlasmicLink
             data-plasmic-name={"imageServiceLink"}
             data-plasmic-override={overrides.imageServiceLink}
-            className={classNames(
-              defaultcss.a,
-              projectcss.a,
-              sty.imageServiceLink
-            )}
+            className={classNames(projectcss.a, sty.imageServiceLink)}
             component={Link}
             platform={"nextjs"}
           >
@@ -115,11 +100,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"img"}
                   data-plasmic-override={overrides.img}
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img
-                  )}
+                  className={classNames(projectcss.img, sty.img)}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -130,11 +111,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__n5CEj
-                    )}
+                    className={classNames(projectcss.img, sty.img__n5CEj)}
                     source={
                       "https://firebasestorage.googleapis.com/v0/b/intrepid-market-2021.appspot.com/o/images%2FNaN?alt=media&token=4988630b-c755-4aa7-8aa2-0bacb07592bb"
                     }
@@ -154,31 +131,19 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             data-plasmic-name={"serviceTitleParent"}
             data-plasmic-override={overrides.serviceTitleParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.serviceTitleParent
-            )}
+            className={classNames(projectcss.all, sty.serviceTitleParent)}
           >
             <p.PlasmicLink
               data-plasmic-name={"serviceTitleLink"}
               data-plasmic-override={overrides.serviceTitleLink}
-              className={classNames(
-                defaultcss.a,
-                projectcss.a,
-                sty.serviceTitleLink
-              )}
+              className={classNames(projectcss.a, sty.serviceTitleLink)}
               component={Link}
               platform={"nextjs"}
             >
               <div
                 data-plasmic-name={"freeBox"}
                 data-plasmic-override={overrides.freeBox}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox
-                )}
+                className={classNames(projectcss.all, sty.freeBox)}
               >
                 {p.renderPlasmicSlot({
                   defaultContents: "Service title",
@@ -193,7 +158,6 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             data-plasmic-name={"buttonUserOrderContact"}
             data-plasmic-override={overrides.buttonUserOrderContact}
             className={classNames(
-              defaultcss.button,
               projectcss.button,
               sty.buttonUserOrderContact
             )}
@@ -206,11 +170,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 <CommentReviewCIcon
                   data-plasmic-name={"svgIcon22"}
                   data-plasmic-override={overrides.svgIcon22}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svgIcon22
-                  )}
+                  className={classNames(projectcss.all, sty.svgIcon22)}
                   role={"img"}
                 />
               }
@@ -218,11 +178,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 <CommentReviewCIcon
                   data-plasmic-name={"svgIcon3"}
                   data-plasmic-override={overrides.svgIcon3}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svgIcon3
-                  )}
+                  className={classNames(projectcss.all, sty.svgIcon3)}
                   role={"img"}
                 />
               }
@@ -235,11 +191,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"progressParent"}
           data-plasmic-override={overrides.progressParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.progressParent
-          )}
+          className={classNames(projectcss.all, sty.progressParent)}
         >
           <DisplayIconText
             data-plasmic-name={"displayIconText"}
@@ -261,30 +213,25 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                         ? CircleCheckedIcon
                         : CircleTimeIcon
                     }
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svgIcon23,
-                      {
-                        [sty.svgIcon23__status_cancelled]: hasVariant(
-                          variants,
-                          "status",
-                          "cancelled"
-                        ),
+                    className={classNames(projectcss.all, sty.svgIcon23, {
+                      [sty.svgIcon23__status_cancelled]: hasVariant(
+                        variants,
+                        "status",
+                        "cancelled"
+                      ),
 
-                        [sty.svgIcon23__status_complete]: hasVariant(
-                          variants,
-                          "status",
-                          "complete"
-                        ),
+                      [sty.svgIcon23__status_complete]: hasVariant(
+                        variants,
+                        "status",
+                        "complete"
+                      ),
 
-                        [sty.svgIcon23__status_paused]: hasVariant(
-                          variants,
-                          "status",
-                          "paused"
-                        )
-                      }
-                    )}
+                      [sty.svgIcon23__status_paused]: hasVariant(
+                        variants,
+                        "status",
+                        "paused"
+                      )
+                    })}
                     role={"img"}
                   />
                 }
@@ -304,19 +251,14 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.priceParent
-          )}
+          className={classNames(projectcss.all, sty.priceParent)}
         >
           <div
             data-plasmic-name={"currency"}
             data-plasmic-override={overrides.currency}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.currency
             )}
           >
@@ -334,11 +276,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"partnerAvatarParent"}
           data-plasmic-override={overrides.partnerAvatarParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.partnerAvatarParent
-          )}
+          className={classNames(projectcss.all, sty.partnerAvatarParent)}
         >
           <UserAvatarButton
             data-plasmic-name={"userAvatarButton"}
@@ -352,20 +290,12 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"notificationsParent"}
           data-plasmic-override={overrides.notificationsParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.notificationsParent
-          )}
+          className={classNames(projectcss.all, sty.notificationsParent)}
         >
           <button
             data-plasmic-name={"orderNotification"}
             data-plasmic-override={overrides.orderNotification}
-            className={classNames(
-              defaultcss.button,
-              projectcss.button,
-              sty.orderNotification
-            )}
+            className={classNames(projectcss.button, sty.orderNotification)}
           >
             <ButtonIconNotificationBell
               data-plasmic-name={"buttonIconNotificationBell"}
@@ -380,19 +310,14 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"deliveryDateParent"}
           data-plasmic-override={overrides.deliveryDateParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.deliveryDateParent
-          )}
+          className={classNames(projectcss.all, sty.deliveryDateParent)}
         >
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text
             )}
           >
@@ -404,20 +329,12 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"reviewParent"}
           data-plasmic-override={overrides.reviewParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.reviewParent
-          )}
+          className={classNames(projectcss.all, sty.reviewParent)}
         >
           <button
             data-plasmic-name={"buttonUserOrderReview"}
             data-plasmic-override={overrides.buttonUserOrderReview}
-            className={classNames(
-              defaultcss.button,
-              projectcss.button,
-              sty.buttonUserOrderReview
-            )}
+            className={classNames(projectcss.button, sty.buttonUserOrderReview)}
             title={"Click to edit this listing"}
           >
             <IconPrimary
@@ -425,21 +342,13 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
               size={"_24Px"}
               svgIcon14Px={
                 <CommentReviewCIcon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__sIi0
-                  )}
+                  className={classNames(projectcss.all, sty.svg__sIi0)}
                   role={"img"}
                 />
               }
               svgIcon16Px={
                 <CommentReviewCIcon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__tt8Tm
-                  )}
+                  className={classNames(projectcss.all, sty.svg__tt8Tm)}
                   role={"img"}
                 />
               }
@@ -447,11 +356,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 <CommentReviewBIcon
                   data-plasmic-name={"svgIcon5"}
                   data-plasmic-override={overrides.svgIcon5}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svgIcon5
-                  )}
+                  className={classNames(projectcss.all, sty.svgIcon5)}
                   role={"img"}
                 />
               }
@@ -463,11 +368,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"approvedParent"}
           data-plasmic-override={overrides.approvedParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.approvedParent
-          )}
+          className={classNames(projectcss.all, sty.approvedParent)}
         >
           <SwitchPrimary
             data-plasmic-name={"switchPrimary"}
@@ -479,11 +380,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
         <div
           data-plasmic-name={"cancelParent"}
           data-plasmic-override={overrides.cancelParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.cancelParent
-          )}
+          className={classNames(projectcss.all, sty.cancelParent)}
         >
           <ButtonCircleDelete
             data-plasmic-name={"buttonCircleDelete"}

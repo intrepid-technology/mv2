@@ -30,7 +30,6 @@ import TableUserAdminHeader from "../../TableUserAdminHeader"; // plasmic-import
 import TableUserAdminRecord from "../../TableUserAdminRecord"; // plasmic-import: _aYcl8sdexe/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicEditteammanage.module.css"; // plasmic-import: -D9RrNuJ4S/css
 
@@ -56,14 +55,13 @@ function PlasmicEditteammanage__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -83,7 +81,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
             data-plasmic-override={overrides.sectionTeamManageMembersHeader}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.sectionTeamManageMembersHeader
             )}
@@ -95,9 +92,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text___6QAYz
                   )}
                 >
@@ -114,11 +110,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
             data-plasmic-name={"sectionTeamInviteMembers"}
             data-plasmic-override={overrides.sectionTeamInviteMembers}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.sectionTeamInviteMembers
-            )}
+            className={classNames(projectcss.all, sty.sectionTeamInviteMembers)}
           >
             {true ? (
               <p.Stack
@@ -127,7 +119,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                 data-plasmic-override={overrides.cardTeamInviteMembers}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.cardTeamInviteMembers
                 )}
@@ -140,9 +131,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__ygMqo
                       )}
                     >
@@ -172,7 +162,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     data-plasmic-override={overrides.tableAddTeamMember}
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.tableAddTeamMember
                     )}
@@ -184,7 +173,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         data-plasmic-override={overrides.inviteMemberHeader}
                         hasGap={true}
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.inviteMemberHeader
                         )}
@@ -197,9 +185,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                           labelHeadline={
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
-                                defaultcss.__wab_text,
+                                projectcss.__wab_text,
                                 sty.text__ptzPj
                               )}
                             >
@@ -237,9 +224,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text___7A8Rf
                             )}
                           >
@@ -255,7 +241,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         data-plasmic-override={overrides.inviteMemberRecord}
                         hasGap={true}
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.inviteMemberRecord
                         )}
@@ -303,7 +288,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       data-plasmic-name={"incrementParent"}
                       data-plasmic-override={overrides.incrementParent}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.incrementParent
                       )}
@@ -320,7 +304,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       data-plasmic-name={"inviteButtonParent"}
                       data-plasmic-override={overrides.inviteButtonParent}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.inviteButtonParent
                       )}
@@ -345,11 +328,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
             data-plasmic-name={"sectionTeamManageMembers"}
             data-plasmic-override={overrides.sectionTeamManageMembers}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.sectionTeamManageMembers
-            )}
+            className={classNames(projectcss.all, sty.sectionTeamManageMembers)}
           >
             {true ? (
               <p.Stack
@@ -358,7 +337,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                 data-plasmic-override={overrides.cardTeamManageMembers}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.cardTeamManageMembers
                 )}
@@ -371,9 +349,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__xopkA
                       )}
                     >
@@ -390,7 +367,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   data-plasmic-override={overrides.tableTeamMemberEditParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.tableTeamMemberEditParent
                   )}
@@ -401,7 +377,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                     data-plasmic-override={overrides.searchFilterDateParent}
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.searchFilterDateParent
                     )}
@@ -443,7 +418,6 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       data-plasmic-override={overrides.tableSelectColumnParent}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.tableSelectColumnParent
                       )}

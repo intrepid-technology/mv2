@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicToolTipServiceListing.module.css"; // plasmic-import: GDvJTAih6h/css
 import Icon100Icon from "./icons/PlasmicIcon__Icon100"; // plasmic-import: 5uujF_PS70/icon
@@ -39,28 +38,13 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__voudh
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__voudh)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon100Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__c9Med
-              )}
+              className={classNames(projectcss.all, sty.svg__c9Med)}
               role={"img"}
             />
           ),
@@ -69,13 +53,7 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
         })}
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__sccGa
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__sccGa)}>
         {p.renderPlasmicSlot({
           defaultContents: "Headline for tooltip",
           value: args.slot,
@@ -83,13 +61,7 @@ function PlasmicToolTipServiceListing__RenderFunc(props) {
         })}
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__gYt9T
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__gYt9T)}>
         {p.renderPlasmicSlot({
           defaultContents:
             "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu",

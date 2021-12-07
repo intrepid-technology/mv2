@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPricingTableFeatureItem.module.css"; // plasmic-import: YQmJm_xVDH/css
 import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon
@@ -38,38 +37,28 @@ function PlasmicPricingTableFeatureItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {true ? (
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___4BgBl,
-            {
-              [sty.freeBox__checkColor_brand___4BgBlYkqEy]: hasVariant(
-                variants,
-                "checkColor",
-                "brand"
-              ),
+          className={classNames(projectcss.all, sty.freeBox___4BgBl, {
+            [sty.freeBox__checkColor_brand___4BgBlYkqEy]: hasVariant(
+              variants,
+              "checkColor",
+              "brand"
+            ),
 
-              [sty.freeBox__checkColor_green___4BgBlEfoTm]: hasVariant(
-                variants,
-                "checkColor",
-                "green"
-              )
-            }
-          )}
+            [sty.freeBox__checkColor_green___4BgBlEfoTm]: hasVariant(
+              variants,
+              "checkColor",
+              "green"
+            )
+          })}
         >
           <CircleCheckedIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg__checkColor_brand]: hasVariant(
                 variants,
                 "checkColor",
@@ -93,13 +82,7 @@ function PlasmicPricingTableFeatureItem__RenderFunc(props) {
         </div>
       ) : null}
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__agVd
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__agVd)}>
         {p.renderPlasmicSlot({
           defaultContents: "Pricing table feature item",
           value: args.children,

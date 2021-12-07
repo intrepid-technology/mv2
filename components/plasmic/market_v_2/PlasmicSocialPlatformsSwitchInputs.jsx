@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSocialPlatformsSwitchInputs.module.css"; // plasmic-import: KT8HFDqoR9t/css
 import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: mYZ3_5X8rB/icon
@@ -43,12 +42,7 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <FormSwitchInput
         data-plasmic-name={"instagramSwitchInput"}
@@ -60,26 +54,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper"}
             data-plasmic-override={overrides.contentWrapper}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper)}
           >
             <Icon6Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__dfTBz
-              )}
+              className={classNames(projectcss.all, sty.svg__dfTBz)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text___3EX3D
               )}
             >
@@ -100,26 +85,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper2"}
             data-plasmic-override={overrides.contentWrapper2}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper2
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper2)}
           >
             <FacebookSquareFillIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__a4Mnv
-              )}
+              className={classNames(projectcss.all, sty.svg__a4Mnv)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__udGbk
               )}
             >
@@ -140,26 +116,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper3"}
             data-plasmic-override={overrides.contentWrapper3}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper3
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper3)}
           >
             <Icon10Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__fNlXn
-              )}
+              className={classNames(projectcss.all, sty.svg__fNlXn)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__kei7L
               )}
             >
@@ -180,26 +147,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper4"}
             data-plasmic-override={overrides.contentWrapper4}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper4
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper4)}
           >
             <TwitterSquareFillIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__fcK80
-              )}
+              className={classNames(projectcss.all, sty.svg__fcK80)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__qXyE8
               )}
             >
@@ -220,26 +178,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper5"}
             data-plasmic-override={overrides.contentWrapper5}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper5
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper5)}
           >
             <YoutubeSquareFillIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__aiYKh
-              )}
+              className={classNames(projectcss.all, sty.svg__aiYKh)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__ym009
               )}
             >
@@ -260,26 +209,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper6"}
             data-plasmic-override={overrides.contentWrapper6}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper6
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper6)}
           >
             <TiktokIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__bI76Z
-              )}
+              className={classNames(projectcss.all, sty.svg__bI76Z)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__asmWs
               )}
             >
@@ -300,26 +240,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper7"}
             data-plasmic-override={overrides.contentWrapper7}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper7
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper7)}
           >
             <GithubIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__ysset
-              )}
+              className={classNames(projectcss.all, sty.svg__ysset)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text___55Vm9
               )}
             >
@@ -340,26 +271,17 @@ function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
             data-plasmic-name={"contentWrapper8"}
             data-plasmic-override={overrides.contentWrapper8}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper8
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper8)}
           >
             <DribbbleIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__lceDh
-              )}
+              className={classNames(projectcss.all, sty.svg__lceDh)}
               role={"img"}
             />
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__iWsfa
               )}
             >

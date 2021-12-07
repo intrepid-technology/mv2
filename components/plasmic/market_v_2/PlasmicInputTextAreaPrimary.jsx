@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextAreaPrimary.module.css"; // plasmic-import: T-WLdey8LU/css
 
@@ -36,21 +35,15 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__height__720]: hasVariant(variants, "height", "_720"),
-          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__height__720]: hasVariant(variants, "height", "_720"),
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__height__180]: hasVariant(variants, "height", "_180"),
           [sty.parent__height__270]: hasVariant(variants, "height", "_270"),
           [sty.parent__height__360]: hasVariant(variants, "height", "_360"),
@@ -83,27 +76,17 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
         <textarea
           data-plasmic-name={"textarea"}
           data-plasmic-override={overrides.textarea}
-          className={classNames(
-            defaultcss.textarea,
-            projectcss.textarea,
-            sty.textarea,
-            {
-              [sty.textarea__height__720]: hasVariant(
-                variants,
-                "height",
-                "_720"
-              ),
+          className={classNames(projectcss.textarea, sty.textarea, {
+            [sty.textarea__height__720]: hasVariant(variants, "height", "_720"),
+            [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
+            [sty.textarea__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            ),
 
-              [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
-              [sty.textarea__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              ),
-
-              [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
-            }
-          )}
+            [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
+          })}
           placeholder={args.placeholder}
           value={""}
         />

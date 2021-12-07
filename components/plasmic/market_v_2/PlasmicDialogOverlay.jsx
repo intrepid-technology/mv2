@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicDialogOverlay.module.css"; // plasmic-import: a2oovV1JBa/css
 
@@ -32,46 +31,29 @@ function PlasmicDialogOverlay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"fixedDiv"}
         data-plasmic-override={overrides.fixedDiv}
-        className={classNames(defaultcss.all, projectcss.all, sty.fixedDiv)}
+        className={classNames(projectcss.all, sty.fixedDiv)}
       >
         <div
           data-plasmic-name={"absoluteDiv"}
           data-plasmic-override={overrides.absoluteDiv}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.absoluteDiv
-          )}
+          className={classNames(projectcss.all, sty.absoluteDiv)}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"dialogDiv"}
             data-plasmic-override={overrides.dialogDiv}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.dialogDiv
-            )}
+            className={classNames(projectcss.all, sty.dialogDiv)}
           >
             <div
               data-plasmic-name={"contentWrapper"}
               data-plasmic-override={overrides.contentWrapper}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.contentWrapper
-              )}
+              className={classNames(projectcss.all, sty.contentWrapper)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: null,

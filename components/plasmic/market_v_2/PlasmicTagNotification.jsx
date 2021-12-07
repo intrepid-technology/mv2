@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTagNotification.module.css"; // plasmic-import: -8KQRPGoiM/css
 
@@ -32,26 +31,20 @@ function PlasmicTagNotification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__10]: hasVariant(variants, "size", "_10"),
-          [sty.root__size__12]: hasVariant(variants, "size", "_12"),
-          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.root__size__8]: hasVariant(variants, "size", "_8"),
-          [sty.root__state_alert]: hasVariant(variants, "state", "alert"),
-          [sty.root__state_urgent]: hasVariant(variants, "state", "urgent"),
-          [sty.root__state_warning]: hasVariant(variants, "state", "warning")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__10]: hasVariant(variants, "size", "_10"),
+        [sty.root__size__12]: hasVariant(variants, "size", "_12"),
+        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+        [sty.root__size__8]: hasVariant(variants, "size", "_8"),
+        [sty.root__state_alert]: hasVariant(variants, "state", "alert"),
+        [sty.root__state_urgent]: hasVariant(variants, "state", "urgent"),
+        [sty.root__state_warning]: hasVariant(variants, "state", "warning")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
           [sty.parent__size__8]: hasVariant(variants, "size", "_8")
         })}
@@ -60,9 +53,8 @@ function PlasmicTagNotification__RenderFunc(props) {
           data-plasmic-name={"textContent"}
           data-plasmic-override={overrides.textContent}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.textContent,
             {
               [sty.textContent__size__10]: hasVariant(variants, "size", "_10"),

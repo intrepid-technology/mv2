@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarLogo.module.css"; // plasmic-import: oDDjpt5lQZ/css
 
@@ -34,19 +33,13 @@ function PlasmicNavbarLogo__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__light]: hasVariant(variants, "light", "light"),
-          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.root__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.root__size__32]: hasVariant(variants, "size", "_32")
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__light]: hasVariant(variants, "light", "light"),
+        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
+        [sty.root__size__24]: hasVariant(variants, "size", "_24"),
+        [sty.root__size__32]: hasVariant(variants, "size", "_32")
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -54,30 +47,25 @@ function PlasmicNavbarLogo__RenderFunc(props) {
       <div
         data-plasmic-name={"navBarLogoLinkParent"}
         data-plasmic-override={overrides.navBarLogoLinkParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.navBarLogoLinkParent,
-          {
-            [sty.navBarLogoLinkParent__light]: hasVariant(
-              variants,
-              "light",
-              "light"
-            ),
+        className={classNames(projectcss.all, sty.navBarLogoLinkParent, {
+          [sty.navBarLogoLinkParent__light]: hasVariant(
+            variants,
+            "light",
+            "light"
+          ),
 
-            [sty.navBarLogoLinkParent__size__18]: hasVariant(
-              variants,
-              "size",
-              "_18"
-            )
-          }
-        )}
+          [sty.navBarLogoLinkParent__size__18]: hasVariant(
+            variants,
+            "size",
+            "_18"
+          )
+        })}
       >
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(defaultcss.img, projectcss.img, sty.img, {
+          className={classNames(projectcss.img, sty.img, {
             [sty.img__light]: hasVariant(variants, "light", "light"),
             [sty.img__size__16]: hasVariant(variants, "size", "_16"),
             [sty.img__size__18]: hasVariant(variants, "size", "_18"),

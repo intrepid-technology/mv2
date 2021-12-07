@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardHeroCta.module.css"; // plasmic-import: W1y9EWGWrY/css
 
@@ -33,34 +32,11 @@ function PlasmicCardHeroCta__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__rz5EK
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__nxz1A
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__xd1H6
-            )}
-          >
+      <div className={classNames(projectcss.all, sty.freeBox__rz5EK)}>
+        <div className={classNames(projectcss.all, sty.freeBox__nxz1A)}>
+          <div className={classNames(projectcss.all, sty.freeBox__xd1H6)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Everything an entrepreneur needs to start and grow a global business.",
@@ -74,9 +50,8 @@ function PlasmicCardHeroCta__RenderFunc(props) {
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text
           )}
         >
@@ -98,11 +73,7 @@ function PlasmicCardHeroCta__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(
-              defaultcss.img,
-              projectcss.img,
-              sty.img__m8Tz3
-            )}
+            className={classNames(projectcss.img, sty.img__m8Tz3)}
           />
         ),
 

@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicDialog.module.css"; // plasmic-import: bjYLFDLDv0/css
 
@@ -40,34 +39,17 @@ function PlasmicDialog__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.header)}
+        className={classNames(projectcss.all, sty.header)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___4SOnT
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___4JCbN
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox___4SOnT)}>
+          <div className={classNames(projectcss.all, sty.freeBox___4JCbN)}>
             {p.renderPlasmicSlot({
               defaultContents: "Model Headline Title",
               value: args.headline,
@@ -76,20 +58,8 @@ function PlasmicDialog__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__fzWiL
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ubnbo
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__fzWiL)}>
+          <div className={classNames(projectcss.all, sty.freeBox__ubnbo)}>
             {p.renderPlasmicSlot({
               defaultContents: "This is a modal to get your attention",
               value: args.subhead,
@@ -102,11 +72,7 @@ function PlasmicDialog__RenderFunc(props) {
       <div
         data-plasmic-name={"contentWrapper"}
         data-plasmic-override={overrides.contentWrapper}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.contentWrapper
-        )}
+        className={classNames(projectcss.all, sty.contentWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents: null,
@@ -117,20 +83,12 @@ function PlasmicDialog__RenderFunc(props) {
       <div
         data-plasmic-name={"actionsWrapper"}
         data-plasmic-override={overrides.actionsWrapper}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.actionsWrapper
-        )}
+        className={classNames(projectcss.all, sty.actionsWrapper)}
       >
         <button
           data-plasmic-name={"cancelButton"}
           data-plasmic-override={overrides.cancelButton}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.cancelButton
-          )}
+          className={classNames(projectcss.button, sty.cancelButton)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Cancel",
@@ -142,11 +100,7 @@ function PlasmicDialog__RenderFunc(props) {
         <button
           data-plasmic-name={"submitButton"}
           data-plasmic-override={overrides.submitButton}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.submitButton
-          )}
+          className={classNames(projectcss.button, sty.submitButton)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Submit",

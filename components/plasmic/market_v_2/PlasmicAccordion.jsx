@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAccordion.module.css"; // plasmic-import: azR0jnXzDL/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -34,34 +33,24 @@ function PlasmicAccordion__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size_small]: hasVariant(variants, "size", "small"),
-          [sty.root__size_small_isOpen]:
-            hasVariant(variants, "size", "small") &&
-            hasVariant(variants, "isOpen", "isOpen")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size_small]: hasVariant(variants, "size", "small"),
+        [sty.root__size_small_isOpen]:
+          hasVariant(variants, "size", "small") &&
+          hasVariant(variants, "isOpen", "isOpen")
+      })}
     >
       <div
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
-        className={classNames(defaultcss.all, projectcss.all, sty.header, {
+        className={classNames(projectcss.all, sty.header, {
           [sty.header__size_small]: hasVariant(variants, "size", "small")
         })}
       >
         <div
           data-plasmic-name={"headerContentWrapper"}
           data-plasmic-override={overrides.headerContentWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headerContentWrapper
-          )}
+          className={classNames(projectcss.all, sty.headerContentWrapper)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Accordion",
@@ -79,27 +68,18 @@ function PlasmicAccordion__RenderFunc(props) {
         <div
           data-plasmic-name={"collapseIconWrapper"}
           data-plasmic-override={overrides.collapseIconWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.collapseIconWrapper
-          )}
+          className={classNames(projectcss.all, sty.collapseIconWrapper)}
         >
           <PlusBoldIcon
             data-plasmic-name={"collapseIcon"}
             data-plasmic-override={overrides.collapseIcon}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.collapseIcon,
-              {
-                [sty.collapseIcon__size_small]: hasVariant(
-                  variants,
-                  "size",
-                  "small"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.collapseIcon, {
+              [sty.collapseIcon__size_small]: hasVariant(
+                variants,
+                "size",
+                "small"
+              )
+            })}
             role={"img"}
           />
         </div>
@@ -109,7 +89,7 @@ function PlasmicAccordion__RenderFunc(props) {
         <div
           data-plasmic-name={"body"}
           data-plasmic-override={overrides.body}
-          className={classNames(defaultcss.all, projectcss.all, sty.body, {
+          className={classNames(projectcss.all, sty.body, {
             [sty.body__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
             [sty.body__size_small_isOpen]:
               hasVariant(variants, "size", "small") &&

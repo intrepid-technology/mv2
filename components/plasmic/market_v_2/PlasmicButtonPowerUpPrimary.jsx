@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonPowerUpPrimary.module.css"; // plasmic-import: 92nEhkYBKr/css
 import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
@@ -33,28 +32,19 @@ function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.button,
-        projectcss.button,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navbarListButtonTextParent2"}
         data-plasmic-override={overrides.navbarListButtonTextParent2}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.navbarListButtonTextParent2
-        )}
+        className={classNames(projectcss.all, sty.navbarListButtonTextParent2)}
       >
         <BoostIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+          className={classNames(projectcss.all, sty.svg)}
           role={"img"}
         />
 
@@ -62,9 +52,8 @@ function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
           data-plasmic-name={"navbarListButtonText2"}
           data-plasmic-override={overrides.navbarListButtonText2}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.navbarListButtonText2
           )}
         >

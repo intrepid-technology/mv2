@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAvatarGroupPrimary.module.css"; // plasmic-import: JOFGXHZCoU/css
 
@@ -39,23 +38,17 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__amount__2_groupSize__16]:
-            hasVariant(variants, "amount", "_2") &&
-            hasVariant(variants, "groupSize", "_16"),
-          [sty.root__groupSize__16_amount__3]:
-            hasVariant(variants, "groupSize", "_16") &&
-            hasVariant(variants, "amount", "_3"),
-          [sty.root__groupSize__16_amount__4]:
-            hasVariant(variants, "groupSize", "_16") &&
-            hasVariant(variants, "amount", "_4")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__amount__2_groupSize__16]:
+          hasVariant(variants, "amount", "_2") &&
+          hasVariant(variants, "groupSize", "_16"),
+        [sty.root__groupSize__16_amount__3]:
+          hasVariant(variants, "groupSize", "_16") &&
+          hasVariant(variants, "amount", "_3"),
+        [sty.root__groupSize__16_amount__4]:
+          hasVariant(variants, "groupSize", "_16") &&
+          hasVariant(variants, "amount", "_4")
+      })}
     >
       <UserAvatar
         className={classNames("__wab_instance", sty.userAvatar__op0Ag, {
@@ -110,11 +103,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
         navUserAvatar16={
           <img
             alt={""}
-            className={classNames(
-              defaultcss.img,
-              projectcss.img,
-              sty.img__dolm6
-            )}
+            className={classNames(projectcss.img, sty.img__dolm6)}
             src={
               "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
             }
@@ -419,11 +408,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
           navUserAvatar16={
             <img
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.img__dxJKw
-              )}
+              className={classNames(projectcss.img, sty.img__dxJKw)}
               src={
                 "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
               }
@@ -464,11 +449,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
           navUserAvatar16={
             <img
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.img___31TU3
-              )}
+              className={classNames(projectcss.img, sty.img___31TU3)}
               src={
                 "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
               }

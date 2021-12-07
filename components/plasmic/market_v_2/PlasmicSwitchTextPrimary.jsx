@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSwitchTextPrimary.module.css"; // plasmic-import: 0ls58SUcEc/css
 
@@ -36,30 +35,20 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
-          [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
+        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
+      })}
     >
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
+        className={classNames(projectcss.all, sty.textParent)}
       >
         <div
           data-plasmic-name={"textSlotParent"}
           data-plasmic-override={overrides.textSlotParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.textSlotParent
-          )}
+          className={classNames(projectcss.all, sty.textSlotParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Enter some text",

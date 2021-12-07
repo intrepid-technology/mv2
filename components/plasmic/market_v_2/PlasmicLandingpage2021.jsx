@@ -28,7 +28,6 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLandingpage2021.module.css"; // plasmic-import: i2JeAjsJVt/css
 import Icon144Icon from "./icons/PlasmicIcon__Icon144"; // plasmic-import: HiIdGyRzm_/icon
@@ -89,14 +88,13 @@ function PlasmicLandingpage2021__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -119,30 +117,21 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             data-plasmic-name={"heroParent"}
             data-plasmic-override={overrides.heroParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.heroParent
-            )}
+            className={classNames(projectcss.all, sty.heroParent)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"heroTextBlock"}
               data-plasmic-override={overrides.heroTextBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.heroTextBlock
-              )}
+              className={classNames(projectcss.all, sty.heroTextBlock)}
             >
               <div
                 data-plasmic-name={"headlineText"}
                 data-plasmic-override={overrides.headlineText}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.headlineText
                 )}
               >
@@ -157,9 +146,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 data-plasmic-name={"subheadText"}
                 data-plasmic-override={overrides.subheadText}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.subheadText
                 )}
               >
@@ -175,11 +163,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 data-plasmic-name={"featuresParent"}
                 data-plasmic-override={overrides.featuresParent}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.featuresParent
-                )}
+                className={classNames(projectcss.all, sty.featuresParent)}
               >
                 <CardFeatureDescription
                   border={"border"}
@@ -198,18 +182,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     <div
                       data-plasmic-name={"iconBg2"}
                       data-plasmic-override={overrides.iconBg2}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.iconBg2
-                      )}
+                      className={classNames(projectcss.all, sty.iconBg2)}
                     >
                       <Icon144Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___0X8F
-                        )}
+                        className={classNames(projectcss.all, sty.svg___0X8F)}
                         role={"img"}
                       />
                     </div>
@@ -237,18 +213,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   headline={"Work and live from anywhere"}
                   iconParent={
                     <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__nlzEe
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__nlzEe)}
                     >
                       <GlobeAmericaIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__hG9X2
-                        )}
+                        className={classNames(projectcss.all, sty.svg__hG9X2)}
                         role={"img"}
                       />
                     </div>
@@ -268,17 +236,12 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   iconParent={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.freeBox___3QC9S
                       )}
                     >
                       <TeamPartnersIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___0D00
-                        )}
+                        className={classNames(projectcss.all, sty.svg___0D00)}
                         role={"img"}
                       />
                     </div>
@@ -299,18 +262,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     <div
                       data-plasmic-name={"iconBg3"}
                       data-plasmic-override={overrides.iconBg3}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.iconBg3
-                      )}
+                      className={classNames(projectcss.all, sty.iconBg3)}
                     >
                       <Icon169Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__da3Mi
-                        )}
+                        className={classNames(projectcss.all, sty.svg__da3Mi)}
                         role={"img"}
                       />
                     </div>
@@ -331,18 +286,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__gtFvM
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__gtFvM)}
                     >
                       <Icon40Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__gsFh8
-                        )}
+                        className={classNames(projectcss.all, sty.svg__gsFh8)}
                         role={"img"}
                       />
                     </p.Stack>
@@ -361,18 +308,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   headline={"Go to market fast"}
                   iconParent={
                     <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__lk9Nw
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__lk9Nw)}
                     >
                       <Icon166Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___4ES2
-                        )}
+                        className={classNames(projectcss.all, sty.svg___4ES2)}
                         role={"img"}
                       />
                     </div>
@@ -391,18 +330,10 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   headline={"Save time and money"}
                   iconParent={
                     <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__ySjws
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__ySjws)}
                     >
                       <CircleTimeIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___68Hoj
-                        )}
+                        className={classNames(projectcss.all, sty.svg___68Hoj)}
                         role={"img"}
                       />
                     </div>
@@ -422,17 +353,12 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   iconParent={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.freeBox___57Srn
                       )}
                     >
                       <Icon133Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___9Um6
-                        )}
+                        className={classNames(projectcss.all, sty.svg___9Um6)}
                         role={"img"}
                       />
                     </div>
@@ -449,17 +375,12 @@ function PlasmicLandingpage2021__RenderFunc(props) {
               data-plasmic-name={"signupFormHome"}
               data-plasmic-override={overrides.signupFormHome}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.signupFormHome
-              )}
+              className={classNames(projectcss.all, sty.signupFormHome)}
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__zVk1H
                 )}
               >
@@ -477,19 +398,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lqXyy
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lqXyy)}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__bR7Mr
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__bR7Mr)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -506,9 +417,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___9Ipgl
                     )}
                   >
@@ -518,9 +428,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 textSubhead={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__m55Ho
                     )}
                   >
@@ -537,21 +446,13 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__d8S0D
-              )}
+              className={classNames(projectcss.all, sty.freeBox__d8S0D)}
             >
               <CardImageHeadlineDescription
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__wa1LD
-                    )}
+                    className={classNames(projectcss.img, sty.img__wa1LD)}
                     src={"/plasmic/market_v_2/images/image31.png"}
                   />
                 }
@@ -568,9 +469,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__breZ0
                         )}
                       >
@@ -585,11 +485,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img___967W9
-                    )}
+                    className={classNames(projectcss.img, sty.img___967W9)}
                     src={"/plasmic/market_v_2/images/image29.png"}
                   />
                 }
@@ -606,9 +502,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__dpw1A
                         )}
                       >
@@ -623,11 +518,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__jJa2K
-                    )}
+                    className={classNames(projectcss.img, sty.img__jJa2K)}
                     src={"/plasmic/market_v_2/images/image11.png"}
                   />
                 }
@@ -644,9 +535,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__po3Ep
                         )}
                       >
@@ -661,11 +551,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__sx00A
-                    )}
+                    className={classNames(projectcss.img, sty.img__sx00A)}
                     src={"/plasmic/market_v_2/images/image30.png"}
                   />
                 }
@@ -682,9 +568,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__bEklk
                         )}
                       >
@@ -700,44 +585,27 @@ function PlasmicLandingpage2021__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lRiKf
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lRiKf)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__sJibN
-              )}
+              className={classNames(projectcss.all, sty.freeBox__sJibN)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__k8APm
-                )}
+                className={classNames(projectcss.all, sty.freeBox__k8APm)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__c8FT4
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__c8FT4)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__iWQf
                     )}
                   >
@@ -750,9 +618,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__x2Mg3
                     )}
                   >
@@ -800,9 +667,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__hYew
                         )}
                       >
@@ -833,11 +699,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img___6CsQ
-                )}
+                className={classNames(projectcss.img, sty.img___6CsQ)}
                 src={"/plasmic/market_v_2/images/image25.png"}
               />
             </p.Stack>
@@ -846,19 +708,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__vutcc
-            )}
+            className={classNames(projectcss.all, sty.freeBox__vutcc)}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__lrfUu
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__lrfUu)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -873,9 +725,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___2VRor
                     )}
                   >
@@ -885,9 +736,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 textSubhead={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__o8Hc
                     )}
                   >
@@ -900,21 +750,13 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__cXk
-              )}
+              className={classNames(projectcss.all, sty.freeBox__cXk)}
             >
               <CardImageHeadlineDescription
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__wAuj8
-                    )}
+                    className={classNames(projectcss.img, sty.img__wAuj8)}
                     src={"/plasmic/market_v_2/images/image26.png"}
                   />
                 }
@@ -926,9 +768,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__m8Mse
                     )}
                   >
@@ -944,9 +785,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__zNeu0
                         )}
                       >
@@ -961,11 +801,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__cZqyO
-                    )}
+                    className={classNames(projectcss.img, sty.img__cZqyO)}
                     src={"/plasmic/market_v_2/images/image27.png"}
                   />
                 }
@@ -977,9 +813,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__oQap
                     )}
                   >
@@ -995,9 +830,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__flcUt
                         )}
                       >
@@ -1012,11 +846,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__kbNFx
-                    )}
+                    className={classNames(projectcss.img, sty.img__kbNFx)}
                     src={"/plasmic/market_v_2/images/image33.png"}
                   />
                 }
@@ -1028,9 +858,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__vsuFv
                     )}
                   >
@@ -1046,9 +875,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__v6MpX
                         )}
                       >
@@ -1061,45 +889,26 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__s2YtE
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__s2YtE)}>
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__xFjXe
-              )}
+              className={classNames(projectcss.all, sty.freeBox__xFjXe)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__inSiQ
-                )}
+                className={classNames(projectcss.all, sty.freeBox__inSiQ)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__btxJm
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__btxJm)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__bf3Y2
                     )}
                   >
@@ -1112,9 +921,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__uQOx
                     )}
                   >
@@ -1160,9 +968,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__zKpa
                         )}
                       >
@@ -1193,11 +1000,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__dQqz3
-                )}
+                className={classNames(projectcss.img, sty.img__dQqz3)}
                 src={"/plasmic/market_v_2/images/image23.png"}
               />
             </p.Stack>
@@ -1206,19 +1009,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__wvmvo
-            )}
+            className={classNames(projectcss.all, sty.freeBox__wvmvo)}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___562Ol
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox___562Ol)}>
               <CardHeaderTitleDisplay
                 className={classNames(
                   "__wab_instance",
@@ -1235,9 +1028,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__tnzRu
                     )}
                   >
@@ -1247,9 +1039,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 textSubhead={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__paM4A
                     )}
                   >
@@ -1266,21 +1057,13 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__uDeak
-              )}
+              className={classNames(projectcss.all, sty.freeBox__uDeak)}
             >
               <CardImageHeadlineDescription
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__rezLt
-                    )}
+                    className={classNames(projectcss.img, sty.img__rezLt)}
                     src={"/plasmic/market_v_2/images/image18.png"}
                   />
                 }
@@ -1292,9 +1075,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__bOYsc
                     )}
                   >
@@ -1310,9 +1092,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__r1Sre
                         )}
                       >
@@ -1327,11 +1108,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__mwX2T
-                    )}
+                    className={classNames(projectcss.img, sty.img__mwX2T)}
                     src={"/plasmic/market_v_2/images/image22.png"}
                   />
                 }
@@ -1343,9 +1120,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__gaPr3
                     )}
                   >
@@ -1361,9 +1137,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__dyXmt
                         )}
                       >
@@ -1378,11 +1153,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__jdMs0
-                    )}
+                    className={classNames(projectcss.img, sty.img__jdMs0)}
                     src={"/plasmic/market_v_2/images/image21.png"}
                   />
                 }
@@ -1394,9 +1165,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 subheadParent={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__nmKfs
                     )}
                   >
@@ -1412,9 +1182,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__yigk4
                         )}
                       >
@@ -1427,45 +1196,26 @@ function PlasmicLandingpage2021__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__nAfro
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__nAfro)}>
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__wscGy
-              )}
+              className={classNames(projectcss.all, sty.freeBox__wscGy)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__y3H79
-                )}
+                className={classNames(projectcss.all, sty.freeBox__y3H79)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__a7U2J
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__a7U2J)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__yDzzd
                     )}
                   >
@@ -1474,9 +1224,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__vAxBa
                     )}
                   >
@@ -1522,9 +1271,8 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     text={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text___4HpwD
                         )}
                       >
@@ -1555,11 +1303,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__rCc5H
-                )}
+                className={classNames(projectcss.img, sty.img__rCc5H)}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             </p.Stack>

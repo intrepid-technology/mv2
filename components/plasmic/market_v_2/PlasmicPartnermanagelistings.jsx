@@ -28,7 +28,6 @@ import TableListingAdminHeader from "../../TableListingAdminHeader"; // plasmic-
 import TableListingAdminRecord from "../../TableListingAdminRecord"; // plasmic-import: -CTzxsSFaeA/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPartnermanagelistings.module.css"; // plasmic-import: o7uPWO-dXgo/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
@@ -55,7 +54,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -64,7 +63,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -84,7 +82,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             data-plasmic-override={overrides.sectionPartnerManageListingsHeader}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.sectionPartnerManageListingsHeader
             )}
@@ -104,9 +101,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__t5HAg
                   )}
                 >
@@ -126,7 +122,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             data-plasmic-override={overrides.sectionPartnerManageListings}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.sectionPartnerManageListings
             )}
@@ -134,11 +129,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__aPXdG
-              )}
+              className={classNames(projectcss.all, sty.freeBox__aPXdG)}
             >
               <CardHeaderTitlePrimary
                 data-plasmic-name={"cardHeaderTitlePrimary"}
@@ -150,9 +141,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___675Gy
                     )}
                   >
@@ -169,7 +159,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 data-plasmic-override={overrides.listingManagementBlockParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.listingManagementBlockParent
                 )}
@@ -179,17 +168,12 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   data-plasmic-name={"listingTotalParent"}
                   data-plasmic-override={overrides.listingTotalParent}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.listingTotalParent
-                  )}
+                  className={classNames(projectcss.all, sty.listingTotalParent)}
                 >
                   <div
                     data-plasmic-name={"listingNumberParent"}
                     data-plasmic-override={overrides.listingNumberParent}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.listingNumberParent
                     )}
@@ -198,9 +182,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                       data-plasmic-name={"listingNumber"}
                       data-plasmic-override={overrides.listingNumber}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.listingNumber
                       )}
                     >
@@ -210,9 +193,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__rr92D
                     )}
                   >
@@ -223,11 +205,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__xulmc
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__xulmc)}
                 >
                   {(
                     hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -240,7 +218,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                         overrides.listingSearchFilterParent
                       }
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.listingSearchFilterParent
                       )}
@@ -249,7 +226,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                         as={"div"}
                         hasGap={true}
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox___4Lom7
                         )}
@@ -274,7 +250,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                           }
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.listingSearchFilterDropdownParent
                           )}
@@ -312,11 +287,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                           <ListingIcon
                             data-plasmic-name={"svg"}
                             data-plasmic-override={overrides.svg}
-                            className={classNames(
-                              defaultcss.all,
-                              projectcss.all,
-                              sty.svg
-                            )}
+                            className={classNames(projectcss.all, sty.svg)}
                             role={"img"}
                           />
                         }
@@ -335,7 +306,6 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.listingManagementTableColumnParent
                     )}

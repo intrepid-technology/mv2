@@ -18,7 +18,6 @@ import {
 import SearchbarFilter from "../../SearchbarFilter"; // plasmic-import: 5wnmDA777-/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputSearchbarFilterDisplay.module.css"; // plasmic-import: zockkqCMBP/css
 
@@ -36,12 +35,7 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <SearchbarFilter
         data-plasmic-name={"searchbarFilter"}
@@ -55,11 +49,7 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
         data-plasmic-name={"badgeDisplayParent"}
         data-plasmic-override={overrides.badgeDisplayParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.badgeDisplayParent
-        )}
+        className={classNames(projectcss.all, sty.badgeDisplayParent)}
       >
         <ChipBadgeDisplay
           data-plasmic-name={"chipBadgeDisplay"}

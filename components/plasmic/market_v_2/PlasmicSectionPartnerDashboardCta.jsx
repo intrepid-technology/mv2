@@ -20,7 +20,6 @@ import {
 import CardCta from "../../CardCta"; // plasmic-import: sv774W0v3F/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionPartnerDashboardCta.module.css"; // plasmic-import: -BSaqEeBIJ/css
 
@@ -42,12 +41,7 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <CardCta
         data-plasmic-name={"cardCta"}
@@ -72,13 +66,13 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <img
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(defaultcss.img, projectcss.img, sty.img)}
+          className={classNames(projectcss.img, sty.img)}
           src={"/plasmic/market_v_2/images/intrepidDashboardpng.png"}
         />
       </div>

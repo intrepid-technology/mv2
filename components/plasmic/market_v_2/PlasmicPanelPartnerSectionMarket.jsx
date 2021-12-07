@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartnerSectionMarket.module.css"; // plasmic-import: i3ai6jIm4VK/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
@@ -40,27 +39,21 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text
           )}
         >
@@ -75,11 +68,7 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
           <ListingIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage2
-            )}
+            className={classNames(projectcss.all, sty.navImage2)}
             role={"img"}
           />
         }
@@ -94,11 +83,7 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
           <OrdersIcon
             data-plasmic-name={"navImage3"}
             data-plasmic-override={overrides.navImage3}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage3
-            )}
+            className={classNames(projectcss.all, sty.navImage3)}
             role={"img"}
           />
         }
@@ -113,11 +98,7 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
           <ChartIcon
             data-plasmic-name={"navImage4"}
             data-plasmic-override={overrides.navImage4}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage4
-            )}
+            className={classNames(projectcss.all, sty.navImage4)}
             role={"img"}
           />
         }
@@ -132,11 +113,7 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
           <CommentReviewBIcon
             data-plasmic-name={"navImage5"}
             data-plasmic-override={overrides.navImage5}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage5
-            )}
+            className={classNames(projectcss.all, sty.navImage5)}
             role={"img"}
           />
         }
@@ -151,7 +128,7 @@ function PlasmicPanelPartnerSectionMarket__RenderFunc(props) {
           <CommentReviewIcon
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
-            className={classNames(defaultcss.all, projectcss.all, sty.navImage)}
+            className={classNames(projectcss.all, sty.navImage)}
             role={"img"}
           />
         }

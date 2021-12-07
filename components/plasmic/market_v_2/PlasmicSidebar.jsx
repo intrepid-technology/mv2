@@ -22,7 +22,6 @@ import PanelMember from "../../PanelMember"; // plasmic-import: ouYaxX0ZfJN/comp
 import PanelPartner from "../../PanelPartner"; // plasmic-import: 0x12FzmUo9P/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSidebar.module.css"; // plasmic-import: WJhSPQRdlH/css
 import Icon113Icon from "./icons/PlasmicIcon__Icon113"; // plasmic-import: Bb_iW3yqSt/icon
@@ -49,32 +48,26 @@ function PlasmicSidebar__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__global_layout_isSellerView]: hasVariant(
-            globalVariants,
-            "layout",
-            "isSellerView"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__global_layout_isSellerView]: hasVariant(
+          globalVariants,
+          "layout",
+          "isSellerView"
+        ),
 
-          [sty.root__global_layout_sidebarOpen]: hasVariant(
-            globalVariants,
-            "layout",
-            "sidebarOpen"
-          )
-        }
-      )}
+        [sty.root__global_layout_sidebarOpen]: hasVariant(
+          globalVariants,
+          "layout",
+          "sidebarOpen"
+        )
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.header, {
+        className={classNames(projectcss.all, sty.header, {
           [sty.header__global_layout_isSellerView]: hasVariant(
             globalVariants,
             "layout",
@@ -85,20 +78,12 @@ function PlasmicSidebar__RenderFunc(props) {
         <div
           data-plasmic-name={"iconWrapper"}
           data-plasmic-override={overrides.iconWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.iconWrapper
-          )}
+          className={classNames(projectcss.all, sty.iconWrapper)}
         >
           <Icon113Icon
             data-plasmic-name={"closeIcon"}
             data-plasmic-override={overrides.closeIcon}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.closeIcon
-            )}
+            className={classNames(projectcss.all, sty.closeIcon)}
             role={"img"}
           />
         </div>
@@ -106,7 +91,7 @@ function PlasmicSidebar__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+          className={classNames(projectcss.all, sty.freeBox)}
         >
           <NavbarLogo
             data-plasmic-name={"navbarLogo"}

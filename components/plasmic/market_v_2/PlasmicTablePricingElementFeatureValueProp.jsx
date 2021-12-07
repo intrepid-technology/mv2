@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTablePricingElementFeatureValueProp.module.css"; // plasmic-import: oaIycARoQY/css
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
@@ -40,41 +39,21 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
-          [sty.root__size__24Px]: hasVariant(variants, "size", "_24Px")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
+        [sty.root__size__24Px]: hasVariant(variants, "size", "_24Px")
+      })}
     >
       <div
         data-plasmic-name={"svgIconParent"}
         data-plasmic-override={overrides.svgIconParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.svgIconParent
-        )}
+        className={classNames(projectcss.all, sty.svgIconParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__zo7V
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__zo7V)}>
               <Icon129Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg___6OINe
-                )}
+                className={classNames(projectcss.all, sty.svg___6OINe)}
                 role={"img"}
               />
             </div>
@@ -94,7 +73,7 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+        className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox__size__16Px]: hasVariant(variants, "size", "_16Px")
         })}
       >

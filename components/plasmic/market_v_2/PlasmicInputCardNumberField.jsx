@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputCardNumberField.module.css"; // plasmic-import: gjyxgsDEI-/css
 
@@ -42,57 +41,41 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270")
+      })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__mo2A2,
-          {
-            [sty.freeBox__size__180__mo2A2Wew5]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            ),
+        className={classNames(projectcss.all, sty.freeBox__mo2A2, {
+          [sty.freeBox__size__180__mo2A2Wew5]: hasVariant(
+            variants,
+            "size",
+            "_180"
+          ),
 
-            [sty.freeBox__state_success__mo2A2Xndgz]: hasVariant(
-              variants,
-              "state",
-              "success"
-            )
-          }
-        )}
+          [sty.freeBox__state_success__mo2A2Xndgz]: hasVariant(
+            variants,
+            "state",
+            "success"
+          )
+        })}
       >
         <p.Stack
           as={"input"}
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
           hasGap={true}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.textInput,
-            {
-              [sty.textInput__size__180]: hasVariant(variants, "size", "_180"),
-              [sty.textInput__state_success]: hasVariant(
-                variants,
-                "state",
-                "success"
-              )
-            }
-          )}
+          className={classNames(projectcss.input, sty.textInput, {
+            [sty.textInput__size__180]: hasVariant(variants, "size", "_180"),
+            [sty.textInput__state_success]: hasVariant(
+              variants,
+              "state",
+              "success"
+            )
+          })}
           placeholder={""}
           size={1}
           type={"text"}
@@ -100,30 +83,25 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
         />
 
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__w4B3K,
-            {
-              [sty.freeBox__size__180__w4B3KWew5]: hasVariant(
-                variants,
-                "size",
-                "_180"
-              ),
+          className={classNames(projectcss.all, sty.freeBox__w4B3K, {
+            [sty.freeBox__size__180__w4B3KWew5]: hasVariant(
+              variants,
+              "size",
+              "_180"
+            ),
 
-              [sty.freeBox__size__270__w4B3KEWntz]: hasVariant(
-                variants,
-                "size",
-                "_270"
-              ),
+            [sty.freeBox__size__270__w4B3KEWntz]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
 
-              [sty.freeBox__state_success__w4B3Kxndgz]: hasVariant(
-                variants,
-                "state",
-                "success"
-              )
-            }
-          )}
+            [sty.freeBox__state_success__w4B3Kxndgz]: hasVariant(
+              variants,
+              "state",
+              "success"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Content",
@@ -147,18 +125,13 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
 
       {(hasVariant(variants, "description", "description") ? false : true) ? (
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___09Rg3,
-            {
-              [sty.freeBox__description___09Rg38YNeE]: hasVariant(
-                variants,
-                "description",
-                "description"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox___09Rg3, {
+            [sty.freeBox__description___09Rg38YNeE]: hasVariant(
+              variants,
+              "description",
+              "description"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Description",

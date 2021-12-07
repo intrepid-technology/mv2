@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputFormCardWebhookConnections.module.css"; // plasmic-import: gKd8t6dFgYd/css
 
@@ -43,17 +42,12 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__border]: hasVariant(variants, "border", "border")
         })}
       >
@@ -62,38 +56,25 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
           data-plasmic-name={"headlineParent"}
           data-plasmic-override={overrides.headlineParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headlineParent,
-            {
-              [sty.headlineParent__subheadDescription]: hasVariant(
-                variants,
-                "subheadDescription",
-                "subheadDescription"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.headlineParent, {
+            [sty.headlineParent__subheadDescription]: hasVariant(
+              variants,
+              "subheadDescription",
+              "subheadDescription"
+            )
+          })}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"headlineSubheadParent"}
             data-plasmic-override={overrides.headlineSubheadParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.headlineSubheadParent
-            )}
+            className={classNames(projectcss.all, sty.headlineSubheadParent)}
           >
             <div
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.headline
-              )}
+              className={classNames(projectcss.all, sty.headline)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: hasVariant(
@@ -125,11 +106,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
             <div
               data-plasmic-name={"subhead"}
               data-plasmic-override={overrides.subhead}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.subhead
-              )}
+              className={classNames(projectcss.all, sty.subhead)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: hasVariant(
@@ -162,7 +139,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
             data-plasmic-name={"buttons"}
             data-plasmic-override={overrides.buttons}
             hasGap={true}
-            className={classNames(defaultcss.all, projectcss.all, sty.buttons)}
+            className={classNames(projectcss.all, sty.buttons)}
           >
             <ButtonConnectedAccount
               className={classNames(
@@ -224,62 +201,47 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
         <div
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.descriptionParent,
-            {
-              [sty.descriptionParent__subheadDescription]: hasVariant(
-                variants,
-                "subheadDescription",
-                "subheadDescription"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.descriptionParent, {
+            [sty.descriptionParent__subheadDescription]: hasVariant(
+              variants,
+              "subheadDescription",
+              "subheadDescription"
+            )
+          })}
         >
           <div
             data-plasmic-name={"description"}
             data-plasmic-override={overrides.description}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.description,
-              {
-                [sty.description__accounting]: hasVariant(
+            className={classNames(projectcss.all, sty.description, {
+              [sty.description__accounting]: hasVariant(
+                variants,
+                "accounting",
+                "accounting"
+              ),
+
+              [sty.description__payment]: hasVariant(
+                variants,
+                "payment",
+                "payment"
+              )
+            })}
+          >
+            <div
+              data-plasmic-name={"descriptionTextParent"}
+              data-plasmic-override={overrides.descriptionTextParent}
+              className={classNames(projectcss.all, sty.descriptionTextParent, {
+                [sty.descriptionTextParent__accounting]: hasVariant(
                   variants,
                   "accounting",
                   "accounting"
                 ),
 
-                [sty.description__payment]: hasVariant(
+                [sty.descriptionTextParent__payment]: hasVariant(
                   variants,
                   "payment",
                   "payment"
                 )
-              }
-            )}
-          >
-            <div
-              data-plasmic-name={"descriptionTextParent"}
-              data-plasmic-override={overrides.descriptionTextParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.descriptionTextParent,
-                {
-                  [sty.descriptionTextParent__accounting]: hasVariant(
-                    variants,
-                    "accounting",
-                    "accounting"
-                  ),
-
-                  [sty.descriptionTextParent__payment]: hasVariant(
-                    variants,
-                    "payment",
-                    "payment"
-                  )
-                }
-              )}
+              })}
             >
               {p.renderPlasmicSlot({
                 defaultContents:

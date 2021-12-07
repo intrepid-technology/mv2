@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarAlert.module.css"; // plasmic-import: qO2RNDhGk4/css
 
@@ -33,22 +32,16 @@ function PlasmicNavbarAlert__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_brandLight]: hasVariant(
-            variants,
-            "color",
-            "brandLight"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color_brandLight]: hasVariant(
+          variants,
+          "color",
+          "brandLight"
+        ),
 
-          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.root__color_dark]: hasVariant(variants, "color", "dark")
-        }
-      )}
+        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
+      })}
     >
       <TextLinkUnderlinePrimary
         data-plasmic-name={"textLinkUnderlinePrimary"}

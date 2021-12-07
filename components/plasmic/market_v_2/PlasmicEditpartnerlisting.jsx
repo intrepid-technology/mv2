@@ -24,7 +24,6 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicEditpartnerlisting.module.css"; // plasmic-import: o82uoQXhbg/css
 
@@ -50,14 +49,13 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -68,11 +66,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
             data-plasmic-name={"editListingSectionParent"}
             data-plasmic-override={overrides.editListingSectionParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.editListingSectionParent
-            )}
+            className={classNames(projectcss.all, sty.editListingSectionParent)}
           >
             <p.Stack
               as={"div"}
@@ -80,7 +74,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
               data-plasmic-override={overrides.sectionHeaderEditListing}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.sectionHeaderEditListing
               )}
@@ -96,9 +89,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__vlHiI
                     )}
                   >
@@ -119,11 +111,7 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
               data-plasmic-name={"sectionEditListing"}
               data-plasmic-override={overrides.sectionEditListing}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.sectionEditListing
-              )}
+              className={classNames(projectcss.all, sty.sectionEditListing)}
             >
               <p.Stack
                 as={"div"}
@@ -133,7 +121,6 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                 }
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.listingEditCategoryFieldsParent
                 )}
@@ -152,9 +139,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                       >
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text__yCvUi
                           )}
                         >
@@ -187,9 +173,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                       >
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text___3XuJv
                           )}
                         >

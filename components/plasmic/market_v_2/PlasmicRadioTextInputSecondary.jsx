@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicRadioTextInputSecondary.module.css"; // plasmic-import: lPMI0mqyoq/css
 
@@ -39,13 +38,9 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px")
+      })}
     >
       <ElementRadioPrimary
         data-plasmic-name={"elementRadioPrimary"}
@@ -83,7 +78,7 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
+        className={classNames(projectcss.all, sty.textParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Item element",

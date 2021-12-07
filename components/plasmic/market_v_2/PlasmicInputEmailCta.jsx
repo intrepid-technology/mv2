@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import InputEmailA from "../../InputEmailA"; // plasmic-import: Umu_QfvTrP/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputEmailCta.module.css"; // plasmic-import: wN2--_wR69/css
 
@@ -36,66 +35,45 @@ function PlasmicInputEmailCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.root__size__720]: hasVariant(variants, "size", "_720")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size__720]: hasVariant(variants, "size", "_720")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parentSectionInputEmail"}
         data-plasmic-override={overrides.parentSectionInputEmail}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.parentSectionInputEmail,
-          {
-            [sty.parentSectionInputEmail__size__720]: hasVariant(
-              variants,
-              "size",
-              "_720"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.parentSectionInputEmail, {
+          [sty.parentSectionInputEmail__size__720]: hasVariant(
+            variants,
+            "size",
+            "_720"
+          )
+        })}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___9RBj,
-            {
-              [sty.freeBox__size__720___9RBjwcyQu]: hasVariant(
-                variants,
-                "size",
-                "_720"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox___9RBj, {
+            [sty.freeBox__size__720___9RBjwcyQu]: hasVariant(
+              variants,
+              "size",
+              "_720"
+            )
+          })}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__wi05I,
-              {
-                [sty.freeBox__size__720__wi05IwcyQu]: hasVariant(
-                  variants,
-                  "size",
-                  "_720"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__wi05I, {
+              [sty.freeBox__size__720__wi05IwcyQu]: hasVariant(
+                variants,
+                "size",
+                "_720"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents:
@@ -110,13 +88,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
               })
             })}
 
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__tkWdt
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__tkWdt)}>
               {p.renderPlasmicSlot({
                 defaultContents:
                   "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",

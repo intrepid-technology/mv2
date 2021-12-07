@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicBreadcrumb.module.css"; // plasmic-import: gTweajUNVw/css
 
@@ -38,19 +37,13 @@ function PlasmicBreadcrumb__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__hasDestination]: hasVariant(
-            variants,
-            "hasDestination",
-            "hasDestination"
-          )
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__hasDestination]: hasVariant(
+          variants,
+          "hasDestination",
+          "hasDestination"
+        )
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -60,7 +53,7 @@ function PlasmicBreadcrumb__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+        className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox__hasDestination]: hasVariant(
             variants,
             "hasDestination",
@@ -97,9 +90,8 @@ function PlasmicBreadcrumb__RenderFunc(props) {
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text,
               { [sty.text__isLast]: hasVariant(variants, "isLast", "isLast") }
             )}

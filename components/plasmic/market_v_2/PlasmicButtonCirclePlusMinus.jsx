@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonCirclePlusMinus.module.css"; // plasmic-import: o1fXsWwgdW/css
 import CirclePlusIcon from "./icons/PlasmicIcon__CirclePlus"; // plasmic-import: bxdFeSUaP/icon
@@ -40,7 +39,6 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.button,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
@@ -62,7 +60,7 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__alignment_left]: hasVariant(
             variants,
             "alignment",
@@ -84,65 +82,40 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
         <div
           data-plasmic-name={"svgBackground"}
           data-plasmic-override={overrides.svgBackground}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.svgBackground,
-            {
-              [sty.svgBackground__alignment_left]: hasVariant(
+          className={classNames(projectcss.all, sty.svgBackground, {
+            [sty.svgBackground__alignment_left]: hasVariant(
+              variants,
+              "alignment",
+              "left"
+            ),
+
+            [sty.svgBackground__alignment_right]: hasVariant(
+              variants,
+              "alignment",
+              "right"
+            ),
+
+            [sty.svgBackground__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.svgBackground__size__24]: hasVariant(variants, "size", "_24"),
+            [sty.svgBackground__size__32]: hasVariant(variants, "size", "_32"),
+            [sty.svgBackground__size__48]: hasVariant(variants, "size", "_48")
+          })}
+        >
+          <div
+            data-plasmic-name={"svgParent"}
+            data-plasmic-override={overrides.svgParent}
+            className={classNames(projectcss.all, sty.svgParent, {
+              [sty.svgParent__alignment_left]: hasVariant(
                 variants,
                 "alignment",
                 "left"
               ),
 
-              [sty.svgBackground__alignment_right]: hasVariant(
-                variants,
-                "alignment",
-                "right"
-              ),
-
-              [sty.svgBackground__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              ),
-
-              [sty.svgBackground__size__24]: hasVariant(
-                variants,
-                "size",
-                "_24"
-              ),
-
-              [sty.svgBackground__size__32]: hasVariant(
-                variants,
-                "size",
-                "_32"
-              ),
-
-              [sty.svgBackground__size__48]: hasVariant(variants, "size", "_48")
-            }
-          )}
-        >
-          <div
-            data-plasmic-name={"svgParent"}
-            data-plasmic-override={overrides.svgParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svgParent,
-              {
-                [sty.svgParent__alignment_left]: hasVariant(
-                  variants,
-                  "alignment",
-                  "left"
-                ),
-
-                [sty.svgParent__size__16]: hasVariant(variants, "size", "_16"),
-                [sty.svgParent__size__24]: hasVariant(variants, "size", "_24"),
-                [sty.svgParent__size__32]: hasVariant(variants, "size", "_32"),
-                [sty.svgParent__size__48]: hasVariant(variants, "size", "_48")
-              }
-            )}
+              [sty.svgParent__size__16]: hasVariant(variants, "size", "_16"),
+              [sty.svgParent__size__24]: hasVariant(variants, "size", "_24"),
+              [sty.svgParent__size__32]: hasVariant(variants, "size", "_32"),
+              [sty.svgParent__size__48]: hasVariant(variants, "size", "_48")
+            })}
           >
             <p.PlasmicIcon
               data-plasmic-name={"svg"}
@@ -152,7 +125,7 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
                   ? CircleMinusIcon
                   : CirclePlusIcon
               }
-              className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+              className={classNames(projectcss.all, sty.svg, {
                 [sty.svg__alignment_left]: hasVariant(
                   variants,
                   "alignment",

@@ -21,7 +21,6 @@ import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/compone
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import BadgeVerification from "../../BadgeVerification"; // plasmic-import: _M5uzrbjQp/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelCommunityScores.module.css"; // plasmic-import: JsYhtV8o3HC/css
 
@@ -39,35 +38,24 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__user_member]: hasVariant(variants, "user", "member"),
-          [sty.root__user_partner]: hasVariant(variants, "user", "partner")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__user_member]: hasVariant(variants, "user", "member"),
+        [sty.root__user_partner]: hasVariant(variants, "user", "partner")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"headlineParent"}
         data-plasmic-override={overrides.headlineParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.headlineParent
-        )}
+        className={classNames(projectcss.all, sty.headlineParent)}
       >
         <div
           data-plasmic-name={"headlineCommunity"}
           data-plasmic-override={overrides.headlineCommunity}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.headlineCommunity,
             {
               [sty.headlineCommunity__user_member]: hasVariant(
@@ -92,18 +80,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-name={"elementUserbadges"}
           data-plasmic-override={overrides.elementUserbadges}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.elementUserbadges,
-            {
-              [sty.elementUserbadges__user_partner]: hasVariant(
-                variants,
-                "user",
-                "partner"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.elementUserbadges, {
+            [sty.elementUserbadges__user_partner]: hasVariant(
+              variants,
+              "user",
+              "partner"
+            )
+          })}
         >
           <RatingDisplayDetail
             data-plasmic-name={"ratingDisplayDetail"}
@@ -166,7 +149,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementUserSocialFollowingA}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementUserSocialFollowingA,
             {
@@ -189,26 +171,20 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-name={"followingParent2"}
             data-plasmic-override={overrides.followingParent2}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.followingParent2,
-              {
-                [sty.followingParent2__user_member]: hasVariant(
-                  variants,
-                  "user",
-                  "member"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.followingParent2, {
+              [sty.followingParent2__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            })}
           >
             <div
               data-plasmic-name={"followersNumberCount"}
               data-plasmic-override={overrides.followersNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.followersNumberCount
               )}
             >
@@ -217,9 +193,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__xOZjq
               )}
             >
@@ -232,19 +207,14 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-name={"followersParent2"}
             data-plasmic-override={overrides.followersParent2}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.followersParent2
-            )}
+            className={classNames(projectcss.all, sty.followersParent2)}
           >
             <div
               data-plasmic-name={"followingNumberCount"}
               data-plasmic-override={overrides.followingNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.followingNumberCount
               )}
             >
@@ -253,9 +223,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__qqpfd,
                 {
                   [sty.text__user_member__qqpfdDUag]: hasVariant(
@@ -278,7 +247,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementMemberSubscriptionsLists}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementMemberSubscriptionsLists,
             {
@@ -302,7 +270,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.memberSubscriptionCountParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.memberSubscriptionCountParent,
               {
@@ -318,9 +285,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"memberSubscriptionNumberCount"}
               data-plasmic-override={overrides.memberSubscriptionNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.memberSubscriptionNumberCount,
                 {
                   [sty.memberSubscriptionNumberCount__user_member]: hasVariant(
@@ -342,9 +308,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__ryhCi,
                 {
                   [sty.text__user_member__ryhCiDUag]: hasVariant(
@@ -366,26 +331,20 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-name={"memberListsCountParent"}
             data-plasmic-override={overrides.memberListsCountParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.memberListsCountParent,
-              {
-                [sty.memberListsCountParent__user_member]: hasVariant(
-                  variants,
-                  "user",
-                  "member"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.memberListsCountParent, {
+              [sty.memberListsCountParent__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              )
+            })}
           >
             <div
               data-plasmic-name={"memberListNumberCount"}
               data-plasmic-override={overrides.memberListNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.memberListNumberCount,
                 {
                   [sty.memberListNumberCount__user_member]: hasVariant(
@@ -401,9 +360,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__uRoh2,
                 {
                   [sty.text__user_member__uRoh2DUag]: hasVariant(
@@ -426,7 +384,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementMemberFollowersTeams}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementMemberFollowersTeams,
             {
@@ -444,7 +401,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.memberConnectionCountParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.memberConnectionCountParent,
               {
@@ -460,9 +416,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"memberConnectionNumberCount"}
               data-plasmic-override={overrides.memberConnectionNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.memberConnectionNumberCount,
                 {
                   [sty.memberConnectionNumberCount__user_member]: hasVariant(
@@ -478,9 +433,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__vfmsc,
                 {
                   [sty.text__user_member__vfmscDUag]: hasVariant(
@@ -501,7 +455,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.memberFollowersCountParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.memberFollowersCountParent,
               {
@@ -517,9 +470,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"memberfollowersNumberCount"}
               data-plasmic-override={overrides.memberfollowersNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.memberfollowersNumberCount,
                 {
                   [sty.memberfollowersNumberCount__user_member]: hasVariant(
@@ -535,9 +487,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__xrkqa,
                 {
                   [sty.text__user_member__xrkqaDUag]: hasVariant(
@@ -566,7 +517,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementUserSocialFollowingB}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementUserSocialFollowingB,
             {
@@ -589,19 +539,14 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-name={"followingParent"}
             data-plasmic-override={overrides.followingParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.followingParent
-            )}
+            className={classNames(projectcss.all, sty.followingParent)}
           >
             <div
               data-plasmic-name={"memberNumberCount"}
               data-plasmic-override={overrides.memberNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.memberNumberCount
               )}
             >
@@ -610,9 +555,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__ehvI9,
                 {
                   [sty.text__user_member__ehvI9DUag]: hasVariant(
@@ -634,32 +578,26 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-name={"followersParent"}
             data-plasmic-override={overrides.followersParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.followersParent,
-              {
-                [sty.followersParent__user_member]: hasVariant(
-                  variants,
-                  "user",
-                  "member"
-                ),
+            className={classNames(projectcss.all, sty.followersParent, {
+              [sty.followersParent__user_member]: hasVariant(
+                variants,
+                "user",
+                "member"
+              ),
 
-                [sty.followersParent__user_partner]: hasVariant(
-                  variants,
-                  "user",
-                  "partner"
-                )
-              }
-            )}
+              [sty.followersParent__user_partner]: hasVariant(
+                variants,
+                "user",
+                "partner"
+              )
+            })}
           >
             <div
               data-plasmic-name={"partnerNumberCount"}
               data-plasmic-override={overrides.partnerNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.partnerNumberCount
               )}
             >
@@ -668,9 +606,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__ii48V,
                 {
                   [sty.text__user_member__ii48VDUag]: hasVariant(
@@ -701,7 +638,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           }
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementPartnerSubscriberReviewsParent,
             {
@@ -719,7 +655,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-override={overrides.partnerSubscriberCountParent}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.partnerSubscriberCountParent,
                 {
@@ -741,9 +676,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 data-plasmic-name={"partnerSubscribersNumberCount"}
                 data-plasmic-override={overrides.partnerSubscribersNumberCount}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.partnerSubscribersNumberCount,
                   {
                     [sty.partnerSubscribersNumberCount__user_member]:
@@ -760,9 +694,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 data-plasmic-name={"partnerSubscribersText"}
                 data-plasmic-override={overrides.partnerSubscribersText}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.partnerSubscribersText,
                   {
                     [sty.partnerSubscribersText__user_member]: hasVariant(
@@ -792,7 +725,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-override={overrides.partnerTeamReviewCountParent}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.partnerTeamReviewCountParent,
                 {
@@ -814,9 +746,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 data-plasmic-name={"partnerReviewsNumberCount"}
                 data-plasmic-override={overrides.partnerReviewsNumberCount}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.partnerReviewsNumberCount,
                   {
                     [sty.partnerReviewsNumberCount__user_member]: hasVariant(
@@ -840,9 +771,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 data-plasmic-name={"partnerReviewsText"}
                 data-plasmic-override={overrides.partnerReviewsText}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.partnerReviewsText,
                   {
                     [sty.partnerReviewsText__user_member]: hasVariant(
@@ -882,7 +812,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementUserFollowersTeams3}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.elementUserFollowersTeams3,
             {
@@ -906,7 +835,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.partnerConnectionsCountParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.partnerConnectionsCountParent,
               {
@@ -928,9 +856,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"partnerFollowingNumberCount"}
               data-plasmic-override={overrides.partnerFollowingNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.partnerFollowingNumberCount,
                 {
                   [sty.partnerFollowingNumberCount__user_member]: hasVariant(
@@ -954,9 +881,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"partnerConnectionsText"}
               data-plasmic-override={overrides.partnerConnectionsText}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.partnerConnectionsText,
                 {
                   [sty.partnerConnectionsText__user_member]: hasVariant(
@@ -987,7 +913,6 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.partnerFollowersCountParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.partnerFollowersCountParent,
               {
@@ -1009,9 +934,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"partnerfollowersNumberCount"}
               data-plasmic-override={overrides.partnerfollowersNumberCount}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.partnerfollowersNumberCount,
                 {
                   [sty.partnerfollowersNumberCount__user_member]: hasVariant(
@@ -1035,9 +959,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"partnerFollowersText"}
               data-plasmic-override={overrides.partnerFollowersText}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.partnerFollowersText,
                 {
                   [sty.partnerFollowersText__user_member]: hasVariant(

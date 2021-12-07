@@ -15,7 +15,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputStepperRounded.module.css"; // plasmic-import: n9tjRY9Rdx/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -33,22 +32,11 @@ function PlasmicInputStepperRounded__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <button
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.button___5Xrke
-        )}
-      >
+      <button className={classNames(projectcss.button, sty.button___5Xrke)}>
         <PlusBoldIcon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg___10NR)}
+          className={classNames(projectcss.all, sty.svg___10NR)}
           role={"img"}
         />
       </button>
@@ -56,26 +44,16 @@ function PlasmicInputStepperRounded__RenderFunc(props) {
       <input
         data-plasmic-name={"textInput"}
         data-plasmic-override={overrides.textInput ?? overrides.textbox}
-        className={classNames(
-          defaultcss.input,
-          projectcss.input,
-          sty.textInput
-        )}
+        className={classNames(projectcss.input, sty.textInput)}
         placeholder={""}
         size={1}
         type={"text"}
         value={""}
       />
 
-      <button
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.button__lq38X
-        )}
-      >
+      <button className={classNames(projectcss.button, sty.button__lq38X)}>
         <MinusBoldIcon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__pk7Ni)}
+          className={classNames(projectcss.all, sty.svg__pk7Ni)}
           role={"img"}
         />
       </button>

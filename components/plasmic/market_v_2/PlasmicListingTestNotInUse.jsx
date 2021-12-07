@@ -21,7 +21,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import CardLinkServiceMenu from "../../CardLinkServiceMenu"; // plasmic-import: q8zDlZXV1I/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicListingTestNotInUse.module.css"; // plasmic-import: 9OWAcuBiHBm/css
 import ServiceBriefIcon from "./icons/PlasmicIcon__ServiceBrief"; // plasmic-import: LVWg0MymgF/icon
@@ -51,14 +50,13 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -69,7 +67,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
             data-plasmic-name={"section"}
             data-plasmic-override={overrides.section}
             hasGap={true}
-            className={classNames(defaultcss.all, projectcss.all, sty.section)}
+            className={classNames(projectcss.all, sty.section)}
           >
             <CardHeaderTitleDisplay
               className={classNames(
@@ -81,9 +79,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__dejis
                   )}
                 >
@@ -93,9 +90,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               textDisplay={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__yeXyz
                   )}
                 >
@@ -105,9 +101,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               textSubhead={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__h6Ovh
                   )}
                 >
@@ -121,20 +116,12 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___2Tsr3
-              )}
+              className={classNames(projectcss.all, sty.freeBox___2Tsr3)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__ole9C
-                )}
+                className={classNames(projectcss.all, sty.freeBox__ole9C)}
               >
                 <CardHeaderTitleDisplay
                   className={classNames(
@@ -146,9 +133,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__by0Ei
                       )}
                     >
@@ -160,13 +146,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   }
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__y9Ng2
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__y9Ng2)}>
                   <CardLinkServiceMenu
                     className={classNames(
                       "__wab_instance",
@@ -174,20 +154,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <ServiceBriefIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__txgdv
-                        )}
+                        className={classNames(projectcss.all, sty.svg__txgdv)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__ohydN
                         )}
                       >
@@ -206,20 +181,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <CartProductsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__ryYhu
-                        )}
+                        className={classNames(projectcss.all, sty.svg__ryYhu)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text___1AOSs
                         )}
                       >
@@ -236,11 +206,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__xSa3Z
-                )}
+                className={classNames(projectcss.all, sty.freeBox__xSa3Z)}
               >
                 <CardHeaderTitleDisplay
                   className={classNames(
@@ -252,9 +218,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__endVa
                       )}
                     >
@@ -266,13 +231,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   }
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__ruNmK
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__ruNmK)}>
                   <CardLinkServiceMenu
                     className={classNames(
                       "__wab_instance",
@@ -280,20 +239,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <ServiceBriefIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__lxciF
-                        )}
+                        className={classNames(projectcss.all, sty.svg__lxciF)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__ahabj
                         )}
                       >
@@ -312,20 +266,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <CartProductsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__p7Idg
-                        )}
+                        className={classNames(projectcss.all, sty.svg__p7Idg)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__spOv4
                         )}
                       >
@@ -342,11 +291,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__gmWcB
-                )}
+                className={classNames(projectcss.all, sty.freeBox__gmWcB)}
               >
                 <CardHeaderTitleDisplay
                   className={classNames(
@@ -358,9 +303,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__zehVc
                       )}
                     >
@@ -372,13 +316,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   }
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__ciXrx
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__ciXrx)}>
                   <CardLinkServiceMenu
                     className={classNames(
                       "__wab_instance",
@@ -386,20 +324,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <ServiceBriefIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__hHibp
-                        )}
+                        className={classNames(projectcss.all, sty.svg__hHibp)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text___8NttD
                         )}
                       >
@@ -418,20 +351,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <CartProductsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___7PcsK
-                        )}
+                        className={classNames(projectcss.all, sty.svg___7PcsK)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__aaAc1
                         )}
                       >
@@ -448,11 +376,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__pdhvf
-                )}
+                className={classNames(projectcss.all, sty.freeBox__pdhvf)}
               >
                 <CardHeaderTitleDisplay
                   className={classNames(
@@ -464,9 +388,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__w4Yfz
                       )}
                     >
@@ -478,13 +401,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   }
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__pRkid
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__pRkid)}>
                   <CardLinkServiceMenu
                     className={classNames(
                       "__wab_instance",
@@ -492,20 +409,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <CouponIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__s8QeU
-                        )}
+                        className={classNames(projectcss.all, sty.svg__s8QeU)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__mgZqH
                         )}
                       >
@@ -524,20 +436,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <RefferalIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__iSj8O
-                        )}
+                        className={classNames(projectcss.all, sty.svg__iSj8O)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__ao4U4
                         )}
                       >
@@ -554,11 +461,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__hnQqj
-                )}
+                className={classNames(projectcss.all, sty.freeBox__hnQqj)}
               >
                 <CardHeaderTitleDisplay
                   className={classNames(
@@ -570,9 +473,8 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__yNWgT
                       )}
                     >
@@ -584,13 +486,7 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                   }
                 />
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___4TlW
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox___4TlW)}>
                   <CardLinkServiceMenu
                     className={classNames(
                       "__wab_instance",
@@ -598,20 +494,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <ServiceBriefIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___7NqUc
-                        )}
+                        className={classNames(projectcss.all, sty.svg___7NqUc)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__tOmRd
                         )}
                       >
@@ -630,20 +521,15 @@ function PlasmicListingTestNotInUse__RenderFunc(props) {
                     )}
                     icon={
                       <CartProductsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__ide4B
-                        )}
+                        className={classNames(projectcss.all, sty.svg__ide4B)}
                         role={"img"}
                       />
                     }
                     textBody={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__tpJgw
                         )}
                       >

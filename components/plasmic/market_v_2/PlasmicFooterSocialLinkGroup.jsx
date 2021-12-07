@@ -20,7 +20,6 @@ import {
 import FooterSocialLink from "../../FooterSocialLink"; // plasmic-import: uQNvf8Lt2Y/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooterSocialLinkGroup.module.css"; // plasmic-import: 8gMaB72ItFH/css
 import Icon9Icon from "./icons/PlasmicIcon__Icon9"; // plasmic-import: NgzsNZ-ord/icon
@@ -46,12 +45,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <FooterSocialLink
         data-plasmic-name={"facebook"}
@@ -73,7 +67,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://www.instagram.com/intrepid.market"}
       >
         <Icon9Icon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__fDtqD)}
+          className={classNames(projectcss.all, sty.svg__fDtqD)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -88,7 +82,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://www.linkedin.com/company/intrepidtechnology"}
       >
         <Icon10Icon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__jwRRo)}
+          className={classNames(projectcss.all, sty.svg__jwRRo)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -103,7 +97,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         destination={"https://twitter.com/intrepidmarket?lang=en"}
       >
         <Icon12Icon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__dsyBp)}
+          className={classNames(projectcss.all, sty.svg__dsyBp)}
           role={"img"}
         />
       </FooterSocialLink>
@@ -120,18 +114,13 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         }
       >
         <Icon11Icon
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.svg__p0Gqw,
-            {
-              [sty.svg__color_dark__p0GqwKbTz]: hasVariant(
-                variants,
-                "color",
-                "dark"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.svg__p0Gqw, {
+            [sty.svg__color_dark__p0GqwKbTz]: hasVariant(
+              variants,
+              "color",
+              "dark"
+            )
+          })}
           role={"img"}
         />
       </FooterSocialLink>

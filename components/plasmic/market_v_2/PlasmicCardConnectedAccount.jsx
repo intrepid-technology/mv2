@@ -19,7 +19,6 @@ import {
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardConnectedAccount.module.css"; // plasmic-import: _uTya7yxqeE/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
@@ -50,26 +49,20 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        {
-          [sty.parent__companies_quickbooks]: hasVariant(
-            variants,
-            "companies",
-            "quickbooks"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__companies_quickbooks]: hasVariant(
+          variants,
+          "companies",
+          "quickbooks"
+        )
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"cardParent"}
         data-plasmic-override={overrides.cardParent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.cardParent, {
+        className={classNames(projectcss.all, sty.cardParent, {
           [sty.cardParent__companies_facebook]: hasVariant(
             variants,
             "companies",
@@ -112,11 +105,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
           data-plasmic-name={"iconTextGroup"}
           data-plasmic-override={overrides.iconTextGroup}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.iconTextGroup
-          )}
+          className={classNames(projectcss.all, sty.iconTextGroup)}
         >
           <IconPrimary
             data-plasmic-name={"iconPrimary"}
@@ -196,50 +185,45 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                     ? GooglesvgIcon
                     : Icon171Icon
                 }
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svgIcon6,
-                  {
-                    [sty.svgIcon6__companies_facebook]: hasVariant(
-                      variants,
-                      "companies",
-                      "facebook"
-                    ),
+                className={classNames(projectcss.all, sty.svgIcon6, {
+                  [sty.svgIcon6__companies_facebook]: hasVariant(
+                    variants,
+                    "companies",
+                    "facebook"
+                  ),
 
-                    [sty.svgIcon6__companies_google]: hasVariant(
-                      variants,
-                      "companies",
-                      "google"
-                    ),
+                  [sty.svgIcon6__companies_google]: hasVariant(
+                    variants,
+                    "companies",
+                    "google"
+                  ),
 
-                    [sty.svgIcon6__companies_paypal]: hasVariant(
-                      variants,
-                      "companies",
-                      "paypal"
-                    ),
+                  [sty.svgIcon6__companies_paypal]: hasVariant(
+                    variants,
+                    "companies",
+                    "paypal"
+                  ),
 
-                    [sty.svgIcon6__companies_quickbooks]: hasVariant(
-                      variants,
-                      "companies",
-                      "quickbooks"
-                    ),
+                  [sty.svgIcon6__companies_quickbooks]: hasVariant(
+                    variants,
+                    "companies",
+                    "quickbooks"
+                  ),
 
-                    [sty.svgIcon6__companies_stripe]: hasVariant(
-                      variants,
-                      "companies",
-                      "stripe"
-                    ),
+                  [sty.svgIcon6__companies_stripe]: hasVariant(
+                    variants,
+                    "companies",
+                    "stripe"
+                  ),
 
-                    [sty.svgIcon6__companies_xero]: hasVariant(
-                      variants,
-                      "companies",
-                      "xero"
-                    ),
+                  [sty.svgIcon6__companies_xero]: hasVariant(
+                    variants,
+                    "companies",
+                    "xero"
+                  ),
 
-                    [sty.svgIcon6__team]: hasVariant(variants, "team", "team")
-                  }
-                )}
+                  [sty.svgIcon6__team]: hasVariant(variants, "team", "team")
+                })}
                 role={"img"}
               />
             }
@@ -262,48 +246,43 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
                     ? GooglesvgIcon
                     : Icon171Icon
                 }
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svgIcon8,
-                  {
-                    [sty.svgIcon8__companies_facebook]: hasVariant(
-                      variants,
-                      "companies",
-                      "facebook"
-                    ),
+                className={classNames(projectcss.all, sty.svgIcon8, {
+                  [sty.svgIcon8__companies_facebook]: hasVariant(
+                    variants,
+                    "companies",
+                    "facebook"
+                  ),
 
-                    [sty.svgIcon8__companies_google]: hasVariant(
-                      variants,
-                      "companies",
-                      "google"
-                    ),
+                  [sty.svgIcon8__companies_google]: hasVariant(
+                    variants,
+                    "companies",
+                    "google"
+                  ),
 
-                    [sty.svgIcon8__companies_paypal]: hasVariant(
-                      variants,
-                      "companies",
-                      "paypal"
-                    ),
+                  [sty.svgIcon8__companies_paypal]: hasVariant(
+                    variants,
+                    "companies",
+                    "paypal"
+                  ),
 
-                    [sty.svgIcon8__companies_quickbooks]: hasVariant(
-                      variants,
-                      "companies",
-                      "quickbooks"
-                    ),
+                  [sty.svgIcon8__companies_quickbooks]: hasVariant(
+                    variants,
+                    "companies",
+                    "quickbooks"
+                  ),
 
-                    [sty.svgIcon8__companies_stripe]: hasVariant(
-                      variants,
-                      "companies",
-                      "stripe"
-                    ),
+                  [sty.svgIcon8__companies_stripe]: hasVariant(
+                    variants,
+                    "companies",
+                    "stripe"
+                  ),
 
-                    [sty.svgIcon8__companies_xero]: hasVariant(
-                      variants,
-                      "companies",
-                      "xero"
-                    )
-                  }
-                )}
+                  [sty.svgIcon8__companies_xero]: hasVariant(
+                    variants,
+                    "companies",
+                    "xero"
+                  )
+                })}
                 role={"img"}
               />
             }
@@ -314,42 +293,28 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
             data-plasmic-name={"accountInfoParent"}
             data-plasmic-override={overrides.accountInfoParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.accountInfoParent,
-              {
-                [sty.accountInfoParent__team]: hasVariant(
-                  variants,
-                  "team",
-                  "team"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.accountInfoParent, {
+              [sty.accountInfoParent__team]: hasVariant(
+                variants,
+                "team",
+                "team"
+              )
+            })}
           >
             <div
               data-plasmic-name={"freeBox"}
               data-plasmic-override={overrides.freeBox}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox
-              )}
+              className={classNames(projectcss.all, sty.freeBox)}
             >
               <div
                 data-plasmic-name={"accountName"}
                 data-plasmic-override={overrides.accountName}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.accountName
-                )}
+                className={classNames(projectcss.all, sty.accountName)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text___5QGGx,
                     {
                       [sty.text__companies_facebook___5QGGx2DCs6]: hasVariant(
@@ -412,11 +377,7 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
               data-plasmic-name={"usernameGroupParent"}
               data-plasmic-override={overrides.usernameGroupParent}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.usernameGroupParent
-              )}
+              className={classNames(projectcss.all, sty.usernameGroupParent)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: hasVariant(variants, "team", "team")
@@ -460,28 +421,19 @@ function PlasmicCardConnectedAccount__RenderFunc(props) {
           data-plasmic-name={"connectedTimestampParent"}
           data-plasmic-override={overrides.connectedTimestampParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.connectedTimestampParent
-          )}
+          className={classNames(projectcss.all, sty.connectedTimestampParent)}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"connectedTimestamp"}
             data-plasmic-override={overrides.connectedTimestamp}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.connectedTimestamp
-            )}
+            className={classNames(projectcss.all, sty.connectedTimestamp)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__tZkwH
               )}
             >

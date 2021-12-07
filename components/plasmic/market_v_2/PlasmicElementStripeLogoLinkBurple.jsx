@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementStripeLogoLinkBurple.module.css"; // plasmic-import: EOrI3xKqvN/css
 
@@ -37,7 +36,6 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.a,
         projectcss.a,
         projectcss.root_reset,
         sty.stripeLink,
@@ -59,7 +57,7 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
         data-plasmic-name={"img"}
         data-plasmic-override={overrides.img}
         alt={""}
-        className={classNames(defaultcss.img, projectcss.img, sty.img, {
+        className={classNames(projectcss.img, sty.img, {
           [sty.img__size__16]: hasVariant(variants, "size", "_16"),
           [sty.img__size__18]: hasVariant(variants, "size", "_18"),
           [sty.img__size__24]: hasVariant(variants, "size", "_24"),

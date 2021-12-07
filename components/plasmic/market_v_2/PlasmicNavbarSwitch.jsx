@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarSwitch.module.css"; // plasmic-import: tmc24NnB44/css
 import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
@@ -35,32 +34,23 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__close]: hasVariant(variants, "close", "close") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__close]: hasVariant(variants, "close", "close")
+      })}
     >
       <button
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.parent,
-          {
-            [sty.parent__close]: hasVariant(variants, "close", "close"),
-            [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.parent__size__36]: hasVariant(variants, "size", "_36"),
-            [sty.parent__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.parent__size__48]: hasVariant(variants, "size", "_48")
-          }
-        )}
+        className={classNames(projectcss.button, sty.parent, {
+          [sty.parent__close]: hasVariant(variants, "close", "close"),
+          [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
+          [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
+          [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
+          [sty.parent__size__36]: hasVariant(variants, "size", "_36"),
+          [sty.parent__size__40]: hasVariant(variants, "size", "_40"),
+          [sty.parent__size__48]: hasVariant(variants, "size", "_48")
+        })}
       >
         <p.PlasmicIcon
           data-plasmic-name={"svg"}
@@ -70,7 +60,7 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
               ? Icon170Icon
               : MenuHamburgerIcon
           }
-          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+          className={classNames(projectcss.all, sty.svg, {
             [sty.svg__close]: hasVariant(variants, "close", "close")
           })}
           role={"img"}

@@ -21,7 +21,6 @@ import {
 import SelectDropdownPrimary__Overlay from "../../SelectDropdownPrimary__Overlay"; // plasmic-import: eshNYJDtksh/component
 import SelectDropdownPrimary__Option from "../../SelectDropdownPrimary__Option"; // plasmic-import: d0st1V5YiWH/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSelectDropdownPrimary.module.css"; // plasmic-import: T_qFWEqz1I6/css
 import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: -Of6sI0cqgk/icon
@@ -63,17 +62,11 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.root}
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          projectcss.root_reset,
-          sty.root,
-          {
-            [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-            [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-            [sty.root__width__720]: hasVariant(variants, "width", "_720")
-          }
-        )}
+        className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+          [sty.root__width__720]: hasVariant(variants, "width", "_720")
+        })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
         <p.Stack
@@ -81,43 +74,33 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
           data-plasmic-name={"trigger"}
           data-plasmic-override={overrides.trigger}
           hasGap={true}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.trigger,
-            {
-              [sty.trigger_____focusVisibleWithin]:
-                triggers.focusVisibleWithin_root,
-              [sty.trigger__color_light]: hasVariant(
-                variants,
-                "color",
-                "light"
-              ),
+          className={classNames(projectcss.button, sty.trigger, {
+            [sty.trigger_____focusVisibleWithin]:
+              triggers.focusVisibleWithin_root,
+            [sty.trigger__color_light]: hasVariant(variants, "color", "light"),
+            [sty.trigger__isDisabled]: hasVariant(
+              variants,
+              "isDisabled",
+              "isDisabled"
+            ),
 
-              [sty.trigger__isDisabled]: hasVariant(
-                variants,
-                "isDisabled",
-                "isDisabled"
-              ),
+            [sty.trigger__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+            [sty.trigger__showPlaceholder]: hasVariant(
+              variants,
+              "showPlaceholder",
+              "showPlaceholder"
+            ),
 
-              [sty.trigger__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-              [sty.trigger__showPlaceholder]: hasVariant(
-                variants,
-                "showPlaceholder",
-                "showPlaceholder"
-              ),
-
-              [sty.trigger__width__120]: hasVariant(variants, "width", "_120"),
-              [sty.trigger__width__144]: hasVariant(variants, "width", "_144"),
-              [sty.trigger__width__160]: hasVariant(variants, "width", "_160"),
-              [sty.trigger__width__180]: hasVariant(variants, "width", "_180"),
-              [sty.trigger__width__270]: hasVariant(variants, "width", "_270"),
-              [sty.trigger__width__360]: hasVariant(variants, "width", "_360"),
-              [sty.trigger__width__540]: hasVariant(variants, "width", "_540"),
-              [sty.trigger__width__720]: hasVariant(variants, "width", "_720"),
-              [sty.trigger__width__90]: hasVariant(variants, "width", "_90")
-            }
-          )}
+            [sty.trigger__width__120]: hasVariant(variants, "width", "_120"),
+            [sty.trigger__width__144]: hasVariant(variants, "width", "_144"),
+            [sty.trigger__width__160]: hasVariant(variants, "width", "_160"),
+            [sty.trigger__width__180]: hasVariant(variants, "width", "_180"),
+            [sty.trigger__width__270]: hasVariant(variants, "width", "_270"),
+            [sty.trigger__width__360]: hasVariant(variants, "width", "_360"),
+            [sty.trigger__width__540]: hasVariant(variants, "width", "_540"),
+            [sty.trigger__width__720]: hasVariant(variants, "width", "_720"),
+            [sty.trigger__width__90]: hasVariant(variants, "width", "_90")
+          })}
           disabled={
             hasVariant(variants, "isDisabled", "isDisabled") ? true : undefined
           }
@@ -125,24 +108,19 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
           <div
             data-plasmic-name={"contentContainer"}
             data-plasmic-override={overrides.contentContainer}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentContainer,
-              {
-                [sty.contentContainer__showPlaceholder]: hasVariant(
-                  variants,
-                  "showPlaceholder",
-                  "showPlaceholder"
-                ),
+            className={classNames(projectcss.all, sty.contentContainer, {
+              [sty.contentContainer__showPlaceholder]: hasVariant(
+                variants,
+                "showPlaceholder",
+                "showPlaceholder"
+              ),
 
-                [sty.contentContainer__width__160]: hasVariant(
-                  variants,
-                  "width",
-                  "_160"
-                )
-              }
-            )}
+              [sty.contentContainer__width__160]: hasVariant(
+                variants,
+                "width",
+                "_160"
+              )
+            })}
           >
             {(
               hasVariant(variants, "showPlaceholder", "showPlaceholder")
@@ -197,26 +175,21 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                 ? ChevronUpIcon
                 : ChevronDownIcon
             }
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.dropdownIcon,
-              {
-                [sty.dropdownIcon_____focusVisibleWithin]:
-                  triggers.focusVisibleWithin_root,
-                [sty.dropdownIcon__isOpen]: hasVariant(
-                  variants,
-                  "isOpen",
-                  "isOpen"
-                ),
+            className={classNames(projectcss.all, sty.dropdownIcon, {
+              [sty.dropdownIcon_____focusVisibleWithin]:
+                triggers.focusVisibleWithin_root,
+              [sty.dropdownIcon__isOpen]: hasVariant(
+                variants,
+                "isOpen",
+                "isOpen"
+              ),
 
-                [sty.dropdownIcon__width__160]: hasVariant(
-                  variants,
-                  "width",
-                  "_160"
-                )
-              }
-            )}
+              [sty.dropdownIcon__width__160]: hasVariant(
+                variants,
+                "width",
+                "_160"
+              )
+            })}
             role={"img"}
           />
         </p.Stack>
@@ -233,11 +206,7 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
             <div
               data-plasmic-name={"optionsContainer"}
               data-plasmic-override={overrides.optionsContainer}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.optionsContainer
-              )}
+              className={classNames(projectcss.all, sty.optionsContainer)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: (

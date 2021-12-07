@@ -20,7 +20,6 @@ import {
 import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementMemberProfileCarousell.module.css"; // plasmic-import: Ip2eQQfcFG/css
 
@@ -42,12 +41,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -55,7 +49,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+          className={classNames(projectcss.all, sty.parent)}
         >
           {(
             hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -67,29 +61,15 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
             <div
               data-plasmic-name={"headlineLabelParent"}
               data-plasmic-override={overrides.headlineLabelParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.headlineLabelParent
-              )}
+              className={classNames(projectcss.all, sty.headlineLabelParent)}
             >
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___4RlGc
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___4RlGc)}
                 >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__vtm
-                    )}
-                  >
+                  <div className={classNames(projectcss.all, sty.freeBox__vtm)}>
                     {p.renderPlasmicSlot({
                       defaultContents: "Headline label",
                       value: args.headlineLabel,
@@ -112,11 +92,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
               data-plasmic-name={"memberCarousel"}
               data-plasmic-override={overrides.memberCarousel}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.memberCarousel
-              )}
+              className={classNames(projectcss.all, sty.memberCarousel)}
             >
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true

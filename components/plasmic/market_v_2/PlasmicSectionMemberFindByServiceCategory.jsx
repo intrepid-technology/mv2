@@ -20,7 +20,6 @@ import {
 import ChipCategoryHeader from "../../ChipCategoryHeader"; // plasmic-import: W3C_J23Z38/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionMemberFindByServiceCategory.module.css"; // plasmic-import: yOH-Bx6ijkp/css
 import IconIcon from "./icons/PlasmicIcon__Icon"; // plasmic-import: W-rzROj7A_/icon
@@ -52,18 +51,12 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         className={classNames(
-          defaultcss.all,
           projectcss.all,
-          defaultcss.__wab_text,
+          projectcss.__wab_text,
           sty.text__wbMTc
         )}
       >
@@ -77,7 +70,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <ChipCategoryHeader
           className={classNames(
@@ -95,9 +88,8 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           slot={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__u0Iru
               )}
             >
@@ -113,11 +105,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
                 ? Icon127Icon
                 : IconIcon
             }
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__z6IaD
-            )}
+            className={classNames(projectcss.all, sty.svg__z6IaD)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -142,11 +130,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           }
         >
           <BlockchainsvgIcon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__ikJ57
-            )}
+            className={classNames(projectcss.all, sty.svg__ikJ57)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -171,11 +155,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           }
         >
           <Icon16Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__hKeL8
-            )}
+            className={classNames(projectcss.all, sty.svg__hKeL8)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -197,11 +177,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           }
         >
           <Icon35Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__jw5N
-            )}
+            className={classNames(projectcss.all, sty.svg__jw5N)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -222,11 +198,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           slot={"Web development"}
         >
           <Icon36Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__w2G27
-            )}
+            className={classNames(projectcss.all, sty.svg__w2G27)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -247,11 +219,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           slot={"Digital marketing"}
         >
           <Icon37Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__qzafu
-            )}
+            className={classNames(projectcss.all, sty.svg__qzafu)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -276,11 +244,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           }
         >
           <Icon38Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__w9HRi
-            )}
+            className={classNames(projectcss.all, sty.svg__w9HRi)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -310,11 +274,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
                 ? IconIcon
                 : Icon39Icon
             }
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__rHhcp
-            )}
+            className={classNames(projectcss.all, sty.svg__rHhcp)}
             role={"img"}
           />
         </ChipCategoryHeader>

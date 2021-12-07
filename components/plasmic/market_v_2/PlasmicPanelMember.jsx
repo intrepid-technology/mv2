@@ -21,7 +21,6 @@ import SidebarSection from "../../SidebarSection"; // plasmic-import: 09ZmCZkG7z
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import PanelFooter from "../../PanelFooter"; // plasmic-import: y532Y0sDIf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelMember.module.css"; // plasmic-import: ouYaxX0ZfJN/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
@@ -51,26 +50,21 @@ function PlasmicPanelMember__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"header"}
           data-plasmic-override={overrides.header}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.header)}
+          className={classNames(projectcss.all, sty.header)}
         >
           <DialogTrigger
             data-plasmic-name={"dialogTrigger"}
@@ -86,26 +80,17 @@ function PlasmicPanelMember__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox___0YhmI
-                )}
+                className={classNames(projectcss.all, sty.freeBox___0YhmI)}
               >
                 <ListingIcon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__axJkS
-                  )}
+                  className={classNames(projectcss.all, sty.svg__axJkS)}
                   role={"img"}
                 />
 
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__v771E
                   )}
                 >
@@ -124,26 +109,17 @@ function PlasmicPanelMember__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__cccfw
-              )}
+              className={classNames(projectcss.all, sty.freeBox__cccfw)}
             >
               <MemberPartnerAddIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__zI3Tg
-                )}
+                className={classNames(projectcss.all, sty.svg__zI3Tg)}
                 role={"img"}
               />
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__ztg0
                 )}
               >
@@ -169,11 +145,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <DashboardLineIcon
                 data-plasmic-name={"navIcon"}
                 data-plasmic-override={overrides.navIcon}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon
-                )}
+                className={classNames(projectcss.all, sty.navIcon)}
                 role={"img"}
               />
             }
@@ -191,11 +163,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <WalletEarningsIcon
                 data-plasmic-name={"navIcon2"}
                 data-plasmic-override={overrides.navIcon2}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon2
-                )}
+                className={classNames(projectcss.all, sty.navIcon2)}
                 role={"img"}
               />
             }
@@ -220,11 +188,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <ShopCartIcon
                 data-plasmic-name={"navIcon3"}
                 data-plasmic-override={overrides.navIcon3}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon3
-                )}
+                className={classNames(projectcss.all, sty.navIcon3)}
                 role={"img"}
               />
             }
@@ -249,11 +213,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <ProjectsWorkLineIcon
                 data-plasmic-name={"navIcon4"}
                 data-plasmic-override={overrides.navIcon4}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon4
-                )}
+                className={classNames(projectcss.all, sty.navIcon4)}
                 role={"img"}
               />
             }
@@ -268,11 +228,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <MemberPartnerAddIcon
                 data-plasmic-name={"navIcon5"}
                 data-plasmic-override={overrides.navIcon5}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon5
-                )}
+                className={classNames(projectcss.all, sty.navIcon5)}
                 role={"img"}
               />
             }
@@ -290,11 +246,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <CommentReviewCIcon
                 data-plasmic-name={"navIcon6"}
                 data-plasmic-override={overrides.navIcon6}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon6
-                )}
+                className={classNames(projectcss.all, sty.navIcon6)}
                 role={"img"}
               />
             }
@@ -319,11 +271,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <UserIcon
                 data-plasmic-name={"navIcon7"}
                 data-plasmic-override={overrides.navIcon7}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon7
-                )}
+                className={classNames(projectcss.all, sty.navIcon7)}
                 role={"img"}
               />
             }
@@ -341,11 +289,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <TeamPartnersIcon
                 data-plasmic-name={"navIcon8"}
                 data-plasmic-override={overrides.navIcon8}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon8
-                )}
+                className={classNames(projectcss.all, sty.navIcon8)}
                 role={"img"}
               />
             }
@@ -365,26 +309,17 @@ function PlasmicPanelMember__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___2EO1
-              )}
+              className={classNames(projectcss.all, sty.freeBox___2EO1)}
             >
               <SwitchUserIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__qzXBc
-                )}
+                className={classNames(projectcss.all, sty.svg__qzXBc)}
                 role={"img"}
               />
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__zSoRd
                 )}
               >
@@ -410,11 +345,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <NotificationIcon
                 data-plasmic-name={"navIcon10"}
                 data-plasmic-override={overrides.navIcon10}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon10
-                )}
+                className={classNames(projectcss.all, sty.navIcon10)}
                 role={"img"}
               />
             }
@@ -432,11 +363,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <SettingsIcon
                 data-plasmic-name={"navIcon11"}
                 data-plasmic-override={overrides.navIcon11}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon11
-                )}
+                className={classNames(projectcss.all, sty.navIcon11)}
                 role={"img"}
               />
             }
@@ -454,11 +381,7 @@ function PlasmicPanelMember__RenderFunc(props) {
               <HelpIcon
                 data-plasmic-name={"navIcon12"}
                 data-plasmic-override={overrides.navIcon12}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.navIcon12
-                )}
+                className={classNames(projectcss.all, sty.navIcon12)}
                 role={"img"}
               />
             }
@@ -477,26 +400,17 @@ function PlasmicPanelMember__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__dphov
-              )}
+              className={classNames(projectcss.all, sty.freeBox__dphov)}
             >
               <LogOutIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__cTlht
-                )}
+                className={classNames(projectcss.all, sty.svg__cTlht)}
                 role={"img"}
               />
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__hlSc9
                 )}
               >
@@ -510,7 +424,7 @@ function PlasmicPanelMember__RenderFunc(props) {
       <div
         data-plasmic-name={"footer"}
         data-plasmic-override={overrides.footer}
-        className={classNames(defaultcss.all, projectcss.all, sty.footer)}
+        className={classNames(projectcss.all, sty.footer)}
       >
         <PanelFooter
           data-plasmic-name={"panelFooter"}

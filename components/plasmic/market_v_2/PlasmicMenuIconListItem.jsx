@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMenuIconListItem.module.css"; // plasmic-import: 61axZSTp8Y/css
 import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrandColor"; // plasmic-import: Lsqk-ADBoKU/icon
@@ -47,7 +46,6 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.a,
         projectcss.a,
         projectcss.root_reset,
         sty.menuIconListItemLink,
@@ -75,27 +73,18 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         data-plasmic-name={"iconTextParent"}
         data-plasmic-override={overrides.iconTextParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.iconTextParent,
-          {
-            [sty.iconTextParent__selected]: hasVariant(
-              variants,
-              "selected",
-              "selected"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.iconTextParent, {
+          [sty.iconTextParent__selected]: hasVariant(
+            variants,
+            "selected",
+            "selected"
+          )
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <OptionalFixedBrandColorIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__wfdfm
-              )}
+              className={classNames(projectcss.all, sty.svg__wfdfm)}
               role={"img"}
             />
           ),
@@ -119,18 +108,13 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         <div
           data-plasmic-name={"navTextParent"}
           data-plasmic-override={overrides.navTextParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.navTextParent,
-            {
-              [sty.navTextParent__selected]: hasVariant(
-                variants,
-                "selected",
-                "selected"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.navTextParent, {
+            [sty.navTextParent__selected]: hasVariant(
+              variants,
+              "selected",
+              "selected"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Item",

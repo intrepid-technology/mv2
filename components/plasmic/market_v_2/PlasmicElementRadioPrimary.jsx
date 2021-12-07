@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementRadioPrimary.module.css"; // plasmic-import: Wn4V4PrC-K/css
 
@@ -35,17 +34,12 @@ function PlasmicElementRadioPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"radioBorder"}
         data-plasmic-override={overrides.radioBorder}
-        className={classNames(defaultcss.all, projectcss.all, sty.radioBorder, {
+        className={classNames(projectcss.all, sty.radioBorder, {
           [sty.radioBorder__selected]: hasVariant(
             variants,
             "selected",
@@ -63,7 +57,7 @@ function PlasmicElementRadioPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"radioCore"}
           data-plasmic-override={overrides.radioCore}
-          className={classNames(defaultcss.all, projectcss.all, sty.radioCore, {
+          className={classNames(projectcss.all, sty.radioCore, {
             [sty.radioCore__selected]: hasVariant(
               variants,
               "selected",

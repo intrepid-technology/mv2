@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicToggleSubscriptionCard.module.css"; // plasmic-import: 7hi-uHtvzE/css
 
@@ -37,36 +36,20 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__x3Lz4
-        )}
+        className={classNames(projectcss.all, sty.freeBox__x3Lz4)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___59Etq
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox___59Etq)}>
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text,
               {
                 [sty.text__active_autorenew]: hasVariant(
@@ -127,11 +110,7 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__ljIaA
-        )}
+        className={classNames(projectcss.all, sty.freeBox__ljIaA)}
       >
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}

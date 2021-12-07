@@ -28,7 +28,6 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicHome.module.css"; // plasmic-import: 0fvA7C1gRK/css
 import ApplesvgIcon from "./icons/PlasmicIcon__Applesvg"; // plasmic-import: J_76r5N89/icon
@@ -89,14 +88,13 @@ function PlasmicHome__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -106,11 +104,7 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"navbarWrapper"}
               data-plasmic-override={overrides.navbarWrapper}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.navbarWrapper
-              )}
+              className={classNames(projectcss.all, sty.navbarWrapper)}
             >
               <Navbar
                 data-plasmic-name={"navbar"}
@@ -124,35 +118,21 @@ function PlasmicHome__RenderFunc(props) {
           <div
             data-plasmic-name={"hero2A"}
             data-plasmic-override={overrides.hero2A}
-            className={classNames(defaultcss.all, projectcss.all, sty.hero2A)}
+            className={classNames(projectcss.all, sty.hero2A)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.columns__dK5
-              )}
+              className={classNames(projectcss.all, sty.columns__dK5)}
             >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.column__xo9Az
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.column__xo9Az)}>
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <p.Stack
                     as={"div"}
                     hasGap={true}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__b2E2Q
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__b2E2Q)}
                   >
                     {(
                       hasVariant(globalVariants, "screen", "desktop")
@@ -163,7 +143,6 @@ function PlasmicHome__RenderFunc(props) {
                         as={"div"}
                         hasGap={true}
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox__ukmZ2
                         )}
@@ -177,7 +156,6 @@ function PlasmicHome__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox___7DeVr
                             )}
@@ -206,16 +184,14 @@ function PlasmicHome__RenderFunc(props) {
                             ) ? (
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
                                   sty.freeBox__xtE7
                                 )}
                               >
                                 <div
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
-                                    defaultcss.__wab_text,
+                                    projectcss.__wab_text,
                                     sty.text__yN3P
                                   )}
                                 >
@@ -234,16 +210,14 @@ function PlasmicHome__RenderFunc(props) {
 
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__qNvgm
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__ztd5X
                             )}
                           >
@@ -274,23 +248,13 @@ function PlasmicHome__RenderFunc(props) {
                 ) : null}
               </div>
 
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.column__cdamw
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.column__cdamw)}>
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__nOw5H
-                    )}
+                    className={classNames(projectcss.img, sty.img__nOw5H)}
                     loading={"lazy"}
                     src={
                       hasVariant(globalVariants, "screen", "desktop")
@@ -310,24 +274,13 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-override={overrides.sectionBrandTestimonial}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.sectionBrandTestimonial
               )}
             >
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__c3IeE
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.freeBox__c3IeE)}>
                 <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___8KjUa
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___8KjUa)}
                 >
                   {p.renderPlasmicSlot({
                     defaultContents:
@@ -341,57 +294,33 @@ function PlasmicHome__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__c3HQ
-                )}
+                className={classNames(projectcss.all, sty.freeBox__c3HQ)}
               >
                 {p.renderPlasmicSlot({
                   defaultContents: (
                     <React.Fragment>
                       <ApplesvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__qdTfx
-                        )}
+                        className={classNames(projectcss.all, sty.svg__qdTfx)}
                         role={"img"}
                       />
 
                       <TheNorthFace1LogoSvgVectorsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__hRjMh
-                        )}
+                        className={classNames(projectcss.all, sty.svg__hRjMh)}
                         role={"img"}
                       />
 
                       <MastercardsvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__uRiIa
-                        )}
+                        className={classNames(projectcss.all, sty.svg__uRiIa)}
                         role={"img"}
                       />
 
                       <NikesvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__mbJw0
-                        )}
+                        className={classNames(projectcss.all, sty.svg__mbJw0)}
                         role={"img"}
                       />
 
                       <LvmhLogosvgIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__hd5D
-                        )}
+                        className={classNames(projectcss.all, sty.svg__hd5D)}
                         role={"img"}
                       />
                     </React.Fragment>
@@ -409,11 +338,7 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"featureOne"}
               data-plasmic-override={overrides.featureOne}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.featureOne
-              )}
+              className={classNames(projectcss.all, sty.featureOne)}
             >
               <BadgeSectionTitle
                 border={
@@ -443,17 +368,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___0KqWu
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___0KqWu)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__kTRu
                     )}
                   >
@@ -464,9 +384,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__dbN4
                     )}
                   >
@@ -480,20 +399,12 @@ function PlasmicHome__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__evqum
-                )}
+                className={classNames(projectcss.all, sty.freeBox__evqum)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___5FDc
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___5FDc)}
                 >
                   <IconElementCircle
                     className={classNames(
@@ -503,11 +414,7 @@ function PlasmicHome__RenderFunc(props) {
                     color={"brand"}
                     iconSlot={
                       <LocationBIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__dwxDu
-                        )}
+                        className={classNames(projectcss.all, sty.svg__dwxDu)}
                         role={"img"}
                       />
                     }
@@ -528,11 +435,7 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__oLb2U
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__oLb2U)}
                 >
                   <IconElementCircle
                     className={classNames(
@@ -542,11 +445,7 @@ function PlasmicHome__RenderFunc(props) {
                     color={"brand"}
                     iconSlot={
                       <Icon57Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__lm89G
-                        )}
+                        className={classNames(projectcss.all, sty.svg__lm89G)}
                         role={"img"}
                       />
                     }
@@ -567,11 +466,7 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__zjAwk
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__zjAwk)}
                 >
                   <IconElementCircle
                     className={classNames(
@@ -581,11 +476,7 @@ function PlasmicHome__RenderFunc(props) {
                     color={"brand"}
                     iconSlot={
                       <P2PPayPaymentIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__i8Y5D
-                        )}
+                        className={classNames(projectcss.all, sty.svg__i8Y5D)}
                         role={"img"}
                       />
                     }
@@ -611,11 +502,7 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"remoteWorkCta"}
               data-plasmic-override={overrides.remoteWorkCta}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.remoteWorkCta
-              )}
+              className={classNames(projectcss.all, sty.remoteWorkCta)}
             >
               <BadgeSectionTitle
                 className={classNames(
@@ -640,17 +527,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__gk0Ee
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__gk0Ee)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___3PMT
                     )}
                   >
@@ -661,9 +543,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___4YJnh
                     )}
                   >
@@ -674,13 +555,7 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
               ) : null}
 
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__srSmU
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.freeBox__srSmU)}>
                 <Button
                   className={classNames("__wab_instance", sty.button___2YXuk)}
                   color={
@@ -717,11 +592,7 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"featureTwo"}
               data-plasmic-override={overrides.featureTwo}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.featureTwo
-              )}
+              className={classNames(projectcss.all, sty.featureTwo)}
             >
               <BadgeSectionTitle
                 border={
@@ -751,17 +622,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__tJkge
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__tJkge)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__zKr39
                     )}
                   >
@@ -772,9 +638,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__dUKbZ
                     )}
                   >
@@ -788,11 +653,7 @@ function PlasmicHome__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox___7V9Yb
-                )}
+                className={classNames(projectcss.all, sty.freeBox___7V9Yb)}
               >
                 <CardImageHeadlineDescription
                   _270X270={
@@ -800,11 +661,7 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X270"}
                       data-plasmic-override={overrides._270X270}
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty._270X270
-                      )}
+                      className={classNames(projectcss.img, sty._270X270)}
                       src={"/plasmic/market_v_2/images/image31.png"}
                     />
                   }
@@ -821,9 +678,8 @@ function PlasmicHome__RenderFunc(props) {
                       text={
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text__jrOfy
                           )}
                         >
@@ -840,11 +696,7 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2702"}
                       data-plasmic-override={overrides._270X2702}
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty._270X2702
-                      )}
+                      className={classNames(projectcss.img, sty._270X2702)}
                       src={"/plasmic/market_v_2/images/image29.png"}
                     />
                   }
@@ -861,9 +713,8 @@ function PlasmicHome__RenderFunc(props) {
                       text={
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text__co0FG
                           )}
                         >
@@ -880,11 +731,7 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2703"}
                       data-plasmic-override={overrides._270X2703}
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty._270X2703
-                      )}
+                      className={classNames(projectcss.img, sty._270X2703)}
                       src={"/plasmic/market_v_2/images/image11.png"}
                     />
                   }
@@ -901,9 +748,8 @@ function PlasmicHome__RenderFunc(props) {
                       text={
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text__iEqIq
                           )}
                         >
@@ -920,11 +766,7 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2704"}
                       data-plasmic-override={overrides._270X2704}
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty._270X2704
-                      )}
+                      className={classNames(projectcss.img, sty._270X2704)}
                       src={"/plasmic/market_v_2/images/image30.png"}
                     />
                   }
@@ -941,9 +783,8 @@ function PlasmicHome__RenderFunc(props) {
                       text={
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text___12Mer
                           )}
                         >
@@ -960,39 +801,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"findAndHire"}
               data-plasmic-override={overrides.findAndHire}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.findAndHire
-              )}
+              className={classNames(projectcss.all, sty.findAndHire)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns__kdjQa
-                )}
+                className={classNames(projectcss.all, sty.columns__kdjQa)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__w2RDk
-                    )}
+                    className={classNames(projectcss.all, sty.column__w2RDk)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__x6Dtz
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__x6Dtz)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1009,16 +834,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__otGp
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__ch19Y
                             )}
                           >
@@ -1030,16 +853,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__tvhl7
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text__hgXx
                                 )}
                               >
@@ -1062,19 +883,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__xfHrU
-                    )}
+                    className={classNames(projectcss.all, sty.column__xfHrU)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__r8Lts
-                      )}
+                      className={classNames(projectcss.img, sty.img__r8Lts)}
                       loading={"lazy"}
                       src={
                         "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
@@ -1089,39 +902,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"financialServices"}
               data-plasmic-override={overrides.financialServices}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.financialServices
-              )}
+              className={classNames(projectcss.all, sty.financialServices)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns__uSIhZ
-                )}
+                className={classNames(projectcss.all, sty.columns__uSIhZ)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__pqQ27
-                    )}
+                    className={classNames(projectcss.all, sty.column__pqQ27)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__iik51
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__iik51)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1142,16 +939,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__pVheP
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text___055Ku
                             )}
                           >
@@ -1163,16 +958,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__hfhd
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text__tBgyE
                                 )}
                               >
@@ -1191,19 +984,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__wpDh0
-                    )}
+                    className={classNames(projectcss.all, sty.column__wpDh0)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__lLh
-                      )}
+                      className={classNames(projectcss.img, sty.img__lLh)}
                       loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
@@ -1220,39 +1005,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"internationalPayments"}
               data-plasmic-override={overrides.internationalPayments}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.internationalPayments
-              )}
+              className={classNames(projectcss.all, sty.internationalPayments)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns__qDaZc
-                )}
+                className={classNames(projectcss.all, sty.columns__qDaZc)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__z1DyX
-                    )}
+                    className={classNames(projectcss.all, sty.column__z1DyX)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__jMi7
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__jMi7)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1273,16 +1042,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__n4E8U
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__cyDea
                             )}
                           >
@@ -1294,16 +1061,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__oPc5M
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text___6DqXv
                                 )}
                               >
@@ -1322,19 +1087,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__djtkA
-                    )}
+                    className={classNames(projectcss.all, sty.column__djtkA)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__xs5Ij
-                      )}
+                      className={classNames(projectcss.img, sty.img__xs5Ij)}
                       loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
@@ -1351,39 +1108,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"expenseManagement"}
               data-plasmic-override={overrides.expenseManagement}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.expenseManagement
-              )}
+              className={classNames(projectcss.all, sty.expenseManagement)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns___9Y6Sa
-                )}
+                className={classNames(projectcss.all, sty.columns___9Y6Sa)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__cTiLh
-                    )}
+                    className={classNames(projectcss.all, sty.column__cTiLh)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__kn6B
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__kn6B)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1395,9 +1136,8 @@ function PlasmicHome__RenderFunc(props) {
                         sectionTitleSlot={
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__uieC2
                             )}
                           >
@@ -1413,16 +1153,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__t0XCb
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text___8FIod
                             )}
                           >
@@ -1434,16 +1172,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__w4Xne
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text__bEOzc
                                 )}
                               >
@@ -1462,19 +1198,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__nwfkd
-                    )}
+                    className={classNames(projectcss.all, sty.column__nwfkd)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__dCeHn
-                      )}
+                      className={classNames(projectcss.img, sty.img__dCeHn)}
                       loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
@@ -1491,39 +1219,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"compliance"}
               data-plasmic-override={overrides.compliance}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.compliance
-              )}
+              className={classNames(projectcss.all, sty.compliance)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns__wV6NZ
-                )}
+                className={classNames(projectcss.all, sty.columns__wV6NZ)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__xlxcO
-                    )}
+                    className={classNames(projectcss.all, sty.column__xlxcO)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__hGmJc
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__hGmJc)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1535,9 +1247,8 @@ function PlasmicHome__RenderFunc(props) {
                         sectionTitleSlot={
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__x7Vas
                             )}
                           >
@@ -1553,16 +1264,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__a8Q3K
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text___3JkaC
                             )}
                           >
@@ -1574,16 +1283,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__kd6Nj
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text__lLIsF
                                 )}
                               >
@@ -1602,19 +1309,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__mw9Vy
-                    )}
+                    className={classNames(projectcss.all, sty.column__mw9Vy)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__gJY
-                      )}
+                      className={classNames(projectcss.img, sty.img__gJY)}
                       loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
@@ -1631,39 +1330,23 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"workforceManagement"}
               data-plasmic-override={overrides.workforceManagement}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.workforceManagement
-              )}
+              className={classNames(projectcss.all, sty.workforceManagement)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.columns__zJcMt
-                )}
+                className={classNames(projectcss.all, sty.columns__zJcMt)}
               >
                 {(
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column__tXkos
-                    )}
+                    className={classNames(projectcss.all, sty.column__tXkos)}
                   >
                     <p.Stack
                       as={"div"}
                       hasGap={true}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__nvkKv
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__nvkKv)}
                     >
                       <BadgeSectionTitle
                         border={"border"}
@@ -1675,9 +1358,8 @@ function PlasmicHome__RenderFunc(props) {
                         sectionTitleSlot={
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__yXe6E
                             )}
                           >
@@ -1693,16 +1375,14 @@ function PlasmicHome__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__qDqe
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__ejuCk
                             )}
                           >
@@ -1714,16 +1394,14 @@ function PlasmicHome__RenderFunc(props) {
                           {true ? (
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__s0Cd
                               )}
                             >
                               <div
                                 className={classNames(
-                                  defaultcss.all,
                                   projectcss.all,
-                                  defaultcss.__wab_text,
+                                  projectcss.__wab_text,
                                   sty.text__fvLxY
                                 )}
                               >
@@ -1742,19 +1420,11 @@ function PlasmicHome__RenderFunc(props) {
                   hasVariant(globalVariants, "screen", "desktop") ? true : true
                 ) ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.column___4AgGi
-                    )}
+                    className={classNames(projectcss.all, sty.column___4AgGi)}
                   >
                     <img
                       alt={""}
-                      className={classNames(
-                        defaultcss.img,
-                        projectcss.img,
-                        sty.img__fTfiA
-                      )}
+                      className={classNames(projectcss.img, sty.img__fTfiA)}
                       loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
@@ -1773,11 +1443,7 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"metricsCta"}
               data-plasmic-override={overrides.metricsCta}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.metricsCta
-              )}
+              className={classNames(projectcss.all, sty.metricsCta)}
             >
               <BadgeSectionTitle
                 border={
@@ -1807,17 +1473,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__idOvW
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__idOvW)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__e70Ma
                     )}
                   >
@@ -1828,9 +1489,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__zjBn
                     )}
                   >
@@ -1844,26 +1504,17 @@ function PlasmicHome__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__d9YM7
-                )}
+                className={classNames(projectcss.all, sty.freeBox__d9YM7)}
               >
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__eNku8
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__eNku8)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__rMoY4
                     )}
                   >
@@ -1872,9 +1523,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__cfS4S
                     )}
                   >
@@ -1885,17 +1535,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__xuqzH
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__xuqzH)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__eGcDu
                     )}
                   >
@@ -1904,9 +1549,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__dcNnD
                     )}
                   >
@@ -1917,17 +1561,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__mj2Ev
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__mj2Ev)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__bgE5G
                     )}
                   >
@@ -1936,9 +1575,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__zU6Hu
                     )}
                   >
@@ -1956,11 +1594,7 @@ function PlasmicHome__RenderFunc(props) {
               data-plasmic-name={"closingCta"}
               data-plasmic-override={overrides.closingCta}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.closingCta
-              )}
+              className={classNames(projectcss.all, sty.closingCta)}
             >
               {(
                 hasVariant(globalVariants, "screen", "desktop") ? true : true
@@ -1968,17 +1602,12 @@ function PlasmicHome__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___0ESm3
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___0ESm3)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__rlmQe
                     )}
                   >
@@ -1989,9 +1618,8 @@ function PlasmicHome__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__svmxW
                     )}
                   >
@@ -2002,13 +1630,7 @@ function PlasmicHome__RenderFunc(props) {
                 </p.Stack>
               ) : null}
 
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__o6JpK
-                )}
-              >
+              <div className={classNames(projectcss.all, sty.freeBox__o6JpK)}>
                 <Button
                   className={classNames("__wab_instance", sty.button__vmX84)}
                   color={
@@ -2038,11 +1660,7 @@ function PlasmicHome__RenderFunc(props) {
             <div
               data-plasmic-name={"footerWrapper"}
               data-plasmic-override={overrides.footerWrapper}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.footerWrapper
-              )}
+              className={classNames(projectcss.all, sty.footerWrapper)}
             >
               <Footer
                 data-plasmic-name={"footer"}

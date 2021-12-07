@@ -20,7 +20,6 @@ import {
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarOverhead.module.css"; // plasmic-import: 3cGFR-AqsO/css
 
@@ -43,23 +42,17 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
-          [sty.root__colors_dark]: hasVariant(variants, "colors", "dark")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
+        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <NavLink
           data-plasmic-name={"memberPricing"}

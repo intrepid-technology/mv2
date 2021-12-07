@@ -18,7 +18,6 @@ import {
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelMemberSectionMember.module.css"; // plasmic-import: Q3RBslsHoHs/css
 import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
@@ -39,25 +38,19 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__lJwqz
           )}
         >
@@ -72,11 +65,7 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
           <UserIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage2
-            )}
+            className={classNames(projectcss.all, sty.navImage2)}
             role={"img"}
           />
         }
@@ -91,11 +80,7 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
           <TeamPartnersIcon
             data-plasmic-name={"navImage3"}
             data-plasmic-override={overrides.navImage3}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage3
-            )}
+            className={classNames(projectcss.all, sty.navImage3)}
             role={"img"}
           />
         }
@@ -110,11 +95,7 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
           <WalletEarningsIcon
             data-plasmic-name={"navImage4"}
             data-plasmic-override={overrides.navImage4}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage4
-            )}
+            className={classNames(projectcss.all, sty.navImage4)}
             role={"img"}
           />
         }
@@ -133,9 +114,8 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__lExxv
           )}
         >

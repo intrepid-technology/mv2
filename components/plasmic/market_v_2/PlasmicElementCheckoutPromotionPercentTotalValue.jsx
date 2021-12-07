@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementCheckoutPromotionPercentTotalValue.module.css"; // plasmic-import: v-uWcZLOPTn/css
 
@@ -38,30 +37,17 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__rvDg
-        )}
+        className={classNames(projectcss.all, sty.freeBox__rvDg)}
       >
         <div
           data-plasmic-name={"promotionTitleTextParent"}
           data-plasmic-override={overrides.promotionTitleTextParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.promotionTitleTextParent
-          )}
+          className={classNames(projectcss.all, sty.promotionTitleTextParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Promotion",
@@ -76,7 +62,6 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           data-plasmic-override={overrides.promotionFactorPercentNumberParent}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.promotionFactorPercentNumberParent
           )}
@@ -85,9 +70,8 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
             data-plasmic-name={"promotionFactorText"}
             data-plasmic-override={overrides.promotionFactorText}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.promotionFactorText
             )}
           >
@@ -110,16 +94,14 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
         }
         hasGap={true}
         className={classNames(
-          defaultcss.all,
           projectcss.all,
           sty.promotionCurrencyTotalValueDiscountNumber
         )}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__mX4Ny
           )}
         >
@@ -129,11 +111,7 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
         <div
           data-plasmic-name={"promotionCurrencyParent"}
           data-plasmic-override={overrides.promotionCurrencyParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.promotionCurrencyParent
-          )}
+          className={classNames(projectcss.all, sty.promotionCurrencyParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "$",
@@ -142,18 +120,11 @@ function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
           })}
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__jPJt
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__jPJt)}>
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__clGpn
             )}
           >

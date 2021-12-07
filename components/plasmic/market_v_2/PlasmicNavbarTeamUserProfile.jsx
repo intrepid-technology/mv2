@@ -19,7 +19,6 @@ import {
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import NavLinkCounter from "../../NavLinkCounter"; // plasmic-import: -OUVGqQU5t/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarTeamUserProfile.module.css"; // plasmic-import: 6HzrYVr_1ZK/css
 
@@ -35,27 +34,21 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__selected_about]: hasVariant(variants, "selected", "about"),
-          [sty.root__selected_partners]: hasVariant(
-            variants,
-            "selected",
-            "partners"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__selected_about]: hasVariant(variants, "selected", "about"),
+        [sty.root__selected_partners]: hasVariant(
+          variants,
+          "selected",
+          "partners"
+        )
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__selected_about]: hasVariant(
             variants,
             "selected",

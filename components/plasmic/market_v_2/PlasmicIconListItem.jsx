@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicIconListItem.module.css"; // plasmic-import: Hh6LXHL9Zp/css
 
@@ -35,27 +34,19 @@ function PlasmicIconListItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__vertical]: hasVariant(variants, "vertical", "vertical") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__vertical]: hasVariant(variants, "vertical", "vertical")
+      })}
     >
       <div
         data-plasmic-name={"iconWrapper"}
         data-plasmic-override={overrides.iconWrapper}
-        className={classNames(defaultcss.all, projectcss.all, sty.iconWrapper)}
+        className={classNames(projectcss.all, sty.iconWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <svg
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__dIszo
-              )}
+              className={classNames(projectcss.all, sty.svg__dIszo)}
               role={"img"}
             />
           ),
@@ -67,7 +58,7 @@ function PlasmicIconListItem__RenderFunc(props) {
       <div
         data-plasmic-name={"textWrapper"}
         data-plasmic-override={overrides.textWrapper}
-        className={classNames(defaultcss.all, projectcss.all, sty.textWrapper, {
+        className={classNames(projectcss.all, sty.textWrapper, {
           [sty.textWrapper__vertical]: hasVariant(
             variants,
             "vertical",

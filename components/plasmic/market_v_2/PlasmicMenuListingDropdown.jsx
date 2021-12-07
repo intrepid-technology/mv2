@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import MenuItem from "../../MenuItem"; // plasmic-import: VVXqLHd1Qa/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMenuListingDropdown.module.css"; // plasmic-import: IFFoU3tcDj/css
 
@@ -35,12 +34,7 @@ function PlasmicMenuListingDropdown__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem___8KKvH)}

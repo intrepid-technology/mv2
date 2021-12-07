@@ -22,7 +22,6 @@ import ButtonUberStyle from "../../ButtonUberStyle"; // plasmic-import: JpZ_1tH-
 import InputEmailB from "../../InputEmailB"; // plasmic-import: TlHGxonFgD/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicHeroWelcomeCta.module.css"; // plasmic-import: zcIXnSYZXs/css
 
@@ -48,141 +47,114 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__cta_button]: hasVariant(variants, "cta", "button"),
-          [sty.root__cta_email]: hasVariant(variants, "cta", "email"),
-          [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-          [sty.root__persona_partner]: hasVariant(
-            variants,
-            "persona",
-            "partner"
-          ),
-
-          [sty.root__persona_partner_size__720]:
-            hasVariant(variants, "persona", "partner") &&
-            hasVariant(variants, "size", "_720"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.root__size__360_cta_email]:
-            hasVariant(variants, "size", "_360") &&
-            hasVariant(variants, "cta", "email"),
-          [sty.root__size__720]: hasVariant(variants, "size", "_720"),
-          [sty.root__size__720_persona_member]:
-            hasVariant(variants, "size", "_720") &&
-            hasVariant(variants, "persona", "member")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__cta_button]: hasVariant(variants, "cta", "button"),
+        [sty.root__cta_email]: hasVariant(variants, "cta", "email"),
+        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
+        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner"),
+        [sty.root__persona_partner_size__720]:
+          hasVariant(variants, "persona", "partner") &&
+          hasVariant(variants, "size", "_720"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size__360_cta_email]:
+          hasVariant(variants, "size", "_360") &&
+          hasVariant(variants, "cta", "email"),
+        [sty.root__size__720]: hasVariant(variants, "size", "_720"),
+        [sty.root__size__720_persona_member]:
+          hasVariant(variants, "size", "_720") &&
+          hasVariant(variants, "persona", "member")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"headlineSubhead"}
         data-plasmic-override={overrides.headlineSubhead}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.headlineSubhead,
-          {
-            [sty.headlineSubhead__persona_partner]: hasVariant(
+        className={classNames(projectcss.all, sty.headlineSubhead, {
+          [sty.headlineSubhead__persona_partner]: hasVariant(
+            variants,
+            "persona",
+            "partner"
+          ),
+
+          [sty.headlineSubhead__persona_partner_size__720]:
+            hasVariant(variants, "persona", "partner") &&
+            hasVariant(variants, "size", "_720"),
+          [sty.headlineSubhead__size__270]: hasVariant(
+            variants,
+            "size",
+            "_270"
+          ),
+
+          [sty.headlineSubhead__size__360]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          ),
+
+          [sty.headlineSubhead__size__720]: hasVariant(
+            variants,
+            "size",
+            "_720"
+          ),
+
+          [sty.headlineSubhead__size__720_persona_member]:
+            hasVariant(variants, "size", "_720") &&
+            hasVariant(variants, "persona", "member")
+        })}
+      >
+        <p.Stack
+          as={"div"}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.freeBox__p7LNb, {
+            [sty.freeBox__persona_partner__p7LNbh1Dvk]: hasVariant(
               variants,
               "persona",
               "partner"
             ),
 
-            [sty.headlineSubhead__persona_partner_size__720]:
+            [sty.freeBox__persona_partner_size__720__p7LNbh1DvkHXq]:
               hasVariant(variants, "persona", "partner") &&
               hasVariant(variants, "size", "_720"),
-            [sty.headlineSubhead__size__270]: hasVariant(
+            [sty.freeBox__size__270__p7LNbWzVrX]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.headlineSubhead__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
-
-            [sty.headlineSubhead__size__720]: hasVariant(
+            [sty.freeBox__size__720__p7LNbHXq]: hasVariant(
               variants,
               "size",
               "_720"
-            ),
-
-            [sty.headlineSubhead__size__720_persona_member]:
-              hasVariant(variants, "size", "_720") &&
-              hasVariant(variants, "persona", "member")
-          }
-        )}
-      >
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__p7LNb,
-            {
-              [sty.freeBox__persona_partner__p7LNbh1Dvk]: hasVariant(
-                variants,
-                "persona",
-                "partner"
-              ),
-
-              [sty.freeBox__persona_partner_size__720__p7LNbh1DvkHXq]:
-                hasVariant(variants, "persona", "partner") &&
-                hasVariant(variants, "size", "_720"),
-              [sty.freeBox__size__270__p7LNbWzVrX]: hasVariant(
+            )
+          })}
+        >
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__zBnnw, {
+              [sty.freeBox__size__270__zBnnwwzVrX]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.freeBox__size__720__p7LNbHXq]: hasVariant(
+              [sty.freeBox__size__720__zBnnwHXq]: hasVariant(
                 variants,
                 "size",
                 "_720"
-              )
-            }
-          )}
-        >
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__zBnnw,
-              {
-                [sty.freeBox__size__270__zBnnwwzVrX]: hasVariant(
-                  variants,
-                  "size",
-                  "_270"
-                ),
+              ),
 
-                [sty.freeBox__size__720__zBnnwHXq]: hasVariant(
-                  variants,
-                  "size",
-                  "_720"
-                ),
-
-                [sty.freeBox__size__720_persona_partner__zBnnwHXqH1Dvk]:
-                  hasVariant(variants, "size", "_720") &&
-                  hasVariant(variants, "persona", "partner")
-              }
-            )}
+              [sty.freeBox__size__720_persona_partner__zBnnwHXqH1Dvk]:
+                hasVariant(variants, "size", "_720") &&
+                hasVariant(variants, "persona", "partner")
+            })}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__bkkSv,
                 {
                   [sty.text__persona_member__bkkSv3SAq]: hasVariant(
@@ -220,9 +192,8 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__krNqh,
                 {
                   [sty.text__cta_button__krNqh8Tb0D]: hasVariant(
@@ -270,9 +241,8 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
 
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__bVkfy,
                 {
                   [sty.text__persona_member__bVkfy3SAq]: hasVariant(
@@ -311,131 +281,116 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
         </p.Stack>
 
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___0SFze,
-            {
-              [sty.freeBox__persona_partner___0SFzEh1Dvk]: hasVariant(
+          className={classNames(projectcss.all, sty.freeBox___0SFze, {
+            [sty.freeBox__persona_partner___0SFzEh1Dvk]: hasVariant(
+              variants,
+              "persona",
+              "partner"
+            ),
+
+            [sty.freeBox__persona_partner_size__720___0SFzEh1DvkHXq]:
+              hasVariant(variants, "persona", "partner") &&
+              hasVariant(variants, "size", "_720"),
+            [sty.freeBox__size__270___0SFzewzVrX]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
+
+            [sty.freeBox__size__360___0SFzeKakJz]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            ),
+
+            [sty.freeBox__size__720___0SFzeHXq]: hasVariant(
+              variants,
+              "size",
+              "_720"
+            ),
+
+            [sty.freeBox__size__720_persona_member___0SFzeHXq3SAq]:
+              hasVariant(variants, "size", "_720") &&
+              hasVariant(variants, "persona", "member")
+          })}
+        >
+          <div
+            className={classNames(projectcss.all, sty.freeBox__sgyko, {
+              [sty.freeBox__persona_member__sgyko3SAq]: hasVariant(
+                variants,
+                "persona",
+                "member"
+              ),
+
+              [sty.freeBox__persona_partner__sgykoh1Dvk]: hasVariant(
                 variants,
                 "persona",
                 "partner"
               ),
 
-              [sty.freeBox__persona_partner_size__720___0SFzEh1DvkHXq]:
+              [sty.freeBox__persona_partner_size__270__sgykoh1DvkWzVrX]:
                 hasVariant(variants, "persona", "partner") &&
-                hasVariant(variants, "size", "_720"),
-              [sty.freeBox__size__270___0SFzewzVrX]: hasVariant(
+                hasVariant(variants, "size", "_270"),
+              [sty.freeBox__size__270__sgykoWzVrX]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.freeBox__size__360___0SFzeKakJz]: hasVariant(
+              [sty.freeBox__size__270_persona_member__sgykoWzVrX3SAq]:
+                hasVariant(variants, "size", "_270") &&
+                hasVariant(variants, "persona", "member"),
+              [sty.freeBox__size__360__sgykoKakJz]: hasVariant(
                 variants,
                 "size",
                 "_360"
               ),
 
-              [sty.freeBox__size__720___0SFzeHXq]: hasVariant(
+              [sty.freeBox__size__720__sgykoHXq]: hasVariant(
                 variants,
                 "size",
                 "_720"
-              ),
-
-              [sty.freeBox__size__720_persona_member___0SFzeHXq3SAq]:
-                hasVariant(variants, "size", "_720") &&
-                hasVariant(variants, "persona", "member")
-            }
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__sgyko,
-              {
-                [sty.freeBox__persona_member__sgyko3SAq]: hasVariant(
+              )
+            })}
+          >
+            <div
+              className={classNames(projectcss.all, sty.freeBox___0HSz, {
+                [sty.freeBox__persona_member___0HSz3SAq]: hasVariant(
                   variants,
                   "persona",
                   "member"
                 ),
 
-                [sty.freeBox__persona_partner__sgykoh1Dvk]: hasVariant(
+                [sty.freeBox__persona_partner___0HSzh1Dvk]: hasVariant(
                   variants,
                   "persona",
                   "partner"
                 ),
 
-                [sty.freeBox__persona_partner_size__270__sgykoh1DvkWzVrX]:
+                [sty.freeBox__persona_partner_size__270___0HSzh1DvkWzVrX]:
                   hasVariant(variants, "persona", "partner") &&
                   hasVariant(variants, "size", "_270"),
-                [sty.freeBox__size__270__sgykoWzVrX]: hasVariant(
+                [sty.freeBox__size__270___0HSzWzVrX]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__270_persona_member__sgykoWzVrX3SAq]:
+                [sty.freeBox__size__270_persona_member___0HSzWzVrX3SAq]:
                   hasVariant(variants, "size", "_270") &&
                   hasVariant(variants, "persona", "member"),
-                [sty.freeBox__size__360__sgykoKakJz]: hasVariant(
+                [sty.freeBox__size__360___0HSzKakJz]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.freeBox__size__720__sgykoHXq]: hasVariant(
+                [sty.freeBox__size__720___0HSzHXq]: hasVariant(
                   variants,
                   "size",
                   "_720"
                 )
-              }
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___0HSz,
-                {
-                  [sty.freeBox__persona_member___0HSz3SAq]: hasVariant(
-                    variants,
-                    "persona",
-                    "member"
-                  ),
-
-                  [sty.freeBox__persona_partner___0HSzh1Dvk]: hasVariant(
-                    variants,
-                    "persona",
-                    "partner"
-                  ),
-
-                  [sty.freeBox__persona_partner_size__270___0HSzh1DvkWzVrX]:
-                    hasVariant(variants, "persona", "partner") &&
-                    hasVariant(variants, "size", "_270"),
-                  [sty.freeBox__size__270___0HSzWzVrX]: hasVariant(
-                    variants,
-                    "size",
-                    "_270"
-                  ),
-
-                  [sty.freeBox__size__270_persona_member___0HSzWzVrX3SAq]:
-                    hasVariant(variants, "size", "_270") &&
-                    hasVariant(variants, "persona", "member"),
-                  [sty.freeBox__size__360___0HSzKakJz]: hasVariant(
-                    variants,
-                    "size",
-                    "_360"
-                  ),
-
-                  [sty.freeBox__size__720___0HSzHXq]: hasVariant(
-                    variants,
-                    "size",
-                    "_720"
-                  )
-                }
-              )}
+              })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: hasVariant(variants, "persona", "partner")
@@ -553,9 +508,8 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__emeni,
               {
                 [sty.text__persona_member__emeni3SAq]: hasVariant(
@@ -660,9 +614,8 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__qUWk5,
               {
                 [sty.text__cta_email__qUWk544Lt1]: hasVariant(

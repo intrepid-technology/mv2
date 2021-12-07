@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServiceFeatureB.module.css"; // plasmic-import: WvXgBKm3bX/css
 import Icon111Icon from "./icons/PlasmicIcon__Icon111"; // plasmic-import: fytPd42_r6/icon
@@ -34,34 +33,19 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__size_small]: hasVariant(variants, "size", "small") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size_small]: hasVariant(variants, "size", "small")
+      })}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___5Hp8
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox___5Hp8)}>
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__qfYAs,
-            {
-              [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
-                variants,
-                "size",
-                "small"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox__qfYAs, {
+            [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
+              variants,
+              "size",
+              "small"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Service Feature",
@@ -78,27 +62,18 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___99Rg,
-          {
-            [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
-              variants,
-              "size",
-              "small"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.freeBox___99Rg, {
+          [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
+            variants,
+            "size",
+            "small"
+          )
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon111Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__a9Ot1
-              )}
+              className={classNames(projectcss.all, sty.svg__a9Ot1)}
               role={"img"}
             />
           ),

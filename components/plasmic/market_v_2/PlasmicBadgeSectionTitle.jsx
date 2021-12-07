@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicBadgeSectionTitle.module.css"; // plasmic-import: kKmAboE5L2/css
 
@@ -36,26 +35,20 @@ function PlasmicBadgeSectionTitle__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__border]: hasVariant(variants, "border", "border"),
-          [sty.root__border_colors_brand]:
-            hasVariant(variants, "border", "border") &&
-            hasVariant(variants, "colors", "brand"),
-          [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
-          [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
-          [sty.root__colors_light]: hasVariant(variants, "colors", "light")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__border]: hasVariant(variants, "border", "border"),
+        [sty.root__border_colors_brand]:
+          hasVariant(variants, "border", "border") &&
+          hasVariant(variants, "colors", "brand"),
+        [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
+        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
+        [sty.root__colors_light]: hasVariant(variants, "colors", "light")
+      })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+        className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox__colors_brand]: hasVariant(variants, "colors", "brand")
         })}
       >

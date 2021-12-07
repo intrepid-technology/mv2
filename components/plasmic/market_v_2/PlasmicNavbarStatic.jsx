@@ -20,7 +20,6 @@ import {
 import LogoHeader from "../../LogoHeader"; // plasmic-import: 9wNFT5FYWe/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarStatic.module.css"; // plasmic-import: rvDpPOFOSj/css
 import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic-import: UzRMlTHWYLl/icon
@@ -49,12 +48,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(
         hasVariant(globalVariants, "screen", "iphone678")
@@ -65,13 +59,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : true
       ) ? (
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__gq5Ri
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__gq5Ri)}>
           {(
             hasVariant(globalVariants, "screen", "iphone678")
               ? true
@@ -81,13 +69,7 @@ function PlasmicNavbarStatic__RenderFunc(props) {
               ? true
               : true
           ) ? (
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__mn6Cy
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__mn6Cy)}>
               <LogoHeader
                 data-plasmic-name={"logoHeader"}
                 data-plasmic-override={overrides.logoHeader}
@@ -105,18 +87,12 @@ function PlasmicNavbarStatic__RenderFunc(props) {
           ? true
           : true
       ) ? (
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__ejVzw
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__ejVzw)}>
           {true ? (
             <SectionDividerIcon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+              className={classNames(projectcss.all, sty.svg)}
               role={"img"}
             />
           ) : null}

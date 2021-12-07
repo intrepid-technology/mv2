@@ -19,7 +19,6 @@ import {
 } from "@plasmicapp/react-web";
 import IconStripeLogo from "../../IconStripeLogo"; // plasmic-import: tq01IF7a70/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonStripeVerification.module.css"; // plasmic-import: GEqD9diS3J/css
 import IdVerificationIcon from "./icons/PlasmicIcon__IdVerification"; // plasmic-import: b3T1tA8bk/icon
@@ -51,7 +50,6 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.button,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
@@ -69,7 +67,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+          className={classNames(projectcss.all, sty.freeBox, {
             [sty.freeBox__icon]: hasVariant(variants, "icon", "icon"),
             [sty.freeBox__size__180]: hasVariant(variants, "size", "_180")
           })}
@@ -77,7 +75,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
           <IdVerificationIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg__icon]: hasVariant(variants, "icon", "icon"),
               [sty.svg__size__180]: hasVariant(variants, "size", "_180")
             })}
@@ -89,7 +87,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, projectcss.all, sty.textParent, {
+        className={classNames(projectcss.all, sty.textParent, {
           [sty.textParent__logo]: hasVariant(variants, "logo", "logo"),
           [sty.textParent__size__180]: hasVariant(variants, "size", "_180")
         })}
@@ -97,7 +95,7 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
         <div
           data-plasmic-name={"textBg"}
           data-plasmic-override={overrides.textBg}
-          className={classNames(defaultcss.all, projectcss.all, sty.textBg)}
+          className={classNames(projectcss.all, sty.textBg)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Get verified with",

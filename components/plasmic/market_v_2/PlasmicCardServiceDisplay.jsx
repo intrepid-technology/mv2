@@ -24,7 +24,6 @@ import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/compone
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardServiceDisplay.module.css"; // plasmic-import: 82Lpaa43lIc/css
 import ViewIcon from "./icons/PlasmicIcon__View"; // plasmic-import: 1gdYphl9Jz/icon
@@ -61,24 +60,18 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        {
-          [sty.parent__description]: hasVariant(
-            variants,
-            "description",
-            "description"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__description]: hasVariant(
+          variants,
+          "description",
+          "description"
+        ),
 
-          [sty.parent__price]: hasVariant(variants, "price", "price"),
-          [sty.parent__size__270X270]: hasVariant(variants, "size", "_270X270"),
-          [sty.parent__size__360X270]: hasVariant(variants, "size", "_360X270"),
-          [sty.parent__size__360X360]: hasVariant(variants, "size", "_360X360")
-        }
-      )}
+        [sty.parent__price]: hasVariant(variants, "price", "price"),
+        [sty.parent__size__270X270]: hasVariant(variants, "size", "_270X270"),
+        [sty.parent__size__360X270]: hasVariant(variants, "size", "_360X270"),
+        [sty.parent__size__360X360]: hasVariant(variants, "size", "_360X360")
+      })}
     >
       <ImagePrimary
         data-plasmic-name={"display"}
@@ -95,11 +88,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             {false ? (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img___90SlK
-                )}
+                className={classNames(projectcss.img, sty.img___90SlK)}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -109,11 +98,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               defaultContents: (
                 <img
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img___1O5Bc
-                  )}
+                  className={classNames(projectcss.img, sty.img___1O5Bc)}
                   src={
                     "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                   }
@@ -129,11 +114,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             {false ? (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__e6YuM
-                )}
+                className={classNames(projectcss.img, sty.img__e6YuM)}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -144,11 +125,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-name={"image360X1882"}
               data-plasmic-override={overrides.image360X1882}
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.image360X1882
-              )}
+              className={classNames(projectcss.img, sty.image360X1882)}
               src={
                 "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
               }
@@ -160,11 +137,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             {false ? (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__bSsNa
-                )}
+                className={classNames(projectcss.img, sty.img__bSsNa)}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -174,11 +147,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               defaultContents: (
                 <img
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img__orizs
-                  )}
+                  className={classNames(projectcss.img, sty.img__orizs)}
                   src={
                     "https://craftypixels.com/placeholder-image/360x270/f8f8f8/333333"
                   }
@@ -201,11 +170,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             {false ? (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__wPpgb
-                )}
+                className={classNames(projectcss.img, sty.img__wPpgb)}
                 src={
                   "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                 }
@@ -216,11 +181,7 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-name={"_360X1882"}
               data-plasmic-override={overrides._360X1882}
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty._360X1882
-              )}
+              className={classNames(projectcss.img, sty._360X1882)}
               src={
                 "https://craftypixels.com/placeholder-image/360x188/f8f8f8/333333"
               }
@@ -234,24 +195,19 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
         data-plasmic-name={"userInfoParent"}
         data-plasmic-override={overrides.userInfoParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.userInfoParent,
-          {
-            [sty.userInfoParent__size__270X270]: hasVariant(
-              variants,
-              "size",
-              "_270X270"
-            ),
+        className={classNames(projectcss.all, sty.userInfoParent, {
+          [sty.userInfoParent__size__270X270]: hasVariant(
+            variants,
+            "size",
+            "_270X270"
+          ),
 
-            [sty.userInfoParent__size__360X270]: hasVariant(
-              variants,
-              "size",
-              "_360X270"
-            )
-          }
-        )}
+          [sty.userInfoParent__size__360X270]: hasVariant(
+            variants,
+            "size",
+            "_360X270"
+          )
+        })}
       >
         <p.Stack
           as={"div"}
@@ -259,7 +215,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           data-plasmic-override={overrides.userMemberInfoParentMax250Px}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.userMemberInfoParentMax250Px,
             {
@@ -274,18 +229,13 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"userAvatarParentLink"}
             data-plasmic-override={overrides.userAvatarParentLink}
-            className={classNames(
-              defaultcss.a,
-              projectcss.a,
-              sty.userAvatarParentLink,
-              {
-                [sty.userAvatarParentLink__avatar]: hasVariant(
-                  variants,
-                  "avatar",
-                  "avatar"
-                )
-              }
-            )}
+            className={classNames(projectcss.a, sty.userAvatarParentLink, {
+              [sty.userAvatarParentLink__avatar]: hasVariant(
+                variants,
+                "avatar",
+                "avatar"
+              )
+            })}
             component={Link}
             platform={"nextjs"}
           >
@@ -299,18 +249,13 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"usernameParentLink"}
             data-plasmic-override={overrides.usernameParentLink}
-            className={classNames(
-              defaultcss.a,
-              projectcss.a,
-              sty.usernameParentLink,
-              {
-                [sty.usernameParentLink__username]: hasVariant(
-                  variants,
-                  "username",
-                  "username"
-                )
-              }
-            )}
+            className={classNames(projectcss.a, sty.usernameParentLink, {
+              [sty.usernameParentLink__username]: hasVariant(
+                variants,
+                "username",
+                "username"
+              )
+            })}
             component={Link}
             platform={"nextjs"}
           >
@@ -324,18 +269,13 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <div
             data-plasmic-name={"isVerification"}
             data-plasmic-override={overrides.isVerification}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.isVerification,
-              {
-                [sty.isVerification__verification]: hasVariant(
-                  variants,
-                  "verification",
-                  "verification"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.isVerification, {
+              [sty.isVerification__verification]: hasVariant(
+                variants,
+                "verification",
+                "verification"
+              )
+            })}
           >
             <TagBadgeVerification
               data-plasmic-name={"tagBadgeVerification"}
@@ -348,18 +288,13 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <div
             data-plasmic-name={"userMemberLevelParent"}
             data-plasmic-override={overrides.userMemberLevelParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.userMemberLevelParent,
-              {
-                [sty.userMemberLevelParent__membership]: hasVariant(
-                  variants,
-                  "membership",
-                  "membership"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.userMemberLevelParent, {
+              [sty.userMemberLevelParent__membership]: hasVariant(
+                variants,
+                "membership",
+                "membership"
+              )
+            })}
           >
             <TagMemberD
               data-plasmic-name={"tagMemberD"}
@@ -402,19 +337,14 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"reviewLinkB"}
               data-plasmic-override={overrides.reviewLinkB}
-              className={classNames(
-                defaultcss.a,
-                projectcss.a,
-                sty.reviewLinkB
-              )}
+              className={classNames(projectcss.a, sty.reviewLinkB)}
               component={Link}
               platform={"nextjs"}
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__gnv58,
                   {
                     [sty.text__size__270X270__gnv58YHOxL]: hasVariant(
@@ -433,15 +363,14 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"reviewLinkA"}
             data-plasmic-override={overrides.reviewLinkA}
-            className={classNames(defaultcss.a, projectcss.a, sty.reviewLinkA)}
+            className={classNames(projectcss.a, sty.reviewLinkA)}
             component={Link}
             platform={"nextjs"}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__mzsOx,
                 {
                   [sty.text__size__270X270__mzsOxyHOxL]: hasVariant(
@@ -461,35 +390,30 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
       <div
         data-plasmic-name={"title86CharMax"}
         data-plasmic-override={overrides.title86CharMax}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.title86CharMax,
-          {
-            [sty.title86CharMax__description]: hasVariant(
-              variants,
-              "description",
-              "description"
-            ),
+        className={classNames(projectcss.all, sty.title86CharMax, {
+          [sty.title86CharMax__description]: hasVariant(
+            variants,
+            "description",
+            "description"
+          ),
 
-            [sty.title86CharMax__size__270X270]: hasVariant(
-              variants,
-              "size",
-              "_270X270"
-            ),
+          [sty.title86CharMax__size__270X270]: hasVariant(
+            variants,
+            "size",
+            "_270X270"
+          ),
 
-            [sty.title86CharMax__size__360X270]: hasVariant(
-              variants,
-              "size",
-              "_360X270"
-            )
-          }
-        )}
+          [sty.title86CharMax__size__360X270]: hasVariant(
+            variants,
+            "size",
+            "_360X270"
+          )
+        })}
       >
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+          className={classNames(projectcss.all, sty.freeBox, {
             [sty.freeBox__description]: hasVariant(
               variants,
               "description",
@@ -541,49 +465,39 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
         data-plasmic-name={"priceUserStatsParent"}
         data-plasmic-override={overrides.priceUserStatsParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.priceUserStatsParent,
-          {
-            [sty.priceUserStatsParent__size__270X270]: hasVariant(
-              variants,
-              "size",
-              "_270X270"
-            ),
+        className={classNames(projectcss.all, sty.priceUserStatsParent, {
+          [sty.priceUserStatsParent__size__270X270]: hasVariant(
+            variants,
+            "size",
+            "_270X270"
+          ),
 
-            [sty.priceUserStatsParent__size__360X270]: hasVariant(
-              variants,
-              "size",
-              "_360X270"
-            )
-          }
-        )}
+          [sty.priceUserStatsParent__size__360X270]: hasVariant(
+            variants,
+            "size",
+            "_360X270"
+          )
+        })}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"priceSponsorParent"}
           data-plasmic-override={overrides.priceSponsorParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.priceSponsorParent,
-            {
-              [sty.priceSponsorParent__size__270X270]: hasVariant(
-                variants,
-                "size",
-                "_270X270"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.priceSponsorParent, {
+            [sty.priceSponsorParent__size__270X270]: hasVariant(
+              variants,
+              "size",
+              "_270X270"
+            )
+          })}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"price"}
             data-plasmic-override={overrides.price}
             hasGap={true}
-            className={classNames(defaultcss.all, projectcss.all, sty.price, {
+            className={classNames(projectcss.all, sty.price, {
               [sty.price__boost]: hasVariant(variants, "boost", "boost"),
               [sty.price__price]: hasVariant(variants, "price", "price")
             })}
@@ -591,19 +505,14 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             <div
               data-plasmic-name={"currencyParent"}
               data-plasmic-override={overrides.currencyParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.currencyParent
-              )}
+              className={classNames(projectcss.all, sty.currencyParent)}
             >
               <div
                 data-plasmic-name={"currency"}
                 data-plasmic-override={overrides.currency}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.currency,
                   {
                     [sty.currency__size__270X270]: hasVariant(
@@ -621,19 +530,14 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             <div
               data-plasmic-name={"priceValueParent"}
               data-plasmic-override={overrides.priceValueParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.priceValueParent
-              )}
+              className={classNames(projectcss.all, sty.priceValueParent)}
             >
               <div
                 data-plasmic-name={"priceValue"}
                 data-plasmic-override={overrides.priceValue}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.priceValue,
                   {
                     [sty.priceValue__price]: hasVariant(
@@ -658,18 +562,9 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
           <div
             data-plasmic-name={"boostedParent"}
             data-plasmic-override={overrides.boostedParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.boostedParent,
-              {
-                [sty.boostedParent__boost]: hasVariant(
-                  variants,
-                  "boost",
-                  "boost"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.boostedParent, {
+              [sty.boostedParent__boost]: hasVariant(variants, "boost", "boost")
+            })}
           >
             <TagBadge
               data-plasmic-name={"boostedDisplay"}
@@ -678,9 +573,8 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               text10Px={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__dGTde
                   )}
                 >
@@ -690,9 +584,8 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               text8Px={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__bkWea
                   )}
                 >
@@ -710,53 +603,36 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
             data-plasmic-name={"userStatsParent"}
             data-plasmic-override={overrides.userStatsParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.userStatsParent,
-              {
-                [sty.userStatsParent__size__270X270]: hasVariant(
-                  variants,
-                  "size",
-                  "_270X270"
-                ),
+            className={classNames(projectcss.all, sty.userStatsParent, {
+              [sty.userStatsParent__size__270X270]: hasVariant(
+                variants,
+                "size",
+                "_270X270"
+              ),
 
-                [sty.userStatsParent__userStats]: hasVariant(
-                  variants,
-                  "userStats",
-                  "userStats"
-                )
-              }
-            )}
+              [sty.userStatsParent__userStats]: hasVariant(
+                variants,
+                "userStats",
+                "userStats"
+              )
+            })}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"viewButtonCount"}
               data-plasmic-override={overrides.viewButtonCount}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.viewButtonCount
-              )}
+              className={classNames(projectcss.all, sty.viewButtonCount)}
             >
               <button
                 data-plasmic-name={"viewButton"}
                 data-plasmic-override={overrides.viewButton}
-                className={classNames(
-                  defaultcss.button,
-                  projectcss.button,
-                  sty.viewButton
-                )}
+                className={classNames(projectcss.button, sty.viewButton)}
               >
                 <ViewIcon
                   data-plasmic-name={"viewDisplay"}
                   data-plasmic-override={overrides.viewDisplay}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.viewDisplay
-                  )}
+                  className={classNames(projectcss.all, sty.viewDisplay)}
                   role={"img"}
                 />
               </button>
@@ -765,7 +641,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 data-plasmic-name={"viewNumberValueParent"}
                 data-plasmic-override={overrides.viewNumberValueParent}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.viewNumberValueParent
                 )}
@@ -774,9 +649,8 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   data-plasmic-name={"viewNumberIncrement"}
                   data-plasmic-override={overrides.viewNumberIncrement}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.viewNumberIncrement
                   )}
                 >
@@ -790,29 +664,17 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-name={"heartButtonCount"}
               data-plasmic-override={overrides.heartButtonCount}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.heartButtonCount
-              )}
+              className={classNames(projectcss.all, sty.heartButtonCount)}
             >
               <button
                 data-plasmic-name={"heartButton"}
                 data-plasmic-override={overrides.heartButton}
-                className={classNames(
-                  defaultcss.button,
-                  projectcss.button,
-                  sty.heartButton
-                )}
+                className={classNames(projectcss.button, sty.heartButton)}
               >
                 <HeartFillIcon
                   data-plasmic-name={"heartDisplay"}
                   data-plasmic-override={overrides.heartDisplay}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.heartDisplay
-                  )}
+                  className={classNames(projectcss.all, sty.heartDisplay)}
                   role={"img"}
                 />
               </button>
@@ -821,7 +683,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 data-plasmic-name={"heartNumberValueParent"}
                 data-plasmic-override={overrides.heartNumberValueParent}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.heartNumberValueParent
                 )}
@@ -830,9 +691,8 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   data-plasmic-name={"heartNumberIncrement"}
                   data-plasmic-override={overrides.heartNumberIncrement}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.heartNumberIncrement
                   )}
                 >
@@ -846,29 +706,17 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
               data-plasmic-name={"bookmarkButtonCount"}
               data-plasmic-override={overrides.bookmarkButtonCount}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.bookmarkButtonCount
-              )}
+              className={classNames(projectcss.all, sty.bookmarkButtonCount)}
             >
               <button
                 data-plasmic-name={"bookmarkButton"}
                 data-plasmic-override={overrides.bookmarkButton}
-                className={classNames(
-                  defaultcss.button,
-                  projectcss.button,
-                  sty.bookmarkButton
-                )}
+                className={classNames(projectcss.button, sty.bookmarkButton)}
               >
                 <BookmarkIcon
                   data-plasmic-name={"bookmarkDisplay"}
                   data-plasmic-override={overrides.bookmarkDisplay}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.bookmarkDisplay
-                  )}
+                  className={classNames(projectcss.all, sty.bookmarkDisplay)}
                   role={"img"}
                 />
               </button>
@@ -877,7 +725,6 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                 data-plasmic-name={"bookmarkNumberValueParent"}
                 data-plasmic-override={overrides.bookmarkNumberValueParent}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.bookmarkNumberValueParent
                 )}
@@ -886,9 +733,8 @@ function PlasmicCardServiceDisplay__RenderFunc(props) {
                   data-plasmic-name={"bookmarkNumberIncrement"}
                   data-plasmic-override={overrides.bookmarkNumberIncrement}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.bookmarkNumberIncrement
                   )}
                 >

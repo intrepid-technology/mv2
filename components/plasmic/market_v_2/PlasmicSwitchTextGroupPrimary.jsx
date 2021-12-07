@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchTextPrimary from "../../SwitchTextPrimary"; // plasmic-import: 0ls58SUcEc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSwitchTextGroupPrimary.module.css"; // plasmic-import: dxvh7jp8PC/css
 
@@ -38,12 +37,7 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <SwitchTextPrimary
         data-plasmic-name={"switchTextPrimary"}
@@ -58,25 +52,17 @@ function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"descriptionTextParent"}
           data-plasmic-override={overrides.descriptionTextParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.descriptionTextParent
-          )}
+          className={classNames(projectcss.all, sty.descriptionTextParent)}
         >
           <div
             data-plasmic-name={"descriptionSlotParent"}
             data-plasmic-override={overrides.descriptionSlotParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.descriptionSlotParent
-            )}
+            className={classNames(projectcss.all, sty.descriptionSlotParent)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

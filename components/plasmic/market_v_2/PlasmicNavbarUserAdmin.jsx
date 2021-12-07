@@ -18,7 +18,6 @@ import {
 import NavbarAdminIcons from "../../NavbarAdminIcons"; // plasmic-import: -GlpTucHU-/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarUserAdmin.module.css"; // plasmic-import: ZMyXOaiDBH_/css
 
@@ -36,12 +35,7 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <NavbarAdminIcons
         alternates={"help"}
@@ -65,7 +59,7 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
       <div
         data-plasmic-name={"avatarParent"}
         data-plasmic-override={overrides.avatarParent}
-        className={classNames(defaultcss.all, projectcss.all, sty.avatarParent)}
+        className={classNames(projectcss.all, sty.avatarParent)}
       >
         <UserAvatar
           data-plasmic-name={"userAvatar"}
