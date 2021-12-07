@@ -183,9 +183,11 @@ function PlasmicNavbar__RenderFunc(props) {
             })}
             color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
             destination={
-              hasVariant(globalVariants, "screen", "desktop")
+              hasVariant(variants, "dark", "dark")
                 ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                : "/partner/pricing"
+                : hasVariant(globalVariants, "screen", "desktop")
+                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
+                : "https://intrepidventures.typeform.com/to/MthpVWrA"
             }
             hasShadow={"hasShadow"}
             rounded={"rounded"}
