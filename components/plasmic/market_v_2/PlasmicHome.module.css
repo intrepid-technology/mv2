@@ -2465,7 +2465,7 @@
     background: #ffffff;
     min-width: 0;
     display: flex;
-    padding: 144px 80px;
+    padding: 80px 80px 144px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {

@@ -138,7 +138,11 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.memberButton__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
-            destination={"/member/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? "https://form.typeform.com/to/qoNxle4D"
+                : "/member/pricing"
+            }
             type={"link"}
           >
             <div
@@ -167,7 +171,11 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.memberButton2__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
-            destination={"/member/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? ""
+                : "/member/pricing"
+            }
             type={"link"}
           >
             <div
@@ -196,7 +204,11 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.partnerButton__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
-            destination={"/partner/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
+                : "/partner/pricing"
+            }
             hasShadow={"hasShadow"}
             rounded={"rounded"}
             type={"primary"}

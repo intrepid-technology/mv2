@@ -261,6 +261,11 @@ function PlasmicHome__RenderFunc(props) {
                         sty.button__zheXn
                       )}
                       color={"brand"}
+                      destination={
+                        hasVariant(globalVariants, "screen", "desktop")
+                          ? "https://intrepidventures.typeform.com/to/MthpVWrA"
+                          : undefined
+                      }
                       rounded={"rounded"}
                     >
                       {"Request access"}
@@ -681,6 +686,11 @@ function PlasmicHome__RenderFunc(props) {
                   color={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "brand"
+                      : undefined
+                  }
+                  destination={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                       : undefined
                   }
                   hasShadow={
@@ -2004,6 +2014,11 @@ function PlasmicHome__RenderFunc(props) {
                   color={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "brand"
+                      : undefined
+                  }
+                  destination={
+                    hasVariant(globalVariants, "screen", "desktop")
+                      ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                       : undefined
                   }
                   rounded={
