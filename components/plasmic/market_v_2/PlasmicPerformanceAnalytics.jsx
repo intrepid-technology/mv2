@@ -1,3 +1,5 @@
+import "@plasmicapp/react-web/lib/plasmic.css";
+
 // @ts-nocheck
 /* eslint-disable */
 /* tslint:disable */
@@ -9,37 +11,38 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: RQdHhTD_vq
 import * as React from "react";
-import Head from "next/head";
+import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as p from "@plasmicapp/react-web";
+import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import * as sty from "./PlasmicPerformanceAnalytics.module.css"; // plasmic-import: RQdHhTD_vq/css
+
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants
+  ensureGlobalVariants,
+  hasVariant
 } from "@plasmicapp/react-web";
+
+import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
+import BriefOrdersIcon from "./icons/PlasmicIcon__BriefOrders"; // plasmic-import: IHBDow0Bv/icon
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import CardAnalyticsPrimary from "../../CardAnalyticsPrimary"; // plasmic-import: -EGIFSbBWZt/component
-import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
-import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPerformanceAnalytics.module.css"; // plasmic-import: RQdHhTD_vq/css
-import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
-import StarRatingIcon from "./icons/PlasmicIcon__StarRating"; // plasmic-import: yUIWRAMNFw/icon
-import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon
-import WalletEarningsIcon from "./icons/PlasmicIcon__WalletEarnings"; // plasmic-import: yPY5MrAZTs/icon
-import BriefOrdersIcon from "./icons/PlasmicIcon__BriefOrders"; // plasmic-import: IHBDow0Bv/icon
 import CommentReviewIcon from "./icons/PlasmicIcon__CommentReview"; // plasmic-import: ebuPCBFlqJ/icon
+import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
+import Head from "next/head";
+import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon
+import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
-import ViewIcon from "./icons/PlasmicIcon__View"; // plasmic-import: 1gdYphl9Jz/icon
+import MemberAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 import ProfileViewIcon from "./icons/PlasmicIcon__ProfileView"; // plasmic-import: dPGWzfEydZ/icon
 import ReactIcon from "./icons/PlasmicIcon__React"; // plasmic-import: ZxRg0AwFrG/icon
-import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 import ResponseIcon from "./icons/PlasmicIcon__Response"; // plasmic-import: NSF254cS5/icon
+import StarRatingIcon from "./icons/PlasmicIcon__StarRating"; // plasmic-import: yUIWRAMNFw/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
-import MemberAddIcon from "./icons/PlasmicIcon__MemberAdd"; // plasmic-import: FGYq1z2nvF/icon
+import ViewIcon from "./icons/PlasmicIcon__View"; // plasmic-import: 1gdYphl9Jz/icon
+import WalletEarningsIcon from "./icons/PlasmicIcon__WalletEarnings"; // plasmic-import: yPY5MrAZTs/icon
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 
 export const PlasmicPerformanceAnalytics__VariantProps = new Array();
 
