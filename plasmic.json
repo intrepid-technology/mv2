@@ -4738,7 +4738,7 @@
           "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
           "renderModuleFilePath": "plasmic/market_v_2/PlasmicHome.jsx",
           "importSpec": {
-            "modulePath": "../pages/home.jsx"
+            "modulePath": "../pages/index.jsx"
           },
           "cssFilePath": "plasmic/market_v_2/PlasmicHome.module.css",
           "scheme": "blackbox",
