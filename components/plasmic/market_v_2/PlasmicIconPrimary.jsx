@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicIconPrimary.module.css"; // plasmic-import: -fEFICkFUf/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
@@ -45,18 +44,14 @@ function PlasmicIconPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        { [sty.parent__size__14Px]: hasVariant(variants, "size", "_14Px") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__size__14Px]: hasVariant(variants, "size", "_14Px")
+      })}
     >
       <div
         data-plasmic-name={"svgBg"}
         data-plasmic-override={overrides.svgBg}
-        className={classNames(defaultcss.all, projectcss.all, sty.svgBg, {
+        className={classNames(projectcss.all, sty.svgBg, {
           [sty.svgBg__size__14Px]: hasVariant(variants, "size", "_14Px"),
           [sty.svgBg__size__16Px]: hasVariant(variants, "size", "_16Px"),
           [sty.svgBg__size__18Px]: hasVariant(variants, "size", "_18Px"),
@@ -93,11 +88,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__yy6Sv
-                  )}
+                  className={classNames(projectcss.all, sty.svg__yy6Sv)}
                   role={"img"}
                 />
               ),
@@ -164,11 +155,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__cS0U
-                  )}
+                  className={classNames(projectcss.all, sty.svg__cS0U)}
                   role={"img"}
                 />
               ),
@@ -199,11 +186,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__bj0K
-                  )}
+                  className={classNames(projectcss.all, sty.svg__bj0K)}
                   role={"img"}
                 />
               ),
@@ -240,11 +223,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__v3Lk5
-                  )}
+                  className={classNames(projectcss.all, sty.svg__v3Lk5)}
                   role={"img"}
                 />
               ),
@@ -287,11 +266,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__wU0Z
-                  )}
+                  className={classNames(projectcss.all, sty.svg__wU0Z)}
                   role={"img"}
                 />
               ),
@@ -334,11 +309,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__u8O9K
-                  )}
+                  className={classNames(projectcss.all, sty.svg__u8O9K)}
                   role={"img"}
                 />
               ),
@@ -375,11 +346,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__ztjRb
-                  )}
+                  className={classNames(projectcss.all, sty.svg__ztjRb)}
                   role={"img"}
                 />
               ),
@@ -422,11 +389,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__n0G9C
-                  )}
+                  className={classNames(projectcss.all, sty.svg__n0G9C)}
                   role={"img"}
                 />
               ),
@@ -469,11 +432,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg___1YYzz
-                  )}
+                  className={classNames(projectcss.all, sty.svg___1YYzz)}
                   role={"img"}
                 />
               ),
@@ -524,11 +483,7 @@ function PlasmicIconPrimary__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon171Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__oqKKb
-                  )}
+                  className={classNames(projectcss.all, sty.svg__oqKKb)}
                   role={"img"}
                 />
               ),

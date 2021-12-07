@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavLinkCounter.module.css"; // plasmic-import: -OUVGqQU5t/css
 
@@ -39,15 +38,9 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__state_selected]: hasVariant(variants, "state", "selected")
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__state_selected]: hasVariant(variants, "state", "selected")
+      })}
       component={Link}
       href={args.destination}
       id={args.id}
@@ -58,7 +51,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__state_selected]: hasVariant(
             variants,
             "state",
@@ -69,12 +62,12 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
         <div
           data-plasmic-name={"linkParent"}
           data-plasmic-override={overrides.linkParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.linkParent)}
+          className={classNames(projectcss.all, sty.linkParent)}
         >
           <div
             data-plasmic-name={"linkBg"}
             data-plasmic-override={overrides.linkBg}
-            className={classNames(defaultcss.all, projectcss.all, sty.linkBg)}
+            className={classNames(projectcss.all, sty.linkBg)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Counter Nav",
@@ -93,16 +86,12 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
         <div
           data-plasmic-name={"numberParent"}
           data-plasmic-override={overrides.numberParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.numberParent
-          )}
+          className={classNames(projectcss.all, sty.numberParent)}
         >
           <div
             data-plasmic-name={"numberBg"}
             data-plasmic-override={overrides.numberBg}
-            className={classNames(defaultcss.all, projectcss.all, sty.numberBg)}
+            className={classNames(projectcss.all, sty.numberBg)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "######",

@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonListingPrimary.module.css"; // plasmic-import: I_BQB8r30F/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
@@ -33,32 +32,19 @@ function PlasmicButtonListingPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.button,
-        projectcss.button,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navbarListButtonTextParent"}
         data-plasmic-override={overrides.navbarListButtonTextParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.navbarListButtonTextParent
-        )}
+        className={classNames(projectcss.all, sty.navbarListButtonTextParent)}
       >
         <ListingIcon
           data-plasmic-name={"navbarListButtonSvg"}
           data-plasmic-override={overrides.navbarListButtonSvg}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.navbarListButtonSvg
-          )}
+          className={classNames(projectcss.all, sty.navbarListButtonSvg)}
           role={"img"}
         />
 
@@ -66,9 +52,8 @@ function PlasmicButtonListingPrimary__RenderFunc(props) {
           data-plasmic-name={"navbarListButtonText"}
           data-plasmic-override={overrides.navbarListButtonText}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.navbarListButtonText
           )}
         >

@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardLinkServiceMenu.module.css"; // plasmic-import: q8zDlZXV1I/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -41,12 +40,7 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root)}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -54,27 +48,19 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
       <div
         data-plasmic-name={"headerTitle"}
         data-plasmic-override={overrides.headerTitle}
-        className={classNames(defaultcss.all, projectcss.all, sty.headerTitle)}
+        className={classNames(projectcss.all, sty.headerTitle)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"parentIconText"}
           data-plasmic-override={overrides.parentIconText}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.parentIconText
-          )}
+          className={classNames(projectcss.all, sty.parentIconText)}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
               <PlusBoldIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg___3Xva6
-                )}
+                className={classNames(projectcss.all, sty.svg___3Xva6)}
                 role={"img"}
               />
             ),
@@ -82,13 +68,7 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
             value: args.icon
           })}
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__mrtUq
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__mrtUq)}>
             {p.renderPlasmicSlot({
               defaultContents: "Headline Title",
               value: args.textHeadline,
@@ -98,13 +78,7 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
         </p.Stack>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___15Tvx
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox___15Tvx)}>
         {p.renderPlasmicSlot({
           defaultContents:
             "Description of service or product that makes it clear to the",

@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardHeroB.module.css"; // plasmic-import: IV4J8cvjZ_/css
 
@@ -39,34 +38,11 @@ function PlasmicCardHeroB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__bjvwz
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__gvaq6
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___4W8Q9
-            )}
-          >
+      <div className={classNames(projectcss.all, sty.freeBox__bjvwz)}>
+        <div className={classNames(projectcss.all, sty.freeBox__gvaq6)}>
+          <div className={classNames(projectcss.all, sty.freeBox___4W8Q9)}>
             {p.renderPlasmicSlot({
               defaultContents: "Start your business journey with Intrepid",
               value: args.slot,
@@ -75,13 +51,7 @@ function PlasmicCardHeroB__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___5ZxCo
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox___5ZxCo)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Try Intrepid for free, and explore all the tools and services you need to start, run, and grow your business.",
@@ -105,11 +75,7 @@ function PlasmicCardHeroB__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(
-              defaultcss.img,
-              projectcss.img,
-              sty.img__o1EqS
-            )}
+            className={classNames(projectcss.img, sty.img__o1EqS)}
           />
         ),
 

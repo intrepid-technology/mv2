@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextPrefixSuffix.module.css"; // plasmic-import: 8Sse2xZ7od/css
 
@@ -42,17 +41,12 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__height__32]: hasVariant(variants, "height", "_32"),
           [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
           [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
@@ -75,39 +69,34 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         <div
           data-plasmic-name={"prefixparent"}
           data-plasmic-override={overrides.prefixparent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.prefixparent,
-            {
-              [sty.prefixparent__prefix]: hasVariant(
-                variants,
-                "prefix",
-                "prefix"
-              ),
+          className={classNames(projectcss.all, sty.prefixparent, {
+            [sty.prefixparent__prefix]: hasVariant(
+              variants,
+              "prefix",
+              "prefix"
+            ),
 
-              [sty.prefixparent__suffix]: hasVariant(
-                variants,
-                "suffix",
-                "suffix"
-              ),
+            [sty.prefixparent__suffix]: hasVariant(
+              variants,
+              "suffix",
+              "suffix"
+            ),
 
-              [sty.prefixparent__suffix_prefix]:
-                hasVariant(variants, "suffix", "suffix") &&
-                hasVariant(variants, "prefix", "prefix"),
-              [sty.prefixparent__type_primary]: hasVariant(
-                variants,
-                "type",
-                "primary"
-              ),
+            [sty.prefixparent__suffix_prefix]:
+              hasVariant(variants, "suffix", "suffix") &&
+              hasVariant(variants, "prefix", "prefix"),
+            [sty.prefixparent__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
 
-              [sty.prefixparent__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            }
-          )}
+            [sty.prefixparent__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Text",
@@ -131,7 +120,7 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         <input
           data-plasmic-name={"value"}
           data-plasmic-override={overrides.value}
-          className={classNames(defaultcss.input, projectcss.input, sty.value, {
+          className={classNames(projectcss.input, sty.value, {
             [sty.value__type_primary]: hasVariant(variants, "type", "primary"),
             [sty.value__width__120]: hasVariant(variants, "width", "_120")
           })}
@@ -144,24 +133,19 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         <div
           data-plasmic-name={"suffixParent"}
           data-plasmic-override={overrides.suffixParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.suffixParent,
-            {
-              [sty.suffixParent__suffix]: hasVariant(
-                variants,
-                "suffix",
-                "suffix"
-              ),
+          className={classNames(projectcss.all, sty.suffixParent, {
+            [sty.suffixParent__suffix]: hasVariant(
+              variants,
+              "suffix",
+              "suffix"
+            ),
 
-              [sty.suffixParent__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            }
-          )}
+            [sty.suffixParent__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Text",

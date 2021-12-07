@@ -22,7 +22,6 @@ import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/compone
 import AvatarGroupIncrement from "../../AvatarGroupIncrement"; // plasmic-import: 8w7pyy9EQG8/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementProfileTeamMembership.module.css"; // plasmic-import: EKXHCUhUTAt/css
 
@@ -44,23 +43,17 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"team"}
         data-plasmic-override={overrides.team}
-        className={classNames(defaultcss.all, projectcss.all, sty.team)}
+        className={classNames(projectcss.all, sty.team)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__ggIb6
           )}
         >
@@ -73,42 +66,26 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
         data-plasmic-name={"teamMemberparent"}
         data-plasmic-override={overrides.teamMemberparent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.teamMemberparent
-        )}
+        className={classNames(projectcss.all, sty.teamMemberparent)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"cardTeamMembership"}
           data-plasmic-override={overrides.cardTeamMembership}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.cardTeamMembership
-          )}
+          className={classNames(projectcss.all, sty.cardTeamMembership)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__oJ4Wb
-            )}
+            className={classNames(projectcss.all, sty.freeBox__oJ4Wb)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__yG8Na)}
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img___8ZbBz
-                  )}
+                  className={classNames(projectcss.img, sty.img___8ZbBz)}
                   src={
                     "/plasmic/market_v_2/images/fa289C7A182449412Dcfb44D3F2984B7Png.png"
                   }
@@ -120,15 +97,14 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink"}
               data-plasmic-override={overrides.teamLink}
-              className={classNames(defaultcss.a, projectcss.a, sty.teamLink)}
+              className={classNames(projectcss.a, sty.teamLink)}
               component={Link}
               platform={"nextjs"}
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__ldMlX
                 )}
               >
@@ -151,31 +127,19 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           data-plasmic-name={"cardTeamMembership2"}
           data-plasmic-override={overrides.cardTeamMembership2}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.cardTeamMembership2
-          )}
+          className={classNames(projectcss.all, sty.cardTeamMembership2)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ld279
-            )}
+            className={classNames(projectcss.all, sty.freeBox__ld279)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__rNdzL)}
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img__qUkKz
-                  )}
+                  className={classNames(projectcss.img, sty.img__qUkKz)}
                   src={
                     "/plasmic/market_v_2/images/_466762084Bf3466293Fba47C63Ba55F7Jpg.jpeg"
                   }
@@ -187,15 +151,14 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink2"}
               data-plasmic-override={overrides.teamLink2}
-              className={classNames(defaultcss.a, projectcss.a, sty.teamLink2)}
+              className={classNames(projectcss.a, sty.teamLink2)}
               component={Link}
               platform={"nextjs"}
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__lig2S
                 )}
               >
@@ -218,31 +181,19 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
           data-plasmic-name={"cardTeamMembership3"}
           data-plasmic-override={overrides.cardTeamMembership3}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.cardTeamMembership3
-          )}
+          className={classNames(projectcss.all, sty.cardTeamMembership3)}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__za13C
-            )}
+            className={classNames(projectcss.all, sty.freeBox__za13C)}
           >
             <UserAvatar
               className={classNames("__wab_instance", sty.userAvatar__ecg5D)}
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.img__qik2
-                  )}
+                  className={classNames(projectcss.img, sty.img__qik2)}
                   src={
                     "/plasmic/market_v_2/images/_479E0Aa76Edbad47C51F159Fd88E2Bfapng.png"
                   }
@@ -254,15 +205,14 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink3"}
               data-plasmic-override={overrides.teamLink3}
-              className={classNames(defaultcss.a, projectcss.a, sty.teamLink3)}
+              className={classNames(projectcss.a, sty.teamLink3)}
               component={Link}
               platform={"nextjs"}
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__rjnUw
                 )}
               >

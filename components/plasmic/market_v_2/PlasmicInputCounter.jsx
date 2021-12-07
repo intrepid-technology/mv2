@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputCounter.module.css"; // plasmic-import: e0M1tqOpmZ/css
 import Icon107Icon from "./icons/PlasmicIcon__Icon107"; // plasmic-import: 1WTBIKS_DU/icon
@@ -36,22 +35,11 @@ function PlasmicInputCounter__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <button
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.button__kujiS
-        )}
-      >
+      <button className={classNames(projectcss.button, sty.button__kujiS)}>
         <Icon107Icon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__lKsQp)}
+          className={classNames(projectcss.all, sty.svg__lKsQp)}
           role={"img"}
         />
       </button>
@@ -59,25 +47,14 @@ function PlasmicInputCounter__RenderFunc(props) {
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          defaultcss.__wab_text,
-          sty.text
-        )}
+        className={classNames(projectcss.all, projectcss.__wab_text, sty.text)}
       >
         {"1"}
       </div>
 
-      <button
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.button__uAdPd
-        )}
-      >
+      <button className={classNames(projectcss.button, sty.button__uAdPd)}>
         <Icon109Icon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__ojz8V)}
+          className={classNames(projectcss.all, sty.svg__ojz8V)}
           role={"img"}
         />
       </button>

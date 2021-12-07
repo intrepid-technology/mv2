@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableBillingHeader.module.css"; // plasmic-import: gGzFXlkqWv/css
 
@@ -34,25 +33,13 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__gnd0J
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__gnd0J)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__gk8Gb
           )}
         >
@@ -60,18 +47,11 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__sEjv1
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__sEjv1)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__zbufu
           )}
         >
@@ -79,18 +59,11 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__wxZf1
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__wxZf1)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__zPpCx
           )}
         >
@@ -98,18 +71,11 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__vKDlV
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__vKDlV)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__i9Arh
           )}
         >
@@ -117,18 +83,11 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__oe4Ir
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__oe4Ir)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__lpzJk
           )}
         >
@@ -136,18 +95,11 @@ function PlasmicTableBillingHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__kErUv
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__kErUv)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__eKjA
           )}
         >

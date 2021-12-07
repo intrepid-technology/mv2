@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAccordionTriggerChevron.module.css"; // plasmic-import: zUDpW9Kdd4/css
 import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
@@ -38,17 +37,12 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.button,
-        projectcss.button,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"svgParent"}
         data-plasmic-override={overrides.svgParent}
-        className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
+        className={classNames(projectcss.all, sty.svgParent, {
           [sty.svgParent__state_closed]: hasVariant(variants, "state", "closed")
         })}
       >
@@ -56,11 +50,7 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <ChevronDownBIcon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg___63YN
-                  )}
+                  className={classNames(projectcss.all, sty.svg___63YN)}
                   role={"img"}
                 />
               ),
@@ -85,11 +75,7 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
           ? p.renderPlasmicSlot({
               defaultContents: (
                 <Icon170Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__sDv4
-                  )}
+                  className={classNames(projectcss.all, sty.svg__sDv4)}
                   role={"img"}
                 />
               ),

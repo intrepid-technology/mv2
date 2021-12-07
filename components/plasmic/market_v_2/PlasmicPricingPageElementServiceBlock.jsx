@@ -19,7 +19,6 @@ import TablePricingElementPercentValueBold from "../../TablePricingElementPercen
 import TablePricingElementPercentValue from "../../TablePricingElementPercentValue"; // plasmic-import: _pXR7Qf3J2/component
 import TablePricingElementNumberValue from "../../TablePricingElementNumberValue"; // plasmic-import: xX5RC18j8u/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPricingPageElementServiceBlock.module.css"; // plasmic-import: 7N2UMf446In/css
 import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2Lrvqk/icon
@@ -59,27 +58,10 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__fYLa5
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__puBl3
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__fYLa5)}>
+        <div className={classNames(projectcss.all, sty.freeBox__puBl3)}>
           {p.renderPlasmicSlot({
             defaultContents: "Service",
             value: args.slot6,
@@ -106,11 +88,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon164Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__hgWzK
-              )}
+              className={classNames(projectcss.all, sty.svg__hgWzK)}
               role={"img"}
             />
           ),
@@ -146,11 +124,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon122Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__xB6Zp
-              )}
+              className={classNames(projectcss.all, sty.svg__xB6Zp)}
               role={"img"}
             />
           ),
@@ -179,11 +153,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <ListingIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg___8SYou
-              )}
+              className={classNames(projectcss.all, sty.svg___8SYou)}
               role={"img"}
             />
           ),
@@ -212,11 +182,7 @@ function PlasmicPricingPageElementServiceBlock__RenderFunc(props) {
         svgIcon={p.renderPlasmicSlot({
           defaultContents: (
             <Icon169Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__xGsUp
-              )}
+              className={classNames(projectcss.all, sty.svg__xGsUp)}
               role={"img"}
             />
           ),

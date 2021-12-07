@@ -15,7 +15,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServiceFeatureA.module.css"; // plasmic-import: gBp3zt_OzO/css
 import Icon51Icon from "./icons/PlasmicIcon__Icon51"; // plasmic-import: vH0oVu4OT/icon
@@ -32,22 +31,12 @@ function PlasmicServiceFeatureA__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          defaultcss.__wab_text,
-          sty.text
-        )}
+        className={classNames(projectcss.all, projectcss.__wab_text, sty.text)}
       >
         {"Service Feature"}
       </div>
@@ -55,12 +44,12 @@ function PlasmicServiceFeatureA__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <Icon51Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+          className={classNames(projectcss.all, sty.svg)}
           role={"img"}
         />
       </div>

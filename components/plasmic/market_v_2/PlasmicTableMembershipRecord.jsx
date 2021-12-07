@@ -20,7 +20,6 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableMembershipRecord.module.css"; // plasmic-import: KowVnZaBQEh/css
 
@@ -38,20 +37,9 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___83Jsa
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox___83Jsa)}>
         <TagMemberD
           data-plasmic-name={"tagMemberD"}
           data-plasmic-override={overrides.tagMemberD}
@@ -62,17 +50,12 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__arOvr
-        )}
+        className={classNames(projectcss.all, sty.freeBox__arOvr)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__dkh9N
           )}
         >
@@ -88,9 +71,8 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
           text={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__oWCg
               )}
             >
@@ -100,18 +82,11 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </p.Stack>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__sb46C
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__sb46C)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text___9H71
           )}
         >
@@ -120,9 +95,8 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
 
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__yizoe
           )}
         >
@@ -130,18 +104,11 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__imYpU
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__imYpU)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text___4EWTk
           )}
         >
@@ -150,9 +117,8 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
 
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text___3We2J
           )}
         >
@@ -161,9 +127,8 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
 
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text___6CKul
           )}
         >
@@ -171,13 +136,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__aphxW
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__aphxW)}>
         <SwitchPrimary
           data-plasmic-name={"switchPrimary"}
           data-plasmic-override={overrides.switchPrimary}
@@ -185,13 +144,7 @@ function PlasmicTableMembershipRecord__RenderFunc(props) {
         />
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__x5MxF
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__x5MxF)}>
         <ButtonCircleDelete
           data-plasmic-name={"buttonCircleDelete"}
           data-plasmic-override={overrides.buttonCircleDelete}

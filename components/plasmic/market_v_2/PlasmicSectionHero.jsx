@@ -19,7 +19,6 @@ import {
 import HeroWelcomeCta from "../../HeroWelcomeCta"; // plasmic-import: zcIXnSYZXs/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionHero.module.css"; // plasmic-import: GUJw1Rdg6k/css
 
@@ -39,42 +38,27 @@ function PlasmicSectionHero__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-          [sty.root__persona_partner]: hasVariant(
-            variants,
-            "persona",
-            "partner"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
+        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner")
+      })}
     >
       <div
         data-plasmic-name={"heroTextImageDiv"}
         data-plasmic-override={overrides.heroTextImageDiv}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.heroTextImageDiv,
-          {
-            [sty.heroTextImageDiv__persona_member]: hasVariant(
-              variants,
-              "persona",
-              "member"
-            ),
+        className={classNames(projectcss.all, sty.heroTextImageDiv, {
+          [sty.heroTextImageDiv__persona_member]: hasVariant(
+            variants,
+            "persona",
+            "member"
+          ),
 
-            [sty.heroTextImageDiv__persona_partner]: hasVariant(
-              variants,
-              "persona",
-              "partner"
-            )
-          }
-        )}
+          [sty.heroTextImageDiv__persona_partner]: hasVariant(
+            variants,
+            "persona",
+            "partner"
+          )
+        })}
       >
         <HeroWelcomeCta
           data-plasmic-name={"heroWelcomeCta"}

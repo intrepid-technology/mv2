@@ -21,7 +21,6 @@ import PanelPartnerSectionPartner from "../../PanelPartnerSectionPartner"; // pl
 import PanelPartnerSectionAccount from "../../PanelPartnerSectionAccount"; // plasmic-import: frbDg7XY-m/component
 import PanelFooter from "../../PanelFooter"; // plasmic-import: y532Y0sDIf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartner.module.css"; // plasmic-import: 0x12FzmUo9P/css
 
@@ -39,30 +38,21 @@ function PlasmicPanelPartner__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"navigation"}
         data-plasmic-override={overrides.navigation}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.navigation)}
+        className={classNames(projectcss.all, sty.navigation)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"headerPanelMainPartner"}
           data-plasmic-override={overrides.headerPanelMainPartner}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headerPanelMainPartner
-          )}
+          className={classNames(projectcss.all, sty.headerPanelMainPartner)}
         >
           <PanelButtonHeader
             data-plasmic-name={"partnerButtonHeader"}
@@ -94,7 +84,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
       <div
         data-plasmic-name={"footer"}
         data-plasmic-override={overrides.footer}
-        className={classNames(defaultcss.all, projectcss.all, sty.footer)}
+        className={classNames(projectcss.all, sty.footer)}
       >
         <PanelFooter
           data-plasmic-name={"panelPartnerFooter"}

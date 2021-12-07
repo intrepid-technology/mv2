@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelListingScores.module.css"; // plasmic-import: mNo76Uc_Jdn/css
 
@@ -34,27 +33,21 @@ function PlasmicPanelListingScores__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <div
           data-plasmic-name={"headline"}
           data-plasmic-override={overrides.headline}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.headline
           )}
         >
@@ -67,37 +60,24 @@ function PlasmicPanelListingScores__RenderFunc(props) {
         data-plasmic-name={"listingStatsParent"}
         data-plasmic-override={overrides.listingStatsParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.listingStatsParent
-        )}
+        className={classNames(projectcss.all, sty.listingStatsParent)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"elementListingCount"}
           data-plasmic-override={overrides.elementListingCount}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.elementListingCount
-          )}
+          className={classNames(projectcss.all, sty.elementListingCount)}
         >
           <div
             data-plasmic-name={"listingNumberParent"}
             data-plasmic-override={overrides.listingNumberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.listingNumberParent
-            )}
+            className={classNames(projectcss.all, sty.listingNumberParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__iCiP
               )}
             >
@@ -107,9 +87,8 @@ function PlasmicPanelListingScores__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__saOm
             )}
           >
@@ -122,26 +101,17 @@ function PlasmicPanelListingScores__RenderFunc(props) {
           data-plasmic-name={"elementViewsCount"}
           data-plasmic-override={overrides.elementViewsCount}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.elementViewsCount
-          )}
+          className={classNames(projectcss.all, sty.elementViewsCount)}
         >
           <div
             data-plasmic-name={"viewsNumberParent"}
             data-plasmic-override={overrides.viewsNumberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.viewsNumberParent
-            )}
+            className={classNames(projectcss.all, sty.viewsNumberParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__ocmNw
               )}
             >
@@ -151,9 +121,8 @@ function PlasmicPanelListingScores__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__aNxVb
             )}
           >
@@ -166,26 +135,17 @@ function PlasmicPanelListingScores__RenderFunc(props) {
           data-plasmic-name={"elementReactsCount"}
           data-plasmic-override={overrides.elementReactsCount}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.elementReactsCount
-          )}
+          className={classNames(projectcss.all, sty.elementReactsCount)}
         >
           <div
             data-plasmic-name={"reactsNumberParent"}
             data-plasmic-override={overrides.reactsNumberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.reactsNumberParent
-            )}
+            className={classNames(projectcss.all, sty.reactsNumberParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__agzVt
               )}
             >
@@ -195,9 +155,8 @@ function PlasmicPanelListingScores__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__ud4Ep
             )}
           >
@@ -210,26 +169,17 @@ function PlasmicPanelListingScores__RenderFunc(props) {
           data-plasmic-name={"elementSavesCount"}
           data-plasmic-override={overrides.elementSavesCount}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.elementSavesCount
-          )}
+          className={classNames(projectcss.all, sty.elementSavesCount)}
         >
           <div
             data-plasmic-name={"savesNumberParent"}
             data-plasmic-override={overrides.savesNumberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.savesNumberParent
-            )}
+            className={classNames(projectcss.all, sty.savesNumberParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__vsewK
               )}
             >
@@ -239,9 +189,8 @@ function PlasmicPanelListingScores__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__gkZEo
             )}
           >

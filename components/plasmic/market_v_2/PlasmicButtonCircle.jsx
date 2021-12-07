@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonCircle.module.css"; // plasmic-import: 3Jr3SgQnVV/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -33,26 +32,17 @@ function PlasmicButtonCircle__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.button,
-        projectcss.button,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <PlusBoldIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__kAtOj
-              )}
+              className={classNames(projectcss.all, sty.svg__kAtOj)}
               role={"img"}
             />
           ),

@@ -21,7 +21,6 @@ import {
 import SelectInput__Overlay from "../../SelectInput__Overlay"; // plasmic-import: 1D4cLPS4qHu/component
 import SelectInput__Option from "../../SelectInput__Option"; // plasmic-import: t56z-AA9Ffy/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSelectInput.module.css"; // plasmic-import: 6gReGypE5kO/css
 import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: -Of6sI0cqgk/icon
@@ -62,13 +61,9 @@ function PlasmicSelectInput__RenderFunc(props) {
         data-plasmic-override={overrides.root}
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          projectcss.root_reset,
-          sty.root,
-          { [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen") }
-        )}
+        className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+        })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
         <p.Stack
@@ -76,33 +71,28 @@ function PlasmicSelectInput__RenderFunc(props) {
           data-plasmic-name={"trigger"}
           data-plasmic-override={overrides.trigger}
           hasGap={true}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.trigger,
-            {
-              [sty.trigger_____focusVisibleWithin]:
-                triggers.focusVisibleWithin_root,
-              [sty.trigger__isDisabled]: hasVariant(
-                variants,
-                "isDisabled",
-                "isDisabled"
-              ),
+          className={classNames(projectcss.button, sty.trigger, {
+            [sty.trigger_____focusVisibleWithin]:
+              triggers.focusVisibleWithin_root,
+            [sty.trigger__isDisabled]: hasVariant(
+              variants,
+              "isDisabled",
+              "isDisabled"
+            ),
 
-              [sty.trigger__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-              [sty.trigger__showPlaceholder]: hasVariant(
-                variants,
-                "showPlaceholder",
-                "showPlaceholder"
-              ),
+            [sty.trigger__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+            [sty.trigger__showPlaceholder]: hasVariant(
+              variants,
+              "showPlaceholder",
+              "showPlaceholder"
+            ),
 
-              [sty.trigger__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            }
-          )}
+            [sty.trigger__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            )
+          })}
           disabled={
             hasVariant(variants, "isDisabled", "isDisabled") ? true : undefined
           }
@@ -110,18 +100,13 @@ function PlasmicSelectInput__RenderFunc(props) {
           <div
             data-plasmic-name={"contentContainer"}
             data-plasmic-override={overrides.contentContainer}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentContainer,
-              {
-                [sty.contentContainer__showPlaceholder]: hasVariant(
-                  variants,
-                  "showPlaceholder",
-                  "showPlaceholder"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.contentContainer, {
+              [sty.contentContainer__showPlaceholder]: hasVariant(
+                variants,
+                "showPlaceholder",
+                "showPlaceholder"
+              )
+            })}
           >
             {(
               hasVariant(variants, "showPlaceholder", "showPlaceholder")
@@ -170,20 +155,15 @@ function PlasmicSelectInput__RenderFunc(props) {
                 ? ChevronUpIcon
                 : ChevronDownIcon
             }
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.dropdownIcon,
-              {
-                [sty.dropdownIcon_____focusVisibleWithin]:
-                  triggers.focusVisibleWithin_root,
-                [sty.dropdownIcon__isOpen]: hasVariant(
-                  variants,
-                  "isOpen",
-                  "isOpen"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.dropdownIcon, {
+              [sty.dropdownIcon_____focusVisibleWithin]:
+                triggers.focusVisibleWithin_root,
+              [sty.dropdownIcon__isOpen]: hasVariant(
+                variants,
+                "isOpen",
+                "isOpen"
+              )
+            })}
             role={"img"}
           />
         </p.Stack>
@@ -200,11 +180,7 @@ function PlasmicSelectInput__RenderFunc(props) {
             <div
               data-plasmic-name={"optionsContainer"}
               data-plasmic-override={overrides.optionsContainer}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.optionsContainer
-              )}
+              className={classNames(projectcss.all, sty.optionsContainer)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: (

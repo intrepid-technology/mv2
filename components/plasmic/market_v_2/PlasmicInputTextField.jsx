@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextField.module.css"; // plasmic-import: ATs3nXJ-Tjc/css
 
@@ -32,99 +31,59 @@ function PlasmicInputTextField__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.root__size__540]: hasVariant(variants, "size", "_540"),
-          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size__540]: hasVariant(variants, "size", "_540"),
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+      })}
     >
       <div
         data-plasmic-name={"inputTextParent"}
         data-plasmic-override={overrides.inputTextParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.inputTextParent,
-          {
-            [sty.inputTextParent__size__160]: hasVariant(
-              variants,
-              "size",
-              "_160"
-            ),
+        className={classNames(projectcss.all, sty.inputTextParent, {
+          [sty.inputTextParent__size__160]: hasVariant(
+            variants,
+            "size",
+            "_160"
+          ),
 
-            [sty.inputTextParent__size__180]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            ),
+          [sty.inputTextParent__size__180]: hasVariant(
+            variants,
+            "size",
+            "_180"
+          ),
 
-            [sty.inputTextParent__size__270]: hasVariant(
-              variants,
-              "size",
-              "_270"
-            ),
+          [sty.inputTextParent__size__270]: hasVariant(
+            variants,
+            "size",
+            "_270"
+          ),
 
-            [sty.inputTextParent__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
+          [sty.inputTextParent__size__360]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          ),
 
-            [sty.inputTextParent__size__540]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            )
-          }
-        )}
+          [sty.inputTextParent__size__540]: hasVariant(variants, "size", "_540")
+        })}
       >
         <input
           data-plasmic-name={"description"}
           data-plasmic-override={overrides.description}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.description,
-            {
-              [sty.description__size__160]: hasVariant(
-                variants,
-                "size",
-                "_160"
-              ),
-
-              [sty.description__size__180]: hasVariant(
-                variants,
-                "size",
-                "_180"
-              ),
-
-              [sty.description__size__270]: hasVariant(
-                variants,
-                "size",
-                "_270"
-              ),
-
-              [sty.description__size__540]: hasVariant(
-                variants,
-                "size",
-                "_540"
-              ),
-
-              [sty.description__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            }
-          )}
+          className={classNames(projectcss.input, sty.description, {
+            [sty.description__size__160]: hasVariant(variants, "size", "_160"),
+            [sty.description__size__180]: hasVariant(variants, "size", "_180"),
+            [sty.description__size__270]: hasVariant(variants, "size", "_270"),
+            [sty.description__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.description__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            )
+          })}
           placeholder={args.placeholder}
           size={1}
           type={"text"}

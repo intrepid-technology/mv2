@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonMenuItem.module.css"; // plasmic-import: b7t7JoTYk7/css
 
@@ -35,27 +34,16 @@ function PlasmicPanelButtonMenuItem__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
+        className={classNames(projectcss.all, sty.textParent)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__a3XqS
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__a3XqS)}>
           {p.renderPlasmicSlot({
             defaultContents: "Headline text",
             value: args.headlineText,
@@ -63,13 +51,7 @@ function PlasmicPanelButtonMenuItem__RenderFunc(props) {
           })}
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__scfLh
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__scfLh)}>
           {p.renderPlasmicSlot({
             defaultContents: "Sub head text",
             value: args.subheadText,

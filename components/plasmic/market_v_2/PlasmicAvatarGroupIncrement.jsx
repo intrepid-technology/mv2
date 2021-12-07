@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAvatarGroupIncrement.module.css"; // plasmic-import: 8w7pyy9EQG8/css
 
@@ -35,38 +34,25 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <div
           data-plasmic-name={"avatarParent"}
           data-plasmic-override={overrides.avatarParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.avatarParent
-          )}
+          className={classNames(projectcss.all, sty.avatarParent)}
         >
           <UserAvatar
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img___6MgzQ
-                )}
+                className={classNames(projectcss.img, sty.img___6MgzQ)}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -78,11 +64,7 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__wdIxV
-                )}
+                className={classNames(projectcss.img, sty.img__wdIxV)}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -94,11 +76,7 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__dqrFq
-                )}
+                className={classNames(projectcss.img, sty.img__dqrFq)}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }
@@ -113,19 +91,14 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           data-plasmic-name={"additionalMembers"}
           data-plasmic-override={overrides.additionalMembers}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.additionalMembers
-          )}
+          className={classNames(projectcss.all, sty.additionalMembers)}
         >
           <div
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text
             )}
           >
@@ -135,20 +108,12 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
           <div
             data-plasmic-name={"numberParent"}
             data-plasmic-override={overrides.numberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.numberParent
-            )}
+            className={classNames(projectcss.all, sty.numberParent)}
           >
             <div
               data-plasmic-name={"freeBox"}
               data-plasmic-override={overrides.freeBox}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox
-              )}
+              className={classNames(projectcss.all, sty.freeBox)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "#####",

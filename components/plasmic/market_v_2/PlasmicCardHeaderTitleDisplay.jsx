@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardHeaderTitleDisplay.module.css"; // plasmic-import: 1wS8JpmDTD/css
 
@@ -40,99 +39,78 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        {
-          [sty.parent__size__1080]: hasVariant(variants, "size", "_1080"),
-          [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.parent__size__540]: hasVariant(variants, "size", "_540"),
-          [sty.parent__size__720]: hasVariant(variants, "size", "_720")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__size__1080]: hasVariant(variants, "size", "_1080"),
+        [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.parent__size__540]: hasVariant(variants, "size", "_540"),
+        [sty.parent__size__720]: hasVariant(variants, "size", "_720")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"headerDisplayGroupParent"}
         data-plasmic-override={overrides.headerDisplayGroupParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.headerDisplayGroupParent,
-          {
-            [sty.headerDisplayGroupParent__size__1080]: hasVariant(
-              variants,
-              "size",
-              "_1080"
-            ),
+        className={classNames(projectcss.all, sty.headerDisplayGroupParent, {
+          [sty.headerDisplayGroupParent__size__1080]: hasVariant(
+            variants,
+            "size",
+            "_1080"
+          ),
 
-            [sty.headerDisplayGroupParent__size__270]: hasVariant(
-              variants,
-              "size",
-              "_270"
-            ),
+          [sty.headerDisplayGroupParent__size__270]: hasVariant(
+            variants,
+            "size",
+            "_270"
+          ),
 
-            [sty.headerDisplayGroupParent__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            )
-          }
-        )}
+          [sty.headerDisplayGroupParent__size__360]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
+        })}
       >
         <div
           data-plasmic-name={"headerDisplayTitle"}
           data-plasmic-override={overrides.headerDisplayTitle}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headerDisplayTitle,
-            {
-              [sty.headerDisplayTitle__headings_headline]: hasVariant(
+          className={classNames(projectcss.all, sty.headerDisplayTitle, {
+            [sty.headerDisplayTitle__headings_headline]: hasVariant(
+              variants,
+              "headings",
+              "headline"
+            ),
+
+            [sty.headerDisplayTitle__headings_title]: hasVariant(
+              variants,
+              "headings",
+              "title"
+            ),
+
+            [sty.headerDisplayTitle__size__270]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            )
+          })}
+        >
+          <h1
+            data-plasmic-name={"textDisplayParent"}
+            data-plasmic-override={overrides.textDisplayParent}
+            className={classNames(projectcss.h1, sty.textDisplayParent, {
+              [sty.textDisplayParent__headings_headline]: hasVariant(
                 variants,
                 "headings",
                 "headline"
               ),
 
-              [sty.headerDisplayTitle__headings_title]: hasVariant(
+              [sty.textDisplayParent__headings_title]: hasVariant(
                 variants,
                 "headings",
                 "title"
-              ),
-
-              [sty.headerDisplayTitle__size__270]: hasVariant(
-                variants,
-                "size",
-                "_270"
               )
-            }
-          )}
-        >
-          <h1
-            data-plasmic-name={"textDisplayParent"}
-            data-plasmic-override={overrides.textDisplayParent}
-            className={classNames(
-              defaultcss.h1,
-              projectcss.h1,
-              sty.textDisplayParent,
-              {
-                [sty.textDisplayParent__headings_headline]: hasVariant(
-                  variants,
-                  "headings",
-                  "headline"
-                ),
-
-                [sty.textDisplayParent__headings_title]: hasVariant(
-                  variants,
-                  "headings",
-                  "title"
-                )
-              }
-            )}
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Title",
@@ -166,7 +144,6 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           data-plasmic-override={overrides.headlineSubheadGroupParent}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             sty.headlineSubheadGroupParent,
             {
@@ -187,31 +164,21 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           <div
             data-plasmic-name={"headline"}
             data-plasmic-override={overrides.headline}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.headline,
-              {
-                [sty.headline__headings_headline]: hasVariant(
-                  variants,
-                  "headings",
-                  "headline"
-                ),
+            className={classNames(projectcss.all, sty.headline, {
+              [sty.headline__headings_headline]: hasVariant(
+                variants,
+                "headings",
+                "headline"
+              ),
 
-                [sty.headline__size__1080]: hasVariant(
-                  variants,
-                  "size",
-                  "_1080"
-                ),
-
-                [sty.headline__size__270]: hasVariant(variants, "size", "_270")
-              }
-            )}
+              [sty.headline__size__1080]: hasVariant(variants, "size", "_1080"),
+              [sty.headline__size__270]: hasVariant(variants, "size", "_270")
+            })}
           >
             <h2
               data-plasmic-name={"h2"}
               data-plasmic-override={overrides.h2}
-              className={classNames(defaultcss.h2, projectcss.h2, sty.h2, {
+              className={classNames(projectcss.h2, sty.h2, {
                 [sty.h2__headings_headline]: hasVariant(
                   variants,
                   "headings",
@@ -251,7 +218,7 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           <div
             data-plasmic-name={"subhead"}
             data-plasmic-override={overrides.subhead}
-            className={classNames(defaultcss.all, projectcss.all, sty.subhead, {
+            className={classNames(projectcss.all, sty.subhead, {
               [sty.subhead__headings_headline]: hasVariant(
                 variants,
                 "headings",
@@ -271,36 +238,31 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             <div
               data-plasmic-name={"textSubheadParent"}
               data-plasmic-override={overrides.textSubheadParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.textSubheadParent,
-                {
-                  [sty.textSubheadParent__headings_headline]: hasVariant(
-                    variants,
-                    "headings",
-                    "headline"
-                  ),
+              className={classNames(projectcss.all, sty.textSubheadParent, {
+                [sty.textSubheadParent__headings_headline]: hasVariant(
+                  variants,
+                  "headings",
+                  "headline"
+                ),
 
-                  [sty.textSubheadParent__headings_subhead]: hasVariant(
-                    variants,
-                    "headings",
-                    "subhead"
-                  ),
+                [sty.textSubheadParent__headings_subhead]: hasVariant(
+                  variants,
+                  "headings",
+                  "subhead"
+                ),
 
-                  [sty.textSubheadParent__size__270]: hasVariant(
-                    variants,
-                    "size",
-                    "_270"
-                  ),
+                [sty.textSubheadParent__size__270]: hasVariant(
+                  variants,
+                  "size",
+                  "_270"
+                ),
 
-                  [sty.textSubheadParent__size__360]: hasVariant(
-                    variants,
-                    "size",
-                    "_360"
-                  )
-                }
-              )}
+                [sty.textSubheadParent__size__360]: hasVariant(
+                  variants,
+                  "size",
+                  "_360"
+                )
+              })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Subhead title",

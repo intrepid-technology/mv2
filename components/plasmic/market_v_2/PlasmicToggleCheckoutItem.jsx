@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ToggleSubscriptionCard from "../../ToggleSubscriptionCard"; // plasmic-import: 7hi-uHtvzE/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicToggleCheckoutItem.module.css"; // plasmic-import: oZVadAmksG/css
 
@@ -39,27 +38,10 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__owx0Z
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__vfoqX
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__owx0Z)}>
+        <div className={classNames(projectcss.all, sty.freeBox__vfoqX)}>
           {p.renderPlasmicSlot({
             defaultContents: "Headline",
             value: args.slot,
@@ -71,28 +53,14 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__shxFa
-        )}
+        className={classNames(projectcss.all, sty.freeBox__shxFa)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___0I9Jc
-          )}
+          className={classNames(projectcss.all, sty.freeBox___0I9Jc)}
         >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__zOrO7
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__zOrO7)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <ToggleSubscriptionCard inactive={"placement"} />
@@ -102,13 +70,7 @@ function PlasmicToggleCheckoutItem__RenderFunc(props) {
             })}
           </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__wag3D
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__wag3D)}>
             {p.renderPlasmicSlot({
               defaultContents: "Description",
               value: args.children,

@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAccordionTest.module.css"; // plasmic-import: zBPnerMe5_/css
 import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
@@ -33,34 +32,11 @@ function PlasmicAccordionTest__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__oKtaK
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__prkZ
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__rLze9
-            )}
-          >
+      <div className={classNames(projectcss.all, sty.freeBox__oKtaK)}>
+        <div className={classNames(projectcss.all, sty.freeBox__prkZ)}>
+          <div className={classNames(projectcss.all, sty.freeBox__rLze9)}>
             {p.renderPlasmicSlot({
               defaultContents: "Overview",
               value: args.slot,
@@ -69,36 +45,23 @@ function PlasmicAccordionTest__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__kZbvK
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__kZbvK)}>
           <Icon52Icon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+            className={classNames(projectcss.all, sty.svg)}
             role={"img"}
           />
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__rRv3G
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__rRv3G)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__eClnO
               )}
             >

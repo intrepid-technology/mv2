@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicIconElementCircle.module.css"; // plasmic-import: NwC_LltBnY/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -34,29 +33,21 @@ function PlasmicIconElementCircle__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__color_brand]: hasVariant(variants, "color", "brand") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color_brand]: hasVariant(variants, "color", "brand")
+      })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+        className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox__color_brand]: hasVariant(variants, "color", "brand")
         })}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <PlusBoldIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__lMJhj
-              )}
+              className={classNames(projectcss.all, sty.svg__lMJhj)}
               role={"img"}
             />
           ),

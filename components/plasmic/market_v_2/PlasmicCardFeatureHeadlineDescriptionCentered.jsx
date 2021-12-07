@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardFeatureHeadlineDescriptionCentered.module.css"; // plasmic-import: qwkYbKgKSI/css
 
@@ -36,27 +35,10 @@ function PlasmicCardFeatureHeadlineDescriptionCentered__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__jYdaR
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__dczna
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__jYdaR)}>
+        <div className={classNames(projectcss.all, sty.freeBox__dczna)}>
           {p.renderPlasmicSlot({
             defaultContents: "Headline feature description",
             value: args.headlineSlot,
@@ -65,20 +47,8 @@ function PlasmicCardFeatureHeadlineDescriptionCentered__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__moGa5
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__nex5S
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__moGa5)}>
+        <div className={classNames(projectcss.all, sty.freeBox__nex5S)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "135 characters max and try to keep it to four lines —————————————morning, when Gregor Samsa troubled dreams, he found himself trans in his bed into a horrible ",

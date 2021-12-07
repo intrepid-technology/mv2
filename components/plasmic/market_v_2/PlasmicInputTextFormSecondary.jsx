@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import InputTextPrimary from "../../InputTextPrimary"; // plasmic-import: a2XXnCI4Ss/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextFormSecondary.module.css"; // plasmic-import: oScI7WCn2r/css
 
@@ -41,37 +40,24 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <label
           data-plasmic-name={"headlineLabelParent"}
           data-plasmic-override={overrides.headlineLabelParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headlineLabelParent
-          )}
+          className={classNames(projectcss.all, sty.headlineLabelParent)}
         >
           <div
             data-plasmic-name={"headlineLabel"}
             data-plasmic-override={overrides.headlineLabel}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.headlineLabel
-            )}
+            className={classNames(projectcss.all, sty.headlineLabel)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Label",
@@ -164,27 +150,18 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
           <div
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.descriptionParent,
-              {
-                [sty.descriptionParent__subhead]: hasVariant(
-                  variants,
-                  "subhead",
-                  "subhead"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.descriptionParent, {
+              [sty.descriptionParent__subhead]: hasVariant(
+                variants,
+                "subhead",
+                "subhead"
+              )
+            })}
           >
             <div
               data-plasmic-name={"descriptionTextParent"}
               data-plasmic-override={overrides.descriptionTextParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.descriptionTextParent
-              )}
+              className={classNames(projectcss.all, sty.descriptionTextParent)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Description",

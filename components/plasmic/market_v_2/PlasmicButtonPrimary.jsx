@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonPrimary.module.css"; // plasmic-import: koVqNkx_82/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -47,7 +46,6 @@ function PlasmicButtonPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.button,
         projectcss.button,
         projectcss.root_reset,
         sty.buttonPrimary,
@@ -294,198 +292,179 @@ function PlasmicButtonPrimary__RenderFunc(props) {
           data-plasmic-name={"iconTextParent"}
           data-plasmic-override={overrides.iconTextParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.iconTextParent,
-            {
-              [sty.iconTextParent__color_blue]: hasVariant(
-                variants,
-                "color",
-                "blue"
-              ),
+          className={classNames(projectcss.all, sty.iconTextParent, {
+            [sty.iconTextParent__color_blue]: hasVariant(
+              variants,
+              "color",
+              "blue"
+            ),
 
-              [sty.iconTextParent__color_brand]: hasVariant(
-                variants,
-                "color",
-                "brand"
-              ),
+            [sty.iconTextParent__color_brand]: hasVariant(
+              variants,
+              "color",
+              "brand"
+            ),
 
-              [sty.iconTextParent__color_success]: hasVariant(
-                variants,
-                "color",
-                "success"
-              ),
+            [sty.iconTextParent__color_success]: hasVariant(
+              variants,
+              "color",
+              "success"
+            ),
 
-              [sty.iconTextParent__size__120]: hasVariant(
-                variants,
-                "size",
-                "_120"
-              ),
+            [sty.iconTextParent__size__120]: hasVariant(
+              variants,
+              "size",
+              "_120"
+            ),
 
-              [sty.iconTextParent__size__140]: hasVariant(
-                variants,
-                "size",
-                "_140"
-              ),
+            [sty.iconTextParent__size__140]: hasVariant(
+              variants,
+              "size",
+              "_140"
+            ),
 
-              [sty.iconTextParent__size__180]: hasVariant(
-                variants,
-                "size",
-                "_180"
-              ),
+            [sty.iconTextParent__size__180]: hasVariant(
+              variants,
+              "size",
+              "_180"
+            ),
 
-              [sty.iconTextParent__size__180_type_icon]:
-                hasVariant(variants, "size", "_180") &&
-                hasVariant(variants, "type", "icon"),
-              [sty.iconTextParent__size__360]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              ),
+            [sty.iconTextParent__size__180_type_icon]:
+              hasVariant(variants, "size", "_180") &&
+              hasVariant(variants, "type", "icon"),
+            [sty.iconTextParent__size__360]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            ),
 
-              [sty.iconTextParent__size__90]: hasVariant(
-                variants,
-                "size",
-                "_90"
-              ),
+            [sty.iconTextParent__size__90]: hasVariant(variants, "size", "_90"),
+            [sty.iconTextParent__state_error]: hasVariant(
+              variants,
+              "state",
+              "error"
+            ),
 
-              [sty.iconTextParent__state_error]: hasVariant(
-                variants,
-                "state",
-                "error"
-              ),
+            [sty.iconTextParent__state_success]: hasVariant(
+              variants,
+              "state",
+              "success"
+            ),
 
-              [sty.iconTextParent__state_success]: hasVariant(
-                variants,
-                "state",
-                "success"
-              ),
+            [sty.iconTextParent__type_ghost]: hasVariant(
+              variants,
+              "type",
+              "ghost"
+            ),
 
-              [sty.iconTextParent__type_ghost]: hasVariant(
-                variants,
-                "type",
-                "ghost"
-              ),
+            [sty.iconTextParent__type_ghost_color_alert]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "alert"),
+            [sty.iconTextParent__type_ghost_color_blue]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "blue"),
+            [sty.iconTextParent__type_ghost_color_brand]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "brand"),
+            [sty.iconTextParent__type_ghost_color_caution]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "caution"),
+            [sty.iconTextParent__type_ghost_color_magenta]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "magenta"),
+            [sty.iconTextParent__type_ghost_color_success]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "success"),
+            [sty.iconTextParent__type_ghost_color_warning]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "warning"),
+            [sty.iconTextParent__type_ghost_state_error]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "state", "error"),
+            [sty.iconTextParent__type_icon]: hasVariant(
+              variants,
+              "type",
+              "icon"
+            ),
 
-              [sty.iconTextParent__type_ghost_color_alert]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "alert"),
-              [sty.iconTextParent__type_ghost_color_blue]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "blue"),
-              [sty.iconTextParent__type_ghost_color_brand]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "brand"),
-              [sty.iconTextParent__type_ghost_color_caution]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "caution"),
-              [sty.iconTextParent__type_ghost_color_magenta]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "magenta"),
-              [sty.iconTextParent__type_ghost_color_success]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "success"),
-              [sty.iconTextParent__type_ghost_color_warning]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "warning"),
-              [sty.iconTextParent__type_ghost_state_error]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "state", "error"),
-              [sty.iconTextParent__type_icon]: hasVariant(
-                variants,
-                "type",
-                "icon"
-              ),
+            [sty.iconTextParent__type_icon_size__120]:
+              hasVariant(variants, "type", "icon") &&
+              hasVariant(variants, "size", "_120"),
+            [sty.iconTextParent__type_icon_size__140]:
+              hasVariant(variants, "type", "icon") &&
+              hasVariant(variants, "size", "_140"),
+            [sty.iconTextParent__type_icon_size__270]:
+              hasVariant(variants, "type", "icon") &&
+              hasVariant(variants, "size", "_270"),
+            [sty.iconTextParent__type_icon_size__360]:
+              hasVariant(variants, "type", "icon") &&
+              hasVariant(variants, "size", "_360"),
+            [sty.iconTextParent__type_light]: hasVariant(
+              variants,
+              "type",
+              "light"
+            ),
 
-              [sty.iconTextParent__type_icon_size__120]:
-                hasVariant(variants, "type", "icon") &&
-                hasVariant(variants, "size", "_120"),
-              [sty.iconTextParent__type_icon_size__140]:
-                hasVariant(variants, "type", "icon") &&
-                hasVariant(variants, "size", "_140"),
-              [sty.iconTextParent__type_icon_size__270]:
-                hasVariant(variants, "type", "icon") &&
-                hasVariant(variants, "size", "_270"),
-              [sty.iconTextParent__type_icon_size__360]:
-                hasVariant(variants, "type", "icon") &&
-                hasVariant(variants, "size", "_360"),
-              [sty.iconTextParent__type_light]: hasVariant(
-                variants,
-                "type",
-                "light"
-              ),
+            [sty.iconTextParent__type_light_color_brand]:
+              hasVariant(variants, "type", "light") &&
+              hasVariant(variants, "color", "brand"),
+            [sty.iconTextParent__type_light_color_success]:
+              hasVariant(variants, "type", "light") &&
+              hasVariant(variants, "color", "success"),
+            [sty.iconTextParent__type_link]: hasVariant(
+              variants,
+              "type",
+              "link"
+            ),
 
-              [sty.iconTextParent__type_light_color_brand]:
-                hasVariant(variants, "type", "light") &&
-                hasVariant(variants, "color", "brand"),
-              [sty.iconTextParent__type_light_color_success]:
-                hasVariant(variants, "type", "light") &&
-                hasVariant(variants, "color", "success"),
-              [sty.iconTextParent__type_link]: hasVariant(
-                variants,
-                "type",
-                "link"
-              ),
+            [sty.iconTextParent__type_link_color_warning]:
+              hasVariant(variants, "type", "link") &&
+              hasVariant(variants, "color", "warning"),
+            [sty.iconTextParent__type_outline]: hasVariant(
+              variants,
+              "type",
+              "outline"
+            ),
 
-              [sty.iconTextParent__type_link_color_warning]:
-                hasVariant(variants, "type", "link") &&
-                hasVariant(variants, "color", "warning"),
-              [sty.iconTextParent__type_outline]: hasVariant(
-                variants,
-                "type",
-                "outline"
-              ),
-
-              [sty.iconTextParent__type_outline_color_brand]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "brand"),
-              [sty.iconTextParent__type_outline_color_warning]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "warning"),
-              [sty.iconTextParent__type_primary]: hasVariant(
-                variants,
-                "type",
-                "primary"
-              )
-            }
-          )}
+            [sty.iconTextParent__type_outline_color_brand]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "brand"),
+            [sty.iconTextParent__type_outline_color_warning]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "warning"),
+            [sty.iconTextParent__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            )
+          })}
         >
           {(hasVariant(variants, "type", "icon") ? true : true) ? (
             <div
               data-plasmic-name={"iconParent"}
               data-plasmic-override={overrides.iconParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.iconParent,
-                {
-                  [sty.iconParent__size__180]: hasVariant(
-                    variants,
-                    "size",
-                    "_180"
-                  ),
+              className={classNames(projectcss.all, sty.iconParent, {
+                [sty.iconParent__size__180]: hasVariant(
+                  variants,
+                  "size",
+                  "_180"
+                ),
 
-                  [sty.iconParent__size__180_type_icon]:
-                    hasVariant(variants, "size", "_180") &&
-                    hasVariant(variants, "type", "icon"),
-                  [sty.iconParent__type_icon]: hasVariant(
-                    variants,
-                    "type",
-                    "icon"
-                  )
-                }
-              )}
+                [sty.iconParent__size__180_type_icon]:
+                  hasVariant(variants, "size", "_180") &&
+                  hasVariant(variants, "type", "icon"),
+                [sty.iconParent__type_icon]: hasVariant(
+                  variants,
+                  "type",
+                  "icon"
+                )
+              })}
             >
               {(hasVariant(variants, "type", "icon") ? true : true)
                 ? p.renderPlasmicSlot({
                     defaultContents: (
                       <PlusBoldIcon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__kdTyw
-                        )}
+                        className={classNames(projectcss.all, sty.svg__kdTyw)}
                         role={"img"}
                       />
                     ),

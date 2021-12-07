@@ -25,7 +25,6 @@ import NavbarNotifications from "../../NavbarNotifications"; // plasmic-import: 
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarPrimary.module.css"; // plasmic-import: Wo-euFIot3l/css
 
@@ -51,45 +50,29 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color]: hasVariant(variants, "color", "color"),
-          [sty.root__user_buyer]: hasVariant(variants, "user", "buyer")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color]: hasVariant(variants, "color", "color"),
+        [sty.root__user_buyer]: hasVariant(variants, "user", "buyer")
+      })}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.column__pLq0K,
-          {
-            [sty.column__color__pLq0KBxq9H]: hasVariant(
-              variants,
-              "color",
-              "color"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.column__pLq0K, {
+          [sty.column__color__pLq0KBxq9H]: hasVariant(
+            variants,
+            "color",
+            "color"
+          )
+        })}
       >
         {(hasVariant(variants, "color", "color") ? false : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lVy1A,
-              {
-                [sty.freeBox__color__lVy1ABxq9H]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lVy1A, {
+              [sty.freeBox__color__lVy1ABxq9H]: hasVariant(
+                variants,
+                "color",
+                "color"
+              )
+            })}
           >
             <NavbarLogo
               data-plasmic-name={"navbarLogo"}
@@ -103,24 +86,19 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         ) : null}
         {(hasVariant(variants, "color", "color") ? true : false) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___5OHj,
-              {
-                [sty.freeBox__color___5OHjBxq9H]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox___5OHj, {
+              [sty.freeBox__color___5OHjBxq9H]: hasVariant(
+                variants,
+                "color",
+                "color"
+              )
+            })}
           >
             {(hasVariant(variants, "color", "color") ? true : false) ? (
               <p.PlasmicLink
                 data-plasmic-name={"link"}
                 data-plasmic-override={overrides.link}
-                className={classNames(defaultcss.a, projectcss.a, sty.link, {
+                className={classNames(projectcss.a, sty.link, {
                   [sty.link__color]: hasVariant(variants, "color", "color")
                 })}
                 component={Link}
@@ -131,14 +109,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                     data-plasmic-name={"img"}
                     data-plasmic-override={overrides.img}
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img,
-                      {
-                        [sty.img__color]: hasVariant(variants, "color", "color")
-                      }
-                    )}
+                    className={classNames(projectcss.img, sty.img, {
+                      [sty.img__color]: hasVariant(variants, "color", "color")
+                    })}
                     src={"/plasmic/market_v_2/images/intrepidPrimaryBsvg.svg"}
                   />
                 ) : null}
@@ -151,28 +124,17 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
       {(
         hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
       ) ? (
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.column__z7N9
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.column__z7N9)}>
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__jeKoP,
-              {
-                [sty.freeBox__color__jeKoPBxq9H]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__jeKoP, {
+              [sty.freeBox__color__jeKoPBxq9H]: hasVariant(
+                variants,
+                "color",
+                "color"
+              )
+            })}
           >
             {(
               hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -193,9 +155,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                 linkText={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___5NqCc
                     )}
                   >
@@ -219,9 +180,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               linkText={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__zUdj
                   )}
                 >
@@ -249,9 +209,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                 linkText={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___5BIZq
                     )}
                   >
@@ -275,9 +234,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               linkText={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__s5XHu
                   )}
                 >
@@ -289,28 +247,17 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
         </div>
       ) : null}
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.column__i04AK
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.column__i04AK)}>
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__oGXjg,
-            {
-              [sty.freeBox__color__oGXjgBxq9H]: hasVariant(
-                variants,
-                "color",
-                "color"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox__oGXjg, {
+            [sty.freeBox__color__oGXjgBxq9H]: hasVariant(
+              variants,
+              "color",
+              "color"
+            )
+          })}
         >
           {(
             hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
@@ -330,9 +277,8 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               linkText={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__zfh0N,
                     {
                       [sty.text__color__zfh0NBxq9H]: hasVariant(

@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartnerSectionAccount.module.css"; // plasmic-import: frbDg7XY-m/css
 import NotificationIcon from "./icons/PlasmicIcon__Notification"; // plasmic-import: rEeGdo5vaH/icon
@@ -37,27 +36,21 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"header"}
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.header)}
+        className={classNames(projectcss.all, sty.header)}
       >
         <div
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text
           )}
         >
@@ -72,11 +65,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <NotificationIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navImage2
-            )}
+            className={classNames(projectcss.all, sty.navImage2)}
             role={"img"}
           />
         }
@@ -91,7 +80,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <SettingsIcon
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
-            className={classNames(defaultcss.all, projectcss.all, sty.navImage)}
+            className={classNames(projectcss.all, sty.navImage)}
             role={"img"}
           />
         }

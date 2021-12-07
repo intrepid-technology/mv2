@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSearchbarPrimary.module.css"; // plasmic-import: MorSLptejY/css
 import Icon174Icon from "./icons/PlasmicIcon__Icon174"; // plasmic-import: yq36rktOQq/icon
@@ -37,24 +36,18 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__height__36]: hasVariant(variants, "height", "_36"),
-          [sty.root__height__40]: hasVariant(variants, "height", "_40"),
-          [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.root__width__360]: hasVariant(variants, "width", "_360")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__height__36]: hasVariant(variants, "height", "_36"),
+        [sty.root__height__40]: hasVariant(variants, "height", "_40"),
+        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+        [sty.root__width__360]: hasVariant(variants, "width", "_360")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
           [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
           [sty.parent__type_secondary]: hasVariant(
@@ -79,70 +72,52 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"searchSvgbg"}
           data-plasmic-override={overrides.searchSvgbg}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.searchSvgbg,
-            {
-              [sty.searchSvgbg__height__36]: hasVariant(
+          className={classNames(projectcss.all, sty.searchSvgbg, {
+            [sty.searchSvgbg__height__36]: hasVariant(
+              variants,
+              "height",
+              "_36"
+            ),
+
+            [sty.searchSvgbg__height__40]: hasVariant(
+              variants,
+              "height",
+              "_40"
+            ),
+
+            [sty.searchSvgbg__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            ),
+
+            [sty.searchSvgbg__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
+
+            [sty.searchSvgbg__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
+
+            [sty.searchSvgbg__width__360]: hasVariant(variants, "width", "_360")
+          })}
+        >
+          <Icon174Icon
+            data-plasmic-name={"searchSvg"}
+            data-plasmic-override={overrides.searchSvg}
+            className={classNames(projectcss.all, sty.searchSvg, {
+              [sty.searchSvg__height__36]: hasVariant(
                 variants,
                 "height",
                 "_36"
               ),
 
-              [sty.searchSvgbg__height__40]: hasVariant(
-                variants,
-                "height",
-                "_40"
-              ),
-
-              [sty.searchSvgbg__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              ),
-
-              [sty.searchSvgbg__width__180]: hasVariant(
-                variants,
-                "width",
-                "_180"
-              ),
-
-              [sty.searchSvgbg__width__270]: hasVariant(
-                variants,
-                "width",
-                "_270"
-              ),
-
-              [sty.searchSvgbg__width__360]: hasVariant(
-                variants,
-                "width",
-                "_360"
-              )
-            }
-          )}
-        >
-          <Icon174Icon
-            data-plasmic-name={"searchSvg"}
-            data-plasmic-override={overrides.searchSvg}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.searchSvg,
-              {
-                [sty.searchSvg__height__36]: hasVariant(
-                  variants,
-                  "height",
-                  "_36"
-                ),
-
-                [sty.searchSvg__height__40]: hasVariant(
-                  variants,
-                  "height",
-                  "_40"
-                )
-              }
-            )}
+              [sty.searchSvg__height__40]: hasVariant(variants, "height", "_40")
+            })}
             role={"img"}
           />
         </div>
@@ -150,58 +125,48 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
         <div
           data-plasmic-name={"textboxParent"}
           data-plasmic-override={overrides.textboxParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.textboxParent,
-            {
-              [sty.textboxParent__type_primary]: hasVariant(
-                variants,
-                "type",
-                "primary"
-              ),
+          className={classNames(projectcss.all, sty.textboxParent, {
+            [sty.textboxParent__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
 
-              [sty.textboxParent__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              ),
+            [sty.textboxParent__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            ),
 
-              [sty.textboxParent__width__180]: hasVariant(
-                variants,
-                "width",
-                "_180"
-              ),
+            [sty.textboxParent__width__180]: hasVariant(
+              variants,
+              "width",
+              "_180"
+            ),
 
-              [sty.textboxParent__width__270]: hasVariant(
-                variants,
-                "width",
-                "_270"
-              ),
+            [sty.textboxParent__width__270]: hasVariant(
+              variants,
+              "width",
+              "_270"
+            ),
 
-              [sty.textboxParent__width__360]: hasVariant(
-                variants,
-                "width",
-                "_360"
-              )
-            }
-          )}
+            [sty.textboxParent__width__360]: hasVariant(
+              variants,
+              "width",
+              "_360"
+            )
+          })}
         >
           <input
             data-plasmic-name={"textInput"}
             data-plasmic-override={overrides.textInput ?? overrides.textbox}
-            className={classNames(
-              defaultcss.input,
-              projectcss.input,
-              sty.textInput,
-              {
-                [sty.textInput__type_secondary]: hasVariant(
-                  variants,
-                  "type",
-                  "secondary"
-                )
-              }
-            )}
+            className={classNames(projectcss.input, sty.textInput, {
+              [sty.textInput__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              )
+            })}
             placeholder={""}
             size={1}
             type={"text"}

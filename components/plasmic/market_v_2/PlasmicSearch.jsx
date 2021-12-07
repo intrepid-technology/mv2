@@ -22,7 +22,6 @@ import ChipSearchFilterButton from "../../ChipSearchFilterButton"; // plasmic-im
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSearch.module.css"; // plasmic-import: Ke5AuXHMAn/css
 
@@ -44,7 +43,7 @@ function PlasmicSearch__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -53,19 +52,12 @@ function PlasmicSearch__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__mByHg
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__mByHg)}>
             <CardHeaderTitleDisplay
               data-plasmic-name={"cardHeaderTitleDisplay"}
               data-plasmic-override={overrides.cardHeaderTitleDisplay}
@@ -77,9 +69,8 @@ function PlasmicSearch__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__wnn9X
                   )}
                 >
@@ -90,9 +81,8 @@ function PlasmicSearch__RenderFunc(props) {
               textSubhead={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__iAdTm
                   )}
                 >
@@ -107,20 +97,12 @@ function PlasmicSearch__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__srome
-            )}
+            className={classNames(projectcss.all, sty.freeBox__srome)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__saaSc
-              )}
+              className={classNames(projectcss.all, sty.freeBox__saaSc)}
             >
               <SelectDropdownPrimary
                 className={classNames(
@@ -130,9 +112,8 @@ function PlasmicSearch__RenderFunc(props) {
                 placeholder={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__lvUbZ
                     )}
                   >
@@ -150,9 +131,8 @@ function PlasmicSearch__RenderFunc(props) {
                 placeholder={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__mjB1W
                     )}
                   >
@@ -170,9 +150,8 @@ function PlasmicSearch__RenderFunc(props) {
                 placeholder={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__gmh8B
                     )}
                   >
@@ -278,20 +257,12 @@ function PlasmicSearch__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__z9Yd
-            )}
+            className={classNames(projectcss.all, sty.freeBox__z9Yd)}
           >
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___79Svz
-              )}
+              className={classNames(projectcss.all, sty.freeBox___79Svz)}
             >
               <CardServiceDisplay
                 boost={"boost"}
@@ -429,9 +400,8 @@ function PlasmicSearch__RenderFunc(props) {
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__jMIx
                 )}
               >

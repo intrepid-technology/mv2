@@ -26,7 +26,6 @@ import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/
 import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingdescription.module.css"; // plasmic-import: 61iZdr_d05z/css
 
@@ -52,7 +51,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -61,7 +60,6 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -70,11 +68,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.serviceListingNavbar
-            )}
+            className={classNames(projectcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
@@ -97,22 +91,14 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___09Zdm
-            )}
+            className={classNames(projectcss.all, sty.freeBox___09Zdm)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionTitleBlock"}
               data-plasmic-override={overrides.questionTitleBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionTitleBlock
-              )}
+              className={classNames(projectcss.all, sty.questionTitleBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -122,9 +108,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__nr931
                     )}
                   >
@@ -135,9 +120,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__laelq
                   )}
                 >
@@ -169,11 +153,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__qeVgc
-            )}
+            className={classNames(projectcss.all, sty.freeBox__qeVgc)}
           >
             <p.Stack
               as={"div"}
@@ -181,7 +161,6 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               data-plasmic-override={overrides.questionDescriptionBlock}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.questionDescriptionBlock
               )}
@@ -195,9 +174,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__uc5Jc
                     )}
                   >
@@ -210,9 +188,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text___0B5MK
                   )}
                 >
@@ -247,31 +224,19 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__axd3H
-            )}
+            className={classNames(projectcss.all, sty.freeBox__axd3H)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionProcessBlock"}
               data-plasmic-override={overrides.questionProcessBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionProcessBlock
-              )}
+              className={classNames(projectcss.all, sty.questionProcessBlock)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__j5P5R
-                )}
+                className={classNames(projectcss.all, sty.freeBox__j5P5R)}
               >
                 <CardQuestionServiceListing
                   className={classNames(
@@ -282,9 +247,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__vqvCv
                       )}
                     >
@@ -294,9 +258,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   slot2={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__wEkof
                       )}
                     >
@@ -306,9 +269,8 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__io8Zz
                     )}
                   >
@@ -332,17 +294,12 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__oslf
-                )}
+                className={classNames(projectcss.all, sty.freeBox__oslf)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__mnyPp
                   )}
                 >

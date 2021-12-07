@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarVertical.module.css"; // plasmic-import: BUxP2uKOf9/css
 
@@ -41,7 +40,6 @@ function PlasmicNavbarVertical__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.all,
         projectcss.all,
         projectcss.root_reset,
         sty.sidePanel,
@@ -53,7 +51,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         data-plasmic-name={"navCard"}
         data-plasmic-override={overrides.navCard}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.navCard, {
+        className={classNames(projectcss.all, sty.navCard, {
           [sty.navCard___switch]: hasVariant(variants, "_switch", "_switch"),
           [sty.navCard__user_partner]: hasVariant(variants, "user", "partner")
         })}
@@ -61,27 +59,18 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.iconParent,
-            {
-              [sty.iconParent___switch]: hasVariant(
-                variants,
-                "_switch",
-                "_switch"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.iconParent, {
+            [sty.iconParent___switch]: hasVariant(
+              variants,
+              "_switch",
+              "_switch"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
               <svg
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__rPi01
-                )}
+                className={classNames(projectcss.all, sty.svg__rPi01)}
                 role={"img"}
               />
             ),
@@ -93,18 +82,13 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         <div
           data-plasmic-name={"navLinkParent"}
           data-plasmic-override={overrides.navLinkParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.navLinkParent,
-            {
-              [sty.navLinkParent___switch]: hasVariant(
-                variants,
-                "_switch",
-                "_switch"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.navLinkParent, {
+            [sty.navLinkParent___switch]: hasVariant(
+              variants,
+              "_switch",
+              "_switch"
+            )
+          })}
         >
           <NavLink
             data-plasmic-name={"navLink"}

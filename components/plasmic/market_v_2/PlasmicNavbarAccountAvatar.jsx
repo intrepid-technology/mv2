@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarAccountAvatar.module.css"; // plasmic-import: Desp33T8Y3/css
 import Icon126Icon from "./icons/PlasmicIcon__Icon126"; // plasmic-import: CDcqIgJsCe/icon
@@ -37,7 +36,6 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.all,
         projectcss.all,
         projectcss.root_reset,
         sty.accountAvatar,
@@ -65,11 +63,7 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
       {p.renderPlasmicSlot({
         defaultContents: (
           <Icon126Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__jjCee
-            )}
+            className={classNames(projectcss.all, sty.svg__jjCee)}
             role={"img"}
           />
         ),

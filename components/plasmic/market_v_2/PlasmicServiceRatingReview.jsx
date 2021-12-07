@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServiceRatingReview.module.css"; // plasmic-import: l-dEPw55Sx/css
 import Icon48Icon from "./icons/PlasmicIcon__Icon48"; // plasmic-import: mxKobpNi3O/icon
@@ -35,22 +34,17 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <Icon48Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+          className={classNames(projectcss.all, sty.svg)}
           role={"img"}
         />
       </div>
@@ -58,17 +52,12 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
       <div
         data-plasmic-name={"serviceAggregateRating"}
         data-plasmic-override={overrides.serviceAggregateRating}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.serviceAggregateRating
-        )}
+        className={classNames(projectcss.all, sty.serviceAggregateRating)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__os5Mt
           )}
         >
@@ -78,9 +67,8 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
 
       <div
         className={classNames(
-          defaultcss.all,
           projectcss.all,
-          defaultcss.__wab_text,
+          projectcss.__wab_text,
           sty.text__br5LD
         )}
       >
@@ -90,17 +78,12 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
       <div
         data-plasmic-name={"serviceAggregateReviews"}
         data-plasmic-override={overrides.serviceAggregateReviews}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.serviceAggregateReviews
-        )}
+        className={classNames(projectcss.all, sty.serviceAggregateReviews)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__lsm4G
           )}
         >
@@ -110,9 +93,8 @@ function PlasmicServiceRatingReview__RenderFunc(props) {
 
       <div
         className={classNames(
-          defaultcss.all,
           projectcss.all,
-          defaultcss.__wab_text,
+          projectcss.__wab_text,
           sty.text__iekLt
         )}
       >

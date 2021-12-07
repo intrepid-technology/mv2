@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooterSocialLink.module.css"; // plasmic-import: uQNvf8Lt2Y/css
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
@@ -38,17 +37,11 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.root__color_light]: hasVariant(variants, "color", "light")
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+        [sty.root__color_light]: hasVariant(variants, "color", "light")
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -57,16 +50,12 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon8Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__dorQ
-              )}
+              className={classNames(projectcss.all, sty.svg__dorQ)}
               role={"img"}
             />
           ),

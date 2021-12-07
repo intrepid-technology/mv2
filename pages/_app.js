@@ -26,28 +26,34 @@ function MyApp({ Component, pageProps }) {
       <Hydrate state={pageProps.dehydratedState}>
         <Provider store={store}>
         <OverlayProvider>
-          <Layout
-            navbar={{
-              auth: isAuth,
-            }}
-            main={<Component {...pageProps} />}
-            tabNavigationWrapper={
-              <PageTabNavigations navLinks={pageLayoutProps.tabs} />
-            }
-            breadcrumbsWrapper={<PageBreadcrumbs />}
-            scrollNavigationWrapper={<PageScrollNavigations />}
-            pageHeading={pageLayoutProps?.heading}
-            pageSubHeading={pageLayoutProps?.subHeading}
-            pageDescription={pageLayoutProps?.description}
-            headerDisplayWrapper={{
-              wrapChildren: (children) => Boolean(pageLayoutProps?.heading) ? children : null
-            }}
-            navBackButton={{
-              onClick: () => {
-                router.back()
-              }
-            }}
-          />
+        {
+            pageLayoutProps?.noLayout ? (
+              <Component {...pageProps} />
+            ) : (
+              <Layout
+                navbar={{
+                  auth: isAuth,
+                }}
+                main={<Component {...pageProps} />}
+                tabNavigationWrapper={
+                  <PageTabNavigations navLinks={pageLayoutProps.tabs} />
+                }
+                breadcrumbsWrapper={<PageBreadcrumbs />}
+                scrollNavigationWrapper={<PageScrollNavigations />}
+                pageHeading={pageLayoutProps?.heading}
+                pageSubHeading={pageLayoutProps?.subHeading}
+                pageDescription={pageLayoutProps?.description}
+                headerDisplayWrapper={{
+                  wrapChildren: (children) => Boolean(pageLayoutProps?.heading) ? children : null
+                }}
+                navBackButton={{
+                  onClick: () => {
+                    router.back()
+                  }
+                }}
+              />
+            )
+          }
         </OverlayProvider>
         </Provider>
       </Hydrate>

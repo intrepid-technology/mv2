@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSelectInput__Option.module.css"; // plasmic-import: t56z-AA9Ffy/css
 import SUPER__PlasmicSelectInput from "./PlasmicSelectInput"; // plasmic-import: 6gReGypE5kO/render
@@ -47,59 +46,44 @@ function PlasmicSelectInput__Option__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__isDisabled]: hasVariant(
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__isDisabled]: hasVariant(
+          variants,
+          "isDisabled",
+          "isDisabled"
+        ),
+
+        [sty.root__isHighlighted]: hasVariant(
+          variants,
+          "isHighlighted",
+          "isHighlighted"
+        ),
+
+        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
+      })}
+    >
+      <div
+        data-plasmic-name={"labelContainer"}
+        data-plasmic-override={overrides.labelContainer}
+        className={classNames(projectcss.all, sty.labelContainer, {
+          [sty.labelContainer__isDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.root__isHighlighted]: hasVariant(
+          [sty.labelContainer__isHighlighted]: hasVariant(
             variants,
             "isHighlighted",
             "isHighlighted"
           ),
 
-          [sty.root__isSelected]: hasVariant(
+          [sty.labelContainer__isSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"
           )
-        }
-      )}
-    >
-      <div
-        data-plasmic-name={"labelContainer"}
-        data-plasmic-override={overrides.labelContainer}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.labelContainer,
-          {
-            [sty.labelContainer__isDisabled]: hasVariant(
-              variants,
-              "isDisabled",
-              "isDisabled"
-            ),
-
-            [sty.labelContainer__isHighlighted]: hasVariant(
-              variants,
-              "isHighlighted",
-              "isHighlighted"
-            ),
-
-            [sty.labelContainer__isSelected]: hasVariant(
-              variants,
-              "isSelected",
-              "isSelected"
-            )
-          }
-        )}
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Option",

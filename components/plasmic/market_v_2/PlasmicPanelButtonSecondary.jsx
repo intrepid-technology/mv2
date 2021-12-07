@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonSecondary.module.css"; // plasmic-import: cwyuvAY7ua/css
 import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
@@ -43,17 +42,12 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.PlasmicLink
         data-plasmic-name={"powerUp"}
         data-plasmic-override={overrides.powerUp}
-        className={classNames(defaultcss.a, projectcss.a, sty.powerUp, {
+        className={classNames(projectcss.a, sty.powerUp, {
           [sty.powerUp__alternates_addPartner]: hasVariant(
             variants,
             "alternates",
@@ -75,24 +69,19 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
           data-plasmic-name={"sideBarCardLink"}
           data-plasmic-override={overrides.sideBarCardLink}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.sideBarCardLink,
-            {
-              [sty.sideBarCardLink__alternates_addPartner]: hasVariant(
-                variants,
-                "alternates",
-                "addPartner"
-              ),
+          className={classNames(projectcss.all, sty.sideBarCardLink, {
+            [sty.sideBarCardLink__alternates_addPartner]: hasVariant(
+              variants,
+              "alternates",
+              "addPartner"
+            ),
 
-              [sty.sideBarCardLink__alternates_requestReview]: hasVariant(
-                variants,
-                "alternates",
-                "requestReview"
-              )
-            }
-          )}
+            [sty.sideBarCardLink__alternates_requestReview]: hasVariant(
+              variants,
+              "alternates",
+              "requestReview"
+            )
+          })}
         >
           <p.PlasmicIcon
             data-plasmic-name={"svg"}
@@ -104,7 +93,7 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
                 ? MemberPartnerAddIcon
                 : BoostIcon
             }
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg__alternates_addPartner]: hasVariant(
                 variants,
                 "alternates",
@@ -124,9 +113,8 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text,
               {
                 [sty.text__alternates_addPartner]: hasVariant(

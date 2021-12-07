@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSearchBadge.module.css"; // plasmic-import: DreZnHdEQY/css
 
@@ -35,21 +34,12 @@ function PlasmicSearchBadge__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <input
         data-plasmic-name={"serviceIndustry"}
         data-plasmic-override={overrides.serviceIndustry}
-        className={classNames(
-          defaultcss.input,
-          projectcss.input,
-          sty.serviceIndustry
-        )}
+        className={classNames(projectcss.input, sty.serviceIndustry)}
         placeholder={"Search and enter"}
         size={1}
         type={"text"}
@@ -61,7 +51,7 @@ function PlasmicSearchBadge__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -74,9 +64,8 @@ function PlasmicSearchBadge__RenderFunc(props) {
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__ryVaq
                 )}
               >

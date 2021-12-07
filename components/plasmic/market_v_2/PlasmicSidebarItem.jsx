@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSidebarItem.module.css"; // plasmic-import: 5M7wE13TFT/css
 
@@ -40,13 +39,9 @@ function PlasmicSidebarItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__selected]: hasVariant(variants, "selected", "selected") }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__selected]: hasVariant(variants, "selected", "selected")
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -54,16 +49,12 @@ function PlasmicSidebarItem__RenderFunc(props) {
       <div
         data-plasmic-name={"iconWrapper"}
         data-plasmic-override={overrides.iconWrapper}
-        className={classNames(defaultcss.all, projectcss.all, sty.iconWrapper)}
+        className={classNames(projectcss.all, sty.iconWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <svg
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__gSqwe
-              )}
+              className={classNames(projectcss.all, sty.svg__gSqwe)}
               role={"img"}
             />
           ),

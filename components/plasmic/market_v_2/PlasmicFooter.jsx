@@ -22,7 +22,6 @@ import FooterLink from "../../FooterLink"; // plasmic-import: V79E-hyi-E/compone
 import FooterSocialLink from "../../FooterSocialLink"; // plasmic-import: uQNvf8Lt2Y/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooter.module.css"; // plasmic-import: eCAXzaJOOM3/css
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
@@ -33,7 +32,11 @@ import Icon11Icon from "./icons/PlasmicIcon__Icon11"; // plasmic-import: 1ixWuyk
 
 export const PlasmicFooter__VariantProps = new Array("color");
 
-export const PlasmicFooter__ArgProps = new Array("children", "slot");
+export const PlasmicFooter__ArgProps = new Array(
+  "children",
+  "slot",
+  "destination"
+);
 
 function PlasmicFooter__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -49,29 +52,20 @@ function PlasmicFooter__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__color]: hasVariant(variants, "color", "color") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color]: hasVariant(variants, "color", "color")
+      })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__n566F,
-          {
-            [sty.freeBox__color__n566F4Sg3R]: hasVariant(
-              variants,
-              "color",
-              "color"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.freeBox__n566F, {
+          [sty.freeBox__color__n566F4Sg3R]: hasVariant(
+            variants,
+            "color",
+            "color"
+          )
+        })}
       >
         <LogoHeader
           data-plasmic-name={"logoHeader"}
@@ -85,11 +79,7 @@ function PlasmicFooter__RenderFunc(props) {
             defaultContents: (
               <img
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.img__sdyFl
-                )}
+                className={classNames(projectcss.img, sty.img__sdyFl)}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
               />
             ),
@@ -101,33 +91,23 @@ function PlasmicFooter__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__aA6Wh,
-            {
-              [sty.freeBox__color__aA6Wh4Sg3R]: hasVariant(
-                variants,
-                "color",
-                "color"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox__aA6Wh, {
+            [sty.freeBox__color__aA6Wh4Sg3R]: hasVariant(
+              variants,
+              "color",
+              "color"
+            )
+          })}
         >
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__yF0Gr
-            )}
+            className={classNames(projectcss.all, sty.freeBox__yF0Gr)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__fvAb7,
                 {
                   [sty.text__color__fvAb74Sg3R]: hasVariant(
@@ -177,6 +157,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={"https://form.typeform.com/to/qoNxle4D"}
               slot={"Sell on Intrepid"}
             />
           </p.Stack>
@@ -184,17 +165,12 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__cMzll
-            )}
+            className={classNames(projectcss.all, sty.freeBox__cMzll)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__rqdjj,
                 {
                   [sty.text__color__rqdjj4Sg3R]: hasVariant(
@@ -248,17 +224,12 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__l8Tzr
-            )}
+            className={classNames(projectcss.all, sty.freeBox__l8Tzr)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text___9Wf6,
                 {
                   [sty.text__color___9Wf64Sg3R]: hasVariant(
@@ -309,12 +280,9 @@ function PlasmicFooter__RenderFunc(props) {
               data-plasmic-name={"social"}
               data-plasmic-override={overrides.social}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.social,
-                { [sty.social__color]: hasVariant(variants, "color", "color") }
-              )}
+              className={classNames(projectcss.all, sty.social, {
+                [sty.social__color]: hasVariant(variants, "color", "color")
+              })}
             >
               <FooterSocialLink
                 className={classNames(
@@ -350,18 +318,13 @@ function PlasmicFooter__RenderFunc(props) {
                 }
               >
                 <Icon9Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__y7VJt,
-                    {
-                      [sty.svg__color__y7VJt4Sg3R]: hasVariant(
-                        variants,
-                        "color",
-                        "color"
-                      )
-                    }
-                  )}
+                  className={classNames(projectcss.all, sty.svg__y7VJt, {
+                    [sty.svg__color__y7VJt4Sg3R]: hasVariant(
+                      variants,
+                      "color",
+                      "color"
+                    )
+                  })}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -383,18 +346,13 @@ function PlasmicFooter__RenderFunc(props) {
                 }
               >
                 <Icon10Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg___3MPKg,
-                    {
-                      [sty.svg__color___3MPKg4Sg3R]: hasVariant(
-                        variants,
-                        "color",
-                        "color"
-                      )
-                    }
-                  )}
+                  className={classNames(projectcss.all, sty.svg___3MPKg, {
+                    [sty.svg__color___3MPKg4Sg3R]: hasVariant(
+                      variants,
+                      "color",
+                      "color"
+                    )
+                  })}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -416,18 +374,13 @@ function PlasmicFooter__RenderFunc(props) {
                 }
               >
                 <Icon12Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__qb4Mh,
-                    {
-                      [sty.svg__color__qb4Mh4Sg3R]: hasVariant(
-                        variants,
-                        "color",
-                        "color"
-                      )
-                    }
-                  )}
+                  className={classNames(projectcss.all, sty.svg__qb4Mh, {
+                    [sty.svg__color__qb4Mh4Sg3R]: hasVariant(
+                      variants,
+                      "color",
+                      "color"
+                    )
+                  })}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -449,18 +402,13 @@ function PlasmicFooter__RenderFunc(props) {
                 }
               >
                 <Icon11Icon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__cgjwO,
-                    {
-                      [sty.svg__color__cgjwO4Sg3R]: hasVariant(
-                        variants,
-                        "color",
-                        "color"
-                      )
-                    }
-                  )}
+                  className={classNames(projectcss.all, sty.svg__cgjwO, {
+                    [sty.svg__color__cgjwO4Sg3R]: hasVariant(
+                      variants,
+                      "color",
+                      "color"
+                    )
+                  })}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -471,11 +419,7 @@ function PlasmicFooter__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__qeJzd
-          )}
+          className={classNames(projectcss.all, sty.freeBox__qeJzd)}
         >
           {(
             hasVariant(globalVariants, "screen", "iphone678")
@@ -489,11 +433,7 @@ function PlasmicFooter__RenderFunc(props) {
               data-plasmic-name={"social2"}
               data-plasmic-override={overrides.social2}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.social2
-              )}
+              className={classNames(projectcss.all, sty.social2)}
             >
               <FooterSocialLink
                 className={classNames(
@@ -524,11 +464,7 @@ function PlasmicFooter__RenderFunc(props) {
                       ? Icon9Icon
                       : Icon8Icon
                   }
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__asHoN
-                  )}
+                  className={classNames(projectcss.all, sty.svg__asHoN)}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -550,11 +486,7 @@ function PlasmicFooter__RenderFunc(props) {
                       ? Icon10Icon
                       : Icon8Icon
                   }
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__xx41G
-                  )}
+                  className={classNames(projectcss.all, sty.svg__xx41G)}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -576,11 +508,7 @@ function PlasmicFooter__RenderFunc(props) {
                       ? Icon12Icon
                       : Icon8Icon
                   }
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__ffGt
-                  )}
+                  className={classNames(projectcss.all, sty.svg__ffGt)}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -602,11 +530,7 @@ function PlasmicFooter__RenderFunc(props) {
                       ? Icon11Icon
                       : Icon8Icon
                   }
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__teYeF
-                  )}
+                  className={classNames(projectcss.all, sty.svg__teYeF)}
                   role={"img"}
                 />
               </FooterSocialLink>
@@ -616,11 +540,7 @@ function PlasmicFooter__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__yuBxq
-            )}
+            className={classNames(projectcss.all, sty.freeBox__yuBxq)}
           >
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__l4NKp, {
@@ -649,9 +569,8 @@ function PlasmicFooter__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__mJnXf,
               {
                 [sty.text__color__mJnXf4Sg3R]: hasVariant(

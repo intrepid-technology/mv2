@@ -20,7 +20,6 @@ import {
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarServiceListing.module.css"; // plasmic-import: PUBVQZa84u/css
 
@@ -47,19 +46,14 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"container"}
         data-plasmic-override={overrides.container}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.container, {
+        className={classNames(projectcss.all, sty.container, {
           [sty.container__hideBack]: hasVariant(
             variants,
             "hideBack",
@@ -75,18 +69,13 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
       >
         {(hasVariant(variants, "hideBack", "hideBack") ? true : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__whc4W,
-              {
-                [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
-                  variants,
-                  "hideBack",
-                  "hideBack"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__whc4W, {
+              [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
+                variants,
+                "hideBack",
+                "hideBack"
+              )
+            })}
           >
             {(hasVariant(variants, "hideBack", "hideBack") ? false : true) ? (
               <Button
@@ -107,9 +96,8 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                   data-plasmic-name={"text"}
                   data-plasmic-override={overrides.text}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text
                   )}
                 >
@@ -127,24 +115,19 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         <div
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.labelWrapper,
-            {
-              [sty.labelWrapper__hideBack]: hasVariant(
-                variants,
-                "hideBack",
-                "hideBack"
-              ),
+          className={classNames(projectcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__hideBack]: hasVariant(
+              variants,
+              "hideBack",
+              "hideBack"
+            ),
 
-              [sty.labelWrapper__hideNext]: hasVariant(
-                variants,
-                "hideNext",
-                "hideNext"
-              )
-            }
-          )}
+            [sty.labelWrapper__hideNext]: hasVariant(
+              variants,
+              "hideNext",
+              "hideNext"
+            )
+          })}
         >
           {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true)
             ? p.renderPlasmicSlot({
@@ -167,13 +150,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
             : null}
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___8U6C
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox___8U6C)}>
           {(hasVariant(variants, "hideNext", "hideNext") ? false : true) ? (
             <Button
               data-plasmic-name={"nextButton"}
@@ -193,9 +170,8 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                 data-plasmic-name={"next"}
                 data-plasmic-override={overrides.next}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.next
                 )}
               >

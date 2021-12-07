@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTextAreaInput.module.css"; // plasmic-import: 0ftTMwkv9kS/css
 
@@ -45,32 +44,21 @@ function PlasmicTextAreaInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__showLabel]: hasVariant(variants, "showLabel", "showLabel")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__showLabel]: hasVariant(variants, "showLabel", "showLabel")
+      })}
     >
       {(hasVariant(variants, "showLabel", "showLabel") ? true : false) ? (
         <div
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.labelWrapper,
-            {
-              [sty.labelWrapper__showLabel]: hasVariant(
-                variants,
-                "showLabel",
-                "showLabel"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.labelWrapper, {
+            [sty.labelWrapper__showLabel]: hasVariant(
+              variants,
+              "showLabel",
+              "showLabel"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Enter some text",
@@ -82,7 +70,7 @@ function PlasmicTextAreaInput__RenderFunc(props) {
       <div
         data-plasmic-name={"wrapper"}
         data-plasmic-override={overrides.wrapper}
-        className={classNames(defaultcss.all, projectcss.all, sty.wrapper, {
+        className={classNames(projectcss.all, sty.wrapper, {
           [sty.wrapper__adornment_end]: hasVariant(
             variants,
             "adornment",
@@ -100,28 +88,23 @@ function PlasmicTextAreaInput__RenderFunc(props) {
           <div
             data-plasmic-name={"startAdornmentWrapper"}
             data-plasmic-override={overrides.startAdornmentWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.startAdornmentWrapper,
-              {
-                [sty.startAdornmentWrapper__adornment_end]: hasVariant(
-                  variants,
-                  "adornment",
-                  "end"
-                ),
+            className={classNames(projectcss.all, sty.startAdornmentWrapper, {
+              [sty.startAdornmentWrapper__adornment_end]: hasVariant(
+                variants,
+                "adornment",
+                "end"
+              ),
 
-                [sty.startAdornmentWrapper__adornment_start]: hasVariant(
-                  variants,
-                  "adornment",
-                  "start"
-                ),
+              [sty.startAdornmentWrapper__adornment_start]: hasVariant(
+                variants,
+                "adornment",
+                "start"
+              ),
 
-                [sty.startAdornmentWrapper__type_secondary_adornment_start]:
-                  hasVariant(variants, "type", "secondary") &&
-                  hasVariant(variants, "adornment", "start")
-              }
-            )}
+              [sty.startAdornmentWrapper__type_secondary_adornment_start]:
+                hasVariant(variants, "type", "secondary") &&
+                hasVariant(variants, "adornment", "start")
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Text",
@@ -146,33 +129,24 @@ function PlasmicTextAreaInput__RenderFunc(props) {
         <div
           data-plasmic-name={"inputWrapper"}
           data-plasmic-override={overrides.inputWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.inputWrapper
-          )}
+          className={classNames(projectcss.all, sty.inputWrapper)}
         >
           <textarea
             data-plasmic-name={"textarea"}
             data-plasmic-override={overrides.textarea}
-            className={classNames(
-              defaultcss.textarea,
-              projectcss.textarea,
-              sty.textarea,
-              {
-                [sty.textarea__type_primary]: hasVariant(
-                  variants,
-                  "type",
-                  "primary"
-                ),
+            className={classNames(projectcss.textarea, sty.textarea, {
+              [sty.textarea__type_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
 
-                [sty.textarea__type_secondary]: hasVariant(
-                  variants,
-                  "type",
-                  "secondary"
-                )
-              }
-            )}
+              [sty.textarea__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              )
+            })}
             placeholder={args.placeholder}
             value={""}
           />
@@ -182,22 +156,17 @@ function PlasmicTextAreaInput__RenderFunc(props) {
           <div
             data-plasmic-name={"endAdornmentWrapper"}
             data-plasmic-override={overrides.endAdornmentWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.endAdornmentWrapper,
-              {
-                [sty.endAdornmentWrapper__adornment_end]: hasVariant(
-                  variants,
-                  "adornment",
-                  "end"
-                ),
+            className={classNames(projectcss.all, sty.endAdornmentWrapper, {
+              [sty.endAdornmentWrapper__adornment_end]: hasVariant(
+                variants,
+                "adornment",
+                "end"
+              ),
 
-                [sty.endAdornmentWrapper__adornment_end_type_secondary]:
-                  hasVariant(variants, "adornment", "end") &&
-                  hasVariant(variants, "type", "secondary")
-              }
-            )}
+              [sty.endAdornmentWrapper__adornment_end_type_secondary]:
+                hasVariant(variants, "adornment", "end") &&
+                hasVariant(variants, "type", "secondary")
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Text",

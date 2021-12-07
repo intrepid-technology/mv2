@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardHeroCta2.module.css"; // plasmic-import: HVKfDcAMU0/css
 
@@ -33,34 +32,11 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__meTMb
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__mPjNz
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__hJgt
-            )}
-          >
+      <div className={classNames(projectcss.all, sty.freeBox__meTMb)}>
+        <div className={classNames(projectcss.all, sty.freeBox__mPjNz)}>
+          <div className={classNames(projectcss.all, sty.freeBox__hJgt)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "The one-stop destination for buying, selling, and discovering creative technology services",
@@ -79,22 +55,12 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
         />
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__cL3Qf
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__cL3Qf)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.img___7OtsV
-              )}
+              className={classNames(projectcss.img, sty.img___7OtsV)}
             />
           ),
 

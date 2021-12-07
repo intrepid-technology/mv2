@@ -19,7 +19,6 @@ import {
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementListingEditCard.module.css"; // plasmic-import: JDi6d9hmkm/css
 import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon
@@ -52,40 +51,29 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__button]: hasVariant(variants, "button", "button"),
-          [sty.root__icon]: hasVariant(variants, "icon", "icon"),
-          [sty.root__toolTip_check]: hasVariant(variants, "toolTip", "check")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__button]: hasVariant(variants, "button", "button"),
+        [sty.root__icon]: hasVariant(variants, "icon", "icon"),
+        [sty.root__toolTip_check]: hasVariant(variants, "toolTip", "check")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"editHeadlineTitleParent"}
         data-plasmic-override={overrides.editHeadlineTitleParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.editHeadlineTitleParent,
-          {
-            [sty.editHeadlineTitleParent__toolTip_check]: hasVariant(
-              variants,
-              "toolTip",
-              "check"
-            )
-          }
-        )}
+        className={classNames(projectcss.all, sty.editHeadlineTitleParent, {
+          [sty.editHeadlineTitleParent__toolTip_check]: hasVariant(
+            variants,
+            "toolTip",
+            "check"
+          )
+        })}
       >
         <div
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
+          className={classNames(projectcss.all, sty.svgParent, {
             [sty.svgParent__icon]: hasVariant(variants, "icon", "icon"),
             [sty.svgParent__toolTip_alert]: hasVariant(
               variants,
@@ -118,11 +106,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <CircleCheckedIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__eGk9V
-                    )}
+                    className={classNames(projectcss.all, sty.svg__eGk9V)}
                     role={"img"}
                   />
                 ),
@@ -134,11 +118,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon176Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__iIye
-                    )}
+                    className={classNames(projectcss.all, sty.svg__iIye)}
                     role={"img"}
                   />
                 ),
@@ -156,11 +136,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon177Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__llKwg
-                    )}
+                    className={classNames(projectcss.all, sty.svg__llKwg)}
                     role={"img"}
                   />
                 ),
@@ -180,11 +156,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon111Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__trWqi
-                    )}
+                    className={classNames(projectcss.all, sty.svg__trWqi)}
                     role={"img"}
                   />
                 ),
@@ -197,7 +169,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+          className={classNames(projectcss.all, sty.freeBox)}
         >
           {p.renderPlasmicSlot({
             defaultContents: <TextLinkUnderlinePrimary size={"_32"} />,
@@ -209,20 +181,10 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
       <div
         data-plasmic-name={"buttonParent"}
         data-plasmic-override={overrides.buttonParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.buttonParent,
-          {
-            [sty.buttonParent__button]: hasVariant(
-              variants,
-              "button",
-              "button"
-            ),
-
-            [sty.buttonParent__icon]: hasVariant(variants, "icon", "icon")
-          }
-        )}
+        className={classNames(projectcss.all, sty.buttonParent, {
+          [sty.buttonParent__button]: hasVariant(variants, "button", "button"),
+          [sty.buttonParent__icon]: hasVariant(variants, "icon", "icon")
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: true ? (

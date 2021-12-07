@@ -19,7 +19,6 @@ import {
 import PanelButtonPrimary from "../../PanelButtonPrimary"; // plasmic-import: dNsNyn-hp9/component
 import PanelButtonSecondary from "../../PanelButtonSecondary"; // plasmic-import: cwyuvAY7ua/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonHeader.module.css"; // plasmic-import: l8x-1W9kbZ/css
 
@@ -37,12 +36,7 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <PanelButtonPrimary
         data-plasmic-name={"partnerNewListing"}

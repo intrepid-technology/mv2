@@ -18,7 +18,6 @@ import {
 import ButtonStripeConnect from "../../ButtonStripeConnect"; // plasmic-import: GkIWBCEvRU/component
 import ChipStripeLink from "../../ChipStripeLink"; // plasmic-import: TzNLRNFhlx/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonGroupStripeConnect.module.css"; // plasmic-import: d5Rau78kDe/css
 
@@ -36,12 +35,7 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <ButtonStripeConnect
         data-plasmic-name={"buttonStripeConnect"}
@@ -50,9 +44,8 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
         text={
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__ugz3J
             )}
           >
@@ -66,26 +59,17 @@ function PlasmicButtonGroupStripeConnect__RenderFunc(props) {
         data-plasmic-name={"noteLinkParent"}
         data-plasmic-override={overrides.noteLinkParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.noteLinkParent
-        )}
+        className={classNames(projectcss.all, sty.noteLinkParent)}
       >
         <div
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.descriptionParent
-          )}
+          className={classNames(projectcss.all, sty.descriptionParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text___3TJqg
             )}
           >

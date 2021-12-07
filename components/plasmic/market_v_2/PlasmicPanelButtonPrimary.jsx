@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonPrimary.module.css"; // plasmic-import: dNsNyn-hp9/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
@@ -39,24 +38,18 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__alternates_newProject]: hasVariant(
-            variants,
-            "alternates",
-            "newProject"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__alternates_newProject]: hasVariant(
+          variants,
+          "alternates",
+          "newProject"
+        )
+      })}
     >
       <p.PlasmicLink
         data-plasmic-name={"newListing"}
         data-plasmic-override={overrides.newListing}
-        className={classNames(defaultcss.a, projectcss.a, sty.newListing, {
+        className={classNames(projectcss.a, sty.newListing, {
           [sty.newListing__alternates_newProject]: hasVariant(
             variants,
             "alternates",
@@ -72,16 +65,12 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
           data-plasmic-name={"sideBarCardLink3"}
           data-plasmic-override={overrides.sideBarCardLink3}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.sideBarCardLink3
-          )}
+          className={classNames(projectcss.all, sty.sideBarCardLink3)}
         >
           <ListingIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+            className={classNames(projectcss.all, sty.svg)}
             role={"img"}
           />
 
@@ -89,9 +78,8 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text,
               {
                 [sty.text__alternates_newProject]: hasVariant(

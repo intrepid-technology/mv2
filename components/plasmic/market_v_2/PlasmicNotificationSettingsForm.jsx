@@ -24,7 +24,6 @@ import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-im
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNotificationSettingsForm.module.css"; // plasmic-import: Z8dV7lUnBe3/css
 
@@ -46,12 +45,7 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <CardHeaderTitleDisplay
         data-plasmic-name={"cardHeaderTitleDisplay"}
@@ -64,9 +58,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         slot={
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__grNtB
             )}
           >
@@ -82,11 +75,7 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         data-plasmic-name={"notificationPushEmail"}
         data-plasmic-override={overrides.notificationPushEmail}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.notificationPushEmail
-        )}
+        className={classNames(projectcss.all, sty.notificationPushEmail)}
       >
         <CardHeaderTitlePrimary
           className={classNames(
@@ -96,9 +85,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
           slot={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__buGzX
               )}
             >
@@ -117,18 +105,11 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
             sty.pushNotificationSwitchInput
           )}
           content={
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__tp9Sb
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__tp9Sb)}>
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__koKy2
                 )}
               >
@@ -137,9 +118,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__gwNlz
                 )}
               >
@@ -158,18 +138,11 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
             sty.emailNotificationSwitchInput
           )}
           content={
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__nrQmG
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__nrQmG)}>
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__obReU
                 )}
               >
@@ -178,9 +151,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__xwp9K
                 )}
               >
@@ -197,11 +169,7 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         data-plasmic-name={"notificationActivity"}
         data-plasmic-override={overrides.notificationActivity}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.notificationActivity
-        )}
+        className={classNames(projectcss.all, sty.notificationActivity)}
       >
         <CardHeaderTitlePrimary
           className={classNames(
@@ -231,11 +199,7 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         data-plasmic-name={"notificationNewsEvents"}
         data-plasmic-override={overrides.notificationNewsEvents}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.notificationNewsEvents
-        )}
+        className={classNames(projectcss.all, sty.notificationNewsEvents)}
       >
         <CardHeaderTitlePrimary
           className={classNames(
@@ -245,9 +209,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
           slot={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__mnP3L
               )}
             >
@@ -261,18 +224,11 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         <FormSwitchInput
           className={classNames("__wab_instance", sty.formSwitchInput__vpmoC)}
           content={
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___6V3Uj
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox___6V3Uj)}>
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text___3P7Ii
                 )}
               >
@@ -281,9 +237,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__flYs
                 )}
               >
@@ -297,18 +252,11 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         <FormSwitchInput
           className={classNames("__wab_instance", sty.formSwitchInput__s0CUy)}
           content={
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__diGcP
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__diGcP)}>
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__n402S
                 )}
               >
@@ -317,9 +265,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
 
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__dUqCc
                 )}
               >
@@ -334,11 +281,7 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
       <div
         data-plasmic-name={"buttonWrapper"}
         data-plasmic-override={overrides.buttonWrapper}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.buttonWrapper
-        )}
+        className={classNames(projectcss.all, sty.buttonWrapper)}
       >
         <Button
           data-plasmic-name={"notificationFormSubmitButton"}
@@ -350,9 +293,8 @@ function PlasmicNotificationSettingsForm__RenderFunc(props) {
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__wPskt
             )}
           >

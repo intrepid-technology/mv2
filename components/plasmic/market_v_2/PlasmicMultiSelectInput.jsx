@@ -20,7 +20,6 @@ import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/componen
 import MultiSelectOption from "../../MultiSelectOption"; // plasmic-import: i_xE2f64UA/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMultiSelectInput.module.css"; // plasmic-import: hjWInH_vco/css
 import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
@@ -39,30 +38,17 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"comboBoxWrapper"}
         data-plasmic-override={overrides.comboBoxWrapper}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.comboBoxWrapper
-        )}
+        className={classNames(projectcss.all, sty.comboBoxWrapper)}
       >
         <div
           data-plasmic-name={"inputContainer"}
           data-plasmic-override={overrides.inputContainer}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.inputContainer
-          )}
+          className={classNames(projectcss.all, sty.inputContainer)}
         >
           <TextInput
             data-plasmic-name={"textInput"}
@@ -73,16 +59,12 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
           <div
             data-plasmic-name={"dropdownButtonWrapper"}
             data-plasmic-override={overrides.dropdownButtonWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.dropdownButtonWrapper
-            )}
+            className={classNames(projectcss.all, sty.dropdownButtonWrapper)}
           >
             <ChevronDownBIcon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+              className={classNames(projectcss.all, sty.svg)}
               role={"img"}
             />
           </div>
@@ -93,18 +75,9 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
         <div
           data-plasmic-name={"optionGroup"}
           data-plasmic-override={overrides.optionGroup}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.optionGroup,
-            {
-              [sty.optionGroup__isOpen]: hasVariant(
-                variants,
-                "isOpen",
-                "isOpen"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.optionGroup, {
+            [sty.optionGroup__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+          })}
         >
           <MultiSelectOption
             className={classNames(
@@ -134,11 +107,7 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
         data-plasmic-name={"selectedOptionsWrapper"}
         data-plasmic-override={overrides.selectedOptionsWrapper}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.selectedOptionsWrapper
-        )}
+        className={classNames(projectcss.all, sty.selectedOptionsWrapper)}
       >
         <ChipBadgeDisplay
           className={classNames("__wab_instance", sty.chipBadgeDisplay__ehVxx)}

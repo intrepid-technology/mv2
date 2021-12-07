@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicIconStripeLogo.module.css"; // plasmic-import: tq01IF7a70/css
 import StripeWordmarkSlatesvgIcon from "./icons/PlasmicIcon__StripeWordmarkSlatesvg"; // plasmic-import: vDvy1Uh-W/icon
@@ -33,17 +32,12 @@ function PlasmicIconStripeLogo__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
           [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
           [sty.parent__size__32]: hasVariant(variants, "size", "_32")
@@ -52,7 +46,7 @@ function PlasmicIconStripeLogo__RenderFunc(props) {
         <StripeWordmarkSlatesvgIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+          className={classNames(projectcss.all, sty.svg, {
             [sty.svg__color_burple]: hasVariant(variants, "color", "burple"),
             [sty.svg__color_darkGrey]: hasVariant(
               variants,
