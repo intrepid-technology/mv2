@@ -53,7 +53,7 @@ function PlasmicBadgeSectionTitle__RenderFunc(props) {
         })}
       >
         {p.renderPlasmicSlot({
-          defaultContents: "section title",
+          defaultContents: "remote os",
           value: args.sectionTitleSlot,
           className: classNames(sty.slotTargetSectionTitleSlot, {
             [sty.slotTargetSectionTitleSlot__colors_brand]: hasVariant(
