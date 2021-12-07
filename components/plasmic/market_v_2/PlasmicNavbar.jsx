@@ -28,7 +28,7 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
 import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
 
-export const PlasmicNavbar__VariantProps = new Array("auth", "color");
+export const PlasmicNavbar__VariantProps = new Array("auth", "dark");
 
 export const PlasmicNavbar__ArgProps = new Array();
 
@@ -53,7 +53,7 @@ function PlasmicNavbar__RenderFunc(props) {
         sty.root,
         {
           [sty.root__auth]: hasVariant(variants, "auth", "auth"),
-          [sty.root__color]: hasVariant(variants, "color", "color")
+          [sty.root__dark]: hasVariant(variants, "dark", "dark")
         }
       )}
     >
@@ -105,7 +105,7 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"navbarLogo"}
             data-plasmic-override={overrides.navbarLogo}
             className={classNames("__wab_instance")}
-            light={hasVariant(variants, "color", "color") ? "light" : undefined}
+            light={hasVariant(variants, "dark", "dark") ? "light" : undefined}
           />
         ) : null}
       </p.Stack>
@@ -135,9 +135,9 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"memberButton"}
             data-plasmic-override={overrides.memberButton}
             className={classNames("__wab_instance", sty.memberButton, {
-              [sty.memberButton__color]: hasVariant(variants, "color", "color")
+              [sty.memberButton__dark]: hasVariant(variants, "dark", "dark")
             })}
-            color={hasVariant(variants, "color", "color") ? "light" : undefined}
+            color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={"/member/pricing"}
             type={"link"}
           >
@@ -148,10 +148,10 @@ function PlasmicNavbar__RenderFunc(props) {
                 defaultcss.__wab_text,
                 sty.text__uRxVz,
                 {
-                  [sty.text__color__uRxVz4SuRb]: hasVariant(
+                  [sty.text__dark__uRxVz4SuRb]: hasVariant(
                     variants,
-                    "color",
-                    "color"
+                    "dark",
+                    "dark"
                   )
                 }
               )}
@@ -164,9 +164,9 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"memberButton2"}
             data-plasmic-override={overrides.memberButton2}
             className={classNames("__wab_instance", sty.memberButton2, {
-              [sty.memberButton2__color]: hasVariant(variants, "color", "color")
+              [sty.memberButton2__dark]: hasVariant(variants, "dark", "dark")
             })}
-            color={hasVariant(variants, "color", "color") ? "light" : undefined}
+            color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={"/member/pricing"}
             type={"link"}
           >
@@ -177,10 +177,10 @@ function PlasmicNavbar__RenderFunc(props) {
                 defaultcss.__wab_text,
                 sty.text__hQevM,
                 {
-                  [sty.text__color__hQevM4SuRb]: hasVariant(
+                  [sty.text__dark__hQevM4SuRb]: hasVariant(
                     variants,
-                    "color",
-                    "color"
+                    "dark",
+                    "dark"
                   )
                 }
               )}
@@ -193,9 +193,9 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"partnerButton"}
             data-plasmic-override={overrides.partnerButton}
             className={classNames("__wab_instance", sty.partnerButton, {
-              [sty.partnerButton__color]: hasVariant(variants, "color", "color")
+              [sty.partnerButton__dark]: hasVariant(variants, "dark", "dark")
             })}
-            color={hasVariant(variants, "color", "color") ? "brand" : undefined}
+            color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
             destination={"/partner/pricing"}
             hasShadow={"hasShadow"}
             rounded={"rounded"}

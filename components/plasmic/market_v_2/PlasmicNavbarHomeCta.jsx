@@ -58,10 +58,10 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
         })}
         destination={
           hasVariant(globalVariants, "screen", "iphone678Plus")
-            ? "/home"
+            ? "/landingpage-2021"
             : hasVariant(globalVariants, "screen", "desktop")
-            ? "/home"
-            : "/home"
+            ? "/landingpage-2021"
+            : "/landingpage-2021"
         }
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />

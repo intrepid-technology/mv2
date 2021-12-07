@@ -48,7 +48,11 @@ function PlasmicLogoHeader__RenderFunc(props) {
         { [sty.logoLink__color]: hasVariant(variants, "color", "color") }
       )}
       component={Link}
-      href={hasVariant(globalVariants, "screen", "desktop") ? "/home" : "/app"}
+      href={
+        hasVariant(globalVariants, "screen", "desktop")
+          ? "/landingpage-2021"
+          : "/app"
+      }
       platform={"nextjs"}
     >
       {(hasVariant(variants, "color", "color") ? false : true)

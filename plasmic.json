@@ -1770,19 +1770,6 @@
           "componentType": "component"
         },
         {
-          "id": "i2JeAjsJVt",
-          "name": "Home",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicHome.jsx",
-          "importSpec": {
-            "modulePath": "../pages/home.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicHome.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "mrBJoW8_5Wv",
           "name": "BlockCentreA",
           "type": "managed",
@@ -3687,19 +3674,6 @@
           "componentType": "page"
         },
         {
-          "id": "0fvA7C1gRK",
-          "name": "LandingPage",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicLandingPage.jsx",
-          "importSpec": {
-            "modulePath": "../pages/index.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicLandingPage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "DWcJDlqh2G",
           "name": "Typography",
           "type": "managed",
@@ -4743,6 +4717,45 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicDialog.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "i2JeAjsJVt",
+          "name": "Landingpage2021",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicLandingpage2021.jsx",
+          "importSpec": {
+            "modulePath": "../pages/landingpage-2021.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicLandingpage2021.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "0fvA7C1gRK",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/home.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Afo7dYL8xuP",
+          "name": "LandingPageBackup",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicLandingPageBackup.jsx",
+          "importSpec": {
+            "modulePath": "../pages/landing-page-backup.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicLandingPageBackup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -6682,6 +6695,11 @@
           "id": "vhDUFn9l3",
           "name": "compliance.png",
           "filePath": "../public/plasmic/market_v_2/images/compliancepng.png"
+        },
+        {
+          "id": "LGjZ_QSvO",
+          "name": "Intrepid-Remote-OS-2022.png",
+          "filePath": "../public/plasmic/market_v_2/images/intrepidRemoteOs2022Png.png"
         }
       ],
       "codeComponents": [],

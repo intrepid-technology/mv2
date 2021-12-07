@@ -97,7 +97,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarLogo, {
                 [sty.navbarLogo__color]: hasVariant(variants, "color", "color")
               })}
-              destination={"/home"}
+              destination={"/landingpage-2021"}
             />
           </div>
         ) : null}
