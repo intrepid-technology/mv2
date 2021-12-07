@@ -27,7 +27,6 @@ import PageScrollNavigations from "../../PageScrollNavigations"; // plasmic-impo
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
@@ -56,12 +55,7 @@ function PlasmicLayout__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <Navbar
         data-plasmic-name={"navbar"}
@@ -93,7 +87,7 @@ function PlasmicLayout__RenderFunc(props) {
       <div
         data-plasmic-name={"body"}
         data-plasmic-override={overrides.body}
-        className={classNames(defaultcss.all, projectcss.all, sty.body, {
+        className={classNames(projectcss.all, sty.body, {
           [sty.body__global_layout_sidebarOpen]: hasVariant(
             globalVariants,
             "layout",
@@ -104,7 +98,7 @@ function PlasmicLayout__RenderFunc(props) {
         <div
           data-plasmic-name={"main"}
           data-plasmic-override={overrides.main}
-          className={classNames(defaultcss.all, projectcss.all, sty.main, {
+          className={classNames(projectcss.all, sty.main, {
             [sty.main__global_layout_sidebarOpen]: hasVariant(
               globalVariants,
               "layout",
@@ -115,53 +109,38 @@ function PlasmicLayout__RenderFunc(props) {
           <div
             data-plasmic-name={"navigationWrapper"}
             data-plasmic-override={overrides.navigationWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.navigationWrapper,
-              {
-                [sty.navigationWrapper__global_layout_sidebarOpen]: hasVariant(
-                  globalVariants,
-                  "layout",
-                  "sidebarOpen"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.navigationWrapper, {
+              [sty.navigationWrapper__global_layout_sidebarOpen]: hasVariant(
+                globalVariants,
+                "layout",
+                "sidebarOpen"
+              )
+            })}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"breadcrumbs"}
               data-plasmic-override={overrides.breadcrumbs}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.breadcrumbs,
-                {
-                  [sty.breadcrumbs__global_layout_sidebarOpen]: hasVariant(
-                    globalVariants,
-                    "layout",
-                    "sidebarOpen"
-                  )
-                }
-              )}
+              className={classNames(projectcss.all, sty.breadcrumbs, {
+                [sty.breadcrumbs__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              })}
             >
               <p.Stack
                 as={"div"}
                 data-plasmic-name={"breadcrumbsWrapper"}
                 data-plasmic-override={overrides.breadcrumbsWrapper}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.breadcrumbsWrapper
-                )}
+                className={classNames(projectcss.all, sty.breadcrumbsWrapper)}
               >
                 <div
                   data-plasmic-name={"navBackButtonWrapper"}
                   data-plasmic-override={overrides.navBackButtonWrapper}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.navBackButtonWrapper
                   )}
@@ -178,11 +157,7 @@ function PlasmicLayout__RenderFunc(props) {
                     <Icon43Icon
                       data-plasmic-name={"svg"}
                       data-plasmic-override={overrides.svg}
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.svg
-                      )}
+                      className={classNames(projectcss.all, sty.svg)}
                       role={"img"}
                     />
                   </Button>
@@ -208,27 +183,18 @@ function PlasmicLayout__RenderFunc(props) {
               data-plasmic-name={"tabNavigation"}
               data-plasmic-override={overrides.tabNavigation}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.tabNavigation,
-                {
-                  [sty.tabNavigation__global_layout_sidebarOpen]: hasVariant(
-                    globalVariants,
-                    "layout",
-                    "sidebarOpen"
-                  )
-                }
-              )}
+              className={classNames(projectcss.all, sty.tabNavigation, {
+                [sty.tabNavigation__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              })}
             >
               <div
                 data-plasmic-name={"tabNavigationWrapper"}
                 data-plasmic-override={overrides.tabNavigationWrapper}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.tabNavigationWrapper
-                )}
+                className={classNames(projectcss.all, sty.tabNavigationWrapper)}
               >
                 {p.renderPlasmicSlot({
                   defaultContents: (
@@ -266,20 +232,12 @@ function PlasmicLayout__RenderFunc(props) {
           <div
             data-plasmic-name={"scrollNavigationWrapper"}
             data-plasmic-override={overrides.scrollNavigationWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.scrollNavigationWrapper
-            )}
+            className={classNames(projectcss.all, sty.scrollNavigationWrapper)}
           >
             <div
               data-plasmic-name={"scrollNavigation"}
               data-plasmic-override={overrides.scrollNavigation}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.scrollNavigation
-              )}
+              className={classNames(projectcss.all, sty.scrollNavigation)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: (
@@ -318,55 +276,35 @@ function PlasmicLayout__RenderFunc(props) {
             data-plasmic-name={"mainContentWrapper"}
             data-plasmic-override={overrides.mainContentWrapper}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.mainContentWrapper,
-              {
-                [sty.mainContentWrapper__global_layout_sidebarOpen]: hasVariant(
-                  globalVariants,
-                  "layout",
-                  "sidebarOpen"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.mainContentWrapper, {
+              [sty.mainContentWrapper__global_layout_sidebarOpen]: hasVariant(
+                globalVariants,
+                "layout",
+                "sidebarOpen"
+              )
+            })}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"bodyHeader"}
               data-plasmic-override={overrides.bodyHeader}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.bodyHeader,
-                {
-                  [sty.bodyHeader__global_layout_sidebarOpen]: hasVariant(
-                    globalVariants,
-                    "layout",
-                    "sidebarOpen"
-                  )
-                }
-              )}
+              className={classNames(projectcss.all, sty.bodyHeader, {
+                [sty.bodyHeader__global_layout_sidebarOpen]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "sidebarOpen"
+                )
+              })}
             >
               <p.Stack
                 as={"div"}
                 data-plasmic-name={"headerDisplayWrapper"}
                 data-plasmic-override={overrides.headerDisplayWrapper}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.headerDisplayWrapper
-                )}
+                className={classNames(projectcss.all, sty.headerDisplayWrapper)}
               >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__zSxNn
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__zSxNn)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "Page Title",
                     value: args.pageHeading,
@@ -374,13 +312,7 @@ function PlasmicLayout__RenderFunc(props) {
                   })}
                 </div>
 
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__oKver
-                  )}
-                >
+                <div className={classNames(projectcss.all, sty.freeBox__oKver)}>
                   {p.renderPlasmicSlot({
                     defaultContents: "Page Heading",
                     value: args.pageSubHeading,
@@ -389,11 +321,7 @@ function PlasmicLayout__RenderFunc(props) {
                 </div>
 
                 <div
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox___6ECGn
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox___6ECGn)}
                 >
                   {p.renderPlasmicSlot({
                     defaultContents: "Page Description",

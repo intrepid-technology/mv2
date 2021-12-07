@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import InputCounter from "../../InputCounter"; // plasmic-import: e0M1tqOpmZ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputCheckoutItem.module.css"; // plasmic-import: HtA78mOD-bC/css
 
@@ -43,41 +42,26 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(hasVariant(variants, "headline", "headline") ? false : true) ? (
         <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__eGohH,
-            {
-              [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
+          className={classNames(projectcss.all, sty.freeBox__eGohH, {
+            [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
+              variants,
+              "headline",
+              "headline"
+            )
+          })}
+        >
+          <div
+            className={classNames(projectcss.all, sty.freeBox__wc9Ah, {
+              [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
                 variants,
                 "headline",
                 "headline"
               )
-            }
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__wc9Ah,
-              {
-                [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
-                  variants,
-                  "headline",
-                  "headline"
-                )
-              }
-            )}
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Headline",
@@ -91,35 +75,15 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___8XZXg
-        )}
+        className={classNames(projectcss.all, sty.freeBox___8XZXg)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__tsYuX
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__tsYuX)}>
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__i32Ns
-            )}
+            className={classNames(projectcss.all, sty.freeBox__i32Ns)}
           >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__tbgRc
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox__tbgRc)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Item",
                 value: args.slot,
@@ -137,18 +101,13 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lfmpq,
-              {
-                [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
-                  variants,
-                  "description",
-                  "description"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lfmpq, {
+              [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
+                variants,
+                "description",
+                "description"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicChipBadgeDisplay.module.css"; // plasmic-import: 9_NbJKBtbu/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -51,7 +50,6 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.all,
         projectcss.all,
         projectcss.root_reset,
         sty.chipDisplay,
@@ -145,7 +143,7 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"chipDisplayLink"}
         data-plasmic-override={overrides.chipDisplayLink}
-        className={classNames(defaultcss.a, projectcss.a, sty.chipDisplayLink, {
+        className={classNames(projectcss.a, sty.chipDisplayLink, {
           [sty.chipDisplayLink__trigger_add]: hasVariant(
             variants,
             "trigger",
@@ -277,33 +275,28 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"addTrigger"}
           data-plasmic-override={overrides.addTrigger}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.addTrigger,
-            {
-              [sty.addTrigger__color_light_trigger_add]:
-                hasVariant(variants, "color", "light") &&
-                hasVariant(variants, "trigger", "add"),
-              [sty.addTrigger__trigger__delete]: hasVariant(
-                variants,
-                "trigger",
-                "_delete"
-              ),
+          className={classNames(projectcss.button, sty.addTrigger, {
+            [sty.addTrigger__color_light_trigger_add]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "trigger", "add"),
+            [sty.addTrigger__trigger__delete]: hasVariant(
+              variants,
+              "trigger",
+              "_delete"
+            ),
 
-              [sty.addTrigger__trigger_add]: hasVariant(
-                variants,
-                "trigger",
-                "add"
-              ),
+            [sty.addTrigger__trigger_add]: hasVariant(
+              variants,
+              "trigger",
+              "add"
+            ),
 
-              [sty.addTrigger__trigger_disabled]: hasVariant(
-                variants,
-                "trigger",
-                "disabled"
-              )
-            }
-          )}
+            [sty.addTrigger__trigger_disabled]: hasVariant(
+              variants,
+              "trigger",
+              "disabled"
+            )
+          })}
         >
           {(
             hasVariant(variants, "color", "light") &&
@@ -314,11 +307,7 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <PlusBoldIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg___96Pbv
-                    )}
+                    className={classNames(projectcss.all, sty.svg___96Pbv)}
                     role={"img"}
                   />
                 ),
@@ -335,11 +324,7 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             ? p.renderPlasmicSlot({
                 defaultContents: (
                   <Icon114Icon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__nFwvm
-                    )}
+                    className={classNames(projectcss.all, sty.svg__nFwvm)}
                     role={"img"}
                   />
                 ),
@@ -359,44 +344,35 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"deleteTrigger"}
           data-plasmic-override={overrides.deleteTrigger}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.deleteTrigger,
-            {
-              [sty.deleteTrigger__trigger__delete]: hasVariant(
-                variants,
-                "trigger",
-                "_delete"
-              ),
+          className={classNames(projectcss.button, sty.deleteTrigger, {
+            [sty.deleteTrigger__trigger__delete]: hasVariant(
+              variants,
+              "trigger",
+              "_delete"
+            ),
 
-              [sty.deleteTrigger__trigger_add]: hasVariant(
-                variants,
-                "trigger",
-                "add"
-              ),
+            [sty.deleteTrigger__trigger_add]: hasVariant(
+              variants,
+              "trigger",
+              "add"
+            ),
 
-              [sty.deleteTrigger__trigger_disabled]: hasVariant(
-                variants,
-                "trigger",
-                "disabled"
-              ),
+            [sty.deleteTrigger__trigger_disabled]: hasVariant(
+              variants,
+              "trigger",
+              "disabled"
+            ),
 
-              [sty.deleteTrigger__type_ghost_color_brand_trigger__delete]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "brand") &&
-                hasVariant(variants, "trigger", "_delete")
-            }
-          )}
+            [sty.deleteTrigger__type_ghost_color_brand_trigger__delete]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "brand") &&
+              hasVariant(variants, "trigger", "_delete")
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
               <Icon170Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__jasxS
-                )}
+                className={classNames(projectcss.all, sty.svg__jasxS)}
                 role={"img"}
               />
             ),
@@ -424,20 +400,15 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"button"}
           data-plasmic-override={overrides.button}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.button,
-            {
-              [sty.button__trigger_add]: hasVariant(variants, "trigger", "add")
-            }
-          )}
+          className={classNames(projectcss.button, sty.button, {
+            [sty.button__trigger_add]: hasVariant(variants, "trigger", "add")
+          })}
         >
           {false ? (
             <svg
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+              className={classNames(projectcss.all, sty.svg, {
                 [sty.svg__trigger__delete]: hasVariant(
                   variants,
                   "trigger",

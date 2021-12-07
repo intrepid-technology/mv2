@@ -39,6 +39,12 @@ export const PAGE_LAYOUT_PROPS = {
     '/': {
         noLayout: true,
     },
+    '/landingpage-2021': {
+        noLayout: true,
+    },
+    '/landing-page-backup': {
+        noLayout: true,
+    },
     '/edit/member': {
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],
         breadcrumbs: PAGE_BREADCRUMBS[PAGE_TAB_NAVIGATION_KEY.EDIT_MEMBER],

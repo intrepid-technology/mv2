@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTagAward.module.css"; // plasmic-import: FRNfGE_ayy/css
 import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
@@ -35,21 +34,12 @@ function PlasmicTagAward__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"textDivParent"}
         data-plasmic-override={overrides.textDivParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.textDivParent
-        )}
+        className={classNames(projectcss.all, sty.textDivParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Award",
@@ -61,20 +51,12 @@ function PlasmicTagAward__RenderFunc(props) {
       <div
         data-plasmic-name={"iconDivparent"}
         data-plasmic-override={overrides.iconDivparent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.iconDivparent
-        )}
+        className={classNames(projectcss.all, sty.iconDivparent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon52Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__zj3Xk
-              )}
+              className={classNames(projectcss.all, sty.svg__zj3Xk)}
               role={"img"}
             />
           ),

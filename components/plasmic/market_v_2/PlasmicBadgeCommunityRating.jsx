@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicBadgeCommunityRating.module.css"; // plasmic-import: 0Y8M1lpCIf/css
 import SuperpowerIcon from "./icons/PlasmicIcon__Superpower"; // plasmic-import: ntMd1ebAoa/icon
@@ -37,40 +36,26 @@ function PlasmicBadgeCommunityRating__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent)}
     >
       <SuperpowerIcon
         data-plasmic-name={"superpowerIcon"}
         data-plasmic-override={overrides.superpowerIcon}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.superpowerIcon
-        )}
+        className={classNames(projectcss.all, sty.superpowerIcon)}
         role={"img"}
       />
 
       <div
         data-plasmic-name={"overallMemberRatingNumber"}
         data-plasmic-override={overrides.overallMemberRatingNumber}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.overallMemberRatingNumber
-        )}
+        className={classNames(projectcss.all, sty.overallMemberRatingNumber)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__xcZnF
               )}
             >

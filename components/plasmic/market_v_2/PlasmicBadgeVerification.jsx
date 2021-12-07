@@ -19,7 +19,6 @@ import {
 } from "@plasmicapp/react-web";
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicBadgeVerification.module.css"; // plasmic-import: _M5uzrbjQp/css
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
@@ -40,12 +39,7 @@ function PlasmicBadgeVerification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
         <p.Stack
@@ -53,13 +47,13 @@ function PlasmicBadgeVerification__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+          className={classNames(projectcss.all, sty.parent)}
         >
           {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <Icon129Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+              className={classNames(projectcss.all, sty.svg)}
               role={"img"}
             />
           ) : null}
@@ -68,9 +62,8 @@ function PlasmicBadgeVerification__RenderFunc(props) {
               data-plasmic-name={"text"}
               data-plasmic-override={overrides.text}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text
               )}
             >

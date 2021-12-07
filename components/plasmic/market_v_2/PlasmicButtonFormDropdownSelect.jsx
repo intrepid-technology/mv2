@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonFormDropdownSelect.module.css"; // plasmic-import: s2oJmDwLX-/css
 import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
@@ -45,33 +44,27 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__description]: hasVariant(
-            variants,
-            "description",
-            "description"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__description]: hasVariant(
+          variants,
+          "description",
+          "description"
+        ),
 
-          [sty.root__label]: hasVariant(variants, "label", "label"),
-          [sty.root__size__180X32]: hasVariant(variants, "size", "_180X32"),
-          [sty.root__size__270X32]: hasVariant(variants, "size", "_270X32"),
-          [sty.root__size__360X40]: hasVariant(variants, "size", "_360X40"),
-          [sty.root__size__540X40]: hasVariant(variants, "size", "_540X40"),
-          [sty.root__size__90X24]: hasVariant(variants, "size", "_90X24")
-        }
-      )}
+        [sty.root__label]: hasVariant(variants, "label", "label"),
+        [sty.root__size__180X32]: hasVariant(variants, "size", "_180X32"),
+        [sty.root__size__270X32]: hasVariant(variants, "size", "_270X32"),
+        [sty.root__size__360X40]: hasVariant(variants, "size", "_360X40"),
+        [sty.root__size__540X40]: hasVariant(variants, "size", "_540X40"),
+        [sty.root__size__90X24]: hasVariant(variants, "size", "_90X24")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__description]: hasVariant(
             variants,
             "description",
@@ -94,54 +87,49 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
       >
         {(hasVariant(variants, "label", "label") ? false : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___5LVp,
-              {
-                [sty.freeBox__label___5LVpq0Opk]: hasVariant(
-                  variants,
-                  "label",
-                  "label"
-                ),
+            className={classNames(projectcss.all, sty.freeBox___5LVp, {
+              [sty.freeBox__label___5LVpq0Opk]: hasVariant(
+                variants,
+                "label",
+                "label"
+              ),
 
-                [sty.freeBox__size__180X32___5LVptzr60]: hasVariant(
-                  variants,
-                  "size",
-                  "_180X32"
-                ),
+              [sty.freeBox__size__180X32___5LVptzr60]: hasVariant(
+                variants,
+                "size",
+                "_180X32"
+              ),
 
-                [sty.freeBox__size__180X36___5LVpsIiyw]: hasVariant(
-                  variants,
-                  "size",
-                  "_180X36"
-                ),
+              [sty.freeBox__size__180X36___5LVpsIiyw]: hasVariant(
+                variants,
+                "size",
+                "_180X36"
+              ),
 
-                [sty.freeBox__size__360X36___5LVpf9Iun]: hasVariant(
-                  variants,
-                  "size",
-                  "_360X36"
-                ),
+              [sty.freeBox__size__360X36___5LVpf9Iun]: hasVariant(
+                variants,
+                "size",
+                "_360X36"
+              ),
 
-                [sty.freeBox__size__360X40___5LVpFjGN]: hasVariant(
-                  variants,
-                  "size",
-                  "_360X40"
-                ),
+              [sty.freeBox__size__360X40___5LVpFjGN]: hasVariant(
+                variants,
+                "size",
+                "_360X40"
+              ),
 
-                [sty.freeBox__size__540X36___5LVpdTbb5]: hasVariant(
-                  variants,
-                  "size",
-                  "_540X36"
-                ),
+              [sty.freeBox__size__540X36___5LVpdTbb5]: hasVariant(
+                variants,
+                "size",
+                "_540X36"
+              ),
 
-                [sty.freeBox__size__540X40___5LVp8Ui2H]: hasVariant(
-                  variants,
-                  "size",
-                  "_540X40"
-                )
-              }
-            )}
+              [sty.freeBox__size__540X40___5LVp8Ui2H]: hasVariant(
+                variants,
+                "size",
+                "_540X40"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Label",
@@ -204,96 +192,81 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
           data-plasmic-name={"buttonDropDown"}
           data-plasmic-override={overrides.buttonDropDown}
           hasGap={true}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.buttonDropDown,
-            {
-              [sty.buttonDropDown__size__180X32]: hasVariant(
-                variants,
-                "size",
-                "_180X32"
-              ),
+          className={classNames(projectcss.button, sty.buttonDropDown, {
+            [sty.buttonDropDown__size__180X32]: hasVariant(
+              variants,
+              "size",
+              "_180X32"
+            ),
 
-              [sty.buttonDropDown__size__180X36]: hasVariant(
-                variants,
-                "size",
-                "_180X36"
-              ),
+            [sty.buttonDropDown__size__180X36]: hasVariant(
+              variants,
+              "size",
+              "_180X36"
+            ),
 
-              [sty.buttonDropDown__size__270X32]: hasVariant(
-                variants,
-                "size",
-                "_270X32"
-              ),
+            [sty.buttonDropDown__size__270X32]: hasVariant(
+              variants,
+              "size",
+              "_270X32"
+            ),
 
-              [sty.buttonDropDown__size__270X36]: hasVariant(
-                variants,
-                "size",
-                "_270X36"
-              ),
+            [sty.buttonDropDown__size__270X36]: hasVariant(
+              variants,
+              "size",
+              "_270X36"
+            ),
 
-              [sty.buttonDropDown__size__360X36]: hasVariant(
-                variants,
-                "size",
-                "_360X36"
-              ),
+            [sty.buttonDropDown__size__360X36]: hasVariant(
+              variants,
+              "size",
+              "_360X36"
+            ),
 
-              [sty.buttonDropDown__size__360X40]: hasVariant(
-                variants,
-                "size",
-                "_360X40"
-              ),
+            [sty.buttonDropDown__size__360X40]: hasVariant(
+              variants,
+              "size",
+              "_360X40"
+            ),
 
-              [sty.buttonDropDown__size__540X36]: hasVariant(
-                variants,
-                "size",
-                "_540X36"
-              ),
+            [sty.buttonDropDown__size__540X36]: hasVariant(
+              variants,
+              "size",
+              "_540X36"
+            ),
 
-              [sty.buttonDropDown__size__540X40]: hasVariant(
-                variants,
-                "size",
-                "_540X40"
-              ),
+            [sty.buttonDropDown__size__540X40]: hasVariant(
+              variants,
+              "size",
+              "_540X40"
+            ),
 
-              [sty.buttonDropDown__size__90X24]: hasVariant(
-                variants,
-                "size",
-                "_90X24"
-              ),
+            [sty.buttonDropDown__size__90X24]: hasVariant(
+              variants,
+              "size",
+              "_90X24"
+            ),
 
-              [sty.buttonDropDown__size__90X32]: hasVariant(
-                variants,
-                "size",
-                "_90X32"
-              ),
+            [sty.buttonDropDown__size__90X32]: hasVariant(
+              variants,
+              "size",
+              "_90X32"
+            ),
 
-              [sty.buttonDropDown__size__90X36]: hasVariant(
-                variants,
-                "size",
-                "_90X36"
-              )
-            }
-          )}
+            [sty.buttonDropDown__size__90X36]: hasVariant(
+              variants,
+              "size",
+              "_90X36"
+            )
+          })}
         >
           {true ? (
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___3XOp
-              )}
-            >
+            <div className={classNames(projectcss.all, sty.freeBox___3XOp)}>
               {true
                 ? p.renderPlasmicSlot({
                     defaultContents: (
                       <svg
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__klQbu
-                        )}
+                        className={classNames(projectcss.all, sty.svg__klQbu)}
                         role={"img"}
                       />
                     ),
@@ -354,40 +327,31 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
           <div
             data-plasmic-name={"iconParent"}
             data-plasmic-override={overrides.iconParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.iconParent,
-              {
-                [sty.iconParent__size__90X24]: hasVariant(
-                  variants,
-                  "size",
-                  "_90X24"
-                ),
+            className={classNames(projectcss.all, sty.iconParent, {
+              [sty.iconParent__size__90X24]: hasVariant(
+                variants,
+                "size",
+                "_90X24"
+              ),
 
-                [sty.iconParent__size__90X32]: hasVariant(
-                  variants,
-                  "size",
-                  "_90X32"
-                ),
+              [sty.iconParent__size__90X32]: hasVariant(
+                variants,
+                "size",
+                "_90X32"
+              ),
 
-                [sty.iconParent__size__90X36]: hasVariant(
-                  variants,
-                  "size",
-                  "_90X36"
-                )
-              }
-            )}
+              [sty.iconParent__size__90X36]: hasVariant(
+                variants,
+                "size",
+                "_90X36"
+              )
+            })}
           >
             {(hasVariant(variants, "size", "_90X24") ? false : true)
               ? p.renderPlasmicSlot({
                   defaultContents: (
                     <Icon96Icon
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.svg__we6N
-                      )}
+                      className={classNames(projectcss.all, sty.svg__we6N)}
                       role={"img"}
                     />
                   ),
@@ -412,11 +376,7 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
               ? p.renderPlasmicSlot({
                   defaultContents: (
                     <Icon96Icon
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.svg__oJsqq
-                      )}
+                      className={classNames(projectcss.all, sty.svg__oJsqq)}
                       role={"img"}
                     />
                   ),
@@ -442,24 +402,19 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
 
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ub9Ml,
-              {
-                [sty.freeBox__description__ub9MLsra3J]: hasVariant(
-                  variants,
-                  "description",
-                  "description"
-                ),
+            className={classNames(projectcss.all, sty.freeBox__ub9Ml, {
+              [sty.freeBox__description__ub9MLsra3J]: hasVariant(
+                variants,
+                "description",
+                "description"
+              ),
 
-                [sty.freeBox__size__360X40__ub9MlFjGN]: hasVariant(
-                  variants,
-                  "size",
-                  "_360X40"
-                )
-              }
-            )}
+              [sty.freeBox__size__360X40__ub9MlFjGN]: hasVariant(
+                variants,
+                "size",
+                "_360X40"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Description",

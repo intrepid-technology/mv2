@@ -19,7 +19,6 @@ import TextLocation from "../../TextLocation"; // plasmic-import: O1CbetC3Kf/com
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardCompanyFeature.module.css"; // plasmic-import: AOOy6Qouul/css
 
@@ -40,29 +39,14 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__bnyId
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__bnyId)}>
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.img__ujhJo
-              )}
+              className={classNames(projectcss.img, sty.img__ujhJo)}
             />
           ),
 
@@ -73,26 +57,10 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__c4Vbs
-        )}
+        className={classNames(projectcss.all, sty.freeBox__c4Vbs)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__tiR07
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ip4Zv
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__tiR07)}>
+          <div className={classNames(projectcss.all, sty.freeBox__ip4Zv)}>
             {p.renderPlasmicSlot({
               defaultContents: "Company Name",
               value: args.children,
@@ -101,20 +69,8 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__aErxH
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ekYil
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__aErxH)}>
+          <div className={classNames(projectcss.all, sty.freeBox__ekYil)}>
             {p.renderPlasmicSlot({
               defaultContents: (
                 <TextLocation
@@ -131,20 +87,8 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           </div>
         </div>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__nw1AZ
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ud2Ok
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__nw1AZ)}>
+          <div className={classNames(projectcss.all, sty.freeBox__ud2Ok)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "Company Description - the tagline that describes them",

@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputFormCardBasic.module.css"; // plasmic-import: IF5nud1uvm2/css
 
@@ -42,17 +41,12 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__border]: hasVariant(variants, "border", "border")
         })}
       >
@@ -61,38 +55,21 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-name={"headlineCard"}
           data-plasmic-override={overrides.headlineCard}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headlineCard,
-            {
-              [sty.headlineCard__border]: hasVariant(
-                variants,
-                "border",
-                "border"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.headlineCard, {
+            [sty.headlineCard__border]: hasVariant(variants, "border", "border")
+          })}
         >
           <p.Stack
             as={"div"}
             data-plasmic-name={"headlineSubheadParent"}
             data-plasmic-override={overrides.headlineSubheadParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.headlineSubheadParent
-            )}
+            className={classNames(projectcss.all, sty.headlineSubheadParent)}
           >
             <div
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.headline
-              )}
+              className={classNames(projectcss.all, sty.headline)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Headline",
@@ -104,11 +81,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
             <div
               data-plasmic-name={"subheadParent"}
               data-plasmic-override={overrides.subheadParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.subheadParent
-              )}
+              className={classNames(projectcss.all, sty.subheadParent)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Sub head",
@@ -124,28 +97,19 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-name={"descriptionCard"}
           data-plasmic-override={overrides.descriptionCard}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.descriptionCard,
-            {
-              [sty.descriptionCard__description]: hasVariant(
-                variants,
-                "description",
-                "description"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.descriptionCard, {
+            [sty.descriptionCard__description]: hasVariant(
+              variants,
+              "description",
+              "description"
+            )
+          })}
         >
           {true ? (
             <div
               data-plasmic-name={"descriptionParent"}
               data-plasmic-override={overrides.descriptionParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.descriptionParent
-              )}
+              className={classNames(projectcss.all, sty.descriptionParent)}
             >
               {(
                 hasVariant(variants, "description", "description")

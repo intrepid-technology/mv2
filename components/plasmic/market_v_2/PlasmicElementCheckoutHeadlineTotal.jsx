@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementCheckoutHeadlineTotal.module.css"; // plasmic-import: YO302UKdvF/css
 
@@ -35,29 +34,14 @@ function PlasmicElementCheckoutHeadlineTotal__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__p9DDy
-        )}
+        className={classNames(projectcss.all, sty.freeBox__p9DDy)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__gMrSa
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__gMrSa)}>
           {p.renderPlasmicSlot({
             defaultContents: "Sub Total",
             value: args.children,
@@ -71,28 +55,19 @@ function PlasmicElementCheckoutHeadlineTotal__RenderFunc(props) {
         data-plasmic-name={"totalCurrencyNumberValue"}
         data-plasmic-override={overrides.totalCurrencyNumberValue}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.totalCurrencyNumberValue
-        )}
+        className={classNames(projectcss.all, sty.totalCurrencyNumberValue)}
       >
         <div
           data-plasmic-name={"currencyParent"}
           data-plasmic-override={overrides.currencyParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.currencyParent
-          )}
+          className={classNames(projectcss.all, sty.currencyParent)}
         >
           <div
             data-plasmic-name={"currencyText"}
             data-plasmic-override={overrides.currencyText}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.currencyText
             )}
           >
@@ -103,20 +78,12 @@ function PlasmicElementCheckoutHeadlineTotal__RenderFunc(props) {
         <div
           data-plasmic-name={"subtotalParent"}
           data-plasmic-override={overrides.subtotalParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.subtotalParent
-          )}
+          className={classNames(projectcss.all, sty.subtotalParent)}
         >
           <div
             data-plasmic-name={"totalValueNumberParent"}
             data-plasmic-override={overrides.totalValueNumberParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.totalValueNumberParent
-            )}
+            className={classNames(projectcss.all, sty.totalValueNumberParent)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "0.00",

@@ -20,7 +20,6 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import MarketUserProfile from "../../MarketUserProfile"; // plasmic-import: Kq0Npq6HpD/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMarket.module.css"; // plasmic-import: CqX-cwjNXm/css
 
@@ -42,14 +41,13 @@ function PlasmicMarket__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -58,11 +56,7 @@ function PlasmicMarket__RenderFunc(props) {
           <div
             data-plasmic-name={"sectionMarketHeadline"}
             data-plasmic-override={overrides.sectionMarketHeadline}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.sectionMarketHeadline
-            )}
+            className={classNames(projectcss.all, sty.sectionMarketHeadline)}
           >
             <CardHeaderTitleDisplay
               className={classNames(
@@ -85,7 +79,6 @@ function PlasmicMarket__RenderFunc(props) {
             data-plasmic-override={overrides.sectionNewServiceListings}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.sectionNewServiceListings
             )}
@@ -99,9 +92,8 @@ function PlasmicMarket__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__o0Huz
                   )}
                 >
@@ -111,9 +103,8 @@ function PlasmicMarket__RenderFunc(props) {
               textSubhead={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__wxNnk
                   )}
                 >
@@ -125,11 +116,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__x52DM
-              )}
+              className={classNames(projectcss.all, sty.freeBox__x52DM)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -140,9 +127,8 @@ function PlasmicMarket__RenderFunc(props) {
                 textSubhead={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___8Qeyr
                     )}
                   >
@@ -154,11 +140,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__peEx
-                )}
+                className={classNames(projectcss.all, sty.freeBox__peEx)}
               >
                 <MarketUserProfile
                   data-plasmic-name={"marketUserProfile"}
@@ -178,7 +160,6 @@ function PlasmicMarket__RenderFunc(props) {
             data-plasmic-override={overrides.sectionServiceCollections}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.sectionServiceCollections
             )}
@@ -186,11 +167,7 @@ function PlasmicMarket__RenderFunc(props) {
             <p.Stack
               as={"div"}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__w5Mqp
-              )}
+              className={classNames(projectcss.all, sty.freeBox__w5Mqp)}
             >
               <CardHeaderTitleDisplay
                 className={classNames(
@@ -201,9 +178,8 @@ function PlasmicMarket__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__aC4Uc
                     )}
                   >
@@ -213,9 +189,8 @@ function PlasmicMarket__RenderFunc(props) {
                 textSubhead={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__fGgzj
                     )}
                   >
@@ -229,11 +204,7 @@ function PlasmicMarket__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox___9OZlj
-                )}
+                className={classNames(projectcss.all, sty.freeBox___9OZlj)}
               >
                 <CardServiceDisplay
                   data-plasmic-name={"cardServiceDisplay"}

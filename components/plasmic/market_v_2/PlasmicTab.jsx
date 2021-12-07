@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTab.module.css"; // plasmic-import: tCiyOEgIeVL/css
 
@@ -38,22 +37,16 @@ function PlasmicTab__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
-          [sty.root__color_light]: hasVariant(variants, "color", "light"),
-          [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
-          [sty.root__state_selected]: hasVariant(variants, "state", "selected"),
-          [sty.root__state_selected_activeBorder_left]:
-            hasVariant(variants, "state", "selected") &&
-            hasVariant(variants, "activeBorder", "left")
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
+        [sty.root__color_light]: hasVariant(variants, "color", "light"),
+        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
+        [sty.root__state_selected]: hasVariant(variants, "state", "selected"),
+        [sty.root__state_selected_activeBorder_left]:
+          hasVariant(variants, "state", "selected") &&
+          hasVariant(variants, "activeBorder", "left")
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -61,7 +54,7 @@ function PlasmicTab__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__color_brand]: hasVariant(variants, "color", "brand"),
           [sty.parent__color_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.parent__color_light]: hasVariant(variants, "color", "light"),
@@ -79,21 +72,16 @@ function PlasmicTab__RenderFunc(props) {
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.textParent,
-            {
-              [sty.textParent__state_selected_activeBorder_left]:
-                hasVariant(variants, "state", "selected") &&
-                hasVariant(variants, "activeBorder", "left")
-            }
-          )}
+          className={classNames(projectcss.all, sty.textParent, {
+            [sty.textParent__state_selected_activeBorder_left]:
+              hasVariant(variants, "state", "selected") &&
+              hasVariant(variants, "activeBorder", "left")
+          })}
         >
           <div
             data-plasmic-name={"textBg"}
             data-plasmic-override={overrides.textBg}
-            className={classNames(defaultcss.all, projectcss.all, sty.textBg, {
+            className={classNames(projectcss.all, sty.textBg, {
               [sty.textBg__color_light]: hasVariant(variants, "color", "light")
             })}
           >

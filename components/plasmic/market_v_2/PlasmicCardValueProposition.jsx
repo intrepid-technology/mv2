@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardValueProposition.module.css"; // plasmic-import: oaNvs68b2k/css
 import Icon114Icon from "./icons/PlasmicIcon__Icon114"; // plasmic-import: 4sI0jLkpS-/icon
@@ -43,27 +42,21 @@ function PlasmicCardValueProposition__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__background_bgLightB]: hasVariant(
-            variants,
-            "background",
-            "bgLightB"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__background_bgLightB]: hasVariant(
+          variants,
+          "background",
+          "bgLightB"
+        ),
 
-          [sty.root__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270")
-        }
-      )}
+        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270")
+      })}
     >
       <div
         data-plasmic-name={"svgParentBg"}
         data-plasmic-override={overrides.svgParentBg}
-        className={classNames(defaultcss.all, projectcss.all, sty.svgParentBg, {
+        className={classNames(projectcss.all, sty.svgParentBg, {
           [sty.svgParentBg__size__160]: hasVariant(variants, "size", "_160"),
           [sty.svgParentBg__size__270]: hasVariant(variants, "size", "_270")
         })}
@@ -71,11 +64,7 @@ function PlasmicCardValueProposition__RenderFunc(props) {
         {p.renderPlasmicSlot({
           defaultContents: (
             <Icon114Icon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__upruU
-              )}
+              className={classNames(projectcss.all, sty.svg__upruU)}
               role={"img"}
             />
           ),
@@ -89,23 +78,18 @@ function PlasmicCardValueProposition__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <div
           data-plasmic-name={"headlineTextParent"}
           data-plasmic-override={overrides.headlineTextParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.headlineTextParent,
-            {
-              [sty.headlineTextParent__size__160]: hasVariant(
-                variants,
-                "size",
-                "_160"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.headlineTextParent, {
+            [sty.headlineTextParent__size__160]: hasVariant(
+              variants,
+              "size",
+              "_160"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Headline value proposition",
@@ -129,18 +113,13 @@ function PlasmicCardValueProposition__RenderFunc(props) {
         <div
           data-plasmic-name={"textBodyParent"}
           data-plasmic-override={overrides.textBodyParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.textBodyParent,
-            {
-              [sty.textBodyParent__size__160]: hasVariant(
-                variants,
-                "size",
-                "_160"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.textBodyParent, {
+            [sty.textBodyParent__size__160]: hasVariant(
+              variants,
+              "size",
+              "_160"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents:

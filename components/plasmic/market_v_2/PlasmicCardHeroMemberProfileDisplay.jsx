@@ -27,7 +27,6 @@ import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dG
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardHeroMemberProfileDisplay.module.css"; // plasmic-import: YUvGYQ5tJXz/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
@@ -52,19 +51,14 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__userState_loggedIn]: hasVariant(
             variants,
             "userState",
@@ -77,11 +71,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           data-plasmic-name={"userProfileHeadline"}
           data-plasmic-override={overrides.userProfileHeadline}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.userProfileHeadline
-          )}
+          className={classNames(projectcss.all, sty.userProfileHeadline)}
         >
           <UserAvatar
             data-plasmic-name={"userAvatar"}
@@ -91,11 +81,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar80"}
                 data-plasmic-override={overrides.navUserAvatar80}
                 alt={""}
-                className={classNames(
-                  defaultcss.img,
-                  projectcss.img,
-                  sty.navUserAvatar80
-                )}
+                className={classNames(projectcss.img, sty.navUserAvatar80)}
                 src={
                   "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
                 }
@@ -114,37 +100,24 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             data-plasmic-name={"userDetailParent"}
             data-plasmic-override={overrides.userDetailParent}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.userDetailParent
-            )}
+            className={classNames(projectcss.all, sty.userDetailParent)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"userFirstLastName"}
               data-plasmic-override={overrides.userFirstLastName}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.userFirstLastName
-              )}
+              className={classNames(projectcss.all, sty.userFirstLastName)}
             >
               <div
                 data-plasmic-name={"firstNameParent"}
                 data-plasmic-override={overrides.firstNameParent}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.firstNameParent
-                )}
+                className={classNames(projectcss.all, sty.firstNameParent)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__a2Y3
                   )}
                 >
@@ -155,17 +128,12 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               <div
                 data-plasmic-name={"lastNameParent"}
                 data-plasmic-override={overrides.lastNameParent}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.lastNameParent
-                )}
+                className={classNames(projectcss.all, sty.lastNameParent)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__mD7Z
                   )}
                 >
@@ -180,26 +148,17 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                 data-plasmic-name={"displayNameParent2"}
                 data-plasmic-override={overrides.displayNameParent2}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.displayNameParent2
-                )}
+                className={classNames(projectcss.all, sty.displayNameParent2)}
               >
                 <div
                   data-plasmic-name={"atSignParent"}
                   data-plasmic-override={overrides.atSignParent}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.atSignParent
-                  )}
+                  className={classNames(projectcss.all, sty.atSignParent)}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__men51
                     )}
                   >
@@ -211,16 +170,14 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   data-plasmic-name={"displayNameheadlineParent"}
                   data-plasmic-override={overrides.displayNameheadlineParent}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.displayNameheadlineParent
                   )}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___9Y1Y0
                     )}
                   >
@@ -235,11 +192,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               data-plasmic-name={"companyStatsParent"}
               data-plasmic-override={overrides.companyStatsParent}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.companyStatsParent
-              )}
+              className={classNames(projectcss.all, sty.companyStatsParent)}
             >
               <TagPartnerA
                 data-plasmic-name={"memberStatus2"}
@@ -266,7 +219,6 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   data-plasmic-override={overrides.teamAvatarGroupParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.teamAvatarGroupParent
                   )}
@@ -297,11 +249,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                               ? TeamPartnersIcon
                               : Icon171Icon
                           }
-                          className={classNames(
-                            defaultcss.all,
-                            projectcss.all,
-                            sty.svgIcon3
-                          )}
+                          className={classNames(projectcss.all, sty.svgIcon3)}
                           role={"img"}
                         />
                       }
@@ -314,11 +262,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                               ? TeamPartnersIcon
                               : TeamPartnersIcon
                           }
-                          className={classNames(
-                            defaultcss.all,
-                            projectcss.all,
-                            sty.svgIcon4
-                          )}
+                          className={classNames(projectcss.all, sty.svgIcon4)}
                           role={"img"}
                         />
                       }
@@ -353,11 +297,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                 data-plasmic-name={"locationParent"}
                 data-plasmic-override={overrides.locationParent}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.locationParent
-                )}
+                className={classNames(projectcss.all, sty.locationParent)}
               >
                 <ElementLocationPrimary
                   data-plasmic-name={"elementLocationPrimary"}
@@ -377,19 +317,14 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           data-plasmic-name={"userMemberDescription"}
           data-plasmic-override={overrides.userMemberDescription}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.userMemberDescription
-          )}
+          className={classNames(projectcss.all, sty.userMemberDescription)}
         >
           <div
             data-plasmic-name={"_80CharactersMax"}
             data-plasmic-override={overrides._80CharactersMax}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty._80CharactersMax
             )}
           >
@@ -404,18 +339,13 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           data-plasmic-name={"userButtons"}
           data-plasmic-override={overrides.userButtons}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.userButtons,
-            {
-              [sty.userButtons__userState_loggedIn]: hasVariant(
-                variants,
-                "userState",
-                "loggedIn"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.userButtons, {
+            [sty.userButtons__userState_loggedIn]: hasVariant(
+              variants,
+              "userState",
+              "loggedIn"
+            )
+          })}
         >
           {(hasVariant(variants, "userState", "loggedIn") ? true : false) ? (
             <ButtonLinkPrimary
@@ -441,9 +371,8 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               text={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text___2RhX,
                     {
                       [sty.text__userState_loggedIn___2RhXmCOui]: hasVariant(
@@ -500,11 +429,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               <BookmarkIcon
                 data-plasmic-name={"svgIcon"}
                 data-plasmic-override={overrides.svgIcon}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svgIcon
-                )}
+                className={classNames(projectcss.all, sty.svgIcon)}
                 role={"img"}
               />
             }

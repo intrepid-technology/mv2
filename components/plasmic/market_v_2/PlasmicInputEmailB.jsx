@@ -20,7 +20,6 @@ import {
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputEmailB.module.css"; // plasmic-import: TlHGxonFgD/css
 
@@ -45,98 +44,62 @@ function PlasmicInputEmailB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.root__size__540]: hasVariant(variants, "size", "_540")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size__540]: hasVariant(variants, "size", "_540")
+      })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___5O3PI,
-          {
-            [sty.freeBox__size__160___5O3PICwFqr]: hasVariant(
-              variants,
-              "size",
-              "_160"
-            ),
+        className={classNames(projectcss.all, sty.freeBox___5O3PI, {
+          [sty.freeBox__size__160___5O3PICwFqr]: hasVariant(
+            variants,
+            "size",
+            "_160"
+          ),
 
-            [sty.freeBox__size__270___5O3PImCtWm]: hasVariant(
-              variants,
-              "size",
-              "_270"
-            ),
+          [sty.freeBox__size__270___5O3PImCtWm]: hasVariant(
+            variants,
+            "size",
+            "_270"
+          ),
 
-            [sty.freeBox__size__360___5O3PIlmp10]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
+          [sty.freeBox__size__360___5O3PIlmp10]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          ),
 
-            [sty.freeBox__size__540___5O3PI4Ezsp]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            )
-          }
-        )}
+          [sty.freeBox__size__540___5O3PI4Ezsp]: hasVariant(
+            variants,
+            "size",
+            "_540"
+          )
+        })}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__yp4Vd,
-            {
-              [sty.freeBox__size__360__yp4VDlmp10]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.freeBox__yp4Vd, {
+            [sty.freeBox__size__360__yp4VDlmp10]: hasVariant(
+              variants,
+              "size",
+              "_360"
+            )
+          })}
         >
           <input
             data-plasmic-name={"textInput"}
             data-plasmic-override={overrides.textInput ?? overrides.textbox}
-            className={classNames(
-              defaultcss.input,
-              projectcss.input,
-              sty.textInput,
-              {
-                [sty.textInput__size__160]: hasVariant(
-                  variants,
-                  "size",
-                  "_160"
-                ),
-
-                [sty.textInput__size__270]: hasVariant(
-                  variants,
-                  "size",
-                  "_270"
-                ),
-
-                [sty.textInput__size__360]: hasVariant(
-                  variants,
-                  "size",
-                  "_360"
-                ),
-
-                [sty.textInput__size__540]: hasVariant(variants, "size", "_540")
-              }
-            )}
+            className={classNames(projectcss.input, sty.textInput, {
+              [sty.textInput__size__160]: hasVariant(variants, "size", "_160"),
+              [sty.textInput__size__270]: hasVariant(variants, "size", "_270"),
+              [sty.textInput__size__360]: hasVariant(variants, "size", "_360"),
+              [sty.textInput__size__540]: hasVariant(variants, "size", "_540")
+            })}
             placeholder={"Enter your email address"}
             size={1}
             type={"text"}
@@ -185,9 +148,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text__kG9Sn,
                   {
                     [sty.text__size__360__kG9SNlmp10]: hasVariant(
@@ -228,9 +190,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__qUzY2,
                 {
                   [sty.text__size__360__qUzY2Lmp10]: hasVariant(
@@ -279,9 +240,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__yItrW,
                 {
                   [sty.text__size__360__yItrWlmp10]: hasVariant(
@@ -300,18 +260,13 @@ function PlasmicInputEmailB__RenderFunc(props) {
         ) : null}
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__dfyHp,
-              {
-                [sty.freeBox__description__dfyHpL47Md]: hasVariant(
-                  variants,
-                  "description",
-                  "description"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.freeBox__dfyHp, {
+              [sty.freeBox__description__dfyHpL47Md]: hasVariant(
+                variants,
+                "description",
+                "description"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents:

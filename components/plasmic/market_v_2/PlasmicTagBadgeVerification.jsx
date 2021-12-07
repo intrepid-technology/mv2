@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTagBadgeVerification.module.css"; // plasmic-import: jKGLXJ6-Gl/css
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
@@ -33,23 +32,17 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__size__14]: hasVariant(variants, "size", "_14"),
-          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.root__size__24]: hasVariant(variants, "size", "_24")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__14]: hasVariant(variants, "size", "_14"),
+        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
+        [sty.root__size__24]: hasVariant(variants, "size", "_24")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__size__14]: hasVariant(variants, "size", "_14"),
           [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
           [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
@@ -59,7 +52,7 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
         <Icon129Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+          className={classNames(projectcss.all, sty.svg, {
             [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
             [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
             [sty.svg__size__18]: hasVariant(variants, "size", "_18"),

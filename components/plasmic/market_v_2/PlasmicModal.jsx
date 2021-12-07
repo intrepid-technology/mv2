@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicModal.module.css"; // plasmic-import: 1EZTfh04C0/css
 
@@ -39,43 +38,22 @@ function PlasmicModal__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__cWfDy
-          )}
+          className={classNames(projectcss.all, sty.freeBox__cWfDy)}
         >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__ysQD
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox___1W5DM
-              )}
-            >
+          <div className={classNames(projectcss.all, sty.freeBox__ysQD)}>
+            <div className={classNames(projectcss.all, sty.freeBox___1W5DM)}>
               {p.renderPlasmicSlot({
                 defaultContents: "Modal Headline Title",
                 value: args.headline,
@@ -84,20 +62,8 @@ function PlasmicModal__RenderFunc(props) {
             </div>
           </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__cViio
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__vMsaM
-              )}
-            >
+          <div className={classNames(projectcss.all, sty.freeBox__cViio)}>
+            <div className={classNames(projectcss.all, sty.freeBox__vMsaM)}>
               {p.renderPlasmicSlot({
                 defaultContents: "This is a modal to get your attention",
                 value: args.subhead,
@@ -107,20 +73,8 @@ function PlasmicModal__RenderFunc(props) {
           </div>
         </p.Stack>
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__l8W
-          )}
-        >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__oemE4
-            )}
-          >
+        <div className={classNames(projectcss.all, sty.freeBox__l8W)}>
+          <div className={classNames(projectcss.all, sty.freeBox__oemE4)}>
             {p.renderPlasmicSlot({
               defaultContents:
                 "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in.",
@@ -132,27 +86,13 @@ function PlasmicModal__RenderFunc(props) {
         <div
           data-plasmic-name={"buttonParent"}
           data-plasmic-override={overrides.buttonParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.buttonParent
-          )}
+          className={classNames(projectcss.all, sty.buttonParent)}
         >
-          <button
-            className={classNames(
-              defaultcss.button,
-              projectcss.button,
-              sty.button__dxNg
-            )}
-          >
+          <button className={classNames(projectcss.button, sty.button__dxNg)}>
             <div
               data-plasmic-name={"textParent"}
               data-plasmic-override={overrides.textParent}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.textParent
-              )}
+              className={classNames(projectcss.all, sty.textParent)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "cancel",
@@ -163,27 +103,18 @@ function PlasmicModal__RenderFunc(props) {
           </button>
 
           <button
-            className={classNames(
-              defaultcss.button,
-              projectcss.button,
-              sty.button__kn7KG,
-              {
-                [sty.button__inputs_companyName__kn7KGRcVto]: hasVariant(
-                  variants,
-                  "inputs",
-                  "companyName"
-                )
-              }
-            )}
+            className={classNames(projectcss.button, sty.button__kn7KG, {
+              [sty.button__inputs_companyName__kn7KGRcVto]: hasVariant(
+                variants,
+                "inputs",
+                "companyName"
+              )
+            })}
           >
             <div
               data-plasmic-name={"textParentB"}
               data-plasmic-override={overrides.textParentB}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.textParentB
-              )}
+              className={classNames(projectcss.all, sty.textParentB)}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "submit",

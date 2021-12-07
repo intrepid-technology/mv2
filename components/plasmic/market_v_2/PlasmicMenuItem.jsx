@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMenuItem.module.css"; // plasmic-import: VVXqLHd1Qa/css
 
@@ -37,7 +36,6 @@ function PlasmicMenuItem__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
-        defaultcss.a,
         projectcss.a,
         projectcss.root_reset,
         sty.menuItemLink,
@@ -56,7 +54,7 @@ function PlasmicMenuItem__RenderFunc(props) {
       <div
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
-        className={classNames(defaultcss.all, projectcss.all, sty.textParent)}
+        className={classNames(projectcss.all, sty.textParent)}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Menu item",

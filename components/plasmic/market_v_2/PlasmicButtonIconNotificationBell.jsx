@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import TagNotification from "../../TagNotification"; // plasmic-import: -8KQRPGoiM/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonIconNotificationBell.module.css"; // plasmic-import: oyQklGfTop/css
 import NotificationBellIcon from "./icons/PlasmicIcon__NotificationBell"; // plasmic-import: e76jROc_X/icon
@@ -39,7 +38,6 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.button,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
@@ -49,7 +47,7 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
       <NotificationBellIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
-        className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+        className={classNames(projectcss.all, sty.svg, {
           [sty.svg__inactive]: hasVariant(variants, "inactive", "inactive"),
           [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
           [sty.svg__size__24]: hasVariant(variants, "size", "_24"),

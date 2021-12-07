@@ -19,7 +19,6 @@ import {
 import IconSocialProfile from "../../IconSocialProfile"; // plasmic-import: IC5nyjlnco/component
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardSocialConnectSwitch.module.css"; // plasmic-import: PjlQKkmde-/css
 
@@ -40,19 +39,14 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
           [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
           [sty.parent__width__720]: hasVariant(variants, "width", "_720")
@@ -63,7 +57,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+          className={classNames(projectcss.all, sty.freeBox)}
         >
           <IconSocialProfile
             data-plasmic-name={"iconSocialProfile"}
@@ -294,9 +288,8 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text,
               {
                 [sty.text__accounting_quickbooks]: hasVariant(

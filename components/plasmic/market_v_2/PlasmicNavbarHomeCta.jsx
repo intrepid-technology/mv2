@@ -22,7 +22,6 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarHomeCta.module.css"; // plasmic-import: 5UV_WbRXrs/css
 
@@ -42,13 +41,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__color_dark]: hasVariant(variants, "color", "dark") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
+      })}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
@@ -58,10 +53,10 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
         })}
         destination={
           hasVariant(globalVariants, "screen", "iphone678Plus")
-            ? "/home"
+            ? "/landingpage-2021"
             : hasVariant(globalVariants, "screen", "desktop")
-            ? "/home"
-            : "/home"
+            ? "/landingpage-2021"
+            : "/landingpage-2021"
         }
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
@@ -72,7 +67,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+          className={classNames(projectcss.all, sty.freeBox, {
             [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
@@ -109,9 +104,8 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               text={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__hyKmE,
                     {
                       [sty.text__color_dark__hyKmE90H3U]: hasVariant(
@@ -152,9 +146,8 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               text={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__nAyJs
                   )}
                 >

@@ -21,7 +21,6 @@ import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import NavLinkCounter from "../../NavLinkCounter"; // plasmic-import: -OUVGqQU5t/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarMemberUserProfile.module.css"; // plasmic-import: pRIPzCF9OFR/css
 
@@ -49,12 +48,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(
         hasVariant(globalVariants, "screen", "iphone678Plus")
@@ -68,7 +62,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
           data-plasmic-name={"parent"}
           data-plasmic-override={overrides.parent}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+          className={classNames(projectcss.all, sty.parent)}
         >
           {(
             hasVariant(globalVariants, "screen", "iphone678Plus")

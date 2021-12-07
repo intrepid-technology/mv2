@@ -22,7 +22,6 @@ import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarCta.module.css"; // plasmic-import: J5QAJR3-82-/css
 
@@ -44,40 +43,24 @@ function PlasmicNavbarCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color]: hasVariant(variants, "color", "color"),
-          [sty.root__color_persona_member]:
-            hasVariant(variants, "color", "color") &&
-            hasVariant(variants, "persona", "member"),
-          [sty.root__color_persona_partner]:
-            hasVariant(variants, "color", "color") &&
-            hasVariant(variants, "persona", "partner"),
-          [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-          [sty.root__persona_partner]: hasVariant(
-            variants,
-            "persona",
-            "partner"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color]: hasVariant(variants, "color", "color"),
+        [sty.root__color_persona_member]:
+          hasVariant(variants, "color", "color") &&
+          hasVariant(variants, "persona", "member"),
+        [sty.root__color_persona_partner]:
+          hasVariant(variants, "color", "color") &&
+          hasVariant(variants, "persona", "partner"),
+        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
+        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner")
+      })}
     >
       <div
         data-plasmic-name={"columns"}
         data-plasmic-override={overrides.columns}
-        className={classNames(defaultcss.all, projectcss.all, sty.columns)}
+        className={classNames(projectcss.all, sty.columns)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.column__z4Gl
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.column__z4Gl)}>
           <LogoHeader
             data-plasmic-name={"logoHeader"}
             data-plasmic-override={overrides.logoHeader}
@@ -94,13 +77,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
         {(
           hasVariant(globalVariants, "screen", "iphone678Plus") ? false : false
         ) ? (
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.column__g2M7Q
-            )}
-          >
+          <div className={classNames(projectcss.all, sty.column__g2M7Q)}>
             {(
               hasVariant(globalVariants, "screen", "iphone678Plus")
                 ? false
@@ -111,14 +88,9 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 data-plasmic-name={"freeBox"}
                 data-plasmic-override={overrides.freeBox}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox,
-                  {
-                    [sty.freeBox__color]: hasVariant(variants, "color", "color")
-                  }
-                )}
+                className={classNames(projectcss.all, sty.freeBox, {
+                  [sty.freeBox__color]: hasVariant(variants, "color", "color")
+                })}
               >
                 {false ? (
                   <NavLink
@@ -141,9 +113,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
                     linkText={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__fu5Me,
                           {
                             [sty.text__color__fu5MencUjG]: hasVariant(
@@ -192,9 +163,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
                     linkText={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__qfmI4
                         )}
                       >
@@ -218,9 +188,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
                   linkText={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__rZjHv
                       )}
                     >
@@ -243,9 +212,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
                   linkText={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__pEnZm,
                         {
                           [sty.text__color__pEnZMncUjG]: hasVariant(
@@ -265,13 +233,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
           </div>
         ) : null}
 
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.column__mXhVi
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.column__mXhVi)}>
           <ButtonPrimary
             data-plasmic-name={"buttonPrimary"}
             data-plasmic-override={overrides.buttonPrimary}
@@ -325,9 +287,8 @@ function PlasmicNavbarCta__RenderFunc(props) {
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__uwHg0,
                 {
                   [sty.text__color__uwHg0NcUjG]: hasVariant(

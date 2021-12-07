@@ -20,7 +20,6 @@ import {
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableListingAdminHeader.module.css"; // plasmic-import: j0LNFrWCIRj/css
 
@@ -42,12 +41,7 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
@@ -55,7 +49,6 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         data-plasmic-override={overrides.listingHeadlineSelectAllParent}
         hasGap={true}
         className={classNames(
-          defaultcss.all,
           projectcss.all,
           sty.listingHeadlineSelectAllParent
         )}
@@ -70,17 +63,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"listingParent"}
           data-plasmic-override={overrides.listingParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.listingParent
-          )}
+          className={classNames(projectcss.all, sty.listingParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__apx7I
             )}
           >
@@ -93,17 +81,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"statusParent"}
           data-plasmic-override={overrides.statusParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.statusParent
-          )}
+          className={classNames(projectcss.all, sty.statusParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__l0Fer
             )}
           >
@@ -115,13 +98,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"toDoParent"}
           data-plasmic-override={overrides.toDoParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.toDoParent)}
+          className={classNames(projectcss.all, sty.toDoParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text___1JXFg
             )}
           >
@@ -133,17 +115,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"modifiedDateParent"}
           data-plasmic-override={overrides.modifiedDateParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.modifiedDateParent
-          )}
+          className={classNames(projectcss.all, sty.modifiedDateParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__qCh1L
             )}
           >
@@ -155,17 +132,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"categoryParent"}
           data-plasmic-override={overrides.categoryParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.categoryParent
-          )}
+          className={classNames(projectcss.all, sty.categoryParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__mxLqA
             )}
           >
@@ -177,17 +149,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.priceParent
-          )}
+          className={classNames(projectcss.all, sty.priceParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__l0YWm
             )}
           >
@@ -199,13 +166,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"termParent"}
           data-plasmic-override={overrides.termParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.termParent)}
+          className={classNames(projectcss.all, sty.termParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__ajruk
             )}
           >
@@ -217,17 +183,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"expiryParent"}
           data-plasmic-override={overrides.expiryParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.expiryParent
-          )}
+          className={classNames(projectcss.all, sty.expiryParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__fob07
             )}
           >
@@ -239,17 +200,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"renewParent"}
           data-plasmic-override={overrides.renewParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.renewParent
-          )}
+          className={classNames(projectcss.all, sty.renewParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text___2RzSd
             )}
           >
@@ -261,17 +217,12 @@ function PlasmicTableListingAdminHeader__RenderFunc(props) {
         <div
           data-plasmic-name={"cancelParent"}
           data-plasmic-override={overrides.cancelParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.cancelParent
-          )}
+          className={classNames(projectcss.all, sty.cancelParent)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text___2FOl
             )}
           >

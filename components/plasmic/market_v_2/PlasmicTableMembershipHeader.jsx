@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableMembershipHeader.module.css"; // plasmic-import: T4YXTQYWhk/css
 
@@ -34,25 +33,13 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__qK279
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__qK279)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__a3KQy
           )}
         >
@@ -60,18 +47,11 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__oogN2
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__oogN2)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__mA29P
           )}
         >
@@ -79,18 +59,11 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__oZw0L
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__oZw0L)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__h0SDq
           )}
         >
@@ -98,18 +71,11 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__zAdKr
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__zAdKr)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__sJHmB
           )}
         >
@@ -117,18 +83,11 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__pxwwt
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox__pxwwt)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__mlLbQ
           )}
         >
@@ -136,18 +95,11 @@ function PlasmicTableMembershipHeader__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___3BaDh
-        )}
-      >
+      <div className={classNames(projectcss.all, sty.freeBox___3BaDh)}>
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__mms1R
           )}
         >

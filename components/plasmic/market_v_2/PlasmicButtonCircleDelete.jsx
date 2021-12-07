@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicButtonCircleDelete.module.css"; // plasmic-import: nkuQ1X_r6B/css
 import CircleXIcon from "./icons/PlasmicIcon__CircleX"; // plasmic-import: t9SuDpj6zV/icon
@@ -33,33 +32,23 @@ function PlasmicButtonCircleDelete__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <button
         data-plasmic-name={"button"}
         data-plasmic-override={overrides.button}
-        className={classNames(
-          defaultcss.button,
-          projectcss.button,
-          sty.button,
-          {
-            [sty.button__size__16Px]: hasVariant(variants, "size", "_16Px"),
-            [sty.button__size__18Px]: hasVariant(variants, "size", "_18Px"),
-            [sty.button__size__24Px]: hasVariant(variants, "size", "_24Px"),
-            [sty.button__size__32Px]: hasVariant(variants, "size", "_32Px"),
-            [sty.button__size__48Px]: hasVariant(variants, "size", "_48Px")
-          }
-        )}
+        className={classNames(projectcss.button, sty.button, {
+          [sty.button__size__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.button__size__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.button__size__24Px]: hasVariant(variants, "size", "_24Px"),
+          [sty.button__size__32Px]: hasVariant(variants, "size", "_32Px"),
+          [sty.button__size__48Px]: hasVariant(variants, "size", "_48Px")
+        })}
       >
         <div
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.svgParent, {
+          className={classNames(projectcss.all, sty.svgParent, {
             [sty.svgParent__size__16Px]: hasVariant(variants, "size", "_16Px"),
             [sty.svgParent__size__18Px]: hasVariant(variants, "size", "_18Px"),
             [sty.svgParent__size__24Px]: hasVariant(variants, "size", "_24Px"),
@@ -70,7 +59,7 @@ function PlasmicButtonCircleDelete__RenderFunc(props) {
           <CircleXIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg__size__16Px]: hasVariant(variants, "size", "_16Px"),
               [sty.svg__size__18Px]: hasVariant(variants, "size", "_18Px"),
               [sty.svg__size__24Px]: hasVariant(variants, "size", "_24Px"),

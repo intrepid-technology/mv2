@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputIconPrefixSuffix.module.css"; // plasmic-import: ri_cIHAAMV/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
@@ -38,17 +37,12 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
           [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
           [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
@@ -61,25 +55,16 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
           <div
             data-plasmic-name={"prefixParent"}
             data-plasmic-override={overrides.prefixParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.prefixParent,
-              {
-                [sty.prefixParent__prefix]: hasVariant(
-                  variants,
-                  "prefix",
-                  "prefix"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.prefixParent, {
+              [sty.prefixParent__prefix]: hasVariant(
+                variants,
+                "prefix",
+                "prefix"
+              )
+            })}
           >
             <PlusBoldIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__wok5V
-              )}
+              className={classNames(projectcss.all, sty.svg__wok5V)}
               role={"img"}
             />
           </div>
@@ -88,14 +73,9 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.textInput,
-            {
-              [sty.textInput__prefix]: hasVariant(variants, "prefix", "prefix")
-            }
-          )}
+          className={classNames(projectcss.input, sty.textInput, {
+            [sty.textInput__prefix]: hasVariant(variants, "prefix", "prefix")
+          })}
           placeholder={""}
           size={1}
           type={"text"}
@@ -106,25 +86,16 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
           <div
             data-plasmic-name={"suffixParent"}
             data-plasmic-override={overrides.suffixParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.suffixParent,
-              {
-                [sty.suffixParent__suffix]: hasVariant(
-                  variants,
-                  "suffix",
-                  "suffix"
-                )
-              }
-            )}
+            className={classNames(projectcss.all, sty.suffixParent, {
+              [sty.suffixParent__suffix]: hasVariant(
+                variants,
+                "suffix",
+                "suffix"
+              )
+            })}
           >
             <PlusBoldIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg___1W2Uv
-              )}
+              className={classNames(projectcss.all, sty.svg___1W2Uv)}
               role={"img"}
             />
           </div>

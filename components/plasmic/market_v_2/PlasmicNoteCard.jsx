@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNoteCard.module.css"; // plasmic-import: ZOSZMng1TX/css
 
@@ -36,28 +35,19 @@ function PlasmicNoteCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"noteMessageParent"}
         data-plasmic-override={overrides.noteMessageParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.noteMessageParent
-        )}
+        className={classNames(projectcss.all, sty.noteMessageParent)}
       >
         <div
           data-plasmic-name={"noteParent"}
           data-plasmic-override={overrides.noteParent}
-          className={classNames(defaultcss.all, projectcss.all, sty.noteParent)}
+          className={classNames(projectcss.all, sty.noteParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Note:",
@@ -69,16 +59,12 @@ function PlasmicNoteCard__RenderFunc(props) {
         <div
           data-plasmic-name={"mesageParent"}
           data-plasmic-override={overrides.mesageParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.mesageParent
-          )}
+          className={classNames(projectcss.all, sty.mesageParent)}
         >
           <div
             data-plasmic-name={"freeBox"}
             data-plasmic-override={overrides.freeBox}
-            className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+            className={classNames(projectcss.all, sty.freeBox)}
           >
             {p.renderPlasmicSlot({
               defaultContents: "This note details some information.",

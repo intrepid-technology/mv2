@@ -19,7 +19,6 @@ import {
 import InputFormCardWebhookConnections from "../../InputFormCardWebhookConnections"; // plasmic-import: gKd8t6dFgYd/component
 import CardConnectedAccount from "../../CardConnectedAccount"; // plasmic-import: _uTya7yxqeE/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionConnectedAccounts.module.css"; // plasmic-import: -32NgWHIsLX/css
 
@@ -45,21 +44,11 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        {
-          [sty.parent__border]: hasVariant(variants, "border", "border"),
-          [sty.parent__closed]: hasVariant(variants, "closed", "closed"),
-          [sty.parent__visible_google]: hasVariant(
-            variants,
-            "visible",
-            "google"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__border]: hasVariant(variants, "border", "border"),
+        [sty.parent__closed]: hasVariant(variants, "closed", "closed"),
+        [sty.parent__visible_google]: hasVariant(variants, "visible", "google")
+      })}
     >
       <InputFormCardWebhookConnections
         data-plasmic-name={"personalLoginConnectionAccounts"}
@@ -113,9 +102,8 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
           userFirstname={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__c84HQ
               )}
             >
@@ -125,9 +113,8 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
           userLastName={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__vyrJr
               )}
             >
@@ -165,9 +152,8 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
           userFirstname={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__eJkr2
               )}
             >
@@ -177,9 +163,8 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
           userLastName={
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__zhjMw
               )}
             >

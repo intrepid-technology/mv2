@@ -20,7 +20,6 @@ import {
 import ChipCategoryHeader from "../../ChipCategoryHeader"; // plasmic-import: W3C_J23Z38/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionShopByIndustry.module.css"; // plasmic-import: ua8654-3suB/css
 import Icon31Icon from "./icons/PlasmicIcon__Icon31"; // plasmic-import: VBNqBhLtYU/icon
@@ -49,22 +48,12 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          defaultcss.__wab_text,
-          sty.text
-        )}
+        className={classNames(projectcss.all, projectcss.__wab_text, sty.text)}
       >
         {hasVariant(globalVariants, "screen", "iphone678Plus")
           ? "Find by Industry"
@@ -78,7 +67,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <ChipCategoryHeader
           className={classNames("__wab_instance", sty.chipCategoryHeader__xJ5H)}
@@ -94,11 +83,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           }
         >
           <Icon31Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__m0Qz1
-            )}
+            className={classNames(projectcss.all, sty.svg__m0Qz1)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -113,11 +98,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"Video"}
         >
           <Icon11Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__gchyK
-            )}
+            className={classNames(projectcss.all, sty.svg__gchyK)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -135,11 +116,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"Blockchain"}
         >
           <BlockchainsvgIcon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__knR4M
-            )}
+            className={classNames(projectcss.all, sty.svg__knR4M)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -157,11 +134,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"Health"}
         >
           <Icon18Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__yaNaK
-            )}
+            className={classNames(projectcss.all, sty.svg__yaNaK)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -179,11 +152,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"FinTech"}
         >
           <Icon25Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__rBvUc
-            )}
+            className={classNames(projectcss.all, sty.svg__rBvUc)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -201,11 +170,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"Insurance"}
         >
           <Icon32Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg___1EjwE
-            )}
+            className={classNames(projectcss.all, sty.svg___1EjwE)}
             role={"img"}
           />
         </ChipCategoryHeader>
@@ -223,11 +188,7 @@ function PlasmicSectionShopByIndustry__RenderFunc(props) {
           slot={"Cloud"}
         >
           <Icon44Icon
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.svg__xAeT
-            )}
+            className={classNames(projectcss.all, sty.svg__xAeT)}
             role={"img"}
           />
         </ChipCategoryHeader>

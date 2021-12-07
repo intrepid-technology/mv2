@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooterLink.module.css"; // plasmic-import: V79E-hyi-E/css
 
@@ -34,20 +33,15 @@ function PlasmicFooterLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.root__color_light]: hasVariant(variants, "color", "light")
-        }
-      )}
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+        [sty.root__color_light]: hasVariant(variants, "color", "light")
+      })}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
+      target={"_blank"}
     >
       {p.renderPlasmicSlot({
         defaultContents: "link",

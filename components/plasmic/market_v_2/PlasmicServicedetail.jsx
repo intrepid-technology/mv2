@@ -28,7 +28,6 @@ import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/compone
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicedetail.module.css"; // plasmic-import: 2YXWRU8_5CaO/css
 import Icon54Icon from "./icons/PlasmicIcon__Icon54"; // plasmic-import: krveNVXkj/icon
@@ -61,14 +60,13 @@ function PlasmicServicedetail__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -80,7 +78,6 @@ function PlasmicServicedetail__RenderFunc(props) {
             data-plasmic-override={overrides.serviceDetailCheckoutPageParent}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
               sty.serviceDetailCheckoutPageParent
             )}
@@ -91,7 +88,6 @@ function PlasmicServicedetail__RenderFunc(props) {
               data-plasmic-override={overrides.serviceDetailOverviewParent}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
                 sty.serviceDetailOverviewParent
               )}
@@ -102,7 +98,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceHeadlineParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.serviceHeadlineParent
                 )}
@@ -110,18 +105,10 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"headline"}
                   data-plasmic-override={overrides.headline}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.headline
-                  )}
+                  className={classNames(projectcss.all, sty.headline)}
                 >
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__zfdEw
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__zfdEw)}
                   >
                     {p.renderPlasmicSlot({
                       defaultContents: "Title of the service sold on this page",
@@ -137,7 +124,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.headlineNamePriceParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.headlineNamePriceParent
                   )}
@@ -148,21 +134,15 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-override={overrides.companyNamePriceParent2}
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.companyNamePriceParent2
                     )}
                   >
                     <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__cQnBt
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__cQnBt)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox__kqzI
                         )}
@@ -171,7 +151,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__kWxw1
                           )}
@@ -182,16 +161,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                               overrides.serviceCompanyName2
                             }
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.serviceCompanyName2
                             )}
                           >
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
-                                defaultcss.__wab_text,
+                                projectcss.__wab_text,
                                 sty.text___9Puij
                               )}
                             >
@@ -211,7 +188,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.companyVerificationBadgesParent3
                     )}
@@ -229,25 +205,19 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyIsVerified3}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.companyIsVerified3
                       )}
                     >
                       <Icon54Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg___0Zifo
-                        )}
+                        className={classNames(projectcss.all, sty.svg___0Zifo)}
                         role={"img"}
                       />
 
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__fjFyq
                         )}
                       >
@@ -263,77 +233,45 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-name={"serviceImageBlock"}
                 data-plasmic-override={overrides.serviceImageBlock}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.serviceImageBlock
-                )}
+                className={classNames(projectcss.all, sty.serviceImageBlock)}
               >
                 <img
                   data-plasmic-name={"serviceImageHero"}
                   data-plasmic-override={overrides.serviceImageHero}
                   alt={""}
-                  className={classNames(
-                    defaultcss.img,
-                    projectcss.img,
-                    sty.serviceImageHero
-                  )}
+                  className={classNames(projectcss.img, sty.serviceImageHero)}
                 />
 
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__ew4Af
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__ew4Af)}
                 >
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__ukRs4
-                    )}
+                    className={classNames(projectcss.img, sty.img__ukRs4)}
                   />
 
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__zQsDw
-                    )}
+                    className={classNames(projectcss.img, sty.img__zQsDw)}
                   />
 
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__aZnCu
-                    )}
+                    className={classNames(projectcss.img, sty.img__aZnCu)}
                   />
 
                   <img
                     alt={""}
-                    className={classNames(
-                      defaultcss.img,
-                      projectcss.img,
-                      sty.img__vwxzP
-                    )}
+                    className={classNames(projectcss.img, sty.img__vwxzP)}
                   />
                 </p.Stack>
 
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__y19Np
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__y19Np)}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -403,11 +341,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 </p.Stack>
 
                 <SectionDividerIcon
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.svg__nw7Wz
-                  )}
+                  className={classNames(projectcss.all, sty.svg__nw7Wz)}
                   role={"img"}
                 />
               </p.Stack>
@@ -418,7 +352,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceOverviewParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.serviceOverviewParent
                 )}
@@ -426,11 +359,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"descriptionBlock"}
                   data-plasmic-override={overrides.descriptionBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.descriptionBlock
-                  )}
+                  className={classNames(projectcss.all, sty.descriptionBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -449,9 +378,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text___1RPqE
                       )}
                     >
@@ -463,11 +391,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"processBlock"}
                   data-plasmic-override={overrides.processBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.processBlock
-                  )}
+                  className={classNames(projectcss.all, sty.processBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -484,7 +408,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                           }
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.serviceProcessDescription
                           )}
@@ -497,9 +420,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                           >
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
-                                defaultcss.__wab_text,
+                                projectcss.__wab_text,
                                 sty.text__ipjIf
                               )}
                             >
@@ -554,9 +476,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__qz6Jr
                       )}
                     >
@@ -568,11 +489,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"featuresBlock"}
                   data-plasmic-override={overrides.featuresBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.featuresBlock
-                  )}
+                  className={classNames(projectcss.all, sty.featuresBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -586,7 +503,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                           overrides.serviceFeaturesOverview
                         }
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.serviceFeaturesOverview
                         )}
@@ -596,7 +512,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__tu3Wz
                             )}
@@ -605,7 +520,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                               as={"div"}
                               hasGap={true}
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
                                 sty.freeBox__vbPe2
                               )}
@@ -678,9 +592,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__pnud8
                       )}
                     >
@@ -692,11 +605,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"contentBlock"}
                   data-plasmic-override={overrides.contentBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.contentBlock
-                  )}
+                  className={classNames(projectcss.all, sty.contentBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -706,7 +615,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     content={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox__kHmO0
                         )}
@@ -716,7 +624,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__nKBwa
                             )}
@@ -760,9 +667,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__wMb
                       )}
                     >
@@ -774,11 +680,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"methodBlock"}
                   data-plasmic-override={overrides.methodBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.methodBlock
-                  )}
+                  className={classNames(projectcss.all, sty.methodBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -788,7 +690,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     content={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox___1Ese0
                         )}
@@ -798,7 +699,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__bGavK
                             )}
@@ -842,9 +742,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__mG8P
                       )}
                     >
@@ -856,11 +755,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"toolsBlock"}
                   data-plasmic-override={overrides.toolsBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.toolsBlock
-                  )}
+                  className={classNames(projectcss.all, sty.toolsBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -870,7 +765,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     content={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox___71ORb
                         )}
@@ -880,7 +774,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__ttyHw
                             )}
@@ -891,7 +784,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add2"}
                                   data-plasmic-override={overrides.add2}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add2
                                   )}
@@ -907,7 +799,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete2"}
                                   data-plasmic-override={overrides.delete2}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete2
                                   )}
@@ -922,7 +813,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add3"}
                                   data-plasmic-override={overrides.add3}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add3
                                   )}
@@ -938,7 +828,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete3"}
                                   data-plasmic-override={overrides.delete3}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete3
                                   )}
@@ -955,7 +844,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add4"}
                                   data-plasmic-override={overrides.add4}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add4
                                   )}
@@ -971,7 +859,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete4"}
                                   data-plasmic-override={overrides.delete4}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete4
                                   )}
@@ -988,7 +875,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add5"}
                                   data-plasmic-override={overrides.add5}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add5
                                   )}
@@ -1004,7 +890,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete5"}
                                   data-plasmic-override={overrides.delete5}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete5
                                   )}
@@ -1021,7 +906,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add6"}
                                   data-plasmic-override={overrides.add6}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add6
                                   )}
@@ -1037,7 +921,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete6"}
                                   data-plasmic-override={overrides.delete6}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete6
                                   )}
@@ -1059,9 +942,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__oi7S0
                       )}
                     >
@@ -1073,11 +955,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"formatBlock"}
                   data-plasmic-override={overrides.formatBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.formatBlock
-                  )}
+                  className={classNames(projectcss.all, sty.formatBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -1087,7 +965,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     content={
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox__bEXt
                         )}
@@ -1097,7 +974,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__geArL
                             )}
@@ -1108,7 +984,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add7"}
                                   data-plasmic-override={overrides.add7}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add7
                                   )}
@@ -1124,7 +999,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete7"}
                                   data-plasmic-override={overrides.delete7}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete7
                                   )}
@@ -1139,7 +1013,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add8"}
                                   data-plasmic-override={overrides.add8}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add8
                                   )}
@@ -1155,7 +1028,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete8"}
                                   data-plasmic-override={overrides.delete8}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete8
                                   )}
@@ -1172,7 +1044,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add9"}
                                   data-plasmic-override={overrides.add9}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add9
                                   )}
@@ -1188,7 +1059,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete9"}
                                   data-plasmic-override={overrides.delete9}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete9
                                   )}
@@ -1205,7 +1075,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add10"}
                                   data-plasmic-override={overrides.add10}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add10
                                   )}
@@ -1221,7 +1090,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete10"}
                                   data-plasmic-override={overrides.delete10}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete10
                                   )}
@@ -1238,7 +1106,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"add11"}
                                   data-plasmic-override={overrides.add11}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.add11
                                   )}
@@ -1254,7 +1121,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                                   data-plasmic-name={"delete11"}
                                   data-plasmic-override={overrides.delete11}
                                   className={classNames(
-                                    defaultcss.all,
                                     projectcss.all,
                                     sty.delete11
                                   )}
@@ -1276,9 +1142,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__cH8Eb
                       )}
                     >
@@ -1290,11 +1155,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"requirementsBlock"}
                   data-plasmic-override={overrides.requirementsBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.requirementsBlock
-                  )}
+                  className={classNames(projectcss.all, sty.requirementsBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -1305,16 +1166,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                       true ? (
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__t9EAw
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text___5OzNn
                             )}
                           >
@@ -1327,7 +1186,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__hsM4C
                             )}
@@ -1371,9 +1229,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__ucMu5
                       )}
                     >
@@ -1385,11 +1242,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 <div
                   data-plasmic-name={"termsBlock"}
                   data-plasmic-override={overrides.termsBlock}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.termsBlock
-                  )}
+                  className={classNames(projectcss.all, sty.termsBlock)}
                 >
                   <Accordion
                     className={classNames(
@@ -1400,16 +1253,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                       true ? (
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__qitb4
                           )}
                         >
                           <div
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
-                              defaultcss.__wab_text,
+                              projectcss.__wab_text,
                               sty.text__a0JSz
                             )}
                           >
@@ -1422,7 +1273,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                             as={"div"}
                             hasGap={true}
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.freeBox__n9Y3U
                             )}
@@ -1466,9 +1316,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__prl3O
                       )}
                     >
@@ -1484,11 +1333,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               data-plasmic-name={"serviceOrderParent"}
               data-plasmic-override={overrides.serviceOrderParent}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.serviceOrderParent
-              )}
+              className={classNames(projectcss.all, sty.serviceOrderParent)}
             >
               <p.Stack
                 as={"div"}
@@ -1496,7 +1341,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceCheckoutHeader}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.serviceCheckoutHeader
                 )}
@@ -1507,7 +1351,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.serviceDescriptionParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.serviceDescriptionParent
                   )}
@@ -1520,7 +1363,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.headlineNamePriceVerificationParent
                     )}
@@ -1531,7 +1373,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyNamePriceParent}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.companyNamePriceParent
                       )}
@@ -1539,19 +1380,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                       <div
                         data-plasmic-name={"servicePrice"}
                         data-plasmic-override={overrides.servicePrice}
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.servicePrice
-                        )}
+                        className={classNames(projectcss.all, sty.servicePrice)}
                       >
                         <div
                           data-plasmic-name={"serviceCurrency"}
                           data-plasmic-override={overrides.serviceCurrency}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.serviceCurrency
                           )}
                         >
@@ -1560,9 +1396,8 @@ function PlasmicServicedetail__RenderFunc(props) {
 
                         <div
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
-                            defaultcss.__wab_text,
+                            projectcss.__wab_text,
                             sty.text__uOdZo
                           )}
                         >
@@ -1575,17 +1410,12 @@ function PlasmicServicedetail__RenderFunc(props) {
                   <div
                     data-plasmic-name={"serviceNameTitle"}
                     data-plasmic-override={overrides.serviceNameTitle}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.serviceNameTitle
-                    )}
+                    className={classNames(projectcss.all, sty.serviceNameTitle)}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__m2W9E
                       )}
                     >
@@ -1597,16 +1427,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceShortDescription"}
                     data-plasmic-override={overrides.serviceShortDescription}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.serviceShortDescription
                     )}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__mjS0B
                       )}
                     >
@@ -1619,11 +1447,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               </p.Stack>
 
               <CellDividerIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__u19Rk
-                )}
+                className={classNames(projectcss.all, sty.svg__u19Rk)}
                 role={"img"}
               />
 
@@ -1633,7 +1457,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.companyDescriptionParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.companyDescriptionParent
                 )}
@@ -1644,7 +1467,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.headlineCompanyParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.headlineCompanyParent
                   )}
@@ -1653,7 +1475,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceCompanyLogo"}
                     data-plasmic-override={overrides.serviceCompanyLogo}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.serviceCompanyLogo
                     )}
@@ -1668,7 +1489,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                           data-plasmic-override={overrides.navUserAvatar32}
                           alt={""}
                           className={classNames(
-                            defaultcss.img,
                             projectcss.img,
                             sty.navUserAvatar32
                           )}
@@ -1685,21 +1505,15 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-override={overrides.companyNamePriceParent3}
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.companyNamePriceParent3
                     )}
                   >
                     <div
-                      className={classNames(
-                        defaultcss.all,
-                        projectcss.all,
-                        sty.freeBox__mGz7R
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__mGz7R)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
                           sty.freeBox__xtsDr
                         )}
@@ -1708,7 +1522,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                           as={"div"}
                           hasGap={true}
                           className={classNames(
-                            defaultcss.all,
                             projectcss.all,
                             sty.freeBox__qYg99
                           )}
@@ -1719,16 +1532,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                               overrides.serviceCompanyName3
                             }
                             className={classNames(
-                              defaultcss.all,
                               projectcss.all,
                               sty.serviceCompanyName3
                             )}
                           >
                             <div
                               className={classNames(
-                                defaultcss.all,
                                 projectcss.all,
-                                defaultcss.__wab_text,
+                                projectcss.__wab_text,
                                 sty.text__tSmZz
                               )}
                             >
@@ -1748,7 +1559,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
                       sty.companyVerificationBadgesParent4
                     )}
@@ -1766,25 +1576,19 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyIsVerified4}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
                         sty.companyIsVerified4
                       )}
                     >
                       <Icon54Icon
-                        className={classNames(
-                          defaultcss.all,
-                          projectcss.all,
-                          sty.svg__jrz1R
-                        )}
+                        className={classNames(projectcss.all, sty.svg__jrz1R)}
                         role={"img"}
                       />
 
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text___133Eb
                         )}
                       >
@@ -1798,16 +1602,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"companyShortDescription"}
                   data-plasmic-override={overrides.companyShortDescription}
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
                     sty.companyShortDescription
                   )}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__pxCD
                     )}
                   >
@@ -1819,11 +1621,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               </p.Stack>
 
               <CellDividerIcon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__oyzAe
-                )}
+                className={classNames(projectcss.all, sty.svg__oyzAe)}
                 role={"img"}
               />
 
@@ -1833,7 +1631,6 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceCheckoutButtons}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
                   sty.serviceCheckoutButtons
                 )}
@@ -1847,9 +1644,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___3EPlj
                     )}
                   >
@@ -1867,9 +1663,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__tOLxW
                     )}
                   >
@@ -1887,9 +1682,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__rgQzD
                     )}
                   >
@@ -1902,28 +1696,19 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"save"}
                   data-plasmic-override={overrides.save}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.button,
-                    projectcss.button,
-                    sty.save
-                  )}
+                  className={classNames(projectcss.button, sty.save)}
                 >
                   <BookmarkIcon
                     data-plasmic-name={"bookmark"}
                     data-plasmic-override={overrides.bookmark}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.bookmark
-                    )}
+                    className={classNames(projectcss.all, sty.bookmark)}
                     role={"img"}
                   />
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__eawQa
                     )}
                   >
@@ -1936,28 +1721,19 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"share"}
                   data-plasmic-override={overrides.share}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.button,
-                    projectcss.button,
-                    sty.share
-                  )}
+                  className={classNames(projectcss.button, sty.share)}
                 >
                   <ShareIcon
                     data-plasmic-name={"svgShare"}
                     data-plasmic-override={overrides.svgShare}
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svgShare
-                    )}
+                    className={classNames(projectcss.all, sty.svgShare)}
                     role={"img"}
                   />
 
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__ffOr8
                     )}
                   >

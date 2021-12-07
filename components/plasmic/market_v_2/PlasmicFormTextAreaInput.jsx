@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFormTextAreaInput.module.css"; // plasmic-import: rDSDf80NUiR/css
 
@@ -39,19 +38,9 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__adornment_start]: hasVariant(
-            variants,
-            "adornment",
-            "start"
-          )
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__adornment_start]: hasVariant(variants, "adornment", "start")
+      })}
     >
       <TextAreaInput
         data-plasmic-name={"textAreaInput"}

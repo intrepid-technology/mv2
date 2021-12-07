@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import PanelButtonMenuItem from "../../PanelButtonMenuItem"; // plasmic-import: b7t7JoTYk7/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonSecondaryPartnerDropdown.module.css"; // plasmic-import: xL0tU70qtK/css
 
@@ -36,12 +35,7 @@ function PlasmicPanelButtonSecondaryPartnerDropdown__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <PanelButtonMenuItem
         className={classNames("__wab_instance", sty.panelButtonMenuItem__viTcw)}
@@ -54,9 +48,8 @@ function PlasmicPanelButtonSecondaryPartnerDropdown__RenderFunc(props) {
         headlineText={
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text___1C3Dy
             )}
           >
@@ -66,9 +59,8 @@ function PlasmicPanelButtonSecondaryPartnerDropdown__RenderFunc(props) {
         subheadText={
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__bu3Vw
             )}
           >

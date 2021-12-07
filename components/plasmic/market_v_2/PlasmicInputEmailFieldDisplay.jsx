@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputEmailFieldDisplay.module.css"; // plasmic-import: OHtxSIix_r/css
 
@@ -32,28 +31,19 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent)}
       >
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.textInput
-          )}
+          className={classNames(projectcss.input, sty.textInput)}
           placeholder={"Enter your..."}
           size={1}
           type={"text"}
@@ -63,11 +53,7 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"button"}
           data-plasmic-override={overrides.button}
-          className={classNames(
-            defaultcss.button,
-            projectcss.button,
-            sty.button
-          )}
+          className={classNames(projectcss.button, sty.button)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Click Me",

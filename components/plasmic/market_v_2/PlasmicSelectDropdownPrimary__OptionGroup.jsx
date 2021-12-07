@@ -19,7 +19,6 @@ import {
 } from "@plasmicapp/react-web";
 import SelectDropdownPrimary__Option from "../../SelectDropdownPrimary__Option"; // plasmic-import: d0st1V5YiWH/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSelectDropdownPrimary__OptionGroup.module.css"; // plasmic-import: nncQa7gC62w/css
 import SUPER__PlasmicSelectDropdownPrimary from "./PlasmicSelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/render
@@ -46,18 +45,13 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(hasVariant(variants, "isFirst", "isFirst") ? false : true) ? (
         <div
           data-plasmic-name={"separator"}
           data-plasmic-override={overrides.separator}
-          className={classNames(defaultcss.all, projectcss.all, sty.separator, {
+          className={classNames(projectcss.all, sty.separator, {
             [sty.separator__isFirst]: hasVariant(variants, "isFirst", "isFirst")
           })}
         />
@@ -66,24 +60,19 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
         <div
           data-plasmic-name={"titleContainer"}
           data-plasmic-override={overrides.titleContainer}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.titleContainer,
-            {
-              [sty.titleContainer__isFirst]: hasVariant(
-                variants,
-                "isFirst",
-                "isFirst"
-              ),
+          className={classNames(projectcss.all, sty.titleContainer, {
+            [sty.titleContainer__isFirst]: hasVariant(
+              variants,
+              "isFirst",
+              "isFirst"
+            ),
 
-              [sty.titleContainer__noTitle]: hasVariant(
-                variants,
-                "noTitle",
-                "noTitle"
-              )
-            }
-          )}
+            [sty.titleContainer__noTitle]: hasVariant(
+              variants,
+              "noTitle",
+              "noTitle"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Group Name",
@@ -96,11 +85,7 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
       <div
         data-plasmic-name={"optionsContainer"}
         data-plasmic-override={overrides.optionsContainer}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.optionsContainer
-        )}
+        className={classNames(projectcss.all, sty.optionsContainer)}
       >
         {p.renderPlasmicSlot({
           defaultContents: (

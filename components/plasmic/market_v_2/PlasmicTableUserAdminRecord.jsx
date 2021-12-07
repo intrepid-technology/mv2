@@ -22,7 +22,6 @@ import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-impo
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTableUserAdminRecord.module.css"; // plasmic-import: _aYcl8sdexe/css
 
@@ -38,23 +37,14 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"userAvatarNameEmailParent"}
         data-plasmic-override={overrides.userAvatarNameEmailParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.userAvatarNameEmailParent
-        )}
+        className={classNames(projectcss.all, sty.userAvatarNameEmailParent)}
       >
         <ElementRadioPrimary
           data-plasmic-name={"elementRadioPrimary"}
@@ -81,26 +71,17 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
           data-plasmic-name={"userInfoParent"}
           data-plasmic-override={overrides.userInfoParent}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.userInfoParent
-          )}
+          className={classNames(projectcss.all, sty.userInfoParent)}
         >
           <div
             data-plasmic-name={"usernameParent"}
             data-plasmic-override={overrides.usernameParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.usernameParent
-            )}
+            className={classNames(projectcss.all, sty.usernameParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__qRux,
                 {
                   [sty.text__action_select__qRuxWms]: hasVariant(
@@ -118,17 +99,12 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
           <div
             data-plasmic-name={"userEmailParent"}
             data-plasmic-override={overrides.userEmailParent}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.userEmailParent
-            )}
+            className={classNames(projectcss.all, sty.userEmailParent)}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__mqpkj
               )}
             >
@@ -143,12 +119,12 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
         data-plasmic-name={"userAction"}
         data-plasmic-override={overrides.userAction}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.userAction)}
+        className={classNames(projectcss.all, sty.userAction)}
       >
         <div
           data-plasmic-name={"userRole"}
           data-plasmic-override={overrides.userRole}
-          className={classNames(defaultcss.all, projectcss.all, sty.userRole, {
+          className={classNames(projectcss.all, sty.userRole, {
             [sty.userRole__action_button]: hasVariant(
               variants,
               "action",
@@ -171,9 +147,8 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
           ) ? (
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__bvk0V,
                 {
                   [sty.text__action_button__bvk0V45Ld]: hasVariant(

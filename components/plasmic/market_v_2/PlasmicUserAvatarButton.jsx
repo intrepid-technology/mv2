@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicUserAvatarButton.module.css"; // plasmic-import: w1GnXfIMuv/css
 
@@ -34,7 +33,6 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
-        defaultcss.button,
         projectcss.button,
         projectcss.root_reset,
         sty.avatarButtonEdit,
@@ -86,34 +84,25 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
       <div
         data-plasmic-name={"avatarImageBackground"}
         data-plasmic-override={overrides.avatarImageBackground}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.avatarImageBackground,
-          {
-            [sty.avatarImageBackground__size__40Px]: hasVariant(
-              variants,
-              "size",
-              "_40Px"
-            ),
+        className={classNames(projectcss.all, sty.avatarImageBackground, {
+          [sty.avatarImageBackground__size__40Px]: hasVariant(
+            variants,
+            "size",
+            "_40Px"
+          ),
 
-            [sty.avatarImageBackground__size__80Px]: hasVariant(
-              variants,
-              "size",
-              "_80Px"
-            )
-          }
-        )}
+          [sty.avatarImageBackground__size__80Px]: hasVariant(
+            variants,
+            "size",
+            "_80Px"
+          )
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <img
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.img__gOzp
-              )}
+              className={classNames(projectcss.img, sty.img__gOzp)}
               src={"/plasmic/market_v_2/images/image4.png"}
             />
           ),

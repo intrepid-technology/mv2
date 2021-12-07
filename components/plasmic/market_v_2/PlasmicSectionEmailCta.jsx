@@ -20,7 +20,6 @@ import {
 import InputEmailA from "../../InputEmailA"; // plasmic-import: Umu_QfvTrP/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionEmailCta.module.css"; // plasmic-import: Zy0GFm9d9F/css
 
@@ -42,29 +41,14 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"headlineParent"}
         data-plasmic-override={overrides.headlineParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.headlineParent
-        )}
+        className={classNames(projectcss.all, sty.headlineParent)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___5Q18D
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox___5Q18D)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Start, launch, and grow a scalable & profitable business.",
@@ -77,19 +61,9 @@ function PlasmicSectionEmailCta__RenderFunc(props) {
       <div
         data-plasmic-name={"subheadParent"}
         data-plasmic-override={overrides.subheadParent}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.subheadParent
-        )}
+        className={classNames(projectcss.all, sty.subheadParent)}
       >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__zmpJ9
-          )}
-        >
+        <div className={classNames(projectcss.all, sty.freeBox__zmpJ9)}>
           {p.renderPlasmicSlot({
             defaultContents:
               "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",

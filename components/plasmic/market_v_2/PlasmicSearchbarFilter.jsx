@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSearchbarFilter.module.css"; // plasmic-import: 5wnmDA777-/css
 import SearchPlusIcon from "./icons/PlasmicIcon__SearchPlus"; // plasmic-import: cKRUhNtQ7/icon
@@ -38,30 +37,24 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__height__32]: hasVariant(variants, "height", "_32"),
-          [sty.root__height__36]: hasVariant(variants, "height", "_36"),
-          [sty.root__height__40]: hasVariant(variants, "height", "_40"),
-          [sty.root__height__48]: hasVariant(variants, "height", "_48"),
-          [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.root__width__540]: hasVariant(variants, "width", "_540")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__height__32]: hasVariant(variants, "height", "_32"),
+        [sty.root__height__36]: hasVariant(variants, "height", "_36"),
+        [sty.root__height__40]: hasVariant(variants, "height", "_40"),
+        [sty.root__height__48]: hasVariant(variants, "height", "_48"),
+        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
+        [sty.root__width__540]: hasVariant(variants, "width", "_540")
+      })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox)}
+        className={classNames(projectcss.all, sty.freeBox)}
       >
         <SearchPlusIcon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__epgKk)}
+          className={classNames(projectcss.all, sty.svg__epgKk)}
           role={"img"}
         />
       </div>
@@ -69,11 +62,7 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
       <input
         data-plasmic-name={"textInput"}
         data-plasmic-override={overrides.textInput ?? overrides.textbox}
-        className={classNames(
-          defaultcss.input,
-          projectcss.input,
-          sty.textInput
-        )}
+        className={classNames(projectcss.input, sty.textInput)}
         placeholder={""}
         size={1}
         type={"text"}
@@ -85,10 +74,10 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
         data-plasmic-name={"button"}
         data-plasmic-override={overrides.button}
         hasGap={true}
-        className={classNames(defaultcss.button, projectcss.button, sty.button)}
+        className={classNames(projectcss.button, sty.button)}
       >
         <PlusBoldIcon
-          className={classNames(defaultcss.all, projectcss.all, sty.svg__hYtaT)}
+          className={classNames(projectcss.all, sty.svg__hYtaT)}
           role={"img"}
         />
 
@@ -96,9 +85,8 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
           data-plasmic-name={"text"}
           data-plasmic-override={overrides.text}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text
           )}
         >

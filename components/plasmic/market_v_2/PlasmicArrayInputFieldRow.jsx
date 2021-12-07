@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicArrayInputFieldRow.module.css"; // plasmic-import: QjWzNF8vNF/css
 
@@ -35,12 +34,7 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {p.renderPlasmicSlot({
         defaultContents: null,
@@ -51,11 +45,7 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
         <div
           data-plasmic-name={"deleteIconWrapper"}
           data-plasmic-override={overrides.deleteIconWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.deleteIconWrapper
-          )}
+          className={classNames(projectcss.all, sty.deleteIconWrapper)}
         >
           <Button
             data-plasmic-name={"removeButton"}
@@ -69,9 +59,8 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
               data-plasmic-name={"text"}
               data-plasmic-override={overrides.text}
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text
               )}
             >

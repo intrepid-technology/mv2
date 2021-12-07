@@ -27,7 +27,6 @@ import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/
 import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingcategory.module.css"; // plasmic-import: NDaIYzZaPz/css
 
@@ -53,7 +52,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -62,7 +61,6 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -71,11 +69,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.serviceListingNavbar
-            )}
+            className={classNames(projectcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
@@ -98,22 +92,14 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lZF
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lZF)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionCategoryBlock"}
               data-plasmic-override={overrides.questionCategoryBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionCategoryBlock
-              )}
+              className={classNames(projectcss.all, sty.questionCategoryBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -123,9 +109,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__pkXf3
                     )}
                   >
@@ -136,9 +121,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__zq3QH
                   )}
                 >
@@ -151,11 +135,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 data-plasmic-name={"dropdown"}
                 data-plasmic-override={overrides.dropdown}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.dropdown
-                )}
+                className={classNames(projectcss.all, sty.dropdown)}
               >
                 <NativeSelectInput
                   data-plasmic-name={"serviceCategorySelectInput"}
@@ -167,9 +147,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   label={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__yrj5V
                       )}
                     >
@@ -188,9 +167,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   label={
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__k7Btz
                       )}
                     >
@@ -217,22 +195,14 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__jpq5H
-            )}
+            className={classNames(projectcss.all, sty.freeBox__jpq5H)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionFeaturesBlock"}
               data-plasmic-override={overrides.questionFeaturesBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionFeaturesBlock
-              )}
+              className={classNames(projectcss.all, sty.questionFeaturesBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -243,9 +213,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___3EZpz
                     )}
                   >
@@ -256,9 +225,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text___1Seve
                   )}
                 >
@@ -288,22 +256,14 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__wMqc
-            )}
+            className={classNames(projectcss.all, sty.freeBox__wMqc)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionContentBlock"}
               data-plasmic-override={overrides.questionContentBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionContentBlock
-              )}
+              className={classNames(projectcss.all, sty.questionContentBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -314,9 +274,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__ec2Tr
                     )}
                   >
@@ -327,9 +286,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__bmB1
                   )}
                 >
@@ -359,22 +317,14 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__anJua
-            )}
+            className={classNames(projectcss.all, sty.freeBox__anJua)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionIndustryBlock"}
               data-plasmic-override={overrides.questionIndustryBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionIndustryBlock
-              )}
+              className={classNames(projectcss.all, sty.questionIndustryBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -385,9 +335,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__x2Yx9
                     )}
                   >
@@ -397,9 +346,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot2={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__bIpMh
                     )}
                   >
@@ -409,9 +357,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__kUwyk
                   )}
                 >
@@ -445,22 +392,14 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__sdBU
-            )}
+            className={classNames(projectcss.all, sty.freeBox__sdBU)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionToolsBlock"}
               data-plasmic-override={overrides.questionToolsBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionToolsBlock
-              )}
+              className={classNames(projectcss.all, sty.questionToolsBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -471,9 +410,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text___5Hiy
                     )}
                   >
@@ -486,9 +424,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__dwbMk
                   )}
                 >
@@ -512,9 +449,8 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
             >
               <div
                 className={classNames(
-                  defaultcss.all,
                   projectcss.all,
-                  defaultcss.__wab_text,
+                  projectcss.__wab_text,
                   sty.text___1Gzs4
                 )}
               >

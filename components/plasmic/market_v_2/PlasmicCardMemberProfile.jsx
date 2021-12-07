@@ -21,7 +21,6 @@ import UserAvatarButton from "../../UserAvatarButton"; // plasmic-import: w1GnXf
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardMemberProfile.module.css"; // plasmic-import: Jh4JXlZHnwY/css
 
@@ -43,13 +42,9 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent,
-        { [sty.parent__session]: hasVariant(variants, "session", "session") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
+        [sty.parent__session]: hasVariant(variants, "session", "session")
+      })}
     >
       <UserAvatarButton
         data-plasmic-name={"userProfileAvatar"}
@@ -59,7 +54,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             data-plasmic-name={"img"}
             data-plasmic-override={overrides.img}
             alt={""}
-            className={classNames(defaultcss.img, projectcss.img, sty.img)}
+            className={classNames(projectcss.img, sty.img)}
             src={"/plasmic/market_v_2/images/image4.png"}
           />
         }
@@ -69,19 +64,14 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__uAf9P
-        )}
+        className={classNames(projectcss.all, sty.freeBox__uAf9P)}
       >
         <div
           data-plasmic-name={"userProfileUsernameFirstName2"}
           data-plasmic-override={overrides.userProfileUsernameFirstName2}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.userProfileUsernameFirstName2
           )}
         >
@@ -92,9 +82,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
           data-plasmic-name={"userProfileUsernameLastName2"}
           data-plasmic-override={overrides.userProfileUsernameLastName2}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.userProfileUsernameLastName2
           )}
         >
@@ -105,19 +94,14 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__z3JMv
-        )}
+        className={classNames(projectcss.all, sty.freeBox__z3JMv)}
       >
         <div
           data-plasmic-name={"userProfileUsernameLastName"}
           data-plasmic-override={overrides.userProfileUsernameLastName}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.userProfileUsernameLastName
           )}
         >
@@ -141,37 +125,22 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         {hasVariant(variants, "session", "session") ? "Edit" : "Follow"}
       </ButtonPrimary>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__pyBvT
-        )}
-      />
+      <div className={classNames(projectcss.all, sty.freeBox__pyBvT)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___96C2A
-        )}
+        className={classNames(projectcss.all, sty.freeBox___96C2A)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___0SUgg
-          )}
+          className={classNames(projectcss.all, sty.freeBox___0SUgg)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__umTdy
             )}
           >
@@ -180,9 +149,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__mwYix
             )}
           >
@@ -193,17 +161,12 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__e6Bhh
-          )}
+          className={classNames(projectcss.all, sty.freeBox__e6Bhh)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__b1HwQ
             )}
           >
@@ -212,9 +175,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__bjRVi
             )}
           >
@@ -223,37 +185,22 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__wnsf6
-        )}
-      />
+      <div className={classNames(projectcss.all, sty.freeBox__wnsf6)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___8TRdX
-        )}
+        className={classNames(projectcss.all, sty.freeBox___8TRdX)}
       >
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__my3Io
-          )}
+          className={classNames(projectcss.all, sty.freeBox__my3Io)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__vgpbm
             )}
           >
@@ -262,9 +209,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__d5Eh
             )}
           >
@@ -275,17 +221,12 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__oEqyk
-          )}
+          className={classNames(projectcss.all, sty.freeBox__oEqyk)}
         >
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__qrcMn
             )}
           >
@@ -294,9 +235,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
 
           <div
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text__lu7Ng
             )}
           >
@@ -305,28 +245,17 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__yYj5
-        )}
-      />
+      <div className={classNames(projectcss.all, sty.freeBox__yYj5)} />
 
       <p.Stack
         as={"div"}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__xf5Vf
-        )}
+        className={classNames(projectcss.all, sty.freeBox__xf5Vf)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__mf9Dv
           )}
         >
@@ -337,9 +266,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
           data-plasmic-name={"userProfileTimestamp"}
           data-plasmic-override={overrides.userProfileTimestamp}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.userProfileTimestamp
           )}
         >

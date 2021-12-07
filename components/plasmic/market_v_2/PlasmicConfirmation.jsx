@@ -22,7 +22,6 @@ import SectionConfirmEmail from "../../SectionConfirmEmail"; // plasmic-import: 
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicConfirmation.module.css"; // plasmic-import: 7QtXkc5UVi/css
 
@@ -48,7 +47,7 @@ function PlasmicConfirmation__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -57,7 +56,6 @@ function PlasmicConfirmation__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root

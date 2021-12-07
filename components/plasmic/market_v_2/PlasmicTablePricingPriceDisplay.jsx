@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicTablePricingPriceDisplay.module.css"; // plasmic-import: _lVEBPxny8/css
 
@@ -40,27 +39,10 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox___3S0X2
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox___04MeC
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox___3S0X2)}>
+        <div className={classNames(projectcss.all, sty.freeBox___04MeC)}>
           {p.renderPlasmicSlot({
             defaultContents: "Membership",
             value: args.children,
@@ -75,7 +57,6 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
         data-plasmic-override={overrides.elementNumberValueIntervalTermParent}
         hasGap={true}
         className={classNames(
-          defaultcss.all,
           projectcss.all,
           sty.elementNumberValueIntervalTermParent
         )}
@@ -83,26 +64,10 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__qOaV
-          )}
+          className={classNames(projectcss.all, sty.freeBox__qOaV)}
         >
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__gOClv
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__xHjU
-              )}
-            >
+          <div className={classNames(projectcss.all, sty.freeBox__gOClv)}>
+            <div className={classNames(projectcss.all, sty.freeBox__xHjU)}>
               {p.renderPlasmicSlot({
                 defaultContents: "$",
                 value: args.slot2,
@@ -111,20 +76,8 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
             </div>
           </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__m0Ufj
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__s51Ve
-              )}
-            >
+          <div className={classNames(projectcss.all, sty.freeBox__m0Ufj)}>
+            <div className={classNames(projectcss.all, sty.freeBox__s51Ve)}>
               {p.renderPlasmicSlot({
                 defaultContents: "50",
                 value: args.slot3,
@@ -133,20 +86,8 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
             </div>
           </div>
 
-          <div
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox___2DAj1
-            )}
-          >
-            <div
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.freeBox__z9Y91
-              )}
-            >
+          <div className={classNames(projectcss.all, sty.freeBox___2DAj1)}>
+            <div className={classNames(projectcss.all, sty.freeBox__z9Y91)}>
               {p.renderPlasmicSlot({
                 defaultContents: "/year",
                 value: args.slot4,
@@ -159,11 +100,7 @@ function PlasmicTablePricingPriceDisplay__RenderFunc(props) {
         <div
           data-plasmic-name={"descriptionTextParent"}
           data-plasmic-override={overrides.descriptionTextParent}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.descriptionTextParent
-          )}
+          className={classNames(projectcss.all, sty.descriptionTextParent)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Description",

@@ -18,7 +18,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicChipCategoryHeader.module.css"; // plasmic-import: W3C_J23Z38/css
 import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: alaRRmprOn/icon
@@ -44,77 +43,62 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.a,
-        projectcss.a,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_bgBlueLight]: hasVariant(
-            variants,
-            "color",
-            "bgBlueLight"
-          ),
+      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
+        [sty.root__color_bgBlueLight]: hasVariant(
+          variants,
+          "color",
+          "bgBlueLight"
+        ),
 
-          [sty.root__color_bgBrandLight]: hasVariant(
-            variants,
-            "color",
-            "bgBrandLight"
-          ),
+        [sty.root__color_bgBrandLight]: hasVariant(
+          variants,
+          "color",
+          "bgBrandLight"
+        ),
 
-          [sty.root__color_bgDarkA]: hasVariant(variants, "color", "bgDarkA"),
-          [sty.root__color_bgLightB]: hasVariant(variants, "color", "bgLightB"),
-          [sty.root__color_bgMagentaLight]: hasVariant(
-            variants,
-            "color",
-            "bgMagentaLight"
-          ),
+        [sty.root__color_bgDarkA]: hasVariant(variants, "color", "bgDarkA"),
+        [sty.root__color_bgLightB]: hasVariant(variants, "color", "bgLightB"),
+        [sty.root__color_bgMagentaLight]: hasVariant(
+          variants,
+          "color",
+          "bgMagentaLight"
+        ),
 
-          [sty.root__color_bgMagentaLight_size__180]:
-            hasVariant(variants, "color", "bgMagentaLight") &&
-            hasVariant(variants, "size", "_180"),
-          [sty.root__color_bgPinkLight]: hasVariant(
-            variants,
-            "color",
-            "bgPinkLight"
-          ),
+        [sty.root__color_bgMagentaLight_size__180]:
+          hasVariant(variants, "color", "bgMagentaLight") &&
+          hasVariant(variants, "size", "_180"),
+        [sty.root__color_bgPinkLight]: hasVariant(
+          variants,
+          "color",
+          "bgPinkLight"
+        ),
 
-          [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360")
-        }
-      )}
+        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360")
+      })}
       component={Link}
       platform={"nextjs"}
     >
       <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__uhVUx,
-          {
-            [sty.freeBox__size__180__uhVUxQnr2J]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            ),
+        className={classNames(projectcss.all, sty.freeBox__uhVUx, {
+          [sty.freeBox__size__180__uhVUxQnr2J]: hasVariant(
+            variants,
+            "size",
+            "_180"
+          ),
 
-            [sty.freeBox__size__360__uhVUxfWtpd]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            )
-          }
-        )}
+          [sty.freeBox__size__360__uhVUxfWtpd]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
             <ChevronRightIcon
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.svg__eEq7
-              )}
+              className={classNames(projectcss.all, sty.svg__eEq7)}
               role={"img"}
             />
           ),
@@ -149,38 +133,28 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       </div>
 
       <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__uu7Pz,
-          {
-            [sty.freeBox__size__360__uu7PzfWtpd]: hasVariant(
+        className={classNames(projectcss.all, sty.freeBox__uu7Pz, {
+          [sty.freeBox__size__360__uu7PzfWtpd]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          )
+        })}
+      >
+        <div
+          className={classNames(projectcss.all, sty.freeBox__qlHli, {
+            [sty.freeBox__color_bgDarkA__qlHli0VGYe]: hasVariant(
+              variants,
+              "color",
+              "bgDarkA"
+            ),
+
+            [sty.freeBox__size__360__qlHlIfWtpd]: hasVariant(
               variants,
               "size",
               "_360"
             )
-          }
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__qlHli,
-            {
-              [sty.freeBox__color_bgDarkA__qlHli0VGYe]: hasVariant(
-                variants,
-                "color",
-                "bgDarkA"
-              ),
-
-              [sty.freeBox__size__360__qlHlIfWtpd]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              )
-            }
-          )}
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Headline category",

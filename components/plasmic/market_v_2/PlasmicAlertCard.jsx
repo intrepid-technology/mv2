@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicAlertCard.module.css"; // plasmic-import: Kd4Jtco7N_/css
 
@@ -35,17 +34,12 @@ function PlasmicAlertCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <div
         data-plasmic-name={"badgeWrapper"}
         data-plasmic-override={overrides.badgeWrapper}
-        className={classNames(defaultcss.all, projectcss.all, sty.badgeWrapper)}
+        className={classNames(projectcss.all, sty.badgeWrapper)}
       >
         <ChipBadgeDisplay
           data-plasmic-name={"chipBadgeDisplay"}
@@ -61,11 +55,7 @@ function PlasmicAlertCard__RenderFunc(props) {
       <div
         data-plasmic-name={"contentWrapper"}
         data-plasmic-override={overrides.contentWrapper}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.contentWrapper
-        )}
+        className={classNames(projectcss.all, sty.contentWrapper)}
       >
         {p.renderPlasmicSlot({
           defaultContents:

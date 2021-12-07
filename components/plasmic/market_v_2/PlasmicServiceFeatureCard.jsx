@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServiceFeatureCard.module.css"; // plasmic-import: NNvsnnDA0J/css
 
@@ -38,28 +37,12 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__size_small]: hasVariant(variants, "size", "small") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size_small]: hasVariant(variants, "size", "small")
+      })}
     >
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__lyoyb
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__muod3
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__lyoyb)}>
+        <div className={classNames(projectcss.all, sty.freeBox__muod3)}>
           {p.renderPlasmicSlot({
             defaultContents: "20",
             value: args.slot,
@@ -74,20 +57,8 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
         </div>
       </div>
 
-      <div
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.freeBox__xNaRf
-        )}
-      >
-        <div
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.freeBox__i7XIs
-          )}
-        >
+      <div className={classNames(projectcss.all, sty.freeBox__xNaRf)}>
+        <div className={classNames(projectcss.all, sty.freeBox__i7XIs)}>
           {p.renderPlasmicSlot({
             defaultContents: "Components",
             value: args.children,

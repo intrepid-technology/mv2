@@ -19,7 +19,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCheckboxInput.module.css"; // plasmic-import: dB2P3uonwOO/css
 import CheckIcon from "./icons/PlasmicIcon__Check"; // plasmic-import: qh5y8H009Zz/icon
@@ -58,35 +57,29 @@ function PlasmicCheckboxInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-          [sty.root__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
-          [sty.root__isDisabled]: hasVariant(
-            variants,
-            "isDisabled",
-            "isDisabled"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
+        [sty.root__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
+        [sty.root__isDisabled]: hasVariant(
+          variants,
+          "isDisabled",
+          "isDisabled"
+        ),
 
-          [sty.root__isIndeterminate]: hasVariant(
-            variants,
-            "isIndeterminate",
-            "isIndeterminate"
-          ),
+        [sty.root__isIndeterminate]: hasVariant(
+          variants,
+          "isIndeterminate",
+          "isIndeterminate"
+        ),
 
-          [sty.root__noLabel]: hasVariant(variants, "noLabel", "noLabel")
-        }
-      )}
+        [sty.root__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+      })}
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
-        className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+        className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox_____focusVisibleWithin]:
             triggers.focusVisibleWithin_root,
           [sty.freeBox__isChecked]: hasVariant(
@@ -125,7 +118,7 @@ function PlasmicCheckboxInput__RenderFunc(props) {
                 ? Icon50Icon
                 : CheckIcon
             }
-            className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+            className={classNames(projectcss.all, sty.svg, {
               [sty.svg_____focusVisibleWithin]:
                 triggers.focusVisibleWithin_root,
               [sty.svg__isChecked]: hasVariant(
@@ -151,20 +144,15 @@ function PlasmicCheckboxInput__RenderFunc(props) {
         <div
           data-plasmic-name={"labelContainer"}
           data-plasmic-override={overrides.labelContainer}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.labelContainer,
-            {
-              [sty.labelContainer_____focusVisibleWithin]:
-                triggers.focusVisibleWithin_root,
-              [sty.labelContainer__noLabel]: hasVariant(
-                variants,
-                "noLabel",
-                "noLabel"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.labelContainer, {
+            [sty.labelContainer_____focusVisibleWithin]:
+              triggers.focusVisibleWithin_root,
+            [sty.labelContainer__noLabel]: hasVariant(
+              variants,
+              "noLabel",
+              "noLabel"
+            )
+          })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Enter some text",

@@ -18,7 +18,6 @@ import {
 } from "@plasmicapp/react-web";
 import CheckboxInput from "../../CheckboxInput"; // plasmic-import: dB2P3uonwOO/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFormCheckboxInput.module.css"; // plasmic-import: XuFJ5mD6RY/css
 
@@ -42,12 +41,7 @@ function PlasmicFormCheckboxInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <CheckboxInput
         data-plasmic-name={"checkboxInput"}

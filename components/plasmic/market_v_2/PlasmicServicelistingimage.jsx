@@ -22,7 +22,6 @@ import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // pl
 import ImageInput from "../../ImageInput"; // plasmic-import: lEht_5kSJO/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingimage.module.css"; // plasmic-import: 6x0YIR7aDko/css
 
@@ -44,7 +43,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
           data-plasmic-name={"root"}
@@ -53,7 +52,6 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -62,11 +60,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.serviceListingNavbar
-            )}
+            className={classNames(projectcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
@@ -89,22 +83,14 @@ function PlasmicServicelistingimage__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.freeBox__lc1Vo
-            )}
+            className={classNames(projectcss.all, sty.freeBox__lc1Vo)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionImageBlock"}
               data-plasmic-override={overrides.questionImageBlock}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.questionImageBlock
-              )}
+              className={classNames(projectcss.all, sty.questionImageBlock)}
             >
               <CardQuestionServiceListing
                 data-plasmic-name={"cardQuestionServiceListing"}
@@ -116,9 +102,8 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__r5CWc
                     )}
                   >
@@ -129,9 +114,8 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__ir20P
                   )}
                 >
@@ -142,11 +126,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.freeBox__wbEqK
-                )}
+                className={classNames(projectcss.all, sty.freeBox__wbEqK)}
               >
                 <ImageInput
                   data-plasmic-name={"servicePrimaryImageInput"}
@@ -160,11 +140,7 @@ function PlasmicServicelistingimage__RenderFunc(props) {
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(
-                    defaultcss.all,
-                    projectcss.all,
-                    sty.freeBox__uh1A1
-                  )}
+                  className={classNames(projectcss.all, sty.freeBox__uh1A1)}
                 >
                   <ImageInput
                     data-plasmic-name={"serviceImageInputOne"}

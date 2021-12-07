@@ -24,7 +24,6 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLandingPageBackup.module.css"; // plasmic-import: Afo7dYL8xuP/css
 import GlobeAmericaIcon from "./icons/PlasmicIcon__GlobeAmerica"; // plasmic-import: RRtaLxXmQA/icon
@@ -54,14 +53,13 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
             projectcss.all,
             projectcss.root_reset,
             sty.root
@@ -70,11 +68,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
           <div
             data-plasmic-name={"alertWrapper"}
             data-plasmic-override={overrides.alertWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.alertWrapper
-            )}
+            className={classNames(projectcss.all, sty.alertWrapper)}
           >
             <AlertCard
               data-plasmic-name={"alertCard"}
@@ -83,9 +77,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               content={
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__zArLc
                   )}
                 >
@@ -100,31 +93,19 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
             data-plasmic-name={"contentWrapper"}
             data-plasmic-override={overrides.contentWrapper}
             hasGap={true}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.contentWrapper
-            )}
+            className={classNames(projectcss.all, sty.contentWrapper)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"heroWrapper"}
               data-plasmic-override={overrides.heroWrapper}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.heroWrapper
-              )}
+              className={classNames(projectcss.all, sty.heroWrapper)}
             >
               <div
                 data-plasmic-name={"titleWrapper"}
                 data-plasmic-override={overrides.titleWrapper}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.titleWrapper
-                )}
+                className={classNames(projectcss.all, sty.titleWrapper)}
               >
                 <Typography
                   data-plasmic-name={"typography"}
@@ -134,9 +115,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__eLc8T
                     )}
                   >
@@ -150,25 +130,16 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               <div
                 data-plasmic-name={"subTitleWrapper"}
                 data-plasmic-override={overrides.subTitleWrapper}
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.subTitleWrapper
-                )}
+                className={classNames(projectcss.all, sty.subTitleWrapper)}
               >
                 {true ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__koOaK
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__koOaK)}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__dpb60
                       )}
                     >
@@ -178,9 +149,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                     {true ? (
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__z4Ox
                         )}
                       >
@@ -190,9 +160,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
 
                     <div
                       className={classNames(
-                        defaultcss.all,
                         projectcss.all,
-                        defaultcss.__wab_text,
+                        projectcss.__wab_text,
                         sty.text__qyRLc
                       )}
                     >
@@ -206,18 +175,13 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 ) : null}
                 {true ? (
                   <div
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.freeBox__mpeb0
-                    )}
+                    className={classNames(projectcss.all, sty.freeBox__mpeb0)}
                   >
                     {true ? (
                       <div
                         className={classNames(
-                          defaultcss.all,
                           projectcss.all,
-                          defaultcss.__wab_text,
+                          projectcss.__wab_text,
                           sty.text__qnAg9
                         )}
                       >
@@ -242,11 +206,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               data-plasmic-name={"actionsWrapper"}
               data-plasmic-override={overrides.actionsWrapper}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.actionsWrapper
-              )}
+              className={classNames(projectcss.all, sty.actionsWrapper)}
             >
               <ButtonPrimary
                 data-plasmic-name={"buyServicesButton"}
@@ -262,9 +222,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__qIwpe
                   )}
                 >
@@ -285,9 +244,8 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
                     projectcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.__wab_text,
                     sty.text__ulKSz
                   )}
                 >
@@ -301,11 +259,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
               data-plasmic-name={"descriptionPoints"}
               data-plasmic-override={overrides.descriptionPoints}
               hasGap={true}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.descriptionPoints
-              )}
+              className={classNames(projectcss.all, sty.descriptionPoints)}
             >
               <IconListItem
                 className={classNames(
@@ -314,20 +268,15 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 )}
                 icon={
                   <GlobeAmericaIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__rIzXb
-                    )}
+                    className={classNames(projectcss.all, sty.svg__rIzXb)}
                     role={"img"}
                   />
                 }
                 label={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__fcGv1
                     )}
                   >
@@ -350,20 +299,15 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 )}
                 icon={
                   <ShopCartIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg___874Xt
-                    )}
+                    className={classNames(projectcss.all, sty.svg___874Xt)}
                     role={"img"}
                   />
                 }
                 label={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__yLkC
                     )}
                   >
@@ -386,20 +330,15 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 )}
                 icon={
                   <P2PPayPaymentIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg__uhHV
-                    )}
+                    className={classNames(projectcss.all, sty.svg__uhHV)}
                     role={"img"}
                   />
                 }
                 label={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__sjahX
                     )}
                   >
@@ -424,20 +363,15 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 )}
                 icon={
                   <VerifiedIcon
-                    className={classNames(
-                      defaultcss.all,
-                      projectcss.all,
-                      sty.svg___31X8Z
-                    )}
+                    className={classNames(projectcss.all, sty.svg___31X8Z)}
                     role={"img"}
                   />
                 }
                 label={
                   <div
                     className={classNames(
-                      defaultcss.all,
                       projectcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.__wab_text,
                       sty.text__pjMuh
                     )}
                   >

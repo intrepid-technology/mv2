@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputTextPrimary.module.css"; // plasmic-import: a2XXnCI4Ss/css
 
@@ -37,18 +36,14 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__width__90]: hasVariant(variants, "width", "_90") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__width__90]: hasVariant(variants, "width", "_90")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(defaultcss.all, projectcss.all, sty.parent, {
+        className={classNames(projectcss.all, sty.parent, {
           [sty.parent__background_white]: hasVariant(
             variants,
             "background",
@@ -71,68 +66,43 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.textInput,
-            {
-              [sty.textInput__background_black]: hasVariant(
-                variants,
-                "background",
-                "black"
-              ),
+          className={classNames(projectcss.input, sty.textInput, {
+            [sty.textInput__background_black]: hasVariant(
+              variants,
+              "background",
+              "black"
+            ),
 
-              [sty.textInput__background_grey]: hasVariant(
-                variants,
-                "background",
-                "grey"
-              ),
+            [sty.textInput__background_grey]: hasVariant(
+              variants,
+              "background",
+              "grey"
+            ),
 
-              [sty.textInput__background_white]: hasVariant(
-                variants,
-                "background",
-                "white"
-              ),
+            [sty.textInput__background_white]: hasVariant(
+              variants,
+              "background",
+              "white"
+            ),
 
-              [sty.textInput__height__32]: hasVariant(
-                variants,
-                "height",
-                "_32"
-              ),
+            [sty.textInput__height__32]: hasVariant(variants, "height", "_32"),
+            [sty.textInput__height__36]: hasVariant(variants, "height", "_36"),
+            [sty.textInput__height__40]: hasVariant(variants, "height", "_40"),
+            [sty.textInput__height__48]: hasVariant(variants, "height", "_48"),
+            [sty.textInput__type_secondary]: hasVariant(
+              variants,
+              "type",
+              "secondary"
+            ),
 
-              [sty.textInput__height__36]: hasVariant(
-                variants,
-                "height",
-                "_36"
-              ),
+            [sty.textInput__type_underline]: hasVariant(
+              variants,
+              "type",
+              "underline"
+            ),
 
-              [sty.textInput__height__40]: hasVariant(
-                variants,
-                "height",
-                "_40"
-              ),
-
-              [sty.textInput__height__48]: hasVariant(
-                variants,
-                "height",
-                "_48"
-              ),
-
-              [sty.textInput__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              ),
-
-              [sty.textInput__type_underline]: hasVariant(
-                variants,
-                "type",
-                "underline"
-              ),
-
-              [sty.textInput__width__90]: hasVariant(variants, "width", "_90")
-            }
-          )}
+            [sty.textInput__width__90]: hasVariant(variants, "width", "_90")
+          })}
           placeholder={"Enter text"}
           size={1}
           type={"text"}

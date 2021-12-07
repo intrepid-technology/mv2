@@ -21,7 +21,6 @@ import FooterSocialLinkGroup from "../../FooterSocialLinkGroup"; // plasmic-impo
 import FooterSocialLink from "../../FooterSocialLink"; // plasmic-import: uQNvf8Lt2Y/component
 import FooterLink from "../../FooterLink"; // plasmic-import: V79E-hyi-E/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicFooterB.module.css"; // plasmic-import: kxeO2gTzwxU/css
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
@@ -40,16 +39,10 @@ function PlasmicFooterB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.root__color_light]: hasVariant(variants, "color", "light")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
+        [sty.root__color_light]: hasVariant(variants, "color", "light")
+      })}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
@@ -64,17 +57,12 @@ function PlasmicFooterB__RenderFunc(props) {
       <div
         data-plasmic-name={"addressFooter"}
         data-plasmic-override={overrides.addressFooter}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.addressFooter
-        )}
+        className={classNames(projectcss.all, sty.addressFooter)}
       >
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text___4TIqA,
             {
               [sty.text__color_dark___4TIqAsxLuv]: hasVariant(
@@ -107,7 +95,7 @@ function PlasmicFooterB__RenderFunc(props) {
         data-plasmic-name={"footerLegal"}
         data-plasmic-override={overrides.footerLegal}
         hasGap={true}
-        className={classNames(defaultcss.all, projectcss.all, sty.footerLegal)}
+        className={classNames(projectcss.all, sty.footerLegal)}
       >
         {false ? (
           <p.Stack
@@ -115,7 +103,7 @@ function PlasmicFooterB__RenderFunc(props) {
             data-plasmic-name={"social2"}
             data-plasmic-override={overrides.social2}
             hasGap={true}
-            className={classNames(defaultcss.all, projectcss.all, sty.social2)}
+            className={classNames(projectcss.all, sty.social2)}
           >
             <FooterSocialLink
               className={classNames(
@@ -131,11 +119,7 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__xDKo
-                )}
+                className={classNames(projectcss.all, sty.svg__xDKo)}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -147,11 +131,7 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg___2HpC
-                )}
+                className={classNames(projectcss.all, sty.svg___2HpC)}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -163,11 +143,7 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__ppPa
-                )}
+                className={classNames(projectcss.all, sty.svg__ppPa)}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -179,11 +155,7 @@ function PlasmicFooterB__RenderFunc(props) {
               )}
             >
               <Icon8Icon
-                className={classNames(
-                  defaultcss.all,
-                  projectcss.all,
-                  sty.svg__dk11L
-                )}
+                className={classNames(projectcss.all, sty.svg__dk11L)}
                 role={"img"}
               />
             </FooterSocialLink>
@@ -195,7 +167,7 @@ function PlasmicFooterB__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
-          className={classNames(defaultcss.all, projectcss.all, sty.freeBox, {
+          className={classNames(projectcss.all, sty.freeBox, {
             [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
           })}
         >
@@ -214,7 +186,6 @@ function PlasmicFooterB__RenderFunc(props) {
               }
             )}
             color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-            destination={"/privacy"}
             slot={
               hasVariant(variants, "color", "dark")
                 ? "Privacy"
@@ -239,7 +210,6 @@ function PlasmicFooterB__RenderFunc(props) {
               }
             )}
             color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
-            destination={"/terms"}
             slot={
               hasVariant(variants, "color", "dark")
                 ? "Terms"
@@ -252,9 +222,8 @@ function PlasmicFooterB__RenderFunc(props) {
 
         <div
           className={classNames(
-            defaultcss.all,
             projectcss.all,
-            defaultcss.__wab_text,
+            projectcss.__wab_text,
             sty.text__bl0Hs,
             {
               [sty.text__color_dark__bl0HssxLuv]: hasVariant(

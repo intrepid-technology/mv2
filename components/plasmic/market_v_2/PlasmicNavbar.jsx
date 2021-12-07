@@ -23,7 +23,6 @@ import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLp
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
 import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
@@ -46,48 +45,32 @@ function PlasmicNavbar__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__auth]: hasVariant(variants, "auth", "auth"),
-          [sty.root__dark]: hasVariant(variants, "dark", "dark")
-        }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__auth]: hasVariant(variants, "auth", "auth"),
+        [sty.root__dark]: hasVariant(variants, "dark", "dark")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"brandWrapper"}
         data-plasmic-override={overrides.brandWrapper}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.brandWrapper,
-          { [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth") }
-        )}
+        className={classNames(projectcss.all, sty.brandWrapper, {
+          [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
+        })}
       >
         {(hasVariant(variants, "auth", "auth") ? true : false) ? (
           <div
             data-plasmic-name={"iconWrapper"}
             data-plasmic-override={overrides.iconWrapper}
-            className={classNames(
-              defaultcss.all,
-              projectcss.all,
-              sty.iconWrapper,
-              { [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth") }
-            )}
+            className={classNames(projectcss.all, sty.iconWrapper, {
+              [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth")
+            })}
           >
             <MenuHamburgerIcon
               data-plasmic-name={"menuIcon"}
               data-plasmic-override={overrides.menuIcon}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.menuIcon
-              )}
+              className={classNames(projectcss.all, sty.menuIcon)}
               role={"img"}
             />
           </div>
@@ -124,12 +107,9 @@ function PlasmicNavbar__RenderFunc(props) {
           data-plasmic-name={"actionWrapper"}
           data-plasmic-override={overrides.actionWrapper}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.actionWrapper,
-            { [sty.actionWrapper__auth]: hasVariant(variants, "auth", "auth") }
-          )}
+          className={classNames(projectcss.all, sty.actionWrapper, {
+            [sty.actionWrapper__auth]: hasVariant(variants, "auth", "auth")
+          })}
         >
           <Button
             data-plasmic-name={"memberButton"}
@@ -138,14 +118,17 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.memberButton__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
-            destination={"/member/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? "https://form.typeform.com/to/qoNxle4D"
+                : "/member/pricing"
+            }
             type={"link"}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__uRxVz,
                 {
                   [sty.text__dark__uRxVz4SuRb]: hasVariant(
@@ -167,14 +150,17 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.memberButton2__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
-            destination={"/member/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? ""
+                : "/member/pricing"
+            }
             type={"link"}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__hQevM,
                 {
                   [sty.text__dark__hQevM4SuRb]: hasVariant(
@@ -196,16 +182,19 @@ function PlasmicNavbar__RenderFunc(props) {
               [sty.partnerButton__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
-            destination={"/partner/pricing"}
+            destination={
+              hasVariant(globalVariants, "screen", "desktop")
+                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
+                : "/partner/pricing"
+            }
             hasShadow={"hasShadow"}
             rounded={"rounded"}
             type={"primary"}
           >
             <div
               className={classNames(
-                defaultcss.all,
                 projectcss.all,
-                defaultcss.__wab_text,
+                projectcss.__wab_text,
                 sty.text__o407H
               )}
             >
@@ -218,18 +207,9 @@ function PlasmicNavbar__RenderFunc(props) {
         <div
           data-plasmic-name={"searchInputWrapper"}
           data-plasmic-override={overrides.searchInputWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.searchInputWrapper,
-            {
-              [sty.searchInputWrapper__auth]: hasVariant(
-                variants,
-                "auth",
-                "auth"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.searchInputWrapper, {
+            [sty.searchInputWrapper__auth]: hasVariant(variants, "auth", "auth")
+          })}
         >
           {(hasVariant(variants, "auth", "auth") ? true : true) ? (
             <SearchbarPrimary
@@ -254,18 +234,9 @@ function PlasmicNavbar__RenderFunc(props) {
         <div
           data-plasmic-name={"authActionsWrapper"}
           data-plasmic-override={overrides.authActionsWrapper}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.authActionsWrapper,
-            {
-              [sty.authActionsWrapper__auth]: hasVariant(
-                variants,
-                "auth",
-                "auth"
-              )
-            }
-          )}
+          className={classNames(projectcss.all, sty.authActionsWrapper, {
+            [sty.authActionsWrapper__auth]: hasVariant(variants, "auth", "auth")
+          })}
         >
           {(hasVariant(variants, "auth", "auth") ? true : false) ? (
             <Avatar
@@ -279,7 +250,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 data-plasmic-name={"img"}
                 data-plasmic-override={overrides.img}
                 alt={""}
-                className={classNames(defaultcss.img, projectcss.img, sty.img, {
+                className={classNames(projectcss.img, sty.img, {
                   [sty.img__auth]: hasVariant(variants, "auth", "auth")
                 })}
                 loading={"lazy"}

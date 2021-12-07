@@ -17,7 +17,6 @@ import {
 } from "@plasmicapp/react-web";
 import Breadcrumb from "../../Breadcrumb"; // plasmic-import: gTweajUNVw/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPageBreadcrumbs.module.css"; // plasmic-import: ZTbdEO5NC7/css
 
@@ -38,12 +37,7 @@ function PlasmicPageBreadcrumbs__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {p.renderPlasmicSlot({
         defaultContents: (

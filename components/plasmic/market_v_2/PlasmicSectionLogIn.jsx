@@ -20,7 +20,6 @@ import {
 import CardLogIn from "../../CardLogIn"; // plasmic-import: wTVVybnMbI4/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionLogIn.module.css"; // plasmic-import: 6EfwvreoWT/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
@@ -43,39 +42,26 @@ function PlasmicSectionLogIn__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.parent
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.parent)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"loginHeadlineParent"}
         data-plasmic-override={overrides.loginHeadlineParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.loginHeadlineParent
-        )}
+        className={classNames(projectcss.all, sty.loginHeadlineParent)}
       >
         <p.Stack
           as={"div"}
           data-plasmic-name={"loginHeadlineText"}
           data-plasmic-override={overrides.loginHeadlineText}
           hasGap={true}
-          className={classNames(
-            defaultcss.all,
-            projectcss.all,
-            sty.loginHeadlineText
-          )}
+          className={classNames(projectcss.all, sty.loginHeadlineText)}
         >
           <p.PlasmicLink
             data-plasmic-name={"svgLinkDiv"}
             data-plasmic-override={overrides.svgLinkDiv}
-            className={classNames(defaultcss.a, projectcss.a, sty.svgLinkDiv)}
+            className={classNames(projectcss.a, sty.svgLinkDiv)}
             component={Link}
             href={"/"}
             platform={"nextjs"}
@@ -83,7 +69,7 @@ function PlasmicSectionLogIn__RenderFunc(props) {
             <Icon43Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg)}
+              className={classNames(projectcss.all, sty.svg)}
               role={"img"}
             />
           </p.PlasmicLink>
@@ -92,9 +78,8 @@ function PlasmicSectionLogIn__RenderFunc(props) {
             data-plasmic-name={"text"}
             data-plasmic-override={overrides.text}
             className={classNames(
-              defaultcss.all,
               projectcss.all,
-              defaultcss.__wab_text,
+              projectcss.__wab_text,
               sty.text
             )}
           >

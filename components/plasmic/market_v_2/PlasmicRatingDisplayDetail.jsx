@@ -19,7 +19,6 @@ import {
 import RatingScore from "../../RatingScore"; // plasmic-import: Us1NtWl4Zs/component
 import RatingReviewAmount from "../../RatingReviewAmount"; // plasmic-import: DQHOPKeiwL/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicRatingDisplayDetail.module.css"; // plasmic-import: e_QdjWvrde/css
 import SuperpowerIcon from "./icons/PlasmicIcon__Superpower"; // plasmic-import: ntMd1ebAoa/icon
@@ -45,17 +44,12 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <SuperpowerIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
-        className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+        className={classNames(projectcss.all, sty.svg, {
           [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
           [sty.svg__size__16]: hasVariant(variants, "size", "_16")
         })}

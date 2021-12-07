@@ -17,7 +17,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMultiSelectOption.module.css"; // plasmic-import: i_xE2f64UA/css
 
@@ -37,31 +36,21 @@ function PlasmicMultiSelectOption__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        {
-          [sty.root__isDisabled]: hasVariant(
-            variants,
-            "isDisabled",
-            "isDisabled"
-          ),
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__isDisabled]: hasVariant(
+          variants,
+          "isDisabled",
+          "isDisabled"
+        ),
 
-          [sty.root__isHighlighted]: hasVariant(
-            variants,
-            "isHighlighted",
-            "isHighlighted"
-          ),
+        [sty.root__isHighlighted]: hasVariant(
+          variants,
+          "isHighlighted",
+          "isHighlighted"
+        ),
 
-          [sty.root__isSelected]: hasVariant(
-            variants,
-            "isSelected",
-            "isSelected"
-          )
-        }
-      )}
+        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
+      })}
     >
       {p.renderPlasmicSlot({
         defaultContents: "Option",

@@ -16,7 +16,6 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicImageInput.module.css"; // plasmic-import: lEht_5kSJO/css
 import Icon105Icon from "./icons/PlasmicIcon__Icon105"; // plasmic-import: oRZoGOt72t/icon
@@ -33,19 +32,15 @@ function PlasmicImageInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root,
-        { [sty.root__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl") }
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl")
+      })}
     >
       {(hasVariant(variants, "imageUrl", "imageUrl") ? true : true) ? (
         <label
           data-plasmic-name={"label"}
           data-plasmic-override={overrides.label}
-          className={classNames(defaultcss.all, projectcss.all, sty.label, {
+          className={classNames(projectcss.all, sty.label, {
             [sty.label__imageUrl]: hasVariant(variants, "imageUrl", "imageUrl")
           })}
         >
@@ -53,7 +48,7 @@ function PlasmicImageInput__RenderFunc(props) {
             <Icon105Icon
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, projectcss.all, sty.svg, {
+              className={classNames(projectcss.all, sty.svg, {
                 [sty.svg__imageUrl]: hasVariant(
                   variants,
                   "imageUrl",
@@ -68,18 +63,13 @@ function PlasmicImageInput__RenderFunc(props) {
               data-plasmic-name={"backgroundImage"}
               data-plasmic-override={overrides.backgroundImage}
               alt={""}
-              className={classNames(
-                defaultcss.img,
-                projectcss.img,
-                sty.backgroundImage,
-                {
-                  [sty.backgroundImage__imageUrl]: hasVariant(
-                    variants,
-                    "imageUrl",
-                    "imageUrl"
-                  )
-                }
-              )}
+              className={classNames(projectcss.img, sty.backgroundImage, {
+                [sty.backgroundImage__imageUrl]: hasVariant(
+                  variants,
+                  "imageUrl",
+                  "imageUrl"
+                )
+              })}
               loading={"lazy"}
             />
           ) : null}

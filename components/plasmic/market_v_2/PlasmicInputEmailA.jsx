@@ -20,7 +20,6 @@ import {
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicInputEmailA.module.css"; // plasmic-import: Umu_QfvTrP/css
 
@@ -42,56 +41,41 @@ function PlasmicInputEmailA__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(
-        defaultcss.all,
-        projectcss.all,
-        projectcss.root_reset,
-        sty.root
-      )}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"inputEmailParent"}
         data-plasmic-override={overrides.inputEmailParent}
         hasGap={true}
-        className={classNames(
-          defaultcss.all,
-          projectcss.all,
-          sty.inputEmailParent,
-          {
-            [sty.inputEmailParent__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
+        className={classNames(projectcss.all, sty.inputEmailParent, {
+          [sty.inputEmailParent__size__360]: hasVariant(
+            variants,
+            "size",
+            "_360"
+          ),
 
-            [sty.inputEmailParent__size__540]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            ),
+          [sty.inputEmailParent__size__540]: hasVariant(
+            variants,
+            "size",
+            "_540"
+          ),
 
-            [sty.inputEmailParent__size__720]: hasVariant(
-              variants,
-              "size",
-              "_720"
-            )
-          }
-        )}
+          [sty.inputEmailParent__size__720]: hasVariant(
+            variants,
+            "size",
+            "_720"
+          )
+        })}
       >
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(
-            defaultcss.input,
-            projectcss.input,
-            sty.textInput,
-            {
-              [sty.textInput__size__360]: hasVariant(variants, "size", "_360"),
-              [sty.textInput__size__540]: hasVariant(variants, "size", "_540"),
-              [sty.textInput__size__720]: hasVariant(variants, "size", "_720")
-            }
-          )}
+          className={classNames(projectcss.input, sty.textInput, {
+            [sty.textInput__size__360]: hasVariant(variants, "size", "_360"),
+            [sty.textInput__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.textInput__size__720]: hasVariant(variants, "size", "_720")
+          })}
           placeholder={"Enter your email address"}
           size={1}
           type={"text"}
