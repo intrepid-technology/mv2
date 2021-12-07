@@ -70,7 +70,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "The easy way for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 countries."
+            "The easy way for startups, remote, and hybrid companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries."
           }
         />
 
