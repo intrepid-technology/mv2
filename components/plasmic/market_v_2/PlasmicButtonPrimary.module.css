@@ -8,6 +8,8 @@
   position: relative;
   background: #101010;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
   border-radius: 4px;
   padding: 8px 12px;
   border: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
@@ -56,7 +58,7 @@
 .buttonPrimary__type_secondary {
   background: #ffffff;
   border-style: solid;
-  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border-color: #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
 .buttonPrimary__size__270 {
   width: 270px;
@@ -85,6 +87,10 @@
 .buttonPrimary__type_outline {
   background: #ffffff;
   border-style: solid;
+  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.buttonPrimary__type_icon {
+  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .buttonPrimary__type_link {
   background: none;
@@ -570,7 +576,7 @@
   color: #f8f8ff /* plasmic-token: ABHLsGb8o */;
 }
 .slotTargetChildren__type_outline {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .slotTargetChildren__type_link {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;

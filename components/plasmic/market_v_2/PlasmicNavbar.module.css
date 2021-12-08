@@ -178,6 +178,11 @@
   font-size: 16px;
   font-weight: 600;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__o407H {
+    font-weight: 500;
+  }
+}
 .searchInputWrapper {
   display: flex;
   position: relative;

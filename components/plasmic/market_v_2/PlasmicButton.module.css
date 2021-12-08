@@ -7,6 +7,9 @@
   width: auto;
   height: auto;
 }
+.root__type_primary_color_brand:hover {
+  backface-visibility: hidden;
+}
 .button {
   display: flex;
   width: 100%;
@@ -16,6 +19,8 @@
   background: #101010;
   cursor: pointer;
   height: 100%;
+  transition-property: all;
+  transition-duration: 0.5s;
   min-width: 0;
   min-height: 0;
   border-radius: 4px;
@@ -267,6 +272,8 @@
 }
 .root:hover .button {
   background: #ffffff;
+  transform-origin: 50% 50%;
+  backface-visibility: hidden;
   border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__type_secondary:hover .button__type_secondary {
@@ -292,6 +299,7 @@
   border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_brand:hover .button__color_brand {
+  background: #6633ff;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .root__type_secondary_color_brand:hover .button__type_secondary_color_brand {
@@ -567,7 +575,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_brand:hover .slotTargetChildren__color_brand {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__type_outline_color_brand:hover
   .slotTargetChildren__type_outline_color_brand {
