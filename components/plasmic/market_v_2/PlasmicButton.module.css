@@ -18,8 +18,8 @@
   height: 100%;
   min-width: 0;
   min-height: 0;
-  border-radius: 0px;
-  padding: 6px 10px;
+  border-radius: 4px;
+  padding: 8px 12px;
   border: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .button__color_success {
@@ -95,9 +95,9 @@
   border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .button__color_brand {
-  background: #6633ff;
+  background: #5229cc;
   border-style: none;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .button__type_secondary_color_brand {
   background: #ffffff;
@@ -365,10 +365,13 @@
 .root__type_light_color_magenta:hover .button__type_light_color_magenta {
   border-color: #d65cff /* plasmic-token: Iwo8OE18Y */;
 }
+.root__color_brand_rounded:hover .button__color_brand_rounded {
+  background: #6633ff;
+}
 .slotTargetChildren {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-weight: 500;
-  line-height: 1;
+  line-height: 24px;
   font-size: 16px;
 }
 .slotTargetChildren__color_light {
@@ -669,4 +672,7 @@
 .root__type_light_color_magenta:hover
   .slotTargetChildren__type_light_color_magenta {
   color: #cc33ff /* plasmic-token: m2LiiC3to */;
+}
+.root__color_brand_rounded:hover .slotTargetChildren__color_brand_rounded {
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

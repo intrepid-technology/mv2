@@ -48,6 +48,9 @@ function PlasmicButton__RenderFunc(props) {
         [sty.root__color_alert]: hasVariant(variants, "color", "alert"),
         [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_brand_rounded]:
+          hasVariant(variants, "color", "brand") &&
+          hasVariant(variants, "rounded", "rounded"),
         [sty.root__color_caution]: hasVariant(variants, "color", "caution"),
         [sty.root__color_light]: hasVariant(variants, "color", "light"),
         [sty.root__color_light_type_link]:
@@ -196,6 +199,9 @@ function PlasmicButton__RenderFunc(props) {
           [sty.button__color_alert]: hasVariant(variants, "color", "alert"),
           [sty.button__color_blue]: hasVariant(variants, "color", "blue"),
           [sty.button__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.button__color_brand_rounded]:
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "rounded", "rounded"),
           [sty.button__color_caution]: hasVariant(variants, "color", "caution"),
           [sty.button__color_light]: hasVariant(variants, "color", "light"),
           [sty.button__color_light_type_link]:
@@ -368,6 +374,9 @@ function PlasmicButton__RenderFunc(props) {
               "brand"
             ),
 
+            [sty.slotTargetChildren__color_brand_rounded]:
+              hasVariant(variants, "color", "brand") &&
+              hasVariant(variants, "rounded", "rounded"),
             [sty.slotTargetChildren__color_light]: hasVariant(
               variants,
               "color",

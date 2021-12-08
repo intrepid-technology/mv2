@@ -252,6 +252,39 @@ function PlasmicButtonPrimary__RenderFunc(props) {
           [sty.buttonPrimary__type_outline_color_warning]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "warning"),
+          [sty.buttonPrimary__type_primary]: hasVariant(
+            variants,
+            "type",
+            "primary"
+          ),
+
+          [sty.buttonPrimary__type_primary_color_brand]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.buttonPrimary__type_primary_color_brand_rounded]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "rounded", "rounded"),
+          [sty.buttonPrimary__type_primary_color_brand_size__120]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_120"),
+          [sty.buttonPrimary__type_primary_color_brand_size__140]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_140"),
+          [sty.buttonPrimary__type_primary_color_brand_size__180]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_180"),
+          [sty.buttonPrimary__type_primary_color_brand_size__360]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_360"),
+          [sty.buttonPrimary__type_primary_color_brand_size__90]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "size", "_90"),
           [sty.buttonPrimary__type_primary_state_disabled]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "state", "disabled"),
@@ -674,6 +707,15 @@ function PlasmicButtonPrimary__RenderFunc(props) {
               [sty.slotTargetChildren__type_outline_color_warning]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "warning"),
+              [sty.slotTargetChildren__type_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
+
+              [sty.slotTargetChildren__type_primary_color_brand]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "brand"),
               [sty.slotTargetChildren__type_primary_state_disabled]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "state", "disabled"),
