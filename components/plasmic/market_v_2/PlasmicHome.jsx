@@ -873,6 +873,12 @@ function PlasmicHome__RenderFunc(props) {
                                   "iphone678Plus"
                                 )
                                   ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."
+                                  : hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "desktop"
+                                    )
+                                  ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 countries, with services across web development, mobile development, no code, branding, and design."
                                   : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
                               </div>
                             </div>
@@ -972,7 +978,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."
+                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that your startup, or scale up can be flexible and compete with the big-tech giants."
                                   : "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."}
                               </div>
                             </div>
@@ -1055,7 +1061,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Pay your freelancers and agencies in 150 different countries with one-click"
+                              ? "Pay your freelancers and agencies in 150 countries with one-click"
                               : "Pay your freelancers and agencies in 150 different countries with one-click"}
                           </div>
 
