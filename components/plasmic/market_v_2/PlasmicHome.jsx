@@ -452,7 +452,9 @@ function PlasmicHome__RenderFunc(props) {
 
                   <CardFeatureHeadlineDescriptionCentered
                     bodyTextSlot={
-                      hasVariant(globalVariants, "screen", "desktop")
+                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                        ? "Finance your product development, hire and onboard at no risk and go to market fast with a line of credit"
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "Finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
                         : "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
                     }
@@ -533,7 +535,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text___3PMT
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Adapt and navigate your remote work transformation and make your team happy"
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Adapt and navigate your\nremote work transformation\nand make your team happy"
                       : "Adapt and navigate your\nremote work transformation\nand make your team happy"}
                   </div>
@@ -622,7 +626,9 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zKr39
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Workforce recommendations that match your needs and save you time without endless searching"
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Workforce recommendations that match your needs and save you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>

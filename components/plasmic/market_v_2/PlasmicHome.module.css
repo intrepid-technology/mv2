@@ -1094,7 +1094,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .text__kTRu {
     width: 100%;
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
     min-width: 0;
   }
@@ -1126,7 +1126,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__dbN4 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .freeBox__evqum {
@@ -1520,7 +1520,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text___3PMT {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 .text___4YJnh {
@@ -1548,7 +1548,12 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text___4YJnh {
-    font-size: 20px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 375px) {
+  .text___4YJnh {
+    max-width: none;
   }
 }
 .freeBox__srSmU {
@@ -1783,7 +1788,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .text__dUKbZ {
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .freeBox___7V9Yb {
@@ -2290,7 +2295,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__hgXx {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -2337,6 +2342,13 @@
     left: auto;
     top: auto;
     max-width: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .img__r8Lts {
+    height: 100%;
+    max-width: none;
+    min-height: 0;
   }
 }
 .financialServices {
@@ -2698,8 +2710,11 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .img__lLh {
-    max-width: 70%;
-    border-radius: 32px;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    min-width: 0;
+    border-radius: 64px;
   }
 }
 .internationalPayments {
@@ -3010,7 +3025,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text___6DqXv {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -3065,6 +3080,8 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .img__xs5Ij {
     box-shadow: 0px 8px 16px 8px #eaeaea /* plasmic-token: t2DPA2Clx */;
+    height: 100%;
+    min-height: 0;
     border-width: 1px;
   }
 }
@@ -3434,6 +3451,8 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .img__dCeHn {
+    height: 100%;
+    min-height: 0;
     border-radius: 12px;
   }
 }
@@ -3748,7 +3767,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__lLIsF {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -3803,6 +3822,12 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .img__gJY {
     border-radius: 12px;
+  }
+}
+@media (max-width: 375px) {
+  .img__gJY {
+    height: 100%;
+    min-height: 0;
   }
 }
 .workforceManagement {
@@ -4108,7 +4133,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__fvLxY {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -4162,6 +4187,8 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .img__fTfiA {
+    height: 100%;
+    min-height: 0;
     border-radius: 12px;
   }
 }
@@ -4329,7 +4356,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__e70Ma {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 .text__zjBn {
