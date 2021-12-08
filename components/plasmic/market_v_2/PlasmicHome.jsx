@@ -231,7 +231,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries—run a global and remote workforce that scales on demand from anywhere in the world."
+                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—run your global workforce and scale on demand from anywhere in the world."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
