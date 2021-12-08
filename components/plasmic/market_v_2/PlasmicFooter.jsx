@@ -145,6 +145,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
               slot={"Pricing"}
             />
 
@@ -157,7 +158,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={"https://form.typeform.com/to/qoNxle4D"}
+              destination={"https://intrepidventures.typeform.com/to/qoNxle4D"}
               slot={"Sell on Intrepid"}
             />
           </p.Stack>

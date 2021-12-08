@@ -156,14 +156,14 @@
   > img {
   margin-left: 16px;
 }
-.memberButton:global(.__wab_instance) {
+.sellOnIntrepidButton:global(.__wab_instance) {
   position: relative;
 }
 .text__uRxVz {
   white-space: pre;
   font-size: 14px;
 }
-.memberButton2:global(.__wab_instance) {
+.pricingNavButton:global(.__wab_instance) {
   position: relative;
 }
 .text__hQevM {

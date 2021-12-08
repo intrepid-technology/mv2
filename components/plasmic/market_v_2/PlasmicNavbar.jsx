@@ -112,16 +112,20 @@ function PlasmicNavbar__RenderFunc(props) {
           })}
         >
           <Button
-            data-plasmic-name={"memberButton"}
-            data-plasmic-override={overrides.memberButton}
-            className={classNames("__wab_instance", sty.memberButton, {
-              [sty.memberButton__dark]: hasVariant(variants, "dark", "dark")
+            data-plasmic-name={"sellOnIntrepidButton"}
+            data-plasmic-override={overrides.sellOnIntrepidButton}
+            className={classNames("__wab_instance", sty.sellOnIntrepidButton, {
+              [sty.sellOnIntrepidButton__dark]: hasVariant(
+                variants,
+                "dark",
+                "dark"
+              )
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
               hasVariant(globalVariants, "screen", "desktop")
                 ? "https://form.typeform.com/to/qoNxle4D"
-                : "/member/pricing"
+                : "https://intrepidventures.typeform.com/to/qoNxle4D"
             }
             type={"link"}
           >
@@ -144,16 +148,16 @@ function PlasmicNavbar__RenderFunc(props) {
           </Button>
 
           <Button
-            data-plasmic-name={"memberButton2"}
-            data-plasmic-override={overrides.memberButton2}
-            className={classNames("__wab_instance", sty.memberButton2, {
-              [sty.memberButton2__dark]: hasVariant(variants, "dark", "dark")
+            data-plasmic-name={"pricingNavButton"}
+            data-plasmic-override={overrides.pricingNavButton}
+            className={classNames("__wab_instance", sty.pricingNavButton, {
+              [sty.pricingNavButton__dark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
               hasVariant(globalVariants, "screen", "desktop")
                 ? ""
-                : "/member/pricing"
+                : "https://intrepidventures.typeform.com/to/MthpVWrA"
             }
             type={"link"}
           >
@@ -278,8 +282,8 @@ const PlasmicDescendants = {
     "menuIcon",
     "navbarLogo",
     "actionWrapper",
-    "memberButton",
-    "memberButton2",
+    "sellOnIntrepidButton",
+    "pricingNavButton",
     "partnerButton",
     "searchInputWrapper",
     "searchbarPrimary",
@@ -294,13 +298,13 @@ const PlasmicDescendants = {
   navbarLogo: ["navbarLogo"],
   actionWrapper: [
     "actionWrapper",
-    "memberButton",
-    "memberButton2",
+    "sellOnIntrepidButton",
+    "pricingNavButton",
     "partnerButton"
   ],
 
-  memberButton: ["memberButton"],
-  memberButton2: ["memberButton2"],
+  sellOnIntrepidButton: ["sellOnIntrepidButton"],
+  pricingNavButton: ["pricingNavButton"],
   partnerButton: ["partnerButton"],
   searchInputWrapper: ["searchInputWrapper", "searchbarPrimary"],
   searchbarPrimary: ["searchbarPrimary"],
@@ -345,8 +349,8 @@ export const PlasmicNavbar = Object.assign(
     menuIcon: makeNodeComponent("menuIcon"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     actionWrapper: makeNodeComponent("actionWrapper"),
-    memberButton: makeNodeComponent("memberButton"),
-    memberButton2: makeNodeComponent("memberButton2"),
+    sellOnIntrepidButton: makeNodeComponent("sellOnIntrepidButton"),
+    pricingNavButton: makeNodeComponent("pricingNavButton"),
     partnerButton: makeNodeComponent("partnerButton"),
     searchInputWrapper: makeNodeComponent("searchInputWrapper"),
     searchbarPrimary: makeNodeComponent("searchbarPrimary"),
