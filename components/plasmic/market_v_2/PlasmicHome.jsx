@@ -197,7 +197,7 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "desktop"
                                   )
-                                    ? "Run your remote company and live your best life"
+                                    ? "Run your remote company from anywhere and scale on demand"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -219,7 +219,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries—so you can run a global and remote workforce that scales on demand from anywhere in the world."
+                              ? "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries—run a global and remote workforce that scales on demand from anywhere in the world."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -371,7 +371,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Business management software that gives your remote company superpowers"
+                      ? "Workforce management software that gives your remote company superpowers"
                       : "Business management software that gives your remote company superpowers"}
                   </div>
 

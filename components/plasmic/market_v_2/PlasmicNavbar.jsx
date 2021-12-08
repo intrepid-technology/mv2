@@ -124,7 +124,7 @@ function PlasmicNavbar__RenderFunc(props) {
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
               hasVariant(globalVariants, "screen", "desktop")
-                ? "https://form.typeform.com/to/qoNxle4D"
+                ? "https://intrepidventures.typeform.com/to/qoNxle4D"
                 : "https://intrepidventures.typeform.com/to/qoNxle4D"
             }
             type={"link"}
@@ -156,7 +156,7 @@ function PlasmicNavbar__RenderFunc(props) {
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
               hasVariant(globalVariants, "screen", "desktop")
-                ? ""
+                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                 : "https://intrepidventures.typeform.com/to/MthpVWrA"
             }
             type={"link"}
