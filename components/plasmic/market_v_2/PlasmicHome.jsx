@@ -54,13 +54,15 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <meta name="twitter:card" content="summary" />
         <title key="title">
-          {"Remote company and freelancer management | Intrepid Remote OS"}
+          {
+            "Remote company and global workforce management | Intrepid Remote OS"
+          }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Remote company and freelancer management | Intrepid Remote OS"
+            "Remote company and global workforce management | Intrepid Remote OS"
           }
         />
 
@@ -69,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "The easy way for startups, remote, and hybrid companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries."
+            "Run a remote company from anywhere and manage a global workforce that scales on demand. Find, hire, and pay high quality freelancers & agencies in 150 countries."
           }
         />
 
@@ -77,7 +79,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/a347786c3d3353a0e03adb213685bbc2.png"
+            "https://site-assets.plasmic.app/f1b0f518bf0bf3e9c972685481f37818.png"
           }
         />
       </Head>
