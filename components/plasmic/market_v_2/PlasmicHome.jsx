@@ -55,14 +55,14 @@ function PlasmicHome__RenderFunc(props) {
         <meta name="twitter:card" content="summary" />
         <title key="title">
           {
-            "Remote company and global workforce management | Intrepid Remote OS"
+            "Remote company and global workforce management solutions | Intrepid Remote OS"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Remote company and global workforce management | Intrepid Remote OS"
+            "Remote company and global workforce management solutions | Intrepid Remote OS"
           }
         />
 
@@ -446,7 +446,9 @@ function PlasmicHome__RenderFunc(props) {
 
                   <CardFeatureHeadlineDescriptionCentered
                     bodyTextSlot={
-                      "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
+                      hasVariant(globalVariants, "screen", "desktop")
+                        ? "Finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
+                        : "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
                     }
                     className={classNames(
                       "__wab_instance",
@@ -615,7 +617,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Freelancer and agency recommendations that match your needs and save you time without endless searching"
+                      ? "Workforce recommendations that match your needs and save you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 

@@ -114,9 +114,10 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .columns__dK5 {
     width: 100%;
-    height: auto;
+    height: 100%;
     flex-direction: row;
     min-width: 0;
+    min-height: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -124,6 +125,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     min-width: 0;
+    min-height: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 0px);
@@ -245,7 +247,6 @@
   .freeBox__b2E2Q {
     height: auto;
     width: auto;
-    max-width: none;
     display: flex;
     padding: 0px;
   }
@@ -342,6 +343,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .freeBox__ukmZ2 {
+    max-width: none;
     padding: 0px;
   }
 }
@@ -375,8 +377,10 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox___7DeVr {
-    width: auto;
+    width: 100%;
     max-width: none;
+    height: auto;
+    min-width: 0;
     display: flex;
     padding: 0px;
   }
@@ -385,6 +389,7 @@
   .freeBox___7DeVr > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
+    min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
@@ -407,6 +412,11 @@
 .badgeSectionTitle__qXub9:global(.__wab_instance) {
   max-width: 100%;
 }
+@media (min-width: 0px) and (max-width: 414px) {
+  .badgeSectionTitle__qXub9:global(.__wab_instance) {
+    align-self: center;
+  }
+}
 .freeBox__xtE7 {
   display: flex;
   position: relative;
@@ -420,7 +430,8 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__xtE7 {
-    width: auto;
+    width: 100%;
+    min-width: 0;
     display: flex;
     padding: 0px;
   }
@@ -439,7 +450,7 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text__yN3P {
-    width: auto;
+    width: 100%;
     height: auto;
     max-width: none;
     font-family: "Inter", sans-serif;
@@ -449,13 +460,16 @@
     text-align: left;
     line-height: 1.2;
     letter-spacing: normal;
+    min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__yN3P {
-    text-align: left;
-    font-size: 48px;
+    text-align: center;
+    font-size: 40px;
     line-height: 1.2;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 .freeBox__qNvgm {
@@ -472,6 +486,7 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__qNvgm {
     width: auto;
+    max-width: none;
     padding: 0px;
   }
 }
@@ -507,6 +522,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .text__ztd5X {
     text-align: center;
+    font-size: 16px;
   }
 }
 .button__zheXn:global(.__wab_instance) {
@@ -743,7 +759,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .slotTargetChildren {
-    font-size: 32px;
+    font-size: 24px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     letter-spacing: normal;
@@ -1065,7 +1081,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .text__kTRu {
     width: 100%;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
     min-width: 0;
   }
@@ -1703,12 +1719,13 @@
     text-align: center;
     line-height: 1.2;
     letter-spacing: normal;
+    padding-top: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__zKr39 {
     width: 100%;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
     min-width: 0;
   }
@@ -4151,7 +4168,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__e70Ma {
-    font-size: 64px;
+    font-size: 48px;
   }
 }
 .text__zjBn {
@@ -4181,7 +4198,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__zjBn {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .freeBox__d9YM7 {
@@ -4596,7 +4613,7 @@
 }
 @media (min-width: 0px) and (max-width: 414px) {
   .text__rlmQe {
-    font-size: 36px;
+    font-size: 40px;
   }
 }
 .text__svmxW {
@@ -4625,7 +4642,7 @@
 @media (min-width: 0px) and (max-width: 414px) {
   .text__svmxW {
     max-width: none;
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 .freeBox__o6JpK {
