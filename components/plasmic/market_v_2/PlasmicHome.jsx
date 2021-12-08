@@ -195,8 +195,14 @@ function PlasmicHome__RenderFunc(props) {
                                   {hasVariant(
                                     globalVariants,
                                     "screen",
-                                    "desktop"
+                                    "iphone678Plus"
                                   )
+                                    ? "Run your remote company from anywhere and\nscale on demand"
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "desktop"
+                                      )
                                     ? "Run your remote company from anywhere and scale on demand"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
