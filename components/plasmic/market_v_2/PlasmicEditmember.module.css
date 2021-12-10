@@ -38,7 +38,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfile {
     padding: 16px;
   }
@@ -88,7 +88,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditProfile {
     width: 100%;
     left: auto;
@@ -96,7 +96,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditProfile > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -136,13 +136,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberPersonalVerification {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberPersonalVerification > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: center;
@@ -190,7 +190,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberPersonalNameGroup > :global(.__wab_flex-container) {
     align-content: center;
     justify-content: center;
@@ -200,7 +200,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberPersonalNameGroup > :global(.__wab_flex-container) > *,
   .memberPersonalNameGroup
     > :global(.__wab_flex-container)
@@ -256,13 +256,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberImage {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberImage > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -405,13 +405,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberUsername {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberUsername > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -544,14 +544,14 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberDescription {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberDescription > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -651,7 +651,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfileDetails {
     width: auto;
     padding: 16px;
@@ -676,7 +676,7 @@
   position: relative;
   width: 550px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberDetailsForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -713,7 +713,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditDetails {
     width: auto;
     left: auto;
@@ -749,13 +749,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLocation {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLocation > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -801,13 +801,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -816,7 +816,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup > :global(.__wab_flex-container) > *,
   .memberLocationGroup
     > :global(.__wab_flex-container)
@@ -867,13 +867,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberIndustry {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberIndustry > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -919,13 +919,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberIndustryGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberIndustryGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -934,7 +934,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberIndustryGroup > :global(.__wab_flex-container) > *,
   .memberIndustryGroup
     > :global(.__wab_flex-container)
@@ -988,13 +988,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLanguages {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLanguages > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1040,13 +1040,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLanguages {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLanguages > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -1055,7 +1055,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLanguages > :global(.__wab_flex-container) > *,
   .inputGroupMemberLanguages
     > :global(.__wab_flex-container)
@@ -1252,7 +1252,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfileSocial {
     padding: 16px;
   }
@@ -1275,7 +1275,7 @@
 .memberSocialForm:global(.__wab_instance) {
   position: relative;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberSocialForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -1310,7 +1310,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditSocial {
     width: auto;
     left: auto;
@@ -1347,13 +1347,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberWebsite {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberWebsite > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1399,13 +1399,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberSocial {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardMemberSocial > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1424,7 +1424,7 @@
 .socialPlatformsSwitchInputs:global(.__wab_instance) {
   position: relative;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .socialPlatformsSwitchInputs:global(.__wab_instance) {
     width: 100%;
     min-width: 0;

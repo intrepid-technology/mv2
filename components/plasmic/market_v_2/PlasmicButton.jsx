@@ -48,6 +48,9 @@ function PlasmicButton__RenderFunc(props) {
         [sty.root__color_alert]: hasVariant(variants, "color", "alert"),
         [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
         [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
+        [sty.root__color_brand_rounded]:
+          hasVariant(variants, "color", "brand") &&
+          hasVariant(variants, "rounded", "rounded"),
         [sty.root__color_caution]: hasVariant(variants, "color", "caution"),
         [sty.root__color_light]: hasVariant(variants, "color", "light"),
         [sty.root__color_light_type_link]:
@@ -162,6 +165,10 @@ function PlasmicButton__RenderFunc(props) {
         [sty.root__type_outline_color_warning]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "warning"),
+        [sty.root__type_primary]: hasVariant(variants, "type", "primary"),
+        [sty.root__type_primary_color_brand]:
+          hasVariant(variants, "type", "primary") &&
+          hasVariant(variants, "color", "brand"),
         [sty.root__type_primary_state_disabled]:
           hasVariant(variants, "type", "primary") &&
           hasVariant(variants, "state", "disabled"),
@@ -196,6 +203,9 @@ function PlasmicButton__RenderFunc(props) {
           [sty.button__color_alert]: hasVariant(variants, "color", "alert"),
           [sty.button__color_blue]: hasVariant(variants, "color", "blue"),
           [sty.button__color_brand]: hasVariant(variants, "color", "brand"),
+          [sty.button__color_brand_rounded]:
+            hasVariant(variants, "color", "brand") &&
+            hasVariant(variants, "rounded", "rounded"),
           [sty.button__color_caution]: hasVariant(variants, "color", "caution"),
           [sty.button__color_light]: hasVariant(variants, "color", "light"),
           [sty.button__color_light_type_link]:
@@ -325,6 +335,10 @@ function PlasmicButton__RenderFunc(props) {
           [sty.button__type_outline_color_warning]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "warning"),
+          [sty.button__type_primary]: hasVariant(variants, "type", "primary"),
+          [sty.button__type_primary_color_brand]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "brand"),
           [sty.button__type_primary_state_disabled]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "state", "disabled"),
@@ -368,6 +382,9 @@ function PlasmicButton__RenderFunc(props) {
               "brand"
             ),
 
+            [sty.slotTargetChildren__color_brand_rounded]:
+              hasVariant(variants, "color", "brand") &&
+              hasVariant(variants, "rounded", "rounded"),
             [sty.slotTargetChildren__color_light]: hasVariant(
               variants,
               "color",
@@ -524,6 +541,15 @@ function PlasmicButton__RenderFunc(props) {
             [sty.slotTargetChildren__type_outline_color_warning]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "warning"),
+            [sty.slotTargetChildren__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
+            [sty.slotTargetChildren__type_primary_color_brand]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "brand"),
             [sty.slotTargetChildren__type_primary_state_disabled]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "state", "disabled"),
@@ -557,13 +583,23 @@ function PlasmicButton__RenderFunc(props) {
           })
         })}
       </button>
+
+      {true ? (
+        <svg
+          data-plasmic-name={"svg"}
+          data-plasmic-override={overrides.svg}
+          className={classNames(projectcss.all, sty.svg)}
+          role={"img"}
+        />
+      ) : null}
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button"],
-  button: ["button"]
+  root: ["root", "button", "svg"],
+  button: ["button"],
+  svg: ["svg"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -598,6 +634,7 @@ export const PlasmicButton = Object.assign(
   {
     // Helper components rendering sub-elements
     button: makeNodeComponent("button"),
+    svg: makeNodeComponent("svg"),
     // Metadata about props expected for PlasmicButton
     internalVariantProps: PlasmicButton__VariantProps,
     internalArgProps: PlasmicButton__ArgProps

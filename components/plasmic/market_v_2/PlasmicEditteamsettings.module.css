@@ -12,7 +12,7 @@
   position: relative;
   width: 800px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .settingsForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -54,7 +54,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsStripeConnect {
     padding-right: 8px;
     padding-left: 8px;
@@ -431,7 +431,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsAccountingConnect {
     width: 100%;
     padding-right: 8px;
@@ -439,7 +439,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsAccountingConnect > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -636,7 +636,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsAnalyticsConnect {
     padding-left: 8px;
     padding-right: 8px;
@@ -714,7 +714,7 @@
   justify-content: flex-end;
   padding: 16px 180px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .submitButtonWrapper {
     padding-right: 8px;
     padding-left: 8px;
@@ -733,7 +733,7 @@
   position: relative;
   width: 800px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .notificationsForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -750,7 +750,7 @@
   padding-right: 180px;
   padding-left: 180px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__dUAoo {
     padding-right: 8px;
     padding-left: 8px;
@@ -795,7 +795,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsLeaveTeam {
     padding-right: 8px;
     padding-left: 8px;
@@ -927,7 +927,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamSettingsDeleteTeam {
     padding-right: 8px;
     padding-left: 8px;

@@ -68,7 +68,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -84,7 +84,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -108,7 +108,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               className={classNames(projectcss.all, sty.sectionAboutDetails)}
             >
               {(
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -124,7 +124,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -182,7 +182,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             )}
           >
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -198,7 +198,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               />
             ) : null}
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -216,7 +216,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -235,7 +235,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -247,7 +247,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__inwI
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Similar members"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Similar members"
@@ -258,7 +258,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -277,7 +277,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -289,7 +289,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__kao6G
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "People also viewed"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "People also viewed"
@@ -300,7 +300,7 @@ function PlasmicDesignTemplateMember__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

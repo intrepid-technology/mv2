@@ -54,13 +54,15 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <meta name="twitter:card" content="summary" />
         <title key="title">
-          {"Remote company and freelancer management | Intrepid Remote OS"}
+          {
+            "Remote company and global workforce management solutions | Intrepid Remote OS"
+          }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Remote company and freelancer management | Intrepid Remote OS"
+            "Remote company and global workforce management solutions | Intrepid Remote OS"
           }
         />
 
@@ -69,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "The easy way for startups, remote, and hybrid companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries."
+            "Run a remote company from anywhere and manage a global workforce that scales on demand. Find, hire, and pay high quality freelancers & agencies in 150 countries."
           }
         />
 
@@ -77,7 +79,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/a347786c3d3353a0e03adb213685bbc2.png"
+            "https://site-assets.plasmic.app/f1b0f518bf0bf3e9c972685481f37818.png"
           }
         />
       </Head>
@@ -168,12 +170,7 @@ function PlasmicHome__RenderFunc(props) {
                               colors={
                                 hasVariant(globalVariants, "screen", "desktop")
                                   ? "light"
-                                  : undefined
-                              }
-                              sectionTitleSlot={
-                                hasVariant(globalVariants, "screen", "desktop")
-                                  ? "REMOTE OS"
-                                  : "section title"
+                                  : "light"
                               }
                             />
 
@@ -198,10 +195,22 @@ function PlasmicHome__RenderFunc(props) {
                                   {hasVariant(
                                     globalVariants,
                                     "screen",
-                                    "desktop"
+                                    "iphone678"
                                   )
-                                    ? "Run your remote company and live your best life"
-                                    : "Enter some text"}
+                                    ? "Run your remote company from anywhere and scale on demand"
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "iphone12ProMax"
+                                      )
+                                    ? "Run your remote company from anywhere and scale on demand"
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
+                                        "desktop"
+                                      )
+                                    ? "Run your remote company from anywhere and scale on demand"
+                                    : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
                             ) : null}
@@ -222,8 +231,8 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries—so you can run a global and remote workforce that scales on demand from anywhere in the world."
-                              : "Enter some text"}
+                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—run your global workforce and scale on demand from anywhere in the world."
+                              : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
                       </p.Stack>
@@ -238,8 +247,9 @@ function PlasmicHome__RenderFunc(props) {
                       destination={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                          : undefined
+                          : "https://intrepidventures.typeform.com/to/MthpVWrA"
                       }
+                      hasShadow={"hasShadow"}
                       rounded={"rounded"}
                     >
                       {"Request access"}
@@ -255,11 +265,10 @@ function PlasmicHome__RenderFunc(props) {
                   <img
                     alt={""}
                     className={classNames(projectcss.img, sty.img__nOw5H)}
-                    loading={"lazy"}
                     src={
                       hasVariant(globalVariants, "screen", "desktop")
                         ? "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
-                        : undefined
+                        : "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
                     }
                   />
                 ) : null}
@@ -344,7 +353,7 @@ function PlasmicHome__RenderFunc(props) {
                 border={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "border"
-                    : undefined
+                    : "border"
                 }
                 className={classNames(
                   "__wab_instance",
@@ -353,13 +362,9 @@ function PlasmicHome__RenderFunc(props) {
                 colors={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "brand"
-                    : undefined
+                    : "brand"
                 }
-                sectionTitleSlot={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "What is REMOTE OS?"
-                    : "section title"
-                }
+                sectionTitleSlot={"what is remote os?"}
               />
 
               {(
@@ -378,8 +383,8 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Business management software that gives your remote company superpowers"
-                      : "Enter some text"}
+                      ? "Workforce management software that gives your remote company superpowers"
+                      : "Business management software that gives your remote company superpowers"}
                   </div>
 
                   <div
@@ -391,7 +396,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "
-                      : "Enter some text"}
+                      : "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "}
                   </div>
                 </p.Stack>
               ) : null}
@@ -453,7 +458,11 @@ function PlasmicHome__RenderFunc(props) {
 
                   <CardFeatureHeadlineDescriptionCentered
                     bodyTextSlot={
-                      "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
+                        ? "Finance your product development, hire and onboard at no risk and go to market fast with a line of credit"
+                        : hasVariant(globalVariants, "screen", "desktop")
+                        ? "Finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
+                        : "finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
                     }
                     className={classNames(
                       "__wab_instance",
@@ -496,7 +505,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"remoteWorkCta"}
@@ -512,13 +521,9 @@ function PlasmicHome__RenderFunc(props) {
                 colors={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "light"
-                    : undefined
+                    : "light"
                 }
-                sectionTitleSlot={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "remote work"
-                    : "section title"
-                }
+                sectionTitleSlot={"remote work"}
               />
 
               {(
@@ -536,9 +541,11 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text___3PMT
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Adapt and navigate your remote work transformation and make your team happy"
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Adapt and navigate your\nremote work transformation\nand make your team happy"
-                      : "Enter some text"}
+                      : "Adapt and navigate your\nremote work transformation\nand make your team happy"}
                   </div>
 
                   <div
@@ -550,7 +557,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services designed for remote companies."
-                      : "Enter some text"}
+                      : "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services designed for remote companies."}
                   </div>
                 </p.Stack>
               ) : null}
@@ -561,32 +568,30 @@ function PlasmicHome__RenderFunc(props) {
                   color={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "brand"
-                      : undefined
+                      : "brand"
                   }
                   destination={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                      : undefined
+                      : "https://intrepidventures.typeform.com/to/MthpVWrA"
                   }
                   hasShadow={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "hasShadow"
-                      : undefined
+                      : "hasShadow"
                   }
                   rounded={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "rounded"
-                      : undefined
+                      : "rounded"
                   }
                 >
-                  {hasVariant(globalVariants, "screen", "desktop")
-                    ? "Request access"
-                    : "Button"}
+                  {"Request access"}
                 </Button>
               </div>
             </p.Stack>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"featureTwo"}
@@ -598,7 +603,7 @@ function PlasmicHome__RenderFunc(props) {
                 border={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "border"
-                    : undefined
+                    : "border"
                 }
                 className={classNames(
                   "__wab_instance",
@@ -607,13 +612,9 @@ function PlasmicHome__RenderFunc(props) {
                 colors={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "brand"
-                    : undefined
+                    : "brand"
                 }
-                sectionTitleSlot={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "machine learning"
-                    : "section title"
-                }
+                sectionTitleSlot={"machine learning"}
               />
 
               {(
@@ -631,9 +632,11 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zKr39
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Freelancer and agency recommendations that match your needs and save you time without endless searching"
-                      : "Enter some text"}
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Workforce recommendations that match your needs and save you time without endless searching"
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Workforce recommendations that match your needs and save you time without endless searching"
+                      : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 
                   <div
@@ -645,7 +648,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, agencies, and services you need to get things done, scale up, and go to market fast."
-                      : "Enter some text"}
+                      : "Stop searching for the technology and design services you need to grow. Start getting recommendations and matches to the freelancers, agencies, and services you need to get things done, scale up, and go to market fast."}
                   </div>
                 </p.Stack>
               ) : null}
@@ -667,7 +670,7 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   className={classNames(
                     "__wab_instance",
-                    sty.cardImageHeadlineDescription__pwSEq
+                    sty.cardImageHeadlineDescription__fhKY
                   )}
                   description={"description"}
                   size={"_270X270"}
@@ -680,7 +683,7 @@ function PlasmicHome__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__jrOfy
+                            sty.text__cnNco
                           )}
                         >
                           {"UX Design"}
@@ -702,7 +705,7 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   className={classNames(
                     "__wab_instance",
-                    sty.cardImageHeadlineDescription__fxAiP
+                    sty.cardImageHeadlineDescription__wZlFw
                   )}
                   description={"description"}
                   size={"_270X270"}
@@ -715,7 +718,7 @@ function PlasmicHome__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__co0FG
+                            sty.text__kd1Eh
                           )}
                         >
                           {"Mobile apps"}
@@ -737,7 +740,7 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   className={classNames(
                     "__wab_instance",
-                    sty.cardImageHeadlineDescription__gztzk
+                    sty.cardImageHeadlineDescription__xo9Zh
                   )}
                   description={"description"}
                   size={"_270X270"}
@@ -750,7 +753,7 @@ function PlasmicHome__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__iEqIq
+                            sty.text__bxoRc
                           )}
                         >
                           {"No Code"}
@@ -772,7 +775,7 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   className={classNames(
                     "__wab_instance",
-                    sty.cardImageHeadlineDescription__fmGwH
+                    sty.cardImageHeadlineDescription__kVaoK
                   )}
                   description={"description"}
                   size={"_270X270"}
@@ -785,7 +788,7 @@ function PlasmicHome__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text___12Mer
+                            sty.text__fk8IR
                           )}
                         >
                           {"Web apps"}
@@ -867,9 +870,15 @@ function PlasmicHome__RenderFunc(props) {
                                 {hasVariant(
                                   globalVariants,
                                   "screen",
-                                  "iphone678Plus"
+                                  "iphone12ProMax"
                                 )
                                   ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."
+                                  : hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "desktop"
+                                    )
+                                  ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 countries, with services across web development, mobile development, no code, branding, and design."
                                   : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
                               </div>
                             </div>
@@ -888,7 +897,6 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__r8Lts)}
-                      loading={"lazy"}
                       src={
                         "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
                       }
@@ -898,7 +906,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"financialServices"}
               data-plasmic-override={overrides.financialServices}
@@ -930,7 +938,7 @@ function PlasmicHome__RenderFunc(props) {
                         sectionTitleSlot={
                           hasVariant(globalVariants, "screen", "desktop")
                             ? "buy now pay later"
-                            : "find and hire"
+                            : "buy now pay later"
                         }
                       />
 
@@ -952,7 +960,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "60 day net payment terms and a line of credit to onboard freelancers or agencies at no risk"
-                              : "Find the right people, skills and services you need—when you need it."}
+                              : "60 day net payment terms and a line of credit to onboard freelancers or agencies at no risk"}
                           </div>
 
                           {true ? (
@@ -970,8 +978,8 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."
-                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that your startup, or scale up can be flexible and compete with the big-tech giants."
+                                  : "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."}
                               </div>
                             </div>
                           ) : null}
@@ -989,11 +997,10 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__lLh)}
-                      loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/creditlineIPhone12ProMockuppng.png"
-                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                          : "/plasmic/market_v_2/images/creditlineIPhone12ProMockuppng.png"
                       }
                     />
                   </div>
@@ -1001,7 +1008,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"internationalPayments"}
               data-plasmic-override={overrides.internationalPayments}
@@ -1033,7 +1040,7 @@ function PlasmicHome__RenderFunc(props) {
                         sectionTitleSlot={
                           hasVariant(globalVariants, "screen", "desktop")
                             ? "International payments"
-                            : "find and hire"
+                            : "International payments"
                         }
                       />
 
@@ -1054,8 +1061,8 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Pay your freelancers and agencies in 150 different countries with one-click"
-                              : "Find the right people, skills and services you need—when you need it."}
+                              ? "Pay your freelancers and agencies in 150 countries with one-click"
+                              : "Pay your freelancers and agencies in 150 different countries with one-click"}
                           </div>
 
                           {true ? (
@@ -1074,7 +1081,7 @@ function PlasmicHome__RenderFunc(props) {
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
                                   ? "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
-                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                                  : "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."}
                               </div>
                             </div>
                           ) : null}
@@ -1092,11 +1099,10 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__xs5Ij)}
-                      loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/internationalPaymentspng3.png"
-                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                          : "/plasmic/market_v_2/images/internationalPaymentspng3.png"
                       }
                     />
                   </div>
@@ -1104,7 +1110,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"expenseManagement"}
               data-plasmic-override={overrides.expenseManagement}
@@ -1143,7 +1149,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "Expense management"
-                              : "find and hire"}
+                              : "Expense management"}
                           </div>
                         }
                       />
@@ -1166,7 +1172,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "Manage your  budget and track expenses based on your team's performance"
-                              : "Find the right people, skills and services you need—when you need it."}
+                              : "Manage your  budget and track expenses based on your team's performance"}
                           </div>
 
                           {true ? (
@@ -1185,7 +1191,7 @@ function PlasmicHome__RenderFunc(props) {
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
                                   ? "Track your expenses by team member or department, so you can manage your cash flow and know how much you're spending."
-                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                                  : "Track your expenses by team member or department, so you can manage your cash flow and know how much you're spending."}
                               </div>
                             </div>
                           ) : null}
@@ -1203,11 +1209,10 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__dCeHn)}
-                      loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/financeDashSafariNoShadowpng2.jpeg"
-                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                          : "/plasmic/market_v_2/images/financeDashSafariNoShadowpng2.jpeg"
                       }
                     />
                   </div>
@@ -1215,7 +1220,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"compliance"}
               data-plasmic-override={overrides.compliance}
@@ -1254,7 +1259,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "Compliance"
-                              : "find and hire"}
+                              : "Compliance"}
                           </div>
                         }
                       />
@@ -1277,7 +1282,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "Comply with international and local laws without the complexity"
-                              : "Find the right people, skills and services you need—when you need it."}
+                              : "Comply with international and local laws without the complexity"}
                           </div>
 
                           {true ? (
@@ -1296,7 +1301,7 @@ function PlasmicHome__RenderFunc(props) {
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
                                   ? "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."
-                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                                  : "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."}
                               </div>
                             </div>
                           ) : null}
@@ -1314,11 +1319,10 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__gJY)}
-                      loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/compliancepng.png"
-                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                          : "/plasmic/market_v_2/images/compliancepng.png"
                       }
                     />
                   </div>
@@ -1326,7 +1330,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <div
               data-plasmic-name={"workforceManagement"}
               data-plasmic-override={overrides.workforceManagement}
@@ -1355,19 +1359,7 @@ function PlasmicHome__RenderFunc(props) {
                           sty.badgeSectionTitle__o4Dv2
                         )}
                         colors={"brand"}
-                        sectionTitleSlot={
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__yXe6E
-                            )}
-                          >
-                            {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Workforce management"
-                              : "find and hire"}
-                          </div>
-                        }
+                        sectionTitleSlot={"Workforce management"}
                       />
 
                       {true ? (
@@ -1388,7 +1380,7 @@ function PlasmicHome__RenderFunc(props) {
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
                               ? "Manage a global team and remote workforce with greater transparency"
-                              : "Find the right people, skills and services you need—when you need it."}
+                              : "Manage a global team and remote workforce with greater transparency"}
                           </div>
 
                           {true ? (
@@ -1407,7 +1399,7 @@ function PlasmicHome__RenderFunc(props) {
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
                                   ? "Know where your team is and their timezone, so you can schedule meetings and collaborate without the constant back and forth. Know exactly what projects are going on, who’s doing it, and when it will be done. "
-                                  : "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,00 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."}
+                                  : "Know where your team is and their timezone, so you can schedule meetings and collaborate without the constant back and forth. Know exactly what projects are going on, who’s doing it, and when it will be done. "}
                               </div>
                             </div>
                           ) : null}
@@ -1425,11 +1417,10 @@ function PlasmicHome__RenderFunc(props) {
                     <img
                       alt={""}
                       className={classNames(projectcss.img, sty.img__fTfiA)}
-                      loading={"lazy"}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/mappng.png"
-                          : "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
+                          : "/plasmic/market_v_2/images/mappng.png"
                       }
                     />
                   </div>
@@ -1437,7 +1428,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </div>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"metricsCta"}
@@ -1449,7 +1440,7 @@ function PlasmicHome__RenderFunc(props) {
                 border={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "border"
-                    : undefined
+                    : "border"
                 }
                 className={classNames(
                   "__wab_instance",
@@ -1458,13 +1449,9 @@ function PlasmicHome__RenderFunc(props) {
                 colors={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "brand"
-                    : undefined
+                    : "brand"
                 }
-                sectionTitleSlot={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "community"
-                    : "section title"
-                }
+                sectionTitleSlot={"community"}
               />
 
               {(
@@ -1484,7 +1471,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Grow a global and remote company without the hassles"
-                      : "Enter some text"}
+                      : "Grow a global and remote company without the hassles"}
                   </div>
 
                   <div
@@ -1496,7 +1483,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."
-                      : "Enter some text"}
+                      : "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."}
                   </div>
                 </p.Stack>
               ) : null}
@@ -1588,7 +1575,7 @@ function PlasmicHome__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           ) : null}
-          {(hasVariant(globalVariants, "screen", "desktop") ? true : false) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"closingCta"}
@@ -1613,7 +1600,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Get started for free"
-                      : "Enter some text"}
+                      : "Get started for free"}
                   </div>
 
                   <div
@@ -1625,7 +1612,7 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
                       ? "Join a trusted community of world class teams on a platform built for today’s world of work"
-                      : "Enter some text"}
+                      : "Join a trusted community of world class teams on a platform built for today’s world of work"}
                   </div>
                 </p.Stack>
               ) : null}
@@ -1636,22 +1623,20 @@ function PlasmicHome__RenderFunc(props) {
                   color={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "brand"
-                      : undefined
+                      : "brand"
                   }
                   destination={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                      : undefined
+                      : "https://intrepidventures.typeform.com/to/MthpVWrA"
                   }
                   rounded={
                     hasVariant(globalVariants, "screen", "desktop")
                       ? "rounded"
-                      : undefined
+                      : "rounded"
                   }
                 >
-                  {hasVariant(globalVariants, "screen", "desktop")
-                    ? "Request access"
-                    : "Button"}
+                  {"Request access"}
                 </Button>
               </div>
             </p.Stack>
@@ -1669,7 +1654,7 @@ function PlasmicHome__RenderFunc(props) {
                 color={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "color"
-                    : undefined
+                    : "color"
                 }
               />
             </div>

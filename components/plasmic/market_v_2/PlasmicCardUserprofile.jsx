@@ -132,7 +132,7 @@ function PlasmicCardUserprofile__RenderFunc(props) {
                 sty.text__coEqy
               )}
             >
-              {hasVariant(globalVariants, "screen", "iphone678Plus")
+              {hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "DisplayName"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "DisplayName"

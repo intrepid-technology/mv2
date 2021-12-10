@@ -284,13 +284,13 @@
   > img {
   margin-left: 12px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__rwKg {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__rwKg > :global(.__wab_flex-container) {
     min-width: 0;
   }

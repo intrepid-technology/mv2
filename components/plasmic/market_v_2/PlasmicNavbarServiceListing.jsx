@@ -103,7 +103,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                 >
                   {hasVariant(globalVariants, "screen", "iphone678")
                     ? "Back"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    : hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "Back"
                     : "Back"}
                 </div>
@@ -129,7 +129,9 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
             )
           })}
         >
-          {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true)
+          {(
+            hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+          )
             ? p.renderPlasmicSlot({
                 defaultContents: "Section Title",
                 value: args.children,

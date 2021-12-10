@@ -79,7 +79,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -117,7 +117,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -142,7 +142,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -164,7 +164,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           className={classNames("__wab_instance", sty.chipCategoryHeader__p8K)}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -189,7 +189,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -210,7 +210,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -231,7 +231,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"
@@ -256,7 +256,7 @@ function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
           )}
           color={"bgLightB"}
           size={
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "_180"
               : hasVariant(globalVariants, "screen", "desktop")
               ? "_270"

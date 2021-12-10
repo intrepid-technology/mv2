@@ -21,7 +21,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     padding-left: 16px;
     padding-right: 16px;
@@ -46,7 +46,7 @@
     color: #101010 /* plasmic-token: F4gy0u3aB */;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text {
     display: block;
     font-size: 24px;

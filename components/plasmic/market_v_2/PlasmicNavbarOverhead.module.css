@@ -10,7 +10,7 @@
   background: #f8f8f8;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     padding-right: 16px;
   }
@@ -63,7 +63,7 @@
   left: auto;
   top: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .loginMain:global(.__wab_instance) {
     display: flex;
   }

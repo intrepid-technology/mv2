@@ -145,6 +145,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
               slot={"Pricing"}
             />
 
@@ -157,7 +158,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              destination={"https://form.typeform.com/to/qoNxle4D"}
+              destination={"https://intrepidventures.typeform.com/to/qoNxle4D"}
               slot={"Sell on Intrepid"}
             />
           </p.Stack>
@@ -271,7 +272,7 @@ function PlasmicFooter__RenderFunc(props) {
           {(
             hasVariant(globalVariants, "screen", "iphone678")
               ? false
-              : hasVariant(globalVariants, "screen", "iphone678Plus")
+              : hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? false
               : true
           ) ? (
@@ -424,7 +425,7 @@ function PlasmicFooter__RenderFunc(props) {
           {(
             hasVariant(globalVariants, "screen", "iphone678")
               ? true
-              : hasVariant(globalVariants, "screen", "iphone678Plus")
+              : hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : false
           ) ? (
@@ -441,7 +442,7 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__jWbXb
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "dark"
                     : undefined
                 }
@@ -453,14 +454,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__igDkw
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? Icon9Icon
                       : Icon8Icon
                   }
@@ -475,14 +476,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__ioyHh
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? Icon10Icon
                       : Icon8Icon
                   }
@@ -497,14 +498,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__upmJo
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? Icon12Icon
                       : Icon8Icon
                   }
@@ -519,14 +520,14 @@ function PlasmicFooter__RenderFunc(props) {
                   sty.footerSocialLink__thIZx
                 )}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "dark"
                     : undefined
                 }
               >
                 <p.PlasmicIcon
                   PlasmicIconType={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? Icon11Icon
                       : Icon8Icon
                   }

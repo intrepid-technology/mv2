@@ -14,7 +14,7 @@
   z-index: 2;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .navbar:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -63,7 +63,7 @@
   min-width: 0;
   padding: 0px 8px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .main {
     padding: 0px;
   }
@@ -125,7 +125,7 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .breadcrumbs {
     padding-right: 8px;
     padding-left: 8px;
@@ -238,7 +238,7 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .tabNavigation {
     padding-right: 8px;
     padding-left: 8px;
@@ -386,7 +386,7 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .bodyHeader {
     padding-left: 8px;
     padding-right: 8px;

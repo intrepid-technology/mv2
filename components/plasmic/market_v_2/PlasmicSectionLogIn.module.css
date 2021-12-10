@@ -30,14 +30,14 @@
     padding-bottom: 96px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 100%;
     min-width: 0;
     padding: 16px 16px 96px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -46,7 +46,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .parent > :global(.__wab_flex-container) > picture > img,
@@ -88,7 +88,7 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineParent {
     margin-top: calc(40px + 24px) !important;
     margin-bottom: 40px;
@@ -120,13 +120,13 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineText {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineText > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -173,7 +173,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text {
     line-height: 1.4;
   }
@@ -189,7 +189,7 @@
     top: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardLogIn:global(.__wab_instance) {
     width: 100%;
     left: auto;

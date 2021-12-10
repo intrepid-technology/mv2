@@ -73,7 +73,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionHeaderEditListing {
     padding-right: 16px;
     padding-left: 16px;
@@ -112,7 +112,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionEditListing {
     width: 100%;
     height: auto;
@@ -121,7 +121,7 @@
     padding: 16px 16px 96px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionEditListing > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: flex-start;
@@ -134,7 +134,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionEditListing > :global(.__wab_flex-container) > *,
   .sectionEditListing
     > :global(.__wab_flex-container)
@@ -188,13 +188,13 @@
   margin-left: 96px;
   margin-top: 48px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .listingEditCategoryFieldsParent {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .listingEditCategoryFieldsParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: flex-start;
@@ -204,7 +204,7 @@
     width: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .listingEditCategoryFieldsParent > :global(.__wab_flex-container) > *,
   .listingEditCategoryFieldsParent
     > :global(.__wab_flex-container)

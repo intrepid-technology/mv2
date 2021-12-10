@@ -507,7 +507,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                 headlineLabelTitle={"Date"}
                 label={"label"}
                 size={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_180X32"
                     : "_180X32"
                 }

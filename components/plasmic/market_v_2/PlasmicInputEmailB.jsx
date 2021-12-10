@@ -160,7 +160,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                   }
                 )}
               >
-                {hasVariant(globalVariants, "screen", "iphone678Plus")
+                {hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "Join now"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "Apply to join"
@@ -312,8 +312,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textInput"],
-  textInput: ["textInput"]
+  root: ["root", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"]
 };
 
 function makeNodeComponent(nodeName) {

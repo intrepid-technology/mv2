@@ -62,8 +62,8 @@ function PlasmicInputStepperRounded__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textInput"],
-  textInput: ["textInput"]
+  root: ["root", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"]
 };
 
 function makeNodeComponent(nodeName) {

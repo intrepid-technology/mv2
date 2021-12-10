@@ -52,7 +52,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={
-          hasVariant(globalVariants, "screen", "iphone678Plus")
+          hasVariant(globalVariants, "screen", "iphone12ProMax")
             ? "/landingpage-2021"
             : hasVariant(globalVariants, "screen", "desktop")
             ? "/landingpage-2021"
@@ -61,7 +61,9 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
         light={hasVariant(variants, "color", "dark") ? "light" : undefined}
       />
 
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <p.Stack
           as={"div"}
           data-plasmic-name={"freeBox"}
@@ -72,7 +74,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           })}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? false
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -134,7 +136,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   : "brand"
               }
               destination={
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "/partner/pricing"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "/partner/pricing"
@@ -162,7 +164,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                   : "fill"
               }
               width={
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "_90"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "_140"

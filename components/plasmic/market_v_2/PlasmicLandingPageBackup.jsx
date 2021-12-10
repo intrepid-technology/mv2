@@ -167,7 +167,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                     >
                       {hasVariant(globalVariants, "screen", "iphone678")
                         ? " come to find the services"
-                        : hasVariant(globalVariants, "screen", "iphone678Plus")
+                        : hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? " come to find the services"
                         : " come to find "}
                     </div>
@@ -190,7 +190,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                           : hasVariant(
                               globalVariants,
                               "screen",
-                              "iphone678Plus"
+                              "iphone12ProMax"
                             )
                           ? "they need to grow - all in one place"
                           : "the services they need to grow - all in one place"}
@@ -286,7 +286,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    : hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "vertical"
                     : undefined
                 }
@@ -317,7 +317,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    : hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "vertical"
                     : undefined
                 }
@@ -350,7 +350,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    : hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "vertical"
                     : undefined
                 }
@@ -381,7 +381,7 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
                     ? "vertical"
-                    : hasVariant(globalVariants, "screen", "iphone678Plus")
+                    : hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "vertical"
                     : undefined
                 }

@@ -7,6 +7,9 @@
   width: auto;
   height: auto;
 }
+.root__type_primary_color_brand:hover {
+  backface-visibility: hidden;
+}
 .button {
   display: flex;
   width: 100%;
@@ -16,10 +19,12 @@
   background: #101010;
   cursor: pointer;
   height: 100%;
+  transition-property: all;
+  transition-duration: 0.5s;
   min-width: 0;
   min-height: 0;
-  border-radius: 0px;
-  padding: 6px 10px;
+  border-radius: 4px;
+  padding: 8px 12px;
   border: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .button__color_success {
@@ -95,9 +100,9 @@
   border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .button__color_brand {
-  background: #6633ff;
+  background: #5229cc;
   border-style: none;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .button__type_secondary_color_brand {
   background: #ffffff;
@@ -267,7 +272,8 @@
 }
 .root:hover .button {
   background: #ffffff;
-  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
+  transform-origin: 50% 50%;
+  backface-visibility: hidden;
 }
 .root__type_secondary:hover .button__type_secondary {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
@@ -292,6 +298,7 @@
   border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_brand:hover .button__color_brand {
+  background: #6633ff;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .root__type_secondary_color_brand:hover .button__type_secondary_color_brand {
@@ -365,11 +372,15 @@
 .root__type_light_color_magenta:hover .button__type_light_color_magenta {
   border-color: #d65cff /* plasmic-token: Iwo8OE18Y */;
 }
+.root__color_brand_rounded:hover .button__color_brand_rounded {
+  background: #6633ff;
+}
 .slotTargetChildren {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-weight: 500;
-  line-height: 1;
+  line-height: 24px;
   font-size: 16px;
+  white-space: pre;
 }
 .slotTargetChildren__color_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
@@ -564,7 +575,7 @@
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__color_brand:hover .slotTargetChildren__color_brand {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .root__type_outline_color_brand:hover
   .slotTargetChildren__type_outline_color_brand {
@@ -669,4 +680,16 @@
 .root__type_light_color_magenta:hover
   .slotTargetChildren__type_light_color_magenta {
   color: #cc33ff /* plasmic-token: m2LiiC3to */;
+}
+.root__color_brand_rounded:hover .slotTargetChildren__color_brand_rounded {
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  display: none;
 }

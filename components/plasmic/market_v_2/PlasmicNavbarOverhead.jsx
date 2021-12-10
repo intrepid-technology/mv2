@@ -109,7 +109,7 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
         />
 
         {(
-          hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true
+          hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
         ) ? (
           <NavLink
             data-plasmic-name={"loginMain"}

@@ -129,9 +129,15 @@ function PlasmicInputEmailA__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "inputEmailParent", "textInput", "buttonPrimary"],
-  inputEmailParent: ["inputEmailParent", "textInput", "buttonPrimary"],
-  textInput: ["textInput"],
+  root: ["root", "inputEmailParent", "textInput", "textbox", "buttonPrimary"],
+  inputEmailParent: [
+    "inputEmailParent",
+    "textInput",
+    "textbox",
+    "buttonPrimary"
+  ],
+
+  textInput: ["textInput", "textbox"],
   buttonPrimary: ["buttonPrimary"]
 };
 

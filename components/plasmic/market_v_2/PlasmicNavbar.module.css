@@ -15,7 +15,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     justify-content: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root__auth > :global(.__wab_flex-container) {
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
@@ -41,7 +41,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root__auth > :global(.__wab_flex-container) > *,
   .root__auth > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .root__auth > :global(.__wab_flex-container) > picture > img,
@@ -156,14 +156,14 @@
   > img {
   margin-left: 16px;
 }
-.memberButton:global(.__wab_instance) {
+.sellOnIntrepidButton:global(.__wab_instance) {
   position: relative;
 }
 .text__uRxVz {
   white-space: pre;
   font-size: 14px;
 }
-.memberButton2:global(.__wab_instance) {
+.pricingNavButton:global(.__wab_instance) {
   position: relative;
 }
 .text__hQevM {
@@ -177,6 +177,11 @@
 .text__o407H {
   font-size: 16px;
   font-weight: 600;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__o407H {
+    font-weight: 500;
+  }
 }
 .searchInputWrapper {
   display: flex;
@@ -233,7 +238,7 @@
   width: 40px;
   height: 40px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .img__auth {
     min-width: 40px;
     min-height: 40px;

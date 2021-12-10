@@ -234,7 +234,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
         </p.Stack>
       </p.Stack>
 
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"statusParent"}
           data-plasmic-override={overrides.statusParent}
@@ -292,7 +294,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"toDoParent"}
           data-plasmic-override={overrides.toDoParent}
@@ -378,7 +382,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           ) : null}
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"modifiedDateTimeParent"}
           data-plasmic-override={overrides.modifiedDateTimeParent}
@@ -395,7 +401,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"categoryParent"}
           data-plasmic-override={overrides.categoryParent}
@@ -420,7 +428,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"priceParent"}
           data-plasmic-override={overrides.priceParent}
@@ -459,7 +469,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"termParent"}
           data-plasmic-override={overrides.termParent}
@@ -519,7 +531,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"expirationDateTimeParent"}
           data-plasmic-override={overrides.expirationDateTimeParent}
@@ -536,7 +550,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"autoRenewParent"}
           data-plasmic-override={overrides.autoRenewParent}
@@ -555,7 +571,9 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           />
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}

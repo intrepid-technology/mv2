@@ -70,9 +70,9 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "text", "textInput", "svg"],
+  root: ["root", "text", "textInput", "textbox", "svg"],
   text: ["text"],
-  textInput: ["textInput"],
+  textInput: ["textInput", "textbox"],
   svg: ["svg"]
 };
 

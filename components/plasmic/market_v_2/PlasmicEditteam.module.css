@@ -41,7 +41,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamEditProfile {
     padding: 16px;
   }
@@ -89,7 +89,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditProfile {
     width: 100%;
     left: auto;
@@ -97,7 +97,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditProfile > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -492,7 +492,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamEditProfileDetails {
     padding: 16px;
   }
@@ -540,7 +540,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditDetails {
     width: 100%;
     left: auto;
@@ -548,7 +548,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditDetails > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
@@ -584,13 +584,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamLocation {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamLocation > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -634,13 +634,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamLocationGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamLocationGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -649,7 +649,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamLocationGroup > :global(.__wab_flex-container) > *,
   .teamLocationGroup
     > :global(.__wab_flex-container)
@@ -700,13 +700,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamIndustry {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamIndustry > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -749,13 +749,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamIndustryGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamIndustryGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -764,7 +764,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamIndustryGroup > :global(.__wab_flex-container) > *,
   .teamIndustryGroup
     > :global(.__wab_flex-container)
@@ -822,13 +822,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamLanguages {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamLanguages > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -874,13 +874,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupTeamLanguages {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupTeamLanguages > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -889,7 +889,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupTeamLanguages > :global(.__wab_flex-container) > *,
   .inputGroupTeamLanguages
     > :global(.__wab_flex-container)
@@ -946,7 +946,7 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamSkills > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
@@ -993,13 +993,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamCommunity {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamCommunity > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
@@ -1058,7 +1058,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamEditProfileMarkets {
     padding: 16px;
   }
@@ -1104,7 +1104,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditMarkets {
     width: 100%;
     left: auto;
@@ -1112,7 +1112,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditMarkets > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
@@ -1148,13 +1148,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamMarkets {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamMarkets > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1197,13 +1197,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamMarketsGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamMarketsGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -1212,7 +1212,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamMarketsGroup > :global(.__wab_flex-container) > *,
   .teamMarketsGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .teamMarketsGroup > :global(.__wab_flex-container) > picture > img,
@@ -1260,13 +1260,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamProjects {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamProjects > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1309,13 +1309,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamProjectsGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamProjectsGroup > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -1324,7 +1324,7 @@
     height: calc(100% + 20px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .teamProjectsGroup > :global(.__wab_flex-container) > *,
   .teamProjectsGroup
     > :global(.__wab_flex-container)
@@ -1374,7 +1374,7 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamInterests > :global(.__wab_flex-container) {
     justify-content: center;
     align-items: flex-start;
@@ -1435,7 +1435,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionTeamEditProfileSocial {
     padding: 16px;
   }
@@ -1479,7 +1479,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditSocial {
     width: 100%;
     left: auto;
@@ -1487,7 +1487,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formTeamEditSocial > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1565,13 +1565,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamSocial {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardTeamSocial > :global(.__wab_flex-container) {
     min-width: 0;
   }

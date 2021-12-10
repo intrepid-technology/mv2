@@ -114,9 +114,9 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "textInput"],
-  parent: ["parent", "textInput"],
-  textInput: ["textInput"]
+  root: ["root", "parent", "textInput", "textbox"],
+  parent: ["parent", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"]
 };
 
 function makeNodeComponent(nodeName) {
