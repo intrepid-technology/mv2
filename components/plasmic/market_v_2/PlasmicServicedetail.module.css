@@ -14,7 +14,7 @@
     flex-column-gap: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
     padding: 32px 100px 160px 160px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceDetailCheckoutPageParent {
     position: relative;
     left: auto;
@@ -75,7 +75,7 @@
     padding: 32px 24px 64px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceDetailCheckoutPageParent > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     align-content: flex-start;
@@ -87,7 +87,7 @@
     height: calc(100% + 48px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceDetailCheckoutPageParent > :global(.__wab_flex-container) > *,
   .serviceDetailCheckoutPageParent
     > :global(.__wab_flex-container)
@@ -143,7 +143,7 @@
     align-content: unset;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceDetailOverviewParent {
     width: 360px;
     left: auto;
@@ -192,7 +192,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceHeadlineParent {
     width: 360px;
     align-self: flex-start;
@@ -209,7 +209,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .headline {
     width: 360px;
   }
@@ -243,7 +243,7 @@
     color: #101010 /* plasmic-token: 6OoG_pvkg */;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .slotTargetHeadline {
     font-size: 36px;
     font-weight: 700;
@@ -508,14 +508,14 @@
     width: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceImageBlock {
     align-self: flex-start;
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceImageBlock > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -524,7 +524,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceImageBlock > :global(.__wab_flex-container) > *,
   .serviceImageBlock
     > :global(.__wab_flex-container)
@@ -554,7 +554,7 @@
 .serviceImageHero > .__wab_img-spacer > img {
   object-fit: cover;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceImageHero {
     width: 360px;
     align-self: flex-start;
@@ -617,7 +617,7 @@
     margin-top: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ew4Af {
     overflow: visible;
     width: 100%;
@@ -625,7 +625,7 @@
     padding: 8px 8px 8px 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ew4Af > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 16px);
@@ -634,7 +634,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ew4Af > :global(.__wab_flex-container) > *,
   .freeBox__ew4Af > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__ew4Af > :global(.__wab_flex-container) > picture > img,
@@ -765,7 +765,7 @@
     margin-top: 8px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__y19Np {
     overflow: visible;
     align-self: flex-start;
@@ -931,7 +931,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .svg__nw7Wz {
     width: 100%;
     min-width: 0;
@@ -968,13 +968,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceOverviewParent {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceOverviewParent > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -990,7 +990,7 @@
   width: 100%;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .descriptionBlock {
     width: 100%;
     min-width: 0;
@@ -2150,7 +2150,7 @@
     margin-left: calc(0px + 80px) !important;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceOrderParent {
     left: auto;
     top: auto;
@@ -2160,7 +2160,7 @@
     margin-left: calc(0px + 32px) !important;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceOrderParent > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -2196,13 +2196,13 @@
   > img {
   margin-top: 10px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceCheckoutHeader {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .serviceCheckoutHeader > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -2922,7 +2922,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .orderButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2943,7 +2943,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__ma8Uo:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -2964,7 +2964,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__gzMur:global(.__wab_instance) {
     flex-shrink: 0;
   }

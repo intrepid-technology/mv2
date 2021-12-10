@@ -19,7 +19,7 @@
     height: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 360px;
     height: auto;
@@ -58,13 +58,13 @@
   > img {
   margin-left: 48px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .mainCard {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .mainCard > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -151,7 +151,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .userAvatarButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -185,7 +185,7 @@
   min-width: 0;
   padding: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .descriptionCard {
     width: 100%;
     min-width: 0;

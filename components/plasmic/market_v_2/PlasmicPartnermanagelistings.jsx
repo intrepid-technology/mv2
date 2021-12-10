@@ -94,7 +94,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                 sty.cardHeaderTitleDisplay
               )}
               size={
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "_360"
                   : "_720"
               }
@@ -208,7 +208,7 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.freeBox__xulmc)}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (

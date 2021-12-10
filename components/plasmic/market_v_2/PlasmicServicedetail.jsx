@@ -371,7 +371,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     isOpen={"isOpen"}
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -469,7 +469,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       ) : null
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -585,7 +585,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       </div>
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -660,7 +660,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       </div>
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -735,7 +735,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       </div>
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -935,7 +935,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       </div>
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -1135,7 +1135,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       </div>
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -1222,7 +1222,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       ) : null
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }
@@ -1309,7 +1309,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       ) : null
                     }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
                         : undefined
                     }

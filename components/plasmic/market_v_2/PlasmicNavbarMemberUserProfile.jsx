@@ -37,7 +37,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
   });
 
   return (
-    hasVariant(globalVariants, "screen", "iphone678Plus")
+    hasVariant(globalVariants, "screen", "iphone12ProMax")
       ? true
       : hasVariant(globalVariants, "screen", "desktop")
       ? true
@@ -51,7 +51,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
       {(
-        hasVariant(globalVariants, "screen", "iphone678Plus")
+        hasVariant(globalVariants, "screen", "iphone12ProMax")
           ? true
           : hasVariant(globalVariants, "screen", "desktop")
           ? true
@@ -65,7 +65,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
           className={classNames(projectcss.all, sty.parent)}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -136,7 +136,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -167,7 +167,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -201,7 +201,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -235,7 +235,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -266,7 +266,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -300,7 +300,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

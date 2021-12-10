@@ -9,7 +9,7 @@
   font-weight: 600;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .slotTargetChildren {
     font-size: 36px;
   }

@@ -24,14 +24,14 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 100%;
     min-width: 0;
     padding: 24px 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) {
     min-width: 0;
     margin-left: calc(0px - 0px);
@@ -40,7 +40,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .parent > :global(.__wab_flex-container) > picture > img,
@@ -59,7 +59,7 @@
   left: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .userProfileAvatar:global(.__wab_instance) {
     align-self: auto;
     left: auto;
@@ -178,7 +178,7 @@
   width: 160px;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary:global(.__wab_instance) {
     margin-top: calc(8px + 16px) !important;
     flex-shrink: 0;
@@ -204,7 +204,7 @@
   background: #f0f1f3;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__pyBvT {
     margin-top: calc(8px + 16px) !important;
   }
@@ -356,7 +356,7 @@
   background: #f0f1f3;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__wnsf6 {
     margin-top: calc(8px + 16px) !important;
   }
@@ -508,7 +508,7 @@
   background: #f0f1f3;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__yYj5 {
     margin-top: calc(8px + 16px) !important;
   }
@@ -540,7 +540,7 @@
   > img {
   margin-left: 4px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xf5Vf {
     margin-top: calc(16px + 16px) !important;
   }

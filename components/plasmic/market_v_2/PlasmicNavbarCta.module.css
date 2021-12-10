@@ -37,7 +37,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     width: 100%;
     min-width: 0;
@@ -45,7 +45,7 @@
     border-width: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -76,17 +76,17 @@
 .columns > :nth-child(3n + 3) {
   width: calc((100% - 3 * 0px) * 4 / 12);
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .columns > :nth-child(3n + 1) {
     width: calc((100% - 3 * 0px) * 4 / 12);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .columns > :nth-child(3n + 2) {
     width: calc((100% - 3 * 0px) * 4 / 12);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .columns > :nth-child(3n + 3) {
     width: calc((100% - 3 * 0px) * 4 / 12);
   }
@@ -291,7 +291,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -307,7 +307,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__persona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -315,7 +315,7 @@
 .buttonPrimary__persona_member:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__persona_member:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -328,7 +328,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__color_persona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -341,7 +341,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__persona_member_color:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -350,7 +350,7 @@
   font-weight: 600;
   line-height: 1;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__uwHg0 {
     line-height: 1;
     font-weight: 600;

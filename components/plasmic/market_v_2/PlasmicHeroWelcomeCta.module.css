@@ -451,7 +451,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -468,7 +468,7 @@
 .buttonPrimary__persona_member:global(.__wab_instance) {
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__persona_member:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -481,7 +481,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonPrimary__persona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }

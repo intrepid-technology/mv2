@@ -196,7 +196,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       sty.text__qBBbj
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Subscribers"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Subscribers"
@@ -528,7 +528,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                     sty.details
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "iphone678Plus")
+                  {hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "Details"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "Details"
@@ -1122,7 +1122,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -1166,7 +1166,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.text__sb7Pn
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      {hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Similar partners"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "Similar Partners"
@@ -1175,7 +1175,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (
@@ -1190,7 +1190,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1204,7 +1204,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1218,7 +1218,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1232,7 +1232,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1246,7 +1246,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1266,7 +1266,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -1310,7 +1310,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         sty.text__niux4
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      {hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Members also viewed"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "Members also viewed"
@@ -1319,7 +1319,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (
@@ -1334,7 +1334,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1348,7 +1348,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1362,7 +1362,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1376,7 +1376,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true
@@ -1390,7 +1390,7 @@ function PlasmicTeamprofile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? true

@@ -52,7 +52,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
           className={classNames(projectcss.all, sty.parent)}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true
@@ -81,7 +81,7 @@ function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
             </div>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
               : hasVariant(globalVariants, "screen", "desktop")
               ? true

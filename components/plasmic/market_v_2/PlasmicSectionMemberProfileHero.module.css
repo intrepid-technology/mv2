@@ -15,7 +15,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     width: auto;
     height: auto;
@@ -74,7 +74,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 100%;
     height: auto;
@@ -84,7 +84,7 @@
     padding: 16px 24px 24px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) {
     flex-wrap: wrap;
     align-content: center;
@@ -96,7 +96,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .parent > :global(.__wab_flex-container) > picture > img,
@@ -119,7 +119,7 @@
     left: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardHeroMemberProfileDisplay:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -204,7 +204,7 @@
     margin-top: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .profileCommunityParent {
     left: auto;
     top: auto;
@@ -215,7 +215,7 @@
     padding: 8px 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .profileCommunityParent > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -226,7 +226,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .profileCommunityParent > :global(.__wab_flex-container) > *,
   .profileCommunityParent
     > :global(.__wab_flex-container)
@@ -319,7 +319,7 @@
     margin-top: 24px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .statsParent {
     display: flex;
     position: relative;
@@ -330,7 +330,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .statsParent > :global(.__wab_flex-container) {
     flex-direction: row;
     align-items: center;
@@ -344,7 +344,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .statsParent > :global(.__wab_flex-container) > *,
   .statsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .statsParent > :global(.__wab_flex-container) > picture > img,
@@ -389,7 +389,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberStatParent > :global(.__wab_flex-container) {
     align-items: center;
   }
@@ -408,7 +408,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberNumberCount {
     font-weight: 700;
   }
@@ -456,7 +456,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .followersStatParent {
     width: 90px;
     height: 90px;
@@ -465,7 +465,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .followersStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -476,7 +476,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .followersStatParent > :global(.__wab_flex-container) > *,
   .followersStatParent
     > :global(.__wab_flex-container)
@@ -506,7 +506,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .followingNumberCount {
     font-size: 16px;
     font-weight: 700;
@@ -554,7 +554,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerStatParent {
     width: 90px;
     height: 90px;
@@ -563,7 +563,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -574,7 +574,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerStatParent > :global(.__wab_flex-container) > *,
   .partnerStatParent
     > :global(.__wab_flex-container)
@@ -604,7 +604,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerNumberCount {
     font-size: 16px;
     font-weight: 700;
@@ -652,7 +652,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .viewsStatParent {
     width: 90px;
     height: 90px;
@@ -661,7 +661,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .viewsStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -672,7 +672,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .viewsStatParent > :global(.__wab_flex-container) > *,
   .viewsStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .viewsStatParent > :global(.__wab_flex-container) > picture > img,
@@ -699,7 +699,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .viewsNumberCount {
     font-size: 16px;
     font-weight: 700;
@@ -748,7 +748,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .reactsStatParent {
     width: 90px;
     height: 90px;
@@ -757,7 +757,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .reactsStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -768,7 +768,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .reactsStatParent > :global(.__wab_flex-container) > *,
   .reactsStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .reactsStatParent > :global(.__wab_flex-container) > picture > img,
@@ -795,7 +795,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .reactsNumberCount {
     font-size: 16px;
     font-weight: 700;
@@ -843,7 +843,7 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .savesStatParent {
     width: 90px;
     height: 90px;
@@ -852,7 +852,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .savesStatParent > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: center;
@@ -863,7 +863,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .savesStatParent > :global(.__wab_flex-container) > *,
   .savesStatParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .savesStatParent > :global(.__wab_flex-container) > picture > img,
@@ -890,7 +890,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .savesNumberCount {
     font-size: 16px;
     font-weight: 700;

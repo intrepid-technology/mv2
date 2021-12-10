@@ -18,7 +18,7 @@
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@
     padding-bottom: 64px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .heroTextImageDiv {
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@
     padding-bottom: 64px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .heroTextImageDiv__persona_member {
     padding-right: 16px;
     padding-left: 16px;
@@ -107,7 +107,7 @@
     margin-bottom: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .heroWelcomeCta__persona_member:global(.__wab_instance) {
     margin-left: 0px;
   }

@@ -213,7 +213,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
             className={classNames(projectcss.all, sty.buttonGoBackParent)}
           >
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true
@@ -224,7 +224,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 data-plasmic-override={overrides.buttonLinkPrimary}
                 className={classNames("__wab_instance", sty.buttonLinkPrimary)}
                 color={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "light"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "light"
@@ -236,7 +236,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                     : undefined
                 }
                 height={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_48"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_48"
@@ -250,7 +250,7 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                       sty.text__yK0Zp
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Go back"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Go back"
@@ -258,14 +258,14 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                   </div>
                 }
                 type={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "outline"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "outline"
                     : "outline"
                 }
                 width={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_360"

@@ -22,7 +22,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     padding-right: 0px;
     padding-left: 0px;
@@ -91,12 +91,12 @@
     margin-top: calc(0px + 32px) !important;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox {
     margin-top: calc(0px + 32px) !important;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox > :global(.__wab_flex-container) {
     justify-content: center;
     margin-left: calc(0px - 8px);
@@ -105,7 +105,7 @@
     height: calc(100% + 8px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox > :global(.__wab_flex-container) > *,
   .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox > :global(.__wab_flex-container) > picture > img,
@@ -124,7 +124,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__xJ5H:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -149,7 +149,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__nE9:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -174,7 +174,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader___11Sg:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -199,7 +199,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__on7T8:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -219,7 +219,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__e28QS:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -239,7 +239,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader___1BpcX:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -259,7 +259,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__sdz9G:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -279,7 +279,7 @@
   top: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .chipCategoryHeader__zoZeX:global(.__wab_instance) {
     flex-shrink: 0;
   }

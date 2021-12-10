@@ -122,7 +122,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
       </div>
 
       {(
-        hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? false : true
       ) ? (
         <div className={classNames(projectcss.all, sty.column__z7N9)}>
           <p.Stack
@@ -137,7 +137,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             })}
           >
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? false
                 : true
             ) ? (
@@ -191,7 +191,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             />
 
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? false
                 : true
             ) ? (
@@ -260,7 +260,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
           })}
         >
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
+              ? false
+              : true
           ) ? (
             <NavLink
               className={classNames("__wab_instance", sty.navLink__d4A3C, {
@@ -295,7 +297,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
+              ? false
+              : true
           ) ? (
             <NavbarAdminIcons
               data-plasmic-name={"navbarAdminIcons"}
@@ -313,7 +317,9 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
+              ? false
+              : true
           ) ? (
             <NavbarNotifications
               data-plasmic-name={"navbarNotifications"}

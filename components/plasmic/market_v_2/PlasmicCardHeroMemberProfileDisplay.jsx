@@ -207,7 +207,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               />
 
               {(
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? true
@@ -224,7 +224,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                   )}
                 >
                   {(
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? true
@@ -269,7 +269,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     />
                   ) : null}
                   {(
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (
@@ -286,7 +286,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             </p.Stack>
 
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? true

@@ -60,7 +60,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
         className={classNames(projectcss.all, sty.freeBox__hd4C)}
       >
         {(
-          hasVariant(globalVariants, "screen", "iphone678Plus")
+          hasVariant(globalVariants, "screen", "iphone12ProMax")
             ? true
             : hasVariant(globalVariants, "screen", "desktop")
             ? true
@@ -83,7 +83,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             />
 
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
                 : false
             ) ? (
@@ -139,7 +139,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           </p.Stack>
         ) : null}
         {(
-          hasVariant(globalVariants, "screen", "iphone678Plus") ? false : true
+          hasVariant(globalVariants, "screen", "iphone12ProMax") ? false : true
         ) ? (
           <div
             className={classNames(

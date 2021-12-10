@@ -42,7 +42,7 @@
     border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     padding-left: 24px;
     overflow: visible;

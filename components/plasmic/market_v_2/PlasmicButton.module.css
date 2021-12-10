@@ -380,6 +380,7 @@
   font-weight: 500;
   line-height: 24px;
   font-size: 16px;
+  white-space: pre;
 }
 .slotTargetChildren__color_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;

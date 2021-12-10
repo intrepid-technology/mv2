@@ -568,7 +568,7 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
               ? "Request access"
               : hasVariant(variants, "persona", "member")
               ? "Apply to join"
-              : hasVariant(globalVariants, "screen", "iphone678Plus")
+              : hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? "Apply to partner"
               : "Apply to partner"}
           </div>

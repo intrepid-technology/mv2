@@ -201,7 +201,7 @@ function PlasmicHome__RenderFunc(props) {
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
-                                        "iphone678Plus"
+                                        "iphone12ProMax"
                                       )
                                     ? "Run your remote company from anywhere and scale on demand"
                                     : hasVariant(
@@ -458,7 +458,7 @@ function PlasmicHome__RenderFunc(props) {
 
                   <CardFeatureHeadlineDescriptionCentered
                     bodyTextSlot={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Finance your product development, hire and onboard at no risk and go to market fast with a line of credit"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "Finance your product development, hire and onboard at no risk and got to market fast with a line of credit"
@@ -541,7 +541,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text___3PMT
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Adapt and navigate your remote work transformation and make your team happy"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Adapt and navigate your\nremote work transformation\nand make your team happy"
@@ -632,7 +632,7 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zKr39
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Workforce recommendations that match your needs and save you time without endless searching"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Workforce recommendations that match your needs and save you time without endless searching"
@@ -870,7 +870,7 @@ function PlasmicHome__RenderFunc(props) {
                                 {hasVariant(
                                   globalVariants,
                                   "screen",
-                                  "iphone678Plus"
+                                  "iphone12ProMax"
                                 )
                                   ? "Find and hire high quality freelancers or agencies that are matched specifically to your needs. Get access to over 27,000 freelancers and agencies from over 150 different countries, with services across web development, mobile development, no code, branding, and design."
                                   : hasVariant(

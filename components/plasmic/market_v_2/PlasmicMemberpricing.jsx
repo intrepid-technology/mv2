@@ -1444,7 +1444,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
               data-plasmic-override={overrides.inputEmailB}
               className={classNames("__wab_instance", sty.inputEmailB)}
               size={
-                hasVariant(globalVariants, "screen", "iphone678Plus")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "_360"
                   : "_540"
               }
