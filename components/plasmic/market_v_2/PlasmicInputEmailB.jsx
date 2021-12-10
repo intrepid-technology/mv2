@@ -160,7 +160,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                   }
                 )}
               >
-                {hasVariant(globalVariants, "screen", "iphone678Plus")
+                {hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "Join now"
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "Apply to join"

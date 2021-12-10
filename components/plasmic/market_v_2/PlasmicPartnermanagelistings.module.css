@@ -13,13 +13,13 @@
   min-width: 0;
   min-height: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     display: flex;
     flex-direction: column;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: center;
@@ -31,7 +31,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .root > :global(.__wab_flex-container) > picture > img,
@@ -50,7 +50,7 @@
   left: auto;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .navbarPartnerEdit:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -93,7 +93,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionPartnerManageListingsHeader {
     display: flex;
     position: relative;
@@ -106,7 +106,7 @@
     padding: 16px 16px 32px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) {
     flex-direction: column;
     align-items: center;
@@ -118,7 +118,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) > *,
   .sectionPartnerManageListingsHeader
     > :global(.__wab_flex-container)
@@ -179,7 +179,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionPartnerManageListings {
     padding-left: 16px;
     padding-right: 16px;
@@ -189,7 +189,7 @@
     min-height: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionPartnerManageListings > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -222,14 +222,14 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__aPXdG {
     width: 100%;
     height: auto;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__aPXdG > :global(.__wab_flex-container) {
     justify-content: flex-start;
     align-items: flex-start;
@@ -357,7 +357,7 @@
   top: auto;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .listingSearchFilterParent {
     display: none;
   }

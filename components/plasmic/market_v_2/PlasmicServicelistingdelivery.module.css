@@ -47,7 +47,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___7Frla {
     padding-right: 16px;
     padding-left: 16px;
@@ -55,7 +55,7 @@
     flex-direction: column-reverse;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___7Frla > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -64,7 +64,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___7Frla > :global(.__wab_flex-container) > *,
   .freeBox___7Frla > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox___7Frla > :global(.__wab_flex-container) > picture > img,
@@ -126,7 +126,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__aun4I:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -156,7 +156,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hOc5O {
     display: flex;
     flex-direction: column-reverse;
@@ -164,7 +164,7 @@
     padding-left: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hOc5O > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -173,7 +173,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hOc5O > :global(.__wab_flex-container) > *,
   .freeBox__hOc5O > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__hOc5O > :global(.__wab_flex-container) > picture > img,
@@ -238,7 +238,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__zq9Sw:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -268,7 +268,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xvZpR {
     display: flex;
     flex-direction: column-reverse;
@@ -276,7 +276,7 @@
     padding-left: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xvZpR > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -285,7 +285,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xvZpR > :global(.__wab_flex-container) > *,
   .freeBox__xvZpR > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__xvZpR > :global(.__wab_flex-container) > picture > img,
@@ -350,7 +350,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__pCBf5:global(.__wab_instance) {
     left: auto;
     top: auto;
@@ -380,7 +380,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___0GvGm {
     display: flex;
     flex-direction: column-reverse;
@@ -388,7 +388,7 @@
     padding-left: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___0GvGm > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -397,7 +397,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___0GvGm > :global(.__wab_flex-container) > *,
   .freeBox___0GvGm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox___0GvGm > :global(.__wab_flex-container) > picture > img,
@@ -439,7 +439,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .questionRequirementBlock {
     left: auto;
     top: auto;
@@ -528,7 +528,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hXiOg {
     display: flex;
     flex-direction: column-reverse;
@@ -536,7 +536,7 @@
     padding-left: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hXiOg > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -545,7 +545,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hXiOg > :global(.__wab_flex-container) > *,
   .freeBox__hXiOg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__hXiOg > :global(.__wab_flex-container) > picture > img,
@@ -587,7 +587,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .questionFormatBlock {
     left: auto;
     top: auto;
@@ -638,7 +638,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__owyrn {
     display: flex;
     flex-direction: column-reverse;
@@ -648,7 +648,7 @@
     top: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__owyrn > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -657,7 +657,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__owyrn > :global(.__wab_flex-container) > *,
   .freeBox__owyrn > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__owyrn > :global(.__wab_flex-container) > picture > img,
@@ -699,7 +699,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .questionFormatBlock2 {
     left: auto;
     top: auto;
@@ -755,7 +755,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__pKhw {
     display: flex;
     flex-direction: column-reverse;
@@ -765,7 +765,7 @@
     top: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__pKhw > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -774,7 +774,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__pKhw > :global(.__wab_flex-container) > *,
   .freeBox__pKhw > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__pKhw > :global(.__wab_flex-container) > picture > img,
@@ -816,7 +816,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .questionFormatBlock3 {
     left: auto;
     top: auto;
@@ -866,7 +866,7 @@
   justify-content: space-between;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___2LwcL {
     display: flex;
     flex-direction: column-reverse;
@@ -876,7 +876,7 @@
     top: auto;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___2LwcL > :global(.__wab_flex-container) {
     flex-direction: column-reverse;
     margin-left: calc(0px - 0px);
@@ -885,7 +885,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___2LwcL > :global(.__wab_flex-container) > *,
   .freeBox___2LwcL > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox___2LwcL > :global(.__wab_flex-container) > picture > img,
@@ -927,7 +927,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .questionFormatBlock4 {
     left: auto;
     top: auto;

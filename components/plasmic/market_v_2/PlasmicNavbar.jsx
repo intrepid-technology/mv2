@@ -80,7 +80,7 @@ function PlasmicNavbar__RenderFunc(props) {
           hasVariant(globalVariants, "screen", "iphone678")
             ? true
             : hasVariant(variants, "auth", "auth") &&
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
             ? false
             : true
         ) ? (
@@ -98,7 +98,7 @@ function PlasmicNavbar__RenderFunc(props) {
           ? false
           : hasVariant(globalVariants, "screen", "iphone678")
           ? false
-          : hasVariant(globalVariants, "screen", "iphone678Plus")
+          : hasVariant(globalVariants, "screen", "iphone12ProMax")
           ? false
           : true
       ) ? (

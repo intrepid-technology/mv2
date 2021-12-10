@@ -21,7 +21,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -29,7 +29,7 @@
     height: calc(100% + 24px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) > *,
   .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .root > :global(.__wab_flex-container) > picture > img,
@@ -76,13 +76,13 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xw3D5 {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xw3D5 > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -90,7 +90,7 @@
     height: calc(100% + 32px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__xw3D5 > :global(.__wab_flex-container) > *,
   .freeBox__xw3D5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__xw3D5 > :global(.__wab_flex-container) > picture > img,
@@ -119,7 +119,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text___8NTuR {
     display: block;
     font-size: 36px;
@@ -151,7 +151,7 @@
   position: relative;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerSellingButton:global(.__wab_instance) {
     flex-shrink: 0;
   }
@@ -196,7 +196,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mNj8P {
     flex-direction: column;
     width: 100%;
@@ -205,7 +205,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mNj8P > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -217,7 +217,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mNj8P > :global(.__wab_flex-container) > *,
   .freeBox__mNj8P > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__mNj8P > :global(.__wab_flex-container) > picture > img,
@@ -346,7 +346,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text___6REb0 {
     display: block;
     font-size: 32px;
@@ -413,13 +413,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__rcvlP {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__rcvlP > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -522,7 +522,7 @@
   > img {
   margin-left: 0px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerMakerPricingTable {
     flex-direction: row;
     width: 100%;
@@ -531,7 +531,7 @@
     padding: 8px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerMakerPricingTable > :global(.__wab_flex-container) {
     flex-wrap: wrap-reverse;
     flex-direction: row;
@@ -542,7 +542,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerMakerPricingTable > :global(.__wab_flex-container) > *,
   .partnerMakerPricingTable
     > :global(.__wab_flex-container)
@@ -586,7 +586,7 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .featureParent {
     width: 100%;
     left: auto;
@@ -594,7 +594,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .featureParent > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1023,7 +1023,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ytqvk {
     width: 100%;
     left: auto;
@@ -1031,7 +1031,7 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ytqvk > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -1171,7 +1171,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ndgje {
     flex-direction: column;
     width: 100%;
@@ -1180,7 +1180,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ndgje > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -1192,7 +1192,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ndgje > :global(.__wab_flex-container) > *,
   .freeBox__ndgje > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__ndgje > :global(.__wab_flex-container) > picture > img,
@@ -1318,7 +1318,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__xSr4P {
     display: block;
     font-size: 32px;
@@ -1346,7 +1346,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text___58Cuj {
     display: block;
     font-size: 18px;
@@ -1395,7 +1395,7 @@
   margin-left: 16px;
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .partnerPricingTableSection {
     padding-left: 8px;
     padding-right: 8px;
@@ -1621,7 +1621,7 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__jppWz {
     flex-direction: column;
     width: 100%;
@@ -1630,7 +1630,7 @@
     padding: 40px 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__jppWz > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -1642,7 +1642,7 @@
     height: calc(100% + 64px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__jppWz > :global(.__wab_flex-container) > *,
   .freeBox__jppWz > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__jppWz > :global(.__wab_flex-container) > picture > img,
@@ -1768,7 +1768,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__xyCfg {
     display: block;
     font-size: 32px;
@@ -1814,13 +1814,13 @@
   margin-left: 48px;
   margin-top: 48px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__nM5Y {
     padding-left: 16px;
     padding-right: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__nM5Y > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -1828,7 +1828,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__nM5Y > :global(.__wab_flex-container) > *,
   .freeBox__nM5Y > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__nM5Y > :global(.__wab_flex-container) > picture > img,
@@ -1861,7 +1861,7 @@
   border-width: 0px;
   border-style: none;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__z1I9A {
     padding: 4px;
   }
@@ -2044,13 +2044,13 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mZzs5 {
     flex-direction: column;
     padding: 40px 24px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mZzs5 > :global(.__wab_flex-container) {
     flex-direction: column;
     justify-content: space-evenly;
@@ -2061,7 +2061,7 @@
     height: calc(100% + 48px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mZzs5 > :global(.__wab_flex-container) > *,
   .freeBox__mZzs5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox__mZzs5 > :global(.__wab_flex-container) > picture > img,
@@ -2100,13 +2100,13 @@
   > img {
   margin-top: 64px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__a1PDa {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__a1PDa > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -2139,13 +2139,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .overlineHeadline24 {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .overlineHeadline24 > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -2235,7 +2235,7 @@
   text-align: center;
   min-width: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__g9LgJ {
     display: block;
     font-size: 24px;

@@ -41,7 +41,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberMembershipStatus {
     padding: 16px;
   }
@@ -82,13 +82,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___270NR {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___270NR > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -98,7 +98,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary___9HoOp:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -163,7 +163,7 @@
   padding: 8px;
   border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__b8WcN {
     width: 100%;
     min-width: 0;
@@ -240,7 +240,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberPaymentMethods {
     padding: 16px;
   }
@@ -273,13 +273,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hByDk {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__hByDk > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -305,7 +305,7 @@
   top: auto;
   background: rgba(68, 192, 255, 0.2);
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__mAd0 {
     width: 100%;
     overflow: auto;
@@ -317,7 +317,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .tableBillingHeader:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -328,7 +328,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .tableBillingRecord:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -381,7 +381,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberPaymentHistory {
     padding: 16px;
   }
@@ -414,13 +414,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___5Ypvv {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox___5Ypvv > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -446,7 +446,7 @@
   top: auto;
   background: rgba(68, 192, 255, 0.2);
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__fL0L0 {
     width: 100%;
     overflow: auto;

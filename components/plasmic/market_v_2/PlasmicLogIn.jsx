@@ -72,7 +72,7 @@ function PlasmicLogIn__RenderFunc(props) {
           />
 
           {(
-            hasVariant(globalVariants, "screen", "iphone678Plus")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? false
               : hasVariant(globalVariants, "screen", "desktop")
               ? false

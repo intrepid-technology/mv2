@@ -74,7 +74,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
         </div>
       </p.Stack>
 
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"status"}
           data-plasmic-override={overrides.status}
@@ -91,7 +93,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"price"}
           data-plasmic-override={overrides.price}
@@ -108,7 +112,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"partner"}
           data-plasmic-override={overrides.partner}
@@ -125,7 +131,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"notifications"}
           data-plasmic-override={overrides.notifications}
@@ -142,7 +150,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"delivery"}
           data-plasmic-override={overrides.delivery}
@@ -159,7 +169,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"review"}
           data-plasmic-override={overrides.review}
@@ -176,7 +188,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"approved"}
           data-plasmic-override={overrides.approved}
@@ -193,7 +207,9 @@ function PlasmicTableProjectAdminHeader__RenderFunc(props) {
           </div>
         </div>
       ) : null}
-      {(hasVariant(globalVariants, "screen", "iphone678Plus") ? true : true) ? (
+      {(
+        hasVariant(globalVariants, "screen", "iphone12ProMax") ? true : true
+      ) ? (
         <div
           data-plasmic-name={"cancel"}
           data-plasmic-override={overrides.cancel}

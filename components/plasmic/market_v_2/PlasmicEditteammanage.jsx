@@ -198,7 +198,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             hasVariant(
                               globalVariants,
                               "screen",
-                              "iphone678Plus"
+                              "iphone12ProMax"
                             )
                               ? undefined
                               : "_540"
@@ -216,7 +216,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             hasVariant(
                               globalVariants,
                               "screen",
-                              "iphone678Plus"
+                              "iphone12ProMax"
                             )
                               ? undefined
                               : "_90"
@@ -256,7 +256,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             hasVariant(
                               globalVariants,
                               "screen",
-                              "iphone678Plus"
+                              "iphone12ProMax"
                             )
                               ? undefined
                               : "_540"
@@ -275,7 +275,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             hasVariant(
                               globalVariants,
                               "screen",
-                              "iphone678Plus"
+                              "iphone12ProMax"
                             )
                               ? undefined
                               : "_90"
@@ -389,7 +389,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         sty.searchbarPrimary
                       )}
                       width={
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? undefined
                           : "_540"
                       }
@@ -404,7 +404,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       label={"label"}
                       placeholder={"Member"}
                       width={
-                        hasVariant(globalVariants, "screen", "iphone678Plus")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? undefined
                           : "_90"
                       }

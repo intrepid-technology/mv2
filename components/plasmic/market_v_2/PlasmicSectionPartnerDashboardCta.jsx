@@ -47,7 +47,7 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
         data-plasmic-name={"cardCta"}
         data-plasmic-override={overrides.cardCta}
         center={
-          hasVariant(globalVariants, "screen", "iphone678Plus")
+          hasVariant(globalVariants, "screen", "iphone12ProMax")
             ? "center"
             : undefined
         }

@@ -124,7 +124,7 @@ function PlasmicInputFormCardAvatar__RenderFunc(props) {
             data-plasmic-override={overrides.userAvatarButton}
             className={classNames("__wab_instance", sty.userAvatarButton)}
             size={
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "_64Px"
                 : "_80Px"
             }

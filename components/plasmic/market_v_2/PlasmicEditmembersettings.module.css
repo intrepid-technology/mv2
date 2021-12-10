@@ -38,14 +38,14 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsEmail {
     width: 100%;
     min-width: 0;
     padding: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsEmail > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -61,7 +61,7 @@
 .emailForm:global(.__wab_instance) {
   position: relative;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .emailForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -93,13 +93,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditEmail {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditEmail > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -188,7 +188,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsPasswordReset {
     padding: 16px;
   }
@@ -220,13 +220,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberPasswordReset {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberPasswordReset > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -236,7 +236,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary__rmGSc:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -291,7 +291,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsLoginConnections {
     padding: 16px;
   }
@@ -325,13 +325,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberLoginConnections {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberLoginConnections > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -385,7 +385,7 @@
   width: 540px;
   height: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLoginSocial {
     width: 100%;
     min-width: 0;
@@ -624,7 +624,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberMobileNumber {
     padding: 16px;
   }
@@ -665,13 +665,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditMobileNumber {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditMobileNumber > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -702,7 +702,7 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ltCq0 {
     width: auto;
   }
@@ -751,13 +751,13 @@
   margin-left: 32px;
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -811,7 +811,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsAddress {
     padding: 16px;
   }
@@ -846,13 +846,13 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditAddress {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditAddress > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -883,13 +883,13 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__zJ5N8 {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__zJ5N8 > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -899,7 +899,7 @@
   top: auto;
   left: auto;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary__lgaOa:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -937,13 +937,13 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__qvHgH {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__qvHgH > :global(.__wab_flex-container) {
     min-width: 0;
   }
@@ -985,7 +985,7 @@
 .notificationsForm:global(.__wab_instance) {
   position: relative;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .notificationsForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -999,7 +999,7 @@
   justify-content: flex-start;
   padding: 16px 8px 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox__wBn7A {
     padding-right: 8px;
     padding-left: 8px;
@@ -1009,7 +1009,7 @@
   width: 550px;
   flex-shrink: 0;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .notificationSettingsForm:global(.__wab_instance) {
     width: 100%;
     min-width: 0;
@@ -1051,7 +1051,7 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsDeleteAccount {
     padding: 16px;
   }

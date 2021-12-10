@@ -57,12 +57,12 @@
     margin-top: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent {
     padding: 32px 0px 96px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -70,7 +70,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .parent > :global(.__wab_flex-container) > *,
   .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .parent > :global(.__wab_flex-container) > picture > img,
@@ -145,7 +145,7 @@
     margin-top: 32px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .formEmailConfirmation {
     width: 360px;
   }
@@ -250,7 +250,7 @@
     margin-top: 16px;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .textDivParent > :global(.__wab_flex-container) {
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
@@ -258,7 +258,7 @@
     height: calc(100% + 16px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .textDivParent > :global(.__wab_flex-container) > *,
   .textDivParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .textDivParent > :global(.__wab_flex-container) > picture > img,
@@ -586,7 +586,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
     display: flex;
@@ -599,7 +599,7 @@
     font-weight: 600;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .text__yK0Zp {
     font-weight: 600;
   }

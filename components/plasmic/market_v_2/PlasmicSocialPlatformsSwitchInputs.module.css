@@ -25,13 +25,13 @@
   margin-left: 24px;
   margin-top: 0px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     width: 100%;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     min-width: 0;
   }

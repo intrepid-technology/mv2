@@ -75,11 +75,11 @@ function PlasmicNavbarCta__RenderFunc(props) {
         </div>
 
         {(
-          hasVariant(globalVariants, "screen", "iphone678Plus") ? false : false
+          hasVariant(globalVariants, "screen", "iphone12ProMax") ? false : false
         ) ? (
           <div className={classNames(projectcss.all, sty.column__g2M7Q)}>
             {(
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? false
                 : false
             ) ? (
@@ -264,14 +264,14 @@ function PlasmicNavbarCta__RenderFunc(props) {
             })}
             color={
               hasVariant(variants, "persona", "member") &&
-              hasVariant(globalVariants, "screen", "iphone678Plus")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "brand"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "brand"
                 : hasVariant(variants, "color", "color")
                 ? "brand"
-                : hasVariant(globalVariants, "screen", "iphone678Plus")
+                : hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "brand"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "brand"
@@ -323,11 +323,11 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 : hasVariant(variants, "persona", "member")
                 ? "Request"
                 : hasVariant(variants, "persona", "partner") &&
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "Apply"
                 : hasVariant(variants, "persona", "partner")
                 ? "Apply"
-                : hasVariant(globalVariants, "screen", "iphone678Plus")
+                : hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? "Request"
                 : hasVariant(globalVariants, "screen", "desktop")
                 ? "Request access"

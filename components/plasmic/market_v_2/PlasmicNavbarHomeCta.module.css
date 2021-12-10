@@ -11,7 +11,7 @@
   padding: 20px 40px;
   border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .root {
     justify-content: space-between;
     padding-left: 24px;
@@ -57,12 +57,12 @@
     align-items: center;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox {
     display: flex;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox > :global(.__wab_flex-container) {
     justify-content: flex-end;
     margin-left: calc(0px - 6px);
@@ -71,7 +71,7 @@
     height: calc(100% + 0px);
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .freeBox > :global(.__wab_flex-container) > *,
   .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
   .freeBox > :global(.__wab_flex-container) > picture > img,
@@ -112,7 +112,7 @@
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .buttonLinkPrimary:global(.__wab_instance) {
     flex-shrink: 0;
   }

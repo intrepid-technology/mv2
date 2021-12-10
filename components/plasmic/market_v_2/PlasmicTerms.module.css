@@ -23,7 +23,7 @@
   min-height: 0;
   padding: 80px 40px;
 }
-@media (min-width: 0px) and (max-width: 414px) {
+@media (min-width: 0px) and (max-width: 428px) {
   .termsOfServiceBody {
     padding-right: 40px;
   }

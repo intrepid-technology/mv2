@@ -135,7 +135,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   sty.headlineText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "iphone678Plus")
+                {hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "A better way to work and grow your business."
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "A better way to work and grow your business."
@@ -151,7 +151,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   sty.subheadText
                 )}
               >
-                {hasVariant(globalVariants, "screen", "iphone678Plus")
+                {hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? "Start, launch, and grow a business from anywhere in the world ——buy or sell technology & creative services, collaborate with rare independent talent, get the financial services you need to live and work the way you want."
                   : hasVariant(globalVariants, "screen", "desktop")
                   ? "Start, launch, and grow a business from anywhere in the world. Buy or sell technology & creative services, collaborate with rare independent talent–– Get the financial services you need to live and work the way you want."
@@ -172,7 +172,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     sty.cardFeatureDescription__evGi
                   )}
                   headline={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Financial services for entrepreneurs"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Financial services for entrepreneurs"
@@ -196,7 +196,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       : undefined
                   }
                   text={
-                    hasVariant(globalVariants, "screen", "iphone678Plus")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "We provide what the banks won't: P2P global payments, international accounts, escrow, and special financing for independent professionals. "
@@ -408,7 +408,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
@@ -433,7 +433,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.text__m55Ho
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Get custom technology and creative services from a global community of professionals ready to help you grow and succeed."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Get custom technology and creative services from a global community of independent professionals ready to help you grow and succeed."
@@ -609,7 +609,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.text__iWQf
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Business services for remote teams"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Business services for remote teams"
@@ -623,7 +623,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.text__x2Mg3
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Curated technology, busines, and creatives services designed for modern entrepreneurs."
@@ -632,7 +632,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -644,21 +644,21 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.buttonLinkPrimary__dP6E
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -672,7 +672,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                           sty.text__hYew
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "iphone678Plus")
+                        {hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? "Join today"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Join today"
@@ -680,14 +680,14 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
@@ -718,7 +718,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_360"
                     : "_540"
                 }
@@ -912,7 +912,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.text__bf3Y2
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Destination venues, events, and meetups for remote companies"
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Destination venues, events, and meetups for remote companies"
@@ -933,7 +933,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -945,21 +945,21 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.buttonLinkPrimary__cuxXx
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "/member/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/member/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -973,7 +973,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                           sty.text__zKpa
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "iphone678Plus")
+                        {hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? "Get inspired"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Get inspired"
@@ -981,14 +981,14 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
@@ -1019,7 +1019,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 )}
                 headings={["title"]}
                 size={
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_360"
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? "_720"
@@ -1044,7 +1044,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.text__paM4A
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
                       : hasVariant(globalVariants, "screen", "desktop")
                       ? "Inspire and get inspired—host, teach, or join experiences that make a difference in your life and business."
@@ -1236,7 +1236,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 </p.Stack>
 
                 {(
-                  hasVariant(globalVariants, "screen", "iphone678Plus")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? true
                     : hasVariant(globalVariants, "screen", "desktop")
                     ? true
@@ -1248,21 +1248,21 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       sty.buttonLinkPrimary__hzn2V
                     )}
                     color={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "brand"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "brand"
                         : undefined
                     }
                     destination={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "/partner/pricing"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "/partner/pricing"
                         : undefined
                     }
                     height={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_48"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_40"
@@ -1276,7 +1276,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                           sty.text___4HpwD
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "iphone678Plus")
+                        {hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? "Learn more"
                           : hasVariant(globalVariants, "screen", "desktop")
                           ? "Learn more"
@@ -1284,14 +1284,14 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                       </div>
                     }
                     type={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "fill"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "fill"
                         : undefined
                     }
                     width={
-                      hasVariant(globalVariants, "screen", "iphone678Plus")
+                      hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "_360"
                         : hasVariant(globalVariants, "screen", "desktop")
                         ? "_180"
