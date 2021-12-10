@@ -365,6 +365,7 @@ const PlasmicDescendants = {
     "freeBox",
     "searchTriggerParent",
     "textInput",
+    "textbox",
     "svg",
     "text",
     "badgeDisplay",
@@ -381,6 +382,7 @@ const PlasmicDescendants = {
     "freeBox",
     "searchTriggerParent",
     "textInput",
+    "textbox",
     "svg",
     "text",
     "badgeDisplay",
@@ -396,6 +398,7 @@ const PlasmicDescendants = {
     "freeBox",
     "searchTriggerParent",
     "textInput",
+    "textbox",
     "svg",
     "text",
     "badgeDisplay"
@@ -408,14 +411,22 @@ const PlasmicDescendants = {
     "freeBox",
     "searchTriggerParent",
     "textInput",
+    "textbox",
     "svg",
     "text",
     "badgeDisplay"
   ],
 
   freeBox: ["freeBox"],
-  searchTriggerParent: ["searchTriggerParent", "textInput", "svg", "text"],
-  textInput: ["textInput"],
+  searchTriggerParent: [
+    "searchTriggerParent",
+    "textInput",
+    "textbox",
+    "svg",
+    "text"
+  ],
+
+  textInput: ["textInput", "textbox"],
   svg: ["svg"],
   text: ["text"],
   badgeDisplay: ["badgeDisplay"],

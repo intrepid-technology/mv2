@@ -209,6 +209,7 @@ const PlasmicDescendants = {
     "startAdornmentWrapper",
     "inputWrapper",
     "textInput",
+    "textbox",
     "endAdornmentWrapper"
   ],
 
@@ -218,12 +219,13 @@ const PlasmicDescendants = {
     "startAdornmentWrapper",
     "inputWrapper",
     "textInput",
+    "textbox",
     "endAdornmentWrapper"
   ],
 
   startAdornmentWrapper: ["startAdornmentWrapper"],
-  inputWrapper: ["inputWrapper", "textInput"],
-  textInput: ["textInput"],
+  inputWrapper: ["inputWrapper", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"],
   endAdornmentWrapper: ["endAdornmentWrapper"]
 };
 

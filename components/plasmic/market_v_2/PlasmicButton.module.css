@@ -274,7 +274,6 @@
   background: #ffffff;
   transform-origin: 50% 50%;
   backface-visibility: hidden;
-  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
 .root__type_secondary:hover .button__type_secondary {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
@@ -683,4 +682,13 @@
 }
 .root__color_brand_rounded:hover .slotTargetChildren__color_brand_rounded {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  display: none;
 }

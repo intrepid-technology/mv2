@@ -6248,6 +6248,11 @@
           "id": "3P8m-UzgVg",
           "name": "WorkBriefIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__WorkBrief.jsx"
+        },
+        {
+          "id": "cvZrl8mqdA_",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Checksvg.jsx"
         }
       ],
       "images": [

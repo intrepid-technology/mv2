@@ -106,10 +106,18 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "prefixParent", "textInput", "suffixParent"],
-  parent: ["parent", "prefixParent", "textInput", "suffixParent"],
+  root: [
+    "root",
+    "parent",
+    "prefixParent",
+    "textInput",
+    "textbox",
+    "suffixParent"
+  ],
+
+  parent: ["parent", "prefixParent", "textInput", "textbox", "suffixParent"],
   prefixParent: ["prefixParent"],
-  textInput: ["textInput"],
+  textInput: ["textInput", "textbox"],
   suffixParent: ["suffixParent"]
 };
 

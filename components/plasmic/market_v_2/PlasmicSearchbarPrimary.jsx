@@ -185,14 +185,23 @@ const PlasmicDescendants = {
     "searchSvgbg",
     "searchSvg",
     "textboxParent",
-    "textInput"
+    "textInput",
+    "textbox"
   ],
 
-  parent: ["parent", "searchSvgbg", "searchSvg", "textboxParent", "textInput"],
+  parent: [
+    "parent",
+    "searchSvgbg",
+    "searchSvg",
+    "textboxParent",
+    "textInput",
+    "textbox"
+  ],
+
   searchSvgbg: ["searchSvgbg", "searchSvg"],
   searchSvg: ["searchSvg"],
-  textboxParent: ["textboxParent", "textInput"],
-  textInput: ["textInput"]
+  textboxParent: ["textboxParent", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"]
 };
 
 function makeNodeComponent(nodeName) {

@@ -133,6 +133,7 @@ const PlasmicDescendants = {
     "comboBoxWrapper",
     "inputContainer",
     "textInput",
+    "textbox",
     "dropdownButtonWrapper",
     "svg",
     "optionGroup",
@@ -143,6 +144,7 @@ const PlasmicDescendants = {
     "comboBoxWrapper",
     "inputContainer",
     "textInput",
+    "textbox",
     "dropdownButtonWrapper",
     "svg"
   ],
@@ -150,11 +152,12 @@ const PlasmicDescendants = {
   inputContainer: [
     "inputContainer",
     "textInput",
+    "textbox",
     "dropdownButtonWrapper",
     "svg"
   ],
 
-  textInput: ["textInput"],
+  textInput: ["textInput", "textbox"],
   dropdownButtonWrapper: ["dropdownButtonWrapper", "svg"],
   svg: ["svg"],
   optionGroup: ["optionGroup"],

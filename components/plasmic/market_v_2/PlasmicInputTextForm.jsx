@@ -374,6 +374,7 @@ const PlasmicDescendants = {
     "labelHeadlineParent",
     "inputParent",
     "textInput",
+    "textbox",
     "descriptionParent"
   ],
 
@@ -382,12 +383,13 @@ const PlasmicDescendants = {
     "labelHeadlineParent",
     "inputParent",
     "textInput",
+    "textbox",
     "descriptionParent"
   ],
 
   labelHeadlineParent: ["labelHeadlineParent"],
-  inputParent: ["inputParent", "textInput"],
-  textInput: ["textInput"],
+  inputParent: ["inputParent", "textInput", "textbox"],
+  textInput: ["textInput", "textbox"],
   descriptionParent: ["descriptionParent"]
 };
 

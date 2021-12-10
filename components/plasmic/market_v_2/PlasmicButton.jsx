@@ -583,13 +583,23 @@ function PlasmicButton__RenderFunc(props) {
           })
         })}
       </button>
+
+      {true ? (
+        <svg
+          data-plasmic-name={"svg"}
+          data-plasmic-override={overrides.svg}
+          className={classNames(projectcss.all, sty.svg)}
+          role={"img"}
+        />
+      ) : null}
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "button"],
-  button: ["button"]
+  root: ["root", "button", "svg"],
+  button: ["button"],
+  svg: ["svg"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -624,6 +634,7 @@ export const PlasmicButton = Object.assign(
   {
     // Helper components rendering sub-elements
     button: makeNodeComponent("button"),
+    svg: makeNodeComponent("svg"),
     // Metadata about props expected for PlasmicButton
     internalVariantProps: PlasmicButton__VariantProps,
     internalArgProps: PlasmicButton__ArgProps

@@ -98,9 +98,9 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "textInput", "button", "text"],
+  root: ["root", "freeBox", "textInput", "textbox", "button", "text"],
   freeBox: ["freeBox"],
-  textInput: ["textInput"],
+  textInput: ["textInput", "textbox"],
   button: ["button", "text"],
   text: ["text"]
 };
