@@ -26,7 +26,7 @@ import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSD
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicEditteam.module.css"; // plasmic-import: bpMMXdkhlq/css
@@ -38,7 +38,7 @@ export const PlasmicEditteam__ArgProps = new Array();
 function PlasmicEditteam__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

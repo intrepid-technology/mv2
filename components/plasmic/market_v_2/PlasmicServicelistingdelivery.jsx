@@ -26,7 +26,7 @@ import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjT
 import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
 import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
 import ConditionalField from "../../ConditionalField"; // plasmic-import: umGRdihMyi/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingdelivery.module.css"; // plasmic-import: WrChxyxJaSh/css
@@ -38,7 +38,7 @@ export const PlasmicServicelistingdelivery__ArgProps = new Array();
 function PlasmicServicelistingdelivery__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

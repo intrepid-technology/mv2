@@ -24,7 +24,7 @@ import PricingPageElementTeamBlock from "../../PricingPageElementTeamBlock"; // 
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
 import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/component
 import InputEmailB from "../../InputEmailB"; // plasmic-import: TlHGxonFgD/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMemberpricing.module.css"; // plasmic-import: Bsm9hmgzlseA/css
@@ -43,7 +43,7 @@ export const PlasmicMemberpricing__ArgProps = new Array();
 function PlasmicMemberpricing__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

@@ -18,7 +18,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import CardHeroMemberProfileDisplay from "../../CardHeroMemberProfileDisplay"; // plasmic-import: YUvGYQ5tJXz/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSectionMemberProfileHero.module.css"; // plasmic-import: Q-O9AS-Maj_/css
@@ -30,7 +30,7 @@ export const PlasmicSectionMemberProfileHero__ArgProps = new Array();
 function PlasmicSectionMemberProfileHero__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (

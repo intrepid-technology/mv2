@@ -19,7 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import UserAvatarButton from "../../UserAvatarButton"; // plasmic-import: w1GnXfIMuv/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardMemberProfile.module.css"; // plasmic-import: Jh4JXlZHnwY/css
@@ -31,7 +31,7 @@ export const PlasmicCardMemberProfile__ArgProps = new Array();
 function PlasmicCardMemberProfile__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

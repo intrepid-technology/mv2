@@ -25,7 +25,7 @@ import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-impo
 import MultiCheckboxInput from "../../MultiCheckboxInput"; // plasmic-import: 6TMzn6NJGN/component
 import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicelistingcategory.module.css"; // plasmic-import: NDaIYzZaPz/css
@@ -37,7 +37,7 @@ export const PlasmicServicelistingcategory__ArgProps = new Array();
 function PlasmicServicelistingcategory__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

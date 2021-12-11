@@ -21,7 +21,7 @@ import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/compone
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
@@ -34,7 +34,7 @@ export const PlasmicNavbar__ArgProps = new Array();
 function PlasmicNavbar__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

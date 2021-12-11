@@ -20,7 +20,7 @@ import {
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import LogoHeader from "../../LogoHeader"; // plasmic-import: 9wNFT5FYWe/component
 import SectionLogIn from "../../SectionLogIn"; // plasmic-import: 6EfwvreoWT/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLogIn.module.css"; // plasmic-import: C3imsSfhke/css
@@ -32,7 +32,7 @@ export const PlasmicLogIn__ArgProps = new Array();
 function PlasmicLogIn__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

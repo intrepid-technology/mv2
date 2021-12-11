@@ -18,7 +18,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicElementLocationPrimary.module.css"; // plasmic-import: D70VD4gl3mo/css
@@ -31,7 +31,7 @@ export const PlasmicElementLocationPrimary__ArgProps = new Array();
 function PlasmicElementLocationPrimary__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (

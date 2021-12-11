@@ -26,7 +26,7 @@ import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicServicedetail.module.css"; // plasmic-import: 2YXWRU8_5CaO/css
@@ -45,7 +45,7 @@ export const PlasmicServicedetail__ArgProps = new Array("headline");
 function PlasmicServicedetail__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

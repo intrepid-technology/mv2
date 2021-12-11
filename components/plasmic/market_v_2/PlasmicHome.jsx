@@ -26,7 +26,7 @@ import CardFeatureHeadlineDescriptionCentered from "../../CardFeatureHeadlineDes
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicHome.module.css"; // plasmic-import: 0fvA7C1gRK/css
@@ -46,7 +46,7 @@ export const PlasmicHome__ArgProps = new Array("children", "slot3");
 function PlasmicHome__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (
@@ -54,15 +54,13 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <meta name="twitter:card" content="summary" />
         <title key="title">
-          {
-            "Remote company and global workforce management solutions | Intrepid Remote OS"
-          }
+          {"Remote work and team management solutions | Intrepid Remote OS"}
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Remote company and global workforce management solutions | Intrepid Remote OS"
+            "Remote work and team management solutions | Intrepid Remote OS"
           }
         />
 
@@ -71,7 +69,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "Run a remote company from anywhere and manage a global workforce that scales on demand. Find, hire, and pay high quality freelancers & agencies in 150 countries."
+            "Remote work from anywhere and manage a global team that scales on demand. Find, hire, and pay high quality freelancers & agencies in 150 countries."
           }
         />
 
@@ -79,7 +77,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/f1b0f518bf0bf3e9c972685481f37818.png"
+            "https://site-assets.plasmic.app/f4666414204fdea8e23ec6dc775c4372.png"
           }
         />
       </Head>
@@ -197,19 +195,19 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "iphone678"
                                   )
-                                    ? "Run your remote company from anywhere and scale on demand"
+                                    ? "Remote work from anywhere and scale on demand"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Run your remote company from anywhere and scale on demand"
+                                    ? "Remote work from anywhere and scale on demand"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Run your remote company from anywhere and scale on demand"
+                                    ? "Remote work from anywhere and scale your team on demand"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -230,8 +228,14 @@ function PlasmicHome__RenderFunc(props) {
                               sty.text__ztd5X
                             )}
                           >
-                            {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—run your global workforce and scale on demand from anywhere in the world."
+                            {hasVariant(
+                              globalVariants,
+                              "screen",
+                              "iphone12ProMax"
+                            )
+                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—build your remote team and scale on demand from anywhere in the world."
+                              : hasVariant(globalVariants, "screen", "desktop")
+                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—build your remote team and scale on demand from anywhere in the world."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -293,7 +297,7 @@ function PlasmicHome__RenderFunc(props) {
                 >
                   {p.renderPlasmicSlot({
                     defaultContents:
-                      "We're a trusted community to world class teams",
+                      "We're a trusted community to world class hybrid and remote teams",
                     value: args.children,
                     className: classNames(sty.slotTargetChildren)
                   })}
@@ -383,7 +387,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Workforce management software that gives your remote company superpowers"
+                      ? "Remote work management software that gives your team superpowers"
                       : "Business management software that gives your remote company superpowers"}
                   </div>
 
@@ -395,7 +399,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "
+                      ? "Manage a remote team with full transparency into your finances and global operations. Get specialised services designed to make remote team management life changing. "
                       : "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "}
                   </div>
                 </p.Stack>
@@ -1470,7 +1474,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Grow a global and remote company without the hassles"
+                      ? "Grow a global and remote team without the hassles"
                       : "Grow a global and remote company without the hassles"}
                   </div>
 

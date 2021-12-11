@@ -26,7 +26,7 @@ import ElementLocationPrimary from "../../ElementLocationPrimary"; // plasmic-im
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicCardTeamProfileHeroDisplay.module.css"; // plasmic-import: CFL7zSW3US5/css
@@ -41,7 +41,7 @@ export const PlasmicCardTeamProfileHeroDisplay__ArgProps = new Array();
 function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

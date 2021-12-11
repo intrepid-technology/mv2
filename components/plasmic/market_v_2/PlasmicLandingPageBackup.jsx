@@ -22,7 +22,7 @@ import AlertCard from "../../AlertCard"; // plasmic-import: Kd4Jtco7N_/component
 import Typography from "../../Typography"; // plasmic-import: DWcJDlqh2G/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicLandingPageBackup.module.css"; // plasmic-import: Afo7dYL8xuP/css
@@ -38,7 +38,7 @@ export const PlasmicLandingPageBackup__ArgProps = new Array();
 function PlasmicLandingPageBackup__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

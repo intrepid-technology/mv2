@@ -22,7 +22,7 @@ import CardHeaderTitlePrimary from "../../CardHeaderTitlePrimary"; // plasmic-im
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNotificationSettingsForm.module.css"; // plasmic-import: Z8dV7lUnBe3/css
@@ -34,7 +34,7 @@ export const PlasmicNotificationSettingsForm__ArgProps = new Array();
 function PlasmicNotificationSettingsForm__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (

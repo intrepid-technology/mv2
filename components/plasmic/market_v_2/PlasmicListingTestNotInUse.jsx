@@ -19,7 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import CardLinkServiceMenu from "../../CardLinkServiceMenu"; // plasmic-import: q8zDlZXV1I/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicListingTestNotInUse.module.css"; // plasmic-import: 9OWAcuBiHBm/css
@@ -35,7 +35,7 @@ export const PlasmicListingTestNotInUse__ArgProps = new Array();
 function PlasmicListingTestNotInUse__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (
