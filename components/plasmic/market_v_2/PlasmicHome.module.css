@@ -962,7 +962,7 @@
   .featureOne {
     background: #ffffff;
     display: flex;
-    padding: 80px;
+    padding: 80px 80px 144px;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -1385,7 +1385,7 @@
   .remoteWorkCta {
     background: #101010;
     display: flex;
-    padding: 80px;
+    padding: 80px 80px 144px;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {

@@ -199,15 +199,21 @@ function PlasmicHome__RenderFunc(props) {
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
+                                        "iphone678Plus"
+                                      )
+                                    ? "Remote work from anywhere and manage a global team that scales on demand"
+                                    : hasVariant(
+                                        globalVariants,
+                                        "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Remote work from anywhere and scale your team on demand"
+                                    ? "Remote work from anywhere and manage a global team that scales on demand"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Remote work from anywhere and scale your team on demand"
+                                    ? "Remote work from anywhere and manage a global team that scales on demand"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -982,7 +988,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that your startup, or scale up can be flexible and compete with the big-tech giants."
+                                  ? "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that your remote company can be flexible and compete with the big-tech giants."
                                   : "Go to market fast with net 60 payment terms and free trials to take the risk out of onboarding new freelancers and agencies, so that startups and scale ups can be flexible and compete with the big-tech giants."}
                               </div>
                             </div>
@@ -1383,7 +1389,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Manage a global team and remote workforce with greater transparency"
+                              ? "Manage a global and remote team with greater transparency"
                               : "Manage a global team and remote workforce with greater transparency"}
                           </div>
 
