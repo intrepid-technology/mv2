@@ -54,13 +54,15 @@ function PlasmicHome__RenderFunc(props) {
       <Head>
         <meta name="twitter:card" content="summary" />
         <title key="title">
-          {"Remote work and team management solutions | Intrepid Remote OS"}
+          {
+            "Manage a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
+          }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Remote work and team management solutions | Intrepid Remote OS"
+            "Manage a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
           }
         />
 
@@ -69,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "Remote work from anywhere and manage a global team that scales on demand. Find, hire, and pay high quality freelancers & agencies in 150 countries."
+            "Manage a remote team, work from anywhere, and scale on demand. Find, hire, manage and pay— high quality freelancers & agencies in 150 countries."
           }
         />
 
@@ -77,7 +79,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/f4666414204fdea8e23ec6dc775c4372.png"
+            "https://site-assets.plasmic.app/130fae33d5839fbaafadcb72a0218946.png"
           }
         />
       </Head>
@@ -195,25 +197,25 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "iphone678"
                                   )
-                                    ? "Remote work from anywhere and scale your team on demand"
+                                    ? "Manage a remote team.Work from from anywhere. Scale on demand."
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone678Plus"
                                       )
-                                    ? "Remote work from anywhere and manage a global team that scales on demand"
+                                    ? "Manage a remote team.Work from from anywhere. Scale on demand."
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Remote work from anywhere and manage a global team that scales on demand"
+                                    ? "Manage a remote team.Work from from anywhere. Scale on demand."
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Remote work from anywhere and manage a global team that scales on demand"
+                                    ? "Manage a remote team.Work from from anywhere. Scale on demand."
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
