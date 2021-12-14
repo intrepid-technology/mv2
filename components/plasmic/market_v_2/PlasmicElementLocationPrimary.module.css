@@ -4,12 +4,27 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
 }
 .parent {
   display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -17,6 +32,9 @@
   justify-content: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
+}
+.parent * {
+  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -29,93 +47,167 @@
   margin-left: 4px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
+  .parent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
   .parent > :global(.__wab_flex-container) {
     justify-content: flex-start;
   }
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent * {
+    transform-style: preserve-3d;
+  }
+}
 .locationPin:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   display: flex;
+}
+.locationPin * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .locationPin:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .locationPin * {
+    transform-style: preserve-3d;
+  }
 }
 .svgIcon {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svgIcon * {
+  transform-style: preserve-3d;
 }
 .svg__k7CZo {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__k7CZo * {
+  transform-style: preserve-3d;
 }
 .svgIcon3 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svgIcon3 * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svgIcon3 {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svgIcon3 * {
+    transform-style: preserve-3d;
+  }
 }
 .svgIcon4 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svgIcon4 * {
+  transform-style: preserve-3d;
 }
 .svg__yyvVh {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__yyvVh * {
+  transform-style: preserve-3d;
 }
 .svg__gaAsD {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__gaAsD * {
+  transform-style: preserve-3d;
 }
 .svg__ggPjA {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__ggPjA * {
+  transform-style: preserve-3d;
 }
 .svg__qvMnC {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__qvMnC * {
+  transform-style: preserve-3d;
 }
 .svg__rWBfC {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__rWBfC * {
+  transform-style: preserve-3d;
 }
 .svg__unm0Q {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__unm0Q * {
+  transform-style: preserve-3d;
 }
 .cityTextParent {
   display: flex;
@@ -124,6 +216,20 @@
   align-items: stretch;
   justify-content: space-between;
   width: auto;
+  transform-style: preserve-3d;
+}
+.cityTextParent * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cityTextParent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cityTextParent * {
+    transform-style: preserve-3d;
+  }
 }
 .cityName {
   display: block;
@@ -134,11 +240,21 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
+  transform-style: preserve-3d;
+}
+.cityName * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .cityName {
     font-size: 14px;
     line-height: 1;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cityName * {
+    transform-style: preserve-3d;
   }
 }
 .text {
@@ -153,10 +269,20 @@
   position: relative;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text {
     font-size: 14px;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text * {
+    transform-style: preserve-3d;
   }
 }
 .countryTextParent {
@@ -165,6 +291,20 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.countryTextParent * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .countryTextParent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .countryTextParent * {
+    transform-style: preserve-3d;
+  }
 }
 .countryName {
   display: block;
@@ -175,10 +315,20 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
+  transform-style: preserve-3d;
+}
+.countryName * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .countryName {
     font-size: 14px;
     line-height: 1;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .countryName * {
+    transform-style: preserve-3d;
   }
 }

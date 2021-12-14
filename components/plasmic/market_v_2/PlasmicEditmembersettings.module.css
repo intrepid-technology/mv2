@@ -5,8 +5,32 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
 }
 .sectionMemberSettingsEmail {
   display: flex;
@@ -15,6 +39,7 @@
   top: auto;
   left: auto;
   height: auto;
+  transform-style: preserve-3d;
   padding: 16px 8px 32px;
 }
 .sectionMemberSettingsEmail > :global(.__wab_flex-container) {
@@ -24,6 +49,9 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberSettingsEmail * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsEmail > :global(.__wab_flex-container) > *,
 .sectionMemberSettingsEmail
@@ -41,6 +69,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsEmail {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px;
   }
@@ -50,21 +79,66 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberSettingsEmail * {
+    transform-style: preserve-3d;
+  }
+}
 .cardHeaderTitleDisplay:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitleDisplay * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .cardHeaderTitleDisplay:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .cardHeaderTitleDisplay * {
+    transform-style: preserve-3d;
+  }
+}
+.text__c7Qwt {
+  transform-style: preserve-3d;
+}
+.text__c7Qwt * {
+  transform-style: preserve-3d;
 }
 .text___1J1Ku {
   font-weight: 700;
+  transform-style: preserve-3d;
+}
+.text___1J1Ku * {
+  transform-style: preserve-3d;
+}
+.text__xMy5G {
+  transform-style: preserve-3d;
+}
+.text__xMy5G * {
+  transform-style: preserve-3d;
 }
 .emailForm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.emailForm * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .emailForm:global(.__wab_instance) {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .emailForm * {
+    transform-style: preserve-3d;
   }
 }
 .formMemberEditEmail {
@@ -72,6 +146,7 @@
   flex-direction: column;
   width: 550px;
   height: auto;
+  transform-style: preserve-3d;
 }
 .formMemberEditEmail > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -79,6 +154,9 @@
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.formMemberEditEmail * {
+  transform-style: preserve-3d;
 }
 .formMemberEditEmail > :global(.__wab_flex-container) > *,
 .formMemberEditEmail
@@ -96,6 +174,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditEmail {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -104,11 +183,17 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .formMemberEditEmail * {
+    transform-style: preserve-3d;
+  }
+}
 .freeBox__pZx7J {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__pZx7J > :global(.__wab_flex-container) {
@@ -119,6 +204,9 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
+}
+.freeBox__pZx7J * {
+  transform-style: preserve-3d;
 }
 .freeBox__pZx7J > :global(.__wab_flex-container) > *,
 .freeBox__pZx7J > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -134,23 +222,67 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitlePrimary__vfOg5 * {
+  transform-style: preserve-3d;
+}
+.text__cmznt {
+  transform-style: preserve-3d;
+}
+.text__cmznt * {
+  transform-style: preserve-3d;
 }
 .text__stdky {
   height: auto;
   max-width: 328px;
+  transform-style: preserve-3d;
+}
+.text__stdky * {
+  transform-style: preserve-3d;
 }
 .emailTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.emailTextInput * {
+  transform-style: preserve-3d;
+}
+.text__csX6D {
+  transform-style: preserve-3d;
+}
+.text__csX6D * {
+  transform-style: preserve-3d;
+}
+.text__sWb5 {
+  transform-style: preserve-3d;
+}
+.text__sWb5 * {
+  transform-style: preserve-3d;
+}
+.text__kLNfb {
+  transform-style: preserve-3d;
+}
+.text__kLNfb * {
+  transform-style: preserve-3d;
 }
 .emailFormSubmitButton:global(.__wab_instance) {
   position: relative;
   width: 140px;
   height: 36px;
   align-self: flex-end;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.emailFormSubmitButton * {
+  transform-style: preserve-3d;
 }
 .text__bXNro {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__bXNro * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsPasswordReset {
   display: flex;
@@ -160,6 +292,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 32px;
 }
@@ -171,6 +304,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberSettingsPasswordReset * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsPasswordReset > :global(.__wab_flex-container) > *,
 .sectionMemberSettingsPasswordReset
@@ -190,7 +326,13 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsPasswordReset {
+    transform-style: preserve-3d;
     padding: 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberSettingsPasswordReset * {
+    transform-style: preserve-3d;
   }
 }
 .sectionMemberPasswordReset {
@@ -198,6 +340,7 @@
   flex-direction: column;
   width: 550px;
   height: auto;
+  transform-style: preserve-3d;
 }
 .sectionMemberPasswordReset > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -206,6 +349,9 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberPasswordReset * {
+  transform-style: preserve-3d;
 }
 .sectionMemberPasswordReset > :global(.__wab_flex-container) > *,
 .sectionMemberPasswordReset
@@ -223,6 +369,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberPasswordReset {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -231,29 +378,62 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberPasswordReset * {
+    transform-style: preserve-3d;
+  }
+}
 .cardHeaderTitlePrimary__rmGSc:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitlePrimary__rmGSc * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary__rmGSc:global(.__wab_instance) {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .cardHeaderTitlePrimary__rmGSc * {
+    transform-style: preserve-3d;
+  }
+}
+.text__ulf2A {
+  transform-style: preserve-3d;
+}
+.text__ulf2A * {
+  transform-style: preserve-3d;
+}
 .text__pucdn {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__pucdn * {
+  transform-style: preserve-3d;
 }
 .passwordResetButton:global(.__wab_instance) {
   position: relative;
   width: 270px;
   height: 40px;
   align-self: flex-end;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.passwordResetButton * {
+  transform-style: preserve-3d;
 }
 .text__zr6Zm {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__zr6Zm * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsLoginConnections {
   display: flex;
@@ -263,6 +443,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 32px;
 }
@@ -274,6 +455,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberSettingsLoginConnections * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsLoginConnections > :global(.__wab_flex-container) > *,
 .sectionMemberSettingsLoginConnections
@@ -293,17 +477,28 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsLoginConnections {
+    transform-style: preserve-3d;
     padding: 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberSettingsLoginConnections * {
+    transform-style: preserve-3d;
   }
 }
 .formContext:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.formContext * {
+  transform-style: preserve-3d;
 }
 .sectionMemberLoginConnections {
   display: flex;
   flex-direction: column;
   width: 550px;
   height: auto;
+  transform-style: preserve-3d;
 }
 .sectionMemberLoginConnections > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -311,6 +506,9 @@
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberLoginConnections * {
+  transform-style: preserve-3d;
 }
 .sectionMemberLoginConnections > :global(.__wab_flex-container) > *,
 .sectionMemberLoginConnections
@@ -328,6 +526,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberLoginConnections {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -336,11 +535,17 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberLoginConnections * {
+    transform-style: preserve-3d;
+  }
+}
 .freeBox__ta5FN {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__ta5FN > :global(.__wab_flex-container) {
@@ -352,6 +557,9 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
+.freeBox__ta5FN * {
+  transform-style: preserve-3d;
+}
 .freeBox__ta5FN > :global(.__wab_flex-container) > *,
 .freeBox__ta5FN > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .freeBox__ta5FN > :global(.__wab_flex-container) > picture > img,
@@ -362,15 +570,39 @@
   > img {
   margin-top: 24px;
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__ta5FN {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__ta5FN * {
+    transform-style: preserve-3d;
+  }
+}
 .cardHeaderTitlePrimary__qzg0M:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.cardHeaderTitlePrimary__qzg0M * {
+  transform-style: preserve-3d;
+}
+.text__bIqtz {
+  transform-style: preserve-3d;
+}
+.text__bIqtz * {
+  transform-style: preserve-3d;
 }
 .text__lhHaq {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__lhHaq * {
+  transform-style: preserve-3d;
 }
 .inputGroupMemberLoginSocial {
   display: flex;
@@ -384,20 +616,35 @@
   flex-wrap: nowrap;
   width: 540px;
   height: auto;
+  transform-style: preserve-3d;
+}
+.inputGroupMemberLoginSocial * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLoginSocial {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .inputGroupMemberLoginSocial * {
+    transform-style: preserve-3d;
   }
 }
 .googleSwitchInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.googleSwitchInput * {
+  transform-style: preserve-3d;
 }
 .freeBox__dwCra {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .freeBox__dwCra > :global(.__wab_flex-container) {
@@ -406,6 +653,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.freeBox__dwCra * {
+  transform-style: preserve-3d;
 }
 .freeBox__dwCra > :global(.__wab_flex-container) > *,
 .freeBox__dwCra > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -424,20 +674,33 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   width: 30px;
   height: 30px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__dc7Qu * {
+  transform-style: preserve-3d;
 }
 .text__ccls {
   font-size: 18px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__ccls * {
+  transform-style: preserve-3d;
 }
 .facebookSwitchInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.facebookSwitchInput * {
+  transform-style: preserve-3d;
 }
 .freeBox__jhNWs {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .freeBox__jhNWs > :global(.__wab_flex-container) {
@@ -446,6 +709,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.freeBox__jhNWs * {
+  transform-style: preserve-3d;
 }
 .freeBox__jhNWs > :global(.__wab_flex-container) > *,
 .freeBox__jhNWs > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -464,20 +730,33 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   width: 30px;
   height: 30px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__e2WvX * {
+  transform-style: preserve-3d;
 }
 .text___25A {
   font-size: 18px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text___25A * {
+  transform-style: preserve-3d;
 }
 .twitterSwitchInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.twitterSwitchInput * {
+  transform-style: preserve-3d;
 }
 .freeBox__vd3Q {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .freeBox__vd3Q > :global(.__wab_flex-container) {
@@ -486,6 +765,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.freeBox__vd3Q * {
+  transform-style: preserve-3d;
 }
 .freeBox__vd3Q > :global(.__wab_flex-container) > *,
 .freeBox__vd3Q > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -504,20 +786,33 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   width: 30px;
   height: 30px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg___1AzOc * {
+  transform-style: preserve-3d;
 }
 .text___8FQhv {
   font-size: 18px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text___8FQhv * {
+  transform-style: preserve-3d;
 }
 .linkedInSwitchInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.linkedInSwitchInput * {
+  transform-style: preserve-3d;
 }
 .freeBox___8CqVc {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .freeBox___8CqVc > :global(.__wab_flex-container) {
@@ -526,6 +821,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.freeBox___8CqVc * {
+  transform-style: preserve-3d;
 }
 .freeBox___8CqVc > :global(.__wab_flex-container) > *,
 .freeBox___8CqVc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -544,20 +842,33 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   width: 30px;
   height: 30px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__py6TS * {
+  transform-style: preserve-3d;
 }
 .text__sRrhz {
   font-size: 18px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__sRrhz * {
+  transform-style: preserve-3d;
 }
 .githubSwitchInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.githubSwitchInput * {
+  transform-style: preserve-3d;
 }
 .freeBox___0Xli {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .freeBox___0Xli > :global(.__wab_flex-container) {
@@ -566,6 +877,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.freeBox___0Xli * {
+  transform-style: preserve-3d;
 }
 .freeBox___0Xli > :global(.__wab_flex-container) > *,
 .freeBox___0Xli > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -584,12 +898,20 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   width: 30px;
   height: 30px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__i1Yxg * {
+  transform-style: preserve-3d;
 }
 .text__pBbHh {
   font-size: 18px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__pBbHh * {
+  transform-style: preserve-3d;
 }
 .sectionMemberMobileNumber {
   display: flex;
@@ -599,6 +921,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 32px;
 }
@@ -610,6 +933,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberMobileNumber * {
+  transform-style: preserve-3d;
 }
 .sectionMemberMobileNumber > :global(.__wab_flex-container) > *,
 .sectionMemberMobileNumber
@@ -626,7 +952,18 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberMobileNumber {
+    transform-style: preserve-3d;
     padding: 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberMobileNumber * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .sectionMemberMobileNumber {
+    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
@@ -635,14 +972,24 @@
     align-items: center;
   }
 }
+@media (max-width: 375px) {
+  .sectionMemberMobileNumber * {
+    transform-style: preserve-3d;
+  }
+}
 .mobileForm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.mobileForm * {
+  transform-style: preserve-3d;
 }
 .formMemberEditMobileNumber {
   display: flex;
   flex-direction: column;
   width: 550px;
   height: auto;
+  transform-style: preserve-3d;
 }
 .formMemberEditMobileNumber > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -651,6 +998,9 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.formMemberEditMobileNumber * {
+  transform-style: preserve-3d;
 }
 .formMemberEditMobileNumber > :global(.__wab_flex-container) > *,
 .formMemberEditMobileNumber
@@ -668,6 +1018,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditMobileNumber {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -676,11 +1027,27 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .formMemberEditMobileNumber * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .formMemberEditMobileNumber {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .formMemberEditMobileNumber * {
+    transform-style: preserve-3d;
+  }
+}
 .freeBox__ltCq0 {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__ltCq0 > :global(.__wab_flex-container) {
@@ -691,6 +1058,9 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
+}
+.freeBox__ltCq0 * {
+  transform-style: preserve-3d;
 }
 .freeBox__ltCq0 > :global(.__wab_flex-container) > *,
 .freeBox__ltCq0 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -705,15 +1075,55 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ltCq0 {
     width: auto;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__ltCq0 * {
+    transform-style: preserve-3d;
   }
 }
 .cardHeaderTitlePrimary__xC5L:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitlePrimary__xC5L * {
+  transform-style: preserve-3d;
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__xC5L:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .cardHeaderTitlePrimary__xC5L * {
+    transform-style: preserve-3d;
+  }
+}
+.text__xej5L {
+  transform-style: preserve-3d;
+}
+.text__xej5L * {
+  transform-style: preserve-3d;
+}
+@media (max-width: 375px) {
+  .text__xej5L {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .text__xej5L * {
+    transform-style: preserve-3d;
+  }
 }
 .text__lzt1R {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__lzt1R * {
+  transform-style: preserve-3d;
 }
 .memberLocationGroup {
   display: flex;
@@ -723,6 +1133,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .memberLocationGroup > :global(.__wab_flex-container) {
@@ -736,6 +1147,9 @@
   width: calc(100% + 32px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.memberLocationGroup * {
+  transform-style: preserve-3d;
 }
 .memberLocationGroup > :global(.__wab_flex-container) > *,
 .memberLocationGroup
@@ -754,6 +1168,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -762,21 +1177,72 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .memberLocationGroup * {
+    transform-style: preserve-3d;
+  }
+}
 .mobileCountrySelectInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.mobileCountrySelectInput * {
+  transform-style: preserve-3d;
+}
+.text__hV6Gn {
+  transform-style: preserve-3d;
+}
+.text__hV6Gn * {
+  transform-style: preserve-3d;
+}
+.text__fAWoM {
+  transform-style: preserve-3d;
+}
+.text__fAWoM * {
+  transform-style: preserve-3d;
 }
 .numberTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.numberTextInput * {
+  transform-style: preserve-3d;
+}
+.text___6H3Dx {
+  transform-style: preserve-3d;
+}
+.text___6H3Dx * {
+  transform-style: preserve-3d;
+}
+.text__yLuUi {
+  transform-style: preserve-3d;
+}
+.text__yLuUi * {
+  transform-style: preserve-3d;
+}
+.text__t9F5V {
+  transform-style: preserve-3d;
+}
+.text__t9F5V * {
+  transform-style: preserve-3d;
 }
 .mobileFormSubmitButton:global(.__wab_instance) {
   position: relative;
   width: 140px;
   height: 36px;
   align-self: flex-end;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.mobileFormSubmitButton * {
+  transform-style: preserve-3d;
 }
 .text__istu {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__istu * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsAddress {
   display: flex;
@@ -786,6 +1252,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 32px;
 }
@@ -797,6 +1264,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberSettingsAddress * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsAddress > :global(.__wab_flex-container) > *,
 .sectionMemberSettingsAddress
@@ -813,17 +1283,28 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsAddress {
+    transform-style: preserve-3d;
     padding: 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberSettingsAddress * {
+    transform-style: preserve-3d;
   }
 }
 .addressForm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.addressForm * {
+  transform-style: preserve-3d;
 }
 .formMemberEditAddress {
   display: flex;
   flex-direction: column;
   width: 550px;
   height: auto;
+  transform-style: preserve-3d;
 }
 .formMemberEditAddress > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -832,6 +1313,9 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.formMemberEditAddress * {
+  transform-style: preserve-3d;
 }
 .formMemberEditAddress > :global(.__wab_flex-container) > *,
 .formMemberEditAddress
@@ -849,6 +1333,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditAddress {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -857,11 +1342,17 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .formMemberEditAddress * {
+    transform-style: preserve-3d;
+  }
+}
 .freeBox__zJ5N8 {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__zJ5N8 > :global(.__wab_flex-container) {
@@ -872,6 +1363,9 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
+}
+.freeBox__zJ5N8 * {
+  transform-style: preserve-3d;
 }
 .freeBox__zJ5N8 > :global(.__wab_flex-container) > *,
 .freeBox__zJ5N8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -886,6 +1380,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__zJ5N8 {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -894,19 +1389,44 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__zJ5N8 * {
+    transform-style: preserve-3d;
+  }
+}
 .cardHeaderTitlePrimary__lgaOa:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitlePrimary__lgaOa * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary__lgaOa:global(.__wab_instance) {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .cardHeaderTitlePrimary__lgaOa * {
+    transform-style: preserve-3d;
+  }
+}
+.text__o8Qbp {
+  transform-style: preserve-3d;
+}
+.text__o8Qbp * {
+  transform-style: preserve-3d;
+}
 .text__bNhrh {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__bNhrh * {
+  transform-style: preserve-3d;
 }
 .freeBox__qvHgH {
   display: flex;
@@ -916,6 +1436,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__qvHgH > :global(.__wab_flex-container) {
@@ -926,6 +1447,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.freeBox__qvHgH * {
+  transform-style: preserve-3d;
 }
 .freeBox__qvHgH > :global(.__wab_flex-container) > *,
 .freeBox__qvHgH > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -940,6 +1464,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__qvHgH {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -948,47 +1473,186 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__qvHgH * {
+    transform-style: preserve-3d;
+  }
+}
 .addressTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.addressTextInput * {
+  transform-style: preserve-3d;
+}
+.text__wZjWo {
+  transform-style: preserve-3d;
+}
+.text__wZjWo * {
+  transform-style: preserve-3d;
+}
+.text__wZbE9 {
+  transform-style: preserve-3d;
+}
+.text__wZbE9 * {
+  transform-style: preserve-3d;
 }
 .text__oz4Vl {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__oz4Vl * {
+  transform-style: preserve-3d;
 }
 .addressLineTwoTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.addressLineTwoTextInput * {
+  transform-style: preserve-3d;
+}
+.text__fpHTk {
+  transform-style: preserve-3d;
+}
+.text__fpHTk * {
+  transform-style: preserve-3d;
+}
+.text__hgisr {
+  transform-style: preserve-3d;
+}
+.text__hgisr * {
+  transform-style: preserve-3d;
 }
 .text___0Xmlr {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text___0Xmlr * {
+  transform-style: preserve-3d;
 }
 .countrySelectInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.countrySelectInput * {
+  transform-style: preserve-3d;
+}
+.text__m1Jwh {
+  transform-style: preserve-3d;
+}
+.text__m1Jwh * {
+  transform-style: preserve-3d;
+}
+.text___9EJmo {
+  transform-style: preserve-3d;
+}
+.text___9EJmo * {
+  transform-style: preserve-3d;
 }
 .citySelectInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.citySelectInput * {
+  transform-style: preserve-3d;
+}
+.text__vvjxm {
+  transform-style: preserve-3d;
+}
+.text__vvjxm * {
+  transform-style: preserve-3d;
 }
 .label2 {
   height: auto;
+  transform-style: preserve-3d;
+}
+.label2 * {
+  transform-style: preserve-3d;
 }
 .stateTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.stateTextInput * {
+  transform-style: preserve-3d;
+}
+.text__r0DKb {
+  transform-style: preserve-3d;
+}
+.text__r0DKb * {
+  transform-style: preserve-3d;
+}
+.text__gYf7 {
+  transform-style: preserve-3d;
+}
+.text__gYf7 * {
+  transform-style: preserve-3d;
+}
+.text___0YJXc {
+  transform-style: preserve-3d;
+}
+.text___0YJXc * {
+  transform-style: preserve-3d;
 }
 .postalCodeTextInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.postalCodeTextInput * {
+  transform-style: preserve-3d;
+}
+.text__yuEz8 {
+  transform-style: preserve-3d;
+}
+.text__yuEz8 * {
+  transform-style: preserve-3d;
+}
+.text__rfnvM {
+  transform-style: preserve-3d;
+}
+.text__rfnvM * {
+  transform-style: preserve-3d;
+}
+.text___4P7L {
+  transform-style: preserve-3d;
+}
+.text___4P7L * {
+  transform-style: preserve-3d;
 }
 .addressFormSubmitButton:global(.__wab_instance) {
   position: relative;
   width: 140px;
   height: 36px;
   align-self: flex-end;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.addressFormSubmitButton * {
+  transform-style: preserve-3d;
+}
+.text__qDooD {
+  transform-style: preserve-3d;
+}
+.text__qDooD * {
+  transform-style: preserve-3d;
 }
 .notificationsForm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.notificationsForm * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .notificationsForm:global(.__wab_instance) {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .notificationsForm * {
+    transform-style: preserve-3d;
   }
 }
 .freeBox__wBn7A {
@@ -997,22 +1661,42 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
   padding: 16px 8px 32px;
+}
+.freeBox__wBn7A * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__wBn7A {
     padding-right: 8px;
     padding-left: 8px;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__wBn7A * {
+    transform-style: preserve-3d;
   }
 }
 .notificationSettingsForm:global(.__wab_instance) {
   width: 550px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.notificationSettingsForm * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .notificationSettingsForm:global(.__wab_instance) {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .notificationSettingsForm * {
+    transform-style: preserve-3d;
   }
 }
 .sectionMemberSettingsDeleteAccount {
@@ -1023,6 +1707,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 96px;
 }
@@ -1034,6 +1719,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberSettingsDeleteAccount * {
+  transform-style: preserve-3d;
 }
 .sectionMemberSettingsDeleteAccount > :global(.__wab_flex-container) > *,
 .sectionMemberSettingsDeleteAccount
@@ -1053,7 +1741,13 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberSettingsDeleteAccount {
+    transform-style: preserve-3d;
     padding: 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberSettingsDeleteAccount * {
+    transform-style: preserve-3d;
   }
 }
 .sectionMemberDeleteAccount {
@@ -1061,6 +1755,7 @@
   flex-direction: column;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
 }
 .sectionMemberDeleteAccount > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -1069,6 +1764,9 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.sectionMemberDeleteAccount * {
+  transform-style: preserve-3d;
 }
 .sectionMemberDeleteAccount > :global(.__wab_flex-container) > *,
 .sectionMemberDeleteAccount
@@ -1088,6 +1786,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox___6BojG > :global(.__wab_flex-container) {
@@ -1098,6 +1797,9 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
+}
+.freeBox___6BojG * {
+  transform-style: preserve-3d;
 }
 .freeBox___6BojG > :global(.__wab_flex-container) > *,
 .freeBox___6BojG > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1113,18 +1815,50 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.cardHeaderTitlePrimary___84IO * {
+  transform-style: preserve-3d;
+}
+.text__cXnLl {
+  transform-style: preserve-3d;
+}
+.text__cXnLl * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__cXnLl {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__cXnLl * {
+    transform-style: preserve-3d;
+  }
 }
 .text__rRcFg {
   height: auto;
   max-width: 540px;
+  transform-style: preserve-3d;
+}
+.text__rRcFg * {
+  transform-style: preserve-3d;
 }
 .deleteAccountButton:global(.__wab_instance) {
   position: relative;
   width: 140px;
   height: 36px;
   align-self: flex-end;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.deleteAccountButton * {
+  transform-style: preserve-3d;
 }
 .text__z1Dqb {
   height: auto;
+  transform-style: preserve-3d;
+}
+.text__z1Dqb * {
+  transform-style: preserve-3d;
 }

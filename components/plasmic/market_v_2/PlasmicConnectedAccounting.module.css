@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -10,19 +11,126 @@
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 20px;
 }
+.inputFormCardWebhookConnections:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputFormCardWebhookConnections * {
+  transform-style: preserve-3d;
+}
+.text___9Xol8 {
+  transform-style: preserve-3d;
+}
+.text___9Xol8 * {
+  transform-style: preserve-3d;
+}
+.text___34TGj {
+  transform-style: preserve-3d;
+}
+.text___34TGj * {
+  transform-style: preserve-3d;
+}
+.text__hjYeY {
+  transform-style: preserve-3d;
+}
+.text__hjYeY * {
+  transform-style: preserve-3d;
+}
 .xero:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.xero * {
+  transform-style: preserve-3d;
+}
+.xero__closed:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.xero__closed * {
+  transform-style: preserve-3d;
+}
+.xero__visible_quickbooks:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.xero__visible_quickbooks * {
+  transform-style: preserve-3d;
+}
+.text__uykWb {
+  transform-style: preserve-3d;
+}
+.text__uykWb * {
+  transform-style: preserve-3d;
+}
+.text__qtt2I {
+  transform-style: preserve-3d;
+}
+.text__qtt2I * {
+  transform-style: preserve-3d;
+}
+.text__vlSZz {
+  transform-style: preserve-3d;
+}
+.text__vlSZz * {
+  transform-style: preserve-3d;
+}
+.text__ioFb3 {
+  transform-style: preserve-3d;
+}
+.text__ioFb3 * {
+  transform-style: preserve-3d;
 }
 .quickbooks:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.quickbooks * {
+  transform-style: preserve-3d;
+}
+.quickbooks__closed:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.quickbooks__closed * {
+  transform-style: preserve-3d;
+}
+.quickbooks__visible_xero:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.quickbooks__visible_xero * {
+  transform-style: preserve-3d;
+}
+.text___4KbIk {
+  transform-style: preserve-3d;
+}
+.text___4KbIk * {
+  transform-style: preserve-3d;
+}
+.text__m6Lq {
+  transform-style: preserve-3d;
+}
+.text__m6Lq * {
+  transform-style: preserve-3d;
+}
+.text__pQvsB {
+  transform-style: preserve-3d;
+}
+.text__pQvsB * {
+  transform-style: preserve-3d;
+}
+.text__oFkGo {
+  transform-style: preserve-3d;
+}
+.text__oFkGo * {
+  transform-style: preserve-3d;
 }

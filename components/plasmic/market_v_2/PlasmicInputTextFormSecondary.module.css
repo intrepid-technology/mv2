@@ -4,12 +4,17 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -17,6 +22,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
+}
+.parent * {
+  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -35,7 +43,11 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.headlineLabelParent * {
+  transform-style: preserve-3d;
 }
 .headlineLabel {
   display: flex;
@@ -43,7 +55,11 @@
   position: relative;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.headlineLabel * {
+  transform-style: preserve-3d;
 }
 .slotTargetLabel {
   font-size: 14px;
@@ -53,10 +69,81 @@
   line-height: 1;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
+.slotTargetLabel * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel > *,
+.slotTargetLabel > .__wab_slot > *,
+.slotTargetLabel > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel > picture > img,
+.slotTargetLabel > .__wab_slot > picture > img,
+.slotTargetLabel > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__kbAlz {
+  transform-style: preserve-3d;
+}
+.text__kbAlz * {
+  transform-style: preserve-3d;
+}
 .inputTextPrimary:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.inputTextPrimary * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__270:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__270 * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__360:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__360 * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__540:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__540 * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__720:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__size__720 * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_light:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_light * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_dark:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_dark * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_underlinePrimary:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_underlinePrimary * {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_underlineLight:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.inputTextPrimary__color_underlineLight * {
+  transform-style: preserve-3d;
 }
 .descriptionParent {
   position: relative;
@@ -65,10 +152,18 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
 }
+.descriptionParent * {
+  transform-style: preserve-3d;
+}
 .descriptionParent__subhead {
+  transform-style: preserve-3d;
   display: none;
+}
+.descriptionParent__subhead * {
+  transform-style: preserve-3d;
 }
 .descriptionTextParent {
   display: flex;
@@ -76,7 +171,11 @@
   position: relative;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.descriptionTextParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetDescription {
   font-size: 12px;
@@ -85,4 +184,46 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
+}
+.slotTargetDescription * {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription > *,
+.slotTargetDescription > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > picture > img,
+.slotTargetDescription > .__wab_slot > picture > img,
+.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription__subhead * {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription__subhead > *,
+.slotTargetDescription__subhead > .__wab_slot > *,
+.slotTargetDescription__subhead > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription__subhead > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription__subhead > picture > img,
+.slotTargetDescription__subhead > .__wab_slot > picture > img,
+.slotTargetDescription__subhead > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescription__subhead
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__qamkw {
+  transform-style: preserve-3d;
+}
+.text__qamkw * {
+  transform-style: preserve-3d;
 }

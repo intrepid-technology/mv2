@@ -8,11 +8,19 @@
   max-width: 100%;
   background: #f0f1f3;
   position: relative;
+  transform-style: preserve-3d;
   border-radius: 50%;
   padding: 8px;
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root__color_brand {
   background: #f0ebff;
+  transform-style: preserve-3d;
+}
+.root__color_brand * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -23,11 +31,19 @@
   height: auto;
   max-width: 100%;
   background: #e0e2e7;
+  transform-style: preserve-3d;
   border-radius: 50%;
   padding: 4px;
 }
+.freeBox * {
+  transform-style: preserve-3d;
+}
 .freeBox__color_brand {
   background: #e0d6ff;
+  transform-style: preserve-3d;
+}
+.freeBox__color_brand * {
+  transform-style: preserve-3d;
 }
 .svg__lMJhj {
   object-fit: cover;
@@ -35,5 +51,9 @@
   width: 24px;
   height: 24px;
   color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__lMJhj * {
+  transform-style: preserve-3d;
 }

@@ -5,8 +5,12 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root {
@@ -14,67 +18,116 @@
     flex-direction: column;
     justify-content: flex-start;
     flex-column-gap: 0px;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
     justify-content: flex-start;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 .sectionMemberProfileHero:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
   display: flex;
+}
+.sectionMemberProfileHero * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionMemberProfileHero:global(.__wab_instance) {
     top: auto;
     left: auto;
     position: relative;
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .sectionMemberProfileHero * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberProfileHero:global(.__wab_instance) {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberProfileHero * {
+    transform-style: preserve-3d;
   }
 }
 .navbarMemberUserProfile:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
   display: flex;
+}
+.navbarMemberUserProfile * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .navbarMemberUserProfile:global(.__wab_instance) {
     top: auto;
     left: auto;
     position: relative;
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .navbarMemberUserProfile * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .navbarMemberUserProfile:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .navbarMemberUserProfile * {
+    transform-style: preserve-3d;
   }
 }
 .sectionAboutDetails {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
 }
 .sectionAboutDetails > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
 }
+.sectionAboutDetails * {
+  transform-style: preserve-3d;
+}
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionAboutDetails {
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 32px 160px;
   }
@@ -91,6 +144,11 @@
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .sectionAboutDetails * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -114,6 +172,7 @@
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 24px 24px;
   }
@@ -130,6 +189,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionAboutDetails * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -150,25 +214,61 @@
 }
 .elementProfileAbout:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementProfileAbout * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementProfileAbout:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileAbout * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementProfileAbout:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementProfileAbout * {
+    transform-style: preserve-3d;
   }
 }
 .elementProfileMemberDetails:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.elementProfileMemberDetails * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileMemberDetails:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileMemberDetails * {
+    transform-style: preserve-3d;
+  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementProfileMemberDetails:global(.__wab_instance) {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementProfileMemberDetails * {
+    transform-style: preserve-3d;
   }
 }
 .memberTeamConnectionsSection {
@@ -179,6 +279,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 32px 160px;
 }
@@ -192,6 +293,9 @@
   width: calc(100% + 32px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.memberTeamConnectionsSection * {
+  transform-style: preserve-3d;
 }
 .memberTeamConnectionsSection > :global(.__wab_flex-container) > *,
 .memberTeamConnectionsSection
@@ -216,6 +320,7 @@
     height: auto;
     left: auto;
     top: auto;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 160px 32px;
   }
@@ -232,6 +337,11 @@
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .memberTeamConnectionsSection * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -262,6 +372,7 @@
     position: relative;
     left: auto;
     top: auto;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 24px 24px;
   }
@@ -278,6 +389,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .memberTeamConnectionsSection * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -303,43 +419,68 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementProfileTeamMembership * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementProfileTeamMembership:global(.__wab_instance) {
     position: relative;
     top: auto;
     left: auto;
+    transform-style: preserve-3d;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileTeamMembership * {
+    transform-style: preserve-3d;
   }
 }
 .elementMemberProfileConnections:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.elementMemberProfileConnections * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementMemberProfileConnections:global(.__wab_instance) {
     position: relative;
     top: auto;
     left: auto;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementMemberProfileConnections * {
+    transform-style: preserve-3d;
   }
 }
 .sectionMemberProfileIndustrySocial {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
 }
 .sectionMemberProfileIndustrySocial > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
 }
+.sectionMemberProfileIndustrySocial * {
+  transform-style: preserve-3d;
+}
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionMemberProfileIndustrySocial {
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 160px 32px;
   }
@@ -356,6 +497,11 @@
     width: calc(100% + 32px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .sectionMemberProfileIndustrySocial * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -382,6 +528,7 @@
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 24px;
   }
@@ -398,6 +545,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionMemberProfileIndustrySocial * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -421,42 +573,78 @@
 }
 .elementProfileAttributes:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementProfileAttributes * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementProfileAttributes:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileAttributes * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementProfileAttributes:global(.__wab_instance) {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementProfileAttributes * {
+    transform-style: preserve-3d;
   }
 }
 .elementProfileSocial:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementProfileSocial * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .elementProfileSocial:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementProfileSocial * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementProfileSocial:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementProfileSocial * {
+    transform-style: preserve-3d;
   }
 }
 .sectionProfileMemberSimilarMembers {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
 }
 .sectionProfileMemberSimilarMembers > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+}
+.sectionProfileMemberSimilarMembers * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionProfileMemberSimilarMembers {
@@ -467,6 +655,7 @@
     height: auto;
     padding-top: 8px;
     padding-bottom: 24px;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -480,6 +669,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
     height: calc(100% + 8px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .sectionProfileMemberSimilarMembers * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -506,6 +700,7 @@
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     display: flex;
     padding: 16px 24px;
@@ -523,6 +718,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionProfileMemberSimilarMembers * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -546,21 +746,71 @@
 }
 .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.elementMemberProfileCarousell___8FDrq * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementMemberProfileCarousell___8FDrq * {
+    transform-style: preserve-3d;
+  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementMemberProfileCarousell___8FDrq:global(.__wab_instance) {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementMemberProfileCarousell___8FDrq * {
+    transform-style: preserve-3d;
+  }
+}
+.text__j3DIm {
+  transform-style: preserve-3d;
+}
+.text__j3DIm * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__j3DIm {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__j3DIm * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__j3DIm {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__j3DIm * {
+    transform-style: preserve-3d;
   }
 }
 .sectionProfileMemberPeopleAlsoViewed {
   display: flex;
   position: relative;
   flex-direction: row;
+  transform-style: preserve-3d;
 }
 .sectionProfileMemberPeopleAlsoViewed > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+}
+.sectionProfileMemberPeopleAlsoViewed * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionProfileMemberPeopleAlsoViewed {
@@ -571,6 +821,7 @@
     height: auto;
     padding-top: 8px;
     padding-bottom: 64px;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -584,6 +835,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
     height: calc(100% + 8px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .sectionProfileMemberPeopleAlsoViewed * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -610,6 +866,7 @@
     width: 100%;
     height: auto;
     flex-direction: row;
+    transform-style: preserve-3d;
     min-width: 0;
     display: flex;
     padding: 16px 24px 64px;
@@ -627,6 +884,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .sectionProfileMemberPeopleAlsoViewed * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -650,9 +912,55 @@
 }
 .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.elementMemberProfileCarousell__v7Zdc * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .elementMemberProfileCarousell__v7Zdc * {
+    transform-style: preserve-3d;
+  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .elementMemberProfileCarousell__v7Zdc:global(.__wab_instance) {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .elementMemberProfileCarousell__v7Zdc * {
+    transform-style: preserve-3d;
+  }
+}
+.text___6451Q {
+  transform-style: preserve-3d;
+}
+.text___6451Q * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text___6451Q {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text___6451Q * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___6451Q {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___6451Q * {
+    transform-style: preserve-3d;
   }
 }

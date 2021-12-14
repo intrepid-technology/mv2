@@ -6,7 +6,11 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  transform-style: preserve-3d;
   padding: 0px;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .freeBox__csAfR {
   position: relative;
@@ -18,7 +22,11 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  transform-style: preserve-3d;
   margin: 0px;
+}
+.freeBox__csAfR * {
+  transform-style: preserve-3d;
 }
 .freeBox___41N1L {
   display: flex;
@@ -29,6 +37,10 @@
   justify-content: center;
   height: auto;
   width: auto;
+  transform-style: preserve-3d;
+}
+.freeBox___41N1L * {
+  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 14px;
@@ -37,4 +49,23 @@
   letter-spacing: normal;
   line-height: 1;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
+}
+.slotTargetChildren * {
+  transform-style: preserve-3d;
+}
+.slotTargetChildren > *,
+.slotTargetChildren > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > picture > img,
+.slotTargetChildren > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__r6ZgG {
+  transform-style: preserve-3d;
+}
+.text__r6ZgG * {
+  transform-style: preserve-3d;
 }

@@ -6,6 +6,7 @@
   box-shadow: 1px 1px 2px 1px #00000029;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 20px 0px 0px;
 }
@@ -17,6 +18,9 @@
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -27,6 +31,7 @@
   .root {
     box-shadow: none;
     padding-top: 24px;
+    transform-style: preserve-3d;
     border-bottom: 2px solid #0000001f /* plasmic-token: 4DpMaQlGP */;
   }
 }
@@ -38,6 +43,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 0px);
     height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -54,8 +64,28 @@
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     justify-content: center;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 .freeBox__gq5Ri {
@@ -64,6 +94,10 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.freeBox__gq5Ri * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__gq5Ri {
@@ -71,8 +105,14 @@
     height: 100%;
     justify-content: space-between;
     align-items: center;
+    transform-style: preserve-3d;
     min-width: 0;
     min-height: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox__gq5Ri * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -81,12 +121,24 @@
     height: auto;
     justify-content: center;
     align-items: center;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__gq5Ri * {
+    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .freeBox__gq5Ri {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__gq5Ri * {
+    transform-style: preserve-3d;
   }
 }
 .freeBox__mn6Cy {
@@ -94,6 +146,10 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.freeBox__mn6Cy * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__mn6Cy {
@@ -101,12 +157,50 @@
     height: auto;
     justify-content: center;
     align-items: center;
+    transform-style: preserve-3d;
     min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox__mn6Cy * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__mn6Cy {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__mn6Cy * {
+    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .freeBox__mn6Cy {
+    transform-style: preserve-3d;
     display: flex;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__mn6Cy * {
+    transform-style: preserve-3d;
+  }
+}
+.logoHeader:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.logoHeader * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .logoHeader:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .logoHeader * {
+    transform-style: preserve-3d;
   }
 }
 .img__lyrdT {
@@ -116,12 +210,36 @@
   height: 32px;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .img__lyrdT > picture > img {
   object-fit: cover;
 }
 .img__lyrdT > .__wab_img-spacer > img {
   object-fit: cover;
+}
+.img__lyrdT * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .img__lyrdT {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .img__lyrdT * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .img__lyrdT {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .img__lyrdT * {
+    transform-style: preserve-3d;
+  }
 }
 .freeBox__ejVzw {
   display: flex;
@@ -131,6 +249,10 @@
   justify-content: flex-start;
   margin-left: 0px;
   margin-right: 0px;
+  transform-style: preserve-3d;
+}
+.freeBox__ejVzw * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__ejVzw {
@@ -140,19 +262,37 @@
     justify-content: center;
     align-items: center;
     flex-row-gap: 0px;
+    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox__ejVzw * {
+    transform-style: preserve-3d;
+  }
+}
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__ejVzw {
+    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__ejVzw * {
+    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .freeBox__ejVzw {
+    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
     display: flex;
+  }
+}
+@media (max-width: 375px) {
+  .freeBox__ejVzw * {
+    transform-style: preserve-3d;
   }
 }
 .svg {
@@ -160,6 +300,30 @@
   width: 100%;
   height: 2px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
   min-width: 0;
   display: block;
+}
+.svg * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svg {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svg * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .svg {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .svg * {
+    transform-style: preserve-3d;
+  }
 }

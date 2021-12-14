@@ -5,6 +5,7 @@
   height: 16px;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 0px;
 }
@@ -16,6 +17,9 @@
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -24,29 +28,61 @@
 }
 .textLinkUnderlinePrimary__q9OKm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.textLinkUnderlinePrimary__q9OKm * {
+  transform-style: preserve-3d;
 }
 .text__hiDuc {
   font-size: 12px;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text__hiDuc * {
+  transform-style: preserve-3d;
 }
 .textLinkUnderlinePrimary__qsokV:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.textLinkUnderlinePrimary__qsokV * {
+  transform-style: preserve-3d;
 }
 .text__swZbn {
   font-size: 12px;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text__swZbn * {
+  transform-style: preserve-3d;
 }
 .textLinkUnderlinePrimary__vOv1V:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.textLinkUnderlinePrimary__vOv1V * {
+  transform-style: preserve-3d;
 }
 .text__jQ4No {
   font-size: 12px;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text__jQ4No * {
+  transform-style: preserve-3d;
 }
 .textLinkUnderlinePrimary___7JgrH:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.textLinkUnderlinePrimary___7JgrH * {
+  transform-style: preserve-3d;
 }
 .text__aktZk {
   font-size: 12px;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text__aktZk * {
+  transform-style: preserve-3d;
 }

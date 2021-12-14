@@ -5,6 +5,7 @@
   height: auto;
   position: relative;
   background: #f8f8ff;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 8px;
   padding: 8px;
@@ -22,6 +23,9 @@
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -35,9 +39,23 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.badgeWrapper * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay * {
+  transform-style: preserve-3d;
+}
+.text__dc4B7 {
+  transform-style: preserve-3d;
+}
+.text__dc4B7 * {
+  transform-style: preserve-3d;
 }
 .svg__buurb {
   position: relative;
@@ -45,6 +63,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__buurb * {
+  transform-style: preserve-3d;
 }
 .svg__kHniq {
   position: relative;
@@ -52,12 +74,20 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__kHniq * {
+  transform-style: preserve-3d;
 }
 .svg__i6HZ {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__i6HZ * {
+  transform-style: preserve-3d;
 }
 .contentWrapper {
   display: flex;
@@ -66,7 +96,30 @@
   align-items: stretch;
   justify-content: flex-start;
   width: auto;
+  transform-style: preserve-3d;
+}
+.contentWrapper * {
+  transform-style: preserve-3d;
 }
 .slotTargetContent {
   white-space: pre-wrap;
+}
+.slotTargetContent * {
+  transform-style: preserve-3d;
+}
+.slotTargetContent > *,
+.slotTargetContent > .__wab_slot > *,
+.slotTargetContent > .__wab_slot > .__wab_slot > *,
+.slotTargetContent > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetContent > picture > img,
+.slotTargetContent > .__wab_slot > picture > img,
+.slotTargetContent > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetContent > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__obavW {
+  transform-style: preserve-3d;
+}
+.text__obavW * {
+  transform-style: preserve-3d;
 }

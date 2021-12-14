@@ -8,8 +8,12 @@
   position: relative;
   max-width: 720px;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 4px 8px;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .userAvatarNameEmailParent {
   display: flex;
@@ -19,6 +23,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .userAvatarNameEmailParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -26,6 +31,9 @@
   justify-content: space-between;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.userAvatarNameEmailParent * {
+  transform-style: preserve-3d;
 }
 .userAvatarNameEmailParent > :global(.__wab_flex-container) > *,
 .userAvatarNameEmailParent
@@ -43,11 +51,25 @@
 .elementRadioPrimary:global(.__wab_instance) {
   position: relative;
   align-self: center;
+  transform-style: preserve-3d;
+}
+.elementRadioPrimary * {
+  transform-style: preserve-3d;
+}
+.elementRadioPrimary__action_select:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.elementRadioPrimary__action_select * {
+  transform-style: preserve-3d;
 }
 .userAvatar:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.userAvatar * {
+  transform-style: preserve-3d;
 }
 .img___97TOv {
   position: relative;
@@ -56,6 +78,7 @@
   top: auto;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -66,6 +89,9 @@
 .img___97TOv > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img___97TOv * {
+  transform-style: preserve-3d;
+}
 .img__yir81 {
   position: relative;
   object-fit: cover;
@@ -73,6 +99,7 @@
   top: auto;
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -83,6 +110,9 @@
 .img__yir81 > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__yir81 * {
+  transform-style: preserve-3d;
+}
 .img__baHa7 {
   position: relative;
   object-fit: cover;
@@ -90,6 +120,7 @@
   top: auto;
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -100,6 +131,9 @@
 .img__baHa7 > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__baHa7 * {
+  transform-style: preserve-3d;
+}
 .img__uTEn6 {
   position: relative;
   object-fit: cover;
@@ -107,6 +141,7 @@
   top: auto;
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -117,6 +152,9 @@
 .img__uTEn6 > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__uTEn6 * {
+  transform-style: preserve-3d;
+}
 .img__fdB61 {
   position: relative;
   object-fit: cover;
@@ -124,6 +162,7 @@
   top: auto;
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -134,6 +173,9 @@
 .img__fdB61 > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__fdB61 * {
+  transform-style: preserve-3d;
+}
 .img__dWaTt {
   position: relative;
   object-fit: cover;
@@ -141,6 +183,7 @@
   top: auto;
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -151,6 +194,9 @@
 .img__dWaTt > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__dWaTt * {
+  transform-style: preserve-3d;
+}
 .img__rUDgi {
   position: relative;
   object-fit: cover;
@@ -158,6 +204,7 @@
   top: auto;
   width: 40px;
   height: 40px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -168,6 +215,9 @@
 .img__rUDgi > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__rUDgi * {
+  transform-style: preserve-3d;
+}
 .img___2QXmj {
   position: relative;
   object-fit: cover;
@@ -175,6 +225,7 @@
   top: auto;
   width: 48px;
   height: 48px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -185,6 +236,9 @@
 .img___2QXmj > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img___2QXmj * {
+  transform-style: preserve-3d;
+}
 .img__mCcRz {
   position: relative;
   object-fit: cover;
@@ -192,6 +246,7 @@
   top: auto;
   width: 64px;
   height: 64px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -202,6 +257,9 @@
 .img__mCcRz > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__mCcRz * {
+  transform-style: preserve-3d;
+}
 .img___8Wp64 {
   position: relative;
   object-fit: cover;
@@ -209,6 +267,7 @@
   top: auto;
   width: 80px;
   height: 80px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -219,6 +278,9 @@
 .img___8Wp64 > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img___8Wp64 * {
+  transform-style: preserve-3d;
+}
 .img__f52Cs {
   position: relative;
   object-fit: cover;
@@ -226,6 +288,7 @@
   top: auto;
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   border-radius: 100%;
   border-width: 0px;
   border-style: none;
@@ -236,6 +299,9 @@
 .img__f52Cs > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__f52Cs * {
+  transform-style: preserve-3d;
+}
 .userInfoParent {
   display: flex;
   position: relative;
@@ -244,6 +310,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .userInfoParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -251,6 +318,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.userInfoParent * {
+  transform-style: preserve-3d;
 }
 .userInfoParent > :global(.__wab_flex-container) > *,
 .userInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -270,11 +340,25 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.usernameParent * {
+  transform-style: preserve-3d;
 }
 .text__qRux {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 500;
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__qRux * {
+  transform-style: preserve-3d;
+}
+.text__action_select__qRuxWms {
+  transform-style: preserve-3d;
+}
+.text__action_select__qRuxWms * {
+  transform-style: preserve-3d;
 }
 .userEmailParent {
   display: flex;
@@ -284,10 +368,18 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.userEmailParent * {
+  transform-style: preserve-3d;
 }
 .text__mqpkj {
   color: #3d4350 /* plasmic-token: UPK7EIst5 */;
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__mqpkj * {
+  transform-style: preserve-3d;
 }
 .userAction {
   display: flex;
@@ -297,6 +389,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .userAction > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -304,6 +397,9 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.userAction * {
+  transform-style: preserve-3d;
 }
 .userAction > :global(.__wab_flex-container) > *,
 .userAction > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -321,39 +417,141 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
   padding: 2px 6px;
+}
+.userRole * {
+  transform-style: preserve-3d;
+}
+.userRole__action_select {
+  transform-style: preserve-3d;
+}
+.userRole__action_select * {
+  transform-style: preserve-3d;
+}
+.userRole__action_button {
+  transform-style: preserve-3d;
+}
+.userRole__action_button * {
+  transform-style: preserve-3d;
 }
 .text__bvk0V {
   font-size: 14px;
   font-weight: 500;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__bvk0V * {
+  transform-style: preserve-3d;
+}
+.text__action_select__bvk0VWms {
+  transform-style: preserve-3d;
+}
+.text__action_select__bvk0VWms * {
+  transform-style: preserve-3d;
+}
+.text__action_button__bvk0V45Ld {
+  transform-style: preserve-3d;
+}
+.text__action_button__bvk0V45Ld * {
+  transform-style: preserve-3d;
 }
 .selectRole:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.selectRole * {
+  transform-style: preserve-3d;
+}
+.selectRole__action_select:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.selectRole__action_select * {
+  transform-style: preserve-3d;
+}
+.text___9W0Nn {
+  transform-style: preserve-3d;
+}
+.text___9W0Nn * {
+  transform-style: preserve-3d;
+}
+.text__awR4N {
+  transform-style: preserve-3d;
+}
+.text__awR4N * {
+  transform-style: preserve-3d;
+}
+.text__action_select__awR4NWms {
+  transform-style: preserve-3d;
+}
+.text__action_select__awR4NWms * {
+  transform-style: preserve-3d;
 }
 .option___0YiFx:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.option___0YiFx * {
+  transform-style: preserve-3d;
+}
+.text__yPiy0 {
+  transform-style: preserve-3d;
+}
+.text__yPiy0 * {
+  transform-style: preserve-3d;
 }
 .option__tbgUz:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.option__tbgUz * {
+  transform-style: preserve-3d;
+}
+.text__uXYj {
+  transform-style: preserve-3d;
+}
+.text__uXYj * {
+  transform-style: preserve-3d;
 }
 .buttonPrimary:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.buttonPrimary * {
+  transform-style: preserve-3d;
+}
 .buttonPrimary__action_button:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.buttonPrimary__action_button * {
+  transform-style: preserve-3d;
 }
 .svg__maiPj {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__maiPj * {
+  transform-style: preserve-3d;
+}
+.text__ljxNv {
+  transform-style: preserve-3d;
+}
+.text__ljxNv * {
+  transform-style: preserve-3d;
 }
 .removeTeamMember:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.removeTeamMember * {
+  transform-style: preserve-3d;
 }

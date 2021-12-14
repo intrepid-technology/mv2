@@ -4,6 +4,7 @@
   width: auto;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   padding: 0px;
 }
 .root > :global(.__wab_flex-container) {
@@ -13,6 +14,9 @@
   margin-top: calc(0px - 2px);
   height: calc(100% + 2px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -21,13 +25,53 @@
 }
 .menuItem__itli8:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.menuItem__itli8 * {
+  transform-style: preserve-3d;
+}
+.text__mmnKu {
+  transform-style: preserve-3d;
+}
+.text__mmnKu * {
+  transform-style: preserve-3d;
 }
 .menuItem__fykUm:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.menuItem__fykUm * {
+  transform-style: preserve-3d;
+}
+.text__anAg2 {
+  transform-style: preserve-3d;
+}
+.text__anAg2 * {
+  transform-style: preserve-3d;
 }
 .menuItem__yBso7:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.menuItem__yBso7 * {
+  transform-style: preserve-3d;
+}
+.text__hZmGz {
+  transform-style: preserve-3d;
+}
+.text__hZmGz * {
+  transform-style: preserve-3d;
 }
 .menuItem__eHqdG:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.menuItem__eHqdG * {
+  transform-style: preserve-3d;
+}
+.text__okwLg {
+  transform-style: preserve-3d;
+}
+.text__okwLg * {
+  transform-style: preserve-3d;
 }

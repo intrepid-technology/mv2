@@ -5,6 +5,7 @@
   height: 48px;
   position: relative;
   background: #f2f1ff;
+  transform-style: preserve-3d;
   border-radius: 4px;
   padding: 0px 8px 0px 0px;
   border: 2px solid #7a72ff /* plasmic-token: JG1mQ0YGJ */;
@@ -16,6 +17,9 @@
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -24,16 +28,32 @@
 }
 .root__size__180 {
   width: 180px;
+  transform-style: preserve-3d;
+}
+.root__size__180 * {
+  transform-style: preserve-3d;
 }
 .root__size__270 {
   width: 270px;
+  transform-style: preserve-3d;
+}
+.root__size__270 * {
+  transform-style: preserve-3d;
 }
 .root__size__360 {
   width: 360px;
+  transform-style: preserve-3d;
+}
+.root__size__360 * {
+  transform-style: preserve-3d;
 }
 .root:hover {
   background: #7a72ff;
+  transform-style: preserve-3d;
   border-color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+}
+.root:hover * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -45,9 +65,25 @@
   top: auto;
   width: 48px;
   height: 100%;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   min-height: 0;
   padding: 8px;
+}
+.freeBox * {
+  transform-style: preserve-3d;
+}
+.freeBox__icon {
+  transform-style: preserve-3d;
+}
+.freeBox__icon * {
+  transform-style: preserve-3d;
+}
+.freeBox__size__180 {
+  transform-style: preserve-3d;
+}
+.freeBox__size__180 * {
+  transform-style: preserve-3d;
 }
 .svg {
   position: relative;
@@ -55,16 +91,34 @@
   width: 100%;
   height: 100%;
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg * {
+  transform-style: preserve-3d;
+}
+.svg__icon {
+  transform-style: preserve-3d;
+}
+.svg__icon * {
+  transform-style: preserve-3d;
 }
 .svg__size__180 {
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__180 * {
+  transform-style: preserve-3d;
 }
 .root:hover .svg {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  transform-style: preserve-3d;
+}
+.root:hover .svg * {
+  transform-style: preserve-3d;
 }
 .textParent {
   display: flex;
@@ -77,7 +131,23 @@
   height: auto;
   width: 100%;
   padding-right: 0px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.textParent * {
+  transform-style: preserve-3d;
+}
+.textParent__logo {
+  transform-style: preserve-3d;
+}
+.textParent__logo * {
+  transform-style: preserve-3d;
+}
+.textParent__size__180 {
+  transform-style: preserve-3d;
+}
+.textParent__size__180 * {
+  transform-style: preserve-3d;
 }
 .textBg {
   display: flex;
@@ -85,6 +155,16 @@
   flex-direction: column;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.textBg * {
+  transform-style: preserve-3d;
+}
+.root:hover .textBg {
+  transform-style: preserve-3d;
+}
+.root:hover .textBg * {
+  transform-style: preserve-3d;
 }
 .slotTargetText {
   font-size: 16px;
@@ -94,12 +174,108 @@
   text-transform: none;
   line-height: 1;
 }
+.slotTargetText * {
+  transform-style: preserve-3d;
+}
+.slotTargetText > *,
+.slotTargetText > .__wab_slot > *,
+.slotTargetText > .__wab_slot > .__wab_slot > *,
+.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText > picture > img,
+.slotTargetText > .__wab_slot > picture > img,
+.slotTargetText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.slotTargetText__logo * {
+  transform-style: preserve-3d;
+}
+.slotTargetText__logo > *,
+.slotTargetText__logo > .__wab_slot > *,
+.slotTargetText__logo > .__wab_slot > .__wab_slot > *,
+.slotTargetText__logo > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText__logo > picture > img,
+.slotTargetText__logo > .__wab_slot > picture > img,
+.slotTargetText__logo > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText__logo
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .slotTargetText__size__180 {
   font-size: 12px;
+}
+.slotTargetText__size__180 * {
+  transform-style: preserve-3d;
+}
+.slotTargetText__size__180 > *,
+.slotTargetText__size__180 > .__wab_slot > *,
+.slotTargetText__size__180 > .__wab_slot > .__wab_slot > *,
+.slotTargetText__size__180 > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText__size__180 > picture > img,
+.slotTargetText__size__180 > .__wab_slot > picture > img,
+.slotTargetText__size__180 > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText__size__180
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .root:hover .slotTargetText {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
+.root:hover .slotTargetText * {
+  transform-style: preserve-3d;
+}
+.root:hover .slotTargetText > *,
+.root:hover .slotTargetText > .__wab_slot > *,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetText > picture > img,
+.root:hover .slotTargetText > .__wab_slot > picture > img,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > picture > img,
+.root:hover
+  .slotTargetText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__fNmP {
+  transform-style: preserve-3d;
+}
+.text__fNmP * {
+  transform-style: preserve-3d;
+}
 .iconStripeLogo:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.iconStripeLogo * {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__logo:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__logo * {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__size__180:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__size__180 * {
+  transform-style: preserve-3d;
+}
+.root:hover .iconStripeLogo:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.root:hover .iconStripeLogo * {
+  transform-style: preserve-3d;
 }

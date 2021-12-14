@@ -4,6 +4,7 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,11 +13,24 @@
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
@@ -24,6 +38,7 @@
     flex-direction: column;
     width: auto;
     height: auto;
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -35,6 +50,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -58,6 +78,7 @@
   top: auto;
   width: 360px;
   align-self: flex-start;
+  transform-style: preserve-3d;
   padding: 8px 16px;
 }
 .profileIndustryParent > :global(.__wab_flex-container) {
@@ -66,6 +87,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.profileIndustryParent * {
+  transform-style: preserve-3d;
 }
 .profileIndustryParent > :global(.__wab_flex-container) > *,
 .profileIndustryParent
@@ -88,6 +112,7 @@
     left: auto;
     top: auto;
     width: 360px;
+    transform-style: preserve-3d;
     padding: 8px 16px;
   }
 }
@@ -100,6 +125,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 16px);
     height: calc(100% + 16px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .profileIndustryParent * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -127,7 +157,11 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox__ksE53 * {
+  transform-style: preserve-3d;
 }
 .industry {
   display: block;
@@ -138,6 +172,20 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
+  transform-style: preserve-3d;
+}
+.industry * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .industry {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .industry * {
+    transform-style: preserve-3d;
+  }
 }
 .textParent6 {
   display: flex;
@@ -145,6 +193,7 @@
   flex-direction: row;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .textParent6 > :global(.__wab_flex-container) {
@@ -159,6 +208,9 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
+.textParent6 * {
+  transform-style: preserve-3d;
+}
 .textParent6 > :global(.__wab_flex-container) > *,
 .textParent6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .textParent6 > :global(.__wab_flex-container) > picture > img,
@@ -172,6 +224,16 @@
 }
 .chipBadgeDisplay__vzQbI:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__vzQbI * {
+  transform-style: preserve-3d;
+}
+.text__lUhFg {
+  transform-style: preserve-3d;
+}
+.text__lUhFg * {
+  transform-style: preserve-3d;
 }
 .svg__mSvFc {
   position: relative;
@@ -179,6 +241,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__mSvFc * {
+  transform-style: preserve-3d;
 }
 .svg__fuSje {
   position: relative;
@@ -186,15 +252,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__fuSje * {
+  transform-style: preserve-3d;
 }
 .svg__rcSo2 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__rcSo2 * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__ff4WU:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__ff4WU * {
+  transform-style: preserve-3d;
+}
+.text__nIHs {
+  transform-style: preserve-3d;
+}
+.text__nIHs * {
+  transform-style: preserve-3d;
 }
 .svg__wwUfb {
   position: relative;
@@ -202,6 +286,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__wwUfb * {
+  transform-style: preserve-3d;
 }
 .svg__xyo0Z {
   position: relative;
@@ -209,12 +297,20 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__xyo0Z * {
+  transform-style: preserve-3d;
 }
 .svg___6FPJ {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg___6FPJ * {
+  transform-style: preserve-3d;
 }
 .profileCategoriesParent {
   display: flex;
@@ -223,6 +319,7 @@
   left: auto;
   top: auto;
   width: 360px;
+  transform-style: preserve-3d;
   padding: 8px 16px;
 }
 .profileCategoriesParent > :global(.__wab_flex-container) {
@@ -231,6 +328,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.profileCategoriesParent * {
+  transform-style: preserve-3d;
 }
 .profileCategoriesParent > :global(.__wab_flex-container) > *,
 .profileCategoriesParent
@@ -253,6 +353,7 @@
     left: auto;
     top: auto;
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 8px 16px;
   }
@@ -267,6 +368,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 16px);
     height: calc(100% + 16px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .profileCategoriesParent * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -294,7 +400,11 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox__jDrCu * {
+  transform-style: preserve-3d;
 }
 .categories {
   display: block;
@@ -305,6 +415,10 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
+  transform-style: preserve-3d;
+}
+.categories * {
+  transform-style: preserve-3d;
 }
 .categoryBadgeParent {
   display: flex;
@@ -312,6 +426,7 @@
   flex-direction: row;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .categoryBadgeParent > :global(.__wab_flex-container) {
@@ -325,6 +440,9 @@
   width: calc(100% + 8px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.categoryBadgeParent * {
+  transform-style: preserve-3d;
 }
 .categoryBadgeParent > :global(.__wab_flex-container) > *,
 .categoryBadgeParent
@@ -342,6 +460,16 @@
 }
 .chipBadgeDisplay__rzCQy:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__rzCQy * {
+  transform-style: preserve-3d;
+}
+.text__grq90 {
+  transform-style: preserve-3d;
+}
+.text__grq90 * {
+  transform-style: preserve-3d;
 }
 .svg__obFyf {
   position: relative;
@@ -349,6 +477,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__obFyf * {
+  transform-style: preserve-3d;
 }
 .svg__qo7Id {
   position: relative;
@@ -356,15 +488,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__qo7Id * {
+  transform-style: preserve-3d;
 }
 .svg__x1UyD {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__x1UyD * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__w45GS:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__w45GS * {
+  transform-style: preserve-3d;
+}
+.text__bkYmY {
+  transform-style: preserve-3d;
+}
+.text__bkYmY * {
+  transform-style: preserve-3d;
 }
 .svg__mOkQa {
   position: relative;
@@ -372,6 +522,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__mOkQa * {
+  transform-style: preserve-3d;
 }
 .svg__hifG {
   position: relative;
@@ -379,15 +533,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__hifG * {
+  transform-style: preserve-3d;
 }
 .svg__afH1G {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__afH1G * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__aO53O:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__aO53O * {
+  transform-style: preserve-3d;
+}
+.text__aYdQ1 {
+  transform-style: preserve-3d;
+}
+.text__aYdQ1 * {
+  transform-style: preserve-3d;
 }
 .svg__fTmDu {
   position: relative;
@@ -395,6 +567,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__fTmDu * {
+  transform-style: preserve-3d;
 }
 .svg__lGevT {
   position: relative;
@@ -402,12 +578,20 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__lGevT * {
+  transform-style: preserve-3d;
 }
 .svg__fz2Hd {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__fz2Hd * {
+  transform-style: preserve-3d;
 }
 .profileSkillsParent {
   display: flex;
@@ -416,6 +600,7 @@
   left: auto;
   top: auto;
   width: 360px;
+  transform-style: preserve-3d;
   padding: 8px 16px;
 }
 .profileSkillsParent > :global(.__wab_flex-container) {
@@ -424,6 +609,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.profileSkillsParent * {
+  transform-style: preserve-3d;
 }
 .profileSkillsParent > :global(.__wab_flex-container) > *,
 .profileSkillsParent
@@ -446,6 +634,7 @@
     left: auto;
     top: auto;
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
     padding: 8px 16px;
   }
@@ -460,6 +649,11 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 16px);
     height: calc(100% + 16px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .profileSkillsParent * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -478,6 +672,16 @@
     margin-top: 16px;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .profileSkillsParent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .profileSkillsParent * {
+    transform-style: preserve-3d;
+  }
+}
 .skillsTextparent {
   display: flex;
   position: relative;
@@ -487,7 +691,11 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.skillsTextparent * {
+  transform-style: preserve-3d;
 }
 .skills {
   display: block;
@@ -498,6 +706,10 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
+  transform-style: preserve-3d;
+}
+.skills * {
+  transform-style: preserve-3d;
 }
 .skillsBadgeParent {
   display: flex;
@@ -505,6 +717,7 @@
   flex-direction: row;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .skillsBadgeParent > :global(.__wab_flex-container) {
@@ -519,6 +732,9 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
+.skillsBadgeParent * {
+  transform-style: preserve-3d;
+}
 .skillsBadgeParent > :global(.__wab_flex-container) > *,
 .skillsBadgeParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .skillsBadgeParent > :global(.__wab_flex-container) > picture > img,
@@ -532,6 +748,16 @@
 }
 .chipBadgeDisplay__z9Y7R:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__z9Y7R * {
+  transform-style: preserve-3d;
+}
+.text__b6SuM {
+  transform-style: preserve-3d;
+}
+.text__b6SuM * {
+  transform-style: preserve-3d;
 }
 .svg___6H7L2 {
   position: relative;
@@ -539,6 +765,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg___6H7L2 * {
+  transform-style: preserve-3d;
 }
 .svg__oU0Za {
   position: relative;
@@ -546,15 +776,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__oU0Za * {
+  transform-style: preserve-3d;
 }
 .svg__y7Oui {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__y7Oui * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__bYE2:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__bYE2 * {
+  transform-style: preserve-3d;
+}
+.text__anjaz {
+  transform-style: preserve-3d;
+}
+.text__anjaz * {
+  transform-style: preserve-3d;
 }
 .svg__pzyUt {
   position: relative;
@@ -562,6 +810,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__pzyUt * {
+  transform-style: preserve-3d;
 }
 .svg__iwcpt {
   position: relative;
@@ -569,15 +821,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__iwcpt * {
+  transform-style: preserve-3d;
 }
 .svg__fsnYi {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__fsnYi * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__eoky9:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__eoky9 * {
+  transform-style: preserve-3d;
+}
+.text__rjny0 {
+  transform-style: preserve-3d;
+}
+.text__rjny0 * {
+  transform-style: preserve-3d;
 }
 .svg___8Wfdt {
   position: relative;
@@ -585,6 +855,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg___8Wfdt * {
+  transform-style: preserve-3d;
 }
 .svg__d9Pb1 {
   position: relative;
@@ -592,15 +866,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__d9Pb1 * {
+  transform-style: preserve-3d;
 }
 .svg__thIzq {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__thIzq * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__x2Fau:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__x2Fau * {
+  transform-style: preserve-3d;
+}
+.text___4PuxI {
+  transform-style: preserve-3d;
+}
+.text___4PuxI * {
+  transform-style: preserve-3d;
 }
 .svg___48T0E {
   position: relative;
@@ -608,6 +900,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg___48T0E * {
+  transform-style: preserve-3d;
 }
 .svg__lIfNj {
   position: relative;
@@ -615,15 +911,33 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__lIfNj * {
+  transform-style: preserve-3d;
 }
 .svg__sQp1X {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__sQp1X * {
+  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__hRem2:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay__hRem2 * {
+  transform-style: preserve-3d;
+}
+.text__a8Kpa {
+  transform-style: preserve-3d;
+}
+.text__a8Kpa * {
+  transform-style: preserve-3d;
 }
 .svg__ij95E {
   position: relative;
@@ -631,6 +945,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__ij95E * {
+  transform-style: preserve-3d;
 }
 .svg__wohDn {
   position: relative;
@@ -638,10 +956,18 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__wohDn * {
+  transform-style: preserve-3d;
 }
 .svg__ka1G {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__ka1G * {
+  transform-style: preserve-3d;
 }

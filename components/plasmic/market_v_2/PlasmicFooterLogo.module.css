@@ -4,11 +4,16 @@
   align-items: stretch;
   justify-content: flex-start;
   position: relative;
+  transform-style: preserve-3d;
+}
+.footerlogoLink * {
+  transform-style: preserve-3d;
 }
 .img {
   object-fit: cover;
   width: auto;
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .img > picture > img {
@@ -17,15 +22,36 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img * {
+  transform-style: preserve-3d;
+}
+.img__light {
+  transform-style: preserve-3d;
+}
+.img__light * {
+  transform-style: preserve-3d;
+}
 .img__size__16 {
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.img__size__16 * {
+  transform-style: preserve-3d;
 }
 .img__size__24 {
   height: 24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.img__size__24 * {
+  transform-style: preserve-3d;
 }
 .img__size__32 {
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.img__size__32 * {
+  transform-style: preserve-3d;
 }

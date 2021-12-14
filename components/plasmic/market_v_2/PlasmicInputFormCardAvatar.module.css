@@ -5,29 +5,57 @@
   align-items: stretch;
   justify-content: flex-start;
   width: auto;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root__border {
   width: auto;
+  transform-style: preserve-3d;
   display: inline-flex;
+}
+.root__border * {
+  transform-style: preserve-3d;
 }
 .parent {
   width: 720px;
+  transform-style: preserve-3d;
+}
+.parent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     width: 720px;
     height: auto;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 360px;
     height: auto;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .parent * {
+    transform-style: preserve-3d;
   }
 }
 .parent__border {
   width: 720px;
+  transform-style: preserve-3d;
   border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+}
+.parent__border * {
+  transform-style: preserve-3d;
 }
 .mainCard {
   display: flex;
@@ -37,6 +65,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 16px 32px;
 }
@@ -48,6 +77,9 @@
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
 }
+.mainCard * {
+  transform-style: preserve-3d;
+}
 .mainCard > :global(.__wab_flex-container) > *,
 .mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .mainCard > :global(.__wab_flex-container) > picture > img,
@@ -58,9 +90,20 @@
   > img {
   margin-left: 48px;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .mainCard {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .mainCard * {
+    transform-style: preserve-3d;
+  }
+}
 @media (min-width: 0px) and (max-width: 428px) {
   .mainCard {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -69,13 +112,28 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .mainCard * {
+    transform-style: preserve-3d;
+  }
+}
+.mainCard__subDescription {
+  transform-style: preserve-3d;
+}
+.mainCard__subDescription * {
+  transform-style: preserve-3d;
+}
 .mainCard__border {
   padding-bottom: 32px;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .mainCard__border > :global(.__wab_flex-container) {
   min-width: 0;
+}
+.mainCard__border * {
+  transform-style: preserve-3d;
 }
 .headlineParent {
   display: flex;
@@ -85,6 +143,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .headlineParent > :global(.__wab_flex-container) {
@@ -93,6 +152,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.headlineParent * {
+  transform-style: preserve-3d;
 }
 .headlineParent > :global(.__wab_flex-container) > *,
 .headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -104,6 +166,12 @@
   > img {
   margin-top: 8px;
 }
+.headlineParent__subDescription {
+  transform-style: preserve-3d;
+}
+.headlineParent__subDescription * {
+  transform-style: preserve-3d;
+}
 .freeBox___8FgC {
   position: relative;
   left: auto;
@@ -111,7 +179,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox___8FgC * {
+  transform-style: preserve-3d;
 }
 .freeBox__zGlE {
   display: block;
@@ -119,7 +191,11 @@
   position: relative;
   flex-direction: column;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox__zGlE * {
+  transform-style: preserve-3d;
 }
 .slotTargetHeadline {
   font-size: 24px;
@@ -129,6 +205,47 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
+.slotTargetHeadline * {
+  transform-style: preserve-3d;
+}
+.slotTargetHeadline > *,
+.slotTargetHeadline > .__wab_slot > *,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > *,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetHeadline > picture > img,
+.slotTargetHeadline > .__wab_slot > picture > img,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.slotTargetHeadline__subDescription * {
+  transform-style: preserve-3d;
+}
+.slotTargetHeadline__subDescription > *,
+.slotTargetHeadline__subDescription > .__wab_slot > *,
+.slotTargetHeadline__subDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetHeadline__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetHeadline__subDescription > picture > img,
+.slotTargetHeadline__subDescription > .__wab_slot > picture > img,
+.slotTargetHeadline__subDescription > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetHeadline__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__s10Lw {
+  transform-style: preserve-3d;
+}
+.text__s10Lw * {
+  transform-style: preserve-3d;
+}
 .subheadParent {
   display: flex;
   position: relative;
@@ -136,6 +253,10 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 360px;
+  transform-style: preserve-3d;
+}
+.subheadParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetSubHead {
   font-size: 14px;
@@ -145,15 +266,66 @@
   line-height: 1.4;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
+.slotTargetSubHead * {
+  transform-style: preserve-3d;
+}
+.slotTargetSubHead > *,
+.slotTargetSubHead > .__wab_slot > *,
+.slotTargetSubHead > .__wab_slot > .__wab_slot > *,
+.slotTargetSubHead > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSubHead > picture > img,
+.slotTargetSubHead > .__wab_slot > picture > img,
+.slotTargetSubHead > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSubHead > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSubHead__subDescription * {
+  transform-style: preserve-3d;
+}
+.slotTargetSubHead__subDescription > *,
+.slotTargetSubHead__subDescription > .__wab_slot > *,
+.slotTargetSubHead__subDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetSubHead__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSubHead__subDescription > picture > img,
+.slotTargetSubHead__subDescription > .__wab_slot > picture > img,
+.slotTargetSubHead__subDescription > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSubHead__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__xLcxz {
+  transform-style: preserve-3d;
+}
+.text__xLcxz * {
+  transform-style: preserve-3d;
+}
 .userAvatarButton:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.userAvatarButton * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .userAvatarButton:global(.__wab_instance) {
+    transform-style: preserve-3d;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .userAvatarButton * {
+    transform-style: preserve-3d;
   }
 }
 .img__lB4TS {
@@ -161,6 +333,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
@@ -172,6 +345,25 @@
 .img__lB4TS > .__wab_img-spacer > img {
   object-fit: cover;
 }
+.img__lB4TS * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .img__lB4TS {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .img__lB4TS * {
+    transform-style: preserve-3d;
+  }
+}
+.img__subDescription__lB4TSc7Z8Z {
+  transform-style: preserve-3d;
+}
+.img__subDescription__lB4TSc7Z8Z * {
+  transform-style: preserve-3d;
+}
 .descriptionCard {
   display: flex;
   position: relative;
@@ -182,21 +374,39 @@
   height: 48px;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px;
+}
+.descriptionCard * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .descriptionCard {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .descriptionCard * {
+    transform-style: preserve-3d;
+  }
+}
 .descriptionCard__subDescription {
+  transform-style: preserve-3d;
   display: none;
+}
+.descriptionCard__subDescription * {
+  transform-style: preserve-3d;
 }
 .descriptionCard__border {
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.descriptionCard__border * {
+  transform-style: preserve-3d;
 }
 .descriptionParent {
   display: flex;
@@ -205,10 +415,18 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 360px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.descriptionParent * {
+  transform-style: preserve-3d;
+}
 .descriptionParent__subDescription {
+  transform-style: preserve-3d;
   display: none;
+}
+.descriptionParent__subDescription * {
+  transform-style: preserve-3d;
 }
 .slotTargetDescription {
   font-size: 10px;
@@ -217,4 +435,54 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
+}
+.slotTargetDescription * {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription > *,
+.slotTargetDescription > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription > picture > img,
+.slotTargetDescription > .__wab_slot > picture > img,
+.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription__subDescription * {
+  transform-style: preserve-3d;
+}
+.slotTargetDescription__subDescription > *,
+.slotTargetDescription__subDescription > .__wab_slot > *,
+.slotTargetDescription__subDescription > .__wab_slot > .__wab_slot > *,
+.slotTargetDescription__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetDescription__subDescription > picture > img,
+.slotTargetDescription__subDescription > .__wab_slot > picture > img,
+.slotTargetDescription__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetDescription__subDescription
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__iv0Xq {
+  transform-style: preserve-3d;
+}
+.text__iv0Xq * {
+  transform-style: preserve-3d;
 }

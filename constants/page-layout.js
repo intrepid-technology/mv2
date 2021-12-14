@@ -39,6 +39,9 @@ export const PAGE_LAYOUT_PROPS = {
     '/': {
         noLayout: true,
     },
+    '/member/pricing': {
+        noLayout: true,
+    },
     '/landingpage-2021': {
         noLayout: true,
     },

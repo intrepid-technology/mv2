@@ -4,6 +4,10 @@
   align-items: stretch;
   justify-content: flex-start;
   position: relative;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .radioBorder {
   display: flex;
@@ -12,27 +16,67 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
   border-radius: 100px;
   padding: 2px;
   border: 2px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
+.radioBorder * {
+  transform-style: preserve-3d;
+}
 .radioBorder__selected {
+  transform-style: preserve-3d;
   border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
+.radioBorder__selected * {
+  transform-style: preserve-3d;
+}
 .radioBorder__size__12Px {
+  transform-style: preserve-3d;
   border-width: 1px;
+}
+.radioBorder__size__12Px * {
+  transform-style: preserve-3d;
 }
 .radioBorder__size__14Px {
+  transform-style: preserve-3d;
   border-width: 1px;
+}
+.radioBorder__size__14Px * {
+  transform-style: preserve-3d;
 }
 .radioBorder__size__16Px {
+  transform-style: preserve-3d;
   border-width: 1px;
+}
+.radioBorder__size__16Px * {
+  transform-style: preserve-3d;
 }
 .radioBorder__size__18Px {
+  transform-style: preserve-3d;
   border-width: 1px;
 }
+.radioBorder__size__18Px * {
+  transform-style: preserve-3d;
+}
+.radioBorder__size__24Px {
+  transform-style: preserve-3d;
+}
+.radioBorder__size__24Px * {
+  transform-style: preserve-3d;
+}
+.radioBorder__size__32Px {
+  transform-style: preserve-3d;
+}
+.radioBorder__size__32Px * {
+  transform-style: preserve-3d;
+}
 .root:hover .radioBorder {
+  transform-style: preserve-3d;
   border-color: #101010 /* plasmic-token: 7-Hl8dlot */;
+}
+.root:hover .radioBorder * {
+  transform-style: preserve-3d;
 }
 .radioCore {
   display: flex;
@@ -42,34 +86,68 @@
   justify-content: flex-start;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 100px;
 }
+.radioCore * {
+  transform-style: preserve-3d;
+}
 .radioCore__selected {
   background: #101010;
+  transform-style: preserve-3d;
+}
+.radioCore__selected * {
+  transform-style: preserve-3d;
 }
 .radioCore__size__12Px {
   width: 6px;
   height: 6px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.radioCore__size__12Px * {
+  transform-style: preserve-3d;
 }
 .radioCore__size__14Px {
   width: 8px;
   height: 8px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.radioCore__size__14Px * {
+  transform-style: preserve-3d;
 }
 .radioCore__size__16Px {
   width: 10px;
   height: 10px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.radioCore__size__16Px * {
+  transform-style: preserve-3d;
 }
 .radioCore__size__18Px {
   width: 12px;
   height: 12px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.radioCore__size__18Px * {
+  transform-style: preserve-3d;
+}
+.radioCore__size__24Px {
+  transform-style: preserve-3d;
+}
+.radioCore__size__24Px * {
+  transform-style: preserve-3d;
 }
 .radioCore__size__32Px {
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.radioCore__size__32Px * {
+  transform-style: preserve-3d;
 }

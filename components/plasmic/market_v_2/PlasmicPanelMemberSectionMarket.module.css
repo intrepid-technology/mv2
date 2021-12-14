@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   position: relative;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -13,6 +14,9 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -25,6 +29,7 @@
   position: relative;
   flex-direction: column;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -34,6 +39,9 @@
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -53,69 +61,157 @@
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: normal;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__e7Dob:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__e7Dob * {
+  transform-style: preserve-3d;
+}
+.text___4P3A {
+  transform-style: preserve-3d;
+}
+.text___4P3A * {
+  transform-style: preserve-3d;
 }
 .navImage2 {
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage2 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__fgRr:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__fgRr * {
+  transform-style: preserve-3d;
+}
+.text__juLdg {
+  transform-style: preserve-3d;
+}
+.text__juLdg * {
+  transform-style: preserve-3d;
 }
 .navImage3 {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage3 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__il9Fd:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__il9Fd * {
+  transform-style: preserve-3d;
+}
+.text___3IaAr {
+  transform-style: preserve-3d;
+}
+.text___3IaAr * {
+  transform-style: preserve-3d;
 }
 .navImage4 {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage4 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__bjWxX:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__bjWxX * {
+  transform-style: preserve-3d;
+}
+.text__h5KgE {
+  transform-style: preserve-3d;
+}
+.text__h5KgE * {
+  transform-style: preserve-3d;
 }
 .navImage5 {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage5 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__iVsEj:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__iVsEj * {
+  transform-style: preserve-3d;
+}
+.text__uZYG {
+  transform-style: preserve-3d;
+}
+.text__uZYG * {
+  transform-style: preserve-3d;
 }
 .navImage6 {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage6 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__y6VHc:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__y6VHc * {
+  transform-style: preserve-3d;
+}
+.text__a85T {
+  transform-style: preserve-3d;
+}
+.text__a85T * {
+  transform-style: preserve-3d;
 }
 .navImage {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage * {
+  transform-style: preserve-3d;
 }

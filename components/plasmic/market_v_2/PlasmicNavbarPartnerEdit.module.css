@@ -8,6 +8,7 @@
   overflow: hidden;
   position: relative;
   background: none;
+  transform-style: preserve-3d;
   min-width: 0;
   border-top: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
   border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
@@ -22,6 +23,9 @@
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -29,96 +33,458 @@
   margin-left: 16px;
   margin-top: 0px;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
     padding-left: 24px;
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
   }
 }
 .navLink__cz1Za:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__cz1Za * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_profile__cz1ZaYjCyF:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_profile__cz1ZaYjCyF * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_profile__cz1ZaNcC59:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_profile__cz1ZaNcC59 * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_membership__cz1ZAbPAk:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_membership__cz1ZAbPAk * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_membership__cz1ZAiXyRt:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_membership__cz1ZAiXyRt * {
+  transform-style: preserve-3d;
+}
+.text__plFgQ {
+  transform-style: preserve-3d;
+}
+.text__plFgQ * {
+  transform-style: preserve-3d;
 }
 .navLink__ivl4P:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__ivl4P * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_membership__ivl4PbPAk:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_membership__ivl4PbPAk * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team__ivl4P1IcdX:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team__ivl4P1IcdX * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_membership__ivl4PiXyRt:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_membership__ivl4PiXyRt * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_team__ivl4PjFsgI:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_team__ivl4PjFsgI * {
+  transform-style: preserve-3d;
+}
+.text__xLqj0 {
+  transform-style: preserve-3d;
+}
+.text__xLqj0 * {
+  transform-style: preserve-3d;
 }
 .navLink__dq470:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__dq470 * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team__dq4701IcdX:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team__dq4701IcdX * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_wallet__dq470Nt4Sm:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_wallet__dq470Nt4Sm * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_team__dq470JFsgI:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_team__dq470JFsgI * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_wallet__dq470G3QjD:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_wallet__dq470G3QjD * {
+  transform-style: preserve-3d;
+}
+.text___7W5Me {
+  transform-style: preserve-3d;
+}
+.text___7W5Me * {
+  transform-style: preserve-3d;
 }
 .navLink___5FXlO:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink___5FXlO * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_wallet___5FXlONt4Sm:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_wallet___5FXlONt4Sm * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings___5FXlOFpHaO:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings___5FXlOFpHaO * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_wallet___5FXlOg3QjD:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_wallet___5FXlOg3QjD * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_listings___5FXlO1Ixbv:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_listings___5FXlO1Ixbv * {
+  transform-style: preserve-3d;
+}
+.text__fBxvH {
+  transform-style: preserve-3d;
+}
+.text__fBxvH * {
+  transform-style: preserve-3d;
 }
 .navLink__gf82X:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__gf82X * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings__gf82XFpHaO:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings__gf82XFpHaO * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_projects__gf82Xut807:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_projects__gf82Xut807 * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_listings__gf82X1Ixbv:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_listings__gf82X1Ixbv * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_projects__gf82XhjJim:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_projects__gf82XhjJim * {
+  transform-style: preserve-3d;
+}
+.text__pt4JC {
+  transform-style: preserve-3d;
+}
+.text__pt4JC * {
+  transform-style: preserve-3d;
 }
 .navLink__rghSh:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__rghSh * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_projects__rghShut807:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_projects__rghShut807 * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__rghShDNcsn:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__rghShDNcsn * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_projects__rghShhjJim:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_projects__rghShhjJim * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_performance__rghShuH82I:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_performance__rghShuH82I * {
+  transform-style: preserve-3d;
+}
+.text__j7QA {
+  transform-style: preserve-3d;
+}
+.text__j7QA * {
+  transform-style: preserve-3d;
 }
 .navLink__kpVnm:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__kpVnm * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__kpVnmdNcsn:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__kpVnmdNcsn * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_performance__kpVnMuH82I:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_performance__kpVnMuH82I * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_reviews__kpVnMsCk9S:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_reviews__kpVnMsCk9S * {
+  transform-style: preserve-3d;
+}
+.text__iDoJj {
+  transform-style: preserve-3d;
+}
+.text__iDoJj * {
+  transform-style: preserve-3d;
 }
 .navLink__lIccw:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__lIccw * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__lIccwDNcsn:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance__lIccwDNcsn * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_reviews__lIccwjVkQg:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_reviews__lIccwjVkQg * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_messages__lIccwer1Xk:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_messages__lIccwer1Xk * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_reviews__lIccwsCk9S:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_reviews__lIccwsCk9S * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_messages__lIccwypwUc:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_messages__lIccwypwUc * {
+  transform-style: preserve-3d;
+}
+.text___6VpAx {
+  transform-style: preserve-3d;
+}
+.text___6VpAx * {
+  transform-style: preserve-3d;
 }
 .navLink___9Czou:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink___9Czou * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_notifications___9Czou3Net8:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_notifications___9Czou3Net8 * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_messages___9CzoUer1Xk:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_messages___9CzoUer1Xk * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_notifications___9Czou4Dkdb:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_notifications___9Czou4Dkdb * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_messages___9CzoUypwUc:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_messages___9CzoUypwUc * {
+  transform-style: preserve-3d;
+}
+.text__nEx2E {
+  transform-style: preserve-3d;
+}
+.text__nEx2E * {
+  transform-style: preserve-3d;
 }
 .navLink__ih1Ej:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__ih1Ej * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_notifications__ih1Ej3Net8:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_notifications__ih1Ej3Net8 * {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_settings__ih1Ej0OrXb:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__navItems_settings__ih1Ej0OrXb * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_notifications__ih1Ej4Dkdb:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_notifications__ih1Ej4Dkdb * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_settings__ih1EjM9NE0:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_settings__ih1EjM9NE0 * {
+  transform-style: preserve-3d;
+}
+.text__l0UnI {
+  transform-style: preserve-3d;
+}
+.text__l0UnI * {
+  transform-style: preserve-3d;
+}
+.text__navItems_notifications__l0UnI3Net8 {
+  transform-style: preserve-3d;
+}
+.text__navItems_notifications__l0UnI3Net8 * {
+  transform-style: preserve-3d;
 }
 .navLink__p3X21:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink__p3X21 * {
+  transform-style: preserve-3d;
 }
 .navLink__navItems_settings__p3X210OrXb:global(.__wab_instance) {
+  transform-style: preserve-3d;
   display: none;
+}
+.navLink__navItems_settings__p3X210OrXb * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_settings__p3X21M9NE0:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_settings__p3X21M9NE0 * {
+  transform-style: preserve-3d;
+}
+.text__zX8Qu {
+  transform-style: preserve-3d;
+}
+.text__zX8Qu * {
+  transform-style: preserve-3d;
 }

@@ -6,6 +6,10 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .freeBox__x3Lz4 {
   display: flex;
@@ -16,6 +20,7 @@
   left: auto;
   top: auto;
   padding-left: 0px;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__x3Lz4 > :global(.__wab_flex-container) {
@@ -25,6 +30,9 @@
   min-width: 0;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
+}
+.freeBox__x3Lz4 * {
+  transform-style: preserve-3d;
 }
 .freeBox__x3Lz4 > :global(.__wab_flex-container) > *,
 .freeBox__x3Lz4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -44,10 +52,54 @@
   padding-left: 2px;
   display: flex;
   flex-direction: row;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox___59Etq * {
+  transform-style: preserve-3d;
 }
 .text {
   position: relative;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
+}
+.text__active_yearly {
+  transform-style: preserve-3d;
+}
+.text__active_yearly * {
+  transform-style: preserve-3d;
+}
+.text__active_autorenew {
+  transform-style: preserve-3d;
+}
+.text__active_autorenew * {
+  transform-style: preserve-3d;
+}
+.text__active_placement {
+  transform-style: preserve-3d;
+}
+.text__active_placement * {
+  transform-style: preserve-3d;
+}
+.text__inactive_yearly {
+  transform-style: preserve-3d;
+}
+.text__inactive_yearly * {
+  transform-style: preserve-3d;
+}
+.text__inactive_autorenew {
+  transform-style: preserve-3d;
+}
+.text__inactive_autorenew * {
+  transform-style: preserve-3d;
+}
+.text__inactive_placement {
+  transform-style: preserve-3d;
+}
+.text__inactive_placement * {
+  transform-style: preserve-3d;
 }
 .freeBox__ljIaA {
   display: flex;
@@ -59,6 +111,7 @@
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .freeBox__ljIaA > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -66,6 +119,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.freeBox__ljIaA * {
+  transform-style: preserve-3d;
 }
 .freeBox__ljIaA > :global(.__wab_flex-container) > *,
 .freeBox__ljIaA > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -81,23 +137,51 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary * {
+  transform-style: preserve-3d;
 }
 .switchPrimary__active_yearly:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__active_yearly * {
+  transform-style: preserve-3d;
 }
 .switchPrimary__active_autorenew:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__active_autorenew * {
+  transform-style: preserve-3d;
 }
 .switchPrimary__active_placement:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__active_placement * {
+  transform-style: preserve-3d;
 }
 .switchPrimary__inactive_yearly:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__inactive_yearly * {
+  transform-style: preserve-3d;
 }
 .switchPrimary__inactive_autorenew:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.switchPrimary__inactive_autorenew * {
+  transform-style: preserve-3d;
+}
 .switchPrimary__inactive_placement:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__inactive_placement * {
+  transform-style: preserve-3d;
 }

@@ -5,6 +5,7 @@
   height: 100%;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-height: 0;
   padding: 0px 8px 8px;
   border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
@@ -16,6 +17,9 @@
   min-height: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,6 +35,7 @@
   left: auto;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -42,6 +47,9 @@
   min-height: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.navigation * {
+  transform-style: preserve-3d;
 }
 .navigation > :global(.__wab_flex-container) > *,
 .navigation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -58,6 +66,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .headerPanelMainPartner > :global(.__wab_flex-container) {
@@ -67,6 +76,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.headerPanelMainPartner * {
+  transform-style: preserve-3d;
 }
 .headerPanelMainPartner > :global(.__wab_flex-container) > *,
 .headerPanelMainPartner
@@ -85,21 +97,37 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.partnerButtonHeader * {
+  transform-style: preserve-3d;
 }
 .partnerMarket:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.partnerMarket * {
+  transform-style: preserve-3d;
 }
 .partnerProfile:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.partnerProfile * {
+  transform-style: preserve-3d;
 }
 .partnerAccount:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.partnerAccount * {
+  transform-style: preserve-3d;
 }
 .footer {
   display: flex;
@@ -110,5 +138,15 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.footer * {
+  transform-style: preserve-3d;
+}
+.panelPartnerFooter:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.panelPartnerFooter * {
+  transform-style: preserve-3d;
 }

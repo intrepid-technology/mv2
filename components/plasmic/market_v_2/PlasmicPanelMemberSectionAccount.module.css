@@ -4,6 +4,7 @@
   width: 100%;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -14,6 +15,9 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -26,6 +30,7 @@
   position: relative;
   flex-direction: column;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -35,6 +40,9 @@
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -54,26 +62,58 @@
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: normal;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem___8E4Aa:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem___8E4Aa * {
+  transform-style: preserve-3d;
+}
+.text__c76Tt {
+  transform-style: preserve-3d;
+}
+.text__c76Tt * {
+  transform-style: preserve-3d;
 }
 .navImage2 {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage2 * {
+  transform-style: preserve-3d;
 }
 .menuIconListItem__uNiLi:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.menuIconListItem__uNiLi * {
+  transform-style: preserve-3d;
+}
+.text__rva34 {
+  transform-style: preserve-3d;
+}
+.text__rva34 * {
+  transform-style: preserve-3d;
 }
 .navImage {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.navImage * {
+  transform-style: preserve-3d;
 }

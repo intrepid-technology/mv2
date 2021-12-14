@@ -6,6 +6,7 @@
   max-width: 100%;
   background: #ffffff;
   position: relative;
+  transform-style: preserve-3d;
   padding: 0px;
 }
 .root > :global(.__wab_flex-container) {
@@ -14,6 +15,9 @@
   justify-content: flex-start;
   margin-top: calc(0px - 2px);
   height: calc(100% + 2px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -25,9 +29,41 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.panelButtonMenuItem__ldRpj * {
+  transform-style: preserve-3d;
+}
+.text__k9W9A {
+  transform-style: preserve-3d;
+}
+.text__k9W9A * {
+  transform-style: preserve-3d;
+}
+.text__wABnD {
+  transform-style: preserve-3d;
+}
+.text__wABnD * {
+  transform-style: preserve-3d;
 }
 .panelButtonMenuItem__b5Sbq:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.panelButtonMenuItem__b5Sbq * {
+  transform-style: preserve-3d;
+}
+.text__g2Fhx {
+  transform-style: preserve-3d;
+}
+.text__g2Fhx * {
+  transform-style: preserve-3d;
+}
+.text__ryll2 {
+  transform-style: preserve-3d;
+}
+.text__ryll2 * {
+  transform-style: preserve-3d;
 }

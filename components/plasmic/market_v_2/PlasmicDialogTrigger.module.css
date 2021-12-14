@@ -6,4 +6,8 @@
   height: auto;
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }

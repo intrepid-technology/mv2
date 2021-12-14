@@ -6,12 +6,20 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
   border-radius: 2px;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root__width__90 {
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
   display: inline-flex;
+}
+.root__width__90 * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -20,41 +28,97 @@
   justify-content: center;
   width: 360px;
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent * {
+  transform-style: preserve-3d;
 }
 .parent__width__720 {
   width: 720px;
+  transform-style: preserve-3d;
+}
+.parent__width__720 * {
+  transform-style: preserve-3d;
 }
 .parent__height__32 {
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__32 * {
+  transform-style: preserve-3d;
 }
 .parent__height__36 {
   height: 36px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__36 * {
+  transform-style: preserve-3d;
 }
 .parent__height__40 {
   height: 40px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__40 * {
+  transform-style: preserve-3d;
 }
 .parent__height__48 {
   height: 48px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__48 * {
+  transform-style: preserve-3d;
+}
+.parent__background_white {
+  transform-style: preserve-3d;
+}
+.parent__background_white * {
+  transform-style: preserve-3d;
 }
 .parent__width__90 {
   width: 90px;
+  transform-style: preserve-3d;
+}
+.parent__width__90 * {
+  transform-style: preserve-3d;
 }
 .parent__width__160 {
   width: 160px;
+  transform-style: preserve-3d;
+}
+.parent__width__160 * {
+  transform-style: preserve-3d;
 }
 .parent__width__180 {
   width: 180px;
+  transform-style: preserve-3d;
+}
+.parent__width__180 * {
+  transform-style: preserve-3d;
 }
 .parent__width__270 {
   width: 270px;
+  transform-style: preserve-3d;
+}
+.parent__width__270 * {
+  transform-style: preserve-3d;
+}
+.parent__width__360 {
+  transform-style: preserve-3d;
+}
+.parent__width__360 * {
+  transform-style: preserve-3d;
 }
 .parent__width__540 {
   width: 540px;
+  transform-style: preserve-3d;
+}
+.parent__width__540 * {
+  transform-style: preserve-3d;
 }
 .textInput {
   width: 100%;
@@ -62,42 +126,98 @@
   padding-left: 6px;
   line-height: 1;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 2px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.textInput * {
+  transform-style: preserve-3d;
+}
 .textInput__height__32 {
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.textInput__height__32 * {
+  transform-style: preserve-3d;
 }
 .textInput__height__36 {
   font-size: 16px;
+  transform-style: preserve-3d;
+}
+.textInput__height__36 * {
+  transform-style: preserve-3d;
 }
 .textInput__height__40 {
   font-size: 18px;
+  transform-style: preserve-3d;
+}
+.textInput__height__40 * {
+  transform-style: preserve-3d;
 }
 .textInput__height__48 {
   font-size: 24px;
+  transform-style: preserve-3d;
+}
+.textInput__height__48 * {
+  transform-style: preserve-3d;
 }
 .textInput__background_white {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.textInput__background_white * {
+  transform-style: preserve-3d;
+}
+.textInput__background_grey {
+  transform-style: preserve-3d;
+}
+.textInput__background_grey * {
+  transform-style: preserve-3d;
 }
 .textInput__background_black {
   background: #101010;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  transform-style: preserve-3d;
+}
+.textInput__background_black * {
+  transform-style: preserve-3d;
 }
 .textInput__type_secondary {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.textInput__type_secondary * {
+  transform-style: preserve-3d;
 }
 .textInput__type_underline {
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
+  transform-style: preserve-3d;
+}
+.textInput__type_underline * {
+  transform-style: preserve-3d;
+}
+.textInput__width__90 {
+  transform-style: preserve-3d;
+}
+.textInput__width__90 * {
+  transform-style: preserve-3d;
 }
 .root:hover .textInput {
+  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
+.root:hover .textInput * {
+  transform-style: preserve-3d;
+}
 .root:focus-within .textInput {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.root:focus-within .textInput * {
+  transform-style: preserve-3d;
 }

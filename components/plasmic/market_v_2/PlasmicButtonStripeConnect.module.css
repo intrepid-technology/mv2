@@ -7,20 +7,42 @@
   height: 48px;
   position: relative;
   background: #f2f1ff;
+  transform-style: preserve-3d;
   border-radius: 4px;
   padding: 0px;
   border: 2px solid #7a72ff /* plasmic-token: JG1mQ0YGJ */;
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root__width__180 {
   width: 180px;
+  transform-style: preserve-3d;
   padding: 2px 6px;
+}
+.root__width__180 * {
+  transform-style: preserve-3d;
 }
 .root__width__270 {
   width: 270px;
+  transform-style: preserve-3d;
   padding: 4px 16px;
+}
+.root__width__270 * {
+  transform-style: preserve-3d;
+}
+.root__width__360 {
+  transform-style: preserve-3d;
+}
+.root__width__360 * {
+  transform-style: preserve-3d;
 }
 .root:hover {
   background: #7a72ff;
+  transform-style: preserve-3d;
+}
+.root:hover * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -32,9 +54,19 @@
   top: auto;
   width: 48px;
   height: 100%;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   min-height: 0;
   padding: 8px;
+}
+.freeBox * {
+  transform-style: preserve-3d;
+}
+.freeBox__icon {
+  transform-style: preserve-3d;
+}
+.freeBox__icon * {
+  transform-style: preserve-3d;
 }
 .svg {
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
@@ -42,8 +74,12 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg * {
+  transform-style: preserve-3d;
 }
 .textParent {
   display: flex;
@@ -54,6 +90,7 @@
   width: 100%;
   height: auto;
   padding-right: 0px;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .textParent > :global(.__wab_flex-container) {
@@ -63,6 +100,9 @@
   min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
+}
+.textParent * {
+  transform-style: preserve-3d;
 }
 .textParent > :global(.__wab_flex-container) > *,
 .textParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -74,12 +114,28 @@
   > img {
   margin-left: 0px;
 }
+.textParent__width__270 {
+  transform-style: preserve-3d;
+}
+.textParent__width__270 * {
+  transform-style: preserve-3d;
+}
+.root:hover .textParent {
+  transform-style: preserve-3d;
+}
+.root:hover .textParent * {
+  transform-style: preserve-3d;
+}
 .textBg {
   display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.textBg * {
+  transform-style: preserve-3d;
 }
 .slotTargetText {
   font-size: 16px;
@@ -87,14 +143,116 @@
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
   line-height: 1;
 }
+.slotTargetText * {
+  transform-style: preserve-3d;
+}
+.slotTargetText > *,
+.slotTargetText > .__wab_slot > *,
+.slotTargetText > .__wab_slot > .__wab_slot > *,
+.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText > picture > img,
+.slotTargetText > .__wab_slot > picture > img,
+.slotTargetText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
 .slotTargetText__width__180 {
   font-size: 14px;
 }
+.slotTargetText__width__180 * {
+  transform-style: preserve-3d;
+}
+.slotTargetText__width__180 > *,
+.slotTargetText__width__180 > .__wab_slot > *,
+.slotTargetText__width__180 > .__wab_slot > .__wab_slot > *,
+.slotTargetText__width__180 > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText__width__180 > picture > img,
+.slotTargetText__width__180 > .__wab_slot > picture > img,
+.slotTargetText__width__180 > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText__width__180
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetText__width__360 * {
+  transform-style: preserve-3d;
+}
+.slotTargetText__width__360 > *,
+.slotTargetText__width__360 > .__wab_slot > *,
+.slotTargetText__width__360 > .__wab_slot > .__wab_slot > *,
+.slotTargetText__width__360 > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetText__width__360 > picture > img,
+.slotTargetText__width__360 > .__wab_slot > picture > img,
+.slotTargetText__width__360 > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetText__width__360
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .root:hover .slotTargetText {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
+}
+.root:hover .slotTargetText * {
+  transform-style: preserve-3d;
+}
+.root:hover .slotTargetText > *,
+.root:hover .slotTargetText > .__wab_slot > *,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetText > picture > img,
+.root:hover .slotTargetText > .__wab_slot > picture > img,
+.root:hover .slotTargetText > .__wab_slot > .__wab_slot > picture > img,
+.root:hover
+  .slotTargetText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text___0GChs {
+  transform-style: preserve-3d;
+}
+.text___0GChs * {
+  transform-style: preserve-3d;
 }
 .iconStripeLogo:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.iconStripeLogo * {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__logo:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__logo * {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__width__180:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__width__180 * {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__width__270:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconStripeLogo__width__270 * {
+  transform-style: preserve-3d;
+}
+.root:hover .iconStripeLogo:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.root:hover .iconStripeLogo * {
+  transform-style: preserve-3d;
 }

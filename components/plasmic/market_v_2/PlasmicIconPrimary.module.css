@@ -4,6 +4,16 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.parent * {
+  transform-style: preserve-3d;
+}
+.parent__size__14Px {
+  transform-style: preserve-3d;
+}
+.parent__size__14Px * {
+  transform-style: preserve-3d;
 }
 .svgBg {
   display: flex;
@@ -12,165 +22,1695 @@
   justify-content: flex-start;
   width: 12px;
   height: 12px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__14Px {
   width: 14px;
   height: 14px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__14Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__80Px {
   width: 80px;
   height: 80px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__80Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__16Px {
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__16Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__18Px {
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__18Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__24Px {
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__24Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__32Px {
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__32Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__36Px {
   width: 36px;
   height: 36px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__36Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__40Px {
   width: 40px;
   height: 40px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__40Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__48Px {
   width: 48px;
   height: 48px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__48Px * {
+  transform-style: preserve-3d;
 }
 .svgBg__size__64Px {
   width: 64px;
   height: 64px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgBg__size__64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon > *,
+.slotTargetSvgIcon > .__wab_slot > *,
+.slotTargetSvgIcon > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon > picture > img,
+.slotTargetSvgIcon > .__wab_slot > picture > img,
+.slotTargetSvgIcon > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__14Px > *,
+.slotTargetSvgIcon__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__14Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__14Px > picture > img,
+.slotTargetSvgIcon__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__80Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__80Px > *,
+.slotTargetSvgIcon__size__80Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__80Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__80Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__80Px > picture > img,
+.slotTargetSvgIcon__size__80Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__80Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__16Px > *,
+.slotTargetSvgIcon__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__16Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__16Px > picture > img,
+.slotTargetSvgIcon__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__18Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__18Px > *,
+.slotTargetSvgIcon__size__18Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__18Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__18Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__18Px > picture > img,
+.slotTargetSvgIcon__size__18Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__18Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__24Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__24Px > *,
+.slotTargetSvgIcon__size__24Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__24Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__24Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__24Px > picture > img,
+.slotTargetSvgIcon__size__24Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__24Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__32Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__32Px > *,
+.slotTargetSvgIcon__size__32Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__32Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__32Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__32Px > picture > img,
+.slotTargetSvgIcon__size__32Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__32Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__40Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__40Px > *,
+.slotTargetSvgIcon__size__40Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__40Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__40Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__40Px > picture > img,
+.slotTargetSvgIcon__size__40Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__40Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__48Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__48Px > *,
+.slotTargetSvgIcon__size__48Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__48Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__48Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__48Px > picture > img,
+.slotTargetSvgIcon__size__48Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__48Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon__size__64Px > *,
+.slotTargetSvgIcon__size__64Px > .__wab_slot > *,
+.slotTargetSvgIcon__size__64Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__64Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon__size__64Px > picture > img,
+.slotTargetSvgIcon__size__64Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__64Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .parent:hover .slotTargetSvgIcon {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon > *,
+.parent:hover .slotTargetSvgIcon > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon > .__wab_slot > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon > picture > img,
+.parent:hover .slotTargetSvgIcon > .__wab_slot > picture > img,
+.parent:hover .slotTargetSvgIcon > .__wab_slot > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.parent__size__14Px:hover .slotTargetSvgIcon__size__14Px * {
+  transform-style: preserve-3d;
+}
+.parent__size__14Px:hover .slotTargetSvgIcon__size__14Px > *,
+.parent__size__14Px:hover .slotTargetSvgIcon__size__14Px > .__wab_slot > *,
+.parent__size__14Px:hover
+  .slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent__size__14Px:hover
+  .slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent__size__14Px:hover .slotTargetSvgIcon__size__14Px > picture > img,
+.parent__size__14Px:hover
+  .slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > picture
+  > img,
+.parent__size__14Px:hover
+  .slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent__size__14Px:hover
+  .slotTargetSvgIcon__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__yy6Sv {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__yy6Sv * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px > *,
+.slotTargetSvgIcon14Px > .__wab_slot > *,
+.slotTargetSvgIcon14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon14Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon14Px > picture > img,
+.slotTargetSvgIcon14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px__size__14Px > *,
+.slotTargetSvgIcon14Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon14Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon14Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon14Px__size__14Px > picture > img,
+.slotTargetSvgIcon14Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon14Px__size__16Px > *,
+.slotTargetSvgIcon14Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon14Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon14Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon14Px__size__16Px > picture > img,
+.slotTargetSvgIcon14Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon14Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon14Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon14Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon14Px > *,
+.parent:hover .slotTargetSvgIcon14Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon14Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon14Px > picture > img,
+.parent:hover .slotTargetSvgIcon14Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon14Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__cS0U {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__cS0U * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px > *,
+.slotTargetSvgIcon16Px > .__wab_slot > *,
+.slotTargetSvgIcon16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon16Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon16Px > picture > img,
+.slotTargetSvgIcon16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__14Px > *,
+.slotTargetSvgIcon16Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon16Px__size__14Px > picture > img,
+.slotTargetSvgIcon16Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__16Px > *,
+.slotTargetSvgIcon16Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon16Px__size__16Px > picture > img,
+.slotTargetSvgIcon16Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__18Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon16Px__size__18Px > *,
+.slotTargetSvgIcon16Px__size__18Px > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__18Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon16Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon16Px__size__18Px > picture > img,
+.slotTargetSvgIcon16Px__size__18Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__18Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon16Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon16Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon16Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon16Px > *,
+.parent:hover .slotTargetSvgIcon16Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon16Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon16Px > picture > img,
+.parent:hover .slotTargetSvgIcon16Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon16Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__bj0K {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__bj0K * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px > *,
+.slotTargetSvgIcon18Px > .__wab_slot > *,
+.slotTargetSvgIcon18Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px > picture > img,
+.slotTargetSvgIcon18Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__14Px > *,
+.slotTargetSvgIcon18Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon18Px__size__14Px > picture > img,
+.slotTargetSvgIcon18Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__16Px > *,
+.slotTargetSvgIcon18Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon18Px__size__16Px > picture > img,
+.slotTargetSvgIcon18Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__18Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__18Px > *,
+.slotTargetSvgIcon18Px__size__18Px > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__18Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon18Px__size__18Px > picture > img,
+.slotTargetSvgIcon18Px__size__18Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__18Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__24Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon18Px__size__24Px > *,
+.slotTargetSvgIcon18Px__size__24Px > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__24Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon18Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon18Px__size__24Px > picture > img,
+.slotTargetSvgIcon18Px__size__24Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__24Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon18Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon18Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon18Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon18Px > *,
+.parent:hover .slotTargetSvgIcon18Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon18Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon18Px > picture > img,
+.parent:hover .slotTargetSvgIcon18Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon18Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__v3Lk5 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__v3Lk5 * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px > *,
+.slotTargetSvgIcon24Px > .__wab_slot > *,
+.slotTargetSvgIcon24Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px > picture > img,
+.slotTargetSvgIcon24Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__14Px > *,
+.slotTargetSvgIcon24Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon24Px__size__14Px > picture > img,
+.slotTargetSvgIcon24Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__16Px > *,
+.slotTargetSvgIcon24Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon24Px__size__16Px > picture > img,
+.slotTargetSvgIcon24Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__24Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__24Px > *,
+.slotTargetSvgIcon24Px__size__24Px > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__24Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon24Px__size__24Px > picture > img,
+.slotTargetSvgIcon24Px__size__24Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__24Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__32Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon24Px__size__32Px > *,
+.slotTargetSvgIcon24Px__size__32Px > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__32Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon24Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon24Px__size__32Px > picture > img,
+.slotTargetSvgIcon24Px__size__32Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__32Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon24Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon24Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon24Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon24Px > *,
+.parent:hover .slotTargetSvgIcon24Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon24Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon24Px > picture > img,
+.parent:hover .slotTargetSvgIcon24Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon24Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__wU0Z {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__wU0Z * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px > *,
+.slotTargetSvgIcon32Px > .__wab_slot > *,
+.slotTargetSvgIcon32Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon32Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon32Px > picture > img,
+.slotTargetSvgIcon32Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__14Px > *,
+.slotTargetSvgIcon32Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon32Px__size__14Px > picture > img,
+.slotTargetSvgIcon32Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__16Px > *,
+.slotTargetSvgIcon32Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon32Px__size__16Px > picture > img,
+.slotTargetSvgIcon32Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__32Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon32Px__size__32Px > *,
+.slotTargetSvgIcon32Px__size__32Px > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__32Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon32Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon32Px__size__32Px > picture > img,
+.slotTargetSvgIcon32Px__size__32Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__32Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon32Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon32Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon32Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon32Px > *,
+.parent:hover .slotTargetSvgIcon32Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon32Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon32Px > picture > img,
+.parent:hover .slotTargetSvgIcon32Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon32Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__u8O9K {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__u8O9K * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px > *,
+.slotTargetSvgIcon48Px > .__wab_slot > *,
+.slotTargetSvgIcon48Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px > picture > img,
+.slotTargetSvgIcon48Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__14Px > *,
+.slotTargetSvgIcon48Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon48Px__size__14Px > picture > img,
+.slotTargetSvgIcon48Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__16Px > *,
+.slotTargetSvgIcon48Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon48Px__size__16Px > picture > img,
+.slotTargetSvgIcon48Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__48Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__48Px > *,
+.slotTargetSvgIcon48Px__size__48Px > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__48Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon48Px__size__48Px > picture > img,
+.slotTargetSvgIcon48Px__size__48Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__48Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon48Px__size__64Px > *,
+.slotTargetSvgIcon48Px__size__64Px > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__64Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon48Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon48Px__size__64Px > picture > img,
+.slotTargetSvgIcon48Px__size__64Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__64Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon48Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon48Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon48Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon48Px > *,
+.parent:hover .slotTargetSvgIcon48Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon48Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon48Px > picture > img,
+.parent:hover .slotTargetSvgIcon48Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon48Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__ztjRb {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__ztjRb * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px > *,
+.slotTargetSvgIcon64Px > .__wab_slot > *,
+.slotTargetSvgIcon64Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px > picture > img,
+.slotTargetSvgIcon64Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__14Px > *,
+.slotTargetSvgIcon64Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon64Px__size__14Px > picture > img,
+.slotTargetSvgIcon64Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__80Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__80Px > *,
+.slotTargetSvgIcon64Px__size__80Px > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__80Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon64Px__size__80Px > picture > img,
+.slotTargetSvgIcon64Px__size__80Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__80Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__16Px > *,
+.slotTargetSvgIcon64Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon64Px__size__16Px > picture > img,
+.slotTargetSvgIcon64Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon64Px__size__64Px > *,
+.slotTargetSvgIcon64Px__size__64Px > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__64Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon64Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon64Px__size__64Px > picture > img,
+.slotTargetSvgIcon64Px__size__64Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__64Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon64Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon64Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon64Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon64Px > *,
+.parent:hover .slotTargetSvgIcon64Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon64Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon64Px > picture > img,
+.parent:hover .slotTargetSvgIcon64Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon64Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__n0G9C {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg__n0G9C * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px > *,
+.slotTargetSvgIcon80Px > .__wab_slot > *,
+.slotTargetSvgIcon80Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon80Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon80Px > picture > img,
+.slotTargetSvgIcon80Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__14Px > *,
+.slotTargetSvgIcon80Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon80Px__size__14Px > picture > img,
+.slotTargetSvgIcon80Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__80Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__80Px > *,
+.slotTargetSvgIcon80Px__size__80Px > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__80Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon80Px__size__80Px > picture > img,
+.slotTargetSvgIcon80Px__size__80Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__80Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon80Px__size__16Px > *,
+.slotTargetSvgIcon80Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon80Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon80Px__size__16Px > picture > img,
+.slotTargetSvgIcon80Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon80Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon80Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon80Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon80Px > *,
+.parent:hover .slotTargetSvgIcon80Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon80Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon80Px > picture > img,
+.parent:hover .slotTargetSvgIcon80Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon80Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg___1YYzz {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg___1YYzz * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px > *,
+.slotTargetSvgIcon40Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px > picture > img,
+.slotTargetSvgIcon40Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__14Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__14Px > *,
+.slotTargetSvgIcon40Px__size__14Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__14Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__14Px > picture > img,
+.slotTargetSvgIcon40Px__size__14Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__14Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__14Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__80Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__80Px > *,
+.slotTargetSvgIcon40Px__size__80Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__80Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__80Px > picture > img,
+.slotTargetSvgIcon40Px__size__80Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__80Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__80Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__16Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__16Px > *,
+.slotTargetSvgIcon40Px__size__16Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__16Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__16Px > picture > img,
+.slotTargetSvgIcon40Px__size__16Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__16Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__16Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__18Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__18Px > *,
+.slotTargetSvgIcon40Px__size__18Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__18Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__18Px > picture > img,
+.slotTargetSvgIcon40Px__size__18Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__18Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__18Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__24Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__24Px > *,
+.slotTargetSvgIcon40Px__size__24Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__24Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__24Px > picture > img,
+.slotTargetSvgIcon40Px__size__24Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__24Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__24Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__32Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__32Px > *,
+.slotTargetSvgIcon40Px__size__32Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__32Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__32Px > picture > img,
+.slotTargetSvgIcon40Px__size__32Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__32Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__32Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__40Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__40Px > *,
+.slotTargetSvgIcon40Px__size__40Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__40Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__40Px > picture > img,
+.slotTargetSvgIcon40Px__size__40Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__40Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__48Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__48Px > *,
+.slotTargetSvgIcon40Px__size__48Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__48Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__48Px > picture > img,
+.slotTargetSvgIcon40Px__size__48Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__48Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__48Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__64Px * {
+  transform-style: preserve-3d;
+}
+.slotTargetSvgIcon40Px__size__64Px > *,
+.slotTargetSvgIcon40Px__size__64Px > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__64Px > .__wab_slot > .__wab_slot > *,
+.slotTargetSvgIcon40Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSvgIcon40Px__size__64Px > picture > img,
+.slotTargetSvgIcon40Px__size__64Px > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__64Px > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSvgIcon40Px__size__64Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .parent:hover .slotTargetSvgIcon40Px {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.parent:hover .slotTargetSvgIcon40Px * {
+  transform-style: preserve-3d;
+}
+.parent:hover .slotTargetSvgIcon40Px > *,
+.parent:hover .slotTargetSvgIcon40Px > .__wab_slot > *,
+.parent:hover .slotTargetSvgIcon40Px > .__wab_slot > .__wab_slot > *,
+.parent:hover
+  .slotTargetSvgIcon40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.parent:hover .slotTargetSvgIcon40Px > picture > img,
+.parent:hover .slotTargetSvgIcon40Px > .__wab_slot > picture > img,
+.parent:hover
+  .slotTargetSvgIcon40Px
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.parent:hover
+  .slotTargetSvgIcon40Px
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .svg__oqKKb {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg__oqKKb * {
+  transform-style: preserve-3d;
 }
