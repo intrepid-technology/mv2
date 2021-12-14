@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -14,6 +15,9 @@
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,13 +35,21 @@
   left: auto;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.svgIconParent * {
+  transform-style: preserve-3d;
 }
 .svg___3Ghg2 {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg___3Ghg2 * {
+  transform-style: preserve-3d;
 }
 .numberValuePercentParent {
   display: flex;
@@ -45,6 +57,7 @@
   flex-direction: row;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
 }
 .numberValuePercentParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -52,6 +65,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
+}
+.numberValuePercentParent * {
+  transform-style: preserve-3d;
 }
 .numberValuePercentParent > :global(.__wab_flex-container) > *,
 .numberValuePercentParent
@@ -70,6 +86,10 @@
   display: flex;
   position: relative;
   width: auto;
+  transform-style: preserve-3d;
+}
+.numberValueParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetNumberValue {
   font-size: 14px;
@@ -77,11 +97,39 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
+.slotTargetNumberValue * {
+  transform-style: preserve-3d;
+}
+.slotTargetNumberValue > *,
+.slotTargetNumberValue > .__wab_slot > *,
+.slotTargetNumberValue > .__wab_slot > .__wab_slot > *,
+.slotTargetNumberValue > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetNumberValue > picture > img,
+.slotTargetNumberValue > .__wab_slot > picture > img,
+.slotTargetNumberValue > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetNumberValue
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__fsZqw {
+  transform-style: preserve-3d;
+}
+.text__fsZqw * {
+  transform-style: preserve-3d;
+}
 .percentParent {
   width: auto;
   align-self: flex-start;
   display: flex;
   flex-direction: row;
+  transform-style: preserve-3d;
+}
+.percentParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetPercent {
   font-size: 8px;
@@ -89,14 +137,61 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
 }
+.slotTargetPercent * {
+  transform-style: preserve-3d;
+}
+.slotTargetPercent > *,
+.slotTargetPercent > .__wab_slot > *,
+.slotTargetPercent > .__wab_slot > .__wab_slot > *,
+.slotTargetPercent > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetPercent > picture > img,
+.slotTargetPercent > .__wab_slot > picture > img,
+.slotTargetPercent > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetPercent > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__lL94L {
+  transform-style: preserve-3d;
+}
+.text__lL94L * {
+  transform-style: preserve-3d;
+}
 .featurevalueTextParent {
   display: flex;
   position: relative;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.featurevalueTextParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetFeatureValueText {
   font-size: 14px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   line-height: 1;
+}
+.slotTargetFeatureValueText * {
+  transform-style: preserve-3d;
+}
+.slotTargetFeatureValueText > *,
+.slotTargetFeatureValueText > .__wab_slot > *,
+.slotTargetFeatureValueText > .__wab_slot > .__wab_slot > *,
+.slotTargetFeatureValueText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetFeatureValueText > picture > img,
+.slotTargetFeatureValueText > .__wab_slot > picture > img,
+.slotTargetFeatureValueText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetFeatureValueText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__poh7B {
+  transform-style: preserve-3d;
+}
+.text__poh7B * {
+  transform-style: preserve-3d;
 }

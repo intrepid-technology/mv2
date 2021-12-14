@@ -6,13 +6,27 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root__height__720 {
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
   display: inline-flex;
+}
+.root__height__720 * {
+  transform-style: preserve-3d;
+}
+.root__type_secondary {
+  transform-style: preserve-3d;
+}
+.root__type_secondary * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -21,77 +35,187 @@
   justify-content: flex-start;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.parent * {
+  transform-style: preserve-3d;
+}
 .parent__height__180 {
   height: 180px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__180 * {
+  transform-style: preserve-3d;
 }
 .parent__height__270 {
   height: 270px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__270 * {
+  transform-style: preserve-3d;
 }
 .parent__height__360 {
   height: 360px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__360 * {
+  transform-style: preserve-3d;
 }
 .parent__height__540 {
   height: 540px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__540 * {
+  transform-style: preserve-3d;
 }
 .parent__height__720 {
   height: 720px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__720 * {
+  transform-style: preserve-3d;
 }
 .parent__width__90 {
   width: 90px;
+  transform-style: preserve-3d;
+}
+.parent__width__90 * {
+  transform-style: preserve-3d;
 }
 .parent__width__180 {
   width: 180px;
+  transform-style: preserve-3d;
+}
+.parent__width__180 * {
+  transform-style: preserve-3d;
 }
 .parent__width__270 {
   width: 270px;
+  transform-style: preserve-3d;
+}
+.parent__width__270 * {
+  transform-style: preserve-3d;
 }
 .parent__width__360 {
   width: 360px;
+  transform-style: preserve-3d;
+}
+.parent__width__360 * {
+  transform-style: preserve-3d;
 }
 .parent__width__540 {
   width: 540px;
+  transform-style: preserve-3d;
+}
+.parent__width__540 * {
+  transform-style: preserve-3d;
 }
 .parent__width__720 {
   width: 720px;
+  transform-style: preserve-3d;
+}
+.parent__width__720 * {
+  transform-style: preserve-3d;
 }
 .parent__height__90 {
   height: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__height__90 * {
+  transform-style: preserve-3d;
 }
 .parent__height__720_width__90 {
   width: 90px;
+  transform-style: preserve-3d;
+}
+.parent__height__720_width__90 * {
+  transform-style: preserve-3d;
+}
+.parent__width__720_height__90 {
+  transform-style: preserve-3d;
+}
+.parent__width__720_height__90 * {
+  transform-style: preserve-3d;
 }
 .parent__height__720_width__180 {
   width: 180px;
+  transform-style: preserve-3d;
+}
+.parent__height__720_width__180 * {
+  transform-style: preserve-3d;
 }
 .parent__height__720_width__270 {
   width: 270px;
+  transform-style: preserve-3d;
+}
+.parent__height__720_width__270 * {
+  transform-style: preserve-3d;
+}
+.parent__height__720_width__360 {
+  transform-style: preserve-3d;
+}
+.parent__height__720_width__360 * {
+  transform-style: preserve-3d;
 }
 .textarea {
   width: 100%;
   height: 100%;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 4px;
   padding: 8px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
+.textarea * {
+  transform-style: preserve-3d;
+}
+.textarea__height__720 {
+  transform-style: preserve-3d;
+}
+.textarea__height__720 * {
+  transform-style: preserve-3d;
+}
 .textarea__type_secondary {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.textarea__type_secondary * {
+  transform-style: preserve-3d;
+}
+.textarea__width__90 {
+  transform-style: preserve-3d;
+}
+.textarea__width__90 * {
+  transform-style: preserve-3d;
+}
+.textarea__height__90 {
+  transform-style: preserve-3d;
+}
+.textarea__height__90 * {
+  transform-style: preserve-3d;
 }
 .root:hover .textarea {
+  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
+.root:hover .textarea * {
+  transform-style: preserve-3d;
+}
 .root:focus-within .textarea {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.root:focus-within .textarea * {
+  transform-style: preserve-3d;
 }

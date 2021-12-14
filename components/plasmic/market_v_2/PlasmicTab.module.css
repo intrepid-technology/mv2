@@ -4,6 +4,68 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+.root__color_light {
+  transform-style: preserve-3d;
+}
+.root__color_light * {
+  transform-style: preserve-3d;
+}
+.root__color_brand {
+  transform-style: preserve-3d;
+}
+.root__color_brand * {
+  transform-style: preserve-3d;
+}
+.root__color_ghost {
+  transform-style: preserve-3d;
+}
+.root__color_ghost * {
+  transform-style: preserve-3d;
+}
+.root__state_selected {
+  transform-style: preserve-3d;
+}
+.root__state_selected * {
+  transform-style: preserve-3d;
+}
+.root__state_disabled {
+  transform-style: preserve-3d;
+}
+.root__state_disabled * {
+  transform-style: preserve-3d;
+}
+.root__state_selected_activeBorder_left {
+  transform-style: preserve-3d;
+}
+.root__state_selected_activeBorder_left * {
+  transform-style: preserve-3d;
+}
+.root:hover {
+  transform-style: preserve-3d;
+}
+.root:hover * {
+  transform-style: preserve-3d;
+}
+.root__color_brand:hover {
+  transform-style: preserve-3d;
+}
+.root__color_brand:hover * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -12,18 +74,74 @@
   justify-content: center;
   width: auto;
   height: 40px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 16px;
 }
+.parent * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent * {
+    transform-style: preserve-3d;
+  }
+}
+.parent__color_light {
+  transform-style: preserve-3d;
+}
+.parent__color_light * {
+  transform-style: preserve-3d;
+}
+.parent__color_brand {
+  transform-style: preserve-3d;
+}
+.parent__color_brand * {
+  transform-style: preserve-3d;
+}
+.parent__color_ghost {
+  transform-style: preserve-3d;
+}
+.parent__color_ghost * {
+  transform-style: preserve-3d;
+}
 .parent__state_selected {
+  transform-style: preserve-3d;
   border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
+.parent__state_selected * {
+  transform-style: preserve-3d;
+}
 .parent__state_selected_activeBorder_left {
+  transform-style: preserve-3d;
   border-bottom: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
   border-left: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
 }
+.parent__state_selected_activeBorder_left * {
+  transform-style: preserve-3d;
+}
+.root:hover .parent {
+  transform-style: preserve-3d;
+}
+.root:hover .parent * {
+  transform-style: preserve-3d;
+}
+.root__color_brand:hover .parent__color_brand {
+  transform-style: preserve-3d;
+}
+.root__color_brand:hover .parent__color_brand * {
+  transform-style: preserve-3d;
+}
 .root__color_ghost:hover .parent__color_ghost {
   background: #f8f8ff;
+  transform-style: preserve-3d;
+}
+.root__color_ghost:hover .parent__color_ghost * {
+  transform-style: preserve-3d;
 }
 .textParent {
   position: relative;
@@ -33,7 +151,23 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.textParent * {
+  transform-style: preserve-3d;
+}
+.textParent__state_selected_activeBorder_left {
+  transform-style: preserve-3d;
+}
+.textParent__state_selected_activeBorder_left * {
+  transform-style: preserve-3d;
+}
+.root:hover .textParent {
+  transform-style: preserve-3d;
+}
+.root:hover .textParent * {
+  transform-style: preserve-3d;
 }
 .textBg {
   display: flex;
@@ -42,7 +176,33 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.textBg * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .textBg {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .textBg * {
+    transform-style: preserve-3d;
+  }
+}
+.textBg__color_light {
+  transform-style: preserve-3d;
+}
+.textBg__color_light * {
+  transform-style: preserve-3d;
+}
+.root:hover .textBg {
+  transform-style: preserve-3d;
+}
+.root:hover .textBg * {
+  transform-style: preserve-3d;
 }
 .slotTargetLabel {
   font-size: 16px;
@@ -53,26 +213,205 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
+.slotTargetLabel * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel > *,
+.slotTargetLabel > .__wab_slot > *,
+.slotTargetLabel > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel > picture > img,
+.slotTargetLabel > .__wab_slot > picture > img,
+.slotTargetLabel > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .slotTargetLabel * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .slotTargetLabel > *,
+  .slotTargetLabel > .__wab_slot > *,
+  .slotTargetLabel > .__wab_slot > .__wab_slot > *,
+  .slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+  .slotTargetLabel > picture > img,
+  .slotTargetLabel > .__wab_slot > picture > img,
+  .slotTargetLabel > .__wab_slot > .__wab_slot > picture > img,
+  .slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+    transform-style: preserve-3d;
+  }
+}
 .slotTargetLabel__color_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+}
+.slotTargetLabel__color_light * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__color_light > *,
+.slotTargetLabel__color_light > .__wab_slot > *,
+.slotTargetLabel__color_light > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_light > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_light > picture > img,
+.slotTargetLabel__color_light > .__wab_slot > picture > img,
+.slotTargetLabel__color_light > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel__color_light
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .slotTargetLabel__color_brand {
   color: #c2adff /* plasmic-token: j08wwDM3g */;
 }
+.slotTargetLabel__color_brand * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__color_brand > *,
+.slotTargetLabel__color_brand > .__wab_slot > *,
+.slotTargetLabel__color_brand > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_brand > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_brand > picture > img,
+.slotTargetLabel__color_brand > .__wab_slot > picture > img,
+.slotTargetLabel__color_brand > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__color_ghost * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__color_ghost > *,
+.slotTargetLabel__color_ghost > .__wab_slot > *,
+.slotTargetLabel__color_ghost > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_ghost > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__color_ghost > picture > img,
+.slotTargetLabel__color_ghost > .__wab_slot > picture > img,
+.slotTargetLabel__color_ghost > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel__color_ghost
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .slotTargetLabel__state_selected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
+}
+.slotTargetLabel__state_selected * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__state_selected > *,
+.slotTargetLabel__state_selected > .__wab_slot > *,
+.slotTargetLabel__state_selected > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__state_selected > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__state_selected > picture > img,
+.slotTargetLabel__state_selected > .__wab_slot > picture > img,
+.slotTargetLabel__state_selected > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel__state_selected
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .slotTargetLabel__state_disabled {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
+.slotTargetLabel__state_disabled * {
+  transform-style: preserve-3d;
+}
+.slotTargetLabel__state_disabled > *,
+.slotTargetLabel__state_disabled > .__wab_slot > *,
+.slotTargetLabel__state_disabled > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__state_disabled > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLabel__state_disabled > picture > img,
+.slotTargetLabel__state_disabled > .__wab_slot > picture > img,
+.slotTargetLabel__state_disabled > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLabel__state_disabled
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .root:hover .slotTargetLabel {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.root:hover .slotTargetLabel * {
+  transform-style: preserve-3d;
+}
+.root:hover .slotTargetLabel > *,
+.root:hover .slotTargetLabel > .__wab_slot > *,
+.root:hover .slotTargetLabel > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.root:hover .slotTargetLabel > picture > img,
+.root:hover .slotTargetLabel > .__wab_slot > picture > img,
+.root:hover .slotTargetLabel > .__wab_slot > .__wab_slot > picture > img,
+.root:hover
+  .slotTargetLabel
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .root__color_light:hover .slotTargetLabel__color_light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
+.root__color_light:hover .slotTargetLabel__color_light * {
+  transform-style: preserve-3d;
+}
+.root__color_light:hover .slotTargetLabel__color_light > *,
+.root__color_light:hover .slotTargetLabel__color_light > .__wab_slot > *,
+.root__color_light:hover
+  .slotTargetLabel__color_light
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_light:hover
+  .slotTargetLabel__color_light
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_light:hover .slotTargetLabel__color_light > picture > img,
+.root__color_light:hover
+  .slotTargetLabel__color_light
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_light:hover
+  .slotTargetLabel__color_light
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_light:hover
+  .slotTargetLabel__color_light
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .root__color_brand:hover .slotTargetLabel__color_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+}
+.root__color_brand:hover .slotTargetLabel__color_brand * {
+  transform-style: preserve-3d;
 }
 .root__color_brand:hover .slotTargetLabel__color_brand > .__wab_text,
 .root__color_brand:hover
@@ -110,9 +449,160 @@
   > .__wab_slot-string-wrapper {
   text-decoration-line: none;
 }
+.root__color_brand:hover .slotTargetLabel__color_brand > *,
+.root__color_brand:hover .slotTargetLabel__color_brand > .__wab_slot > *,
+.root__color_brand:hover
+  .slotTargetLabel__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_brand:hover
+  .slotTargetLabel__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_brand:hover .slotTargetLabel__color_brand > picture > img,
+.root__color_brand:hover
+  .slotTargetLabel__color_brand
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_brand:hover
+  .slotTargetLabel__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_brand:hover
+  .slotTargetLabel__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.root__color_ghost:hover .slotTargetLabel__color_ghost * {
+  transform-style: preserve-3d;
+}
+.root__color_ghost:hover .slotTargetLabel__color_ghost > *,
+.root__color_ghost:hover .slotTargetLabel__color_ghost > .__wab_slot > *,
+.root__color_ghost:hover
+  .slotTargetLabel__color_ghost
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_ghost:hover
+  .slotTargetLabel__color_ghost
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_ghost:hover .slotTargetLabel__color_ghost > picture > img,
+.root__color_ghost:hover
+  .slotTargetLabel__color_ghost
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_ghost:hover
+  .slotTargetLabel__color_ghost
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__color_ghost:hover
+  .slotTargetLabel__color_ghost
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .root__state_selected:hover .slotTargetLabel__state_selected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
+.root__state_selected:hover .slotTargetLabel__state_selected * {
+  transform-style: preserve-3d;
+}
+.root__state_selected:hover .slotTargetLabel__state_selected > *,
+.root__state_selected:hover .slotTargetLabel__state_selected > .__wab_slot > *,
+.root__state_selected:hover
+  .slotTargetLabel__state_selected
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__state_selected:hover
+  .slotTargetLabel__state_selected
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__state_selected:hover .slotTargetLabel__state_selected > picture > img,
+.root__state_selected:hover
+  .slotTargetLabel__state_selected
+  > .__wab_slot
+  > picture
+  > img,
+.root__state_selected:hover
+  .slotTargetLabel__state_selected
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__state_selected:hover
+  .slotTargetLabel__state_selected
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .root__state_disabled:hover .slotTargetLabel__state_disabled {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+}
+.root__state_disabled:hover .slotTargetLabel__state_disabled * {
+  transform-style: preserve-3d;
+}
+.root__state_disabled:hover .slotTargetLabel__state_disabled > *,
+.root__state_disabled:hover .slotTargetLabel__state_disabled > .__wab_slot > *,
+.root__state_disabled:hover
+  .slotTargetLabel__state_disabled
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__state_disabled:hover
+  .slotTargetLabel__state_disabled
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__state_disabled:hover .slotTargetLabel__state_disabled > picture > img,
+.root__state_disabled:hover
+  .slotTargetLabel__state_disabled
+  > .__wab_slot
+  > picture
+  > img,
+.root__state_disabled:hover
+  .slotTargetLabel__state_disabled
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root__state_disabled:hover
+  .slotTargetLabel__state_disabled
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__keyMw {
+  transform-style: preserve-3d;
+}
+.text__keyMw * {
+  transform-style: preserve-3d;
 }

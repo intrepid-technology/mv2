@@ -4,6 +4,42 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+.root__selected_about {
+  transform-style: preserve-3d;
+}
+.root__selected_about * {
+  transform-style: preserve-3d;
+}
+.root__selected_partners {
+  transform-style: preserve-3d;
+}
+.root__selected_partners * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -12,6 +48,7 @@
   height: 80px;
   overflow: hidden;
   padding-left: 160px;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
@@ -23,6 +60,9 @@
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.parent * {
+  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -39,62 +79,370 @@
     overflow: visible;
     border-bottom-width: 2px;
     border-bottom-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
+    transform-style: preserve-3d;
     border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent * {
+    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .parent {
     padding-left: 24px;
     overflow: visible;
+    transform-style: preserve-3d;
   }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .parent * {
+    transform-style: preserve-3d;
+  }
+}
+.parent__selected_about {
+  transform-style: preserve-3d;
+}
+.parent__selected_about * {
+  transform-style: preserve-3d;
+}
+.parent__selected_partners {
+  transform-style: preserve-3d;
+}
+.parent__selected_partners * {
+  transform-style: preserve-3d;
 }
 .navLink:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.navLink * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_about:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_about * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_partners:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_partners * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_listings * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_packages:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_packages * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_performance * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_views:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_views * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_reacts:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_reacts * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_saves:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_saves * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_team * {
+  transform-style: preserve-3d;
+}
+.navLink__selected_members:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink__selected_members * {
+  transform-style: preserve-3d;
+}
+.text__ie8Uy {
+  transform-style: preserve-3d;
+}
+.text__ie8Uy * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter___6WKoC:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter___6WKoC * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .navLinkCounter___6WKoC:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .navLinkCounter___6WKoC * {
+    transform-style: preserve-3d;
+  }
+}
+.navLinkCounter__selected_listings___6WKoCatZ1V:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_listings___6WKoCatZ1V * {
+  transform-style: preserve-3d;
+}
+.text___2UnRd {
+  transform-style: preserve-3d;
+}
+.text___2UnRd * {
+  transform-style: preserve-3d;
+}
+.text__jrRg7 {
+  transform-style: preserve-3d;
+}
+.text__jrRg7 * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__tx7Dj:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__tx7Dj * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_packages__tx7DjkVsPo:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_packages__tx7DjkVsPo * {
+  transform-style: preserve-3d;
+}
+.text___0XusY {
+  transform-style: preserve-3d;
+}
+.text___0XusY * {
+  transform-style: preserve-3d;
+}
+.text___9H3D {
+  transform-style: preserve-3d;
+}
+.text___9H3D * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__lRhK:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__lRhK * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_performance__lRhKjT9Zy:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_performance__lRhKjT9Zy * {
+  transform-style: preserve-3d;
+}
+.text__wvD8S {
+  transform-style: preserve-3d;
+}
+.text__wvD8S * {
+  transform-style: preserve-3d;
+}
+.text__kis5K {
+  transform-style: preserve-3d;
+}
+.text__kis5K * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter___4GqA:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter___4GqA * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_views___4GqA1AbJk:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_views___4GqA1AbJk * {
+  transform-style: preserve-3d;
+}
+.text__qvUl {
+  transform-style: preserve-3d;
+}
+.text__qvUl * {
+  transform-style: preserve-3d;
+}
+.text__aoWox {
+  transform-style: preserve-3d;
+}
+.text__aoWox * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__jlu83:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__jlu83 * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_reacts__jlu83A9KXd:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_reacts__jlu83A9KXd * {
+  transform-style: preserve-3d;
+}
+.text__klmgM {
+  transform-style: preserve-3d;
+}
+.text__klmgM * {
+  transform-style: preserve-3d;
+}
+.text__selected_reacts__klmgMa9KXd {
+  transform-style: preserve-3d;
+}
+.text__selected_reacts__klmgMa9KXd * {
+  transform-style: preserve-3d;
+}
+.text__jWdfo {
+  transform-style: preserve-3d;
+}
+.text__jWdfo * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__jsKxc:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__jsKxc * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_saves__jsKxcioQd7:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_saves__jsKxcioQd7 * {
+  transform-style: preserve-3d;
+}
+.text__dzDt0 {
+  transform-style: preserve-3d;
+}
+.text__dzDt0 * {
+  transform-style: preserve-3d;
+}
+.text___22Il8 {
+  transform-style: preserve-3d;
+}
+.text___22Il8 * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__dp0Z5:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__dp0Z5 * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_team__dp0Z5WIx2:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_team__dp0Z5WIx2 * {
+  transform-style: preserve-3d;
+}
+.text__hfymG {
+  transform-style: preserve-3d;
+}
+.text__hfymG * {
+  transform-style: preserve-3d;
+}
+.text__rQbzo {
+  transform-style: preserve-3d;
+}
+.text__rQbzo * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__bsu8U:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__bsu8U * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_members__bsu8UEaYwc:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_members__bsu8UEaYwc * {
+  transform-style: preserve-3d;
+}
+.text___9B3Uu {
+  transform-style: preserve-3d;
+}
+.text___9B3Uu * {
+  transform-style: preserve-3d;
+}
+.text___32Gd5 {
+  transform-style: preserve-3d;
+}
+.text___32Gd5 * {
+  transform-style: preserve-3d;
 }
 .navLinkCounter__d1Mk9:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.navLinkCounter__d1Mk9 * {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_partners__d1Mk9PzLrn:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLinkCounter__selected_partners__d1Mk9PzLrn * {
+  transform-style: preserve-3d;
+}
+.text__y7KR {
+  transform-style: preserve-3d;
+}
+.text__y7KR * {
+  transform-style: preserve-3d;
+}
+.text__l3Mop {
+  transform-style: preserve-3d;
+}
+.text__l3Mop * {
+  transform-style: preserve-3d;
 }

@@ -4,20 +4,56 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
   border-width: 1px;
   border-style: none;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+.root__size__16 {
+  transform-style: preserve-3d;
+}
+.root__size__16 * {
+  transform-style: preserve-3d;
+}
+.root__size__24 {
+  transform-style: preserve-3d;
+}
+.root__size__24 * {
+  transform-style: preserve-3d;
+}
+.root__size__32 {
+  transform-style: preserve-3d;
+}
+.root__size__32 * {
+  transform-style: preserve-3d;
+}
+.root__size__48 {
+  transform-style: preserve-3d;
+}
+.root__size__48 * {
+  transform-style: preserve-3d;
 }
 .root__alignment_left {
   justify-content: center;
   align-items: flex-start;
   align-content: unset;
   padding-left: 0px;
+  transform-style: preserve-3d;
+}
+.root__alignment_left * {
+  transform-style: preserve-3d;
 }
 .root__alignment_right {
   justify-content: center;
   align-items: flex-end;
   align-content: unset;
   padding-right: 0px;
+  transform-style: preserve-3d;
+}
+.root__alignment_right * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -27,18 +63,54 @@
   width: auto;
   height: auto;
   align-content: unset;
+  transform-style: preserve-3d;
   padding: 2px 6px;
   border-width: 1px;
   border-style: none;
+}
+.parent * {
+  transform-style: preserve-3d;
+}
+.parent__size__16 {
+  transform-style: preserve-3d;
+}
+.parent__size__16 * {
+  transform-style: preserve-3d;
+}
+.parent__size__24 {
+  transform-style: preserve-3d;
+}
+.parent__size__24 * {
+  transform-style: preserve-3d;
+}
+.parent__size__32 {
+  transform-style: preserve-3d;
+}
+.parent__size__32 * {
+  transform-style: preserve-3d;
+}
+.parent__size__48 {
+  transform-style: preserve-3d;
+}
+.parent__size__48 * {
+  transform-style: preserve-3d;
 }
 .parent__alignment_left {
   justify-content: center;
   align-items: flex-start;
   align-content: unset;
   padding-left: 0px;
+  transform-style: preserve-3d;
+}
+.parent__alignment_left * {
+  transform-style: preserve-3d;
 }
 .parent__alignment_right {
   padding-right: 0px;
+  transform-style: preserve-3d;
+}
+.parent__alignment_right * {
+  transform-style: preserve-3d;
 }
 .svgBackground {
   display: flex;
@@ -47,20 +119,54 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
   border-radius: 100%;
   padding: 2px;
 }
+.svgBackground * {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__16 {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__16 * {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__24 {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__24 * {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__32 {
+  transform-style: preserve-3d;
+}
+.svgBackground__size__32 * {
+  transform-style: preserve-3d;
+}
 .svgBackground__size__48 {
+  transform-style: preserve-3d;
   padding: 4px;
+}
+.svgBackground__size__48 * {
+  transform-style: preserve-3d;
 }
 .svgBackground__alignment_left {
   padding-left: 0px;
   justify-content: center;
   align-items: flex-start;
   align-content: unset;
+  transform-style: preserve-3d;
+}
+.svgBackground__alignment_left * {
+  transform-style: preserve-3d;
 }
 .svgBackground__alignment_right {
   padding-right: 0px;
+  transform-style: preserve-3d;
+}
+.svgBackground__alignment_right * {
+  transform-style: preserve-3d;
 }
 .svgParent {
   display: flex;
@@ -69,36 +175,112 @@
   justify-content: flex-start;
   width: 28px;
   height: 28px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent * {
+  transform-style: preserve-3d;
 }
 .svgParent__size__16 {
   width: 12px;
   height: 12px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__size__16 * {
+  transform-style: preserve-3d;
 }
 .svgParent__size__24 {
   width: 20px;
   height: 20px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__size__24 * {
+  transform-style: preserve-3d;
+}
+.svgParent__size__32 {
+  transform-style: preserve-3d;
+}
+.svgParent__size__32 * {
+  transform-style: preserve-3d;
 }
 .svgParent__size__48 {
   width: 40px;
   height: 40px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__size__48 * {
+  transform-style: preserve-3d;
 }
 .svgParent__alignment_left {
   justify-content: center;
   align-items: flex-start;
   align-content: unset;
+  transform-style: preserve-3d;
+}
+.svgParent__alignment_left * {
+  transform-style: preserve-3d;
 }
 .svg {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg * {
+  transform-style: preserve-3d;
+}
+.svg__type_increment {
+  transform-style: preserve-3d;
+}
+.svg__type_increment * {
+  transform-style: preserve-3d;
+}
+.svg__type_decrement {
+  transform-style: preserve-3d;
+}
+.svg__type_decrement * {
+  transform-style: preserve-3d;
+}
+.svg__size__16 {
+  transform-style: preserve-3d;
+}
+.svg__size__16 * {
+  transform-style: preserve-3d;
+}
+.svg__size__18 {
+  transform-style: preserve-3d;
+}
+.svg__size__18 * {
+  transform-style: preserve-3d;
+}
+.svg__size__32 {
+  transform-style: preserve-3d;
+}
+.svg__size__32 * {
+  transform-style: preserve-3d;
+}
+.svg__size__48 {
+  transform-style: preserve-3d;
+}
+.svg__size__48 * {
+  transform-style: preserve-3d;
+}
+.svg__alignment_left {
+  transform-style: preserve-3d;
+}
+.svg__alignment_left * {
+  transform-style: preserve-3d;
+}
 .root:hover .svg {
   color: #14161b /* plasmic-token: ZGkVH5KID */;
+  transform-style: preserve-3d;
+}
+.root:hover .svg * {
+  transform-style: preserve-3d;
 }

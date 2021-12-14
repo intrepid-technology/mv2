@@ -4,6 +4,7 @@
   width: auto;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,36 +13,185 @@
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 20px;
 }
+.root__closed {
+  transform-style: preserve-3d;
+}
+.root__closed * {
+  transform-style: preserve-3d;
+}
+.root__visible_stripe {
+  transform-style: preserve-3d;
+}
+.root__visible_stripe * {
+  transform-style: preserve-3d;
+}
+.root__visible_paypal {
+  transform-style: preserve-3d;
+}
+.root__visible_paypal * {
+  transform-style: preserve-3d;
+}
 .connectedPayoutAccount:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.connectedPayoutAccount * {
+  transform-style: preserve-3d;
+}
+.connectedPayoutAccount__visible_stripe:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedPayoutAccount__visible_stripe * {
+  transform-style: preserve-3d;
+}
+.connectedPayoutAccount__visible_paypal:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedPayoutAccount__visible_paypal * {
+  transform-style: preserve-3d;
+}
+.text__cZs2 {
+  transform-style: preserve-3d;
+}
+.text__cZs2 * {
+  transform-style: preserve-3d;
+}
+.text__tbUl8 {
+  transform-style: preserve-3d;
+}
+.text__tbUl8 * {
+  transform-style: preserve-3d;
+}
+.text__j2TXq {
+  transform-style: preserve-3d;
+}
+.text__j2TXq * {
+  transform-style: preserve-3d;
 }
 .connectedStripe:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.connectedStripe * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .connectedStripe:global(.__wab_instance) {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .connectedStripe * {
+    transform-style: preserve-3d;
+  }
+}
+.connectedStripe__closed:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedStripe__closed * {
+  transform-style: preserve-3d;
+}
+.connectedStripe__visible_stripe:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedStripe__visible_stripe * {
+  transform-style: preserve-3d;
+}
+.connectedStripe__visible_paypal:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedStripe__visible_paypal * {
+  transform-style: preserve-3d;
+}
+.text__gFgnG {
+  transform-style: preserve-3d;
+}
+.text__gFgnG * {
+  transform-style: preserve-3d;
 }
 .text__jJiBu {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__jJiBu * {
+  transform-style: preserve-3d;
 }
 .text__okVi8 {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__okVi8 * {
+  transform-style: preserve-3d;
+}
+.text__g5QF8 {
+  transform-style: preserve-3d;
+}
+.text__g5QF8 * {
+  transform-style: preserve-3d;
 }
 .connectedPaypal:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.connectedPaypal * {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__closed:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__closed * {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__visible_stripe:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__visible_stripe * {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__visible_paypal:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.connectedPaypal__visible_paypal * {
+  transform-style: preserve-3d;
+}
+.text__eeAdk {
+  transform-style: preserve-3d;
+}
+.text__eeAdk * {
+  transform-style: preserve-3d;
 }
 .text___0GTCk {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text___0GTCk * {
+  transform-style: preserve-3d;
 }
 .text__jftdj {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.text__jftdj * {
+  transform-style: preserve-3d;
+}
+.text__tL7KP {
+  transform-style: preserve-3d;
+}
+.text__tL7KP * {
+  transform-style: preserve-3d;
 }

@@ -6,6 +6,10 @@
   height: auto;
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .text {
   position: relative;
@@ -13,5 +17,9 @@
   height: auto;
   max-width: 800px;
   font-size: 32px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.text * {
+  transform-style: preserve-3d;
 }

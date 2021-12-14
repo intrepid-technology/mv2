@@ -4756,6 +4756,19 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicLandingPageBackup.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "GHyutJMpWs",
+          "name": "MemberPricingComponent",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMemberPricingComponent.jsx",
+          "importSpec": {
+            "modulePath": "MemberPricingComponent.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMemberPricingComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

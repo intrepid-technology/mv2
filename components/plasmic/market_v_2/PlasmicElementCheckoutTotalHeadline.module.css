@@ -6,6 +6,10 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -16,6 +20,7 @@
   left: auto;
   top: auto;
   padding-left: 0px;
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -23,6 +28,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -43,7 +51,11 @@
   font-weight: 700;
   width: 80px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .currencyTotalValueParent {
   display: flex;
@@ -54,6 +66,7 @@
   left: auto;
   top: auto;
   padding-left: 4px;
+  transform-style: preserve-3d;
 }
 .currencyTotalValueParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -61,6 +74,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
+}
+.currencyTotalValueParent * {
+  transform-style: preserve-3d;
 }
 .currencyTotalValueParent > :global(.__wab_flex-container) > *,
 .currencyTotalValueParent
@@ -80,12 +96,35 @@
   position: relative;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.currencyParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetCurrency {
   font-size: 18px;
   font-weight: 700;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
+}
+.slotTargetCurrency * {
+  transform-style: preserve-3d;
+}
+.slotTargetCurrency > *,
+.slotTargetCurrency > .__wab_slot > *,
+.slotTargetCurrency > .__wab_slot > .__wab_slot > *,
+.slotTargetCurrency > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetCurrency > picture > img,
+.slotTargetCurrency > .__wab_slot > picture > img,
+.slotTargetCurrency > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetCurrency > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text___4F6Cd {
+  transform-style: preserve-3d;
+}
+.text___4F6Cd * {
+  transform-style: preserve-3d;
 }
 .totalValueNumberParent {
   display: flex;
@@ -95,6 +134,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.totalValueNumberParent * {
+  transform-style: preserve-3d;
 }
 .totalValueNumber {
   font-size: 18px;
@@ -103,4 +146,8 @@
   height: auto;
   font-weight: 700;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.totalValueNumber * {
+  transform-style: preserve-3d;
 }

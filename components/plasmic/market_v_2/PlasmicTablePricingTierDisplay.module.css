@@ -5,6 +5,7 @@
   height: auto;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px 8px 8px;
   border-bottom: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -16,6 +17,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,6 +35,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .headlineIconSubhead > :global(.__wab_flex-container) {
@@ -40,6 +45,9 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.headlineIconSubhead * {
+  transform-style: preserve-3d;
 }
 .headlineIconSubhead > :global(.__wab_flex-container) > *,
 .headlineIconSubhead
@@ -63,17 +71,29 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
+}
+.headlineIconParent * {
+  transform-style: preserve-3d;
 }
 .freeBox__wGati {
   display: flex;
   flex-direction: row;
+  transform-style: preserve-3d;
+}
+.freeBox__wGati * {
+  transform-style: preserve-3d;
 }
 .freeBox__thM8M {
   display: flex;
   align-self: stretch;
   position: relative;
+  transform-style: preserve-3d;
+}
+.freeBox__thM8M * {
+  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 40px;
@@ -83,18 +103,49 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
+.slotTargetChildren * {
+  transform-style: preserve-3d;
+}
+.slotTargetChildren > *,
+.slotTargetChildren > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > picture > img,
+.slotTargetChildren > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__gWsTk {
+  transform-style: preserve-3d;
+}
+.text__gWsTk * {
+  transform-style: preserve-3d;
+}
 .accordionTriggerChevron:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.accordionTriggerChevron * {
+  transform-style: preserve-3d;
 }
 .svg__hIgU {
   object-fit: cover;
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
+}
+.svg__hIgU * {
+  transform-style: preserve-3d;
 }
 .svg__tTFuz {
   object-fit: cover;
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
+}
+.svg__tTFuz * {
+  transform-style: preserve-3d;
 }
 .freeBox__mywRc {
   position: relative;
@@ -103,14 +154,22 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
+}
+.freeBox__mywRc * {
+  transform-style: preserve-3d;
 }
 .freeBox__zoMYs {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
+  transform-style: preserve-3d;
+}
+.freeBox__zoMYs * {
+  transform-style: preserve-3d;
 }
 .slotTargetSlot2 {
   font-size: 18px;
@@ -120,6 +179,25 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
+.slotTargetSlot2 * {
+  transform-style: preserve-3d;
+}
+.slotTargetSlot2 > *,
+.slotTargetSlot2 > .__wab_slot > *,
+.slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot2 > picture > img,
+.slotTargetSlot2 > .__wab_slot > picture > img,
+.slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__gWJr1 {
+  transform-style: preserve-3d;
+}
+.text__gWJr1 * {
+  transform-style: preserve-3d;
+}
 .descriptionText {
   position: relative;
   left: auto;
@@ -128,10 +206,33 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px 8px 8px 0px;
+}
+.descriptionText * {
+  transform-style: preserve-3d;
 }
 .slotTargetSlot {
   line-height: 1.2;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.slotTargetSlot * {
+  transform-style: preserve-3d;
+}
+.slotTargetSlot > *,
+.slotTargetSlot > .__wab_slot > *,
+.slotTargetSlot > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot > picture > img,
+.slotTargetSlot > .__wab_slot > picture > img,
+.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__pk5D {
+  transform-style: preserve-3d;
+}
+.text__pk5D * {
+  transform-style: preserve-3d;
 }

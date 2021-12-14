@@ -6,6 +6,10 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -15,33 +19,61 @@
   width: 90px;
   height: 32px;
   background: #ffffff;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
+.parent * {
+  transform-style: preserve-3d;
+}
 .parent__width__90 {
   width: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__90 * {
+  transform-style: preserve-3d;
 }
 .parent__width__180 {
   width: 180px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__180 * {
+  transform-style: preserve-3d;
 }
 .parent__width__270 {
   width: 270px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__270 * {
+  transform-style: preserve-3d;
 }
 .parent__width__360 {
   width: 360px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__360 * {
+  transform-style: preserve-3d;
 }
 .parent__width__540 {
   width: 540px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__540 * {
+  transform-style: preserve-3d;
 }
 .parent__width__720 {
   width: 720px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__720 * {
+  transform-style: preserve-3d;
 }
 .prefixParent {
   display: flex;
@@ -54,19 +86,31 @@
   width: 28px;
   height: 28px;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 4px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.prefixParent * {
+  transform-style: preserve-3d;
+}
 .prefixParent__prefix {
+  transform-style: preserve-3d;
   display: none;
+}
+.prefixParent__prefix * {
+  transform-style: preserve-3d;
 }
 .svg__wok5V {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__wok5V * {
+  transform-style: preserve-3d;
 }
 .textInput {
   position: relative;
@@ -75,9 +119,19 @@
   top: auto;
   height: 100%;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+}
+.textInput * {
+  transform-style: preserve-3d;
+}
+.textInput__prefix {
+  transform-style: preserve-3d;
+}
+.textInput__prefix * {
+  transform-style: preserve-3d;
 }
 .suffixParent {
   display: flex;
@@ -90,17 +144,29 @@
   width: 28px;
   height: 28px;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 4px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.suffixParent * {
+  transform-style: preserve-3d;
+}
 .suffixParent__suffix {
+  transform-style: preserve-3d;
   display: none;
+}
+.suffixParent__suffix * {
+  transform-style: preserve-3d;
 }
 .svg___1W2Uv {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg___1W2Uv * {
+  transform-style: preserve-3d;
 }

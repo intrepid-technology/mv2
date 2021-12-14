@@ -6,6 +6,10 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .unitItemInterval {
   display: flex;
@@ -16,6 +20,7 @@
   left: auto;
   top: auto;
   padding-left: 0px;
+  transform-style: preserve-3d;
 }
 .unitItemInterval > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -23,6 +28,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.unitItemInterval * {
+  transform-style: preserve-3d;
 }
 .unitItemInterval > :global(.__wab_flex-container) > *,
 .unitItemInterval > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -42,6 +50,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.unitNumberbackgroundParent * {
+  transform-style: preserve-3d;
 }
 .unitNumberBackground {
   display: flex;
@@ -50,16 +62,24 @@
   align-items: stretch;
   justify-content: flex-start;
   background: #f1f1f1;
+  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 2px;
+}
+.unitNumberBackground * {
+  transform-style: preserve-3d;
 }
 .unitNumberParent {
   width: 100%;
   display: flex;
   flex-direction: column;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 2px;
   padding: 0px;
+}
+.unitNumberParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetUnitNumber {
   font-size: 14px;
@@ -67,16 +87,63 @@
   text-align: left;
   line-height: 1;
 }
+.slotTargetUnitNumber * {
+  transform-style: preserve-3d;
+}
+.slotTargetUnitNumber > *,
+.slotTargetUnitNumber > .__wab_slot > *,
+.slotTargetUnitNumber > .__wab_slot > .__wab_slot > *,
+.slotTargetUnitNumber > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetUnitNumber > picture > img,
+.slotTargetUnitNumber > .__wab_slot > picture > img,
+.slotTargetUnitNumber > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetUnitNumber
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__tb1ZS {
+  transform-style: preserve-3d;
+}
+.text__tb1ZS * {
+  transform-style: preserve-3d;
+}
 .unitTextbackground {
   display: flex;
   position: relative;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.unitTextbackground * {
+  transform-style: preserve-3d;
 }
 .slotTargetUnitText {
   font-size: 14px;
   text-align: left;
   line-height: 1;
+}
+.slotTargetUnitText * {
+  transform-style: preserve-3d;
+}
+.slotTargetUnitText > *,
+.slotTargetUnitText > .__wab_slot > *,
+.slotTargetUnitText > .__wab_slot > .__wab_slot > *,
+.slotTargetUnitText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetUnitText > picture > img,
+.slotTargetUnitText > .__wab_slot > picture > img,
+.slotTargetUnitText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetUnitText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__bx90 {
+  transform-style: preserve-3d;
+}
+.text__bx90 * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -86,12 +153,20 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .text {
   font-size: 14px;
   text-align: left;
   width: auto;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .timeIntervalBackgroundParent {
   display: flex;
@@ -101,6 +176,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.timeIntervalBackgroundParent * {
+  transform-style: preserve-3d;
 }
 .timeIntervalBackground {
   display: flex;
@@ -108,8 +187,12 @@
   align-items: stretch;
   justify-content: flex-start;
   background: #f1f1f1;
+  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 2px;
+}
+.timeIntervalBackground * {
+  transform-style: preserve-3d;
 }
 .timeIntervalTextParent {
   width: auto;
@@ -117,13 +200,41 @@
   align-self: auto;
   display: flex;
   flex-direction: column;
+  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 0px;
+}
+.timeIntervalTextParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetTimeIntervalText {
   font-size: 14px;
   text-align: left;
   line-height: 1;
+}
+.slotTargetTimeIntervalText * {
+  transform-style: preserve-3d;
+}
+.slotTargetTimeIntervalText > *,
+.slotTargetTimeIntervalText > .__wab_slot > *,
+.slotTargetTimeIntervalText > .__wab_slot > .__wab_slot > *,
+.slotTargetTimeIntervalText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetTimeIntervalText > picture > img,
+.slotTargetTimeIntervalText > .__wab_slot > picture > img,
+.slotTargetTimeIntervalText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetTimeIntervalText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text___4DzVh {
+  transform-style: preserve-3d;
+}
+.text___4DzVh * {
+  transform-style: preserve-3d;
 }
 .currencyTotalValueNumberParent {
   display: flex;
@@ -134,6 +245,7 @@
   left: auto;
   top: auto;
   padding-left: 4px;
+  transform-style: preserve-3d;
 }
 .currencyTotalValueNumberParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -141,6 +253,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
+}
+.currencyTotalValueNumberParent * {
+  transform-style: preserve-3d;
 }
 .currencyTotalValueNumberParent > :global(.__wab_flex-container) > *,
 .currencyTotalValueNumberParent
@@ -163,18 +278,74 @@
   position: relative;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.currencySymbolParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetCurrencySymbol {
   font-size: 14px;
   text-align: left;
+}
+.slotTargetCurrencySymbol * {
+  transform-style: preserve-3d;
+}
+.slotTargetCurrencySymbol > *,
+.slotTargetCurrencySymbol > .__wab_slot > *,
+.slotTargetCurrencySymbol > .__wab_slot > .__wab_slot > *,
+.slotTargetCurrencySymbol > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetCurrencySymbol > picture > img,
+.slotTargetCurrencySymbol > .__wab_slot > picture > img,
+.slotTargetCurrencySymbol > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetCurrencySymbol
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__mwu0A {
+  transform-style: preserve-3d;
+}
+.text__mwu0A * {
+  transform-style: preserve-3d;
 }
 .totalValueNumberParent {
   display: flex;
   position: relative;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.totalValueNumberParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetTotalValueNumber {
   font-size: 14px;
   text-align: left;
+}
+.slotTargetTotalValueNumber * {
+  transform-style: preserve-3d;
+}
+.slotTargetTotalValueNumber > *,
+.slotTargetTotalValueNumber > .__wab_slot > *,
+.slotTargetTotalValueNumber > .__wab_slot > .__wab_slot > *,
+.slotTargetTotalValueNumber > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetTotalValueNumber > picture > img,
+.slotTargetTotalValueNumber > .__wab_slot > picture > img,
+.slotTargetTotalValueNumber > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetTotalValueNumber
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__lwVsE {
+  transform-style: preserve-3d;
+}
+.text__lwVsE * {
+  transform-style: preserve-3d;
 }

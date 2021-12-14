@@ -4,6 +4,7 @@
   position: relative;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -11,6 +12,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -20,7 +24,27 @@
 }
 .checkboxInput__pUnr:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.checkboxInput__pUnr * {
+  transform-style: preserve-3d;
+}
+.text___4Ty5R {
+  transform-style: preserve-3d;
+}
+.text___4Ty5R * {
+  transform-style: preserve-3d;
 }
 .checkboxInput__hiYok:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.checkboxInput__hiYok * {
+  transform-style: preserve-3d;
+}
+.text__keTMb {
+  transform-style: preserve-3d;
+}
+.text__keTMb * {
+  transform-style: preserve-3d;
 }

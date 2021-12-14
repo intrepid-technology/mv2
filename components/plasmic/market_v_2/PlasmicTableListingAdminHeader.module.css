@@ -5,6 +5,7 @@
   height: auto;
   position: relative;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .root > :global(.__wab_flex-container) {
@@ -14,11 +15,24 @@
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 8px;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
 }
 .listingHeadlineSelectAllParent {
   display: flex;
@@ -28,6 +42,7 @@
   height: 24px;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
 }
 .listingHeadlineSelectAllParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -35,6 +50,9 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.listingHeadlineSelectAllParent * {
+  transform-style: preserve-3d;
 }
 .listingHeadlineSelectAllParent > :global(.__wab_flex-container) > *,
 .listingHeadlineSelectAllParent
@@ -55,6 +73,10 @@
 .elementRadioPrimary:global(.__wab_instance) {
   position: relative;
   align-self: center;
+  transform-style: preserve-3d;
+}
+.elementRadioPrimary * {
+  transform-style: preserve-3d;
 }
 .listingParent {
   display: flex;
@@ -65,13 +87,31 @@
   top: auto;
   left: auto;
   width: 270px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.listingParent * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .listingParent {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .listingParent * {
+    transform-style: preserve-3d;
+  }
 }
 .text__apx7I {
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 600;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  transform-style: preserve-3d;
+}
+.text__apx7I * {
+  transform-style: preserve-3d;
 }
 .statusParent {
   display: flex;
@@ -82,17 +122,31 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.statusParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .statusParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .statusParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__l0Fer {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text__l0Fer * {
+  transform-style: preserve-3d;
 }
 .toDoParent {
   display: flex;
@@ -103,11 +157,21 @@
   top: auto;
   left: auto;
   width: 100px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.toDoParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .toDoParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .toDoParent * {
+    transform-style: preserve-3d;
   }
 }
 .text___1JXFg {
@@ -118,7 +182,21 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.text___1JXFg * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___1JXFg {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___1JXFg * {
+    transform-style: preserve-3d;
+  }
 }
 .modifiedDateParent {
   display: flex;
@@ -129,11 +207,21 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.modifiedDateParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .modifiedDateParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .modifiedDateParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__qCh1L {
@@ -144,6 +232,10 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
+  transform-style: preserve-3d;
+}
+.text__qCh1L * {
+  transform-style: preserve-3d;
 }
 .categoryParent {
   display: flex;
@@ -154,17 +246,31 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.categoryParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .categoryParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .categoryParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__mxLqA {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text__mxLqA * {
+  transform-style: preserve-3d;
 }
 .priceParent {
   display: flex;
@@ -175,17 +281,31 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.priceParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .priceParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .priceParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__l0YWm {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text__l0YWm * {
+  transform-style: preserve-3d;
 }
 .termParent {
   display: flex;
@@ -196,11 +316,21 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.termParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .termParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .termParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__ajruk {
@@ -210,6 +340,10 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
+  transform-style: preserve-3d;
+}
+.text__ajruk * {
+  transform-style: preserve-3d;
 }
 .expiryParent {
   display: flex;
@@ -220,17 +354,41 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.expiryParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .expiryParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .expiryParent * {
+    transform-style: preserve-3d;
   }
 }
 .text__fob07 {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text__fob07 * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__fob07 {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text__fob07 * {
+    transform-style: preserve-3d;
+  }
 }
 .renewParent {
   display: flex;
@@ -241,17 +399,41 @@
   top: auto;
   left: auto;
   width: 96px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.renewParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .renewParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .renewParent * {
+    transform-style: preserve-3d;
   }
 }
 .text___2RzSd {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text___2RzSd * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___2RzSd {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___2RzSd * {
+    transform-style: preserve-3d;
+  }
 }
 .cancelParent {
   display: flex;
@@ -262,15 +444,39 @@
   top: auto;
   left: auto;
   width: 64px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.cancelParent * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .cancelParent {
+    transform-style: preserve-3d;
     display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .cancelParent * {
+    transform-style: preserve-3d;
   }
 }
 .text___2FOl {
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
+  transform-style: preserve-3d;
+}
+.text___2FOl * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___2FOl {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .text___2FOl * {
+    transform-style: preserve-3d;
+  }
 }

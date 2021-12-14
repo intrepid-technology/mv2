@@ -4,6 +4,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 2px;
 }
@@ -13,11 +14,20 @@
   justify-content: flex-start;
   min-width: 0;
 }
+.root * {
+  transform-style: preserve-3d;
+}
+.root__showLabel {
+  transform-style: preserve-3d;
+}
 .root__showLabel > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.root__showLabel * {
+  transform-style: preserve-3d;
 }
 .root__showLabel > :global(.__wab_flex-container) > *,
 .root__showLabel > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -36,6 +46,22 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.labelWrapper * {
+  transform-style: preserve-3d;
+}
+.labelWrapper__showLabel {
+  transform-style: preserve-3d;
+}
+.labelWrapper__showLabel * {
+  transform-style: preserve-3d;
+}
+.text__qSoVh {
+  transform-style: preserve-3d;
+}
+.text__qSoVh * {
+  transform-style: preserve-3d;
 }
 .wrapper {
   display: flex;
@@ -44,17 +70,41 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 4px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.wrapper * {
+  transform-style: preserve-3d;
+}
+.wrapper__adornment_start {
+  transform-style: preserve-3d;
+}
+.wrapper__adornment_start * {
+  transform-style: preserve-3d;
+}
+.wrapper__adornment_end {
+  transform-style: preserve-3d;
+}
+.wrapper__adornment_end * {
+  transform-style: preserve-3d;
+}
 .root:hover .wrapper {
+  transform-style: preserve-3d;
   border-width: 2px;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
+.root:hover .wrapper * {
+  transform-style: preserve-3d;
+}
 .root:focus-within .wrapper {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.root:focus-within .wrapper * {
+  transform-style: preserve-3d;
 }
 .startAdornmentWrapper {
   display: flex;
@@ -62,6 +112,10 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.startAdornmentWrapper * {
+  transform-style: preserve-3d;
 }
 .startAdornmentWrapper__adornment_start {
   width: auto;
@@ -74,14 +128,104 @@
   align-items: center;
   display: flex;
   flex-row-gap: 0px;
+  transform-style: preserve-3d;
   padding: 2px 8px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.startAdornmentWrapper__adornment_start * {
+  transform-style: preserve-3d;
+}
+.startAdornmentWrapper__adornment_end {
+  transform-style: preserve-3d;
+}
+.startAdornmentWrapper__adornment_end * {
+  transform-style: preserve-3d;
+}
 .startAdornmentWrapper__type_secondary_adornment_start {
   background: #f8f8f8;
+  transform-style: preserve-3d;
+}
+.startAdornmentWrapper__type_secondary_adornment_start * {
+  transform-style: preserve-3d;
+}
+.slotTargetStartAdornment * {
+  transform-style: preserve-3d;
+}
+.slotTargetStartAdornment > *,
+.slotTargetStartAdornment > .__wab_slot > *,
+.slotTargetStartAdornment > .__wab_slot > .__wab_slot > *,
+.slotTargetStartAdornment > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetStartAdornment > picture > img,
+.slotTargetStartAdornment > .__wab_slot > picture > img,
+.slotTargetStartAdornment > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetStartAdornment
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .slotTargetStartAdornment__adornment_start {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+}
+.slotTargetStartAdornment__adornment_start * {
+  transform-style: preserve-3d;
+}
+.slotTargetStartAdornment__adornment_start > *,
+.slotTargetStartAdornment__adornment_start > .__wab_slot > *,
+.slotTargetStartAdornment__adornment_start > .__wab_slot > .__wab_slot > *,
+.slotTargetStartAdornment__adornment_start
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetStartAdornment__adornment_start > picture > img,
+.slotTargetStartAdornment__adornment_start > .__wab_slot > picture > img,
+.slotTargetStartAdornment__adornment_start
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetStartAdornment__adornment_start
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetStartAdornment__adornment_end * {
+  transform-style: preserve-3d;
+}
+.slotTargetStartAdornment__adornment_end > *,
+.slotTargetStartAdornment__adornment_end > .__wab_slot > *,
+.slotTargetStartAdornment__adornment_end > .__wab_slot > .__wab_slot > *,
+.slotTargetStartAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetStartAdornment__adornment_end > picture > img,
+.slotTargetStartAdornment__adornment_end > .__wab_slot > picture > img,
+.slotTargetStartAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetStartAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__brRYu {
+  transform-style: preserve-3d;
+}
+.text__brRYu * {
+  transform-style: preserve-3d;
 }
 .inputWrapper {
   display: flex;
@@ -91,7 +235,11 @@
   justify-content: flex-start;
   width: 100%;
   min-height: 90px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.inputWrapper * {
+  transform-style: preserve-3d;
 }
 .textarea {
   position: relative;
@@ -99,6 +247,7 @@
   height: 100%;
   line-height: 1;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 2px;
@@ -106,11 +255,28 @@
   border-width: 1px;
   border-style: none;
 }
+.textarea * {
+  transform-style: preserve-3d;
+}
+.textarea__type_primary {
+  transform-style: preserve-3d;
+}
+.textarea__type_primary * {
+  transform-style: preserve-3d;
+}
 .textarea__type_secondary {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.textarea__type_secondary * {
+  transform-style: preserve-3d;
 }
 .root:focus-within .textarea {
+  transform-style: preserve-3d;
   outline: none;
+}
+.root:focus-within .textarea * {
+  transform-style: preserve-3d;
 }
 .endAdornmentWrapper {
   display: flex;
@@ -118,6 +284,10 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.endAdornmentWrapper * {
+  transform-style: preserve-3d;
 }
 .endAdornmentWrapper__adornment_end {
   flex-direction: column;
@@ -130,11 +300,69 @@
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   flex-column-gap: 0px;
+  transform-style: preserve-3d;
   padding: 2px 8px;
+}
+.endAdornmentWrapper__adornment_end * {
+  transform-style: preserve-3d;
 }
 .endAdornmentWrapper__adornment_end_type_secondary {
   background: #f8f8f8;
+  transform-style: preserve-3d;
+}
+.endAdornmentWrapper__adornment_end_type_secondary * {
+  transform-style: preserve-3d;
+}
+.slotTargetEndAdornment * {
+  transform-style: preserve-3d;
+}
+.slotTargetEndAdornment > *,
+.slotTargetEndAdornment > .__wab_slot > *,
+.slotTargetEndAdornment > .__wab_slot > .__wab_slot > *,
+.slotTargetEndAdornment > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetEndAdornment > picture > img,
+.slotTargetEndAdornment > .__wab_slot > picture > img,
+.slotTargetEndAdornment > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetEndAdornment
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
 }
 .slotTargetEndAdornment__adornment_end {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+}
+.slotTargetEndAdornment__adornment_end * {
+  transform-style: preserve-3d;
+}
+.slotTargetEndAdornment__adornment_end > *,
+.slotTargetEndAdornment__adornment_end > .__wab_slot > *,
+.slotTargetEndAdornment__adornment_end > .__wab_slot > .__wab_slot > *,
+.slotTargetEndAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetEndAdornment__adornment_end > picture > img,
+.slotTargetEndAdornment__adornment_end > .__wab_slot > picture > img,
+.slotTargetEndAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetEndAdornment__adornment_end
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__lz1PY {
+  transform-style: preserve-3d;
+}
+.text__lz1PY * {
+  transform-style: preserve-3d;
 }

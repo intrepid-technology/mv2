@@ -5,6 +5,7 @@
   height: 48px;
   position: relative;
   background: #101010;
+  transform-style: preserve-3d;
   padding: 8px 16px;
   border: 2px solid #101010 /* plasmic-token: F4gy0u3aB */;
 }
@@ -15,82 +16,164 @@
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
 .root__company_facebook {
   background: #4267b2;
+  transform-style: preserve-3d;
   border-style: solid;
   border-color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+}
+.root__company_facebook * {
+  transform-style: preserve-3d;
 }
 .root__width__120 {
   width: 120px;
   height: 32px;
+  transform-style: preserve-3d;
   padding: 4px;
+}
+.root__width__120 * {
+  transform-style: preserve-3d;
 }
 .root__width__140 {
   width: 140px;
   height: 32px;
+  transform-style: preserve-3d;
   padding: 6px;
+}
+.root__width__140 * {
+  transform-style: preserve-3d;
 }
 .root__width__160 {
   width: 160px;
+  transform-style: preserve-3d;
   padding: 6px;
+}
+.root__width__160 * {
+  transform-style: preserve-3d;
 }
 .root__width__180 {
   width: 180px;
+  transform-style: preserve-3d;
   padding: 8px;
+}
+.root__width__180 * {
+  transform-style: preserve-3d;
 }
 .root__width__270 {
   width: 270px;
+  transform-style: preserve-3d;
   padding: 8px;
+}
+.root__width__270 * {
+  transform-style: preserve-3d;
 }
 .root__width__360 {
   width: 360px;
+  transform-style: preserve-3d;
   padding: 8px;
+}
+.root__width__360 * {
+  transform-style: preserve-3d;
 }
 .root__height__32 {
   height: 32px;
+  transform-style: preserve-3d;
+}
+.root__height__32 * {
+  transform-style: preserve-3d;
 }
 .root__height__40 {
   height: 40px;
+  transform-style: preserve-3d;
+}
+.root__height__40 * {
+  transform-style: preserve-3d;
 }
 .root__height__48 {
   height: 48px;
+  transform-style: preserve-3d;
+}
+.root__height__48 * {
+  transform-style: preserve-3d;
 }
 .root__company_google {
   background: rgb(219, 68, 55);
+  transform-style: preserve-3d;
   border-color: #db4437 /* plasmic-token: pXhZGSe3B */;
+}
+.root__company_google * {
+  transform-style: preserve-3d;
 }
 .root__company_stripe {
   background: #7a72ff;
+  transform-style: preserve-3d;
   border-color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+}
+.root__company_stripe * {
+  transform-style: preserve-3d;
 }
 .root__company_paypal {
   background: #327aea;
+  transform-style: preserve-3d;
   border-color: #327aea /* plasmic-token: EfXZlpq-M */;
+}
+.root__company_paypal * {
+  transform-style: preserve-3d;
 }
 .root__company_xero {
   background: #13b5ea;
+  transform-style: preserve-3d;
   border-color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+}
+.root__company_xero * {
+  transform-style: preserve-3d;
 }
 .root__company_quickbooks {
   background: #2ca01c;
+  transform-style: preserve-3d;
   border-color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+}
+.root__company_quickbooks * {
+  transform-style: preserve-3d;
 }
 .root__originalSizes__320Px {
   width: 320px;
+  transform-style: preserve-3d;
+}
+.root__originalSizes__320Px * {
+  transform-style: preserve-3d;
 }
 .root__originalSizes__360X48 {
   width: 360px;
   height: 48px;
+  transform-style: preserve-3d;
+}
+.root__originalSizes__360X48 * {
+  transform-style: preserve-3d;
 }
 .root__width__90 {
   width: 90px;
   height: 32px;
+  transform-style: preserve-3d;
   padding: 2px;
 }
 .root__width__90 > :global(.__wab_flex-container) {
@@ -98,6 +181,9 @@
   width: calc(100% + 8px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.root__width__90 * {
+  transform-style: preserve-3d;
 }
 .root__width__90 > :global(.__wab_flex-container) > *,
 .root__width__90 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -110,25 +196,55 @@
   margin-left: 8px;
   margin-top: 0px;
 }
+.root__company_facebook_width__90 {
+  transform-style: preserve-3d;
+}
+.root__company_facebook_width__90 * {
+  transform-style: preserve-3d;
+}
 .root__company_facebook:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
   border-width: 2px;
+}
+.root__company_facebook:hover * {
+  transform-style: preserve-3d;
 }
 .root__company_google:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
   border: 2px solid #db4437 /* plasmic-token: pXhZGSe3B */;
+}
+.root__company_google:hover * {
+  transform-style: preserve-3d;
 }
 .root__company_stripe:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.root__company_stripe:hover * {
+  transform-style: preserve-3d;
 }
 .root__company_paypal:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.root__company_paypal:hover * {
+  transform-style: preserve-3d;
 }
 .root__company_xero:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.root__company_xero:hover * {
+  transform-style: preserve-3d;
 }
 .root__company_quickbooks:hover {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.root__company_quickbooks:hover * {
+  transform-style: preserve-3d;
 }
 .iconTextParent {
   display: flex;
@@ -138,6 +254,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .iconTextParent > :global(.__wab_flex-container) {
@@ -147,6 +264,9 @@
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
+}
+.iconTextParent * {
+  transform-style: preserve-3d;
 }
 .iconTextParent > :global(.__wab_flex-container) > *,
 .iconTextParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -158,11 +278,17 @@
   > img {
   margin-left: 16px;
 }
+.iconTextParent__width__120 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__120 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__120 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__120 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__120
@@ -178,11 +304,17 @@
   margin-left: 4px;
   margin-top: 0px;
 }
+.iconTextParent__width__140 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__140 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__140 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__140 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__140
@@ -198,11 +330,17 @@
   margin-left: 4px;
   margin-top: 0px;
 }
+.iconTextParent__width__160 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__160 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__160 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__160 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__160
@@ -218,11 +356,17 @@
   margin-left: 6px;
   margin-top: 0px;
 }
+.iconTextParent__width__180 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__180 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__180 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__180 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__180
@@ -238,11 +382,17 @@
   margin-left: 6px;
   margin-top: 0px;
 }
+.iconTextParent__width__270 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__270 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__270 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__270 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__270
@@ -258,11 +408,17 @@
   margin-left: 8px;
   margin-top: 0px;
 }
+.iconTextParent__width__360 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__360 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__360 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__360 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__360
@@ -278,11 +434,17 @@
   margin-left: 8px;
   margin-top: 0px;
 }
+.iconTextParent__width__90 {
+  transform-style: preserve-3d;
+}
 .iconTextParent__width__90 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
+}
+.iconTextParent__width__90 * {
+  transform-style: preserve-3d;
 }
 .iconTextParent__width__90 > :global(.__wab_flex-container) > *,
 .iconTextParent__width__90
@@ -304,22 +466,62 @@
   top: auto;
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent * {
+  transform-style: preserve-3d;
 }
 .svgParent__width__120 {
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__width__120 * {
+  transform-style: preserve-3d;
+}
+.svgParent__width__140 {
+  transform-style: preserve-3d;
+}
+.svgParent__width__140 * {
+  transform-style: preserve-3d;
+}
+.svgParent__width__160 {
+  transform-style: preserve-3d;
+}
+.svgParent__width__160 * {
+  transform-style: preserve-3d;
+}
+.svgParent__width__180 {
+  transform-style: preserve-3d;
+}
+.svgParent__width__180 * {
+  transform-style: preserve-3d;
+}
+.svgParent__width__270 {
+  transform-style: preserve-3d;
+}
+.svgParent__width__270 * {
+  transform-style: preserve-3d;
 }
 .svgParent__width__360 {
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__width__360 * {
+  transform-style: preserve-3d;
 }
 .svgParent__width__90 {
   width: 18px;
   height: 18px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svgParent__width__90 * {
+  transform-style: preserve-3d;
 }
 .svgBg {
   display: flex;
@@ -331,35 +533,127 @@
   left: 0px;
   width: 100%;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   padding: 2px;
+}
+.svgBg * {
+  transform-style: preserve-3d;
+}
+.svgBg__width__360 {
+  transform-style: preserve-3d;
+}
+.svgBg__width__360 * {
+  transform-style: preserve-3d;
+}
+.svgBg__width__90 {
+  transform-style: preserve-3d;
+}
+.svgBg__width__90 * {
+  transform-style: preserve-3d;
 }
 .svg {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.svg * {
+  transform-style: preserve-3d;
+}
+.svg__company_facebook {
+  transform-style: preserve-3d;
+}
+.svg__company_facebook * {
+  transform-style: preserve-3d;
+}
+.svg__width__120 {
+  transform-style: preserve-3d;
+}
+.svg__width__120 * {
+  transform-style: preserve-3d;
+}
+.svg__company_google {
+  transform-style: preserve-3d;
+}
+.svg__company_google * {
+  transform-style: preserve-3d;
+}
+.svg__company_stripe {
+  transform-style: preserve-3d;
+}
+.svg__company_stripe * {
+  transform-style: preserve-3d;
+}
+.svg__company_paypal {
+  transform-style: preserve-3d;
+}
+.svg__company_paypal * {
+  transform-style: preserve-3d;
+}
+.svg__company_xero {
+  transform-style: preserve-3d;
+}
+.svg__company_xero * {
+  transform-style: preserve-3d;
+}
+.svg__company_quickbooks {
+  transform-style: preserve-3d;
+}
+.svg__company_quickbooks * {
+  transform-style: preserve-3d;
+}
+.svg__width__90 {
+  transform-style: preserve-3d;
+}
+.svg__width__90 * {
+  transform-style: preserve-3d;
+}
 .root__company_facebook:hover .svg__company_facebook {
   color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+  transform-style: preserve-3d;
+}
+.root__company_facebook:hover .svg__company_facebook * {
+  transform-style: preserve-3d;
 }
 .root__company_google:hover .svg__company_google {
   color: #db4437 /* plasmic-token: pXhZGSe3B */;
+  transform-style: preserve-3d;
+}
+.root__company_google:hover .svg__company_google * {
+  transform-style: preserve-3d;
 }
 .root__company_stripe:hover .svg__company_stripe {
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  transform-style: preserve-3d;
+}
+.root__company_stripe:hover .svg__company_stripe * {
+  transform-style: preserve-3d;
 }
 .root__company_paypal:hover .svg__company_paypal {
   color: #327aea /* plasmic-token: EfXZlpq-M */;
+  transform-style: preserve-3d;
+}
+.root__company_paypal:hover .svg__company_paypal * {
+  transform-style: preserve-3d;
 }
 .root__company_xero:hover .svg__company_xero {
   color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+  transform-style: preserve-3d;
+}
+.root__company_xero:hover .svg__company_xero * {
+  transform-style: preserve-3d;
 }
 .root__company_quickbooks:hover .svg__company_quickbooks {
   color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+  transform-style: preserve-3d;
+}
+.root__company_quickbooks:hover .svg__company_quickbooks * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -368,8 +662,60 @@
   justify-content: center;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
+}
+.freeBox * {
+  transform-style: preserve-3d;
+}
+.freeBox__company_facebook {
+  transform-style: preserve-3d;
+}
+.freeBox__company_facebook * {
+  transform-style: preserve-3d;
+}
+.freeBox__width__120 {
+  transform-style: preserve-3d;
+}
+.freeBox__width__120 * {
+  transform-style: preserve-3d;
+}
+.freeBox__company_google {
+  transform-style: preserve-3d;
+}
+.freeBox__company_google * {
+  transform-style: preserve-3d;
+}
+.freeBox__company_stripe {
+  transform-style: preserve-3d;
+}
+.freeBox__company_stripe * {
+  transform-style: preserve-3d;
+}
+.freeBox__company_paypal {
+  transform-style: preserve-3d;
+}
+.freeBox__company_paypal * {
+  transform-style: preserve-3d;
+}
+.freeBox__company_xero {
+  transform-style: preserve-3d;
+}
+.freeBox__company_xero * {
+  transform-style: preserve-3d;
+}
+.freeBox__originalSizes__320Px {
+  transform-style: preserve-3d;
+}
+.freeBox__originalSizes__320Px * {
+  transform-style: preserve-3d;
+}
+.freeBox__width__90 {
+  transform-style: preserve-3d;
+}
+.freeBox__width__90 * {
+  transform-style: preserve-3d;
 }
 .text {
   position: relative;
@@ -378,126 +724,422 @@
   width: auto;
   height: auto;
   line-height: 1;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text * {
+    transform-style: preserve-3d;
+  }
+}
+.text__company_facebook {
+  transform-style: preserve-3d;
+}
+.text__company_facebook * {
+  transform-style: preserve-3d;
 }
 .text__width__120 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__width__120 * {
+  transform-style: preserve-3d;
 }
 .text__width__140 {
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__width__140 * {
+  transform-style: preserve-3d;
+}
+.text__width__160 {
+  transform-style: preserve-3d;
+}
+.text__width__160 * {
+  transform-style: preserve-3d;
+}
+.text__width__180 {
+  transform-style: preserve-3d;
+}
+.text__width__180 * {
+  transform-style: preserve-3d;
+}
+.text__width__270 {
+  transform-style: preserve-3d;
+}
+.text__width__270 * {
+  transform-style: preserve-3d;
+}
+.text__width__360 {
+  transform-style: preserve-3d;
+}
+.text__width__360 * {
+  transform-style: preserve-3d;
+}
+.text__company_google {
+  transform-style: preserve-3d;
+}
+.text__company_google * {
+  transform-style: preserve-3d;
+}
+.text__company_stripe {
+  transform-style: preserve-3d;
+}
+.text__company_stripe * {
+  transform-style: preserve-3d;
+}
+.text__company_paypal {
+  transform-style: preserve-3d;
+}
+.text__company_paypal * {
+  transform-style: preserve-3d;
+}
+.text__company_xero {
+  transform-style: preserve-3d;
+}
+.text__company_xero * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks {
   font-size: 16px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks * {
+  transform-style: preserve-3d;
 }
 .text__width__90 {
   font-size: 10px;
   width: 100%;
   white-space: pre;
   height: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
+.text__width__90 * {
+  transform-style: preserve-3d;
+}
 .text__company_facebook_width__90 {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__90 * {
+  transform-style: preserve-3d;
 }
 .text__company_facebook_width__120 {
   font-size: 8px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__120 * {
+  transform-style: preserve-3d;
 }
 .text__company_google_width__90 {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__company_google_width__90 * {
+  transform-style: preserve-3d;
 }
 .text__company_facebook_width__140 {
   font-size: 8px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__140 * {
+  transform-style: preserve-3d;
 }
 .text__company_google_width__120 {
   font-size: 8px;
+  transform-style: preserve-3d;
+}
+.text__company_google_width__120 * {
+  transform-style: preserve-3d;
 }
 .text__company_stripe_width__90 {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__90 * {
+  transform-style: preserve-3d;
 }
 .text__company_facebook_width__160 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__160 * {
+  transform-style: preserve-3d;
 }
 .text__company_google_width__140 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_google_width__140 * {
+  transform-style: preserve-3d;
 }
 .text__company_stripe_width__120 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__120 * {
+  transform-style: preserve-3d;
 }
 .text__width__90_company_paypal {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__width__90_company_paypal * {
+  transform-style: preserve-3d;
 }
 .text__company_facebook_width__180 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__180 * {
+  transform-style: preserve-3d;
 }
 .text__company_google_width__160 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__company_google_width__160 * {
+  transform-style: preserve-3d;
 }
 .text__company_stripe_width__140 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__140 * {
+  transform-style: preserve-3d;
 }
 .text__company_paypal_width__120 {
   font-size: 8px;
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__120 * {
+  transform-style: preserve-3d;
 }
 .text__width__90_company_xero {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__width__90_company_xero * {
+  transform-style: preserve-3d;
 }
 .text__company_facebook_width__270 {
   font-size: 16px;
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__270 * {
+  transform-style: preserve-3d;
 }
 .text__company_google_width__180 {
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__company_google_width__180 * {
+  transform-style: preserve-3d;
 }
 .text__company_stripe_width__160 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__160 * {
+  transform-style: preserve-3d;
 }
 .text__company_paypal_width__140 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__140 * {
+  transform-style: preserve-3d;
 }
 .text__company_xero_width__120 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__120 * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks_width__90 {
   font-size: 5px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__90 * {
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__360 {
+  transform-style: preserve-3d;
+}
+.text__company_facebook_width__360 * {
+  transform-style: preserve-3d;
+}
+.text__company_google_width__270 {
+  transform-style: preserve-3d;
+}
+.text__company_google_width__270 * {
+  transform-style: preserve-3d;
 }
 .text__company_paypal_width__160 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__160 * {
+  transform-style: preserve-3d;
 }
 .text__company_xero_width__140 {
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__140 * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks_width__120 {
   font-size: 6px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__120 * {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_google {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_google * {
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__270 {
+  transform-style: preserve-3d;
+}
+.text__company_stripe_width__270 * {
+  transform-style: preserve-3d;
 }
 .text__company_paypal_width__180 {
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__180 * {
+  transform-style: preserve-3d;
 }
 .text__company_xero_width__160 {
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__160 * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks_width__140 {
   font-size: 8px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__140 * {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_stripe {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_stripe * {
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__270 {
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__270 * {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__180 {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__180 * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks_width__160 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__160 * {
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__360 {
+  transform-style: preserve-3d;
+}
+.text__company_paypal_width__360 * {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__270 {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__270 * {
+  transform-style: preserve-3d;
 }
 .text__company_quickbooks_width__180 {
   font-size: 10px;
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__180 * {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__360 {
+  transform-style: preserve-3d;
+}
+.text__company_xero_width__360 * {
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__270 {
+  transform-style: preserve-3d;
+}
+.text__company_quickbooks_width__270 * {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_quickbooks {
+  transform-style: preserve-3d;
+}
+.text__width__360_company_quickbooks * {
+  transform-style: preserve-3d;
 }
 .root__company_facebook:hover .text__company_facebook {
   color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+  transform-style: preserve-3d;
+}
+.root__company_facebook:hover .text__company_facebook * {
+  transform-style: preserve-3d;
 }
 .root__company_google:hover .text__company_google {
   color: #db4437 /* plasmic-token: pXhZGSe3B */;
+  transform-style: preserve-3d;
+}
+.root__company_google:hover .text__company_google * {
+  transform-style: preserve-3d;
 }
 .root__company_stripe:hover .text__company_stripe {
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  transform-style: preserve-3d;
+}
+.root__company_stripe:hover .text__company_stripe * {
+  transform-style: preserve-3d;
 }
 .root__company_paypal:hover .text__company_paypal {
   color: #327aea /* plasmic-token: EfXZlpq-M */;
+  transform-style: preserve-3d;
+}
+.root__company_paypal:hover .text__company_paypal * {
+  transform-style: preserve-3d;
 }
 .root__company_xero:hover .text__company_xero {
   color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+  transform-style: preserve-3d;
+}
+.root__company_xero:hover .text__company_xero * {
+  transform-style: preserve-3d;
 }
 .root__company_quickbooks:hover .text__company_quickbooks {
   color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+  transform-style: preserve-3d;
+}
+.root__company_quickbooks:hover .text__company_quickbooks * {
+  transform-style: preserve-3d;
 }

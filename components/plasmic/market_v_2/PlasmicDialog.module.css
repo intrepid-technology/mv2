@@ -8,6 +8,7 @@
   padding-bottom: 0px;
   padding-left: 0px;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 4px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -19,6 +20,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -36,6 +40,7 @@
   padding-top: 32px;
   padding-right: 8px;
   padding-left: 8px;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .header > :global(.__wab_flex-container) {
@@ -45,6 +50,9 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.header * {
+  transform-style: preserve-3d;
 }
 .header > :global(.__wab_flex-container) > *,
 .header > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -62,12 +70,20 @@
   height: auto;
   display: flex;
   flex-direction: row;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox___4SOnT * {
+  transform-style: preserve-3d;
 }
 .freeBox___4JCbN {
   display: flex;
   align-self: stretch;
   position: relative;
+  transform-style: preserve-3d;
+}
+.freeBox___4JCbN * {
+  transform-style: preserve-3d;
 }
 .slotTargetHeadline {
   font-size: 32px;
@@ -77,6 +93,25 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
+.slotTargetHeadline * {
+  transform-style: preserve-3d;
+}
+.slotTargetHeadline > *,
+.slotTargetHeadline > .__wab_slot > *,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > *,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetHeadline > picture > img,
+.slotTargetHeadline > .__wab_slot > picture > img,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__pjT40 {
+  transform-style: preserve-3d;
+}
+.text__pjT40 * {
+  transform-style: preserve-3d;
+}
 .freeBox__fzWiL {
   position: relative;
   width: 100%;
@@ -84,12 +119,20 @@
   max-width: 800px;
   display: flex;
   flex-direction: row;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox__fzWiL * {
+  transform-style: preserve-3d;
 }
 .freeBox__ubnbo {
   display: flex;
   align-self: stretch;
   position: relative;
+  transform-style: preserve-3d;
+}
+.freeBox__ubnbo * {
+  transform-style: preserve-3d;
 }
 .slotTargetSubhead {
   font-size: 14px;
@@ -98,6 +141,25 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
+}
+.slotTargetSubhead * {
+  transform-style: preserve-3d;
+}
+.slotTargetSubhead > *,
+.slotTargetSubhead > .__wab_slot > *,
+.slotTargetSubhead > .__wab_slot > .__wab_slot > *,
+.slotTargetSubhead > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSubhead > picture > img,
+.slotTargetSubhead > .__wab_slot > picture > img,
+.slotTargetSubhead > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSubhead > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
+.text__pfn1T {
+  transform-style: preserve-3d;
+}
+.text__pfn1T * {
+  transform-style: preserve-3d;
 }
 .contentWrapper {
   display: flex;
@@ -110,7 +172,11 @@
   max-width: 100%;
   padding-right: 8px;
   padding-left: 8px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.contentWrapper * {
+  transform-style: preserve-3d;
 }
 .actionsWrapper {
   display: flex;
@@ -121,8 +187,12 @@
   width: 100%;
   height: 48px;
   max-width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
+}
+.actionsWrapper * {
+  transform-style: preserve-3d;
 }
 .cancelButton {
   position: relative;
@@ -138,13 +208,41 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-style: solid;
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.cancelButton * {
+  transform-style: preserve-3d;
+}
 .slotTargetCancelButtonLabel {
   text-align: center;
+}
+.slotTargetCancelButtonLabel * {
+  transform-style: preserve-3d;
+}
+.slotTargetCancelButtonLabel > *,
+.slotTargetCancelButtonLabel > .__wab_slot > *,
+.slotTargetCancelButtonLabel > .__wab_slot > .__wab_slot > *,
+.slotTargetCancelButtonLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetCancelButtonLabel > picture > img,
+.slotTargetCancelButtonLabel > .__wab_slot > picture > img,
+.slotTargetCancelButtonLabel > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetCancelButtonLabel
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__a9Orb {
+  transform-style: preserve-3d;
+}
+.text__a9Orb * {
+  transform-style: preserve-3d;
 }
 .submitButton {
   position: relative;
@@ -159,11 +257,39 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-style: solid;
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.submitButton * {
+  transform-style: preserve-3d;
+}
 .slotTargetSubmitButtonLabel {
   text-align: center;
+}
+.slotTargetSubmitButtonLabel * {
+  transform-style: preserve-3d;
+}
+.slotTargetSubmitButtonLabel > *,
+.slotTargetSubmitButtonLabel > .__wab_slot > *,
+.slotTargetSubmitButtonLabel > .__wab_slot > .__wab_slot > *,
+.slotTargetSubmitButtonLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSubmitButtonLabel > picture > img,
+.slotTargetSubmitButtonLabel > .__wab_slot > picture > img,
+.slotTargetSubmitButtonLabel > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSubmitButtonLabel
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__uR6Mq {
+  transform-style: preserve-3d;
+}
+.text__uR6Mq * {
+  transform-style: preserve-3d;
 }

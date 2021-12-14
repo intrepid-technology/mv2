@@ -98,6 +98,8 @@ function PlasmicNavbar__RenderFunc(props) {
           ? false
           : hasVariant(globalVariants, "screen", "iphone678")
           ? false
+          : hasVariant(globalVariants, "screen", "iphone678Plus")
+          ? true
           : hasVariant(globalVariants, "screen", "iphone12ProMax")
           ? false
           : true
@@ -157,7 +159,7 @@ function PlasmicNavbar__RenderFunc(props) {
             destination={
               hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                : "https://intrepidventures.typeform.com/to/MthpVWrA"
+                : "/member/pricing"
             }
             type={"link"}
           >

@@ -7,17 +7,29 @@
   height: 16px;
   position: relative;
   background: #f1f1f1;
+  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 2px 6px;
   border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
+.root * {
+  transform-style: preserve-3d;
+}
 .root__inset {
   background: #f8f8f8;
+  transform-style: preserve-3d;
   border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+}
+.root__inset * {
+  transform-style: preserve-3d;
 }
 .root__inset:hover {
   background: #f1f1f1;
+  transform-style: preserve-3d;
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
+}
+.root__inset:hover * {
+  transform-style: preserve-3d;
 }
 .text {
   position: relative;
@@ -28,10 +40,22 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   line-height: 10px;
   font-weight: 600;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .text__inset {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  transform-style: preserve-3d;
+}
+.text__inset * {
+  transform-style: preserve-3d;
 }
 .root__inset:hover .text__inset {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.root__inset:hover .text__inset * {
+  transform-style: preserve-3d;
 }

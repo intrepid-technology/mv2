@@ -11,19 +11,35 @@
   border-top-right-radius: 2px;
   position: relative;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .radioTextInputPrimary:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.radioTextInputPrimary * {
+  transform-style: preserve-3d;
 }
 .text {
   font-weight: 600;
   font-size: 16px;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
 }
 .buttonCircleDelete:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.buttonCircleDelete * {
+  transform-style: preserve-3d;
 }

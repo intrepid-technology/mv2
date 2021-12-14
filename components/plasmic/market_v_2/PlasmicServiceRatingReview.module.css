@@ -4,6 +4,7 @@
   width: auto;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -11,6 +12,9 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -28,15 +32,23 @@
   left: auto;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .svg {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
+}
+.svg * {
+  transform-style: preserve-3d;
 }
 .serviceAggregateRating {
   display: flex;
@@ -46,6 +58,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.serviceAggregateRating * {
+  transform-style: preserve-3d;
 }
 .text__os5Mt {
   display: block;
@@ -59,11 +75,19 @@
   position: relative;
   text-transform: none;
   text-align: right;
+  transform-style: preserve-3d;
+}
+.text__os5Mt * {
+  transform-style: preserve-3d;
 }
 .text__br5LD {
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.text__br5LD * {
+  transform-style: preserve-3d;
 }
 .serviceAggregateReviews {
   display: flex;
@@ -73,6 +97,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.serviceAggregateReviews * {
+  transform-style: preserve-3d;
 }
 .text__lsm4G {
   display: block;
@@ -86,6 +114,10 @@
   position: relative;
   text-transform: none;
   text-align: right;
+  transform-style: preserve-3d;
+}
+.text__lsm4G * {
+  transform-style: preserve-3d;
 }
 .text__iekLt {
   left: auto;
@@ -93,4 +125,8 @@
   text-align: right;
   position: relative;
   font-size: 14px;
+  transform-style: preserve-3d;
+}
+.text__iekLt * {
+  transform-style: preserve-3d;
 }

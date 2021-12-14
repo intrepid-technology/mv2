@@ -6,6 +6,10 @@
   height: auto;
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .fixedDiv {
   display: flex;
@@ -21,7 +25,11 @@
   z-index: 100;
   right: 0;
   bottom: 0;
+  transform-style: preserve-3d;
   padding: 8px;
+}
+.fixedDiv * {
+  transform-style: preserve-3d;
 }
 .absoluteDiv {
   display: flex;
@@ -38,7 +46,11 @@
   bottom: 0;
   z-index: 0;
   background: #34405499;
+  transform-style: preserve-3d;
   padding: 8px;
+}
+.absoluteDiv * {
+  transform-style: preserve-3d;
 }
 .dialogDiv {
   display: flex;
@@ -46,6 +58,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 12px;
 }
@@ -56,6 +69,9 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
+}
+.dialogDiv * {
+  transform-style: preserve-3d;
 }
 .dialogDiv > :global(.__wab_flex-container) > *,
 .dialogDiv > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -76,5 +92,9 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.contentWrapper * {
+  transform-style: preserve-3d;
 }

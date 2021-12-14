@@ -2,16 +2,75 @@
   display: flex;
   position: relative;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .root * {
+    transform-style: preserve-3d;
+  }
 }
 .slotTargetChildren {
   font-size: 56px;
   font-weight: 600;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
+.slotTargetChildren * {
+  transform-style: preserve-3d;
+}
+.slotTargetChildren > *,
+.slotTargetChildren > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren > picture > img,
+.slotTargetChildren > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
+}
 @media (min-width: 0px) and (max-width: 428px) {
   .slotTargetChildren {
     font-size: 36px;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .slotTargetChildren * {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .slotTargetChildren > *,
+  .slotTargetChildren > .__wab_slot > *,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > *,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+  .slotTargetChildren > picture > img,
+  .slotTargetChildren > .__wab_slot > picture > img,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+  .slotTargetChildren
+    > .__wab_slot
+    > .__wab_slot
+    > .__wab_slot
+    > picture
+    > img {
+    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
@@ -19,7 +78,53 @@
     font-size: 28px;
   }
 }
+@media (max-width: 375px) {
+  .slotTargetChildren * {
+    transform-style: preserve-3d;
+  }
+}
+@media (max-width: 375px) {
+  .slotTargetChildren > *,
+  .slotTargetChildren > .__wab_slot > *,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > *,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
+  .slotTargetChildren > picture > img,
+  .slotTargetChildren > .__wab_slot > picture > img,
+  .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
+  .slotTargetChildren
+    > .__wab_slot
+    > .__wab_slot
+    > .__wab_slot
+    > picture
+    > img {
+    transform-style: preserve-3d;
+  }
+}
 .slotTargetChildren__kind_hero {
   font-size: 70px;
   font-weight: 800;
+}
+.slotTargetChildren__kind_hero * {
+  transform-style: preserve-3d;
+}
+.slotTargetChildren__kind_hero > *,
+.slotTargetChildren__kind_hero > .__wab_slot > *,
+.slotTargetChildren__kind_hero > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren__kind_hero > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetChildren__kind_hero > picture > img,
+.slotTargetChildren__kind_hero > .__wab_slot > picture > img,
+.slotTargetChildren__kind_hero > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetChildren__kind_hero
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__hToju {
+  transform-style: preserve-3d;
+}
+.text__hToju * {
+  transform-style: preserve-3d;
 }

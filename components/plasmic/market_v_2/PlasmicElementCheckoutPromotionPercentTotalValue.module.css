@@ -6,6 +6,10 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .freeBox__rvDg {
   display: flex;
@@ -16,6 +20,7 @@
   left: auto;
   top: auto;
   padding-left: 0px;
+  transform-style: preserve-3d;
 }
 .freeBox__rvDg > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -23,6 +28,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
+}
+.freeBox__rvDg * {
+  transform-style: preserve-3d;
 }
 .freeBox__rvDg > :global(.__wab_flex-container) > *,
 .freeBox__rvDg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -38,10 +46,38 @@
   display: flex;
   position: relative;
   width: auto;
+  transform-style: preserve-3d;
+}
+.promotionTitleTextParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetPromotionTitleText {
   font-size: 14px;
   text-align: left;
+}
+.slotTargetPromotionTitleText * {
+  transform-style: preserve-3d;
+}
+.slotTargetPromotionTitleText > *,
+.slotTargetPromotionTitleText > .__wab_slot > *,
+.slotTargetPromotionTitleText > .__wab_slot > .__wab_slot > *,
+.slotTargetPromotionTitleText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetPromotionTitleText > picture > img,
+.slotTargetPromotionTitleText > .__wab_slot > picture > img,
+.slotTargetPromotionTitleText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetPromotionTitleText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__zcY5D {
+  transform-style: preserve-3d;
+}
+.text__zcY5D * {
+  transform-style: preserve-3d;
 }
 .promotionFactorPercentNumberParent {
   display: flex;
@@ -53,6 +89,7 @@
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-height: 0;
 }
 .promotionFactorPercentNumberParent > :global(.__wab_flex-container) {
@@ -62,6 +99,9 @@
   min-height: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
+}
+.promotionFactorPercentNumberParent * {
+  transform-style: preserve-3d;
 }
 .promotionFactorPercentNumberParent > :global(.__wab_flex-container) > *,
 .promotionFactorPercentNumberParent
@@ -85,10 +125,46 @@
   top: auto;
   font-size: 14px;
   text-align: left;
+  transform-style: preserve-3d;
+}
+.promotionFactorText * {
+  transform-style: preserve-3d;
 }
 .slotTargetPromotionPercentValueNumber {
   font-size: 14px;
   text-align: left;
+}
+.slotTargetPromotionPercentValueNumber * {
+  transform-style: preserve-3d;
+}
+.slotTargetPromotionPercentValueNumber > *,
+.slotTargetPromotionPercentValueNumber > .__wab_slot > *,
+.slotTargetPromotionPercentValueNumber > .__wab_slot > .__wab_slot > *,
+.slotTargetPromotionPercentValueNumber
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetPromotionPercentValueNumber > picture > img,
+.slotTargetPromotionPercentValueNumber > .__wab_slot > picture > img,
+.slotTargetPromotionPercentValueNumber
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetPromotionPercentValueNumber
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text___72Tn0 {
+  transform-style: preserve-3d;
+}
+.text___72Tn0 * {
+  transform-style: preserve-3d;
 }
 .promotionCurrencyTotalValueDiscountNumber {
   display: flex;
@@ -99,6 +175,7 @@
   left: auto;
   top: auto;
   padding-left: 4px;
+  transform-style: preserve-3d;
 }
 .promotionCurrencyTotalValueDiscountNumber > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -106,6 +183,9 @@
   justify-content: flex-start;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
+}
+.promotionCurrencyTotalValueDiscountNumber * {
+  transform-style: preserve-3d;
 }
 .promotionCurrencyTotalValueDiscountNumber > :global(.__wab_flex-container) > *,
 .promotionCurrencyTotalValueDiscountNumber
@@ -130,17 +210,49 @@
   font-size: 14px;
   text-align: left;
   font-weight: 700;
+  transform-style: preserve-3d;
+}
+.text__mX4Ny * {
+  transform-style: preserve-3d;
 }
 .promotionCurrencyParent {
   display: flex;
   position: relative;
   width: auto;
   height: auto;
+  transform-style: preserve-3d;
+}
+.promotionCurrencyParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetPromotionCurrency {
   font-size: 14px;
   font-weight: 700;
   text-align: left;
+}
+.slotTargetPromotionCurrency * {
+  transform-style: preserve-3d;
+}
+.slotTargetPromotionCurrency > *,
+.slotTargetPromotionCurrency > .__wab_slot > *,
+.slotTargetPromotionCurrency > .__wab_slot > .__wab_slot > *,
+.slotTargetPromotionCurrency > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetPromotionCurrency > picture > img,
+.slotTargetPromotionCurrency > .__wab_slot > picture > img,
+.slotTargetPromotionCurrency > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetPromotionCurrency
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text___1Njpy {
+  transform-style: preserve-3d;
+}
+.text___1Njpy * {
+  transform-style: preserve-3d;
 }
 .freeBox__jPJt {
   display: flex;
@@ -150,6 +262,10 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.freeBox__jPJt * {
+  transform-style: preserve-3d;
 }
 .text__clGpn {
   font-size: 14px;
@@ -157,4 +273,8 @@
   width: auto;
   height: auto;
   font-weight: 700;
+  transform-style: preserve-3d;
+}
+.text__clGpn * {
+  transform-style: preserve-3d;
 }

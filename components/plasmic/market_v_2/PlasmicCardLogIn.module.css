@@ -4,6 +4,7 @@
   width: 360px;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
   padding: 0px;
 }
 .formLogin > :global(.__wab_flex-container) {
@@ -12,6 +13,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.formLogin * {
+  transform-style: preserve-3d;
 }
 .formLogin > :global(.__wab_flex-container) > *,
 .formLogin > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -23,8 +27,28 @@
   > img {
   margin-top: 16px;
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .formLogin {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .formLogin * {
+    transform-style: preserve-3d;
+  }
+}
+.formLogin__size__360 {
+  transform-style: preserve-3d;
+}
+.formLogin__size__360 * {
+  transform-style: preserve-3d;
+}
 .formLogin__size__540 {
   width: 540px;
+  transform-style: preserve-3d;
+}
+.formLogin__size__540 * {
+  transform-style: preserve-3d;
 }
 .inputLabelParent {
   display: flex;
@@ -34,6 +58,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .inputLabelParent > :global(.__wab_flex-container) {
@@ -43,6 +68,9 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.inputLabelParent * {
+  transform-style: preserve-3d;
 }
 .inputLabelParent > :global(.__wab_flex-container) > *,
 .inputLabelParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -65,13 +93,23 @@
   margin-top: calc(0px + 4px) !important;
   margin-right: 0px;
   margin-left: 0px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.emailLabel * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .emailLabel {
     left: auto;
     top: auto;
+    transform-style: preserve-3d;
     margin-top: calc(0px + 4px) !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .emailLabel * {
+    transform-style: preserve-3d;
   }
 }
 .email {
@@ -80,17 +118,39 @@
   padding-left: 8px;
   padding-right: 8px;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
+.email * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .email {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .email * {
+    transform-style: preserve-3d;
+  }
+}
 .formLogin .email:hover {
+  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
+.formLogin .email:hover * {
+  transform-style: preserve-3d;
+}
 .formLogin .email:focus {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.formLogin .email:focus * {
+  transform-style: preserve-3d;
 }
 .inputPasswordLabelParent {
   display: flex;
@@ -98,6 +158,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .inputPasswordLabelParent > :global(.__wab_flex-container) {
@@ -107,6 +168,9 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.inputPasswordLabelParent * {
+  transform-style: preserve-3d;
 }
 .inputPasswordLabelParent > :global(.__wab_flex-container) > *,
 .inputPasswordLabelParent
@@ -132,13 +196,23 @@
   margin-right: 0px;
   margin-left: 0px;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.passwordLabel * {
+  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .passwordLabel {
     left: auto;
     top: auto;
+    transform-style: preserve-3d;
     margin-top: calc(0px + 4px) !important;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .passwordLabel * {
+    transform-style: preserve-3d;
   }
 }
 .password {
@@ -147,17 +221,39 @@
   padding-left: 8px;
   padding-right: 8px;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
 }
+.password * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .password {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .password * {
+    transform-style: preserve-3d;
+  }
+}
 .formLogin .password:hover {
+  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
+.formLogin .password:hover * {
+  transform-style: preserve-3d;
+}
 .formLogin .password:focus {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
+}
+.formLogin .password:focus * {
+  transform-style: preserve-3d;
 }
 .text__zEuFv {
   display: block;
@@ -177,7 +273,11 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.text__zEuFv * {
+  transform-style: preserve-3d;
 }
 .buttonContinueParent {
   display: flex;
@@ -187,6 +287,7 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .buttonContinueParent > :global(.__wab_flex-container) {
@@ -196,6 +297,9 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.buttonContinueParent * {
+  transform-style: preserve-3d;
 }
 .buttonContinueParent > :global(.__wab_flex-container) > *,
 .buttonContinueParent
@@ -214,7 +318,17 @@
   position: relative;
   width: 360px;
   height: 48px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.continueButton * {
+  transform-style: preserve-3d;
+}
+.text___6XE6D {
+  transform-style: preserve-3d;
+}
+.text___6XE6D * {
+  transform-style: preserve-3d;
 }
 .recoveryLinkParent {
   display: flex;
@@ -225,6 +339,7 @@
   left: auto;
   top: auto;
   align-self: center;
+  transform-style: preserve-3d;
 }
 .recoveryLinkParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -232,6 +347,9 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.recoveryLinkParent * {
+  transform-style: preserve-3d;
 }
 .recoveryLinkParent > :global(.__wab_flex-container) > *,
 .recoveryLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -248,6 +366,10 @@
   left: auto;
   top: auto;
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.text__ql1Ny * {
+  transform-style: preserve-3d;
 }
 .resetPassword {
   position: relative;
@@ -255,6 +377,20 @@
   top: auto;
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   font-size: 12px;
+  transform-style: preserve-3d;
+}
+.resetPassword * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .resetPassword {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .resetPassword * {
+    transform-style: preserve-3d;
+  }
 }
 .freeBox__rwKg {
   display: flex;
@@ -264,6 +400,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__rwKg > :global(.__wab_flex-container) {
@@ -273,6 +410,9 @@
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
+}
+.freeBox__rwKg * {
+  transform-style: preserve-3d;
 }
 .freeBox__rwKg > :global(.__wab_flex-container) > *,
 .freeBox__rwKg > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -287,6 +427,7 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__rwKg {
     width: 100%;
+    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -295,13 +436,32 @@
     min-width: 0;
   }
 }
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__rwKg * {
+    transform-style: preserve-3d;
+  }
+}
 .freeBox__o0C0E {
   display: block;
   position: relative;
   height: 1px;
   width: 100%;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox__o0C0E * {
+  transform-style: preserve-3d;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__o0C0E {
+    transform-style: preserve-3d;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .freeBox__o0C0E * {
+    transform-style: preserve-3d;
+  }
 }
 .text__n6Ve {
   position: relative;
@@ -310,6 +470,10 @@
   width: auto;
   height: auto;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  transform-style: preserve-3d;
+}
+.text__n6Ve * {
+  transform-style: preserve-3d;
 }
 .freeBox___2CKx {
   display: block;
@@ -317,7 +481,11 @@
   height: 1px;
   width: 100%;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox___2CKx * {
+  transform-style: preserve-3d;
 }
 .freeBox___7ZsVo {
   display: flex;
@@ -327,6 +495,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 8px 0px;
 }
@@ -337,6 +506,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.freeBox___7ZsVo * {
+  transform-style: preserve-3d;
 }
 .freeBox___7ZsVo > :global(.__wab_flex-container) > *,
 .freeBox___7ZsVo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -353,16 +525,24 @@
   left: auto;
   top: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
+}
+.loginFacebookConnect * {
+  transform-style: preserve-3d;
 }
 .loginGoogleConnect:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
+}
+.loginGoogleConnect * {
+  transform-style: preserve-3d;
 }
 .freeBox__yvRI {
   display: block;
@@ -373,6 +553,7 @@
   left: auto;
   top: auto;
   background: #f0f1f3;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
 }
@@ -383,6 +564,9 @@
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
+}
+.freeBox__yvRI * {
+  transform-style: preserve-3d;
 }
 .freeBox__yvRI > :global(.__wab_flex-container) > *,
 .freeBox__yvRI > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -409,11 +593,25 @@
   width: 100%;
   height: auto;
   text-align: center;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.signupSubhead * {
+  transform-style: preserve-3d;
 }
 .button:global(.__wab_instance) {
   position: relative;
   width: 360px;
   height: 48px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.button * {
+  transform-style: preserve-3d;
+}
+.text__ohtQp {
+  transform-style: preserve-3d;
+}
+.text__ohtQp * {
+  transform-style: preserve-3d;
 }

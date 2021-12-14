@@ -5,6 +5,7 @@
   height: auto;
   max-width: 100%;
   position: relative;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,6 +13,9 @@
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -24,6 +28,7 @@
   max-width: 100%;
   width: 360px;
   height: 190px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .primaryImage > picture > img {
@@ -32,6 +37,9 @@
 .primaryImage > .__wab_img-spacer > img {
   object-fit: scale-down;
 }
+.primaryImage * {
+  transform-style: preserve-3d;
+}
 .freeBox {
   display: flex;
   position: relative;
@@ -39,6 +47,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -51,6 +60,9 @@
   width: calc(100% + 20px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -68,6 +80,7 @@
   max-width: 100%;
   width: 170px;
   height: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .image1 > picture > img {
@@ -76,11 +89,15 @@
 .image1 > .__wab_img-spacer > img {
   object-fit: scale-down;
 }
+.image1 * {
+  transform-style: preserve-3d;
+}
 .image2 {
   object-fit: scale-down;
   max-width: 100%;
   width: 170px;
   height: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .image2 > picture > img {
@@ -89,11 +106,15 @@
 .image2 > .__wab_img-spacer > img {
   object-fit: scale-down;
 }
+.image2 * {
+  transform-style: preserve-3d;
+}
 .image3 {
   object-fit: scale-down;
   max-width: 100%;
   width: 170px;
   height: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .image3 > picture > img {
@@ -102,11 +123,15 @@
 .image3 > .__wab_img-spacer > img {
   object-fit: scale-down;
 }
+.image3 * {
+  transform-style: preserve-3d;
+}
 .image4 {
   object-fit: scale-down;
   max-width: 100%;
   width: 170px;
   height: 90px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .image4 > picture > img {
@@ -114,4 +139,7 @@
 }
 .image4 > .__wab_img-spacer > img {
   object-fit: scale-down;
+}
+.image4 * {
+  transform-style: preserve-3d;
 }

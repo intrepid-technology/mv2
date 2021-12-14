@@ -6,9 +6,77 @@
   justify-content: flex-start;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 2px;
 }
+.root * {
+  transform-style: preserve-3d;
+}
+.root__adornment_start {
+  transform-style: preserve-3d;
+}
+.root__adornment_start * {
+  transform-style: preserve-3d;
+}
 .textAreaInput:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.textAreaInput * {
+  transform-style: preserve-3d;
+}
+.textAreaInput__type_primary:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.textAreaInput__type_primary * {
+  transform-style: preserve-3d;
+}
+.textAreaInput__type_secondary:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.textAreaInput__type_secondary * {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_start:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_start * {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_end:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_end * {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_start_adornment_end:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.textAreaInput__adornment_start_adornment_end * {
+  transform-style: preserve-3d;
+}
+.root:hover .textAreaInput:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.root:hover .textAreaInput * {
+  transform-style: preserve-3d;
+}
+.text___8OuM {
+  transform-style: preserve-3d;
+}
+.text___8OuM * {
+  transform-style: preserve-3d;
+}
+.text__tfy8G {
+  transform-style: preserve-3d;
+}
+.text__tfy8G * {
+  transform-style: preserve-3d;
+}
+.text___9X71D {
+  transform-style: preserve-3d;
+}
+.text___9X71D * {
+  transform-style: preserve-3d;
 }

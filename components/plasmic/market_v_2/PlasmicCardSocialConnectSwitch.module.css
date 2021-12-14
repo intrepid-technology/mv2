@@ -7,13 +7,18 @@
   width: 100%;
   height: auto;
   max-width: 720px;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
   padding: 2px 8px 2px 0px;
   border-bottom: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
@@ -27,6 +32,9 @@
   margin-left: calc(0px - 96px);
   width: calc(100% + 96px);
 }
+.parent * {
+  transform-style: preserve-3d;
+}
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .parent > :global(.__wab_flex-container) > picture > img,
@@ -39,15 +47,27 @@
 }
 .parent__width__360 {
   width: 360px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__360 * {
+  transform-style: preserve-3d;
 }
 .parent__width__540 {
   width: 540px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__540 * {
+  transform-style: preserve-3d;
 }
 .parent__width__720 {
   width: 720px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.parent__width__720 * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -57,6 +77,7 @@
   height: auto;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
   padding: 2px 6px 2px 0px;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -66,6 +87,9 @@
   align-content: unset;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -81,6 +105,172 @@
   position: relative;
   left: auto;
   top: auto;
+  transform-style: preserve-3d;
+}
+.iconSocialProfile * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__connected:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__connected * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_tikTok:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_tikTok * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_twitch:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_twitch * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_discord:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_discord * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_soundcloud:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_soundcloud * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_spotify:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_spotify * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_hackernews:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_hackernews * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_dribbble:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_dribbble * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_productHunt:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_productHunt * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_angellist:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_angellist * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_github:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_github * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_pinterest:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_pinterest * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_reddit:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_reddit * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_slack:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_slack * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_snapchat:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_snapchat * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_whatsapp:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_whatsapp * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_line:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_line * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_wechat:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_wechat * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_google:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_google * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__accounting_xero:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__accounting_xero * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__accounting_quickbooks:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__accounting_quickbooks * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__width__540:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__width__540 * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_instagram:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_instagram * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_facebook:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_facebook * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_linkedin:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_linkedin * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_twitter:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_twitter * {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_youtube:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.iconSocialProfile__socialNetwork_youtube * {
+  transform-style: preserve-3d;
 }
 .text {
   position: relative;
@@ -88,11 +278,173 @@
   top: auto;
   font-size: 16px;
   font-weight: 500;
+  transform-style: preserve-3d;
+}
+.text * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_tikTok {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_tikTok * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_twitch {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_twitch * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_discord {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_discord * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_soundcloud {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_soundcloud * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_spotify {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_spotify * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_hackernews {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_hackernews * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_dribbble {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_dribbble * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_productHunt {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_productHunt * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_angellist {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_angellist * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_github {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_github * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_pinterest {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_pinterest * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_reddit {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_reddit * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_slack {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_slack * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_snapchat {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_snapchat * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_whatsapp {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_whatsapp * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_line {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_line * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_wechat {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_wechat * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_google {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_google * {
+  transform-style: preserve-3d;
+}
+.text__accounting_xero {
+  transform-style: preserve-3d;
+}
+.text__accounting_xero * {
+  transform-style: preserve-3d;
+}
+.text__accounting_quickbooks {
+  transform-style: preserve-3d;
+}
+.text__accounting_quickbooks * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_instagram {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_instagram * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_facebook {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_facebook * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_linkedin {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_linkedin * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_twitter {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_twitter * {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_youtube {
+  transform-style: preserve-3d;
+}
+.text__socialNetwork_youtube * {
+  transform-style: preserve-3d;
 }
 .switchPrimary:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.switchPrimary * {
+  transform-style: preserve-3d;
+}
 .switchPrimary__connected:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.switchPrimary__connected * {
+  transform-style: preserve-3d;
 }

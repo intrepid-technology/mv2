@@ -4,7 +4,17 @@
   position: relative;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+.root__isOpen {
+  transform-style: preserve-3d;
+}
+.root__isOpen * {
+  transform-style: preserve-3d;
 }
 .trigger {
   position: relative;
@@ -13,6 +23,7 @@
   height: 32px;
   width: 100%;
   background: #f8f8f8;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
@@ -26,6 +37,9 @@
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
+.trigger * {
+  transform-style: preserve-3d;
+}
 .trigger > :global(.__wab_flex-container) > *,
 .trigger > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .trigger > :global(.__wab_flex-container) > picture > img,
@@ -36,29 +50,59 @@
   > img {
   margin-left: 4px;
 }
+.trigger__showPlaceholder {
+  transform-style: preserve-3d;
+}
+.trigger__showPlaceholder * {
+  transform-style: preserve-3d;
+}
 .trigger__isOpen {
   background: #f5f5f5;
+  transform-style: preserve-3d;
+}
+.trigger__isOpen * {
+  transform-style: preserve-3d;
 }
 .trigger__isDisabled {
   opacity: 0.5;
   cursor: not-allowed;
+  transform-style: preserve-3d;
+}
+.trigger__isDisabled * {
+  transform-style: preserve-3d;
 }
 .trigger__type_secondary {
   background: #ffffff;
+  transform-style: preserve-3d;
+}
+.trigger__type_secondary * {
+  transform-style: preserve-3d;
 }
 .root:focus-within .trigger {
+  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
 }
+.root:focus-within .trigger * {
+  transform-style: preserve-3d;
+}
 .root .trigger_____focusVisibleWithin {
+  transform-style: preserve-3d;
   outline: none;
   border-style: dashed;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
 }
+.root .trigger_____focusVisibleWithin * {
+  transform-style: preserve-3d;
+}
 .root:hover:not(:focus-within) .trigger {
   background: #ffffff;
+  transform-style: preserve-3d;
   outline: none;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+}
+.root:hover:not(:focus-within) .trigger * {
+  transform-style: preserve-3d;
 }
 .contentContainer {
   display: flex;
@@ -67,10 +111,23 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.contentContainer * {
+  transform-style: preserve-3d;
+}
+.contentContainer__showPlaceholder {
+  transform-style: preserve-3d;
+}
+.contentContainer__showPlaceholder * {
+  transform-style: preserve-3d;
 }
 .slotTargetSelectedContent {
   white-space: pre;
+}
+.slotTargetSelectedContent * {
+  transform-style: preserve-3d;
 }
 .slotTargetSelectedContent > .__wab_text,
 .slotTargetSelectedContent > .__wab_slot-string-wrapper,
@@ -107,11 +164,69 @@
   > picture
   > img {
   overflow: hidden;
+  transform-style: preserve-3d;
+}
+.slotTargetSelectedContent__showPlaceholder * {
+  transform-style: preserve-3d;
+}
+.slotTargetSelectedContent__showPlaceholder > *,
+.slotTargetSelectedContent__showPlaceholder > .__wab_slot > *,
+.slotTargetSelectedContent__showPlaceholder > .__wab_slot > .__wab_slot > *,
+.slotTargetSelectedContent__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSelectedContent__showPlaceholder > picture > img,
+.slotTargetSelectedContent__showPlaceholder > .__wab_slot > picture > img,
+.slotTargetSelectedContent__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetSelectedContent__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.slotTargetSelectedContent__isOpen * {
+  transform-style: preserve-3d;
+}
+.slotTargetSelectedContent__isOpen > *,
+.slotTargetSelectedContent__isOpen > .__wab_slot > *,
+.slotTargetSelectedContent__isOpen > .__wab_slot > .__wab_slot > *,
+.slotTargetSelectedContent__isOpen
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetSelectedContent__isOpen > picture > img,
+.slotTargetSelectedContent__isOpen > .__wab_slot > picture > img,
+.slotTargetSelectedContent__isOpen > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSelectedContent__isOpen
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__zhL8M {
+  transform-style: preserve-3d;
+}
+.text__zhL8M * {
+  transform-style: preserve-3d;
 }
 .slotTargetPlaceholder {
   white-space: pre;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
   font-style: normal;
+}
+.slotTargetPlaceholder * {
+  transform-style: preserve-3d;
 }
 .slotTargetPlaceholder > .__wab_text,
 .slotTargetPlaceholder > .__wab_slot-string-wrapper,
@@ -141,25 +256,86 @@
   > picture
   > img {
   overflow: hidden;
+  transform-style: preserve-3d;
+}
+.slotTargetPlaceholder__showPlaceholder * {
+  transform-style: preserve-3d;
+}
+.slotTargetPlaceholder__showPlaceholder > *,
+.slotTargetPlaceholder__showPlaceholder > .__wab_slot > *,
+.slotTargetPlaceholder__showPlaceholder > .__wab_slot > .__wab_slot > *,
+.slotTargetPlaceholder__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.slotTargetPlaceholder__showPlaceholder > picture > img,
+.slotTargetPlaceholder__showPlaceholder > .__wab_slot > picture > img,
+.slotTargetPlaceholder__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.slotTargetPlaceholder__showPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__xqtc4 {
+  transform-style: preserve-3d;
+}
+.text__xqtc4 * {
+  transform-style: preserve-3d;
 }
 .dropdownIcon {
   position: relative;
   object-fit: cover;
   width: 1em;
   height: 1em;
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.dropdownIcon * {
+  transform-style: preserve-3d;
+}
+.dropdownIcon__isOpen {
+  transform-style: preserve-3d;
+}
+.dropdownIcon__isOpen * {
+  transform-style: preserve-3d;
+}
 .root .dropdownIcon_____focusVisibleWithin {
+  transform-style: preserve-3d;
   outline: none;
 }
+.root .dropdownIcon_____focusVisibleWithin * {
+  transform-style: preserve-3d;
+}
 .root:hover:not(:focus-within) .dropdownIcon {
+  transform-style: preserve-3d;
   outline: none;
+}
+.root:hover:not(:focus-within) .dropdownIcon * {
+  transform-style: preserve-3d;
 }
 .overlay:global(.__wab_instance) {
   position: absolute;
   left: 0px;
   top: 100%;
   z-index: 1000;
+  transform-style: preserve-3d;
+}
+.overlay * {
+  transform-style: preserve-3d;
+}
+.overlay__isOpen:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.overlay__isOpen * {
+  transform-style: preserve-3d;
 }
 .optionsContainer {
   display: flex;
@@ -170,12 +346,36 @@
   width: auto;
   height: auto;
   overflow: auto;
+  transform-style: preserve-3d;
+}
+.optionsContainer * {
+  transform-style: preserve-3d;
 }
 .option__yx01C:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.option__yx01C * {
+  transform-style: preserve-3d;
+}
+.text__f7Ceo {
+  transform-style: preserve-3d;
+}
+.text__f7Ceo * {
+  transform-style: preserve-3d;
 }
 .option__hUtZe:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.option__hUtZe * {
+  transform-style: preserve-3d;
+}
+.text__sIxnv {
+  transform-style: preserve-3d;
+}
+.text__sIxnv * {
+  transform-style: preserve-3d;
 }

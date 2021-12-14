@@ -6,6 +6,7 @@
   position: relative;
   max-width: 720px;
   min-width: 360px;
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -13,6 +14,9 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -24,6 +28,16 @@
   position: relative;
   top: auto;
   left: auto;
+  transform-style: preserve-3d;
+}
+.switchTextPrimary * {
+  transform-style: preserve-3d;
+}
+.text__w4EDl {
+  transform-style: preserve-3d;
+}
+.text__w4EDl * {
+  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -36,14 +50,22 @@
   align-self: flex-start;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.freeBox * {
+  transform-style: preserve-3d;
 }
 .descriptionTextParent {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.descriptionTextParent * {
+  transform-style: preserve-3d;
 }
 .descriptionSlotParent {
   display: flex;
@@ -51,7 +73,11 @@
   position: relative;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.descriptionSlotParent * {
+  transform-style: preserve-3d;
 }
 .slotTargetDescriptionText {
   font-size: 12px;
@@ -60,4 +86,28 @@
   letter-spacing: normal;
   line-height: 1;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
+}
+.slotTargetDescriptionText * {
+  transform-style: preserve-3d;
+}
+.slotTargetDescriptionText > *,
+.slotTargetDescriptionText > .__wab_slot > *,
+.slotTargetDescriptionText > .__wab_slot > .__wab_slot > *,
+.slotTargetDescriptionText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetDescriptionText > picture > img,
+.slotTargetDescriptionText > .__wab_slot > picture > img,
+.slotTargetDescriptionText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetDescriptionText
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__q8Yix {
+  transform-style: preserve-3d;
+}
+.text__q8Yix * {
+  transform-style: preserve-3d;
 }

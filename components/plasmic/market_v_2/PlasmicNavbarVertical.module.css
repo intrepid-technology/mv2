@@ -5,6 +5,7 @@
   height: auto;
   position: relative;
   background: #ffffff;
+  transform-style: preserve-3d;
 }
 .sidePanel > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,6 +13,9 @@
   justify-content: flex-start;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
+}
+.sidePanel * {
+  transform-style: preserve-3d;
 }
 .sidePanel > :global(.__wab_flex-container) > *,
 .sidePanel > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -26,6 +30,7 @@
 .sidePanel___switch {
   height: 900px;
   width: 270px;
+  transform-style: preserve-3d;
   padding: 8px;
 }
 .sidePanel___switch > :global(.__wab_flex-container) {
@@ -35,6 +40,9 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
+}
+.sidePanel___switch * {
+  transform-style: preserve-3d;
 }
 .sidePanel___switch > :global(.__wab_flex-container) > *,
 .sidePanel___switch > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -52,6 +60,7 @@
   flex-direction: row;
   width: 360px;
   height: 100%;
+  transform-style: preserve-3d;
   min-height: 0;
   padding: 8px 16px;
 }
@@ -62,6 +71,9 @@
   min-height: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
+}
+.navCard * {
+  transform-style: preserve-3d;
 }
 .navCard > :global(.__wab_flex-container) > *,
 .navCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -77,14 +89,28 @@
   height: 36px;
   width: 100%;
   padding-right: 8px;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
 }
 .navCard___switch > :global(.__wab_flex-container) {
   min-width: 0;
 }
+.navCard___switch * {
+  transform-style: preserve-3d;
+}
+.navCard__user_partner {
+  transform-style: preserve-3d;
+}
+.navCard__user_partner * {
+  transform-style: preserve-3d;
+}
 .sidePanel .navCard:hover {
   background: #f8f8f8;
+  transform-style: preserve-3d;
+}
+.sidePanel .navCard:hover * {
+  transform-style: preserve-3d;
 }
 .iconParent {
   display: flex;
@@ -92,13 +118,27 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.iconParent * {
+  transform-style: preserve-3d;
+}
+.iconParent___switch {
+  transform-style: preserve-3d;
+}
+.iconParent___switch * {
+  transform-style: preserve-3d;
 }
 .svg__rPi01 {
   position: relative;
   object-fit: cover;
+  transform-style: preserve-3d;
   width: 1em;
   height: 1em;
   flex-shrink: 0;
+}
+.svg__rPi01 * {
+  transform-style: preserve-3d;
 }
 .navLinkParent {
   display: flex;
@@ -110,25 +150,98 @@
   left: auto;
   width: 100%;
   height: auto;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.navLinkParent * {
+  transform-style: preserve-3d;
 }
 .navLinkParent___switch {
   height: 36px;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.navLinkParent___switch * {
+  transform-style: preserve-3d;
+}
+.navLink:global(.__wab_instance) {
+  transform-style: preserve-3d;
+}
+.navLink * {
+  transform-style: preserve-3d;
 }
 .navLink___switch:global(.__wab_instance) {
   width: auto;
   height: 36px;
+  transform-style: preserve-3d;
+}
+.navLink___switch * {
+  transform-style: preserve-3d;
 }
 .slotTargetLinkText {
   font-weight: 400;
+}
+.slotTargetLinkText * {
+  transform-style: preserve-3d;
+}
+.slotTargetLinkText > *,
+.slotTargetLinkText > .__wab_slot > *,
+.slotTargetLinkText > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText > picture > img,
+.slotTargetLinkText > .__wab_slot > picture > img,
+.slotTargetLinkText > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLinkText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transform-style: preserve-3d;
 }
 .slotTargetLinkText___switch {
   font-size: 16px;
   line-height: 1.5;
 }
+.slotTargetLinkText___switch * {
+  transform-style: preserve-3d;
+}
+.slotTargetLinkText___switch > *,
+.slotTargetLinkText___switch > .__wab_slot > *,
+.slotTargetLinkText___switch > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText___switch > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText___switch > picture > img,
+.slotTargetLinkText___switch > .__wab_slot > picture > img,
+.slotTargetLinkText___switch > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLinkText___switch
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
 .slotTargetLinkText__user_partner {
   line-height: 24px;
   font-size: 16px;
+}
+.slotTargetLinkText__user_partner * {
+  transform-style: preserve-3d;
+}
+.slotTargetLinkText__user_partner > *,
+.slotTargetLinkText__user_partner > .__wab_slot > *,
+.slotTargetLinkText__user_partner > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText__user_partner > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetLinkText__user_partner > picture > img,
+.slotTargetLinkText__user_partner > .__wab_slot > picture > img,
+.slotTargetLinkText__user_partner > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetLinkText__user_partner
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  transform-style: preserve-3d;
+}
+.text__bjenl {
+  transform-style: preserve-3d;
+}
+.text__bjenl * {
+  transform-style: preserve-3d;
 }

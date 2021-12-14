@@ -5,7 +5,11 @@
   height: auto;
   flex-direction: column;
   background: #ffffff;
+  transform-style: preserve-3d;
   min-width: 0;
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .separator {
   display: flex;
@@ -15,10 +19,20 @@
   justify-content: flex-start;
   height: 0px;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   margin: 4px 0px;
   border-top: 1px solid #cacaca;
+}
+.separator * {
+  transform-style: preserve-3d;
+}
+.separator__isFirst {
+  transform-style: preserve-3d;
+}
+.separator__isFirst * {
+  transform-style: preserve-3d;
 }
 .titleContainer {
   display: flex;
@@ -26,11 +40,30 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
   padding: 4px 8px;
+}
+.titleContainer * {
+  transform-style: preserve-3d;
+}
+.titleContainer__noTitle {
+  transform-style: preserve-3d;
+}
+.titleContainer__noTitle * {
+  transform-style: preserve-3d;
+}
+.titleContainer__isFirst {
+  transform-style: preserve-3d;
+}
+.titleContainer__isFirst * {
+  transform-style: preserve-3d;
 }
 .slotTargetTitle {
   color: #8e8e8e;
   white-space: pre;
+}
+.slotTargetTitle * {
+  transform-style: preserve-3d;
 }
 .slotTargetTitle > .__wab_text,
 .slotTargetTitle > .__wab_slot-string-wrapper,
@@ -55,6 +88,13 @@
 .slotTargetTitle > .__wab_slot > .__wab_slot > picture > img,
 .slotTargetTitle > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   overflow: hidden;
+  transform-style: preserve-3d;
+}
+.text__puglx {
+  transform-style: preserve-3d;
+}
+.text__puglx * {
+  transform-style: preserve-3d;
 }
 .optionsContainer {
   display: flex;
@@ -62,12 +102,36 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  transform-style: preserve-3d;
+}
+.optionsContainer * {
+  transform-style: preserve-3d;
 }
 .option__zak6K:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.option__zak6K * {
+  transform-style: preserve-3d;
+}
+.text__jFEkD {
+  transform-style: preserve-3d;
+}
+.text__jFEkD * {
+  transform-style: preserve-3d;
 }
 .option__kzSwt:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.option__kzSwt * {
+  transform-style: preserve-3d;
+}
+.text__pzF1W {
+  transform-style: preserve-3d;
+}
+.text__pzF1W * {
+  transform-style: preserve-3d;
 }

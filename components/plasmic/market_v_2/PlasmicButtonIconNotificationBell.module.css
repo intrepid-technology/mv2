@@ -6,50 +6,102 @@
   width: auto;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
   padding: 0px;
   border-width: 1px;
   border-style: none;
+}
+.root * {
+  transform-style: preserve-3d;
+}
+.root__state_alert {
+  transform-style: preserve-3d;
+}
+.root__state_alert * {
+  transform-style: preserve-3d;
 }
 .svg {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg * {
+  transform-style: preserve-3d;
 }
 .svg__inactive {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__inactive * {
+  transform-style: preserve-3d;
 }
 .svg__state_silent {
   color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  transform-style: preserve-3d;
+}
+.svg__state_silent * {
+  transform-style: preserve-3d;
 }
 .svg__state_alert {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+  transform-style: preserve-3d;
+}
+.svg__state_alert * {
+  transform-style: preserve-3d;
+}
+.svg__size__16 {
+  transform-style: preserve-3d;
+}
+.svg__size__16 * {
+  transform-style: preserve-3d;
 }
 .svg__size__24 {
   width: 24px;
   height: 24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__24 * {
+  transform-style: preserve-3d;
 }
 .svg__size__32 {
   width: 32px;
   height: 32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__32 * {
+  transform-style: preserve-3d;
 }
 .svg__size__36 {
   width: 36px;
   height: 36px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__36 * {
+  transform-style: preserve-3d;
 }
 .svg__size__40 {
   width: 40px;
   height: 40px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__40 * {
+  transform-style: preserve-3d;
 }
 .svg__size__48 {
   width: 48px;
   height: 48px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.svg__size__48 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator:global(.__wab_instance) {
   position: relative;
@@ -57,42 +109,82 @@
   left: auto;
   margin-top: -12px;
   margin-left: -8px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__inactive:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__inactive * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__state_silent:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__state_silent * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__state_alert:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
 }
+.elementSidebarHeadlineNotificationIndicator__state_alert * {
+  transform-style: preserve-3d;
+}
 .elementSidebarHeadlineNotificationIndicator__size__16:global(.__wab_instance) {
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__16 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__size__24:global(.__wab_instance) {
   margin-left: -10px;
   margin-top: -16px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__24 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__size__32:global(.__wab_instance) {
   margin-left: -12px;
   margin-top: -20px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__32 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__size__36:global(.__wab_instance) {
   margin-left: -14px;
   margin-top: -24px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__36 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__size__40:global(.__wab_instance) {
   margin-left: -16px;
   margin-top: -28px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__40 * {
+  transform-style: preserve-3d;
 }
 .elementSidebarHeadlineNotificationIndicator__size__48:global(.__wab_instance) {
   margin-left: -18px;
   margin-top: -32px;
+  transform-style: preserve-3d;
   flex-shrink: 0;
+}
+.elementSidebarHeadlineNotificationIndicator__size__48 * {
+  transform-style: preserve-3d;
 }

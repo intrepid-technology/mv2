@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   position: relative;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -13,6 +14,9 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
+}
+.root * {
+  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -25,8 +29,12 @@
   top: auto;
   left: auto;
   width: 100%;
+  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
+}
+.searchbarFilter * {
+  transform-style: preserve-3d;
 }
 .badgeDisplayParent {
   display: flex;
@@ -38,6 +46,7 @@
   height: auto;
   padding-bottom: 4px;
   padding-top: 4px;
+  transform-style: preserve-3d;
   min-width: 0;
 }
 .badgeDisplayParent > :global(.__wab_flex-container) {
@@ -52,6 +61,9 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
+.badgeDisplayParent * {
+  transform-style: preserve-3d;
+}
 .badgeDisplayParent > :global(.__wab_flex-container) > *,
 .badgeDisplayParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .badgeDisplayParent > :global(.__wab_flex-container) > picture > img,
@@ -65,6 +77,16 @@
 }
 .chipBadgeDisplay:global(.__wab_instance) {
   position: relative;
+  transform-style: preserve-3d;
+}
+.chipBadgeDisplay * {
+  transform-style: preserve-3d;
+}
+.text__bIcC5 {
+  transform-style: preserve-3d;
+}
+.text__bIcC5 * {
+  transform-style: preserve-3d;
 }
 .svg__q3BDs {
   position: relative;
@@ -72,6 +94,10 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  transform-style: preserve-3d;
+}
+.svg__q3BDs * {
+  transform-style: preserve-3d;
 }
 .svg__nyUiy {
   position: relative;
@@ -79,10 +105,18 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  transform-style: preserve-3d;
+}
+.svg__nyUiy * {
+  transform-style: preserve-3d;
 }
 .svg__eXn9 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
+  transform-style: preserve-3d;
+}
+.svg__eXn9 * {
+  transform-style: preserve-3d;
 }
