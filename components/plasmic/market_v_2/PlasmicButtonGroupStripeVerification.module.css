@@ -4,7 +4,6 @@
   width: auto;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,9 +11,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -26,18 +22,10 @@
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonStripeVerification * {
-  transform-style: preserve-3d;
 }
 .text__bkQn0 {
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.text__bkQn0 * {
-  transform-style: preserve-3d;
 }
 .noteLinkParent {
   display: flex;
@@ -47,7 +35,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 2px 0px 2px 4px;
 }
 .noteLinkParent > :global(.__wab_flex-container) {
@@ -56,9 +43,6 @@
   justify-content: space-between;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
-}
-.noteLinkParent * {
-  transform-style: preserve-3d;
 }
 .noteLinkParent > :global(.__wab_flex-container) > *,
 .noteLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -80,11 +64,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.descriptionParent * {
-  transform-style: preserve-3d;
 }
 .text__qLzg6 {
   display: block;
@@ -98,19 +78,11 @@
   height: 100%;
   width: auto;
   white-space: pre-wrap;
-  transform-style: preserve-3d;
   min-height: 0;
-}
-.text__qLzg6 * {
-  transform-style: preserve-3d;
 }
 .chipStripeLink:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.chipStripeLink * {
-  transform-style: preserve-3d;
 }

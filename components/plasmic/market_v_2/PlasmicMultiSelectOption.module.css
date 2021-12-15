@@ -5,92 +5,19 @@
   justify-content: flex-start;
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 4px 8px;
 }
-.root * {
-  transform-style: preserve-3d;
-}
-.root__isSelected {
-  transform-style: preserve-3d;
-}
-.root__isSelected * {
-  transform-style: preserve-3d;
-}
 .root__isHighlighted {
   background: #f8f8f8;
-  transform-style: preserve-3d;
-}
-.root__isHighlighted * {
-  transform-style: preserve-3d;
 }
 .root__isDisabled {
   cursor: not-allowed;
-  transform-style: preserve-3d;
-}
-.root__isDisabled * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren__isSelected {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   font-weight: 600;
 }
-.slotTargetChildren__isSelected * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__isSelected > *,
-.slotTargetChildren__isSelected > .__wab_slot > *,
-.slotTargetChildren__isSelected > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__isSelected > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__isSelected > picture > img,
-.slotTargetChildren__isSelected > .__wab_slot > picture > img,
-.slotTargetChildren__isSelected > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren__isSelected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .slotTargetChildren__isDisabled {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-}
-.slotTargetChildren__isDisabled * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__isDisabled > *,
-.slotTargetChildren__isDisabled > .__wab_slot > *,
-.slotTargetChildren__isDisabled > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__isDisabled > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__isDisabled > picture > img,
-.slotTargetChildren__isDisabled > .__wab_slot > picture > img,
-.slotTargetChildren__isDisabled > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren__isDisabled
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__dr4S3 {
-  transform-style: preserve-3d;
-}
-.text__dr4S3 * {
-  transform-style: preserve-3d;
 }

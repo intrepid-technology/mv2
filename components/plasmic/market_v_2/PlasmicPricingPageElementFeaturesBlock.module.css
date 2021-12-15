@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -15,9 +14,6 @@
   min-width: 0;
   margin-top: calc(0px - 12px);
   height: calc(100% + 12px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -38,10 +34,6 @@
   left: auto;
   top: auto;
   text-transform: uppercase;
-  transform-style: preserve-3d;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 .elementFeatureValueListItems {
   display: flex;
@@ -50,7 +42,6 @@
   top: auto;
   left: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -61,9 +52,6 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.elementFeatureValueListItems * {
-  transform-style: preserve-3d;
 }
 .elementFeatureValueListItems > :global(.__wab_flex-container) > *,
 .elementFeatureValueListItems
@@ -78,18 +66,8 @@
   > img {
   margin-top: 16px;
 }
-.tablePricingElementFeatureValueProp__vkCh6:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__vkCh6 * {
-  transform-style: preserve-3d;
-}
 .text__mUsKx {
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__mUsKx * {
-  transform-style: preserve-3d;
 }
 .freeBox__aSr41 {
   display: flex;
@@ -100,35 +78,17 @@
   width: auto;
   height: auto;
   background: #00ccbb;
-  transform-style: preserve-3d;
   border-radius: 100px;
-}
-.freeBox__aSr41 * {
-  transform-style: preserve-3d;
 }
 .svg__tkj8K {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__tkj8K * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp___5F1V7:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp___5F1V7 * {
-  transform-style: preserve-3d;
 }
 .text__fnf3Q {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__fnf3Q * {
-  transform-style: preserve-3d;
 }
 .freeBox___1JBwQ {
   display: flex;
@@ -139,34 +99,14 @@
   width: auto;
   height: auto;
   background: #00ccbb;
-  transform-style: preserve-3d;
   border-radius: 100px;
-}
-.freeBox___1JBwQ * {
-  transform-style: preserve-3d;
 }
 .svg__kSOe {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__kSOe * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__fkWe:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__fkWe * {
-  transform-style: preserve-3d;
-}
-.text___1WqBk {
-  transform-style: preserve-3d;
-}
-.text___1WqBk * {
-  transform-style: preserve-3d;
 }
 .freeBox__anYvS {
   display: flex;
@@ -177,34 +117,14 @@
   width: auto;
   height: auto;
   background: #00ccbb;
-  transform-style: preserve-3d;
   border-radius: 100px;
-}
-.freeBox__anYvS * {
-  transform-style: preserve-3d;
 }
 .svg__jbend {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__jbend * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__ej9Xl:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__ej9Xl * {
-  transform-style: preserve-3d;
-}
-.text__cLPn {
-  transform-style: preserve-3d;
-}
-.text__cLPn * {
-  transform-style: preserve-3d;
 }
 .freeBox__ucKtb {
   display: flex;
@@ -215,34 +135,14 @@
   width: auto;
   height: auto;
   background: #00ccbb;
-  transform-style: preserve-3d;
   border-radius: 100px;
-}
-.freeBox__ucKtb * {
-  transform-style: preserve-3d;
 }
 .svg__lwiHm {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__lwiHm * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__lu2Am:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementFeatureValueProp__lu2Am * {
-  transform-style: preserve-3d;
-}
-.text__j0RFp {
-  transform-style: preserve-3d;
-}
-.text__j0RFp * {
-  transform-style: preserve-3d;
 }
 .freeBox__scJay {
   display: flex;
@@ -253,20 +153,12 @@
   width: auto;
   height: auto;
   background: #00ccbb;
-  transform-style: preserve-3d;
   border-radius: 100px;
-}
-.freeBox__scJay * {
-  transform-style: preserve-3d;
 }
 .svg__jRj3F {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__jRj3F * {
-  transform-style: preserve-3d;
 }

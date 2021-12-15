@@ -4,23 +4,12 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-.root__state_selected {
-  transform-style: preserve-3d;
-}
-.root__state_selected * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
   flex-direction: row;
   width: auto;
   height: 40px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 2px;
   padding: 16px;
@@ -34,9 +23,6 @@
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.parent * {
-  transform-style: preserve-3d;
-}
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .parent > :global(.__wab_flex-container) > picture > img,
@@ -48,25 +34,13 @@
   margin-left: 8px;
 }
 .parent__state_selected {
-  transform-style: preserve-3d;
   border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
-}
-.parent__state_selected * {
-  transform-style: preserve-3d;
 }
 .root:hover .parent {
   background: #f8f8ff;
-  transform-style: preserve-3d;
-}
-.root:hover .parent * {
-  transform-style: preserve-3d;
 }
 .root__state_selected:hover .parent__state_selected {
   background: none;
-  transform-style: preserve-3d;
-}
-.root__state_selected:hover .parent__state_selected * {
-  transform-style: preserve-3d;
 }
 .linkParent {
   display: flex;
@@ -76,25 +50,11 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.linkParent * {
-  transform-style: preserve-3d;
 }
 .linkBg {
   display: flex;
   align-self: stretch;
   position: relative;
-  transform-style: preserve-3d;
-}
-.linkBg * {
-  transform-style: preserve-3d;
-}
-.root:hover .linkBg {
-  transform-style: preserve-3d;
-}
-.root:hover .linkBg * {
-  transform-style: preserve-3d;
 }
 .slotTargetNavLabel {
   font-size: 16px;
@@ -105,114 +65,14 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
-.slotTargetNavLabel * {
-  transform-style: preserve-3d;
-}
-.slotTargetNavLabel > *,
-.slotTargetNavLabel > .__wab_slot > *,
-.slotTargetNavLabel > .__wab_slot > .__wab_slot > *,
-.slotTargetNavLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetNavLabel > picture > img,
-.slotTargetNavLabel > .__wab_slot > picture > img,
-.slotTargetNavLabel > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetNavLabel > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetNavLabel__state_selected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
-}
-.slotTargetNavLabel__state_selected * {
-  transform-style: preserve-3d;
-}
-.slotTargetNavLabel__state_selected > *,
-.slotTargetNavLabel__state_selected > .__wab_slot > *,
-.slotTargetNavLabel__state_selected > .__wab_slot > .__wab_slot > *,
-.slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetNavLabel__state_selected > picture > img,
-.slotTargetNavLabel__state_selected > .__wab_slot > picture > img,
-.slotTargetNavLabel__state_selected > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .root:hover .slotTargetNavLabel {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.root:hover .slotTargetNavLabel * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetNavLabel > *,
-.root:hover .slotTargetNavLabel > .__wab_slot > *,
-.root:hover .slotTargetNavLabel > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetNavLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetNavLabel > picture > img,
-.root:hover .slotTargetNavLabel > .__wab_slot > picture > img,
-.root:hover .slotTargetNavLabel > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetNavLabel
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .root__state_selected:hover .slotTargetNavLabel__state_selected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
-}
-.root__state_selected:hover .slotTargetNavLabel__state_selected * {
-  transform-style: preserve-3d;
-}
-.root__state_selected:hover .slotTargetNavLabel__state_selected > *,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > *,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_selected:hover .slotTargetNavLabel__state_selected > picture > img,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_selected:hover
-  .slotTargetNavLabel__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__umtq7 {
-  transform-style: preserve-3d;
-}
-.text__umtq7 * {
-  transform-style: preserve-3d;
 }
 .numberParent {
   display: flex;
@@ -224,31 +84,11 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.numberParent * {
-  transform-style: preserve-3d;
-}
-.root:hover .numberParent {
-  transform-style: preserve-3d;
-}
-.root:hover .numberParent * {
-  transform-style: preserve-3d;
 }
 .numberBg {
   display: flex;
   align-self: stretch;
   position: relative;
-  transform-style: preserve-3d;
-}
-.numberBg * {
-  transform-style: preserve-3d;
-}
-.root:hover .numberBg {
-  transform-style: preserve-3d;
-}
-.root:hover .numberBg * {
-  transform-style: preserve-3d;
 }
 .slotTargetNumberValue {
   font-size: 16px;
@@ -259,80 +99,6 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: none;
 }
-.slotTargetNumberValue * {
-  transform-style: preserve-3d;
-}
-.slotTargetNumberValue > *,
-.slotTargetNumberValue > .__wab_slot > *,
-.slotTargetNumberValue > .__wab_slot > .__wab_slot > *,
-.slotTargetNumberValue > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetNumberValue > picture > img,
-.slotTargetNumberValue > .__wab_slot > picture > img,
-.slotTargetNumberValue > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetNumberValue
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .slotTargetNumberValue__state_selected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
-}
-.slotTargetNumberValue__state_selected * {
-  transform-style: preserve-3d;
-}
-.slotTargetNumberValue__state_selected > *,
-.slotTargetNumberValue__state_selected > .__wab_slot > *,
-.slotTargetNumberValue__state_selected > .__wab_slot > .__wab_slot > *,
-.slotTargetNumberValue__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetNumberValue__state_selected > picture > img,
-.slotTargetNumberValue__state_selected > .__wab_slot > picture > img,
-.slotTargetNumberValue__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetNumberValue__state_selected
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetNumberValue * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetNumberValue > *,
-.root:hover .slotTargetNumberValue > .__wab_slot > *,
-.root:hover .slotTargetNumberValue > .__wab_slot > .__wab_slot > *,
-.root:hover
-  .slotTargetNumberValue
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root:hover .slotTargetNumberValue > picture > img,
-.root:hover .slotTargetNumberValue > .__wab_slot > picture > img,
-.root:hover .slotTargetNumberValue > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetNumberValue
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__hZbDx {
-  transform-style: preserve-3d;
-}
-.text__hZbDx * {
-  transform-style: preserve-3d;
 }

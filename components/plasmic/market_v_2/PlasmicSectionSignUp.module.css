@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 32px 0px 64px;
 }
@@ -16,34 +15,15 @@
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 0px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 .signUpFormContainerDiv {
@@ -54,32 +34,16 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.signUpFormContainerDiv * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .signUpFormContainerDiv {
     width: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signUpFormContainerDiv * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .signUpFormContainerDiv {
     width: auto;
     height: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .signUpFormContainerDiv * {
-    transform-style: preserve-3d;
   }
 }
 .signUpHeadlineDiv {
@@ -87,7 +51,6 @@
   flex-direction: column;
   width: 360px;
   height: auto;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .signUpHeadlineDiv > :global(.__wab_flex-container) {
@@ -96,9 +59,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.signUpHeadlineDiv * {
-  transform-style: preserve-3d;
 }
 .signUpHeadlineDiv > :global(.__wab_flex-container) > *,
 .signUpHeadlineDiv > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -112,7 +72,6 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .signUpHeadlineDiv {
-    transform-style: preserve-3d;
     padding: 0px;
   }
 }
@@ -122,11 +81,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signUpHeadlineDiv * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -149,13 +103,7 @@
   .signUpHeadlineDiv {
     margin-top: 20px;
     margin-bottom: 20px;
-    transform-style: preserve-3d;
     padding: 0px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .signUpHeadlineDiv * {
-    transform-style: preserve-3d;
   }
 }
 .svgLinkDiv {
@@ -167,20 +115,10 @@
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.svgLinkDiv * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svgLinkDiv {
     margin-left: calc(-10px + 0px) !important;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svgLinkDiv * {
-    transform-style: preserve-3d;
   }
 }
 .svg {
@@ -188,42 +126,22 @@
   width: 48px;
   height: 48px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
     color: #101010 /* plasmic-token: F4gy0u3aB */;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svg * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .svg {
     width: 48px;
     height: 48px;
-    transform-style: preserve-3d;
     flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .svg * {
-    transform-style: preserve-3d;
   }
 }
 .root .svg:hover {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.root .svg:hover * {
-  transform-style: preserve-3d;
 }
 .text {
   display: block;
@@ -239,65 +157,29 @@
   top: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text {
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .text {
     font-size: 40px;
     line-height: 1.5;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text * {
-    transform-style: preserve-3d;
   }
 }
 .cardSignUp:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardSignUp * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .cardSignUp:global(.__wab_instance) {
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .cardSignUp * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardSignUp:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardSignUp * {
-    transform-style: preserve-3d;
   }
 }

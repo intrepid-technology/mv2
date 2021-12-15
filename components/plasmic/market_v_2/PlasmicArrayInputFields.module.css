@@ -6,11 +6,7 @@
   height: auto;
   justify-content: flex-start;
   align-items: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .itemContainer {
   display: flex;
@@ -19,7 +15,6 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .itemContainer > :global(.__wab_flex-container) {
@@ -29,9 +24,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.itemContainer * {
-  transform-style: preserve-3d;
 }
 .itemContainer > :global(.__wab_flex-container) > *,
 .itemContainer > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -45,115 +37,15 @@
 }
 .arrayInputFieldRow___92Hhv:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.arrayInputFieldRow___92Hhv * {
-  transform-style: preserve-3d;
-}
-.textInput__rLgNa:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textInput__rLgNa * {
-  transform-style: preserve-3d;
-}
-.text__n1L8H {
-  transform-style: preserve-3d;
-}
-.text__n1L8H * {
-  transform-style: preserve-3d;
-}
-.text__pE8Mj {
-  transform-style: preserve-3d;
-}
-.text__pE8Mj * {
-  transform-style: preserve-3d;
-}
-.text__scEyj {
-  transform-style: preserve-3d;
-}
-.text__scEyj * {
-  transform-style: preserve-3d;
 }
 .textAreaInput__wB6OF:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.textAreaInput__wB6OF * {
-  transform-style: preserve-3d;
-}
-.text__bLvm {
-  transform-style: preserve-3d;
-}
-.text__bLvm * {
-  transform-style: preserve-3d;
-}
-.text__ncCxd {
-  transform-style: preserve-3d;
-}
-.text__ncCxd * {
-  transform-style: preserve-3d;
-}
-.text__ygRIv {
-  transform-style: preserve-3d;
-}
-.text__ygRIv * {
-  transform-style: preserve-3d;
 }
 .arrayInputFieldRow__lacZx:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.arrayInputFieldRow__lacZx * {
-  transform-style: preserve-3d;
-}
-.textInput__on5Wf:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textInput__on5Wf * {
-  transform-style: preserve-3d;
-}
-.text__ipxio {
-  transform-style: preserve-3d;
-}
-.text__ipxio * {
-  transform-style: preserve-3d;
-}
-.text__cDsAm {
-  transform-style: preserve-3d;
-}
-.text__cDsAm * {
-  transform-style: preserve-3d;
-}
-.text__fjUuG {
-  transform-style: preserve-3d;
-}
-.text__fjUuG * {
-  transform-style: preserve-3d;
 }
 .textAreaInput__jVvds:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.textAreaInput__jVvds * {
-  transform-style: preserve-3d;
-}
-.text__oRxSh {
-  transform-style: preserve-3d;
-}
-.text__oRxSh * {
-  transform-style: preserve-3d;
-}
-.text__gCuye {
-  transform-style: preserve-3d;
-}
-.text__gCuye * {
-  transform-style: preserve-3d;
-}
-.text__g0F3Q {
-  transform-style: preserve-3d;
-}
-.text__g0F3Q * {
-  transform-style: preserve-3d;
 }
 .actionsContainer {
   display: flex;
@@ -164,11 +56,7 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.actionsContainer * {
-  transform-style: preserve-3d;
 }
 .addActionWrapper {
   display: flex;
@@ -179,12 +67,8 @@
   width: 100%;
   height: auto;
   max-width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 8px;
-}
-.addActionWrapper * {
-  transform-style: preserve-3d;
 }
 .addIcon {
   position: relative;
@@ -193,9 +77,5 @@
   width: 24px;
   height: 24px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.addIcon * {
-  transform-style: preserve-3d;
 }

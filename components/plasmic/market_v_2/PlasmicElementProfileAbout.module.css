@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 360px;
   position: relative;
-  transform-style: preserve-3d;
   padding: 8px 16px;
 }
 .root > :global(.__wab_flex-container) {
@@ -12,9 +11,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -28,7 +24,6 @@
     flex-direction: column;
     width: 360px;
     height: auto;
-    transform-style: preserve-3d;
     padding: 8px 16px;
   }
 }
@@ -41,11 +36,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 16px);
     height: calc(100% + 16px);
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -64,17 +54,11 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
     height: auto;
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     justify-content: space-evenly;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 .about {
@@ -86,31 +70,7 @@
   top: auto;
   left: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.about * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .about {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .about * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .about {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .about * {
-    transform-style: preserve-3d;
-  }
 }
 .aboutText {
   display: block;
@@ -121,30 +81,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.aboutText * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .aboutText {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .aboutText * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .aboutText {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .aboutText * {
-    transform-style: preserve-3d;
-  }
 }
 .textParent {
   display: flex;
@@ -154,58 +90,12 @@
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.textParent * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .textParent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .textParent * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .textParent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .textParent * {
-    transform-style: preserve-3d;
-  }
-}
-.text170Characters {
-  transform-style: preserve-3d;
-}
-.text170Characters * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text170Characters {
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text170Characters * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text170Characters {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text170Characters * {
-    transform-style: preserve-3d;
   }
 }

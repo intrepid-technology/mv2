@@ -5,54 +5,10 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
-.root * {
-  transform-style: preserve-3d;
-}
-.root__width__360 {
-  transform-style: preserve-3d;
-}
-.root__width__360 * {
-  transform-style: preserve-3d;
-}
-.root__width__270 {
-  transform-style: preserve-3d;
-}
-.root__width__270 * {
-  transform-style: preserve-3d;
-}
-.root__width__180 {
-  transform-style: preserve-3d;
-}
-.root__width__180 * {
-  transform-style: preserve-3d;
-}
-.root__height__36 {
-  transform-style: preserve-3d;
-}
-.root__height__36 * {
-  transform-style: preserve-3d;
-}
-.root__height__40 {
-  transform-style: preserve-3d;
-}
-.root__height__40 * {
-  transform-style: preserve-3d;
-}
-.root:hover {
-  transform-style: preserve-3d;
-}
-.root:hover * {
-  transform-style: preserve-3d;
-}
 .root:focus-within {
-  transform-style: preserve-3d;
   outline: none;
-}
-.root:focus-within * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -61,98 +17,40 @@
   justify-content: flex-start;
   width: 100%;
   height: 32px;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 4px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.parent * {
-  transform-style: preserve-3d;
-}
-.parent__type_secondary {
-  transform-style: preserve-3d;
-}
-.parent__type_secondary * {
-  transform-style: preserve-3d;
-}
 .parent__width__720 {
   width: 720px;
-  transform-style: preserve-3d;
-}
-.parent__width__720 * {
-  transform-style: preserve-3d;
 }
 .parent__width__540 {
   width: 540px;
-  transform-style: preserve-3d;
-}
-.parent__width__540 * {
-  transform-style: preserve-3d;
 }
 .parent__width__360 {
   width: 360px;
-  transform-style: preserve-3d;
-}
-.parent__width__360 * {
-  transform-style: preserve-3d;
 }
 .parent__width__270 {
   width: 270px;
-  transform-style: preserve-3d;
-}
-.parent__width__270 * {
-  transform-style: preserve-3d;
 }
 .parent__width__180 {
   width: 180px;
-  transform-style: preserve-3d;
-}
-.parent__width__180 * {
-  transform-style: preserve-3d;
 }
 .parent__height__36 {
   height: 36px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.parent__height__36 * {
-  transform-style: preserve-3d;
 }
 .parent__height__40 {
   height: 40px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
-.parent__height__40 * {
-  transform-style: preserve-3d;
-}
-.parent__width__360_height__36 {
-  transform-style: preserve-3d;
-}
-.parent__width__360_height__36 * {
-  transform-style: preserve-3d;
-}
-.parent__width__360_height__40 {
-  transform-style: preserve-3d;
-}
-.parent__width__360_height__40 * {
-  transform-style: preserve-3d;
-}
 .root:hover .parent {
-  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: ZGkVH5KID */;
 }
-.root:hover .parent * {
-  transform-style: preserve-3d;
-}
 .root:focus-within .parent {
-  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-}
-.root:focus-within .parent * {
-  transform-style: preserve-3d;
 }
 .searchSvgbg {
   display: flex;
@@ -167,139 +65,59 @@
   background: #f8f8f8;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 6px;
 }
-.searchSvgbg * {
-  transform-style: preserve-3d;
-}
 .searchSvgbg__type_secondary {
   background: #ffffff;
-  transform-style: preserve-3d;
-}
-.searchSvgbg__type_secondary * {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__360 {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__360 * {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__270 {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__270 * {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__180 {
-  transform-style: preserve-3d;
-}
-.searchSvgbg__width__180 * {
-  transform-style: preserve-3d;
 }
 .searchSvgbg__height__36 {
   width: 32px;
   height: 32px;
   justify-content: center;
   align-items: center;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.searchSvgbg__height__36 * {
-  transform-style: preserve-3d;
 }
 .searchSvgbg__height__40 {
   width: 36px;
   height: 36px;
   align-items: center;
   justify-content: center;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.searchSvgbg__height__40 * {
-  transform-style: preserve-3d;
 }
 .searchSvg {
   object-fit: cover;
   height: 16px;
   width: 16px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.searchSvg * {
-  transform-style: preserve-3d;
 }
 .searchSvg__height__36 {
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.searchSvg__height__36 * {
-  transform-style: preserve-3d;
 }
 .searchSvg__height__40 {
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.searchSvg__height__40 * {
-  transform-style: preserve-3d;
 }
 .textboxParent {
   display: flex;
   position: relative;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
-.textboxParent * {
-  transform-style: preserve-3d;
-}
 .textboxParent__type_primary {
   background: #f8f8f8;
-  transform-style: preserve-3d;
-}
-.textboxParent__type_primary * {
-  transform-style: preserve-3d;
 }
 .textboxParent__type_secondary {
   background: #ffffff;
-  transform-style: preserve-3d;
-}
-.textboxParent__type_secondary * {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__360 {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__360 * {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__270 {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__270 * {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__180 {
-  transform-style: preserve-3d;
-}
-.textboxParent__width__180 * {
-  transform-style: preserve-3d;
 }
 .root:focus-within .textboxParent {
-  transform-style: preserve-3d;
   outline: none;
-}
-.root:focus-within .textboxParent * {
-  transform-style: preserve-3d;
 }
 .textInput {
   width: 100%;
@@ -310,18 +128,10 @@
   background: #f8f8f8;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border: 2px solid rgba(255, 255, 255, 0.2) /* plasmic-token: FuVdnB9x_ */;
 }
-.textInput * {
-  transform-style: preserve-3d;
-}
 .textInput__type_secondary {
   background: #ffffff;
-  transform-style: preserve-3d;
-}
-.textInput__type_secondary * {
-  transform-style: preserve-3d;
 }

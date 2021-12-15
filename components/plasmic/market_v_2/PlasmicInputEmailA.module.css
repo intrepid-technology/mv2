@@ -4,7 +4,6 @@
   width: auto;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .root > :global(.__wab_flex-container) {
@@ -13,9 +12,6 @@
   justify-content: space-between;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,7 +27,6 @@
   left: auto;
   width: 360px;
   height: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .inputEmailParent > :global(.__wab_flex-container) {
@@ -40,9 +35,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
-}
-.inputEmailParent * {
-  transform-style: preserve-3d;
 }
 .inputEmailParent > :global(.__wab_flex-container) > *,
 .inputEmailParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -56,27 +48,15 @@
 }
 .inputEmailParent__size__360 {
   width: 360px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inputEmailParent__size__360 * {
-  transform-style: preserve-3d;
 }
 .inputEmailParent__size__540 {
   width: 540px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inputEmailParent__size__540 * {
-  transform-style: preserve-3d;
 }
 .inputEmailParent__size__720 {
   width: 720px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inputEmailParent__size__720 * {
-  transform-style: preserve-3d;
 }
 .textInput {
   display: block;
@@ -97,103 +77,45 @@
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-width: 2px;
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.textInput * {
-  transform-style: preserve-3d;
-}
 .textInput__size__360 {
   font-size: 14px;
   line-height: 1.2;
-  transform-style: preserve-3d;
-}
-.textInput__size__360 * {
-  transform-style: preserve-3d;
 }
 .textInput__size__540 {
   font-size: 14px;
   line-height: 1.2;
-  transform-style: preserve-3d;
-}
-.textInput__size__540 * {
-  transform-style: preserve-3d;
 }
 .textInput__size__720 {
   line-height: 1;
   font-size: 16px;
-  transform-style: preserve-3d;
-}
-.textInput__size__720 * {
-  transform-style: preserve-3d;
 }
 .buttonPrimary:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .buttonPrimary:global(.__wab_instance) {
-    transform-style: preserve-3d;
     flex-shrink: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .buttonPrimary * {
-    transform-style: preserve-3d;
-  }
-}
 .buttonPrimary__size__360:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__size__360 * {
-  transform-style: preserve-3d;
 }
 .buttonPrimary__size__540:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__size__540 * {
-  transform-style: preserve-3d;
 }
 .buttonPrimary__size__720:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__size__720 * {
-  transform-style: preserve-3d;
-}
-.text___8FIte {
-  transform-style: preserve-3d;
-}
-.text___8FIte * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text___8FIte {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text___8FIte * {
-    transform-style: preserve-3d;
-  }
 }
 .svg__bPcC {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__bPcC * {
-  transform-style: preserve-3d;
 }

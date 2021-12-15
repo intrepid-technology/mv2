@@ -4,7 +4,6 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -14,9 +13,6 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -37,26 +33,14 @@
   top: auto;
   right: auto;
   z-index: 2;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
-}
-.deleteIconWrapper * {
-  transform-style: preserve-3d;
 }
 .removeButton:global(.__wab_instance) {
   position: relative;
   width: 80px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.removeButton * {
-  transform-style: preserve-3d;
 }
 .text {
   font-size: 12px;
-  transform-style: preserve-3d;
-}
-.text * {
-  transform-style: preserve-3d;
 }

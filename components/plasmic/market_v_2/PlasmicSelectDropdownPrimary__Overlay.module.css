@@ -4,10 +4,6 @@
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .top {
   display: flex;
@@ -15,18 +11,10 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.top * {
-  transform-style: preserve-3d;
 }
 .top__relativePlacement_bottom {
   height: 5px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.top__relativePlacement_bottom * {
-  transform-style: preserve-3d;
 }
 .middle {
   display: flex;
@@ -35,11 +23,7 @@
   align-items: stretch;
   justify-content: flex-start;
   height: 100%;
-  transform-style: preserve-3d;
   min-height: 0;
-}
-.middle * {
-  transform-style: preserve-3d;
 }
 .left {
   display: flex;
@@ -47,18 +31,10 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.left * {
-  transform-style: preserve-3d;
 }
 .left__relativePlacement_right {
   width: 5px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.left__relativePlacement_right * {
-  transform-style: preserve-3d;
 }
 .main {
   position: relative;
@@ -70,12 +46,8 @@
   flex-direction: column;
   box-shadow: 1px 1px 16px 0px #00000033;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 4px;
-}
-.main * {
-  transform-style: preserve-3d;
 }
 .right {
   display: flex;
@@ -83,18 +55,10 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.right * {
-  transform-style: preserve-3d;
 }
 .right__relativePlacement_left {
   width: 5px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.right__relativePlacement_left * {
-  transform-style: preserve-3d;
 }
 .bottom {
   display: flex;
@@ -102,16 +66,8 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.bottom * {
-  transform-style: preserve-3d;
 }
 .bottom__relativePlacement_top {
   height: 5px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.bottom__relativePlacement_top * {
-  transform-style: preserve-3d;
 }

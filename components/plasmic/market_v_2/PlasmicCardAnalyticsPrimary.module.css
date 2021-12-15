@@ -7,29 +7,17 @@
   height: 180px;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 4px;
   border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.parent * {
-  transform-style: preserve-3d;
-}
 .parent__size__270 {
   width: 270px;
   height: 270px;
-  transform-style: preserve-3d;
   padding: 16px;
 }
-.parent__size__270 * {
-  transform-style: preserve-3d;
-}
 .parent:hover {
-  transform-style: preserve-3d;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-}
-.parent:hover * {
-  transform-style: preserve-3d;
 }
 .svgQuestionParent {
   display: flex;
@@ -41,11 +29,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.svgQuestionParent * {
-  transform-style: preserve-3d;
 }
 .freeBox__yZ0QO {
   display: flex;
@@ -53,20 +37,12 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.freeBox__yZ0QO * {
-  transform-style: preserve-3d;
 }
 .svg__dd45H {
   object-fit: cover;
   width: 12px;
   height: 12px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__dd45H * {
-  transform-style: preserve-3d;
 }
 .iconNumberValueTitlePercentValueParent {
   display: flex;
@@ -76,7 +52,6 @@
   height: 100%;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   padding: 8px;
@@ -89,9 +64,6 @@
   min-height: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.iconNumberValueTitlePercentValueParent * {
-  transform-style: preserve-3d;
 }
 .iconNumberValueTitlePercentValueParent > :global(.__wab_flex-container) > *,
 .iconNumberValueTitlePercentValueParent
@@ -109,20 +81,7 @@
   > img {
   margin-top: 16px;
 }
-.iconNumberValueTitlePercentValueParent__numeration {
-  transform-style: preserve-3d;
-}
-.iconNumberValueTitlePercentValueParent__numeration * {
-  transform-style: preserve-3d;
-}
-.iconNumberValueTitlePercentValueParent__currency {
-  transform-style: preserve-3d;
-}
-.iconNumberValueTitlePercentValueParent__currency * {
-  transform-style: preserve-3d;
-}
 .iconNumberValueTitlePercentValueParent__size__270 {
-  transform-style: preserve-3d;
   padding: 16px;
 }
 .iconNumberValueTitlePercentValueParent__size__270
@@ -131,9 +90,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.iconNumberValueTitlePercentValueParent__size__270 * {
-  transform-style: preserve-3d;
 }
 .iconNumberValueTitlePercentValueParent__size__270
   > :global(.__wab_flex-container)
@@ -154,12 +110,6 @@
   margin-left: 0px;
   margin-top: 32px;
 }
-.iconNumberValueTitlePercentValueParent__currency_size__270 {
-  transform-style: preserve-3d;
-}
-.iconNumberValueTitlePercentValueParent__currency_size__270 * {
-  transform-style: preserve-3d;
-}
 .svgIconParent {
   display: flex;
   position: relative;
@@ -168,16 +118,6 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.svgIconParent * {
-  transform-style: preserve-3d;
-}
-.svgIconParent__size__270 {
-  transform-style: preserve-3d;
-}
-.svgIconParent__size__270 * {
-  transform-style: preserve-3d;
 }
 .freeBox___5VQqz {
   display: flex;
@@ -187,25 +127,17 @@
   width: 32px;
   height: 32px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-}
-.freeBox___5VQqz * {
-  transform-style: preserve-3d;
 }
 .svg__pdGd6 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__pdGd6 * {
-  transform-style: preserve-3d;
 }
 .freeBox__qjbPm {
   display: flex;
@@ -215,24 +147,16 @@
   width: 32px;
   height: 32px;
   background: #f0ebff;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 100px;
   padding: 4px;
-}
-.freeBox__qjbPm * {
-  transform-style: preserve-3d;
 }
 .svg__hwk83 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__hwk83 * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -240,7 +164,6 @@
   flex-direction: column;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -248,9 +171,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -265,7 +185,6 @@
 .numberValue {
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
 }
 .numberValue > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -273,9 +192,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
-}
-.numberValue * {
-  transform-style: preserve-3d;
 }
 .numberValue > :global(.__wab_flex-container) > *,
 .numberValue > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -287,60 +203,18 @@
   > img {
   margin-left: 2px;
 }
-.numberValue__size__270 {
-  transform-style: preserve-3d;
-}
-.numberValue__size__270 * {
-  transform-style: preserve-3d;
-}
 .currencyParent {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.currencyParent * {
-  transform-style: preserve-3d;
 }
 .currencyParent__numeration {
-  transform-style: preserve-3d;
   display: flex;
-}
-.currencyParent__numeration * {
-  transform-style: preserve-3d;
-}
-.currencyParent__currency {
-  transform-style: preserve-3d;
-}
-.currencyParent__currency * {
-  transform-style: preserve-3d;
-}
-.currencyParent__size__270 {
-  transform-style: preserve-3d;
-}
-.currencyParent__size__270 * {
-  transform-style: preserve-3d;
 }
 .currencyParent__size__270_numeration {
-  transform-style: preserve-3d;
   display: flex;
-}
-.currencyParent__size__270_numeration * {
-  transform-style: preserve-3d;
-}
-.currencyParent__currency_size__270 {
-  transform-style: preserve-3d;
-}
-.currencyParent__currency_size__270 * {
-  transform-style: preserve-3d;
-}
-.currencyParent__numeration_currency_size__270 {
-  transform-style: preserve-3d;
-}
-.currencyParent__numeration_currency_size__270 * {
-  transform-style: preserve-3d;
 }
 .text__wM3Ab {
   display: block;
@@ -351,10 +225,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__wM3Ab * {
-  transform-style: preserve-3d;
 }
 .text__a4Wh {
   display: block;
@@ -365,10 +235,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__a4Wh * {
-  transform-style: preserve-3d;
 }
 .text__ncgFi {
   display: block;
@@ -379,10 +245,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__ncgFi * {
-  transform-style: preserve-3d;
 }
 .text__jOHp {
   display: block;
@@ -393,10 +255,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__jOHp * {
-  transform-style: preserve-3d;
 }
 .numerationParent {
   display: flex;
@@ -404,47 +262,9 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.numerationParent * {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration * {
-  transform-style: preserve-3d;
 }
 .numerationParent__currency {
-  transform-style: preserve-3d;
   display: flex;
-}
-.numerationParent__currency * {
-  transform-style: preserve-3d;
-}
-.numerationParent__size__270 {
-  transform-style: preserve-3d;
-}
-.numerationParent__size__270 * {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration_currency {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration_currency * {
-  transform-style: preserve-3d;
-}
-.numerationParent__size__270_numeration {
-  transform-style: preserve-3d;
-}
-.numerationParent__size__270_numeration * {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration_currency_size__270 {
-  transform-style: preserve-3d;
-}
-.numerationParent__numeration_currency_size__270 * {
-  transform-style: preserve-3d;
 }
 .text__vDq8H {
   display: block;
@@ -455,10 +275,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__vDq8H * {
-  transform-style: preserve-3d;
 }
 .text__vyTh {
   display: block;
@@ -469,10 +285,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__vyTh * {
-  transform-style: preserve-3d;
 }
 .cardTitle {
   display: flex;
@@ -480,7 +292,6 @@
   flex-direction: column;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
 }
 .cardTitle > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -488,9 +299,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardTitle * {
-  transform-style: preserve-3d;
 }
 .cardTitle > :global(.__wab_flex-container) > *,
 .cardTitle > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -502,27 +310,13 @@
   > img {
   margin-top: 24px;
 }
-.cardTitle__size__270 {
-  transform-style: preserve-3d;
-}
-.cardTitle__size__270 * {
-  transform-style: preserve-3d;
-}
 .text__vly1J {
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__vly1J * {
-  transform-style: preserve-3d;
 }
 .text__zL10 {
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   font-size: 16px;
-  transform-style: preserve-3d;
-}
-.text__zL10 * {
-  transform-style: preserve-3d;
 }
 .valueChangeParent {
   display: flex;
@@ -530,113 +324,59 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.valueChangeParent * {
-  transform-style: preserve-3d;
-}
-.elementAnalyticsPercentValueChange__whMy8:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.elementAnalyticsPercentValueChange__whMy8 * {
-  transform-style: preserve-3d;
 }
 .svg___5Mr2U {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg___5Mr2U * {
-  transform-style: preserve-3d;
 }
 .text__yhPhL {
   font-size: 14px;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
-}
-.text__yhPhL * {
-  transform-style: preserve-3d;
 }
 .text___2Fp0Z {
   font-size: 14px;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
-}
-.text___2Fp0Z * {
-  transform-style: preserve-3d;
 }
 .svg__km3Y {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__km3Y * {
-  transform-style: preserve-3d;
 }
 .svg___6QnCy {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg___6QnCy * {
-  transform-style: preserve-3d;
 }
 .text___49N4A {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
-  transform-style: preserve-3d;
-}
-.text___49N4A * {
-  transform-style: preserve-3d;
 }
 .text__jYBg4 {
   font-size: 14px;
   color: #00ccbb /* plasmic-token: p7MYBCVhU */;
-  transform-style: preserve-3d;
-}
-.text__jYBg4 * {
-  transform-style: preserve-3d;
 }
 .text__jsNg8 {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
-  transform-style: preserve-3d;
-}
-.text__jsNg8 * {
-  transform-style: preserve-3d;
 }
 .text__by3Ob {
   font-size: 14px;
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
-  transform-style: preserve-3d;
-}
-.text__by3Ob * {
-  transform-style: preserve-3d;
 }
 .text___7DGw8 {
   font-size: 14px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text___7DGw8 * {
-  transform-style: preserve-3d;
 }
 .text__fyfNp {
   font-size: 14px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__fyfNp * {
-  transform-style: preserve-3d;
 }

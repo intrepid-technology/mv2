@@ -6,26 +6,6 @@
   justify-content: flex-start;
   width: 720px;
   height: auto;
-  transform-style: preserve-3d;
-}
-.parent * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .parent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .parent * {
-    transform-style: preserve-3d;
-  }
-}
-.parent__companies_quickbooks {
-  transform-style: preserve-3d;
-}
-.parent__companies_quickbooks * {
-  transform-style: preserve-3d;
 }
 .cardParent {
   display: flex;
@@ -33,7 +13,6 @@
   width: 100%;
   height: auto;
   min-width: 360px;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 8px 16px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
@@ -47,9 +26,6 @@
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
-.cardParent * {
-  transform-style: preserve-3d;
-}
 .cardParent > :global(.__wab_flex-container) > *,
 .cardParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .cardParent > :global(.__wab_flex-container) > picture > img,
@@ -60,42 +36,6 @@
   > img {
   margin-left: 24px;
 }
-.cardParent__companies_google {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_google * {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_facebook {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_facebook * {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_stripe {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_stripe * {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_paypal {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_paypal * {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_xero {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_xero * {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_quickbooks {
-  transform-style: preserve-3d;
-}
-.cardParent__companies_quickbooks * {
-  transform-style: preserve-3d;
-}
 .iconTextGroup {
   display: flex;
   position: relative;
@@ -105,7 +45,6 @@
   left: auto;
   top: auto;
   align-self: auto;
-  transform-style: preserve-3d;
 }
 .iconTextGroup > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -117,9 +56,6 @@
   width: calc(100% + 32px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.iconTextGroup * {
-  transform-style: preserve-3d;
 }
 .iconTextGroup > :global(.__wab_flex-container) > *,
 .iconTextGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -135,262 +71,104 @@
 .iconPrimary:global(.__wab_instance) {
   position: relative;
   align-self: center;
-  transform-style: preserve-3d;
-}
-.iconPrimary * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__team:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__team * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_google:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_google * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_facebook:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_facebook * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_stripe:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_stripe * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_paypal:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_paypal * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_xero:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_xero * {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_quickbooks:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.iconPrimary__companies_quickbooks * {
-  transform-style: preserve-3d;
 }
 .svg__qM22S {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__qM22S * {
-  transform-style: preserve-3d;
 }
 .svg__hKev {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__hKev * {
-  transform-style: preserve-3d;
 }
 .svg__uDnx {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__uDnx * {
-  transform-style: preserve-3d;
 }
 .svg__cMm9H {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__cMm9H * {
-  transform-style: preserve-3d;
 }
 .svg__aqFvw {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__aqFvw * {
-  transform-style: preserve-3d;
 }
 .svgIcon6 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svgIcon6 * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__team {
-  transform-style: preserve-3d;
-}
-.svgIcon6__team * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_google {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_google * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_facebook {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_facebook * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_stripe {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_stripe * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_paypal {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_paypal * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_xero {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_xero * {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_quickbooks {
-  transform-style: preserve-3d;
-}
-.svgIcon6__companies_quickbooks * {
-  transform-style: preserve-3d;
 }
 .svg__zxAp3 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__zxAp3 * {
-  transform-style: preserve-3d;
-}
-.svg__team__zxAp3F08CR {
-  transform-style: preserve-3d;
-}
-.svg__team__zxAp3F08CR * {
-  transform-style: preserve-3d;
 }
 .svgIcon8 {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
-.svgIcon8 * {
-  transform-style: preserve-3d;
-}
 .svgIcon8__companies_google {
   color: #db4437 /* plasmic-token: pXhZGSe3B */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_google * {
-  transform-style: preserve-3d;
 }
 .svgIcon8__companies_facebook {
   color: #4267b2 /* plasmic-token: CwLIZ-exE */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_facebook * {
-  transform-style: preserve-3d;
 }
 .svgIcon8__companies_stripe {
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_stripe * {
-  transform-style: preserve-3d;
 }
 .svgIcon8__companies_paypal {
   color: #327aea /* plasmic-token: EfXZlpq-M */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_paypal * {
-  transform-style: preserve-3d;
 }
 .svgIcon8__companies_xero {
   color: #13b5ea /* plasmic-token: qYCtWfv-v */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_xero * {
-  transform-style: preserve-3d;
 }
 .svgIcon8__companies_quickbooks {
   color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
-  transform-style: preserve-3d;
-}
-.svgIcon8__companies_quickbooks * {
-  transform-style: preserve-3d;
 }
 .svg___8QiMh {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg___8QiMh * {
-  transform-style: preserve-3d;
 }
 .svg__q0TaK {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__q0TaK * {
-  transform-style: preserve-3d;
 }
 .accountInfoParent {
   display: flex;
@@ -400,7 +178,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .accountInfoParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -408,9 +185,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.accountInfoParent * {
-  transform-style: preserve-3d;
 }
 .accountInfoParent > :global(.__wab_flex-container) > *,
 .accountInfoParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -422,78 +196,24 @@
   > img {
   margin-top: 4px;
 }
-.accountInfoParent__team {
-  transform-style: preserve-3d;
-}
-.accountInfoParent__team * {
-  transform-style: preserve-3d;
-}
 .freeBox {
   position: relative;
   left: auto;
   top: auto;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .accountName {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.accountName * {
-  transform-style: preserve-3d;
 }
 .text___5QGGx {
   position: relative;
   font-size: 16px;
   font-weight: 500;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
-  transform-style: preserve-3d;
-}
-.text___5QGGx * {
-  transform-style: preserve-3d;
-}
-.text__companies_google___5QGGxz16Ry {
-  transform-style: preserve-3d;
-}
-.text__companies_google___5QGGxz16Ry * {
-  transform-style: preserve-3d;
-}
-.text__companies_facebook___5QGGx2DCs6 {
-  transform-style: preserve-3d;
-}
-.text__companies_facebook___5QGGx2DCs6 * {
-  transform-style: preserve-3d;
-}
-.text__companies_stripe___5QGGxpK9 {
-  transform-style: preserve-3d;
-}
-.text__companies_stripe___5QGGxpK9 * {
-  transform-style: preserve-3d;
-}
-.text__companies_paypal___5QGGx8RDJh {
-  transform-style: preserve-3d;
-}
-.text__companies_paypal___5QGGx8RDJh * {
-  transform-style: preserve-3d;
-}
-.text__companies_xero___5QGGx8XgX {
-  transform-style: preserve-3d;
-}
-.text__companies_xero___5QGGx8XgX * {
-  transform-style: preserve-3d;
-}
-.text__companies_quickbooks___5QGGx60NOj {
-  transform-style: preserve-3d;
-}
-.text__companies_quickbooks___5QGGx60NOj * {
-  transform-style: preserve-3d;
 }
 .usernameGroupParent {
   display: flex;
@@ -503,7 +223,6 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .usernameGroupParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -511,9 +230,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
-}
-.usernameGroupParent * {
-  transform-style: preserve-3d;
 }
 .usernameGroupParent > :global(.__wab_flex-container) > *,
 .usernameGroupParent
@@ -531,121 +247,12 @@
 .slotTargetUserFirstname {
   font-size: 14px;
 }
-.slotTargetUserFirstname * {
-  transform-style: preserve-3d;
-}
-.slotTargetUserFirstname > *,
-.slotTargetUserFirstname > .__wab_slot > *,
-.slotTargetUserFirstname > .__wab_slot > .__wab_slot > *,
-.slotTargetUserFirstname > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetUserFirstname > picture > img,
-.slotTargetUserFirstname > .__wab_slot > picture > img,
-.slotTargetUserFirstname > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetUserFirstname
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetUserFirstname__team * {
-  transform-style: preserve-3d;
-}
-.slotTargetUserFirstname__team > *,
-.slotTargetUserFirstname__team > .__wab_slot > *,
-.slotTargetUserFirstname__team > .__wab_slot > .__wab_slot > *,
-.slotTargetUserFirstname__team > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetUserFirstname__team > picture > img,
-.slotTargetUserFirstname__team > .__wab_slot > picture > img,
-.slotTargetUserFirstname__team > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetUserFirstname__team
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___2Leyt {
-  transform-style: preserve-3d;
-}
-.text___2Leyt * {
-  transform-style: preserve-3d;
-}
-.text__team___2Leytf08CR {
-  transform-style: preserve-3d;
-}
-.text__team___2Leytf08CR * {
-  transform-style: preserve-3d;
-}
 .slotTargetUserLastName {
   font-size: 14px;
-}
-.slotTargetUserLastName * {
-  transform-style: preserve-3d;
-}
-.slotTargetUserLastName > *,
-.slotTargetUserLastName > .__wab_slot > *,
-.slotTargetUserLastName > .__wab_slot > .__wab_slot > *,
-.slotTargetUserLastName > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetUserLastName > picture > img,
-.slotTargetUserLastName > .__wab_slot > picture > img,
-.slotTargetUserLastName > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetUserLastName
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetUserLastName__team * {
-  transform-style: preserve-3d;
-}
-.slotTargetUserLastName__team > *,
-.slotTargetUserLastName__team > .__wab_slot > *,
-.slotTargetUserLastName__team > .__wab_slot > .__wab_slot > *,
-.slotTargetUserLastName__team > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetUserLastName__team > picture > img,
-.slotTargetUserLastName__team > .__wab_slot > picture > img,
-.slotTargetUserLastName__team > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetUserLastName__team
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__tyIdH {
-  transform-style: preserve-3d;
-}
-.text__tyIdH * {
-  transform-style: preserve-3d;
 }
 .slotTargetUsername {
   font-size: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-}
-.slotTargetUsername * {
-  transform-style: preserve-3d;
-}
-.slotTargetUsername > *,
-.slotTargetUsername > .__wab_slot > *,
-.slotTargetUsername > .__wab_slot > .__wab_slot > *,
-.slotTargetUsername > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetUsername > picture > img,
-.slotTargetUsername > .__wab_slot > picture > img,
-.slotTargetUsername > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetUsername > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text___7TIiN {
-  transform-style: preserve-3d;
-}
-.text___7TIiN * {
-  transform-style: preserve-3d;
 }
 .connectedTimestampParent {
   display: flex;
@@ -655,7 +262,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .connectedTimestampParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -663,9 +269,6 @@
   justify-content: space-between;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.connectedTimestampParent * {
-  transform-style: preserve-3d;
 }
 .connectedTimestampParent > :global(.__wab_flex-container) > *,
 .connectedTimestampParent
@@ -688,7 +291,6 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .connectedTimestamp > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -696,9 +298,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
-}
-.connectedTimestamp * {
-  transform-style: preserve-3d;
 }
 .connectedTimestamp > :global(.__wab_flex-container) > *,
 .connectedTimestamp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -714,48 +313,10 @@
   font-size: 12px;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__tZkwH * {
-  transform-style: preserve-3d;
 }
 .slotTargetTimestampDate {
   font-size: 12px;
 }
-.slotTargetTimestampDate * {
-  transform-style: preserve-3d;
-}
-.slotTargetTimestampDate > *,
-.slotTargetTimestampDate > .__wab_slot > *,
-.slotTargetTimestampDate > .__wab_slot > .__wab_slot > *,
-.slotTargetTimestampDate > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetTimestampDate > picture > img,
-.slotTargetTimestampDate > .__wab_slot > picture > img,
-.slotTargetTimestampDate > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetTimestampDate
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__pHCK {
-  transform-style: preserve-3d;
-}
-.text__pHCK * {
-  transform-style: preserve-3d;
-}
 .buttonCircleDelete:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.buttonCircleDelete * {
-  transform-style: preserve-3d;
-}
-.buttonCircleDelete__companies_google:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.buttonCircleDelete__companies_google * {
-  transform-style: preserve-3d;
 }

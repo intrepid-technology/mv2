@@ -7,11 +7,7 @@
   height: auto;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .freeBox__meTMb {
   display: flex;
@@ -23,11 +19,7 @@
   height: 300px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 32px;
-}
-.freeBox__meTMb * {
-  transform-style: preserve-3d;
 }
 .freeBox__mPjNz {
   position: relative;
@@ -37,21 +29,13 @@
   width: 579px;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
   margin: 0px 0px 64px;
-}
-.freeBox__mPjNz * {
-  transform-style: preserve-3d;
 }
 .freeBox__hJgt {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox__hJgt * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 32px;
@@ -61,52 +45,19 @@
   line-height: 40px;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__ufBpu {
-  transform-style: preserve-3d;
-}
-.text__ufBpu * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary * {
-  transform-style: preserve-3d;
-}
-.text__yyBgm {
-  transform-style: preserve-3d;
-}
-.text__yyBgm * {
-  transform-style: preserve-3d;
 }
 .svg__qrbga {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__qrbga * {
-  transform-style: preserve-3d;
 }
 .freeBox__cL3Qf {
   display: flex;
@@ -118,12 +69,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 12px;
-}
-.freeBox__cL3Qf * {
-  transform-style: preserve-3d;
 }
 .img___7OtsV {
   position: relative;
@@ -132,7 +79,6 @@
   top: auto;
   height: 100%;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -141,7 +87,4 @@
 }
 .img___7OtsV > .__wab_img-spacer > img {
   object-fit: cover;
-}
-.img___7OtsV * {
-  transform-style: preserve-3d;
 }

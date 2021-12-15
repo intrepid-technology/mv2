@@ -1,7 +1,3 @@
 .root {
   position: relative;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }

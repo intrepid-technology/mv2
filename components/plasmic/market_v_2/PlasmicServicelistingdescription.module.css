@@ -5,7 +5,6 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -17,24 +16,11 @@
   margin-top: calc(0px - 40px);
   height: calc(100% + 40px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 40px;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .serviceListingNavbar {
   display: flex;
@@ -46,53 +32,17 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.serviceListingNavbar * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .serviceListingNavbar {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .serviceListingNavbar * {
-    transform-style: preserve-3d;
-  }
-}
-.navbarServiceListing:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.navbarServiceListing * {
-  transform-style: preserve-3d;
-}
-.text__jJddy {
-  transform-style: preserve-3d;
-}
-.text__jJddy * {
-  transform-style: preserve-3d;
 }
 .progressBar:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.progressBar * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .progressBar:global(.__wab_instance) {
-    transform-style: preserve-3d;
     flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .progressBar * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox___09Zdm {
@@ -103,7 +53,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 40px 180px;
 }
@@ -114,9 +63,6 @@
   min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
-}
-.freeBox___09Zdm * {
-  transform-style: preserve-3d;
 }
 .freeBox___09Zdm > :global(.__wab_flex-container) > *,
 .freeBox___09Zdm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -134,7 +80,6 @@
     padding-left: 8px;
     display: flex;
     flex-direction: column-reverse;
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -146,11 +91,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox___09Zdm * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -172,7 +112,6 @@
   flex-direction: column;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
 }
 .questionTitleBlock > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -180,9 +119,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
-}
-.questionTitleBlock * {
-  transform-style: preserve-3d;
 }
 .questionTitleBlock > :global(.__wab_flex-container) > *,
 .questionTitleBlock > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -199,7 +135,6 @@
     left: auto;
     top: auto;
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -210,11 +145,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .questionTitleBlock * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -233,22 +163,10 @@
     margin-top: 32px;
   }
 }
-.cardQuestionServiceListing__xYvX3:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardQuestionServiceListing__xYvX3 * {
-  transform-style: preserve-3d;
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .cardQuestionServiceListing__xYvX3:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardQuestionServiceListing__xYvX3 * {
-    transform-style: preserve-3d;
   }
 }
 .text__laelq {
@@ -260,91 +178,29 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__laelq * {
-  transform-style: preserve-3d;
 }
 .text__nr931 {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.text__nr931 * {
-  transform-style: preserve-3d;
-}
-.text__obOpi {
-  transform-style: preserve-3d;
-}
-.text__obOpi * {
-  transform-style: preserve-3d;
 }
 .serviceNameInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.serviceNameInput * {
-  transform-style: preserve-3d;
-}
-.text__yMqp {
-  transform-style: preserve-3d;
-}
-.text__yMqp * {
-  transform-style: preserve-3d;
-}
-.text__wOyYx {
-  transform-style: preserve-3d;
-}
-.text__wOyYx * {
-  transform-style: preserve-3d;
-}
-.text___5DlGv {
-  transform-style: preserve-3d;
-}
-.text___5DlGv * {
-  transform-style: preserve-3d;
 }
 .toolTipServiceListing__eMfGr:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.toolTipServiceListing__eMfGr * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__eMfGr:global(.__wab_instance) {
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .toolTipServiceListing__eMfGr * {
-    transform-style: preserve-3d;
-  }
-}
-.text__wdWrZ {
-  transform-style: preserve-3d;
-}
-.text__wdWrZ * {
-  transform-style: preserve-3d;
-}
-.text__qEgI {
-  transform-style: preserve-3d;
-}
-.text__qEgI * {
-  transform-style: preserve-3d;
 }
 .svg__jrz8O {
   object-fit: cover;
   width: 32px;
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
-  transform-style: preserve-3d;
-}
-.svg__jrz8O * {
-  transform-style: preserve-3d;
 }
 .freeBox__qeVgc {
   display: flex;
@@ -354,7 +210,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 40px 180px;
 }
@@ -365,9 +220,6 @@
   min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
-}
-.freeBox__qeVgc * {
-  transform-style: preserve-3d;
 }
 .freeBox__qeVgc > :global(.__wab_flex-container) > *,
 .freeBox__qeVgc > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -385,7 +237,6 @@
     padding-left: 8px;
     display: flex;
     flex-direction: column-reverse;
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -397,11 +248,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox__qeVgc * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -425,7 +271,6 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .questionDescriptionBlock > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -433,9 +278,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
-}
-.questionDescriptionBlock * {
-  transform-style: preserve-3d;
 }
 .questionDescriptionBlock > :global(.__wab_flex-container) > *,
 .questionDescriptionBlock
@@ -455,7 +297,6 @@
     left: auto;
     top: auto;
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -466,11 +307,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .questionDescriptionBlock * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -489,22 +325,10 @@
     margin-top: 32px;
   }
 }
-.cardQuestionServiceListing__ts7RO:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardQuestionServiceListing__ts7RO * {
-  transform-style: preserve-3d;
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .cardQuestionServiceListing__ts7RO:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardQuestionServiceListing__ts7RO * {
-    transform-style: preserve-3d;
   }
 }
 .text___0B5MK {
@@ -516,91 +340,29 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text___0B5MK * {
-  transform-style: preserve-3d;
 }
 .text__uc5Jc {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.text__uc5Jc * {
-  transform-style: preserve-3d;
-}
-.text__imlb7 {
-  transform-style: preserve-3d;
-}
-.text__imlb7 * {
-  transform-style: preserve-3d;
 }
 .serviceDescriptionInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.serviceDescriptionInput * {
-  transform-style: preserve-3d;
-}
-.text__m6EzM {
-  transform-style: preserve-3d;
-}
-.text__m6EzM * {
-  transform-style: preserve-3d;
-}
-.text__pX8Oq {
-  transform-style: preserve-3d;
-}
-.text__pX8Oq * {
-  transform-style: preserve-3d;
-}
-.text__qmnXm {
-  transform-style: preserve-3d;
-}
-.text__qmnXm * {
-  transform-style: preserve-3d;
 }
 .toolTipServiceListing__rczMv:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.toolTipServiceListing__rczMv * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__rczMv:global(.__wab_instance) {
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .toolTipServiceListing__rczMv * {
-    transform-style: preserve-3d;
-  }
-}
-.text__x4Tzx {
-  transform-style: preserve-3d;
-}
-.text__x4Tzx * {
-  transform-style: preserve-3d;
-}
-.text__qzZib {
-  transform-style: preserve-3d;
-}
-.text__qzZib * {
-  transform-style: preserve-3d;
 }
 .svg__lwyvI {
   object-fit: cover;
   width: 32px;
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
-  transform-style: preserve-3d;
-}
-.svg__lwyvI * {
-  transform-style: preserve-3d;
 }
 .freeBox__axd3H {
   display: flex;
@@ -610,7 +372,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 40px 180px;
 }
@@ -621,9 +382,6 @@
   min-width: 0;
   margin-left: calc(0px - 360px);
   width: calc(100% + 360px);
-}
-.freeBox__axd3H * {
-  transform-style: preserve-3d;
 }
 .freeBox__axd3H > :global(.__wab_flex-container) > *,
 .freeBox__axd3H > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -641,7 +399,6 @@
     padding-left: 8px;
     display: flex;
     flex-direction: column-reverse;
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -653,11 +410,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox__axd3H * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -681,7 +433,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .questionProcessBlock > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -689,9 +440,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
-}
-.questionProcessBlock * {
-  transform-style: preserve-3d;
 }
 .questionProcessBlock > :global(.__wab_flex-container) > *,
 .questionProcessBlock
@@ -711,7 +459,6 @@
     left: auto;
     top: auto;
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -722,11 +469,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 32px);
     height: calc(100% + 32px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .questionProcessBlock * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -751,7 +493,6 @@
   flex-direction: column;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
 }
 .freeBox__j5P5R > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -759,9 +500,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 64px);
   height: calc(100% + 64px);
-}
-.freeBox__j5P5R * {
-  transform-style: preserve-3d;
 }
 .freeBox__j5P5R > :global(.__wab_flex-container) > *,
 .freeBox__j5P5R > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -776,7 +514,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__j5P5R {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -786,26 +523,9 @@
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .freeBox__j5P5R * {
-    transform-style: preserve-3d;
-  }
-}
-.cardQuestionServiceListing___7VrCf:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardQuestionServiceListing___7VrCf * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
   .cardQuestionServiceListing___7VrCf:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardQuestionServiceListing___7VrCf * {
-    transform-style: preserve-3d;
   }
 }
 .text__io8Zz {
@@ -817,59 +537,15 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__io8Zz * {
-  transform-style: preserve-3d;
 }
 .text__vqvCv {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.text__vqvCv * {
-  transform-style: preserve-3d;
 }
 .text__wEkof {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
-}
-.text__wEkof * {
-  transform-style: preserve-3d;
 }
 .processDeliveryOverviewInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.processDeliveryOverviewInput * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .processDeliveryOverviewInput:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .processDeliveryOverviewInput * {
-    transform-style: preserve-3d;
-  }
-}
-.text__srA1V {
-  transform-style: preserve-3d;
-}
-.text__srA1V * {
-  transform-style: preserve-3d;
-}
-.text__aJuc2 {
-  transform-style: preserve-3d;
-}
-.text__aJuc2 * {
-  transform-style: preserve-3d;
-}
-.text__kal0L {
-  transform-style: preserve-3d;
-}
-.text__kal0L * {
-  transform-style: preserve-3d;
 }
 .freeBox__oslf {
   display: flex;
@@ -879,7 +555,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .freeBox__oslf > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -887,9 +562,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
-}
-.freeBox__oslf * {
-  transform-style: preserve-3d;
 }
 .freeBox__oslf > :global(.__wab_flex-container) > *,
 .freeBox__oslf > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -904,7 +576,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox__oslf {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -913,193 +584,48 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox__oslf * {
-    transform-style: preserve-3d;
-  }
-}
 .text__mnyPp {
   position: relative;
   left: auto;
   top: auto;
   width: 360px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__mnyPp * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .text__mnyPp {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__mnyPp * {
-    transform-style: preserve-3d;
   }
 }
 .processStepsArrayFields:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.processStepsArrayFields * {
-  transform-style: preserve-3d;
 }
 .arrayInputFieldRow__vyXbD:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.arrayInputFieldRow__vyXbD * {
-  transform-style: preserve-3d;
-}
-.textInput__ziYf:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textInput__ziYf * {
-  transform-style: preserve-3d;
-}
-.text___6Eu6E {
-  transform-style: preserve-3d;
-}
-.text___6Eu6E * {
-  transform-style: preserve-3d;
-}
-.text___9NAjI {
-  transform-style: preserve-3d;
-}
-.text___9NAjI * {
-  transform-style: preserve-3d;
-}
-.text__ejdhs {
-  transform-style: preserve-3d;
-}
-.text__ejdhs * {
-  transform-style: preserve-3d;
 }
 .textAreaInput__qNilN:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.textAreaInput__qNilN * {
-  transform-style: preserve-3d;
-}
-.text__o5Kw {
-  transform-style: preserve-3d;
-}
-.text__o5Kw * {
-  transform-style: preserve-3d;
-}
-.text__uYIgN {
-  transform-style: preserve-3d;
-}
-.text__uYIgN * {
-  transform-style: preserve-3d;
-}
-.text__tjQUc {
-  transform-style: preserve-3d;
-}
-.text__tjQUc * {
-  transform-style: preserve-3d;
 }
 .arrayInputFieldRow__lAqUr:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.arrayInputFieldRow__lAqUr * {
-  transform-style: preserve-3d;
-}
-.textInput__omDkc:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textInput__omDkc * {
-  transform-style: preserve-3d;
-}
-.text__ust1R {
-  transform-style: preserve-3d;
-}
-.text__ust1R * {
-  transform-style: preserve-3d;
-}
-.text__nmdmb {
-  transform-style: preserve-3d;
-}
-.text__nmdmb * {
-  transform-style: preserve-3d;
-}
-.text__lXsVv {
-  transform-style: preserve-3d;
-}
-.text__lXsVv * {
-  transform-style: preserve-3d;
 }
 .textAreaInput___1U8Wc:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.textAreaInput___1U8Wc * {
-  transform-style: preserve-3d;
-}
-.text__v1Ccg {
-  transform-style: preserve-3d;
-}
-.text__v1Ccg * {
-  transform-style: preserve-3d;
-}
-.text__jJ94V {
-  transform-style: preserve-3d;
-}
-.text__jJ94V * {
-  transform-style: preserve-3d;
-}
-.text__lasGr {
-  transform-style: preserve-3d;
-}
-.text__lasGr * {
-  transform-style: preserve-3d;
 }
 .toolTipServiceListing__anMlZ:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.toolTipServiceListing__anMlZ * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .toolTipServiceListing__anMlZ:global(.__wab_instance) {
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .toolTipServiceListing__anMlZ * {
-    transform-style: preserve-3d;
-  }
-}
-.text___9Nnuv {
-  transform-style: preserve-3d;
-}
-.text___9Nnuv * {
-  transform-style: preserve-3d;
-}
-.text__y2Opj {
-  transform-style: preserve-3d;
-}
-.text__y2Opj * {
-  transform-style: preserve-3d;
 }
 .svg__lgDtN {
   object-fit: cover;
   width: 32px;
   height: 32px;
   color: #855cff /* plasmic-token: 6xKNduQM7 */;
-  transform-style: preserve-3d;
-}
-.svg__lgDtN * {
-  transform-style: preserve-3d;
 }

@@ -4,7 +4,6 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -15,9 +14,6 @@
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -27,42 +23,12 @@
 .tab__hgIQy:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  transform-style: preserve-3d;
-}
-.tab__hgIQy * {
-  transform-style: preserve-3d;
-}
-.text__z2T0 {
-  transform-style: preserve-3d;
-}
-.text__z2T0 * {
-  transform-style: preserve-3d;
 }
 .tab___5Hvs2:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  transform-style: preserve-3d;
-}
-.tab___5Hvs2 * {
-  transform-style: preserve-3d;
-}
-.text__c7IxO {
-  transform-style: preserve-3d;
-}
-.text__c7IxO * {
-  transform-style: preserve-3d;
 }
 .tab__e85Nw:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  transform-style: preserve-3d;
-}
-.tab__e85Nw * {
-  transform-style: preserve-3d;
-}
-.text__ze4Qy {
-  transform-style: preserve-3d;
-}
-.text__ze4Qy * {
-  transform-style: preserve-3d;
 }

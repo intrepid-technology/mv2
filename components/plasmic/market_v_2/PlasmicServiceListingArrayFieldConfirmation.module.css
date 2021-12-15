@@ -4,7 +4,6 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   border-bottom: 1px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
@@ -15,9 +14,6 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -32,33 +28,10 @@
   max-width: 800px;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__clg4B * {
-  transform-style: preserve-3d;
 }
 .slotTargetTitle {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-}
-.slotTargetTitle * {
-  transform-style: preserve-3d;
-}
-.slotTargetTitle > *,
-.slotTargetTitle > .__wab_slot > *,
-.slotTargetTitle > .__wab_slot > .__wab_slot > *,
-.slotTargetTitle > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetTitle > picture > img,
-.slotTargetTitle > .__wab_slot > picture > img,
-.slotTargetTitle > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetTitle > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__vJsi {
-  transform-style: preserve-3d;
-}
-.text__vJsi * {
-  transform-style: preserve-3d;
 }
 .freeBox__chvIc {
   position: relative;
@@ -67,36 +40,8 @@
   max-width: 800px;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__chvIc * {
-  transform-style: preserve-3d;
 }
 .slotTargetDescription {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-}
-.slotTargetDescription * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription > *,
-.slotTargetDescription > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > picture > img,
-.slotTargetDescription > .__wab_slot > picture > img,
-.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__i7JbL {
-  transform-style: preserve-3d;
-}
-.text__i7JbL * {
-  transform-style: preserve-3d;
 }

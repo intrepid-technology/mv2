@@ -4,7 +4,6 @@
   height: 180px;
   flex-direction: column;
   position: relative;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 16px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -16,34 +15,17 @@
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 10px;
 }
-.root__state_deactivated {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated * {
-  transform-style: preserve-3d;
-}
 .root:hover {
-  transform-style: preserve-3d;
   border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
-.root:hover * {
-  transform-style: preserve-3d;
-}
 .root__state_deactivated:hover {
-  transform-style: preserve-3d;
   border-color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
-}
-.root__state_deactivated:hover * {
-  transform-style: preserve-3d;
 }
 .freeBox__aUrNg {
   display: flex;
@@ -55,21 +37,13 @@
   height: 32px;
   align-self: flex-start;
   background: #f1f1f1;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 100px;
   border: 2px none #f1f1f1 /* plasmic-token: _lNibwHIy */;
 }
-.freeBox__aUrNg * {
-  transform-style: preserve-3d;
-}
 .root:hover .freeBox__aUrNg {
   background: #f1f1f1;
-  transform-style: preserve-3d;
   border: 2px none #101010 /* plasmic-token: 7-Hl8dlot */;
-}
-.root:hover .freeBox__aUrNg * {
-  transform-style: preserve-3d;
 }
 .freeBox___4BYjy {
   display: flex;
@@ -79,119 +53,18 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.freeBox___4BYjy * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetSlot__state_deactivated {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-}
-.slotTargetSlot__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__state_deactivated > *,
-.slotTargetSlot__state_deactivated > .__wab_slot > *,
-.slotTargetSlot__state_deactivated > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlot__state_deactivated > picture > img,
-.slotTargetSlot__state_deactivated > .__wab_slot > picture > img,
-.slotTargetSlot__state_deactivated > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .root:hover .slotTargetSlot {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root:hover .slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetSlot > *,
-.root:hover .slotTargetSlot > .__wab_slot > *,
-.root:hover .slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot > picture > img,
-.root:hover .slotTargetSlot > .__wab_slot > picture > img,
-.root:hover .slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetSlot
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .root__state_deactivated:hover .slotTargetSlot__state_deactivated {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-}
-.root__state_deactivated:hover .slotTargetSlot__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated:hover .slotTargetSlot__state_deactivated > *,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .svg__sjSC {
   position: relative;
@@ -199,45 +72,21 @@
   width: 24px;
   height: 24px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__sjSC * {
-  transform-style: preserve-3d;
 }
 .textLinkArrow:global(.__wab_instance) {
   position: relative;
   align-self: flex-start;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.textLinkArrow * {
-  transform-style: preserve-3d;
-}
-.textLinkArrow__state_deactivated:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textLinkArrow__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.root:hover .textLinkArrow:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.root:hover .textLinkArrow * {
-  transform-style: preserve-3d;
 }
 .svg__tE0Xf {
   object-fit: cover;
   width: 100%;
   height: 100%;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__tE0Xf * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot2 {
   font-size: 16px;
@@ -248,245 +97,35 @@
   color: #14161b /* plasmic-token: ec1vMFIzT */;
   text-transform: none;
 }
-.slotTargetSlot2 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2 > *,
-.slotTargetSlot2 > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > picture > img,
-.slotTargetSlot2 > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetSlot2__state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
-}
-.slotTargetSlot2__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2__state_deactivated > *,
-.slotTargetSlot2__state_deactivated > .__wab_slot > *,
-.slotTargetSlot2__state_deactivated > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlot2__state_deactivated > picture > img,
-.slotTargetSlot2__state_deactivated > .__wab_slot > picture > img,
-.slotTargetSlot2__state_deactivated > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .root:hover .slotTargetSlot2 {
   font-weight: 600;
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
   font-size: 18px;
 }
-.root:hover .slotTargetSlot2 * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetSlot2 > *,
-.root:hover .slotTargetSlot2 > .__wab_slot > *,
-.root:hover .slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot2 > picture > img,
-.root:hover .slotTargetSlot2 > .__wab_slot > picture > img,
-.root:hover .slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetSlot2
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .root__state_deactivated:hover .slotTargetSlot2__state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
   font-weight: 500;
 }
-.root__state_deactivated:hover .slotTargetSlot2__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated:hover .slotTargetSlot2__state_deactivated > *,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot2__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___8Z5Uh {
-  transform-style: preserve-3d;
-}
-.text___8Z5Uh * {
-  transform-style: preserve-3d;
-}
-.root:hover .text___8Z5Uh {
-  transform-style: preserve-3d;
-}
-.root:hover .text___8Z5Uh * {
-  transform-style: preserve-3d;
-}
 .slotTargetSlot3 {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetSlot3 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot3 > *,
-.slotTargetSlot3 > .__wab_slot > *,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot3 > picture > img,
-.slotTargetSlot3 > .__wab_slot > picture > img,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetSlot3__state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
-}
-.slotTargetSlot3__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot3__state_deactivated > *,
-.slotTargetSlot3__state_deactivated > .__wab_slot > *,
-.slotTargetSlot3__state_deactivated > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlot3__state_deactivated > picture > img,
-.slotTargetSlot3__state_deactivated > .__wab_slot > picture > img,
-.slotTargetSlot3__state_deactivated > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .root:hover .slotTargetSlot3 {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
   font-size: 20px;
 }
-.root:hover .slotTargetSlot3 * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetSlot3 > *,
-.root:hover .slotTargetSlot3 > .__wab_slot > *,
-.root:hover .slotTargetSlot3 > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot3 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetSlot3 > picture > img,
-.root:hover .slotTargetSlot3 > .__wab_slot > picture > img,
-.root:hover .slotTargetSlot3 > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetSlot3
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .root__state_deactivated:hover .slotTargetSlot3__state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
-}
-.root__state_deactivated:hover .slotTargetSlot3__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated:hover .slotTargetSlot3__state_deactivated > *,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetSlot3__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .svg__g1Xr {
   object-fit: cover;
   width: 18px;
   height: 18px;
-  transform-style: preserve-3d;
-}
-.svg__g1Xr * {
-  transform-style: preserve-3d;
 }
 .accountBodyText {
   left: auto;
@@ -495,10 +134,6 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.accountBodyText * {
-  transform-style: preserve-3d;
 }
 .freeBox___3Ewwn {
   display: flex;
@@ -506,11 +141,7 @@
   position: relative;
   flex-direction: column;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox___3Ewwn * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 12px;
@@ -520,119 +151,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetChildren__state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
-}
-.slotTargetChildren__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__state_deactivated > *,
-.slotTargetChildren__state_deactivated > .__wab_slot > *,
-.slotTargetChildren__state_deactivated > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetChildren__state_deactivated > picture > img,
-.slotTargetChildren__state_deactivated > .__wab_slot > picture > img,
-.slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.root:hover .slotTargetChildren > *,
-.root:hover .slotTargetChildren > .__wab_slot > *,
-.root:hover .slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.root:hover .slotTargetChildren > picture > img,
-.root:hover .slotTargetChildren > .__wab_slot > picture > img,
-.root:hover .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.root:hover
-  .slotTargetChildren
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated:hover .slotTargetChildren__state_deactivated * {
-  transform-style: preserve-3d;
-}
-.root__state_deactivated:hover .slotTargetChildren__state_deactivated > *,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.root__state_deactivated:hover
-  .slotTargetChildren__state_deactivated
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___4Q2A {
-  transform-style: preserve-3d;
-}
-.text___4Q2A * {
-  transform-style: preserve-3d;
-}
-.root:hover .text___4Q2A {
-  transform-style: preserve-3d;
-}
-.root:hover .text___4Q2A * {
-  transform-style: preserve-3d;
 }

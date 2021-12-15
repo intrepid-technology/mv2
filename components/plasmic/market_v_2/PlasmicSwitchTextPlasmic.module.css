@@ -4,7 +4,6 @@
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -12,41 +11,18 @@
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
-.root__noLabel {
-  transform-style: preserve-3d;
-}
-.root__noLabel * {
-  transform-style: preserve-3d;
-}
 .root__isDisabled {
   opacity: 0.5;
   cursor: not-allowed;
-  transform-style: preserve-3d;
-}
-.root__isDisabled * {
-  transform-style: preserve-3d;
-}
-.root__isChecked {
-  transform-style: preserve-3d;
-}
-.root__isChecked * {
-  transform-style: preserve-3d;
 }
 .root_____focusVisibleWithin {
-  transform-style: preserve-3d;
   outline: none;
-}
-.root_____focusVisibleWithin * {
-  transform-style: preserve-3d;
 }
 .toggle {
   display: flex;
@@ -56,52 +32,16 @@
   justify-content: center;
   width: 40px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
-.toggle * {
-  transform-style: preserve-3d;
-}
-.toggle__isDisabled {
-  transform-style: preserve-3d;
-}
-.toggle__isDisabled * {
-  transform-style: preserve-3d;
-}
-.toggle__isChecked {
-  transform-style: preserve-3d;
-}
-.toggle__isChecked * {
-  transform-style: preserve-3d;
-}
-.root:hover .toggle {
-  transform-style: preserve-3d;
-}
-.root:hover .toggle * {
-  transform-style: preserve-3d;
-}
-.root__isChecked:hover .toggle__isChecked {
-  transform-style: preserve-3d;
-}
-.root__isChecked:hover .toggle__isChecked * {
-  transform-style: preserve-3d;
-}
 .root:focus-within .toggle {
-  transform-style: preserve-3d;
   outline: none;
   border-color: #1976d2;
 }
-.root:focus-within .toggle * {
-  transform-style: preserve-3d;
-}
 .root .toggle_____focusVisibleWithin {
-  transform-style: preserve-3d;
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
-}
-.root .toggle_____focusVisibleWithin * {
-  transform-style: preserve-3d;
 }
 .track {
   display: flex;
@@ -114,58 +54,26 @@
   transition-property: background;
   transition-duration: 0.2s;
   background: #3d4350;
-  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 12px;
   border: 1px solid transparent;
 }
-.track * {
-  transform-style: preserve-3d;
-}
 .track__noLabel {
   background: #3d4350;
-  transform-style: preserve-3d;
-}
-.track__noLabel * {
-  transform-style: preserve-3d;
-}
-.track__isDisabled {
-  transform-style: preserve-3d;
-}
-.track__isDisabled * {
-  transform-style: preserve-3d;
 }
 .track__isChecked {
   background: #6633ff;
-  transform-style: preserve-3d;
   border-width: 2px;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.track__isChecked * {
-  transform-style: preserve-3d;
-}
-.root:hover .track {
-  transform-style: preserve-3d;
-}
-.root:hover .track * {
-  transform-style: preserve-3d;
-}
 .root:focus-within .track {
-  transform-style: preserve-3d;
   outline: none;
   border-color: #1976d2;
 }
-.root:focus-within .track * {
-  transform-style: preserve-3d;
-}
 .root .track_____focusVisibleWithin {
-  transform-style: preserve-3d;
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
-}
-.root .track_____focusVisibleWithin * {
-  transform-style: preserve-3d;
 }
 .thumb {
   display: block;
@@ -180,56 +88,26 @@
   transition-property: all;
   transition-duration: 0.2s;
   background: #ffffff;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 100%;
   border: 1px solid transparent;
 }
-.thumb * {
-  transform-style: preserve-3d;
-}
 .thumb__noLabel {
   background: #f8f8f8;
-  transform-style: preserve-3d;
-}
-.thumb__noLabel * {
-  transform-style: preserve-3d;
-}
-.thumb__isDisabled {
-  transform-style: preserve-3d;
-}
-.thumb__isDisabled * {
-  transform-style: preserve-3d;
 }
 .thumb__isChecked {
   left: 20px;
   right: auto;
   background: #ffffff;
-  transform-style: preserve-3d;
-}
-.thumb__isChecked * {
-  transform-style: preserve-3d;
 }
 .root:hover .thumb {
   background: #f9f9f9;
-  transform-style: preserve-3d;
-}
-.root:hover .thumb * {
-  transform-style: preserve-3d;
 }
 .root:focus-within .thumb {
-  transform-style: preserve-3d;
   outline: none;
-}
-.root:focus-within .thumb * {
-  transform-style: preserve-3d;
 }
 .root .thumb_____focusVisibleWithin {
-  transform-style: preserve-3d;
   outline: none;
-}
-.root .thumb_____focusVisibleWithin * {
-  transform-style: preserve-3d;
 }
 .labelContainer {
   display: flex;
@@ -238,31 +116,16 @@
   align-items: stretch;
   justify-content: flex-start;
   margin-left: calc(8px + 0px) !important;
-  transform-style: preserve-3d;
-}
-.labelContainer * {
-  transform-style: preserve-3d;
 }
 .labelContainer__noLabel {
-  transform-style: preserve-3d;
   margin-left: calc(8px + 0px) !important;
 }
-.labelContainer__noLabel * {
-  transform-style: preserve-3d;
-}
 .root .labelContainer_____focusVisibleWithin {
-  transform-style: preserve-3d;
   margin-left: calc(8px + 0px) !important;
   outline: none;
 }
-.root .labelContainer_____focusVisibleWithin * {
-  transform-style: preserve-3d;
-}
 .slotTargetChildren {
   white-space: pre;
-}
-.slotTargetChildren * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren > .__wab_text,
 .slotTargetChildren > .__wab_slot-string-wrapper,
@@ -287,28 +150,6 @@
 .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
 .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   overflow: hidden;
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__noLabel * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__noLabel > *,
-.slotTargetChildren__noLabel > .__wab_slot > *,
-.slotTargetChildren__noLabel > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__noLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__noLabel > picture > img,
-.slotTargetChildren__noLabel > .__wab_slot > picture > img,
-.slotTargetChildren__noLabel > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren__noLabel
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.root .slotTargetChildren_____focusVisibleWithin * {
-  transform-style: preserve-3d;
 }
 .root .slotTargetChildren_____focusVisibleWithin > *,
 .root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > *,
@@ -338,12 +179,5 @@
   > .__wab_slot
   > picture
   > img {
-  transform-style: preserve-3d;
   outline: none;
-}
-.text__k9T9E {
-  transform-style: preserve-3d;
-}
-.text__k9T9E * {
-  transform-style: preserve-3d;
 }

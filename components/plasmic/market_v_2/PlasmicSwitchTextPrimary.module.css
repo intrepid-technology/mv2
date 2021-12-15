@@ -5,7 +5,6 @@
   height: auto;
   max-width: 720px;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -17,26 +16,11 @@
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 32px;
-}
-.root__state_disabled {
-  transform-style: preserve-3d;
-}
-.root__state_disabled * {
-  transform-style: preserve-3d;
-}
-.root__state_checked {
-  transform-style: preserve-3d;
-}
-.root__state_checked * {
-  transform-style: preserve-3d;
 }
 .textParent {
   left: auto;
@@ -45,19 +29,11 @@
   align-self: center;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
-}
-.textParent * {
-  transform-style: preserve-3d;
 }
 .textSlotParent {
   display: flex;
   align-self: stretch;
   position: relative;
-  transform-style: preserve-3d;
-}
-.textSlotParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetText {
   font-size: 20px;
@@ -68,46 +44,15 @@
   color: #14161b /* plasmic-token: ec1vMFIzT */;
   text-transform: none;
 }
-.slotTargetText * {
-  transform-style: preserve-3d;
-}
-.slotTargetText > *,
-.slotTargetText > .__wab_slot > *,
-.slotTargetText > .__wab_slot > .__wab_slot > *,
-.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetText > picture > img,
-.slotTargetText > .__wab_slot > picture > img,
-.slotTargetText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__bz37O {
-  transform-style: preserve-3d;
-}
-.text__bz37O * {
-  transform-style: preserve-3d;
-}
 .switchPrimary:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.switchPrimary * {
-  transform-style: preserve-3d;
 }
 .switchPrimary__state_disabled:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.switchPrimary__state_disabled * {
-  transform-style: preserve-3d;
 }
 .switchPrimary__state_checked:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.switchPrimary__state_checked * {
-  transform-style: preserve-3d;
 }

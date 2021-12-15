@@ -4,12 +4,8 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
   border-width: 1px;
   border-style: none;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -18,18 +14,10 @@
   justify-content: flex-start;
   width: 720px;
   height: auto;
-  transform-style: preserve-3d;
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent__border {
-  transform-style: preserve-3d;
   border-radius: 2px;
   border: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.parent__border * {
-  transform-style: preserve-3d;
 }
 .headlineCard {
   display: flex;
@@ -39,7 +27,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 16px 16px 32px;
 }
 .headlineCard > :global(.__wab_flex-container) {
@@ -48,9 +35,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.headlineCard * {
-  transform-style: preserve-3d;
 }
 .headlineCard > :global(.__wab_flex-container) > *,
 .headlineCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -62,12 +46,6 @@
   > img {
   margin-top: 32px;
 }
-.headlineCard__border {
-  transform-style: preserve-3d;
-}
-.headlineCard__border * {
-  transform-style: preserve-3d;
-}
 .headlineSubheadParent {
   position: relative;
   left: auto;
@@ -76,15 +54,11 @@
   flex-direction: column;
   height: auto;
   width: 540px;
-  transform-style: preserve-3d;
 }
 .headlineSubheadParent > :global(.__wab_flex-container) {
   flex-direction: column;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.headlineSubheadParent * {
-  transform-style: preserve-3d;
 }
 .headlineSubheadParent > :global(.__wab_flex-container) > *,
 .headlineSubheadParent
@@ -104,10 +78,6 @@
   align-self: stretch;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.headline * {
-  transform-style: preserve-3d;
 }
 .slotTargetHeadline {
   font-size: 24px;
@@ -117,25 +87,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetHeadline * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline > *,
-.slotTargetHeadline > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > picture > img,
-.slotTargetHeadline > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__gZiB6 {
-  transform-style: preserve-3d;
-}
-.text__gZiB6 * {
-  transform-style: preserve-3d;
-}
 .subheadParent {
   display: flex;
   position: relative;
@@ -143,11 +94,7 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.subheadParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetSubhead {
   font-size: 14px;
@@ -157,25 +104,6 @@
   line-height: 1.4;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
-.slotTargetSubhead * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubhead > *,
-.slotTargetSubhead > .__wab_slot > *,
-.slotTargetSubhead > .__wab_slot > .__wab_slot > *,
-.slotTargetSubhead > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSubhead > picture > img,
-.slotTargetSubhead > .__wab_slot > picture > img,
-.slotTargetSubhead > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSubhead > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__nsL4V {
-  transform-style: preserve-3d;
-}
-.text__nsL4V * {
-  transform-style: preserve-3d;
-}
 .descriptionCard {
   display: flex;
   position: relative;
@@ -184,7 +112,6 @@
   height: 80px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 16px;
 }
@@ -194,9 +121,6 @@
   justify-content: space-between;
   margin-left: calc(0px - 64px);
   width: calc(100% + 64px);
-}
-.descriptionCard * {
-  transform-style: preserve-3d;
 }
 .descriptionCard > :global(.__wab_flex-container) > *,
 .descriptionCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -208,25 +132,15 @@
   > img {
   margin-left: 64px;
 }
-.descriptionCard__description {
-  transform-style: preserve-3d;
-}
 .descriptionCard__description > :global(.__wab_flex-container) {
   justify-content: flex-end;
-}
-.descriptionCard__description * {
-  transform-style: preserve-3d;
 }
 .descriptionParent {
   position: relative;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
   display: none;
-}
-.descriptionParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetDescription2 {
   font-size: 14px;
@@ -236,81 +150,17 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
-.slotTargetDescription2 * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription2 > *,
-.slotTargetDescription2 > .__wab_slot > *,
-.slotTargetDescription2 > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription2 > picture > img,
-.slotTargetDescription2 > .__wab_slot > picture > img,
-.slotTargetDescription2 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription2
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription2__description * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription2__description > *,
-.slotTargetDescription2__description > .__wab_slot > *,
-.slotTargetDescription2__description > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription2__description
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription2__description > picture > img,
-.slotTargetDescription2__description > .__wab_slot > picture > img,
-.slotTargetDescription2__description
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetDescription2__description
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__m7Si8 {
-  transform-style: preserve-3d;
-}
-.text__m7Si8 * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary___3QyVv:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary___3QyVv * {
-  transform-style: preserve-3d;
-}
-.text__t8HlJ {
-  transform-style: preserve-3d;
-}
-.text__t8HlJ * {
-  transform-style: preserve-3d;
 }
 .svg__yj3If {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__yj3If * {
-  transform-style: preserve-3d;
 }

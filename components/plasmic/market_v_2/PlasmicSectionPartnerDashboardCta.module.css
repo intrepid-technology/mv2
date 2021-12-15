@@ -5,7 +5,6 @@
   height: auto;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 64px 180px;
 }
@@ -17,9 +16,6 @@
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -28,7 +24,6 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root {
-    transform-style: preserve-3d;
     padding: 64px 180px;
   }
 }
@@ -39,11 +34,6 @@
     width: calc(100% + 32px);
     margin-top: calc(0px - 0px);
     height: calc(100% + 0px);
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -61,7 +51,6 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
-    transform-style: preserve-3d;
     padding: 64px 16px;
   }
 }
@@ -72,11 +61,6 @@
     width: calc(100% + 24px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -96,68 +80,6 @@
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardCta * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .cardCta:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .cardCta * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardCta:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardCta * {
-    transform-style: preserve-3d;
-  }
-}
-.text__w5LvM {
-  transform-style: preserve-3d;
-}
-.text__w5LvM * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__w5LvM {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__w5LvM * {
-    transform-style: preserve-3d;
-  }
-}
-.text__hj2KB {
-  transform-style: preserve-3d;
-}
-.text__hj2KB * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__hj2KB {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__hj2KB * {
-    transform-style: preserve-3d;
-  }
-}
-.text__tgysF {
-  transform-style: preserve-3d;
-}
-.text__tgysF * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -170,38 +92,22 @@
   left: auto;
   top: auto;
   background: #ffffff;
-  transform-style: preserve-3d;
   padding: 20px;
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox {
     width: 100%;
     justify-content: flex-start;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 0px;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .freeBox {
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox * {
-    transform-style: preserve-3d;
   }
 }
 .img {
@@ -211,7 +117,6 @@
   top: auto;
   width: 501px;
   height: 292px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .img > picture > img {
@@ -220,29 +125,10 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .img {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .img * {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .img {
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .img * {
-    transform-style: preserve-3d;
   }
 }

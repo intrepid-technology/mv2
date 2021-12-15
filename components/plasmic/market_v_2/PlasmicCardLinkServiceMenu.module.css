@@ -4,7 +4,6 @@
   width: 164px;
   height: 104px;
   position: relative;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 8px;
   border: 1px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
@@ -16,9 +15,6 @@
   align-content: unset;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -38,11 +34,7 @@
   width: 100%;
   height: auto;
   align-content: unset;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.headerTitle * {
-  transform-style: preserve-3d;
 }
 .parentIconText {
   display: flex;
@@ -52,7 +44,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .parentIconText > :global(.__wab_flex-container) {
@@ -63,9 +54,6 @@
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-}
-.parentIconText * {
-  transform-style: preserve-3d;
 }
 .parentIconText > :global(.__wab_flex-container) > *,
 .parentIconText > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -84,50 +72,18 @@
   top: auto;
   width: 18px;
   height: 18px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg___3Xva6 * {
-  transform-style: preserve-3d;
 }
 .freeBox__mrtUq {
   display: flex;
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.freeBox__mrtUq * {
-  transform-style: preserve-3d;
 }
 .slotTargetTextHeadline {
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
-}
-.slotTargetTextHeadline * {
-  transform-style: preserve-3d;
-}
-.slotTargetTextHeadline > *,
-.slotTargetTextHeadline > .__wab_slot > *,
-.slotTargetTextHeadline > .__wab_slot > .__wab_slot > *,
-.slotTargetTextHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetTextHeadline > picture > img,
-.slotTargetTextHeadline > .__wab_slot > picture > img,
-.slotTargetTextHeadline > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetTextHeadline
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__s9Sr6 {
-  transform-style: preserve-3d;
-}
-.text__s9Sr6 * {
-  transform-style: preserve-3d;
 }
 .freeBox___15Tvx {
   display: flex;
@@ -135,33 +91,10 @@
   flex-direction: column;
   height: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox___15Tvx * {
-  transform-style: preserve-3d;
 }
 .slotTargetTextBody {
   text-align: left;
   line-height: 1.4;
   font-size: 12px;
-}
-.slotTargetTextBody * {
-  transform-style: preserve-3d;
-}
-.slotTargetTextBody > *,
-.slotTargetTextBody > .__wab_slot > *,
-.slotTargetTextBody > .__wab_slot > .__wab_slot > *,
-.slotTargetTextBody > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetTextBody > picture > img,
-.slotTargetTextBody > .__wab_slot > picture > img,
-.slotTargetTextBody > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetTextBody > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__dBm7G {
-  transform-style: preserve-3d;
-}
-.text__dBm7G * {
-  transform-style: preserve-3d;
 }

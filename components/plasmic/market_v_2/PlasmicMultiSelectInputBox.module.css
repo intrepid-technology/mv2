@@ -4,7 +4,6 @@
   width: 100%;
   position: relative;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 2px;
   padding: 8px 10px;
@@ -20,9 +19,6 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -32,16 +28,6 @@
 }
 .chipBadgeDisplay__ic8Mm:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.chipBadgeDisplay__ic8Mm * {
-  transform-style: preserve-3d;
-}
-.text__gDq27 {
-  transform-style: preserve-3d;
-}
-.text__gDq27 * {
-  transform-style: preserve-3d;
 }
 .svg__ztjck {
   position: relative;
@@ -49,10 +35,6 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
-}
-.svg__ztjck * {
-  transform-style: preserve-3d;
 }
 .svg__hjA3G {
   position: relative;
@@ -60,33 +42,15 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.svg__hjA3G * {
-  transform-style: preserve-3d;
 }
 .svg__mlMgk {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
-}
-.svg__mlMgk * {
-  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__pIjCa:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.chipBadgeDisplay__pIjCa * {
-  transform-style: preserve-3d;
-}
-.text__xi3Hv {
-  transform-style: preserve-3d;
-}
-.text__xi3Hv * {
-  transform-style: preserve-3d;
 }
 .svg__nhkDk {
   position: relative;
@@ -94,10 +58,6 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
-}
-.svg__nhkDk * {
-  transform-style: preserve-3d;
 }
 .svg__b1PGs {
   position: relative;
@@ -105,33 +65,15 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.svg__b1PGs * {
-  transform-style: preserve-3d;
 }
 .svg___7Sbs3 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
-}
-.svg___7Sbs3 * {
-  transform-style: preserve-3d;
 }
 .chipBadgeDisplay__hxiUp:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.chipBadgeDisplay__hxiUp * {
-  transform-style: preserve-3d;
-}
-.text___8Sl39 {
-  transform-style: preserve-3d;
-}
-.text___8Sl39 * {
-  transform-style: preserve-3d;
 }
 .svg__bt2Gy {
   position: relative;
@@ -139,10 +81,6 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
-}
-.svg__bt2Gy * {
-  transform-style: preserve-3d;
 }
 .svg__swcCf {
   position: relative;
@@ -150,18 +88,10 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.svg__swcCf * {
-  transform-style: preserve-3d;
 }
 .svg__x9By6 {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
-}
-.svg__x9By6 * {
-  transform-style: preserve-3d;
 }

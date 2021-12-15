@@ -6,7 +6,6 @@
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -14,9 +13,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -32,13 +28,9 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   padding: 0px;
   border-width: 1px;
   border-style: none;
-}
-.button__kujiS * {
-  transform-style: preserve-3d;
 }
 .svg__lKsQp {
   position: relative;
@@ -46,25 +38,13 @@
   width: 24px;
   height: 24px;
   align-self: flex-start;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__lKsQp * {
-  transform-style: preserve-3d;
 }
 .root .svg__lKsQp:hover {
   color: #c2c6ce /* plasmic-token: zM34FgqJJ */;
-  transform-style: preserve-3d;
-}
-.root .svg__lKsQp:hover * {
-  transform-style: preserve-3d;
 }
 .root .svg__lKsQp:active {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.root .svg__lKsQp:active * {
-  transform-style: preserve-3d;
 }
 .text {
   position: relative;
@@ -75,11 +55,7 @@
   width: auto;
   font-weight: 700;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   padding: 2px;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 .button__uAdPd {
   display: flex;
@@ -89,13 +65,9 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   padding: 0px;
   border-width: 1px;
   border-style: none;
-}
-.button__uAdPd * {
-  transform-style: preserve-3d;
 }
 .svg__ojz8V {
   position: relative;
@@ -103,23 +75,11 @@
   width: 24px;
   height: 24px;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__ojz8V * {
-  transform-style: preserve-3d;
 }
 .root .svg__ojz8V:hover {
   color: #101010 /* plasmic-token: VLxGX_Tro */;
-  transform-style: preserve-3d;
-}
-.root .svg__ojz8V:hover * {
-  transform-style: preserve-3d;
 }
 .root .svg__ojz8V:active {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.root .svg__ojz8V:active * {
-  transform-style: preserve-3d;
 }

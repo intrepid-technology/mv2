@@ -4,7 +4,6 @@
   width: 360px;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .formHomeSignUp > :global(.__wab_flex-container) {
@@ -13,9 +12,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.formHomeSignUp * {
-  transform-style: preserve-3d;
 }
 .formHomeSignUp > :global(.__wab_flex-container) > *,
 .formHomeSignUp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -27,16 +23,6 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .formHomeSignUp {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .formHomeSignUp * {
-    transform-style: preserve-3d;
-  }
-}
 .emailInputParent {
   display: flex;
   position: relative;
@@ -45,7 +31,6 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .emailInputParent > :global(.__wab_flex-container) {
@@ -55,9 +40,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.emailInputParent * {
-  transform-style: preserve-3d;
 }
 .emailInputParent > :global(.__wab_flex-container) > *,
 .emailInputParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -82,11 +64,7 @@
   margin-left: 0px;
   line-height: 1;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.emailText * {
-  transform-style: preserve-3d;
 }
 .email {
   width: 100%;
@@ -94,39 +72,17 @@
   padding-left: 6px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.email * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .email {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .email * {
-    transform-style: preserve-3d;
-  }
-}
 .formHomeSignUp .email:hover {
-  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
-.formHomeSignUp .email:hover * {
-  transform-style: preserve-3d;
-}
 .formHomeSignUp .email:focus {
-  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
-}
-.formHomeSignUp .email:focus * {
-  transform-style: preserve-3d;
 }
 .passwordInputParent {
   display: flex;
@@ -136,7 +92,6 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .passwordInputParent > :global(.__wab_flex-container) {
@@ -146,9 +101,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.passwordInputParent * {
-  transform-style: preserve-3d;
 }
 .passwordInputParent > :global(.__wab_flex-container) > *,
 .passwordInputParent
@@ -176,11 +128,7 @@
   margin-left: 0px;
   line-height: 1;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.passwordText * {
-  transform-style: preserve-3d;
 }
 .password {
   width: 100%;
@@ -188,56 +136,26 @@
   padding-left: 6px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.password * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .password {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .password * {
-    transform-style: preserve-3d;
-  }
-}
 .formHomeSignUp .password:hover {
-  transform-style: preserve-3d;
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
-.formHomeSignUp .password:hover * {
-  transform-style: preserve-3d;
-}
 .formHomeSignUp .password:focus {
-  transform-style: preserve-3d;
   outline: none;
   border-color: #6633ff /* plasmic-token: brleuPgaD */;
-}
-.formHomeSignUp .password:focus * {
-  transform-style: preserve-3d;
 }
 .continueButton:global(.__wab_instance) {
   position: relative;
   height: 48px;
   width: 360px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.continueButton * {
-  transform-style: preserve-3d;
 }
 .text__gTvRl {
   font-size: 18px;
-  transform-style: preserve-3d;
-}
-.text__gTvRl * {
-  transform-style: preserve-3d;
 }
 .divider {
   display: flex;
@@ -247,7 +165,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .divider > :global(.__wab_flex-container) {
@@ -257,9 +174,6 @@
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.divider * {
-  transform-style: preserve-3d;
 }
 .divider > :global(.__wab_flex-container) > *,
 .divider > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -278,11 +192,7 @@
   height: 2px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__pz4Rl * {
-  transform-style: preserve-3d;
 }
 .text__gKFt7 {
   position: relative;
@@ -291,10 +201,6 @@
   width: auto;
   height: auto;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
-}
-.text__gKFt7 * {
-  transform-style: preserve-3d;
 }
 .svg__uYfz {
   position: relative;
@@ -303,11 +209,7 @@
   height: 2px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__uYfz * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -317,7 +219,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 8px 0px;
 }
@@ -328,9 +229,6 @@
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -347,22 +245,12 @@
   left: auto;
   top: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
 }
-.signupFacebookConnection * {
-  transform-style: preserve-3d;
-}
 @media (min-width: 0px) and (max-width: 1440px) {
   .signupFacebookConnection:global(.__wab_instance) {
-    transform-style: preserve-3d;
     flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signupFacebookConnection * {
-    transform-style: preserve-3d;
   }
 }
 .signupGoogleConnection:global(.__wab_instance) {
@@ -370,22 +258,12 @@
   left: auto;
   top: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
 }
-.signupGoogleConnection * {
-  transform-style: preserve-3d;
-}
 @media (min-width: 0px) and (max-width: 1440px) {
   .signupGoogleConnection:global(.__wab_instance) {
-    transform-style: preserve-3d;
     flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signupGoogleConnection * {
-    transform-style: preserve-3d;
   }
 }
 .svg___5Kp4V {
@@ -394,12 +272,8 @@
   width: 100%;
   height: 2px;
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
-}
-.svg___5Kp4V * {
-  transform-style: preserve-3d;
 }
 .text__l0Gji {
   position: relative;
@@ -410,26 +284,12 @@
   width: auto;
   height: auto;
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__l0Gji * {
-  transform-style: preserve-3d;
 }
 .loginButton:global(.__wab_instance) {
   position: relative;
   width: 360px;
   height: 48px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.loginButton * {
-  transform-style: preserve-3d;
-}
-.text__fzjYy {
-  transform-style: preserve-3d;
-}
-.text__fzjYy * {
-  transform-style: preserve-3d;
 }
 .terms {
   display: block;
@@ -444,11 +304,7 @@
   left: auto;
   top: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.terms * {
-  transform-style: preserve-3d;
 }
 .signupLegalLinks {
   display: flex;
@@ -460,11 +316,7 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.signupLegalLinks * {
-  transform-style: preserve-3d;
 }
 .signupTos {
   position: relative;
@@ -474,27 +326,9 @@
   font-size: 12px;
   line-height: 1;
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.signupTos * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signupTos {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .signupTos * {
-    transform-style: preserve-3d;
-  }
 }
 .formHomeSignUp .signupTos:hover {
   color: #6633ff /* plasmic-token: brleuPgaD */;
-  transform-style: preserve-3d;
-}
-.formHomeSignUp .signupTos:hover * {
-  transform-style: preserve-3d;
 }
 .signupPrivacy {
   position: relative;
@@ -504,15 +338,7 @@
   font-size: 12px;
   line-height: 1;
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.signupPrivacy * {
-  transform-style: preserve-3d;
 }
 .formHomeSignUp .signupPrivacy:hover {
   color: #6633ff /* plasmic-token: brleuPgaD */;
-  transform-style: preserve-3d;
-}
-.formHomeSignUp .signupPrivacy:hover * {
-  transform-style: preserve-3d;
 }

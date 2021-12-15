@@ -8,46 +8,18 @@
   padding-right: 32px;
   position: relative;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
     padding-right: 16px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 .root__colors_dark {
   background: #101010;
-  transform-style: preserve-3d;
-}
-.root__colors_dark * {
-  transform-style: preserve-3d;
 }
 .root__colors_brand {
   background: #6633ff;
-  transform-style: preserve-3d;
-}
-.root__colors_brand * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -58,7 +30,6 @@
   left: auto;
   top: auto;
   align-self: flex-end;
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -66,9 +37,6 @@
   justify-content: flex-end;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -80,145 +48,23 @@
   > img {
   margin-left: 8px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox * {
-    transform-style: preserve-3d;
-  }
-}
 .memberPricing:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.memberPricing * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .memberPricing:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .memberPricing * {
-    transform-style: preserve-3d;
-  }
-}
-.memberPricing__colors_dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.memberPricing__colors_dark * {
-  transform-style: preserve-3d;
-}
-.memberPricing__colors_brand:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.memberPricing__colors_brand * {
-  transform-style: preserve-3d;
-}
-.text__rkI3 {
-  transform-style: preserve-3d;
-}
-.text__rkI3 * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__rkI3 {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__rkI3 * {
-    transform-style: preserve-3d;
-  }
 }
 .partnerPricing:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.partnerPricing * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .partnerPricing:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .partnerPricing * {
-    transform-style: preserve-3d;
-  }
-}
-.partnerPricing__colors_dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.partnerPricing__colors_dark * {
-  transform-style: preserve-3d;
-}
-.partnerPricing__colors_brand:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.partnerPricing__colors_brand * {
-  transform-style: preserve-3d;
-}
-.text___8JqTr {
-  transform-style: preserve-3d;
-}
-.text___8JqTr * {
-  transform-style: preserve-3d;
 }
 .loginMain:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.loginMain * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginMain:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginMain * {
-    transform-style: preserve-3d;
-  }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .loginMain:global(.__wab_instance) {
-    transform-style: preserve-3d;
     display: flex;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .loginMain * {
-    transform-style: preserve-3d;
-  }
-}
-.loginMain__colors_dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.loginMain__colors_dark * {
-  transform-style: preserve-3d;
-}
-.loginMain__colors_brand:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.loginMain__colors_brand * {
-  transform-style: preserve-3d;
-}
-.text__reVjz {
-  transform-style: preserve-3d;
-}
-.text__reVjz * {
-  transform-style: preserve-3d;
 }

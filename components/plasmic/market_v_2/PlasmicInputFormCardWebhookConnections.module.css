@@ -4,10 +4,6 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -16,19 +12,11 @@
   justify-content: flex-start;
   width: 720px;
   height: auto;
-  transform-style: preserve-3d;
   border-radius: 2px;
   border: 1px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.parent * {
-  transform-style: preserve-3d;
-}
 .parent__border {
-  transform-style: preserve-3d;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.parent__border * {
-  transform-style: preserve-3d;
 }
 .headlineParent {
   display: flex;
@@ -38,7 +26,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 16px 32px;
 }
@@ -50,9 +37,6 @@
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
-.headlineParent * {
-  transform-style: preserve-3d;
-}
 .headlineParent > :global(.__wab_flex-container) > *,
 .headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .headlineParent > :global(.__wab_flex-container) > picture > img,
@@ -63,17 +47,11 @@
   > img {
   margin-top: 32px;
 }
-.headlineParent__subheadDescription {
-  transform-style: preserve-3d;
-}
 .headlineParent__subheadDescription > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.headlineParent__subheadDescription * {
-  transform-style: preserve-3d;
 }
 .headlineParent__subheadDescription > :global(.__wab_flex-container) > *,
 .headlineParent__subheadDescription
@@ -98,7 +76,6 @@
   top: auto;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
 }
 .headlineSubheadParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -106,9 +83,6 @@
   align-items: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.headlineSubheadParent * {
-  transform-style: preserve-3d;
 }
 .headlineSubheadParent > :global(.__wab_flex-container) > *,
 .headlineSubheadParent
@@ -129,10 +103,6 @@
   position: relative;
   flex-direction: column;
   width: 540px;
-  transform-style: preserve-3d;
-}
-.headline * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 24px;
@@ -142,83 +112,12 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__payment * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__payment > *,
-.slotTargetChildren__payment > .__wab_slot > *,
-.slotTargetChildren__payment > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__payment > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__payment > picture > img,
-.slotTargetChildren__payment > .__wab_slot > picture > img,
-.slotTargetChildren__payment > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren__payment
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__accounting * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren__accounting > *,
-.slotTargetChildren__accounting > .__wab_slot > *,
-.slotTargetChildren__accounting > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__accounting > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren__accounting > picture > img,
-.slotTargetChildren__accounting > .__wab_slot > picture > img,
-.slotTargetChildren__accounting > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren__accounting
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__ylSuj {
-  transform-style: preserve-3d;
-}
-.text__ylSuj * {
-  transform-style: preserve-3d;
-}
-.text__payment__ylSujpUEih {
-  transform-style: preserve-3d;
-}
-.text__payment__ylSujpUEih * {
-  transform-style: preserve-3d;
-}
-.text__accounting__ylSujCaLxc {
-  transform-style: preserve-3d;
-}
-.text__accounting__ylSujCaLxc * {
-  transform-style: preserve-3d;
-}
 .subhead {
   display: flex;
   position: relative;
   flex-direction: column;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.subhead * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot {
   font-size: 14px;
@@ -228,67 +127,6 @@
   line-height: 1.4;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__payment * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__payment > *,
-.slotTargetSlot__payment > .__wab_slot > *,
-.slotTargetSlot__payment > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__payment > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__payment > picture > img,
-.slotTargetSlot__payment > .__wab_slot > picture > img,
-.slotTargetSlot__payment > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot__payment
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__accounting * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__accounting > *,
-.slotTargetSlot__accounting > .__wab_slot > *,
-.slotTargetSlot__accounting > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__accounting > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__accounting > picture > img,
-.slotTargetSlot__accounting > .__wab_slot > picture > img,
-.slotTargetSlot__accounting > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot__accounting
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__vLgkD {
-  transform-style: preserve-3d;
-}
-.text__vLgkD * {
-  transform-style: preserve-3d;
-}
-.text__accounting__vLgkDCaLxc {
-  transform-style: preserve-3d;
-}
-.text__accounting__vLgkDCaLxc * {
-  transform-style: preserve-3d;
-}
 .buttons {
   display: flex;
   position: relative;
@@ -297,7 +135,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .buttons > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -309,9 +146,6 @@
   width: calc(100% + 32px);
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.buttons * {
-  transform-style: preserve-3d;
 }
 .buttons > :global(.__wab_flex-container) > *,
 .buttons > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -326,54 +160,26 @@
 }
 .buttonConnectedAccount__sGzGb:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__sGzGb * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__payment__sGzGbpUEih:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__payment__sGzGbpUEih * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__accounting__sGzGbCaLxc:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__accounting__sGzGbCaLxc * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__subheadDescription__sGzGbx1Lmn:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__subheadDescription__sGzGbx1Lmn * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__bwqDb:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__bwqDb * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__payment__bwqDbpUEih:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__payment__bwqDbpUEih * {
-  transform-style: preserve-3d;
 }
 .buttonConnectedAccount__accounting__bwqDbCaLxc:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonConnectedAccount__accounting__bwqDbCaLxc * {
-  transform-style: preserve-3d;
 }
 .descriptionParent {
   display: flex;
@@ -385,19 +191,11 @@
   height: 54px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 16px;
 }
-.descriptionParent * {
-  transform-style: preserve-3d;
-}
 .descriptionParent__subheadDescription {
-  transform-style: preserve-3d;
   display: none;
-}
-.descriptionParent__subheadDescription * {
-  transform-style: preserve-3d;
 }
 .description {
   position: relative;
@@ -407,23 +205,7 @@
   width: 540px;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.description * {
-  transform-style: preserve-3d;
-}
-.description__payment {
-  transform-style: preserve-3d;
-}
-.description__payment * {
-  transform-style: preserve-3d;
-}
-.description__accounting {
-  transform-style: preserve-3d;
-}
-.description__accounting * {
-  transform-style: preserve-3d;
 }
 .descriptionTextParent {
   display: flex;
@@ -431,23 +213,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.descriptionTextParent * {
-  transform-style: preserve-3d;
-}
-.descriptionTextParent__payment {
-  transform-style: preserve-3d;
-}
-.descriptionTextParent__payment * {
-  transform-style: preserve-3d;
-}
-.descriptionTextParent__accounting {
-  transform-style: preserve-3d;
-}
-.descriptionTextParent__accounting * {
-  transform-style: preserve-3d;
 }
 .slotTargetDescription {
   font-size: 14px;
@@ -456,68 +222,4 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
-}
-.slotTargetDescription * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription > *,
-.slotTargetDescription > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > picture > img,
-.slotTargetDescription > .__wab_slot > picture > img,
-.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__payment * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__payment > *,
-.slotTargetDescription__payment > .__wab_slot > *,
-.slotTargetDescription__payment > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__payment > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__payment > picture > img,
-.slotTargetDescription__payment > .__wab_slot > picture > img,
-.slotTargetDescription__payment > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription__payment
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__accounting * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__accounting > *,
-.slotTargetDescription__accounting > .__wab_slot > *,
-.slotTargetDescription__accounting > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__accounting
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription__accounting > picture > img,
-.slotTargetDescription__accounting > .__wab_slot > picture > img,
-.slotTargetDescription__accounting > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription__accounting
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__nnsA4 {
-  transform-style: preserve-3d;
-}
-.text__nnsA4 * {
-  transform-style: preserve-3d;
 }

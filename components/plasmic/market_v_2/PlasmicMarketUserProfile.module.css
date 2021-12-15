@@ -1,25 +1,3 @@
 .root:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-.text__yEnVa {
-  transform-style: preserve-3d;
-}
-.text__yEnVa * {
-  transform-style: preserve-3d;
-}
-.text__pTskx {
-  transform-style: preserve-3d;
-}
-.text__pTskx * {
-  transform-style: preserve-3d;
-}
-.text__y9XIj {
-  transform-style: preserve-3d;
-}
-.text__y9XIj * {
-  transform-style: preserve-3d;
 }

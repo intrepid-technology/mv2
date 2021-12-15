@@ -5,32 +5,8 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .sectionMemberEditProfile {
   display: flex;
@@ -39,7 +15,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 16px 8px 32px;
 }
 .sectionMemberEditProfile > :global(.__wab_flex-container) {
@@ -49,9 +24,6 @@
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionMemberEditProfile * {
-  transform-style: preserve-3d;
 }
 .sectionMemberEditProfile > :global(.__wab_flex-container) > *,
 .sectionMemberEditProfile
@@ -68,60 +40,24 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfile {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionMemberEditProfile * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .sectionMemberEditProfile {
-    transform-style: preserve-3d;
     padding: 8px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionMemberEditProfile * {
-    transform-style: preserve-3d;
   }
 }
 .cardHeaderTitleDisplay__acBi5:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay__acBi5 * {
-  transform-style: preserve-3d;
-}
-.text__utux8 {
-  transform-style: preserve-3d;
-}
-.text__utux8 * {
-  transform-style: preserve-3d;
 }
 .text___04ReL {
   font-weight: 700;
-  transform-style: preserve-3d;
-}
-.text___04ReL * {
-  transform-style: preserve-3d;
-}
-.text__r4RAd {
-  transform-style: preserve-3d;
-}
-.text__r4RAd * {
-  transform-style: preserve-3d;
 }
 .memberProfileForm:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.memberProfileForm * {
-  transform-style: preserve-3d;
 }
 .formMemberEditProfile {
   display: flex;
@@ -131,7 +67,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .formMemberEditProfile > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -139,9 +74,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.formMemberEditProfile * {
-  transform-style: preserve-3d;
 }
 .formMemberEditProfile > :global(.__wab_flex-container) > *,
 .formMemberEditProfile
@@ -161,18 +93,12 @@
     width: 100%;
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .formMemberEditProfile > :global(.__wab_flex-container) {
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .formMemberEditProfile * {
-    transform-style: preserve-3d;
   }
 }
 .cardMemberPersonalVerification {
@@ -183,7 +109,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberPersonalVerification > :global(.__wab_flex-container) {
@@ -194,9 +119,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberPersonalVerification * {
-  transform-style: preserve-3d;
 }
 .cardMemberPersonalVerification > :global(.__wab_flex-container) > *,
 .cardMemberPersonalVerification
@@ -217,7 +139,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberPersonalVerification {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -228,33 +149,14 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberPersonalVerification * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__gEtHe:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__gEtHe * {
-  transform-style: preserve-3d;
-}
-.text__lsToi {
-  transform-style: preserve-3d;
-}
-.text__lsToi * {
-  transform-style: preserve-3d;
 }
 .text__hxjHi {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__hxjHi * {
-  transform-style: preserve-3d;
 }
 .memberPersonalNameGroup {
   display: flex;
@@ -264,7 +166,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .memberPersonalNameGroup > :global(.__wab_flex-container) {
@@ -275,9 +176,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.memberPersonalNameGroup * {
-  transform-style: preserve-3d;
 }
 .memberPersonalNameGroup > :global(.__wab_flex-container) > *,
 .memberPersonalNameGroup
@@ -293,11 +191,6 @@
   margin-top: 32px;
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .memberPersonalNameGroup {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
   .memberPersonalNameGroup > :global(.__wab_flex-container) {
     align-content: center;
     justify-content: center;
@@ -305,11 +198,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 16px);
     height: calc(100% + 16px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .memberPersonalNameGroup * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -330,63 +218,15 @@
 }
 .firstNameInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.firstNameInput * {
-  transform-style: preserve-3d;
-}
-.text___1RyG {
-  transform-style: preserve-3d;
-}
-.text___1RyG * {
-  transform-style: preserve-3d;
-}
-.text__zim0P {
-  transform-style: preserve-3d;
-}
-.text__zim0P * {
-  transform-style: preserve-3d;
-}
-.text__hmCQu {
-  transform-style: preserve-3d;
-}
-.text__hmCQu * {
-  transform-style: preserve-3d;
 }
 .lastNameInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.lastNameInput * {
-  transform-style: preserve-3d;
-}
-.text__hMd01 {
-  transform-style: preserve-3d;
-}
-.text__hMd01 * {
-  transform-style: preserve-3d;
-}
-.text__bhT2W {
-  transform-style: preserve-3d;
-}
-.text__bhT2W * {
-  transform-style: preserve-3d;
-}
-.text__nIWac {
-  transform-style: preserve-3d;
-}
-.text__nIWac * {
-  transform-style: preserve-3d;
 }
 .buttonGroupStripeVerification:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
   align-self: center;
-  transform-style: preserve-3d;
-}
-.buttonGroupStripeVerification * {
-  transform-style: preserve-3d;
 }
 .cardMemberImage {
   display: flex;
@@ -397,7 +237,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .cardMemberImage > :global(.__wab_flex-container) {
@@ -406,9 +245,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberImage * {
-  transform-style: preserve-3d;
 }
 .cardMemberImage > :global(.__wab_flex-container) > *,
 .cardMemberImage > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -423,7 +259,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberImage {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -432,43 +267,14 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberImage * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__ezi8:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__ezi8 * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__ezi8:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__ezi8 * {
-    transform-style: preserve-3d;
-  }
-}
-.text__soKDd {
-  transform-style: preserve-3d;
-}
-.text__soKDd * {
-  transform-style: preserve-3d;
 }
 .text__h4Mp0 {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__h4Mp0 * {
-  transform-style: preserve-3d;
 }
 .memberUploadLogoButtonGroup {
   display: flex;
@@ -479,7 +285,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .memberUploadLogoButtonGroup > :global(.__wab_flex-container) {
@@ -490,9 +295,6 @@
   min-width: 0;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
-}
-.memberUploadLogoButtonGroup * {
-  transform-style: preserve-3d;
 }
 .memberUploadLogoButtonGroup > :global(.__wab_flex-container) > *,
 .memberUploadLogoButtonGroup
@@ -515,17 +317,12 @@
   justify-content: flex-start;
   width: 64px;
   height: 64px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.imageWrapper * {
-  transform-style: preserve-3d;
 }
 .userImage {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
@@ -537,9 +334,6 @@
 .userImage > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.userImage * {
-  transform-style: preserve-3d;
-}
 .memberEditlogoGroup {
   display: flex;
   position: relative;
@@ -548,7 +342,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .memberEditlogoGroup > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -556,9 +349,6 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.memberEditlogoGroup * {
-  transform-style: preserve-3d;
 }
 .memberEditlogoGroup > :global(.__wab_flex-container) > *,
 .memberEditlogoGroup
@@ -577,33 +367,13 @@
   position: relative;
   width: 90px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.editUserImageButton * {
-  transform-style: preserve-3d;
-}
-.text__bom {
-  transform-style: preserve-3d;
-}
-.text__bom * {
-  transform-style: preserve-3d;
 }
 .deleteUserImageButton:global(.__wab_instance) {
   position: relative;
   width: 90px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.deleteUserImageButton * {
-  transform-style: preserve-3d;
-}
-.text__zdph {
-  transform-style: preserve-3d;
-}
-.text__zdph * {
-  transform-style: preserve-3d;
 }
 .cardMemberUsername {
   display: flex;
@@ -614,7 +384,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -625,9 +394,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberUsername * {
-  transform-style: preserve-3d;
 }
 .cardMemberUsername > :global(.__wab_flex-container) > *,
 .cardMemberUsername > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -642,7 +408,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberUsername {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -651,69 +416,18 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberUsername * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__anzId:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__anzId * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__anzId:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__anzId * {
-    transform-style: preserve-3d;
-  }
-}
-.text__iF3X {
-  transform-style: preserve-3d;
-}
-.text__iF3X * {
-  transform-style: preserve-3d;
 }
 .text__wxY25 {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__wxY25 * {
-  transform-style: preserve-3d;
 }
 .displayNameInput:global(.__wab_instance) {
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.displayNameInput * {
-  transform-style: preserve-3d;
-}
-.text__fl42B {
-  transform-style: preserve-3d;
-}
-.text__fl42B * {
-  transform-style: preserve-3d;
-}
-.text__fcOmo {
-  transform-style: preserve-3d;
-}
-.text__fcOmo * {
-  transform-style: preserve-3d;
-}
-.text__w5FHi {
-  transform-style: preserve-3d;
-}
-.text__w5FHi * {
-  transform-style: preserve-3d;
 }
 .cardMemberUrl {
   display: flex;
@@ -723,7 +437,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -735,9 +448,6 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.cardMemberUrl * {
-  transform-style: preserve-3d;
-}
 .cardMemberUrl > :global(.__wab_flex-container) > *,
 .cardMemberUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .cardMemberUrl > :global(.__wab_flex-container) > picture > img,
@@ -748,73 +458,17 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberUrl {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberUrl * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary___71L8V:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary___71L8V * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary___71L8V:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary___71L8V * {
-    transform-style: preserve-3d;
-  }
-}
-.text__zib0P {
-  transform-style: preserve-3d;
-}
-.text__zib0P * {
-  transform-style: preserve-3d;
 }
 .text__pNwo {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__pNwo * {
-  transform-style: preserve-3d;
 }
 .companyUrlTextInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.companyUrlTextInput * {
-  transform-style: preserve-3d;
-}
-.text__dbla4 {
-  transform-style: preserve-3d;
-}
-.text__dbla4 * {
-  transform-style: preserve-3d;
-}
-.text__io91I {
-  transform-style: preserve-3d;
-}
-.text__io91I * {
-  transform-style: preserve-3d;
-}
-.text__gHrCe {
-  transform-style: preserve-3d;
-}
-.text__gHrCe * {
-  transform-style: preserve-3d;
 }
 .cardMemberTagline {
   display: flex;
@@ -824,7 +478,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberTagline > :global(.__wab_flex-container) {
@@ -836,9 +489,6 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.cardMemberTagline * {
-  transform-style: preserve-3d;
-}
 .cardMemberTagline > :global(.__wab_flex-container) > *,
 .cardMemberTagline > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .cardMemberTagline > :global(.__wab_flex-container) > picture > img,
@@ -849,73 +499,17 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberTagline {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberTagline * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__jfQor:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__jfQor * {
-  transform-style: preserve-3d;
-}
-.text__cfXia {
-  transform-style: preserve-3d;
-}
-.text__cfXia * {
-  transform-style: preserve-3d;
 }
 .text__xxxU {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__xxxU * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__xxxU {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__xxxU * {
-    transform-style: preserve-3d;
-  }
 }
 .companyTagInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.companyTagInput * {
-  transform-style: preserve-3d;
-}
-.text___9OZqA {
-  transform-style: preserve-3d;
-}
-.text___9OZqA * {
-  transform-style: preserve-3d;
-}
-.text___86Oy {
-  transform-style: preserve-3d;
-}
-.text___86Oy * {
-  transform-style: preserve-3d;
-}
-.text___2C2Hb {
-  transform-style: preserve-3d;
-}
-.text___2C2Hb * {
-  transform-style: preserve-3d;
 }
 .cardMemberDescription {
   display: flex;
@@ -926,7 +520,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberDescription > :global(.__wab_flex-container) {
@@ -937,9 +530,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberDescription * {
-  transform-style: preserve-3d;
 }
 .cardMemberDescription > :global(.__wab_flex-container) > *,
 .cardMemberDescription
@@ -958,7 +548,6 @@
   .cardMemberDescription {
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -967,39 +556,16 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberDescription * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__oB2Kh:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__oB2Kh * {
-  transform-style: preserve-3d;
-}
-.text__rKtKt {
-  transform-style: preserve-3d;
-}
-.text__rKtKt * {
-  transform-style: preserve-3d;
 }
 .text__qsVv3 {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__qsVv3 * {
-  transform-style: preserve-3d;
 }
 .descriptionInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.descriptionInput * {
-  transform-style: preserve-3d;
 }
 .cardVideoIntroUrl {
   display: flex;
@@ -1009,7 +575,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -1021,9 +586,6 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.cardVideoIntroUrl * {
-  transform-style: preserve-3d;
-}
 .cardVideoIntroUrl > :global(.__wab_flex-container) > *,
 .cardVideoIntroUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .cardVideoIntroUrl > :global(.__wab_flex-container) > picture > img,
@@ -1034,80 +596,24 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardVideoIntroUrl {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardVideoIntroUrl * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__hRoA:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__hRoA * {
-  transform-style: preserve-3d;
-}
-.text__kbj9F {
-  transform-style: preserve-3d;
-}
-.text__kbj9F * {
-  transform-style: preserve-3d;
 }
 .text__zWe26 {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__zWe26 * {
-  transform-style: preserve-3d;
 }
 .introVideoUrlInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.introVideoUrlInput * {
-  transform-style: preserve-3d;
-}
-.text__fHlyn {
-  transform-style: preserve-3d;
-}
-.text__fHlyn * {
-  transform-style: preserve-3d;
-}
-.text__yZz6C {
-  transform-style: preserve-3d;
-}
-.text__yZz6C * {
-  transform-style: preserve-3d;
-}
-.text__boPhg {
-  transform-style: preserve-3d;
-}
-.text__boPhg * {
-  transform-style: preserve-3d;
 }
 .submitProfileButton:global(.__wab_instance) {
   position: relative;
   width: 180px;
   height: 40px;
   align-self: flex-end;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.submitProfileButton * {
-  transform-style: preserve-3d;
-}
-.text__dCLfP {
-  transform-style: preserve-3d;
-}
-.text__dCLfP * {
-  transform-style: preserve-3d;
 }
 .sectionMemberEditProfileDetails {
   display: flex;
@@ -1117,7 +623,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 32px;
 }
@@ -1129,9 +634,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionMemberEditProfileDetails * {
-  transform-style: preserve-3d;
 }
 .sectionMemberEditProfileDetails > :global(.__wab_flex-container) > *,
 .sectionMemberEditProfileDetails
@@ -1152,24 +654,12 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfileDetails {
     width: auto;
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionMemberEditProfileDetails * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .sectionMemberEditProfileDetails {
-    transform-style: preserve-3d;
     padding: 8px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionMemberEditProfileDetails * {
-    transform-style: preserve-3d;
   }
 }
 .cardHeaderTitleDisplay__pGCvu:global(.__wab_instance) {
@@ -1177,59 +667,19 @@
   left: auto;
   top: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.cardHeaderTitleDisplay__pGCvu * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitleDisplay__pGCvu:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitleDisplay__pGCvu * {
-    transform-style: preserve-3d;
-  }
-}
-.text__g0CId {
-  transform-style: preserve-3d;
-}
-.text__g0CId * {
-  transform-style: preserve-3d;
 }
 .text__zGsIr {
   font-weight: 700;
-  transform-style: preserve-3d;
-}
-.text__zGsIr * {
-  transform-style: preserve-3d;
-}
-.text__qgZZ {
-  transform-style: preserve-3d;
-}
-.text__qgZZ * {
-  transform-style: preserve-3d;
 }
 .memberDetailsForm:global(.__wab_instance) {
   position: relative;
   width: 550px;
-  transform-style: preserve-3d;
-}
-.memberDetailsForm * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .memberDetailsForm:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .memberDetailsForm * {
-    transform-style: preserve-3d;
   }
 }
 .formMemberEditDetails {
@@ -1240,7 +690,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .formMemberEditDetails > :global(.__wab_flex-container) {
@@ -1250,9 +699,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.formMemberEditDetails * {
-  transform-style: preserve-3d;
 }
 .formMemberEditDetails > :global(.__wab_flex-container) > *,
 .formMemberEditDetails
@@ -1272,12 +718,6 @@
     width: auto;
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .formMemberEditDetails * {
-    transform-style: preserve-3d;
   }
 }
 .cardMemberLocation {
@@ -1288,7 +728,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberLocation > :global(.__wab_flex-container) {
@@ -1299,9 +738,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberLocation * {
-  transform-style: preserve-3d;
 }
 .cardMemberLocation > :global(.__wab_flex-container) > *,
 .cardMemberLocation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1316,7 +752,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLocation {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1325,33 +760,14 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberLocation * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__fhFuB:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__fhFuB * {
-  transform-style: preserve-3d;
-}
-.text___6RxXj {
-  transform-style: preserve-3d;
-}
-.text___6RxXj * {
-  transform-style: preserve-3d;
 }
 .text__oQfam {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__oQfam * {
-  transform-style: preserve-3d;
 }
 .memberLocationGroup {
   display: flex;
@@ -1361,7 +777,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .memberLocationGroup > :global(.__wab_flex-container) {
@@ -1372,9 +787,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.memberLocationGroup * {
-  transform-style: preserve-3d;
 }
 .memberLocationGroup > :global(.__wab_flex-container) > *,
 .memberLocationGroup
@@ -1392,7 +804,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .memberLocationGroup {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1403,11 +814,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
     height: calc(100% + 20px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .memberLocationGroup * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -1428,41 +834,9 @@
 }
 .countrySelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.countrySelectInput * {
-  transform-style: preserve-3d;
-}
-.text__ao5D1 {
-  transform-style: preserve-3d;
-}
-.text__ao5D1 * {
-  transform-style: preserve-3d;
-}
-.text__xKkl {
-  transform-style: preserve-3d;
-}
-.text__xKkl * {
-  transform-style: preserve-3d;
 }
 .citySelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.citySelectInput * {
-  transform-style: preserve-3d;
-}
-.text__s7NNz {
-  transform-style: preserve-3d;
-}
-.text__s7NNz * {
-  transform-style: preserve-3d;
-}
-.text__hb16J {
-  transform-style: preserve-3d;
-}
-.text__hb16J * {
-  transform-style: preserve-3d;
 }
 .cardMemberIndustry {
   display: flex;
@@ -1472,7 +846,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberIndustry > :global(.__wab_flex-container) {
@@ -1483,9 +856,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberIndustry * {
-  transform-style: preserve-3d;
 }
 .cardMemberIndustry > :global(.__wab_flex-container) > *,
 .cardMemberIndustry > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1500,7 +870,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberIndustry {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1509,33 +878,14 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberIndustry * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__lrlkZ:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__lrlkZ * {
-  transform-style: preserve-3d;
-}
-.text__fpMyw {
-  transform-style: preserve-3d;
-}
-.text__fpMyw * {
-  transform-style: preserve-3d;
 }
 .text__kQo {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__kQo * {
-  transform-style: preserve-3d;
 }
 .memberIndustryGroup {
   display: flex;
@@ -1545,7 +895,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .memberIndustryGroup > :global(.__wab_flex-container) {
@@ -1556,9 +905,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.memberIndustryGroup * {
-  transform-style: preserve-3d;
 }
 .memberIndustryGroup > :global(.__wab_flex-container) > *,
 .memberIndustryGroup
@@ -1576,7 +922,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .memberIndustryGroup {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1587,11 +932,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
     height: calc(100% + 20px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .memberIndustryGroup * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -1612,47 +952,9 @@
 }
 .industrySelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.industrySelectInput * {
-  transform-style: preserve-3d;
-}
-.text__qjkVm {
-  transform-style: preserve-3d;
-}
-.text__qjkVm * {
-  transform-style: preserve-3d;
-}
-.text__oNqgF {
-  transform-style: preserve-3d;
-}
-.text__oNqgF * {
-  transform-style: preserve-3d;
 }
 .jobTitleInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.jobTitleInput * {
-  transform-style: preserve-3d;
-}
-.text___2JwWm {
-  transform-style: preserve-3d;
-}
-.text___2JwWm * {
-  transform-style: preserve-3d;
-}
-.text___7Nx3J {
-  transform-style: preserve-3d;
-}
-.text___7Nx3J * {
-  transform-style: preserve-3d;
-}
-.text__gbbBw {
-  transform-style: preserve-3d;
-}
-.text__gbbBw * {
-  transform-style: preserve-3d;
 }
 .cardMemberLanguages {
   display: flex;
@@ -1662,7 +964,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberLanguages > :global(.__wab_flex-container) {
@@ -1673,9 +974,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberLanguages * {
-  transform-style: preserve-3d;
 }
 .cardMemberLanguages > :global(.__wab_flex-container) > *,
 .cardMemberLanguages
@@ -1693,7 +991,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberLanguages {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1702,33 +999,14 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberLanguages * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary___8QCqw:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary___8QCqw * {
-  transform-style: preserve-3d;
-}
-.text__f1Ghe {
-  transform-style: preserve-3d;
-}
-.text__f1Ghe * {
-  transform-style: preserve-3d;
 }
 .text__ikYyc {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__ikYyc * {
-  transform-style: preserve-3d;
 }
 .inputGroupMemberLanguages {
   display: flex;
@@ -1738,7 +1016,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .inputGroupMemberLanguages > :global(.__wab_flex-container) {
@@ -1749,9 +1026,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.inputGroupMemberLanguages * {
-  transform-style: preserve-3d;
 }
 .inputGroupMemberLanguages > :global(.__wab_flex-container) > *,
 .inputGroupMemberLanguages
@@ -1769,7 +1043,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .inputGroupMemberLanguages {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1780,11 +1053,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 20px);
     height: calc(100% + 20px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inputGroupMemberLanguages * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -1805,41 +1073,9 @@
 }
 .primaryLanguageSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.primaryLanguageSelectInput * {
-  transform-style: preserve-3d;
-}
-.text__m7Rx5 {
-  transform-style: preserve-3d;
-}
-.text__m7Rx5 * {
-  transform-style: preserve-3d;
-}
-.text__poCuj {
-  transform-style: preserve-3d;
-}
-.text__poCuj * {
-  transform-style: preserve-3d;
 }
 .secondaryLanguageSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.secondaryLanguageSelectInput * {
-  transform-style: preserve-3d;
-}
-.text__gcH {
-  transform-style: preserve-3d;
-}
-.text__gcH * {
-  transform-style: preserve-3d;
-}
-.text__cdsiM {
-  transform-style: preserve-3d;
-}
-.text__cdsiM * {
-  transform-style: preserve-3d;
 }
 .cardMemberInterests {
   display: flex;
@@ -1849,7 +1085,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberInterests > :global(.__wab_flex-container) {
@@ -1859,9 +1094,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberInterests * {
-  transform-style: preserve-3d;
 }
 .cardMemberInterests > :global(.__wab_flex-container) > *,
 .cardMemberInterests
@@ -1876,46 +1108,18 @@
   > img {
   margin-top: 24px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberInterests {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberInterests * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__bl1O0:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__bl1O0 * {
-  transform-style: preserve-3d;
-}
-.text___7JPou {
-  transform-style: preserve-3d;
-}
-.text___7JPou * {
-  transform-style: preserve-3d;
 }
 .text__mAude {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__mAude * {
-  transform-style: preserve-3d;
 }
 .interestsMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.interestsMultiSelectInput * {
-  transform-style: preserve-3d;
 }
 .cardMemberSkills {
   display: flex;
@@ -1925,7 +1129,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberSkills > :global(.__wab_flex-container) {
@@ -1935,9 +1138,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberSkills * {
-  transform-style: preserve-3d;
 }
 .cardMemberSkills > :global(.__wab_flex-container) > *,
 .cardMemberSkills > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1954,31 +1154,13 @@
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__i0Au * {
-  transform-style: preserve-3d;
-}
-.text__zlZp3 {
-  transform-style: preserve-3d;
-}
-.text__zlZp3 * {
-  transform-style: preserve-3d;
 }
 .text___4WyB {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text___4WyB * {
-  transform-style: preserve-3d;
 }
 .skillsMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.skillsMultiSelectInput * {
-  transform-style: preserve-3d;
 }
 .cardMemberCommunity {
   display: flex;
@@ -1988,7 +1170,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .cardMemberCommunity > :global(.__wab_flex-container) {
@@ -1998,9 +1179,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberCommunity * {
-  transform-style: preserve-3d;
 }
 .cardMemberCommunity > :global(.__wab_flex-container) > *,
 .cardMemberCommunity
@@ -2020,49 +1198,23 @@
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__sy9Hg * {
-  transform-style: preserve-3d;
-}
-.text__xhp2A {
-  transform-style: preserve-3d;
-}
-.text__xhp2A * {
-  transform-style: preserve-3d;
 }
 .text__kfwe {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__kfwe * {
-  transform-style: preserve-3d;
 }
 .communityMultiSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.communityMultiSelectInput * {
-  transform-style: preserve-3d;
 }
 .submitDetailsButton:global(.__wab_instance) {
   position: relative;
   width: 180px;
   height: 40px;
   align-self: flex-end;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.submitDetailsButton * {
-  transform-style: preserve-3d;
 }
 .text__xh7Ny {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__xh7Ny * {
-  transform-style: preserve-3d;
 }
 .sectionMemberEditProfileSocial {
   display: flex;
@@ -2072,7 +1224,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 8px 96px;
 }
@@ -2084,9 +1235,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionMemberEditProfileSocial * {
-  transform-style: preserve-3d;
 }
 .sectionMemberEditProfileSocial > :global(.__wab_flex-container) > *,
 .sectionMemberEditProfileSocial
@@ -2106,24 +1254,12 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMemberEditProfileSocial {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionMemberEditProfileSocial * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .sectionMemberEditProfileSocial {
-    transform-style: preserve-3d;
     padding: 8px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionMemberEditProfileSocial * {
-    transform-style: preserve-3d;
   }
 }
 .cardHeaderTitleDisplay__da5Bv:global(.__wab_instance) {
@@ -2131,48 +1267,18 @@
   left: auto;
   top: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.cardHeaderTitleDisplay__da5Bv * {
-  transform-style: preserve-3d;
-}
-.text__saCHq {
-  transform-style: preserve-3d;
-}
-.text__saCHq * {
-  transform-style: preserve-3d;
 }
 .text__zgvp4 {
   font-weight: 700;
-  transform-style: preserve-3d;
-}
-.text__zgvp4 * {
-  transform-style: preserve-3d;
-}
-.text__nfrNc {
-  transform-style: preserve-3d;
-}
-.text__nfrNc * {
-  transform-style: preserve-3d;
 }
 .memberSocialForm:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.memberSocialForm * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .memberSocialForm:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .memberSocialForm * {
-    transform-style: preserve-3d;
   }
 }
 .formMemberEditSocial {
@@ -2183,7 +1289,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .formMemberEditSocial > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -2191,9 +1296,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.formMemberEditSocial * {
-  transform-style: preserve-3d;
 }
 .formMemberEditSocial > :global(.__wab_flex-container) > *,
 .formMemberEditSocial
@@ -2213,12 +1315,6 @@
     width: auto;
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .formMemberEditSocial * {
-    transform-style: preserve-3d;
   }
 }
 .cardMemberWebsite {
@@ -2230,7 +1326,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -2241,9 +1336,6 @@
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberWebsite * {
-  transform-style: preserve-3d;
 }
 .cardMemberWebsite > :global(.__wab_flex-container) > *,
 .cardMemberWebsite > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -2258,7 +1350,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberWebsite {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -2267,59 +1358,18 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberWebsite * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__v0B32:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__v0B32 * {
-  transform-style: preserve-3d;
-}
-.text__gkfHz {
-  transform-style: preserve-3d;
-}
-.text__gkfHz * {
-  transform-style: preserve-3d;
 }
 .text__zfHw {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__zfHw * {
-  transform-style: preserve-3d;
 }
 .formTextInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.formTextInput * {
-  transform-style: preserve-3d;
-}
-.text___2OeA {
-  transform-style: preserve-3d;
-}
-.text___2OeA * {
-  transform-style: preserve-3d;
-}
-.text__uJmbM {
-  transform-style: preserve-3d;
-}
-.text__uJmbM * {
-  transform-style: preserve-3d;
-}
-.text___2QNqy {
-  transform-style: preserve-3d;
-}
-.text___2QNqy * {
-  transform-style: preserve-3d;
 }
 .cardMemberSocial {
   display: flex;
@@ -2330,7 +1380,6 @@
   left: auto;
   top: auto;
   align-self: flex-start;
-  transform-style: preserve-3d;
 }
 .cardMemberSocial > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -2339,9 +1388,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardMemberSocial * {
-  transform-style: preserve-3d;
 }
 .cardMemberSocial > :global(.__wab_flex-container) > *,
 .cardMemberSocial > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -2356,7 +1402,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardMemberSocial {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -2365,51 +1410,24 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardMemberSocial * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__tYhVt:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__tYhVt * {
-  transform-style: preserve-3d;
 }
 .text__rUb4 {
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
-  transform-style: preserve-3d;
-}
-.text__rUb4 * {
-  transform-style: preserve-3d;
 }
 .text__osn8L {
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__osn8L * {
-  transform-style: preserve-3d;
 }
 .socialPlatformsSwitchInputs:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.socialPlatformsSwitchInputs * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .socialPlatformsSwitchInputs:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .socialPlatformsSwitchInputs * {
-    transform-style: preserve-3d;
   }
 }
 .submitSocialButton:global(.__wab_instance) {
@@ -2417,15 +1435,5 @@
   width: 180px;
   height: 40px;
   align-self: flex-end;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.submitSocialButton * {
-  transform-style: preserve-3d;
-}
-.text__kLk1V {
-  transform-style: preserve-3d;
-}
-.text__kLk1V * {
-  transform-style: preserve-3d;
 }
