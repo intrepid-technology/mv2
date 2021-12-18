@@ -206,6 +206,7 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={"https://news.tryintrepid.com"}
               slot={"Newsletter"}
             />
 

@@ -12,7 +12,6 @@ function Servicelistingconfirmation() {
 
   const serviceCategory = useServiceCategory(serviceListing?.category?.serviceCategory)
   const service = useService(serviceListing?.category?.service)
-
   const createListingMutation = usecreateListing(serviceListing);
 
   if (createListingMutation.isSuccess) {
