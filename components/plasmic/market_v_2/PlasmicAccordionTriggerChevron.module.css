@@ -4,13 +4,9 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  transform-style: preserve-3d;
   padding: 0px;
   border-width: 1px;
   border-style: none;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .svgParent {
   display: flex;
@@ -19,86 +15,19 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.svgParent * {
-  transform-style: preserve-3d;
-}
-.svgParent__state_closed {
-  transform-style: preserve-3d;
-}
-.svgParent__state_closed * {
-  transform-style: preserve-3d;
-}
-.slotTargetSvg * {
-  transform-style: preserve-3d;
-}
-.slotTargetSvg > *,
-.slotTargetSvg > .__wab_slot > *,
-.slotTargetSvg > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg > picture > img,
-.slotTargetSvg > .__wab_slot > picture > img,
-.slotTargetSvg > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSvg > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSvg__state_closed * {
-  transform-style: preserve-3d;
-}
-.slotTargetSvg__state_closed > *,
-.slotTargetSvg__state_closed > .__wab_slot > *,
-.slotTargetSvg__state_closed > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg__state_closed > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg__state_closed > picture > img,
-.slotTargetSvg__state_closed > .__wab_slot > picture > img,
-.slotTargetSvg__state_closed > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSvg__state_closed
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .slotTargetSvg__state_disabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
-}
-.slotTargetSvg__state_disabled * {
-  transform-style: preserve-3d;
-}
-.slotTargetSvg__state_disabled > *,
-.slotTargetSvg__state_disabled > .__wab_slot > *,
-.slotTargetSvg__state_disabled > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg__state_disabled > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSvg__state_disabled > picture > img,
-.slotTargetSvg__state_disabled > .__wab_slot > picture > img,
-.slotTargetSvg__state_disabled > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSvg__state_disabled
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
 }
 .svg___63YN {
   object-fit: cover;
   width: 32px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg___63YN * {
-  transform-style: preserve-3d;
 }
 .svg__sDv4 {
   object-fit: cover;
   width: 32px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg__sDv4 * {
-  transform-style: preserve-3d;
 }

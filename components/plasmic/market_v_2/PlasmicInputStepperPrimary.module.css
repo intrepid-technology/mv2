@@ -7,12 +7,8 @@
   height: 32px;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   border-radius: 2px;
   border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .button__cGaqh {
   display: flex;
@@ -25,24 +21,16 @@
   width: 28px;
   height: 28px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 4px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.button__cGaqh * {
-  transform-style: preserve-3d;
 }
 .svg___7TaUz {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg___7TaUz * {
-  transform-style: preserve-3d;
 }
 .textInput {
   position: relative;
@@ -52,13 +40,9 @@
   height: 100%;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.textInput * {
-  transform-style: preserve-3d;
 }
 .button__sfUcw {
   display: flex;
@@ -71,22 +55,14 @@
   width: 28px;
   height: 28px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   padding: 4px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.button__sfUcw * {
-  transform-style: preserve-3d;
 }
 .svg___9It4W {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg___9It4W * {
-  transform-style: preserve-3d;
 }

@@ -6,29 +6,9 @@
   width: auto;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   padding: 0px;
   border-width: 1px;
   border-style: none;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-.root__light {
-  transform-style: preserve-3d;
-}
-.root__light * {
-  transform-style: preserve-3d;
 }
 .svg {
   position: relative;
@@ -36,59 +16,19 @@
   width: 20px;
   height: 20px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
     color: #14161b /* plasmic-token: ec1vMFIzT */;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svg * {
-    transform-style: preserve-3d;
   }
 }
 .svg__light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
-  transform-style: preserve-3d;
-}
-.svg__light * {
-  transform-style: preserve-3d;
-}
-.svg__alternates_notification {
-  transform-style: preserve-3d;
-}
-.svg__alternates_notification * {
-  transform-style: preserve-3d;
-}
-.svg__alternates_help {
-  transform-style: preserve-3d;
-}
-.svg__alternates_help * {
-  transform-style: preserve-3d;
-}
-.svg__alternates_inbox {
-  transform-style: preserve-3d;
-}
-.svg__alternates_inbox * {
-  transform-style: preserve-3d;
 }
 .root:hover .svg {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.root:hover .svg * {
-  transform-style: preserve-3d;
 }
 .root__light:hover .svg__light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
-}
-.root__light:hover .svg__light * {
-  transform-style: preserve-3d;
 }

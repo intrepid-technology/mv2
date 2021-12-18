@@ -5,32 +5,8 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .sectionMarketHeadline {
   display: flex;
@@ -42,12 +18,8 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 64px 24px;
-}
-.sectionMarketHeadline * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionMarketHeadline {
@@ -56,68 +28,12 @@
     align-items: flex-start;
     align-content: unset;
     padding-top: 32px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .sectionMarketHeadline * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .sectionMarketHeadline {
     padding-top: 16px;
-    transform-style: preserve-3d;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionMarketHeadline * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitleDisplay___4KxLs:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay___4KxLs * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitleDisplay___4KxLs:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitleDisplay___4KxLs * {
-    transform-style: preserve-3d;
-  }
-}
-.text__mmSE {
-  transform-style: preserve-3d;
-}
-.text__mmSE * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__mmSE {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__mmSE * {
-    transform-style: preserve-3d;
-  }
-}
-.text__dehFn {
-  transform-style: preserve-3d;
-}
-.text__dehFn * {
-  transform-style: preserve-3d;
-}
-.text___0Qw5H {
-  transform-style: preserve-3d;
-}
-.text___0Qw5H * {
-  transform-style: preserve-3d;
 }
 .sectionNewServiceListings {
   display: flex;
@@ -128,7 +44,6 @@
   width: 100%;
   height: auto;
   padding-left: 24px;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .sectionNewServiceListings > :global(.__wab_flex-container) {
@@ -138,9 +53,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionNewServiceListings * {
-  transform-style: preserve-3d;
 }
 .sectionNewServiceListings > :global(.__wab_flex-container) > *,
 .sectionNewServiceListings
@@ -158,25 +70,7 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionNewServiceListings {
     padding-left: 120px;
-    transform-style: preserve-3d;
   }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .sectionNewServiceListings * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitleDisplay__upcyJ:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay__upcyJ * {
-  transform-style: preserve-3d;
-}
-.text__et3Il {
-  transform-style: preserve-3d;
-}
-.text__et3Il * {
-  transform-style: preserve-3d;
 }
 .text__o0Huz {
   display: block;
@@ -187,10 +81,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__o0Huz * {
-  transform-style: preserve-3d;
 }
 .text__wxNnk {
   display: block;
@@ -201,10 +91,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__wxNnk * {
-  transform-style: preserve-3d;
 }
 .freeBox__x52DM {
   display: flex;
@@ -215,7 +101,6 @@
   width: 100%;
   height: auto;
   padding-left: 0px;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__x52DM > :global(.__wab_flex-container) {
@@ -225,9 +110,6 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.freeBox__x52DM * {
-  transform-style: preserve-3d;
 }
 .freeBox__x52DM > :global(.__wab_flex-container) > *,
 .freeBox__x52DM > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -239,24 +121,6 @@
   > img {
   margin-top: 8px;
 }
-.cardHeaderTitleDisplay__lJkoc:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay__lJkoc * {
-  transform-style: preserve-3d;
-}
-.text__oqMbK {
-  transform-style: preserve-3d;
-}
-.text__oqMbK * {
-  transform-style: preserve-3d;
-}
-.text__zsut3 {
-  transform-style: preserve-3d;
-}
-.text__zsut3 * {
-  transform-style: preserve-3d;
-}
 .text___8Qeyr {
   display: block;
   font-size: 16px;
@@ -266,10 +130,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text___8Qeyr * {
-  transform-style: preserve-3d;
 }
 .freeBox__peEx {
   display: flex;
@@ -283,7 +143,6 @@
   padding-top: 16px;
   padding-right: 0px;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__peEx > :global(.__wab_flex-container) {
@@ -293,9 +152,6 @@
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.freeBox__peEx * {
-  transform-style: preserve-3d;
 }
 .freeBox__peEx > :global(.__wab_flex-container) > *,
 .freeBox__peEx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -311,11 +167,7 @@
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.marketUserProfile * {
-  transform-style: preserve-3d;
 }
 .sectionServiceCollections {
   display: flex;
@@ -326,7 +178,6 @@
   padding-left: 24px;
   padding-bottom: 96px;
   padding-top: 48px;
-  transform-style: preserve-3d;
 }
 .sectionServiceCollections > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -334,9 +185,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionServiceCollections * {
-  transform-style: preserve-3d;
 }
 .sectionServiceCollections > :global(.__wab_flex-container) > *,
 .sectionServiceCollections
@@ -354,22 +202,6 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionServiceCollections {
     padding-left: 120px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .sectionServiceCollections * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionServiceCollections {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionServiceCollections * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox__w5Mqp {
@@ -379,7 +211,6 @@
   top: auto;
   left: auto;
   padding-left: 0px;
-  transform-style: preserve-3d;
 }
 .freeBox__w5Mqp > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -387,9 +218,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.freeBox__w5Mqp * {
-  transform-style: preserve-3d;
 }
 .freeBox__w5Mqp > :global(.__wab_flex-container) > *,
 .freeBox__w5Mqp > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -401,28 +229,6 @@
   > img {
   margin-top: 8px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__w5Mqp {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__w5Mqp * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitleDisplay__iuvNa:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay__iuvNa * {
-  transform-style: preserve-3d;
-}
-.text__oSSzX {
-  transform-style: preserve-3d;
-}
-.text__oSSzX * {
-  transform-style: preserve-3d;
-}
 .text__aC4Uc {
   display: block;
   font-size: 24px;
@@ -432,10 +238,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__aC4Uc * {
-  transform-style: preserve-3d;
 }
 .text__fGgzj {
   display: block;
@@ -446,10 +248,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   align-self: stretch;
-  transform-style: preserve-3d;
-}
-.text__fGgzj * {
-  transform-style: preserve-3d;
 }
 .freeBox___9OZlj {
   display: flex;
@@ -460,7 +258,6 @@
   width: 100%;
   overflow: auto;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 0px;
 }
@@ -472,9 +269,6 @@
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
-.freeBox___9OZlj * {
-  transform-style: preserve-3d;
-}
 .freeBox___9OZlj > :global(.__wab_flex-container) > *,
 .freeBox___9OZlj > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .freeBox___9OZlj > :global(.__wab_flex-container) > picture > img,
@@ -485,42 +279,21 @@
   > img {
   margin-left: 16px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox___9OZlj {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox___9OZlj * {
-    transform-style: preserve-3d;
-  }
-}
 .cardServiceDisplay:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.cardServiceDisplay * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .cardServiceDisplay:global(.__wab_instance) {
-    transform-style: preserve-3d;
     flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .cardServiceDisplay * {
-    transform-style: preserve-3d;
   }
 }
 .img__ybo5P {
   object-fit: cover;
   width: 360px;
   height: 270px;
-  transform-style: preserve-3d;
 }
 .img__ybo5P > picture > img {
   object-fit: cover;
@@ -528,14 +301,10 @@
 .img__ybo5P > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__ybo5P * {
-  transform-style: preserve-3d;
-}
 .img___74IvR {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -544,19 +313,4 @@
 }
 .img___74IvR > .__wab_img-spacer > img {
   object-fit: cover;
-}
-.img___74IvR * {
-  transform-style: preserve-3d;
-}
-.text__rE00N {
-  transform-style: preserve-3d;
-}
-.text__rE00N * {
-  transform-style: preserve-3d;
-}
-.text__o2Ric {
-  transform-style: preserve-3d;
-}
-.text__o2Ric * {
-  transform-style: preserve-3d;
 }

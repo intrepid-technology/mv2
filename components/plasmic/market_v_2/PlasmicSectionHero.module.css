@@ -6,26 +6,16 @@
   width: 100%;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root {
     width: 100%;
     justify-content: center;
     align-items: center;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 0px;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -34,30 +24,14 @@
     flex-direction: column;
     width: 100%;
     flex-column-gap: 0px;
-    transform-style: preserve-3d;
     min-width: 0;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-.root__persona_member {
-  transform-style: preserve-3d;
-}
-.root__persona_member * {
-  transform-style: preserve-3d;
 }
 .root__persona_partner {
   width: 100%;
   padding-left: 0px;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root__persona_partner * {
-  transform-style: preserve-3d;
 }
 .heroTextImageDiv {
   display: flex;
@@ -70,24 +44,14 @@
   flex-wrap: nowrap;
   align-content: flex-start;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 64px 180px;
-}
-.heroTextImageDiv * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv {
     flex-wrap: nowrap;
     padding-top: 64px;
     padding-bottom: 64px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroTextImageDiv * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -97,33 +61,17 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     flex-column-gap: 0px;
-    transform-style: preserve-3d;
     padding: 32px 16px;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroTextImageDiv * {
-    transform-style: preserve-3d;
   }
 }
 .heroTextImageDiv__persona_member {
   padding-left: 180px;
   padding-bottom: 64px;
-  transform-style: preserve-3d;
-}
-.heroTextImageDiv__persona_member * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv__persona_member {
     padding-top: 64px;
     padding-bottom: 64px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroTextImageDiv__persona_member * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -131,189 +79,45 @@
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 32px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroTextImageDiv__persona_member * {
-    transform-style: preserve-3d;
   }
 }
 .heroTextImageDiv__persona_partner {
   padding-left: 0px;
   height: 100%;
   padding-bottom: 64px;
-  transform-style: preserve-3d;
   min-height: 0;
-}
-.heroTextImageDiv__persona_partner * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroTextImageDiv__persona_partner {
     padding-left: 180px;
     padding-bottom: 64px;
     padding-top: 64px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroTextImageDiv__persona_partner * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroTextImageDiv__persona_partner {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroTextImageDiv__persona_partner * {
-    transform-style: preserve-3d;
   }
 }
 .heroWelcomeCta:global(.__wab_instance) {
   margin-left: 0px;
   margin-bottom: 0px;
-  transform-style: preserve-3d;
-}
-.heroWelcomeCta * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta * {
-    transform-style: preserve-3d;
-  }
 }
 .heroWelcomeCta__persona_member:global(.__wab_instance) {
-  transform-style: preserve-3d;
   margin: 0px;
-}
-.heroWelcomeCta__persona_member * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroWelcomeCta__persona_member:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta__persona_member * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .heroWelcomeCta__persona_member:global(.__wab_instance) {
     margin-left: 0px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta__persona_member * {
-    transform-style: preserve-3d;
   }
 }
 .heroWelcomeCta__persona_partner:global(.__wab_instance) {
-  transform-style: preserve-3d;
   margin: 0px;
-}
-.heroWelcomeCta__persona_partner * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .heroWelcomeCta__persona_partner:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta__persona_partner * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta__persona_partner:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta__persona_partner * {
-    transform-style: preserve-3d;
-  }
-}
-.text__gxDoV {
-  transform-style: preserve-3d;
-}
-.text__gxDoV * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__gxDoV {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__gxDoV * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__gxDoV {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__gxDoV * {
-    transform-style: preserve-3d;
-  }
-}
-.text__persona_member__gxDoVlBsm3 {
-  transform-style: preserve-3d;
-}
-.text__persona_member__gxDoVlBsm3 * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__persona_member__gxDoVlBsm3 {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__persona_member__gxDoVlBsm3 * {
-    transform-style: preserve-3d;
-  }
-}
-.text__persona_partner__gxDoVp3Qqe {
-  transform-style: preserve-3d;
-}
-.text__persona_partner__gxDoVp3Qqe * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__persona_partner__gxDoVp3Qqe {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text__persona_partner__gxDoVp3Qqe * {
-    transform-style: preserve-3d;
   }
 }

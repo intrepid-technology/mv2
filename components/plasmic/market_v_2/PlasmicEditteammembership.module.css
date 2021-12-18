@@ -5,32 +5,14 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (max-width: 375px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .navbarMemberEdit:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.navbarMemberEdit * {
-  transform-style: preserve-3d;
 }
 .sectionTeamMembershipStatus {
   display: flex;
@@ -40,7 +22,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 32px;
 }
@@ -52,9 +33,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamMembershipStatus * {
-  transform-style: preserve-3d;
 }
 .sectionTeamMembershipStatus > :global(.__wab_flex-container) > *,
 .sectionTeamMembershipStatus
@@ -71,42 +49,16 @@
 }
 @media (max-width: 375px) {
   .sectionTeamMembershipStatus {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionTeamMembershipStatus * {
-    transform-style: preserve-3d;
   }
 }
 .cardHeaderTitleDisplay:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay * {
-  transform-style: preserve-3d;
-}
-.text__do2J {
-  transform-style: preserve-3d;
-}
-.text__do2J * {
-  transform-style: preserve-3d;
 }
 .text___59Yow {
   font-weight: 700;
-  transform-style: preserve-3d;
-}
-.text___59Yow * {
-  transform-style: preserve-3d;
-}
-.text__zX16X {
-  transform-style: preserve-3d;
-}
-.text__zX16X * {
-  transform-style: preserve-3d;
 }
 .freeBox__z0MCe {
   display: flex;
@@ -116,7 +68,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .freeBox__z0MCe > :global(.__wab_flex-container) {
@@ -126,9 +77,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.freeBox__z0MCe * {
-  transform-style: preserve-3d;
 }
 .freeBox__z0MCe > :global(.__wab_flex-container) > *,
 .freeBox__z0MCe > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -143,7 +91,6 @@
 @media (max-width: 375px) {
   .freeBox__z0MCe {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -152,33 +99,14 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .freeBox__z0MCe * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__hQujY:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__hQujY * {
-  transform-style: preserve-3d;
-}
-.text__cQch0 {
-  transform-style: preserve-3d;
-}
-.text__cQch0 * {
-  transform-style: preserve-3d;
 }
 .text__vjDmR {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__vjDmR * {
-  transform-style: preserve-3d;
 }
 .freeBox__w0Nfq {
   display: flex;
@@ -188,7 +116,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .freeBox__w0Nfq > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -197,9 +124,6 @@
   align-content: unset;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.freeBox__w0Nfq * {
-  transform-style: preserve-3d;
 }
 .freeBox__w0Nfq > :global(.__wab_flex-container) > *,
 .freeBox__w0Nfq > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -214,18 +138,12 @@
 @media (max-width: 375px) {
   .freeBox__w0Nfq {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
 @media (max-width: 375px) {
   .freeBox__w0Nfq > :global(.__wab_flex-container) {
     min-width: 0;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__w0Nfq * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox__erGt7 {
@@ -239,38 +157,10 @@
   align-content: unset;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__erGt7 * {
-  transform-style: preserve-3d;
-}
-@media (max-width: 375px) {
-  .freeBox__erGt7 {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__erGt7 * {
-    transform-style: preserve-3d;
-  }
 }
 .tagPartnerA:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.tagPartnerA * {
-  transform-style: preserve-3d;
-}
-@media (max-width: 375px) {
-  .tagPartnerA:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .tagPartnerA * {
-    transform-style: preserve-3d;
-  }
 }
 .text__tiDRl {
   position: relative;
@@ -280,24 +170,14 @@
   top: auto;
   flex-direction: column;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 8px;
   border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.text__tiDRl * {
-  transform-style: preserve-3d;
-}
 @media (max-width: 375px) {
   .text__tiDRl {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (max-width: 375px) {
-  .text__tiDRl * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox__dsxJe {
@@ -308,7 +188,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .freeBox__dsxJe > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -316,9 +195,6 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.freeBox__dsxJe * {
-  transform-style: preserve-3d;
 }
 .freeBox__dsxJe > :global(.__wab_flex-container) > *,
 .freeBox__dsxJe > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -330,47 +206,17 @@
   > img {
   margin-left: 16px;
 }
-@media (max-width: 375px) {
-  .freeBox__dsxJe {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__dsxJe * {
-    transform-style: preserve-3d;
-  }
-}
 .buttonLinkPrimary__gz4S5:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonLinkPrimary__gz4S5 * {
-  transform-style: preserve-3d;
-}
-.text___5UmI {
-  transform-style: preserve-3d;
-}
-.text___5UmI * {
-  transform-style: preserve-3d;
 }
 .buttonLinkPrimary__bWeX:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonLinkPrimary__bWeX * {
-  transform-style: preserve-3d;
-}
-.text__iMjsC {
-  transform-style: preserve-3d;
-}
-.text__iMjsC * {
-  transform-style: preserve-3d;
 }
 .sectionTeamMembershipPlan {
   display: flex;
@@ -380,7 +226,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 32px;
 }
@@ -392,9 +237,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamMembershipPlan * {
-  transform-style: preserve-3d;
 }
 .sectionTeamMembershipPlan > :global(.__wab_flex-container) > *,
 .sectionTeamMembershipPlan
@@ -411,13 +253,7 @@
 }
 @media (max-width: 375px) {
   .sectionTeamMembershipPlan {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionTeamMembershipPlan * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox__lYwlJ {
@@ -428,7 +264,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .freeBox__lYwlJ > :global(.__wab_flex-container) {
@@ -438,9 +273,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.freeBox__lYwlJ * {
-  transform-style: preserve-3d;
 }
 .freeBox__lYwlJ > :global(.__wab_flex-container) > *,
 .freeBox__lYwlJ > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -455,7 +287,6 @@
 @media (max-width: 375px) {
   .freeBox__lYwlJ {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -464,33 +295,14 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .freeBox__lYwlJ * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__lj3Cl:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__lj3Cl * {
-  transform-style: preserve-3d;
-}
-.text__q2OGx {
-  transform-style: preserve-3d;
-}
-.text__q2OGx * {
-  transform-style: preserve-3d;
 }
 .text__sper2 {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__sper2 * {
-  transform-style: preserve-3d;
 }
 .freeBox__bCkXy {
   display: flex;
@@ -503,10 +315,6 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
-  transform-style: preserve-3d;
-}
-.freeBox__bCkXy * {
-  transform-style: preserve-3d;
 }
 @media (max-width: 375px) {
   .freeBox__bCkXy {
@@ -514,32 +322,18 @@
     justify-content: center;
     align-items: flex-start;
     overflow: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__bCkXy * {
-    transform-style: preserve-3d;
   }
 }
 .tableMembershipHeader:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.tableMembershipHeader * {
-  transform-style: preserve-3d;
 }
 .tableMembershipRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.tableMembershipRecord * {
-  transform-style: preserve-3d;
 }
 .freeBox__pCgaO {
   display: flex;
@@ -549,7 +343,6 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .freeBox__pCgaO > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -557,9 +350,6 @@
   justify-content: space-evenly;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.freeBox__pCgaO * {
-  transform-style: preserve-3d;
 }
 .freeBox__pCgaO > :global(.__wab_flex-container) > *,
 .freeBox__pCgaO > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -571,65 +361,27 @@
   > img {
   margin-left: 16px;
 }
-@media (max-width: 375px) {
-  .freeBox__pCgaO {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__pCgaO * {
-    transform-style: preserve-3d;
-  }
-}
 .buttonPrimary__m0MnT:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__m0MnT * {
-  transform-style: preserve-3d;
 }
 .svg__vny1R {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
-.svg__vny1R * {
-  transform-style: preserve-3d;
-}
-.text___7RR3Z {
-  transform-style: preserve-3d;
-}
-.text___7RR3Z * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary__frVc5:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__frVc5 * {
-  transform-style: preserve-3d;
 }
 .svg__ad1Q5 {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__ad1Q5 * {
-  transform-style: preserve-3d;
-}
-.text__c4D5 {
-  transform-style: preserve-3d;
-}
-.text__c4D5 * {
-  transform-style: preserve-3d;
 }
 .sectionTeamPaymentMethods {
   display: flex;
@@ -639,7 +391,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 96px;
 }
@@ -651,9 +402,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamPaymentMethods * {
-  transform-style: preserve-3d;
 }
 .sectionTeamPaymentMethods > :global(.__wab_flex-container) > *,
 .sectionTeamPaymentMethods
@@ -670,13 +418,7 @@
 }
 @media (max-width: 375px) {
   .sectionTeamPaymentMethods {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionTeamPaymentMethods * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox___0I7Eb {
@@ -687,7 +429,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   padding: 0px;
 }
 .freeBox___0I7Eb > :global(.__wab_flex-container) {
@@ -697,9 +438,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.freeBox___0I7Eb * {
-  transform-style: preserve-3d;
 }
 .freeBox___0I7Eb > :global(.__wab_flex-container) > *,
 .freeBox___0I7Eb > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -714,7 +452,6 @@
 @media (max-width: 375px) {
   .freeBox___0I7Eb {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -723,33 +460,14 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .freeBox___0I7Eb * {
-    transform-style: preserve-3d;
-  }
-}
 .cardHeaderTitlePrimary__yFiMv:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__yFiMv * {
-  transform-style: preserve-3d;
-}
-.text__byOdh {
-  transform-style: preserve-3d;
-}
-.text__byOdh * {
-  transform-style: preserve-3d;
 }
 .text__ybh2C {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__ybh2C * {
-  transform-style: preserve-3d;
 }
 .freeBox__k0ELd {
   display: flex;
@@ -762,10 +480,6 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
-  transform-style: preserve-3d;
-}
-.freeBox__k0ELd * {
-  transform-style: preserve-3d;
 }
 @media (max-width: 375px) {
   .freeBox__k0ELd {
@@ -773,58 +487,30 @@
     align-items: flex-start;
     width: 100%;
     overflow: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (max-width: 375px) {
-  .freeBox__k0ELd * {
-    transform-style: preserve-3d;
   }
 }
 .tableBillingHeader:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.tableBillingHeader * {
-  transform-style: preserve-3d;
 }
 .tableBillingRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.tableBillingRecord * {
-  transform-style: preserve-3d;
 }
 .buttonPrimary__gHcZ:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__gHcZ * {
-  transform-style: preserve-3d;
 }
 .svg__cl6Dk {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__cl6Dk * {
-  transform-style: preserve-3d;
-}
-.text__b4C4J {
-  transform-style: preserve-3d;
-}
-.text__b4C4J * {
-  transform-style: preserve-3d;
 }

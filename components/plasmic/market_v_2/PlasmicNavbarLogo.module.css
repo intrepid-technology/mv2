@@ -6,40 +6,6 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-.root__light {
-  transform-style: preserve-3d;
-}
-.root__light * {
-  transform-style: preserve-3d;
-}
-.root__size__16 {
-  transform-style: preserve-3d;
-}
-.root__size__16 * {
-  transform-style: preserve-3d;
-}
-.root__size__18 {
-  transform-style: preserve-3d;
-}
-.root__size__18 * {
-  transform-style: preserve-3d;
-}
-.root__size__24 {
-  transform-style: preserve-3d;
-}
-.root__size__24 * {
-  transform-style: preserve-3d;
-}
-.root__size__32 {
-  transform-style: preserve-3d;
-}
-.root__size__32 * {
-  transform-style: preserve-3d;
 }
 .navBarLogoLinkParent {
   display: flex;
@@ -48,28 +14,11 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.navBarLogoLinkParent * {
-  transform-style: preserve-3d;
-}
-.navBarLogoLinkParent__light {
-  transform-style: preserve-3d;
-}
-.navBarLogoLinkParent__light * {
-  transform-style: preserve-3d;
-}
-.navBarLogoLinkParent__size__18 {
-  transform-style: preserve-3d;
-}
-.navBarLogoLinkParent__size__18 * {
-  transform-style: preserve-3d;
 }
 .img {
   object-fit: cover;
   width: auto;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .img > picture > img {
@@ -78,78 +27,31 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .img {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .img * {
-    transform-style: preserve-3d;
-  }
-}
-.img__light {
-  transform-style: preserve-3d;
-}
-.img__light * {
-  transform-style: preserve-3d;
-}
 .img__size__16 {
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__16 * {
-  transform-style: preserve-3d;
 }
 .img__size__18 {
   height: 18px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__18 * {
-  transform-style: preserve-3d;
 }
 .img__size__24 {
   height: 24px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__24 * {
-  transform-style: preserve-3d;
 }
 .img__size__32 {
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__32 * {
-  transform-style: preserve-3d;
 }
 .img__size__36 {
   height: 36px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__36 * {
-  transform-style: preserve-3d;
 }
 .img__size__40 {
   height: 40px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__40 * {
-  transform-style: preserve-3d;
 }
 .img__size__48 {
   height: 48px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__48 * {
-  transform-style: preserve-3d;
 }

@@ -7,42 +7,10 @@
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 24px;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .switchInput:global(.__wab_instance) {
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.switchInput * {
-  transform-style: preserve-3d;
-}
-.switchInput__on:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.switchInput__on * {
-  transform-style: preserve-3d;
-}
-.switchInput__disabled:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.switchInput__disabled * {
-  transform-style: preserve-3d;
-}
-.switchInput__on_disabled:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.switchInput__on_disabled * {
-  transform-style: preserve-3d;
-}
-.text__vY6Sq {
-  transform-style: preserve-3d;
-}
-.text__vY6Sq * {
-  transform-style: preserve-3d;
 }

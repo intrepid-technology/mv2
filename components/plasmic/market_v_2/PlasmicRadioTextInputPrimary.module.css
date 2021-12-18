@@ -4,17 +4,12 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -22,9 +17,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -36,114 +28,19 @@
   > img {
   margin-left: 8px;
 }
-.parent__size__12Px {
-  transform-style: preserve-3d;
-}
-.parent__size__12Px * {
-  transform-style: preserve-3d;
-}
 .elementRadioPrimary:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.elementRadioPrimary * {
-  transform-style: preserve-3d;
-}
-.elementRadioPrimary__size__12Px:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.elementRadioPrimary__size__12Px * {
-  transform-style: preserve-3d;
-}
-.elementRadioPrimary__size__16Px:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.elementRadioPrimary__size__16Px * {
-  transform-style: preserve-3d;
 }
 .slotTargetItemText {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetItemText * {
-  transform-style: preserve-3d;
-}
-.slotTargetItemText > *,
-.slotTargetItemText > .__wab_slot > *,
-.slotTargetItemText > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText > picture > img,
-.slotTargetItemText > .__wab_slot > picture > img,
-.slotTargetItemText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetItemText > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetItemText__size__12Px {
   font-size: 12px;
   line-height: 1;
 }
-.slotTargetItemText__size__12Px * {
-  transform-style: preserve-3d;
-}
-.slotTargetItemText__size__12Px > *,
-.slotTargetItemText__size__12Px > .__wab_slot > *,
-.slotTargetItemText__size__12Px > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__12Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__12Px > picture > img,
-.slotTargetItemText__size__12Px > .__wab_slot > picture > img,
-.slotTargetItemText__size__12Px > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetItemText__size__12Px
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetItemText__size__14Px * {
-  transform-style: preserve-3d;
-}
-.slotTargetItemText__size__14Px > *,
-.slotTargetItemText__size__14Px > .__wab_slot > *,
-.slotTargetItemText__size__14Px > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__14Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__14Px > picture > img,
-.slotTargetItemText__size__14Px > .__wab_slot > picture > img,
-.slotTargetItemText__size__14Px > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetItemText__size__14Px
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
 .slotTargetItemText__size__16Px {
   font-size: 16px;
-}
-.slotTargetItemText__size__16Px * {
-  transform-style: preserve-3d;
-}
-.slotTargetItemText__size__16Px > *,
-.slotTargetItemText__size__16Px > .__wab_slot > *,
-.slotTargetItemText__size__16Px > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__16Px > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetItemText__size__16Px > picture > img,
-.slotTargetItemText__size__16Px > .__wab_slot > picture > img,
-.slotTargetItemText__size__16Px > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetItemText__size__16Px
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___84YRf {
-  transform-style: preserve-3d;
-}
-.text___84YRf * {
-  transform-style: preserve-3d;
 }

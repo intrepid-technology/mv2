@@ -6,11 +6,7 @@
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .parent {
   width: 100%;
@@ -20,7 +16,6 @@
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -32,9 +27,6 @@
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -53,7 +45,6 @@
   align-self: center;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .elementUsernameDisplay > :global(.__wab_flex-container) {
@@ -63,9 +54,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.elementUsernameDisplay * {
-  transform-style: preserve-3d;
 }
 .elementUsernameDisplay > :global(.__wab_flex-container) > *,
 .elementUsernameDisplay
@@ -84,7 +72,6 @@
   display: flex;
   position: relative;
   flex-direction: row;
-  transform-style: preserve-3d;
 }
 .elementUserRealNames > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -92,9 +79,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
-}
-.elementUserRealNames * {
-  transform-style: preserve-3d;
 }
 .elementUserRealNames > :global(.__wab_flex-container) > *,
 .elementUserRealNames
@@ -115,10 +99,6 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.userfirstName * {
-  transform-style: preserve-3d;
 }
 .userLastName {
   font-size: 14px;
@@ -126,10 +106,6 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.userLastName * {
-  transform-style: preserve-3d;
 }
 .userDisplaynameParent {
   display: flex;
@@ -138,11 +114,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.userDisplaynameParent * {
-  transform-style: preserve-3d;
 }
 .atSign {
   font-size: 12px;
@@ -150,10 +122,6 @@
   line-height: 1;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: auto;
-  transform-style: preserve-3d;
-}
-.atSign * {
-  transform-style: preserve-3d;
 }
 .userDisplayNameText {
   font-size: 12px;
@@ -161,10 +129,6 @@
   line-height: 1;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: auto;
-  transform-style: preserve-3d;
-}
-.userDisplayNameText * {
-  transform-style: preserve-3d;
 }
 .dropDownUserSettingsTrigger {
   position: relative;
@@ -174,9 +138,5 @@
   align-self: flex-start;
   width: 14px;
   height: 14px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.dropDownUserSettingsTrigger * {
-  transform-style: preserve-3d;
 }

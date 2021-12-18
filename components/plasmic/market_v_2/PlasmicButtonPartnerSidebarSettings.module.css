@@ -4,7 +4,6 @@
   flex-direction: row;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -16,9 +15,6 @@
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -33,7 +29,6 @@
   align-self: center;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .usernamePartnerProfileName > :global(.__wab_flex-container) {
@@ -43,9 +38,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.usernamePartnerProfileName * {
-  transform-style: preserve-3d;
 }
 .usernamePartnerProfileName > :global(.__wab_flex-container) > *,
 .usernamePartnerProfileName
@@ -68,11 +60,7 @@
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.campanyDisplayNameParent * {
-  transform-style: preserve-3d;
 }
 .companyNameText {
   font-size: 14px;
@@ -82,11 +70,7 @@
   width: 100%;
   height: auto;
   font-weight: 600;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.companyNameText * {
-  transform-style: preserve-3d;
 }
 .partnerDisplayName {
   display: flex;
@@ -96,11 +80,7 @@
   justify-content: flex-start;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.partnerDisplayName * {
-  transform-style: preserve-3d;
 }
 .atSgin {
   font-size: 12px;
@@ -108,10 +88,6 @@
   line-height: 1;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: auto;
-  transform-style: preserve-3d;
-}
-.atSgin * {
-  transform-style: preserve-3d;
 }
 .companyNameDisplay {
   font-size: 12px;
@@ -119,10 +95,6 @@
   line-height: 1;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: auto;
-  transform-style: preserve-3d;
-}
-.companyNameDisplay * {
-  transform-style: preserve-3d;
 }
 .dropDownUserSettingsTrigger {
   position: relative;
@@ -132,9 +104,5 @@
   align-self: flex-start;
   width: 14px;
   height: 14px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.dropDownUserSettingsTrigger * {
-  transform-style: preserve-3d;
 }

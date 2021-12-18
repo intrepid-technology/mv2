@@ -31,7 +31,7 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
 
-export const PlasmicLayout__VariantProps = new Array();
+export const PlasmicLayout__VariantProps = new Array("contentOnly");
 
 export const PlasmicLayout__ArgProps = new Array(
   "main",
@@ -95,21 +95,17 @@ function PlasmicLayout__RenderFunc(props) {
           )
         })}
       >
-        <div
-          data-plasmic-name={"main"}
-          data-plasmic-override={overrides.main}
-          className={classNames(projectcss.all, sty.main, {
-            [sty.main__global_layout_sidebarOpen]: hasVariant(
-              globalVariants,
-              "layout",
-              "sidebarOpen"
-            )
-          })}
-        >
+        {(hasVariant(variants, "contentOnly", "contentOnly") ? false : true) ? (
           <div
             data-plasmic-name={"navigationWrapper"}
             data-plasmic-override={overrides.navigationWrapper}
             className={classNames(projectcss.all, sty.navigationWrapper, {
+              [sty.navigationWrapper__contentOnly]: hasVariant(
+                variants,
+                "contentOnly",
+                "contentOnly"
+              ),
+
               [sty.navigationWrapper__global_layout_sidebarOpen]: hasVariant(
                 globalVariants,
                 "layout",
@@ -228,11 +224,18 @@ function PlasmicLayout__RenderFunc(props) {
               </div>
             </p.Stack>
           </div>
-
+        ) : null}
+        {(hasVariant(variants, "contentOnly", "contentOnly") ? false : true) ? (
           <div
             data-plasmic-name={"scrollNavigationWrapper"}
             data-plasmic-override={overrides.scrollNavigationWrapper}
-            className={classNames(projectcss.all, sty.scrollNavigationWrapper)}
+            className={classNames(projectcss.all, sty.scrollNavigationWrapper, {
+              [sty.scrollNavigationWrapper__contentOnly]: hasVariant(
+                variants,
+                "contentOnly",
+                "contentOnly"
+              )
+            })}
           >
             <div
               data-plasmic-name={"scrollNavigation"}
@@ -270,13 +273,37 @@ function PlasmicLayout__RenderFunc(props) {
               })}
             </div>
           </div>
+        ) : null}
 
+        <div
+          data-plasmic-name={"main"}
+          data-plasmic-override={overrides.main}
+          className={classNames(projectcss.all, sty.main, {
+            [sty.main__contentOnly]: hasVariant(
+              variants,
+              "contentOnly",
+              "contentOnly"
+            ),
+
+            [sty.main__global_layout_sidebarOpen]: hasVariant(
+              globalVariants,
+              "layout",
+              "sidebarOpen"
+            )
+          })}
+        >
           <p.Stack
             as={"div"}
             data-plasmic-name={"mainContentWrapper"}
             data-plasmic-override={overrides.mainContentWrapper}
             hasGap={true}
             className={classNames(projectcss.all, sty.mainContentWrapper, {
+              [sty.mainContentWrapper__contentOnly]: hasVariant(
+                variants,
+                "contentOnly",
+                "contentOnly"
+              ),
+
               [sty.mainContentWrapper__global_layout_sidebarOpen]: hasVariant(
                 globalVariants,
                 "layout",
@@ -355,7 +382,6 @@ const PlasmicDescendants = {
     "navbar",
     "sidebar",
     "body",
-    "main",
     "navigationWrapper",
     "breadcrumbs",
     "breadcrumbsWrapper",
@@ -366,6 +392,7 @@ const PlasmicDescendants = {
     "tabNavigationWrapper",
     "scrollNavigationWrapper",
     "scrollNavigation",
+    "main",
     "mainContentWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
@@ -376,7 +403,6 @@ const PlasmicDescendants = {
   sidebar: ["sidebar"],
   body: [
     "body",
-    "main",
     "navigationWrapper",
     "breadcrumbs",
     "breadcrumbsWrapper",
@@ -387,24 +413,7 @@ const PlasmicDescendants = {
     "tabNavigationWrapper",
     "scrollNavigationWrapper",
     "scrollNavigation",
-    "mainContentWrapper",
-    "bodyHeader",
-    "headerDisplayWrapper",
-    "footerB"
-  ],
-
-  main: [
     "main",
-    "navigationWrapper",
-    "breadcrumbs",
-    "breadcrumbsWrapper",
-    "navBackButtonWrapper",
-    "navBackButton",
-    "svg",
-    "tabNavigation",
-    "tabNavigationWrapper",
-    "scrollNavigationWrapper",
-    "scrollNavigation",
     "mainContentWrapper",
     "bodyHeader",
     "headerDisplayWrapper",
@@ -444,6 +453,14 @@ const PlasmicDescendants = {
   tabNavigationWrapper: ["tabNavigationWrapper"],
   scrollNavigationWrapper: ["scrollNavigationWrapper", "scrollNavigation"],
   scrollNavigation: ["scrollNavigation"],
+  main: [
+    "main",
+    "mainContentWrapper",
+    "bodyHeader",
+    "headerDisplayWrapper",
+    "footerB"
+  ],
+
   mainContentWrapper: [
     "mainContentWrapper",
     "bodyHeader",
@@ -489,7 +506,6 @@ export const PlasmicLayout = Object.assign(
     navbar: makeNodeComponent("navbar"),
     sidebar: makeNodeComponent("sidebar"),
     body: makeNodeComponent("body"),
-    main: makeNodeComponent("main"),
     navigationWrapper: makeNodeComponent("navigationWrapper"),
     breadcrumbs: makeNodeComponent("breadcrumbs"),
     breadcrumbsWrapper: makeNodeComponent("breadcrumbsWrapper"),
@@ -500,6 +516,7 @@ export const PlasmicLayout = Object.assign(
     tabNavigationWrapper: makeNodeComponent("tabNavigationWrapper"),
     scrollNavigationWrapper: makeNodeComponent("scrollNavigationWrapper"),
     scrollNavigation: makeNodeComponent("scrollNavigation"),
+    main: makeNodeComponent("main"),
     mainContentWrapper: makeNodeComponent("mainContentWrapper"),
     bodyHeader: makeNodeComponent("bodyHeader"),
     headerDisplayWrapper: makeNodeComponent("headerDisplayWrapper"),

@@ -4,42 +4,10 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .checkboxInput:global(.__wab_instance) {
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.checkboxInput * {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isDisabled:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isDisabled * {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isChecked:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isChecked * {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isIndeterminate:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.checkboxInput__isIndeterminate * {
-  transform-style: preserve-3d;
-}
-.text__ijnF2 {
-  transform-style: preserve-3d;
-}
-.text__ijnF2 * {
-  transform-style: preserve-3d;
 }

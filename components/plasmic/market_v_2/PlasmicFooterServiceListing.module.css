@@ -5,7 +5,6 @@
   min-height: 80px;
   position: relative;
   background: #f1f1f1;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 10px 40px;
   border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
@@ -18,9 +17,6 @@
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
@@ -32,29 +28,15 @@
     border-top-color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
     border-top-style: none;
     background: #f8f8f8;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 .saveButton:global(.__wab_instance) {
   position: relative;
   height: 36px;
   width: 120px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.saveButton * {
-  transform-style: preserve-3d;
 }
 .text__hcTe {
   font-weight: 600;
   height: auto;
-  transform-style: preserve-3d;
-}
-.text__hcTe * {
-  transform-style: preserve-3d;
 }

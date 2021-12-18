@@ -39,6 +39,24 @@ export const PAGE_LAYOUT_PROPS = {
     '/': {
         noLayout: true,
     },
+    '/service/detail': {
+        contentOnly: true,
+    },
+    '/service/listing/category': {
+        contentOnly: true,
+    },
+    '/service/listing/description': {
+        contentOnly: true,
+    },
+    '/service/listing/image': {
+        contentOnly: true,
+    },
+    '/service/listing/delivery': {
+        contentOnly: true,
+    },
+    '/service/listing/confirmation': {
+        contentOnly: true,
+    },
     '/member/pricing': {
         noLayout: true,
     },

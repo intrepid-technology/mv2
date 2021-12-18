@@ -1,14 +1,4 @@
 .root {
   display: flex;
   position: relative;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-.text___6I2Kx {
-  transform-style: preserve-3d;
-}
-.text___6I2Kx * {
-  transform-style: preserve-3d;
 }

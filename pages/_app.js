@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }) {
                 navbar={{
                   auth: isAuth,
                 }}
+                contentOnly={pageLayoutProps?.contentOnly}
                 main={<Component {...pageProps} />}
                 tabNavigationWrapper={
                   <PageTabNavigations navLinks={pageLayoutProps.tabs} />

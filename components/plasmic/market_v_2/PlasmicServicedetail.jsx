@@ -21,7 +21,6 @@ import {
 import TagPartnerC from "../../TagPartnerC"; // plasmic-import: VbmQFgDzT6/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import Accordion from "../../Accordion"; // plasmic-import: azR0jnXzDL/component
-import ServiceProcessCard from "../../ServiceProcessCard"; // plasmic-import: VPPN2nrcs6/component
 import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3bX/component
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -40,7 +39,15 @@ import ShareIcon from "./icons/PlasmicIcon__Share"; // plasmic-import: WvwVMYuHR
 
 export const PlasmicServicedetail__VariantProps = new Array();
 
-export const PlasmicServicedetail__ArgProps = new Array("headline");
+export const PlasmicServicedetail__ArgProps = new Array(
+  "serviceTitle",
+  "serviceCompanyName",
+  "serviceAmount",
+  "serviceName",
+  "serviceDescription",
+  "category",
+  "subCategory"
+);
 
 function PlasmicServicedetail__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
@@ -112,11 +119,39 @@ function PlasmicServicedetail__RenderFunc(props) {
                   >
                     {p.renderPlasmicSlot({
                       defaultContents: "Title of the service sold on this page",
-                      value: args.headline,
-                      className: classNames(sty.slotTargetHeadline)
+                      value: args.serviceTitle,
+                      className: classNames(sty.slotTargetServiceTitle)
                     })}
                   </div>
                 </div>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"subheading"}
+                  data-plasmic-override={overrides.subheading}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.subheading)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__pNTwY)}
+                  >
+                    {p.renderPlasmicSlot({
+                      defaultContents: "Enter some text",
+                      value: args.category,
+                      className: classNames(sty.slotTargetCategory)
+                    })}
+                  </div>
+
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___1TWq1)}
+                  >
+                    {p.renderPlasmicSlot({
+                      defaultContents: "/ Enter some text",
+                      value: args.subCategory,
+                      className: classNames(sty.slotTargetSubCategory)
+                    })}
+                  </div>
+                </p.Stack>
 
                 <p.Stack
                   as={"div"}
@@ -168,11 +203,23 @@ function PlasmicServicedetail__RenderFunc(props) {
                             <div
                               className={classNames(
                                 projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___9Puij
+                                sty.freeBox___9Puij
                               )}
                             >
-                              {"Company name"}
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___9AYq
+                                )}
+                              >
+                                {p.renderPlasmicSlot({
+                                  defaultContents: "Company name",
+                                  value: args.serviceCompanyName,
+                                  className: classNames(
+                                    sty.slotTargetServiceCompanyName
+                                  )
+                                })}
+                              </div>
                             </div>
                           </div>
                         </p.Stack>
@@ -236,10 +283,10 @@ function PlasmicServicedetail__RenderFunc(props) {
                 className={classNames(projectcss.all, sty.serviceImageBlock)}
               >
                 <img
-                  data-plasmic-name={"serviceImageHero"}
-                  data-plasmic-override={overrides.serviceImageHero}
+                  data-plasmic-name={"serviceHeroImage"}
+                  data-plasmic-override={overrides.serviceHeroImage}
                   alt={""}
-                  className={classNames(projectcss.img, sty.serviceImageHero)}
+                  className={classNames(projectcss.img, sty.serviceHeroImage)}
                 />
 
                 <p.Stack
@@ -248,30 +295,46 @@ function PlasmicServicedetail__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.freeBox__ew4Af)}
                 >
                   <img
+                    data-plasmic-name={"serviceImageOne"}
+                    data-plasmic-override={overrides.serviceImageOne}
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__ukRs4)}
+                    className={classNames(projectcss.img, sty.serviceImageOne)}
                   />
 
                   <img
+                    data-plasmic-name={"serviceImageTwo"}
+                    data-plasmic-override={overrides.serviceImageTwo}
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__zQsDw)}
+                    className={classNames(projectcss.img, sty.serviceImageTwo)}
                   />
 
                   <img
+                    data-plasmic-name={"serviceImageThree"}
+                    data-plasmic-override={overrides.serviceImageThree}
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__aZnCu)}
+                    className={classNames(
+                      projectcss.img,
+                      sty.serviceImageThree
+                    )}
                   />
 
                   <img
+                    data-plasmic-name={"serviceImageFour"}
+                    data-plasmic-override={overrides.serviceImageFour}
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__vwxzP)}
+                    className={classNames(projectcss.img, sty.serviceImageFour)}
                   />
                 </p.Stack>
 
                 <p.Stack
                   as={"div"}
+                  data-plasmic-name={"serviceFeaturesWrapper"}
+                  data-plasmic-override={overrides.serviceFeaturesWrapper}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__y19Np)}
+                  className={classNames(
+                    projectcss.all,
+                    sty.serviceFeaturesWrapper
+                  )}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -362,14 +425,12 @@ function PlasmicServicedetail__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.descriptionBlock)}
                 >
                   <Accordion
+                    data-plasmic-name={"descriptionAccordion"}
+                    data-plasmic-override={overrides.descriptionAccordion}
                     className={classNames(
                       "__wab_instance",
-                      sty.accordion__oQxWr
+                      sty.descriptionAccordion
                     )}
-                    content={
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
-                    }
-                    isOpen={"isOpen"}
                     size={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
@@ -380,7 +441,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text___1RPqE
+                        sty.text__z3E6R
                       )}
                     >
                       {"Description"}
@@ -394,80 +455,12 @@ function PlasmicServicedetail__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.processBlock)}
                 >
                   <Accordion
+                    data-plasmic-name={"processAccordion"}
+                    data-plasmic-override={overrides.processAccordion}
                     className={classNames(
                       "__wab_instance",
-                      sty.accordion__vr6Rn
+                      sty.processAccordion
                     )}
-                    content={
-                      true ? (
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"serviceProcessDescription"}
-                          data-plasmic-override={
-                            overrides.serviceProcessDescription
-                          }
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.serviceProcessDescription
-                          )}
-                        >
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard___8Bdrp
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__ipjIf
-                              )}
-                            >
-                              {
-                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo"
-                              }
-                            </div>
-                          </ServiceProcessCard>
-
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard__n2GtO
-                            )}
-                          />
-
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard__nZoOn
-                            )}
-                          />
-
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard__kClal
-                            )}
-                          />
-
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard__bxFec
-                            )}
-                          />
-
-                          <ServiceProcessCard
-                            className={classNames(
-                              "__wab_instance",
-                              sty.serviceProcessCard__hhIsJ
-                            )}
-                          />
-                        </p.Stack>
-                      ) : null
-                    }
                     size={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "small"
@@ -478,7 +471,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__qz6Jr
+                        sty.text__zVRh
                       )}
                     >
                       {"Process"}
@@ -1383,25 +1376,23 @@ function PlasmicServicedetail__RenderFunc(props) {
                         className={classNames(projectcss.all, sty.servicePrice)}
                       >
                         <div
-                          data-plasmic-name={"serviceCurrency"}
-                          data-plasmic-override={overrides.serviceCurrency}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.serviceCurrency
+                            sty.freeBox__uOdZo
                           )}
                         >
-                          {"$"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__uOdZo
-                          )}
-                        >
-                          {"10,000"}
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__s6WbX
+                            )}
+                          >
+                            {p.renderPlasmicSlot({
+                              defaultContents: "10,000",
+                              value: args.serviceAmount,
+                              className: classNames(sty.slotTargetServiceAmount)
+                            })}
+                          </div>
                         </div>
                       </div>
                     </p.Stack>
@@ -1413,13 +1404,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.serviceNameTitle)}
                   >
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__m2W9E
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__m2W9E)}
                     >
-                      {"Service name"}
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__aexTm
+                        )}
+                      >
+                        {p.renderPlasmicSlot({
+                          defaultContents: "Service name",
+                          value: args.serviceName,
+                          className: classNames(sty.slotTargetServiceName)
+                        })}
+                      </div>
                     </div>
                   </div>
 
@@ -1432,15 +1430,14 @@ function PlasmicServicedetail__RenderFunc(props) {
                     )}
                   >
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__mjS0B
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__mjS0B)}
                     >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na"
-                      }
+                      {p.renderPlasmicSlot({
+                        defaultContents:
+                          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na",
+                        value: args.serviceDescription,
+                        className: classNames(sty.slotTargetServiceDescription)
+                      })}
                     </div>
                   </div>
                 </p.Stack>
@@ -1756,17 +1753,24 @@ const PlasmicDescendants = {
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
+    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceImageHero",
+    "serviceHeroImage",
+    "serviceImageOne",
+    "serviceImageTwo",
+    "serviceImageThree",
+    "serviceImageFour",
+    "serviceFeaturesWrapper",
     "serviceOverviewParent",
     "descriptionBlock",
+    "descriptionAccordion",
     "processBlock",
-    "serviceProcessDescription",
+    "processAccordion",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
@@ -1801,7 +1805,6 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
-    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -1827,17 +1830,24 @@ const PlasmicDescendants = {
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
+    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceImageHero",
+    "serviceHeroImage",
+    "serviceImageOne",
+    "serviceImageTwo",
+    "serviceImageThree",
+    "serviceImageFour",
+    "serviceFeaturesWrapper",
     "serviceOverviewParent",
     "descriptionBlock",
+    "descriptionAccordion",
     "processBlock",
-    "serviceProcessDescription",
+    "processAccordion",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
@@ -1872,7 +1882,6 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
-    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -1897,17 +1906,24 @@ const PlasmicDescendants = {
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
+    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceImageHero",
+    "serviceHeroImage",
+    "serviceImageOne",
+    "serviceImageTwo",
+    "serviceImageThree",
+    "serviceImageFour",
+    "serviceFeaturesWrapper",
     "serviceOverviewParent",
     "descriptionBlock",
+    "descriptionAccordion",
     "processBlock",
-    "serviceProcessDescription",
+    "processAccordion",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
@@ -1941,6 +1957,7 @@ const PlasmicDescendants = {
   serviceHeadlineParent: [
     "serviceHeadlineParent",
     "headline",
+    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
@@ -1949,6 +1966,7 @@ const PlasmicDescendants = {
   ],
 
   headline: ["headline"],
+  subheading: ["subheading"],
   headlineNamePriceParent: [
     "headlineNamePriceParent",
     "companyNamePriceParent2",
@@ -1965,13 +1983,28 @@ const PlasmicDescendants = {
   ],
 
   companyIsVerified3: ["companyIsVerified3"],
-  serviceImageBlock: ["serviceImageBlock", "serviceImageHero"],
-  serviceImageHero: ["serviceImageHero"],
+  serviceImageBlock: [
+    "serviceImageBlock",
+    "serviceHeroImage",
+    "serviceImageOne",
+    "serviceImageTwo",
+    "serviceImageThree",
+    "serviceImageFour",
+    "serviceFeaturesWrapper"
+  ],
+
+  serviceHeroImage: ["serviceHeroImage"],
+  serviceImageOne: ["serviceImageOne"],
+  serviceImageTwo: ["serviceImageTwo"],
+  serviceImageThree: ["serviceImageThree"],
+  serviceImageFour: ["serviceImageFour"],
+  serviceFeaturesWrapper: ["serviceFeaturesWrapper"],
   serviceOverviewParent: [
     "serviceOverviewParent",
     "descriptionBlock",
+    "descriptionAccordion",
     "processBlock",
-    "serviceProcessDescription",
+    "processAccordion",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
@@ -2002,9 +2035,10 @@ const PlasmicDescendants = {
     "termsBlock"
   ],
 
-  descriptionBlock: ["descriptionBlock"],
-  processBlock: ["processBlock", "serviceProcessDescription"],
-  serviceProcessDescription: ["serviceProcessDescription"],
+  descriptionBlock: ["descriptionBlock", "descriptionAccordion"],
+  descriptionAccordion: ["descriptionAccordion"],
+  processBlock: ["processBlock", "processAccordion"],
+  processAccordion: ["processAccordion"],
   featuresBlock: ["featuresBlock", "serviceFeaturesOverview"],
   serviceFeaturesOverview: ["serviceFeaturesOverview"],
   contentBlock: ["contentBlock"],
@@ -2066,7 +2100,6 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
-    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -2093,7 +2126,6 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
-    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription"
   ],
@@ -2103,7 +2135,6 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
-    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription"
   ],
@@ -2111,18 +2142,11 @@ const PlasmicDescendants = {
   headlineNamePriceVerificationParent: [
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
-    "servicePrice",
-    "serviceCurrency"
+    "servicePrice"
   ],
 
-  companyNamePriceParent: [
-    "companyNamePriceParent",
-    "servicePrice",
-    "serviceCurrency"
-  ],
-
-  servicePrice: ["servicePrice", "serviceCurrency"],
-  serviceCurrency: ["serviceCurrency"],
+  companyNamePriceParent: ["companyNamePriceParent", "servicePrice"],
+  servicePrice: ["servicePrice"],
   serviceNameTitle: ["serviceNameTitle"],
   serviceShortDescription: ["serviceShortDescription"],
   companyDescriptionParent: [
@@ -2218,6 +2242,7 @@ export const PlasmicServicedetail = Object.assign(
 
     serviceHeadlineParent: makeNodeComponent("serviceHeadlineParent"),
     headline: makeNodeComponent("headline"),
+    subheading: makeNodeComponent("subheading"),
     headlineNamePriceParent: makeNodeComponent("headlineNamePriceParent"),
     companyNamePriceParent2: makeNodeComponent("companyNamePriceParent2"),
     serviceCompanyName2: makeNodeComponent("serviceCompanyName2"),
@@ -2227,11 +2252,17 @@ export const PlasmicServicedetail = Object.assign(
 
     companyIsVerified3: makeNodeComponent("companyIsVerified3"),
     serviceImageBlock: makeNodeComponent("serviceImageBlock"),
-    serviceImageHero: makeNodeComponent("serviceImageHero"),
+    serviceHeroImage: makeNodeComponent("serviceHeroImage"),
+    serviceImageOne: makeNodeComponent("serviceImageOne"),
+    serviceImageTwo: makeNodeComponent("serviceImageTwo"),
+    serviceImageThree: makeNodeComponent("serviceImageThree"),
+    serviceImageFour: makeNodeComponent("serviceImageFour"),
+    serviceFeaturesWrapper: makeNodeComponent("serviceFeaturesWrapper"),
     serviceOverviewParent: makeNodeComponent("serviceOverviewParent"),
     descriptionBlock: makeNodeComponent("descriptionBlock"),
+    descriptionAccordion: makeNodeComponent("descriptionAccordion"),
     processBlock: makeNodeComponent("processBlock"),
-    serviceProcessDescription: makeNodeComponent("serviceProcessDescription"),
+    processAccordion: makeNodeComponent("processAccordion"),
     featuresBlock: makeNodeComponent("featuresBlock"),
     serviceFeaturesOverview: makeNodeComponent("serviceFeaturesOverview"),
     contentBlock: makeNodeComponent("contentBlock"),
@@ -2269,7 +2300,6 @@ export const PlasmicServicedetail = Object.assign(
 
     companyNamePriceParent: makeNodeComponent("companyNamePriceParent"),
     servicePrice: makeNodeComponent("servicePrice"),
-    serviceCurrency: makeNodeComponent("serviceCurrency"),
     serviceNameTitle: makeNodeComponent("serviceNameTitle"),
     serviceShortDescription: makeNodeComponent("serviceShortDescription"),
     companyDescriptionParent: makeNodeComponent("companyDescriptionParent"),

@@ -4,22 +4,8 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .multiSelectInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.multiSelectInput * {
-  transform-style: preserve-3d;
-}
-.multiSelectInput__isOpen:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.multiSelectInput__isOpen * {
-  transform-style: preserve-3d;
 }

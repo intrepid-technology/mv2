@@ -21,7 +21,6 @@ function Servicelistingcategory() {
   const serviceIndustries = useServiceIndustries()
   const serviceTechnologies = useServiceTechnologies()
 
-  console.log({serviceListing})
   return (
       <PlasmicServicelistingcategory
         serviceCategorySelectInput={{

@@ -7,12 +7,8 @@
   height: auto;
   position: relative;
   background: rgba(68, 192, 255, 0.2);
-  transform-style: preserve-3d;
   padding: 10px;
   border-bottom: 1px solid #eaeaea /* plasmic-token: t2DPA2Clx */;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .text {
   display: block;
@@ -27,10 +23,6 @@
   top: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -43,11 +35,7 @@
   left: auto;
   top: auto;
   background: rgba(68, 192, 255, 0.2);
-  transform-style: preserve-3d;
   padding: 2px;
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .svg {
   position: relative;
@@ -56,9 +44,5 @@
   top: auto;
   width: 32px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg * {
-  transform-style: preserve-3d;
 }

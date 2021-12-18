@@ -6,78 +6,45 @@
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.stripeLink * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__16 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__16 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__18 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__18 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__24 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__24 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__32 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__32 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__36 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__36 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__40 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__40 * {
-  transform-style: preserve-3d;
 }
 .stripeLink__size__48 {
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: inline-flex;
-}
-.stripeLink__size__48 * {
-  transform-style: preserve-3d;
 }
 .img {
   object-fit: cover;
   height: 24px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .img > picture > img {
@@ -86,62 +53,31 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img * {
-  transform-style: preserve-3d;
-}
 .img__size__16 {
   height: 16px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__16 * {
-  transform-style: preserve-3d;
 }
 .img__size__18 {
   height: 18px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__18 * {
-  transform-style: preserve-3d;
 }
 .img__size__24 {
   height: 24px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__24 * {
-  transform-style: preserve-3d;
 }
 .img__size__32 {
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__32 * {
-  transform-style: preserve-3d;
 }
 .img__size__36 {
   height: 36px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__36 * {
-  transform-style: preserve-3d;
 }
 .img__size__40 {
   height: 40px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__40 * {
-  transform-style: preserve-3d;
 }
 .img__size__48 {
   height: 48px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.img__size__48 * {
-  transform-style: preserve-3d;
 }

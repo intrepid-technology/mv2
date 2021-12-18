@@ -4,42 +4,10 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .nativeSelectInput:global(.__wab_instance) {
   position: relative;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.nativeSelectInput * {
-  transform-style: preserve-3d;
-}
-.nativeSelectInput__type_primary:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.nativeSelectInput__type_primary * {
-  transform-style: preserve-3d;
-}
-.nativeSelectInput__hideLabel:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.nativeSelectInput__hideLabel * {
-  transform-style: preserve-3d;
-}
-.text__ba5E9 {
-  transform-style: preserve-3d;
-}
-.text__ba5E9 * {
-  transform-style: preserve-3d;
-}
-.text__hZbmk {
-  transform-style: preserve-3d;
-}
-.text__hZbmk * {
-  transform-style: preserve-3d;
 }

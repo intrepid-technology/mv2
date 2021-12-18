@@ -5,7 +5,6 @@
   position: relative;
   height: auto;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -16,9 +15,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,7 +27,6 @@
   position: relative;
   flex-direction: column;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -41,9 +36,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.freeBox * {
-  transform-style: preserve-3d;
 }
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -63,10 +55,6 @@
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
   letter-spacing: normal;
-  transform-style: preserve-3d;
-}
-.headline * {
-  transform-style: preserve-3d;
 }
 .listingStatsParent {
   display: flex;
@@ -74,7 +62,6 @@
   flex-direction: row;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 4px 2px;
 }
@@ -85,9 +72,6 @@
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
-}
-.listingStatsParent * {
-  transform-style: preserve-3d;
 }
 .listingStatsParent > :global(.__wab_flex-container) > *,
 .listingStatsParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -107,7 +91,6 @@
   height: 40px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .elementListingCount > :global(.__wab_flex-container) {
@@ -118,9 +101,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.elementListingCount * {
-  transform-style: preserve-3d;
 }
 .elementListingCount > :global(.__wab_flex-container) > *,
 .elementListingCount
@@ -146,11 +126,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.listingNumberParent * {
-  transform-style: preserve-3d;
 }
 .text__iCiP {
   line-height: 1;
@@ -160,11 +136,7 @@
   font-size: 10px;
   font-weight: 600;
   text-align: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.text__iCiP * {
-  transform-style: preserve-3d;
 }
 .text__saOm {
   position: relative;
@@ -173,10 +145,6 @@
   line-height: 1;
   font-size: 10px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.text__saOm * {
-  transform-style: preserve-3d;
 }
 .elementViewsCount {
   display: flex;
@@ -186,7 +154,6 @@
   height: 40px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .elementViewsCount > :global(.__wab_flex-container) {
@@ -197,9 +164,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.elementViewsCount * {
-  transform-style: preserve-3d;
 }
 .elementViewsCount > :global(.__wab_flex-container) > *,
 .elementViewsCount > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -222,11 +186,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.viewsNumberParent * {
-  transform-style: preserve-3d;
 }
 .text__ocmNw {
   line-height: 1;
@@ -236,11 +196,7 @@
   font-size: 10px;
   font-weight: 600;
   text-align: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.text__ocmNw * {
-  transform-style: preserve-3d;
 }
 .text__aNxVb {
   position: relative;
@@ -249,10 +205,6 @@
   line-height: 1;
   font-size: 10px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.text__aNxVb * {
-  transform-style: preserve-3d;
 }
 .elementReactsCount {
   display: flex;
@@ -262,7 +214,6 @@
   height: 40px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .elementReactsCount > :global(.__wab_flex-container) {
@@ -273,9 +224,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.elementReactsCount * {
-  transform-style: preserve-3d;
 }
 .elementReactsCount > :global(.__wab_flex-container) > *,
 .elementReactsCount > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -298,11 +246,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.reactsNumberParent * {
-  transform-style: preserve-3d;
 }
 .text__agzVt {
   line-height: 1;
@@ -312,11 +256,7 @@
   font-size: 10px;
   font-weight: 600;
   text-align: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.text__agzVt * {
-  transform-style: preserve-3d;
 }
 .text__ud4Ep {
   position: relative;
@@ -325,10 +265,6 @@
   line-height: 1;
   font-size: 10px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.text__ud4Ep * {
-  transform-style: preserve-3d;
 }
 .elementSavesCount {
   display: flex;
@@ -338,7 +274,6 @@
   height: 40px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .elementSavesCount > :global(.__wab_flex-container) {
@@ -349,9 +284,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.elementSavesCount * {
-  transform-style: preserve-3d;
 }
 .elementSavesCount > :global(.__wab_flex-container) > *,
 .elementSavesCount > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -374,11 +306,7 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.savesNumberParent * {
-  transform-style: preserve-3d;
 }
 .text__vsewK {
   line-height: 1;
@@ -388,11 +316,7 @@
   font-size: 10px;
   font-weight: 600;
   text-align: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.text__vsewK * {
-  transform-style: preserve-3d;
 }
 .text__gkZEo {
   position: relative;
@@ -401,8 +325,4 @@
   line-height: 1;
   font-size: 10px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.text__gkZEo * {
-  transform-style: preserve-3d;
 }

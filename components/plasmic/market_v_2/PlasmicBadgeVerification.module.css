@@ -4,30 +4,6 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .parent {
   display: flex;
@@ -35,7 +11,6 @@
   width: auto;
   height: auto;
   background: #3366ff;
-  transform-style: preserve-3d;
   border-radius: 16px;
   padding: 2px 4px 2px 1px;
   border-width: 0px;
@@ -47,9 +22,6 @@
   justify-content: center;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -63,23 +35,7 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .parent {
-    transform-style: preserve-3d;
     display: flex;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .parent * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .parent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .parent * {
-    transform-style: preserve-3d;
   }
 }
 .svg {
@@ -90,22 +46,12 @@
   width: 12px;
   height: 12px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   display: block;
 }
-.svg * {
-  transform-style: preserve-3d;
-}
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
-    transform-style: preserve-3d;
     display: block;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svg * {
-    transform-style: preserve-3d;
   }
 }
 .text {
@@ -120,20 +66,10 @@
   text-align: left;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   display: block;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text {
-    transform-style: preserve-3d;
     display: block;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text * {
-    transform-style: preserve-3d;
   }
 }

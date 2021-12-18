@@ -5,7 +5,6 @@
   height: auto;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px 8px;
   border-bottom: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -17,9 +16,6 @@
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -34,20 +30,12 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  transform-style: preserve-3d;
-}
-.freeBox___3S0X2 * {
-  transform-style: preserve-3d;
 }
 .freeBox___04MeC {
   display: flex;
   align-self: flex-start;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox___04MeC * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 10px;
@@ -58,25 +46,6 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   text-transform: uppercase;
 }
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__fiIk {
-  transform-style: preserve-3d;
-}
-.text__fiIk * {
-  transform-style: preserve-3d;
-}
 .elementNumberValueIntervalTermParent {
   display: flex;
   position: relative;
@@ -85,7 +54,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px 0px 8px;
 }
@@ -96,9 +64,6 @@
   min-width: 0;
   margin-top: calc(0px - 12px);
   height: calc(100% + 12px);
-}
-.elementNumberValueIntervalTermParent * {
-  transform-style: preserve-3d;
 }
 .elementNumberValueIntervalTermParent > :global(.__wab_flex-container) > *,
 .elementNumberValueIntervalTermParent
@@ -123,7 +88,6 @@
   top: auto;
   left: auto;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox__qOaV > :global(.__wab_flex-container) {
@@ -133,9 +97,6 @@
   min-width: 0;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
-}
-.freeBox__qOaV * {
-  transform-style: preserve-3d;
 }
 .freeBox__qOaV > :global(.__wab_flex-container) > *,
 .freeBox__qOaV > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -151,20 +112,12 @@
   width: auto;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
   padding: 0px;
-}
-.freeBox__gOClv * {
-  transform-style: preserve-3d;
 }
 .freeBox__xHjU {
   display: flex;
   align-self: stretch;
   position: relative;
-  transform-style: preserve-3d;
-}
-.freeBox__xHjU * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot2 {
   font-size: 32px;
@@ -174,44 +127,17 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetSlot2 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2 > *,
-.slotTargetSlot2 > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > picture > img,
-.slotTargetSlot2 > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__iAcvl {
-  transform-style: preserve-3d;
-}
-.text__iAcvl * {
-  transform-style: preserve-3d;
-}
 .freeBox__m0Ufj {
   width: auto;
   display: flex;
   flex-direction: row;
   background: #ffffff;
-  transform-style: preserve-3d;
   padding: 0px;
-}
-.freeBox__m0Ufj * {
-  transform-style: preserve-3d;
 }
 .freeBox__s51Ve {
   display: flex;
   align-self: stretch;
   position: relative;
-  transform-style: preserve-3d;
-}
-.freeBox__s51Ve * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot3 {
   font-size: 32px;
@@ -221,44 +147,17 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetSlot3 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot3 > *,
-.slotTargetSlot3 > .__wab_slot > *,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot3 > picture > img,
-.slotTargetSlot3 > .__wab_slot > picture > img,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot3 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__nq9Kl {
-  transform-style: preserve-3d;
-}
-.text__nq9Kl * {
-  transform-style: preserve-3d;
-}
 .freeBox___2DAj1 {
   width: auto;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  transform-style: preserve-3d;
   padding: 0px;
-}
-.freeBox___2DAj1 * {
-  transform-style: preserve-3d;
 }
 .freeBox__z9Y91 {
   display: flex;
   align-self: flex-start;
   position: relative;
-  transform-style: preserve-3d;
-}
-.freeBox__z9Y91 * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot4 {
   font-size: 14px;
@@ -267,25 +166,6 @@
   letter-spacing: normal;
   line-height: 1.8;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-}
-.slotTargetSlot4 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot4 > *,
-.slotTargetSlot4 > .__wab_slot > *,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot4 > picture > img,
-.slotTargetSlot4 > .__wab_slot > picture > img,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__iUfy6 {
-  transform-style: preserve-3d;
-}
-.text__iUfy6 * {
-  transform-style: preserve-3d;
 }
 .descriptionTextParent {
   position: relative;
@@ -297,34 +177,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px 8px 8px 0px;
-}
-.descriptionTextParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot {
   font-size: 14px;
   line-height: 1.4;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-}
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__d170K {
-  transform-style: preserve-3d;
-}
-.text__d170K * {
-  transform-style: preserve-3d;
 }

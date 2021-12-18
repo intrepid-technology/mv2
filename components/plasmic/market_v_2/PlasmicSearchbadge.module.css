@@ -4,7 +4,6 @@
   width: 360px;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,9 +11,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -32,28 +28,16 @@
   border-left-width: 1px;
   height: 40px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   border-bottom: 2px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.serviceIndustry * {
-  transform-style: preserve-3d;
-}
 .root .serviceIndustry:hover {
   border-bottom-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
-  transform-style: preserve-3d;
-}
-.root .serviceIndustry:hover * {
-  transform-style: preserve-3d;
 }
 .root .serviceIndustry:focus {
   border-bottom-color: #6633ff /* plasmic-token: vlQUduj5i */;
-  transform-style: preserve-3d;
   outline: none;
-}
-.root .serviceIndustry:focus * {
-  transform-style: preserve-3d;
 }
 .freeBox {
   display: flex;
@@ -63,7 +47,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -78,9 +61,6 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.freeBox * {
-  transform-style: preserve-3d;
-}
 .freeBox > :global(.__wab_flex-container) > *,
 .freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .freeBox > :global(.__wab_flex-container) > picture > img,
@@ -94,17 +74,9 @@
 }
 .chipBadgeDisplay__c7GRb:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.chipBadgeDisplay__c7GRb * {
-  transform-style: preserve-3d;
 }
 .text__ryVaq {
   text-transform: lowercase;
-  transform-style: preserve-3d;
-}
-.text__ryVaq * {
-  transform-style: preserve-3d;
 }
 .svg__uhutF {
   position: relative;
@@ -112,20 +84,12 @@
   width: 16px;
   height: 16px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
-  transform-style: preserve-3d;
-}
-.svg__uhutF * {
-  transform-style: preserve-3d;
 }
 .svg__iga1W {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  transform-style: preserve-3d;
-}
-.svg__iga1W * {
-  transform-style: preserve-3d;
 }
 .svg__nhVtj {
   position: relative;
@@ -133,8 +97,4 @@
   width: 14px;
   height: 14px;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  transform-style: preserve-3d;
-}
-.svg__nhVtj * {
-  transform-style: preserve-3d;
 }

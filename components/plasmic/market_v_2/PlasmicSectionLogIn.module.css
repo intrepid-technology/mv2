@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 32px 0px 64px;
 }
@@ -15,9 +14,6 @@
   min-width: 0;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -32,18 +28,11 @@
 @media (min-width: 0px) and (max-width: 1440px) {
   .parent {
     padding-bottom: 96px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .parent * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .parent {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px 16px 96px;
   }
@@ -55,11 +44,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 24px);
     height: calc(100% + 24px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .parent * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -83,7 +67,6 @@
   left: auto;
   width: 360px;
   height: auto;
-  transform-style: preserve-3d;
 }
 .loginHeadlineParent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -91,9 +74,6 @@
   justify-content: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.loginHeadlineParent * {
-  transform-style: preserve-3d;
 }
 .loginHeadlineParent > :global(.__wab_flex-container) > *,
 .loginHeadlineParent
@@ -108,26 +88,10 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginHeadlineParent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginHeadlineParent * {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineParent {
     margin-top: calc(40px + 24px) !important;
     margin-bottom: 40px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .loginHeadlineParent * {
-    transform-style: preserve-3d;
   }
 }
 .loginHeadlineText {
@@ -135,7 +99,6 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -147,9 +110,6 @@
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.loginHeadlineText * {
-  transform-style: preserve-3d;
-}
 .loginHeadlineText > :global(.__wab_flex-container) > *,
 .loginHeadlineText > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .loginHeadlineText > :global(.__wab_flex-container) > picture > img,
@@ -160,31 +120,15 @@
   > img {
   margin-top: 16px;
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginHeadlineText {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .loginHeadlineText * {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineText {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .loginHeadlineText > :global(.__wab_flex-container) {
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .loginHeadlineText * {
-    transform-style: preserve-3d;
   }
 }
 .svgLinkDiv {
@@ -197,58 +141,16 @@
   left: auto;
   align-self: flex-start;
   margin-left: -10px;
-  transform-style: preserve-3d;
-}
-.svgLinkDiv * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svgLinkDiv {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svgLinkDiv * {
-    transform-style: preserve-3d;
-  }
 }
 .svg {
   object-fit: cover;
   width: 48px;
   height: 48px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.svg * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svg {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .svg * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .svg {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .svg * {
-    transform-style: preserve-3d;
-  }
 }
 .parent .svg:hover {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
-  transform-style: preserve-3d;
-}
-.parent .svg:hover * {
-  transform-style: preserve-3d;
 }
 .text {
   display: block;
@@ -264,53 +166,27 @@
   top: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .text {
     line-height: 1.4;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .text * {
-    transform-style: preserve-3d;
   }
 }
 .cardLogIn:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.cardLogIn * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .cardLogIn:global(.__wab_instance) {
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .cardLogIn * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -318,12 +194,6 @@
     width: 100%;
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardLogIn * {
-    transform-style: preserve-3d;
   }
 }

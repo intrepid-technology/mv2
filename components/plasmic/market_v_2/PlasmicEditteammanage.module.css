@@ -5,42 +5,14 @@
   height: 100%;
   flex-direction: column;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
 }
 .navbarPartnerEdit:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.navbarPartnerEdit * {
-  transform-style: preserve-3d;
 }
 .sectionTeamManageMembersHeader {
   display: flex;
@@ -51,7 +23,6 @@
   align-self: flex-start;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 32px;
 }
@@ -63,9 +34,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamManageMembersHeader * {
-  transform-style: preserve-3d;
 }
 .sectionTeamManageMembersHeader > :global(.__wab_flex-container) > *,
 .sectionTeamManageMembersHeader
@@ -83,20 +51,9 @@
   > img {
   margin-top: 32px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionTeamManageMembersHeader {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionTeamManageMembersHeader * {
-    transform-style: preserve-3d;
-  }
-}
 @media (max-width: 375px) {
   .sectionTeamManageMembersHeader {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px;
   }
@@ -106,45 +63,8 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .sectionTeamManageMembersHeader * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitleDisplay:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitleDisplay * {
-  transform-style: preserve-3d;
-}
-@media (max-width: 375px) {
-  .cardHeaderTitleDisplay:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .cardHeaderTitleDisplay * {
-    transform-style: preserve-3d;
-  }
-}
-.text__tw6Cp {
-  transform-style: preserve-3d;
-}
-.text__tw6Cp * {
-  transform-style: preserve-3d;
-}
 .text___6QAYz {
   font-weight: 700;
-  transform-style: preserve-3d;
-}
-.text___6QAYz * {
-  transform-style: preserve-3d;
-}
-.text___2WMs {
-  transform-style: preserve-3d;
-}
-.text___2WMs * {
-  transform-style: preserve-3d;
 }
 .sectionTeamInviteMembers {
   display: flex;
@@ -154,7 +74,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 32px;
 }
@@ -166,9 +85,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamInviteMembers * {
-  transform-style: preserve-3d;
 }
 .sectionTeamInviteMembers > :global(.__wab_flex-container) > *,
 .sectionTeamInviteMembers
@@ -191,7 +107,6 @@
     height: auto;
     left: 0px;
     top: 0px;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 64px 24px;
   }
@@ -206,11 +121,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 0px);
     height: calc(100% + 0px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .sectionTeamInviteMembers * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -234,7 +144,6 @@
     width: 100%;
     left: auto;
     top: auto;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 16px;
   }
@@ -244,18 +153,12 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .sectionTeamInviteMembers * {
-    transform-style: preserve-3d;
-  }
-}
 .cardTeamInviteMembers {
   display: flex;
   position: relative;
   flex-direction: column;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .cardTeamInviteMembers > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -264,9 +167,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardTeamInviteMembers * {
-  transform-style: preserve-3d;
 }
 .cardTeamInviteMembers > :global(.__wab_flex-container) > *,
 .cardTeamInviteMembers
@@ -284,7 +184,6 @@
 @media (max-width: 375px) {
   .cardTeamInviteMembers {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -293,78 +192,23 @@
     min-width: 0;
   }
 }
-@media (max-width: 375px) {
-  .cardTeamInviteMembers * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitlePrimary__ki7Or:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__ki7Or * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__ki7Or:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__ki7Or * {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .cardHeaderTitlePrimary__ki7Or:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .cardHeaderTitlePrimary__ki7Or * {
-    transform-style: preserve-3d;
-  }
-}
-.text__wvKi {
-  transform-style: preserve-3d;
-}
-.text__wvKi * {
-  transform-style: preserve-3d;
-}
 .text__ygMqo {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__ygMqo * {
-  transform-style: preserve-3d;
 }
 .buttonPrimary:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary * {
-  transform-style: preserve-3d;
-}
-.text___0Laht {
-  transform-style: preserve-3d;
-}
-.text___0Laht * {
-  transform-style: preserve-3d;
 }
 .svg__grV1R {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__grV1R * {
-  transform-style: preserve-3d;
 }
 .tableAddTeamMember {
   display: flex;
@@ -374,7 +218,6 @@
   left: auto;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 8px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -385,9 +228,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.tableAddTeamMember * {
-  transform-style: preserve-3d;
 }
 .tableAddTeamMember > :global(.__wab_flex-container) > *,
 .tableAddTeamMember > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -402,7 +242,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .tableAddTeamMember {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -411,17 +250,11 @@
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .tableAddTeamMember * {
-    transform-style: preserve-3d;
-  }
-}
 .inviteMemberHeader {
   display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .inviteMemberHeader > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -431,9 +264,6 @@
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
-}
-.inviteMemberHeader * {
-  transform-style: preserve-3d;
 }
 .inviteMemberHeader > :global(.__wab_flex-container) > *,
 .inviteMemberHeader > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -448,7 +278,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .inviteMemberHeader {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -459,11 +288,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
     height: calc(100% + 8px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inviteMemberHeader * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -484,80 +308,33 @@
 }
 .inputTextForm__fayfn:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.inputTextForm__fayfn * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .inputTextForm__fayfn:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inputTextForm__fayfn * {
-    transform-style: preserve-3d;
   }
 }
 .text__ptzPj {
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.text__ptzPj * {
-  transform-style: preserve-3d;
-}
-.text__fWsMy {
-  transform-style: preserve-3d;
-}
-.text__fWsMy * {
-  transform-style: preserve-3d;
 }
 .selectGroupDropdownPrimary__gj5Rn:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.selectGroupDropdownPrimary__gj5Rn * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .selectGroupDropdownPrimary__gj5Rn:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .selectGroupDropdownPrimary__gj5Rn * {
-    transform-style: preserve-3d;
   }
 }
 .text___7A8Rf {
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.text___7A8Rf * {
-  transform-style: preserve-3d;
-}
-.text__ffkXr {
-  transform-style: preserve-3d;
-}
-.text__ffkXr * {
-  transform-style: preserve-3d;
-}
-.text___24Ue5 {
-  transform-style: preserve-3d;
-}
-.text___24Ue5 * {
-  transform-style: preserve-3d;
 }
 .inviteMemberRecord {
   display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .inviteMemberRecord > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -567,9 +344,6 @@
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
-}
-.inviteMemberRecord * {
-  transform-style: preserve-3d;
 }
 .inviteMemberRecord > :global(.__wab_flex-container) > *,
 .inviteMemberRecord > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -584,7 +358,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .inviteMemberRecord {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -595,11 +368,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
     height: calc(100% + 8px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inviteMemberRecord * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -620,71 +388,21 @@
 }
 .inputTextForm__ziL9:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.inputTextForm__ziL9 * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .inputTextForm__ziL9:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .inputTextForm__ziL9 * {
-    transform-style: preserve-3d;
-  }
-}
-.text__xVhpf {
-  transform-style: preserve-3d;
-}
-.text__xVhpf * {
-  transform-style: preserve-3d;
-}
-.text___5J6Yn {
-  transform-style: preserve-3d;
-}
-.text___5J6Yn * {
-  transform-style: preserve-3d;
-}
 .selectGroupDropdownPrimary__qVoyx:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.selectGroupDropdownPrimary__qVoyx * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .selectGroupDropdownPrimary__qVoyx:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .selectGroupDropdownPrimary__qVoyx * {
-    transform-style: preserve-3d;
-  }
-}
-.text__rIwVj {
-  transform-style: preserve-3d;
-}
-.text__rIwVj * {
-  transform-style: preserve-3d;
-}
-.text__zy1FU {
-  transform-style: preserve-3d;
-}
-.text__zy1FU * {
-  transform-style: preserve-3d;
-}
-.text__aR4Sa {
-  transform-style: preserve-3d;
-}
-.text__aR4Sa * {
-  transform-style: preserve-3d;
 }
 .incrementParent {
   display: flex;
@@ -697,27 +415,7 @@
   align-content: unset;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.incrementParent * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .incrementParent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .incrementParent * {
-    transform-style: preserve-3d;
-  }
-}
-.addMember:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.addMember * {
-  transform-style: preserve-3d;
 }
 .inviteButtonParent {
   display: flex;
@@ -731,46 +429,18 @@
   width: 100%;
   height: auto;
   align-content: unset;
-  transform-style: preserve-3d;
   min-width: 0;
 }
-.inviteButtonParent * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inviteButtonParent {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inviteButtonParent * {
-    transform-style: preserve-3d;
-  }
-}
 .inviteMembers:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inviteMembers * {
-  transform-style: preserve-3d;
-}
-.text__xxzgL {
-  transform-style: preserve-3d;
-}
-.text__xxzgL * {
-  transform-style: preserve-3d;
 }
 .svg__gAmwy {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__gAmwy * {
-  transform-style: preserve-3d;
 }
 .sectionTeamManageMembers {
   display: flex;
@@ -780,7 +450,6 @@
   left: auto;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 180px 96px;
 }
@@ -792,9 +461,6 @@
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.sectionTeamManageMembers * {
-  transform-style: preserve-3d;
 }
 .sectionTeamManageMembers > :global(.__wab_flex-container) > *,
 .sectionTeamManageMembers
@@ -811,13 +477,7 @@
 }
 @media (max-width: 375px) {
   .sectionTeamManageMembers {
-    transform-style: preserve-3d;
     padding: 16px;
-  }
-}
-@media (max-width: 375px) {
-  .sectionTeamManageMembers * {
-    transform-style: preserve-3d;
   }
 }
 .cardTeamManageMembers {
@@ -825,7 +485,6 @@
   flex-direction: column;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
 }
 .cardTeamManageMembers > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -834,9 +493,6 @@
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
-}
-.cardTeamManageMembers * {
-  transform-style: preserve-3d;
 }
 .cardTeamManageMembers > :global(.__wab_flex-container) > *,
 .cardTeamManageMembers
@@ -854,7 +510,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .cardTeamManageMembers {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -864,41 +519,14 @@
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .cardTeamManageMembers * {
-    transform-style: preserve-3d;
-  }
-}
-.cardHeaderTitlePrimary__uWhQj:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.cardHeaderTitlePrimary__uWhQj * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
   .cardHeaderTitlePrimary__uWhQj:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .cardHeaderTitlePrimary__uWhQj * {
-    transform-style: preserve-3d;
-  }
-}
-.text__n8VDz {
-  transform-style: preserve-3d;
-}
-.text__n8VDz * {
-  transform-style: preserve-3d;
 }
 .text__xopkA {
   height: auto;
   max-width: 328px;
-  transform-style: preserve-3d;
-}
-.text__xopkA * {
-  transform-style: preserve-3d;
 }
 .tableTeamMemberEditParent {
   display: flex;
@@ -908,7 +536,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   border-radius: 2px;
   padding: 8px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
@@ -919,9 +546,6 @@
   justify-content: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
-}
-.tableTeamMemberEditParent * {
-  transform-style: preserve-3d;
 }
 .tableTeamMemberEditParent > :global(.__wab_flex-container) > *,
 .tableTeamMemberEditParent
@@ -939,18 +563,12 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .tableTeamMemberEditParent {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .tableTeamMemberEditParent > :global(.__wab_flex-container) {
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .tableTeamMemberEditParent * {
-    transform-style: preserve-3d;
   }
 }
 .searchFilterDateParent {
@@ -961,7 +579,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
 }
 .searchFilterDateParent > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -971,9 +588,6 @@
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
-}
-.searchFilterDateParent * {
-  transform-style: preserve-3d;
 }
 .searchFilterDateParent > :global(.__wab_flex-container) > *,
 .searchFilterDateParent
@@ -991,7 +605,6 @@
 @media (min-width: 0px) and (max-width: 428px) {
   .searchFilterDateParent {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
   }
 }
@@ -1002,11 +615,6 @@
     width: calc(100% + 0px);
     margin-top: calc(0px - 8px);
     height: calc(100% + 8px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .searchFilterDateParent * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -1029,59 +637,21 @@
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.searchbarPrimary * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .searchbarPrimary:global(.__wab_instance) {
     width: 100%;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .searchbarPrimary * {
-    transform-style: preserve-3d;
   }
 }
 .selectGroupDropdownPrimary___8Lqr8:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.selectGroupDropdownPrimary___8Lqr8 * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .selectGroupDropdownPrimary___8Lqr8:global(.__wab_instance) {
     width: 90px;
-    transform-style: preserve-3d;
     flex-shrink: 0;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .selectGroupDropdownPrimary___8Lqr8 * {
-    transform-style: preserve-3d;
-  }
-}
-.text___0I1Mu {
-  transform-style: preserve-3d;
-}
-.text___0I1Mu * {
-  transform-style: preserve-3d;
-}
-.text___8Eptt {
-  transform-style: preserve-3d;
-}
-.text___8Eptt * {
-  transform-style: preserve-3d;
-}
-.text__wnrDk {
-  transform-style: preserve-3d;
-}
-.text__wnrDk * {
-  transform-style: preserve-3d;
 }
 .tableSelectColumnParent {
   display: flex;
@@ -1092,7 +662,6 @@
   width: 100%;
   height: auto;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
@@ -1103,9 +672,6 @@
   min-width: 0;
   margin-top: calc(0px - 2px);
   height: calc(100% + 2px);
-}
-.tableSelectColumnParent * {
-  transform-style: preserve-3d;
 }
 .tableSelectColumnParent > :global(.__wab_flex-container) > *,
 .tableSelectColumnParent
@@ -1121,30 +687,18 @@
   margin-top: 2px;
 }
 .tableUserAdminHeader:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.tableUserAdminHeader * {
-  transform-style: preserve-3d;
 }
 .tableUserAdminRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   display: flex;
-}
-.tableUserAdminRecord * {
-  transform-style: preserve-3d;
 }
 .tableUserRecord:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.tableUserRecord * {
-  transform-style: preserve-3d;
 }

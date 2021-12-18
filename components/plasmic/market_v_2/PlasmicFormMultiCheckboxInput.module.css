@@ -4,7 +4,6 @@
   position: relative;
   width: 100%;
   height: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -12,9 +11,6 @@
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -24,8 +20,4 @@
 }
 .multiCheckboxInput:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.multiCheckboxInput * {
-  transform-style: preserve-3d;
 }

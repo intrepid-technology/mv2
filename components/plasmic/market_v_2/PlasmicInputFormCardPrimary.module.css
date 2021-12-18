@@ -4,22 +4,6 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
-}
-.root__border {
-  transform-style: preserve-3d;
-}
-.root__border * {
-  transform-style: preserve-3d;
-}
-.root__multiLineText {
-  transform-style: preserve-3d;
-}
-.root__multiLineText * {
-  transform-style: preserve-3d;
 }
 .parent {
   display: flex;
@@ -28,26 +12,12 @@
   justify-content: flex-start;
   width: 720px;
   height: auto;
-  transform-style: preserve-3d;
   border-radius: 2px;
   border: 1px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.parent * {
-  transform-style: preserve-3d;
-}
 .parent__border {
-  transform-style: preserve-3d;
   border-width: 2px;
   border-style: solid;
-}
-.parent__border * {
-  transform-style: preserve-3d;
-}
-.parent__multiLineText {
-  transform-style: preserve-3d;
-}
-.parent__multiLineText * {
-  transform-style: preserve-3d;
 }
 .mainCard {
   display: flex;
@@ -57,7 +27,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 16px 16px 32px;
 }
@@ -69,9 +38,6 @@
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
-.mainCard * {
-  transform-style: preserve-3d;
-}
 .mainCard > :global(.__wab_flex-container) > *,
 .mainCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .mainCard > :global(.__wab_flex-container) > picture > img,
@@ -82,40 +48,9 @@
   > img {
   margin-top: 32px;
 }
-.mainCard__inputType_displayText {
-  transform-style: preserve-3d;
-}
-.mainCard__inputType_displayText * {
-  transform-style: preserve-3d;
-}
-.mainCard__border {
-  transform-style: preserve-3d;
-}
-.mainCard__border * {
-  transform-style: preserve-3d;
-}
-.mainCard__multiLineText {
-  transform-style: preserve-3d;
-}
-.mainCard__multiLineText * {
-  transform-style: preserve-3d;
-}
-.mainCard__singleLineText {
-  transform-style: preserve-3d;
-}
-.mainCard__singleLineText * {
-  transform-style: preserve-3d;
-}
-.mainCard__inputType_username {
-  transform-style: preserve-3d;
-}
-.mainCard__inputType_username * {
-  transform-style: preserve-3d;
-}
 .mainCard__inputType_companyname {
   padding-bottom: 32px;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .mainCard__inputType_companyname > :global(.__wab_flex-container) {
@@ -124,9 +59,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.mainCard__inputType_companyname * {
-  transform-style: preserve-3d;
 }
 .mainCard__inputType_companyname > :global(.__wab_flex-container) > *,
 .mainCard__inputType_companyname
@@ -146,7 +78,6 @@
   margin-top: 32px;
 }
 .mainCard__inputType_dropdownText {
-  transform-style: preserve-3d;
   padding: 16px 16px 32px;
 }
 .mainCard__inputType_dropdownText > :global(.__wab_flex-container) {
@@ -154,9 +85,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
-}
-.mainCard__inputType_dropdownText * {
-  transform-style: preserve-3d;
 }
 .mainCard__inputType_dropdownText > :global(.__wab_flex-container) > *,
 .mainCard__inputType_dropdownText
@@ -175,18 +103,6 @@
   margin-left: 0px;
   margin-top: 32px;
 }
-.mainCard__inputType_dropdownDropdown {
-  transform-style: preserve-3d;
-}
-.mainCard__inputType_dropdownDropdown * {
-  transform-style: preserve-3d;
-}
-.mainCard__singleLineText_multiLineText {
-  transform-style: preserve-3d;
-}
-.mainCard__singleLineText_multiLineText * {
-  transform-style: preserve-3d;
-}
 .headlineParent {
   position: relative;
   left: auto;
@@ -194,15 +110,11 @@
   display: flex;
   flex-direction: column;
   width: 540px;
-  transform-style: preserve-3d;
 }
 .headlineParent > :global(.__wab_flex-container) {
   flex-direction: column;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
-}
-.headlineParent * {
-  transform-style: preserve-3d;
 }
 .headlineParent > :global(.__wab_flex-container) > *,
 .headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -214,35 +126,13 @@
   > img {
   margin-top: 8px;
 }
-.headlineParent__multiLineText {
-  transform-style: preserve-3d;
-}
-.headlineParent__multiLineText * {
-  transform-style: preserve-3d;
-}
-.headlineParent__inputType_dropdownText {
-  transform-style: preserve-3d;
-}
-.headlineParent__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
 .freeBox__iEhR {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__iEhR * {
-  transform-style: preserve-3d;
-}
-.freeBox__multiLineText__iEhRRgBtF {
-  transform-style: preserve-3d;
-}
-.freeBox__multiLineText__iEhRRgBtF * {
-  transform-style: preserve-3d;
 }
 .slotTargetHeadline {
   font-size: 24px;
@@ -252,121 +142,6 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetHeadline * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline > *,
-.slotTargetHeadline > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > picture > img,
-.slotTargetHeadline > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__multiLineText * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__multiLineText > *,
-.slotTargetHeadline__multiLineText > .__wab_slot > *,
-.slotTargetHeadline__multiLineText > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetHeadline__multiLineText > picture > img,
-.slotTargetHeadline__multiLineText > .__wab_slot > picture > img,
-.slotTargetHeadline__multiLineText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetHeadline__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__singleLineText * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__singleLineText > *,
-.slotTargetHeadline__singleLineText > .__wab_slot > *,
-.slotTargetHeadline__singleLineText > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline__singleLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetHeadline__singleLineText > picture > img,
-.slotTargetHeadline__singleLineText > .__wab_slot > picture > img,
-.slotTargetHeadline__singleLineText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetHeadline__singleLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__inputType_dropdownText > *,
-.slotTargetHeadline__inputType_dropdownText > .__wab_slot > *,
-.slotTargetHeadline__inputType_dropdownText > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetHeadline__inputType_dropdownText > picture > img,
-.slotTargetHeadline__inputType_dropdownText > .__wab_slot > picture > img,
-.slotTargetHeadline__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetHeadline__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__button_subDescription * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline__button_subDescription > *,
-.slotTargetHeadline__button_subDescription > .__wab_slot > *,
-.slotTargetHeadline__button_subDescription > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline__button_subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetHeadline__button_subDescription > picture > img,
-.slotTargetHeadline__button_subDescription > .__wab_slot > picture > img,
-.slotTargetHeadline__button_subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetHeadline__button_subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__cjfn6 {
-  transform-style: preserve-3d;
-}
-.text__cjfn6 * {
-  transform-style: preserve-3d;
-}
 .slotTargetSubHead {
   font-size: 14px;
   font-family: "Inter", sans-serif;
@@ -374,143 +149,6 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-}
-.slotTargetSubHead * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead > *,
-.slotTargetSubHead > .__wab_slot > *,
-.slotTargetSubHead > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead > picture > img,
-.slotTargetSubHead > .__wab_slot > picture > img,
-.slotTargetSubHead > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSubHead > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__multiLineText * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__multiLineText > *,
-.slotTargetSubHead__multiLineText > .__wab_slot > *,
-.slotTargetSubHead__multiLineText > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__multiLineText > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__multiLineText > picture > img,
-.slotTargetSubHead__multiLineText > .__wab_slot > picture > img,
-.slotTargetSubHead__multiLineText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSubHead__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__singleLineText * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__singleLineText > *,
-.slotTargetSubHead__singleLineText > .__wab_slot > *,
-.slotTargetSubHead__singleLineText > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__singleLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSubHead__singleLineText > picture > img,
-.slotTargetSubHead__singleLineText > .__wab_slot > picture > img,
-.slotTargetSubHead__singleLineText > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSubHead__singleLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_username * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_username > *,
-.slotTargetSubHead__inputType_username > .__wab_slot > *,
-.slotTargetSubHead__inputType_username > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__inputType_username
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSubHead__inputType_username > picture > img,
-.slotTargetSubHead__inputType_username > .__wab_slot > picture > img,
-.slotTargetSubHead__inputType_username
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSubHead__inputType_username
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_companyname * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_companyname > *,
-.slotTargetSubHead__inputType_companyname > .__wab_slot > *,
-.slotTargetSubHead__inputType_companyname > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSubHead__inputType_companyname > picture > img,
-.slotTargetSubHead__inputType_companyname > .__wab_slot > picture > img,
-.slotTargetSubHead__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSubHead__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
-.slotTargetSubHead__inputType_dropdownText > *,
-.slotTargetSubHead__inputType_dropdownText > .__wab_slot > *,
-.slotTargetSubHead__inputType_dropdownText > .__wab_slot > .__wab_slot > *,
-.slotTargetSubHead__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSubHead__inputType_dropdownText > picture > img,
-.slotTargetSubHead__inputType_dropdownText > .__wab_slot > picture > img,
-.slotTargetSubHead__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSubHead__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__bGn5O {
-  transform-style: preserve-3d;
-}
-.text__bGn5O * {
-  transform-style: preserve-3d;
 }
 .inputElementParent {
   display: flex;
@@ -520,7 +158,6 @@
   height: auto;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .inputElementParent > :global(.__wab_flex-container) {
@@ -530,9 +167,6 @@
   min-width: 0;
   margin-left: calc(0px - 48px);
   width: calc(100% + 48px);
-}
-.inputElementParent * {
-  transform-style: preserve-3d;
 }
 .inputElementParent > :global(.__wab_flex-container) > *,
 .inputElementParent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -546,26 +180,17 @@
 }
 .inputElementParent__inputType_displayText {
   width: 360px;
-  transform-style: preserve-3d;
-}
-.inputElementParent__inputType_displayText * {
-  transform-style: preserve-3d;
 }
 .inputElementParent__multiLineText {
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .inputElementParent__multiLineText > :global(.__wab_flex-container) {
   min-width: 0;
 }
-.inputElementParent__multiLineText * {
-  transform-style: preserve-3d;
-}
 .inputElementParent__singleLineText {
   width: 360px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .inputElementParent__singleLineText > :global(.__wab_flex-container) {
@@ -573,9 +198,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
-}
-.inputElementParent__singleLineText * {
-  transform-style: preserve-3d;
 }
 .inputElementParent__singleLineText > :global(.__wab_flex-container) > *,
 .inputElementParent__singleLineText
@@ -597,7 +219,6 @@
 .inputElementParent__inputType_username {
   width: 540px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .inputElementParent__inputType_username > :global(.__wab_flex-container) {
@@ -607,9 +228,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
-}
-.inputElementParent__inputType_username * {
-  transform-style: preserve-3d;
 }
 .inputElementParent__inputType_username > :global(.__wab_flex-container) > *,
 .inputElementParent__inputType_username
@@ -631,7 +249,6 @@
 .inputElementParent__inputType_companyname {
   width: 540px;
   height: 32px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
 .inputElementParent__inputType_companyname > :global(.__wab_flex-container) {
@@ -641,9 +258,6 @@
   width: calc(100% + 0px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
-}
-.inputElementParent__inputType_companyname * {
-  transform-style: preserve-3d;
 }
 .inputElementParent__inputType_companyname > :global(.__wab_flex-container) > *,
 .inputElementParent__inputType_companyname
@@ -662,221 +276,89 @@
   margin-left: 0px;
   margin-top: 0px;
 }
-.inputElementParent__inputType_dropdownText {
-  transform-style: preserve-3d;
-}
-.inputElementParent__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
-.inputElementParent__inputType_dropdownDropdown {
-  transform-style: preserve-3d;
-}
-.inputElementParent__inputType_dropdownDropdown * {
-  transform-style: preserve-3d;
-}
 .buttonFormDropdownSelect__hayT:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__hayT * {
-  transform-style: preserve-3d;
 }
 .buttonFormDropdownSelect__inputType_dropdownText__hayTHRwL0:global(.__wab_instance) {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__inputType_dropdownText__hayTHRwL0 * {
-  transform-style: preserve-3d;
-}
-.text__gYaj0 {
-  transform-style: preserve-3d;
-}
-.text__gYaj0 * {
-  transform-style: preserve-3d;
-}
-.text__inputType_dropdownText__gYaj0HRwL0 {
-  transform-style: preserve-3d;
-}
-.text__inputType_dropdownText__gYaj0HRwL0 * {
-  transform-style: preserve-3d;
-}
-.text__kmzOt {
-  transform-style: preserve-3d;
-}
-.text__kmzOt * {
-  transform-style: preserve-3d;
 }
 .svg__g0CEr {
   object-fit: cover;
   width: 28px;
   height: 28px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__g0CEr * {
-  transform-style: preserve-3d;
-}
-.text__shAao {
-  transform-style: preserve-3d;
-}
-.text__shAao * {
-  transform-style: preserve-3d;
 }
 .svg___8XXGd {
   object-fit: cover;
   width: 12px;
   height: 12px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg___8XXGd * {
-  transform-style: preserve-3d;
 }
 .svg__ruhY {
   position: relative;
   object-fit: cover;
-  transform-style: preserve-3d;
   width: 1em;
   height: 1em;
   display: none;
-}
-.svg__ruhY * {
-  transform-style: preserve-3d;
 }
 .buttonFormDropdownSelect__kiKbI:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__kiKbI * {
-  transform-style: preserve-3d;
 }
 .buttonFormDropdownSelect__inputType_dropdownDropdown__kiKbIl2Zus:global(.__wab_instance) {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__inputType_dropdownDropdown__kiKbIl2Zus * {
-  transform-style: preserve-3d;
-}
-.text__kH2T5 {
-  transform-style: preserve-3d;
-}
-.text__kH2T5 * {
-  transform-style: preserve-3d;
-}
-.text__fwVFk {
-  transform-style: preserve-3d;
-}
-.text__fwVFk * {
-  transform-style: preserve-3d;
 }
 .svg__muKo6 {
   object-fit: cover;
   width: 28px;
   height: 28px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__muKo6 * {
-  transform-style: preserve-3d;
-}
-.text__kqkpO {
-  transform-style: preserve-3d;
-}
-.text__kqkpO * {
-  transform-style: preserve-3d;
 }
 .svg__u3QG {
   object-fit: cover;
   width: 12px;
   height: 12px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__u3QG * {
-  transform-style: preserve-3d;
 }
 .svg__cArR1 {
   position: relative;
   object-fit: cover;
-  transform-style: preserve-3d;
   width: 1em;
   height: 1em;
   display: none;
-}
-.svg__cArR1 * {
-  transform-style: preserve-3d;
 }
 .buttonFormDropdownSelect__q7QBy:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__q7QBy * {
-  transform-style: preserve-3d;
 }
 .buttonFormDropdownSelect__inputType_dropdownDropdown__q7QByl2Zus:global(.__wab_instance) {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.buttonFormDropdownSelect__inputType_dropdownDropdown__q7QByl2Zus * {
-  transform-style: preserve-3d;
-}
-.text__cnVwA {
-  transform-style: preserve-3d;
-}
-.text__cnVwA * {
-  transform-style: preserve-3d;
-}
-.text__pix9G {
-  transform-style: preserve-3d;
-}
-.text__pix9G * {
-  transform-style: preserve-3d;
 }
 .svg__oQjXf {
   object-fit: cover;
   width: 28px;
   height: 28px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__oQjXf * {
-  transform-style: preserve-3d;
-}
-.text__nf3QD {
-  transform-style: preserve-3d;
-}
-.text__nf3QD * {
-  transform-style: preserve-3d;
 }
 .svg__reJbV {
   object-fit: cover;
   width: 12px;
   height: 12px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__reJbV * {
-  transform-style: preserve-3d;
 }
 .svg__vcpo8 {
   position: relative;
   object-fit: cover;
-  transform-style: preserve-3d;
   width: 1em;
   height: 1em;
   display: none;
-}
-.svg__vcpo8 * {
-  transform-style: preserve-3d;
 }
 .freeBox___5AQd8 {
   position: relative;
@@ -886,13 +368,9 @@
   height: 96px;
   display: flex;
   flex-direction: row;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 2px;
   border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.freeBox___5AQd8 * {
-  transform-style: preserve-3d;
 }
 .freeBox__inputType_displayText___5AQd8Ko3Kh {
   left: auto;
@@ -902,328 +380,58 @@
   align-items: center;
   justify-content: flex-start;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   flex-shrink: 0;
   border-radius: 2px;
   padding: 4px 8px;
   border-width: 2px;
-}
-.freeBox__inputType_displayText___5AQd8Ko3Kh * {
-  transform-style: preserve-3d;
-}
-.freeBox__inputType_companyname___5AQd8YQu0E {
-  transform-style: preserve-3d;
-}
-.freeBox__inputType_companyname___5AQd8YQu0E * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot__inputType_displayText {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   font-size: 14px;
   line-height: 1.4;
 }
-.slotTargetSlot__inputType_displayText * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__inputType_displayText > *,
-.slotTargetSlot__inputType_displayText > .__wab_slot > *,
-.slotTargetSlot__inputType_displayText > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlot__inputType_displayText > picture > img,
-.slotTargetSlot__inputType_displayText > .__wab_slot > picture > img,
-.slotTargetSlot__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSlot__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__vybKv {
-  transform-style: preserve-3d;
-}
-.text__vybKv * {
-  transform-style: preserve-3d;
-}
 .inputTextForm__pjy7:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.inputTextForm__pjy7 * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__pjy7Ko3Kh:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__pjy7Ko3Kh * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__multiLineText__pjy7RgBtF:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__multiLineText__pjy7RgBtF * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__singleLineText__pjy75VFan:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__singleLineText__pjy75VFan * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_username__pjy73UQvi:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_username__pjy73UQvi * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_companyname__pjy7YQu0E:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_companyname__pjy7YQu0E * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownText__pjy7HRwL0:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownText__pjy7HRwL0 * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__pjy7L2Zus:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__pjy7L2Zus * {
-  transform-style: preserve-3d;
-}
-.text__hjcnx {
-  transform-style: preserve-3d;
-}
-.text__hjcnx * {
-  transform-style: preserve-3d;
-}
-.text__p9Qu9 {
-  transform-style: preserve-3d;
-}
-.text__p9Qu9 * {
-  transform-style: preserve-3d;
 }
 .inputTextForm__qbxL0:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.inputTextForm__qbxL0 * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__qbxL0Ko3Kh:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__qbxL0Ko3Kh * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__multiLineText__qbxL0RgBtF:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__multiLineText__qbxL0RgBtF * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__singleLineText__qbxL05VFan:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__singleLineText__qbxL05VFan * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_username__qbxL03UQvi:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_username__qbxL03UQvi * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_companyname__qbxL0YQu0E:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_companyname__qbxL0YQu0E * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownText__qbxL0HRwL0:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownText__qbxL0HRwL0 * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__qbxL0L2Zus:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__qbxL0L2Zus * {
-  transform-style: preserve-3d;
-}
-.text__uu0Bz {
-  transform-style: preserve-3d;
-}
-.text__uu0Bz * {
-  transform-style: preserve-3d;
-}
-.text__c6Bs {
-  transform-style: preserve-3d;
-}
-.text__c6Bs * {
-  transform-style: preserve-3d;
 }
 .textMultiLineA:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.textMultiLineA * {
-  transform-style: preserve-3d;
 }
 .textMultiLineA__multiLineText:global(.__wab_instance) {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.textMultiLineA__multiLineText * {
-  transform-style: preserve-3d;
-}
-.text__bGn9K {
-  transform-style: preserve-3d;
-}
-.text__bGn9K * {
-  transform-style: preserve-3d;
 }
 .inputTextForm__x0DYe:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.inputTextForm__x0DYe * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__x0DYeko3Kh:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_displayText__x0DYeko3Kh * {
-  transform-style: preserve-3d;
 }
 .inputTextForm__inputType_dropdownText__x0DYEhRwL0:global(.__wab_instance) {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownText__x0DYEhRwL0 * {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__x0DYEl2Zus:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.inputTextForm__inputType_dropdownDropdown__x0DYEl2Zus * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlotLabel * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlotLabel > *,
-.slotTargetSlotLabel > .__wab_slot > *,
-.slotTargetSlotLabel > .__wab_slot > .__wab_slot > *,
-.slotTargetSlotLabel > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlotLabel > picture > img,
-.slotTargetSlotLabel > .__wab_slot > picture > img,
-.slotTargetSlotLabel > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlotLabel > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
 }
 .slotTargetSlotLabel__inputType_dropdownText {
   font-weight: 500;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
-}
-.slotTargetSlotLabel__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlotLabel__inputType_dropdownText > *,
-.slotTargetSlotLabel__inputType_dropdownText > .__wab_slot > *,
-.slotTargetSlotLabel__inputType_dropdownText > .__wab_slot > .__wab_slot > *,
-.slotTargetSlotLabel__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlotLabel__inputType_dropdownText > picture > img,
-.slotTargetSlotLabel__inputType_dropdownText > .__wab_slot > picture > img,
-.slotTargetSlotLabel__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSlotLabel__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__lJmUm {
-  transform-style: preserve-3d;
-}
-.text__lJmUm * {
-  transform-style: preserve-3d;
-}
-.text__inputType_dropdownText__lJmUmhRwL0 {
-  transform-style: preserve-3d;
-}
-.text__inputType_dropdownText__lJmUmhRwL0 * {
-  transform-style: preserve-3d;
-}
-.text__aKv8 {
-  transform-style: preserve-3d;
-}
-.text__aKv8 * {
-  transform-style: preserve-3d;
 }
 .inputTextContainer {
   display: flex;
   position: relative;
   width: 360px;
   height: 96px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inputTextContainer * {
-  transform-style: preserve-3d;
 }
 .inputTextContainer__multiLineText {
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.inputTextContainer__multiLineText * {
-  transform-style: preserve-3d;
 }
 .inputTextContainer__singleLineText {
   width: 100%;
@@ -1231,33 +439,21 @@
   align-self: center;
   align-items: center;
   justify-content: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.inputTextContainer__singleLineText * {
-  transform-style: preserve-3d;
 }
 .singleLineTextContainerParent {
   display: flex;
   position: relative;
   width: 180px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.singleLineTextContainerParent * {
-  transform-style: preserve-3d;
 }
 .singleLineTextContainerParent__singleLineText {
   width: 100%;
   align-self: center;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.singleLineTextContainerParent__singleLineText * {
-  transform-style: preserve-3d;
 }
 .textInput__dZu8N {
   align-self: auto;
@@ -1277,12 +473,8 @@
   border-top-right-radius: 2px;
   border-top-left-radius: 2px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   border-style: solid;
-}
-.textInput__dZu8N * {
-  transform-style: preserve-3d;
 }
 .urlTextParent {
   display: flex;
@@ -1296,11 +488,7 @@
   padding-right: 4px;
   height: 32px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.urlTextParent * {
-  transform-style: preserve-3d;
 }
 .urlTextParent__inputType_username {
   width: auto;
@@ -1308,55 +496,31 @@
   top: auto;
   height: 100%;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-height: 0;
   padding: 0px 8px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.urlTextParent__inputType_username * {
-  transform-style: preserve-3d;
-}
 .urlTextParent__inputType_dropdownText {
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
-}
-.urlTextParent__inputType_dropdownText * {
-  transform-style: preserve-3d;
 }
 .text {
   height: auto;
   width: auto;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
-  transform-style: preserve-3d;
-}
-.text * {
-  transform-style: preserve-3d;
 }
 .text__inputType_username {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__inputType_username * {
-  transform-style: preserve-3d;
 }
 .textInput__tzwN1 {
   position: relative;
   width: 180px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.textInput__tzwN1 * {
-  transform-style: preserve-3d;
 }
 .textInput__inputType_username__tzwN13UQvi {
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.textInput__inputType_username__tzwN13UQvi * {
-  transform-style: preserve-3d;
 }
 .inputTextParent {
   display: flex;
@@ -1364,27 +528,15 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.inputTextParent * {
-  transform-style: preserve-3d;
 }
 .inputTextParent__inputType_username {
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
-.inputTextParent__inputType_username * {
-  transform-style: preserve-3d;
-}
 .textInput__s9G9K {
   width: 180px;
-  transform-style: preserve-3d;
-}
-.textInput__s9G9K * {
-  transform-style: preserve-3d;
 }
 .textInput__inputType_username__s9G9K3UQvi {
   width: 100%;
@@ -1395,7 +547,6 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   border-top-right-radius: 2px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   padding: 0px 0px 0px 8px;
@@ -1403,9 +554,6 @@
   border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
   border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
   border-left: 1px none #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.textInput__inputType_username__s9G9K3UQvi * {
-  transform-style: preserve-3d;
 }
 .freeBox__ucpw3 {
   display: flex;
@@ -1419,11 +567,7 @@
   padding-right: 4px;
   height: 32px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
-}
-.freeBox__ucpw3 * {
-  transform-style: preserve-3d;
 }
 .freeBox__inputType_companyname__ucpw3YQu0E {
   width: auto;
@@ -1432,79 +576,20 @@
   left: auto;
   top: auto;
   background: #ffffff;
-  transform-style: preserve-3d;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.freeBox__inputType_companyname__ucpw3YQu0E * {
-  transform-style: preserve-3d;
 }
 .freeBox__ti2Dh {
   display: flex;
   position: relative;
   height: auto;
   width: auto;
-  transform-style: preserve-3d;
-}
-.freeBox__ti2Dh * {
-  transform-style: preserve-3d;
-}
-.freeBox__inputType_companyname__ti2DhyQu0E {
-  transform-style: preserve-3d;
-}
-.freeBox__inputType_companyname__ti2DhyQu0E * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot2 {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetSlot2 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2 > *,
-.slotTargetSlot2 > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > picture > img,
-.slotTargetSlot2 > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
 .slotTargetSlot2__inputType_companyname {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   font-size: 14px;
-}
-.slotTargetSlot2__inputType_companyname * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2__inputType_companyname > *,
-.slotTargetSlot2__inputType_companyname > .__wab_slot > *,
-.slotTargetSlot2__inputType_companyname > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetSlot2__inputType_companyname > picture > img,
-.slotTargetSlot2__inputType_companyname > .__wab_slot > picture > img,
-.slotTargetSlot2__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetSlot2__inputType_companyname
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__fk7Ds {
-  transform-style: preserve-3d;
-}
-.text__fk7Ds * {
-  transform-style: preserve-3d;
 }
 .inputUrlTextParent {
   display: flex;
@@ -1512,29 +597,17 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.inputUrlTextParent * {
-  transform-style: preserve-3d;
 }
 .inputUrlTextParent__inputType_companyname {
   width: 100%;
   height: 32px;
   align-items: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   border-width: 1px;
   border-style: none;
 }
-.inputUrlTextParent__inputType_companyname * {
-  transform-style: preserve-3d;
-}
 .textInput__pm7Dz {
   width: 180px;
-  transform-style: preserve-3d;
-}
-.textInput__pm7Dz * {
-  transform-style: preserve-3d;
 }
 .textInput__inputType_companyname__pm7DzYQu0E {
   width: 100%;
@@ -1545,16 +618,12 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   border-top-right-radius: 2px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   padding: 0px 0px 0px 8px;
   border-top: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
   border-right: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
   border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.textInput__inputType_companyname__pm7DzYQu0E * {
-  transform-style: preserve-3d;
 }
 .textParent {
   display: flex;
@@ -1564,44 +633,22 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.textParent * {
-  transform-style: preserve-3d;
 }
 .textParent__multiLineText {
   top: auto;
   left: auto;
   width: 540px;
-  transform-style: preserve-3d;
-}
-.textParent__multiLineText * {
-  transform-style: preserve-3d;
 }
 .inputMultiLineTextParent {
   display: flex;
   position: relative;
   width: 360px;
   height: 96px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.inputMultiLineTextParent * {
-  transform-style: preserve-3d;
 }
 .inputMultiLineTextParent__multiLineText {
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.inputMultiLineTextParent__multiLineText * {
-  transform-style: preserve-3d;
-}
-.inputMultiLineTextParent__singleLineText {
-  transform-style: preserve-3d;
-}
-.inputMultiLineTextParent__singleLineText * {
-  transform-style: preserve-3d;
 }
 .textarea___4QXp {
   width: 100%;
@@ -1609,14 +656,10 @@
   height: auto;
   font-size: 14px;
   background: #f8f8f8;
-  transform-style: preserve-3d;
   min-width: 0;
   border-radius: 2px;
   padding: 4px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.textarea___4QXp * {
-  transform-style: preserve-3d;
 }
 .descriptionCard {
   display: flex;
@@ -1626,7 +669,6 @@
   height: 64px;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   min-width: 0;
   flex-shrink: 0;
   padding: 16px;
@@ -1638,9 +680,6 @@
   min-width: 0;
   margin-left: calc(0px - 64px);
   width: calc(100% + 64px);
-}
-.descriptionCard * {
-  transform-style: preserve-3d;
 }
 .descriptionCard > :global(.__wab_flex-container) > *,
 .descriptionCard > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -1654,44 +693,12 @@
 }
 .descriptionCard__subDescription {
   align-self: auto;
-  transform-style: preserve-3d;
 }
 .descriptionCard__subDescription > :global(.__wab_flex-container) {
   justify-content: flex-end;
 }
-.descriptionCard__subDescription * {
-  transform-style: preserve-3d;
-}
-.descriptionCard__singleLineText {
-  transform-style: preserve-3d;
-}
-.descriptionCard__singleLineText * {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_username {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_username * {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_companyname {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_companyname * {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_dropdownText {
-  transform-style: preserve-3d;
-}
-.descriptionCard__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
 .descriptionCard__button_subDescription {
-  transform-style: preserve-3d;
   display: none;
-}
-.descriptionCard__button_subDescription * {
-  transform-style: preserve-3d;
 }
 .descriptionParent {
   display: flex;
@@ -1699,17 +706,9 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.descriptionParent * {
-  transform-style: preserve-3d;
 }
 .descriptionParent__subDescription {
-  transform-style: preserve-3d;
   display: none;
-}
-.descriptionParent__subDescription * {
-  transform-style: preserve-3d;
 }
 .slotTargetDescription {
   font-size: 14px;
@@ -1719,174 +718,24 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
-.slotTargetDescription * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription > *,
-.slotTargetDescription > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription > picture > img,
-.slotTargetDescription > .__wab_slot > picture > img,
-.slotTargetDescription > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__inputType_displayText * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__inputType_displayText > *,
-.slotTargetDescription__inputType_displayText > .__wab_slot > *,
-.slotTargetDescription__inputType_displayText > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription__inputType_displayText > picture > img,
-.slotTargetDescription__inputType_displayText > .__wab_slot > picture > img,
-.slotTargetDescription__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetDescription__inputType_displayText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__subDescription * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__subDescription > *,
-.slotTargetDescription__subDescription > .__wab_slot > *,
-.slotTargetDescription__subDescription > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription__subDescription > picture > img,
-.slotTargetDescription__subDescription > .__wab_slot > picture > img,
-.slotTargetDescription__subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetDescription__subDescription
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__multiLineText * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__multiLineText > *,
-.slotTargetDescription__multiLineText > .__wab_slot > *,
-.slotTargetDescription__multiLineText > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription__multiLineText > picture > img,
-.slotTargetDescription__multiLineText > .__wab_slot > picture > img,
-.slotTargetDescription__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetDescription__multiLineText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__inputType_dropdownText * {
-  transform-style: preserve-3d;
-}
-.slotTargetDescription__inputType_dropdownText > *,
-.slotTargetDescription__inputType_dropdownText > .__wab_slot > *,
-.slotTargetDescription__inputType_dropdownText > .__wab_slot > .__wab_slot > *,
-.slotTargetDescription__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.slotTargetDescription__inputType_dropdownText > picture > img,
-.slotTargetDescription__inputType_dropdownText > .__wab_slot > picture > img,
-.slotTargetDescription__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img,
-.slotTargetDescription__inputType_dropdownText
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___2TUEk {
-  transform-style: preserve-3d;
-}
-.text___2TUEk * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary:global(.__wab_instance) {
   position: relative;
   left: auto;
   top: auto;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
-.buttonPrimary * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary__button:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
   display: none;
 }
-.buttonPrimary__button * {
-  transform-style: preserve-3d;
-}
 .buttonPrimary__subDescription:global(.__wab_instance) {
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.buttonPrimary__subDescription * {
-  transform-style: preserve-3d;
-}
-.text__zOpFf {
-  transform-style: preserve-3d;
-}
-.text__zOpFf * {
-  transform-style: preserve-3d;
 }
 .svg__ac1Fb {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.svg__ac1Fb * {
-  transform-style: preserve-3d;
 }

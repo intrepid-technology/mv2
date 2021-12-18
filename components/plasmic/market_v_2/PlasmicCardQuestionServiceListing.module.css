@@ -4,7 +4,6 @@
   width: 360px;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -13,20 +12,11 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 8px;
-}
-.root__subhead {
-  transform-style: preserve-3d;
-}
-.root__subhead * {
-  transform-style: preserve-3d;
 }
 .freeBox__a1RRl {
   position: relative;
@@ -34,32 +24,12 @@
   top: auto;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox__a1RRl * {
-  transform-style: preserve-3d;
-}
-.freeBox__overline__a1RRl6KuDi {
-  transform-style: preserve-3d;
-}
-.freeBox__overline__a1RRl6KuDi * {
-  transform-style: preserve-3d;
 }
 .freeBox__jUhaa {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox__jUhaa * {
-  transform-style: preserve-3d;
-}
-.freeBox__overline__jUhaa6KuDi {
-  transform-style: preserve-3d;
-}
-.freeBox__overline__jUhaa6KuDi * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot {
   font-size: 12px;
@@ -70,43 +40,6 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   text-transform: uppercase;
 }
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__overline * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot__overline > *,
-.slotTargetSlot__overline > .__wab_slot > *,
-.slotTargetSlot__overline > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__overline > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot__overline > picture > img,
-.slotTargetSlot__overline > .__wab_slot > picture > img,
-.slotTargetSlot__overline > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot__overline
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__agOws {
-  transform-style: preserve-3d;
-}
-.text__agOws * {
-  transform-style: preserve-3d;
-}
 .freeBox__dddfs {
   left: auto;
   top: auto;
@@ -115,11 +48,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__dddfs * {
-  transform-style: preserve-3d;
 }
 .freeBox__ibtEe {
   display: flex;
@@ -127,11 +56,7 @@
   position: relative;
   flex-direction: column;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__ibtEe * {
-  transform-style: preserve-3d;
 }
 .slotTargetChildren {
   font-size: 24px;
@@ -142,25 +67,6 @@
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   text-transform: none;
 }
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__tnj9I {
-  transform-style: preserve-3d;
-}
-.text__tnj9I * {
-  transform-style: preserve-3d;
-}
 .freeBox__lIIbI {
   display: flex;
   position: relative;
@@ -168,17 +74,7 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox__lIIbI * {
-  transform-style: preserve-3d;
-}
-.freeBox__subhead__lIIbIrfWuK {
-  transform-style: preserve-3d;
-}
-.freeBox__subhead__lIIbIrfWuK * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot2 {
   font-size: 14px;
@@ -187,41 +83,4 @@
   letter-spacing: normal;
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
-}
-.slotTargetSlot2 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2 > *,
-.slotTargetSlot2 > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2 > picture > img,
-.slotTargetSlot2 > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2__subhead * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot2__subhead > *,
-.slotTargetSlot2__subhead > .__wab_slot > *,
-.slotTargetSlot2__subhead > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2__subhead > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot2__subhead > picture > img,
-.slotTargetSlot2__subhead > .__wab_slot > picture > img,
-.slotTargetSlot2__subhead > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot2__subhead
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text___6Hsl5 {
-  transform-style: preserve-3d;
-}
-.text___6Hsl5 * {
-  transform-style: preserve-3d;
 }

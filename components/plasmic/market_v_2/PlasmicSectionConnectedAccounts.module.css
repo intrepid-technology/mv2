@@ -4,7 +4,6 @@
   width: auto;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -12,9 +11,6 @@
   justify-content: space-evenly;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
-}
-.parent * {
-  transform-style: preserve-3d;
 }
 .parent > :global(.__wab_flex-container) > *,
 .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -26,150 +22,34 @@
   > img {
   margin-top: 20px;
 }
-.parent__closed {
-  transform-style: preserve-3d;
-}
-.parent__closed * {
-  transform-style: preserve-3d;
-}
-.parent__visible_google {
-  transform-style: preserve-3d;
-}
-.parent__visible_google * {
-  transform-style: preserve-3d;
-}
 .parent__border {
-  transform-style: preserve-3d;
   border-radius: 2px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
-}
-.parent__border * {
-  transform-style: preserve-3d;
 }
 .personalLoginConnectionAccounts:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.personalLoginConnectionAccounts * {
-  transform-style: preserve-3d;
-}
-.text__bbBVc {
-  transform-style: preserve-3d;
-}
-.text__bbBVc * {
-  transform-style: preserve-3d;
-}
-.text__iSbXd {
-  transform-style: preserve-3d;
-}
-.text__iSbXd * {
-  transform-style: preserve-3d;
-}
-.text___6OMt7 {
-  transform-style: preserve-3d;
-}
-.text___6OMt7 * {
-  transform-style: preserve-3d;
 }
 .personalConnectedGoogleAccount:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.personalConnectedGoogleAccount * {
-  transform-style: preserve-3d;
-}
-.personalConnectedGoogleAccount__closed:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.personalConnectedGoogleAccount__closed * {
-  transform-style: preserve-3d;
-}
-.personalConnectedGoogleAccount__visible_facebook:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.personalConnectedGoogleAccount__visible_facebook * {
-  transform-style: preserve-3d;
-}
-.text___68KfW {
-  transform-style: preserve-3d;
-}
-.text___68KfW * {
-  transform-style: preserve-3d;
 }
 .text__vyrJr {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__vyrJr * {
-  transform-style: preserve-3d;
 }
 .text__c84HQ {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__c84HQ * {
-  transform-style: preserve-3d;
-}
-.text__eiJcf {
-  transform-style: preserve-3d;
-}
-.text__eiJcf * {
-  transform-style: preserve-3d;
 }
 .personalConnectedFacebookAccount:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount * {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__closed:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__closed * {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__visible_google:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__visible_google * {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__visible_facebook:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.personalConnectedFacebookAccount__visible_facebook * {
-  transform-style: preserve-3d;
-}
-.text__lyTn {
-  transform-style: preserve-3d;
-}
-.text__lyTn * {
-  transform-style: preserve-3d;
 }
 .text__zhjMw {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__zhjMw * {
-  transform-style: preserve-3d;
 }
 .text__eJkr2 {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.text__eJkr2 * {
-  transform-style: preserve-3d;
-}
-.text__arvE3 {
-  transform-style: preserve-3d;
-}
-.text__arvE3 * {
-  transform-style: preserve-3d;
 }

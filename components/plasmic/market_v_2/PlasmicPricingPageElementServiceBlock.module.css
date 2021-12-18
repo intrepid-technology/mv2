@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 0px;
 }
@@ -15,9 +14,6 @@
   min-width: 0;
   margin-top: calc(0px - 12px);
   height: calc(100% + 12px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,20 +27,12 @@
   top: auto;
   display: flex;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox__fYLa5 * {
-  transform-style: preserve-3d;
 }
 .freeBox__puBl3 {
   display: flex;
   align-self: stretch;
   position: relative;
   flex-direction: column;
-  transform-style: preserve-3d;
-}
-.freeBox__puBl3 * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot6 {
   font-size: 10px;
@@ -55,174 +43,30 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   text-transform: uppercase;
 }
-.slotTargetSlot6 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot6 > *,
-.slotTargetSlot6 > .__wab_slot > *,
-.slotTargetSlot6 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot6 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot6 > picture > img,
-.slotTargetSlot6 > .__wab_slot > picture > img,
-.slotTargetSlot6 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot6 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__zn2Ej {
-  transform-style: preserve-3d;
-}
-.text__zn2Ej * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementPercentValueBold:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementPercentValueBold * {
-  transform-style: preserve-3d;
-}
-.text__ufcPi {
-  transform-style: preserve-3d;
-}
-.text__ufcPi * {
-  transform-style: preserve-3d;
-}
-.text__hy5Nu {
-  transform-style: preserve-3d;
-}
-.text__hy5Nu * {
-  transform-style: preserve-3d;
-}
-.text__riRvS {
-  transform-style: preserve-3d;
-}
-.text__riRvS * {
-  transform-style: preserve-3d;
-}
 .svg__hgWzK {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__hgWzK * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementPercentValue:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementPercentValue * {
-  transform-style: preserve-3d;
 }
 .slotTargetSlot4 {
   font-weight: 600;
-}
-.slotTargetSlot4 * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot4 > *,
-.slotTargetSlot4 > .__wab_slot > *,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot4 > picture > img,
-.slotTargetSlot4 > .__wab_slot > picture > img,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot4 > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text___3X8M {
-  transform-style: preserve-3d;
-}
-.text___3X8M * {
-  transform-style: preserve-3d;
-}
-.text__fnJb4 {
-  transform-style: preserve-3d;
-}
-.text__fnJb4 * {
-  transform-style: preserve-3d;
-}
-.text__pktSb {
-  transform-style: preserve-3d;
-}
-.text__pktSb * {
-  transform-style: preserve-3d;
 }
 .svg__xB6Zp {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__xB6Zp * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementNumberValue__jdTps:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementNumberValue__jdTps * {
-  transform-style: preserve-3d;
-}
-.text__j2NZ5 {
-  transform-style: preserve-3d;
-}
-.text__j2NZ5 * {
-  transform-style: preserve-3d;
-}
-.text__shOfy {
-  transform-style: preserve-3d;
-}
-.text__shOfy * {
-  transform-style: preserve-3d;
-}
-.text__zDkNl {
-  transform-style: preserve-3d;
-}
-.text__zDkNl * {
-  transform-style: preserve-3d;
 }
 .svg___8SYou {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg___8SYou * {
-  transform-style: preserve-3d;
-}
-.tablePricingElementNumberValue__mKizU:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.tablePricingElementNumberValue__mKizU * {
-  transform-style: preserve-3d;
-}
-.text__l7CCh {
-  transform-style: preserve-3d;
-}
-.text__l7CCh * {
-  transform-style: preserve-3d;
-}
-.text__qHLcX {
-  transform-style: preserve-3d;
-}
-.text__qHLcX * {
-  transform-style: preserve-3d;
-}
-.text__bxTrI {
-  transform-style: preserve-3d;
-}
-.text__bxTrI * {
-  transform-style: preserve-3d;
 }
 .svg__xGsUp {
   object-fit: cover;
   width: 16px;
   height: 16px;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
-  transform-style: preserve-3d;
-}
-.svg__xGsUp * {
-  transform-style: preserve-3d;
 }

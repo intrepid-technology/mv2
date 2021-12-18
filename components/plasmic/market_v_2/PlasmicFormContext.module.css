@@ -4,8 +4,4 @@
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }

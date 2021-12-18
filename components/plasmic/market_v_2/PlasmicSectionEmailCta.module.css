@@ -5,7 +5,6 @@
   height: auto;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
   padding: 40px 180px;
 }
@@ -16,9 +15,6 @@
   min-width: 0;
   margin-top: calc(0px - 48px);
   height: calc(100% + 48px);
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -31,7 +27,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    transform-style: preserve-3d;
     min-width: 0;
     padding: 40px 180px;
   }
@@ -44,11 +39,6 @@
     min-width: 0;
     margin-left: calc(0px - 0px);
     width: calc(100% + 0px);
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -67,12 +57,6 @@
   .root {
     padding-right: 16px;
     padding-left: 16px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 .headlineParent {
@@ -89,11 +73,7 @@
   margin-right: 0px;
   margin-left: 0px;
   justify-content: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.headlineParent * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .headlineParent {
@@ -109,25 +89,13 @@
     margin-left: calc(0px + 0px) !important;
     flex-direction: column;
     flex-column-gap: 0px;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .headlineParent * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .headlineParent {
-    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
     margin-top: calc(0px + 48px) !important;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .headlineParent * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox___5Q18D {
@@ -139,11 +107,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.freeBox___5Q18D * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox___5Q18D {
@@ -151,22 +115,6 @@
     align-self: flex-start;
     flex-direction: column;
     flex-column-gap: 0px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox___5Q18D * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox___5Q18D {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .freeBox___5Q18D * {
-    transform-style: preserve-3d;
   }
 }
 .slotTargetSlot {
@@ -177,19 +125,6 @@
   line-height: 1.4;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   text-align: center;
-}
-.slotTargetSlot * {
-  transform-style: preserve-3d;
-}
-.slotTargetSlot > *,
-.slotTargetSlot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetSlot > picture > img,
-.slotTargetSlot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .slotTargetSlot {
@@ -202,23 +137,6 @@
     text-align: center;
   }
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .slotTargetSlot * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .slotTargetSlot > *,
-  .slotTargetSlot > .__wab_slot > *,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > *,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-  .slotTargetSlot > picture > img,
-  .slotTargetSlot > .__wab_slot > picture > img,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .slotTargetSlot {
     font-size: 32px;
@@ -228,29 +146,6 @@
     line-height: 1.4;
     color: #101010 /* plasmic-token: 6OoG_pvkg */;
   }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .slotTargetSlot * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .slotTargetSlot > *,
-  .slotTargetSlot > .__wab_slot > *,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > *,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
-  .slotTargetSlot > picture > img,
-  .slotTargetSlot > .__wab_slot > picture > img,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
-  .slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-    transform-style: preserve-3d;
-  }
-}
-.text__bSjMg {
-  transform-style: preserve-3d;
-}
-.text__bSjMg * {
-  transform-style: preserve-3d;
 }
 .subheadParent {
   position: relative;
@@ -267,10 +162,6 @@
   margin-right: 0px;
   margin-left: 0px;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.subheadParent * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .subheadParent {
@@ -279,29 +170,17 @@
     left: auto;
     top: auto;
     justify-content: flex-start;
-    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
     margin-top: calc(0px + 48px) !important;
     padding: 0px;
   }
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .subheadParent * {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .subheadParent {
     width: 100%;
-    transform-style: preserve-3d;
     margin-left: calc(0px + 0px) !important;
     margin-top: calc(0px + 48px) !important;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .subheadParent * {
-    transform-style: preserve-3d;
   }
 }
 .freeBox__zmpJ9 {
@@ -313,12 +192,8 @@
   align-items: center;
   justify-content: flex-start;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
-}
-.freeBox__zmpJ9 * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .freeBox__zmpJ9 {
@@ -327,13 +202,7 @@
     align-self: center;
     width: 100%;
     height: auto;
-    transform-style: preserve-3d;
     min-width: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__zmpJ9 * {
-    transform-style: preserve-3d;
   }
 }
 .slotTargetChildren {
@@ -344,19 +213,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   text-align: center;
-}
-.slotTargetChildren * {
-  transform-style: preserve-3d;
-}
-.slotTargetChildren > *,
-.slotTargetChildren > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetChildren > picture > img,
-.slotTargetChildren > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .slotTargetChildren {
@@ -369,87 +225,13 @@
     text-align: center;
   }
 }
-@media (min-width: 0px) and (max-width: 1440px) {
-  .slotTargetChildren * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .slotTargetChildren > *,
-  .slotTargetChildren > .__wab_slot > *,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > *,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-  .slotTargetChildren > picture > img,
-  .slotTargetChildren > .__wab_slot > picture > img,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-  .slotTargetChildren
-    > .__wab_slot
-    > .__wab_slot
-    > .__wab_slot
-    > picture
-    > img {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .slotTargetChildren {
     font-size: 14px;
     line-height: 1.4;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .slotTargetChildren * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .slotTargetChildren > *,
-  .slotTargetChildren > .__wab_slot > *,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > *,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > *,
-  .slotTargetChildren > picture > img,
-  .slotTargetChildren > .__wab_slot > picture > img,
-  .slotTargetChildren > .__wab_slot > .__wab_slot > picture > img,
-  .slotTargetChildren
-    > .__wab_slot
-    > .__wab_slot
-    > .__wab_slot
-    > picture
-    > img {
-    transform-style: preserve-3d;
-  }
-}
-.text__y7Yu1 {
-  transform-style: preserve-3d;
-}
-.text__y7Yu1 * {
-  transform-style: preserve-3d;
-}
 .inputEmailA:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
   display: flex;
-}
-.inputEmailA * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .inputEmailA:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .inputEmailA * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inputEmailA:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .inputEmailA * {
-    transform-style: preserve-3d;
-  }
 }

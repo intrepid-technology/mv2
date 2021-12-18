@@ -7,7 +7,6 @@
   padding-left: 8px;
   position: relative;
   background: #ffffff;
-  transform-style: preserve-3d;
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -16,78 +15,28 @@
   justify-content: space-between;
   min-width: 0;
 }
-.root * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
 @media (min-width: 0px) and (max-width: 428px) {
   .root > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
   }
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 414px) {
-  .root {
-    transform-style: preserve-3d;
-  }
-}
 @media (max-width: 414px) {
   .root > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
-  }
-}
-@media (max-width: 414px) {
-  .root * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .root {
     padding-left: 0px;
     padding-right: 0px;
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .root > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
-  }
-}
-@media (max-width: 375px) {
-  .root * {
-    transform-style: preserve-3d;
-  }
-}
-.root__auth {
-  transform-style: preserve-3d;
-}
-.root__auth * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root__auth {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -96,11 +45,6 @@
     width: calc(100% + 16px);
     margin-top: calc(0px - 0px);
     height: calc(100% + 0px);
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .root__auth * {
-    transform-style: preserve-3d;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -118,7 +62,6 @@
 }
 @media (max-width: 375px) {
   .root__auth {
-    transform-style: preserve-3d;
     padding: 0px 8px;
   }
 }
@@ -128,11 +71,6 @@
     width: calc(100% + 16px);
     margin-top: calc(0px - 0px);
     height: calc(100% + 0px);
-  }
-}
-@media (max-width: 375px) {
-  .root__auth * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
@@ -150,16 +88,11 @@
 }
 .root__dark {
   background: #101010;
-  transform-style: preserve-3d;
-}
-.root__dark * {
-  transform-style: preserve-3d;
 }
 .brandWrapper {
   display: flex;
   position: relative;
   flex-direction: row;
-  transform-style: preserve-3d;
 }
 .brandWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -167,9 +100,6 @@
   justify-content: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.brandWrapper * {
-  transform-style: preserve-3d;
 }
 .brandWrapper > :global(.__wab_flex-container) > *,
 .brandWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -182,35 +112,9 @@
   margin-left: 16px;
 }
 @media (max-width: 414px) {
-  .brandWrapper {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 414px) {
   .brandWrapper > :global(.__wab_flex-container) {
     align-items: center;
     justify-content: center;
-  }
-}
-@media (max-width: 414px) {
-  .brandWrapper * {
-    transform-style: preserve-3d;
-  }
-}
-.brandWrapper__auth {
-  transform-style: preserve-3d;
-}
-.brandWrapper__auth * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .brandWrapper__auth {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .brandWrapper__auth * {
-    transform-style: preserve-3d;
   }
 }
 .iconWrapper {
@@ -222,28 +126,10 @@
   width: 24px;
   height: 24px;
   align-self: flex-start;
-  transform-style: preserve-3d;
   flex-shrink: 0;
 }
-.iconWrapper * {
-  transform-style: preserve-3d;
-}
 .iconWrapper__auth {
-  transform-style: preserve-3d;
   display: flex;
-}
-.iconWrapper__auth * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .iconWrapper__auth {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .iconWrapper__auth * {
-    transform-style: preserve-3d;
-  }
 }
 .menuIcon {
   position: relative;
@@ -252,57 +138,18 @@
   width: 100%;
   height: 100%;
   align-self: flex-start;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
-.menuIcon * {
-  transform-style: preserve-3d;
-}
-.navbarLogo:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.navbarLogo * {
-  transform-style: preserve-3d;
-}
-.navbarLogo__auth:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.navbarLogo__auth * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .navbarLogo__auth:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .navbarLogo__auth * {
-    transform-style: preserve-3d;
-  }
-}
 @media (max-width: 375px) {
   .navbarLogo__auth:global(.__wab_instance) {
-    transform-style: preserve-3d;
     display: none;
   }
-}
-@media (max-width: 375px) {
-  .navbarLogo__auth * {
-    transform-style: preserve-3d;
-  }
-}
-.navbarLogo__dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.navbarLogo__dark * {
-  transform-style: preserve-3d;
 }
 .actionWrapper {
   display: flex;
   position: relative;
   flex-direction: row;
-  transform-style: preserve-3d;
 }
 .actionWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -310,9 +157,6 @@
   justify-content: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
-}
-.actionWrapper * {
-  transform-style: preserve-3d;
 }
 .actionWrapper > :global(.__wab_flex-container) > *,
 .actionWrapper > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -324,178 +168,36 @@
   > img {
   margin-left: 16px;
 }
-@media (min-width: 0px) and (max-width: 428px) {
-  .actionWrapper {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .actionWrapper * {
-    transform-style: preserve-3d;
-  }
-}
 @media (max-width: 414px) {
   .actionWrapper {
-    transform-style: preserve-3d;
     display: none;
   }
 }
-@media (max-width: 414px) {
-  .actionWrapper * {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .actionWrapper {
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .actionWrapper * {
-    transform-style: preserve-3d;
-  }
-}
-.actionWrapper__auth {
-  transform-style: preserve-3d;
-}
-.actionWrapper__auth * {
-  transform-style: preserve-3d;
-}
 .sellOnIntrepidButton:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.sellOnIntrepidButton * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .sellOnIntrepidButton:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .sellOnIntrepidButton * {
-    transform-style: preserve-3d;
-  }
-}
-.sellOnIntrepidButton__dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.sellOnIntrepidButton__dark * {
-  transform-style: preserve-3d;
 }
 .text__uRxVz {
   white-space: pre;
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__uRxVz * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__uRxVz {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__uRxVz * {
-    transform-style: preserve-3d;
-  }
-}
-.text__dark__uRxVz4SuRb {
-  transform-style: preserve-3d;
-}
-.text__dark__uRxVz4SuRb * {
-  transform-style: preserve-3d;
 }
 .pricingNavButton:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.pricingNavButton * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .pricingNavButton:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .pricingNavButton * {
-    transform-style: preserve-3d;
-  }
-}
-.pricingNavButton__dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.pricingNavButton__dark * {
-  transform-style: preserve-3d;
 }
 .text__hQevM {
   white-space: pre;
   font-size: 14px;
-  transform-style: preserve-3d;
-}
-.text__hQevM * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__hQevM {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__hQevM * {
-    transform-style: preserve-3d;
-  }
-}
-.text__dark__hQevM4SuRb {
-  transform-style: preserve-3d;
-}
-.text__dark__hQevM4SuRb * {
-  transform-style: preserve-3d;
 }
 .partnerButton:global(.__wab_instance) {
   position: relative;
   height: 40px;
-  transform-style: preserve-3d;
-}
-.partnerButton * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .partnerButton:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .partnerButton * {
-    transform-style: preserve-3d;
-  }
-}
-.partnerButton__dark:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.partnerButton__dark * {
-  transform-style: preserve-3d;
 }
 .text__o407H {
   font-size: 16px;
   font-weight: 600;
-  transform-style: preserve-3d;
-}
-.text__o407H * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text__o407H {
     font-weight: 500;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .text__o407H * {
-    transform-style: preserve-3d;
   }
 }
 .searchInputWrapper {
@@ -506,35 +208,19 @@
   justify-content: center;
   width: 100%;
   max-width: 500px;
-  transform-style: preserve-3d;
   min-width: 0;
 }
-.searchInputWrapper * {
-  transform-style: preserve-3d;
-}
 .searchInputWrapper__auth {
-  transform-style: preserve-3d;
   display: flex;
-}
-.searchInputWrapper__auth * {
-  transform-style: preserve-3d;
 }
 .searchbarPrimary:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  transform-style: preserve-3d;
   display: none;
-}
-.searchbarPrimary * {
-  transform-style: preserve-3d;
 }
 .searchbarPrimary__auth:global(.__wab_instance) {
   align-self: auto;
-  transform-style: preserve-3d;
   display: flex;
-}
-.searchbarPrimary__auth * {
-  transform-style: preserve-3d;
 }
 .authActionsWrapper {
   display: flex;
@@ -542,40 +228,12 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: flex-start;
-  transform-style: preserve-3d;
-}
-.authActionsWrapper * {
-  transform-style: preserve-3d;
 }
 .authActionsWrapper__auth {
-  transform-style: preserve-3d;
   display: flex;
-}
-.authActionsWrapper__auth * {
-  transform-style: preserve-3d;
 }
 .avatar:global(.__wab_instance) {
   position: relative;
-  transform-style: preserve-3d;
-}
-.avatar * {
-  transform-style: preserve-3d;
-}
-.avatar__auth:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.avatar__auth * {
-  transform-style: preserve-3d;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .avatar__auth:global(.__wab_instance) {
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .avatar__auth * {
-    transform-style: preserve-3d;
-  }
 }
 .img {
   position: relative;
@@ -583,7 +241,6 @@
   max-width: 100%;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
   border-radius: 50%;
@@ -594,38 +251,19 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img * {
-  transform-style: preserve-3d;
-}
 .img__auth {
   width: 40px;
   height: 40px;
-  transform-style: preserve-3d;
-}
-.img__auth * {
-  transform-style: preserve-3d;
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .img__auth {
     min-width: 40px;
     min-height: 40px;
-    transform-style: preserve-3d;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .img__auth * {
-    transform-style: preserve-3d;
   }
 }
 @media (max-width: 375px) {
   .img__auth {
     min-width: 40px;
     min-height: 40px;
-    transform-style: preserve-3d;
-  }
-}
-@media (max-width: 375px) {
-  .img__auth * {
-    transform-style: preserve-3d;
   }
 }

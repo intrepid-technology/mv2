@@ -4,7 +4,6 @@
   width: auto;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -13,26 +12,11 @@
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
-.root * {
-  transform-style: preserve-3d;
-}
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 24px;
-}
-.root__size__360X360 {
-  transform-style: preserve-3d;
-}
-.root__size__360X360 * {
-  transform-style: preserve-3d;
-}
-.root__size__270X270 {
-  transform-style: preserve-3d;
-}
-.root__size__270X270 * {
-  transform-style: preserve-3d;
 }
 .imageParent {
   display: flex;
@@ -42,40 +26,11 @@
   justify-content: center;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.imageParent * {
-  transform-style: preserve-3d;
-}
-.imageParent__size__270X270 {
-  transform-style: preserve-3d;
-}
-.imageParent__size__270X270 * {
-  transform-style: preserve-3d;
-}
-.imagePrimary:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.imagePrimary * {
-  transform-style: preserve-3d;
-}
-.imagePrimary__size__360X360:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.imagePrimary__size__360X360 * {
-  transform-style: preserve-3d;
-}
-.imagePrimary__size__270X270:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.imagePrimary__size__270X270 * {
-  transform-style: preserve-3d;
 }
 .img__wiBu {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -85,14 +40,10 @@
 .img__wiBu > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__wiBu * {
-  transform-style: preserve-3d;
-}
 .img___5JznK {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -102,14 +53,10 @@
 .img___5JznK > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___5JznK * {
-  transform-style: preserve-3d;
-}
 .img__t3AMl {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -119,14 +66,10 @@
 .img__t3AMl > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__t3AMl * {
-  transform-style: preserve-3d;
-}
 .img__dnInQ {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -136,14 +79,10 @@
 .img__dnInQ > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__dnInQ * {
-  transform-style: preserve-3d;
-}
 .img__nL4UF {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -153,14 +92,10 @@
 .img__nL4UF > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__nL4UF * {
-  transform-style: preserve-3d;
-}
 .img__fowFh {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -170,14 +105,10 @@
 .img__fowFh > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__fowFh * {
-  transform-style: preserve-3d;
-}
 .img__sEvZ3 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -187,14 +118,10 @@
 .img__sEvZ3 > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__sEvZ3 * {
-  transform-style: preserve-3d;
-}
 .img___4X8Mj {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -204,14 +131,10 @@
 .img___4X8Mj > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___4X8Mj * {
-  transform-style: preserve-3d;
-}
 .img__f30B9 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -221,14 +144,10 @@
 .img__f30B9 > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__f30B9 * {
-  transform-style: preserve-3d;
-}
 .img__tkgid {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -238,14 +157,10 @@
 .img__tkgid > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__tkgid * {
-  transform-style: preserve-3d;
-}
 .img__xV2M8 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -255,14 +170,10 @@
 .img__xV2M8 > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__xV2M8 * {
-  transform-style: preserve-3d;
-}
 .img__tAiFn {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -272,14 +183,10 @@
 .img__tAiFn > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__tAiFn * {
-  transform-style: preserve-3d;
-}
 .img__uPr0D {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -289,14 +196,10 @@
 .img__uPr0D > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__uPr0D * {
-  transform-style: preserve-3d;
-}
 .img___8CjtB {
   object-fit: cover;
   width: 360px;
   height: 270px;
-  transform-style: preserve-3d;
 }
 .img___8CjtB > picture > img {
   object-fit: cover;
@@ -304,14 +207,10 @@
 .img___8CjtB > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___8CjtB * {
-  transform-style: preserve-3d;
-}
 .img__udNcg {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -321,14 +220,10 @@
 .img__udNcg > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__udNcg * {
-  transform-style: preserve-3d;
-}
 .img__iuIu {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -338,14 +233,10 @@
 .img__iuIu > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__iuIu * {
-  transform-style: preserve-3d;
-}
 .img__wPt3B {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -355,14 +246,10 @@
 .img__wPt3B > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__wPt3B * {
-  transform-style: preserve-3d;
-}
 .img__uYkm {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -372,14 +259,10 @@
 .img__uYkm > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__uYkm * {
-  transform-style: preserve-3d;
-}
 .img___4KnfM {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -389,14 +272,10 @@
 .img___4KnfM > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___4KnfM * {
-  transform-style: preserve-3d;
-}
 .img___5MA7T {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -406,14 +285,10 @@
 .img___5MA7T > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___5MA7T * {
-  transform-style: preserve-3d;
-}
 .img___2RQyE {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -423,14 +298,10 @@
 .img___2RQyE > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___2RQyE * {
-  transform-style: preserve-3d;
-}
 .img__qVagv {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -440,14 +311,10 @@
 .img__qVagv > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__qVagv * {
-  transform-style: preserve-3d;
-}
 .img__u4Qd7 {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -457,14 +324,10 @@
 .img__u4Qd7 > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__u4Qd7 * {
-  transform-style: preserve-3d;
-}
 .img__kn0Zq {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -474,14 +337,10 @@
 .img__kn0Zq > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__kn0Zq * {
-  transform-style: preserve-3d;
-}
 .img__u9OvY {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -491,14 +350,10 @@
 .img__u9OvY > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__u9OvY * {
-  transform-style: preserve-3d;
-}
 .img__ddQwa {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -508,14 +363,10 @@
 .img__ddQwa > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__ddQwa * {
-  transform-style: preserve-3d;
-}
 .img__tegpq {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -525,14 +376,10 @@
 .img__tegpq > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__tegpq * {
-  transform-style: preserve-3d;
-}
 .img__s2HHy {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -542,14 +389,10 @@
 .img__s2HHy > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__s2HHy * {
-  transform-style: preserve-3d;
-}
 .img__yzxVq {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -559,14 +402,10 @@
 .img__yzxVq > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__yzxVq * {
-  transform-style: preserve-3d;
-}
 .img__amEzp {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -576,14 +415,10 @@
 .img__amEzp > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__amEzp * {
-  transform-style: preserve-3d;
-}
 .img__vu2RF {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -593,14 +428,10 @@
 .img__vu2RF > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__vu2RF * {
-  transform-style: preserve-3d;
-}
 .img__o1GM {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -610,14 +441,10 @@
 .img__o1GM > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__o1GM * {
-  transform-style: preserve-3d;
-}
 .img__cndDy {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -627,14 +454,10 @@
 .img__cndDy > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__cndDy * {
-  transform-style: preserve-3d;
-}
 .img__dokKx {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -644,14 +467,10 @@
 .img__dokKx > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__dokKx * {
-  transform-style: preserve-3d;
-}
 .img___8DcPb {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -661,14 +480,10 @@
 .img___8DcPb > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img___8DcPb * {
-  transform-style: preserve-3d;
-}
 .img__rHlDn {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -678,14 +493,10 @@
 .img__rHlDn > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__rHlDn * {
-  transform-style: preserve-3d;
-}
 .img__gipro {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -695,14 +506,10 @@
 .img__gipro > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__gipro * {
-  transform-style: preserve-3d;
-}
 .img__doKBp {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -712,14 +519,10 @@
 .img__doKBp > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__doKBp * {
-  transform-style: preserve-3d;
-}
 .img__mm3Hx {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -729,14 +532,10 @@
 .img__mm3Hx > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__mm3Hx * {
-  transform-style: preserve-3d;
-}
 .img__kdjSj {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
   min-width: 0;
   min-height: 0;
 }
@@ -745,9 +544,6 @@
 }
 .img__kdjSj > .__wab_img-spacer > img {
   object-fit: cover;
-}
-.img__kdjSj * {
-  transform-style: preserve-3d;
 }
 .textLinkHeadlineParent {
   display: flex;
@@ -759,39 +555,17 @@
   height: auto;
   padding-left: 4px;
   align-self: center;
-  transform-style: preserve-3d;
   min-width: 0;
-}
-.textLinkHeadlineParent * {
-  transform-style: preserve-3d;
 }
 .textLinkHeadlineParent__size__360X360 {
   width: 360px;
-  transform-style: preserve-3d;
-}
-.textLinkHeadlineParent__size__360X360 * {
-  transform-style: preserve-3d;
 }
 .textLinkHeadlineParent__size__270X270 {
   width: 270px;
-  transform-style: preserve-3d;
-}
-.textLinkHeadlineParent__size__270X270 * {
-  transform-style: preserve-3d;
-}
-.textLinkUnderlinePrimary__rS8Zw:global(.__wab_instance) {
-  transform-style: preserve-3d;
-}
-.textLinkUnderlinePrimary__rS8Zw * {
-  transform-style: preserve-3d;
 }
 .text__ntFG {
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
   font-size: 18px;
-  transform-style: preserve-3d;
-}
-.text__ntFG * {
-  transform-style: preserve-3d;
 }
 .subheadParent {
   display: flex;
@@ -802,38 +576,18 @@
   width: 100%;
   height: auto;
   padding-left: 4px;
-  transform-style: preserve-3d;
   min-width: 0;
 }
-.subheadParent * {
-  transform-style: preserve-3d;
-}
 .subheadParent__description {
-  transform-style: preserve-3d;
   display: none;
-}
-.subheadParent__description * {
-  transform-style: preserve-3d;
 }
 .subheadParent__size__360X360 {
   width: 360px;
-  transform-style: preserve-3d;
-}
-.subheadParent__size__360X360 * {
-  transform-style: preserve-3d;
 }
 .subheadParent__size__270X270 {
   width: 270px;
-  transform-style: preserve-3d;
-}
-.subheadParent__size__270X270 * {
-  transform-style: preserve-3d;
 }
 .text___7ErTm {
   font-size: 14px;
   line-height: 1.4;
-  transform-style: preserve-3d;
-}
-.text___7ErTm * {
-  transform-style: preserve-3d;
 }

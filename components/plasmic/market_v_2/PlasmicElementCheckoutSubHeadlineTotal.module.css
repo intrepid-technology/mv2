@@ -6,10 +6,6 @@
   width: 360px;
   height: auto;
   position: relative;
-  transform-style: preserve-3d;
-}
-.root * {
-  transform-style: preserve-3d;
 }
 .freeBox___8Spx {
   display: flex;
@@ -20,7 +16,6 @@
   left: auto;
   top: auto;
   padding-left: 0px;
-  transform-style: preserve-3d;
 }
 .freeBox___8Spx > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -28,9 +23,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
-}
-.freeBox___8Spx * {
-  transform-style: preserve-3d;
 }
 .freeBox___8Spx > :global(.__wab_flex-container) > *,
 .freeBox___8Spx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -46,36 +38,13 @@
   display: flex;
   position: relative;
   width: 80px;
-  transform-style: preserve-3d;
   flex-shrink: 0;
-}
-.headlineParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetHeadline {
   font-size: 14px;
   font-weight: 700;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
-}
-.slotTargetHeadline * {
-  transform-style: preserve-3d;
-}
-.slotTargetHeadline > *,
-.slotTargetHeadline > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetHeadline > picture > img,
-.slotTargetHeadline > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetHeadline > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text___4Wc0O {
-  transform-style: preserve-3d;
-}
-.text___4Wc0O * {
-  transform-style: preserve-3d;
 }
 .totalCurrencyNumberValue {
   display: flex;
@@ -86,7 +55,6 @@
   left: auto;
   top: auto;
   padding-left: 4px;
-  transform-style: preserve-3d;
 }
 .totalCurrencyNumberValue > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -94,9 +62,6 @@
   justify-content: flex-start;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
-}
-.totalCurrencyNumberValue * {
-  transform-style: preserve-3d;
 }
 .totalCurrencyNumberValue > :global(.__wab_flex-container) > *,
 .totalCurrencyNumberValue
@@ -116,35 +81,12 @@
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.ccurrencyParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetCurrency {
   font-size: 14px;
   font-weight: 700;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
-}
-.slotTargetCurrency * {
-  transform-style: preserve-3d;
-}
-.slotTargetCurrency > *,
-.slotTargetCurrency > .__wab_slot > *,
-.slotTargetCurrency > .__wab_slot > .__wab_slot > *,
-.slotTargetCurrency > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetCurrency > picture > img,
-.slotTargetCurrency > .__wab_slot > picture > img,
-.slotTargetCurrency > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetCurrency > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
-  transform-style: preserve-3d;
-}
-.text__eY9Wm {
-  transform-style: preserve-3d;
-}
-.text__eY9Wm * {
-  transform-style: preserve-3d;
 }
 .freeBox__h0Uqh {
   display: flex;
@@ -154,48 +96,16 @@
   justify-content: flex-start;
   top: auto;
   left: auto;
-  transform-style: preserve-3d;
-}
-.freeBox__h0Uqh * {
-  transform-style: preserve-3d;
 }
 .totalValueParent {
   display: flex;
   position: relative;
   width: auto;
   height: auto;
-  transform-style: preserve-3d;
-}
-.totalValueParent * {
-  transform-style: preserve-3d;
 }
 .slotTargetTotalvalue {
   font-size: 14px;
   font-weight: 700;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   text-align: left;
-}
-.slotTargetTotalvalue * {
-  transform-style: preserve-3d;
-}
-.slotTargetTotalvalue > *,
-.slotTargetTotalvalue > .__wab_slot > *,
-.slotTargetTotalvalue > .__wab_slot > .__wab_slot > *,
-.slotTargetTotalvalue > .__wab_slot > .__wab_slot > .__wab_slot > *,
-.slotTargetTotalvalue > picture > img,
-.slotTargetTotalvalue > .__wab_slot > picture > img,
-.slotTargetTotalvalue > .__wab_slot > .__wab_slot > picture > img,
-.slotTargetTotalvalue
-  > .__wab_slot
-  > .__wab_slot
-  > .__wab_slot
-  > picture
-  > img {
-  transform-style: preserve-3d;
-}
-.text__vpAlF {
-  transform-style: preserve-3d;
-}
-.text__vpAlF * {
-  transform-style: preserve-3d;
 }
