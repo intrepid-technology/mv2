@@ -15,8 +15,10 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonSecondary.module.css"; // plasmic-import: cwyuvAY7ua/css
@@ -36,6 +38,10 @@ export const PlasmicPanelButtonSecondary__ArgProps = new Array(
 
 function PlasmicPanelButtonSecondary__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    layout: useLayout()
+  });
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -127,6 +133,12 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
                   variants,
                   "alternates",
                   "requestReview"
+                ),
+
+                [sty.text__global_layout_isSellerView]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "isSellerView"
                 )
               }
             )}

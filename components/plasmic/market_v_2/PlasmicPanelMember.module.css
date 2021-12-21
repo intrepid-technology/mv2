@@ -7,6 +7,7 @@
   width: 360px;
   height: 100%;
   min-height: 0;
+  padding: 32px 8px 8px;
 }
 .parent {
   display: flex;
@@ -160,6 +161,10 @@
   max-width: 100%;
   position: relative;
 }
+.text__pmNdY {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
+}
 .menuIconListItem__ptNgc:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
@@ -182,6 +187,10 @@
   max-width: 100%;
   position: relative;
 }
+.text___3Mli {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
+}
 .menuIconListItem__oLo3R:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
@@ -194,6 +203,10 @@
 .workSection:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+}
+.text___9BxE {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .menuIconListItem__hcWoG:global(.__wab_instance) {
   max-width: 100%;
@@ -225,6 +238,10 @@
 .accountsSection:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+}
+.text___81RMa {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .menuIconListItem__c1DDq:global(.__wab_instance) {
   max-width: 100%;
@@ -282,16 +299,20 @@
   max-width: 100%;
   width: 20px;
   height: 24px;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
   flex-shrink: 0;
 }
 .text__zSoRd {
-  font-weight: 400;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  font-weight: 500;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
 }
 .adminSection:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+}
+.text__axkZ8 {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .menuIconListItem___23FAl:global(.__wab_instance) {
   max-width: 100%;
@@ -358,12 +379,12 @@
   max-width: 100%;
   width: 20px;
   height: 24px;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
   flex-shrink: 0;
 }
 .text__hlSc9 {
   font-weight: 400;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
 }
 .footer {
   display: flex;

@@ -55,6 +55,15 @@
   text-transform: uppercase;
   letter-spacing: normal;
 }
+.text__global_layout_isSellerView {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: normal;
+}
 .menuIconListItem__t17Tz:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -66,6 +75,10 @@
   width: 16px;
   height: 16px;
 }
+.navImage2__global_layout_isSellerView {
+  width: 24px;
+  height: 24px;
+}
 .menuIconListItem__utJTz:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -76,4 +89,8 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+}
+.navImage__global_layout_isSellerView {
+  width: 24px;
+  height: 24px;
 }

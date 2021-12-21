@@ -41,6 +41,7 @@
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root__auth > :global(.__wab_flex-container) {
+    justify-content: space-between;
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
     margin-top: calc(0px - 0px);
@@ -67,6 +68,7 @@
 }
 @media (max-width: 375px) {
   .root__auth > :global(.__wab_flex-container) {
+    justify-content: space-between;
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
     margin-top: calc(0px - 0px);
@@ -199,28 +201,6 @@
   .text__o407H {
     font-weight: 500;
   }
-}
-.searchInputWrapper {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 500px;
-  min-width: 0;
-}
-.searchInputWrapper__auth {
-  display: flex;
-}
-.searchbarPrimary:global(.__wab_instance) {
-  max-width: 100%;
-  position: relative;
-  display: none;
-}
-.searchbarPrimary__auth:global(.__wab_instance) {
-  align-self: auto;
-  display: flex;
 }
 .authActionsWrapper {
   display: flex;

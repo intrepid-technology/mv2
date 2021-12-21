@@ -11,11 +11,14 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
+import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartnerSectionAccount.module.css"; // plasmic-import: frbDg7XY-m/css
@@ -28,6 +31,10 @@ export const PlasmicPanelPartnerSectionAccount__ArgProps = new Array();
 
 function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    layout: useLayout()
+  });
+
   return (
     <p.Stack
       as={"div"}
@@ -36,7 +43,13 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__global_layout_isSellerView]: hasVariant(
+          globalVariants,
+          "layout",
+          "isSellerView"
+        )
+      })}
     >
       <p.Stack
         as={"header"}
@@ -51,7 +64,14 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.__wab_text,
-            sty.text
+            sty.text,
+            {
+              [sty.text__global_layout_isSellerView]: hasVariant(
+                globalVariants,
+                "layout",
+                "isSellerView"
+              )
+            }
           )}
         >
           {"Account"}
@@ -65,7 +85,13 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <NotificationIcon
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
-            className={classNames(projectcss.all, sty.navImage2)}
+            className={classNames(projectcss.all, sty.navImage2, {
+              [sty.navImage2__global_layout_isSellerView]: hasVariant(
+                globalVariants,
+                "layout",
+                "isSellerView"
+              )
+            })}
             role={"img"}
           />
         }
@@ -80,7 +106,13 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
           <SettingsIcon
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
-            className={classNames(projectcss.all, sty.navImage)}
+            className={classNames(projectcss.all, sty.navImage, {
+              [sty.navImage__global_layout_isSellerView]: hasVariant(
+                globalVariants,
+                "layout",
+                "isSellerView"
+              )
+            })}
             role={"img"}
           />
         }

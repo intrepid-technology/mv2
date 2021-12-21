@@ -19,7 +19,6 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import SearchbarPrimary from "../../SearchbarPrimary"; // plasmic-import: MorSLptejY/component
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -213,33 +212,6 @@ function PlasmicNavbar__RenderFunc(props) {
       ) : null}
       {(hasVariant(variants, "auth", "auth") ? true : false) ? (
         <div
-          data-plasmic-name={"searchInputWrapper"}
-          data-plasmic-override={overrides.searchInputWrapper}
-          className={classNames(projectcss.all, sty.searchInputWrapper, {
-            [sty.searchInputWrapper__auth]: hasVariant(variants, "auth", "auth")
-          })}
-        >
-          {(hasVariant(variants, "auth", "auth") ? true : true) ? (
-            <SearchbarPrimary
-              data-plasmic-name={"searchbarPrimary"}
-              data-plasmic-override={overrides.searchbarPrimary}
-              className={classNames("__wab_instance", sty.searchbarPrimary, {
-                [sty.searchbarPrimary__auth]: hasVariant(
-                  variants,
-                  "auth",
-                  "auth"
-                )
-              })}
-              height={hasVariant(variants, "auth", "auth") ? "_40" : undefined}
-              type={
-                hasVariant(variants, "auth", "auth") ? "primary" : undefined
-              }
-            />
-          ) : null}
-        </div>
-      ) : null}
-      {(hasVariant(variants, "auth", "auth") ? true : false) ? (
-        <div
           data-plasmic-name={"authActionsWrapper"}
           data-plasmic-override={overrides.authActionsWrapper}
           className={classNames(projectcss.all, sty.authActionsWrapper, {
@@ -287,8 +259,6 @@ const PlasmicDescendants = {
     "sellOnIntrepidButton",
     "pricingNavButton",
     "partnerButton",
-    "searchInputWrapper",
-    "searchbarPrimary",
     "authActionsWrapper",
     "avatar",
     "img"
@@ -308,8 +278,6 @@ const PlasmicDescendants = {
   sellOnIntrepidButton: ["sellOnIntrepidButton"],
   pricingNavButton: ["pricingNavButton"],
   partnerButton: ["partnerButton"],
-  searchInputWrapper: ["searchInputWrapper", "searchbarPrimary"],
-  searchbarPrimary: ["searchbarPrimary"],
   authActionsWrapper: ["authActionsWrapper", "avatar", "img"],
   avatar: ["avatar", "img"],
   img: ["img"]
@@ -354,8 +322,6 @@ export const PlasmicNavbar = Object.assign(
     sellOnIntrepidButton: makeNodeComponent("sellOnIntrepidButton"),
     pricingNavButton: makeNodeComponent("pricingNavButton"),
     partnerButton: makeNodeComponent("partnerButton"),
-    searchInputWrapper: makeNodeComponent("searchInputWrapper"),
-    searchbarPrimary: makeNodeComponent("searchbarPrimary"),
     authActionsWrapper: makeNodeComponent("authActionsWrapper"),
     avatar: makeNodeComponent("avatar"),
     img: makeNodeComponent("img"),

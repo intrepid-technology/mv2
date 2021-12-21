@@ -15,8 +15,10 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonPrimary.module.css"; // plasmic-import: dNsNyn-hp9/css
@@ -32,6 +34,10 @@ export const PlasmicPanelButtonPrimary__ArgProps = new Array(
 
 function PlasmicPanelButtonPrimary__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    layout: useLayout()
+  });
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -86,6 +92,12 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
                   variants,
                   "alternates",
                   "newProject"
+                ),
+
+                [sty.text__global_layout_isSellerView]: hasVariant(
+                  globalVariants,
+                  "layout",
+                  "isSellerView"
                 )
               }
             )}

@@ -18,47 +18,48 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import NavbarPrimary from "../../NavbarPrimary"; // plasmic-import: Wo-euFIot3l/component
 import TagPartnerC from "../../TagPartnerC"; // plasmic-import: VbmQFgDzT6/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import Accordion from "../../Accordion"; // plasmic-import: azR0jnXzDL/component
+import ServiceProcessCard from "../../ServiceProcessCard"; // plasmic-import: VPPN2nrcs6/component
 import ServiceFeatureB from "../../ServiceFeatureB"; // plasmic-import: WvXgBKm3bX/component
 import ServiceFeatureCard from "../../ServiceFeatureCard"; // plasmic-import: NNvsnnDA0J/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
-import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
+import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServicedetail.module.css"; // plasmic-import: 2YXWRU8_5CaO/css
+import * as sty from "./PlasmicServiceDetail.module.css"; // plasmic-import: 2YXWRU8_5CaO/css
 import Icon54Icon from "./icons/PlasmicIcon__Icon54"; // plasmic-import: krveNVXkj/icon
-import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
-import Icon170Icon from "./icons/PlasmicIcon__Icon170"; // plasmic-import: JricKendl/icon
 import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic-import: UzRMlTHWYLl/icon
 import CellDividerIcon from "./icons/PlasmicIcon__CellDivider"; // plasmic-import: n34VWl8XDZ4/icon
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 import ShareIcon from "./icons/PlasmicIcon__Share"; // plasmic-import: WvwVMYuHRy/icon
 
-export const PlasmicServicedetail__VariantProps = new Array();
+export const PlasmicServiceDetail__VariantProps = new Array();
 
-export const PlasmicServicedetail__ArgProps = new Array(
-  "serviceTitle",
-  "serviceCompanyName",
-  "serviceAmount",
-  "serviceName",
-  "serviceDescription",
-  "category",
-  "subCategory"
-);
+export const PlasmicServiceDetail__ArgProps = new Array();
 
-function PlasmicServicedetail__RenderFunc(props) {
+function PlasmicServiceDetail__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariantso9SjFZaOqjqz()
+    screen: useScreenVariants()
   });
 
   return (
     <React.Fragment>
       <Head>
-        <meta name="twitter:card" content="summary" />
+        <title key="title">{""}</title>
+        <meta key="og:title" property="og:title" content={""} />
+        <meta
+          key="description"
+          name="description"
+          property="og:description"
+          content={""}
+        />
       </Head>
 
       <style>{`
@@ -67,25 +68,31 @@ function PlasmicServicedetail__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={projectcss.plasmic_page_wrapper}>
+      <div className={defaultcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            projectcss.all,
+            defaultcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
+          <NavbarPrimary
+            data-plasmic-name={"navbarPrimary"}
+            data-plasmic-override={overrides.navbarPrimary}
+            className={classNames("__wab_instance", sty.navbarPrimary)}
+          />
+
           <p.Stack
             as={"div"}
             data-plasmic-name={"serviceDetailCheckoutPageParent"}
             data-plasmic-override={overrides.serviceDetailCheckoutPageParent}
             hasGap={true}
             className={classNames(
-              projectcss.all,
+              defaultcss.all,
               sty.serviceDetailCheckoutPageParent
             )}
           >
@@ -95,7 +102,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               data-plasmic-override={overrides.serviceDetailOverviewParent}
               hasGap={true}
               className={classNames(
-                projectcss.all,
+                defaultcss.all,
                 sty.serviceDetailOverviewParent
               )}
             >
@@ -105,53 +112,21 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceHeadlineParent}
                 hasGap={true}
                 className={classNames(
-                  projectcss.all,
+                  defaultcss.all,
                   sty.serviceHeadlineParent
                 )}
               >
                 <div
                   data-plasmic-name={"headline"}
                   data-plasmic-override={overrides.headline}
-                  className={classNames(projectcss.all, sty.headline)}
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.headline
+                  )}
                 >
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__zfdEw)}
-                  >
-                    {p.renderPlasmicSlot({
-                      defaultContents: "Title of the service sold on this page",
-                      value: args.serviceTitle,
-                      className: classNames(sty.slotTargetServiceTitle)
-                    })}
-                  </div>
+                  {"Title of the service sold on this page"}
                 </div>
-
-                <p.Stack
-                  as={"div"}
-                  data-plasmic-name={"subheading"}
-                  data-plasmic-override={overrides.subheading}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.subheading)}
-                >
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox__pNTwY)}
-                  >
-                    {p.renderPlasmicSlot({
-                      defaultContents: "Enter some text",
-                      value: args.category,
-                      className: classNames(sty.slotTargetCategory)
-                    })}
-                  </div>
-
-                  <div
-                    className={classNames(projectcss.all, sty.freeBox___1TWq1)}
-                  >
-                    {p.renderPlasmicSlot({
-                      defaultContents: "/ Enter some text",
-                      value: args.subCategory,
-                      className: classNames(sty.slotTargetSubCategory)
-                    })}
-                  </div>
-                </p.Stack>
 
                 <p.Stack
                   as={"div"}
@@ -159,7 +134,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.headlineNamePriceParent}
                   hasGap={true}
                   className={classNames(
-                    projectcss.all,
+                    defaultcss.all,
                     sty.headlineNamePriceParent
                   )}
                 >
@@ -169,26 +144,18 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-override={overrides.companyNamePriceParent2}
                     hasGap={true}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.companyNamePriceParent2
                     )}
                   >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__cQnBt)}
-                    >
+                    <div className={classNames(defaultcss.all, sty.box__cQnBt)}>
                       <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__kqzI
-                        )}
+                        className={classNames(defaultcss.all, sty.box__kqzI)}
                       >
                         <p.Stack
                           as={"div"}
                           hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__kWxw1
-                          )}
+                          className={classNames(defaultcss.all, sty.box__kWxw1)}
                         >
                           <div
                             data-plasmic-name={"serviceCompanyName2"}
@@ -196,30 +163,18 @@ function PlasmicServicedetail__RenderFunc(props) {
                               overrides.serviceCompanyName2
                             }
                             className={classNames(
-                              projectcss.all,
+                              defaultcss.all,
                               sty.serviceCompanyName2
                             )}
                           >
                             <div
                               className={classNames(
-                                projectcss.all,
-                                sty.freeBox___9Puij
+                                defaultcss.all,
+                                defaultcss.__wab_text,
+                                sty.box___9Puij
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox___9AYq
-                                )}
-                              >
-                                {p.renderPlasmicSlot({
-                                  defaultContents: "Company name",
-                                  value: args.serviceCompanyName,
-                                  className: classNames(
-                                    sty.slotTargetServiceCompanyName
-                                  )
-                                })}
-                              </div>
+                              {"Company name"}
                             </div>
                           </div>
                         </p.Stack>
@@ -235,7 +190,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.companyVerificationBadgesParent3
                     )}
                   >
@@ -252,20 +207,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyIsVerified3}
                       hasGap={true}
                       className={classNames(
-                        projectcss.all,
+                        defaultcss.all,
                         sty.companyIsVerified3
                       )}
                     >
                       <Icon54Icon
-                        className={classNames(projectcss.all, sty.svg___0Zifo)}
+                        className={classNames(defaultcss.all, sty.svg___0Zifo)}
                         role={"img"}
                       />
 
                       <div
                         className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__fjFyq
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__fjFyq
                         )}
                       >
                         {"Verified"}
@@ -280,61 +235,50 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-name={"serviceImageBlock"}
                 data-plasmic-override={overrides.serviceImageBlock}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.serviceImageBlock)}
+                className={classNames(defaultcss.all, sty.serviceImageBlock)}
               >
                 <img
-                  data-plasmic-name={"serviceHeroImage"}
-                  data-plasmic-override={overrides.serviceHeroImage}
+                  data-plasmic-name={"serviceImageHero"}
+                  data-plasmic-override={overrides.serviceImageHero}
                   alt={""}
-                  className={classNames(projectcss.img, sty.serviceHeroImage)}
+                  className={classNames(defaultcss.img, sty.serviceImageHero)}
+                  role={"img"}
                 />
 
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__ew4Af)}
+                  className={classNames(defaultcss.all, sty.box__ew4Af)}
                 >
                   <img
-                    data-plasmic-name={"serviceImageOne"}
-                    data-plasmic-override={overrides.serviceImageOne}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageOne)}
+                    className={classNames(defaultcss.img, sty.img__ukRs4)}
+                    role={"img"}
                   />
 
                   <img
-                    data-plasmic-name={"serviceImageTwo"}
-                    data-plasmic-override={overrides.serviceImageTwo}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageTwo)}
+                    className={classNames(defaultcss.img, sty.img__zQsDw)}
+                    role={"img"}
                   />
 
                   <img
-                    data-plasmic-name={"serviceImageThree"}
-                    data-plasmic-override={overrides.serviceImageThree}
                     alt={""}
-                    className={classNames(
-                      projectcss.img,
-                      sty.serviceImageThree
-                    )}
+                    className={classNames(defaultcss.img, sty.img__aZnCu)}
+                    role={"img"}
                   />
 
                   <img
-                    data-plasmic-name={"serviceImageFour"}
-                    data-plasmic-override={overrides.serviceImageFour}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageFour)}
+                    className={classNames(defaultcss.img, sty.img__vwxzP)}
+                    role={"img"}
                   />
                 </p.Stack>
 
                 <p.Stack
                   as={"div"}
-                  data-plasmic-name={"serviceFeaturesWrapper"}
-                  data-plasmic-override={overrides.serviceFeaturesWrapper}
                   hasGap={true}
-                  className={classNames(
-                    projectcss.all,
-                    sty.serviceFeaturesWrapper
-                  )}
+                  className={classNames(defaultcss.all, sty.box__y19Np)}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -404,7 +348,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 </p.Stack>
 
                 <SectionDividerIcon
-                  className={classNames(projectcss.all, sty.svg__nw7Wz)}
+                  className={classNames(defaultcss.all, sty.svg__nw7Wz)}
                   role={"img"}
                 />
               </p.Stack>
@@ -415,908 +359,699 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceOverviewParent}
                 hasGap={true}
                 className={classNames(
-                  projectcss.all,
+                  defaultcss.all,
                   sty.serviceOverviewParent
                 )}
               >
                 <div
                   data-plasmic-name={"descriptionBlock"}
                   data-plasmic-override={overrides.descriptionBlock}
-                  className={classNames(projectcss.all, sty.descriptionBlock)}
+                  className={classNames(defaultcss.all, sty.descriptionBlock)}
                 >
                   <Accordion
-                    data-plasmic-name={"descriptionAccordion"}
-                    data-plasmic-override={overrides.descriptionAccordion}
                     className={classNames(
                       "__wab_instance",
-                      sty.descriptionAccordion
+                      sty.accordion__oQxWr
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__z3E6R
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box___1RPqE
                       )}
                     >
                       {"Description"}
                     </div>
                   </Accordion>
+
+                  {true ? (
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"serviceDescriptionOverview"}
+                      data-plasmic-override={
+                        overrides.serviceDescriptionOverview
+                      }
+                      hasGap={true}
+                      className={classNames(
+                        defaultcss.all,
+                        sty.serviceDescriptionOverview
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__cm7I3
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
+                        }
+                      </div>
+                    </p.Stack>
+                  ) : null}
                 </div>
 
                 <div
                   data-plasmic-name={"processBlock"}
                   data-plasmic-override={overrides.processBlock}
-                  className={classNames(projectcss.all, sty.processBlock)}
+                  className={classNames(defaultcss.all, sty.processBlock)}
                 >
                   <Accordion
-                    data-plasmic-name={"processAccordion"}
-                    data-plasmic-override={overrides.processAccordion}
                     className={classNames(
                       "__wab_instance",
-                      sty.processAccordion
+                      sty.accordion__vr6Rn
                     )}
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__zVRh
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__qz6Jr
                       )}
                     >
                       {"Process"}
                     </div>
                   </Accordion>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"serviceProcessDescription"}
+                    data-plasmic-override={overrides.serviceProcessDescription}
+                    hasGap={true}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceProcessDescription
+                    )}
+                  >
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard___8Bdrp
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box__ipjIf
+                        )}
+                      >
+                        {
+                          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo"
+                        }
+                      </div>
+                    </ServiceProcessCard>
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__n2GtO
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__nZoOn
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__kClal
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__bxFec
+                      )}
+                    />
+
+                    <ServiceProcessCard
+                      className={classNames(
+                        "__wab_instance",
+                        sty.serviceProcessCard__hhIsJ
+                      )}
+                    />
+                  </p.Stack>
                 </div>
 
                 <div
                   data-plasmic-name={"featuresBlock"}
                   data-plasmic-override={overrides.featuresBlock}
-                  className={classNames(projectcss.all, sty.featuresBlock)}
+                  className={classNames(defaultcss.all, sty.featuresBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__gH068
                     )}
-                    content={
-                      <div
-                        data-plasmic-name={"serviceFeaturesOverview"}
-                        data-plasmic-override={
-                          overrides.serviceFeaturesOverview
-                        }
-                        className={classNames(
-                          projectcss.all,
-                          sty.serviceFeaturesOverview
-                        )}
-                      >
-                        {true ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__tu3Wz
-                            )}
-                          >
-                            <p.Stack
-                              as={"div"}
-                              hasGap={true}
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__vbPe2
-                              )}
-                            >
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__pEEfd
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__m2D7D
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__mXxAq
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__oSaJy
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB___4Tn6P
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__cCzNv
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__kDzHd
-                                )}
-                              />
-
-                              <ServiceFeatureB
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.serviceFeatureB__sx1Di
-                                )}
-                              />
-                            </p.Stack>
-                          </p.Stack>
-                        ) : null}
-                      </div>
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__pnud8
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__pnud8
                       )}
                     >
                       {"Features"}
                     </div>
                   </Accordion>
+
+                  <div
+                    data-plasmic-name={"serviceFeaturesOverview"}
+                    data-plasmic-override={overrides.serviceFeaturesOverview}
+                    className={classNames(
+                      defaultcss.all,
+                      sty.serviceFeaturesOverview
+                    )}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__tu3Wz)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(defaultcss.all, sty.box__vbPe2)}
+                      >
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__pEEfd
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__m2D7D
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__mXxAq
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__oSaJy
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB___4Tn6P
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__cCzNv
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__kDzHd
+                          )}
+                        />
+
+                        <ServiceFeatureB
+                          className={classNames(
+                            "__wab_instance",
+                            sty.serviceFeatureB__sx1Di
+                          )}
+                        />
+                      </p.Stack>
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"contentBlock"}
                   data-plasmic-override={overrides.contentBlock}
-                  className={classNames(projectcss.all, sty.contentBlock)}
+                  className={classNames(defaultcss.all, sty.contentBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__aijA
                     )}
-                    content={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__kHmO0
-                        )}
-                      >
-                        {true ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__nKBwa
-                            )}
-                          >
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard___5LeY
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__u2SvN
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__ygnn
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__htoeu
-                              )}
-                            />
-                          </p.Stack>
-                        ) : null}
-                      </div>
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__wMb
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__wMb
                       )}
                     >
                       {"Content"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__kHmO0)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__nKBwa)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___5LeY
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__u2SvN
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ygnn
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__htoeu
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"methodBlock"}
                   data-plasmic-override={overrides.methodBlock}
-                  className={classNames(projectcss.all, sty.methodBlock)}
+                  className={classNames(defaultcss.all, sty.methodBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__cHnL
                     )}
-                    content={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox___1Ese0
-                        )}
-                      >
-                        {true ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__bGavK
-                            )}
-                          >
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__pMb5
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__aZ5Cb
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard___8R3Xk
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__uIfZx
-                              )}
-                            />
-                          </p.Stack>
-                        ) : null}
-                      </div>
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__mG8P
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__mG8P
                       )}
                     >
                       {"Method"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box___1Ese0)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__bGavK)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__pMb5
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__aZ5Cb
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___8R3Xk
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__uIfZx
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"toolsBlock"}
                   data-plasmic-override={overrides.toolsBlock}
-                  className={classNames(projectcss.all, sty.toolsBlock)}
+                  className={classNames(defaultcss.all, sty.toolsBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__rHzZp
                     )}
-                    content={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox___71ORb
-                        )}
-                      >
-                        {true ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__ttyHw
-                            )}
-                          >
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add2"}
-                                  data-plasmic-override={overrides.add2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add2
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__d2MuW
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete2"}
-                                  data-plasmic-override={overrides.delete2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete2
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            />
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add3"}
-                                  data-plasmic-override={overrides.add3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add3
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__scZc5
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete3"}
-                                  data-plasmic-override={overrides.delete3}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete3
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Design system"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add4"}
-                                  data-plasmic-override={overrides.add4}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add4
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__eQnOv
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete4"}
-                                  data-plasmic-override={overrides.delete4}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete4
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Mobile app"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add5"}
-                                  data-plasmic-override={overrides.add5}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add5
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__ptZcb
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete5"}
-                                  data-plasmic-override={overrides.delete5}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete5
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Web app"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add6"}
-                                  data-plasmic-override={overrides.add6}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add6
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__vlISe
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete6"}
-                                  data-plasmic-override={overrides.delete6}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete6
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"E-commerce"}
-                            </ChipBadgeDisplay>
-                          </p.Stack>
-                        ) : null}
-                      </div>
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__oi7S0
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__oi7S0
                       )}
                     >
                       {"Tools"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box___71ORb)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__ttyHw)}
+                    >
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__d2MuW
+                        )}
+                      />
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__scZc5
+                        )}
+                      >
+                        {"Design system"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__eQnOv
+                        )}
+                      >
+                        {"Mobile app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__ptZcb
+                        )}
+                      >
+                        {"Web app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__vlISe
+                        )}
+                      >
+                        {"E-commerce"}
+                      </ChipBadgeDisplay>
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"formatBlock"}
                   data-plasmic-override={overrides.formatBlock}
-                  className={classNames(projectcss.all, sty.formatBlock)}
+                  className={classNames(defaultcss.all, sty.formatBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__aOnLc
                     )}
-                    content={
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__bEXt
-                        )}
-                      >
-                        {true ? (
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__geArL
-                            )}
-                          >
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add7"}
-                                  data-plasmic-override={overrides.add7}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add7
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__vLjl
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete7"}
-                                  data-plasmic-override={overrides.delete7}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete7
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            />
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add8"}
-                                  data-plasmic-override={overrides.add8}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add8
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__lpjJ
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete8"}
-                                  data-plasmic-override={overrides.delete8}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete8
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Design system"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add9"}
-                                  data-plasmic-override={overrides.add9}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add9
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__cFnYq
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete9"}
-                                  data-plasmic-override={overrides.delete9}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete9
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Mobile app"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add10"}
-                                  data-plasmic-override={overrides.add10}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add10
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__yphAv
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete10"}
-                                  data-plasmic-override={overrides.delete10}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete10
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"Web app"}
-                            </ChipBadgeDisplay>
-
-                            <ChipBadgeDisplay
-                              addIcon={
-                                <PlusBoldIcon
-                                  data-plasmic-name={"add11"}
-                                  data-plasmic-override={overrides.add11}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.add11
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                              className={classNames(
-                                "__wab_instance",
-                                sty.chipBadgeDisplay__sedp1
-                              )}
-                              deleteIcon={
-                                <Icon170Icon
-                                  data-plasmic-name={"delete11"}
-                                  data-plasmic-override={overrides.delete11}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.delete11
-                                  )}
-                                  role={"img"}
-                                />
-                              }
-                            >
-                              {"E-commerce"}
-                            </ChipBadgeDisplay>
-                          </p.Stack>
-                        ) : null}
-                      </div>
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__cH8Eb
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__cH8Eb
                       )}
                     >
                       {"Format"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__bEXt)}>
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__geArL)}
+                    >
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__vLjl
+                        )}
+                      />
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__lpjJ
+                        )}
+                      >
+                        {"Design system"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__cFnYq
+                        )}
+                      >
+                        {"Mobile app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__yphAv
+                        )}
+                      >
+                        {"Web app"}
+                      </ChipBadgeDisplay>
+
+                      <ChipBadgeDisplay
+                        className={classNames(
+                          "__wab_instance",
+                          sty.chipBadgeDisplay__sedp1
+                        )}
+                      >
+                        {"E-commerce"}
+                      </ChipBadgeDisplay>
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"requirementsBlock"}
                   data-plasmic-override={overrides.requirementsBlock}
-                  className={classNames(projectcss.all, sty.requirementsBlock)}
+                  className={classNames(defaultcss.all, sty.requirementsBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__dwCtl
                     )}
-                    content={
-                      true ? (
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__t9EAw
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___5OzNn
-                            )}
-                          >
-                            {
-                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
-                            }
-                          </div>
-
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__hsM4C
-                            )}
-                          >
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__ji9Wp
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__pw17
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__mpKj
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__ze4CR
-                              )}
-                            />
-                          </p.Stack>
-                        </div>
-                      ) : null
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__ucMu5
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__ucMu5
                       )}
                     >
                       {"Requirements"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__t9EAw)}>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box___5OzNn
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
+                      }
+                    </div>
+
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__hsM4C)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ji9Wp
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__pw17
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__mpKj
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__ze4CR
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
                 </div>
 
                 <div
                   data-plasmic-name={"termsBlock"}
                   data-plasmic-override={overrides.termsBlock}
-                  className={classNames(projectcss.all, sty.termsBlock)}
+                  className={classNames(defaultcss.all, sty.termsBlock)}
                 >
                   <Accordion
                     className={classNames(
                       "__wab_instance",
                       sty.accordion__fUsZa
                     )}
-                    content={
-                      true ? (
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__qitb4
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__a0JSz
-                            )}
-                          >
-                            {
-                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
-                            }
-                          </div>
-
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__n9Y3U
-                            )}
-                          >
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__fl20H
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard___7UM36
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard___8Gyw4
-                              )}
-                            />
-
-                            <ServiceFeatureCard
-                              className={classNames(
-                                "__wab_instance",
-                                sty.serviceFeatureCard__qqDx
-                              )}
-                            />
-                          </p.Stack>
-                        </div>
-                      ) : null
-                    }
                     size={
-                      hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "small"
+                      hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        ? "_360"
                         : undefined
                     }
                   >
                     <div
                       className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__prl3O
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__prl3O
                       )}
                     >
                       {"Terms"}
                     </div>
                   </Accordion>
+
+                  <div className={classNames(defaultcss.all, sty.box__qitb4)}>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__a0JSz
+                      )}
+                    >
+                      {
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum porttitor faucibus viverra eget nibh aliquam. Venenatis maecenas at diam amet. Ac odio vitae morbi fermentum, morbi odio leo volutpat. Fringilla habitant nibh placerat rhoncus, turpis. Urna ipsum purus nam sapien faucibus.\n\nSit egestas faucibus mauris, lorem. Massa ultrices netus velit tempor ligula nec egestas. Netus ullamcorper varius aliquam quam ut at. Ridiculus scelerisque nunc turpis mattis malesuada fringilla viverra nunc. Turpis."
+                      }
+                    </div>
+
+                    <p.Stack
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(defaultcss.all, sty.box__n9Y3U)}
+                    >
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__fl20H
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___7UM36
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard___8Gyw4
+                        )}
+                      />
+
+                      <ServiceFeatureCard
+                        className={classNames(
+                          "__wab_instance",
+                          sty.serviceFeatureCard__qqDx
+                        )}
+                      />
+                    </p.Stack>
+                  </div>
                 </div>
               </p.Stack>
             </p.Stack>
@@ -1326,7 +1061,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               data-plasmic-name={"serviceOrderParent"}
               data-plasmic-override={overrides.serviceOrderParent}
               hasGap={true}
-              className={classNames(projectcss.all, sty.serviceOrderParent)}
+              className={classNames(defaultcss.all, sty.serviceOrderParent)}
             >
               <p.Stack
                 as={"div"}
@@ -1334,7 +1069,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceCheckoutHeader}
                 hasGap={true}
                 className={classNames(
-                  projectcss.all,
+                  defaultcss.all,
                   sty.serviceCheckoutHeader
                 )}
               >
@@ -1344,7 +1079,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.serviceDescriptionParent}
                   hasGap={true}
                   className={classNames(
-                    projectcss.all,
+                    defaultcss.all,
                     sty.serviceDescriptionParent
                   )}
                 >
@@ -1356,7 +1091,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.headlineNamePriceVerificationParent
                     )}
                   >
@@ -1366,33 +1101,35 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyNamePriceParent}
                       hasGap={true}
                       className={classNames(
-                        projectcss.all,
+                        defaultcss.all,
                         sty.companyNamePriceParent
                       )}
                     >
                       <div
                         data-plasmic-name={"servicePrice"}
                         data-plasmic-override={overrides.servicePrice}
-                        className={classNames(projectcss.all, sty.servicePrice)}
+                        className={classNames(defaultcss.all, sty.servicePrice)}
                       >
                         <div
+                          data-plasmic-name={"serviceCurrency"}
+                          data-plasmic-override={overrides.serviceCurrency}
                           className={classNames(
-                            projectcss.all,
-                            sty.freeBox__uOdZo
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.serviceCurrency
                           )}
                         >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__s6WbX
-                            )}
-                          >
-                            {p.renderPlasmicSlot({
-                              defaultContents: "10,000",
-                              value: args.serviceAmount,
-                              className: classNames(sty.slotTargetServiceAmount)
-                            })}
-                          </div>
+                          {"$"}
+                        </div>
+
+                        <div
+                          className={classNames(
+                            defaultcss.all,
+                            defaultcss.__wab_text,
+                            sty.box__uOdZo
+                          )}
+                        >
+                          {"10,000"}
                         </div>
                       </div>
                     </p.Stack>
@@ -1401,23 +1138,16 @@ function PlasmicServicedetail__RenderFunc(props) {
                   <div
                     data-plasmic-name={"serviceNameTitle"}
                     data-plasmic-override={overrides.serviceNameTitle}
-                    className={classNames(projectcss.all, sty.serviceNameTitle)}
+                    className={classNames(defaultcss.all, sty.serviceNameTitle)}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__m2W9E)}
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__m2W9E
+                      )}
                     >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__aexTm
-                        )}
-                      >
-                        {p.renderPlasmicSlot({
-                          defaultContents: "Service name",
-                          value: args.serviceName,
-                          className: classNames(sty.slotTargetServiceName)
-                        })}
-                      </div>
+                      {"Service name"}
                     </div>
                   </div>
 
@@ -1425,26 +1155,27 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceShortDescription"}
                     data-plasmic-override={overrides.serviceShortDescription}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.serviceShortDescription
                     )}
                   >
                     <div
-                      className={classNames(projectcss.all, sty.freeBox__mjS0B)}
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__mjS0B
+                      )}
                     >
-                      {p.renderPlasmicSlot({
-                        defaultContents:
-                          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na",
-                        value: args.serviceDescription,
-                        className: classNames(sty.slotTargetServiceDescription)
-                      })}
+                      {
+                        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, na"
+                      }
                     </div>
                   </div>
                 </p.Stack>
               </p.Stack>
 
               <CellDividerIcon
-                className={classNames(projectcss.all, sty.svg__u19Rk)}
+                className={classNames(defaultcss.all, sty.svg__u19Rk)}
                 role={"img"}
               />
 
@@ -1454,7 +1185,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.companyDescriptionParent}
                 hasGap={true}
                 className={classNames(
-                  projectcss.all,
+                  defaultcss.all,
                   sty.companyDescriptionParent
                 )}
               >
@@ -1464,7 +1195,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-override={overrides.headlineCompanyParent}
                   hasGap={true}
                   className={classNames(
-                    projectcss.all,
+                    defaultcss.all,
                     sty.headlineCompanyParent
                   )}
                 >
@@ -1472,7 +1203,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceCompanyLogo"}
                     data-plasmic-override={overrides.serviceCompanyLogo}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.serviceCompanyLogo
                     )}
                   >
@@ -1486,10 +1217,13 @@ function PlasmicServicedetail__RenderFunc(props) {
                           data-plasmic-override={overrides.navUserAvatar32}
                           alt={""}
                           className={classNames(
-                            projectcss.img,
+                            defaultcss.img,
                             sty.navUserAvatar32
                           )}
+                          height={360}
+                          role={"img"}
                           src={"/plasmic/market_v_2/images/image4.png"}
+                          width={360}
                         />
                       }
                       size={"_32"}
@@ -1502,26 +1236,18 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-override={overrides.companyNamePriceParent3}
                     hasGap={true}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.companyNamePriceParent3
                     )}
                   >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__mGz7R)}
-                    >
+                    <div className={classNames(defaultcss.all, sty.box__mGz7R)}>
                       <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__xtsDr
-                        )}
+                        className={classNames(defaultcss.all, sty.box__xtsDr)}
                       >
                         <p.Stack
                           as={"div"}
                           hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__qYg99
-                          )}
+                          className={classNames(defaultcss.all, sty.box__qYg99)}
                         >
                           <div
                             data-plasmic-name={"serviceCompanyName3"}
@@ -1529,15 +1255,15 @@ function PlasmicServicedetail__RenderFunc(props) {
                               overrides.serviceCompanyName3
                             }
                             className={classNames(
-                              projectcss.all,
+                              defaultcss.all,
                               sty.serviceCompanyName3
                             )}
                           >
                             <div
                               className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__tSmZz
+                                defaultcss.all,
+                                defaultcss.__wab_text,
+                                sty.box__tSmZz
                               )}
                             >
                               {"Company name"}
@@ -1556,7 +1282,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     }
                     hasGap={true}
                     className={classNames(
-                      projectcss.all,
+                      defaultcss.all,
                       sty.companyVerificationBadgesParent4
                     )}
                   >
@@ -1573,20 +1299,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                       data-plasmic-override={overrides.companyIsVerified4}
                       hasGap={true}
                       className={classNames(
-                        projectcss.all,
+                        defaultcss.all,
                         sty.companyIsVerified4
                       )}
                     >
                       <Icon54Icon
-                        className={classNames(projectcss.all, sty.svg__jrz1R)}
+                        className={classNames(defaultcss.all, sty.svg__jrz1R)}
                         role={"img"}
                       />
 
                       <div
                         className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___133Eb
+                          defaultcss.all,
+                          defaultcss.__wab_text,
+                          sty.box___133Eb
                         )}
                       >
                         {"Verified"}
@@ -1599,15 +1325,15 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"companyShortDescription"}
                   data-plasmic-override={overrides.companyShortDescription}
                   className={classNames(
-                    projectcss.all,
+                    defaultcss.all,
                     sty.companyShortDescription
                   )}
                 >
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pxCD
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__pxCD
                     )}
                   >
                     {
@@ -1618,7 +1344,7 @@ function PlasmicServicedetail__RenderFunc(props) {
               </p.Stack>
 
               <CellDividerIcon
-                className={classNames(projectcss.all, sty.svg__oyzAe)}
+                className={classNames(defaultcss.all, sty.svg__oyzAe)}
                 role={"img"}
               />
 
@@ -1628,22 +1354,23 @@ function PlasmicServicedetail__RenderFunc(props) {
                 data-plasmic-override={overrides.serviceCheckoutButtons}
                 hasGap={true}
                 className={classNames(
-                  projectcss.all,
+                  defaultcss.all,
                   sty.serviceCheckoutButtons
                 )}
               >
                 <ButtonPrimary
-                  data-plasmic-name={"orderButton"}
-                  data-plasmic-override={overrides.orderButton}
-                  className={classNames("__wab_instance", sty.orderButton)}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.buttonPrimary__sJt3M
+                  )}
                   color={"brand"}
                   size={"_360"}
                 >
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___3EPlj
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box___3EPlj
                     )}
                   >
                     {"Order now"}
@@ -1660,9 +1387,9 @@ function PlasmicServicedetail__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__tOLxW
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__tOLxW
                     )}
                   >
                     {"Add to brief"}
@@ -1679,9 +1406,9 @@ function PlasmicServicedetail__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__rgQzD
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__rgQzD
                     )}
                   >
                     {"Request quote"}
@@ -1693,20 +1420,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"save"}
                   data-plasmic-override={overrides.save}
                   hasGap={true}
-                  className={classNames(projectcss.button, sty.save)}
+                  className={classNames(defaultcss.button, sty.save)}
                 >
                   <BookmarkIcon
                     data-plasmic-name={"bookmark"}
                     data-plasmic-override={overrides.bookmark}
-                    className={classNames(projectcss.all, sty.bookmark)}
+                    className={classNames(defaultcss.all, sty.bookmark)}
                     role={"img"}
                   />
 
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__eawQa
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__eawQa
                     )}
                   >
                     {"Save"}
@@ -1718,20 +1445,20 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"share"}
                   data-plasmic-override={overrides.share}
                   hasGap={true}
-                  className={classNames(projectcss.button, sty.share)}
+                  className={classNames(defaultcss.button, sty.share)}
                 >
                   <ShareIcon
                     data-plasmic-name={"svgShare"}
                     data-plasmic-override={overrides.svgShare}
-                    className={classNames(projectcss.all, sty.svgShare)}
+                    className={classNames(defaultcss.all, sty.svgShare)}
                     role={"img"}
                   />
 
                   <div
                     className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__ffOr8
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__ffOr8
                     )}
                   >
                     {"Share"}
@@ -1740,6 +1467,12 @@ function PlasmicServicedetail__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
+
+          <FooterB
+            data-plasmic-name={"footerB"}
+            data-plasmic-override={overrides.footerB}
+            className={classNames("__wab_instance", sty.footerB)}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -1749,54 +1482,29 @@ function PlasmicServicedetail__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "navbarPrimary",
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
-    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceHeroImage",
-    "serviceImageOne",
-    "serviceImageTwo",
-    "serviceImageThree",
-    "serviceImageFour",
-    "serviceFeaturesWrapper",
+    "serviceImageHero",
     "serviceOverviewParent",
     "descriptionBlock",
-    "descriptionAccordion",
+    "serviceDescriptionOverview",
     "processBlock",
-    "processAccordion",
+    "serviceProcessDescription",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
     "methodBlock",
     "toolsBlock",
-    "add2",
-    "delete2",
-    "add3",
-    "delete3",
-    "add4",
-    "delete4",
-    "add5",
-    "delete5",
-    "add6",
-    "delete6",
     "formatBlock",
-    "add7",
-    "delete7",
-    "add8",
-    "delete8",
-    "add9",
-    "delete9",
-    "add10",
-    "delete10",
-    "add11",
-    "delete11",
     "requirementsBlock",
     "termsBlock",
     "serviceOrderParent",
@@ -1805,6 +1513,7 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
+    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -1818,62 +1527,37 @@ const PlasmicDescendants = {
     "companyIsVerified4",
     "companyShortDescription",
     "serviceCheckoutButtons",
-    "orderButton",
     "save",
     "bookmark",
     "share",
-    "svgShare"
+    "svgShare",
+    "footerB"
   ],
 
+  navbarPrimary: ["navbarPrimary"],
   serviceDetailCheckoutPageParent: [
     "serviceDetailCheckoutPageParent",
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
-    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceHeroImage",
-    "serviceImageOne",
-    "serviceImageTwo",
-    "serviceImageThree",
-    "serviceImageFour",
-    "serviceFeaturesWrapper",
+    "serviceImageHero",
     "serviceOverviewParent",
     "descriptionBlock",
-    "descriptionAccordion",
+    "serviceDescriptionOverview",
     "processBlock",
-    "processAccordion",
+    "serviceProcessDescription",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
     "methodBlock",
     "toolsBlock",
-    "add2",
-    "delete2",
-    "add3",
-    "delete3",
-    "add4",
-    "delete4",
-    "add5",
-    "delete5",
-    "add6",
-    "delete6",
     "formatBlock",
-    "add7",
-    "delete7",
-    "add8",
-    "delete8",
-    "add9",
-    "delete9",
-    "add10",
-    "delete10",
-    "add11",
-    "delete11",
     "requirementsBlock",
     "termsBlock",
     "serviceOrderParent",
@@ -1882,6 +1566,7 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
+    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -1895,7 +1580,6 @@ const PlasmicDescendants = {
     "companyIsVerified4",
     "companyShortDescription",
     "serviceCheckoutButtons",
-    "orderButton",
     "save",
     "bookmark",
     "share",
@@ -1906,50 +1590,24 @@ const PlasmicDescendants = {
     "serviceDetailOverviewParent",
     "serviceHeadlineParent",
     "headline",
-    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
     "companyVerificationBadgesParent3",
     "companyIsVerified3",
     "serviceImageBlock",
-    "serviceHeroImage",
-    "serviceImageOne",
-    "serviceImageTwo",
-    "serviceImageThree",
-    "serviceImageFour",
-    "serviceFeaturesWrapper",
+    "serviceImageHero",
     "serviceOverviewParent",
     "descriptionBlock",
-    "descriptionAccordion",
+    "serviceDescriptionOverview",
     "processBlock",
-    "processAccordion",
+    "serviceProcessDescription",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
     "methodBlock",
     "toolsBlock",
-    "add2",
-    "delete2",
-    "add3",
-    "delete3",
-    "add4",
-    "delete4",
-    "add5",
-    "delete5",
-    "add6",
-    "delete6",
     "formatBlock",
-    "add7",
-    "delete7",
-    "add8",
-    "delete8",
-    "add9",
-    "delete9",
-    "add10",
-    "delete10",
-    "add11",
-    "delete11",
     "requirementsBlock",
     "termsBlock"
   ],
@@ -1957,7 +1615,6 @@ const PlasmicDescendants = {
   serviceHeadlineParent: [
     "serviceHeadlineParent",
     "headline",
-    "subheading",
     "headlineNamePriceParent",
     "companyNamePriceParent2",
     "serviceCompanyName2",
@@ -1966,7 +1623,6 @@ const PlasmicDescendants = {
   ],
 
   headline: ["headline"],
-  subheading: ["subheading"],
   headlineNamePriceParent: [
     "headlineNamePriceParent",
     "companyNamePriceParent2",
@@ -1983,114 +1639,34 @@ const PlasmicDescendants = {
   ],
 
   companyIsVerified3: ["companyIsVerified3"],
-  serviceImageBlock: [
-    "serviceImageBlock",
-    "serviceHeroImage",
-    "serviceImageOne",
-    "serviceImageTwo",
-    "serviceImageThree",
-    "serviceImageFour",
-    "serviceFeaturesWrapper"
-  ],
-
-  serviceHeroImage: ["serviceHeroImage"],
-  serviceImageOne: ["serviceImageOne"],
-  serviceImageTwo: ["serviceImageTwo"],
-  serviceImageThree: ["serviceImageThree"],
-  serviceImageFour: ["serviceImageFour"],
-  serviceFeaturesWrapper: ["serviceFeaturesWrapper"],
+  serviceImageBlock: ["serviceImageBlock", "serviceImageHero"],
+  serviceImageHero: ["serviceImageHero"],
   serviceOverviewParent: [
     "serviceOverviewParent",
     "descriptionBlock",
-    "descriptionAccordion",
+    "serviceDescriptionOverview",
     "processBlock",
-    "processAccordion",
+    "serviceProcessDescription",
     "featuresBlock",
     "serviceFeaturesOverview",
     "contentBlock",
     "methodBlock",
     "toolsBlock",
-    "add2",
-    "delete2",
-    "add3",
-    "delete3",
-    "add4",
-    "delete4",
-    "add5",
-    "delete5",
-    "add6",
-    "delete6",
     "formatBlock",
-    "add7",
-    "delete7",
-    "add8",
-    "delete8",
-    "add9",
-    "delete9",
-    "add10",
-    "delete10",
-    "add11",
-    "delete11",
     "requirementsBlock",
     "termsBlock"
   ],
 
-  descriptionBlock: ["descriptionBlock", "descriptionAccordion"],
-  descriptionAccordion: ["descriptionAccordion"],
-  processBlock: ["processBlock", "processAccordion"],
-  processAccordion: ["processAccordion"],
+  descriptionBlock: ["descriptionBlock", "serviceDescriptionOverview"],
+  serviceDescriptionOverview: ["serviceDescriptionOverview"],
+  processBlock: ["processBlock", "serviceProcessDescription"],
+  serviceProcessDescription: ["serviceProcessDescription"],
   featuresBlock: ["featuresBlock", "serviceFeaturesOverview"],
   serviceFeaturesOverview: ["serviceFeaturesOverview"],
   contentBlock: ["contentBlock"],
   methodBlock: ["methodBlock"],
-  toolsBlock: [
-    "toolsBlock",
-    "add2",
-    "delete2",
-    "add3",
-    "delete3",
-    "add4",
-    "delete4",
-    "add5",
-    "delete5",
-    "add6",
-    "delete6"
-  ],
-
-  add2: ["add2"],
-  delete2: ["delete2"],
-  add3: ["add3"],
-  delete3: ["delete3"],
-  add4: ["add4"],
-  delete4: ["delete4"],
-  add5: ["add5"],
-  delete5: ["delete5"],
-  add6: ["add6"],
-  delete6: ["delete6"],
-  formatBlock: [
-    "formatBlock",
-    "add7",
-    "delete7",
-    "add8",
-    "delete8",
-    "add9",
-    "delete9",
-    "add10",
-    "delete10",
-    "add11",
-    "delete11"
-  ],
-
-  add7: ["add7"],
-  delete7: ["delete7"],
-  add8: ["add8"],
-  delete8: ["delete8"],
-  add9: ["add9"],
-  delete9: ["delete9"],
-  add10: ["add10"],
-  delete10: ["delete10"],
-  add11: ["add11"],
-  delete11: ["delete11"],
+  toolsBlock: ["toolsBlock"],
+  formatBlock: ["formatBlock"],
   requirementsBlock: ["requirementsBlock"],
   termsBlock: ["termsBlock"],
   serviceOrderParent: [
@@ -2100,6 +1676,7 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
+    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription",
     "companyDescriptionParent",
@@ -2113,7 +1690,6 @@ const PlasmicDescendants = {
     "companyIsVerified4",
     "companyShortDescription",
     "serviceCheckoutButtons",
-    "orderButton",
     "save",
     "bookmark",
     "share",
@@ -2126,6 +1702,7 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
+    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription"
   ],
@@ -2135,6 +1712,7 @@ const PlasmicDescendants = {
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
     "servicePrice",
+    "serviceCurrency",
     "serviceNameTitle",
     "serviceShortDescription"
   ],
@@ -2142,11 +1720,18 @@ const PlasmicDescendants = {
   headlineNamePriceVerificationParent: [
     "headlineNamePriceVerificationParent",
     "companyNamePriceParent",
-    "servicePrice"
+    "servicePrice",
+    "serviceCurrency"
   ],
 
-  companyNamePriceParent: ["companyNamePriceParent", "servicePrice"],
-  servicePrice: ["servicePrice"],
+  companyNamePriceParent: [
+    "companyNamePriceParent",
+    "servicePrice",
+    "serviceCurrency"
+  ],
+
+  servicePrice: ["servicePrice", "serviceCurrency"],
+  serviceCurrency: ["serviceCurrency"],
   serviceNameTitle: ["serviceNameTitle"],
   serviceShortDescription: ["serviceShortDescription"],
   companyDescriptionParent: [
@@ -2187,18 +1772,17 @@ const PlasmicDescendants = {
   companyShortDescription: ["companyShortDescription"],
   serviceCheckoutButtons: [
     "serviceCheckoutButtons",
-    "orderButton",
     "save",
     "bookmark",
     "share",
     "svgShare"
   ],
 
-  orderButton: ["orderButton"],
   save: ["save", "bookmark"],
   bookmark: ["bookmark"],
   share: ["share", "svgShare"],
-  svgShare: ["svgShare"]
+  svgShare: ["svgShare"],
+  footerB: ["footerB"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -2206,12 +1790,12 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicServicedetail__ArgProps,
-      internalVariantPropNames: PlasmicServicedetail__VariantProps
+      internalArgPropNames: PlasmicServiceDetail__ArgProps,
+      internalVariantPropNames: PlasmicServiceDetail__VariantProps
     });
 
     const { dataFetches } = props;
-    return PlasmicServicedetail__RenderFunc({
+    return PlasmicServiceDetail__RenderFunc({
       variants,
       args,
       overrides,
@@ -2220,18 +1804,19 @@ function makeNodeComponent(nodeName) {
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicServicedetail";
+    func.displayName = "PlasmicServiceDetail";
   } else {
-    func.displayName = `PlasmicServicedetail.${nodeName}`;
+    func.displayName = `PlasmicServiceDetail.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicServicedetail = Object.assign(
-  // Top-level PlasmicServicedetail renders the root element
+export const PlasmicServiceDetail = Object.assign(
+  // Top-level PlasmicServiceDetail renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    navbarPrimary: makeNodeComponent("navbarPrimary"),
     serviceDetailCheckoutPageParent: makeNodeComponent(
       "serviceDetailCheckoutPageParent"
     ),
@@ -2242,7 +1827,6 @@ export const PlasmicServicedetail = Object.assign(
 
     serviceHeadlineParent: makeNodeComponent("serviceHeadlineParent"),
     headline: makeNodeComponent("headline"),
-    subheading: makeNodeComponent("subheading"),
     headlineNamePriceParent: makeNodeComponent("headlineNamePriceParent"),
     companyNamePriceParent2: makeNodeComponent("companyNamePriceParent2"),
     serviceCompanyName2: makeNodeComponent("serviceCompanyName2"),
@@ -2252,43 +1836,18 @@ export const PlasmicServicedetail = Object.assign(
 
     companyIsVerified3: makeNodeComponent("companyIsVerified3"),
     serviceImageBlock: makeNodeComponent("serviceImageBlock"),
-    serviceHeroImage: makeNodeComponent("serviceHeroImage"),
-    serviceImageOne: makeNodeComponent("serviceImageOne"),
-    serviceImageTwo: makeNodeComponent("serviceImageTwo"),
-    serviceImageThree: makeNodeComponent("serviceImageThree"),
-    serviceImageFour: makeNodeComponent("serviceImageFour"),
-    serviceFeaturesWrapper: makeNodeComponent("serviceFeaturesWrapper"),
+    serviceImageHero: makeNodeComponent("serviceImageHero"),
     serviceOverviewParent: makeNodeComponent("serviceOverviewParent"),
     descriptionBlock: makeNodeComponent("descriptionBlock"),
-    descriptionAccordion: makeNodeComponent("descriptionAccordion"),
+    serviceDescriptionOverview: makeNodeComponent("serviceDescriptionOverview"),
     processBlock: makeNodeComponent("processBlock"),
-    processAccordion: makeNodeComponent("processAccordion"),
+    serviceProcessDescription: makeNodeComponent("serviceProcessDescription"),
     featuresBlock: makeNodeComponent("featuresBlock"),
     serviceFeaturesOverview: makeNodeComponent("serviceFeaturesOverview"),
     contentBlock: makeNodeComponent("contentBlock"),
     methodBlock: makeNodeComponent("methodBlock"),
     toolsBlock: makeNodeComponent("toolsBlock"),
-    add2: makeNodeComponent("add2"),
-    delete2: makeNodeComponent("delete2"),
-    add3: makeNodeComponent("add3"),
-    delete3: makeNodeComponent("delete3"),
-    add4: makeNodeComponent("add4"),
-    delete4: makeNodeComponent("delete4"),
-    add5: makeNodeComponent("add5"),
-    delete5: makeNodeComponent("delete5"),
-    add6: makeNodeComponent("add6"),
-    delete6: makeNodeComponent("delete6"),
     formatBlock: makeNodeComponent("formatBlock"),
-    add7: makeNodeComponent("add7"),
-    delete7: makeNodeComponent("delete7"),
-    add8: makeNodeComponent("add8"),
-    delete8: makeNodeComponent("delete8"),
-    add9: makeNodeComponent("add9"),
-    delete9: makeNodeComponent("delete9"),
-    add10: makeNodeComponent("add10"),
-    delete10: makeNodeComponent("delete10"),
-    add11: makeNodeComponent("add11"),
-    delete11: makeNodeComponent("delete11"),
     requirementsBlock: makeNodeComponent("requirementsBlock"),
     termsBlock: makeNodeComponent("termsBlock"),
     serviceOrderParent: makeNodeComponent("serviceOrderParent"),
@@ -2300,6 +1859,7 @@ export const PlasmicServicedetail = Object.assign(
 
     companyNamePriceParent: makeNodeComponent("companyNamePriceParent"),
     servicePrice: makeNodeComponent("servicePrice"),
+    serviceCurrency: makeNodeComponent("serviceCurrency"),
     serviceNameTitle: makeNodeComponent("serviceNameTitle"),
     serviceShortDescription: makeNodeComponent("serviceShortDescription"),
     companyDescriptionParent: makeNodeComponent("companyDescriptionParent"),
@@ -2316,16 +1876,16 @@ export const PlasmicServicedetail = Object.assign(
     companyIsVerified4: makeNodeComponent("companyIsVerified4"),
     companyShortDescription: makeNodeComponent("companyShortDescription"),
     serviceCheckoutButtons: makeNodeComponent("serviceCheckoutButtons"),
-    orderButton: makeNodeComponent("orderButton"),
     save: makeNodeComponent("save"),
     bookmark: makeNodeComponent("bookmark"),
     share: makeNodeComponent("share"),
     svgShare: makeNodeComponent("svgShare"),
-    // Metadata about props expected for PlasmicServicedetail
-    internalVariantProps: PlasmicServicedetail__VariantProps,
-    internalArgProps: PlasmicServicedetail__ArgProps
+    footerB: makeNodeComponent("footerB"),
+    // Metadata about props expected for PlasmicServiceDetail
+    internalVariantProps: PlasmicServiceDetail__VariantProps,
+    internalArgProps: PlasmicServiceDetail__ArgProps
   }
 );
 
-export default PlasmicServicedetail;
+export default PlasmicServiceDetail;
 /* prettier-ignore-end */

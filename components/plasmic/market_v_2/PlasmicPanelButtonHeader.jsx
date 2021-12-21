@@ -14,10 +14,12 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import PanelButtonPrimary from "../../PanelButtonPrimary"; // plasmic-import: dNsNyn-hp9/component
 import PanelButtonSecondary from "../../PanelButtonSecondary"; // plasmic-import: cwyuvAY7ua/component
+import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelButtonHeader.module.css"; // plasmic-import: l8x-1W9kbZ/css
@@ -28,6 +30,10 @@ export const PlasmicPanelButtonHeader__ArgProps = new Array();
 
 function PlasmicPanelButtonHeader__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props;
+  const globalVariants = ensureGlobalVariants({
+    layout: useLayout()
+  });
+
   return (
     <p.Stack
       as={"div"}
@@ -42,6 +48,12 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
         data-plasmic-name={"partnerNewListing"}
         data-plasmic-override={overrides.partnerNewListing}
         className={classNames("__wab_instance", sty.partnerNewListing, {
+          [sty.partnerNewListing__global_layout_isSellerView]: hasVariant(
+            globalVariants,
+            "layout",
+            "isSellerView"
+          ),
+
           [sty.partnerNewListing__user_member]: hasVariant(
             variants,
             "user",
@@ -61,6 +73,12 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
         data-plasmic-name={"partnerPowerUp"}
         data-plasmic-override={overrides.partnerPowerUp}
         className={classNames("__wab_instance", sty.partnerPowerUp, {
+          [sty.partnerPowerUp__global_layout_isSellerView]: hasVariant(
+            globalVariants,
+            "layout",
+            "isSellerView"
+          ),
+
           [sty.partnerPowerUp__user_member]: hasVariant(
             variants,
             "user",

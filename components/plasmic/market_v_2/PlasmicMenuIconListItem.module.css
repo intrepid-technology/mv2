@@ -32,19 +32,19 @@
   margin-left: 8px;
 }
 .menuIconListItemLink__selected {
-  background: #6633ff;
+  background: #f0ebff;
   border-radius: 8px;
 }
 .menuIconListItemLink:hover {
   background: #f8f8f8;
 }
 .menuIconListItemLink__selected:hover {
-  background: #6633ff;
+  background: #c2adff;
 }
 .menuIconListItemLink:focus-within {
-  background: #f8f8f8;
+  background: #f0ebff;
   outline: none;
-  border-bottom: 2px solid #101010 /* plasmic-token: F4gy0u3aB */;
+  border-bottom: 2px solid #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .iconTextParent {
   display: flex;
@@ -80,7 +80,7 @@
   outline: none;
 }
 .slotTargetNavIcon {
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
   font-size: 16px;
   line-height: 1;
 }
@@ -88,19 +88,19 @@
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavIcon__selected {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:hover .slotTargetNavIcon {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .menuIconListItemLink__disabled:hover .slotTargetNavIcon__disabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .menuIconListItemLink__selected:hover .slotTargetNavIcon__selected {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavIcon {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavIcon > *,
 .menuIconListItemLink:focus-within .slotTargetNavIcon > .__wab_slot > *,
@@ -152,26 +152,26 @@
 .slotTargetNavText {
   font-size: 16px;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #525a6a /* plasmic-token: xfNU8zBzA */;
   font-weight: 500;
 }
 .slotTargetNavText__disabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .slotTargetNavText__selected {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:hover .slotTargetNavText {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .menuIconListItemLink__disabled:hover .slotTargetNavText__disabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .menuIconListItemLink__selected:hover .slotTargetNavText__selected {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavText {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavText > *,
 .menuIconListItemLink:focus-within .slotTargetNavText > .__wab_slot > *,
