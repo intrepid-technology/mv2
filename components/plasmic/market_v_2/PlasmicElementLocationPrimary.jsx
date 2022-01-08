@@ -29,7 +29,7 @@ export const PlasmicElementLocationPrimary__VariantProps = new Array();
 export const PlasmicElementLocationPrimary__ArgProps = new Array();
 
 function PlasmicElementLocationPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -193,12 +193,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementLocationPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementLocationPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

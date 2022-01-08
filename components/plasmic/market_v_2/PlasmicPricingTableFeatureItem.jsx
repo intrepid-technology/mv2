@@ -28,7 +28,7 @@ export const PlasmicPricingTableFeatureItem__VariantProps = new Array(
 export const PlasmicPricingTableFeatureItem__ArgProps = new Array("children");
 
 function PlasmicPricingTableFeatureItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -107,12 +107,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPricingTableFeatureItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPricingTableFeatureItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

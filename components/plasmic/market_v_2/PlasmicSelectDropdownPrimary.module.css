@@ -1,24 +1,27 @@
 .root {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
+}
+.root__width_stretch {
+  width: 100%;
   min-width: 0;
 }
 .trigger {
   position: relative;
   display: flex;
   flex-direction: row;
-  height: 32px;
-  padding-right: 4px;
-  padding-left: 4px;
+  height: 40px;
+  padding-right: 8px;
+  padding-left: 8px;
   width: 100%;
-  background: #f8f8f8;
+  background: #ffffff;
   min-width: 0;
   flex-shrink: 0;
-  border-radius: 2px;
-  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border-radius: 4px;
+  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
 .trigger > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -99,6 +102,7 @@
 }
 .slotTargetSelectedContent {
   white-space: pre;
+  color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
 }
 .slotTargetSelectedContent > .__wab_text,
 .slotTargetSelectedContent > .__wab_slot-string-wrapper,
@@ -175,6 +179,7 @@
   object-fit: cover;
   width: 1em;
   height: 1em;
+  color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
   flex-shrink: 0;
 }
 .root .dropdownIcon_____focusVisibleWithin {

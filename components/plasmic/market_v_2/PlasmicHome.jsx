@@ -22,7 +22,7 @@ import Navbar from "../../Navbar"; // plasmic-import: pP9c6XTFzc/component
 import BadgeSectionTitle from "../../BadgeSectionTitle"; // plasmic-import: kKmAboE5L2/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import IconElementCircle from "../../IconElementCircle"; // plasmic-import: NwC_LltBnY/component
-import CardFeatureHeadlineDescriptionCentered from "../../CardFeatureHeadlineDescriptionCentered"; // plasmic-import: qwkYbKgKSI/component
+import CardFeatureHeadlineDescriptionPrimary from "../../CardFeatureHeadlineDescriptionPrimary"; // plasmic-import: qwkYbKgKSI/component
 import CardImageHeadlineDescription from "../../CardImageHeadlineDescription"; // plasmic-import: Kht0-rt2fI1/component
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
@@ -44,7 +44,7 @@ export const PlasmicHome__VariantProps = new Array();
 export const PlasmicHome__ArgProps = new Array("children", "slot3");
 
 function PlasmicHome__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -112,7 +112,7 @@ function PlasmicHome__RenderFunc(props) {
                 data-plasmic-name={"navbar"}
                 data-plasmic-override={overrides.navbar}
                 className={classNames("__wab_instance", sty.navbar)}
-                dark={"dark"}
+                dark={true}
               />
             </div>
           ) : null}
@@ -261,8 +261,8 @@ function PlasmicHome__RenderFunc(props) {
                           ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                           : "https://intrepidventures.typeform.com/to/MthpVWrA"
                       }
-                      hasShadow={"hasShadow"}
-                      rounded={"rounded"}
+                      hasShadow={true}
+                      rounded={true}
                     >
                       {"Request access"}
                     </Button>
@@ -363,9 +363,7 @@ function PlasmicHome__RenderFunc(props) {
             >
               <BadgeSectionTitle
                 border={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "border"
-                    : "border"
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 }
                 className={classNames(
                   "__wab_instance",
@@ -437,13 +435,13 @@ function PlasmicHome__RenderFunc(props) {
                     }
                   />
 
-                  <CardFeatureHeadlineDescriptionCentered
+                  <CardFeatureHeadlineDescriptionPrimary
                     bodyTextSlot={
                       "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
                     }
                     className={classNames(
                       "__wab_instance",
-                      sty.cardFeatureHeadlineDescriptionCentered__sBz8O
+                      sty.cardFeatureHeadlineDescriptionPrimary__sBz8O
                     )}
                     headlineSlot={"Find and hire freelancers & agencies"}
                   />
@@ -468,7 +466,7 @@ function PlasmicHome__RenderFunc(props) {
                     }
                   />
 
-                  <CardFeatureHeadlineDescriptionCentered
+                  <CardFeatureHeadlineDescriptionPrimary
                     bodyTextSlot={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Finance your product development, hire and onboard at no risk and go to market fast with a line of credit"
@@ -478,7 +476,7 @@ function PlasmicHome__RenderFunc(props) {
                     }
                     className={classNames(
                       "__wab_instance",
-                      sty.cardFeatureHeadlineDescriptionCentered__v4Umg
+                      sty.cardFeatureHeadlineDescriptionPrimary__v4Umg
                     )}
                     headlineSlot={"60 day net payment terms "}
                   />
@@ -503,13 +501,13 @@ function PlasmicHome__RenderFunc(props) {
                     }
                   />
 
-                  <CardFeatureHeadlineDescriptionCentered
+                  <CardFeatureHeadlineDescriptionPrimary
                     bodyTextSlot={
                       "Pay your international team wherever they are in the world with fast and easy cross border payments and receipt tracking"
                     }
                     className={classNames(
                       "__wab_instance",
-                      sty.cardFeatureHeadlineDescriptionCentered__jNiMn
+                      sty.cardFeatureHeadlineDescriptionPrimary__jNiMn
                     )}
                     headlineSlot={"Pay your team in 150 countries"}
                   />
@@ -589,13 +587,13 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   hasShadow={
                     hasVariant(globalVariants, "screen", "desktop")
-                      ? "hasShadow"
-                      : "hasShadow"
+                      ? true
+                      : true
                   }
                   rounded={
                     hasVariant(globalVariants, "screen", "desktop")
-                      ? "rounded"
-                      : "rounded"
+                      ? true
+                      : true
                   }
                 >
                   {"Request access"}
@@ -613,9 +611,7 @@ function PlasmicHome__RenderFunc(props) {
             >
               <BadgeSectionTitle
                 border={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "border"
-                    : "border"
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 }
                 className={classNames(
                   "__wab_instance",
@@ -684,7 +680,7 @@ function PlasmicHome__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardImageHeadlineDescription__fhKY
                   )}
-                  description={"description"}
+                  description={true}
                   size={"_270X270"}
                   textLinkHeadlineParent={
                     <TextLinkUnderlinePrimary
@@ -719,7 +715,7 @@ function PlasmicHome__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardImageHeadlineDescription__wZlFw
                   )}
-                  description={"description"}
+                  description={true}
                   size={"_270X270"}
                   textLinkHeadlineParent={
                     <TextLinkUnderlinePrimary
@@ -754,7 +750,7 @@ function PlasmicHome__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardImageHeadlineDescription__xo9Zh
                   )}
-                  description={"description"}
+                  description={true}
                   size={"_270X270"}
                   textLinkHeadlineParent={
                     <TextLinkUnderlinePrimary
@@ -789,7 +785,7 @@ function PlasmicHome__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardImageHeadlineDescription__kVaoK
                   )}
-                  description={"description"}
+                  description={true}
                   size={"_270X270"}
                   textLinkHeadlineParent={
                     <TextLinkUnderlinePrimary
@@ -835,7 +831,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__x6Dtz)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__eEqzD
@@ -941,7 +937,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__iik51)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__ag0Mo
@@ -1043,7 +1039,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__jMi7)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__fnY2C
@@ -1145,7 +1141,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__kn6B)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__djN33
@@ -1255,7 +1251,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__hGmJc)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__b6S0
@@ -1365,7 +1361,7 @@ function PlasmicHome__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.freeBox__nvkKv)}
                     >
                       <BadgeSectionTitle
-                        border={"border"}
+                        border={true}
                         className={classNames(
                           "__wab_instance",
                           sty.badgeSectionTitle__o4Dv2
@@ -1450,9 +1446,7 @@ function PlasmicHome__RenderFunc(props) {
             >
               <BadgeSectionTitle
                 border={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "border"
-                    : "border"
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 }
                 className={classNames(
                   "__wab_instance",
@@ -1644,8 +1638,8 @@ function PlasmicHome__RenderFunc(props) {
                   }
                   rounded={
                     hasVariant(globalVariants, "screen", "desktop")
-                      ? "rounded"
-                      : "rounded"
+                      ? true
+                      : true
                   }
                 >
                   {"Request access"}
@@ -1664,9 +1658,7 @@ function PlasmicHome__RenderFunc(props) {
                 data-plasmic-override={overrides.footer}
                 className={classNames("__wab_instance", sty.footer)}
                 color={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "color"
-                    : "color"
+                  hasVariant(globalVariants, "screen", "desktop") ? true : true
                 }
               />
             </div>
@@ -1735,12 +1727,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicHome__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicHome__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

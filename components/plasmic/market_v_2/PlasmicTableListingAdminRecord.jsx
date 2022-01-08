@@ -48,7 +48,7 @@ export const PlasmicTableListingAdminRecord__ArgProps = new Array(
 );
 
 function PlasmicTableListingAdminRecord__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -324,15 +324,14 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               })}
               color={
                 hasVariant(variants, "toDo", "boost")
-                  ? "brand"
+                  ? "primary"
                   : hasVariant(variants, "toDo", "activate")
-                  ? "brand"
+                  ? "primary"
                   : hasVariant(variants, "toDo", "finish")
                   ? "success"
                   : undefined
               }
-              size={"_90"}
-              svgIcon={
+              svgIconPrefix={
                 <p.PlasmicIcon
                   data-plasmic-name={"svg"}
                   data-plasmic-override={overrides.svg}
@@ -347,7 +346,10 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   role={"img"}
                 />
               }
-              type={hasVariant(variants, "toDo", "boost") ? "icon" : "ghost"}
+              type={
+                hasVariant(variants, "toDo", "boost") ? "iconPrefix" : "ghost"
+              }
+              width={"_90"}
             >
               {hasVariant(variants, "toDo", "boost")
                 ? "Boost"
@@ -713,12 +715,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableListingAdminRecord__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableListingAdminRecord__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

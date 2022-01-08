@@ -29,7 +29,7 @@ export const PlasmicSectionServiceContent__VariantProps = new Array(
 export const PlasmicSectionServiceContent__ArgProps = new Array("children");
 
 function PlasmicSectionServiceContent__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -155,7 +155,7 @@ function PlasmicSectionServiceContent__RenderFunc(props) {
               hasVariant(variants, "serviceType", "wireframes")
           }
         )}
-        description={"description"}
+        description={true}
       >
         {hasVariant(variants, "serviceType", "webMultiplePage")
           ? "Screens"
@@ -199,7 +199,7 @@ function PlasmicSectionServiceContent__RenderFunc(props) {
               hasVariant(variants, "serviceType", "wireframes")
           }
         )}
-        description={"description"}
+        description={true}
       >
         {hasVariant(variants, "serviceType", "webMultiplePage")
           ? "Screens"
@@ -243,7 +243,7 @@ function PlasmicSectionServiceContent__RenderFunc(props) {
               hasVariant(variants, "serviceType", "wireframes")
           }
         )}
-        description={"description"}
+        description={true}
       >
         {hasVariant(variants, "serviceType", "webMultiplePage")
           ? "Screens"
@@ -286,12 +286,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionServiceContent__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionServiceContent__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicNavbarNotifications__VariantProps = new Array("light");
 export const PlasmicNavbarNotifications__ArgProps = new Array();
 
 function PlasmicNavbarNotifications__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -62,12 +62,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarNotifications__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarNotifications__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

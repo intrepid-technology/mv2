@@ -24,7 +24,7 @@ export const PlasmicNotifications__VariantProps = new Array();
 export const PlasmicNotifications__ArgProps = new Array();
 
 function PlasmicNotifications__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -87,12 +87,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNotifications__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNotifications__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

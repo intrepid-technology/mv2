@@ -32,7 +32,7 @@ export const PlasmicCheckoutServiceListing__VariantProps = new Array();
 export const PlasmicCheckoutServiceListing__ArgProps = new Array();
 
 function PlasmicCheckoutServiceListing__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -310,8 +310,8 @@ function PlasmicCheckoutServiceListing__RenderFunc(props) {
           data-plasmic-name={"checkoutPlaceOrder"}
           data-plasmic-override={overrides.checkoutPlaceOrder}
           className={classNames("__wab_instance", sty.checkoutPlaceOrder)}
-          color={"brand"}
-          size={"_360"}
+          color={"primary"}
+          width={"_360"}
         >
           <div
             className={classNames(
@@ -397,12 +397,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCheckoutServiceListing__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCheckoutServiceListing__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

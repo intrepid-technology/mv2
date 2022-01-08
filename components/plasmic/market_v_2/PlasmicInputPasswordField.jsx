@@ -27,7 +27,7 @@ export const PlasmicInputPasswordField__VariantProps = new Array(
 export const PlasmicInputPasswordField__ArgProps = new Array();
 
 function PlasmicInputPasswordField__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -82,12 +82,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputPasswordField__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputPasswordField__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

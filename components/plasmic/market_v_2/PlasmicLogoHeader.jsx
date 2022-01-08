@@ -28,7 +28,7 @@ export const PlasmicLogoHeader__VariantProps = new Array("color");
 export const PlasmicLogoHeader__ArgProps = new Array("children");
 
 function PlasmicLogoHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicLogoHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicLogoHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

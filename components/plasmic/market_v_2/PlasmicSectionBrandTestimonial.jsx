@@ -35,7 +35,7 @@ export const PlasmicSectionBrandTestimonial__ArgProps = new Array(
 );
 
 function PlasmicSectionBrandTestimonial__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -126,12 +126,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionBrandTestimonial__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionBrandTestimonial__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

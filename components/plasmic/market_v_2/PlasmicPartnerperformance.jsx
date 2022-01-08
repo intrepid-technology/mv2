@@ -47,7 +47,7 @@ export const PlasmicPartnerperformance__VariantProps = new Array();
 export const PlasmicPartnerperformance__ArgProps = new Array();
 
 function PlasmicPartnerperformance__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -158,7 +158,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__doZvu
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
                     className={classNames(projectcss.all, sty.svg__s0Oo9)}
@@ -177,7 +177,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={"_180X32"}
               />
             </p.Stack>
@@ -207,7 +207,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerRatings)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -309,7 +309,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"930"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -364,7 +364,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerOrders)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -376,7 +376,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"100"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -408,7 +408,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerReviews)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -420,7 +420,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -486,7 +486,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__qxjGv
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
                     className={classNames(projectcss.all, sty.svg__lkOPm)}
@@ -505,7 +505,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={
                   hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_180X32"
@@ -536,7 +536,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerListings)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -548,7 +548,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -583,7 +583,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerListingViews
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -653,7 +653,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerProfileViews
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -720,7 +720,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerReacts)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -787,7 +787,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerSaves)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -857,7 +857,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerResponseRate
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -936,7 +936,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__st5ST
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
                     className={classNames(projectcss.all, sty.svg__jtcur)}
@@ -955,7 +955,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={"_180X32"}
               />
             </p.Stack>
@@ -985,7 +985,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerSubscribers)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -997,7 +997,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -1029,7 +1029,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerConnections)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -1041,7 +1041,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -1086,7 +1086,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerFollowers)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -1098,7 +1098,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -1143,7 +1143,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerFollowing)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
@@ -1155,7 +1155,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
                   <div
@@ -1301,12 +1301,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPartnerperformance__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPartnerperformance__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

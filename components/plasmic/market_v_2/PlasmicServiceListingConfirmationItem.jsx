@@ -38,7 +38,7 @@ export const PlasmicServiceListingConfirmationItem__ArgProps = new Array(
 );
 
 function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -248,12 +248,10 @@ function makeNodeComponent(nodeName) {
         PlasmicServiceListingConfirmationItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceListingConfirmationItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -26,7 +26,7 @@ export const PlasmicRadioTextInputPrimary__VariantProps = new Array("size");
 export const PlasmicRadioTextInputPrimary__ArgProps = new Array("itemText");
 
 function PlasmicRadioTextInputPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -106,12 +106,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicRadioTextInputPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicRadioTextInputPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

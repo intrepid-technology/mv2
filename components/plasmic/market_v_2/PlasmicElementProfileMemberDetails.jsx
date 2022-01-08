@@ -37,7 +37,7 @@ export const PlasmicElementProfileMemberDetails__VariantProps = new Array();
 export const PlasmicElementProfileMemberDetails__ArgProps = new Array();
 
 function PlasmicElementProfileMemberDetails__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -115,7 +115,7 @@ function PlasmicElementProfileMemberDetails__RenderFunc(props) {
                   data-plasmic-override={overrides.ratingDisplayDetail}
                   reviews={
                     hasVariant(globalVariants, "screen", "desktop")
-                      ? "reviews"
+                      ? true
                       : undefined
                   }
                   size={
@@ -1081,12 +1081,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementProfileMemberDetails__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementProfileMemberDetails__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

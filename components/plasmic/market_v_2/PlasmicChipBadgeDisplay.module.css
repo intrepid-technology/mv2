@@ -4,10 +4,10 @@
   width: auto;
   height: 24px;
   position: relative;
-  background: #101010;
+  background: #14161b;
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #101010 /* plasmic-token: 7-Hl8dlot */;
+  border: 1px solid #14161b /* plasmic-token: gtUIPzlCk */;
 }
 .chipDisplay > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -64,8 +64,8 @@
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .chipDisplay__color_brand {
-  background: #6633ff;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  background: #5229cc;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .chipDisplay__size__32 {
   height: 32px;
@@ -93,8 +93,8 @@
   align-items: center;
 }
 .chipDisplay__trigger_disabled {
-  background: #3d4350;
-  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  background: #f1f1f1;
+  border-color: #f1f1f1 /* plasmic-token: _lNibwHIy */;
 }
 .chipDisplay__type_outline {
   background: #ffffff;
@@ -111,7 +111,7 @@
 }
 .chipDisplay__type_ghost_color_brand {
   background: #f0ebff;
-  border-color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .chipDisplay__type_primary_color_green {
   background: #00ccbb;
@@ -137,6 +137,9 @@
   background: #ffffff;
   border-color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
+.chipDisplay__color_brand:hover {
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
+}
 .chipDisplay__type_primary:hover {
   background: #ffffff;
   border-color: #101010 /* plasmic-token: 7-Hl8dlot */;
@@ -157,6 +160,7 @@
   font-size: 14px;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   line-height: 1;
+  font-weight: 400;
 }
 .slotTargetChildren__disabled {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
@@ -180,7 +184,7 @@
   font-size: 24px;
 }
 .slotTargetChildren__trigger_disabled {
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
 .slotTargetChildren__type_outline {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
@@ -216,7 +220,7 @@
   line-height: 1;
 }
 .slotTargetChildren__type_ghost_color_brand {
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .slotTargetChildren__color_blue_type_ghost {
   color: #5c85ff /* plasmic-token: XsRWz_jVS */;
@@ -232,6 +236,9 @@
 }
 .chipDisplay:hover .slotTargetChildren {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.chipDisplay__color_brand:hover .slotTargetChildren__color_brand {
+  color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .chipDisplay__type_primary:hover .slotTargetChildren__type_primary {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;

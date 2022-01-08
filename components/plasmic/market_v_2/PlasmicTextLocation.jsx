@@ -26,7 +26,7 @@ export const PlasmicTextLocation__VariantProps = new Array();
 export const PlasmicTextLocation__ArgProps = new Array("children", "slot");
 
 function PlasmicTextLocation__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -82,12 +82,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextLocation__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextLocation__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

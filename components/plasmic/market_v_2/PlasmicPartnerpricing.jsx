@@ -46,7 +46,7 @@ export const PlasmicPartnerpricing__VariantProps = new Array();
 export const PlasmicPartnerpricing__ArgProps = new Array();
 
 function PlasmicPartnerpricing__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -117,8 +117,8 @@ function PlasmicPartnerpricing__RenderFunc(props) {
               data-plasmic-name={"partnerSellingButton"}
               data-plasmic-override={overrides.partnerSellingButton}
               className={classNames("__wab_instance", sty.partnerSellingButton)}
-              color={"brand"}
-              size={"_360"}
+              color={"primary"}
+              width={"_360"}
             >
               <div
                 className={classNames(
@@ -681,8 +681,8 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       "__wab_instance",
                       sty.buttonPrimary__rw226
                     )}
-                    color={"brand"}
-                    size={"_270"}
+                    color={"primary"}
+                    width={"_270"}
                   >
                     <div
                       className={classNames(
@@ -1361,8 +1361,8 @@ function PlasmicPartnerpricing__RenderFunc(props) {
 
             <ButtonPrimary
               className={classNames("__wab_instance", sty.buttonPrimary__tA8Ol)}
-              color={"brand"}
-              size={"_360"}
+              color={"primary"}
+              width={"_360"}
             >
               <div
                 className={classNames(
@@ -1465,12 +1465,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPartnerpricing__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPartnerpricing__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -29,7 +29,7 @@ export const PlasmicCardTestimonial__ArgProps = new Array(
 );
 
 function PlasmicCardTestimonial__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -98,12 +98,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardTestimonial__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardTestimonial__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

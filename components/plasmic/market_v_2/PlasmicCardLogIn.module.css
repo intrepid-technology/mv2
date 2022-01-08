@@ -83,14 +83,14 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
 .formLogin .email:hover {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .formLogin .email:focus {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .inputPasswordLabelParent {
   display: flex;
@@ -150,14 +150,14 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
 .formLogin .password:hover {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .formLogin .password:focus {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .text__zEuFv {
   display: block;

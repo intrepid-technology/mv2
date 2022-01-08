@@ -25,7 +25,7 @@ export const PlasmicIconListItem__VariantProps = new Array("vertical");
 export const PlasmicIconListItem__ArgProps = new Array("icon", "label");
 
 function PlasmicIconListItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -98,12 +98,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicIconListItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicIconListItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -55,10 +55,20 @@
   text-transform: uppercase;
   letter-spacing: normal;
 }
+.text__global_layout_isSellerView___8Dh5Cfw6NW {
+  font-size: 10px;
+  color: #14161b /* plasmic-token: gtUIPzlCk */;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: normal;
+}
 .menuIconListItem__dsDoA:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage2 {
   object-fit: cover;
@@ -66,10 +76,15 @@
   width: 16px;
   height: 16px;
 }
+.navImage2__global_layout_isSellerView {
+  width: 24px;
+  height: 24px;
+}
 .menuIconListItem__lqd7E:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage3 {
   object-fit: cover;
@@ -77,16 +92,25 @@
   width: 16px;
   height: 16px;
 }
+.navImage3__global_layout_isSellerView {
+  width: 24px;
+  height: 24px;
+}
 .menuIconListItem__jjVq7:global(.__wab_instance) {
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage {
   object-fit: cover;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   width: 16px;
   height: 16px;
+}
+.navImage__global_layout_isSellerView {
+  width: 24px;
+  height: 24px;
 }
 .switchToMemberButton:global(.__wab_instance) {
   position: relative;

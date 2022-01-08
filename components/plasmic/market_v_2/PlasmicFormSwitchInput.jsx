@@ -26,7 +26,7 @@ export const PlasmicFormSwitchInput__VariantProps = new Array("on", "disabled");
 export const PlasmicFormSwitchInput__ArgProps = new Array("content", "name");
 
 function PlasmicFormSwitchInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -55,10 +55,10 @@ function PlasmicFormSwitchInput__RenderFunc(props) {
           value: args.content
         })}
         disabled={
-          hasVariant(variants, "disabled", "disabled") ? "disabled" : undefined
+          hasVariant(variants, "disabled", "disabled") ? true : undefined
         }
         name={args.name}
-        on={hasVariant(variants, "on", "on") ? "on" : undefined}
+        on={hasVariant(variants, "on", "on") ? true : undefined}
       />
     </div>
   );
@@ -78,12 +78,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormSwitchInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormSwitchInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

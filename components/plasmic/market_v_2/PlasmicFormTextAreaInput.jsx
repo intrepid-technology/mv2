@@ -31,7 +31,7 @@ export const PlasmicFormTextAreaInput__ArgProps = new Array(
 );
 
 function PlasmicFormTextAreaInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -111,12 +111,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormTextAreaInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormTextAreaInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

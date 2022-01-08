@@ -26,7 +26,7 @@ export const PlasmicNoteCard__VariantProps = new Array("button");
 export const PlasmicNoteCard__ArgProps = new Array("message", "note");
 
 function PlasmicNoteCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -80,7 +80,7 @@ function PlasmicNoteCard__RenderFunc(props) {
         className={classNames("__wab_instance", sty.buttonPrimary, {
           [sty.buttonPrimary__button]: hasVariant(variants, "button", "button")
         })}
-        size={"_90"}
+        width={"_90"}
       />
     </p.Stack>
   );
@@ -118,12 +118,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNoteCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNoteCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

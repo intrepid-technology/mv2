@@ -30,7 +30,7 @@ export const PlasmicTableUserAdminRecord__VariantProps = new Array("action");
 export const PlasmicTableUserAdminRecord__ArgProps = new Array();
 
 function PlasmicTableUserAdminRecord__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -203,11 +203,11 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
                   "button"
                 )
               })}
-              size={
-                hasVariant(variants, "action", "button") ? "_90" : undefined
-              }
               type={
                 hasVariant(variants, "action", "button") ? "link" : undefined
+              }
+              width={
+                hasVariant(variants, "action", "button") ? "_90" : undefined
               }
             />
           ) : null}
@@ -277,12 +277,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableUserAdminRecord__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableUserAdminRecord__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

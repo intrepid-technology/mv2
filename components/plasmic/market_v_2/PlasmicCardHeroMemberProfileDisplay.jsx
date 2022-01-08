@@ -40,7 +40,7 @@ export const PlasmicCardHeroMemberProfileDisplay__VariantProps = new Array(
 export const PlasmicCardHeroMemberProfileDisplay__ArgProps = new Array();
 
 function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -89,9 +89,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
             }
             size={"_80"}
             verified={
-              hasVariant(globalVariants, "screen", "desktop")
-                ? "verified"
-                : "verified"
+              hasVariant(globalVariants, "screen", "desktop") ? true : true
             }
           />
 
@@ -360,7 +358,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               })}
               color={
                 hasVariant(variants, "userState", "loggedIn")
-                  ? "brand"
+                  ? "primary"
                   : undefined
               }
               height={
@@ -406,15 +404,15 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               data-plasmic-override={overrides.buttonPrimary}
               color={
                 hasVariant(variants, "userState", "loggedIn")
-                  ? "brand"
-                  : "brand"
+                  ? "primary"
+                  : "primary"
               }
-              size={"_120"}
               type={
                 hasVariant(variants, "userState", "loggedIn")
                   ? "outline"
                   : "primary"
               }
+              width={"_120"}
             >
               {hasVariant(variants, "userState", "loggedIn")
                 ? "Edit"
@@ -596,12 +594,10 @@ function makeNodeComponent(nodeName) {
         PlasmicCardHeroMemberProfileDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardHeroMemberProfileDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

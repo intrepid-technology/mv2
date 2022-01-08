@@ -31,7 +31,7 @@ export const PlasmicNavLinkCounter__ArgProps = new Array(
 );
 
 function PlasmicNavLinkCounter__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -129,12 +129,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavLinkCounter__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavLinkCounter__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicDialogActions__VariantProps = new Array();
 export const PlasmicDialogActions__ArgProps = new Array();
 
 function PlasmicDialogActions__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return true ? (
     <p.Stack
       as={"div"}
@@ -72,12 +72,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDialogActions__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDialogActions__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

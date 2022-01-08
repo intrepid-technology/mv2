@@ -28,7 +28,7 @@ export const PlasmicElementStripeLogoLinkBurple__VariantProps = new Array(
 export const PlasmicElementStripeLogoLinkBurple__ArgProps = new Array();
 
 function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"stripeLink"}
@@ -86,12 +86,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementStripeLogoLinkBurple__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementStripeLogoLinkBurple__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

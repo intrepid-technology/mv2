@@ -28,7 +28,7 @@ export const PlasmicPageBreadcrumbs__ArgProps = new Array(
 );
 
 function PlasmicPageBreadcrumbs__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -44,20 +44,20 @@ function PlasmicPageBreadcrumbs__RenderFunc(props) {
           <React.Fragment>
             <Breadcrumb
               className={classNames("__wab_instance", sty.breadcrumb__f1Lqj)}
-              hasDestination={"hasDestination"}
+              hasDestination={true}
               label={"Home"}
             />
 
             <Breadcrumb
               className={classNames("__wab_instance", sty.breadcrumb__s52Gv)}
-              hasDestination={"hasDestination"}
+              hasDestination={true}
               label={"Breacrumb 1"}
             />
 
             <Breadcrumb
               className={classNames("__wab_instance", sty.breadcrumb__ce9Iu)}
-              isLast={"isLast"}
-              isSelected={"isSelected"}
+              isLast={true}
+              isSelected={true}
               label={"Breadcrumb 2"}
             />
           </React.Fragment>
@@ -82,12 +82,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPageBreadcrumbs__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPageBreadcrumbs__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

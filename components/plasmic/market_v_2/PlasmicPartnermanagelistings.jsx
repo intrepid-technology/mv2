@@ -37,7 +37,7 @@ export const PlasmicPartnermanagelistings__VariantProps = new Array();
 export const PlasmicPartnermanagelistings__ArgProps = new Array();
 
 function PlasmicPartnermanagelistings__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -281,9 +281,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                           "__wab_instance",
                           sty.buttonPrimary
                         )}
-                        color={"brand"}
-                        size={"_140"}
-                        svgIcon={
+                        color={"primary"}
+                        svgIconPrefix={
                           <ListingIcon
                             data-plasmic-name={"svg"}
                             data-plasmic-override={overrides.svg}
@@ -291,7 +290,8 @@ function PlasmicPartnermanagelistings__RenderFunc(props) {
                             role={"img"}
                           />
                         }
-                        type={"icon"}
+                        type={"iconPrefix"}
+                        width={"_140"}
                       >
                         {"New listing"}
                       </ButtonPrimary>
@@ -439,12 +439,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPartnermanagelistings__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPartnermanagelistings__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -29,7 +29,7 @@ export const PlasmicNavbarStatic__VariantProps = new Array();
 export const PlasmicNavbarStatic__ArgProps = new Array();
 
 function PlasmicNavbarStatic__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -117,12 +117,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarStatic__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarStatic__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

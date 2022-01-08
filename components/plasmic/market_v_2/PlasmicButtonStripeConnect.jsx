@@ -32,7 +32,7 @@ export const PlasmicButtonStripeConnect__VariantProps = new Array(
 export const PlasmicButtonStripeConnect__ArgProps = new Array("text", "id");
 
 function PlasmicButtonStripeConnect__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootHover, triggerRootHoverProps] = useTrigger("useHover", {});
   const triggers = {
     hover_root: isRootHover
@@ -153,12 +153,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonStripeConnect__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonStripeConnect__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

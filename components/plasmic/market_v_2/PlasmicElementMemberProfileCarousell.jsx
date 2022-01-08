@@ -30,7 +30,7 @@ export const PlasmicElementMemberProfileCarousell__ArgProps = new Array(
 );
 
 function PlasmicElementMemberProfileCarousell__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -179,12 +179,10 @@ function makeNodeComponent(nodeName) {
         PlasmicElementMemberProfileCarousell__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementMemberProfileCarousell__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

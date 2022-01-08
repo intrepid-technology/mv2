@@ -26,7 +26,7 @@ export const PlasmicMenuItem__VariantProps = new Array("disabled", "size");
 export const PlasmicMenuItem__ArgProps = new Array("text", "destination");
 
 function PlasmicMenuItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -98,12 +98,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMenuItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMenuItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

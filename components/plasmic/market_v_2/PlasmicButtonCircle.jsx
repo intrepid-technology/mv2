@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -25,14 +26,19 @@ export const PlasmicButtonCircle__VariantProps = new Array("size", "color");
 export const PlasmicButtonCircle__ArgProps = new Array("icon");
 
 function PlasmicButtonCircle__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.root__color_primary]: hasVariant(variants, "color", "primary") }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}
@@ -68,12 +74,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonCircle__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonCircle__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

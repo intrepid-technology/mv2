@@ -24,7 +24,7 @@ export const PlasmicRatingReviewAmount__VariantProps = new Array();
 export const PlasmicRatingReviewAmount__ArgProps = new Array("children");
 
 function PlasmicRatingReviewAmount__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -59,12 +59,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicRatingReviewAmount__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicRatingReviewAmount__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

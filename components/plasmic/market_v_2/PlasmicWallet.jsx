@@ -24,7 +24,7 @@ export const PlasmicWallet__VariantProps = new Array();
 export const PlasmicWallet__ArgProps = new Array();
 
 function PlasmicWallet__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -87,12 +87,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicWallet__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicWallet__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

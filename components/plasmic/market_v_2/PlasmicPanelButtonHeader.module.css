@@ -26,6 +26,9 @@
   left: auto;
   flex-shrink: 0;
 }
+.partnerNewListing__global_layout_isSellerView:global(.__wab_instance) {
+  flex-shrink: 0;
+}
 .partnerNewListing__user_member:global(.__wab_instance) {
   flex-shrink: 0;
 }
@@ -33,6 +36,9 @@
   flex-shrink: 0;
 }
 .partnerPowerUp:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerPowerUp__global_layout_isSellerView:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .partnerPowerUp__user_member:global(.__wab_instance) {

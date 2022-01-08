@@ -42,7 +42,7 @@ export const PlasmicElementListingEditCard__ArgProps = new Array(
 );
 
 function PlasmicElementListingEditCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -190,8 +190,8 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
           defaultContents: true ? (
             <ButtonPrimary
               className={classNames("__wab_instance", sty.buttonPrimary__wghUd)}
-              size={"_90"}
               type={"ghost"}
+              width={"_90"}
             />
           ) : null,
           value: args.buttonParent
@@ -225,12 +225,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementListingEditCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementListingEditCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

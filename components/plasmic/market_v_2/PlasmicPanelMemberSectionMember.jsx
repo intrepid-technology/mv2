@@ -29,7 +29,7 @@ export const PlasmicPanelMemberSectionMember__VariantProps = new Array();
 export const PlasmicPanelMemberSectionMember__ArgProps = new Array();
 
 function PlasmicPanelMemberSectionMember__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -109,7 +109,7 @@ function PlasmicPanelMemberSectionMember__RenderFunc(props) {
         className={classNames("__wab_instance", sty.switchToPartnerButton)}
         color={"brand"}
         preventDefault={"true"}
-        rounded={"rounded"}
+        rounded={true}
         type={"link"}
       >
         <div
@@ -152,12 +152,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelMemberSectionMember__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelMemberSectionMember__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

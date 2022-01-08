@@ -42,7 +42,7 @@ export const PlasmicCardConnectedAccount__ArgProps = new Array(
 );
 
 function PlasmicCardConnectedAccount__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"parent"}
@@ -540,12 +540,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardConnectedAccount__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardConnectedAccount__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

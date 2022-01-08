@@ -28,7 +28,7 @@ export const PlasmicCardLogIn__VariantProps = new Array("size");
 export const PlasmicCardLogIn__ArgProps = new Array("id", "placeholder");
 
 function PlasmicCardLogIn__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -300,12 +300,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardLogIn__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardLogIn__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

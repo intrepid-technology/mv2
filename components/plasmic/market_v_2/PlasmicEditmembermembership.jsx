@@ -34,7 +34,7 @@ export const PlasmicEditmembermembership__VariantProps = new Array();
 export const PlasmicEditmembermembership__ArgProps = new Array();
 
 function PlasmicEditmembermembership__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -241,7 +241,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonPrimary__rKxWz
                 )}
-                size={"_140"}
+                width={"_140"}
               >
                 {"Add new card"}
               </ButtonPrimary>
@@ -310,7 +310,7 @@ function PlasmicEditmembermembership__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonPrimary__ktJmy
                 )}
-                size={"_140"}
+                width={"_140"}
               >
                 {"Upgrade"}
               </ButtonPrimary>
@@ -371,12 +371,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditmembermembership__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditmembermembership__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

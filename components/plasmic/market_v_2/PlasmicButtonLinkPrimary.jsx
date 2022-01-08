@@ -36,7 +36,7 @@ export const PlasmicButtonLinkPrimary__ArgProps = new Array(
 );
 
 function PlasmicButtonLinkPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -49,13 +49,11 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__height__36]: hasVariant(variants, "height", "_36"),
         [sty.root__height__40]: hasVariant(variants, "height", "_40"),
         [sty.root__height__48]: hasVariant(variants, "height", "_48"),
+        [sty.root__height_stretch]: hasVariant(variants, "height", "stretch"),
         [sty.root__type_fill]: hasVariant(variants, "type", "fill"),
         [sty.root__type_fill_color_blue]:
           hasVariant(variants, "type", "fill") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_fill_color_brand]:
-          hasVariant(variants, "type", "fill") &&
-          hasVariant(variants, "color", "brand"),
         [sty.root__type_fill_color_dark]:
           hasVariant(variants, "type", "fill") &&
           hasVariant(variants, "color", "dark"),
@@ -71,6 +69,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_fill_color_pink]:
           hasVariant(variants, "type", "fill") &&
           hasVariant(variants, "color", "pink"),
+        [sty.root__type_fill_color_primary]:
+          hasVariant(variants, "type", "fill") &&
+          hasVariant(variants, "color", "primary"),
         [sty.root__type_fill_color_red]:
           hasVariant(variants, "type", "fill") &&
           hasVariant(variants, "color", "red"),
@@ -81,9 +82,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_ghost_color_blue]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_ghost_color_brand]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "brand"),
         [sty.root__type_ghost_color_dark]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "dark"),
@@ -99,6 +97,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_ghost_color_pink]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "pink"),
+        [sty.root__type_ghost_color_primary]:
+          hasVariant(variants, "type", "ghost") &&
+          hasVariant(variants, "color", "primary"),
         [sty.root__type_ghost_color_red]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "red"),
@@ -109,9 +110,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_outline_color_blue]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_outline_color_brand]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "brand"),
         [sty.root__type_outline_color_dark]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "dark"),
@@ -127,18 +125,19 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_outline_color_pink]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "pink"),
+        [sty.root__type_outline_color_primary]:
+          hasVariant(variants, "type", "outline") &&
+          hasVariant(variants, "color", "primary"),
         [sty.root__type_outline_color_red]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "red"),
         [sty.root__type_outline_color_yellow]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "yellow"),
+        [sty.root__type_primary]: hasVariant(variants, "type", "primary"),
         [sty.root__type_primary_color_blue]:
           hasVariant(variants, "type", "primary") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_primary_color_brand]:
-          hasVariant(variants, "type", "primary") &&
-          hasVariant(variants, "color", "brand"),
         [sty.root__type_primary_color_dark]:
           hasVariant(variants, "type", "primary") &&
           hasVariant(variants, "color", "dark"),
@@ -154,6 +153,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__type_primary_color_pink]:
           hasVariant(variants, "type", "primary") &&
           hasVariant(variants, "color", "pink"),
+        [sty.root__type_primary_color_primary]:
+          hasVariant(variants, "type", "primary") &&
+          hasVariant(variants, "color", "primary"),
         [sty.root__type_primary_color_red]:
           hasVariant(variants, "type", "primary") &&
           hasVariant(variants, "color", "red"),
@@ -166,7 +168,8 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         [sty.root__width__180]: hasVariant(variants, "width", "_180"),
         [sty.root__width__270]: hasVariant(variants, "width", "_270"),
         [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-        [sty.root__width__90]: hasVariant(variants, "width", "_90")
+        [sty.root__width__90]: hasVariant(variants, "width", "_90"),
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
       })}
       component={Link}
       href={args.destination}
@@ -195,9 +198,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_fill_color_blue]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "blue"),
-            [sty.textParent__type_fill_color_brand]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "brand"),
             [sty.textParent__type_fill_color_dark]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "dark"),
@@ -213,6 +213,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_fill_color_pink]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "pink"),
+            [sty.textParent__type_fill_color_primary]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "primary"),
             [sty.textParent__type_fill_color_red]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "red"),
@@ -223,9 +226,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_ghost_color_blue]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "blue"),
-            [sty.textParent__type_ghost_color_brand]:
-              hasVariant(variants, "type", "ghost") &&
-              hasVariant(variants, "color", "brand"),
             [sty.textParent__type_ghost_color_dark]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "dark"),
@@ -241,6 +241,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_ghost_color_pink]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "pink"),
+            [sty.textParent__type_ghost_color_primary]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "primary"),
             [sty.textParent__type_ghost_color_red]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "red"),
@@ -256,9 +259,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_outline_color_blue]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "blue"),
-            [sty.textParent__type_outline_color_brand]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "brand"),
             [sty.textParent__type_outline_color_dark]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "dark"),
@@ -274,6 +274,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_outline_color_pink]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "pink"),
+            [sty.textParent__type_outline_color_primary]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "primary"),
             [sty.textParent__type_outline_color_red]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "red"),
@@ -283,9 +286,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_primary_color_blue]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "blue"),
-            [sty.textParent__type_primary_color_brand]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "brand"),
             [sty.textParent__type_primary_color_dark]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "dark"),
@@ -298,6 +298,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParent__type_primary_color_pink]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "pink"),
+            [sty.textParent__type_primary_color_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "primary"),
             [sty.textParent__type_primary_color_red]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "red"),
@@ -307,7 +310,7 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
           })}
         >
           {p.renderPlasmicSlot({
-            defaultContents: "Hyper Link",
+            defaultContents: "Link",
             value: args.text,
             className: classNames(sty.slotTargetText, {
               [sty.slotTargetText__color_magenta]: hasVariant(
@@ -328,9 +331,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_fill_color_blue]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetText__type_fill_color_brand]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "brand"),
               [sty.slotTargetText__type_fill_color_dark]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "dark"),
@@ -346,6 +346,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_fill_color_pink]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "pink"),
+              [sty.slotTargetText__type_fill_color_primary]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "primary"),
               [sty.slotTargetText__type_fill_color_red]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "red"),
@@ -361,9 +364,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_ghost_color_blue]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetText__type_ghost_color_brand]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "brand"),
               [sty.slotTargetText__type_ghost_color_dark]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "dark"),
@@ -379,6 +379,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_ghost_color_pink]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "pink"),
+              [sty.slotTargetText__type_ghost_color_primary]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "primary"),
               [sty.slotTargetText__type_ghost_color_red]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "red"),
@@ -394,9 +397,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_outline_color_blue]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetText__type_outline_color_brand]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "brand"),
               [sty.slotTargetText__type_outline_color_dark]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "dark"),
@@ -412,6 +412,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_outline_color_pink]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "pink"),
+              [sty.slotTargetText__type_outline_color_primary]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "primary"),
               [sty.slotTargetText__type_outline_color_red]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "red"),
@@ -421,9 +424,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_primary_color_blue]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetText__type_primary_color_brand]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "brand"),
               [sty.slotTargetText__type_primary_color_dark]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "dark"),
@@ -436,6 +436,9 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetText__type_primary_color_pink]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "pink"),
+              [sty.slotTargetText__type_primary_color_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "primary"),
               [sty.slotTargetText__type_primary_color_red]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "red"),
@@ -465,12 +468,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonLinkPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonLinkPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

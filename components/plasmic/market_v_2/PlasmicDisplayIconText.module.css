@@ -31,6 +31,72 @@
   > img {
   margin-left: 8px;
 }
+.textParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.slotTargetText {
+  font-size: 12px;
+}
+.slotTargetText14Px {
+  font-size: 12px;
+}
+.slotTargetText14Px__size__14 {
+  font-size: 14px;
+}
+.slotTargetText16Px {
+  font-size: 12px;
+}
+.slotTargetText16Px__size__16 {
+  font-size: 16px;
+}
+.slotTargetText18Px {
+  font-size: 12px;
+}
+.slotTargetText18Px__size__18 {
+  font-size: 18px;
+}
+.slotTargetText24Px {
+  font-size: 12px;
+}
+.slotTargetText24Px__size__24 {
+  font-size: 24px;
+}
+.slotTargetText32Px {
+  font-size: 12px;
+}
+.slotTargetText32Px__size__32 {
+  font-size: 32px;
+}
+.slotTargetText40Px {
+  font-size: 12px;
+}
+.slotTargetText40Px__size__40 {
+  font-size: 40px;
+}
+.slotTargetText48Px {
+  font-size: 12px;
+}
+.slotTargetText48Px__size__48 {
+  font-size: 48px;
+}
+.slotTargetText64Px {
+  font-size: 12px;
+}
+.slotTargetText64Px__size__64 {
+  font-size: 64px;
+}
+.slotTargetText2 {
+  font-size: 12px;
+}
+.slotTargetText2__size__80 {
+  font-size: 80px;
+}
 .elementIconParent {
   display: flex;
   position: relative;
@@ -839,70 +905,4 @@
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
   min-width: 0;
   min-height: 0;
-}
-.textParent {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
-  width: auto;
-  height: auto;
-}
-.slotTargetText {
-  font-size: 12px;
-}
-.slotTargetText14Px {
-  font-size: 12px;
-}
-.slotTargetText14Px__size__14 {
-  font-size: 14px;
-}
-.slotTargetText16Px {
-  font-size: 12px;
-}
-.slotTargetText16Px__size__16 {
-  font-size: 16px;
-}
-.slotTargetText18Px {
-  font-size: 12px;
-}
-.slotTargetText18Px__size__18 {
-  font-size: 18px;
-}
-.slotTargetText24Px {
-  font-size: 12px;
-}
-.slotTargetText24Px__size__24 {
-  font-size: 24px;
-}
-.slotTargetText32Px {
-  font-size: 12px;
-}
-.slotTargetText32Px__size__32 {
-  font-size: 32px;
-}
-.slotTargetText40Px {
-  font-size: 12px;
-}
-.slotTargetText40Px__size__40 {
-  font-size: 40px;
-}
-.slotTargetText48Px {
-  font-size: 12px;
-}
-.slotTargetText48Px__size__48 {
-  font-size: 48px;
-}
-.slotTargetText64Px {
-  font-size: 12px;
-}
-.slotTargetText64Px__size__64 {
-  font-size: 64px;
-}
-.slotTargetText2 {
-  font-size: 12px;
-}
-.slotTargetText2__size__80 {
-  font-size: 80px;
 }

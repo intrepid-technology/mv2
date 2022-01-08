@@ -26,7 +26,7 @@ export const PlasmicInputSearchbarFilterDisplay__VariantProps = new Array();
 export const PlasmicInputSearchbarFilterDisplay__ArgProps = new Array();
 
 function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -80,12 +80,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputSearchbarFilterDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputSearchbarFilterDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

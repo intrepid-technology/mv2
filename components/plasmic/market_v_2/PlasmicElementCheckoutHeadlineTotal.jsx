@@ -27,7 +27,7 @@ export const PlasmicElementCheckoutHeadlineTotal__ArgProps = new Array(
 );
 
 function PlasmicElementCheckoutHeadlineTotal__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -131,12 +131,10 @@ function makeNodeComponent(nodeName) {
         PlasmicElementCheckoutHeadlineTotal__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementCheckoutHeadlineTotal__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -24,7 +24,7 @@ export const PlasmicInputTextField__VariantProps = new Array("type", "size");
 export const PlasmicInputTextField__ArgProps = new Array("placeholder");
 
 function PlasmicInputTextField__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -32,10 +32,12 @@ function PlasmicInputTextField__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
         [sty.root__size__180]: hasVariant(variants, "size", "_180"),
         [sty.root__size__270]: hasVariant(variants, "size", "_270"),
         [sty.root__size__360]: hasVariant(variants, "size", "_360"),
         [sty.root__size__540]: hasVariant(variants, "size", "_540"),
+        [sty.root__size_stretch]: hasVariant(variants, "size", "stretch"),
         [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
       })}
     >
@@ -67,7 +69,17 @@ function PlasmicInputTextField__RenderFunc(props) {
             "_360"
           ),
 
-          [sty.inputTextParent__size__540]: hasVariant(variants, "size", "_540")
+          [sty.inputTextParent__size__540]: hasVariant(
+            variants,
+            "size",
+            "_540"
+          ),
+
+          [sty.inputTextParent__size_stretch]: hasVariant(
+            variants,
+            "size",
+            "stretch"
+          )
         })}
       >
         <input
@@ -78,6 +90,18 @@ function PlasmicInputTextField__RenderFunc(props) {
             [sty.description__size__180]: hasVariant(variants, "size", "_180"),
             [sty.description__size__270]: hasVariant(variants, "size", "_270"),
             [sty.description__size__540]: hasVariant(variants, "size", "_540"),
+            [sty.description__size_stretch]: hasVariant(
+              variants,
+              "size",
+              "stretch"
+            ),
+
+            [sty.description__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
             [sty.description__type_secondary]: hasVariant(
               variants,
               "type",
@@ -109,12 +133,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextField__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextField__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

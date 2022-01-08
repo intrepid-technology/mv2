@@ -27,7 +27,7 @@ export const PlasmicDialogTrigger__ArgProps = new Array(
 );
 
 function PlasmicDialogTrigger__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -57,12 +57,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDialogTrigger__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDialogTrigger__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

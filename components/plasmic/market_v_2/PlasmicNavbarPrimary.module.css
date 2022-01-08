@@ -321,7 +321,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__n8S3L {
+.img__anRsD {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -332,10 +332,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__n8S3L > picture > img {
+.img__anRsD > picture > img {
   object-fit: cover;
 }
-.img__n8S3L > .__wab_img-spacer > img {
+.img__anRsD > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__zYgcV {
@@ -389,7 +389,7 @@
 .img___2HBiF > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__czZki {
+.img___682CU {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -400,10 +400,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__czZki > picture > img {
+.img___682CU > picture > img {
   object-fit: cover;
 }
-.img__czZki > .__wab_img-spacer > img {
+.img___682CU > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__uxOm5 {

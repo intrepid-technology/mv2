@@ -28,7 +28,7 @@ export const PlasmicSectionPartnerDashboardCta__VariantProps = new Array();
 export const PlasmicSectionPartnerDashboardCta__ArgProps = new Array();
 
 function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -48,7 +48,7 @@ function PlasmicSectionPartnerDashboardCta__RenderFunc(props) {
         data-plasmic-override={overrides.cardCta}
         center={
           hasVariant(globalVariants, "screen", "iphone12ProMax")
-            ? "center"
+            ? true
             : undefined
         }
         className={classNames("__wab_instance", sty.cardCta)}
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionPartnerDashboardCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionPartnerDashboardCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

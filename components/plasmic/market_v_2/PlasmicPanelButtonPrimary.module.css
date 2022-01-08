@@ -81,6 +81,9 @@
     font-size: 16px;
   }
 }
+.text__global_layout_isSellerView {
+  font-size: 16px;
+}
 .root:hover .text {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }

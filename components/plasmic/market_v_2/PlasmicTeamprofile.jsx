@@ -43,7 +43,7 @@ export const PlasmicTeamprofile__VariantProps = new Array();
 export const PlasmicTeamprofile__ArgProps = new Array();
 
 function PlasmicTeamprofile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -1815,12 +1815,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTeamprofile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTeamprofile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

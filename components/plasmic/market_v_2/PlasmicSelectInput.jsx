@@ -30,7 +30,8 @@ export const PlasmicSelectInput__VariantProps = new Array(
   "showPlaceholder",
   "isOpen",
   "isDisabled",
-  "type"
+  "type",
+  "width"
 );
 
 export const PlasmicSelectInput__ArgProps = new Array(
@@ -44,7 +45,7 @@ export const PlasmicSelectInput__ArgProps = new Array(
 const PlasmicSelectInputContext = React.createContext(undefined);
 
 function PlasmicSelectInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false
@@ -62,7 +63,11 @@ function PlasmicSelectInput__RenderFunc(props) {
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
         className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
+          [sty.root__type_primary]: hasVariant(variants, "type", "primary"),
+          [sty.root__type_secondary]: hasVariant(variants, "type", "secondary"),
+          [sty.root__width__720]: hasVariant(variants, "width", "_720"),
+          [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
@@ -87,10 +92,27 @@ function PlasmicSelectInput__RenderFunc(props) {
               "showPlaceholder"
             ),
 
+            [sty.trigger__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
             [sty.trigger__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
+            ),
+
+            [sty.trigger__width__180]: hasVariant(variants, "width", "_180"),
+            [sty.trigger__width__360]: hasVariant(variants, "width", "_360"),
+            [sty.trigger__width__540]: hasVariant(variants, "width", "_540"),
+            [sty.trigger__width__720]: hasVariant(variants, "width", "_720"),
+            [sty.trigger__width__90]: hasVariant(variants, "width", "_90"),
+            [sty.trigger__width_stretch]: hasVariant(
+              variants,
+              "width",
+              "stretch"
             )
           })}
           disabled={
@@ -105,6 +127,18 @@ function PlasmicSelectInput__RenderFunc(props) {
                 variants,
                 "showPlaceholder",
                 "showPlaceholder"
+              ),
+
+              [sty.contentContainer__type_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              ),
+
+              [sty.contentContainer__width_stretch]: hasVariant(
+                variants,
+                "width",
+                "stretch"
               )
             })}
           >
@@ -290,12 +324,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSelectInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

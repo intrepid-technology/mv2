@@ -24,7 +24,7 @@ export const PlasmicApp__VariantProps = new Array();
 export const PlasmicApp__ArgProps = new Array();
 
 function PlasmicApp__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -67,12 +67,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicApp__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicApp__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -29,7 +29,7 @@ export const PlasmicElementMemberProfileConnections__VariantProps = new Array();
 export const PlasmicElementMemberProfileConnections__ArgProps = new Array();
 
 function PlasmicElementMemberProfileConnections__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -287,12 +287,10 @@ function makeNodeComponent(nodeName) {
         PlasmicElementMemberProfileConnections__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementMemberProfileConnections__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -39,7 +39,7 @@ export const PlasmicInputFormCardMembership__ArgProps = new Array(
 );
 
 function PlasmicInputFormCardMembership__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -195,7 +195,7 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonPrimary__xvxaF
                 )}
-                size={"_140"}
+                width={"_140"}
               >
                 {"Upgrade"}
               </ButtonPrimary>
@@ -279,12 +279,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputFormCardMembership__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputFormCardMembership__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

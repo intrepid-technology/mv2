@@ -24,7 +24,7 @@ export const PlasmicInputEmailFieldDisplay__VariantProps = new Array();
 export const PlasmicInputEmailFieldDisplay__ArgProps = new Array("buttonText");
 
 function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -82,12 +82,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputEmailFieldDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputEmailFieldDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

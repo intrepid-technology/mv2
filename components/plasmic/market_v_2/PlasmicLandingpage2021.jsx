@@ -44,7 +44,7 @@ export const PlasmicLandingpage2021__VariantProps = new Array();
 export const PlasmicLandingpage2021__ArgProps = new Array();
 
 function PlasmicLandingpage2021__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -166,7 +166,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 className={classNames(projectcss.all, sty.featuresParent)}
               >
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__evGi
@@ -205,7 +205,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__fX0Zh
@@ -227,7 +227,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription___1TqGh
@@ -252,7 +252,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__xx9JY
@@ -276,7 +276,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription___2JhBx
@@ -300,7 +300,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__c5Fh
@@ -322,7 +322,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__xpeA
@@ -344,7 +344,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 />
 
                 <CardFeatureDescription
-                  border={"border"}
+                  border={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardFeatureDescription__yGxti
@@ -460,7 +460,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardImageHeadlineDescription__tDfJ5
                 )}
-                description={"description"}
+                description={true}
                 size={"_270X270"}
                 textLinkHeadlineParent={
                   <TextLinkUnderlinePrimary
@@ -493,7 +493,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardImageHeadlineDescription__owgd7
                 )}
-                description={"description"}
+                description={true}
                 size={"_270X270"}
                 textLinkHeadlineParent={
                   <TextLinkUnderlinePrimary
@@ -526,7 +526,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardImageHeadlineDescription___4MJBt
                 )}
-                description={"description"}
+                description={true}
                 size={"_270X270"}
                 textLinkHeadlineParent={
                   <TextLinkUnderlinePrimary
@@ -559,7 +559,7 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardImageHeadlineDescription__vJqdx
                 )}
-                description={"description"}
+                description={true}
                 size={"_270X270"}
                 textLinkHeadlineParent={
                   <TextLinkUnderlinePrimary
@@ -645,9 +645,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     )}
                     color={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "brand"
+                        ? "primary"
                         : hasVariant(globalVariants, "screen", "desktop")
-                        ? "brand"
+                        ? "primary"
                         : undefined
                     }
                     destination={
@@ -946,9 +946,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     )}
                     color={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "brand"
+                        ? "primary"
                         : hasVariant(globalVariants, "screen", "desktop")
-                        ? "brand"
+                        ? "primary"
                         : undefined
                     }
                     destination={
@@ -1249,9 +1249,9 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                     )}
                     color={
                       hasVariant(globalVariants, "screen", "iphone12ProMax")
-                        ? "brand"
+                        ? "primary"
                         : hasVariant(globalVariants, "screen", "desktop")
-                        ? "brand"
+                        ? "primary"
                         : undefined
                     }
                     destination={
@@ -1371,12 +1371,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicLandingpage2021__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicLandingpage2021__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

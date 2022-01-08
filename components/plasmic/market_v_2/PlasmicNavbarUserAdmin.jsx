@@ -26,7 +26,7 @@ export const PlasmicNavbarUserAdmin__VariantProps = new Array();
 export const PlasmicNavbarUserAdmin__ArgProps = new Array();
 
 function PlasmicNavbarUserAdmin__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -64,7 +64,25 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
         <UserAvatar
           data-plasmic-name={"userAvatar"}
           data-plasmic-override={overrides.userAvatar}
-          size={"_48"}
+          navUserAvatar32={
+            <img
+              data-plasmic-name={"navUserAvatar32"}
+              data-plasmic-override={overrides.navUserAvatar32}
+              alt={""}
+              className={classNames(projectcss.img, sty.navUserAvatar32)}
+              src={"/plasmic/market_v_2/images/collinUserImage.jpeg"}
+            />
+          }
+          navUserAvatar48={
+            <img
+              data-plasmic-name={"navUserAvatar48"}
+              data-plasmic-override={overrides.navUserAvatar48}
+              alt={""}
+              className={classNames(projectcss.img, sty.navUserAvatar48)}
+              src={"/plasmic/market_v_2/images/collinUserImage.jpeg"}
+            />
+          }
+          size={"_32"}
         />
       </div>
     </p.Stack>
@@ -72,9 +90,24 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "avatarParent", "userAvatar"],
-  avatarParent: ["avatarParent", "userAvatar"],
-  userAvatar: ["userAvatar"]
+  root: [
+    "root",
+    "avatarParent",
+    "userAvatar",
+    "navUserAvatar32",
+    "navUserAvatar48"
+  ],
+
+  avatarParent: [
+    "avatarParent",
+    "userAvatar",
+    "navUserAvatar32",
+    "navUserAvatar48"
+  ],
+
+  userAvatar: ["userAvatar", "navUserAvatar32", "navUserAvatar48"],
+  navUserAvatar32: ["navUserAvatar32"],
+  navUserAvatar48: ["navUserAvatar48"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -86,12 +119,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarUserAdmin__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarUserAdmin__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
@@ -110,6 +141,8 @@ export const PlasmicNavbarUserAdmin = Object.assign(
     // Helper components rendering sub-elements
     avatarParent: makeNodeComponent("avatarParent"),
     userAvatar: makeNodeComponent("userAvatar"),
+    navUserAvatar32: makeNodeComponent("navUserAvatar32"),
+    navUserAvatar48: makeNodeComponent("navUserAvatar48"),
     // Metadata about props expected for PlasmicNavbarUserAdmin
     internalVariantProps: PlasmicNavbarUserAdmin__VariantProps,
     internalArgProps: PlasmicNavbarUserAdmin__ArgProps

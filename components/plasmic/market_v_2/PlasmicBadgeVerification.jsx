@@ -28,7 +28,7 @@ export const PlasmicBadgeVerification__VariantProps = new Array();
 export const PlasmicBadgeVerification__ArgProps = new Array();
 
 function PlasmicBadgeVerification__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -92,12 +92,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicBadgeVerification__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicBadgeVerification__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

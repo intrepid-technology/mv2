@@ -37,7 +37,7 @@ export const PlasmicButton__ArgProps = new Array(
 );
 
 function PlasmicButton__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -101,7 +101,6 @@ function PlasmicButton__RenderFunc(props) {
         [sty.root__type_ghost_state_warning]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "state", "warning"),
-        [sty.root__type_icon]: hasVariant(variants, "type", "icon"),
         [sty.root__type_light]: hasVariant(variants, "type", "light"),
         [sty.root__type_light_color_alert]:
           hasVariant(variants, "type", "light") &&
@@ -271,7 +270,6 @@ function PlasmicButton__RenderFunc(props) {
           [sty.button__type_ghost_state_warning]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "state", "warning"),
-          [sty.button__type_icon]: hasVariant(variants, "type", "icon"),
           [sty.button__type_light]: hasVariant(variants, "type", "light"),
           [sty.button__type_light_color_alert]:
             hasVariant(variants, "type", "light") &&
@@ -445,12 +443,6 @@ function PlasmicButton__RenderFunc(props) {
             [sty.slotTargetChildren__type_ghost_state_warning]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "state", "warning"),
-            [sty.slotTargetChildren__type_icon]: hasVariant(
-              variants,
-              "type",
-              "icon"
-            ),
-
             [sty.slotTargetChildren__type_light]: hasVariant(
               variants,
               "type",
@@ -588,7 +580,15 @@ function PlasmicButton__RenderFunc(props) {
         <svg
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
-          className={classNames(projectcss.all, sty.svg)}
+          className={classNames(projectcss.all, sty.svg, {
+            [sty.svg__type_dark]: hasVariant(variants, "type", "dark"),
+            [sty.svg__type_ghost]: hasVariant(variants, "type", "ghost"),
+            [sty.svg__type_light]: hasVariant(variants, "type", "light"),
+            [sty.svg__type_link]: hasVariant(variants, "type", "link"),
+            [sty.svg__type_outline]: hasVariant(variants, "type", "outline"),
+            [sty.svg__type_primary]: hasVariant(variants, "type", "primary"),
+            [sty.svg__type_secondary]: hasVariant(variants, "type", "secondary")
+          })}
           role={"img"}
         />
       ) : null}
@@ -611,12 +611,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButton__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButton__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

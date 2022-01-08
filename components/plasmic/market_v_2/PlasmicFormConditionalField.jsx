@@ -30,7 +30,7 @@ export const PlasmicFormConditionalField__ArgProps = new Array(
 );
 
 function PlasmicFormConditionalField__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -60,12 +60,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormConditionalField__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormConditionalField__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

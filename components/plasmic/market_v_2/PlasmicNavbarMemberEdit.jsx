@@ -29,7 +29,7 @@ export const PlasmicNavbarMemberEdit__VariantProps = new Array(
 export const PlasmicNavbarMemberEdit__ArgProps = new Array();
 
 function PlasmicNavbarMemberEdit__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"nav"}
@@ -389,12 +389,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarMemberEdit__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarMemberEdit__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

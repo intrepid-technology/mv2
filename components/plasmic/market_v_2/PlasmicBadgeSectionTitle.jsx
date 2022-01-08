@@ -28,7 +28,7 @@ export const PlasmicBadgeSectionTitle__VariantProps = new Array(
 export const PlasmicBadgeSectionTitle__ArgProps = new Array("sectionTitleSlot");
 
 function PlasmicBadgeSectionTitle__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -88,12 +88,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicBadgeSectionTitle__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicBadgeSectionTitle__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

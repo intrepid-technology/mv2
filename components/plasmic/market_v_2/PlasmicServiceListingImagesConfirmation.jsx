@@ -25,7 +25,7 @@ export const PlasmicServiceListingImagesConfirmation__VariantProps =
 export const PlasmicServiceListingImagesConfirmation__ArgProps = new Array();
 
 function PlasmicServiceListingImagesConfirmation__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -116,12 +116,10 @@ function makeNodeComponent(nodeName) {
         PlasmicServiceListingImagesConfirmation__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceListingImagesConfirmation__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

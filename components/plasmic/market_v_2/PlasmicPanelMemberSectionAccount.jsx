@@ -27,7 +27,7 @@ export const PlasmicPanelMemberSectionAccount__VariantProps = new Array();
 export const PlasmicPanelMemberSectionAccount__ArgProps = new Array();
 
 function PlasmicPanelMemberSectionAccount__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -108,12 +108,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelMemberSectionAccount__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelMemberSectionAccount__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

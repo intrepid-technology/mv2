@@ -41,9 +41,9 @@ function MyApp({ Component, pageProps }) {
                 }
                 breadcrumbsWrapper={<PageBreadcrumbs />}
                 scrollNavigationWrapper={<PageScrollNavigations />}
-                pageHeading={pageLayoutProps?.heading}
-                pageSubHeading={pageLayoutProps?.subHeading}
-                pageDescription={pageLayoutProps?.description}
+                pageHeading={pageLayoutProps?.heading || ''}
+                pageSubHeading={pageLayoutProps?.subHeading || ''}
+                pageDescription={pageLayoutProps?.description || ''}
                 headerDisplayWrapper={{
                   wrapChildren: (children) => Boolean(pageLayoutProps?.heading) ? children : null
                 }}

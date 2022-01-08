@@ -31,7 +31,7 @@ export const PlasmicNavbarMemberUserProfile__VariantProps = new Array(
 export const PlasmicNavbarMemberUserProfile__ArgProps = new Array();
 
 function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -354,12 +354,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarMemberUserProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarMemberUserProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

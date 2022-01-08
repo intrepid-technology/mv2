@@ -25,7 +25,7 @@ export const PlasmicButtonPowerUpPrimary__VariantProps = new Array();
 export const PlasmicButtonPowerUpPrimary__ArgProps = new Array();
 
 function PlasmicButtonPowerUpPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"root"}
@@ -85,12 +85,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonPowerUpPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonPowerUpPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

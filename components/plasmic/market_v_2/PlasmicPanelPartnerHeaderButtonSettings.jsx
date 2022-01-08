@@ -30,7 +30,7 @@ export const PlasmicPanelPartnerHeaderButtonSettings__ArgProps = new Array(
 );
 
 function PlasmicPanelPartnerHeaderButtonSettings__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -46,7 +46,7 @@ function PlasmicPanelPartnerHeaderButtonSettings__RenderFunc(props) {
         data-plasmic-override={overrides.userAvatar}
         className={classNames("__wab_instance", sty.userAvatar)}
         size={"_32"}
-        verified={"verified"}
+        verified={true}
       />
 
       <ButtonPartnerSidebarSettings
@@ -77,12 +77,10 @@ function makeNodeComponent(nodeName) {
         PlasmicPanelPartnerHeaderButtonSettings__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelPartnerHeaderButtonSettings__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

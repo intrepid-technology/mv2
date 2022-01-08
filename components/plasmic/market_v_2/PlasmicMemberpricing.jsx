@@ -30,7 +30,7 @@ export const PlasmicMemberpricing__VariantProps = new Array();
 export const PlasmicMemberpricing__ArgProps = new Array();
 
 function PlasmicMemberpricing__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -77,7 +77,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
                 data-plasmic-name={"navbar"}
                 data-plasmic-override={overrides.navbar}
                 className={classNames("__wab_instance", sty.navbar)}
-                dark={"dark"}
+                dark={true}
               />
             </div>
           ) : null}
@@ -92,7 +92,7 @@ function PlasmicMemberpricing__RenderFunc(props) {
             data-plasmic-name={"footer"}
             data-plasmic-override={overrides.footer}
             className={classNames("__wab_instance", sty.footer)}
-            color={"color"}
+            color={true}
           />
         </p.Stack>
       </div>
@@ -117,12 +117,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMemberpricing__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMemberpricing__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

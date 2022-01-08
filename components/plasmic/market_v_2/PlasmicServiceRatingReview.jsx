@@ -25,7 +25,7 @@ export const PlasmicServiceRatingReview__VariantProps = new Array();
 export const PlasmicServiceRatingReview__ArgProps = new Array();
 
 function PlasmicServiceRatingReview__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -128,12 +128,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServiceRatingReview__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceRatingReview__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

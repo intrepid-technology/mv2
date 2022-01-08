@@ -34,14 +34,16 @@ export const PlasmicInputTextPrefixSuffix__ArgProps = new Array(
 );
 
 function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+      })}
     >
       <div
         data-plasmic-name={"parent"}
@@ -181,12 +183,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextPrefixSuffix__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextPrefixSuffix__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

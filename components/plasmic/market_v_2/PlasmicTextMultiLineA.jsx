@@ -25,7 +25,7 @@ export const PlasmicTextMultiLineA__VariantProps = new Array("size");
 export const PlasmicTextMultiLineA__ArgProps = new Array("children");
 
 function PlasmicTextMultiLineA__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -77,12 +77,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextMultiLineA__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextMultiLineA__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

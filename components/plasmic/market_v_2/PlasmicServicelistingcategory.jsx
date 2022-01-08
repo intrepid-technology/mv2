@@ -35,7 +35,7 @@ export const PlasmicServicelistingcategory__VariantProps = new Array();
 export const PlasmicServicelistingcategory__ArgProps = new Array();
 
 function PlasmicServicelistingcategory__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -75,7 +75,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
-              hideBack={"hideBack"}
+              hideBack={true}
               nextButtonDestination={"/service/listing/description"}
             >
               {"Category"}
@@ -209,7 +209,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing___8HTdO
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -270,7 +270,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__xVvw0
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -331,7 +331,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__uTqYv
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -406,7 +406,7 @@ function PlasmicServicelistingcategory__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__f8IjI
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -523,12 +523,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingcategory__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingcategory__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -26,7 +26,7 @@ export const PlasmicMemberProfileSummaryDropdown__VariantProps = new Array();
 export const PlasmicMemberProfileSummaryDropdown__ArgProps = new Array();
 
 function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -75,7 +75,7 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
             />
           }
           size={"_32"}
-          verified={"verified"}
+          verified={true}
         />
       </div>
 
@@ -134,12 +134,10 @@ function makeNodeComponent(nodeName) {
         PlasmicMemberProfileSummaryDropdown__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMemberProfileSummaryDropdown__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

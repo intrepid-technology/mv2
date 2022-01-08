@@ -29,7 +29,7 @@ export const PlasmicSelectInput__Overlay__VariantProps = new Array(
 export const PlasmicSelectInput__Overlay__ArgProps = new Array("children");
 
 function PlasmicSelectInput__Overlay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const superContexts = {
     SelectInput: React.useContext(SUPER__PlasmicSelectInput.Context)
   };
@@ -154,12 +154,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSelectInput__Overlay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectInput__Overlay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

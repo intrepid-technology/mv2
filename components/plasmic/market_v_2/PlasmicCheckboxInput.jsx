@@ -39,7 +39,7 @@ export const PlasmicCheckboxInput__ArgProps = new Array(
 );
 
 function PlasmicCheckboxInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false
@@ -216,12 +216,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCheckboxInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCheckboxInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

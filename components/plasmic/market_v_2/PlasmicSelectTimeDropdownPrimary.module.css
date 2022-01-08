@@ -1,0 +1,93 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 8px 8px 8px 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 6px;
+}
+.freeBox__tegzh {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox__yWeCd {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  padding: 0px;
+}
+.freeBox__yWeCd > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.freeBox__yWeCd > :global(.__wab_flex-container) > *,
+.freeBox__yWeCd > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__yWeCd > :global(.__wab_flex-container) > picture > img,
+.freeBox__yWeCd
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.selectInput__nEvfQ:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option___4A5Y0:global(.__wab_instance) {
+  position: relative;
+}
+.option__ogRi:global(.__wab_instance) {
+  position: relative;
+}
+.selectInput__ekUk4:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option__trPCb:global(.__wab_instance) {
+  position: relative;
+}
+.option__beoJj:global(.__wab_instance) {
+  position: relative;
+}
+.selectInput__ex1P:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option__gp63I:global(.__wab_instance) {
+  position: relative;
+}
+.option__xOPr:global(.__wab_instance) {
+  position: relative;
+}

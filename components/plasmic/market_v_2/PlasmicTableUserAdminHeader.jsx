@@ -25,7 +25,7 @@ export const PlasmicTableUserAdminHeader__VariantProps = new Array();
 export const PlasmicTableUserAdminHeader__ArgProps = new Array();
 
 function PlasmicTableUserAdminHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -79,12 +79,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableUserAdminHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableUserAdminHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

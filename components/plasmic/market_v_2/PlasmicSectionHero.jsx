@@ -27,7 +27,7 @@ export const PlasmicSectionHero__VariantProps = new Array("persona");
 export const PlasmicSectionHero__ArgProps = new Array();
 
 function PlasmicSectionHero__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -146,12 +146,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionHero__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionHero__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -65,7 +65,7 @@ export const PlasmicTablePricing__ArgProps = new Array(
 );
 
 function PlasmicTablePricing__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return true ? (
     <p.Stack
       as={"div"}
@@ -373,8 +373,8 @@ function PlasmicTablePricing__RenderFunc(props) {
         data-plasmic-name={"partnerMembership"}
         data-plasmic-override={overrides.partnerMembership}
         className={classNames("__wab_instance", sty.partnerMembership)}
-        color={"brand"}
-        size={"_360"}
+        color={"primary"}
+        width={"_360"}
       >
         {p.renderPlasmicSlot({
           defaultContents: (
@@ -444,12 +444,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTablePricing__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTablePricing__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicButtonListingPrimary__VariantProps = new Array();
 export const PlasmicButtonListingPrimary__ArgProps = new Array();
 
 function PlasmicButtonListingPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"root"}
@@ -91,12 +91,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonListingPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonListingPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -28,7 +28,7 @@ export const PlasmicTableMembershipRecord__VariantProps = new Array();
 export const PlasmicTableMembershipRecord__ArgProps = new Array("destination");
 
 function PlasmicTableMembershipRecord__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -180,12 +180,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableMembershipRecord__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableMembershipRecord__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -26,7 +26,7 @@ export const PlasmicFooterLink__VariantProps = new Array("color");
 export const PlasmicFooterLink__ArgProps = new Array("slot", "destination");
 
 function PlasmicFooterLink__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -83,12 +83,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFooterLink__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFooterLink__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

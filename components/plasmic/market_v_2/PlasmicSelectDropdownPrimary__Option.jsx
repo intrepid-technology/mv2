@@ -35,7 +35,7 @@ export const PlasmicSelectDropdownPrimary__Option__ArgProps = new Array(
 );
 
 function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const superContexts = {
     SelectDropdownPrimary: React.useContext(
       SUPER__PlasmicSelectDropdownPrimary.Context
@@ -221,12 +221,10 @@ function makeNodeComponent(nodeName) {
         PlasmicSelectDropdownPrimary__Option__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectDropdownPrimary__Option__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

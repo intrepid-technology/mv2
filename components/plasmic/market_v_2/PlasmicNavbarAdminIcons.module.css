@@ -20,7 +20,7 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
-    color: #14161b /* plasmic-token: ec1vMFIzT */;
+    color: #525a6a /* plasmic-token: xfNU8zBzA */;
   }
 }
 .svg__light {
@@ -28,6 +28,11 @@
 }
 .root:hover .svg {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root:hover .svg {
+    color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  }
 }
 .root__light:hover .svg__light {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;

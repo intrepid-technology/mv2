@@ -26,7 +26,7 @@ export const PlasmicDialogInviteProfessional__VariantProps = new Array();
 export const PlasmicDialogInviteProfessional__ArgProps = new Array();
 
 function PlasmicDialogInviteProfessional__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -57,7 +57,7 @@ function PlasmicDialogInviteProfessional__RenderFunc(props) {
               className={classNames("__wab_instance", sty.firstNameInput)}
               label={"First Name"}
               name={"first_name"}
-              showLabel={"showLabel"}
+              showLabel={true}
             />
 
             <TextInput
@@ -66,7 +66,7 @@ function PlasmicDialogInviteProfessional__RenderFunc(props) {
               className={classNames("__wab_instance", sty.lastNameInput)}
               label={"Last Name"}
               name={"last_name"}
-              showLabel={"showLabel"}
+              showLabel={true}
             />
 
             <TextInput
@@ -75,7 +75,7 @@ function PlasmicDialogInviteProfessional__RenderFunc(props) {
               className={classNames("__wab_instance", sty.emailInput)}
               label={"Email Address"}
               name={"email"}
-              showLabel={"showLabel"}
+              showLabel={true}
             />
           </p.Stack>
         ) : null}
@@ -117,12 +117,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDialogInviteProfessional__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDialogInviteProfessional__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

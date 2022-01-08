@@ -32,7 +32,7 @@ export const PlasmicServicelistingconfirmation__VariantProps = new Array();
 export const PlasmicServicelistingconfirmation__ArgProps = new Array();
 
 function PlasmicServicelistingconfirmation__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -69,7 +69,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-override={overrides.navbarServiceListing}
               backButtonDestination={"/service/listing/delivery"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
-              hideNext={"hideNext"}
+              hideNext={true}
             >
               {"Confirmation"}
             </NavbarServiceListing>
@@ -93,7 +93,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"serviceCategory"}
               data-plasmic-override={overrides.serviceCategory}
               className={classNames("__wab_instance", sty.serviceCategory)}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={
                 "What kind of service are you listing? ( Service Category )"
               }
@@ -103,7 +103,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"service"}
               data-plasmic-override={overrides.service}
               className={classNames("__wab_instance", sty.service)}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"What kind of service are you listing? ( Service )"}
             />
 
@@ -111,7 +111,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"serviceFeatures"}
               data-plasmic-override={overrides.serviceFeatures}
               className={classNames("__wab_instance", sty.serviceFeatures)}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"What features are included?"}
             />
 
@@ -126,7 +126,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"serviceIndustries"}
               data-plasmic-override={overrides.serviceIndustries}
               className={classNames("__wab_instance", sty.serviceIndustries)}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"What is the industry community for your service?"}
               listContent={
                 <React.Fragment>
@@ -183,7 +183,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"serviceTools"}
               data-plasmic-override={overrides.serviceTools}
               className={classNames("__wab_instance", sty.serviceTools)}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"What tools, or technology do you use for your service?"}
               listContent={
                 <React.Fragment>
@@ -387,7 +387,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
                 "__wab_instance",
                 sty.serviceDeliveryProcessSteps
               )}
-              hasArrayFieldContent={"hasArrayFieldContent"}
+              hasArrayFieldContent={true}
               label={"What is your unique service delivery process? ( Steps )"}
               listContent={
                 <React.Fragment>
@@ -437,7 +437,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
               data-plasmic-name={"serviceImages"}
               data-plasmic-override={overrides.serviceImages}
               className={classNames("__wab_instance", sty.serviceImages)}
-              hasImages={"hasImages"}
+              hasImages={true}
               label={"What will your finished service look like?"}
               listContent={
                 <React.Fragment>
@@ -565,7 +565,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
                 "__wab_instance",
                 sty.serviceDeliveryMeetings
               )}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"How many meetings will you offer your client?"}
               listContent={
                 <React.Fragment>
@@ -618,7 +618,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
                 "__wab_instance",
                 sty.serviceDeliveryRevisions
               )}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"How many revisions will you offer your client?"}
               listContent={
                 <React.Fragment>
@@ -671,7 +671,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
                 "__wab_instance",
                 sty.serviceDeliveryRequirements
               )}
-              hasArrayFieldContent={"hasArrayFieldContent"}
+              hasArrayFieldContent={true}
               label={
                 "What do you require from the client to start your service?"
               }
@@ -734,7 +734,7 @@ function PlasmicServicelistingconfirmation__RenderFunc(props) {
                 "__wab_instance",
                 sty.serviceDeliveryFormats
               )}
-              hasListContent={"hasListContent"}
+              hasListContent={true}
               label={"What format(s) will you provide the client?"}
               listContent={
                 <React.Fragment>
@@ -953,12 +953,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingconfirmation__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingconfirmation__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicButtonPartnerSidebarSettings__VariantProps = new Array();
 export const PlasmicButtonPartnerSidebarSettings__ArgProps = new Array();
 
 function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"button"}
@@ -141,12 +141,10 @@ function makeNodeComponent(nodeName) {
         PlasmicButtonPartnerSidebarSettings__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonPartnerSidebarSettings__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

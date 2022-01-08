@@ -29,7 +29,7 @@ export const PlasmicSectionLogIn__VariantProps = new Array();
 export const PlasmicSectionLogIn__ArgProps = new Array();
 
 function PlasmicSectionLogIn__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -134,12 +134,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionLogIn__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionLogIn__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

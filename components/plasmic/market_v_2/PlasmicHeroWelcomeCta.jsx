@@ -34,7 +34,7 @@ export const PlasmicHeroWelcomeCta__VariantProps = new Array(
 export const PlasmicHeroWelcomeCta__ArgProps = new Array("children");
 
 function PlasmicHeroWelcomeCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -503,8 +503,8 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
               hasVariant(variants, "size", "_720") &&
               hasVariant(variants, "persona", "member")
           })}
-          color={"brand"}
-          size={hasVariant(variants, "size", "_720") ? "_360" : "_140"}
+          color={"primary"}
+          width={hasVariant(variants, "size", "_720") ? "_360" : "_140"}
         >
           <div
             className={classNames(
@@ -660,12 +660,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicHeroWelcomeCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicHeroWelcomeCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

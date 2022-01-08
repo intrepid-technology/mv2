@@ -50,7 +50,7 @@ export const PlasmicServicedetail__ArgProps = new Array(
 );
 
 function PlasmicServicedetail__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -1636,8 +1636,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"orderButton"}
                   data-plasmic-override={overrides.orderButton}
                   className={classNames("__wab_instance", sty.orderButton)}
-                  color={"brand"}
-                  size={"_360"}
+                  color={"primary"}
+                  width={"_360"}
                 >
                   <div
                     className={classNames(
@@ -1655,8 +1655,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                     "__wab_instance",
                     sty.buttonPrimary__ma8Uo
                   )}
-                  size={"_360"}
                   type={"outline"}
+                  width={"_360"}
                 >
                   <div
                     className={classNames(
@@ -1674,8 +1674,8 @@ function PlasmicServicedetail__RenderFunc(props) {
                     "__wab_instance",
                     sty.buttonPrimary__gzMur
                   )}
-                  size={"_360"}
                   type={"ghost"}
+                  width={"_360"}
                 >
                   <div
                     className={classNames(
@@ -2210,12 +2210,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicedetail__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicedetail__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

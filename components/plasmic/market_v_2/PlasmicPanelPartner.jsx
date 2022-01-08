@@ -11,15 +11,18 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import PanelButtonHeader from "../../PanelButtonHeader"; // plasmic-import: l8x-1W9kbZ/component
 import PanelPartnerSectionMarket from "../../PanelPartnerSectionMarket"; // plasmic-import: i3ai6jIm4VK/component
 import PanelPartnerSectionPartner from "../../PanelPartnerSectionPartner"; // plasmic-import: ESb2G2fq56P/component
 import PanelPartnerSectionAccount from "../../PanelPartnerSectionAccount"; // plasmic-import: frbDg7XY-m/component
 import PanelFooter from "../../PanelFooter"; // plasmic-import: y532Y0sDIf/component
+import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicPanelPartner.module.css"; // plasmic-import: 0x12FzmUo9P/css
@@ -29,7 +32,11 @@ export const PlasmicPanelPartner__VariantProps = new Array();
 export const PlasmicPanelPartner__ArgProps = new Array();
 
 function PlasmicPanelPartner__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    layout: useLayout()
+  });
+
   return (
     <p.Stack
       as={"div"}
@@ -38,7 +45,13 @@ function PlasmicPanelPartner__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__global_layout_isSellerView]: hasVariant(
+          globalVariants,
+          "layout",
+          "isSellerView"
+        )
+      })}
     >
       <p.Stack
         as={"div"}
@@ -57,7 +70,13 @@ function PlasmicPanelPartner__RenderFunc(props) {
           <PanelButtonHeader
             data-plasmic-name={"partnerButtonHeader"}
             data-plasmic-override={overrides.partnerButtonHeader}
-            className={classNames("__wab_instance", sty.partnerButtonHeader)}
+            className={classNames("__wab_instance", sty.partnerButtonHeader, {
+              [sty.partnerButtonHeader__global_layout_isSellerView]: hasVariant(
+                globalVariants,
+                "layout",
+                "isSellerView"
+              )
+            })}
             user={"partner"}
           />
         </p.Stack>
@@ -65,19 +84,37 @@ function PlasmicPanelPartner__RenderFunc(props) {
         <PanelPartnerSectionMarket
           data-plasmic-name={"partnerMarket"}
           data-plasmic-override={overrides.partnerMarket}
-          className={classNames("__wab_instance", sty.partnerMarket)}
+          className={classNames("__wab_instance", sty.partnerMarket, {
+            [sty.partnerMarket__global_layout_isSellerView]: hasVariant(
+              globalVariants,
+              "layout",
+              "isSellerView"
+            )
+          })}
         />
 
         <PanelPartnerSectionPartner
           data-plasmic-name={"partnerProfile"}
           data-plasmic-override={overrides.partnerProfile}
-          className={classNames("__wab_instance", sty.partnerProfile)}
+          className={classNames("__wab_instance", sty.partnerProfile, {
+            [sty.partnerProfile__global_layout_isSellerView]: hasVariant(
+              globalVariants,
+              "layout",
+              "isSellerView"
+            )
+          })}
         />
 
         <PanelPartnerSectionAccount
           data-plasmic-name={"partnerAccount"}
           data-plasmic-override={overrides.partnerAccount}
-          className={classNames("__wab_instance", sty.partnerAccount)}
+          className={classNames("__wab_instance", sty.partnerAccount, {
+            [sty.partnerAccount__global_layout_isSellerView]: hasVariant(
+              globalVariants,
+              "layout",
+              "isSellerView"
+            )
+          })}
         />
       </p.Stack>
 
@@ -136,12 +173,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelPartner__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelPartner__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

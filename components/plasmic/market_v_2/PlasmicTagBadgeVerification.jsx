@@ -25,7 +25,7 @@ export const PlasmicTagBadgeVerification__VariantProps = new Array("size");
 export const PlasmicTagBadgeVerification__ArgProps = new Array();
 
 function PlasmicTagBadgeVerification__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -80,12 +80,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTagBadgeVerification__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTagBadgeVerification__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

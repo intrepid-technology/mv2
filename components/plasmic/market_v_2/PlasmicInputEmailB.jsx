@@ -31,7 +31,7 @@ export const PlasmicInputEmailB__VariantProps = new Array(
 export const PlasmicInputEmailB__ArgProps = new Array("children");
 
 function PlasmicInputEmailB__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -143,8 +143,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
                   )
                 }
               )}
-              color={"brand"}
-              size={hasVariant(variants, "size", "_540") ? "_180" : "_120"}
+              color={"primary"}
+              width={hasVariant(variants, "size", "_540") ? "_180" : "_120"}
             >
               <div
                 className={classNames(
@@ -185,8 +185,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 "_360"
               )
             })}
-            color={"brand"}
-            size={"_120"}
+            color={"primary"}
+            width={"_120"}
           >
             <div
               className={classNames(
@@ -235,8 +235,8 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 "_360"
               )
             })}
-            color={"brand"}
-            size={"_120"}
+            color={"primary"}
+            width={"_120"}
           >
             <div
               className={classNames(
@@ -325,12 +325,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputEmailB__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputEmailB__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

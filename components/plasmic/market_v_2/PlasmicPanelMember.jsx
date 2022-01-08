@@ -43,7 +43,7 @@ export const PlasmicPanelMember__VariantProps = new Array();
 export const PlasmicPanelMember__ArgProps = new Array();
 
 function PlasmicPanelMember__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -133,7 +133,17 @@ function PlasmicPanelMember__RenderFunc(props) {
           data-plasmic-name={"manageSection"}
           data-plasmic-override={overrides.manageSection}
           className={classNames("__wab_instance", sty.manageSection)}
-          title={"Manage"}
+          title={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__pmNdY
+              )}
+            >
+              {"Manage"}
+            </div>
+          }
         >
           <MenuIconListItem
             className={classNames(
@@ -176,7 +186,17 @@ function PlasmicPanelMember__RenderFunc(props) {
           data-plasmic-name={"discoverSection"}
           data-plasmic-override={overrides.discoverSection}
           className={classNames("__wab_instance", sty.discoverSection)}
-          title={"Discover"}
+          title={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___3Mli
+              )}
+            >
+              {"Discover"}
+            </div>
+          }
         >
           <MenuIconListItem
             className={classNames(
@@ -201,7 +221,17 @@ function PlasmicPanelMember__RenderFunc(props) {
           data-plasmic-name={"workSection"}
           data-plasmic-override={overrides.workSection}
           className={classNames("__wab_instance", sty.workSection)}
-          title={"WORK"}
+          title={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___9BxE
+              )}
+            >
+              {"WORK"}
+            </div>
+          }
         >
           <MenuIconListItem
             className={classNames(
@@ -259,7 +289,17 @@ function PlasmicPanelMember__RenderFunc(props) {
           data-plasmic-name={"accountsSection"}
           data-plasmic-override={overrides.accountsSection}
           className={classNames("__wab_instance", sty.accountsSection)}
-          title={"Accounts"}
+          title={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___81RMa
+              )}
+            >
+              {"Accounts"}
+            </div>
+          }
         >
           <MenuIconListItem
             className={classNames(
@@ -302,7 +342,7 @@ function PlasmicPanelMember__RenderFunc(props) {
             data-plasmic-override={overrides.switchToPartnerButton}
             className={classNames("__wab_instance", sty.switchToPartnerButton)}
             color={"brand"}
-            noPadding={"noPadding"}
+            noPadding={true}
             preventDefault={"true"}
             type={"link"}
           >
@@ -323,7 +363,7 @@ function PlasmicPanelMember__RenderFunc(props) {
                   sty.text__zSoRd
                 )}
               >
-                {"Switch To Partner"}
+                {"Switch to Partner"}
               </div>
             </p.Stack>
           </Button>
@@ -333,7 +373,17 @@ function PlasmicPanelMember__RenderFunc(props) {
           data-plasmic-name={"adminSection"}
           data-plasmic-override={overrides.adminSection}
           className={classNames("__wab_instance", sty.adminSection)}
-          title={"ADMIN"}
+          title={
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__axkZ8
+              )}
+            >
+              {"ADMIN"}
+            </div>
+          }
         >
           <MenuIconListItem
             className={classNames(
@@ -393,7 +443,7 @@ function PlasmicPanelMember__RenderFunc(props) {
             data-plasmic-override={overrides.logoutButton}
             className={classNames("__wab_instance", sty.logoutButton)}
             color={"brand"}
-            noPadding={"noPadding"}
+            noPadding={true}
             preventDefault={"true"}
             type={"link"}
           >
@@ -540,12 +590,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelMember__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelMember__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

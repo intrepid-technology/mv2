@@ -2489,7 +2489,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__picp2 {
+.img__hhIw5 {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -2500,10 +2500,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__picp2 > picture > img {
+.img__hhIw5 > picture > img {
   object-fit: cover;
 }
-.img__picp2 > .__wab_img-spacer > img {
+.img__hhIw5 > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__acx1 {
@@ -2557,7 +2557,7 @@
 .img__bYGhF > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__zkYiK {
+.img___3Lf9P {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -2568,10 +2568,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__zkYiK > picture > img {
+.img___3Lf9P > picture > img {
   object-fit: cover;
 }
-.img__zkYiK > .__wab_img-spacer > img {
+.img___3Lf9P > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__cfPev {
@@ -2934,13 +2934,23 @@
   font-size: 18px;
   font-weight: 600;
 }
-.svg__ay1DZ {
+.svg__shYsa {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  display: block;
+}
+.svg__ljDa3 {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
   min-width: 0;
   min-height: 0;
+  display: block;
 }
 .buttonPrimary__ma8Uo:global(.__wab_instance) {
   position: relative;
@@ -2955,13 +2965,23 @@
   font-size: 18px;
   font-weight: 600;
 }
-.svg__vRTC {
+.svg__bcUn {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  display: block;
+}
+.svg__yElrq {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
   min-width: 0;
   min-height: 0;
+  display: block;
 }
 .buttonPrimary__gzMur:global(.__wab_instance) {
   position: relative;
@@ -2976,13 +2996,23 @@
   font-weight: 600;
   font-size: 18px;
 }
-.svg__uHycq {
+.svg__qZUw {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  display: block;
+}
+.svg___8Q2KU {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
   min-width: 0;
   min-height: 0;
+  display: block;
 }
 .save {
   position: relative;

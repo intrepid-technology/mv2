@@ -24,7 +24,7 @@ export const PlasmicRecommendation__VariantProps = new Array();
 export const PlasmicRecommendation__ArgProps = new Array();
 
 function PlasmicRecommendation__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicRecommendation__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicRecommendation__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

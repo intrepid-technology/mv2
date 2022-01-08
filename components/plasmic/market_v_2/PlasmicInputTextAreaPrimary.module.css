@@ -4,10 +4,12 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.root__width_stretch {
   width: 100%;
-  height: 100%;
   min-width: 0;
-  min-height: 0;
 }
 .root__height__720 {
   width: auto;
@@ -17,12 +19,35 @@
 .parent {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
   width: 100%;
-  height: 100%;
+  height: auto;
   min-width: 0;
-  min-height: 0;
+  padding: 0px;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 0;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.parent > :global(.__wab_flex-container) > picture > img,
+.parent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 6px;
+}
+.parent__width__720 {
+  width: 720px;
+}
+.parent__height__90 {
+  height: 90px;
+  flex-shrink: 0;
 }
 .parent__height__180 {
   height: 180px;
@@ -59,13 +84,6 @@
 .parent__width__540 {
   width: 540px;
 }
-.parent__width__720 {
-  width: 720px;
-}
-.parent__height__90 {
-  height: 90px;
-  flex-shrink: 0;
-}
 .parent__height__720_width__90 {
   width: 90px;
 }
@@ -75,23 +93,52 @@
 .parent__height__720_width__270 {
   width: 270px;
 }
+.freeBox__lf43I {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox__label__lf43IPyJo {
+  display: none;
+}
+.slotTargetChildren {
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
+}
 .textarea {
   width: 100%;
   height: 100%;
-  background: #f8f8f8;
+  background: none;
   min-width: 0;
   min-height: 0;
   border-radius: 4px;
   padding: 8px;
-  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
 .textarea__type_secondary {
-  background: #ffffff;
+  background: #f8f8f8;
 }
 .root:hover .textarea {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .root:focus-within .textarea {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+}
+.freeBox__raGoy {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox__description__raGoyFossS {
+  display: none;
+}
+.slotTargetSlot {
+  font-size: 12px;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }

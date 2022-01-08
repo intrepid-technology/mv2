@@ -40,7 +40,7 @@ export const PlasmicChipBadgeDisplay__ArgProps = new Array(
 );
 
 function PlasmicChipBadgeDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -220,6 +220,12 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
             [sty.slotTargetChildren__trigger__delete_color_brand]:
               hasVariant(variants, "trigger", "_delete") &&
               hasVariant(variants, "color", "brand"),
+            [sty.slotTargetChildren__trigger_add]: hasVariant(
+              variants,
+              "trigger",
+              "add"
+            ),
+
             [sty.slotTargetChildren__trigger_disabled]: hasVariant(
               variants,
               "trigger",
@@ -450,12 +456,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicChipBadgeDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicChipBadgeDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

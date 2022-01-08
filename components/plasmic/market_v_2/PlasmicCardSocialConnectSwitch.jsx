@@ -32,7 +32,7 @@ export const PlasmicCardSocialConnectSwitch__VariantProps = new Array(
 export const PlasmicCardSocialConnectSwitch__ArgProps = new Array();
 
 function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -502,9 +502,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
           data-plasmic-name={"switchPrimary"}
           data-plasmic-override={overrides.switchPrimary}
           _switch={
-            hasVariant(variants, "connected", "connected")
-              ? "_switch"
-              : undefined
+            hasVariant(variants, "connected", "connected") ? true : undefined
           }
           className={classNames("__wab_instance", sty.switchPrimary, {
             [sty.switchPrimary__connected]: hasVariant(
@@ -546,12 +544,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardSocialConnectSwitch__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardSocialConnectSwitch__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

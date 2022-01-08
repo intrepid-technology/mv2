@@ -25,7 +25,7 @@ export const PlasmicUserAvatarButton__VariantProps = new Array("size");
 export const PlasmicUserAvatarButton__ArgProps = new Array("avatarImage");
 
 function PlasmicUserAvatarButton__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"avatarButtonEdit"}
@@ -135,12 +135,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicUserAvatarButton__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicUserAvatarButton__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

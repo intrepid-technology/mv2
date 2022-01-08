@@ -45,7 +45,7 @@ export const PlasmicSelectDropdownPrimary__ArgProps = new Array(
 const PlasmicSelectDropdownPrimaryContext = React.createContext(undefined);
 
 function PlasmicSelectDropdownPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false
@@ -65,7 +65,8 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
         className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
           [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
           [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.root__width__720]: hasVariant(variants, "width", "_720")
+          [sty.root__width__720]: hasVariant(variants, "width", "_720"),
+          [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
@@ -316,12 +317,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSelectDropdownPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectDropdownPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

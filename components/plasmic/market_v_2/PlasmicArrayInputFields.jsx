@@ -28,7 +28,7 @@ export const PlasmicArrayInputFields__VariantProps = new Array();
 export const PlasmicArrayInputFields__ArgProps = new Array("itemContainer");
 
 function PlasmicArrayInputFields__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -131,12 +131,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicArrayInputFields__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicArrayInputFields__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

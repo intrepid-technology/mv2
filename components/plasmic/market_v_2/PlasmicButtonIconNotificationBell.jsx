@@ -30,7 +30,7 @@ export const PlasmicButtonIconNotificationBell__VariantProps = new Array(
 export const PlasmicButtonIconNotificationBell__ArgProps = new Array("target");
 
 function PlasmicButtonIconNotificationBell__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"root"}
@@ -133,12 +133,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonIconNotificationBell__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonIconNotificationBell__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

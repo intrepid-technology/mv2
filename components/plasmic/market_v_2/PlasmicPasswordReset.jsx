@@ -26,7 +26,7 @@ export const PlasmicPasswordReset__VariantProps = new Array();
 export const PlasmicPasswordReset__ArgProps = new Array();
 
 function PlasmicPasswordReset__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPasswordReset__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPasswordReset__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

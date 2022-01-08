@@ -28,7 +28,7 @@ export const PlasmicServiceListingProcessCard__VariantProps = new Array(
 export const PlasmicServiceListingProcessCard__ArgProps = new Array();
 
 function PlasmicServiceListingProcessCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -42,7 +42,7 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       })}
     >
       <InputProcess
-        _delete={"_delete"}
+        _delete={true}
         className={classNames("__wab_instance", sty.inputProcess__qwYGp, {
           [sty.inputProcess__amount__3__qwYGpx17Zr]: hasVariant(
             variants,
@@ -796,12 +796,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServiceListingProcessCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceListingProcessCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

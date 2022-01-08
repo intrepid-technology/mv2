@@ -24,7 +24,7 @@ export const PlasmicFormContext__VariantProps = new Array();
 export const PlasmicFormContext__ArgProps = new Array("children");
 
 function PlasmicFormContext__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <form
       data-plasmic-name={"root"}
@@ -54,12 +54,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormContext__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormContext__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

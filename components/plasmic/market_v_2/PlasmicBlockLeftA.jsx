@@ -27,7 +27,7 @@ export const PlasmicBlockLeftA__VariantProps = new Array();
 export const PlasmicBlockLeftA__ArgProps = new Array("button");
 
 function PlasmicBlockLeftA__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -132,7 +132,7 @@ function PlasmicBlockLeftA__RenderFunc(props) {
         className={classNames(projectcss.all, sty.buttonParent)}
       >
         {p.renderPlasmicSlot({
-          defaultContents: <ButtonPrimary size={"_360"} />,
+          defaultContents: <ButtonPrimary width={"_360"} />,
           value: args.button
         })}
       </div>
@@ -187,12 +187,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicBlockLeftA__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicBlockLeftA__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

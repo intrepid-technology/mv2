@@ -33,7 +33,7 @@ export const PlasmicInputRichTextField__ArgProps = new Array(
 );
 
 function PlasmicInputRichTextField__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -168,12 +168,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputRichTextField__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputRichTextField__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

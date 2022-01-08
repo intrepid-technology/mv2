@@ -30,7 +30,7 @@ export const PlasmicSearch__VariantProps = new Array();
 export const PlasmicSearch__ArgProps = new Array();
 
 function PlasmicSearch__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -265,129 +265,129 @@ function PlasmicSearch__RenderFunc(props) {
               className={classNames(projectcss.all, sty.freeBox___79Svz)}
             >
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__uQyQm
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__qeovh
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay___2X6XN
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__xXm4Z
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay___3Y9Ri
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay___7Pgi
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__lTfeC
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__xseN7
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
 
               <CardServiceDisplay
-                boost={"boost"}
+                boost={true}
                 className={classNames(
                   "__wab_instance",
                   sty.cardServiceDisplay__z6Gir
                 )}
-                membership={"membership"}
-                price={"price"}
-                rating={"rating"}
+                membership={true}
+                price={true}
+                rating={true}
                 size={"_360X270"}
-                userStats={"userStats"}
-                verification={"verification"}
+                userStats={true}
+                verification={true}
               />
             </p.Stack>
 
@@ -395,8 +395,8 @@ function PlasmicSearch__RenderFunc(props) {
               data-plasmic-name={"buttonPrimary"}
               data-plasmic-override={overrides.buttonPrimary}
               className={classNames("__wab_instance", sty.buttonPrimary)}
-              size={"_270"}
               type={"ghost"}
+              width={"_270"}
             >
               <div
                 className={classNames(
@@ -430,12 +430,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSearch__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSearch__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

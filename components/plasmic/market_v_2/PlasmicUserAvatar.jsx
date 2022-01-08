@@ -42,7 +42,7 @@ export const PlasmicUserAvatar__ArgProps = new Array(
 );
 
 function PlasmicUserAvatar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"parentRoot"}
@@ -353,7 +353,7 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     alt={""}
                     className={classNames(projectcss.img, sty.img__bqMj6)}
                     src={
-                      "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
+                      "/plasmic/market_v_2/images/intrepidLogoSquareBlack2021Png.png"
                     }
                   />
                 ),
@@ -883,12 +883,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicUserAvatar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicUserAvatar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

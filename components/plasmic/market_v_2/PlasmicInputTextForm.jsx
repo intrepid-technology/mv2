@@ -35,7 +35,7 @@ export const PlasmicInputTextForm__ArgProps = new Array(
 );
 
 function PlasmicInputTextForm__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootHover, triggerRootHoverProps] = useTrigger("useHover", {});
   const triggers = {
     hover_root: isRootHover
@@ -49,9 +49,11 @@ function PlasmicInputTextForm__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
         [sty.root__label]: hasVariant(variants, "label", "label"),
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary"),
         [sty.root__width__180]: hasVariant(variants, "width", "_180"),
         [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-        [sty.root__width__380]: hasVariant(variants, "width", "_380")
+        [sty.root__width__380]: hasVariant(variants, "width", "_380"),
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
       })}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
     >
@@ -70,7 +72,8 @@ function PlasmicInputTextForm__RenderFunc(props) {
           [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
           [sty.parent__width__380]: hasVariant(variants, "width", "_380"),
           [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
+          [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
+          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
         <div
@@ -122,7 +125,7 @@ function PlasmicInputTextForm__RenderFunc(props) {
         >
           {(hasVariant(variants, "label", "label") ? false : true)
             ? p.renderPlasmicSlot({
-                defaultContents: "Headline",
+                defaultContents: "Label",
                 value: args.labelHeadline,
                 className: classNames(sty.slotTargetLabelHeadline, {
                   [sty.slotTargetLabelHeadline__label]: hasVariant(
@@ -225,6 +228,12 @@ function PlasmicInputTextForm__RenderFunc(props) {
                   "_40"
                 ),
 
+                [sty.textInput__height__44]: hasVariant(
+                  variants,
+                  "height",
+                  "_44"
+                ),
+
                 [sty.textInput__height__48]: hasVariant(
                   variants,
                   "height",
@@ -249,13 +258,7 @@ function PlasmicInputTextForm__RenderFunc(props) {
                   "_720"
                 )
               })}
-              placeholder={
-                triggers.hover_root
-                  ? "Enter text"
-                  : hasVariant(variants, "type", "primary")
-                  ? ""
-                  : ""
-              }
+              placeholder={hasVariant(variants, "type", "primary") ? "" : ""}
               size={1}
               type={"text"}
               value={triggers.hover_root ? "" : ""}
@@ -402,12 +405,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextForm__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextForm__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicCardHeroCta2__VariantProps = new Array();
 export const PlasmicCardHeroCta2__ArgProps = new Array("children", "slot");
 
 function PlasmicCardHeroCta2__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -50,8 +50,8 @@ function PlasmicCardHeroCta2__RenderFunc(props) {
           data-plasmic-name={"buttonPrimary"}
           data-plasmic-override={overrides.buttonPrimary}
           className={classNames("__wab_instance", sty.buttonPrimary)}
-          color={"brand"}
-          size={"_140"}
+          color={"primary"}
+          width={"_140"}
         />
       </div>
 
@@ -85,12 +85,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardHeroCta2__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardHeroCta2__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

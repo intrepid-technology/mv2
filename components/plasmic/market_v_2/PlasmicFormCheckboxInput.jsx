@@ -34,7 +34,7 @@ export const PlasmicFormCheckboxInput__ArgProps = new Array(
 );
 
 function PlasmicFormCheckboxInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -66,18 +66,14 @@ function PlasmicFormCheckboxInput__RenderFunc(props) {
           )
         })}
         defaultChecked={
-          hasVariant(variants, "isChecked", "isChecked")
-            ? "isChecked"
-            : undefined
+          hasVariant(variants, "isChecked", "isChecked") ? true : undefined
         }
         isDisabled={
-          hasVariant(variants, "isDisabled", "isDisabled")
-            ? "isDisabled"
-            : undefined
+          hasVariant(variants, "isDisabled", "isDisabled") ? true : undefined
         }
         isIndeterminate={
           hasVariant(variants, "isIndeterminate", "isIndeterminate")
-            ? "isIndeterminate"
+            ? true
             : undefined
         }
         name={args.name}
@@ -106,12 +102,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormCheckboxInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormCheckboxInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

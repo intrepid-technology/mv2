@@ -37,7 +37,7 @@ export const PlasmicEditmember__VariantProps = new Array();
 export const PlasmicEditmember__ArgProps = new Array();
 
 function PlasmicEditmember__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -163,9 +163,9 @@ function PlasmicEditmember__RenderFunc(props) {
                         "__wab_instance",
                         sty.firstNameInput
                       )}
+                      headline={true}
                       label={"First Name"}
                       name={"firstName"}
-                      showLabel={"showLabel"}
                       type={"secondary"}
                     />
 
@@ -176,9 +176,9 @@ function PlasmicEditmember__RenderFunc(props) {
                         "__wab_instance",
                         sty.lastNameInput
                       )}
+                      headline={true}
                       label={"Last Name"}
                       name={"lastName"}
-                      showLabel={"showLabel"}
                       type={"secondary"}
                     />
                   </p.Stack>
@@ -319,11 +319,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"displayNameInput"}
                     data-plasmic-override={overrides.displayNameInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.displayNameInput
                     )}
+                    labels={["prefix"]}
                     name={"displayName"}
                     startAdornment={"@"}
                     type={"secondary"}
@@ -362,11 +362,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"companyUrlTextInput"}
                     data-plasmic-override={overrides.companyUrlTextInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.companyUrlTextInput
                     )}
+                    labels={["prefix"]}
                     name={"company.url"}
                     startAdornment={"intrepid/technology/"}
                     type={"secondary"}
@@ -486,11 +486,11 @@ function PlasmicEditmember__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"introVideoUrlInput"}
                     data-plasmic-override={overrides.introVideoUrlInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.introVideoUrlInput
                     )}
+                    labels={["prefix"]}
                     name={"introVideoUrl"}
                     startAdornment={"https//"}
                     type={"secondary"}
@@ -681,9 +681,9 @@ function PlasmicEditmember__RenderFunc(props) {
                         "__wab_instance",
                         sty.jobTitleInput
                       )}
+                      headline={true}
                       label={"Job Title"}
                       name={"jobTitle"}
-                      showLabel={"showLabel"}
                       type={"secondary"}
                     />
                   </p.Stack>
@@ -981,8 +981,8 @@ function PlasmicEditmember__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"formTextInput"}
                     data-plasmic-override={overrides.formTextInput}
-                    adornment={["start"]}
                     className={classNames("__wab_instance", sty.formTextInput)}
+                    labels={["prefix"]}
                     name={"website"}
                     startAdornment={"https://"}
                     type={"secondary"}
@@ -1429,12 +1429,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditmember__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditmember__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -6,10 +6,24 @@
   width: 32px;
   height: 32px;
   position: relative;
-  background: #101010;
+  background: #14161b;
+  transition-property: all;
+  transition-duration: 0.5s;
   border-radius: 2px;
   padding: 8px;
-  border: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
+  border: 2px solid #14161b /* plasmic-token: gtUIPzlCk */;
+}
+.root__color_primary {
+  background: #5229cc;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
+}
+.root:hover {
+  background: #292d35;
+  border-color: #292d35 /* plasmic-token: T6he24oKP */;
+}
+.root__color_primary:hover {
+  background: #3d1f99;
+  border-color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
 .freeBox {
   display: flex;

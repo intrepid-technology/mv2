@@ -433,7 +433,7 @@
     {
       "name": "borderBGLight",
       "type": "color",
-      "value": "#DCDCDC",
+      "value": "#A3A9B6",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
@@ -443,7 +443,7 @@
     {
       "name": "borderBGLightFocused",
       "type": "color",
-      "value": "#6633FF",
+      "value": "#5229CC",
       "category": "color",
       "meta": {
         "projectId": "3jRhtnjrFaHJWfNWC1k5BV",

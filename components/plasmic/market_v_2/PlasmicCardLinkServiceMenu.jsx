@@ -31,7 +31,7 @@ export const PlasmicCardLinkServiceMenu__ArgProps = new Array(
 );
 
 function PlasmicCardLinkServiceMenu__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -105,12 +105,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardLinkServiceMenu__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardLinkServiceMenu__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

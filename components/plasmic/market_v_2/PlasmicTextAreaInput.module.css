@@ -54,7 +54,7 @@
 }
 .root:focus-within .wrapper {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .startAdornmentWrapper {
   display: flex;

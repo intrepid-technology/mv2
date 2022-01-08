@@ -34,7 +34,7 @@ export const PlasmicAlertRedirectUser__VariantProps = new Array(
 export const PlasmicAlertRedirectUser__ArgProps = new Array();
 
 function PlasmicAlertRedirectUser__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -201,7 +201,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
               "light"
             )
           })}
-          color={hasVariant(variants, "color", "light") ? "brand" : "light"}
+          color={hasVariant(variants, "color", "light") ? "primary" : "light"}
           direction={"right"}
           svgRight={
             <Icon118Icon
@@ -267,12 +267,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicAlertRedirectUser__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicAlertRedirectUser__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

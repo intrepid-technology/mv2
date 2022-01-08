@@ -50,7 +50,7 @@ export const PlasmicInputFormCardPrimary__ArgProps = new Array(
 );
 
 function PlasmicInputFormCardPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -289,7 +289,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   )}
                   description={
                     hasVariant(variants, "inputType", "dropdownText")
-                      ? "description"
+                      ? true
                       : undefined
                   }
                   dropdownTitle={"Select"}
@@ -930,7 +930,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                 "subDescription"
               )
             })}
-            size={"_140"}
+            width={"_140"}
           >
             {"Save"}
           </ButtonPrimary>
@@ -1030,12 +1030,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputFormCardPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputFormCardPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

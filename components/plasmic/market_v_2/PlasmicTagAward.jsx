@@ -25,7 +25,7 @@ export const PlasmicTagAward__VariantProps = new Array();
 export const PlasmicTagAward__ArgProps = new Array("children", "iconParent");
 
 function PlasmicTagAward__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -84,12 +84,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTagAward__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTagAward__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
