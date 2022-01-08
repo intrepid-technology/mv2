@@ -58,7 +58,7 @@ export const PlasmicIconSocialProfile__VariantProps = new Array(
 export const PlasmicIconSocialProfile__ArgProps = new Array("destination");
 
 function PlasmicIconSocialProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -536,12 +536,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicIconSocialProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicIconSocialProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

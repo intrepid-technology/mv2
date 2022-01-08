@@ -30,7 +30,7 @@ export const PlasmicServicelistingimage__VariantProps = new Array();
 export const PlasmicServicelistingimage__ArgProps = new Array();
 
 function PlasmicServicelistingimage__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -253,12 +253,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingimage__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingimage__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

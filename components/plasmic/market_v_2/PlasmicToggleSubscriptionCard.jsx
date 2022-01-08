@@ -29,7 +29,7 @@ export const PlasmicToggleSubscriptionCard__VariantProps = new Array(
 export const PlasmicToggleSubscriptionCard__ArgProps = new Array();
 
 function PlasmicToggleSubscriptionCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -117,11 +117,11 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
           data-plasmic-override={overrides.switchPrimary}
           _switch={
             hasVariant(variants, "active", "placement")
-              ? "_switch"
+              ? true
               : hasVariant(variants, "active", "autorenew")
-              ? "_switch"
+              ? true
               : hasVariant(variants, "active", "yearly")
-              ? "_switch"
+              ? true
               : undefined
           }
           className={classNames("__wab_instance", sty.switchPrimary, {
@@ -183,12 +183,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicToggleSubscriptionCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicToggleSubscriptionCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

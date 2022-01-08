@@ -38,7 +38,7 @@ export const PlasmicEditteammanage__VariantProps = new Array();
 export const PlasmicEditteammanage__ArgProps = new Array();
 
 function PlasmicEditteammanage__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -149,8 +149,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                   data-plasmic-name={"buttonPrimary"}
                   data-plasmic-override={overrides.buttonPrimary}
                   className={classNames("__wab_instance", sty.buttonPrimary)}
-                  size={"_140"}
                   type={"primary"}
+                  width={"_140"}
                 >
                   {"Invite link"}
                 </ButtonPrimary>
@@ -193,7 +193,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                               {"Email"}
                             </div>
                           }
-                          subhead={"subhead"}
+                          subhead={true}
                           width={
                             hasVariant(
                               globalVariants,
@@ -210,7 +210,7 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             "__wab_instance",
                             sty.selectGroupDropdownPrimary__gj5Rn
                           )}
-                          description={"description"}
+                          description={true}
                           placeholder={"Member"}
                           width={
                             hasVariant(
@@ -250,8 +250,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             "__wab_instance",
                             sty.inputTextForm__ziL9
                           )}
-                          label={"label"}
-                          subhead={"subhead"}
+                          label={true}
+                          subhead={true}
                           width={
                             hasVariant(
                               globalVariants,
@@ -268,8 +268,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                             "__wab_instance",
                             sty.selectGroupDropdownPrimary__qVoyx
                           )}
-                          description={"description"}
-                          label={"label"}
+                          description={true}
+                          label={true}
                           placeholder={"Member"}
                           width={
                             hasVariant(
@@ -311,8 +311,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                       <ButtonPrimary
                         data-plasmic-name={"inviteMembers"}
                         data-plasmic-override={overrides.inviteMembers}
-                        size={"_140"}
                         type={"outline"}
+                        width={"_140"}
                       >
                         {"Invite"}
                       </ButtonPrimary>
@@ -400,8 +400,8 @@ function PlasmicEditteammanage__RenderFunc(props) {
                         "__wab_instance",
                         sty.selectGroupDropdownPrimary___8Lqr8
                       )}
-                      description={"description"}
-                      label={"label"}
+                      description={true}
+                      label={true}
                       placeholder={"Member"}
                       width={
                         hasVariant(globalVariants, "screen", "iphone12ProMax")
@@ -595,12 +595,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditteammanage__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditteammanage__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

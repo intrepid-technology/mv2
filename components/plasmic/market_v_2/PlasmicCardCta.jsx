@@ -28,7 +28,7 @@ export const PlasmicCardCta__VariantProps = new Array("center");
 export const PlasmicCardCta__ArgProps = new Array("children", "slot", "slot2");
 
 function PlasmicCardCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -115,8 +115,8 @@ function PlasmicCardCta__RenderFunc(props) {
         data-plasmic-name={"buttonPrimary"}
         data-plasmic-override={overrides.buttonPrimary}
         className={classNames("__wab_instance", sty.buttonPrimary)}
-        color={"brand"}
-        size={"_140"}
+        color={"primary"}
+        width={"_140"}
       >
         {hasVariant(globalVariants, "screen", "desktop")
           ? "Apply to partner"
@@ -141,12 +141,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

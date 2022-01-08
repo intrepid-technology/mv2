@@ -29,7 +29,7 @@ export const PlasmicSectionTeamProfileHero__VariantProps = new Array();
 export const PlasmicSectionTeamProfileHero__ArgProps = new Array();
 
 function PlasmicSectionTeamProfileHero__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -79,12 +79,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionTeamProfileHero__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionTeamProfileHero__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

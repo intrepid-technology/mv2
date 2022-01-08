@@ -38,7 +38,7 @@ export const PlasmicDesignTemplateMember__VariantProps = new Array();
 export const PlasmicDesignTemplateMember__ArgProps = new Array();
 
 function PlasmicDesignTemplateMember__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -380,12 +380,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDesignTemplateMember__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDesignTemplateMember__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

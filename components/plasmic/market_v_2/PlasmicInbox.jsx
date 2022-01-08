@@ -24,7 +24,7 @@ export const PlasmicInbox__VariantProps = new Array();
 export const PlasmicInbox__ArgProps = new Array();
 
 function PlasmicInbox__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInbox__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInbox__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -37,7 +37,7 @@ export const PlasmicButtonConnectedAccount__VariantProps = new Array(
 export const PlasmicButtonConnectedAccount__ArgProps = new Array("id");
 
 function PlasmicButtonConnectedAccount__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"button"}
@@ -517,12 +517,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonConnectedAccount__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonConnectedAccount__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

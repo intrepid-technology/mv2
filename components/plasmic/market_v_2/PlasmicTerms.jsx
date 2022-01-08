@@ -25,7 +25,7 @@ export const PlasmicTerms__VariantProps = new Array();
 export const PlasmicTerms__ArgProps = new Array();
 
 function PlasmicTerms__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTerms__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTerms__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

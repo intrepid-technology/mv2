@@ -29,7 +29,7 @@ export const PlasmicMultiSelectInput__VariantProps = new Array("isOpen");
 export const PlasmicMultiSelectInput__ArgProps = new Array();
 
 function PlasmicMultiSelectInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -54,6 +54,7 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
             data-plasmic-name={"textInput"}
             data-plasmic-override={overrides.textInput}
             className={classNames("__wab_instance", sty.textInput)}
+            type={"secondary"}
           />
 
           <div
@@ -173,12 +174,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMultiSelectInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMultiSelectInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

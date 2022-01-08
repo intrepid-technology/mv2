@@ -28,7 +28,7 @@ export const PlasmicSwitchTextGroupPrimary__ArgProps = new Array(
 );
 
 function PlasmicSwitchTextGroupPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -100,12 +100,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSwitchTextGroupPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSwitchTextGroupPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -38,7 +38,7 @@ export const PlasmicTextLinkArrow__ArgProps = new Array(
 );
 
 function PlasmicTextLinkArrow__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -48,9 +48,9 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
         [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
+        [sty.root__color_light]: hasVariant(variants, "color", "light"),
+        [sty.root__color_primary]: hasVariant(variants, "color", "primary")
       })}
       component={Link}
       href={args.destination}
@@ -118,12 +118,6 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
 
               value: args.svgLeft,
               className: classNames(sty.slotTargetSvgLeft, {
-                [sty.slotTargetSvgLeft__color_brand]: hasVariant(
-                  variants,
-                  "color",
-                  "brand"
-                ),
-
                 [sty.slotTargetSvgLeft__color_dark]: hasVariant(
                   variants,
                   "color",
@@ -136,6 +130,12 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
                   "light"
                 ),
 
+                [sty.slotTargetSvgLeft__color_primary]: hasVariant(
+                  variants,
+                  "color",
+                  "primary"
+                ),
+
                 [sty.slotTargetSvgLeft__size__16]: hasVariant(
                   variants,
                   "size",
@@ -146,15 +146,9 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
           </div>
         ) : null}
         {p.renderPlasmicSlot({
-          defaultContents: "link ",
+          defaultContents: "link",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_brand]: hasVariant(
-              variants,
-              "color",
-              "brand"
-            ),
-
             [sty.slotTargetChildren__color_dark]: hasVariant(
               variants,
               "color",
@@ -165,6 +159,12 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
               variants,
               "color",
               "light"
+            ),
+
+            [sty.slotTargetChildren__color_primary]: hasVariant(
+              variants,
+              "color",
+              "primary"
             ),
 
             [sty.slotTargetChildren__size__14]: hasVariant(
@@ -239,15 +239,6 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
 
               value: args.svgRight,
               className: classNames(sty.slotTargetSvgRight, {
-                [sty.slotTargetSvgRight__color_brand]: hasVariant(
-                  variants,
-                  "color",
-                  "brand"
-                ),
-
-                [sty.slotTargetSvgRight__color_brand_direction_right]:
-                  hasVariant(variants, "color", "brand") &&
-                  hasVariant(variants, "direction", "right"),
                 [sty.slotTargetSvgRight__color_dark]: hasVariant(
                   variants,
                   "color",
@@ -258,7 +249,17 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
                   variants,
                   "color",
                   "light"
-                )
+                ),
+
+                [sty.slotTargetSvgRight__color_primary]: hasVariant(
+                  variants,
+                  "color",
+                  "primary"
+                ),
+
+                [sty.slotTargetSvgRight__color_primary_direction_right]:
+                  hasVariant(variants, "color", "primary") &&
+                  hasVariant(variants, "direction", "right")
               })
             })}
           </div>
@@ -284,12 +285,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextLinkArrow__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextLinkArrow__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

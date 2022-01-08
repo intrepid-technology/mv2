@@ -31,7 +31,7 @@ export const PlasmicSectionHowItWorks__VariantProps = new Array();
 export const PlasmicSectionHowItWorks__ArgProps = new Array();
 
 function PlasmicSectionHowItWorks__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -134,12 +134,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionHowItWorks__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionHowItWorks__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

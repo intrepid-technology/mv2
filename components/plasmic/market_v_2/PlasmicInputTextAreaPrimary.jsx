@@ -9,6 +9,7 @@
 // Plasmic Project: 3jRhtnjrFaHJWfNWC1k5BV
 // Component: T-WLdey8LU
 import * as React from "react";
+import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
   classNames,
@@ -20,15 +21,21 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicInputTextAreaPrimary.module.css"; // plasmic-import: T-WLdey8LU/css
 
 export const PlasmicInputTextAreaPrimary__VariantProps = new Array(
+  "label",
+  "description",
   "type",
   "width",
   "height"
 );
 
-export const PlasmicInputTextAreaPrimary__ArgProps = new Array("placeholder");
+export const PlasmicInputTextAreaPrimary__ArgProps = new Array(
+  "placeholder",
+  "children",
+  "slot"
+);
 
 function PlasmicInputTextAreaPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (hasVariant(variants, "height", "_720") ? true : true) ? (
     <div
       data-plasmic-name={"root"}
@@ -37,12 +44,16 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
         [sty.root__height__720]: hasVariant(variants, "height", "_720"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary"),
+        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
-      <div
+      <p.Stack
+        as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
+        hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
           [sty.parent__height__180]: hasVariant(variants, "height", "_180"),
           [sty.parent__height__270]: hasVariant(variants, "height", "_270"),
@@ -70,27 +81,93 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
           [sty.parent__width__720_height__90]:
             hasVariant(variants, "width", "_720") &&
             hasVariant(variants, "height", "_90"),
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90"),
+          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
+        {(hasVariant(variants, "label", "label") ? true : true) ? (
+          <div
+            className={classNames(projectcss.all, sty.freeBox__lf43I, {
+              [sty.freeBox__description__lf43IFossS]: hasVariant(
+                variants,
+                "description",
+                "description"
+              ),
+
+              [sty.freeBox__label__lf43IPyJo]: hasVariant(
+                variants,
+                "label",
+                "label"
+              )
+            })}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: "Label",
+              value: args.children,
+              className: classNames(sty.slotTargetChildren, {
+                [sty.slotTargetChildren__label]: hasVariant(
+                  variants,
+                  "label",
+                  "label"
+                )
+              })
+            })}
+          </div>
+        ) : null}
+
         <textarea
           data-plasmic-name={"textarea"}
           data-plasmic-override={overrides.textarea}
           className={classNames(projectcss.textarea, sty.textarea, {
             [sty.textarea__height__720]: hasVariant(variants, "height", "_720"),
             [sty.textarea__height__90]: hasVariant(variants, "height", "_90"),
+            [sty.textarea__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
             [sty.textarea__type_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
             ),
 
-            [sty.textarea__width__90]: hasVariant(variants, "width", "_90")
+            [sty.textarea__width__90]: hasVariant(variants, "width", "_90"),
+            [sty.textarea__width_stretch]: hasVariant(
+              variants,
+              "width",
+              "stretch"
+            )
           })}
           placeholder={args.placeholder}
           value={""}
         />
-      </div>
+
+        {(hasVariant(variants, "description", "description") ? true : true) ? (
+          <div
+            className={classNames(projectcss.all, sty.freeBox__raGoy, {
+              [sty.freeBox__description__raGoyFossS]: hasVariant(
+                variants,
+                "description",
+                "description"
+              )
+            })}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: "Description",
+              value: args.slot,
+              className: classNames(sty.slotTargetSlot, {
+                [sty.slotTargetSlot__description]: hasVariant(
+                  variants,
+                  "description",
+                  "description"
+                )
+              })
+            })}
+          </div>
+        ) : null}
+      </p.Stack>
     </div>
   ) : null;
 }
@@ -110,12 +187,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextAreaPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextAreaPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

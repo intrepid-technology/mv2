@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon87Icon(props) {
+export function ComplianceClipboardIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -24,12 +24,12 @@ export function Icon87Icon(props) {
 
       <path
         d={
-          "M16 3c-1.863 0-3.398 1.277-3.844 3H3v20h26V6h-9.156c-.446-1.723-1.98-3-3.844-3zm0 2c.809 0 1.43.387 1.75 1h-3.5c.32-.613.941-1 1.75-1zM5 8h22v9H5zm11 6c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zM5 19h22v5H5z"
+          "M16 2c-1.258 0-2.152.89-2.594 2H5v25h22V4h-8.406C18.152 2.89 17.258 2 16 2zm0 2c.555 0 1 .445 1 1v1h3v2h-8V6h3V5c0-.555.445-1 1-1zM7 6h3v4h12V6h3v21H7zm14.281 7.281L15 19.562l-3.281-3.28-1.438 1.437 4 4 .719.687.719-.687 7-7z"
         }
       ></path>
     </svg>
   );
 }
 
-export default Icon87Icon;
+export default ComplianceClipboardIcon;
 /* prettier-ignore-end */

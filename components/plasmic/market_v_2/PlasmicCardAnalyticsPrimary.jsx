@@ -45,7 +45,7 @@ export const PlasmicCardAnalyticsPrimary__ArgProps = new Array(
 );
 
 function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"parent"}
@@ -475,12 +475,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardAnalyticsPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardAnalyticsPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

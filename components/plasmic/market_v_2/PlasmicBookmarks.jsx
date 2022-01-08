@@ -24,7 +24,7 @@ export const PlasmicBookmarks__VariantProps = new Array();
 export const PlasmicBookmarks__ArgProps = new Array();
 
 function PlasmicBookmarks__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -87,12 +87,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicBookmarks__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicBookmarks__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -23,7 +23,7 @@ export const PlasmicButtonSecondary__VariantProps = new Array();
 export const PlasmicButtonSecondary__ArgProps = new Array();
 
 function PlasmicButtonSecondary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <ButtonPrimary
       data-plasmic-name={"root"}
@@ -31,7 +31,7 @@ function PlasmicButtonSecondary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames("__wab_instance", sty.root)}
-      size={"_140"}
+      width={"_140"}
     />
   );
 }
@@ -49,12 +49,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonSecondary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonSecondary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

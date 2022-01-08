@@ -24,7 +24,7 @@ export const PlasmicSidebarSection__VariantProps = new Array();
 export const PlasmicSidebarSection__ArgProps = new Array("children", "title");
 
 function PlasmicSidebarSection__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -66,12 +66,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSidebarSection__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSidebarSection__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

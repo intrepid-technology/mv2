@@ -82,7 +82,7 @@
 }
 .formHomeSignUp .email:focus {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .passwordInputParent {
   display: flex;
@@ -146,7 +146,7 @@
 }
 .formHomeSignUp .password:focus {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .continueButton:global(.__wab_instance) {
   position: relative;
@@ -328,7 +328,7 @@
   font-weight: 600;
 }
 .formHomeSignUp .signupTos:hover {
-  color: #6633ff /* plasmic-token: brleuPgaD */;
+  color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .signupPrivacy {
   position: relative;
@@ -340,5 +340,5 @@
   font-weight: 600;
 }
 .formHomeSignUp .signupPrivacy:hover {
-  color: #6633ff /* plasmic-token: brleuPgaD */;
+  color: #5229cc /* plasmic-token: brleuPgaD */;
 }

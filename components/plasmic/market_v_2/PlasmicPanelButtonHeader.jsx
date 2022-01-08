@@ -29,7 +29,7 @@ export const PlasmicPanelButtonHeader__VariantProps = new Array("user");
 export const PlasmicPanelButtonHeader__ArgProps = new Array();
 
 function PlasmicPanelButtonHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     layout: useLayout()
   });
@@ -117,12 +117,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelButtonHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelButtonHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

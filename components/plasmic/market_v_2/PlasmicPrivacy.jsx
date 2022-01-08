@@ -25,7 +25,7 @@ export const PlasmicPrivacy__VariantProps = new Array();
 export const PlasmicPrivacy__ArgProps = new Array();
 
 function PlasmicPrivacy__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPrivacy__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPrivacy__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

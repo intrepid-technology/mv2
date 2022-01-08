@@ -28,7 +28,7 @@ export const PlasmicTableListingAdminHeader__VariantProps = new Array();
 export const PlasmicTableListingAdminHeader__ArgProps = new Array();
 
 function PlasmicTableListingAdminHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -297,12 +297,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableListingAdminHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableListingAdminHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

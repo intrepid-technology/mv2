@@ -25,7 +25,7 @@ export const PlasmicFormMultiCheckboxInput__VariantProps = new Array();
 export const PlasmicFormMultiCheckboxInput__ArgProps = new Array("name");
 
 function PlasmicFormMultiCheckboxInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -59,12 +59,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormMultiCheckboxInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormMultiCheckboxInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

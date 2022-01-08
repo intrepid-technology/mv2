@@ -17,6 +17,7 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicMenuIconListItem.module.css"; // plasmic-import: 61axZSTp8Y/css
@@ -25,18 +26,21 @@ import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrand
 export const PlasmicMenuIconListItem__VariantProps = new Array(
   "disabled",
   "selected",
-  "renderContext"
+  "renderContext",
+  "action"
 );
 
 export const PlasmicMenuIconListItem__ArgProps = new Array(
   "navText",
   "navIcon",
   "destination",
-  "openInNewTab"
+  "openInNewTab",
+  "children",
+  "slot"
 );
 
 function PlasmicMenuIconListItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -50,6 +54,12 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         projectcss.root_reset,
         sty.menuIconListItemLink,
         {
+          [sty.menuIconListItemLink__action__switch]: hasVariant(
+            variants,
+            "action",
+            "_switch"
+          ),
+
           [sty.menuIconListItemLink__disabled]: hasVariant(
             variants,
             "disabled",
@@ -74,6 +84,12 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         data-plasmic-override={overrides.iconTextParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.iconTextParent, {
+          [sty.iconTextParent__action__switch]: hasVariant(
+            variants,
+            "action",
+            "_switch"
+          ),
+
           [sty.iconTextParent__selected]: hasVariant(
             variants,
             "selected",
@@ -101,7 +117,11 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
               variants,
               "selected",
               "selected"
-            )
+            ),
+
+            [sty.slotTargetNavIcon__selected_renderContext_sidebar]:
+              hasVariant(variants, "selected", "selected") &&
+              hasVariant(variants, "renderContext", "sidebar")
           })
         })}
 
@@ -109,6 +129,12 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
           data-plasmic-name={"navTextParent"}
           data-plasmic-override={overrides.navTextParent}
           className={classNames(projectcss.all, sty.navTextParent, {
+            [sty.navTextParent__action__switch]: hasVariant(
+              variants,
+              "action",
+              "_switch"
+            ),
+
             [sty.navTextParent__selected]: hasVariant(
               variants,
               "selected",
@@ -116,23 +142,79 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
             )
           })}
         >
-          {p.renderPlasmicSlot({
-            defaultContents: "Item",
-            value: args.navText,
-            className: classNames(sty.slotTargetNavText, {
-              [sty.slotTargetNavText__disabled]: hasVariant(
-                variants,
-                "disabled",
-                "disabled"
-              ),
+          {(hasVariant(variants, "action", "_switch") ? false : true)
+            ? p.renderPlasmicSlot({
+                defaultContents: "Item",
+                value: args.navText,
+                className: classNames(sty.slotTargetNavText, {
+                  [sty.slotTargetNavText__action__switch]: hasVariant(
+                    variants,
+                    "action",
+                    "_switch"
+                  ),
 
-              [sty.slotTargetNavText__selected]: hasVariant(
-                variants,
-                "selected",
-                "selected"
-              )
-            })
-          })}
+                  [sty.slotTargetNavText__disabled]: hasVariant(
+                    variants,
+                    "disabled",
+                    "disabled"
+                  ),
+
+                  [sty.slotTargetNavText__selected]: hasVariant(
+                    variants,
+                    "selected",
+                    "selected"
+                  ),
+
+                  [sty.slotTargetNavText__selected_renderContext_sidebar]:
+                    hasVariant(variants, "selected", "selected") &&
+                    hasVariant(variants, "renderContext", "sidebar")
+                })
+              })
+            : null}
+          {(hasVariant(variants, "action", "_switch") ? true : false) ? (
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"freeBox"}
+              data-plasmic-override={overrides.freeBox}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox, {
+                [sty.freeBox__action__switch]: hasVariant(
+                  variants,
+                  "action",
+                  "_switch"
+                )
+              })}
+            >
+              {p.renderPlasmicSlot({
+                defaultContents: "Member",
+                value: args.children,
+                className: classNames(sty.slotTargetChildren, {
+                  [sty.slotTargetChildren__selected_action__switch_renderContext_sidebar]:
+                    hasVariant(variants, "selected", "selected") &&
+                    hasVariant(variants, "action", "_switch") &&
+                    hasVariant(variants, "renderContext", "sidebar")
+                })
+              })}
+
+              <SwitchInput
+                data-plasmic-name={"switchActionButton"}
+                data-plasmic-override={overrides.switchActionButton}
+                className={classNames("__wab_instance", sty.switchActionButton)}
+                switchOnly={true}
+              />
+
+              {p.renderPlasmicSlot({
+                defaultContents: "Partner",
+                value: args.slot,
+                className: classNames(sty.slotTargetSlot, {
+                  [sty.slotTargetSlot__selected_action__switch_renderContext_sidebar]:
+                    hasVariant(variants, "selected", "selected") &&
+                    hasVariant(variants, "action", "_switch") &&
+                    hasVariant(variants, "renderContext", "sidebar")
+                })
+              })}
+            </p.Stack>
+          ) : null}
         </div>
       </p.Stack>
     </p.Stack>
@@ -143,11 +225,21 @@ const PlasmicDescendants = {
   menuIconListItemLink: [
     "menuIconListItemLink",
     "iconTextParent",
-    "navTextParent"
+    "navTextParent",
+    "freeBox",
+    "switchActionButton"
   ],
 
-  iconTextParent: ["iconTextParent", "navTextParent"],
-  navTextParent: ["navTextParent"]
+  iconTextParent: [
+    "iconTextParent",
+    "navTextParent",
+    "freeBox",
+    "switchActionButton"
+  ],
+
+  navTextParent: ["navTextParent", "freeBox", "switchActionButton"],
+  freeBox: ["freeBox", "switchActionButton"],
+  switchActionButton: ["switchActionButton"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -159,12 +251,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMenuIconListItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMenuIconListItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
@@ -183,6 +273,8 @@ export const PlasmicMenuIconListItem = Object.assign(
     // Helper components rendering sub-elements
     iconTextParent: makeNodeComponent("iconTextParent"),
     navTextParent: makeNodeComponent("navTextParent"),
+    freeBox: makeNodeComponent("freeBox"),
+    switchActionButton: makeNodeComponent("switchActionButton"),
     // Metadata about props expected for PlasmicMenuIconListItem
     internalVariantProps: PlasmicMenuIconListItem__VariantProps,
     internalArgProps: PlasmicMenuIconListItem__ArgProps

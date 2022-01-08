@@ -25,7 +25,7 @@ export const PlasmicMenuListingDropdown__VariantProps = new Array();
 export const PlasmicMenuListingDropdown__ArgProps = new Array();
 
 function PlasmicMenuListingDropdown__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -43,31 +43,31 @@ function PlasmicMenuListingDropdown__RenderFunc(props) {
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem__kqgky)}
-        disabled={"disabled"}
+        disabled={true}
         text={"Product"}
       />
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem__pfXm2)}
-        disabled={"disabled"}
+        disabled={true}
         text={"Event"}
       />
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem__hg2AN)}
-        disabled={"disabled"}
+        disabled={true}
         text={"Experience"}
       />
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem___8EqeL)}
-        disabled={"disabled"}
+        disabled={true}
         text={"Workspace"}
       />
 
       <MenuItem
         className={classNames("__wab_instance", sty.menuItem___1Cggc)}
-        disabled={"disabled"}
+        disabled={true}
         text={"Livespace"}
       />
     </p.Stack>
@@ -87,12 +87,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMenuListingDropdown__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMenuListingDropdown__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

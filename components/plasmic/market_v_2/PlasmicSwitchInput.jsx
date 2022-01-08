@@ -20,12 +20,16 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSwitchInput.module.css"; // plasmic-import: q4oa9NmA8gP/css
 
-export const PlasmicSwitchInput__VariantProps = new Array("on", "disabled");
+export const PlasmicSwitchInput__VariantProps = new Array(
+  "on",
+  "disabled",
+  "switchOnly"
+);
 
 export const PlasmicSwitchInput__ArgProps = new Array("content", "name");
 
 function PlasmicSwitchInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -39,19 +43,28 @@ function PlasmicSwitchInput__RenderFunc(props) {
         [sty.root__disabled_on]:
           hasVariant(variants, "disabled", "disabled") &&
           hasVariant(variants, "on", "on"),
-        [sty.root__on]: hasVariant(variants, "on", "on")
+        [sty.root__on]: hasVariant(variants, "on", "on"),
+        [sty.root__switchOnly]: hasVariant(variants, "switchOnly", "switchOnly")
       })}
     >
-      <div
-        data-plasmic-name={"contentWrapper"}
-        data-plasmic-override={overrides.contentWrapper}
-        className={classNames(projectcss.all, sty.contentWrapper)}
-      >
-        {p.renderPlasmicSlot({
-          defaultContents: "Enter some text",
-          value: args.content
-        })}
-      </div>
+      {(hasVariant(variants, "switchOnly", "switchOnly") ? true : true) ? (
+        <div
+          data-plasmic-name={"contentWrapper"}
+          data-plasmic-override={overrides.contentWrapper}
+          className={classNames(projectcss.all, sty.contentWrapper, {
+            [sty.contentWrapper__switchOnly]: hasVariant(
+              variants,
+              "switchOnly",
+              "switchOnly"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Enter some text",
+            value: args.content
+          })}
+        </div>
+      ) : null}
 
       <div
         data-plasmic-name={"background"}
@@ -106,12 +119,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSwitchInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSwitchInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

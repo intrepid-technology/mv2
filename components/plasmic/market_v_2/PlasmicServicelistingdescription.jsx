@@ -34,7 +34,7 @@ export const PlasmicServicelistingdescription__VariantProps = new Array();
 export const PlasmicServicelistingdescription__ArgProps = new Array();
 
 function PlasmicServicelistingdescription__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -170,7 +170,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__ts7RO
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -243,7 +243,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardQuestionServiceListing___7VrCf
                   )}
-                  overline={"overline"}
+                  overline={true}
                   slot={
                     <div
                       className={classNames(
@@ -288,7 +288,7 @@ function PlasmicServicelistingdescription__RenderFunc(props) {
                 )}
                 label={"Short Overview"}
                 placeholder={"Describe"}
-                showLabel={"showLabel"}
+                showLabel={true}
               />
 
               <p.Stack
@@ -385,12 +385,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingdescription__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingdescription__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function ServiceIcon(props) {
+export function ServicePartnerIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -31,5 +31,5 @@ export function ServiceIcon(props) {
   );
 }
 
-export default ServiceIcon;
+export default ServicePartnerIcon;
 /* prettier-ignore-end */

@@ -26,7 +26,7 @@ export const PlasmicChipStripeLink__VariantProps = new Array();
 export const PlasmicChipStripeLink__ArgProps = new Array();
 
 function PlasmicChipStripeLink__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -93,12 +93,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicChipStripeLink__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicChipStripeLink__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

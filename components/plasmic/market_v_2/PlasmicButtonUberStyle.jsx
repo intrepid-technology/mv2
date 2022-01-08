@@ -38,7 +38,7 @@ export const PlasmicButtonUberStyle__ArgProps = new Array(
 );
 
 function PlasmicButtonUberStyle__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"linkParent"}
@@ -667,12 +667,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonUberStyle__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonUberStyle__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

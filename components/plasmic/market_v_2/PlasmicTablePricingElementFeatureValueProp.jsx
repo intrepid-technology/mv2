@@ -30,7 +30,7 @@ export const PlasmicTablePricingElementFeatureValueProp__ArgProps = new Array(
 );
 
 function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -110,12 +110,10 @@ function makeNodeComponent(nodeName) {
         PlasmicTablePricingElementFeatureValueProp__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTablePricingElementFeatureValueProp__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

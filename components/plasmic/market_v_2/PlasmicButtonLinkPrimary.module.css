@@ -6,7 +6,8 @@
   width: 90px;
   height: 32px;
   position: relative;
-  background: #ffffff;
+  background: none;
+  border-radius: 4px;
   padding: 2px 6px;
   border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
@@ -34,6 +35,10 @@
 .root__width__360 {
   width: 360px;
 }
+.root__width_stretch {
+  width: 100%;
+  min-width: 0;
+}
 .root__height__32 {
   height: 32px;
 }
@@ -46,9 +51,13 @@
 .root__height__48 {
   height: 48px;
 }
+.root__height_stretch {
+  height: 100%;
+  min-height: 0;
+}
 .root__type_fill {
-  background: #101010;
-  border-color: #101010 /* plasmic-token: VLxGX_Tro */;
+  background: #14161b;
+  border-color: #14161b /* plasmic-token: zi5VxOARL */;
 }
 .root__type_outline {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
@@ -61,8 +70,8 @@
 .root__type_primary_color_light {
   border-color: #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
-.root__type_outline_color_brand {
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+.root__type_outline_color_primary {
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .root__type_primary_color_red {
   border-color: #f5ccd6 /* plasmic-token: oKZqK_X__ */;
@@ -136,16 +145,16 @@
 .root__type_outline_color_green {
   border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.root__type_primary_color_brand {
+.root__type_primary_color_primary {
   border-color: #e0d6ff /* plasmic-token: WAX_l0bzr */;
 }
 .root__type_primary_color_dark {
   background: #101010;
   border-color: #f8f8f8 /* plasmic-token: f9oAdmjsC */;
 }
-.root__type_fill_color_brand {
-  background: #6633ff;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+.root__type_fill_color_primary {
+  background: #5229cc;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .root:hover {
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
@@ -164,7 +173,7 @@
   background: #14161b;
   border-color: #14161b /* plasmic-token: zi5VxOARL */;
 }
-.root__type_outline_color_brand:hover {
+.root__type_outline_color_primary:hover {
   background: #e0d6ff;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
@@ -179,7 +188,7 @@
   background: #14161b;
   border-color: #ffffff /* plasmic-token: useplp0xo */;
 }
-.root__type_ghost_color_brand:hover {
+.root__type_ghost_color_primary:hover {
   background: #f0ebff;
   border-color: #f0ebff /* plasmic-token: IHoAIP5sw */;
 }
@@ -274,7 +283,7 @@
 .root__type_primary_color_dark:hover {
   border-color: #ffffff /* plasmic-token: useplp0xo */;
 }
-.root__type_fill_color_brand:hover {
+.root__type_fill_color_primary:hover {
   background: #855cff;
   border-color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
@@ -329,7 +338,7 @@
   width: auto;
   height: auto;
 }
-.textParent__type_fill_color_brand {
+.textParent__type_fill_color_primary {
   width: auto;
   height: auto;
 }
@@ -347,7 +356,7 @@
 }
 .slotTargetText {
   font-weight: 500;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: #14161b /* plasmic-token: IbTSH9_JJ */;
   line-height: 1;
 }
 .slotTargetText__type_fill {
@@ -355,6 +364,9 @@
 }
 .slotTargetText__type_outline {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
+}
+.slotTargetText__type_ghost {
+  color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
 .slotTargetText__type_primary_color_light {
   color: #858d9d /* plasmic-token: SR1GpeFlc */;
@@ -364,7 +376,7 @@
   color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
   line-height: 1;
 }
-.slotTargetText__type_outline_color_brand {
+.slotTargetText__type_outline_color_primary {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .slotTargetText__type_primary_color_red {
@@ -376,7 +388,7 @@
 .slotTargetText__type_outline_color_dark {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
-.slotTargetText__type_ghost_color_brand {
+.slotTargetText__type_ghost_color_primary {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
 .slotTargetText__type_primary_color_yellow {
@@ -463,15 +475,15 @@
 .slotTargetText__type_ghost_color_green {
   color: #66e0d6 /* plasmic-token: LmLUYtV0r */;
 }
-.slotTargetText__type_primary_color_brand {
+.slotTargetText__type_primary_color_primary {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
 .slotTargetText__type_primary_color_dark {
   color: #e3e3e3 /* plasmic-token: d7bN0iM0u */;
 }
-.slotTargetText__type_fill_color_brand {
+.slotTargetText__type_fill_color_primary {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
   line-height: 1;
 }
 .root:hover .slotTargetText {
@@ -487,8 +499,8 @@
 .root__type_fill_color_dark:hover .slotTargetText__type_fill_color_dark {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.root__type_outline_color_brand:hover
-  .slotTargetText__type_outline_color_brand {
+.root__type_outline_color_primary:hover
+  .slotTargetText__type_outline_color_primary {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .root__type_primary_color_red:hover .slotTargetText__type_primary_color_red {
@@ -500,7 +512,8 @@
 .root__type_outline_color_dark:hover .slotTargetText__type_outline_color_dark {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.root__type_ghost_color_brand:hover .slotTargetText__type_ghost_color_brand {
+.root__type_ghost_color_primary:hover
+  .slotTargetText__type_ghost_color_primary {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .root__type_primary_color_yellow:hover
@@ -588,6 +601,6 @@
 .root__type_primary_color_dark:hover .slotTargetText__type_primary_color_dark {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.root__type_fill_color_brand:hover .slotTargetText__type_fill_color_brand {
+.root__type_fill_color_primary:hover .slotTargetText__type_fill_color_primary {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

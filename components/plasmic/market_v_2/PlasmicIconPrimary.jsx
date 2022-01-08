@@ -37,7 +37,7 @@ export const PlasmicIconPrimary__ArgProps = new Array(
 );
 
 function PlasmicIconPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"parent"}
@@ -565,12 +565,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicIconPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicIconPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

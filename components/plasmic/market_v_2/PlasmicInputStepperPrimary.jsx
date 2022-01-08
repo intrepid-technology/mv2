@@ -25,7 +25,7 @@ export const PlasmicInputStepperPrimary__VariantProps = new Array();
 export const PlasmicInputStepperPrimary__ArgProps = new Array();
 
 function PlasmicInputStepperPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -75,12 +75,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputStepperPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputStepperPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

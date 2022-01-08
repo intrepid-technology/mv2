@@ -34,7 +34,7 @@ export const PlasmicSelectInput__OptionGroup__ArgProps = new Array(
 );
 
 function PlasmicSelectInput__OptionGroup__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const superContexts = {
     SelectInput: React.useContext(SUPER__PlasmicSelectInput.Context)
   };
@@ -136,12 +136,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSelectInput__OptionGroup__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectInput__OptionGroup__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

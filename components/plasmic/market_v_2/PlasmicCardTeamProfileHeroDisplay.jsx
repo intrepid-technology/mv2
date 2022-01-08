@@ -39,7 +39,7 @@ export const PlasmicCardTeamProfileHeroDisplay__VariantProps = new Array(
 export const PlasmicCardTeamProfileHeroDisplay__ArgProps = new Array();
 
 function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -183,13 +183,13 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
                 "loggedIn"
               )
             })}
-            color={"brand"}
-            size={"_120"}
+            color={"primary"}
             type={
               hasVariant(variants, "userState", "loggedIn")
                 ? "outline"
                 : "primary"
             }
+            width={"_120"}
           >
             {hasVariant(variants, "userState", "loggedIn")
               ? "Edit"
@@ -205,8 +205,8 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
                 "loggedIn"
               )
             })}
-            size={"_120"}
             type={"outline"}
+            width={"_120"}
           >
             {"Follow"}
           </ButtonPrimary>
@@ -266,7 +266,7 @@ function PlasmicCardTeamProfileHeroDisplay__RenderFunc(props) {
             })}
             color={
               hasVariant(variants, "userState", "loggedIn")
-                ? "brand"
+                ? "primary"
                 : undefined
             }
             height={
@@ -382,12 +382,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardTeamProfileHeroDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardTeamProfileHeroDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

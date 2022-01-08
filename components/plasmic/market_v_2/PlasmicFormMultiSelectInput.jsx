@@ -25,7 +25,7 @@ export const PlasmicFormMultiSelectInput__VariantProps = new Array("isOpen");
 export const PlasmicFormMultiSelectInput__ArgProps = new Array("name");
 
 function PlasmicFormMultiSelectInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -44,7 +44,7 @@ function PlasmicFormMultiSelectInput__RenderFunc(props) {
             "isOpen"
           )
         })}
-        isOpen={hasVariant(variants, "isOpen", "isOpen") ? "isOpen" : undefined}
+        isOpen={hasVariant(variants, "isOpen", "isOpen") ? true : undefined}
       />
     </div>
   );
@@ -64,12 +64,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormMultiSelectInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormMultiSelectInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

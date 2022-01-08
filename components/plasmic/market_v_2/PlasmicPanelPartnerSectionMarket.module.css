@@ -65,6 +65,10 @@
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
+}
+.menuIconListItem__global_layout_isSellerView__aLa21Fw6NW:global(.__wab_instance) {
+  flex-shrink: 0;
 }
 .navImage2 {
   object-fit: cover;
@@ -80,6 +84,7 @@
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage3 {
   object-fit: cover;
@@ -95,6 +100,7 @@
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage4 {
   object-fit: cover;
@@ -110,6 +116,7 @@
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage5 {
   object-fit: cover;
@@ -125,6 +132,7 @@
   position: relative;
   top: auto;
   left: auto;
+  flex-shrink: 0;
 }
 .navImage {
   object-fit: cover;

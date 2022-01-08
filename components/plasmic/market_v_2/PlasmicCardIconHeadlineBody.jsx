@@ -35,7 +35,7 @@ export const PlasmicCardIconHeadlineBody__ArgProps = new Array(
 );
 
 function PlasmicCardIconHeadlineBody__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootHover, triggerRootHoverProps] = useTrigger("useHover", {});
   const triggers = {
     hover_root: isRootHover
@@ -163,12 +163,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardIconHeadlineBody__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardIconHeadlineBody__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

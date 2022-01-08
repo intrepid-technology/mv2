@@ -166,7 +166,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__fyE85 {
+.img__zA7Ap {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -177,10 +177,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__fyE85 > picture > img {
+.img__zA7Ap > picture > img {
   object-fit: cover;
 }
-.img__fyE85 > .__wab_img-spacer > img {
+.img__zA7Ap > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__tXcRb {
@@ -234,7 +234,7 @@
 .img__n6Xkh > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__i2QGk {
+.img__fMsyS {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -245,10 +245,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__i2QGk > picture > img {
+.img__fMsyS > picture > img {
   object-fit: cover;
 }
-.img__i2QGk > .__wab_img-spacer > img {
+.img__fMsyS > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__e47Z1 {

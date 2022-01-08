@@ -29,7 +29,7 @@ export const PlasmicMultiSelectOption__VariantProps = new Array(
 export const PlasmicMultiSelectOption__ArgProps = new Array("children");
 
 function PlasmicMultiSelectOption__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -86,12 +86,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMultiSelectOption__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMultiSelectOption__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -30,7 +30,7 @@ export const PlasmicElementCheckoutPromotionPercentTotalValue__ArgProps =
   );
 
 function PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -172,12 +172,10 @@ function makeNodeComponent(nodeName) {
         PlasmicElementCheckoutPromotionPercentTotalValue__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementCheckoutPromotionPercentTotalValue__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

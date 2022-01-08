@@ -27,7 +27,7 @@ export const PlasmicNavbarTeamUserProfile__VariantProps = new Array("selected");
 export const PlasmicNavbarTeamUserProfile__ArgProps = new Array();
 
 function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -316,12 +316,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarTeamUserProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarTeamUserProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

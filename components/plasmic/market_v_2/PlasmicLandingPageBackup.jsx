@@ -36,7 +36,7 @@ export const PlasmicLandingPageBackup__VariantProps = new Array();
 export const PlasmicLandingPageBackup__ArgProps = new Array();
 
 function PlasmicLandingPageBackup__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -212,12 +212,10 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 data-plasmic-name={"buyServicesButton"}
                 data-plasmic-override={overrides.buyServicesButton}
                 className={classNames("__wab_instance", sty.buyServicesButton)}
-                color={"brand"}
+                color={"primary"}
                 destination={
                   "https://intrepidventures.typeform.com/to/MthpVWrA"
                 }
-                hasShadow={"hasShadow"}
-                rounded={"rounded"}
                 type={"primary"}
               >
                 <div
@@ -235,11 +233,10 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 data-plasmic-name={"sellServicesButton"}
                 data-plasmic-override={overrides.sellServicesButton}
                 className={classNames("__wab_instance", sty.sellServicesButton)}
-                color={"brand"}
+                color={"primary"}
                 destination={
                   "https://intrepidventures.typeform.com/to/qoNxle4D"
                 }
-                rounded={"rounded"}
                 type={"light"}
               >
                 <div
@@ -285,9 +282,9 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 }
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
+                    ? true
                     : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                    ? "vertical"
+                    ? true
                     : undefined
                 }
               />
@@ -316,9 +313,9 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 }
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
+                    ? true
                     : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                    ? "vertical"
+                    ? true
                     : undefined
                 }
               />
@@ -349,9 +346,9 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 }
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
+                    ? true
                     : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                    ? "vertical"
+                    ? true
                     : undefined
                 }
               />
@@ -380,9 +377,9 @@ function PlasmicLandingPageBackup__RenderFunc(props) {
                 }
                 vertical={
                   hasVariant(globalVariants, "screen", "iphone678")
-                    ? "vertical"
+                    ? true
                     : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                    ? "vertical"
+                    ? true
                     : undefined
                 }
               />
@@ -443,12 +440,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicLandingPageBackup__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicLandingPageBackup__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

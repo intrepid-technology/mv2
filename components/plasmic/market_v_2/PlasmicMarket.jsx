@@ -28,7 +28,7 @@ export const PlasmicMarket__VariantProps = new Array();
 export const PlasmicMarket__ArgProps = new Array();
 
 function PlasmicMarket__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -209,17 +209,17 @@ function PlasmicMarket__RenderFunc(props) {
                 <CardServiceDisplay
                   data-plasmic-name={"cardServiceDisplay"}
                   data-plasmic-override={overrides.cardServiceDisplay}
-                  boost={"boost"}
+                  boost={true}
                   className={classNames(
                     "__wab_instance",
                     sty.cardServiceDisplay
                   )}
-                  membership={"membership"}
-                  price={"price"}
-                  rating={"rating"}
+                  membership={true}
+                  price={true}
+                  rating={true}
                   size={"_270X270"}
-                  userStats={"userStats"}
-                  verification={"verification"}
+                  userStats={true}
+                  verification={true}
                 />
               </p.Stack>
             </p.Stack>
@@ -260,12 +260,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMarket__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMarket__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

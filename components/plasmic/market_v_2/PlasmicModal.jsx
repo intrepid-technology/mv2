@@ -31,7 +31,7 @@ export const PlasmicModal__ArgProps = new Array(
 );
 
 function PlasmicModal__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -146,12 +146,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicModal__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicModal__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

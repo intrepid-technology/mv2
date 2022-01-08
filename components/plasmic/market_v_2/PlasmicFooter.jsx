@@ -39,7 +39,7 @@ export const PlasmicFooter__ArgProps = new Array(
 );
 
 function PlasmicFooter__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -73,7 +73,7 @@ function PlasmicFooter__RenderFunc(props) {
           className={classNames("__wab_instance", sty.logoHeader, {
             [sty.logoHeader__color]: hasVariant(variants, "color", "color")
           })}
-          color={hasVariant(variants, "color", "color") ? "color" : undefined}
+          color={hasVariant(variants, "color", "color") ? true : undefined}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
@@ -194,6 +194,11 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={
+                hasVariant(variants, "color", "color")
+                  ? "https://blog.tryintrepid.com"
+                  : undefined
+              }
               slot={"Blog"}
             />
 
@@ -245,17 +250,21 @@ function PlasmicFooter__RenderFunc(props) {
               {"Remote Native"}
             </div>
 
-            <FooterLink
-              className={classNames("__wab_instance", sty.footerLink__c1As0, {
-                [sty.footerLink__color__c1As04Sg3R]: hasVariant(
-                  variants,
-                  "color",
-                  "color"
-                )
-              })}
-              color={hasVariant(variants, "color", "color") ? "light" : "dark"}
-              slot={"Podcast"}
-            />
+            {(hasVariant(variants, "color", "color") ? true : true) ? (
+              <FooterLink
+                className={classNames("__wab_instance", sty.footerLink__c1As0, {
+                  [sty.footerLink__color__c1As04Sg3R]: hasVariant(
+                    variants,
+                    "color",
+                    "color"
+                  )
+                })}
+                color={
+                  hasVariant(variants, "color", "color") ? "light" : "dark"
+                }
+                slot={"Podcast"}
+              />
+            ) : null}
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__ugLtb, {
@@ -266,6 +275,11 @@ function PlasmicFooter__RenderFunc(props) {
                 )
               })}
               color={hasVariant(variants, "color", "color") ? "light" : "dark"}
+              destination={
+                hasVariant(variants, "color", "color")
+                  ? "https://intrepid.remotenative.io/"
+                  : undefined
+              }
               slot={"Community"}
             />
           </p.Stack>
@@ -607,12 +621,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFooter__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFooter__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

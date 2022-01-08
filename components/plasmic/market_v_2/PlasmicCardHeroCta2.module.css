@@ -51,13 +51,23 @@
   top: auto;
   flex-shrink: 0;
 }
-.svg__qrbga {
+.svg__jYVux {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  display: block;
+}
+.svg__rz8Ip {
   width: 100%;
   height: 100%;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
   min-width: 0;
   min-height: 0;
+  display: block;
 }
 .freeBox__cL3Qf {
   display: flex;

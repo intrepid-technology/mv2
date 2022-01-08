@@ -37,7 +37,7 @@ export const PlasmicSectionConfirmEmail__ArgProps = new Array(
 );
 
 function PlasmicSectionConfirmEmail__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -180,15 +180,15 @@ function PlasmicSectionConfirmEmail__RenderFunc(props) {
                 data-plasmic-name={"confirmationResend"}
                 data-plasmic-override={overrides.confirmationResend}
                 className={classNames("__wab_instance", sty.confirmationResend)}
-                size={
-                  hasVariant(globalVariants, "screen", "desktop")
-                    ? "_360"
-                    : "_360"
-                }
                 type={
                   hasVariant(globalVariants, "screen", "desktop")
                     ? "primary"
                     : "primary"
+                }
+                width={
+                  hasVariant(globalVariants, "screen", "desktop")
+                    ? "_360"
+                    : "_360"
                 }
               >
                 <div
@@ -342,12 +342,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionConfirmEmail__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionConfirmEmail__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

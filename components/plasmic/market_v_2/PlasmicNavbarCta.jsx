@@ -30,7 +30,7 @@ export const PlasmicNavbarCta__VariantProps = new Array("color", "persona");
 export const PlasmicNavbarCta__ArgProps = new Array();
 
 function PlasmicNavbarCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -265,19 +265,19 @@ function PlasmicNavbarCta__RenderFunc(props) {
             color={
               hasVariant(variants, "persona", "member") &&
               hasVariant(globalVariants, "screen", "iphone12ProMax")
-                ? "brand"
+                ? "primary"
                 : hasVariant(variants, "persona", "partner") &&
                   hasVariant(globalVariants, "screen", "iphone12ProMax")
-                ? "brand"
+                ? "primary"
                 : hasVariant(variants, "color", "color")
-                ? "brand"
+                ? "primary"
                 : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                ? "brand"
+                ? "primary"
                 : hasVariant(globalVariants, "screen", "desktop")
-                ? "brand"
-                : "brand"
+                ? "primary"
+                : "primary"
             }
-            size={
+            width={
               hasVariant(variants, "color", "color")
                 ? "_140"
                 : hasVariant(globalVariants, "screen", "desktop")
@@ -357,12 +357,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

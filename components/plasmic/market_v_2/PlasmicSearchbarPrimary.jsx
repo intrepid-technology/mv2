@@ -29,7 +29,7 @@ export const PlasmicSearchbarPrimary__VariantProps = new Array(
 export const PlasmicSearchbarPrimary__ArgProps = new Array();
 
 function PlasmicSearchbarPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -213,12 +213,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSearchbarPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSearchbarPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

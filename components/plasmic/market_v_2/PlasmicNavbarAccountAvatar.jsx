@@ -26,7 +26,7 @@ export const PlasmicNavbarAccountAvatar__VariantProps = new Array("color");
 export const PlasmicNavbarAccountAvatar__ArgProps = new Array("children");
 
 function PlasmicNavbarAccountAvatar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -106,12 +106,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarAccountAvatar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarAccountAvatar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

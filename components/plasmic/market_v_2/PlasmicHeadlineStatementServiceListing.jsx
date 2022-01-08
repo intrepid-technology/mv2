@@ -26,7 +26,7 @@ export const PlasmicHeadlineStatementServiceListing__ArgProps = new Array(
 );
 
 function PlasmicHeadlineStatementServiceListing__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -62,12 +62,10 @@ function makeNodeComponent(nodeName) {
         PlasmicHeadlineStatementServiceListing__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicHeadlineStatementServiceListing__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

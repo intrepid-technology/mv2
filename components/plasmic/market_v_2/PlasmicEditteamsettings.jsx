@@ -38,7 +38,7 @@ export const PlasmicEditteamsettings__VariantProps = new Array();
 export const PlasmicEditteamsettings__ArgProps = new Array();
 
 function PlasmicEditteamsettings__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -213,9 +213,9 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           "__wab_instance",
                           sty.addressLineOneTextInput
                         )}
+                        headline={true}
                         label={"Address"}
                         name={"address.lineOne"}
-                        showLabel={"showLabel"}
                         type={"secondary"}
                       />
 
@@ -228,9 +228,9 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           "__wab_instance",
                           sty.addressLineTwoTextInput
                         )}
+                        headline={true}
                         label={"Address Line 2"}
                         name={"address.lineTwo"}
-                        showLabel={"showLabel"}
                         type={"secondary"}
                       />
 
@@ -265,9 +265,9 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           "__wab_instance",
                           sty.stateTextInput
                         )}
+                        headline={true}
                         label={"Province/State"}
                         name={"state"}
-                        showLabel={"showLabel"}
                         type={"secondary"}
                       />
 
@@ -278,9 +278,9 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           "__wab_instance",
                           sty.postalCodeTextInput
                         )}
+                        headline={true}
                         label={"Zip/Postal Code"}
                         name={"postalCode"}
-                        showLabel={"showLabel"}
                         type={"secondary"}
                       />
                     </p.Stack>
@@ -340,8 +340,8 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                           "__wab_instance",
                           sty.taxNumberTextInput
                         )}
+                        headline={true}
                         label={"Number"}
-                        showLabel={"showLabel"}
                       />
                     </p.Stack>
                   </p.Stack>
@@ -530,11 +530,11 @@ function PlasmicEditteamsettings__RenderFunc(props) {
                 <FormTextInput
                   data-plasmic-name={"gaAnalyticsTextInput"}
                   data-plasmic-override={overrides.gaAnalyticsTextInput}
-                  adornment={["start"]}
                   className={classNames(
                     "__wab_instance",
                     sty.gaAnalyticsTextInput
                   )}
+                  labels={["prefix"]}
                   name={"ga.ua"}
                   startAdornment={"UA"}
                   type={"secondary"}
@@ -962,12 +962,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditteamsettings__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditteamsettings__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

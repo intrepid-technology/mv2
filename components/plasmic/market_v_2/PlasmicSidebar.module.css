@@ -10,9 +10,6 @@
   min-height: 0;
   border-right: 1px solid #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.root__global_layout_sidebarOpen {
-  display: flex;
-}
 .root__global_layout_isSellerView {
   display: flex;
 }

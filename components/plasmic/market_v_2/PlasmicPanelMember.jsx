@@ -43,7 +43,7 @@ export const PlasmicPanelMember__VariantProps = new Array();
 export const PlasmicPanelMember__ArgProps = new Array();
 
 function PlasmicPanelMember__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -342,7 +342,7 @@ function PlasmicPanelMember__RenderFunc(props) {
             data-plasmic-override={overrides.switchToPartnerButton}
             className={classNames("__wab_instance", sty.switchToPartnerButton)}
             color={"brand"}
-            noPadding={"noPadding"}
+            noPadding={true}
             preventDefault={"true"}
             type={"link"}
           >
@@ -443,7 +443,7 @@ function PlasmicPanelMember__RenderFunc(props) {
             data-plasmic-override={overrides.logoutButton}
             className={classNames("__wab_instance", sty.logoutButton)}
             color={"brand"}
-            noPadding={"noPadding"}
+            noPadding={true}
             preventDefault={"true"}
             type={"link"}
           >
@@ -590,12 +590,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelMember__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelMember__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -1,9 +1,15 @@
 .root {
-  display: flex;
+  display: inline-flex;
   position: relative;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.root__size_stretch {
+  width: 100%;
+  min-width: 0;
 }
 .parent {
   display: flex;
@@ -28,6 +34,13 @@
   > img {
   margin-top: 6px;
 }
+.parent__size_stretch {
+  width: 100%;
+  min-width: 0;
+}
+.parent__size_stretch > :global(.__wab_flex-container) {
+  min-width: 0;
+}
 .headlineLabelParent {
   position: relative;
   left: auto;
@@ -46,12 +59,9 @@
   min-width: 0;
 }
 .slotTargetLabel {
-  font-size: 14px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: normal;
+  font-weight: 400;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .inputTextPrimary:global(.__wab_instance) {
   position: relative;
@@ -79,10 +89,7 @@
   min-width: 0;
 }
 .slotTargetDescription {
-  font-size: 12px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  font-size: 12px;
 }

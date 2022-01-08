@@ -31,7 +31,7 @@ export const PlasmicElementCheckoutListItemUnitInterval__ArgProps = new Array(
 );
 
 function PlasmicElementCheckoutListItemUnitInterval__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -238,12 +238,10 @@ function makeNodeComponent(nodeName) {
         PlasmicElementCheckoutListItemUnitInterval__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementCheckoutListItemUnitInterval__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

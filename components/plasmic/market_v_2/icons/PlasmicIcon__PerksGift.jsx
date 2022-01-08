@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon155Icon(props) {
+export function PerksGiftIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -31,5 +31,5 @@ export function Icon155Icon(props) {
   );
 }
 
-export default Icon155Icon;
+export default PerksGiftIcon;
 /* prettier-ignore-end */

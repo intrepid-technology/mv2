@@ -27,7 +27,7 @@ export const PlasmicElementProfileAttributes__VariantProps = new Array();
 export const PlasmicElementProfileAttributes__ArgProps = new Array();
 
 function PlasmicElementProfileAttributes__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -293,12 +293,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementProfileAttributes__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementProfileAttributes__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -29,7 +29,7 @@ export const PlasmicInputTextPrimary__VariantProps = new Array(
 export const PlasmicInputTextPrimary__ArgProps = new Array();
 
 function PlasmicInputTextPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -37,7 +37,9 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width__90]: hasVariant(variants, "width", "_90")
+        [sty.root__type_underline]: hasVariant(variants, "type", "underline"),
+        [sty.root__width__90]: hasVariant(variants, "width", "_90"),
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <div
@@ -60,7 +62,8 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
           [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
           [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
           [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90"),
+          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
         <input
@@ -88,7 +91,14 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
             [sty.textInput__height__32]: hasVariant(variants, "height", "_32"),
             [sty.textInput__height__36]: hasVariant(variants, "height", "_36"),
             [sty.textInput__height__40]: hasVariant(variants, "height", "_40"),
+            [sty.textInput__height__44]: hasVariant(variants, "height", "_44"),
             [sty.textInput__height__48]: hasVariant(variants, "height", "_48"),
+            [sty.textInput__type_primary]: hasVariant(
+              variants,
+              "type",
+              "primary"
+            ),
+
             [sty.textInput__type_secondary]: hasVariant(
               variants,
               "type",
@@ -101,9 +111,13 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
               "underline"
             ),
 
-            [sty.textInput__width__90]: hasVariant(variants, "width", "_90")
+            [sty.textInput__width__90]: hasVariant(variants, "width", "_90"),
+            [sty.textInput__width_stretch]: hasVariant(
+              variants,
+              "width",
+              "stretch"
+            )
           })}
-          placeholder={"Enter text"}
           size={1}
           type={"text"}
           value={""}
@@ -128,12 +142,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -26,7 +26,7 @@ export const PlasmicFooterLogo__VariantProps = new Array("light", "size");
 export const PlasmicFooterLogo__ArgProps = new Array("destination");
 
 function PlasmicFooterLogo__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"footerlogoLink"}
@@ -76,12 +76,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFooterLogo__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFooterLogo__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

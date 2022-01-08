@@ -34,7 +34,7 @@ export const PlasmicInputGroupIconPrefixSuffix__ArgProps = new Array(
 );
 
 function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -86,12 +86,8 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
               "suffix"
             )
           })}
-          prefix={
-            hasVariant(variants, "prefix", "prefix") ? "prefix" : undefined
-          }
-          suffix={
-            hasVariant(variants, "suffix", "suffix") ? "suffix" : undefined
-          }
+          prefix={hasVariant(variants, "prefix", "prefix") ? true : undefined}
+          suffix={hasVariant(variants, "suffix", "suffix") ? true : undefined}
           width={"_360"}
         />
 
@@ -148,12 +144,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputGroupIconPrefixSuffix__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputGroupIconPrefixSuffix__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

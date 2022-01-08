@@ -40,7 +40,7 @@ export const PlasmicInputFormCardEmailSearchBadge__ArgProps = new Array(
 );
 
 function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -194,12 +194,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                         )
                       }
                     )}
-                    size={
-                      hasVariant(variants, "search", "search")
-                        ? "_90"
-                        : undefined
-                    }
-                    svgIcon={
+                    svgIconPrefix={
                       <p.PlasmicIcon
                         data-plasmic-name={"svg"}
                         data-plasmic-override={overrides.svg}
@@ -220,7 +215,12 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                     }
                     type={
                       hasVariant(variants, "search", "search")
-                        ? "icon"
+                        ? "iconPrefix"
+                        : undefined
+                    }
+                    width={
+                      hasVariant(variants, "search", "search")
+                        ? "_90"
                         : undefined
                     }
                   >
@@ -344,7 +344,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                 hasVariant(variants, "subDescription", "subDescription") &&
                 hasVariant(variants, "button", "button")
             })}
-            size={"_140"}
+            width={"_140"}
           >
             {"Save"}
           </ButtonPrimary>
@@ -444,12 +444,10 @@ function makeNodeComponent(nodeName) {
         PlasmicInputFormCardEmailSearchBadge__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputFormCardEmailSearchBadge__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

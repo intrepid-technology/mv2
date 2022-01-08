@@ -31,7 +31,7 @@ export const PlasmicButtonCirclePlusMinus__VariantProps = new Array(
 export const PlasmicButtonCirclePlusMinus__ArgProps = new Array();
 
 function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"root"}
@@ -51,9 +51,12 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
           ),
 
           [sty.root__size__16]: hasVariant(variants, "size", "_16"),
+          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
           [sty.root__size__24]: hasVariant(variants, "size", "_24"),
           [sty.root__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.root__size__48]: hasVariant(variants, "size", "_48")
+          [sty.root__size__48]: hasVariant(variants, "size", "_48"),
+          [sty.root__type_decrement]: hasVariant(variants, "type", "decrement"),
+          [sty.root__type_increment]: hasVariant(variants, "type", "increment")
         }
       )}
     >
@@ -76,7 +79,12 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
           [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
           [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
           [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.parent__size__48]: hasVariant(variants, "size", "_48")
+          [sty.parent__size__48]: hasVariant(variants, "size", "_48"),
+          [sty.parent__type_increment]: hasVariant(
+            variants,
+            "type",
+            "increment"
+          )
         })}
       >
         <div
@@ -96,6 +104,7 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
             ),
 
             [sty.svgBackground__size__16]: hasVariant(variants, "size", "_16"),
+            [sty.svgBackground__size__18]: hasVariant(variants, "size", "_18"),
             [sty.svgBackground__size__24]: hasVariant(variants, "size", "_24"),
             [sty.svgBackground__size__32]: hasVariant(variants, "size", "_32"),
             [sty.svgBackground__size__48]: hasVariant(variants, "size", "_48")
@@ -112,9 +121,15 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
               ),
 
               [sty.svgParent__size__16]: hasVariant(variants, "size", "_16"),
+              [sty.svgParent__size__18]: hasVariant(variants, "size", "_18"),
               [sty.svgParent__size__24]: hasVariant(variants, "size", "_24"),
               [sty.svgParent__size__32]: hasVariant(variants, "size", "_32"),
-              [sty.svgParent__size__48]: hasVariant(variants, "size", "_48")
+              [sty.svgParent__size__48]: hasVariant(variants, "size", "_48"),
+              [sty.svgParent__type_increment]: hasVariant(
+                variants,
+                "type",
+                "increment"
+              )
             })}
           >
             <p.PlasmicIcon
@@ -174,12 +189,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonCirclePlusMinus__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonCirclePlusMinus__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

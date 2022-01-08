@@ -36,7 +36,7 @@ export const PlasmicEditteam__VariantProps = new Array();
 export const PlasmicEditteam__ArgProps = new Array();
 
 function PlasmicEditteam__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -196,7 +196,7 @@ function PlasmicEditteam__RenderFunc(props) {
                           sty.editLogoButton
                         )}
                         preventDefault={"true"}
-                        rounded={"rounded"}
+                        rounded={true}
                         type={"outline"}
                       >
                         {"Edit"}
@@ -210,7 +210,7 @@ function PlasmicEditteam__RenderFunc(props) {
                           sty.deleteLogoButton
                         )}
                         preventDefault={"true"}
-                        rounded={"rounded"}
+                        rounded={true}
                         type={"secondary"}
                       >
                         {"Delete"}
@@ -254,11 +254,11 @@ function PlasmicEditteam__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"displayNameTextInput"}
                     data-plasmic-override={overrides.displayNameTextInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.displayNameTextInput
                     )}
+                    labels={["prefix"]}
                     name={"displayName"}
                     placeholder={""}
                     startAdornment={"@"}
@@ -298,11 +298,11 @@ function PlasmicEditteam__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"companuUrlTextInput"}
                     data-plasmic-override={overrides.companuUrlTextInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.companuUrlTextInput
                     )}
+                    labels={["prefix"]}
                     name={"company.url"}
                     startAdornment={"intrepid/technology/"}
                     type={"secondary"}
@@ -427,11 +427,11 @@ function PlasmicEditteam__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"videoIntroTextInput"}
                     data-plasmic-override={overrides.videoIntroTextInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.videoIntroTextInput
                     )}
+                    labels={["prefix"]}
                     name={"company.videoIntroduction"}
                     startAdornment={"https//"}
                     type={"secondary"}
@@ -1123,11 +1123,11 @@ function PlasmicEditteam__RenderFunc(props) {
                   <FormTextInput
                     data-plasmic-name={"websiteTextInput"}
                     data-plasmic-override={overrides.websiteTextInput}
-                    adornment={["start"]}
                     className={classNames(
                       "__wab_instance",
                       sty.websiteTextInput
                     )}
+                    labels={["prefix"]}
                     name={"website"}
                     startAdornment={"https://"}
                     type={"secondary"}
@@ -1634,12 +1634,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditteam__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditteam__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

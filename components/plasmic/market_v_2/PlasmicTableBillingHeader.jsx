@@ -24,7 +24,7 @@ export const PlasmicTableBillingHeader__VariantProps = new Array();
 export const PlasmicTableBillingHeader__ArgProps = new Array();
 
 function PlasmicTableBillingHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -123,12 +123,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableBillingHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableBillingHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

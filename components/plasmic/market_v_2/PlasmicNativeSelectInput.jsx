@@ -29,7 +29,7 @@ export const PlasmicNativeSelectInput__ArgProps = new Array(
 );
 
 function PlasmicNativeSelectInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -67,6 +67,7 @@ function PlasmicNativeSelectInput__RenderFunc(props) {
           defaultContents: "Select...",
           value: args.placeholder
         })}
+        type={"secondary"}
       />
     </p.Stack>
   );
@@ -87,12 +88,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNativeSelectInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNativeSelectInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

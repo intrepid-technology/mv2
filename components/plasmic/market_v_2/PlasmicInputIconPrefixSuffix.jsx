@@ -30,7 +30,7 @@ export const PlasmicInputIconPrefixSuffix__VariantProps = new Array(
 export const PlasmicInputIconPrefixSuffix__ArgProps = new Array();
 
 function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -130,12 +130,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputIconPrefixSuffix__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputIconPrefixSuffix__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

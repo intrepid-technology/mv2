@@ -31,7 +31,7 @@ export const PlasmicNavbarOverhead__ArgProps = new Array(
 );
 
 function PlasmicNavbarOverhead__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -160,12 +160,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarOverhead__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarOverhead__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -32,7 +32,7 @@ export const PlasmicCardHeaderTitleDisplay__ArgProps = new Array(
 );
 
 function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <hgroup
       data-plasmic-name={"parent"}
@@ -53,6 +53,24 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
         data-plasmic-override={overrides.headerDisplayGroupParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.headerDisplayGroupParent, {
+          [sty.headerDisplayGroupParent__headings_headline]: hasVariant(
+            variants,
+            "headings",
+            "headline"
+          ),
+
+          [sty.headerDisplayGroupParent__headings_subhead]: hasVariant(
+            variants,
+            "headings",
+            "subhead"
+          ),
+
+          [sty.headerDisplayGroupParent__headings_title]: hasVariant(
+            variants,
+            "headings",
+            "title"
+          ),
+
           [sty.headerDisplayGroupParent__size__1080]: hasVariant(
             variants,
             "size",
@@ -344,12 +362,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardHeaderTitleDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardHeaderTitleDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

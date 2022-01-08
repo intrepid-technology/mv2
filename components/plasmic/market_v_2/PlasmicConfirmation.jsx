@@ -30,7 +30,7 @@ export const PlasmicConfirmation__VariantProps = new Array();
 export const PlasmicConfirmation__ArgProps = new Array();
 
 function PlasmicConfirmation__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -100,12 +100,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicConfirmation__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicConfirmation__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

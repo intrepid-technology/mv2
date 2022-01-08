@@ -28,7 +28,7 @@ export const PlasmicTableProjectAdminHeader__VariantProps = new Array();
 export const PlasmicTableProjectAdminHeader__ArgProps = new Array();
 
 function PlasmicTableProjectAdminHeader__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -273,12 +273,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTableProjectAdminHeader__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTableProjectAdminHeader__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

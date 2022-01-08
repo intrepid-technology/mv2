@@ -30,7 +30,7 @@ export const PlasmicInputProcess__VariantProps = new Array(
 export const PlasmicInputProcess__ArgProps = new Array();
 
 function PlasmicInputProcess__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -177,12 +177,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputProcess__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputProcess__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

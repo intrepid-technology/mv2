@@ -25,7 +25,7 @@ export const PlasmicSearchBadge__VariantProps = new Array();
 export const PlasmicSearchBadge__ArgProps = new Array("children");
 
 function PlasmicSearchBadge__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSearchBadge__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSearchBadge__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

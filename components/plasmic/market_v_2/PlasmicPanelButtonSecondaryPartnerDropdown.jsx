@@ -26,7 +26,7 @@ export const PlasmicPanelButtonSecondaryPartnerDropdown__VariantProps =
 export const PlasmicPanelButtonSecondaryPartnerDropdown__ArgProps = new Array();
 
 function PlasmicPanelButtonSecondaryPartnerDropdown__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -93,12 +93,10 @@ function makeNodeComponent(nodeName) {
         PlasmicPanelButtonSecondaryPartnerDropdown__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelButtonSecondaryPartnerDropdown__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

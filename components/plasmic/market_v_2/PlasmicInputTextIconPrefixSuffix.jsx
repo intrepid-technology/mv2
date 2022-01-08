@@ -10,6 +10,7 @@
 // Component: kgmVBcQ-Bb
 import * as React from "react";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -19,19 +20,23 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicInputTextIconPrefixSuffix.module.css"; // plasmic-import: kgmVBcQ-Bb/css
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 
-export const PlasmicInputTextIconPrefixSuffix__VariantProps = new Array();
+export const PlasmicInputTextIconPrefixSuffix__VariantProps = new Array(
+  "width"
+);
 
 export const PlasmicInputTextIconPrefixSuffix__ArgProps = new Array();
 
 function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+      })}
     >
       <div className={classNames(projectcss.all, sty.freeBox__ikhqW)}>
         <div
@@ -85,12 +90,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextIconPrefixSuffix__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextIconPrefixSuffix__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

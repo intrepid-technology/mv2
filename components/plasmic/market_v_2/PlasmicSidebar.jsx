@@ -31,17 +31,13 @@ export const PlasmicSidebar__VariantProps = new Array();
 export const PlasmicSidebar__ArgProps = new Array();
 
 function PlasmicSidebar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     layout: useLayout()
   });
 
   return (
-    hasVariant(globalVariants, "layout", "isSellerView")
-      ? true
-      : hasVariant(globalVariants, "layout", "sidebarOpen")
-      ? true
-      : true
+    hasVariant(globalVariants, "layout", "isSellerView") ? true : true
   ) ? (
     <div
       data-plasmic-name={"root"}
@@ -53,12 +49,6 @@ function PlasmicSidebar__RenderFunc(props) {
           globalVariants,
           "layout",
           "isSellerView"
-        ),
-
-        [sty.root__global_layout_sidebarOpen]: hasVariant(
-          globalVariants,
-          "layout",
-          "sidebarOpen"
         )
       })}
     >
@@ -161,12 +151,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSidebar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSidebar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

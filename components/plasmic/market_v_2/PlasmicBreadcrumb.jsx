@@ -30,7 +30,7 @@ export const PlasmicBreadcrumb__VariantProps = new Array(
 export const PlasmicBreadcrumb__ArgProps = new Array("label", "destination");
 
 function PlasmicBreadcrumb__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -119,12 +119,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicBreadcrumb__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicBreadcrumb__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

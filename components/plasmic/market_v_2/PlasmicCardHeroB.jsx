@@ -29,7 +29,7 @@ export const PlasmicCardHeroB__ArgProps = new Array(
 );
 
 function PlasmicCardHeroB__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -64,8 +64,8 @@ function PlasmicCardHeroB__RenderFunc(props) {
           data-plasmic-name={"buttonPrimary"}
           data-plasmic-override={overrides.buttonPrimary}
           className={classNames("__wab_instance", sty.buttonPrimary)}
-          color={"brand"}
-          size={"_140"}
+          color={"primary"}
+          width={"_140"}
         >
           {"Start free trial"}
         </ButtonPrimary>
@@ -99,12 +99,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardHeroB__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardHeroB__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -23,8 +23,9 @@ import * as sty from "./PlasmicFormTextInput.module.css"; // plasmic-import: egz
 
 export const PlasmicFormTextInput__VariantProps = new Array(
   "type",
-  "adornment",
-  "showLabel"
+  "labels",
+  "headline",
+  "width"
 );
 
 export const PlasmicFormTextInput__ArgProps = new Array(
@@ -36,48 +37,57 @@ export const PlasmicFormTextInput__ArgProps = new Array(
 );
 
 function PlasmicFormTextInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__headline]: hasVariant(variants, "headline", "headline"),
+        [sty.root__labels_prefix]: hasVariant(variants, "labels", "prefix"),
+        [sty.root__labels_suffix]: hasVariant(variants, "labels", "suffix"),
+        [sty.root__type_primary]: hasVariant(variants, "type", "primary"),
+        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
+        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
+        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+      })}
     >
       <TextInput
         data-plasmic-name={"textInput"}
         data-plasmic-override={overrides.textInput}
         adornment={
-          hasVariant(variants, "adornment", "start") &&
-          hasVariant(variants, "adornment", "end")
+          hasVariant(variants, "labels", "prefix") &&
+          hasVariant(variants, "labels", "suffix")
             ? ["end", "start"]
-            : hasVariant(variants, "adornment", "end")
+            : hasVariant(variants, "labels", "suffix")
             ? ["end"]
-            : hasVariant(variants, "adornment", "start")
+            : hasVariant(variants, "labels", "prefix")
             ? ["start"]
             : undefined
         }
         className={classNames("__wab_instance", sty.textInput, {
-          [sty.textInput__adornment_end]: hasVariant(
+          [sty.textInput__headline]: hasVariant(
             variants,
-            "adornment",
-            "end"
+            "headline",
+            "headline"
           ),
 
-          [sty.textInput__adornment_start]: hasVariant(
+          [sty.textInput__labels_prefix]: hasVariant(
             variants,
-            "adornment",
-            "start"
+            "labels",
+            "prefix"
           ),
 
-          [sty.textInput__adornment_start_adornment_end]:
-            hasVariant(variants, "adornment", "start") &&
-            hasVariant(variants, "adornment", "end"),
-          [sty.textInput__showLabel]: hasVariant(
+          [sty.textInput__labels_prefix_labels_suffix]:
+            hasVariant(variants, "labels", "prefix") &&
+            hasVariant(variants, "labels", "suffix"),
+          [sty.textInput__labels_suffix]: hasVariant(
             variants,
-            "showLabel",
-            "showLabel"
+            "labels",
+            "suffix"
           ),
 
           [sty.textInput__type_primary]: hasVariant(
@@ -92,9 +102,14 @@ function PlasmicFormTextInput__RenderFunc(props) {
             "secondary"
           ),
 
-          [sty.textInput__type_secondary_adornment_start]:
+          [sty.textInput__type_secondary_labels_prefix]:
             hasVariant(variants, "type", "secondary") &&
-            hasVariant(variants, "adornment", "start")
+            hasVariant(variants, "labels", "prefix"),
+          [sty.textInput__width_stretch]: hasVariant(
+            variants,
+            "width",
+            "stretch"
+          )
         })}
         endAdornment={p.renderPlasmicSlot({
           defaultContents: "Text",
@@ -107,9 +122,7 @@ function PlasmicFormTextInput__RenderFunc(props) {
         name={args.name}
         placeholder={args.placeholder}
         showLabel={
-          hasVariant(variants, "showLabel", "showLabel")
-            ? "showLabel"
-            : undefined
+          hasVariant(variants, "headline", "headline") ? true : undefined
         }
         startAdornment={p.renderPlasmicSlot({
           defaultContents: "Text",
@@ -141,12 +154,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormTextInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormTextInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

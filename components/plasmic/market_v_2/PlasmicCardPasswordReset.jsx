@@ -29,7 +29,7 @@ export const PlasmicCardPasswordReset__VariantProps = new Array();
 export const PlasmicCardPasswordReset__ArgProps = new Array("textSlot");
 
 function PlasmicCardPasswordReset__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -149,7 +149,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               data-plasmic-name={"recoveryLinkEmail"}
               data-plasmic-override={overrides.recoveryLinkEmail}
               className={classNames("__wab_instance", sty.recoveryLinkEmail)}
-              size={"_360"}
+              width={"_360"}
             >
               <div
                 data-plasmic-name={"text"}
@@ -252,12 +252,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardPasswordReset__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardPasswordReset__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

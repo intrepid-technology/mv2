@@ -24,7 +24,7 @@ export const PlasmicTagNotification__VariantProps = new Array("state", "size");
 export const PlasmicTagNotification__ArgProps = new Array();
 
 function PlasmicTagNotification__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -86,12 +86,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTagNotification__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTagNotification__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

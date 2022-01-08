@@ -38,7 +38,7 @@ export const PlasmicSectionMemberFindByServiceCategory__VariantProps =
 export const PlasmicSectionMemberFindByServiceCategory__ArgProps = new Array();
 
 function PlasmicSectionMemberFindByServiceCategory__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -298,12 +298,10 @@ function makeNodeComponent(nodeName) {
         PlasmicSectionMemberFindByServiceCategory__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionMemberFindByServiceCategory__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

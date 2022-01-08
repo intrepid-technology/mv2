@@ -26,7 +26,7 @@ export const PlasmicNavLink__VariantProps = new Array("color", "state");
 export const PlasmicNavLink__ArgProps = new Array("linkText", "destination");
 
 function PlasmicNavLink__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -128,12 +128,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavLink__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavLink__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

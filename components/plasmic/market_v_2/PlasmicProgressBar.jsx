@@ -24,7 +24,7 @@ export const PlasmicProgressBar__VariantProps = new Array("progress");
 export const PlasmicProgressBar__ArgProps = new Array();
 
 function PlasmicProgressBar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -73,12 +73,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicProgressBar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicProgressBar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

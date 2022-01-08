@@ -25,7 +25,7 @@ export const PlasmicAlertCard__VariantProps = new Array();
 export const PlasmicAlertCard__ArgProps = new Array("content");
 
 function PlasmicAlertCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -84,12 +84,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicAlertCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicAlertCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

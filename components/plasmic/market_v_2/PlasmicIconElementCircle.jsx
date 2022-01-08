@@ -26,7 +26,7 @@ export const PlasmicIconElementCircle__VariantProps = new Array("color");
 export const PlasmicIconElementCircle__ArgProps = new Array("iconSlot");
 
 function PlasmicIconElementCircle__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -73,12 +73,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicIconElementCircle__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicIconElementCircle__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

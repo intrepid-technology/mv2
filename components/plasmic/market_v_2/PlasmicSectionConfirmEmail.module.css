@@ -538,13 +538,14 @@
     flex-shrink: 0;
   }
 }
-.svg__jdQ13 {
+.svg__kgr3G {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: #ffffff /* plasmic-token: fuGaen6l1 */;
   object-fit: cover;
   min-width: 0;
   min-height: 0;
+  display: block;
 }
 .text__iYy4D {
   font-size: 16px;
@@ -555,6 +556,15 @@
     font-size: 16px;
     font-weight: 600;
   }
+}
+.svg__tzAis {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  display: block;
 }
 .buttonGoBackParent {
   display: flex;

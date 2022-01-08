@@ -26,7 +26,7 @@ export const PlasmicAccordion__VariantProps = new Array("size", "isOpen");
 export const PlasmicAccordion__ArgProps = new Array("children", "content");
 
 function PlasmicAccordion__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -34,6 +34,7 @@ function PlasmicAccordion__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
         [sty.root__size_small]: hasVariant(variants, "size", "small"),
         [sty.root__size_small_isOpen]:
           hasVariant(variants, "size", "small") &&
@@ -56,6 +57,12 @@ function PlasmicAccordion__RenderFunc(props) {
             defaultContents: "Accordion",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
+              [sty.slotTargetChildren__isOpen]: hasVariant(
+                variants,
+                "isOpen",
+                "isOpen"
+              ),
+
               [sty.slotTargetChildren__size_small]: hasVariant(
                 variants,
                 "size",
@@ -74,6 +81,12 @@ function PlasmicAccordion__RenderFunc(props) {
             data-plasmic-name={"collapseIcon"}
             data-plasmic-override={overrides.collapseIcon}
             className={classNames(projectcss.all, sty.collapseIcon, {
+              [sty.collapseIcon__isOpen]: hasVariant(
+                variants,
+                "isOpen",
+                "isOpen"
+              ),
+
               [sty.collapseIcon__size_small]: hasVariant(
                 variants,
                 "size",
@@ -138,12 +151,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicAccordion__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicAccordion__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

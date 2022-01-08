@@ -32,7 +32,7 @@ export const PlasmicFooterSocialLinkGroup__VariantProps = new Array("color");
 export const PlasmicFooterSocialLinkGroup__ArgProps = new Array();
 
 function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -146,12 +146,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFooterSocialLinkGroup__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFooterSocialLinkGroup__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

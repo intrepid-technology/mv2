@@ -27,7 +27,7 @@ export const PlasmicHeroTextDisplay__VariantProps = new Array("size");
 export const PlasmicHeroTextDisplay__ArgProps = new Array();
 
 function PlasmicHeroTextDisplay__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -392,12 +392,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicHeroTextDisplay__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicHeroTextDisplay__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

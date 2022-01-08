@@ -26,7 +26,7 @@ export const PlasmicServiceFeatureB__VariantProps = new Array("size");
 export const PlasmicServiceFeatureB__ArgProps = new Array("children", "slot");
 
 function PlasmicServiceFeatureB__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -98,12 +98,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServiceFeatureB__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceFeatureB__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

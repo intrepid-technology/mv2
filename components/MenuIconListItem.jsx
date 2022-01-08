@@ -7,7 +7,7 @@ const RENDER_CONTEXT = {
   SIDEBAR: "sidebar"
 }
 
-function MenuIconListItem_({renderContext, ...props}, ref) {
+function MenuIconListItem_({renderContext, switchInputProps, ...props}, ref) {
   const router = useRouter()
 
   const isSelected = renderContext === RENDER_CONTEXT.SIDEBAR && router.pathname === props.destination
@@ -17,6 +17,7 @@ function MenuIconListItem_({renderContext, ...props}, ref) {
       menuIconListItemLink={{ ref }}
       {...props}
       selected={isSelected}
+      switchActionButton={switchInputProps}
     />
   );
 }

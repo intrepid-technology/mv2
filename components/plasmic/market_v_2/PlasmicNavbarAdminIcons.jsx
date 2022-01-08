@@ -19,10 +19,10 @@ import {
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbarAdminIcons.module.css"; // plasmic-import: -GlpTucHU-/css
-import SettingsIcon from "./icons/PlasmicIcon__Settings"; // plasmic-import: QA4fGpoajM/icon
-import NotificationIcon from "./icons/PlasmicIcon__Notification"; // plasmic-import: rEeGdo5vaH/icon
-import HelpIcon from "./icons/PlasmicIcon__Help"; // plasmic-import: 0BaaB_Gau/icon
-import MailInboxIcon from "./icons/PlasmicIcon__MailInbox"; // plasmic-import: kWZFhy4nss/icon
+import Settings2Icon from "./icons/PlasmicIcon__Settings2"; // plasmic-import: Dro0l5pm5X/icon
+import Icon128Icon from "./icons/PlasmicIcon__Icon128"; // plasmic-import: -wtyh5Dq6i/icon
+import Help2Icon from "./icons/PlasmicIcon__Help2"; // plasmic-import: yniBEqZTky/icon
+import InboxIcon from "./icons/PlasmicIcon__Inbox"; // plasmic-import: QjjagZclxc/icon
 
 export const PlasmicNavbarAdminIcons__VariantProps = new Array(
   "light",
@@ -32,7 +32,7 @@ export const PlasmicNavbarAdminIcons__VariantProps = new Array(
 export const PlasmicNavbarAdminIcons__ArgProps = new Array();
 
 function PlasmicNavbarAdminIcons__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -48,12 +48,12 @@ function PlasmicNavbarAdminIcons__RenderFunc(props) {
         data-plasmic-override={overrides.svg}
         PlasmicIconType={
           hasVariant(variants, "alternates", "inbox")
-            ? MailInboxIcon
+            ? InboxIcon
             : hasVariant(variants, "alternates", "help")
-            ? HelpIcon
+            ? Help2Icon
             : hasVariant(variants, "alternates", "notification")
-            ? NotificationIcon
-            : SettingsIcon
+            ? Icon128Icon
+            : Settings2Icon
         }
         className={classNames(projectcss.all, sty.svg, {
           [sty.svg__alternates_help]: hasVariant(
@@ -96,12 +96,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarAdminIcons__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarAdminIcons__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

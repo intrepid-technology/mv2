@@ -34,14 +34,16 @@ export const PlasmicSelectGroupDropdownPrimary__ArgProps = new Array(
 );
 
 function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+      })}
     >
       <p.Stack
         as={"div"}
@@ -49,7 +51,8 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+          [sty.parent__width__90]: hasVariant(variants, "width", "_90"),
+          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
         {(hasVariant(variants, "label", "label") ? true : true) ? (
@@ -132,6 +135,12 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               variants,
               "width",
               "_90"
+            ),
+
+            [sty.selectDropdownPrimary__width_stretch]: hasVariant(
+              variants,
+              "width",
+              "stretch"
             )
           })}
           placeholder={p.renderPlasmicSlot({
@@ -153,11 +162,13 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
               ? "_120"
               : hasVariant(variants, "width", "_90")
               ? "_90"
+              : hasVariant(variants, "width", "stretch")
+              ? "stretch"
               : hasVariant(variants, "width", "_720")
               ? "_720"
               : hasVariant(variants, "width", "_540")
               ? "_540"
-              : undefined
+              : "stretch"
           }
         />
 
@@ -223,12 +234,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSelectGroupDropdownPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSelectGroupDropdownPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

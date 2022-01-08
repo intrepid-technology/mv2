@@ -22,7 +22,10 @@ import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import
 import * as sty from "./PlasmicDisplayIconText.module.css"; // plasmic-import: 2XsuG8W9wX/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
 
-export const PlasmicDisplayIconText__VariantProps = new Array("size");
+export const PlasmicDisplayIconText__VariantProps = new Array(
+  "size",
+  "direction"
+);
 
 export const PlasmicDisplayIconText__ArgProps = new Array(
   "elementIcon",
@@ -48,7 +51,7 @@ export const PlasmicDisplayIconText__ArgProps = new Array(
 );
 
 function PlasmicDisplayIconText__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -68,299 +71,15 @@ function PlasmicDisplayIconText__RenderFunc(props) {
         })}
       >
         <div
-          data-plasmic-name={"elementIconParent"}
-          data-plasmic-override={overrides.elementIconParent}
-          className={classNames(projectcss.all, sty.elementIconParent, {
-            [sty.elementIconParent__size__14]: hasVariant(
-              variants,
-              "size",
-              "_14"
-            ),
-
-            [sty.elementIconParent__size__16]: hasVariant(
-              variants,
-              "size",
-              "_16"
-            ),
-
-            [sty.elementIconParent__size__18]: hasVariant(
-              variants,
-              "size",
-              "_18"
-            ),
-
-            [sty.elementIconParent__size__24]: hasVariant(
-              variants,
-              "size",
-              "_24"
-            ),
-
-            [sty.elementIconParent__size__32]: hasVariant(
-              variants,
-              "size",
-              "_32"
-            ),
-
-            [sty.elementIconParent__size__40]: hasVariant(
-              variants,
-              "size",
-              "_40"
-            ),
-
-            [sty.elementIconParent__size__48]: hasVariant(
-              variants,
-              "size",
-              "_48"
-            ),
-
-            [sty.elementIconParent__size__64]: hasVariant(
-              variants,
-              "size",
-              "_64"
-            ),
-
-            [sty.elementIconParent__size__80]: hasVariant(
-              variants,
-              "size",
-              "_80"
-            )
-          })}
-        >
-          {(
-            hasVariant(variants, "size", "_80")
-              ? false
-              : hasVariant(variants, "size", "_64")
-              ? false
-              : hasVariant(variants, "size", "_48")
-              ? false
-              : hasVariant(variants, "size", "_40")
-              ? false
-              : hasVariant(variants, "size", "_32")
-              ? false
-              : hasVariant(variants, "size", "_24")
-              ? false
-              : hasVariant(variants, "size", "_18")
-              ? false
-              : hasVariant(variants, "size", "_16")
-              ? false
-              : hasVariant(variants, "size", "_14")
-              ? false
-              : true
-          )
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__wekKa
-                    )}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__sibng)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon
-              })
-            : null}
-          {(hasVariant(variants, "size", "_14") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary___7WJW
-                    )}
-                    size={"_14Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__mEoft)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon14Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_16") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__rxn0S
-                    )}
-                    size={"_16Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__vIb4J)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon2
-              })
-            : null}
-          {(hasVariant(variants, "size", "_18") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__w8BoZ
-                    )}
-                    size={"_18Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__idBwb)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon18Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_24") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary___1EeIb
-                    )}
-                    size={"_24Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__pC5Sw)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon24Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_32") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__yVb9
-                    )}
-                    size={"_32Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__s3Nop)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon32Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_40") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__wqA5O
-                    )}
-                    size={"_40Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__ysQ8)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon40Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_48") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__wsSmV
-                    )}
-                    size={"_48Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__zPz36)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon48Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_64") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary__huE2L
-                    )}
-                    size={"_64Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__zCpm)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon64Px
-              })
-            : null}
-          {(hasVariant(variants, "size", "_80") ? true : false)
-            ? p.renderPlasmicSlot({
-                defaultContents: (
-                  <IconPrimary
-                    className={classNames(
-                      "__wab_instance",
-                      sty.iconPrimary___06E9G
-                    )}
-                    size={"_80Px"}
-                    svgIcon={
-                      <Icon171Icon
-                        className={classNames(projectcss.all, sty.svg__xDzjQ)}
-                        role={"img"}
-                      />
-                    }
-                  />
-                ),
-
-                value: args.elementIcon80Px
-              })
-            : null}
-        </div>
-
-        <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
           className={classNames(projectcss.all, sty.textParent, {
+            [sty.textParent__direction_left]: hasVariant(
+              variants,
+              "direction",
+              "left"
+            ),
+
             [sty.textParent__size__14]: hasVariant(variants, "size", "_14"),
             [sty.textParent__size__16]: hasVariant(variants, "size", "_16"),
             [sty.textParent__size__18]: hasVariant(variants, "size", "_18"),
@@ -397,6 +116,12 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text,
                 className: classNames(sty.slotTargetText, {
+                  [sty.slotTargetText__direction_left]: hasVariant(
+                    variants,
+                    "direction",
+                    "left"
+                  ),
+
                   [sty.slotTargetText__size__14]: hasVariant(
                     variants,
                     "size",
@@ -847,16 +572,306 @@ function PlasmicDisplayIconText__RenderFunc(props) {
               })
             : null}
         </div>
+
+        <div
+          data-plasmic-name={"elementIconParent"}
+          data-plasmic-override={overrides.elementIconParent}
+          className={classNames(projectcss.all, sty.elementIconParent, {
+            [sty.elementIconParent__size__14]: hasVariant(
+              variants,
+              "size",
+              "_14"
+            ),
+
+            [sty.elementIconParent__size__16]: hasVariant(
+              variants,
+              "size",
+              "_16"
+            ),
+
+            [sty.elementIconParent__size__18]: hasVariant(
+              variants,
+              "size",
+              "_18"
+            ),
+
+            [sty.elementIconParent__size__24]: hasVariant(
+              variants,
+              "size",
+              "_24"
+            ),
+
+            [sty.elementIconParent__size__32]: hasVariant(
+              variants,
+              "size",
+              "_32"
+            ),
+
+            [sty.elementIconParent__size__40]: hasVariant(
+              variants,
+              "size",
+              "_40"
+            ),
+
+            [sty.elementIconParent__size__48]: hasVariant(
+              variants,
+              "size",
+              "_48"
+            ),
+
+            [sty.elementIconParent__size__64]: hasVariant(
+              variants,
+              "size",
+              "_64"
+            ),
+
+            [sty.elementIconParent__size__80]: hasVariant(
+              variants,
+              "size",
+              "_80"
+            )
+          })}
+        >
+          {(
+            hasVariant(variants, "size", "_80")
+              ? false
+              : hasVariant(variants, "size", "_64")
+              ? false
+              : hasVariant(variants, "size", "_48")
+              ? false
+              : hasVariant(variants, "size", "_40")
+              ? false
+              : hasVariant(variants, "size", "_32")
+              ? false
+              : hasVariant(variants, "size", "_24")
+              ? false
+              : hasVariant(variants, "size", "_18")
+              ? false
+              : hasVariant(variants, "size", "_16")
+              ? false
+              : hasVariant(variants, "size", "_14")
+              ? false
+              : true
+          )
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__wekKa
+                    )}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__sibng)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon
+              })
+            : null}
+          {(hasVariant(variants, "size", "_14") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary___7WJW
+                    )}
+                    size={"_14Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__mEoft)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon14Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_16") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__rxn0S
+                    )}
+                    size={"_16Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__vIb4J)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon2
+              })
+            : null}
+          {(hasVariant(variants, "size", "_18") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__w8BoZ
+                    )}
+                    size={"_18Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__idBwb)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon18Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_24") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary___1EeIb
+                    )}
+                    size={"_24Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__pC5Sw)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon24Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_32") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__yVb9
+                    )}
+                    size={"_32Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__s3Nop)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon32Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_40") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__wqA5O
+                    )}
+                    size={"_40Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__ysQ8)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon40Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_48") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__wsSmV
+                    )}
+                    size={"_48Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__zPz36)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon48Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_64") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary__huE2L
+                    )}
+                    size={"_64Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__zCpm)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon64Px
+              })
+            : null}
+          {(hasVariant(variants, "size", "_80") ? true : false)
+            ? p.renderPlasmicSlot({
+                defaultContents: (
+                  <IconPrimary
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconPrimary___06E9G
+                    )}
+                    size={"_80Px"}
+                    svgIcon={
+                      <Icon171Icon
+                        className={classNames(projectcss.all, sty.svg__xDzjQ)}
+                        role={"img"}
+                      />
+                    }
+                  />
+                ),
+
+                value: args.elementIcon80Px
+              })
+            : null}
+        </div>
       </p.Stack>
     </div>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "parent", "elementIconParent", "textParent"],
-  parent: ["parent", "elementIconParent", "textParent"],
-  elementIconParent: ["elementIconParent"],
-  textParent: ["textParent"]
+  root: ["root", "parent", "textParent", "elementIconParent"],
+  parent: ["parent", "textParent", "elementIconParent"],
+  textParent: ["textParent"],
+  elementIconParent: ["elementIconParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -868,12 +883,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDisplayIconText__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDisplayIconText__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
@@ -891,8 +904,8 @@ export const PlasmicDisplayIconText = Object.assign(
   {
     // Helper components rendering sub-elements
     parent: makeNodeComponent("parent"),
-    elementIconParent: makeNodeComponent("elementIconParent"),
     textParent: makeNodeComponent("textParent"),
+    elementIconParent: makeNodeComponent("elementIconParent"),
     // Metadata about props expected for PlasmicDisplayIconText
     internalVariantProps: PlasmicDisplayIconText__VariantProps,
     internalArgProps: PlasmicDisplayIconText__ArgProps

@@ -31,7 +31,7 @@ export const PlasmicMemberPricingComponent__VariantProps = new Array("annual");
 export const PlasmicMemberPricingComponent__ArgProps = new Array();
 
 function PlasmicMemberPricingComponent__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -55,7 +55,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
           })}
         >
           <BadgeSectionTitle
-            border={"border"}
+            border={true}
             className={classNames(
               "__wab_instance",
               sty.badgeSectionTitle___3XvBq
@@ -319,12 +319,11 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       "__wab_instance",
                       sty.buttonPrimary__ioq5I
                     )}
-                    color={"brand"}
+                    color={"primary"}
                     destination={
                       "https://intrepidventures.typeform.com/to/MthpVWrA"
                     }
-                    rounded={"rounded"}
-                    size={"_360"}
+                    width={"_360"}
                   >
                     <div
                       className={classNames(
@@ -524,12 +523,11 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       "__wab_instance",
                       sty.buttonPrimary__kqlVw
                     )}
-                    color={"brand"}
+                    color={"primary"}
                     destination={
                       "https://intrepidventures.typeform.com/to/MthpVWrA"
                     }
-                    rounded={"rounded"}
-                    size={"_360"}
+                    width={"_360"}
                   >
                     <div
                       className={classNames(
@@ -731,12 +729,11 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       "__wab_instance",
                       sty.buttonPrimary__rVfd9
                     )}
-                    color={"brand"}
+                    color={"primary"}
                     destination={
                       "https://intrepidventures.typeform.com/to/MthpVWrA"
                     }
-                    rounded={"rounded"}
-                    size={"_360"}
+                    width={"_360"}
                   >
                     <div
                       className={classNames(
@@ -765,7 +762,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
         {true ? (
           <div className={classNames(projectcss.all, sty.freeBox__x4Htp)}>
             <BadgeSectionTitle
-              border={"border"}
+              border={true}
               className={classNames(
                 "__wab_instance",
                 sty.badgeSectionTitle__c2Gsu
@@ -809,11 +806,10 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
 
           <ButtonPrimary
             className={classNames("__wab_instance", sty.buttonPrimary__cVnXz)}
-            color={"brand"}
+            color={"primary"}
             destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
-            rounded={"rounded"}
-            size={"_360"}
             type={"primary"}
+            width={"_360"}
           >
             <div
               className={classNames(
@@ -855,12 +851,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMemberPricingComponent__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMemberPricingComponent__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

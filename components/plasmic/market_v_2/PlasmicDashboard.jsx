@@ -24,7 +24,7 @@ export const PlasmicDashboard__VariantProps = new Array();
 export const PlasmicDashboard__ArgProps = new Array();
 
 function PlasmicDashboard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicDashboard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicDashboard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

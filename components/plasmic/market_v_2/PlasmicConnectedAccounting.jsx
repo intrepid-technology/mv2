@@ -30,7 +30,7 @@ export const PlasmicConnectedAccounting__VariantProps = new Array(
 export const PlasmicConnectedAccounting__ArgProps = new Array();
 
 function PlasmicConnectedAccounting__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -44,7 +44,7 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
       <InputFormCardWebhookConnections
         data-plasmic-name={"inputFormCardWebhookConnections"}
         data-plasmic-override={overrides.inputFormCardWebhookConnections}
-        accounting={"accounting"}
+        accounting={true}
         slot={"Connect your accounting systems to log financing benefits."}
       >
         {"Accounting Connections"}
@@ -69,7 +69,7 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
             )
           })}
           companies={"xero"}
-          team={"team"}
+          team={true}
           userFirstname={"companyName"}
         />
       ) : null}
@@ -92,7 +92,7 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
             )
           })}
           companies={"quickbooks"}
-          team={"team"}
+          team={true}
           userFirstname={"companyName"}
         />
       ) : null}
@@ -116,12 +116,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicConnectedAccounting__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicConnectedAccounting__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

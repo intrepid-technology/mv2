@@ -30,7 +30,7 @@ export const PlasmicTab__VariantProps = new Array(
 export const PlasmicTab__ArgProps = new Array("label", "destination");
 
 function PlasmicTab__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -143,12 +143,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTab__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTab__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

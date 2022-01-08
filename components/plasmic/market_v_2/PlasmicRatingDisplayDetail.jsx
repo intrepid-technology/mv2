@@ -35,7 +35,7 @@ export const PlasmicRatingDisplayDetail__ArgProps = new Array(
 );
 
 function PlasmicRatingDisplayDetail__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -149,12 +149,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicRatingDisplayDetail__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicRatingDisplayDetail__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

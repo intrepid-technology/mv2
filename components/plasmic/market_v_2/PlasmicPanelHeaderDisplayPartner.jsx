@@ -26,7 +26,7 @@ export const PlasmicPanelHeaderDisplayPartner__VariantProps = new Array();
 export const PlasmicPanelHeaderDisplayPartner__ArgProps = new Array();
 
 function PlasmicPanelHeaderDisplayPartner__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -70,12 +70,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelHeaderDisplayPartner__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelHeaderDisplayPartner__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

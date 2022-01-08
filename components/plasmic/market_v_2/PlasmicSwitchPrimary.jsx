@@ -28,7 +28,7 @@ export const PlasmicSwitchPrimary__VariantProps = new Array(
 export const PlasmicSwitchPrimary__ArgProps = new Array();
 
 function PlasmicSwitchPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -37,14 +37,17 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
         [sty.root___switch]: hasVariant(variants, "_switch", "_switch"),
-        [sty.root__color_brand__switch]:
-          hasVariant(variants, "color", "brand") &&
+        [sty.root__color_black__switch]:
+          hasVariant(variants, "color", "black") &&
           hasVariant(variants, "_switch", "_switch"),
+        [sty.root__color_black_disabled_closed]:
+          hasVariant(variants, "color", "black") &&
+          hasVariant(variants, "disabled", "closed"),
         [sty.root__disabled_closed]: hasVariant(variants, "disabled", "closed"),
         [sty.root__disabled_open]: hasVariant(variants, "disabled", "open"),
-        [sty.root__disabled_open_color_brand]:
+        [sty.root__disabled_open_color_black]:
           hasVariant(variants, "disabled", "open") &&
-          hasVariant(variants, "color", "brand")
+          hasVariant(variants, "color", "black")
       })}
     >
       <div
@@ -52,6 +55,9 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
           [sty.freeBox___switch]: hasVariant(variants, "_switch", "_switch"),
+          [sty.freeBox__color_black_disabled_closed]:
+            hasVariant(variants, "color", "black") &&
+            hasVariant(variants, "disabled", "closed"),
           [sty.freeBox__disabled_closed]: hasVariant(
             variants,
             "disabled",
@@ -64,9 +70,9 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
             "open"
           ),
 
-          [sty.freeBox__disabled_open_color_brand]:
+          [sty.freeBox__disabled_open_color_black]:
             hasVariant(variants, "disabled", "open") &&
-            hasVariant(variants, "color", "brand")
+            hasVariant(variants, "color", "black")
         })}
       />
     </div>
@@ -87,12 +93,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSwitchPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSwitchPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

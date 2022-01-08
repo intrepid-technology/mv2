@@ -27,7 +27,7 @@ export const PlasmicCardHeaderTitlePrimary__ArgProps = new Array(
 );
 
 function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"hgroup"}
@@ -84,12 +84,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardHeaderTitlePrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardHeaderTitlePrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

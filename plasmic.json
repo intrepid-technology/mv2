@@ -4615,19 +4615,6 @@
           "componentType": "component"
         },
         {
-          "id": "qwkYbKgKSI",
-          "name": "CardFeatureHeadlineDescriptionCentered",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicCardFeatureHeadlineDescriptionCentered.jsx",
-          "importSpec": {
-            "modulePath": "CardFeatureHeadlineDescriptionCentered.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicCardFeatureHeadlineDescriptionCentered.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "YQmJm_xVDH",
           "name": "PricingTableFeatureItem",
           "type": "managed",
@@ -4769,6 +4756,162 @@
           "cssFilePath": "plasmic/market_v_2/PlasmicMemberPricingComponent.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "qwkYbKgKSI",
+          "name": "CardFeatureHeadlineDescriptionPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicCardFeatureHeadlineDescriptionPrimary.jsx",
+          "importSpec": {
+            "modulePath": "CardFeatureHeadlineDescriptionPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicCardFeatureHeadlineDescriptionPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nAfvX1r8paZ",
+          "name": "SelectDateDropdownPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSelectDateDropdownPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SelectDateDropdownPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSelectDateDropdownPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MCUdGz7XKy0",
+          "name": "SelectTimeDropdownPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSelectTimeDropdownPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SelectTimeDropdownPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSelectTimeDropdownPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "K33QnfoiGn",
+          "name": "SelectMobileNumberDropdownPrimary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSelectMobileNumberDropdownPrimary.jsx",
+          "importSpec": {
+            "modulePath": "SelectMobileNumberDropdownPrimary.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSelectMobileNumberDropdownPrimary.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "cjK2bQuz6A3",
+          "name": "SidebarV2",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicSidebarV2.jsx",
+          "importSpec": {
+            "modulePath": "SidebarV2.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicSidebarV2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5YZiVg6E4M",
+          "name": "Memberpartners",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMemberpartners.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/partners.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMemberpartners.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "psALc2tolS",
+          "name": "Membercontracts",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMembercontracts.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/contracts.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMembercontracts.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6odeaAIuJf",
+          "name": "Membercompliance",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMembercompliance.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/compliance.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMembercompliance.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "SH9LIy6WVj",
+          "name": "Memberperks",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMemberperks.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/perks.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMemberperks.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "lcLlwQsZEo",
+          "name": "Memberinsurance",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicMemberinsurance.jsx",
+          "importSpec": {
+            "modulePath": "../pages/member/insurance.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicMemberinsurance.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UKUg9HnXR_",
+          "name": "Integrations",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicIntegrations.jsx",
+          "importSpec": {
+            "modulePath": "../pages/integrations.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicIntegrations.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qKK4IMp5Dq",
+          "name": "Help",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/market_v_2/PlasmicHelp.jsx",
+          "importSpec": {
+            "modulePath": "../pages/help.jsx"
+          },
+          "cssFilePath": "plasmic/market_v_2/PlasmicHelp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -5339,8 +5482,8 @@
         },
         {
           "id": "hwA1u0ceql",
-          "name": "Icon87Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon87.jsx"
+          "name": "ProjectsBrief3Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ProjectsBrief3.jsx"
         },
         {
           "id": "l8RMAH59eK",
@@ -5689,8 +5832,8 @@
         },
         {
           "id": "oyqz-4i0N",
-          "name": "Icon155Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon155.jsx"
+          "name": "PerksGiftIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PerksGift.jsx"
         },
         {
           "id": "1NJKfj9Nne",
@@ -6154,8 +6297,8 @@
         },
         {
           "id": "mkCh3UXgor",
-          "name": "ServiceIcon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Service.jsx"
+          "name": "ServicePartnerIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ServicePartner.jsx"
         },
         {
           "id": "aWTrwS7TiN",
@@ -6266,6 +6409,116 @@
           "id": "cvZrl8mqdA_",
           "name": "ChecksvgIcon",
           "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "4kJcHQIt-x",
+          "name": "ContractFileIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ContractFile.jsx"
+        },
+        {
+          "id": "j05iuvtnhV",
+          "name": "ComplianceFileIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ComplianceFile.jsx"
+        },
+        {
+          "id": "jzpsph1Rn",
+          "name": "BenefitsHeartIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__BenefitsHeart.jsx"
+        },
+        {
+          "id": "GtnKS65bGU",
+          "name": "PerksGift2Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PerksGift2.jsx"
+        },
+        {
+          "id": "mDu_-cp8R",
+          "name": "PartnersAddIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PartnersAdd.jsx"
+        },
+        {
+          "id": "LcJhynDGh9",
+          "name": "PerksGift22Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PerksGift22.jsx"
+        },
+        {
+          "id": "1C-gush7g",
+          "name": "IntegrationsLinkIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__IntegrationsLink.jsx"
+        },
+        {
+          "id": "5xSes5Z-VC",
+          "name": "MarketCartIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__MarketCart.jsx"
+        },
+        {
+          "id": "5hlMU_Ucn8",
+          "name": "FinanceWalletIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__FinanceWallet.jsx"
+        },
+        {
+          "id": "mxeDyg819J",
+          "name": "ContractsFileIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ContractsFile.jsx"
+        },
+        {
+          "id": "dLzCFPGMoq",
+          "name": "ComplianceClipboardIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ComplianceClipboard.jsx"
+        },
+        {
+          "id": "yniBEqZTky",
+          "name": "Help2Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Help2.jsx"
+        },
+        {
+          "id": "C5sawr1fJm",
+          "name": "Icon65Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon65.jsx"
+        },
+        {
+          "id": "Dro0l5pm5X",
+          "name": "Settings2Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Settings2.jsx"
+        },
+        {
+          "id": "YK8w2SjGLa",
+          "name": "ComplianceGavelIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ComplianceGavel.jsx"
+        },
+        {
+          "id": "uMoB6Z7yua",
+          "name": "BenefitsHelpHandIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__BenefitsHelpHand.jsx"
+        },
+        {
+          "id": "rftun1iZb_",
+          "name": "SwitchIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Switch.jsx"
+        },
+        {
+          "id": "LJ9ST38jAQ",
+          "name": "Dashboard2Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Dashboard2.jsx"
+        },
+        {
+          "id": "pqrhOcBoXX",
+          "name": "ListingsUpIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__ListingsUp.jsx"
+        },
+        {
+          "id": "Ht43jLmKl",
+          "name": "InsuranceUmbrellaIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__InsuranceUmbrella.jsx"
+        },
+        {
+          "id": "QjjagZclxc",
+          "name": "InboxIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Inbox.jsx"
+        },
+        {
+          "id": "IE-i8Urp8",
+          "name": "OfficeWork2Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__OfficeWork2.jsx"
         }
       ],
       "images": [
@@ -6733,6 +6986,16 @@
           "id": "bS9GmnPbY",
           "name": "Intrepid-Remote-OS-2022-3.png",
           "filePath": "../public/plasmic/market_v_2/images/intrepidRemoteOs20223Png.png"
+        },
+        {
+          "id": "qv8O96ObA",
+          "name": "Intrepid-logo-square-black-2021.png",
+          "filePath": "../public/plasmic/market_v_2/images/intrepidLogoSquareBlack2021Png.png"
+        },
+        {
+          "id": "hvmtv97xW",
+          "name": "collin-user-image",
+          "filePath": "../public/plasmic/market_v_2/images/collinUserImage.jpeg"
         }
       ],
       "codeComponents": [],

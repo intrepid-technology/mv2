@@ -36,7 +36,7 @@ export const PlasmicFormSelectInput__ArgProps = new Array(
 );
 
 function PlasmicFormSelectInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -62,9 +62,7 @@ function PlasmicFormSelectInput__RenderFunc(props) {
           )
         })}
         hideLabel={
-          hasVariant(variants, "hideLabel", "hideLabel")
-            ? "hideLabel"
-            : undefined
+          hasVariant(variants, "hideLabel", "hideLabel") ? true : undefined
         }
         label={p.renderPlasmicSlot({
           defaultContents: "Field Label",
@@ -93,12 +91,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFormSelectInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFormSelectInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

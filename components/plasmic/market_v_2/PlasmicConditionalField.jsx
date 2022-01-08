@@ -31,7 +31,7 @@ export const PlasmicConditionalField__ArgProps = new Array(
 );
 
 function PlasmicConditionalField__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -61,12 +61,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicConditionalField__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicConditionalField__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

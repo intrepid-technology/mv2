@@ -30,7 +30,7 @@ export const PlasmicFooterB__VariantProps = new Array("color");
 export const PlasmicFooterB__ArgProps = new Array();
 
 function PlasmicFooterB__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"footer"}
@@ -51,7 +51,7 @@ function PlasmicFooterB__RenderFunc(props) {
           [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={"/"}
-        light={hasVariant(variants, "color", "dark") ? "light" : undefined}
+        light={hasVariant(variants, "color", "dark") ? true : undefined}
       />
 
       <div
@@ -280,12 +280,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFooterB__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFooterB__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

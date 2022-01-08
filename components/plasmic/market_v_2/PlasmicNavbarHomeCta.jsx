@@ -30,7 +30,7 @@ export const PlasmicNavbarHomeCta__VariantProps = new Array("color");
 export const PlasmicNavbarHomeCta__ArgProps = new Array();
 
 function PlasmicNavbarHomeCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -58,7 +58,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
             ? "/landingpage-2021"
             : "/landingpage-2021"
         }
-        light={hasVariant(variants, "color", "dark") ? "light" : undefined}
+        light={hasVariant(variants, "color", "dark") ? true : undefined}
       />
 
       {(
@@ -132,8 +132,8 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
               className={classNames("__wab_instance", sty.buttonLinkPrimary)}
               color={
                 hasVariant(globalVariants, "screen", "desktop")
-                  ? "brand"
-                  : "brand"
+                  ? "primary"
+                  : "primary"
               }
               destination={
                 hasVariant(globalVariants, "screen", "iphone12ProMax")
@@ -202,12 +202,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarHomeCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarHomeCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

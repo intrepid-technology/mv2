@@ -37,7 +37,7 @@ export const PlasmicNavbarPrimary__VariantProps = new Array(
 export const PlasmicNavbarPrimary__ArgProps = new Array();
 
 function PlasmicNavbarPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -311,9 +311,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   "color"
                 )
               })}
-              light={
-                hasVariant(variants, "color", "color") ? "light" : undefined
-              }
+              light={hasVariant(variants, "color", "color") ? true : undefined}
             />
           ) : null}
           {(
@@ -331,9 +329,7 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
                   "color"
                 )
               })}
-              light={
-                hasVariant(variants, "color", "color") ? "light" : undefined
-              }
+              light={hasVariant(variants, "color", "color") ? true : undefined}
             />
           ) : null}
 
@@ -377,12 +373,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

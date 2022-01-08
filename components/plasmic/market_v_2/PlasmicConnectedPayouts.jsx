@@ -30,7 +30,7 @@ export const PlasmicConnectedPayouts__VariantProps = new Array(
 export const PlasmicConnectedPayouts__ArgProps = new Array();
 
 function PlasmicConnectedPayouts__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -61,7 +61,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
             "stripe"
           )
         })}
-        payment={"payment"}
+        payment={true}
         slot={"Connect your payment accounts to receive payouts from Intrepid."}
       >
         {"Payout Connections"}
@@ -96,7 +96,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               "stripe"
             )
           })}
-          team={"team"}
+          team={true}
           userFirstname={
             <div
               className={classNames(
@@ -150,7 +150,7 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
               "stripe"
             )
           })}
-          team={"team"}
+          team={true}
           userFirstname={
             <div
               className={classNames(
@@ -201,12 +201,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicConnectedPayouts__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicConnectedPayouts__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

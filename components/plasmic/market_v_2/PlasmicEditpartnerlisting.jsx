@@ -32,7 +32,7 @@ export const PlasmicEditpartnerlisting__VariantProps = new Array();
 export const PlasmicEditpartnerlisting__ArgProps = new Array();
 
 function PlasmicEditpartnerlisting__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -134,8 +134,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__reJb
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         <div
                           className={classNames(
@@ -168,8 +168,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary___07H02
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         <div
                           className={classNames(
@@ -202,8 +202,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__rZgLh
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -231,8 +231,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__bJdoc
                         )}
                         color={"caution"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Add photos"}
                       </ButtonPrimary>
@@ -257,8 +257,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__lqTcU
                         )}
                         color={"warning"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Fix"}
                       </ButtonPrimary>
@@ -283,8 +283,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__uEqbb
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -309,8 +309,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__ldtT
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -335,8 +335,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__kqb1Q
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -361,8 +361,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__iawR1
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -387,8 +387,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary___6Rd28
                         )}
                         color={"success"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Edit"}
                       </ButtonPrimary>
@@ -413,8 +413,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__hfHdF
                         )}
                         color={"warning"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Fix"}
                       </ButtonPrimary>
@@ -442,8 +442,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__etVnD
                         )}
                         color={"warning"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Fix"}
                       </ButtonPrimary>
@@ -468,8 +468,8 @@ function PlasmicEditpartnerlisting__RenderFunc(props) {
                           sty.buttonPrimary__n6Kbx
                         )}
                         color={"caution"}
-                        size={"_120"}
                         type={"ghost"}
+                        width={"_120"}
                       >
                         {"Finish"}
                       </ButtonPrimary>
@@ -530,12 +530,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditpartnerlisting__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditpartnerlisting__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -23,7 +23,7 @@
   margin-left: 16px;
 }
 .root:hover {
-  border-color: #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border-color: #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
 .root:active {
   border-color: #a385ff /* plasmic-token: rN0ul5_oz */;
@@ -41,7 +41,7 @@
 .userAvatar:global(.__wab_instance) {
   position: relative;
 }
-.img__onbM1 {
+.img__n2Nn {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -52,10 +52,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__onbM1 > picture > img {
+.img__n2Nn > picture > img {
   object-fit: cover;
 }
-.img__onbM1 > .__wab_img-spacer > img {
+.img__n2Nn > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img__yROw {
@@ -109,7 +109,7 @@
 .img___3E8IM > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__aOzay {
+.img__el2ST {
   position: relative;
   object-fit: cover;
   left: auto;
@@ -120,10 +120,10 @@
   border-width: 0px;
   border-style: none;
 }
-.img__aOzay > picture > img {
+.img__el2ST > picture > img {
   object-fit: cover;
 }
-.img__aOzay > .__wab_img-spacer > img {
+.img__el2ST > .__wab_img-spacer > img {
   object-fit: cover;
 }
 .img___9XxAd {

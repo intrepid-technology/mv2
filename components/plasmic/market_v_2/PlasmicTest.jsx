@@ -36,7 +36,7 @@ export const PlasmicTest__VariantProps = new Array();
 export const PlasmicTest__ArgProps = new Array();
 
 function PlasmicTest__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -253,12 +253,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTest__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTest__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

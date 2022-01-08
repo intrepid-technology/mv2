@@ -36,7 +36,7 @@ export const PlasmicServicelistingdelivery__VariantProps = new Array();
 export const PlasmicServicelistingdelivery__ArgProps = new Array();
 
 function PlasmicServicelistingdelivery__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -168,7 +168,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__e0X2Y
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -200,7 +200,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.meetingsSelectInput
                 )}
-                hideLabel={"hideLabel"}
+                hideLabel={true}
               />
             </p.Stack>
 
@@ -234,7 +234,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing___0MQxG
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -266,7 +266,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.revisionsSelectInput
                 )}
-                hideLabel={"hideLabel"}
+                hideLabel={true}
               />
             </p.Stack>
 
@@ -308,7 +308,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardQuestionServiceListing__rlNOv
                   )}
-                  overline={"overline"}
+                  overline={true}
                   slot={
                     <div
                       className={classNames(
@@ -378,7 +378,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__ya0N9
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -445,7 +445,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing___3B5Lq
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
@@ -477,7 +477,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                   "__wab_instance",
                   sty.serviceCostTypeSelectInput
                 )}
-                hideLabel={"hideLabel"}
+                hideLabel={true}
               />
             </p.Stack>
 
@@ -524,7 +524,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardQuestionServiceListing__dm8L5
                   )}
-                  overline={"overline"}
+                  overline={true}
                   slot={
                     <div
                       className={classNames(
@@ -591,7 +591,7 @@ function PlasmicServicelistingdelivery__RenderFunc(props) {
                     "__wab_instance",
                     sty.cardQuestionServiceListing__gx2EL
                   )}
-                  overline={"overline"}
+                  overline={true}
                   slot={
                     <div
                       className={classNames(
@@ -714,12 +714,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingdelivery__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingdelivery__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

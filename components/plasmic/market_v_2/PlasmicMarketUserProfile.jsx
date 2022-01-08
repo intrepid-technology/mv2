@@ -23,7 +23,7 @@ export const PlasmicMarketUserProfile__VariantProps = new Array();
 export const PlasmicMarketUserProfile__ArgProps = new Array();
 
 function PlasmicMarketUserProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <ChipUserProfile
       data-plasmic-name={"root"}
@@ -50,12 +50,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMarketUserProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMarketUserProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

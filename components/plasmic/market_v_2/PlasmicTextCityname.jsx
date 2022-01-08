@@ -23,7 +23,7 @@ export const PlasmicTextCityname__VariantProps = new Array();
 export const PlasmicTextCityname__ArgProps = new Array();
 
 function PlasmicTextCityname__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -55,12 +55,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextCityname__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextCityname__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -35,7 +35,7 @@ export const PlasmicEditteammembership__VariantProps = new Array();
 export const PlasmicEditteammembership__ArgProps = new Array();
 
 function PlasmicEditteammembership__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -142,7 +142,7 @@ function PlasmicEditteammembership__RenderFunc(props) {
                     data-plasmic-name={"tagPartnerA"}
                     data-plasmic-override={overrides.tagPartnerA}
                     className={classNames("__wab_instance", sty.tagPartnerA)}
-                    inset={"inset"}
+                    inset={true}
                   />
                 </div>
 
@@ -382,12 +382,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditteammembership__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditteammembership__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

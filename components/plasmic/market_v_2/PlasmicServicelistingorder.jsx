@@ -42,7 +42,7 @@ export const PlasmicServicelistingorder__VariantProps = new Array();
 export const PlasmicServicelistingorder__ArgProps = new Array();
 
 function PlasmicServicelistingorder__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -79,7 +79,7 @@ function PlasmicServicelistingorder__RenderFunc(props) {
               data-plasmic-override={overrides.buttonCheckout}
               backButtonDestination={"/service/listing/delivery"}
               className={classNames("__wab_instance", sty.buttonCheckout)}
-              hideNext={"hideNext"}
+              hideNext={true}
             >
               {"Order"}
             </NavbarServiceListing>
@@ -1944,12 +1944,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServicelistingorder__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServicelistingorder__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

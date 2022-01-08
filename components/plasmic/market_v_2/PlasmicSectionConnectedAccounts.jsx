@@ -35,7 +35,7 @@ export const PlasmicSectionConnectedAccounts__ArgProps = new Array(
 );
 
 function PlasmicSectionConnectedAccounts__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -67,7 +67,7 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             "Connect your social accounts to log in to Intrepid.",
           value: args.subhead
         })}
-        subheadDescription={"subheadDescription"}
+        subheadDescription={true}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Login Connections",
@@ -199,12 +199,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionConnectedAccounts__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionConnectedAccounts__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

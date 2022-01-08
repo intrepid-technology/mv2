@@ -6,30 +6,34 @@
   width: 48px;
   height: 24px;
   position: relative;
-  background: #dcdcdc;
+  background: #e0e2e7;
   border-radius: 24px;
   padding: 0px;
-  border: 2px solid #dcdcdc /* plasmic-token: pZiR_PgBn */;
+  border: 2px solid #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
 .root___switch {
-  background: #101010;
-  border-color: #101010 /* plasmic-token: VLxGX_Tro */;
+  background: #5229cc;
+  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
 .root__disabled_closed {
-  background: #f8f8f8;
-  border-color: #3d4350 /* plasmic-token: tFyZO4NUK */;
+  background: #c2c6ce;
+  border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
 .root__disabled_open {
-  background: #f8f8f8;
-  border-color: #3d4350 /* plasmic-token: tFyZO4NUK */;
+  background: #c2c6ce;
+  border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
-.root__color_brand__switch {
-  background: #6633ff;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+.root__color_black__switch {
+  background: #14161b;
+  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.root__disabled_open_color_brand {
-  background: #e0d6ff;
-  border-color: #e0d6ff /* plasmic-token: WAX_l0bzr */;
+.root__color_black_disabled_closed {
+  background: #14161b;
+  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
+}
+.root__disabled_open_color_black {
+  background: #14161b;
+  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .freeBox {
   display: flex;
@@ -53,12 +57,14 @@
   align-self: flex-end;
 }
 .freeBox__disabled_closed {
-  background: #3d4350;
+  background: #ffffff;
+  border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .freeBox__disabled_open {
   align-self: flex-end;
-  background: #3d4350;
+  background: #ffffff;
+  border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.freeBox__disabled_open_color_brand {
-  background: #eaeaea;
+.freeBox__disabled_open_color_black {
+  background: #ffffff;
 }

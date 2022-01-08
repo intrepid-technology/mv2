@@ -38,7 +38,7 @@ export const PlasmicEditmembersettings__VariantProps = new Array();
 export const PlasmicEditmembersettings__ArgProps = new Array();
 
 function PlasmicEditmembersettings__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -144,6 +144,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                     data-plasmic-override={overrides.emailTextInput}
                     className={classNames("__wab_instance", sty.emailTextInput)}
                     name={"email"}
+                    width={"stretch"}
                   />
                 </p.Stack>
 
@@ -563,9 +564,10 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         "__wab_instance",
                         sty.numberTextInput
                       )}
+                      headline={true}
                       label={"Number"}
                       name={"number"}
-                      showLabel={"showLabel"}
+                      width={"stretch"}
                     />
                   </p.Stack>
                 </p.Stack>
@@ -656,6 +658,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         "__wab_instance",
                         sty.addressTextInput
                       )}
+                      headline={true}
                       label={
                         <div
                           className={classNames(
@@ -668,7 +671,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         </div>
                       }
                       name={"address"}
-                      showLabel={"showLabel"}
+                      width={"stretch"}
                     />
 
                     <FormTextInput
@@ -678,6 +681,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         "__wab_instance",
                         sty.addressLineTwoTextInput
                       )}
+                      headline={true}
                       label={
                         <div
                           className={classNames(
@@ -690,7 +694,7 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         </div>
                       }
                       name={"addressLineTwo"}
-                      showLabel={"showLabel"}
+                      width={"stretch"}
                     />
 
                     <FormSelectInput
@@ -734,9 +738,10 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         "__wab_instance",
                         sty.stateTextInput
                       )}
+                      headline={true}
                       label={"Province/State"}
                       name={"state"}
-                      showLabel={"showLabel"}
+                      width={"stretch"}
                     />
 
                     <FormTextInput
@@ -746,9 +751,10 @@ function PlasmicEditmembersettings__RenderFunc(props) {
                         "__wab_instance",
                         sty.postalCodeTextInput
                       )}
+                      headline={true}
                       label={"Zip/Postal code"}
                       name={"postalCode"}
-                      showLabel={"showLabel"}
+                      width={"stretch"}
                     />
                   </p.Stack>
                 </p.Stack>
@@ -1098,12 +1104,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicEditmembersettings__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicEditmembersettings__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -33,7 +33,7 @@ export const PlasmicChipSearchFilterButton__ArgProps = new Array(
 );
 
 function PlasmicChipSearchFilterButton__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <button
       data-plasmic-name={"buttonTrigger"}
@@ -81,12 +81,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicChipSearchFilterButton__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicChipSearchFilterButton__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

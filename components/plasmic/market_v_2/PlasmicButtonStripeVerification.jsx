@@ -35,7 +35,7 @@ export const PlasmicButtonStripeVerification__ArgProps = new Array(
 );
 
 function PlasmicButtonStripeVerification__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootHover, triggerRootHoverProps] = useTrigger("useHover", {});
   const triggers = {
     hover_root: isRootHover
@@ -150,12 +150,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicButtonStripeVerification__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicButtonStripeVerification__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

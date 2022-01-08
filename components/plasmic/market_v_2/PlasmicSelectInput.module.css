@@ -1,23 +1,26 @@
 .root {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: auto;
   height: auto;
+}
+.root__width_stretch {
+  width: 100%;
   min-width: 0;
 }
 .trigger {
   position: relative;
   display: flex;
   flex-direction: row;
-  height: 32px;
+  height: 40px;
   width: 100%;
-  background: #f8f8f8;
+  background: #ffffff;
   min-width: 0;
   flex-shrink: 0;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 8px 10px;
-  border: 2px solid #dcdcdc /* plasmic-token: TctF8-gJH */;
+  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
 .trigger > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -36,6 +39,9 @@
   > img {
   margin-left: 4px;
 }
+.trigger__width__720 {
+  width: 720px;
+}
 .trigger__isOpen {
   background: #f5f5f5;
 }
@@ -43,17 +49,34 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
-.trigger__type_secondary {
+.trigger__type_primary {
   background: #ffffff;
+  border-color: #a3a9b6 /* plasmic-token: TctF8-gJH */;
+}
+.trigger__type_secondary {
+  background: #f8f8f8;
+  border-radius: 4px;
+}
+.trigger__width__90 {
+  width: 90px;
+}
+.trigger__width__180 {
+  width: 180px;
+}
+.trigger__width__360 {
+  width: 360px;
+}
+.trigger__width__540 {
+  width: 540px;
 }
 .root:focus-within .trigger {
   outline: none;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .root .trigger_____focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #6633ff /* plasmic-token: brleuPgaD */;
+  border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
 .root:hover:not(:focus-within) .trigger {
   background: #ffffff;

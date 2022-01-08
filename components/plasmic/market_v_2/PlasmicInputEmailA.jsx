@@ -28,7 +28,7 @@ export const PlasmicInputEmailA__VariantProps = new Array("size");
 export const PlasmicInputEmailA__ArgProps = new Array();
 
 function PlasmicInputEmailA__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -108,10 +108,10 @@ function PlasmicInputEmailA__RenderFunc(props) {
               : hasVariant(variants, "size", "_360")
               ? undefined
               : hasVariant(globalVariants, "screen", "desktop")
-              ? "brand"
+              ? "primary"
               : undefined
           }
-          size={
+          width={
             hasVariant(variants, "size", "_720")
               ? "_270"
               : hasVariant(variants, "size", "_540")
@@ -150,12 +150,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputEmailA__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputEmailA__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

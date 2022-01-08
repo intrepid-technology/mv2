@@ -24,7 +24,7 @@ export const PlasmicAvatar__VariantProps = new Array();
 export const PlasmicAvatar__ArgProps = new Array("children");
 
 function PlasmicAvatar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -61,12 +61,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicAvatar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicAvatar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

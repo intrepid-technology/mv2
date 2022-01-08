@@ -35,7 +35,7 @@ export const PlasmicTextInput__ArgProps = new Array(
 );
 
 function PlasmicTextInput__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -44,7 +44,10 @@ function PlasmicTextInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__adornment_end]: hasVariant(variants, "adornment", "end"),
+        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+      })}
     >
       {(hasVariant(variants, "showLabel", "showLabel") ? true : false) ? (
         <div
@@ -154,6 +157,12 @@ function PlasmicTextInput__RenderFunc(props) {
                 "showLabel"
               ),
 
+              [sty.textInput__type_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
+
               [sty.textInput__type_secondary]: hasVariant(
                 variants,
                 "type",
@@ -238,12 +247,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextInput__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextInput__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

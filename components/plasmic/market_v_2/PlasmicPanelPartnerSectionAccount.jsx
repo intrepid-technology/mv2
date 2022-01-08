@@ -30,7 +30,7 @@ export const PlasmicPanelPartnerSectionAccount__VariantProps = new Array();
 export const PlasmicPanelPartnerSectionAccount__ArgProps = new Array();
 
 function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     layout: useLayout()
   });
@@ -140,12 +140,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelPartnerSectionAccount__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelPartnerSectionAccount__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

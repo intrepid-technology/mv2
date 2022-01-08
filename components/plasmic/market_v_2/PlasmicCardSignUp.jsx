@@ -31,7 +31,7 @@ export const PlasmicCardSignUp__VariantProps = new Array();
 export const PlasmicCardSignUp__ArgProps = new Array("id");
 
 function PlasmicCardSignUp__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -305,12 +305,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardSignUp__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardSignUp__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

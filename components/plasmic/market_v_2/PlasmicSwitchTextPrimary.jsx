@@ -21,12 +21,15 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicSwitchTextPrimary.module.css"; // plasmic-import: 0ls58SUcEc/css
 
-export const PlasmicSwitchTextPrimary__VariantProps = new Array("state");
+export const PlasmicSwitchTextPrimary__VariantProps = new Array(
+  "state",
+  "direction"
+);
 
 export const PlasmicSwitchTextPrimary__ArgProps = new Array("text");
 
 function PlasmicSwitchTextPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -36,34 +39,15 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__direction]: hasVariant(variants, "direction", "direction"),
         [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
         [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
       })}
     >
-      <div
-        data-plasmic-name={"textParent"}
-        data-plasmic-override={overrides.textParent}
-        className={classNames(projectcss.all, sty.textParent)}
-      >
-        <div
-          data-plasmic-name={"textSlotParent"}
-          data-plasmic-override={overrides.textSlotParent}
-          className={classNames(projectcss.all, sty.textSlotParent)}
-        >
-          {p.renderPlasmicSlot({
-            defaultContents: "Enter some text",
-            value: args.text,
-            className: classNames(sty.slotTargetText)
-          })}
-        </div>
-      </div>
-
       <SwitchPrimary
         data-plasmic-name={"switchPrimary"}
         data-plasmic-override={overrides.switchPrimary}
-        _switch={
-          hasVariant(variants, "state", "checked") ? "_switch" : undefined
-        }
+        _switch={hasVariant(variants, "state", "checked") ? true : undefined}
         className={classNames("__wab_instance", sty.switchPrimary, {
           [sty.switchPrimary__state_checked]: hasVariant(
             variants,
@@ -81,15 +65,51 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
           hasVariant(variants, "state", "disabled") ? "closed" : undefined
         }
       />
+
+      <div
+        data-plasmic-name={"textParent"}
+        data-plasmic-override={overrides.textParent}
+        className={classNames(projectcss.all, sty.textParent, {
+          [sty.textParent__direction]: hasVariant(
+            variants,
+            "direction",
+            "direction"
+          )
+        })}
+      >
+        <div
+          data-plasmic-name={"textSlotParent"}
+          data-plasmic-override={overrides.textSlotParent}
+          className={classNames(projectcss.all, sty.textSlotParent, {
+            [sty.textSlotParent__direction]: hasVariant(
+              variants,
+              "direction",
+              "direction"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Enter some text",
+            value: args.text,
+            className: classNames(sty.slotTargetText, {
+              [sty.slotTargetText__direction]: hasVariant(
+                variants,
+                "direction",
+                "direction"
+              )
+            })
+          })}
+        </div>
+      </div>
     </p.Stack>
   );
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textParent", "textSlotParent", "switchPrimary"],
+  root: ["root", "switchPrimary", "textParent", "textSlotParent"],
+  switchPrimary: ["switchPrimary"],
   textParent: ["textParent", "textSlotParent"],
-  textSlotParent: ["textSlotParent"],
-  switchPrimary: ["switchPrimary"]
+  textSlotParent: ["textSlotParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -101,12 +121,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSwitchTextPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSwitchTextPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
@@ -123,9 +141,9 @@ export const PlasmicSwitchTextPrimary = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    switchPrimary: makeNodeComponent("switchPrimary"),
     textParent: makeNodeComponent("textParent"),
     textSlotParent: makeNodeComponent("textSlotParent"),
-    switchPrimary: makeNodeComponent("switchPrimary"),
     // Metadata about props expected for PlasmicSwitchTextPrimary
     internalVariantProps: PlasmicSwitchTextPrimary__VariantProps,
     internalArgProps: PlasmicSwitchTextPrimary__ArgProps

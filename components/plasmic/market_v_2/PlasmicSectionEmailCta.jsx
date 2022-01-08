@@ -28,7 +28,7 @@ export const PlasmicSectionEmailCta__VariantProps = new Array();
 export const PlasmicSectionEmailCta__ArgProps = new Array("children", "slot");
 
 function PlasmicSectionEmailCta__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -105,12 +105,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSectionEmailCta__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSectionEmailCta__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

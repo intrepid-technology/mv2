@@ -24,7 +24,7 @@ export const PlasmicOrders__VariantProps = new Array();
 export const PlasmicOrders__ArgProps = new Array();
 
 function PlasmicOrders__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -87,12 +87,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicOrders__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicOrders__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

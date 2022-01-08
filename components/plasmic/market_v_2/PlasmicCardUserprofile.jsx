@@ -36,7 +36,7 @@ export const PlasmicCardUserprofile__VariantProps = new Array();
 export const PlasmicCardUserprofile__ArgProps = new Array();
 
 function PlasmicCardUserprofile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootActive, triggerRootActiveProps] = useTrigger("usePressed", {});
   const triggers = {
     active_root: isRootActive
@@ -484,12 +484,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardUserprofile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardUserprofile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -28,7 +28,7 @@ export const PlasmicServiceFeatureCard__ArgProps = new Array(
 );
 
 function PlasmicServiceFeatureCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicServiceFeatureCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicServiceFeatureCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

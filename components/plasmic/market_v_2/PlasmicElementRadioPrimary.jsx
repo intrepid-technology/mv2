@@ -27,7 +27,7 @@ export const PlasmicElementRadioPrimary__VariantProps = new Array(
 export const PlasmicElementRadioPrimary__ArgProps = new Array();
 
 function PlasmicElementRadioPrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -92,12 +92,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicElementRadioPrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicElementRadioPrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

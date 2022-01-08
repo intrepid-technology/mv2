@@ -25,7 +25,7 @@ export const PlasmicCityCountry__VariantProps = new Array();
 export const PlasmicCityCountry__ArgProps = new Array();
 
 function PlasmicCityCountry__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -90,12 +90,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCityCountry__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCityCountry__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -34,7 +34,7 @@ export const PlasmicTextLinkUnderlinePrimary__ArgProps = new Array(
 );
 
 function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -42,7 +42,6 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
         [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
         [sty.root__color_headline]: hasVariant(variants, "color", "headline"),
         [sty.root__color_light]: hasVariant(variants, "color", "light"),
@@ -58,6 +57,7 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
         [sty.root__color_light_size__24]:
           hasVariant(variants, "color", "light") &&
           hasVariant(variants, "size", "_24"),
+        [sty.root__color_primary]: hasVariant(variants, "color", "primary"),
         [sty.root__size__14]: hasVariant(variants, "size", "_14"),
         [sty.root__size__16]: hasVariant(variants, "size", "_16"),
         [sty.root__size__18]: hasVariant(variants, "size", "_18"),
@@ -73,18 +73,15 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent, {
+          [sty.parent__color_dark]: hasVariant(variants, "color", "dark"),
+          [sty.parent__color_primary]: hasVariant(variants, "color", "primary")
+        })}
       >
         {p.renderPlasmicSlot({
           defaultContents: "Text link",
           value: args.text,
           className: classNames(sty.slotTargetText, {
-            [sty.slotTargetText__color_brand]: hasVariant(
-              variants,
-              "color",
-              "brand"
-            ),
-
             [sty.slotTargetText__color_dark]: hasVariant(
               variants,
               "color",
@@ -115,6 +112,12 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
             [sty.slotTargetText__color_light_size__40]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_40"),
+            [sty.slotTargetText__color_primary]: hasVariant(
+              variants,
+              "color",
+              "primary"
+            ),
+
             [sty.slotTargetText__size__10]: hasVariant(variants, "size", "_10"),
             [sty.slotTargetText__size__12]: hasVariant(variants, "size", "_12"),
             [sty.slotTargetText__size__14]: hasVariant(variants, "size", "_14"),
@@ -152,12 +155,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextLinkUnderlinePrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextLinkUnderlinePrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

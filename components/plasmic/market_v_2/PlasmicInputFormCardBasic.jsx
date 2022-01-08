@@ -34,7 +34,7 @@ export const PlasmicInputFormCardBasic__ArgProps = new Array(
 );
 
 function PlasmicInputFormCardBasic__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -137,7 +137,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonPrimary___3QyVv
                 )}
-                size={"_140"}
+                width={"_140"}
               >
                 {"Delete account"}
               </ButtonPrimary>
@@ -196,12 +196,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputFormCardBasic__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputFormCardBasic__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

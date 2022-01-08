@@ -37,7 +37,7 @@ export const PlasmicPanelButtonSecondary__ArgProps = new Array(
 );
 
 function PlasmicPanelButtonSecondary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     layout: useLayout()
   });
@@ -172,12 +172,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicPanelButtonSecondary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicPanelButtonSecondary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

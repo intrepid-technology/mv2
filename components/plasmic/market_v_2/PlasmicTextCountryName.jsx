@@ -24,7 +24,7 @@ export const PlasmicTextCountryName__VariantProps = new Array();
 export const PlasmicTextCountryName__ArgProps = new Array("children");
 
 function PlasmicTextCountryName__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -54,12 +54,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTextCountryName__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTextCountryName__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

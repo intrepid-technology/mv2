@@ -107,6 +107,7 @@ export const PAGE_LAYOUT_PROPS = {
         description: 'Set your partner profile and make a great first impression'
     },
     '/dashboard': {
+        heading: 'Dashboard',
         tabs: PAGE_TAB_NAVIGATIONS[PAGE_TAB_NAVIGATION_KEY.DASHBOARD],
         breadcrumbs: [],
         scrollNavigations: [],

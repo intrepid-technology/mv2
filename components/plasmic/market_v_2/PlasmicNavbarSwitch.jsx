@@ -27,7 +27,7 @@ export const PlasmicNavbarSwitch__VariantProps = new Array("close", "size");
 export const PlasmicNavbarSwitch__ArgProps = new Array("target", "trigger");
 
 function PlasmicNavbarSwitch__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -85,12 +85,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarSwitch__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarSwitch__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

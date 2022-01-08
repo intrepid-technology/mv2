@@ -33,7 +33,7 @@ export const PlasmicSocialPlatformsSwitchInputs__VariantProps = new Array();
 export const PlasmicSocialPlatformsSwitchInputs__ArgProps = new Array();
 
 function PlasmicSocialPlatformsSwitchInputs__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -343,12 +343,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSocialPlatformsSwitchInputs__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSocialPlatformsSwitchInputs__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

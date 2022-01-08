@@ -30,7 +30,7 @@ export const PlasmicSidebarItem__ArgProps = new Array(
 );
 
 function PlasmicSidebarItem__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -99,12 +99,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSidebarItem__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSidebarItem__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

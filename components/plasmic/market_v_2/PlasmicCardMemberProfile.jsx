@@ -29,7 +29,7 @@ export const PlasmicCardMemberProfile__VariantProps = new Array("session");
 export const PlasmicCardMemberProfile__ArgProps = new Array();
 
 function PlasmicCardMemberProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -119,8 +119,8 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             "session"
           )
         })}
-        color={"brand"}
-        size={"_140"}
+        color={"primary"}
+        width={"_140"}
       >
         {hasVariant(variants, "session", "session") ? "Edit" : "Follow"}
       </ButtonPrimary>
@@ -308,12 +308,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicCardMemberProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicCardMemberProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -61,7 +61,7 @@ export const PlasmicImagePrimary__ArgProps = new Array(
 );
 
 function PlasmicImagePrimary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"parent"}
@@ -1171,12 +1171,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicImagePrimary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicImagePrimary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

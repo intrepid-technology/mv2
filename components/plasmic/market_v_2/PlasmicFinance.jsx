@@ -24,7 +24,7 @@ export const PlasmicFinance__VariantProps = new Array();
 export const PlasmicFinance__ArgProps = new Array();
 
 function PlasmicFinance__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicFinance__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicFinance__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -36,7 +36,7 @@ export const PlasmicChipUserProfile__ArgProps = new Array(
 );
 
 function PlasmicChipUserProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={p.PlasmicLink}
@@ -347,12 +347,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicChipUserProfile__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicChipUserProfile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

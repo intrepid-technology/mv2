@@ -35,7 +35,7 @@ export const PlasmicSwitchTextPlasmic__ArgProps = new Array(
 );
 
 function PlasmicSwitchTextPlasmic__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false
@@ -201,12 +201,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicSwitchTextPlasmic__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicSwitchTextPlasmic__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -25,7 +25,7 @@ export const PlasmicArrayInputFieldRow__VariantProps = new Array();
 export const PlasmicArrayInputFieldRow__ArgProps = new Array("children");
 
 function PlasmicArrayInputFieldRow__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -52,7 +52,7 @@ function PlasmicArrayInputFieldRow__RenderFunc(props) {
             data-plasmic-override={overrides.removeButton}
             className={classNames("__wab_instance", sty.removeButton)}
             color={"caution"}
-            rounded={"rounded"}
+            rounded={true}
             type={"light"}
           >
             <div
@@ -89,12 +89,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicArrayInputFieldRow__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicArrayInputFieldRow__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

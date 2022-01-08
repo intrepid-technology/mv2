@@ -25,7 +25,7 @@ export const PlasmicMultiSelectInputBox__VariantProps = new Array();
 export const PlasmicMultiSelectInputBox__ArgProps = new Array();
 
 function PlasmicMultiSelectInputBox__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -70,12 +70,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicMultiSelectInputBox__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicMultiSelectInputBox__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

@@ -29,7 +29,7 @@ export const PlasmicRadioCheckboxCard__VariantProps = new Array(
 export const PlasmicRadioCheckboxCard__ArgProps = new Array("children");
 
 function PlasmicRadioCheckboxCard__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"button"}
@@ -182,12 +182,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicRadioCheckboxCard__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicRadioCheckboxCard__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

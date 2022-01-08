@@ -30,7 +30,7 @@ export const PlasmicNavbarVertical__VariantProps = new Array(
 export const PlasmicNavbarVertical__ArgProps = new Array("linkText", "slot4");
 
 function PlasmicNavbarVertical__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <p.Stack
       as={"div"}
@@ -137,12 +137,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbarVertical__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbarVertical__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

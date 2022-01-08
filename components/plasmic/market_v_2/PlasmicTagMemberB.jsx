@@ -24,7 +24,7 @@ export const PlasmicTagMemberB__VariantProps = new Array("inset");
 export const PlasmicTagMemberB__ArgProps = new Array();
 
 function PlasmicTagMemberB__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
@@ -62,12 +62,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicTagMemberB__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicTagMemberB__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

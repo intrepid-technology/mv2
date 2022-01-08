@@ -33,36 +33,82 @@ export const PlasmicInputTextFormSecondary__ArgProps = new Array(
 );
 
 function PlasmicInputTextFormSecondary__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   return (
     <div
       data-plasmic-name={"root"}
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
+        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
+        [sty.root__size_stretch]: hasVariant(variants, "size", "stretch")
+      })}
     >
       <p.Stack
         as={"div"}
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(projectcss.all, sty.parent)}
+        className={classNames(projectcss.all, sty.parent, {
+          [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
+          [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
+          [sty.parent__size__540]: hasVariant(variants, "size", "_540"),
+          [sty.parent__size__720]: hasVariant(variants, "size", "_720"),
+          [sty.parent__size_stretch]: hasVariant(variants, "size", "stretch")
+        })}
       >
         <label
           data-plasmic-name={"headlineLabelParent"}
           data-plasmic-override={overrides.headlineLabelParent}
-          className={classNames(projectcss.all, sty.headlineLabelParent)}
+          className={classNames(projectcss.all, sty.headlineLabelParent, {
+            [sty.headlineLabelParent__size__270]: hasVariant(
+              variants,
+              "size",
+              "_270"
+            ),
+
+            [sty.headlineLabelParent__size_stretch]: hasVariant(
+              variants,
+              "size",
+              "stretch"
+            )
+          })}
         >
           <div
             data-plasmic-name={"headlineLabel"}
             data-plasmic-override={overrides.headlineLabel}
-            className={classNames(projectcss.all, sty.headlineLabel)}
+            className={classNames(projectcss.all, sty.headlineLabel, {
+              [sty.headlineLabel__size__270]: hasVariant(
+                variants,
+                "size",
+                "_270"
+              ),
+
+              [sty.headlineLabel__size_stretch]: hasVariant(
+                variants,
+                "size",
+                "stretch"
+              )
+            })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Label",
               value: args.label,
-              className: classNames(sty.slotTargetLabel)
+              className: classNames(sty.slotTargetLabel, {
+                [sty.slotTargetLabel__color_primary]: hasVariant(
+                  variants,
+                  "color",
+                  "primary"
+                ),
+
+                [sty.slotTargetLabel__size_stretch]: hasVariant(
+                  variants,
+                  "size",
+                  "stretch"
+                )
+              })
             })}
           </div>
         </label>
@@ -70,34 +116,35 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
         <InputTextPrimary
           data-plasmic-name={"inputTextPrimary"}
           data-plasmic-override={overrides.inputTextPrimary}
-          background={
-            hasVariant(variants, "color", "underlineLight")
-              ? "white"
-              : undefined
-          }
           className={classNames("__wab_instance", sty.inputTextPrimary, {
-            [sty.inputTextPrimary__color_dark]: hasVariant(
+            [sty.inputTextPrimary__color_primary]: hasVariant(
               variants,
               "color",
-              "dark"
+              "primary"
             ),
 
-            [sty.inputTextPrimary__color_light]: hasVariant(
+            [sty.inputTextPrimary__color_secondary]: hasVariant(
               variants,
               "color",
-              "light"
+              "secondary"
             ),
 
-            [sty.inputTextPrimary__color_underlineLight]: hasVariant(
+            [sty.inputTextPrimary__color_underline]: hasVariant(
               variants,
               "color",
-              "underlineLight"
+              "underline"
             ),
 
-            [sty.inputTextPrimary__color_underlinePrimary]: hasVariant(
+            [sty.inputTextPrimary__size__160]: hasVariant(
               variants,
-              "color",
-              "underlinePrimary"
+              "size",
+              "_160"
+            ),
+
+            [sty.inputTextPrimary__size__180]: hasVariant(
+              variants,
+              "size",
+              "_180"
             ),
 
             [sty.inputTextPrimary__size__270]: hasVariant(
@@ -122,26 +169,36 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
               variants,
               "size",
               "_720"
+            ),
+
+            [sty.inputTextPrimary__size_stretch]: hasVariant(
+              variants,
+              "size",
+              "stretch"
             )
           })}
           type={
-            hasVariant(variants, "color", "underlineLight")
-              ? "underline"
-              : hasVariant(variants, "color", "underlinePrimary")
-              ? "underline"
-              : hasVariant(variants, "color", "dark")
-              ? "primary"
-              : hasVariant(variants, "color", "light")
+            hasVariant(variants, "color", "secondary")
               ? "secondary"
+              : hasVariant(variants, "color", "primary")
+              ? "primary"
+              : hasVariant(variants, "color", "underline")
+              ? "underline"
               : undefined
           }
           width={
-            hasVariant(variants, "size", "_720")
+            hasVariant(variants, "size", "stretch")
+              ? "stretch"
+              : hasVariant(variants, "size", "_720")
               ? "_720"
               : hasVariant(variants, "size", "_540")
               ? "_540"
               : hasVariant(variants, "size", "_360")
               ? "_360"
+              : hasVariant(variants, "size", "_180")
+              ? "_180"
+              : hasVariant(variants, "size", "_160")
+              ? "_160"
               : "_270"
           }
         />
@@ -161,12 +218,30 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
             <div
               data-plasmic-name={"descriptionTextParent"}
               data-plasmic-override={overrides.descriptionTextParent}
-              className={classNames(projectcss.all, sty.descriptionTextParent)}
+              className={classNames(projectcss.all, sty.descriptionTextParent, {
+                [sty.descriptionTextParent__color_secondary]: hasVariant(
+                  variants,
+                  "color",
+                  "secondary"
+                )
+              })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Description",
                 value: args.description,
                 className: classNames(sty.slotTargetDescription, {
+                  [sty.slotTargetDescription__color_primary]: hasVariant(
+                    variants,
+                    "color",
+                    "primary"
+                  ),
+
+                  [sty.slotTargetDescription__color_underline]: hasVariant(
+                    variants,
+                    "color",
+                    "underline"
+                  ),
+
                   [sty.slotTargetDescription__subhead]: hasVariant(
                     variants,
                     "subhead",
@@ -218,12 +293,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicInputTextFormSecondary__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicInputTextFormSecondary__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };

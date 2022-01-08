@@ -24,14 +24,13 @@ import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
-import MenuHamburgerIcon from "./icons/PlasmicIcon__MenuHamburger"; // plasmic-import: EoyDB7Q1N/icon
 
 export const PlasmicNavbar__VariantProps = new Array("auth", "dark");
 
 export const PlasmicNavbar__ArgProps = new Array();
 
 function PlasmicNavbar__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantso9SjFZaOqjqz()
   });
@@ -49,49 +48,34 @@ function PlasmicNavbar__RenderFunc(props) {
         [sty.root__dark]: hasVariant(variants, "dark", "dark")
       })}
     >
-      <p.Stack
-        as={"div"}
-        data-plasmic-name={"brandWrapper"}
-        data-plasmic-override={overrides.brandWrapper}
-        hasGap={true}
-        className={classNames(projectcss.all, sty.brandWrapper, {
-          [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
-        })}
-      >
-        {(hasVariant(variants, "auth", "auth") ? true : false) ? (
-          <div
-            data-plasmic-name={"iconWrapper"}
-            data-plasmic-override={overrides.iconWrapper}
-            className={classNames(projectcss.all, sty.iconWrapper, {
-              [sty.iconWrapper__auth]: hasVariant(variants, "auth", "auth")
-            })}
-          >
-            <MenuHamburgerIcon
-              data-plasmic-name={"menuIcon"}
-              data-plasmic-override={overrides.menuIcon}
-              className={classNames(projectcss.all, sty.menuIcon)}
-              role={"img"}
+      {(hasVariant(variants, "auth", "auth") ? true : true) ? (
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"brandWrapper"}
+          data-plasmic-override={overrides.brandWrapper}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.brandWrapper, {
+            [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
+          })}
+        >
+          {(
+            hasVariant(variants, "auth", "auth") &&
+            hasVariant(globalVariants, "screen", "iphone678")
+              ? true
+              : hasVariant(variants, "auth", "auth") &&
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
+              ? false
+              : true
+          ) ? (
+            <NavbarLogo
+              data-plasmic-name={"navbarLogo"}
+              data-plasmic-override={overrides.navbarLogo}
+              className={classNames("__wab_instance")}
+              light={hasVariant(variants, "dark", "dark") ? true : undefined}
             />
-          </div>
-        ) : null}
-        {(
-          hasVariant(variants, "auth", "auth") &&
-          hasVariant(globalVariants, "screen", "iphone678")
-            ? true
-            : hasVariant(variants, "auth", "auth") &&
-              hasVariant(globalVariants, "screen", "iphone12ProMax")
-            ? false
-            : true
-        ) ? (
-          <NavbarLogo
-            data-plasmic-name={"navbarLogo"}
-            data-plasmic-override={overrides.navbarLogo}
-            className={classNames("__wab_instance")}
-            light={hasVariant(variants, "dark", "dark") ? "light" : undefined}
-          />
-        ) : null}
-      </p.Stack>
-
+          ) : null}
+        </p.Stack>
+      ) : null}
       {(
         hasVariant(variants, "auth", "auth")
           ? false
@@ -194,8 +178,8 @@ function PlasmicNavbar__RenderFunc(props) {
                 ? "https://intrepidventures.typeform.com/to/MthpVWrA"
                 : "https://intrepidventures.typeform.com/to/MthpVWrA"
             }
-            hasShadow={"hasShadow"}
-            rounded={"rounded"}
+            hasShadow={true}
+            rounded={true}
             type={"primary"}
           >
             <div
@@ -252,8 +236,6 @@ const PlasmicDescendants = {
   root: [
     "root",
     "brandWrapper",
-    "iconWrapper",
-    "menuIcon",
     "navbarLogo",
     "actionWrapper",
     "sellOnIntrepidButton",
@@ -264,9 +246,7 @@ const PlasmicDescendants = {
     "img"
   ],
 
-  brandWrapper: ["brandWrapper", "iconWrapper", "menuIcon", "navbarLogo"],
-  iconWrapper: ["iconWrapper", "menuIcon"],
-  menuIcon: ["menuIcon"],
+  brandWrapper: ["brandWrapper", "navbarLogo"],
   navbarLogo: ["navbarLogo"],
   actionWrapper: [
     "actionWrapper",
@@ -292,12 +272,10 @@ function makeNodeComponent(nodeName) {
       internalVariantPropNames: PlasmicNavbar__VariantProps
     });
 
-    const { dataFetches } = props;
     return PlasmicNavbar__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
@@ -315,8 +293,6 @@ export const PlasmicNavbar = Object.assign(
   {
     // Helper components rendering sub-elements
     brandWrapper: makeNodeComponent("brandWrapper"),
-    iconWrapper: makeNodeComponent("iconWrapper"),
-    menuIcon: makeNodeComponent("menuIcon"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     actionWrapper: makeNodeComponent("actionWrapper"),
     sellOnIntrepidButton: makeNodeComponent("sellOnIntrepidButton"),
