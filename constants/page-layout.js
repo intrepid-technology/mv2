@@ -39,6 +39,9 @@ export const PAGE_LAYOUT_PROPS = {
     '/': {
         noLayout: true,
     },
+    '/plasmic-host': {
+        noLayout: true,
+    },
     '/service/detail': {
         contentOnly: true,
     },
