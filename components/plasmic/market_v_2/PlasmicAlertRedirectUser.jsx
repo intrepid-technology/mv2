@@ -21,8 +21,8 @@ import {
 import TextLinkArrow from "../../TextLinkArrow"; // plasmic-import: MlCPfXGkVN/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicAlertRedirectUser.module.css"; // plasmic-import: MLcKt4EI0Y/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicAlertRedirectUser.module.css"; // plasmic-import: MLcKt4EI0Y/css
 import Icon42Icon from "./icons/PlasmicIcon__Icon42"; // plasmic-import: FJS3sBVuft/icon
 import Icon118Icon from "./icons/PlasmicIcon__Icon118"; // plasmic-import: bdrqtZUAe/icon
 

@@ -20,8 +20,8 @@ import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJK
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputFormCardMembership.module.css"; // plasmic-import: xaA58X6UG1B/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputFormCardMembership.module.css"; // plasmic-import: xaA58X6UG1B/css
 
 export const PlasmicInputFormCardMembership__VariantProps = new Array(
   "link",

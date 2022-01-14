@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarMemberEdit.module.css"; // plasmic-import: oTyBGj7jMRD/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarMemberEdit.module.css"; // plasmic-import: oTyBGj7jMRD/css
 
 export const PlasmicNavbarMemberEdit__VariantProps = new Array(
   "navItems",

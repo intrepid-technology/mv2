@@ -22,8 +22,8 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionConfirmEmail.module.css"; // plasmic-import: JvAgiFRYLj/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionConfirmEmail.module.css"; // plasmic-import: JvAgiFRYLj/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
 import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic-import: UzRMlTHWYLl/icon
 

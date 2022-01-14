@@ -25,8 +25,8 @@ import Tab from "../../Tab"; // plasmic-import: tCiyOEgIeVL/component
 import PageScrollNavigations from "../../PageScrollNavigations"; // plasmic-import: 4xruSD_IDH/component
 import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
 
 export const PlasmicLayout__VariantProps = new Array("contentOnly");

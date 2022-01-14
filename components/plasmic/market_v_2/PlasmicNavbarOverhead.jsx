@@ -20,8 +20,8 @@ import {
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarOverhead.module.css"; // plasmic-import: 3cGFR-AqsO/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarOverhead.module.css"; // plasmic-import: 3cGFR-AqsO/css
 
 export const PlasmicNavbarOverhead__VariantProps = new Array("colors");
 

@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicIconStripeLogo.module.css"; // plasmic-import: tq01IF7a70/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicIconStripeLogo.module.css"; // plasmic-import: tq01IF7a70/css
 import StripeWordmarkSlatesvgIcon from "./icons/PlasmicIcon__StripeWordmarkSlatesvg"; // plasmic-import: vDvy1Uh-W/icon
 
 export const PlasmicIconStripeLogo__VariantProps = new Array("size", "color");

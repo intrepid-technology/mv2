@@ -18,7 +18,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionMemberProfileHero from "../../SectionMemberProfileHero"; // plasmic-import: Q-O9AS-Maj_/component
 import NavbarMemberUserProfile from "../../NavbarMemberUserProfile"; // plasmic-import: pRIPzCF9OFR/component
 import ElementProfileAbout from "../../ElementProfileAbout"; // plasmic-import: fNbAgFgAmx/component
@@ -28,34 +27,25 @@ import ElementMemberProfileConnections from "../../ElementMemberProfileConnectio
 import ElementProfileAttributes from "../../ElementProfileAttributes"; // plasmic-import: D0kbF0YbT67/component
 import ElementProfileSocial from "../../ElementProfileSocial"; // plasmic-import: jeCDVKO8R8/component
 import ElementMemberProfileCarousell from "../../ElementMemberProfileCarousell"; // plasmic-import: Ip2eQQfcFG/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMemberProfile.module.css"; // plasmic-import: e8lIZWZoxX/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMemberprofile.module.css"; // plasmic-import: e8lIZWZoxX/css
 
-export const PlasmicMemberProfile__VariantProps = new Array();
+export const PlasmicMemberprofile__VariantProps = new Array();
 
-export const PlasmicMemberProfile__ArgProps = new Array();
+export const PlasmicMemberprofile__ArgProps = new Array();
 
-function PlasmicMemberProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+function PlasmicMemberprofile__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -64,40 +54,22 @@ function PlasmicMemberProfile__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? true
-              : true
-          ) ? (
-            <NavbarInternal
-              data-plasmic-name={"navbarInternal"}
-              data-plasmic-override={overrides.navbarInternal}
-              className={classNames("__wab_instance", sty.navbarInternal)}
-              user={
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
-                  ? "member"
-                  : undefined
-              }
-            />
-          ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -111,9 +83,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
             />
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -126,20 +98,18 @@ function PlasmicMemberProfile__RenderFunc(props) {
               )}
             />
           ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "desktopPrimary") ? true : true
-          ) ? (
+          {(hasVariant(globalVariants, "screen", "desktop") ? true : true) ? (
             <p.Stack
               as={"div"}
               data-plasmic-name={"sectionAboutDetails"}
               data-plasmic-override={overrides.sectionAboutDetails}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.sectionAboutDetails)}
+              className={classNames(projectcss.all, sty.sectionAboutDetails)}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -153,9 +123,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
                 />
               ) : null}
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -177,7 +147,7 @@ function PlasmicMemberProfile__RenderFunc(props) {
             data-plasmic-override={overrides.memberTeamConnectionsSection}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
+              projectcss.all,
               sty.memberTeamConnectionsSection
             )}
           >
@@ -206,14 +176,14 @@ function PlasmicMemberProfile__RenderFunc(props) {
             data-plasmic-override={overrides.sectionMemberProfileIndustrySocial}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
+              projectcss.all,
               sty.sectionMemberProfileIndustrySocial
             )}
           >
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : false
             ) ? (
@@ -227,9 +197,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
               />
             ) : null}
             {(
-              hasVariant(globalVariants, "screen", "mobileAPrimary")
+              hasVariant(globalVariants, "screen", "iphone12ProMax")
                 ? true
-                : hasVariant(globalVariants, "screen", "desktopPrimary")
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? true
                 : false
             ) ? (
@@ -245,9 +215,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -259,14 +229,14 @@ function PlasmicMemberProfile__RenderFunc(props) {
               }
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.sectionProfileMemberSimilarMembers
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -276,9 +246,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell___8FDrq
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Similar members"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Similar members"
                       : "Headline label"
                   }
@@ -287,9 +257,9 @@ function PlasmicMemberProfile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -301,14 +271,14 @@ function PlasmicMemberProfile__RenderFunc(props) {
               }
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.sectionProfileMemberPeopleAlsoViewed
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileAPrimary")
+                hasVariant(globalVariants, "screen", "iphone12ProMax")
                   ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
+                  : hasVariant(globalVariants, "screen", "desktop")
                   ? true
                   : false
               ) ? (
@@ -318,28 +288,15 @@ function PlasmicMemberProfile__RenderFunc(props) {
                     sty.elementMemberProfileCarousell__v7Zdc
                   )}
                   headlineLabel={
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "People also viewed"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "People also viewed"
                       : "Headline label"
                   }
                 />
               ) : null}
             </p.Stack>
-          ) : null}
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? true
-              : true
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
           ) : null}
         </div>
       </div>
@@ -350,7 +307,6 @@ function PlasmicMemberProfile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionMemberProfileHero",
     "navbarMemberUserProfile",
     "sectionAboutDetails",
@@ -363,11 +319,9 @@ const PlasmicDescendants = {
     "elementProfileAttributes",
     "elementProfileSocial",
     "sectionProfileMemberSimilarMembers",
-    "sectionProfileMemberPeopleAlsoViewed",
-    "footerB"
+    "sectionProfileMemberPeopleAlsoViewed"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionMemberProfileHero: ["sectionMemberProfileHero"],
   navbarMemberUserProfile: ["navbarMemberUserProfile"],
   sectionAboutDetails: [
@@ -395,11 +349,7 @@ const PlasmicDescendants = {
   elementProfileAttributes: ["elementProfileAttributes"],
   elementProfileSocial: ["elementProfileSocial"],
   sectionProfileMemberSimilarMembers: ["sectionProfileMemberSimilarMembers"],
-  sectionProfileMemberPeopleAlsoViewed: [
-    "sectionProfileMemberPeopleAlsoViewed"
-  ],
-
-  footerB: ["footerB"]
+  sectionProfileMemberPeopleAlsoViewed: ["sectionProfileMemberPeopleAlsoViewed"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -407,33 +357,30 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicMemberProfile__ArgProps,
-      internalVariantPropNames: PlasmicMemberProfile__VariantProps
+      internalArgPropNames: PlasmicMemberprofile__ArgProps,
+      internalVariantPropNames: PlasmicMemberprofile__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicMemberProfile__RenderFunc({
+    return PlasmicMemberprofile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicMemberProfile";
+    func.displayName = "PlasmicMemberprofile";
   } else {
-    func.displayName = `PlasmicMemberProfile.${nodeName}`;
+    func.displayName = `PlasmicMemberprofile.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicMemberProfile = Object.assign(
-  // Top-level PlasmicMemberProfile renders the root element
+export const PlasmicMemberprofile = Object.assign(
+  // Top-level PlasmicMemberprofile renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionMemberProfileHero: makeNodeComponent("sectionMemberProfileHero"),
     navbarMemberUserProfile: makeNodeComponent("navbarMemberUserProfile"),
     sectionAboutDetails: makeNodeComponent("sectionAboutDetails"),
@@ -468,12 +415,11 @@ export const PlasmicMemberProfile = Object.assign(
       "sectionProfileMemberPeopleAlsoViewed"
     ),
 
-    footerB: makeNodeComponent("footerB"),
-    // Metadata about props expected for PlasmicMemberProfile
-    internalVariantProps: PlasmicMemberProfile__VariantProps,
-    internalArgProps: PlasmicMemberProfile__ArgProps
+    // Metadata about props expected for PlasmicMemberprofile
+    internalVariantProps: PlasmicMemberprofile__VariantProps,
+    internalArgProps: PlasmicMemberprofile__ArgProps
   }
 );
 
-export default PlasmicMemberProfile;
+export default PlasmicMemberprofile;
 /* prettier-ignore-end */

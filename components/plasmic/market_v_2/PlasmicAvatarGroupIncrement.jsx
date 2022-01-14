@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicAvatarGroupIncrement.module.css"; // plasmic-import: 8w7pyy9EQG8/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicAvatarGroupIncrement.module.css"; // plasmic-import: 8w7pyy9EQG8/css
 
 export const PlasmicAvatarGroupIncrement__VariantProps = new Array();
 

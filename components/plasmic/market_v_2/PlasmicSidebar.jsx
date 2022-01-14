@@ -22,8 +22,8 @@ import PanelMember from "../../PanelMember"; // plasmic-import: ouYaxX0ZfJN/comp
 import PanelPartner from "../../PanelPartner"; // plasmic-import: 0x12FzmUo9P/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSidebar.module.css"; // plasmic-import: WJhSPQRdlH/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSidebar.module.css"; // plasmic-import: WJhSPQRdlH/css
 import Icon113Icon from "./icons/PlasmicIcon__Icon113"; // plasmic-import: Bb_iW3yqSt/icon
 
 export const PlasmicSidebar__VariantProps = new Array();

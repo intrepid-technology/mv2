@@ -20,8 +20,8 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import MarketUserProfile from "../../MarketUserProfile"; // plasmic-import: Kq0Npq6HpD/component
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMarket.module.css"; // plasmic-import: CqX-cwjNXm/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMarket.module.css"; // plasmic-import: CqX-cwjNXm/css
 
 export const PlasmicMarket__VariantProps = new Array();
 

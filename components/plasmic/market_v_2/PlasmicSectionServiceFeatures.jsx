@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import RadioCheckboxCard from "../../RadioCheckboxCard"; // plasmic-import: TRRmUa9KEQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionServiceFeatures.module.css"; // plasmic-import: Ulc7rzEWW6/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionServiceFeatures.module.css"; // plasmic-import: Ulc7rzEWW6/css
 
 export const PlasmicSectionServiceFeatures__VariantProps = new Array(
   "breadcrumbs",

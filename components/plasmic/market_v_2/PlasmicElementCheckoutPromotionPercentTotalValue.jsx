@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicElementCheckoutPromotionPercentTotalValue.module.css"; // plasmic-import: v-uWcZLOPTn/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicElementCheckoutPromotionPercentTotalValue.module.css"; // plasmic-import: v-uWcZLOPTn/css
 
 export const PlasmicElementCheckoutPromotionPercentTotalValue__VariantProps =
   new Array();

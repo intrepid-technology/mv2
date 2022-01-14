@@ -22,8 +22,8 @@ import SelectDropdownPrimary from "../../SelectDropdownPrimary"; // plasmic-impo
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTableUserAdminRecord.module.css"; // plasmic-import: _aYcl8sdexe/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTableUserAdminRecord.module.css"; // plasmic-import: _aYcl8sdexe/css
 
 export const PlasmicTableUserAdminRecord__VariantProps = new Array("action");
 

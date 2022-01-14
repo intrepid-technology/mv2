@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import SelectInput from "../../SelectInput"; // plasmic-import: 6gReGypE5kO/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSelectDateDropdownPrimary.module.css"; // plasmic-import: nAfvX1r8paZ/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSelectDateDropdownPrimary.module.css"; // plasmic-import: nAfvX1r8paZ/css
 
 export const PlasmicSelectDateDropdownPrimary__VariantProps = new Array(
   "label",

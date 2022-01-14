@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import IconStripeLogo from "../../IconStripeLogo"; // plasmic-import: tq01IF7a70/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonStripeVerification.module.css"; // plasmic-import: GEqD9diS3J/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonStripeVerification.module.css"; // plasmic-import: GEqD9diS3J/css
 import IdVerificationIcon from "./icons/PlasmicIcon__IdVerification"; // plasmic-import: b3T1tA8bk/icon
 
 export const PlasmicButtonStripeVerification__VariantProps = new Array(

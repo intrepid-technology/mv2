@@ -25,8 +25,8 @@ import CardAnalyticsPrimary from "../../CardAnalyticsPrimary"; // plasmic-import
 import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPartnerperformance.module.css"; // plasmic-import: RQdHhTD_vq/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPartnerperformance.module.css"; // plasmic-import: RQdHhTD_vq/css
 import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
 import StarRatingIcon from "./icons/PlasmicIcon__StarRating"; // plasmic-import: yUIWRAMNFw/icon
 import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon

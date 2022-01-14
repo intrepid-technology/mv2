@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicRadioTextInputSecondary.module.css"; // plasmic-import: lPMI0mqyoq/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicRadioTextInputSecondary.module.css"; // plasmic-import: lPMI0mqyoq/css
 
 export const PlasmicRadioTextInputSecondary__VariantProps = new Array("size");
 

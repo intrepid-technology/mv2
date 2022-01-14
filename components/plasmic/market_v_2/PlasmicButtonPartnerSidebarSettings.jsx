@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonPartnerSidebarSettings.module.css"; // plasmic-import: wdhcheOkaT/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonPartnerSidebarSettings.module.css"; // plasmic-import: wdhcheOkaT/css
 import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 
 export const PlasmicButtonPartnerSidebarSettings__VariantProps = new Array();

@@ -28,8 +28,8 @@ import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicEditteamsettings.module.css"; // plasmic-import: QudhNCOa_Ua/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicEditteamsettings.module.css"; // plasmic-import: QudhNCOa_Ua/css
 import XerosvgIcon from "./icons/PlasmicIcon__Xerosvg"; // plasmic-import: X-HNuuBXHS/icon
 import Icons8QuickbookssvgIcon from "./icons/PlasmicIcon__Icons8Quickbookssvg"; // plasmic-import: raCIX8pOF/icon
 

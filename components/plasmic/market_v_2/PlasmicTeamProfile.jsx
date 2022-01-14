@@ -19,7 +19,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import SectionTeamProfileHero from "../../SectionTeamProfileHero"; // plasmic-import: HxQLFVQnwjF/component
 import NavbarTeamUserProfile from "../../NavbarTeamUserProfile"; // plasmic-import: 6HzrYVr_1ZK/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
@@ -30,38 +29,29 @@ import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/compo
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import IconSocialProfile from "../../IconSocialProfile"; // plasmic-import: IC5nyjlnco/component
 import CardUserprofile from "../../CardUserprofile"; // plasmic-import: 0on5_Y1mrei/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTeamProfile.module.css"; // plasmic-import: YFaZRbHjmq/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTeamprofile.module.css"; // plasmic-import: YFaZRbHjmq/css
 import LocationBIcon from "./icons/PlasmicIcon__LocationB"; // plasmic-import: YysIQ6TyFi/icon
 import LocationIcon from "./icons/PlasmicIcon__Location"; // plasmic-import: XbuUvkV9FO/icon
 import LanguagesIcon from "./icons/PlasmicIcon__Languages"; // plasmic-import: pqMRsl-YpM/icon
 import UserIdIcon from "./icons/PlasmicIcon__UserId"; // plasmic-import: WpmSmHLAP5/icon
 
-export const PlasmicTeamProfile__VariantProps = new Array();
+export const PlasmicTeamprofile__VariantProps = new Array();
 
-export const PlasmicTeamProfile__ArgProps = new Array();
+export const PlasmicTeamprofile__ArgProps = new Array();
 
-function PlasmicTeamProfile__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+function PlasmicTeamprofile__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -70,24 +60,18 @@ function PlasmicTeamProfile__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <SectionTeamProfileHero
             data-plasmic-name={"sectionTeamProfileHero"}
             data-plasmic-override={overrides.sectionTeamProfileHero}
@@ -99,7 +83,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
             data-plasmic-override={overrides.navbarTeamUserProfile}
             className={classNames("__wab_instance", sty.navbarTeamUserProfile)}
             selected={
-              hasVariant(globalVariants, "screen", "desktopPrimary")
+              hasVariant(globalVariants, "screen", "desktop")
                 ? "about"
                 : undefined
             }
@@ -110,25 +94,25 @@ function PlasmicTeamProfile__RenderFunc(props) {
             data-plasmic-name={"teamAboutInfoSection"}
             data-plasmic-override={overrides.teamAboutInfoSection}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.teamAboutInfoSection)}
+            className={classNames(projectcss.all, sty.teamAboutInfoSection)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"profileAboutParent"}
               data-plasmic-override={overrides.profileAboutParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.profileAboutParent)}
+              className={classNames(projectcss.all, sty.profileAboutParent)}
             >
               <div
                 data-plasmic-name={"about"}
                 data-plasmic-override={overrides.about}
-                className={classNames(defaultcss.all, sty.about)}
+                className={classNames(projectcss.all, sty.about)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__aG0Ne
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__aG0Ne
                   )}
                 >
                   {"About"}
@@ -138,14 +122,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
               <div
                 data-plasmic-name={"textParent"}
                 data-plasmic-override={overrides.textParent}
-                className={classNames(defaultcss.all, sty.textParent)}
+                className={classNames(projectcss.all, sty.textParent)}
               >
                 <div
                   data-plasmic-name={"text170Characters"}
                   data-plasmic-override={overrides.text170Characters}
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.all,
+                    projectcss.__wab_text,
                     sty.text170Characters
                   )}
                 >
@@ -161,18 +145,18 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-name={"profileCommunityParent"}
               data-plasmic-override={overrides.profileCommunityParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.profileCommunityParent)}
+              className={classNames(projectcss.all, sty.profileCommunityParent)}
             >
               <div
                 data-plasmic-name={"community"}
                 data-plasmic-override={overrides.community}
-                className={classNames(defaultcss.all, sty.community)}
+                className={classNames(projectcss.all, sty.community)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__gJOqe
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gJOqe
                   )}
                 >
                   {"Community"}
@@ -184,21 +168,21 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"statsParent"}
                 data-plasmic-override={overrides.statsParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.statsParent)}
+                className={classNames(projectcss.all, sty.statsParent)}
               >
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"memberStatParent"}
                   data-plasmic-override={overrides.memberStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.memberStatParent)}
+                  className={classNames(projectcss.all, sty.memberStatParent)}
                 >
                   <div
                     data-plasmic-name={"memberNumberCount"}
                     data-plasmic-override={overrides.memberNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.memberNumberCount
                     )}
                   >
@@ -207,14 +191,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__qBBbj
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__qBBbj
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? "Subscribers"
-                      : hasVariant(globalVariants, "screen", "desktopPrimary")
+                      : hasVariant(globalVariants, "screen", "desktop")
                       ? "Subscribers"
                       : "Members"}
                   </div>
@@ -225,14 +209,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"partnerStatParent"}
                   data-plasmic-override={overrides.partnerStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.partnerStatParent)}
+                  className={classNames(projectcss.all, sty.partnerStatParent)}
                 >
                   <div
                     data-plasmic-name={"partnerNumberCount"}
                     data-plasmic-override={overrides.partnerNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.partnerNumberCount
                     )}
                   >
@@ -241,12 +225,12 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__logCa
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__logCa
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktopPrimary")
+                    {hasVariant(globalVariants, "screen", "desktop")
                       ? "Connections"
                       : "Partners"}
                   </div>
@@ -258,7 +242,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.followersStatParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.followersStatParent
                   )}
                 >
@@ -266,8 +250,8 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"followingNumberCount"}
                     data-plasmic-override={overrides.followingNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.followingNumberCount
                     )}
                   >
@@ -276,9 +260,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__y1Tms
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__y1Tms
                     )}
                   >
                     {"Followers"}
@@ -290,14 +274,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"viewsStatParent"}
                   data-plasmic-override={overrides.viewsStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.viewsStatParent)}
+                  className={classNames(projectcss.all, sty.viewsStatParent)}
                 >
                   <div
                     data-plasmic-name={"viewsNumberCount"}
                     data-plasmic-override={overrides.viewsNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.viewsNumberCount
                     )}
                   >
@@ -306,9 +290,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__miuE
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__miuE
                     )}
                   >
                     {"Views"}
@@ -320,14 +304,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"reactsStatParent"}
                   data-plasmic-override={overrides.reactsStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.reactsStatParent)}
+                  className={classNames(projectcss.all, sty.reactsStatParent)}
                 >
                   <div
                     data-plasmic-name={"reactsNumberCount"}
                     data-plasmic-override={overrides.reactsNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.reactsNumberCount
                     )}
                   >
@@ -336,9 +320,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__cY2Un
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cY2Un
                     )}
                   >
                     {"Reacts"}
@@ -350,14 +334,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"savesStatParent"}
                   data-plasmic-override={overrides.savesStatParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.savesStatParent)}
+                  className={classNames(projectcss.all, sty.savesStatParent)}
                 >
                   <div
                     data-plasmic-name={"savesNumberCount"}
                     data-plasmic-override={overrides.savesNumberCount}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.savesNumberCount
                     )}
                   >
@@ -366,9 +350,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___01TDu
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___01TDu
                     )}
                   >
                     {"Saves"}
@@ -383,25 +367,25 @@ function PlasmicTeamProfile__RenderFunc(props) {
             data-plasmic-name={"teamTeamCommunitySection"}
             data-plasmic-override={overrides.teamTeamCommunitySection}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.teamTeamCommunitySection)}
+            className={classNames(projectcss.all, sty.teamTeamCommunitySection)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"profileTeamParent"}
               data-plasmic-override={overrides.profileTeamParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.profileTeamParent)}
+              className={classNames(projectcss.all, sty.profileTeamParent)}
             >
               <div
                 data-plasmic-name={"team"}
                 data-plasmic-override={overrides.team}
-                className={classNames(defaultcss.all, sty.team)}
+                className={classNames(projectcss.all, sty.team)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__koEg
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__koEg
                   )}
                 >
                   {"Team"}
@@ -413,7 +397,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"teamMemberparent"}
                 data-plasmic-override={overrides.teamMemberparent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.teamMemberparent)}
+                className={classNames(projectcss.all, sty.teamMemberparent)}
               >
                 <UserAvatar
                   className={classNames(
@@ -500,22 +484,22 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"linkTeamViewAllParent"}
                 data-plasmic-override={overrides.linkTeamViewAllParent}
                 className={classNames(
-                  defaultcss.all,
+                  projectcss.all,
                   sty.linkTeamViewAllParent
                 )}
               >
                 <p.PlasmicLink
                   data-plasmic-name={"linkTeamViewAll"}
                   data-plasmic-override={overrides.linkTeamViewAll}
-                  className={classNames(defaultcss.all, sty.linkTeamViewAll)}
+                  className={classNames(projectcss.a, sty.linkTeamViewAll)}
                   component={Link}
                   platform={"nextjs"}
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__a24Vi
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__a24Vi
                     )}
                   >
                     {"View all team members"}
@@ -530,23 +514,23 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-override={overrides.profileInformationParent}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.profileInformationParent
               )}
             >
-              <div className={classNames(defaultcss.all, sty.box__c8D3F)}>
+              <div className={classNames(projectcss.all, sty.freeBox__c8D3F)}>
                 <div
                   data-plasmic-name={"details"}
                   data-plasmic-override={overrides.details}
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.all,
+                    projectcss.__wab_text,
                     sty.details
                   )}
                 >
-                  {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  {hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "Details"
-                    : hasVariant(globalVariants, "screen", "desktopPrimary")
+                    : hasVariant(globalVariants, "screen", "desktop")
                     ? "Details"
                     : "Information"}
                 </div>
@@ -557,28 +541,32 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"textParent5"}
                 data-plasmic-override={overrides.textParent5}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.textParent5)}
+                className={classNames(projectcss.all, sty.textParent5)}
               >
                 <p.Stack
                   as={"div"}
                   data-plasmic-name={"memberBadges"}
                   data-plasmic-override={overrides.memberBadges}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.memberBadges)}
+                  className={classNames(projectcss.all, sty.memberBadges)}
                 >
                   <BadgeVerification
                     data-plasmic-name={"badgeVerification"}
                     data-plasmic-override={overrides.badgeVerification}
                   />
 
-                  <div className={classNames(defaultcss.all, sty.box__dfrvL)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__dfrvL)}
+                  >
                     <TagPartnerD
                       data-plasmic-name={"tagPartnerD"}
                       data-plasmic-override={overrides.tagPartnerD}
                     />
                   </div>
 
-                  <div className={classNames(defaultcss.all, sty.box__g8BOl)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__g8BOl)}
+                  >
                     <RatingDisplayDetail
                       data-plasmic-name={"ratingDisplayDetail"}
                       data-plasmic-override={overrides.ratingDisplayDetail}
@@ -592,7 +580,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.locationCityCountry}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.locationCityCountry
                   )}
                 >
@@ -607,11 +595,11 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         data-plasmic-name={"svgIcon3"}
                         data-plasmic-override={overrides.svgIcon3}
                         PlasmicIconType={
-                          hasVariant(globalVariants, "screen", "desktopPrimary")
+                          hasVariant(globalVariants, "screen", "desktop")
                             ? LocationIcon
                             : LocationBIcon
                         }
-                        className={classNames(defaultcss.all, sty.svgIcon3)}
+                        className={classNames(projectcss.all, sty.svgIcon3)}
                         role={"img"}
                       />
                     }
@@ -622,18 +610,18 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"location2"}
                     data-plasmic-override={overrides.location2}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.location2)}
+                    className={classNames(projectcss.all, sty.location2)}
                   >
                     <div
                       data-plasmic-name={"cityText2"}
                       data-plasmic-override={overrides.cityText2}
-                      className={classNames(defaultcss.all, sty.cityText2)}
+                      className={classNames(projectcss.all, sty.cityText2)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__et0L5
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__et0L5
                         )}
                       >
                         {"cityName"}
@@ -641,9 +629,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
 
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__nbW2C
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__nbW2C
                         )}
                       >
                         {","}
@@ -653,13 +641,13 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     <div
                       data-plasmic-name={"countryText"}
                       data-plasmic-override={overrides.countryText}
-                      className={classNames(defaultcss.all, sty.countryText)}
+                      className={classNames(projectcss.all, sty.countryText)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__hetsf
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__hetsf
                         )}
                       >
                         {"countryName"}
@@ -673,7 +661,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"languagesAb"}
                   data-plasmic-override={overrides.languagesAb}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.languagesAb)}
+                  className={classNames(projectcss.all, sty.languagesAb)}
                 >
                   <IconPrimary
                     className={classNames(
@@ -685,7 +673,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       <LanguagesIcon
                         data-plasmic-name={"svgIcon21"}
                         data-plasmic-override={overrides.svgIcon21}
-                        className={classNames(defaultcss.all, sty.svgIcon21)}
+                        className={classNames(projectcss.all, sty.svgIcon21)}
                         role={"img"}
                       />
                     }
@@ -696,18 +684,18 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"languageParent"}
                     data-plasmic-override={overrides.languageParent}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.languageParent)}
+                    className={classNames(projectcss.all, sty.languageParent)}
                   >
                     <div
                       data-plasmic-name={"languageA"}
                       data-plasmic-override={overrides.languageA}
-                      className={classNames(defaultcss.all, sty.languageA)}
+                      className={classNames(projectcss.all, sty.languageA)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__n0V9G
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__n0V9G
                         )}
                       >
                         {"languageA"}
@@ -717,13 +705,13 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     <div
                       data-plasmic-name={"languageB"}
                       data-plasmic-override={overrides.languageB}
-                      className={classNames(defaultcss.all, sty.languageB)}
+                      className={classNames(projectcss.all, sty.languageB)}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__dLp3Z
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__dLp3Z
                         )}
                       >
                         {"languageB"}
@@ -738,7 +726,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.membershipDateTimestamp}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.membershipDateTimestamp
                   )}
                 >
@@ -752,7 +740,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       <UserIdIcon
                         data-plasmic-name={"svgIcon20"}
                         data-plasmic-override={overrides.svgIcon20}
-                        className={classNames(defaultcss.all, sty.svgIcon20)}
+                        className={classNames(projectcss.all, sty.svgIcon20)}
                         role={"img"}
                       />
                     }
@@ -763,21 +751,21 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"membershipParent"}
                     data-plasmic-override={overrides.membershipParent}
                     hasGap={true}
-                    className={classNames(defaultcss.all, sty.membershipParent)}
+                    className={classNames(projectcss.all, sty.membershipParent)}
                   >
                     <div
                       data-plasmic-name={"memberTextLabel"}
                       data-plasmic-override={overrides.memberTextLabel}
                       className={classNames(
-                        defaultcss.all,
+                        projectcss.all,
                         sty.memberTextLabel
                       )}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__m3Nuh
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__m3Nuh
                         )}
                       >
                         {"Member since"}
@@ -788,15 +776,15 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       data-plasmic-name={"dateTimestampParent"}
                       data-plasmic-override={overrides.dateTimestampParent}
                       className={classNames(
-                        defaultcss.all,
+                        projectcss.all,
                         sty.dateTimestampParent
                       )}
                     >
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__k9G5V
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__k9G5V
                         )}
                       >
                         {"[dateTimestamp]"}
@@ -814,7 +802,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
             data-plasmic-override={overrides.teamIndustrySocialSection}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
+              projectcss.all,
               sty.teamIndustrySocialSection
             )}
           >
@@ -824,7 +812,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-override={overrides.companyAttributesParent}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.companyAttributesParent
               )}
             >
@@ -834,17 +822,17 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-override={overrides.profileIndustryParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
+                  projectcss.all,
                   sty.profileIndustryParent
                 )}
               >
-                <div className={classNames(defaultcss.all, sty.box__otHAs)}>
+                <div className={classNames(projectcss.all, sty.freeBox__otHAs)}>
                   <div
                     data-plasmic-name={"industry"}
                     data-plasmic-override={overrides.industry}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.industry
                     )}
                   >
@@ -857,7 +845,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"textParent6"}
                   data-plasmic-override={overrides.textParent6}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.textParent6)}
+                  className={classNames(projectcss.all, sty.textParent6)}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -885,17 +873,17 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-override={overrides.profileCategoriesParent}
                 hasGap={true}
                 className={classNames(
-                  defaultcss.all,
+                  projectcss.all,
                   sty.profileCategoriesParent
                 )}
               >
-                <div className={classNames(defaultcss.all, sty.box__nhMzU)}>
+                <div className={classNames(projectcss.all, sty.freeBox__nhMzU)}>
                   <div
                     data-plasmic-name={"categories"}
                     data-plasmic-override={overrides.categories}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.categories
                     )}
                   >
@@ -909,7 +897,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.categoryBadgeParent}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.categoryBadgeParent
                   )}
                 >
@@ -947,19 +935,19 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"profileSkillsParent"}
                 data-plasmic-override={overrides.profileSkillsParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.profileSkillsParent)}
+                className={classNames(projectcss.all, sty.profileSkillsParent)}
               >
                 <div
                   data-plasmic-name={"skillsTextparent"}
                   data-plasmic-override={overrides.skillsTextparent}
-                  className={classNames(defaultcss.all, sty.skillsTextparent)}
+                  className={classNames(projectcss.all, sty.skillsTextparent)}
                 >
                   <div
                     data-plasmic-name={"skills"}
                     data-plasmic-override={overrides.skills}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.skills
                     )}
                   >
@@ -972,7 +960,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-name={"skillsBadgeParent"}
                   data-plasmic-override={overrides.skillsBadgeParent}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.skillsBadgeParent)}
+                  className={classNames(projectcss.all, sty.skillsBadgeParent)}
                 >
                   <ChipBadgeDisplay
                     className={classNames(
@@ -1027,15 +1015,15 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-name={"profileSocialParent"}
               data-plasmic-override={overrides.profileSocialParent}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.profileSocialParent)}
+              className={classNames(projectcss.all, sty.profileSocialParent)}
             >
-              <div className={classNames(defaultcss.all, sty.box__wBcDc)}>
+              <div className={classNames(projectcss.all, sty.freeBox__wBcDc)}>
                 <div
                   data-plasmic-name={"social"}
                   data-plasmic-override={overrides.social}
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
+                    projectcss.all,
+                    projectcss.__wab_text,
                     sty.social
                   )}
                 >
@@ -1048,7 +1036,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                 data-plasmic-name={"socialIconsParent"}
                 data-plasmic-override={overrides.socialIconsParent}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.socialIconsParent)}
+                className={classNames(projectcss.all, sty.socialIconsParent)}
               >
                 <IconSocialProfile
                   className={classNames(
@@ -1134,11 +1122,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
           </p.Stack>
 
           {(
-            hasVariant(globalVariants, "screen", "mobileBSecondary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : false
           ) ? (
@@ -1148,16 +1134,12 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-override={overrides.sectionPartnerSimilarPartners}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.sectionPartnerSimilarPartners
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
-                  ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <p.Stack
                   as={"div"}
@@ -1165,7 +1147,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.profileTeamCarousellParentB}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.profileTeamCarousellParentB
                   )}
                 >
@@ -1173,27 +1155,27 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"headlineMembersAlsoViewed2"}
                     data-plasmic-override={overrides.headlineMembersAlsoViewed2}
                     className={classNames(
-                      defaultcss.all,
+                      projectcss.all,
                       sty.headlineMembersAlsoViewed2
                     )}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__sb7Pn
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__sb7Pn
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      {hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Similar partners"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "Similar Partners"
                         : "Team"}
                     </div>
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (
@@ -1203,18 +1185,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       data-plasmic-override={overrides.similarPartnersparenT}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
+                        projectcss.all,
                         sty.similarPartnersparenT
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1226,13 +1204,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1244,13 +1218,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1262,13 +1232,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1280,13 +1246,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1304,11 +1266,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
             </p.Stack>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "mobileBSecondary")
+            hasVariant(globalVariants, "screen", "iphone12ProMax")
               ? true
-              : hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
+              : hasVariant(globalVariants, "screen", "desktop")
               ? true
               : true
           ) ? (
@@ -1318,16 +1278,12 @@ function PlasmicTeamProfile__RenderFunc(props) {
               data-plasmic-override={overrides.sectionPartnerAlsoViewed}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.sectionPartnerAlsoViewed
               )}
             >
               {(
-                hasVariant(globalVariants, "screen", "mobileBSecondary")
-                  ? true
-                  : hasVariant(globalVariants, "screen", "desktopPrimary")
-                  ? true
-                  : true
+                hasVariant(globalVariants, "screen", "desktop") ? true : true
               ) ? (
                 <p.Stack
                   as={"div"}
@@ -1335,7 +1291,7 @@ function PlasmicTeamProfile__RenderFunc(props) {
                   data-plasmic-override={overrides.profileTeamCarousellParentA}
                   hasGap={true}
                   className={classNames(
-                    defaultcss.all,
+                    projectcss.all,
                     sty.profileTeamCarousellParentA
                   )}
                 >
@@ -1343,27 +1299,27 @@ function PlasmicTeamProfile__RenderFunc(props) {
                     data-plasmic-name={"headlineMembersAlsoViewed"}
                     data-plasmic-override={overrides.headlineMembersAlsoViewed}
                     className={classNames(
-                      defaultcss.all,
+                      projectcss.all,
                       sty.headlineMembersAlsoViewed
                     )}
                   >
                     <div
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__niux4
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__niux4
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileAPrimary")
+                      {hasVariant(globalVariants, "screen", "iphone12ProMax")
                         ? "Members also viewed"
-                        : hasVariant(globalVariants, "screen", "desktopPrimary")
+                        : hasVariant(globalVariants, "screen", "desktop")
                         ? "Members also viewed"
                         : "Team"}
                     </div>
                   </div>
 
                   {(
-                    hasVariant(globalVariants, "screen", "mobileAPrimary")
+                    hasVariant(globalVariants, "screen", "iphone12ProMax")
                       ? true
                       : true
                   ) ? (
@@ -1373,18 +1329,14 @@ function PlasmicTeamProfile__RenderFunc(props) {
                       data-plasmic-override={overrides.alsoViewedParent}
                       hasGap={true}
                       className={classNames(
-                        defaultcss.all,
+                        projectcss.all,
                         sty.alsoViewedParent
                       )}
                     >
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1396,13 +1348,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1414,13 +1362,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1432,13 +1376,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1450,13 +1390,9 @@ function PlasmicTeamProfile__RenderFunc(props) {
                         />
                       ) : null}
                       {(
-                        hasVariant(globalVariants, "screen", "mobileAPrimary")
+                        hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? true
-                          : hasVariant(
-                              globalVariants,
-                              "screen",
-                              "desktopPrimary"
-                            )
+                          : hasVariant(globalVariants, "screen", "desktop")
                           ? true
                           : false
                       ) ? (
@@ -1473,12 +1409,6 @@ function PlasmicTeamProfile__RenderFunc(props) {
               ) : null}
             </p.Stack>
           ) : null}
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1488,7 +1418,6 @@ function PlasmicTeamProfile__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "sectionTeamProfileHero",
     "navbarTeamUserProfile",
     "teamAboutInfoSection",
@@ -1561,11 +1490,9 @@ const PlasmicDescendants = {
     "sectionPartnerAlsoViewed",
     "profileTeamCarousellParentA",
     "headlineMembersAlsoViewed",
-    "alsoViewedParent",
-    "footerB"
+    "alsoViewedParent"
   ],
 
-  navbarInternal: ["navbarInternal"],
   sectionTeamProfileHero: ["sectionTeamProfileHero"],
   navbarTeamUserProfile: ["navbarTeamUserProfile"],
   teamAboutInfoSection: [
@@ -1876,8 +1803,7 @@ const PlasmicDescendants = {
   ],
 
   headlineMembersAlsoViewed: ["headlineMembersAlsoViewed"],
-  alsoViewedParent: ["alsoViewedParent"],
-  footerB: ["footerB"]
+  alsoViewedParent: ["alsoViewedParent"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1885,33 +1811,30 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicTeamProfile__ArgProps,
-      internalVariantPropNames: PlasmicTeamProfile__VariantProps
+      internalArgPropNames: PlasmicTeamprofile__ArgProps,
+      internalVariantPropNames: PlasmicTeamprofile__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicTeamProfile__RenderFunc({
+    return PlasmicTeamprofile__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicTeamProfile";
+    func.displayName = "PlasmicTeamprofile";
   } else {
-    func.displayName = `PlasmicTeamProfile.${nodeName}`;
+    func.displayName = `PlasmicTeamprofile.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicTeamProfile = Object.assign(
-  // Top-level PlasmicTeamProfile renders the root element
+export const PlasmicTeamprofile = Object.assign(
+  // Top-level PlasmicTeamprofile renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     sectionTeamProfileHero: makeNodeComponent("sectionTeamProfileHero"),
     navbarTeamUserProfile: makeNodeComponent("navbarTeamUserProfile"),
     teamAboutInfoSection: makeNodeComponent("teamAboutInfoSection"),
@@ -1994,12 +1917,11 @@ export const PlasmicTeamProfile = Object.assign(
 
     headlineMembersAlsoViewed: makeNodeComponent("headlineMembersAlsoViewed"),
     alsoViewedParent: makeNodeComponent("alsoViewedParent"),
-    footerB: makeNodeComponent("footerB"),
-    // Metadata about props expected for PlasmicTeamProfile
-    internalVariantProps: PlasmicTeamProfile__VariantProps,
-    internalArgProps: PlasmicTeamProfile__ArgProps
+    // Metadata about props expected for PlasmicTeamprofile
+    internalVariantProps: PlasmicTeamprofile__VariantProps,
+    internalArgProps: PlasmicTeamprofile__ArgProps
   }
 );
 
-export default PlasmicTeamProfile;
+export default PlasmicTeamprofile;
 /* prettier-ignore-end */

@@ -21,8 +21,8 @@ import PanelButtonPrimary from "../../PanelButtonPrimary"; // plasmic-import: dN
 import PanelButtonSecondary from "../../PanelButtonSecondary"; // plasmic-import: cwyuvAY7ua/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelButtonHeader.module.css"; // plasmic-import: l8x-1W9kbZ/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelButtonHeader.module.css"; // plasmic-import: l8x-1W9kbZ/css
 
 export const PlasmicPanelButtonHeader__VariantProps = new Array("user");
 

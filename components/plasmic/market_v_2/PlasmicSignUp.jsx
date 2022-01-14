@@ -11,63 +11,42 @@
 import * as React from "react";
 import Head from "next/head";
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts,
-  ensureGlobalVariants
+  deriveRenderOpts
 } from "@plasmicapp/react-web";
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import SectionSignUp from "../../SectionSignUp"; // plasmic-import: 3UeLqCywG7/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSignUp.module.css"; // plasmic-import: IvumJnDYzO/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSignup.module.css"; // plasmic-import: IvumJnDYzO/css
 
-export const PlasmicSignUp__VariantProps = new Array();
+export const PlasmicSignup__VariantProps = new Array();
 
-export const PlasmicSignUp__ArgProps = new Array();
+export const PlasmicSignup__ArgProps = new Array();
 
-function PlasmicSignUp__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
-  });
-
+function PlasmicSignup__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{"Sign up | Intrepid Market"}</title>
-        <meta
-          key="og:title"
-          property="og:title"
-          content={"Sign up | Intrepid Market"}
-        />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
-      <style global jsx>{`
+      <style>{`
         body {
           margin: 0;
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -83,20 +62,6 @@ function PlasmicSignUp__RenderFunc(props) {
             data-plasmic-override={overrides.sectionSignUp}
             className={classNames("__wab_instance", sty.sectionSignUp)}
           />
-
-          {(
-            hasVariant(globalVariants, "screen", "mobileAPrimary")
-              ? true
-              : hasVariant(globalVariants, "screen", "desktopPrimary")
-              ? true
-              : false
-          ) ? (
-            <FooterB
-              data-plasmic-name={"footerB"}
-              data-plasmic-override={overrides.footerB}
-              className={classNames("__wab_instance", sty.footerB)}
-            />
-          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -104,10 +69,9 @@ function PlasmicSignUp__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "navbarStatic", "sectionSignUp", "footerB"],
+  root: ["root", "navbarStatic", "sectionSignUp"],
   navbarStatic: ["navbarStatic"],
-  sectionSignUp: ["sectionSignUp"],
-  footerB: ["footerB"]
+  sectionSignUp: ["sectionSignUp"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -115,40 +79,37 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicSignUp__ArgProps,
-      internalVariantPropNames: PlasmicSignUp__VariantProps
+      internalArgPropNames: PlasmicSignup__ArgProps,
+      internalVariantPropNames: PlasmicSignup__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicSignUp__RenderFunc({
+    return PlasmicSignup__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicSignUp";
+    func.displayName = "PlasmicSignup";
   } else {
-    func.displayName = `PlasmicSignUp.${nodeName}`;
+    func.displayName = `PlasmicSignup.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicSignUp = Object.assign(
-  // Top-level PlasmicSignUp renders the root element
+export const PlasmicSignup = Object.assign(
+  // Top-level PlasmicSignup renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
     navbarStatic: makeNodeComponent("navbarStatic"),
     sectionSignUp: makeNodeComponent("sectionSignUp"),
-    footerB: makeNodeComponent("footerB"),
-    // Metadata about props expected for PlasmicSignUp
-    internalVariantProps: PlasmicSignUp__VariantProps,
-    internalArgProps: PlasmicSignUp__ArgProps
+    // Metadata about props expected for PlasmicSignup
+    internalVariantProps: PlasmicSignup__VariantProps,
+    internalArgProps: PlasmicSignup__ArgProps
   }
 );
 
-export default PlasmicSignUp;
+export default PlasmicSignup;
 /* prettier-ignore-end */

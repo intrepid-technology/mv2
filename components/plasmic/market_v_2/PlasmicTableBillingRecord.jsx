@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTableBillingRecord.module.css"; // plasmic-import: wWlyRBkfY1r/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTableBillingRecord.module.css"; // plasmic-import: wWlyRBkfY1r/css
 import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon
 
 export const PlasmicTableBillingRecord__VariantProps = new Array();

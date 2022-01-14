@@ -19,8 +19,8 @@ import {
 import RatingScore from "../../RatingScore"; // plasmic-import: Us1NtWl4Zs/component
 import RatingReviewAmount from "../../RatingReviewAmount"; // plasmic-import: DQHOPKeiwL/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicRatingDisplayDetail.module.css"; // plasmic-import: e_QdjWvrde/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicRatingDisplayDetail.module.css"; // plasmic-import: e_QdjWvrde/css
 import SuperpowerIcon from "./icons/PlasmicIcon__Superpower"; // plasmic-import: ntMd1ebAoa/icon
 
 export const PlasmicRatingDisplayDetail__VariantProps = new Array(

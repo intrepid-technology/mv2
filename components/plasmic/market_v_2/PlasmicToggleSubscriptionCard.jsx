@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicToggleSubscriptionCard.module.css"; // plasmic-import: 7hi-uHtvzE/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicToggleSubscriptionCard.module.css"; // plasmic-import: 7hi-uHtvzE/css
 
 export const PlasmicToggleSubscriptionCard__VariantProps = new Array(
   "active",

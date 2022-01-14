@@ -20,8 +20,8 @@ import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJK
 import ServiceListingArrayFieldConfirmation from "../../ServiceListingArrayFieldConfirmation"; // plasmic-import: 3bem1ROgPy/component
 import ServiceListingImagesConfirmation from "../../ServiceListingImagesConfirmation"; // plasmic-import: -iSTU_2K62/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServiceListingConfirmationItem.module.css"; // plasmic-import: 1hOjGdOjjY/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServiceListingConfirmationItem.module.css"; // plasmic-import: 1hOjGdOjjY/css
 
 export const PlasmicServiceListingConfirmationItem__VariantProps = new Array(
   "hasListContent",

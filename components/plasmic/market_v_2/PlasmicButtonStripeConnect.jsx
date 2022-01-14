@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import IconStripeLogo from "../../IconStripeLogo"; // plasmic-import: tq01IF7a70/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonStripeConnect.module.css"; // plasmic-import: GkIWBCEvRU/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonStripeConnect.module.css"; // plasmic-import: GkIWBCEvRU/css
 import LinkAIcon from "./icons/PlasmicIcon__LinkA"; // plasmic-import: L3JJupG8X-/icon
 
 export const PlasmicButtonStripeConnect__VariantProps = new Array(

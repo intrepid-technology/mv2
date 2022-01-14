@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFormTextAreaInput.module.css"; // plasmic-import: rDSDf80NUiR/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFormTextAreaInput.module.css"; // plasmic-import: rDSDf80NUiR/css
 
 export const PlasmicFormTextAreaInput__VariantProps = new Array(
   "type",

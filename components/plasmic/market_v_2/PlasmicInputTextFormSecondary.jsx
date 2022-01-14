@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import InputTextPrimary from "../../InputTextPrimary"; // plasmic-import: a2XXnCI4Ss/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputTextFormSecondary.module.css"; // plasmic-import: oScI7WCn2r/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputTextFormSecondary.module.css"; // plasmic-import: oScI7WCn2r/css
 
 export const PlasmicInputTextFormSecondary__VariantProps = new Array(
   "size",

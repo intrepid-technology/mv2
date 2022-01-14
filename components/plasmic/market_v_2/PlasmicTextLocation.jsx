@@ -18,8 +18,8 @@ import {
 import TextCityname from "../../TextCityname"; // plasmic-import: R9ilR9dEHy/component
 import TextCountryName from "../../TextCountryName"; // plasmic-import: LpckH3-q6t/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTextLocation.module.css"; // plasmic-import: O1CbetC3Kf/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTextLocation.module.css"; // plasmic-import: O1CbetC3Kf/css
 
 export const PlasmicTextLocation__VariantProps = new Array();
 

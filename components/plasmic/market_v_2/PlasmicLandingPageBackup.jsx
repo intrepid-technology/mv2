@@ -24,8 +24,8 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import IconListItem from "../../IconListItem"; // plasmic-import: Hh6LXHL9Zp/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicLandingPageBackup.module.css"; // plasmic-import: Afo7dYL8xuP/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicLandingPageBackup.module.css"; // plasmic-import: Afo7dYL8xuP/css
 import GlobeAmericaIcon from "./icons/PlasmicIcon__GlobeAmerica"; // plasmic-import: RRtaLxXmQA/icon
 import ShopCartIcon from "./icons/PlasmicIcon__ShopCart"; // plasmic-import: vfwo0XDly/icon
 import P2PPayPaymentIcon from "./icons/PlasmicIcon__P2PPayPayment"; // plasmic-import: cymbQps3m/icon

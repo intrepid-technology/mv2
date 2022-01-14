@@ -21,8 +21,8 @@ import {
 import SelectDropdownPrimary__Overlay from "../../SelectDropdownPrimary__Overlay"; // plasmic-import: eshNYJDtksh/component
 import SelectDropdownPrimary__Option from "../../SelectDropdownPrimary__Option"; // plasmic-import: d0st1V5YiWH/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSelectDropdownPrimary.module.css"; // plasmic-import: T_qFWEqz1I6/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSelectDropdownPrimary.module.css"; // plasmic-import: T_qFWEqz1I6/css
 import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: -Of6sI0cqgk/icon
 import ChevronUpIcon from "./icons/PlasmicIcon__ChevronUp"; // plasmic-import: ftv5Hc1dwv3/icon
 

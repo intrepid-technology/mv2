@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonCirclePlusMinus.module.css"; // plasmic-import: o1fXsWwgdW/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonCirclePlusMinus.module.css"; // plasmic-import: o1fXsWwgdW/css
 import CirclePlusIcon from "./icons/PlasmicIcon__CirclePlus"; // plasmic-import: bxdFeSUaP/icon
 import CircleMinusIcon from "./icons/PlasmicIcon__CircleMinus"; // plasmic-import: VNJsxL6vUq/icon
 

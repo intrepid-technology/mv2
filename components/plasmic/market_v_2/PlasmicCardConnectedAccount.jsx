@@ -19,8 +19,8 @@ import {
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardConnectedAccount.module.css"; // plasmic-import: _uTya7yxqeE/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardConnectedAccount.module.css"; // plasmic-import: _uTya7yxqeE/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
 import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
 import FacebookSquareFillIcon from "./icons/PlasmicIcon__FacebookSquareFill"; // plasmic-import: wOX2gl0oUy/icon

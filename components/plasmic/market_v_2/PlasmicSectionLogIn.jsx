@@ -20,8 +20,8 @@ import {
 import CardLogIn from "../../CardLogIn"; // plasmic-import: wTVVybnMbI4/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionLogIn.module.css"; // plasmic-import: 6EfwvreoWT/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionLogIn.module.css"; // plasmic-import: 6EfwvreoWT/css
 import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
 
 export const PlasmicSectionLogIn__VariantProps = new Array();

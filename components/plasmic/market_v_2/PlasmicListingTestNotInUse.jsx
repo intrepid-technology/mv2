@@ -21,8 +21,8 @@ import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-im
 import CardLinkServiceMenu from "../../CardLinkServiceMenu"; // plasmic-import: q8zDlZXV1I/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicListingTestNotInUse.module.css"; // plasmic-import: 9OWAcuBiHBm/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicListingTestNotInUse.module.css"; // plasmic-import: 9OWAcuBiHBm/css
 import ServiceBriefIcon from "./icons/PlasmicIcon__ServiceBrief"; // plasmic-import: LVWg0MymgF/icon
 import CartProductsvgIcon from "./icons/PlasmicIcon__CartProductsvg"; // plasmic-import: HCoBotQbzC/icon
 import CouponIcon from "./icons/PlasmicIcon__Coupon"; // plasmic-import: hPowvtOtWq/icon

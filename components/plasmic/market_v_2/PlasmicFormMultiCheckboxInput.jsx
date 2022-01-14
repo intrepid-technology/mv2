@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import MultiCheckboxInput from "../../MultiCheckboxInput"; // plasmic-import: 6TMzn6NJGN/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFormMultiCheckboxInput.module.css"; // plasmic-import: -o3gl0nF6j/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFormMultiCheckboxInput.module.css"; // plasmic-import: -o3gl0nF6j/css
 
 export const PlasmicFormMultiCheckboxInput__VariantProps = new Array();
 

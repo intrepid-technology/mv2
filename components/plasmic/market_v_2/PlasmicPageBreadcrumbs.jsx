@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import Breadcrumb from "../../Breadcrumb"; // plasmic-import: gTweajUNVw/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPageBreadcrumbs.module.css"; // plasmic-import: ZTbdEO5NC7/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPageBreadcrumbs.module.css"; // plasmic-import: ZTbdEO5NC7/css
 
 export const PlasmicPageBreadcrumbs__VariantProps = new Array();
 

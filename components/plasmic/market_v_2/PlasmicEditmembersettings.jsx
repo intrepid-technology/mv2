@@ -25,8 +25,8 @@ import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/comp
 import FormSelectInput from "../../FormSelectInput"; // plasmic-import: VSW4TWeqMx/component
 import NotificationSettingsForm from "../../NotificationSettingsForm"; // plasmic-import: Z8dV7lUnBe3/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicEditmembersettings.module.css"; // plasmic-import: j8kezDqiX0q/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicEditmembersettings.module.css"; // plasmic-import: j8kezDqiX0q/css
 import GooglesvgIcon from "./icons/PlasmicIcon__Googlesvg"; // plasmic-import: XP-psNmhog/icon
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
 import TwitterSquareFillIcon from "./icons/PlasmicIcon__TwitterSquareFill"; // plasmic-import: YS9smaNhXs/icon

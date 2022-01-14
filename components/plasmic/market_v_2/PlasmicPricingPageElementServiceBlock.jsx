@@ -19,8 +19,8 @@ import TablePricingElementPercentValueBold from "../../TablePricingElementPercen
 import TablePricingElementPercentValue from "../../TablePricingElementPercentValue"; // plasmic-import: _pXR7Qf3J2/component
 import TablePricingElementNumberValue from "../../TablePricingElementNumberValue"; // plasmic-import: xX5RC18j8u/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPricingPageElementServiceBlock.module.css"; // plasmic-import: 7N2UMf446In/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPricingPageElementServiceBlock.module.css"; // plasmic-import: 7N2UMf446In/css
 import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2Lrvqk/icon
 import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon

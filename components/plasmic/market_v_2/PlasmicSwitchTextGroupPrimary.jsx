@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchTextPrimary from "../../SwitchTextPrimary"; // plasmic-import: 0ls58SUcEc/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSwitchTextGroupPrimary.module.css"; // plasmic-import: dxvh7jp8PC/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSwitchTextGroupPrimary.module.css"; // plasmic-import: dxvh7jp8PC/css
 
 export const PlasmicSwitchTextGroupPrimary__VariantProps = new Array();
 

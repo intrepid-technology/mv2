@@ -20,8 +20,8 @@ import {
 import ChipCategoryHeader from "../../ChipCategoryHeader"; // plasmic-import: W3C_J23Z38/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionShopByIndustry.module.css"; // plasmic-import: ua8654-3suB/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionShopByIndustry.module.css"; // plasmic-import: ua8654-3suB/css
 import Icon31Icon from "./icons/PlasmicIcon__Icon31"; // plasmic-import: VBNqBhLtYU/icon
 import Icon11Icon from "./icons/PlasmicIcon__Icon11"; // plasmic-import: 1ixWuykQyi/icon
 import BlockchainsvgIcon from "./icons/PlasmicIcon__Blockchainsvg"; // plasmic-import: rV_DkTjjca/icon

@@ -22,8 +22,8 @@ import PricingTableFeatureItem from "../../PricingTableFeatureItem"; // plasmic-
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMemberPricingComponent.module.css"; // plasmic-import: GHyutJMpWs/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMemberPricingComponent.module.css"; // plasmic-import: GHyutJMpWs/css
 import CellDividerIcon from "./icons/PlasmicIcon__CellDivider"; // plasmic-import: n34VWl8XDZ4/icon
 
 export const PlasmicMemberPricingComponent__VariantProps = new Array("annual");

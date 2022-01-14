@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicDisplayIconText.module.css"; // plasmic-import: 2XsuG8W9wX/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicDisplayIconText.module.css"; // plasmic-import: 2XsuG8W9wX/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
 
 export const PlasmicDisplayIconText__VariantProps = new Array(

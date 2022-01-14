@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import TagBadgeVerification from "../../TagBadgeVerification"; // plasmic-import: jKGLXJ6-Gl/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicUserAvatar.module.css"; // plasmic-import: KmwWxjrE8L/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicUserAvatar.module.css"; // plasmic-import: KmwWxjrE8L/css
 
 export const PlasmicUserAvatar__VariantProps = new Array(
   "partner",

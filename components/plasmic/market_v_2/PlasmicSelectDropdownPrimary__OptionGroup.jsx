@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import SelectDropdownPrimary__Option from "../../SelectDropdownPrimary__Option"; // plasmic-import: d0st1V5YiWH/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSelectDropdownPrimary__OptionGroup.module.css"; // plasmic-import: nncQa7gC62w/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSelectDropdownPrimary__OptionGroup.module.css"; // plasmic-import: nncQa7gC62w/css
 import SUPER__PlasmicSelectDropdownPrimary from "./PlasmicSelectDropdownPrimary"; // plasmic-import: T_qFWEqz1I6/render
 
 export const PlasmicSelectDropdownPrimary__OptionGroup__VariantProps =

@@ -21,8 +21,8 @@ import {
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicElementMemberProfileConnections.module.css"; // plasmic-import: F_iWPxEqO6X/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicElementMemberProfileConnections.module.css"; // plasmic-import: F_iWPxEqO6X/css
 
 export const PlasmicElementMemberProfileConnections__VariantProps = new Array();
 

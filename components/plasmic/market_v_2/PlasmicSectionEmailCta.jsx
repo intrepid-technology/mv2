@@ -20,8 +20,8 @@ import {
 import InputEmailA from "../../InputEmailA"; // plasmic-import: Umu_QfvTrP/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionEmailCta.module.css"; // plasmic-import: Zy0GFm9d9F/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionEmailCta.module.css"; // plasmic-import: Zy0GFm9d9F/css
 
 export const PlasmicSectionEmailCta__VariantProps = new Array();
 

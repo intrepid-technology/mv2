@@ -28,8 +28,8 @@ import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH
 import ConditionalField from "../../ConditionalField"; // plasmic-import: umGRdihMyi/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServicelistingdelivery.module.css"; // plasmic-import: WrChxyxJaSh/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServicelistingdelivery.module.css"; // plasmic-import: WrChxyxJaSh/css
 
 export const PlasmicServicelistingdelivery__VariantProps = new Array();
 

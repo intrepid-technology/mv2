@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTagBadgeVerification.module.css"; // plasmic-import: jKGLXJ6-Gl/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTagBadgeVerification.module.css"; // plasmic-import: jKGLXJ6-Gl/css
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
 
 export const PlasmicTagBadgeVerification__VariantProps = new Array("size");

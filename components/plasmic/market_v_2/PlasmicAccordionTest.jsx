@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicAccordionTest.module.css"; // plasmic-import: zBPnerMe5_/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicAccordionTest.module.css"; // plasmic-import: zBPnerMe5_/css
 import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
 
 export const PlasmicAccordionTest__VariantProps = new Array();

@@ -27,8 +27,8 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import TableBillingHeader from "../../TableBillingHeader"; // plasmic-import: gGzFXlkqWv/component
 import TableBillingRecord from "../../TableBillingRecord"; // plasmic-import: wWlyRBkfY1r/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicEditteammembership.module.css"; // plasmic-import: 0VvviIW4t16/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicEditteammembership.module.css"; // plasmic-import: 0VvviIW4t16/css
 
 export const PlasmicEditteammembership__VariantProps = new Array();
 

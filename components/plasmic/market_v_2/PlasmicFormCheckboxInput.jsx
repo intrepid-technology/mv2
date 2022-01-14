@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import CheckboxInput from "../../CheckboxInput"; // plasmic-import: dB2P3uonwOO/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFormCheckboxInput.module.css"; // plasmic-import: XuFJ5mD6RY/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFormCheckboxInput.module.css"; // plasmic-import: XuFJ5mD6RY/css
 
 export const PlasmicFormCheckboxInput__VariantProps = new Array(
   "isDisabled",

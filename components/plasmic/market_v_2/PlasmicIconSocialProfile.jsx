@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicIconSocialProfile.module.css"; // plasmic-import: IC5nyjlnco/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicIconSocialProfile.module.css"; // plasmic-import: IC5nyjlnco/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
 import DomainRegistrationsvgIcon from "./icons/PlasmicIcon__DomainRegistrationsvg"; // plasmic-import: yg8ogMp2Iw/icon
 import InstagramIcon from "./icons/PlasmicIcon__Instagram"; // plasmic-import: pB3KQipCqv/icon

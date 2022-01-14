@@ -25,8 +25,8 @@ import NavbarNotifications from "../../NavbarNotifications"; // plasmic-import: 
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarInternal.module.css"; // plasmic-import: BXWgCr5-vns/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarInternal.module.css"; // plasmic-import: BXWgCr5-vns/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
 

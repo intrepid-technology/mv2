@@ -18,8 +18,8 @@ import {
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import SectionSignUp from "../../SectionSignUp"; // plasmic-import: 3UeLqCywG7/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSignup.module.css"; // plasmic-import: IvumJnDYzO/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSignup.module.css"; // plasmic-import: IvumJnDYzO/css
 
 export const PlasmicSignup__VariantProps = new Array();
 

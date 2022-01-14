@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionMemberFeatures.module.css"; // plasmic-import: ZVx0S4JWhTB/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionMemberFeatures.module.css"; // plasmic-import: ZVx0S4JWhTB/css
 
 export const PlasmicSectionMemberFeatures__VariantProps = new Array();
 

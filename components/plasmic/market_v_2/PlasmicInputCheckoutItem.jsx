@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import InputCounter from "../../InputCounter"; // plasmic-import: e0M1tqOpmZ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputCheckoutItem.module.css"; // plasmic-import: HtA78mOD-bC/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputCheckoutItem.module.css"; // plasmic-import: HtA78mOD-bC/css
 
 export const PlasmicInputCheckoutItem__VariantProps = new Array(
   "headline",

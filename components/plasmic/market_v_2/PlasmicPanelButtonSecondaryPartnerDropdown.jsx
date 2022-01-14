@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import PanelButtonMenuItem from "../../PanelButtonMenuItem"; // plasmic-import: b7t7JoTYk7/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelButtonSecondaryPartnerDropdown.module.css"; // plasmic-import: xL0tU70qtK/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelButtonSecondaryPartnerDropdown.module.css"; // plasmic-import: xL0tU70qtK/css
 
 export const PlasmicPanelButtonSecondaryPartnerDropdown__VariantProps =
   new Array();

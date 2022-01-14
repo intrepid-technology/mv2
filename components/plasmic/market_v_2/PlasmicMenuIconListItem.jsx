@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMenuIconListItem.module.css"; // plasmic-import: 61axZSTp8Y/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMenuIconListItem.module.css"; // plasmic-import: 61axZSTp8Y/css
 import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrandColor"; // plasmic-import: Lsqk-ADBoKU/icon
 
 export const PlasmicMenuIconListItem__VariantProps = new Array(

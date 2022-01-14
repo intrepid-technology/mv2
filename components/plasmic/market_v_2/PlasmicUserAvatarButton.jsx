@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicUserAvatarButton.module.css"; // plasmic-import: w1GnXfIMuv/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicUserAvatarButton.module.css"; // plasmic-import: w1GnXfIMuv/css
 
 export const PlasmicUserAvatarButton__VariantProps = new Array("size");
 

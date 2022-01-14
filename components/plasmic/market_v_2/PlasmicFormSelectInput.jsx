@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFormSelectInput.module.css"; // plasmic-import: VSW4TWeqMx/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFormSelectInput.module.css"; // plasmic-import: VSW4TWeqMx/css
 
 export const PlasmicFormSelectInput__VariantProps = new Array(
   "type",

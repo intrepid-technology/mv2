@@ -24,8 +24,8 @@ import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-im
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNotificationSettingsForm.module.css"; // plasmic-import: Z8dV7lUnBe3/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNotificationSettingsForm.module.css"; // plasmic-import: Z8dV7lUnBe3/css
 
 export const PlasmicNotificationSettingsForm__VariantProps = new Array();
 

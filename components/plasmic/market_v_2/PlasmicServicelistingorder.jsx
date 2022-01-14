@@ -30,8 +30,8 @@ import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJK
 import CheckoutServiceListing from "../../CheckoutServiceListing"; // plasmic-import: UHEuX3OG9AY/component
 import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServicelistingorder.module.css"; // plasmic-import: 8E4p0Ww2xdD/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServicelistingorder.module.css"; // plasmic-import: 8E4p0Ww2xdD/css
 import CellDividerIcon from "./icons/PlasmicIcon__CellDivider"; // plasmic-import: n34VWl8XDZ4/icon
 import Icon111Icon from "./icons/PlasmicIcon__Icon111"; // plasmic-import: fytPd42_r6/icon
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon

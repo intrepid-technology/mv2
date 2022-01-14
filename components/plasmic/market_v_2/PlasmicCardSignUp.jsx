@@ -22,8 +22,8 @@ import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import ButtonConnectedAccount from "../../ButtonConnectedAccount"; // plasmic-import: 9kU3iljaXN/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardSignUp.module.css"; // plasmic-import: kpT4G-q2jGd/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardSignUp.module.css"; // plasmic-import: kpT4G-q2jGd/css
 import SectionDividerIcon from "./icons/PlasmicIcon__SectionDivider"; // plasmic-import: UzRMlTHWYLl/icon
 
 export const PlasmicCardSignUp__VariantProps = new Array();

@@ -23,8 +23,8 @@ import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: 
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicElementProfileMemberDetails.module.css"; // plasmic-import: 7guiVd95chm/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicElementProfileMemberDetails.module.css"; // plasmic-import: 7guiVd95chm/css
 import Icon171Icon from "./icons/PlasmicIcon__Icon171"; // plasmic-import: RfkUw6C5x0/icon
 import OfficeWorkIcon from "./icons/PlasmicIcon__OfficeWork"; // plasmic-import: b-UKc3bHG7/icon
 import BriefOrdersIcon from "./icons/PlasmicIcon__BriefOrders"; // plasmic-import: IHBDow0Bv/icon

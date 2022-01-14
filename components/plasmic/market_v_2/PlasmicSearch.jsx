@@ -22,8 +22,8 @@ import ChipSearchFilterButton from "../../ChipSearchFilterButton"; // plasmic-im
 import CardServiceDisplay from "../../CardServiceDisplay"; // plasmic-import: 82Lpaa43lIc/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSearch.module.css"; // plasmic-import: Ke5AuXHMAn/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSearch.module.css"; // plasmic-import: Ke5AuXHMAn/css
 
 export const PlasmicSearch__VariantProps = new Array();
 

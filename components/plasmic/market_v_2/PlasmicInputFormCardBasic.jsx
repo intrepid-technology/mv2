@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputFormCardBasic.module.css"; // plasmic-import: IF5nud1uvm2/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputFormCardBasic.module.css"; // plasmic-import: IF5nud1uvm2/css
 
 export const PlasmicInputFormCardBasic__VariantProps = new Array(
   "description",

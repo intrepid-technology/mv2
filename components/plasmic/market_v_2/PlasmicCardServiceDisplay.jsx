@@ -24,8 +24,8 @@ import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/compone
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardServiceDisplay.module.css"; // plasmic-import: 82Lpaa43lIc/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardServiceDisplay.module.css"; // plasmic-import: 82Lpaa43lIc/css
 import ViewIcon from "./icons/PlasmicIcon__View"; // plasmic-import: 1gdYphl9Jz/icon
 import HeartFillIcon from "./icons/PlasmicIcon__HeartFill"; // plasmic-import: Cp8uDBjLR/icon
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon

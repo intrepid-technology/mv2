@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTerms.module.css"; // plasmic-import: sdSFi1WRAm/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTerms.module.css"; // plasmic-import: sdSFi1WRAm/css
 
 export const PlasmicTerms__VariantProps = new Array();
 

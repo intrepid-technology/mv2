@@ -28,8 +28,8 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import Footer from "../../Footer"; // plasmic-import: eCAXzaJOOM3/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicHome.module.css"; // plasmic-import: 0fvA7C1gRK/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicHome.module.css"; // plasmic-import: 0fvA7C1gRK/css
 import ApplesvgIcon from "./icons/PlasmicIcon__Applesvg"; // plasmic-import: J_76r5N89/icon
 import TheNorthFace1LogoSvgVectorsvgIcon from "./icons/PlasmicIcon__TheNorthFace1LogoSvgVectorsvg"; // plasmic-import: Anyn124Pr/icon
 import MastercardsvgIcon from "./icons/PlasmicIcon__Mastercardsvg"; // plasmic-import: W4hkSJywT/icon

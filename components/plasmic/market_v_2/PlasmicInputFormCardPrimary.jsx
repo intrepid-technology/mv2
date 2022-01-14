@@ -21,8 +21,8 @@ import InputTextForm from "../../InputTextForm"; // plasmic-import: Hp_zc6XLro/c
 import TextMultiLineA from "../../TextMultiLineA"; // plasmic-import: TS--ged0zI/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputFormCardPrimary.module.css"; // plasmic-import: 7K8uSXduxTH/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputFormCardPrimary.module.css"; // plasmic-import: 7K8uSXduxTH/css
 
 export const PlasmicInputFormCardPrimary__VariantProps = new Array(
   "button",

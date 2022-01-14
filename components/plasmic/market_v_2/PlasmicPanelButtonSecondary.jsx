@@ -20,8 +20,8 @@ import {
 } from "@plasmicapp/react-web";
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelButtonSecondary.module.css"; // plasmic-import: cwyuvAY7ua/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelButtonSecondary.module.css"; // plasmic-import: cwyuvAY7ua/css
 import BoostIcon from "./icons/PlasmicIcon__Boost"; // plasmic-import: X0sjJkcBKE/icon
 import MemberPartnerAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 import CommentReviewBIcon from "./icons/PlasmicIcon__CommentReviewB"; // plasmic-import: 4AL9HbEO5/icon

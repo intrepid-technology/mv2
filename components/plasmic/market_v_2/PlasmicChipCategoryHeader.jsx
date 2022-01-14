@@ -18,8 +18,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicChipCategoryHeader.module.css"; // plasmic-import: W3C_J23Z38/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicChipCategoryHeader.module.css"; // plasmic-import: W3C_J23Z38/css
 import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: alaRRmprOn/icon
 
 export const PlasmicChipCategoryHeader__VariantProps = new Array(

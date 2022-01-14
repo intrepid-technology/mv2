@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import SwitchInput from "../../SwitchInput"; // plasmic-import: q4oa9NmA8gP/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFormSwitchInput.module.css"; // plasmic-import: Q6uFqZTeF8/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFormSwitchInput.module.css"; // plasmic-import: Q6uFqZTeF8/css
 
 export const PlasmicFormSwitchInput__VariantProps = new Array("on", "disabled");
 

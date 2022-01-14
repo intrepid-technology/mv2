@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicRadioCheckboxCard.module.css"; // plasmic-import: TRRmUa9KEQ/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicRadioCheckboxCard.module.css"; // plasmic-import: TRRmUa9KEQ/css
 import Icon103Icon from "./icons/PlasmicIcon__Icon103"; // plasmic-import: 1-aKJYjqLG/icon
 
 export const PlasmicRadioCheckboxCard__VariantProps = new Array(

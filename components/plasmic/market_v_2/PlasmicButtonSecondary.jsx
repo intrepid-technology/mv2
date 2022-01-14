@@ -16,7 +16,7 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as sty from "./PlasmicButtonSecondary.module.css"; // plasmic-import: _L0XTfPHd7/css
+import sty from "./PlasmicButtonSecondary.module.css"; // plasmic-import: _L0XTfPHd7/css
 
 export const PlasmicButtonSecondary__VariantProps = new Array();
 

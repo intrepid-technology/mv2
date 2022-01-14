@@ -22,8 +22,8 @@ import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // pl
 import ImageInput from "../../ImageInput"; // plasmic-import: lEht_5kSJO/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServicelistingimage.module.css"; // plasmic-import: 6x0YIR7aDko/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServicelistingimage.module.css"; // plasmic-import: 6x0YIR7aDko/css
 
 export const PlasmicServicelistingimage__VariantProps = new Array();
 

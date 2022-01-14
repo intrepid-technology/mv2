@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelMemberSectionMarket.module.css"; // plasmic-import: 8_xnKrMMUML/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelMemberSectionMarket.module.css"; // plasmic-import: 8_xnKrMMUML/css
 import MarketIcon from "./icons/PlasmicIcon__Market"; // plasmic-import: 6YZyz-5czi/icon
 import RecommendationsIcon from "./icons/PlasmicIcon__Recommendations"; // plasmic-import: wWVEzr7B1/icon
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon

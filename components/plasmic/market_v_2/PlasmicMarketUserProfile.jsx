@@ -16,7 +16,7 @@ import {
 } from "@plasmicapp/react-web";
 import ChipUserProfile from "../../ChipUserProfile"; // plasmic-import: 0x8Ex9CEDPX/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as sty from "./PlasmicMarketUserProfile.module.css"; // plasmic-import: Kq0Npq6HpD/css
+import sty from "./PlasmicMarketUserProfile.module.css"; // plasmic-import: Kq0Npq6HpD/css
 
 export const PlasmicMarketUserProfile__VariantProps = new Array();
 

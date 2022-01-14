@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarAccountAvatar.module.css"; // plasmic-import: Desp33T8Y3/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarAccountAvatar.module.css"; // plasmic-import: Desp33T8Y3/css
 import Icon126Icon from "./icons/PlasmicIcon__Icon126"; // plasmic-import: CDcqIgJsCe/icon
 
 export const PlasmicNavbarAccountAvatar__VariantProps = new Array("color");

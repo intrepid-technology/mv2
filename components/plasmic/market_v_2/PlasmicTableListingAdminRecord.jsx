@@ -29,8 +29,8 @@ import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/c
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTableListingAdminRecord.module.css"; // plasmic-import: -CTzxsSFaeA/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTableListingAdminRecord.module.css"; // plasmic-import: -CTzxsSFaeA/css
 import EditIcon from "./icons/PlasmicIcon__Edit"; // plasmic-import: mbnWFLNOQl/icon
 import PlusBoldIcon from "./icons/PlasmicIcon__PlusBold"; // plasmic-import: yu83kfpl6j/icon
 import CircleCheckedIcon from "./icons/PlasmicIcon__CircleChecked"; // plasmic-import: Ebjr5Ebml/icon

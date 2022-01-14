@@ -21,8 +21,8 @@ import {
 import SelectInput__Overlay from "../../SelectInput__Overlay"; // plasmic-import: 1D4cLPS4qHu/component
 import SelectInput__Option from "../../SelectInput__Option"; // plasmic-import: t56z-AA9Ffy/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSelectInput.module.css"; // plasmic-import: 6gReGypE5kO/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSelectInput.module.css"; // plasmic-import: 6gReGypE5kO/css
 import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: -Of6sI0cqgk/icon
 import ChevronUpIcon from "./icons/PlasmicIcon__ChevronUp"; // plasmic-import: ftv5Hc1dwv3/icon
 

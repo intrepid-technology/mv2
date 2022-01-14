@@ -21,8 +21,8 @@ import UserAvatarButton from "../../UserAvatarButton"; // plasmic-import: w1GnXf
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardMemberProfile.module.css"; // plasmic-import: Jh4JXlZHnwY/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardMemberProfile.module.css"; // plasmic-import: Jh4JXlZHnwY/css
 
 export const PlasmicCardMemberProfile__VariantProps = new Array("session");
 

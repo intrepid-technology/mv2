@@ -18,8 +18,8 @@ import {
 import NavbarAdminIcons from "../../NavbarAdminIcons"; // plasmic-import: -GlpTucHU-/component
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarUserAdmin.module.css"; // plasmic-import: ZMyXOaiDBH_/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarUserAdmin.module.css"; // plasmic-import: ZMyXOaiDBH_/css
 
 export const PlasmicNavbarUserAdmin__VariantProps = new Array();
 

@@ -20,8 +20,8 @@ import {
 } from "@plasmicapp/react-web";
 import TextLinkArrow from "../../TextLinkArrow"; // plasmic-import: MlCPfXGkVN/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardIconHeadlineBody.module.css"; // plasmic-import: 74sC7lx9N6/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardIconHeadlineBody.module.css"; // plasmic-import: 74sC7lx9N6/css
 import Icon56Icon from "./icons/PlasmicIcon__Icon56"; // plasmic-import: Ebcyitn7yz/icon
 import Icon118Icon from "./icons/PlasmicIcon__Icon118"; // plasmic-import: bdrqtZUAe/icon
 

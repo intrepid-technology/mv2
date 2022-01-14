@@ -19,8 +19,8 @@ import {
 } from "@plasmicapp/react-web";
 import SelectInput__Option from "../../SelectInput__Option"; // plasmic-import: t56z-AA9Ffy/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSelectInput__OptionGroup.module.css"; // plasmic-import: JVp-cWrthsf/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSelectInput__OptionGroup.module.css"; // plasmic-import: JVp-cWrthsf/css
 import SUPER__PlasmicSelectInput from "./PlasmicSelectInput"; // plasmic-import: 6gReGypE5kO/render
 
 export const PlasmicSelectInput__OptionGroup__VariantProps = new Array(

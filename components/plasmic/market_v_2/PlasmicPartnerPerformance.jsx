@@ -18,18 +18,15 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavbarInternal from "../../NavbarInternal"; // plasmic-import: BXWgCr5-vns/component
 import NavbarPartnerEdit from "../../NavbarPartnerEdit"; // plasmic-import: ta5dUay7HZW/component
 import CardHeaderTitleDisplay from "../../CardHeaderTitleDisplay"; // plasmic-import: 1wS8JpmDTD/component
 import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
 import CardAnalyticsPrimary from "../../CardAnalyticsPrimary"; // plasmic-import: -EGIFSbBWZt/component
 import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
-import { useScreenVariants } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPartnerPerformance.module.css"; // plasmic-import: RQdHhTD_vq/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPartnerperformance.module.css"; // plasmic-import: RQdHhTD_vq/css
 import Icon96Icon from "./icons/PlasmicIcon__Icon96"; // plasmic-import: CEkB3VE5m4/icon
 import StarRatingIcon from "./icons/PlasmicIcon__StarRating"; // plasmic-import: yUIWRAMNFw/icon
 import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon
@@ -43,33 +40,27 @@ import ReactIcon from "./icons/PlasmicIcon__React"; // plasmic-import: ZxRg0AwFr
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 import ResponseIcon from "./icons/PlasmicIcon__Response"; // plasmic-import: NSF254cS5/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
-import MemberAddIcon from "./icons/PlasmicIcon__MemberAdd"; // plasmic-import: FGYq1z2nvF/icon
+import MemberPartnerAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 
-export const PlasmicPartnerPerformance__VariantProps = new Array();
+export const PlasmicPartnerperformance__VariantProps = new Array();
 
-export const PlasmicPartnerPerformance__ArgProps = new Array();
+export const PlasmicPartnerperformance__ArgProps = new Array();
 
-function PlasmicPartnerPerformance__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+function PlasmicPartnerperformance__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
   const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariants()
+    screen: useScreenVariantso9SjFZaOqjqz()
   });
 
   return (
     <React.Fragment>
       <Head>
+        <meta name="twitter:card" content="summary" />
         <title key="title">{"Partner performance and analytics"}</title>
         <meta
           key="og:title"
           property="og:title"
           content={"Partner performance and analytics"}
-        />
-
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
         />
       </Head>
 
@@ -79,24 +70,18 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <div
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
         >
-          <NavbarInternal
-            data-plasmic-name={"navbarInternal"}
-            data-plasmic-override={overrides.navbarInternal}
-            className={classNames("__wab_instance", sty.navbarInternal)}
-          />
-
           <NavbarPartnerEdit
             data-plasmic-name={"navbarPartnerEdit"}
             data-plasmic-override={overrides.navbarPartnerEdit}
@@ -109,7 +94,7 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
             data-plasmic-override={overrides.sectionHeaderPartnerPerformance}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
+              projectcss.all,
               sty.sectionHeaderPartnerPerformance
             )}
           >
@@ -124,9 +109,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               slot={
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___1UsqO
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___1UsqO
                   )}
                 >
                   {"Analytics & metrics"}
@@ -145,7 +130,7 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
             data-plasmic-override={overrides.partnerPerformanceAnalytics}
             hasGap={true}
             className={classNames(
-              defaultcss.all,
+              projectcss.all,
               sty.partnerPerformanceAnalytics
             )}
           >
@@ -154,13 +139,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-name={"overview"}
               data-plasmic-override={overrides.overview}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.overview)}
+              className={classNames(projectcss.all, sty.overview)}
             >
-              <div className={classNames(defaultcss.all, sty.box__ls8Vs)}>
+              <div className={classNames(projectcss.all, sty.freeBox__ls8Vs)}>
                 <h3
                   className={classNames(
-                    defaultcss.h3,
-                    defaultcss.__wab_text,
+                    projectcss.h3,
+                    projectcss.__wab_text,
                     sty.h3___7RfKu
                   )}
                 >
@@ -173,26 +158,26 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__doZvu
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__s0Oo9)}
+                    className={classNames(projectcss.all, sty.svg__s0Oo9)}
                     role={"img"}
                   />
                 }
                 dropdownTitle={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__uCeTh
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uCeTh
                     )}
                   >
                     {"30 days"}
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={"_180X32"}
               />
             </p.Stack>
@@ -203,7 +188,7 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-override={overrides.carousellPartnerOverview}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.carousellPartnerOverview
               )}
             >
@@ -213,22 +198,22 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__oA6G8
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oA6G8
                     )}
                   >
                     {"Rating"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerRatings)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__wqSbL
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wqSbL
                     )}
                   >
                     {"4.6"}
@@ -237,9 +222,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numerationParent270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__nwA6O
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nwA6O
                     )}
                   >
                     {"%"}
@@ -247,20 +232,22 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__lweYw)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__lweYw)}
+                  >
                     <StarRatingIcon
-                      className={classNames(defaultcss.all, sty.svg__qtI92)}
+                      className={classNames(projectcss.all, sty.svg__qtI92)}
                       role={"img"}
                     />
                   </div>
                 }
                 svgQuestion={
                   <div
-                    className={classNames(defaultcss.all, sty.box__d8MXf)}
+                    className={classNames(projectcss.all, sty.freeBox__d8MXf)}
                     title={""}
                   >
                     <Icon177Icon
-                      className={classNames(defaultcss.all, sty.svg__dXu1H)}
+                      className={classNames(projectcss.all, sty.svg__dXu1H)}
                       role={"img"}
                     />
                   </div>
@@ -271,9 +258,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__pAf0G
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__pAf0G
                         )}
                       >
                         {"5"}
@@ -289,9 +276,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__hTbe
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hTbe
                     )}
                   >
                     {"Earnings"}
@@ -303,8 +290,8 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     data-plasmic-name={"currencyValue270"}
                     data-plasmic-override={overrides.currencyValue270}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.currencyValue270
                     )}
                   >
@@ -314,28 +301,32 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__vwFVm
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vwFVm
                     )}
                   >
                     {"930"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__gU8M)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__gU8M)}
+                  >
                     <WalletEarningsIcon
-                      className={classNames(defaultcss.all, sty.svg__pzSox)}
+                      className={classNames(projectcss.all, sty.svg__pzSox)}
                       role={"img"}
                     />
                   </div>
                 }
                 svgQuestion={
-                  <div className={classNames(defaultcss.all, sty.box__tftyE)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__tftyE)}
+                  >
                     <Icon177Icon
-                      className={classNames(defaultcss.all, sty.svg__zyyJd)}
+                      className={classNames(projectcss.all, sty.svg__zyyJd)}
                       role={"img"}
                     />
                   </div>
@@ -346,9 +337,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentMinus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__yz1Wm
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yz1Wm
                         )}
                       >
                         {"65"}
@@ -364,33 +355,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__vnUej
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vnUej
                     )}
                   >
                     {"Orders"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerOrders)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__xZcW
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__xZcW
                     )}
                   >
                     {"100"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__tsTVg)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__tsTVg)}
+                  >
                     <BriefOrdersIcon
-                      className={classNames(defaultcss.all, sty.svg__uQvNp)}
+                      className={classNames(projectcss.all, sty.svg__uQvNp)}
                       role={"img"}
                     />
                   </div>
@@ -406,33 +399,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__brS4Z
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__brS4Z
                     )}
                   >
                     {"Reviews"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerReviews)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__r7DuK
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__r7DuK
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__cIvHe)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__cIvHe)}
+                  >
                     <CommentReviewIcon
-                      className={classNames(defaultcss.all, sty.svg___19Zfp)}
+                      className={classNames(projectcss.all, sty.svg___19Zfp)}
                       role={"img"}
                     />
                   </div>
@@ -443,9 +438,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentMinus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__w3A2
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__w3A2
                         )}
                       >
                         {"20"}
@@ -454,9 +449,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__vu84Q
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vu84Q
                         )}
                       >
                         {"20"}
@@ -472,13 +467,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-name={"listings"}
               data-plasmic-override={overrides.listings}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.listings)}
+              className={classNames(projectcss.all, sty.listings)}
             >
-              <div className={classNames(defaultcss.all, sty.box__u8LZ8)}>
+              <div className={classNames(projectcss.all, sty.freeBox__u8LZ8)}>
                 <h3
                   className={classNames(
-                    defaultcss.h3,
-                    defaultcss.__wab_text,
+                    projectcss.h3,
+                    projectcss.__wab_text,
                     sty.h3___8WlHd
                   )}
                 >
@@ -491,28 +486,28 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__qxjGv
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__lkOPm)}
+                    className={classNames(projectcss.all, sty.svg__lkOPm)}
                     role={"img"}
                   />
                 }
                 dropdownTitle={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__r4BZl
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__r4BZl
                     )}
                   >
                     {"30 days"}
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={
-                  hasVariant(globalVariants, "screen", "mobileAPrimary")
+                  hasVariant(globalVariants, "screen", "iphone12ProMax")
                     ? "_180X32"
                     : "_180X32"
                 }
@@ -524,7 +519,7 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-name={"groupPartnerListings"}
               data-plasmic-override={overrides.groupPartnerListings}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.groupPartnerListings)}
+              className={classNames(projectcss.all, sty.groupPartnerListings)}
             >
               <CardAnalyticsPrimary
                 data-plasmic-name={"partnerListings"}
@@ -532,33 +527,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__zhT9N
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__zhT9N
                     )}
                   >
                     {"Listings"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerListings)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__b5PwL
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__b5PwL
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__fgULh)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__fgULh)}
+                  >
                     <ListingIcon
-                      className={classNames(defaultcss.all, sty.svg__u7Nt8)}
+                      className={classNames(projectcss.all, sty.svg__u7Nt8)}
                       role={"img"}
                     />
                   </div>
@@ -574,9 +571,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__yYpwc
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yYpwc
                     )}
                   >
                     {"Listing views"}
@@ -586,13 +583,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerListingViews
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__oPbwy
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oPbwy
                     )}
                   >
                     {"1"}
@@ -601,9 +598,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numerationParent270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__l7Lyt
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__l7Lyt
                     )}
                   >
                     {"K"}
@@ -611,9 +608,11 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__pSwk9)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__pSwk9)}
+                  >
                     <ViewIcon
-                      className={classNames(defaultcss.all, sty.svg__ncrPl)}
+                      className={classNames(projectcss.all, sty.svg__ncrPl)}
                       role={"img"}
                     />
                   </div>
@@ -624,9 +623,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__kLtHq
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__kLtHq
                         )}
                       >
                         {"32.45"}
@@ -642,9 +641,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__jy4Iv
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jy4Iv
                     )}
                   >
                     {"Profile views"}
@@ -654,13 +653,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerProfileViews
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__s1MiL
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__s1MiL
                     )}
                   >
                     {"2"}
@@ -669,9 +668,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numerationParent270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__yqKnH
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__yqKnH
                     )}
                   >
                     {"K"}
@@ -679,9 +678,11 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__j6Ll8)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__j6Ll8)}
+                  >
                     <ProfileViewIcon
-                      className={classNames(defaultcss.all, sty.svg__fiEe)}
+                      className={classNames(projectcss.all, sty.svg__fiEe)}
                       role={"img"}
                     />
                   </div>
@@ -692,9 +693,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box___3Ma7N
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___3Ma7N
                         )}
                       >
                         {"124.56"}
@@ -710,22 +711,22 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__iLAm8
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__iLAm8
                     )}
                   >
                     {"Reacts"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerReacts)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__avkXs
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__avkXs
                     )}
                   >
                     {"3"}
@@ -734,9 +735,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numerationParent270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__opOi
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__opOi
                     )}
                   >
                     {"K"}
@@ -744,9 +745,11 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__ogDb)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__ogDb)}
+                  >
                     <ReactIcon
-                      className={classNames(defaultcss.all, sty.svg__giLrv)}
+                      className={classNames(projectcss.all, sty.svg__giLrv)}
                       role={"img"}
                     />
                   </div>
@@ -757,9 +760,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__d7Lc5
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__d7Lc5
                         )}
                       >
                         {"23.67"}
@@ -775,22 +778,22 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__blb57
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__blb57
                     )}
                   >
                     {"Lists"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerSaves)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__o1FMc
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__o1FMc
                     )}
                   >
                     {"1"}
@@ -799,9 +802,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 numerationParent270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___3JBeZ
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___3JBeZ
                     )}
                   >
                     {"K"}
@@ -809,9 +812,11 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__pr2Vg)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__pr2Vg)}
+                  >
                     <BookmarkIcon
-                      className={classNames(defaultcss.all, sty.svg__vv9F)}
+                      className={classNames(projectcss.all, sty.svg__vv9F)}
                       role={"img"}
                     />
                   </div>
@@ -822,9 +827,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__yQ4B
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yQ4B
                         )}
                       >
                         {"234.56"}
@@ -840,9 +845,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__sCGf
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__sCGf
                     )}
                   >
                     {"Response rate"}
@@ -852,13 +857,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.partnerResponseRate
                 )}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__fqV7A
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fqV7A
                     )}
                   >
                     {"78.5"}
@@ -869,8 +874,8 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     data-plasmic-name={"numerationValue2702"}
                     data-plasmic-override={overrides.numerationValue2702}
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
+                      projectcss.all,
+                      projectcss.__wab_text,
                       sty.numerationValue2702
                     )}
                   >
@@ -879,9 +884,11 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 }
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__vfuRe)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__vfuRe)}
+                  >
                     <ResponseIcon
-                      className={classNames(defaultcss.all, sty.svg__b3B50)}
+                      className={classNames(projectcss.all, sty.svg__b3B50)}
                       role={"img"}
                     />
                   </div>
@@ -892,9 +899,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__oRkd7
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__oRkd7
                         )}
                       >
                         {"12.5"}
@@ -910,13 +917,13 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-name={"community"}
               data-plasmic-override={overrides.community}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.community)}
+              className={classNames(projectcss.all, sty.community)}
             >
-              <div className={classNames(defaultcss.all, sty.box__hM0B0)}>
+              <div className={classNames(projectcss.all, sty.freeBox__hM0B0)}>
                 <h3
                   className={classNames(
-                    defaultcss.h3,
-                    defaultcss.__wab_text,
+                    projectcss.h3,
+                    projectcss.__wab_text,
                     sty.h3__iuLnK
                   )}
                 >
@@ -929,26 +936,26 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                   "__wab_instance",
                   sty.buttonFormDropdownSelect__st5ST
                 )}
-                description={"description"}
+                description={true}
                 dropdownIcon={
                   <Icon96Icon
-                    className={classNames(defaultcss.all, sty.svg__jtcur)}
+                    className={classNames(projectcss.all, sty.svg__jtcur)}
                     role={"img"}
                   />
                 }
                 dropdownTitle={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__a2FUz
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__a2FUz
                     )}
                   >
                     {"30 days"}
                   </div>
                 }
                 headlineLabelTitle={"Date"}
-                label={"label"}
+                label={true}
                 size={"_180X32"}
               />
             </p.Stack>
@@ -959,7 +966,7 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               data-plasmic-override={overrides.carousellPartnerCommunity}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.carousellPartnerCommunity
               )}
             >
@@ -969,33 +976,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__rZuNx
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rZuNx
                     )}
                   >
                     {"Subscribers"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerSubscribers)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__i7TYl
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__i7TYl
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__sG7Zv)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__sG7Zv)}
+                  >
                     <TeamPartnersIcon
-                      className={classNames(defaultcss.all, sty.svg__bcAse)}
+                      className={classNames(projectcss.all, sty.svg__bcAse)}
                       role={"img"}
                     />
                   </div>
@@ -1011,33 +1020,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___4CrcM
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___4CrcM
                     )}
                   >
                     {"Connections"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerConnections)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__dbgw
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__dbgw
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__n7WKs)}>
-                    <MemberAddIcon
-                      className={classNames(defaultcss.all, sty.svg___2Ftjc)}
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__n7WKs)}
+                  >
+                    <MemberPartnerAddIcon
+                      className={classNames(projectcss.all, sty.svg___2Ftjc)}
                       role={"img"}
                     />
                   </div>
@@ -1048,9 +1059,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__vxZUy
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vxZUy
                         )}
                       >
                         {"5"}
@@ -1066,33 +1077,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__cfyKn
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cfyKn
                     )}
                   >
                     {"Followers"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerFollowers)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__sPQc
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__sPQc
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__siEyx)}>
-                    <MemberAddIcon
-                      className={classNames(defaultcss.all, sty.svg__hroAd)}
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__siEyx)}
+                  >
+                    <MemberPartnerAddIcon
+                      className={classNames(projectcss.all, sty.svg__hroAd)}
                       role={"img"}
                     />
                   </div>
@@ -1103,9 +1116,9 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                     numberValueParentPlus={
                       <div
                         className={classNames(
-                          defaultcss.all,
-                          defaultcss.__wab_text,
-                          sty.box__tPu21
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__tPu21
                         )}
                       >
                         {"5"}
@@ -1121,33 +1134,35 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
                 cardTitle270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__regM
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__regM
                     )}
                   >
                     {"Following"}
                   </div>
                 }
                 className={classNames("__wab_instance", sty.partnerFollowing)}
-                currency={"currency"}
+                currency={true}
                 numberValue270={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__f9Jk1
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__f9Jk1
                     )}
                   >
                     {"12"}
                   </div>
                 }
-                numeration={"numeration"}
+                numeration={true}
                 size={"_270"}
                 svgIconParent270={
-                  <div className={classNames(defaultcss.all, sty.box__n9MCo)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__n9MCo)}
+                  >
                     <TeamPartnersIcon
-                      className={classNames(defaultcss.all, sty.svg___05PCh)}
+                      className={classNames(projectcss.all, sty.svg___05PCh)}
                       role={"img"}
                     />
                   </div>
@@ -1158,12 +1173,6 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
               />
             </p.Stack>
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-          />
         </div>
       </div>
     </React.Fragment>
@@ -1173,7 +1182,6 @@ function PlasmicPartnerPerformance__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navbarInternal",
     "navbarPartnerEdit",
     "sectionHeaderPartnerPerformance",
     "cardHeaderTitleDisplay",
@@ -1199,11 +1207,9 @@ const PlasmicDescendants = {
     "partnerSubscribers",
     "partnerConnections",
     "partnerFollowers",
-    "partnerFollowing",
-    "footerB"
+    "partnerFollowing"
   ],
 
-  navbarInternal: ["navbarInternal"],
   navbarPartnerEdit: ["navbarPartnerEdit"],
   sectionHeaderPartnerPerformance: [
     "sectionHeaderPartnerPerformance",
@@ -1283,8 +1289,7 @@ const PlasmicDescendants = {
   partnerSubscribers: ["partnerSubscribers"],
   partnerConnections: ["partnerConnections"],
   partnerFollowers: ["partnerFollowers"],
-  partnerFollowing: ["partnerFollowing"],
-  footerB: ["footerB"]
+  partnerFollowing: ["partnerFollowing"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1292,33 +1297,30 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicPartnerPerformance__ArgProps,
-      internalVariantPropNames: PlasmicPartnerPerformance__VariantProps
+      internalArgPropNames: PlasmicPartnerperformance__ArgProps,
+      internalVariantPropNames: PlasmicPartnerperformance__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicPartnerPerformance__RenderFunc({
+    return PlasmicPartnerperformance__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicPartnerPerformance";
+    func.displayName = "PlasmicPartnerperformance";
   } else {
-    func.displayName = `PlasmicPartnerPerformance.${nodeName}`;
+    func.displayName = `PlasmicPartnerperformance.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicPartnerPerformance = Object.assign(
-  // Top-level PlasmicPartnerPerformance renders the root element
+export const PlasmicPartnerperformance = Object.assign(
+  // Top-level PlasmicPartnerperformance renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navbarInternal: makeNodeComponent("navbarInternal"),
     navbarPartnerEdit: makeNodeComponent("navbarPartnerEdit"),
     sectionHeaderPartnerPerformance: makeNodeComponent(
       "sectionHeaderPartnerPerformance"
@@ -1351,12 +1353,11 @@ export const PlasmicPartnerPerformance = Object.assign(
     partnerConnections: makeNodeComponent("partnerConnections"),
     partnerFollowers: makeNodeComponent("partnerFollowers"),
     partnerFollowing: makeNodeComponent("partnerFollowing"),
-    footerB: makeNodeComponent("footerB"),
-    // Metadata about props expected for PlasmicPartnerPerformance
-    internalVariantProps: PlasmicPartnerPerformance__VariantProps,
-    internalArgProps: PlasmicPartnerPerformance__ArgProps
+    // Metadata about props expected for PlasmicPartnerperformance
+    internalVariantProps: PlasmicPartnerperformance__VariantProps,
+    internalArgProps: PlasmicPartnerperformance__ArgProps
   }
 );
 
-export default PlasmicPartnerPerformance;
+export default PlasmicPartnerperformance;
 /* prettier-ignore-end */

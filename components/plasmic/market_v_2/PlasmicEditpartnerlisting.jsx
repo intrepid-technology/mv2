@@ -24,8 +24,8 @@ import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/c
 import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmic-import: fFeX6kEAMB/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicEditpartnerlisting.module.css"; // plasmic-import: o82uoQXhbg/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicEditpartnerlisting.module.css"; // plasmic-import: o82uoQXhbg/css
 
 export const PlasmicEditpartnerlisting__VariantProps = new Array();
 

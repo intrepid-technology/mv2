@@ -22,8 +22,8 @@ import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
 
 export const PlasmicNavbar__VariantProps = new Array("auth", "dark");
 

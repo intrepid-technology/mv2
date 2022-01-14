@@ -17,8 +17,8 @@ import {
 import RadioTextInputPrimary from "../../RadioTextInputPrimary"; // plasmic-import: 1xw4kmw_5l/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTableUserAdminHeader.module.css"; // plasmic-import: hAe6_pu3NI/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTableUserAdminHeader.module.css"; // plasmic-import: hAe6_pu3NI/css
 
 export const PlasmicTableUserAdminHeader__VariantProps = new Array();
 

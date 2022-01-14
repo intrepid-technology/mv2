@@ -26,8 +26,8 @@ import TablePricing from "../../TablePricing"; // plasmic-import: TN5u_5IVRmW/co
 import CardFeatureDescription from "../../CardFeatureDescription"; // plasmic-import: g0j2UvLSvh/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPartnerpricing.module.css"; // plasmic-import: xIU_FMgFYC/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPartnerpricing.module.css"; // plasmic-import: xIU_FMgFYC/css
 import LineIcon from "./icons/PlasmicIcon__Line"; // plasmic-import: fHLiNpAx_6Z/icon
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon

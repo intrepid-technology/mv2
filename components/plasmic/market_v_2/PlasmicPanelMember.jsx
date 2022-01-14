@@ -21,8 +21,8 @@ import SidebarSection from "../../SidebarSection"; // plasmic-import: 09ZmCZkG7z
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import PanelFooter from "../../PanelFooter"; // plasmic-import: y532Y0sDIf/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelMember.module.css"; // plasmic-import: ouYaxX0ZfJN/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelMember.module.css"; // plasmic-import: ouYaxX0ZfJN/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import MemberPartnerAddIcon from "./icons/PlasmicIcon__MemberPartnerAdd"; // plasmic-import: FGYq1z2nvF/icon
 import DashboardLineIcon from "./icons/PlasmicIcon__DashboardLine"; // plasmic-import: Nr2oyG7_xB/icon

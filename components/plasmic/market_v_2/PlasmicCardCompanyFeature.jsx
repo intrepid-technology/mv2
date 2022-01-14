@@ -19,8 +19,8 @@ import TextLocation from "../../TextLocation"; // plasmic-import: O1CbetC3Kf/com
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
 import RatingDisplayDetail from "../../RatingDisplayDetail"; // plasmic-import: e_QdjWvrde/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardCompanyFeature.module.css"; // plasmic-import: AOOy6Qouul/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardCompanyFeature.module.css"; // plasmic-import: AOOy6Qouul/css
 
 export const PlasmicCardCompanyFeature__VariantProps = new Array();
 

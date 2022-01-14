@@ -20,8 +20,8 @@ import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/componen
 import MultiSelectOption from "../../MultiSelectOption"; // plasmic-import: i_xE2f64UA/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMultiSelectInput.module.css"; // plasmic-import: hjWInH_vco/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMultiSelectInput.module.css"; // plasmic-import: hjWInH_vco/css
 import ChevronDownBIcon from "./icons/PlasmicIcon__ChevronDownB"; // plasmic-import: wk3elY0ALL/icon
 
 export const PlasmicMultiSelectInput__VariantProps = new Array("isOpen");

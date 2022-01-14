@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardValueProposition.module.css"; // plasmic-import: oaNvs68b2k/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardValueProposition.module.css"; // plasmic-import: oaNvs68b2k/css
 import Icon114Icon from "./icons/PlasmicIcon__Icon114"; // plasmic-import: 4sI0jLkpS-/icon
 
 export const PlasmicCardValueProposition__VariantProps = new Array(

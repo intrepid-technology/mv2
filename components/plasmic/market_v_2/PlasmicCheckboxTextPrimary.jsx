@@ -19,8 +19,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCheckboxTextPrimary.module.css"; // plasmic-import: DzJ8mMkLUy2/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCheckboxTextPrimary.module.css"; // plasmic-import: DzJ8mMkLUy2/css
 import CheckIcon from "./icons/PlasmicIcon__Check"; // plasmic-import: qh5y8H009Zz/icon
 import Icon50Icon from "./icons/PlasmicIcon__Icon50"; // plasmic-import: 8nDBGRjZh5/icon
 import IndeterminateIcon from "./icons/PlasmicIcon__Indeterminate"; // plasmic-import: SAtgjHFRnv-/icon

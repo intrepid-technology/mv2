@@ -18,8 +18,8 @@ import {
 import Dialog from "../../Dialog"; // plasmic-import: bjYLFDLDv0/component
 import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicDialogInviteProfessional.module.css"; // plasmic-import: UnAAzfphtK/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicDialogInviteProfessional.module.css"; // plasmic-import: UnAAzfphtK/css
 
 export const PlasmicDialogInviteProfessional__VariantProps = new Array();
 

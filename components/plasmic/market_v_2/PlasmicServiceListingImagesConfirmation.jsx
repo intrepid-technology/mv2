@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServiceListingImagesConfirmation.module.css"; // plasmic-import: -iSTU_2K62/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServiceListingImagesConfirmation.module.css"; // plasmic-import: -iSTU_2K62/css
 
 export const PlasmicServiceListingImagesConfirmation__VariantProps =
   new Array();

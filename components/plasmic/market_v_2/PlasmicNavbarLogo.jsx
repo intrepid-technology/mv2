@@ -18,8 +18,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarLogo.module.css"; // plasmic-import: oDDjpt5lQZ/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarLogo.module.css"; // plasmic-import: oDDjpt5lQZ/css
 
 export const PlasmicNavbarLogo__VariantProps = new Array("light", "size");
 

@@ -23,8 +23,8 @@ import ElementCheckoutPromotionPercentTotalValue from "../../ElementCheckoutProm
 import ElementCheckoutTotalHeadline from "../../ElementCheckoutTotalHeadline"; // plasmic-import: gmFIW2AzJW/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCheckoutServiceListing.module.css"; // plasmic-import: UHEuX3OG9AY/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCheckoutServiceListing.module.css"; // plasmic-import: UHEuX3OG9AY/css
 import CellDividerIcon from "./icons/PlasmicIcon__CellDivider"; // plasmic-import: n34VWl8XDZ4/icon
 
 export const PlasmicCheckoutServiceListing__VariantProps = new Array();

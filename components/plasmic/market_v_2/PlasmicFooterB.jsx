@@ -21,8 +21,8 @@ import FooterSocialLinkGroup from "../../FooterSocialLinkGroup"; // plasmic-impo
 import FooterSocialLink from "../../FooterSocialLink"; // plasmic-import: uQNvf8Lt2Y/component
 import FooterLink from "../../FooterLink"; // plasmic-import: V79E-hyi-E/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicFooterB.module.css"; // plasmic-import: kxeO2gTzwxU/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicFooterB.module.css"; // plasmic-import: kxeO2gTzwxU/css
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: EaVXobEXiy/icon
 
 export const PlasmicFooterB__VariantProps = new Array("color");

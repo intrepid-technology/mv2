@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import ElementAnalyticsPercentValueChange from "../../ElementAnalyticsPercentValueChange"; // plasmic-import: Un5cNvAvgb/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardAnalyticsPrimary.module.css"; // plasmic-import: -EGIFSbBWZt/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardAnalyticsPrimary.module.css"; // plasmic-import: -EGIFSbBWZt/css
 import Icon177Icon from "./icons/PlasmicIcon__Icon177"; // plasmic-import: 3qiHrElSQf/icon
 import OptionalFixedBrandColorIcon from "./icons/PlasmicIcon__OptionalFixedBrandColor"; // plasmic-import: Lsqk-ADBoKU/icon
 

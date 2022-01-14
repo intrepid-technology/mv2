@@ -20,8 +20,8 @@ import {
 import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZSTp8Y/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelPartnerSectionMarket.module.css"; // plasmic-import: i3ai6jIm4VK/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelPartnerSectionMarket.module.css"; // plasmic-import: i3ai6jIm4VK/css
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import OrdersIcon from "./icons/PlasmicIcon__Orders"; // plasmic-import: SofRHFzOcM/icon
 import ChartIcon from "./icons/PlasmicIcon__Chart"; // plasmic-import: -1VBIW_pTX/icon

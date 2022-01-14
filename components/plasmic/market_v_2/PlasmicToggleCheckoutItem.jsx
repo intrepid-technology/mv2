@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import ToggleSubscriptionCard from "../../ToggleSubscriptionCard"; // plasmic-import: 7hi-uHtvzE/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicToggleCheckoutItem.module.css"; // plasmic-import: oZVadAmksG/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicToggleCheckoutItem.module.css"; // plasmic-import: oZVadAmksG/css
 
 export const PlasmicToggleCheckoutItem__VariantProps = new Array();
 

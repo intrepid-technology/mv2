@@ -23,8 +23,8 @@ import MenuIconListItem from "../../MenuIconListItem"; // plasmic-import: 61axZS
 import UserAvatar from "../../UserAvatar"; // plasmic-import: KmwWxjrE8L/component
 import { useLayout } from "./PlasmicGlobalVariant__Layout"; // plasmic-import: yRz57WAHKe/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSidebarV2.module.css"; // plasmic-import: cjK2bQuz6A3/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSidebarV2.module.css"; // plasmic-import: cjK2bQuz6A3/css
 import Dashboard2Icon from "./icons/PlasmicIcon__Dashboard2"; // plasmic-import: LJ9ST38jAQ/icon
 import FinanceWalletIcon from "./icons/PlasmicIcon__FinanceWallet"; // plasmic-import: 5hlMU_Ucn8/icon
 import ListingsUpIcon from "./icons/PlasmicIcon__ListingsUp"; // plasmic-import: pqrhOcBoXX/icon

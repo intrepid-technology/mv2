@@ -14,40 +14,36 @@ import * as p from "@plasmicapp/react-web";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
-import ButtonFormDropdownSelect from "../../ButtonFormDropdownSelect"; // plasmic-import: s2oJmDwLX-/component
+import NativeSelectInput from "../../NativeSelectInput"; // plasmic-import: 6rjTfqGTn_/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import SectionServiceFeatures from "../../SectionServiceFeatures"; // plasmic-import: Ulc7rzEWW6/component
-import SectionServiceContent from "../../SectionServiceContent"; // plasmic-import: 62pZUpsW52/component
-import SearchBadge from "../../SearchBadge"; // plasmic-import: DreZnHdEQY/component
-import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
+import MultiCheckboxInput from "../../MultiCheckboxInput"; // plasmic-import: 6TMzn6NJGN/component
+import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
+import MultiSelectInput from "../../MultiSelectInput"; // plasmic-import: hjWInH_vco/component
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServiceListingCategory.module.css"; // plasmic-import: NDaIYzZaPz/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServicelistingcategory.module.css"; // plasmic-import: NDaIYzZaPz/css
 
-export const PlasmicServiceListingCategory__VariantProps = new Array();
+export const PlasmicServicelistingcategory__VariantProps = new Array();
 
-export const PlasmicServiceListingCategory__ArgProps = new Array();
+export const PlasmicServicelistingcategory__ArgProps = new Array();
 
-function PlasmicServiceListingCategory__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+function PlasmicServicelistingcategory__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantso9SjFZaOqjqz()
+  });
+
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -56,16 +52,16 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
-          as={"form"}
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -73,12 +69,14 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(defaultcss.all, sty.serviceListingNavbar)}
+            className={classNames(projectcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
+              hideBack={true}
+              nextButtonDestination={"/service/listing/description"}
             >
               {"Category"}
             </NavbarServiceListing>
@@ -94,14 +92,14 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__lZF)}
+            className={classNames(projectcss.all, sty.freeBox__lZF)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionCategoryBlock"}
               data-plasmic-override={overrides.questionCategoryBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionCategoryBlock)}
+              className={classNames(projectcss.all, sty.questionCategoryBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -111,9 +109,9 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__pkXf3
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pkXf3
                     )}
                   >
                     {"Step 1"}
@@ -123,9 +121,9 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__zq3QH
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__zq3QH
                   )}
                 >
                   {"What kind of service are you listing?"}
@@ -134,23 +132,49 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
 
               <p.Stack
                 as={"div"}
+                data-plasmic-name={"dropdown"}
+                data-plasmic-override={overrides.dropdown}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__x298X)}
+                className={classNames(projectcss.all, sty.dropdown)}
               >
-                <ButtonFormDropdownSelect
-                  dropdownTitle={"Select"}
-                  headlineLabelTitle={"Select a service category"}
-                  size={"_360X40"}
-                />
-
-                <ButtonFormDropdownSelect
+                <NativeSelectInput
+                  data-plasmic-name={"serviceCategorySelectInput"}
+                  data-plasmic-override={overrides.serviceCategorySelectInput}
                   className={classNames(
                     "__wab_instance",
-                    sty.buttonFormDropdownSelect__tbnG
+                    sty.serviceCategorySelectInput
                   )}
-                  dropdownTitle={"Select"}
-                  headlineLabelTitle={"Select a service"}
-                  size={"_360X40"}
+                  label={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__yrj5V
+                      )}
+                    >
+                      {"Service Category"}
+                    </div>
+                  }
+                />
+
+                <NativeSelectInput
+                  data-plasmic-name={"serviceSelectInput"}
+                  data-plasmic-override={overrides.serviceSelectInput}
+                  className={classNames(
+                    "__wab_instance",
+                    sty.serviceSelectInput
+                  )}
+                  label={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__k7Btz
+                      )}
+                    >
+                      {"Service"}
+                    </div>
+                  }
                 />
               </p.Stack>
             </p.Stack>
@@ -171,27 +195,27 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__jpq5H)}
+            className={classNames(projectcss.all, sty.freeBox__jpq5H)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionFeaturesBlock"}
               data-plasmic-override={overrides.questionFeaturesBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionFeaturesBlock)}
+              className={classNames(projectcss.all, sty.questionFeaturesBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
                   "__wab_instance",
                   sty.cardQuestionServiceListing___8HTdO
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___3EZpz
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___3EZpz
                     )}
                   >
                     {"Step 2"}
@@ -201,24 +225,22 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___1Seve
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___1Seve
                   )}
                 >
                   {"What features are included?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <SectionServiceFeatures
-                data-plasmic-name={"sectionServiceFeatures"}
-                data-plasmic-override={overrides.sectionServiceFeatures}
-                breadcrumbs={"breadcrumbs"}
+              <MultiCheckboxInput
+                data-plasmic-name={"serviceFeaturesCheckboxes"}
+                data-plasmic-override={overrides.serviceFeaturesCheckboxes}
                 className={classNames(
                   "__wab_instance",
-                  sty.sectionServiceFeatures
+                  sty.serviceFeaturesCheckboxes
                 )}
-                uxDesign={"userResearch"}
               />
             </p.Stack>
 
@@ -234,54 +256,52 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__wMqc)}
+            className={classNames(projectcss.all, sty.freeBox__wMqc)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionContentBlock"}
               data-plasmic-override={overrides.questionContentBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionContentBlock)}
+              className={classNames(projectcss.all, sty.questionContentBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
                   "__wab_instance",
                   sty.cardQuestionServiceListing__xVvw0
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__ec2Tr
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ec2Tr
                     )}
                   >
                     {"Step 2"}
                   </div>
                 }
-                slot2={"Enter a number for all that apply to your service"}
+                slot2={"Describe the content that is included in your service"}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__bmB1
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__bmB1
                   )}
                 >
                   {"What content is included?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <SectionServiceContent
-                data-plasmic-name={"sectionServiceContent"}
-                data-plasmic-override={overrides.sectionServiceContent}
-                breadcrumbs={"breadcrumbs"}
+              <TextAreaInput
+                data-plasmic-name={"serviceContentTextArea"}
+                data-plasmic-override={overrides.serviceContentTextArea}
                 className={classNames(
                   "__wab_instance",
-                  sty.sectionServiceContent
+                  sty.serviceContentTextArea
                 )}
-                serviceType={"webMultiplePage"}
               />
             </p.Stack>
 
@@ -297,27 +317,27 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__anJua)}
+            className={classNames(projectcss.all, sty.freeBox__anJua)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionIndustryBlock"}
               data-plasmic-override={overrides.questionIndustryBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionIndustryBlock)}
+              className={classNames(projectcss.all, sty.questionIndustryBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
                   "__wab_instance",
                   sty.cardQuestionServiceListing__uTqYv
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__x2Yx9
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__x2Yx9
                     )}
                   >
                     {"Step 2"}
@@ -326,9 +346,9 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                 slot2={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__bIpMh
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__bIpMh
                     )}
                   >
                     {"Choose industry tags for better matching. Max 5 tags."}
@@ -337,126 +357,23 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__kUwyk
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__kUwyk
                   )}
                 >
                   {"What is the industry community for your service?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <SearchBadge
-                className={classNames("__wab_instance", sty.searchBadge__icJl8)}
-              >
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__pz6Zd
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__iTzFp
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__eu6JQ
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__i3Mav
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__h93Hl
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__kItB5
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__y9Mo
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___3KdQz
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__fenyn
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__bDUg
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__tsx9I
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__cCYr
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-              </SearchBadge>
+              <MultiSelectInput
+                data-plasmic-name={"serviceIndustriesSelect"}
+                data-plasmic-override={overrides.serviceIndustriesSelect}
+                className={classNames(
+                  "__wab_instance",
+                  sty.serviceIndustriesSelect
+                )}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -465,33 +382,37 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
                 sty.toolTipServiceListing__n3X4A
               )}
               slot={"About industry categories"}
-            />
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"
+              }
+            </ToolTipServiceListing>
           </p.Stack>
 
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__sdBU)}
+            className={classNames(projectcss.all, sty.freeBox__sdBU)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionToolsBlock"}
               data-plasmic-override={overrides.questionToolsBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionToolsBlock)}
+              className={classNames(projectcss.all, sty.questionToolsBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
                   "__wab_instance",
                   sty.cardQuestionServiceListing__f8IjI
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___5Hiy
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___5Hiy
                     )}
                   >
                     {"Step 2"}
@@ -503,129 +424,20 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__dwbMk
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__dwbMk
                   )}
                 >
                   {"What tools, or technology do you use for your service?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <SearchBadge
-                className={classNames(
-                  "__wab_instance",
-                  sty.searchBadge___0Gt9X
-                )}
-              >
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__lmADv
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__x1CJ
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__qZrmk
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__xco1P
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__nbmqT
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___9Y1PI
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__ul2Kn
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__ptPw5
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay___4OWSg
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__ioDe
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-
-                <ChipBadgeDisplay
-                  className={classNames(
-                    "__wab_instance",
-                    sty.chipBadgeDisplay__uimjw
-                  )}
-                  type={"ghost"}
-                >
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__xKpSu
-                    )}
-                  >
-                    {"Badge"}
-                  </div>
-                </ChipBadgeDisplay>
-              </SearchBadge>
+              <MultiSelectInput
+                data-plasmic-name={"serviceToolsSelect"}
+                data-plasmic-override={overrides.serviceToolsSelect}
+                className={classNames("__wab_instance", sty.serviceToolsSelect)}
+              />
             </p.Stack>
 
             <ToolTipServiceListing
@@ -637,9 +449,9 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
             >
               <div
                 className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box___1Gzs4
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___1Gzs4
                 )}
               >
                 {
@@ -648,12 +460,6 @@ function PlasmicServiceListingCategory__RenderFunc(props) {
               </div>
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -667,13 +473,17 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionCategoryBlock",
+    "dropdown",
+    "serviceCategorySelectInput",
+    "serviceSelectInput",
     "questionFeaturesBlock",
-    "sectionServiceFeatures",
+    "serviceFeaturesCheckboxes",
     "questionContentBlock",
-    "sectionServiceContent",
+    "serviceContentTextArea",
     "questionIndustryBlock",
+    "serviceIndustriesSelect",
     "questionToolsBlock",
-    "footerServiceListing"
+    "serviceToolsSelect"
   ],
 
   serviceListingNavbar: [
@@ -684,14 +494,24 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionCategoryBlock: ["questionCategoryBlock"],
-  questionFeaturesBlock: ["questionFeaturesBlock", "sectionServiceFeatures"],
-  sectionServiceFeatures: ["sectionServiceFeatures"],
-  questionContentBlock: ["questionContentBlock", "sectionServiceContent"],
-  sectionServiceContent: ["sectionServiceContent"],
-  questionIndustryBlock: ["questionIndustryBlock"],
-  questionToolsBlock: ["questionToolsBlock"],
-  footerServiceListing: ["footerServiceListing"]
+  questionCategoryBlock: [
+    "questionCategoryBlock",
+    "dropdown",
+    "serviceCategorySelectInput",
+    "serviceSelectInput"
+  ],
+
+  dropdown: ["dropdown", "serviceCategorySelectInput", "serviceSelectInput"],
+  serviceCategorySelectInput: ["serviceCategorySelectInput"],
+  serviceSelectInput: ["serviceSelectInput"],
+  questionFeaturesBlock: ["questionFeaturesBlock", "serviceFeaturesCheckboxes"],
+  serviceFeaturesCheckboxes: ["serviceFeaturesCheckboxes"],
+  questionContentBlock: ["questionContentBlock", "serviceContentTextArea"],
+  serviceContentTextArea: ["serviceContentTextArea"],
+  questionIndustryBlock: ["questionIndustryBlock", "serviceIndustriesSelect"],
+  serviceIndustriesSelect: ["serviceIndustriesSelect"],
+  questionToolsBlock: ["questionToolsBlock", "serviceToolsSelect"],
+  serviceToolsSelect: ["serviceToolsSelect"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -699,29 +519,27 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicServiceListingCategory__ArgProps,
-      internalVariantPropNames: PlasmicServiceListingCategory__VariantProps
+      internalArgPropNames: PlasmicServicelistingcategory__ArgProps,
+      internalVariantPropNames: PlasmicServicelistingcategory__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicServiceListingCategory__RenderFunc({
+    return PlasmicServicelistingcategory__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicServiceListingCategory";
+    func.displayName = "PlasmicServicelistingcategory";
   } else {
-    func.displayName = `PlasmicServiceListingCategory.${nodeName}`;
+    func.displayName = `PlasmicServicelistingcategory.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicServiceListingCategory = Object.assign(
-  // Top-level PlasmicServiceListingCategory renders the root element
+export const PlasmicServicelistingcategory = Object.assign(
+  // Top-level PlasmicServicelistingcategory renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
@@ -729,18 +547,22 @@ export const PlasmicServiceListingCategory = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionCategoryBlock: makeNodeComponent("questionCategoryBlock"),
+    dropdown: makeNodeComponent("dropdown"),
+    serviceCategorySelectInput: makeNodeComponent("serviceCategorySelectInput"),
+    serviceSelectInput: makeNodeComponent("serviceSelectInput"),
     questionFeaturesBlock: makeNodeComponent("questionFeaturesBlock"),
-    sectionServiceFeatures: makeNodeComponent("sectionServiceFeatures"),
+    serviceFeaturesCheckboxes: makeNodeComponent("serviceFeaturesCheckboxes"),
     questionContentBlock: makeNodeComponent("questionContentBlock"),
-    sectionServiceContent: makeNodeComponent("sectionServiceContent"),
+    serviceContentTextArea: makeNodeComponent("serviceContentTextArea"),
     questionIndustryBlock: makeNodeComponent("questionIndustryBlock"),
+    serviceIndustriesSelect: makeNodeComponent("serviceIndustriesSelect"),
     questionToolsBlock: makeNodeComponent("questionToolsBlock"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
-    // Metadata about props expected for PlasmicServiceListingCategory
-    internalVariantProps: PlasmicServiceListingCategory__VariantProps,
-    internalArgProps: PlasmicServiceListingCategory__ArgProps
+    serviceToolsSelect: makeNodeComponent("serviceToolsSelect"),
+    // Metadata about props expected for PlasmicServicelistingcategory
+    internalVariantProps: PlasmicServicelistingcategory__VariantProps,
+    internalArgProps: PlasmicServicelistingcategory__ArgProps
   }
 );
 
-export default PlasmicServiceListingCategory;
+export default PlasmicServicelistingcategory;
 /* prettier-ignore-end */

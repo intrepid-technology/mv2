@@ -18,8 +18,8 @@ import {
 import ButtonStripeConnect from "../../ButtonStripeConnect"; // plasmic-import: GkIWBCEvRU/component
 import ChipStripeLink from "../../ChipStripeLink"; // plasmic-import: TzNLRNFhlx/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonGroupStripeConnect.module.css"; // plasmic-import: d5Rau78kDe/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonGroupStripeConnect.module.css"; // plasmic-import: d5Rau78kDe/css
 
 export const PlasmicButtonGroupStripeConnect__VariantProps = new Array();
 

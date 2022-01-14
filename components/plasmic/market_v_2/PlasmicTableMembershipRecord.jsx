@@ -20,8 +20,8 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
 import ButtonCircleDelete from "../../ButtonCircleDelete"; // plasmic-import: nkuQ1X_r6B/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTableMembershipRecord.module.css"; // plasmic-import: KowVnZaBQEh/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTableMembershipRecord.module.css"; // plasmic-import: KowVnZaBQEh/css
 
 export const PlasmicTableMembershipRecord__VariantProps = new Array();
 

@@ -18,8 +18,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSidebarItem.module.css"; // plasmic-import: 5M7wE13TFT/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSidebarItem.module.css"; // plasmic-import: 5M7wE13TFT/css
 
 export const PlasmicSidebarItem__VariantProps = new Array("selected");
 

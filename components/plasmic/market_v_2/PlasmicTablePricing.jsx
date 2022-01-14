@@ -23,8 +23,8 @@ import PricingPageElementFeaturesBlock from "../../PricingPageElementFeaturesBlo
 import PricingPageElementServiceBlock from "../../PricingPageElementServiceBlock"; // plasmic-import: 7N2UMf446In/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTablePricing.module.css"; // plasmic-import: TN5u_5IVRmW/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTablePricing.module.css"; // plasmic-import: TN5u_5IVRmW/css
 import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2Lrvqk/icon
 import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon

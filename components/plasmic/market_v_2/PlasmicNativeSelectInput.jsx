@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import SelectInput from "../../SelectInput"; // plasmic-import: 6gReGypE5kO/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNativeSelectInput.module.css"; // plasmic-import: 6rjTfqGTn_/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNativeSelectInput.module.css"; // plasmic-import: 6rjTfqGTn_/css
 
 export const PlasmicNativeSelectInput__VariantProps = new Array("hideLabel");
 

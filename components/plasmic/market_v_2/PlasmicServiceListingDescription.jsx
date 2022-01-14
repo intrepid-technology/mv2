@@ -14,38 +14,35 @@ import * as p from "@plasmicapp/react-web";
 import {
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import NavbarServiceListing from "../../NavbarServiceListing"; // plasmic-import: PUBVQZa84u/component
 import ProgressBar from "../../ProgressBar"; // plasmic-import: jFfoBtNGGG/component
 import CardQuestionServiceListing from "../../CardQuestionServiceListing"; // plasmic-import: hAog-BJq-d/component
-import InputTextField from "../../InputTextField"; // plasmic-import: ATs3nXJ-Tjc/component
+import TextInput from "../../TextInput"; // plasmic-import: Ss3X7VAgr4Y/component
 import ToolTipServiceListing from "../../ToolTipServiceListing"; // plasmic-import: GDvJTAih6h/component
-import InputRichTextField from "../../InputRichTextField"; // plasmic-import: V-SFFoHu_mr/component
-import ServiceListingProcessCard from "../../ServiceListingProcessCard"; // plasmic-import: 3CifhlTUu0m/component
-import FooterServiceListing from "../../FooterServiceListing"; // plasmic-import: XhB16zaJfQ/component
+import TextAreaInput from "../../TextAreaInput"; // plasmic-import: 0ftTMwkv9kS/component
+import ArrayInputFields from "../../ArrayInputFields"; // plasmic-import: GNcqDwksoT/component
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServiceListingDescription.module.css"; // plasmic-import: 61iZdr_d05z/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServicelistingdescription.module.css"; // plasmic-import: 61iZdr_d05z/css
 
-export const PlasmicServiceListingDescription__VariantProps = new Array();
+export const PlasmicServicelistingdescription__VariantProps = new Array();
 
-export const PlasmicServiceListingDescription__ArgProps = new Array();
+export const PlasmicServicelistingdescription__ArgProps = new Array();
 
-function PlasmicServiceListingDescription__RenderFunc(props) {
-  const { variants, args, overrides, forNode, dataFetches } = props;
+function PlasmicServicelistingdescription__RenderFunc(props) {
+  const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantso9SjFZaOqjqz()
+  });
+
   return (
     <React.Fragment>
       <Head>
-        <title key="title">{""}</title>
-        <meta key="og:title" property="og:title" content={""} />
-        <meta
-          key="description"
-          name="description"
-          property="og:description"
-          content={""}
-        />
+        <meta name="twitter:card" content="summary" />
       </Head>
 
       <style>{`
@@ -54,16 +51,16 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
         }
       `}</style>
 
-      <div className={defaultcss.plasmic_page_wrapper}>
+      <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
-          as={"form"}
+          as={"div"}
           data-plasmic-name={"root"}
           data-plasmic-override={overrides.root}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           hasGap={true}
           className={classNames(
-            defaultcss.all,
+            projectcss.all,
             projectcss.root_reset,
             sty.root
           )}
@@ -71,12 +68,14 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
           <div
             data-plasmic-name={"serviceListingNavbar"}
             data-plasmic-override={overrides.serviceListingNavbar}
-            className={classNames(defaultcss.all, sty.serviceListingNavbar)}
+            className={classNames(projectcss.all, sty.serviceListingNavbar)}
           >
             <NavbarServiceListing
               data-plasmic-name={"navbarServiceListing"}
               data-plasmic-override={overrides.navbarServiceListing}
+              backButtonDestination={"/service/listing/category"}
               className={classNames("__wab_instance", sty.navbarServiceListing)}
+              nextButtonDestination={"/service/listing/image"}
             >
               {"Description"}
             </NavbarServiceListing>
@@ -85,21 +84,21 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
               data-plasmic-name={"progressBar"}
               data-plasmic-override={overrides.progressBar}
               className={classNames("__wab_instance", sty.progressBar)}
-              progress={"_30"}
+              progress={"_40"}
             />
           </div>
 
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box___09Zdm)}
+            className={classNames(projectcss.all, sty.freeBox___09Zdm)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionTitleBlock"}
               data-plasmic-override={overrides.questionTitleBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionTitleBlock)}
+              className={classNames(projectcss.all, sty.questionTitleBlock)}
             >
               <CardQuestionServiceListing
                 className={classNames(
@@ -109,9 +108,9 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__nr931
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nr931
                     )}
                   >
                     {"Step 2"}
@@ -121,19 +120,20 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__laelq
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__laelq
                   )}
                 >
                   {"What is the name/title of your service?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <InputTextField
-                data-plasmic-name={"inputTextField"}
-                data-plasmic-override={overrides.inputTextField}
-                className={classNames("__wab_instance", sty.inputTextField)}
+              <TextInput
+                data-plasmic-name={"serviceNameInput"}
+                data-plasmic-override={overrides.serviceNameInput}
+                className={classNames("__wab_instance", sty.serviceNameInput)}
+                placeholder={"Service Name"}
               />
             </p.Stack>
 
@@ -153,7 +153,7 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__qeVgc)}
+            className={classNames(projectcss.all, sty.freeBox__qeVgc)}
           >
             <p.Stack
               as={"div"}
@@ -161,7 +161,7 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
               data-plasmic-override={overrides.questionDescriptionBlock}
               hasGap={true}
               className={classNames(
-                defaultcss.all,
+                projectcss.all,
                 sty.questionDescriptionBlock
               )}
             >
@@ -170,13 +170,13 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                   "__wab_instance",
                   sty.cardQuestionServiceListing__ts7RO
                 )}
-                overline={"overline"}
+                overline={true}
                 slot={
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__uc5Jc
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uc5Jc
                     )}
                   >
                     {"Step 2"}
@@ -188,22 +188,23 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box___0B5MK
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___0B5MK
                   )}
                 >
                   {"What is the description of your service?"}
                 </div>
               </CardQuestionServiceListing>
 
-              <InputRichTextField
+              <TextAreaInput
+                data-plasmic-name={"serviceDescriptionInput"}
+                data-plasmic-override={overrides.serviceDescriptionInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.inputRichTextField__tm58R
+                  sty.serviceDescriptionInput
                 )}
-                description={"description"}
-                headline={"headline"}
+                placeholder={"Describe"}
               />
             </p.Stack>
 
@@ -223,32 +224,32 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(defaultcss.all, sty.box__axd3H)}
+            className={classNames(projectcss.all, sty.freeBox__axd3H)}
           >
             <p.Stack
               as={"div"}
               data-plasmic-name={"questionProcessBlock"}
               data-plasmic-override={overrides.questionProcessBlock}
               hasGap={true}
-              className={classNames(defaultcss.all, sty.questionProcessBlock)}
+              className={classNames(projectcss.all, sty.questionProcessBlock)}
             >
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__j5P5R)}
+                className={classNames(projectcss.all, sty.freeBox__j5P5R)}
               >
                 <CardQuestionServiceListing
                   className={classNames(
                     "__wab_instance",
                     sty.cardQuestionServiceListing___7VrCf
                   )}
-                  overline={"overline"}
+                  overline={true}
                   slot={
                     <div
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__vqvCv
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__vqvCv
                       )}
                     >
                       {"Step 2"}
@@ -257,9 +258,9 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                   slot2={
                     <div
                       className={classNames(
-                        defaultcss.all,
-                        defaultcss.__wab_text,
-                        sty.box__wEkof
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__wEkof
                       )}
                     >
                       {"Describe a minimum of 1 step, to maximum of 8 steps."}
@@ -268,9 +269,9 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                 >
                   <div
                     className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box__io8Zz
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__io8Zz
                     )}
                   >
                     {"What is your unique service delivery process?"}
@@ -278,37 +279,39 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
                 </CardQuestionServiceListing>
               </p.Stack>
 
-              <InputRichTextField
+              <TextAreaInput
+                data-plasmic-name={"processDeliveryOverviewInput"}
+                data-plasmic-override={overrides.processDeliveryOverviewInput}
                 className={classNames(
                   "__wab_instance",
-                  sty.inputRichTextField__y56Zz
+                  sty.processDeliveryOverviewInput
                 )}
-                description={"description"}
-              >
-                {"Short overview"}
-              </InputRichTextField>
+                label={"Short Overview"}
+                placeholder={"Describe"}
+                showLabel={true}
+              />
 
               <p.Stack
                 as={"div"}
                 hasGap={true}
-                className={classNames(defaultcss.all, sty.box__oslf)}
+                className={classNames(projectcss.all, sty.freeBox__oslf)}
               >
                 <div
                   className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__mnyPp
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__mnyPp
                   )}
                 >
                   {"Description"}
                 </div>
 
-                <ServiceListingProcessCard
-                  data-plasmic-name={"serviceListingProcessCard"}
-                  data-plasmic-override={overrides.serviceListingProcessCard}
+                <ArrayInputFields
+                  data-plasmic-name={"processStepsArrayFields"}
+                  data-plasmic-override={overrides.processStepsArrayFields}
                   className={classNames(
                     "__wab_instance",
-                    sty.serviceListingProcessCard
+                    sty.processStepsArrayFields
                   )}
                 />
               </p.Stack>
@@ -326,12 +329,6 @@ function PlasmicServiceListingDescription__RenderFunc(props) {
               }
             </ToolTipServiceListing>
           </p.Stack>
-
-          <FooterServiceListing
-            data-plasmic-name={"footerServiceListing"}
-            data-plasmic-override={overrides.footerServiceListing}
-            className={classNames("__wab_instance", sty.footerServiceListing)}
-          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -345,11 +342,12 @@ const PlasmicDescendants = {
     "navbarServiceListing",
     "progressBar",
     "questionTitleBlock",
-    "inputTextField",
+    "serviceNameInput",
     "questionDescriptionBlock",
+    "serviceDescriptionInput",
     "questionProcessBlock",
-    "serviceListingProcessCard",
-    "footerServiceListing"
+    "processDeliveryOverviewInput",
+    "processStepsArrayFields"
   ],
 
   serviceListingNavbar: [
@@ -360,12 +358,22 @@ const PlasmicDescendants = {
 
   navbarServiceListing: ["navbarServiceListing"],
   progressBar: ["progressBar"],
-  questionTitleBlock: ["questionTitleBlock", "inputTextField"],
-  inputTextField: ["inputTextField"],
-  questionDescriptionBlock: ["questionDescriptionBlock"],
-  questionProcessBlock: ["questionProcessBlock", "serviceListingProcessCard"],
-  serviceListingProcessCard: ["serviceListingProcessCard"],
-  footerServiceListing: ["footerServiceListing"]
+  questionTitleBlock: ["questionTitleBlock", "serviceNameInput"],
+  serviceNameInput: ["serviceNameInput"],
+  questionDescriptionBlock: [
+    "questionDescriptionBlock",
+    "serviceDescriptionInput"
+  ],
+
+  serviceDescriptionInput: ["serviceDescriptionInput"],
+  questionProcessBlock: [
+    "questionProcessBlock",
+    "processDeliveryOverviewInput",
+    "processStepsArrayFields"
+  ],
+
+  processDeliveryOverviewInput: ["processDeliveryOverviewInput"],
+  processStepsArrayFields: ["processStepsArrayFields"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -373,29 +381,27 @@ function makeNodeComponent(nodeName) {
     const { variants, args, overrides } = deriveRenderOpts(props, {
       name: nodeName,
       descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicServiceListingDescription__ArgProps,
-      internalVariantPropNames: PlasmicServiceListingDescription__VariantProps
+      internalArgPropNames: PlasmicServicelistingdescription__ArgProps,
+      internalVariantPropNames: PlasmicServicelistingdescription__VariantProps
     });
 
-    const { dataFetches } = props;
-    return PlasmicServiceListingDescription__RenderFunc({
+    return PlasmicServicelistingdescription__RenderFunc({
       variants,
       args,
       overrides,
-      dataFetches,
       forNode: nodeName
     });
   };
   if (nodeName === "root") {
-    func.displayName = "PlasmicServiceListingDescription";
+    func.displayName = "PlasmicServicelistingdescription";
   } else {
-    func.displayName = `PlasmicServiceListingDescription.${nodeName}`;
+    func.displayName = `PlasmicServicelistingdescription.${nodeName}`;
   }
   return func;
 }
 
-export const PlasmicServiceListingDescription = Object.assign(
-  // Top-level PlasmicServiceListingDescription renders the root element
+export const PlasmicServicelistingdescription = Object.assign(
+  // Top-level PlasmicServicelistingdescription renders the root element
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
@@ -403,16 +409,20 @@ export const PlasmicServiceListingDescription = Object.assign(
     navbarServiceListing: makeNodeComponent("navbarServiceListing"),
     progressBar: makeNodeComponent("progressBar"),
     questionTitleBlock: makeNodeComponent("questionTitleBlock"),
-    inputTextField: makeNodeComponent("inputTextField"),
+    serviceNameInput: makeNodeComponent("serviceNameInput"),
     questionDescriptionBlock: makeNodeComponent("questionDescriptionBlock"),
+    serviceDescriptionInput: makeNodeComponent("serviceDescriptionInput"),
     questionProcessBlock: makeNodeComponent("questionProcessBlock"),
-    serviceListingProcessCard: makeNodeComponent("serviceListingProcessCard"),
-    footerServiceListing: makeNodeComponent("footerServiceListing"),
-    // Metadata about props expected for PlasmicServiceListingDescription
-    internalVariantProps: PlasmicServiceListingDescription__VariantProps,
-    internalArgProps: PlasmicServiceListingDescription__ArgProps
+    processDeliveryOverviewInput: makeNodeComponent(
+      "processDeliveryOverviewInput"
+    ),
+
+    processStepsArrayFields: makeNodeComponent("processStepsArrayFields"),
+    // Metadata about props expected for PlasmicServicelistingdescription
+    internalVariantProps: PlasmicServicelistingdescription__VariantProps,
+    internalArgProps: PlasmicServicelistingdescription__ArgProps
   }
 );
 
-export default PlasmicServiceListingDescription;
+export default PlasmicServicelistingdescription;
 /* prettier-ignore-end */

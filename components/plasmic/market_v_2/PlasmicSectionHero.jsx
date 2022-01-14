@@ -19,8 +19,8 @@ import {
 import HeroWelcomeCta from "../../HeroWelcomeCta"; // plasmic-import: zcIXnSYZXs/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionHero.module.css"; // plasmic-import: GUJw1Rdg6k/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionHero.module.css"; // plasmic-import: GUJw1Rdg6k/css
 
 export const PlasmicSectionHero__VariantProps = new Array("persona");
 

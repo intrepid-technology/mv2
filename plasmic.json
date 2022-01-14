@@ -6998,7 +6998,123 @@
           "filePath": "../public/plasmic/market_v_2/images/collinUserImage.jpeg"
         }
       ],
-      "codeComponents": [],
+      "codeComponents": [
+        {
+          "id": "sMHzIgjOlL",
+          "name": "Button",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "VHsTpMgspe",
+          "name": "Slider",
+          "componentImportPath": "@plasmicpkgs/antd"
+        },
+        {
+          "id": "JUI8f8snjJ",
+          "name": "Switch",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "zidt_myrLf",
+          "name": "Option",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "TYTQcCkOUP",
+          "name": "OptGroup",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "qtZFMpYipvB",
+          "name": "Select",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "0lkRWSD0mgY",
+          "name": "CollapsePanel",
+          "componentImportPath": "antd/lib/collapse/CollapsePanel"
+        },
+        {
+          "id": "niQlc6sODgx",
+          "name": "Collapse",
+          "componentImportPath": "antd/lib/collapse/Collapse"
+        },
+        {
+          "id": "QGixuZelMAW",
+          "name": "Checkbox",
+          "componentImportPath": "antd/lib/checkbox/Checkbox"
+        },
+        {
+          "id": "n8ZUcyQ1-6r",
+          "name": "CheckboxGroup",
+          "componentImportPath": "antd/lib/checkbox/Group"
+        },
+        {
+          "id": "6QKkNjnIQMM",
+          "name": "MenuDivider",
+          "componentImportPath": "antd/lib/menu/MenuDivider"
+        },
+        {
+          "id": "sc6Shmdbm7l",
+          "name": "MenuItem",
+          "componentImportPath": "antd/lib/menu/MenuItem"
+        },
+        {
+          "id": "tIedn1SNu8D",
+          "name": "ItemGroup",
+          "componentImportPath": "rc-menu"
+        },
+        {
+          "id": "bSjVK9ZJKRg",
+          "name": "SubMenu",
+          "componentImportPath": "antd/lib/menu/SubMenu"
+        },
+        {
+          "id": "c13Gs7zZRog",
+          "name": "Menu",
+          "componentImportPath": "antd/lib/menu/index"
+        },
+        {
+          "id": "YUmiIFuckgl",
+          "name": "Dropdown",
+          "componentImportPath": "@plasmicpkgs/antd"
+        },
+        {
+          "id": "-h7elKTddAp",
+          "name": "DropdownButton",
+          "componentImportPath": "antd/lib/dropdown/dropdown-button"
+        },
+        {
+          "id": "_2ewFfQhUrB",
+          "name": "Carousel",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "3YLkhzw0Zp8",
+          "name": "Input",
+          "componentImportPath": "antd"
+        },
+        {
+          "id": "PZx1L127S_U",
+          "name": "TextArea",
+          "componentImportPath": "antd/lib/input/TextArea"
+        },
+        {
+          "id": "gFEXFsajMWS",
+          "name": "Search",
+          "componentImportPath": "antd/lib/input/Search"
+        },
+        {
+          "id": "fBWy5mkOzay",
+          "name": "Password",
+          "componentImportPath": "antd/lib/input/Password"
+        },
+        {
+          "id": "g_WXZYI8mdV",
+          "name": "InputGroup",
+          "componentImportPath": "antd/lib/input/Group"
+        }
+      ],
       "projectApiToken": "SgidvoAJxjkeu8ZByBRp61mVLVmsbTeuvDf50YqXKinCNhhV47dUPP2ver0Yjvwu7qIVDF0CbGr05Y6Og",
       "indirect": false
     }

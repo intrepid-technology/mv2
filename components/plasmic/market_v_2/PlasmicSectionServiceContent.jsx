@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import InputCardNumberField from "../../InputCardNumberField"; // plasmic-import: gjyxgsDEI-/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionServiceContent.module.css"; // plasmic-import: 62pZUpsW52/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionServiceContent.module.css"; // plasmic-import: 62pZUpsW52/css
 
 export const PlasmicSectionServiceContent__VariantProps = new Array(
   "breadcrumbs",

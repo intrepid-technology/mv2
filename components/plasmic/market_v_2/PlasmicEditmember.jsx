@@ -29,8 +29,8 @@ import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import
 import SocialPlatformsSwitchInputs from "../../SocialPlatformsSwitchInputs"; // plasmic-import: KT8HFDqoR9t/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicEditmember.module.css"; // plasmic-import: QfGXBtwgwt/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicEditmember.module.css"; // plasmic-import: QfGXBtwgwt/css
 
 export const PlasmicEditmember__VariantProps = new Array();
 

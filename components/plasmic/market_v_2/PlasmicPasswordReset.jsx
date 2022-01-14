@@ -18,8 +18,8 @@ import {
 import NavbarStatic from "../../NavbarStatic"; // plasmic-import: rvDpPOFOSj/component
 import CardPasswordReset from "../../CardPasswordReset"; // plasmic-import: Olpj-oqQtA/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPasswordReset.module.css"; // plasmic-import: z3AR9mDcSO/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPasswordReset.module.css"; // plasmic-import: z3AR9mDcSO/css
 
 export const PlasmicPasswordReset__VariantProps = new Array();
 

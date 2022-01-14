@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTeF8/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSocialPlatformsSwitchInputs.module.css"; // plasmic-import: KT8HFDqoR9t/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSocialPlatformsSwitchInputs.module.css"; // plasmic-import: KT8HFDqoR9t/css
 import Icon6Icon from "./icons/PlasmicIcon__Icon6"; // plasmic-import: mYZ3_5X8rB/icon
 import FacebookSquareFillIcon from "./icons/PlasmicIcon__FacebookSquareFill"; // plasmic-import: wOX2gl0oUy/icon
 import Icon10Icon from "./icons/PlasmicIcon__Icon10"; // plasmic-import: DEc54POMG/icon

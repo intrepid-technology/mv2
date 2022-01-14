@@ -18,8 +18,8 @@ import {
 import PartnerProfileSummaryDropdown from "../../PartnerProfileSummaryDropdown"; // plasmic-import: luagzhtXbcO/component
 import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelHeaderDisplayPartner.module.css"; // plasmic-import: yNsN5_wXEjo/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelHeaderDisplayPartner.module.css"; // plasmic-import: yNsN5_wXEjo/css
 
 export const PlasmicPanelHeaderDisplayPartner__VariantProps = new Array();
 

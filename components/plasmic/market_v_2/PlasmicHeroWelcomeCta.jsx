@@ -22,8 +22,8 @@ import ButtonUberStyle from "../../ButtonUberStyle"; // plasmic-import: JpZ_1tH-
 import InputEmailB from "../../InputEmailB"; // plasmic-import: TlHGxonFgD/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicHeroWelcomeCta.module.css"; // plasmic-import: zcIXnSYZXs/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicHeroWelcomeCta.module.css"; // plasmic-import: zcIXnSYZXs/css
 
 export const PlasmicHeroWelcomeCta__VariantProps = new Array(
   "size",

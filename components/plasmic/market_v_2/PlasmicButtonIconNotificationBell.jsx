@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import TagNotification from "../../TagNotification"; // plasmic-import: -8KQRPGoiM/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicButtonIconNotificationBell.module.css"; // plasmic-import: oyQklGfTop/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicButtonIconNotificationBell.module.css"; // plasmic-import: oyQklGfTop/css
 import NotificationBellIcon from "./icons/PlasmicIcon__NotificationBell"; // plasmic-import: e76jROc_X/icon
 
 export const PlasmicButtonIconNotificationBell__VariantProps = new Array(

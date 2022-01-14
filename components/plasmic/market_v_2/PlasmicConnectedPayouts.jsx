@@ -19,8 +19,8 @@ import {
 import InputFormCardWebhookConnections from "../../InputFormCardWebhookConnections"; // plasmic-import: gKd8t6dFgYd/component
 import CardConnectedAccount from "../../CardConnectedAccount"; // plasmic-import: _uTya7yxqeE/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicConnectedPayouts.module.css"; // plasmic-import: MWF4dfPCn0i/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicConnectedPayouts.module.css"; // plasmic-import: MWF4dfPCn0i/css
 
 export const PlasmicConnectedPayouts__VariantProps = new Array(
   "closed",

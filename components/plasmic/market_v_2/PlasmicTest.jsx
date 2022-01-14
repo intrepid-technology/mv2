@@ -26,10 +26,10 @@ import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTe
 import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
 import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import DialogInviteProfessional from "../../DialogInviteProfessional"; // plasmic-import: UnAAzfphtK/component
+import { Input } from "antd"; // plasmic-import: 3YLkhzw0Zp8/codeComponent
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTest.module.css"; // plasmic-import: v_33trlWhR/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTest.module.css"; // plasmic-import: v_33trlWhR/css
 
 export const PlasmicTest__VariantProps = new Array();
 
@@ -189,14 +189,20 @@ function PlasmicTest__RenderFunc(props) {
             </div>
           </FormContext>
 
-          <DialogInviteProfessional
-            data-plasmic-name={"dialogInviteProfessional"}
-            data-plasmic-override={overrides.dialogInviteProfessional}
-            className={classNames(
-              "__wab_instance",
-              sty.dialogInviteProfessional
-            )}
-          />
+          <div className={classNames(projectcss.all, sty.freeBox__h9MGu)}>
+            <Input
+              data-plasmic-name={"antdInput"}
+              data-plasmic-override={overrides.antdInput}
+              allowClear={false}
+              bordered={false}
+              className={classNames("__wab_instance", sty.antdInput)}
+              defaultValue={"asdfasdfasdfasdfadsfasfasdf"}
+              disabled={false}
+              maxLength={10}
+              size={"large"}
+              type={"text"}
+            />
+          </div>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -216,7 +222,7 @@ const PlasmicDescendants = {
     "formMultiSelectInput",
     "submitButton",
     "text",
-    "dialogInviteProfessional"
+    "antdInput"
   ],
 
   formContext: [
@@ -241,7 +247,7 @@ const PlasmicDescendants = {
   formMultiSelectInput: ["formMultiSelectInput"],
   submitButton: ["submitButton", "text"],
   text: ["text"],
-  dialogInviteProfessional: ["dialogInviteProfessional"]
+  antdInput: ["antdInput"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -283,7 +289,7 @@ export const PlasmicTest = Object.assign(
     formMultiSelectInput: makeNodeComponent("formMultiSelectInput"),
     submitButton: makeNodeComponent("submitButton"),
     text: makeNodeComponent("text"),
-    dialogInviteProfessional: makeNodeComponent("dialogInviteProfessional"),
+    antdInput: makeNodeComponent("antdInput"),
     // Metadata about props expected for PlasmicTest
     internalVariantProps: PlasmicTest__VariantProps,
     internalArgProps: PlasmicTest__ArgProps

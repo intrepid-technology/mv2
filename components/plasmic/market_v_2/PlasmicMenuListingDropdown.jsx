@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import MenuItem from "../../MenuItem"; // plasmic-import: VVXqLHd1Qa/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMenuListingDropdown.module.css"; // plasmic-import: IFFoU3tcDj/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMenuListingDropdown.module.css"; // plasmic-import: IFFoU3tcDj/css
 
 export const PlasmicMenuListingDropdown__VariantProps = new Array();
 

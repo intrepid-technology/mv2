@@ -19,8 +19,8 @@ import {
 import NavLink from "../../NavLink"; // plasmic-import: jGROxaZ_Hy/component
 import NavLinkCounter from "../../NavLinkCounter"; // plasmic-import: -OUVGqQU5t/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarTeamUserProfile.module.css"; // plasmic-import: 6HzrYVr_1ZK/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarTeamUserProfile.module.css"; // plasmic-import: 6HzrYVr_1ZK/css
 
 export const PlasmicNavbarTeamUserProfile__VariantProps = new Array("selected");
 

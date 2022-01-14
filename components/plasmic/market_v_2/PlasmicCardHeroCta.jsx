@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardHeroCta.module.css"; // plasmic-import: W1y9EWGWrY/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardHeroCta.module.css"; // plasmic-import: W1y9EWGWrY/css
 
 export const PlasmicCardHeroCta__VariantProps = new Array();
 

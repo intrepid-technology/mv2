@@ -20,8 +20,8 @@ import {
 import CardHeroMemberProfileDisplay from "../../CardHeroMemberProfileDisplay"; // plasmic-import: YUvGYQ5tJXz/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionMemberProfileHero.module.css"; // plasmic-import: Q-O9AS-Maj_/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionMemberProfileHero.module.css"; // plasmic-import: Q-O9AS-Maj_/css
 
 export const PlasmicSectionMemberProfileHero__VariantProps = new Array();
 

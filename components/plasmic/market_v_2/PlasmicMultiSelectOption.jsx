@@ -17,8 +17,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicMultiSelectOption.module.css"; // plasmic-import: i_xE2f64UA/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicMultiSelectOption.module.css"; // plasmic-import: i_xE2f64UA/css
 
 export const PlasmicMultiSelectOption__VariantProps = new Array(
   "isSelected",

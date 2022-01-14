@@ -20,8 +20,8 @@ import {
 import CardCta from "../../CardCta"; // plasmic-import: sv774W0v3F/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicSectionPartnerDashboardCta.module.css"; // plasmic-import: -BSaqEeBIJ/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicSectionPartnerDashboardCta.module.css"; // plasmic-import: -BSaqEeBIJ/css
 
 export const PlasmicSectionPartnerDashboardCta__VariantProps = new Array();
 

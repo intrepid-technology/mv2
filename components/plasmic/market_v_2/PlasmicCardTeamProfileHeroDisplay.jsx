@@ -28,8 +28,8 @@ import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/compo
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicCardTeamProfileHeroDisplay.module.css"; // plasmic-import: CFL7zSW3US5/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicCardTeamProfileHeroDisplay.module.css"; // plasmic-import: CFL7zSW3US5/css
 import BookmarkIcon from "./icons/PlasmicIcon__Bookmark"; // plasmic-import: 2qZ8N9GyOr/icon
 
 export const PlasmicCardTeamProfileHeroDisplay__VariantProps = new Array(

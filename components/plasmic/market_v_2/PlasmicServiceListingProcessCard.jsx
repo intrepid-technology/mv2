@@ -18,8 +18,8 @@ import {
 } from "@plasmicapp/react-web";
 import InputProcess from "../../InputProcess"; // plasmic-import: HMzH-BWbGW_/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicServiceListingProcessCard.module.css"; // plasmic-import: 3CifhlTUu0m/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicServiceListingProcessCard.module.css"; // plasmic-import: 3CifhlTUu0m/css
 
 export const PlasmicServiceListingProcessCard__VariantProps = new Array(
   "amount"

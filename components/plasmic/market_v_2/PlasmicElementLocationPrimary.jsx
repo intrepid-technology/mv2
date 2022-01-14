@@ -20,8 +20,8 @@ import {
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicElementLocationPrimary.module.css"; // plasmic-import: D70VD4gl3mo/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicElementLocationPrimary.module.css"; // plasmic-import: D70VD4gl3mo/css
 import LocationIcon from "./icons/PlasmicIcon__Location"; // plasmic-import: XbuUvkV9FO/icon
 
 export const PlasmicElementLocationPrimary__VariantProps = new Array();

@@ -18,8 +18,8 @@ import {
 import SearchbarFilter from "../../SearchbarFilter"; // plasmic-import: 5wnmDA777-/component
 import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJKBtbu/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicInputSearchbarFilterDisplay.module.css"; // plasmic-import: zockkqCMBP/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicInputSearchbarFilterDisplay.module.css"; // plasmic-import: zockkqCMBP/css
 
 export const PlasmicInputSearchbarFilterDisplay__VariantProps = new Array();
 

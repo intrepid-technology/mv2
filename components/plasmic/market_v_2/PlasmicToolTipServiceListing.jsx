@@ -16,8 +16,8 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicToolTipServiceListing.module.css"; // plasmic-import: GDvJTAih6h/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicToolTipServiceListing.module.css"; // plasmic-import: GDvJTAih6h/css
 import Icon100Icon from "./icons/PlasmicIcon__Icon100"; // plasmic-import: 5uujF_PS70/icon
 
 export const PlasmicToolTipServiceListing__VariantProps = new Array();

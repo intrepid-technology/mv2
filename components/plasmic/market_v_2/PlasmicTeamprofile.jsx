@@ -31,8 +31,8 @@ import IconSocialProfile from "../../IconSocialProfile"; // plasmic-import: IC5n
 import CardUserprofile from "../../CardUserprofile"; // plasmic-import: 0on5_Y1mrei/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicTeamprofile.module.css"; // plasmic-import: YFaZRbHjmq/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicTeamprofile.module.css"; // plasmic-import: YFaZRbHjmq/css
 import LocationBIcon from "./icons/PlasmicIcon__LocationB"; // plasmic-import: YysIQ6TyFi/icon
 import LocationIcon from "./icons/PlasmicIcon__Location"; // plasmic-import: XbuUvkV9FO/icon
 import LanguagesIcon from "./icons/PlasmicIcon__Languages"; // plasmic-import: pqMRsl-YpM/icon

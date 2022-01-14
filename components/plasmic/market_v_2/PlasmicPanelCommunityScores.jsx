@@ -21,8 +21,8 @@ import TagMemberD from "../../TagMemberD"; // plasmic-import: Ixqb_1Xdrz/compone
 import TagPartnerD from "../../TagPartnerD"; // plasmic-import: cHSOn6vPGV/component
 import BadgeVerification from "../../BadgeVerification"; // plasmic-import: _M5uzrbjQp/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelCommunityScores.module.css"; // plasmic-import: JsYhtV8o3HC/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelCommunityScores.module.css"; // plasmic-import: JsYhtV8o3HC/css
 
 export const PlasmicPanelCommunityScores__VariantProps = new Array("user");
 

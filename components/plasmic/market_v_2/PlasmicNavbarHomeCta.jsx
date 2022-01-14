@@ -22,8 +22,8 @@ import TextLinkUnderlinePrimary from "../../TextLinkUnderlinePrimary"; // plasmi
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicNavbarHomeCta.module.css"; // plasmic-import: 5UV_WbRXrs/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicNavbarHomeCta.module.css"; // plasmic-import: 5UV_WbRXrs/css
 
 export const PlasmicNavbarHomeCta__VariantProps = new Array("color");
 

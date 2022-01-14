@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import MemberProfileSummaryDropdown from "../../MemberProfileSummaryDropdown"; // plasmic-import: tedFSU58Q9L/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPanelMemberHeaderButtonSettings.module.css"; // plasmic-import: io5-1sj1-O9/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPanelMemberHeaderButtonSettings.module.css"; // plasmic-import: io5-1sj1-O9/css
 
 export const PlasmicPanelMemberHeaderButtonSettings__VariantProps = new Array();
 

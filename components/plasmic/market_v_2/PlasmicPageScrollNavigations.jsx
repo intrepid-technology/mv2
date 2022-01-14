@@ -17,8 +17,8 @@ import {
 } from "@plasmicapp/react-web";
 import Tab from "../../Tab"; // plasmic-import: tCiyOEgIeVL/component
 import "@plasmicapp/react-web/lib/plasmic.css";
-import * as projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
-import * as sty from "./PlasmicPageScrollNavigations.module.css"; // plasmic-import: 4xruSD_IDH/css
+import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
+import sty from "./PlasmicPageScrollNavigations.module.css"; // plasmic-import: 4xruSD_IDH/css
 
 export const PlasmicPageScrollNavigations__VariantProps = new Array();
 
