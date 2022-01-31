@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   max-width: 100%;
@@ -8,8 +8,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -33,9 +33,9 @@
   object-fit: scale-down;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -43,9 +43,9 @@
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);

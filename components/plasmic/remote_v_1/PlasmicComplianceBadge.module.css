@@ -1,0 +1,46 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.rootlabel_completed {
+  background: #6ce9a6;
+  border-radius: 16px;
+  padding: 2px 8px;
+}
+.rootlabel_pending {
+  background: #fda29b;
+  border-radius: 16px;
+  padding: 2px 8px;
+}
+.freeBox {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+  display: none;
+}
+.textlabel_completed {
+  color: #027a48;
+  font-size: 14px;
+  display: block;
+}
+.textlabel_pending {
+  color: #b42318;
+  font-size: 14px;
+  display: block;
+}

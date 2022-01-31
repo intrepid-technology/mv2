@@ -39,26 +39,26 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px")
+        [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px")
       })}
     >
       <ElementRadioPrimary
         data-plasmic-name={"elementRadioPrimary"}
         data-plasmic-override={overrides.elementRadioPrimary}
         className={classNames("__wab_instance", sty.elementRadioPrimary, {
-          [sty.elementRadioPrimary__size__12Px]: hasVariant(
+          [sty.elementRadioPrimarysize__12Px]: hasVariant(
             variants,
             "size",
             "_12Px"
           ),
 
-          [sty.elementRadioPrimary__size__14Px]: hasVariant(
+          [sty.elementRadioPrimarysize__14Px]: hasVariant(
             variants,
             "size",
             "_14Px"
           ),
 
-          [sty.elementRadioPrimary__size__16Px]: hasVariant(
+          [sty.elementRadioPrimarysize__16Px]: hasVariant(
             variants,
             "size",
             "_16Px"
@@ -84,19 +84,19 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
           defaultContents: "Item element",
           value: args.itemText,
           className: classNames(sty.slotTargetItemText, {
-            [sty.slotTargetItemText__size__12Px]: hasVariant(
+            [sty.slotTargetItemTextsize__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotTargetItemText__size__14Px]: hasVariant(
+            [sty.slotTargetItemTextsize__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotTargetItemText__size__16Px]: hasVariant(
+            [sty.slotTargetItemTextsize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"
@@ -108,19 +108,19 @@ function PlasmicRadioTextInputSecondary__RenderFunc(props) {
           defaultContents: "Description",
           value: args.descriptionText,
           className: classNames(sty.slotTargetDescriptionText, {
-            [sty.slotTargetDescriptionText__size__12Px]: hasVariant(
+            [sty.slotTargetDescriptionTextsize__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotTargetDescriptionText__size__14Px]: hasVariant(
+            [sty.slotTargetDescriptionTextsize__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotTargetDescriptionText__size__16Px]: hasVariant(
+            [sty.slotTargetDescriptionTextsize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

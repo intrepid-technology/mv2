@@ -42,14 +42,14 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
+        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark")
       })}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
         data-plasmic-override={overrides.navbarLogo}
         className={classNames("__wab_instance", sty.navbarLogo, {
-          [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.navbarLogocolor_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={
           hasVariant(globalVariants, "screen", "iphone12ProMax")
@@ -70,7 +70,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox, {
-            [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
+            [sty.freeBoxcolor_dark]: hasVariant(variants, "color", "dark")
           })}
         >
           {(
@@ -87,7 +87,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                 "__wab_instance",
                 sty.textLinkUnderlinePrimary,
                 {
-                  [sty.textLinkUnderlinePrimary__color_dark]: hasVariant(
+                  [sty.textLinkUnderlinePrimarycolor_dark]: hasVariant(
                     variants,
                     "color",
                     "dark"
@@ -110,7 +110,7 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
                     projectcss.__wab_text,
                     sty.text__hyKmE,
                     {
-                      [sty.text__color_dark__hyKmE90H3U]: hasVariant(
+                      [sty.textcolor_dark__hyKmE90H3U]: hasVariant(
                         variants,
                         "color",
                         "dark"

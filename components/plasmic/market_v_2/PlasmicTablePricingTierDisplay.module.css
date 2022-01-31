@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -24,9 +24,9 @@
   margin-top: 16px;
 }
 .headlineIconSubhead {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -35,8 +35,8 @@
 }
 .headlineIconSubhead > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);

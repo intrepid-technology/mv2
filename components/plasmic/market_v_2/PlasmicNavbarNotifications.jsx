@@ -33,14 +33,14 @@ function PlasmicNavbarNotifications__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__light]: hasVariant(variants, "light", "light")
+        [sty.rootlight]: hasVariant(variants, "light", "light")
       })}
     >
       <NotificationIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(projectcss.all, sty.svg, {
-          [sty.svg__light]: hasVariant(variants, "light", "light")
+          [sty.svglight]: hasVariant(variants, "light", "light")
         })}
         role={"img"}
       />

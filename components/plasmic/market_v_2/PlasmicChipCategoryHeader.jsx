@@ -43,52 +43,58 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_bgBlueLight]: hasVariant(
-          variants,
-          "color",
-          "bgBlueLight"
-        ),
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_bgBlueLight]: hasVariant(
+            variants,
+            "color",
+            "bgBlueLight"
+          ),
 
-        [sty.root__color_bgBrandLight]: hasVariant(
-          variants,
-          "color",
-          "bgBrandLight"
-        ),
+          [sty.rootcolor_bgBrandLight]: hasVariant(
+            variants,
+            "color",
+            "bgBrandLight"
+          ),
 
-        [sty.root__color_bgDarkA]: hasVariant(variants, "color", "bgDarkA"),
-        [sty.root__color_bgLightB]: hasVariant(variants, "color", "bgLightB"),
-        [sty.root__color_bgMagentaLight]: hasVariant(
-          variants,
-          "color",
-          "bgMagentaLight"
-        ),
+          [sty.rootcolor_bgDarkA]: hasVariant(variants, "color", "bgDarkA"),
+          [sty.rootcolor_bgLightB]: hasVariant(variants, "color", "bgLightB"),
+          [sty.rootcolor_bgMagentaLight]: hasVariant(
+            variants,
+            "color",
+            "bgMagentaLight"
+          ),
 
-        [sty.root__color_bgMagentaLight_size__180]:
-          hasVariant(variants, "color", "bgMagentaLight") &&
-          hasVariant(variants, "size", "_180"),
-        [sty.root__color_bgPinkLight]: hasVariant(
-          variants,
-          "color",
-          "bgPinkLight"
-        ),
+          [sty.rootcolor_bgMagentaLight_size__180]:
+            hasVariant(variants, "color", "bgMagentaLight") &&
+            hasVariant(variants, "size", "_180"),
+          [sty.rootcolor_bgPinkLight]: hasVariant(
+            variants,
+            "color",
+            "bgPinkLight"
+          ),
 
-        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
-      })}
+          [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
+          [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.rootsize__360]: hasVariant(variants, "size", "_360")
+        }
+      )}
       component={Link}
       platform={"nextjs"}
     >
       <div
         className={classNames(projectcss.all, sty.freeBox__uhVUx, {
-          [sty.freeBox__size__180__uhVUxQnr2J]: hasVariant(
+          [sty.freeBoxsize__180__uhVUxQnr2J]: hasVariant(
             variants,
             "size",
             "_180"
           ),
 
-          [sty.freeBox__size__360__uhVUxfWtpd]: hasVariant(
+          [sty.freeBoxsize__360__uhVUxfWtpd]: hasVariant(
             variants,
             "size",
             "_360"
@@ -105,25 +111,25 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
 
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_bgDarkA]: hasVariant(
+            [sty.slotTargetChildrencolor_bgDarkA]: hasVariant(
               variants,
               "color",
               "bgDarkA"
             ),
 
-            [sty.slotTargetChildren__color_bgLightB]: hasVariant(
+            [sty.slotTargetChildrencolor_bgLightB]: hasVariant(
               variants,
               "color",
               "bgLightB"
             ),
 
-            [sty.slotTargetChildren__size__180]: hasVariant(
+            [sty.slotTargetChildrensize__180]: hasVariant(
               variants,
               "size",
               "_180"
             ),
 
-            [sty.slotTargetChildren__size__360]: hasVariant(
+            [sty.slotTargetChildrensize__360]: hasVariant(
               variants,
               "size",
               "_360"
@@ -134,7 +140,7 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
 
       <div
         className={classNames(projectcss.all, sty.freeBox__uu7Pz, {
-          [sty.freeBox__size__360__uu7PzfWtpd]: hasVariant(
+          [sty.freeBoxsize__360__uu7PzfWtpd]: hasVariant(
             variants,
             "size",
             "_360"
@@ -143,13 +149,13 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
       >
         <div
           className={classNames(projectcss.all, sty.freeBox__qlHli, {
-            [sty.freeBox__color_bgDarkA__qlHli0VGYe]: hasVariant(
+            [sty.freeBoxcolor_bgDarkA__qlHli0VGYe]: hasVariant(
               variants,
               "color",
               "bgDarkA"
             ),
 
-            [sty.freeBox__size__360__qlHlIfWtpd]: hasVariant(
+            [sty.freeBoxsize__360__qlHlIfWtpd]: hasVariant(
               variants,
               "size",
               "_360"
@@ -160,31 +166,31 @@ function PlasmicChipCategoryHeader__RenderFunc(props) {
             defaultContents: "Headline category",
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__color_bgDarkA]: hasVariant(
+              [sty.slotTargetSlotcolor_bgDarkA]: hasVariant(
                 variants,
                 "color",
                 "bgDarkA"
               ),
 
-              [sty.slotTargetSlot__color_bgLightB]: hasVariant(
+              [sty.slotTargetSlotcolor_bgLightB]: hasVariant(
                 variants,
                 "color",
                 "bgLightB"
               ),
 
-              [sty.slotTargetSlot__size__180]: hasVariant(
+              [sty.slotTargetSlotsize__180]: hasVariant(
                 variants,
                 "size",
                 "_180"
               ),
 
-              [sty.slotTargetSlot__size__270]: hasVariant(
+              [sty.slotTargetSlotsize__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.slotTargetSlot__size__360]: hasVariant(
+              [sty.slotTargetSlotsize__360]: hasVariant(
                 variants,
                 "size",
                 "_360"

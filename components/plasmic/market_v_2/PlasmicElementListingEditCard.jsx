@@ -52,9 +52,9 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__button]: hasVariant(variants, "button", "button"),
-        [sty.root__icon]: hasVariant(variants, "icon", "icon"),
-        [sty.root__toolTip_check]: hasVariant(variants, "toolTip", "check")
+        [sty.rootbutton]: hasVariant(variants, "button", "button"),
+        [sty.rooticon]: hasVariant(variants, "icon", "icon"),
+        [sty.roottoolTip_check]: hasVariant(variants, "toolTip", "check")
       })}
     >
       <p.Stack
@@ -63,7 +63,7 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
         data-plasmic-override={overrides.editHeadlineTitleParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.editHeadlineTitleParent, {
-          [sty.editHeadlineTitleParent__toolTip_check]: hasVariant(
+          [sty.editHeadlineTitleParenttoolTip_check]: hasVariant(
             variants,
             "toolTip",
             "check"
@@ -74,20 +74,20 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
           className={classNames(projectcss.all, sty.svgParent, {
-            [sty.svgParent__icon]: hasVariant(variants, "icon", "icon"),
-            [sty.svgParent__toolTip_alert]: hasVariant(
+            [sty.svgParenticon]: hasVariant(variants, "icon", "icon"),
+            [sty.svgParenttoolTip_alert]: hasVariant(
               variants,
               "toolTip",
               "alert"
             ),
 
-            [sty.svgParent__toolTip_check]: hasVariant(
+            [sty.svgParenttoolTip_check]: hasVariant(
               variants,
               "toolTip",
               "check"
             ),
 
-            [sty.svgParent__toolTip_question]: hasVariant(
+            [sty.svgParenttoolTip_question]: hasVariant(
               variants,
               "toolTip",
               "question"
@@ -182,8 +182,8 @@ function PlasmicElementListingEditCard__RenderFunc(props) {
         data-plasmic-name={"buttonParent"}
         data-plasmic-override={overrides.buttonParent}
         className={classNames(projectcss.all, sty.buttonParent, {
-          [sty.buttonParent__button]: hasVariant(variants, "button", "button"),
-          [sty.buttonParent__icon]: hasVariant(variants, "icon", "icon")
+          [sty.buttonParentbutton]: hasVariant(variants, "button", "button"),
+          [sty.buttonParenticon]: hasVariant(variants, "icon", "icon")
         })}
       >
         {p.renderPlasmicSlot({

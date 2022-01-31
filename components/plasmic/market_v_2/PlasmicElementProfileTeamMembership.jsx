@@ -85,7 +85,11 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(projectcss.img, sty.img___8ZbBz)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img___8ZbBz
+                  )}
                   src={
                     "/plasmic/market_v_2/images/fa289C7A182449412Dcfb44D3F2984B7Png.png"
                   }
@@ -97,7 +101,7 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink"}
               data-plasmic-override={overrides.teamLink}
-              className={classNames(projectcss.a, sty.teamLink)}
+              className={classNames(projectcss.all, projectcss.a, sty.teamLink)}
               component={Link}
               platform={"nextjs"}
             >
@@ -139,7 +143,11 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(projectcss.img, sty.img__qUkKz)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img__qUkKz
+                  )}
                   src={
                     "/plasmic/market_v_2/images/_466762084Bf3466293Fba47C63Ba55F7Jpg.jpeg"
                   }
@@ -151,7 +159,11 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink2"}
               data-plasmic-override={overrides.teamLink2}
-              className={classNames(projectcss.a, sty.teamLink2)}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.teamLink2
+              )}
               component={Link}
               platform={"nextjs"}
             >
@@ -193,7 +205,11 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
               navUserAvatar48={
                 <img
                   alt={""}
-                  className={classNames(projectcss.img, sty.img__qik2)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img__qik2
+                  )}
                   src={
                     "/plasmic/market_v_2/images/_479E0Aa76Edbad47C51F159Fd88E2Bfapng.png"
                   }
@@ -205,7 +221,11 @@ function PlasmicElementProfileTeamMembership__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"teamLink3"}
               data-plasmic-override={overrides.teamLink3}
-              className={classNames(projectcss.a, sty.teamLink3)}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.teamLink3
+              )}
               component={Link}
               platform={"nextjs"}
             >

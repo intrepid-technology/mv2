@@ -11,7 +11,7 @@
   padding: 2px 6px;
   border: 1px solid #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root__inset {
+.rootinset {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -21,7 +21,7 @@
   padding: 2px 6px;
   border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.root__inset:hover {
+.rootinset:hover {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -41,13 +41,13 @@
   line-height: 10px;
   font-weight: 600;
 }
-.text__inset {
+.textinset {
   font-size: 8px;
   font-weight: 600;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: uppercase;
   line-height: 10px;
 }
-.root__inset:hover .text__inset {
+.rootinset:hover .textinset {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }

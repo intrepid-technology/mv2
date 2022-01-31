@@ -8,9 +8,9 @@
   position: relative;
 }
 .freeBox__x3Lz4 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -20,8 +20,8 @@
 }
 .freeBox__x3Lz4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
@@ -50,8 +50,8 @@
   position: relative;
 }
 .freeBox__ljIaA {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding-left: 0px;
@@ -62,8 +62,8 @@
 }
 .freeBox__ljIaA > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -83,21 +83,21 @@
   left: auto;
   flex-shrink: 0;
 }
-.switchPrimary__active_yearly:global(.__wab_instance) {
+.switchPrimaryactive_yearly:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__active_autorenew:global(.__wab_instance) {
+.switchPrimaryactive_autorenew:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__active_placement:global(.__wab_instance) {
+.switchPrimaryactive_placement:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__inactive_yearly:global(.__wab_instance) {
+.switchPrimaryinactive_yearly:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__inactive_autorenew:global(.__wab_instance) {
+.switchPrimaryinactive_autorenew:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__inactive_placement:global(.__wab_instance) {
+.switchPrimaryinactive_placement:global(.__wab_instance) {
   flex-shrink: 0;
 }

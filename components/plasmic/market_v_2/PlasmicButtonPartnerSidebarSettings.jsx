@@ -34,7 +34,12 @@ function PlasmicButtonPartnerSidebarSettings__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <p.Stack
         as={"div"}

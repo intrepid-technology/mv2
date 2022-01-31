@@ -8,23 +8,23 @@
   height: auto;
   border-radius: 2px;
 }
-.root__width__180 {
+.rootwidth__180 {
   width: 180px;
 }
-.root__width__270 {
+.rootwidth__270 {
   width: 270px;
 }
-.root__width__360 {
+.rootwidth__360 {
   width: 360px;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
 .textInput:global(.__wab_instance) {
   position: relative;
 }
-.textInput__width_stretch:global(.__wab_instance) {
+.textInputwidth_stretch:global(.__wab_instance) {
   width: 100%;
   min-width: 0;
 }

@@ -47,7 +47,7 @@ function PlasmicSelectInput__Overlay__RenderFunc(props) {
           data-plasmic-name={"top"}
           data-plasmic-override={overrides.top}
           className={classNames(projectcss.all, sty.top, {
-            [sty.top__relativePlacement_bottom]: hasVariant(
+            [sty.toprelativePlacement_bottom]: hasVariant(
               variants,
               "relativePlacement",
               "bottom"
@@ -66,7 +66,7 @@ function PlasmicSelectInput__Overlay__RenderFunc(props) {
             data-plasmic-name={"left"}
             data-plasmic-override={overrides.left}
             className={classNames(projectcss.all, sty.left, {
-              [sty.left__relativePlacement_right]: hasVariant(
+              [sty.leftrelativePlacement_right]: hasVariant(
                 variants,
                 "relativePlacement",
                 "right"
@@ -91,7 +91,7 @@ function PlasmicSelectInput__Overlay__RenderFunc(props) {
             data-plasmic-name={"right"}
             data-plasmic-override={overrides.right}
             className={classNames(projectcss.all, sty.right, {
-              [sty.right__relativePlacement_left]: hasVariant(
+              [sty.rightrelativePlacement_left]: hasVariant(
                 variants,
                 "relativePlacement",
                 "left"
@@ -106,7 +106,7 @@ function PlasmicSelectInput__Overlay__RenderFunc(props) {
           data-plasmic-name={"bottom"}
           data-plasmic-override={overrides.bottom}
           className={classNames(projectcss.all, sty.bottom, {
-            [sty.bottom__relativePlacement_top]: hasVariant(
+            [sty.bottomrelativePlacement_top]: hasVariant(
               variants,
               "relativePlacement",
               "top"

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   position: relative;
   height: auto;
@@ -10,8 +10,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
@@ -23,16 +23,16 @@
   margin-top: 6px;
 }
 .freeBox {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
@@ -56,7 +56,7 @@
   text-transform: uppercase;
   letter-spacing: normal;
 }
-.text__global_layout_isSellerView {
+.textglobal_layout_isSellerView {
   font-size: 10px;
   color: #14161b /* plasmic-token: gtUIPzlCk */;
   font-weight: 700;
@@ -67,7 +67,7 @@
   left: auto;
   flex-shrink: 0;
 }
-.menuIconListItem__global_layout_isSellerView__aLa21Fw6NW:global(.__wab_instance) {
+.menuIconListItemglobal_layout_isSellerView__aLa21Fw6NW:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .navImage2 {
@@ -76,7 +76,7 @@
   width: 16px;
   height: 16px;
 }
-.navImage2__global_layout_isSellerView {
+.navImage2global_layout_isSellerView {
   width: 24px;
   height: 24px;
 }
@@ -92,7 +92,7 @@
   width: 16px;
   height: 16px;
 }
-.navImage3__global_layout_isSellerView {
+.navImage3global_layout_isSellerView {
   width: 24px;
   height: 24px;
 }
@@ -108,7 +108,7 @@
   width: 16px;
   height: 16px;
 }
-.navImage4__global_layout_isSellerView {
+.navImage4global_layout_isSellerView {
   width: 24px;
   height: 24px;
 }
@@ -124,7 +124,7 @@
   width: 16px;
   height: 16px;
 }
-.navImage5__global_layout_isSellerView {
+.navImage5global_layout_isSellerView {
   width: 24px;
   height: 24px;
 }
@@ -140,7 +140,7 @@
   width: 16px;
   height: 16px;
 }
-.navImage__global_layout_isSellerView {
+.navImageglobal_layout_isSellerView {
   width: 24px;
   height: 24px;
 }

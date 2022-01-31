@@ -33,30 +33,30 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__14]: hasVariant(variants, "size", "_14"),
-        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-        [sty.root__size__24]: hasVariant(variants, "size", "_24")
+        [sty.rootsize__14]: hasVariant(variants, "size", "_14"),
+        [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
+        [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
+        [sty.rootsize__24]: hasVariant(variants, "size", "_24")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__size__14]: hasVariant(variants, "size", "_14"),
-          [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.parent__size__24]: hasVariant(variants, "size", "_24")
+          [sty.parentsize__14]: hasVariant(variants, "size", "_14"),
+          [sty.parentsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.parentsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.parentsize__24]: hasVariant(variants, "size", "_24")
         })}
       >
         <Icon129Icon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
           className={classNames(projectcss.all, sty.svg, {
-            [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.svg__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.svg__size__24]: hasVariant(variants, "size", "_24")
+            [sty.svgsize__14]: hasVariant(variants, "size", "_14"),
+            [sty.svgsize__16]: hasVariant(variants, "size", "_16"),
+            [sty.svgsize__18]: hasVariant(variants, "size", "_18"),
+            [sty.svgsize__24]: hasVariant(variants, "size", "_24")
           })}
           role={"img"}
         />

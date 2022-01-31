@@ -36,7 +36,7 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetChildren__size_small {
+.slotTargetChildrensize_small {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -71,7 +71,7 @@
   min-height: 0;
   border-radius: 100%;
 }
-.collapseIcon__size_small {
+.collapseIconsize_small {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
@@ -88,6 +88,6 @@
   transition-timing-function: linear;
   padding: 16px;
 }
-.body__isOpen {
+.bodyisOpen {
   display: flex;
 }

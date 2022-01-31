@@ -42,7 +42,7 @@ function PlasmicButtonSideBarMemberSettings__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         hasGap={true}
-        className={classNames(projectcss.button, sty.parent)}
+        className={classNames(projectcss.all, projectcss.button, sty.parent)}
       >
         <p.Stack
           as={"div"}

@@ -39,14 +39,14 @@ function PlasmicFormSwitchInput__RenderFunc(props) {
         data-plasmic-name={"switchInput"}
         data-plasmic-override={overrides.switchInput}
         className={classNames("__wab_instance", sty.switchInput, {
-          [sty.switchInput__disabled]: hasVariant(
+          [sty.switchInputdisabled]: hasVariant(
             variants,
             "disabled",
             "disabled"
           ),
 
-          [sty.switchInput__on]: hasVariant(variants, "on", "on"),
-          [sty.switchInput__on_disabled]:
+          [sty.switchInputon]: hasVariant(variants, "on", "on"),
+          [sty.switchInputon_disabled]:
             hasVariant(variants, "on", "on") &&
             hasVariant(variants, "disabled", "disabled")
         })}

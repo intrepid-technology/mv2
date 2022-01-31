@@ -10,8 +10,8 @@
   padding: 32px 8px 8px;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   background: #ffffff;
   height: 100%;
   width: 100%;
@@ -23,8 +23,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   min-height: 0;
   margin-top: calc(0px - 16px);
@@ -41,9 +41,9 @@
   margin-top: 16px;
 }
 .header {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -52,8 +52,8 @@
 }
 .header > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -80,9 +80,9 @@
   min-width: 0;
 }
 .freeBox___0YhmI {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -91,8 +91,8 @@
 }
 .freeBox___0YhmI > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -122,9 +122,9 @@
   flex-shrink: 0;
 }
 .freeBox__cccfw {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -133,8 +133,8 @@
 }
 .freeBox__cccfw > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -266,9 +266,9 @@
   position: relative;
 }
 .freeBox___2EO1 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -277,8 +277,8 @@
 }
 .freeBox___2EO1 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -346,9 +346,9 @@
   position: relative;
 }
 .freeBox__dphov {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -357,8 +357,8 @@
 }
 .freeBox__dphov > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);

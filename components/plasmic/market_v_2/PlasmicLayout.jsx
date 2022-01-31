@@ -62,7 +62,7 @@ function PlasmicLayout__RenderFunc(props) {
           data-plasmic-override={overrides.navigationWrapper}
           hasGap={true}
           className={classNames(projectcss.all, sty.navigationWrapper, {
-            [sty.navigationWrapper__contentOnly]: hasVariant(
+            [sty.navigationWrappercontentOnly]: hasVariant(
               variants,
               "contentOnly",
               "contentOnly"
@@ -131,7 +131,7 @@ function PlasmicLayout__RenderFunc(props) {
               data-plasmic-override={overrides.breadcrumbs}
               hasGap={true}
               className={classNames(projectcss.all, sty.breadcrumbs, {
-                [sty.breadcrumbs__contentOnly]: hasVariant(
+                [sty.breadcrumbscontentOnly]: hasVariant(
                   variants,
                   "contentOnly",
                   "contentOnly"
@@ -169,7 +169,7 @@ function PlasmicLayout__RenderFunc(props) {
               data-plasmic-override={overrides.tabNavigation}
               hasGap={true}
               className={classNames(projectcss.all, sty.tabNavigation, {
-                [sty.tabNavigation__contentOnly]: hasVariant(
+                [sty.tabNavigationcontentOnly]: hasVariant(
                   variants,
                   "contentOnly",
                   "contentOnly"
@@ -220,7 +220,7 @@ function PlasmicLayout__RenderFunc(props) {
           data-plasmic-name={"scrollNavigationWrapper"}
           data-plasmic-override={overrides.scrollNavigationWrapper}
           className={classNames(projectcss.all, sty.scrollNavigationWrapper, {
-            [sty.scrollNavigationWrapper__contentOnly]: hasVariant(
+            [sty.scrollNavigationWrappercontentOnly]: hasVariant(
               variants,
               "contentOnly",
               "contentOnly"
@@ -274,7 +274,7 @@ function PlasmicLayout__RenderFunc(props) {
           data-plasmic-name={"main"}
           data-plasmic-override={overrides.main}
           className={classNames(projectcss.all, sty.main, {
-            [sty.main__contentOnly]: hasVariant(
+            [sty.maincontentOnly]: hasVariant(
               variants,
               "contentOnly",
               "contentOnly"
@@ -287,7 +287,7 @@ function PlasmicLayout__RenderFunc(props) {
             data-plasmic-override={overrides.mainContentWrapper}
             hasGap={true}
             className={classNames(projectcss.all, sty.mainContentWrapper, {
-              [sty.mainContentWrapper__contentOnly]: hasVariant(
+              [sty.mainContentWrappercontentOnly]: hasVariant(
                 variants,
                 "contentOnly",
                 "contentOnly"

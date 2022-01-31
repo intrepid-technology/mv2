@@ -37,13 +37,19 @@ function PlasmicBreadcrumb__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__hasDestination]: hasVariant(
-          variants,
-          "hasDestination",
-          "hasDestination"
-        )
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.roothasDestination]: hasVariant(
+            variants,
+            "hasDestination",
+            "hasDestination"
+          )
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -54,13 +60,13 @@ function PlasmicBreadcrumb__RenderFunc(props) {
         data-plasmic-override={overrides.freeBox}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__hasDestination]: hasVariant(
+          [sty.freeBoxhasDestination]: hasVariant(
             variants,
             "hasDestination",
             "hasDestination"
           ),
 
-          [sty.freeBox__isSelected]: hasVariant(
+          [sty.freeBoxisSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"
@@ -71,13 +77,13 @@ function PlasmicBreadcrumb__RenderFunc(props) {
           defaultContents: "Enter some text",
           value: args.label,
           className: classNames(sty.slotTargetLabel, {
-            [sty.slotTargetLabel__hasDestination]: hasVariant(
+            [sty.slotTargetLabelhasDestination]: hasVariant(
               variants,
               "hasDestination",
               "hasDestination"
             ),
 
-            [sty.slotTargetLabel__isSelected]: hasVariant(
+            [sty.slotTargetLabelisSelected]: hasVariant(
               variants,
               "isSelected",
               "isSelected"
@@ -93,7 +99,7 @@ function PlasmicBreadcrumb__RenderFunc(props) {
               projectcss.all,
               projectcss.__wab_text,
               sty.text,
-              { [sty.text__isLast]: hasVariant(variants, "isLast", "isLast") }
+              { [sty.textisLast]: hasVariant(variants, "isLast", "isLast") }
             )}
           >
             {"/"}

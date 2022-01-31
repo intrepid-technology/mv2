@@ -35,21 +35,21 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__close]: hasVariant(variants, "close", "close")
+        [sty.rootclose]: hasVariant(variants, "close", "close")
       })}
     >
       <button
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
-        className={classNames(projectcss.button, sty.parent, {
-          [sty.parent__close]: hasVariant(variants, "close", "close"),
-          [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.parent__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.parent__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.parent__size__48]: hasVariant(variants, "size", "_48")
+        className={classNames(projectcss.all, projectcss.button, sty.parent, {
+          [sty.parentclose]: hasVariant(variants, "close", "close"),
+          [sty.parentsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.parentsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.parentsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.parentsize__32]: hasVariant(variants, "size", "_32"),
+          [sty.parentsize__36]: hasVariant(variants, "size", "_36"),
+          [sty.parentsize__40]: hasVariant(variants, "size", "_40"),
+          [sty.parentsize__48]: hasVariant(variants, "size", "_48")
         })}
       >
         <p.PlasmicIcon
@@ -61,7 +61,7 @@ function PlasmicNavbarSwitch__RenderFunc(props) {
               : MenuHamburgerIcon
           }
           className={classNames(projectcss.all, sty.svg, {
-            [sty.svg__close]: hasVariant(variants, "close", "close")
+            [sty.svgclose]: hasVariant(variants, "close", "close")
           })}
           role={"img"}
         />

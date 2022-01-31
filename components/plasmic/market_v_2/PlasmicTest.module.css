@@ -1,13 +1,13 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   position: relative;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
   min-width: 0;
   min-height: 0;
-  padding: 100px;
+  padding: 16px;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -24,6 +24,42 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
+.freeBox__h9MGu {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__h9MGu > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__h9MGu > :global(.__wab_flex-container) > *,
+.freeBox__h9MGu > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__h9MGu > :global(.__wab_flex-container) > picture > img,
+.freeBox__h9MGu
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 16px;
+}
+.teamsTable:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.thirdPartyTalentTable:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .formContext:global(.__wab_instance) {
   position: relative;
 }
@@ -39,8 +75,8 @@
   min-height: 0;
 }
 .freeBox__aaNhh {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 300px;
   height: 100%;
   flex-shrink: 0;
@@ -48,8 +84,8 @@
 }
 .freeBox__aaNhh > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-height: 0;
   margin-top: calc(0px - 30px);
   height: calc(100% + 30px);
@@ -100,20 +136,4 @@
 }
 .text {
   height: auto;
-}
-.freeBox__h9MGu {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  min-width: 0;
-  padding: 8px;
-}
-.antdInput:global(.__wab_instance) {
-  max-width: 100%;
-  position: relative;
 }

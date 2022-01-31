@@ -8,9 +8,9 @@
   position: relative;
 }
 .freeBox___8Spx {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -19,8 +19,8 @@
 }
 .freeBox___8Spx > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
@@ -47,9 +47,9 @@
   text-align: left;
 }
 .totalCurrencyNumberValue {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -58,8 +58,8 @@
 }
 .totalCurrencyNumberValue > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }

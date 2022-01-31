@@ -11,6 +11,7 @@
 import * as React from "react";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts
@@ -21,13 +22,17 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicInputSearchbarFilterDisplay.module.css"; // plasmic-import: zockkqCMBP/css
 
-export const PlasmicInputSearchbarFilterDisplay__VariantProps = new Array();
+export const PlasmicInputSearchbarFilterDisplay__VariantProps = new Array(
+  "label"
+);
 
-export const PlasmicInputSearchbarFilterDisplay__ArgProps = new Array();
+export const PlasmicInputSearchbarFilterDisplay__ArgProps = new Array(
+  "children"
+);
 
 function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
-  return (
+  return (hasVariant(variants, "label", "label") ? true : true) ? (
     <p.Stack
       as={"div"}
       data-plasmic-name={"root"}
@@ -35,33 +40,62 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
+        [sty.rootlabel]: hasVariant(variants, "label", "label")
+      })}
     >
-      <SearchbarFilter
-        data-plasmic-name={"searchbarFilter"}
-        data-plasmic-override={overrides.searchbarFilter}
-        className={classNames("__wab_instance", sty.searchbarFilter)}
-        width={"_360"}
-      />
+      {(hasVariant(variants, "label", "label") ? true : true) ? (
+        <div
+          className={classNames(projectcss.all, sty.freeBox__qALfu, {
+            [sty.freeBoxlabel__qALfuvkPho]: hasVariant(
+              variants,
+              "label",
+              "label"
+            )
+          })}
+        >
+          {p.renderPlasmicSlot({
+            defaultContents: "Label",
+            value: args.children
+          })}
+        </div>
+      ) : null}
 
       <p.Stack
         as={"div"}
-        data-plasmic-name={"badgeDisplayParent"}
-        data-plasmic-override={overrides.badgeDisplayParent}
         hasGap={true}
-        className={classNames(projectcss.all, sty.badgeDisplayParent)}
+        className={classNames(projectcss.all, sty.freeBox__cWcUk, {
+          [sty.freeBoxlabel__cWcUkvkPho]: hasVariant(variants, "label", "label")
+        })}
       >
-        <ChipBadgeDisplay
-          data-plasmic-name={"chipBadgeDisplay"}
-          data-plasmic-override={overrides.chipBadgeDisplay}
-          className={classNames("__wab_instance", sty.chipBadgeDisplay)}
-          color={"brand"}
-          size={"_24"}
-          type={"ghost"}
+        <SearchbarFilter
+          data-plasmic-name={"searchbarFilter"}
+          data-plasmic-override={overrides.searchbarFilter}
+          className={classNames("__wab_instance", sty.searchbarFilter, {
+            [sty.searchbarFilterlabel]: hasVariant(variants, "label", "label")
+          })}
+          height={"_40"}
+          width={"_360"}
         />
+
+        <p.Stack
+          as={"div"}
+          data-plasmic-name={"badgeDisplayParent"}
+          data-plasmic-override={overrides.badgeDisplayParent}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.badgeDisplayParent)}
+        >
+          <ChipBadgeDisplay
+            data-plasmic-name={"chipBadgeDisplay"}
+            data-plasmic-override={overrides.chipBadgeDisplay}
+            className={classNames("__wab_instance", sty.chipBadgeDisplay)}
+            size={"_24"}
+            type={"primary"}
+          />
+        </p.Stack>
       </p.Stack>
     </p.Stack>
-  );
+  ) : null;
 }
 
 const PlasmicDescendants = {

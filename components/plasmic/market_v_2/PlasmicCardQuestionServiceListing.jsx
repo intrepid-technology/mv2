@@ -42,13 +42,13 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__subhead]: hasVariant(variants, "subhead", "subhead")
+        [sty.rootsubhead]: hasVariant(variants, "subhead", "subhead")
       })}
     >
       {(hasVariant(variants, "overline", "overline") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox__a1RRl, {
-            [sty.freeBox__overline__a1RRl6KuDi]: hasVariant(
+            [sty.freeBoxoverline__a1RRl6KuDi]: hasVariant(
               variants,
               "overline",
               "overline"
@@ -57,7 +57,7 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
         >
           <div
             className={classNames(projectcss.all, sty.freeBox__jUhaa, {
-              [sty.freeBox__overline__jUhaa6KuDi]: hasVariant(
+              [sty.freeBoxoverline__jUhaa6KuDi]: hasVariant(
                 variants,
                 "overline",
                 "overline"
@@ -68,7 +68,7 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
               defaultContents: "Step 1",
               value: args.slot,
               className: classNames(sty.slotTargetSlot, {
-                [sty.slotTargetSlot__overline]: hasVariant(
+                [sty.slotTargetSlotoverline]: hasVariant(
                   variants,
                   "overline",
                   "overline"
@@ -92,7 +92,7 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
       {(hasVariant(variants, "subhead", "subhead") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox__lIIbI, {
-            [sty.freeBox__subhead__lIIbIrfWuK]: hasVariant(
+            [sty.freeBoxsubhead__lIIbIrfWuK]: hasVariant(
               variants,
               "subhead",
               "subhead"
@@ -103,7 +103,7 @@ function PlasmicCardQuestionServiceListing__RenderFunc(props) {
             defaultContents: "Subhead",
             value: args.slot2,
             className: classNames(sty.slotTargetSlot2, {
-              [sty.slotTargetSlot2__subhead]: hasVariant(
+              [sty.slotTargetSlot2subhead]: hasVariant(
                 variants,
                 "subhead",
                 "subhead"

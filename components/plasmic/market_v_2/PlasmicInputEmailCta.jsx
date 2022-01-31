@@ -36,8 +36,8 @@ function PlasmicInputEmailCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__720]: hasVariant(variants, "size", "_720")
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize__720]: hasVariant(variants, "size", "_720")
       })}
     >
       <p.Stack
@@ -46,7 +46,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
         data-plasmic-override={overrides.parentSectionInputEmail}
         hasGap={true}
         className={classNames(projectcss.all, sty.parentSectionInputEmail, {
-          [sty.parentSectionInputEmail__size__720]: hasVariant(
+          [sty.parentSectionInputEmailsize__720]: hasVariant(
             variants,
             "size",
             "_720"
@@ -57,7 +57,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
           as={"div"}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox___9RBj, {
-            [sty.freeBox__size__720___9RBjwcyQu]: hasVariant(
+            [sty.freeBoxsize__720___9RBjwcyQu]: hasVariant(
               variants,
               "size",
               "_720"
@@ -68,7 +68,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__wi05I, {
-              [sty.freeBox__size__720__wi05IwcyQu]: hasVariant(
+              [sty.freeBoxsize__720__wi05IwcyQu]: hasVariant(
                 variants,
                 "size",
                 "_720"
@@ -80,7 +80,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
                 "Turn your services into a scalable & profitable business",
               value: args.children,
               className: classNames(sty.slotTargetChildren, {
-                [sty.slotTargetChildren__size__720]: hasVariant(
+                [sty.slotTargetChildrensize__720]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -94,7 +94,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
                   "Explore all the specialised tools and services you need to start, run, and grow a global technology and creative services business.",
                 value: args.slot,
                 className: classNames(sty.slotTargetSlot, {
-                  [sty.slotTargetSlot__size__720]: hasVariant(
+                  [sty.slotTargetSlotsize__720]: hasVariant(
                     variants,
                     "size",
                     "_720"
@@ -109,7 +109,7 @@ function PlasmicInputEmailCta__RenderFunc(props) {
           data-plasmic-name={"inputEmailA"}
           data-plasmic-override={overrides.inputEmailA}
           className={classNames("__wab_instance", sty.inputEmailA, {
-            [sty.inputEmailA__size__720]: hasVariant(variants, "size", "_720")
+            [sty.inputEmailAsize__720]: hasVariant(variants, "size", "_720")
           })}
           size={hasVariant(variants, "size", "_720") ? "_540" : undefined}
         />

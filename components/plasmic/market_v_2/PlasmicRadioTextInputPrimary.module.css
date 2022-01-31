@@ -6,15 +6,15 @@
   justify-content: flex-start;
 }
 .parent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -37,10 +37,10 @@
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetItemText__size__12Px {
+.slotTargetItemTextsize__12Px {
   font-size: 12px;
   line-height: 1;
 }
-.slotTargetItemText__size__16Px {
+.slotTargetItemTextsize__16Px {
   font-size: 16px;
 }

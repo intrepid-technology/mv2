@@ -21,7 +21,7 @@ import ChipBadgeDisplay from "../../ChipBadgeDisplay"; // plasmic-import: 9_NbJK
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicInputFormCardEmailSearchBadge.module.css"; // plasmic-import: 0JndNhJNnle/css
-import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
+import PlusLightIcon from "./icons/PlasmicIcon__PlusLight"; // plasmic-import: QGTlaxIryG/icon
 import Icon107Icon from "./icons/PlasmicIcon__Icon107"; // plasmic-import: 1WTBIKS_DU/icon
 
 export const PlasmicInputFormCardEmailSearchBadge__VariantProps = new Array(
@@ -53,7 +53,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__border]: hasVariant(variants, "border", "border")
+          [sty.parentborder]: hasVariant(variants, "border", "border")
         })}
       >
         <p.Stack
@@ -62,7 +62,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
           data-plasmic-override={overrides.mainCard}
           hasGap={true}
           className={classNames(projectcss.all, sty.mainCard, {
-            [sty.mainCard__search]: hasVariant(variants, "search", "search")
+            [sty.mainCardsearch]: hasVariant(variants, "search", "search")
           })}
         >
           <p.Stack
@@ -88,7 +88,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
               defaultContents: "Sub head",
               value: args.subHead,
               className: classNames(sty.slotTargetSubHead, {
-                [sty.slotTargetSubHead__search]: hasVariant(
+                [sty.slotTargetSubHeadsearch]: hasVariant(
                   variants,
                   "search",
                   "search"
@@ -103,7 +103,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
             data-plasmic-override={overrides.textInputParent}
             hasGap={true}
             className={classNames(projectcss.all, sty.textInputParent, {
-              [sty.textInputParent__search]: hasVariant(
+              [sty.textInputParentsearch]: hasVariant(
                 variants,
                 "search",
                 "search"
@@ -115,17 +115,14 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                 data-plasmic-name={"freeBox"}
                 data-plasmic-override={overrides.freeBox}
                 className={classNames(projectcss.all, sty.freeBox, {
-                  [sty.freeBox__search]: hasVariant(
-                    variants,
-                    "search",
-                    "search"
-                  )
+                  [sty.freeBoxsearch]: hasVariant(variants, "search", "search")
                 })}
               >
                 {p.renderPlasmicSlot({
                   defaultContents: (
                     <input
                       className={classNames(
+                        projectcss.all,
                         projectcss.input,
                         sty.textInput__bjqT
                       )}
@@ -147,7 +144,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                 data-plasmic-override={overrides.searchTriggerParent}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.searchTriggerParent, {
-                  [sty.searchTriggerParent__search]: hasVariant(
+                  [sty.searchTriggerParentsearch]: hasVariant(
                     variants,
                     "search",
                     "search"
@@ -160,13 +157,18 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                     data-plasmic-override={
                       overrides.textInput ?? overrides.textbox
                     }
-                    className={classNames(projectcss.input, sty.textInput, {
-                      [sty.textInput__search]: hasVariant(
-                        variants,
-                        "search",
-                        "search"
-                      )
-                    })}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.input,
+                      sty.textInput,
+                      {
+                        [sty.textInputsearch]: hasVariant(
+                          variants,
+                          "search",
+                          "search"
+                        )
+                      }
+                    )}
                     placeholder={
                       hasVariant(variants, "search", "search")
                         ? "Search and enter"
@@ -187,7 +189,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                       "__wab_instance",
                       sty.buttonPrimary__xk8V,
                       {
-                        [sty.buttonPrimary__search__xk8VAuxud]: hasVariant(
+                        [sty.buttonPrimarysearch__xk8VAuxud]: hasVariant(
                           variants,
                           "search",
                           "search"
@@ -201,10 +203,10 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                         PlasmicIconType={
                           hasVariant(variants, "search", "search")
                             ? Icon107Icon
-                            : Icon52Icon
+                            : PlusLightIcon
                         }
                         className={classNames(projectcss.all, sty.svg, {
-                          [sty.svg__search]: hasVariant(
+                          [sty.svgsearch]: hasVariant(
                             variants,
                             "search",
                             "search"
@@ -232,7 +234,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                         projectcss.__wab_text,
                         sty.text,
                         {
-                          [sty.text__search]: hasVariant(
+                          [sty.textsearch]: hasVariant(
                             variants,
                             "search",
                             "search"
@@ -255,7 +257,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
                 data-plasmic-override={overrides.badgeDisplay}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.badgeDisplay, {
-                  [sty.badgeDisplay__search]: hasVariant(
+                  [sty.badgeDisplaysearch]: hasVariant(
                     variants,
                     "search",
                     "search"
@@ -285,19 +287,19 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
           data-plasmic-name={"descriptionCard"}
           data-plasmic-override={overrides.descriptionCard}
           className={classNames(projectcss.all, sty.descriptionCard, {
-            [sty.descriptionCard__search]: hasVariant(
+            [sty.descriptionCardsearch]: hasVariant(
               variants,
               "search",
               "search"
             ),
 
-            [sty.descriptionCard__subDescription]: hasVariant(
+            [sty.descriptionCardsubDescription]: hasVariant(
               variants,
               "subDescription",
               "subDescription"
             ),
 
-            [sty.descriptionCard__subDescription_button]:
+            [sty.descriptionCardsubDescription_button]:
               hasVariant(variants, "subDescription", "subDescription") &&
               hasVariant(variants, "button", "button")
           })}
@@ -306,7 +308,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
             data-plasmic-name={"subDescription"}
             data-plasmic-override={overrides.subDescription}
             className={classNames(projectcss.all, sty.subDescription, {
-              [sty.subDescription__subDescription]: hasVariant(
+              [sty.subDescriptionsubDescription]: hasVariant(
                 variants,
                 "subDescription",
                 "subDescription"
@@ -317,7 +319,7 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
               defaultContents: "Description",
               value: args.description,
               className: classNames(sty.slotTargetDescription, {
-                [sty.slotTargetDescription__subDescription]: hasVariant(
+                [sty.slotTargetDescriptionsubDescription]: hasVariant(
                   variants,
                   "subDescription",
                   "subDescription"
@@ -328,19 +330,19 @@ function PlasmicInputFormCardEmailSearchBadge__RenderFunc(props) {
 
           <ButtonPrimary
             className={classNames("__wab_instance", sty.buttonPrimary__t9Myp, {
-              [sty.buttonPrimary__button__t9Myp9VcG1]: hasVariant(
+              [sty.buttonPrimarybutton__t9Myp9VcG1]: hasVariant(
                 variants,
                 "button",
                 "button"
               ),
 
-              [sty.buttonPrimary__subDescription__t9MyPvZm3B]: hasVariant(
+              [sty.buttonPrimarysubDescription__t9MyPvZm3B]: hasVariant(
                 variants,
                 "subDescription",
                 "subDescription"
               ),
 
-              [sty.buttonPrimary__subDescription_button__t9MyPvZm3B9VcG1]:
+              [sty.buttonPrimarysubDescription_button__t9MyPvZm3B9VcG1]:
                 hasVariant(variants, "subDescription", "subDescription") &&
                 hasVariant(variants, "button", "button")
             })}

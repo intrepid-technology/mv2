@@ -44,8 +44,8 @@ function PlasmicNavbar__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__auth]: hasVariant(variants, "auth", "auth"),
-        [sty.root__dark]: hasVariant(variants, "dark", "dark")
+        [sty.rootauth]: hasVariant(variants, "auth", "auth"),
+        [sty.rootdark]: hasVariant(variants, "dark", "dark")
       })}
     >
       {(hasVariant(variants, "auth", "auth") ? true : true) ? (
@@ -55,7 +55,7 @@ function PlasmicNavbar__RenderFunc(props) {
           data-plasmic-override={overrides.brandWrapper}
           hasGap={true}
           className={classNames(projectcss.all, sty.brandWrapper, {
-            [sty.brandWrapper__auth]: hasVariant(variants, "auth", "auth")
+            [sty.brandWrapperauth]: hasVariant(variants, "auth", "auth")
           })}
         >
           {(
@@ -93,14 +93,14 @@ function PlasmicNavbar__RenderFunc(props) {
           data-plasmic-override={overrides.actionWrapper}
           hasGap={true}
           className={classNames(projectcss.all, sty.actionWrapper, {
-            [sty.actionWrapper__auth]: hasVariant(variants, "auth", "auth")
+            [sty.actionWrapperauth]: hasVariant(variants, "auth", "auth")
           })}
         >
           <Button
             data-plasmic-name={"sellOnIntrepidButton"}
             data-plasmic-override={overrides.sellOnIntrepidButton}
             className={classNames("__wab_instance", sty.sellOnIntrepidButton, {
-              [sty.sellOnIntrepidButton__dark]: hasVariant(
+              [sty.sellOnIntrepidButtondark]: hasVariant(
                 variants,
                 "dark",
                 "dark"
@@ -120,7 +120,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__uRxVz,
                 {
-                  [sty.text__dark__uRxVz4SuRb]: hasVariant(
+                  [sty.textdark__uRxVz4SuRb]: hasVariant(
                     variants,
                     "dark",
                     "dark"
@@ -136,7 +136,7 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"pricingNavButton"}
             data-plasmic-override={overrides.pricingNavButton}
             className={classNames("__wab_instance", sty.pricingNavButton, {
-              [sty.pricingNavButton__dark]: hasVariant(variants, "dark", "dark")
+              [sty.pricingNavButtondark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
@@ -152,7 +152,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__hQevM,
                 {
-                  [sty.text__dark__hQevM4SuRb]: hasVariant(
+                  [sty.textdark__hQevM4SuRb]: hasVariant(
                     variants,
                     "dark",
                     "dark"
@@ -168,7 +168,7 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"partnerButton"}
             data-plasmic-override={overrides.partnerButton}
             className={classNames("__wab_instance", sty.partnerButton, {
-              [sty.partnerButton__dark]: hasVariant(variants, "dark", "dark")
+              [sty.partnerButtondark]: hasVariant(variants, "dark", "dark")
             })}
             color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
             destination={
@@ -199,7 +199,7 @@ function PlasmicNavbar__RenderFunc(props) {
           data-plasmic-name={"authActionsWrapper"}
           data-plasmic-override={overrides.authActionsWrapper}
           className={classNames(projectcss.all, sty.authActionsWrapper, {
-            [sty.authActionsWrapper__auth]: hasVariant(variants, "auth", "auth")
+            [sty.authActionsWrapperauth]: hasVariant(variants, "auth", "auth")
           })}
         >
           {(hasVariant(variants, "auth", "auth") ? true : false) ? (
@@ -207,15 +207,15 @@ function PlasmicNavbar__RenderFunc(props) {
               data-plasmic-name={"avatar"}
               data-plasmic-override={overrides.avatar}
               className={classNames("__wab_instance", sty.avatar, {
-                [sty.avatar__auth]: hasVariant(variants, "auth", "auth")
+                [sty.avatarauth]: hasVariant(variants, "auth", "auth")
               })}
             >
               <img
                 data-plasmic-name={"img"}
                 data-plasmic-override={overrides.img}
                 alt={""}
-                className={classNames(projectcss.img, sty.img, {
-                  [sty.img__auth]: hasVariant(variants, "auth", "auth")
+                className={classNames(projectcss.all, projectcss.img, sty.img, {
+                  [sty.imgauth]: hasVariant(variants, "auth", "auth")
                 })}
                 loading={"lazy"}
                 src={

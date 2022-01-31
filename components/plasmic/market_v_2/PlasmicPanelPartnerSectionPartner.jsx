@@ -46,7 +46,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__global_layout_isSellerView]: hasVariant(
+        [sty.rootglobal_layout_isSellerView]: hasVariant(
           globalVariants,
           "layout",
           "isSellerView"
@@ -66,7 +66,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
             projectcss.__wab_text,
             sty.text___8Dh5C,
             {
-              [sty.text__global_layout_isSellerView___8Dh5Cfw6NW]: hasVariant(
+              [sty.textglobal_layout_isSellerView___8Dh5Cfw6NW]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -86,7 +86,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
             className={classNames(projectcss.all, sty.navImage2, {
-              [sty.navImage2__global_layout_isSellerView]: hasVariant(
+              [sty.navImage2global_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -107,7 +107,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
             data-plasmic-name={"navImage3"}
             data-plasmic-override={overrides.navImage3}
             className={classNames(projectcss.all, sty.navImage3, {
-              [sty.navImage3__global_layout_isSellerView]: hasVariant(
+              [sty.navImage3global_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -128,7 +128,7 @@ function PlasmicPanelPartnerSectionPartner__RenderFunc(props) {
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
             className={classNames(projectcss.all, sty.navImage, {
-              [sty.navImage__global_layout_isSellerView]: hasVariant(
+              [sty.navImageglobal_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"

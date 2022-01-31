@@ -39,13 +39,13 @@ function PlasmicSelectDateDropdownPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       {(hasVariant(variants, "label", "label") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox__hZahQ, {
-            [sty.freeBox__label__hZahQhwv6U]: hasVariant(
+            [sty.freeBoxlabel__hZahQhwv6U]: hasVariant(
               variants,
               "label",
               "label"
@@ -63,7 +63,7 @@ function PlasmicSelectDateDropdownPrimary__RenderFunc(props) {
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__y4OM8, {
-          [sty.freeBox__width_stretch__y4OM8CjG2P]: hasVariant(
+          [sty.freeBoxwidth_stretch__y4OM8CjG2P]: hasVariant(
             variants,
             "width",
             "stretch"
@@ -72,7 +72,7 @@ function PlasmicSelectDateDropdownPrimary__RenderFunc(props) {
       >
         <SelectInput
           className={classNames("__wab_instance", sty.selectInput__eaEif, {
-            [sty.selectInput__width_stretch__eaEiFcjG2P]: hasVariant(
+            [sty.selectInputwidth_stretch__eaEiFcjG2P]: hasVariant(
               variants,
               "width",
               "stretch"
@@ -86,7 +86,7 @@ function PlasmicSelectDateDropdownPrimary__RenderFunc(props) {
 
         <SelectInput
           className={classNames("__wab_instance", sty.selectInput__xkUgp, {
-            [sty.selectInput__width_stretch__xkUgPcjG2P]: hasVariant(
+            [sty.selectInputwidth_stretch__xkUgPcjG2P]: hasVariant(
               variants,
               "width",
               "stretch"
@@ -100,7 +100,7 @@ function PlasmicSelectDateDropdownPrimary__RenderFunc(props) {
 
         <SelectInput
           className={classNames("__wab_instance", sty.selectInput___4QgU, {
-            [sty.selectInput__width_stretch___4QgUCjG2P]: hasVariant(
+            [sty.selectInputwidth_stretch___4QgUCjG2P]: hasVariant(
               variants,
               "width",
               "stretch"

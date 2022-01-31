@@ -276,7 +276,11 @@ function PlasmicHome__RenderFunc(props) {
                 ) ? (
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__nOw5H)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__nOw5H
+                    )}
                     src={
                       hasVariant(globalVariants, "screen", "desktop")
                         ? "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
@@ -672,7 +676,11 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X270"}
                       data-plasmic-override={overrides._270X270}
                       alt={""}
-                      className={classNames(projectcss.img, sty._270X270)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty._270X270
+                      )}
                       src={"/plasmic/market_v_2/images/image31.png"}
                     />
                   }
@@ -707,7 +715,11 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2702"}
                       data-plasmic-override={overrides._270X2702}
                       alt={""}
-                      className={classNames(projectcss.img, sty._270X2702)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty._270X2702
+                      )}
                       src={"/plasmic/market_v_2/images/image29.png"}
                     />
                   }
@@ -742,7 +754,11 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2703"}
                       data-plasmic-override={overrides._270X2703}
                       alt={""}
-                      className={classNames(projectcss.img, sty._270X2703)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty._270X2703
+                      )}
                       src={"/plasmic/market_v_2/images/image11.png"}
                     />
                   }
@@ -777,7 +793,11 @@ function PlasmicHome__RenderFunc(props) {
                       data-plasmic-name={"_270X2704"}
                       data-plasmic-override={overrides._270X2704}
                       alt={""}
-                      className={classNames(projectcss.img, sty._270X2704)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty._270X2704
+                      )}
                       src={"/plasmic/market_v_2/images/image30.png"}
                     />
                   }
@@ -904,7 +924,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__r8Lts)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__r8Lts
+                      )}
                       src={
                         "/plasmic/market_v_2/images/profileSafariDarkModeONpng.png"
                       }
@@ -1004,7 +1028,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__lLh)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__lLh
+                      )}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/creditlineIPhone12ProMockuppng.png"
@@ -1106,7 +1134,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__xs5Ij)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__xs5Ij
+                      )}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/internationalPaymentspng3.png"
@@ -1216,7 +1248,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__dCeHn)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__dCeHn
+                      )}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/financeDashSafariNoShadowpng2.jpeg"
@@ -1326,7 +1362,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__gJY)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__gJY
+                      )}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/compliancepng.png"
@@ -1424,7 +1464,11 @@ function PlasmicHome__RenderFunc(props) {
                   >
                     <img
                       alt={""}
-                      className={classNames(projectcss.img, sty.img__fTfiA)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.img,
+                        sty.img__fTfiA
+                      )}
                       src={
                         hasVariant(globalVariants, "screen", "desktop")
                           ? "/plasmic/market_v_2/images/mappng.png"

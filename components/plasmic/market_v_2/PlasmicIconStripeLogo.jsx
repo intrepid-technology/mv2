@@ -38,26 +38,21 @@ function PlasmicIconStripeLogo__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.parent__size__32]: hasVariant(variants, "size", "_32")
+          [sty.parentsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.parentsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.parentsize__32]: hasVariant(variants, "size", "_32")
         })}
       >
         <StripeWordmarkSlatesvgIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
           className={classNames(projectcss.all, sty.svg, {
-            [sty.svg__color_burple]: hasVariant(variants, "color", "burple"),
-            [sty.svg__color_darkGrey]: hasVariant(
-              variants,
-              "color",
-              "darkGrey"
-            ),
-
-            [sty.svg__color_white]: hasVariant(variants, "color", "white"),
-            [sty.svg__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.svg__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.svg__size__32]: hasVariant(variants, "size", "_32")
+            [sty.svgcolor_burple]: hasVariant(variants, "color", "burple"),
+            [sty.svgcolor_darkGrey]: hasVariant(variants, "color", "darkGrey"),
+            [sty.svgcolor_white]: hasVariant(variants, "color", "white"),
+            [sty.svgsize__18]: hasVariant(variants, "size", "_18"),
+            [sty.svgsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.svgsize__32]: hasVariant(variants, "size", "_32")
           })}
           role={"img"}
         />

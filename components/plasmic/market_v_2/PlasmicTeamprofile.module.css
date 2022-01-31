@@ -20,9 +20,9 @@
   left: auto;
 }
 .teamAboutInfoSection {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -32,9 +32,9 @@
 }
 .teamAboutInfoSection > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -67,9 +67,9 @@
   }
 }
 .profileAboutParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -78,8 +78,8 @@
 }
 .profileAboutParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -125,9 +125,9 @@
   min-width: 0;
 }
 .profileCommunityParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -136,8 +136,8 @@
 }
 .profileCommunityParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -268,9 +268,9 @@
   align-self: stretch;
 }
 .statsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -278,9 +278,9 @@
 }
 .statsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 0px);
@@ -372,9 +372,9 @@
   }
 }
 .memberStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -383,8 +383,8 @@
 }
 .memberStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -514,9 +514,9 @@
   }
 }
 .partnerStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -524,8 +524,8 @@
 }
 .partnerStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -661,9 +661,9 @@
   }
 }
 .followersStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -672,8 +672,8 @@
 }
 .followersStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -812,9 +812,9 @@
   }
 }
 .viewsStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -822,8 +822,8 @@
 }
 .viewsStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -946,9 +946,9 @@
   }
 }
 .reactsStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -957,8 +957,8 @@
 }
 .reactsStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -1081,9 +1081,9 @@
   }
 }
 .savesStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -1091,8 +1091,8 @@
 }
 .savesStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -1215,9 +1215,9 @@
   }
 }
 .teamTeamCommunitySection {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -1227,9 +1227,9 @@
 }
 .teamTeamCommunitySection > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -1271,9 +1271,9 @@
   }
 }
 .profileTeamParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -1282,8 +1282,8 @@
 }
 .profileTeamParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -1319,18 +1319,18 @@
   align-self: stretch;
 }
 .teamMemberparent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .teamMemberparent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 16px);
@@ -3281,9 +3281,9 @@
   align-self: stretch;
 }
 .profileInformationParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -3292,8 +3292,8 @@
 }
 .profileInformationParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -3338,17 +3338,17 @@
   align-self: stretch;
 }
 .textParent5 {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .textParent5 > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -3364,9 +3364,9 @@
   margin-top: 16px;
 }
 .memberBadges {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3375,8 +3375,8 @@
 }
 .memberBadges > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -3409,9 +3409,9 @@
   justify-content: flex-start;
 }
 .locationCityCountry {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3420,8 +3420,8 @@
 }
 .locationCityCountry > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -3525,9 +3525,9 @@
   min-height: 0;
 }
 .location2 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -3535,8 +3535,8 @@
 }
 .location2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
 }
@@ -3599,9 +3599,9 @@
   align-self: stretch;
 }
 .languagesAb {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3610,8 +3610,8 @@
 }
 .languagesAb > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -3712,9 +3712,9 @@
   min-height: 0;
 }
 .languageParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3723,8 +3723,8 @@
 }
 .languageParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -3775,9 +3775,9 @@
   align-self: stretch;
 }
 .membershipDateTimestamp {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3786,8 +3786,8 @@
 }
 .membershipDateTimestamp > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -3891,9 +3891,9 @@
   min-height: 0;
 }
 .membershipParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -3901,8 +3901,8 @@
 }
 .membershipParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
@@ -3952,9 +3952,9 @@
   align-self: stretch;
 }
 .teamIndustrySocialSection {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -3964,9 +3964,9 @@
 }
 .teamIndustrySocialSection > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -4014,9 +4014,9 @@
   }
 }
 .companyAttributesParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -4024,8 +4024,8 @@
 }
 .companyAttributesParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -4043,9 +4043,9 @@
   margin-top: 32px;
 }
 .profileIndustryParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -4053,8 +4053,8 @@
 }
 .profileIndustryParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -4093,18 +4093,18 @@
   align-self: stretch;
 }
 .textParent6 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .textParent6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);
@@ -4170,9 +4170,9 @@
   height: 16px;
 }
 .profileCategoriesParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -4180,8 +4180,8 @@
 }
 .profileCategoriesParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -4220,18 +4220,18 @@
   align-self: stretch;
 }
 .categoryBadgeParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .categoryBadgeParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);
@@ -4323,9 +4323,9 @@
   height: 16px;
 }
 .profileSkillsParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -4333,8 +4333,8 @@
 }
 .profileSkillsParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -4373,18 +4373,18 @@
   align-self: stretch;
 }
 .skillsBadgeParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .skillsBadgeParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);
@@ -4519,9 +4519,9 @@
   height: 16px;
 }
 .profileSocialParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -4530,8 +4530,8 @@
 }
 .profileSocialParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -4570,18 +4570,18 @@
   align-self: stretch;
 }
 .socialIconsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .socialIconsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 16px);
@@ -4631,9 +4631,9 @@
   position: relative;
 }
 .sectionPartnerSimilarPartners {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -4644,9 +4644,9 @@
 }
 .sectionPartnerSimilarPartners > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -4717,9 +4717,9 @@
   }
 }
 .profileTeamCarousellParentB {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -4728,8 +4728,8 @@
 }
 .profileTeamCarousellParentB > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -4820,18 +4820,18 @@
   }
 }
 .similarPartnersparenT {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .similarPartnersparenT > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 16px);
@@ -4981,9 +4981,9 @@
   }
 }
 .sectionPartnerAlsoViewed {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -4993,9 +4993,9 @@
 }
 .sectionPartnerAlsoViewed > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -5063,9 +5063,9 @@
   }
 }
 .profileTeamCarousellParentA {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -5074,8 +5074,8 @@
 }
 .profileTeamCarousellParentA > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -5166,18 +5166,18 @@
   }
 }
 .alsoViewedParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .alsoViewedParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 16px);

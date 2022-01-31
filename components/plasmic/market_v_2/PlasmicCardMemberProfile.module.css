@@ -1,6 +1,6 @@
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   position: relative;
   background: #ffffff;
@@ -9,8 +9,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -83,9 +83,9 @@
   object-fit: cover;
 }
 .freeBox__uAf9P {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -93,8 +93,8 @@
 }
 .freeBox__uAf9P > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
@@ -135,9 +135,9 @@
   top: auto;
 }
 .freeBox__z3JMv {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -145,8 +145,8 @@
 }
 .freeBox__z3JMv > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
@@ -184,7 +184,7 @@
     flex-shrink: 0;
   }
 }
-.buttonPrimary__session:global(.__wab_instance) {
+.buttonPrimarysession:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg___41VDk {
@@ -220,9 +220,9 @@
   }
 }
 .freeBox___96C2A {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -232,8 +232,8 @@
 }
 .freeBox___96C2A > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 96px);
   width: calc(100% + 96px);
 }
@@ -248,9 +248,9 @@
   margin-left: 96px;
 }
 .freeBox___0SUgg {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -259,8 +259,8 @@
 }
 .freeBox___0SUgg > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -303,9 +303,9 @@
   line-height: 1.5em;
 }
 .freeBox__e6Bhh {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -314,8 +314,8 @@
 }
 .freeBox__e6Bhh > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -372,9 +372,9 @@
   }
 }
 .freeBox___8TRdX {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -384,8 +384,8 @@
 }
 .freeBox___8TRdX > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 96px);
   width: calc(100% + 96px);
 }
@@ -400,9 +400,9 @@
   margin-left: 96px;
 }
 .freeBox__my3Io {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -411,8 +411,8 @@
 }
 .freeBox__my3Io > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -455,9 +455,9 @@
   line-height: 1.5em;
 }
 .freeBox__oEqyk {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -466,8 +466,8 @@
 }
 .freeBox__oEqyk > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -524,9 +524,9 @@
   }
 }
 .freeBox__xf5Vf {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -535,8 +535,8 @@
 }
 .freeBox__xf5Vf > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }

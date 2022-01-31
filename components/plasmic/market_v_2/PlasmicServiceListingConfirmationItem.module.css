@@ -46,21 +46,21 @@
   min-width: 0;
   padding: 8px;
 }
-.freeBox__hasListContent__gjKkir4Ybx {
+.freeBoxhasListContent__gjKkir4Ybx {
   display: none;
 }
-.freeBox__hasArrayFieldContent__gjKkiEpHg {
+.freeBoxhasArrayFieldContent__gjKkiEpHg {
   display: none;
 }
-.freeBox__hasImages__gjKkic98Jq {
+.freeBoxhasImages__gjKkic98Jq {
   display: none;
 }
 .slotTargetTextContent {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .freeBox__tKt0A {
-  position: relative;
   flex-direction: row;
+  position: relative;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -70,9 +70,9 @@
 }
 .freeBox__tKt0A > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -90,7 +90,7 @@
   margin-left: 16px;
   margin-top: 8px;
 }
-.freeBox__hasListContent__tKt0Ar4Ybx {
+.freeBoxhasListContent__tKt0Ar4Ybx {
   display: flex;
 }
 .chipBadgeDisplay___3BrlU:global(.__wab_instance) {
@@ -140,8 +140,8 @@
   height: 16px;
 }
 .freeBox__eBgpn {
-  position: relative;
   flex-direction: column;
+  position: relative;
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -151,8 +151,8 @@
 }
 .freeBox__eBgpn > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: space-between;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -167,7 +167,7 @@
   > img {
   margin-top: 16px;
 }
-.freeBox__hasArrayFieldContent__eBgpnEpHg {
+.freeBoxhasArrayFieldContent__eBgpnEpHg {
   display: flex;
 }
 .serviceListingArrayFieldConfirmation___7RkKf:global(.__wab_instance) {
@@ -187,7 +187,7 @@
   min-width: 0;
   display: none;
 }
-.freeBox__hasImages__fClvJc98Jq {
+.freeBoxhasImages__fClvJc98Jq {
   display: flex;
 }
 .serviceListingImagesConfirmation__ypA07:global(.__wab_instance) {

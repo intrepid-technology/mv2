@@ -35,7 +35,7 @@ function PlasmicIconListItem__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__vertical]: hasVariant(variants, "vertical", "vertical")
+        [sty.rootvertical]: hasVariant(variants, "vertical", "vertical")
       })}
     >
       <div
@@ -59,7 +59,7 @@ function PlasmicIconListItem__RenderFunc(props) {
         data-plasmic-name={"textWrapper"}
         data-plasmic-override={overrides.textWrapper}
         className={classNames(projectcss.all, sty.textWrapper, {
-          [sty.textWrapper__vertical]: hasVariant(
+          [sty.textWrappervertical]: hasVariant(
             variants,
             "vertical",
             "vertical"
@@ -71,7 +71,7 @@ function PlasmicIconListItem__RenderFunc(props) {
             "Global access to over 27,000 SMBs and professionals",
           value: args.label,
           className: classNames(sty.slotTargetLabel, {
-            [sty.slotTargetLabel__vertical]: hasVariant(
+            [sty.slotTargetLabelvertical]: hasVariant(
               variants,
               "vertical",
               "vertical"

@@ -51,7 +51,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         data-plasmic-name={"facebook"}
         data-plasmic-override={overrides.facebook}
         className={classNames("__wab_instance", sty.facebook, {
-          [sty.facebook__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.facebookcolor_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
         destination={"https://www.facebook.com/intrepidmarket"}
@@ -61,7 +61,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         data-plasmic-name={"instagram"}
         data-plasmic-override={overrides.instagram}
         className={classNames("__wab_instance", sty.instagram, {
-          [sty.instagram__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.instagramcolor_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
         destination={"https://www.instagram.com/intrepid.market"}
@@ -76,7 +76,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         data-plasmic-name={"linkedin"}
         data-plasmic-override={overrides.linkedin}
         className={classNames("__wab_instance", sty.linkedin, {
-          [sty.linkedin__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.linkedincolor_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
         destination={"https://www.linkedin.com/company/intrepidtechnology"}
@@ -91,7 +91,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         data-plasmic-name={"twitter"}
         data-plasmic-override={overrides.twitter}
         className={classNames("__wab_instance", sty.twitter, {
-          [sty.twitter__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.twittercolor_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
         destination={"https://twitter.com/intrepidmarket?lang=en"}
@@ -106,7 +106,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
         data-plasmic-name={"youtube"}
         data-plasmic-override={overrides.youtube}
         className={classNames("__wab_instance", sty.youtube, {
-          [sty.youtube__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.youtubecolor_dark]: hasVariant(variants, "color", "dark")
         })}
         color={hasVariant(variants, "color", "dark") ? "light" : "dark"}
         destination={
@@ -115,7 +115,7 @@ function PlasmicFooterSocialLinkGroup__RenderFunc(props) {
       >
         <Icon11Icon
           className={classNames(projectcss.all, sty.svg__p0Gqw, {
-            [sty.svg__color_dark__p0GqwKbTz]: hasVariant(
+            [sty.svgcolor_dark__p0GqwKbTz]: hasVariant(
               variants,
               "color",
               "dark"

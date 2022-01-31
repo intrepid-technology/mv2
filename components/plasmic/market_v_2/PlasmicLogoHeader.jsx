@@ -39,9 +39,13 @@ function PlasmicLogoHeader__RenderFunc(props) {
       data-plasmic-override={overrides.logoLink}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.logoLink, {
-        [sty.logoLink__color]: hasVariant(variants, "color", "color")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.logoLink,
+        { [sty.logoLinkcolor]: hasVariant(variants, "color", "color") }
+      )}
       component={Link}
       href={
         hasVariant(globalVariants, "screen", "desktop")
@@ -55,7 +59,11 @@ function PlasmicLogoHeader__RenderFunc(props) {
             defaultContents: (
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__n8PaC)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__n8PaC
+                )}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
               />
             ),
@@ -68,8 +76,8 @@ function PlasmicLogoHeader__RenderFunc(props) {
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(projectcss.img, sty.img, {
-            [sty.img__color]: hasVariant(variants, "color", "color")
+          className={classNames(projectcss.all, projectcss.img, sty.img, {
+            [sty.imgcolor]: hasVariant(variants, "color", "color")
           })}
           src={
             hasVariant(variants, "color", "color")

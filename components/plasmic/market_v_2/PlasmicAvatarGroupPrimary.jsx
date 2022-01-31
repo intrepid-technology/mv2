@@ -39,62 +39,62 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__amount__2_groupSize__16]:
+        [sty.rootamount__2_groupSize__16]:
           hasVariant(variants, "amount", "_2") &&
           hasVariant(variants, "groupSize", "_16"),
-        [sty.root__groupSize__16_amount__3]:
+        [sty.rootgroupSize__16_amount__3]:
           hasVariant(variants, "groupSize", "_16") &&
           hasVariant(variants, "amount", "_3"),
-        [sty.root__groupSize__16_amount__4]:
+        [sty.rootgroupSize__16_amount__4]:
           hasVariant(variants, "groupSize", "_16") &&
           hasVariant(variants, "amount", "_4")
       })}
     >
       <UserAvatar
         className={classNames("__wab_instance", sty.userAvatar__op0Ag, {
-          [sty.userAvatar__amount__2__op0Ag2Zh4P]: hasVariant(
+          [sty.userAvataramount__2__op0Ag2Zh4P]: hasVariant(
             variants,
             "amount",
             "_2"
           ),
 
-          [sty.userAvatar__amount__3__op0AgJSrVy]: hasVariant(
+          [sty.userAvataramount__3__op0AgJSrVy]: hasVariant(
             variants,
             "amount",
             "_3"
           ),
 
-          [sty.userAvatar__amount__4__op0Ag3OMqc]: hasVariant(
+          [sty.userAvataramount__4__op0Ag3OMqc]: hasVariant(
             variants,
             "amount",
             "_4"
           ),
 
-          [sty.userAvatar__amount__5__op0AgbkkXr]: hasVariant(
+          [sty.userAvataramount__5__op0AgbkkXr]: hasVariant(
             variants,
             "amount",
             "_5"
           ),
 
-          [sty.userAvatar__groupSize__16__op0AgIQnN]: hasVariant(
+          [sty.userAvatargroupSize__16__op0AgIQnN]: hasVariant(
             variants,
             "groupSize",
             "_16"
           ),
 
-          [sty.userAvatar__groupSize__18__op0AgtdXvc]: hasVariant(
+          [sty.userAvatargroupSize__18__op0AgtdXvc]: hasVariant(
             variants,
             "groupSize",
             "_18"
           ),
 
-          [sty.userAvatar__groupSize__24__op0Ag5Cbp]: hasVariant(
+          [sty.userAvatargroupSize__24__op0Ag5Cbp]: hasVariant(
             variants,
             "groupSize",
             "_24"
           ),
 
-          [sty.userAvatar__groupSize__32__op0AgoUtaW]: hasVariant(
+          [sty.userAvatargroupSize__32__op0AgoUtaW]: hasVariant(
             variants,
             "groupSize",
             "_32"
@@ -103,7 +103,11 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
         navUserAvatar16={
           <img
             alt={""}
-            className={classNames(projectcss.img, sty.img__dolm6)}
+            className={classNames(
+              projectcss.all,
+              projectcss.img,
+              sty.img__dolm6
+            )}
             src={
               "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
             }
@@ -125,31 +129,31 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__qw9CS, {
-            [sty.userAvatar__amount__2__qw9CS2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__qw9CS2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__qw9CSjSrVy]: hasVariant(
+            [sty.userAvataramount__3__qw9CSjSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__qw9CS3OMqc]: hasVariant(
+            [sty.userAvataramount__4__qw9CS3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__amount__5__qw9CSbkkXr]: hasVariant(
+            [sty.userAvataramount__5__qw9CSbkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__5__qw9CSiQnNBkkXr]:
+            [sty.userAvatargroupSize__16_amount__5__qw9CSiQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
           })}
@@ -164,31 +168,31 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__nsGCi, {
-            [sty.userAvatar__amount__2__nsGCi2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__nsGCi2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__nsGCiJSrVy]: hasVariant(
+            [sty.userAvataramount__3__nsGCiJSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__nsGCi3OMqc]: hasVariant(
+            [sty.userAvataramount__4__nsGCi3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__amount__5__nsGCibkkXr]: hasVariant(
+            [sty.userAvataramount__5__nsGCibkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__5__nsGCiIQnNBkkXr]:
+            [sty.userAvatargroupSize__16_amount__5__nsGCiIQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
           })}
@@ -203,31 +207,31 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__vjSNx, {
-            [sty.userAvatar__amount__2__vjSNx2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__vjSNx2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__vjSNxJSrVy]: hasVariant(
+            [sty.userAvataramount__3__vjSNxJSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__vjSNx3OMqc]: hasVariant(
+            [sty.userAvataramount__4__vjSNx3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__amount__5__vjSNxbkkXr]: hasVariant(
+            [sty.userAvataramount__5__vjSNxbkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__5__vjSNxIQnNBkkXr]:
+            [sty.userAvatargroupSize__16_amount__5__vjSNxIQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
           })}
@@ -242,31 +246,31 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar___1IX6Z, {
-            [sty.userAvatar__amount__2___1IX6Z2Zh4P]: hasVariant(
+            [sty.userAvataramount__2___1IX6Z2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3___1IX6ZJSrVy]: hasVariant(
+            [sty.userAvataramount__3___1IX6ZJSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4___1IX6Z3OMqc]: hasVariant(
+            [sty.userAvataramount__4___1IX6Z3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__amount__5___1IX6ZbkkXr]: hasVariant(
+            [sty.userAvataramount__5___1IX6ZbkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__5___1IX6ZIQnNBkkXr]:
+            [sty.userAvatargroupSize__16_amount__5___1IX6ZIQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
           })}
@@ -281,25 +285,25 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_4") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__g8Xff, {
-            [sty.userAvatar__amount__2__g8Xff2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__g8Xff2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__g8XffjSrVy]: hasVariant(
+            [sty.userAvataramount__3__g8XffjSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__g8Xff3OMqc]: hasVariant(
+            [sty.userAvataramount__4__g8Xff3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__4__g8XffiQnN3OMqc]:
+            [sty.userAvatargroupSize__16_amount__4__g8XffiQnN3OMqc]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_4")
           })}
@@ -314,25 +318,25 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_4") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__kf6WJ, {
-            [sty.userAvatar__amount__2__kf6WJ2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__kf6WJ2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__kf6WJjSrVy]: hasVariant(
+            [sty.userAvataramount__3__kf6WJjSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__kf6WJ3OMqc]: hasVariant(
+            [sty.userAvataramount__4__kf6WJ3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__4__kf6WJiQnN3OMqc]:
+            [sty.userAvatargroupSize__16_amount__4__kf6WJiQnN3OMqc]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_4")
           })}
@@ -347,34 +351,34 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_4") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__ipfFb, {
-            [sty.userAvatar__amount__2__ipfFb2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__ipfFb2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__ipfFbjSrVy]: hasVariant(
+            [sty.userAvataramount__3__ipfFbjSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__4__ipfFb3OMqc]: hasVariant(
+            [sty.userAvataramount__4__ipfFb3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.userAvatar__amount__5__ipfFBbkkXr]: hasVariant(
+            [sty.userAvataramount__5__ipfFBbkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatar__groupSize__16_amount__4__ipfFbiQnN3OMqc]:
+            [sty.userAvatargroupSize__16_amount__4__ipfFbiQnN3OMqc]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_4"),
-            [sty.userAvatar__groupSize__16_amount__5__ipfFbiQnNBkkXr]:
+            [sty.userAvatargroupSize__16_amount__5__ipfFbiQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
           })}
@@ -389,26 +393,30 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_3") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__b4Pkp, {
-            [sty.userAvatar__amount__2__b4Pkp2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__b4Pkp2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__b4PkpjSrVy]: hasVariant(
+            [sty.userAvataramount__3__b4PkpjSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__3_groupSize__16__b4PkpjSrVyIQnN]:
+            [sty.userAvataramount__3_groupSize__16__b4PkpjSrVyIQnN]:
               hasVariant(variants, "amount", "_3") &&
               hasVariant(variants, "groupSize", "_16")
           })}
           navUserAvatar16={
             <img
               alt={""}
-              className={classNames(projectcss.img, sty.img__dxJKw)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.img__dxJKw
+              )}
               src={
                 "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
               }
@@ -425,22 +433,22 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_3") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__zdi5Y, {
-            [sty.userAvatar__amount__2__zdi5Y2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__zdi5Y2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__3__zdi5YJSrVy]: hasVariant(
+            [sty.userAvataramount__3__zdi5YJSrVy]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.userAvatar__amount__3_groupSize__16__zdi5YJSrVyIQnN]:
+            [sty.userAvataramount__3_groupSize__16__zdi5YJSrVyIQnN]:
               hasVariant(variants, "amount", "_3") &&
               hasVariant(variants, "groupSize", "_16"),
-            [sty.userAvatar__amount__4__zdi5Y3OMqc]: hasVariant(
+            [sty.userAvataramount__4__zdi5Y3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
@@ -449,7 +457,11 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
           navUserAvatar16={
             <img
               alt={""}
-              className={classNames(projectcss.img, sty.img___31TU3)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.img___31TU3
+              )}
               src={
                 "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
               }
@@ -466,16 +478,16 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_2") ? true : false) ? (
         <UserAvatar
           className={classNames("__wab_instance", sty.userAvatar__zOal, {
-            [sty.userAvatar__amount__2__zOal2Zh4P]: hasVariant(
+            [sty.userAvataramount__2__zOal2Zh4P]: hasVariant(
               variants,
               "amount",
               "_2"
             ),
 
-            [sty.userAvatar__amount__2_groupSize__16__zOal2Zh4PIQnN]:
+            [sty.userAvataramount__2_groupSize__16__zOal2Zh4PIQnN]:
               hasVariant(variants, "amount", "_2") &&
               hasVariant(variants, "groupSize", "_16"),
-            [sty.userAvatar__amount__3__zOalJSrVy]: hasVariant(
+            [sty.userAvataramount__3__zOalJSrVy]: hasVariant(
               variants,
               "amount",
               "_3"

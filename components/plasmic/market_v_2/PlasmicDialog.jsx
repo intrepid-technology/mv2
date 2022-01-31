@@ -88,7 +88,11 @@ function PlasmicDialog__RenderFunc(props) {
         <button
           data-plasmic-name={"cancelButton"}
           data-plasmic-override={overrides.cancelButton}
-          className={classNames(projectcss.button, sty.cancelButton)}
+          className={classNames(
+            projectcss.all,
+            projectcss.button,
+            sty.cancelButton
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Cancel",
@@ -100,7 +104,11 @@ function PlasmicDialog__RenderFunc(props) {
         <button
           data-plasmic-name={"submitButton"}
           data-plasmic-override={overrides.submitButton}
-          className={classNames(projectcss.button, sty.submitButton)}
+          className={classNames(
+            projectcss.all,
+            projectcss.button,
+            sty.submitButton
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Submit",

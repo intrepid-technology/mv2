@@ -1,14 +1,14 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   position: relative;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -51,9 +51,9 @@
   }
 }
 .profileIndustryParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -62,8 +62,8 @@
 }
 .profileIndustryParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -140,18 +140,18 @@
   align-self: stretch;
 }
 .textParent6 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .textParent6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);
@@ -217,9 +217,9 @@
   height: 16px;
 }
 .profileCategoriesParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -227,8 +227,8 @@
 }
 .profileCategoriesParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -307,18 +307,18 @@
   align-self: stretch;
 }
 .categoryBadgeParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .categoryBadgeParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);
@@ -410,9 +410,9 @@
   height: 16px;
 }
 .profileSkillsParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -420,8 +420,8 @@
 }
 .profileSkillsParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -500,18 +500,18 @@
   align-self: stretch;
 }
 .skillsBadgeParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .skillsBadgeParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);

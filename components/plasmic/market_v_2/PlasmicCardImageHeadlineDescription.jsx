@@ -45,15 +45,15 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__270X270]: hasVariant(variants, "size", "_270X270"),
-        [sty.root__size__360X360]: hasVariant(variants, "size", "_360X360")
+        [sty.rootsize__270X270]: hasVariant(variants, "size", "_270X270"),
+        [sty.rootsize__360X360]: hasVariant(variants, "size", "_360X360")
       })}
     >
       <div
         data-plasmic-name={"imageParent"}
         data-plasmic-override={overrides.imageParent}
         className={classNames(projectcss.all, sty.imageParent, {
-          [sty.imageParent__size__270X270]: hasVariant(
+          [sty.imageParentsize__270X270]: hasVariant(
             variants,
             "size",
             "_270X270"
@@ -71,7 +71,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               {false ? (
                 <img
                   alt={""}
-                  className={classNames(projectcss.img, sty.img__f30B9)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img__f30B9
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -81,7 +85,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__tkgid)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__tkgid
+                    )}
                     src={
                       "https://craftypixels.com/placeholder-image/270x270/f8f8f8/333333"
                     }
@@ -97,7 +105,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
               {false ? (
                 <img
                   alt={""}
-                  className={classNames(projectcss.img, sty.img__xV2M8)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img__xV2M8
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f8f8f8/333333"
                   }
@@ -107,7 +119,11 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__tAiFn)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__tAiFn
+                    )}
                     src={
                       "https://craftypixels.com/placeholder-image/360x360/f8f8f8/333333"
                     }
@@ -125,13 +141,13 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
         data-plasmic-name={"textLinkHeadlineParent"}
         data-plasmic-override={overrides.textLinkHeadlineParent}
         className={classNames(projectcss.all, sty.textLinkHeadlineParent, {
-          [sty.textLinkHeadlineParent__size__270X270]: hasVariant(
+          [sty.textLinkHeadlineParentsize__270X270]: hasVariant(
             variants,
             "size",
             "_270X270"
           ),
 
-          [sty.textLinkHeadlineParent__size__360X360]: hasVariant(
+          [sty.textLinkHeadlineParentsize__360X360]: hasVariant(
             variants,
             "size",
             "_360X360"
@@ -165,19 +181,19 @@ function PlasmicCardImageHeadlineDescription__RenderFunc(props) {
         data-plasmic-name={"subheadParent"}
         data-plasmic-override={overrides.subheadParent}
         className={classNames(projectcss.all, sty.subheadParent, {
-          [sty.subheadParent__description]: hasVariant(
+          [sty.subheadParentdescription]: hasVariant(
             variants,
             "description",
             "description"
           ),
 
-          [sty.subheadParent__size__270X270]: hasVariant(
+          [sty.subheadParentsize__270X270]: hasVariant(
             variants,
             "size",
             "_270X270"
           ),
 
-          [sty.subheadParent__size__360X360]: hasVariant(
+          [sty.subheadParentsize__360X360]: hasVariant(
             variants,
             "size",
             "_360X360"

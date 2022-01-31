@@ -43,22 +43,22 @@ function PlasmicCardValueProposition__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__background_bgLightB]: hasVariant(
+        [sty.rootbackground_bgLightB]: hasVariant(
           variants,
           "background",
           "bgLightB"
         ),
 
-        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270")
+        [sty.rootsize__160]: hasVariant(variants, "size", "_160"),
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270")
       })}
     >
       <div
         data-plasmic-name={"svgParentBg"}
         data-plasmic-override={overrides.svgParentBg}
         className={classNames(projectcss.all, sty.svgParentBg, {
-          [sty.svgParentBg__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.svgParentBg__size__270]: hasVariant(variants, "size", "_270")
+          [sty.svgParentBgsize__160]: hasVariant(variants, "size", "_160"),
+          [sty.svgParentBgsize__270]: hasVariant(variants, "size", "_270")
         })}
       >
         {p.renderPlasmicSlot({
@@ -84,7 +84,7 @@ function PlasmicCardValueProposition__RenderFunc(props) {
           data-plasmic-name={"headlineTextParent"}
           data-plasmic-override={overrides.headlineTextParent}
           className={classNames(projectcss.all, sty.headlineTextParent, {
-            [sty.headlineTextParent__size__160]: hasVariant(
+            [sty.headlineTextParentsize__160]: hasVariant(
               variants,
               "size",
               "_160"
@@ -95,13 +95,13 @@ function PlasmicCardValueProposition__RenderFunc(props) {
             defaultContents: "Headline value proposition",
             value: args.headline,
             className: classNames(sty.slotTargetHeadline, {
-              [sty.slotTargetHeadline__size__160]: hasVariant(
+              [sty.slotTargetHeadlinesize__160]: hasVariant(
                 variants,
                 "size",
                 "_160"
               ),
 
-              [sty.slotTargetHeadline__size__270]: hasVariant(
+              [sty.slotTargetHeadlinesize__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
@@ -114,11 +114,7 @@ function PlasmicCardValueProposition__RenderFunc(props) {
           data-plasmic-name={"textBodyParent"}
           data-plasmic-override={overrides.textBodyParent}
           className={classNames(projectcss.all, sty.textBodyParent, {
-            [sty.textBodyParent__size__160]: hasVariant(
-              variants,
-              "size",
-              "_160"
-            )
+            [sty.textBodyParentsize__160]: hasVariant(variants, "size", "_160")
           })}
         >
           {p.renderPlasmicSlot({
@@ -126,13 +122,13 @@ function PlasmicCardValueProposition__RenderFunc(props) {
               "Description of the key value that we provide. it should only a few line",
             value: args.textBody,
             className: classNames(sty.slotTargetTextBody, {
-              [sty.slotTargetTextBody__size__160]: hasVariant(
+              [sty.slotTargetTextBodysize__160]: hasVariant(
                 variants,
                 "size",
                 "_160"
               ),
 
-              [sty.slotTargetTextBody__size__270]: hasVariant(
+              [sty.slotTargetTextBodysize__270]: hasVariant(
                 variants,
                 "size",
                 "_270"

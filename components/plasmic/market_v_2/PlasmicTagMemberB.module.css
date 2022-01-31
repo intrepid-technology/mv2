@@ -11,7 +11,7 @@
   padding: 2px 6px;
   border: 1px solid #855cff /* plasmic-token: 6xKNduQM7 */;
 }
-.root__inset {
+.rootinset {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -21,7 +21,7 @@
   padding: 2px 6px;
   border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.root__inset:hover {
+.rootinset:hover {
   background: #6633ff;
   border-color: #855cff /* plasmic-token: 6xKNduQM7 */;
 }
@@ -35,13 +35,13 @@
   font-weight: 600;
   line-height: 10px;
 }
-.text__inset {
+.textinset {
   font-size: 8px;
   font-weight: 600;
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
   text-transform: uppercase;
   line-height: 10px;
 }
-.root__inset:hover .text__inset {
+.rootinset:hover .textinset {
   color: #ffffff /* plasmic-token: 5XhQ_b_Lb */;
 }

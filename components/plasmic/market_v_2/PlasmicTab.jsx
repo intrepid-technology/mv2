@@ -37,16 +37,22 @@ function PlasmicTab__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
-        [sty.root__state_selected]: hasVariant(variants, "state", "selected"),
-        [sty.root__state_selected_activeBorder_left]:
-          hasVariant(variants, "state", "selected") &&
-          hasVariant(variants, "activeBorder", "left")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
+          [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
+          [sty.rootstate_selected]: hasVariant(variants, "state", "selected"),
+          [sty.rootstate_selected_activeBorder_left]:
+            hasVariant(variants, "state", "selected") &&
+            hasVariant(variants, "activeBorder", "left")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -55,16 +61,11 @@ function PlasmicTab__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.parent__color_ghost]: hasVariant(variants, "color", "ghost"),
-          [sty.parent__color_light]: hasVariant(variants, "color", "light"),
-          [sty.parent__state_selected]: hasVariant(
-            variants,
-            "state",
-            "selected"
-          ),
-
-          [sty.parent__state_selected_activeBorder_left]:
+          [sty.parentcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.parentcolor_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.parentcolor_light]: hasVariant(variants, "color", "light"),
+          [sty.parentstate_selected]: hasVariant(variants, "state", "selected"),
+          [sty.parentstate_selected_activeBorder_left]:
             hasVariant(variants, "state", "selected") &&
             hasVariant(variants, "activeBorder", "left")
         })}
@@ -73,7 +74,7 @@ function PlasmicTab__RenderFunc(props) {
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
           className={classNames(projectcss.all, sty.textParent, {
-            [sty.textParent__state_selected_activeBorder_left]:
+            [sty.textParentstate_selected_activeBorder_left]:
               hasVariant(variants, "state", "selected") &&
               hasVariant(variants, "activeBorder", "left")
           })}
@@ -82,38 +83,38 @@ function PlasmicTab__RenderFunc(props) {
             data-plasmic-name={"textBg"}
             data-plasmic-override={overrides.textBg}
             className={classNames(projectcss.all, sty.textBg, {
-              [sty.textBg__color_light]: hasVariant(variants, "color", "light")
+              [sty.textBgcolor_light]: hasVariant(variants, "color", "light")
             })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Nav Link",
               value: args.label,
               className: classNames(sty.slotTargetLabel, {
-                [sty.slotTargetLabel__color_brand]: hasVariant(
+                [sty.slotTargetLabelcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetLabel__color_ghost]: hasVariant(
+                [sty.slotTargetLabelcolor_ghost]: hasVariant(
                   variants,
                   "color",
                   "ghost"
                 ),
 
-                [sty.slotTargetLabel__color_light]: hasVariant(
+                [sty.slotTargetLabelcolor_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotTargetLabel__state_disabled]: hasVariant(
+                [sty.slotTargetLabelstate_disabled]: hasVariant(
                   variants,
                   "state",
                   "disabled"
                 ),
 
-                [sty.slotTargetLabel__state_selected]: hasVariant(
+                [sty.slotTargetLabelstate_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"

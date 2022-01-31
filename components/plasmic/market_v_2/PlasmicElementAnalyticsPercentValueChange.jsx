@@ -57,23 +57,19 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
           data-plasmic-name={"svgparent"}
           data-plasmic-override={overrides.svgparent}
           className={classNames(projectcss.all, sty.svgparent, {
-            [sty.svgparent__integer_minus]: hasVariant(
+            [sty.svgparentinteger_minus]: hasVariant(
               variants,
               "integer",
               "minus"
             ),
 
-            [sty.svgparent__integer_noChange]: hasVariant(
+            [sty.svgparentinteger_noChange]: hasVariant(
               variants,
               "integer",
               "noChange"
             ),
 
-            [sty.svgparent__integer_plus]: hasVariant(
-              variants,
-              "integer",
-              "plus"
-            )
+            [sty.svgparentinteger_plus]: hasVariant(variants, "integer", "plus")
           })}
         >
           {(
@@ -138,19 +134,19 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
           data-plasmic-name={"numberValueParent"}
           data-plasmic-override={overrides.numberValueParent}
           className={classNames(projectcss.all, sty.numberValueParent, {
-            [sty.numberValueParent__integer_minus]: hasVariant(
+            [sty.numberValueParentinteger_minus]: hasVariant(
               variants,
               "integer",
               "minus"
             ),
 
-            [sty.numberValueParent__integer_noChange]: hasVariant(
+            [sty.numberValueParentinteger_noChange]: hasVariant(
               variants,
               "integer",
               "noChange"
             ),
 
-            [sty.numberValueParent__integer_plus]: hasVariant(
+            [sty.numberValueParentinteger_plus]: hasVariant(
               variants,
               "integer",
               "plus"
@@ -181,15 +177,19 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.numberValueParent,
                 className: classNames(sty.slotTargetNumberValueParent, {
-                  [sty.slotTargetNumberValueParent__integer_minus]: hasVariant(
+                  [sty.slotTargetNumberValueParentinteger_minus]: hasVariant(
                     variants,
                     "integer",
                     "minus"
                   ),
 
-                  [sty.slotTargetNumberValueParent__integer_noChange]:
-                    hasVariant(variants, "integer", "noChange"),
-                  [sty.slotTargetNumberValueParent__integer_plus]: hasVariant(
+                  [sty.slotTargetNumberValueParentinteger_noChange]: hasVariant(
+                    variants,
+                    "integer",
+                    "noChange"
+                  ),
+
+                  [sty.slotTargetNumberValueParentinteger_plus]: hasVariant(
                     variants,
                     "integer",
                     "plus"
@@ -213,10 +213,13 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.numberValueParentPlus,
                 className: classNames(sty.slotTargetNumberValueParentPlus, {
-                  [sty.slotTargetNumberValueParentPlus__integer_minus]:
+                  [sty.slotTargetNumberValueParentPlusinteger_minus]:
                     hasVariant(variants, "integer", "minus"),
-                  [sty.slotTargetNumberValueParentPlus__integer_plus]:
-                    hasVariant(variants, "integer", "plus")
+                  [sty.slotTargetNumberValueParentPlusinteger_plus]: hasVariant(
+                    variants,
+                    "integer",
+                    "plus"
+                  )
                 })
               })
             : null}
@@ -242,9 +245,9 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.numberValueParentMinus,
                 className: classNames(sty.slotTargetNumberValueParentMinus, {
-                  [sty.slotTargetNumberValueParentMinus__integer_minus]:
+                  [sty.slotTargetNumberValueParentMinusinteger_minus]:
                     hasVariant(variants, "integer", "minus"),
-                  [sty.slotTargetNumberValueParentMinus__integer_plus]:
+                  [sty.slotTargetNumberValueParentMinusinteger_plus]:
                     hasVariant(variants, "integer", "plus")
                 })
               })
@@ -273,11 +276,11 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.numberValueParentNoChange,
                 className: classNames(sty.slotTargetNumberValueParentNoChange, {
-                  [sty.slotTargetNumberValueParentNoChange__integer_minus]:
+                  [sty.slotTargetNumberValueParentNoChangeinteger_minus]:
                     hasVariant(variants, "integer", "minus"),
-                  [sty.slotTargetNumberValueParentNoChange__integer_noChange]:
+                  [sty.slotTargetNumberValueParentNoChangeinteger_noChange]:
                     hasVariant(variants, "integer", "noChange"),
-                  [sty.slotTargetNumberValueParentNoChange__integer_plus]:
+                  [sty.slotTargetNumberValueParentNoChangeinteger_plus]:
                     hasVariant(variants, "integer", "plus")
                 })
               })
@@ -288,19 +291,19 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
           data-plasmic-name={"percentParent"}
           data-plasmic-override={overrides.percentParent}
           className={classNames(projectcss.all, sty.percentParent, {
-            [sty.percentParent__integer_minus]: hasVariant(
+            [sty.percentParentinteger_minus]: hasVariant(
               variants,
               "integer",
               "minus"
             ),
 
-            [sty.percentParent__integer_noChange]: hasVariant(
+            [sty.percentParentinteger_noChange]: hasVariant(
               variants,
               "integer",
               "noChange"
             ),
 
-            [sty.percentParent__integer_plus]: hasVariant(
+            [sty.percentParentinteger_plus]: hasVariant(
               variants,
               "integer",
               "plus"
@@ -331,19 +334,19 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.percentParent,
                 className: classNames(sty.slotTargetPercentParent, {
-                  [sty.slotTargetPercentParent__integer_minus]: hasVariant(
+                  [sty.slotTargetPercentParentinteger_minus]: hasVariant(
                     variants,
                     "integer",
                     "minus"
                   ),
 
-                  [sty.slotTargetPercentParent__integer_noChange]: hasVariant(
+                  [sty.slotTargetPercentParentinteger_noChange]: hasVariant(
                     variants,
                     "integer",
                     "noChange"
                   ),
 
-                  [sty.slotTargetPercentParent__integer_plus]: hasVariant(
+                  [sty.slotTargetPercentParentinteger_plus]: hasVariant(
                     variants,
                     "integer",
                     "plus"
@@ -367,13 +370,13 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.percentParentPlus,
                 className: classNames(sty.slotTargetPercentParentPlus, {
-                  [sty.slotTargetPercentParentPlus__integer_minus]: hasVariant(
+                  [sty.slotTargetPercentParentPlusinteger_minus]: hasVariant(
                     variants,
                     "integer",
                     "minus"
                   ),
 
-                  [sty.slotTargetPercentParentPlus__integer_plus]: hasVariant(
+                  [sty.slotTargetPercentParentPlusinteger_plus]: hasVariant(
                     variants,
                     "integer",
                     "plus"
@@ -403,13 +406,13 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.percentParentMinus,
                 className: classNames(sty.slotTargetPercentParentMinus, {
-                  [sty.slotTargetPercentParentMinus__integer_minus]: hasVariant(
+                  [sty.slotTargetPercentParentMinusinteger_minus]: hasVariant(
                     variants,
                     "integer",
                     "minus"
                   ),
 
-                  [sty.slotTargetPercentParentMinus__integer_plus]: hasVariant(
+                  [sty.slotTargetPercentParentMinusinteger_plus]: hasVariant(
                     variants,
                     "integer",
                     "plus"
@@ -441,12 +444,15 @@ function PlasmicElementAnalyticsPercentValueChange__RenderFunc(props) {
 
                 value: args.percentParentNoChange,
                 className: classNames(sty.slotTargetPercentParentNoChange, {
-                  [sty.slotTargetPercentParentNoChange__integer_minus]:
+                  [sty.slotTargetPercentParentNoChangeinteger_minus]:
                     hasVariant(variants, "integer", "minus"),
-                  [sty.slotTargetPercentParentNoChange__integer_noChange]:
+                  [sty.slotTargetPercentParentNoChangeinteger_noChange]:
                     hasVariant(variants, "integer", "noChange"),
-                  [sty.slotTargetPercentParentNoChange__integer_plus]:
-                    hasVariant(variants, "integer", "plus")
+                  [sty.slotTargetPercentParentNoChangeinteger_plus]: hasVariant(
+                    variants,
+                    "integer",
+                    "plus"
+                  )
                 })
               })
             : null}

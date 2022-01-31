@@ -45,14 +45,15 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
         "stripe-connect",
         {
-          [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.root__width__360]: hasVariant(variants, "width", "_360")
+          [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360")
         }
       )}
       id={args.id}
@@ -63,7 +64,7 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           className={classNames(projectcss.all, sty.freeBox, {
-            [sty.freeBox__icon]: hasVariant(variants, "icon", "icon")
+            [sty.freeBoxicon]: hasVariant(variants, "icon", "icon")
           })}
         >
           <LinkAIcon
@@ -81,7 +82,7 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
         data-plasmic-override={overrides.textParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.textParent, {
-          [sty.textParent__width__270]: hasVariant(variants, "width", "_270")
+          [sty.textParentwidth__270]: hasVariant(variants, "width", "_270")
         })}
       >
         <div
@@ -93,13 +94,13 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
             defaultContents: "Connect with",
             value: args.text,
             className: classNames(sty.slotTargetText, {
-              [sty.slotTargetText__width__180]: hasVariant(
+              [sty.slotTargetTextwidth__180]: hasVariant(
                 variants,
                 "width",
                 "_180"
               ),
 
-              [sty.slotTargetText__width__360]: hasVariant(
+              [sty.slotTargetTextwidth__360]: hasVariant(
                 variants,
                 "width",
                 "_360"
@@ -114,14 +115,14 @@ function PlasmicButtonStripeConnect__RenderFunc(props) {
           data-plasmic-name={"iconStripeLogo"}
           data-plasmic-override={overrides.iconStripeLogo}
           className={classNames("__wab_instance", sty.iconStripeLogo, {
-            [sty.iconStripeLogo__logo]: hasVariant(variants, "logo", "logo"),
-            [sty.iconStripeLogo__width__180]: hasVariant(
+            [sty.iconStripeLogologo]: hasVariant(variants, "logo", "logo"),
+            [sty.iconStripeLogowidth__180]: hasVariant(
               variants,
               "width",
               "_180"
             ),
 
-            [sty.iconStripeLogo__width__270]: hasVariant(
+            [sty.iconStripeLogowidth__270]: hasVariant(
               variants,
               "width",
               "_270"

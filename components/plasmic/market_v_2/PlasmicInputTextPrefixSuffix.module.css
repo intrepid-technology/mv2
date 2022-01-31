@@ -7,7 +7,7 @@
   width: auto;
   height: auto;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
@@ -23,34 +23,34 @@
   border-radius: 4px;
   border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.parent__height__36 {
+.parentheight__36 {
   height: 36px;
   flex-shrink: 0;
 }
-.parent__height__40 {
+.parentheight__40 {
   height: 40px;
   flex-shrink: 0;
 }
-.parent__height__48 {
+.parentheight__48 {
   height: 48px;
   flex-shrink: 0;
 }
-.parent__width__120 {
+.parentwidth__120 {
   width: 120px;
 }
-.parent__width__180 {
+.parentwidth__180 {
   width: 180px;
 }
-.parent__width__270 {
+.parentwidth__270 {
   width: 270px;
 }
-.parent__width__360 {
+.parentwidth__360 {
   width: 360px;
 }
-.parent__width__540 {
+.parentwidth__540 {
   width: 540px;
 }
-.parent__width__720 {
+.parentwidth__720 {
   width: 720px;
 }
 .root:hover .parent {
@@ -74,10 +74,10 @@
   padding: 2px 8px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.prefixparent__prefix {
+.prefixparentprefix {
   display: none;
 }
-.prefixparent__type_secondary {
+.prefixparenttype_secondary {
   background: #ffffff;
 }
 .slotTargetPrefixLabelHeadline {
@@ -127,10 +127,10 @@
   padding: 2px 8px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.suffixParent__suffix {
+.suffixParentsuffix {
   display: none;
 }
-.suffixParent__type_secondary {
+.suffixParenttype_secondary {
   left: auto;
   top: auto;
   background: #ffffff;

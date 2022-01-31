@@ -61,7 +61,11 @@ function PlasmicSectionSignUp__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"svgLinkDiv"}
               data-plasmic-override={overrides.svgLinkDiv}
-              className={classNames(projectcss.a, sty.svgLinkDiv)}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.svgLinkDiv
+              )}
               component={Link}
               href={"/"}
               platform={"nextjs"}

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -8,10 +8,10 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  align-content: unset;
   flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: unset;
   min-width: 0;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
@@ -42,14 +42,14 @@
   min-width: 0;
 }
 .contentWrapper {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -77,14 +77,14 @@
   min-width: 0;
 }
 .contentWrapper2 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -112,14 +112,14 @@
   min-width: 0;
 }
 .contentWrapper3 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -147,14 +147,14 @@
   min-width: 0;
 }
 .contentWrapper4 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -185,14 +185,14 @@
   min-width: 0;
 }
 .contentWrapper5 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper5 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -223,14 +223,14 @@
   min-width: 0;
 }
 .contentWrapper6 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper6 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -261,14 +261,14 @@
   min-width: 0;
 }
 .contentWrapper7 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper7 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -299,14 +299,14 @@
   min-width: 0;
 }
 .contentWrapper8 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .contentWrapper8 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }

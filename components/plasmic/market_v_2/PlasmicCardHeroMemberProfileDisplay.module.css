@@ -12,16 +12,16 @@
   }
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   padding: 8px;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -41,9 +41,9 @@
   }
 }
 .userProfileHeadline {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -52,8 +52,8 @@
 }
 .userProfileHeadline > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -264,16 +264,16 @@
   object-fit: cover;
 }
 .userDetailParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   min-width: 0;
 }
 .userDetailParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -289,16 +289,16 @@
   margin-top: 8px;
 }
 .userFirstLastName {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .userFirstLastName > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -354,9 +354,9 @@
   }
 }
 .displayNameParent2 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -365,8 +365,8 @@
 }
 .displayNameParent2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
@@ -424,17 +424,17 @@
   }
 }
 .companyStatsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .companyStatsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -505,16 +505,16 @@
   line-height: 1;
 }
 .teamAvatarGroupParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
 }
 .teamAvatarGroupParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -663,16 +663,16 @@
   }
 }
 .locationParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
 }
 .locationParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .locationParent {
@@ -723,9 +723,9 @@
   position: relative;
 }
 .userMemberDescription {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -735,8 +735,8 @@
 }
 .userMemberDescription > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
@@ -837,9 +837,9 @@
   }
 }
 .userButtons {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -849,8 +849,8 @@
 }
 .userButtons > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -879,16 +879,16 @@
   position: relative;
   flex-shrink: 0;
 }
-.buttonLinkPrimary__userState_loggedIn:global(.__wab_instance) {
+.buttonLinkPrimaryuserState_loggedIn:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.text__userState_loggedIn___2RhXmCOui {
+.textuserState_loggedIn___2RhXmCOui {
   font-size: 16px;
 }
 .buttonPrimary:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.buttonPrimary__userState_loggedIn:global(.__wab_instance) {
+.buttonPrimaryuserState_loggedIn:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg__ktoon {

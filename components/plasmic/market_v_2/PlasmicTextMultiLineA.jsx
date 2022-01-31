@@ -35,14 +35,14 @@ function PlasmicTextMultiLineA__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size_medium]: hasVariant(variants, "size", "medium")
+        [sty.rootsize_medium]: hasVariant(variants, "size", "medium")
       })}
     >
       {p.renderPlasmicSlot({
         defaultContents: "Headline",
         value: args.children,
         className: classNames(sty.slotTargetChildren, {
-          [sty.slotTargetChildren__size_medium]: hasVariant(
+          [sty.slotTargetChildrensize_medium]: hasVariant(
             variants,
             "size",
             "medium"
@@ -53,10 +53,15 @@ function PlasmicTextMultiLineA__RenderFunc(props) {
       <textarea
         data-plasmic-name={"textarea"}
         data-plasmic-override={overrides.textarea}
-        className={classNames(projectcss.textarea, sty.textarea, {
-          [sty.textarea__size_large]: hasVariant(variants, "size", "large"),
-          [sty.textarea__size_medium]: hasVariant(variants, "size", "medium")
-        })}
+        className={classNames(
+          projectcss.all,
+          projectcss.textarea,
+          sty.textarea,
+          {
+            [sty.textareasize_large]: hasVariant(variants, "size", "large"),
+            [sty.textareasize_medium]: hasVariant(variants, "size", "medium")
+          }
+        )}
         value={"This is a text area."}
       />
     </p.Stack>

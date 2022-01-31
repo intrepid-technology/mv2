@@ -23,8 +23,8 @@
   }
 }
 .parent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   background: none;
@@ -33,9 +33,9 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 32px);
@@ -126,9 +126,9 @@
   }
 }
 .profileCommunityParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   left: auto;
   top: auto;
   width: 360px;
@@ -140,8 +140,8 @@
 }
 .profileCommunityParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 16px);
@@ -264,9 +264,9 @@
   align-self: stretch;
 }
 .statsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -274,9 +274,9 @@
 }
 .statsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 24px);
@@ -358,9 +358,9 @@
   }
 }
 .memberStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -369,8 +369,8 @@
 }
 .memberStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -422,9 +422,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .followersStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -433,8 +433,8 @@
 }
 .followersStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -524,9 +524,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .partnerStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -534,8 +534,8 @@
 }
 .partnerStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -622,9 +622,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .viewsStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -632,8 +632,8 @@
 }
 .viewsStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -717,9 +717,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .reactsStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   align-self: auto;
@@ -728,8 +728,8 @@
 }
 .reactsStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -813,9 +813,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .savesStatParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 90px;
   height: 90px;
   flex-shrink: 0;
@@ -823,8 +823,8 @@
 }
 .savesStatParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }

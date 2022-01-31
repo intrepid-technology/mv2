@@ -23,9 +23,9 @@
   }
 }
 .serviceDetailCheckoutPageParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -35,8 +35,8 @@
 }
 .serviceDetailCheckoutPageParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-left: calc(0px - 80px);
   width: calc(100% + 80px);
@@ -99,9 +99,9 @@
   }
 }
 .serviceDetailOverviewParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 720px;
   height: auto;
   left: auto;
@@ -110,8 +110,8 @@
 }
 .serviceDetailOverviewParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -144,9 +144,9 @@
   }
 }
 .serviceHeadlineParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -157,8 +157,8 @@
 }
 .serviceHeadlineParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -249,12 +249,12 @@
   }
 }
 .subheading {
+  flex-direction: row;
   position: relative;
   width: 100%;
   height: auto;
   max-width: 800px;
   display: flex;
-  flex-direction: row;
   min-width: 0;
 }
 .subheading > :global(.__wab_flex-container) {
@@ -300,9 +300,9 @@
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .headlineNamePriceParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -310,8 +310,8 @@
 }
 .headlineNamePriceParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -330,16 +330,16 @@
   margin-top: 8px;
 }
 .companyNamePriceParent2 {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .companyNamePriceParent2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -378,9 +378,9 @@
   min-width: 0;
 }
 .freeBox__kWxw1 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -389,8 +389,8 @@
 }
 .freeBox__kWxw1 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -437,9 +437,9 @@
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
 .companyVerificationBadgesParent3 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -449,8 +449,8 @@
 }
 .companyVerificationBadgesParent3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -487,9 +487,9 @@
   position: relative;
 }
 .companyIsVerified3 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: 100%;
   left: auto;
@@ -499,8 +499,8 @@
 }
 .companyIsVerified3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-height: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -538,9 +538,9 @@
   position: relative;
 }
 .serviceImageBlock {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -548,8 +548,8 @@
 }
 .serviceImageBlock > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 20px);
   height: calc(100% + 20px);
 }
@@ -621,9 +621,9 @@
   }
 }
 .freeBox__ew4Af {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -633,8 +633,8 @@
 }
 .freeBox__ew4Af > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   align-content: unset;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -770,9 +770,9 @@
   object-fit: cover;
 }
 .serviceFeaturesWrapper {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 720px;
   height: auto;
   left: auto;
@@ -782,9 +782,9 @@
 }
 .serviceFeaturesWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
   margin-top: calc(0px - 8px);
@@ -1007,9 +1007,9 @@
   }
 }
 .serviceOverviewParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1018,8 +1018,8 @@
 }
 .serviceOverviewParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -1132,10 +1132,10 @@
   left: auto;
 }
 .freeBox__tu3Wz {
+  flex-direction: column;
   display: flex;
   width: 100%;
   height: auto;
-  flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
   background: #f8f8f8;
@@ -1160,9 +1160,9 @@
   margin-top: 10px;
 }
 .freeBox__vbPe2 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -1172,9 +1172,9 @@
 }
 .freeBox__vbPe2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
@@ -1351,17 +1351,17 @@
   min-height: 0;
 }
 .freeBox__nKBwa {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding: 10px;
 }
 .freeBox__nKBwa > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
   margin-top: calc(0px - 16px);
@@ -1441,17 +1441,17 @@
   min-height: 0;
 }
 .freeBox__bGavK {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding: 10px;
 }
 .freeBox__bGavK > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
   margin-top: calc(0px - 16px);
@@ -1531,9 +1531,9 @@
   min-height: 0;
 }
 .freeBox__ttyHw {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -1543,8 +1543,8 @@
 }
 .freeBox__ttyHw > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
@@ -1723,9 +1723,9 @@
   min-height: 0;
 }
 .freeBox__geArL {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -1735,8 +1735,8 @@
 }
 .freeBox__geArL > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
@@ -1917,11 +1917,11 @@
   min-height: 0;
 }
 .text___5OzNn {
+  flex-direction: column;
   position: relative;
   left: auto;
   top: auto;
   width: 100%;
-  flex-direction: column;
   align-self: center;
   line-height: 1.4;
   font-size: 14px;
@@ -1947,8 +1947,8 @@
   margin-top: 20px;
 }
 .freeBox__hsM4C {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -1956,9 +1956,9 @@
 }
 .freeBox__hsM4C > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -2035,11 +2035,11 @@
   min-height: 0;
 }
 .text__a0JSz {
+  flex-direction: column;
   position: relative;
   left: auto;
   top: auto;
   width: 680px;
-  flex-direction: column;
   align-self: center;
   line-height: 1.4;
   font-size: 14px;
@@ -2063,17 +2063,17 @@
   margin-top: 20px;
 }
 .freeBox__n9Y3U {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding: 10px;
 }
 .freeBox__n9Y3U > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
   margin-top: calc(0px - 16px);
@@ -2115,9 +2115,9 @@
   flex-shrink: 0;
 }
 .serviceOrderParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 360px;
   height: auto;
   left: auto;
@@ -2130,8 +2130,8 @@
 }
 .serviceOrderParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -2171,9 +2171,9 @@
   }
 }
 .serviceCheckoutHeader {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -2181,8 +2181,8 @@
 }
 .serviceCheckoutHeader > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -2211,9 +2211,9 @@
   }
 }
 .serviceDescriptionParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -2223,8 +2223,8 @@
 }
 .serviceDescriptionParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -2243,9 +2243,9 @@
   margin-top: 16px;
 }
 .headlineNamePriceVerificationParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -2253,8 +2253,8 @@
 }
 .headlineNamePriceVerificationParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
+  align-items: flex-end;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -2276,16 +2276,16 @@
   margin-top: 8px;
 }
 .companyNamePriceParent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .companyNamePriceParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -2412,9 +2412,9 @@
   flex-shrink: 0;
 }
 .companyDescriptionParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -2425,8 +2425,8 @@
 }
 .companyDescriptionParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
@@ -2445,9 +2445,9 @@
   margin-top: 16px;
 }
 .headlineCompanyParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -2455,8 +2455,8 @@
 }
 .headlineCompanyParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -2677,16 +2677,16 @@
   object-fit: cover;
 }
 .companyNamePriceParent3 {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .companyNamePriceParent3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -2725,9 +2725,9 @@
   min-width: 0;
 }
 .freeBox__qYg99 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -2736,8 +2736,8 @@
 }
 .freeBox__qYg99 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -2777,9 +2777,9 @@
   min-width: 0;
 }
 .companyVerificationBadgesParent4 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 360px;
   height: auto;
   left: auto;
@@ -2787,8 +2787,8 @@
 }
 .companyVerificationBadgesParent4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -2812,9 +2812,9 @@
   position: relative;
 }
 .companyIsVerified4 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: 100%;
   left: auto;
@@ -2824,8 +2824,8 @@
 }
 .companyIsVerified4 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-height: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -2892,9 +2892,9 @@
   flex-shrink: 0;
 }
 .serviceCheckoutButtons {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -2903,8 +2903,8 @@
 }
 .serviceCheckoutButtons > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 10px);
   height: calc(100% + 10px);
 }
@@ -3015,13 +3015,13 @@
   display: block;
 }
 .save {
+  flex-direction: row;
   position: relative;
   left: auto;
   top: auto;
   width: 360px;
   height: 48px;
   display: flex;
-  flex-direction: row;
   flex-shrink: 0;
   border-radius: 2px;
   border-width: 1px;
@@ -3053,13 +3053,13 @@
   position: relative;
 }
 .share {
+  flex-direction: row;
   position: relative;
   left: auto;
   top: auto;
   width: 360px;
   height: 48px;
   display: flex;
-  flex-direction: row;
   flex-shrink: 0;
   border-radius: 2px;
   border-width: 1px;

@@ -54,23 +54,14 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
         data-plasmic-override={overrides.container}
         hasGap={true}
         className={classNames(projectcss.all, sty.container, {
-          [sty.container__hideBack]: hasVariant(
-            variants,
-            "hideBack",
-            "hideBack"
-          ),
-
-          [sty.container__hideNext]: hasVariant(
-            variants,
-            "hideNext",
-            "hideNext"
-          )
+          [sty.containerhideBack]: hasVariant(variants, "hideBack", "hideBack"),
+          [sty.containerhideNext]: hasVariant(variants, "hideNext", "hideNext")
         })}
       >
         {(hasVariant(variants, "hideBack", "hideBack") ? true : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__whc4W, {
-              [sty.freeBox__hideBack__whc4WIsZs5]: hasVariant(
+              [sty.freeBoxhideBack__whc4WIsZs5]: hasVariant(
                 variants,
                 "hideBack",
                 "hideBack"
@@ -82,7 +73,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                 data-plasmic-name={"backButton"}
                 data-plasmic-override={overrides.backButton}
                 className={classNames("__wab_instance", sty.backButton, {
-                  [sty.backButton__hideBack]: hasVariant(
+                  [sty.backButtonhideBack]: hasVariant(
                     variants,
                     "hideBack",
                     "hideBack"
@@ -116,13 +107,13 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
           className={classNames(projectcss.all, sty.labelWrapper, {
-            [sty.labelWrapper__hideBack]: hasVariant(
+            [sty.labelWrapperhideBack]: hasVariant(
               variants,
               "hideBack",
               "hideBack"
             ),
 
-            [sty.labelWrapper__hideNext]: hasVariant(
+            [sty.labelWrapperhideNext]: hasVariant(
               variants,
               "hideNext",
               "hideNext"
@@ -136,13 +127,13 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
                 defaultContents: "Section Title",
                 value: args.children,
                 className: classNames(sty.slotTargetChildren, {
-                  [sty.slotTargetChildren__hideBack]: hasVariant(
+                  [sty.slotTargetChildrenhideBack]: hasVariant(
                     variants,
                     "hideBack",
                     "hideBack"
                   ),
 
-                  [sty.slotTargetChildren__hideNext]: hasVariant(
+                  [sty.slotTargetChildrenhideNext]: hasVariant(
                     variants,
                     "hideNext",
                     "hideNext"
@@ -158,7 +149,7 @@ function PlasmicNavbarServiceListing__RenderFunc(props) {
               data-plasmic-name={"nextButton"}
               data-plasmic-override={overrides.nextButton}
               className={classNames("__wab_instance", sty.nextButton, {
-                [sty.nextButton__hideNext]: hasVariant(
+                [sty.nextButtonhideNext]: hasVariant(
                   variants,
                   "hideNext",
                   "hideNext"

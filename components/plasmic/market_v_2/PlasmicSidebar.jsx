@@ -45,7 +45,7 @@ function PlasmicSidebar__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__global_layout_isSellerView]: hasVariant(
+        [sty.rootglobal_layout_isSellerView]: hasVariant(
           globalVariants,
           "layout",
           "isSellerView"
@@ -58,7 +58,7 @@ function PlasmicSidebar__RenderFunc(props) {
         data-plasmic-override={overrides.header}
         hasGap={true}
         className={classNames(projectcss.all, sty.header, {
-          [sty.header__global_layout_isSellerView]: hasVariant(
+          [sty.headerglobal_layout_isSellerView]: hasVariant(
             globalVariants,
             "layout",
             "isSellerView"
@@ -96,7 +96,7 @@ function PlasmicSidebar__RenderFunc(props) {
           data-plasmic-name={"panelMember"}
           data-plasmic-override={overrides.panelMember}
           className={classNames("__wab_instance", sty.panelMember, {
-            [sty.panelMember__global_layout_isSellerView]: hasVariant(
+            [sty.panelMemberglobal_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"
@@ -109,7 +109,7 @@ function PlasmicSidebar__RenderFunc(props) {
           data-plasmic-name={"panelPartner"}
           data-plasmic-override={overrides.panelPartner}
           className={classNames("__wab_instance", sty.panelPartner, {
-            [sty.panelPartner__global_layout_isSellerView]: hasVariant(
+            [sty.panelPartnerglobal_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"

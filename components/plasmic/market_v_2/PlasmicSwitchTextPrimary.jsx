@@ -23,7 +23,8 @@ import sty from "./PlasmicSwitchTextPrimary.module.css"; // plasmic-import: 0ls5
 
 export const PlasmicSwitchTextPrimary__VariantProps = new Array(
   "state",
-  "direction"
+  "direction",
+  "width"
 );
 
 export const PlasmicSwitchTextPrimary__ArgProps = new Array("text");
@@ -39,9 +40,11 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__direction]: hasVariant(variants, "direction", "direction"),
-        [sty.root__state_checked]: hasVariant(variants, "state", "checked"),
-        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled")
+        [sty.rootdirection]: hasVariant(variants, "direction", "direction"),
+        [sty.rootstate_checked]: hasVariant(variants, "state", "checked"),
+        [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
+        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <SwitchPrimary
@@ -49,17 +52,19 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.switchPrimary}
         _switch={hasVariant(variants, "state", "checked") ? true : undefined}
         className={classNames("__wab_instance", sty.switchPrimary, {
-          [sty.switchPrimary__state_checked]: hasVariant(
+          [sty.switchPrimarystate_checked]: hasVariant(
             variants,
             "state",
             "checked"
           ),
 
-          [sty.switchPrimary__state_disabled]: hasVariant(
+          [sty.switchPrimarystate_disabled]: hasVariant(
             variants,
             "state",
             "disabled"
-          )
+          ),
+
+          [sty.switchPrimarywidth__360]: hasVariant(variants, "width", "_360")
         })}
         disabled={
           hasVariant(variants, "state", "disabled") ? "closed" : undefined
@@ -70,7 +75,7 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         className={classNames(projectcss.all, sty.textParent, {
-          [sty.textParent__direction]: hasVariant(
+          [sty.textParentdirection]: hasVariant(
             variants,
             "direction",
             "direction"
@@ -81,7 +86,7 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
           data-plasmic-name={"textSlotParent"}
           data-plasmic-override={overrides.textSlotParent}
           className={classNames(projectcss.all, sty.textSlotParent, {
-            [sty.textSlotParent__direction]: hasVariant(
+            [sty.textSlotParentdirection]: hasVariant(
               variants,
               "direction",
               "direction"
@@ -92,7 +97,7 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
             defaultContents: "Enter some text",
             value: args.text,
             className: classNames(sty.slotTargetText, {
-              [sty.slotTargetText__direction]: hasVariant(
+              [sty.slotTargetTextdirection]: hasVariant(
                 variants,
                 "direction",
                 "direction"

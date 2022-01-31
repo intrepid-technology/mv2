@@ -40,22 +40,22 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__closed]: hasVariant(variants, "closed", "closed"),
-        [sty.root__visible_paypal]: hasVariant(variants, "visible", "paypal"),
-        [sty.root__visible_stripe]: hasVariant(variants, "visible", "stripe")
+        [sty.rootclosed]: hasVariant(variants, "closed", "closed"),
+        [sty.rootvisible_paypal]: hasVariant(variants, "visible", "paypal"),
+        [sty.rootvisible_stripe]: hasVariant(variants, "visible", "stripe")
       })}
     >
       <InputFormCardWebhookConnections
         data-plasmic-name={"connectedPayoutAccount"}
         data-plasmic-override={overrides.connectedPayoutAccount}
         className={classNames("__wab_instance", sty.connectedPayoutAccount, {
-          [sty.connectedPayoutAccount__visible_paypal]: hasVariant(
+          [sty.connectedPayoutAccountvisible_paypal]: hasVariant(
             variants,
             "visible",
             "paypal"
           ),
 
-          [sty.connectedPayoutAccount__visible_stripe]: hasVariant(
+          [sty.connectedPayoutAccountvisible_stripe]: hasVariant(
             variants,
             "visible",
             "stripe"
@@ -78,19 +78,19 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
           data-plasmic-name={"connectedStripe"}
           data-plasmic-override={overrides.connectedStripe}
           className={classNames("__wab_instance", sty.connectedStripe, {
-            [sty.connectedStripe__closed]: hasVariant(
+            [sty.connectedStripeclosed]: hasVariant(
               variants,
               "closed",
               "closed"
             ),
 
-            [sty.connectedStripe__visible_paypal]: hasVariant(
+            [sty.connectedStripevisible_paypal]: hasVariant(
               variants,
               "visible",
               "paypal"
             ),
 
-            [sty.connectedStripe__visible_stripe]: hasVariant(
+            [sty.connectedStripevisible_stripe]: hasVariant(
               variants,
               "visible",
               "stripe"
@@ -132,19 +132,19 @@ function PlasmicConnectedPayouts__RenderFunc(props) {
           data-plasmic-name={"connectedPaypal"}
           data-plasmic-override={overrides.connectedPaypal}
           className={classNames("__wab_instance", sty.connectedPaypal, {
-            [sty.connectedPaypal__closed]: hasVariant(
+            [sty.connectedPaypalclosed]: hasVariant(
               variants,
               "closed",
               "closed"
             ),
 
-            [sty.connectedPaypal__visible_paypal]: hasVariant(
+            [sty.connectedPaypalvisible_paypal]: hasVariant(
               variants,
               "visible",
               "paypal"
             ),
 
-            [sty.connectedPaypal__visible_stripe]: hasVariant(
+            [sty.connectedPaypalvisible_stripe]: hasVariant(
               variants,
               "visible",
               "stripe"

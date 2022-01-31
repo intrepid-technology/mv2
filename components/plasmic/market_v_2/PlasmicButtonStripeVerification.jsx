@@ -50,14 +50,15 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
         "VerifyButton",
         {
-          [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360")
+          [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
+          [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.rootsize__360]: hasVariant(variants, "size", "_360")
         }
       )}
       id={args.id}
@@ -68,16 +69,16 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           className={classNames(projectcss.all, sty.freeBox, {
-            [sty.freeBox__icon]: hasVariant(variants, "icon", "icon"),
-            [sty.freeBox__size__180]: hasVariant(variants, "size", "_180")
+            [sty.freeBoxicon]: hasVariant(variants, "icon", "icon"),
+            [sty.freeBoxsize__180]: hasVariant(variants, "size", "_180")
           })}
         >
           <IdVerificationIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg__icon]: hasVariant(variants, "icon", "icon"),
-              [sty.svg__size__180]: hasVariant(variants, "size", "_180")
+              [sty.svgicon]: hasVariant(variants, "icon", "icon"),
+              [sty.svgsize__180]: hasVariant(variants, "size", "_180")
             })}
             role={"img"}
           />
@@ -88,8 +89,8 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
         data-plasmic-name={"textParent"}
         data-plasmic-override={overrides.textParent}
         className={classNames(projectcss.all, sty.textParent, {
-          [sty.textParent__logo]: hasVariant(variants, "logo", "logo"),
-          [sty.textParent__size__180]: hasVariant(variants, "size", "_180")
+          [sty.textParentlogo]: hasVariant(variants, "logo", "logo"),
+          [sty.textParentsize__180]: hasVariant(variants, "size", "_180")
         })}
       >
         <div
@@ -101,8 +102,8 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
             defaultContents: "Get verified with",
             value: args.text,
             className: classNames(sty.slotTargetText, {
-              [sty.slotTargetText__logo]: hasVariant(variants, "logo", "logo"),
-              [sty.slotTargetText__size__180]: hasVariant(
+              [sty.slotTargetTextlogo]: hasVariant(variants, "logo", "logo"),
+              [sty.slotTargetTextsize__180]: hasVariant(
                 variants,
                 "size",
                 "_180"
@@ -117,12 +118,8 @@ function PlasmicButtonStripeVerification__RenderFunc(props) {
           data-plasmic-name={"iconStripeLogo"}
           data-plasmic-override={overrides.iconStripeLogo}
           className={classNames("__wab_instance", sty.iconStripeLogo, {
-            [sty.iconStripeLogo__logo]: hasVariant(variants, "logo", "logo"),
-            [sty.iconStripeLogo__size__180]: hasVariant(
-              variants,
-              "size",
-              "_180"
-            )
+            [sty.iconStripeLogologo]: hasVariant(variants, "logo", "logo"),
+            [sty.iconStripeLogosize__180]: hasVariant(variants, "size", "_180")
           })}
           color={triggers.hover_root ? "white" : "burple"}
           size={hasVariant(variants, "size", "_180") ? "_18" : "_48"}

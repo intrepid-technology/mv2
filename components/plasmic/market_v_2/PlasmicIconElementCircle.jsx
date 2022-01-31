@@ -34,14 +34,14 @@ function PlasmicIconElementCircle__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand")
+        [sty.rootcolor_brand]: hasVariant(variants, "color", "brand")
       })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__color_brand]: hasVariant(variants, "color", "brand")
+          [sty.freeBoxcolor_brand]: hasVariant(variants, "color", "brand")
         })}
       >
         {p.renderPlasmicSlot({

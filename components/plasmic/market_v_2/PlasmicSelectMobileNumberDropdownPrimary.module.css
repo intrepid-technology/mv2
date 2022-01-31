@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 360px;
   height: auto;
   max-width: 100%;
@@ -10,8 +10,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -21,14 +21,14 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 24px;
 }
-.root__width__380 {
+.rootwidth__380 {
   width: 380px;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
-.root__width_stretch > :global(.__wab_flex-container) {
+.rootwidth_stretch > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .selectGroupDropdownPrimary:global(.__wab_instance) {

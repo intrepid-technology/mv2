@@ -39,12 +39,12 @@ function PlasmicSwitchInput__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__disabled]: hasVariant(variants, "disabled", "disabled"),
-        [sty.root__disabled_on]:
+        [sty.rootdisabled]: hasVariant(variants, "disabled", "disabled"),
+        [sty.rootdisabled_on]:
           hasVariant(variants, "disabled", "disabled") &&
           hasVariant(variants, "on", "on"),
-        [sty.root__on]: hasVariant(variants, "on", "on"),
-        [sty.root__switchOnly]: hasVariant(variants, "switchOnly", "switchOnly")
+        [sty.rooton]: hasVariant(variants, "on", "on"),
+        [sty.rootswitchOnly]: hasVariant(variants, "switchOnly", "switchOnly")
       })}
     >
       {(hasVariant(variants, "switchOnly", "switchOnly") ? true : true) ? (
@@ -52,7 +52,7 @@ function PlasmicSwitchInput__RenderFunc(props) {
           data-plasmic-name={"contentWrapper"}
           data-plasmic-override={overrides.contentWrapper}
           className={classNames(projectcss.all, sty.contentWrapper, {
-            [sty.contentWrapper__switchOnly]: hasVariant(
+            [sty.contentWrapperswitchOnly]: hasVariant(
               variants,
               "switchOnly",
               "switchOnly"
@@ -70,14 +70,14 @@ function PlasmicSwitchInput__RenderFunc(props) {
         data-plasmic-name={"background"}
         data-plasmic-override={overrides.background}
         className={classNames(projectcss.all, sty.background, {
-          [sty.background__disabled]: hasVariant(
+          [sty.backgrounddisabled]: hasVariant(
             variants,
             "disabled",
             "disabled"
           ),
 
-          [sty.background__on]: hasVariant(variants, "on", "on"),
-          [sty.background__on_disabled]:
+          [sty.backgroundon]: hasVariant(variants, "on", "on"),
+          [sty.backgroundon_disabled]:
             hasVariant(variants, "on", "on") &&
             hasVariant(variants, "disabled", "disabled")
         })}
@@ -86,16 +86,11 @@ function PlasmicSwitchInput__RenderFunc(props) {
           data-plasmic-name={"circle"}
           data-plasmic-override={overrides.circle}
           className={classNames(projectcss.all, sty.circle, {
-            [sty.circle__disabled]: hasVariant(
-              variants,
-              "disabled",
-              "disabled"
-            ),
-
-            [sty.circle__disabled_on]:
+            [sty.circledisabled]: hasVariant(variants, "disabled", "disabled"),
+            [sty.circledisabled_on]:
               hasVariant(variants, "disabled", "disabled") &&
               hasVariant(variants, "on", "on"),
-            [sty.circle__on]: hasVariant(variants, "on", "on")
+            [sty.circleon]: hasVariant(variants, "on", "on")
           })}
         />
       </div>

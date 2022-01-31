@@ -33,7 +33,7 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__color {
+.imgcolor {
   height: 32px;
   flex-shrink: 0;
 }

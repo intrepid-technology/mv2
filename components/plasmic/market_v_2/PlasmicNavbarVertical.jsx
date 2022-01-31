@@ -43,7 +43,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         projectcss.all,
         projectcss.root_reset,
         sty.sidePanel,
-        { [sty.sidePanel___switch]: hasVariant(variants, "_switch", "_switch") }
+        { [sty.sidePanel_switch]: hasVariant(variants, "_switch", "_switch") }
       )}
     >
       <p.Stack
@@ -52,19 +52,15 @@ function PlasmicNavbarVertical__RenderFunc(props) {
         data-plasmic-override={overrides.navCard}
         hasGap={true}
         className={classNames(projectcss.all, sty.navCard, {
-          [sty.navCard___switch]: hasVariant(variants, "_switch", "_switch"),
-          [sty.navCard__user_partner]: hasVariant(variants, "user", "partner")
+          [sty.navCard_switch]: hasVariant(variants, "_switch", "_switch"),
+          [sty.navCarduser_partner]: hasVariant(variants, "user", "partner")
         })}
       >
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
           className={classNames(projectcss.all, sty.iconParent, {
-            [sty.iconParent___switch]: hasVariant(
-              variants,
-              "_switch",
-              "_switch"
-            )
+            [sty.iconParent_switch]: hasVariant(variants, "_switch", "_switch")
           })}
         >
           {p.renderPlasmicSlot({
@@ -83,7 +79,7 @@ function PlasmicNavbarVertical__RenderFunc(props) {
           data-plasmic-name={"navLinkParent"}
           data-plasmic-override={overrides.navLinkParent}
           className={classNames(projectcss.all, sty.navLinkParent, {
-            [sty.navLinkParent___switch]: hasVariant(
+            [sty.navLinkParent_switch]: hasVariant(
               variants,
               "_switch",
               "_switch"
@@ -94,19 +90,19 @@ function PlasmicNavbarVertical__RenderFunc(props) {
             data-plasmic-name={"navLink"}
             data-plasmic-override={overrides.navLink}
             className={classNames("__wab_instance", sty.navLink, {
-              [sty.navLink___switch]: hasVariant(variants, "_switch", "_switch")
+              [sty.navLink_switch]: hasVariant(variants, "_switch", "_switch")
             })}
             linkText={p.renderPlasmicSlot({
               defaultContents: "click me",
               value: args.linkText,
               className: classNames(sty.slotTargetLinkText, {
-                [sty.slotTargetLinkText___switch]: hasVariant(
+                [sty.slotTargetLinkText_switch]: hasVariant(
                   variants,
                   "_switch",
                   "_switch"
                 ),
 
-                [sty.slotTargetLinkText__user_partner]: hasVariant(
+                [sty.slotTargetLinkTextuser_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"

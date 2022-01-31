@@ -37,13 +37,18 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.button, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.button,
+        projectcss.root_reset,
+        sty.root
+      )}
     >
       <div
         data-plasmic-name={"svgParent"}
         data-plasmic-override={overrides.svgParent}
         className={classNames(projectcss.all, sty.svgParent, {
-          [sty.svgParent__state_closed]: hasVariant(variants, "state", "closed")
+          [sty.svgParentstate_closed]: hasVariant(variants, "state", "closed")
         })}
       >
         {(hasVariant(variants, "state", "closed") ? false : true)
@@ -57,13 +62,13 @@ function PlasmicAccordionTriggerChevron__RenderFunc(props) {
 
               value: args.svg,
               className: classNames(sty.slotTargetSvg, {
-                [sty.slotTargetSvg__state_closed]: hasVariant(
+                [sty.slotTargetSvgstate_closed]: hasVariant(
                   variants,
                   "state",
                   "closed"
                 ),
 
-                [sty.slotTargetSvg__state_disabled]: hasVariant(
+                [sty.slotTargetSvgstate_disabled]: hasVariant(
                   variants,
                   "state",
                   "disabled"

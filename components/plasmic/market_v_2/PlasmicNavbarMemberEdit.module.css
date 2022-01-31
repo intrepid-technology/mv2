@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   height: 80px;
   width: 100%;
   padding-left: 160px;
@@ -14,8 +14,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -39,10 +39,10 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_profile___6RIQhh65T:global(.__wab_instance) {
+.navLinknavItems_profile___6RIQhh65T:global(.__wab_instance) {
   display: none;
 }
-.navLink__navItems_settings_navItems_profile___6RIQkg1WIHh65T:global(.__wab_instance) {
+.navLinknavItems_settings_navItems_profile___6RIQkg1WIHh65T:global(.__wab_instance) {
   display: none;
 }
 .navLink__kS7Yn:global(.__wab_instance) {
@@ -50,7 +50,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_membership__kS7Yn7N6Rd:global(.__wab_instance) {
+.navLinknavItems_membership__kS7Yn7N6Rd:global(.__wab_instance) {
   display: none;
 }
 .navLink__wSC:global(.__wab_instance) {
@@ -58,7 +58,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_team__wSCNmGLt:global(.__wab_instance) {
+.navLinknavItems_team__wSCNmGLt:global(.__wab_instance) {
   display: none;
 }
 .navLink__cnnMf:global(.__wab_instance) {
@@ -66,7 +66,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_wallet__cnnMfSa80W:global(.__wab_instance) {
+.navLinknavItems_wallet__cnnMfSa80W:global(.__wab_instance) {
   display: none;
 }
 .navLink__wk5G0:global(.__wab_instance) {
@@ -74,7 +74,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_projects__wk5G0WMb6:global(.__wab_instance) {
+.navLinknavItems_projects__wk5G0WMb6:global(.__wab_instance) {
   display: none;
 }
 .navLink___4JsCi:global(.__wab_instance) {
@@ -82,7 +82,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_lists___4JsCilaFx5:global(.__wab_instance) {
+.navLinknavItems_lists___4JsCilaFx5:global(.__wab_instance) {
   display: none;
 }
 .navLink__jUxP0:global(.__wab_instance) {
@@ -90,7 +90,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_reviews__jUxP08WU:global(.__wab_instance) {
+.navLinknavItems_reviews__jUxP08WU:global(.__wab_instance) {
   display: none;
 }
 .navLink__xgW97:global(.__wab_instance) {
@@ -98,7 +98,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_messages__xgW97ByhAh:global(.__wab_instance) {
+.navLinknavItems_messages__xgW97ByhAh:global(.__wab_instance) {
   display: none;
 }
 .navLink___4YzFk:global(.__wab_instance) {
@@ -106,7 +106,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_notifications___4YzFkq0Mp:global(.__wab_instance) {
+.navLinknavItems_notifications___4YzFkq0Mp:global(.__wab_instance) {
   display: none;
 }
 .navLink__ircX2:global(.__wab_instance) {
@@ -114,6 +114,6 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_settings__ircX2Kg1WI:global(.__wab_instance) {
+.navLinknavItems_settings__ircX2Kg1WI:global(.__wab_instance) {
   display: none;
 }

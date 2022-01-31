@@ -63,10 +63,10 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
         className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-          [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-          [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.root__width__720]: hasVariant(variants, "width", "_720"),
-          [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+          [sty.rootisOpen]: hasVariant(variants, "isOpen", "isOpen"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth__720]: hasVariant(variants, "width", "_720"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
         data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
       >
@@ -75,33 +75,38 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
           data-plasmic-name={"trigger"}
           data-plasmic-override={overrides.trigger}
           hasGap={true}
-          className={classNames(projectcss.button, sty.trigger, {
-            [sty.trigger_____focusVisibleWithin]:
-              triggers.focusVisibleWithin_root,
-            [sty.trigger__color_light]: hasVariant(variants, "color", "light"),
-            [sty.trigger__isDisabled]: hasVariant(
-              variants,
-              "isDisabled",
-              "isDisabled"
-            ),
+          className={classNames(
+            projectcss.all,
+            projectcss.button,
+            sty.trigger,
+            {
+              [sty.trigger___focusVisibleWithin]:
+                triggers.focusVisibleWithin_root,
+              [sty.triggercolor_light]: hasVariant(variants, "color", "light"),
+              [sty.triggerisDisabled]: hasVariant(
+                variants,
+                "isDisabled",
+                "isDisabled"
+              ),
 
-            [sty.trigger__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-            [sty.trigger__showPlaceholder]: hasVariant(
-              variants,
-              "showPlaceholder",
-              "showPlaceholder"
-            ),
+              [sty.triggerisOpen]: hasVariant(variants, "isOpen", "isOpen"),
+              [sty.triggershowPlaceholder]: hasVariant(
+                variants,
+                "showPlaceholder",
+                "showPlaceholder"
+              ),
 
-            [sty.trigger__width__120]: hasVariant(variants, "width", "_120"),
-            [sty.trigger__width__144]: hasVariant(variants, "width", "_144"),
-            [sty.trigger__width__160]: hasVariant(variants, "width", "_160"),
-            [sty.trigger__width__180]: hasVariant(variants, "width", "_180"),
-            [sty.trigger__width__270]: hasVariant(variants, "width", "_270"),
-            [sty.trigger__width__360]: hasVariant(variants, "width", "_360"),
-            [sty.trigger__width__540]: hasVariant(variants, "width", "_540"),
-            [sty.trigger__width__720]: hasVariant(variants, "width", "_720"),
-            [sty.trigger__width__90]: hasVariant(variants, "width", "_90")
-          })}
+              [sty.triggerwidth__120]: hasVariant(variants, "width", "_120"),
+              [sty.triggerwidth__144]: hasVariant(variants, "width", "_144"),
+              [sty.triggerwidth__160]: hasVariant(variants, "width", "_160"),
+              [sty.triggerwidth__180]: hasVariant(variants, "width", "_180"),
+              [sty.triggerwidth__270]: hasVariant(variants, "width", "_270"),
+              [sty.triggerwidth__360]: hasVariant(variants, "width", "_360"),
+              [sty.triggerwidth__540]: hasVariant(variants, "width", "_540"),
+              [sty.triggerwidth__720]: hasVariant(variants, "width", "_720"),
+              [sty.triggerwidth__90]: hasVariant(variants, "width", "_90")
+            }
+          )}
           disabled={
             hasVariant(variants, "isDisabled", "isDisabled") ? true : undefined
           }
@@ -110,13 +115,13 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
             data-plasmic-name={"contentContainer"}
             data-plasmic-override={overrides.contentContainer}
             className={classNames(projectcss.all, sty.contentContainer, {
-              [sty.contentContainer__showPlaceholder]: hasVariant(
+              [sty.contentContainershowPlaceholder]: hasVariant(
                 variants,
                 "showPlaceholder",
                 "showPlaceholder"
               ),
 
-              [sty.contentContainer__width__160]: hasVariant(
+              [sty.contentContainerwidth__160]: hasVariant(
                 variants,
                 "width",
                 "_160"
@@ -132,14 +137,17 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                   defaultContents: "Selected",
                   value: args.selectedContent,
                   className: classNames(sty.slotTargetSelectedContent, {
-                    [sty.slotTargetSelectedContent__isOpen]: hasVariant(
+                    [sty.slotTargetSelectedContentisOpen]: hasVariant(
                       variants,
                       "isOpen",
                       "isOpen"
                     ),
 
-                    [sty.slotTargetSelectedContent__showPlaceholder]:
-                      hasVariant(variants, "showPlaceholder", "showPlaceholder")
+                    [sty.slotTargetSelectedContentshowPlaceholder]: hasVariant(
+                      variants,
+                      "showPlaceholder",
+                      "showPlaceholder"
+                    )
                   })
                 })
               : null}
@@ -152,13 +160,13 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                   defaultContents: "Select...",
                   value: args.placeholder,
                   className: classNames(sty.slotTargetPlaceholder, {
-                    [sty.slotTargetPlaceholder__showPlaceholder]: hasVariant(
+                    [sty.slotTargetPlaceholdershowPlaceholder]: hasVariant(
                       variants,
                       "showPlaceholder",
                       "showPlaceholder"
                     ),
 
-                    [sty.slotTargetPlaceholder__width__90]: hasVariant(
+                    [sty.slotTargetPlaceholderwidth__90]: hasVariant(
                       variants,
                       "width",
                       "_90"
@@ -177,15 +185,15 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
                 : ChevronDownIcon
             }
             className={classNames(projectcss.all, sty.dropdownIcon, {
-              [sty.dropdownIcon_____focusVisibleWithin]:
+              [sty.dropdownIcon___focusVisibleWithin]:
                 triggers.focusVisibleWithin_root,
-              [sty.dropdownIcon__isOpen]: hasVariant(
+              [sty.dropdownIconisOpen]: hasVariant(
                 variants,
                 "isOpen",
                 "isOpen"
               ),
 
-              [sty.dropdownIcon__width__160]: hasVariant(
+              [sty.dropdownIconwidth__160]: hasVariant(
                 variants,
                 "width",
                 "_160"
@@ -200,7 +208,7 @@ function PlasmicSelectDropdownPrimary__RenderFunc(props) {
             data-plasmic-name={"overlay"}
             data-plasmic-override={overrides.overlay}
             className={classNames("__wab_instance", sty.overlay, {
-              [sty.overlay__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+              [sty.overlayisOpen]: hasVariant(variants, "isOpen", "isOpen")
             })}
             relativePlacement={"bottom"}
           >

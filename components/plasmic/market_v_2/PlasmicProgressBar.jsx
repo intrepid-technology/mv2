@@ -32,27 +32,22 @@ function PlasmicProgressBar__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__progress__100]: hasVariant(variants, "progress", "_100")
+        [sty.rootprogress__100]: hasVariant(variants, "progress", "_100")
       })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__progress__100]: hasVariant(
-            variants,
-            "progress",
-            "_100"
-          ),
-
-          [sty.freeBox__progress__20]: hasVariant(variants, "progress", "_20"),
-          [sty.freeBox__progress__30]: hasVariant(variants, "progress", "_30"),
-          [sty.freeBox__progress__40]: hasVariant(variants, "progress", "_40"),
-          [sty.freeBox__progress__50]: hasVariant(variants, "progress", "_50"),
-          [sty.freeBox__progress__60]: hasVariant(variants, "progress", "_60"),
-          [sty.freeBox__progress__70]: hasVariant(variants, "progress", "_70"),
-          [sty.freeBox__progress__80]: hasVariant(variants, "progress", "_80"),
-          [sty.freeBox__progress__90]: hasVariant(variants, "progress", "_90")
+          [sty.freeBoxprogress__100]: hasVariant(variants, "progress", "_100"),
+          [sty.freeBoxprogress__20]: hasVariant(variants, "progress", "_20"),
+          [sty.freeBoxprogress__30]: hasVariant(variants, "progress", "_30"),
+          [sty.freeBoxprogress__40]: hasVariant(variants, "progress", "_40"),
+          [sty.freeBoxprogress__50]: hasVariant(variants, "progress", "_50"),
+          [sty.freeBoxprogress__60]: hasVariant(variants, "progress", "_60"),
+          [sty.freeBoxprogress__70]: hasVariant(variants, "progress", "_70"),
+          [sty.freeBoxprogress__80]: hasVariant(variants, "progress", "_80"),
+          [sty.freeBoxprogress__90]: hasVariant(variants, "progress", "_90")
         })}
       />
     </div>

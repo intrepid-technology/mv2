@@ -81,7 +81,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__iDk2)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__iDk2
+                )}
                 src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
               />
             }
@@ -93,7 +97,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__qdWwr)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__qdWwr
+                )}
                 src={"/plasmic/market_v_2/images/memberHero11Png.jpeg"}
               />
             }
@@ -105,7 +113,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__rwAvc)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__rwAvc
+                )}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -117,7 +129,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img___0Ehi8)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img___0Ehi8
+                )}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -129,7 +145,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__epUpT)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__epUpT
+                )}
                 src={
                   "/plasmic/market_v_2/images/brookeCagleW7Pk4FfrSy0Unsplashjpg.jpeg"
                 }
@@ -143,7 +163,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__ydvV2)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__ydvV2
+                )}
                 src={
                   "/plasmic/market_v_2/images/charlesDeluvioKVg2Dqtak7CUnsplashjpg.jpeg"
                 }
@@ -157,7 +181,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__lxX9L)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__lxX9L
+                )}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }
@@ -171,7 +199,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__nLx6Q)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__nLx6Q
+                )}
                 src={
                   "/plasmic/market_v_2/images/giftHabeshawZmSk6Is2YQ4Unsplashjpg.jpeg"
                 }
@@ -185,7 +217,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__lBZxJ)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__lBZxJ
+                )}
                 src={
                   "/plasmic/market_v_2/images/hustWilsonWyDr1Kfs23YUnsplashjpg.jpeg"
                 }
@@ -199,7 +235,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
             navUserAvatar48={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__gg49Z)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__gg49Z
+                )}
                 src={
                   "/plasmic/market_v_2/images/jonGroganKUdeP8QQMgUnsplashjpg.jpeg"
                 }
@@ -220,7 +260,11 @@ function PlasmicElementMemberProfileConnections__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"linkConnectionsViewAll"}
             data-plasmic-override={overrides.linkConnectionsViewAll}
-            className={classNames(projectcss.a, sty.linkConnectionsViewAll)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.linkConnectionsViewAll
+            )}
             component={Link}
             platform={"nextjs"}
           >

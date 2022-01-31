@@ -40,19 +40,19 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
         projectcss.root_reset,
         sty.accountAvatar,
         {
-          [sty.accountAvatar__color_brand]: hasVariant(
+          [sty.accountAvatarcolor_brand]: hasVariant(
             variants,
             "color",
             "brand"
           ),
 
-          [sty.accountAvatar__color_darkBg]: hasVariant(
+          [sty.accountAvatarcolor_darkBg]: hasVariant(
             variants,
             "color",
             "darkBg"
           ),
 
-          [sty.accountAvatar__color_lightBg]: hasVariant(
+          [sty.accountAvatarcolor_lightBg]: hasVariant(
             variants,
             "color",
             "lightBg"
@@ -70,19 +70,19 @@ function PlasmicNavbarAccountAvatar__RenderFunc(props) {
 
         value: args.children,
         className: classNames(sty.slotTargetChildren, {
-          [sty.slotTargetChildren__color_brand]: hasVariant(
+          [sty.slotTargetChildrencolor_brand]: hasVariant(
             variants,
             "color",
             "brand"
           ),
 
-          [sty.slotTargetChildren__color_darkBg]: hasVariant(
+          [sty.slotTargetChildrencolor_darkBg]: hasVariant(
             variants,
             "color",
             "darkBg"
           ),
 
-          [sty.slotTargetChildren__color_lightBg]: hasVariant(
+          [sty.slotTargetChildrencolor_lightBg]: hasVariant(
             variants,
             "color",
             "lightBg"

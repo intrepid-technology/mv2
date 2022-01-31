@@ -40,11 +40,11 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__size__1080]: hasVariant(variants, "size", "_1080"),
-        [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.parent__size__540]: hasVariant(variants, "size", "_540"),
-        [sty.parent__size__720]: hasVariant(variants, "size", "_720")
+        [sty.parentsize__1080]: hasVariant(variants, "size", "_1080"),
+        [sty.parentsize__270]: hasVariant(variants, "size", "_270"),
+        [sty.parentsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.parentsize__540]: hasVariant(variants, "size", "_540"),
+        [sty.parentsize__720]: hasVariant(variants, "size", "_720")
       })}
     >
       <p.Stack
@@ -53,37 +53,37 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
         data-plasmic-override={overrides.headerDisplayGroupParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.headerDisplayGroupParent, {
-          [sty.headerDisplayGroupParent__headings_headline]: hasVariant(
+          [sty.headerDisplayGroupParentheadings_headline]: hasVariant(
             variants,
             "headings",
             "headline"
           ),
 
-          [sty.headerDisplayGroupParent__headings_subhead]: hasVariant(
+          [sty.headerDisplayGroupParentheadings_subhead]: hasVariant(
             variants,
             "headings",
             "subhead"
           ),
 
-          [sty.headerDisplayGroupParent__headings_title]: hasVariant(
+          [sty.headerDisplayGroupParentheadings_title]: hasVariant(
             variants,
             "headings",
             "title"
           ),
 
-          [sty.headerDisplayGroupParent__size__1080]: hasVariant(
+          [sty.headerDisplayGroupParentsize__1080]: hasVariant(
             variants,
             "size",
             "_1080"
           ),
 
-          [sty.headerDisplayGroupParent__size__270]: hasVariant(
+          [sty.headerDisplayGroupParentsize__270]: hasVariant(
             variants,
             "size",
             "_270"
           ),
 
-          [sty.headerDisplayGroupParent__size__360]: hasVariant(
+          [sty.headerDisplayGroupParentsize__360]: hasVariant(
             variants,
             "size",
             "_360"
@@ -94,19 +94,19 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           data-plasmic-name={"headerDisplayTitle"}
           data-plasmic-override={overrides.headerDisplayTitle}
           className={classNames(projectcss.all, sty.headerDisplayTitle, {
-            [sty.headerDisplayTitle__headings_headline]: hasVariant(
+            [sty.headerDisplayTitleheadings_headline]: hasVariant(
               variants,
               "headings",
               "headline"
             ),
 
-            [sty.headerDisplayTitle__headings_title]: hasVariant(
+            [sty.headerDisplayTitleheadings_title]: hasVariant(
               variants,
               "headings",
               "title"
             ),
 
-            [sty.headerDisplayTitle__size__270]: hasVariant(
+            [sty.headerDisplayTitlesize__270]: hasVariant(
               variants,
               "size",
               "_270"
@@ -116,37 +116,42 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
           <h1
             data-plasmic-name={"textDisplayParent"}
             data-plasmic-override={overrides.textDisplayParent}
-            className={classNames(projectcss.h1, sty.textDisplayParent, {
-              [sty.textDisplayParent__headings_headline]: hasVariant(
-                variants,
-                "headings",
-                "headline"
-              ),
-
-              [sty.textDisplayParent__headings_title]: hasVariant(
-                variants,
-                "headings",
-                "title"
-              )
-            })}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: "Title",
-              value: args.textDisplay,
-              className: classNames(sty.slotTargetTextDisplay, {
-                [sty.slotTargetTextDisplay__headings_headline]: hasVariant(
+            className={classNames(
+              projectcss.all,
+              projectcss.h1,
+              sty.textDisplayParent,
+              {
+                [sty.textDisplayParentheadings_headline]: hasVariant(
                   variants,
                   "headings",
                   "headline"
                 ),
 
-                [sty.slotTargetTextDisplay__headings_title]: hasVariant(
+                [sty.textDisplayParentheadings_title]: hasVariant(
+                  variants,
+                  "headings",
+                  "title"
+                )
+              }
+            )}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: "Title",
+              value: args.textDisplay,
+              className: classNames(sty.slotTargetTextDisplay, {
+                [sty.slotTargetTextDisplayheadings_headline]: hasVariant(
+                  variants,
+                  "headings",
+                  "headline"
+                ),
+
+                [sty.slotTargetTextDisplayheadings_title]: hasVariant(
                   variants,
                   "headings",
                   "title"
                 ),
 
-                [sty.slotTargetTextDisplay__size__270]: hasVariant(
+                [sty.slotTargetTextDisplaysize__270]: hasVariant(
                   variants,
                   "size",
                   "_270"
@@ -165,13 +170,13 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             projectcss.all,
             sty.headlineSubheadGroupParent,
             {
-              [sty.headlineSubheadGroupParent__size__1080]: hasVariant(
+              [sty.headlineSubheadGroupParentsize__1080]: hasVariant(
                 variants,
                 "size",
                 "_1080"
               ),
 
-              [sty.headlineSubheadGroupParent__size__360]: hasVariant(
+              [sty.headlineSubheadGroupParentsize__360]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -183,47 +188,47 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             data-plasmic-name={"headline"}
             data-plasmic-override={overrides.headline}
             className={classNames(projectcss.all, sty.headline, {
-              [sty.headline__headings_headline]: hasVariant(
+              [sty.headlineheadings_headline]: hasVariant(
                 variants,
                 "headings",
                 "headline"
               ),
 
-              [sty.headline__size__1080]: hasVariant(variants, "size", "_1080"),
-              [sty.headline__size__270]: hasVariant(variants, "size", "_270")
+              [sty.headlinesize__1080]: hasVariant(variants, "size", "_1080"),
+              [sty.headlinesize__270]: hasVariant(variants, "size", "_270")
             })}
           >
             <h2
               data-plasmic-name={"h2"}
               data-plasmic-override={overrides.h2}
-              className={classNames(projectcss.h2, sty.h2, {
-                [sty.h2__headings_headline]: hasVariant(
+              className={classNames(projectcss.all, projectcss.h2, sty.h2, {
+                [sty.h2headings_headline]: hasVariant(
                   variants,
                   "headings",
                   "headline"
                 ),
 
-                [sty.h2__size__1080]: hasVariant(variants, "size", "_1080"),
-                [sty.h2__size__270]: hasVariant(variants, "size", "_270")
+                [sty.h2size__1080]: hasVariant(variants, "size", "_1080"),
+                [sty.h2size__270]: hasVariant(variants, "size", "_270")
               })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Headline Title",
                 value: args.slot,
                 className: classNames(sty.slotTargetSlot, {
-                  [sty.slotTargetSlot__headings_headline]: hasVariant(
+                  [sty.slotTargetSlotheadings_headline]: hasVariant(
                     variants,
                     "headings",
                     "headline"
                   ),
 
-                  [sty.slotTargetSlot__size__1080]: hasVariant(
+                  [sty.slotTargetSlotsize__1080]: hasVariant(
                     variants,
                     "size",
                     "_1080"
                   ),
 
-                  [sty.slotTargetSlot__size__270]: hasVariant(
+                  [sty.slotTargetSlotsize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
@@ -237,45 +242,45 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
             data-plasmic-name={"subhead"}
             data-plasmic-override={overrides.subhead}
             className={classNames(projectcss.all, sty.subhead, {
-              [sty.subhead__headings_headline]: hasVariant(
+              [sty.subheadheadings_headline]: hasVariant(
                 variants,
                 "headings",
                 "headline"
               ),
 
-              [sty.subhead__headings_subhead]: hasVariant(
+              [sty.subheadheadings_subhead]: hasVariant(
                 variants,
                 "headings",
                 "subhead"
               ),
 
-              [sty.subhead__size__270]: hasVariant(variants, "size", "_270"),
-              [sty.subhead__size__360]: hasVariant(variants, "size", "_360")
+              [sty.subheadsize__270]: hasVariant(variants, "size", "_270"),
+              [sty.subheadsize__360]: hasVariant(variants, "size", "_360")
             })}
           >
             <div
               data-plasmic-name={"textSubheadParent"}
               data-plasmic-override={overrides.textSubheadParent}
               className={classNames(projectcss.all, sty.textSubheadParent, {
-                [sty.textSubheadParent__headings_headline]: hasVariant(
+                [sty.textSubheadParentheadings_headline]: hasVariant(
                   variants,
                   "headings",
                   "headline"
                 ),
 
-                [sty.textSubheadParent__headings_subhead]: hasVariant(
+                [sty.textSubheadParentheadings_subhead]: hasVariant(
                   variants,
                   "headings",
                   "subhead"
                 ),
 
-                [sty.textSubheadParent__size__270]: hasVariant(
+                [sty.textSubheadParentsize__270]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.textSubheadParent__size__360]: hasVariant(
+                [sty.textSubheadParentsize__360]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -286,19 +291,19 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
                 defaultContents: "Subhead title",
                 value: args.textSubhead,
                 className: classNames(sty.slotTargetTextSubhead, {
-                  [sty.slotTargetTextSubhead__headings_headline]: hasVariant(
+                  [sty.slotTargetTextSubheadheadings_headline]: hasVariant(
                     variants,
                     "headings",
                     "headline"
                   ),
 
-                  [sty.slotTargetTextSubhead__headings_subhead]: hasVariant(
+                  [sty.slotTargetTextSubheadheadings_subhead]: hasVariant(
                     variants,
                     "headings",
                     "subhead"
                   ),
 
-                  [sty.slotTargetTextSubhead__size__270]: hasVariant(
+                  [sty.slotTargetTextSubheadsize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"

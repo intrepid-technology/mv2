@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   flex-grow: 1;
   position: relative;
   width: 100%;
@@ -8,8 +8,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -20,21 +20,21 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 16px;
 }
-.root__vertical {
+.rootvertical {
   display: flex;
   flex-direction: column;
 }
-.root__vertical > :global(.__wab_flex-container) {
+.rootvertical > :global(.__wab_flex-container) {
   flex-direction: column;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.root__vertical > :global(.__wab_flex-container) > *,
-.root__vertical > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root__vertical > :global(.__wab_flex-container) > picture > img,
-.root__vertical
+.rootvertical > :global(.__wab_flex-container) > *,
+.rootvertical > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootvertical > :global(.__wab_flex-container) > picture > img,
+.rootvertical
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -62,12 +62,12 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.textWrapper__vertical {
+.textWrappervertical {
   width: 100%;
   align-items: center;
   justify-content: center;
   min-width: 0;
 }
-.slotTargetLabel__vertical {
+.slotTargetLabelvertical {
   text-align: center;
 }

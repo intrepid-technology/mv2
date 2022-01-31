@@ -46,7 +46,11 @@ function PlasmicCardCompanyFeature__RenderFunc(props) {
           defaultContents: (
             <img
               alt={""}
-              className={classNames(projectcss.img, sty.img__ujhJo)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.img__ujhJo
+              )}
             />
           ),
 

@@ -43,7 +43,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__session]: hasVariant(variants, "session", "session")
+        [sty.parentsession]: hasVariant(variants, "session", "session")
       })}
     >
       <UserAvatarButton
@@ -54,7 +54,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
             data-plasmic-name={"img"}
             data-plasmic-override={overrides.img}
             alt={""}
-            className={classNames(projectcss.img, sty.img)}
+            className={classNames(projectcss.all, projectcss.img, sty.img)}
             src={"/plasmic/market_v_2/images/image4.png"}
           />
         }
@@ -113,11 +113,7 @@ function PlasmicCardMemberProfile__RenderFunc(props) {
         data-plasmic-name={"buttonPrimary"}
         data-plasmic-override={overrides.buttonPrimary}
         className={classNames("__wab_instance", sty.buttonPrimary, {
-          [sty.buttonPrimary__session]: hasVariant(
-            variants,
-            "session",
-            "session"
-          )
+          [sty.buttonPrimarysession]: hasVariant(variants, "session", "session")
         })}
         color={"primary"}
         width={"_140"}

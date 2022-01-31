@@ -42,58 +42,43 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__height__32]: hasVariant(variants, "height", "_32"),
-          [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
-          [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
-          [sty.parent__height__48]: hasVariant(variants, "height", "_48"),
-          [sty.parent__type_secondary]: hasVariant(
-            variants,
-            "type",
-            "secondary"
-          ),
-
-          [sty.parent__width__120]: hasVariant(variants, "width", "_120"),
-          [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
-          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
+          [sty.parentheight__32]: hasVariant(variants, "height", "_32"),
+          [sty.parentheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.parentheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.parentheight__48]: hasVariant(variants, "height", "_48"),
+          [sty.parenttype_secondary]: hasVariant(variants, "type", "secondary"),
+          [sty.parentwidth__120]: hasVariant(variants, "width", "_120"),
+          [sty.parentwidth__160]: hasVariant(variants, "width", "_160"),
+          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <div
           data-plasmic-name={"prefixparent"}
           data-plasmic-override={overrides.prefixparent}
           className={classNames(projectcss.all, sty.prefixparent, {
-            [sty.prefixparent__prefix]: hasVariant(
-              variants,
-              "prefix",
-              "prefix"
-            ),
-
-            [sty.prefixparent__suffix]: hasVariant(
-              variants,
-              "suffix",
-              "suffix"
-            ),
-
-            [sty.prefixparent__suffix_prefix]:
+            [sty.prefixparentprefix]: hasVariant(variants, "prefix", "prefix"),
+            [sty.prefixparentsuffix]: hasVariant(variants, "suffix", "suffix"),
+            [sty.prefixparentsuffix_prefix]:
               hasVariant(variants, "suffix", "suffix") &&
               hasVariant(variants, "prefix", "prefix"),
-            [sty.prefixparent__type_primary]: hasVariant(
+            [sty.prefixparenttype_primary]: hasVariant(
               variants,
               "type",
               "primary"
             ),
 
-            [sty.prefixparent__type_secondary]: hasVariant(
+            [sty.prefixparenttype_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
@@ -104,13 +89,13 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
             defaultContents: "Text",
             value: args.prefixLabelHeadline,
             className: classNames(sty.slotTargetPrefixLabelHeadline, {
-              [sty.slotTargetPrefixLabelHeadline__suffix]: hasVariant(
+              [sty.slotTargetPrefixLabelHeadlinesuffix]: hasVariant(
                 variants,
                 "suffix",
                 "suffix"
               ),
 
-              [sty.slotTargetPrefixLabelHeadline__type_secondary]: hasVariant(
+              [sty.slotTargetPrefixLabelHeadlinetype_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"
@@ -122,9 +107,9 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
         <input
           data-plasmic-name={"value"}
           data-plasmic-override={overrides.value}
-          className={classNames(projectcss.input, sty.value, {
-            [sty.value__type_primary]: hasVariant(variants, "type", "primary"),
-            [sty.value__width__120]: hasVariant(variants, "width", "_120")
+          className={classNames(projectcss.all, projectcss.input, sty.value, {
+            [sty.valuetype_primary]: hasVariant(variants, "type", "primary"),
+            [sty.valuewidth__120]: hasVariant(variants, "width", "_120")
           })}
           placeholder={""}
           size={1}
@@ -136,13 +121,8 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
           data-plasmic-name={"suffixParent"}
           data-plasmic-override={overrides.suffixParent}
           className={classNames(projectcss.all, sty.suffixParent, {
-            [sty.suffixParent__suffix]: hasVariant(
-              variants,
-              "suffix",
-              "suffix"
-            ),
-
-            [sty.suffixParent__type_secondary]: hasVariant(
+            [sty.suffixParentsuffix]: hasVariant(variants, "suffix", "suffix"),
+            [sty.suffixParenttype_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
@@ -153,7 +133,7 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
             defaultContents: "Text",
             value: args.suffixLabelHeadline,
             className: classNames(sty.slotTargetSuffixLabelHeadline, {
-              [sty.slotTargetSuffixLabelHeadline__type_secondary]: hasVariant(
+              [sty.slotTargetSuffixLabelHeadlinetype_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"

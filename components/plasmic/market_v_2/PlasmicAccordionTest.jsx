@@ -18,7 +18,7 @@ import {
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicAccordionTest.module.css"; // plasmic-import: zBPnerMe5_/css
-import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
+import PlusLightIcon from "./icons/PlasmicIcon__PlusLight"; // plasmic-import: QGTlaxIryG/icon
 
 export const PlasmicAccordionTest__VariantProps = new Array();
 
@@ -46,7 +46,7 @@ function PlasmicAccordionTest__RenderFunc(props) {
         </div>
 
         <div className={classNames(projectcss.all, sty.freeBox__kZbvK)}>
-          <Icon52Icon
+          <PlusLightIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg)}

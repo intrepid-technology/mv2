@@ -37,33 +37,33 @@ function PlasmicButtonCircleDelete__RenderFunc(props) {
       <button
         data-plasmic-name={"button"}
         data-plasmic-override={overrides.button}
-        className={classNames(projectcss.button, sty.button, {
-          [sty.button__size__16Px]: hasVariant(variants, "size", "_16Px"),
-          [sty.button__size__18Px]: hasVariant(variants, "size", "_18Px"),
-          [sty.button__size__24Px]: hasVariant(variants, "size", "_24Px"),
-          [sty.button__size__32Px]: hasVariant(variants, "size", "_32Px"),
-          [sty.button__size__48Px]: hasVariant(variants, "size", "_48Px")
+        className={classNames(projectcss.all, projectcss.button, sty.button, {
+          [sty.buttonsize__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.buttonsize__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.buttonsize__24Px]: hasVariant(variants, "size", "_24Px"),
+          [sty.buttonsize__32Px]: hasVariant(variants, "size", "_32Px"),
+          [sty.buttonsize__48Px]: hasVariant(variants, "size", "_48Px")
         })}
       >
         <div
           data-plasmic-name={"svgParent"}
           data-plasmic-override={overrides.svgParent}
           className={classNames(projectcss.all, sty.svgParent, {
-            [sty.svgParent__size__16Px]: hasVariant(variants, "size", "_16Px"),
-            [sty.svgParent__size__18Px]: hasVariant(variants, "size", "_18Px"),
-            [sty.svgParent__size__24Px]: hasVariant(variants, "size", "_24Px"),
-            [sty.svgParent__size__32Px]: hasVariant(variants, "size", "_32Px"),
-            [sty.svgParent__size__48Px]: hasVariant(variants, "size", "_48Px")
+            [sty.svgParentsize__16Px]: hasVariant(variants, "size", "_16Px"),
+            [sty.svgParentsize__18Px]: hasVariant(variants, "size", "_18Px"),
+            [sty.svgParentsize__24Px]: hasVariant(variants, "size", "_24Px"),
+            [sty.svgParentsize__32Px]: hasVariant(variants, "size", "_32Px"),
+            [sty.svgParentsize__48Px]: hasVariant(variants, "size", "_48Px")
           })}
         >
           <CircleXIcon
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg__size__16Px]: hasVariant(variants, "size", "_16Px"),
-              [sty.svg__size__18Px]: hasVariant(variants, "size", "_18Px"),
-              [sty.svg__size__24Px]: hasVariant(variants, "size", "_24Px"),
-              [sty.svg__size__32Px]: hasVariant(variants, "size", "_32Px")
+              [sty.svgsize__16Px]: hasVariant(variants, "size", "_16Px"),
+              [sty.svgsize__18Px]: hasVariant(variants, "size", "_18Px"),
+              [sty.svgsize__24Px]: hasVariant(variants, "size", "_24Px"),
+              [sty.svgsize__32Px]: hasVariant(variants, "size", "_32Px")
             })}
             role={"img"}
           />

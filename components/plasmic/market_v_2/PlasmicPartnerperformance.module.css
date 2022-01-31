@@ -15,9 +15,9 @@
   flex-shrink: 0;
 }
 .sectionHeaderPartnerPerformance {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -27,8 +27,8 @@
 }
 .sectionHeaderPartnerPerformance > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -105,9 +105,9 @@
   font-weight: 700;
 }
 .partnerPerformanceAnalytics {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -117,8 +117,8 @@
 }
 .partnerPerformanceAnalytics > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -143,9 +143,9 @@
   }
 }
 .overview {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -154,8 +154,8 @@
 }
 .overview > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -247,9 +247,9 @@
   display: none;
 }
 .carousellPartnerOverview {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: 1080px;
@@ -258,9 +258,9 @@
 }
 .carousellPartnerOverview > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
@@ -1007,9 +1007,9 @@
   align-self: stretch;
 }
 .listings {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -1018,8 +1018,8 @@
 }
 .listings > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -1113,9 +1113,9 @@
   display: none;
 }
 .groupPartnerListings {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: 100%;
@@ -1125,9 +1125,9 @@
 }
 .groupPartnerListings > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-left: calc(0px - 0px);
@@ -2274,9 +2274,9 @@
   align-self: stretch;
 }
 .community {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -2285,8 +2285,8 @@
 }
 .community > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -2350,9 +2350,9 @@
   display: none;
 }
 .carousellPartnerCommunity {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: 1080px;
@@ -2362,9 +2362,9 @@
 }
 .carousellPartnerCommunity > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);

@@ -40,36 +40,36 @@ function PlasmicElementRadioPrimary__RenderFunc(props) {
         data-plasmic-name={"radioBorder"}
         data-plasmic-override={overrides.radioBorder}
         className={classNames(projectcss.all, sty.radioBorder, {
-          [sty.radioBorder__selected]: hasVariant(
+          [sty.radioBorderselected]: hasVariant(
             variants,
             "selected",
             "selected"
           ),
 
-          [sty.radioBorder__size__12Px]: hasVariant(variants, "size", "_12Px"),
-          [sty.radioBorder__size__14Px]: hasVariant(variants, "size", "_14Px"),
-          [sty.radioBorder__size__16Px]: hasVariant(variants, "size", "_16Px"),
-          [sty.radioBorder__size__18Px]: hasVariant(variants, "size", "_18Px"),
-          [sty.radioBorder__size__24Px]: hasVariant(variants, "size", "_24Px"),
-          [sty.radioBorder__size__32Px]: hasVariant(variants, "size", "_32Px")
+          [sty.radioBordersize__12Px]: hasVariant(variants, "size", "_12Px"),
+          [sty.radioBordersize__14Px]: hasVariant(variants, "size", "_14Px"),
+          [sty.radioBordersize__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.radioBordersize__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.radioBordersize__24Px]: hasVariant(variants, "size", "_24Px"),
+          [sty.radioBordersize__32Px]: hasVariant(variants, "size", "_32Px")
         })}
       >
         <div
           data-plasmic-name={"radioCore"}
           data-plasmic-override={overrides.radioCore}
           className={classNames(projectcss.all, sty.radioCore, {
-            [sty.radioCore__selected]: hasVariant(
+            [sty.radioCoreselected]: hasVariant(
               variants,
               "selected",
               "selected"
             ),
 
-            [sty.radioCore__size__12Px]: hasVariant(variants, "size", "_12Px"),
-            [sty.radioCore__size__14Px]: hasVariant(variants, "size", "_14Px"),
-            [sty.radioCore__size__16Px]: hasVariant(variants, "size", "_16Px"),
-            [sty.radioCore__size__18Px]: hasVariant(variants, "size", "_18Px"),
-            [sty.radioCore__size__24Px]: hasVariant(variants, "size", "_24Px"),
-            [sty.radioCore__size__32Px]: hasVariant(variants, "size", "_32Px")
+            [sty.radioCoresize__12Px]: hasVariant(variants, "size", "_12Px"),
+            [sty.radioCoresize__14Px]: hasVariant(variants, "size", "_14Px"),
+            [sty.radioCoresize__16Px]: hasVariant(variants, "size", "_16Px"),
+            [sty.radioCoresize__18Px]: hasVariant(variants, "size", "_18Px"),
+            [sty.radioCoresize__24Px]: hasVariant(variants, "size", "_24Px"),
+            [sty.radioCoresize__32Px]: hasVariant(variants, "size", "_32Px")
           })}
         />
       </div>

@@ -11,27 +11,27 @@
   padding: 0px;
   border: 2px solid #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
-.root___switch {
+.root_switch {
   background: #5229cc;
   border-color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
-.root__disabled_closed {
+.rootdisabled_closed {
   background: #c2c6ce;
   border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
-.root__disabled_open {
+.rootdisabled_open {
   background: #c2c6ce;
   border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
 }
-.root__color_black__switch {
+.rootcolor_black__switch {
   background: #14161b;
   border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.root__color_black_disabled_closed {
+.rootcolor_black_disabled_closed {
   background: #14161b;
   border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.root__disabled_open_color_black {
+.rootdisabled_open_color_black {
   background: #14161b;
   border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
@@ -53,18 +53,18 @@
   border-width: 1px;
   border-style: none;
 }
-.freeBox___switch {
+.freeBox_switch {
   align-self: flex-end;
 }
-.freeBox__disabled_closed {
+.freeBoxdisabled_closed {
   background: #ffffff;
   border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.freeBox__disabled_open {
+.freeBoxdisabled_open {
   align-self: flex-end;
   background: #ffffff;
   border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.freeBox__disabled_open_color_black {
+.freeBoxdisabled_open_color_black {
   background: #ffffff;
 }

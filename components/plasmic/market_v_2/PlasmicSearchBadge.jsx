@@ -39,7 +39,11 @@ function PlasmicSearchBadge__RenderFunc(props) {
       <input
         data-plasmic-name={"serviceIndustry"}
         data-plasmic-override={overrides.serviceIndustry}
-        className={classNames(projectcss.input, sty.serviceIndustry)}
+        className={classNames(
+          projectcss.all,
+          projectcss.input,
+          sty.serviceIndustry
+        )}
         placeholder={"Search and enter"}
         size={1}
         type={"text"}

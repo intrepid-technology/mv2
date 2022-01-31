@@ -6,15 +6,15 @@
   justify-content: flex-start;
 }
 .parent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }

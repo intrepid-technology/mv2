@@ -54,15 +54,10 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-        [sty.root__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+        [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+        [sty.rootisChecked]: hasVariant(variants, "isChecked", "isChecked"),
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootnoLabel]: hasVariant(variants, "noLabel", "noLabel")
       })}
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
@@ -70,14 +65,9 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
         data-plasmic-name={"toggle"}
         data-plasmic-override={overrides.toggle}
         className={classNames(projectcss.all, sty.toggle, {
-          [sty.toggle_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-          [sty.toggle__isChecked]: hasVariant(
-            variants,
-            "isChecked",
-            "isChecked"
-          ),
-
-          [sty.toggle__isDisabled]: hasVariant(
+          [sty.toggle___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+          [sty.toggleisChecked]: hasVariant(variants, "isChecked", "isChecked"),
+          [sty.toggleisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
@@ -88,21 +78,20 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
           data-plasmic-name={"track"}
           data-plasmic-override={overrides.track}
           className={classNames(projectcss.all, sty.track, {
-            [sty.track_____focusVisibleWithin]:
-              triggers.focusVisibleWithin_root,
-            [sty.track__isChecked]: hasVariant(
+            [sty.track___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+            [sty.trackisChecked]: hasVariant(
               variants,
               "isChecked",
               "isChecked"
             ),
 
-            [sty.track__isDisabled]: hasVariant(
+            [sty.trackisDisabled]: hasVariant(
               variants,
               "isDisabled",
               "isDisabled"
             ),
 
-            [sty.track__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+            [sty.tracknoLabel]: hasVariant(variants, "noLabel", "noLabel")
           })}
         />
 
@@ -110,21 +99,20 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
           data-plasmic-name={"thumb"}
           data-plasmic-override={overrides.thumb}
           className={classNames(projectcss.all, sty.thumb, {
-            [sty.thumb_____focusVisibleWithin]:
-              triggers.focusVisibleWithin_root,
-            [sty.thumb__isChecked]: hasVariant(
+            [sty.thumb___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+            [sty.thumbisChecked]: hasVariant(
               variants,
               "isChecked",
               "isChecked"
             ),
 
-            [sty.thumb__isDisabled]: hasVariant(
+            [sty.thumbisDisabled]: hasVariant(
               variants,
               "isDisabled",
               "isDisabled"
             ),
 
-            [sty.thumb__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+            [sty.thumbnoLabel]: hasVariant(variants, "noLabel", "noLabel")
           })}
         />
       </div>
@@ -134,9 +122,9 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
           data-plasmic-name={"labelContainer"}
           data-plasmic-override={overrides.labelContainer}
           className={classNames(projectcss.all, sty.labelContainer, {
-            [sty.labelContainer_____focusVisibleWithin]:
+            [sty.labelContainer___focusVisibleWithin]:
               triggers.focusVisibleWithin_root,
-            [sty.labelContainer__noLabel]: hasVariant(
+            [sty.labelContainernoLabel]: hasVariant(
               variants,
               "noLabel",
               "noLabel"
@@ -147,9 +135,9 @@ function PlasmicSwitchTextPlasmic__RenderFunc(props) {
             defaultContents: "Enter some text",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren_____focusVisibleWithin]:
+              [sty.slotTargetChildren___focusVisibleWithin]:
                 triggers.focusVisibleWithin_root,
-              [sty.slotTargetChildren__noLabel]: hasVariant(
+              [sty.slotTargetChildrennoLabel]: hasVariant(
                 variants,
                 "noLabel",
                 "noLabel"

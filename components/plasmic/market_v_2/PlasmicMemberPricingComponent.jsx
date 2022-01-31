@@ -51,7 +51,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
           data-plasmic-name={"pricing"}
           data-plasmic-override={overrides.pricing}
           className={classNames(projectcss.all, sty.pricing, {
-            [sty.pricing__annual]: hasVariant(variants, "annual", "annual")
+            [sty.pricingannual]: hasVariant(variants, "annual", "annual")
           })}
         >
           <BadgeSectionTitle
@@ -96,7 +96,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__zkIl2, {
-              [sty.freeBox__annual__zkIl280AwV]: hasVariant(
+              [sty.freeBoxannual__zkIl280AwV]: hasVariant(
                 variants,
                 "annual",
                 "annual"
@@ -108,7 +108,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                 data-plasmic-name={"monthlyPricingDiv"}
                 data-plasmic-override={overrides.monthlyPricingDiv}
                 className={classNames(projectcss.all, sty.monthlyPricingDiv, {
-                  [sty.monthlyPricingDiv__annual]: hasVariant(
+                  [sty.monthlyPricingDivannual]: hasVariant(
                     variants,
                     "annual",
                     "annual"
@@ -131,7 +131,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                 data-plasmic-name={"annualPricingDiv"}
                 data-plasmic-override={overrides.annualPricingDiv}
                 className={classNames(projectcss.all, sty.annualPricingDiv, {
-                  [sty.annualPricingDiv__annual]: hasVariant(
+                  [sty.annualPricingDivannual]: hasVariant(
                     variants,
                     "annual",
                     "annual"
@@ -144,7 +144,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                     projectcss.__wab_text,
                     sty.text___6ESt,
                     {
-                      [sty.text__annual___6ESt80AwV]: hasVariant(
+                      [sty.textannual___6ESt80AwV]: hasVariant(
                         variants,
                         "annual",
                         "annual"
@@ -366,7 +366,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       projectcss.__wab_text,
                       sty.text__kmfpw,
                       {
-                        [sty.text__annual__kmfpw80AwV]: hasVariant(
+                        [sty.textannual__kmfpw80AwV]: hasVariant(
                           variants,
                           "annual",
                           "annual"
@@ -570,7 +570,7 @@ function PlasmicMemberPricingComponent__RenderFunc(props) {
                       projectcss.__wab_text,
                       sty.text__vrf1F,
                       {
-                        [sty.text__annual__vrf1F80AwV]: hasVariant(
+                        [sty.textannual__vrf1F80AwV]: hasVariant(
                           variants,
                           "annual",
                           "annual"

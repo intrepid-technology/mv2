@@ -47,7 +47,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__border]: hasVariant(variants, "border", "border")
+          [sty.parentborder]: hasVariant(variants, "border", "border")
         })}
       >
         <p.Stack
@@ -56,7 +56,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-override={overrides.headlineCard}
           hasGap={true}
           className={classNames(projectcss.all, sty.headlineCard, {
-            [sty.headlineCard__border]: hasVariant(variants, "border", "border")
+            [sty.headlineCardborder]: hasVariant(variants, "border", "border")
           })}
         >
           <p.Stack
@@ -98,7 +98,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
           data-plasmic-override={overrides.descriptionCard}
           hasGap={true}
           className={classNames(projectcss.all, sty.descriptionCard, {
-            [sty.descriptionCard__description]: hasVariant(
+            [sty.descriptionCarddescription]: hasVariant(
               variants,
               "description",
               "description"
@@ -120,7 +120,7 @@ function PlasmicInputFormCardBasic__RenderFunc(props) {
                     defaultContents: "Description",
                     value: args.description2,
                     className: classNames(sty.slotTargetDescription2, {
-                      [sty.slotTargetDescription2__description]: hasVariant(
+                      [sty.slotTargetDescription2description]: hasVariant(
                         variants,
                         "description",
                         "description"

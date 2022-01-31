@@ -37,7 +37,11 @@ function PlasmicAvatar__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(projectcss.img, sty.img__sgx2A)}
+            className={classNames(
+              projectcss.all,
+              projectcss.img,
+              sty.img__sgx2A
+            )}
             loading={"lazy"}
           />
         ),

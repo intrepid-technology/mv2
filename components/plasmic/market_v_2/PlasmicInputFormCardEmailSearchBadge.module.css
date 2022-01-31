@@ -15,13 +15,13 @@
   border-radius: 2px;
   border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.parent__border {
+.parentborder {
   border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
 .mainCard {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -31,8 +31,8 @@
 }
 .mainCard > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
@@ -48,11 +48,11 @@
   margin-top: 32px;
 }
 .headlineSubheadParent {
+  flex-direction: column;
   position: relative;
   left: auto;
   top: auto;
   display: flex;
-  flex-direction: column;
   width: 540px;
   height: auto;
 }
@@ -97,9 +97,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .textInputParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: auto;
@@ -114,8 +114,8 @@
 }
 .textInputParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: space-evenly;
+  align-items: stretch;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
 }
@@ -129,7 +129,7 @@
   > img {
   margin-left: 20px;
 }
-.textInputParent__search {
+.textInputParentsearch {
   width: auto;
   height: auto;
   display: flex;
@@ -137,7 +137,7 @@
   margin-top: calc(0px + 32px) !important;
   padding: 0px;
 }
-.textInputParent__search > :global(.__wab_flex-container) {
+.textInputParentsearch > :global(.__wab_flex-container) {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
@@ -146,13 +146,13 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.textInputParent__search > :global(.__wab_flex-container) > *,
-.textInputParent__search
+.textInputParentsearch > :global(.__wab_flex-container) > *,
+.textInputParentsearch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.textInputParent__search > :global(.__wab_flex-container) > picture > img,
-.textInputParent__search
+.textInputParentsearch > :global(.__wab_flex-container) > picture > img,
+.textInputParentsearch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -167,7 +167,7 @@
   height: 32px;
   flex-shrink: 0;
 }
-.freeBox__search {
+.freeBoxsearch {
   width: 360px;
 }
 .textInput__bjqT {
@@ -191,31 +191,31 @@
   border-style: solid;
 }
 .searchTriggerParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .searchTriggerParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
-.searchTriggerParent__search {
+.searchTriggerParentsearch {
   width: auto;
 }
-.searchTriggerParent__search > :global(.__wab_flex-container) {
+.searchTriggerParentsearch > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.searchTriggerParent__search > :global(.__wab_flex-container) > *,
-.searchTriggerParent__search
+.searchTriggerParentsearch > :global(.__wab_flex-container) > *,
+.searchTriggerParentsearch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.searchTriggerParent__search > :global(.__wab_flex-container) > picture > img,
-.searchTriggerParent__search
+.searchTriggerParentsearch > :global(.__wab_flex-container) > picture > img,
+.searchTriggerParentsearch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -227,7 +227,7 @@
   width: 180px;
   flex-shrink: 0;
 }
-.textInput__search {
+.textInputsearch {
   width: 360px;
   height: 32px;
   padding-left: 4px;
@@ -251,7 +251,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.buttonPrimary__search__xk8VAuxud:global(.__wab_instance) {
+.buttonPrimarysearch__xk8VAuxud:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg {
@@ -260,11 +260,11 @@
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   object-fit: cover;
 }
-.svg__search {
+.svgsearch {
   width: 18px;
   height: 18px;
 }
-.text__search {
+.textsearch {
   font-size: 16px;
   font-weight: 400;
 }
@@ -278,9 +278,9 @@
   display: block;
 }
 .badgeDisplay {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: 320px;
@@ -293,8 +293,8 @@
 }
 .badgeDisplay > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 10px);
   width: calc(100% + 10px);
 }
@@ -308,7 +308,7 @@
   > img {
   margin-left: 10px;
 }
-.badgeDisplay__search {
+.badgeDisplaysearch {
   left: auto;
   top: auto;
   width: 100%;
@@ -319,20 +319,17 @@
   min-width: 0;
   border-style: none;
 }
-.badgeDisplay__search > :global(.__wab_flex-container) {
+.badgeDisplaysearch > :global(.__wab_flex-container) {
   flex-wrap: wrap;
   align-content: center;
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
 }
-.badgeDisplay__search > :global(.__wab_flex-container) > *,
-.badgeDisplay__search
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > *,
-.badgeDisplay__search > :global(.__wab_flex-container) > picture > img,
-.badgeDisplay__search
+.badgeDisplaysearch > :global(.__wab_flex-container) > *,
+.badgeDisplaysearch > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.badgeDisplaysearch > :global(.__wab_flex-container) > picture > img,
+.badgeDisplaysearch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -378,10 +375,10 @@
   flex-shrink: 0;
   padding: 16px;
 }
-.descriptionCard__subDescription {
+.descriptionCardsubDescription {
   justify-content: flex-end;
 }
-.descriptionCard__subDescription_button {
+.descriptionCardsubDescription_button {
   display: none;
 }
 .subDescription {
@@ -391,7 +388,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.subDescription__subDescription {
+.subDescriptionsubDescription {
   display: none;
 }
 .slotTargetDescription {
@@ -408,14 +405,14 @@
   top: auto;
   flex-shrink: 0;
 }
-.buttonPrimary__subDescription__t9MyPvZm3B:global(.__wab_instance) {
+.buttonPrimarysubDescription__t9MyPvZm3B:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.buttonPrimary__button__t9Myp9VcG1:global(.__wab_instance) {
+.buttonPrimarybutton__t9Myp9VcG1:global(.__wab_instance) {
   flex-shrink: 0;
   display: none;
 }
-.buttonPrimary__subDescription_button__t9MyPvZm3B9VcG1:global(.__wab_instance) {
+.buttonPrimarysubDescription_button__t9MyPvZm3B9VcG1:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg___44WjT {

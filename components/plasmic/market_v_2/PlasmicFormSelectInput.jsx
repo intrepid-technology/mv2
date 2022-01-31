@@ -49,13 +49,13 @@ function PlasmicFormSelectInput__RenderFunc(props) {
         data-plasmic-name={"nativeSelectInput"}
         data-plasmic-override={overrides.nativeSelectInput}
         className={classNames("__wab_instance", sty.nativeSelectInput, {
-          [sty.nativeSelectInput__hideLabel]: hasVariant(
+          [sty.nativeSelectInputhideLabel]: hasVariant(
             variants,
             "hideLabel",
             "hideLabel"
           ),
 
-          [sty.nativeSelectInput__type_primary]: hasVariant(
+          [sty.nativeSelectInputtype_primary]: hasVariant(
             variants,
             "type",
             "primary"

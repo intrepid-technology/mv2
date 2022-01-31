@@ -245,7 +245,11 @@ function PlasmicEditmember__RenderFunc(props) {
                         data-plasmic-name={"userImage"}
                         data-plasmic-override={overrides.userImage}
                         alt={""}
-                        className={classNames(projectcss.img, sty.userImage)}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.img,
+                          sty.userImage
+                        )}
                         src={"/plasmic/market_v_2/images/image4.png"}
                       />
                     </div>

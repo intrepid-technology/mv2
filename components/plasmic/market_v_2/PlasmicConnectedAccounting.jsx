@@ -61,8 +61,8 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
           data-plasmic-name={"xero"}
           data-plasmic-override={overrides.xero}
           className={classNames("__wab_instance", sty.xero, {
-            [sty.xero__closed]: hasVariant(variants, "closed", "closed"),
-            [sty.xero__visible_quickbooks]: hasVariant(
+            [sty.xeroclosed]: hasVariant(variants, "closed", "closed"),
+            [sty.xerovisible_quickbooks]: hasVariant(
               variants,
               "visible",
               "quickbooks"
@@ -84,8 +84,8 @@ function PlasmicConnectedAccounting__RenderFunc(props) {
           data-plasmic-name={"quickbooks"}
           data-plasmic-override={overrides.quickbooks}
           className={classNames("__wab_instance", sty.quickbooks, {
-            [sty.quickbooks__closed]: hasVariant(variants, "closed", "closed"),
-            [sty.quickbooks__visible_xero]: hasVariant(
+            [sty.quickbooksclosed]: hasVariant(variants, "closed", "closed"),
+            [sty.quickbooksvisible_xero]: hasVariant(
               variants,
               "visible",
               "xero"

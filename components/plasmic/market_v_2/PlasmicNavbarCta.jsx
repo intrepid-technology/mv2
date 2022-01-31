@@ -44,15 +44,15 @@ function PlasmicNavbarCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color"),
-        [sty.root__color_persona_member]:
+        [sty.rootcolor]: hasVariant(variants, "color", "color"),
+        [sty.rootcolor_persona_member]:
           hasVariant(variants, "color", "color") &&
           hasVariant(variants, "persona", "member"),
-        [sty.root__color_persona_partner]:
+        [sty.rootcolor_persona_partner]:
           hasVariant(variants, "color", "color") &&
           hasVariant(variants, "persona", "partner"),
-        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner")
+        [sty.rootpersona_member]: hasVariant(variants, "persona", "member"),
+        [sty.rootpersona_partner]: hasVariant(variants, "persona", "partner")
       })}
     >
       <div
@@ -65,7 +65,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
             data-plasmic-name={"logoHeader"}
             data-plasmic-override={overrides.logoHeader}
             className={classNames("__wab_instance", sty.logoHeader, {
-              [sty.logoHeader__persona_member]: hasVariant(
+              [sty.logoHeaderpersona_member]: hasVariant(
                 variants,
                 "persona",
                 "member"
@@ -89,7 +89,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 data-plasmic-override={overrides.freeBox}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox, {
-                  [sty.freeBox__color]: hasVariant(variants, "color", "color")
+                  [sty.freeBoxcolor]: hasVariant(variants, "color", "color")
                 })}
               >
                 {false ? (
@@ -98,7 +98,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                       "__wab_instance",
                       sty.navLink__gAgnA,
                       {
-                        [sty.navLink__color__gAgnAncUjG]: hasVariant(
+                        [sty.navLinkcolor__gAgnAncUjG]: hasVariant(
                           variants,
                           "color",
                           "color"
@@ -117,7 +117,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                           projectcss.__wab_text,
                           sty.text__fu5Me,
                           {
-                            [sty.text__color__fu5MencUjG]: hasVariant(
+                            [sty.textcolor__fu5MencUjG]: hasVariant(
                               variants,
                               "color",
                               "color"
@@ -136,19 +136,19 @@ function PlasmicNavbarCta__RenderFunc(props) {
                       "__wab_instance",
                       sty.navLink__fpcJz,
                       {
-                        [sty.navLink__color__fpcJZncUjG]: hasVariant(
+                        [sty.navLinkcolor__fpcJZncUjG]: hasVariant(
                           variants,
                           "color",
                           "color"
                         ),
 
-                        [sty.navLink__persona_member__fpcJzDtKy1]: hasVariant(
+                        [sty.navLinkpersona_member__fpcJzDtKy1]: hasVariant(
                           variants,
                           "persona",
                           "member"
                         ),
 
-                        [sty.navLink__persona_partner__fpcJz9HLiC]: hasVariant(
+                        [sty.navLinkpersona_partner__fpcJz9HLiC]: hasVariant(
                           variants,
                           "persona",
                           "partner"
@@ -176,7 +176,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
 
                 <NavLink
                   className={classNames("__wab_instance", sty.navLink__zTpu0, {
-                    [sty.navLink__color__zTpu0NcUjG]: hasVariant(
+                    [sty.navLinkcolor__zTpu0NcUjG]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -200,7 +200,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
 
                 <NavLink
                   className={classNames("__wab_instance", sty.navLink___5Pct6, {
-                    [sty.navLink__color___5Pct6NcUjG]: hasVariant(
+                    [sty.navLinkcolor___5Pct6NcUjG]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -216,7 +216,7 @@ function PlasmicNavbarCta__RenderFunc(props) {
                         projectcss.__wab_text,
                         sty.text__pEnZm,
                         {
-                          [sty.text__color__pEnZMncUjG]: hasVariant(
+                          [sty.textcolor__pEnZMncUjG]: hasVariant(
                             variants,
                             "color",
                             "color"
@@ -238,25 +238,20 @@ function PlasmicNavbarCta__RenderFunc(props) {
             data-plasmic-name={"buttonPrimary"}
             data-plasmic-override={overrides.buttonPrimary}
             className={classNames("__wab_instance", sty.buttonPrimary, {
-              [sty.buttonPrimary__color]: hasVariant(
-                variants,
-                "color",
-                "color"
-              ),
-
-              [sty.buttonPrimary__color_persona_partner]:
+              [sty.buttonPrimarycolor]: hasVariant(variants, "color", "color"),
+              [sty.buttonPrimarycolor_persona_partner]:
                 hasVariant(variants, "color", "color") &&
                 hasVariant(variants, "persona", "partner"),
-              [sty.buttonPrimary__persona_member]: hasVariant(
+              [sty.buttonPrimarypersona_member]: hasVariant(
                 variants,
                 "persona",
                 "member"
               ),
 
-              [sty.buttonPrimary__persona_member_color]:
+              [sty.buttonPrimarypersona_member_color]:
                 hasVariant(variants, "persona", "member") &&
                 hasVariant(variants, "color", "color"),
-              [sty.buttonPrimary__persona_partner]: hasVariant(
+              [sty.buttonPrimarypersona_partner]: hasVariant(
                 variants,
                 "persona",
                 "partner"
@@ -291,25 +286,25 @@ function PlasmicNavbarCta__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__uwHg0,
                 {
-                  [sty.text__color__uwHg0NcUjG]: hasVariant(
+                  [sty.textcolor__uwHg0NcUjG]: hasVariant(
                     variants,
                     "color",
                     "color"
                   ),
 
-                  [sty.text__color_persona_member__uwHg0NcUjGDtKy1]:
+                  [sty.textcolor_persona_member__uwHg0NcUjGDtKy1]:
                     hasVariant(variants, "color", "color") &&
                     hasVariant(variants, "persona", "member"),
-                  [sty.text__color_persona_partner__uwHg0NcUjG9HLiC]:
+                  [sty.textcolor_persona_partner__uwHg0NcUjG9HLiC]:
                     hasVariant(variants, "color", "color") &&
                     hasVariant(variants, "persona", "partner"),
-                  [sty.text__persona_member__uwHg0DtKy1]: hasVariant(
+                  [sty.textpersona_member__uwHg0DtKy1]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.text__persona_partner__uwHg09HLiC]: hasVariant(
+                  [sty.textpersona_partner__uwHg09HLiC]: hasVariant(
                     variants,
                     "persona",
                     "partner"

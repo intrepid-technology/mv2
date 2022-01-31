@@ -1,6 +1,6 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   width: auto;
   height: auto;
   padding-top: 4px;
@@ -9,8 +9,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -26,19 +26,19 @@
     padding-bottom: 0px;
   }
 }
-.root__amount__2_groupSize__16 > :global(.__wab_flex-container) {
+.rootamount__2_groupSize__16 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.root__amount__2_groupSize__16 > :global(.__wab_flex-container) > *,
-.root__amount__2_groupSize__16
+.rootamount__2_groupSize__16 > :global(.__wab_flex-container) > *,
+.rootamount__2_groupSize__16
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.root__amount__2_groupSize__16 > :global(.__wab_flex-container) > picture > img,
-.root__amount__2_groupSize__16
+.rootamount__2_groupSize__16 > :global(.__wab_flex-container) > picture > img,
+.rootamount__2_groupSize__16
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -46,19 +46,19 @@
   margin-left: 4px;
   margin-top: 0px;
 }
-.root__groupSize__16_amount__3 > :global(.__wab_flex-container) {
+.rootgroupSize__16_amount__3 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.root__groupSize__16_amount__3 > :global(.__wab_flex-container) > *,
-.root__groupSize__16_amount__3
+.rootgroupSize__16_amount__3 > :global(.__wab_flex-container) > *,
+.rootgroupSize__16_amount__3
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.root__groupSize__16_amount__3 > :global(.__wab_flex-container) > picture > img,
-.root__groupSize__16_amount__3
+.rootgroupSize__16_amount__3 > :global(.__wab_flex-container) > picture > img,
+.rootgroupSize__16_amount__3
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -73,28 +73,28 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__op0Ag2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__op0Ag2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__op0AgJSrVy:global(.__wab_instance) {
+.userAvataramount__3__op0AgJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__op0Ag3OMqc:global(.__wab_instance) {
+.userAvataramount__4__op0Ag3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5__op0AgbkkXr:global(.__wab_instance) {
+.userAvataramount__5__op0AgbkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16__op0AgIQnN:global(.__wab_instance) {
+.userAvatargroupSize__16__op0AgIQnN:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__18__op0AgtdXvc:global(.__wab_instance) {
+.userAvatargroupSize__18__op0AgtdXvc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__24__op0Ag5Cbp:global(.__wab_instance) {
+.userAvatargroupSize__24__op0Ag5Cbp:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__32__op0AgoUtaW:global(.__wab_instance) {
+.userAvatargroupSize__32__op0AgoUtaW:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__dolm6 {
@@ -291,19 +291,19 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__qw9CS2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__qw9CS2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__qw9CSjSrVy:global(.__wab_instance) {
+.userAvataramount__3__qw9CSjSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__qw9CS3OMqc:global(.__wab_instance) {
+.userAvataramount__4__qw9CS3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5__qw9CSbkkXr:global(.__wab_instance) {
+.userAvataramount__5__qw9CSbkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__5__qw9CSiQnNBkkXr:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__5__qw9CSiQnNBkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__wl7Nk {
@@ -500,19 +500,19 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__nsGCi2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__nsGCi2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__nsGCiJSrVy:global(.__wab_instance) {
+.userAvataramount__3__nsGCiJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__nsGCi3OMqc:global(.__wab_instance) {
+.userAvataramount__4__nsGCi3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5__nsGCibkkXr:global(.__wab_instance) {
+.userAvataramount__5__nsGCibkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__5__nsGCiIQnNBkkXr:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__5__nsGCiIQnNBkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__oz92I {
@@ -709,19 +709,19 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__vjSNx2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__vjSNx2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__vjSNxJSrVy:global(.__wab_instance) {
+.userAvataramount__3__vjSNxJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__vjSNx3OMqc:global(.__wab_instance) {
+.userAvataramount__4__vjSNx3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5__vjSNxbkkXr:global(.__wab_instance) {
+.userAvataramount__5__vjSNxbkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__5__vjSNxIQnNBkkXr:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__5__vjSNxIQnNBkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__znv6F {
@@ -918,19 +918,19 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2___1IX6Z2Zh4P:global(.__wab_instance) {
+.userAvataramount__2___1IX6Z2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3___1IX6ZJSrVy:global(.__wab_instance) {
+.userAvataramount__3___1IX6ZJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4___1IX6Z3OMqc:global(.__wab_instance) {
+.userAvataramount__4___1IX6Z3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5___1IX6ZbkkXr:global(.__wab_instance) {
+.userAvataramount__5___1IX6ZbkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__5___1IX6ZIQnNBkkXr:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__5___1IX6ZIQnNBkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img___7S0MP {
@@ -1127,16 +1127,16 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__g8Xff2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__g8Xff2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__g8XffjSrVy:global(.__wab_instance) {
+.userAvataramount__3__g8XffjSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__g8Xff3OMqc:global(.__wab_instance) {
+.userAvataramount__4__g8Xff3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__4__g8XffiQnN3OMqc:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__4__g8XffiQnN3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__pqMWx {
@@ -1333,16 +1333,16 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__kf6WJ2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__kf6WJ2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__kf6WJjSrVy:global(.__wab_instance) {
+.userAvataramount__3__kf6WJjSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__kf6WJ3OMqc:global(.__wab_instance) {
+.userAvataramount__4__kf6WJ3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__4__kf6WJiQnN3OMqc:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__4__kf6WJiQnN3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__vxidx {
@@ -1539,22 +1539,22 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__ipfFb2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__ipfFb2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__ipfFbjSrVy:global(.__wab_instance) {
+.userAvataramount__3__ipfFbjSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__ipfFb3OMqc:global(.__wab_instance) {
+.userAvataramount__4__ipfFb3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__5__ipfFBbkkXr:global(.__wab_instance) {
+.userAvataramount__5__ipfFBbkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__4__ipfFbiQnN3OMqc:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__4__ipfFbiQnN3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__groupSize__16_amount__5__ipfFbiQnNBkkXr:global(.__wab_instance) {
+.userAvatargroupSize__16_amount__5__ipfFbiQnNBkkXr:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
 .img__xaR0R {
@@ -1751,13 +1751,13 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__b4Pkp2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__b4Pkp2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__b4PkpjSrVy:global(.__wab_instance) {
+.userAvataramount__3__b4PkpjSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3_groupSize__16__b4PkpjSrVyIQnN:global(.__wab_instance) {
+.userAvataramount__3_groupSize__16__b4PkpjSrVyIQnN:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
   margin-top: calc(0px + 0px) !important;
 }
@@ -1955,16 +1955,16 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__zdi5Y2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__zdi5Y2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__zdi5YJSrVy:global(.__wab_instance) {
+.userAvataramount__3__zdi5YJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__4__zdi5Y3OMqc:global(.__wab_instance) {
+.userAvataramount__4__zdi5Y3OMqc:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3_groupSize__16__zdi5YJSrVyIQnN:global(.__wab_instance) {
+.userAvataramount__3_groupSize__16__zdi5YJSrVyIQnN:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
   margin-top: calc(0px + 0px) !important;
 }
@@ -2162,13 +2162,13 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
-.userAvatar__amount__2__zOal2Zh4P:global(.__wab_instance) {
+.userAvataramount__2__zOal2Zh4P:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__3__zOalJSrVy:global(.__wab_instance) {
+.userAvataramount__3__zOalJSrVy:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
 }
-.userAvatar__amount__2_groupSize__16__zOal2Zh4PIQnN:global(.__wab_instance) {
+.userAvataramount__2_groupSize__16__zOal2Zh4PIQnN:global(.__wab_instance) {
   margin-left: calc(0px + 4px) !important;
   margin-top: calc(0px + 0px) !important;
 }

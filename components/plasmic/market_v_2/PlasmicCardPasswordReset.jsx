@@ -52,7 +52,7 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
         <p.PlasmicLink
           data-plasmic-name={"navLinkBack"}
           data-plasmic-override={overrides.navLinkBack}
-          className={classNames(projectcss.a, sty.navLinkBack)}
+          className={classNames(projectcss.all, projectcss.a, sty.navLinkBack)}
           component={Link}
           href={"/log-in"}
           platform={"nextjs"}
@@ -137,7 +137,11 @@ function PlasmicCardPasswordReset__RenderFunc(props) {
               <input
                 data-plasmic-name={"registeredEmail"}
                 data-plasmic-override={overrides.registeredEmail}
-                className={classNames(projectcss.input, sty.registeredEmail)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.input,
+                  sty.registeredEmail
+                )}
                 placeholder={"enter your registered email address"}
                 size={1}
                 type={"text"}

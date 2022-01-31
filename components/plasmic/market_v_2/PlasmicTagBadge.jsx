@@ -43,84 +43,60 @@ function PlasmicTagBadge__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_blue]: hasVariant(variants, "color", "blue"),
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_green]: hasVariant(variants, "color", "green"),
-        [sty.root__color_green_type_ghost]:
+        [sty.rootcolor_blue]: hasVariant(variants, "color", "blue"),
+        [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+        [sty.rootcolor_green]: hasVariant(variants, "color", "green"),
+        [sty.rootcolor_green_type_ghost]:
           hasVariant(variants, "color", "green") &&
           hasVariant(variants, "type", "ghost"),
-        [sty.root__color_magenta]: hasVariant(variants, "color", "magenta"),
-        [sty.root__color_pink]: hasVariant(variants, "color", "pink"),
-        [sty.root__size__12Px]: hasVariant(variants, "size", "_12Px"),
-        [sty.root__size__14Px]: hasVariant(variants, "size", "_14Px"),
-        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
-        [sty.root__size__18Px]: hasVariant(variants, "size", "_18Px"),
-        [sty.root__size__20Px]: hasVariant(variants, "size", "_20Px"),
-        [sty.root__type_ghost]: hasVariant(variants, "type", "ghost"),
-        [sty.root__type_ghost_color_blue]:
+        [sty.rootcolor_magenta]: hasVariant(variants, "color", "magenta"),
+        [sty.rootcolor_pink]: hasVariant(variants, "color", "pink"),
+        [sty.rootsize__12Px]: hasVariant(variants, "size", "_12Px"),
+        [sty.rootsize__14Px]: hasVariant(variants, "size", "_14Px"),
+        [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
+        [sty.rootsize__18Px]: hasVariant(variants, "size", "_18Px"),
+        [sty.rootsize__20Px]: hasVariant(variants, "size", "_20Px"),
+        [sty.roottype_ghost]: hasVariant(variants, "type", "ghost"),
+        [sty.roottype_ghost_color_blue]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_ghost_color_brand]:
+        [sty.roottype_ghost_color_brand]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "brand"),
-        [sty.root__type_ghost_color_magenta]:
+        [sty.roottype_ghost_color_magenta]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "magenta"),
-        [sty.root__type_ghost_color_pink]:
+        [sty.roottype_ghost_color_pink]:
           hasVariant(variants, "type", "ghost") &&
           hasVariant(variants, "color", "pink"),
-        [sty.root__type_outline]: hasVariant(variants, "type", "outline"),
-        [sty.root__type_outline_color_blue]:
+        [sty.roottype_outline]: hasVariant(variants, "type", "outline"),
+        [sty.roottype_outline_color_blue]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "blue"),
-        [sty.root__type_outline_color_brand]:
+        [sty.roottype_outline_color_brand]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "brand"),
-        [sty.root__type_outline_color_green]:
+        [sty.roottype_outline_color_green]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "green"),
-        [sty.root__type_outline_color_magenta]:
+        [sty.roottype_outline_color_magenta]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "magenta"),
-        [sty.root__type_outline_color_pink]:
+        [sty.roottype_outline_color_pink]:
           hasVariant(variants, "type", "outline") &&
           hasVariant(variants, "color", "pink"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
       })}
     >
       <div
         data-plasmic-name={"textlinkParent"}
         data-plasmic-override={overrides.textlinkParent}
         className={classNames(projectcss.all, sty.textlinkParent, {
-          [sty.textlinkParent__size__12Px]: hasVariant(
-            variants,
-            "size",
-            "_12Px"
-          ),
-
-          [sty.textlinkParent__size__14Px]: hasVariant(
-            variants,
-            "size",
-            "_14Px"
-          ),
-
-          [sty.textlinkParent__size__16Px]: hasVariant(
-            variants,
-            "size",
-            "_16Px"
-          ),
-
-          [sty.textlinkParent__size__18Px]: hasVariant(
-            variants,
-            "size",
-            "_18Px"
-          ),
-
-          [sty.textlinkParent__size__20Px]: hasVariant(
-            variants,
-            "size",
-            "_20Px"
-          )
+          [sty.textlinkParentsize__12Px]: hasVariant(variants, "size", "_12Px"),
+          [sty.textlinkParentsize__14Px]: hasVariant(variants, "size", "_14Px"),
+          [sty.textlinkParentsize__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.textlinkParentsize__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.textlinkParentsize__20Px]: hasVariant(variants, "size", "_20Px")
         })}
       >
         {(
@@ -139,49 +115,54 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLinkBase"}
             data-plasmic-override={overrides.tagFilterLinkBase}
-            className={classNames(projectcss.a, sty.tagFilterLinkBase, {
-              [sty.tagFilterLinkBase__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLinkBase,
+              {
+                [sty.tagFilterLinkBasesize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLinkBasesize__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLinkBasesize__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLinkBasesize__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLinkBase__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLinkBasesize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLinkBase__type_primary]: hasVariant(
-                variants,
-                "type",
-                "primary"
-              ),
+                [sty.tagFilterLinkBasetype_primary]: hasVariant(
+                  variants,
+                  "type",
+                  "primary"
+                ),
 
-              [sty.tagFilterLinkBase__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLinkBasetype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -189,97 +170,97 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.textBase10Px,
               className: classNames(sty.slotTargetTextBase10Px, {
-                [sty.slotTargetTextBase10Px__color_brand]: hasVariant(
+                [sty.slotTargetTextBase10Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetTextBase10Px__color_green_type_ghost]:
+                [sty.slotTargetTextBase10Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetTextBase10Px__size__12Px]: hasVariant(
+                [sty.slotTargetTextBase10Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
                   "_12Px"
                 ),
 
-                [sty.slotTargetTextBase10Px__size__14Px]: hasVariant(
+                [sty.slotTargetTextBase10Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetTextBase10Px__size__16Px]: hasVariant(
+                [sty.slotTargetTextBase10Pxsize__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotTargetTextBase10Px__size__18Px]: hasVariant(
+                [sty.slotTargetTextBase10Pxsize__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotTargetTextBase10Px__size__20Px]: hasVariant(
+                [sty.slotTargetTextBase10Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetTextBase10Px__type_ghost]: hasVariant(
+                [sty.slotTargetTextBase10Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetTextBase10Px__type_ghost_color_blue]:
+                [sty.slotTargetTextBase10Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px__type_ghost_color_brand]:
+                [sty.slotTargetTextBase10Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px__type_ghost_color_magenta]:
+                [sty.slotTargetTextBase10Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Px__type_ghost_color_pink]:
+                [sty.slotTargetTextBase10Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetTextBase10Px__type_outline]: hasVariant(
+                [sty.slotTargetTextBase10Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetTextBase10Px__type_outline_color_blue]:
+                [sty.slotTargetTextBase10Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px__type_outline_color_brand]:
+                [sty.slotTargetTextBase10Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px__type_outline_color_green]:
+                [sty.slotTargetTextBase10Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetTextBase10Px__type_outline_color_magenta]:
+                [sty.slotTargetTextBase10Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Px__type_outline_color_pink]:
+                [sty.slotTargetTextBase10Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetTextBase10Px__type_primary]: hasVariant(
+                [sty.slotTargetTextBase10Pxtype_primary]: hasVariant(
                   variants,
                   "type",
                   "primary"
                 ),
 
-                [sty.slotTargetTextBase10Px__type_secondary]: hasVariant(
+                [sty.slotTargetTextBase10Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
                 ),
 
-                [sty.slotTargetTextBase10Px__type_uppercase]: hasVariant(
+                [sty.slotTargetTextBase10Pxtype_uppercase]: hasVariant(
                   variants,
                   "type",
                   "uppercase"
@@ -292,25 +273,30 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink6Px"}
             data-plasmic-override={overrides.tagFilterLink6Px}
-            className={classNames(projectcss.a, sty.tagFilterLink6Px, {
-              [sty.tagFilterLink6Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink6Px,
+              {
+                [sty.tagFilterLink6Pxsize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink6Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink6Pxsize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink6Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink6Pxtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -318,73 +304,73 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text6Px,
               className: classNames(sty.slotTargetText6Px, {
-                [sty.slotTargetText6Px__color_brand]: hasVariant(
+                [sty.slotTargetText6Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetText6Px__color_green_type_ghost]:
+                [sty.slotTargetText6Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetText6Px__size__12Px]: hasVariant(
+                [sty.slotTargetText6Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
                   "_12Px"
                 ),
 
-                [sty.slotTargetText6Px__size__14Px]: hasVariant(
+                [sty.slotTargetText6Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetText6Px__size__20Px]: hasVariant(
+                [sty.slotTargetText6Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetText6Px__type_ghost]: hasVariant(
+                [sty.slotTargetText6Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetText6Px__type_ghost_color_blue]:
+                [sty.slotTargetText6Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText6Px__type_ghost_color_brand]:
+                [sty.slotTargetText6Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText6Px__type_ghost_color_magenta]:
+                [sty.slotTargetText6Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText6Px__type_ghost_color_pink]:
+                [sty.slotTargetText6Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText6Px__type_outline]: hasVariant(
+                [sty.slotTargetText6Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetText6Px__type_outline_color_blue]:
+                [sty.slotTargetText6Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText6Px__type_outline_color_brand]:
+                [sty.slotTargetText6Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText6Px__type_outline_color_green]:
+                [sty.slotTargetText6Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetText6Px__type_outline_color_magenta]:
+                [sty.slotTargetText6Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText6Px__type_outline_color_pink]:
+                [sty.slotTargetText6Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText6Px__type_secondary]: hasVariant(
+                [sty.slotTargetText6Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
@@ -397,31 +383,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink8Px"}
             data-plasmic-override={overrides.tagFilterLink8Px}
-            className={classNames(projectcss.a, sty.tagFilterLink8Px, {
-              [sty.tagFilterLink8Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink8Px,
+              {
+                [sty.tagFilterLink8Pxsize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink8Px__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLink8Pxsize__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLink8Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink8Pxsize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink8Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink8Pxtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -429,79 +420,79 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text8Px,
               className: classNames(sty.slotTargetText8Px, {
-                [sty.slotTargetText8Px__color_brand]: hasVariant(
+                [sty.slotTargetText8Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetText8Px__color_green_type_ghost]:
+                [sty.slotTargetText8Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetText8Px__size__12Px]: hasVariant(
+                [sty.slotTargetText8Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
                   "_12Px"
                 ),
 
-                [sty.slotTargetText8Px__size__14Px]: hasVariant(
+                [sty.slotTargetText8Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetText8Px__size__16Px]: hasVariant(
+                [sty.slotTargetText8Pxsize__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotTargetText8Px__size__20Px]: hasVariant(
+                [sty.slotTargetText8Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetText8Px__type_ghost]: hasVariant(
+                [sty.slotTargetText8Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetText8Px__type_ghost_color_blue]:
+                [sty.slotTargetText8Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText8Px__type_ghost_color_brand]:
+                [sty.slotTargetText8Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText8Px__type_ghost_color_magenta]:
+                [sty.slotTargetText8Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText8Px__type_ghost_color_pink]:
+                [sty.slotTargetText8Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText8Px__type_outline]: hasVariant(
+                [sty.slotTargetText8Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetText8Px__type_outline_color_blue]:
+                [sty.slotTargetText8Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText8Px__type_outline_color_brand]:
+                [sty.slotTargetText8Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText8Px__type_outline_color_green]:
+                [sty.slotTargetText8Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetText8Px__type_outline_color_magenta]:
+                [sty.slotTargetText8Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText8Px__type_outline_color_pink]:
+                [sty.slotTargetText8Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText8Px__type_secondary]: hasVariant(
+                [sty.slotTargetText8Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
@@ -514,31 +505,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px"}
             data-plasmic-override={overrides.tagFilterLink10Px}
-            className={classNames(projectcss.a, sty.tagFilterLink10Px, {
-              [sty.tagFilterLink10Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink10Px,
+              {
+                [sty.tagFilterLink10Pxsize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink10Px__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLink10Pxsize__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLink10Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink10Pxsize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink10Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink10Pxtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -546,79 +542,79 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text10Px,
               className: classNames(sty.slotTargetText10Px, {
-                [sty.slotTargetText10Px__color_brand]: hasVariant(
+                [sty.slotTargetText10Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetText10Px__color_green_type_ghost]:
+                [sty.slotTargetText10Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetText10Px__size__14Px]: hasVariant(
+                [sty.slotTargetText10Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetText10Px__size__16Px]: hasVariant(
+                [sty.slotTargetText10Pxsize__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotTargetText10Px__size__18Px]: hasVariant(
+                [sty.slotTargetText10Pxsize__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotTargetText10Px__size__20Px]: hasVariant(
+                [sty.slotTargetText10Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetText10Px__type_ghost]: hasVariant(
+                [sty.slotTargetText10Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetText10Px__type_ghost_color_blue]:
+                [sty.slotTargetText10Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText10Px__type_ghost_color_brand]:
+                [sty.slotTargetText10Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText10Px__type_ghost_color_magenta]:
+                [sty.slotTargetText10Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText10Px__type_ghost_color_pink]:
+                [sty.slotTargetText10Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText10Px__type_outline]: hasVariant(
+                [sty.slotTargetText10Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetText10Px__type_outline_color_blue]:
+                [sty.slotTargetText10Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText10Px__type_outline_color_brand]:
+                [sty.slotTargetText10Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText10Px__type_outline_color_green]:
+                [sty.slotTargetText10Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetText10Px__type_outline_color_magenta]:
+                [sty.slotTargetText10Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText10Px__type_outline_color_pink]:
+                [sty.slotTargetText10Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText10Px__type_secondary]: hasVariant(
+                [sty.slotTargetText10Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
@@ -631,31 +627,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink12Px"}
             data-plasmic-override={overrides.tagFilterLink12Px}
-            className={classNames(projectcss.a, sty.tagFilterLink12Px, {
-              [sty.tagFilterLink12Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink12Px,
+              {
+                [sty.tagFilterLink12Pxsize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink12Px__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink12Pxsize__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink12Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink12Pxsize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink12Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink12Pxtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -663,67 +664,67 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text12Px,
               className: classNames(sty.slotTargetText12Px, {
-                [sty.slotTargetText12Px__color_brand]: hasVariant(
+                [sty.slotTargetText12Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetText12Px__color_green_type_ghost]:
+                [sty.slotTargetText12Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetText12Px__size__18Px]: hasVariant(
+                [sty.slotTargetText12Pxsize__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotTargetText12Px__size__20Px]: hasVariant(
+                [sty.slotTargetText12Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetText12Px__type_ghost]: hasVariant(
+                [sty.slotTargetText12Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetText12Px__type_ghost_color_blue]:
+                [sty.slotTargetText12Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText12Px__type_ghost_color_brand]:
+                [sty.slotTargetText12Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText12Px__type_ghost_color_magenta]:
+                [sty.slotTargetText12Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText12Px__type_ghost_color_pink]:
+                [sty.slotTargetText12Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText12Px__type_outline]: hasVariant(
+                [sty.slotTargetText12Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetText12Px__type_outline_color_blue]:
+                [sty.slotTargetText12Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText12Px__type_outline_color_brand]:
+                [sty.slotTargetText12Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText12Px__type_outline_color_green]:
+                [sty.slotTargetText12Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetText12Px__type_outline_color_magenta]:
+                [sty.slotTargetText12Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText12Px__type_outline_color_pink]:
+                [sty.slotTargetText12Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText12Px__type_secondary]: hasVariant(
+                [sty.slotTargetText12Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
@@ -736,31 +737,36 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink14Px"}
             data-plasmic-override={overrides.tagFilterLink14Px}
-            className={classNames(projectcss.a, sty.tagFilterLink14Px, {
-              [sty.tagFilterLink14Px__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink14Px,
+              {
+                [sty.tagFilterLink14Pxsize__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink14Px__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink14Pxsize__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink14Px__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink14Pxsize__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink14Px__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink14Pxtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -768,79 +774,79 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text14Px,
               className: classNames(sty.slotTargetText14Px, {
-                [sty.slotTargetText14Px__color_brand]: hasVariant(
+                [sty.slotTargetText14Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetText14Px__color_green_type_ghost]:
+                [sty.slotTargetText14Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetText14Px__size__14Px]: hasVariant(
+                [sty.slotTargetText14Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetText14Px__size__16Px]: hasVariant(
+                [sty.slotTargetText14Pxsize__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotTargetText14Px__size__18Px]: hasVariant(
+                [sty.slotTargetText14Pxsize__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotTargetText14Px__size__20Px]: hasVariant(
+                [sty.slotTargetText14Pxsize__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetText14Px__type_ghost]: hasVariant(
+                [sty.slotTargetText14Pxtype_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetText14Px__type_ghost_color_blue]:
+                [sty.slotTargetText14Pxtype_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText14Px__type_ghost_color_brand]:
+                [sty.slotTargetText14Pxtype_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText14Px__type_ghost_color_magenta]:
+                [sty.slotTargetText14Pxtype_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText14Px__type_ghost_color_pink]:
+                [sty.slotTargetText14Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText14Px__type_outline]: hasVariant(
+                [sty.slotTargetText14Pxtype_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetText14Px__type_outline_color_blue]:
+                [sty.slotTargetText14Pxtype_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText14Px__type_outline_color_brand]:
+                [sty.slotTargetText14Pxtype_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText14Px__type_outline_color_green]:
+                [sty.slotTargetText14Pxtype_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetText14Px__type_outline_color_magenta]:
+                [sty.slotTargetText14Pxtype_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText14Px__type_outline_color_pink]:
+                [sty.slotTargetText14Pxtype_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetText14Px__type_secondary]: hasVariant(
+                [sty.slotTargetText14Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"
@@ -865,43 +871,48 @@ function PlasmicTagBadge__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"tagFilterLink10Px2"}
             data-plasmic-override={overrides.tagFilterLink10Px2}
-            className={classNames(projectcss.a, sty.tagFilterLink10Px2, {
-              [sty.tagFilterLink10Px2__size__12Px]: hasVariant(
-                variants,
-                "size",
-                "_12Px"
-              ),
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.tagFilterLink10Px2,
+              {
+                [sty.tagFilterLink10Px2size__12Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_12Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__14Px]: hasVariant(
-                variants,
-                "size",
-                "_14Px"
-              ),
+                [sty.tagFilterLink10Px2size__14Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_14Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__16Px]: hasVariant(
-                variants,
-                "size",
-                "_16Px"
-              ),
+                [sty.tagFilterLink10Px2size__16Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_16Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__18Px]: hasVariant(
-                variants,
-                "size",
-                "_18Px"
-              ),
+                [sty.tagFilterLink10Px2size__18Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_18Px"
+                ),
 
-              [sty.tagFilterLink10Px2__size__20Px]: hasVariant(
-                variants,
-                "size",
-                "_20Px"
-              ),
+                [sty.tagFilterLink10Px2size__20Px]: hasVariant(
+                  variants,
+                  "size",
+                  "_20Px"
+                ),
 
-              [sty.tagFilterLink10Px2__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+                [sty.tagFilterLink10Px2type_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -909,85 +920,85 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.textBase10Px2,
               className: classNames(sty.slotTargetTextBase10Px2, {
-                [sty.slotTargetTextBase10Px2__color_brand]: hasVariant(
+                [sty.slotTargetTextBase10Px2color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetTextBase10Px2__color_green_type_ghost]:
+                [sty.slotTargetTextBase10Px2color_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
-                [sty.slotTargetTextBase10Px2__size__12Px]: hasVariant(
+                [sty.slotTargetTextBase10Px2size__12Px]: hasVariant(
                   variants,
                   "size",
                   "_12Px"
                 ),
 
-                [sty.slotTargetTextBase10Px2__size__14Px]: hasVariant(
+                [sty.slotTargetTextBase10Px2size__14Px]: hasVariant(
                   variants,
                   "size",
                   "_14Px"
                 ),
 
-                [sty.slotTargetTextBase10Px2__size__16Px]: hasVariant(
+                [sty.slotTargetTextBase10Px2size__16Px]: hasVariant(
                   variants,
                   "size",
                   "_16Px"
                 ),
 
-                [sty.slotTargetTextBase10Px2__size__18Px]: hasVariant(
+                [sty.slotTargetTextBase10Px2size__18Px]: hasVariant(
                   variants,
                   "size",
                   "_18Px"
                 ),
 
-                [sty.slotTargetTextBase10Px2__size__20Px]: hasVariant(
+                [sty.slotTargetTextBase10Px2size__20Px]: hasVariant(
                   variants,
                   "size",
                   "_20Px"
                 ),
 
-                [sty.slotTargetTextBase10Px2__type_ghost]: hasVariant(
+                [sty.slotTargetTextBase10Px2type_ghost]: hasVariant(
                   variants,
                   "type",
                   "ghost"
                 ),
 
-                [sty.slotTargetTextBase10Px2__type_ghost_color_blue]:
+                [sty.slotTargetTextBase10Px2type_ghost_color_blue]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px2__type_ghost_color_brand]:
+                [sty.slotTargetTextBase10Px2type_ghost_color_brand]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px2__type_ghost_color_magenta]:
+                [sty.slotTargetTextBase10Px2type_ghost_color_magenta]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Px2__type_ghost_color_pink]:
+                [sty.slotTargetTextBase10Px2type_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetTextBase10Px2__type_outline]: hasVariant(
+                [sty.slotTargetTextBase10Px2type_outline]: hasVariant(
                   variants,
                   "type",
                   "outline"
                 ),
 
-                [sty.slotTargetTextBase10Px2__type_outline_color_blue]:
+                [sty.slotTargetTextBase10Px2type_outline_color_blue]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px2__type_outline_color_brand]:
+                [sty.slotTargetTextBase10Px2type_outline_color_brand]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px2__type_outline_color_green]:
+                [sty.slotTargetTextBase10Px2type_outline_color_green]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "green"),
-                [sty.slotTargetTextBase10Px2__type_outline_color_magenta]:
+                [sty.slotTargetTextBase10Px2type_outline_color_magenta]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Px2__type_outline_color_pink]:
+                [sty.slotTargetTextBase10Px2type_outline_color_pink]:
                   hasVariant(variants, "type", "outline") &&
                   hasVariant(variants, "color", "pink"),
-                [sty.slotTargetTextBase10Px2__type_secondary]: hasVariant(
+                [sty.slotTargetTextBase10Px2type_secondary]: hasVariant(
                   variants,
                   "type",
                   "secondary"

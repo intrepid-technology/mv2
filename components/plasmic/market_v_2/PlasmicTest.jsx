@@ -16,6 +16,8 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
+import TeamsTable from "../../TeamsTable"; // plasmic-import: kVYwY70jN0/component
+import ThirdPartyTalentTable from "../../ThirdPartyTalentTable"; // plasmic-import: 0qitnTik-o/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
@@ -26,7 +28,6 @@ import FormSwitchInput from "../../FormSwitchInput"; // plasmic-import: Q6uFqZTe
 import FormMultiCheckboxInput from "../../FormMultiCheckboxInput"; // plasmic-import: -o3gl0nF6j/component
 import FormMultiSelectInput from "../../FormMultiSelectInput"; // plasmic-import: eTIpxqMjYo/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
-import { Input } from "antd"; // plasmic-import: 3YLkhzw0Zp8/codeComponent
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicTest.module.css"; // plasmic-import: v_33trlWhR/css
@@ -65,6 +66,27 @@ function PlasmicTest__RenderFunc(props) {
             sty.root
           )}
         >
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__h9MGu)}
+          >
+            <TeamsTable
+              data-plasmic-name={"teamsTable"}
+              data-plasmic-override={overrides.teamsTable}
+              className={classNames("__wab_instance", sty.teamsTable)}
+            />
+
+            <ThirdPartyTalentTable
+              data-plasmic-name={"thirdPartyTalentTable"}
+              data-plasmic-override={overrides.thirdPartyTalentTable}
+              className={classNames(
+                "__wab_instance",
+                sty.thirdPartyTalentTable
+              )}
+            />
+          </p.Stack>
+
           <FormContext
             data-plasmic-name={"formContext"}
             data-plasmic-override={overrides.formContext}
@@ -188,21 +210,6 @@ function PlasmicTest__RenderFunc(props) {
               </p.Stack>
             </div>
           </FormContext>
-
-          <div className={classNames(projectcss.all, sty.freeBox__h9MGu)}>
-            <Input
-              data-plasmic-name={"antdInput"}
-              data-plasmic-override={overrides.antdInput}
-              allowClear={false}
-              bordered={false}
-              className={classNames("__wab_instance", sty.antdInput)}
-              defaultValue={"asdfasdfasdfasdfadsfasfasdf"}
-              disabled={false}
-              maxLength={10}
-              size={"large"}
-              type={"text"}
-            />
-          </div>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -212,6 +219,8 @@ function PlasmicTest__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
+    "teamsTable",
+    "thirdPartyTalentTable",
     "formContext",
     "formTextInput",
     "formTextAreaInput",
@@ -221,10 +230,11 @@ const PlasmicDescendants = {
     "formMultiCheckboxInput",
     "formMultiSelectInput",
     "submitButton",
-    "text",
-    "antdInput"
+    "text"
   ],
 
+  teamsTable: ["teamsTable"],
+  thirdPartyTalentTable: ["thirdPartyTalentTable"],
   formContext: [
     "formContext",
     "formTextInput",
@@ -246,8 +256,7 @@ const PlasmicDescendants = {
   formMultiCheckboxInput: ["formMultiCheckboxInput"],
   formMultiSelectInput: ["formMultiSelectInput"],
   submitButton: ["submitButton", "text"],
-  text: ["text"],
-  antdInput: ["antdInput"]
+  text: ["text"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -279,6 +288,8 @@ export const PlasmicTest = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    teamsTable: makeNodeComponent("teamsTable"),
+    thirdPartyTalentTable: makeNodeComponent("thirdPartyTalentTable"),
     formContext: makeNodeComponent("formContext"),
     formTextInput: makeNodeComponent("formTextInput"),
     formTextAreaInput: makeNodeComponent("formTextAreaInput"),
@@ -289,7 +300,6 @@ export const PlasmicTest = Object.assign(
     formMultiSelectInput: makeNodeComponent("formMultiSelectInput"),
     submitButton: makeNodeComponent("submitButton"),
     text: makeNodeComponent("text"),
-    antdInput: makeNodeComponent("antdInput"),
     // Metadata about props expected for PlasmicTest
     internalVariantProps: PlasmicTest__VariantProps,
     internalArgProps: PlasmicTest__ArgProps

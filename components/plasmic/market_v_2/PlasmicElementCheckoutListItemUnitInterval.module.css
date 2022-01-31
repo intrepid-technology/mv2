@@ -8,9 +8,9 @@
   position: relative;
 }
 .unitItemInterval {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -19,8 +19,8 @@
 }
 .unitItemInterval > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -126,9 +126,9 @@
   line-height: 1;
 }
 .currencyTotalValueNumberParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -137,8 +137,8 @@
 }
 .currencyTotalValueNumberParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }

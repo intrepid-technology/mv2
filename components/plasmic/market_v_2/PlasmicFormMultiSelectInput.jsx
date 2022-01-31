@@ -38,11 +38,7 @@ function PlasmicFormMultiSelectInput__RenderFunc(props) {
         data-plasmic-name={"multiSelectInput"}
         data-plasmic-override={overrides.multiSelectInput}
         className={classNames("__wab_instance", sty.multiSelectInput, {
-          [sty.multiSelectInput__isOpen]: hasVariant(
-            variants,
-            "isOpen",
-            "isOpen"
-          )
+          [sty.multiSelectInputisOpen]: hasVariant(variants, "isOpen", "isOpen")
         })}
         isOpen={hasVariant(variants, "isOpen", "isOpen") ? true : undefined}
       />

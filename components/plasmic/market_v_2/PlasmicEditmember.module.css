@@ -9,9 +9,9 @@
   min-height: 0;
 }
 .sectionMemberEditProfile {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   height: auto;
   left: auto;
   top: auto;
@@ -19,8 +19,8 @@
 }
 .sectionMemberEditProfile > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
@@ -60,9 +60,9 @@
   position: relative;
 }
 .formMemberEditProfile {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 550px;
   height: auto;
   left: auto;
@@ -70,8 +70,8 @@
 }
 .formMemberEditProfile > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -102,9 +102,9 @@
   }
 }
 .cardMemberPersonalVerification {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -113,8 +113,8 @@
 }
 .cardMemberPersonalVerification > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -159,9 +159,9 @@
   max-width: 328px;
 }
 .memberPersonalNameGroup {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -170,8 +170,8 @@
 }
 .memberPersonalNameGroup > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: unset;
   justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -229,9 +229,9 @@
   align-self: center;
 }
 .cardMemberImage {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 720px;
   height: auto;
   left: auto;
@@ -241,8 +241,8 @@
 }
 .cardMemberImage > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -277,9 +277,9 @@
   max-width: 328px;
 }
 .memberUploadLogoButtonGroup {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -289,8 +289,8 @@
 }
 .memberUploadLogoButtonGroup > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   align-content: unset;
   min-width: 0;
   margin-left: calc(0px - 24px);
@@ -335,9 +335,9 @@
   object-fit: cover;
 }
 .memberEditlogoGroup {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -345,8 +345,8 @@
 }
 .memberEditlogoGroup > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -376,9 +376,9 @@
   flex-shrink: 0;
 }
 .cardMemberUsername {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -389,8 +389,8 @@
 }
 .cardMemberUsername > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -430,9 +430,9 @@
   min-width: 0;
 }
 .cardMemberUrl {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -442,8 +442,8 @@
 }
 .cardMemberUrl > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -471,9 +471,9 @@
   position: relative;
 }
 .cardMemberTagline {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -482,8 +482,8 @@
 }
 .cardMemberTagline > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -512,9 +512,9 @@
   position: relative;
 }
 .cardMemberDescription {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -524,8 +524,8 @@
 }
 .cardMemberDescription > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -568,9 +568,9 @@
   position: relative;
 }
 .cardVideoIntroUrl {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -580,8 +580,8 @@
 }
 .cardVideoIntroUrl > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -616,9 +616,9 @@
   flex-shrink: 0;
 }
 .sectionMemberEditProfileDetails {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -628,8 +628,8 @@
 }
 .sectionMemberEditProfileDetails > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -683,9 +683,9 @@
   }
 }
 .formMemberEditDetails {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -694,8 +694,8 @@
 }
 .formMemberEditDetails > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
@@ -721,9 +721,9 @@
   }
 }
 .cardMemberLocation {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -732,8 +732,8 @@
 }
 .cardMemberLocation > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -770,9 +770,9 @@
   max-width: 328px;
 }
 .memberLocationGroup {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -781,8 +781,8 @@
 }
 .memberLocationGroup > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: unset;
   justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -839,9 +839,9 @@
   position: relative;
 }
 .cardMemberIndustry {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -850,8 +850,8 @@
 }
 .cardMemberIndustry > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -888,9 +888,9 @@
   max-width: 328px;
 }
 .memberIndustryGroup {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -899,8 +899,8 @@
 }
 .memberIndustryGroup > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: unset;
   justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -957,9 +957,9 @@
   position: relative;
 }
 .cardMemberLanguages {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -968,8 +968,8 @@
 }
 .cardMemberLanguages > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 24px);
@@ -1009,9 +1009,9 @@
   max-width: 328px;
 }
 .inputGroupMemberLanguages {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1020,8 +1020,8 @@
 }
 .inputGroupMemberLanguages > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: unset;
   justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -1078,9 +1078,9 @@
   position: relative;
 }
 .cardMemberInterests {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1089,8 +1089,8 @@
 }
 .cardMemberInterests > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -1122,9 +1122,9 @@
   position: relative;
 }
 .cardMemberSkills {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1133,8 +1133,8 @@
 }
 .cardMemberSkills > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -1163,9 +1163,9 @@
   position: relative;
 }
 .cardMemberCommunity {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1174,8 +1174,8 @@
 }
 .cardMemberCommunity > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -1217,9 +1217,9 @@
   height: auto;
 }
 .sectionMemberEditProfileSocial {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1229,8 +1229,8 @@
 }
 .sectionMemberEditProfileSocial > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -1282,9 +1282,9 @@
   }
 }
 .formMemberEditSocial {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 550px;
   height: auto;
   left: auto;
@@ -1292,8 +1292,8 @@
 }
 .formMemberEditSocial > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -1318,9 +1318,9 @@
   }
 }
 .cardMemberWebsite {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -1331,8 +1331,8 @@
 }
 .cardMemberWebsite > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -1372,9 +1372,9 @@
   position: relative;
 }
 .cardMemberSocial {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -1383,8 +1383,8 @@
 }
 .cardMemberSocial > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);

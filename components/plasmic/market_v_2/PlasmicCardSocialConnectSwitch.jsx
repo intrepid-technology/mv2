@@ -47,9 +47,9 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <p.Stack
@@ -70,163 +70,163 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
                 : undefined
             }
             className={classNames("__wab_instance", sty.iconSocialProfile, {
-              [sty.iconSocialProfile__accounting_quickbooks]: hasVariant(
+              [sty.iconSocialProfileaccounting_quickbooks]: hasVariant(
                 variants,
                 "accounting",
                 "quickbooks"
               ),
 
-              [sty.iconSocialProfile__accounting_xero]: hasVariant(
+              [sty.iconSocialProfileaccounting_xero]: hasVariant(
                 variants,
                 "accounting",
                 "xero"
               ),
 
-              [sty.iconSocialProfile__connected]: hasVariant(
+              [sty.iconSocialProfileconnected]: hasVariant(
                 variants,
                 "connected",
                 "connected"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_angellist]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_angellist]: hasVariant(
                 variants,
                 "socialNetwork",
                 "angellist"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_discord]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_discord]: hasVariant(
                 variants,
                 "socialNetwork",
                 "discord"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_dribbble]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_dribbble]: hasVariant(
                 variants,
                 "socialNetwork",
                 "dribbble"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_facebook]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_facebook]: hasVariant(
                 variants,
                 "socialNetwork",
                 "facebook"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_github]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_github]: hasVariant(
                 variants,
                 "socialNetwork",
                 "github"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_google]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_google]: hasVariant(
                 variants,
                 "socialNetwork",
                 "google"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_hackernews]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_hackernews]: hasVariant(
                 variants,
                 "socialNetwork",
                 "hackernews"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_instagram]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_instagram]: hasVariant(
                 variants,
                 "socialNetwork",
                 "instagram"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_line]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_line]: hasVariant(
                 variants,
                 "socialNetwork",
                 "line"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_linkedin]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_linkedin]: hasVariant(
                 variants,
                 "socialNetwork",
                 "linkedin"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_pinterest]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_pinterest]: hasVariant(
                 variants,
                 "socialNetwork",
                 "pinterest"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_productHunt]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_productHunt]: hasVariant(
                 variants,
                 "socialNetwork",
                 "productHunt"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_reddit]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_reddit]: hasVariant(
                 variants,
                 "socialNetwork",
                 "reddit"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_slack]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_slack]: hasVariant(
                 variants,
                 "socialNetwork",
                 "slack"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_snapchat]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_snapchat]: hasVariant(
                 variants,
                 "socialNetwork",
                 "snapchat"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_soundcloud]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_soundcloud]: hasVariant(
                 variants,
                 "socialNetwork",
                 "soundcloud"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_spotify]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_spotify]: hasVariant(
                 variants,
                 "socialNetwork",
                 "spotify"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_tikTok]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_tikTok]: hasVariant(
                 variants,
                 "socialNetwork",
                 "tikTok"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_twitch]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_twitch]: hasVariant(
                 variants,
                 "socialNetwork",
                 "twitch"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_twitter]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_twitter]: hasVariant(
                 variants,
                 "socialNetwork",
                 "twitter"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_wechat]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_wechat]: hasVariant(
                 variants,
                 "socialNetwork",
                 "wechat"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_whatsapp]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_whatsapp]: hasVariant(
                 variants,
                 "socialNetwork",
                 "whatsapp"
               ),
 
-              [sty.iconSocialProfile__socialNetwork_youtube]: hasVariant(
+              [sty.iconSocialProfilesocialNetwork_youtube]: hasVariant(
                 variants,
                 "socialNetwork",
                 "youtube"
               ),
 
-              [sty.iconSocialProfile__width__540]: hasVariant(
+              [sty.iconSocialProfilewidth__540]: hasVariant(
                 variants,
                 "width",
                 "_540"
@@ -292,151 +292,151 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text,
               {
-                [sty.text__accounting_quickbooks]: hasVariant(
+                [sty.textaccounting_quickbooks]: hasVariant(
                   variants,
                   "accounting",
                   "quickbooks"
                 ),
 
-                [sty.text__accounting_xero]: hasVariant(
+                [sty.textaccounting_xero]: hasVariant(
                   variants,
                   "accounting",
                   "xero"
                 ),
 
-                [sty.text__socialNetwork_angellist]: hasVariant(
+                [sty.textsocialNetwork_angellist]: hasVariant(
                   variants,
                   "socialNetwork",
                   "angellist"
                 ),
 
-                [sty.text__socialNetwork_discord]: hasVariant(
+                [sty.textsocialNetwork_discord]: hasVariant(
                   variants,
                   "socialNetwork",
                   "discord"
                 ),
 
-                [sty.text__socialNetwork_dribbble]: hasVariant(
+                [sty.textsocialNetwork_dribbble]: hasVariant(
                   variants,
                   "socialNetwork",
                   "dribbble"
                 ),
 
-                [sty.text__socialNetwork_facebook]: hasVariant(
+                [sty.textsocialNetwork_facebook]: hasVariant(
                   variants,
                   "socialNetwork",
                   "facebook"
                 ),
 
-                [sty.text__socialNetwork_github]: hasVariant(
+                [sty.textsocialNetwork_github]: hasVariant(
                   variants,
                   "socialNetwork",
                   "github"
                 ),
 
-                [sty.text__socialNetwork_google]: hasVariant(
+                [sty.textsocialNetwork_google]: hasVariant(
                   variants,
                   "socialNetwork",
                   "google"
                 ),
 
-                [sty.text__socialNetwork_hackernews]: hasVariant(
+                [sty.textsocialNetwork_hackernews]: hasVariant(
                   variants,
                   "socialNetwork",
                   "hackernews"
                 ),
 
-                [sty.text__socialNetwork_instagram]: hasVariant(
+                [sty.textsocialNetwork_instagram]: hasVariant(
                   variants,
                   "socialNetwork",
                   "instagram"
                 ),
 
-                [sty.text__socialNetwork_line]: hasVariant(
+                [sty.textsocialNetwork_line]: hasVariant(
                   variants,
                   "socialNetwork",
                   "line"
                 ),
 
-                [sty.text__socialNetwork_linkedin]: hasVariant(
+                [sty.textsocialNetwork_linkedin]: hasVariant(
                   variants,
                   "socialNetwork",
                   "linkedin"
                 ),
 
-                [sty.text__socialNetwork_pinterest]: hasVariant(
+                [sty.textsocialNetwork_pinterest]: hasVariant(
                   variants,
                   "socialNetwork",
                   "pinterest"
                 ),
 
-                [sty.text__socialNetwork_productHunt]: hasVariant(
+                [sty.textsocialNetwork_productHunt]: hasVariant(
                   variants,
                   "socialNetwork",
                   "productHunt"
                 ),
 
-                [sty.text__socialNetwork_reddit]: hasVariant(
+                [sty.textsocialNetwork_reddit]: hasVariant(
                   variants,
                   "socialNetwork",
                   "reddit"
                 ),
 
-                [sty.text__socialNetwork_slack]: hasVariant(
+                [sty.textsocialNetwork_slack]: hasVariant(
                   variants,
                   "socialNetwork",
                   "slack"
                 ),
 
-                [sty.text__socialNetwork_snapchat]: hasVariant(
+                [sty.textsocialNetwork_snapchat]: hasVariant(
                   variants,
                   "socialNetwork",
                   "snapchat"
                 ),
 
-                [sty.text__socialNetwork_soundcloud]: hasVariant(
+                [sty.textsocialNetwork_soundcloud]: hasVariant(
                   variants,
                   "socialNetwork",
                   "soundcloud"
                 ),
 
-                [sty.text__socialNetwork_spotify]: hasVariant(
+                [sty.textsocialNetwork_spotify]: hasVariant(
                   variants,
                   "socialNetwork",
                   "spotify"
                 ),
 
-                [sty.text__socialNetwork_tikTok]: hasVariant(
+                [sty.textsocialNetwork_tikTok]: hasVariant(
                   variants,
                   "socialNetwork",
                   "tikTok"
                 ),
 
-                [sty.text__socialNetwork_twitch]: hasVariant(
+                [sty.textsocialNetwork_twitch]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitch"
                 ),
 
-                [sty.text__socialNetwork_twitter]: hasVariant(
+                [sty.textsocialNetwork_twitter]: hasVariant(
                   variants,
                   "socialNetwork",
                   "twitter"
                 ),
 
-                [sty.text__socialNetwork_wechat]: hasVariant(
+                [sty.textsocialNetwork_wechat]: hasVariant(
                   variants,
                   "socialNetwork",
                   "wechat"
                 ),
 
-                [sty.text__socialNetwork_whatsapp]: hasVariant(
+                [sty.textsocialNetwork_whatsapp]: hasVariant(
                   variants,
                   "socialNetwork",
                   "whatsapp"
                 ),
 
-                [sty.text__socialNetwork_youtube]: hasVariant(
+                [sty.textsocialNetwork_youtube]: hasVariant(
                   variants,
                   "socialNetwork",
                   "youtube"
@@ -505,7 +505,7 @@ function PlasmicCardSocialConnectSwitch__RenderFunc(props) {
             hasVariant(variants, "connected", "connected") ? true : undefined
           }
           className={classNames("__wab_instance", sty.switchPrimary, {
-            [sty.switchPrimary__connected]: hasVariant(
+            [sty.switchPrimaryconnected]: hasVariant(
               variants,
               "connected",
               "connected"

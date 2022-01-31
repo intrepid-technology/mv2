@@ -31,71 +31,71 @@
   > .__wab_slot-string-wrapper {
   text-decoration-line: none;
 }
-.slotTargetText__color_headline {
+.slotTargetTextcolor_headline {
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
-.slotTargetText__size__18 {
+.slotTargetTextsize__18 {
   font-size: 18px;
   line-height: 1;
 }
-.slotTargetText__size__24 {
+.slotTargetTextsize__24 {
   font-size: 24px;
   line-height: 1;
 }
-.slotTargetText__size__32 {
+.slotTargetTextsize__32 {
   font-size: 32px;
   line-height: 1;
 }
-.slotTargetText__size__36 {
+.slotTargetTextsize__36 {
   font-size: 36px;
   line-height: 1;
 }
-.slotTargetText__size__40 {
+.slotTargetTextsize__40 {
   font-size: 40px;
   line-height: 1;
 }
-.slotTargetText__color_primary {
+.slotTargetTextcolor_primary {
   color: #5229cc /* plasmic-token: SilK1AnWd */;
 }
-.slotTargetText__color_light {
+.slotTargetTextcolor_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__size__8 {
+.slotTargetTextsize__8 {
   font-size: 8px;
   line-height: 1;
 }
-.slotTargetText__size__10 {
+.slotTargetTextsize__10 {
   font-size: 10px;
   line-height: 1;
 }
-.slotTargetText__size__12 {
+.slotTargetTextsize__12 {
   font-size: 12px;
   line-height: 1;
 }
-.slotTargetText__size__14 {
+.slotTargetTextsize__14 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetText__size__16 {
+.slotTargetTextsize__16 {
   font-size: 16px;
   line-height: 1;
 }
-.slotTargetText__color_light_size__14 {
+.slotTargetTextcolor_light_size__14 {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__size__16_color_light {
+.slotTargetTextsize__16_color_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__size__18_color_light {
+.slotTargetTextsize__18_color_light {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__color_light_size__24 {
+.slotTargetTextcolor_light_size__24 {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__color_light_size__32 {
+.slotTargetTextcolor_light_size__32 {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__color_light_size__40 {
+.slotTargetTextcolor_light_size__40 {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .slotTargetText {
@@ -126,12 +126,12 @@
   > .__wab_slot-string-wrapper {
   text-decoration-line: underline;
 }
-.root__color_headline:hover .slotTargetText__color_headline {
+.rootcolor_headline:hover .slotTargetTextcolor_headline {
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.root__color_primary:hover .slotTargetText__color_primary {
+.rootcolor_primary:hover .slotTargetTextcolor_primary {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root__color_light:hover .slotTargetText__color_light {
+.rootcolor_light:hover .slotTargetTextcolor_light {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }

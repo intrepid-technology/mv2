@@ -44,7 +44,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__global_layout_isSellerView]: hasVariant(
+        [sty.rootglobal_layout_isSellerView]: hasVariant(
           globalVariants,
           "layout",
           "isSellerView"
@@ -66,7 +66,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
             projectcss.__wab_text,
             sty.text,
             {
-              [sty.text__global_layout_isSellerView]: hasVariant(
+              [sty.textglobal_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -86,7 +86,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
             data-plasmic-name={"navImage2"}
             data-plasmic-override={overrides.navImage2}
             className={classNames(projectcss.all, sty.navImage2, {
-              [sty.navImage2__global_layout_isSellerView]: hasVariant(
+              [sty.navImage2global_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -107,7 +107,7 @@ function PlasmicPanelPartnerSectionAccount__RenderFunc(props) {
             data-plasmic-name={"navImage"}
             data-plasmic-override={overrides.navImage}
             className={classNames(projectcss.all, sty.navImage, {
-              [sty.navImage__global_layout_isSellerView]: hasVariant(
+              [sty.navImageglobal_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"

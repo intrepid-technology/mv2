@@ -66,29 +66,29 @@ function PlasmicDisplayIconText__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__size__14]: hasVariant(variants, "size", "_14"),
-          [sty.parent__size__16]: hasVariant(variants, "size", "_16")
+          [sty.parentsize__14]: hasVariant(variants, "size", "_14"),
+          [sty.parentsize__16]: hasVariant(variants, "size", "_16")
         })}
       >
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
           className={classNames(projectcss.all, sty.textParent, {
-            [sty.textParent__direction_left]: hasVariant(
+            [sty.textParentdirection_left]: hasVariant(
               variants,
               "direction",
               "left"
             ),
 
-            [sty.textParent__size__14]: hasVariant(variants, "size", "_14"),
-            [sty.textParent__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.textParent__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.textParent__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.textParent__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.textParent__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.textParent__size__48]: hasVariant(variants, "size", "_48"),
-            [sty.textParent__size__64]: hasVariant(variants, "size", "_64"),
-            [sty.textParent__size__80]: hasVariant(variants, "size", "_80")
+            [sty.textParentsize__14]: hasVariant(variants, "size", "_14"),
+            [sty.textParentsize__16]: hasVariant(variants, "size", "_16"),
+            [sty.textParentsize__18]: hasVariant(variants, "size", "_18"),
+            [sty.textParentsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.textParentsize__32]: hasVariant(variants, "size", "_32"),
+            [sty.textParentsize__40]: hasVariant(variants, "size", "_40"),
+            [sty.textParentsize__48]: hasVariant(variants, "size", "_48"),
+            [sty.textParentsize__64]: hasVariant(variants, "size", "_64"),
+            [sty.textParentsize__80]: hasVariant(variants, "size", "_80")
           })}
         >
           {(
@@ -116,61 +116,61 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text,
                 className: classNames(sty.slotTargetText, {
-                  [sty.slotTargetText__direction_left]: hasVariant(
+                  [sty.slotTargetTextdirection_left]: hasVariant(
                     variants,
                     "direction",
                     "left"
                   ),
 
-                  [sty.slotTargetText__size__14]: hasVariant(
+                  [sty.slotTargetTextsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText__size__16]: hasVariant(
+                  [sty.slotTargetTextsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText__size__18]: hasVariant(
+                  [sty.slotTargetTextsize__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotTargetText__size__24]: hasVariant(
+                  [sty.slotTargetTextsize__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotTargetText__size__32]: hasVariant(
+                  [sty.slotTargetTextsize__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotTargetText__size__40]: hasVariant(
+                  [sty.slotTargetTextsize__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotTargetText__size__48]: hasVariant(
+                  [sty.slotTargetTextsize__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
                   ),
 
-                  [sty.slotTargetText__size__64]: hasVariant(
+                  [sty.slotTargetTextsize__64]: hasVariant(
                     variants,
                     "size",
                     "_64"
                   ),
 
-                  [sty.slotTargetText__size__80]: hasVariant(
+                  [sty.slotTargetTextsize__80]: hasVariant(
                     variants,
                     "size",
                     "_80"
@@ -183,13 +183,13 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text14Px,
                 className: classNames(sty.slotTargetText14Px, {
-                  [sty.slotTargetText14Px__size__14]: hasVariant(
+                  [sty.slotTargetText14Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText14Px__size__16]: hasVariant(
+                  [sty.slotTargetText14Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
@@ -202,19 +202,19 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text16Px,
                 className: classNames(sty.slotTargetText16Px, {
-                  [sty.slotTargetText16Px__size__14]: hasVariant(
+                  [sty.slotTargetText16Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText16Px__size__16]: hasVariant(
+                  [sty.slotTargetText16Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText16Px__size__18]: hasVariant(
+                  [sty.slotTargetText16Pxsize__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
@@ -233,25 +233,25 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text18Px,
                 className: classNames(sty.slotTargetText18Px, {
-                  [sty.slotTargetText18Px__size__14]: hasVariant(
+                  [sty.slotTargetText18Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText18Px__size__16]: hasVariant(
+                  [sty.slotTargetText18Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText18Px__size__18]: hasVariant(
+                  [sty.slotTargetText18Pxsize__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotTargetText18Px__size__24]: hasVariant(
+                  [sty.slotTargetText18Pxsize__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
@@ -270,25 +270,25 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text24Px,
                 className: classNames(sty.slotTargetText24Px, {
-                  [sty.slotTargetText24Px__size__14]: hasVariant(
+                  [sty.slotTargetText24Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText24Px__size__16]: hasVariant(
+                  [sty.slotTargetText24Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText24Px__size__24]: hasVariant(
+                  [sty.slotTargetText24Pxsize__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotTargetText24Px__size__32]: hasVariant(
+                  [sty.slotTargetText24Pxsize__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
@@ -307,19 +307,19 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text32Px,
                 className: classNames(sty.slotTargetText32Px, {
-                  [sty.slotTargetText32Px__size__14]: hasVariant(
+                  [sty.slotTargetText32Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText32Px__size__16]: hasVariant(
+                  [sty.slotTargetText32Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText32Px__size__32]: hasVariant(
+                  [sty.slotTargetText32Pxsize__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
@@ -338,25 +338,25 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text40Px,
                 className: classNames(sty.slotTargetText40Px, {
-                  [sty.slotTargetText40Px__size__14]: hasVariant(
+                  [sty.slotTargetText40Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText40Px__size__16]: hasVariant(
+                  [sty.slotTargetText40Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText40Px__size__40]: hasVariant(
+                  [sty.slotTargetText40Pxsize__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotTargetText40Px__size__48]: hasVariant(
+                  [sty.slotTargetText40Pxsize__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
@@ -375,43 +375,43 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text48Px,
                 className: classNames(sty.slotTargetText48Px, {
-                  [sty.slotTargetText48Px__size__14]: hasVariant(
+                  [sty.slotTargetText48Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText48Px__size__16]: hasVariant(
+                  [sty.slotTargetText48Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText48Px__size__18]: hasVariant(
+                  [sty.slotTargetText48Pxsize__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotTargetText48Px__size__24]: hasVariant(
+                  [sty.slotTargetText48Pxsize__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotTargetText48Px__size__32]: hasVariant(
+                  [sty.slotTargetText48Pxsize__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotTargetText48Px__size__40]: hasVariant(
+                  [sty.slotTargetText48Pxsize__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotTargetText48Px__size__48]: hasVariant(
+                  [sty.slotTargetText48Pxsize__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
@@ -442,55 +442,55 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text64Px,
                 className: classNames(sty.slotTargetText64Px, {
-                  [sty.slotTargetText64Px__size__14]: hasVariant(
+                  [sty.slotTargetText64Pxsize__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText64Px__size__16]: hasVariant(
+                  [sty.slotTargetText64Pxsize__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText64Px__size__18]: hasVariant(
+                  [sty.slotTargetText64Pxsize__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotTargetText64Px__size__24]: hasVariant(
+                  [sty.slotTargetText64Pxsize__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotTargetText64Px__size__32]: hasVariant(
+                  [sty.slotTargetText64Pxsize__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotTargetText64Px__size__40]: hasVariant(
+                  [sty.slotTargetText64Pxsize__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotTargetText64Px__size__48]: hasVariant(
+                  [sty.slotTargetText64Pxsize__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
                   ),
 
-                  [sty.slotTargetText64Px__size__64]: hasVariant(
+                  [sty.slotTargetText64Pxsize__64]: hasVariant(
                     variants,
                     "size",
                     "_64"
                   ),
 
-                  [sty.slotTargetText64Px__size__80]: hasVariant(
+                  [sty.slotTargetText64Pxsize__80]: hasVariant(
                     variants,
                     "size",
                     "_80"
@@ -521,49 +521,49 @@ function PlasmicDisplayIconText__RenderFunc(props) {
                 defaultContents: "list item",
                 value: args.text2,
                 className: classNames(sty.slotTargetText2, {
-                  [sty.slotTargetText2__size__14]: hasVariant(
+                  [sty.slotTargetText2size__14]: hasVariant(
                     variants,
                     "size",
                     "_14"
                   ),
 
-                  [sty.slotTargetText2__size__16]: hasVariant(
+                  [sty.slotTargetText2size__16]: hasVariant(
                     variants,
                     "size",
                     "_16"
                   ),
 
-                  [sty.slotTargetText2__size__18]: hasVariant(
+                  [sty.slotTargetText2size__18]: hasVariant(
                     variants,
                     "size",
                     "_18"
                   ),
 
-                  [sty.slotTargetText2__size__24]: hasVariant(
+                  [sty.slotTargetText2size__24]: hasVariant(
                     variants,
                     "size",
                     "_24"
                   ),
 
-                  [sty.slotTargetText2__size__32]: hasVariant(
+                  [sty.slotTargetText2size__32]: hasVariant(
                     variants,
                     "size",
                     "_32"
                   ),
 
-                  [sty.slotTargetText2__size__40]: hasVariant(
+                  [sty.slotTargetText2size__40]: hasVariant(
                     variants,
                     "size",
                     "_40"
                   ),
 
-                  [sty.slotTargetText2__size__48]: hasVariant(
+                  [sty.slotTargetText2size__48]: hasVariant(
                     variants,
                     "size",
                     "_48"
                   ),
 
-                  [sty.slotTargetText2__size__80]: hasVariant(
+                  [sty.slotTargetText2size__80]: hasVariant(
                     variants,
                     "size",
                     "_80"
@@ -577,59 +577,55 @@ function PlasmicDisplayIconText__RenderFunc(props) {
           data-plasmic-name={"elementIconParent"}
           data-plasmic-override={overrides.elementIconParent}
           className={classNames(projectcss.all, sty.elementIconParent, {
-            [sty.elementIconParent__size__14]: hasVariant(
+            [sty.elementIconParentsize__14]: hasVariant(
               variants,
               "size",
               "_14"
             ),
 
-            [sty.elementIconParent__size__16]: hasVariant(
+            [sty.elementIconParentsize__16]: hasVariant(
               variants,
               "size",
               "_16"
             ),
 
-            [sty.elementIconParent__size__18]: hasVariant(
+            [sty.elementIconParentsize__18]: hasVariant(
               variants,
               "size",
               "_18"
             ),
 
-            [sty.elementIconParent__size__24]: hasVariant(
+            [sty.elementIconParentsize__24]: hasVariant(
               variants,
               "size",
               "_24"
             ),
 
-            [sty.elementIconParent__size__32]: hasVariant(
+            [sty.elementIconParentsize__32]: hasVariant(
               variants,
               "size",
               "_32"
             ),
 
-            [sty.elementIconParent__size__40]: hasVariant(
+            [sty.elementIconParentsize__40]: hasVariant(
               variants,
               "size",
               "_40"
             ),
 
-            [sty.elementIconParent__size__48]: hasVariant(
+            [sty.elementIconParentsize__48]: hasVariant(
               variants,
               "size",
               "_48"
             ),
 
-            [sty.elementIconParent__size__64]: hasVariant(
+            [sty.elementIconParentsize__64]: hasVariant(
               variants,
               "size",
               "_64"
             ),
 
-            [sty.elementIconParent__size__80]: hasVariant(
-              variants,
-              "size",
-              "_80"
-            )
+            [sty.elementIconParentsize__80]: hasVariant(variants, "size", "_80")
           })}
         >
           {(

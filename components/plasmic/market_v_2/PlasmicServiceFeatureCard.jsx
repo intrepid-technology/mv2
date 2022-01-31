@@ -38,7 +38,7 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size_small]: hasVariant(variants, "size", "small")
+        [sty.rootsize_small]: hasVariant(variants, "size", "small")
       })}
     >
       <div className={classNames(projectcss.all, sty.freeBox__lyoyb)}>
@@ -47,7 +47,7 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
             defaultContents: "20",
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__size_small]: hasVariant(
+              [sty.slotTargetSlotsize_small]: hasVariant(
                 variants,
                 "size",
                 "small"
@@ -63,7 +63,7 @@ function PlasmicServiceFeatureCard__RenderFunc(props) {
             defaultContents: "Components",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__size_small]: hasVariant(
+              [sty.slotTargetChildrensize_small]: hasVariant(
                 variants,
                 "size",
                 "small"

@@ -1,8 +1,8 @@
 .root {
+  flex-direction: column;
   display: flex;
   width: 360px;
   height: 180px;
-  flex-direction: column;
   position: relative;
   border-radius: 2px;
   padding: 16px;
@@ -24,7 +24,7 @@
 .root:hover {
   border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
-.root__state_deactivated:hover {
+.rootstate_deactivated:hover {
   border-color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }
 .freeBox__aUrNg {
@@ -57,13 +57,13 @@
 .slotTargetSlot {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetSlot__state_deactivated {
+.slotTargetSlotstate_deactivated {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .root:hover .slotTargetSlot {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root__state_deactivated:hover .slotTargetSlot__state_deactivated {
+.rootstate_deactivated:hover .slotTargetSlotstate_deactivated {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .svg__sjSC {
@@ -96,7 +96,7 @@
   color: #14161b /* plasmic-token: ec1vMFIzT */;
   text-transform: none;
 }
-.slotTargetSlot2__state_deactivated {
+.slotTargetSlot2state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }
 .root:hover .slotTargetSlot2 {
@@ -104,21 +104,21 @@
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
   font-size: 18px;
 }
-.root__state_deactivated:hover .slotTargetSlot2__state_deactivated {
+.rootstate_deactivated:hover .slotTargetSlot2state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
   font-weight: 500;
 }
 .slotTargetSlot3 {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetSlot3__state_deactivated {
+.slotTargetSlot3state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }
 .root:hover .slotTargetSlot3 {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
   font-size: 20px;
 }
-.root__state_deactivated:hover .slotTargetSlot3__state_deactivated {
+.rootstate_deactivated:hover .slotTargetSlot3state_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }
 .svg__g1Xr {
@@ -150,6 +150,6 @@
   line-height: 1.4;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
-.slotTargetChildren__state_deactivated {
+.slotTargetChildrenstate_deactivated {
   color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
 }

@@ -37,32 +37,27 @@ function PlasmicMultiSelectOption__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__isHighlighted]: hasVariant(
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootisHighlighted]: hasVariant(
           variants,
           "isHighlighted",
           "isHighlighted"
         ),
 
-        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
+        [sty.rootisSelected]: hasVariant(variants, "isSelected", "isSelected")
       })}
     >
       {p.renderPlasmicSlot({
         defaultContents: "Option",
         value: args.children,
         className: classNames(sty.slotTargetChildren, {
-          [sty.slotTargetChildren__isDisabled]: hasVariant(
+          [sty.slotTargetChildrenisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.slotTargetChildren__isSelected]: hasVariant(
+          [sty.slotTargetChildrenisSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"

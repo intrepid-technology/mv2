@@ -35,7 +35,7 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <div className={classNames(projectcss.all, sty.freeBox__ikhqW)}>
@@ -55,7 +55,7 @@ function PlasmicInputTextIconPrefixSuffix__RenderFunc(props) {
       <input
         data-plasmic-name={"textInput"}
         data-plasmic-override={overrides.textInput ?? overrides.textbox}
-        className={classNames(projectcss.input, sty.textInput)}
+        className={classNames(projectcss.all, projectcss.input, sty.textInput)}
         placeholder={""}
         size={1}
         type={"text"}

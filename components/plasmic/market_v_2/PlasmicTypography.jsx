@@ -38,7 +38,7 @@ function PlasmicTypography__RenderFunc(props) {
         defaultContents: "Discover and buy",
         value: args.children,
         className: classNames(sty.slotTargetChildren, {
-          [sty.slotTargetChildren__kind_hero]: hasVariant(
+          [sty.slotTargetChildrenkind_hero]: hasVariant(
             variants,
             "kind",
             "hero"

@@ -1,14 +1,14 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   position: relative;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -18,7 +18,7 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 32px;
 }
-.root__size__540 {
+.rootsize__540 {
   width: 540px;
 }
 .serviceProcessTitle {
@@ -39,9 +39,9 @@
   border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
 .freeBox__utVmc {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -50,8 +50,8 @@
 }
 .freeBox__utVmc > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -79,7 +79,7 @@
   padding: 4px;
   border: 2px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.serviceProcessDescription__size__540 {
+.serviceProcessDescriptionsize__540 {
   height: 180px;
   flex-shrink: 0;
 }
@@ -109,7 +109,7 @@
   padding-right: 2px;
   min-width: 0;
 }
-.freeBox__add__yoYeqnDpl {
+.freeBoxadd__yoYeqnDpl {
   justify-content: flex-end;
 }
 .freeBox__l594M {
@@ -128,7 +128,7 @@
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
   flex-shrink: 0;
 }
-.svg__size__540 {
+.svgsize__540 {
   width: 32px;
   height: 32px;
   flex-shrink: 0;
@@ -151,7 +151,7 @@
   font-size: 12px;
   font-weight: 400;
 }
-.text__size__540 {
+.textsize__540 {
   font-size: 14px;
 }
 .root .text:hover {

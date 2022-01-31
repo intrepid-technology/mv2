@@ -42,7 +42,7 @@ function PlasmicCardCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__center]: hasVariant(variants, "center", "center")
+        [sty.rootcenter]: hasVariant(variants, "center", "center")
       })}
     >
       <p.Stack
@@ -56,7 +56,7 @@ function PlasmicCardCta__RenderFunc(props) {
               defaultContents: "Business Analytics",
               value: args.slot2,
               className: classNames(sty.slotTargetSlot2, {
-                [sty.slotTargetSlot2__center]: hasVariant(
+                [sty.slotTargetSlot2center]: hasVariant(
                   variants,
                   "center",
                   "center"
@@ -81,7 +81,7 @@ function PlasmicCardCta__RenderFunc(props) {
                     "Manage and grow your business like never before",
                   value: args.children,
                   className: classNames(sty.slotTargetChildren, {
-                    [sty.slotTargetChildren__center]: hasVariant(
+                    [sty.slotTargetChildrencenter]: hasVariant(
                       variants,
                       "center",
                       "center"
@@ -98,7 +98,7 @@ function PlasmicCardCta__RenderFunc(props) {
                     "Gain the insights you need to grow—use a single dashboard to manage orders, projects, reviews, and payments from anywhere.\n",
                   value: args.slot,
                   className: classNames(sty.slotTargetSlot, {
-                    [sty.slotTargetSlot__center]: hasVariant(
+                    [sty.slotTargetSlotcenter]: hasVariant(
                       variants,
                       "center",
                       "center"

@@ -47,38 +47,33 @@ function PlasmicSelectInput__Option__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__isHighlighted]: hasVariant(
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootisHighlighted]: hasVariant(
           variants,
           "isHighlighted",
           "isHighlighted"
         ),
 
-        [sty.root__isSelected]: hasVariant(variants, "isSelected", "isSelected")
+        [sty.rootisSelected]: hasVariant(variants, "isSelected", "isSelected")
       })}
     >
       <div
         data-plasmic-name={"labelContainer"}
         data-plasmic-override={overrides.labelContainer}
         className={classNames(projectcss.all, sty.labelContainer, {
-          [sty.labelContainer__isDisabled]: hasVariant(
+          [sty.labelContainerisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.labelContainer__isHighlighted]: hasVariant(
+          [sty.labelContainerisHighlighted]: hasVariant(
             variants,
             "isHighlighted",
             "isHighlighted"
           ),
 
-          [sty.labelContainer__isSelected]: hasVariant(
+          [sty.labelContainerisSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"
@@ -89,19 +84,19 @@ function PlasmicSelectInput__Option__RenderFunc(props) {
           defaultContents: "Option",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__isDisabled]: hasVariant(
+            [sty.slotTargetChildrenisDisabled]: hasVariant(
               variants,
               "isDisabled",
               "isDisabled"
             ),
 
-            [sty.slotTargetChildren__isHighlighted]: hasVariant(
+            [sty.slotTargetChildrenisHighlighted]: hasVariant(
               variants,
               "isHighlighted",
               "isHighlighted"
             ),
 
-            [sty.slotTargetChildren__isSelected]: hasVariant(
+            [sty.slotTargetChildrenisSelected]: hasVariant(
               variants,
               "isSelected",
               "isSelected"

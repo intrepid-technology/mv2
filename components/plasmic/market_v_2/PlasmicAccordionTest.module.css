@@ -90,11 +90,11 @@
   padding: 20px;
 }
 .text__eClnO {
+  flex-direction: column;
   position: absolute;
   left: 11.5px;
   top: 3px;
   width: 680px;
-  flex-direction: column;
   background: rgba(68, 192, 255, 0.2);
 }
 .text__eClnO > :global(.__wab_flex-container) {

@@ -52,7 +52,7 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
           data-plasmic-name={"separator"}
           data-plasmic-override={overrides.separator}
           className={classNames(projectcss.all, sty.separator, {
-            [sty.separator__isFirst]: hasVariant(variants, "isFirst", "isFirst")
+            [sty.separatorisFirst]: hasVariant(variants, "isFirst", "isFirst")
           })}
         />
       ) : null}
@@ -61,13 +61,13 @@ function PlasmicSelectDropdownPrimary__OptionGroup__RenderFunc(props) {
           data-plasmic-name={"titleContainer"}
           data-plasmic-override={overrides.titleContainer}
           className={classNames(projectcss.all, sty.titleContainer, {
-            [sty.titleContainer__isFirst]: hasVariant(
+            [sty.titleContainerisFirst]: hasVariant(
               variants,
               "isFirst",
               "isFirst"
             ),
 
-            [sty.titleContainer__noTitle]: hasVariant(
+            [sty.titleContainernoTitle]: hasVariant(
               variants,
               "noTitle",
               "noTitle"

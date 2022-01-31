@@ -38,13 +38,13 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__amount__3]: hasVariant(variants, "amount", "_3")
+        [sty.rootamount__3]: hasVariant(variants, "amount", "_3")
       })}
     >
       <InputProcess
         _delete={true}
         className={classNames("__wab_instance", sty.inputProcess__qwYGp, {
-          [sty.inputProcess__amount__3__qwYGpx17Zr]: hasVariant(
+          [sty.inputProcessamount__3__qwYGpx17Zr]: hasVariant(
             variants,
             "amount",
             "_3"
@@ -54,37 +54,37 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
 
       <InputProcess
         className={classNames("__wab_instance", sty.inputProcess__bD8Kv, {
-          [sty.inputProcess__amount__3__bD8KVx17Zr]: hasVariant(
+          [sty.inputProcessamount__3__bD8KVx17Zr]: hasVariant(
             variants,
             "amount",
             "_3"
           ),
 
-          [sty.inputProcess__amount__4__bD8KVdBhje]: hasVariant(
+          [sty.inputProcessamount__4__bD8KVdBhje]: hasVariant(
             variants,
             "amount",
             "_4"
           ),
 
-          [sty.inputProcess__amount__5__bD8KvumHgI]: hasVariant(
+          [sty.inputProcessamount__5__bD8KvumHgI]: hasVariant(
             variants,
             "amount",
             "_5"
           ),
 
-          [sty.inputProcess__amount__6__bD8KVboFag]: hasVariant(
+          [sty.inputProcessamount__6__bD8KVboFag]: hasVariant(
             variants,
             "amount",
             "_6"
           ),
 
-          [sty.inputProcess__amount__7__bD8KVzOuqA]: hasVariant(
+          [sty.inputProcessamount__7__bD8KVzOuqA]: hasVariant(
             variants,
             "amount",
             "_7"
           ),
 
-          [sty.inputProcess__amount__8__bD8Kvkp2Ze]: hasVariant(
+          [sty.inputProcessamount__8__bD8Kvkp2Ze]: hasVariant(
             variants,
             "amount",
             "_8"
@@ -95,37 +95,37 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_4") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__j3HeY, {
-            [sty.inputProcess__amount__3__j3HeYx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__j3HeYx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__4__j3HeYdBhje]: hasVariant(
+            [sty.inputProcessamount__4__j3HeYdBhje]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.inputProcess__amount__5__j3HeYumHgI]: hasVariant(
+            [sty.inputProcessamount__5__j3HeYumHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__j3HeYboFag]: hasVariant(
+            [sty.inputProcessamount__6__j3HeYboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__j3HeYzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__j3HeYzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__j3HeYkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__j3HeYkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -136,37 +136,37 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_4") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__d4KAp, {
-            [sty.inputProcess__amount__3__d4KAPx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__d4KAPx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__4__d4KAPdBhje]: hasVariant(
+            [sty.inputProcessamount__4__d4KAPdBhje]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.inputProcess__amount__5__d4KApumHgI]: hasVariant(
+            [sty.inputProcessamount__5__d4KApumHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__d4KAPboFag]: hasVariant(
+            [sty.inputProcessamount__6__d4KAPboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__d4KAPzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__d4KAPzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__d4KApkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__d4KApkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -177,31 +177,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__jF0Si, {
-            [sty.inputProcess__amount__3__jF0Six17Zr]: hasVariant(
+            [sty.inputProcessamount__3__jF0Six17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__jF0SiUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__jF0SiUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__jF0SiboFag]: hasVariant(
+            [sty.inputProcessamount__6__jF0SiboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__jF0SizOuqA]: hasVariant(
+            [sty.inputProcessamount__7__jF0SizOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__jF0SiKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__jF0SiKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -212,31 +212,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__lJlz, {
-            [sty.inputProcess__amount__3__lJlZx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__lJlZx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__lJlzumHgI]: hasVariant(
+            [sty.inputProcessamount__5__lJlzumHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__lJlZboFag]: hasVariant(
+            [sty.inputProcessamount__6__lJlZboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__lJlZzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__lJlZzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__lJlzkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__lJlzkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -247,31 +247,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__obckt, {
-            [sty.inputProcess__amount__3__obcktx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__obcktx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__obcktUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__obcktUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__obcktboFag]: hasVariant(
+            [sty.inputProcessamount__6__obcktboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__obcktzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__obcktzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__obcktKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__obcktKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -282,31 +282,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess___8Ded6, {
-            [sty.inputProcess__amount__3___8Ded6X17Zr]: hasVariant(
+            [sty.inputProcessamount__3___8Ded6X17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5___8Ded6UmHgI]: hasVariant(
+            [sty.inputProcessamount__5___8Ded6UmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6___8Ded6BoFag]: hasVariant(
+            [sty.inputProcessamount__6___8Ded6BoFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7___8Ded6ZOuqA]: hasVariant(
+            [sty.inputProcessamount__7___8Ded6ZOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8___8Ded6Kp2Ze]: hasVariant(
+            [sty.inputProcessamount__8___8Ded6Kp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -317,31 +317,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__sFf5A, {
-            [sty.inputProcess__amount__3__sFf5Ax17Zr]: hasVariant(
+            [sty.inputProcessamount__3__sFf5Ax17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__sFf5AUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__sFf5AUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__sFf5AboFag]: hasVariant(
+            [sty.inputProcessamount__6__sFf5AboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__sFf5AzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__sFf5AzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__sFf5AKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__sFf5AKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -352,31 +352,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_8") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__xuey, {
-            [sty.inputProcess__amount__3__xueyx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__xueyx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__xueyUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__xueyUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__xueyboFag]: hasVariant(
+            [sty.inputProcessamount__6__xueyboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__xueyzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__xueyzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__xueyKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__xueyKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -387,31 +387,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_7") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__xxix2, {
-            [sty.inputProcess__amount__3__xxix2X17Zr]: hasVariant(
+            [sty.inputProcessamount__3__xxix2X17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__xxix2UmHgI]: hasVariant(
+            [sty.inputProcessamount__5__xxix2UmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__xxix2BoFag]: hasVariant(
+            [sty.inputProcessamount__6__xxix2BoFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__xxix2ZOuqA]: hasVariant(
+            [sty.inputProcessamount__7__xxix2ZOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__xxix2Kp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__xxix2Kp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -422,31 +422,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_7") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess___17KoA, {
-            [sty.inputProcess__amount__3___17KoAx17Zr]: hasVariant(
+            [sty.inputProcessamount__3___17KoAx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5___17KoAumHgI]: hasVariant(
+            [sty.inputProcessamount__5___17KoAumHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6___17KoAboFag]: hasVariant(
+            [sty.inputProcessamount__6___17KoAboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7___17KoAzOuqA]: hasVariant(
+            [sty.inputProcessamount__7___17KoAzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8___17KoAkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8___17KoAkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -457,31 +457,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_7") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__cVDyi, {
-            [sty.inputProcess__amount__3__cVDyix17Zr]: hasVariant(
+            [sty.inputProcessamount__3__cVDyix17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__cVDyiUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__cVDyiUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__cVDyiboFag]: hasVariant(
+            [sty.inputProcessamount__6__cVDyiboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__cVDyizOuqA]: hasVariant(
+            [sty.inputProcessamount__7__cVDyizOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__cVDyiKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__cVDyiKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -492,31 +492,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_7") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess___1WaTv, {
-            [sty.inputProcess__amount__3___1WaTvx17Zr]: hasVariant(
+            [sty.inputProcessamount__3___1WaTvx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5___1WaTvUmHgI]: hasVariant(
+            [sty.inputProcessamount__5___1WaTvUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6___1WaTvboFag]: hasVariant(
+            [sty.inputProcessamount__6___1WaTvboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7___1WaTvzOuqA]: hasVariant(
+            [sty.inputProcessamount__7___1WaTvzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8___1WaTvKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8___1WaTvKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -527,31 +527,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_7") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__j898X, {
-            [sty.inputProcess__amount__3__j898Xx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__j898Xx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__j898XUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__j898XUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__j898XboFag]: hasVariant(
+            [sty.inputProcessamount__6__j898XboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__j898XzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__j898XzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__j898XKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__j898XKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -562,25 +562,25 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_6") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__pvCa6, {
-            [sty.inputProcess__amount__3__pvCa6X17Zr]: hasVariant(
+            [sty.inputProcessamount__3__pvCa6X17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__pvCa6UmHgI]: hasVariant(
+            [sty.inputProcessamount__5__pvCa6UmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__pvCa6BoFag]: hasVariant(
+            [sty.inputProcessamount__6__pvCa6BoFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__8__pvCa6Kp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__pvCa6Kp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -591,25 +591,25 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_6") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__iS0Pm, {
-            [sty.inputProcess__amount__3__iS0Pmx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__iS0Pmx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__iS0PmUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__iS0PmUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__iS0PmboFag]: hasVariant(
+            [sty.inputProcessamount__6__iS0PmboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__8__iS0PmKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__iS0PmKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -620,25 +620,25 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_6") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__bDy9, {
-            [sty.inputProcess__amount__3__bDy9X17Zr]: hasVariant(
+            [sty.inputProcessamount__3__bDy9X17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__bDy9UmHgI]: hasVariant(
+            [sty.inputProcessamount__5__bDy9UmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__bDy9BoFag]: hasVariant(
+            [sty.inputProcessamount__6__bDy9BoFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__8__bDy9Kp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__bDy9Kp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -649,31 +649,31 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_6") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__qLpvC, {
-            [sty.inputProcess__amount__3__qLpvCx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__qLpvCx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__qLpvCumHgI]: hasVariant(
+            [sty.inputProcessamount__5__qLpvCumHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__qLpvCboFag]: hasVariant(
+            [sty.inputProcessamount__6__qLpvCboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__7__qLpvCzOuqA]: hasVariant(
+            [sty.inputProcessamount__7__qLpvCzOuqA]: hasVariant(
               variants,
               "amount",
               "_7"
             ),
 
-            [sty.inputProcess__amount__8__qLpvCkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__qLpvCkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -684,19 +684,19 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__i8GMk, {
-            [sty.inputProcess__amount__3__i8GMkx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__i8GMkx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__i8GMkUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__i8GMkUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__8__i8GMkKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__i8GMkKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -707,19 +707,19 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__aTdcs, {
-            [sty.inputProcess__amount__3__aTdcsx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__aTdcsx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__aTdcsUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__aTdcsUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__8__aTdcsKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__aTdcsKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -730,25 +730,25 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_5") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__vwpkj, {
-            [sty.inputProcess__amount__3__vwpkjx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__vwpkjx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__5__vwpkjUmHgI]: hasVariant(
+            [sty.inputProcessamount__5__vwpkjUmHgI]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.inputProcess__amount__6__vwpkjboFag]: hasVariant(
+            [sty.inputProcessamount__6__vwpkjboFag]: hasVariant(
               variants,
               "amount",
               "_6"
             ),
 
-            [sty.inputProcess__amount__8__vwpkjKp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__vwpkjKp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"
@@ -759,19 +759,19 @@ function PlasmicServiceListingProcessCard__RenderFunc(props) {
       {(hasVariant(variants, "amount", "_3") ? true : false) ? (
         <InputProcess
           className={classNames("__wab_instance", sty.inputProcess__sVlkh, {
-            [sty.inputProcess__amount__3__sVlkHx17Zr]: hasVariant(
+            [sty.inputProcessamount__3__sVlkHx17Zr]: hasVariant(
               variants,
               "amount",
               "_3"
             ),
 
-            [sty.inputProcess__amount__4__sVlkHdBhje]: hasVariant(
+            [sty.inputProcessamount__4__sVlkHdBhje]: hasVariant(
               variants,
               "amount",
               "_4"
             ),
 
-            [sty.inputProcess__amount__8__sVlkhkp2Ze]: hasVariant(
+            [sty.inputProcessamount__8__sVlkhkp2Ze]: hasVariant(
               variants,
               "amount",
               "_8"

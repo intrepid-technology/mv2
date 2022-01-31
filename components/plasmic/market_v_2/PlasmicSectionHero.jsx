@@ -39,21 +39,21 @@ function PlasmicSectionHero__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner")
+        [sty.rootpersona_member]: hasVariant(variants, "persona", "member"),
+        [sty.rootpersona_partner]: hasVariant(variants, "persona", "partner")
       })}
     >
       <div
         data-plasmic-name={"heroTextImageDiv"}
         data-plasmic-override={overrides.heroTextImageDiv}
         className={classNames(projectcss.all, sty.heroTextImageDiv, {
-          [sty.heroTextImageDiv__persona_member]: hasVariant(
+          [sty.heroTextImageDivpersona_member]: hasVariant(
             variants,
             "persona",
             "member"
           ),
 
-          [sty.heroTextImageDiv__persona_partner]: hasVariant(
+          [sty.heroTextImageDivpersona_partner]: hasVariant(
             variants,
             "persona",
             "partner"
@@ -64,13 +64,13 @@ function PlasmicSectionHero__RenderFunc(props) {
           data-plasmic-name={"heroWelcomeCta"}
           data-plasmic-override={overrides.heroWelcomeCta}
           className={classNames("__wab_instance", sty.heroWelcomeCta, {
-            [sty.heroWelcomeCta__persona_member]: hasVariant(
+            [sty.heroWelcomeCtapersona_member]: hasVariant(
               variants,
               "persona",
               "member"
             ),
 
-            [sty.heroWelcomeCta__persona_partner]: hasVariant(
+            [sty.heroWelcomeCtapersona_partner]: hasVariant(
               variants,
               "persona",
               "partner"

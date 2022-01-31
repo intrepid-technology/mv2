@@ -38,14 +38,14 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360")
       })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__pnfW4, {
-          [sty.freeBox__size__360__pnfW4KfHaw]: hasVariant(
+          [sty.freeBoxsize__360__pnfW4KfHaw]: hasVariant(
             variants,
             "size",
             "_360"
@@ -54,7 +54,7 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
       >
         <div
           className={classNames(projectcss.all, sty.freeBox__yqk8E, {
-            [sty.freeBox__size__360__yqk8EKfHaw]: hasVariant(
+            [sty.freeBoxsize__360__yqk8EKfHaw]: hasVariant(
               variants,
               "size",
               "_360"
@@ -65,7 +65,7 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
             defaultContents: "Headline Title",
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__size__360]: hasVariant(
+              [sty.slotTargetSlotsize__360]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -80,7 +80,7 @@ function PlasmicServiceProcessCard__RenderFunc(props) {
             : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__size__360]: hasVariant(
+            [sty.slotTargetChildrensize__360]: hasVariant(
               variants,
               "size",
               "_360"

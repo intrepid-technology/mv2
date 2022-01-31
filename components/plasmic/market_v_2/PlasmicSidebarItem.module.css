@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   position: relative;
   width: 100%;
   background: none;
@@ -10,8 +10,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -22,13 +22,13 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 16px;
 }
-.root__selected {
+.rootselected {
   background: #101010;
 }
 .root:hover {
   background: #f8f8f8;
 }
-.root__selected:hover {
+.rootselected:hover {
   background: #667085;
 }
 .iconWrapper {
@@ -44,7 +44,7 @@
 .slotTargetChildren {
   color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.slotTargetChildren__selected {
+.slotTargetChildrenselected {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   font-weight: 600;
 }
@@ -59,7 +59,7 @@
 .slotTargetLabel {
   color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.slotTargetLabel__selected {
+.slotTargetLabelselected {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
   font-weight: 600;
 }

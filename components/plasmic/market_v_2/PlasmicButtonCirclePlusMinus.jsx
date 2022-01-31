@@ -39,24 +39,20 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
         {
-          [sty.root__alignment_left]: hasVariant(variants, "alignment", "left"),
-          [sty.root__alignment_right]: hasVariant(
-            variants,
-            "alignment",
-            "right"
-          ),
-
-          [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.root__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.root__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.root__size__48]: hasVariant(variants, "size", "_48"),
-          [sty.root__type_decrement]: hasVariant(variants, "type", "decrement"),
-          [sty.root__type_increment]: hasVariant(variants, "type", "increment")
+          [sty.rootalignment_left]: hasVariant(variants, "alignment", "left"),
+          [sty.rootalignment_right]: hasVariant(variants, "alignment", "right"),
+          [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.rootsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.rootsize__32]: hasVariant(variants, "size", "_32"),
+          [sty.rootsize__48]: hasVariant(variants, "size", "_48"),
+          [sty.roottype_decrement]: hasVariant(variants, "type", "decrement"),
+          [sty.roottype_increment]: hasVariant(variants, "type", "increment")
         }
       )}
     >
@@ -64,68 +60,59 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__alignment_left]: hasVariant(
-            variants,
-            "alignment",
-            "left"
-          ),
-
-          [sty.parent__alignment_right]: hasVariant(
+          [sty.parentalignment_left]: hasVariant(variants, "alignment", "left"),
+          [sty.parentalignment_right]: hasVariant(
             variants,
             "alignment",
             "right"
           ),
 
-          [sty.parent__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.parent__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.parent__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.parent__size__48]: hasVariant(variants, "size", "_48"),
-          [sty.parent__type_increment]: hasVariant(
-            variants,
-            "type",
-            "increment"
-          )
+          [sty.parentsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.parentsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.parentsize__32]: hasVariant(variants, "size", "_32"),
+          [sty.parentsize__48]: hasVariant(variants, "size", "_48"),
+          [sty.parenttype_increment]: hasVariant(variants, "type", "increment")
         })}
       >
         <div
           data-plasmic-name={"svgBackground"}
           data-plasmic-override={overrides.svgBackground}
           className={classNames(projectcss.all, sty.svgBackground, {
-            [sty.svgBackground__alignment_left]: hasVariant(
+            [sty.svgBackgroundalignment_left]: hasVariant(
               variants,
               "alignment",
               "left"
             ),
 
-            [sty.svgBackground__alignment_right]: hasVariant(
+            [sty.svgBackgroundalignment_right]: hasVariant(
               variants,
               "alignment",
               "right"
             ),
 
-            [sty.svgBackground__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.svgBackground__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.svgBackground__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.svgBackground__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.svgBackground__size__48]: hasVariant(variants, "size", "_48")
+            [sty.svgBackgroundsize__16]: hasVariant(variants, "size", "_16"),
+            [sty.svgBackgroundsize__18]: hasVariant(variants, "size", "_18"),
+            [sty.svgBackgroundsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.svgBackgroundsize__32]: hasVariant(variants, "size", "_32"),
+            [sty.svgBackgroundsize__48]: hasVariant(variants, "size", "_48")
           })}
         >
           <div
             data-plasmic-name={"svgParent"}
             data-plasmic-override={overrides.svgParent}
             className={classNames(projectcss.all, sty.svgParent, {
-              [sty.svgParent__alignment_left]: hasVariant(
+              [sty.svgParentalignment_left]: hasVariant(
                 variants,
                 "alignment",
                 "left"
               ),
 
-              [sty.svgParent__size__16]: hasVariant(variants, "size", "_16"),
-              [sty.svgParent__size__18]: hasVariant(variants, "size", "_18"),
-              [sty.svgParent__size__24]: hasVariant(variants, "size", "_24"),
-              [sty.svgParent__size__32]: hasVariant(variants, "size", "_32"),
-              [sty.svgParent__size__48]: hasVariant(variants, "size", "_48"),
-              [sty.svgParent__type_increment]: hasVariant(
+              [sty.svgParentsize__16]: hasVariant(variants, "size", "_16"),
+              [sty.svgParentsize__18]: hasVariant(variants, "size", "_18"),
+              [sty.svgParentsize__24]: hasVariant(variants, "size", "_24"),
+              [sty.svgParentsize__32]: hasVariant(variants, "size", "_32"),
+              [sty.svgParentsize__48]: hasVariant(variants, "size", "_48"),
+              [sty.svgParenttype_increment]: hasVariant(
                 variants,
                 "type",
                 "increment"
@@ -141,23 +128,23 @@ function PlasmicButtonCirclePlusMinus__RenderFunc(props) {
                   : CirclePlusIcon
               }
               className={classNames(projectcss.all, sty.svg, {
-                [sty.svg__alignment_left]: hasVariant(
+                [sty.svgalignment_left]: hasVariant(
                   variants,
                   "alignment",
                   "left"
                 ),
 
-                [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
-                [sty.svg__size__18]: hasVariant(variants, "size", "_18"),
-                [sty.svg__size__32]: hasVariant(variants, "size", "_32"),
-                [sty.svg__size__48]: hasVariant(variants, "size", "_48"),
-                [sty.svg__type_decrement]: hasVariant(
+                [sty.svgsize__16]: hasVariant(variants, "size", "_16"),
+                [sty.svgsize__18]: hasVariant(variants, "size", "_18"),
+                [sty.svgsize__32]: hasVariant(variants, "size", "_32"),
+                [sty.svgsize__48]: hasVariant(variants, "size", "_48"),
+                [sty.svgtype_decrement]: hasVariant(
                   variants,
                   "type",
                   "decrement"
                 ),
 
-                [sty.svg__type_increment]: hasVariant(
+                [sty.svgtype_increment]: hasVariant(
                   variants,
                   "type",
                   "increment"

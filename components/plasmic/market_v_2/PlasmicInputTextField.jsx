@@ -32,50 +32,25 @@ function PlasmicInputTextField__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
-        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__540]: hasVariant(variants, "size", "_540"),
-        [sty.root__size_stretch]: hasVariant(variants, "size", "stretch"),
-        [sty.root__type_secondary]: hasVariant(variants, "type", "secondary")
+        [sty.rootsize__160]: hasVariant(variants, "size", "_160"),
+        [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize__540]: hasVariant(variants, "size", "_540"),
+        [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch"),
+        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
       })}
     >
       <div
         data-plasmic-name={"inputTextParent"}
         data-plasmic-override={overrides.inputTextParent}
         className={classNames(projectcss.all, sty.inputTextParent, {
-          [sty.inputTextParent__size__160]: hasVariant(
-            variants,
-            "size",
-            "_160"
-          ),
-
-          [sty.inputTextParent__size__180]: hasVariant(
-            variants,
-            "size",
-            "_180"
-          ),
-
-          [sty.inputTextParent__size__270]: hasVariant(
-            variants,
-            "size",
-            "_270"
-          ),
-
-          [sty.inputTextParent__size__360]: hasVariant(
-            variants,
-            "size",
-            "_360"
-          ),
-
-          [sty.inputTextParent__size__540]: hasVariant(
-            variants,
-            "size",
-            "_540"
-          ),
-
-          [sty.inputTextParent__size_stretch]: hasVariant(
+          [sty.inputTextParentsize__160]: hasVariant(variants, "size", "_160"),
+          [sty.inputTextParentsize__180]: hasVariant(variants, "size", "_180"),
+          [sty.inputTextParentsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.inputTextParentsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.inputTextParentsize__540]: hasVariant(variants, "size", "_540"),
+          [sty.inputTextParentsize_stretch]: hasVariant(
             variants,
             "size",
             "stretch"
@@ -85,29 +60,34 @@ function PlasmicInputTextField__RenderFunc(props) {
         <input
           data-plasmic-name={"description"}
           data-plasmic-override={overrides.description}
-          className={classNames(projectcss.input, sty.description, {
-            [sty.description__size__160]: hasVariant(variants, "size", "_160"),
-            [sty.description__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.description__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.description__size__540]: hasVariant(variants, "size", "_540"),
-            [sty.description__size_stretch]: hasVariant(
-              variants,
-              "size",
-              "stretch"
-            ),
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.description,
+            {
+              [sty.descriptionsize__160]: hasVariant(variants, "size", "_160"),
+              [sty.descriptionsize__180]: hasVariant(variants, "size", "_180"),
+              [sty.descriptionsize__270]: hasVariant(variants, "size", "_270"),
+              [sty.descriptionsize__540]: hasVariant(variants, "size", "_540"),
+              [sty.descriptionsize_stretch]: hasVariant(
+                variants,
+                "size",
+                "stretch"
+              ),
 
-            [sty.description__type_primary]: hasVariant(
-              variants,
-              "type",
-              "primary"
-            ),
+              [sty.descriptiontype_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
 
-            [sty.description__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            )
-          })}
+              [sty.descriptiontype_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              )
+            }
+          )}
           placeholder={args.placeholder}
           size={1}
           type={"text"}

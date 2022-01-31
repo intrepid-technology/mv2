@@ -18,7 +18,7 @@ import {
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicTagAward.module.css"; // plasmic-import: FRNfGE_ayy/css
-import Icon52Icon from "./icons/PlasmicIcon__Icon52"; // plasmic-import: QGTlaxIryG/icon
+import PlusLightIcon from "./icons/PlasmicIcon__PlusLight"; // plasmic-import: QGTlaxIryG/icon
 
 export const PlasmicTagAward__VariantProps = new Array();
 
@@ -55,7 +55,7 @@ function PlasmicTagAward__RenderFunc(props) {
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <Icon52Icon
+            <PlusLightIcon
               className={classNames(projectcss.all, sty.svg__zj3Xk)}
               role={"img"}
             />

@@ -1,6 +1,6 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   width: auto;
   height: auto;
   max-width: 720px;
@@ -8,17 +8,34 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
   align-content: unset;
-  margin-left: calc(0px - 32px);
-  width: calc(100% + 32px);
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
 }
 .root > :global(.__wab_flex-container) > *,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
 .root > :global(.__wab_flex-container) > picture > img,
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
-  margin-left: 32px;
+  margin-left: 24px;
+}
+.rootwidth__360 {
+  width: 100%;
+  max-width: 360px;
+  min-width: 0;
+}
+.rootwidth__360 > :global(.__wab_flex-container) {
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+}
+.rootwidth_stretch {
+  width: 100%;
+  min-width: 0;
+}
+.rootwidth_stretch > :global(.__wab_flex-container) {
+  min-width: 0;
 }
 .switchPrimary:global(.__wab_instance) {
   position: relative;
@@ -26,10 +43,13 @@
   top: auto;
   flex-shrink: 0;
 }
-.switchPrimary__state_disabled:global(.__wab_instance) {
+.switchPrimarystate_disabled:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.switchPrimary__state_checked:global(.__wab_instance) {
+.switchPrimarystate_checked:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimarywidth__360:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .textParent {
@@ -46,11 +66,7 @@
   position: relative;
 }
 .slotTargetText {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  letter-spacing: normal;
-  line-height: 1;
+  font-size: 16px;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
-  text-transform: none;
+  line-height: 1;
 }

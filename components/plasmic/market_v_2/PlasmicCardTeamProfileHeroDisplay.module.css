@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   position: relative;
@@ -8,8 +8,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }
@@ -218,17 +218,17 @@
   object-fit: cover;
 }
 .companyHeadline {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .companyHeadline > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -260,16 +260,16 @@
   min-width: 0;
 }
 .companyStatsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   min-width: 0;
 }
 .companyStatsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -317,9 +317,9 @@
   display: flex;
 }
 .companyDescription {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -328,8 +328,8 @@
 }
 .companyDescription > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
@@ -379,9 +379,9 @@
   }
 }
 .buttonGroup {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -392,8 +392,8 @@
 }
 .buttonGroup > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -414,7 +414,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.buttonPrimary__userState_loggedIn__byYWePUN:global(.__wab_instance) {
+.buttonPrimaryuserState_loggedIn__byYWePUN:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg__wsyPm {
@@ -441,7 +441,7 @@
   top: auto;
   flex-shrink: 0;
 }
-.buttonPrimary__userState_loggedIn__n3CIfPUN:global(.__wab_instance) {
+.buttonPrimaryuserState_loggedIn__n3CIfPUN:global(.__wab_instance) {
   flex-shrink: 0;
   display: none;
 }
@@ -466,7 +466,7 @@
 .iconPrimary:global(.__wab_instance) {
   position: relative;
 }
-.iconPrimary__userState_loggedIn:global(.__wab_instance) {
+.iconPrimaryuserState_loggedIn:global(.__wab_instance) {
   display: none;
 }
 .svgIcon {
@@ -553,9 +553,9 @@
   position: relative;
   flex-shrink: 0;
 }
-.buttonLinkPrimary__userState_loggedIn:global(.__wab_instance) {
+.buttonLinkPrimaryuserState_loggedIn:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.text__userState_loggedIn__usI4OPUN {
+.textuserState_loggedIn__usI4OPUN {
   font-size: 16px;
 }

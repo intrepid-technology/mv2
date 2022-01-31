@@ -23,12 +23,12 @@
     color: #14161b /* plasmic-token: ec1vMFIzT */;
   }
 }
-.svg__light {
+.svglight {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
 .root:hover .svg {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.root__light:hover .svg__light {
+.rootlight:hover .svglight {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

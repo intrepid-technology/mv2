@@ -47,19 +47,19 @@ function PlasmicFormCheckboxInput__RenderFunc(props) {
         data-plasmic-name={"checkboxInput"}
         data-plasmic-override={overrides.checkboxInput}
         className={classNames("__wab_instance", sty.checkboxInput, {
-          [sty.checkboxInput__isChecked]: hasVariant(
+          [sty.checkboxInputisChecked]: hasVariant(
             variants,
             "isChecked",
             "isChecked"
           ),
 
-          [sty.checkboxInput__isDisabled]: hasVariant(
+          [sty.checkboxInputisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.checkboxInput__isIndeterminate]: hasVariant(
+          [sty.checkboxInputisIndeterminate]: hasVariant(
             variants,
             "isIndeterminate",
             "isIndeterminate"

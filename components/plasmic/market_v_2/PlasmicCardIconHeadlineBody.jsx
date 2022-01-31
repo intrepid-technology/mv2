@@ -49,13 +49,19 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__state_deactivated]: hasVariant(
-          variants,
-          "state",
-          "deactivated"
-        )
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootstate_deactivated]: hasVariant(
+            variants,
+            "state",
+            "deactivated"
+          )
+        }
+      )}
       component={Link}
       platform={"nextjs"}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
@@ -72,7 +78,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
 
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__state_deactivated]: hasVariant(
+              [sty.slotTargetSlotstate_deactivated]: hasVariant(
                 variants,
                 "state",
                 "deactivated"
@@ -86,7 +92,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
         data-plasmic-name={"textLinkArrow"}
         data-plasmic-override={overrides.textLinkArrow}
         className={classNames("__wab_instance", sty.textLinkArrow, {
-          [sty.textLinkArrow__state_deactivated]: hasVariant(
+          [sty.textLinkArrowstate_deactivated]: hasVariant(
             variants,
             "state",
             "deactivated"
@@ -104,7 +110,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
 
           value: args.slot3,
           className: classNames(sty.slotTargetSlot3, {
-            [sty.slotTargetSlot3__state_deactivated]: hasVariant(
+            [sty.slotTargetSlot3state_deactivated]: hasVariant(
               variants,
               "state",
               "deactivated"
@@ -116,7 +122,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
           defaultContents: triggers.hover_root ? "Headline" : "Headline",
           value: args.slot2,
           className: classNames(sty.slotTargetSlot2, {
-            [sty.slotTargetSlot2__state_deactivated]: hasVariant(
+            [sty.slotTargetSlot2state_deactivated]: hasVariant(
               variants,
               "state",
               "deactivated"
@@ -135,7 +141,7 @@ function PlasmicCardIconHeadlineBody__RenderFunc(props) {
             defaultContents: triggers.hover_root ? "Body text" : "Body text",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__state_deactivated]: hasVariant(
+              [sty.slotTargetChildrenstate_deactivated]: hasVariant(
                 variants,
                 "state",
                 "deactivated"

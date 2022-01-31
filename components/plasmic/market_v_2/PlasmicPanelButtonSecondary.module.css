@@ -26,16 +26,16 @@
   background: #101010;
 }
 .sideBarCardLink {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 136px;
   height: auto;
   padding: 2px 0px;
 }
 .sideBarCardLink > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -69,7 +69,7 @@
   font-weight: 500;
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
-.text__alternates_requestReview {
+.textalternates_requestReview {
   width: auto;
 }
 .root:hover .text {

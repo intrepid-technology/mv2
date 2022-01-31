@@ -35,8 +35,8 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__selected_about]: hasVariant(variants, "selected", "about"),
-        [sty.root__selected_partners]: hasVariant(
+        [sty.rootselected_about]: hasVariant(variants, "selected", "about"),
+        [sty.rootselected_partners]: hasVariant(
           variants,
           "selected",
           "partners"
@@ -49,13 +49,8 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__selected_about]: hasVariant(
-            variants,
-            "selected",
-            "about"
-          ),
-
-          [sty.parent__selected_partners]: hasVariant(
+          [sty.parentselected_about]: hasVariant(variants, "selected", "about"),
+          [sty.parentselected_partners]: hasVariant(
             variants,
             "selected",
             "partners"
@@ -66,61 +61,61 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
           data-plasmic-name={"navLink"}
           data-plasmic-override={overrides.navLink}
           className={classNames("__wab_instance", sty.navLink, {
-            [sty.navLink__selected_about]: hasVariant(
+            [sty.navLinkselected_about]: hasVariant(
               variants,
               "selected",
               "about"
             ),
 
-            [sty.navLink__selected_listings]: hasVariant(
+            [sty.navLinkselected_listings]: hasVariant(
               variants,
               "selected",
               "listings"
             ),
 
-            [sty.navLink__selected_members]: hasVariant(
+            [sty.navLinkselected_members]: hasVariant(
               variants,
               "selected",
               "members"
             ),
 
-            [sty.navLink__selected_packages]: hasVariant(
+            [sty.navLinkselected_packages]: hasVariant(
               variants,
               "selected",
               "packages"
             ),
 
-            [sty.navLink__selected_partners]: hasVariant(
+            [sty.navLinkselected_partners]: hasVariant(
               variants,
               "selected",
               "partners"
             ),
 
-            [sty.navLink__selected_performance]: hasVariant(
+            [sty.navLinkselected_performance]: hasVariant(
               variants,
               "selected",
               "performance"
             ),
 
-            [sty.navLink__selected_reacts]: hasVariant(
+            [sty.navLinkselected_reacts]: hasVariant(
               variants,
               "selected",
               "reacts"
             ),
 
-            [sty.navLink__selected_saves]: hasVariant(
+            [sty.navLinkselected_saves]: hasVariant(
               variants,
               "selected",
               "saves"
             ),
 
-            [sty.navLink__selected_team]: hasVariant(
+            [sty.navLinkselected_team]: hasVariant(
               variants,
               "selected",
               "team"
             ),
 
-            [sty.navLink__selected_views]: hasVariant(
+            [sty.navLinkselected_views]: hasVariant(
               variants,
               "selected",
               "views"
@@ -154,7 +149,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter___6WKoC, {
-            [sty.navLinkCounter__selected_listings___6WKoCatZ1V]: hasVariant(
+            [sty.navLinkCounterselected_listings___6WKoCatZ1V]: hasVariant(
               variants,
               "selected",
               "listings"
@@ -171,7 +166,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__tx7Dj, {
-            [sty.navLinkCounter__selected_packages__tx7DjkVsPo]: hasVariant(
+            [sty.navLinkCounterselected_packages__tx7DjkVsPo]: hasVariant(
               variants,
               "selected",
               "packages"
@@ -188,7 +183,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__lRhK, {
-            [sty.navLinkCounter__selected_performance__lRhKjT9Zy]: hasVariant(
+            [sty.navLinkCounterselected_performance__lRhKjT9Zy]: hasVariant(
               variants,
               "selected",
               "performance"
@@ -205,7 +200,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter___4GqA, {
-            [sty.navLinkCounter__selected_views___4GqA1AbJk]: hasVariant(
+            [sty.navLinkCounterselected_views___4GqA1AbJk]: hasVariant(
               variants,
               "selected",
               "views"
@@ -220,7 +215,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__jlu83, {
-            [sty.navLinkCounter__selected_reacts__jlu83A9KXd]: hasVariant(
+            [sty.navLinkCounterselected_reacts__jlu83A9KXd]: hasVariant(
               variants,
               "selected",
               "reacts"
@@ -235,7 +230,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__jsKxc, {
-            [sty.navLinkCounter__selected_saves__jsKxcioQd7]: hasVariant(
+            [sty.navLinkCounterselected_saves__jsKxcioQd7]: hasVariant(
               variants,
               "selected",
               "saves"
@@ -250,7 +245,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__dp0Z5, {
-            [sty.navLinkCounter__selected_team__dp0Z5WIx2]: hasVariant(
+            [sty.navLinkCounterselected_team__dp0Z5WIx2]: hasVariant(
               variants,
               "selected",
               "team"
@@ -265,7 +260,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__bsu8U, {
-            [sty.navLinkCounter__selected_members__bsu8UEaYwc]: hasVariant(
+            [sty.navLinkCounterselected_members__bsu8UEaYwc]: hasVariant(
               variants,
               "selected",
               "members"
@@ -282,7 +277,7 @@ function PlasmicNavbarTeamUserProfile__RenderFunc(props) {
 
         <NavLinkCounter
           className={classNames("__wab_instance", sty.navLinkCounter__d1Mk9, {
-            [sty.navLinkCounter__selected_partners__d1Mk9PzLrn]: hasVariant(
+            [sty.navLinkCounterselected_partners__d1Mk9PzLrn]: hasVariant(
               variants,
               "selected",
               "partners"

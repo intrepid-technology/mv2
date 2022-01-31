@@ -1,14 +1,14 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   position: relative;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -40,9 +40,9 @@
   outline: none;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -51,9 +51,9 @@
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 8px);

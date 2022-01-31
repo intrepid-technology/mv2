@@ -1,6 +1,6 @@
 .menuIconListItemLink {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: 32px;
   position: relative;
@@ -14,8 +14,8 @@
 }
 .menuIconListItemLink > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -33,27 +33,27 @@
   > img {
   margin-left: 8px;
 }
-.menuIconListItemLink__selected {
+.menuIconListItemLinkselected {
   background: #14161b;
   border-radius: 8px;
 }
 .menuIconListItemLink:hover {
   background: #f8f8f8;
 }
-.menuIconListItemLink__selected:hover {
+.menuIconListItemLinkselected:hover {
   background: #292d35;
 }
 .menuIconListItemLink:focus-within {
   background: #14161b;
   outline: none;
 }
-.menuIconListItemLink__action__switch:focus-within {
+.menuIconListItemLinkaction__switch:focus-within {
   outline: none;
 }
 .iconTextParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: 100%;
   padding-left: 0px;
@@ -63,8 +63,8 @@
 }
 .iconTextParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   min-height: 0;
   margin-left: calc(0px - 24px);
@@ -88,22 +88,22 @@
   font-size: 16px;
   line-height: 1;
 }
-.slotTargetNavIcon__disabled {
+.slotTargetNavIcondisabled {
   color: #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
-.slotTargetNavIcon__selected {
+.slotTargetNavIconselected {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.slotTargetNavIcon__selected_renderContext_sidebar {
+.slotTargetNavIconselected_renderContext_sidebar {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .menuIconListItemLink:hover .slotTargetNavIcon {
   color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
-.menuIconListItemLink__disabled:hover .slotTargetNavIcon__disabled {
+.menuIconListItemLinkdisabled:hover .slotTargetNavIcondisabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.menuIconListItemLink__selected:hover .slotTargetNavIcon__selected {
+.menuIconListItemLinkselected:hover .slotTargetNavIconselected {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavIcon {
@@ -166,23 +166,23 @@
   color: #525a6a /* plasmic-token: xfNU8zBzA */;
   font-weight: 400;
 }
-.slotTargetNavText__disabled {
+.slotTargetNavTextdisabled {
   color: #e0e2e7 /* plasmic-token: aWbt8exrr */;
 }
-.slotTargetNavText__selected {
+.slotTargetNavTextselected {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
   font-weight: 700;
 }
-.slotTargetNavText__selected_renderContext_sidebar {
+.slotTargetNavTextselected_renderContext_sidebar {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .menuIconListItemLink:hover .slotTargetNavText {
   color: #14161b /* plasmic-token: gtUIPzlCk */;
 }
-.menuIconListItemLink__disabled:hover .slotTargetNavText__disabled {
+.menuIconListItemLinkdisabled:hover .slotTargetNavTextdisabled {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.menuIconListItemLink__selected:hover .slotTargetNavText__selected {
+.menuIconListItemLinkselected:hover .slotTargetNavTextselected {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .menuIconListItemLink:focus-within .slotTargetNavText {
@@ -224,9 +224,9 @@
   outline: none;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   max-width: 100%;
@@ -237,8 +237,8 @@
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -252,7 +252,7 @@
   > img {
   margin-left: 16px;
 }
-.freeBox__action__switch {
+.freeBoxaction__switch {
   left: auto;
   top: auto;
   background: none;
@@ -262,7 +262,7 @@
   font-weight: 500;
   color: #525a6a /* plasmic-token: xfNU8zBzA */;
 }
-.slotTargetChildren__selected_action__switch_renderContext_sidebar {
+.slotTargetChildrenselected_action__switch_renderContext_sidebar {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
 .switchActionButton:global(.__wab_instance) {
@@ -273,6 +273,6 @@
   font-weight: 500;
   color: #525a6a /* plasmic-token: xfNU8zBzA */;
 }
-.slotTargetSlot__selected_action__switch_renderContext_sidebar {
+.slotTargetSlotselected_action__switch_renderContext_sidebar {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }

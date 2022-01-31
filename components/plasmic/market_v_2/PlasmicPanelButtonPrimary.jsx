@@ -45,7 +45,7 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__alternates_newProject]: hasVariant(
+        [sty.rootalternates_newProject]: hasVariant(
           variants,
           "alternates",
           "newProject"
@@ -55,8 +55,8 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"newListing"}
         data-plasmic-override={overrides.newListing}
-        className={classNames(projectcss.a, sty.newListing, {
-          [sty.newListing__alternates_newProject]: hasVariant(
+        className={classNames(projectcss.all, projectcss.a, sty.newListing, {
+          [sty.newListingalternates_newProject]: hasVariant(
             variants,
             "alternates",
             "newProject"
@@ -88,13 +88,13 @@ function PlasmicPanelButtonPrimary__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text,
               {
-                [sty.text__alternates_newProject]: hasVariant(
+                [sty.textalternates_newProject]: hasVariant(
                   variants,
                   "alternates",
                   "newProject"
                 ),
 
-                [sty.text__global_layout_isSellerView]: hasVariant(
+                [sty.textglobal_layout_isSellerView]: hasVariant(
                   globalVariants,
                   "layout",
                   "isSellerView"

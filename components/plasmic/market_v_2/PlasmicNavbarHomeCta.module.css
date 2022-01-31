@@ -18,7 +18,7 @@
     padding-right: 24px;
   }
 }
-.root__color_dark {
+.rootcolor_dark {
   border-bottom-color: #0000001f /* plasmic-token: 4DpMaQlGP */;
   background: #101010;
 }
@@ -26,14 +26,14 @@
   position: relative;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }

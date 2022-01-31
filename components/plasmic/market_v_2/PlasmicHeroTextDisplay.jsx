@@ -39,8 +39,8 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__720]: hasVariant(variants, "size", "_720")
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize__720]: hasVariant(variants, "size", "_720")
       })}
     >
       {(hasVariant(variants, "size", "_720") ? false : true) ? (
@@ -50,9 +50,9 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           data-plasmic-override={overrides.textBody2}
           hasGap={true}
           className={classNames(projectcss.all, sty.textBody2, {
-            [sty.textBody2__size__270]: hasVariant(variants, "size", "_270"),
-            [sty.textBody2__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.textBody2__size__720]: hasVariant(variants, "size", "_720")
+            [sty.textBody2size__270]: hasVariant(variants, "size", "_270"),
+            [sty.textBody2size__360]: hasVariant(variants, "size", "_360"),
+            [sty.textBody2size__720]: hasVariant(variants, "size", "_720")
           })}
         >
           <div
@@ -61,19 +61,19 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__iy1X,
               {
-                [sty.text__size__270__iy1XFtcWe]: hasVariant(
+                [sty.textsize__270__iy1XFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__iy1XqvLrI]: hasVariant(
+                [sty.textsize__360__iy1XqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.text__size__720__iy1XtUtJd]: hasVariant(
+                [sty.textsize__720__iy1XtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -99,13 +99,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__khuIq,
               {
-                [sty.text__size__270__khuIqFtcWe]: hasVariant(
+                [sty.textsize__270__khuIqFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__khuIqqvLrI]: hasVariant(
+                [sty.textsize__360__khuIqqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -122,13 +122,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__tSMpz,
               {
-                [sty.text__size__270__tSMpzFtcWe]: hasVariant(
+                [sty.textsize__270__tSMpzFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__tSMpzqvLrI]: hasVariant(
+                [sty.textsize__360__tSMpzqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -145,13 +145,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__lEl62,
               {
-                [sty.text__size__270__lEl62FtcWe]: hasVariant(
+                [sty.textsize__270__lEl62FtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__lEl62QvLrI]: hasVariant(
+                [sty.textsize__360__lEl62QvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -177,13 +177,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__ftHuv,
               {
-                [sty.text__size__270__ftHuvFtcWe]: hasVariant(
+                [sty.textsize__270__ftHuvFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__ftHuvqvLrI]: hasVariant(
+                [sty.textsize__360__ftHuvqvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -200,13 +200,13 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__y4WL,
               {
-                [sty.text__size__270__y4WLFtcWe]: hasVariant(
+                [sty.textsize__270__y4WLFtcWe]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__y4WLQvLrI]: hasVariant(
+                [sty.textsize__360__y4WLQvLrI]: hasVariant(
                   variants,
                   "size",
                   "_360"
@@ -219,7 +219,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
 
           <div
             className={classNames(projectcss.all, sty.freeBox__a1ViY, {
-              [sty.freeBox__size__360__a1ViYqvLrI]: hasVariant(
+              [sty.freeBoxsize__360__a1ViYqvLrI]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -232,7 +232,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__rshCx,
                 {
-                  [sty.text__size__360__rshCxqvLrI]: hasVariant(
+                  [sty.textsize__360__rshCxqvLrI]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -252,8 +252,8 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           data-plasmic-override={overrides.textBody720}
           hasGap={true}
           className={classNames(projectcss.all, sty.textBody720, {
-            [sty.textBody720__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.textBody720__size__720]: hasVariant(variants, "size", "_720")
+            [sty.textBody720size__360]: hasVariant(variants, "size", "_360"),
+            [sty.textBody720size__720]: hasVariant(variants, "size", "_720")
           })}
         >
           <div
@@ -262,7 +262,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__g3X6M,
               {
-                [sty.text__size__720__g3X6MtUtJd]: hasVariant(
+                [sty.textsize__720__g3X6MtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -337,7 +337,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__luQgD,
               {
-                [sty.text__size__720__luQgDtUtJd]: hasVariant(
+                [sty.textsize__720__luQgDtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -353,7 +353,7 @@ function PlasmicHeroTextDisplay__RenderFunc(props) {
           {(hasVariant(variants, "size", "_720") ? true : false) ? (
             <div
               className={classNames(projectcss.all, sty.freeBox__v3AWd, {
-                [sty.freeBox__size__720__v3AWDtUtJd]: hasVariant(
+                [sty.freeBoxsize__720__v3AWDtUtJd]: hasVariant(
                   variants,
                   "size",
                   "_720"

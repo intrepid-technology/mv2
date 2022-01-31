@@ -37,13 +37,13 @@
   object-fit: fill;
 }
 .freeBox__c4Vbs {
+  flex-direction: column;
   display: flex;
   position: relative;
   left: auto;
   top: auto;
   width: 300px;
   height: 300px;
-  flex-direction: column;
   background: #101010;
   flex-shrink: 0;
   padding: 32px 20px 12px 32px;

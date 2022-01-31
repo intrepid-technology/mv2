@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -9,8 +9,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 40px);
   height: calc(100% + 40px);
@@ -21,13 +21,13 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 40px;
 }
-.root__center > :global(.__wab_flex-container) {
+.rootcenter > :global(.__wab_flex-container) {
   align-items: center;
 }
 .freeBox__pjpjd {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 360px;
@@ -35,8 +35,8 @@
 }
 .freeBox__pjpjd > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
@@ -71,7 +71,7 @@
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
   text-transform: uppercase;
 }
-.slotTargetSlot2__center {
+.slotTargetSlot2center {
   text-align: center;
 }
 .freeBox__y0NOz {
@@ -87,16 +87,16 @@
   min-width: 0;
 }
 .headlineSubHeadline {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .headlineSubHeadline > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 18px);
   height: calc(100% + 18px);
@@ -134,7 +134,7 @@
   line-height: 1.2;
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
-.slotTargetChildren__center {
+.slotTargetChildrencenter {
   text-align: center;
 }
 .freeBox__ge5FL {
@@ -172,7 +172,7 @@
   line-height: 18px;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
-.slotTargetSlot__center {
+.slotTargetSlotcenter {
   text-align: center;
 }
 .buttonPrimary:global(.__wab_instance) {

@@ -11,11 +11,11 @@
   padding: 2px 6px;
   border: 1px solid #cc0033 /* plasmic-token: zuxijHDLE */;
 }
-.root__inset {
+.rootinset {
   background: #f8f8f8;
   border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.root__inset:hover {
+.rootinset:hover {
   background: #fae6eb;
   border-color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }
@@ -29,9 +29,9 @@
   line-height: 10px;
   font-weight: 600;
 }
-.text__inset {
+.textinset {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
-.root__inset:hover .text__inset {
+.rootinset:hover .textinset {
   color: #cc0033 /* plasmic-token: zuxijHDLE */;
 }

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   position: relative;
   min-width: 0;
@@ -8,8 +8,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -26,24 +26,24 @@
   left: auto;
   flex-shrink: 0;
 }
-.partnerNewListing__global_layout_isSellerView:global(.__wab_instance) {
+.partnerNewListingglobal_layout_isSellerView:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.partnerNewListing__user_member:global(.__wab_instance) {
+.partnerNewListinguser_member:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.partnerNewListing__user_partner:global(.__wab_instance) {
+.partnerNewListinguser_partner:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .partnerPowerUp:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.partnerPowerUp__global_layout_isSellerView:global(.__wab_instance) {
+.partnerPowerUpglobal_layout_isSellerView:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.partnerPowerUp__user_member:global(.__wab_instance) {
+.partnerPowerUpuser_member:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.partnerPowerUp__user_partner:global(.__wab_instance) {
+.partnerPowerUpuser_partner:global(.__wab_instance) {
   flex-shrink: 0;
 }

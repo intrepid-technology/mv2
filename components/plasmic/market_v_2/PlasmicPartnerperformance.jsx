@@ -144,6 +144,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               <div className={classNames(projectcss.all, sty.freeBox__ls8Vs)}>
                 <h3
                   className={classNames(
+                    projectcss.all,
                     projectcss.h3,
                     projectcss.__wab_text,
                     sty.h3___7RfKu
@@ -472,6 +473,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               <div className={classNames(projectcss.all, sty.freeBox__u8LZ8)}>
                 <h3
                   className={classNames(
+                    projectcss.all,
                     projectcss.h3,
                     projectcss.__wab_text,
                     sty.h3___8WlHd
@@ -922,6 +924,7 @@ function PlasmicPartnerperformance__RenderFunc(props) {
               <div className={classNames(projectcss.all, sty.freeBox__hM0B0)}>
                 <h3
                   className={classNames(
+                    projectcss.all,
                     projectcss.h3,
                     projectcss.__wab_text,
                     sty.h3__iuLnK

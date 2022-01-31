@@ -61,14 +61,14 @@
   }
 }
 .sectionAboutDetails {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .sectionAboutDetails > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionAboutDetails {
@@ -177,9 +177,9 @@
   }
 }
 .memberTeamConnectionsSection {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -189,9 +189,9 @@
 }
 .memberTeamConnectionsSection > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -336,14 +336,14 @@
   }
 }
 .sectionMemberProfileIndustrySocial {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .sectionMemberProfileIndustrySocial > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionMemberProfileIndustrySocial {
@@ -465,14 +465,14 @@
   }
 }
 .sectionProfileMemberSimilarMembers {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .sectionProfileMemberSimilarMembers > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionProfileMemberSimilarMembers {
@@ -569,14 +569,14 @@
   }
 }
 .sectionProfileMemberPeopleAlsoViewed {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .sectionProfileMemberPeopleAlsoViewed > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .sectionProfileMemberPeopleAlsoViewed {

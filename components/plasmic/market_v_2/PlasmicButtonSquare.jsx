@@ -34,10 +34,11 @@ function PlasmicButtonSquare__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
-        { [sty.root__color_primary]: hasVariant(variants, "color", "primary") }
+        { [sty.rootcolor_primary]: hasVariant(variants, "color", "primary") }
       )}
     >
       <div

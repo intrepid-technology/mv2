@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   height: auto;
   width: 100%;
   position: relative;
@@ -12,8 +12,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 12px);
   height: calc(100% + 12px);
@@ -24,11 +24,11 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 12px;
 }
-.root__color_light {
+.rootcolor_light {
   border-top-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
   background: #ffffff;
 }
-.root__color_dark {
+.rootcolor_dark {
   background: #101010;
 }
 .navbarLogo:global(.__wab_instance) {
@@ -55,7 +55,7 @@
   align-self: stretch;
   width: 190px;
 }
-.text__color_dark___4TIqAsxLuv {
+.textcolor_dark___4TIqAsxLuv {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
 .footerSocialLinkGroup:global(.__wab_instance) {
@@ -65,9 +65,9 @@
   align-self: flex-start;
 }
 .footerLegal {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -76,8 +76,8 @@
 }
 .footerLegal > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-end;
   justify-content: flex-start;
+  align-items: flex-end;
   min-width: 0;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
@@ -93,9 +93,9 @@
   margin-left: 12px;
 }
 .social2 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -106,8 +106,8 @@
 }
 .social2 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -187,9 +187,9 @@
   min-height: 0;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: absolute;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -199,8 +199,8 @@
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -233,6 +233,6 @@
     line-height: 12px;
   }
 }
-.text__color_dark__bl0HssxLuv {
+.textcolor_dark__bl0HssxLuv {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }

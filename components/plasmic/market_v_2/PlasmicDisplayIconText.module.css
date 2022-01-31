@@ -8,16 +8,16 @@
   height: auto;
 }
 .parent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding: 0px;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -46,55 +46,55 @@
 .slotTargetText14Px {
   font-size: 12px;
 }
-.slotTargetText14Px__size__14 {
+.slotTargetText14Pxsize__14 {
   font-size: 14px;
 }
 .slotTargetText16Px {
   font-size: 12px;
 }
-.slotTargetText16Px__size__16 {
+.slotTargetText16Pxsize__16 {
   font-size: 16px;
 }
 .slotTargetText18Px {
   font-size: 12px;
 }
-.slotTargetText18Px__size__18 {
+.slotTargetText18Pxsize__18 {
   font-size: 18px;
 }
 .slotTargetText24Px {
   font-size: 12px;
 }
-.slotTargetText24Px__size__24 {
+.slotTargetText24Pxsize__24 {
   font-size: 24px;
 }
 .slotTargetText32Px {
   font-size: 12px;
 }
-.slotTargetText32Px__size__32 {
+.slotTargetText32Pxsize__32 {
   font-size: 32px;
 }
 .slotTargetText40Px {
   font-size: 12px;
 }
-.slotTargetText40Px__size__40 {
+.slotTargetText40Pxsize__40 {
   font-size: 40px;
 }
 .slotTargetText48Px {
   font-size: 12px;
 }
-.slotTargetText48Px__size__48 {
+.slotTargetText48Pxsize__48 {
   font-size: 48px;
 }
 .slotTargetText64Px {
   font-size: 12px;
 }
-.slotTargetText64Px__size__64 {
+.slotTargetText64Pxsize__64 {
   font-size: 64px;
 }
 .slotTargetText2 {
   font-size: 12px;
 }
-.slotTargetText2__size__80 {
+.slotTargetText2size__80 {
   font-size: 80px;
 }
 .elementIconParent {

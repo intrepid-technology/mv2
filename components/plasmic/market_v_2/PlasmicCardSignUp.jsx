@@ -73,7 +73,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         <input
           data-plasmic-name={"email"}
           data-plasmic-override={overrides.email}
-          className={classNames(projectcss.input, sty.email)}
+          className={classNames(projectcss.all, projectcss.input, sty.email)}
           placeholder={"Enter your email"}
           size={1}
           type={
@@ -105,7 +105,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
         <input
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
-          className={classNames(projectcss.input, sty.password)}
+          className={classNames(projectcss.all, projectcss.input, sty.password)}
           placeholder={"Enter your password"}
           size={1}
           type={"password"}
@@ -227,6 +227,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupTos"}
           data-plasmic-override={overrides.signupTos}
           className={classNames(
+            projectcss.all,
             projectcss.a,
             projectcss.__wab_text,
             sty.signupTos
@@ -242,6 +243,7 @@ function PlasmicCardSignUp__RenderFunc(props) {
           data-plasmic-name={"signupPrivacy"}
           data-plasmic-override={overrides.signupPrivacy}
           className={classNames(
+            projectcss.all,
             projectcss.a,
             projectcss.__wab_text,
             sty.signupPrivacy

@@ -42,21 +42,21 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270")
+        [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270")
       })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__mo2A2, {
-          [sty.freeBox__size__180__mo2A2Wew5]: hasVariant(
+          [sty.freeBoxsize__180__mo2A2Wew5]: hasVariant(
             variants,
             "size",
             "_180"
           ),
 
-          [sty.freeBox__state_success__mo2A2Xndgz]: hasVariant(
+          [sty.freeBoxstate_success__mo2A2Xndgz]: hasVariant(
             variants,
             "state",
             "success"
@@ -68,14 +68,19 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
           hasGap={true}
-          className={classNames(projectcss.input, sty.textInput, {
-            [sty.textInput__size__180]: hasVariant(variants, "size", "_180"),
-            [sty.textInput__state_success]: hasVariant(
-              variants,
-              "state",
-              "success"
-            )
-          })}
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.textInput,
+            {
+              [sty.textInputsize__180]: hasVariant(variants, "size", "_180"),
+              [sty.textInputstate_success]: hasVariant(
+                variants,
+                "state",
+                "success"
+              )
+            }
+          )}
           placeholder={""}
           size={1}
           type={"text"}
@@ -84,19 +89,19 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
 
         <div
           className={classNames(projectcss.all, sty.freeBox__w4B3K, {
-            [sty.freeBox__size__180__w4B3KWew5]: hasVariant(
+            [sty.freeBoxsize__180__w4B3KWew5]: hasVariant(
               variants,
               "size",
               "_180"
             ),
 
-            [sty.freeBox__size__270__w4B3KEWntz]: hasVariant(
+            [sty.freeBoxsize__270__w4B3KEWntz]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.freeBox__state_success__w4B3Kxndgz]: hasVariant(
+            [sty.freeBoxstate_success__w4B3Kxndgz]: hasVariant(
               variants,
               "state",
               "success"
@@ -107,13 +112,13 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
             defaultContents: "Content",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__size__180]: hasVariant(
+              [sty.slotTargetChildrensize__180]: hasVariant(
                 variants,
                 "size",
                 "_180"
               ),
 
-              [sty.slotTargetChildren__state_success]: hasVariant(
+              [sty.slotTargetChildrenstate_success]: hasVariant(
                 variants,
                 "state",
                 "success"
@@ -126,7 +131,7 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
       {(hasVariant(variants, "description", "description") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox___09Rg3, {
-            [sty.freeBox__description___09Rg38YNeE]: hasVariant(
+            [sty.freeBoxdescription___09Rg38YNeE]: hasVariant(
               variants,
               "description",
               "description"
@@ -137,13 +142,13 @@ function PlasmicInputCardNumberField__RenderFunc(props) {
             defaultContents: "Description",
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__description]: hasVariant(
+              [sty.slotTargetSlotdescription]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.slotTargetSlot__size__180]: hasVariant(
+              [sty.slotTargetSlotsize__180]: hasVariant(
                 variants,
                 "size",
                 "_180"

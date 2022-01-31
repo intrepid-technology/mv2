@@ -11,32 +11,32 @@
   border-width: 1px;
   border-style: none;
 }
-.avatarButtonEdit__size__80Px {
+.avatarButtonEditsize__80Px {
   width: 80px;
   height: 80px;
 }
-.avatarButtonEdit__size__64Px {
+.avatarButtonEditsize__64Px {
   width: 64px;
   height: 64px;
 }
-.avatarButtonEdit__size__48Px {
+.avatarButtonEditsize__48Px {
   width: 48px;
   height: 48px;
 }
-.avatarButtonEdit__size__40Px {
+.avatarButtonEditsize__40Px {
   width: 40px;
   height: 40px;
   padding: 0px;
 }
-.avatarButtonEdit__size__32Px {
+.avatarButtonEditsize__32Px {
   width: 32px;
   height: 32px;
 }
-.avatarButtonEdit__size__24Px {
+.avatarButtonEditsize__24Px {
   width: 24px;
   height: 24px;
 }
-.avatarButtonEdit__size__16Px {
+.avatarButtonEditsize__16Px {
   width: 16px;
   height: 16px;
 }
@@ -58,12 +58,12 @@
   border-radius: 100%;
   border-width: 0px;
 }
-.avatarImageBackground__size__80Px {
+.avatarImageBackgroundsize__80Px {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
 }
-.avatarImageBackground__size__40Px {
+.avatarImageBackgroundsize__40Px {
   width: 100%;
   min-width: 0;
 }

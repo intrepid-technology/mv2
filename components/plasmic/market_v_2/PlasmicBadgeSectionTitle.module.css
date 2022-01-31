@@ -12,20 +12,20 @@
   padding: 4px 8px;
   border: 2px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.root__border {
+.rootborder {
   background: #f0f1f3;
   border-style: none;
 }
-.root__colors_brand {
+.rootcolors_brand {
   background: none;
   padding-top: 4px;
   padding-bottom: 4px;
   border-color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
-.root__colors_light {
+.rootcolors_light {
   border-color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.root__border_colors_brand {
+.rootborder_colors_brand {
   background: #f0ebff;
 }
 .freeBox {
@@ -40,9 +40,9 @@
   font-weight: 600;
   text-transform: uppercase;
 }
-.slotTargetSectionTitleSlot__colors_brand {
+.slotTargetSectionTitleSlotcolors_brand {
   color: #3d1f99 /* plasmic-token: h5Fe8ssdr */;
 }
-.slotTargetSectionTitleSlot__colors_light {
+.slotTargetSectionTitleSlotcolors_light {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }

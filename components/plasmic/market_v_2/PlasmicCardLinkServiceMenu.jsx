@@ -40,7 +40,12 @@ function PlasmicCardLinkServiceMenu__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}

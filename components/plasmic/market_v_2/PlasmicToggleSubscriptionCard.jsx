@@ -52,37 +52,37 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text,
               {
-                [sty.text__active_autorenew]: hasVariant(
+                [sty.textactive_autorenew]: hasVariant(
                   variants,
                   "active",
                   "autorenew"
                 ),
 
-                [sty.text__active_placement]: hasVariant(
+                [sty.textactive_placement]: hasVariant(
                   variants,
                   "active",
                   "placement"
                 ),
 
-                [sty.text__active_yearly]: hasVariant(
+                [sty.textactive_yearly]: hasVariant(
                   variants,
                   "active",
                   "yearly"
                 ),
 
-                [sty.text__inactive_autorenew]: hasVariant(
+                [sty.textinactive_autorenew]: hasVariant(
                   variants,
                   "inactive",
                   "autorenew"
                 ),
 
-                [sty.text__inactive_placement]: hasVariant(
+                [sty.textinactive_placement]: hasVariant(
                   variants,
                   "inactive",
                   "placement"
                 ),
 
-                [sty.text__inactive_yearly]: hasVariant(
+                [sty.textinactive_yearly]: hasVariant(
                   variants,
                   "inactive",
                   "yearly"
@@ -125,37 +125,37 @@ function PlasmicToggleSubscriptionCard__RenderFunc(props) {
               : undefined
           }
           className={classNames("__wab_instance", sty.switchPrimary, {
-            [sty.switchPrimary__active_autorenew]: hasVariant(
+            [sty.switchPrimaryactive_autorenew]: hasVariant(
               variants,
               "active",
               "autorenew"
             ),
 
-            [sty.switchPrimary__active_placement]: hasVariant(
+            [sty.switchPrimaryactive_placement]: hasVariant(
               variants,
               "active",
               "placement"
             ),
 
-            [sty.switchPrimary__active_yearly]: hasVariant(
+            [sty.switchPrimaryactive_yearly]: hasVariant(
               variants,
               "active",
               "yearly"
             ),
 
-            [sty.switchPrimary__inactive_autorenew]: hasVariant(
+            [sty.switchPrimaryinactive_autorenew]: hasVariant(
               variants,
               "inactive",
               "autorenew"
             ),
 
-            [sty.switchPrimary__inactive_placement]: hasVariant(
+            [sty.switchPrimaryinactive_placement]: hasVariant(
               variants,
               "inactive",
               "placement"
             ),
 
-            [sty.switchPrimary__inactive_yearly]: hasVariant(
+            [sty.switchPrimaryinactive_yearly]: hasVariant(
               variants,
               "inactive",
               "yearly"

@@ -8,10 +8,10 @@
   position: relative;
   padding: 0px;
 }
-.parentRoot__size__18 {
+.parentRootsize__18 {
   padding: 1px;
 }
-.parentRoot__size__24 {
+.parentRootsize__24 {
   padding: 2px;
 }
 .badgeParent {
@@ -32,23 +32,23 @@
   height: auto;
   padding: 0px;
 }
-.avatarparent__size__18 {
+.avatarparentsize__18 {
   width: auto;
   height: auto;
   padding: 0px;
 }
-.avatarparent__size__24 {
+.avatarparentsize__24 {
   width: auto;
   height: auto;
   padding: 0px;
 }
-.avatarparent__size__32 {
+.avatarparentsize__32 {
   padding: 0px;
 }
 .slotTargetNavUserAvatar16 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar16__size__18 {
+.slotTargetNavUserAvatar16size__18 {
   line-height: 1;
 }
 .img___3LdP7 {
@@ -72,7 +72,7 @@
 .slotTargetNavUserAvatar24 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar24__size__18 {
+.slotTargetNavUserAvatar24size__18 {
   line-height: 1;
 }
 .img__uumyf {
@@ -96,7 +96,7 @@
 .slotTargetNavUserAvatar32 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar32__size__18 {
+.slotTargetNavUserAvatar32size__18 {
   line-height: 1;
 }
 .img__ojhk6 {
@@ -120,7 +120,7 @@
 .slotTargetPartnerAvatar24 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetPartnerAvatar24__size__18 {
+.slotTargetPartnerAvatar24size__18 {
   line-height: 1;
 }
 .img___8P0W5 {
@@ -144,7 +144,7 @@
 .slotTargetPartnerAvatar18 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetPartnerAvatar18__size__18 {
+.slotTargetPartnerAvatar18size__18 {
   line-height: 1;
 }
 .img__bqMj6 {
@@ -168,7 +168,7 @@
 .slotTargetPartnerAvatar32 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetPartnerAvatar32__size__18 {
+.slotTargetPartnerAvatar32size__18 {
   line-height: 1;
 }
 .img__k1Wfk {
@@ -192,7 +192,7 @@
 .slotTargetNavUserAvatar40 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar40__size__18 {
+.slotTargetNavUserAvatar40size__18 {
   line-height: 1;
 }
 .img__ph0Zn {
@@ -216,7 +216,7 @@
 .slotTargetNavUserAvatar48 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar48__size__18 {
+.slotTargetNavUserAvatar48size__18 {
   line-height: 1;
 }
 .img__wowhz {
@@ -240,7 +240,7 @@
 .slotTargetNavUserAvatar64 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar64__size__18 {
+.slotTargetNavUserAvatar64size__18 {
   line-height: 1;
 }
 .img___5ZfoV {
@@ -264,7 +264,7 @@
 .slotTargetNavUserAvatar80 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar80__size__18 {
+.slotTargetNavUserAvatar80size__18 {
   line-height: 1;
 }
 .img___8TGwz {
@@ -288,7 +288,7 @@
 .slotTargetNavUserAvatar18 {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetNavUserAvatar18__size__18 {
+.slotTargetNavUserAvatar18size__18 {
   line-height: 1;
 }
 .img__bEpM {
@@ -322,34 +322,34 @@
   margin-left: -8px;
   margin-bottom: -16px;
 }
-.badge__size__24 {
+.badgesize__24 {
   margin-left: -8px;
   margin-bottom: -16px;
   left: auto;
   top: auto;
   display: none;
 }
-.badge__size__24_verified {
+.badgesize__24_verified {
   display: flex;
 }
-.badge__size__32_verified {
+.badgesize__32_verified {
   margin-bottom: -24px;
   display: flex;
 }
-.badge__size__40_verified {
+.badgesize__40_verified {
   margin-bottom: -28px;
   margin-left: -8px;
   display: flex;
 }
-.badge__size__48_verified {
+.badgesize__48_verified {
   margin-bottom: -32px;
   display: flex;
 }
-.badge__size__64_verified {
+.badgesize__64_verified {
   margin-bottom: -32px;
   display: flex;
 }
-.badge__size__80_verified {
+.badgesize__80_verified {
   margin-bottom: -48px;
   margin-left: -16px;
   display: flex;

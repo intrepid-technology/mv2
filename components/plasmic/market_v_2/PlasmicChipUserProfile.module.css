@@ -1,8 +1,8 @@
 .root {
+  flex-direction: row;
   display: flex;
   width: 270px;
   height: 90px;
-  flex-direction: row;
   position: relative;
   background: #ffffff;
   border-radius: 4px;
@@ -229,17 +229,17 @@
   object-fit: cover;
 }
 .userInfoParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .userInfoParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
@@ -255,9 +255,9 @@
   margin-top: 4px;
 }
 .freeBox__m4FAi {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -266,8 +266,8 @@
 }
 .freeBox__m4FAi > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
@@ -283,9 +283,9 @@
   margin-top: 6px;
 }
 .freeBox__y4Qr7 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -293,8 +293,8 @@
 }
 .freeBox__y4Qr7 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
@@ -330,9 +330,9 @@
   position: relative;
 }
 .verificationCityParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: auto;
@@ -340,8 +340,8 @@
 }
 .verificationCityParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -359,15 +359,15 @@
   margin-left: 8px;
 }
 .freeBox__fHhjX {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   min-width: 0;
 }
 .freeBox__fHhjX > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -418,16 +418,16 @@
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__hZgZ {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
 }
 .freeBox__hZgZ > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -442,9 +442,9 @@
   margin-top: 4px;
 }
 .location {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -453,8 +453,8 @@
 }
 .location > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);

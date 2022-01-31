@@ -6,8 +6,8 @@
   justify-content: flex-start;
 }
 .parent {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   background: #3366ff;
@@ -18,8 +18,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
 }

@@ -1,6 +1,6 @@
 .sidePanel {
-  display: inline-flex;
   flex-direction: column;
+  display: inline-flex;
   width: auto;
   height: auto;
   position: relative;
@@ -8,8 +8,8 @@
 }
 .sidePanel > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
@@ -23,12 +23,12 @@
   > img {
   margin-top: 6px;
 }
-.sidePanel___switch {
+.sidePanel_switch {
   height: 900px;
   width: 270px;
   padding: 8px;
 }
-.sidePanel___switch > :global(.__wab_flex-container) {
+.sidePanel_switch > :global(.__wab_flex-container) {
   justify-content: flex-start;
   align-items: flex-start;
   margin-left: calc(0px - 0px);
@@ -36,10 +36,10 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.sidePanel___switch > :global(.__wab_flex-container) > *,
-.sidePanel___switch > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.sidePanel___switch > :global(.__wab_flex-container) > picture > img,
-.sidePanel___switch
+.sidePanel_switch > :global(.__wab_flex-container) > *,
+.sidePanel_switch > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sidePanel_switch > :global(.__wab_flex-container) > picture > img,
+.sidePanel_switch
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -48,8 +48,8 @@
   margin-top: 8px;
 }
 .navCard {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 360px;
   height: 100%;
   min-height: 0;
@@ -57,8 +57,8 @@
 }
 .navCard > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-height: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -73,14 +73,14 @@
   > img {
   margin-left: 8px;
 }
-.navCard___switch {
+.navCard_switch {
   height: 36px;
   width: 100%;
   padding-right: 8px;
   min-width: 0;
   flex-shrink: 0;
 }
-.navCard___switch > :global(.__wab_flex-container) {
+.navCard_switch > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .sidePanel .navCard:hover {
@@ -112,23 +112,23 @@
   height: auto;
   min-width: 0;
 }
-.navLinkParent___switch {
+.navLinkParent_switch {
   height: 36px;
   width: 100%;
   min-width: 0;
 }
-.navLink___switch:global(.__wab_instance) {
+.navLink_switch:global(.__wab_instance) {
   width: auto;
   height: 36px;
 }
 .slotTargetLinkText {
   font-weight: 400;
 }
-.slotTargetLinkText___switch {
+.slotTargetLinkText_switch {
   font-size: 16px;
   line-height: 1.5;
 }
-.slotTargetLinkText__user_partner {
+.slotTargetLinkTextuser_partner {
   line-height: 24px;
   font-size: 16px;
 }

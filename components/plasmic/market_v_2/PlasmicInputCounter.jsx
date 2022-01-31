@@ -37,7 +37,13 @@ function PlasmicInputCounter__RenderFunc(props) {
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <button className={classNames(projectcss.button, sty.button__kujiS)}>
+      <button
+        className={classNames(
+          projectcss.all,
+          projectcss.button,
+          sty.button__kujiS
+        )}
+      >
         <Icon107Icon
           className={classNames(projectcss.all, sty.svg__lKsQp)}
           role={"img"}
@@ -52,7 +58,13 @@ function PlasmicInputCounter__RenderFunc(props) {
         {"1"}
       </div>
 
-      <button className={classNames(projectcss.button, sty.button__uAdPd)}>
+      <button
+        className={classNames(
+          projectcss.all,
+          projectcss.button,
+          sty.button__uAdPd
+        )}
+      >
         <Icon109Icon
           className={classNames(projectcss.all, sty.svg__ojz8V)}
           role={"img"}

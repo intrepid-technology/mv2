@@ -42,7 +42,7 @@ function PlasmicCardFeatureHeadlineDescriptionPrimary__RenderFunc(props) {
     >
       <div
         className={classNames(projectcss.all, sty.freeBox__jYdaR, {
-          [sty.freeBox__alignment_left__jYdaR2HS6]: hasVariant(
+          [sty.freeBoxalignment_left__jYdaR2HS6]: hasVariant(
             variants,
             "alignment",
             "left"
@@ -51,7 +51,7 @@ function PlasmicCardFeatureHeadlineDescriptionPrimary__RenderFunc(props) {
       >
         <div
           className={classNames(projectcss.all, sty.freeBox__dczna, {
-            [sty.freeBox__alignment_left__dczna2HS6]: hasVariant(
+            [sty.freeBoxalignment_left__dczna2HS6]: hasVariant(
               variants,
               "alignment",
               "left"
@@ -62,7 +62,7 @@ function PlasmicCardFeatureHeadlineDescriptionPrimary__RenderFunc(props) {
             defaultContents: "Headline feature description",
             value: args.headlineSlot,
             className: classNames(sty.slotTargetHeadlineSlot, {
-              [sty.slotTargetHeadlineSlot__alignment_left]: hasVariant(
+              [sty.slotTargetHeadlineSlotalignment_left]: hasVariant(
                 variants,
                 "alignment",
                 "left"
@@ -79,7 +79,7 @@ function PlasmicCardFeatureHeadlineDescriptionPrimary__RenderFunc(props) {
               "135 characters max and try to keep it to four lines —————————————morning, when Gregor Samsa troubled dreams, he found himself trans in his bed into a horrible ",
             value: args.bodyTextSlot,
             className: classNames(sty.slotTargetBodyTextSlot, {
-              [sty.slotTargetBodyTextSlot__alignment_left]: hasVariant(
+              [sty.slotTargetBodyTextSlotalignment_left]: hasVariant(
                 variants,
                 "alignment",
                 "left"

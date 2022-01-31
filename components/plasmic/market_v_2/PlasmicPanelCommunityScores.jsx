@@ -39,8 +39,8 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__user_member]: hasVariant(variants, "user", "member"),
-        [sty.root__user_partner]: hasVariant(variants, "user", "partner")
+        [sty.rootuser_member]: hasVariant(variants, "user", "member"),
+        [sty.rootuser_partner]: hasVariant(variants, "user", "partner")
       })}
     >
       <p.Stack
@@ -58,13 +58,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.__wab_text,
             sty.headlineCommunity,
             {
-              [sty.headlineCommunity__user_member]: hasVariant(
+              [sty.headlineCommunityuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.headlineCommunity__user_partner]: hasVariant(
+              [sty.headlineCommunityuser_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -81,7 +81,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
           data-plasmic-override={overrides.elementUserbadges}
           hasGap={true}
           className={classNames(projectcss.all, sty.elementUserbadges, {
-            [sty.elementUserbadges__user_partner]: hasVariant(
+            [sty.elementUserbadgesuser_partner]: hasVariant(
               variants,
               "user",
               "partner"
@@ -100,13 +100,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"tagMemberD"}
               data-plasmic-override={overrides.tagMemberD}
               className={classNames("__wab_instance", sty.tagMemberD, {
-                [sty.tagMemberD__user_member]: hasVariant(
+                [sty.tagMemberDuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
                 ),
 
-                [sty.tagMemberD__user_partner]: hasVariant(
+                [sty.tagMemberDuser_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"
@@ -119,7 +119,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               data-plasmic-name={"tagPartnerD"}
               data-plasmic-override={overrides.tagPartnerD}
               className={classNames("__wab_instance", sty.tagPartnerD, {
-                [sty.tagPartnerD__user_partner]: hasVariant(
+                [sty.tagPartnerDuser_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"
@@ -152,13 +152,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementUserSocialFollowingA,
             {
-              [sty.elementUserSocialFollowingA__user_member]: hasVariant(
+              [sty.elementUserSocialFollowingAuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.elementUserSocialFollowingA__user_partner]: hasVariant(
+              [sty.elementUserSocialFollowingAuser_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -172,7 +172,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.followingParent2}
             hasGap={true}
             className={classNames(projectcss.all, sty.followingParent2, {
-              [sty.followingParent2__user_member]: hasVariant(
+              [sty.followingParent2user_member]: hasVariant(
                 variants,
                 "user",
                 "member"
@@ -227,7 +227,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__qqpfd,
                 {
-                  [sty.text__user_member__qqpfdDUag]: hasVariant(
+                  [sty.textuser_member__qqpfdDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -250,13 +250,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementMemberSubscriptionsLists,
             {
-              [sty.elementMemberSubscriptionsLists__user_member]: hasVariant(
+              [sty.elementMemberSubscriptionsListsuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.elementMemberSubscriptionsLists__user_partner]: hasVariant(
+              [sty.elementMemberSubscriptionsListsuser_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -273,7 +273,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               projectcss.all,
               sty.memberSubscriptionCountParent,
               {
-                [sty.memberSubscriptionCountParent__user_member]: hasVariant(
+                [sty.memberSubscriptionCountParentuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
@@ -289,13 +289,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.memberSubscriptionNumberCount,
                 {
-                  [sty.memberSubscriptionNumberCount__user_member]: hasVariant(
+                  [sty.memberSubscriptionNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.memberSubscriptionNumberCount__user_partner]: hasVariant(
+                  [sty.memberSubscriptionNumberCountuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -312,7 +312,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__ryhCi,
                 {
-                  [sty.text__user_member__ryhCiDUag]: hasVariant(
+                  [sty.textuser_member__ryhCiDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -332,7 +332,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.memberListsCountParent}
             hasGap={true}
             className={classNames(projectcss.all, sty.memberListsCountParent, {
-              [sty.memberListsCountParent__user_member]: hasVariant(
+              [sty.memberListsCountParentuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
@@ -347,7 +347,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.memberListNumberCount,
                 {
-                  [sty.memberListNumberCount__user_member]: hasVariant(
+                  [sty.memberListNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -364,7 +364,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__uRoh2,
                 {
-                  [sty.text__user_member__uRoh2DUag]: hasVariant(
+                  [sty.textuser_member__uRoh2DUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -387,7 +387,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementMemberFollowersTeams,
             {
-              [sty.elementMemberFollowersTeams__user_member]: hasVariant(
+              [sty.elementMemberFollowersTeamsuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
@@ -404,7 +404,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               projectcss.all,
               sty.memberConnectionCountParent,
               {
-                [sty.memberConnectionCountParent__user_member]: hasVariant(
+                [sty.memberConnectionCountParentuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
@@ -420,7 +420,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.memberConnectionNumberCount,
                 {
-                  [sty.memberConnectionNumberCount__user_member]: hasVariant(
+                  [sty.memberConnectionNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -437,7 +437,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__vfmsc,
                 {
-                  [sty.text__user_member__vfmscDUag]: hasVariant(
+                  [sty.textuser_member__vfmscDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -458,7 +458,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               projectcss.all,
               sty.memberFollowersCountParent,
               {
-                [sty.memberFollowersCountParent__user_member]: hasVariant(
+                [sty.memberFollowersCountParentuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
@@ -474,7 +474,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.memberfollowersNumberCount,
                 {
-                  [sty.memberfollowersNumberCount__user_member]: hasVariant(
+                  [sty.memberfollowersNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -491,7 +491,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__xrkqa,
                 {
-                  [sty.text__user_member__xrkqaDUag]: hasVariant(
+                  [sty.textuser_member__xrkqaDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -520,13 +520,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementUserSocialFollowingB,
             {
-              [sty.elementUserSocialFollowingB__user_member]: hasVariant(
+              [sty.elementUserSocialFollowingBuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.elementUserSocialFollowingB__user_partner]: hasVariant(
+              [sty.elementUserSocialFollowingBuser_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -559,7 +559,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__ehvI9,
                 {
-                  [sty.text__user_member__ehvI9DUag]: hasVariant(
+                  [sty.textuser_member__ehvI9DUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -579,13 +579,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             data-plasmic-override={overrides.followersParent}
             hasGap={true}
             className={classNames(projectcss.all, sty.followersParent, {
-              [sty.followersParent__user_member]: hasVariant(
+              [sty.followersParentuser_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.followersParent__user_partner]: hasVariant(
+              [sty.followersParentuser_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -610,7 +610,7 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__ii48V,
                 {
-                  [sty.text__user_member__ii48VDUag]: hasVariant(
+                  [sty.textuser_member__ii48VDUag]: hasVariant(
                     variants,
                     "user",
                     "member"
@@ -641,9 +641,9 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementPartnerSubscriberReviewsParent,
             {
-              [sty.elementPartnerSubscriberReviewsParent__user_member]:
+              [sty.elementPartnerSubscriberReviewsParentuser_member]:
                 hasVariant(variants, "user", "member"),
-              [sty.elementPartnerSubscriberReviewsParent__user_partner]:
+              [sty.elementPartnerSubscriberReviewsParentuser_partner]:
                 hasVariant(variants, "user", "partner")
             }
           )}
@@ -658,13 +658,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.all,
                 sty.partnerSubscriberCountParent,
                 {
-                  [sty.partnerSubscriberCountParent__user_member]: hasVariant(
+                  [sty.partnerSubscriberCountParentuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerSubscriberCountParent__user_partner]: hasVariant(
+                  [sty.partnerSubscriberCountParentuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -680,10 +680,17 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.partnerSubscribersNumberCount,
                   {
-                    [sty.partnerSubscribersNumberCount__user_member]:
-                      hasVariant(variants, "user", "member"),
-                    [sty.partnerSubscribersNumberCount__user_partner]:
-                      hasVariant(variants, "user", "partner")
+                    [sty.partnerSubscribersNumberCountuser_member]: hasVariant(
+                      variants,
+                      "user",
+                      "member"
+                    ),
+
+                    [sty.partnerSubscribersNumberCountuser_partner]: hasVariant(
+                      variants,
+                      "user",
+                      "partner"
+                    )
                   }
                 )}
               >
@@ -698,13 +705,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.partnerSubscribersText,
                   {
-                    [sty.partnerSubscribersText__user_member]: hasVariant(
+                    [sty.partnerSubscribersTextuser_member]: hasVariant(
                       variants,
                       "user",
                       "member"
                     ),
 
-                    [sty.partnerSubscribersText__user_partner]: hasVariant(
+                    [sty.partnerSubscribersTextuser_partner]: hasVariant(
                       variants,
                       "user",
                       "partner"
@@ -728,13 +735,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.all,
                 sty.partnerTeamReviewCountParent,
                 {
-                  [sty.partnerTeamReviewCountParent__user_member]: hasVariant(
+                  [sty.partnerTeamReviewCountParentuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerTeamReviewCountParent__user_partner]: hasVariant(
+                  [sty.partnerTeamReviewCountParentuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -750,13 +757,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.partnerReviewsNumberCount,
                   {
-                    [sty.partnerReviewsNumberCount__user_member]: hasVariant(
+                    [sty.partnerReviewsNumberCountuser_member]: hasVariant(
                       variants,
                       "user",
                       "member"
                     ),
 
-                    [sty.partnerReviewsNumberCount__user_partner]: hasVariant(
+                    [sty.partnerReviewsNumberCountuser_partner]: hasVariant(
                       variants,
                       "user",
                       "partner"
@@ -775,13 +782,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.partnerReviewsText,
                   {
-                    [sty.partnerReviewsText__user_member]: hasVariant(
+                    [sty.partnerReviewsTextuser_member]: hasVariant(
                       variants,
                       "user",
                       "member"
                     ),
 
-                    [sty.partnerReviewsText__user_partner]: hasVariant(
+                    [sty.partnerReviewsTextuser_partner]: hasVariant(
                       variants,
                       "user",
                       "partner"
@@ -815,13 +822,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
             projectcss.all,
             sty.elementUserFollowersTeams3,
             {
-              [sty.elementUserFollowersTeams3__user_member]: hasVariant(
+              [sty.elementUserFollowersTeams3user_member]: hasVariant(
                 variants,
                 "user",
                 "member"
               ),
 
-              [sty.elementUserFollowersTeams3__user_partner]: hasVariant(
+              [sty.elementUserFollowersTeams3user_partner]: hasVariant(
                 variants,
                 "user",
                 "partner"
@@ -838,13 +845,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               projectcss.all,
               sty.partnerConnectionsCountParent,
               {
-                [sty.partnerConnectionsCountParent__user_member]: hasVariant(
+                [sty.partnerConnectionsCountParentuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
                 ),
 
-                [sty.partnerConnectionsCountParent__user_partner]: hasVariant(
+                [sty.partnerConnectionsCountParentuser_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"
@@ -860,13 +867,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.partnerFollowingNumberCount,
                 {
-                  [sty.partnerFollowingNumberCount__user_member]: hasVariant(
+                  [sty.partnerFollowingNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerFollowingNumberCount__user_partner]: hasVariant(
+                  [sty.partnerFollowingNumberCountuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -885,13 +892,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.partnerConnectionsText,
                 {
-                  [sty.partnerConnectionsText__user_member]: hasVariant(
+                  [sty.partnerConnectionsTextuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerConnectionsText__user_partner]: hasVariant(
+                  [sty.partnerConnectionsTextuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -916,13 +923,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
               projectcss.all,
               sty.partnerFollowersCountParent,
               {
-                [sty.partnerFollowersCountParent__user_member]: hasVariant(
+                [sty.partnerFollowersCountParentuser_member]: hasVariant(
                   variants,
                   "user",
                   "member"
                 ),
 
-                [sty.partnerFollowersCountParent__user_partner]: hasVariant(
+                [sty.partnerFollowersCountParentuser_partner]: hasVariant(
                   variants,
                   "user",
                   "partner"
@@ -938,13 +945,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.partnerfollowersNumberCount,
                 {
-                  [sty.partnerfollowersNumberCount__user_member]: hasVariant(
+                  [sty.partnerfollowersNumberCountuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerfollowersNumberCount__user_partner]: hasVariant(
+                  [sty.partnerfollowersNumberCountuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"
@@ -963,13 +970,13 @@ function PlasmicPanelCommunityScores__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.partnerFollowersText,
                 {
-                  [sty.partnerFollowersText__user_member]: hasVariant(
+                  [sty.partnerFollowersTextuser_member]: hasVariant(
                     variants,
                     "user",
                     "member"
                   ),
 
-                  [sty.partnerFollowersText__user_partner]: hasVariant(
+                  [sty.partnerFollowersTextuser_partner]: hasVariant(
                     variants,
                     "user",
                     "partner"

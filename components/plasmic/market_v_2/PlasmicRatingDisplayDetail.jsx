@@ -50,8 +50,8 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(projectcss.all, sty.svg, {
-          [sty.svg__size__14]: hasVariant(variants, "size", "_14"),
-          [sty.svg__size__16]: hasVariant(variants, "size", "_16")
+          [sty.svgsize__14]: hasVariant(variants, "size", "_14"),
+          [sty.svgsize__16]: hasVariant(variants, "size", "_16")
         })}
         role={"img"}
       />
@@ -65,19 +65,19 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
           defaultContents: "4.67",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_primaryB]: hasVariant(
+            [sty.slotTargetChildrencolor_primaryB]: hasVariant(
               variants,
               "color",
               "primaryB"
             ),
 
-            [sty.slotTargetChildren__size__14]: hasVariant(
+            [sty.slotTargetChildrensize__14]: hasVariant(
               variants,
               "size",
               "_14"
             ),
 
-            [sty.slotTargetChildren__size__16]: hasVariant(
+            [sty.slotTargetChildrensize__16]: hasVariant(
               variants,
               "size",
               "_16"
@@ -91,7 +91,7 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
           data-plasmic-name={"ratingReviewAmount"}
           data-plasmic-override={overrides.ratingReviewAmount}
           className={classNames("__wab_instance", sty.ratingReviewAmount, {
-            [sty.ratingReviewAmount__reviews]: hasVariant(
+            [sty.ratingReviewAmountreviews]: hasVariant(
               variants,
               "reviews",
               "reviews"
@@ -102,29 +102,20 @@ function PlasmicRatingDisplayDetail__RenderFunc(props) {
             defaultContents: "(12)",
             value: args.slot,
             className: classNames(sty.slotTargetSlot, {
-              [sty.slotTargetSlot__color_primaryB]: hasVariant(
+              [sty.slotTargetSlotcolor_primaryB]: hasVariant(
                 variants,
                 "color",
                 "primaryB"
               ),
 
-              [sty.slotTargetSlot__reviews]: hasVariant(
+              [sty.slotTargetSlotreviews]: hasVariant(
                 variants,
                 "reviews",
                 "reviews"
               ),
 
-              [sty.slotTargetSlot__size__14]: hasVariant(
-                variants,
-                "size",
-                "_14"
-              ),
-
-              [sty.slotTargetSlot__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              )
+              [sty.slotTargetSlotsize__14]: hasVariant(variants, "size", "_14"),
+              [sty.slotTargetSlotsize__16]: hasVariant(variants, "size", "_16")
             })
           })}
         </RatingReviewAmount>

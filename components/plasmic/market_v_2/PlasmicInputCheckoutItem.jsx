@@ -47,7 +47,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
       {(hasVariant(variants, "headline", "headline") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox__eGohH, {
-            [sty.freeBox__headline__eGohHkEQfN]: hasVariant(
+            [sty.freeBoxheadline__eGohHkEQfN]: hasVariant(
               variants,
               "headline",
               "headline"
@@ -56,7 +56,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
         >
           <div
             className={classNames(projectcss.all, sty.freeBox__wc9Ah, {
-              [sty.freeBox__headline__wc9AhkEQfN]: hasVariant(
+              [sty.freeBoxheadline__wc9AhkEQfN]: hasVariant(
                 variants,
                 "headline",
                 "headline"
@@ -102,7 +102,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__lfmpq, {
-              [sty.freeBox__description__lfmpq0AOtn]: hasVariant(
+              [sty.freeBoxdescription__lfmpq0AOtn]: hasVariant(
                 variants,
                 "description",
                 "description"
@@ -113,7 +113,7 @@ function PlasmicInputCheckoutItem__RenderFunc(props) {
               defaultContents: "Description",
               value: args.children,
               className: classNames(sty.slotTargetChildren, {
-                [sty.slotTargetChildren__description]: hasVariant(
+                [sty.slotTargetChildrendescription]: hasVariant(
                   variants,
                   "description",
                   "description"

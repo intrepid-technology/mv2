@@ -58,8 +58,8 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__border]: hasVariant(variants, "border", "border"),
-        [sty.root__multiLineText]: hasVariant(
+        [sty.rootborder]: hasVariant(variants, "border", "border"),
+        [sty.rootmultiLineText]: hasVariant(
           variants,
           "multiLineText",
           "multiLineText"
@@ -70,8 +70,8 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__border]: hasVariant(variants, "border", "border"),
-          [sty.parent__multiLineText]: hasVariant(
+          [sty.parentborder]: hasVariant(variants, "border", "border"),
+          [sty.parentmultiLineText]: hasVariant(
             variants,
             "multiLineText",
             "multiLineText"
@@ -84,50 +84,50 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.mainCard}
           hasGap={true}
           className={classNames(projectcss.all, sty.mainCard, {
-            [sty.mainCard__border]: hasVariant(variants, "border", "border"),
-            [sty.mainCard__inputType_companyname]: hasVariant(
+            [sty.mainCardborder]: hasVariant(variants, "border", "border"),
+            [sty.mainCardinputType_companyname]: hasVariant(
               variants,
               "inputType",
               "companyname"
             ),
 
-            [sty.mainCard__inputType_displayText]: hasVariant(
+            [sty.mainCardinputType_displayText]: hasVariant(
               variants,
               "inputType",
               "displayText"
             ),
 
-            [sty.mainCard__inputType_dropdownDropdown]: hasVariant(
+            [sty.mainCardinputType_dropdownDropdown]: hasVariant(
               variants,
               "inputType",
               "dropdownDropdown"
             ),
 
-            [sty.mainCard__inputType_dropdownText]: hasVariant(
+            [sty.mainCardinputType_dropdownText]: hasVariant(
               variants,
               "inputType",
               "dropdownText"
             ),
 
-            [sty.mainCard__inputType_username]: hasVariant(
+            [sty.mainCardinputType_username]: hasVariant(
               variants,
               "inputType",
               "username"
             ),
 
-            [sty.mainCard__multiLineText]: hasVariant(
+            [sty.mainCardmultiLineText]: hasVariant(
               variants,
               "multiLineText",
               "multiLineText"
             ),
 
-            [sty.mainCard__singleLineText]: hasVariant(
+            [sty.mainCardsingleLineText]: hasVariant(
               variants,
               "singleLineText",
               "singleLineText"
             ),
 
-            [sty.mainCard__singleLineText_multiLineText]:
+            [sty.mainCardsingleLineText_multiLineText]:
               hasVariant(variants, "singleLineText", "singleLineText") &&
               hasVariant(variants, "multiLineText", "multiLineText")
           })}
@@ -138,13 +138,13 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             data-plasmic-override={overrides.headlineParent}
             hasGap={true}
             className={classNames(projectcss.all, sty.headlineParent, {
-              [sty.headlineParent__inputType_dropdownText]: hasVariant(
+              [sty.headlineParentinputType_dropdownText]: hasVariant(
                 variants,
                 "inputType",
                 "dropdownText"
               ),
 
-              [sty.headlineParent__multiLineText]: hasVariant(
+              [sty.headlineParentmultiLineText]: hasVariant(
                 variants,
                 "multiLineText",
                 "multiLineText"
@@ -153,7 +153,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
           >
             <div
               className={classNames(projectcss.all, sty.freeBox__iEhR, {
-                [sty.freeBox__multiLineText__iEhRRgBtF]: hasVariant(
+                [sty.freeBoxmultiLineText__iEhRRgBtF]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
@@ -164,22 +164,22 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                 defaultContents: "Headline",
                 value: args.headline,
                 className: classNames(sty.slotTargetHeadline, {
-                  [sty.slotTargetHeadline__button_subDescription]:
+                  [sty.slotTargetHeadlinebutton_subDescription]:
                     hasVariant(variants, "button", "button") &&
                     hasVariant(variants, "subDescription", "subDescription"),
-                  [sty.slotTargetHeadline__inputType_dropdownText]: hasVariant(
+                  [sty.slotTargetHeadlineinputType_dropdownText]: hasVariant(
                     variants,
                     "inputType",
                     "dropdownText"
                   ),
 
-                  [sty.slotTargetHeadline__multiLineText]: hasVariant(
+                  [sty.slotTargetHeadlinemultiLineText]: hasVariant(
                     variants,
                     "multiLineText",
                     "multiLineText"
                   ),
 
-                  [sty.slotTargetHeadline__singleLineText]: hasVariant(
+                  [sty.slotTargetHeadlinesingleLineText]: hasVariant(
                     variants,
                     "singleLineText",
                     "singleLineText"
@@ -192,31 +192,31 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               defaultContents: "Sub head",
               value: args.subHead,
               className: classNames(sty.slotTargetSubHead, {
-                [sty.slotTargetSubHead__inputType_companyname]: hasVariant(
+                [sty.slotTargetSubHeadinputType_companyname]: hasVariant(
                   variants,
                   "inputType",
                   "companyname"
                 ),
 
-                [sty.slotTargetSubHead__inputType_dropdownText]: hasVariant(
+                [sty.slotTargetSubHeadinputType_dropdownText]: hasVariant(
                   variants,
                   "inputType",
                   "dropdownText"
                 ),
 
-                [sty.slotTargetSubHead__inputType_username]: hasVariant(
+                [sty.slotTargetSubHeadinputType_username]: hasVariant(
                   variants,
                   "inputType",
                   "username"
                 ),
 
-                [sty.slotTargetSubHead__multiLineText]: hasVariant(
+                [sty.slotTargetSubHeadmultiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
                 ),
 
-                [sty.slotTargetSubHead__singleLineText]: hasVariant(
+                [sty.slotTargetSubHeadsingleLineText]: hasVariant(
                   variants,
                   "singleLineText",
                   "singleLineText"
@@ -236,39 +236,43 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               data-plasmic-override={overrides.inputElementParent}
               hasGap={true}
               className={classNames(projectcss.all, sty.inputElementParent, {
-                [sty.inputElementParent__inputType_companyname]: hasVariant(
+                [sty.inputElementParentinputType_companyname]: hasVariant(
                   variants,
                   "inputType",
                   "companyname"
                 ),
 
-                [sty.inputElementParent__inputType_displayText]: hasVariant(
+                [sty.inputElementParentinputType_displayText]: hasVariant(
                   variants,
                   "inputType",
                   "displayText"
                 ),
 
-                [sty.inputElementParent__inputType_dropdownDropdown]:
-                  hasVariant(variants, "inputType", "dropdownDropdown"),
-                [sty.inputElementParent__inputType_dropdownText]: hasVariant(
+                [sty.inputElementParentinputType_dropdownDropdown]: hasVariant(
+                  variants,
+                  "inputType",
+                  "dropdownDropdown"
+                ),
+
+                [sty.inputElementParentinputType_dropdownText]: hasVariant(
                   variants,
                   "inputType",
                   "dropdownText"
                 ),
 
-                [sty.inputElementParent__inputType_username]: hasVariant(
+                [sty.inputElementParentinputType_username]: hasVariant(
                   variants,
                   "inputType",
                   "username"
                 ),
 
-                [sty.inputElementParent__multiLineText]: hasVariant(
+                [sty.inputElementParentmultiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
                 ),
 
-                [sty.inputElementParent__singleLineText]: hasVariant(
+                [sty.inputElementParentsingleLineText]: hasVariant(
                   variants,
                   "singleLineText",
                   "singleLineText"
@@ -283,7 +287,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.buttonFormDropdownSelect__hayT,
                     {
-                      [sty.buttonFormDropdownSelect__inputType_dropdownText__hayTHRwL0]:
+                      [sty.buttonFormDropdownSelectinputType_dropdownText__hayTHRwL0]:
                         hasVariant(variants, "inputType", "dropdownText")
                     }
                   )}
@@ -320,7 +324,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.buttonFormDropdownSelect__kiKbI,
                     {
-                      [sty.buttonFormDropdownSelect__inputType_dropdownDropdown__kiKbIl2Zus]:
+                      [sty.buttonFormDropdownSelectinputType_dropdownDropdown__kiKbIl2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown")
                     }
                   )}
@@ -350,7 +354,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.buttonFormDropdownSelect__q7QBy,
                     {
-                      [sty.buttonFormDropdownSelect__inputType_dropdownDropdown__q7QByl2Zus]:
+                      [sty.buttonFormDropdownSelectinputType_dropdownDropdown__q7QByl2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown")
                     }
                   )}
@@ -375,17 +379,24 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               ) ? (
                 <div
                   className={classNames(projectcss.all, sty.freeBox___5AQd8, {
-                    [sty.freeBox__inputType_companyname___5AQd8YQu0E]:
-                      hasVariant(variants, "inputType", "companyname"),
-                    [sty.freeBox__inputType_displayText___5AQd8Ko3Kh]:
-                      hasVariant(variants, "inputType", "displayText")
+                    [sty.freeBoxinputType_companyname___5AQd8YQu0E]: hasVariant(
+                      variants,
+                      "inputType",
+                      "companyname"
+                    ),
+
+                    [sty.freeBoxinputType_displayText___5AQd8Ko3Kh]: hasVariant(
+                      variants,
+                      "inputType",
+                      "displayText"
+                    )
                   })}
                 >
                   {p.renderPlasmicSlot({
                     defaultContents: "Enter some text",
                     value: args.slot,
                     className: classNames(sty.slotTargetSlot, {
-                      [sty.slotTargetSlot__inputType_displayText]: hasVariant(
+                      [sty.slotTargetSlotinputType_displayText]: hasVariant(
                         variants,
                         "inputType",
                         "displayText"
@@ -416,24 +427,27 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.inputTextForm__pjy7,
                     {
-                      [sty.inputTextForm__inputType_companyname__pjy7YQu0E]:
+                      [sty.inputTextForminputType_companyname__pjy7YQu0E]:
                         hasVariant(variants, "inputType", "companyname"),
-                      [sty.inputTextForm__inputType_displayText__pjy7Ko3Kh]:
+                      [sty.inputTextForminputType_displayText__pjy7Ko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.inputTextForm__inputType_dropdownDropdown__pjy7L2Zus]:
+                      [sty.inputTextForminputType_dropdownDropdown__pjy7L2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.inputTextForm__inputType_dropdownText__pjy7HRwL0]:
+                      [sty.inputTextForminputType_dropdownText__pjy7HRwL0]:
                         hasVariant(variants, "inputType", "dropdownText"),
-                      [sty.inputTextForm__inputType_username__pjy73UQvi]:
+                      [sty.inputTextForminputType_username__pjy73UQvi]:
                         hasVariant(variants, "inputType", "username"),
-                      [sty.inputTextForm__multiLineText__pjy7RgBtF]: hasVariant(
+                      [sty.inputTextFormmultiLineText__pjy7RgBtF]: hasVariant(
                         variants,
                         "multiLineText",
                         "multiLineText"
                       ),
 
-                      [sty.inputTextForm__singleLineText__pjy75VFan]:
-                        hasVariant(variants, "singleLineText", "singleLineText")
+                      [sty.inputTextFormsingleLineText__pjy75VFan]: hasVariant(
+                        variants,
+                        "singleLineText",
+                        "singleLineText"
+                      )
                     }
                   )}
                   labelHeadline={"First name"}
@@ -462,20 +476,27 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.inputTextForm__qbxL0,
                     {
-                      [sty.inputTextForm__inputType_companyname__qbxL0YQu0E]:
+                      [sty.inputTextForminputType_companyname__qbxL0YQu0E]:
                         hasVariant(variants, "inputType", "companyname"),
-                      [sty.inputTextForm__inputType_displayText__qbxL0Ko3Kh]:
+                      [sty.inputTextForminputType_displayText__qbxL0Ko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.inputTextForm__inputType_dropdownDropdown__qbxL0L2Zus]:
+                      [sty.inputTextForminputType_dropdownDropdown__qbxL0L2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.inputTextForm__inputType_dropdownText__qbxL0HRwL0]:
+                      [sty.inputTextForminputType_dropdownText__qbxL0HRwL0]:
                         hasVariant(variants, "inputType", "dropdownText"),
-                      [sty.inputTextForm__inputType_username__qbxL03UQvi]:
+                      [sty.inputTextForminputType_username__qbxL03UQvi]:
                         hasVariant(variants, "inputType", "username"),
-                      [sty.inputTextForm__multiLineText__qbxL0RgBtF]:
-                        hasVariant(variants, "multiLineText", "multiLineText"),
-                      [sty.inputTextForm__singleLineText__qbxL05VFan]:
-                        hasVariant(variants, "singleLineText", "singleLineText")
+                      [sty.inputTextFormmultiLineText__qbxL0RgBtF]: hasVariant(
+                        variants,
+                        "multiLineText",
+                        "multiLineText"
+                      ),
+
+                      [sty.inputTextFormsingleLineText__qbxL05VFan]: hasVariant(
+                        variants,
+                        "singleLineText",
+                        "singleLineText"
+                      )
                     }
                   )}
                   labelHeadline={"Last name"}
@@ -491,7 +512,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   data-plasmic-name={"textMultiLineA"}
                   data-plasmic-override={overrides.textMultiLineA}
                   className={classNames("__wab_instance", sty.textMultiLineA, {
-                    [sty.textMultiLineA__multiLineText]: hasVariant(
+                    [sty.textMultiLineAmultiLineText]: hasVariant(
                       variants,
                       "multiLineText",
                       "multiLineText"
@@ -512,11 +533,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     "__wab_instance",
                     sty.inputTextForm__x0DYe,
                     {
-                      [sty.inputTextForm__inputType_displayText__x0DYeko3Kh]:
+                      [sty.inputTextForminputType_displayText__x0DYeko3Kh]:
                         hasVariant(variants, "inputType", "displayText"),
-                      [sty.inputTextForm__inputType_dropdownDropdown__x0DYEl2Zus]:
+                      [sty.inputTextForminputType_dropdownDropdown__x0DYEl2Zus]:
                         hasVariant(variants, "inputType", "dropdownDropdown"),
-                      [sty.inputTextForm__inputType_dropdownText__x0DYEhRwL0]:
+                      [sty.inputTextForminputType_dropdownText__x0DYEhRwL0]:
                         hasVariant(variants, "inputType", "dropdownText")
                     }
                   )}
@@ -530,7 +551,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       : "City",
                     value: args.slotLabel,
                     className: classNames(sty.slotTargetSlotLabel, {
-                      [sty.slotTargetSlotLabel__inputType_dropdownText]:
+                      [sty.slotTargetSlotLabelinputType_dropdownText]:
                         hasVariant(variants, "inputType", "dropdownText")
                     })
                   })}
@@ -553,13 +574,13 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     projectcss.all,
                     sty.inputTextContainer,
                     {
-                      [sty.inputTextContainer__multiLineText]: hasVariant(
+                      [sty.inputTextContainermultiLineText]: hasVariant(
                         variants,
                         "multiLineText",
                         "multiLineText"
                       ),
 
-                      [sty.inputTextContainer__singleLineText]: hasVariant(
+                      [sty.inputTextContainersingleLineText]: hasVariant(
                         variants,
                         "singleLineText",
                         "singleLineText"
@@ -576,7 +597,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       projectcss.all,
                       sty.singleLineTextContainerParent,
                       {
-                        [sty.singleLineTextContainerParent__singleLineText]:
+                        [sty.singleLineTextContainerParentsingleLineText]:
                           hasVariant(
                             variants,
                             "singleLineText",
@@ -589,6 +610,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       defaultContents: (
                         <input
                           className={classNames(
+                            projectcss.all,
                             projectcss.input,
                             sty.textInput__dZu8N
                           )}
@@ -611,13 +633,13 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   data-plasmic-name={"urlTextParent"}
                   data-plasmic-override={overrides.urlTextParent}
                   className={classNames(projectcss.all, sty.urlTextParent, {
-                    [sty.urlTextParent__inputType_dropdownText]: hasVariant(
+                    [sty.urlTextParentinputType_dropdownText]: hasVariant(
                       variants,
                       "inputType",
                       "dropdownText"
                     ),
 
-                    [sty.urlTextParent__inputType_username]: hasVariant(
+                    [sty.urlTextParentinputType_username]: hasVariant(
                       variants,
                       "inputType",
                       "username"
@@ -632,7 +654,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       projectcss.__wab_text,
                       sty.text,
                       {
-                        [sty.text__inputType_username]: hasVariant(
+                        [sty.textinputType_username]: hasVariant(
                           variants,
                           "inputType",
                           "username"
@@ -649,11 +671,15 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               ) ? (
                 <input
                   className={classNames(
+                    projectcss.all,
                     projectcss.input,
                     sty.textInput__tzwN1,
                     {
-                      [sty.textInput__inputType_username__tzwN13UQvi]:
-                        hasVariant(variants, "inputType", "username")
+                      [sty.textInputinputType_username__tzwN13UQvi]: hasVariant(
+                        variants,
+                        "inputType",
+                        "username"
+                      )
                     }
                   )}
                   placeholder={"Some placeholder"}
@@ -669,7 +695,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   data-plasmic-name={"inputTextParent"}
                   data-plasmic-override={overrides.inputTextParent}
                   className={classNames(projectcss.all, sty.inputTextParent, {
-                    [sty.inputTextParent__inputType_username]: hasVariant(
+                    [sty.inputTextParentinputType_username]: hasVariant(
                       variants,
                       "inputType",
                       "username"
@@ -681,10 +707,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   ) ? (
                     <input
                       className={classNames(
+                        projectcss.all,
                         projectcss.input,
                         sty.textInput__s9G9K,
                         {
-                          [sty.textInput__inputType_username__s9G9K3UQvi]:
+                          [sty.textInputinputType_username__s9G9K3UQvi]:
                             hasVariant(variants, "inputType", "username")
                         }
                       )}
@@ -709,13 +736,16 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               ) ? (
                 <div
                   className={classNames(projectcss.all, sty.freeBox__ucpw3, {
-                    [sty.freeBox__inputType_companyname__ucpw3YQu0E]:
-                      hasVariant(variants, "inputType", "companyname")
+                    [sty.freeBoxinputType_companyname__ucpw3YQu0E]: hasVariant(
+                      variants,
+                      "inputType",
+                      "companyname"
+                    )
                   })}
                 >
                   <div
                     className={classNames(projectcss.all, sty.freeBox__ti2Dh, {
-                      [sty.freeBox__inputType_companyname__ti2DhyQu0E]:
+                      [sty.freeBoxinputType_companyname__ti2DhyQu0E]:
                         hasVariant(variants, "inputType", "companyname")
                     })}
                   >
@@ -723,8 +753,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                       defaultContents: "intrepid.technology/company/",
                       value: args.slot2,
                       className: classNames(sty.slotTargetSlot2, {
-                        [sty.slotTargetSlot2__inputType_companyname]:
-                          hasVariant(variants, "inputType", "companyname")
+                        [sty.slotTargetSlot2inputType_companyname]: hasVariant(
+                          variants,
+                          "inputType",
+                          "companyname"
+                        )
                       })
                     })}
                   </div>
@@ -740,8 +773,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                     projectcss.all,
                     sty.inputUrlTextParent,
                     {
-                      [sty.inputUrlTextParent__inputType_companyname]:
-                        hasVariant(variants, "inputType", "companyname")
+                      [sty.inputUrlTextParentinputType_companyname]: hasVariant(
+                        variants,
+                        "inputType",
+                        "companyname"
+                      )
                     }
                   )}
                 >
@@ -752,10 +788,11 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   ) ? (
                     <input
                       className={classNames(
+                        projectcss.all,
                         projectcss.input,
                         sty.textInput__pm7Dz,
                         {
-                          [sty.textInput__inputType_companyname__pm7DzYQu0E]:
+                          [sty.textInputinputType_companyname__pm7DzYQu0E]:
                             hasVariant(variants, "inputType", "companyname")
                         }
                       )}
@@ -786,7 +823,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               data-plasmic-name={"textParent"}
               data-plasmic-override={overrides.textParent}
               className={classNames(projectcss.all, sty.textParent, {
-                [sty.textParent__multiLineText]: hasVariant(
+                [sty.textParentmultiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
@@ -800,13 +837,13 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   projectcss.all,
                   sty.inputMultiLineTextParent,
                   {
-                    [sty.inputMultiLineTextParent__multiLineText]: hasVariant(
+                    [sty.inputMultiLineTextParentmultiLineText]: hasVariant(
                       variants,
                       "multiLineText",
                       "multiLineText"
                     ),
 
-                    [sty.inputMultiLineTextParent__singleLineText]: hasVariant(
+                    [sty.inputMultiLineTextParentsingleLineText]: hasVariant(
                       variants,
                       "singleLineText",
                       "singleLineText"
@@ -818,6 +855,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
                   defaultContents: (
                     <textarea
                       className={classNames(
+                        projectcss.all,
                         projectcss.textarea,
                         sty.textarea___4QXp
                       )}
@@ -838,34 +876,34 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.descriptionCard}
           hasGap={true}
           className={classNames(projectcss.all, sty.descriptionCard, {
-            [sty.descriptionCard__button_subDescription]:
+            [sty.descriptionCardbutton_subDescription]:
               hasVariant(variants, "button", "button") &&
               hasVariant(variants, "subDescription", "subDescription"),
-            [sty.descriptionCard__inputType_companyname]: hasVariant(
+            [sty.descriptionCardinputType_companyname]: hasVariant(
               variants,
               "inputType",
               "companyname"
             ),
 
-            [sty.descriptionCard__inputType_dropdownText]: hasVariant(
+            [sty.descriptionCardinputType_dropdownText]: hasVariant(
               variants,
               "inputType",
               "dropdownText"
             ),
 
-            [sty.descriptionCard__inputType_username]: hasVariant(
+            [sty.descriptionCardinputType_username]: hasVariant(
               variants,
               "inputType",
               "username"
             ),
 
-            [sty.descriptionCard__singleLineText]: hasVariant(
+            [sty.descriptionCardsingleLineText]: hasVariant(
               variants,
               "singleLineText",
               "singleLineText"
             ),
 
-            [sty.descriptionCard__subDescription]: hasVariant(
+            [sty.descriptionCardsubDescription]: hasVariant(
               variants,
               "subDescription",
               "subDescription"
@@ -876,7 +914,7 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
             className={classNames(projectcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__subDescription]: hasVariant(
+              [sty.descriptionParentsubDescription]: hasVariant(
                 variants,
                 "subDescription",
                 "subDescription"
@@ -887,25 +925,25 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
               defaultContents: "Description",
               value: args.description,
               className: classNames(sty.slotTargetDescription, {
-                [sty.slotTargetDescription__inputType_displayText]: hasVariant(
+                [sty.slotTargetDescriptioninputType_displayText]: hasVariant(
                   variants,
                   "inputType",
                   "displayText"
                 ),
 
-                [sty.slotTargetDescription__inputType_dropdownText]: hasVariant(
+                [sty.slotTargetDescriptioninputType_dropdownText]: hasVariant(
                   variants,
                   "inputType",
                   "dropdownText"
                 ),
 
-                [sty.slotTargetDescription__multiLineText]: hasVariant(
+                [sty.slotTargetDescriptionmultiLineText]: hasVariant(
                   variants,
                   "multiLineText",
                   "multiLineText"
                 ),
 
-                [sty.slotTargetDescription__subDescription]: hasVariant(
+                [sty.slotTargetDescriptionsubDescription]: hasVariant(
                   variants,
                   "subDescription",
                   "subDescription"
@@ -918,13 +956,13 @@ function PlasmicInputFormCardPrimary__RenderFunc(props) {
             data-plasmic-name={"buttonPrimary"}
             data-plasmic-override={overrides.buttonPrimary}
             className={classNames("__wab_instance", sty.buttonPrimary, {
-              [sty.buttonPrimary__button]: hasVariant(
+              [sty.buttonPrimarybutton]: hasVariant(
                 variants,
                 "button",
                 "button"
               ),
 
-              [sty.buttonPrimary__subDescription]: hasVariant(
+              [sty.buttonPrimarysubDescription]: hasVariant(
                 variants,
                 "subDescription",
                 "subDescription"

@@ -48,10 +48,10 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__partner]: hasVariant(variants, "partner", "partner")
+        [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+        [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
+        [sty.rootpartner]: hasVariant(variants, "partner", "partner")
       })}
     >
       <p.Stack
@@ -73,7 +73,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           >
             <Icon42Icon
               className={classNames(projectcss.all, sty.svg__on4Gg, {
-                [sty.svg__color_light__on4GgVn8Xk]: hasVariant(
+                [sty.svgcolor_light__on4GgVn8Xk]: hasVariant(
                   variants,
                   "color",
                   "light"
@@ -93,13 +93,13 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text__zsyYr,
                   {
-                    [sty.text__color_light__zsyYrVn8Xk]: hasVariant(
+                    [sty.textcolor_light__zsyYrVn8Xk]: hasVariant(
                       variants,
                       "color",
                       "light"
                     ),
 
-                    [sty.text__partner__zsyYrwYrcz]: hasVariant(
+                    [sty.textpartner__zsyYrwYrcz]: hasVariant(
                       variants,
                       "partner",
                       "partner"
@@ -147,13 +147,13 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text___20Bn,
               {
-                [sty.text__color_light___20BnVn8Xk]: hasVariant(
+                [sty.textcolor_light___20BnVn8Xk]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.text__partner___20BNwYrcz]: hasVariant(
+                [sty.textpartner___20BNwYrcz]: hasVariant(
                   variants,
                   "partner",
                   "partner"
@@ -195,7 +195,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           data-plasmic-name={"textLinkArrow"}
           data-plasmic-override={overrides.textLinkArrow}
           className={classNames("__wab_instance", sty.textLinkArrow, {
-            [sty.textLinkArrow__color_light]: hasVariant(
+            [sty.textLinkArrowcolor_light]: hasVariant(
               variants,
               "color",
               "light"
@@ -206,7 +206,7 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
           svgRight={
             <Icon118Icon
               className={classNames(projectcss.all, sty.svg__lhcBs, {
-                [sty.svg__color_light__lhcBsVn8Xk]: hasVariant(
+                [sty.svgcolor_light__lhcBsVn8Xk]: hasVariant(
                   variants,
                   "color",
                   "light"
@@ -220,21 +220,22 @@ function PlasmicAlertRedirectUser__RenderFunc(props) {
             data-plasmic-name={"link"}
             data-plasmic-override={overrides.link}
             className={classNames(
+              projectcss.all,
               projectcss.a,
               projectcss.__wab_text,
               sty.link,
               {
-                [sty.link__color_brand]: hasVariant(variants, "color", "brand"),
-                [sty.link__color_dark]: hasVariant(variants, "color", "dark"),
-                [sty.link__color_light]: hasVariant(variants, "color", "light"),
-                [sty.link__partner]: hasVariant(variants, "partner", "partner"),
-                [sty.link__partner_color_brand]:
+                [sty.linkcolor_brand]: hasVariant(variants, "color", "brand"),
+                [sty.linkcolor_dark]: hasVariant(variants, "color", "dark"),
+                [sty.linkcolor_light]: hasVariant(variants, "color", "light"),
+                [sty.linkpartner]: hasVariant(variants, "partner", "partner"),
+                [sty.linkpartner_color_brand]:
                   hasVariant(variants, "partner", "partner") &&
                   hasVariant(variants, "color", "brand"),
-                [sty.link__partner_color_dark]:
+                [sty.linkpartner_color_dark]:
                   hasVariant(variants, "partner", "partner") &&
                   hasVariant(variants, "color", "dark"),
-                [sty.link__partner_color_light]:
+                [sty.linkpartner_color_light]:
                   hasVariant(variants, "partner", "partner") &&
                   hasVariant(variants, "color", "light")
               }

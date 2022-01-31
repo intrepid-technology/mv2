@@ -1,6 +1,6 @@
 .menuItemLink {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -11,8 +11,8 @@
 }
 .menuItemLink > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
@@ -29,7 +29,7 @@
 .menuItemLink:hover {
   background: #f8f8f8;
 }
-.menuItemLink__disabled:hover {
+.menuItemLinkdisabled:hover {
   background: #ffffff;
 }
 .textParent {
@@ -41,18 +41,18 @@
   font-size: 12px;
   line-height: 1.5;
 }
-.slotTargetText__disabled {
+.slotTargetTextdisabled {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetText__size__14Px {
+.slotTargetTextsize__14Px {
   font-size: 14px;
 }
-.slotTargetText__size__16Px {
+.slotTargetTextsize__16Px {
   font-size: 16px;
 }
 .menuItemLink:hover .slotTargetText {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.menuItemLink__disabled:hover .slotTargetText__disabled {
+.menuItemLinkdisabled:hover .slotTargetTextdisabled {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }

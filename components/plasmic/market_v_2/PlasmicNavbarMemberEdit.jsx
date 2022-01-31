@@ -50,22 +50,22 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       ) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink___6RIQ, {
-            [sty.navLink__navItems_membership___6RIQ7N6Rd]: hasVariant(
+            [sty.navLinknavItems_membership___6RIQ7N6Rd]: hasVariant(
               variants,
               "navItems",
               "membership"
             ),
 
-            [sty.navLink__navItems_profile___6RIQhh65T]: hasVariant(
+            [sty.navLinknavItems_profile___6RIQhh65T]: hasVariant(
               variants,
               "navItems",
               "profile"
             ),
 
-            [sty.navLink__navItems_settings_navItems_profile___6RIQkg1WIHh65T]:
+            [sty.navLinknavItems_settings_navItems_profile___6RIQkg1WIHh65T]:
               hasVariant(variants, "navItems", "settings") &&
               hasVariant(variants, "navItems", "profile"),
-            [sty.navLink__selected_profile___6RIQgst1U]: hasVariant(
+            [sty.navLinkselected_profile___6RIQgst1U]: hasVariant(
               variants,
               "selected",
               "profile"
@@ -80,25 +80,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "membership") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__kS7Yn, {
-            [sty.navLink__navItems_membership__kS7Yn7N6Rd]: hasVariant(
+            [sty.navLinknavItems_membership__kS7Yn7N6Rd]: hasVariant(
               variants,
               "navItems",
               "membership"
             ),
 
-            [sty.navLink__navItems_team__kS7YnNmGLt]: hasVariant(
+            [sty.navLinknavItems_team__kS7YnNmGLt]: hasVariant(
               variants,
               "navItems",
               "team"
             ),
 
-            [sty.navLink__selected_membership__kS7Yncj7Qo]: hasVariant(
+            [sty.navLinkselected_membership__kS7Yncj7Qo]: hasVariant(
               variants,
               "selected",
               "membership"
             ),
 
-            [sty.navLink__selected_team__kS7YnehB3C]: hasVariant(
+            [sty.navLinkselected_team__kS7YnehB3C]: hasVariant(
               variants,
               "selected",
               "team"
@@ -115,25 +115,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "team") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__wSC, {
-            [sty.navLink__navItems_team__wSCNmGLt]: hasVariant(
+            [sty.navLinknavItems_team__wSCNmGLt]: hasVariant(
               variants,
               "navItems",
               "team"
             ),
 
-            [sty.navLink__navItems_wallet__wSCSa80W]: hasVariant(
+            [sty.navLinknavItems_wallet__wSCSa80W]: hasVariant(
               variants,
               "navItems",
               "wallet"
             ),
 
-            [sty.navLink__selected_team__wSCehB3C]: hasVariant(
+            [sty.navLinkselected_team__wSCehB3C]: hasVariant(
               variants,
               "selected",
               "team"
             ),
 
-            [sty.navLink__selected_wallet__wSC7DfUx]: hasVariant(
+            [sty.navLinkselected_wallet__wSC7DfUx]: hasVariant(
               variants,
               "selected",
               "wallet"
@@ -148,25 +148,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "wallet") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__cnnMf, {
-            [sty.navLink__navItems_projects__cnnMfWMb6]: hasVariant(
+            [sty.navLinknavItems_projects__cnnMfWMb6]: hasVariant(
               variants,
               "navItems",
               "projects"
             ),
 
-            [sty.navLink__navItems_wallet__cnnMfSa80W]: hasVariant(
+            [sty.navLinknavItems_wallet__cnnMfSa80W]: hasVariant(
               variants,
               "navItems",
               "wallet"
             ),
 
-            [sty.navLink__selected_projects__cnnMfLm5Kd]: hasVariant(
+            [sty.navLinkselected_projects__cnnMfLm5Kd]: hasVariant(
               variants,
               "selected",
               "projects"
             ),
 
-            [sty.navLink__selected_wallet__cnnMf7DfUx]: hasVariant(
+            [sty.navLinkselected_wallet__cnnMf7DfUx]: hasVariant(
               variants,
               "selected",
               "wallet"
@@ -181,25 +181,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "projects") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__wk5G0, {
-            [sty.navLink__navItems_lists__wk5G0LaFx5]: hasVariant(
+            [sty.navLinknavItems_lists__wk5G0LaFx5]: hasVariant(
               variants,
               "navItems",
               "lists"
             ),
 
-            [sty.navLink__navItems_projects__wk5G0WMb6]: hasVariant(
+            [sty.navLinknavItems_projects__wk5G0WMb6]: hasVariant(
               variants,
               "navItems",
               "projects"
             ),
 
-            [sty.navLink__selected_lists__wk5G0Pa762]: hasVariant(
+            [sty.navLinkselected_lists__wk5G0Pa762]: hasVariant(
               variants,
               "selected",
               "lists"
             ),
 
-            [sty.navLink__selected_projects__wk5G0Lm5Kd]: hasVariant(
+            [sty.navLinkselected_projects__wk5G0Lm5Kd]: hasVariant(
               variants,
               "selected",
               "projects"
@@ -216,25 +216,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "lists") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink___4JsCi, {
-            [sty.navLink__navItems_lists___4JsCilaFx5]: hasVariant(
+            [sty.navLinknavItems_lists___4JsCilaFx5]: hasVariant(
               variants,
               "navItems",
               "lists"
             ),
 
-            [sty.navLink__navItems_reviews___4JsCi8WU]: hasVariant(
+            [sty.navLinknavItems_reviews___4JsCi8WU]: hasVariant(
               variants,
               "navItems",
               "reviews"
             ),
 
-            [sty.navLink__selected_lists___4JsCiPa762]: hasVariant(
+            [sty.navLinkselected_lists___4JsCiPa762]: hasVariant(
               variants,
               "selected",
               "lists"
             ),
 
-            [sty.navLink__selected_reviews___4JsCiW8JY3]: hasVariant(
+            [sty.navLinkselected_reviews___4JsCiW8JY3]: hasVariant(
               variants,
               "selected",
               "reviews"
@@ -249,19 +249,19 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "reviews") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__jUxP0, {
-            [sty.navLink__navItems_messages__jUxP0ByhAh]: hasVariant(
+            [sty.navLinknavItems_messages__jUxP0ByhAh]: hasVariant(
               variants,
               "navItems",
               "messages"
             ),
 
-            [sty.navLink__navItems_reviews__jUxP08WU]: hasVariant(
+            [sty.navLinknavItems_reviews__jUxP08WU]: hasVariant(
               variants,
               "navItems",
               "reviews"
             ),
 
-            [sty.navLink__selected_reviews__jUxP0W8JY3]: hasVariant(
+            [sty.navLinkselected_reviews__jUxP0W8JY3]: hasVariant(
               variants,
               "selected",
               "reviews"
@@ -276,31 +276,31 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "messages") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__xgW97, {
-            [sty.navLink__navItems_messages__xgW97ByhAh]: hasVariant(
+            [sty.navLinknavItems_messages__xgW97ByhAh]: hasVariant(
               variants,
               "navItems",
               "messages"
             ),
 
-            [sty.navLink__navItems_notifications__xgW97Q0Mp]: hasVariant(
+            [sty.navLinknavItems_notifications__xgW97Q0Mp]: hasVariant(
               variants,
               "navItems",
               "notifications"
             ),
 
-            [sty.navLink__selected_messages__xgW97D00Us]: hasVariant(
+            [sty.navLinkselected_messages__xgW97D00Us]: hasVariant(
               variants,
               "selected",
               "messages"
             ),
 
-            [sty.navLink__selected_notifications__xgW97TIwZ7]: hasVariant(
+            [sty.navLinkselected_notifications__xgW97TIwZ7]: hasVariant(
               variants,
               "selected",
               "notifications"
             ),
 
-            [sty.navLink__selected_reviews__xgW97W8JY3]: hasVariant(
+            [sty.navLinkselected_reviews__xgW97W8JY3]: hasVariant(
               variants,
               "selected",
               "reviews"
@@ -317,25 +317,25 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "notifications") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink___4YzFk, {
-            [sty.navLink__navItems_notifications___4YzFkq0Mp]: hasVariant(
+            [sty.navLinknavItems_notifications___4YzFkq0Mp]: hasVariant(
               variants,
               "navItems",
               "notifications"
             ),
 
-            [sty.navLink__navItems_settings___4YzFkkg1WI]: hasVariant(
+            [sty.navLinknavItems_settings___4YzFkkg1WI]: hasVariant(
               variants,
               "navItems",
               "settings"
             ),
 
-            [sty.navLink__selected_notifications___4YzFkTIwZ7]: hasVariant(
+            [sty.navLinkselected_notifications___4YzFkTIwZ7]: hasVariant(
               variants,
               "selected",
               "notifications"
             ),
 
-            [sty.navLink__selected_settings___4YzFkYvqOg]: hasVariant(
+            [sty.navLinkselected_settings___4YzFkYvqOg]: hasVariant(
               variants,
               "selected",
               "settings"
@@ -352,13 +352,13 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
       {(hasVariant(variants, "navItems", "settings") ? true : true) ? (
         <NavLink
           className={classNames("__wab_instance", sty.navLink__ircX2, {
-            [sty.navLink__navItems_settings__ircX2Kg1WI]: hasVariant(
+            [sty.navLinknavItems_settings__ircX2Kg1WI]: hasVariant(
               variants,
               "navItems",
               "settings"
             ),
 
-            [sty.navLink__selected_settings__ircX2YvqOg]: hasVariant(
+            [sty.navLinkselected_settings__ircX2YvqOg]: hasVariant(
               variants,
               "selected",
               "settings"

@@ -1,6 +1,6 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   width: auto;
   height: auto;
   position: relative;
@@ -8,8 +8,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);
 }
@@ -30,7 +30,7 @@
   align-self: center;
   flex-shrink: 0;
 }
-.svg__size__14 {
+.svgsize__14 {
   width: 14px;
   height: 14px;
   flex-shrink: 0;
@@ -48,13 +48,13 @@
   line-height: 1;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
-.slotTargetChildren__color_primaryB {
+.slotTargetChildrencolor_primaryB {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.slotTargetChildren__size__14 {
+.slotTargetChildrensize__14 {
   font-size: 14px;
 }
-.slotTargetChildren__size__16 {
+.slotTargetChildrensize__16 {
   font-size: 16px;
 }
 .ratingReviewAmount:global(.__wab_instance) {
@@ -70,12 +70,12 @@
   line-height: 1;
   color: #14161b /* plasmic-token: ec1vMFIzT */;
 }
-.slotTargetSlot__color_primaryB {
+.slotTargetSlotcolor_primaryB {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.slotTargetSlot__size__14 {
+.slotTargetSlotsize__14 {
   font-size: 14px;
 }
-.slotTargetSlot__size__16 {
+.slotTargetSlotsize__16 {
   font-size: 16px;
 }

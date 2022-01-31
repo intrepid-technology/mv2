@@ -40,15 +40,15 @@ function PlasmicFooterB__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
+        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+        [sty.rootcolor_light]: hasVariant(variants, "color", "light")
       })}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
         data-plasmic-override={overrides.navbarLogo}
         className={classNames("__wab_instance", sty.navbarLogo, {
-          [sty.navbarLogo__color_dark]: hasVariant(variants, "color", "dark")
+          [sty.navbarLogocolor_dark]: hasVariant(variants, "color", "dark")
         })}
         destination={"/"}
         light={hasVariant(variants, "color", "dark") ? true : undefined}
@@ -65,7 +65,7 @@ function PlasmicFooterB__RenderFunc(props) {
             projectcss.__wab_text,
             sty.text___4TIqA,
             {
-              [sty.text__color_dark___4TIqAsxLuv]: hasVariant(
+              [sty.textcolor_dark___4TIqAsxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"
@@ -81,7 +81,7 @@ function PlasmicFooterB__RenderFunc(props) {
         data-plasmic-name={"footerSocialLinkGroup"}
         data-plasmic-override={overrides.footerSocialLinkGroup}
         className={classNames("__wab_instance", sty.footerSocialLinkGroup, {
-          [sty.footerSocialLinkGroup__color_dark]: hasVariant(
+          [sty.footerSocialLinkGroupcolor_dark]: hasVariant(
             variants,
             "color",
             "dark"
@@ -168,7 +168,7 @@ function PlasmicFooterB__RenderFunc(props) {
           data-plasmic-override={overrides.freeBox}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox, {
-            [sty.freeBox__color_dark]: hasVariant(variants, "color", "dark")
+            [sty.freeBoxcolor_dark]: hasVariant(variants, "color", "dark")
           })}
         >
           <FooterLink
@@ -178,7 +178,7 @@ function PlasmicFooterB__RenderFunc(props) {
               "__wab_instance",
               sty.privacyPolicyComponent,
               {
-                [sty.privacyPolicyComponent__color_dark]: hasVariant(
+                [sty.privacyPolicyComponentcolor_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
@@ -202,7 +202,7 @@ function PlasmicFooterB__RenderFunc(props) {
               "__wab_instance",
               sty.termsoOfServiceComponent,
               {
-                [sty.termsoOfServiceComponent__color_dark]: hasVariant(
+                [sty.termsoOfServiceComponentcolor_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
@@ -226,7 +226,7 @@ function PlasmicFooterB__RenderFunc(props) {
             projectcss.__wab_text,
             sty.text__bl0Hs,
             {
-              [sty.text__color_dark__bl0HssxLuv]: hasVariant(
+              [sty.textcolor_dark__bl0HssxLuv]: hasVariant(
                 variants,
                 "color",
                 "dark"

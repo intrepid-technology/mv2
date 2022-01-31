@@ -43,8 +43,8 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
-        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark")
+        [sty.rootcolors_brand]: hasVariant(variants, "colors", "brand"),
+        [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark")
       })}
     >
       <p.Stack
@@ -58,13 +58,13 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
           data-plasmic-name={"memberPricing"}
           data-plasmic-override={overrides.memberPricing}
           className={classNames("__wab_instance", sty.memberPricing, {
-            [sty.memberPricing__colors_brand]: hasVariant(
+            [sty.memberPricingcolors_brand]: hasVariant(
               variants,
               "colors",
               "brand"
             ),
 
-            [sty.memberPricing__colors_dark]: hasVariant(
+            [sty.memberPricingcolors_dark]: hasVariant(
               variants,
               "colors",
               "dark"
@@ -85,13 +85,13 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
           data-plasmic-name={"partnerPricing"}
           data-plasmic-override={overrides.partnerPricing}
           className={classNames("__wab_instance", sty.partnerPricing, {
-            [sty.partnerPricing__colors_brand]: hasVariant(
+            [sty.partnerPricingcolors_brand]: hasVariant(
               variants,
               "colors",
               "brand"
             ),
 
-            [sty.partnerPricing__colors_dark]: hasVariant(
+            [sty.partnerPricingcolors_dark]: hasVariant(
               variants,
               "colors",
               "dark"
@@ -115,17 +115,13 @@ function PlasmicNavbarOverhead__RenderFunc(props) {
             data-plasmic-name={"loginMain"}
             data-plasmic-override={overrides.loginMain}
             className={classNames("__wab_instance", sty.loginMain, {
-              [sty.loginMain__colors_brand]: hasVariant(
+              [sty.loginMaincolors_brand]: hasVariant(
                 variants,
                 "colors",
                 "brand"
               ),
 
-              [sty.loginMain__colors_dark]: hasVariant(
-                variants,
-                "colors",
-                "dark"
-              )
+              [sty.loginMaincolors_dark]: hasVariant(variants, "colors", "dark")
             })}
             color={
               hasVariant(variants, "colors", "brand")

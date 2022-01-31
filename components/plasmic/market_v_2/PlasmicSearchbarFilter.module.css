@@ -4,28 +4,32 @@
   align-items: center;
   justify-content: flex-start;
   width: 360px;
-  height: 32px;
+  height: 40px;
   position: relative;
   background: #ffffff;
-  border-radius: 2px;
-  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border-radius: 4px;
+  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.root__width__270 {
+.rootwidth__270 {
   width: 270px;
 }
-.root__width__360 {
+.rootwidth__360 {
   width: 360px;
 }
-.root__width__540 {
+.rootwidth__540 {
   width: 540px;
 }
-.root__height__36 {
+.rootwidth_stretch {
+  width: 100%;
+  min-width: 0;
+}
+.rootheight__36 {
   height: 36px;
 }
-.root__height__40 {
+.rootheight__40 {
   height: 40px;
 }
-.root__height__48 {
+.rootheight__48 {
   height: 48px;
 }
 .root:hover {
@@ -49,7 +53,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
   flex-shrink: 0;
 }
 .textInput {
@@ -78,9 +82,9 @@
   border-color: #14161b /* plasmic-token: _aCbIOo4N */;
 }
 .button {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   width: auto;
@@ -92,11 +96,11 @@
 }
 .button > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-height: 0;
-  margin-left: calc(0px - 6px);
-  width: calc(100% + 6px);
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
 }
 .button > :global(.__wab_flex-container) > *,
 .button > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
@@ -106,14 +110,14 @@
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-left: 6px;
+  margin-left: 4px;
 }
 .svg__hYtaT {
   position: relative;
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
   flex-shrink: 0;
 }
 .text {
@@ -121,7 +125,10 @@
   line-height: 1;
   width: auto;
   height: auto;
-  font-size: 14px;
+  font-size: 16px;
   white-space: pre;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: #14161b /* plasmic-token: ec1vMFIzT */;
+}
+.textheight__32 {
+  font-size: 16px;
 }

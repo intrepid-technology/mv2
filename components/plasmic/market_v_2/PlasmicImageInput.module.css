@@ -24,7 +24,7 @@
   height: auto;
   z-index: 3;
 }
-.label__imageUrl {
+.labelimageUrl {
   display: flex;
 }
 .svg {
@@ -34,7 +34,7 @@
   height: 32px;
   flex-shrink: 0;
 }
-.svg__imageUrl {
+.svgimageUrl {
   display: none;
 }
 .backgroundImage {
@@ -53,6 +53,6 @@
 .backgroundImage > .__wab_img-spacer > img {
   object-fit: scale-down;
 }
-.backgroundImage__imageUrl {
+.backgroundImageimageUrl {
   display: inline-block !important;
 }

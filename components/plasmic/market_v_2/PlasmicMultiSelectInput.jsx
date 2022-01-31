@@ -77,7 +77,7 @@ function PlasmicMultiSelectInput__RenderFunc(props) {
           data-plasmic-name={"optionGroup"}
           data-plasmic-override={overrides.optionGroup}
           className={classNames(projectcss.all, sty.optionGroup, {
-            [sty.optionGroup__isOpen]: hasVariant(variants, "isOpen", "isOpen")
+            [sty.optionGroupisOpen]: hasVariant(variants, "isOpen", "isOpen")
           })}
         >
           <MultiSelectOption

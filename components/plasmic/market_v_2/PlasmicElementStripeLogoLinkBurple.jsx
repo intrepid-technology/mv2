@@ -36,17 +36,18 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.a,
         projectcss.root_reset,
         sty.stripeLink,
         {
-          [sty.stripeLink__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.stripeLink__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.stripeLink__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.stripeLink__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.stripeLink__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.stripeLink__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.stripeLink__size__48]: hasVariant(variants, "size", "_48")
+          [sty.stripeLinksize__16]: hasVariant(variants, "size", "_16"),
+          [sty.stripeLinksize__18]: hasVariant(variants, "size", "_18"),
+          [sty.stripeLinksize__24]: hasVariant(variants, "size", "_24"),
+          [sty.stripeLinksize__32]: hasVariant(variants, "size", "_32"),
+          [sty.stripeLinksize__36]: hasVariant(variants, "size", "_36"),
+          [sty.stripeLinksize__40]: hasVariant(variants, "size", "_40"),
+          [sty.stripeLinksize__48]: hasVariant(variants, "size", "_48")
         }
       )}
       component={Link}
@@ -57,14 +58,14 @@ function PlasmicElementStripeLogoLinkBurple__RenderFunc(props) {
         data-plasmic-name={"img"}
         data-plasmic-override={overrides.img}
         alt={""}
-        className={classNames(projectcss.img, sty.img, {
-          [sty.img__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.img__size__18]: hasVariant(variants, "size", "_18"),
-          [sty.img__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.img__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.img__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.img__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.img__size__48]: hasVariant(variants, "size", "_48")
+        className={classNames(projectcss.all, projectcss.img, sty.img, {
+          [sty.imgsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.imgsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.imgsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.imgsize__32]: hasVariant(variants, "size", "_32"),
+          [sty.imgsize__36]: hasVariant(variants, "size", "_36"),
+          [sty.imgsize__40]: hasVariant(variants, "size", "_40"),
+          [sty.imgsize__48]: hasVariant(variants, "size", "_48")
         })}
         src={"/plasmic/market_v_2/images/stripeWordmarkBlurpleLgpng.png"}
       />

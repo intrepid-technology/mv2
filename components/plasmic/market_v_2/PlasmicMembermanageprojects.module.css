@@ -9,9 +9,9 @@
   min-height: 0;
 }
 .sectionMemberManageProjectsHeader {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -21,8 +21,8 @@
 }
 .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -98,9 +98,9 @@
   font-weight: 700;
 }
 .sectionMemberManageListings {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -110,8 +110,8 @@
 }
 .sectionMemberManageListings > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -131,16 +131,16 @@
   margin-top: 32px;
 }
 .freeBox___5GmQ {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
 }
 .freeBox___5GmQ > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -160,15 +160,15 @@
   max-width: 328px;
 }
 .listingManagementBlockParent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: auto;
   height: auto;
 }
 .listingManagementBlockParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -186,9 +186,9 @@
   margin-top: 24px;
 }
 .listingTotalParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -197,8 +197,8 @@
 }
 .listingTotalParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -236,9 +236,9 @@
   color: #101010 /* plasmic-token: 6OoG_pvkg */;
 }
 .freeBox__xYhA {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -248,8 +248,8 @@
 }
 .freeBox__xYhA > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -276,9 +276,9 @@
   min-width: 0;
 }
 .searchOrderFilterParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -287,8 +287,8 @@
 }
 .searchOrderFilterParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   align-content: unset;
   min-width: 0;
   margin-left: calc(0px - 0px);
@@ -313,9 +313,9 @@
   left: auto;
 }
 .listingSearchFilterDropdownParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -323,8 +323,8 @@
 }
 .listingSearchFilterDropdownParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 24px);
   width: calc(100% + 24px);
 }
@@ -367,9 +367,9 @@
   position: relative;
 }
 .orderTableColumnMain {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -379,8 +379,8 @@
 }
 .orderTableColumnMain > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 2px);
   height: calc(100% + 2px);
 }

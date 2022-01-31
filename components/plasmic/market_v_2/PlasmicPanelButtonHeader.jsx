@@ -48,19 +48,19 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
         data-plasmic-name={"partnerNewListing"}
         data-plasmic-override={overrides.partnerNewListing}
         className={classNames("__wab_instance", sty.partnerNewListing, {
-          [sty.partnerNewListing__global_layout_isSellerView]: hasVariant(
+          [sty.partnerNewListingglobal_layout_isSellerView]: hasVariant(
             globalVariants,
             "layout",
             "isSellerView"
           ),
 
-          [sty.partnerNewListing__user_member]: hasVariant(
+          [sty.partnerNewListinguser_member]: hasVariant(
             variants,
             "user",
             "member"
           ),
 
-          [sty.partnerNewListing__user_partner]: hasVariant(
+          [sty.partnerNewListinguser_partner]: hasVariant(
             variants,
             "user",
             "partner"
@@ -73,19 +73,19 @@ function PlasmicPanelButtonHeader__RenderFunc(props) {
         data-plasmic-name={"partnerPowerUp"}
         data-plasmic-override={overrides.partnerPowerUp}
         className={classNames("__wab_instance", sty.partnerPowerUp, {
-          [sty.partnerPowerUp__global_layout_isSellerView]: hasVariant(
+          [sty.partnerPowerUpglobal_layout_isSellerView]: hasVariant(
             globalVariants,
             "layout",
             "isSellerView"
           ),
 
-          [sty.partnerPowerUp__user_member]: hasVariant(
+          [sty.partnerPowerUpuser_member]: hasVariant(
             variants,
             "user",
             "member"
           ),
 
-          [sty.partnerPowerUp__user_partner]: hasVariant(
+          [sty.partnerPowerUpuser_partner]: hasVariant(
             variants,
             "user",
             "partner"

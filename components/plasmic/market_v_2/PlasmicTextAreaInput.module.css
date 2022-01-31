@@ -1,7 +1,7 @@
 .root {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -9,20 +9,20 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
 }
-.root__showLabel > :global(.__wab_flex-container) {
+.rootshowLabel > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.root__showLabel > :global(.__wab_flex-container) > *,
-.root__showLabel > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root__showLabel > :global(.__wab_flex-container) > picture > img,
-.root__showLabel
+.rootshowLabel > :global(.__wab_flex-container) > *,
+.rootshowLabel > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootshowLabel > :global(.__wab_flex-container) > picture > img,
+.rootshowLabel
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -63,7 +63,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.startAdornmentWrapper__adornment_start {
+.startAdornmentWrapperadornment_start {
   width: auto;
   height: auto;
   border-top-left-radius: 2px;
@@ -77,10 +77,10 @@
   padding: 2px 8px;
   border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.startAdornmentWrapper__type_secondary_adornment_start {
+.startAdornmentWrappertype_secondary_adornment_start {
   background: #f8f8f8;
 }
-.slotTargetStartAdornment__adornment_start {
+.slotTargetStartAdornmentadornment_start {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .inputWrapper {
@@ -106,7 +106,7 @@
   border-width: 1px;
   border-style: none;
 }
-.textarea__type_secondary {
+.textareatype_secondary {
   background: #ffffff;
 }
 .root:focus-within .textarea {
@@ -119,7 +119,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.endAdornmentWrapper__adornment_end {
+.endAdornmentWrapperadornment_end {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
@@ -132,9 +132,9 @@
   flex-column-gap: 0px;
   padding: 2px 8px;
 }
-.endAdornmentWrapper__adornment_end_type_secondary {
+.endAdornmentWrapperadornment_end_type_secondary {
   background: #f8f8f8;
 }
-.slotTargetEndAdornment__adornment_end {
+.slotTargetEndAdornmentadornment_end {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

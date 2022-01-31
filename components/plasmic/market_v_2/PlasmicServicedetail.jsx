@@ -286,7 +286,11 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"serviceHeroImage"}
                   data-plasmic-override={overrides.serviceHeroImage}
                   alt={""}
-                  className={classNames(projectcss.img, sty.serviceHeroImage)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.serviceHeroImage
+                  )}
                 />
 
                 <p.Stack
@@ -298,14 +302,22 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceImageOne"}
                     data-plasmic-override={overrides.serviceImageOne}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageOne)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.serviceImageOne
+                    )}
                   />
 
                   <img
                     data-plasmic-name={"serviceImageTwo"}
                     data-plasmic-override={overrides.serviceImageTwo}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageTwo)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.serviceImageTwo
+                    )}
                   />
 
                   <img
@@ -313,6 +325,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-override={overrides.serviceImageThree}
                     alt={""}
                     className={classNames(
+                      projectcss.all,
                       projectcss.img,
                       sty.serviceImageThree
                     )}
@@ -322,7 +335,11 @@ function PlasmicServicedetail__RenderFunc(props) {
                     data-plasmic-name={"serviceImageFour"}
                     data-plasmic-override={overrides.serviceImageFour}
                     alt={""}
-                    className={classNames(projectcss.img, sty.serviceImageFour)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.serviceImageFour
+                    )}
                   />
                 </p.Stack>
 
@@ -1486,6 +1503,7 @@ function PlasmicServicedetail__RenderFunc(props) {
                           data-plasmic-override={overrides.navUserAvatar32}
                           alt={""}
                           className={classNames(
+                            projectcss.all,
                             projectcss.img,
                             sty.navUserAvatar32
                           )}
@@ -1693,7 +1711,11 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"save"}
                   data-plasmic-override={overrides.save}
                   hasGap={true}
-                  className={classNames(projectcss.button, sty.save)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.button,
+                    sty.save
+                  )}
                 >
                   <BookmarkIcon
                     data-plasmic-name={"bookmark"}
@@ -1718,7 +1740,11 @@ function PlasmicServicedetail__RenderFunc(props) {
                   data-plasmic-name={"share"}
                   data-plasmic-override={overrides.share}
                   hasGap={true}
-                  className={classNames(projectcss.button, sty.share)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.button,
+                    sty.share
+                  )}
                 >
                   <ShareIcon
                     data-plasmic-name={"svgShare"}

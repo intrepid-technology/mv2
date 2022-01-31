@@ -1,6 +1,6 @@
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -9,8 +9,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -84,9 +84,9 @@
   }
 }
 .formEmailConfirmation {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 360px;
   height: auto;
   left: auto;
@@ -95,8 +95,8 @@
 }
 .formEmailConfirmation > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 32px);
@@ -202,9 +202,9 @@
   min-width: 0;
 }
 .textDivParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   margin-bottom: 0px;
@@ -213,8 +213,8 @@
 }
 .textDivParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 12px);
   height: calc(100% + 12px);
@@ -392,9 +392,9 @@
   flex-shrink: 0;
 }
 .buttonResendHeadlineParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   margin-bottom: 0px;
@@ -406,8 +406,8 @@
 }
 .buttonResendHeadlineParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
@@ -460,13 +460,13 @@
   }
 }
 .buttonHeadline {
+  flex-direction: column;
   position: relative;
   left: auto;
   top: auto;
   align-self: auto;
   margin-bottom: 0px;
   display: flex;
-  flex-direction: column;
   width: 100%;
   margin-top: calc(0px + 4px) !important;
   margin-right: 0px;

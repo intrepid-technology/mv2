@@ -47,11 +47,17 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__color_primary]: hasVariant(variants, "color", "primary")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
+          [sty.rootcolor_primary]: hasVariant(variants, "color", "primary")
+        }
+      )}
       component={Link}
       href={args.destination}
       id={args.id}
@@ -63,13 +69,8 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__direction_left]: hasVariant(
-            variants,
-            "direction",
-            "left"
-          ),
-
-          [sty.parent__direction_right]: hasVariant(
+          [sty.parentdirection_left]: hasVariant(variants, "direction", "left"),
+          [sty.parentdirection_right]: hasVariant(
             variants,
             "direction",
             "right"
@@ -81,31 +82,21 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
             data-plasmic-name={"svgLeftParent"}
             data-plasmic-override={overrides.svgLeftParent}
             className={classNames(projectcss.all, sty.svgLeftParent, {
-              [sty.svgLeftParent__direction_left]: hasVariant(
+              [sty.svgLeftParentdirection_left]: hasVariant(
                 variants,
                 "direction",
                 "left"
               ),
 
-              [sty.svgLeftParent__direction_right]: hasVariant(
+              [sty.svgLeftParentdirection_right]: hasVariant(
                 variants,
                 "direction",
                 "right"
               ),
 
-              [sty.svgLeftParent__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              ),
-
-              [sty.svgLeftParent__size__18]: hasVariant(
-                variants,
-                "size",
-                "_18"
-              ),
-
-              [sty.svgLeftParent__size__24]: hasVariant(variants, "size", "_24")
+              [sty.svgLeftParentsize__16]: hasVariant(variants, "size", "_16"),
+              [sty.svgLeftParentsize__18]: hasVariant(variants, "size", "_18"),
+              [sty.svgLeftParentsize__24]: hasVariant(variants, "size", "_24")
             })}
           >
             {p.renderPlasmicSlot({
@@ -118,25 +109,25 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
 
               value: args.svgLeft,
               className: classNames(sty.slotTargetSvgLeft, {
-                [sty.slotTargetSvgLeft__color_dark]: hasVariant(
+                [sty.slotTargetSvgLeftcolor_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotTargetSvgLeft__color_light]: hasVariant(
+                [sty.slotTargetSvgLeftcolor_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotTargetSvgLeft__color_primary]: hasVariant(
+                [sty.slotTargetSvgLeftcolor_primary]: hasVariant(
                   variants,
                   "color",
                   "primary"
                 ),
 
-                [sty.slotTargetSvgLeft__size__16]: hasVariant(
+                [sty.slotTargetSvgLeftsize__16]: hasVariant(
                   variants,
                   "size",
                   "_16"
@@ -149,43 +140,43 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
           defaultContents: "link",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_dark]: hasVariant(
+            [sty.slotTargetChildrencolor_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.slotTargetChildren__color_light]: hasVariant(
+            [sty.slotTargetChildrencolor_light]: hasVariant(
               variants,
               "color",
               "light"
             ),
 
-            [sty.slotTargetChildren__color_primary]: hasVariant(
+            [sty.slotTargetChildrencolor_primary]: hasVariant(
               variants,
               "color",
               "primary"
             ),
 
-            [sty.slotTargetChildren__size__14]: hasVariant(
+            [sty.slotTargetChildrensize__14]: hasVariant(
               variants,
               "size",
               "_14"
             ),
 
-            [sty.slotTargetChildren__size__16]: hasVariant(
+            [sty.slotTargetChildrensize__16]: hasVariant(
               variants,
               "size",
               "_16"
             ),
 
-            [sty.slotTargetChildren__size__18]: hasVariant(
+            [sty.slotTargetChildrensize__18]: hasVariant(
               variants,
               "size",
               "_18"
             ),
 
-            [sty.slotTargetChildren__size__24]: hasVariant(
+            [sty.slotTargetChildrensize__24]: hasVariant(
               variants,
               "size",
               "_24"
@@ -198,35 +189,16 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
             data-plasmic-name={"svgRightParent"}
             data-plasmic-override={overrides.svgRightParent}
             className={classNames(projectcss.all, sty.svgRightParent, {
-              [sty.svgRightParent__direction_left]: hasVariant(
+              [sty.svgRightParentdirection_left]: hasVariant(
                 variants,
                 "direction",
                 "left"
               ),
 
-              [sty.svgRightParent__size__14]: hasVariant(
-                variants,
-                "size",
-                "_14"
-              ),
-
-              [sty.svgRightParent__size__16]: hasVariant(
-                variants,
-                "size",
-                "_16"
-              ),
-
-              [sty.svgRightParent__size__18]: hasVariant(
-                variants,
-                "size",
-                "_18"
-              ),
-
-              [sty.svgRightParent__size__24]: hasVariant(
-                variants,
-                "size",
-                "_24"
-              )
+              [sty.svgRightParentsize__14]: hasVariant(variants, "size", "_14"),
+              [sty.svgRightParentsize__16]: hasVariant(variants, "size", "_16"),
+              [sty.svgRightParentsize__18]: hasVariant(variants, "size", "_18"),
+              [sty.svgRightParentsize__24]: hasVariant(variants, "size", "_24")
             })}
           >
             {p.renderPlasmicSlot({
@@ -239,25 +211,25 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
 
               value: args.svgRight,
               className: classNames(sty.slotTargetSvgRight, {
-                [sty.slotTargetSvgRight__color_dark]: hasVariant(
+                [sty.slotTargetSvgRightcolor_dark]: hasVariant(
                   variants,
                   "color",
                   "dark"
                 ),
 
-                [sty.slotTargetSvgRight__color_light]: hasVariant(
+                [sty.slotTargetSvgRightcolor_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotTargetSvgRight__color_primary]: hasVariant(
+                [sty.slotTargetSvgRightcolor_primary]: hasVariant(
                   variants,
                   "color",
                   "primary"
                 ),
 
-                [sty.slotTargetSvgRight__color_primary_direction_right]:
+                [sty.slotTargetSvgRightcolor_primary_direction_right]:
                   hasVariant(variants, "color", "primary") &&
                   hasVariant(variants, "direction", "right")
               })

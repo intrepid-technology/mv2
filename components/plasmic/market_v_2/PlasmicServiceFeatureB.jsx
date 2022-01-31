@@ -34,13 +34,13 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size_small]: hasVariant(variants, "size", "small")
+        [sty.rootsize_small]: hasVariant(variants, "size", "small")
       })}
     >
       <div className={classNames(projectcss.all, sty.freeBox___5Hp8)}>
         <div
           className={classNames(projectcss.all, sty.freeBox__qfYAs, {
-            [sty.freeBox__size_small__qfYAscBzwQ]: hasVariant(
+            [sty.freeBoxsize_small__qfYAscBzwQ]: hasVariant(
               variants,
               "size",
               "small"
@@ -51,7 +51,7 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
             defaultContents: "Service Feature",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__size_small]: hasVariant(
+              [sty.slotTargetChildrensize_small]: hasVariant(
                 variants,
                 "size",
                 "small"
@@ -63,7 +63,7 @@ function PlasmicServiceFeatureB__RenderFunc(props) {
 
       <div
         className={classNames(projectcss.all, sty.freeBox___99Rg, {
-          [sty.freeBox__size_small___99RgCBzwQ]: hasVariant(
+          [sty.freeBoxsize_small___99RgCBzwQ]: hasVariant(
             variants,
             "size",
             "small"

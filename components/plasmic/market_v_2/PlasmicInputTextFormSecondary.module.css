@@ -7,20 +7,20 @@
   width: auto;
   height: auto;
 }
-.root__size_stretch {
+.rootsize_stretch {
   width: 100%;
   min-width: 0;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: auto;
   height: auto;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
@@ -34,11 +34,11 @@
   > img {
   margin-top: 6px;
 }
-.parent__size_stretch {
+.parentsize_stretch {
   width: 100%;
   min-width: 0;
 }
-.parent__size_stretch > :global(.__wab_flex-container) {
+.parentsize_stretch > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .headlineLabelParent {
@@ -77,7 +77,7 @@
   width: 100%;
   min-width: 0;
 }
-.descriptionParent__subhead {
+.descriptionParentsubhead {
   display: none;
 }
 .descriptionTextParent {

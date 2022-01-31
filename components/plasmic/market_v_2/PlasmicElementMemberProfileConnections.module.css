@@ -8,16 +8,16 @@
   height: auto;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: auto;
   padding: 8px 16px 16px;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -97,9 +97,9 @@
   }
 }
 .memberConnectionsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   padding-top: 4px;
@@ -107,9 +107,9 @@
 }
 .memberConnectionsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
   align-content: flex-start;
   min-width: 0;
   margin-left: calc(0px - 16px);

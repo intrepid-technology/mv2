@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: space-evenly;
+  align-items: stretch;
   min-width: 0;
   margin-left: calc(0px - 20px);
   width: calc(100% + 20px);
@@ -50,11 +50,11 @@
     min-width: 0;
   }
 }
-.root__color {
+.rootcolor {
   background: #101010;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .root__color {
+  .rootcolor {
     border-bottom-color: #101010 /* plasmic-token: 7-Hl8dlot */;
   }
 }
@@ -139,9 +139,9 @@
   justify-content: center;
 }
 .freeBox {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -153,8 +153,8 @@
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -169,17 +169,17 @@
   > img {
   margin-left: 8px;
 }
-.freeBox__color {
+.freeBoxcolor {
   background: #101010;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__color {
+  .freeBoxcolor {
     width: 100%;
     min-width: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .freeBox__color > :global(.__wab_flex-container) {
+  .freeBoxcolor > :global(.__wab_flex-container) {
     min-width: 0;
   }
 }
@@ -296,53 +296,53 @@
     flex-shrink: 0;
   }
 }
-.buttonPrimary__color:global(.__wab_instance) {
+.buttonPrimarycolor:global(.__wab_instance) {
   flex-shrink: 0;
 }
-.buttonPrimary__persona_partner:global(.__wab_instance) {
-  flex-shrink: 0;
-}
-@media (min-width: 0px) and (max-width: 1440px) {
-  .buttonPrimary__persona_partner:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .buttonPrimary__persona_partner:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
-.buttonPrimary__persona_member:global(.__wab_instance) {
-  flex-shrink: 0;
-}
-@media (min-width: 0px) and (max-width: 428px) {
-  .buttonPrimary__persona_member:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
-}
-.buttonPrimary__color_persona_partner:global(.__wab_instance) {
+.buttonPrimarypersona_partner:global(.__wab_instance) {
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .buttonPrimary__color_persona_partner:global(.__wab_instance) {
+  .buttonPrimarypersona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .buttonPrimary__color_persona_partner:global(.__wab_instance) {
+  .buttonPrimarypersona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
-.buttonPrimary__persona_member_color:global(.__wab_instance) {
+.buttonPrimarypersona_member:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .buttonPrimarypersona_member:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.buttonPrimarycolor_persona_partner:global(.__wab_instance) {
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .buttonPrimary__persona_member_color:global(.__wab_instance) {
+  .buttonPrimarycolor_persona_partner:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .buttonPrimary__persona_member_color:global(.__wab_instance) {
+  .buttonPrimarycolor_persona_partner:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.buttonPrimarypersona_member_color:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .buttonPrimarypersona_member_color:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 428px) {
+  .buttonPrimarypersona_member_color:global(.__wab_instance) {
     flex-shrink: 0;
   }
 }
@@ -356,7 +356,7 @@
     font-weight: 600;
   }
 }
-.text__color__uwHg0NcUjG {
+.textcolor__uwHg0NcUjG {
   font-size: 16px;
   font-weight: 700;
 }

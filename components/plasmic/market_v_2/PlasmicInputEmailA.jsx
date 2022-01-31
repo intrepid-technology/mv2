@@ -49,33 +49,24 @@ function PlasmicInputEmailA__RenderFunc(props) {
         data-plasmic-override={overrides.inputEmailParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.inputEmailParent, {
-          [sty.inputEmailParent__size__360]: hasVariant(
-            variants,
-            "size",
-            "_360"
-          ),
-
-          [sty.inputEmailParent__size__540]: hasVariant(
-            variants,
-            "size",
-            "_540"
-          ),
-
-          [sty.inputEmailParent__size__720]: hasVariant(
-            variants,
-            "size",
-            "_720"
-          )
+          [sty.inputEmailParentsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.inputEmailParentsize__540]: hasVariant(variants, "size", "_540"),
+          [sty.inputEmailParentsize__720]: hasVariant(variants, "size", "_720")
         })}
       >
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(projectcss.input, sty.textInput, {
-            [sty.textInput__size__360]: hasVariant(variants, "size", "_360"),
-            [sty.textInput__size__540]: hasVariant(variants, "size", "_540"),
-            [sty.textInput__size__720]: hasVariant(variants, "size", "_720")
-          })}
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.textInput,
+            {
+              [sty.textInputsize__360]: hasVariant(variants, "size", "_360"),
+              [sty.textInputsize__540]: hasVariant(variants, "size", "_540"),
+              [sty.textInputsize__720]: hasVariant(variants, "size", "_720")
+            }
+          )}
           placeholder={"Enter your email address"}
           size={1}
           type={"text"}
@@ -86,19 +77,9 @@ function PlasmicInputEmailA__RenderFunc(props) {
           data-plasmic-name={"buttonPrimary"}
           data-plasmic-override={overrides.buttonPrimary}
           className={classNames("__wab_instance", sty.buttonPrimary, {
-            [sty.buttonPrimary__size__360]: hasVariant(
-              variants,
-              "size",
-              "_360"
-            ),
-
-            [sty.buttonPrimary__size__540]: hasVariant(
-              variants,
-              "size",
-              "_540"
-            ),
-
-            [sty.buttonPrimary__size__720]: hasVariant(variants, "size", "_720")
+            [sty.buttonPrimarysize__360]: hasVariant(variants, "size", "_360"),
+            [sty.buttonPrimarysize__540]: hasVariant(variants, "size", "_540"),
+            [sty.buttonPrimarysize__720]: hasVariant(variants, "size", "_720")
           })}
           color={
             hasVariant(variants, "size", "_720")

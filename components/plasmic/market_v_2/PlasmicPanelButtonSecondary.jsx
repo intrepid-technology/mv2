@@ -53,14 +53,14 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"powerUp"}
         data-plasmic-override={overrides.powerUp}
-        className={classNames(projectcss.a, sty.powerUp, {
-          [sty.powerUp__alternates_addPartner]: hasVariant(
+        className={classNames(projectcss.all, projectcss.a, sty.powerUp, {
+          [sty.powerUpalternates_addPartner]: hasVariant(
             variants,
             "alternates",
             "addPartner"
           ),
 
-          [sty.powerUp__alternates_requestReview]: hasVariant(
+          [sty.powerUpalternates_requestReview]: hasVariant(
             variants,
             "alternates",
             "requestReview"
@@ -76,13 +76,13 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
           data-plasmic-override={overrides.sideBarCardLink}
           hasGap={true}
           className={classNames(projectcss.all, sty.sideBarCardLink, {
-            [sty.sideBarCardLink__alternates_addPartner]: hasVariant(
+            [sty.sideBarCardLinkalternates_addPartner]: hasVariant(
               variants,
               "alternates",
               "addPartner"
             ),
 
-            [sty.sideBarCardLink__alternates_requestReview]: hasVariant(
+            [sty.sideBarCardLinkalternates_requestReview]: hasVariant(
               variants,
               "alternates",
               "requestReview"
@@ -100,13 +100,13 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
                 : BoostIcon
             }
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg__alternates_addPartner]: hasVariant(
+              [sty.svgalternates_addPartner]: hasVariant(
                 variants,
                 "alternates",
                 "addPartner"
               ),
 
-              [sty.svg__alternates_requestReview]: hasVariant(
+              [sty.svgalternates_requestReview]: hasVariant(
                 variants,
                 "alternates",
                 "requestReview"
@@ -123,19 +123,19 @@ function PlasmicPanelButtonSecondary__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text,
               {
-                [sty.text__alternates_addPartner]: hasVariant(
+                [sty.textalternates_addPartner]: hasVariant(
                   variants,
                   "alternates",
                   "addPartner"
                 ),
 
-                [sty.text__alternates_requestReview]: hasVariant(
+                [sty.textalternates_requestReview]: hasVariant(
                   variants,
                   "alternates",
                   "requestReview"
                 ),
 
-                [sty.text__global_layout_isSellerView]: hasVariant(
+                [sty.textglobal_layout_isSellerView]: hasVariant(
                   globalVariants,
                   "layout",
                   "isSellerView"

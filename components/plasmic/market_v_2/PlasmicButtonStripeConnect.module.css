@@ -11,11 +11,11 @@
   padding: 0px;
   border: 2px solid #7a72ff /* plasmic-token: JG1mQ0YGJ */;
 }
-.root__width__180 {
+.rootwidth__180 {
   width: 180px;
   padding: 2px 6px;
 }
-.root__width__270 {
+.rootwidth__270 {
   width: 270px;
   padding: 4px 16px;
 }
@@ -46,9 +46,9 @@
   min-height: 0;
 }
 .textParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   top: auto;
   left: auto;
   width: 100%;
@@ -58,8 +58,8 @@
 }
 .textParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
@@ -87,7 +87,7 @@
   color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
   line-height: 1;
 }
-.slotTargetText__width__180 {
+.slotTargetTextwidth__180 {
   font-size: 14px;
 }
 .root:hover .slotTargetText {

@@ -1,6 +1,6 @@
 .accountAvatar {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 40px;
   height: 40px;
   padding-left: 0px;
@@ -11,8 +11,8 @@
 }
 .accountAvatar > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
@@ -26,28 +26,28 @@
   > img {
   margin-left: 6px;
 }
-.accountAvatar__color_lightBg {
+.accountAvatarcolor_lightBg {
   background: none;
 }
-.accountAvatar__color_darkBg {
+.accountAvatarcolor_darkBg {
   background: none;
 }
 .accountAvatar:hover {
   border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
 }
-.slotTargetChildren__color_darkBg {
+.slotTargetChildrencolor_darkBg {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.slotTargetChildren__color_brand {
+.slotTargetChildrencolor_brand {
   color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
-.accountAvatar__color_lightBg:hover .slotTargetChildren__color_lightBg {
+.accountAvatarcolor_lightBg:hover .slotTargetChildrencolor_lightBg {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.accountAvatar__color_darkBg:hover .slotTargetChildren__color_darkBg {
+.accountAvatarcolor_darkBg:hover .slotTargetChildrencolor_darkBg {
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.accountAvatar__color_brand:hover .slotTargetChildren__color_brand {
+.accountAvatarcolor_brand:hover .slotTargetChildrencolor_brand {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .svg__jjCee {

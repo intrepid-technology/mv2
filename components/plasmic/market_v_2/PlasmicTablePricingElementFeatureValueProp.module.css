@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -9,8 +9,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -32,7 +32,7 @@
   width: auto;
   height: auto;
 }
-.slotTargetSvgCheck__size__16Px {
+.slotTargetSvgChecksize__16Px {
   font-size: 18px;
 }
 .freeBox__zo7V {
@@ -64,6 +64,6 @@
   line-height: 1;
   font-size: 14px;
 }
-.slotTargetFeatureValueText__size__16Px {
+.slotTargetFeatureValueTextsize__16Px {
   font-size: 16px;
 }

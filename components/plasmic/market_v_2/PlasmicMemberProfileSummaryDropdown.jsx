@@ -50,7 +50,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar182"}
               data-plasmic-override={overrides.navUserAvatar182}
               alt={""}
-              className={classNames(projectcss.img, sty.navUserAvatar182)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.navUserAvatar182
+              )}
               src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
             />
           }
@@ -59,7 +63,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar242"}
               data-plasmic-override={overrides.navUserAvatar242}
               alt={""}
-              className={classNames(projectcss.img, sty.navUserAvatar242)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.navUserAvatar242
+              )}
               src={"/plasmic/market_v_2/images/collinHbs2014Jpg.jpeg"}
             />
           }
@@ -68,7 +76,11 @@ function PlasmicMemberProfileSummaryDropdown__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar32"}
               data-plasmic-override={overrides.navUserAvatar32}
               alt={""}
-              className={classNames(projectcss.img, sty.navUserAvatar32)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.navUserAvatar32
+              )}
               src={
                 "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
               }

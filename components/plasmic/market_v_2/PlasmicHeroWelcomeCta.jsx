@@ -48,20 +48,20 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__cta_button]: hasVariant(variants, "cta", "button"),
-        [sty.root__cta_email]: hasVariant(variants, "cta", "email"),
-        [sty.root__persona_member]: hasVariant(variants, "persona", "member"),
-        [sty.root__persona_partner]: hasVariant(variants, "persona", "partner"),
-        [sty.root__persona_partner_size__720]:
+        [sty.rootcta_button]: hasVariant(variants, "cta", "button"),
+        [sty.rootcta_email]: hasVariant(variants, "cta", "email"),
+        [sty.rootpersona_member]: hasVariant(variants, "persona", "member"),
+        [sty.rootpersona_partner]: hasVariant(variants, "persona", "partner"),
+        [sty.rootpersona_partner_size__720]:
           hasVariant(variants, "persona", "partner") &&
           hasVariant(variants, "size", "_720"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__360_cta_email]:
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize__360_cta_email]:
           hasVariant(variants, "size", "_360") &&
           hasVariant(variants, "cta", "email"),
-        [sty.root__size__720]: hasVariant(variants, "size", "_720"),
-        [sty.root__size__720_persona_member]:
+        [sty.rootsize__720]: hasVariant(variants, "size", "_720"),
+        [sty.rootsize__720_persona_member]:
           hasVariant(variants, "size", "_720") &&
           hasVariant(variants, "persona", "member")
       })}
@@ -72,34 +72,19 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
         data-plasmic-override={overrides.headlineSubhead}
         hasGap={true}
         className={classNames(projectcss.all, sty.headlineSubhead, {
-          [sty.headlineSubhead__persona_partner]: hasVariant(
+          [sty.headlineSubheadpersona_partner]: hasVariant(
             variants,
             "persona",
             "partner"
           ),
 
-          [sty.headlineSubhead__persona_partner_size__720]:
+          [sty.headlineSubheadpersona_partner_size__720]:
             hasVariant(variants, "persona", "partner") &&
             hasVariant(variants, "size", "_720"),
-          [sty.headlineSubhead__size__270]: hasVariant(
-            variants,
-            "size",
-            "_270"
-          ),
-
-          [sty.headlineSubhead__size__360]: hasVariant(
-            variants,
-            "size",
-            "_360"
-          ),
-
-          [sty.headlineSubhead__size__720]: hasVariant(
-            variants,
-            "size",
-            "_720"
-          ),
-
-          [sty.headlineSubhead__size__720_persona_member]:
+          [sty.headlineSubheadsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.headlineSubheadsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.headlineSubheadsize__720]: hasVariant(variants, "size", "_720"),
+          [sty.headlineSubheadsize__720_persona_member]:
             hasVariant(variants, "size", "_720") &&
             hasVariant(variants, "persona", "member")
         })}
@@ -108,22 +93,22 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           as={"div"}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__p7LNb, {
-            [sty.freeBox__persona_partner__p7LNbh1Dvk]: hasVariant(
+            [sty.freeBoxpersona_partner__p7LNbh1Dvk]: hasVariant(
               variants,
               "persona",
               "partner"
             ),
 
-            [sty.freeBox__persona_partner_size__720__p7LNbh1DvkHXq]:
+            [sty.freeBoxpersona_partner_size__720__p7LNbh1DvkHXq]:
               hasVariant(variants, "persona", "partner") &&
               hasVariant(variants, "size", "_720"),
-            [sty.freeBox__size__270__p7LNbWzVrX]: hasVariant(
+            [sty.freeBoxsize__270__p7LNbWzVrX]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.freeBox__size__720__p7LNbHXq]: hasVariant(
+            [sty.freeBoxsize__720__p7LNbHXq]: hasVariant(
               variants,
               "size",
               "_720"
@@ -134,19 +119,19 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__zBnnw, {
-              [sty.freeBox__size__270__zBnnwwzVrX]: hasVariant(
+              [sty.freeBoxsize__270__zBnnwwzVrX]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.freeBox__size__720__zBnnwHXq]: hasVariant(
+              [sty.freeBoxsize__720__zBnnwHXq]: hasVariant(
                 variants,
                 "size",
                 "_720"
               ),
 
-              [sty.freeBox__size__720_persona_partner__zBnnwHXqH1Dvk]:
+              [sty.freeBoxsize__720_persona_partner__zBnnwHXqH1Dvk]:
                 hasVariant(variants, "size", "_720") &&
                 hasVariant(variants, "persona", "partner")
             })}
@@ -157,25 +142,25 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__bkkSv,
                 {
-                  [sty.text__persona_member__bkkSv3SAq]: hasVariant(
+                  [sty.textpersona_member__bkkSv3SAq]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.text__persona_partner__bkkSvh1Dvk]: hasVariant(
+                  [sty.textpersona_partner__bkkSvh1Dvk]: hasVariant(
                     variants,
                     "persona",
                     "partner"
                   ),
 
-                  [sty.text__size__270__bkkSvWzVrX]: hasVariant(
+                  [sty.textsize__270__bkkSvWzVrX]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.text__size__720__bkkSvHXq]: hasVariant(
+                  [sty.textsize__720__bkkSvHXq]: hasVariant(
                     variants,
                     "size",
                     "_720"
@@ -196,37 +181,37 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__krNqh,
                 {
-                  [sty.text__cta_button__krNqh8Tb0D]: hasVariant(
+                  [sty.textcta_button__krNqh8Tb0D]: hasVariant(
                     variants,
                     "cta",
                     "button"
                   ),
 
-                  [sty.text__persona_member__krNqh3SAq]: hasVariant(
+                  [sty.textpersona_member__krNqh3SAq]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.text__persona_partner__krNqhh1Dvk]: hasVariant(
+                  [sty.textpersona_partner__krNqhh1Dvk]: hasVariant(
                     variants,
                     "persona",
                     "partner"
                   ),
 
-                  [sty.text__size__270__krNqhWzVrX]: hasVariant(
+                  [sty.textsize__270__krNqhWzVrX]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.text__size__720__krNqhHXq]: hasVariant(
+                  [sty.textsize__720__krNqhHXq]: hasVariant(
                     variants,
                     "size",
                     "_720"
                   ),
 
-                  [sty.text__size__720_persona_member__krNqhHXq3SAq]:
+                  [sty.textsize__720_persona_member__krNqhHXq3SAq]:
                     hasVariant(variants, "size", "_720") &&
                     hasVariant(variants, "persona", "member")
                 }
@@ -245,31 +230,31 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__bVkfy,
                 {
-                  [sty.text__persona_member__bVkfy3SAq]: hasVariant(
+                  [sty.textpersona_member__bVkfy3SAq]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.text__persona_partner__bVkfYh1Dvk]: hasVariant(
+                  [sty.textpersona_partner__bVkfYh1Dvk]: hasVariant(
                     variants,
                     "persona",
                     "partner"
                   ),
 
-                  [sty.text__size__270__bVkfywzVrX]: hasVariant(
+                  [sty.textsize__270__bVkfywzVrX]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.text__size__720__bVkfyHXq]: hasVariant(
+                  [sty.textsize__720__bVkfyHXq]: hasVariant(
                     variants,
                     "size",
                     "_720"
                   ),
 
-                  [sty.text__size__720_persona_member__bVkfyHXq3SAq]:
+                  [sty.textsize__720_persona_member__bVkfyHXq3SAq]:
                     hasVariant(variants, "size", "_720") &&
                     hasVariant(variants, "persona", "member")
                 }
@@ -282,71 +267,71 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
 
         <div
           className={classNames(projectcss.all, sty.freeBox___0SFze, {
-            [sty.freeBox__persona_partner___0SFzEh1Dvk]: hasVariant(
+            [sty.freeBoxpersona_partner___0SFzEh1Dvk]: hasVariant(
               variants,
               "persona",
               "partner"
             ),
 
-            [sty.freeBox__persona_partner_size__720___0SFzEh1DvkHXq]:
+            [sty.freeBoxpersona_partner_size__720___0SFzEh1DvkHXq]:
               hasVariant(variants, "persona", "partner") &&
               hasVariant(variants, "size", "_720"),
-            [sty.freeBox__size__270___0SFzewzVrX]: hasVariant(
+            [sty.freeBoxsize__270___0SFzewzVrX]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.freeBox__size__360___0SFzeKakJz]: hasVariant(
+            [sty.freeBoxsize__360___0SFzeKakJz]: hasVariant(
               variants,
               "size",
               "_360"
             ),
 
-            [sty.freeBox__size__720___0SFzeHXq]: hasVariant(
+            [sty.freeBoxsize__720___0SFzeHXq]: hasVariant(
               variants,
               "size",
               "_720"
             ),
 
-            [sty.freeBox__size__720_persona_member___0SFzeHXq3SAq]:
+            [sty.freeBoxsize__720_persona_member___0SFzeHXq3SAq]:
               hasVariant(variants, "size", "_720") &&
               hasVariant(variants, "persona", "member")
           })}
         >
           <div
             className={classNames(projectcss.all, sty.freeBox__sgyko, {
-              [sty.freeBox__persona_member__sgyko3SAq]: hasVariant(
+              [sty.freeBoxpersona_member__sgyko3SAq]: hasVariant(
                 variants,
                 "persona",
                 "member"
               ),
 
-              [sty.freeBox__persona_partner__sgykoh1Dvk]: hasVariant(
+              [sty.freeBoxpersona_partner__sgykoh1Dvk]: hasVariant(
                 variants,
                 "persona",
                 "partner"
               ),
 
-              [sty.freeBox__persona_partner_size__270__sgykoh1DvkWzVrX]:
+              [sty.freeBoxpersona_partner_size__270__sgykoh1DvkWzVrX]:
                 hasVariant(variants, "persona", "partner") &&
                 hasVariant(variants, "size", "_270"),
-              [sty.freeBox__size__270__sgykoWzVrX]: hasVariant(
+              [sty.freeBoxsize__270__sgykoWzVrX]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.freeBox__size__270_persona_member__sgykoWzVrX3SAq]:
+              [sty.freeBoxsize__270_persona_member__sgykoWzVrX3SAq]:
                 hasVariant(variants, "size", "_270") &&
                 hasVariant(variants, "persona", "member"),
-              [sty.freeBox__size__360__sgykoKakJz]: hasVariant(
+              [sty.freeBoxsize__360__sgykoKakJz]: hasVariant(
                 variants,
                 "size",
                 "_360"
               ),
 
-              [sty.freeBox__size__720__sgykoHXq]: hasVariant(
+              [sty.freeBoxsize__720__sgykoHXq]: hasVariant(
                 variants,
                 "size",
                 "_720"
@@ -355,37 +340,37 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           >
             <div
               className={classNames(projectcss.all, sty.freeBox___0HSz, {
-                [sty.freeBox__persona_member___0HSz3SAq]: hasVariant(
+                [sty.freeBoxpersona_member___0HSz3SAq]: hasVariant(
                   variants,
                   "persona",
                   "member"
                 ),
 
-                [sty.freeBox__persona_partner___0HSzh1Dvk]: hasVariant(
+                [sty.freeBoxpersona_partner___0HSzh1Dvk]: hasVariant(
                   variants,
                   "persona",
                   "partner"
                 ),
 
-                [sty.freeBox__persona_partner_size__270___0HSzh1DvkWzVrX]:
+                [sty.freeBoxpersona_partner_size__270___0HSzh1DvkWzVrX]:
                   hasVariant(variants, "persona", "partner") &&
                   hasVariant(variants, "size", "_270"),
-                [sty.freeBox__size__270___0HSzWzVrX]: hasVariant(
+                [sty.freeBoxsize__270___0HSzWzVrX]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.freeBox__size__270_persona_member___0HSzWzVrX3SAq]:
+                [sty.freeBoxsize__270_persona_member___0HSzWzVrX3SAq]:
                   hasVariant(variants, "size", "_270") &&
                   hasVariant(variants, "persona", "member"),
-                [sty.freeBox__size__360___0HSzKakJz]: hasVariant(
+                [sty.freeBoxsize__360___0HSzKakJz]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.freeBox__size__720___0HSzHXq]: hasVariant(
+                [sty.freeBoxsize__720___0HSzHXq]: hasVariant(
                   variants,
                   "size",
                   "_720"
@@ -400,52 +385,52 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
                   : "The marketplace-community for international design and development agencies to sell professional design and technology services globally.",
                 value: args.children,
                 className: classNames(sty.slotTargetChildren, {
-                  [sty.slotTargetChildren__persona_member]: hasVariant(
+                  [sty.slotTargetChildrenpersona_member]: hasVariant(
                     variants,
                     "persona",
                     "member"
                   ),
 
-                  [sty.slotTargetChildren__persona_partner]: hasVariant(
+                  [sty.slotTargetChildrenpersona_partner]: hasVariant(
                     variants,
                     "persona",
                     "partner"
                   ),
 
-                  [sty.slotTargetChildren__persona_partner_size__270]:
+                  [sty.slotTargetChildrenpersona_partner_size__270]:
                     hasVariant(variants, "persona", "partner") &&
                     hasVariant(variants, "size", "_270"),
-                  [sty.slotTargetChildren__persona_partner_size__720]:
+                  [sty.slotTargetChildrenpersona_partner_size__720]:
                     hasVariant(variants, "persona", "partner") &&
                     hasVariant(variants, "size", "_720"),
-                  [sty.slotTargetChildren__size__270]: hasVariant(
+                  [sty.slotTargetChildrensize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.slotTargetChildren__size__270_persona_member]:
+                  [sty.slotTargetChildrensize__270_persona_member]:
                     hasVariant(variants, "size", "_270") &&
                     hasVariant(variants, "persona", "member"),
-                  [sty.slotTargetChildren__size__360]: hasVariant(
+                  [sty.slotTargetChildrensize__360]: hasVariant(
                     variants,
                     "size",
                     "_360"
                   ),
 
-                  [sty.slotTargetChildren__size__360_persona_member]:
+                  [sty.slotTargetChildrensize__360_persona_member]:
                     hasVariant(variants, "size", "_360") &&
                     hasVariant(variants, "persona", "member"),
-                  [sty.slotTargetChildren__size__360_persona_partner]:
+                  [sty.slotTargetChildrensize__360_persona_partner]:
                     hasVariant(variants, "size", "_360") &&
                     hasVariant(variants, "persona", "partner"),
-                  [sty.slotTargetChildren__size__720]: hasVariant(
+                  [sty.slotTargetChildrensize__720]: hasVariant(
                     variants,
                     "size",
                     "_720"
                   ),
 
-                  [sty.slotTargetChildren__size__720_persona_member]:
+                  [sty.slotTargetChildrensize__720_persona_member]:
                     hasVariant(variants, "size", "_720") &&
                     hasVariant(variants, "persona", "member")
                 })
@@ -466,40 +451,30 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           data-plasmic-name={"buttonPrimary"}
           data-plasmic-override={overrides.buttonPrimary}
           className={classNames("__wab_instance", sty.buttonPrimary, {
-            [sty.buttonPrimary__cta_button]: hasVariant(
+            [sty.buttonPrimarycta_button]: hasVariant(
               variants,
               "cta",
               "button"
             ),
 
-            [sty.buttonPrimary__cta_email]: hasVariant(
-              variants,
-              "cta",
-              "email"
-            ),
-
-            [sty.buttonPrimary__persona_member]: hasVariant(
+            [sty.buttonPrimarycta_email]: hasVariant(variants, "cta", "email"),
+            [sty.buttonPrimarypersona_member]: hasVariant(
               variants,
               "persona",
               "member"
             ),
 
-            [sty.buttonPrimary__persona_partner]: hasVariant(
+            [sty.buttonPrimarypersona_partner]: hasVariant(
               variants,
               "persona",
               "partner"
             ),
 
-            [sty.buttonPrimary__persona_partner_size__720]:
+            [sty.buttonPrimarypersona_partner_size__720]:
               hasVariant(variants, "persona", "partner") &&
               hasVariant(variants, "size", "_720"),
-            [sty.buttonPrimary__size__720]: hasVariant(
-              variants,
-              "size",
-              "_720"
-            ),
-
-            [sty.buttonPrimary__size__720_persona_member]:
+            [sty.buttonPrimarysize__720]: hasVariant(variants, "size", "_720"),
+            [sty.buttonPrimarysize__720_persona_member]:
               hasVariant(variants, "size", "_720") &&
               hasVariant(variants, "persona", "member")
           })}
@@ -512,46 +487,46 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__emeni,
               {
-                [sty.text__persona_member__emeni3SAq]: hasVariant(
+                [sty.textpersona_member__emeni3SAq]: hasVariant(
                   variants,
                   "persona",
                   "member"
                 ),
 
-                [sty.text__persona_member_size__270__emeni3SAqWzVrX]:
+                [sty.textpersona_member_size__270__emeni3SAqWzVrX]:
                   hasVariant(variants, "persona", "member") &&
                   hasVariant(variants, "size", "_270"),
-                [sty.text__persona_partner_size__270__emenih1DvkWzVrX]:
+                [sty.textpersona_partner_size__270__emenih1DvkWzVrX]:
                   hasVariant(variants, "persona", "partner") &&
                   hasVariant(variants, "size", "_270"),
-                [sty.text__persona_partner_size__360__emenih1DvkKakJz]:
+                [sty.textpersona_partner_size__360__emenih1DvkKakJz]:
                   hasVariant(variants, "persona", "partner") &&
                   hasVariant(variants, "size", "_360"),
-                [sty.text__size__270__emeniWzVrX]: hasVariant(
+                [sty.textsize__270__emeniWzVrX]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.text__size__360__emeniKakJz]: hasVariant(
+                [sty.textsize__360__emeniKakJz]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.text__size__360_persona_member__emeniKakJz3SAq]:
+                [sty.textsize__360_persona_member__emeniKakJz3SAq]:
                   hasVariant(variants, "size", "_360") &&
                   hasVariant(variants, "persona", "member"),
-                [sty.text__size__720__emeniHXq]: hasVariant(
+                [sty.textsize__720__emeniHXq]: hasVariant(
                   variants,
                   "size",
                   "_720"
                 ),
 
-                [sty.text__size__720_persona_member__emeniHXq3SAq]:
+                [sty.textsize__720_persona_member__emeniHXq3SAq]:
                   hasVariant(variants, "size", "_720") &&
                   hasVariant(variants, "persona", "member"),
-                [sty.text__size__720_persona_partner__emeniHXqH1Dvk]:
+                [sty.textsize__720_persona_partner__emeniHXqH1Dvk]:
                   hasVariant(variants, "size", "_720") &&
                   hasVariant(variants, "persona", "partner")
               }
@@ -579,13 +554,13 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           data-plasmic-name={"buttonUberStyle"}
           data-plasmic-override={overrides.buttonUberStyle}
           className={classNames("__wab_instance", sty.buttonUberStyle, {
-            [sty.buttonUberStyle__cta_button]: hasVariant(
+            [sty.buttonUberStylecta_button]: hasVariant(
               variants,
               "cta",
               "button"
             ),
 
-            [sty.buttonUberStyle__persona_partner]: hasVariant(
+            [sty.buttonUberStylepersona_partner]: hasVariant(
               variants,
               "persona",
               "partner"
@@ -599,14 +574,14 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
           data-plasmic-name={"inputEmailB"}
           data-plasmic-override={overrides.inputEmailB}
           className={classNames("__wab_instance", sty.inputEmailB, {
-            [sty.inputEmailB__cta_email]: hasVariant(variants, "cta", "email"),
-            [sty.inputEmailB__persona_partner]: hasVariant(
+            [sty.inputEmailBcta_email]: hasVariant(variants, "cta", "email"),
+            [sty.inputEmailBpersona_partner]: hasVariant(
               variants,
               "persona",
               "partner"
             ),
 
-            [sty.inputEmailB__size__270]: hasVariant(variants, "size", "_270")
+            [sty.inputEmailBsize__270]: hasVariant(variants, "size", "_270")
           })}
           size={
             hasVariant(globalVariants, "screen", "desktop") ? "_270" : "_360"
@@ -618,7 +593,7 @@ function PlasmicHeroWelcomeCta__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__qUWk5,
               {
-                [sty.text__cta_email__qUWk544Lt1]: hasVariant(
+                [sty.textcta_email__qUWk544Lt1]: hasVariant(
                   variants,
                   "cta",
                   "email"

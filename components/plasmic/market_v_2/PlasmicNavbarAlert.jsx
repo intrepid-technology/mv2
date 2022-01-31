@@ -33,27 +33,22 @@ function PlasmicNavbarAlert__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color_brandLight]: hasVariant(
-          variants,
-          "color",
-          "brandLight"
-        ),
-
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark")
+        [sty.rootcolor_brandLight]: hasVariant(variants, "color", "brandLight"),
+        [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark")
       })}
     >
       <TextLinkUnderlinePrimary
         data-plasmic-name={"textLinkUnderlinePrimary"}
         data-plasmic-override={overrides.textLinkUnderlinePrimary}
         className={classNames("__wab_instance", sty.textLinkUnderlinePrimary, {
-          [sty.textLinkUnderlinePrimary__color_brand]: hasVariant(
+          [sty.textLinkUnderlinePrimarycolor_brand]: hasVariant(
             variants,
             "color",
             "brand"
           ),
 
-          [sty.textLinkUnderlinePrimary__color_dark]: hasVariant(
+          [sty.textLinkUnderlinePrimarycolor_dark]: hasVariant(
             variants,
             "color",
             "dark"

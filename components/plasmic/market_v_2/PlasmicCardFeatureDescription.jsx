@@ -41,7 +41,7 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__360]: hasVariant(variants, "size", "_360")
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360")
       })}
     >
       <p.Stack
@@ -50,16 +50,16 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
         data-plasmic-override={overrides.cardParent}
         hasGap={true}
         className={classNames(projectcss.all, sty.cardParent, {
-          [sty.cardParent__border]: hasVariant(variants, "border", "border"),
-          [sty.cardParent__size__160]: hasVariant(variants, "size", "_160"),
-          [sty.cardParent__size__360]: hasVariant(variants, "size", "_360")
+          [sty.cardParentborder]: hasVariant(variants, "border", "border"),
+          [sty.cardParentsize__160]: hasVariant(variants, "size", "_160"),
+          [sty.cardParentsize__360]: hasVariant(variants, "size", "_360")
         })}
       >
         <div
           data-plasmic-name={"iconParent"}
           data-plasmic-override={overrides.iconParent}
           className={classNames(projectcss.all, sty.iconParent, {
-            [sty.iconParent__size__360]: hasVariant(variants, "size", "_360")
+            [sty.iconParentsize__360]: hasVariant(variants, "size", "_360")
           })}
         >
           {p.renderPlasmicSlot({
@@ -82,13 +82,13 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
           data-plasmic-override={overrides.headlineBodyTextParent}
           hasGap={true}
           className={classNames(projectcss.all, sty.headlineBodyTextParent, {
-            [sty.headlineBodyTextParent__size__160]: hasVariant(
+            [sty.headlineBodyTextParentsize__160]: hasVariant(
               variants,
               "size",
               "_160"
             ),
 
-            [sty.headlineBodyTextParent__size__360]: hasVariant(
+            [sty.headlineBodyTextParentsize__360]: hasVariant(
               variants,
               "size",
               "_360"
@@ -104,20 +104,20 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
               data-plasmic-name={"headline"}
               data-plasmic-override={overrides.headline}
               className={classNames(projectcss.all, sty.headline, {
-                [sty.headline__size__160]: hasVariant(variants, "size", "_160")
+                [sty.headlinesize__160]: hasVariant(variants, "size", "_160")
               })}
             >
               {p.renderPlasmicSlot({
                 defaultContents: "Headline feature desription",
                 value: args.headline,
                 className: classNames(sty.slotTargetHeadline, {
-                  [sty.slotTargetHeadline__size__160]: hasVariant(
+                  [sty.slotTargetHeadlinesize__160]: hasVariant(
                     variants,
                     "size",
                     "_160"
                   ),
 
-                  [sty.slotTargetHeadline__size__360]: hasVariant(
+                  [sty.slotTargetHeadlinesize__360]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -131,7 +131,7 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
             data-plasmic-name={"textParent"}
             data-plasmic-override={overrides.textParent}
             className={classNames(projectcss.all, sty.textParent, {
-              [sty.textParent__size__360]: hasVariant(variants, "size", "_360")
+              [sty.textParentsize__360]: hasVariant(variants, "size", "_360")
             })}
           >
             {p.renderPlasmicSlot({
@@ -139,13 +139,13 @@ function PlasmicCardFeatureDescription__RenderFunc(props) {
                 "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in.",
               value: args.text,
               className: classNames(sty.slotTargetText, {
-                [sty.slotTargetText__size__160]: hasVariant(
+                [sty.slotTargetTextsize__160]: hasVariant(
                   variants,
                   "size",
                   "_160"
                 ),
 
-                [sty.slotTargetText__size__360]: hasVariant(
+                [sty.slotTargetTextsize__360]: hasVariant(
                   variants,
                   "size",
                   "_360"

@@ -7,16 +7,16 @@
   width: 160px;
   height: auto;
 }
-.linkParent__size__90 {
+.linkParentsize__90 {
   width: 90px;
 }
-.linkParent__size__140 {
+.linkParentsize__140 {
   width: 140px;
 }
-.linkParent__size__270 {
+.linkParentsize__270 {
   width: 270px;
 }
-.linkParent__size__360 {
+.linkParentsize__360 {
   width: 360px;
 }
 .contentParent {
@@ -38,13 +38,13 @@
   min-width: 0;
   border-style: solid;
 }
-.contentParent__size__140 {
+.contentParentsize__140 {
   width: 140px;
 }
-.contentParent__size__320 {
+.contentParentsize__320 {
   width: 320px;
 }
-.contentParent__size__360 {
+.contentParentsize__360 {
   width: 100%;
   min-width: 0;
 }
@@ -64,7 +64,7 @@
   min-width: 0;
   margin: 0px;
 }
-.textIconParent__size__140 {
+.textIconParentsize__140 {
   align-items: center;
 }
 .textParent {
@@ -83,16 +83,16 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.slotTargetChildren__size__140 {
+.slotTargetChildrensize__140 {
   font-size: 14px;
 }
-.slotTargetChildren__size__270 {
+.slotTargetChildrensize__270 {
   font-size: 14px;
 }
-.slotTargetChildren__size__320 {
+.slotTargetChildrensize__320 {
   font-size: 16px;
 }
-.slotTargetChildren__size__360 {
+.slotTargetChildrensize__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetChildren {
@@ -105,16 +105,16 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.slotTargetText90__size__90 {
+.slotTargetText90size__90 {
   font-size: 8px;
 }
-.slotTargetText90__size__140 {
+.slotTargetText90size__140 {
   font-size: 14px;
 }
-.slotTargetText90__size__320 {
+.slotTargetText90size__320 {
   font-size: 16px;
 }
-.slotTargetText90__size__360 {
+.slotTargetText90size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetText90 {
@@ -127,13 +127,13 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.slotTargetText140__size__140 {
+.slotTargetText140size__140 {
   font-size: 10px;
 }
-.slotTargetText140__size__320 {
+.slotTargetText140size__320 {
   font-size: 16px;
 }
-.slotTargetText140__size__360 {
+.slotTargetText140size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetText140 {
@@ -151,16 +151,16 @@
   min-height: 0;
   margin: 0px;
 }
-.arrowParent__size__140 {
+.arrowParentsize__140 {
   align-self: center;
   align-items: center;
   margin: 0px;
 }
-.arrowParent__size__160 {
+.arrowParentsize__160 {
   height: 100%;
   min-height: 0;
 }
-.arrowParent__size__360 {
+.arrowParentsize__360 {
   width: auto;
   height: auto;
   margin: 0px;
@@ -171,14 +171,14 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
   font-weight: 600;
 }
-.slotTargetSlot__size__140 {
+.slotTargetSlotsize__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetSlot__size__320 {
+.slotTargetSlotsize__320 {
   font-size: 16px;
 }
-.slotTargetSlot__size__360 {
+.slotTargetSlotsize__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetSlot {
@@ -189,18 +189,18 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow160__size__140 {
+.slotTargetArrow160size__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetArrow160__size__160 {
+.slotTargetArrow160size__160 {
   font-size: 12px;
   font-weight: 600;
 }
-.slotTargetArrow160__size__320 {
+.slotTargetArrow160size__320 {
   font-size: 16px;
 }
-.slotTargetArrow160__size__360 {
+.slotTargetArrow160size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetArrow160 {
@@ -211,18 +211,18 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow270__size__140 {
+.slotTargetArrow270size__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetArrow270__size__270 {
+.slotTargetArrow270size__270 {
   font-size: 14px;
   font-weight: 600;
 }
-.slotTargetArrow270__size__320 {
+.slotTargetArrow270size__320 {
   font-size: 16px;
 }
-.slotTargetArrow270__size__360 {
+.slotTargetArrow270size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetArrow270 {
@@ -233,15 +233,15 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow140__size__140 {
+.slotTargetArrow140size__140 {
   font-size: 10px;
   line-height: 1;
   font-weight: 600;
 }
-.slotTargetArrow140__size__320 {
+.slotTargetArrow140size__320 {
   font-size: 16px;
 }
-.slotTargetArrow140__size__360 {
+.slotTargetArrow140size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetArrow140 {
@@ -252,14 +252,14 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow360__size__140 {
+.slotTargetArrow360size__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetArrow360__size__320 {
+.slotTargetArrow360size__320 {
   font-size: 16px;
 }
-.slotTargetArrow360__size__360 {
+.slotTargetArrow360size__360 {
   font-size: 16px;
   font-weight: 600;
 }
@@ -271,15 +271,15 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow320__size__140 {
+.slotTargetArrow320size__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetArrow320__size__320 {
+.slotTargetArrow320size__320 {
   font-size: 16px;
   font-weight: 600;
 }
-.slotTargetArrow320__size__360 {
+.slotTargetArrow320size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetArrow320 {
@@ -290,18 +290,18 @@
   line-height: 1;
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.slotTargetArrow90__size__90 {
+.slotTargetArrow90size__90 {
   font-weight: 600;
   font-size: 8px;
 }
-.slotTargetArrow90__size__140 {
+.slotTargetArrow90size__140 {
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetArrow90__size__320 {
+.slotTargetArrow90size__320 {
   font-size: 16px;
 }
-.slotTargetArrow90__size__360 {
+.slotTargetArrow90size__360 {
   font-size: 16px;
 }
 .linkParent:hover .slotTargetArrow90 {

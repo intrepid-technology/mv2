@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   position: relative;
@@ -10,9 +10,9 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
   flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -50,9 +50,9 @@
   }
 }
 .freeBox___8TJh3 {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 540px;
   height: auto;
   left: auto;
@@ -62,8 +62,8 @@
 }
 .freeBox___8TJh3 > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }

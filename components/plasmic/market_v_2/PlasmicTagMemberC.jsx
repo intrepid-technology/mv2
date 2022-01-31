@@ -32,14 +32,14 @@ function PlasmicTagMemberC__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__inset]: hasVariant(variants, "inset", "inset")
+        [sty.rootinset]: hasVariant(variants, "inset", "inset")
       })}
     >
       <div
         data-plasmic-name={"text"}
         data-plasmic-override={overrides.text}
         className={classNames(projectcss.all, projectcss.__wab_text, sty.text, {
-          [sty.text__inset]: hasVariant(variants, "inset", "inset")
+          [sty.textinset]: hasVariant(variants, "inset", "inset")
         })}
       >
         {"pro"}

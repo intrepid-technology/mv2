@@ -34,6 +34,7 @@ function PlasmicFooterLogo__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.a,
         projectcss.root_reset,
         sty.footerlogoLink
@@ -46,11 +47,11 @@ function PlasmicFooterLogo__RenderFunc(props) {
         data-plasmic-name={"img"}
         data-plasmic-override={overrides.img}
         alt={""}
-        className={classNames(projectcss.img, sty.img, {
-          [sty.img__light]: hasVariant(variants, "light", "light"),
-          [sty.img__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.img__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.img__size__32]: hasVariant(variants, "size", "_32")
+        className={classNames(projectcss.all, projectcss.img, sty.img, {
+          [sty.imglight]: hasVariant(variants, "light", "light"),
+          [sty.imgsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.imgsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.imgsize__32]: hasVariant(variants, "size", "_32")
         })}
         src={
           hasVariant(variants, "light", "light")

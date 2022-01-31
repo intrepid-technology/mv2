@@ -12,21 +12,21 @@
   border-width: 1px;
   border-style: none;
 }
-.root__state_warning {
+.rootstate_warning {
   background: #ffcc33;
 }
-.root__state_urgent {
+.rootstate_urgent {
   background: #cc0033;
 }
-.root__size__10 {
+.rootsize__10 {
   width: 10px;
   height: 10px;
 }
-.root__size__12 {
+.rootsize__12 {
   width: 12px;
   height: 12px;
 }
-.root__size__16 {
+.rootsize__16 {
   width: 16px;
   height: 16px;
 }
@@ -52,12 +52,12 @@
   height: auto;
   color: #ffffff /* plasmic-token: fuGaen6l1 */;
 }
-.textContent__size__10 {
+.textContentsize__10 {
   font-size: 8px;
 }
-.textContent__size__12 {
+.textContentsize__12 {
   font-size: 10px;
 }
-.textContent__size__16 {
+.textContentsize__16 {
   font-size: 14px;
 }

@@ -7,21 +7,21 @@
   width: auto;
   height: auto;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: auto;
   height: auto;
   padding: 0px;
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
 }
@@ -35,11 +35,11 @@
   > img {
   margin-top: 6px;
 }
-.parent__width_stretch {
+.parentwidth_stretch {
   width: 100%;
   min-width: 0;
 }
-.parent__width_stretch > :global(.__wab_flex-container) {
+.parentwidth_stretch > :global(.__wab_flex-container) {
   min-width: 0;
 }
 .labelParent {
@@ -50,7 +50,7 @@
   flex-direction: row;
   align-self: flex-start;
 }
-.labelParent__label {
+.labelParentlabel {
   display: none;
 }
 .freeBox__vyC13 {
@@ -88,7 +88,7 @@
   flex-direction: row;
   align-self: flex-start;
 }
-.descriptionParent__description {
+.descriptionParentdescription {
   display: none;
 }
 .freeBox___9Iita {

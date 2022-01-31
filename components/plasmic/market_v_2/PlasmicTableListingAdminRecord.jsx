@@ -62,7 +62,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__toDo_finish]: hasVariant(variants, "toDo", "finish")
+        [sty.roottoDo_finish]: hasVariant(variants, "toDo", "finish")
       })}
     >
       <p.Stack
@@ -74,7 +74,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           projectcss.all,
           sty.listingSelectImageCaptionEditParent,
           {
-            [sty.listingSelectImageCaptionEditParent__term_annual]: hasVariant(
+            [sty.listingSelectImageCaptionEditParentterm_annual]: hasVariant(
               variants,
               "term",
               "annual"
@@ -95,7 +95,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           data-plasmic-override={overrides.imageCaptionParent}
           hasGap={true}
           className={classNames(projectcss.all, sty.imageCaptionParent, {
-            [sty.imageCaptionParent__term_annual]: hasVariant(
+            [sty.imageCaptionParentterm_annual]: hasVariant(
               variants,
               "term",
               "annual"
@@ -105,7 +105,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"imageLinkManageListging"}
             data-plasmic-override={overrides.imageLinkManageListging}
-            className={classNames(projectcss.a, sty.imageLinkManageListging)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.imageLinkManageListging
+            )}
             component={Link}
             href={args.destination}
             platform={"nextjs"}
@@ -118,7 +122,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"img"}
                   data-plasmic-override={overrides.img}
                   alt={""}
-                  className={classNames(projectcss.img, sty.img)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -130,7 +138,11 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"_70X404"}
                   data-plasmic-override={overrides._70X404}
                   alt={""}
-                  className={classNames(projectcss.img, sty._70X404)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty._70X404
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/70x40/f8f8f8/333333"
                   }
@@ -148,7 +160,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               projectcss.all,
               sty.serviceListingTitleParent,
               {
-                [sty.serviceListingTitleParent__term_annual]: hasVariant(
+                [sty.serviceListingTitleParentterm_annual]: hasVariant(
                   variants,
                   "term",
                   "annual"
@@ -159,13 +171,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"serviceListingTitle"}
               data-plasmic-override={overrides.serviceListingTitle}
-              className={classNames(projectcss.a, sty.serviceListingTitle, {
-                [sty.serviceListingTitle__term_annual]: hasVariant(
-                  variants,
-                  "term",
-                  "annual"
-                )
-              })}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.serviceListingTitle,
+                {
+                  [sty.serviceListingTitleterm_annual]: hasVariant(
+                    variants,
+                    "term",
+                    "annual"
+                  )
+                }
+              )}
               component={Link}
               href={args.destination}
               platform={"nextjs"}
@@ -176,7 +193,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text__bWl6W,
                   {
-                    [sty.text__term_annual__bWl6WynHaO]: hasVariant(
+                    [sty.textterm_annual__bWl6WynHaO]: hasVariant(
                       variants,
                       "term",
                       "annual"
@@ -192,13 +209,18 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"buttonEditListing"}
             data-plasmic-override={overrides.buttonEditListing}
-            className={classNames(projectcss.a, sty.buttonEditListing, {
-              [sty.buttonEditListing__term_annual]: hasVariant(
-                variants,
-                "term",
-                "annual"
-              )
-            })}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.buttonEditListing,
+              {
+                [sty.buttonEditListingterm_annual]: hasVariant(
+                  variants,
+                  "term",
+                  "annual"
+                )
+              }
+            )}
             component={Link}
             href={args.destination}
             platform={"nextjs"}
@@ -220,7 +242,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"editIcon"}
                   data-plasmic-override={overrides.editIcon}
                   className={classNames(projectcss.all, sty.editIcon, {
-                    [sty.editIcon__term_annual]: hasVariant(
+                    [sty.editIconterm_annual]: hasVariant(
                       variants,
                       "term",
                       "annual"
@@ -261,19 +283,19 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                         : PlusBoldIcon
                     }
                     className={classNames(projectcss.all, sty.svgIcon23, {
-                      [sty.svgIcon23__status_inProgress]: hasVariant(
+                      [sty.svgIcon23status_inProgress]: hasVariant(
                         variants,
                         "status",
                         "inProgress"
                       ),
 
-                      [sty.svgIcon23__status_listed]: hasVariant(
+                      [sty.svgIcon23status_listed]: hasVariant(
                         variants,
                         "status",
                         "listed"
                       ),
 
-                      [sty.svgIcon23__status_unlisted]: hasVariant(
+                      [sty.svgIcon23status_unlisted]: hasVariant(
                         variants,
                         "status",
                         "unlisted"
@@ -301,11 +323,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           data-plasmic-name={"toDoParent"}
           data-plasmic-override={overrides.toDoParent}
           className={classNames(projectcss.all, sty.toDoParent, {
-            [sty.toDoParent__toDo_finish]: hasVariant(
-              variants,
-              "toDo",
-              "finish"
-            )
+            [sty.toDoParenttoDo_finish]: hasVariant(variants, "toDo", "finish")
           })}
         >
           {(hasVariant(variants, "toDo", "finish") ? true : true) ? (
@@ -313,14 +331,14 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               data-plasmic-name={"toDo"}
               data-plasmic-override={overrides.toDo}
               className={classNames("__wab_instance", sty.toDo, {
-                [sty.toDo__toDo_activate]: hasVariant(
+                [sty.toDotoDo_activate]: hasVariant(
                   variants,
                   "toDo",
                   "activate"
                 ),
 
-                [sty.toDo__toDo_boost]: hasVariant(variants, "toDo", "boost"),
-                [sty.toDo__toDo_finish]: hasVariant(variants, "toDo", "finish")
+                [sty.toDotoDo_boost]: hasVariant(variants, "toDo", "boost"),
+                [sty.toDotoDo_finish]: hasVariant(variants, "toDo", "finish")
               })}
               color={
                 hasVariant(variants, "toDo", "boost")
@@ -341,7 +359,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                       : PlusBoldIcon
                   }
                   className={classNames(projectcss.all, sty.svg, {
-                    [sty.svg__toDo_boost]: hasVariant(variants, "toDo", "boost")
+                    [sty.svgtoDo_boost]: hasVariant(variants, "toDo", "boost")
                   })}
                   role={"img"}
                 />
@@ -365,7 +383,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
               data-plasmic-name={"buttonLinkPrimary"}
               data-plasmic-override={overrides.buttonLinkPrimary}
               className={classNames("__wab_instance", sty.buttonLinkPrimary, {
-                [sty.buttonLinkPrimary__toDo_finish]: hasVariant(
+                [sty.buttonLinkPrimarytoDo_finish]: hasVariant(
                   variants,
                   "toDo",
                   "finish"
@@ -483,13 +501,13 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             data-plasmic-name={"termSubscription"}
             data-plasmic-override={overrides.termSubscription}
             className={classNames("__wab_instance", sty.termSubscription, {
-              [sty.termSubscription__term_annual]: hasVariant(
+              [sty.termSubscriptionterm_annual]: hasVariant(
                 variants,
                 "term",
                 "annual"
               ),
 
-              [sty.termSubscription__term_monthly]: hasVariant(
+              [sty.termSubscriptionterm_monthly]: hasVariant(
                 variants,
                 "term",
                 "monthly"
@@ -502,13 +520,13 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text__mce,
                   {
-                    [sty.text__term_annual__mceynHaO]: hasVariant(
+                    [sty.textterm_annual__mceynHaO]: hasVariant(
                       variants,
                       "term",
                       "annual"
                     ),
 
-                    [sty.text__term_monthly__mceMZlgn]: hasVariant(
+                    [sty.textterm_monthly__mceMZlgn]: hasVariant(
                       variants,
                       "term",
                       "monthly"
@@ -564,11 +582,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             data-plasmic-name={"autoRenew"}
             data-plasmic-override={overrides.autoRenew}
             className={classNames("__wab_instance", sty.autoRenew, {
-              [sty.autoRenew__term_annual]: hasVariant(
-                variants,
-                "term",
-                "annual"
-              )
+              [sty.autoRenewterm_annual]: hasVariant(variants, "term", "annual")
             })}
           />
         </div>
@@ -585,7 +599,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
             data-plasmic-name={"archiveListing"}
             data-plasmic-override={overrides.archiveListing}
             className={classNames("__wab_instance", sty.archiveListing, {
-              [sty.archiveListing__term_annual]: hasVariant(
+              [sty.archiveListingterm_annual]: hasVariant(
                 variants,
                 "term",
                 "annual"

@@ -42,20 +42,15 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__mobile_mobileApp]: hasVariant(
-          variants,
-          "mobile",
-          "mobileApp"
-        ),
-
-        [sty.root__mobile_mobileEcommerce]: hasVariant(
+        [sty.rootmobile_mobileApp]: hasVariant(variants, "mobile", "mobileApp"),
+        [sty.rootmobile_mobileEcommerce]: hasVariant(
           variants,
           "mobile",
           "mobileEcommerce"
         ),
 
-        [sty.root__web_ecommerce]: hasVariant(variants, "web", "ecommerce"),
-        [sty.root__web_multiPage]: hasVariant(variants, "web", "multiPage")
+        [sty.rootweb_ecommerce]: hasVariant(variants, "web", "ecommerce"),
+        [sty.rootweb_multiPage]: hasVariant(variants, "web", "multiPage")
       })}
     >
       {(hasVariant(variants, "breadcrumbs", "breadcrumbs") ? false : true) ? (
@@ -63,13 +58,13 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
           data-plasmic-name={"freeBox"}
           data-plasmic-override={overrides.freeBox}
           className={classNames(projectcss.all, sty.freeBox, {
-            [sty.freeBox__brandDesign_logo]: hasVariant(
+            [sty.freeBoxbrandDesign_logo]: hasVariant(
               variants,
               "brandDesign",
               "logo"
             ),
 
-            [sty.freeBox__breadcrumbs]: hasVariant(
+            [sty.freeBoxbreadcrumbs]: hasVariant(
               variants,
               "breadcrumbs",
               "breadcrumbs"
@@ -110,81 +105,85 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
               : "Category | Sub-category",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__brandDesign_brandGuide]: hasVariant(
+              [sty.slotTargetChildrenbrandDesign_brandGuide]: hasVariant(
                 variants,
                 "brandDesign",
                 "brandGuide"
               ),
 
-              [sty.slotTargetChildren__brandDesign_designSystem]: hasVariant(
+              [sty.slotTargetChildrenbrandDesign_designSystem]: hasVariant(
                 variants,
                 "brandDesign",
                 "designSystem"
               ),
 
-              [sty.slotTargetChildren__brandDesign_logo]: hasVariant(
+              [sty.slotTargetChildrenbrandDesign_logo]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.slotTargetChildren__brandDesign_slidePresentation]:
-                hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.slotTargetChildren__breadcrumbs]: hasVariant(
+              [sty.slotTargetChildrenbrandDesign_slidePresentation]: hasVariant(
+                variants,
+                "brandDesign",
+                "slidePresentation"
+              ),
+
+              [sty.slotTargetChildrenbreadcrumbs]: hasVariant(
                 variants,
                 "breadcrumbs",
                 "breadcrumbs"
               ),
 
-              [sty.slotTargetChildren__mobile_mobileApp]: hasVariant(
+              [sty.slotTargetChildrenmobile_mobileApp]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.slotTargetChildren__mobile_mobileEcommerce]: hasVariant(
+              [sty.slotTargetChildrenmobile_mobileEcommerce]: hasVariant(
                 variants,
                 "mobile",
                 "mobileEcommerce"
               ),
 
-              [sty.slotTargetChildren__uxDesign_prototype]: hasVariant(
+              [sty.slotTargetChildrenuxDesign_prototype]: hasVariant(
                 variants,
                 "uxDesign",
                 "prototype"
               ),
 
-              [sty.slotTargetChildren__uxDesign_usabilityTesting]: hasVariant(
+              [sty.slotTargetChildrenuxDesign_usabilityTesting]: hasVariant(
                 variants,
                 "uxDesign",
                 "usabilityTesting"
               ),
 
-              [sty.slotTargetChildren__uxDesign_userResearch]: hasVariant(
+              [sty.slotTargetChildrenuxDesign_userResearch]: hasVariant(
                 variants,
                 "uxDesign",
                 "userResearch"
               ),
 
-              [sty.slotTargetChildren__uxDesign_wireframe]: hasVariant(
+              [sty.slotTargetChildrenuxDesign_wireframe]: hasVariant(
                 variants,
                 "uxDesign",
                 "wireframe"
               ),
 
-              [sty.slotTargetChildren__web_ecommerce]: hasVariant(
+              [sty.slotTargetChildrenweb_ecommerce]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.slotTargetChildren__web_multiPage]: hasVariant(
+              [sty.slotTargetChildrenweb_multiPage]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.slotTargetChildren__web_singlePage]: hasVariant(
+              [sty.slotTargetChildrenweb_singlePage]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -260,53 +259,61 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
 
       <RadioCheckboxCard
         className={classNames("__wab_instance", sty.radioCheckboxCard__uLsn, {
-          [sty.radioCheckboxCard__brandDesign_brandGuide__uLsnduLaI]:
-            hasVariant(variants, "brandDesign", "brandGuide"),
-          [sty.radioCheckboxCard__brandDesign_designSystem__uLsnlcwQu]:
+          [sty.radioCheckboxCardbrandDesign_brandGuide__uLsnduLaI]: hasVariant(
+            variants,
+            "brandDesign",
+            "brandGuide"
+          ),
+
+          [sty.radioCheckboxCardbrandDesign_designSystem__uLsnlcwQu]:
             hasVariant(variants, "brandDesign", "designSystem"),
-          [sty.radioCheckboxCard__brandDesign_logo__uLsnoNU]: hasVariant(
+          [sty.radioCheckboxCardbrandDesign_logo__uLsnoNU]: hasVariant(
             variants,
             "brandDesign",
             "logo"
           ),
 
-          [sty.radioCheckboxCard__brandDesign_slidePresentation__uLsnwCAz]:
+          [sty.radioCheckboxCardbrandDesign_slidePresentation__uLsnwCAz]:
             hasVariant(variants, "brandDesign", "slidePresentation"),
-          [sty.radioCheckboxCard__mobile_mobileApp__uLsnMLwGi]: hasVariant(
+          [sty.radioCheckboxCardmobile_mobileApp__uLsnMLwGi]: hasVariant(
             variants,
             "mobile",
             "mobileApp"
           ),
 
-          [sty.radioCheckboxCard__mobile_mobileEcommerce__uLsnkgS4T]:
-            hasVariant(variants, "mobile", "mobileEcommerce"),
-          [sty.radioCheckboxCard__uxDesign_prototype__uLsnBd85S]: hasVariant(
+          [sty.radioCheckboxCardmobile_mobileEcommerce__uLsnkgS4T]: hasVariant(
+            variants,
+            "mobile",
+            "mobileEcommerce"
+          ),
+
+          [sty.radioCheckboxCarduxDesign_prototype__uLsnBd85S]: hasVariant(
             variants,
             "uxDesign",
             "prototype"
           ),
 
-          [sty.radioCheckboxCard__uxDesign_usabilityTesting__uLsn8N32W]:
+          [sty.radioCheckboxCarduxDesign_usabilityTesting__uLsn8N32W]:
             hasVariant(variants, "uxDesign", "usabilityTesting"),
-          [sty.radioCheckboxCard__uxDesign_userResearch__uLsn1Mxgx]: hasVariant(
+          [sty.radioCheckboxCarduxDesign_userResearch__uLsn1Mxgx]: hasVariant(
             variants,
             "uxDesign",
             "userResearch"
           ),
 
-          [sty.radioCheckboxCard__web_ecommerce__uLsnS5Sov]: hasVariant(
+          [sty.radioCheckboxCardweb_ecommerce__uLsnS5Sov]: hasVariant(
             variants,
             "web",
             "ecommerce"
           ),
 
-          [sty.radioCheckboxCard__web_multiPage__uLsn5C66A]: hasVariant(
+          [sty.radioCheckboxCardweb_multiPage__uLsn5C66A]: hasVariant(
             variants,
             "web",
             "multiPage"
           ),
 
-          [sty.radioCheckboxCard__web_singlePage__uLsnMqwxY]: hasVariant(
+          [sty.radioCheckboxCardweb_singlePage__uLsnMqwxY]: hasVariant(
             variants,
             "web",
             "singlePage"
@@ -353,49 +360,53 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
       ) ? (
         <RadioCheckboxCard
           className={classNames("__wab_instance", sty.radioCheckboxCard__mRFs, {
-            [sty.radioCheckboxCard__brandDesign_brandGuide__mRFSduLaI]:
+            [sty.radioCheckboxCardbrandDesign_brandGuide__mRFSduLaI]:
               hasVariant(variants, "brandDesign", "brandGuide"),
-            [sty.radioCheckboxCard__brandDesign_designSystem__mRFSlcwQu]:
+            [sty.radioCheckboxCardbrandDesign_designSystem__mRFSlcwQu]:
               hasVariant(variants, "brandDesign", "designSystem"),
-            [sty.radioCheckboxCard__brandDesign_logo__mRFSoNU]: hasVariant(
+            [sty.radioCheckboxCardbrandDesign_logo__mRFSoNU]: hasVariant(
               variants,
               "brandDesign",
               "logo"
             ),
 
-            [sty.radioCheckboxCard__brandDesign_slidePresentation__mRFSwCAz]:
+            [sty.radioCheckboxCardbrandDesign_slidePresentation__mRFSwCAz]:
               hasVariant(variants, "brandDesign", "slidePresentation"),
-            [sty.radioCheckboxCard__mobile_mobileApp__mRFsmLwGi]: hasVariant(
+            [sty.radioCheckboxCardmobile_mobileApp__mRFsmLwGi]: hasVariant(
               variants,
               "mobile",
               "mobileApp"
             ),
 
-            [sty.radioCheckboxCard__mobile_mobileEcommerce__mRFSkgS4T]:
+            [sty.radioCheckboxCardmobile_mobileEcommerce__mRFSkgS4T]:
               hasVariant(variants, "mobile", "mobileEcommerce"),
-            [sty.radioCheckboxCard__uxDesign_prototype__mRFsbd85S]: hasVariant(
+            [sty.radioCheckboxCarduxDesign_prototype__mRFsbd85S]: hasVariant(
               variants,
               "uxDesign",
               "prototype"
             ),
 
-            [sty.radioCheckboxCard__uxDesign_usabilityTesting__mRFs8N32W]:
+            [sty.radioCheckboxCarduxDesign_usabilityTesting__mRFs8N32W]:
               hasVariant(variants, "uxDesign", "usabilityTesting"),
-            [sty.radioCheckboxCard__uxDesign_userResearch__mRFs1Mxgx]:
-              hasVariant(variants, "uxDesign", "userResearch"),
-            [sty.radioCheckboxCard__web_ecommerce__mRFss5Sov]: hasVariant(
+            [sty.radioCheckboxCarduxDesign_userResearch__mRFs1Mxgx]: hasVariant(
+              variants,
+              "uxDesign",
+              "userResearch"
+            ),
+
+            [sty.radioCheckboxCardweb_ecommerce__mRFss5Sov]: hasVariant(
               variants,
               "web",
               "ecommerce"
             ),
 
-            [sty.radioCheckboxCard__web_multiPage__mRFs5C66A]: hasVariant(
+            [sty.radioCheckboxCardweb_multiPage__mRFs5C66A]: hasVariant(
               variants,
               "web",
               "multiPage"
             ),
 
-            [sty.radioCheckboxCard__web_singlePage__mRFsMqwxY]: hasVariant(
+            [sty.radioCheckboxCardweb_singlePage__mRFsMqwxY]: hasVariant(
               variants,
               "web",
               "singlePage"
@@ -445,45 +456,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__jxj8L,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__jxj8LduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__jxj8LduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__jxj8LlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__jxj8LlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__jxj8LoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__jxj8LoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__jxj8LwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__jxj8LwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__jxj8LmLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__jxj8LmLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__jxj8LkgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__jxj8LkgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__jxj8Lbd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__jxj8L8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__jxj8Lbd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__jxj8L8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__jxj8L1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__jxj8L1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__jxj8Ls5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__jxj8Ls5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__jxj8L5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__jxj8L5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__jxj8LMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__jxj8LMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -531,49 +546,53 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
       ) ? (
         <RadioCheckboxCard
           className={classNames("__wab_instance", sty.radioCheckboxCard__plOg, {
-            [sty.radioCheckboxCard__brandDesign_brandGuide__plOGduLaI]:
+            [sty.radioCheckboxCardbrandDesign_brandGuide__plOGduLaI]:
               hasVariant(variants, "brandDesign", "brandGuide"),
-            [sty.radioCheckboxCard__brandDesign_designSystem__plOGlcwQu]:
+            [sty.radioCheckboxCardbrandDesign_designSystem__plOGlcwQu]:
               hasVariant(variants, "brandDesign", "designSystem"),
-            [sty.radioCheckboxCard__brandDesign_logo__plOGoNU]: hasVariant(
+            [sty.radioCheckboxCardbrandDesign_logo__plOGoNU]: hasVariant(
               variants,
               "brandDesign",
               "logo"
             ),
 
-            [sty.radioCheckboxCard__brandDesign_slidePresentation__plOGwCAz]:
+            [sty.radioCheckboxCardbrandDesign_slidePresentation__plOGwCAz]:
               hasVariant(variants, "brandDesign", "slidePresentation"),
-            [sty.radioCheckboxCard__mobile_mobileApp__plOgmLwGi]: hasVariant(
+            [sty.radioCheckboxCardmobile_mobileApp__plOgmLwGi]: hasVariant(
               variants,
               "mobile",
               "mobileApp"
             ),
 
-            [sty.radioCheckboxCard__mobile_mobileEcommerce__plOGkgS4T]:
+            [sty.radioCheckboxCardmobile_mobileEcommerce__plOGkgS4T]:
               hasVariant(variants, "mobile", "mobileEcommerce"),
-            [sty.radioCheckboxCard__uxDesign_prototype__plOgbd85S]: hasVariant(
+            [sty.radioCheckboxCarduxDesign_prototype__plOgbd85S]: hasVariant(
               variants,
               "uxDesign",
               "prototype"
             ),
 
-            [sty.radioCheckboxCard__uxDesign_usabilityTesting__plOg8N32W]:
+            [sty.radioCheckboxCarduxDesign_usabilityTesting__plOg8N32W]:
               hasVariant(variants, "uxDesign", "usabilityTesting"),
-            [sty.radioCheckboxCard__uxDesign_userResearch__plOg1Mxgx]:
-              hasVariant(variants, "uxDesign", "userResearch"),
-            [sty.radioCheckboxCard__web_ecommerce__plOgs5Sov]: hasVariant(
+            [sty.radioCheckboxCarduxDesign_userResearch__plOg1Mxgx]: hasVariant(
+              variants,
+              "uxDesign",
+              "userResearch"
+            ),
+
+            [sty.radioCheckboxCardweb_ecommerce__plOgs5Sov]: hasVariant(
               variants,
               "web",
               "ecommerce"
             ),
 
-            [sty.radioCheckboxCard__web_multiPage__plOg5C66A]: hasVariant(
+            [sty.radioCheckboxCardweb_multiPage__plOg5C66A]: hasVariant(
               variants,
               "web",
               "multiPage"
             ),
 
-            [sty.radioCheckboxCard__web_singlePage__plOgMqwxY]: hasVariant(
+            [sty.radioCheckboxCardweb_singlePage__plOgMqwxY]: hasVariant(
               variants,
               "web",
               "singlePage"
@@ -623,45 +642,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__bQuo7,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__bQuo7DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__bQuo7DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__bQuo7LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__bQuo7LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__bQuo7ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__bQuo7ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__bQuo7WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__bQuo7WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__bQuo7MLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__bQuo7MLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__bQuo7KgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__bQuo7KgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__bQuo7Bd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__bQuo78N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__bQuo7Bd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__bQuo78N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__bQuo71Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__bQuo71Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__bQuo7S5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__bQuo7S5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__bQuo75C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__bQuo75C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__bQuo7MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__bQuo7MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -712,45 +735,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__qDSkU,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__qDSkUduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__qDSkUduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__qDSkUlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__qDSkUlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__qDSkUoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__qDSkUoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__qDSkUwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__qDSkUwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__qDSkUmLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__qDSkUmLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__qDSkUkgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__qDSkUkgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__qDSkUbd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__qDSkU8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__qDSkUbd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__qDSkU8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__qDSkU1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__qDSkU1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__qDSkUs5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__qDSkUs5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__qDSkU5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__qDSkU5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__qDSkUMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__qDSkUMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -801,45 +828,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__fpkFy,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__fpkFYduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__fpkFYduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__fpkFYlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__fpkFYlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__fpkFYoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__fpkFYoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__fpkFYwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__fpkFYwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__fpkFymLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__fpkFymLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__fpkFYkgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__fpkFYkgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__fpkFybd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__fpkFy8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__fpkFybd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__fpkFy8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__fpkFy1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__fpkFy1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__fpkFys5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__fpkFys5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__fpkFy5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__fpkFy5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__fpkFyMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__fpkFyMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -890,45 +921,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__s5Bc8,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__s5Bc8DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__s5Bc8DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__s5Bc8LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__s5Bc8LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__s5Bc8ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__s5Bc8ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__s5Bc8WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__s5Bc8WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__s5Bc8MLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__s5Bc8MLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__s5Bc8KgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__s5Bc8KgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__s5Bc8Bd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__s5Bc88N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__s5Bc8Bd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__s5Bc88N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__s5Bc81Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__s5Bc81Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__s5Bc8S5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__s5Bc8S5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__s5Bc85C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__s5Bc85C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__s5Bc8MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__s5Bc8MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -979,41 +1014,45 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___9GAiG,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___9GAiGduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___9GAiGduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___9GAiGlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___9GAiGlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___9GAiGoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___9GAiGoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___9GAiGwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___9GAiGwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp___9GAiGmLwGi]:
-                hasVariant(variants, "mobile", "mobileApp"),
-              [sty.radioCheckboxCard__mobile_mobileEcommerce___9GAiGkgS4T]:
+              [sty.radioCheckboxCardmobile_mobileApp___9GAiGmLwGi]: hasVariant(
+                variants,
+                "mobile",
+                "mobileApp"
+              ),
+
+              [sty.radioCheckboxCardmobile_mobileEcommerce___9GAiGkgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype___9GAiGbd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___9GAiGbd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___9GAiG8N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___9GAiG8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___9GAiG1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___9GAiG1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce___9GAiGs5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce___9GAiGs5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage___9GAiG5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage___9GAiG5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage___9GAiGMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___9GAiGMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1064,45 +1103,49 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__yLs9P,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__yLs9PduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__yLs9PduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__yLs9PlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__yLs9PlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__yLs9PoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__yLs9PoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__yLs9PwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__yLs9PwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__mobile_mobileApp__yLs9PMLwGi]: hasVariant(
+              [sty.radioCheckboxCardmobile_mobileApp__yLs9PMLwGi]: hasVariant(
                 variants,
                 "mobile",
                 "mobileApp"
               ),
 
-              [sty.radioCheckboxCard__mobile_mobileEcommerce__yLs9PkgS4T]:
+              [sty.radioCheckboxCardmobile_mobileEcommerce__yLs9PkgS4T]:
                 hasVariant(variants, "mobile", "mobileEcommerce"),
-              [sty.radioCheckboxCard__uxDesign_prototype__yLs9PBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__yLs9P8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__yLs9PBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__yLs9P8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__yLs9P1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__yLs9P1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_ecommerce__yLs9PS5Sov]: hasVariant(
+              [sty.radioCheckboxCardweb_ecommerce__yLs9PS5Sov]: hasVariant(
                 variants,
                 "web",
                 "ecommerce"
               ),
 
-              [sty.radioCheckboxCard__web_multiPage__yLs9P5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__yLs9P5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__yLs9PMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__yLs9PMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1145,31 +1188,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__p7XP0,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__p7XP0DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__p7XP0DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__p7XP0LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__p7XP0LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__p7XP0ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__p7XP0ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__p7XP0WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__p7XP0WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__p7XP0Bd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__p7XP08N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__p7XP0Bd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__p7XP08N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__p7XP01Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__p7XP01Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__p7XP05C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__p7XP05C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__p7XP0MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__p7XP0MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1206,31 +1253,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__jWqxu,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__jWqxuduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__jWqxuduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__jWqxulcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__jWqxulcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__jWqxuoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__jWqxuoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__jWqxuwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__jWqxuwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__jWqxuBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__jWqxu8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__jWqxuBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__jWqxu8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__jWqxu1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__jWqxu1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__jWqxu5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__jWqxu5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__jWqxuMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__jWqxuMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1267,31 +1318,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__zHoFt,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__zHoFtduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__zHoFtduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__zHoFtlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__zHoFtlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__zHoFtoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__zHoFtoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__zHoFtwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__zHoFtwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__zHoFtBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__zHoFt8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__zHoFtBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__zHoFt8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__zHoFt1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__zHoFt1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__zHoFt5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__zHoFt5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__zHoFtMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__zHoFtMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1328,31 +1383,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__erwJu,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__erwJuduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__erwJuduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__erwJulcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__erwJulcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__erwJuoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__erwJuoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__erwJuwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__erwJuwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__erwJuBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__erwJu8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__erwJuBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__erwJu8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__erwJu1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__erwJu1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__erwJu5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__erwJu5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__erwJuMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__erwJuMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1389,31 +1448,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__wviBe,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__wviBeduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__wviBeduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__wviBelcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__wviBelcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__wviBeoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__wviBeoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__wviBewCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__wviBewCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__wviBeBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__wviBe8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__wviBeBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__wviBe8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__wviBe1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__wviBe1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__wviBe5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__wviBe5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__wviBeMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__wviBeMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1450,31 +1513,31 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___3PPv4,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___3PPv4DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___3PPv4DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___3PPv4LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___3PPv4LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___3PPv4ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___3PPv4ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___3PPv4WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___3PPv4WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___3PPv4Bd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___3PPv4Bd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___3PPv48N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___3PPv48N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___3PPv41Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___3PPv41Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage___3PPv45C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage___3PPv45C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage___3PPv4MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___3PPv4MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1511,31 +1574,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__l02Rb,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__l02RbduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__l02RbduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__l02RblcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__l02RblcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__l02RboNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__l02RboNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__l02RbwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__l02RbwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__l02RbBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__l02Rb8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__l02RbBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__l02Rb8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__l02Rb1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__l02Rb1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__l02Rb5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__l02Rb5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__l02RbMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__l02RbMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1572,31 +1639,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__afFWn,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__afFWnduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__afFWnduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__afFWnlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__afFWnlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__afFWnoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__afFWnoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__afFWnwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__afFWnwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__afFWnBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__afFWn8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__afFWnBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__afFWn8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__afFWn1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__afFWn1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__afFWn5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__afFWn5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__afFWnMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__afFWnMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1633,31 +1704,35 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__icQfs,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__icQfsduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__icQfsduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__icQfslcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__icQfslcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__icQfsoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__icQfsoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__icQfswCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__icQfswCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__icQfsBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__icQfs8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__icQfsBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__icQfs8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__icQfs1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__icQfs1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_multiPage__icQfs5C66A]: hasVariant(
+              [sty.radioCheckboxCardweb_multiPage__icQfs5C66A]: hasVariant(
                 variants,
                 "web",
                 "multiPage"
               ),
 
-              [sty.radioCheckboxCard__web_singlePage__icQfsMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__icQfsMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1694,25 +1769,29 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__utnTc,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__utnTcduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__utnTcduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__utnTclcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__utnTclcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__utnTcoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__utnTcoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__utnTcwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__utnTcwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__utnTcBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__utnTc8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__utnTcBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__utnTc8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__utnTc1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__utnTc1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage__utnTcMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__utnTcMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1747,25 +1826,29 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__z2SD4,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__z2SD4DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__z2SD4DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__z2SD4LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__z2SD4LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__z2SD4ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__z2SD4ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__z2SD4WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__z2SD4WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__z2SD4Bd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__z2SD48N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__z2SD4Bd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__z2SD48N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__z2SD41Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__z2SD41Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage__z2SD4MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__z2SD4MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1800,25 +1883,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___2QLa9,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___2QLa9DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___2QLa9DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___2QLa9LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___2QLa9LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___2QLa9ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___2QLa9ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___2QLa9WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___2QLa9WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___2QLa9Bd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___2QLa9Bd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___2QLa98N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___2QLa98N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___2QLa91Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___2QLa91Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage___2QLa9MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___2QLa9MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1853,25 +1936,29 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___6E19,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___6E19DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___6E19DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___6E19LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___6E19LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___6E19ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___6E19ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___6E19WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___6E19WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___6E19Bd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___6E198N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype___6E19Bd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___6E198N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___6E191Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___6E191Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage___6E19MqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___6E19MqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1906,25 +1993,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___0EwHw,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___0EwHWduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___0EwHWduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___0EwHWlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___0EwHWlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___0EwHWoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___0EwHWoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___0EwHWwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___0EwHWwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___0EwHwbd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___0EwHwbd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___0EwHw8N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___0EwHw8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___0EwHw1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___0EwHw1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage___0EwHwMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___0EwHwMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -1959,25 +2046,29 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__bVrMe,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__bVrMEduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__bVrMEduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__bVrMElcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__bVrMElcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__bVrMEoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__bVrMEoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__bVrMEwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__bVrMEwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__bVrMebd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__bVrMe8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__bVrMebd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__bVrMe8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__bVrMe1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__bVrMe1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage__bVrMeMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage__bVrMeMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -2012,25 +2103,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___2BsBf,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___2BsBfduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___2BsBfduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___2BsBflcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___2BsBflcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___2BsBfoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___2BsBfoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___2BsBfwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___2BsBfwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___2BsBfBd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___2BsBfBd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___2BsBf8N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___2BsBf8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___2BsBf1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___2BsBf1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage___2BsBfMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___2BsBfMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -2065,25 +2156,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___4AgFo,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___4AgFOduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___4AgFOduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___4AgFOlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___4AgFOlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___4AgFOoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___4AgFOoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___4AgFOwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___4AgFOwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___4AgFobd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___4AgFobd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___4AgFo8N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___4AgFo8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___4AgFo1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___4AgFo1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch"),
-              [sty.radioCheckboxCard__web_singlePage___4AgFoMqwxY]: hasVariant(
+              [sty.radioCheckboxCardweb_singlePage___4AgFoMqwxY]: hasVariant(
                 variants,
                 "web",
                 "singlePage"
@@ -2118,23 +2209,27 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__jfPmr,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__jfPmrduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__jfPmrduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__jfPmrlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__jfPmrlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__jfPmroNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__jfPmroNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__jfPmrwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__jfPmrwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__jfPmrBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting__jfPmr8N32W]:
+              [sty.radioCheckboxCarduxDesign_prototype__jfPmrBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_usabilityTesting__jfPmr8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__jfPmr1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__jfPmr1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2164,23 +2259,23 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___9UajU,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___9UajUduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___9UajUduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem___9UajUlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem___9UajUlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo___9UajUoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___9UajUoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation___9UajUwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation___9UajUwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype___9UajUbd85S]:
+              [sty.radioCheckboxCarduxDesign_prototype___9UajUbd85S]:
                 hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_usabilityTesting___9UajU8N32W]:
+              [sty.radioCheckboxCarduxDesign_usabilityTesting___9UajU8N32W]:
                 hasVariant(variants, "uxDesign", "usabilityTesting"),
-              [sty.radioCheckboxCard__uxDesign_userResearch___9UajU1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch___9UajU1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2210,21 +2305,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__fx5Pk,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__fx5PkduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__fx5PkduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__fx5PklcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__fx5PklcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__fx5PkoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__fx5PkoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__fx5PkwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__fx5PkwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__fx5PkBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__fx5Pk1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_prototype__fx5PkBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_userResearch__fx5Pk1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2250,21 +2349,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__oIiHk,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__oIiHkduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__oIiHkduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__oIiHklcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__oIiHklcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__oIiHkoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__oIiHkoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__oIiHkwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__oIiHkwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__oIiHkBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__oIiHk1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_prototype__oIiHkBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_userResearch__oIiHk1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2290,21 +2393,25 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__ad1Dx,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__ad1DxduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__ad1DxduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__ad1DxlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__ad1DxlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__ad1DxoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__ad1DxoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__ad1DxwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__ad1DxwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_prototype__ad1DxBd85S]:
-                hasVariant(variants, "uxDesign", "prototype"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__ad1Dx1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_prototype__ad1DxBd85S]: hasVariant(
+                variants,
+                "uxDesign",
+                "prototype"
+              ),
+
+              [sty.radioCheckboxCarduxDesign_userResearch__ad1Dx1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2328,19 +2435,19 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__r1IbM,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__r1IbMduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__r1IbMduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__r1IbMlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__r1IbMlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__r1IbMoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__r1IbMoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__r1IbMwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__r1IbMwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__r1IbM1Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__r1IbM1Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2364,19 +2471,19 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__foGf7,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__foGf7DuLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__foGf7DuLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__foGf7LcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__foGf7LcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__foGf7ONU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__foGf7ONU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__foGf7WCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__foGf7WCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation"),
-              [sty.radioCheckboxCard__uxDesign_userResearch__foGf71Mxgx]:
+              [sty.radioCheckboxCarduxDesign_userResearch__foGf71Mxgx]:
                 hasVariant(variants, "uxDesign", "userResearch")
             }
           )}
@@ -2400,17 +2507,17 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__sdDrL,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__sdDrLduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__sdDrLduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_designSystem__sdDrLlcwQu]:
+              [sty.radioCheckboxCardbrandDesign_designSystem__sdDrLlcwQu]:
                 hasVariant(variants, "brandDesign", "designSystem"),
-              [sty.radioCheckboxCard__brandDesign_logo__sdDrLoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__sdDrLoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__sdDrLwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__sdDrLwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation")
             }
           )}
@@ -2434,15 +2541,15 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__pb7Xu,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__pb7XuduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__pb7XuduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo__pb7XuoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__pb7XuoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__pb7XuwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__pb7XuwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation")
             }
           )}
@@ -2464,15 +2571,15 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__pggxB,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__pggxBduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__pggxBduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo__pggxBoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__pggxBoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
               ),
 
-              [sty.radioCheckboxCard__brandDesign_slidePresentation__pggxBwCAz]:
+              [sty.radioCheckboxCardbrandDesign_slidePresentation__pggxBwCAz]:
                 hasVariant(variants, "brandDesign", "slidePresentation")
             }
           )}
@@ -2492,9 +2599,9 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__uCk3O,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__uCk3OduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__uCk3OduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo__uCk3OoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__uCk3OoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2515,9 +2622,9 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__sA5Kk,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__sA5KkduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__sA5KkduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo__sA5KkoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__sA5KkoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2538,9 +2645,9 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__khdtt,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide__khdttduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide__khdttduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo__khdttoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__khdttoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2561,9 +2668,9 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___1IuqD,
             {
-              [sty.radioCheckboxCard__brandDesign_brandGuide___1IuqDduLaI]:
+              [sty.radioCheckboxCardbrandDesign_brandGuide___1IuqDduLaI]:
                 hasVariant(variants, "brandDesign", "brandGuide"),
-              [sty.radioCheckboxCard__brandDesign_logo___1IuqDoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___1IuqDoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2584,7 +2691,7 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___9OTql,
             {
-              [sty.radioCheckboxCard__brandDesign_logo___9OTqloNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___9OTqloNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2603,7 +2710,7 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___1OHx,
             {
-              [sty.radioCheckboxCard__brandDesign_logo___1OHXoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___1OHXoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2622,7 +2729,7 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard__q1F4T,
             {
-              [sty.radioCheckboxCard__brandDesign_logo__q1F4ToNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo__q1F4ToNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"
@@ -2641,7 +2748,7 @@ function PlasmicSectionServiceFeatures__RenderFunc(props) {
             "__wab_instance",
             sty.radioCheckboxCard___5FZky,
             {
-              [sty.radioCheckboxCard__brandDesign_logo___5FZkYoNU]: hasVariant(
+              [sty.radioCheckboxCardbrandDesign_logo___5FZkYoNU]: hasVariant(
                 variants,
                 "brandDesign",
                 "logo"

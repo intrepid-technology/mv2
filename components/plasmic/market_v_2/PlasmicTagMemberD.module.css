@@ -11,11 +11,11 @@
   padding: 2px 6px;
   border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
 }
-.parent__inset {
+.parentinset {
   background: #f8f8f8;
   border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.parent__inset:hover {
+.parentinset:hover {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -35,9 +35,9 @@
   line-height: 10px;
   font-weight: 600;
 }
-.text__inset {
+.textinset {
   color: #eaeaea /* plasmic-token: t2DPA2Clx */;
 }
-.parent__inset:hover .text__inset {
+.parentinset:hover .textinset {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }

@@ -41,20 +41,20 @@ function PlasmicRadioTextInputPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__size__12Px]: hasVariant(variants, "size", "_12Px")
+          [sty.parentsize__12Px]: hasVariant(variants, "size", "_12Px")
         })}
       >
         <ElementRadioPrimary
           data-plasmic-name={"elementRadioPrimary"}
           data-plasmic-override={overrides.elementRadioPrimary}
           className={classNames("__wab_instance", sty.elementRadioPrimary, {
-            [sty.elementRadioPrimary__size__12Px]: hasVariant(
+            [sty.elementRadioPrimarysize__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.elementRadioPrimary__size__16Px]: hasVariant(
+            [sty.elementRadioPrimarysize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"
@@ -67,19 +67,19 @@ function PlasmicRadioTextInputPrimary__RenderFunc(props) {
           defaultContents: "Item element",
           value: args.itemText,
           className: classNames(sty.slotTargetItemText, {
-            [sty.slotTargetItemText__size__12Px]: hasVariant(
+            [sty.slotTargetItemTextsize__12Px]: hasVariant(
               variants,
               "size",
               "_12Px"
             ),
 
-            [sty.slotTargetItemText__size__14Px]: hasVariant(
+            [sty.slotTargetItemTextsize__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotTargetItemText__size__16Px]: hasVariant(
+            [sty.slotTargetItemTextsize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

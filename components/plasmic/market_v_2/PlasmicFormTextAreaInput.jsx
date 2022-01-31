@@ -39,7 +39,7 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__adornment_start]: hasVariant(variants, "adornment", "start")
+        [sty.rootadornment_start]: hasVariant(variants, "adornment", "start")
       })}
     >
       <TextAreaInput
@@ -56,28 +56,28 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
             : undefined
         }
         className={classNames("__wab_instance", sty.textAreaInput, {
-          [sty.textAreaInput__adornment_end]: hasVariant(
+          [sty.textAreaInputadornment_end]: hasVariant(
             variants,
             "adornment",
             "end"
           ),
 
-          [sty.textAreaInput__adornment_start]: hasVariant(
+          [sty.textAreaInputadornment_start]: hasVariant(
             variants,
             "adornment",
             "start"
           ),
 
-          [sty.textAreaInput__adornment_start_adornment_end]:
+          [sty.textAreaInputadornment_start_adornment_end]:
             hasVariant(variants, "adornment", "start") &&
             hasVariant(variants, "adornment", "end"),
-          [sty.textAreaInput__type_primary]: hasVariant(
+          [sty.textAreaInputtype_primary]: hasVariant(
             variants,
             "type",
             "primary"
           ),
 
-          [sty.textAreaInput__type_secondary]: hasVariant(
+          [sty.textAreaInputtype_secondary]: hasVariant(
             variants,
             "type",
             "secondary"

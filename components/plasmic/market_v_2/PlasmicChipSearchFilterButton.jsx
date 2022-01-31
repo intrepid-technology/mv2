@@ -41,11 +41,12 @@ function PlasmicChipSearchFilterButton__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.buttonTrigger,
         {
-          [sty.buttonTrigger__trigger_disabled]: hasVariant(
+          [sty.buttonTriggertrigger_disabled]: hasVariant(
             variants,
             "trigger",
             "disabled"
@@ -57,7 +58,7 @@ function PlasmicChipSearchFilterButton__RenderFunc(props) {
         defaultContents: "Search",
         value: args.text,
         className: classNames(sty.slotTargetText, {
-          [sty.slotTargetText__trigger_disabled]: hasVariant(
+          [sty.slotTargetTexttrigger_disabled]: hasVariant(
             variants,
             "trigger",
             "disabled"

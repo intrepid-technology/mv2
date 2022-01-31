@@ -54,85 +54,70 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         projectcss.root_reset,
         sty.chipDisplay,
         {
-          [sty.chipDisplay__color_blue_type_ghost]:
+          [sty.chipDisplaycolor_blue_type_ghost]:
             hasVariant(variants, "color", "blue") &&
             hasVariant(variants, "type", "ghost"),
-          [sty.chipDisplay__color_brand]: hasVariant(
-            variants,
-            "color",
-            "brand"
-          ),
-
-          [sty.chipDisplay__color_dark]: hasVariant(variants, "color", "dark"),
-          [sty.chipDisplay__color_light]: hasVariant(
-            variants,
-            "color",
-            "light"
-          ),
-
-          [sty.chipDisplay__disabled]: hasVariant(
+          [sty.chipDisplaycolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.chipDisplaycolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.chipDisplaycolor_light]: hasVariant(variants, "color", "light"),
+          [sty.chipDisplaydisabled]: hasVariant(
             variants,
             "disabled",
             "disabled"
           ),
 
-          [sty.chipDisplay__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.chipDisplay__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.chipDisplay__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.chipDisplay__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.chipDisplay__size__48]: hasVariant(variants, "size", "_48"),
-          [sty.chipDisplay__trigger__delete]: hasVariant(
+          [sty.chipDisplaysize__24]: hasVariant(variants, "size", "_24"),
+          [sty.chipDisplaysize__32]: hasVariant(variants, "size", "_32"),
+          [sty.chipDisplaysize__36]: hasVariant(variants, "size", "_36"),
+          [sty.chipDisplaysize__40]: hasVariant(variants, "size", "_40"),
+          [sty.chipDisplaysize__48]: hasVariant(variants, "size", "_48"),
+          [sty.chipDisplaytrigger__delete]: hasVariant(
             variants,
             "trigger",
             "_delete"
           ),
 
-          [sty.chipDisplay__trigger_add]: hasVariant(
-            variants,
-            "trigger",
-            "add"
-          ),
-
-          [sty.chipDisplay__trigger_disabled]: hasVariant(
+          [sty.chipDisplaytrigger_add]: hasVariant(variants, "trigger", "add"),
+          [sty.chipDisplaytrigger_disabled]: hasVariant(
             variants,
             "trigger",
             "disabled"
           ),
 
-          [sty.chipDisplay__type_ghost]: hasVariant(variants, "type", "ghost"),
-          [sty.chipDisplay__type_ghost_color_brand]:
+          [sty.chipDisplaytype_ghost]: hasVariant(variants, "type", "ghost"),
+          [sty.chipDisplaytype_ghost_color_brand]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "brand"),
-          [sty.chipDisplay__type_ghost_color_brand_trigger__delete]:
+          [sty.chipDisplaytype_ghost_color_brand_trigger__delete]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "brand") &&
             hasVariant(variants, "trigger", "_delete"),
-          [sty.chipDisplay__type_ghost_color_green]:
+          [sty.chipDisplaytype_ghost_color_green]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "green"),
-          [sty.chipDisplay__type_ghost_color_magenta]:
+          [sty.chipDisplaytype_ghost_color_magenta]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.chipDisplay__type_ghost_color_pink]:
+          [sty.chipDisplaytype_ghost_color_pink]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "pink"),
-          [sty.chipDisplay__type_link]: hasVariant(variants, "type", "link"),
-          [sty.chipDisplay__type_outline]: hasVariant(
+          [sty.chipDisplaytype_link]: hasVariant(variants, "type", "link"),
+          [sty.chipDisplaytype_outline]: hasVariant(
             variants,
             "type",
             "outline"
           ),
 
-          [sty.chipDisplay__type_primary]: hasVariant(
+          [sty.chipDisplaytype_primary]: hasVariant(
             variants,
             "type",
             "primary"
           ),
 
-          [sty.chipDisplay__type_primary_color_green]:
+          [sty.chipDisplaytype_primary_color_green]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "green"),
-          [sty.chipDisplay__type_secondary]: hasVariant(
+          [sty.chipDisplaytype_secondary]: hasVariant(
             variants,
             "type",
             "secondary"
@@ -143,19 +128,24 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
       <p.PlasmicLink
         data-plasmic-name={"chipDisplayLink"}
         data-plasmic-override={overrides.chipDisplayLink}
-        className={classNames(projectcss.a, sty.chipDisplayLink, {
-          [sty.chipDisplayLink__trigger_add]: hasVariant(
-            variants,
-            "trigger",
-            "add"
-          ),
+        className={classNames(
+          projectcss.all,
+          projectcss.a,
+          sty.chipDisplayLink,
+          {
+            [sty.chipDisplayLinktrigger_add]: hasVariant(
+              variants,
+              "trigger",
+              "add"
+            ),
 
-          [sty.chipDisplayLink__type_ghost_color_brand_trigger__delete]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "brand") &&
-            hasVariant(variants, "trigger", "_delete"),
-          [sty.chipDisplayLink__type_link]: hasVariant(variants, "type", "link")
-        })}
+            [sty.chipDisplayLinktype_ghost_color_brand_trigger__delete]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "brand") &&
+              hasVariant(variants, "trigger", "_delete"),
+            [sty.chipDisplayLinktype_link]: hasVariant(variants, "type", "link")
+          }
+        )}
         component={Link}
         platform={"nextjs"}
       >
@@ -163,106 +153,106 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
           defaultContents: "badge",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_blue_type_ghost]:
+            [sty.slotTargetChildrencolor_blue_type_ghost]:
               hasVariant(variants, "color", "blue") &&
               hasVariant(variants, "type", "ghost"),
-            [sty.slotTargetChildren__color_brand]: hasVariant(
+            [sty.slotTargetChildrencolor_brand]: hasVariant(
               variants,
               "color",
               "brand"
             ),
 
-            [sty.slotTargetChildren__color_light]: hasVariant(
+            [sty.slotTargetChildrencolor_light]: hasVariant(
               variants,
               "color",
               "light"
             ),
 
-            [sty.slotTargetChildren__color_light_trigger_add]:
+            [sty.slotTargetChildrencolor_light_trigger_add]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "trigger", "add"),
-            [sty.slotTargetChildren__disabled]: hasVariant(
+            [sty.slotTargetChildrendisabled]: hasVariant(
               variants,
               "disabled",
               "disabled"
             ),
 
-            [sty.slotTargetChildren__size__24]: hasVariant(
+            [sty.slotTargetChildrensize__24]: hasVariant(
               variants,
               "size",
               "_24"
             ),
 
-            [sty.slotTargetChildren__size__32]: hasVariant(
+            [sty.slotTargetChildrensize__32]: hasVariant(
               variants,
               "size",
               "_32"
             ),
 
-            [sty.slotTargetChildren__size__36]: hasVariant(
+            [sty.slotTargetChildrensize__36]: hasVariant(
               variants,
               "size",
               "_36"
             ),
 
-            [sty.slotTargetChildren__size__40]: hasVariant(
+            [sty.slotTargetChildrensize__40]: hasVariant(
               variants,
               "size",
               "_40"
             ),
 
-            [sty.slotTargetChildren__size__48]: hasVariant(
+            [sty.slotTargetChildrensize__48]: hasVariant(
               variants,
               "size",
               "_48"
             ),
 
-            [sty.slotTargetChildren__trigger__delete_color_brand]:
+            [sty.slotTargetChildrentrigger__delete_color_brand]:
               hasVariant(variants, "trigger", "_delete") &&
               hasVariant(variants, "color", "brand"),
-            [sty.slotTargetChildren__trigger_add]: hasVariant(
+            [sty.slotTargetChildrentrigger_add]: hasVariant(
               variants,
               "trigger",
               "add"
             ),
 
-            [sty.slotTargetChildren__trigger_disabled]: hasVariant(
+            [sty.slotTargetChildrentrigger_disabled]: hasVariant(
               variants,
               "trigger",
               "disabled"
             ),
 
-            [sty.slotTargetChildren__type_ghost]: hasVariant(
+            [sty.slotTargetChildrentype_ghost]: hasVariant(
               variants,
               "type",
               "ghost"
             ),
 
-            [sty.slotTargetChildren__type_ghost_color_brand]:
+            [sty.slotTargetChildrentype_ghost_color_brand]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "brand"),
-            [sty.slotTargetChildren__type_ghost_color_green]:
+            [sty.slotTargetChildrentype_ghost_color_green]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "green"),
-            [sty.slotTargetChildren__type_ghost_color_magenta]:
+            [sty.slotTargetChildrentype_ghost_color_magenta]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "magenta"),
-            [sty.slotTargetChildren__type_ghost_color_pink]:
+            [sty.slotTargetChildrentype_ghost_color_pink]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "pink"),
-            [sty.slotTargetChildren__type_link]: hasVariant(
+            [sty.slotTargetChildrentype_link]: hasVariant(
               variants,
               "type",
               "link"
             ),
 
-            [sty.slotTargetChildren__type_outline]: hasVariant(
+            [sty.slotTargetChildrentype_outline]: hasVariant(
               variants,
               "type",
               "outline"
             ),
 
-            [sty.slotTargetChildren__type_primary]: hasVariant(
+            [sty.slotTargetChildrentype_primary]: hasVariant(
               variants,
               "type",
               "primary"
@@ -281,28 +271,33 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"addTrigger"}
           data-plasmic-override={overrides.addTrigger}
-          className={classNames(projectcss.button, sty.addTrigger, {
-            [sty.addTrigger__color_light_trigger_add]:
-              hasVariant(variants, "color", "light") &&
-              hasVariant(variants, "trigger", "add"),
-            [sty.addTrigger__trigger__delete]: hasVariant(
-              variants,
-              "trigger",
-              "_delete"
-            ),
+          className={classNames(
+            projectcss.all,
+            projectcss.button,
+            sty.addTrigger,
+            {
+              [sty.addTriggercolor_light_trigger_add]:
+                hasVariant(variants, "color", "light") &&
+                hasVariant(variants, "trigger", "add"),
+              [sty.addTriggertrigger__delete]: hasVariant(
+                variants,
+                "trigger",
+                "_delete"
+              ),
 
-            [sty.addTrigger__trigger_add]: hasVariant(
-              variants,
-              "trigger",
-              "add"
-            ),
+              [sty.addTriggertrigger_add]: hasVariant(
+                variants,
+                "trigger",
+                "add"
+              ),
 
-            [sty.addTrigger__trigger_disabled]: hasVariant(
-              variants,
-              "trigger",
-              "disabled"
-            )
-          })}
+              [sty.addTriggertrigger_disabled]: hasVariant(
+                variants,
+                "trigger",
+                "disabled"
+              )
+            }
+          )}
         >
           {(
             hasVariant(variants, "color", "light") &&
@@ -350,30 +345,35 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"deleteTrigger"}
           data-plasmic-override={overrides.deleteTrigger}
-          className={classNames(projectcss.button, sty.deleteTrigger, {
-            [sty.deleteTrigger__trigger__delete]: hasVariant(
-              variants,
-              "trigger",
-              "_delete"
-            ),
+          className={classNames(
+            projectcss.all,
+            projectcss.button,
+            sty.deleteTrigger,
+            {
+              [sty.deleteTriggertrigger__delete]: hasVariant(
+                variants,
+                "trigger",
+                "_delete"
+              ),
 
-            [sty.deleteTrigger__trigger_add]: hasVariant(
-              variants,
-              "trigger",
-              "add"
-            ),
+              [sty.deleteTriggertrigger_add]: hasVariant(
+                variants,
+                "trigger",
+                "add"
+              ),
 
-            [sty.deleteTrigger__trigger_disabled]: hasVariant(
-              variants,
-              "trigger",
-              "disabled"
-            ),
+              [sty.deleteTriggertrigger_disabled]: hasVariant(
+                variants,
+                "trigger",
+                "disabled"
+              ),
 
-            [sty.deleteTrigger__type_ghost_color_brand_trigger__delete]:
-              hasVariant(variants, "type", "ghost") &&
-              hasVariant(variants, "color", "brand") &&
-              hasVariant(variants, "trigger", "_delete")
-          })}
+              [sty.deleteTriggertype_ghost_color_brand_trigger__delete]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "brand") &&
+                hasVariant(variants, "trigger", "_delete")
+            }
+          )}
         >
           {p.renderPlasmicSlot({
             defaultContents: (
@@ -385,16 +385,16 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
 
             value: args.deleteIcon,
             className: classNames(sty.slotTargetDeleteIcon, {
-              [sty.slotTargetDeleteIcon__trigger__delete]: hasVariant(
+              [sty.slotTargetDeleteIcontrigger__delete]: hasVariant(
                 variants,
                 "trigger",
                 "_delete"
               ),
 
-              [sty.slotTargetDeleteIcon__trigger__delete_color_brand]:
+              [sty.slotTargetDeleteIcontrigger__delete_color_brand]:
                 hasVariant(variants, "trigger", "_delete") &&
                 hasVariant(variants, "color", "brand"),
-              [sty.slotTargetDeleteIcon__type_ghost_color_brand_trigger__delete]:
+              [sty.slotTargetDeleteIcontype_ghost_color_brand_trigger__delete]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "brand") &&
                 hasVariant(variants, "trigger", "_delete")
@@ -406,8 +406,8 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"button"}
           data-plasmic-override={overrides.button}
-          className={classNames(projectcss.button, sty.button, {
-            [sty.button__trigger_add]: hasVariant(variants, "trigger", "add")
+          className={classNames(projectcss.all, projectcss.button, sty.button, {
+            [sty.buttontrigger_add]: hasVariant(variants, "trigger", "add")
           })}
         >
           {false ? (
@@ -415,7 +415,7 @@ function PlasmicChipBadgeDisplay__RenderFunc(props) {
               data-plasmic-name={"svg"}
               data-plasmic-override={overrides.svg}
               className={classNames(projectcss.all, sty.svg, {
-                [sty.svg__trigger__delete]: hasVariant(
+                [sty.svgtrigger__delete]: hasVariant(
                   variants,
                   "trigger",
                   "_delete"

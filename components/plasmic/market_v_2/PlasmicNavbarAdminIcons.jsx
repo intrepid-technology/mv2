@@ -40,7 +40,7 @@ function PlasmicNavbarAdminIcons__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__light]: hasVariant(variants, "light", "light")
+        [sty.rootlight]: hasVariant(variants, "light", "light")
       })}
     >
       <p.PlasmicIcon
@@ -56,25 +56,20 @@ function PlasmicNavbarAdminIcons__RenderFunc(props) {
             : Settings2Icon
         }
         className={classNames(projectcss.all, sty.svg, {
-          [sty.svg__alternates_help]: hasVariant(
-            variants,
-            "alternates",
-            "help"
-          ),
-
-          [sty.svg__alternates_inbox]: hasVariant(
+          [sty.svgalternates_help]: hasVariant(variants, "alternates", "help"),
+          [sty.svgalternates_inbox]: hasVariant(
             variants,
             "alternates",
             "inbox"
           ),
 
-          [sty.svg__alternates_notification]: hasVariant(
+          [sty.svgalternates_notification]: hasVariant(
             variants,
             "alternates",
             "notification"
           ),
 
-          [sty.svg__light]: hasVariant(variants, "light", "light")
+          [sty.svglight]: hasVariant(variants, "light", "light")
         })}
         role={"img"}
       />

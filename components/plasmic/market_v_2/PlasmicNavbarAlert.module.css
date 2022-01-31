@@ -10,13 +10,13 @@
   background: #f8f8f8;
   min-width: 0;
 }
-.root__color_dark {
+.rootcolor_dark {
   background: #101010;
 }
-.root__color_brand {
+.rootcolor_brand {
   background: #6633ff;
 }
-.root__color_brandLight {
+.rootcolor_brandLight {
   background: #f0ebff;
 }
 .textLinkUnderlinePrimary:global(.__wab_instance) {

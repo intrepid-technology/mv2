@@ -39,9 +39,13 @@ function PlasmicSidebarItem__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__selected]: hasVariant(variants, "selected", "selected")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.rootselected]: hasVariant(variants, "selected", "selected") }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -61,7 +65,7 @@ function PlasmicSidebarItem__RenderFunc(props) {
 
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__selected]: hasVariant(
+            [sty.slotTargetChildrenselected]: hasVariant(
               variants,
               "selected",
               "selected"
@@ -74,7 +78,7 @@ function PlasmicSidebarItem__RenderFunc(props) {
         defaultContents: "Enter some text",
         value: args.label,
         className: classNames(sty.slotTargetLabel, {
-          [sty.slotTargetLabel__selected]: hasVariant(
+          [sty.slotTargetLabelselected]: hasVariant(
             variants,
             "selected",
             "selected"

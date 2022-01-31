@@ -7,18 +7,18 @@
   width: auto;
   height: auto;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
-.root__height__720 {
+.rootheight__720 {
   width: auto;
   height: auto;
   display: inline-flex;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -26,8 +26,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
@@ -42,55 +42,55 @@
   > img {
   margin-top: 6px;
 }
-.parent__width__720 {
+.parentwidth__720 {
   width: 720px;
 }
-.parent__height__90 {
+.parentheight__90 {
   height: 90px;
   flex-shrink: 0;
 }
-.parent__height__180 {
+.parentheight__180 {
   height: 180px;
   flex-shrink: 0;
 }
-.parent__height__270 {
+.parentheight__270 {
   height: 270px;
   flex-shrink: 0;
 }
-.parent__height__360 {
+.parentheight__360 {
   height: 360px;
   flex-shrink: 0;
 }
-.parent__height__540 {
+.parentheight__540 {
   height: 540px;
   flex-shrink: 0;
 }
-.parent__height__720 {
+.parentheight__720 {
   height: 720px;
   flex-shrink: 0;
 }
-.parent__width__90 {
+.parentwidth__90 {
   width: 90px;
 }
-.parent__width__180 {
+.parentwidth__180 {
   width: 180px;
 }
-.parent__width__270 {
+.parentwidth__270 {
   width: 270px;
 }
-.parent__width__360 {
+.parentwidth__360 {
   width: 360px;
 }
-.parent__width__540 {
+.parentwidth__540 {
   width: 540px;
 }
-.parent__height__720_width__90 {
+.parentheight__720_width__90 {
   width: 90px;
 }
-.parent__height__720_width__180 {
+.parentheight__720_width__180 {
   width: 180px;
 }
-.parent__height__720_width__270 {
+.parentheight__720_width__270 {
   width: 270px;
 }
 .freeBox__lf43I {
@@ -101,7 +101,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__label__lf43IPyJo {
+.freeBoxlabel__lf43IPyJo {
   display: none;
 }
 .slotTargetChildren {
@@ -117,7 +117,7 @@
   padding: 8px;
   border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.textarea__type_secondary {
+.textareatype_secondary {
   background: #f8f8f8;
 }
 .root:hover .textarea {
@@ -135,7 +135,7 @@
   height: auto;
   min-width: 0;
 }
-.freeBox__description__raGoyFossS {
+.freeBoxdescription__raGoyFossS {
   display: none;
 }
 .slotTargetSlot {

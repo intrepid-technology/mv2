@@ -36,11 +36,12 @@ function PlasmicMenuItem__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
+        projectcss.all,
         projectcss.a,
         projectcss.root_reset,
         sty.menuItemLink,
         {
-          [sty.menuItemLink__disabled]: hasVariant(
+          [sty.menuItemLinkdisabled]: hasVariant(
             variants,
             "disabled",
             "disabled"
@@ -60,19 +61,19 @@ function PlasmicMenuItem__RenderFunc(props) {
           defaultContents: "Menu item",
           value: args.text,
           className: classNames(sty.slotTargetText, {
-            [sty.slotTargetText__disabled]: hasVariant(
+            [sty.slotTargetTextdisabled]: hasVariant(
               variants,
               "disabled",
               "disabled"
             ),
 
-            [sty.slotTargetText__size__14Px]: hasVariant(
+            [sty.slotTargetTextsize__14Px]: hasVariant(
               variants,
               "size",
               "_14Px"
             ),
 
-            [sty.slotTargetText__size__16Px]: hasVariant(
+            [sty.slotTargetTextsize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

@@ -69,7 +69,11 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar32"}
               data-plasmic-override={overrides.navUserAvatar32}
               alt={""}
-              className={classNames(projectcss.img, sty.navUserAvatar32)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.navUserAvatar32
+              )}
               src={"/plasmic/market_v_2/images/collinUserImage.jpeg"}
             />
           }
@@ -78,7 +82,11 @@ function PlasmicNavbarUserAdmin__RenderFunc(props) {
               data-plasmic-name={"navUserAvatar48"}
               data-plasmic-override={overrides.navUserAvatar48}
               alt={""}
-              className={classNames(projectcss.img, sty.navUserAvatar48)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.navUserAvatar48
+              )}
               src={"/plasmic/market_v_2/images/collinUserImage.jpeg"}
             />
           }

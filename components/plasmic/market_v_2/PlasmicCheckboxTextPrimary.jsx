@@ -59,21 +59,16 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root_____focusVisibleWithin]: triggers.focusVisibleWithin_root,
-        [sty.root__isChecked]: hasVariant(variants, "isChecked", "isChecked"),
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__isIndeterminate]: hasVariant(
+        [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+        [sty.rootisChecked]: hasVariant(variants, "isChecked", "isChecked"),
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootisIndeterminate]: hasVariant(
           variants,
           "isIndeterminate",
           "isIndeterminate"
         ),
 
-        [sty.root__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+        [sty.rootnoLabel]: hasVariant(variants, "noLabel", "noLabel")
       })}
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
@@ -81,21 +76,20 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox_____focusVisibleWithin]:
-            triggers.focusVisibleWithin_root,
-          [sty.freeBox__isChecked]: hasVariant(
+          [sty.freeBox___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+          [sty.freeBoxisChecked]: hasVariant(
             variants,
             "isChecked",
             "isChecked"
           ),
 
-          [sty.freeBox__isDisabled]: hasVariant(
+          [sty.freeBoxisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.freeBox__isIndeterminate]: hasVariant(
+          [sty.freeBoxisIndeterminate]: hasVariant(
             variants,
             "isIndeterminate",
             "isIndeterminate"
@@ -120,21 +114,20 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
                 : CheckIcon
             }
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg_____focusVisibleWithin]:
-                triggers.focusVisibleWithin_root,
-              [sty.svg__isChecked]: hasVariant(
+              [sty.svg___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+              [sty.svgisChecked]: hasVariant(
                 variants,
                 "isChecked",
                 "isChecked"
               ),
 
-              [sty.svg__isIndeterminate]: hasVariant(
+              [sty.svgisIndeterminate]: hasVariant(
                 variants,
                 "isIndeterminate",
                 "isIndeterminate"
               ),
 
-              [sty.svg__noLabel]: hasVariant(variants, "noLabel", "noLabel")
+              [sty.svgnoLabel]: hasVariant(variants, "noLabel", "noLabel")
             })}
             role={"img"}
           />
@@ -146,9 +139,9 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
           data-plasmic-name={"labelContainer"}
           data-plasmic-override={overrides.labelContainer}
           className={classNames(projectcss.all, sty.labelContainer, {
-            [sty.labelContainer_____focusVisibleWithin]:
+            [sty.labelContainer___focusVisibleWithin]:
               triggers.focusVisibleWithin_root,
-            [sty.labelContainer__noLabel]: hasVariant(
+            [sty.labelContainernoLabel]: hasVariant(
               variants,
               "noLabel",
               "noLabel"
@@ -159,15 +152,15 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
             defaultContents: "Enter some text",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren_____focusVisibleWithin]:
+              [sty.slotTargetChildren___focusVisibleWithin]:
                 triggers.focusVisibleWithin_root,
-              [sty.slotTargetChildren__noLabel]: hasVariant(
+              [sty.slotTargetChildrennoLabel]: hasVariant(
                 variants,
                 "noLabel",
                 "noLabel"
               ),
 
-              [sty.slotTargetChildren__text__16]: hasVariant(
+              [sty.slotTargetChildrentext__16]: hasVariant(
                 variants,
                 "text",
                 "_16"

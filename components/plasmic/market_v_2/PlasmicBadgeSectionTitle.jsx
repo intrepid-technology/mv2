@@ -36,33 +36,33 @@ function PlasmicBadgeSectionTitle__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__border]: hasVariant(variants, "border", "border"),
-        [sty.root__border_colors_brand]:
+        [sty.rootborder]: hasVariant(variants, "border", "border"),
+        [sty.rootborder_colors_brand]:
           hasVariant(variants, "border", "border") &&
           hasVariant(variants, "colors", "brand"),
-        [sty.root__colors_brand]: hasVariant(variants, "colors", "brand"),
-        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
-        [sty.root__colors_light]: hasVariant(variants, "colors", "light")
+        [sty.rootcolors_brand]: hasVariant(variants, "colors", "brand"),
+        [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
+        [sty.rootcolors_light]: hasVariant(variants, "colors", "light")
       })}
     >
       <div
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__colors_brand]: hasVariant(variants, "colors", "brand")
+          [sty.freeBoxcolors_brand]: hasVariant(variants, "colors", "brand")
         })}
       >
         {p.renderPlasmicSlot({
           defaultContents: "remote os",
           value: args.sectionTitleSlot,
           className: classNames(sty.slotTargetSectionTitleSlot, {
-            [sty.slotTargetSectionTitleSlot__colors_brand]: hasVariant(
+            [sty.slotTargetSectionTitleSlotcolors_brand]: hasVariant(
               variants,
               "colors",
               "brand"
             ),
 
-            [sty.slotTargetSectionTitleSlot__colors_light]: hasVariant(
+            [sty.slotTargetSectionTitleSlotcolors_light]: hasVariant(
               variants,
               "colors",
               "light"

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   position: relative;
   width: 360px;
   height: 270px;
@@ -21,42 +21,42 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
 }
-.root__color_bgLightB {
+.rootcolor_bgLightB {
   background: #f8f8f8;
 }
-.root__color_bgDarkA {
+.rootcolor_bgDarkA {
   background: #101010;
   border-color: #0000001f /* plasmic-token: 4DpMaQlGP */;
 }
-.root__color_bgBrandLight {
+.rootcolor_bgBrandLight {
   background: #e0d6ff;
 }
-.root__color_bgBlueLight {
+.rootcolor_bgBlueLight {
   background: #d6e0ff;
 }
-.root__color_bgPinkLight {
+.rootcolor_bgPinkLight {
   background: #ffcceb;
 }
-.root__color_bgMagentaLight {
+.rootcolor_bgMagentaLight {
   background: #ebadff;
 }
-.root__size__180 {
+.rootsize__180 {
   width: 180px;
   height: 90px;
   padding: 16px;
   border-width: 1px;
 }
-.root__size__180 > :global(.__wab_flex-container) {
+.rootsize__180 > :global(.__wab_flex-container) {
   justify-content: space-between;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.root__size__180 > :global(.__wab_flex-container) > *,
-.root__size__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root__size__180 > :global(.__wab_flex-container) > picture > img,
-.root__size__180
+.rootsize__180 > :global(.__wab_flex-container) > *,
+.rootsize__180 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootsize__180 > :global(.__wab_flex-container) > picture > img,
+.rootsize__180
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -64,21 +64,21 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.root__size__270 {
+.rootsize__270 {
   width: 270px;
   height: 180px;
   padding: 24px;
 }
-.root__size__270 > :global(.__wab_flex-container) {
+.rootsize__270 > :global(.__wab_flex-container) {
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.root__size__270 > :global(.__wab_flex-container) > *,
-.root__size__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root__size__270 > :global(.__wab_flex-container) > picture > img,
-.root__size__270
+.rootsize__270 > :global(.__wab_flex-container) > *,
+.rootsize__270 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootsize__270 > :global(.__wab_flex-container) > picture > img,
+.rootsize__270
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -86,23 +86,23 @@
   margin-left: 0px;
   margin-top: 16px;
 }
-.root__size__360 {
+.rootsize__360 {
   width: 360px;
   height: 270px;
   padding: 32px;
   border-width: 2px;
 }
-.root__size__360 > :global(.__wab_flex-container) {
+.rootsize__360 > :global(.__wab_flex-container) {
   justify-content: space-between;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
-.root__size__360 > :global(.__wab_flex-container) > *,
-.root__size__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root__size__360 > :global(.__wab_flex-container) > picture > img,
-.root__size__360
+.rootsize__360 > :global(.__wab_flex-container) > *,
+.rootsize__360 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootsize__360 > :global(.__wab_flex-container) > picture > img,
+.rootsize__360
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -125,7 +125,7 @@
   margin-left: 0px;
   flex-shrink: 0;
 }
-.freeBox__size__180__uhVUxQnr2J {
+.freeBoxsize__180__uhVUxQnr2J {
   margin-top: calc(0px + 8px) !important;
   margin-right: 0px;
   margin-bottom: 0px;
@@ -135,7 +135,7 @@
   width: auto;
   height: auto;
 }
-.freeBox__size__360__uhVUxfWtpd {
+.freeBoxsize__360__uhVUxfWtpd {
   width: 32px;
   height: 32px;
   margin-bottom: 0px;
@@ -148,10 +148,10 @@
 .slotTargetChildren {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetChildren__color_bgLightB {
+.slotTargetChildrencolor_bgLightB {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetChildren__color_bgDarkA {
+.slotTargetChildrencolor_bgDarkA {
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
 .root:hover .slotTargetChildren {
@@ -188,7 +188,7 @@
   align-items: flex-start;
   min-width: 0;
 }
-.freeBox__size__360__qlHlIfWtpd {
+.freeBoxsize__360__qlHlIfWtpd {
   width: 100%;
   align-self: auto;
   align-items: flex-start;
@@ -202,13 +202,13 @@
   line-height: 1;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetSlot__color_bgLightB {
+.slotTargetSlotcolor_bgLightB {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetSlot__color_bgDarkA {
+.slotTargetSlotcolor_bgDarkA {
   color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
 }
-.slotTargetSlot__size__180 {
+.slotTargetSlotsize__180 {
   font-size: 10px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -216,7 +216,7 @@
   line-height: 1;
   color: #14161b /* plasmic-token: MAJ29KQMI */;
 }
-.slotTargetSlot__size__270 {
+.slotTargetSlotsize__270 {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
@@ -224,7 +224,7 @@
   line-height: 1;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetSlot__size__360 {
+.slotTargetSlotsize__360 {
   font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;

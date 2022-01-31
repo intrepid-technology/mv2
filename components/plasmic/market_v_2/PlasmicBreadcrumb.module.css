@@ -9,12 +9,12 @@
   padding: 4px 8px;
 }
 .freeBox {
+  flex-direction: row;
   position: relative;
   width: 100%;
   height: auto;
   max-width: 800px;
   display: flex;
-  flex-direction: row;
   min-width: 0;
 }
 .freeBox > :global(.__wab_flex-container) {
@@ -33,7 +33,7 @@
   > img {
   margin-left: 16px;
 }
-.freeBox__hasDestination {
+.freeBoxhasDestination {
   cursor: pointer;
 }
 .slotTargetLabel {
@@ -41,10 +41,10 @@
   font-size: 18px;
   font-weight: 500;
 }
-.slotTargetLabel__isSelected {
+.slotTargetLabelisSelected {
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
-.root__hasDestination:hover .slotTargetLabel__hasDestination {
+.roothasDestination:hover .slotTargetLabelhasDestination {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
 .text {

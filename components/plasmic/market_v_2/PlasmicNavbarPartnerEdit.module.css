@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   height: 80px;
   width: 100%;
   padding-left: 160px;
@@ -14,8 +14,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
@@ -39,7 +39,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_profile__cz1ZaYjCyF:global(.__wab_instance) {
+.navLinknavItems_profile__cz1ZaYjCyF:global(.__wab_instance) {
   display: none;
 }
 .navLink__ivl4P:global(.__wab_instance) {
@@ -47,7 +47,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_membership__ivl4PiXyRt:global(.__wab_instance) {
+.navLinknavItems_membership__ivl4PiXyRt:global(.__wab_instance) {
   display: none;
 }
 .navLink__dq470:global(.__wab_instance) {
@@ -55,7 +55,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_team__dq470JFsgI:global(.__wab_instance) {
+.navLinknavItems_team__dq470JFsgI:global(.__wab_instance) {
   display: none;
 }
 .navLink___5FXlO:global(.__wab_instance) {
@@ -63,7 +63,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_wallet___5FXlOg3QjD:global(.__wab_instance) {
+.navLinknavItems_wallet___5FXlOg3QjD:global(.__wab_instance) {
   display: none;
 }
 .navLink__gf82X:global(.__wab_instance) {
@@ -71,7 +71,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_listings__gf82X1Ixbv:global(.__wab_instance) {
+.navLinknavItems_listings__gf82X1Ixbv:global(.__wab_instance) {
   display: none;
 }
 .navLink__rghSh:global(.__wab_instance) {
@@ -79,7 +79,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_projects__rghShhjJim:global(.__wab_instance) {
+.navLinknavItems_projects__rghShhjJim:global(.__wab_instance) {
   display: none;
 }
 .navLink__kpVnm:global(.__wab_instance) {
@@ -87,7 +87,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_performance__kpVnMuH82I:global(.__wab_instance) {
+.navLinknavItems_performance__kpVnMuH82I:global(.__wab_instance) {
   display: none;
 }
 .navLink__lIccw:global(.__wab_instance) {
@@ -95,7 +95,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_reviews__lIccwsCk9S:global(.__wab_instance) {
+.navLinknavItems_reviews__lIccwsCk9S:global(.__wab_instance) {
   display: none;
 }
 .navLink___9Czou:global(.__wab_instance) {
@@ -103,7 +103,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_messages___9CzoUypwUc:global(.__wab_instance) {
+.navLinknavItems_messages___9CzoUypwUc:global(.__wab_instance) {
   display: none;
 }
 .navLink__ih1Ej:global(.__wab_instance) {
@@ -111,7 +111,7 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_notifications__ih1Ej3Net8:global(.__wab_instance) {
+.navLinknavItems_notifications__ih1Ej3Net8:global(.__wab_instance) {
   display: none;
 }
 .navLink__p3X21:global(.__wab_instance) {
@@ -119,6 +119,6 @@
   left: auto;
   top: auto;
 }
-.navLink__navItems_settings__p3X210OrXb:global(.__wab_instance) {
+.navLinknavItems_settings__p3X210OrXb:global(.__wab_instance) {
   display: none;
 }

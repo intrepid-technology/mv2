@@ -42,7 +42,7 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <p.Stack
@@ -51,8 +51,8 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90"),
-          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
+          [sty.parentwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.parentwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
         {(hasVariant(variants, "label", "label") ? true : true) ? (
@@ -60,13 +60,13 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
             data-plasmic-name={"labelParent"}
             data-plasmic-override={overrides.labelParent}
             className={classNames(projectcss.all, sty.labelParent, {
-              [sty.labelParent__description]: hasVariant(
+              [sty.labelParentdescription]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.labelParent__label]: hasVariant(variants, "label", "label")
+              [sty.labelParentlabel]: hasVariant(variants, "label", "label")
             })}
           >
             <div className={classNames(projectcss.all, sty.freeBox__vyC13)}>
@@ -83,61 +83,61 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
           data-plasmic-name={"selectDropdownPrimary"}
           data-plasmic-override={overrides.selectDropdownPrimary}
           className={classNames("__wab_instance", sty.selectDropdownPrimary, {
-            [sty.selectDropdownPrimary__width__120]: hasVariant(
+            [sty.selectDropdownPrimarywidth__120]: hasVariant(
               variants,
               "width",
               "_120"
             ),
 
-            [sty.selectDropdownPrimary__width__144]: hasVariant(
+            [sty.selectDropdownPrimarywidth__144]: hasVariant(
               variants,
               "width",
               "_144"
             ),
 
-            [sty.selectDropdownPrimary__width__160]: hasVariant(
+            [sty.selectDropdownPrimarywidth__160]: hasVariant(
               variants,
               "width",
               "_160"
             ),
 
-            [sty.selectDropdownPrimary__width__180]: hasVariant(
+            [sty.selectDropdownPrimarywidth__180]: hasVariant(
               variants,
               "width",
               "_180"
             ),
 
-            [sty.selectDropdownPrimary__width__270]: hasVariant(
+            [sty.selectDropdownPrimarywidth__270]: hasVariant(
               variants,
               "width",
               "_270"
             ),
 
-            [sty.selectDropdownPrimary__width__360]: hasVariant(
+            [sty.selectDropdownPrimarywidth__360]: hasVariant(
               variants,
               "width",
               "_360"
             ),
 
-            [sty.selectDropdownPrimary__width__540]: hasVariant(
+            [sty.selectDropdownPrimarywidth__540]: hasVariant(
               variants,
               "width",
               "_540"
             ),
 
-            [sty.selectDropdownPrimary__width__720]: hasVariant(
+            [sty.selectDropdownPrimarywidth__720]: hasVariant(
               variants,
               "width",
               "_720"
             ),
 
-            [sty.selectDropdownPrimary__width__90]: hasVariant(
+            [sty.selectDropdownPrimarywidth__90]: hasVariant(
               variants,
               "width",
               "_90"
             ),
 
-            [sty.selectDropdownPrimary__width_stretch]: hasVariant(
+            [sty.selectDropdownPrimarywidth_stretch]: hasVariant(
               variants,
               "width",
               "stretch"
@@ -177,13 +177,13 @@ function PlasmicSelectGroupDropdownPrimary__RenderFunc(props) {
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
             className={classNames(projectcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__description]: hasVariant(
+              [sty.descriptionParentdescription]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.descriptionParent__label]: hasVariant(
+              [sty.descriptionParentlabel]: hasVariant(
                 variants,
                 "label",
                 "label"

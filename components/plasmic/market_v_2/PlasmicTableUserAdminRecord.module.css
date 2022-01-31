@@ -12,9 +12,9 @@
   padding: 4px 8px;
 }
 .userAvatarNameEmailParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -22,8 +22,8 @@
 }
 .userAvatarNameEmailParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -237,9 +237,9 @@
   object-fit: cover;
 }
 .userInfoParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -247,8 +247,8 @@
 }
 .userInfoParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -290,9 +290,9 @@
   font-size: 12px;
 }
 .userAction {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -300,8 +300,8 @@
 }
 .userAction > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -341,7 +341,7 @@
   position: relative;
   flex-shrink: 0;
 }
-.buttonPrimary__action_button:global(.__wab_instance) {
+.buttonPrimaryaction_button:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg__hu7S9 {

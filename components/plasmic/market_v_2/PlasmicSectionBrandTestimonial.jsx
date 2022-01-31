@@ -49,7 +49,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
+        [sty.rootcolor]: hasVariant(variants, "color", "color")
       })}
     >
       <div className={classNames(projectcss.all, sty.freeBox__mj8CM)}>
@@ -58,7 +58,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
             defaultContents: "We're a trusted community to world class teams",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__color]: hasVariant(
+              [sty.slotTargetChildrencolor]: hasVariant(
                 variants,
                 "color",
                 "color"
@@ -105,7 +105,7 @@ function PlasmicSectionBrandTestimonial__RenderFunc(props) {
 
           value: args.slot3,
           className: classNames(sty.slotTargetSlot3, {
-            [sty.slotTargetSlot3__color]: hasVariant(variants, "color", "color")
+            [sty.slotTargetSlot3color]: hasVariant(variants, "color", "color")
           })
         })}
       </p.Stack>

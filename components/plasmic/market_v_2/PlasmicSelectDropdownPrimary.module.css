@@ -5,14 +5,14 @@
   width: auto;
   height: auto;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
 .trigger {
+  flex-direction: row;
   position: relative;
   display: flex;
-  flex-direction: row;
   height: 40px;
   padding-right: 8px;
   padding-left: 8px;
@@ -40,49 +40,49 @@
   > img {
   margin-left: 4px;
 }
-.trigger__width__90 {
+.triggerwidth__90 {
   width: 90px;
 }
-.trigger__isOpen {
+.triggerisOpen {
   background: #f5f5f5;
 }
-.trigger__isDisabled {
+.triggerisDisabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.trigger__color_light {
+.triggercolor_light {
   background: #ffffff;
   border-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
 }
-.trigger__width__120 {
+.triggerwidth__120 {
   width: 120px;
 }
-.trigger__width__144 {
+.triggerwidth__144 {
   width: 144px;
 }
-.trigger__width__160 {
+.triggerwidth__160 {
   width: 160px;
 }
-.trigger__width__180 {
+.triggerwidth__180 {
   width: 180px;
 }
-.trigger__width__270 {
+.triggerwidth__270 {
   width: 270px;
 }
-.trigger__width__360 {
+.triggerwidth__360 {
   width: 360px;
 }
-.trigger__width__540 {
+.triggerwidth__540 {
   width: 540px;
 }
-.trigger__width__720 {
+.triggerwidth__720 {
   width: 720px;
 }
 .root:focus-within .trigger {
   outline: none;
   border-color: #1976d2;
 }
-.root .trigger_____focusVisibleWithin {
+.root .trigger___focusVisibleWithin {
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
@@ -182,7 +182,7 @@
   color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
   flex-shrink: 0;
 }
-.root .dropdownIcon_____focusVisibleWithin {
+.root .dropdownIcon___focusVisibleWithin {
   outline: none;
 }
 .root:hover:not(:focus-within) .dropdownIcon {

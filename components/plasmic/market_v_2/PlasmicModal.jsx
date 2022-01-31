@@ -88,7 +88,13 @@ function PlasmicModal__RenderFunc(props) {
           data-plasmic-override={overrides.buttonParent}
           className={classNames(projectcss.all, sty.buttonParent)}
         >
-          <button className={classNames(projectcss.button, sty.button__dxNg)}>
+          <button
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.button__dxNg
+            )}
+          >
             <div
               data-plasmic-name={"textParent"}
               data-plasmic-override={overrides.textParent}
@@ -103,13 +109,18 @@ function PlasmicModal__RenderFunc(props) {
           </button>
 
           <button
-            className={classNames(projectcss.button, sty.button__kn7KG, {
-              [sty.button__inputs_companyName__kn7KGRcVto]: hasVariant(
-                variants,
-                "inputs",
-                "companyName"
-              )
-            })}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.button__kn7KG,
+              {
+                [sty.buttoninputs_companyName__kn7KGRcVto]: hasVariant(
+                  variants,
+                  "inputs",
+                  "companyName"
+                )
+              }
+            )}
           >
             <div
               data-plasmic-name={"textParentB"}

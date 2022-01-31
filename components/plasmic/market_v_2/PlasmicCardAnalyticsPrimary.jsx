@@ -53,7 +53,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__size__270]: hasVariant(variants, "size", "_270")
+        [sty.parentsize__270]: hasVariant(variants, "size", "_270")
       })}
     >
       <div
@@ -84,18 +84,22 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
           projectcss.all,
           sty.iconNumberValueTitlePercentValueParent,
           {
-            [sty.iconNumberValueTitlePercentValueParent__currency]: hasVariant(
+            [sty.iconNumberValueTitlePercentValueParentcurrency]: hasVariant(
               variants,
               "currency",
               "currency"
             ),
 
-            [sty.iconNumberValueTitlePercentValueParent__currency_size__270]:
+            [sty.iconNumberValueTitlePercentValueParentcurrency_size__270]:
               hasVariant(variants, "currency", "currency") &&
               hasVariant(variants, "size", "_270"),
-            [sty.iconNumberValueTitlePercentValueParent__numeration]:
-              hasVariant(variants, "numeration", "numeration"),
-            [sty.iconNumberValueTitlePercentValueParent__size__270]: hasVariant(
+            [sty.iconNumberValueTitlePercentValueParentnumeration]: hasVariant(
+              variants,
+              "numeration",
+              "numeration"
+            ),
+
+            [sty.iconNumberValueTitlePercentValueParentsize__270]: hasVariant(
               variants,
               "size",
               "_270"
@@ -107,7 +111,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
           data-plasmic-name={"svgIconParent"}
           data-plasmic-override={overrides.svgIconParent}
           className={classNames(projectcss.all, sty.svgIconParent, {
-            [sty.svgIconParent__size__270]: hasVariant(variants, "size", "_270")
+            [sty.svgIconParentsize__270]: hasVariant(variants, "size", "_270")
           })}
         >
           {(hasVariant(variants, "size", "_270") ? false : true)
@@ -157,7 +161,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
             data-plasmic-override={overrides.numberValue}
             hasGap={true}
             className={classNames(projectcss.all, sty.numberValue, {
-              [sty.numberValue__size__270]: hasVariant(variants, "size", "_270")
+              [sty.numberValuesize__270]: hasVariant(variants, "size", "_270")
             })}
           >
             {(
@@ -178,32 +182,32 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                 data-plasmic-name={"currencyParent"}
                 data-plasmic-override={overrides.currencyParent}
                 className={classNames(projectcss.all, sty.currencyParent, {
-                  [sty.currencyParent__currency]: hasVariant(
+                  [sty.currencyParentcurrency]: hasVariant(
                     variants,
                     "currency",
                     "currency"
                   ),
 
-                  [sty.currencyParent__currency_size__270]:
+                  [sty.currencyParentcurrency_size__270]:
                     hasVariant(variants, "currency", "currency") &&
                     hasVariant(variants, "size", "_270"),
-                  [sty.currencyParent__numeration]: hasVariant(
+                  [sty.currencyParentnumeration]: hasVariant(
                     variants,
                     "numeration",
                     "numeration"
                   ),
 
-                  [sty.currencyParent__numeration_currency_size__270]:
+                  [sty.currencyParentnumeration_currency_size__270]:
                     hasVariant(variants, "numeration", "numeration") &&
                     hasVariant(variants, "currency", "currency") &&
                     hasVariant(variants, "size", "_270"),
-                  [sty.currencyParent__size__270]: hasVariant(
+                  [sty.currencyParentsize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.currencyParent__size__270_numeration]:
+                  [sty.currencyParentsize__270_numeration]:
                     hasVariant(variants, "size", "_270") &&
                     hasVariant(variants, "numeration", "numeration")
                 })}
@@ -292,32 +296,32 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                 data-plasmic-name={"numerationParent"}
                 data-plasmic-override={overrides.numerationParent}
                 className={classNames(projectcss.all, sty.numerationParent, {
-                  [sty.numerationParent__currency]: hasVariant(
+                  [sty.numerationParentcurrency]: hasVariant(
                     variants,
                     "currency",
                     "currency"
                   ),
 
-                  [sty.numerationParent__numeration]: hasVariant(
+                  [sty.numerationParentnumeration]: hasVariant(
                     variants,
                     "numeration",
                     "numeration"
                   ),
 
-                  [sty.numerationParent__numeration_currency]:
+                  [sty.numerationParentnumeration_currency]:
                     hasVariant(variants, "numeration", "numeration") &&
                     hasVariant(variants, "currency", "currency"),
-                  [sty.numerationParent__numeration_currency_size__270]:
+                  [sty.numerationParentnumeration_currency_size__270]:
                     hasVariant(variants, "numeration", "numeration") &&
                     hasVariant(variants, "currency", "currency") &&
                     hasVariant(variants, "size", "_270"),
-                  [sty.numerationParent__size__270]: hasVariant(
+                  [sty.numerationParentsize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.numerationParent__size__270_numeration]:
+                  [sty.numerationParentsize__270_numeration]:
                     hasVariant(variants, "size", "_270") &&
                     hasVariant(variants, "numeration", "numeration")
                 })}
@@ -366,7 +370,7 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
             data-plasmic-override={overrides.cardTitle}
             hasGap={true}
             className={classNames(projectcss.all, sty.cardTitle, {
-              [sty.cardTitle__size__270]: hasVariant(variants, "size", "_270")
+              [sty.cardTitlesize__270]: hasVariant(variants, "size", "_270")
             })}
           >
             {(hasVariant(variants, "size", "_270") ? false : true)

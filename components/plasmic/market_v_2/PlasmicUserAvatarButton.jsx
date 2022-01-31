@@ -33,47 +33,48 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.avatarButtonEdit,
         {
-          [sty.avatarButtonEdit__size__16Px]: hasVariant(
+          [sty.avatarButtonEditsize__16Px]: hasVariant(
             variants,
             "size",
             "_16Px"
           ),
 
-          [sty.avatarButtonEdit__size__24Px]: hasVariant(
+          [sty.avatarButtonEditsize__24Px]: hasVariant(
             variants,
             "size",
             "_24Px"
           ),
 
-          [sty.avatarButtonEdit__size__32Px]: hasVariant(
+          [sty.avatarButtonEditsize__32Px]: hasVariant(
             variants,
             "size",
             "_32Px"
           ),
 
-          [sty.avatarButtonEdit__size__40Px]: hasVariant(
+          [sty.avatarButtonEditsize__40Px]: hasVariant(
             variants,
             "size",
             "_40Px"
           ),
 
-          [sty.avatarButtonEdit__size__48Px]: hasVariant(
+          [sty.avatarButtonEditsize__48Px]: hasVariant(
             variants,
             "size",
             "_48Px"
           ),
 
-          [sty.avatarButtonEdit__size__64Px]: hasVariant(
+          [sty.avatarButtonEditsize__64Px]: hasVariant(
             variants,
             "size",
             "_64Px"
           ),
 
-          [sty.avatarButtonEdit__size__80Px]: hasVariant(
+          [sty.avatarButtonEditsize__80Px]: hasVariant(
             variants,
             "size",
             "_80Px"
@@ -85,13 +86,13 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
         data-plasmic-name={"avatarImageBackground"}
         data-plasmic-override={overrides.avatarImageBackground}
         className={classNames(projectcss.all, sty.avatarImageBackground, {
-          [sty.avatarImageBackground__size__40Px]: hasVariant(
+          [sty.avatarImageBackgroundsize__40Px]: hasVariant(
             variants,
             "size",
             "_40Px"
           ),
 
-          [sty.avatarImageBackground__size__80Px]: hasVariant(
+          [sty.avatarImageBackgroundsize__80Px]: hasVariant(
             variants,
             "size",
             "_80Px"
@@ -102,14 +103,18 @@ function PlasmicUserAvatarButton__RenderFunc(props) {
           defaultContents: (
             <img
               alt={""}
-              className={classNames(projectcss.img, sty.img__gOzp)}
+              className={classNames(
+                projectcss.all,
+                projectcss.img,
+                sty.img__gOzp
+              )}
               src={"/plasmic/market_v_2/images/image4.png"}
             />
           ),
 
           value: args.avatarImage,
           className: classNames(sty.slotTargetAvatarImage, {
-            [sty.slotTargetAvatarImage__size__80Px]: hasVariant(
+            [sty.slotTargetAvatarImagesize__80Px]: hasVariant(
               variants,
               "size",
               "_80Px"

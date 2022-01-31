@@ -73,7 +73,11 @@ function PlasmicCardHeroCta__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(projectcss.img, sty.img__m8Tz3)}
+            className={classNames(
+              projectcss.all,
+              projectcss.img,
+              sty.img__m8Tz3
+            )}
           />
         ),
 

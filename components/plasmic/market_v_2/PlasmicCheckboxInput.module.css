@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   position: relative;
   width: 100%;
   height: auto;
@@ -19,11 +19,15 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 16px;
 }
-.root__isDisabled {
+.rootnoLabel {
+  width: auto;
+  display: inline-flex;
+}
+.rootisDisabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.root_____focusVisibleWithin {
+.root___focusVisibleWithin {
   outline: none;
 }
 .freeBox {
@@ -41,7 +45,7 @@
   border-radius: 2px;
   border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
 }
-.freeBox__isChecked {
+.freeBoxisChecked {
   background: #f0ebff;
   border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
@@ -52,7 +56,7 @@
   outline: none;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.root .freeBox_____focusVisibleWithin {
+.root .freeBox___focusVisibleWithin {
   outline: none;
   border-style: dashed;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
@@ -66,13 +70,13 @@
   height: 1em;
   display: block;
 }
-.svg__isChecked {
+.svgisChecked {
   color: #6633ff /* plasmic-token: 97FZ-MZpy */;
 }
-.svg__isIndeterminate {
+.svgisIndeterminate {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
 }
-.root .svg_____focusVisibleWithin {
+.root .svg___focusVisibleWithin {
   outline: none;
 }
 .labelContainer {
@@ -83,10 +87,10 @@
   justify-content: flex-start;
   margin-left: calc(8px + 16px) !important;
 }
-.labelContainer__noLabel {
+.labelContainernoLabel {
   margin-left: calc(8px + 16px) !important;
 }
-.root .labelContainer_____focusVisibleWithin {
+.root .labelContainer___focusVisibleWithin {
   margin-left: calc(8px + 16px) !important;
   outline: none;
 }
@@ -117,29 +121,25 @@
 .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   overflow: hidden;
 }
-.root .slotTargetChildren_____focusVisibleWithin > *,
-.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > *,
+.root .slotTargetChildren___focusVisibleWithin > *,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > *,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > .__wab_slot > *,
 .root
-  .slotTargetChildren_____focusVisibleWithin
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot
   > *,
-.root .slotTargetChildren_____focusVisibleWithin > picture > img,
-.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > picture > img,
+.root .slotTargetChildren___focusVisibleWithin > picture > img,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > picture > img,
 .root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > picture
   > img,
 .root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot

@@ -491,7 +491,11 @@ function PlasmicTeamprofile__RenderFunc(props) {
                 <p.PlasmicLink
                   data-plasmic-name={"linkTeamViewAll"}
                   data-plasmic-override={overrides.linkTeamViewAll}
-                  className={classNames(projectcss.a, sty.linkTeamViewAll)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.linkTeamViewAll
+                  )}
                   component={Link}
                   platform={"nextjs"}
                 >

@@ -78,7 +78,7 @@ function PlasmicNoteCard__RenderFunc(props) {
         data-plasmic-name={"buttonPrimary"}
         data-plasmic-override={overrides.buttonPrimary}
         className={classNames("__wab_instance", sty.buttonPrimary, {
-          [sty.buttonPrimary__button]: hasVariant(variants, "button", "button")
+          [sty.buttonPrimarybutton]: hasVariant(variants, "button", "button")
         })}
         width={"_90"}
       />

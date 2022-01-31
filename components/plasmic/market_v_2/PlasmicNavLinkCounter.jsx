@@ -38,9 +38,13 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__state_selected]: hasVariant(variants, "state", "selected")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        { [sty.rootstate_selected]: hasVariant(variants, "state", "selected") }
+      )}
       component={Link}
       href={args.destination}
       id={args.id}
@@ -52,11 +56,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__state_selected]: hasVariant(
-            variants,
-            "state",
-            "selected"
-          )
+          [sty.parentstate_selected]: hasVariant(variants, "state", "selected")
         })}
       >
         <div
@@ -73,7 +73,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
               defaultContents: "Counter Nav",
               value: args.navLabel,
               className: classNames(sty.slotTargetNavLabel, {
-                [sty.slotTargetNavLabel__state_selected]: hasVariant(
+                [sty.slotTargetNavLabelstate_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"
@@ -97,7 +97,7 @@ function PlasmicNavLinkCounter__RenderFunc(props) {
               defaultContents: "######",
               value: args.numberValue,
               className: classNames(sty.slotTargetNumberValue, {
-                [sty.slotTargetNumberValue__state_selected]: hasVariant(
+                [sty.slotTargetNumberValuestate_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"

@@ -1,6 +1,6 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   width: auto;
   height: auto;
   max-width: 100%;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -22,14 +22,14 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 8px;
 }
-.root__type_outline {
+.roottype_outline {
   background: none;
   border: 2px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.root__colors_smoke {
+.rootcolors_smoke {
   background: #f8f8ff;
 }
-.root__colors_smoke_type_outline {
+.rootcolors_smoke_type_outline {
   background: #f8f8ff;
   border: 1.8px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
@@ -48,11 +48,11 @@
   border-radius: 4px;
   padding: 4px 8px;
 }
-.freeBox__type_outline___09JRv9AmM {
+.freeBoxtype_outline___09JRv9AmM {
   background: none;
   border: 1.5px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.freeBox__colors_smoke_type_outline___09JRc1422V9AmM {
+.freeBoxcolors_smoke_type_outline___09JRc1422V9AmM {
   background: #ffffff;
   border: 1.5px solid #14161b /* plasmic-token: IbTSH9_JJ */;
 }
@@ -68,16 +68,16 @@
   font-weight: 700;
   font-size: 12px;
 }
-.slotTargetSubjectTextSlot__type_outline {
+.slotTargetSubjectTextSlottype_outline {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetSubjectTextSlot__colors_smoke {
+.slotTargetSubjectTextSlotcolors_smoke {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .freeBox__exEE {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   max-width: 100%;
@@ -88,8 +88,8 @@
 }
 .freeBox__exEE > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-left: calc(0px - 12px);
   width: calc(100% + 12px);
 }
@@ -135,13 +135,13 @@
   min-width: 0;
   height: auto;
 }
-.slotTargetDescriptiveTextSlot__type_outline {
+.slotTargetDescriptiveTextSlottype_outline {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetDescriptiveTextSlot__colors_smoke {
+.slotTargetDescriptiveTextSlotcolors_smoke {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
-.slotTargetDescriptiveTextSlot__colors_smoke_type_outline {
+.slotTargetDescriptiveTextSlotcolors_smoke_type_outline {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
 .freeBox___5WPk7 {
@@ -163,12 +163,12 @@
   height: 12px;
   flex-shrink: 0;
 }
-.svg__type_outline {
+.svgtype_outline {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.svg__colors_smoke {
+.svgcolors_smoke {
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
-.svg__colors_smoke_type_outline {
+.svgcolors_smoke_type_outline {
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }

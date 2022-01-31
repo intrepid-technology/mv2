@@ -23,7 +23,7 @@ import Icon103Icon from "./icons/PlasmicIcon__Icon103"; // plasmic-import: 1-aKJ
 
 export const PlasmicRadioCheckboxCard__VariantProps = new Array(
   "state",
-  "size"
+  "width"
 );
 
 export const PlasmicRadioCheckboxCard__ArgProps = new Array("children");
@@ -39,43 +39,45 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
         {
-          [sty.root__size__180]: hasVariant(variants, "size", "_180"),
-          [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.root__size__90]: hasVariant(variants, "size", "_90"),
-          [sty.root__state_selected]: hasVariant(variants, "state", "selected")
+          [sty.rootstate_selected]: hasVariant(variants, "state", "selected"),
+          [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.rootwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
         }
       )}
     >
       <div
         className={classNames(projectcss.all, sty.freeBox__xdan5, {
-          [sty.freeBox__size__270__xdan5Y2Fsu]: hasVariant(
-            variants,
-            "size",
-            "_270"
-          ),
-
-          [sty.freeBox__size__90__xdan5DxVnv]: hasVariant(
-            variants,
-            "size",
-            "_90"
-          ),
-
-          [sty.freeBox__state_selected__xdan5Bi1Xj]: hasVariant(
+          [sty.freeBoxstate_selected__xdan5Bi1Xj]: hasVariant(
             variants,
             "state",
             "selected"
+          ),
+
+          [sty.freeBoxwidth__270__xdan5Y2Fsu]: hasVariant(
+            variants,
+            "width",
+            "_270"
+          ),
+
+          [sty.freeBoxwidth__90__xdan5DxVnv]: hasVariant(
+            variants,
+            "width",
+            "_90"
           )
         })}
       >
         {(hasVariant(variants, "state", "selected") ? true : false) ? (
           <Icon103Icon
             className={classNames(projectcss.all, sty.svg__z5We, {
-              [sty.svg__state_selected__z5WeBi1Xj]: hasVariant(
+              [sty.svgstate_selected__z5WeBi1Xj]: hasVariant(
                 variants,
                 "state",
                 "selected"
@@ -87,7 +89,7 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
         {false ? (
           <svg
             className={classNames(projectcss.all, sty.svg__cJiKx, {
-              [sty.svg__state_selected__cJiKxbi1Xj]: hasVariant(
+              [sty.svgstate_selected__cJiKxbi1Xj]: hasVariant(
                 variants,
                 "state",
                 "selected"
@@ -100,31 +102,31 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
 
       <div
         className={classNames(projectcss.all, sty.freeBox__l835R, {
-          [sty.freeBox__size__90__l835RDxVnv]: hasVariant(
-            variants,
-            "size",
-            "_90"
-          ),
-
-          [sty.freeBox__state_selected__l835Rbi1Xj]: hasVariant(
+          [sty.freeBoxstate_selected__l835Rbi1Xj]: hasVariant(
             variants,
             "state",
             "selected"
+          ),
+
+          [sty.freeBoxwidth__90__l835RDxVnv]: hasVariant(
+            variants,
+            "width",
+            "_90"
           )
         })}
       >
         <div
           className={classNames(projectcss.all, sty.freeBox___6RQyQ, {
-            [sty.freeBox__size__90___6RQyQDxVnv]: hasVariant(
-              variants,
-              "size",
-              "_90"
-            ),
-
-            [sty.freeBox__state_selected___6RQyQbi1Xj]: hasVariant(
+            [sty.freeBoxstate_selected___6RQyQbi1Xj]: hasVariant(
               variants,
               "state",
               "selected"
+            ),
+
+            [sty.freeBoxwidth__90___6RQyQDxVnv]: hasVariant(
+              variants,
+              "width",
+              "_90"
             )
           })}
         >
@@ -132,34 +134,34 @@ function PlasmicRadioCheckboxCard__RenderFunc(props) {
             defaultContents: "Feature",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__size__180]: hasVariant(
-                variants,
-                "size",
-                "_180"
-              ),
-
-              [sty.slotTargetChildren__size__270]: hasVariant(
-                variants,
-                "size",
-                "_270"
-              ),
-
-              [sty.slotTargetChildren__size__360]: hasVariant(
-                variants,
-                "size",
-                "_360"
-              ),
-
-              [sty.slotTargetChildren__size__90]: hasVariant(
-                variants,
-                "size",
-                "_90"
-              ),
-
-              [sty.slotTargetChildren__state_selected]: hasVariant(
+              [sty.slotTargetChildrenstate_selected]: hasVariant(
                 variants,
                 "state",
                 "selected"
+              ),
+
+              [sty.slotTargetChildrenwidth__180]: hasVariant(
+                variants,
+                "width",
+                "_180"
+              ),
+
+              [sty.slotTargetChildrenwidth__270]: hasVariant(
+                variants,
+                "width",
+                "_270"
+              ),
+
+              [sty.slotTargetChildrenwidth__360]: hasVariant(
+                variants,
+                "width",
+                "_360"
+              ),
+
+              [sty.slotTargetChildrenwidth__90]: hasVariant(
+                variants,
+                "width",
+                "_90"
               )
             })
           })}

@@ -34,9 +34,9 @@ function PlasmicAccordion__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-        [sty.root__size_small]: hasVariant(variants, "size", "small"),
-        [sty.root__size_small_isOpen]:
+        [sty.rootisOpen]: hasVariant(variants, "isOpen", "isOpen"),
+        [sty.rootsize_small]: hasVariant(variants, "size", "small"),
+        [sty.rootsize_small_isOpen]:
           hasVariant(variants, "size", "small") &&
           hasVariant(variants, "isOpen", "isOpen")
       })}
@@ -45,7 +45,7 @@ function PlasmicAccordion__RenderFunc(props) {
         data-plasmic-name={"header"}
         data-plasmic-override={overrides.header}
         className={classNames(projectcss.all, sty.header, {
-          [sty.header__size_small]: hasVariant(variants, "size", "small")
+          [sty.headersize_small]: hasVariant(variants, "size", "small")
         })}
       >
         <div
@@ -57,13 +57,13 @@ function PlasmicAccordion__RenderFunc(props) {
             defaultContents: "Accordion",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__isOpen]: hasVariant(
+              [sty.slotTargetChildrenisOpen]: hasVariant(
                 variants,
                 "isOpen",
                 "isOpen"
               ),
 
-              [sty.slotTargetChildren__size_small]: hasVariant(
+              [sty.slotTargetChildrensize_small]: hasVariant(
                 variants,
                 "size",
                 "small"
@@ -81,13 +81,13 @@ function PlasmicAccordion__RenderFunc(props) {
             data-plasmic-name={"collapseIcon"}
             data-plasmic-override={overrides.collapseIcon}
             className={classNames(projectcss.all, sty.collapseIcon, {
-              [sty.collapseIcon__isOpen]: hasVariant(
+              [sty.collapseIconisOpen]: hasVariant(
                 variants,
                 "isOpen",
                 "isOpen"
               ),
 
-              [sty.collapseIcon__size_small]: hasVariant(
+              [sty.collapseIconsize_small]: hasVariant(
                 variants,
                 "size",
                 "small"
@@ -103,8 +103,8 @@ function PlasmicAccordion__RenderFunc(props) {
           data-plasmic-name={"body"}
           data-plasmic-override={overrides.body}
           className={classNames(projectcss.all, sty.body, {
-            [sty.body__isOpen]: hasVariant(variants, "isOpen", "isOpen"),
-            [sty.body__size_small_isOpen]:
+            [sty.bodyisOpen]: hasVariant(variants, "isOpen", "isOpen"),
+            [sty.bodysize_small_isOpen]:
               hasVariant(variants, "size", "small") &&
               hasVariant(variants, "isOpen", "isOpen")
           })}

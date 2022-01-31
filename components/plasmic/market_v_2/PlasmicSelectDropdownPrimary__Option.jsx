@@ -49,19 +49,14 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__isDisabled]: hasVariant(
-          variants,
-          "isDisabled",
-          "isDisabled"
-        ),
-
-        [sty.root__isHighlighted]: hasVariant(
+        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
+        [sty.rootisHighlighted]: hasVariant(
           variants,
           "isHighlighted",
           "isHighlighted"
         ),
 
-        [sty.root__width__120]: hasVariant(
+        [sty.rootwidth__120]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -69,7 +64,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_120"
         ),
 
-        [sty.root__width__144]: hasVariant(
+        [sty.rootwidth__144]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -77,7 +72,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_144"
         ),
 
-        [sty.root__width__160]: hasVariant(
+        [sty.rootwidth__160]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -85,7 +80,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_160"
         ),
 
-        [sty.root__width__180]: hasVariant(
+        [sty.rootwidth__180]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -93,7 +88,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_180"
         ),
 
-        [sty.root__width__270]: hasVariant(
+        [sty.rootwidth__270]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -101,7 +96,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_270"
         ),
 
-        [sty.root__width__360]: hasVariant(
+        [sty.rootwidth__360]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -109,7 +104,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_360"
         ),
 
-        [sty.root__width__540]: hasVariant(
+        [sty.rootwidth__540]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -117,7 +112,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_540"
         ),
 
-        [sty.root__width__720]: hasVariant(
+        [sty.rootwidth__720]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -125,7 +120,7 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           "_720"
         ),
 
-        [sty.root__width__90]: hasVariant(
+        [sty.rootwidth__90]: hasVariant(
           (superContexts.SelectDropdownPrimary &&
             superContexts.SelectDropdownPrimary.variants) ||
             {},
@@ -138,19 +133,19 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
         data-plasmic-name={"labelContainer"}
         data-plasmic-override={overrides.labelContainer}
         className={classNames(projectcss.all, sty.labelContainer, {
-          [sty.labelContainer__isDisabled]: hasVariant(
+          [sty.labelContainerisDisabled]: hasVariant(
             variants,
             "isDisabled",
             "isDisabled"
           ),
 
-          [sty.labelContainer__isHighlighted]: hasVariant(
+          [sty.labelContainerisHighlighted]: hasVariant(
             variants,
             "isHighlighted",
             "isHighlighted"
           ),
 
-          [sty.labelContainer__isSelected]: hasVariant(
+          [sty.labelContainerisSelected]: hasVariant(
             variants,
             "isSelected",
             "isSelected"
@@ -161,19 +156,19 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
           defaultContents: "Option",
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__isDisabled]: hasVariant(
+            [sty.slotTargetChildrenisDisabled]: hasVariant(
               variants,
               "isDisabled",
               "isDisabled"
             ),
 
-            [sty.slotTargetChildren__isHighlighted]: hasVariant(
+            [sty.slotTargetChildrenisHighlighted]: hasVariant(
               variants,
               "isHighlighted",
               "isHighlighted"
             ),
 
-            [sty.slotTargetChildren__isSelected]: hasVariant(
+            [sty.slotTargetChildrenisSelected]: hasVariant(
               variants,
               "isSelected",
               "isSelected"

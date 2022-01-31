@@ -48,7 +48,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__border]: hasVariant(variants, "border", "border")
+          [sty.parentborder]: hasVariant(variants, "border", "border")
         })}
       >
         <p.Stack
@@ -57,7 +57,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
           data-plasmic-override={overrides.headlineParent}
           hasGap={true}
           className={classNames(projectcss.all, sty.headlineParent, {
-            [sty.headlineParent__subheadDescription]: hasVariant(
+            [sty.headlineParentsubheadDescription]: hasVariant(
               variants,
               "subheadDescription",
               "subheadDescription"
@@ -88,13 +88,13 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   : "Login Connections",
                 value: args.children,
                 className: classNames(sty.slotTargetChildren, {
-                  [sty.slotTargetChildren__accounting]: hasVariant(
+                  [sty.slotTargetChildrenaccounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotTargetChildren__payment]: hasVariant(
+                  [sty.slotTargetChildrenpayment]: hasVariant(
                     variants,
                     "payment",
                     "payment"
@@ -118,13 +118,13 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   : "Connect your social accounts to log in to Intrepid.",
                 value: args.slot,
                 className: classNames(sty.slotTargetSlot, {
-                  [sty.slotTargetSlot__accounting]: hasVariant(
+                  [sty.slotTargetSlotaccounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotTargetSlot__payment]: hasVariant(
+                  [sty.slotTargetSlotpayment]: hasVariant(
                     variants,
                     "payment",
                     "payment"
@@ -146,15 +146,15 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                 "__wab_instance",
                 sty.buttonConnectedAccount__sGzGb,
                 {
-                  [sty.buttonConnectedAccount__accounting__sGzGbCaLxc]:
+                  [sty.buttonConnectedAccountaccounting__sGzGbCaLxc]:
                     hasVariant(variants, "accounting", "accounting"),
-                  [sty.buttonConnectedAccount__payment__sGzGbpUEih]: hasVariant(
+                  [sty.buttonConnectedAccountpayment__sGzGbpUEih]: hasVariant(
                     variants,
                     "payment",
                     "payment"
                   ),
 
-                  [sty.buttonConnectedAccount__subheadDescription__sGzGbx1Lmn]:
+                  [sty.buttonConnectedAccountsubheadDescription__sGzGbx1Lmn]:
                     hasVariant(
                       variants,
                       "subheadDescription",
@@ -177,9 +177,9 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                 "__wab_instance",
                 sty.buttonConnectedAccount__bwqDb,
                 {
-                  [sty.buttonConnectedAccount__accounting__bwqDbCaLxc]:
+                  [sty.buttonConnectedAccountaccounting__bwqDbCaLxc]:
                     hasVariant(variants, "accounting", "accounting"),
-                  [sty.buttonConnectedAccount__payment__bwqDbpUEih]: hasVariant(
+                  [sty.buttonConnectedAccountpayment__bwqDbpUEih]: hasVariant(
                     variants,
                     "payment",
                     "payment"
@@ -202,7 +202,7 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
           className={classNames(projectcss.all, sty.descriptionParent, {
-            [sty.descriptionParent__subheadDescription]: hasVariant(
+            [sty.descriptionParentsubheadDescription]: hasVariant(
               variants,
               "subheadDescription",
               "subheadDescription"
@@ -213,13 +213,13 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
             data-plasmic-name={"description"}
             data-plasmic-override={overrides.description}
             className={classNames(projectcss.all, sty.description, {
-              [sty.description__accounting]: hasVariant(
+              [sty.descriptionaccounting]: hasVariant(
                 variants,
                 "accounting",
                 "accounting"
               ),
 
-              [sty.description__payment]: hasVariant(
+              [sty.descriptionpayment]: hasVariant(
                 variants,
                 "payment",
                 "payment"
@@ -230,13 +230,13 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
               data-plasmic-name={"descriptionTextParent"}
               data-plasmic-override={overrides.descriptionTextParent}
               className={classNames(projectcss.all, sty.descriptionTextParent, {
-                [sty.descriptionTextParent__accounting]: hasVariant(
+                [sty.descriptionTextParentaccounting]: hasVariant(
                   variants,
                   "accounting",
                   "accounting"
                 ),
 
-                [sty.descriptionTextParent__payment]: hasVariant(
+                [sty.descriptionTextParentpayment]: hasVariant(
                   variants,
                   "payment",
                   "payment"
@@ -248,13 +248,13 @@ function PlasmicInputFormCardWebhookConnections__RenderFunc(props) {
                   "One login connection can be added per third-party service.",
                 value: args.description,
                 className: classNames(sty.slotTargetDescription, {
-                  [sty.slotTargetDescription__accounting]: hasVariant(
+                  [sty.slotTargetDescriptionaccounting]: hasVariant(
                     variants,
                     "accounting",
                     "accounting"
                   ),
 
-                  [sty.slotTargetDescription__payment]: hasVariant(
+                  [sty.slotTargetDescriptionpayment]: hasVariant(
                     variants,
                     "payment",
                     "payment"

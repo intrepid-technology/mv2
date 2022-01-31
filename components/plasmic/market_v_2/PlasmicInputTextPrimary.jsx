@@ -37,87 +37,92 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__type_underline]: hasVariant(variants, "type", "underline"),
-        [sty.root__width__90]: hasVariant(variants, "width", "_90"),
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.roottype_underline]: hasVariant(variants, "type", "underline"),
+        [sty.rootwidth__90]: hasVariant(variants, "width", "_90"),
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__background_white]: hasVariant(
+          [sty.parentbackground_white]: hasVariant(
             variants,
             "background",
             "white"
           ),
 
-          [sty.parent__height__32]: hasVariant(variants, "height", "_32"),
-          [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
-          [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
-          [sty.parent__height__48]: hasVariant(variants, "height", "_48"),
-          [sty.parent__width__160]: hasVariant(variants, "width", "_160"),
-          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90"),
-          [sty.parent__width_stretch]: hasVariant(variants, "width", "stretch")
+          [sty.parentheight__32]: hasVariant(variants, "height", "_32"),
+          [sty.parentheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.parentheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.parentheight__48]: hasVariant(variants, "height", "_48"),
+          [sty.parentwidth__160]: hasVariant(variants, "width", "_160"),
+          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720"),
+          [sty.parentwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.parentwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(projectcss.input, sty.textInput, {
-            [sty.textInput__background_black]: hasVariant(
-              variants,
-              "background",
-              "black"
-            ),
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.textInput,
+            {
+              [sty.textInputbackground_black]: hasVariant(
+                variants,
+                "background",
+                "black"
+              ),
 
-            [sty.textInput__background_grey]: hasVariant(
-              variants,
-              "background",
-              "grey"
-            ),
+              [sty.textInputbackground_grey]: hasVariant(
+                variants,
+                "background",
+                "grey"
+              ),
 
-            [sty.textInput__background_white]: hasVariant(
-              variants,
-              "background",
-              "white"
-            ),
+              [sty.textInputbackground_white]: hasVariant(
+                variants,
+                "background",
+                "white"
+              ),
 
-            [sty.textInput__height__32]: hasVariant(variants, "height", "_32"),
-            [sty.textInput__height__36]: hasVariant(variants, "height", "_36"),
-            [sty.textInput__height__40]: hasVariant(variants, "height", "_40"),
-            [sty.textInput__height__44]: hasVariant(variants, "height", "_44"),
-            [sty.textInput__height__48]: hasVariant(variants, "height", "_48"),
-            [sty.textInput__type_primary]: hasVariant(
-              variants,
-              "type",
-              "primary"
-            ),
+              [sty.textInputheight__32]: hasVariant(variants, "height", "_32"),
+              [sty.textInputheight__36]: hasVariant(variants, "height", "_36"),
+              [sty.textInputheight__40]: hasVariant(variants, "height", "_40"),
+              [sty.textInputheight__44]: hasVariant(variants, "height", "_44"),
+              [sty.textInputheight__48]: hasVariant(variants, "height", "_48"),
+              [sty.textInputtype_primary]: hasVariant(
+                variants,
+                "type",
+                "primary"
+              ),
 
-            [sty.textInput__type_secondary]: hasVariant(
-              variants,
-              "type",
-              "secondary"
-            ),
+              [sty.textInputtype_secondary]: hasVariant(
+                variants,
+                "type",
+                "secondary"
+              ),
 
-            [sty.textInput__type_underline]: hasVariant(
-              variants,
-              "type",
-              "underline"
-            ),
+              [sty.textInputtype_underline]: hasVariant(
+                variants,
+                "type",
+                "underline"
+              ),
 
-            [sty.textInput__width__90]: hasVariant(variants, "width", "_90"),
-            [sty.textInput__width_stretch]: hasVariant(
-              variants,
-              "width",
-              "stretch"
-            )
-          })}
+              [sty.textInputwidth__90]: hasVariant(variants, "width", "_90"),
+              [sty.textInputwidth_stretch]: hasVariant(
+                variants,
+                "width",
+                "stretch"
+              )
+            }
+          )}
           size={1}
           type={"text"}
           value={""}

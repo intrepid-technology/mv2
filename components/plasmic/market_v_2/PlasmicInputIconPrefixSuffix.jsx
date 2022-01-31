@@ -43,12 +43,12 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720"),
-          [sty.parent__width__90]: hasVariant(variants, "width", "_90")
+          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720"),
+          [sty.parentwidth__90]: hasVariant(variants, "width", "_90")
         })}
       >
         {(hasVariant(variants, "prefix", "prefix") ? true : true) ? (
@@ -56,11 +56,7 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
             data-plasmic-name={"prefixParent"}
             data-plasmic-override={overrides.prefixParent}
             className={classNames(projectcss.all, sty.prefixParent, {
-              [sty.prefixParent__prefix]: hasVariant(
-                variants,
-                "prefix",
-                "prefix"
-              )
+              [sty.prefixParentprefix]: hasVariant(variants, "prefix", "prefix")
             })}
           >
             <PlusBoldIcon
@@ -73,9 +69,12 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(projectcss.input, sty.textInput, {
-            [sty.textInput__prefix]: hasVariant(variants, "prefix", "prefix")
-          })}
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.textInput,
+            { [sty.textInputprefix]: hasVariant(variants, "prefix", "prefix") }
+          )}
           placeholder={""}
           size={1}
           type={"text"}
@@ -87,11 +86,7 @@ function PlasmicInputIconPrefixSuffix__RenderFunc(props) {
             data-plasmic-name={"suffixParent"}
             data-plasmic-override={overrides.suffixParent}
             className={classNames(projectcss.all, sty.suffixParent, {
-              [sty.suffixParent__suffix]: hasVariant(
-                variants,
-                "suffix",
-                "suffix"
-              )
+              [sty.suffixParentsuffix]: hasVariant(variants, "suffix", "suffix")
             })}
           >
             <PlusBoldIcon

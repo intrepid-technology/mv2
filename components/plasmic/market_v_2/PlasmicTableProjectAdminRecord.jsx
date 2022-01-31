@@ -88,7 +88,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           <p.PlasmicLink
             data-plasmic-name={"imageServiceLink"}
             data-plasmic-override={overrides.imageServiceLink}
-            className={classNames(projectcss.a, sty.imageServiceLink)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.imageServiceLink
+            )}
             component={Link}
             platform={"nextjs"}
           >
@@ -100,7 +104,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                   data-plasmic-name={"img"}
                   data-plasmic-override={overrides.img}
                   alt={""}
-                  className={classNames(projectcss.img, sty.img)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.img,
+                    sty.img
+                  )}
                   src={
                     "https://craftypixels.com/placeholder-image/40x40/f6f6f6/999999"
                   }
@@ -111,7 +119,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                 defaultContents: (
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__n5CEj)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__n5CEj
+                    )}
                     source={
                       "https://firebasestorage.googleapis.com/v0/b/intrepid-market-2021.appspot.com/o/images%2FNaN?alt=media&token=4988630b-c755-4aa7-8aa2-0bacb07592bb"
                     }
@@ -136,7 +148,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             <p.PlasmicLink
               data-plasmic-name={"serviceTitleLink"}
               data-plasmic-override={overrides.serviceTitleLink}
-              className={classNames(projectcss.a, sty.serviceTitleLink)}
+              className={classNames(
+                projectcss.all,
+                projectcss.a,
+                sty.serviceTitleLink
+              )}
               component={Link}
               platform={"nextjs"}
             >
@@ -158,6 +174,7 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
             data-plasmic-name={"buttonUserOrderContact"}
             data-plasmic-override={overrides.buttonUserOrderContact}
             className={classNames(
+              projectcss.all,
               projectcss.button,
               sty.buttonUserOrderContact
             )}
@@ -216,19 +233,19 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
                         : CircleTimeIcon
                     }
                     className={classNames(projectcss.all, sty.svgIcon23, {
-                      [sty.svgIcon23__status_cancelled]: hasVariant(
+                      [sty.svgIcon23status_cancelled]: hasVariant(
                         variants,
                         "status",
                         "cancelled"
                       ),
 
-                      [sty.svgIcon23__status_complete]: hasVariant(
+                      [sty.svgIcon23status_complete]: hasVariant(
                         variants,
                         "status",
                         "complete"
                       ),
 
-                      [sty.svgIcon23__status_paused]: hasVariant(
+                      [sty.svgIcon23status_paused]: hasVariant(
                         variants,
                         "status",
                         "paused"
@@ -303,7 +320,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           <button
             data-plasmic-name={"orderNotification"}
             data-plasmic-override={overrides.orderNotification}
-            className={classNames(projectcss.button, sty.orderNotification)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.orderNotification
+            )}
           >
             <ButtonIconNotificationBell
               data-plasmic-name={"buttonIconNotificationBell"}
@@ -346,7 +367,11 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           <button
             data-plasmic-name={"buttonUserOrderReview"}
             data-plasmic-override={overrides.buttonUserOrderReview}
-            className={classNames(projectcss.button, sty.buttonUserOrderReview)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.buttonUserOrderReview
+            )}
             title={"Click to edit this listing"}
           >
             <IconPrimary

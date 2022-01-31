@@ -33,11 +33,17 @@ function PlasmicFooterLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_light]: hasVariant(variants, "color", "light")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -47,19 +53,14 @@ function PlasmicFooterLink__RenderFunc(props) {
         defaultContents: "link",
         value: args.slot,
         className: classNames(sty.slotTargetSlot, {
-          [sty.slotTargetSlot__color_brand]: hasVariant(
+          [sty.slotTargetSlotcolor_brand]: hasVariant(
             variants,
             "color",
             "brand"
           ),
 
-          [sty.slotTargetSlot__color_dark]: hasVariant(
-            variants,
-            "color",
-            "dark"
-          ),
-
-          [sty.slotTargetSlot__color_light]: hasVariant(
+          [sty.slotTargetSlotcolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.slotTargetSlotcolor_light]: hasVariant(
             variants,
             "color",
             "light"

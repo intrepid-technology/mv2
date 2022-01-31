@@ -15,9 +15,9 @@
   flex-shrink: 0;
 }
 .sectionTeamManageMembersHeader {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   align-self: flex-start;
@@ -28,8 +28,8 @@
 }
 .sectionTeamManageMembersHeader > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -67,9 +67,9 @@
   font-weight: 700;
 }
 .sectionTeamInviteMembers {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   left: auto;
@@ -79,8 +79,8 @@
 }
 .sectionTeamInviteMembers > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -154,16 +154,16 @@
   }
 }
 .cardTeamInviteMembers {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
 }
 .cardTeamInviteMembers > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -221,9 +221,9 @@
   display: block;
 }
 .tableAddTeamMember {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: auto;
@@ -234,8 +234,8 @@
 }
 .tableAddTeamMember > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -261,16 +261,16 @@
   }
 }
 .inviteMemberHeader {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
 }
 .inviteMemberHeader > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: unset;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -341,16 +341,16 @@
   font-weight: 600;
 }
 .inviteMemberRecord {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
 }
 .inviteMemberRecord > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: unset;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -463,9 +463,9 @@
   display: block;
 }
 .sectionTeamManageMembers {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -475,8 +475,8 @@
 }
 .sectionTeamManageMembers > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   min-width: 0;
   margin-top: calc(0px - 32px);
@@ -501,15 +501,15 @@
   }
 }
 .cardTeamManageMembers {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: auto;
   height: auto;
 }
 .cardTeamManageMembers > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   align-content: unset;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
@@ -549,9 +549,9 @@
   max-width: 328px;
 }
 .tableTeamMemberEditParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -562,8 +562,8 @@
 }
 .tableTeamMemberEditParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -592,9 +592,9 @@
   }
 }
 .searchFilterDateParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -602,9 +602,9 @@
 }
 .searchFilterDateParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: unset;
-  justify-content: flex-start;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: unset;
   align-content: flex-end;
   margin-left: calc(0px - 32px);
   width: calc(100% + 32px);
@@ -674,9 +674,9 @@
   }
 }
 .tableSelectColumnParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -687,8 +687,8 @@
 }
 .tableSelectColumnParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 2px);
   height: calc(100% + 2px);

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 360px;
   height: 100%;
   position: relative;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: flex-start;
   min-height: 0;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
@@ -23,13 +23,13 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 4px;
 }
-.root__global_layout_isSellerView {
+.rootglobal_layout_isSellerView {
   padding-top: 32px;
 }
 .navigation {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   width: 100%;
@@ -39,8 +39,8 @@
 }
 .navigation > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   min-height: 0;
   margin-top: calc(0px - 16px);
@@ -57,16 +57,16 @@
   margin-top: 16px;
 }
 .headerPanelMainPartner {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .headerPanelMainPartner > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: space-evenly;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);

@@ -27,7 +27,7 @@
     min-width: 0;
   }
 }
-.root__persona_partner {
+.rootpersona_partner {
   width: 100%;
   padding-left: 0px;
   height: auto;
@@ -64,31 +64,31 @@
     padding: 32px 16px;
   }
 }
-.heroTextImageDiv__persona_member {
+.heroTextImageDivpersona_member {
   padding-left: 180px;
   padding-bottom: 64px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .heroTextImageDiv__persona_member {
+  .heroTextImageDivpersona_member {
     padding-top: 64px;
     padding-bottom: 64px;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .heroTextImageDiv__persona_member {
+  .heroTextImageDivpersona_member {
     padding-right: 16px;
     padding-left: 16px;
     padding-bottom: 32px;
   }
 }
-.heroTextImageDiv__persona_partner {
+.heroTextImageDivpersona_partner {
   padding-left: 0px;
   height: 100%;
   padding-bottom: 64px;
   min-height: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .heroTextImageDiv__persona_partner {
+  .heroTextImageDivpersona_partner {
     padding-left: 180px;
     padding-bottom: 64px;
     padding-top: 64px;
@@ -98,25 +98,25 @@
   margin-left: 0px;
   margin-bottom: 0px;
 }
-.heroWelcomeCta__persona_member:global(.__wab_instance) {
+.heroWelcomeCtapersona_member:global(.__wab_instance) {
   margin: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta__persona_member:global(.__wab_instance) {
+  .heroWelcomeCtapersona_member:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .heroWelcomeCta__persona_member:global(.__wab_instance) {
+  .heroWelcomeCtapersona_member:global(.__wab_instance) {
     margin-left: 0px;
   }
 }
-.heroWelcomeCta__persona_partner:global(.__wab_instance) {
+.heroWelcomeCtapersona_partner:global(.__wab_instance) {
   margin: 0px;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
-  .heroWelcomeCta__persona_partner:global(.__wab_instance) {
+  .heroWelcomeCtapersona_partner:global(.__wab_instance) {
     margin-left: 0px;
     margin-bottom: 0px;
   }

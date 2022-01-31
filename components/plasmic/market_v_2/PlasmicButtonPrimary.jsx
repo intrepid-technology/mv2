@@ -46,337 +46,273 @@ function PlasmicButtonPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.buttonPrimary,
         {
-          [sty.buttonPrimary__color_alert]: hasVariant(
+          [sty.buttonPrimarycolor_alert]: hasVariant(
             variants,
             "color",
             "alert"
           ),
 
-          [sty.buttonPrimary__color_blue]: hasVariant(
-            variants,
-            "color",
-            "blue"
-          ),
-
-          [sty.buttonPrimary__color_caution]: hasVariant(
+          [sty.buttonPrimarycolor_blue]: hasVariant(variants, "color", "blue"),
+          [sty.buttonPrimarycolor_caution]: hasVariant(
             variants,
             "color",
             "caution"
           ),
 
-          [sty.buttonPrimary__color_magenta]: hasVariant(
+          [sty.buttonPrimarycolor_magenta]: hasVariant(
             variants,
             "color",
             "magenta"
           ),
 
-          [sty.buttonPrimary__color_primary]: hasVariant(
+          [sty.buttonPrimarycolor_primary]: hasVariant(
             variants,
             "color",
             "primary"
           ),
 
-          [sty.buttonPrimary__color_primary_width__360]:
+          [sty.buttonPrimarycolor_primary_width__360]:
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_360"),
-          [sty.buttonPrimary__color_secondary]: hasVariant(
+          [sty.buttonPrimarycolor_secondary]: hasVariant(
             variants,
             "color",
             "secondary"
           ),
 
-          [sty.buttonPrimary__color_success]: hasVariant(
+          [sty.buttonPrimarycolor_success]: hasVariant(
             variants,
             "color",
             "success"
           ),
 
-          [sty.buttonPrimary__color_warning]: hasVariant(
+          [sty.buttonPrimarycolor_warning]: hasVariant(
             variants,
             "color",
             "warning"
           ),
 
-          [sty.buttonPrimary__height__32]: hasVariant(
-            variants,
-            "height",
-            "_32"
-          ),
-
-          [sty.buttonPrimary__height__36]: hasVariant(
-            variants,
-            "height",
-            "_36"
-          ),
-
-          [sty.buttonPrimary__height__40]: hasVariant(
-            variants,
-            "height",
-            "_40"
-          ),
-
-          [sty.buttonPrimary__height__44]: hasVariant(
-            variants,
-            "height",
-            "_44"
-          ),
-
-          [sty.buttonPrimary__height__48]: hasVariant(
-            variants,
-            "height",
-            "_48"
-          ),
-
-          [sty.buttonPrimary__state_disabled]: hasVariant(
+          [sty.buttonPrimaryheight__32]: hasVariant(variants, "height", "_32"),
+          [sty.buttonPrimaryheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.buttonPrimaryheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.buttonPrimaryheight__44]: hasVariant(variants, "height", "_44"),
+          [sty.buttonPrimaryheight__48]: hasVariant(variants, "height", "_48"),
+          [sty.buttonPrimarystate_disabled]: hasVariant(
             variants,
             "state",
             "disabled"
           ),
 
-          [sty.buttonPrimary__state_error]: hasVariant(
+          [sty.buttonPrimarystate_error]: hasVariant(
             variants,
             "state",
             "error"
           ),
 
-          [sty.buttonPrimary__state_success]: hasVariant(
+          [sty.buttonPrimarystate_success]: hasVariant(
             variants,
             "state",
             "success"
           ),
 
-          [sty.buttonPrimary__state_success_type_ghost]:
+          [sty.buttonPrimarystate_success_type_ghost]:
             hasVariant(variants, "state", "success") &&
             hasVariant(variants, "type", "ghost"),
-          [sty.buttonPrimary__state_warning]: hasVariant(
+          [sty.buttonPrimarystate_warning]: hasVariant(
             variants,
             "state",
             "warning"
           ),
 
-          [sty.buttonPrimary__type_dark]: hasVariant(variants, "type", "dark"),
-          [sty.buttonPrimary__type_ghost]: hasVariant(
-            variants,
-            "type",
-            "ghost"
-          ),
-
-          [sty.buttonPrimary__type_ghost_color_alert]:
+          [sty.buttonPrimarytype_dark]: hasVariant(variants, "type", "dark"),
+          [sty.buttonPrimarytype_ghost]: hasVariant(variants, "type", "ghost"),
+          [sty.buttonPrimarytype_ghost_color_alert]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "alert"),
-          [sty.buttonPrimary__type_ghost_color_blue]:
+          [sty.buttonPrimarytype_ghost_color_blue]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "blue"),
-          [sty.buttonPrimary__type_ghost_color_caution]:
+          [sty.buttonPrimarytype_ghost_color_caution]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "caution"),
-          [sty.buttonPrimary__type_ghost_color_magenta]:
+          [sty.buttonPrimarytype_ghost_color_magenta]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.buttonPrimary__type_ghost_color_primary]:
+          [sty.buttonPrimarytype_ghost_color_primary]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_ghost_color_success]:
+          [sty.buttonPrimarytype_ghost_color_success]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "success"),
-          [sty.buttonPrimary__type_ghost_color_warning]:
+          [sty.buttonPrimarytype_ghost_color_warning]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "warning"),
-          [sty.buttonPrimary__type_ghost_state_error]:
+          [sty.buttonPrimarytype_ghost_state_error]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "state", "error"),
-          [sty.buttonPrimary__type_ghost_state_warning]:
+          [sty.buttonPrimarytype_ghost_state_warning]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "state", "warning"),
-          [sty.buttonPrimary__type_iconPrefix]: hasVariant(
+          [sty.buttonPrimarytype_iconPrefix]: hasVariant(
             variants,
             "type",
             "iconPrefix"
           ),
 
-          [sty.buttonPrimary__type_iconPrefix_color_secondary]:
+          [sty.buttonPrimarytype_iconPrefix_color_secondary]:
             hasVariant(variants, "type", "iconPrefix") &&
             hasVariant(variants, "color", "secondary"),
-          [sty.buttonPrimary__type_iconSuffix]: hasVariant(
+          [sty.buttonPrimarytype_iconSuffix]: hasVariant(
             variants,
             "type",
             "iconSuffix"
           ),
 
-          [sty.buttonPrimary__type_light]: hasVariant(
-            variants,
-            "type",
-            "light"
-          ),
-
-          [sty.buttonPrimary__type_light_color_alert]:
+          [sty.buttonPrimarytype_light]: hasVariant(variants, "type", "light"),
+          [sty.buttonPrimarytype_light_color_alert]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "alert"),
-          [sty.buttonPrimary__type_light_color_blue]:
+          [sty.buttonPrimarytype_light_color_blue]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "blue"),
-          [sty.buttonPrimary__type_light_color_caution]:
+          [sty.buttonPrimarytype_light_color_caution]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "caution"),
-          [sty.buttonPrimary__type_light_color_magenta]:
+          [sty.buttonPrimarytype_light_color_magenta]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.buttonPrimary__type_light_color_primary]:
+          [sty.buttonPrimarytype_light_color_primary]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_light_color_success]:
+          [sty.buttonPrimarytype_light_color_success]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "success"),
-          [sty.buttonPrimary__type_light_color_warning]:
+          [sty.buttonPrimarytype_light_color_warning]:
             hasVariant(variants, "type", "light") &&
             hasVariant(variants, "color", "warning"),
-          [sty.buttonPrimary__type_link]: hasVariant(variants, "type", "link"),
-          [sty.buttonPrimary__type_link_color_alert]:
+          [sty.buttonPrimarytype_link]: hasVariant(variants, "type", "link"),
+          [sty.buttonPrimarytype_link_color_alert]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "alert"),
-          [sty.buttonPrimary__type_link_color_blue]:
+          [sty.buttonPrimarytype_link_color_blue]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "blue"),
-          [sty.buttonPrimary__type_link_color_caution]:
+          [sty.buttonPrimarytype_link_color_caution]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "caution"),
-          [sty.buttonPrimary__type_link_color_magenta]:
+          [sty.buttonPrimarytype_link_color_magenta]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.buttonPrimary__type_link_color_primary]:
+          [sty.buttonPrimarytype_link_color_primary]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_link_color_success]:
+          [sty.buttonPrimarytype_link_color_success]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "success"),
-          [sty.buttonPrimary__type_link_color_warning]:
+          [sty.buttonPrimarytype_link_color_warning]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "color", "warning"),
-          [sty.buttonPrimary__type_link_state_error]:
+          [sty.buttonPrimarytype_link_state_error]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "state", "error"),
-          [sty.buttonPrimary__type_link_state_success]:
+          [sty.buttonPrimarytype_link_state_success]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "state", "success"),
-          [sty.buttonPrimary__type_link_state_warning]:
+          [sty.buttonPrimarytype_link_state_warning]:
             hasVariant(variants, "type", "link") &&
             hasVariant(variants, "state", "warning"),
-          [sty.buttonPrimary__type_outline]: hasVariant(
+          [sty.buttonPrimarytype_outline]: hasVariant(
             variants,
             "type",
             "outline"
           ),
 
-          [sty.buttonPrimary__type_outline_color_primary]:
+          [sty.buttonPrimarytype_outline_color_primary]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_outline_color_success]:
+          [sty.buttonPrimarytype_outline_color_success]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "success"),
-          [sty.buttonPrimary__type_outline_color_warning]:
+          [sty.buttonPrimarytype_outline_color_warning]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "warning"),
-          [sty.buttonPrimary__type_primary]: hasVariant(
+          [sty.buttonPrimarytype_primary]: hasVariant(
             variants,
             "type",
             "primary"
           ),
 
-          [sty.buttonPrimary__type_primary_color_primary]:
+          [sty.buttonPrimarytype_primary_color_primary]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_primary_color_primary_width__120]:
+          [sty.buttonPrimarytype_primary_color_primary_width__120]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_120"),
-          [sty.buttonPrimary__type_primary_color_primary_width__140]:
+          [sty.buttonPrimarytype_primary_color_primary_width__140]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_140"),
-          [sty.buttonPrimary__type_primary_color_primary_width__180]:
+          [sty.buttonPrimarytype_primary_color_primary_width__180]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_180"),
-          [sty.buttonPrimary__type_primary_color_primary_width__360]:
+          [sty.buttonPrimarytype_primary_color_primary_width__360]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_360"),
-          [sty.buttonPrimary__type_primary_color_primary_width__90]:
+          [sty.buttonPrimarytype_primary_color_primary_width__90]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary") &&
             hasVariant(variants, "width", "_90"),
-          [sty.buttonPrimary__type_primary_state_disabled]:
+          [sty.buttonPrimarytype_primary_state_disabled]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "state", "disabled"),
-          [sty.buttonPrimary__type_secondary]: hasVariant(
+          [sty.buttonPrimarytype_secondary]: hasVariant(
             variants,
             "type",
             "secondary"
           ),
 
-          [sty.buttonPrimary__type_secondary_color_alert]:
+          [sty.buttonPrimarytype_secondary_color_alert]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "alert"),
-          [sty.buttonPrimary__type_secondary_color_blue]:
+          [sty.buttonPrimarytype_secondary_color_blue]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "blue"),
-          [sty.buttonPrimary__type_secondary_color_caution]:
+          [sty.buttonPrimarytype_secondary_color_caution]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "caution"),
-          [sty.buttonPrimary__type_secondary_color_magenta]:
+          [sty.buttonPrimarytype_secondary_color_magenta]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.buttonPrimary__type_secondary_color_primary]:
+          [sty.buttonPrimarytype_secondary_color_primary]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "primary"),
-          [sty.buttonPrimary__type_secondary_color_success]:
+          [sty.buttonPrimarytype_secondary_color_success]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "success"),
-          [sty.buttonPrimary__type_secondary_color_warning]:
+          [sty.buttonPrimarytype_secondary_color_warning]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "color", "warning"),
-          [sty.buttonPrimary__width__120]: hasVariant(
-            variants,
-            "width",
-            "_120"
-          ),
-
-          [sty.buttonPrimary__width__140]: hasVariant(
-            variants,
-            "width",
-            "_140"
-          ),
-
-          [sty.buttonPrimary__width__180]: hasVariant(
-            variants,
-            "width",
-            "_180"
-          ),
-
-          [sty.buttonPrimary__width__270]: hasVariant(
-            variants,
-            "width",
-            "_270"
-          ),
-
-          [sty.buttonPrimary__width__360]: hasVariant(
-            variants,
-            "width",
-            "_360"
-          ),
-
-          [sty.buttonPrimary__width__90]: hasVariant(variants, "width", "_90"),
-          [sty.buttonPrimary__width__90_type_iconPrefix]:
+          [sty.buttonPrimarywidth__120]: hasVariant(variants, "width", "_120"),
+          [sty.buttonPrimarywidth__140]: hasVariant(variants, "width", "_140"),
+          [sty.buttonPrimarywidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.buttonPrimarywidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.buttonPrimarywidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.buttonPrimarywidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.buttonPrimarywidth__90_type_iconPrefix]:
             hasVariant(variants, "width", "_90") &&
             hasVariant(variants, "type", "iconPrefix"),
-          [sty.buttonPrimary__width__90_type_iconSuffix]:
+          [sty.buttonPrimarywidth__90_type_iconSuffix]:
             hasVariant(variants, "width", "_90") &&
             hasVariant(variants, "type", "iconSuffix"),
-          [sty.buttonPrimary__width_stretch]: hasVariant(
+          [sty.buttonPrimarywidth_stretch]: hasVariant(
             variants,
             "width",
             "stretch"
@@ -392,176 +328,167 @@ function PlasmicButtonPrimary__RenderFunc(props) {
           data-plasmic-override={overrides.iconTextParent}
           hasGap={true}
           className={classNames(projectcss.all, sty.iconTextParent, {
-            [sty.iconTextParent__color_blue]: hasVariant(
+            [sty.iconTextParentcolor_blue]: hasVariant(
               variants,
               "color",
               "blue"
             ),
 
-            [sty.iconTextParent__color_primary]: hasVariant(
+            [sty.iconTextParentcolor_primary]: hasVariant(
               variants,
               "color",
               "primary"
             ),
 
-            [sty.iconTextParent__color_success]: hasVariant(
+            [sty.iconTextParentcolor_success]: hasVariant(
               variants,
               "color",
               "success"
             ),
 
-            [sty.iconTextParent__state_error]: hasVariant(
+            [sty.iconTextParentstate_error]: hasVariant(
               variants,
               "state",
               "error"
             ),
 
-            [sty.iconTextParent__state_success]: hasVariant(
+            [sty.iconTextParentstate_success]: hasVariant(
               variants,
               "state",
               "success"
             ),
 
-            [sty.iconTextParent__type_ghost]: hasVariant(
+            [sty.iconTextParenttype_ghost]: hasVariant(
               variants,
               "type",
               "ghost"
             ),
 
-            [sty.iconTextParent__type_ghost_color_alert]:
+            [sty.iconTextParenttype_ghost_color_alert]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "alert"),
-            [sty.iconTextParent__type_ghost_color_blue]:
+            [sty.iconTextParenttype_ghost_color_blue]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "blue"),
-            [sty.iconTextParent__type_ghost_color_caution]:
+            [sty.iconTextParenttype_ghost_color_caution]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "caution"),
-            [sty.iconTextParent__type_ghost_color_magenta]:
+            [sty.iconTextParenttype_ghost_color_magenta]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "magenta"),
-            [sty.iconTextParent__type_ghost_color_primary]:
+            [sty.iconTextParenttype_ghost_color_primary]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "primary"),
-            [sty.iconTextParent__type_ghost_color_success]:
+            [sty.iconTextParenttype_ghost_color_success]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "success"),
-            [sty.iconTextParent__type_ghost_color_warning]:
+            [sty.iconTextParenttype_ghost_color_warning]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "warning"),
-            [sty.iconTextParent__type_ghost_state_error]:
+            [sty.iconTextParenttype_ghost_state_error]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "state", "error"),
-            [sty.iconTextParent__type_iconPrefix]: hasVariant(
+            [sty.iconTextParenttype_iconPrefix]: hasVariant(
               variants,
               "type",
               "iconPrefix"
             ),
 
-            [sty.iconTextParent__type_iconPrefix_width__120]:
+            [sty.iconTextParenttype_iconPrefix_width__120]:
               hasVariant(variants, "type", "iconPrefix") &&
               hasVariant(variants, "width", "_120"),
-            [sty.iconTextParent__type_iconPrefix_width__140]:
+            [sty.iconTextParenttype_iconPrefix_width__140]:
               hasVariant(variants, "type", "iconPrefix") &&
               hasVariant(variants, "width", "_140"),
-            [sty.iconTextParent__type_iconPrefix_width__270]:
+            [sty.iconTextParenttype_iconPrefix_width__270]:
               hasVariant(variants, "type", "iconPrefix") &&
               hasVariant(variants, "width", "_270"),
-            [sty.iconTextParent__type_iconPrefix_width__360]:
+            [sty.iconTextParenttype_iconPrefix_width__360]:
               hasVariant(variants, "type", "iconPrefix") &&
               hasVariant(variants, "width", "_360"),
-            [sty.iconTextParent__type_iconSuffix]: hasVariant(
+            [sty.iconTextParenttype_iconSuffix]: hasVariant(
               variants,
               "type",
               "iconSuffix"
             ),
 
-            [sty.iconTextParent__type_iconSuffix_width__120]:
+            [sty.iconTextParenttype_iconSuffix_width__120]:
               hasVariant(variants, "type", "iconSuffix") &&
               hasVariant(variants, "width", "_120"),
-            [sty.iconTextParent__type_iconSuffix_width__140]:
+            [sty.iconTextParenttype_iconSuffix_width__140]:
               hasVariant(variants, "type", "iconSuffix") &&
               hasVariant(variants, "width", "_140"),
-            [sty.iconTextParent__type_iconSuffix_width__270]:
+            [sty.iconTextParenttype_iconSuffix_width__270]:
               hasVariant(variants, "type", "iconSuffix") &&
               hasVariant(variants, "width", "_270"),
-            [sty.iconTextParent__type_iconSuffix_width__360]:
+            [sty.iconTextParenttype_iconSuffix_width__360]:
               hasVariant(variants, "type", "iconSuffix") &&
               hasVariant(variants, "width", "_360"),
-            [sty.iconTextParent__type_light]: hasVariant(
+            [sty.iconTextParenttype_light]: hasVariant(
               variants,
               "type",
               "light"
             ),
 
-            [sty.iconTextParent__type_light_color_primary]:
+            [sty.iconTextParenttype_light_color_primary]:
               hasVariant(variants, "type", "light") &&
               hasVariant(variants, "color", "primary"),
-            [sty.iconTextParent__type_light_color_success]:
+            [sty.iconTextParenttype_light_color_success]:
               hasVariant(variants, "type", "light") &&
               hasVariant(variants, "color", "success"),
-            [sty.iconTextParent__type_link]: hasVariant(
-              variants,
-              "type",
-              "link"
-            ),
-
-            [sty.iconTextParent__type_link_color_warning]:
+            [sty.iconTextParenttype_link]: hasVariant(variants, "type", "link"),
+            [sty.iconTextParenttype_link_color_warning]:
               hasVariant(variants, "type", "link") &&
               hasVariant(variants, "color", "warning"),
-            [sty.iconTextParent__type_outline]: hasVariant(
+            [sty.iconTextParenttype_outline]: hasVariant(
               variants,
               "type",
               "outline"
             ),
 
-            [sty.iconTextParent__type_outline_color_primary]:
+            [sty.iconTextParenttype_outline_color_primary]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "primary"),
-            [sty.iconTextParent__type_outline_color_warning]:
+            [sty.iconTextParenttype_outline_color_warning]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "warning"),
-            [sty.iconTextParent__type_primary]: hasVariant(
+            [sty.iconTextParenttype_primary]: hasVariant(
               variants,
               "type",
               "primary"
             ),
 
-            [sty.iconTextParent__width__120]: hasVariant(
+            [sty.iconTextParentwidth__120]: hasVariant(
               variants,
               "width",
               "_120"
             ),
 
-            [sty.iconTextParent__width__140]: hasVariant(
+            [sty.iconTextParentwidth__140]: hasVariant(
               variants,
               "width",
               "_140"
             ),
 
-            [sty.iconTextParent__width__180]: hasVariant(
+            [sty.iconTextParentwidth__180]: hasVariant(
               variants,
               "width",
               "_180"
             ),
 
-            [sty.iconTextParent__width__180_type_iconPrefix]:
+            [sty.iconTextParentwidth__180_type_iconPrefix]:
               hasVariant(variants, "width", "_180") &&
               hasVariant(variants, "type", "iconPrefix"),
-            [sty.iconTextParent__width__180_type_iconSuffix]:
+            [sty.iconTextParentwidth__180_type_iconSuffix]:
               hasVariant(variants, "width", "_180") &&
               hasVariant(variants, "type", "iconSuffix"),
-            [sty.iconTextParent__width__360]: hasVariant(
+            [sty.iconTextParentwidth__360]: hasVariant(
               variants,
               "width",
               "_360"
             ),
 
-            [sty.iconTextParent__width__90]: hasVariant(
-              variants,
-              "width",
-              "_90"
-            )
+            [sty.iconTextParentwidth__90]: hasVariant(variants, "width", "_90")
           })}
         >
           {(
@@ -575,28 +502,28 @@ function PlasmicButtonPrimary__RenderFunc(props) {
               data-plasmic-name={"iconParentPrefix"}
               data-plasmic-override={overrides.iconParentPrefix}
               className={classNames(projectcss.all, sty.iconParentPrefix, {
-                [sty.iconParentPrefix__type_iconPrefix]: hasVariant(
+                [sty.iconParentPrefixtype_iconPrefix]: hasVariant(
                   variants,
                   "type",
                   "iconPrefix"
                 ),
 
-                [sty.iconParentPrefix__type_iconSuffix]: hasVariant(
+                [sty.iconParentPrefixtype_iconSuffix]: hasVariant(
                   variants,
                   "type",
                   "iconSuffix"
                 ),
 
-                [sty.iconParentPrefix__width__180]: hasVariant(
+                [sty.iconParentPrefixwidth__180]: hasVariant(
                   variants,
                   "width",
                   "_180"
                 ),
 
-                [sty.iconParentPrefix__width__180_type_iconPrefix]:
+                [sty.iconParentPrefixwidth__180_type_iconPrefix]:
                   hasVariant(variants, "width", "_180") &&
                   hasVariant(variants, "type", "iconPrefix"),
-                [sty.iconParentPrefix__width__180_type_iconSuffix]:
+                [sty.iconParentPrefixwidth__180_type_iconSuffix]:
                   hasVariant(variants, "width", "_180") &&
                   hasVariant(variants, "type", "iconSuffix")
               })}
@@ -617,20 +544,28 @@ function PlasmicButtonPrimary__RenderFunc(props) {
                     ) : null,
                     value: args.svgIconPrefix,
                     className: classNames(sty.slotTargetSvgIconPrefix, {
-                      [sty.slotTargetSvgIconPrefix__type_iconPrefix]:
-                        hasVariant(variants, "type", "iconPrefix"),
-                      [sty.slotTargetSvgIconPrefix__type_iconPrefix_color_secondary]:
+                      [sty.slotTargetSvgIconPrefixtype_iconPrefix]: hasVariant(
+                        variants,
+                        "type",
+                        "iconPrefix"
+                      ),
+
+                      [sty.slotTargetSvgIconPrefixtype_iconPrefix_color_secondary]:
                         hasVariant(variants, "type", "iconPrefix") &&
                         hasVariant(variants, "color", "secondary"),
-                      [sty.slotTargetSvgIconPrefix__type_iconSuffix]:
-                        hasVariant(variants, "type", "iconSuffix"),
-                      [sty.slotTargetSvgIconPrefix__type_primary]: hasVariant(
+                      [sty.slotTargetSvgIconPrefixtype_iconSuffix]: hasVariant(
+                        variants,
+                        "type",
+                        "iconSuffix"
+                      ),
+
+                      [sty.slotTargetSvgIconPrefixtype_primary]: hasVariant(
                         variants,
                         "type",
                         "primary"
                       ),
 
-                      [sty.slotTargetSvgIconPrefix__type_secondary]: hasVariant(
+                      [sty.slotTargetSvgIconPrefixtype_secondary]: hasVariant(
                         variants,
                         "type",
                         "secondary"
@@ -644,250 +579,250 @@ function PlasmicButtonPrimary__RenderFunc(props) {
             defaultContents: "Button",
             value: args.children,
             className: classNames(sty.slotTargetChildren, {
-              [sty.slotTargetChildren__color_primary]: hasVariant(
+              [sty.slotTargetChildrencolor_primary]: hasVariant(
                 variants,
                 "color",
                 "primary"
               ),
 
-              [sty.slotTargetChildren__color_primary_width__140]:
+              [sty.slotTargetChildrencolor_primary_width__140]:
                 hasVariant(variants, "color", "primary") &&
                 hasVariant(variants, "width", "_140"),
-              [sty.slotTargetChildren__color_secondary]: hasVariant(
+              [sty.slotTargetChildrencolor_secondary]: hasVariant(
                 variants,
                 "color",
                 "secondary"
               ),
 
-              [sty.slotTargetChildren__state_disabled]: hasVariant(
+              [sty.slotTargetChildrenstate_disabled]: hasVariant(
                 variants,
                 "state",
                 "disabled"
               ),
 
-              [sty.slotTargetChildren__state_success_type_ghost]:
+              [sty.slotTargetChildrenstate_success_type_ghost]:
                 hasVariant(variants, "state", "success") &&
                 hasVariant(variants, "type", "ghost"),
-              [sty.slotTargetChildren__type_dark]: hasVariant(
+              [sty.slotTargetChildrentype_dark]: hasVariant(
                 variants,
                 "type",
                 "dark"
               ),
 
-              [sty.slotTargetChildren__type_ghost]: hasVariant(
+              [sty.slotTargetChildrentype_ghost]: hasVariant(
                 variants,
                 "type",
                 "ghost"
               ),
 
-              [sty.slotTargetChildren__type_ghost_color_alert]:
+              [sty.slotTargetChildrentype_ghost_color_alert]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotTargetChildren__type_ghost_color_blue]:
+              [sty.slotTargetChildrentype_ghost_color_blue]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetChildren__type_ghost_color_caution]:
+              [sty.slotTargetChildrentype_ghost_color_caution]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotTargetChildren__type_ghost_color_magenta]:
+              [sty.slotTargetChildrentype_ghost_color_magenta]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetChildren__type_ghost_color_primary]:
+              [sty.slotTargetChildrentype_ghost_color_primary]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_ghost_color_success]:
+              [sty.slotTargetChildrentype_ghost_color_success]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotTargetChildren__type_ghost_color_warning]:
+              [sty.slotTargetChildrentype_ghost_color_warning]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotTargetChildren__type_ghost_state_error]:
+              [sty.slotTargetChildrentype_ghost_state_error]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "state", "error"),
-              [sty.slotTargetChildren__type_ghost_state_warning]:
+              [sty.slotTargetChildrentype_ghost_state_warning]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "state", "warning"),
-              [sty.slotTargetChildren__type_iconPrefix]: hasVariant(
+              [sty.slotTargetChildrentype_iconPrefix]: hasVariant(
                 variants,
                 "type",
                 "iconPrefix"
               ),
 
-              [sty.slotTargetChildren__type_iconPrefix_color_secondary]:
+              [sty.slotTargetChildrentype_iconPrefix_color_secondary]:
                 hasVariant(variants, "type", "iconPrefix") &&
                 hasVariant(variants, "color", "secondary"),
-              [sty.slotTargetChildren__type_iconPrefix_width__120]:
+              [sty.slotTargetChildrentype_iconPrefix_width__120]:
                 hasVariant(variants, "type", "iconPrefix") &&
                 hasVariant(variants, "width", "_120"),
-              [sty.slotTargetChildren__type_iconPrefix_width__90]:
+              [sty.slotTargetChildrentype_iconPrefix_width__90]:
                 hasVariant(variants, "type", "iconPrefix") &&
                 hasVariant(variants, "width", "_90"),
-              [sty.slotTargetChildren__type_iconSuffix]: hasVariant(
+              [sty.slotTargetChildrentype_iconSuffix]: hasVariant(
                 variants,
                 "type",
                 "iconSuffix"
               ),
 
-              [sty.slotTargetChildren__type_iconSuffix_width__120]:
+              [sty.slotTargetChildrentype_iconSuffix_width__120]:
                 hasVariant(variants, "type", "iconSuffix") &&
                 hasVariant(variants, "width", "_120"),
-              [sty.slotTargetChildren__type_iconSuffix_width__90]:
+              [sty.slotTargetChildrentype_iconSuffix_width__90]:
                 hasVariant(variants, "type", "iconSuffix") &&
                 hasVariant(variants, "width", "_90"),
-              [sty.slotTargetChildren__type_light]: hasVariant(
+              [sty.slotTargetChildrentype_light]: hasVariant(
                 variants,
                 "type",
                 "light"
               ),
 
-              [sty.slotTargetChildren__type_light_color_alert]:
+              [sty.slotTargetChildrentype_light_color_alert]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotTargetChildren__type_light_color_blue]:
+              [sty.slotTargetChildrentype_light_color_blue]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetChildren__type_light_color_caution]:
+              [sty.slotTargetChildrentype_light_color_caution]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotTargetChildren__type_light_color_magenta]:
+              [sty.slotTargetChildrentype_light_color_magenta]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetChildren__type_light_color_primary]:
+              [sty.slotTargetChildrentype_light_color_primary]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_light_color_success]:
+              [sty.slotTargetChildrentype_light_color_success]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotTargetChildren__type_light_color_warning]:
+              [sty.slotTargetChildrentype_light_color_warning]:
                 hasVariant(variants, "type", "light") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotTargetChildren__type_link]: hasVariant(
+              [sty.slotTargetChildrentype_link]: hasVariant(
                 variants,
                 "type",
                 "link"
               ),
 
-              [sty.slotTargetChildren__type_link_color_alert]:
+              [sty.slotTargetChildrentype_link_color_alert]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotTargetChildren__type_link_color_blue]:
+              [sty.slotTargetChildrentype_link_color_blue]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetChildren__type_link_color_caution]:
+              [sty.slotTargetChildrentype_link_color_caution]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotTargetChildren__type_link_color_magenta]:
+              [sty.slotTargetChildrentype_link_color_magenta]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetChildren__type_link_color_primary]:
+              [sty.slotTargetChildrentype_link_color_primary]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_link_color_success]:
+              [sty.slotTargetChildrentype_link_color_success]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotTargetChildren__type_link_color_warning]:
+              [sty.slotTargetChildrentype_link_color_warning]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotTargetChildren__type_link_state_error]:
+              [sty.slotTargetChildrentype_link_state_error]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "error"),
-              [sty.slotTargetChildren__type_link_state_success]:
+              [sty.slotTargetChildrentype_link_state_success]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "success"),
-              [sty.slotTargetChildren__type_link_state_warning]:
+              [sty.slotTargetChildrentype_link_state_warning]:
                 hasVariant(variants, "type", "link") &&
                 hasVariant(variants, "state", "warning"),
-              [sty.slotTargetChildren__type_outline]: hasVariant(
+              [sty.slotTargetChildrentype_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
               ),
 
-              [sty.slotTargetChildren__type_outline_color_alert]:
+              [sty.slotTargetChildrentype_outline_color_alert]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotTargetChildren__type_outline_color_blue]:
+              [sty.slotTargetChildrentype_outline_color_blue]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetChildren__type_outline_color_caution]:
+              [sty.slotTargetChildrentype_outline_color_caution]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotTargetChildren__type_outline_color_magenta]:
+              [sty.slotTargetChildrentype_outline_color_magenta]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetChildren__type_outline_color_primary]:
+              [sty.slotTargetChildrentype_outline_color_primary]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_outline_color_success]:
+              [sty.slotTargetChildrentype_outline_color_success]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotTargetChildren__type_outline_color_warning]:
+              [sty.slotTargetChildrentype_outline_color_warning]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotTargetChildren__type_primary]: hasVariant(
+              [sty.slotTargetChildrentype_primary]: hasVariant(
                 variants,
                 "type",
                 "primary"
               ),
 
-              [sty.slotTargetChildren__type_primary_color_primary]:
+              [sty.slotTargetChildrentype_primary_color_primary]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_primary_state_disabled]:
+              [sty.slotTargetChildrentype_primary_state_disabled]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "state", "disabled"),
-              [sty.slotTargetChildren__type_secondary]: hasVariant(
+              [sty.slotTargetChildrentype_secondary]: hasVariant(
                 variants,
                 "type",
                 "secondary"
               ),
 
-              [sty.slotTargetChildren__type_secondary_color_alert]:
+              [sty.slotTargetChildrentype_secondary_color_alert]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "alert"),
-              [sty.slotTargetChildren__type_secondary_color_blue]:
+              [sty.slotTargetChildrentype_secondary_color_blue]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetChildren__type_secondary_color_caution]:
+              [sty.slotTargetChildrentype_secondary_color_caution]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "caution"),
-              [sty.slotTargetChildren__type_secondary_color_magenta]:
+              [sty.slotTargetChildrentype_secondary_color_magenta]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetChildren__type_secondary_color_primary]:
+              [sty.slotTargetChildrentype_secondary_color_primary]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "primary"),
-              [sty.slotTargetChildren__type_secondary_color_success]:
+              [sty.slotTargetChildrentype_secondary_color_success]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "success"),
-              [sty.slotTargetChildren__type_secondary_color_warning]:
+              [sty.slotTargetChildrentype_secondary_color_warning]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "color", "warning"),
-              [sty.slotTargetChildren__width__120]: hasVariant(
+              [sty.slotTargetChildrenwidth__120]: hasVariant(
                 variants,
                 "width",
                 "_120"
               ),
 
-              [sty.slotTargetChildren__width__140]: hasVariant(
+              [sty.slotTargetChildrenwidth__140]: hasVariant(
                 variants,
                 "width",
                 "_140"
               ),
 
-              [sty.slotTargetChildren__width__270]: hasVariant(
+              [sty.slotTargetChildrenwidth__270]: hasVariant(
                 variants,
                 "width",
                 "_270"
               ),
 
-              [sty.slotTargetChildren__width__360]: hasVariant(
+              [sty.slotTargetChildrenwidth__360]: hasVariant(
                 variants,
                 "width",
                 "_360"
               ),
 
-              [sty.slotTargetChildren__width__90]: hasVariant(
+              [sty.slotTargetChildrenwidth__90]: hasVariant(
                 variants,
                 "width",
                 "_90"
@@ -906,28 +841,28 @@ function PlasmicButtonPrimary__RenderFunc(props) {
               data-plasmic-name={"iconParentSuffix"}
               data-plasmic-override={overrides.iconParentSuffix}
               className={classNames(projectcss.all, sty.iconParentSuffix, {
-                [sty.iconParentSuffix__type_iconPrefix]: hasVariant(
+                [sty.iconParentSuffixtype_iconPrefix]: hasVariant(
                   variants,
                   "type",
                   "iconPrefix"
                 ),
 
-                [sty.iconParentSuffix__type_iconSuffix]: hasVariant(
+                [sty.iconParentSuffixtype_iconSuffix]: hasVariant(
                   variants,
                   "type",
                   "iconSuffix"
                 ),
 
-                [sty.iconParentSuffix__width__180]: hasVariant(
+                [sty.iconParentSuffixwidth__180]: hasVariant(
                   variants,
                   "width",
                   "_180"
                 ),
 
-                [sty.iconParentSuffix__width__180_type_iconPrefix]:
+                [sty.iconParentSuffixwidth__180_type_iconPrefix]:
                   hasVariant(variants, "width", "_180") &&
                   hasVariant(variants, "type", "iconPrefix"),
-                [sty.iconParentSuffix__width__180_type_iconSuffix]:
+                [sty.iconParentSuffixwidth__180_type_iconSuffix]:
                   hasVariant(variants, "width", "_180") &&
                   hasVariant(variants, "type", "iconSuffix")
               })}
@@ -948,10 +883,17 @@ function PlasmicButtonPrimary__RenderFunc(props) {
                     ) : null,
                     value: args.svgIconSuffix,
                     className: classNames(sty.slotTargetSvgIconSuffix, {
-                      [sty.slotTargetSvgIconSuffix__type_iconPrefix]:
-                        hasVariant(variants, "type", "iconPrefix"),
-                      [sty.slotTargetSvgIconSuffix__type_iconSuffix]:
-                        hasVariant(variants, "type", "iconSuffix")
+                      [sty.slotTargetSvgIconSuffixtype_iconPrefix]: hasVariant(
+                        variants,
+                        "type",
+                        "iconPrefix"
+                      ),
+
+                      [sty.slotTargetSvgIconSuffixtype_iconSuffix]: hasVariant(
+                        variants,
+                        "type",
+                        "iconSuffix"
+                      )
                     })
                   })
                 : null}

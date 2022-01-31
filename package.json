@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@firebase/storage": "^0.8.4",
-    "@plasmicapp/cli": "^0.1.166",
+    "@plasmicapp/cli": "^0.1.167",
     "@plasmicapp/host": "^1.0.0",
     "@plasmicapp/react-web": "^0.2.87",
     "@plasmicpkgs/antd": "^0.0.8",
+    "@plasmicpkgs/lottie-react": "^0.0.3",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.8",
     "@react-aria/dialog": "^3.1.4",
     "@react-aria/overlays": "^3.7.3",
     "@react-stately/overlays": "^3.1.3",

@@ -43,7 +43,11 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
         <input
           data-plasmic-name={"textInput"}
           data-plasmic-override={overrides.textInput ?? overrides.textbox}
-          className={classNames(projectcss.input, sty.textInput)}
+          className={classNames(
+            projectcss.all,
+            projectcss.input,
+            sty.textInput
+          )}
           placeholder={"Enter your..."}
           size={1}
           type={"text"}
@@ -53,7 +57,7 @@ function PlasmicInputEmailFieldDisplay__RenderFunc(props) {
         <button
           data-plasmic-name={"button"}
           data-plasmic-override={overrides.button}
-          className={classNames(projectcss.button, sty.button)}
+          className={classNames(projectcss.all, projectcss.button, sty.button)}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Click Me",

@@ -75,37 +75,37 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
               data-plasmic-name={"navLink"}
               data-plasmic-override={overrides.navLink}
               className={classNames("__wab_instance", sty.navLink, {
-                [sty.navLink__selected_lists]: hasVariant(
+                [sty.navLinkselected_lists]: hasVariant(
                   variants,
                   "selected",
                   "lists"
                 ),
 
-                [sty.navLink__selected_reacts]: hasVariant(
+                [sty.navLinkselected_reacts]: hasVariant(
                   variants,
                   "selected",
                   "reacts"
                 ),
 
-                [sty.navLink__selected_reviews]: hasVariant(
+                [sty.navLinkselected_reviews]: hasVariant(
                   variants,
                   "selected",
                   "reviews"
                 ),
 
-                [sty.navLink__selected_subscriptions]: hasVariant(
+                [sty.navLinkselected_subscriptions]: hasVariant(
                   variants,
                   "selected",
                   "subscriptions"
                 ),
 
-                [sty.navLink__selected_teams]: hasVariant(
+                [sty.navLinkselected_teams]: hasVariant(
                   variants,
                   "selected",
                   "teams"
                 ),
 
-                [sty.navLink__selected_views]: hasVariant(
+                [sty.navLinkselected_views]: hasVariant(
                   variants,
                   "selected",
                   "views"
@@ -147,7 +147,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__oHamT,
                 {
-                  [sty.navLinkCounter__selected_subscriptions__oHamTujdpy]:
+                  [sty.navLinkCounterselected_subscriptions__oHamTujdpy]:
                     hasVariant(variants, "selected", "subscriptions")
                 }
               )}
@@ -178,7 +178,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__riK08,
                 {
-                  [sty.navLinkCounter__selected_lists__riK08XhjTx]: hasVariant(
+                  [sty.navLinkCounterselected_lists__riK08XhjTx]: hasVariant(
                     variants,
                     "selected",
                     "lists"
@@ -212,7 +212,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__dlrUd,
                 {
-                  [sty.navLinkCounter__selected_teams__dlrUdVokeS]: hasVariant(
+                  [sty.navLinkCounterselected_teams__dlrUdVokeS]: hasVariant(
                     variants,
                     "selected",
                     "teams"
@@ -246,8 +246,11 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__mw6Hn,
                 {
-                  [sty.navLinkCounter__selected_reviews__mw6Hn7FUms]:
-                    hasVariant(variants, "selected", "reviews")
+                  [sty.navLinkCounterselected_reviews__mw6Hn7FUms]: hasVariant(
+                    variants,
+                    "selected",
+                    "reviews"
+                  )
                 }
               )}
               navLabel={
@@ -277,7 +280,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__e2ZcH,
                 {
-                  [sty.navLinkCounter__selected_reacts__e2ZcHTlSa9]: hasVariant(
+                  [sty.navLinkCounterselected_reacts__e2ZcHTlSa9]: hasVariant(
                     variants,
                     "selected",
                     "reacts"
@@ -311,7 +314,7 @@ function PlasmicNavbarMemberUserProfile__RenderFunc(props) {
                 "__wab_instance",
                 sty.navLinkCounter__hXcX2,
                 {
-                  [sty.navLinkCounter__selected_views__hXcX2AKc8]: hasVariant(
+                  [sty.navLinkCounterselected_views__hXcX2AKc8]: hasVariant(
                     variants,
                     "selected",
                     "views"

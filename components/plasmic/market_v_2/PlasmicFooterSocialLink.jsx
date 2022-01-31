@@ -37,11 +37,17 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_dark]: hasVariant(variants, "color", "dark"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_light]: hasVariant(variants, "color", "light")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -62,19 +68,19 @@ function PlasmicFooterSocialLink__RenderFunc(props) {
 
           value: args.children,
           className: classNames(sty.slotTargetChildren, {
-            [sty.slotTargetChildren__color_brand]: hasVariant(
+            [sty.slotTargetChildrencolor_brand]: hasVariant(
               variants,
               "color",
               "brand"
             ),
 
-            [sty.slotTargetChildren__color_dark]: hasVariant(
+            [sty.slotTargetChildrencolor_dark]: hasVariant(
               variants,
               "color",
               "dark"
             ),
 
-            [sty.slotTargetChildren__color_light]: hasVariant(
+            [sty.slotTargetChildrencolor_light]: hasVariant(
               variants,
               "color",
               "light"

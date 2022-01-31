@@ -45,9 +45,9 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent__border]: hasVariant(variants, "border", "border"),
-        [sty.parent__closed]: hasVariant(variants, "closed", "closed"),
-        [sty.parent__visible_google]: hasVariant(variants, "visible", "google")
+        [sty.parentborder]: hasVariant(variants, "border", "border"),
+        [sty.parentclosed]: hasVariant(variants, "closed", "closed"),
+        [sty.parentvisible_google]: hasVariant(variants, "visible", "google")
       })}
     >
       <InputFormCardWebhookConnections
@@ -89,14 +89,17 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             "__wab_instance",
             sty.personalConnectedGoogleAccount,
             {
-              [sty.personalConnectedGoogleAccount__closed]: hasVariant(
+              [sty.personalConnectedGoogleAccountclosed]: hasVariant(
                 variants,
                 "closed",
                 "closed"
               ),
 
-              [sty.personalConnectedGoogleAccount__visible_facebook]:
-                hasVariant(variants, "visible", "facebook")
+              [sty.personalConnectedGoogleAccountvisible_facebook]: hasVariant(
+                variants,
+                "visible",
+                "facebook"
+              )
             }
           )}
           userFirstname={
@@ -137,16 +140,19 @@ function PlasmicSectionConnectedAccounts__RenderFunc(props) {
             "__wab_instance",
             sty.personalConnectedFacebookAccount,
             {
-              [sty.personalConnectedFacebookAccount__closed]: hasVariant(
+              [sty.personalConnectedFacebookAccountclosed]: hasVariant(
                 variants,
                 "closed",
                 "closed"
               ),
 
-              [sty.personalConnectedFacebookAccount__visible_facebook]:
+              [sty.personalConnectedFacebookAccountvisible_facebook]:
                 hasVariant(variants, "visible", "facebook"),
-              [sty.personalConnectedFacebookAccount__visible_google]:
-                hasVariant(variants, "visible", "google")
+              [sty.personalConnectedFacebookAccountvisible_google]: hasVariant(
+                variants,
+                "visible",
+                "google"
+              )
             }
           )}
           userFirstname={

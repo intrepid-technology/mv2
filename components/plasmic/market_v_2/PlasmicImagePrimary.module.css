@@ -7,11 +7,11 @@
   height: auto;
   position: relative;
 }
-.parent__misc_thumbnail70X40 {
+.parentmisc_thumbnail70X40 {
   width: 70px;
   height: 40px;
 }
-.parent__misc__114X64 {
+.parentmisc__114X64 {
   width: auto;
   height: auto;
   display: inline-flex;
@@ -27,16 +27,16 @@
   min-width: 0;
   min-height: 0;
 }
-.imageBg__misc__160 {
+.imageBgmisc__160 {
   width: 270px;
   height: 160px;
   flex-shrink: 0;
 }
-.imageBg__misc__360 {
+.imageBgmisc__360 {
   width: 360px;
   height: auto;
 }
-.imageBg__misc__760 {
+.imageBgmisc__760 {
   width: 720px;
   height: auto;
 }

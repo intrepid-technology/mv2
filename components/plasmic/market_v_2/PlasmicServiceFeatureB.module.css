@@ -11,7 +11,7 @@
   border-width: 1px;
   border-style: none;
 }
-.root__size_small {
+.rootsize_small {
   width: 150px;
   height: 50px;
 }
@@ -28,7 +28,7 @@
   align-self: stretch;
   position: relative;
 }
-.freeBox__size_small__qfYAscBzwQ {
+.freeBoxsize_small__qfYAscBzwQ {
   width: 100%;
   min-width: 0;
 }
@@ -40,7 +40,7 @@
   line-height: 1.2;
   color: #14161b /* plasmic-token: IbTSH9_JJ */;
 }
-.slotTargetChildren__size_small {
+.slotTargetChildrensize_small {
   font-size: 12px;
   font-weight: 500;
 }
@@ -59,7 +59,7 @@
   padding: 0px;
   border: 2px solid #00ccbb /* plasmic-token: p7MYBCVhU */;
 }
-.freeBox__size_small___99RgCBzwQ {
+.freeBoxsize_small___99RgCBzwQ {
   border-width: 2px;
   border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
 }

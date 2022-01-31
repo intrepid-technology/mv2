@@ -52,7 +52,11 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img___6MgzQ)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img___6MgzQ
+                )}
                 src={"/plasmic/market_v_2/images/peopleCreative3Jpg.jpeg"}
               />
             }
@@ -64,7 +68,11 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__wdIxV)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__wdIxV
+                )}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             }
@@ -76,7 +84,11 @@ function PlasmicAvatarGroupIncrement__RenderFunc(props) {
             navUserAvatar18={
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__dqrFq)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__dqrFq
+                )}
                 src={
                   "/plasmic/market_v_2/images/cesarRinconXhVpWcr5GrQUnsplashjpg.jpeg"
                 }

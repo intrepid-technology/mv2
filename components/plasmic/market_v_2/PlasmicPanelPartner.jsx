@@ -46,7 +46,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__global_layout_isSellerView]: hasVariant(
+        [sty.rootglobal_layout_isSellerView]: hasVariant(
           globalVariants,
           "layout",
           "isSellerView"
@@ -71,7 +71,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
             data-plasmic-name={"partnerButtonHeader"}
             data-plasmic-override={overrides.partnerButtonHeader}
             className={classNames("__wab_instance", sty.partnerButtonHeader, {
-              [sty.partnerButtonHeader__global_layout_isSellerView]: hasVariant(
+              [sty.partnerButtonHeaderglobal_layout_isSellerView]: hasVariant(
                 globalVariants,
                 "layout",
                 "isSellerView"
@@ -85,7 +85,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
           data-plasmic-name={"partnerMarket"}
           data-plasmic-override={overrides.partnerMarket}
           className={classNames("__wab_instance", sty.partnerMarket, {
-            [sty.partnerMarket__global_layout_isSellerView]: hasVariant(
+            [sty.partnerMarketglobal_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"
@@ -97,7 +97,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
           data-plasmic-name={"partnerProfile"}
           data-plasmic-override={overrides.partnerProfile}
           className={classNames("__wab_instance", sty.partnerProfile, {
-            [sty.partnerProfile__global_layout_isSellerView]: hasVariant(
+            [sty.partnerProfileglobal_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"
@@ -109,7 +109,7 @@ function PlasmicPanelPartner__RenderFunc(props) {
           data-plasmic-name={"partnerAccount"}
           data-plasmic-override={overrides.partnerAccount}
           className={classNames("__wab_instance", sty.partnerAccount, {
-            [sty.partnerAccount__global_layout_isSellerView]: hasVariant(
+            [sty.partnerAccountglobal_layout_isSellerView]: hasVariant(
               globalVariants,
               "layout",
               "isSellerView"

@@ -849,10 +849,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plasmicapp/cli@^0.1.166":
-  version "0.1.166"
-  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.166.tgz#be7c0a0e68c8d31ab175e0c10689b3bca0a558ab"
-  integrity sha512-pm/9vZtsW2UylGatPfRESKuRhlLpe5SQPiOHDtufHJfHOYmUJrNhuIEtI+IWzuxF118GlZVcY9Ofd52qpgAgxA==
+"@plasmicapp/cli@^0.1.167":
+  version "0.1.167"
+  resolved "https://registry.yarnpkg.com/@plasmicapp/cli/-/cli-0.1.167.tgz#38690f4369041764876122fe1ca62a1c7adef874"
+  integrity sha512-9N2Z8zmI1VFRlr4AKzMdRIY7B1zP72lM2OgI44H3wojECMWt1mcAkdQb/Hzs3bapXeMV4wrqQ0LJEZ3CLbib/A==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/generator" "^7.12.1"
@@ -930,6 +930,18 @@
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/@plasmicpkgs/antd/-/antd-0.0.8.tgz#13bb54d51f6a58f33c6df8db023f3d0081acc70d"
   integrity sha512-+RyGrtpLHmBX71KzOuaSIjYiS3xfzIxNhapmmBrT0lRHNPVQ2mvz+S78yWE8QGUTzRdoy/ar2hap18vXwQXcMA==
+
+"@plasmicpkgs/lottie-react@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/lottie-react/-/lottie-react-0.0.3.tgz#c720cdb65c4507a674a82c531711c500ff08847c"
+  integrity sha512-oUt8rFFvcz+VtmMTMDIJ2Eg+D7W7swulTmTDzWE0NtsIU8CNjigl0DZ8Vz5LGMNb5uUleX8vGZQo+u0uG2f18g==
+  dependencies:
+    lottie-react "^2.1.0"
+
+"@plasmicpkgs/plasmic-basic-components@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@plasmicpkgs/plasmic-basic-components/-/plasmic-basic-components-0.0.8.tgz#aa6a08d0153393a644ee3146e1106107455149a3"
+  integrity sha512-2RaNXlvdnQPap+V225UWui6A8ePHcaDE+LMUq+qDwgQ4b6njSf/8+4w2NvU1HXFVXsOroVhPrXdbAeZjbcVjLQ==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
@@ -4743,6 +4755,18 @@ loose-envify@^1.1.0, loose-envify@^1.4.0:
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
+
+lottie-react@^2.1.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/lottie-react/-/lottie-react-2.2.1.tgz#27fbb85a11000557d7166c36a630fe1e5ce07028"
+  integrity sha512-lAdIUw+zeHLX3gtyLkisa4QM9NkTUUeZTsEL53laBEsjIH4JibgwkioZuza8CtwZ7/cpPZRbCRXWKfiuaDZWww==
+  dependencies:
+    lottie-web "^5.8.1"
+
+lottie-web@^5.8.1:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.8.1.tgz#807e0af0ad22b59bf867d964eb684cb3368da0ef"
+  integrity sha512-9gIizWADlaHC2GCt+D+yNpk5l2clZQFqnVWWIVdY0LnxC/uLa39dYltAe3fcmC/hrZ2IUQ8dLlY0O934Npjs7Q==
 
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"

@@ -39,26 +39,26 @@ function PlasmicBadgeOverline__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__colors_dark]: hasVariant(variants, "colors", "dark"),
-        [sty.root__colors_smoke]: hasVariant(variants, "colors", "smoke"),
-        [sty.root__colors_smoke_type_outline]:
+        [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
+        [sty.rootcolors_smoke]: hasVariant(variants, "colors", "smoke"),
+        [sty.rootcolors_smoke_type_outline]:
           hasVariant(variants, "colors", "smoke") &&
           hasVariant(variants, "type", "outline"),
-        [sty.root__type_outline]: hasVariant(variants, "type", "outline")
+        [sty.roottype_outline]: hasVariant(variants, "type", "outline")
       })}
     >
       <div
         className={classNames(projectcss.all, sty.freeBox___09JR, {
-          [sty.freeBox__colors_smoke___09JRc1422]: hasVariant(
+          [sty.freeBoxcolors_smoke___09JRc1422]: hasVariant(
             variants,
             "colors",
             "smoke"
           ),
 
-          [sty.freeBox__colors_smoke_type_outline___09JRc1422V9AmM]:
+          [sty.freeBoxcolors_smoke_type_outline___09JRc1422V9AmM]:
             hasVariant(variants, "colors", "smoke") &&
             hasVariant(variants, "type", "outline"),
-          [sty.freeBox__type_outline___09JRv9AmM]: hasVariant(
+          [sty.freeBoxtype_outline___09JRv9AmM]: hasVariant(
             variants,
             "type",
             "outline"
@@ -70,19 +70,19 @@ function PlasmicBadgeOverline__RenderFunc(props) {
             defaultContents: "Subject Text",
             value: args.subjectTextSlot,
             className: classNames(sty.slotTargetSubjectTextSlot, {
-              [sty.slotTargetSubjectTextSlot__colors_smoke]: hasVariant(
+              [sty.slotTargetSubjectTextSlotcolors_smoke]: hasVariant(
                 variants,
                 "colors",
                 "smoke"
               ),
 
-              [sty.slotTargetSubjectTextSlot__type_outline]: hasVariant(
+              [sty.slotTargetSubjectTextSlottype_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
               ),
 
-              [sty.slotTargetSubjectTextSlot__type_outline_colors_smoke]:
+              [sty.slotTargetSubjectTextSlottype_outline_colors_smoke]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "colors", "smoke")
             })
@@ -100,16 +100,16 @@ function PlasmicBadgeOverline__RenderFunc(props) {
             defaultContents: "Descriptive Text",
             value: args.descriptiveTextSlot,
             className: classNames(sty.slotTargetDescriptiveTextSlot, {
-              [sty.slotTargetDescriptiveTextSlot__colors_smoke]: hasVariant(
+              [sty.slotTargetDescriptiveTextSlotcolors_smoke]: hasVariant(
                 variants,
                 "colors",
                 "smoke"
               ),
 
-              [sty.slotTargetDescriptiveTextSlot__colors_smoke_type_outline]:
+              [sty.slotTargetDescriptiveTextSlotcolors_smoke_type_outline]:
                 hasVariant(variants, "colors", "smoke") &&
                 hasVariant(variants, "type", "outline"),
-              [sty.slotTargetDescriptiveTextSlot__type_outline]: hasVariant(
+              [sty.slotTargetDescriptiveTextSlottype_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
@@ -123,11 +123,11 @@ function PlasmicBadgeOverline__RenderFunc(props) {
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg__colors_smoke]: hasVariant(variants, "colors", "smoke"),
-              [sty.svg__colors_smoke_type_outline]:
+              [sty.svgcolors_smoke]: hasVariant(variants, "colors", "smoke"),
+              [sty.svgcolors_smoke_type_outline]:
                 hasVariant(variants, "colors", "smoke") &&
                 hasVariant(variants, "type", "outline"),
-              [sty.svg__type_outline]: hasVariant(variants, "type", "outline")
+              [sty.svgtype_outline]: hasVariant(variants, "type", "outline")
             })}
             role={"img"}
           />

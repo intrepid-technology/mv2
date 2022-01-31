@@ -42,7 +42,11 @@ function PlasmicCardTestimonial__RenderFunc(props) {
         defaultContents: (
           <img
             alt={""}
-            className={classNames(projectcss.img, sty.img__ju0U3)}
+            className={classNames(
+              projectcss.all,
+              projectcss.img,
+              sty.img__ju0U3
+            )}
           />
         ),
 

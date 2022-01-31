@@ -41,9 +41,9 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size_stretch]: hasVariant(variants, "size", "stretch")
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch")
       })}
     >
       <p.Stack
@@ -52,24 +52,24 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__size__270]: hasVariant(variants, "size", "_270"),
-          [sty.parent__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.parent__size__540]: hasVariant(variants, "size", "_540"),
-          [sty.parent__size__720]: hasVariant(variants, "size", "_720"),
-          [sty.parent__size_stretch]: hasVariant(variants, "size", "stretch")
+          [sty.parentsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.parentsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.parentsize__540]: hasVariant(variants, "size", "_540"),
+          [sty.parentsize__720]: hasVariant(variants, "size", "_720"),
+          [sty.parentsize_stretch]: hasVariant(variants, "size", "stretch")
         })}
       >
         <label
           data-plasmic-name={"headlineLabelParent"}
           data-plasmic-override={overrides.headlineLabelParent}
           className={classNames(projectcss.all, sty.headlineLabelParent, {
-            [sty.headlineLabelParent__size__270]: hasVariant(
+            [sty.headlineLabelParentsize__270]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.headlineLabelParent__size_stretch]: hasVariant(
+            [sty.headlineLabelParentsize_stretch]: hasVariant(
               variants,
               "size",
               "stretch"
@@ -80,13 +80,13 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
             data-plasmic-name={"headlineLabel"}
             data-plasmic-override={overrides.headlineLabel}
             className={classNames(projectcss.all, sty.headlineLabel, {
-              [sty.headlineLabel__size__270]: hasVariant(
+              [sty.headlineLabelsize__270]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.headlineLabel__size_stretch]: hasVariant(
+              [sty.headlineLabelsize_stretch]: hasVariant(
                 variants,
                 "size",
                 "stretch"
@@ -97,13 +97,13 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
               defaultContents: "Label",
               value: args.label,
               className: classNames(sty.slotTargetLabel, {
-                [sty.slotTargetLabel__color_primary]: hasVariant(
+                [sty.slotTargetLabelcolor_primary]: hasVariant(
                   variants,
                   "color",
                   "primary"
                 ),
 
-                [sty.slotTargetLabel__size_stretch]: hasVariant(
+                [sty.slotTargetLabelsize_stretch]: hasVariant(
                   variants,
                   "size",
                   "stretch"
@@ -117,61 +117,61 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
           data-plasmic-name={"inputTextPrimary"}
           data-plasmic-override={overrides.inputTextPrimary}
           className={classNames("__wab_instance", sty.inputTextPrimary, {
-            [sty.inputTextPrimary__color_primary]: hasVariant(
+            [sty.inputTextPrimarycolor_primary]: hasVariant(
               variants,
               "color",
               "primary"
             ),
 
-            [sty.inputTextPrimary__color_secondary]: hasVariant(
+            [sty.inputTextPrimarycolor_secondary]: hasVariant(
               variants,
               "color",
               "secondary"
             ),
 
-            [sty.inputTextPrimary__color_underline]: hasVariant(
+            [sty.inputTextPrimarycolor_underline]: hasVariant(
               variants,
               "color",
               "underline"
             ),
 
-            [sty.inputTextPrimary__size__160]: hasVariant(
+            [sty.inputTextPrimarysize__160]: hasVariant(
               variants,
               "size",
               "_160"
             ),
 
-            [sty.inputTextPrimary__size__180]: hasVariant(
+            [sty.inputTextPrimarysize__180]: hasVariant(
               variants,
               "size",
               "_180"
             ),
 
-            [sty.inputTextPrimary__size__270]: hasVariant(
+            [sty.inputTextPrimarysize__270]: hasVariant(
               variants,
               "size",
               "_270"
             ),
 
-            [sty.inputTextPrimary__size__360]: hasVariant(
+            [sty.inputTextPrimarysize__360]: hasVariant(
               variants,
               "size",
               "_360"
             ),
 
-            [sty.inputTextPrimary__size__540]: hasVariant(
+            [sty.inputTextPrimarysize__540]: hasVariant(
               variants,
               "size",
               "_540"
             ),
 
-            [sty.inputTextPrimary__size__720]: hasVariant(
+            [sty.inputTextPrimarysize__720]: hasVariant(
               variants,
               "size",
               "_720"
             ),
 
-            [sty.inputTextPrimary__size_stretch]: hasVariant(
+            [sty.inputTextPrimarysize_stretch]: hasVariant(
               variants,
               "size",
               "stretch"
@@ -208,7 +208,7 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
             data-plasmic-name={"descriptionParent"}
             data-plasmic-override={overrides.descriptionParent}
             className={classNames(projectcss.all, sty.descriptionParent, {
-              [sty.descriptionParent__subhead]: hasVariant(
+              [sty.descriptionParentsubhead]: hasVariant(
                 variants,
                 "subhead",
                 "subhead"
@@ -219,7 +219,7 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
               data-plasmic-name={"descriptionTextParent"}
               data-plasmic-override={overrides.descriptionTextParent}
               className={classNames(projectcss.all, sty.descriptionTextParent, {
-                [sty.descriptionTextParent__color_secondary]: hasVariant(
+                [sty.descriptionTextParentcolor_secondary]: hasVariant(
                   variants,
                   "color",
                   "secondary"
@@ -230,19 +230,19 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
                 defaultContents: "Description",
                 value: args.description,
                 className: classNames(sty.slotTargetDescription, {
-                  [sty.slotTargetDescription__color_primary]: hasVariant(
+                  [sty.slotTargetDescriptioncolor_primary]: hasVariant(
                     variants,
                     "color",
                     "primary"
                   ),
 
-                  [sty.slotTargetDescription__color_underline]: hasVariant(
+                  [sty.slotTargetDescriptioncolor_underline]: hasVariant(
                     variants,
                     "color",
                     "underline"
                   ),
 
-                  [sty.slotTargetDescription__subhead]: hasVariant(
+                  [sty.slotTargetDescriptionsubhead]: hasVariant(
                     variants,
                     "subhead",
                     "subhead"

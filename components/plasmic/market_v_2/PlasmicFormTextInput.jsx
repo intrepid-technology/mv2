@@ -45,14 +45,14 @@ function PlasmicFormTextInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__headline]: hasVariant(variants, "headline", "headline"),
-        [sty.root__labels_prefix]: hasVariant(variants, "labels", "prefix"),
-        [sty.root__labels_suffix]: hasVariant(variants, "labels", "suffix"),
-        [sty.root__type_primary]: hasVariant(variants, "type", "primary"),
-        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootheadline]: hasVariant(variants, "headline", "headline"),
+        [sty.rootlabels_prefix]: hasVariant(variants, "labels", "prefix"),
+        [sty.rootlabels_suffix]: hasVariant(variants, "labels", "suffix"),
+        [sty.roottype_primary]: hasVariant(variants, "type", "primary"),
+        [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+        [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <TextInput
@@ -69,47 +69,33 @@ function PlasmicFormTextInput__RenderFunc(props) {
             : undefined
         }
         className={classNames("__wab_instance", sty.textInput, {
-          [sty.textInput__headline]: hasVariant(
-            variants,
-            "headline",
-            "headline"
-          ),
-
-          [sty.textInput__labels_prefix]: hasVariant(
+          [sty.textInputheadline]: hasVariant(variants, "headline", "headline"),
+          [sty.textInputlabels_prefix]: hasVariant(
             variants,
             "labels",
             "prefix"
           ),
 
-          [sty.textInput__labels_prefix_labels_suffix]:
+          [sty.textInputlabels_prefix_labels_suffix]:
             hasVariant(variants, "labels", "prefix") &&
             hasVariant(variants, "labels", "suffix"),
-          [sty.textInput__labels_suffix]: hasVariant(
+          [sty.textInputlabels_suffix]: hasVariant(
             variants,
             "labels",
             "suffix"
           ),
 
-          [sty.textInput__type_primary]: hasVariant(
-            variants,
-            "type",
-            "primary"
-          ),
-
-          [sty.textInput__type_secondary]: hasVariant(
+          [sty.textInputtype_primary]: hasVariant(variants, "type", "primary"),
+          [sty.textInputtype_secondary]: hasVariant(
             variants,
             "type",
             "secondary"
           ),
 
-          [sty.textInput__type_secondary_labels_prefix]:
+          [sty.textInputtype_secondary_labels_prefix]:
             hasVariant(variants, "type", "secondary") &&
             hasVariant(variants, "labels", "prefix"),
-          [sty.textInput__width_stretch]: hasVariant(
-            variants,
-            "width",
-            "stretch"
-          )
+          [sty.textInputwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
         endAdornment={p.renderPlasmicSlot({
           defaultContents: "Text",

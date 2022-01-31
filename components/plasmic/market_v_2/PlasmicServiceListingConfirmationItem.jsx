@@ -49,7 +49,7 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
     >
       <div
         className={classNames(projectcss.all, sty.freeBox__js6Eq, {
-          [sty.freeBox__hasImages__js6Eqc98Jq]: hasVariant(
+          [sty.freeBoxhasImages__js6Eqc98Jq]: hasVariant(
             variants,
             "hasImages",
             "hasImages"
@@ -67,7 +67,7 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
         data-plasmic-name={"answerWrapper"}
         data-plasmic-override={overrides.answerWrapper}
         className={classNames(projectcss.all, sty.answerWrapper, {
-          [sty.answerWrapper__hasImages]: hasVariant(
+          [sty.answerWrapperhasImages]: hasVariant(
             variants,
             "hasImages",
             "hasImages"
@@ -89,19 +89,19 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
         ) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__gjKki, {
-              [sty.freeBox__hasArrayFieldContent__gjKkiEpHg]: hasVariant(
+              [sty.freeBoxhasArrayFieldContent__gjKkiEpHg]: hasVariant(
                 variants,
                 "hasArrayFieldContent",
                 "hasArrayFieldContent"
               ),
 
-              [sty.freeBox__hasImages__gjKkic98Jq]: hasVariant(
+              [sty.freeBoxhasImages__gjKkic98Jq]: hasVariant(
                 variants,
                 "hasImages",
                 "hasImages"
               ),
 
-              [sty.freeBox__hasListContent__gjKkir4Ybx]: hasVariant(
+              [sty.freeBoxhasListContent__gjKkir4Ybx]: hasVariant(
                 variants,
                 "hasListContent",
                 "hasListContent"
@@ -113,13 +113,13 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
                 "Enter some textEnter some textEnter some textEnter some textEnter some textEnter some textEnter ",
               value: args.textContent,
               className: classNames(sty.slotTargetTextContent, {
-                [sty.slotTargetTextContent__hasImages]: hasVariant(
+                [sty.slotTargetTextContenthasImages]: hasVariant(
                   variants,
                   "hasImages",
                   "hasImages"
                 ),
 
-                [sty.slotTargetTextContent__hasListContent]: hasVariant(
+                [sty.slotTargetTextContenthasListContent]: hasVariant(
                   variants,
                   "hasListContent",
                   "hasListContent"
@@ -135,7 +135,7 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__tKt0A, {
-              [sty.freeBox__hasListContent__tKt0Ar4Ybx]: hasVariant(
+              [sty.freeBoxhasListContent__tKt0Ar4Ybx]: hasVariant(
                 variants,
                 "hasListContent",
                 "hasListContent"
@@ -174,7 +174,7 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__eBgpn, {
-              [sty.freeBox__hasArrayFieldContent__eBgpnEpHg]: hasVariant(
+              [sty.freeBoxhasArrayFieldContent__eBgpnEpHg]: hasVariant(
                 variants,
                 "hasArrayFieldContent",
                 "hasArrayFieldContent"
@@ -207,7 +207,7 @@ function PlasmicServiceListingConfirmationItem__RenderFunc(props) {
         {(hasVariant(variants, "hasImages", "hasImages") ? true : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__fClvJ, {
-              [sty.freeBox__hasImages__fClvJc98Jq]: hasVariant(
+              [sty.freeBoxhasImages__fClvJc98Jq]: hasVariant(
                 variants,
                 "hasImages",
                 "hasImages"

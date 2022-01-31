@@ -34,7 +34,13 @@ function PlasmicInputStepperPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <button className={classNames(projectcss.button, sty.button__cGaqh)}>
+      <button
+        className={classNames(
+          projectcss.all,
+          projectcss.button,
+          sty.button__cGaqh
+        )}
+      >
         <PlusBoldIcon
           className={classNames(projectcss.all, sty.svg___7TaUz)}
           role={"img"}
@@ -44,14 +50,20 @@ function PlasmicInputStepperPrimary__RenderFunc(props) {
       <input
         data-plasmic-name={"textInput"}
         data-plasmic-override={overrides.textInput ?? overrides.textbox}
-        className={classNames(projectcss.input, sty.textInput)}
+        className={classNames(projectcss.all, projectcss.input, sty.textInput)}
         placeholder={""}
         size={1}
         type={"text"}
         value={""}
       />
 
-      <button className={classNames(projectcss.button, sty.button__sfUcw)}>
+      <button
+        className={classNames(
+          projectcss.all,
+          projectcss.button,
+          sty.button__sfUcw
+        )}
+      >
         <MinusBoldIcon
           className={classNames(projectcss.all, sty.svg___9It4W)}
           role={"img"}

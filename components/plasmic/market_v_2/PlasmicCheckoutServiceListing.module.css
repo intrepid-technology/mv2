@@ -1,14 +1,14 @@
 .root {
-  display: inline-flex;
   flex-direction: column;
+  display: inline-flex;
   width: auto;
   height: auto;
   position: relative;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -33,9 +33,9 @@
   width: 360px;
 }
 .checkoutSubTotalListItemBlock {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -43,8 +43,8 @@
 }
 .checkoutSubTotalListItemBlock > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 24px);
   height: calc(100% + 24px);
 }
@@ -67,9 +67,9 @@
   left: auto;
 }
 .checkoutListItems {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -77,8 +77,8 @@
 }
 .checkoutListItems > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 18px);
   height: calc(100% + 18px);
 }
@@ -114,9 +114,9 @@
   top: auto;
 }
 .freeBox__d20Mo {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -125,8 +125,8 @@
 }
 .freeBox__d20Mo > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
 }
@@ -152,9 +152,9 @@
   flex-shrink: 0;
 }
 .freeBox__ulvEc {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -163,8 +163,8 @@
 }
 .freeBox__ulvEc > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -218,9 +218,9 @@
   top: auto;
 }
 .freeBox__fbCfP {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -229,8 +229,8 @@
 }
 .freeBox__fbCfP > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -298,8 +298,8 @@
   line-height: 1;
 }
 .freeBox__lTtnn {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: auto;
   height: auto;
   padding-left: 0px;
@@ -310,8 +310,8 @@
 }
 .freeBox__lTtnn > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
 }
@@ -346,9 +346,9 @@
   padding: 0px;
 }
 .freeBox__ioo18 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -357,8 +357,8 @@
 }
 .freeBox__ioo18 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -407,9 +407,9 @@
   flex-shrink: 0;
 }
 .checkoutPromotionInput {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -417,8 +417,8 @@
 }
 .checkoutPromotionInput > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 18px);
   height: calc(100% + 18px);
 }
@@ -460,9 +460,9 @@
   flex-shrink: 0;
 }
 .checkoutTotalButtonBlock {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: auto;
   height: auto;
   left: auto;
@@ -470,8 +470,8 @@
 }
 .checkoutTotalButtonBlock > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);
 }

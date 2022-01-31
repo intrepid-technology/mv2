@@ -452,7 +452,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__wa1LD)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__wa1LD
+                    )}
                     src={"/plasmic/market_v_2/images/image31.png"}
                   />
                 }
@@ -485,7 +489,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img___967W9)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img___967W9
+                    )}
                     src={"/plasmic/market_v_2/images/image29.png"}
                   />
                 }
@@ -518,7 +526,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__jJa2K)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__jJa2K
+                    )}
                     src={"/plasmic/market_v_2/images/image11.png"}
                   />
                 }
@@ -551,7 +563,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _270X270={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__sx00A)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__sx00A
+                    )}
                     src={"/plasmic/market_v_2/images/image30.png"}
                   />
                 }
@@ -699,7 +715,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img___6CsQ)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img___6CsQ
+                )}
                 src={"/plasmic/market_v_2/images/image25.png"}
               />
             </p.Stack>
@@ -756,7 +776,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__wAuj8)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__wAuj8
+                    )}
                     src={"/plasmic/market_v_2/images/image26.png"}
                   />
                 }
@@ -801,7 +825,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__cZqyO)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__cZqyO
+                    )}
                     src={"/plasmic/market_v_2/images/image27.png"}
                   />
                 }
@@ -846,7 +874,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__kbNFx)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__kbNFx
+                    )}
                     src={"/plasmic/market_v_2/images/image33.png"}
                   />
                 }
@@ -1000,7 +1032,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__dQqz3)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__dQqz3
+                )}
                 src={"/plasmic/market_v_2/images/image23.png"}
               />
             </p.Stack>
@@ -1063,7 +1099,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__rezLt)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__rezLt
+                    )}
                     src={"/plasmic/market_v_2/images/image18.png"}
                   />
                 }
@@ -1108,7 +1148,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__mwX2T)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__mwX2T
+                    )}
                     src={"/plasmic/market_v_2/images/image22.png"}
                   />
                 }
@@ -1153,7 +1197,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
                 _360X360={
                   <img
                     alt={""}
-                    className={classNames(projectcss.img, sty.img__jdMs0)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.img,
+                      sty.img__jdMs0
+                    )}
                     src={"/plasmic/market_v_2/images/image21.png"}
                   />
                 }
@@ -1303,7 +1351,11 @@ function PlasmicLandingpage2021__RenderFunc(props) {
 
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__rCc5H)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__rCc5H
+                )}
                 src={"/plasmic/market_v_2/images/image32.png"}
               />
             </p.Stack>

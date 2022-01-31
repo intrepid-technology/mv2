@@ -53,25 +53,21 @@ function PlasmicFooter__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__color]: hasVariant(variants, "color", "color")
+        [sty.rootcolor]: hasVariant(variants, "color", "color")
       })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox__n566F, {
-          [sty.freeBox__color__n566F4Sg3R]: hasVariant(
-            variants,
-            "color",
-            "color"
-          )
+          [sty.freeBoxcolor__n566F4Sg3R]: hasVariant(variants, "color", "color")
         })}
       >
         <LogoHeader
           data-plasmic-name={"logoHeader"}
           data-plasmic-override={overrides.logoHeader}
           className={classNames("__wab_instance", sty.logoHeader, {
-            [sty.logoHeader__color]: hasVariant(variants, "color", "color")
+            [sty.logoHeadercolor]: hasVariant(variants, "color", "color")
           })}
           color={hasVariant(variants, "color", "color") ? true : undefined}
         >
@@ -79,7 +75,11 @@ function PlasmicFooter__RenderFunc(props) {
             defaultContents: (
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__sdyFl)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__sdyFl
+                )}
                 src={"/plasmic/market_v_2/images/intrepidLogo2021V2Darksvg.svg"}
               />
             ),
@@ -92,7 +92,7 @@ function PlasmicFooter__RenderFunc(props) {
           as={"div"}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__aA6Wh, {
-            [sty.freeBox__color__aA6Wh4Sg3R]: hasVariant(
+            [sty.freeBoxcolor__aA6Wh4Sg3R]: hasVariant(
               variants,
               "color",
               "color"
@@ -110,7 +110,7 @@ function PlasmicFooter__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__fvAb7,
                 {
-                  [sty.text__color__fvAb74Sg3R]: hasVariant(
+                  [sty.textcolor__fvAb74Sg3R]: hasVariant(
                     variants,
                     "color",
                     "color"
@@ -123,7 +123,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__prkiM, {
-                [sty.footerLink__color__prkiM4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__prkiM4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -138,7 +138,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__sqBX, {
-                [sty.footerLink__color__sqBX4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__sqBX4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -151,7 +151,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__lbNcN, {
-                [sty.footerLink__color__lbNcN4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__lbNcN4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -174,7 +174,7 @@ function PlasmicFooter__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__rqdjj,
                 {
-                  [sty.text__color__rqdjj4Sg3R]: hasVariant(
+                  [sty.textcolor__rqdjj4Sg3R]: hasVariant(
                     variants,
                     "color",
                     "color"
@@ -187,7 +187,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__jNuuu, {
-                [sty.footerLink__color__jNuuu4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__jNuuu4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -204,7 +204,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__qwKs, {
-                [sty.footerLink__color__qwKs4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__qwKs4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -217,7 +217,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink___6PgNe, {
-                [sty.footerLink__color___6PgNe4Sg3R]: hasVariant(
+                [sty.footerLinkcolor___6PgNe4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -239,7 +239,7 @@ function PlasmicFooter__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text___9Wf6,
                 {
-                  [sty.text__color___9Wf64Sg3R]: hasVariant(
+                  [sty.textcolor___9Wf64Sg3R]: hasVariant(
                     variants,
                     "color",
                     "color"
@@ -253,7 +253,7 @@ function PlasmicFooter__RenderFunc(props) {
             {(hasVariant(variants, "color", "color") ? true : true) ? (
               <FooterLink
                 className={classNames("__wab_instance", sty.footerLink__c1As0, {
-                  [sty.footerLink__color__c1As04Sg3R]: hasVariant(
+                  [sty.footerLinkcolor__c1As04Sg3R]: hasVariant(
                     variants,
                     "color",
                     "color"
@@ -268,7 +268,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__ugLtb, {
-                [sty.footerLink__color__ugLtb4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__ugLtb4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -297,7 +297,7 @@ function PlasmicFooter__RenderFunc(props) {
               data-plasmic-override={overrides.social}
               hasGap={true}
               className={classNames(projectcss.all, sty.social, {
-                [sty.social__color]: hasVariant(variants, "color", "color")
+                [sty.socialcolor]: hasVariant(variants, "color", "color")
               })}
             >
               <FooterSocialLink
@@ -305,7 +305,7 @@ function PlasmicFooter__RenderFunc(props) {
                   "__wab_instance",
                   sty.footerSocialLink__uxCdr,
                   {
-                    [sty.footerSocialLink__color__uxCdr4Sg3R]: hasVariant(
+                    [sty.footerSocialLinkcolor__uxCdr4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -322,7 +322,7 @@ function PlasmicFooter__RenderFunc(props) {
                   "__wab_instance",
                   sty.footerSocialLink__ouoch,
                   {
-                    [sty.footerSocialLink__color__ouoch4Sg3R]: hasVariant(
+                    [sty.footerSocialLinkcolor__ouoch4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -335,7 +335,7 @@ function PlasmicFooter__RenderFunc(props) {
               >
                 <Icon9Icon
                   className={classNames(projectcss.all, sty.svg__y7VJt, {
-                    [sty.svg__color__y7VJt4Sg3R]: hasVariant(
+                    [sty.svgcolor__y7VJt4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -350,7 +350,7 @@ function PlasmicFooter__RenderFunc(props) {
                   "__wab_instance",
                   sty.footerSocialLink__h3SeG,
                   {
-                    [sty.footerSocialLink__color__h3SeG4Sg3R]: hasVariant(
+                    [sty.footerSocialLinkcolor__h3SeG4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -363,7 +363,7 @@ function PlasmicFooter__RenderFunc(props) {
               >
                 <Icon10Icon
                   className={classNames(projectcss.all, sty.svg___3MPKg, {
-                    [sty.svg__color___3MPKg4Sg3R]: hasVariant(
+                    [sty.svgcolor___3MPKg4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -378,7 +378,7 @@ function PlasmicFooter__RenderFunc(props) {
                   "__wab_instance",
                   sty.footerSocialLink__ymEz9,
                   {
-                    [sty.footerSocialLink__color__ymEz94Sg3R]: hasVariant(
+                    [sty.footerSocialLinkcolor__ymEz94Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -391,7 +391,7 @@ function PlasmicFooter__RenderFunc(props) {
               >
                 <Icon12Icon
                   className={classNames(projectcss.all, sty.svg__qb4Mh, {
-                    [sty.svg__color__qb4Mh4Sg3R]: hasVariant(
+                    [sty.svgcolor__qb4Mh4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -406,7 +406,7 @@ function PlasmicFooter__RenderFunc(props) {
                   "__wab_instance",
                   sty.footerSocialLink___4Euvr,
                   {
-                    [sty.footerSocialLink__color___4Euvr4Sg3R]: hasVariant(
+                    [sty.footerSocialLinkcolor___4Euvr4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -419,7 +419,7 @@ function PlasmicFooter__RenderFunc(props) {
               >
                 <Icon11Icon
                   className={classNames(projectcss.all, sty.svg__cgjwO, {
-                    [sty.svg__color__cgjwO4Sg3R]: hasVariant(
+                    [sty.svgcolor__cgjwO4Sg3R]: hasVariant(
                       variants,
                       "color",
                       "color"
@@ -560,7 +560,7 @@ function PlasmicFooter__RenderFunc(props) {
           >
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__l4NKp, {
-                [sty.footerLink__color__l4NKp4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__l4NKp4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -572,7 +572,7 @@ function PlasmicFooter__RenderFunc(props) {
 
             <FooterLink
               className={classNames("__wab_instance", sty.footerLink__sR4S, {
-                [sty.footerLink__color__sR4S4Sg3R]: hasVariant(
+                [sty.footerLinkcolor__sR4S4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"
@@ -589,7 +589,7 @@ function PlasmicFooter__RenderFunc(props) {
               projectcss.__wab_text,
               sty.text__mJnXf,
               {
-                [sty.text__color__mJnXf4Sg3R]: hasVariant(
+                [sty.textcolor__mJnXf4Sg3R]: hasVariant(
                   variants,
                   "color",
                   "color"

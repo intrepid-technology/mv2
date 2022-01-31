@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 270px;
   height: auto;
   position: relative;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-top: calc(0px - 16px);
   height: calc(100% + 16px);
 }
@@ -29,9 +29,9 @@
   border-color: #a385ff /* plasmic-token: rN0ul5_oz */;
 }
 .saveButtonContainer {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -40,8 +40,8 @@
 }
 .saveButtonContainer > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-end;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
@@ -354,16 +354,16 @@
   object-fit: cover;
 }
 .freeBox__bjfN {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   min-width: 0;
 }
 .freeBox__bjfN > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -379,16 +379,16 @@
   margin-top: 8px;
 }
 .freeBox__giDyd {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .freeBox__giDyd > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 0px);
   width: calc(100% + 0px);
@@ -404,16 +404,16 @@
   margin-left: 0px;
 }
 .freeBox___3EZvu {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
 }
 .freeBox___3EZvu > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -439,17 +439,17 @@
   justify-content: center;
 }
 .freeBox__kAf90 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   min-width: 0;
 }
 .freeBox__kAf90 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -495,9 +495,9 @@
   position: relative;
 }
 .userStatsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -506,8 +506,8 @@
 }
 .userStatsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -523,9 +523,9 @@
   margin-left: 8px;
 }
 .viewButtonCount {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -534,8 +534,8 @@
 }
 .viewButtonCount > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -588,9 +588,9 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .heartButtonCount {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -599,8 +599,8 @@
 }
 .heartButtonCount > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -653,9 +653,9 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .bookmarkButtonCount {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: auto;
   height: auto;
   left: auto;
@@ -664,8 +664,8 @@
 }
 .bookmarkButtonCount > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   margin-left: calc(0px - 4px);
   width: calc(100% + 4px);
 }
@@ -723,9 +723,9 @@
   color: #101010 /* plasmic-token: F4gy0u3aB */;
 }
 .location {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   height: auto;
   left: auto;
@@ -734,8 +734,8 @@
 }
 .location > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 2px);
   width: calc(100% + 2px);

@@ -40,8 +40,8 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__16Px]: hasVariant(variants, "size", "_16Px"),
-        [sty.root__size__24Px]: hasVariant(variants, "size", "_24Px")
+        [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
+        [sty.rootsize__24Px]: hasVariant(variants, "size", "_24Px")
       })}
     >
       <div
@@ -61,7 +61,7 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
 
           value: args.svgCheck,
           className: classNames(sty.slotTargetSvgCheck, {
-            [sty.slotTargetSvgCheck__size__16Px]: hasVariant(
+            [sty.slotTargetSvgChecksize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"
@@ -74,14 +74,14 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
         data-plasmic-name={"freeBox"}
         data-plasmic-override={overrides.freeBox}
         className={classNames(projectcss.all, sty.freeBox, {
-          [sty.freeBox__size__16Px]: hasVariant(variants, "size", "_16Px")
+          [sty.freeBoxsize__16Px]: hasVariant(variants, "size", "_16Px")
         })}
       >
         {p.renderPlasmicSlot({
           defaultContents: "feature value proposition",
           value: args.featureValueText,
           className: classNames(sty.slotTargetFeatureValueText, {
-            [sty.slotTargetFeatureValueText__size__16Px]: hasVariant(
+            [sty.slotTargetFeatureValueTextsize__16Px]: hasVariant(
               variants,
               "size",
               "_16Px"

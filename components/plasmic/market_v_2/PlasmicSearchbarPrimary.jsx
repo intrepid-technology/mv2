@@ -37,86 +37,56 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__height__36]: hasVariant(variants, "height", "_36"),
-        [sty.root__height__40]: hasVariant(variants, "height", "_40"),
-        [sty.root__width__180]: hasVariant(variants, "width", "_180"),
-        [sty.root__width__270]: hasVariant(variants, "width", "_270"),
-        [sty.root__width__360]: hasVariant(variants, "width", "_360")
+        [sty.rootheight__36]: hasVariant(variants, "height", "_36"),
+        [sty.rootheight__40]: hasVariant(variants, "height", "_40"),
+        [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+        [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+        [sty.rootwidth__360]: hasVariant(variants, "width", "_360")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__height__36]: hasVariant(variants, "height", "_36"),
-          [sty.parent__height__40]: hasVariant(variants, "height", "_40"),
-          [sty.parent__type_secondary]: hasVariant(
-            variants,
-            "type",
-            "secondary"
-          ),
-
-          [sty.parent__width__180]: hasVariant(variants, "width", "_180"),
-          [sty.parent__width__270]: hasVariant(variants, "width", "_270"),
-          [sty.parent__width__360]: hasVariant(variants, "width", "_360"),
-          [sty.parent__width__360_height__36]:
+          [sty.parentheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.parentheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.parenttype_secondary]: hasVariant(variants, "type", "secondary"),
+          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__360_height__36]:
             hasVariant(variants, "width", "_360") &&
             hasVariant(variants, "height", "_36"),
-          [sty.parent__width__360_height__40]:
+          [sty.parentwidth__360_height__40]:
             hasVariant(variants, "width", "_360") &&
             hasVariant(variants, "height", "_40"),
-          [sty.parent__width__540]: hasVariant(variants, "width", "_540"),
-          [sty.parent__width__720]: hasVariant(variants, "width", "_720")
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720")
         })}
       >
         <div
           data-plasmic-name={"searchSvgbg"}
           data-plasmic-override={overrides.searchSvgbg}
           className={classNames(projectcss.all, sty.searchSvgbg, {
-            [sty.searchSvgbg__height__36]: hasVariant(
-              variants,
-              "height",
-              "_36"
-            ),
-
-            [sty.searchSvgbg__height__40]: hasVariant(
-              variants,
-              "height",
-              "_40"
-            ),
-
-            [sty.searchSvgbg__type_secondary]: hasVariant(
+            [sty.searchSvgbgheight__36]: hasVariant(variants, "height", "_36"),
+            [sty.searchSvgbgheight__40]: hasVariant(variants, "height", "_40"),
+            [sty.searchSvgbgtype_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
             ),
 
-            [sty.searchSvgbg__width__180]: hasVariant(
-              variants,
-              "width",
-              "_180"
-            ),
-
-            [sty.searchSvgbg__width__270]: hasVariant(
-              variants,
-              "width",
-              "_270"
-            ),
-
-            [sty.searchSvgbg__width__360]: hasVariant(variants, "width", "_360")
+            [sty.searchSvgbgwidth__180]: hasVariant(variants, "width", "_180"),
+            [sty.searchSvgbgwidth__270]: hasVariant(variants, "width", "_270"),
+            [sty.searchSvgbgwidth__360]: hasVariant(variants, "width", "_360")
           })}
         >
           <Icon174Icon
             data-plasmic-name={"searchSvg"}
             data-plasmic-override={overrides.searchSvg}
             className={classNames(projectcss.all, sty.searchSvg, {
-              [sty.searchSvg__height__36]: hasVariant(
-                variants,
-                "height",
-                "_36"
-              ),
-
-              [sty.searchSvg__height__40]: hasVariant(variants, "height", "_40")
+              [sty.searchSvgheight__36]: hasVariant(variants, "height", "_36"),
+              [sty.searchSvgheight__40]: hasVariant(variants, "height", "_40")
             })}
             role={"img"}
           />
@@ -126,47 +96,48 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
           data-plasmic-name={"textboxParent"}
           data-plasmic-override={overrides.textboxParent}
           className={classNames(projectcss.all, sty.textboxParent, {
-            [sty.textboxParent__type_primary]: hasVariant(
+            [sty.textboxParenttype_primary]: hasVariant(
               variants,
               "type",
               "primary"
             ),
 
-            [sty.textboxParent__type_secondary]: hasVariant(
+            [sty.textboxParenttype_secondary]: hasVariant(
               variants,
               "type",
               "secondary"
             ),
 
-            [sty.textboxParent__width__180]: hasVariant(
+            [sty.textboxParentwidth__180]: hasVariant(
               variants,
               "width",
               "_180"
             ),
 
-            [sty.textboxParent__width__270]: hasVariant(
+            [sty.textboxParentwidth__270]: hasVariant(
               variants,
               "width",
               "_270"
             ),
 
-            [sty.textboxParent__width__360]: hasVariant(
-              variants,
-              "width",
-              "_360"
-            )
+            [sty.textboxParentwidth__360]: hasVariant(variants, "width", "_360")
           })}
         >
           <input
             data-plasmic-name={"textInput"}
             data-plasmic-override={overrides.textInput ?? overrides.textbox}
-            className={classNames(projectcss.input, sty.textInput, {
-              [sty.textInput__type_secondary]: hasVariant(
-                variants,
-                "type",
-                "secondary"
-              )
-            })}
+            className={classNames(
+              projectcss.all,
+              projectcss.input,
+              sty.textInput,
+              {
+                [sty.textInputtype_secondary]: hasVariant(
+                  variants,
+                  "type",
+                  "secondary"
+                )
+              }
+            )}
             placeholder={""}
             size={1}
             type={"text"}

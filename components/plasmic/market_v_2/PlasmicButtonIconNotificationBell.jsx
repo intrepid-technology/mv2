@@ -38,25 +38,26 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(
+        projectcss.all,
         projectcss.button,
         projectcss.root_reset,
         sty.root,
-        { [sty.root__state_alert]: hasVariant(variants, "state", "alert") }
+        { [sty.rootstate_alert]: hasVariant(variants, "state", "alert") }
       )}
     >
       <NotificationBellIcon
         data-plasmic-name={"svg"}
         data-plasmic-override={overrides.svg}
         className={classNames(projectcss.all, sty.svg, {
-          [sty.svg__inactive]: hasVariant(variants, "inactive", "inactive"),
-          [sty.svg__size__16]: hasVariant(variants, "size", "_16"),
-          [sty.svg__size__24]: hasVariant(variants, "size", "_24"),
-          [sty.svg__size__32]: hasVariant(variants, "size", "_32"),
-          [sty.svg__size__36]: hasVariant(variants, "size", "_36"),
-          [sty.svg__size__40]: hasVariant(variants, "size", "_40"),
-          [sty.svg__size__48]: hasVariant(variants, "size", "_48"),
-          [sty.svg__state_alert]: hasVariant(variants, "state", "alert"),
-          [sty.svg__state_silent]: hasVariant(variants, "state", "silent")
+          [sty.svginactive]: hasVariant(variants, "inactive", "inactive"),
+          [sty.svgsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.svgsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.svgsize__32]: hasVariant(variants, "size", "_32"),
+          [sty.svgsize__36]: hasVariant(variants, "size", "_36"),
+          [sty.svgsize__40]: hasVariant(variants, "size", "_40"),
+          [sty.svgsize__48]: hasVariant(variants, "size", "_48"),
+          [sty.svgstate_alert]: hasVariant(variants, "state", "alert"),
+          [sty.svgstate_silent]: hasVariant(variants, "state", "silent")
         })}
         role={"img"}
       />
@@ -77,23 +78,23 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
             "__wab_instance",
             sty.elementSidebarHeadlineNotificationIndicator,
             {
-              [sty.elementSidebarHeadlineNotificationIndicator__inactive]:
+              [sty.elementSidebarHeadlineNotificationIndicatorinactive]:
                 hasVariant(variants, "inactive", "inactive"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__16]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__16]:
                 hasVariant(variants, "size", "_16"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__24]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__24]:
                 hasVariant(variants, "size", "_24"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__32]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__32]:
                 hasVariant(variants, "size", "_32"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__36]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__36]:
                 hasVariant(variants, "size", "_36"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__40]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__40]:
                 hasVariant(variants, "size", "_40"),
-              [sty.elementSidebarHeadlineNotificationIndicator__size__48]:
+              [sty.elementSidebarHeadlineNotificationIndicatorsize__48]:
                 hasVariant(variants, "size", "_48"),
-              [sty.elementSidebarHeadlineNotificationIndicator__state_alert]:
+              [sty.elementSidebarHeadlineNotificationIndicatorstate_alert]:
                 hasVariant(variants, "state", "alert"),
-              [sty.elementSidebarHeadlineNotificationIndicator__state_silent]:
+              [sty.elementSidebarHeadlineNotificationIndicatorstate_silent]:
                 hasVariant(variants, "state", "silent")
             }
           )}

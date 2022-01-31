@@ -33,13 +33,19 @@ function PlasmicNavbarLogo__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__light]: hasVariant(variants, "light", "light"),
-        [sty.root__size__16]: hasVariant(variants, "size", "_16"),
-        [sty.root__size__18]: hasVariant(variants, "size", "_18"),
-        [sty.root__size__24]: hasVariant(variants, "size", "_24"),
-        [sty.root__size__32]: hasVariant(variants, "size", "_32")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootlight]: hasVariant(variants, "light", "light"),
+          [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.rootsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.rootsize__32]: hasVariant(variants, "size", "_32")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -48,13 +54,13 @@ function PlasmicNavbarLogo__RenderFunc(props) {
         data-plasmic-name={"navBarLogoLinkParent"}
         data-plasmic-override={overrides.navBarLogoLinkParent}
         className={classNames(projectcss.all, sty.navBarLogoLinkParent, {
-          [sty.navBarLogoLinkParent__light]: hasVariant(
+          [sty.navBarLogoLinkParentlight]: hasVariant(
             variants,
             "light",
             "light"
           ),
 
-          [sty.navBarLogoLinkParent__size__18]: hasVariant(
+          [sty.navBarLogoLinkParentsize__18]: hasVariant(
             variants,
             "size",
             "_18"
@@ -65,15 +71,15 @@ function PlasmicNavbarLogo__RenderFunc(props) {
           data-plasmic-name={"img"}
           data-plasmic-override={overrides.img}
           alt={""}
-          className={classNames(projectcss.img, sty.img, {
-            [sty.img__light]: hasVariant(variants, "light", "light"),
-            [sty.img__size__16]: hasVariant(variants, "size", "_16"),
-            [sty.img__size__18]: hasVariant(variants, "size", "_18"),
-            [sty.img__size__24]: hasVariant(variants, "size", "_24"),
-            [sty.img__size__32]: hasVariant(variants, "size", "_32"),
-            [sty.img__size__36]: hasVariant(variants, "size", "_36"),
-            [sty.img__size__40]: hasVariant(variants, "size", "_40"),
-            [sty.img__size__48]: hasVariant(variants, "size", "_48")
+          className={classNames(projectcss.all, projectcss.img, sty.img, {
+            [sty.imglight]: hasVariant(variants, "light", "light"),
+            [sty.imgsize__16]: hasVariant(variants, "size", "_16"),
+            [sty.imgsize__18]: hasVariant(variants, "size", "_18"),
+            [sty.imgsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.imgsize__32]: hasVariant(variants, "size", "_32"),
+            [sty.imgsize__36]: hasVariant(variants, "size", "_36"),
+            [sty.imgsize__40]: hasVariant(variants, "size", "_40"),
+            [sty.imgsize__48]: hasVariant(variants, "size", "_48")
           })}
           src={
             hasVariant(variants, "light", "light")

@@ -42,11 +42,7 @@ function PlasmicSelectTimeDropdownPrimary__RenderFunc(props) {
       {(hasVariant(variants, "label", "label") ? false : true) ? (
         <div
           className={classNames(projectcss.all, sty.freeBox__tegzh, {
-            [sty.freeBox__label__tegzhB8B]: hasVariant(
-              variants,
-              "label",
-              "label"
-            )
+            [sty.freeBoxlabel__tegzhB8B]: hasVariant(variants, "label", "label")
           })}
         >
           {p.renderPlasmicSlot({

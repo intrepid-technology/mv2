@@ -9,38 +9,38 @@
   min-width: 0;
   padding: 4px 8px;
 }
-.root__width__360 {
+.rootwidth__360 {
   width: 360px;
 }
-.root__width__540 {
+.rootwidth__540 {
   width: 540px;
 }
-.root__width__720 {
+.rootwidth__720 {
   width: 720px;
 }
-.root__isHighlighted {
+.rootisHighlighted {
   background: #f8f8f8;
 }
-.root__isDisabled {
+.rootisDisabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.root__width__90 {
+.rootwidth__90 {
   width: 90px;
 }
-.root__width__120 {
+.rootwidth__120 {
   width: 120px;
 }
-.root__width__144 {
+.rootwidth__144 {
   width: 144px;
 }
-.root__width__160 {
+.rootwidth__160 {
   width: 160px;
 }
-.root__width__180 {
+.rootwidth__180 {
   width: 180px;
 }
-.root__width__270 {
+.rootwidth__270 {
   width: 270px;
 }
 .labelContainer {
@@ -78,7 +78,7 @@
 .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   overflow: hidden;
 }
-.slotTargetChildren__isSelected {
+.slotTargetChildrenisSelected {
   color: #101010 /* plasmic-token: 7-Hl8dlot */;
   font-weight: 400;
 }

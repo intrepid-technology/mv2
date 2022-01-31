@@ -171,6 +171,7 @@ function PlasmicEditteam__RenderFunc(props) {
                         data-plasmic-override={overrides.teamLogoImage}
                         alt={""}
                         className={classNames(
+                          projectcss.all,
                           projectcss.img,
                           sty.teamLogoImage
                         )}

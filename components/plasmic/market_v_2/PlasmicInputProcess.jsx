@@ -40,19 +40,24 @@ function PlasmicInputProcess__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__540]: hasVariant(variants, "size", "_540")
+        [sty.rootsize__540]: hasVariant(variants, "size", "_540")
       })}
     >
       <input
         data-plasmic-name={"serviceProcessTitle"}
         data-plasmic-override={overrides.serviceProcessTitle}
-        className={classNames(projectcss.input, sty.serviceProcessTitle, {
-          [sty.serviceProcessTitle__size__540]: hasVariant(
-            variants,
-            "size",
-            "_540"
-          )
-        })}
+        className={classNames(
+          projectcss.all,
+          projectcss.input,
+          sty.serviceProcessTitle,
+          {
+            [sty.serviceProcessTitlesize__540]: hasVariant(
+              variants,
+              "size",
+              "_540"
+            )
+          }
+        )}
         placeholder={"Process title, eg. step 1"}
         size={1}
         type={"text"}
@@ -68,10 +73,11 @@ function PlasmicInputProcess__RenderFunc(props) {
           data-plasmic-name={"serviceProcessDescription"}
           data-plasmic-override={overrides.serviceProcessDescription}
           className={classNames(
+            projectcss.all,
             projectcss.textarea,
             sty.serviceProcessDescription,
             {
-              [sty.serviceProcessDescription__size__540]: hasVariant(
+              [sty.serviceProcessDescriptionsize__540]: hasVariant(
                 variants,
                 "size",
                 "_540"
@@ -84,25 +90,21 @@ function PlasmicInputProcess__RenderFunc(props) {
 
         <div
           className={classNames(projectcss.all, sty.freeBox__yoYe, {
-            [sty.freeBox__add__yoYeqnDpl]: hasVariant(variants, "add", "add")
+            [sty.freeBoxadd__yoYeqnDpl]: hasVariant(variants, "add", "add")
           })}
         >
           {(hasVariant(variants, "add", "add") ? false : true) ? (
             <div
               className={classNames(projectcss.all, sty.freeBox__l594M, {
-                [sty.freeBox__add__l594MqnDpl]: hasVariant(
-                  variants,
-                  "add",
-                  "add"
-                )
+                [sty.freeBoxadd__l594MqnDpl]: hasVariant(variants, "add", "add")
               })}
             >
               <Icon107Icon
                 data-plasmic-name={"svg"}
                 data-plasmic-override={overrides.svg}
                 className={classNames(projectcss.all, sty.svg, {
-                  [sty.svg__add]: hasVariant(variants, "add", "add"),
-                  [sty.svg__size__540]: hasVariant(variants, "size", "_540")
+                  [sty.svgadd]: hasVariant(variants, "add", "add"),
+                  [sty.svgsize__540]: hasVariant(variants, "size", "_540")
                 })}
                 role={"img"}
               />
@@ -111,17 +113,13 @@ function PlasmicInputProcess__RenderFunc(props) {
           {(hasVariant(variants, "_delete", "_delete") ? false : true) ? (
             <div
               className={classNames(projectcss.all, sty.freeBox__aOiaZ, {
-                [sty.freeBox___delete__aOiaZSn8T8]: hasVariant(
+                [sty.freeBox_delete__aOiaZSn8T8]: hasVariant(
                   variants,
                   "_delete",
                   "_delete"
                 ),
 
-                [sty.freeBox__add__aOiaZqnDpl]: hasVariant(
-                  variants,
-                  "add",
-                  "add"
-                )
+                [sty.freeBoxadd__aOiaZqnDpl]: hasVariant(variants, "add", "add")
               })}
             >
               <div
@@ -132,14 +130,14 @@ function PlasmicInputProcess__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text,
                   {
-                    [sty.text___delete]: hasVariant(
+                    [sty.text_delete]: hasVariant(
                       variants,
                       "_delete",
                       "_delete"
                     ),
 
-                    [sty.text__add]: hasVariant(variants, "add", "add"),
-                    [sty.text__size__540]: hasVariant(variants, "size", "_540")
+                    [sty.textadd]: hasVariant(variants, "add", "add"),
+                    [sty.textsize__540]: hasVariant(variants, "size", "_540")
                   }
                 )}
               >

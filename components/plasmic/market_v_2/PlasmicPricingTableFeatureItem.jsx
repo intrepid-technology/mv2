@@ -42,13 +42,13 @@ function PlasmicPricingTableFeatureItem__RenderFunc(props) {
       {true ? (
         <div
           className={classNames(projectcss.all, sty.freeBox___4BgBl, {
-            [sty.freeBox__checkColor_brand___4BgBlYkqEy]: hasVariant(
+            [sty.freeBoxcheckColor_brand___4BgBlYkqEy]: hasVariant(
               variants,
               "checkColor",
               "brand"
             ),
 
-            [sty.freeBox__checkColor_green___4BgBlEfoTm]: hasVariant(
+            [sty.freeBoxcheckColor_green___4BgBlEfoTm]: hasVariant(
               variants,
               "checkColor",
               "green"
@@ -59,19 +59,19 @@ function PlasmicPricingTableFeatureItem__RenderFunc(props) {
             data-plasmic-name={"svg"}
             data-plasmic-override={overrides.svg}
             className={classNames(projectcss.all, sty.svg, {
-              [sty.svg__checkColor_brand]: hasVariant(
+              [sty.svgcheckColor_brand]: hasVariant(
                 variants,
                 "checkColor",
                 "brand"
               ),
 
-              [sty.svg__checkColor_dark]: hasVariant(
+              [sty.svgcheckColor_dark]: hasVariant(
                 variants,
                 "checkColor",
                 "dark"
               ),
 
-              [sty.svg__checkColor_green]: hasVariant(
+              [sty.svgcheckColor_green]: hasVariant(
                 variants,
                 "checkColor",
                 "green"

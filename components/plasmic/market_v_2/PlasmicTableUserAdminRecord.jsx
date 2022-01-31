@@ -50,7 +50,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
           data-plasmic-name={"elementRadioPrimary"}
           data-plasmic-override={overrides.elementRadioPrimary}
           className={classNames("__wab_instance", sty.elementRadioPrimary, {
-            [sty.elementRadioPrimary__action_select]: hasVariant(
+            [sty.elementRadioPrimaryaction_select]: hasVariant(
               variants,
               "action",
               "select"
@@ -84,7 +84,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__qRux,
                 {
-                  [sty.text__action_select__qRuxWms]: hasVariant(
+                  [sty.textaction_select__qRuxWms]: hasVariant(
                     variants,
                     "action",
                     "select"
@@ -125,13 +125,13 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
           data-plasmic-name={"userRole"}
           data-plasmic-override={overrides.userRole}
           className={classNames(projectcss.all, sty.userRole, {
-            [sty.userRole__action_button]: hasVariant(
+            [sty.userRoleaction_button]: hasVariant(
               variants,
               "action",
               "button"
             ),
 
-            [sty.userRole__action_select]: hasVariant(
+            [sty.userRoleaction_select]: hasVariant(
               variants,
               "action",
               "select"
@@ -151,13 +151,13 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__bvk0V,
                 {
-                  [sty.text__action_button__bvk0V45Ld]: hasVariant(
+                  [sty.textaction_button__bvk0V45Ld]: hasVariant(
                     variants,
                     "action",
                     "button"
                   ),
 
-                  [sty.text__action_select__bvk0VWms]: hasVariant(
+                  [sty.textaction_select__bvk0VWms]: hasVariant(
                     variants,
                     "action",
                     "select"
@@ -173,7 +173,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               data-plasmic-name={"selectRole"}
               data-plasmic-override={overrides.selectRole}
               className={classNames("__wab_instance", sty.selectRole, {
-                [sty.selectRole__action_select]: hasVariant(
+                [sty.selectRoleaction_select]: hasVariant(
                   variants,
                   "action",
                   "select"
@@ -197,7 +197,7 @@ function PlasmicTableUserAdminRecord__RenderFunc(props) {
               data-plasmic-name={"buttonPrimary"}
               data-plasmic-override={overrides.buttonPrimary}
               className={classNames("__wab_instance", sty.buttonPrimary, {
-                [sty.buttonPrimary__action_button]: hasVariant(
+                [sty.buttonPrimaryaction_button]: hasVariant(
                   variants,
                   "action",
                   "button"

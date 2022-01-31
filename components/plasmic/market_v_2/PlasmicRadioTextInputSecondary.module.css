@@ -1,14 +1,14 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   width: auto;
   height: auto;
   position: relative;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
@@ -25,9 +25,9 @@
   align-self: flex-start;
 }
 .textParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   top: auto;
   left: auto;
   overflow: hidden;
@@ -37,8 +37,8 @@
 }
 .textParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -56,16 +56,16 @@
   font-size: 14px;
   line-height: 1;
 }
-.slotTargetItemText__size__12Px {
+.slotTargetItemTextsize__12Px {
   font-size: 12px;
 }
-.slotTargetItemText__size__16Px {
+.slotTargetItemTextsize__16Px {
   font-size: 16px;
 }
 .slotTargetDescriptionText {
   font-size: 10px;
   color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }
-.slotTargetDescriptionText__size__12Px {
+.slotTargetDescriptionTextsize__12Px {
   font-size: 8px;
 }

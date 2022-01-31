@@ -45,35 +45,35 @@ function PlasmicInputEmailB__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__size__160]: hasVariant(variants, "size", "_160"),
-        [sty.root__size__270]: hasVariant(variants, "size", "_270"),
-        [sty.root__size__360]: hasVariant(variants, "size", "_360"),
-        [sty.root__size__540]: hasVariant(variants, "size", "_540")
+        [sty.rootsize__160]: hasVariant(variants, "size", "_160"),
+        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+        [sty.rootsize__540]: hasVariant(variants, "size", "_540")
       })}
     >
       <p.Stack
         as={"div"}
         hasGap={true}
         className={classNames(projectcss.all, sty.freeBox___5O3PI, {
-          [sty.freeBox__size__160___5O3PICwFqr]: hasVariant(
+          [sty.freeBoxsize__160___5O3PICwFqr]: hasVariant(
             variants,
             "size",
             "_160"
           ),
 
-          [sty.freeBox__size__270___5O3PImCtWm]: hasVariant(
+          [sty.freeBoxsize__270___5O3PImCtWm]: hasVariant(
             variants,
             "size",
             "_270"
           ),
 
-          [sty.freeBox__size__360___5O3PIlmp10]: hasVariant(
+          [sty.freeBoxsize__360___5O3PIlmp10]: hasVariant(
             variants,
             "size",
             "_360"
           ),
 
-          [sty.freeBox__size__540___5O3PI4Ezsp]: hasVariant(
+          [sty.freeBoxsize__540___5O3PI4Ezsp]: hasVariant(
             variants,
             "size",
             "_540"
@@ -84,7 +84,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
           as={"div"}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__yp4Vd, {
-            [sty.freeBox__size__360__yp4VDlmp10]: hasVariant(
+            [sty.freeBoxsize__360__yp4VDlmp10]: hasVariant(
               variants,
               "size",
               "_360"
@@ -94,12 +94,17 @@ function PlasmicInputEmailB__RenderFunc(props) {
           <input
             data-plasmic-name={"textInput"}
             data-plasmic-override={overrides.textInput ?? overrides.textbox}
-            className={classNames(projectcss.input, sty.textInput, {
-              [sty.textInput__size__160]: hasVariant(variants, "size", "_160"),
-              [sty.textInput__size__270]: hasVariant(variants, "size", "_270"),
-              [sty.textInput__size__360]: hasVariant(variants, "size", "_360"),
-              [sty.textInput__size__540]: hasVariant(variants, "size", "_540")
-            })}
+            className={classNames(
+              projectcss.all,
+              projectcss.input,
+              sty.textInput,
+              {
+                [sty.textInputsize__160]: hasVariant(variants, "size", "_160"),
+                [sty.textInputsize__270]: hasVariant(variants, "size", "_270"),
+                [sty.textInputsize__360]: hasVariant(variants, "size", "_360"),
+                [sty.textInputsize__540]: hasVariant(variants, "size", "_540")
+              }
+            )}
             placeholder={"Enter your email address"}
             size={1}
             type={"text"}
@@ -118,25 +123,25 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 "__wab_instance",
                 sty.buttonPrimary__abtKj,
                 {
-                  [sty.buttonPrimary__size__160__abtKjCwFqr]: hasVariant(
+                  [sty.buttonPrimarysize__160__abtKjCwFqr]: hasVariant(
                     variants,
                     "size",
                     "_160"
                   ),
 
-                  [sty.buttonPrimary__size__270__abtKjMCtWm]: hasVariant(
+                  [sty.buttonPrimarysize__270__abtKjMCtWm]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
-                  [sty.buttonPrimary__size__360__abtKjlmp10]: hasVariant(
+                  [sty.buttonPrimarysize__360__abtKjlmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
                   ),
 
-                  [sty.buttonPrimary__size__540__abtKj4Ezsp]: hasVariant(
+                  [sty.buttonPrimarysize__540__abtKj4Ezsp]: hasVariant(
                     variants,
                     "size",
                     "_540"
@@ -152,7 +157,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text__kG9Sn,
                   {
-                    [sty.text__size__360__kG9SNlmp10]: hasVariant(
+                    [sty.textsize__360__kG9SNlmp10]: hasVariant(
                       variants,
                       "size",
                       "_360"
@@ -173,13 +178,13 @@ function PlasmicInputEmailB__RenderFunc(props) {
         {(hasVariant(variants, "size", "_270") ? true : false) ? (
           <ButtonPrimary
             className={classNames("__wab_instance", sty.buttonPrimary___42IUc, {
-              [sty.buttonPrimary__size__270___42IUcMCtWm]: hasVariant(
+              [sty.buttonPrimarysize__270___42IUcMCtWm]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.buttonPrimary__size__360___42IUclmp10]: hasVariant(
+              [sty.buttonPrimarysize__360___42IUclmp10]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -194,7 +199,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__qUzY2,
                 {
-                  [sty.text__size__360__qUzY2Lmp10]: hasVariant(
+                  [sty.textsize__360__qUzY2Lmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -217,19 +222,19 @@ function PlasmicInputEmailB__RenderFunc(props) {
         ) ? (
           <ButtonPrimary
             className={classNames("__wab_instance", sty.buttonPrimary__c34CP, {
-              [sty.buttonPrimary__size__160__c34CPCwFqr]: hasVariant(
+              [sty.buttonPrimarysize__160__c34CPCwFqr]: hasVariant(
                 variants,
                 "size",
                 "_160"
               ),
 
-              [sty.buttonPrimary__size__270__c34CPmCtWm]: hasVariant(
+              [sty.buttonPrimarysize__270__c34CPmCtWm]: hasVariant(
                 variants,
                 "size",
                 "_270"
               ),
 
-              [sty.buttonPrimary__size__360__c34CPlmp10]: hasVariant(
+              [sty.buttonPrimarysize__360__c34CPlmp10]: hasVariant(
                 variants,
                 "size",
                 "_360"
@@ -244,7 +249,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 projectcss.__wab_text,
                 sty.text__yItrW,
                 {
-                  [sty.text__size__360__yItrWlmp10]: hasVariant(
+                  [sty.textsize__360__yItrWlmp10]: hasVariant(
                     variants,
                     "size",
                     "_360"
@@ -261,7 +266,7 @@ function PlasmicInputEmailB__RenderFunc(props) {
         {(hasVariant(variants, "description", "description") ? false : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__dfyHp, {
-              [sty.freeBox__description__dfyHpL47Md]: hasVariant(
+              [sty.freeBoxdescription__dfyHpL47Md]: hasVariant(
                 variants,
                 "description",
                 "description"
@@ -273,31 +278,31 @@ function PlasmicInputEmailB__RenderFunc(props) {
                 "Free to join, no credit card required. By entering your email, you agree to receive marketing emails from Intrepid.",
               value: args.children,
               className: classNames(sty.slotTargetChildren, {
-                [sty.slotTargetChildren__description]: hasVariant(
+                [sty.slotTargetChildrendescription]: hasVariant(
                   variants,
                   "description",
                   "description"
                 ),
 
-                [sty.slotTargetChildren__size__160]: hasVariant(
+                [sty.slotTargetChildrensize__160]: hasVariant(
                   variants,
                   "size",
                   "_160"
                 ),
 
-                [sty.slotTargetChildren__size__270]: hasVariant(
+                [sty.slotTargetChildrensize__270]: hasVariant(
                   variants,
                   "size",
                   "_270"
                 ),
 
-                [sty.slotTargetChildren__size__360]: hasVariant(
+                [sty.slotTargetChildrensize__360]: hasVariant(
                   variants,
                   "size",
                   "_360"
                 ),
 
-                [sty.slotTargetChildren__size__540]: hasVariant(
+                [sty.slotTargetChildrensize__540]: hasVariant(
                   variants,
                   "size",
                   "_540"

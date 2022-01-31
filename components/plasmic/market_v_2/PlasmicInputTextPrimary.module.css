@@ -8,11 +8,11 @@
   height: auto;
   border-radius: 2px;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
-.root__width__90 {
+.rootwidth__90 {
   width: auto;
   height: auto;
   display: inline-flex;
@@ -26,42 +26,42 @@
   height: 40px;
   flex-shrink: 0;
 }
-.parent__width__720 {
+.parentwidth__720 {
   width: 720px;
 }
-.parent__width_stretch {
+.parentwidth_stretch {
   width: 100%;
   min-width: 0;
 }
-.parent__height__32 {
+.parentheight__32 {
   height: 32px;
   flex-shrink: 0;
 }
-.parent__height__36 {
+.parentheight__36 {
   height: 36px;
   flex-shrink: 0;
 }
-.parent__height__40 {
+.parentheight__40 {
   height: 40px;
   flex-shrink: 0;
 }
-.parent__height__48 {
+.parentheight__48 {
   height: 48px;
   flex-shrink: 0;
 }
-.parent__width__90 {
+.parentwidth__90 {
   width: 90px;
 }
-.parent__width__160 {
+.parentwidth__160 {
   width: 160px;
 }
-.parent__width__180 {
+.parentwidth__180 {
   width: 180px;
 }
-.parent__width__270 {
+.parentwidth__270 {
   width: 270px;
 }
-.parent__width__540 {
+.parentwidth__540 {
   width: 540px;
 }
 .textInput {
@@ -76,41 +76,41 @@
   border-radius: 4px;
   border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.textInput__height__32 {
+.textInputheight__32 {
   font-size: 16px;
   height: 32px;
   flex-shrink: 0;
 }
-.textInput__height__36 {
+.textInputheight__36 {
   font-size: 16px;
   height: 36px;
   flex-shrink: 0;
 }
-.textInput__height__40 {
+.textInputheight__40 {
   font-size: 16px;
   height: 40px;
   flex-shrink: 0;
 }
-.textInput__height__44 {
+.textInputheight__44 {
   height: 44px;
   flex-shrink: 0;
 }
-.textInput__height__48 {
+.textInputheight__48 {
   font-size: 16px;
   height: 48px;
   flex-shrink: 0;
 }
-.textInput__background_white {
+.textInputbackground_white {
   background: #ffffff;
 }
-.textInput__background_black {
+.textInputbackground_black {
   background: #101010;
   color: #ffffff /* plasmic-token: gJaAJBnXh */;
 }
-.textInput__type_secondary {
+.textInputtype_secondary {
   background: #f8f8f8;
 }
-.textInput__type_underline {
+.textInputtype_underline {
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
@@ -124,6 +124,6 @@
   outline: none;
   border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
-.root__type_underline:focus-within .textInput__type_underline {
+.roottype_underline:focus-within .textInputtype_underline {
   outline: none;
 }

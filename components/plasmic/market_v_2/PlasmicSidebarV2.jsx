@@ -96,7 +96,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
                   projectcss.__wab_text,
                   sty.text__y5Ot9,
                   {
-                    [sty.text__global_layout_isSellerView__y5Ot9Fw6NW]:
+                    [sty.textglobal_layout_isSellerView__y5Ot9Fw6NW]:
                       hasVariant(globalVariants, "layout", "isSellerView")
                   }
                 )}
@@ -120,7 +120,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
                       projectcss.__wab_text,
                       sty.text__wi3H,
                       {
-                        [sty.text__global_layout_isSellerView__wi3Hfw6NW]:
+                        [sty.textglobal_layout_isSellerView__wi3Hfw6NW]:
                           hasVariant(globalVariants, "layout", "isSellerView")
                       }
                     )}
@@ -469,8 +469,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-override={overrides.memberSwitchItem}
                 action={"_switch"}
                 className={classNames("__wab_instance", sty.memberSwitchItem, {
-                  [sty.memberSwitchItem__global_layout_isSellerView]:
-                    hasVariant(globalVariants, "layout", "isSellerView")
+                  [sty.memberSwitchItemglobal_layout_isSellerView]: hasVariant(
+                    globalVariants,
+                    "layout",
+                    "isSellerView"
+                  )
                 })}
                 navIcon={
                   <SwitchIcon
@@ -586,7 +589,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar163"}
                 data-plasmic-override={overrides.navUserAvatar163}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar163)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar163
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -595,7 +602,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar183"}
                 data-plasmic-override={overrides.navUserAvatar183}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar183)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar183
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -604,7 +615,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar243"}
                 data-plasmic-override={overrides.navUserAvatar243}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar243)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar243
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -613,7 +628,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar323"}
                 data-plasmic-override={overrides.navUserAvatar323}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar323)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar323
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -622,7 +641,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar403"}
                 data-plasmic-override={overrides.navUserAvatar403}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar403)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar403
+                )}
                 src={"/plasmic/market_v_2/images/collinUserImage.jpeg"}
               />
             }
@@ -631,7 +654,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar483"}
                 data-plasmic-override={overrides.navUserAvatar483}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar483)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar483
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -640,7 +667,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar643"}
                 data-plasmic-override={overrides.navUserAvatar643}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar643)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar643
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -649,7 +680,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar803"}
                 data-plasmic-override={overrides.navUserAvatar803}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar803)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar803
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             }
@@ -658,7 +693,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"partnerAvatar183"}
                 data-plasmic-override={overrides.partnerAvatar183}
                 alt={""}
-                className={classNames(projectcss.img, sty.partnerAvatar183)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.partnerAvatar183
+                )}
                 src={
                   "/plasmic/market_v_2/images/intrepidLogoSquareBlack2021Png.png"
                 }
@@ -669,7 +708,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"partnerAvatar243"}
                 data-plasmic-override={overrides.partnerAvatar243}
                 alt={""}
-                className={classNames(projectcss.img, sty.partnerAvatar243)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.partnerAvatar243
+                )}
                 src={
                   "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                 }
@@ -680,7 +723,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 data-plasmic-name={"partnerAvatar323"}
                 data-plasmic-override={overrides.partnerAvatar323}
                 alt={""}
-                className={classNames(projectcss.img, sty.partnerAvatar323)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.partnerAvatar323
+                )}
                 src={
                   "/plasmic/market_v_2/images/intrepidSqaureLogoBlack2021Png.png"
                 }

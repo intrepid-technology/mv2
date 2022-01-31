@@ -41,9 +41,9 @@
   padding: 8px;
 }
 .dialogDiv {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   height: auto;
   min-width: 0;
@@ -51,8 +51,8 @@
 }
 .dialogDiv > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 32px);
   height: calc(100% + 32px);

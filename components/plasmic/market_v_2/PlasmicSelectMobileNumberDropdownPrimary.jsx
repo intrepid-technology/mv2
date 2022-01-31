@@ -43,9 +43,9 @@ function PlasmicSelectMobileNumberDropdownPrimary__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__width__360]: hasVariant(variants, "width", "_360"),
-        [sty.root__width__380]: hasVariant(variants, "width", "_380"),
-        [sty.root__width_stretch]: hasVariant(variants, "width", "stretch")
+        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+        [sty.rootwidth__380]: hasVariant(variants, "width", "_380"),
+        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
       })}
     >
       <SelectGroupDropdownPrimary
@@ -55,7 +55,7 @@ function PlasmicSelectMobileNumberDropdownPrimary__RenderFunc(props) {
           "__wab_instance",
           sty.selectGroupDropdownPrimary,
           {
-            [sty.selectGroupDropdownPrimary__width_stretch]: hasVariant(
+            [sty.selectGroupDropdownPrimarywidth_stretch]: hasVariant(
               variants,
               "width",
               "stretch"

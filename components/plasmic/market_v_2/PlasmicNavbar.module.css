@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: row;
+  display: flex;
   width: 100%;
   height: 80px;
   padding-right: 8px;
@@ -11,8 +11,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -39,12 +39,12 @@
     justify-content: center;
   }
 }
-.root__auth > :global(.__wab_flex-container) {
+.rootauth > :global(.__wab_flex-container) {
   align-items: center;
   justify-content: flex-end;
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .root__auth > :global(.__wab_flex-container) {
+  .rootauth > :global(.__wab_flex-container) {
     justify-content: space-between;
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
@@ -53,10 +53,10 @@
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .root__auth > :global(.__wab_flex-container) > *,
-  .root__auth > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-  .root__auth > :global(.__wab_flex-container) > picture > img,
-  .root__auth
+  .rootauth > :global(.__wab_flex-container) > *,
+  .rootauth > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .rootauth > :global(.__wab_flex-container) > picture > img,
+  .rootauth
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
     > picture
@@ -66,12 +66,12 @@
   }
 }
 @media (max-width: 375px) {
-  .root__auth {
+  .rootauth {
     padding: 0px 8px;
   }
 }
 @media (max-width: 375px) {
-  .root__auth > :global(.__wab_flex-container) {
+  .rootauth > :global(.__wab_flex-container) {
     justify-content: space-between;
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
@@ -80,10 +80,10 @@
   }
 }
 @media (max-width: 375px) {
-  .root__auth > :global(.__wab_flex-container) > *,
-  .root__auth > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-  .root__auth > :global(.__wab_flex-container) > picture > img,
-  .root__auth
+  .rootauth > :global(.__wab_flex-container) > *,
+  .rootauth > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .rootauth > :global(.__wab_flex-container) > picture > img,
+  .rootauth
     > :global(.__wab_flex-container)
     > :global(.__wab_slot)
     > picture
@@ -92,18 +92,18 @@
     margin-top: 0px;
   }
 }
-.root__dark {
+.rootdark {
   background: #101010;
 }
 .brandWrapper {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .brandWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -123,23 +123,23 @@
     justify-content: center;
   }
 }
-.brandWrapper__auth {
+.brandWrapperauth {
   display: none;
 }
 @media (max-width: 375px) {
-  .navbarLogo__auth:global(.__wab_instance) {
+  .navbarLogoauth:global(.__wab_instance) {
     display: none;
   }
 }
 .actionWrapper {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
 }
 .actionWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -192,7 +192,7 @@
   align-items: stretch;
   justify-content: flex-start;
 }
-.authActionsWrapper__auth {
+.authActionsWrapperauth {
   display: flex;
 }
 .avatar:global(.__wab_instance) {
@@ -214,18 +214,18 @@
 .img > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.img__auth {
+.imgauth {
   width: 40px;
   height: 40px;
 }
 @media (min-width: 0px) and (max-width: 428px) {
-  .img__auth {
+  .imgauth {
     min-width: 40px;
     min-height: 40px;
   }
 }
 @media (max-width: 375px) {
-  .img__auth {
+  .imgauth {
     min-width: 40px;
     min-height: 40px;
   }

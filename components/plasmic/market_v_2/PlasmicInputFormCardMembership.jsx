@@ -47,14 +47,14 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root__border]: hasVariant(variants, "border", "border")
+        [sty.rootborder]: hasVariant(variants, "border", "border")
       })}
     >
       <div
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__border]: hasVariant(variants, "border", "border")
+          [sty.parentborder]: hasVariant(variants, "border", "border")
         })}
       >
         <p.Stack
@@ -63,11 +63,7 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
           data-plasmic-override={overrides.headlineParent}
           hasGap={true}
           className={classNames(projectcss.all, sty.headlineParent, {
-            [sty.headlineParent__border]: hasVariant(
-              variants,
-              "border",
-              "border"
-            )
+            [sty.headlineParentborder]: hasVariant(variants, "border", "border")
           })}
         >
           <p.Stack
@@ -142,7 +138,7 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
                   "Our Creator and Maker member accounts are free forever. To get the most from the Intrepid community, for professional purposes, or to work with a team, get started by creating a company or contacting sales.",
                 value: args.text,
                 className: classNames(sty.slotTargetText, {
-                  [sty.slotTargetText__border_link]:
+                  [sty.slotTargetTextborder_link]:
                     hasVariant(variants, "border", "border") &&
                     hasVariant(variants, "link", "link")
                 })
@@ -155,23 +151,23 @@ function PlasmicInputFormCardMembership__RenderFunc(props) {
           data-plasmic-name={"descriptionParent"}
           data-plasmic-override={overrides.descriptionParent}
           className={classNames(projectcss.all, sty.descriptionParent, {
-            [sty.descriptionParent__border_link]:
+            [sty.descriptionParentborder_link]:
               hasVariant(variants, "border", "border") &&
               hasVariant(variants, "link", "link"),
-            [sty.descriptionParent__button_link]:
+            [sty.descriptionParentbutton_link]:
               hasVariant(variants, "button", "button") &&
               hasVariant(variants, "link", "link"),
-            [sty.descriptionParent__link]: hasVariant(variants, "link", "link")
+            [sty.descriptionParentlink]: hasVariant(variants, "link", "link")
           })}
         >
           <div
             data-plasmic-name={"textLinkParent"}
             data-plasmic-override={overrides.textLinkParent}
             className={classNames(projectcss.all, sty.textLinkParent, {
-              [sty.textLinkParent__border_link]:
+              [sty.textLinkParentborder_link]:
                 hasVariant(variants, "border", "border") &&
                 hasVariant(variants, "link", "link"),
-              [sty.textLinkParent__link]: hasVariant(variants, "link", "link")
+              [sty.textLinkParentlink]: hasVariant(variants, "link", "link")
             })}
           >
             <TextLinkUnderlinePrimary

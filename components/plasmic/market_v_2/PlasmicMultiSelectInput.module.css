@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   position: relative;
   width: 100%;
   height: auto;
@@ -73,7 +73,7 @@
   min-width: 0;
   border-radius: 4px;
 }
-.optionGroup__isOpen {
+.optionGroupisOpen {
   display: flex;
 }
 .multiSelectOption__jkAto:global(.__wab_instance) {
@@ -86,15 +86,15 @@
   position: relative;
 }
 .selectedOptionsWrapper {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   padding: 4px 8px;
 }
 .selectedOptionsWrapper > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }

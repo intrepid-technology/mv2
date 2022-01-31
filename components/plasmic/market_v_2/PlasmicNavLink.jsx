@@ -33,13 +33,19 @@ function PlasmicNavLink__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root, {
-        [sty.root__color_brand]: hasVariant(variants, "color", "brand"),
-        [sty.root__color_ghost]: hasVariant(variants, "color", "ghost"),
-        [sty.root__color_light]: hasVariant(variants, "color", "light"),
-        [sty.root__state_disabled]: hasVariant(variants, "state", "disabled"),
-        [sty.root__state_selected]: hasVariant(variants, "state", "selected")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root,
+        {
+          [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
+          [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
+          [sty.rootstate_selected]: hasVariant(variants, "state", "selected")
+        }
+      )}
       component={Link}
       href={args.destination}
       platform={"nextjs"}
@@ -48,14 +54,10 @@ function PlasmicNavLink__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__color_brand]: hasVariant(variants, "color", "brand"),
-          [sty.parent__color_ghost]: hasVariant(variants, "color", "ghost"),
-          [sty.parent__color_light]: hasVariant(variants, "color", "light"),
-          [sty.parent__state_selected]: hasVariant(
-            variants,
-            "state",
-            "selected"
-          )
+          [sty.parentcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.parentcolor_ghost]: hasVariant(variants, "color", "ghost"),
+          [sty.parentcolor_light]: hasVariant(variants, "color", "light"),
+          [sty.parentstate_selected]: hasVariant(variants, "state", "selected")
         })}
       >
         <div
@@ -67,38 +69,38 @@ function PlasmicNavLink__RenderFunc(props) {
             data-plasmic-name={"textBg"}
             data-plasmic-override={overrides.textBg}
             className={classNames(projectcss.all, sty.textBg, {
-              [sty.textBg__color_light]: hasVariant(variants, "color", "light")
+              [sty.textBgcolor_light]: hasVariant(variants, "color", "light")
             })}
           >
             {p.renderPlasmicSlot({
               defaultContents: "Nav Link",
               value: args.linkText,
               className: classNames(sty.slotTargetLinkText, {
-                [sty.slotTargetLinkText__color_brand]: hasVariant(
+                [sty.slotTargetLinkTextcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
-                [sty.slotTargetLinkText__color_ghost]: hasVariant(
+                [sty.slotTargetLinkTextcolor_ghost]: hasVariant(
                   variants,
                   "color",
                   "ghost"
                 ),
 
-                [sty.slotTargetLinkText__color_light]: hasVariant(
+                [sty.slotTargetLinkTextcolor_light]: hasVariant(
                   variants,
                   "color",
                   "light"
                 ),
 
-                [sty.slotTargetLinkText__state_disabled]: hasVariant(
+                [sty.slotTargetLinkTextstate_disabled]: hasVariant(
                   variants,
                   "state",
                   "disabled"
                 ),
 
-                [sty.slotTargetLinkText__state_selected]: hasVariant(
+                [sty.slotTargetLinkTextstate_selected]: hasVariant(
                   variants,
                   "state",
                   "selected"

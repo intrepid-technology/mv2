@@ -45,14 +45,19 @@ function PlasmicChipUserProfile__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.a, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.a,
+        projectcss.root_reset,
+        sty.root
+      )}
       component={Link}
       platform={"nextjs"}
     >
       <p.PlasmicLink
         data-plasmic-name={"link"}
         data-plasmic-override={overrides.link}
-        className={classNames(projectcss.a, sty.link)}
+        className={classNames(projectcss.all, projectcss.a, sty.link)}
         component={Link}
         platform={"nextjs"}
       >
@@ -64,7 +69,11 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             defaultContents: (
               <img
                 alt={""}
-                className={classNames(projectcss.img, sty.img__fsHtd)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.img__fsHtd
+                )}
                 src={"/plasmic/market_v_2/images/image4.png"}
               />
             ),
@@ -86,7 +95,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
           as={"div"}
           hasGap={true}
           className={classNames(projectcss.all, sty.freeBox__m4FAi, {
-            [sty.freeBox__attributes_verification__m4FAiUnyVe]: hasVariant(
+            [sty.freeBoxattributes_verification__m4FAiUnyVe]: hasVariant(
               variants,
               "attributes",
               "verification"
@@ -97,7 +106,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
             as={"div"}
             hasGap={true}
             className={classNames(projectcss.all, sty.freeBox__y4Qr7, {
-              [sty.freeBox__attributes_verification__y4Qr7UnyVe]: hasVariant(
+              [sty.freeBoxattributes_verification__y4Qr7UnyVe]: hasVariant(
                 variants,
                 "attributes",
                 "verification"
@@ -124,7 +133,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   "__wab_instance",
                   sty.tagBadgeVerification,
                   {
-                    [sty.tagBadgeVerification__attributes_verification]:
+                    [sty.tagBadgeVerificationattributes_verification]:
                       hasVariant(variants, "attributes", "verification")
                   }
                 )}
@@ -147,13 +156,13 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 as={"div"}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.freeBox__fHhjX, {
-                  [sty.freeBox__attributes_membership__fHhjXeHral]: hasVariant(
+                  [sty.freeBoxattributes_membership__fHhjXeHral]: hasVariant(
                     variants,
                     "attributes",
                     "membership"
                   ),
 
-                  [sty.freeBox__attributes_rating__fHhjXk3J7I]: hasVariant(
+                  [sty.freeBoxattributes_rating__fHhjXk3J7I]: hasVariant(
                     variants,
                     "attributes",
                     "rating"
@@ -164,7 +173,7 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   data-plasmic-name={"tagPartnerD"}
                   data-plasmic-override={overrides.tagPartnerD}
                   className={classNames("__wab_instance", sty.tagPartnerD, {
-                    [sty.tagPartnerD__attributes_membership]: hasVariant(
+                    [sty.tagPartnerDattributes_membership]: hasVariant(
                       variants,
                       "attributes",
                       "membership"
@@ -181,9 +190,13 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   "__wab_instance",
                   sty.ratingDisplayDetail,
                   {
-                    [sty.ratingDisplayDetail__attributes_membership]:
-                      hasVariant(variants, "attributes", "membership"),
-                    [sty.ratingDisplayDetail__attributes_rating]: hasVariant(
+                    [sty.ratingDisplayDetailattributes_membership]: hasVariant(
+                      variants,
+                      "attributes",
+                      "membership"
+                    ),
+
+                    [sty.ratingDisplayDetailattributes_rating]: hasVariant(
                       variants,
                       "attributes",
                       "rating"
@@ -195,7 +208,11 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                   <p.PlasmicLink
                     data-plasmic-name={"reviewLinkB"}
                     data-plasmic-override={overrides.reviewLinkB}
-                    className={classNames(projectcss.a, sty.reviewLinkB)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.reviewLinkB
+                    )}
                     component={Link}
                     platform={"nextjs"}
                   >
@@ -214,7 +231,11 @@ function PlasmicChipUserProfile__RenderFunc(props) {
                 <p.PlasmicLink
                   data-plasmic-name={"reviewLinkA"}
                   data-plasmic-override={overrides.reviewLinkA}
-                  className={classNames(projectcss.a, sty.reviewLinkA)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    sty.reviewLinkA
+                  )}
                   component={Link}
                   platform={"nextjs"}
                 >

@@ -45,7 +45,7 @@ function PlasmicNativeSelectInput__RenderFunc(props) {
           data-plasmic-name={"labelWrapper"}
           data-plasmic-override={overrides.labelWrapper}
           className={classNames(projectcss.all, sty.labelWrapper, {
-            [sty.labelWrapper__hideLabel]: hasVariant(
+            [sty.labelWrapperhideLabel]: hasVariant(
               variants,
               "hideLabel",
               "hideLabel"

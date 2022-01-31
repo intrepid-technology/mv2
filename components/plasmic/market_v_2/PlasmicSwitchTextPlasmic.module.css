@@ -1,6 +1,6 @@
 .root {
-  display: inline-flex;
   flex-direction: row;
+  display: inline-flex;
   position: relative;
   width: auto;
   height: auto;
@@ -17,11 +17,11 @@
 .root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-left: 0px;
 }
-.root__isDisabled {
+.rootisDisabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.root_____focusVisibleWithin {
+.root___focusVisibleWithin {
   outline: none;
 }
 .toggle {
@@ -38,7 +38,7 @@
   outline: none;
   border-color: #1976d2;
 }
-.root .toggle_____focusVisibleWithin {
+.root .toggle___focusVisibleWithin {
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
@@ -58,10 +58,10 @@
   border-radius: 12px;
   border: 1px solid transparent;
 }
-.track__noLabel {
+.tracknoLabel {
   background: #3d4350;
 }
-.track__isChecked {
+.trackisChecked {
   background: #6633ff;
   border-width: 2px;
   border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
@@ -70,7 +70,7 @@
   outline: none;
   border-color: #1976d2;
 }
-.root .track_____focusVisibleWithin {
+.root .track___focusVisibleWithin {
   outline: none;
   border-style: dashed;
   border-color: #1976d2;
@@ -92,10 +92,10 @@
   border-radius: 100%;
   border: 1px solid transparent;
 }
-.thumb__noLabel {
+.thumbnoLabel {
   background: #f8f8f8;
 }
-.thumb__isChecked {
+.thumbisChecked {
   left: 20px;
   right: auto;
   background: #ffffff;
@@ -106,7 +106,7 @@
 .root:focus-within .thumb {
   outline: none;
 }
-.root .thumb_____focusVisibleWithin {
+.root .thumb___focusVisibleWithin {
   outline: none;
 }
 .labelContainer {
@@ -117,10 +117,10 @@
   justify-content: flex-start;
   margin-left: calc(8px + 0px) !important;
 }
-.labelContainer__noLabel {
+.labelContainernoLabel {
   margin-left: calc(8px + 0px) !important;
 }
-.root .labelContainer_____focusVisibleWithin {
+.root .labelContainer___focusVisibleWithin {
   margin-left: calc(8px + 0px) !important;
   outline: none;
 }
@@ -151,29 +151,25 @@
 .slotTargetChildren > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
   overflow: hidden;
 }
-.root .slotTargetChildren_____focusVisibleWithin > *,
-.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > *,
+.root .slotTargetChildren___focusVisibleWithin > *,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > *,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > .__wab_slot > *,
 .root
-  .slotTargetChildren_____focusVisibleWithin
-  > .__wab_slot
-  > .__wab_slot
-  > *,
-.root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot
   > *,
-.root .slotTargetChildren_____focusVisibleWithin > picture > img,
-.root .slotTargetChildren_____focusVisibleWithin > .__wab_slot > picture > img,
+.root .slotTargetChildren___focusVisibleWithin > picture > img,
+.root .slotTargetChildren___focusVisibleWithin > .__wab_slot > picture > img,
 .root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > picture
   > img,
 .root
-  .slotTargetChildren_____focusVisibleWithin
+  .slotTargetChildren___focusVisibleWithin
   > .__wab_slot
   > .__wab_slot
   > .__wab_slot

@@ -1,6 +1,6 @@
 .root {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   position: relative;
   height: auto;
@@ -10,8 +10,8 @@
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -23,17 +23,17 @@
   margin-top: 8px;
 }
 .headlineParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 100%;
   padding-bottom: 4px;
   min-width: 0;
 }
 .headlineParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-start;
+  align-items: stretch;
   min-width: 0;
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
@@ -59,7 +59,7 @@
   align-self: stretch;
   text-transform: uppercase;
 }
-.headlineCommunity__user_partner {
+.headlineCommunityuser_partner {
   font-size: 8px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -69,17 +69,17 @@
   letter-spacing: normal;
 }
 .elementUserbadges {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   width: 100%;
   padding-left: 8px;
   min-width: 0;
 }
 .elementUserbadges > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: flex-start;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
@@ -94,7 +94,7 @@
   > img {
   margin-left: 8px;
 }
-.elementUserbadges__user_partner {
+.elementUserbadgesuser_partner {
   height: auto;
 }
 .ratingDisplayDetail:global(.__wab_instance) {
@@ -112,9 +112,9 @@
   left: auto;
 }
 .elementUserSocialFollowingA {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -124,8 +124,8 @@
 }
 .elementUserSocialFollowingA > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -144,9 +144,9 @@
   margin-left: 6px;
 }
 .followingParent2 {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -155,8 +155,8 @@
 }
 .followingParent2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -193,9 +193,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .followersParent2 {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   flex-shrink: 0;
@@ -203,8 +203,8 @@
 }
 .followersParent2 > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -241,9 +241,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementMemberSubscriptionsLists {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -253,8 +253,8 @@
 }
 .elementMemberSubscriptionsLists > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -275,18 +275,18 @@
   > img {
   margin-left: 6px;
 }
-.elementMemberSubscriptionsLists__user_member {
+.elementMemberSubscriptionsListsuser_member {
   left: auto;
   top: auto;
 }
-.elementMemberSubscriptionsLists__user_partner {
+.elementMemberSubscriptionsListsuser_partner {
   left: auto;
   top: auto;
 }
 .memberSubscriptionCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -294,8 +294,8 @@
 }
 .memberSubscriptionCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -312,7 +312,7 @@
   > img {
   margin-top: 4px;
 }
-.memberSubscriptionCountParent__user_member {
+.memberSubscriptionCountParentuser_member {
   width: 120px;
   flex-shrink: 0;
   padding: 8px;
@@ -340,9 +340,9 @@
   font-weight: 400;
 }
 .memberListsCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   flex-shrink: 0;
@@ -350,8 +350,8 @@
 }
 .memberListsCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -368,14 +368,14 @@
   > img {
   margin-top: 4px;
 }
-.memberListsCountParent__user_member {
+.memberListsCountParentuser_member {
   width: 120px;
   height: 40px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.memberListsCountParent__user_member > :global(.__wab_flex-container) {
+.memberListsCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -384,16 +384,16 @@
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.memberListsCountParent__user_member > :global(.__wab_flex-container) > *,
-.memberListsCountParent__user_member
+.memberListsCountParentuser_member > :global(.__wab_flex-container) > *,
+.memberListsCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.memberListsCountParent__user_member
+.memberListsCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.memberListsCountParent__user_member
+.memberListsCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -424,9 +424,9 @@
   font-weight: 400;
 }
 .elementMemberFollowersTeams {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -436,8 +436,8 @@
 }
 .elementMemberFollowersTeams > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -455,14 +455,14 @@
   > img {
   margin-left: 6px;
 }
-.elementMemberFollowersTeams__user_member {
+.elementMemberFollowersTeamsuser_member {
   left: auto;
   top: auto;
 }
 .memberConnectionCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: flex-start;
@@ -471,8 +471,8 @@
 }
 .memberConnectionCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -489,14 +489,14 @@
   > img {
   margin-top: 4px;
 }
-.memberConnectionCountParent__user_member {
+.memberConnectionCountParentuser_member {
   width: 120px;
   height: 40px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.memberConnectionCountParent__user_member > :global(.__wab_flex-container) {
+.memberConnectionCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -505,16 +505,16 @@
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.memberConnectionCountParent__user_member > :global(.__wab_flex-container) > *,
-.memberConnectionCountParent__user_member
+.memberConnectionCountParentuser_member > :global(.__wab_flex-container) > *,
+.memberConnectionCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.memberConnectionCountParent__user_member
+.memberConnectionCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.memberConnectionCountParent__user_member
+.memberConnectionCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -545,9 +545,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .memberFollowersCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -556,8 +556,8 @@
 }
 .memberFollowersCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -574,14 +574,14 @@
   > img {
   margin-top: 4px;
 }
-.memberFollowersCountParent__user_member {
+.memberFollowersCountParentuser_member {
   width: 120px;
   height: 40px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.memberFollowersCountParent__user_member > :global(.__wab_flex-container) {
+.memberFollowersCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -590,16 +590,16 @@
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
-.memberFollowersCountParent__user_member > :global(.__wab_flex-container) > *,
-.memberFollowersCountParent__user_member
+.memberFollowersCountParentuser_member > :global(.__wab_flex-container) > *,
+.memberFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.memberFollowersCountParent__user_member
+.memberFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.memberFollowersCountParent__user_member
+.memberFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -630,9 +630,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementUserSocialFollowingB {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -642,8 +642,8 @@
 }
 .elementUserSocialFollowingB > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -662,9 +662,9 @@
   margin-left: 6px;
 }
 .followingParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -673,8 +673,8 @@
 }
 .followingParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -711,9 +711,9 @@
   font-weight: 400;
 }
 .followersParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   flex-shrink: 0;
@@ -721,8 +721,8 @@
 }
 .followersParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -759,9 +759,9 @@
   font-weight: 400;
 }
 .elementPartnerSubscriberReviewsParent {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -771,8 +771,8 @@
 }
 .elementPartnerSubscriberReviewsParent > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -793,18 +793,18 @@
   > img {
   margin-left: 6px;
 }
-.elementPartnerSubscriberReviewsParent__user_member {
+.elementPartnerSubscriberReviewsParentuser_member {
   left: auto;
   top: auto;
 }
-.elementPartnerSubscriberReviewsParent__user_partner {
+.elementPartnerSubscriberReviewsParentuser_partner {
   left: auto;
   top: auto;
 }
 .partnerSubscriberCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -812,8 +812,8 @@
 }
 .partnerSubscriberCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -830,14 +830,14 @@
   > img {
   margin-top: 4px;
 }
-.partnerSubscriberCountParent__user_member {
+.partnerSubscriberCountParentuser_member {
   width: 120px;
   height: 60px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.partnerSubscriberCountParent__user_member > :global(.__wab_flex-container) {
+.partnerSubscriberCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -846,16 +846,16 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.partnerSubscriberCountParent__user_member > :global(.__wab_flex-container) > *,
-.partnerSubscriberCountParent__user_member
+.partnerSubscriberCountParentuser_member > :global(.__wab_flex-container) > *,
+.partnerSubscriberCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.partnerSubscriberCountParent__user_member
+.partnerSubscriberCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.partnerSubscriberCountParent__user_member
+.partnerSubscriberCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -863,7 +863,7 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.partnerSubscriberCountParent__user_partner {
+.partnerSubscriberCountParentuser_partner {
   width: 120px;
   flex-shrink: 0;
 }
@@ -890,17 +890,17 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .partnerTeamReviewCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   flex-shrink: 0;
 }
 .partnerTeamReviewCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -917,14 +917,14 @@
   > img {
   margin-top: 4px;
 }
-.partnerTeamReviewCountParent__user_member {
+.partnerTeamReviewCountParentuser_member {
   width: 120px;
   height: 60px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.partnerTeamReviewCountParent__user_member > :global(.__wab_flex-container) {
+.partnerTeamReviewCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -933,16 +933,16 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.partnerTeamReviewCountParent__user_member > :global(.__wab_flex-container) > *,
-.partnerTeamReviewCountParent__user_member
+.partnerTeamReviewCountParentuser_member > :global(.__wab_flex-container) > *,
+.partnerTeamReviewCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.partnerTeamReviewCountParent__user_member
+.partnerTeamReviewCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.partnerTeamReviewCountParent__user_member
+.partnerTeamReviewCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -950,7 +950,7 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.partnerTeamReviewCountParent__user_partner {
+.partnerTeamReviewCountParentuser_partner {
   width: 120px;
   flex-shrink: 0;
 }
@@ -977,9 +977,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .elementUserFollowersTeams3 {
+  flex-direction: row;
   display: flex;
   position: relative;
-  flex-direction: row;
   left: auto;
   top: auto;
   height: auto;
@@ -989,8 +989,8 @@
 }
 .elementUserFollowersTeams3 > :global(.__wab_flex-container) {
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
   min-width: 0;
   margin-left: calc(0px - 6px);
   width: calc(100% + 6px);
@@ -1008,26 +1008,26 @@
   > img {
   margin-left: 6px;
 }
-.elementUserFollowersTeams3__user_member {
+.elementUserFollowersTeams3user_member {
   left: auto;
   top: auto;
 }
-.elementUserFollowersTeams3__user_partner {
+.elementUserFollowersTeams3user_partner {
   left: auto;
   top: auto;
 }
 .partnerConnectionsCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   flex-shrink: 0;
 }
 .partnerConnectionsCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -1044,14 +1044,14 @@
   > img {
   margin-top: 4px;
 }
-.partnerConnectionsCountParent__user_member {
+.partnerConnectionsCountParentuser_member {
   width: 120px;
   height: 60px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.partnerConnectionsCountParent__user_member > :global(.__wab_flex-container) {
+.partnerConnectionsCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1060,18 +1060,16 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.partnerConnectionsCountParent__user_member
-  > :global(.__wab_flex-container)
-  > *,
-.partnerConnectionsCountParent__user_member
+.partnerConnectionsCountParentuser_member > :global(.__wab_flex-container) > *,
+.partnerConnectionsCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.partnerConnectionsCountParent__user_member
+.partnerConnectionsCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.partnerConnectionsCountParent__user_member
+.partnerConnectionsCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -1079,7 +1077,7 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.partnerConnectionsCountParent__user_partner {
+.partnerConnectionsCountParentuser_partner {
   width: 120px;
   flex-shrink: 0;
 }
@@ -1106,9 +1104,9 @@
   color: #3d4350 /* plasmic-token: lJGpMo6-- */;
 }
 .partnerFollowersCountParent {
+  flex-direction: column;
   display: flex;
   position: relative;
-  flex-direction: column;
   width: 120px;
   height: 40px;
   align-self: auto;
@@ -1116,8 +1114,8 @@
 }
 .partnerFollowersCountParent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: calc(0px - 4px);
   height: calc(100% + 4px);
 }
@@ -1134,14 +1132,14 @@
   > img {
   margin-top: 4px;
 }
-.partnerFollowersCountParent__user_member {
+.partnerFollowersCountParentuser_member {
   width: 120px;
   height: 60px;
   flex-direction: column;
   flex-shrink: 0;
   padding: 8px;
 }
-.partnerFollowersCountParent__user_member > :global(.__wab_flex-container) {
+.partnerFollowersCountParentuser_member > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1150,16 +1148,16 @@
   margin-top: calc(0px - 8px);
   height: calc(100% + 8px);
 }
-.partnerFollowersCountParent__user_member > :global(.__wab_flex-container) > *,
-.partnerFollowersCountParent__user_member
+.partnerFollowersCountParentuser_member > :global(.__wab_flex-container) > *,
+.partnerFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > *,
-.partnerFollowersCountParent__user_member
+.partnerFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > picture
   > img,
-.partnerFollowersCountParent__user_member
+.partnerFollowersCountParentuser_member
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
@@ -1167,7 +1165,7 @@
   margin-left: 0px;
   margin-top: 8px;
 }
-.partnerFollowersCountParent__user_partner {
+.partnerFollowersCountParentuser_partner {
   width: 120px;
   flex-shrink: 0;
 }

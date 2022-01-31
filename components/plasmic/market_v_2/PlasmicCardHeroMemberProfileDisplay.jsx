@@ -59,7 +59,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         hasGap={true}
         className={classNames(projectcss.all, sty.parent, {
-          [sty.parent__userState_loggedIn]: hasVariant(
+          [sty.parentuserState_loggedIn]: hasVariant(
             variants,
             "userState",
             "loggedIn"
@@ -81,7 +81,11 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                 data-plasmic-name={"navUserAvatar80"}
                 data-plasmic-override={overrides.navUserAvatar80}
                 alt={""}
-                className={classNames(projectcss.img, sty.navUserAvatar80)}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.img,
+                  sty.navUserAvatar80
+                )}
                 src={
                   "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
                 }
@@ -338,7 +342,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
           data-plasmic-override={overrides.userButtons}
           hasGap={true}
           className={classNames(projectcss.all, sty.userButtons, {
-            [sty.userButtons__userState_loggedIn]: hasVariant(
+            [sty.userButtonsuserState_loggedIn]: hasVariant(
               variants,
               "userState",
               "loggedIn"
@@ -350,7 +354,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
               data-plasmic-name={"buttonLinkPrimary"}
               data-plasmic-override={overrides.buttonLinkPrimary}
               className={classNames("__wab_instance", sty.buttonLinkPrimary, {
-                [sty.buttonLinkPrimary__userState_loggedIn]: hasVariant(
+                [sty.buttonLinkPrimaryuserState_loggedIn]: hasVariant(
                   variants,
                   "userState",
                   "loggedIn"
@@ -373,7 +377,7 @@ function PlasmicCardHeroMemberProfileDisplay__RenderFunc(props) {
                     projectcss.__wab_text,
                     sty.text___2RhX,
                     {
-                      [sty.text__userState_loggedIn___2RhXmCOui]: hasVariant(
+                      [sty.textuserState_loggedIn___2RhXmCOui]: hasVariant(
                         variants,
                         "userState",
                         "loggedIn"

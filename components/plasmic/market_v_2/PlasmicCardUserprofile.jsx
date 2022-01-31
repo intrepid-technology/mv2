@@ -68,7 +68,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <button
             data-plasmic-name={"saveProfile"}
             data-plasmic-override={overrides.saveProfile}
-            className={classNames(projectcss.button, sty.saveProfile)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.saveProfile
+            )}
           >
             <IconPrimary
               data-plasmic-name={"iconPrimary"}
@@ -201,7 +205,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <button
             data-plasmic-name={"viewButton"}
             data-plasmic-override={overrides.viewButton}
-            className={classNames(projectcss.button, sty.viewButton)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.viewButton
+            )}
           >
             <ViewIcon
               data-plasmic-name={"viewDisplay"}
@@ -240,7 +248,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <button
             data-plasmic-name={"heartButton"}
             data-plasmic-override={overrides.heartButton}
-            className={classNames(projectcss.button, sty.heartButton)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.heartButton
+            )}
           >
             <HeartFillIcon
               data-plasmic-name={"heartDisplay"}
@@ -279,7 +291,11 @@ function PlasmicCardUserprofile__RenderFunc(props) {
           <button
             data-plasmic-name={"bookmarkButton"}
             data-plasmic-override={overrides.bookmarkButton}
-            className={classNames(projectcss.button, sty.bookmarkButton)}
+            className={classNames(
+              projectcss.all,
+              projectcss.button,
+              sty.bookmarkButton
+            )}
           >
             <BookmarkIcon
               data-plasmic-name={"bookmarkDisplay"}

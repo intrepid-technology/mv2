@@ -10,28 +10,25 @@ export function Icon52Icon(props) {
   return (
     <svg
       xmlns={"http://www.w3.org/2000/svg"}
-      viewBox={"0 0 24 24"}
-      fill={"none"}
       stroke={"currentColor"}
-      strokeWidth={"1.5"}
-      strokeLinecap={"round"}
-      strokeLinejoin={"round"}
-      className={classNames(
-        "plasmic-default__svg",
-        className,
-        "feather feather-plus"
-      )}
+      fill={"currentColor"}
+      strokeWidth={"0"}
+      viewBox={"0 0 16 16"}
       height={"1em"}
       width={"1em"}
-      style={{
-        stroke: "currentcolor",
-        ...(style || {}),
-      }}
+      className={classNames("plasmic-default__svg", className)}
+      style={style}
       {...restProps}
     >
       {title && <title>{title}</title>}
 
-      <path d={"M12 5v14m-7-7h14"}></path>
+      <path
+        fillRule={"evenodd"}
+        d={
+          "M1 8a.5.5 0 01.5-.5h11.793l-3.147-3.146a.5.5 0 01.708-.708l4 4a.5.5 0 010 .708l-4 4a.5.5 0 01-.708-.708L13.293 8.5H1.5A.5.5 0 011 8z"
+        }
+        stroke={"none"}
+      ></path>
     </svg>
   );
 }

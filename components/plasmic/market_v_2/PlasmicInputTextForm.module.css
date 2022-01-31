@@ -7,13 +7,13 @@
   width: auto;
   height: auto;
 }
-.root__width_stretch {
+.rootwidth_stretch {
   width: 100%;
   min-width: 0;
 }
 .parent {
-  display: flex;
   flex-direction: column;
+  display: flex;
   width: 100%;
   height: auto;
   align-self: auto;
@@ -21,8 +21,8 @@
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-evenly;
+  align-items: flex-start;
   min-width: 0;
   margin-top: calc(0px - 6px);
   height: calc(100% + 6px);
@@ -37,28 +37,28 @@
   > img {
   margin-top: 6px;
 }
-.parent__width__380 {
+.parentwidth__380 {
   width: 380px;
 }
-.parent__width__540 {
+.parentwidth__540 {
   width: 540px;
 }
-.parent__width__720 {
+.parentwidth__720 {
   width: 720px;
 }
-.parent__width__120 {
+.parentwidth__120 {
   width: 120px;
 }
-.parent__width__144 {
+.parentwidth__144 {
   width: 144px;
 }
-.parent__width__160 {
+.parentwidth__160 {
   width: 160px;
 }
-.parent__width__180 {
+.parentwidth__180 {
   width: 180px;
 }
-.parent__width__270 {
+.parentwidth__270 {
   width: 270px;
 }
 .labelHeadlineParent {
@@ -70,26 +70,26 @@
   width: 100%;
   min-width: 0;
 }
-.labelHeadlineParent__label {
+.labelHeadlineParentlabel {
   display: none;
 }
-.labelHeadlineParent__width__380 {
+.labelHeadlineParentwidth__380 {
   width: 380px;
 }
-.labelHeadlineParent__width__180 {
+.labelHeadlineParentwidth__180 {
   width: 180px;
 }
 .slotTargetLabelHeadline {
   color: #14161b /* plasmic-token: MAJ29KQMI */;
   line-height: 1;
 }
-.slotTargetLabelHeadline__width__720 {
+.slotTargetLabelHeadlinewidth__720 {
   font-size: 16px;
 }
-.slotTargetLabelHeadline__width__180 {
+.slotTargetLabelHeadlinewidth__180 {
   font-size: 14px;
 }
-.slotTargetLabelHeadline__width__270 {
+.slotTargetLabelHeadlinewidth__270 {
   font-size: 12px;
 }
 .root:focus-within .slotTargetLabelHeadline > *,
@@ -126,13 +126,13 @@
   height: auto;
   min-width: 0;
 }
-.inputParent__width__360 {
+.inputParentwidth__360 {
   width: 360px;
 }
-.inputParent__width__380 {
+.inputParentwidth__380 {
   width: 380px;
 }
-.inputParent__width__180 {
+.inputParentwidth__180 {
   width: 100%;
   min-width: 0;
 }
@@ -158,30 +158,30 @@
   border-radius: 0px;
   border-color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
 }
-.textInput__height__32 {
+.textInputheight__32 {
   font-size: 14px;
   height: 32px;
   flex-shrink: 0;
 }
-.textInput__height__36 {
+.textInputheight__36 {
   height: 36px;
   flex-shrink: 0;
 }
-.textInput__height__40 {
+.textInputheight__40 {
   height: 40px;
   font-size: 18px;
   flex-shrink: 0;
 }
-.textInput__height__44 {
+.textInputheight__44 {
   height: 44px;
   flex-shrink: 0;
 }
-.textInput__height__48 {
+.textInputheight__48 {
   height: 48px;
   font-size: 24px;
   flex-shrink: 0;
 }
-.textInput__type_secondary {
+.textInputtype_secondary {
   background: #f8f8f8;
 }
 .root:hover .textInput {
@@ -214,14 +214,14 @@
   flex-shrink: 0;
   border-color: #14161b /* plasmic-token: zi5VxOARL */;
 }
-.root__type_secondary:hover .textInput__type_secondary {
+.roottype_secondary:hover .textInputtype_secondary {
   background: #f8f8f8;
 }
 .root:focus-within .textInput {
   outline: none;
   border-color: #5229cc /* plasmic-token: brleuPgaD */;
 }
-.root__type_secondary:focus-within .textInput__type_secondary {
+.roottype_secondary:focus-within .textInputtype_secondary {
   outline: none;
 }
 .descriptionParent {
@@ -234,13 +234,13 @@
   padding-top: 4px;
   min-width: 0;
 }
-.descriptionParent__label {
+.descriptionParentlabel {
   display: flex;
 }
-.descriptionParent__width__380 {
+.descriptionParentwidth__380 {
   width: 380px;
 }
-.descriptionParent__width__180 {
+.descriptionParentwidth__180 {
   width: 180px;
 }
 .slotTargetDescription {
@@ -251,10 +251,10 @@
   line-height: 1;
   color: #3d4350 /* plasmic-token: UPK7EIst5 */;
 }
-.slotTargetDescription__width__180 {
+.slotTargetDescriptionwidth__180 {
   font-size: 14px;
 }
-.slotTargetDescription__width__270 {
+.slotTargetDescriptionwidth__270 {
   font-size: 12px;
 }
 .root:focus-within .slotTargetDescription > *,

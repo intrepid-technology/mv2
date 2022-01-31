@@ -75,7 +75,7 @@ function PlasmicTablePricing__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root___switch]: hasVariant(variants, "_switch", "_switch")
+        [sty.root_switch]: hasVariant(variants, "_switch", "_switch")
       })}
     >
       <TablePricingTierDisplay
@@ -117,7 +117,7 @@ function PlasmicTablePricing__RenderFunc(props) {
             projectcss.all,
             sty.pricingTableDropDownDrawerParent,
             {
-              [sty.pricingTableDropDownDrawerParent___switch]: hasVariant(
+              [sty.pricingTableDropDownDrawerParent_switch]: hasVariant(
                 variants,
                 "_switch",
                 "_switch"

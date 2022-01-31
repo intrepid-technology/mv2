@@ -53,7 +53,7 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
         {(hasVariant(variants, "label", "label") ? true : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__oQwDj, {
-              [sty.freeBox__label__oQwDjhEbzp]: hasVariant(
+              [sty.freeBoxlabel__oQwDjhEbzp]: hasVariant(
                 variants,
                 "label",
                 "label"
@@ -74,13 +74,13 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
           data-plasmic-name={"inputIconPrefixSuffix"}
           data-plasmic-override={overrides.inputIconPrefixSuffix}
           className={classNames("__wab_instance", sty.inputIconPrefixSuffix, {
-            [sty.inputIconPrefixSuffix__prefix]: hasVariant(
+            [sty.inputIconPrefixSuffixprefix]: hasVariant(
               variants,
               "prefix",
               "prefix"
             ),
 
-            [sty.inputIconPrefixSuffix__suffix]: hasVariant(
+            [sty.inputIconPrefixSuffixsuffix]: hasVariant(
               variants,
               "suffix",
               "suffix"
@@ -94,13 +94,13 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
         {(hasVariant(variants, "description", "description") ? true : true) ? (
           <div
             className={classNames(projectcss.all, sty.freeBox__e7Fb, {
-              [sty.freeBox__description__e7FbRxNrc]: hasVariant(
+              [sty.freeBoxdescription__e7FbRxNrc]: hasVariant(
                 variants,
                 "description",
                 "description"
               ),
 
-              [sty.freeBox__label__e7FbHEbzp]: hasVariant(
+              [sty.freeBoxlabel__e7FbHEbzp]: hasVariant(
                 variants,
                 "label",
                 "label"
@@ -109,7 +109,7 @@ function PlasmicInputGroupIconPrefixSuffix__RenderFunc(props) {
           >
             <div
               className={classNames(projectcss.all, sty.freeBox__jGArw, {
-                [sty.freeBox__description__jGArwrxNrc]: hasVariant(
+                [sty.freeBoxdescription__jGArwrxNrc]: hasVariant(
                   variants,
                   "description",
                   "description"

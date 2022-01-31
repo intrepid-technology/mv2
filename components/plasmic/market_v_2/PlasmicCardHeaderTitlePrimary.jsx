@@ -41,7 +41,7 @@ function PlasmicCardHeaderTitlePrimary__RenderFunc(props) {
       <h5
         data-plasmic-name={"headlineLabel"}
         data-plasmic-override={overrides.headlineLabel}
-        className={classNames(projectcss.h5, sty.headlineLabel)}
+        className={classNames(projectcss.all, projectcss.h5, sty.headlineLabel)}
       >
         <div className={classNames(projectcss.all, sty.freeBox__xnfZf)}>
           {p.renderPlasmicSlot({

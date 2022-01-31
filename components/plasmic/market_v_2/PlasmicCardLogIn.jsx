@@ -42,8 +42,8 @@ function PlasmicCardLogIn__RenderFunc(props) {
         projectcss.root_reset,
         sty.formLogin,
         {
-          [sty.formLogin__size__360]: hasVariant(variants, "size", "_360"),
-          [sty.formLogin__size__540]: hasVariant(variants, "size", "_540")
+          [sty.formLoginsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.formLoginsize__540]: hasVariant(variants, "size", "_540")
         }
       )}
       id={args.id}
@@ -70,7 +70,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
         <input
           data-plasmic-name={"email"}
           data-plasmic-override={overrides.email}
-          className={classNames(projectcss.input, sty.email)}
+          className={classNames(projectcss.all, projectcss.input, sty.email)}
           placeholder={"Enter your email address"}
           size={1}
           type={"text"}
@@ -100,7 +100,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
         <input
           data-plasmic-name={"password"}
           data-plasmic-override={overrides.password}
-          className={classNames(projectcss.input, sty.password)}
+          className={classNames(projectcss.all, projectcss.input, sty.password)}
           placeholder={
             args.placeholder !== undefined
               ? args.placeholder
@@ -157,6 +157,7 @@ function PlasmicCardLogIn__RenderFunc(props) {
             data-plasmic-name={"resetPassword"}
             data-plasmic-override={overrides.resetPassword}
             className={classNames(
+              projectcss.all,
               projectcss.a,
               projectcss.__wab_text,
               sty.resetPassword
