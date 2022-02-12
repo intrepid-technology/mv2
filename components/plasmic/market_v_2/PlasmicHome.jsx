@@ -55,14 +55,14 @@ function PlasmicHome__RenderFunc(props) {
         <meta name="twitter:card" content="summary" />
         <title key="title">
           {
-            "Manage a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
+            "Find, hire, and pay a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
           }
         </title>
         <meta
           key="og:title"
           property="og:title"
           content={
-            "Manage a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
+            "Find, hire, and pay a remote team, or remote work from anywhere—all on one platform | Intrepid Remote OS"
           }
         />
 
@@ -71,7 +71,7 @@ function PlasmicHome__RenderFunc(props) {
           property="og:description"
           name="description"
           content={
-            "Manage a remote team, work from anywhere, and scale on demand. Find, hire, manage and pay— high quality freelancers & agencies in 150 countries."
+            "Remote OS is a global payments and employment platform for companies to find, hire, and pay freelancers and remote employees in any country."
           }
         />
 
@@ -79,7 +79,7 @@ function PlasmicHome__RenderFunc(props) {
           key="og:image"
           property="og:image"
           content={
-            "https://site-assets.plasmic.app/130fae33d5839fbaafadcb72a0218946.png"
+            "https://site-assets.plasmic.app/5e253194ac218e7e26a1a85c778bdf3d.png"
           }
         />
       </Head>
@@ -243,9 +243,9 @@ function PlasmicHome__RenderFunc(props) {
                               "screen",
                               "iphone12ProMax"
                             )
-                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—build your remote team and scale on demand from anywhere in the world."
+                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS makes it easy for remote companies to find, hire, manage and pay high quality freelancers and agencies in 150 countries—build your remote team and scale on demand from anywhere in the world."
+                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -575,8 +575,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text___4YJnh
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services designed for remote companies."
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services and personalised benefits designed for remote companies."
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services and personalised benefits designed for remote companies."
                       : "Your company wants to work remotely. Help them be productive and happy wherever they are—from anywhere in the world, with full transparency into your operations, and financial services designed for remote companies."}
                   </div>
                 </p.Stack>
@@ -651,13 +653,13 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "iphone678")
-                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
+                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
+                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
+                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
+                      ? "Automated freelance and employee recommendations that match your needs and budget—saving you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 
