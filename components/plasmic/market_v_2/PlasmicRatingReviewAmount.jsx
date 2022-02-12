@@ -31,7 +31,13 @@ function PlasmicRatingReviewAmount__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root
+      )}
     >
       <div className={classNames(projectcss.all, sty.freeBox__q5Y0Z)}>
         <div className={classNames(projectcss.all, sty.freeBox___6AahO)}>

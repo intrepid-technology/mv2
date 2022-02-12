@@ -28,7 +28,7 @@
   background: #ffffff;
   right: 0;
   padding: 0px 24px;
-  border-bottom: 1px solid #e0e2e7 /* plasmic-token: aWbt8exrr */;
+  border-bottom: 1px solid var(--token-aWbt8exrr);
 }
 .navigationWrapper > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -140,7 +140,7 @@
 .slotTargetPageHeading {
   font-size: 24px;
   font-weight: 500;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }
 .freeBox__gSmZe {
   display: flex;
@@ -339,7 +339,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  border-left: 1px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border-left: 1px solid var(--token-TctF8-gJH);
 }
 .pageScrollNavigations__eBwom:global(.__wab_instance) {
   max-width: 100%;

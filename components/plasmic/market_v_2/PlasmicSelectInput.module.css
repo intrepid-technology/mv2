@@ -15,12 +15,12 @@
   display: flex;
   height: 40px;
   width: 100%;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
   flex-shrink: 0;
   border-radius: 4px;
   padding: 8px 10px;
-  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border: 2px solid var(--token-TctF8-gJH);
 }
 .trigger > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -50,11 +50,11 @@
   cursor: not-allowed;
 }
 .triggertype_primary {
-  background: #ffffff;
-  border-color: #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  background: var(--token-5XhQ_b_Lb);
+  border-color: var(--token-TctF8-gJH);
 }
 .triggertype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   border-radius: 4px;
 }
 .triggerwidth__90 {
@@ -71,17 +71,17 @@
 }
 .root:focus-within .trigger {
   outline: none;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .root .trigger___focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .root:hover:not(:focus-within) .trigger {
   background: #ffffff;
   outline: none;
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .contentContainer {
   display: flex;
@@ -133,7 +133,7 @@
 }
 .slotTargetPlaceholder {
   white-space: pre;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   font-style: normal;
 }
 .slotTargetPlaceholder > .__wab_text,

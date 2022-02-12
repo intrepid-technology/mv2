@@ -68,16 +68,23 @@ function PlasmicImagePrimary__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parent_11__270X270]: hasVariant(variants, "_11", "_270X270"),
-        [sty.parent_43__360X270]: hasVariant(variants, "_43", "_360X270"),
-        [sty.parentmisc__114X64]: hasVariant(variants, "misc", "_114X64"),
-        [sty.parentmisc_thumbnail70X40]: hasVariant(
-          variants,
-          "misc",
-          "thumbnail70X40"
-        )
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.parent,
+        {
+          [sty.parent_11__270X270]: hasVariant(variants, "_11", "_270X270"),
+          [sty.parent_43__360X270]: hasVariant(variants, "_43", "_360X270"),
+          [sty.parentmisc__114X64]: hasVariant(variants, "misc", "_114X64"),
+          [sty.parentmisc_thumbnail70X40]: hasVariant(
+            variants,
+            "misc",
+            "thumbnail70X40"
+          )
+        }
+      )}
     >
       <div
         data-plasmic-name={"imageBg"}

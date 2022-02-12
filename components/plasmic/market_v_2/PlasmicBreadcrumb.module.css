@@ -37,21 +37,21 @@
   cursor: pointer;
 }
 .slotTargetLabel {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   font-size: 18px;
   font-weight: 500;
 }
 .slotTargetLabelisSelected {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .roothasDestination:hover .slotTargetLabelhasDestination {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .text {
   position: relative;
   width: auto;
   height: auto;
   max-width: 800px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   font-size: 18px;
 }

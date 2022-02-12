@@ -36,11 +36,18 @@ function PlasmicInputTextPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.roottype_underline]: hasVariant(variants, "type", "underline"),
-        [sty.rootwidth__90]: hasVariant(variants, "width", "_90"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.roottype_underline]: hasVariant(variants, "type", "underline"),
+          [sty.rootwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}

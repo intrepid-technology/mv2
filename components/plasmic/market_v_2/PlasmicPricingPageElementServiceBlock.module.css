@@ -40,14 +40,14 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   text-transform: uppercase;
 }
 .svg__hgWzK {
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .slotTargetSlot4 {
   font-weight: 600;
@@ -56,17 +56,17 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .svg___8SYou {
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .svg__xGsUp {
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }

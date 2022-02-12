@@ -33,13 +33,20 @@ function PlasmicAccordion__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootisOpen]: hasVariant(variants, "isOpen", "isOpen"),
-        [sty.rootsize_small]: hasVariant(variants, "size", "small"),
-        [sty.rootsize_small_isOpen]:
-          hasVariant(variants, "size", "small") &&
-          hasVariant(variants, "isOpen", "isOpen")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootisOpen]: hasVariant(variants, "isOpen", "isOpen"),
+          [sty.rootsize_small]: hasVariant(variants, "size", "small"),
+          [sty.rootsize_small_isOpen]:
+            hasVariant(variants, "size", "small") &&
+            hasVariant(variants, "isOpen", "isOpen")
+        }
+      )}
     >
       <div
         data-plasmic-name={"header"}

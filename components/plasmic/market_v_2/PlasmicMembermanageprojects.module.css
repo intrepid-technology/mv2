@@ -226,14 +226,14 @@
 }
 .slotTargetListingNumber {
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .text__nBju3 {
   position: relative;
   left: auto;
   top: auto;
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .freeBox__xYhA {
   flex-direction: column;
@@ -244,7 +244,7 @@
   left: auto;
   top: auto;
   padding: 0px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .freeBox__xYhA > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -374,8 +374,8 @@
   height: auto;
   left: auto;
   top: auto;
-  background: #f8f8f8;
-  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  background: var(--token-530QP0ccB);
+  border: 1px solid var(--token-i5T_lGWIG);
 }
 .orderTableColumnMain > :global(.__wab_flex-container) {
   flex-direction: column;

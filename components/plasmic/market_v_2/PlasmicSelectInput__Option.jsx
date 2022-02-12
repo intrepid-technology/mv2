@@ -46,16 +46,28 @@ function PlasmicSelectInput__Option__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
-        [sty.rootisHighlighted]: hasVariant(
-          variants,
-          "isHighlighted",
-          "isHighlighted"
-        ),
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootisDisabled]: hasVariant(
+            variants,
+            "isDisabled",
+            "isDisabled"
+          ),
 
-        [sty.rootisSelected]: hasVariant(variants, "isSelected", "isSelected")
-      })}
+          [sty.rootisHighlighted]: hasVariant(
+            variants,
+            "isHighlighted",
+            "isHighlighted"
+          ),
+
+          [sty.rootisSelected]: hasVariant(variants, "isSelected", "isSelected")
+        }
+      )}
     >
       <div
         data-plasmic-name={"labelContainer"}

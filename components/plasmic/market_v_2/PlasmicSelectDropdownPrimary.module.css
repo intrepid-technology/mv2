@@ -17,11 +17,11 @@
   padding-right: 8px;
   padding-left: 8px;
   width: 100%;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border: 2px solid var(--token-TctF8-gJH);
 }
 .trigger > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -51,8 +51,8 @@
   cursor: not-allowed;
 }
 .triggercolor_light {
-  background: #ffffff;
-  border-color: #f0f1f3 /* plasmic-token: deafmaGIp */;
+  background: var(--token-5XhQ_b_Lb);
+  border-color: var(--token-deafmaGIp);
 }
 .triggerwidth__120 {
   width: 120px;
@@ -102,7 +102,7 @@
 }
 .slotTargetSelectedContent {
   white-space: pre;
-  color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
+  color: var(--token-4w2aiN6Mt);
 }
 .slotTargetSelectedContent > .__wab_text,
 .slotTargetSelectedContent > .__wab_slot-string-wrapper,
@@ -142,7 +142,7 @@
 }
 .slotTargetPlaceholder {
   white-space: pre;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   font-style: normal;
 }
 .slotTargetPlaceholder > .__wab_text,
@@ -179,7 +179,7 @@
   object-fit: cover;
   width: 1em;
   height: 1em;
-  color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
+  color: var(--token-4w2aiN6Mt);
   flex-shrink: 0;
 }
 .root .dropdownIcon___focusVisibleWithin {

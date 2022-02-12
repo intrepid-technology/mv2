@@ -4,7 +4,7 @@
   width: 100%;
   height: auto;
   position: relative;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-width: 0;
   padding: 40px 80px;
 }
@@ -18,7 +18,7 @@
   .root {
     padding-left: 64px;
     padding-top: 40px;
-    background: #f1f1f1;
+    background: var(--token-_lNibwHIy);
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -54,7 +54,7 @@
   }
 }
 .rootcolor {
-  background: #101010;
+  background: var(--token-VLxGX_Tro);
 }
 .freeBox__n566F {
   flex-direction: column;
@@ -202,7 +202,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   left: auto;
@@ -210,11 +210,11 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text__fvAb7 {
-    color: #101010 /* plasmic-token: F4gy0u3aB */;
+    color: var(--token-F4gy0u3aB);
   }
 }
 .textcolor__fvAb74Sg3R {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .footerLink__prkiM:global(.__wab_instance) {
   position: relative;
@@ -271,7 +271,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   left: auto;
@@ -279,11 +279,11 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text__rqdjj {
-    color: #101010 /* plasmic-token: F4gy0u3aB */;
+    color: var(--token-F4gy0u3aB);
   }
 }
 .textcolor__rqdjj4Sg3R {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .footerLink__jNuuu:global(.__wab_instance) {
   position: relative;
@@ -334,7 +334,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   left: auto;
@@ -342,11 +342,11 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .text___9Wf6 {
-    color: #101010 /* plasmic-token: F4gy0u3aB */;
+    color: var(--token-F4gy0u3aB);
   }
 }
 .textcolor___9Wf64Sg3R {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .footerLink__c1As0:global(.__wab_instance) {
   position: relative;
@@ -783,5 +783,5 @@
   }
 }
 .textcolor__mJnXf4Sg3R {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }

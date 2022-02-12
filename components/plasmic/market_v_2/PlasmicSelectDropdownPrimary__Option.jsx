@@ -48,86 +48,98 @@ function PlasmicSelectDropdownPrimary__Option__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
-        [sty.rootisHighlighted]: hasVariant(
-          variants,
-          "isHighlighted",
-          "isHighlighted"
-        ),
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootisDisabled]: hasVariant(
+            variants,
+            "isDisabled",
+            "isDisabled"
+          ),
 
-        [sty.rootwidth__120]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_120"
-        ),
+          [sty.rootisHighlighted]: hasVariant(
+            variants,
+            "isHighlighted",
+            "isHighlighted"
+          ),
 
-        [sty.rootwidth__144]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_144"
-        ),
+          [sty.rootwidth__120]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_120"
+          ),
 
-        [sty.rootwidth__160]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_160"
-        ),
+          [sty.rootwidth__144]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_144"
+          ),
 
-        [sty.rootwidth__180]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_180"
-        ),
+          [sty.rootwidth__160]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_160"
+          ),
 
-        [sty.rootwidth__270]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_270"
-        ),
+          [sty.rootwidth__180]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_180"
+          ),
 
-        [sty.rootwidth__360]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_360"
-        ),
+          [sty.rootwidth__270]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_270"
+          ),
 
-        [sty.rootwidth__540]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_540"
-        ),
+          [sty.rootwidth__360]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_360"
+          ),
 
-        [sty.rootwidth__720]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_720"
-        ),
+          [sty.rootwidth__540]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_540"
+          ),
 
-        [sty.rootwidth__90]: hasVariant(
-          (superContexts.SelectDropdownPrimary &&
-            superContexts.SelectDropdownPrimary.variants) ||
-            {},
-          "width",
-          "_90"
-        )
-      })}
+          [sty.rootwidth__720]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_720"
+          ),
+
+          [sty.rootwidth__90]: hasVariant(
+            (superContexts.SelectDropdownPrimary &&
+              superContexts.SelectDropdownPrimary.variants) ||
+              {},
+            "width",
+            "_90"
+          )
+        }
+      )}
     >
       <div
         data-plasmic-name={"labelContainer"}

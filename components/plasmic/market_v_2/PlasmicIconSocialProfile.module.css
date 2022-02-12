@@ -38,7 +38,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   min-width: 0;
   min-height: 0;
 }
@@ -46,7 +46,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -54,7 +54,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -62,7 +62,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -70,7 +70,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -78,7 +78,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -86,7 +86,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -94,21 +94,21 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
 .root:hover .svgIcon8 {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .root:active .svgIcon8 {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .svg__yhi9U {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }
@@ -116,7 +116,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   min-width: 0;
   min-height: 0;
 }

@@ -41,9 +41,14 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootcolor_dark]: hasVariant(variants, "color", "dark")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        { [sty.rootcolor_dark]: hasVariant(variants, "color", "dark") }
+      )}
     >
       <NavbarLogo
         data-plasmic-name={"navbarLogo"}
@@ -51,13 +56,6 @@ function PlasmicNavbarHomeCta__RenderFunc(props) {
         className={classNames("__wab_instance", sty.navbarLogo, {
           [sty.navbarLogocolor_dark]: hasVariant(variants, "color", "dark")
         })}
-        destination={
-          hasVariant(globalVariants, "screen", "iphone12ProMax")
-            ? "/landingpage-2021"
-            : hasVariant(globalVariants, "screen", "desktop")
-            ? "/landingpage-2021"
-            : "/landingpage-2021"
-        }
         light={hasVariant(variants, "color", "dark") ? true : undefined}
       />
 

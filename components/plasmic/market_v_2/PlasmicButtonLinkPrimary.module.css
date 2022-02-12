@@ -9,7 +9,7 @@
   background: none;
   border-radius: 4px;
   padding: 2px 6px;
-  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid var(--token-i5T_lGWIG);
 }
 .rootborder {
   border-style: none;
@@ -56,236 +56,236 @@
   min-height: 0;
 }
 .roottype_fill {
-  background: #14161b;
-  border-color: #14161b /* plasmic-token: zi5VxOARL */;
+  background: var(--token-zi5VxOARL);
+  border-color: var(--token-zi5VxOARL);
 }
 .roottype_outline {
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .roottype_ghost {
-  background: #f8f8ff;
+  background: var(--token-PfXAJ-PoV);
   border-style: solid;
-  border-color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  border-color: var(--token-PfXAJ-PoV);
 }
 .roottype_primary_color_light {
-  border-color: #e0e2e7 /* plasmic-token: aWbt8exrr */;
+  border-color: var(--token-aWbt8exrr);
 }
 .roottype_outline_color_primary {
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .roottype_primary_color_red {
-  border-color: #f5ccd6 /* plasmic-token: oKZqK_X__ */;
+  border-color: var(--token-oKZqK_X__);
 }
 .roottype_fill_color_light {
-  background: #ffffff;
-  border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  background: var(--token-fuGaen6l1);
+  border-color: var(--token-fuGaen6l1);
 }
 .roottype_outline_color_dark {
-  background: #101010;
-  border-color: #ffffff /* plasmic-token: useplp0xo */;
+  background: var(--token-VLxGX_Tro);
+  border-color: var(--token-useplp0xo);
 }
 .roottype_primary_color_yellow {
-  border-color: #fff5d6 /* plasmic-token: DILoyOENE */;
+  border-color: var(--token-DILoyOENE);
 }
 .roottype_fill_color_red {
-  background: #cc0033;
-  border-color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  background: var(--token-zuxijHDLE);
+  border-color: var(--token-zuxijHDLE);
 }
 .roottype_ghost_color_dark {
-  background: #667085;
-  border-color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  background: var(--token-Ir4S3kez3);
+  border-color: var(--token-Ir4S3kez3);
 }
 .roottype_primary_color_blue {
-  border-color: #d6e0ff /* plasmic-token: I7xi6Y59a */;
+  border-color: var(--token-I7xi6Y59a);
 }
 .roottype_fill_color_yellow {
-  background: #ffcc33;
-  border-color: #ffcc33 /* plasmic-token: eB-5eFUpD */;
+  background: var(--token-eB-5eFUpD);
+  border-color: var(--token-eB-5eFUpD);
 }
 .roottype_outline_color_red {
-  border-color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  border-color: var(--token-zuxijHDLE);
 }
 .roottype_primary_color_magenta {
-  border-color: #f5d6ff /* plasmic-token: Dji75eq9u */;
+  border-color: var(--token-Dji75eq9u);
 }
 .roottype_fill_color_blue {
-  background: #3366ff;
-  border-color: #3366ff /* plasmic-token: MxvXD2oSU */;
+  background: var(--token-MxvXD2oSU);
+  border-color: var(--token-MxvXD2oSU);
 }
 .roottype_outline_color_yellow {
-  border-color: #ffcc33 /* plasmic-token: eB-5eFUpD */;
+  border-color: var(--token-eB-5eFUpD);
 }
 .roottype_primary_color_pink {
-  border-color: #ffcceb /* plasmic-token: 3KiHlnI5q */;
+  border-color: var(--token-3KiHlnI5q);
 }
 .roottype_fill_color_magenta {
-  background: #cc33ff;
-  border-color: #cc33ff /* plasmic-token: m2LiiC3to */;
+  background: var(--token-m2LiiC3to);
+  border-color: var(--token-m2LiiC3to);
 }
 .roottype_outline_color_blue {
-  border-color: #3366ff /* plasmic-token: MxvXD2oSU */;
+  border-color: var(--token-MxvXD2oSU);
 }
 .roottype_fill_color_pink {
-  background: #ff0099;
-  border-color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
+  background: var(--token-8VWWUllYQ);
+  border-color: var(--token-8VWWUllYQ);
 }
 .roottype_outline_color_magenta {
-  border-color: #cc33ff /* plasmic-token: m2LiiC3to */;
+  border-color: var(--token-m2LiiC3to);
 }
 .roottype_primary_color_green {
-  border-color: #ccf5f1 /* plasmic-token: iJkrL5g6F */;
+  border-color: var(--token-iJkrL5g6F);
 }
 .roottype_outline_color_pink {
-  border-color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
+  border-color: var(--token-8VWWUllYQ);
 }
 .roottype_fill_color_green {
-  background: #00ccbb;
-  border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
+  background: var(--token-p7MYBCVhU);
+  border-color: var(--token-p7MYBCVhU);
 }
 .roottype_outline_color_green {
-  border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
+  border-color: var(--token-p7MYBCVhU);
 }
 .roottype_primary_color_primary {
-  border-color: #e0d6ff /* plasmic-token: WAX_l0bzr */;
+  border-color: var(--token-WAX_l0bzr);
 }
 .roottype_primary_color_dark {
-  background: #101010;
-  border-color: #f8f8f8 /* plasmic-token: f9oAdmjsC */;
+  background: var(--token-VLxGX_Tro);
+  border-color: var(--token-f9oAdmjsC);
 }
 .roottype_fill_color_primary {
-  background: #5229cc;
-  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
+  background: var(--token-SilK1AnWd);
+  border-color: var(--token-SilK1AnWd);
 }
 .root:hover {
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .roottype_outline:hover {
-  border-color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  border-color: var(--token-7-Hl8dlot);
 }
 .roottype_ghost:hover {
-  background: #f8f8f8;
-  border-color: #f8f8f8 /* plasmic-token: f9oAdmjsC */;
+  background: var(--token-f9oAdmjsC);
+  border-color: var(--token-f9oAdmjsC);
 }
 .roottype_primary_color_light:hover {
-  border-color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  border-color: var(--token-Ir4S3kez3);
 }
 .roottype_fill_color_dark:hover {
-  background: #14161b;
-  border-color: #14161b /* plasmic-token: zi5VxOARL */;
+  background: var(--token-zi5VxOARL);
+  border-color: var(--token-zi5VxOARL);
 }
 .roottype_outline_color_primary:hover {
-  background: #e0d6ff;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  background: var(--token-WAX_l0bzr);
+  border-color: var(--token-97FZ-MZpy);
 }
 .roottype_primary_color_red:hover {
-  border-color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  border-color: var(--token-zuxijHDLE);
 }
 .roottype_fill_color_light:hover {
-  background: #f8f8f8;
-  border-color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  background: var(--token--59aep1Mm);
+  border-color: var(--token--59aep1Mm);
 }
 .roottype_outline_color_dark:hover {
-  background: #14161b;
-  border-color: #ffffff /* plasmic-token: useplp0xo */;
+  background: var(--token-zi5VxOARL);
+  border-color: var(--token-useplp0xo);
 }
 .roottype_ghost_color_primary:hover {
-  background: #f0ebff;
-  border-color: #f0ebff /* plasmic-token: IHoAIP5sw */;
+  background: var(--token-IHoAIP5sw);
+  border-color: var(--token-IHoAIP5sw);
 }
 .roottype_primary_color_yellow:hover {
-  border-color: #ffcc33 /* plasmic-token: eB-5eFUpD */;
+  border-color: var(--token-eB-5eFUpD);
 }
 .roottype_fill_color_red:hover {
-  background: #8f0024;
-  border-color: #8f0024 /* plasmic-token: zOdpc2i_7 */;
+  background: var(--token-zOdpc2i_7);
+  border-color: var(--token-zOdpc2i_7);
 }
 .roottype_outline_color_light:hover {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .roottype_ghost_color_dark:hover {
-  background: #858d9d;
-  border-color: #858d9d /* plasmic-token: SR1GpeFlc */;
+  background: var(--token-SR1GpeFlc);
+  border-color: var(--token-SR1GpeFlc);
 }
 .roottype_primary_color_blue:hover {
-  border-color: #3366ff /* plasmic-token: MxvXD2oSU */;
+  border-color: var(--token-MxvXD2oSU);
 }
 .roottype_fill_color_yellow:hover {
-  background: #cca329;
-  border-color: #cca329 /* plasmic-token: D6EUx-DWU */;
+  background: var(--token-D6EUx-DWU);
+  border-color: var(--token-D6EUx-DWU);
 }
 .roottype_outline_color_red:hover {
-  border-color: #8f0024 /* plasmic-token: zOdpc2i_7 */;
+  border-color: var(--token-zOdpc2i_7);
 }
 .roottype_primary_color_magenta:hover {
-  border-color: #cc33ff /* plasmic-token: m2LiiC3to */;
+  border-color: var(--token-m2LiiC3to);
 }
 .roottype_fill_color_blue:hover {
-  background: #2952cc;
-  border-color: #2952cc /* plasmic-token: ECQQpTj0b */;
+  background: var(--token-ECQQpTj0b);
+  border-color: var(--token-ECQQpTj0b);
 }
 .roottype_outline_color_yellow:hover {
-  border-color: #cca329 /* plasmic-token: D6EUx-DWU */;
+  border-color: var(--token-D6EUx-DWU);
 }
 .roottype_ghost_color_red:hover {
-  background: #fae6eb;
-  border-color: #fae6eb /* plasmic-token: _foYkyzry */;
+  background: var(--token-_foYkyzry);
+  border-color: var(--token-_foYkyzry);
 }
 .roottype_primary_color_pink:hover {
-  border-color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
+  border-color: var(--token-8VWWUllYQ);
 }
 .roottype_fill_color_magenta:hover {
-  background: #a329cc;
-  border-color: #a329cc /* plasmic-token: H2GdnGm1C */;
+  background: var(--token-H2GdnGm1C);
+  border-color: var(--token-H2GdnGm1C);
 }
 .roottype_outline_color_blue:hover {
-  border-color: #2952cc /* plasmic-token: ECQQpTj0b */;
+  border-color: var(--token-ECQQpTj0b);
 }
 .roottype_ghost_color_yellow:hover {
-  background: #fffaeb;
-  border-color: #fffaeb /* plasmic-token: Ziyk9IeJQ */;
+  background: var(--token-Ziyk9IeJQ);
+  border-color: var(--token-Ziyk9IeJQ);
 }
 .roottype_fill_color_pink:hover {
-  background: #cc007a;
-  border-color: #cc007a /* plasmic-token: h246Kg3cR */;
+  background: var(--token-h246Kg3cR);
+  border-color: var(--token-h246Kg3cR);
 }
 .roottype_outline_color_magenta:hover {
-  border-color: #a329cc /* plasmic-token: H2GdnGm1C */;
+  border-color: var(--token-H2GdnGm1C);
 }
 .roottype_ghost_color_blue:hover {
-  background: #ebf0ff;
-  border-color: #ebf0ff /* plasmic-token: b56hHyKT9 */;
+  background: var(--token-b56hHyKT9);
+  border-color: var(--token-b56hHyKT9);
 }
 .roottype_primary_color_green:hover {
-  border-color: #00ccbb /* plasmic-token: p7MYBCVhU */;
+  border-color: var(--token-p7MYBCVhU);
 }
 .roottype_outline_color_pink:hover {
-  border-color: #cc007a /* plasmic-token: h246Kg3cR */;
+  border-color: var(--token-h246Kg3cR);
 }
 .roottype_ghost_color_magenta:hover {
-  background: #faebff;
-  border-color: #faebff /* plasmic-token: 1bwoxZk82 */;
+  background: var(--token-1bwoxZk82);
+  border-color: var(--token-1bwoxZk82);
 }
 .roottype_fill_color_green:hover {
-  background: #00a396;
-  border-color: #00a396 /* plasmic-token: wjhZcIoiw */;
+  background: var(--token-wjhZcIoiw);
+  border-color: var(--token-wjhZcIoiw);
 }
 .roottype_ghost_color_pink:hover {
-  background: #ffe6f5;
-  border-color: #ffe6f5 /* plasmic-token: 91SypEeGn */;
+  background: var(--token-91SypEeGn);
+  border-color: var(--token-91SypEeGn);
 }
 .roottype_outline_color_green:hover {
-  border-color: #00a396 /* plasmic-token: wjhZcIoiw */;
+  border-color: var(--token-wjhZcIoiw);
 }
 .roottype_ghost_color_green:hover {
-  background: #e6faf8;
-  border-color: #e6faf8 /* plasmic-token: yRiF162fC */;
+  background: var(--token-yRiF162fC);
+  border-color: var(--token-yRiF162fC);
 }
 .roottype_primary_color_dark:hover {
-  border-color: #ffffff /* plasmic-token: useplp0xo */;
+  border-color: var(--token-useplp0xo);
 }
 .roottype_fill_color_primary:hover {
-  background: #855cff;
-  border-color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  background: var(--token-6xKNduQM7);
+  border-color: var(--token-6xKNduQM7);
 }
 .freeBox {
   display: flex;
@@ -356,244 +356,244 @@
 }
 .slotTargetText {
   font-weight: 500;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   line-height: 1;
 }
 .slotTargetTexttype_fill {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .slotTargetTexttype_outline {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .slotTargetTexttype_ghost {
-  color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  color: var(--token-akkcKiBNZ);
 }
 .slotTargetTexttype_primary_color_light {
-  color: #858d9d /* plasmic-token: SR1GpeFlc */;
+  color: var(--token-SR1GpeFlc);
 }
 .slotTargetTexttype_fill_color_dark {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_outline_color_primary {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .slotTargetTexttype_primary_color_red {
-  color: #e06685 /* plasmic-token: abQDSBbxy */;
+  color: var(--token-abQDSBbxy);
 }
 .slotTargetTexttype_fill_color_light {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .slotTargetTexttype_outline_color_dark {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
 }
 .slotTargetTexttype_ghost_color_primary {
-  color: #a385ff /* plasmic-token: rN0ul5_oz */;
+  color: var(--token-rN0ul5_oz);
 }
 .slotTargetTexttype_primary_color_yellow {
-  color: #ffe085 /* plasmic-token: Cslsaft0J */;
+  color: var(--token-Cslsaft0J);
 }
 .slotTargetTexttype_fill_color_red {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_ghost_color_dark {
-  color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  color: var(--token-akkcKiBNZ);
 }
 .slotTargetTexttype_primary_color_blue {
-  color: #85a3ff /* plasmic-token: stcF9VjzQ */;
+  color: var(--token-stcF9VjzQ);
 }
 .slotTargetTexttype_fill_color_yellow {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_outline_color_red {
-  color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  color: var(--token-zuxijHDLE);
 }
 .slotTargetTextcolor_magenta_type_primary {
-  color: #e085ff /* plasmic-token: Xgpxrh1N1 */;
+  color: var(--token-Xgpxrh1N1);
 }
 .slotTargetTexttype_fill_color_blue {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_outline_color_yellow {
-  color: #ffcc33 /* plasmic-token: eB-5eFUpD */;
+  color: var(--token-eB-5eFUpD);
 }
 .slotTargetTexttype_ghost_color_red {
-  color: #db4d70 /* plasmic-token: M1EULLuQy */;
+  color: var(--token-M1EULLuQy);
 }
 .slotTargetTexttype_primary_color_pink {
-  color: #ff66c2 /* plasmic-token: WUTfdDVU- */;
+  color: var(--token-WUTfdDVU-);
 }
 .slotTargetTexttype_fill_color_magenta {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_outline_color_blue {
-  color: #3366ff /* plasmic-token: MxvXD2oSU */;
+  color: var(--token-MxvXD2oSU);
 }
 .slotTargetTexttype_ghost_color_yellow {
-  color: #ffd65c /* plasmic-token: Ubt4nIgRv */;
+  color: var(--token-Ubt4nIgRv);
 }
 .slotTargetTexttype_fill_color_pink {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_outline_color_magenta {
-  color: #cc33ff /* plasmic-token: m2LiiC3to */;
+  color: var(--token-m2LiiC3to);
 }
 .slotTargetTexttype_ghost_color_blue {
-  color: #5c85ff /* plasmic-token: h38nszR9t */;
+  color: var(--token-h38nszR9t);
 }
 .slotTargetTexttype_primary_color_green {
-  color: #66e0d6 /* plasmic-token: Gm5lyQQ6U */;
+  color: var(--token-Gm5lyQQ6U);
 }
 .slotTargetTexttype_outline_color_pink {
-  color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
+  color: var(--token-8VWWUllYQ);
 }
 .slotTargetTexttype_ghost_color_magenta {
-  color: #d65cff /* plasmic-token: Iwo8OE18Y */;
+  color: var(--token-Iwo8OE18Y);
 }
 .slotTargetTexttype_fill_color_green {
   font-weight: 500;
-  color: #f8f8ff /* plasmic-token: PfXAJ-PoV */;
+  color: var(--token-PfXAJ-PoV);
   line-height: 1;
 }
 .slotTargetTexttype_ghost_color_pink {
-  color: #ff33ad /* plasmic-token: sNRxLWC2j */;
+  color: var(--token-sNRxLWC2j);
 }
 .slotTargetTexttype_outline_color_green {
-  color: #00ccbb /* plasmic-token: p7MYBCVhU */;
+  color: var(--token-p7MYBCVhU);
 }
 .slotTargetTexttype_ghost_color_green {
-  color: #66e0d6 /* plasmic-token: LmLUYtV0r */;
+  color: var(--token-LmLUYtV0r);
 }
 .slotTargetTexttype_primary_color_primary {
-  color: #a385ff /* plasmic-token: rN0ul5_oz */;
+  color: var(--token-rN0ul5_oz);
 }
 .slotTargetTexttype_primary_color_dark {
-  color: #e3e3e3 /* plasmic-token: d7bN0iM0u */;
+  color: var(--token-d7bN0iM0u);
 }
 .slotTargetTexttype_fill_color_primary {
   font-weight: 500;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   line-height: 1;
 }
 .root:hover .slotTargetText {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .roottype_outline:hover .slotTargetTexttype_outline {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .roottype_primary_color_light:hover .slotTargetTexttype_primary_color_light {
-  color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  color: var(--token-Ir4S3kez3);
 }
 .roottype_fill_color_dark:hover .slotTargetTexttype_fill_color_dark {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .roottype_outline_color_primary:hover
   .slotTargetTexttype_outline_color_primary {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .roottype_primary_color_red:hover .slotTargetTexttype_primary_color_red {
-  color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  color: var(--token-zuxijHDLE);
 }
 .roottype_fill_color_light:hover .slotTargetTexttype_fill_color_light {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .roottype_outline_color_dark:hover .slotTargetTexttype_outline_color_dark {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .roottype_ghost_color_primary:hover .slotTargetTexttype_ghost_color_primary {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .roottype_primary_color_yellow:hover .slotTargetTexttype_primary_color_yellow {
-  color: #ffcc33 /* plasmic-token: eB-5eFUpD */;
+  color: var(--token-eB-5eFUpD);
 }
 .roottype_fill_color_red:hover .slotTargetTexttype_fill_color_red {
   font-weight: 500;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   line-height: 1;
 }
 .roottype_ghost_color_dark:hover .slotTargetTexttype_ghost_color_dark {
-  color: #f0f1f3 /* plasmic-token: 0quEfLXpK */;
+  color: var(--token-0quEfLXpK);
 }
 .roottype_primary_color_blue:hover .slotTargetTexttype_primary_color_blue {
-  color: #3366ff /* plasmic-token: MxvXD2oSU */;
+  color: var(--token-MxvXD2oSU);
 }
 .roottype_fill_color_yellow:hover .slotTargetTexttype_fill_color_yellow {
   font-weight: 500;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   line-height: 1;
 }
 .roottype_outline_color_red:hover .slotTargetTexttype_outline_color_red {
-  color: #8f0024 /* plasmic-token: zOdpc2i_7 */;
+  color: var(--token-zOdpc2i_7);
 }
 .roottype_primary_color_magenta:hover
   .slotTargetTextcolor_magenta_type_primary {
-  color: #cc33ff /* plasmic-token: m2LiiC3to */;
+  color: var(--token-m2LiiC3to);
 }
 .roottype_outline_color_yellow:hover .slotTargetTexttype_outline_color_yellow {
-  color: #cca329 /* plasmic-token: D6EUx-DWU */;
+  color: var(--token-D6EUx-DWU);
 }
 .roottype_ghost_color_red:hover .slotTargetTexttype_ghost_color_red {
-  color: #8f0024 /* plasmic-token: zOdpc2i_7 */;
+  color: var(--token-zOdpc2i_7);
 }
 .roottype_primary_color_pink:hover .slotTargetTexttype_primary_color_pink {
-  color: #ff0099 /* plasmic-token: 8VWWUllYQ */;
+  color: var(--token-8VWWUllYQ);
 }
 .roottype_fill_color_magenta:hover .slotTargetTexttype_fill_color_magenta {
   font-weight: 500;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   line-height: 1;
 }
 .roottype_outline_color_blue:hover .slotTargetTexttype_outline_color_blue {
-  color: #2952cc /* plasmic-token: ECQQpTj0b */;
+  color: var(--token-ECQQpTj0b);
 }
 .roottype_ghost_color_yellow:hover .slotTargetTexttype_ghost_color_yellow {
-  color: #cca329 /* plasmic-token: D6EUx-DWU */;
+  color: var(--token-D6EUx-DWU);
 }
 .roottype_fill_color_pink:hover .slotTargetTexttype_fill_color_pink {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .roottype_outline_color_magenta:hover
   .slotTargetTexttype_outline_color_magenta {
-  color: #a329cc /* plasmic-token: H2GdnGm1C */;
+  color: var(--token-H2GdnGm1C);
 }
 .roottype_ghost_color_blue:hover .slotTargetTexttype_ghost_color_blue {
-  color: #2952cc /* plasmic-token: ECQQpTj0b */;
+  color: var(--token-ECQQpTj0b);
 }
 .roottype_primary_color_green:hover .slotTargetTexttype_primary_color_green {
-  color: #00ccbb /* plasmic-token: p7MYBCVhU */;
+  color: var(--token-p7MYBCVhU);
 }
 .roottype_outline_color_pink:hover .slotTargetTexttype_outline_color_pink {
-  color: #cc007a /* plasmic-token: h246Kg3cR */;
+  color: var(--token-h246Kg3cR);
 }
 .roottype_ghost_color_magenta:hover .slotTargetTexttype_ghost_color_magenta {
-  color: #a329cc /* plasmic-token: H2GdnGm1C */;
+  color: var(--token-H2GdnGm1C);
 }
 .roottype_fill_color_green:hover .slotTargetTexttype_fill_color_green {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .roottype_ghost_color_pink:hover .slotTargetTexttype_ghost_color_pink {
-  color: #cc007a /* plasmic-token: h246Kg3cR */;
+  color: var(--token-h246Kg3cR);
 }
 .roottype_outline_color_green:hover .slotTargetTexttype_outline_color_green {
-  color: #00a396 /* plasmic-token: wjhZcIoiw */;
+  color: var(--token-wjhZcIoiw);
 }
 .roottype_ghost_color_green:hover .slotTargetTexttype_ghost_color_green {
-  color: #00a396 /* plasmic-token: wjhZcIoiw */;
+  color: var(--token-wjhZcIoiw);
 }
 .roottype_primary_color_dark:hover .slotTargetTexttype_primary_color_dark {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .roottype_fill_color_primary:hover .slotTargetTexttype_fill_color_primary {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }

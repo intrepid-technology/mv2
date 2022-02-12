@@ -14,17 +14,17 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   flex-shrink: 0;
 }
 .svginactive {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svgstate_silent {
-  color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  color: var(--token-Ir4S3kez3);
 }
 .svgstate_alert {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .svgsize__24 {
   width: 24px;

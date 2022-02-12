@@ -44,20 +44,27 @@ function PlasmicButtonFormDropdownSelect__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootdescription]: hasVariant(
-          variants,
-          "description",
-          "description"
-        ),
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootdescription]: hasVariant(
+            variants,
+            "description",
+            "description"
+          ),
 
-        [sty.rootlabel]: hasVariant(variants, "label", "label"),
-        [sty.rootsize__180X32]: hasVariant(variants, "size", "_180X32"),
-        [sty.rootsize__270X32]: hasVariant(variants, "size", "_270X32"),
-        [sty.rootsize__360X40]: hasVariant(variants, "size", "_360X40"),
-        [sty.rootsize__540X40]: hasVariant(variants, "size", "_540X40"),
-        [sty.rootsize__90X24]: hasVariant(variants, "size", "_90X24")
-      })}
+          [sty.rootlabel]: hasVariant(variants, "label", "label"),
+          [sty.rootsize__180X32]: hasVariant(variants, "size", "_180X32"),
+          [sty.rootsize__270X32]: hasVariant(variants, "size", "_270X32"),
+          [sty.rootsize__360X40]: hasVariant(variants, "size", "_360X40"),
+          [sty.rootsize__540X40]: hasVariant(variants, "size", "_540X40"),
+          [sty.rootsize__90X24]: hasVariant(variants, "size", "_90X24")
+        }
+      )}
     >
       <p.Stack
         as={"div"}

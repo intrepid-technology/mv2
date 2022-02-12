@@ -13,22 +13,22 @@
   flex-shrink: 0;
 }
 .slotTargetChildrencolor_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetChildrencolor_dark {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .slotTargetChildrencolor_brand {
-  color: #a385ff /* plasmic-token: rN0ul5_oz */;
+  color: var(--token-rN0ul5_oz);
 }
 .rootcolor_light:hover .slotTargetChildrencolor_light {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .rootcolor_dark:hover .slotTargetChildrencolor_dark {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .rootcolor_brand:hover .slotTargetChildrencolor_brand {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .svg__dorQ {
   position: relative;

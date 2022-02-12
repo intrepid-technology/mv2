@@ -421,7 +421,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -429,7 +429,7 @@
 .text__ccls {
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .facebookSwitchInput:global(.__wab_instance) {
   position: relative;
@@ -461,7 +461,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -469,7 +469,7 @@
 .text___25A {
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .twitterSwitchInput:global(.__wab_instance) {
   position: relative;
@@ -501,7 +501,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -509,7 +509,7 @@
 .text___8FQhv {
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .linkedInSwitchInput:global(.__wab_instance) {
   position: relative;
@@ -541,7 +541,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -549,7 +549,7 @@
 .text__sRrhz {
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .githubSwitchInput:global(.__wab_instance) {
   position: relative;
@@ -581,7 +581,7 @@
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -589,7 +589,7 @@
 .text__pBbHh {
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .sectionMemberMobileNumber {
   flex-direction: column;

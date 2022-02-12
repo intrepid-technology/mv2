@@ -6,9 +6,9 @@
   width: 360px;
   height: 40px;
   position: relative;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   border-radius: 4px;
-  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid var(--token-i5T_lGWIG);
 }
 .rootwidth__270 {
   width: 270px;
@@ -33,7 +33,7 @@
   height: 48px;
 }
 .root:hover {
-  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  border-color: var(--token-oEMOojyFv);
 }
 .freeBox {
   display: flex;
@@ -45,7 +45,7 @@
   height: 100%;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-height: 0;
   padding: 2px 4px;
 }
@@ -53,7 +53,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  color: var(--token-UPK7EIst5);
   flex-shrink: 0;
 }
 .textInput {
@@ -62,24 +62,24 @@
   left: auto;
   top: auto;
   height: 100%;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   padding-left: 8px;
   line-height: 1;
   align-self: center;
   white-space: pre;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
   min-height: 0;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .root .textInput:hover {
   border-style: solid;
-  border-color: #e3e3e3 /* plasmic-token: yK_741Heo */;
+  border-color: var(--token-yK_741Heo);
 }
 .root .textInput:focus {
   outline: none;
   border-style: solid;
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .button {
   flex-direction: row;
@@ -89,10 +89,10 @@
   top: auto;
   width: auto;
   height: 100%;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-height: 0;
   padding: 2px 8px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .button > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -117,7 +117,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   flex-shrink: 0;
 }
 .text {
@@ -127,7 +127,7 @@
   height: auto;
   font-size: 16px;
   white-space: pre;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .textheight__32 {
   font-size: 16px;

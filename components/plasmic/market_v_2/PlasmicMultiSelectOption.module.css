@@ -9,15 +9,15 @@
   padding: 4px 8px;
 }
 .rootisHighlighted {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .rootisDisabled {
   cursor: not-allowed;
 }
 .slotTargetChildrenisSelected {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
   font-weight: 600;
 }
 .slotTargetChildrenisDisabled {
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
 }

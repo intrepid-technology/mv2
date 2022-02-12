@@ -44,9 +44,14 @@ function PlasmicIconPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parentsize__14Px]: hasVariant(variants, "size", "_14Px")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.parent,
+        { [sty.parentsize__14Px]: hasVariant(variants, "size", "_14Px") }
+      )}
     >
       <div
         data-plasmic-name={"svgBg"}

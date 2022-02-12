@@ -15,20 +15,20 @@
   object-fit: cover;
   width: 20px;
   height: 20px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
-    color: #14161b /* plasmic-token: ec1vMFIzT */;
+    color: var(--token-ec1vMFIzT);
   }
 }
 .svglight {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .root:hover .svg {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .rootlight:hover .svglight {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }

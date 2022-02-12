@@ -16,10 +16,10 @@
   padding: 16px;
 }
 .parentstate_selected {
-  border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
+  border-bottom: 2px solid var(--token-7-Hl8dlot);
 }
 .rootcolor_ghost:hover .parentcolor_ghost {
-  background: #f8f8ff;
+  background: var(--token-PfXAJ-PoV);
 }
 .textParent {
   position: relative;
@@ -46,29 +46,29 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   text-transform: none;
 }
 .slotTargetLinkTextcolor_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetLinkTextcolor_brand {
-  color: #c2adff /* plasmic-token: j08wwDM3g */;
+  color: var(--token-j08wwDM3g);
 }
 .slotTargetLinkTextstate_selected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .slotTargetLinkTextstate_disabled {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .root:hover .slotTargetLinkText {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .rootcolor_light:hover .slotTargetLinkTextcolor_light {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .rootcolor_brand:hover .slotTargetLinkTextcolor_brand {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .rootcolor_brand:hover .slotTargetLinkTextcolor_brand > .__wab_text,
 .rootcolor_brand:hover
@@ -107,8 +107,8 @@
   text-decoration-line: none;
 }
 .rootstate_selected:hover .slotTargetLinkTextstate_selected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .rootstate_disabled:hover .slotTargetLinkTextstate_disabled {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }

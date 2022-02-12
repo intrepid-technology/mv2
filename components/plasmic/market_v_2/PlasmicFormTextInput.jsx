@@ -44,16 +44,23 @@ function PlasmicFormTextInput__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootheadline]: hasVariant(variants, "headline", "headline"),
-        [sty.rootlabels_prefix]: hasVariant(variants, "labels", "prefix"),
-        [sty.rootlabels_suffix]: hasVariant(variants, "labels", "suffix"),
-        [sty.roottype_primary]: hasVariant(variants, "type", "primary"),
-        [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
-        [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
-        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootheadline]: hasVariant(variants, "headline", "headline"),
+          [sty.rootlabels_prefix]: hasVariant(variants, "labels", "prefix"),
+          [sty.rootlabels_suffix]: hasVariant(variants, "labels", "suffix"),
+          [sty.roottype_primary]: hasVariant(variants, "type", "primary"),
+          [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
     >
       <TextInput
         data-plasmic-name={"textInput"}

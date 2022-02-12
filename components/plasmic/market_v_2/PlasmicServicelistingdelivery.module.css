@@ -112,11 +112,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__mbL5D {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .deliveryTimeInput:global(.__wab_instance) {
   position: relative;
@@ -136,7 +136,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .freeBox__hOc5O {
   flex-direction: row;
@@ -224,11 +224,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__snn5 {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .meetingsSelectInput:global(.__wab_instance) {
   position: relative;
@@ -248,7 +248,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .freeBox__xvZpR {
   flex-direction: row;
@@ -336,11 +336,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__wBaev {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .revisionsSelectInput:global(.__wab_instance) {
   position: relative;
@@ -360,7 +360,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .freeBox___0GvGm {
   flex-direction: row;
@@ -483,11 +483,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__gBqE8 {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .deliveryRequirementsArrayFields:global(.__wab_instance) {
   position: relative;
@@ -508,7 +508,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .freeBox__hXiOg {
   flex-direction: row;
@@ -605,11 +605,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__d40N6 {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .deliveryFormatsMultiSelectInput:global(.__wab_instance) {
   position: relative;
@@ -618,7 +618,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .freeBox__owyrn {
   flex-direction: row;
@@ -717,11 +717,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__auLLg {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .serviceCostTypeSelectInput:global(.__wab_instance) {
   position: relative;
@@ -730,7 +730,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }
 .hourlyRateConditionalField:global(.__wab_instance) {
   position: relative;
@@ -834,11 +834,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text__cX8K {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .hourlyRateInput:global(.__wab_instance) {
   position: relative;
@@ -945,11 +945,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .text___8L8Xs {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .flatRateInput:global(.__wab_instance) {
   position: relative;

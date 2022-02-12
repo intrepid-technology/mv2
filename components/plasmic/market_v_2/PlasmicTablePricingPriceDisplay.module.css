@@ -4,10 +4,10 @@
   width: 100%;
   height: auto;
   position: relative;
-  background: #ffffff;
+  background: var(--token-fuGaen6l1);
   min-width: 0;
   padding: 0px 8px;
-  border-bottom: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 1px solid var(--token-i5T_lGWIG);
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -43,7 +43,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   text-transform: uppercase;
 }
 .elementNumberValueIntervalTermParent {
@@ -125,7 +125,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .freeBox__m0Ufj {
   width: auto;
@@ -145,7 +145,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .freeBox___2DAj1 {
   width: auto;
@@ -165,7 +165,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.8;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .descriptionTextParent {
   position: relative;
@@ -183,5 +183,5 @@
 .slotTargetSlot {
   font-size: 14px;
   line-height: 1.4;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }

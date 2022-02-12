@@ -16,8 +16,6 @@ import {
   createPlasmicElementProxy,
   deriveRenderOpts
 } from "@plasmicapp/react-web";
-import TeamsTable from "../../TeamsTable"; // plasmic-import: kVYwY70jN0/component
-import ThirdPartyTalentTable from "../../ThirdPartyTalentTable"; // plasmic-import: 0qitnTik-o/component
 import FormContext from "../../FormContext"; // plasmic-import: fzhRfAQRK6/component
 import FormTextInput from "../../FormTextInput"; // plasmic-import: egzqjpKDP_e/component
 import FormTextAreaInput from "../../FormTextAreaInput"; // plasmic-import: rDSDf80NUiR/component
@@ -63,30 +61,11 @@ function PlasmicTest__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__h9MGu)}
-          >
-            <TeamsTable
-              data-plasmic-name={"teamsTable"}
-              data-plasmic-override={overrides.teamsTable}
-              className={classNames("__wab_instance", sty.teamsTable)}
-            />
-
-            <ThirdPartyTalentTable
-              data-plasmic-name={"thirdPartyTalentTable"}
-              data-plasmic-override={overrides.thirdPartyTalentTable}
-              className={classNames(
-                "__wab_instance",
-                sty.thirdPartyTalentTable
-              )}
-            />
-          </p.Stack>
-
           <FormContext
             data-plasmic-name={"formContext"}
             data-plasmic-override={overrides.formContext}
@@ -219,8 +198,6 @@ function PlasmicTest__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "teamsTable",
-    "thirdPartyTalentTable",
     "formContext",
     "formTextInput",
     "formTextAreaInput",
@@ -233,8 +210,6 @@ const PlasmicDescendants = {
     "text"
   ],
 
-  teamsTable: ["teamsTable"],
-  thirdPartyTalentTable: ["thirdPartyTalentTable"],
   formContext: [
     "formContext",
     "formTextInput",
@@ -288,8 +263,6 @@ export const PlasmicTest = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    teamsTable: makeNodeComponent("teamsTable"),
-    thirdPartyTalentTable: makeNodeComponent("thirdPartyTalentTable"),
     formContext: makeNodeComponent("formContext"),
     formTextInput: makeNodeComponent("formTextInput"),
     formTextAreaInput: makeNodeComponent("formTextAreaInput"),

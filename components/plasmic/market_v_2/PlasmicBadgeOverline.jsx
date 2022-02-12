@@ -38,14 +38,21 @@ function PlasmicBadgeOverline__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
-        [sty.rootcolors_smoke]: hasVariant(variants, "colors", "smoke"),
-        [sty.rootcolors_smoke_type_outline]:
-          hasVariant(variants, "colors", "smoke") &&
-          hasVariant(variants, "type", "outline"),
-        [sty.roottype_outline]: hasVariant(variants, "type", "outline")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
+          [sty.rootcolors_smoke]: hasVariant(variants, "colors", "smoke"),
+          [sty.rootcolors_smoke_type_outline]:
+            hasVariant(variants, "colors", "smoke") &&
+            hasVariant(variants, "type", "outline"),
+          [sty.roottype_outline]: hasVariant(variants, "type", "outline")
+        }
+      )}
     >
       <div
         className={classNames(projectcss.all, sty.freeBox___09JR, {

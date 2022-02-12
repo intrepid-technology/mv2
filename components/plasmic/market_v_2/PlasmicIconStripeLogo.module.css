@@ -45,11 +45,11 @@
   min-height: 0;
 }
 .svgcolor_burple {
-  color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  color: var(--token-JG1mQ0YGJ);
 }
 .svgcolor_darkGrey {
-  color: #667085 /* plasmic-token: Ir4S3kez3 */;
+  color: var(--token-Ir4S3kez3);
 }
 .svgcolor_white {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
 }

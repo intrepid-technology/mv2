@@ -43,10 +43,17 @@ function PlasmicNavbar__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootauth]: hasVariant(variants, "auth", "auth"),
-        [sty.rootdark]: hasVariant(variants, "dark", "dark")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootauth]: hasVariant(variants, "auth", "auth"),
+          [sty.rootdark]: hasVariant(variants, "dark", "dark")
+        }
+      )}
     >
       {(hasVariant(variants, "auth", "auth") ? true : true) ? (
         <p.Stack

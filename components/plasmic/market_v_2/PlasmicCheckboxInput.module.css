@@ -40,26 +40,26 @@
   height: 24px;
   transition-property: all;
   transition-duration: 0.2s;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border: 2px solid var(--token-TctF8-gJH);
 }
 .freeBoxisChecked {
-  background: #f0ebff;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  background: var(--token-IHoAIP5sw);
+  border-color: var(--token-brleuPgaD);
 }
 .root:hover .freeBox {
   background: #ffffff;
 }
 .root:focus-within .freeBox {
   outline: none;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border-color: var(--token-97FZ-MZpy);
 }
 .root .freeBox___focusVisibleWithin {
   outline: none;
   border-style: dashed;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border-color: var(--token-97FZ-MZpy);
 }
 .svg {
   position: relative;
@@ -71,10 +71,10 @@
   display: block;
 }
 .svgisChecked {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .svgisIndeterminate {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .root .svg___focusVisibleWithin {
   outline: none;

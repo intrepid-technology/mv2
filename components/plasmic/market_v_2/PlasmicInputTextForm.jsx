@@ -47,14 +47,21 @@ function PlasmicInputTextForm__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootlabel]: hasVariant(variants, "label", "label"),
-        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary"),
-        [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
-        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
-        [sty.rootwidth__380]: hasVariant(variants, "width", "_380"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootlabel]: hasVariant(variants, "label", "label"),
+          [sty.roottype_secondary]: hasVariant(variants, "type", "secondary"),
+          [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.rootwidth__380]: hasVariant(variants, "width", "_380"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
       data-plasmic-trigger-props={[triggerRootHoverProps]}
     >
       <p.Stack

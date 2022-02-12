@@ -35,15 +35,22 @@ function PlasmicBadgeSectionTitle__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootborder]: hasVariant(variants, "border", "border"),
-        [sty.rootborder_colors_brand]:
-          hasVariant(variants, "border", "border") &&
-          hasVariant(variants, "colors", "brand"),
-        [sty.rootcolors_brand]: hasVariant(variants, "colors", "brand"),
-        [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
-        [sty.rootcolors_light]: hasVariant(variants, "colors", "light")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootborder]: hasVariant(variants, "border", "border"),
+          [sty.rootborder_colors_brand]:
+            hasVariant(variants, "border", "border") &&
+            hasVariant(variants, "colors", "brand"),
+          [sty.rootcolors_brand]: hasVariant(variants, "colors", "brand"),
+          [sty.rootcolors_dark]: hasVariant(variants, "colors", "dark"),
+          [sty.rootcolors_light]: hasVariant(variants, "colors", "light")
+        }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}

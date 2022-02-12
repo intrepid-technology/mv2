@@ -23,7 +23,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .answerWrapper {
   display: flex;
@@ -56,7 +56,7 @@
   display: none;
 }
 .slotTargetTextContent {
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
 }
 .freeBox__tKt0A {
   flex-direction: row;
@@ -101,14 +101,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__beyV {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg___73OoZ {
   position: relative;
@@ -124,14 +124,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__yxnqb {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg___5BGy {
   position: relative;

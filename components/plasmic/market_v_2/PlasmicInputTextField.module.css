@@ -73,10 +73,10 @@
   background: none;
   min-width: 0;
   min-height: 0;
-  border-color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  border-color: var(--token-akkcKiBNZ);
 }
 .descriptiontype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .descriptionsize__540 {
   width: 100%;
@@ -86,10 +86,10 @@
   border-right-style: none;
   border-top-style: none;
   border-left-style: none;
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .root:focus-within .description {
-  border-bottom-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-bottom-color: var(--token-brleuPgaD);
   outline: none;
 }
 .roottype_secondary:focus-within .descriptiontype_secondary {

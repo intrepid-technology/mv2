@@ -44,7 +44,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   text-align: center;
 }
 .slotTargetSlotsize_small {
@@ -53,7 +53,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
 }
 .freeBox__xNaRf {
   left: auto;
@@ -75,7 +75,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   text-align: center;
 }
 .slotTargetChildrensize_small {
@@ -83,5 +83,5 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }

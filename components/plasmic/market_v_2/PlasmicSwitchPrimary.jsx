@@ -35,20 +35,27 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root_switch]: hasVariant(variants, "_switch", "_switch"),
-        [sty.rootcolor_black__switch]:
-          hasVariant(variants, "color", "black") &&
-          hasVariant(variants, "_switch", "_switch"),
-        [sty.rootcolor_black_disabled_closed]:
-          hasVariant(variants, "color", "black") &&
-          hasVariant(variants, "disabled", "closed"),
-        [sty.rootdisabled_closed]: hasVariant(variants, "disabled", "closed"),
-        [sty.rootdisabled_open]: hasVariant(variants, "disabled", "open"),
-        [sty.rootdisabled_open_color_black]:
-          hasVariant(variants, "disabled", "open") &&
-          hasVariant(variants, "color", "black")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.root_switch]: hasVariant(variants, "_switch", "_switch"),
+          [sty.rootcolor_black__switch]:
+            hasVariant(variants, "color", "black") &&
+            hasVariant(variants, "_switch", "_switch"),
+          [sty.rootcolor_black_disabled_closed]:
+            hasVariant(variants, "color", "black") &&
+            hasVariant(variants, "disabled", "closed"),
+          [sty.rootdisabled_closed]: hasVariant(variants, "disabled", "closed"),
+          [sty.rootdisabled_open]: hasVariant(variants, "disabled", "open"),
+          [sty.rootdisabled_open_color_black]:
+            hasVariant(variants, "disabled", "open") &&
+            hasVariant(variants, "color", "black")
+        }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}

@@ -43,14 +43,14 @@
   justify-content: flex-start;
   width: auto;
   height: auto;
-  background: #00ccbb;
+  background: var(--token-p7MYBCVhU);
   border-radius: 100px;
 }
 .svg___6OINe {
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   flex-shrink: 0;
 }
 .freeBox {
@@ -60,7 +60,7 @@
   min-width: 0;
 }
 .slotTargetFeatureValueText {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   line-height: 1;
   font-size: 14px;
 }

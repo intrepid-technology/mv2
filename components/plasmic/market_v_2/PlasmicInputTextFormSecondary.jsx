@@ -40,11 +40,18 @@ function PlasmicInputTextFormSecondary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
-        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
-        [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch")
+        }
+      )}
     >
       <p.Stack
         as={"div"}

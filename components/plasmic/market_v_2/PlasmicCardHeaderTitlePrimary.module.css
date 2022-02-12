@@ -44,7 +44,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .subhead {
   position: relative;
@@ -69,5 +69,5 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }

@@ -6,10 +6,10 @@
   width: 100%;
   height: 80px;
   position: relative;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
   padding: 20px 40px;
-  border-bottom: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-bottom: 2px solid var(--token-deafmaGIp);
 }
 @media (min-width: 0px) and (max-width: 428px) {
   .root {
@@ -19,8 +19,8 @@
   }
 }
 .rootcolor_dark {
-  border-bottom-color: #0000001f /* plasmic-token: 4DpMaQlGP */;
-  background: #101010;
+  border-bottom-color: var(--token-4DpMaQlGP);
+  background: var(--token-VLxGX_Tro);
 }
 .navbarLogo:global(.__wab_instance) {
   position: relative;

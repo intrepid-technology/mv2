@@ -6,34 +6,34 @@
   width: 48px;
   height: 24px;
   position: relative;
-  background: #e0e2e7;
+  background: var(--token-aWbt8exrr);
   border-radius: 24px;
   padding: 0px;
-  border: 2px solid #e0e2e7 /* plasmic-token: aWbt8exrr */;
+  border: 2px solid var(--token-aWbt8exrr);
 }
 .root_switch {
-  background: #5229cc;
-  border-color: #5229cc /* plasmic-token: SilK1AnWd */;
+  background: var(--token-SilK1AnWd);
+  border-color: var(--token-SilK1AnWd);
 }
 .rootdisabled_closed {
-  background: #c2c6ce;
-  border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
+  background: var(--token-R5fCYkZee);
+  border-color: var(--token-R5fCYkZee);
 }
 .rootdisabled_open {
-  background: #c2c6ce;
-  border-color: #c2c6ce /* plasmic-token: R5fCYkZee */;
+  background: var(--token-R5fCYkZee);
+  border-color: var(--token-R5fCYkZee);
 }
 .rootcolor_black__switch {
-  background: #14161b;
-  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  background: var(--token-IbTSH9_JJ);
+  border-color: var(--token-IbTSH9_JJ);
 }
 .rootcolor_black_disabled_closed {
-  background: #14161b;
-  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  background: var(--token-IbTSH9_JJ);
+  border-color: var(--token-IbTSH9_JJ);
 }
 .rootdisabled_open_color_black {
-  background: #14161b;
-  border-color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  background: var(--token-IbTSH9_JJ);
+  border-color: var(--token-IbTSH9_JJ);
 }
 .freeBox {
   display: flex;
@@ -47,7 +47,7 @@
   top: auto;
   align-self: flex-start;
   padding-left: 0px;
-  background: #ffffff;
+  background: var(--token-fuGaen6l1);
   flex-shrink: 0;
   border-radius: 100px;
   border-width: 1px;
@@ -57,14 +57,14 @@
   align-self: flex-end;
 }
 .freeBoxdisabled_closed {
-  background: #ffffff;
-  border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  background: var(--token-fuGaen6l1);
+  border-color: var(--token-fuGaen6l1);
 }
 .freeBoxdisabled_open {
   align-self: flex-end;
-  background: #ffffff;
-  border-color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  background: var(--token-fuGaen6l1);
+  border-color: var(--token-fuGaen6l1);
 }
 .freeBoxdisabled_open_color_black {
-  background: #ffffff;
+  background: var(--token-fuGaen6l1);
 }

@@ -14,7 +14,7 @@
 }
 .slotTargetText {
   font-size: 16px;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   line-height: 1;
 }
 .slotTargetText > .__wab_text,
@@ -32,7 +32,7 @@
   text-decoration-line: none;
 }
 .slotTargetTextcolor_headline {
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .slotTargetTextsize__18 {
   font-size: 18px;
@@ -55,10 +55,10 @@
   line-height: 1;
 }
 .slotTargetTextcolor_primary {
-  color: #5229cc /* plasmic-token: SilK1AnWd */;
+  color: var(--token-SilK1AnWd);
 }
 .slotTargetTextcolor_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextsize__8 {
   font-size: 8px;
@@ -81,25 +81,25 @@
   line-height: 1;
 }
 .slotTargetTextcolor_light_size__14 {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextsize__16_color_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextsize__18_color_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextcolor_light_size__24 {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextcolor_light_size__32 {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetTextcolor_light_size__40 {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .root:hover .slotTargetText {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   font-weight: 400;
 }
 .root:hover .slotTargetText > .__wab_text,
@@ -127,11 +127,11 @@
   text-decoration-line: underline;
 }
 .rootcolor_headline:hover .slotTargetTextcolor_headline {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .rootcolor_primary:hover .slotTargetTextcolor_primary {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .rootcolor_light:hover .slotTargetTextcolor_light {
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
 }

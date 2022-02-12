@@ -93,7 +93,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   text-transform: none;
 }
 .slotTargetHeadlineLabelTitlesize__360X40 {
@@ -120,7 +120,7 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 2px;
-  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid var(--token-i5T_lGWIG);
 }
 .buttonDropDown > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -224,7 +224,7 @@
   margin-top: 0px;
 }
 .buttonDropDownsize__180X32 {
-  border-color: #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-color: var(--token-i5T_lGWIG);
 }
 .buttonDropDownsize__180X36 {
   height: 36px;
@@ -244,7 +244,7 @@
 .root .buttonDropDown:hover {
   left: auto;
   top: auto;
-  border: 1px solid #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  border: 1px solid var(--token-oEMOojyFv);
 }
 .freeBox___3XOp {
   display: flex;
@@ -267,7 +267,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .slotTargetDropdownTitlesize__360X40 {
   line-height: 1;
@@ -310,7 +310,7 @@
   object-fit: cover;
   width: 28px;
   height: 28px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   flex-shrink: 0;
 }
 .slotTargetDropdownIcon12Ptsize__540X40 {
@@ -320,7 +320,7 @@
   object-fit: cover;
   width: 12px;
   height: 12px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   flex-shrink: 0;
 }
 .freeBox__ub9Ml {
@@ -337,7 +337,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }
 .slotTargetChildrensize__540X40 {
   font-size: 16px;

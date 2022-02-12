@@ -125,12 +125,12 @@
   object-fit: cover;
   width: 48px;
   height: 48px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .svg {
-    color: #101010 /* plasmic-token: F4gy0u3aB */;
+    color: var(--token-F4gy0u3aB);
   }
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -141,7 +141,7 @@
   }
 }
 .root .svg:hover {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .text {
   display: block;
@@ -150,7 +150,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   left: auto;

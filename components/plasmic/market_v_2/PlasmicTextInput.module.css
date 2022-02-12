@@ -43,15 +43,15 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 2px solid var(--token-i5T_lGWIG);
 }
 .root:hover .wrapper {
   border-width: 2px;
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .root:focus-within .wrapper {
   outline: none;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .startAdornmentWrapper {
   display: flex;
@@ -65,19 +65,19 @@
   height: auto;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   flex-column-gap: 0px;
   padding: 2px 8px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .startAdornmentWrappertype_secondary_adornment_start {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .slotTargetStartAdornmentadornment_start {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .inputWrapper {
   display: flex;
@@ -97,10 +97,10 @@
   min-width: 0;
   border-radius: 4px;
   padding: 8px 10px;
-  border: 2px none #a3a9b6 /* plasmic-token: TctF8-gJH */;
+  border: 2px none var(--token-TctF8-gJH);
 }
 .textInputtype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .textInputadornment_start {
   border-radius: 0px 2px 2px 0px;
@@ -113,12 +113,12 @@
 }
 .root:hover .textInput {
   border-width: 2px;
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .root:focus-within .textInput {
   outline: none;
   border-width: 2px;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .endAdornmentWrapper {
   display: flex;
@@ -133,7 +133,7 @@
   align-items: flex-end;
   width: auto;
   height: auto;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   display: flex;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
@@ -141,8 +141,8 @@
   padding: 2px 8px;
 }
 .endAdornmentWrapperadornment_end_type_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .slotTargetEndAdornmentadornment_end {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }

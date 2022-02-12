@@ -70,7 +70,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   width: 100%;
@@ -82,7 +82,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
+  color: var(--token-pZiR_PgBn);
 }
 .slotTargetTextDisplaysize__270 {
   font-size: 48px;
@@ -90,7 +90,7 @@
   font-weight: 300;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #f1f1f1 /* plasmic-token: oCrZQyTOi */;
+  color: var(--token-oCrZQyTOi);
 }
 .headlineSubheadGroupParent {
   flex-direction: column;
@@ -144,7 +144,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
   position: relative;
   width: 100%;
@@ -160,7 +160,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #14161b /* plasmic-token: gtUIPzlCk */;
+  color: var(--token-gtUIPzlCk);
 }
 .slotTargetSlotsize__270 {
   font-size: 32px;
@@ -168,7 +168,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .subhead {
   position: relative;
@@ -204,7 +204,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #3d4350 /* plasmic-token: 4w2aiN6Mt */;
+  color: var(--token-4w2aiN6Mt);
 }
 .slotTargetTextSubheadsize__270 {
   font-size: 16px;
@@ -212,5 +212,5 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }

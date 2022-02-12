@@ -4,10 +4,10 @@
   width: 100%;
   min-height: 80px;
   position: relative;
-  background: #f1f1f1;
+  background: var(--token-_lNibwHIy);
   min-width: 0;
   padding: 10px 40px;
-  border-top: 2px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border-top: 2px solid var(--token-deafmaGIp);
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -25,9 +25,9 @@
 }
 @media (min-width: 0px) and (max-width: 1440px) {
   .root {
-    border-top-color: #dcdcdc /* plasmic-token: pZiR_PgBn */;
+    border-top-color: var(--token-pZiR_PgBn);
     border-top-style: none;
-    background: #f8f8f8;
+    background: var(--token-530QP0ccB);
   }
 }
 .saveButton:global(.__wab_instance) {

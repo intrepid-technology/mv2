@@ -136,7 +136,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .textParent6 {
@@ -178,14 +178,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__fuSje {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__rcSo2 {
   position: relative;
@@ -201,14 +201,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__xyo0Z {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg___6FPJ {
   position: relative;
@@ -303,7 +303,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .categoryBadgeParent {
@@ -348,14 +348,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__qo7Id {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__x1UyD {
   position: relative;
@@ -371,14 +371,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__hifG {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__afH1G {
   position: relative;
@@ -394,14 +394,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__lGevT {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__fz2Hd {
   position: relative;
@@ -496,7 +496,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 .skillsBadgeParent {
@@ -538,14 +538,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__oU0Za {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__y7Oui {
   position: relative;
@@ -561,14 +561,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__iwcpt {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__fsnYi {
   position: relative;
@@ -584,14 +584,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__d9Pb1 {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__thIzq {
   position: relative;
@@ -607,14 +607,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__lIfNj {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__sQp1X {
   position: relative;
@@ -630,14 +630,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg__wohDn {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__ka1G {
   position: relative;

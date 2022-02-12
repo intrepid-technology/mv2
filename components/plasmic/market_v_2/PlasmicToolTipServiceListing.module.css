@@ -6,7 +6,7 @@
   position: relative;
   background: #ffffff;
   padding: 18px;
-  border: 1.5px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1.5px solid var(--token-i5T_lGWIG);
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -30,7 +30,7 @@
   top: auto;
   left: auto;
   align-self: flex-start;
-  background: #f0ebff;
+  background: var(--token-IHoAIP5sw);
   border-radius: 100%;
   padding: 4px;
 }
@@ -38,7 +38,7 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
   flex-shrink: 0;
 }
 .freeBox__sccGa {
@@ -50,7 +50,7 @@
 }
 .slotTargetSlot {
   font-weight: 700;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   font-size: 14px;
 }
 .freeBox__gYt9T {

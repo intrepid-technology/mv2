@@ -32,12 +32,19 @@ function PlasmicTagBadgeVerification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootsize__14]: hasVariant(variants, "size", "_14"),
-        [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
-        [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
-        [sty.rootsize__24]: hasVariant(variants, "size", "_24")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootsize__14]: hasVariant(variants, "size", "_14"),
+          [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
+          [sty.rootsize__24]: hasVariant(variants, "size", "_24")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}

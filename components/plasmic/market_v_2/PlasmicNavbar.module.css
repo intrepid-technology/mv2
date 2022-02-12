@@ -6,7 +6,7 @@
   padding-right: 8px;
   padding-left: 8px;
   position: relative;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
 }
 .root > :global(.__wab_flex-container) {
@@ -93,7 +93,7 @@
   }
 }
 .rootdark {
-  background: #101010;
+  background: var(--token-7-Hl8dlot);
 }
 .brandWrapper {
   flex-direction: row;

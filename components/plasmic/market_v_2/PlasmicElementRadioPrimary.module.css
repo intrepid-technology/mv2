@@ -14,10 +14,10 @@
   height: auto;
   border-radius: 100px;
   padding: 2px;
-  border: 2px solid #14161b /* plasmic-token: IbTSH9_JJ */;
+  border: 2px solid var(--token-IbTSH9_JJ);
 }
 .radioBorderselected {
-  border-color: #101010 /* plasmic-token: F4gy0u3aB */;
+  border-color: var(--token-F4gy0u3aB);
 }
 .radioBordersize__12Px {
   border-width: 1px;
@@ -32,7 +32,7 @@
   border-width: 1px;
 }
 .root:hover .radioBorder {
-  border-color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  border-color: var(--token-7-Hl8dlot);
 }
 .radioCore {
   display: flex;
@@ -46,7 +46,7 @@
   border-radius: 100px;
 }
 .radioCoreselected {
-  background: #101010;
+  background: var(--token-F4gy0u3aB);
 }
 .radioCoresize__12Px {
   width: 6px;

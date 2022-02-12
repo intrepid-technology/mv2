@@ -169,10 +169,10 @@
   left: auto;
   top: auto;
   flex-direction: column;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   border-radius: 2px;
   padding: 8px;
-  border: 1px solid #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border: 1px solid var(--token-deafmaGIp);
 }
 @media (max-width: 375px) {
   .text__tiDRl {
@@ -367,7 +367,7 @@
 .svg__qWjC {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -376,7 +376,7 @@
 .svg__w2CH {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -388,7 +388,7 @@
 .svg__fv5G {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -397,7 +397,7 @@
 .svg___8C8Cn {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -529,7 +529,7 @@
 .svg__ubQkR {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -538,7 +538,7 @@
 .svg__cHgUa {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
   object-fit: cover;
   min-width: 0;
   min-height: 0;

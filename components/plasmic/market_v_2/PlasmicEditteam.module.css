@@ -189,7 +189,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border: 2px none var(--token-deafmaGIp);
 }
 .teamLogoImage > picture > img {
   object-fit: cover;
@@ -503,7 +503,7 @@
   top: auto;
 }
 .text__neYsn {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   font-weight: 700;
 }
 .teamDetailsForm:global(.__wab_instance) {
@@ -1069,7 +1069,7 @@
   top: auto;
 }
 .text__vhIlB {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   font-weight: 700;
 }
 .teamMarketForm:global(.__wab_instance) {
@@ -1446,7 +1446,7 @@
   top: auto;
 }
 .text__tTnQg {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   font-weight: 700;
 }
 .teamSocialForm:global(.__wab_instance) {
@@ -1582,7 +1582,7 @@
   left: auto;
 }
 .text__bviP7 {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .text__dZnbx {
   height: auto;

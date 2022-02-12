@@ -21,7 +21,7 @@
   min-width: 0;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  border: 2px solid var(--token-akkcKiBNZ);
 }
 .parentheight__36 {
   height: 36px;
@@ -55,7 +55,7 @@
 }
 .root:hover .parent {
   border-style: solid;
-  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  border-color: var(--token-oEMOojyFv);
 }
 .prefixparent {
   display: flex;
@@ -69,19 +69,19 @@
   height: 100%;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-height: 0;
   padding: 2px 8px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .prefixparentprefix {
   display: none;
 }
 .prefixparenttype_secondary {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .slotTargetPrefixLabelHeadline {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .value {
   position: relative;
@@ -92,24 +92,24 @@
   padding-left: 8px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   line-height: 1;
   white-space: pre;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   min-width: 0;
   min-height: 0;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .root:hover .value {
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .root .value:hover {
-  border: 1px solid #14161b /* plasmic-token: _aCbIOo4N */;
+  border: 1px solid var(--token-_aCbIOo4N);
 }
 .root .value:focus {
   outline: none;
   border-style: solid;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .suffixParent {
   display: flex;
@@ -121,11 +121,11 @@
   left: auto;
   width: auto;
   height: 100%;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-height: 0;
   border-radius: 0px 2px 2px 0px;
   padding: 2px 8px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .suffixParentsuffix {
   display: none;
@@ -133,8 +133,8 @@
 .suffixParenttype_secondary {
   left: auto;
   top: auto;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .slotTargetSuffixLabelHeadline {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }

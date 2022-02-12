@@ -31,15 +31,22 @@ function PlasmicTagNotification__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootsize__10]: hasVariant(variants, "size", "_10"),
-        [sty.rootsize__12]: hasVariant(variants, "size", "_12"),
-        [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
-        [sty.rootsize__8]: hasVariant(variants, "size", "_8"),
-        [sty.rootstate_alert]: hasVariant(variants, "state", "alert"),
-        [sty.rootstate_urgent]: hasVariant(variants, "state", "urgent"),
-        [sty.rootstate_warning]: hasVariant(variants, "state", "warning")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootsize__10]: hasVariant(variants, "size", "_10"),
+          [sty.rootsize__12]: hasVariant(variants, "size", "_12"),
+          [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
+          [sty.rootsize__8]: hasVariant(variants, "size", "_8"),
+          [sty.rootstate_alert]: hasVariant(variants, "state", "alert"),
+          [sty.rootstate_urgent]: hasVariant(variants, "state", "urgent"),
+          [sty.rootstate_warning]: hasVariant(variants, "state", "warning")
+        }
+      )}
     >
       <div
         data-plasmic-name={"parent"}

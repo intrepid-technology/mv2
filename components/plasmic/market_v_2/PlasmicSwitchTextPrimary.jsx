@@ -39,13 +39,20 @@ function PlasmicSwitchTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootdirection]: hasVariant(variants, "direction", "direction"),
-        [sty.rootstate_checked]: hasVariant(variants, "state", "checked"),
-        [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
-        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootdirection]: hasVariant(variants, "direction", "direction"),
+          [sty.rootstate_checked]: hasVariant(variants, "state", "checked"),
+          [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
     >
       <SwitchPrimary
         data-plasmic-name={"switchPrimary"}

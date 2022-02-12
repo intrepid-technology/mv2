@@ -15,10 +15,8 @@ import {
   hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts,
-  ensureGlobalVariants
+  deriveRenderOpts
 } from "@plasmicapp/react-web";
-import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicLogoHeader.module.css"; // plasmic-import: 9wNFT5FYWe/css
@@ -29,10 +27,6 @@ export const PlasmicLogoHeader__ArgProps = new Array("children");
 
 function PlasmicLogoHeader__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariantso9SjFZaOqjqz()
-  });
-
   return (
     <p.PlasmicLink
       data-plasmic-name={"logoLink"}
@@ -43,15 +37,13 @@ function PlasmicLogoHeader__RenderFunc(props) {
         projectcss.all,
         projectcss.a,
         projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
         sty.logoLink,
         { [sty.logoLinkcolor]: hasVariant(variants, "color", "color") }
       )}
       component={Link}
-      href={
-        hasVariant(globalVariants, "screen", "desktop")
-          ? "/landingpage-2021"
-          : "/app"
-      }
+      href={"/app"}
       platform={"nextjs"}
     >
       {(hasVariant(variants, "color", "color") ? false : true)

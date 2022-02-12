@@ -308,14 +308,14 @@
 }
 .listingNumber {
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .text__rr92D {
   position: relative;
   left: auto;
   top: auto;
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .freeBox__xulmc {
   flex-direction: column;
@@ -326,7 +326,7 @@
   left: auto;
   top: auto;
   padding: 0px;
-  border: 1px none #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px none var(--token-i5T_lGWIG);
 }
 .freeBox__xulmc > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -452,13 +452,13 @@
 .svg {
   width: 20px;
   height: 20px;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
   object-fit: cover;
 }
 .svg__syyR3 {
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: gJaAJBnXh */;
+  color: var(--token-gJaAJBnXh);
   object-fit: cover;
   min-width: 0;
   min-height: 0;
@@ -473,8 +473,8 @@
   left: auto;
   top: auto;
   overflow: visible;
-  background: #f8f8f8;
-  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  background: var(--token-530QP0ccB);
+  border: 1px solid var(--token-i5T_lGWIG);
 }
 .listingManagementTableColumnParent > :global(.__wab_flex-container) {
   flex-direction: column;

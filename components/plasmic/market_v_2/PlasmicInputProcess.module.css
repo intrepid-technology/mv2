@@ -32,11 +32,11 @@
   border-right-width: 1px;
   border-left-style: none;
   border-left-width: 1px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
-  background: #f8f8f8;
+  color: var(--token-lJGpMo6--);
+  background: var(--token-530QP0ccB);
   min-width: 0;
   padding: 4px;
-  border-bottom: 2px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border-bottom: 2px solid var(--token-i5T_lGWIG);
 }
 .freeBox__utVmc {
   flex-direction: column;
@@ -72,12 +72,12 @@
   top: auto;
   width: 100%;
   height: 90px;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-width: 0;
   flex-shrink: 0;
   border-radius: 6px;
   padding: 4px;
-  border: 2px solid #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  border: 2px solid var(--token--59aep1Mm);
 }
 .serviceProcessDescriptionsize__540 {
   height: 180px;
@@ -86,14 +86,14 @@
 .root .serviceProcessDescription:hover {
   left: auto;
   top: auto;
-  border-color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  border-color: var(--token-oEMOojyFv);
 }
 .root .serviceProcessDescription:focus {
   left: auto;
   top: auto;
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   outline: none;
-  border-color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border-color: var(--token-97FZ-MZpy);
 }
 .freeBox__yoYe {
   display: flex;
@@ -125,7 +125,7 @@
   object-fit: cover;
   width: 24px;
   height: 24px;
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
   flex-shrink: 0;
 }
 .svgsize__540 {
@@ -155,7 +155,7 @@
   font-size: 14px;
 }
 .root .text:hover {
-  color: #cc0033 /* plasmic-token: zuxijHDLE */;
+  color: var(--token-zuxijHDLE);
   left: auto;
   top: auto;
 }

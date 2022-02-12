@@ -64,7 +64,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
   text-transform: none;
 }
 .selectDropdownPrimary:global(.__wab_instance) {
@@ -102,5 +102,5 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  color: var(--token-UPK7EIst5);
 }

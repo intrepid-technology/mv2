@@ -43,7 +43,7 @@
 .avatarButtonEdit:hover {
   width: 120px;
   height: 120px;
-  border: 1px solid #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border: 1px solid var(--token-97FZ-MZpy);
 }
 .avatarImageBackground {
   display: flex;
@@ -72,7 +72,7 @@
   border-color: rgb(66, 1, 159);
 }
 .slotTargetAvatarImage {
-  color: #f0f1f3 /* plasmic-token: deafmaGIp */;
+  color: var(--token-deafmaGIp);
 }
 .slotTargetAvatarImage > *,
 .slotTargetAvatarImage > .__wab_slot > *,
@@ -91,7 +91,7 @@
   transition-duration: 1s;
 }
 .avatarButtonEdit:hover .slotTargetAvatarImage {
-  color: #e0e2e7 /* plasmic-token: oEMOojyFv */;
+  color: var(--token-oEMOojyFv);
 }
 .img__gOzp {
   position: relative;
@@ -101,7 +101,7 @@
   min-width: 0;
   min-height: 0;
   border-radius: 100%;
-  border: 2px none #f0f1f3 /* plasmic-token: deafmaGIp */;
+  border: 2px none var(--token-deafmaGIp);
 }
 .img__gOzp > picture > img {
   object-fit: cover;

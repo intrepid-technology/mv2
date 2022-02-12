@@ -4,9 +4,9 @@
   width: 360px;
   height: 48px;
   position: relative;
-  background: #101010;
+  background: var(--token-F4gy0u3aB);
   padding: 8px 16px;
-  border: 2px solid #101010 /* plasmic-token: F4gy0u3aB */;
+  border: 2px solid var(--token-F4gy0u3aB);
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
@@ -22,9 +22,9 @@
   margin-left: 0px;
 }
 .rootcompany_facebook {
-  background: #4267b2;
+  background: var(--token-CwLIZ-exE);
   border-style: solid;
-  border-color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+  border-color: var(--token-CwLIZ-exE);
 }
 .rootwidth__120 {
   width: 120px;
@@ -63,23 +63,23 @@
 }
 .rootcompany_google {
   background: rgb(219, 68, 55);
-  border-color: #db4437 /* plasmic-token: pXhZGSe3B */;
+  border-color: var(--token-pXhZGSe3B);
 }
 .rootcompany_stripe {
-  background: #7a72ff;
-  border-color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  background: var(--token-JG1mQ0YGJ);
+  border-color: var(--token-JG1mQ0YGJ);
 }
 .rootcompany_paypal {
-  background: #327aea;
-  border-color: #327aea /* plasmic-token: EfXZlpq-M */;
+  background: var(--token-EfXZlpq-M);
+  border-color: var(--token-EfXZlpq-M);
 }
 .rootcompany_xero {
-  background: #13b5ea;
-  border-color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+  background: var(--token-qYCtWfv-v);
+  border-color: var(--token-qYCtWfv-v);
 }
 .rootcompany_quickbooks {
-  background: #2ca01c;
-  border-color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+  background: var(--token-gGUp-8FW6);
+  border-color: var(--token-gGUp-8FW6);
 }
 .rootoriginalSizes__320Px {
   width: 320px;
@@ -111,24 +111,24 @@
   margin-top: 0px;
 }
 .rootcompany_facebook:hover {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
   border-width: 2px;
 }
 .rootcompany_google:hover {
-  background: #ffffff;
-  border: 2px solid #db4437 /* plasmic-token: pXhZGSe3B */;
+  background: var(--token-5XhQ_b_Lb);
+  border: 2px solid var(--token-pXhZGSe3B);
 }
 .rootcompany_stripe:hover {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .rootcompany_paypal:hover {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .rootcompany_xero:hover {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .rootcompany_quickbooks:hover {
-  background: #ffffff;
+  background: var(--token-5XhQ_b_Lb);
 }
 .iconTextParent {
   flex-direction: row;
@@ -339,27 +339,27 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   min-width: 0;
   min-height: 0;
 }
 .rootcompany_facebook:hover .svgcompany_facebook {
-  color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+  color: var(--token-CwLIZ-exE);
 }
 .rootcompany_google:hover .svgcompany_google {
-  color: #db4437 /* plasmic-token: pXhZGSe3B */;
+  color: var(--token-pXhZGSe3B);
 }
 .rootcompany_stripe:hover .svgcompany_stripe {
-  color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  color: var(--token-JG1mQ0YGJ);
 }
 .rootcompany_paypal:hover .svgcompany_paypal {
-  color: #327aea /* plasmic-token: EfXZlpq-M */;
+  color: var(--token-EfXZlpq-M);
 }
 .rootcompany_xero:hover .svgcompany_xero {
-  color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+  color: var(--token-qYCtWfv-v);
 }
 .rootcompany_quickbooks:hover .svgcompany_quickbooks {
-  color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+  color: var(--token-gGUp-8FW6);
 }
 .freeBox {
   display: flex;
@@ -373,7 +373,7 @@
 }
 .text {
   position: relative;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   font-size: 16px;
   width: auto;
   height: auto;
@@ -484,20 +484,20 @@
   font-size: 10px;
 }
 .rootcompany_facebook:hover .textcompany_facebook {
-  color: #4267b2 /* plasmic-token: CwLIZ-exE */;
+  color: var(--token-CwLIZ-exE);
 }
 .rootcompany_google:hover .textcompany_google {
-  color: #db4437 /* plasmic-token: pXhZGSe3B */;
+  color: var(--token-pXhZGSe3B);
 }
 .rootcompany_stripe:hover .textcompany_stripe {
-  color: #7a72ff /* plasmic-token: JG1mQ0YGJ */;
+  color: var(--token-JG1mQ0YGJ);
 }
 .rootcompany_paypal:hover .textcompany_paypal {
-  color: #327aea /* plasmic-token: EfXZlpq-M */;
+  color: var(--token-EfXZlpq-M);
 }
 .rootcompany_xero:hover .textcompany_xero {
-  color: #13b5ea /* plasmic-token: qYCtWfv-v */;
+  color: var(--token-qYCtWfv-v);
 }
 .rootcompany_quickbooks:hover .textcompany_quickbooks {
-  color: #2ca01c /* plasmic-token: gGUp-8FW6 */;
+  color: var(--token-gGUp-8FW6);
 }

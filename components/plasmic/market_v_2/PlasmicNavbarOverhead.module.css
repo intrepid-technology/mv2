@@ -7,7 +7,7 @@
   height: auto;
   padding-right: 32px;
   position: relative;
-  background: #f8f8f8;
+  background: var(--token-f9oAdmjsC);
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 428px) {
@@ -16,10 +16,10 @@
   }
 }
 .rootcolors_dark {
-  background: #101010;
+  background: var(--token-VLxGX_Tro);
 }
 .rootcolors_brand {
-  background: #6633ff;
+  background: var(--token-97FZ-MZpy);
 }
 .freeBox {
   flex-direction: row;

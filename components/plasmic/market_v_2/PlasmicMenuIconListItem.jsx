@@ -53,6 +53,8 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
         projectcss.all,
         projectcss.a,
         projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
         sty.menuIconListItemLink,
         {
           [sty.menuIconListItemLinkaction__switch]: hasVariant(

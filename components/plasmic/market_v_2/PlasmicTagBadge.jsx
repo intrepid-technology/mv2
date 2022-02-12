@@ -42,51 +42,58 @@ function PlasmicTagBadge__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootcolor_blue]: hasVariant(variants, "color", "blue"),
-        [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
-        [sty.rootcolor_green]: hasVariant(variants, "color", "green"),
-        [sty.rootcolor_green_type_ghost]:
-          hasVariant(variants, "color", "green") &&
-          hasVariant(variants, "type", "ghost"),
-        [sty.rootcolor_magenta]: hasVariant(variants, "color", "magenta"),
-        [sty.rootcolor_pink]: hasVariant(variants, "color", "pink"),
-        [sty.rootsize__12Px]: hasVariant(variants, "size", "_12Px"),
-        [sty.rootsize__14Px]: hasVariant(variants, "size", "_14Px"),
-        [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
-        [sty.rootsize__18Px]: hasVariant(variants, "size", "_18Px"),
-        [sty.rootsize__20Px]: hasVariant(variants, "size", "_20Px"),
-        [sty.roottype_ghost]: hasVariant(variants, "type", "ghost"),
-        [sty.roottype_ghost_color_blue]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "blue"),
-        [sty.roottype_ghost_color_brand]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "brand"),
-        [sty.roottype_ghost_color_magenta]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "magenta"),
-        [sty.roottype_ghost_color_pink]:
-          hasVariant(variants, "type", "ghost") &&
-          hasVariant(variants, "color", "pink"),
-        [sty.roottype_outline]: hasVariant(variants, "type", "outline"),
-        [sty.roottype_outline_color_blue]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "blue"),
-        [sty.roottype_outline_color_brand]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "brand"),
-        [sty.roottype_outline_color_green]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "green"),
-        [sty.roottype_outline_color_magenta]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "magenta"),
-        [sty.roottype_outline_color_pink]:
-          hasVariant(variants, "type", "outline") &&
-          hasVariant(variants, "color", "pink"),
-        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootcolor_blue]: hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_green]: hasVariant(variants, "color", "green"),
+          [sty.rootcolor_green_type_ghost]:
+            hasVariant(variants, "color", "green") &&
+            hasVariant(variants, "type", "ghost"),
+          [sty.rootcolor_magenta]: hasVariant(variants, "color", "magenta"),
+          [sty.rootcolor_pink]: hasVariant(variants, "color", "pink"),
+          [sty.rootsize__12Px]: hasVariant(variants, "size", "_12Px"),
+          [sty.rootsize__14Px]: hasVariant(variants, "size", "_14Px"),
+          [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.rootsize__18Px]: hasVariant(variants, "size", "_18Px"),
+          [sty.rootsize__20Px]: hasVariant(variants, "size", "_20Px"),
+          [sty.roottype_ghost]: hasVariant(variants, "type", "ghost"),
+          [sty.roottype_ghost_color_blue]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.roottype_ghost_color_brand]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.roottype_ghost_color_magenta]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.roottype_ghost_color_pink]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.roottype_outline]: hasVariant(variants, "type", "outline"),
+          [sty.roottype_outline_color_blue]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.roottype_outline_color_brand]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.roottype_outline_color_green]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "green"),
+          [sty.roottype_outline_color_magenta]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.roottype_outline_color_pink]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
+        }
+      )}
     >
       <div
         data-plasmic-name={"textlinkParent"}

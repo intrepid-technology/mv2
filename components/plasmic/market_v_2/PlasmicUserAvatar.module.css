@@ -46,7 +46,7 @@
   padding: 0px;
 }
 .slotTargetNavUserAvatar16 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar16size__18 {
   line-height: 1;
@@ -70,7 +70,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar24 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar24size__18 {
   line-height: 1;
@@ -94,7 +94,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar32 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar32size__18 {
   line-height: 1;
@@ -118,7 +118,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar24 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetPartnerAvatar24size__18 {
   line-height: 1;
@@ -142,7 +142,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar18 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetPartnerAvatar18size__18 {
   line-height: 1;
@@ -166,7 +166,7 @@
   object-fit: cover;
 }
 .slotTargetPartnerAvatar32 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetPartnerAvatar32size__18 {
   line-height: 1;
@@ -190,7 +190,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar40 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar40size__18 {
   line-height: 1;
@@ -214,7 +214,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar48 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar48size__18 {
   line-height: 1;
@@ -238,7 +238,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar64 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar64size__18 {
   line-height: 1;
@@ -262,7 +262,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar80 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar80size__18 {
   line-height: 1;
@@ -286,7 +286,7 @@
   object-fit: cover;
 }
 .slotTargetNavUserAvatar18 {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .slotTargetNavUserAvatar18size__18 {
   line-height: 1;

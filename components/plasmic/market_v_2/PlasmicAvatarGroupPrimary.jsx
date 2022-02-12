@@ -38,17 +38,24 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootamount__2_groupSize__16]:
-          hasVariant(variants, "amount", "_2") &&
-          hasVariant(variants, "groupSize", "_16"),
-        [sty.rootgroupSize__16_amount__3]:
-          hasVariant(variants, "groupSize", "_16") &&
-          hasVariant(variants, "amount", "_3"),
-        [sty.rootgroupSize__16_amount__4]:
-          hasVariant(variants, "groupSize", "_16") &&
-          hasVariant(variants, "amount", "_4")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootamount__2_groupSize__16]:
+            hasVariant(variants, "amount", "_2") &&
+            hasVariant(variants, "groupSize", "_16"),
+          [sty.rootgroupSize__16_amount__3]:
+            hasVariant(variants, "groupSize", "_16") &&
+            hasVariant(variants, "amount", "_3"),
+          [sty.rootgroupSize__16_amount__4]:
+            hasVariant(variants, "groupSize", "_16") &&
+            hasVariant(variants, "amount", "_4")
+        }
+      )}
     >
       <UserAvatar
         className={classNames("__wab_instance", sty.userAvatar__op0Ag, {

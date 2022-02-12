@@ -105,7 +105,7 @@
   display: none;
 }
 .slotTargetChildren {
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }
 .textarea {
   width: 100%;
@@ -115,17 +115,17 @@
   min-height: 0;
   border-radius: 4px;
   padding: 8px;
-  border: 2px solid #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  border: 2px solid var(--token-akkcKiBNZ);
 }
 .textareatype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .root:hover .textarea {
-  border-color: #14161b /* plasmic-token: _aCbIOo4N */;
+  border-color: var(--token-_aCbIOo4N);
 }
 .root:focus-within .textarea {
   outline: none;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .freeBox__raGoy {
   display: flex;
@@ -140,5 +140,5 @@
 }
 .slotTargetSlot {
   font-size: 12px;
-  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  color: var(--token-UPK7EIst5);
 }

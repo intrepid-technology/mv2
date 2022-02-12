@@ -8,9 +8,9 @@
   padding-left: 4px;
   padding-right: 4px;
   position: relative;
-  background: #6633ff;
+  background: var(--token-97FZ-MZpy);
   border-radius: 2px;
-  border: 2px none #6633ff /* plasmic-token: 97FZ-MZpy */;
+  border: 2px none var(--token-97FZ-MZpy);
 }
 .navbarListButtonTextParent {
   flex-direction: row;
@@ -44,13 +44,13 @@
   object-fit: cover;
   width: 18px;
   height: 18px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   flex-shrink: 0;
 }
 .navbarListButtonText {
   position: relative;
   line-height: 18px;
   width: auto;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   font-size: 14px;
 }

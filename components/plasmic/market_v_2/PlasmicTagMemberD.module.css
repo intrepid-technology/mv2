@@ -6,24 +6,24 @@
   width: auto;
   height: 16px;
   position: relative;
-  background: #f1f1f1;
+  background: var(--token-oCrZQyTOi);
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid var(--token-i5T_lGWIG);
 }
 .parentinset {
-  background: #f8f8f8;
-  border-color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  background: var(--token-f9oAdmjsC);
+  border-color: var(--token-t2DPA2Clx);
 }
 .parentinset:hover {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background: #f1f1f1;
+  background: var(--token-oCrZQyTOi);
   flex-row-gap: 0px;
   border-radius: 2px;
   padding: 2px 6px;
-  border: 1px solid #c2c6ce /* plasmic-token: i5T_lGWIG */;
+  border: 1px solid var(--token-i5T_lGWIG);
 }
 .text {
   position: relative;
@@ -31,13 +31,13 @@
   height: auto;
   text-transform: uppercase;
   font-size: 8px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   line-height: 10px;
   font-weight: 600;
 }
 .textinset {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .parentinset:hover .textinset {
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }

@@ -42,12 +42,19 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootheight__720]: hasVariant(variants, "height", "_720"),
-        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary"),
-        [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootheight__720]: hasVariant(variants, "height", "_720"),
+          [sty.roottype_secondary]: hasVariant(variants, "type", "secondary"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
     >
       <p.Stack
         as={"div"}

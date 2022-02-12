@@ -6,7 +6,7 @@
   width: 100%;
   height: 10px;
   position: relative;
-  background: #f0ebff;
+  background: var(--token-IHoAIP5sw);
   min-width: 0;
 }
 .freeBox {
@@ -25,42 +25,71 @@
   flex-shrink: 0;
 }
 .freeBoxprogress__20 {
-  background: linear-gradient(45deg, #6633ff 39%, #6633ff33 73%, #ffffff 97%);
+  background: linear-gradient(
+    45deg,
+    #6633ff 39%,
+    #6633ff33 73%,
+    var(--token-gJaAJBnXh) 97%
+  );
   width: 256px;
   min-width: 20%;
 }
 .freeBoxprogress__30 {
-  background: linear-gradient(110deg, #6633ff 39%, #6633ff33 93%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 39%,
+    #6633ff33 93%
+  );
   width: 384px;
   min-width: 30%;
 }
 .freeBoxprogress__40 {
-  background: linear-gradient(110deg, #6633ff 62%, #6633ff33 92%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 62%,
+    #6633ff33 92%
+  );
   width: 512px;
   min-width: 40%;
 }
 .freeBoxprogress__50 {
-  background: linear-gradient(110deg, #6633ff 49%, #6633ff33 86%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 49%,
+    #6633ff33 86%
+  );
   width: 640px;
   min-width: 50%;
 }
 .freeBoxprogress__60 {
-  background: linear-gradient(45deg, #6633ff 65%, #6633ff33 88%);
+  background: linear-gradient(45deg, var(--token-97FZ-MZpy) 65%, #6633ff33 88%);
   width: 768px;
   min-width: 60%;
 }
 .freeBoxprogress__70 {
-  background: linear-gradient(110deg, #6633ff 61%, #6633ff33 89%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 61%,
+    #6633ff33 89%
+  );
   width: 896px;
   min-width: 70%;
 }
 .freeBoxprogress__80 {
-  background: linear-gradient(110deg, #6633ff 63%, #6633ff33 87%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 63%,
+    #6633ff33 87%
+  );
   width: 1024px;
   min-width: 80%;
 }
 .freeBoxprogress__90 {
-  background: linear-gradient(110deg, #6633ff 73%, #6633ff33 99%);
+  background: linear-gradient(
+    110deg,
+    var(--token-97FZ-MZpy) 73%,
+    #6633ff33 99%
+  );
   width: 1152px;
   min-width: 90%;
 }

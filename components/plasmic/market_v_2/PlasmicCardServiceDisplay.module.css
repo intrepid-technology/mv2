@@ -4,8 +4,8 @@
   width: 360px;
   height: auto;
   position: relative;
-  background: #ffffff;
-  border: 2px solid rgba(255, 255, 255, 0.2) /* plasmic-token: FuVdnB9x_ */;
+  background: var(--token-5XhQ_b_Lb);
+  border: 2px solid var(--token-FuVdnB9x_);
 }
 .parent > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -884,7 +884,7 @@
 .slotTargetSellerUsername {
   font-size: 16px;
   font-weight: 400;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   line-height: 1;
 }
 .isVerification {
@@ -944,7 +944,7 @@
 .text__mzsOx {
   line-height: 1;
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .textsize__270X270__mzsOxyHOxL {
   font-size: 14px;
@@ -962,7 +962,7 @@
   height: auto;
   width: auto;
   font-size: 16px;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .textsize__270X270__gnv58YHOxL {
   font-size: 14px;
@@ -1006,7 +1006,7 @@
 .slotTargetServiceDescription {
   font-size: 14px;
   font-weight: 400;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   line-height: 1.4;
 }
 .slotTargetServiceDescriptionsize__270X270 {
@@ -1123,7 +1123,7 @@
   line-height: 1;
   font-size: 18px;
   font-weight: 500;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .currencysize__270X270 {
   font-size: 16px;
@@ -1143,7 +1143,7 @@
   font-weight: 500;
   width: auto;
   height: auto;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
 }
 .priceValuesize__270X270 {
   font-size: 16px;
@@ -1165,7 +1165,7 @@
 }
 .text__dGTde {
   text-transform: capitalize;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .userStatsParent {
   flex-direction: row;
@@ -1249,7 +1249,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   flex-shrink: 0;
 }
 .viewNumberValueParent {
@@ -1266,7 +1266,7 @@
 .viewNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .heartButtonCount {
   flex-direction: row;
@@ -1311,7 +1311,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   flex-shrink: 0;
 }
 .heartNumberValueParent {
@@ -1328,7 +1328,7 @@
 .heartNumberIncrement {
   line-height: 1;
   font-size: 12px;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .bookmarkButtonCount {
   flex-direction: row;
@@ -1376,7 +1376,7 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #14161b /* plasmic-token: IbTSH9_JJ */;
+  color: var(--token-IbTSH9_JJ);
   flex-shrink: 0;
 }
 .bookmarkNumberValueParent {
@@ -1395,5 +1395,5 @@
   font-size: 12px;
   width: auto;
   height: auto;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }

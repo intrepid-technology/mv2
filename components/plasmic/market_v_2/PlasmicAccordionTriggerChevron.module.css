@@ -17,7 +17,7 @@
   height: auto;
 }
 .slotTargetSvgstate_disabled {
-  color: #f8f8f8 /* plasmic-token: -59aep1Mm */;
+  color: var(--token--59aep1Mm);
 }
 .svg___63YN {
   object-fit: cover;

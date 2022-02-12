@@ -120,14 +120,14 @@
   object-fit: cover;
   width: 16px;
   height: 16px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .svg___6Z5RF {
   position: relative;
   object-fit: cover;
   width: 14px;
   height: 14px;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
 }
 .svg__bsxIk {
   position: relative;

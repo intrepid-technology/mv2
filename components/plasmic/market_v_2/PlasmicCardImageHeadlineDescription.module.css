@@ -564,7 +564,7 @@
   width: 270px;
 }
 .text__ntFG {
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   font-size: 18px;
 }
 .subheadParent {

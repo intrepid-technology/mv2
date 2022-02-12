@@ -10,7 +10,7 @@
   display: flex;
   width: auto;
   height: auto;
-  background: #3366ff;
+  background: var(--token-MxvXD2oSU);
   border-radius: 16px;
   padding: 2px 4px 2px 1px;
   border-width: 0px;
@@ -45,7 +45,7 @@
   top: auto;
   width: 12px;
   height: 12px;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   flex-shrink: 0;
   display: block;
 }
@@ -62,7 +62,7 @@
   font-size: 6px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
   text-align: left;
   width: auto;
   height: auto;

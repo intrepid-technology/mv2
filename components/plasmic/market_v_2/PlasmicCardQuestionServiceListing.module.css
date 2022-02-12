@@ -37,7 +37,7 @@
   font-weight: 700;
   letter-spacing: normal;
   line-height: 1;
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
   text-transform: uppercase;
 }
 .freeBox__dddfs {
@@ -64,7 +64,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   text-transform: none;
 }
 .freeBox__lIIbI {
@@ -82,5 +82,5 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
 }

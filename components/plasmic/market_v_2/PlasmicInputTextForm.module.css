@@ -80,7 +80,7 @@
   width: 180px;
 }
 .slotTargetLabelHeadline {
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
   line-height: 1;
 }
 .slotTargetLabelHeadlinewidth__720 {
@@ -156,7 +156,7 @@
   flex-shrink: 0;
   display: block;
   border-radius: 0px;
-  border-color: #a3a9b6 /* plasmic-token: akkcKiBNZ */;
+  border-color: var(--token-akkcKiBNZ);
 }
 .textInputheight__32 {
   font-size: 14px;
@@ -182,7 +182,7 @@
   flex-shrink: 0;
 }
 .textInputtype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .root:hover .textInput {
   display: block;
@@ -191,7 +191,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   align-self: stretch;
   position: relative;
   text-transform: none;
@@ -212,14 +212,14 @@
   background: none;
   min-width: 0;
   flex-shrink: 0;
-  border-color: #14161b /* plasmic-token: zi5VxOARL */;
+  border-color: var(--token-zi5VxOARL);
 }
 .roottype_secondary:hover .textInputtype_secondary {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .root:focus-within .textInput {
   outline: none;
-  border-color: #5229cc /* plasmic-token: brleuPgaD */;
+  border-color: var(--token-brleuPgaD);
 }
 .roottype_secondary:focus-within .textInputtype_secondary {
   outline: none;
@@ -249,7 +249,7 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #3d4350 /* plasmic-token: UPK7EIst5 */;
+  color: var(--token-UPK7EIst5);
 }
 .slotTargetDescriptionwidth__180 {
   font-size: 14px;

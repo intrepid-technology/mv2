@@ -35,7 +35,7 @@
 }
 .slotTargetSlot {
   font-weight: 700;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .freeBox__shxFa {
   flex-direction: column;

@@ -99,6 +99,8 @@ function PlasmicHome__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -197,25 +199,25 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "iphone678"
                                   )
-                                    ? "Manage a remote team.Work from anywhere and scale on demand."
+                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone678Plus"
                                       )
-                                    ? "Manage a remote team.Work from anywhere and scale on demand."
+                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Manage a remote team.Work from anywhere and scale on demand."
+                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Manage a remote team. Work from anywhere and scale on demand."
+                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -396,8 +398,10 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__kTRu
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Remote work management software that gives your team superpowers"
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Global payments and employment platform to build, manage, and pay distributed and remote teams"
+                      : hasVariant(globalVariants, "screen", "desktop")
+                      ? "Global payments and employment platform to build, manage, and pay distributed and remote teams"
                       : "Business management software that gives your remote company superpowers"}
                   </div>
 
@@ -555,10 +559,12 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text___3PMT
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Adapt and navigate your remote work transformation and make your team happy"
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Adapt and navigate your\nremote work transformation\nand scale on demand"
+                      : hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Adapt and navigate your\nremote work transformation\nand scale on demand"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Adapt and navigate your\nremote work transformation\nand make your team happy"
+                      ? "Adapt and navigate your\nremote work transformation\nand scale on demand"
                       : "Adapt and navigate your\nremote work transformation\nand make your team happy"}
                   </div>
 
@@ -644,10 +650,12 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zKr39
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Workforce recommendations that match your needs and save you time without endless searching"
+                    {hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
+                      : hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Workforce recommendations that match your needs and save you time without endless searching"
+                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 
@@ -1096,8 +1104,22 @@ function PlasmicHome__RenderFunc(props) {
                               sty.text__cyDea
                             )}
                           >
-                            {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Pay your freelancers and agencies in 150 countries with one-click"
+                            {hasVariant(globalVariants, "screen", "iphone678")
+                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              : hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone678Plus"
+                                )
+                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              : hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone12ProMax"
+                                )
+                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
+                              : hasVariant(globalVariants, "screen", "desktop")
+                              ? "Pay your remote employees and freelancers in 150 countries with one-click"
                               : "Pay your freelancers and agencies in 150 different countries with one-click"}
                           </div>
 
@@ -1115,8 +1137,24 @@ function PlasmicHome__RenderFunc(props) {
                                   sty.text___6DqXv
                                 )}
                               >
-                                {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "iphone678Plus"
+                                )
+                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  : hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "iphone12ProMax"
+                                    )
+                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
+                                  : hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "desktop"
+                                    )
+                                  ? "Automate your global payroll and freelancer payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."
                                   : "Automate your freelancer or agency payments, calculate local taxes, and pay your remote team each month, or on demand with one payment.  We'll make sure they get paid fast, in their preferred currency."}
                               </div>
                             </div>
@@ -1211,7 +1249,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Manage your  budget and track expenses based on your team's performance"
+                              ? "Manage your remote team  budget and expenses based on performance"
                               : "Manage your  budget and track expenses based on your team's performance"}
                           </div>
 

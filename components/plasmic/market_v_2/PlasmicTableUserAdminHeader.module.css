@@ -10,7 +10,7 @@
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
   min-width: 0;
 }
 .radioTextInputPrimary:global(.__wab_instance) {

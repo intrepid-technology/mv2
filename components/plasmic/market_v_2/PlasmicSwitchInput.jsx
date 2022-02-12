@@ -38,14 +38,21 @@ function PlasmicSwitchInput__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootdisabled]: hasVariant(variants, "disabled", "disabled"),
-        [sty.rootdisabled_on]:
-          hasVariant(variants, "disabled", "disabled") &&
-          hasVariant(variants, "on", "on"),
-        [sty.rooton]: hasVariant(variants, "on", "on"),
-        [sty.rootswitchOnly]: hasVariant(variants, "switchOnly", "switchOnly")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootdisabled]: hasVariant(variants, "disabled", "disabled"),
+          [sty.rootdisabled_on]:
+            hasVariant(variants, "disabled", "disabled") &&
+            hasVariant(variants, "on", "on"),
+          [sty.rooton]: hasVariant(variants, "on", "on"),
+          [sty.rootswitchOnly]: hasVariant(variants, "switchOnly", "switchOnly")
+        }
+      )}
     >
       {(hasVariant(variants, "switchOnly", "switchOnly") ? true : true) ? (
         <div

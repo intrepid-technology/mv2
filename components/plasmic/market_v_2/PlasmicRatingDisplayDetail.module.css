@@ -26,7 +26,7 @@
   height: 16px;
   left: auto;
   top: auto;
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
   align-self: center;
   flex-shrink: 0;
 }
@@ -46,10 +46,10 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .slotTargetChildrencolor_primaryB {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .slotTargetChildrensize__14 {
   font-size: 14px;
@@ -68,10 +68,10 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .slotTargetSlotcolor_primaryB {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .slotTargetSlotsize__14 {
   font-size: 14px;

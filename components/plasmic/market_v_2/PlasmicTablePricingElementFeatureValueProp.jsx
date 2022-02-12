@@ -39,10 +39,17 @@ function PlasmicTablePricingElementFeatureValueProp__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
-        [sty.rootsize__24Px]: hasVariant(variants, "size", "_24Px")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
+          [sty.rootsize__24Px]: hasVariant(variants, "size", "_24Px")
+        }
+      )}
     >
       <div
         data-plasmic-name={"svgIconParent"}

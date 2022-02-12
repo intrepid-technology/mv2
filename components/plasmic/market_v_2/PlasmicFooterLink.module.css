@@ -9,26 +9,26 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.4;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
 }
 .slotTargetSlotcolor_light {
-  color: #eaeaea /* plasmic-token: t2DPA2Clx */;
+  color: var(--token-t2DPA2Clx);
 }
 .slotTargetSlotcolor_dark {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .slotTargetSlotcolor_brand {
-  color: #c2adff /* plasmic-token: j08wwDM3g */;
+  color: var(--token-j08wwDM3g);
 }
 .root:hover .slotTargetSlot {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .rootcolor_light:hover .slotTargetSlotcolor_light {
-  color: #ffffff /* plasmic-token: fuGaen6l1 */;
+  color: var(--token-fuGaen6l1);
 }
 .rootcolor_dark:hover .slotTargetSlotcolor_dark {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .rootcolor_brand:hover .slotTargetSlotcolor_brand {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }

@@ -50,10 +50,17 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootcolor]: hasVariant(variants, "color", "color"),
-        [sty.rootuser_buyer]: hasVariant(variants, "user", "buyer")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootcolor]: hasVariant(variants, "color", "color"),
+          [sty.rootuser_buyer]: hasVariant(variants, "user", "buyer")
+        }
+      )}
     >
       <div
         className={classNames(projectcss.all, sty.column__pLq0K, {
@@ -76,7 +83,6 @@ function PlasmicNavbarPrimary__RenderFunc(props) {
               className={classNames("__wab_instance", sty.navbarLogo, {
                 [sty.navbarLogocolor]: hasVariant(variants, "color", "color")
               })}
-              destination={"/landingpage-2021"}
             />
           </div>
         ) : null}

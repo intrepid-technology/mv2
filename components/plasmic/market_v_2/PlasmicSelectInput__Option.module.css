@@ -10,7 +10,7 @@
   padding: 4px 8px;
 }
 .rootisHighlighted {
-  background: #f8f8f8;
+  background: var(--token-530QP0ccB);
 }
 .rootisDisabled {
   opacity: 0.5;
@@ -52,6 +52,6 @@
   overflow: hidden;
 }
 .slotTargetChildrenisSelected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
   font-weight: 500;
 }

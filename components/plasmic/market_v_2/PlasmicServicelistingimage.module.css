@@ -107,11 +107,11 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
   align-self: stretch;
 }
 .text__r5CWc {
-  color: #6633ff /* plasmic-token: 97FZ-MZpy */;
+  color: var(--token-97FZ-MZpy);
 }
 .freeBox__wbEqK {
   flex-direction: column;
@@ -204,5 +204,5 @@
   object-fit: cover;
   width: 32px;
   height: 32px;
-  color: #855cff /* plasmic-token: 6xKNduQM7 */;
+  color: var(--token-6xKNduQM7);
 }

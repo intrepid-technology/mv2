@@ -58,18 +58,30 @@ function PlasmicCheckboxTextPrimary__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       hasGap={true}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
-        [sty.rootisChecked]: hasVariant(variants, "isChecked", "isChecked"),
-        [sty.rootisDisabled]: hasVariant(variants, "isDisabled", "isDisabled"),
-        [sty.rootisIndeterminate]: hasVariant(
-          variants,
-          "isIndeterminate",
-          "isIndeterminate"
-        ),
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,
+          [sty.rootisChecked]: hasVariant(variants, "isChecked", "isChecked"),
+          [sty.rootisDisabled]: hasVariant(
+            variants,
+            "isDisabled",
+            "isDisabled"
+          ),
 
-        [sty.rootnoLabel]: hasVariant(variants, "noLabel", "noLabel")
-      })}
+          [sty.rootisIndeterminate]: hasVariant(
+            variants,
+            "isIndeterminate",
+            "isIndeterminate"
+          ),
+
+          [sty.rootnoLabel]: hasVariant(variants, "noLabel", "noLabel")
+        }
+      )}
       data-plasmic-trigger-props={[triggerRootFocusVisibleWithinProps]}
     >
       <div

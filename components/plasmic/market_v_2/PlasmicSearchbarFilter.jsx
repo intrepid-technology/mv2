@@ -37,17 +37,24 @@ function PlasmicSearchbarFilter__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootheight__32]: hasVariant(variants, "height", "_32"),
-        [sty.rootheight__36]: hasVariant(variants, "height", "_36"),
-        [sty.rootheight__40]: hasVariant(variants, "height", "_40"),
-        [sty.rootheight__48]: hasVariant(variants, "height", "_48"),
-        [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
-        [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
-        [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
-        [sty.rootwidth__540]: hasVariant(variants, "width", "_540"),
-        [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootheight__32]: hasVariant(variants, "height", "_32"),
+          [sty.rootheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.rootheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.rootheight__48]: hasVariant(variants, "height", "_48"),
+          [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.rootwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.rootwidth_stretch]: hasVariant(variants, "width", "stretch")
+        }
+      )}
     >
       <div
         data-plasmic-name={"freeBox"}

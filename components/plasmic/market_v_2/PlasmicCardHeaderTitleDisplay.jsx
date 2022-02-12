@@ -39,13 +39,20 @@ function PlasmicCardHeaderTitleDisplay__RenderFunc(props) {
       data-plasmic-override={overrides.parent}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.parent, {
-        [sty.parentsize__1080]: hasVariant(variants, "size", "_1080"),
-        [sty.parentsize__270]: hasVariant(variants, "size", "_270"),
-        [sty.parentsize__360]: hasVariant(variants, "size", "_360"),
-        [sty.parentsize__540]: hasVariant(variants, "size", "_540"),
-        [sty.parentsize__720]: hasVariant(variants, "size", "_720")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.parent,
+        {
+          [sty.parentsize__1080]: hasVariant(variants, "size", "_1080"),
+          [sty.parentsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.parentsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.parentsize__540]: hasVariant(variants, "size", "_540"),
+          [sty.parentsize__720]: hasVariant(variants, "size", "_720")
+        }
+      )}
     >
       <p.Stack
         as={"div"}

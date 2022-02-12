@@ -31,15 +31,22 @@ function PlasmicInputTextField__RenderFunc(props) {
       data-plasmic-override={overrides.root}
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
-      className={classNames(projectcss.all, projectcss.root_reset, sty.root, {
-        [sty.rootsize__160]: hasVariant(variants, "size", "_160"),
-        [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
-        [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
-        [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
-        [sty.rootsize__540]: hasVariant(variants, "size", "_540"),
-        [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch"),
-        [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
-      })}
+      className={classNames(
+        projectcss.all,
+        projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
+        sty.root,
+        {
+          [sty.rootsize__160]: hasVariant(variants, "size", "_160"),
+          [sty.rootsize__180]: hasVariant(variants, "size", "_180"),
+          [sty.rootsize__270]: hasVariant(variants, "size", "_270"),
+          [sty.rootsize__360]: hasVariant(variants, "size", "_360"),
+          [sty.rootsize__540]: hasVariant(variants, "size", "_540"),
+          [sty.rootsize_stretch]: hasVariant(variants, "size", "stretch"),
+          [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
+        }
+      )}
     >
       <div
         data-plasmic-name={"inputTextParent"}

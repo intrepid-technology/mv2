@@ -67,6 +67,6 @@
 }
 .slotTargetText {
   font-size: 16px;
-  color: #14161b /* plasmic-token: ec1vMFIzT */;
+  color: var(--token-ec1vMFIzT);
   line-height: 1;
 }

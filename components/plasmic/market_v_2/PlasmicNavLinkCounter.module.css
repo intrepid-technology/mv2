@@ -34,10 +34,10 @@
   margin-left: 8px;
 }
 .parentstate_selected {
-  border-bottom: 2px solid #101010 /* plasmic-token: 7-Hl8dlot */;
+  border-bottom: 2px solid var(--token-7-Hl8dlot);
 }
 .root:hover .parent {
-  background: #f8f8ff;
+  background: var(--token-PfXAJ-PoV);
 }
 .rootstate_selected:hover .parentstate_selected {
   background: none;
@@ -62,17 +62,17 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   text-transform: none;
 }
 .slotTargetNavLabelstate_selected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .root:hover .slotTargetNavLabel {
-  color: #101010 /* plasmic-token: F4gy0u3aB */;
+  color: var(--token-F4gy0u3aB);
 }
 .rootstate_selected:hover .slotTargetNavLabelstate_selected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }
 .numberParent {
   display: flex;
@@ -96,9 +96,9 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #3d4350 /* plasmic-token: lJGpMo6-- */;
+  color: var(--token-lJGpMo6--);
   text-transform: none;
 }
 .slotTargetNumberValuestate_selected {
-  color: #101010 /* plasmic-token: 7-Hl8dlot */;
+  color: var(--token-7-Hl8dlot);
 }

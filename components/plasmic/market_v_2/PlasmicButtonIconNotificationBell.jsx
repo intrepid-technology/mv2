@@ -41,6 +41,8 @@ function PlasmicButtonIconNotificationBell__RenderFunc(props) {
         projectcss.all,
         projectcss.button,
         projectcss.root_reset,
+        projectcss.plasmic_default_styles,
+        projectcss.plasmic_tokens,
         sty.root,
         { [sty.rootstate_alert]: hasVariant(variants, "state", "alert") }
       )}

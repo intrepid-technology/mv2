@@ -81,7 +81,7 @@
   font-weight: 500;
   letter-spacing: normal;
   line-height: 1.2;
-  color: #101010 /* plasmic-token: 6OoG_pvkg */;
+  color: var(--token-6OoG_pvkg);
   align-self: stretch;
 }
 @media (min-width: 0px) and (max-width: 1440px) {
@@ -92,7 +92,7 @@
     font-weight: 500;
     letter-spacing: normal;
     line-height: 1.2;
-    color: #101010 /* plasmic-token: 6OoG_pvkg */;
+    color: var(--token-6OoG_pvkg);
     align-self: stretch;
   }
 }
@@ -2059,6 +2059,6 @@
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1;
-  color: #14161b /* plasmic-token: MAJ29KQMI */;
+  color: var(--token-MAJ29KQMI);
   align-self: stretch;
 }
