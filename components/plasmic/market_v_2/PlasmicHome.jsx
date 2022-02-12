@@ -199,25 +199,25 @@ function PlasmicHome__RenderFunc(props) {
                                     "screen",
                                     "iphone678"
                                   )
-                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
+                                    ? "Find, hire, and pay freelancers and remote employees in any country"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone678Plus"
                                       )
-                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
+                                    ? "Find, hire, and pay freelancers and remote employees in any country"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "iphone12ProMax"
                                       )
-                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
+                                    ? "Find, hire, and pay freelancers and remote employees in any country"
                                     : hasVariant(
                                         globalVariants,
                                         "screen",
                                         "desktop"
                                       )
-                                    ? "Find, hire, and pay remote employees and  freelancers from around the world "
+                                    ? "Find, hire, and pay freelancers and remote employees in any country"
                                     : "Run your remote company from anywhere and scale on demand"}
                                 </div>
                               </div>
@@ -285,7 +285,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                     src={
                       hasVariant(globalVariants, "screen", "desktop")
-                        ? "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
+                        ? "/plasmic/remote_v_1/images/intrepidRemote2022Png2.png"
                         : "/plasmic/market_v_2/images/baliWomanjpg.jpeg"
                     }
                   />
@@ -650,12 +650,14 @@ function PlasmicHome__RenderFunc(props) {
                       sty.text__zKr39
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
+                    {hasVariant(globalVariants, "screen", "iphone678")
+                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
+                      : hasVariant(globalVariants, "screen", "iphone678Plus")
+                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
+                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Automated recommendations that match your needs and budget––saving you time without endless searching"
+                      ? "Automated recommendations that match your specific company needs and budget––saving you time without endless searching"
                       : "Freelancer and agency recommendations that match your needs and save you time without endless searching"}
                   </div>
 

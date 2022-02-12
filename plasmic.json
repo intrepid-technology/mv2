@@ -5533,6 +5533,16 @@
           "id": "hvmtv97xW",
           "name": "collin-user-image",
           "filePath": "../public/plasmic/market_v_2/images/collinUserImage.jpeg"
+        },
+        {
+          "id": "49ND71v-S",
+          "name": "Intrepid-Remote-2022.png",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemote2022Png.png"
+        },
+        {
+          "id": "cwH3ln15l",
+          "name": "Intrepid-Remote-2022.png 2",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemote2022Png2.png"
         }
       ],
       "codeComponents": [],
@@ -5572,7 +5582,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "globalContextsFilePath": ""
+      "globalContextsFilePath": "",
+      "jsBundleThemes": []
     },
     {
       "projectId": "5dGW8Awro3qq8Hh5MveXLP",
@@ -5591,7 +5602,8 @@
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
-      "globalContextsFilePath": ""
+      "globalContextsFilePath": "",
+      "jsBundleThemes": []
     },
     {
       "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
@@ -5730,7 +5742,8 @@
           "componentImportPath": "@plasmicpkgs/antd"
         }
       ],
-      "globalContextsFilePath": ""
+      "globalContextsFilePath": "",
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {
