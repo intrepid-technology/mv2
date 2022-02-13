@@ -539,6 +539,11 @@
   height: 48px;
   flex-shrink: 0;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__k9Wyg {
+    font-weight: 700;
+  }
+}
 .column__cdamw {
   display: flex;
   position: relative;
@@ -1587,6 +1592,11 @@
     width: 360px;
     height: 48px;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__lzpXt {
+    font-weight: 700;
   }
 }
 .featureTwo {
@@ -4879,6 +4889,11 @@
     width: 360px;
     height: 48px;
     flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__zkm7M {
+    font-weight: 700;
   }
 }
 .footerWrapper {

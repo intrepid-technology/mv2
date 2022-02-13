@@ -19,6 +19,7 @@ import {
 } from "@plasmicapp/react-web";
 import NavbarLogo from "../../NavbarLogo"; // plasmic-import: oDDjpt5lQZ/component
 import Button from "../../Button"; // plasmic-import: ftJnovScMuV/component
+import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import Avatar from "../../Avatar"; // plasmic-import: iOk1GFS0p-/component
 import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -171,34 +172,27 @@ function PlasmicNavbar__RenderFunc(props) {
             </div>
           </Button>
 
-          <Button
-            data-plasmic-name={"partnerButton"}
-            data-plasmic-override={overrides.partnerButton}
-            className={classNames("__wab_instance", sty.partnerButton, {
-              [sty.partnerButtondark]: hasVariant(variants, "dark", "dark")
+          <ButtonPrimary
+            data-plasmic-name={"buttonPrimary"}
+            data-plasmic-override={overrides.buttonPrimary}
+            className={classNames("__wab_instance", sty.buttonPrimary, {
+              [sty.buttonPrimarydark]: hasVariant(variants, "dark", "dark")
             })}
-            color={hasVariant(variants, "dark", "dark") ? "brand" : undefined}
-            destination={
-              hasVariant(variants, "dark", "dark")
-                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                : hasVariant(globalVariants, "screen", "desktop")
-                ? "https://intrepidventures.typeform.com/to/MthpVWrA"
-                : "https://intrepidventures.typeform.com/to/MthpVWrA"
-            }
-            hasShadow={true}
-            rounded={true}
-            type={"primary"}
+            destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
+            height={"_48"}
+            type={hasVariant(variants, "dark", "dark") ? "primary" : undefined}
+            width={"_180"}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__o407H
+                sty.text___4J9Wi
               )}
             >
-              {"Request access"}
+              {"Get early access"}
             </div>
-          </Button>
+          </ButtonPrimary>
         </p.Stack>
       ) : null}
       {(hasVariant(variants, "auth", "auth") ? true : false) ? (
@@ -228,7 +222,7 @@ function PlasmicNavbar__RenderFunc(props) {
                 src={
                   hasVariant(variants, "auth", "auth")
                     ? "/plasmic/market_v_2/images/userAvatarForPresentationjpg.jpeg"
-                    : "/plasmic/market_v_2/images/image4.png"
+                    : "/plasmic/market_v_2/images/collinUserImage.jpeg"
                 }
               />
             </Avatar>
@@ -247,7 +241,7 @@ const PlasmicDescendants = {
     "actionWrapper",
     "sellOnIntrepidButton",
     "pricingNavButton",
-    "partnerButton",
+    "buttonPrimary",
     "authActionsWrapper",
     "avatar",
     "img"
@@ -259,12 +253,12 @@ const PlasmicDescendants = {
     "actionWrapper",
     "sellOnIntrepidButton",
     "pricingNavButton",
-    "partnerButton"
+    "buttonPrimary"
   ],
 
   sellOnIntrepidButton: ["sellOnIntrepidButton"],
   pricingNavButton: ["pricingNavButton"],
-  partnerButton: ["partnerButton"],
+  buttonPrimary: ["buttonPrimary"],
   authActionsWrapper: ["authActionsWrapper", "avatar", "img"],
   avatar: ["avatar", "img"],
   img: ["img"]
@@ -304,7 +298,7 @@ export const PlasmicNavbar = Object.assign(
     actionWrapper: makeNodeComponent("actionWrapper"),
     sellOnIntrepidButton: makeNodeComponent("sellOnIntrepidButton"),
     pricingNavButton: makeNodeComponent("pricingNavButton"),
-    partnerButton: makeNodeComponent("partnerButton"),
+    buttonPrimary: makeNodeComponent("buttonPrimary"),
     authActionsWrapper: makeNodeComponent("authActionsWrapper"),
     avatar: makeNodeComponent("avatar"),
     img: makeNodeComponent("img"),

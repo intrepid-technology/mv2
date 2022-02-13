@@ -245,7 +245,7 @@ function PlasmicHome__RenderFunc(props) {
                             )
                               ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
+                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in any country—so you can build a global and remote workforce that scales on demand."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -266,7 +266,17 @@ function PlasmicHome__RenderFunc(props) {
                       hasShadow={true}
                       rounded={true}
                     >
-                      {"Request access"}
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__k9Wyg
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "desktop")
+                          ? "Get early access"
+                          : "Request access"}
+                      </div>
                     </Button>
                   </p.Stack>
                 ) : null}
@@ -413,7 +423,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Manage a remote team with full transparency into your finances and global operations. Get specialised services designed to make remote team management life changing. "
+                      ? "Discover and hire a global and remote team. Create locally compliant contracts for any country and pay your team in 200 supported currencies"
                       : "Manage a remote and global workforce with full transparency into your team, finances, and global operations. Get specialised services designed to make remote work and workforce management life changing. "}
                   </div>
                 </p.Stack>
@@ -608,7 +618,17 @@ function PlasmicHome__RenderFunc(props) {
                       : true
                   }
                 >
-                  {"Request access"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__lzpXt
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Get early access"
+                      : "Request access"}
+                  </div>
                 </Button>
               </div>
             </p.Stack>
@@ -1386,7 +1406,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."
+                                  ? "Generate, send, and sign contracts for new employees or freelance agency in any country. Onboard new team members or partners in minutes,\nkeep track of all your IP, NDA’s, and maintain a compliant work status for your international freelancers and agencies no matter where they are."
                                   : "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."}
                               </div>
                             </div>
@@ -1574,7 +1594,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."
+                      ? "Hire anyone in a new country​ in minutes. Automate contracts, onboarding, payments, and compliance and access a global community of high quality freelancers and agencies ready to help your remote company succeed."
                       : "Work and grow from anywhere in the world. Access a global community of high quality freelancers and agencies ready to help your remote company succeed."}
                   </div>
                 </p.Stack>
@@ -1728,7 +1748,17 @@ function PlasmicHome__RenderFunc(props) {
                       : true
                   }
                 >
-                  {"Request access"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__zkm7M
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "desktop")
+                      ? "Get early access"
+                      : "Request access"}
+                  </div>
                 </Button>
               </div>
             </p.Stack>
