@@ -523,6 +523,7 @@
     font-size: 20px;
     color: var(--token--59aep1Mm);
     text-align: left;
+    padding-bottom: 0px;
     min-width: 0;
   }
 }
@@ -1241,6 +1242,11 @@
   top: auto;
   left: auto;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text___6PQsa {
+    font-weight: 700;
+  }
+}
 .freeBox__oLb2U {
   flex-direction: column;
   display: flex;
@@ -1299,6 +1305,11 @@
   top: auto;
   left: auto;
 }
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__vrT {
+    font-weight: 700;
+  }
+}
 .freeBox__zjAwk {
   flex-direction: column;
   display: flex;
@@ -1356,6 +1367,11 @@
   position: relative;
   top: auto;
   left: auto;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .text__ztRw0 {
+    font-weight: 700;
+  }
 }
 .remoteWorkCta {
   flex-direction: column;

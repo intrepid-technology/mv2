@@ -245,7 +245,7 @@ function PlasmicHome__RenderFunc(props) {
                             )
                               ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in any country—so you can build a global and remote workforce that scales on demand."
+                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers, agencies, and remote employees in any country—so you can build a global and remote workforce that scales on demand."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>
@@ -461,7 +461,19 @@ function PlasmicHome__RenderFunc(props) {
                       "__wab_instance",
                       sty.cardFeatureHeadlineDescriptionPrimary__sBz8O
                     )}
-                    headlineSlot={"Find and hire freelancers & agencies"}
+                    headlineSlot={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___6PQsa
+                        )}
+                      >
+                        {hasVariant(globalVariants, "screen", "desktop")
+                          ? "Find freelancers & agencies"
+                          : "Find and hire freelancers & agencies"}
+                      </div>
+                    }
                   />
                 </p.Stack>
 
@@ -496,7 +508,17 @@ function PlasmicHome__RenderFunc(props) {
                       "__wab_instance",
                       sty.cardFeatureHeadlineDescriptionPrimary__v4Umg
                     )}
-                    headlineSlot={"60 day net payment terms "}
+                    headlineSlot={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__vrT
+                        )}
+                      >
+                        {"60 day net payment terms "}
+                      </div>
+                    }
                   />
                 </p.Stack>
 
@@ -527,7 +549,17 @@ function PlasmicHome__RenderFunc(props) {
                       "__wab_instance",
                       sty.cardFeatureHeadlineDescriptionPrimary__jNiMn
                     )}
-                    headlineSlot={"Pay your team in 150 countries"}
+                    headlineSlot={
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__ztRw0
+                        )}
+                      >
+                        {"Pay your team in 150 countries"}
+                      </div>
+                    }
                   />
                 </p.Stack>
               </p.Stack>
@@ -1387,7 +1419,7 @@ function PlasmicHome__RenderFunc(props) {
                             )}
                           >
                             {hasVariant(globalVariants, "screen", "desktop")
-                              ? "Comply with international and local laws without the complexity"
+                              ? "Generate international contracts and comply with local laws"
                               : "Comply with international and local laws without the complexity"}
                           </div>
 
@@ -1406,7 +1438,7 @@ function PlasmicHome__RenderFunc(props) {
                                 )}
                               >
                                 {hasVariant(globalVariants, "screen", "desktop")
-                                  ? "Generate, send, and sign contracts for new employees or freelance agency in any country. Onboard new team members or partners in minutes,\nkeep track of all your IP, NDA’s, and maintain a compliant work status for your international freelancers and agencies no matter where they are."
+                                  ? "Generate, send, and sign contracts for new employees or a freelance agency in any country. Onboard new team members or partners in minutes, keep track of all your IP, NDA’s, and maintain a compliant work status for your remote team no matter where they are"
                                   : "Keep track of all your IP, NDA’s, and Maintain a compliant work status for your international freelancers and agencies no matter where they are. As your employer of record we ensure all things hiring follow regional laws and tax rules so your team can work wherever they live."}
                               </div>
                             </div>
@@ -1582,7 +1614,7 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "desktop")
-                      ? "Grow a global and remote team without the hassles"
+                      ? "Build and grow a remote team without the hassles"
                       : "Grow a global and remote company without the hassles"}
                   </div>
 
