@@ -158,7 +158,7 @@
     display: none;
   }
 }
-.sellOnIntrepidButton:global(.__wab_instance) {
+.hireOnIntrepidButton:global(.__wab_instance) {
   position: relative;
 }
 .text__uRxVz {
@@ -178,6 +178,9 @@
   flex-shrink: 0;
 }
 .buttonPrimarydark:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonPrimaryfreelancer:global(.__wab_instance) {
   flex-shrink: 0;
 }
 .svg___1YSwj {

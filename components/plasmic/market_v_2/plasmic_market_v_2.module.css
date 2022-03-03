@@ -249,7 +249,8 @@
   --plasmic-token-blu-grey: var(--token-afi8Yi3nu);
 }
 
-.plasmic_default_styles {
+.plasmic_default_styles,
+.plasmic_default_styles:where(.global_layout_isSellerView) {
   --mixin-YInRpMOZkAD_font-family: "Inter";
   --mixin-YInRpMOZkAD_font-size: 16px;
   --mixin-YInRpMOZkAD_font-weight: 400;

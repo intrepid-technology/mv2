@@ -33,6 +33,7 @@ import ServicePartnerIcon from "./icons/PlasmicIcon__ServicePartner"; // plasmic
 import ProjectsBrief3Icon from "./icons/PlasmicIcon__ProjectsBrief3"; // plasmic-import: hwA1u0ceql/icon
 import InboxIcon from "./icons/PlasmicIcon__Inbox"; // plasmic-import: QjjagZclxc/icon
 import ContractsFileIcon from "./icons/PlasmicIcon__ContractsFile"; // plasmic-import: mxeDyg819J/icon
+import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 import ComplianceGavelIcon from "./icons/PlasmicIcon__ComplianceGavel"; // plasmic-import: YK8w2SjGLa/icon
 import InsuranceUmbrellaIcon from "./icons/PlasmicIcon__InsuranceUmbrella"; // plasmic-import: Ht43jLmKl/icon
 import PerksGift22Icon from "./icons/PlasmicIcon__PerksGift22"; // plasmic-import: LcJhynDGh9/icon
@@ -358,6 +359,33 @@ function PlasmicSidebarV2__RenderFunc(props) {
                     )}
                   >
                     {"Contracts"}
+                  </div>
+                }
+              />
+
+              <MenuIconListItem
+                className={classNames(
+                  "__wab_instance",
+                  sty.menuIconListItem___3QbgM
+                )}
+                destination={"/invoice/setup"}
+                navIcon={
+                  <FileInvoiceIcon
+                    data-plasmic-name={"navIcon24"}
+                    data-plasmic-override={overrides.navIcon24}
+                    className={classNames(projectcss.all, sty.navIcon24)}
+                    role={"img"}
+                  />
+                }
+                navText={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__xuue
+                    )}
+                  >
+                    {"Invoices"}
                   </div>
                 }
               />
@@ -804,6 +832,7 @@ const PlasmicDescendants = {
     "navIcon19",
     "navIcon23",
     "navIcon20",
+    "navIcon24",
     "navIcon32",
     "navIcon33",
     "navIcon34",
@@ -838,6 +867,7 @@ const PlasmicDescendants = {
   navIcon19: ["navIcon19"],
   navIcon23: ["navIcon23"],
   navIcon20: ["navIcon20"],
+  navIcon24: ["navIcon24"],
   navIcon32: ["navIcon32"],
   navIcon33: ["navIcon33"],
   navIcon34: ["navIcon34"],
@@ -915,6 +945,7 @@ export const PlasmicSidebarV2 = Object.assign(
     navIcon19: makeNodeComponent("navIcon19"),
     navIcon23: makeNodeComponent("navIcon23"),
     navIcon20: makeNodeComponent("navIcon20"),
+    navIcon24: makeNodeComponent("navIcon24"),
     navIcon32: makeNodeComponent("navIcon32"),
     navIcon33: makeNodeComponent("navIcon33"),
     navIcon34: makeNodeComponent("navIcon34"),

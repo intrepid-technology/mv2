@@ -245,7 +245,7 @@ function PlasmicHome__RenderFunc(props) {
                             )
                               ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers and remote employees in 150 countries—so you can build a global and remote workforce that scales on demand."
                               : hasVariant(globalVariants, "screen", "desktop")
-                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers, agencies, and remote employees in any country—so you can build a global and remote workforce that scales on demand."
+                              ? "Remote OS is a global payments and employment platform for companies to find, hire, manage and pay high quality freelancers, agencies, and remote employees in any country—so you can build a global and remote team that scales on demand."
                               : "Remote OS makes it easy for startups, remote, and hybrid companies to find, hire, manage, and pay high quality freelancers and agencies in 150 different countries— run a global and remote workforce that scales on demand from anywhere in the world."}
                           </div>
                         </div>

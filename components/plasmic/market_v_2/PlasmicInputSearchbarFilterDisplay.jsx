@@ -83,21 +83,23 @@ function PlasmicInputSearchbarFilterDisplay__RenderFunc(props) {
           width={"_360"}
         />
 
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"badgeDisplayParent"}
-          data-plasmic-override={overrides.badgeDisplayParent}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.badgeDisplayParent)}
-        >
-          <ChipBadgeDisplay
-            data-plasmic-name={"chipBadgeDisplay"}
-            data-plasmic-override={overrides.chipBadgeDisplay}
-            className={classNames("__wab_instance", sty.chipBadgeDisplay)}
-            size={"_24"}
-            type={"primary"}
-          />
-        </p.Stack>
+        {true ? (
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"badgeDisplayParent"}
+            data-plasmic-override={overrides.badgeDisplayParent}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.badgeDisplayParent)}
+          >
+            <ChipBadgeDisplay
+              data-plasmic-name={"chipBadgeDisplay"}
+              data-plasmic-override={overrides.chipBadgeDisplay}
+              className={classNames("__wab_instance", sty.chipBadgeDisplay)}
+              size={"_24"}
+              type={"primary"}
+            />
+          </p.Stack>
+        ) : null}
       </p.Stack>
     </p.Stack>
   ) : null;

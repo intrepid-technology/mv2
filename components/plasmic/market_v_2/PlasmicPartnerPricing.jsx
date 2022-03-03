@@ -32,7 +32,7 @@ import LineIcon from "./icons/PlasmicIcon__Line"; // plasmic-import: fHLiNpAx_6Z
 import Icon129Icon from "./icons/PlasmicIcon__Icon129"; // plasmic-import: 1Q3PXgbL-f/icon
 import TeamPartnersIcon from "./icons/PlasmicIcon__TeamPartners"; // plasmic-import: nykSsHgmL/icon
 import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2Lrvqk/icon
-import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
+import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import Icon169Icon from "./icons/PlasmicIcon__Icon169"; // plasmic-import: kZwjesU0eU/icon
 import DesignIcon from "./icons/PlasmicIcon__Design"; // plasmic-import: l3isbgQ3dC/icon
@@ -74,6 +74,8 @@ function PlasmicPartnerpricing__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -511,7 +513,7 @@ function PlasmicPartnerpricing__RenderFunc(props) {
                       />
                     }
                     slot13={
-                      <Icon122Icon
+                      <FileInvoiceIcon
                         className={classNames(projectcss.all, sty.svg___7TLq)}
                         role={"img"}
                       />

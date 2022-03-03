@@ -21,7 +21,7 @@ import {
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
-import DisplayIconText from "../../DisplayIconText"; // plasmic-import: 2XsuG8W9wX/component
+import DisplayIconTextRight from "../../DisplayIconTextRight"; // plasmic-import: 2XsuG8W9wX/component
 import ButtonPrimary from "../../ButtonPrimary"; // plasmic-import: koVqNkx_82/component
 import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
 import TagBadge from "../../TagBadge"; // plasmic-import: C8K8aavuz-/component
@@ -269,7 +269,7 @@ function PlasmicTableListingAdminRecord__RenderFunc(props) {
           data-plasmic-override={overrides.statusParent}
           className={classNames(projectcss.all, sty.statusParent)}
         >
-          <DisplayIconText
+          <DisplayIconTextRight
             data-plasmic-name={"status"}
             data-plasmic-override={overrides.status}
             className={classNames("__wab_instance", sty.status)}

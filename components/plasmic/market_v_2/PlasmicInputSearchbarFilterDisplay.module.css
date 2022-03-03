@@ -81,7 +81,6 @@
 }
 .badgeDisplayParent {
   flex-direction: row;
-  display: flex;
   position: relative;
   left: auto;
   top: auto;
@@ -89,6 +88,7 @@
   height: auto;
   padding-bottom: 4px;
   padding-top: 4px;
+  display: none;
 }
 .badgeDisplayParent > :global(.__wab_flex-container) {
   flex-direction: row;

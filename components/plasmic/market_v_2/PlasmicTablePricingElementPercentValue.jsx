@@ -18,7 +18,7 @@ import {
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicTablePricingElementPercentValue.module.css"; // plasmic-import: _pXR7Qf3J2/css
-import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
+import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 
 export const PlasmicTablePricingElementPercentValue__VariantProps = new Array();
 
@@ -54,7 +54,7 @@ function PlasmicTablePricingElementPercentValue__RenderFunc(props) {
       >
         {p.renderPlasmicSlot({
           defaultContents: (
-            <Icon122Icon
+            <FileInvoiceIcon
               className={classNames(projectcss.all, sty.svg__hCJgK)}
               role={"img"}
             />

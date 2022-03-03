@@ -2295,19 +2295,6 @@
           "componentType": "component"
         },
         {
-          "id": "2XsuG8W9wX",
-          "name": "DisplayIconText",
-          "type": "managed",
-          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
-          "renderModuleFilePath": "plasmic/market_v_2/PlasmicDisplayIconText.jsx",
-          "importSpec": {
-            "modulePath": "DisplayIconText.jsx"
-          },
-          "cssFilePath": "plasmic/market_v_2/PlasmicDisplayIconText.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
-        },
-        {
           "id": "CFL7zSW3US5",
           "name": "CardTeamProfileHeroDisplay",
           "type": "managed",
@@ -3429,6 +3416,123 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicSelectGroupDropdownPrimaryConditional.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "2XsuG8W9wX",
+          "name": "DisplayIconTextRight",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicDisplayIconTextRight.jsx",
+          "importSpec": {
+            "modulePath": "DisplayIconTextRight.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicDisplayIconTextRight.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CbkiuGxDYDgo",
+          "name": "Invoicenew1",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicenew1.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/new/1.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenew1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "v30IpkNohS6",
+          "name": "Invoicesetup",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicesetup.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/setup.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicesetup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OHnU_oP0gcSs",
+          "name": "Invoiceexisting1",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoiceexisting1.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/existing/1.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoiceexisting1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ZqM6Vg4YXH37",
+          "name": "Invoiceexisting2",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoiceexisting2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/existing/2.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoiceexisting2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "u7i39pYZ7GhS",
+          "name": "Invoicenew2",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicenew2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/new/2.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenew2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "IP_RORXmL9ny",
+          "name": "Invoicenew3",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicenew3.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/new/3.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenew3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qoTHQC3EIYLU",
+          "name": "Invoicenewsummary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicenewsummary.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/new/summary.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenewsummary.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "63mCMXx_Yd0Q",
+          "name": "Invoicenew4",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicInvoicenew4.jsx",
+          "importSpec": {
+            "modulePath": "../pages/invoice/new/4.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenew4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -4184,8 +4288,8 @@
         },
         {
           "id": "5y-W1ac1tp",
-          "name": "Icon122Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon122.jsx"
+          "name": "FileInvoiceIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__FileInvoice.jsx"
         },
         {
           "id": "43_x8VPGi0",
@@ -5056,6 +5160,46 @@
           "id": "9Lb3KzNlZGm",
           "name": "Icon52Icon",
           "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Icon52.jsx"
+        },
+        {
+          "id": "CnFw68s9x",
+          "name": "ConnectIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Connect.jsx"
+        },
+        {
+          "id": "GLtM0zdRZ-",
+          "name": "SyncMergeIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__SyncMerge.jsx"
+        },
+        {
+          "id": "ebnuA-CnyC",
+          "name": "PaySlipChequeIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__PaySlipCheque.jsx"
+        },
+        {
+          "id": "Axjbj_hFbI",
+          "name": "BoltLightningIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__BoltLightning.jsx"
+        },
+        {
+          "id": "BN2Ri_oEti",
+          "name": "MoneySellIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__MoneySell.jsx"
+        },
+        {
+          "id": "ZCuRKhupjm",
+          "name": "HourglassFullIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__HourglassFull.jsx"
+        },
+        {
+          "id": "aWyTFWXiRU",
+          "name": "SearchFindIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__SearchFind.jsx"
+        },
+        {
+          "id": "WSrTmPwTug",
+          "name": "SubscriptionRenewIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__SubscriptionRenew.jsx"
         }
       ],
       "images": [
@@ -5548,6 +5692,31 @@
           "id": "5XqoZmoAn",
           "name": "Intrepid Remote OS - Hire Remote.png",
           "filePath": "../public/plasmic/remote_v_1/images/intrepidRemoteOsHireRemotepng.png"
+        },
+        {
+          "id": "6OW7NwbOl",
+          "name": "Intrepid Remote OS - Freelance on Intrepid.png",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemoteOsFreelanceOnIntrepidpng.png"
+        },
+        {
+          "id": "l8VqwYtpS",
+          "name": "Intrepid Remote OS - Freelance on Intrepid.png 2",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemoteOsFreelanceOnIntrepidpng2.png"
+        },
+        {
+          "id": "1Fe_N-_b5",
+          "name": "Intrepid-Remote-Insurance-2022.png",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemoteInsurance2022Png.png"
+        },
+        {
+          "id": "OPqDJIEyX",
+          "name": "Intrepid-Remote-Company setup-2022.png",
+          "filePath": "../public/plasmic/remote_v_1/images/intrepidRemoteCompanySetup2022Png.png"
+        },
+        {
+          "id": "83nZEl9lV",
+          "name": "net-terms.png",
+          "filePath": "../public/plasmic/remote_v_1/images/netTermspng.png"
         }
       ],
       "codeComponents": [],
@@ -5782,6 +5951,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.170",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+  "cliVersion": "0.1.173",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.173/dist/plasmic.schema.json"
 }

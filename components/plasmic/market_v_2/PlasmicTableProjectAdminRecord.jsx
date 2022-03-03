@@ -21,7 +21,7 @@ import {
 import ElementRadioPrimary from "../../ElementRadioPrimary"; // plasmic-import: Wn4V4PrC-K/component
 import ImagePrimary from "../../ImagePrimary"; // plasmic-import: LP50swkVvv/component
 import IconPrimary from "../../IconPrimary"; // plasmic-import: -fEFICkFUf/component
-import DisplayIconText from "../../DisplayIconText"; // plasmic-import: 2XsuG8W9wX/component
+import DisplayIconTextRight from "../../DisplayIconTextRight"; // plasmic-import: 2XsuG8W9wX/component
 import UserAvatarButton from "../../UserAvatarButton"; // plasmic-import: w1GnXfIMuv/component
 import ButtonIconNotificationBell from "../../ButtonIconNotificationBell"; // plasmic-import: oyQklGfTop/component
 import SwitchPrimary from "../../SwitchPrimary"; // plasmic-import: M6TX-0ESZQ/component
@@ -218,10 +218,10 @@ function PlasmicTableProjectAdminRecord__RenderFunc(props) {
           data-plasmic-override={overrides.progressParent}
           className={classNames(projectcss.all, sty.progressParent)}
         >
-          <DisplayIconText
-            data-plasmic-name={"displayIconText"}
-            data-plasmic-override={overrides.displayIconText}
-            className={classNames("__wab_instance", sty.displayIconText)}
+          <DisplayIconTextRight
+            data-plasmic-name={"displayIconTextRight"}
+            data-plasmic-override={overrides.displayIconTextRight}
+            className={classNames("__wab_instance", sty.displayIconTextRight)}
             elementIcon={
               <IconPrimary
                 className={classNames("__wab_instance", sty.iconPrimary__rsUuq)}
@@ -457,7 +457,7 @@ const PlasmicDescendants = {
     "svgIcon22",
     "svgIcon3",
     "progressParent",
-    "displayIconText",
+    "displayIconTextRight",
     "svgIcon23",
     "priceParent",
     "currency",
@@ -515,8 +515,8 @@ const PlasmicDescendants = {
   buttonUserOrderContact: ["buttonUserOrderContact", "svgIcon22", "svgIcon3"],
   svgIcon22: ["svgIcon22"],
   svgIcon3: ["svgIcon3"],
-  progressParent: ["progressParent", "displayIconText", "svgIcon23"],
-  displayIconText: ["displayIconText", "svgIcon23"],
+  progressParent: ["progressParent", "displayIconTextRight", "svgIcon23"],
+  displayIconTextRight: ["displayIconTextRight", "svgIcon23"],
   svgIcon23: ["svgIcon23"],
   priceParent: ["priceParent", "currency"],
   currency: ["currency"],
@@ -586,7 +586,7 @@ export const PlasmicTableProjectAdminRecord = Object.assign(
     svgIcon22: makeNodeComponent("svgIcon22"),
     svgIcon3: makeNodeComponent("svgIcon3"),
     progressParent: makeNodeComponent("progressParent"),
-    displayIconText: makeNodeComponent("displayIconText"),
+    displayIconTextRight: makeNodeComponent("displayIconTextRight"),
     svgIcon23: makeNodeComponent("svgIcon23"),
     priceParent: makeNodeComponent("priceParent"),
     currency: makeNodeComponent("currency"),

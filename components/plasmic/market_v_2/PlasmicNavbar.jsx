@@ -26,7 +26,11 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicNavbar.module.css"; // plasmic-import: pP9c6XTFzc/css
 
-export const PlasmicNavbar__VariantProps = new Array("auth", "dark");
+export const PlasmicNavbar__VariantProps = new Array(
+  "auth",
+  "dark",
+  "freelancer"
+);
 
 export const PlasmicNavbar__ArgProps = new Array();
 
@@ -52,7 +56,8 @@ function PlasmicNavbar__RenderFunc(props) {
         sty.root,
         {
           [sty.rootauth]: hasVariant(variants, "auth", "auth"),
-          [sty.rootdark]: hasVariant(variants, "dark", "dark")
+          [sty.rootdark]: hasVariant(variants, "dark", "dark"),
+          [sty.rootfreelancer]: hasVariant(variants, "freelancer", "freelancer")
         }
       )}
     >
@@ -105,18 +110,26 @@ function PlasmicNavbar__RenderFunc(props) {
           })}
         >
           <Button
-            data-plasmic-name={"sellOnIntrepidButton"}
-            data-plasmic-override={overrides.sellOnIntrepidButton}
-            className={classNames("__wab_instance", sty.sellOnIntrepidButton, {
-              [sty.sellOnIntrepidButtondark]: hasVariant(
+            data-plasmic-name={"hireOnIntrepidButton"}
+            data-plasmic-override={overrides.hireOnIntrepidButton}
+            className={classNames("__wab_instance", sty.hireOnIntrepidButton, {
+              [sty.hireOnIntrepidButtondark]: hasVariant(
                 variants,
                 "dark",
                 "dark"
+              ),
+
+              [sty.hireOnIntrepidButtonfreelancer]: hasVariant(
+                variants,
+                "freelancer",
+                "freelancer"
               )
             })}
             color={hasVariant(variants, "dark", "dark") ? "light" : undefined}
             destination={
-              hasVariant(globalVariants, "screen", "desktop")
+              hasVariant(variants, "freelancer", "freelancer")
+                ? ""
+                : hasVariant(globalVariants, "screen", "desktop")
                 ? "https://intrepidventures.typeform.com/to/qoNxle4D"
                 : "https://intrepidventures.typeform.com/to/qoNxle4D"
             }
@@ -132,11 +145,19 @@ function PlasmicNavbar__RenderFunc(props) {
                     variants,
                     "dark",
                     "dark"
+                  ),
+
+                  [sty.textfreelancer__uRxVzwC9Kl]: hasVariant(
+                    variants,
+                    "freelancer",
+                    "freelancer"
                   )
                 }
               )}
             >
-              {"Sell on Intrepid"}
+              {hasVariant(variants, "freelancer", "freelancer")
+                ? "Hire on Intrepid"
+                : "Sell on Intrepid"}
             </div>
           </Button>
 
@@ -176,9 +197,18 @@ function PlasmicNavbar__RenderFunc(props) {
             data-plasmic-name={"buttonPrimary"}
             data-plasmic-override={overrides.buttonPrimary}
             className={classNames("__wab_instance", sty.buttonPrimary, {
-              [sty.buttonPrimarydark]: hasVariant(variants, "dark", "dark")
+              [sty.buttonPrimarydark]: hasVariant(variants, "dark", "dark"),
+              [sty.buttonPrimaryfreelancer]: hasVariant(
+                variants,
+                "freelancer",
+                "freelancer"
+              )
             })}
-            destination={"https://intrepidventures.typeform.com/to/MthpVWrA"}
+            destination={
+              hasVariant(variants, "freelancer", "freelancer")
+                ? "https://intrepidventures.typeform.com/to/qoNxle4D"
+                : "https://intrepidventures.typeform.com/to/MthpVWrA"
+            }
             height={"_48"}
             type={hasVariant(variants, "dark", "dark") ? "primary" : undefined}
             width={"_180"}
@@ -239,7 +269,7 @@ const PlasmicDescendants = {
     "brandWrapper",
     "navbarLogo",
     "actionWrapper",
-    "sellOnIntrepidButton",
+    "hireOnIntrepidButton",
     "pricingNavButton",
     "buttonPrimary",
     "authActionsWrapper",
@@ -251,12 +281,12 @@ const PlasmicDescendants = {
   navbarLogo: ["navbarLogo"],
   actionWrapper: [
     "actionWrapper",
-    "sellOnIntrepidButton",
+    "hireOnIntrepidButton",
     "pricingNavButton",
     "buttonPrimary"
   ],
 
-  sellOnIntrepidButton: ["sellOnIntrepidButton"],
+  hireOnIntrepidButton: ["hireOnIntrepidButton"],
   pricingNavButton: ["pricingNavButton"],
   buttonPrimary: ["buttonPrimary"],
   authActionsWrapper: ["authActionsWrapper", "avatar", "img"],
@@ -296,7 +326,7 @@ export const PlasmicNavbar = Object.assign(
     brandWrapper: makeNodeComponent("brandWrapper"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     actionWrapper: makeNodeComponent("actionWrapper"),
-    sellOnIntrepidButton: makeNodeComponent("sellOnIntrepidButton"),
+    hireOnIntrepidButton: makeNodeComponent("hireOnIntrepidButton"),
     pricingNavButton: makeNodeComponent("pricingNavButton"),
     buttonPrimary: makeNodeComponent("buttonPrimary"),
     authActionsWrapper: makeNodeComponent("authActionsWrapper"),

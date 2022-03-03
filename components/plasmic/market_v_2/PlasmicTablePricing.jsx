@@ -26,7 +26,7 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicTablePricing.module.css"; // plasmic-import: TN5u_5IVRmW/css
 import Icon164Icon from "./icons/PlasmicIcon__Icon164"; // plasmic-import: ly7C2Lrvqk/icon
-import Icon122Icon from "./icons/PlasmicIcon__Icon122"; // plasmic-import: 5y-W1ac1tp/icon
+import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 import ListingIcon from "./icons/PlasmicIcon__Listing"; // plasmic-import: NNbE63A0Ys/icon
 import Icon169Icon from "./icons/PlasmicIcon__Icon169"; // plasmic-import: kZwjesU0eU/icon
 
@@ -321,7 +321,7 @@ function PlasmicTablePricing__RenderFunc(props) {
               })}
               slot13={p.renderPlasmicSlot({
                 defaultContents: (
-                  <Icon122Icon
+                  <FileInvoiceIcon
                     className={classNames(projectcss.all, sty.svg__uAas)}
                     role={"img"}
                   />

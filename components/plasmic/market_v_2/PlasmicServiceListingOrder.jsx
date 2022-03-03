@@ -66,6 +66,8 @@ function PlasmicServicelistingorder__RenderFunc(props) {
           className={classNames(
             projectcss.all,
             projectcss.root_reset,
+            projectcss.plasmic_default_styles,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
@@ -214,7 +216,11 @@ function PlasmicServicelistingorder__RenderFunc(props) {
                         data-plasmic-name={"serviceImage"}
                         data-plasmic-override={overrides.serviceImage}
                         alt={""}
-                        className={classNames(projectcss.img, sty.serviceImage)}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.img,
+                          sty.serviceImage
+                        )}
                       />
                     </div>
 
