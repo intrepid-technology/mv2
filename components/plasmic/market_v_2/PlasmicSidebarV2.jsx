@@ -341,7 +341,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
                   "__wab_instance",
                   sty.menuIconListItem__seCDe
                 )}
-                destination={"/member/contracts"}
+                destination={"/contract/new-hire"}
                 navIcon={
                   <ContractsFileIcon
                     data-plasmic-name={"navIcon20"}

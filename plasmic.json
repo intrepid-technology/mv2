@@ -3533,6 +3533,84 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicInvoicenew4.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "Au0Tq5PFE1QG",
+          "name": "ContractnewHire",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractnewHire.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/new-hire.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractnewHire.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "whej0nkgHDGm",
+          "name": "Contractjob",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractjob.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/job.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractjob.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "JbKNlSCpvu38",
+          "name": "Contractcompensation",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractcompensation.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/compensation.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractcompensation.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "knE_Vz0Zb36s",
+          "name": "Contractterms",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractterms.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/terms.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractterms.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "b6VI8vFrbJgS",
+          "name": "Contractbenefits",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractbenefits.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/benefits.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractbenefits.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "JFluUCAc4CzG",
+          "name": "Contractsummary",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicContractsummary.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contract/summary.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicContractsummary.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
