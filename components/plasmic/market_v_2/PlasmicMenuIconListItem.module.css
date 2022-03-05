@@ -39,6 +39,7 @@
 }
 .menuIconListItemLink:hover {
   background: var(--token-530QP0ccB);
+  border-radius: 8px;
 }
 .menuIconListItemLinkselected:hover {
   background: var(--token-T6he24oKP);
@@ -46,6 +47,7 @@
 .menuIconListItemLink:focus-within {
   background: var(--token-gtUIPzlCk);
   outline: none;
+  border-radius: 8px;
 }
 .menuIconListItemLinkaction__switch:focus-within {
   outline: none;

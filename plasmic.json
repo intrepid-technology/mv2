@@ -5854,7 +5854,8 @@
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
       ],
-      "globalContextsFilePath": ""
+      "globalContextsFilePath": "",
+      "jsBundleThemes": []
     },
     {
       "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
