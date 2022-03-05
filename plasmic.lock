@@ -2143,12 +2143,12 @@
         {
           "type": "renderModule",
           "assetId": "pCEmHN-z0K",
-          "checksum": "0e39447077314de717e5c2d835cc08b3"
+          "checksum": "d662da4a8fdf6a254d7dce2ed72b9f98"
         },
         {
           "type": "cssRules",
           "assetId": "pCEmHN-z0K",
-          "checksum": "0e39447077314de717e5c2d835cc08b3"
+          "checksum": "d662da4a8fdf6a254d7dce2ed72b9f98"
         },
         {
           "type": "renderModule",
@@ -4954,6 +4954,11 @@
           "assetId": "3jRhtnjrFaHJWfNWC1k5BV",
           "type": "projectCss",
           "checksum": "a83663cbf4218e90b3bba56808b2a053"
+        },
+        {
+          "type": "icon",
+          "assetId": "RlVaEL_8D",
+          "checksum": "da38b999f45ef4c59b46999321b470ed"
         }
       ],
       "codegenVersion": "0.0.1"

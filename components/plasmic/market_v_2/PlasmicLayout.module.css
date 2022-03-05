@@ -120,16 +120,16 @@
 .navBackButton:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   flex-shrink: 0;
 }
 .svg {
   position: relative;
   object-fit: cover;
   max-width: 100%;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 .freeBox__gbuVt {
   display: flex;
@@ -138,8 +138,8 @@
   height: auto;
 }
 .slotTargetPageHeading {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: var(--token-MAJ29KQMI);
 }
 .freeBox__gSmZe {

@@ -5278,6 +5278,11 @@
           "id": "WSrTmPwTug",
           "name": "SubscriptionRenewIcon",
           "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__SubscriptionRenew.jsx"
+        },
+        {
+          "id": "RlVaEL_8D",
+          "name": "ChevronBackIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__ChevronBack.jsx"
         }
       ],
       "images": [

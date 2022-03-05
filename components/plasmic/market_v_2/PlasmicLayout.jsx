@@ -27,7 +27,7 @@ import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
-import Icon43Icon from "./icons/PlasmicIcon__Icon43"; // plasmic-import: naG0WWoBul/icon
+import ChevronBackIcon from "../remote_v_1/icons/PlasmicIcon__ChevronBack"; // plasmic-import: RlVaEL_8D/icon
 
 export const PlasmicLayout__VariantProps = new Array("contentOnly");
 
@@ -99,9 +99,9 @@ function PlasmicLayout__RenderFunc(props) {
                   hasShadow={true}
                   noPadding={true}
                   rounded={true}
-                  type={"secondary"}
+                  type={"ghost"}
                 >
-                  <Icon43Icon
+                  <ChevronBackIcon
                     data-plasmic-name={"svg"}
                     data-plasmic-override={overrides.svg}
                     className={classNames(projectcss.all, sty.svg)}
