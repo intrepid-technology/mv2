@@ -78,6 +78,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
           data-plasmic-name={"navbarLogo"}
           data-plasmic-override={overrides.navbarLogo}
           className={classNames("__wab_instance", sty.navbarLogo)}
+          size={"_32"}
         />
       </div>
 
