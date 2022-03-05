@@ -310,6 +310,7 @@ function PlasmicLayout__RenderFunc(props) {
             data-plasmic-name={"footerB"}
             data-plasmic-override={overrides.footerB}
             className={classNames("__wab_instance", sty.footerB)}
+            color={"light"}
           />
         </div>
       </div>
