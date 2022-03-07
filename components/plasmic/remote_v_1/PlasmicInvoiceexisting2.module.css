@@ -1738,6 +1738,7 @@
   font-size: 24px;
   left: auto;
   top: auto;
+  font-weight: 600;
   min-width: 0;
 }
 .buttonLinkPrimary__cmYco:global(.__wab_instance) {

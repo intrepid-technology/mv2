@@ -27,8 +27,8 @@ import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jR
 import sty from "./PlasmicSidebarV2.module.css"; // plasmic-import: cjK2bQuz6A3/css
 import Dashboard2Icon from "./icons/PlasmicIcon__Dashboard2"; // plasmic-import: LJ9ST38jAQ/icon
 import FinanceWalletIcon from "./icons/PlasmicIcon__FinanceWallet"; // plasmic-import: 5hlMU_Ucn8/icon
-import ListingsUpIcon from "./icons/PlasmicIcon__ListingsUp"; // plasmic-import: pqrhOcBoXX/icon
-import Icon81Icon from "./icons/PlasmicIcon__Icon81"; // plasmic-import: aCeRo3idgK/icon
+import Marketplace1Icon from "../remote_v_1/icons/PlasmicIcon__Marketplace1"; // plasmic-import: mynwMjJ_ng/icon
+import TeamCheckIcon from "./icons/PlasmicIcon__TeamCheck"; // plasmic-import: aCeRo3idgK/icon
 import ServicePartnerIcon from "./icons/PlasmicIcon__ServicePartner"; // plasmic-import: mkCh3UXgor/icon
 import ProjectsBrief3Icon from "./icons/PlasmicIcon__ProjectsBrief3"; // plasmic-import: hwA1u0ceql/icon
 import InboxIcon from "./icons/PlasmicIcon__Inbox"; // plasmic-import: QjjagZclxc/icon
@@ -36,7 +36,7 @@ import ContractsFileIcon from "./icons/PlasmicIcon__ContractsFile"; // plasmic-i
 import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 import ComplianceGavelIcon from "./icons/PlasmicIcon__ComplianceGavel"; // plasmic-import: YK8w2SjGLa/icon
 import InsuranceUmbrellaIcon from "./icons/PlasmicIcon__InsuranceUmbrella"; // plasmic-import: Ht43jLmKl/icon
-import PerksGift22Icon from "./icons/PlasmicIcon__PerksGift22"; // plasmic-import: LcJhynDGh9/icon
+import PerksGift3Icon from "./icons/PlasmicIcon__PerksGift3"; // plasmic-import: LcJhynDGh9/icon
 import IntegrationsLinkIcon from "./icons/PlasmicIcon__IntegrationsLink"; // plasmic-import: 1C-gush7g/icon
 import SwitchIcon from "./icons/PlasmicIcon__Switch"; // plasmic-import: rftun1iZb_/icon
 import Settings2Icon from "./icons/PlasmicIcon__Settings2"; // plasmic-import: Dro0l5pm5X/icon
@@ -154,23 +154,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/dashboard"}
                 navIcon={
                   <Dashboard2Icon
-                    data-plasmic-name={"navIcon14"}
-                    data-plasmic-override={overrides.navIcon14}
-                    className={classNames(projectcss.all, sty.navIcon14)}
+                    className={classNames(projectcss.all, sty.svg__hrRmt)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qqMc
-                    )}
-                  >
-                    {"Dashboard"}
-                  </div>
-                }
+                navText={"Dashboard"}
                 renderContext={"sidebar"}
               />
 
@@ -182,23 +170,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/finance"}
                 navIcon={
                   <FinanceWalletIcon
-                    data-plasmic-name={"navIcon15"}
-                    data-plasmic-override={overrides.navIcon15}
-                    className={classNames(projectcss.all, sty.navIcon15)}
+                    className={classNames(projectcss.all, sty.svg__sOpl9)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___1IlLm
-                    )}
-                  >
-                    {"Finance"}
-                  </div>
-                }
+                navText={"Finance"}
                 renderContext={"sidebar"}
               />
 
@@ -209,24 +185,12 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 )}
                 destination={"/edit/partner/listing"}
                 navIcon={
-                  <ListingsUpIcon
-                    data-plasmic-name={"navIcon16"}
-                    data-plasmic-override={overrides.navIcon16}
-                    className={classNames(projectcss.all, sty.navIcon16)}
+                  <Marketplace1Icon
+                    className={classNames(projectcss.all, sty.svg__bagDz)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__tf8Nm
-                    )}
-                  >
-                    {"Listings"}
-                  </div>
-                }
+                navText={"Marketplace"}
               />
 
               <MenuIconListItem
@@ -236,24 +200,12 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 )}
                 destination={"/edit/team"}
                 navIcon={
-                  <Icon81Icon
-                    data-plasmic-name={"navIcon17"}
-                    data-plasmic-override={overrides.navIcon17}
-                    className={classNames(projectcss.all, sty.navIcon17)}
+                  <TeamCheckIcon
+                    className={classNames(projectcss.all, sty.svg__a02Fm)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__qTyeM
-                    )}
-                  >
-                    {"Team"}
-                  </div>
-                }
+                navText={"Team"}
               />
 
               <MenuIconListItem
@@ -264,23 +216,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/member/partners"}
                 navIcon={
                   <ServicePartnerIcon
-                    data-plasmic-name={"navIcon18"}
-                    data-plasmic-override={overrides.navIcon18}
-                    className={classNames(projectcss.all, sty.navIcon18)}
+                    className={classNames(projectcss.all, sty.svg__wPBy)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__pnrnF
-                    )}
-                  >
-                    {"Partners"}
-                  </div>
-                }
+                navText={"Partners"}
               />
 
               <MenuIconListItem
@@ -291,23 +231,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/member/manage/projects"}
                 navIcon={
                   <ProjectsBrief3Icon
-                    data-plasmic-name={"navIcon19"}
-                    data-plasmic-override={overrides.navIcon19}
-                    className={classNames(projectcss.all, sty.navIcon19)}
+                    className={classNames(projectcss.all, sty.svg__rSwwM)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__faI67
-                    )}
-                  >
-                    {"Projects"}
-                  </div>
-                }
+                navText={"Projects"}
               />
 
               <MenuIconListItem
@@ -318,23 +246,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/inbox"}
                 navIcon={
                   <InboxIcon
-                    data-plasmic-name={"navIcon23"}
-                    data-plasmic-override={overrides.navIcon23}
-                    className={classNames(projectcss.all, sty.navIcon23)}
+                    className={classNames(projectcss.all, sty.svg___7HtSr)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yf77
-                    )}
-                  >
-                    {"Inbox"}
-                  </div>
-                }
+                navText={"Inbox"}
               />
 
               <MenuIconListItem
@@ -345,23 +261,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/contract/new-hire"}
                 navIcon={
                   <ContractsFileIcon
-                    data-plasmic-name={"navIcon20"}
-                    data-plasmic-override={overrides.navIcon20}
-                    className={classNames(projectcss.all, sty.navIcon20)}
+                    className={classNames(projectcss.all, sty.svg___4RmUc)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__rcsuA
-                    )}
-                  >
-                    {"Contracts"}
-                  </div>
-                }
+                navText={"Contracts"}
               />
 
               <MenuIconListItem
@@ -372,23 +276,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/invoice/setup"}
                 navIcon={
                   <FileInvoiceIcon
-                    data-plasmic-name={"navIcon24"}
-                    data-plasmic-override={overrides.navIcon24}
-                    className={classNames(projectcss.all, sty.navIcon24)}
+                    className={classNames(projectcss.all, sty.svg__ivRqa)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__xuue
-                    )}
-                  >
-                    {"Invoices"}
-                  </div>
-                }
+                navText={"Invoices"}
               />
 
               <MenuIconListItem
@@ -399,23 +291,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/member/compliance"}
                 navIcon={
                   <ComplianceGavelIcon
-                    data-plasmic-name={"navIcon32"}
-                    data-plasmic-override={overrides.navIcon32}
-                    className={classNames(projectcss.all, sty.navIcon32)}
+                    className={classNames(projectcss.all, sty.svg__gnyyF)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text___4KSlX
-                    )}
-                  >
-                    {"Compliance"}
-                  </div>
-                }
+                navText={"Compliance"}
               />
 
               <MenuIconListItem
@@ -426,23 +306,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/member/insurance"}
                 navIcon={
                   <InsuranceUmbrellaIcon
-                    data-plasmic-name={"navIcon33"}
-                    data-plasmic-override={overrides.navIcon33}
-                    className={classNames(projectcss.all, sty.navIcon33)}
+                    className={classNames(projectcss.all, sty.svg__wC15)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__tuR4G
-                    )}
-                  >
-                    {"Insurance"}
-                  </div>
-                }
+                navText={"Insurance"}
               />
 
               <MenuIconListItem
@@ -452,24 +320,12 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 )}
                 destination={"/member/perks"}
                 navIcon={
-                  <PerksGift22Icon
-                    data-plasmic-name={"navIcon34"}
-                    data-plasmic-override={overrides.navIcon34}
-                    className={classNames(projectcss.all, sty.navIcon34)}
+                  <PerksGift3Icon
+                    className={classNames(projectcss.all, sty.svg__stqnq)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hgLy
-                    )}
-                  >
-                    {"Perks"}
-                  </div>
-                }
+                navText={"Perks"}
               />
 
               <MenuIconListItem
@@ -480,23 +336,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/integrations"}
                 navIcon={
                   <IntegrationsLinkIcon
-                    data-plasmic-name={"navIcon21"}
-                    data-plasmic-override={overrides.navIcon21}
-                    className={classNames(projectcss.all, sty.navIcon21)}
+                    className={classNames(projectcss.all, sty.svg__okGl)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__txb4W
-                    )}
-                  >
-                    {"Integrations"}
-                  </div>
-                }
+                navText={"Integrations"}
               />
 
               <MenuIconListItem
@@ -512,9 +356,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 })}
                 navIcon={
                   <SwitchIcon
-                    data-plasmic-name={"navIcon22"}
-                    data-plasmic-override={overrides.navIcon22}
-                    className={classNames(projectcss.all, sty.navIcon22)}
+                    className={classNames(projectcss.all, sty.svg__wUvkj)}
                     role={"img"}
                   />
                 }
@@ -529,28 +371,7 @@ function PlasmicSidebarV2__RenderFunc(props) {
                     {"Switch to selling"}
                   </div>
                 }
-                slot={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__mgmW
-                    )}
-                  >
-                    {"Partner"}
-                  </div>
-                }
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__dHDy
-                  )}
-                >
-                  {"Member"}
-                </div>
-              </MenuIconListItem>
+              />
 
               <MenuIconListItem
                 className={classNames(
@@ -560,23 +381,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/edit/member/settings"}
                 navIcon={
                   <Settings2Icon
-                    data-plasmic-name={"navIcon3"}
-                    data-plasmic-override={overrides.navIcon3}
-                    className={classNames(projectcss.all, sty.navIcon3)}
+                    className={classNames(projectcss.all, sty.svg__g6Ed)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__lxxoe
-                    )}
-                  >
-                    {"Settings"}
-                  </div>
-                }
+                navText={"Settings"}
               />
 
               <MenuIconListItem
@@ -587,23 +396,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 destination={"/help"}
                 navIcon={
                   <Help2Icon
-                    data-plasmic-name={"navIcon4"}
-                    data-plasmic-override={overrides.navIcon4}
-                    className={classNames(projectcss.all, sty.navIcon4)}
+                    className={classNames(projectcss.all, sty.svg___1B5Re)}
                     role={"img"}
                   />
                 }
-                navText={
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__hypB
-                    )}
-                  >
-                    {"Help"}
-                  </div>
-                }
+                navText={"Help"}
                 openInNewTab={""}
               />
             </p.Stack>
@@ -825,23 +622,7 @@ const PlasmicDescendants = {
     "brandLogo",
     "navbarLogo",
     "selectDropdownPrimary",
-    "navIcon14",
-    "navIcon15",
-    "navIcon16",
-    "navIcon17",
-    "navIcon18",
-    "navIcon19",
-    "navIcon23",
-    "navIcon20",
-    "navIcon24",
-    "navIcon32",
-    "navIcon33",
-    "navIcon34",
-    "navIcon21",
     "memberSwitchItem",
-    "navIcon22",
-    "navIcon3",
-    "navIcon4",
     "userAvatar",
     "navUserAvatar163",
     "navUserAvatar243",
@@ -860,23 +641,7 @@ const PlasmicDescendants = {
   brandLogo: ["brandLogo", "navbarLogo"],
   navbarLogo: ["navbarLogo"],
   selectDropdownPrimary: ["selectDropdownPrimary"],
-  navIcon14: ["navIcon14"],
-  navIcon15: ["navIcon15"],
-  navIcon16: ["navIcon16"],
-  navIcon17: ["navIcon17"],
-  navIcon18: ["navIcon18"],
-  navIcon19: ["navIcon19"],
-  navIcon23: ["navIcon23"],
-  navIcon20: ["navIcon20"],
-  navIcon24: ["navIcon24"],
-  navIcon32: ["navIcon32"],
-  navIcon33: ["navIcon33"],
-  navIcon34: ["navIcon34"],
-  navIcon21: ["navIcon21"],
-  memberSwitchItem: ["memberSwitchItem", "navIcon22"],
-  navIcon22: ["navIcon22"],
-  navIcon3: ["navIcon3"],
-  navIcon4: ["navIcon4"],
+  memberSwitchItem: ["memberSwitchItem"],
   userAvatar: [
     "userAvatar",
     "navUserAvatar163",
@@ -938,23 +703,7 @@ export const PlasmicSidebarV2 = Object.assign(
     brandLogo: makeNodeComponent("brandLogo"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     selectDropdownPrimary: makeNodeComponent("selectDropdownPrimary"),
-    navIcon14: makeNodeComponent("navIcon14"),
-    navIcon15: makeNodeComponent("navIcon15"),
-    navIcon16: makeNodeComponent("navIcon16"),
-    navIcon17: makeNodeComponent("navIcon17"),
-    navIcon18: makeNodeComponent("navIcon18"),
-    navIcon19: makeNodeComponent("navIcon19"),
-    navIcon23: makeNodeComponent("navIcon23"),
-    navIcon20: makeNodeComponent("navIcon20"),
-    navIcon24: makeNodeComponent("navIcon24"),
-    navIcon32: makeNodeComponent("navIcon32"),
-    navIcon33: makeNodeComponent("navIcon33"),
-    navIcon34: makeNodeComponent("navIcon34"),
-    navIcon21: makeNodeComponent("navIcon21"),
     memberSwitchItem: makeNodeComponent("memberSwitchItem"),
-    navIcon22: makeNodeComponent("navIcon22"),
-    navIcon3: makeNodeComponent("navIcon3"),
-    navIcon4: makeNodeComponent("navIcon4"),
     userAvatar: makeNodeComponent("userAvatar"),
     navUserAvatar163: makeNodeComponent("navUserAvatar163"),
     navUserAvatar243: makeNodeComponent("navUserAvatar243"),

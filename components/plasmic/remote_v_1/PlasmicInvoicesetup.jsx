@@ -96,7 +96,7 @@ function PlasmicInvoicesetup__RenderFunc(props) {
                     sty.text__dOoqc
                   )}
                 >
-                  {"Back to partner profile"}
+                  {"Back to member profile"}
                 </div>
               </TextLinkArrow>
 
@@ -153,7 +153,7 @@ function PlasmicInvoicesetup__RenderFunc(props) {
                   sty.headline
                 )}
               >
-                {"Invoice setup"}
+                {"Client invoice setup"}
               </div>
 
               <div
@@ -165,7 +165,9 @@ function PlasmicInvoicesetup__RenderFunc(props) {
                   sty.subhead
                 )}
               >
-                {"Create a new client to bill, or invoice an existing client."}
+                {
+                  "Create a new client to invoice, or invoice an existing client."
+                }
               </div>
             </p.Stack>
 
@@ -218,7 +220,7 @@ function PlasmicInvoicesetup__RenderFunc(props) {
                       >
                         {hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
-                          : "Create a billing profile for a new client and save their information "}
+                          : "Create a profile for a new client and save their information "}
                       </div>
                     }
                     className={classNames(
@@ -265,7 +267,7 @@ function PlasmicInvoicesetup__RenderFunc(props) {
                       >
                         {hasVariant(globalVariants, "screen", "iphone12ProMax")
                           ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
-                          : "Invoice and bill your existing client with their saved information."}
+                          : "Invoice an existing client with their saved information."}
                       </div>
                     }
                     className={classNames(

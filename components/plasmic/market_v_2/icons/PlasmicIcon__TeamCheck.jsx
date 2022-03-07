@@ -5,7 +5,7 @@
 import React from "react";
 import { classNames } from "@plasmicapp/react-web";
 
-export function Icon81Icon(props) {
+export function TeamCheckIcon(props) {
   const { className, style, title, ...restProps } = props;
   return (
     <svg
@@ -31,5 +31,5 @@ export function Icon81Icon(props) {
   );
 }
 
-export default Icon81Icon;
+export default TeamCheckIcon;
 /* prettier-ignore-end */

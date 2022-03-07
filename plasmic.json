@@ -4151,8 +4151,8 @@
         },
         {
           "id": "aCeRo3idgK",
-          "name": "Icon81Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__Icon81.jsx"
+          "name": "TeamCheckIcon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__TeamCheck.jsx"
         },
         {
           "id": "y_7imaYmxp",
@@ -5136,8 +5136,8 @@
         },
         {
           "id": "LcJhynDGh9",
-          "name": "PerksGift22Icon",
-          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PerksGift22.jsx"
+          "name": "PerksGift3Icon",
+          "moduleFilePath": "plasmic/market_v_2/icons/PlasmicIcon__PerksGift3.jsx"
         },
         {
           "id": "1C-gush7g",
@@ -5283,6 +5283,26 @@
           "id": "RlVaEL_8D",
           "name": "ChevronBackIcon",
           "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__ChevronBack.jsx"
+        },
+        {
+          "id": "rDhuccSZd",
+          "name": "Market1Icon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Market1.jsx"
+        },
+        {
+          "id": "t41r60aOEt",
+          "name": "Icon87Icon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Icon87.jsx"
+        },
+        {
+          "id": "5qSr1FJoVt",
+          "name": "Market2Icon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Market2.jsx"
+        },
+        {
+          "id": "mynwMjJ_ng",
+          "name": "Marketplace1Icon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Marketplace1.jsx"
         }
       ],
       "images": [
