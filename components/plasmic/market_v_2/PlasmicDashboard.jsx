@@ -172,7 +172,7 @@ function PlasmicDashboard__RenderFunc(props) {
             <CardDashboardNavDisplay
               data-plasmic-name={"getHelp"}
               data-plasmic-override={overrides.getHelp}
-              body={"Learn how to get the most out of the Intrepid"}
+              body={"Learn how to get the most from the Intrepid community"}
               className={classNames("__wab_instance", sty.getHelp)}
               headline={"Get help"}
               slot={
