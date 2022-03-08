@@ -3611,6 +3611,19 @@
           "cssFilePath": "plasmic/remote_v_1/PlasmicContractsummary.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "XH0SBtjCyV",
+          "name": "CardDashboardNavDisplay",
+          "type": "managed",
+          "projectId": "3jRhtnjrFaHJWfNWC1k5BV",
+          "renderModuleFilePath": "plasmic/remote_v_1/PlasmicCardDashboardNavDisplay.jsx",
+          "importSpec": {
+            "modulePath": "CardDashboardNavDisplay.jsx"
+          },
+          "cssFilePath": "plasmic/remote_v_1/PlasmicCardDashboardNavDisplay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

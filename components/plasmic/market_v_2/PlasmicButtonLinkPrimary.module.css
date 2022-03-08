@@ -489,6 +489,9 @@
 .root:hover .slotTargetText {
   color: var(--token-F4gy0u3aB);
 }
+.roottype_fill:hover .slotTargetTexttype_fill {
+  color: var(--token-fuGaen6l1);
+}
 .roottype_outline:hover .slotTargetTexttype_outline {
   color: var(--token-7-Hl8dlot);
 }
