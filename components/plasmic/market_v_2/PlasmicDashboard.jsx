@@ -10,14 +10,26 @@
 // Component: BTvI7GKEeD
 import * as React from "react";
 import Head from "next/head";
+import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import IconElementCircle from "../../IconElementCircle"; // plasmic-import: NwC_LltBnY/component
+import ButtonLinkPrimary from "../../ButtonLinkPrimary"; // plasmic-import: d7dGAYuRCt/component
+import { useScreenVariants as useScreenVariantso9SjFZaOqjqz } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: o9sjFZaOQJQZ/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicDashboard.module.css"; // plasmic-import: BTvI7GKEeD/css
+import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
+import HelpIcon from "./icons/PlasmicIcon__Help"; // plasmic-import: 0BaaB_Gau/icon
+import DesignIcon from "./icons/PlasmicIcon__Design"; // plasmic-import: l3isbgQ3dC/icon
+import RecommendationsIcon from "./icons/PlasmicIcon__Recommendations"; // plasmic-import: wWVEzr7B1/icon
+import SearchFindIcon from "../remote_v_1/icons/PlasmicIcon__SearchFind"; // plasmic-import: aWyTFWXiRU/icon
+import BenefitsHeartIcon from "./icons/PlasmicIcon__BenefitsHeart"; // plasmic-import: jzpsph1Rn/icon
 
 export const PlasmicDashboard__VariantProps = new Array();
 
@@ -25,6 +37,10 @@ export const PlasmicDashboard__ArgProps = new Array();
 
 function PlasmicDashboard__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantso9SjFZaOqjqz()
+  });
+
   return (
     <React.Fragment>
       <Head>
@@ -53,23 +69,481 @@ function PlasmicDashboard__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox___1H9Bb)}
           >
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerHireRemote"}
+              data-plasmic-override={overrides.cardDashboardBuyerHireRemote}
+              hasGap={true}
               className={classNames(
                 projectcss.all,
-                projectcss.__wab_text,
-                sty.text
+                sty.cardDashboardBuyerHireRemote
               )}
             >
-              {"Coming Soon!"}
-            </div>
-          </div>
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___4RsNf)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle___8EfLc
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <UserIcon
+                        className={classNames(projectcss.all, sty.svg__ptFxg)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wJ7Rq
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Hire a remote employee"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rtXa
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Hire and take care of your remote employees. Set allowances and give customised benefits"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary__pvc94
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__edSgk
+                    )}
+                  >
+                    {"Onboard a new employee"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerGetHelp"}
+              data-plasmic-override={overrides.cardDashboardBuyerGetHelp}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                sty.cardDashboardBuyerGetHelp
+              )}
+            >
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__s5Fm3)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle__p0Anb
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <HelpIcon
+                        className={classNames(projectcss.all, sty.svg__ghFK)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__se9Sc
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Get help "}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__z9Pe5
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Get insights and learn how to get the most out of the Intrepid payments and employment platform"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary__pFs7B
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__qcv7I
+                    )}
+                  >
+                    {"Learn more"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerContractFreelancer"}
+              data-plasmic-override={
+                overrides.cardDashboardBuyerContractFreelancer
+              }
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                sty.cardDashboardBuyerContractFreelancer
+              )}
+            >
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__iEun)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle__ucK1Y
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <DesignIcon
+                        className={classNames(projectcss.all, sty.svg___2FODt)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__m5CRf
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Contract a freelancer"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__tw0T
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Create a variety of contract agreements for a freelancer or agency in any country "}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary__xBpJw
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__w4VrV
+                    )}
+                  >
+                    {"Hire a freelancer"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerPersonalise"}
+              data-plasmic-override={overrides.cardDashboardBuyerPersonalise}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                sty.cardDashboardBuyerPersonalise
+              )}
+            >
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__qnUwB)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle___9M8S7
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <RecommendationsIcon
+                        className={classNames(projectcss.all, sty.svg__vqJ8T)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cdQhq
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Personalised matching"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__tyOhM
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Set your key values and interests to get personalised recommendations to teams and talent on Intrepid"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary___95Hl4
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cpkOr
+                    )}
+                  >
+                    {"Set my company needs"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerDiscoverTeams"}
+              data-plasmic-override={overrides.cardDashboardBuyerDiscoverTeams}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                sty.cardDashboardBuyerDiscoverTeams
+              )}
+            >
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__rxDvu)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle___1M18S
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <SearchFindIcon
+                        className={classNames(projectcss.all, sty.svg__ap11E)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jdoxy
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Discover teams & talent"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__bKIM
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Discover talent and teams from around the world who offer services designed to help your company grow"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary__s2H3
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__cwPak
+                    )}
+                  >
+                    {"View the marketplace"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"cardDashboardBuyerTeamBenefits"}
+              data-plasmic-override={overrides.cardDashboardBuyerTeamBenefits}
+              hasGap={true}
+              className={classNames(
+                projectcss.all,
+                sty.cardDashboardBuyerTeamBenefits
+              )}
+            >
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox___7CkmQ)}
+                >
+                  <IconElementCircle
+                    className={classNames(
+                      "__wab_instance",
+                      sty.iconElementCircle__xyLyN
+                    )}
+                    color={"brand"}
+                    iconSlot={
+                      <BenefitsHeartIcon
+                        className={classNames(projectcss.all, sty.svg__eOzsc)}
+                        role={"img"}
+                      />
+                    }
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__uds4
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find and hire freelancers & agencies"
+                      : "Give my team benefits"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__imWs
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "iphone12ProMax")
+                      ? "Find high quality freelancers and agencies from all around the world and compliantly hire them on demand."
+                      : "Create a customised benefits and insurance package for your remote and distributed teams"}
+                  </div>
+                </p.Stack>
+              ) : null}
+
+              <ButtonLinkPrimary
+                className={classNames(
+                  "__wab_instance",
+                  sty.buttonLinkPrimary__rlQ0N
+                )}
+                height={"_40"}
+                text={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__qjEs9
+                    )}
+                  >
+                    {"Give benefits"}
+                  </div>
+                }
+                type={"fill"}
+                width={"stretch"}
+              />
+            </p.Stack>
+          </p.Stack>
         </div>
       </div>
     </React.Fragment>
@@ -77,9 +551,25 @@ function PlasmicDashboard__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "text"],
-  freeBox: ["freeBox", "text"],
-  text: ["text"]
+  root: [
+    "root",
+    "cardDashboardBuyerHireRemote",
+    "cardDashboardBuyerGetHelp",
+    "cardDashboardBuyerContractFreelancer",
+    "cardDashboardBuyerPersonalise",
+    "cardDashboardBuyerDiscoverTeams",
+    "cardDashboardBuyerTeamBenefits"
+  ],
+
+  cardDashboardBuyerHireRemote: ["cardDashboardBuyerHireRemote"],
+  cardDashboardBuyerGetHelp: ["cardDashboardBuyerGetHelp"],
+  cardDashboardBuyerContractFreelancer: [
+    "cardDashboardBuyerContractFreelancer"
+  ],
+
+  cardDashboardBuyerPersonalise: ["cardDashboardBuyerPersonalise"],
+  cardDashboardBuyerDiscoverTeams: ["cardDashboardBuyerDiscoverTeams"],
+  cardDashboardBuyerTeamBenefits: ["cardDashboardBuyerTeamBenefits"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -111,8 +601,27 @@ export const PlasmicDashboard = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
-    text: makeNodeComponent("text"),
+    cardDashboardBuyerHireRemote: makeNodeComponent(
+      "cardDashboardBuyerHireRemote"
+    ),
+
+    cardDashboardBuyerGetHelp: makeNodeComponent("cardDashboardBuyerGetHelp"),
+    cardDashboardBuyerContractFreelancer: makeNodeComponent(
+      "cardDashboardBuyerContractFreelancer"
+    ),
+
+    cardDashboardBuyerPersonalise: makeNodeComponent(
+      "cardDashboardBuyerPersonalise"
+    ),
+
+    cardDashboardBuyerDiscoverTeams: makeNodeComponent(
+      "cardDashboardBuyerDiscoverTeams"
+    ),
+
+    cardDashboardBuyerTeamBenefits: makeNodeComponent(
+      "cardDashboardBuyerTeamBenefits"
+    ),
+
     // Metadata about props expected for PlasmicDashboard
     internalVariantProps: PlasmicDashboard__VariantProps,
     internalArgProps: PlasmicDashboard__ArgProps
