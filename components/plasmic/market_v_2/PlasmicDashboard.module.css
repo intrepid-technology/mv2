@@ -22,14 +22,14 @@
   top: auto;
   min-width: 0;
   min-height: 0;
-  padding: 64px;
+  padding: 24px 64px 64px;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: stretch;
-  align-content: center;
+  align-content: flex-start;
   min-width: 0;
   min-height: 0;
   margin-left: calc(0px - 48px);
