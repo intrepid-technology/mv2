@@ -23,7 +23,6 @@ import PageBreadcrumbs from "../../PageBreadcrumbs"; // plasmic-import: ZTbdEO5N
 import PageTabNavigations from "../../PageTabNavigations"; // plasmic-import: 8FwFZYKbmK/component
 import Tab from "../../Tab"; // plasmic-import: tCiyOEgIeVL/component
 import PageScrollNavigations from "../../PageScrollNavigations"; // plasmic-import: 4xruSD_IDH/component
-import FooterB from "../../FooterB"; // plasmic-import: kxeO2gTzwxU/component
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicLayout.module.css"; // plasmic-import: pCEmHN-z0K/css
@@ -305,13 +304,6 @@ function PlasmicLayout__RenderFunc(props) {
               value: args.main
             })}
           </p.Stack>
-
-          <FooterB
-            data-plasmic-name={"footerB"}
-            data-plasmic-override={overrides.footerB}
-            className={classNames("__wab_instance", sty.footerB)}
-            color={"light"}
-          />
         </div>
       </div>
     </div>
@@ -336,8 +328,7 @@ const PlasmicDescendants = {
     "scrollNavigation",
     "body",
     "main",
-    "mainContentWrapper",
-    "footerB"
+    "mainContentWrapper"
   ],
 
   sidebarV2: ["sidebarV2"],
@@ -372,10 +363,9 @@ const PlasmicDescendants = {
   tabNavigationWrapper: ["tabNavigationWrapper"],
   scrollNavigationWrapper: ["scrollNavigationWrapper", "scrollNavigation"],
   scrollNavigation: ["scrollNavigation"],
-  body: ["body", "main", "mainContentWrapper", "footerB"],
-  main: ["main", "mainContentWrapper", "footerB"],
-  mainContentWrapper: ["mainContentWrapper"],
-  footerB: ["footerB"]
+  body: ["body", "main", "mainContentWrapper"],
+  main: ["main", "mainContentWrapper"],
+  mainContentWrapper: ["mainContentWrapper"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -423,7 +413,6 @@ export const PlasmicLayout = Object.assign(
     body: makeNodeComponent("body"),
     main: makeNodeComponent("main"),
     mainContentWrapper: makeNodeComponent("mainContentWrapper"),
-    footerB: makeNodeComponent("footerB"),
     // Metadata about props expected for PlasmicLayout
     internalVariantProps: PlasmicLayout__VariantProps,
     internalArgProps: PlasmicLayout__ArgProps

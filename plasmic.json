@@ -5303,6 +5303,11 @@
           "id": "mynwMjJ_ng",
           "name": "Marketplace1Icon",
           "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Marketplace1.jsx"
+        },
+        {
+          "id": "wjcSmS91dt",
+          "name": "CustomerIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Customer.jsx"
         }
       ],
       "images": [

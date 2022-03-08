@@ -27,15 +27,19 @@ import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jR
 import sty from "./PlasmicSidebarV2.module.css"; // plasmic-import: cjK2bQuz6A3/css
 import Dashboard2Icon from "./icons/PlasmicIcon__Dashboard2"; // plasmic-import: LJ9ST38jAQ/icon
 import FinanceWalletIcon from "./icons/PlasmicIcon__FinanceWallet"; // plasmic-import: 5hlMU_Ucn8/icon
+import RecommendationsIcon from "./icons/PlasmicIcon__Recommendations"; // plasmic-import: wWVEzr7B1/icon
 import Marketplace1Icon from "../remote_v_1/icons/PlasmicIcon__Marketplace1"; // plasmic-import: mynwMjJ_ng/icon
+import ListingsUpIcon from "./icons/PlasmicIcon__ListingsUp"; // plasmic-import: pqrhOcBoXX/icon
 import TeamCheckIcon from "./icons/PlasmicIcon__TeamCheck"; // plasmic-import: aCeRo3idgK/icon
 import ServicePartnerIcon from "./icons/PlasmicIcon__ServicePartner"; // plasmic-import: mkCh3UXgor/icon
+import CustomerIcon from "../remote_v_1/icons/PlasmicIcon__Customer"; // plasmic-import: wjcSmS91dt/icon
 import ProjectsBrief3Icon from "./icons/PlasmicIcon__ProjectsBrief3"; // plasmic-import: hwA1u0ceql/icon
 import InboxIcon from "./icons/PlasmicIcon__Inbox"; // plasmic-import: QjjagZclxc/icon
 import ContractsFileIcon from "./icons/PlasmicIcon__ContractsFile"; // plasmic-import: mxeDyg819J/icon
 import FileInvoiceIcon from "./icons/PlasmicIcon__FileInvoice"; // plasmic-import: 5y-W1ac1tp/icon
 import ComplianceGavelIcon from "./icons/PlasmicIcon__ComplianceGavel"; // plasmic-import: YK8w2SjGLa/icon
 import InsuranceUmbrellaIcon from "./icons/PlasmicIcon__InsuranceUmbrella"; // plasmic-import: Ht43jLmKl/icon
+import BenefitsHelpHandIcon from "./icons/PlasmicIcon__BenefitsHelpHand"; // plasmic-import: uMoB6Z7yua/icon
 import PerksGift3Icon from "./icons/PlasmicIcon__PerksGift3"; // plasmic-import: LcJhynDGh9/icon
 import IntegrationsLinkIcon from "./icons/PlasmicIcon__IntegrationsLink"; // plasmic-import: 1C-gush7g/icon
 import SwitchIcon from "./icons/PlasmicIcon__Switch"; // plasmic-import: rftun1iZb_/icon
@@ -66,7 +70,14 @@ function PlasmicSidebarV2__RenderFunc(props) {
         projectcss.root_reset,
         projectcss.plasmic_default_styles,
         projectcss.plasmic_tokens,
-        sty.root
+        sty.root,
+        {
+          [sty.rootglobal_layout_isSellerView]: hasVariant(
+            globalVariants,
+            "layout",
+            "isSellerView"
+          )
+        }
       )}
     >
       <div
@@ -91,7 +102,13 @@ function PlasmicSidebarV2__RenderFunc(props) {
           <p.Stack
             as={"div"}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__xjYz)}
+            className={classNames(projectcss.all, sty.freeBox__xjYz, {
+              [sty.freeBoxglobal_layout_isSellerView__xjYzfw6NW]: hasVariant(
+                globalVariants,
+                "layout",
+                "isSellerView"
+              )
+            })}
           >
             <p.Stack
               as={"div"}
@@ -178,55 +195,147 @@ function PlasmicSidebarV2__RenderFunc(props) {
                 renderContext={"sidebar"}
               />
 
+              {(
+                hasVariant(globalVariants, "layout", "isSellerView")
+                  ? true
+                  : false
+              ) ? (
+                <MenuIconListItem
+                  className={classNames(
+                    "__wab_instance",
+                    sty.menuIconListItem__fuy2R,
+                    {
+                      [sty.menuIconListItemglobal_layout_isSellerView__fuy2Rfw6NW]:
+                        hasVariant(globalVariants, "layout", "isSellerView")
+                    }
+                  )}
+                  destination={"/edit/partner/listing"}
+                  navIcon={
+                    <RecommendationsIcon
+                      className={classNames(projectcss.all, sty.svg__ezqCu)}
+                      role={"img"}
+                    />
+                  }
+                  navText={
+                    hasVariant(globalVariants, "layout", "isSellerView")
+                      ? "Recommendations"
+                      : "Marketplace"
+                  }
+                />
+              ) : null}
+
               <MenuIconListItem
                 className={classNames(
                   "__wab_instance",
-                  sty.menuIconListItem__udyld
+                  sty.menuIconListItem__udyld,
+                  {
+                    [sty.menuIconListItemglobal_layout_isSellerView__udyldfw6NW]:
+                      hasVariant(globalVariants, "layout", "isSellerView")
+                  }
                 )}
                 destination={"/edit/partner/listing"}
                 navIcon={
-                  <Marketplace1Icon
-                    className={classNames(projectcss.all, sty.svg__bagDz)}
+                  <p.PlasmicIcon
+                    PlasmicIconType={
+                      hasVariant(globalVariants, "layout", "isSellerView")
+                        ? ListingsUpIcon
+                        : Marketplace1Icon
+                    }
+                    className={classNames(projectcss.all, sty.svg__bagDz, {
+                      [sty.svgglobal_layout_isSellerView__bagDzfw6NW]:
+                        hasVariant(globalVariants, "layout", "isSellerView")
+                    })}
                     role={"img"}
                   />
                 }
-                navText={"Marketplace"}
+                navText={
+                  hasVariant(globalVariants, "layout", "isSellerView")
+                    ? "Listings"
+                    : "Marketplace"
+                }
               />
+
+              {(
+                hasVariant(globalVariants, "layout", "isSellerView")
+                  ? true
+                  : true
+              ) ? (
+                <MenuIconListItem
+                  className={classNames(
+                    "__wab_instance",
+                    sty.menuIconListItem__aBgAv,
+                    {
+                      [sty.menuIconListItemglobal_layout_isSellerView__aBgAvfw6NW]:
+                        hasVariant(globalVariants, "layout", "isSellerView")
+                    }
+                  )}
+                  destination={"/edit/partner/listing"}
+                  navIcon={
+                    <p.PlasmicIcon
+                      data-plasmic-name={"navIcon2"}
+                      data-plasmic-override={overrides.navIcon2}
+                      PlasmicIconType={
+                        hasVariant(globalVariants, "layout", "isSellerView")
+                          ? ListingsUpIcon
+                          : TeamCheckIcon
+                      }
+                      className={classNames(projectcss.all, sty.navIcon2, {
+                        [sty.navIcon2global_layout_isSellerView]: hasVariant(
+                          globalVariants,
+                          "layout",
+                          "isSellerView"
+                        )
+                      })}
+                      role={"img"}
+                    />
+                  }
+                  navText={
+                    hasVariant(globalVariants, "layout", "isSellerView")
+                      ? "Listings"
+                      : "Employees"
+                  }
+                />
+              ) : null}
 
               <MenuIconListItem
                 className={classNames(
                   "__wab_instance",
-                  sty.menuIconListItem__f0Nm0
-                )}
-                destination={"/edit/team"}
-                navIcon={
-                  <TeamCheckIcon
-                    className={classNames(projectcss.all, sty.svg__a02Fm)}
-                    role={"img"}
-                  />
-                }
-                navText={"Team"}
-              />
-
-              <MenuIconListItem
-                className={classNames(
-                  "__wab_instance",
-                  sty.menuIconListItem__wr1NI
+                  sty.menuIconListItem__wr1NI,
+                  {
+                    [sty.menuIconListItemglobal_layout_isSellerView__wr1NIfw6NW]:
+                      hasVariant(globalVariants, "layout", "isSellerView")
+                  }
                 )}
                 destination={"/member/partners"}
                 navIcon={
-                  <ServicePartnerIcon
-                    className={classNames(projectcss.all, sty.svg__wPBy)}
+                  <p.PlasmicIcon
+                    PlasmicIconType={
+                      hasVariant(globalVariants, "layout", "isSellerView")
+                        ? CustomerIcon
+                        : ServicePartnerIcon
+                    }
+                    className={classNames(projectcss.all, sty.svg__wPBy, {
+                      [sty.svgglobal_layout_isSellerView__wPByfw6NW]:
+                        hasVariant(globalVariants, "layout", "isSellerView")
+                    })}
                     role={"img"}
                   />
                 }
-                navText={"Partners"}
+                navText={
+                  hasVariant(globalVariants, "layout", "isSellerView")
+                    ? "Clients"
+                    : "Partners"
+                }
               />
 
               <MenuIconListItem
                 className={classNames(
                   "__wab_instance",
-                  sty.menuIconListItem__wxpLy
+                  sty.menuIconListItem__wxpLy,
+                  {
+                    [sty.menuIconListItemglobal_layout_isSellerView__wxpLyfw6NW]:
+                      hasVariant(globalVariants, "layout", "isSellerView")
+                  }
                 )}
                 destination={"/member/manage/projects"}
                 navIcon={
@@ -316,6 +425,23 @@ function PlasmicSidebarV2__RenderFunc(props) {
               <MenuIconListItem
                 className={classNames(
                   "__wab_instance",
+                  sty.menuIconListItem__fr2Br
+                )}
+                destination={"/member/insurance"}
+                navIcon={
+                  <BenefitsHelpHandIcon
+                    data-plasmic-name={"navIcon3"}
+                    data-plasmic-override={overrides.navIcon3}
+                    className={classNames(projectcss.all, sty.navIcon3)}
+                    role={"img"}
+                  />
+                }
+                navText={"Benefits"}
+              />
+
+              <MenuIconListItem
+                className={classNames(
+                  "__wab_instance",
                   sty.menuIconListItem__uTdOz
                 )}
                 destination={"/member/perks"}
@@ -346,7 +472,11 @@ function PlasmicSidebarV2__RenderFunc(props) {
               <MenuIconListItem
                 data-plasmic-name={"memberSwitchItem"}
                 data-plasmic-override={overrides.memberSwitchItem}
-                action={"_switch"}
+                action={
+                  hasVariant(globalVariants, "layout", "isSellerView")
+                    ? "_switch"
+                    : "_switch"
+                }
                 className={classNames("__wab_instance", sty.memberSwitchItem, {
                   [sty.memberSwitchItemglobal_layout_isSellerView]: hasVariant(
                     globalVariants,
@@ -622,6 +752,8 @@ const PlasmicDescendants = {
     "brandLogo",
     "navbarLogo",
     "selectDropdownPrimary",
+    "navIcon2",
+    "navIcon3",
     "memberSwitchItem",
     "userAvatar",
     "navUserAvatar163",
@@ -641,6 +773,8 @@ const PlasmicDescendants = {
   brandLogo: ["brandLogo", "navbarLogo"],
   navbarLogo: ["navbarLogo"],
   selectDropdownPrimary: ["selectDropdownPrimary"],
+  navIcon2: ["navIcon2"],
+  navIcon3: ["navIcon3"],
   memberSwitchItem: ["memberSwitchItem"],
   userAvatar: [
     "userAvatar",
@@ -703,6 +837,8 @@ export const PlasmicSidebarV2 = Object.assign(
     brandLogo: makeNodeComponent("brandLogo"),
     navbarLogo: makeNodeComponent("navbarLogo"),
     selectDropdownPrimary: makeNodeComponent("selectDropdownPrimary"),
+    navIcon2: makeNodeComponent("navIcon2"),
+    navIcon3: makeNodeComponent("navIcon3"),
     memberSwitchItem: makeNodeComponent("memberSwitchItem"),
     userAvatar: makeNodeComponent("userAvatar"),
     navUserAvatar163: makeNodeComponent("navUserAvatar163"),
