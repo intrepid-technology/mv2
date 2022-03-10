@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@firebase/storage": "^0.8.4",
-    "@plasmicapp/cli": "^0.1.173",
+    "@plasmicapp/cli": "^0.1.174",
     "@plasmicapp/host": "^1.0.0",
     "@plasmicapp/react-web": "^0.2.87",
     "@plasmicpkgs/antd": "^0.0.8",

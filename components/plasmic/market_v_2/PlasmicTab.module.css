@@ -18,7 +18,7 @@
 .parentstate_selected {
   border-bottom: 2px solid var(--token-7-Hl8dlot);
 }
-.parentstate_selected_activeBorder_left {
+.parentactiveBorder_left_state_selected {
   border-bottom: 2px none var(--token-7-Hl8dlot);
   border-left: 2px solid var(--token-7-Hl8dlot);
 }

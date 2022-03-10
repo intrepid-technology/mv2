@@ -231,7 +231,7 @@ function PlasmicTextLinkArrow__RenderFunc(props) {
                   "primary"
                 ),
 
-                [sty.slotTargetSvgRightcolor_primary_direction_right]:
+                [sty.slotTargetSvgRightdirection_right_color_primary]:
                   hasVariant(variants, "color", "primary") &&
                   hasVariant(variants, "direction", "right")
               })

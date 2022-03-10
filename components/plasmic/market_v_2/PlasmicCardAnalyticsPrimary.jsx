@@ -95,9 +95,6 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
               "currency"
             ),
 
-            [sty.iconNumberValueTitlePercentValueParentcurrency_size__270]:
-              hasVariant(variants, "currency", "currency") &&
-              hasVariant(variants, "size", "_270"),
             [sty.iconNumberValueTitlePercentValueParentnumeration]: hasVariant(
               variants,
               "numeration",
@@ -108,7 +105,11 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
               variants,
               "size",
               "_270"
-            )
+            ),
+
+            [sty.iconNumberValueTitlePercentValueParentsize__270_currency]:
+              hasVariant(variants, "currency", "currency") &&
+              hasVariant(variants, "size", "_270")
           }
         )}
       >
@@ -193,28 +194,28 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                     "currency"
                   ),
 
-                  [sty.currencyParentcurrency_size__270]:
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
                   [sty.currencyParentnumeration]: hasVariant(
                     variants,
                     "numeration",
                     "numeration"
                   ),
 
-                  [sty.currencyParentnumeration_currency_size__270]:
-                    hasVariant(variants, "numeration", "numeration") &&
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
                   [sty.currencyParentsize__270]: hasVariant(
                     variants,
                     "size",
                     "_270"
                   ),
 
+                  [sty.currencyParentsize__270_currency]:
+                    hasVariant(variants, "currency", "currency") &&
+                    hasVariant(variants, "size", "_270"),
                   [sty.currencyParentsize__270_numeration]:
                     hasVariant(variants, "size", "_270") &&
-                    hasVariant(variants, "numeration", "numeration")
+                    hasVariant(variants, "numeration", "numeration"),
+                  [sty.currencyParentsize__270_numeration_currency]:
+                    hasVariant(variants, "numeration", "numeration") &&
+                    hasVariant(variants, "currency", "currency") &&
+                    hasVariant(variants, "size", "_270")
                 })}
               >
                 {(hasVariant(variants, "size", "_270") ? false : true)
@@ -316,10 +317,6 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
                   [sty.numerationParentnumeration_currency]:
                     hasVariant(variants, "numeration", "numeration") &&
                     hasVariant(variants, "currency", "currency"),
-                  [sty.numerationParentnumeration_currency_size__270]:
-                    hasVariant(variants, "numeration", "numeration") &&
-                    hasVariant(variants, "currency", "currency") &&
-                    hasVariant(variants, "size", "_270"),
                   [sty.numerationParentsize__270]: hasVariant(
                     variants,
                     "size",
@@ -328,7 +325,11 @@ function PlasmicCardAnalyticsPrimary__RenderFunc(props) {
 
                   [sty.numerationParentsize__270_numeration]:
                     hasVariant(variants, "size", "_270") &&
-                    hasVariant(variants, "numeration", "numeration")
+                    hasVariant(variants, "numeration", "numeration"),
+                  [sty.numerationParentsize__270_numeration_currency]:
+                    hasVariant(variants, "numeration", "numeration") &&
+                    hasVariant(variants, "currency", "currency") &&
+                    hasVariant(variants, "size", "_270")
                 })}
               >
                 {(hasVariant(variants, "size", "_270") ? false : true)

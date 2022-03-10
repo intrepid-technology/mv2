@@ -101,7 +101,7 @@ function PlasmicTextAreaInput__RenderFunc(props) {
                 "start"
               ),
 
-              [sty.startAdornmentWrappertype_secondary_adornment_start]:
+              [sty.startAdornmentWrapperadornment_start_type_secondary]:
                 hasVariant(variants, "type", "secondary") &&
                 hasVariant(variants, "adornment", "start")
             })}

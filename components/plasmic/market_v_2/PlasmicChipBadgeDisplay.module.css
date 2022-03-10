@@ -113,7 +113,7 @@
   background: var(--token-IHoAIP5sw);
   border-color: var(--token-SilK1AnWd);
 }
-.chipDisplaytype_primary_color_green {
+.chipDisplaycolor_green_type_primary {
   background: var(--token-p7MYBCVhU);
   border-color: var(--token-p7MYBCVhU);
 }
@@ -121,15 +121,15 @@
   background: var(--token-b56hHyKT9);
   border-color: var(--token-MxvXD2oSU);
 }
-.chipDisplaytype_ghost_color_magenta {
+.chipDisplaycolor_magenta_type_ghost {
   background: var(--token-1bwoxZk82);
   border-color: var(--token-m2LiiC3to);
 }
-.chipDisplaytype_ghost_color_pink {
+.chipDisplaycolor_pink_type_ghost {
   background: var(--token-91SypEeGn);
   border-color: var(--token-8VWWUllYQ);
 }
-.chipDisplaytype_ghost_color_green {
+.chipDisplaycolor_green_type_ghost {
   background: var(--token-yRiF162fC);
   border-color: var(--token-p7MYBCVhU);
 }
@@ -216,7 +216,7 @@
 .slotTargetChildrentype_ghost {
   color: var(--token-lJGpMo6--);
 }
-.slotTargetChildrencolor_light_trigger_add {
+.slotTargetChildrentrigger_add_color_light {
   line-height: 1;
 }
 .slotTargetChildrentype_ghost_color_brand {
@@ -225,13 +225,13 @@
 .slotTargetChildrencolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetChildrentype_ghost_color_magenta {
+.slotTargetChildrencolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
-.slotTargetChildrentype_ghost_color_pink {
+.slotTargetChildrencolor_pink_type_ghost {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetChildrentype_ghost_color_green {
+.slotTargetChildrencolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
 .chipDisplay:hover .slotTargetChildren {
@@ -315,7 +315,7 @@
 .slotTargetDeleteIcontrigger__delete_color_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetDeleteIcontype_ghost_color_brand_trigger__delete {
+.slotTargetDeleteIcontype_ghost_trigger__delete_color_brand {
   color: var(--token-6xKNduQM7);
 }
 .svg__jasxS {

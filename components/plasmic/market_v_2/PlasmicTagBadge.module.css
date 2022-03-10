@@ -98,38 +98,38 @@
   background: var(--token-m2LiiC3to);
   border-color: var(--token-m2LiiC3to);
 }
-.roottype_ghost_color_brand {
+.rootcolor_brand_type_ghost {
   background: var(--token-IHoAIP5sw);
 }
-.roottype_outline_color_blue {
+.rootcolor_blue_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token-XsRWz_jVS);
 }
-.roottype_outline_color_pink {
+.rootcolor_pink_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token-k-YHrtYlS);
 }
-.roottype_ghost_color_blue {
+.rootcolor_blue_type_ghost {
   background: var(--token-b56hHyKT9);
 }
-.roottype_outline_color_magenta {
+.rootcolor_magenta_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token-Qk8Z99RQL);
 }
 .roottype_ghost_color_pink {
   background: var(--token-91SypEeGn);
 }
-.roottype_outline_color_green {
+.rootcolor_green_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token-WerGfd9sF);
 }
-.roottype_ghost_color_magenta {
+.rootcolor_magenta_type_ghost {
   background: var(--token-1bwoxZk82);
 }
 .rootcolor_green_type_ghost {
   background: var(--token-yRiF162fC);
 }
-.roottype_outline_color_brand {
+.rootcolor_brand_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token-6xKNduQM7);
 }
@@ -193,34 +193,34 @@
 .slotTargetTextBase10Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetTextBase10Pxtype_ghost_color_brand {
+.slotTargetTextBase10Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetTextBase10Pxtype_outline_color_blue {
+.slotTargetTextBase10Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetTextBase10Pxtype_outline_color_pink {
+.slotTargetTextBase10Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetTextBase10Pxtype_ghost_color_blue {
+.slotTargetTextBase10Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetTextBase10Pxtype_outline_color_magenta {
+.slotTargetTextBase10Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetTextBase10Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetTextBase10Pxtype_outline_color_green {
+.slotTargetTextBase10Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetTextBase10Pxtype_ghost_color_magenta {
+.slotTargetTextBase10Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetTextBase10Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetTextBase10Pxtype_outline_color_brand {
+.slotTargetTextBase10Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .roottype_secondary:hover .slotTargetTextBase10Pxtype_secondary {
@@ -260,34 +260,34 @@
 .slotTargetText6Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetText6Pxtype_ghost_color_brand {
+.slotTargetText6Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetText6Pxtype_outline_color_blue {
+.slotTargetText6Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText6Pxtype_outline_color_pink {
+.slotTargetText6Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText6Pxtype_ghost_color_blue {
+.slotTargetText6Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText6Pxtype_outline_color_magenta {
+.slotTargetText6Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText6Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText6Pxtype_outline_color_green {
+.slotTargetText6Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText6Pxtype_ghost_color_magenta {
+.slotTargetText6Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText6Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText6Pxtype_outline_color_brand {
+.slotTargetText6Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .tagFilterLink8Px {
@@ -321,34 +321,34 @@
 .slotTargetText8Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetText8Pxtype_ghost_color_brand {
+.slotTargetText8Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetText8Pxtype_outline_color_blue {
+.slotTargetText8Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText8Pxtype_outline_color_pink {
+.slotTargetText8Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText8Pxtype_ghost_color_blue {
+.slotTargetText8Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText8Pxtype_outline_color_magenta {
+.slotTargetText8Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText8Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText8Pxtype_outline_color_green {
+.slotTargetText8Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText8Pxtype_ghost_color_magenta {
+.slotTargetText8Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText8Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText8Pxtype_outline_color_brand {
+.slotTargetText8Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .tagFilterLink10Px {
@@ -381,34 +381,34 @@
 .slotTargetText10Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetText10Pxtype_ghost_color_brand {
+.slotTargetText10Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetText10Pxtype_outline_color_blue {
+.slotTargetText10Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText10Pxtype_outline_color_pink {
+.slotTargetText10Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText10Pxtype_ghost_color_blue {
+.slotTargetText10Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText10Pxtype_outline_color_magenta {
+.slotTargetText10Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText10Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText10Pxtype_outline_color_green {
+.slotTargetText10Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText10Pxtype_ghost_color_magenta {
+.slotTargetText10Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText10Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText10Pxtype_outline_color_brand {
+.slotTargetText10Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .tagFilterLink12Px {
@@ -446,34 +446,34 @@
 .slotTargetText12Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetText12Pxtype_ghost_color_brand {
+.slotTargetText12Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetText12Pxtype_outline_color_blue {
+.slotTargetText12Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText12Pxtype_outline_color_pink {
+.slotTargetText12Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText12Pxtype_ghost_color_blue {
+.slotTargetText12Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText12Pxtype_outline_color_magenta {
+.slotTargetText12Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText12Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText12Pxtype_outline_color_green {
+.slotTargetText12Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText12Pxtype_ghost_color_magenta {
+.slotTargetText12Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText12Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText12Pxtype_outline_color_brand {
+.slotTargetText12Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .tagFilterLink14Px {
@@ -511,34 +511,34 @@
 .slotTargetText14Pxcolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetText14Pxtype_ghost_color_brand {
+.slotTargetText14Pxcolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetText14Pxtype_outline_color_blue {
+.slotTargetText14Pxcolor_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText14Pxtype_outline_color_pink {
+.slotTargetText14Pxcolor_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText14Pxtype_ghost_color_blue {
+.slotTargetText14Pxcolor_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetText14Pxtype_outline_color_magenta {
+.slotTargetText14Pxcolor_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText14Pxtype_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetText14Pxtype_outline_color_green {
+.slotTargetText14Pxcolor_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText14Pxtype_ghost_color_magenta {
+.slotTargetText14Pxcolor_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetText14Pxcolor_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetText14Pxtype_outline_color_brand {
+.slotTargetText14Pxcolor_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }
 .tagFilterLink10Px2 {
@@ -568,33 +568,33 @@
 .slotTargetTextBase10Px2color_brand {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetTextBase10Px2type_ghost_color_brand {
+.slotTargetTextBase10Px2color_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetTextBase10Px2type_outline_color_blue {
+.slotTargetTextBase10Px2color_blue_type_outline {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetTextBase10Px2type_outline_color_pink {
+.slotTargetTextBase10Px2color_pink_type_outline {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetTextBase10Px2type_ghost_color_blue {
+.slotTargetTextBase10Px2color_blue_type_ghost {
   color: var(--token-XsRWz_jVS);
 }
-.slotTargetTextBase10Px2type_outline_color_magenta {
+.slotTargetTextBase10Px2color_magenta_type_outline {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetTextBase10Px2type_ghost_color_pink {
   color: var(--token-k-YHrtYlS);
 }
-.slotTargetTextBase10Px2type_outline_color_green {
+.slotTargetTextBase10Px2color_green_type_outline {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetTextBase10Px2type_ghost_color_magenta {
+.slotTargetTextBase10Px2color_magenta_type_ghost {
   color: var(--token-Qk8Z99RQL);
 }
 .slotTargetTextBase10Px2color_green_type_ghost {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetTextBase10Px2type_outline_color_brand {
+.slotTargetTextBase10Px2color_brand_type_outline {
   color: var(--token-6xKNduQM7);
 }

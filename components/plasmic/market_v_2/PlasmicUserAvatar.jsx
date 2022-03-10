@@ -57,11 +57,11 @@ function PlasmicUserAvatar__RenderFunc(props) {
         sty.parentRoot,
         {
           [sty.parentRootpartner]: hasVariant(variants, "partner", "partner"),
-          [sty.parentRootpartner_size__24]:
-            hasVariant(variants, "partner", "partner") &&
-            hasVariant(variants, "size", "_24"),
           [sty.parentRootsize__18]: hasVariant(variants, "size", "_18"),
           [sty.parentRootsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.parentRootsize__24_partner]:
+            hasVariant(variants, "partner", "partner") &&
+            hasVariant(variants, "size", "_24"),
           [sty.parentRootsize__32]: hasVariant(variants, "size", "_32"),
           [sty.parentRootsize__40]: hasVariant(variants, "size", "_40")
         }
@@ -87,14 +87,14 @@ function PlasmicUserAvatar__RenderFunc(props) {
             [sty.avatarparentpartner_size__18]:
               hasVariant(variants, "partner", "partner") &&
               hasVariant(variants, "size", "_18"),
-            [sty.avatarparentpartner_size__24]:
-              hasVariant(variants, "partner", "partner") &&
-              hasVariant(variants, "size", "_24"),
             [sty.avatarparentpartner_size__32]:
               hasVariant(variants, "partner", "partner") &&
               hasVariant(variants, "size", "_32"),
             [sty.avatarparentsize__18]: hasVariant(variants, "size", "_18"),
             [sty.avatarparentsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.avatarparentsize__24_partner]:
+              hasVariant(variants, "partner", "partner") &&
+              hasVariant(variants, "size", "_24"),
             [sty.avatarparentsize__32]: hasVariant(variants, "size", "_32"),
             [sty.avatarparentsize__40]: hasVariant(variants, "size", "_40"),
             [sty.avatarparentsize__48]: hasVariant(variants, "size", "_48"),
@@ -209,9 +209,6 @@ function PlasmicUserAvatar__RenderFunc(props) {
 
                 value: args.navUserAvatar24,
                 className: classNames(sty.slotTargetNavUserAvatar24, {
-                  [sty.slotTargetNavUserAvatar24partner_size__24]:
-                    hasVariant(variants, "partner", "partner") &&
-                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetNavUserAvatar24size__18]: hasVariant(
                     variants,
                     "size",
@@ -224,6 +221,9 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     "_24"
                   ),
 
+                  [sty.slotTargetNavUserAvatar24size__24_partner]:
+                    hasVariant(variants, "partner", "partner") &&
+                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetNavUserAvatar24size__32]: hasVariant(
                     variants,
                     "size",
@@ -321,9 +321,6 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     "partner"
                   ),
 
-                  [sty.slotTargetPartnerAvatar24partner_size__24]:
-                    hasVariant(variants, "partner", "partner") &&
-                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar24partner_size__32]:
                     hasVariant(variants, "partner", "partner") &&
                     hasVariant(variants, "size", "_32"),
@@ -339,6 +336,9 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     "_24"
                   ),
 
+                  [sty.slotTargetPartnerAvatar24size__24_partner]:
+                    hasVariant(variants, "partner", "partner") &&
+                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar24size__32]: hasVariant(
                     variants,
                     "size",
@@ -391,9 +391,6 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   [sty.slotTargetPartnerAvatar18partner_size__18]:
                     hasVariant(variants, "partner", "partner") &&
                     hasVariant(variants, "size", "_18"),
-                  [sty.slotTargetPartnerAvatar18partner_size__24]:
-                    hasVariant(variants, "partner", "partner") &&
-                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar18partner_size__32]:
                     hasVariant(variants, "partner", "partner") &&
                     hasVariant(variants, "size", "_32"),
@@ -409,6 +406,9 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     "_24"
                   ),
 
+                  [sty.slotTargetPartnerAvatar18size__24_partner]:
+                    hasVariant(variants, "partner", "partner") &&
+                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar18size__32]: hasVariant(
                     variants,
                     "size",
@@ -461,9 +461,6 @@ function PlasmicUserAvatar__RenderFunc(props) {
                   [sty.slotTargetPartnerAvatar32partner_size__18]:
                     hasVariant(variants, "partner", "partner") &&
                     hasVariant(variants, "size", "_18"),
-                  [sty.slotTargetPartnerAvatar32partner_size__24]:
-                    hasVariant(variants, "partner", "partner") &&
-                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar32partner_size__32]:
                     hasVariant(variants, "partner", "partner") &&
                     hasVariant(variants, "size", "_32"),
@@ -479,6 +476,9 @@ function PlasmicUserAvatar__RenderFunc(props) {
                     "_24"
                   ),
 
+                  [sty.slotTargetPartnerAvatar32size__24_partner]:
+                    hasVariant(variants, "partner", "partner") &&
+                    hasVariant(variants, "size", "_24"),
                   [sty.slotTargetPartnerAvatar32size__32]: hasVariant(
                     variants,
                     "size",

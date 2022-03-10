@@ -28,7 +28,8 @@ export const PlasmicCardDashboardNavDisplay__ArgProps = new Array(
   "headline",
   "body",
   "children",
-  "slot"
+  "slot",
+  "destination"
 );
 
 function PlasmicCardDashboardNavDisplay__RenderFunc(props) {
@@ -61,7 +62,6 @@ function PlasmicCardDashboardNavDisplay__RenderFunc(props) {
             data-plasmic-name={"iconElementCircle"}
             data-plasmic-override={overrides.iconElementCircle}
             className={classNames("__wab_instance", sty.iconElementCircle)}
-            color={"brand"}
             iconSlot={p.renderPlasmicSlot({
               defaultContents: (
                 <UserIcon
@@ -92,6 +92,7 @@ function PlasmicCardDashboardNavDisplay__RenderFunc(props) {
         data-plasmic-name={"buttonPrimary"}
         data-plasmic-override={overrides.buttonPrimary}
         className={classNames("__wab_instance", sty.buttonPrimary)}
+        destination={args.destination !== undefined ? args.destination : ""}
         width={"stretch"}
       >
         {p.renderPlasmicSlot({

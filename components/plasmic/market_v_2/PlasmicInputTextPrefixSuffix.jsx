@@ -73,10 +73,10 @@ function PlasmicInputTextPrefixSuffix__RenderFunc(props) {
           data-plasmic-override={overrides.prefixparent}
           className={classNames(projectcss.all, sty.prefixparent, {
             [sty.prefixparentprefix]: hasVariant(variants, "prefix", "prefix"),
-            [sty.prefixparentsuffix]: hasVariant(variants, "suffix", "suffix"),
-            [sty.prefixparentsuffix_prefix]:
+            [sty.prefixparentprefix_suffix]:
               hasVariant(variants, "suffix", "suffix") &&
               hasVariant(variants, "prefix", "prefix"),
+            [sty.prefixparentsuffix]: hasVariant(variants, "suffix", "suffix"),
             [sty.prefixparenttype_primary]: hasVariant(
               variants,
               "type",

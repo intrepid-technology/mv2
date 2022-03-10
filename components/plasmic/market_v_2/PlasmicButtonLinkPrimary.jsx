@@ -52,46 +52,82 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
         sty.root,
         {
           [sty.rootborder]: hasVariant(variants, "border", "border"),
+          [sty.rootcolor_blue_type_fill]:
+            hasVariant(variants, "type", "fill") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_blue_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_blue_type_primary]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_dark_type_fill]:
+            hasVariant(variants, "type", "fill") &&
+            hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_dark_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_dark_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_dark_type_primary]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "dark"),
+          [sty.rootcolor_green_type_fill]:
+            hasVariant(variants, "type", "fill") &&
+            hasVariant(variants, "color", "green"),
+          [sty.rootcolor_green_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "green"),
+          [sty.rootcolor_green_type_primary]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "green"),
+          [sty.rootcolor_pink_type_fill]:
+            hasVariant(variants, "type", "fill") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.rootcolor_pink_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.rootcolor_pink_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.rootcolor_pink_type_primary]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "pink"),
+          [sty.rootcolor_yellow_type_fill]:
+            hasVariant(variants, "type", "fill") &&
+            hasVariant(variants, "color", "yellow"),
+          [sty.rootcolor_yellow_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "yellow"),
+          [sty.rootcolor_yellow_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "yellow"),
+          [sty.rootcolor_yellow_type_primary]:
+            hasVariant(variants, "type", "primary") &&
+            hasVariant(variants, "color", "yellow"),
           [sty.rootheight__32]: hasVariant(variants, "height", "_32"),
           [sty.rootheight__36]: hasVariant(variants, "height", "_36"),
           [sty.rootheight__40]: hasVariant(variants, "height", "_40"),
           [sty.rootheight__48]: hasVariant(variants, "height", "_48"),
           [sty.rootheight_stretch]: hasVariant(variants, "height", "stretch"),
           [sty.roottype_fill]: hasVariant(variants, "type", "fill"),
-          [sty.roottype_fill_color_blue]:
-            hasVariant(variants, "type", "fill") &&
-            hasVariant(variants, "color", "blue"),
-          [sty.roottype_fill_color_dark]:
-            hasVariant(variants, "type", "fill") &&
-            hasVariant(variants, "color", "dark"),
-          [sty.roottype_fill_color_green]:
-            hasVariant(variants, "type", "fill") &&
-            hasVariant(variants, "color", "green"),
           [sty.roottype_fill_color_light]:
             hasVariant(variants, "type", "fill") &&
             hasVariant(variants, "color", "light"),
           [sty.roottype_fill_color_magenta]:
             hasVariant(variants, "type", "fill") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.roottype_fill_color_pink]:
-            hasVariant(variants, "type", "fill") &&
-            hasVariant(variants, "color", "pink"),
           [sty.roottype_fill_color_primary]:
             hasVariant(variants, "type", "fill") &&
             hasVariant(variants, "color", "primary"),
           [sty.roottype_fill_color_red]:
             hasVariant(variants, "type", "fill") &&
             hasVariant(variants, "color", "red"),
-          [sty.roottype_fill_color_yellow]:
-            hasVariant(variants, "type", "fill") &&
-            hasVariant(variants, "color", "yellow"),
           [sty.roottype_ghost]: hasVariant(variants, "type", "ghost"),
           [sty.roottype_ghost_color_blue]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "blue"),
-          [sty.roottype_ghost_color_dark]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "dark"),
           [sty.roottype_ghost_color_green]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "green"),
@@ -101,74 +137,38 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
           [sty.roottype_ghost_color_magenta]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.roottype_ghost_color_pink]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "pink"),
           [sty.roottype_ghost_color_primary]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "primary"),
           [sty.roottype_ghost_color_red]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "red"),
-          [sty.roottype_ghost_color_yellow]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "yellow"),
           [sty.roottype_outline]: hasVariant(variants, "type", "outline"),
-          [sty.roottype_outline_color_blue]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "blue"),
-          [sty.roottype_outline_color_dark]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "dark"),
-          [sty.roottype_outline_color_green]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "green"),
           [sty.roottype_outline_color_light]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "light"),
           [sty.roottype_outline_color_magenta]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.roottype_outline_color_pink]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "pink"),
           [sty.roottype_outline_color_primary]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "primary"),
           [sty.roottype_outline_color_red]:
             hasVariant(variants, "type", "outline") &&
             hasVariant(variants, "color", "red"),
-          [sty.roottype_outline_color_yellow]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "yellow"),
           [sty.roottype_primary]: hasVariant(variants, "type", "primary"),
-          [sty.roottype_primary_color_blue]:
-            hasVariant(variants, "type", "primary") &&
-            hasVariant(variants, "color", "blue"),
-          [sty.roottype_primary_color_dark]:
-            hasVariant(variants, "type", "primary") &&
-            hasVariant(variants, "color", "dark"),
-          [sty.roottype_primary_color_green]:
-            hasVariant(variants, "type", "primary") &&
-            hasVariant(variants, "color", "green"),
           [sty.roottype_primary_color_light]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "light"),
           [sty.roottype_primary_color_magenta]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "magenta"),
-          [sty.roottype_primary_color_pink]:
-            hasVariant(variants, "type", "primary") &&
-            hasVariant(variants, "color", "pink"),
           [sty.roottype_primary_color_primary]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "primary"),
           [sty.roottype_primary_color_red]:
             hasVariant(variants, "type", "primary") &&
             hasVariant(variants, "color", "red"),
-          [sty.roottype_primary_color_yellow]:
-            hasVariant(variants, "type", "primary") &&
-            hasVariant(variants, "color", "yellow"),
           [sty.rootwidth__120]: hasVariant(variants, "width", "_120"),
           [sty.rootwidth__140]: hasVariant(variants, "width", "_140"),
           [sty.rootwidth__160]: hasVariant(variants, "width", "_160"),
@@ -193,50 +193,83 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
           className={classNames(projectcss.all, sty.textParent, {
+            [sty.textParentcolor_blue_type_fill]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "blue"),
+            [sty.textParentcolor_blue_type_outline]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "blue"),
+            [sty.textParentcolor_blue_type_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "blue"),
+            [sty.textParentcolor_dark_type_fill]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "dark"),
+            [sty.textParentcolor_dark_type_ghost]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "dark"),
+            [sty.textParentcolor_dark_type_outline]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "dark"),
+            [sty.textParentcolor_dark_type_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "dark"),
+            [sty.textParentcolor_green_type_fill]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "green"),
+            [sty.textParentcolor_green_type_outline]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "green"),
+            [sty.textParentcolor_green_type_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "green"),
             [sty.textParentcolor_magenta]: hasVariant(
               variants,
               "color",
               "magenta"
             ),
 
-            [sty.textParentcolor_magenta_type_primary]:
-              hasVariant(variants, "color", "magenta") &&
-              hasVariant(variants, "type", "primary"),
+            [sty.textParentcolor_pink_type_fill]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "pink"),
+            [sty.textParentcolor_pink_type_ghost]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "pink"),
+            [sty.textParentcolor_pink_type_outline]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "pink"),
+            [sty.textParentcolor_pink_type_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "pink"),
+            [sty.textParentcolor_yellow_type_fill]:
+              hasVariant(variants, "type", "fill") &&
+              hasVariant(variants, "color", "yellow"),
+            [sty.textParentcolor_yellow_type_ghost]:
+              hasVariant(variants, "type", "ghost") &&
+              hasVariant(variants, "color", "yellow"),
+            [sty.textParentcolor_yellow_type_outline]:
+              hasVariant(variants, "type", "outline") &&
+              hasVariant(variants, "color", "yellow"),
+            [sty.textParentcolor_yellow_type_primary]:
+              hasVariant(variants, "type", "primary") &&
+              hasVariant(variants, "color", "yellow"),
             [sty.textParenttype_fill]: hasVariant(variants, "type", "fill"),
-            [sty.textParenttype_fill_color_blue]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "blue"),
-            [sty.textParenttype_fill_color_dark]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "dark"),
-            [sty.textParenttype_fill_color_green]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "green"),
             [sty.textParenttype_fill_color_light]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "light"),
             [sty.textParenttype_fill_color_magenta]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "magenta"),
-            [sty.textParenttype_fill_color_pink]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "pink"),
             [sty.textParenttype_fill_color_primary]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "primary"),
             [sty.textParenttype_fill_color_red]:
               hasVariant(variants, "type", "fill") &&
               hasVariant(variants, "color", "red"),
-            [sty.textParenttype_fill_color_yellow]:
-              hasVariant(variants, "type", "fill") &&
-              hasVariant(variants, "color", "yellow"),
             [sty.textParenttype_ghost]: hasVariant(variants, "type", "ghost"),
             [sty.textParenttype_ghost_color_blue]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "blue"),
-            [sty.textParenttype_ghost_color_dark]:
-              hasVariant(variants, "type", "ghost") &&
-              hasVariant(variants, "color", "dark"),
             [sty.textParenttype_ghost_color_green]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "green"),
@@ -246,123 +279,126 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
             [sty.textParenttype_ghost_color_magenta]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "magenta"),
-            [sty.textParenttype_ghost_color_pink]:
-              hasVariant(variants, "type", "ghost") &&
-              hasVariant(variants, "color", "pink"),
             [sty.textParenttype_ghost_color_primary]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "primary"),
             [sty.textParenttype_ghost_color_red]:
               hasVariant(variants, "type", "ghost") &&
               hasVariant(variants, "color", "red"),
-            [sty.textParenttype_ghost_color_yellow]:
-              hasVariant(variants, "type", "ghost") &&
-              hasVariant(variants, "color", "yellow"),
             [sty.textParenttype_outline]: hasVariant(
               variants,
               "type",
               "outline"
             ),
 
-            [sty.textParenttype_outline_color_blue]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "blue"),
-            [sty.textParenttype_outline_color_dark]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "dark"),
-            [sty.textParenttype_outline_color_green]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "green"),
             [sty.textParenttype_outline_color_light]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "light"),
             [sty.textParenttype_outline_color_magenta]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "magenta"),
-            [sty.textParenttype_outline_color_pink]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "pink"),
             [sty.textParenttype_outline_color_primary]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "primary"),
             [sty.textParenttype_outline_color_red]:
               hasVariant(variants, "type", "outline") &&
               hasVariant(variants, "color", "red"),
-            [sty.textParenttype_outline_color_yellow]:
-              hasVariant(variants, "type", "outline") &&
-              hasVariant(variants, "color", "yellow"),
-            [sty.textParenttype_primary_color_blue]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "blue"),
-            [sty.textParenttype_primary_color_dark]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "dark"),
-            [sty.textParenttype_primary_color_green]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "green"),
             [sty.textParenttype_primary_color_light]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "light"),
-            [sty.textParenttype_primary_color_pink]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "pink"),
+            [sty.textParenttype_primary_color_magenta]:
+              hasVariant(variants, "color", "magenta") &&
+              hasVariant(variants, "type", "primary"),
             [sty.textParenttype_primary_color_primary]:
               hasVariant(variants, "type", "primary") &&
               hasVariant(variants, "color", "primary"),
             [sty.textParenttype_primary_color_red]:
               hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "red"),
-            [sty.textParenttype_primary_color_yellow]:
-              hasVariant(variants, "type", "primary") &&
-              hasVariant(variants, "color", "yellow")
+              hasVariant(variants, "color", "red")
           })}
         >
           {p.renderPlasmicSlot({
             defaultContents: "Link",
             value: args.text,
             className: classNames(sty.slotTargetText, {
+              [sty.slotTargetTextcolor_blue_type_fill]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "blue"),
+              [sty.slotTargetTextcolor_blue_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "blue"),
+              [sty.slotTargetTextcolor_blue_type_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "blue"),
+              [sty.slotTargetTextcolor_dark_type_fill]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "dark"),
+              [sty.slotTargetTextcolor_dark_type_ghost]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "dark"),
+              [sty.slotTargetTextcolor_dark_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "dark"),
+              [sty.slotTargetTextcolor_dark_type_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "dark"),
+              [sty.slotTargetTextcolor_green_type_fill]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "green"),
+              [sty.slotTargetTextcolor_green_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "green"),
+              [sty.slotTargetTextcolor_green_type_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "green"),
               [sty.slotTargetTextcolor_magenta]: hasVariant(
                 variants,
                 "color",
                 "magenta"
               ),
 
-              [sty.slotTargetTextcolor_magenta_type_primary]:
-                hasVariant(variants, "color", "magenta") &&
-                hasVariant(variants, "type", "primary"),
+              [sty.slotTargetTextcolor_pink_type_fill]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "pink"),
+              [sty.slotTargetTextcolor_pink_type_ghost]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "pink"),
+              [sty.slotTargetTextcolor_pink_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "pink"),
+              [sty.slotTargetTextcolor_pink_type_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "pink"),
+              [sty.slotTargetTextcolor_yellow_type_fill]:
+                hasVariant(variants, "type", "fill") &&
+                hasVariant(variants, "color", "yellow"),
+              [sty.slotTargetTextcolor_yellow_type_ghost]:
+                hasVariant(variants, "type", "ghost") &&
+                hasVariant(variants, "color", "yellow"),
+              [sty.slotTargetTextcolor_yellow_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "color", "yellow"),
+              [sty.slotTargetTextcolor_yellow_type_primary]:
+                hasVariant(variants, "type", "primary") &&
+                hasVariant(variants, "color", "yellow"),
               [sty.slotTargetTexttype_fill]: hasVariant(
                 variants,
                 "type",
                 "fill"
               ),
 
-              [sty.slotTargetTexttype_fill_color_blue]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "blue"),
-              [sty.slotTargetTexttype_fill_color_dark]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "dark"),
-              [sty.slotTargetTexttype_fill_color_green]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "green"),
               [sty.slotTargetTexttype_fill_color_light]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "light"),
               [sty.slotTargetTexttype_fill_color_magenta]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetTexttype_fill_color_pink]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "pink"),
               [sty.slotTargetTexttype_fill_color_primary]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "primary"),
               [sty.slotTargetTexttype_fill_color_red]:
                 hasVariant(variants, "type", "fill") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotTargetTexttype_fill_color_yellow]:
-                hasVariant(variants, "type", "fill") &&
-                hasVariant(variants, "color", "yellow"),
               [sty.slotTargetTexttype_ghost]: hasVariant(
                 variants,
                 "type",
@@ -372,9 +408,6 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetTexttype_ghost_color_blue]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "blue"),
-              [sty.slotTargetTexttype_ghost_color_dark]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "dark"),
               [sty.slotTargetTexttype_ghost_color_green]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "green"),
@@ -384,75 +417,42 @@ function PlasmicButtonLinkPrimary__RenderFunc(props) {
               [sty.slotTargetTexttype_ghost_color_magenta]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetTexttype_ghost_color_pink]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "pink"),
               [sty.slotTargetTexttype_ghost_color_primary]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "primary"),
               [sty.slotTargetTexttype_ghost_color_red]:
                 hasVariant(variants, "type", "ghost") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotTargetTexttype_ghost_color_yellow]:
-                hasVariant(variants, "type", "ghost") &&
-                hasVariant(variants, "color", "yellow"),
               [sty.slotTargetTexttype_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
               ),
 
-              [sty.slotTargetTexttype_outline_color_blue]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "blue"),
-              [sty.slotTargetTexttype_outline_color_dark]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "dark"),
-              [sty.slotTargetTexttype_outline_color_green]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "green"),
               [sty.slotTargetTexttype_outline_color_light]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "light"),
               [sty.slotTargetTexttype_outline_color_magenta]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "magenta"),
-              [sty.slotTargetTexttype_outline_color_pink]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "pink"),
               [sty.slotTargetTexttype_outline_color_primary]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "primary"),
               [sty.slotTargetTexttype_outline_color_red]:
                 hasVariant(variants, "type", "outline") &&
                 hasVariant(variants, "color", "red"),
-              [sty.slotTargetTexttype_outline_color_yellow]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "color", "yellow"),
-              [sty.slotTargetTexttype_primary_color_blue]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "blue"),
-              [sty.slotTargetTexttype_primary_color_dark]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "dark"),
-              [sty.slotTargetTexttype_primary_color_green]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "green"),
               [sty.slotTargetTexttype_primary_color_light]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "light"),
-              [sty.slotTargetTexttype_primary_color_pink]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "pink"),
+              [sty.slotTargetTexttype_primary_color_magenta]:
+                hasVariant(variants, "color", "magenta") &&
+                hasVariant(variants, "type", "primary"),
               [sty.slotTargetTexttype_primary_color_primary]:
                 hasVariant(variants, "type", "primary") &&
                 hasVariant(variants, "color", "primary"),
               [sty.slotTargetTexttype_primary_color_red]:
                 hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "red"),
-              [sty.slotTargetTexttype_primary_color_yellow]:
-                hasVariant(variants, "type", "primary") &&
-                hasVariant(variants, "color", "yellow")
+                hasVariant(variants, "color", "red")
             })
           })}
         </div>

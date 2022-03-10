@@ -60,9 +60,6 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
             "facebook"
           ),
 
-          [sty.rootcompany_facebook_width__90]:
-            hasVariant(variants, "company", "facebook") &&
-            hasVariant(variants, "width", "_90"),
           [sty.rootcompany_google]: hasVariant(variants, "company", "google"),
           [sty.rootcompany_paypal]: hasVariant(variants, "company", "paypal"),
           [sty.rootcompany_quickbooks]: hasVariant(
@@ -94,7 +91,10 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
           [sty.rootwidth__180]: hasVariant(variants, "width", "_180"),
           [sty.rootwidth__270]: hasVariant(variants, "width", "_270"),
           [sty.rootwidth__360]: hasVariant(variants, "width", "_360"),
-          [sty.rootwidth__90]: hasVariant(variants, "width", "_90")
+          [sty.rootwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.rootwidth__90_company_facebook]:
+            hasVariant(variants, "company", "facebook") &&
+            hasVariant(variants, "width", "_90")
         }
       )}
       id={args.id}
@@ -246,51 +246,21 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                   "facebook"
                 ),
 
-                [sty.textcompany_facebook_width__120]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_120"),
-                [sty.textcompany_facebook_width__140]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_140"),
-                [sty.textcompany_facebook_width__160]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_160"),
-                [sty.textcompany_facebook_width__180]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_180"),
-                [sty.textcompany_facebook_width__270]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_270"),
-                [sty.textcompany_facebook_width__360]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_360"),
-                [sty.textcompany_facebook_width__90]:
-                  hasVariant(variants, "company", "facebook") &&
-                  hasVariant(variants, "width", "_90"),
                 [sty.textcompany_google]: hasVariant(
                   variants,
                   "company",
                   "google"
                 ),
 
-                [sty.textcompany_google_width__120]:
-                  hasVariant(variants, "company", "google") &&
-                  hasVariant(variants, "width", "_120"),
-                [sty.textcompany_google_width__140]:
-                  hasVariant(variants, "company", "google") &&
-                  hasVariant(variants, "width", "_140"),
                 [sty.textcompany_google_width__160]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.textcompany_google_width__180]:
-                  hasVariant(variants, "company", "google") &&
-                  hasVariant(variants, "width", "_180"),
                 [sty.textcompany_google_width__270]:
                   hasVariant(variants, "company", "google") &&
                   hasVariant(variants, "width", "_270"),
-                [sty.textcompany_google_width__90]:
-                  hasVariant(variants, "company", "google") &&
-                  hasVariant(variants, "width", "_90"),
+                [sty.textcompany_google_width__360]:
+                  hasVariant(variants, "width", "_360") &&
+                  hasVariant(variants, "company", "google"),
                 [sty.textcompany_paypal]: hasVariant(
                   variants,
                   "company",
@@ -306,15 +276,15 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                 [sty.textcompany_paypal_width__160]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.textcompany_paypal_width__180]:
-                  hasVariant(variants, "company", "paypal") &&
-                  hasVariant(variants, "width", "_180"),
                 [sty.textcompany_paypal_width__270]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_270"),
                 [sty.textcompany_paypal_width__360]:
                   hasVariant(variants, "company", "paypal") &&
                   hasVariant(variants, "width", "_360"),
+                [sty.textcompany_paypal_width__90]:
+                  hasVariant(variants, "width", "_90") &&
+                  hasVariant(variants, "company", "paypal"),
                 [sty.textcompany_quickbooks]: hasVariant(
                   variants,
                   "company",
@@ -330,12 +300,12 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                 [sty.textcompany_quickbooks_width__160]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_160"),
-                [sty.textcompany_quickbooks_width__180]:
-                  hasVariant(variants, "company", "quickbooks") &&
-                  hasVariant(variants, "width", "_180"),
                 [sty.textcompany_quickbooks_width__270]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_270"),
+                [sty.textcompany_quickbooks_width__360]:
+                  hasVariant(variants, "width", "_360") &&
+                  hasVariant(variants, "company", "quickbooks"),
                 [sty.textcompany_quickbooks_width__90]:
                   hasVariant(variants, "company", "quickbooks") &&
                   hasVariant(variants, "width", "_90"),
@@ -345,59 +315,89 @@ function PlasmicButtonConnectedAccount__RenderFunc(props) {
                   "stripe"
                 ),
 
-                [sty.textcompany_stripe_width__120]:
-                  hasVariant(variants, "company", "stripe") &&
-                  hasVariant(variants, "width", "_120"),
-                [sty.textcompany_stripe_width__140]:
-                  hasVariant(variants, "company", "stripe") &&
-                  hasVariant(variants, "width", "_140"),
-                [sty.textcompany_stripe_width__160]:
-                  hasVariant(variants, "company", "stripe") &&
-                  hasVariant(variants, "width", "_160"),
-                [sty.textcompany_stripe_width__270]:
-                  hasVariant(variants, "company", "stripe") &&
-                  hasVariant(variants, "width", "_270"),
-                [sty.textcompany_stripe_width__90]:
-                  hasVariant(variants, "company", "stripe") &&
-                  hasVariant(variants, "width", "_90"),
                 [sty.textcompany_xero]: hasVariant(variants, "company", "xero"),
-                [sty.textcompany_xero_width__120]:
-                  hasVariant(variants, "company", "xero") &&
-                  hasVariant(variants, "width", "_120"),
-                [sty.textcompany_xero_width__140]:
-                  hasVariant(variants, "company", "xero") &&
-                  hasVariant(variants, "width", "_140"),
-                [sty.textcompany_xero_width__160]:
-                  hasVariant(variants, "company", "xero") &&
-                  hasVariant(variants, "width", "_160"),
-                [sty.textcompany_xero_width__180]:
-                  hasVariant(variants, "company", "xero") &&
-                  hasVariant(variants, "width", "_180"),
-                [sty.textcompany_xero_width__270]:
-                  hasVariant(variants, "company", "xero") &&
-                  hasVariant(variants, "width", "_270"),
                 [sty.textcompany_xero_width__360]:
                   hasVariant(variants, "company", "xero") &&
                   hasVariant(variants, "width", "_360"),
                 [sty.textwidth__120]: hasVariant(variants, "width", "_120"),
+                [sty.textwidth__120_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_120"),
+                [sty.textwidth__120_company_google]:
+                  hasVariant(variants, "company", "google") &&
+                  hasVariant(variants, "width", "_120"),
+                [sty.textwidth__120_company_stripe]:
+                  hasVariant(variants, "company", "stripe") &&
+                  hasVariant(variants, "width", "_120"),
+                [sty.textwidth__120_company_xero]:
+                  hasVariant(variants, "company", "xero") &&
+                  hasVariant(variants, "width", "_120"),
                 [sty.textwidth__140]: hasVariant(variants, "width", "_140"),
+                [sty.textwidth__140_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_140"),
+                [sty.textwidth__140_company_google]:
+                  hasVariant(variants, "company", "google") &&
+                  hasVariant(variants, "width", "_140"),
+                [sty.textwidth__140_company_stripe]:
+                  hasVariant(variants, "company", "stripe") &&
+                  hasVariant(variants, "width", "_140"),
+                [sty.textwidth__140_company_xero]:
+                  hasVariant(variants, "company", "xero") &&
+                  hasVariant(variants, "width", "_140"),
                 [sty.textwidth__160]: hasVariant(variants, "width", "_160"),
+                [sty.textwidth__160_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_160"),
+                [sty.textwidth__160_company_stripe]:
+                  hasVariant(variants, "company", "stripe") &&
+                  hasVariant(variants, "width", "_160"),
+                [sty.textwidth__160_company_xero]:
+                  hasVariant(variants, "company", "xero") &&
+                  hasVariant(variants, "width", "_160"),
                 [sty.textwidth__180]: hasVariant(variants, "width", "_180"),
+                [sty.textwidth__180_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_180"),
+                [sty.textwidth__180_company_google]:
+                  hasVariant(variants, "company", "google") &&
+                  hasVariant(variants, "width", "_180"),
+                [sty.textwidth__180_company_paypal]:
+                  hasVariant(variants, "company", "paypal") &&
+                  hasVariant(variants, "width", "_180"),
+                [sty.textwidth__180_company_quickbooks]:
+                  hasVariant(variants, "company", "quickbooks") &&
+                  hasVariant(variants, "width", "_180"),
+                [sty.textwidth__180_company_xero]:
+                  hasVariant(variants, "company", "xero") &&
+                  hasVariant(variants, "width", "_180"),
                 [sty.textwidth__270]: hasVariant(variants, "width", "_270"),
+                [sty.textwidth__270_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_270"),
+                [sty.textwidth__270_company_stripe]:
+                  hasVariant(variants, "company", "stripe") &&
+                  hasVariant(variants, "width", "_270"),
+                [sty.textwidth__270_company_xero]:
+                  hasVariant(variants, "company", "xero") &&
+                  hasVariant(variants, "width", "_270"),
                 [sty.textwidth__360]: hasVariant(variants, "width", "_360"),
-                [sty.textwidth__360_company_google]:
-                  hasVariant(variants, "width", "_360") &&
-                  hasVariant(variants, "company", "google"),
-                [sty.textwidth__360_company_quickbooks]:
-                  hasVariant(variants, "width", "_360") &&
-                  hasVariant(variants, "company", "quickbooks"),
+                [sty.textwidth__360_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_360"),
                 [sty.textwidth__360_company_stripe]:
                   hasVariant(variants, "width", "_360") &&
                   hasVariant(variants, "company", "stripe"),
                 [sty.textwidth__90]: hasVariant(variants, "width", "_90"),
-                [sty.textwidth__90_company_paypal]:
-                  hasVariant(variants, "width", "_90") &&
-                  hasVariant(variants, "company", "paypal"),
+                [sty.textwidth__90_company_facebook]:
+                  hasVariant(variants, "company", "facebook") &&
+                  hasVariant(variants, "width", "_90"),
+                [sty.textwidth__90_company_google]:
+                  hasVariant(variants, "company", "google") &&
+                  hasVariant(variants, "width", "_90"),
+                [sty.textwidth__90_company_stripe]:
+                  hasVariant(variants, "company", "stripe") &&
+                  hasVariant(variants, "width", "_90"),
                 [sty.textwidth__90_company_xero]:
                   hasVariant(variants, "width", "_90") &&
                   hasVariant(variants, "company", "xero")

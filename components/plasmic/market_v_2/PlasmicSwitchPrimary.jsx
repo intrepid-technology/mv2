@@ -43,17 +43,17 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
         sty.root,
         {
           [sty.root_switch]: hasVariant(variants, "_switch", "_switch"),
-          [sty.rootcolor_black__switch]:
+          [sty.root_switch_color_black]:
             hasVariant(variants, "color", "black") &&
             hasVariant(variants, "_switch", "_switch"),
           [sty.rootcolor_black_disabled_closed]:
             hasVariant(variants, "color", "black") &&
             hasVariant(variants, "disabled", "closed"),
-          [sty.rootdisabled_closed]: hasVariant(variants, "disabled", "closed"),
-          [sty.rootdisabled_open]: hasVariant(variants, "disabled", "open"),
-          [sty.rootdisabled_open_color_black]:
+          [sty.rootcolor_black_disabled_open]:
             hasVariant(variants, "disabled", "open") &&
-            hasVariant(variants, "color", "black")
+            hasVariant(variants, "color", "black"),
+          [sty.rootdisabled_closed]: hasVariant(variants, "disabled", "closed"),
+          [sty.rootdisabled_open]: hasVariant(variants, "disabled", "open")
         }
       )}
     >
@@ -65,16 +65,16 @@ function PlasmicSwitchPrimary__RenderFunc(props) {
           [sty.freeBoxcolor_black_disabled_closed]:
             hasVariant(variants, "color", "black") &&
             hasVariant(variants, "disabled", "closed"),
+          [sty.freeBoxcolor_black_disabled_open]:
+            hasVariant(variants, "disabled", "open") &&
+            hasVariant(variants, "color", "black"),
           [sty.freeBoxdisabled_closed]: hasVariant(
             variants,
             "disabled",
             "closed"
           ),
 
-          [sty.freeBoxdisabled_open]: hasVariant(variants, "disabled", "open"),
-          [sty.freeBoxdisabled_open_color_black]:
-            hasVariant(variants, "disabled", "open") &&
-            hasVariant(variants, "color", "black")
+          [sty.freeBoxdisabled_open]: hasVariant(variants, "disabled", "open")
         })}
       />
     </div>

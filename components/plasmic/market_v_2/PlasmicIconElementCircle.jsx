@@ -57,7 +57,14 @@ function PlasmicIconElementCircle__RenderFunc(props) {
             />
           ),
 
-          value: args.iconSlot
+          value: args.iconSlot,
+          className: classNames(sty.slotTargetIconSlot, {
+            [sty.slotTargetIconSlotcolor_brand]: hasVariant(
+              variants,
+              "color",
+              "brand"
+            )
+          })
         })}
       </div>
     </div>

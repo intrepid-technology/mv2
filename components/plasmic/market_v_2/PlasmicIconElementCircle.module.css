@@ -29,11 +29,14 @@
 .freeBoxcolor_brand {
   background: var(--token-WAX_l0bzr);
 }
+.slotTargetIconSlotcolor_brand {
+  color: var(--token-SilK1AnWd);
+}
 .svg__lMJhj {
   object-fit: cover;
   max-width: 100%;
   width: 24px;
   height: 24px;
-  color: var(--token-UPK7EIst5);
+  color: var(--token-MAJ29KQMI);
   flex-shrink: 0;
 }

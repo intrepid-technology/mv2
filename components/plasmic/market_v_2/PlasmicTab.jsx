@@ -45,14 +45,14 @@ function PlasmicTab__RenderFunc(props) {
         projectcss.plasmic_tokens,
         sty.root,
         {
+          [sty.rootactiveBorder_left_state_selected]:
+            hasVariant(variants, "state", "selected") &&
+            hasVariant(variants, "activeBorder", "left"),
           [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
           [sty.rootcolor_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
           [sty.rootstate_disabled]: hasVariant(variants, "state", "disabled"),
-          [sty.rootstate_selected]: hasVariant(variants, "state", "selected"),
-          [sty.rootstate_selected_activeBorder_left]:
-            hasVariant(variants, "state", "selected") &&
-            hasVariant(variants, "activeBorder", "left")
+          [sty.rootstate_selected]: hasVariant(variants, "state", "selected")
         }
       )}
       component={Link}
@@ -63,20 +63,20 @@ function PlasmicTab__RenderFunc(props) {
         data-plasmic-name={"parent"}
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
+          [sty.parentactiveBorder_left_state_selected]:
+            hasVariant(variants, "state", "selected") &&
+            hasVariant(variants, "activeBorder", "left"),
           [sty.parentcolor_brand]: hasVariant(variants, "color", "brand"),
           [sty.parentcolor_ghost]: hasVariant(variants, "color", "ghost"),
           [sty.parentcolor_light]: hasVariant(variants, "color", "light"),
-          [sty.parentstate_selected]: hasVariant(variants, "state", "selected"),
-          [sty.parentstate_selected_activeBorder_left]:
-            hasVariant(variants, "state", "selected") &&
-            hasVariant(variants, "activeBorder", "left")
+          [sty.parentstate_selected]: hasVariant(variants, "state", "selected")
         })}
       >
         <div
           data-plasmic-name={"textParent"}
           data-plasmic-override={overrides.textParent}
           className={classNames(projectcss.all, sty.textParent, {
-            [sty.textParentstate_selected_activeBorder_left]:
+            [sty.textParentactiveBorder_left_state_selected]:
               hasVariant(variants, "state", "selected") &&
               hasVariant(variants, "activeBorder", "left")
           })}

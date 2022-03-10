@@ -56,17 +56,17 @@ function PlasmicSearchbarPrimary__RenderFunc(props) {
         data-plasmic-override={overrides.parent}
         className={classNames(projectcss.all, sty.parent, {
           [sty.parentheight__36]: hasVariant(variants, "height", "_36"),
+          [sty.parentheight__36_width__360]:
+            hasVariant(variants, "width", "_360") &&
+            hasVariant(variants, "height", "_36"),
           [sty.parentheight__40]: hasVariant(variants, "height", "_40"),
+          [sty.parentheight__40_width__360]:
+            hasVariant(variants, "width", "_360") &&
+            hasVariant(variants, "height", "_40"),
           [sty.parenttype_secondary]: hasVariant(variants, "type", "secondary"),
           [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
           [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
           [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
-          [sty.parentwidth__360_height__36]:
-            hasVariant(variants, "width", "_360") &&
-            hasVariant(variants, "height", "_36"),
-          [sty.parentwidth__360_height__40]:
-            hasVariant(variants, "width", "_360") &&
-            hasVariant(variants, "height", "_40"),
           [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
           [sty.parentwidth__720]: hasVariant(variants, "width", "_720")
         })}

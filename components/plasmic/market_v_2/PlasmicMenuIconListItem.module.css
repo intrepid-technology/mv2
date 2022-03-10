@@ -96,7 +96,7 @@
 .slotTargetNavIconselected {
   color: var(--token-fuGaen6l1);
 }
-.slotTargetNavIconselected_renderContext_sidebar {
+.slotTargetNavIconrenderContext_sidebar_selected {
   color: var(--token-fuGaen6l1);
 }
 .menuIconListItemLink:hover .slotTargetNavIcon {
@@ -175,7 +175,7 @@
   color: var(--token-fuGaen6l1);
   font-weight: 700;
 }
-.slotTargetNavTextselected_renderContext_sidebar {
+.slotTargetNavTextrenderContext_sidebar_selected {
   color: var(--token-fuGaen6l1);
 }
 .menuIconListItemLink:hover .slotTargetNavText {
@@ -264,7 +264,7 @@
   font-weight: 500;
   color: var(--token-xfNU8zBzA);
 }
-.slotTargetChildrenselected_action__switch_renderContext_sidebar {
+.slotTargetChildrenrenderContext_sidebar_action__switch_selected {
   color: var(--token-fuGaen6l1);
 }
 .switchActionButton:global(.__wab_instance) {
@@ -275,6 +275,6 @@
   font-weight: 500;
   color: var(--token-xfNU8zBzA);
 }
-.slotTargetSlotselected_action__switch_renderContext_sidebar {
+.slotTargetSlotrenderContext_sidebar_action__switch_selected {
   color: var(--token-fuGaen6l1);
 }

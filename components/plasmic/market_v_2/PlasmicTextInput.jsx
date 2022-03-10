@@ -194,7 +194,7 @@ function PlasmicTextInput__RenderFunc(props) {
                 "end"
               ),
 
-              [sty.endAdornmentWrapperadornment_end_type_secondary]:
+              [sty.endAdornmentWrappertype_secondary_adornment_end]:
                 hasVariant(variants, "adornment", "end") &&
                 hasVariant(variants, "type", "secondary")
             })}

@@ -8,7 +8,7 @@
   height: auto;
   cursor: pointer;
 }
-.roottype_primary_color_brand:hover {
+.rootcolor_brand_type_primary:hover {
   backface-visibility: hidden;
 }
 .button {
@@ -109,55 +109,55 @@
   border-style: none;
   border-color: var(--token-p7MYBCVhU);
 }
-.buttontype_secondary_color_brand {
+.buttoncolor_brand_type_secondary {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
   border-color: var(--token-WAX_l0bzr);
 }
-.buttontype_outline_color_brand {
+.buttoncolor_brand_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
 }
-.buttontype_secondary_color_success {
+.buttoncolor_success_type_secondary {
   border-color: var(--token-iJkrL5g6F);
 }
-.buttontype_link_color_brand {
+.buttoncolor_brand_type_link {
   background: none;
 }
-.buttontype_outline_color_success {
+.buttoncolor_success_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
 }
-.buttontype_secondary_color_warning {
+.buttoncolor_warning_type_secondary {
   border-color: var(--token-DILoyOENE);
 }
-.buttontype_ghost_color_brand {
+.buttoncolor_brand_type_ghost {
   background: var(--token-PfXAJ-PoV);
   border: 1px none var(--token-97FZ-MZpy);
 }
-.buttontype_link_color_success {
+.buttoncolor_success_type_link {
   background: none;
 }
-.buttontype_outline_color_warning {
+.buttoncolor_warning_type_outline {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
 }
-.buttontype_secondary_color_caution {
+.buttoncolor_caution_type_secondary {
   border-color: var(--token-oKZqK_X__);
 }
 .buttontype_ghost_color_success {
   background: var(--token-PfXAJ-PoV);
   border-color: var(--token-p7MYBCVhU);
 }
-.buttontype_link_color_warning {
+.buttoncolor_warning_type_link {
   background: none;
 }
-.buttontype_light_color_brand {
+.buttoncolor_brand_type_light {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
   border-color: var(--token-j08wwDM3g);
 }
-.buttontype_secondary_color_alert {
+.buttoncolor_alert_type_secondary {
   border-color: var(--token-3KiHlnI5q);
 }
 .buttontype_ghost_color_warning {
@@ -169,15 +169,15 @@
   border-radius: 0px;
   border: 2px none var(--token-p7MYBCVhU);
 }
-.buttontype_link_color_caution {
+.buttoncolor_caution_type_link {
   background: none;
 }
-.buttontype_light_color_success {
+.buttoncolor_success_type_light {
   background: var(--token-5XhQ_b_Lb);
   border-style: solid;
   border-color: var(--token-GFA05O2j9);
 }
-.buttontype_secondary_color_blue {
+.buttoncolor_blue_type_secondary {
   border-color: var(--token-I7xi6Y59a);
 }
 .buttontype_ghost_color_caution {
@@ -189,17 +189,17 @@
   border-radius: 0px;
   border: 2px none var(--token-p7MYBCVhU);
 }
-.buttontype_link_color_alert {
+.buttoncolor_alert_type_link {
   background: none;
 }
-.buttontype_light_color_warning {
+.buttoncolor_warning_type_light {
   background: var(--token-5XhQ_b_Lb);
   border-color: var(--token--3uS3OAJA);
 }
-.buttontype_secondary_color_magenta {
+.buttoncolor_magenta_type_secondary {
   border-color: var(--token-Dji75eq9u);
 }
-.buttontype_ghost_color_alert {
+.buttoncolor_alert_type_ghost {
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@
 .buttontype_link_color_blue {
   background: none;
 }
-.buttontype_light_color_caution {
+.buttoncolor_caution_type_light {
   border-color: var(--token-Quvjmwe9h);
 }
 .buttontype_ghost_color_blue {
@@ -223,13 +223,13 @@
   border-radius: 0px;
   border: 2px none var(--token-p7MYBCVhU);
 }
-.buttontype_link_color_magenta {
+.buttoncolor_magenta_type_link {
   background: none;
 }
-.buttontype_light_color_alert {
+.buttoncolor_alert_type_light {
   border-color: var(--token-KmPIdyKu5);
 }
-.buttontype_ghost_color_magenta {
+.buttoncolor_magenta_type_ghost {
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -238,16 +238,16 @@
   border-radius: 0px;
   border: 2px none var(--token-p7MYBCVhU);
 }
-.buttontype_light_color_blue {
+.buttoncolor_blue_type_light {
   border-color: var(--token-Q8ea7qSap);
 }
 .buttontype_link_state_error {
   background: none;
 }
-.buttontype_light_color_magenta {
+.buttoncolor_magenta_type_light {
   border-color: var(--token-94Qi9YtP6);
 }
-.buttontype_primary_state_disabled {
+.buttonstate_disabled_type_primary {
   background: var(--token-zi5VxOARL);
   border-color: var(--token-F4gy0u3aB);
 }
@@ -256,23 +256,23 @@
   border-width: 1px;
   border-color: var(--token-zuxijHDLE);
 }
-.buttontype_link_state_warning {
+.buttonstate_warning_type_link {
   background: none;
 }
-.buttontype_ghost_state_warning {
+.buttonstate_warning_type_ghost {
   background: none;
   border-width: 1px;
   border-color: var(--token-eB-5eFUpD);
 }
-.buttontype_link_state_success {
+.buttonstate_success_type_link {
   background: none;
 }
-.buttonstate_success_type_ghost {
+.buttontype_ghost_state_success {
   background: none;
   border-width: 1px;
   border-color: var(--token-p7MYBCVhU);
 }
-.buttonhasShadow_color_brand {
+.buttoncolor_brand_hasShadow {
   filter: drop-shadow(10px 30px 10px #6633ff1a);
 }
 .root:hover .button {
@@ -310,74 +310,74 @@
   background: var(--token-97FZ-MZpy);
   border-color: var(--token-97FZ-MZpy);
 }
-.roottype_secondary_color_brand:hover .buttontype_secondary_color_brand {
+.rootcolor_brand_type_secondary:hover .buttoncolor_brand_type_secondary {
   border-color: var(--token-97FZ-MZpy);
 }
-.roottype_outline_color_brand:hover .buttontype_outline_color_brand {
+.rootcolor_brand_type_outline:hover .buttoncolor_brand_type_outline {
   background: var(--token-97FZ-MZpy);
 }
-.roottype_secondary_color_success:hover .buttontype_secondary_color_success {
+.rootcolor_success_type_secondary:hover .buttoncolor_success_type_secondary {
   border-color: var(--token-p7MYBCVhU);
 }
-.roottype_secondary_color_warning:hover .buttontype_secondary_color_warning {
+.rootcolor_warning_type_secondary:hover .buttoncolor_warning_type_secondary {
   border-color: var(--token-eB-5eFUpD);
 }
-.roottype_ghost_color_brand:hover .buttontype_ghost_color_brand {
+.rootcolor_brand_type_ghost:hover .buttoncolor_brand_type_ghost {
   background: var(--token-WAX_l0bzr);
   border-color: var(--token-IbTSH9_JJ);
 }
-.roottype_secondary_color_caution:hover .buttontype_secondary_color_caution {
+.rootcolor_caution_type_secondary:hover .buttoncolor_caution_type_secondary {
   border-color: var(--token-zuxijHDLE);
 }
-.roottype_light_color_brand:hover .buttontype_light_color_brand {
+.rootcolor_brand_type_light:hover .buttoncolor_brand_type_light {
   border-color: var(--token-j08wwDM3g);
 }
 .roottype_ghost_color_success:hover .buttontype_ghost_color_success {
   background: var(--token-iJkrL5g6F);
 }
-.roottype_secondary_color_alert:hover .buttontype_secondary_color_alert {
+.rootcolor_alert_type_secondary:hover .buttoncolor_alert_type_secondary {
   border-color: var(--token-8VWWUllYQ);
 }
-.roottype_light_color_success:hover .buttontype_light_color_success {
+.rootcolor_success_type_light:hover .buttoncolor_success_type_light {
   border-color: var(--token-LmLUYtV0r);
 }
-.roottype_secondary_color_blue:hover .buttontype_secondary_color_blue {
+.rootcolor_blue_type_secondary:hover .buttoncolor_blue_type_secondary {
   border-color: var(--token-MxvXD2oSU);
 }
 .roottype_ghost_color_warning:hover .buttontype_ghost_color_warning {
   background: var(--token-DILoyOENE);
 }
-.roottype_light_color_warning:hover .buttontype_light_color_warning {
+.rootcolor_warning_type_light:hover .buttoncolor_warning_type_light {
   border-color: var(--token-Ubt4nIgRv);
 }
-.roottype_secondary_color_magenta:hover .buttontype_secondary_color_magenta {
+.rootcolor_magenta_type_secondary:hover .buttoncolor_magenta_type_secondary {
   border-color: var(--token-m2LiiC3to);
 }
 .roottype_ghost_color_caution:hover .buttontype_ghost_color_caution {
   background: var(--token-oKZqK_X__);
 }
-.roottype_light_color_caution:hover .buttontype_light_color_caution {
+.rootcolor_caution_type_light:hover .buttoncolor_caution_type_light {
   border-color: var(--token-M1EULLuQy);
 }
-.roottype_ghost_color_alert:hover .buttontype_ghost_color_alert {
+.rootcolor_alert_type_ghost:hover .buttoncolor_alert_type_ghost {
   background: var(--token-3KiHlnI5q);
 }
-.roottype_light_color_alert:hover .buttontype_light_color_alert {
+.rootcolor_alert_type_light:hover .buttoncolor_alert_type_light {
   border-color: var(--token-sNRxLWC2j);
 }
 .roottype_ghost_color_blue:hover .buttontype_ghost_color_blue {
   background: var(--token-I7xi6Y59a);
 }
-.roottype_light_color_blue:hover .buttontype_light_color_blue {
+.rootcolor_blue_type_light:hover .buttoncolor_blue_type_light {
   border-color: var(--token-h38nszR9t);
 }
-.roottype_ghost_color_magenta:hover .buttontype_ghost_color_magenta {
+.rootcolor_magenta_type_ghost:hover .buttoncolor_magenta_type_ghost {
   background: var(--token-Dji75eq9u);
 }
-.roottype_light_color_magenta:hover .buttontype_light_color_magenta {
+.rootcolor_magenta_type_light:hover .buttoncolor_magenta_type_light {
   border-color: var(--token-Iwo8OE18Y);
 }
-.rootcolor_brand_rounded:hover .buttoncolor_brand_rounded {
+.rootrounded_color_brand:hover .buttonrounded_color_brand {
   background: var(--token-97FZ-MZpy);
 }
 .slotTargetChildren {
@@ -432,133 +432,133 @@
 .slotTargetChildrentype_dark {
   color: var(--token--59aep1Mm);
 }
-.slotTargetChildrentype_secondary_color_brand {
+.slotTargetChildrencolor_brand_type_secondary {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetChildrentype_outline_color_brand {
+.slotTargetChildrencolor_brand_type_outline {
   color: var(--token-97FZ-MZpy);
 }
-.slotTargetChildrentype_secondary_color_success {
+.slotTargetChildrencolor_success_type_secondary {
   color: var(--token-WerGfd9sF);
 }
-.slotTargetChildrentype_link_color_brand {
+.slotTargetChildrencolor_brand_type_link {
   color: var(--token-rN0ul5_oz);
 }
-.slotTargetChildrentype_outline_color_success {
+.slotTargetChildrencolor_success_type_outline {
   color: var(--token-p7MYBCVhU);
 }
-.slotTargetChildrentype_secondary_color_warning {
+.slotTargetChildrencolor_warning_type_secondary {
   color: var(--token-tfbroDLhU);
 }
-.slotTargetChildrentype_ghost_color_brand {
+.slotTargetChildrencolor_brand_type_ghost {
   color: var(--token-6xKNduQM7);
 }
-.slotTargetChildrentype_link_color_success {
+.slotTargetChildrencolor_success_type_link {
   color: var(--token-LmLUYtV0r);
 }
-.slotTargetChildrentype_outline_color_warning {
+.slotTargetChildrencolor_warning_type_outline {
   color: var(--token-eB-5eFUpD);
 }
-.slotTargetChildrentype_secondary_color_caution {
+.slotTargetChildrencolor_caution_type_secondary {
   color: var(--token-iy6ayoo2G);
 }
 .slotTargetChildrentype_ghost_color_success {
   color: var(--token-LmLUYtV0r);
 }
-.slotTargetChildrentype_link_color_warning {
+.slotTargetChildrencolor_warning_type_link {
   color: var(--token-Ubt4nIgRv);
 }
-.slotTargetChildrentype_light_color_brand {
+.slotTargetChildrencolor_brand_type_light {
   color: var(--token-rN0ul5_oz);
 }
-.slotTargetChildrentype_outline_color_caution {
+.slotTargetChildrencolor_caution_type_outline {
   color: var(--token-zuxijHDLE);
 }
-.slotTargetChildrentype_secondary_color_alert {
+.slotTargetChildrencolor_alert_type_secondary {
   color: var(--token-k-YHrtYlS);
 }
 .slotTargetChildrentype_ghost_color_warning {
   color: var(--token-Ubt4nIgRv);
 }
-.slotTargetChildrentype_link_color_caution {
+.slotTargetChildrencolor_caution_type_link {
   color: var(--token-M1EULLuQy);
 }
-.slotTargetChildrentype_light_color_success {
+.slotTargetChildrencolor_success_type_light {
   color: var(--token-Gm5lyQQ6U);
 }
-.slotTargetChildrentype_outline_color_alert {
+.slotTargetChildrencolor_alert_type_outline {
   color: var(--token-8VWWUllYQ);
 }
-.slotTargetChildrentype_secondary_color_blue {
+.slotTargetChildrencolor_blue_type_secondary {
   color: var(--token-XsRWz_jVS);
 }
 .slotTargetChildrentype_ghost_color_caution {
   color: var(--token-M1EULLuQy);
 }
-.slotTargetChildrentype_link_color_alert {
+.slotTargetChildrencolor_alert_type_link {
   color: var(--token-sNRxLWC2j);
 }
-.slotTargetChildrentype_light_color_warning {
+.slotTargetChildrencolor_warning_type_light {
   color: var(--token-Cslsaft0J);
 }
 .slotTargetChildrentype_outline_color_blue {
   color: var(--token-MxvXD2oSU);
 }
-.slotTargetChildrentype_secondary_color_magenta {
+.slotTargetChildrencolor_magenta_type_secondary {
   color: var(--token-Qk8Z99RQL);
 }
-.slotTargetChildrentype_ghost_color_alert {
+.slotTargetChildrencolor_alert_type_ghost {
   color: var(--token-sNRxLWC2j);
 }
 .slotTargetChildrentype_link_color_blue {
   color: var(--token-h38nszR9t);
 }
-.slotTargetChildrentype_light_color_caution {
+.slotTargetChildrencolor_caution_type_light {
   color: var(--token-abQDSBbxy);
 }
-.slotTargetChildrentype_outline_color_magenta {
+.slotTargetChildrencolor_magenta_type_outline {
   color: var(--token-m2LiiC3to);
 }
 .slotTargetChildrentype_ghost_color_blue {
   color: var(--token-h38nszR9t);
 }
-.slotTargetChildrentype_link_color_magenta {
+.slotTargetChildrencolor_magenta_type_link {
   color: var(--token-Iwo8OE18Y);
 }
-.slotTargetChildrentype_light_color_alert {
+.slotTargetChildrencolor_alert_type_light {
   color: var(--token-WUTfdDVU-);
 }
-.slotTargetChildrentype_ghost_color_magenta {
+.slotTargetChildrencolor_magenta_type_ghost {
   color: var(--token-Iwo8OE18Y);
 }
-.slotTargetChildrentype_light_color_blue {
+.slotTargetChildrencolor_blue_type_light {
   color: var(--token-stcF9VjzQ);
 }
-.slotTargetChildrencolor_light_type_link {
+.slotTargetChildrentype_link_color_light {
   color: var(--token--59aep1Mm);
 }
 .slotTargetChildrentype_link_state_error {
   color: var(--token-zuxijHDLE);
 }
-.slotTargetChildrentype_light_color_magenta {
+.slotTargetChildrencolor_magenta_type_light {
   color: var(--token-Xgpxrh1N1);
 }
-.slotTargetChildrentype_primary_state_disabled {
+.slotTargetChildrenstate_disabled_type_primary {
   color: var(--token-R5fCYkZee);
 }
 .slotTargetChildrentype_ghost_state_error {
   color: var(--token-zuxijHDLE);
 }
-.slotTargetChildrentype_link_state_warning {
+.slotTargetChildrenstate_warning_type_link {
   color: var(--token-eB-5eFUpD);
 }
-.slotTargetChildrentype_ghost_state_warning {
+.slotTargetChildrenstate_warning_type_ghost {
   color: var(--token-eB-5eFUpD);
 }
-.slotTargetChildrentype_link_state_success {
+.slotTargetChildrenstate_success_type_link {
   color: var(--token-p7MYBCVhU);
 }
-.slotTargetChildrenstate_success_type_ghost {
+.slotTargetChildrentype_ghost_state_success {
   color: var(--token-p7MYBCVhU);
 }
 .root:hover .slotTargetChildren {
@@ -585,103 +585,103 @@
 .rootcolor_brand:hover .slotTargetChildrencolor_brand {
   color: var(--token-fuGaen6l1);
 }
-.roottype_outline_color_brand:hover
-  .slotTargetChildrentype_outline_color_brand {
+.rootcolor_brand_type_outline:hover
+  .slotTargetChildrencolor_brand_type_outline {
   color: var(--token-gJaAJBnXh);
 }
-.roottype_secondary_color_success:hover
-  .slotTargetChildrentype_secondary_color_success {
+.rootcolor_success_type_secondary:hover
+  .slotTargetChildrencolor_success_type_secondary {
   color: var(--token-p7MYBCVhU);
 }
-.roottype_secondary_color_warning:hover
-  .slotTargetChildrentype_secondary_color_warning {
+.rootcolor_warning_type_secondary:hover
+  .slotTargetChildrencolor_warning_type_secondary {
   color: var(--token-eB-5eFUpD);
 }
-.roottype_ghost_color_brand:hover .slotTargetChildrentype_ghost_color_brand {
+.rootcolor_brand_type_ghost:hover .slotTargetChildrencolor_brand_type_ghost {
   color: var(--token-97FZ-MZpy);
 }
-.roottype_link_color_success:hover .slotTargetChildrentype_link_color_success {
+.rootcolor_success_type_link:hover .slotTargetChildrencolor_success_type_link {
   color: var(--token-wjhZcIoiw);
 }
-.roottype_secondary_color_caution:hover
-  .slotTargetChildrentype_secondary_color_caution {
+.rootcolor_caution_type_secondary:hover
+  .slotTargetChildrencolor_caution_type_secondary {
   color: var(--token-zuxijHDLE);
 }
-.roottype_light_color_brand:hover .slotTargetChildrentype_light_color_brand {
+.rootcolor_brand_type_light:hover .slotTargetChildrencolor_brand_type_light {
   color: var(--token-6xKNduQM7);
 }
-.roottype_link_color_warning:hover .slotTargetChildrentype_link_color_warning {
+.rootcolor_warning_type_link:hover .slotTargetChildrencolor_warning_type_link {
   color: var(--token-D6EUx-DWU);
 }
 .roottype_ghost_color_success:hover
   .slotTargetChildrentype_ghost_color_success {
   color: var(--token-wjhZcIoiw);
 }
-.roottype_secondary_color_alert:hover
-  .slotTargetChildrentype_secondary_color_alert {
+.rootcolor_alert_type_secondary:hover
+  .slotTargetChildrencolor_alert_type_secondary {
   color: var(--token-8VWWUllYQ);
 }
-.roottype_light_color_success:hover
-  .slotTargetChildrentype_light_color_success {
+.rootcolor_success_type_light:hover
+  .slotTargetChildrencolor_success_type_light {
   color: var(--token-p7MYBCVhU);
 }
-.roottype_link_color_caution:hover .slotTargetChildrentype_link_color_caution {
+.rootcolor_caution_type_link:hover .slotTargetChildrencolor_caution_type_link {
   color: var(--token-zOdpc2i_7);
 }
 .roottype_ghost_color_warning:hover
   .slotTargetChildrentype_ghost_color_warning {
   color: var(--token-D6EUx-DWU);
 }
-.roottype_secondary_color_blue:hover
-  .slotTargetChildrentype_secondary_color_blue {
+.rootcolor_blue_type_secondary:hover
+  .slotTargetChildrencolor_blue_type_secondary {
   color: var(--token-MxvXD2oSU);
 }
-.roottype_light_color_warning:hover
-  .slotTargetChildrentype_light_color_warning {
+.rootcolor_warning_type_light:hover
+  .slotTargetChildrencolor_warning_type_light {
   color: var(--token-eB-5eFUpD);
 }
-.roottype_link_color_alert:hover .slotTargetChildrentype_link_color_alert {
+.rootcolor_alert_type_link:hover .slotTargetChildrencolor_alert_type_link {
   color: var(--token-h246Kg3cR);
 }
 .roottype_ghost_color_caution:hover
   .slotTargetChildrentype_ghost_color_caution {
   color: var(--token-zOdpc2i_7);
 }
-.roottype_secondary_color_magenta:hover
-  .slotTargetChildrentype_secondary_color_magenta {
+.rootcolor_magenta_type_secondary:hover
+  .slotTargetChildrencolor_magenta_type_secondary {
   color: var(--token-m2LiiC3to);
 }
-.roottype_light_color_caution:hover
-  .slotTargetChildrentype_light_color_caution {
+.rootcolor_caution_type_light:hover
+  .slotTargetChildrencolor_caution_type_light {
   color: var(--token-zuxijHDLE);
 }
 .roottype_link_color_blue:hover .slotTargetChildrentype_link_color_blue {
   color: var(--token-ECQQpTj0b);
 }
-.roottype_ghost_color_alert:hover .slotTargetChildrentype_ghost_color_alert {
+.rootcolor_alert_type_ghost:hover .slotTargetChildrencolor_alert_type_ghost {
   color: var(--token-h246Kg3cR);
 }
-.roottype_light_color_alert:hover .slotTargetChildrentype_light_color_alert {
+.rootcolor_alert_type_light:hover .slotTargetChildrencolor_alert_type_light {
   color: var(--token-8VWWUllYQ);
 }
-.roottype_link_color_magenta:hover .slotTargetChildrentype_link_color_magenta {
+.rootcolor_magenta_type_link:hover .slotTargetChildrencolor_magenta_type_link {
   color: var(--token-H2GdnGm1C);
 }
 .roottype_ghost_color_blue:hover .slotTargetChildrentype_ghost_color_blue {
   color: var(--token-ECQQpTj0b);
 }
-.roottype_light_color_blue:hover .slotTargetChildrentype_light_color_blue {
+.rootcolor_blue_type_light:hover .slotTargetChildrencolor_blue_type_light {
   color: var(--token-MxvXD2oSU);
 }
-.roottype_ghost_color_magenta:hover
-  .slotTargetChildrentype_ghost_color_magenta {
+.rootcolor_magenta_type_ghost:hover
+  .slotTargetChildrencolor_magenta_type_ghost {
   color: var(--token-H2GdnGm1C);
 }
-.roottype_light_color_magenta:hover
-  .slotTargetChildrentype_light_color_magenta {
+.rootcolor_magenta_type_light:hover
+  .slotTargetChildrencolor_magenta_type_light {
   color: var(--token-m2LiiC3to);
 }
-.rootcolor_brand_rounded:hover .slotTargetChildrencolor_brand_rounded {
+.rootrounded_color_brand:hover .slotTargetChildrenrounded_color_brand {
   color: var(--token-fuGaen6l1);
 }
 .svg {

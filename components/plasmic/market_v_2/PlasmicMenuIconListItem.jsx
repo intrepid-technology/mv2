@@ -116,15 +116,14 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
               "disabled"
             ),
 
+            [sty.slotTargetNavIconrenderContext_sidebar_selected]:
+              hasVariant(variants, "selected", "selected") &&
+              hasVariant(variants, "renderContext", "sidebar"),
             [sty.slotTargetNavIconselected]: hasVariant(
               variants,
               "selected",
               "selected"
-            ),
-
-            [sty.slotTargetNavIconselected_renderContext_sidebar]:
-              hasVariant(variants, "selected", "selected") &&
-              hasVariant(variants, "renderContext", "sidebar")
+            )
           })
         })}
 
@@ -162,15 +161,14 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
                     "disabled"
                   ),
 
+                  [sty.slotTargetNavTextrenderContext_sidebar_selected]:
+                    hasVariant(variants, "selected", "selected") &&
+                    hasVariant(variants, "renderContext", "sidebar"),
                   [sty.slotTargetNavTextselected]: hasVariant(
                     variants,
                     "selected",
                     "selected"
-                  ),
-
-                  [sty.slotTargetNavTextselected_renderContext_sidebar]:
-                    hasVariant(variants, "selected", "selected") &&
-                    hasVariant(variants, "renderContext", "sidebar")
+                  )
                 })
               })
             : null}
@@ -192,7 +190,7 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
                 defaultContents: "Member",
                 value: args.children,
                 className: classNames(sty.slotTargetChildren, {
-                  [sty.slotTargetChildrenselected_action__switch_renderContext_sidebar]:
+                  [sty.slotTargetChildrenrenderContext_sidebar_action__switch_selected]:
                     hasVariant(variants, "selected", "selected") &&
                     hasVariant(variants, "action", "_switch") &&
                     hasVariant(variants, "renderContext", "sidebar")
@@ -210,7 +208,7 @@ function PlasmicMenuIconListItem__RenderFunc(props) {
                 defaultContents: "Partner",
                 value: args.slot,
                 className: classNames(sty.slotTargetSlot, {
-                  [sty.slotTargetSlotselected_action__switch_renderContext_sidebar]:
+                  [sty.slotTargetSlotrenderContext_sidebar_action__switch_selected]:
                     hasVariant(variants, "selected", "selected") &&
                     hasVariant(variants, "action", "_switch") &&
                     hasVariant(variants, "renderContext", "sidebar")

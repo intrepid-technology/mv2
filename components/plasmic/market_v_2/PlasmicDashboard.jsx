@@ -71,6 +71,7 @@ function PlasmicDashboard__RenderFunc(props) {
               data-plasmic-name={"hireRemote"}
               data-plasmic-override={overrides.hireRemote}
               className={classNames("__wab_instance", sty.hireRemote)}
+              destination={""}
             />
 
             <CardDashboardNavDisplay

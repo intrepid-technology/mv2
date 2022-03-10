@@ -83,10 +83,10 @@ function PlasmicSwitchInput__RenderFunc(props) {
             "disabled"
           ),
 
-          [sty.backgroundon]: hasVariant(variants, "on", "on"),
-          [sty.backgroundon_disabled]:
+          [sty.backgrounddisabled_on]:
             hasVariant(variants, "on", "on") &&
-            hasVariant(variants, "disabled", "disabled")
+            hasVariant(variants, "disabled", "disabled"),
+          [sty.backgroundon]: hasVariant(variants, "on", "on")
         })}
       >
         <div

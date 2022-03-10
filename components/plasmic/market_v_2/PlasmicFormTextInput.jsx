@@ -83,15 +83,18 @@ function PlasmicFormTextInput__RenderFunc(props) {
             "prefix"
           ),
 
-          [sty.textInputlabels_prefix_labels_suffix]:
-            hasVariant(variants, "labels", "prefix") &&
-            hasVariant(variants, "labels", "suffix"),
+          [sty.textInputlabels_prefix_type_secondary]:
+            hasVariant(variants, "type", "secondary") &&
+            hasVariant(variants, "labels", "prefix"),
           [sty.textInputlabels_suffix]: hasVariant(
             variants,
             "labels",
             "suffix"
           ),
 
+          [sty.textInputlabels_suffix_labels_prefix]:
+            hasVariant(variants, "labels", "prefix") &&
+            hasVariant(variants, "labels", "suffix"),
           [sty.textInputtype_primary]: hasVariant(variants, "type", "primary"),
           [sty.textInputtype_secondary]: hasVariant(
             variants,
@@ -99,9 +102,6 @@ function PlasmicFormTextInput__RenderFunc(props) {
             "secondary"
           ),
 
-          [sty.textInputtype_secondary_labels_prefix]:
-            hasVariant(variants, "type", "secondary") &&
-            hasVariant(variants, "labels", "prefix"),
           [sty.textInputwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
         endAdornment={p.renderPlasmicSlot({

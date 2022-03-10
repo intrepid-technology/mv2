@@ -23,7 +23,7 @@
   background: var(--token-R5fCYkZee);
   border-color: var(--token-R5fCYkZee);
 }
-.rootcolor_black__switch {
+.root_switch_color_black {
   background: var(--token-IbTSH9_JJ);
   border-color: var(--token-IbTSH9_JJ);
 }
@@ -31,7 +31,7 @@
   background: var(--token-IbTSH9_JJ);
   border-color: var(--token-IbTSH9_JJ);
 }
-.rootdisabled_open_color_black {
+.rootcolor_black_disabled_open {
   background: var(--token-IbTSH9_JJ);
   border-color: var(--token-IbTSH9_JJ);
 }
@@ -65,6 +65,6 @@
   background: var(--token-fuGaen6l1);
   border-color: var(--token-fuGaen6l1);
 }
-.freeBoxdisabled_open_color_black {
+.freeBoxcolor_black_disabled_open {
   background: var(--token-fuGaen6l1);
 }

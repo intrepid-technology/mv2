@@ -68,7 +68,7 @@ function PlasmicNavbarMemberEdit__RenderFunc(props) {
               "profile"
             ),
 
-            [sty.navLinknavItems_settings_navItems_profile___6RIQkg1WIHh65T]:
+            [sty.navLinknavItems_profile_navItems_settings___6RIQhh65TKg1WI]:
               hasVariant(variants, "navItems", "settings") &&
               hasVariant(variants, "navItems", "profile"),
             [sty.navLinkselected_profile___6RIQgst1U]: hasVariant(

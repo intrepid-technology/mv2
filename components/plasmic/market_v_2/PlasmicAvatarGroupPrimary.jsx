@@ -48,12 +48,12 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
           [sty.rootamount__2_groupSize__16]:
             hasVariant(variants, "amount", "_2") &&
             hasVariant(variants, "groupSize", "_16"),
+          [sty.rootamount__4_groupSize__16]:
+            hasVariant(variants, "groupSize", "_16") &&
+            hasVariant(variants, "amount", "_4"),
           [sty.rootgroupSize__16_amount__3]:
             hasVariant(variants, "groupSize", "_16") &&
-            hasVariant(variants, "amount", "_3"),
-          [sty.rootgroupSize__16_amount__4]:
-            hasVariant(variants, "groupSize", "_16") &&
-            hasVariant(variants, "amount", "_4")
+            hasVariant(variants, "amount", "_3")
         }
       )}
     >
@@ -310,7 +310,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_4"
             ),
 
-            [sty.userAvatargroupSize__16_amount__4__g8XffiQnN3OMqc]:
+            [sty.userAvataramount__4_groupSize__16__g8Xff3OMqcIQnN]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_4")
           })}
@@ -343,7 +343,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_4"
             ),
 
-            [sty.userAvatargroupSize__16_amount__4__kf6WJiQnN3OMqc]:
+            [sty.userAvataramount__4_groupSize__16__kf6WJ3OMqcIQnN]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_4")
           })}
@@ -376,15 +376,15 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_4"
             ),
 
+            [sty.userAvataramount__4_groupSize__16__ipfFb3OMqcIQnN]:
+              hasVariant(variants, "groupSize", "_16") &&
+              hasVariant(variants, "amount", "_4"),
             [sty.userAvataramount__5__ipfFBbkkXr]: hasVariant(
               variants,
               "amount",
               "_5"
             ),
 
-            [sty.userAvatargroupSize__16_amount__4__ipfFbiQnN3OMqc]:
-              hasVariant(variants, "groupSize", "_16") &&
-              hasVariant(variants, "amount", "_4"),
             [sty.userAvatargroupSize__16_amount__5__ipfFbiQnNBkkXr]:
               hasVariant(variants, "groupSize", "_16") &&
               hasVariant(variants, "amount", "_5")
@@ -412,7 +412,7 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_3"
             ),
 
-            [sty.userAvataramount__3_groupSize__16__b4PkpjSrVyIQnN]:
+            [sty.userAvatargroupSize__16_amount__3__b4PkpiQnNJSrVy]:
               hasVariant(variants, "amount", "_3") &&
               hasVariant(variants, "groupSize", "_16")
           })}
@@ -452,14 +452,15 @@ function PlasmicAvatarGroupPrimary__RenderFunc(props) {
               "_3"
             ),
 
-            [sty.userAvataramount__3_groupSize__16__zdi5YJSrVyIQnN]:
-              hasVariant(variants, "amount", "_3") &&
-              hasVariant(variants, "groupSize", "_16"),
             [sty.userAvataramount__4__zdi5Y3OMqc]: hasVariant(
               variants,
               "amount",
               "_4"
-            )
+            ),
+
+            [sty.userAvatargroupSize__16_amount__3__zdi5YIQnNJSrVy]:
+              hasVariant(variants, "amount", "_3") &&
+              hasVariant(variants, "groupSize", "_16")
           })}
           navUserAvatar16={
             <img

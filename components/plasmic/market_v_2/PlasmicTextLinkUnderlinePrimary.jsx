@@ -52,23 +52,23 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
           [sty.rootcolor_dark]: hasVariant(variants, "color", "dark"),
           [sty.rootcolor_headline]: hasVariant(variants, "color", "headline"),
           [sty.rootcolor_light]: hasVariant(variants, "color", "light"),
-          [sty.rootcolor_light_size__14]:
-            hasVariant(variants, "color", "light") &&
-            hasVariant(variants, "size", "_14"),
           [sty.rootcolor_light_size__16]:
             hasVariant(variants, "color", "light") &&
             hasVariant(variants, "size", "_16"),
           [sty.rootcolor_light_size__18]:
             hasVariant(variants, "color", "light") &&
             hasVariant(variants, "size", "_18"),
-          [sty.rootcolor_light_size__24]:
-            hasVariant(variants, "color", "light") &&
-            hasVariant(variants, "size", "_24"),
           [sty.rootcolor_primary]: hasVariant(variants, "color", "primary"),
           [sty.rootsize__14]: hasVariant(variants, "size", "_14"),
+          [sty.rootsize__14_color_light]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_14"),
           [sty.rootsize__16]: hasVariant(variants, "size", "_16"),
           [sty.rootsize__18]: hasVariant(variants, "size", "_18"),
           [sty.rootsize__24]: hasVariant(variants, "size", "_24"),
+          [sty.rootsize__24_color_light]:
+            hasVariant(variants, "color", "light") &&
+            hasVariant(variants, "size", "_24"),
           [sty.rootsize__32]: hasVariant(variants, "size", "_32"),
           [sty.rootsize__40]: hasVariant(variants, "size", "_40")
         }
@@ -108,12 +108,12 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
               "light"
             ),
 
-            [sty.slotTargetTextcolor_light_size__14]:
-              hasVariant(variants, "color", "light") &&
-              hasVariant(variants, "size", "_14"),
-            [sty.slotTargetTextcolor_light_size__24]:
-              hasVariant(variants, "color", "light") &&
-              hasVariant(variants, "size", "_24"),
+            [sty.slotTargetTextcolor_light_size__16]:
+              hasVariant(variants, "size", "_16") &&
+              hasVariant(variants, "color", "light"),
+            [sty.slotTargetTextcolor_light_size__18]:
+              hasVariant(variants, "size", "_18") &&
+              hasVariant(variants, "color", "light"),
             [sty.slotTargetTextcolor_light_size__32]:
               hasVariant(variants, "color", "light") &&
               hasVariant(variants, "size", "_32"),
@@ -129,15 +129,15 @@ function PlasmicTextLinkUnderlinePrimary__RenderFunc(props) {
             [sty.slotTargetTextsize__10]: hasVariant(variants, "size", "_10"),
             [sty.slotTargetTextsize__12]: hasVariant(variants, "size", "_12"),
             [sty.slotTargetTextsize__14]: hasVariant(variants, "size", "_14"),
+            [sty.slotTargetTextsize__14_color_light]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "size", "_14"),
             [sty.slotTargetTextsize__16]: hasVariant(variants, "size", "_16"),
-            [sty.slotTargetTextsize__16_color_light]:
-              hasVariant(variants, "size", "_16") &&
-              hasVariant(variants, "color", "light"),
             [sty.slotTargetTextsize__18]: hasVariant(variants, "size", "_18"),
-            [sty.slotTargetTextsize__18_color_light]:
-              hasVariant(variants, "size", "_18") &&
-              hasVariant(variants, "color", "light"),
             [sty.slotTargetTextsize__24]: hasVariant(variants, "size", "_24"),
+            [sty.slotTargetTextsize__24_color_light]:
+              hasVariant(variants, "color", "light") &&
+              hasVariant(variants, "size", "_24"),
             [sty.slotTargetTextsize__32]: hasVariant(variants, "size", "_32"),
             [sty.slotTargetTextsize__36]: hasVariant(variants, "size", "_36"),
             [sty.slotTargetTextsize__40]: hasVariant(variants, "size", "_40"),

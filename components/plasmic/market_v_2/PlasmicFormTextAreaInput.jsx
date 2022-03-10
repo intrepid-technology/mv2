@@ -69,15 +69,15 @@ function PlasmicFormTextAreaInput__RenderFunc(props) {
             "end"
           ),
 
+          [sty.textAreaInputadornment_end_adornment_start]:
+            hasVariant(variants, "adornment", "start") &&
+            hasVariant(variants, "adornment", "end"),
           [sty.textAreaInputadornment_start]: hasVariant(
             variants,
             "adornment",
             "start"
           ),
 
-          [sty.textAreaInputadornment_start_adornment_end]:
-            hasVariant(variants, "adornment", "start") &&
-            hasVariant(variants, "adornment", "end"),
           [sty.textAreaInputtype_primary]: hasVariant(
             variants,
             "type",

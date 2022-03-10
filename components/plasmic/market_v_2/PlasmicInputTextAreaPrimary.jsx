@@ -67,28 +67,28 @@ function PlasmicInputTextAreaPrimary__RenderFunc(props) {
           [sty.parentheight__360]: hasVariant(variants, "height", "_360"),
           [sty.parentheight__540]: hasVariant(variants, "height", "_540"),
           [sty.parentheight__720]: hasVariant(variants, "height", "_720"),
-          [sty.parentheight__720_width__180]:
-            hasVariant(variants, "height", "_720") &&
-            hasVariant(variants, "width", "_180"),
-          [sty.parentheight__720_width__270]:
-            hasVariant(variants, "height", "_720") &&
-            hasVariant(variants, "width", "_270"),
-          [sty.parentheight__720_width__360]:
-            hasVariant(variants, "height", "_720") &&
-            hasVariant(variants, "width", "_360"),
-          [sty.parentheight__720_width__90]:
-            hasVariant(variants, "height", "_720") &&
-            hasVariant(variants, "width", "_90"),
           [sty.parentheight__90]: hasVariant(variants, "height", "_90"),
-          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
-          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
-          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
-          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
-          [sty.parentwidth__720]: hasVariant(variants, "width", "_720"),
-          [sty.parentwidth__720_height__90]:
+          [sty.parentheight__90_width__720]:
             hasVariant(variants, "width", "_720") &&
             hasVariant(variants, "height", "_90"),
+          [sty.parentwidth__180]: hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__180_height__720]:
+            hasVariant(variants, "height", "_720") &&
+            hasVariant(variants, "width", "_180"),
+          [sty.parentwidth__270]: hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__270_height__720]:
+            hasVariant(variants, "height", "_720") &&
+            hasVariant(variants, "width", "_270"),
+          [sty.parentwidth__360]: hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__360_height__720]:
+            hasVariant(variants, "height", "_720") &&
+            hasVariant(variants, "width", "_360"),
+          [sty.parentwidth__540]: hasVariant(variants, "width", "_540"),
+          [sty.parentwidth__720]: hasVariant(variants, "width", "_720"),
           [sty.parentwidth__90]: hasVariant(variants, "width", "_90"),
+          [sty.parentwidth__90_height__720]:
+            hasVariant(variants, "height", "_720") &&
+            hasVariant(variants, "width", "_90"),
           [sty.parentwidth_stretch]: hasVariant(variants, "width", "stretch")
         })}
       >

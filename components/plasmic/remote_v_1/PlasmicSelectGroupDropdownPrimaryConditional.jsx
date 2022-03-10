@@ -59,6 +59,9 @@ function PlasmicSelectGroupDropdownPrimaryConditional__RenderFunc(props) {
           "__wab_instance",
           sty.selectGroupDropdownPrimary__gFca9,
           {
+            [sty.selectGroupDropdownPrimaryconditional_width__360__gFca92MOhuNtXxk]:
+              hasVariant(variants, "width", "_360") &&
+              hasVariant(variants, "conditional", "conditional"),
             [sty.selectGroupDropdownPrimaryconditional_width_stretch__gFca92MOhuMw4Ux]:
               hasVariant(variants, "conditional", "conditional") &&
               hasVariant(variants, "width", "stretch"),
@@ -68,9 +71,6 @@ function PlasmicSelectGroupDropdownPrimaryConditional__RenderFunc(props) {
               "_360"
             ),
 
-            [sty.selectGroupDropdownPrimarywidth__360_conditional__gFca9NtXxk2MOhu]:
-              hasVariant(variants, "width", "_360") &&
-              hasVariant(variants, "conditional", "conditional"),
             [sty.selectGroupDropdownPrimarywidth_stretch__gFca9Mw4Ux]:
               hasVariant(variants, "width", "stretch")
           }
@@ -101,12 +101,12 @@ function PlasmicSelectGroupDropdownPrimaryConditional__RenderFunc(props) {
             {
               [sty.selectGroupDropdownPrimaryconditional__byjyN2MOhu]:
                 hasVariant(variants, "conditional", "conditional"),
+              [sty.selectGroupDropdownPrimaryconditional_width__360__byjyN2MOhuNtXxk]:
+                hasVariant(variants, "width", "_360") &&
+                hasVariant(variants, "conditional", "conditional"),
               [sty.selectGroupDropdownPrimaryconditional_width_stretch__byjyN2MOhuMw4Ux]:
                 hasVariant(variants, "conditional", "conditional") &&
-                hasVariant(variants, "width", "stretch"),
-              [sty.selectGroupDropdownPrimarywidth__360_conditional__byjyNNtXxk2MOhu]:
-                hasVariant(variants, "width", "_360") &&
-                hasVariant(variants, "conditional", "conditional")
+                hasVariant(variants, "width", "stretch")
             }
           )}
           description={true}

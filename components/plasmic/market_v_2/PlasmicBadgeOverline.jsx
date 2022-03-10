@@ -83,15 +83,14 @@ function PlasmicBadgeOverline__RenderFunc(props) {
                 "smoke"
               ),
 
+              [sty.slotTargetSubjectTextSlotcolors_smoke_type_outline]:
+                hasVariant(variants, "type", "outline") &&
+                hasVariant(variants, "colors", "smoke"),
               [sty.slotTargetSubjectTextSlottype_outline]: hasVariant(
                 variants,
                 "type",
                 "outline"
-              ),
-
-              [sty.slotTargetSubjectTextSlottype_outline_colors_smoke]:
-                hasVariant(variants, "type", "outline") &&
-                hasVariant(variants, "colors", "smoke")
+              )
             })
           })}
         </div>

@@ -50,47 +50,47 @@ function PlasmicTagBadge__RenderFunc(props) {
         sty.root,
         {
           [sty.rootcolor_blue]: hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_blue_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "blue"),
+          [sty.rootcolor_blue_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "blue"),
           [sty.rootcolor_brand]: hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_brand_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "brand"),
+          [sty.rootcolor_brand_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "brand"),
           [sty.rootcolor_green]: hasVariant(variants, "color", "green"),
           [sty.rootcolor_green_type_ghost]:
             hasVariant(variants, "color", "green") &&
             hasVariant(variants, "type", "ghost"),
+          [sty.rootcolor_green_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "green"),
           [sty.rootcolor_magenta]: hasVariant(variants, "color", "magenta"),
+          [sty.rootcolor_magenta_type_ghost]:
+            hasVariant(variants, "type", "ghost") &&
+            hasVariant(variants, "color", "magenta"),
+          [sty.rootcolor_magenta_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "magenta"),
           [sty.rootcolor_pink]: hasVariant(variants, "color", "pink"),
+          [sty.rootcolor_pink_type_outline]:
+            hasVariant(variants, "type", "outline") &&
+            hasVariant(variants, "color", "pink"),
           [sty.rootsize__12Px]: hasVariant(variants, "size", "_12Px"),
           [sty.rootsize__14Px]: hasVariant(variants, "size", "_14Px"),
           [sty.rootsize__16Px]: hasVariant(variants, "size", "_16Px"),
           [sty.rootsize__18Px]: hasVariant(variants, "size", "_18Px"),
           [sty.rootsize__20Px]: hasVariant(variants, "size", "_20Px"),
           [sty.roottype_ghost]: hasVariant(variants, "type", "ghost"),
-          [sty.roottype_ghost_color_blue]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "blue"),
-          [sty.roottype_ghost_color_brand]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "brand"),
-          [sty.roottype_ghost_color_magenta]:
-            hasVariant(variants, "type", "ghost") &&
-            hasVariant(variants, "color", "magenta"),
           [sty.roottype_ghost_color_pink]:
             hasVariant(variants, "type", "ghost") &&
             hasVariant(variants, "color", "pink"),
           [sty.roottype_outline]: hasVariant(variants, "type", "outline"),
-          [sty.roottype_outline_color_blue]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "blue"),
-          [sty.roottype_outline_color_brand]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "brand"),
-          [sty.roottype_outline_color_green]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "green"),
-          [sty.roottype_outline_color_magenta]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "magenta"),
-          [sty.roottype_outline_color_pink]:
-            hasVariant(variants, "type", "outline") &&
-            hasVariant(variants, "color", "pink"),
           [sty.roottype_secondary]: hasVariant(variants, "type", "secondary")
         }
       )}
@@ -177,15 +177,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.textBase10Px,
               className: classNames(sty.slotTargetTextBase10Px, {
+                [sty.slotTargetTextBase10Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetTextBase10Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetTextBase10Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetTextBase10Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetTextBase10Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetTextBase10Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetTextBase10Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetTextBase10Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetTextBase10Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetTextBase10Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetTextBase10Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
@@ -222,15 +246,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetTextBase10Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetTextBase10Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -240,21 +255,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetTextBase10Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetTextBase10Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetTextBase10Pxtype_primary]: hasVariant(
                   variants,
                   "type",
@@ -311,15 +311,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text6Px,
               className: classNames(sty.slotTargetText6Px, {
+                [sty.slotTargetText6Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetText6Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetText6Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetText6Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetText6Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetText6Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetText6Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetText6Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText6Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText6Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText6Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
@@ -344,15 +368,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetText6Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText6Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText6Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetText6Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -362,21 +377,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetText6Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText6Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText6Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetText6Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText6Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText6Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
@@ -427,15 +427,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text8Px,
               className: classNames(sty.slotTargetText8Px, {
+                [sty.slotTargetText8Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetText8Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetText8Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetText8Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetText8Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetText8Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetText8Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetText8Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText8Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText8Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText8Pxsize__12Px]: hasVariant(
                   variants,
                   "size",
@@ -466,15 +490,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetText8Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText8Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText8Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetText8Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -484,21 +499,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetText8Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText8Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText8Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetText8Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText8Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText8Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
@@ -549,15 +549,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text10Px,
               className: classNames(sty.slotTargetText10Px, {
+                [sty.slotTargetText10Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetText10Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetText10Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetText10Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetText10Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetText10Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetText10Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetText10Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText10Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText10Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText10Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
@@ -588,15 +612,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetText10Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText10Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText10Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetText10Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -606,21 +621,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetText10Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText10Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText10Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetText10Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText10Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText10Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
@@ -671,15 +671,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text12Px,
               className: classNames(sty.slotTargetText12Px, {
+                [sty.slotTargetText12Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetText12Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetText12Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetText12Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetText12Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetText12Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetText12Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetText12Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText12Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText12Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText12Pxsize__18Px]: hasVariant(
                   variants,
                   "size",
@@ -698,15 +722,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetText12Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText12Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText12Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetText12Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -716,21 +731,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetText12Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText12Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText12Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetText12Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText12Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText12Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
@@ -781,15 +781,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.text14Px,
               className: classNames(sty.slotTargetText14Px, {
+                [sty.slotTargetText14Pxcolor_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetText14Pxcolor_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetText14Pxcolor_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetText14Pxcolor_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetText14Pxcolor_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetText14Pxcolor_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetText14Pxcolor_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetText14Pxcolor_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText14Pxcolor_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetText14Pxcolor_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText14Pxsize__14Px]: hasVariant(
                   variants,
                   "size",
@@ -820,15 +844,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetText14Pxtype_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText14Pxtype_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText14Pxtype_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetText14Pxtype_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -838,21 +853,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetText14Pxtype_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetText14Pxtype_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetText14Pxtype_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetText14Pxtype_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetText14Pxtype_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetText14Pxtype_secondary]: hasVariant(
                   variants,
                   "type",
@@ -927,15 +927,39 @@ function PlasmicTagBadge__RenderFunc(props) {
               defaultContents: "tag",
               value: args.textBase10Px2,
               className: classNames(sty.slotTargetTextBase10Px2, {
+                [sty.slotTargetTextBase10Px2color_blue_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "blue"),
+                [sty.slotTargetTextBase10Px2color_blue_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "blue"),
                 [sty.slotTargetTextBase10Px2color_brand]: hasVariant(
                   variants,
                   "color",
                   "brand"
                 ),
 
+                [sty.slotTargetTextBase10Px2color_brand_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "brand"),
+                [sty.slotTargetTextBase10Px2color_brand_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "brand"),
                 [sty.slotTargetTextBase10Px2color_green_type_ghost]:
                   hasVariant(variants, "color", "green") &&
                   hasVariant(variants, "type", "ghost"),
+                [sty.slotTargetTextBase10Px2color_green_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "green"),
+                [sty.slotTargetTextBase10Px2color_magenta_type_ghost]:
+                  hasVariant(variants, "type", "ghost") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetTextBase10Px2color_magenta_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "magenta"),
+                [sty.slotTargetTextBase10Px2color_pink_type_outline]:
+                  hasVariant(variants, "type", "outline") &&
+                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetTextBase10Px2size__12Px]: hasVariant(
                   variants,
                   "size",
@@ -972,15 +996,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "ghost"
                 ),
 
-                [sty.slotTargetTextBase10Px2type_ghost_color_blue]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px2type_ghost_color_brand]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px2type_ghost_color_magenta]:
-                  hasVariant(variants, "type", "ghost") &&
-                  hasVariant(variants, "color", "magenta"),
                 [sty.slotTargetTextBase10Px2type_ghost_color_pink]:
                   hasVariant(variants, "type", "ghost") &&
                   hasVariant(variants, "color", "pink"),
@@ -990,21 +1005,6 @@ function PlasmicTagBadge__RenderFunc(props) {
                   "outline"
                 ),
 
-                [sty.slotTargetTextBase10Px2type_outline_color_blue]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "blue"),
-                [sty.slotTargetTextBase10Px2type_outline_color_brand]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "brand"),
-                [sty.slotTargetTextBase10Px2type_outline_color_green]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "green"),
-                [sty.slotTargetTextBase10Px2type_outline_color_magenta]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "magenta"),
-                [sty.slotTargetTextBase10Px2type_outline_color_pink]:
-                  hasVariant(variants, "type", "outline") &&
-                  hasVariant(variants, "color", "pink"),
                 [sty.slotTargetTextBase10Px2type_secondary]: hasVariant(
                   variants,
                   "type",

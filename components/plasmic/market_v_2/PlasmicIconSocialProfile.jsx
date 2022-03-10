@@ -197,24 +197,18 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                     "quickbooks"
                   ),
 
-                  [sty.svgIcon6accounting_quickbooks_size__45X45]:
-                    hasVariant(variants, "accounting", "quickbooks") &&
-                    hasVariant(variants, "size", "_45X45"),
-                  [sty.svgIcon6accounting_quickbooks_size__90X90]:
-                    hasVariant(variants, "accounting", "quickbooks") &&
-                    hasVariant(variants, "size", "_90X90"),
                   [sty.svgIcon6accounting_xero_size__45X45]:
                     hasVariant(variants, "accounting", "xero") &&
                     hasVariant(variants, "size", "_45X45"),
                   [sty.svgIcon6accounting_xero_size__90X90]:
                     hasVariant(variants, "accounting", "xero") &&
                     hasVariant(variants, "size", "_90X90"),
+                  [sty.svgIcon6size__45X45_accounting_quickbooks]:
+                    hasVariant(variants, "accounting", "quickbooks") &&
+                    hasVariant(variants, "size", "_45X45"),
                   [sty.svgIcon6size__45X45_social_angellist]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "angellist"),
-                  [sty.svgIcon6size__45X45_social_discord]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "discord"),
                   [sty.svgIcon6size__45X45_social_dribbble]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "dribbble"),
@@ -224,6 +218,9 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                   [sty.svgIcon6size__45X45_social_github]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "github"),
+                  [sty.svgIcon6size__45X45_social_google]:
+                    hasVariant(variants, "social", "google") &&
+                    hasVariant(variants, "size", "_45X45"),
                   [sty.svgIcon6size__45X45_social_hackerNews]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "hackerNews"),
@@ -239,54 +236,57 @@ function PlasmicIconSocialProfile__RenderFunc(props) {
                   [sty.svgIcon6size__45X45_social_pinterest]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "pinterest"),
-                  [sty.svgIcon6size__45X45_social_productHunt]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "productHunt"),
                   [sty.svgIcon6size__45X45_social_reddit]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "reddit"),
-                  [sty.svgIcon6size__45X45_social_slack]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "slack"),
-                  [sty.svgIcon6size__45X45_social_snapchat]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "snapchat"),
                   [sty.svgIcon6size__45X45_social_soundcloud]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "soundcloud"),
                   [sty.svgIcon6size__45X45_social_spotify]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "spotify"),
-                  [sty.svgIcon6size__45X45_social_tikTok]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "tikTok"),
                   [sty.svgIcon6size__45X45_social_twitch]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "twitch"),
-                  [sty.svgIcon6size__45X45_social_twitter]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "twitter"),
                   [sty.svgIcon6size__45X45_social_wechat]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "wechat"),
-                  [sty.svgIcon6size__45X45_social_whatsapp]:
-                    hasVariant(variants, "size", "_45X45") &&
-                    hasVariant(variants, "social", "whatsapp"),
                   [sty.svgIcon6size__45X45_social_youtube]:
                     hasVariant(variants, "size", "_45X45") &&
                     hasVariant(variants, "social", "youtube"),
+                  [sty.svgIcon6size__90X90_accounting_quickbooks]:
+                    hasVariant(variants, "accounting", "quickbooks") &&
+                    hasVariant(variants, "size", "_90X90"),
+                  [sty.svgIcon6social_discord_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "discord"),
                   [sty.svgIcon6social_google]: hasVariant(
                     variants,
                     "social",
                     "google"
                   ),
 
-                  [sty.svgIcon6social_google_size__45X45]:
-                    hasVariant(variants, "social", "google") &&
-                    hasVariant(variants, "size", "_45X45"),
+                  [sty.svgIcon6social_productHunt_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "productHunt"),
+                  [sty.svgIcon6social_slack_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "slack"),
+                  [sty.svgIcon6social_snapchat_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "snapchat"),
+                  [sty.svgIcon6social_tikTok_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "tikTok"),
+                  [sty.svgIcon6social_twitter_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "twitter"),
                   [sty.svgIcon6social_website_size__45X45]:
                     hasVariant(variants, "social", "website") &&
-                    hasVariant(variants, "size", "_45X45")
+                    hasVariant(variants, "size", "_45X45"),
+                  [sty.svgIcon6social_whatsapp_size__45X45]:
+                    hasVariant(variants, "size", "_45X45") &&
+                    hasVariant(variants, "social", "whatsapp")
                 })}
                 role={"img"}
               />
