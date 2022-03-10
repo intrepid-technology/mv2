@@ -24,6 +24,7 @@
   margin-top: 16px;
 }
 .root:hover {
+  box-shadow: 0px 0px 16px 4px #0000000d;
   border-color: var(--token-akkcKiBNZ);
 }
 .freeBox {
@@ -62,7 +63,7 @@
   max-width: 100%;
   width: 24px;
   height: 24px;
-  color: var(--token-MAJ29KQMI);
+  color: var(--token-SilK1AnWd);
 }
 .slotTargetHeadline {
   font-size: 16px;
