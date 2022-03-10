@@ -20,6 +20,7 @@ import CardDashboardNavDisplay from "../../CardDashboardNavDisplay"; // plasmic-
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jRhtnjrFaHJWfNWC1k5BV/projectcss
 import sty from "./PlasmicDashboard.module.css"; // plasmic-import: BTvI7GKEeD/css
+import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
 import DesignIcon from "./icons/PlasmicIcon__Design"; // plasmic-import: l3isbgQ3dC/icon
 import BenefitsHeartIcon from "./icons/PlasmicIcon__BenefitsHeart"; // plasmic-import: jzpsph1Rn/icon
 import RecommendationsIcon from "./icons/PlasmicIcon__Recommendations"; // plasmic-import: wWVEzr7B1/icon
@@ -72,6 +73,12 @@ function PlasmicDashboard__RenderFunc(props) {
               data-plasmic-override={overrides.hireRemote}
               className={classNames("__wab_instance", sty.hireRemote)}
               destination={""}
+              slot={
+                <UserIcon
+                  className={classNames(projectcss.all, sty.svg__nafFm)}
+                  role={"img"}
+                />
+              }
             />
 
             <CardDashboardNavDisplay

@@ -62,6 +62,7 @@ function PlasmicCardDashboardNavDisplay__RenderFunc(props) {
             data-plasmic-name={"iconElementCircle"}
             data-plasmic-override={overrides.iconElementCircle}
             className={classNames("__wab_instance", sty.iconElementCircle)}
+            color={"brand"}
             iconSlot={p.renderPlasmicSlot({
               defaultContents: (
                 <UserIcon
