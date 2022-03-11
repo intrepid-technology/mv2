@@ -133,7 +133,7 @@ function PlasmicDashboard__RenderFunc(props) {
             <CardDashboardNavDisplay
               data-plasmic-name={"giveBenefits"}
               data-plasmic-override={overrides.giveBenefits}
-              body={"Create customised insurance and benefits packages"}
+              body={"Create customised benefits packages"}
               className={classNames("__wab_instance", sty.giveBenefits)}
               headline={"Give my team benefits"}
               slot={
@@ -205,7 +205,7 @@ function PlasmicDashboard__RenderFunc(props) {
             <CardDashboardNavDisplay
               data-plasmic-name={"getHelp"}
               data-plasmic-override={overrides.getHelp}
-              body={"Learn how to get the most from the Intrepid community"}
+              body={"Learn more about the Intrepid community"}
               className={classNames("__wab_instance", sty.getHelp)}
               headline={"Get help"}
               slot={
