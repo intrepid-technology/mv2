@@ -22,6 +22,7 @@ import projectcss from "./plasmic_market_v_2.module.css"; // plasmic-import: 3jR
 import sty from "./PlasmicDashboard.module.css"; // plasmic-import: BTvI7GKEeD/css
 import UserIcon from "./icons/PlasmicIcon__User"; // plasmic-import: eMAeU2OiF/icon
 import DesignIcon from "./icons/PlasmicIcon__Design"; // plasmic-import: l3isbgQ3dC/icon
+import CreatorIcon from "../remote_v_1/icons/PlasmicIcon__Creator"; // plasmic-import: mDnezm493/icon
 import BenefitsHeartIcon from "./icons/PlasmicIcon__BenefitsHeart"; // plasmic-import: jzpsph1Rn/icon
 import RecommendationsIcon from "./icons/PlasmicIcon__Recommendations"; // plasmic-import: wWVEzr7B1/icon
 import SearchFindIcon from "../remote_v_1/icons/PlasmicIcon__SearchFind"; // plasmic-import: aWyTFWXiRU/icon
@@ -112,7 +113,7 @@ function PlasmicDashboard__RenderFunc(props) {
               className={classNames("__wab_instance", sty.partnerCreator)}
               headline={"Partner with a creator"}
               slot={
-                <DesignIcon
+                <CreatorIcon
                   className={classNames(projectcss.all, sty.svg___7HgLt)}
                   role={"img"}
                 />

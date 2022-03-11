@@ -5321,6 +5321,11 @@
           "id": "wjcSmS91dt",
           "name": "CustomerIcon",
           "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Customer.jsx"
+        },
+        {
+          "id": "mDnezm493",
+          "name": "CreatorIcon",
+          "moduleFilePath": "plasmic/remote_v_1/icons/PlasmicIcon__Creator.jsx"
         }
       ],
       "images": [
