@@ -106,6 +106,30 @@ function PlasmicDashboard__RenderFunc(props) {
             </CardDashboardNavDisplay>
 
             <CardDashboardNavDisplay
+              data-plasmic-name={"partnerCreator"}
+              data-plasmic-override={overrides.partnerCreator}
+              body={"Form a brand partnership with a content creator"}
+              className={classNames("__wab_instance", sty.partnerCreator)}
+              headline={"Partner with a creator"}
+              slot={
+                <DesignIcon
+                  className={classNames(projectcss.all, sty.svg___7HgLt)}
+                  role={"img"}
+                />
+              }
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__v6PKw
+                )}
+              >
+                {"Hire a creator"}
+              </div>
+            </CardDashboardNavDisplay>
+
+            <CardDashboardNavDisplay
               data-plasmic-name={"giveBenefits"}
               data-plasmic-override={overrides.giveBenefits}
               body={"Create customised insurance and benefits packages"}
@@ -213,6 +237,7 @@ const PlasmicDescendants = {
     "freeBox",
     "hireRemote",
     "contractFreelancer",
+    "partnerCreator",
     "giveBenefits",
     "personalisedMatching",
     "discoverTeams",
@@ -223,6 +248,7 @@ const PlasmicDescendants = {
     "freeBox",
     "hireRemote",
     "contractFreelancer",
+    "partnerCreator",
     "giveBenefits",
     "personalisedMatching",
     "discoverTeams",
@@ -231,6 +257,7 @@ const PlasmicDescendants = {
 
   hireRemote: ["hireRemote"],
   contractFreelancer: ["contractFreelancer"],
+  partnerCreator: ["partnerCreator"],
   giveBenefits: ["giveBenefits"],
   personalisedMatching: ["personalisedMatching"],
   discoverTeams: ["discoverTeams"],
@@ -269,6 +296,7 @@ export const PlasmicDashboard = Object.assign(
     freeBox: makeNodeComponent("freeBox"),
     hireRemote: makeNodeComponent("hireRemote"),
     contractFreelancer: makeNodeComponent("contractFreelancer"),
+    partnerCreator: makeNodeComponent("partnerCreator"),
     giveBenefits: makeNodeComponent("giveBenefits"),
     personalisedMatching: makeNodeComponent("personalisedMatching"),
     discoverTeams: makeNodeComponent("discoverTeams"),

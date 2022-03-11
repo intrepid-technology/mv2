@@ -80,6 +80,22 @@
   height: 24px;
   color: var(--token-SilK1AnWd);
 }
+.partnerCreator:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.text__v6PKw {
+  font-weight: 600;
+}
+.svg___7HgLt {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  color: var(--token-SilK1AnWd);
+}
 .giveBenefits:global(.__wab_instance) {
   position: relative;
   top: auto;
