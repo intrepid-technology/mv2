@@ -417,11 +417,11 @@ function PlasmicHome__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "iphone678Plus")
-                      ? "Global payments and human resources platform to build, manage, and pay distributed and remote teams"
+                      ? "Global payments and human resources platform to build, manage, and pay remote teams"
                       : hasVariant(globalVariants, "screen", "iphone12ProMax")
-                      ? "Global payments and human resources platform to build, manage, and pay distributed and remote teams"
+                      ? "Global payments and human resources platform to build, manage, and pay remote teams"
                       : hasVariant(globalVariants, "screen", "desktop")
-                      ? "Global payments and employment platform to build, manage, and pay distributed and remote teams"
+                      ? "Global payments and human resources platform to build, manage, and pay remote teams"
                       : "Business management software that gives your remote company superpowers"}
                   </div>
 
